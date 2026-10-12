@@ -354,3 +354,11 @@ Foundation §16 distingue campo representado de ventana activa, y su diccionario
 La quinta de Foundation añade un contraste útil para una lectura abreviada de §1.7: procesar información ya disponible puede mejorar su aprovechamiento por un observador limitado; no recuperar información descartada. Utilidad del resultado y preservación de sus límites se examinan por separado. No transforma C en reserva B calculada ni un indicator en capacidad efectiva; no añade una métrica universal.
 
 73 sigue siendo propuesta de exposición/taxonomía en su fuente, no una modificación de A/B/C/D. Se cumple la lectura integral del sucesor pero faltan derivaciones y consumidores; no se cierra una prueba o H06 por esta relación. Ningún texto original se modifica.
+
+---
+
+## Fuentes, receptores y cambios del corpus — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** El resultado de un monitor sobre la falta de justificación puede ser A de ese proceso sin establecer B/C del objeto o eliminar D. HF v0.6 codifica un diagnóstico confiable estipulado y conserva fallos con observer silencioso o deshabilitado. No demuestra autocertificación, universalidad o mejor coste. Se mantiene el contraejemplo del peer fuerte.
+
+Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.

@@ -358,3 +358,11 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** No volver a ejecutar66 ni tratar la redacción anterior como autoridad de la versión actual. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+---
+
+## Fuentes, receptores y cambios del corpus — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Se cotejó cada delta de clasificación de 00E–00J: añadieron contexto DDS, no resultados nativos. Los límites anteriores permanecen; no se renombra S/T/H ni se revalida una edición congelada. Tres README de extensiones necesitan una época SHA clara. No corregir pruebas o resultados para obtener éxito.
+
+Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.

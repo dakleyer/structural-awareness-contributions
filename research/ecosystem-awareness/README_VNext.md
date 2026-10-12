@@ -346,3 +346,11 @@ Exact R01 transfer/isomorphism and cross-simulator S5 equivalence remain under T
 **Limits:** Four functionally distinct checks were run in sequence, but no separate independently operating AI agent or third-party auditor could be invoked here. Author-orchestrated checks never become independent-agent approval. The G01/T01–T02 documentary gap is narrowed within the ten-claim pilot; T03/T04 governance and broader claim coverage remain open. UC-4/FG-TIDA and any external-source legal rights remain governed by their owners.
 
 **Maintenance trigger:** when a claim source materially changes or an outward-facing consumer is edited, the EA/DDS programme editor checks the corresponding Cxx record and its observed consumers; lack of third-party response does not equal acceptance. Do not expand beyond the ten active claims without measuring maintenance and reader benefit.
+
+---
+
+## Fuentes, receptores y cambios del corpus — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Index/Stages A-B-C conservan una metodología con objetos y referencias distintos. C02 es infraestructura y UC4 Stage0/1 no equivalen a DDS B/C. Código o cobertura no conceden aceptación. La sidecar Cxx orienta hacia fuentes y consumidores; no prueba cumplimiento. Las nuevas 74/75 afectan admisión del checker e historia visible, sin cerrar T03/T04.
+
+Los datos y límites están en [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.

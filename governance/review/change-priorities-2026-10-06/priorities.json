@@ -1,5 +1,5 @@
 {
-  "version": "1.8",
+  "version": "1.9",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -2635,6 +2635,74 @@
       "positive_impact_proven": false,
       "source_guard": "Fuente integrada yv0.4/partes en una única VNext; todas las versiones y resultados intactos",
       "assessment_basis": "Codex mismo asistente; contraste textual focal, no lectura completa de Foundation ni fallo runtime demostrado"
+    },
+    {
+      "date": "2026-10-12",
+      "source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+      "state": "Pendiente de decisión",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "id": 74,
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "source": "research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py",
+      "source_sha": "69c3bafe024d99a534ba8896ef12e0ba277ab8f6",
+      "heading": "Admisión booleana de la sustitución NOT_APPLICABLE",
+      "title": "Rechazar sustitutos NA de tipo string antes de adjudicar",
+      "before": "def require_na_rationale(result: dict[str, Any]) -> None:\n    \"\"\"Enforce per-row NA rationale presence before running frozen v0.2.\n\n    Whether a reason predates the inspected outcomes remains a separate\n    preregistration and reviewer obligation.\n    \"\"\"\n    for position, row in enumerate(result.get(\"gates\", [])):\n        if not isinstance(row, dict):\n            raise ApplicabilityContractError(f\"non_object_gate_row:{position}\")\n        if (row.get(\"applicability\") == \"NOT_APPLICABLE\"\n                or row.get(\"own_verdict\") == \"NOT_APPLICABLE\"):\n            rationale = row.get(\"applicability_rationale\")\n            if not isinstance(rationale, str) or not rationale.strip():\n                gid = row.get(\"gate_id\", f\"row-{position}\")\n                raise ApplicabilityContractError(\n                    f\"not_applicable_requires_rationale:{gid}\"\n                )",
+      "after": "def require_na_rationale(result: dict[str, Any]) -> None:\n    \"\"\"Enforce typed NA substitution and rationale before running frozen v0.2.\n\n    Whether a reason predates the inspected outcomes remains a separate\n    preregistration and reviewer obligation.\n    \"\"\"\n    for position, row in enumerate(result.get(\"gates\", [])):\n        if not isinstance(row, dict):\n            raise ApplicabilityContractError(f\"non_object_gate_row:{position}\")\n        if (\"na_substitute_satisfied\" in row\n                and not isinstance(row[\"na_substitute_satisfied\"], bool)):\n            gid = row.get(\"gate_id\", f\"row-{position}\")\n            raise ApplicabilityContractError(\n                f\"na_substitute_satisfied_must_be_boolean:{gid}\"\n            )\n        if (row.get(\"applicability\") == \"NOT_APPLICABLE\"\n                or row.get(\"own_verdict\") == \"NOT_APPLICABLE\"):\n            rationale = row.get(\"applicability_rationale\")\n            if not isinstance(rationale, str) or not rationale.strip():\n                gid = row.get(\"gate_id\", f\"row-{position}\")\n                raise ApplicabilityContractError(\n                    f\"not_applicable_requires_rationale:{gid}\"\n                )",
+      "before_matches": 1,
+      "after_matches": 0,
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "3 — Contratos y protocolo de evaluación",
+      "benefit": "Evitar que un valor no booleano como \"false\" satisfaga por truthiness una dependencia NOT_APPLICABLE, produciendo calificación no sustentada.",
+      "riskReason": "Cambiaría la admisión de inputs del checker sucesor; hay que mantener T05/T06, consumidores y versiones congeladas. No modifica el checker v0.2 ni resultados.",
+      "costReason": "Lectura estática, registrar casos válidos/invalidantes y revisar el contrato de entrada y consumidores. Confirmación prospectiva en un sucesor, sin regraduar corridas históricas.",
+      "dependencies": [
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+        "research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.2.py"
+      ],
+      "gate": "Propuesta de sucesor de v0.3; antes de decidir registrar/revisar booleanos true/false, ausencia y strings/listas/números, conserva T05/T06. No se ejecuta ni modifica código congelado por esta auditoría. Decisión concreta de Iván.",
+      "preparation": "Contraejemplo por lectura de código; no ejecución/reproducción experimental. Par literal actual localizado.",
+      "quality": "Corrección de admisión propuesta; revisión prospectiva pendiente",
+      "assessment_basis": "Codex mismo asistente, lectura completa del v0.3 y funciones relevantes del v0.2; razonamiento estático"
+    },
+    {
+      "date": "2026-10-12",
+      "source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+      "state": "Pendiente de decisión",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "id": 75,
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "source_sha": "985845b1876652a60a0cadfff40201085f40be0d",
+      "heading": "Conservar historia sin reabrir propuestas incorporadas",
+      "title": "Mantener auditorías y viejos publicados al cerrar propuestas",
+      "before": "8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.",
+      "after": "8. **Closed-proposal check:** once a proposed change is incorporated, mark it as incorporated with its source version, decision and evidence. Retain its original before/after text, audit discussion and dissent in this VNext, in a clearly dated historical section or collapsed block, so it is excluded from the pending queue without losing the review record. Git history remains additional custody.",
+      "before_matches": 1,
+      "after_matches": 0,
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "1 — Claridad de evidencia y estado",
+      "benefit": "Resolver la contradicción entre eliminar propuestas incorporadas y conservar audit conversation/antes-después visible que Iván pidió.",
+      "riskReason": "Confundir historia con cola vigente o reabrir cambios ya incorporados; restaurar debe usar textos auténticos y estados fechados, sin tocar canon.",
+      "costReason": "Conciliar reglas, recuperar/citar las épocas auténticas y mantener su disposición actual. Redactar una línea no devuelve por sí solo las auditorías retiradas.",
+      "dependencies": [
+        "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "gate": "Conservar estados de incorporación y decisiones actuales; no reaplicar incorporados ni reconstruir viejos de memoria. Decidir presentación histórica y restitución auténtica dentro de la única VNext.",
+      "preparation": "Contradicción documental confirmada; regla propuesta, recuperación de épocas pendiente",
+      "quality": "Cambio procedimental propuesto; no cierre automático de T04",
+      "assessment_basis": "DDS VNext actual, anterior del6octubre y procedimiento de conservación cotejados"
     }
   ],
   "audit_coverage": [
@@ -3107,36 +3175,68 @@
         ]
       },
       "reason": "Estado anterior a la lectura completa de Foundation; conservado."
+    },
+    {
+      "version": "1.8",
+      "source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+      "current_scope": {
+        "date": "2026-10-06",
+        "source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+        "active_expedients": 53,
+        "paired_proposals": 64,
+        "pending_paired": 49,
+        "already_published": 7,
+        "withdrawn": 1,
+        "superseded": 2,
+        "resolved_by_other_source_edition": 2,
+        "reformulated": 3,
+        "planning_without_literal_pair": 9,
+        "other_preserved_pairs_assessed": 32,
+        "documents_without_own_literal_pair": 19,
+        "registered_rows": 73,
+        "documentary_review_candidates": 12,
+        "review": "Foundation integrada completa135021;pasadas1/3/4textuales ycontraste5propio;segunda material,quinta ampliada ysexta global abiertas. Nueva lectura sustantiva,no nuevos pares.",
+        "added_here": [],
+        "reformulated_here": [
+          3,
+          4,
+          5
+        ],
+        "reassessed_here": [
+          73
+        ],
+        "observed_concurrent_workspace": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md",
+        "scope_count_limit": "53 nombres de expediente activos observados,incluido benchmarkv0.3;no prueba de cobertura científica/unicidad lógica de material nuevo."
+      },
+      "reason": "Preserved cut before integral change/consistency review completed12October"
     }
   ],
   "current_scope": {
-    "date": "2026-10-06",
-    "source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
-    "active_expedients": 53,
-    "paired_proposals": 64,
-    "pending_paired": 49,
+    "date": "2026-10-12",
+    "source_commit": "c36da6745c3893b0200014358c48178778d8cee9",
+    "active_expedients": 72,
+    "vnext_names": 71,
+    "reused_benchmark": 1,
+    "declared_replica_pairs": 7,
+    "logical_candidates_excluding_known_replicas": 65,
+    "scope_count_limit": "Raw72 names, seven declared copies; not certification ofsource-by-source scientific completeness or independent reviewers.",
+    "paired_proposals": 66,
+    "pending_paired": 51,
     "already_published": 7,
     "withdrawn": 1,
     "superseded": 2,
     "resolved_by_other_source_edition": 2,
     "reformulated": 3,
     "planning_without_literal_pair": 9,
-    "other_preserved_pairs_assessed": 32,
-    "documents_without_own_literal_pair": 19,
-    "registered_rows": 73,
+    "registered_rows": 75,
     "documentary_review_candidates": 12,
-    "review": "Foundation integrada completa135021;pasadas1/3/4textuales ycontraste5propio;segunda material,quinta ampliada ysexta global abiertas. Nueva lectura sustantiva,no nuevos pares.",
-    "added_here": [],
-    "reformulated_here": [
-      3,
-      4,
-      5
+    "new_candidates": [
+      74,
+      75
     ],
-    "reassessed_here": [
-      73
-    ],
-    "observed_concurrent_workspace": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md",
-    "scope_count_limit": "53 nombres de expediente activos observados,incluido benchmarkv0.3;no prueba de cobertura científica/unicidad lógica de material nuevo."
+    "review": "Integral comparison of2186 files and changes against prior audits; no closure of unfinished five/sixth campaign.",
+    "all_files_examined": 2194,
+    "added_files_from_previous_cut": 665
   },
   "dependency_epochs": [
     {
@@ -3462,6 +3562,50 @@
       ],
       "publication_revalidation_commit": "f0ebdd1031eb740b181c6a405fba6beb7f29ff6d",
       "dds_receptor_revalidation": "Pasajesnuevos completos y contexto;perfiles/denominadorespendientes"
+    },
+    {
+      "date": "2026-10-12",
+      "source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+      "previous_cut": "09b8fe09082f15612114ebe0fd3be8418be7a061",
+      "all_files": 2186,
+      "exact_git_blob_checks": 2186,
+      "added": 657,
+      "modified": 37,
+      "deleted": 0,
+      "unchanged": 1492,
+      "binaries_unchanged": 41,
+      "syntax_checks": {
+        "json": 606,
+        "python": 299,
+        "jsonl_records": 1712,
+        "jsonl_files": 53
+      },
+      "syntax_errors": 0,
+      "known_replica_pairs": 7,
+      "hf_v06_records_checked": 300,
+      "hf_v06_hashes_checked": 15,
+      "global_five_passes_closed": false,
+      "global_sixth_launched": false,
+      "canonical_incorporation": false,
+      "new_workspaces": [],
+      "new_candidates": [
+        74,
+        75
+      ],
+      "reassessed_candidates": [
+        26
+      ],
+      "limits": "Integral change/integrity/consistency review; static reasoning and record checks, no experiments/native/source-scientific closure or reexport of binaries.",
+      "material_next": [
+        "Confirm typed NA input prospectively on successor",
+        "Resolve visible DDS audit history versus no-zombie rule",
+        "Locate epochs ofthree README/SHA bindings",
+        "Keep fundamental/derivation/profile scientific passes and global reconciliation open"
+      ],
+      "final_source_commit": "c36da6745c3893b0200014358c48178778d8cee9",
+      "final_all_files": 2194,
+      "final_added": 665,
+      "concurrent_delta_read": 11
     }
   ],
   "rating_updates": [
@@ -3557,9 +3701,44 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+      "reason": "New DDS source context reduces urgency of26; history preserved",
+      "updates": [
+        {
+          "id": 26,
+          "date": "2026-10-12",
+          "review_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "wave": "1 — Claridad de evidencia y estado",
+          "state": "Pendiente de decisión",
+          "quality": "Aclaración opcional",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Explicar por qué el self-test puede ser correcto con controles FAIL/INCONCLUSIVE; la nueva cabecera ya separa infraestructura de resultados de tecnología.",
+          "riskReason": "Adición documental acotada; no convertir controles esperados en eficacia ni duplicar innecesariamente la cabecera.",
+          "costReason": "Cotejar vector y ámbito actual; una precisión breve, sin nueva ejecución o cambio de freeze.",
+          "gate": "Viejo actual localizado, preservar SELFTEST_RECORDv0.9 y expectativas. Valorar utilidad adicional con la nueva cabecera DDS; ninguna incorporación sin decisión concreta.",
+          "preparation": "Par literal conservado; aclaración opcional de menor urgencia tras la nueva cabecera",
+          "rationale": "La source actual incorpora explícitamente shared test-infrastructure qualification y not a substantive Stage A/B/C result; reduce la urgencia del hallazgo anterior sin eliminar la explicación de los vectores.",
+          "acceptance": "Conservar tipos y denominadores; decidir si aporta comprensión adicional suficiente.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+            "source_sha": "a467c6d60803bf0864dd23ba260bd92d67aec993",
+            "before_matches": 1,
+            "after_matches": 0,
+            "scope": "Current source excluding quoted proposals"
+          }
+        }
+      ]
     }
   ],
-  "publication_base_commit": "f0ebdd1031eb740b181c6a405fba6beb7f29ff6d",
+  "publication_base_commit": "c36da6745c3893b0200014358c48178778d8cee9",
   "publication_rebases": [
     {
       "from": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",
@@ -3576,6 +3755,11 @@
       "from": "409bfa9eff2b3e24e7350021db9e587861583de8",
       "to": "f0ebdd1031eb740b181c6a405fba6beb7f29ff6d",
       "reason": "DDS fuente actual cambió durante preparación;targets iguales,casos nuevos leídos y añadidos enFoundation/DDS/EP;sin reescribir pares."
+    },
+    {
+      "from": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+      "to": "c36da6745c3893b0200014358c48178778d8cee9",
+      "reason": "Concurrent PR14HF clarification preserved;11changed/new files read, HFVNext rebased append-only; sourcechecker/history pair unchanged"
     }
   ],
   "source_revalidations": [
@@ -3636,7 +3820,7 @@
       "old_pair_preserved": true
     }
   ],
-  "review_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "review_source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -7504,6 +7688,124 @@
             "line": 33,
             "scope": "Fuente integrada actual completa135021 caracteres; no reconocimiento de quotes como incorporación",
             "note": "Mismo viejo/propuesto publicado, originales intactos."
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+      "reviewer": "Codex mismo asistente; revisión integral de cambios y consistencia",
+      "scope": "Todos los archivos delárbol, deltas del37 y nuevos instrumentos/evidencia; no cierre de pasadas científicas pendientes",
+      "proposal_assessments": [
+        {
+          "id": 26,
+          "date": "2026-10-12",
+          "review_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "wave": "1 — Claridad de evidencia y estado",
+          "state": "Pendiente de decisión",
+          "quality": "Aclaración opcional",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Explicar por qué el self-test puede ser correcto con controles FAIL/INCONCLUSIVE; la nueva cabecera ya separa infraestructura de resultados de tecnología.",
+          "riskReason": "Adición documental acotada; no convertir controles esperados en eficacia ni duplicar innecesariamente la cabecera.",
+          "costReason": "Cotejar vector y ámbito actual; una precisión breve, sin nueva ejecución o cambio de freeze.",
+          "gate": "Viejo actual localizado, preservar SELFTEST_RECORDv0.9 y expectativas. Valorar utilidad adicional con la nueva cabecera DDS; ninguna incorporación sin decisión concreta.",
+          "preparation": "Par literal conservado; aclaración opcional de menor urgencia tras la nueva cabecera",
+          "rationale": "La source actual incorpora explícitamente shared test-infrastructure qualification y not a substantive Stage A/B/C result; reduce la urgencia del hallazgo anterior sin eliminar la explicación de los vectores.",
+          "acceptance": "Conservar tipos y denominadores; decidir si aporta comprensión adicional suficiente.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+            "source_sha": "a467c6d60803bf0864dd23ba260bd92d67aec993",
+            "before_matches": 1,
+            "after_matches": 0,
+            "scope": "Current source excluding quoted proposals"
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+          "state": "Pendiente de decisión",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "positive_impact_proven": false,
+          "id": 74,
+          "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "source": "research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py",
+          "source_sha": "69c3bafe024d99a534ba8896ef12e0ba277ab8f6",
+          "heading": "Admisión booleana de la sustitución NOT_APPLICABLE",
+          "title": "Rechazar sustitutos NA de tipo string antes de adjudicar",
+          "before": "def require_na_rationale(result: dict[str, Any]) -> None:\n    \"\"\"Enforce per-row NA rationale presence before running frozen v0.2.\n\n    Whether a reason predates the inspected outcomes remains a separate\n    preregistration and reviewer obligation.\n    \"\"\"\n    for position, row in enumerate(result.get(\"gates\", [])):\n        if not isinstance(row, dict):\n            raise ApplicabilityContractError(f\"non_object_gate_row:{position}\")\n        if (row.get(\"applicability\") == \"NOT_APPLICABLE\"\n                or row.get(\"own_verdict\") == \"NOT_APPLICABLE\"):\n            rationale = row.get(\"applicability_rationale\")\n            if not isinstance(rationale, str) or not rationale.strip():\n                gid = row.get(\"gate_id\", f\"row-{position}\")\n                raise ApplicabilityContractError(\n                    f\"not_applicable_requires_rationale:{gid}\"\n                )",
+          "after": "def require_na_rationale(result: dict[str, Any]) -> None:\n    \"\"\"Enforce typed NA substitution and rationale before running frozen v0.2.\n\n    Whether a reason predates the inspected outcomes remains a separate\n    preregistration and reviewer obligation.\n    \"\"\"\n    for position, row in enumerate(result.get(\"gates\", [])):\n        if not isinstance(row, dict):\n            raise ApplicabilityContractError(f\"non_object_gate_row:{position}\")\n        if (\"na_substitute_satisfied\" in row\n                and not isinstance(row[\"na_substitute_satisfied\"], bool)):\n            gid = row.get(\"gate_id\", f\"row-{position}\")\n            raise ApplicabilityContractError(\n                f\"na_substitute_satisfied_must_be_boolean:{gid}\"\n            )\n        if (row.get(\"applicability\") == \"NOT_APPLICABLE\"\n                or row.get(\"own_verdict\") == \"NOT_APPLICABLE\"):\n            rationale = row.get(\"applicability_rationale\")\n            if not isinstance(rationale, str) or not rationale.strip():\n                gid = row.get(\"gate_id\", f\"row-{position}\")\n                raise ApplicabilityContractError(\n                    f\"not_applicable_requires_rationale:{gid}\"\n                )",
+          "before_matches": 1,
+          "after_matches": 0,
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Medio",
+          "priority": "Primera",
+          "wave": "3 — Contratos y protocolo de evaluación",
+          "benefit": "Evitar que un valor no booleano como \"false\" satisfaga por truthiness una dependencia NOT_APPLICABLE, produciendo calificación no sustentada.",
+          "riskReason": "Cambiaría la admisión de inputs del checker sucesor; hay que mantener T05/T06, consumidores y versiones congeladas. No modifica el checker v0.2 ni resultados.",
+          "costReason": "Lectura estática, registrar casos válidos/invalidantes y revisar el contrato de entrada y consumidores. Confirmación prospectiva en un sucesor, sin regraduar corridas históricas.",
+          "dependencies": [
+            "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+            "research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.2.py"
+          ],
+          "gate": "Propuesta de sucesor de v0.3; antes de decidir registrar/revisar booleanos true/false, ausencia y strings/listas/números, conserva T05/T06. No se ejecuta ni modifica código congelado por esta auditoría. Decisión concreta de Iván.",
+          "preparation": "Contraejemplo por lectura de código; no ejecución/reproducción experimental. Par literal actual localizado.",
+          "quality": "Corrección de admisión propuesta; revisión prospectiva pendiente",
+          "assessment_basis": "Codex mismo asistente, lectura completa del v0.3 y funciones relevantes del v0.2; razonamiento estático",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py",
+            "source_sha": "69c3bafe024d99a534ba8896ef12e0ba277ab8f6",
+            "before_matches": 1,
+            "after_matches": 0,
+            "scope": "Current pinned source; source75 outside quoted proposals"
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+          "state": "Pendiente de decisión",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "positive_impact_proven": false,
+          "id": 75,
+          "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "source_sha": "985845b1876652a60a0cadfff40201085f40be0d",
+          "heading": "Conservar historia sin reabrir propuestas incorporadas",
+          "title": "Mantener auditorías y viejos publicados al cerrar propuestas",
+          "before": "8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.",
+          "after": "8. **Closed-proposal check:** once a proposed change is incorporated, mark it as incorporated with its source version, decision and evidence. Retain its original before/after text, audit discussion and dissent in this VNext, in a clearly dated historical section or collapsed block, so it is excluded from the pending queue without losing the review record. Git history remains additional custody.",
+          "before_matches": 1,
+          "after_matches": 0,
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Medio",
+          "priority": "Primera",
+          "wave": "1 — Claridad de evidencia y estado",
+          "benefit": "Resolver la contradicción entre eliminar propuestas incorporadas y conservar audit conversation/antes-después visible que Iván pidió.",
+          "riskReason": "Confundir historia con cola vigente o reabrir cambios ya incorporados; restaurar debe usar textos auténticos y estados fechados, sin tocar canon.",
+          "costReason": "Conciliar reglas, recuperar/citar las épocas auténticas y mantener su disposición actual. Redactar una línea no devuelve por sí solo las auditorías retiradas.",
+          "dependencies": [
+            "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+            "architectural-contributions/ecosystem-positioning/README_VNext.md"
+          ],
+          "gate": "Conservar estados de incorporación y decisiones actuales; no reaplicar incorporados ni reconstruir viejos de memoria. Decidir presentación histórica y restitución auténtica dentro de la única VNext.",
+          "preparation": "Contradicción documental confirmada; regla propuesta, recuperación de épocas pendiente",
+          "quality": "Cambio procedimental propuesto; no cierre automático de T04",
+          "assessment_basis": "DDS VNext actual, anterior del6octubre y procedimiento de conservación cotejados",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+            "source_sha": "985845b1876652a60a0cadfff40201085f40be0d",
+            "before_matches": 1,
+            "after_matches": 0,
+            "scope": "Current pinned source; source75 outside quoted proposals"
           }
         }
       ]

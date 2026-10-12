@@ -1285,3 +1285,11 @@ The next implementable slice, if authorized, is:
 7. keep Stage C unexecuted until C02/C11/T03 admission and real implementation access exist.
 
 This workstream is a proposal in VNext, not an incorporated change to the frozen oracle or canonical DDS.
+
+---
+
+## Fuentes, receptores y cambios del corpus — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** El diseño UC4 separa referencias A/B/C y mantiene C02/C11/T03. BATCH_CONFORMANCE no se convierte en Stage B. La nueva cabecera distingue infraestructura de resultado: 26 se conserva como aclaración opcional de los controles positivos/negativos y pasa a impacto Medio. Registro prospectivo, mutantes y acceso nativo siguen pendientes; no se ejecutan por esta lectura.
+
+Los datos y límites están en [EP VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.

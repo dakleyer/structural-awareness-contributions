@@ -1242,3 +1242,33 @@ El registro conserva **73 entradas: 64 con par y 9 líneas por concretar**. Entr
 **Interpretation:** The new text attributes no Stage B/C success, real-product result, UC-4 admission or universal 00G→R01 transfer. The study's original scientific/evidence status stays with its owning source.
 
 **Review still due:** Independent cold-reader 60–90-second comprehension test and maintenance-cost observation were not completed before user-authorized publication. If they show duplication or confusion, propose an additive successor correction; preserve this edition and its old text.
+
+---
+
+## Nueva revisión integral de cambios y consistencia — 12 octubre 2026
+
+**Codex, mismo asistente de IA, revisión para una persona.** Corte `17b597bf91acb0f37daebc716e8f23f65daa23eb`, comparado con `09b8fe09082f15612114ebe0fd3be8418be7a061`. El examen iniciado con el árbol del 9 de octubre se amplió al avance del 12. Ambos cortes quedan identificados. Esta revisión conserva los originales.
+
+Se recuperaron los **2.186 archivos** con bytes correspondientes a sus blobs Git: 2.145 textos y 41 binarios. Hay **657 añadidos, 37 modificados, 1.492 sin cambio y cero eliminados**. Los 41 binarios conservan sus blobs. Se cotejaron los deltas de los existentes y las relaciones de lo añadido. La lectura de sintaxis de 606 JSON, 299 fuentes Python y 1.712 registros de 53 JSONL no detectó errores; no se ejecutó código del corpus. Comprobar un archivo no demuestra su argumento, valida su experimento o sustituye la lectura visual de un binario.
+
+La lectura material se centró en los contratos DDS, el oráculo/UC4, auditorías anteriores, instrumentos y nueva evidencia HF. Es una revisión integral de **cambios, integridad y consistencia**. Las cinco lecturas científicas de todas las fuentes y la sexta global conservan sus pendientes; no se declaran concluidas por estas comprobaciones.
+
+### Hallazgos y consecuencias
+
+- **Historia visible de auditoría.** DDS retiró propuestas incorporadas y su regla 8 ordena eliminarlas. Git conserva el antecedente, pero el procedimiento pide mantener viejos, conversación y desacuerdos en la única VNext. El cambio 75 propone conservarlos como historia fechada, fuera de la cola pendiente. Su recuperación auténtica y presentación siguen pendientes; no se reaplica lo incorporado.
+- **Admisión del checker.** v0.3 añade motivo de no-aplicabilidad y separación entre A/B, pero hereda el tratamiento de `na_substitute_satisfied` como valor truthy. El string `"false"` puede satisfacer esa rama aunque no sea un booleano. El cambio 74 propone validación tipada en un futuro sucesor. Es un contraejemplo estático, no un ensayo realizado; v0.2/v0.3, sus freezes y resultados permanecen intactos.
+- **Edición certificada frente al lector actual.** Los README de Family, Infoblox y HF no coinciden con sus manifiestos SHA256 locales. No se localizó aquí la época exacta de esos bindings. No prueba corrupción de datos o teoremas; exige aclarar qué edición certifican. Dos diferencias adicionales corresponden al preflight RAG fallido, que declara cero casos y error de input congelado. No se actualizan hashes históricos para simular conservación.
+- **Copias de revisión.** Hay 71 nombres VNext y el benchmark reutilizado. Siete parejas entre feasibility/extensions son réplicas declaradas: tres iguales y cuatro con notas/rutas adaptadas, cotejadas. No son siete nuevas auditorías. Se preservan su custodia y propietario original; no se borra o abre otro expediente.
+- **Evidencia contraria mantenida.** HF v0.6 contiene treinta casos, diez brazos y 300 registros; sus quince hashes y totales concuerdan. El control convencional fuerte registra siete efectos conocidos como prohibidos frente a ocho de EA, con 32 frente a 27 consultas. No se establece ventaja exclusiva ni suficiencia T4 calibrada. Son modelos y supuestos, sin runtime HF o humanos.
+- **Prioridades revalidadas.** Los 49 pares antes pendientes siguen localizados una vez fuera de sus propias citas. La literalidad conserva trazabilidad, no acredita compatibilidad completa. La nueva cabecera DDS del oráculo ya separa infraestructura de resultado: 26 pasa a impacto Medio como aclaración opcional. 31/32 mantienen su valoración. 74/75 se añaden con impacto Alto, riesgo Medio y esfuerzo Medio.
+- **Alcance de CI.** El guard de preservación se retiró y Documentation integrity ya no corre en cada push. Su ausencia no equivale a aprobación; tampoco se reactiva un guard rígido por esta lectura.
+
+### Navegación y orden común
+
+Se examinaron 9.180 enlaces internos en prosa Markdown corriente. Cuatro fragmentos locales aparecen en los viejos/nuevos de PC1.0-01A y pertenecen al README canónico, no a esta VNext: [mapa de pruebas](./README.md#technical-proof-map) y [ruta de reutilización](./README.md#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases). Se conserva el viejo literal; estas rutas lo sitúan en su contexto. No se declara validación universal de enlaces externos, HTML, Mermaid o fuentes históricas.
+
+**Orden propuesto:** resolver visibilidad de auditorías y admisión del checker; después aclarar épocas SHA y propietarios de réplicas; continuar las conciliaciones semánticas y protocolos ya pendientes. Los [pares 74/75 completos](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) muestran viejo, propuesto, beneficio, riesgo, coste y decisión necesaria.
+
+El registro pasa a 75 entradas: 66 con par y nueve por concretar; 51 pares pendientes. Ningún orden autoriza incorporación. Los comentarios también llegan a EA/baseline, catálogo de extensiones, HF, Requirements, 00M, 01J y oráculo. Los predecessors y textos actuales se conservan. No nueva VNext, README, movimiento, código aplicado, experimento o mensaje externo. El temporizador sigue eliminado.
+
+**Actualización delcorte antes de publicación:** main avanzó a `c36da6745c3893b0200014358c48178778d8cee9` mediante PR14. Se cotejaron sus once cambios: ocho archivos adicionales y tres lectores adaptados; elárbol final tiene2.194 archivos,665 añadidos desde6octubre,37modificados y1.492sin cambio. El anexo BOT-APPROX identifica los pins Git históricos HF y distingue replay de independencia. Se verificaron 127 pins de su corte, con tres lectores después adaptados. Se preserva, incluida su revisiónVNext ampliada. Family/Infoblox/HF conservan la época de sus antiguos SHA256 por aclarar: el nuevo pin Git de HF no determina por sí solo esa época. Los hashes no se editan. No se declara cerrado unbloque científico por ese merge.

@@ -77,3 +77,19 @@ The same ChatGPT model performed a human-oriented reading simulation. This does 
 **Impacto semántico:** ninguno sobre las pruebas originales; la presentación ahora deja explícito que BOT-APPROX y BOT-PARTIAL-RUN son aproximaciones asistidas por IA y que «independencia» requiere una identidad/operación realmente distinta. **Pasadas de teoría, evidencia externa y revisión humana integral siguen pendientes en sus alcances declarados.**
 
 **Instrucción de futuro:** nuevas correcciones a estos ensayos deben preservar versiones completas y aparecer como sucesor enlazado desde el anexo. No reescribir retroactivamente los resultados desfavorables ni utilizar el CI como mecanismo automático de promoción a requisitos canónicos.
+
+---
+
+## Auditorías anteriores y evidencia actual — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Se cotejaron README/revisiones del 9–12 de octubre, run.py v0.6 completo como texto, treinta casos, registros y resumen. No se ejecutó run.py, interactuó con HF o hizo una revisión independiente.
+
+La corrección v0.5→v0.6 está declarada: compartir un primitivo no comparaba algoritmos independientes. v0.6 separa detectores y añade assurance convencional. Los 300 registros coinciden con el resumen y los quince bindings SHA256. Es consistencia del paquete observado, no eficacia externa.
+
+Debe conservarse el vector: el peer fuerte registra siete efectos denegados y 32 consultas frente a ocho y 27 de EA; ambos ejecutan tres acciones autorizadas y retienen erróneamente una. Fail-safe tiene un efecto denegado y retiene dos acciones legítimas. El oráculo ideal tiene verdad privada y no es un peer justo. Consultas son un proxy de carga, no T4 calibrado. Respuestas del owner, confianza del monitor, disponibilidad humana y permisos EHD son inputs estipulados.
+
+Los textos ya mantienen esos límites y Stage A acceptance pending/B-C unverified. No se fabrica una modificación para reforzar una conclusión no establecida. El contraste con [Requirements VNext](../../../../00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) y [00M VNext](../../../../00M_VNext.md) separa A del monitor de la clasificación todavía no establecida del objeto, y calificación de autoridad/efecto. No nace S15/T5 por este estudio.
+
+El README actual difiere del SHA256 local anterior. El nuevo índice de blobs Git identifica 127 fuentes del corte17b y tres cambios de navegación; sus pins se verificaron. Esa explicación no identifica automáticamente la época del viejo SHA256 delREADME, que sigue por aclarar. No se trata como corrupción demostrada de ciencia o resultados. [Catálogo VNext](../README_VNext.md) y [EP VNext](../../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026) reciben este cotejo. No se cierran las pasadas completas pendientes por esta auto-revisión.
+
+**Revalidación antes de publicar:** el merge dePR14 en `c36da6745c3893b0200014358c48178778d8cee9` añadió BOT-APPROX y su manifest/replay, y adaptó la navegación. Se leyeron los once archivos cambiados o añadidos; los programas, resultados y campos declarados no se ejecutaron. Se conserva la nueva VNext y el alcance histórico de hashes. El replay CI es reproducción delmismoautor, no independencia o DDS aprobado. La auditoría aquí no solicita otra ejecución ni cambia esa política.

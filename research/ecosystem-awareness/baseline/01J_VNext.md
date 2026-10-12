@@ -186,3 +186,11 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Consecuencia entre documentos:** [35](../../regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [37](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [64](01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+---
+
+## Fuentes, receptores y cambios del corpus — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** El EHD opcional HF no convierte un canal técnico en permiso de contenido ni una meta-calificación en conocimiento oculto. El brazo sin gate envía dos mensajes fuera del scope estipulado; el gated los retiene. Son inputs y modelos, sin handshake nativo o población. No se adopta 68–70 ni se impone divulgación obligatoria.
+
+Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.

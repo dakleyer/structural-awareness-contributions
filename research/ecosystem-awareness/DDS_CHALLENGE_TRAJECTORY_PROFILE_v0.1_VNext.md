@@ -509,3 +509,97 @@ The record is a proposed *minimum information envelope*, not an executable valid
 **Present effect:** a review-envelope proposal is available in the existing owner-ledger, with no historical text replaced. **Still open:** a direct reading of the full v3.1 T04 audit card by a named independent reviewer; final selection of required/optional fields, actual freeze/adversarial runs, raw evidence custody, dispute resolution and source-owner acceptance. T03 reviewer-independence questions remain separately open. Future T04 implementers must compare the proposal with those primary sources, preserve this version, and record an exact BEFORE/AFTER successor before any normative incorporation.
 
 **Result:** `T04_PROPOSAL_PUBLISHED_IN_VNEXT`; `T04_AUDIT_CLOSURE=NOT_ESTABLISHED`; `SCIENTIFIC_CORPUS_UNCHANGED_BY_THIS_EDITORIAL_INSERTION`.
+
+---
+
+## Auditorías anteriores frente al corpus vigente — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Se cotejaron Index/Stages A-B-C, Stage A antes/después, UC4/oráculo y checkers v0.2/v0.3. Especificación, arquitectura y ejecución mantienen referencias distintas. T05/T06 tienen un sucesor publicado con su estado de autor; no se repiten como nuevos arreglos pendientes. No se ejecutó ningún instrumento.
+
+La regla 8 de retirar propuestas contradice la conservación del viejo, discusión y desacuerdo. Git mantiene el ledger del 6 de octubre; no se reconstruye ni se reaplica su historia. Las nuevas reglas T04 sobre conservar dissent no devuelven automáticamente lo retirado.
+
+El nuevo guard NA comprueba un motivo, pero no el tipo de `na_substitute_satisfied`. v0.2 usa truthiness y v0.3 hereda ese flujo. Una fila NA con motivo no vacío y el string `"false"` puede satisfacer la rama. Es razonamiento estático, no reproducción experimental o diagnóstico de todo el instrumento. [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026) registra el conjunto y los receptores.
+
+### Cambio 74 — Rechazar sustitutos NA de tipo string antes de adjudicar
+
+**Beneficio:** Evitar que un valor no booleano como "false" satisfaga por truthiness una dependencia NOT_APPLICABLE, produciendo calificación no sustentada.
+**Fuente:** `research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py`, blob `69c3bafe024d99a534ba8896ef12e0ba277ab8f6`, snapshot `17b597bf91acb0f37daebc716e8f23f65daa23eb`. Función completa require_na_rationale; propuesta para futuro sucesor, no edición delactual.
+**Impacto Alto; riesgo Medio; esfuerzo Medio; prioridad Primera; 3 — Contratos y protocolo de evaluación.**
+**Riesgo concreto:** Cambiaría la admisión de inputs del checker sucesor; hay que mantener T05/T06, consumidores y versiones congeladas. No modifica el checker v0.2 ni resultados.
+**Coste:** Lectura estática, registrar casos válidos/invalidantes y revisar el contrato de entrada y consumidores. Confirmación prospectiva en un sucesor, sin regraduar corridas históricas.
+**Dependencias y orden:** Propuesta de sucesor de v0.3; antes de decidir registrar/revisar booleanos true/false, ausencia y strings/listas/números, conserva T05/T06. No se ejecuta ni modifica código congelado por esta auditoría. Decisión concreta de Iván.
+
+**Texto antes — viejo literal completo**
+
+~~~~python
+def require_na_rationale(result: dict[str, Any]) -> None:
+    """Enforce per-row NA rationale presence before running frozen v0.2.
+
+    Whether a reason predates the inspected outcomes remains a separate
+    preregistration and reviewer obligation.
+    """
+    for position, row in enumerate(result.get("gates", [])):
+        if not isinstance(row, dict):
+            raise ApplicabilityContractError(f"non_object_gate_row:{position}")
+        if (row.get("applicability") == "NOT_APPLICABLE"
+                or row.get("own_verdict") == "NOT_APPLICABLE"):
+            rationale = row.get("applicability_rationale")
+            if not isinstance(rationale, str) or not rationale.strip():
+                gid = row.get("gate_id", f"row-{position}")
+                raise ApplicabilityContractError(
+                    f"not_applicable_requires_rationale:{gid}"
+                )
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~python
+def require_na_rationale(result: dict[str, Any]) -> None:
+    """Enforce typed NA substitution and rationale before running frozen v0.2.
+
+    Whether a reason predates the inspected outcomes remains a separate
+    preregistration and reviewer obligation.
+    """
+    for position, row in enumerate(result.get("gates", [])):
+        if not isinstance(row, dict):
+            raise ApplicabilityContractError(f"non_object_gate_row:{position}")
+        if ("na_substitute_satisfied" in row
+                and not isinstance(row["na_substitute_satisfied"], bool)):
+            gid = row.get("gate_id", f"row-{position}")
+            raise ApplicabilityContractError(
+                f"na_substitute_satisfied_must_be_boolean:{gid}"
+            )
+        if (row.get("applicability") == "NOT_APPLICABLE"
+                or row.get("own_verdict") == "NOT_APPLICABLE"):
+            rationale = row.get("applicability_rationale")
+            if not isinstance(rationale, str) or not rationale.strip():
+                gid = row.get("gate_id", f"row-{position}")
+                raise ApplicabilityContractError(
+                    f"not_applicable_requires_rationale:{gid}"
+                )
+~~~~
+
+**Instrucciones de Iván:** una VNext por unidad, originals en lectura, conservar conversaciones y viejo completo. Auditoría publicable, incorporación pendiente de su decisión concreta. Contraejemplo por lectura de código; no ejecución/reproducción experimental. Par literal actual localizado.
+
+### Cambio 75 — Mantener auditorías y viejos publicados al cerrar propuestas
+
+**Beneficio:** Resolver la contradicción entre eliminar propuestas incorporadas y conservar audit conversation/antes-después visible que Iván pidió.
+**Fuente:** `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `985845b1876652a60a0cadfff40201085f40be0d`, snapshot `17b597bf91acb0f37daebc716e8f23f65daa23eb`. Regla8 delledger; no se reabre el estado deincorporación.
+**Impacto Alto; riesgo Medio; esfuerzo Medio; prioridad Primera; 1 — Claridad de evidencia y estado.**
+**Riesgo concreto:** Confundir historia con cola vigente o reabrir cambios ya incorporados; restaurar debe usar textos auténticos y estados fechados, sin tocar canon.
+**Coste:** Conciliar reglas, recuperar/citar las épocas auténticas y mantener su disposición actual. Redactar una línea no devuelve por sí solo las auditorías retiradas.
+**Dependencias y orden:** Conservar estados de incorporación y decisiones actuales; no reaplicar incorporados ni reconstruir viejos de memoria. Decidir presentación histórica y restitución auténtica dentro de la única VNext.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+8. **Closed-proposal check:** once a proposed change is incorporated, mark it as incorporated with its source version, decision and evidence. Retain its original before/after text, audit discussion and dissent in this VNext, in a clearly dated historical section or collapsed block, so it is excluded from the pending queue without losing the review record. Git history remains additional custody.
+~~~~
+
+**Instrucciones de Iván:** una VNext por unidad, originals en lectura, conservar conversaciones y viejo completo. Auditoría publicable, incorporación pendiente de su decisión concreta. Contradicción documental confirmada; regla propuesta, recuperación de épocas pendiente
