@@ -1364,3 +1364,39 @@ Los comentarios y planes al final se publicaron en **las mismas seis VNext**, [c
 **Decisiones separadas:** la edición/destino y los sectores de [SUBMISSION VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/SUBMISSION_VNext.md#plan-al-final--versión-y-destino); hipótesis en [HYPOTHESES VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/annexes/HYPOTHESES_VNext.md#plan-al-final--tipo-y-dueño-de-la-afirmación); localizador HR opcional en [RECURRENCE VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL_VNext.md#plan-al-final--localizador-opcional). Se mantienen viejos completos, atribución, desacuerdos y límites. Nada se incorpora a canon/envío sin la decisión concreta.
 
 La primera tanda textual31/32/75 y su registro76 IDs mantienen su alcance anterior: no se añaden aquí ocho “nuevos fallos” ni se renumera el plan de Contributions por recibir un expediente externo. Este contraste tampoco cierra la quinta/sexta científica, crea otra jerarquía/expediente, activa pruebas, contacto o temporizador.
+
+
+---
+
+## Ola 1 propuesta — alta prioridad, alto impacto y bajo riesgo
+
+**12 octubre 2026 · Codex, asistente de IA, plan para decisión de Iván.** Se revalidó el registro1.11 y los pasajes contra `0cc02548fe0eb8d31e5a2a4dc3e18d26a9f2b979`; UC-21 se consultó en `76ac39bae74d10f4586f5fb787f69deaf7f59add`. Los planes y auditorías anteriores permanecen. Este plan selecciona y ordena cambios existentes, sin crear IDs, VNext, teoría o campaña.
+
+**Filtro estricto:** entre las propuestas completas pendientes del registro,31 y32 son Alto impacto/Bajo riesgo/Primera prioridad. Se añade la variante prospectiva y acotada75, también Alto/Bajo, sin rebajar el75 completo.26 y76 conservan impacto Medio;74 y la recuperación histórica75 conservan riesgo Medio. La cantidad de VNext no obliga a fabricar más candidatos que cumplan el filtro.
+
+### Tres pasajes, dos VNext, una tanda pequeña
+
+| Orden | Cambio y ubicación | Sustitución concreta | Impacto esperado | Riesgo | Esfuerzo |
+|---|---|---|---|---|---|
+| 1 | **75 limitado · DDS VNext §5, regla8** | En lugar de retirar propuestas incorporadas, retener viejo/nuevo, discusión y desacuerdo como historia fechada con versión/decisión; excluirlos de pendientes | Alto | Bajo, sólo regla futura | Bajo |
+| 2 | **31 · 05A VNext §2.10, una viñeta** | “Current public empirical evidence” pasa a análisis reportado por el contribuyente; la consulta no acredita reproducción independiente; conservar no-ground-truth/honest-judges | Alto | Bajo | Bajo |
+| 3 | **32 · 05A VNext §7, punto1 de ficha** | Anchor público pasa a anchor + fecha/hora de consulta + revisión/hash disponibles + proposición/scope; declarar ausencia de pin cuando corresponda | Alto | Bajo | Medio |
+
+**Los pares exactos, con viejo completo y propuesto, se conservan en sus propietarios:** [75, variante mínima](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-de-cambios-al-final--variante-textual-del-75) y [31/32, primera tanda textual](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-de-cambios-al-final--primera-tanda-textual). Los tres viejos siguen únicos dentro de sus contextos de trabajo, excluidas las citas de propuesta; los después no están incorporados. No se sustituye aquí el viejo por un resumen ni se duplica el expediente.
+
+### Ejecución que propongo después de una decisión concreta
+
+1. **Preservar y fijar la base:** comprobar head y únicos viejos de los dos documentos; conservar sus predecesoras auténticas y las discusiones. Si cambia un pasaje, preparar un par contra la nueva edición; no sobrescribir el viejo anterior.
+2. **Aplicar sólo75 prospectivo:** escoger esta variante o la regla del75 amplio, nunca ambos reemplazos. El cambio protege revisiones futuras; no restaura las conversaciones ya retiradas ni cierraT04. La recuperación histórica sigue fuera de esta ola.
+3. **Aplicar31 y32 como bloque de claridad de evidencia:** son dos pasajes separados de la misma05A VNext. Mantener autor, corte, límites y nivel contributor-reported; no reproducir datos, renovar todo Current, inventar pins o cambiar semánticas del productor. El texto de32 es corto, pero completar/mantener evidencias por fila exige esfuerzo Medio y se registra aparte; la frase no prueba que esa tarea esté hecha.
+4. **Comprobar y cerrar sólo la tanda:** diff limitado a esas tres unidades textuales y sus estados de revisión, sin cambiar fuentes canónicas, payloads, código, datos, resultados o hashes. Releer los dos documentos publicados, comprobar links/literalidad y distinguir propuesta incorporada en la VNext de adopción canónica. Marcar los candidatos con fecha y decisión; mantener la historia completa, sin otra VNext.
+
+**Criterio de aceptación humano:** el lector distingue reporte de reproducción, encuentra la edición de evidencia que fue consultada, y puede leer una propuesta cerrada sin verla como pendiente ni perder su discusión. Beneficios esperados, no eficacia empírica acreditada. Estas modificaciones son del cuerpo de trabajo/control de las VNext; no reescriben el bridge fuente congelado ni el método DDS.
+
+### Reserva y ola siguiente
+
+La precisión del [README UC-21](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/README_VNext.md#variante-acotada--envío-congelado-y-rama-viva), Alto impacto/Bajo riesgo textual/Bajo esfuerzo, es buena candidata de lectura. Su incorporación todavía necesita escoger un lector de revisión/sucesor: el README original continúa protegido. **No entra automáticamente como cuarto reemplazo ni se modifica el envío de FG-TIDA.**
+
+Quedan fuera de Ola1: checker74 y sus pruebas prospectivas; restitución histórica75; recertificación o cambio de manifiestos; sectores de Issue21 sin decisión del propietario; matriz científica y campos del Run record UC-21, con riesgo Medio y dependencias. Tampoco se borra una réplica o se reinterpreta el resultado adverso de HF por aprobar esta ola. Las tareas científicas de cinco/sexta mantienen su estado.
+
+**Decisión propuesta:** aprobar exactamente31,32 y75 variante mínima para trabajo en las dos VNext, con el alcance y verificaciones anteriores. Ahora sólo se publica el plan; no se ejecutan esos reemplazos. La autorización previa de publicar auditorías no se convierte en incorporación por esta nota. Los76 IDs y valoraciones históricas del registro se conservan.
