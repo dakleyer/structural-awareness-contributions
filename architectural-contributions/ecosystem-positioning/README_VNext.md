@@ -1513,3 +1513,13 @@ Ola3 ya está aplicada en [09fc270abfcc8efc3efdcee2279b80e145db55d5](https://git
 Se reconoce00I existente, se conserva su ruta paralela aUC6→matrices→UC4, se añadenI/J al catálogo interno y se sincronizan los resúmenes. ImpactoMedio/riesgoMedio/esfuerzoMedio; alcance documental acoplado, sin modificar casos, evidencia, contratos o código.
 
 Pares completos en [04](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j), [05Ideal](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j) y [05ACurrent](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j). La orden actual de Iván autoriza preparar y aplicar esta ola adicional; se publica primero el plan y luego su incorporación/estado verificado.
+
+
+---
+
+## Olas 3 y 4 aplicadas — 12 octubre2026
+
+- **Ola3 hecha:** diez sustituciones en seis documentos, [09fc270abfcc8efc3efdcee2279b80e145db55d5](https://github.com/dakleyer/structural-awareness-contributions/commit/09fc270abfcc8efc3efdcee2279b80e145db55d5). Estados actualizados y cambios fuera de pendientes.
+- **Ola4 hecha:** seis sustituciones coordinadas en04/05Ideal/05A, [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0).18/33 cerrados mediante el paquete publicado; los antes/después quedan como historia.
+
+Se verificaron los segmentos exteriores a cada sustitución, predecesoras auténticas, árboles completos y contenidos publicados. La ola adicional aclara00I existente y catálogoI/J manteniendo sus rutas y propietarios. Ningún archivo o expediente nuevo ni eliminación; fuentes de casos, código y resultados conservados. Las siguientes olas vuelven a su decisión de incorporación.

@@ -743,4 +743,9 @@ Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`bdc9429143a4b500af334480d
 6. DBC, 00E–00J and 01I/ACC are internal architecture/test sources. Their use as FG-TIDA current-state evidence requires independently supported public FG-TIDA semantics.
 ~~~~
 
-**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** preparada para incorporación inmediata; se marcará aplicada tras verificar publicación y fuente.
+**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
+
+
+## Cierre de Ola 4 — aplicado
+
+Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
