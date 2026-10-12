@@ -602,3 +602,92 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Preregistrar criterio de exclusión y dueño de adjudicación antes de outcomes, conservar fallos/timeouts/missing y comparadores competentes. Perfil/freeze futuro, ninguna campaña activada. Revisar junto con 40, 46, 47, 48. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+<a id="ola2-cambio-05"></a>
+
+## Ola 2 — cambio 5: Benchmark: conciliar W1 ya registrado y adopción pendiente
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 40; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `dff38db9c12b261fc298a3b3d35ec3b3cbdabec4`. **Ubicación:** §§4,9,12,13: cuatro pasajes coordinados.
+
+**Justificación:** §9 ya contiene el mapping, mientras §§4/9 siguen tratándolo como futuro. Cuatro precisiones coordinadas eliminan esa inconsistencia sin cerrar los demás gates.
+
+**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
+
+**Riesgo concreto:** Modificar sólo una frase deja contradicciones de estado. Los cuatro pares forman un solo paquete; W1 registrado no equivale a gate revisado o benchmark adoptado. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
+
+**Dependencias y aceptación:** WORKPLAN W2/Track D ya registra W1 cerrado como revisión de mapping; §9 y Requirements VNext mantienen EP-BH1–7 y S/T/H existentes. Mantener v0.2 actual y v0.3 candidato.
+
+### Pasaje 1 — §4
+
+Viejo verificado una vez fuera de citas de propuestas, línea 152 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional until the remaining source, comparator, protocol and fixture-admission gates in §13 are completed.
+~~~~
+
+### Pasaje 2 — §9
+
+Viejo verificado una vez fuera de citas de propuestas, línea 312 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
+~~~~
+
+### Pasaje 3 — §12
+
+Viejo verificado una vez fuera de citas de propuestas, línea 394 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+- that this draft has passed the Requirements-vNext or bibliographic gate.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+- that the recorded W1 mapping alone establishes bibliographic review, fixture admission or benchmark adoption.
+~~~~
+
+### Pasaje 4 — §13
+
+Viejo verificado una vez fuera de citas de propuestas, línea 402 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+Este paquete reemplaza la variante antigua que sólo tocaba §12; no se aplican ambas. Se cotejó WORKPLAN W2/Track D, blob `fe793085dadd4695b2163f8de844196911d15907`: ya dice «W1 Requirements review is complete» y «W1 traceability already closed». No necesita cambio para estos cuatro pares. La revisión W1 registrada se mantiene; la adopción y ejecución del benchmark siguen con sus propios gates.
+
+**Fuente receptora cotejada:** [WORKPLAN, W2](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/WORKPLAN.md). Su estado de mapping concuerda con §9; la corrección devuelve esa misma lectura a §§4/9/12/13, sin reiniciar W1 ni cerrar el ciclo científico del corpus.

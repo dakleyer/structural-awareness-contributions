@@ -334,3 +334,40 @@ La explicación de origen y los límites están en [01H VNext](../../research/ec
 El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el mismo Challenge, calidad, autoridad y ventana. Una M más barata no sustituye el I exigido. AVAILABLE o recepción humana tampoco conceden capacidad medida ni autoridad. DDS Stage A/B/C son etapas de evaluación; A_HC/B_HC/C_HC/D_HC son posiciones epistemológicas del componente, no esas etapas.
 
 [HF VNext](../../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#consistencia-con-dds-y-msca--12-octubre-2026) y [DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#consistencia-de-dds-y-sus-receptores--12-octubre-2026) registran ambos extremos. No se justifica otro par antes/después de Operation por este cotejo: su frontera actual es compatible. 37/59/60 y las relaciones aún abiertas conservan sus estados, sin incorporación, prueba runtime o cierre de sexta.
+
+
+---
+
+<a id="ola2-cambio-01"></a>
+
+## Ola 2 — cambio 1: P3 identifica una transición; no concede autoridad
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 60; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`. **Ubicación:** §11.3, última oración.
+
+**Justificación:** Elimina la ambigüedad de un verbo que parece otorgar permiso. La postura P3 señala la necesidad; ACC y autoridad gobiernan aprobación y ejecución.
+
+**Impacto esperado Medio; riesgo Medio; esfuerzo Bajo; prioridad Primera.**
+
+**Riesgo concreto:** La formulación de P3 es consumida por reglas de transición y lectores de autoridad. Conservar las obligaciones ACC y no cambiar la selección o ejecución. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
+
+**Dependencias y aceptación:** Concordar con §11.2, §11.4 y el gate ACC/autoridad; conservar estados y contratos.
+
+### §11.3, última oración
+
+Viejo verificado una vez fuera de citas de propuestas, línea 398 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.

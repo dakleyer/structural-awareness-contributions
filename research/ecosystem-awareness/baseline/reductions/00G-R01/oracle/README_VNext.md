@@ -1293,3 +1293,42 @@ This workstream is a proposal in VNext, not an incorporated change to the frozen
 **Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** El diseño UC4 separa referencias A/B/C y mantiene C02/C11/T03. BATCH_CONFORMANCE no se convierte en Stage B. La nueva cabecera distingue infraestructura de resultado: 26 se conserva como aclaración opcional de los controles positivos/negativos y pasa a impacto Medio. Registro prospectivo, mutantes y acceso nativo siguen pendientes; no se ejecutan por esta lectura.
 
 Los datos y límites están en [EP VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.
+
+
+---
+
+<a id="ola2-cambio-03"></a>
+
+## Ola 2 — cambio 3: Oráculo: declarar qué dominio respalda su acuerdo
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 27; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `a467c6d60803bf0864dd23ba260bd92d67aec993`. **Ubicación:** §Claim boundary, párrafo completo.
+
+**Justificación:** Hace visible que dos implementaciones concordantes son un cotejo interno sobre un dominio delimitado; ayuda a decidir qué tecnología o perfil puede compararse después.
+
+**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
+
+**Riesgo concreto:** Una explicación de dominio puede ser leída como nuevo aval. Mantener el dominio observado y los gates; no ampliar qué perfiles se consideran probados. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
+
+**Dependencias y aceptación:** Controles DAG, no negativos/conjuntivos, alcance R01, C11/T03 y autoría. No ejecutar pruebas ni alterar referencias/resultados.
+
+### §Claim boundary, párrafo completo
+
+Viejo verificado una vez fuera de citas de propuestas, línea 169 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
+
+The reference implementations provide internal cross-checks over their declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. Their agreement does not establish independent validation or coverage of other R01 profiles. Any broader evaluation must first document the corresponding domain and evidence.
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.

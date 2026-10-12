@@ -790,3 +790,56 @@ This is a material correction to HF-SPEC-META-20261012-01 above. The v0.5 7-vs-7
 **Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Meta-self-qualification HF se mantiene prospectiva. Siete efectos denegados del peer fuerte frente a ocho de EA no demuestran ventaja exclusiva; 27/32 consultas no prueban T4. Los inputs de owner, monitor, humanos y EHD no son fuentes del incidente. No se validan S1–S14/T1–T4 completos ni se crean S15/T5. 74 concierne a la admisión de datos del instrumento, no al arreglo del canon.
 
 Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.
+
+
+---
+
+<a id="ola2-cambio-09"></a>
+
+## Ola 2 — cambio 9: Requirements: seis escenarios y cuatro incorporaciones distintas
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 14 ycambio 15; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `84c56cbe086368f85b6121f4b998e27f52889e4a`. **Ubicación:** Reference failure-scenario expansion: título e introducción post-freeze.
+
+**Justificación:** La lista enumera E–J, pero el título dice cinco y la introducción tres independent. Corrige la cuenta y distingue diversidad de escenarios de independencia experimental.
+
+**Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+
+**Riesgo concreto:** Un cambio de conteo no establece revisiones independientes. Conservar lista, IDs S/T/H y distinguir cuatro familias distintas de independencia experimental. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
+
+**Dependencias y aceptación:** E/F previos + G/H/I/J nuevos = seis; conservar las familias S/T/H y los nombres/rutas.
+
+### Pasaje 1 — Título Reference failure-scenario expansion
+
+Viejo verificado una vez fuera de citas de propuestas, línea 90 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+## Reference failure-scenario expansion — two scenarios to five
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+## Reference failure-scenario expansion — two scenarios to six
+~~~~
+
+### Pasaje 2 — Oración post-freeze
+
+Viejo verificado una vez fuera de citas de propuestas, línea 97 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+The post-freeze corpus now adds three independent reference scenarios:
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The post-freeze corpus now adds four distinct reference failure-scenario families:
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.

@@ -310,3 +310,42 @@ La valoración actual distingue una mejora documental de una modificación conce
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
 **Revisión cruzada de la nueva alternativa 71:** 71 conserva la pregunta de suficiencia MSCA y separa permiso, ejecución y efecto. 57/58/59 siguen necesarios en perfiles con gradiente; una síntesis legible no decide entre opciones incomparables ni concede autoridad. [Viejo y propuesto completos en EP](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026).
+
+
+---
+
+<a id="ola2-cambio-08"></a>
+
+## Ola 2 — cambio 8: B_Cart: soporte y reserva evaluable, además de confianza
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 38; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [standards/minimum-sufficient-control/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/standards/minimum-sufficient-control/README.md), blob `767b75b7670d248d40289776a1dabd000dc5d95d`. **Ubicación:** Tabla de estado del README MSCA, fila Semantic/dependency/process structures.
+
+**Justificación:** El resumen MSCA reduce B_Cart a confidence; Composition §3.2 ya establece soporte, límites y reserva. Alinear esa fila evita perder parte de la arquitectura en la entrada.
+
+**Impacto esperado Medio; riesgo Medio; esfuerzo Medio; prioridad Siguiente.**
+
+**Riesgo concreto:** El índice puede ser leído como contrato. La fila sólo resume lo que Composition §3.2 ya define; no exige nuevos campos ni resuelve las propuestas RA 35/37. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
+
+**Dependencias y aceptación:** Composition §3.2 y 00M §1: precisión del índice, sin campo obligatorio nuevo ni cambio de RA.
+
+### Tabla de estado del README MSCA, fila Semantic/dependency/process structures
+
+Viejo verificado una vez fuera de citas de propuestas, línea 138 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` support, validity limits and characterized assessment reserve (including confidence) | **DEFINED in Composition & Control v0.1** |
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+**Conciliación con Composition:** §3.2 ya contiene soporte, límites y reserva; no se propone modificar su definición. Las propuestas 35/37 y 52/53 mantienen su alcance propio; esta fila no las incorpora.

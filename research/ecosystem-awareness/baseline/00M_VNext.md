@@ -362,3 +362,42 @@ La quinta de Foundation añade un contraste útil para una lectura abreviada de 
 **Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** El resultado de un monitor sobre la falta de justificación puede ser A de ese proceso sin establecer B/C del objeto o eliminar D. HF v0.6 codifica un diagnóstico confiable estipulado y conserva fallos con observer silencioso o deshabilitado. No demuestra autocertificación, universalidad o mejor coste. Se mantiene el contraejemplo del peer fuerte.
 
 Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.
+
+
+---
+
+<a id="ola2-cambio-10"></a>
+
+## Ola 2 — cambio 10: Una respuesta única puede seguir sin respaldo
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 8; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. **Ubicación:** 00M §4.2, oración inicial del párrafo de inconsistencia.
+
+**Justificación:** Un ejemplo junto a la inferencia matemática permite entender por qué un singleton aproximado no demuestra que exista un estado fuente compatible.
+
+**Impacto esperado Medio; riesgo Medio; esfuerzo Medio; prioridad Siguiente.**
+
+**Riesgo concreto:** El ejemplo podría confundirse con una obligación de enumerar estados. Es una explicación del soporte vacío; conserva la demostración y el método de aproximación. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
+
+**Dependencias y aceptación:** Ejemplo de soporte vacío consistente con la aproximación conservadora; mantener el párrafo posterior y la derivación formal.
+
+### 00M §4.2, oración inicial del párrafo de inconsistencia
+
+Viejo verificado una vez fuera de citas de propuestas, línea 203 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty. For example, a model admitting only red and blue observations has no compatible state for a green observation. A conservative approximation may still retain one candidate answer; that does not make the answer supported.
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+**Relaciones conciliadas:** este ejemplo aclara §4.2 y conserva su premisa; 01B cambio72 remite a §1 para no reducir A a scope/claim, y MSCA cambio38 resume B conforme a Composition §3.2. Los propietarios 01B y MSCA registran sus pares en esta entrega. La apertura de 00N cambio11 mantiene pregunta/coste/suficiencia por perfil; el ejemplo no demuestra ahorro de contexto.

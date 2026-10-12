@@ -956,3 +956,40 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Consecuencia para este plan:** no hay un pasaje de05 Ideal que deba cambiar junto a31/32; sus fronteras de población/decisión y promoción mediante fuentes ya son compatibles. Se conserva el cuerpo y las propuestas33/34 con sus riesgos. No se fabrica un par adicional para duplicar la precisión. Las cuatro/cinco lecturas y sexta mantienen sus pendientes.
 
 La [tanda conjunta en EP VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026) distingue preparación y decisión de incorporación. Texto científico, requisitos, datos y originales intactos.
+
+
+---
+
+<a id="ola2-cambio-04"></a>
+
+## Ola 2 — cambio 4: Dos mecanismos de Theme 13: atribuir claramente la propuesta
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 34; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `1d2b8c7a95a8e6c5570e4765081391a2e5d44824`. **Ubicación:** §3, Ideal 05 consequence, oración anterior a la tabla.
+
+**Justificación:** Conserva el diseño lifecycle/EA y atribuye su relación a esta proyección. Una propuesta de interoperación se entiende sin presentarla como arquitectura adoptada por el grupo.
+
+**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
+
+**Riesgo concreto:** La relación propuesta puede confundirse con estatus de Theme. Esta variante atribuye el diseño al propio documento, sin resolver ni negar decisiones externas posteriores. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
+
+**Dependencias y aceptación:** Conservar las responsabilidades de la tabla, límites y anchors; no alterar estados públicos de FG-TIDA.
+
+### §3, Ideal 05 consequence, oración anterior a la tabla
+
+Viejo verificado una vez fuera de citas de propuestas, línea 147 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Theme #13-derived work should contain **two peer mechanisms**:
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+This ideal projection proposes **two peer mechanisms** for Theme #13-derived work; the proposal is distinct from formal adoption by the Theme:
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.

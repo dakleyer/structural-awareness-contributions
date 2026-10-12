@@ -86,3 +86,42 @@ The symbol **x** is deliberately used for a candidate control configuration. It 
 03F3/F4 consume resultado/claimademás de susqualifiers; esto apoya no sustituir unresultado por una referencia opaca sin perfil. F7 ylas interfaces de §5 separan petición depermit/ejecución, y F9 conserva mismatches. La recepción de estado parcial en 01B no crea control suficiente. La lectura completa de 03/ArticleIV amplía el contraste previo; fidelidad urbana, matrices yrealizaciones pendientes no se cierran.73no cambia la aclaración opcional 72 deA.
 
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+
+---
+
+<a id="ola2-cambio-07"></a>
+
+## Ola 2 — cambio 7: A significa resultado funcional, no sólo aserción o alcance
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 72; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md), blob `53c08ab1644d031ab0f7b53de5efa24ef5c8520f`. **Ubicación:** §2, párrafo de notación x frente a A.
+
+**Justificación:** La notación de 01B reduce A a assertion/scope. Precisarla conecta correctamente el componente con la definición compartida de 00M y con los distintos tipos de resultado.
+
+**Impacto esperado Medio; riesgo Medio; esfuerzo Medio; prioridad Siguiente.**
+
+**Riesgo concreto:** La definición local es reutilizada por consumidores. Precisar la explicación de x/A conservando tuplas, campos y resultados evita un cambio de contrato. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
+
+**Dependencias y aceptación:** 00M §1 y payload 01B; no cambiar x, tuplas, schema o contrato.
+
+### §2, párrafo de notación x frente a A
+
+Viejo verificado una vez fuera de citas de propuestas, línea 49 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already the delivered functional result component of the canonical EA qualified position, interpreted for the declared producer, process, question, scope, capability and time. A claim or scope declaration can be part of that result, but does not define the whole A component.
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+**Conciliación con 00M:** §1 entrega el resultado A del proceso; la corrección de la notación x se cotejó con esa definición. La VNext de 00M registra la misma relación en esta entrega.

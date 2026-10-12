@@ -397,3 +397,40 @@ Las hipótesis H1–H6 del integrado siguen siendo preguntas, con comparación c
 PropUQ-MAS aporta un antecedente de propagación, sin validar el contrato completo. La lectura nueva exige comprobar correlaciones y realización antes de reutilizar resultados. El README de código observado distingue replay de scores del paper; no se replica ni se importa. Autor/versiones/derechos y límites específicos quedan en Foundation, con conclusiones publicadas aquí.
 
 Esta evidencia no adopta 73, no demuestra sinergia universal ni cierra campañas/matrices. Las fuentes nuevas de estudios DDS observadas concurrentemente siguen con evidencia propia, pendiente de examen material dentro de esta revisión. Originales intactos.
+
+
+---
+
+<a id="ola2-cambio-02"></a>
+
+## Ola 2 — cambio 2: Contexto útil y coste: quitar la promesa implícita de «pequeño»
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 11; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. **Ubicación:** Apertura, segunda oración del primer párrafo.
+
+**Justificación:** La apertura debe prometer contexto pertinente, no un tamaño o coste universal. Permite contrastar la propuesta con límites reales de lectura, tiempo y capacidad.
+
+**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
+
+**Riesgo concreto:** Los resúmenes y comparadores podrían conservar una expectativa de coste pequeño; esta sustitución delimita la apertura sin medir costes ni cambiar T4. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
+
+**Dependencias y aceptación:** §§3/4 mantienen suficiencia por pregunta y T4; no cambiar cifras, experimentos o condiciones matemáticas.
+
+### Apertura, segunda oración del primer párrafo
+
+Viejo verificado una vez fuera de citas de propuestas, línea 5 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+EA investigates whether a small, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+EA investigates whether a task-relevant, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost. Its useful size, interpretation cost and sufficiency depend on the declared review question and source conditions; they are not established for every agentic exchange.
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.

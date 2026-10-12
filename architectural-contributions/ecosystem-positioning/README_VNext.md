@@ -1400,3 +1400,45 @@ La precisión del [README UC-21](https://github.com/dakleyer/use-cases/blob/76ac
 Quedan fuera de Ola1: checker74 y sus pruebas prospectivas; restitución histórica75; recertificación o cambio de manifiestos; sectores de Issue21 sin decisión del propietario; matriz científica y campos del Run record UC-21, con riesgo Medio y dependencias. Tampoco se borra una réplica o se reinterpreta el resultado adverso de HF por aprobar esta ola. Las tareas científicas de cinco/sexta mantienen su estado.
 
 **Decisión propuesta:** aprobar exactamente31,32 y75 variante mínima para trabajo en las dos VNext, con el alcance y verificaciones anteriores. Ahora sólo se publica el plan; no se ejecutan esos reemplazos. La autorización previa de publicar auditorías no se convierte en incorporación por esta nota. Los76 IDs y valoraciones históricas del registro se conservan.
+
+
+---
+
+<a id="ola2-diez-cambios"></a>
+
+## Ola 2 — diez cambios concretos para decidir
+
+**12 octubre 2026 · Codex.** Iván solicita diez cambios concretos, con viejo, propuesto y razón publicados primero en la VNext propietaria. La incorporación espera su go de esta ola. Se revalidaron fuentes y auditorías en `908fdc6c9372b533d1a383d490227333ce4756be`.
+
+La Ola 1 ya se aplicó en [908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be): 31/32 y variante limitada75. Sus notas anteriores de preparación describen aquella época; no vuelven a la cola. Para Ola 2 se reutilizan propuestas existentes y se acotan variantes, sin nuevos IDs ni expedientes.
+
+### Orden y alcance
+
+| Orden | Cambio | Propuesta previa | Impacto | Riesgo | Esfuerzo | Par completo en propietaria |
+|---|---|---|---|---|---|---|
+| 1 | P3 identifica una transición; no concede autoridad | 60 | Medio | Medio | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/04_OPERATION_VNext.md#ola2-cambio-01) |
+| 2 | Contexto útil y coste: quitar la promesa implícita de «pequeño» | 11 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola2-cambio-02) |
+| 3 | Oráculo: declarar qué dominio respalda su acuerdo | 27 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola2-cambio-03) |
+| 4 | Dos mecanismos de Theme 13: atribuir claramente la propuesta | 34 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-04) |
+| 5 | Benchmark: conciliar W1 ya registrado y adopción pendiente | 40 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#ola2-cambio-05) |
+| 6 | DDS: tres etapas y dos fases internas de Stage A | 76 | Medio | Bajo | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#ola2-cambio-06) |
+| 7 | A significa resultado funcional, no sólo aserción o alcance | 72 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01B_VNext.md#ola2-cambio-07) |
+| 8 | B_Cart: soporte y reserva evaluable, además de confianza | 38 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/README_VNext.md#ola2-cambio-08) |
+| 9 | Requirements: seis escenarios y cuatro incorporaciones distintas | 14/15 | Medio | Bajo | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-09) |
+| 10 | Una respuesta única puede seguir sin respaldo | 8 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola2-cambio-10) |
+
+**Diez cambios, catorce pasajes:** el benchmark40 requiere cuatro sustituciones coordinadas; Requirements14/15 dos. Cada otro candidato tiene un par. Los viejos completos se localizaron una vez en su cuerpo fuente, excluidas las citas históricas. Se conservan los planes anteriores, sus discrepancias y sus valoraciones. Esta selección actual define variantes cuando el texto se acota; el registro76IDs conserva su historia.
+
+Los primeros cinco mejoran la atribución de autoridad, el alcance de utilidad/coste, el dominio evaluado y la consistencia del estado documental. Los siguientes alinean DDS y los resúmenes A/B con sus definiciones, corrigen el inventario de escenarios y aclaran la inferencia matemática. Cuatro tienen impacto esperado Alto y seis Medio; dos riesgo Bajo y ocho Medio. Los riesgos concretos y el coste de lectura/validación están en cada propietaria.
+
+### Conciliación material de esta propuesta
+
+- **P3 y autoridad:** Operation ya mantiene ACC y permiso separados;60 retira la ambigüedad «authorizes the need» sin modificar selección o ejecución.
+- **00N y 00M:**11 condiciona tamaño/coste a la pregunta y perfil. El ejemplo8 preserva la premisa de compatibilidad; no demuestra ahorro ni suficiencia operacional.
+- **00M, 01B y MSCA:**72 mantiene A como resultado del proceso;38 resume el B_Cart que Composition§3.2 ya define. Son aclaraciones locales; las propuestas acopladas de RA conservan su propio plan.
+- **Benchmark, Requirements y WORKPLAN:**§9 registra el mapping W1 y WORKPLAN W2/Track D lo trata como revisión concluida.40 armoniza§§4/9/12/13 con ese estado y mantiene pendientes las condiciones de adopción.14/15 ajustan la cuenta E–J y evitan llamar independientes a cuatro familias distintas.
+- **DDS:**76 alinea la primera nota con Index§5 y las fases internas de StageA; no cambia identificadores históricos.
+
+### Decisión y aplicación
+
+Los pares están publicados al final de las diez VNext existentes. Sólo se añadieron planes y esta visión conjunta: ninguna sustitución de fuente se ejecutó. Iván puede decidir la ola completa o un subconjunto identificando sus números;40 se trata como un paquete de cuatro pasajes y14/15 como uno de dos. Los originales y fuentes congeladas mantienen su custodia, con la edición de revisión separada. Antes de la incorporación se vuelve a comprobar fuente/destino y se conserva el predecessor auténtico.

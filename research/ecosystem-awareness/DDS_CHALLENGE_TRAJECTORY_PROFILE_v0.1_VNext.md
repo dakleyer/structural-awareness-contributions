@@ -693,3 +693,40 @@ La alternativa siguiente se limita a evitar retiradas futuras mediante una regla
 **Compatibilidad y orden:** esta variante y el75 amplio reemplazan la misma regla: escoger una redacción, no aplicar dos reemplazos. Decidir esta variante no descarta el trabajo histórico pendiente. No modifica Stage A, Stage B/C, checkers, pruebas, hashes o resultados. **Instrucción de Iván:** conservar originales y conversaciones, una VNext por unidad y viejo completo visible. **Decisión:** pendiente sobre este texto exacto; publicación de auditoría y plan autorizada, incorporación no ejecutada.
 
 **Fuera de esta tanda:** 74 necesita el sucesor/contrato y comprobaciones prospectivas; 75 histórico necesita custodia auténtica. Los tres SHA256/README requieren identificar épocas; no se corrigen hashes para simular conservación. Las siete réplicas conservan propietario/custodia y no se borran. Los resultados HF contrarios siguen válidos dentro de su scope. 76 es claridad de impacto Medio, riesgo Bajo; se conserva pero no se eleva artificialmente a Alto. [Primera tanda conjunta](../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026).
+
+
+---
+
+<a id="ola2-cambio-06"></a>
+
+## Ola 2 — cambio 6: DDS: tres etapas y dos fases internas de Stage A
+
+**12 octubre 2026 · Codex.** Propuesta derivada de cambio 76; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
+
+**Fuente actual:** [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `5b8517185308f75f57b8ce2096360e27d760438a`. **Ubicación:** Nota Extension-stage clarification0.1.3 al principio.
+
+**Justificación:** La primera nota llama etapas DDS a dos fases internas. La corrección la alinea con el índice y evita que el lector infiera cinco etapas.
+
+**Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+
+**Riesgo concreto:** Mantener Stage1/Stage2, rutas y contenido técnico. Cambiar sólo la nota inicial no altera las etapas, obligaciones o resultados. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
+
+**Dependencias y aceptación:** Index §5 y Stage A §§6/13.1; conservar nombres históricos Stage1/Stage2 e identificadores.
+
+### Nota Extension-stage clarification0.1.3 al principio
+
+Viejo verificado una vez fuera de citas de propuestas, línea 5 de la fuente fijada.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+Extension-review clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal extension-review phases within DDS Stage A for any declared base. Their historical labels Stage1 and Stage2 identify those phases, not DDS Stage B/C or additional development stages. Their completion and evidence remain scoped.
+~~~~
+
+**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
