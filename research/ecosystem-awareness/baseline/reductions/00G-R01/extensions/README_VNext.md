@@ -30,3 +30,14 @@ La verificación simple resolvió 248 bindings: 243 coinciden, tres README requi
 [EP VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026) registra alcance y orden. No nueva jerarquía, expediente o borrado por limpieza.
 
 **Cotejo delúltimo avance:** `c36da6745c3893b0200014358c48178778d8cee9` registra en HF los blobs BOT-APPROX con un corte identificado, verificado en 127 referencias. Es aclaración documental, no cambio dehashcientífico. La época de los tres antiguos bindings README/SHA256 sigue pendiente; el manifiesto Git nuevo no la identifica automáticamente. Once archivos leídos, ningún experimento ejecutado aquí.
+
+
+## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
+
+**Auditoría realizada por Codex, mismo asistente; revisión documental sobre el corte `07c83653babec79f387bdfd5fc4b93e4ac21b533`.** Iván solicita analizar el borrador autocontenido v0.2 de reorganización, no ejecutar la migración. Se leyó el plan completo y se contrastaron la navegación controlada, el método A/B/C, los contratos HF v0.3 y v0.3.1, sus ocho bindings de paquete, el catálogo de extensiones y los recorridos bot v0.6. El documento recibido permanece fuera del repositorio; aquí se publican las conclusiones de revisión.
+
+La unidad campaña permite enlazar estudios de tecnologías diferentes sin subordinarlos a HF. El catálogo actual contiene trece estudios con sus denominadores y techos propios; su fila HF sigue remitiendo a la Run Card v0.1. La navegación propuesta debe mostrar la sucesión HF v0.1→v0.2→v0.3/v0.3.1 conservando las épocas, sin convertir el catálogo histórico ni los recorridos sintéticos en una aceptación nueva.
+
+Hay que reconciliar el registro de campañas propuesto con el catálogo de estudios existente: campaña, estudio, infraestructura y referencia son clases distintas. R01/C02 no adquiere Stage por prestar herramientas a una campaña. La misma evidencia compartida tendrá una identidad y varias relaciones; las réplicas de feasibility/extensions no constituyen campañas adicionales ni auditorías independientes.
+
+Propongo un piloto HF y después otro estudio Simplified para comprobar que el registro no incorpora reglas particulares de HF como reglas generales. No crear una ficha obligatoria por archivo ni nuevos VNext por copia. [HF VNext](./hugging-face/README_VNext.md), [baseline VNext](../../../README_VNext.md) y [EP VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md) registran los extremos. Indexación Alto impacto/Bajo riesgo/esfuerzo Medio; archivo físico posterior sólo con matriz de versiones y fuentes aprobada. Sin cambios de protocolos, resultados o rutas.

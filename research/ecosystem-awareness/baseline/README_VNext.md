@@ -321,3 +321,14 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 ## Bloques aplicados retirados
 
 Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/README_VNext.md).
+
+
+## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
+
+**Auditoría realizada por Codex, mismo asistente; revisión documental sobre el corte `07c83653babec79f387bdfd5fc4b93e4ac21b533`.** Iván solicita analizar el borrador autocontenido v0.2 de reorganización, no ejecutar la migración. Se leyó el plan completo y se contrastaron la navegación controlada, el método A/B/C, los contratos HF v0.3 y v0.3.1, sus ocho bindings de paquete, el catálogo de extensiones y los recorridos bot v0.6. El documento recibido permanece fuera del repositorio; aquí se publican las conclusiones de revisión.
+
+Una clasificación por campañas no elimina la función de baseline, Challenges, contratos comparativos ni infraestructura R01. Los casos, fuentes y artefactos compartidos conservan propietario; su adscripción a una campaña es una relación adicional. Las carpetas protocol/evidence/runs/results no deben rellenarse copiando el mismo archivo varias veces.
+
+El inventario actual y la evidencia congelada son dos conjuntos diferentes. HF v0.3 consume requisitos del baseline y una versión anterior del mapa FG-TIDA; copiar solamente el subárbol HF o todos los archivos del head actual no reproduce ese cierre. La matriz debe incluir los pares commit/ruta/blob realmente usados, versiones de herramientas y referencias que quedan externas. Una copia de documentación con enlaces relativos sin su contexto sólo puede declararse archivística; no se presentará como paquete ejecutable autónomo.
+
+La propuesta se revisa también en [extensiones VNext](./reductions/00G-R01/extensions/README_VNext.md), [HF VNext](./reductions/00G-R01/extensions/hugging-face/README_VNext.md) y [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md). Primero indexación, impacto Alto/riesgo Bajo/esfuerzo Medio; copia posterior riesgo Medio–Alto/esfuerzo Alto hasta cerrar dependencias. Baseline y todas sus fuentes permanecen intactos.

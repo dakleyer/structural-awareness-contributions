@@ -726,3 +726,18 @@ Continúan por separado el checker74 y la recuperación histórica75. La regla f
 ## Bloques aplicados retirados
 
 Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md).
+
+
+## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
+
+**Auditoría realizada por Codex, mismo asistente; revisión documental sobre el corte `07c83653babec79f387bdfd5fc4b93e4ac21b533`.** Iván solicita analizar el borrador autocontenido v0.2 de reorganización, no ejecutar la migración. Se leyó el plan completo y se contrastaron la navegación controlada, el método A/B/C, los contratos HF v0.3 y v0.3.1, sus ocho bindings de paquete, el catálogo de extensiones y los recorridos bot v0.6. El documento recibido permanece fuera del repositorio; aquí se publican las conclusiones de revisión.
+
+El diseño coincide con DDS en distinguir objetos A/B/C y modos de evidencia, conserva los inputs y no convierte un resultado A en B/C. La regla organizativa «una campaña, una etapa» debe declararse como política prospectiva del registro, compatible con el método. No se exige dividir expedientes históricos ni alterar su identidad. Separar identidad de campaña, versiones materiales del contrato, runs y sucesores; registrar una campaña no equivale a aceptarla.
+
+No recomiendo crear una segunda fuente metodológica mantenida en dds/canonical. El Index actual contiene enlaces ./baseline/..., y su copia literal a otra ubicación resolvería a destinos diferentes. Usar referencias inmutables al original; si posteriormente se requiere snapshot, identificarlo como copia y conservar su contexto. REGISTRY.json organiza campañas; el Index clasifica el método, el catálogo clasifica estudios, el registro de claims mantiene consumidores y el de aportaciones es backlog. Falta especificar sincronización/propietario de datos comunes.
+
+La aceptación del plan dice rechazar «Stage retrospectivo», mientras otras secciones permiten clasificación histórica documentada. Hay que precisar: se admite clasificar retrospectivamente por objeto/evidencia; se rechaza atribuir un prerregistro, ejecución, aceptación o Stage más fuerte que lo demostrado. Esa distinción ya está en Index §7.
+
+Preservación exige versiones exactas de inputs, no sólo estado actual. El expediente HF ilustra un mapa FG-TIDA fijado a blob38d64f61ef81a300a20d9d89cda65e5bb6ba5b22 distinto de main. La salida científica de una campaña se versiona por su contrato; el nombre de carpeta no le otorga aprobación. Una réplica archivística de una VNext no abre un expediente nuevo; toda conversación continúa en la única VNext propietaria.
+
+[EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md) concentra el juicio estratégico y las condiciones; [EA VNext](./README_VNext.md) y [HF VNext](./baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md) registran las relaciones. Primera tanda sugerida de indexación: impacto Alto/riesgo Bajo/esfuerzo Medio. La copia y adopción operativa permanecen propuestas separadas; no se añade todavía canon, código, carpetas, pruebas o campañas.
