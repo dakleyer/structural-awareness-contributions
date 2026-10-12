@@ -495,3 +495,22 @@ This vocabulary is specific to the present proposal. Its connection to explorati
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
 **Fuente externa comprobada:** PDF alojado por el autor, portada de Alon/Matias/Szegedy con fecha22febrero2002. Lectura para comprobar identidad/ruta/edición el12octubre2026. La fecha de esa copia se indica como tal; la página de registro bibliográfico mostró una respuesta intermitente. Se propone sólo el enlace primario comprobado.
+
+
+## Revisión en cuatro puntos — R25 / 00M — 12 octubre 2026
+
+**Revisión completada para el documento y edición identificados; desarrollo y validación siguen abiertos.** Se reutiliza esta VNext única y la lectura integral de v0.8 registrada arriba. La fuente actual, fijada en09fc270abfcc8efc3efdcee2279b80e145db55d5, tiene blob073f8c331fdd10312cb180d39be5a73150c4844f. No se vuelve a contar la relectura como otro auditor ni como una prueba de todos sus antecedentes.
+
+### 1. Problemas reales del artículo
+No se identificó una contradicción en el núcleo matemático condicionado de §§4–6. La equivalencia de suficiencia vale para una pregunta fija; la fuente exige un conjunto compatible no vacío y evita la falsa certeza por aproximación singleton. El cambio8 aclaraba una condición ya presente y consta aplicado enla fuente; no fue una refutación. Los cambios7/9 de navegación/acceso también constan incorporados enel corte actual. Sus antiguos estados pendientes permanecen sólo como historia. La procedencia de los dos hashes está explicada por commits auténticos; no constituye pérdida de custodia.
+
+### 2. Desarrollo necesario
+Fijar una representación útil, su universo admitido, pregunta independiente, verificación de no vacuidad y correspondencia entre actores. Para cualquier sustitución operacional, probar congruencia respecto de la operación receptora, además de equivalencia de observaciones. Elegir un perfil con coste total y plazo; comparar contra un receptor competente que ya conserva procedencia, vigencia y permisos. Quedan abiertos la implementación, los rendimientos, la revisión humana real, la conciliación global y las referencias no inspeccionadas íntegramente. No se convierten esas obligaciones en errores de la nota.
+
+**Resultado reutilizable.** Para E:X→Z y P:X→Y, existe f:E(X)→Y con P=f∘E si y solo si E(x)=E(x′) implica P(x)=P(x′). Prueba: la implicación directa sustituye f; para la inversa, f(z)=P(x) para cualquier x de la fibra, independiente de la elección por la premisa. No presupone recuperación de información descartada ni ahorro. Un Z único con P(0)≠P(1) es el contramodelo mínimo a suficiencia universal.
+
+### 3. Aportación posible a DDS
+Stage A: contrato de suficiencia relativo al objetivo y un control negativo de dos estados indistinguibles con disposiciones distintas. Stage B: verificar interpretación, procedencia y vigencia del resumen; conservar UNKNOWN si falla el contrato. Stage C: medir error, falsas suspensiones, adquisición, atención y latencia en una tarea autorizada. DDS/00D y 00N reciben una obligación de prueba, no una garantía adoptada. Nulo: el baseline con las mismas distinciones iguala o supera a la propuesta.
+
+### 4. Sinergias internacionales actuales
+ProvSQL (https://provsql.org/) ofrece procedencia y formalización que deben entrar en el comparador. Podemos aportar una consulta que requiere preservar una distinción de alcance/permiso; el proyecto aporta su semántica y prueba existente. Primer contraste: mensajes con igual valor visible y fuentes o permisos distintos. Nulo: el mecanismo existente resuelve el caso sin coste adicional relevante. FORGE 2026 (https://arxiv.org/abs/2602.16708v3) aporta contratos de observación y enforcement; nuestro posible aporte es precisar qué hipótesis hacen suficiente una observación. Comparar expressividad y coste de una misma política. Rutas públicas de proyecto/autores, sin contacto o acuerdo. Las revisiones T04a/T05 desarrollan los antecedentes formales por separado.

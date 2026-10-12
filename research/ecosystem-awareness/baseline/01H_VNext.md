@@ -70,3 +70,22 @@ Primera, tercera y cuarta textuales realizadas; segunda material y quinta amplia
 Se leyó ArticleIV entero como procedencia:señales yhuellas pueden ser informativas sin intención cooperativa,pero su valor no es automático. Las tres partes 03 confirman APQ≠calificación deunmensaje,F9historia≠confianza global ylinaje≠transporte diferente. F2 sigue siendo dueño de ventana; F7 pide acciones sin crearsuautoridad. La ampliación actual de Foundation requiere conservar fallos en scope fijo:73queda en la fuente,con fuentecompleta aún pendiente. Se supera elpendiente de lectura propia de ArticleIV/funciones en esta relación; siguen los perfiles/realizaciones y fuentes externas completas.
 
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+
+## Revisión en cuatro puntos — R27 / 01H — 12 octubre 2026
+
+**Revisión de la nota completada; estudios y perfiles abiertos.** Se reutiliza esta VNext única y su lectura integral §§1–9. Fuente actual: blob32143e360857f73d38bd3fda888f7ecbe1a7e557. Las limitaciones materiales de las pasadas históricas permanecen explícitas.
+
+### 1. Problemas reales del artículo
+No se encontró contradicción que obligue a cambiar el núcleo. La representación vacía ya es UNASSESSED, no suficiente; la adquisición no es autoridad; los costes de correlación, revelación, espera y atención están incluidos. La nota no obliga a un objetivo global o a cooperación universal. La imprecisión en el registro externo NIST de dos títulos/DOI no es prueba de que la referencia genérica de 01H sea un resultado falso. La observación 72 corresponde al consumidor01B, no a esta fuente.
+
+### 2. Desarrollo necesario
+Instanciar utilidad/coste bajo un Objective Envelope concreto, con derechos y tiempo explícitos; tratar objetivos incomparables sin scalarización universal. Ejemplo: obtener q mejora una predicción, pero la acción permitida sigue HOLD; valor epistemológico y operacional difieren. Probar costes de buscar, interpretar y revalidar, no sólo bytes de envío. Mantener linaje al devolver una afirmación por otra ruta. Restan evaluación empírica, perfiles concretos y fuentes/consumidores no cubiertos materialmente.
+
+**Condición matemática.** Si a*(x) es la disposición fijada por el owner, E suficiente para a* debe ser constante en cada fibra relevante para a*. Esa condición no elige el owner ni el presupuesto. Una observación que diferencia dos mundos cuyo a* es idéntico puede ser útil para otro objetivo, pero no demuestra mejora en éste.
+
+### 3. Aportación posible a DDS
+Stage A: decisión local y adquisición opcional con presupuestos, autoridad y fuente. Stage B: verificar que la cartografía y los qualifiers se interpretan en el receptor; una vuelta de mensaje no suma independencia. Stage C: comparar coste neto y tiempo de respuesta con una política de valor de información competente y limitada por los mismos permisos. Nulo: la selección estándar ya logra igual utilidad; daño: los qualifiers consumen la ventana útil. No se introduce obligación de señalización global.
+
+### 4. Sinergias internacionales actuales
+Dahal y coautores, Thinking Before Thinking, septiembre2026 (https://arxiv.org/abs/2609.38147v1): aporte externo en control del presupuesto y reuse; nuestro aporte potencial en decisión local con fuentes y derechos no fungibles. Contraste: misma tarea, memoria/presupuesto/worker igualados, coste de verificar qualifiers y decisiones permitidas. Nulo: no mejora frente al controlador competente. FORGE (https://arxiv.org/abs/2602.16708v3) sirve para convertir selección informativa en ejecución con permiso. Primer contraste: información útil pero acción no autorizada; nuestra oportunidad es mejorar adquisición legítima, no conferir mandato. T07 conserva por separado el antecedente Russell–Wefald. Sin contacto o colaboración aceptada.
