@@ -627,3 +627,58 @@ If these ten conditions hold, Stage B has a credible first implementation path. 
 **Not reused as a false equivalence:** UC-4 Stage-0 as proof of R01; ISO 42010 architecture-description conformance as proof of functional realization; a generic benchmark score as Stage C validation; a batch harness PASS as evidence of actual effects; a formal proof beyond its properties; a source-owner statement as independent empirical validation.
 
 **DDS differential:** the same Challenge lineage is preserved across specification discovery, architecture verification and eventual implementation validation, while each stage has a different authoritative reference and a non-promotable claim boundary.
+
+
+## Tanda 4 — método, instrumentos, comparadores y evidencia · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda3 y pide preparar la siguiente. Las cuatro adiciones anteriores ya se incorporaron en Contributions `269d60cc478d2756516c631f587efc074e822eed` y la rama UC-21 `5c2a969bfbfc5eb8065537f3fade718e756dcdad`; se conservan los bytes anteriores y sus fichas aplicadas salen de pendientes. Esta tanda publica lectura de contratos y cuatro propuestas nuevas, aún pendientes del GO de la tanda4. PDF y entrada final UC-21 quedan reservados.
+
+### Lo que sostiene la cadena
+
+Se leyeron README/adapter/policy/isolation/broker/trace/bridge R01, registro y resultado v0.9, el freeze de30artefactos, perfil diagnóstico StageA v0.2, perfiles B/C y campos de registro T03. La lectura estática de real_admission y pasajes de verify.py se usa para precisar qué comprueba la admisión; no se ejecutó el harness, código del corpus ni producto. Las dos referencias DAG se examinaron por su dominio declarado y su papel de contraste; no se declara una nueva demostración de corrección del algoritmo.
+
+Stage A contrasta especificaciones con el Challenge; B contrasta una arquitectura con el paquete de especificación congelado; C contrasta una implementación con el Challenge y efectos observados. Los perfiles B/C preservan resultados por requisito, continuidad, negativos/mutations cuando aplican, comparadores y retroalimentación por sucesor. El instrumento común aporta separación de vistas, operaciones/ledgers/traces/integridad; no cambia la referencia sustantiva de la etapa por sí mismo.
+
+R01 separa adapter, broker, gate policy, trace y evaluator. La policy fija criterios y no determina la verdad del mundo; los métodos de referencia no inventan thresholds. El contrato de trazas distingue seal pre-oracle y result seal; el aislamiento exige frontera real del candidato, no sólo quitar campos de un objeto in-process. Para la comparación se fijan acceso, autoridad, recursos, capacidad y tiempo; un control convencional exitoso cuenta. Self-test0.7/freeze0.9 conserva seis vectores de resultados mezclados: dosPASS,tresFAIL,unoINCONCLUSIVE esperados. SELFTEST_PASS significa cumplir esos controles, no seis tecnologías aceptadas.
+
+### Versiones y evidencia comprobadas
+
+Los30bindings Git del freezev0.9 coinciden con el árbol vivo de esta tanda. Instrument0.7 y freeze0.9 son identidades distintas y ambos constan en el registro. C02 R01 y C3 HF evalúan perfiles/predicados propios; el C3 de instrumento y el brazoC3 de otro protocolo tampoco son equivalentes. El diagnóstico StageA v0.2 sigue como audit candidate de su freeze; el checker v0.3 audit candidate es un sucesor separado, no sustitución de los bytes v0.2 ni aceptación retroactiva.
+
+Se consultaron IssueUC-4 y sus diez comentarios públicos el12octubre. La fuente distingue package1.1.1/schema1.0.0 y schema1.1.0-r1; preserva contratos previos. La conversación más reciente ofrece SF-011 al pinv0.1.3 para una futura revisión de adapter y dice que no admite campaña/run. Esta lectura no identifica aceptación de nuestro puente R01. El perfil consultado mantieneR01-BRIDGE-DRAFT y su esquema/semántica/revisión/capacidades siguen siendo dimensiones distintas. No se enviaron mensajes ni se importó elZIP de esquema.
+
+### Hallazgo de admisión y límite preciso
+
+real_admission.py valida flags/status, números, modos de aislamiento y presencia de referencias. Su `_present` comprueba valor distinto deNone/stringvacío/listavacía; no resuelve un commit/hash ni autentica el archivo o la revisión. verify.py construye hashes ficticios y labels de review en el control sintético admitido. Ese control es coherente con una prueba de instrumento, pero no demuestra la evidencia de una campaña real. La propuesta pide que la guía conecte los campos declarados con los artefactos y reviews verificables. No cambia el validador congelado ni afirma que esta lectura ejecutó un falso PASS.
+
+### Adecuación y prioridad
+
+El diseño general mantiene referencias y ownership coherentes. Dos mejoras de lectura son prioritarias: abrir los contratos en secuencia práctica y conectar el diseño antiguo del bridge con los perfiles DDS publicados. Dos complementos aclaran selección de instrumento y evidencia que respalda la admisión. Cuatro adiciones, Alto impacto esperado/Bajo riesgo/Medio esfuerzo; el beneficio es seleccionar y preparar correctamente el estudio. Riesgo concreto: confundir calibration, declaración, conformance o efecto; los textos identifican su objeto y artefacto. No alteran policy, thresholds, código, resultados o freezes. Orden: guía oracle→selección DDS→bridge→evidencia adapter, como una tanda de enlaces conjunta.
+
+
+La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
+
+### Plan pendiente — Relacionar diseño histórico UC-4 con los perfiles DDS vigentes
+
+Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `680e7f221b2c0e6182a227704997c2c232583cdf`. Ubicación: al final, después del contexto completo. La nota histórica todavía habla de una enmienda DDS futura. La adición dirige al método mantenido y conserva intacta la revisión/compatibilidad de UC-4.
+
+Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden3; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
+
+**Texto antes — viejo literal completo del contexto**
+
+````markdown
+Until that review, this profile deliberately avoids claiming exact UC-4 schema compatibility.
+````
+
+**Texto después — contexto íntegro y adición completa**
+
+````markdown
+Until that review, this profile deliberately avoids claiming exact UC-4 schema compatibility.
+
+
+## Current DDS reading route — 12 October 2026
+
+Section4.1 retains the earlier three-stage design discussion. For the maintained DDS method, use the [method index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), [Stage A](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B Architecture Verification](../../../../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C Implementation / Problem Validation](../../../../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md). Their objects and authoritative references govern the selected study; the earlier sketches remain their design history.
+
+UC-4's imported schema, contributor review, validation and execution capabilities retain their own versioned records. The R01 bridge's listed status remains R01-BRIDGE-DRAFT. The [adapter evidence guide](./TECHNOLOGY_ADAPTER_GUIDE.md#evidence-attached-to-an-admission-record) connects declared admission fields to their supporting artifacts. DDS stage selection and UC-4 compatibility are recorded separately.
+````

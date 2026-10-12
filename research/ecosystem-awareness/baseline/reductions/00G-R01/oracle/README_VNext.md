@@ -1151,3 +1151,92 @@ El [plan común](https://github.com/dakleyer/structural-awareness-contributions/
 Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
 
 Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/structural-awareness-contributions/blob/b8729701ff0303363d48fe63a629587d4b12a6e2/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.
+
+
+## Tanda 4 — método, instrumentos, comparadores y evidencia · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda3 y pide preparar la siguiente. Las cuatro adiciones anteriores ya se incorporaron en Contributions `269d60cc478d2756516c631f587efc074e822eed` y la rama UC-21 `5c2a969bfbfc5eb8065537f3fade718e756dcdad`; se conservan los bytes anteriores y sus fichas aplicadas salen de pendientes. Esta tanda publica lectura de contratos y cuatro propuestas nuevas, aún pendientes del GO de la tanda4. PDF y entrada final UC-21 quedan reservados.
+
+### Lo que sostiene la cadena
+
+Se leyeron README/adapter/policy/isolation/broker/trace/bridge R01, registro y resultado v0.9, el freeze de30artefactos, perfil diagnóstico StageA v0.2, perfiles B/C y campos de registro T03. La lectura estática de real_admission y pasajes de verify.py se usa para precisar qué comprueba la admisión; no se ejecutó el harness, código del corpus ni producto. Las dos referencias DAG se examinaron por su dominio declarado y su papel de contraste; no se declara una nueva demostración de corrección del algoritmo.
+
+Stage A contrasta especificaciones con el Challenge; B contrasta una arquitectura con el paquete de especificación congelado; C contrasta una implementación con el Challenge y efectos observados. Los perfiles B/C preservan resultados por requisito, continuidad, negativos/mutations cuando aplican, comparadores y retroalimentación por sucesor. El instrumento común aporta separación de vistas, operaciones/ledgers/traces/integridad; no cambia la referencia sustantiva de la etapa por sí mismo.
+
+R01 separa adapter, broker, gate policy, trace y evaluator. La policy fija criterios y no determina la verdad del mundo; los métodos de referencia no inventan thresholds. El contrato de trazas distingue seal pre-oracle y result seal; el aislamiento exige frontera real del candidato, no sólo quitar campos de un objeto in-process. Para la comparación se fijan acceso, autoridad, recursos, capacidad y tiempo; un control convencional exitoso cuenta. Self-test0.7/freeze0.9 conserva seis vectores de resultados mezclados: dosPASS,tresFAIL,unoINCONCLUSIVE esperados. SELFTEST_PASS significa cumplir esos controles, no seis tecnologías aceptadas.
+
+### Versiones y evidencia comprobadas
+
+Los30bindings Git del freezev0.9 coinciden con el árbol vivo de esta tanda. Instrument0.7 y freeze0.9 son identidades distintas y ambos constan en el registro. C02 R01 y C3 HF evalúan perfiles/predicados propios; el C3 de instrumento y el brazoC3 de otro protocolo tampoco son equivalentes. El diagnóstico StageA v0.2 sigue como audit candidate de su freeze; el checker v0.3 audit candidate es un sucesor separado, no sustitución de los bytes v0.2 ni aceptación retroactiva.
+
+Se consultaron IssueUC-4 y sus diez comentarios públicos el12octubre. La fuente distingue package1.1.1/schema1.0.0 y schema1.1.0-r1; preserva contratos previos. La conversación más reciente ofrece SF-011 al pinv0.1.3 para una futura revisión de adapter y dice que no admite campaña/run. Esta lectura no identifica aceptación de nuestro puente R01. El perfil consultado mantieneR01-BRIDGE-DRAFT y su esquema/semántica/revisión/capacidades siguen siendo dimensiones distintas. No se enviaron mensajes ni se importó elZIP de esquema.
+
+### Hallazgo de admisión y límite preciso
+
+real_admission.py valida flags/status, números, modos de aislamiento y presencia de referencias. Su `_present` comprueba valor distinto deNone/stringvacío/listavacía; no resuelve un commit/hash ni autentica el archivo o la revisión. verify.py construye hashes ficticios y labels de review en el control sintético admitido. Ese control es coherente con una prueba de instrumento, pero no demuestra la evidencia de una campaña real. La propuesta pide que la guía conecte los campos declarados con los artefactos y reviews verificables. No cambia el validador congelado ni afirma que esta lectura ejecutó un falso PASS.
+
+### Adecuación y prioridad
+
+El diseño general mantiene referencias y ownership coherentes. Dos mejoras de lectura son prioritarias: abrir los contratos en secuencia práctica y conectar el diseño antiguo del bridge con los perfiles DDS publicados. Dos complementos aclaran selección de instrumento y evidencia que respalda la admisión. Cuatro adiciones, Alto impacto esperado/Bajo riesgo/Medio esfuerzo; el beneficio es seleccionar y preparar correctamente el estudio. Riesgo concreto: confundir calibration, declaración, conformance o efecto; los textos identifican su objeto y artefacto. No alteran policy, thresholds, código, resultados o freezes. Orden: guía oracle→selección DDS→bridge→evidencia adapter, como una tanda de enlaces conjunta.
+
+
+La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
+
+### Plan pendiente — Cadena completa registro→instrumentos→traza→resultado
+
+Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `3084deb7473af19026f0f635987f63f5c23c18dc`. Ubicación: al final, después del contexto completo. El lector puede recorrer los contratos actualmente separados y ver cuándo se produce cada evidencia, sin ejecutar una tecnología por seguir los enlaces.
+
+Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden1; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
+
+**Texto antes — viejo literal completo del contexto**
+
+````markdown
+The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+````
+
+**Texto después — contexto íntegro y adición completa**
+
+````markdown
+The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+
+
+## Reading sequence from registration to result
+
+Follow the record in the order in which its evidence is created:
+
+| Step | Read | What it fixes |
+|---|---|---|
+| 1. Imported question and semantics | [UC-4 bridge](./UC4_INTEROPERABILITY_PROFILE.md) | Source/version, mapping, capabilities and distinct review states. |
+| 2. Candidate and execution envelope | [Adapter guide](./TECHNOLOGY_ADAPTER_GUIDE.md) and [registration template](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) | Implementation, native mapping, comparisons, resources, reset/cache and disclosure policy. |
+| 3. Candidate visibility | [Isolation contract](./ISOLATION_CONTRACT.md) | What the candidate can access and the evidence for that runtime boundary. |
+| 4. Actions and acceptance | [Tool broker](./TOOL_BROKER_CONTRACT.md) and [gate policy](./GATE_POLICY_CONTRACT.md) | Available operations, charges, durations, effects and frozen acceptance conditions. |
+| 5. Evidence before and after evaluation | [Trace contract](./TRACE_CONTRACT.md) | Candidate/native evidence, attempted action, observed effect, pre-oracle seal and result seal. |
+| 6. Instrument calibration | [v0.9 record](./SELFTEST_RECORD_v0.9.md), [result](./selftest_result_v0.9.json) and [freeze](./STAGE0_FREEZE_v0.9.json) | The published calibration of the instrument0.7 under freeze0.9, preserving each control's expected PASS, FAIL or INCONCLUSIVE outcome. |
+
+Use the [DDS method index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) for the study stage and its authoritative reference. C11 registers the selected campaign; T03 admits its pinned real-technology adapter. The registration template is completed and evidenced before that execution. The existing self-test records remain the calibration history of the instrument.
+````
+
+### Plan pendiente — Conectar declaraciones T03 con sus evidencias verificables
+
+Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TECHNOLOGY_ADAPTER_GUIDE.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `ab28cd93a92746fdcd181eb5b9944773d047f5c6`. Ubicación: al final, después del contexto completo. La lectura estática distingue presencia de referencias de comprobación de los artefactos referidos. La aclaración concreta evita llamar verificación de evidencia al control sintético de admisión.
+
+Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden4; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
+
+**Texto antes — viejo literal completo del contexto**
+
+````markdown
+Use [REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) as the R01-side registration checklist; it does not replace Nelson's UC-4 experiment package.
+````
+
+**Texto después — contexto íntegro y adición completa**
+
+````markdown
+Use [REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) as the R01-side registration checklist; it does not replace Nelson's UC-4 experiment package.
+
+
+## Evidence attached to an admission record
+
+Resolve the registered source versions and hashes to the actual frozen artifacts before execution. Keep the schema-validator result, contributor-review evidence, isolation record, native mapping and comparator/resource contract with the registration. The campaign record identifies where each supporting artifact can be inspected.
+
+The current `validate_real_registration` checks required field presence and declared admission values. It does not fetch the artifacts named by their hashes or authenticate a contributor's review. Its synthetically complete admission control tests that checker path. Actual artifact resolution and the supporting review/isolation evidence remain part of preparing the real campaign under the contracts above.
+````

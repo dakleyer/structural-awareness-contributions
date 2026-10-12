@@ -558,3 +558,66 @@ Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/stru
 Iván autoriza continuar después de la entrega de las cuatro propuestas de la tanda3. Se incorporan exactamente sus adiciones a baseline README (sucesor00H), README UC-21 (seis Challenges), DDSIndex (elección del ejercicio) y extensions README (preguntas de trece estudios). Todos los bytes previos de esas cuatro fuentes permanecen íntegros, con sus enlaces. No se modifica otro pasaje ni el PDF.
 
 Las cuatro fichas incorporadas salen de la cola activa; su antes/después completo está en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/db248c134318c8786471eec1ef0ead2248b360a6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Auditorías y decisiones anteriores se conservan. Cero archivos nuevos, movidos, renombrados o eliminados y ninguna VNext nueva. Los estudios conservan registros, inputs, resultados, código, freezes y manifiestos. Continúa la tanda4: método, instrumentos, comparadores y oráculo/harness, con propuestas nuevas pendientes del GO correspondiente.
+
+
+## Tanda 4 — método, instrumentos, comparadores y evidencia · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda3 y pide preparar la siguiente. Las cuatro adiciones anteriores ya se incorporaron en Contributions `269d60cc478d2756516c631f587efc074e822eed` y la rama UC-21 `5c2a969bfbfc5eb8065537f3fade718e756dcdad`; se conservan los bytes anteriores y sus fichas aplicadas salen de pendientes. Esta tanda publica lectura de contratos y cuatro propuestas nuevas, aún pendientes del GO de la tanda4. PDF y entrada final UC-21 quedan reservados.
+
+### Lo que sostiene la cadena
+
+Se leyeron README/adapter/policy/isolation/broker/trace/bridge R01, registro y resultado v0.9, el freeze de30artefactos, perfil diagnóstico StageA v0.2, perfiles B/C y campos de registro T03. La lectura estática de real_admission y pasajes de verify.py se usa para precisar qué comprueba la admisión; no se ejecutó el harness, código del corpus ni producto. Las dos referencias DAG se examinaron por su dominio declarado y su papel de contraste; no se declara una nueva demostración de corrección del algoritmo.
+
+Stage A contrasta especificaciones con el Challenge; B contrasta una arquitectura con el paquete de especificación congelado; C contrasta una implementación con el Challenge y efectos observados. Los perfiles B/C preservan resultados por requisito, continuidad, negativos/mutations cuando aplican, comparadores y retroalimentación por sucesor. El instrumento común aporta separación de vistas, operaciones/ledgers/traces/integridad; no cambia la referencia sustantiva de la etapa por sí mismo.
+
+R01 separa adapter, broker, gate policy, trace y evaluator. La policy fija criterios y no determina la verdad del mundo; los métodos de referencia no inventan thresholds. El contrato de trazas distingue seal pre-oracle y result seal; el aislamiento exige frontera real del candidato, no sólo quitar campos de un objeto in-process. Para la comparación se fijan acceso, autoridad, recursos, capacidad y tiempo; un control convencional exitoso cuenta. Self-test0.7/freeze0.9 conserva seis vectores de resultados mezclados: dosPASS,tresFAIL,unoINCONCLUSIVE esperados. SELFTEST_PASS significa cumplir esos controles, no seis tecnologías aceptadas.
+
+### Versiones y evidencia comprobadas
+
+Los30bindings Git del freezev0.9 coinciden con el árbol vivo de esta tanda. Instrument0.7 y freeze0.9 son identidades distintas y ambos constan en el registro. C02 R01 y C3 HF evalúan perfiles/predicados propios; el C3 de instrumento y el brazoC3 de otro protocolo tampoco son equivalentes. El diagnóstico StageA v0.2 sigue como audit candidate de su freeze; el checker v0.3 audit candidate es un sucesor separado, no sustitución de los bytes v0.2 ni aceptación retroactiva.
+
+Se consultaron IssueUC-4 y sus diez comentarios públicos el12octubre. La fuente distingue package1.1.1/schema1.0.0 y schema1.1.0-r1; preserva contratos previos. La conversación más reciente ofrece SF-011 al pinv0.1.3 para una futura revisión de adapter y dice que no admite campaña/run. Esta lectura no identifica aceptación de nuestro puente R01. El perfil consultado mantieneR01-BRIDGE-DRAFT y su esquema/semántica/revisión/capacidades siguen siendo dimensiones distintas. No se enviaron mensajes ni se importó elZIP de esquema.
+
+### Hallazgo de admisión y límite preciso
+
+real_admission.py valida flags/status, números, modos de aislamiento y presencia de referencias. Su `_present` comprueba valor distinto deNone/stringvacío/listavacía; no resuelve un commit/hash ni autentica el archivo o la revisión. verify.py construye hashes ficticios y labels de review en el control sintético admitido. Ese control es coherente con una prueba de instrumento, pero no demuestra la evidencia de una campaña real. La propuesta pide que la guía conecte los campos declarados con los artefactos y reviews verificables. No cambia el validador congelado ni afirma que esta lectura ejecutó un falso PASS.
+
+### Adecuación y prioridad
+
+El diseño general mantiene referencias y ownership coherentes. Dos mejoras de lectura son prioritarias: abrir los contratos en secuencia práctica y conectar el diseño antiguo del bridge con los perfiles DDS publicados. Dos complementos aclaran selección de instrumento y evidencia que respalda la admisión. Cuatro adiciones, Alto impacto esperado/Bajo riesgo/Medio esfuerzo; el beneficio es seleccionar y preparar correctamente el estudio. Riesgo concreto: confundir calibration, declaración, conformance o efecto; los textos identifican su objeto y artefacto. No alteran policy, thresholds, código, resultados o freezes. Orden: guía oracle→selección DDS→bridge→evidencia adapter, como una tanda de enlaces conjunta.
+
+
+La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
+
+### Plan pendiente — Selección legible de perfiles e instrumentos
+
+Fuente `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `d24ef6090ad98d458b9e549eb2efb9196f4ff1b6`. Ubicación: al final, después del contexto completo. El método y la infraestructura se conectan por la pregunta y referencia correctas; no por el número de una versión o un PASS de calibración.
+
+Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden2; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
+
+**Texto antes — viejo literal completo del contexto**
+
+````markdown
+For S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.
+````
+
+**Texto después — contexto íntegro y adición completa**
+
+````markdown
+For S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.
+
+
+## 14. Select the method profile and its instruments
+
+Select the study's object and authoritative reference first. Then use the instruments admitted for that question.
+
+| Question | Profile or instrument | Reference and use |
+|---|---|---|
+| Which specification distinctions survive the Challenge? | [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [gate diagnostic v0.2 audit candidate](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md) | The frozen Challenge and candidate specification; the diagnostic keeps gate verdict, level and dependency separate. Use the [v0.2 instrument freeze](./DDS_STAGE_A_GATE_DIAGNOSTIC_AUDIT_MANIFEST_v0.2.json) for that audit candidate. |
+| Does an architecture realize the selected specification? | [Stage B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) | The frozen specification package and requirement-to-architecture evidence. |
+| Does the implementation satisfy the problem under the registered conditions? | [Stage C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) | The Challenge, observed target/effect, acceptance policy and matched comparator contract. |
+| How are candidate execution, private evaluation and resources recorded? | [R01 C02 reading sequence](./baseline/reductions/00G-R01/oracle/README.md#reading-sequence-from-registration-to-result) | Adapter, broker, frozen policy and sealed traces within the selected R01 profile. |
+| How is the HF authority/evidence fixture evaluated? | [HF oracle C3](./baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) | Its own frozen family predicates and controls; select its profile rather than substituting C02 labels. |
+
+For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.
+````
