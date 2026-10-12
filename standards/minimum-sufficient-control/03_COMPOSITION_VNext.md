@@ -195,3 +195,22 @@ La valoración actual distingue una mejora documental de una modificación conce
 01H §2.1 puede proporcionar posición yefectos locales aCart_i; §6.1 exige conservar linaje material alreemitir.01B § §4/5 mantiene la vuelta deestado parcial ynegativo yno exporta MSCA completo por obligación universal. Composition sigue siendo dueño decartografía persistente; repetir/recibir unhand-off no crea corroboración independiente o permiso.52/53 permanecen opcionales, sin nueva adopción.
 
 La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+## Revisión en cuatro puntos — R28 / MSCA Composition & Control — 12 octubre 2026
+
+**Reconciliación completada de la revisión del artículo.** La VNext ya contiene una segunda lectura integral §§1–19, que amplió la primera lectura parcial. El índice de12octubre repetía indebidamente sólo el alcance del primer checkpoint; esta síntesis registra ambos en orden. Fuente actual blob0366cbd184149235005dc2236b3da7e4c394ed3e. Completar los cuatro puntos no acredita los perfiles, consumidores o implementaciones abiertos.
+
+### 1. Problemas reales del artículo
+El título§3.4 está duplicado; es un defecto editorial localizado cuyo slug requiere cuidado. La preocupación inicial “sin segunda traducción” no demostró falta general de qualifiers: §§3/8/10.1/10.4/13/18 ya mantienen alcance, vigencia, soporte y residual. Compartir taxonomía no equivale a compartir prueba, pero la fuente completa permite la lectura compatible. La propuesta52/53 se conserva como aclaración opcional, con su reevaluación de prioridad. No se infiere defecto ejecutado por una frase abreviada ni falsedad del mapa completo.
+
+### 2. Desarrollo necesario
+Construir y comprobar adapters para las preguntas distintas de Cart_i y A_RA, con fuentes, versiones, frescura y residual. Probar unknown edge, edge descartado y dependencia confirmada como estados diferentes. Una tabla más detallada no acredita actualización o verdad. Resolver costes/plazos/escala, permisos separados y objetivos incomparables; revisar enlaces al slug antes de una edición de autor. Los perfiles reales, consumidores restantes, código y lectura humana independiente siguen en desarrollo.
+
+**Reformulación.** Una dependencia material e(i,j,q,t) requiere evidencia propia; una similitud nominal sólo aporta un candidato a investigar. Contraejemplo: taxi y bus son semánticamente parecidos sin dependencia de esta misión; un proveedor semánticamente distante puede bloquear un ingrediente. Un mapa cuyo conjunto de aristas está vacío no demuestra independencia. No se elimina UNKNOWN para llenar el mapa.
+
+### 3. Aportación posible a DDS
+Stage A: fixture de dependencia conocida/ausente/no evaluada con respuesta legítima y recepción Cart→RA. Stage B: verificar qualifiers al actualizar Cart, producir Δ_Cart y consumir un slice; comprobar que Δ_Cart no se convierte por nombre en cambio físico Δ_RA. Stage C: medir cobertura y coste frente a un grafo de dependencias/procedencia competente. Conservar Composition como dueño del mapa persistente y RA de su contrato científico. Nulo: la solución existente ya conserva las mismas distinciones y resuelve el caso.
+
+### 4. Sinergias internacionales actuales
+ProvSQL (https://provsql.org/) aporta linaje y query provenance formalizada. Podemos aportar un slice con aristas materialmente relevantes y derechos receptores, para contrastar conservación del soporte al recomponerlo. Nulo: no existe distinción adicional útil frente a su procedencia madura. Aldini/Fusco, Bridging concurrency theory and epistemic models, marzo2026 (https://doi.org/10.1007/s10849-026-09461-3), aporta transiciones multiagente con modelos epistémicos. Podemos aportar update/revocation y dos preguntas receptoras distintas; ellos un lenguaje/model checker para verificar no promoción injustificada y progreso legítimo. Primer contraste finito con fuente vigente/expirada y arista desconocida, contra el mismo verificador con iguales datos. No contacto; adapter y derechos de reutilización concretos no establecidos.
