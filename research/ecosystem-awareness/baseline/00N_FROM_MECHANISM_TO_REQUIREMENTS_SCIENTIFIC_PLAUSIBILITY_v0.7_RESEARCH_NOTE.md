@@ -8,11 +8,11 @@
 
 The central claim is that **selected review questions can be answered, or meaningfully left unresolved, through compatible metadata without reconstructing all source data**. Can useful profiles of that mechanism meet the required accuracy, response and cost conditions together? Here, a *profile* means a declared use case with specified inputs, interpretation rules, scope and limits.
 
-**Research note · v0.7 · 2 October 2026 · local draft for review.**
+**Research note · v0.7 · 2 October 2026 · publicly available working draft for review.**
 
 **Read first:** [A/B/C/D Semantics and Mathematical Plausibility of Scoped Requalification, v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). That note asks whether the proposed operations have defensible mathematical representations. This companion asks whether those operations could serve the functions EA is required to provide. It develops a scientific plausibility argument, not a demonstration of operational compliance or engineering viability.
 
-Here, **EA** is shorthand for the broader EA/EP architectural proposal. Qualification, positioning, authority and execution keep their respective responsibilities. The A/B/C/D meanings are those of the preceding note; older shorthand elsewhere in the corpus is not an alternative definition for this argument.
+Here, **EA** is shorthand for the broader EA/EP architectural proposal. Qualification, positioning, authority and execution keep their respective responsibilities. The A/B/C/D meanings are those of the preceding note. Start with [the two ready signals in §3.6](#36-two-ready-signals-one-version-condition), then use the T1–T4 table to connect the example with information quality, response, timing and cost conditions.
 
 ## 1. The architectural concern—and the opportunity it creates
 

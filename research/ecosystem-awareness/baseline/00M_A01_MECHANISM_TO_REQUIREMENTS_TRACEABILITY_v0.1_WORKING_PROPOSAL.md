@@ -24,6 +24,8 @@ This is a directional trace, not an equivalence. A mathematically plausible oper
 
 ## 2. Compact traceability
 
+Read each row as a research route from a proposed operation to its requirement, sufficiency condition and hypothesis. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 label the four operations in this note. The table records proposed traceability; conformance is established by the corresponding evidence.
+
 | 00M operation | EA function exposed by 00N | Primary canonical requirement routes | Sufficiency conditions | Hypotheses most directly exercised | Important non-claim |
 |---|---|---|---|---|---|
 | **M1 — Recognize A/B/C/D consistently** | Preserve what a producer established, what remains assessable, what requires exploration and what lies beyond effective evaluation for the declared frame. | **S5, S14**; supports S3/S10 when applicability changes. | **T1, T2**; T4 where the classification must remain usable in time. | **H1, H2**; H5 when freshness/change alters the role. | Classification does not prove source truth, completeness of C/D, authority or action safety. |

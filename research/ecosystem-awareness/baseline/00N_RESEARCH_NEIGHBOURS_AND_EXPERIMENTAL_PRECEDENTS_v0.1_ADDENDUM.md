@@ -1,6 +1,6 @@
 # Research Neighbours and Experimental Precedents for Ecosystem Awareness
 
-**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion to [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). It identifies useful precedents and bounded research comparisons. It reports no EA experiment and adds no canonical requirements or hypotheses.
+**Optional addendum · v0.1 · 2 October 2026 · research draft.** Written alongside [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). Those links identify its source versions. The current reading route is [00M v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). This addendum identifies research precedents and comparisons.
 
 ## 1. The closest intellectual neighbours
 

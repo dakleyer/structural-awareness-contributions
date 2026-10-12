@@ -22,7 +22,7 @@ Here, **scope** means the subject and boundaries of a particular question; an **
 
 Fix a **producer, functional process, question, subject/scope, capability and time**. Ask: what did that process deliver; what did it already establish about the basis and limits of its result; where does it have a credible but still uncharacterized route to explore; and what can affect it beyond its effective ability to determine? These are four *components of one qualified position*, not four mutually exclusive bins for objects, four required message fields or four probabilities. Change the process or the question and the same datum may change component. The components do not partition a closed universe or add up to 100%.
 
-The canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.
+The canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal. Its connection to exploration–exploitation literature is discussed in [the companion note, 00N](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), which examines how the representations can support a receiving decision under declared timing, authority and cost conditions.
 
 | Component | Practical reading | What distinguishes it |
 |---|---|---|
@@ -292,6 +292,6 @@ This note addresses **early conceptual maturity, consistent with low-TRL researc
 - R1: https://cspages.ucalgary.ca/~robin/FMCS/FMCS_06/RestrictionsI.pdf
 - R2: https://www.di.ens.fr/~cousot/COUSOTpapers/POPL77.shtml
 - R3: https://www.lip6.fr/Marc.Shapiro/papers/2011/CRDTs_SSS-2011.pdf
-- R4: https://www.tau.ac.il/~nogaa/PDFS/amsz4.pdf
+- R4: [author-hosted full text](https://www.math.tau.ac.il/~nogaa/PDFS/amsz4.pdf). Copy dated 22 February 2002; access checked 12 October 2026.
 - R5: https://arxiv.org/abs/1506.07216
 - R6: https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7123_001D_&page_name=AppendixE

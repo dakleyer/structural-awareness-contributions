@@ -4,7 +4,7 @@
 
 > **DDS incorporation note — 7 October 2026.** This Oracle/harness work predates the canonical three-stage DDS split and retains its original C02, Stage-0, instrument and freeze identities. It is now incorporated into the [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) as **shared test-infrastructure qualification**, not as a separate method and not as a substantive Stage A/B/C result. The historical instrument/freeze labels (`0.3`, `0.4`, `0.7`, freeze `v0.9`) are versions of this Oracle artefact family; they are not DDS method/Stage versions. No old result is re-scored or upgraded by this incorporation. Stage-aware successor work reuses these controls while preserving the frozen v0.9 evidence.
 
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
+**Status: limited implementation with a successful Stage-0 instrumentation self-test · 5 October 2026.** This directory implements the C02 instrument slice for R01. It compares a recorded candidate choice or execution with the best admissible route in a frozen world, using declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
 
 The design is deliberately **UC-4-first**. Nelson Trasatti's UC #4 testbed contribution is the primary interoperability target. R01 adds only the minimum private-world/reference machinery needed to evaluate the R01 scenario without redefining Theme #13, authority/delegation, human oversight or other contributor-owned semantics.
 
@@ -29,11 +29,11 @@ Primary source:
 
 Corpus reuse:
 
-- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
-- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
-- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
-- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
-- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
+- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)
+- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)
+- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
+- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
+- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
 
 ## Interoperability rule
 
@@ -71,6 +71,8 @@ Current recorded evidence:
 The v0.3, v0.4 and v0.7 records and the predecessor freeze manifests remain preserved as historical instrumentation evidence for their own runs. They are not rewritten to match the current instrument. None of these records is evidence about a real technology.
 
 ## What is executable now
+
+The [v0.9 calibration record](./SELFTEST_RECORD_v0.9.md) has expected PASS outcomes for positive and tied-optimum controls, expected FAIL outcomes for connector-boundary, inadmissible-route and cost/deadline controls, and an expected INCONCLUSIVE outcome for the no-reference control. The self-test succeeds when each control returns its registered outcome.
 
 The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
 
