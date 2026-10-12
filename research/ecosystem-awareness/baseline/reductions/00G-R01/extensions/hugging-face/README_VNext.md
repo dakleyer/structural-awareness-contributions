@@ -57,3 +57,23 @@ The same ChatGPT model performed a human-oriented reading simulation. This does 
 - The present claim remains: **Stage A acceptance pending; Stage B and Stage C unverified.**
 
 **Status:** scoped navigation and provenance publication prepared. **Not** a completed four-pass audit of the entire underlying theory or an independent expert assessment.
+
+---
+## Revisión de navegación y preservación — 12 de octubre de 2026 (BOT-APPROX)
+
+**Analista de esta anotación:** OpenAI ChatGPT GPT-6, asistente del proyecto; no evaluador externo ni revisor ciego. **Decisión del responsable:** conservar originales y enlaces, pero mantener las aproximaciones, las pruebas sintéticas y las discusiones de bots fuera de la entrada principal del ejercicio. Esta pasada es **editorial/de atribución**; no corrige ninguno de los contratos, pruebas ni resultados científicos congelados.
+
+**Antes (nota de lectura añadida el 11 de octubre):** introducción con cinco enlaces visibles a Review Hub, matriz de evidencia, valoración, procedencia y VNext.
+
+**Después (único cambio del README principal):** nota breve y un enlace a [«BOT-APPROX — aproximaciones y pruebas parciales»](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). El cuerpo original tras esa nota es idéntico byte por byte al existente antes del cambio. El viejo registro de navegación permanece recuperable en Git (`main@17b597bf91acb0f37daebc716e8f23f65daa23eb`) y el nuevo anexo documenta los enlaces previos, sin mover ni renombrar material histórico.
+
+**Fuentes y estados originales mantenidos:**
+- v0.2 con conflación de `UNKNOWN` y denegación, y sucesor reparado v0.3.
+- v0.4 con paridad por disparador compartido; v0.5 con diagnóstico compartido; v0.6 con algoritmos distintos, pero mismo bot autor y resultados que favorecen también al competidor convencional.
+- Entradas críticas de octubre 8 con identidad de auditor original no autenticada; conservar crítica, respuesta y freeze por separado.
+- El paquete ciego Stage A v0.3 **NO** cambia, ni se le suministran los hallazgos posteriores antes de cerrar la revisión.
+- Reproducción CI por GitHub Actions, si se ejecuta, es replay del mismo código: **no** un experimento independiente, una prueba de modelo real o un nuevo pase de DDS.
+
+**Impacto semántico:** ninguno sobre las pruebas originales; la presentación ahora deja explícito que BOT-APPROX y BOT-PARTIAL-RUN son aproximaciones asistidas por IA y que «independencia» requiere una identidad/operación realmente distinta. **Pasadas de teoría, evidencia externa y revisión humana integral siguen pendientes en sus alcances declarados.**
+
+**Instrucción de futuro:** nuevas correcciones a estos ensayos deben preservar versiones completas y aparecer como sucesor enlazado desde el anexo. No reescribir retroactivamente los resultados desfavorables ni utilizar el CI como mecanismo automático de promoción a requisitos canónicos.
