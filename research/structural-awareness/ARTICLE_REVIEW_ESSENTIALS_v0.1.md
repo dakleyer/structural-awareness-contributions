@@ -1,6 +1,6 @@
 # Article Review Essentials
 
-**Structural Awareness research annex · v0.1 · 12 October 2026.**  
+**Structural Awareness research annex · v0.2 · 12 October 2026.**  
 **Purpose:** a brief account of the available mathematical and other article reviews, with direct routes to each existing full review.  
 **Prepared by:** Codex AI assistant at Iván Abril Palma's request; this is a synthesis of review records, not independent peer review.  
 **Reading route:** [General Structural Awareness README](../../README.md).
@@ -101,3 +101,40 @@ This annex is the short reader route. Deep review remains in the individual link
 For each update distinguish: original-source claim; reviewer-developed construction; external result; proposed transfer; exact counterexample or localized error; further proof/measurement; observed outcome and scope. Do not turn a completed review increment into a completed whole article, or a result in one scientific object into validation of another.
 
 **Initial evidence cut:** available R01–R21 and D01–D20 review records used by the 12 October 2026 cross-initiative audit, with mathematical reading pin `aef7871e3e531948e7e68d854ce7a45514468790`. Links above lead to the maintained full review locations and may evolve after that cut. This publication creates a concise navigation annex; it does not newly reprove all original sources or change their permission, scientific status or canonical definitions.
+
+
+## 12 October continuation — nineteen new primary review increments
+
+Seventeen new individual reviews **D21–D37** and two mathematical reviews **R22/R29** now have the four requested sections: real article problems, development needed, DDS contributions and current international research opportunities. Additional proofs and unexecuted studies belong in development, not in the real-error category. A localized correction does not discard the programme's discovery direction.
+
+Primary-source HTML for fifteen relevant pages was retrieved read-only into the local evidence packet, with source hashes. Earlier cache/retained-source limitations are updated inside the same dossiers. Reference verification, visual/implementation checks and empirical claims remain individually open. R22 is a first substantive increment of a much larger compound dialogue; it is not a full review of all its units.
+
+| Review | One primary dossier | Essential finding and development boundary |
+| --- | --- | --- |
+| D21 | [The Given Universe — revisión de cuatro puntos](https://docs.google.com/document/d/1yI9GStxe3zEmXHKcIUtsYLY0_h8YXKdoi1z0TImyIo4/edit?usp=drivesdk) | Conditional representation sufficiency survives; universal below-validation and consistency/decidability claims need narrowing. |
+| D22 | [Meta-Discriminator Exhaustion Principle (WP1) — revisión de cuatro puntos](https://docs.google.com/document/d/1cpdGYfGloWzd2m0yE9k5mYNAqUDcwmaBs6xIzTiso08/edit?usp=drivesdk) | Historical WP1 has invalid universal reductions and metric types; later Given Universe withdrawals are retained. |
+| D23 | [AI Integrity: a Critical Frontier — revisión de cuatro puntos](https://docs.google.com/document/d/1u4vDDY9PDgkS3RfOIfjEIMmWPwLdoK95LgsnWM4_tZk/edit?usp=drivesdk) | Operational coordination proposition; adoption and incremental efficacy remain prospective. |
+| D24 | [The Case for AI Integrity Management as a Formal Enterprise Function](https://docs.google.com/document/d/11bMPOORYnv_5rjzADZD7avPn_h2rANgkNJZR6Wf3zeQ/edit?usp=drivesdk) | Incorrect 2025 arXiv citation remains; enterprise-function benefits need controlled comparison. |
+| D25 | [The Semantic Tug-of-War — revisión de cuatro puntos](https://docs.google.com/document/d/1T3zNbYMABvEP-B9esrQWQE2W2XV1sshoVarV-iaxdQ0/edit?usp=drivesdk) | Naming/jurisdiction hypothesis; vocabulary and consistency do not supply permission. |
+| D26 | [Expert-System Envelopes Around Statistical AI — revisión de cuatro puntos](https://docs.google.com/document/d/1p9uT3tTbeZQP6foC0XSA7LqlItx7TvWp0dEvjjqPQjU/edit?usp=drivesdk) | Rule-based envelope analogy with learned/hybrid distinctions; enforcement needs a valid observation contract. |
+| D27 | [Public Signatures of Architectural Disorder — revisión de cuatro puntos](https://docs.google.com/document/d/1g736TzcpuTMXR5lMA_FN953joAmZuBX5iDxVlgZRZjQ/edit?usp=drivesdk) | Deficit/decay distinction retained; heterogeneous flow counts and staleness do not identify decay. |
+| D28 | [Sufficiently Good Detector / Contextual Boundary Problem](https://docs.google.com/document/d/17Q72rYRLNpuHcm8o05s-c3MpKKBZ01a4fr_PxSNh4Gw/edit?usp=drivesdk) | Pointwise non-inferiority versus inaction does not imply utility dominance over another design; conditional construction survives. |
+| D29 | [About Cats, Boxes and Enterprise Management Decisions / Three Ways a Fact Can Go Missing](https://docs.google.com/document/d/1phSRnQ-FmAwKTkhquBleTorTfUcN7hql14F9yLattT4/edit?usp=drivesdk) | Divergent witnesses do not uniquely identify undeclared facts; tacit truth may be inaccessible. |
+| D30 | [Bridge: The Attribution Gap and Capability Loss](https://docs.google.com/document/d/1LG3GYX90Vtb2IJp-HztE8In2UpaAImOonBrc0OwD3lw/edit?usp=drivesdk) | Bridge is not independent evidence; capacity and attribution need separate factorial tests. |
+| D31 | [From Field Practice to Pre-Standardization: An Extensible Case-Study Framework](https://docs.google.com/document/d/1FfgQDAmoDCaklyCi_k4sRVGluB_-jdw1RetsxQMGv30/edit?usp=drivesdk) | Bounded field-to-challenge method, pre-freeze and S1–S14 questions preserved; full primary text now read. |
+| D32 | [Minimum Sufficient Control Architecture for AI Enabled Urban Systems](https://docs.google.com/document/d/1E3e1BcBxfHluGwyy_jcheWpBeyGmbmVIZ1OIY0sFsOw/edit?usp=drivesdk) | C/P/M sufficiency, legitimate objective and observed effects; global minimum and urban benefit unproved. |
+| D33 | [One Function or Many? The Case For and Against Unified AI Integrity Management](https://docs.google.com/document/d/1aYx-3nlMmhipMZaThCddz3PEHWgGmyRFVjB-LDVPYZk/edit?usp=drivesdk) | Source explicitly favors federation; compare coordination protocol, central design and competent ordinary practice. |
+| D34 | [Structural Limits of Current AI Integrity Under Regime Change](https://docs.google.com/document/d/1GLs0IXnPBfi-GvSHoUqUSWbLb95AWFHJN_-mhdGlolM/edit?usp=drivesdk) | Certified-region return, semantic rule coverage, dependence and transient overload break four overly broad sketches. |
+| D35 | [From Complicated to Complex: The AI Safety Paradox](https://docs.google.com/document/d/1htIzYVqdfo4gJLx1Ql0pY6Ye3VsY0dEcvJb07Tn80VQ/edit?usp=drivesdk) | Static constraints plus nonstationarity do not universally cause complex failure; relevance and coupling matter. |
+| D36 | [What Cannot Be Recovered Must Be Managed](https://docs.google.com/document/d/1z8bNpCbZRv1yRu0PSV2Y7CveVM8xRspBFxpj0yt1xzo/edit?usp=drivesdk) | Residual recovery/risk proposition; tool replacement and partial remediation remain alternatives. |
+| D37 | [Regime Awareness: Capability Development Across Four Field Cases](https://docs.google.com/document/d/1N8RFhDms6J-EnOpi2WHR6-g9AtZALi-9ud7Qu3FMZNs/edit?usp=drivesdk) | Retrospective cross-domain candidate; conditional propagation probability, attractor stability and transfer require qualification. |
+| R22 | [Acceptance of Paradox](https://github.com/dakleyer/structural-awareness-workbench/blob/review/r22-r29-four-points-2026-10-12/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R22_ACCEPTANCE_OF_PARADOX_v0.1.md) | First three complete dialogue units reviewed; acceptance does not prove consistency, and the displayed descending infinite sequence does not establish collision. Remaining compilation units OPEN. |
+| R29 | [CoC × EA/EP correspondence](https://github.com/dakleyer/structural-awareness-workbench/blob/review/r22-r29-four-points-2026-10-12/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R29_COC_EP_EPISTEMIC_CORRESPONDENCE_v0.1.md) | Complete retained field-note review; information condition, actor-relative role and authority are distinct. Owner-case cost/effect comparison remains prospective. |
+
+The private [review PR3](https://github.com/dakleyer/structural-awareness-workbench/pull/3) remains unmerged pending explicit owner approval; branch links above are intentional. R23/R24 alias existing D09/D10; R25–R28 already have technical VNext reviews and are reused rather than duplicated. Their exact four-point/scientific coverage is still to be reconciled.
+
+**D15 source correction:** the recovered original explicitly accepts cheap reversible provisional exploration. The existing [D15 review](https://docs.google.com/document/d/11PTvtGWFmOAgDm8y8cQvRm6Zi3JYV2fDoxbNK6KjX6w/edit) now withdraws that proposed counterexample as a refutation of the original. The binding-authority bottleneck and field study remain open.
+
+**Finite evidence:** 256 four-world E/P cases confirm the factorization criterion (60 permit it); a two-state utility counterexample separates robust non-inferiority from comparative dominance. These are reviewer finite calculations, not a deployed detector, physical validation or completed DDS Stage A/B/C.
+
+**Current reciprocal routes:** FORGE (May2026 observation contracts), ProvSQL (qualified provenance), ControlArena (control/usefulness protocols), Seulki Lee/PRISM (April2026 reasoning consistency), MIT CISR (2026 decision rights), METR (May2026 value versus speed) and Thomas Bury/ewstools (2026 maintained EWS tooling). Each dossier specifies the two-sided contribution, first contrast and null outcome. No contact, agreement or adoption is implied.

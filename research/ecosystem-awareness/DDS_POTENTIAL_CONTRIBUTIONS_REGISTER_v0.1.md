@@ -1,6 +1,6 @@
 # DDS Potential Contributions Register
 
-**Version:** 0.1 · **First published:** 12 October 2026.  
+**Version:** 0.2 · **First published:** 12 October 2026.  
 **Status:** living research-candidate register; source-backed proposals, not adopted DDS requirements or established differential results.  
 **Prepared by:** Codex AI assistant, at Iván Abril Palma's request to investigate and accumulate possible contributions and their sources. This is not an independent human review.  
 **Owning method:** [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). The Stage A/B/C contracts retain authority.  
@@ -663,3 +663,38 @@ History and next concrete action
 ## 10. Contribution history
 
 - **12 October 2026, v0.1:** initial 20-family synthesis across available R01–R21 and D01–D20 review records, with source/access crosswalk, DDS owner/interfaces, distinct comparator obligations, candidate tests, development requirements and international research intersections. Prepared and published on the owner's explicit request. All candidate transfers remain PROPOSED; no original or frozen result changed and no external researcher contacted.
+
+
+## 12 October continuation — additional source-backed transfers, v0.2
+
+This continuation strengthens existing candidate families; it does not create nineteen adopted requirements or duplicate families. The new full/scoped individual [article-review routes](../structural-awareness/ARTICLE_REVIEW_ESSENTIALS_v0.1.md#12-october-continuation--nineteen-new-primary-review-increments) preserve all four review categories and source/edition boundaries.
+
+| Source | Candidate families reinforced | Concrete transfer and approval boundary |
+| --- | --- | --- |
+| [D21](https://docs.google.com/document/d/1yI9GStxe3zEmXHKcIUtsYLY0_h8YXKdoi1z0TImyIo4/edit?usp=drivesdk) | DDS-PC-001/005/008 | Conditional representation sufficiency survives; universal below-validation and consistency/decidability claims need narrowing. |
+| [D22](https://docs.google.com/document/d/1cpdGYfGloWzd2m0yE9k5mYNAqUDcwmaBs6xIzTiso08/edit?usp=drivesdk) | DDS-PC-005/010/011 | Historical WP1 has invalid universal reductions and metric types; later Given Universe withdrawals are retained. |
+| [D23](https://docs.google.com/document/d/1u4vDDY9PDgkS3RfOIfjEIMmWPwLdoK95LgsnWM4_tZk/edit?usp=drivesdk) | DDS-PC-017 | Operational coordination proposition; adoption and incremental efficacy remain prospective. |
+| [D24](https://docs.google.com/document/d/11bMPOORYnv_5rjzADZD7avPn_h2rANgkNJZR6Wf3zeQ/edit?usp=drivesdk) | DDS-PC-017/011 | Incorrect 2025 arXiv citation remains; enterprise-function benefits need controlled comparison. |
+| [D25](https://docs.google.com/document/d/1T3zNbYMABvEP-B9esrQWQE2W2XV1sshoVarV-iaxdQ0/edit?usp=drivesdk) | DDS-PC-017/014 | Naming/jurisdiction hypothesis; vocabulary and consistency do not supply permission. |
+| [D26](https://docs.google.com/document/d/1p9uT3tTbeZQP6foC0XSA7LqlItx7TvWp0dEvjjqPQjU/edit?usp=drivesdk) | DDS-PC-008/017 | Rule-based envelope analogy with learned/hybrid distinctions; enforcement needs a valid observation contract. |
+| [D27](https://docs.google.com/document/d/1g736TzcpuTMXR5lMA_FN953joAmZuBX5iDxVlgZRZjQ/edit?usp=drivesdk) | DDS-PC-009/010/019 | Deficit/decay distinction retained; heterogeneous flow counts and staleness do not identify decay. |
+| [D28](https://docs.google.com/document/d/17Q72rYRLNpuHcm8o05s-c3MpKKBZ01a4fr_PxSNh4Gw/edit?usp=drivesdk) | DDS-PC-001/008/011 | Pointwise non-inferiority versus inaction does not imply utility dominance over another design; conditional construction survives. |
+| [D29](https://docs.google.com/document/d/1phSRnQ-FmAwKTkhquBleTorTfUcN7hql14F9yLattT4/edit?usp=drivesdk) | DDS-PC-014/007 | Divergent witnesses do not uniquely identify undeclared facts; tacit truth may be inaccessible. |
+| [D30](https://docs.google.com/document/d/1LG3GYX90Vtb2IJp-HztE8In2UpaAImOonBrc0OwD3lw/edit?usp=drivesdk) | DDS-PC-011/015 | Bridge is not independent evidence; capacity and attribution need separate factorial tests. |
+| [D31](https://docs.google.com/document/d/1FfgQDAmoDCaklyCi_k4sRVGluB_-jdw1RetsxQMGv30/edit?usp=drivesdk) | DDS-PC-019/008 | Bounded field-to-challenge method, pre-freeze and S1–S14 questions preserved; full primary text now read. |
+| [D32](https://docs.google.com/document/d/1E3e1BcBxfHluGwyy_jcheWpBeyGmbmVIZ1OIY0sFsOw/edit?usp=drivesdk) | DDS-PC-001/008/019 | C/P/M sufficiency, legitimate objective and observed effects; global minimum and urban benefit unproved. |
+| [D33](https://docs.google.com/document/d/1aYx-3nlMmhipMZaThCddz3PEHWgGmyRFVjB-LDVPYZk/edit?usp=drivesdk) | DDS-PC-017/011 | Source explicitly favors federation; compare coordination protocol, central design and competent ordinary practice. |
+| [D34](https://docs.google.com/document/d/1GLs0IXnPBfi-GvSHoUqUSWbLb95AWFHJN_-mhdGlolM/edit?usp=drivesdk) | DDS-PC-008/009/011 | Certified-region return, semantic rule coverage, dependence and transient overload break four overly broad sketches. |
+| [D35](https://docs.google.com/document/d/1htIzYVqdfo4gJLx1Ql0pY6Ye3VsY0dEcvJb07Tn80VQ/edit?usp=drivesdk) | DDS-PC-008/018 | Static constraints plus nonstationarity do not universally cause complex failure; relevance and coupling matter. |
+| [D36](https://docs.google.com/document/d/1z8bNpCbZRv1yRu0PSV2Y7CveVM8xRspBFxpj0yt1xzo/edit?usp=drivesdk) | DDS-PC-020/015/011 | Residual recovery/risk proposition; tool replacement and partial remediation remain alternatives. |
+| [D37](https://docs.google.com/document/d/1N8RFhDms6J-EnOpi2WHR6-g9AtZALi-9ud7Qu3FMZNs/edit?usp=drivesdk) | DDS-PC-019/008 | Retrospective cross-domain candidate; conditional propagation probability, attractor stability and transfer require qualification. |
+| [R22](https://github.com/dakleyer/structural-awareness-workbench/blob/review/r22-r29-four-points-2026-10-12/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R22_ACCEPTANCE_OF_PARADOX_v0.1.md) | DDS-PC-005/006 | Distinguish apparent paradox, contradiction, operational unknown and proved uniform undecidability; first three units only, remaining compound source OPEN. |
+| [R29](https://github.com/dakleyer/structural-awareness-workbench/blob/review/r22-r29-four-points-2026-10-12/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R29_COC_EP_EPISTEMIC_CORRESPONDENCE_v0.1.md) | DDS-PC-001/007/013/014 | Keep information state, actor-relative role, acquisition route and constitutive authority as separate record fields. A diagnostic answer is not transformation permission or readiness. |
+
+### Three immediate candidate refinements
+
+1. **Representation sufficiency:** state the receiving property P and representation E. A downstream function exists exactly when P is constant on E's fibres. Pair witnesses can expose a missing distinction; acquisition or a narrower task can resolve it. Compare against a mature provenance-aware baseline; the existence proof does not predict acquisition cost or deployment benefit.
+2. **Action-utility hygiene:** certify non-inferiority against a declared null action, admissible states, stakeholders and horizon. Do not infer dominance over another design from that property. Safe=(0,1), null=(0,0), competitor=(-1,100) is a finite counterexample: the robust guarantee is stronger while expected utility need not be greater. This changes a comparative proposition, not the legitimacy of scoped safety design.
+3. **Time and shared dependencies:** validity can return after a regime departure; one rule can cover many states; a shared historical anchor does not establish a correlation coefficient; a transient load burst is not infinite backlog. Record actual contracts, rule semantics, dependence evidence and time window before accepting those deductions.
+
+Stage A can use these specifications and negative controls. Stage B/C require actual architecture/implementation evidence under the same competent comparator, with ties, harms and unavailable routes retained. Current contacts are potential research routes only. Source originals, existing candidate cards and DDS canonical stage definitions are unchanged.
