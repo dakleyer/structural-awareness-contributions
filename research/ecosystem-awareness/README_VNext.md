@@ -414,3 +414,20 @@ La consolidación por campañas puede reducir el esfuerzo de lectura, conservand
 Una campaña de una sola etapa es una regla prospectiva de identidad; la incorporación de estudios históricos puede asignar una lectura A/B/C por objeto sin inventar un nuevo preregistro o ejecución. Registro, ejecución, adjudicación y aceptación deben ser estados separados. El plan no incluye esa especificación operativa todavía.
 
 Juicio y dependencias en [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md); consecuencia sobre el método en [DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) y paquetes en [baseline VNext](./baseline/README_VNext.md). Primera tanda sugerida: índice HF que sólo enlaza fuentes exactas, impacto Alto/riesgo Bajo/esfuerzo Medio. Sin adopción de ruta, nuevas campañas o modificaciones del README original.
+
+
+## UC-21 y DDS: dos entradas enlazadas — 12 octubre 2026
+
+**Revisión por Codex, mismo asistente.** Iván precisa que UC-21 es el caso con objetivos y campañas, y DDS el método de investigación. Se mantiene esta distinción y se ajusta el orden del diseño de consolidación: primero probar la navegación desde UC-21 usando sus ejercicios existentes; después comprobar su generalidad con HF y otra familia. No se crea una nueva campaña S5 ni se mueve el caso al corpus metodológico.
+
+**Relación propuesta:** entrada UC-21 → explicación del caso y objetivos → escenarios/hipótesis → ejercicios existentes → contrato DDS aplicable → runs/evidencia → conclusión para el objetivo UC-21 → posible selección posterior de especificaciones. Desde DDS se recorre la misma relación por método → campañas de distintos casos → fuente del Challenge → evidencia → resultado. El registro futuro debe apuntar a los expedientes reales y sus propietarios, con varias relaciones por campaña; no duplicarlos bajo ambas entradas.
+
+**Asignación de funciones:** UC-21 mantiene su problema, objetivos, HC/HR/HS/H1–H6 y gates. DDS mantiene método y A/B/C. El expediente del estudio mantiene contrato, versión, comparadores, ejecución y conclusión. EA, RA, MSCA y otros componentes conservan fuentes y decisiones de incorporación. Objetivo, R0/R1/R2, Stage A/B/C, modo de evidencia y estado de ejecución son dimensiones separadas. Un resultado del caso no demuestra automáticamente necesidad de EA ni selección de una especificación.
+
+**Preservación:** enlaces actuales, snapshot enviado, anexos, escenarios, figuras, pruebas, denominadores y autoría conservados. Toda relación estructural se revisa en las VNext de README correspondientes; tres niveles EP→Awareness→índices técnicos, con expedientes de campaña como documentos de trabajo. Mantener una sola VNext lógica aunque un registro enlace varias rutas. La copia física posterior sigue pendiente de matriz de versiones/dependencias; no es necesaria para implementar la lectura propuesta.
+
+**Prioridad:** puente de lectura inicial de alto impacto esperado y riesgo Bajo; esfuerzo Medio por contraste entre repositorios y épocas. La precisión de trazabilidad de campañas en el caso tiene impacto Alto y riesgo Medio: debe concordar con la matriz de objetivos y plantilla RUN_RECORD antes de adoptarse como campo obligatorio. No se activan campañas, adopción canónica, cambios de Issue ni redistribución por publicar esta revisión.
+
+UC-21 conserva su entrada propia y sus contratos; EA enlaza las fuentes técnicas que realmente posee, incluyendo 00J/00J-A01 utilizados por el S6 adapter. La ruta hacia EA no convierte al caso en una demostración de EA. El acceso a arquitectura completa parte del EP existente, que mantiene RA/MSCA separados. Una organización por campañas debe incluir enlace de retorno al objetivo UC-21 y las dependencias externas; mantener copias duplicadas de los escenarios no aporta esa trazabilidad.
+
+[EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md) explica el orden revisado; [UC-21 README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) contiene la inserción propuesta. EA README y fuentes intactos.
