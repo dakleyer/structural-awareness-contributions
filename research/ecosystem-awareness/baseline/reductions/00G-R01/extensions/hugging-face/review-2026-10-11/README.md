@@ -1,3 +1,5 @@
+> **New multi-gate R1–R3 communication/handshake study, 12 October:** [26 scenarios × 7 configurations and 63 synthetic signalling traversals](./traversals/context-signalling-multigate-v0.4/README.md). Separates existing communication from authorized EHD, source-dependent vs independent escalation doubts, alternative attack order, spoofed human identity, local qualification and optional handshake. **GPT-6 same-side deterministic model; native adaptive and EA local have equal outcomes. No new Stage A v0.3 result, external reviewer, live LLM or HF prevention claim.**
+
 > **12 October reproducibility update:** [First-channel EA/policy synthetic experiment, v0.3](./traversals/first-channel-counterfactual-v0.3/README.md) (18 cases × 7 arms; 10 modelled communication traversals). Source, complete per-case outputs and digests are published. The v0.2 first attempt is preserved; v0.3 separates unknown permission from actual denied permission and includes a matched strong native control. **No real-model or incident replication; no proven EA differential.**
 
 # Hugging Face / Ecosystem Awareness / DDS — Public Review Hub
