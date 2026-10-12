@@ -297,6 +297,14 @@ def main():
     }
     output = Path(__file__).with_name('results.json')
     output.write_text(json.dumps(result, indent=2, ensure_ascii=False)+'\n')
+    # Machine-readable, GitHub-reviewable pieces: same data as the full JSON.
+    summary = {k:v for k,v in result.items() if k not in ('records','graph_results')}
+    output.with_name('summary.json').write_text(json.dumps(summary, indent=2, ensure_ascii=False)+'\n')
+    output.with_name('graph.json').write_text(json.dumps(graph_results, indent=2, ensure_ascii=False)+'\n')
+    for index,subset in enumerate((records[:63], records[63:]), start=1):
+        output.with_name(f'records_{index:02d}.jsonl').write_text(
+            ''.join(json.dumps(row, separators=(',',':'), ensure_ascii=False)+'\n' for row in subset)
+        )
     print(json.dumps({'status':status,'cases':len(CASES),'arms':len(ARMS),
                       'traversals':len(records), 'graph_traversals':len(graph_results),
                       'totals':totals, 'graph_summaries':{k:{'messages_sent':v['messages_sent'], 'unauthorized_messages':v['unauthorized_messages'], 'additional_receivers':v['additional_receivers']} for k,v in graph_results.items()}}, indent=2))
