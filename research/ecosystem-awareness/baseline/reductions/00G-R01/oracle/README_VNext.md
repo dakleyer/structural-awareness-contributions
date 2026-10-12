@@ -693,50 +693,12 @@ Todas las propuestas siguientes pertenecen exclusivamente a `R01-ORACLE-C02-READ
 
 ### R01-ORACLE-DELTA-001 — Separar versión del esquema y del paquete UC4
 
-**ID y estado:** R01-ORACLE-DELTA-001 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F004, R01-ORACLE-F005.  
-**Localización:** Upstream sources and attribution · única entrada de public experiment schema.  
-**Tipo:** sustitución editorial propuesta.
-
-**TEXTO ANTES**
-
-```markdown
-- UC #4 public experiment schema 1.1.0-r1, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
-  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-- UC #4 experiment schema **1.1.0**, published in package **1.1.0-r1**, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
-  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
-```
-
-**Razón y efecto semántico:** Evita confundir el contrato JSON con la revisión del ZIP. No cambia la versión ni el contenido de un sidecar congelado.
-
-**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
-
-**Dependencias y otras VNext:** UC4_INTEROPERABILITY_PROFILE.md, NELSON_BASELINE_IMPORT.md y registro de integración; cualquier corrección de esas fuentes requiere su propio expediente.
-
-**Comprobaciones necesarias y límites:** Contrastar schema_version y package_version del manifest del companion público; verificar cita y coincidencia única. No inferir validator-pass ni aceptación de Nelson.
-
-**Decisión de Iván:** pendiente sobre este ID concreto.  
-**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio24 incorporado en `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### R01-ORACLE-DELTA-002 — Hacer visible la reutilización de los harness propios
 
-**ID y estado:** R01-ORACLE-DELTA-002 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F002, R01-ORACLE-F003, R01-ORACLE-F007, R01-ORACLE-F008, R01-ORACLE-F009, R01-ORACLE-F010.  
-**Localización:** Antes de Interoperability rule; se conserva y repite el ancla literal.  
-**Tipo:** inserción propuesta.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio25 incorporado en `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
-**TEXTO ANTES**
-
-```markdown
 ## Interoperability rule
 
 R01 does **not** fork Nelson's experiment contract. The intended composition is:
@@ -786,27 +748,7 @@ Las propuestas 001–004 anteriores permanecen íntegramente como historia. Las 
 
 ### R01-ORACLE-DELTA-006 — Separar modo, efectos y métricas antes de reproducir
 
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Antes del comando de reproducción. **Hallazgos:** F011/F012/F016; pasadas 1–3.
-
-**TEXTO ANTES**
-
-```markdown
-Run locally from this directory:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-Interpret results by their declared mode. A batch PASS checks the candidate's declared selection against a bounded reference and frozen measurements; it is not proof of an executed effect. The interactive instrumentation additionally checks matching environment execution evidence. Native `completion` and `legitimate_q` fields do not automatically establish the scenario's timely admissible-delivery metrics: the current evaluator checks deadline separately. Full scenario metrics and real-runtime isolation remain profile-specific verification obligations.
-
-Run locally from this directory:
-```
-
-**Razón y efecto:** Hace explícita una frontera documentada en código/contratos. Evita importar choice, completion o q sintéticos como entrega/seguridad empírica. No corrige código ni recalcula evidencia.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio29 incorporado en `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -1188,3 +1130,15 @@ La relación se registra en ambos extremos: [plan EP](https://github.com/dakleye
 Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md). Se conservan auditorías y otras decisiones abiertas.
 
 Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 24 | Separar versión de schema y paquete UC4 | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
+| 25 | Explicar reutilización por familia sin trasladar resultados | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
+| 29 | Distinguir modo, efectos y métricas antes de reproducir | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
+

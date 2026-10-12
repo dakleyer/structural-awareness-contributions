@@ -376,7 +376,7 @@ Compatibility may operate downward toward legacy or lower-capability devices and
 
 Bounded compatibility is not semantic equivalence.
 
-When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, the receiver MUST preserve the uncertainty introduced by that mapping. For the receiver's local epistemic position of the contact, this creates a **compatibility residual in D**: a structural UNKNOWN associated with what may have been lost, collapsed, omitted or differently encoded by the compatibility mapping.
+When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, it MUST preserve any uncertainty or semantic loss introduced by that mapping. Its A/B/C/D role is established relative to the receiving process, question, scope, capability and response horizon. A characterized verification reserve remains B, a grounded but uncharacterized exploration avenue may be C, and a potentially material effect belongs to D only when an effective evaluation barrier is established. If the scope or capability boundary is not yet established, retain UNKNOWN / NOT ESTABLISHED rather than assigning D by default.
 
 This compatibility residual is receiver-local. It is not a claim that the sender declared D, and it does not modify the sender's original message. It records that the receiver is relying on an interpretation mediated by its own compatibility mode.
 
@@ -386,7 +386,8 @@ sender signal
 -> handshake / frame coupling
 -> bounded compatibility mapping
 -> receiver-qualified signal
-   + D_compatibility = UNKNOWN
+   + explicit mapping limits / uncertainty
+   + D_compatibility only where an effective evaluation barrier is established
 -> receiver-local contact position
 
 D_compatibility MUST NOT be interpreted as zero merely because communication succeeds. Successful exchange establishes usable coupling for the bounded interaction; it does not establish full semantic equivalence.
@@ -515,7 +516,7 @@ The receiver SHOULD record at least:
 - structural residual;
 - expiry/revalidation trigger.
 
-A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, the mapping residual remains in D and the signal may be restricted to observation, corroboration or requalification rather than direct control use.
+A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, preserve the unresolved mapping condition and restrict use to what the receiving decision can justify. Assign a compatibility residual to D only when the effective evaluation barrier is established; otherwise retain its qualified process-relative role or UNKNOWN. Observation, corroboration or requalification may remain appropriate without assuming that an unverified mapping is intrinsically D.
 
 Compatibility discovery is therefore itself an epistemic process: the system may search for a way to understand a signal, but it must preserve uncertainty about the correctness and completeness of that understanding.
 

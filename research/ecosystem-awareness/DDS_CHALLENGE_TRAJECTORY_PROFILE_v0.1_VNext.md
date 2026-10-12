@@ -288,64 +288,7 @@ El nuevo guard NA comprueba un motivo, pero no el tipo de `na_substitute_satisfi
 
 ### Cambio 74 — Rechazar sustitutos NA de tipo string antes de adjudicar
 
-**Beneficio:** Evitar que un valor no booleano como "false" satisfaga por truthiness una dependencia NOT_APPLICABLE, produciendo calificación no sustentada.
-**Fuente:** `research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py`, blob `69c3bafe024d99a534ba8896ef12e0ba277ab8f6`, snapshot `17b597bf91acb0f37daebc716e8f23f65daa23eb`. Función completa require_na_rationale; propuesta para futuro sucesor, no edición delactual.
-**Impacto Alto; riesgo Medio; esfuerzo Medio; prioridad Primera; 3 — Contratos y protocolo de evaluación.**
-**Riesgo concreto:** Cambiaría la admisión de inputs del checker sucesor; hay que mantener T05/T06, consumidores y versiones congeladas. No modifica el checker v0.2 ni resultados.
-**Coste:** Lectura estática, registrar casos válidos/invalidantes y revisar el contrato de entrada y consumidores. Confirmación prospectiva en un sucesor, sin regraduar corridas históricas.
-**Dependencias y orden:** Propuesta de sucesor de v0.3; antes de decidir registrar/revisar booleanos true/false, ausencia y strings/listas/números, conserva T05/T06. No se ejecuta ni modifica código congelado por esta auditoría. Decisión concreta de Iván.
-
-**Texto antes — viejo literal completo**
-
-~~~~python
-def require_na_rationale(result: dict[str, Any]) -> None:
-    """Enforce per-row NA rationale presence before running frozen v0.2.
-
-    Whether a reason predates the inspected outcomes remains a separate
-    preregistration and reviewer obligation.
-    """
-    for position, row in enumerate(result.get("gates", [])):
-        if not isinstance(row, dict):
-            raise ApplicabilityContractError(f"non_object_gate_row:{position}")
-        if (row.get("applicability") == "NOT_APPLICABLE"
-                or row.get("own_verdict") == "NOT_APPLICABLE"):
-            rationale = row.get("applicability_rationale")
-            if not isinstance(rationale, str) or not rationale.strip():
-                gid = row.get("gate_id", f"row-{position}")
-                raise ApplicabilityContractError(
-                    f"not_applicable_requires_rationale:{gid}"
-                )
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~python
-def require_na_rationale(result: dict[str, Any]) -> None:
-    """Enforce typed NA substitution and rationale before running frozen v0.2.
-
-    Whether a reason predates the inspected outcomes remains a separate
-    preregistration and reviewer obligation.
-    """
-    for position, row in enumerate(result.get("gates", [])):
-        if not isinstance(row, dict):
-            raise ApplicabilityContractError(f"non_object_gate_row:{position}")
-        if ("na_substitute_satisfied" in row
-                and not isinstance(row["na_substitute_satisfied"], bool)):
-            gid = row.get("gate_id", f"row-{position}")
-            raise ApplicabilityContractError(
-                f"na_substitute_satisfied_must_be_boolean:{gid}"
-            )
-        if (row.get("applicability") == "NOT_APPLICABLE"
-                or row.get("own_verdict") == "NOT_APPLICABLE"):
-            rationale = row.get("applicability_rationale")
-            if not isinstance(rationale, str) or not rationale.strip():
-                gid = row.get("gate_id", f"row-{position}")
-                raise ApplicabilityContractError(
-                    f"not_applicable_requires_rationale:{gid}"
-                )
-~~~~
-
-**Instrucciones de Iván:** una VNext por unidad, originals en lectura, conservar conversaciones y viejo completo. Auditoría publicable, incorporación pendiente de su decisión concreta. Contraejemplo por lectura de código; no ejecución/reproducción experimental. Par literal actual localizado.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio74 incorporado en `research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.4_audit_candidate.py`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cambio 75 — Mantener auditorías y viejos publicados al cerrar propuestas
 
@@ -679,3 +622,15 @@ La variante literal y el seguimiento de las ejecuciones están en la [única VNe
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
 
 Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 74 | Rechazar sustitutos NA de tipo string antes de adjudicar | research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.4_audit_candidate.py | Aplicado en sucesor |
+
+El checker v0.4 conserva la delegación a v0.2 y las proyecciones T05/T06 de v0.3. Treinta controles locales pasan: siete C74 con los tipos y la dependencia real true/false/ausente, siete T06 y dieciséis T05. El string `false` se rechaza antes de la compilación; el booleano false bloquea la dependencia y true la satisface. Los dos checkers previos, registros y resultados permanecen intactos. No se ejecuta una campaña DDS. [Código sucesor](./gate-diagnostic/check_gate_profile_v0.4_audit_candidate.py) · [controles C74](./gate-diagnostic/test_na_substitute_v04.py).
+

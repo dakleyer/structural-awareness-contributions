@@ -71,81 +71,15 @@ La quinta específica está realizada en este alcance, sin implementar o probar 
 
 ### Cambio 68 — Condicionar el residualD a una barrera efectiva
 
-**Ubicación:** §9 de [la fuente](01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), blob `e736d4bb6233e39de323ff0aa38553b74001469e`; viejo literal único. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
-
-**Beneficio:** Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural. No es eficacia medida. **Riesgo:** Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias. **Coste:** Conciliar los tres pasajes, ejemplos y consumidores/material test mappings; no basta renombrar un field ni recalcular resultados.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, the receiver MUST preserve the uncertainty introduced by that mapping. For the receiver's local epistemic position of the contact, this creates a **compatibility residual in D**: a structural UNKNOWN associated with what may have been lost, collapsed, omitted or differently encoded by the compatibility mapping.
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, it MUST preserve any uncertainty or semantic loss introduced by that mapping. Its A/B/C/D role is established relative to the receiving process, question, scope, capability and response horizon. A characterized verification reserve remains B, a grounded but uncharacterized exploration avenue may be C, and a potentially material effect belongs to D only when an effective evaluation barrier is established. If the scope or capability boundary is not yet established, retain UNKNOWN / NOT ESTABLISHED rather than assigning D by default.
-```
-
-**Dependencias/decisión:** 00M/04/EHD, Composition, 01C y perfiles de recepción. Tanda68/69/70, semántica y consumidores conciliados; decisión concreta deIván antes deincorporar. No añade primitivo/protocolo o campo universal. Instrucciones de Iván: revisión para personas, conservación de viejos y conversaciones, publicación parcial y decisión concreta antes de aplicar. Estado: pendiente de incorporación y conciliación material.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio68 incorporado en `research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cambio 69 — Conservar UNKNOWN en perfiles sintetizados todavía no calificados
 
-**Ubicación:** §9 de [la fuente](01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), blob `e736d4bb6233e39de323ff0aa38553b74001469e`; viejo literal único. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
-
-**Beneficio:** Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural. No es eficacia medida. **Riesgo:** Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias. **Coste:** Conciliar los tres pasajes, ejemplos y consumidores/material test mappings; no basta renombrar un field ni recalcular resultados.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, the mapping residual remains in D and the signal may be restricted to observation, corroboration or requalification rather than direct control use.
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, preserve the unresolved mapping condition and restrict use to what the receiving decision can justify. Assign a compatibility residual to D only when the effective evaluation barrier is established; otherwise retain its qualified process-relative role or UNKNOWN. Observation, corroboration or requalification may remain appropriate without assuming that an unverified mapping is intrinsically D.
-```
-
-**Dependencias/decisión:** 00M/04/EHD, Composition, 01C y perfiles de recepción. Tanda68/69/70, semántica y consumidores conciliados; decisión concreta deIván antes deincorporar. No añade primitivo/protocolo o campo universal. Instrucciones de Iván: revisión para personas, conservación de viejos y conversaciones, publicación parcial y decisión concreta antes de aplicar. Estado: pendiente de incorporación y conciliación material.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio69 incorporado en `research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cambio 70 — Hacer condicionalD_compatibility en el esquema de recepción
 
-**Ubicación:** §9 de [la fuente](01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), blob `e736d4bb6233e39de323ff0aa38553b74001469e`; viejo literal único. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
-
-**Beneficio:** Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural. No es eficacia medida. **Riesgo:** Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias. **Coste:** Conciliar los tres pasajes, ejemplos y consumidores/material test mappings; no basta renombrar un field ni recalcular resultados.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-Conceptually:
-
-sender signal
--> handshake / frame coupling
--> bounded compatibility mapping
--> receiver-qualified signal
-   + D_compatibility = UNKNOWN
--> receiver-local contact position
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-Conceptually:
-
-sender signal
--> handshake / frame coupling
--> bounded compatibility mapping
--> receiver-qualified signal
-   + explicit mapping limits / uncertainty
-   + D_compatibility only where an effective evaluation barrier is established
--> receiver-local contact position
-```
-
-**Dependencias/decisión:** 00M/04/EHD, Composition, 01C y perfiles de recepción. Tanda68/69/70, semántica y consumidores conciliados; decisión concreta deIván antes deincorporar. No añade primitivo/protocolo o campo universal. Instrucciones de Iván: revisión para personas, conservación de viejos y conversaciones, publicación parcial y decisión concreta antes de aplicar. Estado: pendiente de incorporación y conciliación material.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio70 incorporado en `research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
@@ -194,3 +128,15 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** El EHD opcional HF no convierte un canal técnico en permiso de contenido ni una meta-calificación en conocimiento oculto. El brazo sin gate envía dos mensajes fuera del scope estipulado; el gated los retiene. Son inputs y modelos, sin handshake nativo o población. No se adopta 68–70 ni se impone divulgación obligatoria.
 
 Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 68 | Condicionar el residualD a una barrera efectiva | research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md | Aplicado |
+| 69 | Conservar UNKNOWN en perfiles sintetizados todavía no calificados | research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md | Aplicado |
+| 70 | Hacer condicionalD_compatibility en el esquema de recepción | research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md | Aplicado |
+

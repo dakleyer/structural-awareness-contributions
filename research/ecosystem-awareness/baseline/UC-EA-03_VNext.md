@@ -62,42 +62,11 @@ La ficha exterior enlaza esta única VNext para todas las partes. No se abre una
 
 ### Aclarar el dueño de la respuesta
 
-**Localización:** §5, párrafo F7 único. **Tipo:** precisión potencialmente sustantiva; requiere successor del freeze y revisión de funciones/owners.
-
-**Texto antes:**
-
-```text
-F7 decides whether targeted human review is justified, whether another evidence path is preferable, whether escalation must stop because marginal decision value no longer justifies human-capacity consumption, or whether containment/migration is required.
-```
-
-**Texto después:**
-
-```text
-F7 qualifies the need for targeted human review, another evidence path or bounded termination of escalation when additional review no longer justifies its capacity burden. Where containment or migration may be required, it identifies the affected basis and submits the qualified need to the legitimate posture and response owner; selecting and executing that response remain subject to current authority, capacity and downside conditions.
-```
-
-**Razón:** alinear la indicación epistemológica con el reparto actual de responsabilidad, sin transferir el lifecycle de Theme #16 a EA. **Dependencias:** 03/04, MSCA Operation, EP y consumidores del perfil. **Instrucción:** preparar revisión autorizada por Iván. **Decisión:** pendiente. **Incorporación:** no ejecutada.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio22 incorporado en `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Calificar el fallback de la rama B
 
-**Localización:** §7 Branch B, oración única. **Tipo:** precisión de obligación; no se declara editorial por defecto.
-
-**Texto antes:**
-
-```text
-A formally authorized reviewer exists but is unavailable or cannot respond in time. Expected EA behavior: human capacity becomes binding/insufficient; do not loop indefinitely; select another bounded evidence/containment/requalification path.
-```
-
-**Texto después:**
-
-```text
-A formally authorized reviewer exists but is unavailable or cannot respond in time. Expected EA behavior: human capacity becomes binding/insufficient; do not loop indefinitely; identify another bounded evidence, containment or requalification path for the legitimate owner. Any fallback, including hold or timeout, must retain its authority, affected scope, response window and downside conditions; reviewer unavailability alone does not establish that the fallback is harmless or permitted.
-```
-
-**Razón:** impedir que terminar la cola se convierta en autorización automática de un efecto. **Dependencias:** S4/S5/T3/T4 y fixtures futuros. **Antes:** una coincidencia. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio23 incorporado en `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -202,3 +171,16 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** En successor, contrastar22 y ramasB/C/H: autoridad, plazo, contexto, competencia, capacidad compartida y continuidad. Preservar casos y fallos previos. Revisar junto con 22. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 22 | Mantener al dueño legítimo de la respuesta en UC03 | research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md | Aplicado en sucesor |
+| 23 | Calificar el fallback humano por autoridad y plazo | research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md | Aplicado en sucesor |
+
+El frozen conserva exactamente su blob anterior. La revisión aprobada está incorporada en un sucesor de trabajo enlazado por baseline; los estudios registrados siguen usando su edición congelada. La incorporación textual no afirma resultados nuevos.
+

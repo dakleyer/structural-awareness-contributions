@@ -352,3 +352,8 @@ The [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capac
 For the no-attacker Quiet Four Thousand story, the two preservation/authority outcomes, V19/V20 delegation hardening and subsequent test corrections, read the [00H v0.5 working successor](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md). The earlier v0.2 links above remain the preserved predecessor route. A registered study continues to use its frozen edition; the current reading route identifies the fuller successor without changing that study's inputs or results.
 
 The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
+
+
+## Approved working successors — 12 October 2026
+
+The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.

@@ -18,7 +18,7 @@ Primary source:
   https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5846988611
 - UC #4 candidate experiment input package v1.1.1 / schema 1.0.0  
   https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5847245589
-- UC #4 public experiment schema 1.1.0-r1, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
+- UC #4 experiment schema **1.1.0**, published in package **1.1.0-r1**, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
   https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
 - Theme #13 — Ecosystem-level Agent Defense  
   https://github.com/FG-TIDA/themes/issues/13
@@ -34,6 +34,21 @@ Corpus reuse:
 - [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
 - [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
 - [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
+
+## Reuse of the existing corpus harnesses
+
+R01 builds on an existing test corpus. Reuse must distinguish code or infrastructure already adapted, controls available for a new profile, and a mapping that has actually been tested and admitted. Prior results retain their original scenario, version and evidence scope.
+
+| Existing source | Reusable part | Current R01 integration boundary |
+|---|---|---|
+| [RS-00E-Q1a](../../../fixtures/RS-00E-Q1a/README.md) | Canonical Trace v1, post-run evaluation, replay and instrumentation controls. | The serialization utility is adapted here; Q1a truth, scoring and shared-logic comparator results do not evaluate R01 routes. |
+| [00K symbolic suite](../../../fixtures/00K-SUITE/README.md) | P1–P6 regressions, matched controls, ablations, strong-repair tests and retained falsifiers. | Keep the registered suite as a regression source; importing a control does not create an R01 outcome or a real-technology result. |
+| [00L paired traversals](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) | Frozen facts, visible observations, prior rules, separate oracle, paired comparisons and requirement/gate traceability. | Normalize observations, dispositions and resource units through a reviewed profile; paper and symbolic results retain their scope. |
+| [00I / S5 stateful harness](../../../fixtures/00I-STATEFUL/README.md) | Queue, source reads, guard, permit, executor, target-state observations and bounded recovery. | Candidate backend for a versioned R01/UC-4 adapter; no such admitted adapter or AWS execution is established by this reference. S5 effect expectations remain a specific evaluator. |
+| [00G-HF development history](../../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) | Recorder, authority controls, episode/seed handling, social messages and dynamic schedules. | Preserve each runner's own oracle, policy and result scope; projection to R01 routes and collective measures requires a declared correspondence. |
+| [Earlier R01 diagnostics](../feasibility/partial-experiments/README.md) | Small-world enumeration, budget/measurement countercontrols and historical counterexamples. | Revalidate against the current scenario and conditioned theorem; these are not the complete neutral R01 evaluator. |
+
+The integration direction is a common experiment/trace boundary with versioned scenario backends and specific evaluators. It does not require rewriting the retained harnesses or merging their ground truths. Conventional controls that succeed retain that result.
 
 ## Interoperability rule
 
@@ -102,6 +117,8 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 24. cross-check fixed graph controls and 64 generated DAGs with exhaustive and dynamic-programming references;
 25. keep the declared nonnegative base and reject ambiguous reference types; and
 26. reject incomplete or oracle-visible T03 registrations while admitting a synthetically complete isolated registration control.
+
+Interpret results by their declared mode. A batch PASS checks the candidate's declared selection against a bounded reference and frozen measurements; it is not proof of an executed effect. The interactive instrumentation additionally checks matching environment execution evidence. Native `completion` and `legitimate_q` fields do not automatically establish the scenario's timely admissible-delivery metrics: the current evaluator checks deadline separately. Full scenario metrics and real-runtime isolation remain profile-specific verification obligations.
 
 Run locally from this directory:
 

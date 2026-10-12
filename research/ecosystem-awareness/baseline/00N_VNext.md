@@ -167,22 +167,7 @@ La lectura humana todavía es una relectura de IA. Se mantiene la propuesta prev
 
 ### Documentar la elección de medida en §2.3
 
-**Instrucción:** continuar las auditorías y preparar cambios quirúrgicos, sin alterar la fuente. **Tipo:** apoyo bibliográfico, no cambio de hipótesis o KPI. **Texto antes, párrafo exacto y único:**
-
-```text
-Work on partial information decomposition distinguishes redundant, unique and synergistic information about a target [R3]. It provides a language for the possibility that a relation among sources is informative even when each source, examined alone, is insufficient. It does not make diversity synonymous with useful information or provide a universally agreed measure for every application.
-```
-
-**Texto después:**
-
-```markdown
-Work on partial information decomposition distinguishes redundant, unique and synergistic information about a target [R3]. It provides a language for the possibility that a relation among sources is informative even when each source, examined alone, is insufficient. It does not make diversity synonymous with useful information. A quantitative profile must justify its chosen measure; alternative constructions and their assumptions are discussed by [Bertschinger et al., Quantifying Unique Information](https://arxiv.org/html/1311.2852v1).
-```
-
-**Razón:** dar al lector una fuente primaria para la cautela, sin convertir “sinergia” en una medición efectuada. **Dependencias:** §2.3, 00M y cualquier comparación que adopte una métrica. **Antes comprobado:** una coincidencia en el blob auditado. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio42 incorporado en `research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -315,3 +300,15 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00N_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 42 | Justificar medida de información antes de usar sinergia | research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md | Aplicado |
+
+Fuente primaria revalidada: Bertschinger et al., arXiv1311.2852, v1(12noviembre2013), v2(16enero2014), Entropy16(2014),2161–2183. El resumen declara medidas alternativas y comparación de sus supuestos. La cita se incorpora como orientación, no como resultado empírico EA.
+

@@ -22,24 +22,7 @@ Sigue abierta la lectura de drift, Type catalogue, gradiente, ACC, posture gate,
 
 ## Propuesta antes/después — entrada RA, pendiente
 
-**Localización:** §4, fila única. **Tipo:** precisión semántica; compatibilidad aún por examinar. **Instrucción:** preparación de revisión integral autorizada por Iván.
-
-**Texto antes:**
-
-```markdown
-| Δ_RA | Regime Awareness | Qualified direction/intensity/capability/residual of ecosystem/regime change. |
-```
-
-**Texto después:**
-
-```markdown
-| Δ_RA | Regime Awareness | Qualified regime-change position: A_RA direction; B_RA established support, validity limits and characterized assessment reserve; C_RA grounded exploration avenues not yet characterized; D_RA effects beyond effective evaluation. Confidence qualifies support and is not physical change magnitude; uncertain role classification remains UNKNOWN. Retain the source's scope, context, versions and freshness. |
-```
-
-**Razón:** mantener el sentido del productor 01C sin renombrar campos. **Dependencias:** RA, EA, Cartography, Operation y perfiles que utilicen esta entrada. **Comprobación previa:** una coincidencia en el blob auditado. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio37 incorporado en `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -150,42 +133,7 @@ ATHENA y su solicitud pública de cadena/revocación se contrastan en ACC VNext:
 
 ### Cambio 59 — Mantener en Operation el perfil de comparación del gradiente
 
-**Fuente/ubicación:** [fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`; el viejo aparece exactamente una vez. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
-
-**Beneficio esperado:** Que el consumidor no universalice lo que la fuente delimita. No es eficacia medida. **Riesgo concreto:** Puede desactualizar perfiles y decisiones esperadas; no cambia permisos y posturas. **Trabajo necesario:** Cotejo conjunto57/58,01D y contratos de selección.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-For each candidate transition τ:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-=
-expected reduction in objective-conditioned risk
-=
-expected increase in Objective-Envelope fulfilment
-~~~
-
-as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-= profile-qualified comparison of current and candidate objective-conditioned risk
-~~~
-
-For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
-
-The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Tanda compatible57/58/59 y decisión de Iván. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio59 incorporado en `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Reapertura por nueva capacidad humana — fuente vigente
 
@@ -316,3 +264,14 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/04_OPERATION_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 37 | Conservar significado RA al entrar en Operation | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
+| 59 | Mantener en Operation el perfil de comparación del gradiente | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
+

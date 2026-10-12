@@ -112,7 +112,7 @@ This supplies a close precedent: **useful distributed compression is an establis
 
 ### 2.3 The relation between messages can carry the useful distinction
 
-Work on partial information decomposition distinguishes redundant, unique and synergistic information about a target [R3]. It provides a language for the possibility that a relation among sources is informative even when each source, examined alone, is insufficient. It does not make diversity synonymous with useful information or provide a universally agreed measure for every application.
+Work on partial information decomposition distinguishes redundant, unique and synergistic information about a target [R3]. It provides a language for the possibility that a relation among sources is informative even when each source, examined alone, is insufficient. It does not make diversity synonymous with useful information. A quantitative profile must justify its chosen measure; alternative constructions and their assumptions are discussed by [Bertschinger et al., Quantifying Unique Information](https://arxiv.org/html/1311.2852v1).
 
 For example, two actors may each report readiness under a different specification version. Their metadata can expose that relation although their operative answers agree. Section 3.6 develops this example through a requirement route. It illustrates relational usefulness; a quantitative claim of statistical synergy would additionally need a probability model and a specified measure.
 

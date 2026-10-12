@@ -106,7 +106,7 @@ Before an EP arm can support a comparative claim, verify that it actually instan
 - signalling treated as qualified input, not command;
 - no hidden global-state or super-controller assumption unless the arm is explicitly the OR reference.
 
-A non-conforming EP implementation produces **Insufficient evidence**, not an EP win/loss.
+A configuration that fails preregistered Q0 admission before comparative execution produces **Insufficient evidence** for the claimed EP comparison. Admission criteria, exclusion rules and the adjudication owner must be fixed before outcomes are inspected. A failure or conformance deviation observed after an admitted run begins remains reported with its trace and cause; it must not be discarded or retrospectively relabelled merely to remove an adverse result. Its implication for the hypothesis is adjudicated under the frozen protocol.
 
 ### Q1 — requirement coverage
 
@@ -467,21 +467,7 @@ El diseño separa Q0 conformance, Q1 requirement coverage, Q2 module contributio
 
 ### BENCH-R1-DELTA-002 — Q0 antes del resultado y conservación de fallos
 
-**Objeto:** este borrador§2/Q0, frase única. **Hallazgo:** F002. **Tipo:** precisión material del protocolo de admisión/adjudicación; revisión necesaria antes de freeze.
-
-**TEXTO ANTES**
-
-```markdown
-A non-conforming EP implementation produces **Insufficient evidence**, not an EP win/loss.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-A configuration that fails preregistered Q0 admission before comparative execution produces **Insufficient evidence** for the claimed EP comparison. Admission criteria, exclusion rules and the adjudication owner must be fixed before outcomes are inspected. A failure or conformance deviation observed after an admitted run begins remains reported with its trace and cause; it must not be discarded or retrospectively relabelled merely to remove an adverse result. Its implication for the hypothesis is adjudicated under the frozen protocol.
-```
-
-**Razón:** impedir outcome-dependent exclusion sin convertir configuracionesincorrectas en evidencia limpia. **Dependencias:** preregistration/admission/oracle, positivecontrols y comparator defenders. **Gate:** probar protocolo con runválidofallido, configinválidapre-run, datasetmissing, timeout y fallo del comparator; registrar censura y branchdenominator. **Decisión:** pendiente. **Incorporación:** no ejecutada.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio41 incorporado en `research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cobertura restante
 
@@ -596,3 +582,13 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 41 | Fijar admisión antes de ver resultados y conservar fallos | research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md | Aplicado |
+

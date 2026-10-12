@@ -1073,15 +1073,8 @@ Un escaneo de texto completo encontraba el después en las citas de las propias 
 
 ### Plan vigente para EP: alternativa aditiva conjunta71
 
-Las propuestas 3/4/5 conservan sus textos anteriores y propuestos históricos, pero se dejan fuera de la cola de incorporación por su ubicación dentro del cuerpo protegido.71 reúne las aclaraciones al final: **impacto esperado Alto, riesgo Medio, esfuerzo Medio, prioridad Primera, tanda 1**. Beneficio: leer responsabilidades, evidencia y las dos listasP sin alterar lo anterior. Riesgo: abreviar de más la arquitectura o aparentar renovación de evidencia; coste: cotejar fuentes y comprensión, además de la redacción.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio71 incorporado en `architectural-contributions/ecosystem-positioning/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
-**Instrucciones de Iván:** sólo añadir al README y estrategia hasta su revisión; después, originales en sólo lectura, una VNext por fuente, siempre viejo completo y decisión concreta para incorporar. Este par es una propuesta futura; no modifica el README.
-
-**Fuente y ubicación:** `architectural-contributions/ecosystem-positioning/README.md`, blob `641693f5a56e610fc1e76ae79ad41b96bd903f00`, commit `06931f0b19b8df777e251091eccf5e3ee4ca9fbb`. El bloque viejo es toda la sección final Development strategy; aparece una vez y llega al fin del archivo. Se conservaría completo y se añadiría el bloque nuevo después. No se sustituye la estrategia ni se crea otro README.
-
-**Texto antes — viejo literal completo del contexto final**
-
-~~~~markdown
 ## Development strategy and next advances
 
 The next phase focuses on clarifying the evidence behind the architecture, developing a small end-to-end profile, defining a demanding comparison and extending only what can be supported. The [development strategy and priorities](./DEVELOPMENT_STRATEGY.md) (Spanish working proposal) explains these directions, where specialist knowledge can help and the external research that informs them.
@@ -1650,3 +1643,21 @@ La variante literal y el seguimiento de las ejecuciones están en la [única VNe
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
 
 Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 71 | Aclaración conjunta de arquitectura, evidencia y posturas al final de EP | architectural-contributions/ecosystem-positioning/README.md | Aplicado |
+
+
+### Conciliación de la aplicación
+
+RA y Operation comparten la lectura A/B/C/D: B conserva soporte/reserva evaluable, C una vía fundada aún no caracterizada y D una barrera efectiva.01C/Composition conservan pregunta, scope, versiones y vigencia al reutilizar cartografía; rol contractual y conducta observada permanecen separados. Gradient y Operation usan el mismo perfil escalar/vectorial, conservando alternativas incomparables, empates y ausencia de máximo.01J reconoce UNKNOWN y sólo asigna D cuando existe barrera efectiva; su ejemplo de telemetry ya exigía esa condición. Foundation admite Type1/2 dentro de un scope fijo y mantiene Type0, M, causalidad y resultados positivos convencionales. El checker recibe su corrección en v0.4; los freezes permanecen. No se redistribuye ningún archivo ni se crea otra VNext.
+
+### Líneas sin cambio literal ejecutable
+
+43–45 son tareas para localizar obligaciones/realización, y46–51 perfiles, fidelidad, campañas y evaluación de una realización. Continúan como trabajo de investigación definido por sus fuentes, no como cambios de texto esperando permiso.64/67 están superadas por01K vigente;65/66 resueltas por integración posterior;75 contradice la posterior instrucción de Iván de retirar fichas aplicadas y no tiene viejo vigente: no se restaura la cola retirada. Las propuestas descartadas o históricas no se reejecutan. La revisión científica completa del corpus y sus fuentes no se cierra por esta aplicación.

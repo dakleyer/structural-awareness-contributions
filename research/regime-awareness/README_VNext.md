@@ -56,24 +56,7 @@ Antes de incorporar el cambio se revisarán implementaciones/perfiles que utilic
 
 ## Propuesta antes/después — conciliación del resumen, pendiente
 
-**Localización:** lista “Current architectural output”, segundo elemento, una coincidencia. **Fuente:** blob arriba. **Instrucción:** revisión total segura de Iván. **Tipo:** cambio semántico de explicación; no se clasifica como inocuo solo por conservar campos.
-
-**Texto antes:**
-
-```markdown
-- The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: direction (A_RA), confidence/intensity attached to that direction (B_RA), recognized current-capability frontier (C_RA), and structural/residual unknown (D_RA). Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
-```
-
-**Texto después:**
-
-```markdown
-- The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: qualified direction (A_RA), established support, validity limits and characterized assessment reserve (B_RA), grounded exploration avenues not yet characterized (C_RA), and potentially material effects beyond effective evaluation under the declared frame (D_RA). Confidence qualifies evidential support; it is not the physical magnitude of change or all of B_RA. Uncertain role classification remains UNKNOWN. Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
-```
-
-**Razón:** conciliar el resumen con 01C y 00M sin cambiar nombres de payload. **Dependencias:** 01C, MSCA 03/04, perfiles de signalling y consumidores RA; VNext de sus README. **Compatibilidad:** pendiente, revisar declaraciones históricas y significado recibido. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio35 incorporado en `research/regime-awareness/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -209,3 +192,13 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/regime-awareness/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 35 | Conciliar los cuatro roles RA en su README | research/regime-awareness/README.md | Aplicado |
+

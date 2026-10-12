@@ -28,30 +28,7 @@ Completar lecturas propias y consumidores reales, incluida actualización/overla
 
 ### Cambio 53 — Conservar la calificación al enviar Cart_i a RA
 
-**Fuente:** [documento original](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md), blob `0366cbd184149235005dc2236b3da7e4c394ed3e`; una coincidencia literal del viejo en el corte. **Instrucción de Iván:** auditar y publicar propuestas, conservar originales y siempre el texto viejo. **Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera, tanda de coherencia RA–EA–MSCA.**
-
-**Por qué:** Que el productor mantenga visible que compartir roles no transfiere la justificación de un resultado.
-**Riesgo de afectar otro documento:** Una precisión aislada en 01C o 03 deja productor y receptor con lecturas distintas; el texto puede ser leído como nueva obligación universal si no se preserva el scope del perfil.
-**Preparación:** Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.
-**Dependencias:** [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [01C_VNext.md](../../research/ecosystem-awareness/baseline/01C_VNext.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md).
-**Condición:** Tanda conjunta 52/53 y revisión de perfiles/retorno; Composition & Control conserva Cart_i y RA sus contratos científicos. Decisión concreta de Iván e incorporación pendientes.
-
-**Texto antes — viejo, completo:**
-
-```markdown
-RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. Because Cart_i already uses A/B/C/D semantics, that bounded slice can enter RA without inventing a second epistemic translation layer.
-```
-
-**Texto después — propuesto, completo:**
-
-```markdown
-RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. The shared A/B/C/D vocabulary permits reuse without inventing a second role taxonomy. The receiving RA profile must nevertheless qualify the source question, scope, versions, freshness and evidential basis of that slice for its own declared observation/context/detection contract. Support for a cartographic element does not by itself establish that the element preserves the regime distinction or supplies support for A_RA.
-```
-
-La propuesta no introduce una implementación ni un formato obligatorio. El antes permanece en la fuente; no se incorpora el candidato.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio53 incorporado en `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Pasadas propias de Composition — leer el mapa completo y sus límites
 
@@ -124,11 +101,8 @@ No se estableció diferencial mediante comparación. Reutilizaría procedencia/r
 
 ### Cambio 56 — Corregir el título duplicado de D_Cart
 
-**Impacto esperado: Bajo. Riesgo: Medio. Esfuerzo: Bajo. Prioridad: Después.** No se cambia significado; puede desactualizarse un fragmento de enlace. Revisar externos relevantes o preservar compatibilidad del ancla en una edición aprobada por Iván.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio56 incorporado en `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
-**Texto antes — viejo completo:**
-
-```markdown
 ### 3.4 D_Cart### 3.4 D_Cart — cartographic residual
 ```
 
@@ -195,3 +169,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 01H §2.1 puede proporcionar posición yefectos locales aCart_i; §6.1 exige conservar linaje material alreemitir.01B § §4/5 mantiene la vuelta deestado parcial ynegativo yno exporta MSCA completo por obligación universal. Composition sigue siendo dueño decartografía persistente; repetir/recibir unhand-off no crea corroboración independiente o permiso.52/53 permanecen opcionales, sin nueva adopción.
 
 La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 53 | Conservar la calificación al enviar Cart_i a RA | standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md | Aplicado |
+| 56 | Corregir el título duplicado de D_Cart | standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md | Aplicado |
+

@@ -519,24 +519,7 @@ No hay auditor externo adicional en esta pasada. Otro auditor debe citar estos I
 
 ### REQ-R1-DELTA-002 — CAND-R4, texto candidato para una futura edición
 
-**Objeto:** Requirements §2, celda S10; source blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. **Hallazgos:** F003/F004. **Tipo:** propuesta potencialmente material de precisión de la obligación; no clasificada todavía como mero cambio editorial. No aplicable en-place a la fuente congelada. **Instrucción:** autoriza preparar la auditoría/propuesta, no incorporarla.
-
-**TEXTO ANTES**
-
-```text
-Distinguish recommendation, negotiation, reservation, binding commitment and execution; detect when a material change of cost, route, time, context, policy or authority requires confirmation, revalidation, cancellation or change of authority. Silence or delay is not permission.
-```
-
-**TEXTO DESPUÉS**
-
-```text
-Distinguish recommendation, negotiation, reservation, binding commitment and execution; detect when a material change of cost, route, time, context, policy or authority requires confirmation, revalidation, cancellation or change of authority. Silence or delay is not permission. Where execution relies on a requalification, preserve a demonstrable binding between the requalified decision basis and the basis consumed by execution; a material intervening change reopens the affected qualification before the action relies on it.
-```
-
-**Razón:** hacer explícito el check-to-use de CAND-R4 sin imponer locks, transactions, epochs ni una plataforma. **Dependencias:** S14/T2/T4; CAND-A23-P5; 00I; 04; oracle/fixtures que citen esta versión. **Adjudicación pendiente:** si añade una obligación o solo precisa una ya exigida, efecto sobre control positivo autorizado, observabilidad y estados alcanzables. No se usa el candidato para declarar probado A23. **Decisión de Iván:** pendiente por ID. **Incorporación:** no ejecutada; cualquier adopción requiere successor versionado y pruebas referidas a su propia edición.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio16 incorporado en `research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -741,3 +724,15 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 16 | Vincular la ejecución al estado recalificado | research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md | Aplicado en sucesor |
+
+El frozen conserva exactamente su blob anterior. La revisión aprobada está incorporada en un sucesor de trabajo enlazado por baseline; los estudios registrados siguen usando su edición congelada. La incorporación textual no afirma resultados nuevos.
+

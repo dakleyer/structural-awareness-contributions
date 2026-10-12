@@ -455,21 +455,7 @@ IVAN-20261006-START-SEQUENTIAL-AUDITS autoriza la publicación secuencial de aud
 
 ### IF04-R1-DELTA-002 — H06: candidato de lectura del elemento4 para un successor
 
-**Objeto:** 04 v0.5 §2, único segmento del kernel EHD. **Hallazgo:** F001. **Tipo:** candidato semántico de perfil, no mera renumeración. **Estado:** pendiente de H06/end-to-end review y decisión de Iván; el baseline no se altera.
-
-**TEXTO ANTES**
-
-```text
-(4) operational result/closure;
-```
-
-**TEXTO DESPUÉS**
-
-```text
-(4) operational result/closure, or a source-bound result reference only where the declared receiving profile can resolve and interpret the required result at the decision time; an unavailable, stale or insufficiently bound reference preserves material UNKNOWN and does not support uses that require the result value;
-```
-
-**Razón:** evitar universal exclusion of A sin fingir que A_ref vale para todos los usos. **Dependencias:** Recognition Guide §4/§9, Input Contract H06, F9, T2/T4/S14 y privacidad/authority owners. **Gate:** probar un perfil full-result y uno metadata-only con controles positivos, missing/stale/reference mismatch y límites de autorización; conservar revisión histórica. No se afirma que una implementación exista o pase. **Decisión de incorporación:** pendiente. **Incorporación:** no ejecutada.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio19 incorporado en `research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cobertura restante
 
@@ -604,3 +590,15 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 19 | Condicionar cuándo un A_ref conserva el resultado | research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md | Aplicado |
+
+H06 conserva sus obligaciones de revisión end-to-end: el texto aprobado permite una referencia sólo cuando el receptor resuelve e interpreta el valor necesario a tiempo. No convierte las176filas en conformes ni los44casos en integraciones verificadas.
+

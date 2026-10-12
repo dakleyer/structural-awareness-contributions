@@ -160,54 +160,11 @@ La evidencia de fuente primaria, todos los campos/consumidores de 01H/01J, repre
 
 ### Cambio 52 — Calificar la cartografía al recibirla en RA
 
-**Fuente:** [documento original](01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md), blob `95adebcd98c443f16d96feda1e2a7962853e7e93`; una coincidencia literal del viejo en el corte. **Instrucción de Iván:** auditar y publicar propuestas, conservar originales y siempre el texto viejo. **Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera, tanda de coherencia RA–EA–MSCA.**
-
-**Por qué:** Evitar que un formato compartido sustituya la calificación de evidencia para otra pregunta.
-**Riesgo de afectar otro documento:** El consumidor puede heredar soporte cartográfico como si probara representatividad/contexto/detección RA; cambiar solo esta tabla dejaría la frase equivalente de 03 sin conciliar.
-**Preparación:** Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.
-**Dependencias:** [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [03_COMPOSITION_VNext.md](../../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) · [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md).
-**Condición:** Decidir junto con 53; cotejar un perfil que reuse el slice y uno donde el dato no distingue el régimen; sin nuevo payload ni algoritmo asumidos. Decisión concreta de Iván e incorporación pendientes.
-
-**Texto antes — viejo, completo:**
-
-```markdown
-| **Cart_i / Δ_Cart,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and material cartographic change-set. Because the cartography already uses the shared A/B/C/D semantics, RA may consume the relevant bounded slice without a second epistemic translation layer. |
-```
-
-**Texto después — propuesto, completo:**
-
-```markdown
-| **Cart_i / Δ_Cart,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and material cartographic change-set. The shared A/B/C/D vocabulary permits reuse without a second role taxonomy. RA must still qualify the slice's source question, scope, versions, freshness and evidential basis for its declared regime decision; cartographic support is not automatically support for the RA observation/context/detection contract. |
-```
-
-La propuesta no introduce una implementación ni un formato obligatorio. El antes permanece en la fuente; no se incorpora el candidato.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio52 incorporado en `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cambio 54 — Separar rol vinculado y conducta observada al entrar en RA
 
-**Fuente:** [documento original](01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md), blob `95adebcd98c443f16d96feda1e2a7962853e7e93`; una coincidencia literal del viejo en el corte. **Instrucción de Iván:** auditar y publicar propuestas, conservar originales y siempre el texto viejo. **Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera, tanda de coherencia RA–EA–MSCA.**
-
-**Por qué:** Preservar la discrepancia entre rol declarado y efectivo que permite detectar deriva sin legitimar conducta nueva.
-**Riesgo de afectar otro documento:** What actually does en la entrada del rol puede ocultar la diferencia que Operation representa como Role_bound/Role_effective; usar conducta para actualizar el rol sin owner puede ampliar autoridad.
-**Preparación:** Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.
-**Dependencias:** [02_MSCA_ARCHITECTURAL_ROLE.md](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) · [02_ROLE_VNext.md](../../../standards/minimum-sufficient-control/02_ROLE_VNext.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [04_OPERATION_VNext.md](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md).
-**Condición:** Confirmar el sentido de ArchitecturalRole_i con su fuente y perfiles; no nuevos fields obligatorios ni inferencia de permiso desde conducta. Decisión concreta de Iván e incorporación pendientes.
-
-**Texto antes — viejo, completo:**
-
-```markdown
-| **ArchitecturalRole_i** | [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) | What this participant actually does, consumes, produces, depends on and is authorized/contracted to perform inside the focal MSCA. |
-```
-
-**Texto después — propuesto, completo:**
-
-```markdown
-| **ArchitecturalRole_i** | [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) | The participant's declared functional/contractual role in the focal MSCA, including assigned inputs, outputs, dependencies, ACC binding and authority references. Qualified observation of actual behaviour and action/effect history remains separate evidence for comparison with that bound role; it does not replace the role binding or establish authority. Dynamic role-drift classification remains owned by Operation & Repositioning. |
-```
-
-La propuesta no introduce una implementación ni un formato obligatorio. El antes permanece en la fuente; no se incorpora el candidato.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio54 incorporado en `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Lectura completa de Role y Composition — reevaluación de la auditoría
 
@@ -266,3 +223,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 01H §2.1 entrega posición/cambio local aCart_i y/o aesta interfaz, sin hacer del efecto local estabilidad delrégimen.01B §7.1 y 01D § §2/3 exigen mismo alcance, versión yventana cuando RA sea fundamento de la acción; monitor advisory fuera de la dependencia no es veto general. El contraste no convierte Π_EA local enΔ_RA ni aporta la especialización P_RA que 17 mantiene pendiente.
 
 La explicación de origen y los límites están en [01H VNext](01H_VNext.md) y [01B VNext](01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 52 | Calificar la cartografía al recibirla en RA | research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md | Aplicado |
+| 54 | Separar rol vinculado y conducta observada al entrar en RA | research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md | Aplicado |
+

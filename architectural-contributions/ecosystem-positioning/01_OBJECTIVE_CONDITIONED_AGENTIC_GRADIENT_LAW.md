@@ -147,7 +147,9 @@ current position
 
 An assertion about C cannot be averaged into A as if its answer were known. A bounded exploratory step may consume time, capacity and authority without providing a probability distribution over the open frontier. Any numerical R_C in a declared profile applies only to the characterized aspect represented by that profile, not to all of C.
 
-### D — structural / capability residual### D — structural / capability residual
+<a id="d--structural--capability-residual-d--structural--capability-residual"></a>
+
+### D — structural / capability residual
 
 R_D denotes the objective-relevant residual beyond effective evaluation routes in the declared frame. It is not an assumed probability or scalar estimate of the whole D. Any numerical term in a bounded profile must identify the characterized aspect and its defensible grounds; that characterization has an A/B role for its producing process.
 
@@ -266,17 +268,19 @@ E[ V_i(after τ | δ_i) ]
 V_i(current | δ_i)
 ~~~
 
-Therefore:
+Therefore, when the declared profile uses a scalar risk functional and the conditional expectation is supported for the assessed scope:
 
-> **Positive gradient means the transition is expected to reduce objective-conditioned uncertainty/risk and equivalently increase expected Objective-Envelope fulfilment.**
+> **Positive gradient means the transition is expected to reduce that objective-conditioned risk. For a normalized binary objective V_i = 1 - R_i, this is equivalently an increase in expected fulfilment.**
 
-> **Negative gradient means the transition increases objective-conditioned risk or decreases expected fulfilment.**
+> **Negative gradient means an expected increase in that risk.**
 
-> **Zero gradient means no material improvement under the current qualified model.**
+> **Zero gradient means no modelled change in that declared scalar measure; it does not establish that unassessed effects are absent.**
 
-This is the core law.
+A vector-valued or Pareto profile MUST declare how its objective outcomes are compared. It may preserve incomparable alternatives instead of assigning them a single positive or negative sign. Lexicographic priorities or an owner-authorized scalarization are possible profile choices, not universal consequences of this law. A compensating gain MUST NOT override an owner-declared hard constraint.
 
-It is valid for discrete transitions through finite differences and for continuous state spaces through an ordinary differential gradient when such a representation is justified.
+An expectation requires a declared and justified conditional model for the characterized aspects being assessed. If that basis is unavailable, the profile preserves bounded estimates, a declared robust comparison or UNRESOLVED; it does not assign probabilities to the whole C or D frontier by assumption.
+
+This is an objective-conditioned comparison rule. In a scalar profile it can use discrete finite differences; a differential gradient requires a justified differentiable representation. The law alone establishes neither such a representation nor a computable, unique best transition.
 
 ## 8. Relation to the canonical nonlinear posture operator
 
@@ -328,17 +332,16 @@ The participant's **admissible opportunity gradient** is evaluated over T_ACC,i.
 
 The participant's **executable gradient** is evaluated over T_exec,i.
 
-Thus:
+For a scalar profile in which a maximum is established, selection first preserves the full set of maximizing candidates:
 
 ~~~text
-τ*_candidate = argmax over T_ACC,i of G_i(τ)
+Candidates_best = argmax over T_ACC,i of G_i(τ)
+Executable_best = argmax over T_exec,i of G_i(τ)
 ~~~
 
-but:
+These are sets, not a guaranteed unique transition or an execution command. A legitimate profile supplies any required tie-break. For a vector-valued or Pareto profile, retain the non-dominated candidates under its declared comparison relation and apply only an owner-authorized selection rule.
 
-~~~text
-τ*_execute = argmax over T_exec,i of G_i(τ)
-~~~
+If the relevant set is empty, candidates remain incomparable, no maximum is attained, or material evidence is unresolved, report that state. Use the bounded HOLD, exploration, authority-request or escalation route supplied by the surrounding operation/profile; do not invent a winning transition.
 
 A high-gradient transition outside current authority may instead create another high-value transition:
 
