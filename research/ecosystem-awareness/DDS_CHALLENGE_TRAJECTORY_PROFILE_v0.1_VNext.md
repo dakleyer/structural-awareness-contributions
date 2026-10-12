@@ -603,3 +603,44 @@ def require_na_rationale(result: dict[str, Any]) -> None:
 ~~~~
 
 **Instrucciones de Iván:** una VNext por unidad, originals en lectura, conservar conversaciones y viejo completo. Auditoría publicable, incorporación pendiente de su decisión concreta. Contradicción documental confirmada; regla propuesta, recuperación de épocas pendiente
+
+
+---
+
+## Consistencia de DDS y sus receptores — 12 octubre 2026
+
+**Auditoría por Codex, mismo asistente de IA, para revisión humana.** Corte público `eb5d66d7e22dc18f093ee33fcd564e1fac6d2338`. No hay un commit público posterior al corte de la revisión integral anterior. Se releen completos Index y Stages A/B/C y se contrastan sus pasajes con EA/EP, R01, Oracle/UC-4, HF y HC-HID/MSCA. Se verificó la disponibilidad por blob de los 2.194 archivos del árbol; ese control de custodia y la búsqueda de referencias no equivalen a una nueva lectura científica de todos ellos. No se ejecutaron programas, modelos, productos o experimentos.
+
+**Juicio:** la estructura principal sigue siendo consistente. Stage A compara especificaciones/mecanismos con el Challenge; B verifica una realización contra el paquete A congelado; C contrasta una implementación fijada con el Challenge y efectos observados. Simplified declara cobertura; el modo de evidencia es otro eje. Ninguno de estos nombres cambia los A/B/C/D epistemológicos de 00M, los Stage-0/1 de UC-4, las etiquetas locales de brazos o el significado de C02/C11/T03.
+
+### Lecturas cruzadas y límites
+
+- **Index ↔ Stage A:** Index §§1–6 y Stage A §§2.1/6/10/17 preservan objeto, referencia, paquete de salida y no promoción. La nota inicial de Stage A todavía dice “explicit DDS stages” para Stage1/Stage2; §13.1 conserva el vocabulario de extensión anterior. Index §5 reserva DDS Stage A/B/C para el desarrollo y su registro llama Stage1/Stage2 disciplina interna de A. Hay una ambigüedad de lectura al entrar, no evidencia de que hayan aparecido otras dos etapas ni cambiado las obligaciones. La propuesta 76 aclara sólo el primer párrafo; mantiene títulos, anchors e identificadores históricos.
+- **Stage A ↔ B ↔ C:** B §§2/4/13 exige congelar el paquete antes de adjudicar, conserva fallos y abre un sucesor A cuando la especificación necesita revisión. C §§2/4/7/15 exige configuración, referencia y observación adecuadas; un producto previo puede entrar por correspondencia explícita. La ruta A→B→C no es una promoción automática, ni exige inventar diseño DDS previo para todo producto. Un modelo ejecutable no se convierte en C por ejecutarse.
+- **C02/UC-4 ↔ DDS:** el Oracle README identifica instrumentación compartida; UC-4 §4.1 es una nota de diseño y conserva el alias anterior “Architecture Conformance”. Su contenido usa el paquete A como referencia y distingue efectos; no crea una autoridad rival a Stage B. Los instrumentos/calendarios locales no demuestran B/C ni admisión externa. No se necesita una corrección a un registro congelado para uniformar ese alias.
+- **HF ↔ requisitos ↔ MSCA:** los dos textos del 12 de octubre distinguen recalificación local y arquitectura completa. S3/S10/T1 y F2/APQ pueden sostener una pregunta de detección/recalificación; S1/S14 no son sensores ni actuadores por su sola definición. CH-01…CH-08 son casos futuros, no añadidos al paquete ciego v0.3. MSCA §4.1 mantiene señal, capacidad y autoridad separadas; observar una novedad no impone migración de rol. Ver [comentario receptor en HF VNext](./baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#consistencia-con-dds-y-msca--12-octubre-2026) y [Operation VNext](../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#consistencia-con-dds-y-recalificación-local--12-octubre-2026).
+- **Coste humano ↔ comparación DDS:** HC-HID §7A conserva vector cuando las magnitudes no son conmensurables y exige regla explícita para sumar/normalizar. Operation §4.1 exige mismo Challenge, calidad y autoridad; una ruta M más barata no acredita llegar al mismo I. Esa compatibilidad conceptual no mide capacidad humana, latencia real, ROI ni eficacia.
+
+La frase del Index fechada el 7 de octubre sobre HF preparado no invalida las ejecuciones sintéticas posteriores: el lector HF distingue aquellas aproximaciones de la adjudicación histórica/prerregistrada pendiente. No se propone una etiqueta de “Stage A superado” para resolver una diferencia de fechas. [EA VNext](./README_VNext.md#consistencia-de-la-ruta-dds--12-octubre-2026) y [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#consistencia-del-corpus-en-torno-a-dds--12-octubre-2026) recogen las consecuencias para lectores.
+
+### Auditorías anteriores que conservan vigencia
+
+**74** sigue siendo una propuesta de admisión booleana del futuro checker: el código publicado no cambió desde el corte anterior, no se reprodujo aquí el contraejemplo y no se invalidan retrospectivamente resultados. **75** sigue identificando pérdida de historia visible frente a la instrucción de conservación; T04 exige preservar desacuerdos pero no devuelve por sí mismo lo retirado. T05/T06 mantienen autoría, independencia no establecida y replay completo pendiente. No se reabre su incorporación como si no hubiera sucedido, ni se declara cierre de T03/T04 o de las cinco/sexta científicas.
+
+### Cambio 76 — precisión de la primera nota de Stage A
+
+**Fuente vigente:** [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `5b8517185308f75f57b8ce2096360e27d760438a`, línea 5 en el corte citado. Viejo literal completo: una coincidencia; propuesto: ninguna. **Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente; tanda 1, claridad de evidencia y estado.** Beneficio: distinguir al primer vistazo las tres etapas DDS de las dos fases de extensión dentro de A. El índice y el cuerpo ya contienen la distinción correcta; no se demuestra un fallo técnico por la ambigüedad.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+Extension-review clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal extension-review phases within DDS Stage A for any declared base. Their historical labels Stage1 and Stage2 identify those phases, not DDS Stage B/C or additional development stages. Their completion and evidence remain scoped.
+~~~~
+
+**Riesgo y coste concretos:** preservar Stage1/Stage2, §13.1 y sus anchors, contratos, versiones y resultados. El trabajo es una relectura/localización y custodia de un párrafo, con contraste Index §5/Stage A §6 y lector HC-HID; no requiere un nuevo test o expediente. **Dependencia/orden:** precisión documental separable de 74/75; no los resuelve. **Decisión de Iván:** pendiente sobre este pasaje exacto; candidato preparado para leer y decidir, no autorizado ni aplicado. Instrucción vigente: originales sólo en lectura y una VNext acumulativa. No se propone otro cambio canónico cuando el contexto actual ya mantiene la frontera.

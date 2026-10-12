@@ -321,3 +321,16 @@ La valoración actual distingue una mejora documental de una modificación conce
 01B § §5.1/6.4/7 y 01H § §4.1/5 separan obtener evidencia, evaluar configuración, elegir transición, autorizar, ejecutar ycomprobar efecto. La oportunidad epistemológica precursora no es la selección operativa delgradiente.57/58/59 conservan sus gates deorden/comparación y 12/14/ACC mantienen dueño legítimo. Costes/criterios/ventana siguen definidos porelperfil; no se suman por analogía.
 
 La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+---
+
+## Consistencia con DDS y recalificación local — 12 octubre 2026
+
+**Codex, mismo asistente; corte `eb5d66d7e22dc18f093ee33fcd564e1fac6d2338`.** Se cotejó §4.1 de [Operation](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) con HC-HID §7A, Index/Stages DDS y los dos textos HF del 12 de octubre. La referencia es la relación material señal/coste/autoridad y no una nueva lectura de todos los perfiles o realización de las pasadas pendientes.
+
+**Relación mantenida:** recibir una alerta permite recalificar lo material y preservar trabajo no afectado. No obliga a cambiar rol, ejecutar contención ni fabricar ACC/permiso. El texto HF de primer canal permite una disposición local sin Repositioning; el contraste de arquitectura completa reserva éste para deriva/transición que realmente lo necesita. Los ejemplos son propuestas y no prueban implementación o prevención histórica.
+
+El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el mismo Challenge, calidad, autoridad y ventana. Una M más barata no sustituye el I exigido. AVAILABLE o recepción humana tampoco conceden capacidad medida ni autoridad. DDS Stage A/B/C son etapas de evaluación; A_HC/B_HC/C_HC/D_HC son posiciones epistemológicas del componente, no esas etapas.
+
+[HF VNext](../../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#consistencia-con-dds-y-msca--12-octubre-2026) y [DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#consistencia-de-dds-y-sus-receptores--12-octubre-2026) registran ambos extremos. No se justifica otro par antes/después de Operation por este cotejo: su frontera actual es compatible. 37/59/60 y las relaciones aún abiertas conservan sus estados, sin incorporación, prueba runtime o cierre de sexta.

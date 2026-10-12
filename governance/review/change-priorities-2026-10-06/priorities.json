@@ -1,5 +1,5 @@
 {
-  "version": "1.9",
+  "version": "1.10",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -2703,6 +2703,42 @@
       "preparation": "Contradicción documental confirmada; regla propuesta, recuperación de épocas pendiente",
       "quality": "Cambio procedimental propuesto; no cierre automático de T04",
       "assessment_basis": "DDS VNext actual, anterior del6octubre y procedimiento de conservación cotejados"
+    },
+    {
+      "date": "2026-10-12",
+      "source_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
+      "state": "Pendiente de decisión",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "id": 76,
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "source_sha": "5b8517185308f75f57b8ce2096360e27d760438a",
+      "heading": "Consistencia de DDS y sus receptores — 12 octubre 2026",
+      "title": "Aclarar que Stage1/Stage2 son fases internas de DDS Stage A",
+      "before": "Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.",
+      "after": "Extension-review clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal extension-review phases within DDS Stage A for any declared base. Their historical labels Stage1 and Stage2 identify those phases, not DDS Stage B/C or additional development stages. Their completion and evidence remain scoped.",
+      "before_matches": 1,
+      "after_matches": 0,
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "wave": "1 — Claridad de evidencia y estado",
+      "benefit": "Evitar que la primera nota de Stage A sugiera cinco etapas DDS o confunda sus dos fases de extensión con A/B/C.",
+      "riskReason": "Precisión documental localizada: conservar nombres Stage1/Stage2, encabezados, enlaces, obligaciones, números de versión y resultados; no reinterpretar estudios congelados.",
+      "costReason": "Cotejar Index §5, Stage A §§6/13.1 y lectores EA/HC-HID; verificar único viejo, conservación y lectura de vuelta. No requiere programa o campaña.",
+      "dependencies": [
+        "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+        "research/ecosystem-awareness/README.md",
+        "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md"
+      ],
+      "gate": "Iván decide exclusivamente este párrafo. Revalidar el viejo y el head antes de incorporar; no cambiar §13.1, identificadores, rutas o resultados por esta aclaración.",
+      "preparation": "Par literal único verificado; candidato documental acotado preparado para decisión, no aplicado.",
+      "quality": "Aclaración opcional preparada; la semántica correcta ya está en Index §5 y Stage A §6.",
+      "assessment_basis": "Lectura completa de Index y Stages A/B/C; relaciones actuales con EA, HF y HC-HID/MSCA cotejadas.",
+      "acceptance": "El lector distingue tres etapas DDS A/B/C y dos fases internas de Stage A sin cambiar las obligaciones o el valor evidencial."
     }
   ],
   "audit_coverage": [
@@ -3209,32 +3245,62 @@
         "scope_count_limit": "53 nombres de expediente activos observados,incluido benchmarkv0.3;no prueba de cobertura científica/unicidad lógica de material nuevo."
       },
       "reason": "Preserved cut before integral change/consistency review completed12October"
+    },
+    {
+      "version": "1.9",
+      "current_scope": {
+        "date": "2026-10-12",
+        "source_commit": "c36da6745c3893b0200014358c48178778d8cee9",
+        "active_expedients": 72,
+        "vnext_names": 71,
+        "reused_benchmark": 1,
+        "declared_replica_pairs": 7,
+        "logical_candidates_excluding_known_replicas": 65,
+        "scope_count_limit": "Raw72 names, seven declared copies; not certification ofsource-by-source scientific completeness or independent reviewers.",
+        "paired_proposals": 66,
+        "pending_paired": 51,
+        "already_published": 7,
+        "withdrawn": 1,
+        "superseded": 2,
+        "resolved_by_other_source_edition": 2,
+        "reformulated": 3,
+        "planning_without_literal_pair": 9,
+        "registered_rows": 75,
+        "documentary_review_candidates": 12,
+        "new_candidates": [
+          74,
+          75
+        ],
+        "review": "Integral comparison of2186 files and changes against prior audits; no closure of unfinished five/sixth campaign.",
+        "all_files_examined": 2194,
+        "added_files_from_previous_cut": 665
+      },
+      "note": "Época anterior preservada antes del cotejo DDS del mismo 12 de octubre."
     }
   ],
   "current_scope": {
     "date": "2026-10-12",
-    "source_commit": "c36da6745c3893b0200014358c48178778d8cee9",
+    "source_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
     "active_expedients": 72,
     "vnext_names": 71,
     "reused_benchmark": 1,
     "declared_replica_pairs": 7,
     "logical_candidates_excluding_known_replicas": 65,
     "scope_count_limit": "Raw72 names, seven declared copies; not certification ofsource-by-source scientific completeness or independent reviewers.",
-    "paired_proposals": 66,
-    "pending_paired": 51,
+    "paired_proposals": 67,
+    "pending_paired": 52,
     "already_published": 7,
     "withdrawn": 1,
     "superseded": 2,
     "resolved_by_other_source_edition": 2,
     "reformulated": 3,
     "planning_without_literal_pair": 9,
-    "registered_rows": 75,
-    "documentary_review_candidates": 12,
+    "registered_rows": 76,
+    "documentary_review_candidates": 13,
     "new_candidates": [
-      74,
-      75
+      76
     ],
-    "review": "Integral comparison of2186 files and changes against prior audits; no closure of unfinished five/sixth campaign.",
+    "review": "Consistency rereading of DDS definitions and selected material consumers; no closure of unfinished five/sixth campaign.",
     "all_files_examined": 2194,
     "added_files_from_previous_cut": 665
   },
@@ -3738,7 +3804,7 @@
       ]
     }
   ],
-  "publication_base_commit": "c36da6745c3893b0200014358c48178778d8cee9",
+  "publication_base_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
   "publication_rebases": [
     {
       "from": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",
@@ -3820,7 +3886,7 @@
       "old_pair_preserved": true
     }
   ],
-  "review_source_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+  "review_source_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -7877,5 +7943,23 @@
       ]
     ],
     "notes": "Ante una dependencia todavía no concretada o una decisión conceptual abierta, el candidato permanece condicionado; no saltar su gate por ranking."
-  }
+  },
+  "dds_consistency_epochs": [
+    {
+      "date": "2026-10-12",
+      "source_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
+      "verified_blob_availability": 2194,
+      "source_new_since_previous_delivery": false,
+      "scope": "Index and Stages A/B/C complete; material reader passages, HF new local/full-positioning proposals and HC-HID/MSCA cost/authority relations",
+      "held": "Objects, references, authority and evidence ceilings remain compatible",
+      "new_candidate": 76,
+      "still_pending": [
+        74,
+        75
+      ],
+      "canonical_edits": 0,
+      "new_vnext": 0,
+      "experiments": 0
+    }
+  ]
 }

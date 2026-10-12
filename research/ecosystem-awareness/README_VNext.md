@@ -354,3 +354,14 @@ Exact R01 transfer/isomorphism and cross-simulator S5 equivalence remain under T
 **Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Index/Stages A-B-C conservan una metodología con objetos y referencias distintos. C02 es infraestructura y UC4 Stage0/1 no equivalen a DDS B/C. Código o cobertura no conceden aceptación. La sidecar Cxx orienta hacia fuentes y consumidores; no prueba cumplimiento. Las nuevas 74/75 afectan admisión del checker e historia visible, sin cerrar T03/T04.
 
 Los datos y límites están en [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.
+
+
+---
+
+## Consistencia de la ruta DDS — 12 octubre 2026
+
+**Codex, mismo asistente; corte `eb5d66d7e22dc18f093ee33fcd564e1fac6d2338`.** El README EA, el manifest y el Index conducen a un método con tres etapas por objeto y referencia; DBC/00D conservan sus funciones de apoyo y C02 su condición de instrumento. El registro C01/C02 no es una aceptación de B/C. Sus fuentes y consumidores presentes siguen compatibles en este punto.
+
+La nota inicial de Stage A conserva un uso ambiguo de “DDS stages” para Stage1/Stage2. El [cambio 76 y cotejo en DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#consistencia-de-dds-y-sus-receptores--12-octubre-2026) propone explicar que son fases internas de A, conservando nombres y obligaciones. No se altera el índice ni el README original por la revisión; no hace falta duplicar la taxonomía en otra hoja.
+
+Los textos HF nuevos distinguen recalificación local, papel de sensores/autoridad y Repositioning condicionado. El [extremo HF](./baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#consistencia-con-dds-y-msca--12-octubre-2026) y el [extremo Operation](../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#consistencia-con-dds-y-recalificación-local--12-octubre-2026) explican la relación. Los casos futuros y software sintético no se promueven a prevención, B/C o nuevos requisitos. Los antiguos nombres congelados siguen documentando su época. 74/75 mantienen pendientes reales; el comentario no cierra el piloto Cxx, T03/T04, fuentes externas o pasadas globales.
