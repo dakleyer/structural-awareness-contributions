@@ -1708,3 +1708,25 @@ Los pares completos están al final de las VNext propietarias: DDS 77/81, UC-21 
 ### Revisiones en ambos extremos
 
 [Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
+
+
+## Migración conservadora completada en los repositorios — 12 octubre 2026
+
+Iván autoriza completar la migración y preservar toda la información y sus rutas. Se incorporan los seis cambios77–82 mediante sus trece pasajes exactos, con nueve enlaces de orientación actualizados y sus referencias anteriores conservadas. No se mueve ni renombra ningún archivo. Las fuentes mantienen todo el contenido fuera de esos pasajes; los anexos añadidos son bloques al final.
+
+El cotejo encontró dos archivos históricos del paquete S5 que ya faltaban de main antes de esta tanda: README y ZIP. Ambos vuelven a sus rutas originales con los mismos blobs del commit2c7f545. El ZIP conserva123.884bytes y SHA2569ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8; sus25miembros pasan comprobación CRC, sin ejecutar scripts. La restauración se presenta en la hoja adicional EA, con su edición y finalidad histórica. El paquete v0.1.3 de Steven y sus límites posteriores mantienen su propio registro.
+
+El README UC-21 añade al final acceso a todos los archivos de su paquete, los materiales de envío y los archivos de trabajo del registro. El anexo adicional EA enlaza el soporte compartido, los originales R01 y la historia de revisión. Las tres hojas auxiliares EA/RA/MSCA mantienen su organización; no se crea una colección de índices ni niveles nuevos. El envío aec08fb5, los freezes y los resultados siguen con sus identidades.
+
+La comprobación de cierre compara los inventarios4ebb0c8(1.306archivos),af344bd(2.200) y2c7f545(2.113) con el árbolfinal, incluyendo las dos restauraciones. El criterio es conservar todas las rutas, bytes fuera de las ediciones aprobadas y destinos de enlace, además de acceso por el propietario o su anexo. La navegación de main se completa; no se confunde con terminar el ciclo científico de cinco/sexta pasadas.
+
+La edición de la Issue pública #21 se mantiene separada: la revisión automática rechazó la nueva adición al cuerpo por exigir aprobación literal del texto externo y señalar el bloqueo previo403. La lectura de vuelta comprobó cuerpo, título y estado intactos. El navegador también falló al inicializar sus assets; no se intentó otro medio de escritura. El bloque exacto se publica en la VNext de README UC-21 para una decisión concreta. No hay PDF UC-21 en los árboles actuales de estos dos repositorios; no se fabrica ni sustituye uno como parte de esta migración.
+
+
+### Comprobación efectiva de conservación y accesibilidad
+
+El árbol final contiene2.206archivos en Contributions y77en use-cases:2.283en total. Comparando rutas, no falta ninguno de los1.306archivos de4ebb0c8, los2.200deaf344bd o los2.113de2c7f545 después de restaurar el README yZIP históricos. No se borra, mueve o renombra una ruta. El ZIP restaurado es el mismo blob y su SHA256 coincide con el registro original.
+
+En los cinco documentos de navegación intervenidos se conservan los2.006destinos de enlace anteriores, con su multiplicidad; se añaden31. Los textos fuera de los13pasajes aprobados coinciden exactamente; los dos bloques auxiliares son adiciones al final. Ningún enlace anterior se retira para ocultar una versión. El análisis final extrae15.515relaciones y encuentra cero destinos o fragments faltantes en los enlaces activos; las URLs de terceros conservan su atribución y pins.
+
+La prueba de acceso desde los lectores existentes, incluyendo exploración de las carpetas explícitamente enlazadas, cubre los2.283archivos. Se diferencia ese acceso del enlace individual en la narración: código compartido, schemas, imágenes, fixtures, controles y versiones históricas permanecen en sus carpetas de origen, con enlaces auxiliares al final de los índices. No se convierten en otra arquitectura ni se fuerza su lectura como un resultado científico nuevo.

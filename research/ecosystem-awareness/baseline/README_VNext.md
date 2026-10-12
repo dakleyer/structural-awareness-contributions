@@ -410,64 +410,21 @@ Requirements y UC-EA-03 conservan sus freezes y los sucesores de trabajo aprobad
 
 ### Cambio 79 — Llevar la familia S4 vigente a main sin perder su ruta anterior
 
-**Fuente:** `research/ecosystem-awareness/baseline/README.md`, repositorio `dakleyer/structural-awareness-contributions`, commit `582a1b87b18c651beff8dd8a8f2d590cf50aace6`, blob `c3e163e99d37b47d1b21475a874d1bbba5fdf713`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Bajo. **Prioridad:** Primera.
+**Aplicado en main — autorización de Iván, 12 octubre 2026.** Cambio 79 incorporado y fuera de pendientes. El par completo y su ficha anterior se conservan en el predecessor Git de esta aplicación.
 
-**Beneficio concreto:** El enlace del sucesor 00H llega al paquete UC-21 mantenido y conserva los dos resultados de la familia.
 
-**Riesgo concreto:** Desligar preservación del hallazgo y autoridad del efecto; mantener literalmente los tres enunciados y el namespaceQ0–Q5.
 
-**Lectura/validación/mantenimiento:** Un enlace de entrada y conservación de la referencia anterior.
+## Migración conservadora completada en los repositorios — 12 octubre 2026
 
-**Dependencias y orden:** Sin dependencia de incorporación nueva; conservar snapshot y contextos existentes. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
+Iván autoriza completar la migración y preservar toda la información y sus rutas. Se incorporan los seis cambios77–82 mediante sus trece pasajes exactos, con nueve enlaces de orientación actualizados y sus referencias anteriores conservadas. No se mueve ni renombra ningún archivo. Las fuentes mantienen todo el contenido fuera de esos pasajes; los anexos añadidos son bloques al final.
 
-#### Pasaje 1 de 1
+El cotejo encontró dos archivos históricos del paquete S5 que ya faltaban de main antes de esta tanda: README y ZIP. Ambos vuelven a sus rutas originales con los mismos blobs del commit2c7f545. El ZIP conserva123.884bytes y SHA2569ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8; sus25miembros pasan comprobación CRC, sin ejecutar scripts. La restauración se presenta en la hoja adicional EA, con su edición y finalidad histórica. El paquete v0.1.3 de Steven y sus límites posteriores mantienen su propio registro.
 
-**Texto antes — viejo literal completo**
-
-````markdown
-The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
-````
-
-**Texto después — propuesto completo**
-
-````markdown
-The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
-
-The [earlier S4 branch reading](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) remains available with its original preparation context.
-````
-
-**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
+El README UC-21 añade al final acceso a todos los archivos de su paquete, los materiales de envío y los archivos de trabajo del registro. El anexo adicional EA enlaza el soporte compartido, los originales R01 y la historia de revisión. Las tres hojas auxiliares EA/RA/MSCA mantienen su organización; no se crea una colección de índices ni niveles nuevos. El envío aec08fb5, los freezes y los resultados siguen con sus identidades.
 
 
 ### Adición de conservación autorizada — Hoja adicional EA: preservar archivos de apoyo y restaurar S5
 
-Iván autoriza completar la migración conservando contenidos, enlaces y materiales fuera de la ruta central. Fuente `research/ecosystem-awareness/baseline/non-canonical/README.md`, commit `369dffeae0a4525370abd3561b8ec428a3cb4bd2`. Se añade sólo el bloque mostrado al final; el viejo contexto y todos sus bytes se conservan. La hoja adicional no crea otro nivel de navegación canónica.
+**Aplicada con la migración.** Se conserva el contexto íntegro y se añade únicamente el bloque final de acceso opcional. Los pares literales completos están en el predecessor publicado `6cf55449158340f6201a13affc35fcfe6e746e2e`; salen de pendientes tras incorporación.
 
-**Texto antes — contexto final literal completo**
-
-````markdown
-**Alcance de esta lectura:** títulos, propósito/estado, estructura y pasajes pertinentes de los Markdown explicados; comparación de blobs y presentaciones completas/split. Código y binarios se identificaron mediante índices/manifests, sin ejecución ni evaluación de su contenido. Preparado por Codex, mismo asistente de IA, para lectura humana; no certificación de calidad de cada artefacto.
-````
-
-**Texto después — contexto conservado y adición completa**
-
-````markdown
-**Alcance de esta lectura:** títulos, propósito/estado, estructura y pasajes pertinentes de los Markdown explicados; comparación de blobs y presentaciones completas/split. Código y binarios se identificaron mediante índices/manifests, sin ejecución ni evaluación de su contenido. Preparado por Codex, mismo asistente de IA, para lectura humana; no certificación de calidad de cada artefacto.
-
-
-## Other files to consult — preserved work and supporting material · 12 October 2026
-
-The current reader routes remain in their owning corpus indexes. The following links provide optional access to originals, supporting code and historical records, including material that is not an individual step in the main narrative.
-
-| Material | Why it is retained / where to read it |
-|---|---|
-| Shared extension and study files | [Original extension folders](https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions) retain registrations, frozen inputs, code, raw outcomes, diagnostic successors and working records. Follow each study's own report for its question; browsing these files does not create another campaign. |
-| Earlier R01 reductions and feasibility work | [Original R01 tree](https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness/baseline/reductions/00G-R01) retains the complete historical copies, proofs, diagnostics, oracle and received files in their existing places. |
-| Earlier review states | [Preserved public snapshots](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots) and [review evidence](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/review) explain the editions and coverage underlying the VNext discussions. They are historical/supporting records, not additional current architecture sources. |
-| S5 review packet of 11 October | [Original packet README](../../review-packets/2026-10-11-steven-s5/README.md) and [complete reproducible ZIP](../../review-packets/2026-10-11-steven-s5/Steven_UC21_Test_Based_Specification_Audit_FULL_REPRODUCIBLE_2026-10-11.zip) are restored to their original paths, identical to [their original commit](https://github.com/dakleyer/structural-awareness-contributions/tree/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5). They preserve the research-side audit of that pinned S5 model; the later v0.1.3 scope reconciliation remains a separate record. |
-
-The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.
-
-````
-
-Restauración literal: README blob `97ed3f73c478881572bf8a9d5465cc38b0922e87` y ZIP blob `65c202ec81d50bd2681ab4e3ee8ac814a72c4779` desde `2c7f545e2610e154b2e7d11fe827722bbf3c5658`, mismos nombres y rutas. El ZIP conserva123.884bytes, SHA2569ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8,25miembros y CRC correctos. No se ejecuta el paquete. Es recuperar un original histórico, sin reescribirlo.
+Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas enlazadas;2.006destinos anteriores conservados en los cinco documentos intervenidos;13sustituciones inversas exactas, cero cambios fuera de alcance; README/ZIP históricos restaurados idénticos. El detalle permanece en EP VNext.

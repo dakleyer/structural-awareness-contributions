@@ -3840,11 +3840,11 @@
       "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
       "title": "Leer UC-21 desde main en las siete rutas DDS",
-      "state": "Preparado; pendiente GO de esta tanda",
+      "state": "Aplicado",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Medio",
-      "priority": "Primera",
+      "priority": "Histórico",
       "wave": "Tanda6 — conciliación de navegación",
       "benefit": "El lector llega al paquete publicado y su aclaración vigente de snapshot. Las siete rutas anteriores siguen disponibles como historia.",
       "riskReason": "Un fragmento o rol de referencia podría cambiar al sustituir la rama; comprobar sus destinos y preservar los siete enlaces anteriores.",
@@ -3900,15 +3900,16 @@
           "after_matches": 0
         }
       ],
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
-      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "preparation": "Aplicado; fuera de pendientes",
       "positive_impact_proven": false,
       "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
       "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
-      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+      "gate": "Aplicado; no ejecutar otra vez",
+      "applied_source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md"
     },
     {
       "id": 78,
@@ -3918,11 +3919,11 @@
       "source_commit": "e9efbda5e0cc002793a4df82484a6b3f47a79976",
       "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
       "title": "Distinguir el inventario histórico de la lectura actual",
-      "state": "Preparado; pendiente GO de esta tanda",
+      "state": "Aplicado",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Bajo",
-      "priority": "Primera",
+      "priority": "Histórico",
       "wave": "Tanda6 — conciliación de navegación",
       "benefit": "El paquete de54archivos permanece accesible en su corte y main se identifica como entrada vigente.",
       "riskReason": "Confundir la edición actual con el manifest firmado/congelado; mantener SHA256SUMS y el enlace aec08fb5 sin cambios.",
@@ -3936,15 +3937,16 @@
           "after_matches": 0
         }
       ],
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
       "repository_full_name": "dakleyer/use-cases",
-      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "preparation": "Aplicado; fuera de pendientes",
       "positive_impact_proven": false,
       "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
       "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
-      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+      "gate": "Aplicado; no ejecutar otra vez",
+      "applied_source": "contributions/when-controls-work-system-fails/README.md"
     },
     {
       "id": 79,
@@ -3954,11 +3956,11 @@
       "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
       "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
       "title": "Llevar la familia S4 vigente a main sin perder su ruta anterior",
-      "state": "Preparado; pendiente GO de esta tanda",
+      "state": "Aplicado",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Bajo",
-      "priority": "Primera",
+      "priority": "Histórico",
       "wave": "Tanda6 — conciliación de navegación",
       "benefit": "El enlace del sucesor00H llega al paquete UC-21 mantenido y conserva los dos resultados de la familia.",
       "riskReason": "Desligar preservación del hallazgo y autoridad del efecto; mantener literalmente los tres enunciados y el namespaceQ0–Q5.",
@@ -3972,15 +3974,16 @@
           "after_matches": 0
         }
       ],
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
-      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "preparation": "Aplicado; fuera de pendientes",
       "positive_impact_proven": false,
       "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
       "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
-      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+      "gate": "Aplicado; no ejecutar otra vez",
+      "applied_source": "research/ecosystem-awareness/baseline/README.md"
     },
     {
       "id": 80,
@@ -3990,11 +3993,11 @@
       "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
       "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
       "title": "Conectar la reutilización de los trece estudios con el caso vigente",
-      "state": "Preparado; pendiente GO de esta tanda",
+      "state": "Aplicado",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Bajo",
-      "priority": "Primera",
+      "priority": "Histórico",
       "wave": "Tanda6 — conciliación de navegación",
       "benefit": "La admisiónX1–X7 se consulta en main sin cambiar ninguna pregunta, caso, resultado o contrato de transferencia.",
       "riskReason": "Heredar un resultado desde otro caso por actualizar el enlace; conservar todos los límites de transferencia.",
@@ -4008,15 +4011,16 @@
           "after_matches": 0
         }
       ],
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
-      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "preparation": "Aplicado; fuera de pendientes",
       "positive_impact_proven": false,
       "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
       "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
-      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+      "gate": "Aplicado; no ejecutar otra vez",
+      "applied_source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md"
     },
     {
       "id": 81,
@@ -4026,11 +4030,11 @@
       "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
       "title": "Dar acceso al checker corregido manteniendo la edición congelada",
-      "state": "Preparado; pendiente GO de esta tanda",
+      "state": "Aplicado",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Medio",
-      "priority": "Primera",
+      "priority": "Histórico",
       "wave": "Tanda6 — conciliación de navegación",
       "benefit": "Un lector encuentra v0.4 desde el índice del método y distingue código candidato, freeze y edición consumida.",
       "riskReason": "Promover30controles locales a admisión independiente o cambiar el checker de un estudio ya registrado; el texto mantiene esas identidades.",
@@ -4046,15 +4050,16 @@
           "after_matches": 0
         }
       ],
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
-      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "preparation": "Aplicado; fuera de pendientes",
       "positive_impact_proven": false,
       "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
       "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
-      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+      "gate": "Aplicado; no ejecutar otra vez",
+      "applied_source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md"
     },
     {
       "id": 82,
@@ -4064,11 +4069,11 @@
       "source_commit": "e9efbda5e0cc002793a4df82484a6b3f47a79976",
       "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
       "title": "Enlazar el nuevo ciclo bidireccional propuesto UC4–UC21",
-      "state": "Preparado; pendiente GO de esta tanda",
+      "state": "Aplicado",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Bajo",
-      "priority": "Primera",
+      "priority": "Histórico",
       "wave": "Tanda6 — conciliación de navegación",
       "benefit": "La discusión pública reciente queda dentro de la ruta del caso; distingue resultado original, aplicabilidad posterior y retorno a un control candidato.",
       "riskReason": "Presentar la propuesta como un experimento ya registrado o adopción deEA/CDA; conservar la naturaleza propuesta y los límites observacionales.",
@@ -4085,15 +4090,16 @@
           "after_matches": 0
         }
       ],
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
       "repository_full_name": "dakleyer/use-cases",
-      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "preparation": "Aplicado; fuera de pendientes",
       "positive_impact_proven": false,
       "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
       "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
-      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+      "gate": "Aplicado; no ejecutar otra vez",
+      "applied_source": "contributions/when-controls-work-system-fails/README.md"
     }
   ],
   "audit_coverage": [
@@ -4673,7 +4679,7 @@
     "logical_candidates_excluding_known_replicas": 65,
     "scope_count_limit": "Raw72 names, seven declared copies; not certification ofsource-by-source scientific completeness or independent reviewers.",
     "paired_proposals": 67,
-    "pending_paired": 6,
+    "pending_paired": 0,
     "already_published": 7,
     "withdrawn": 1,
     "superseded": 2,
@@ -4688,7 +4694,7 @@
     "added_files_from_previous_cut": 665,
     "textual_wave_interventions": 3,
     "limited_variants": 1,
-    "pending_reason": "Six new navigation candidates prepared after the previous complete application; 13 literal passages across four sources. The nine old research lines remain separate.",
+    "pending_reason": "Los seis candidatos de navegación se incorporan; las nueve líneas de investigación43–51 no tienen cambios literales definidos. La Issue externa espera aprobación literal y acceso.",
     "application_cut": "582a1b87b18c651beff8dd8a8f2d590cf50aace6"
   },
   "dependency_epochs": [
@@ -10552,6 +10558,61 @@
           "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
         }
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Tanda6 aplicada y migración conservadora",
+      "source_commit": "369dffeae0a4525370abd3561b8ec428a3cb4bd2",
+      "proposal_assessments": [
+        {
+          "id": 77,
+          "state": "Aplicado",
+          "priority": "Histórico",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "gate": "Aplicado y verificado; no volver a ejecutar"
+        },
+        {
+          "id": 78,
+          "state": "Aplicado",
+          "priority": "Histórico",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "gate": "Aplicado y verificado; no volver a ejecutar"
+        },
+        {
+          "id": 79,
+          "state": "Aplicado",
+          "priority": "Histórico",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "gate": "Aplicado y verificado; no volver a ejecutar"
+        },
+        {
+          "id": 80,
+          "state": "Aplicado",
+          "priority": "Histórico",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "gate": "Aplicado y verificado; no volver a ejecutar"
+        },
+        {
+          "id": 81,
+          "state": "Aplicado",
+          "priority": "Histórico",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "gate": "Aplicado y verificado; no volver a ejecutar"
+        },
+        {
+          "id": 82,
+          "state": "Aplicado",
+          "priority": "Histórico",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "gate": "Aplicado y verificado; no volver a ejecutar"
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -12054,6 +12115,34 @@
       ],
       "state": "Aplicación del texto y sucesores; no campaña",
       "checker_controls": 30
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Tanda6 aplicada",
+      "source_commits": {
+        "corpus": "369dffeae0a4525370abd3561b8ec428a3cb4bd2",
+        "case": "d7a3b1c1f7e05f0097e1c27885cfc0a3508e8130"
+      },
+      "ids": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "literal_passages": 13,
+      "restored_paths": [
+        {
+          "path": "research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md",
+          "sha": "97ed3f73c478881572bf8a9d5465cc38b0922e87"
+        },
+        {
+          "path": "research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/Steven_UC21_Test_Based_Specification_Audit_FULL_REPRODUCIBLE_2026-10-11.zip",
+          "sha": "65c202ec81d50bd2681ab4e3ee8ac814a72c4779"
+        }
+      ],
+      "no_moves_or_deletions": true
     }
   ],
   "current_wave_status": {
@@ -12071,7 +12160,7 @@
     "prior_registry_changes": 26,
     "tranche5_additions": 4,
     "case_reading_clarification": 1,
-    "remaining_executable_literal_pairs_waiting_for_permission": 6,
+    "remaining_executable_literal_pairs_waiting_for_permission": 0,
     "remaining_research_lines": [
       43,
       44,
@@ -12107,7 +12196,12 @@
         81,
         82
       ],
-      "state": "Prepared; GO required for this new wave"
+      "state": "Applied"
+    },
+    "external_entry": {
+      "state": "Auto-review rejected; exact text in UC21 README VNext",
+      "issue": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "no_public_issue_mutation": true
     }
   }
 }

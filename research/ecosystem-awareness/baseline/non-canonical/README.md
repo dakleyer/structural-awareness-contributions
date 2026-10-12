@@ -1682,3 +1682,17 @@ Word, PDF enviado y nota de estado sobre lo que queda fuera del sampling frame. 
 Añadir un enlace y una explicación cuando llegue trabajo adicional; mantener ubicación, autoría, fecha y relación con el lector vigente. No elevarlo a canon por colocarlo aquí. Las decisiones de arquitectura y redistribución siguen en las VNext de README propietarios, mientras estos catálogos organizan la lectura adicional autorizada.
 
 **Alcance de esta lectura:** títulos, propósito/estado, estructura y pasajes pertinentes de los Markdown explicados; comparación de blobs y presentaciones completas/split. Código y binarios se identificaron mediante índices/manifests, sin ejecución ni evaluación de su contenido. Preparado por Codex, mismo asistente de IA, para lectura humana; no certificación de calidad de cada artefacto.
+
+
+## Other files to consult — preserved work and supporting material · 12 October 2026
+
+The current reader routes remain in their owning corpus indexes. The following links provide optional access to originals, supporting code and historical records, including material that is not an individual step in the main narrative.
+
+| Material | Why it is retained / where to read it |
+|---|---|
+| Shared extension and study files | [Original extension folders](https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions) retain registrations, frozen inputs, code, raw outcomes, diagnostic successors and working records. Follow each study's own report for its question; browsing these files does not create another campaign. |
+| Earlier R01 reductions and feasibility work | [Original R01 tree](https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness/baseline/reductions/00G-R01) retains the complete historical copies, proofs, diagnostics, oracle and received files in their existing places. |
+| Earlier review states | [Preserved public snapshots](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots) and [review evidence](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/review) explain the editions and coverage underlying the VNext discussions. They are historical/supporting records, not additional current architecture sources. |
+| S5 review packet of 11 October | [Original packet README](../../review-packets/2026-10-11-steven-s5/README.md) and [complete reproducible ZIP](../../review-packets/2026-10-11-steven-s5/Steven_UC21_Test_Based_Specification_Audit_FULL_REPRODUCIBLE_2026-10-11.zip) are restored to their original paths, identical to [their original commit](https://github.com/dakleyer/structural-awareness-contributions/tree/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5). They preserve the research-side audit of that pinned S5 model; the later v0.1.3 scope reconciliation remains a separate record. |
+
+The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.
