@@ -322,3 +322,9 @@ Repository sitemap, migration rules, controlled README count and editor/bot proc
 
 **Ivan Abril**  
 Research architecture and programme coordination.
+
+---
+
+## Annex — essentials of the article reviews
+
+[**Article Review Essentials**](./research/structural-awareness/ARTICLE_REVIEW_ESSENTIALS_v0.1.md) gives a brief account of the mathematical and other article reviews, with a direct link to each full review. It separates localized findings from further development and points to possible DDS contributions and international research intersections. Full reviews retain their existing access permissions; inclusion here does not promote their evidence or alter the programme's canonical definitions.
