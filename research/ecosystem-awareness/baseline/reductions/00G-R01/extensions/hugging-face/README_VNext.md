@@ -41,6 +41,14 @@ The same ChatGPT model performed a human-oriented reading simulation. This does 
 
 **Human reading pass:** this is a second assessment by the *same AI bot*, not independent human comprehension. The difference between a diagnostic A-output and the underlying unknown B/C aspect, and between detecting a fault and preventing execution, must remain explicit in future diagrams.
 
+## Second R3 stress review — separate algorithms and explicit self-qualification message (12 October 2026)
+
+**Reviewer:** OpenAI ChatGPT GPT-6, same AI as previous, not independent human/external science. **Question initiated by:** Iván Abril Palma. **Corrected evidence:** [v0.6 experiment and 300 case-arm traces](./review-2026-10-11/traversals/first-channel-counterfactual-v0.6/README.md) and [source](./review-2026-10-11/traversals/first-channel-counterfactual-v0.6/run.py). Previous v0.5 native-integrity and EA-meta detectors reused a primitive for recognizing a trusted diagnostic; that produced artificial parity. v0.6 tests separately coded native epoch/error monitoring, a strong native assurance contract for missing required evidence, EA own-epistemic-basis assessment, and an unavailable EA monitor. It records a bounded local meta-envelope: self-assessment QUALIFICATION_NOT_ESTABLISHED, without forced underlying B/C assignment or claim of authority.
+
+**Results in 30 selected toy cases:** EA meta-local 8 known-denied effects, narrow native integrity 12, stronger conventional evidence-assurance 7; native fail-safe 1 while holding two genuinely permitted operations. Original source, frozen Stage A v0.3 and prior experiments unchanged.
+
+**Limits:** no actual agent runtime, no historic HF agent prompts experimentally replayed, no human intervention, no calibrated T4 latency/cost. EHD permissions are input assumptions, not an executed live handshake. Silent self-observer failure, erroneous policy and deliberate noncompliance remain counterexamples. **Reqs consideration:** prospective wording belongs in [existing Requirements-vNext](../../../../00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), not mandatory S15/T5. Stage A meta-test cases need separate freeze and adjudication before a Stage B verification claim.
+
 ## Concrete outcomes and still-open actions
 - Positive EA scripted repairs and negative/no-differential results are explicitly linked side by side.
 - Three 8 October audit inputs retain their original content; a separate registry identifies their source as user-supplied without authenticated auditor/bot name.
