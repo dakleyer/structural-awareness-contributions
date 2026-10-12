@@ -94,23 +94,9 @@ El runner leído estáticamente y su README coinciden en346+33=379. 00K-A04 aún
 
 Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
 
-### Plan pendiente — Conciliar el contrato actual379 con el bloque128 conservado
+### Plan aplicado — Conciliar el contrato actual379 con el bloque128 conservado
 
-Fuente `research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md`, commit `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, blob `55259d1863e062e02f40d0bf50e91b50788c7e4a`. Ubicación: al final, después del contexto completo. El mismo informe dice379 al principio y128 en§6. Runner/router y tabla de core/supplemental corroboran346+33; la adición aclara el valor vigente conservando todos los números y resultados previos.
-
-ImpactoAlto / riesgoBajo / esfuerzoMedio; prioridadPrimera; orden1; estado pendiente del GOtanda5. Beneficio: lectura de unidades/linajes yconclusiones correctas. Riesgo: enlaces/síntesis oconfusión deversión, controlado por fuente/pin/contexto yconservación. Dependencias: cuatroadiciones compatibles, enlace DDS a00K/HF/extensiones se valida enconjunto. Instrucción deIván: todaslastandas aprobadas enmain; avanzar por lotes, conservar información yPDFalfinal. El GOtanda4 no incorpora esta5.
-
-**Texto antes — contexto viejo literal y completo**
-
-````markdown
-The next evidence level is external/independent reproduction of the symbolic fixtures and then matched-resource execution against concrete implementation profiles.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-The next evidence level is external/independent reproduction of the symbolic fixtures and then matched-resource execution against concrete implementation profiles.
-
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
 
 ## Current regression count — 12 October 2026
 
@@ -147,21 +133,9 @@ Se comprobaron contra sus pins los seis archivos de00K-HISTORICAL A1–A3: todos
 No reemplazar128 por379 sin contexto. La candidata deconteo de tanda5 queda refinada como adición histórica conpins/CI yreferencias defixtures. Conserva la propuesta anterior como historia; esta variante es la referencia activa para la futura decisión. ImpactoAlto/riesgoBajo/esfuerzoMedio, pendingGOdeIván. Elantes sigue siendo literal delmismo blob; el índiceDDS ylos otros tres candidatos continúan compatibles con elanchor previsto. Ningúncambio canónico se incorpora por esta auditoría.
 
 
-### Variante vigente del plan de conteo — historia comprobada, sin aplicación
+### Variante vigente del plan de conteo — historia comprobada, aplicada
 
-Fuente `research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md`, commit `eee0a74fead39789a8dd3a70c97a2b9479f71f1b`, blob55259d1863e062e02f40d0bf50e91b50788c7e4a. Ubicación: finaldelinforme. La adición conserva toda la fuente, etiqueta128por su ejecución histórica y379por el conjunto posterior; no borra elbloque anterior. PrioridadPrimera; Altoimpacto/Bajoriesgo/Medioesfuerzo; decisiónIvánpendiente después de esta lectura histórica.
-
-**Texto antes — contexto viejo completo**
-
-````markdown
-The next evidence level is external/independent reproduction of the symbolic fixtures and then matched-resource execution against concrete implementation profiles.
-````
-
-**Texto después — contexto conservado y adición completa**
-
-````markdown
-The next evidence level is external/independent reproduction of the symbolic fixtures and then matched-resource execution against concrete implementation profiles.
-
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
 
 ## Current regression count — 12 October 2026
 
@@ -171,3 +145,8 @@ The [current runner](./fixtures/00K-SUITE/run_all.py), [execution lock](./fixtur
 
 The fixtures also changed in substance: corrected isolation and stronger repairs/refinement accompany the larger count. The [historical A1–A3 archive](./fixtures/00K-HISTORICAL/README.md) retains its32 assertions separately. Additional CI meta-checks and repeated P5 runs are not added to379. Regression reproduction does not establish independent scientific replication or product efficacy.
 ````
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+
+Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.

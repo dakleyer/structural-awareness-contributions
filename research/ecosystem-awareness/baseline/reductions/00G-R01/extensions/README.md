@@ -171,3 +171,16 @@ Each existing study answers the bounded question stated in its current record. T
 For UC-21 reuse, select the case objective and Challenge, then document the correspondence using its [family-admission tests](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS mapping contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping). These records are Simplified Stage A studies with their own local closure. A new UC-21 comparison preserves the selected family's failure predicate, positive control, timing and response obligations and cites the evidence it actually uses.
 
 Start with the [DDS exercise-selection route](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#13-select-an-exercise-and-keep-its-comparison-dimensions-explicit). Existing source copies, shared runners and several runs can support one study; their file count does not define its campaign identity.
+
+
+## Follow the evidence from original study to successor
+
+Start with the selected study's report and CURRENT_STUDY_RECORD. Its later records answer additional questions while retaining the original registration and results.
+
+| Evidence layer | Existing report and records | Reading purpose |
+|---|---|---|
+| Original bounded studies | [Thirteen-study completeness review](./COMPLETENESS_REVIEW_2026-10-07.md) and [current catalogue](./CURRENT_STUDY_CATALOGUE.json) | Select the question, configuration, original run and retained positive/adverse/incomplete outcomes. |
+| Cost and Type1/Type2 successor | [Cost/type report](./cost-type-diagnostics-v0.1/README.md), [registration](./cost-type-diagnostics-v0.1/RUN_CARD.json), [freeze](./cost-type-diagnostics-v0.1/FREEZE.json) | The nine-profile successor adds its selected ledgers, prior M-admission and finite-G witnesses. Read its units and exclusions with each profile. |
+| Technical repair successor | [Technical audit](./TECHNICAL_AUDIT_2026-10-07.md), [registration](./extension-audit-v0.1/RUN_CARD.json), [freeze](./extension-audit-v0.1/FREEZE.json), [recorded result](./extension-audit-v0.1/runs/2026-10-07-03/RESULTS.json) | Repaired input/effect grading preserves the162 named original operations/cases;26 original deliberate controls and40 repair/positive vectors remain distinct cohorts. |
+
+A repeated original or replay is a linked execution of that evidence, not another independent observation. Passing the registered expectation may mean a correctly retained failure or incomplete outcome. Keep the study's case count, eligible diagnostic denominator and selected cost unit with its conclusion.

@@ -203,23 +203,9 @@ Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-co
 | structured-output | 10 | 0/3 | 1/10 | [informe](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/DDS_STUDY.md) · [evidencia sucesora](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/runs/2026-10-07-03/structured-output/RESULTS.json) |
 | observability-response | 10 | 1/4 | 1/10 | [informe](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/DDS_STUDY.md) · [evidencia sucesora](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/runs/2026-10-07-03/observability-response/RESULTS.json) |
 
-### Plan pendiente — Linaje original→coste/tipos→reparación
+### Plan aplicado — Linaje original→coste/tipos→reparación
 
-Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md`, commit `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, blob `98acd69a6779a7b946b3d0c2d0c65399ac1eeda4`. Ubicación: al final, después del contexto completo. Los tres estratos existen pero un lector puede contar sus replays o controles como muestras nuevas. La tabla conecta registros e informes con sus preguntas y cohortes exactas.
-
-ImpactoAlto / riesgoBajo / esfuerzoMedio; prioridadPrimera; orden2; estado pendiente del GOtanda5. Beneficio: lectura de unidades/linajes yconclusiones correctas. Riesgo: enlaces/síntesis oconfusión deversión, controlado por fuente/pin/contexto yconservación. Dependencias: cuatroadiciones compatibles, enlace DDS a00K/HF/extensiones se valida enconjunto. Instrucción deIván: todaslastandas aprobadas enmain; avanzar por lotes, conservar información yPDFalfinal. El GOtanda4 no incorpora esta5.
-
-**Texto antes — contexto viejo literal y completo**
-
-````markdown
-Start with the [DDS exercise-selection route](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#13-select-an-exercise-and-keep-its-comparison-dimensions-explicit). Existing source copies, shared runners and several runs can support one study; their file count does not define its campaign identity.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-Start with the [DDS exercise-selection route](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#13-select-an-exercise-and-keep-its-comparison-dimensions-explicit). Existing source copies, shared runners and several runs can support one study; their file count does not define its campaign identity.
-
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
 
 ## Follow the evidence from original study to successor
 
@@ -233,3 +219,8 @@ Start with the selected study's report and CURRENT_STUDY_RECORD. Its later recor
 
 A repeated original or replay is a linked execution of that evidence, not another independent observation. Passing the registered expectation may mean a correctly retained failure or incomplete outcome. Keep the study's case count, eligible diagnostic denominator and selected cost unit with its conclusion.
 ````
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+
+Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.

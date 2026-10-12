@@ -1645,3 +1645,8 @@ No reemplazar128 por379 sin contexto. La candidata deconteo de tanda5 queda refi
 
 
 La variante literal y el seguimiento de las ejecuciones están en la [única VNext propietaria](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md). Las cuatro propuestas de tanda5 siguen pendientes; esta comprobación no cambia sus fuentes.
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+
+Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.

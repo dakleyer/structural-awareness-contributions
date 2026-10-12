@@ -624,23 +624,9 @@ Cuatro candidatos de impactoAlto/riesgoBajo/esfuerzoMedio: primero00Kconteo, lue
 
 Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
 
-### Plan pendiente — Mapa de informes por unidad de investigación
+### Plan aplicado — Mapa de informes por unidad de investigación
 
-Fuente `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, blob `3d675e351107ced4aac6061c6746a95c0f34fe5a`. Ubicación: al final, después del contexto completo. El lector encuentra los informes existentes desde el método y conserva estudios, tests, redes y calibraciones como unidades distintas. Incluye la nueva entrada UC-21 en main.
-
-ImpactoAlto / riesgoBajo / esfuerzoMedio; prioridadPrimera; orden3; estado pendiente del GOtanda5. Beneficio: lectura de unidades/linajes yconclusiones correctas. Riesgo: enlaces/síntesis oconfusión deversión, controlado por fuente/pin/contexto yconservación. Dependencias: cuatroadiciones compatibles, enlace DDS a00K/HF/extensiones se valida enconjunto. Instrucción deIván: todaslastandas aprobadas enmain; avanzar por lotes, conservar información yPDFalfinal. El GOtanda4 no incorpora esta5.
-
-**Texto antes — contexto viejo literal y completo**
-
-````markdown
-For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.
-
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
 
 ## 15. Recorded work and its owning reports
 
@@ -688,3 +674,8 @@ No reemplazar128 por379 sin contexto. La candidata deconteo de tanda5 queda refi
 
 
 La variante literal y el seguimiento de las ejecuciones están en la [única VNext propietaria](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md). Las cuatro propuestas de tanda5 siguen pendientes; esta comprobación no cambia sus fuentes.
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+
+Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.

@@ -732,3 +732,18 @@ Original base wording retained for traceability: not proved permission semantics
 Original base wording retained for traceability: The latter behavior is outside the scenario; it is not introduced to approximate Hugging Face.
 
 Original base wording retained for traceability: Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit.
+
+
+## Recorded comparisons and their results
+
+Select the report for the receiver configuration actually tested:
+
+| Study | Recorded finding | Complete report |
+|---|---|---|
+| Strong programmed native reference and native+EA | Native completes8/8 tasks; native+EA7/8. The added EA processing loses the short-deadline continuity branch. | [Paired results](../../../../traversals/00G-HF-SCRIPTED-PAIRED-v0.1/RESULTS.md) |
+| Cached source lineage | EA repairs the selected stale-lineage failures; conventional current-source revalidation also repairs them. Across the ten authored cases, EA completes8/10 and conventional revalidation9/10. | [Cached-lineage results](../../../../traversals/00G-HF-CACHED-LINEAGE-v0.1/RESULTS.md) |
+| PyCasbin1.43.0 with selected polling interval | Timely EA and conventional reload prevent the selected stale-policy effect. Conventional reload completes at logical tick15 versus17 for EA. | [Casbin-polling results](../../../../traversals/00G-HF-CASBIN-POLLING-v0.1/RESULTS.md) |
+
+Each report links its registration, inputs, raw outcomes, verification and retained limits. These are different programmed studies; their task counts and logical ticks stay attached to their own contracts.
+
+For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.

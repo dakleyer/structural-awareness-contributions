@@ -152,23 +152,9 @@ Cuatro candidatos de impactoAlto/riesgoBajo/esfuerzoMedio: primero00Kconteo, lue
 
 Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
 
-### Plan pendiente — Selección directa de comparaciones HF y resultados adversos
+### Plan aplicado — Selección directa de comparaciones HF y resultados adversos
 
-Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md`, commit `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, blob `52781750bef95aab29d28331feacbfd7f98d215e`. Ubicación: al final, después del contexto completo. Hace visibles los informes completos y controles convencionales favorables junto a las reparaciones EA, sin copiar el anexo bot ni promover preregistros a ejecuciones.
-
-ImpactoAlto / riesgoBajo / esfuerzoMedio; prioridadPrimera; orden4; estado pendiente del GOtanda5. Beneficio: lectura de unidades/linajes yconclusiones correctas. Riesgo: enlaces/síntesis oconfusión deversión, controlado por fuente/pin/contexto yconservación. Dependencias: cuatroadiciones compatibles, enlace DDS a00K/HF/extensiones se valida enconjunto. Instrucción deIván: todaslastandas aprobadas enmain; avanzar por lotes, conservar información yPDFalfinal. El GOtanda4 no incorpora esta5.
-
-**Texto antes — contexto viejo literal y completo**
-
-````markdown
-Original base wording retained for traceability: Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-Original base wording retained for traceability: Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit.
-
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
 
 ## Recorded comparisons and their results
 
@@ -184,3 +170,8 @@ Each report links its registration, inputs, raw outcomes, verification and retai
 
 For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
 ````
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+
+Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
