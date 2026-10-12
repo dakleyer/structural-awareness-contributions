@@ -280,7 +280,7 @@ must remain distinct from an authorized operational intervention.
 
 Likely **editorial/interface clarification**, not a new function or interface family.
 
-DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
+DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semantic TOCTOU v0.5 Freeze Edition](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies the internal EA scenario; its requirements coverage and action-time binding candidates are recorded in the [Requirements vNext review](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 ---
 

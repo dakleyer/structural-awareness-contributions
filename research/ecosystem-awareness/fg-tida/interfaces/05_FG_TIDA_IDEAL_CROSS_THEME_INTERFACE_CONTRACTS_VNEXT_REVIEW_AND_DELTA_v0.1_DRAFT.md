@@ -388,15 +388,17 @@ An ideal FG-TIDA programme should consume the strongest existing cases before in
 | **UC #9 — national payment rail / principal authority** | Grant provenance, act-time standing, limits, composition, revocation, identity-anchor integrity. |
 | **UC #10 — self-expanding multi-agent molecular design** | Capability without conferral, agent recruitment, identity continuity versus authority continuity, missing grant. |
 
-### Future 00I / UC #6 route-separation reservation
+<a id="future-00i--uc-6-route-separation-reservation"></a>
 
-If a dedicated **00I Semantic TOCTOU** scenario is later committed and reviewed, it must remain **parallel to**, not a stage of, the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.
+### 00I and UC #6 — parallel provenance routes
 
-- **UC #6** remains the public FG-TIDA semantic case for changed-purpose/current-authority applicability.
-- **00I**, if created, would remain an EA/DBC reference failure scenario testing the broader stale-semantic-applicability pattern.
-- **UC #4** remains the downstream executable/testbed mapping layer only after the originating semantic owners review the mapping.
+The committed [00I Semantic TOCTOU v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies an EA/DBC scenario for stale semantic applicability. It is a parallel source to the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.
 
-The routes may inform one another and may share fixtures or boundary questions, but neither replaces the other's ownership or provenance. This reservation mirrors the existing separation discipline used for 00H versus FG-TIDA case/test routes and prevents a later internal scenario from being mistaken for the source case.
+- **UC #6** supplies public FG-TIDA semantic facts about changed-purpose/current-authority applicability.
+- **00I** supplies the internal EA/DBC reference scenario with its own frozen scenario provenance.
+- **UC #4** supplies executable/testbed mapping after semantic-owner review.
+
+The routes can inform each other and share fixtures or boundary questions. Each retains its source ownership and provenance.
 
 
 ### FG-TIDA Theme #17 / production rights case
@@ -457,6 +459,8 @@ A mature FG-TIDA test programme could combine several existing fixture families 
 - **00F — Smart-City Mobility / systemic divergence**
 - **00G — Collective False-Context Convergence**
 - **00H — Batch Opportunity Beyond Authority**
+- **[00I — Semantic TOCTOU / The Patch That Undid the Fix](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)**
+- **[00J — Rights-Provenance Inversion / The Author Pays for Their Own Work](../../baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md)**
 
 These are not Theme-owned standards cases. They are stress scenarios that can be projected onto Theme interfaces.
 
@@ -467,7 +471,7 @@ DBC v0.2 currently defines twelve boundary families. The table distinguishes the
 | DBC family | Dedicated narrative scenario in repo | Related current stress material / note |
 |---|---|---|
 | **C01 nominal continuity** | None | Positive/control branches exist across validation work; no dedicated narrative scenario. |
-| **C02 semantic TOCTOU** | **None committed** | UC #6 exercises changed applicability; a future 00I has been discussed as a possible dedicated scenario but is not a repository source and is not assumed here. |
+| **C02 semantic TOCTOU** | **[00I v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md), internal EA scenario** | UC #6 supplies FG-TIDA changed-applicability semantics; 00I supplies a parallel internal stress scenario. Use as FG-TIDA execution evidence requires a reviewed fixture mapping. |
 | **C03 handoff laundering** | None | Related qualifier-preservation pressure exists in EHD/EA-ITP and 00E/00F; no dedicated narrative scenario. |
 | **C04 hidden common dependency** | None | 00G supplies related correlated-repetition/source-dependence stress, but is not a dedicated C04 scenario. |
 | **C05 attractive inadmissible opportunity** | **00H** | Direct narrative/quality-gate anchor. |
@@ -749,7 +753,7 @@ A future ideal-interface version should at minimum:
 5. include the broader FG-TIDA capability map, especially discovery, verifier semantics, model-level trust, principal/legal binding, embodied binding and privilege lifecycle work omitted from frozen 05;
 6. use existing public Use Cases #4/#5/#6/#7/#9/#10 and Theme #17 before inventing duplicate scenarios;
 7. use UC-EA-01…04 as EA validation lenses, not new FG-TIDA use cases;
-8. integrate 00E–00H, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;
+8. integrate 00E–00J, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;
 9. allow cumulative/action-history relations as conditional Composition-Critical profile elements where authority is aggregate;
 10. preserve source-native semantics and semantic-owner review throughout;
 11. assume enough independent contributors/implementations for genuine interoperability and adversarial testing, while recording role concentration where independence is not achieved; and
