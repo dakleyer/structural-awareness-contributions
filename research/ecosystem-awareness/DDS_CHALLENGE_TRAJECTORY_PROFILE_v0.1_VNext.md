@@ -527,3 +527,61 @@ El [plan común](https://github.com/dakleyer/structural-awareness-contributions/
 Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
 
 Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/structural-awareness-contributions/blob/b8729701ff0303363d48fe63a629587d4b12a6e2/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.
+
+
+## Tanda 3 — objetivos, Challenges y escenarios de evaluación · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza las tres adiciones concretas de la tanda2 y pide preparar y continuar la siguiente. Esas adiciones ya están publicadas en Contributions `2ff085688de77938aeaa5a3c0e7edbb607247d58` y la rama UC-21 `285ca77fc4cc5d69f3ea78aeda820777c647d0da`, con todos los bytes anteriores de las fuentes conservados. El PDF y la entrada pública se reservan para el final. Esta tanda publica revisión y cuatro propuestas; su incorporación requiere el GO de esta tanda.
+
+Se cotejaron los cinco objetivos reunidos en README/USE_CASE, las 37 condiciones de los planes del caso, los núcleos/admisión X1–X7 de Annex X, selección de HC/HR/HS/H1–H6, las condiciones de recurrencia y los nueve perfiles T01–T09. Las lecturas de escenarios y perfiles se centraron en problema, plan, variantes, comparadores y fuentes/versiones relevantes al itinerario; no se declara una nueva auditoría completa de cada apéndice histórico. Se contrastaron los trece registros actuales por su propia pregunta/configuración/closure, y el README externo S5 al pin a9eca743df5a5c1fbef5dc6f792ea08f8add29e0, blob4b0d2a673c8ee945bd6c52248390a3c595b9285a. No se ejecutaron productos, simuladores o experimentos.
+
+**Qué se sostiene.** La línea común es la decisión receptora con evidencia, autoridad, tiempo, capacidad y efecto. Las seis familias mantienen mecanismos diferentes: síntesis, composición de recurso compartido, misión/fuentes, hallazgo versus autoridad, validez al actuar y proposición de derechos. Sus 37 gates, nueve perfiles y27posiciones documentales no son37/9/27resultados ejecutados. La nueva lectura «Challenge» organiza las familias y «escenario de evaluación» relaciona tecnología/configuración con condiciones; se conservan S1–S6, escenarios base y los nombres existentes.
+
+**Qué hay que conciliar.** El índice baseline abre00H v0.2, mientras v0.5 y el S4 del paquete desarrollan el núcleo de sobrealcance/pérdida y V19/V20. No es pérdida física de información: ambas versiones existen. Es una ruta inicial incompleta para esa lectura. Se propone un enlace explícito al sucesor y conservación del antecedente, sin reasignar resultados delfreeze. S3 declara su copia obsoleta y remite a00G mantenido; S6 ya es adapter a00J. No se restaura una segunda fuente ni se elimina la historia.
+
+**Comparaciones que no se pueden fusionar.** R0/R1/R2 del caso distingue configuración ordinaria, corrección reforzada y recurrencia con esa misma corrección retenida. El S5 externo declara I0 ordinario, I1 parcialmente defendido que aún falla, e I2 que corrige ramas conocidas del modelo suministrado. Su I2 no es AWS-I2/R2, ni su I1 prueba una corrección previa apta para HR. Los A–D causales, A/B/C/D epistemológicos y Stages DDS son dimensiones separadas. La frontera «blind» del simulador es acceso del candidato a inputs; no acredita un auditor humano independiente.
+
+**Reutilización con sentido.** Los trece registros responden preguntas locales distintas y se declaran Stage A/Simplified completos dentro de esa pregunta. Hay mecanismos útiles para evidencia, identidad, uso temporal, receipts, continuidad y respuesta, pero esos registros no declaran por sí mismos pertenencia a una familia UC-21 ni ejecución de HC/HR/HS para ella. El paso de reutilización especifica mapa de relaciones, failure predicate, control positivo y recursos usando X1–X7 y DDS§4. No se exige volver a ejecutar una batería universal ni se suman denominadores heterogéneos.
+
+**Criterio estratégico.** Cuatro adiciones de lectura, Alto impacto esperado/Bajo riesgo/Medio esfuerzo. El beneficio es elegir la pregunta, versión y evidencia correcta antes de crear un ejercicio. Riesgo: el lector puede confundir una ruta vigente con una edición ejecutada o heredar conclusiones por parecido; las propuestas identifican la versión, pregunta y contrato. El esfuerzo incluye cotejo de fuentes, enlaces y mantenimiento, además de redacción. No cambian requisitos, gates, umbrales, hipótesis, fuentes congeladas o resultados. Prioridad Primera; ejecutar como una tanda coherente sólo tras GO: baseline00H → guía del caso → DDS selección → preguntas de extensiones.
+
+### Juicio del contrato DDS
+
+DDS§3 define Challenge independiente de tecnología y escenario/fixture/reducción delimitado. §4 exige declarar correspondencia, cambios de parámetros y mecanismos adicionales; llamar isomorfismo al parecido no está admitido. §6 distingue perfil, traversal, trace y campaña. §10A ya separa los I0/I1/I2 externos y AWS; la propuesta de índice hace esa distinción legible, sin duplicar la norma. La selección del caso y claim precede la asignación de Stage por objeto/referencia. No se propone modificar el contrato Stage A ni su namespace.
+
+
+Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/README_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/README_VNext.md). Las entradas se atribuyen al mismo asistente; no se inventa consenso ni una revisión independiente.
+
+### Plan de cambios pendiente — Seleccionar el ejercicio sin mezclar dimensiones ni nombres de brazos
+
+Fuente: `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `2ff085688de77938aeaa5a3c0e7edbb607247d58`, blob `e7133fc6c866e5869fcf76a34a7f58ac2eee1dc6`. Ubicación: al final, tras el contexto completo de abajo. Conecta caso→método y mantiene separadas preguntas, familias, comparadores y stages. Evita interpretar I2 externo como recurrencia R2 o campaña de reembolsos como unidad de investigación.
+
+Impacto **Alto** / riesgo **Bajo** / esfuerzo **Medio**; prioridad **Primera**, orden3; estado **pendiente del GO de la tanda3**. Beneficio: navegación y elección de versión/contrato correctos. Riesgo acotado a enlaces/síntesis de lectura; se preservan todas las condiciones y evidencia anterior. Validación: viejo literal único, destinos y anchors de esta tanda conjunta, byte-prefix y árbol sin nuevos/eliminados. Dependencias: los cuatro añadidos se concilian juntos; vínculos cruzados DDS↔caso/extensiones. Instrucción de Iván: preparar y continuar la siguiente tanda; conservar toda información y PDF al final. La autorización para aplicar tanda2 no adopta esta tanda3.
+
+**Texto antes — viejo literal y completo del contexto**
+
+````markdown
+The submitted UC-21 snapshot, the maintained case branch, a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and the maintained index for current reading. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and any unresolved version decisions.
+````
+
+**Texto después — contexto conservado y bloque a añadir completo**
+
+````markdown
+The submitted UC-21 snapshot, the maintained case branch, a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and the maintained index for current reading. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and any unresolved version decisions.
+
+
+## 13. Select an exercise and keep its comparison dimensions explicit
+
+A case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), then select the bounded scenario, technology/configuration and evidence contract.
+
+| Selection | Owning source | What the record preserves |
+|---|---|---|
+| Objective and scientific claim | [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast. |
+| Challenge and admitted variant | [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |
+| Implementation comparison | [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |
+| Method stage and recorded execution | [DDS stage definitions](#1-one-method-three-stages) and the study's owning record | Stage A/B/C, frozen version, run, actual effect, timing and burden. |
+
+Keep labels qualified in cross-study comparisons. UC-21 R0/R1/R2, AWS-I0/I1/I2, the external S5 simulator's I0/I1/I2, causal conditions A–D, and DDS Stages A/B/C describe different dimensions. The [existing namespace rule](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#10a-namespace-safety-for-cross-corpus-review) preserves those meanings. In particular, the external S5 `I2-complete` selects a supplied-model correction; AWS-I2/R2 tests the retained corrected implementation under admitted drift.
+
+For S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.
+````
