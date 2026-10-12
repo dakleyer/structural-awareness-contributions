@@ -277,7 +277,7 @@ https://github.com/FG-TIDA/themes/issues/21#issuecomment-5936600434
 - **Per-evaluator default; pooling assumption state established/declared/unknown; unknown ≠ independence:** **Current source state**.
 - **EA may return insufficiency + named qualification/coverage gap:** **Current source boundary** from the #21 side; the exact cross-Theme adapter remains **Candidate** until jointly reviewed/adopted.
 - **Receiver decision purpose / desired hypothesis / receiver-set budget sent upstream as measurement direction:** **Not established / explicitly rejected by the Theme proposer** for this interface.
-- **Released matched-rate/item-disagreement analysis:** **Current public empirical evidence about Theme #21 measurement behaviour**, with the stated no-ground-truth limitation.
+- **Released matched-rate/item-disagreement analysis:** **Contributor-reported public analysis of Theme #21 measurement behaviour**, with the stated no-ground-truth and honest-judges limitations. Source consultation establishes the public report; independent reproduction of its data and code must be recorded separately and is not implied by this status.
 - **Nine-item planted-judge demonstration:** **Test-only / planned**, not executed evidence at this review point.
 - **00M A/B/C/D interpretation of #21 results:** **architecture-side candidate mapping only**. Under that mapping a population finding can be A(IF-S9), its established population/taxonomy/dependence/statistical/identifiability basis can be B(IF-S9), and C/D require the 00M frontier/barrier conditions. This notation is not attributed to Theme #21 itself.
 
@@ -397,7 +397,7 @@ An ideal 05 relation may be promoted within 05A only when the public record supp
 
 Minimum record:
 
-1. public source anchor;
+1. public source anchor, consultation date/time and source revision identifier or content hash where available, with the exact source-native statement and scope relied upon;
 2. semantic owner / contributor role;
 3. exact source-native state or distinction;
 4. producer and receiver;

@@ -111,7 +111,7 @@ Any future Stage A change should pass all of these:
 5. **Conservation check:** no frozen result, hash, theorem or historical evidence is strengthened or erased.
 6. **Coverage check:** a Simplified Stage A profile declares selected and omitted surfaces.
 7. **Handoff check:** any Stage B-ready result identifies a sufficiently frozen Stage A specification package.
-8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.
+8. **Closed-proposal check:** retain incorporated proposals, their before/after text, audit discussion and dissent as dated history in this VNext, with source version and decision; exclude them from the pending queue.
 
 ## 6. Current decision
 
