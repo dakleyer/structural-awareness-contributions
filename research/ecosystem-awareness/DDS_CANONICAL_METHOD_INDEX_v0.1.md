@@ -1,5 +1,7 @@
 # Deployment Differential Study (DDS) — Canonical Method Index v0.1
 
+> **Research-candidate register — 12 October 2026:** [DDS potential contributions and source register](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md) collects proposed additions from the mathematical and other article-review initiatives, with strong comparators, development obligations and source links. It is a supporting research backlog, not a new method authority or an admitted Stage result.
+
 **Status:** canonical working method router for the Ecosystem Awareness research corpus; not an adopted standard, certification scheme, assurance opinion or claim of product superiority.  
 **Date:** 7 October 2026.  
 **Terminology revision:** 0.1.3 — Stage A/B/C; definitions and evidence unchanged.  
