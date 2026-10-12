@@ -658,3 +658,33 @@ Read the report that owns the question before its run data. The routes below col
 
 [UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
 ````
+
+
+## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
+
+**Instrucción de Iván:** «revisa a fondo qué pasó, no tomes decisiones apresuradas». Auditoría realizada por Codex, mismo asistente. Se revisaron las cuatro versiones Git de00K-A04, ocho del runner, historial de router/workflow/manifest, patches ylogs de CI. El informe canónico sigue con blob55259d1863e062e02f40d0bf50e91b50788c7e4a; ningún número, fixture, resultado o umbral se modificó. No se lanzó ni repitió una campaña. La CI reciente consultada ya había sido generada por el workflow existente.
+
+### Qué ocurrió, con versión y evidencia
+
+| Estado / cambio | Evidencia comprobada | Interpretación |
+|---|---|---|
+| 25 septiembre05:40UTC, informe inicial5a3d49f | Intro/tablas/§6 dan101+27=128. [CI36099824950](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36099824950), headf66cf2a,10jobsSUCCESS ylogaggregate128/128. | El128 es un resultado histórico real y coherente con ese contrato, no una cifra arbitraria. |
+| 05:47UTC, runner181fa2d | Cross-scenario pasa6→12:101+33=134. [CI36100046965](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965), head138fab3,10jobsSUCCESS ylog134/134. | Cambia el conjunto registrado; su resultado no reemplaza el128 anterior. |
+| 06:18–07:33UTC | Runner progresa163→208→242→289→322→379 al cambiarP1–P6. Último runner894173d:346core+33supplemental. | Hay más controles y también cambios de diseño/aislamiento;379−128 no representa251experimentos independientes añadidos a una muestra idéntica. |
+| 07:38UTC, informe7b42231 | [Patch exacto](https://github.com/dakleyer/structural-awareness-contributions/commit/7b422314e170c7da910ba3ac995e561239d31466) actualizaintro/coretables/totals a379; deja§6con128 yuna fila cross-scenario aún6. | Aquí se identifica la actualización documental parcial. |
+| 07:42UTC, CI379 | [CI36108965548](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548), head948b493,10jobsSUCCESS. Log:42+58+49+76+47+74=346 y10+11+12=33;379/379. | La ejecución del nuevo conjunto está respaldada porlogs, no sólo por el título del informe. |
+| 07:46 y08:30UTC | 3a42eb1 añadeCI;78089c7 corrige la fila6→12 yA05→A06. Ningúnpatch cambia el bloque§6. | El desfase128 persiste en el documento hasta elheadconsultado. |
+| CI actual delhead eee0a74 | [CI38283402660](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/38283402660):13jobsSUCCESS yaggregate379/379. Hay meta-checks y3replaysP5 separados. | No sumar esos replays/meta-checks a379 ni llamarlos casos científicos nuevos. |
+
+### Qué cambió en las pruebas y qué se preservó
+
+El manifestactual declara corrección deconfoundsP1(source/recordclass), matched-prefixP2, eliminación deHOLDmarkerconfoundP3, refinamientoP4(full lineage no necesaria conpermitPDP/capability válido), exhaustivebasisP5 ydependencia transitivaP6. No es un simple cambio deetiqueta o contador: esos cambios afectan qué pregunta y controles sostienen cada argumento. Una CI verde acredita el código/expectativas delcommit, no necesidad universal ni evaluación deproducto.
+
+Se comprobaron contra sus pins los seis archivos de00K-HISTORICAL A1–A3: todos losblobs coinciden exactamente con las fuentes originales348edcb/8af3969/465c892. El archivo conserva32assertions devariantes diferentes, excluidas del379. Las ejecuciones128 y134 siguen identificadas por sus propios commits/logs. No se encontró aquí evidencia depérdida deesosarchivos/resultados; tampoco se afirma una prueba exhaustiva de toda la teoría por este cotejo.
+
+### Decisión y propuesta vigente
+
+No reemplazar128 por379 sin contexto. La candidata deconteo de tanda5 queda refinada como adición histórica conpins/CI yreferencias defixtures. Conserva la propuesta anterior como historia; esta variante es la referencia activa para la futura decisión. ImpactoAlto/riesgoBajo/esfuerzoMedio, pendingGOdeIván. Elantes sigue siendo literal delmismo blob; el índiceDDS ylos otros tres candidatos continúan compatibles con elanchor previsto. Ningúncambio canónico se incorpora por esta auditoría.
+
+
+La variante literal y el seguimiento de las ejecuciones están en la [única VNext propietaria](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md). Las cuatro propuestas de tanda5 siguen pendientes; esta comprobación no cambia sus fuentes.
