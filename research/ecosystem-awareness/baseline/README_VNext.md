@@ -307,27 +307,9 @@ Se cotejaron los cinco objetivos reunidos en README/USE_CASE, las 37 condiciones
 
 Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/README_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/README_VNext.md). Las entradas se atribuyen al mismo asistente; no se inventa consenso ni una revisión independiente.
 
-### Plan de cambios pendiente — Acceso al sucesor 00H v0.5 conservando la ruta v0.2
 
-Fuente: `research/ecosystem-awareness/baseline/README.md`, commit `2ff085688de77938aeaa5a3c0e7edbb607247d58`, blob `8185505674665135b7fd99879420c797ac726a70`. Ubicación: al final, tras el contexto completo de abajo. El índice actual sigue ofreciendo v0.2 mientras S4 conserva el núcleo dual y V19/V20 ya desarrollados en v0.5. Una adición explica la versión y ambas obligaciones sin cambiar gates ni mover fuentes.
+## Tanda 3 aplicada — GO de Iván, 12 octubre 2026
 
-Impacto **Alto** / riesgo **Bajo** / esfuerzo **Medio**; prioridad **Primera**, orden1; estado **pendiente del GO de la tanda3**. Beneficio: navegación y elección de versión/contrato correctos. Riesgo acotado a enlaces/síntesis de lectura; se preservan todas las condiciones y evidencia anterior. Validación: viejo literal único, destinos y anchors de esta tanda conjunta, byte-prefix y árbol sin nuevos/eliminados. Dependencias: los cuatro añadidos se concilian juntos; vínculos cruzados DDS↔caso/extensiones. Instrucción de Iván: preparar y continuar la siguiente tanda; conservar toda información y PDF al final. La autorización para aplicar tanda2 no adopta esta tanda3.
+Iván autoriza continuar después de la entrega de las cuatro propuestas de la tanda3. Se incorporan exactamente sus adiciones a baseline README (sucesor00H), README UC-21 (seis Challenges), DDSIndex (elección del ejercicio) y extensions README (preguntas de trece estudios). Todos los bytes previos de esas cuatro fuentes permanecen íntegros, con sus enlaces. No se modifica otro pasaje ni el PDF.
 
-**Texto antes — viejo literal y completo del contexto**
-
-````markdown
-The [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capacity-ledger review, and the [Signalling 01J review note](./01J_REVIEW_CARD.md) records the related partial boundary review. Original sources and their validation status remain preserved.
-````
-
-**Texto después — contexto conservado y bloque a añadir completo**
-
-````markdown
-The [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capacity-ledger review, and the [Signalling 01J review note](./01J_REVIEW_CARD.md) records the related partial boundary review. Original sources and their validation status remain preserved.
-
-
-## 00H reading update — 12 October 2026
-
-For the no-attacker Quiet Four Thousand story, the two preservation/authority outcomes, V19/V20 delegation hardening and subsequent test corrections, read the [00H v0.5 working successor](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md). The earlier v0.2 links above remain the preserved predecessor route. A registered study continues to use its frozen edition; the current reading route identifies the fuller successor without changing that study's inputs or results.
-
-The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
-````
+Las cuatro fichas incorporadas salen de la cola activa; su antes/después completo está en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/db248c134318c8786471eec1ef0ead2248b360a6/research/ecosystem-awareness/baseline/README_VNext.md). Auditorías y decisiones anteriores se conservan. Cero archivos nuevos, movidos, renombrados o eliminados y ninguna VNext nueva. Los estudios conservan registros, inputs, resultados, código, freezes y manifiestos. Continúa la tanda4: método, instrumentos, comparadores y oráculo/harness, con propuestas nuevas pendientes del GO correspondiente.

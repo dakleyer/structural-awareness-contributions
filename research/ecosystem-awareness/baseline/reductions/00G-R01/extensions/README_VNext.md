@@ -150,45 +150,9 @@ Cada fila da la pregunta literal del registro; el juicio de esta tanda es que su
 
 Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/README_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/README_VNext.md). Las entradas se atribuyen al mismo asistente; no se inventa consenso ni una revisión independiente.
 
-### Plan de cambios pendiente — Preguntas concretas de trece estudios y acceso a reutilización
 
-Fuente: `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md`, commit `2ff085688de77938aeaa5a3c0e7edbb607247d58`, blob `1b411ef4c75e5dd60078d528334457148d7cab08`. Ubicación: al final, tras el contexto completo de abajo. Los reportes dejan de aparecer como una colección genérica: cada pregunta y evidencia permiten decidir qué pieza sirve para un nuevo escenario UC-21 u otro Challenge, conservando los trece contratos.
+## Tanda 3 aplicada — GO de Iván, 12 octubre 2026
 
-Impacto **Alto** / riesgo **Bajo** / esfuerzo **Medio**; prioridad **Primera**, orden4; estado **pendiente del GO de la tanda3**. Beneficio: navegación y elección de versión/contrato correctos. Riesgo acotado a enlaces/síntesis de lectura; se preservan todas las condiciones y evidencia anterior. Validación: viejo literal único, destinos y anchors de esta tanda conjunta, byte-prefix y árbol sin nuevos/eliminados. Dependencias: los cuatro añadidos se concilian juntos; vínculos cruzados DDS↔caso/extensiones. Instrucción de Iván: preparar y continuar la siguiente tanda; conservar toda información y PDF al final. La autorización para aplicar tanda2 no adopta esta tanda3.
+Iván autoriza continuar después de la entrega de las cuatro propuestas de la tanda3. Se incorporan exactamente sus adiciones a baseline README (sucesor00H), README UC-21 (seis Challenges), DDSIndex (elección del ejercicio) y extensions README (preguntas de trece estudios). Todos los bytes previos de esas cuatro fuentes permanecen íntegros, con sus enlaces. No se modifica otro pasaje ni el PDF.
 
-**Texto antes — viejo literal y completo del contexto**
-
-````markdown
-</details>
-````
-
-**Texto después — contexto conservado y bloque a añadir completo**
-
-````markdown
-</details>
-
-
-## Questions answered by the thirteen recorded studies
-
-Each existing study answers the bounded question stated in its current record. This table helps select reusable mechanisms before designing another case exercise. Keep the study's specified configuration, units and recorded evidence with its question.
-
-| Study | Registered current question | Record and report |
-|---|---|---|
-| hew | Can the bounded objection/review/authority/effect composition deliver under its declared capacity, time and work contract? | [Record](./dds-hew-v0.1/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md) |
-| stamp-stpa | Can the derived finite controller complete admitted maintenance/deferment without the selected realized hazards? | [Record](./independent-dds-exercises-v0.1/stamp-stpa/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md) |
-| spiffe-jwt | Can selected workload identity validation plus application policy admit legitimate operations; what temporal contract remains missing? | [Record](./independent-dds-exercises-v0.1/spiffe-jwt/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md) |
-| rats-jws | Can scoped evidence/current-source appraisal support reliance; does it bind software at use or confirm real application? | [Record](./independent-dds-exercises-v0.1/rats-jws/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md) |
-| rag | Which retrieved records legitimately support the admitted local answer, and when is a recorded deferment preferable? | [Record](./rag/CURRENT_STUDY_RECORD.json) · [Report](./rag/DDS_STUDY.md) |
-| oauth-oidc | Which selected token/claim/current-resource checks support legitimate local resource use, and what remains outside a native OAuth/OIDC flow? | [Record](./oauth-oidc/CURRENT_STUDY_RECORD.json) · [Report](./oauth-oidc/DDS_STUDY.md) |
-| mcp-tool-calling | Which local serialized tool-call/scope/authority obligations support a legitimate observed effect? | [Record](./mcp-tool-calling/CURRENT_STUDY_RECORD.json) · [Report](./mcp-tool-calling/DDS_STUDY.md) |
-| sql-transactions-idempotency | Which local transaction/idempotency boundaries preserve one legitimate effect and receipt; where does cross-domain atomicity fail? | [Record](./sql-transactions-idempotency/CURRENT_STUDY_RECORD.json) · [Report](./sql-transactions-idempotency/DDS_STUDY.md) |
-| durable-workflows-retries | When does a persisted retry workflow deliver within its useful horizon, versus duplicate effects or avoidable nonclosure? | [Record](./durable-workflows-retries/CURRENT_STUDY_RECORD.json) · [Report](./durable-workflows-retries/DDS_STUDY.md) |
-| cache-ttl | When can a scoped cache response remain sufficient at use, and where do TTL/metadata/source-truth assumptions fail? | [Record](./cache-ttl/CURRENT_STUDY_RECORD.json) · [Report](./cache-ttl/DDS_STUDY.md) |
-| queues-ack-redelivery | When do broker acknowledgement, redelivery and an application receipt establish sufficient local completion? | [Record](./queues-ack-redelivery/CURRENT_STUDY_RECORD.json) · [Report](./queues-ack-redelivery/DDS_STUDY.md) |
-| structured-output | Which typed receiver obligations are supported by strict local schema validation, and which authority/truth questions require other mechanisms? | [Record](./structured-output/CURRENT_STUDY_RECORD.json) · [Report](./structured-output/DDS_STUDY.md) |
-| observability-response | When does telemetry/alert delivery support a legitimate observed remediation or minimum continuity closure? | [Record](./observability-response/CURRENT_STUDY_RECORD.json) · [Report](./observability-response/DDS_STUDY.md) |
-
-For UC-21 reuse, select the case objective and Challenge, then document the correspondence using its [family-admission tests](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS mapping contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping). These records are Simplified Stage A studies with their own local closure. A new UC-21 comparison preserves the selected family's failure predicate, positive control, timing and response obligations and cites the evidence it actually uses.
-
-Start with the [DDS exercise-selection route](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#13-select-an-exercise-and-keep-its-comparison-dimensions-explicit). Existing source copies, shared runners and several runs can support one study; their file count does not define its campaign identity.
-````
+Las cuatro fichas incorporadas salen de la cola activa; su antes/después completo está en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/db248c134318c8786471eec1ef0ead2248b360a6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md). Auditorías y decisiones anteriores se conservan. Cero archivos nuevos, movidos, renombrados o eliminados y ninguna VNext nueva. Los estudios conservan registros, inputs, resultados, código, freezes y manifiestos. Continúa la tanda4: método, instrumentos, comparadores y oráculo/harness, con propuestas nuevas pendientes del GO correspondiente.

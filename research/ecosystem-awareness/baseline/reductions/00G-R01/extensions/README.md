@@ -146,3 +146,28 @@ This is a file-location map, not a campaign count. Each directory opens all its 
 | [structured-output](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output) | 13 | Output-shape versus meaningful closure scoped study. |
 
 </details>
+
+
+## Questions answered by the thirteen recorded studies
+
+Each existing study answers the bounded question stated in its current record. This table helps select reusable mechanisms before designing another case exercise. Keep the study's specified configuration, units and recorded evidence with its question.
+
+| Study | Registered current question | Record and report |
+|---|---|---|
+| hew | Can the bounded objection/review/authority/effect composition deliver under its declared capacity, time and work contract? | [Record](./dds-hew-v0.1/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md) |
+| stamp-stpa | Can the derived finite controller complete admitted maintenance/deferment without the selected realized hazards? | [Record](./independent-dds-exercises-v0.1/stamp-stpa/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md) |
+| spiffe-jwt | Can selected workload identity validation plus application policy admit legitimate operations; what temporal contract remains missing? | [Record](./independent-dds-exercises-v0.1/spiffe-jwt/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md) |
+| rats-jws | Can scoped evidence/current-source appraisal support reliance; does it bind software at use or confirm real application? | [Record](./independent-dds-exercises-v0.1/rats-jws/CURRENT_STUDY_RECORD.json) · [Report](./dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md) |
+| rag | Which retrieved records legitimately support the admitted local answer, and when is a recorded deferment preferable? | [Record](./rag/CURRENT_STUDY_RECORD.json) · [Report](./rag/DDS_STUDY.md) |
+| oauth-oidc | Which selected token/claim/current-resource checks support legitimate local resource use, and what remains outside a native OAuth/OIDC flow? | [Record](./oauth-oidc/CURRENT_STUDY_RECORD.json) · [Report](./oauth-oidc/DDS_STUDY.md) |
+| mcp-tool-calling | Which local serialized tool-call/scope/authority obligations support a legitimate observed effect? | [Record](./mcp-tool-calling/CURRENT_STUDY_RECORD.json) · [Report](./mcp-tool-calling/DDS_STUDY.md) |
+| sql-transactions-idempotency | Which local transaction/idempotency boundaries preserve one legitimate effect and receipt; where does cross-domain atomicity fail? | [Record](./sql-transactions-idempotency/CURRENT_STUDY_RECORD.json) · [Report](./sql-transactions-idempotency/DDS_STUDY.md) |
+| durable-workflows-retries | When does a persisted retry workflow deliver within its useful horizon, versus duplicate effects or avoidable nonclosure? | [Record](./durable-workflows-retries/CURRENT_STUDY_RECORD.json) · [Report](./durable-workflows-retries/DDS_STUDY.md) |
+| cache-ttl | When can a scoped cache response remain sufficient at use, and where do TTL/metadata/source-truth assumptions fail? | [Record](./cache-ttl/CURRENT_STUDY_RECORD.json) · [Report](./cache-ttl/DDS_STUDY.md) |
+| queues-ack-redelivery | When do broker acknowledgement, redelivery and an application receipt establish sufficient local completion? | [Record](./queues-ack-redelivery/CURRENT_STUDY_RECORD.json) · [Report](./queues-ack-redelivery/DDS_STUDY.md) |
+| structured-output | Which typed receiver obligations are supported by strict local schema validation, and which authority/truth questions require other mechanisms? | [Record](./structured-output/CURRENT_STUDY_RECORD.json) · [Report](./structured-output/DDS_STUDY.md) |
+| observability-response | When does telemetry/alert delivery support a legitimate observed remediation or minimum continuity closure? | [Record](./observability-response/CURRENT_STUDY_RECORD.json) · [Report](./observability-response/DDS_STUDY.md) |
+
+For UC-21 reuse, select the case objective and Challenge, then document the correspondence using its [family-admission tests](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS mapping contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping). These records are Simplified Stage A studies with their own local closure. A new UC-21 comparison preserves the selected family's failure predicate, positive control, timing and response obligations and cites the evidence it actually uses.
+
+Start with the [DDS exercise-selection route](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#13-select-an-exercise-and-keep-its-comparison-dimensions-explicit). Existing source copies, shared runners and several runs can support one study; their file count does not define its campaign identity.

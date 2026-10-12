@@ -345,3 +345,10 @@ The [additional-work reading catalogue](non-canonical/README.md) explains preser
 The [ACC participation review note](./01I_REVIEW_CARD.md) leads to the single VNext for01I and its relationships with the lineage profile, Role and MSCA Operation. The source remains preserved; the review does not turn this governance extension into an EA core, legal framework or validated collective effect.
 
 The [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capacity-ledger review, and the [Signalling 01J review note](./01J_REVIEW_CARD.md) records the related partial boundary review. Original sources and their validation status remain preserved.
+
+
+## 00H reading update — 12 October 2026
+
+For the no-attacker Quiet Four Thousand story, the two preservation/authority outcomes, V19/V20 delegation hardening and subsequent test corrections, read the [00H v0.5 working successor](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md). The earlier v0.2 links above remain the preserved predecessor route. A registered study continues to use its frozen edition; the current reading route identifies the fuller successor without changing that study's inputs or results.
+
+The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
