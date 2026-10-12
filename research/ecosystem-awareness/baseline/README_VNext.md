@@ -437,3 +437,37 @@ The [earlier S4 branch reading](https://github.com/dakleyer/use-cases/blob/when-
 ````
 
 **Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
+
+
+### Adición de conservación autorizada — Hoja adicional EA: preservar archivos de apoyo y restaurar S5
+
+Iván autoriza completar la migración conservando contenidos, enlaces y materiales fuera de la ruta central. Fuente `research/ecosystem-awareness/baseline/non-canonical/README.md`, commit `369dffeae0a4525370abd3561b8ec428a3cb4bd2`. Se añade sólo el bloque mostrado al final; el viejo contexto y todos sus bytes se conservan. La hoja adicional no crea otro nivel de navegación canónica.
+
+**Texto antes — contexto final literal completo**
+
+````markdown
+**Alcance de esta lectura:** títulos, propósito/estado, estructura y pasajes pertinentes de los Markdown explicados; comparación de blobs y presentaciones completas/split. Código y binarios se identificaron mediante índices/manifests, sin ejecución ni evaluación de su contenido. Preparado por Codex, mismo asistente de IA, para lectura humana; no certificación de calidad de cada artefacto.
+````
+
+**Texto después — contexto conservado y adición completa**
+
+````markdown
+**Alcance de esta lectura:** títulos, propósito/estado, estructura y pasajes pertinentes de los Markdown explicados; comparación de blobs y presentaciones completas/split. Código y binarios se identificaron mediante índices/manifests, sin ejecución ni evaluación de su contenido. Preparado por Codex, mismo asistente de IA, para lectura humana; no certificación de calidad de cada artefacto.
+
+
+## Other files to consult — preserved work and supporting material · 12 October 2026
+
+The current reader routes remain in their owning corpus indexes. The following links provide optional access to originals, supporting code and historical records, including material that is not an individual step in the main narrative.
+
+| Material | Why it is retained / where to read it |
+|---|---|
+| Shared extension and study files | [Original extension folders](https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions) retain registrations, frozen inputs, code, raw outcomes, diagnostic successors and working records. Follow each study's own report for its question; browsing these files does not create another campaign. |
+| Earlier R01 reductions and feasibility work | [Original R01 tree](https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness/baseline/reductions/00G-R01) retains the complete historical copies, proofs, diagnostics, oracle and received files in their existing places. |
+| Earlier review states | [Preserved public snapshots](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots) and [review evidence](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/review) explain the editions and coverage underlying the VNext discussions. They are historical/supporting records, not additional current architecture sources. |
+| S5 review packet of 11 October | [Original packet README](../../review-packets/2026-10-11-steven-s5/README.md) and [complete reproducible ZIP](../../review-packets/2026-10-11-steven-s5/Steven_UC21_Test_Based_Specification_Audit_FULL_REPRODUCIBLE_2026-10-11.zip) are restored to their original paths, identical to [their original commit](https://github.com/dakleyer/structural-awareness-contributions/tree/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5). They preserve the research-side audit of that pinned S5 model; the later v0.1.3 scope reconciliation remains a separate record. |
+
+The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.
+
+````
+
+Restauración literal: README blob `97ed3f73c478881572bf8a9d5465cc38b0922e87` y ZIP blob `65c202ec81d50bd2681ab4e3ee8ac814a72c4779` desde `2c7f545e2610e154b2e7d11fe827722bbf3c5658`, mismos nombres y rutas. El ZIP conserva123.884bytes, SHA2569ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8,25miembros y CRC correctos. No se ejecuta el paquete. Es recuperar un original histórico, sin reescribirlo.
