@@ -1,5 +1,5 @@
 {
-  "version": "1.15",
+  "version": "1.16",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -4582,6 +4582,140 @@
         88,
         89
       ]
+    },
+    {
+      "id": 91,
+      "title": "Link the official UC-21 entry directly to Contributions",
+      "source": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "source_sha": null,
+      "source_commit": null,
+      "source_updated_at": "2026-10-13T10:36:49Z",
+      "source_body_sha256": "42a01df4e67c73a56c39544d6ce8a44dbbcb6d592f840b2ca5588ebf74122428",
+      "repository_full_name": "FG-TIDA/use-cases",
+      "pairs": [
+        {
+          "before": "**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**",
+          "after": "**[Current UC-21 research guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results)** · **[Objectives](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-research-questions)** · **[Challenges](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-challenge-sources)** · **[Recorded studies and results](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports)**\n\nUC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n<details>\n<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>\n\n**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**\n\n</details>",
+          "before_matches": 1,
+          "location": "The three opening snapshot links; keep the banner and all remaining fields"
+        }
+      ],
+      "risk": "Medio",
+      "dependencies": [
+        92
+      ],
+      "benefit": "The public reader reaches the maintained research corpus directly, while the submitted case and complete annexes remain available as historical source records.",
+      "riskReason": "External case presentation; preserve all original fields, title, state, comments and frozen links. The new headings must exist before changing the Issue.",
+      "costReason": "Readback of the entire Issue and all four new destinations; owner access and literal approval of the replacement.",
+      "gate": "Ivan approves this exact Issue replacement after 92 is incorporated and checked; owner/mantainer access must be available. No external write is attempted by preparation.",
+      "date": "2026-10-13",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Direct FG-TIDA to Contributions route",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "heading": "Direct UC-21 entry in Contributions — 13 October 2026",
+      "preparation": "Exact replacement pairs prepared",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "quality": "Current source and all old passages identified; inverse comparison exact",
+      "acceptance": "Current route within Contributions; submitted snapshot preserved; original source contracts and all destinations retained",
+      "joint_changes": [
+        92
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Make the existing DDS index the Contributions reader entry for UC-21",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "source_commit": "f960f6f5a627993643512b816430a485227f9118",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "pairs": [
+        {
+          "before": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.",
+          "after": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.\n\n### UC-21 research questions\n\nThe [official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) supplies the case and acceptance conditions. Contributions is the maintained research corpus. Select the question first, then its Challenge, technology/configuration and evidence contract.\n\n| Objective | Research question |\n|---|---|\n| Decision correctness and legitimate continuity | [Case acceptance plans](USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) | |\n| Effectiveness of existing controls | [R0/R1/R2 comparisons](USE_CASE.md#5-select-prepare-and-run-one-experiment) | |\n| Recurrence after correction | [HR recurrence protocol](annexes/RECURRENCE_PROTOCOL.md#annex-r) | |\n| Common causal pathway | [HC causal protocol](annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) | |\n| Sufficient common response | [HS response protocol](annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) | |\n\nThe source-specific HC, HR, HS and H1–H6 protocols retain their registered meaning. Their complete case texts are preserved in the submitted and pre-consolidation case snapshots, linked as source records below. This guide connects the existing Contributions research; it does not claim that the complete twenty-annex case package has already been integrated into this repository.\n\n### UC-21 Challenge sources\n\nThe S1–S6 slots correspond to the following Contributions sources. Choose the exact edition consumed by a study; a current reader source does not replace its earlier freeze.\n\n| Challenge slot | Failure family | Contributions source |\n|---|---|---|\n| S1 / 00E | Enterprise synthesis | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) |\n| S2 / 00F | Shared mobility | [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) |\n| S3 / 00G | Propagated false mission | [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) |\n| S4 / 00H | Finding beyond authority | [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) |\n| S5 / 00I | Delayed repair | [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) |\n| S6 / 00J | Rights-provenance inversion | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |\n",
+          "location": "§11, after the reader-route paragraph",
+          "before_matches": 1
+        },
+        {
+          "before": "| What is UC-21 trying to establish? | [UC-21 public entry](https://github.com/FG-TIDA/use-cases/issues/21) and [current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives) |",
+          "after": "| What is UC-21 trying to establish? | [Official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) and [research questions in this corpus](#uc-21-research-questions) |",
+          "location": "Existing reader passage: | What is UC-21 trying to establish? |",
+          "before_matches": 1
+        },
+        {
+          "before": "| Which scenario, reduction or extension supplies the problem? | [UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/README.md), [R01 reference scenario](./baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), [technology extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) and [kernel/proof obligations](./baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md) |",
+          "after": "| Which scenario, reduction or extension supplies the problem? | [UC-21 Challenge sources](#uc-21-challenge-sources), [R01 reference scenario](./baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), [technology extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) and [kernel/proof obligations](./baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md) |",
+          "location": "Existing reader passage: | Which scenario, reduction or extension supplies the problem? |",
+          "before_matches": 1
+        },
+        {
+          "before": "For terminology, use [Stage A §3](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first): the Challenge is the problem or failure family, and a bounded scenario, fixture or reduction instantiates it. [Stage A §6](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces) distinguishes profile, traversal, trace and DDS battery/campaign. [UC-21 conventions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) retain the scenario and route labels. A research campaign, an S4 business campaign and R01's operational campaign are different source contexts and accounting units. Reduction/extension transfer follows its owning proof or family-admission contract; navigation does not merge them.",
+          "after": "For terminology, use [Stage A §3](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first): the Challenge is the problem or failure family, and a bounded scenario, fixture or reduction instantiates it. [Stage A §6](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces) distinguishes profile, traversal, trace and DDS battery/campaign. [preserved UC-21 conventions](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) retain the scenario and route labels. A research campaign, an S4 business campaign and R01's operational campaign are different source contexts and accounting units. Reduction/extension transfer follows its owning proof or family-admission contract; navigation does not merge them.",
+          "location": "Existing reader passage: For terminology, use [Stage A §3]",
+          "before_matches": 1
+        },
+        {
+          "before": "The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and main for current reading. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and version decisions.",
+          "after": "The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) and the [pre-consolidation case snapshot](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails) preserve the original package and later reader work. Contributions hosts the current research route. A registered study freeze and an instrument successor retain their own edition; this navigation change does not revise a recorded result. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the source inventory and any integration still required.",
+          "location": "Existing reader passage: The [submitted UC-21 snapshot]",
+          "before_matches": 1
+        },
+        {
+          "before": "A case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), then select the bounded scenario, technology/configuration and evidence contract.",
+          "after": "A case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge sources](#uc-21-challenge-sources), then select the bounded scenario, technology/configuration and evidence contract.",
+          "location": "Existing reader passage: A case supplies the question and acceptance conditions. DDS supplies t",
+          "before_matches": 1
+        },
+        {
+          "before": "| Objective and scientific claim | [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast. |",
+          "after": "| Objective and scientific claim | [UC-21 research questions](#uc-21-research-questions) and [official case assessment criteria](https://github.com/FG-TIDA/use-cases/issues/21#6-assessment-criteria) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast; use the original claim-specific protocol identified by the study. |",
+          "location": "Existing reader passage: | Objective and scientific claim |",
+          "before_matches": 1
+        },
+        {
+          "before": "| Challenge and admitted variant | [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |",
+          "after": "| Challenge and admitted variant | [Preserved case-family admission X1–X7](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |",
+          "location": "Existing reader passage: | Challenge and admitted variant |",
+          "before_matches": 1
+        },
+        {
+          "before": "| Implementation comparison | [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |",
+          "after": "| Implementation comparison | [Preserved UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |",
+          "location": "Existing reader passage: | Implementation comparison |",
+          "before_matches": 1
+        },
+        {
+          "before": "[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.",
+          "after": "[The official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) connects to the [research questions](#uc-21-research-questions), [Challenge sources](#uc-21-challenge-sources) and recorded work in Contributions. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain their original names, units, protocols and stopping rules.\n\n<details>\n<summary>Earlier fork-based reader passages — retained navigation history</summary>\n\nThe following passages retain the earlier links and wording for traceability. The active route is the official case record and Contributions above.\n\n| What is UC-21 trying to establish? | [UC-21 public entry](https://github.com/FG-TIDA/use-cases/issues/21) and [current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives) |\n\n| Which scenario, reduction or extension supplies the problem? | [UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/README.md), [R01 reference scenario](./baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), [technology extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) and [kernel/proof obligations](./baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md) |\n\nFor terminology, use [Stage A §3](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first): the Challenge is the problem or failure family, and a bounded scenario, fixture or reduction instantiates it. [Stage A §6](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces) distinguishes profile, traversal, trace and DDS battery/campaign. [UC-21 conventions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) retain the scenario and route labels. A research campaign, an S4 business campaign and R01's operational campaign are different source contexts and accounting units. Reduction/extension transfer follows its owning proof or family-admission contract; navigation does not merge them.\n\nThe [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and main for current reading. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and version decisions.\n\nA case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), then select the bounded scenario, technology/configuration and evidence contract.\n\n| Objective and scientific claim | [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast. |\n\n| Challenge and admitted variant | [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |\n\n| Implementation comparison | [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |\n\n[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.\n\n</details>",
+          "location": "Existing reader passage: [UC-21's maintained package on main]",
+          "before_matches": 1
+        }
+      ],
+      "risk": "Medio",
+      "dependencies": [],
+      "benefit": "Five existing research questions and six Contributions Challenge sources become directly readable in the one existing method router; live fork links become preserved source/history references.",
+      "riskReason": "Case-specific protocols and general DDS contracts must retain their meaning. The complete twenty-annex package is not silently presumed to exist in Contributions; its pinned source records stay accessible.",
+      "costReason": "Ten identified passages, full inverse comparison, source-version and fragment checks, and reciprocal reader review. A later full integration requires a content manifest and its own exact proposals.",
+      "gate": "Ivan approves these exact reader passages. No physical migration, file deletion, normative protocol replacement or new README is authorized by this pair set.",
+      "date": "2026-10-13",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Direct FG-TIDA to Contributions route",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "heading": "Direct UC-21 entry in Contributions — 13 October 2026",
+      "preparation": "Exact replacement pairs prepared",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "quality": "Current source and all old passages identified; inverse comparison exact",
+      "acceptance": "Current route within Contributions; submitted snapshot preserved; original source contracts and all destinations retained",
+      "joint_changes": []
     }
   ],
   "audit_coverage": [
@@ -5818,7 +5952,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "fc90cdc78e8c593ddb848f988962e27b00f00c93",
+  "review_source_commit": "f960f6f5a627993643512b816430a485227f9118",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -11095,6 +11229,85 @@
           "gate": "Aplicado y verificado; no volver a ejecutar"
         }
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "title": "One maintained corpus; direct UC-21 entry",
+      "source_commit": "f960f6f5a627993643512b816430a485227f9118",
+      "proposal_assessments": [
+        {
+          "id": 83,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        },
+        {
+          "id": 84,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        },
+        {
+          "id": 85,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        },
+        {
+          "id": 86,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        },
+        {
+          "id": 87,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        },
+        {
+          "id": 88,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        },
+        {
+          "id": 89,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        },
+        {
+          "id": 90,
+          "state": "Superseded — direct Contributions route",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Histórico",
+          "preparation": "Do not apply the former fork-based wave",
+          "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -11203,6 +11416,10 @@
       [
         89,
         90
+      ],
+      [
+        92,
+        91
       ]
     ],
     "joint": [
@@ -12793,6 +13010,10 @@
   "current_closure_preparation": {
     "date": "2026-10-13",
     "prepared_ids": [
+      92,
+      91
+    ],
+    "superseded_ids": [
       83,
       84,
       85,
@@ -12802,10 +13023,34 @@
       89,
       90
     ],
-    "pending_literal_changes": 8,
-    "literal_passages": 10,
+    "literal_passages": 11,
     "applied": false,
     "external_sent": false,
-    "old_scope_counts": "Previous dated application scopes remain historical"
-  }
+    "route": "FG-TIDA official Issue directly to Contributions; fork as archived source",
+    "full_case_integration_complete": false
+  },
+  "direct_route_epochs": [
+    {
+      "date": "2026-10-13",
+      "source_commit": "f960f6f5a627993643512b816430a485227f9118",
+      "issue_updated_at": "2026-10-13T10:36:49Z",
+      "supersedes_ids": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "active_prepared_ids": [
+        92,
+        91
+      ],
+      "canonical_applied": false,
+      "external_sent": false,
+      "full_case_package_integration": "Not performed; unique source content still needs a manifest and owner decision"
+    }
+  ]
 }

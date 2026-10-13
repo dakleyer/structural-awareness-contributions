@@ -1776,3 +1776,18 @@ Flores / Theme #21 mantiene su expediente DDS propio y su estado de preparación
 El cierre documental se declara al completar ese recorrido y la conservación, incluida la entrada oficial. El cierre de cada investigación lo decide su propio contrato/evidencia: S5 al alcance evidenciado, un seguimiento CDA tras acordar ejecución y R1/R2, y especificaciones tras revisión de resultados. La revisión científica de cinco pasadas y conciliación global no se da por terminada por enlazar la raíz. El PDF UC-21 sigue sin localizarse en los dos árboles; no se incluye un reemplazo ficticio.
 
 Pares y presentación pública completos: [README UC-21 VNext](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md#cierre-de-entrada-uc-21--13-octubre-2026). Los originales se leen contra sus cortes actuales; no se cambia la jerarquía ni se crea una VNext.
+
+
+## Direct UC-21 entry in Contributions — 13 October 2026
+
+Ivan selects one maintained research corpus: **FG-TIDA Issue #21 → Contributions → UC-21 research questions → Challenge sources → DDS → registered studies and results**. The fork is a source archive, not another maintained canonical reader entry. New public preparation is written in English.
+
+The prior fork-based changes 83–90 are superseded as a proposed wave and must not be applied as prepared. Their old/proposed text and audit history remain intact. The official-index row may be re-proposed separately if needed; updating a fork index is no longer part of the current route.
+
+Current tree: Contributions `f960f6f5a627993643512b816430a485227f9118`, 2,249 files. DDS, 00E–00J source families, instruments and reports already exist here. The maintained fork still contains the full UC-21 case, twenty annexes, claim/recurrence protocols, assets and templates. This review has not found a complete second copy of that case package in Contributions. Replacing links alone is not a full source migration; no copied corpus or new repository is created to hide that distinction.
+
+The proposed first step reuses the existing DDS Canonical Method Index. It presents the five questions and six current Challenge sources while retaining original source protocols as pinned historical dependencies. The official Issue would then receive the exact primary-link replacement below. This preserves the submitted edition without routing current research through a moving fork branch. A later decision to integrate the entire case would first classify identical sources, unique content and necessary paths in a manifest; no archive or source is deleted or moved by this preparation.
+
+**Order:** incorporate and verify 92, then incorporate 91 at the official Issue with its owner's access and approval of the exact text. Complete source-package consolidation is a separate unresolved decision, not an accomplished migration. The official Issue remains unchanged during preparation; prior 403/automatic-review history is retained without an attempted bypass.
+
+Exact before/after passages are in the [existing DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#direct-uc-21-entry-in-contributions--13-october-2026). No new VNext or source file is created.
