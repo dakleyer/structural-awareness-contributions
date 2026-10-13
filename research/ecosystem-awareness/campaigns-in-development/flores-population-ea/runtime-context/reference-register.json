@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-13",
+  "kind": "ANNOTATED_PRIMARY_SOURCE_REGISTER_NOT_REPLICATIONS",
+  "sources": [
+    {
+      "id": "R01",
+      "title": "One or Two Things We Know about Concept Drift",
+      "authors": "Fabian Hinder, Valerie Vaquet, Barbara Hammer",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2310.15826",
+      "level": "Abstract y metadatos primarios",
+      "use": "Taxonomía de drift y separación entre detección, localización y explicación. Orienta la elección de un canal observable y la comparación de métodos.",
+      "limit": "No se reproduce el benchmark del artículo ni se aplica su taxonomía automáticamente a una retirada de justificación."
+    },
+    {
+      "id": "R02",
+      "title": "Adversarial Attacks for Drift Detection",
+      "authors": "Fabian Hinder, Valerie Vaquet, Barbara Hammer",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2411.16591v2",
+      "level": "Texto primario §§2–3 y formulación de adversarios",
+      "use": "Muestra construcciones de cambios que evaden ciertos métodos de detección por selección de datos/métrica. Exige probar qué observa un detector concreto.",
+      "limit": "No demuestra invisibilidad frente a cualquier fuente externa ni superioridad EA. Sus distribuciones/ventanas difieren de este toy context witness."
+    },
+    {
+      "id": "R03",
+      "title": "Symbolic Runtime Verification for Monitoring under Uncertainties and Assumptions",
+      "authors": "Hannes Kallwies, Martin Leucker, César Sánchez",
+      "year": 2022,
+      "url": "https://arxiv.org/html/2207.05678v1",
+      "level": "Texto primario accesible; abstract y secciones de formulación consultadas",
+      "use": "Competidor metodológico de monitoring con observación parcial y supuestos explícitos. Obliga a tratar el caso como restricción de inferencia en vez de etiqueta de fallo.",
+      "limit": "No ejecutamos su implementación ni trasladamos sus garantías a nuestro código. El acceso a HTML v3 falló; se usa v1 explícita."
+    },
+    {
+      "id": "R04",
+      "title": "Detecting and Correcting for Label Shift with Black Box Predictors",
+      "authors": "Zachary Lipton, Yu-Xiang Wang, Alexander Smola",
+      "year": 2018,
+      "url": "https://proceedings.mlr.press/v80/lipton18a.html",
+      "level": "Abstract editorial primario y problem setup recuperado por búsqueda primaria",
+      "use": "Contraejemplo a una prohibición genérica de detectar shift sin labels: existen soluciones condicionadas a invariancias e invertibilidad. Mantener esos supuestos visibles.",
+      "limit": "Label shift no es automáticamente el context drift buscado. No importar p(x|y) invariante o confusion matrix invertible sin demostrarlo."
+    },
+    {
+      "id": "R05",
+      "title": "Failing Loudly An Empirical Study of Methods for Detecting Dataset Shift",
+      "authors": "Stephan Rabanser, Stephan Günnemann, Zachary C. Lipton",
+      "year": 2019,
+      "url": "https://papers.neurips.cc/paper_files/paper/2019/hash/846c260d715e5b854ffad5f70a516c88-Abstract.html",
+      "level": "Abstract de proceedings y texto inicial del artículo consultados",
+      "use": "Referencia de detectores estadísticos fuertes que deben recibir crédito dentro de sus observaciones. Facilita distinguir tests de shift de tests de fundamento.",
+      "limit": "No reproducción oficial ni evidencia de eficacia en los seis jueces de Flores. No asignar a EA funciones de two-sample testing como novedad."
+    },
+    {
+      "id": "R06",
+      "title": "An Assumption Based TMS",
+      "authors": "Johan de Kleer",
+      "year": 1986,
+      "url": "https://dekleer.org/Publications/An%20Assumption-Based%20TMS.pdf",
+      "level": "PDF original del autor, introducción y definición de contextos",
+      "use": "Precedente directo de conservar derivaciones por conjuntos de supuestos y reutilizar solo lo que sigue justificado. B2 puede usar esas técnicas.",
+      "limit": "No ejecución del ATMS original ni prueba de equivalencia de todos los perfiles EA. El código local solo hace joins y enumeración finita."
+    },
+    {
+      "id": "R07",
+      "title": "Defeaters and Eliminative Argumentation in Assurance 2.0",
+      "authors": "Robin Bloomfield, Kate Netkachova, John Rushby",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2405.15800v1",
+      "level": "Texto primario accesible y enfoque de defeaters consultado",
+      "use": "Estructura la autocrítica y el registro de razones que derrotan una derivación. Obliga a separar argumento, evidence y objeciones.",
+      "limit": "No convierte nuestro diseño en certificación ni hace independientes sus auditores. No utilizamos un cálculo de confianza de Assurance 2.0."
+    },
+    {
+      "id": "R08",
+      "title": "Using Models at Runtime to Address Assurance for Self Adaptive Systems",
+      "authors": "Betty H. C. Cheng y coautores",
+      "year": 2014,
+      "url": "https://arxiv.org/abs/1505.00903",
+      "level": "Abstract y metadatos originales; arXiv 2015 del capítulo 2014",
+      "use": "La assurance puede necesitar mantenerse durante ejecución cuando entorno/sistema cambian. Sitúa la contribución como composición contextual, no idea nueva de runtime monitoring.",
+      "limit": "Consulta de resumen, no revisión completa de sus 36 páginas ni reproducción de casos."
+    },
+    {
+      "id": "R09",
+      "title": "How Do We Certify for the Unexpected",
+      "authors": "John Rushby",
+      "year": 2008,
+      "url": "https://www.sri.com/publication/information-computer-science-pubs/how-do-we-certify-for-the-unexpected/",
+      "level": "Página y abstract primarios de SRI",
+      "use": "Precedente de trasladar parte de verification/assurance a runtime con claims/evidence/argument explícitos.",
+      "limit": "No base para afirmar certificación ni trasladar garantías aeronáuticas a esta propuesta."
+    },
+    {
+      "id": "R10",
+      "title": "PROV DM The PROV Data Model",
+      "authors": "W3C; editores Luc Moreau y Paolo Missier",
+      "year": 2013,
+      "url": "https://www.w3.org/TR/prov-dm/",
+      "level": "Recomendación primaria; componentes y §5.1.8 invalidation",
+      "use": "Relations de provenance y temporalidad para construir el peer convencional. Invalidation diferencia persistencia de un objeto y disponibilidad para uso.",
+      "limit": "PROV modela provenance; no autentica factualidad ni por sí sola decide suficiencia de Q."
+    },
+    {
+      "id": "R11",
+      "title": "Remote ATtestation procedureS RATS Architecture RFC 9334",
+      "authors": "IETF",
+      "year": 2023,
+      "url": "https://www.rfc-editor.org/rfc/rfc9334.html",
+      "level": "Arquitectura primaria; §10 freshness",
+      "use": "Evidence/attestation freshness y posible cambio después de evaluación. Exige valorar tiempo y consumo de result dentro de una política.",
+      "limit": "No implementamos RATS ni criptografía. La carrera temporal reconocida no prueba que todo relying party falle ni que EA la resuelva."
+    },
+    {
+      "id": "R12",
+      "title": "Planted Judge Demonstration Specification v1.0",
+      "authors": "Justin Philip Flores / Himalogic; fixture CTGT",
+      "year": 2026,
+      "url": "https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md",
+      "level": "README completo y expected.py completo leídos; copias locales derivadas",
+      "use": "Baseline exacto, propietario, límites, semántica y controles que se preservan.",
+      "limit": "Código expected no es resultado; original fixture ZIP no abierto/rehasheado y scripts nativos aún no disponibles en la carpeta consultada."
+    },
+    {
+      "id": "R13",
+      "title": "Observation Architecture and Identifiability",
+      "authors": "Olena Pavlenko",
+      "year": 2026,
+      "url": "https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532364422",
+      "level": "Comentario primario completo releído en esta conversación",
+      "use": "Orden de afirmación, arquitectura, identificación e incertidumbre; sustenta retornar al paso 3 ante cambio en paso 2.",
+      "limit": "Comentario mutable; no un artículo formal ni autorización de un ensayo. No identificar sus pasos con DDS stages."
+    },
+    {
+      "id": "R14",
+      "title": "Flores Boundary for Receiving Feedback",
+      "authors": "Justin Philip Flores",
+      "year": 2026,
+      "url": "https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577",
+      "level": "Comentario primario completo leído en esta conversación",
+      "use": "Insufficiency y named gap permitidos como propuesta de interface; no dirigir medición con desired answer/purpose/budget.",
+      "limit": "No aceptación de esta extensión temporal ni acuerdo de colaboración/coautoría."
+    },
+    {
+      "id": "R15",
+      "title": "DDS Stage A Challenge Trajectory Profile",
+      "authors": "IMSV / Tegrity.AI corpus",
+      "year": 2026,
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "level": "Texto actual recuperado; apartados de scope/admission/evidence consultados",
+      "use": "Objeto specification bajo Challenge y falsadores; no elevar preflight a arquitectura/producto.",
+      "limit": "Canonical working profile no es independent acceptance del nuevo estudio."
+    },
+    {
+      "id": "R16",
+      "title": "Canonical Requirements S1 to S14 and Conditions T1 to T4",
+      "authors": "IMSV / Tegrity.AI corpus",
+      "year": 2026,
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "level": "Definiciones originales de requisitos seleccionados y T1–T4 leídas",
+      "use": "Mapping de obligaciones observability, indeterminacy, provenance, scope, authority y burden.",
+      "limit": "No crear nuevos IDs ni dar PASS a requisitos completos por un fixture parcial."
+    },
+    {
+      "id": "R17",
+      "title": "Canonical Architecture Benchmark and Reference Scenario Evidence 00D",
+      "authors": "IMSV / Tegrity.AI corpus",
+      "year": 2026,
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "level": "Contrato B2/B3 y fairness consultados; copia completa derivada",
+      "use": "B2 fuerte con igual evidence/resources y crédito pleno de equivalencia convencional.",
+      "limit": "No resultados comparativos del nuevo estudio ni universal gap de productos."
+    },
+    {
+      "id": "R18",
+      "title": "A B C D and Mathematical Plausibility 00M v0.8",
+      "authors": "IMSV / Tegrity.AI corpus",
+      "year": 2026,
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "level": "Semántica y UNKNOWN leídos; copia derivada completa",
+      "use": "Separar pérdida de justificación de clasificación automática C o D; especificar proceso/aspecto.",
+      "limit": "Plausibilidad conceptual no prueba engineering feasibility o eficacia."
+    }
+  ]
+}

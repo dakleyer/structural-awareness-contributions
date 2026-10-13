@@ -128,7 +128,8 @@
     "strong_conventional": "B2",
     "ea_candidate": "B3 / EA-qualified",
     "same_access_and_budget_required": true,
-    "parity_is_valid_negative_result": true
+    "parity_is_valid_negative_result": true,
+    "known_repaired_R2_parity": "EXPECTED_NOT_TERMINATION_OF_R3_RESEARCH"
   },
   "admission": {
     "stage_a_freeze": false,
@@ -146,7 +147,9 @@
     "history": "HISTORY_AND_AUDIT.md",
     "sources": "SOURCES_AND_CUSTODY.md",
     "resumption": "CONTINUATION.md",
-    "legacy_transcripts_in": "history/"
+    "legacy_transcripts_in": "history/",
+    "current_direction": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+    "runtime_research_report": "runtime-context/INFORME_2026-10-13.md"
   },
   "disclosure": {
     "candidate_private_keys_published": false,
@@ -170,16 +173,16 @@
     }
   ],
   "last_documentary_audit": "2026-10-13",
-  "scientific_status": "OWNER_RESEARCH_PIVOT_RECORDED_STAGE_A_TRIAL_DRAFT_NOT_PREREGISTERED_OR_EXECUTED",
+  "scientific_status": "R2_FREEZE_R3_OWNER_DIRECTION_RECORDED_NOT_ADMITTED_NOT_EXECUTED",
   "approach_pivot": {
     "decision_id": "FLORES_RESEARCH_APPROACH_DRIFT_2026-10-12_13",
     "range": "2026-10-12/2026-10-13",
     "type": "OWNER_RESEARCH_STRATEGY_CHANGE_NOT_NATIVE_REGIME_EVENT",
     "state": "DOCUMENTED_NOT_FORMAL_PREREGISTRATION",
     "previous": "growth of author-side Frame-Watch/casebook and P0-P3 synthetic discriminability checks",
-    "current": "single downstream original-source-preserving perturbation and restoration under equal B2 vs EA comparison",
-    "record": "APPROACH_DRIFT_2026-10-12_13.md",
-    "primary_trial": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "current": "Parity in demonstrated repaired R2; full freeze; material admissible R3 outside effective frozen coverage; general EA requalification fixed ex ante",
+    "record": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+    "primary_trial": "runtime-context/PROTOCOLO_2026-10-13.md",
     "audit": "AUDIT_REPORT_2026-10-13.md",
     "run_card": "RUN_CARD_PREPARATION.md",
     "distinguish": {
@@ -190,31 +193,14 @@
     }
   },
   "primary_trial": {
-    "name": "FLORES_NATIVE_UC17_08_SINGLE_POINT",
-    "state": "DRAFT_NOT_FROZEN",
-    "focus": "native attested absence -> corrupt permit mapping downstream, source intact",
-    "first_branches": [
-      "FLO-F0",
-      "FLO-F1",
-      "FLO-F2",
-      "FLO-F3",
-      "FLO-F4"
-    ],
-    "optional_separate_branches": [
-      "FLO-F5",
-      "FLO-F6"
-    ],
-    "upstream_judges_and_results_untouched": true,
-    "producer_flags_verified_available": false,
-    "comparator": "competent B2 same source/permission/resource/horizon as EA candidate",
-    "false_success_modes": [
-      "blanket stop",
-      "oracle leakage",
-      "hidden world inference",
-      "source verdict alteration",
-      "unsupported C/D promotion"
-    ],
-    "equivalence_valid_outcome": true
+    "name": "FLORES_SAME_TEMPORAL_CLAIM_R2_FREEZE_R3",
+    "state": "DRAFT_NOT_ADMITTED_NOT_FROZEN_NOT_EXECUTED",
+    "focus": "Minimal material context change outside participant-defended repaired R2 coverage after full freeze; unchanged judge outputs",
+    "known_R2_parity": "EXPECTED_BASELINE",
+    "R2_configuration_choice": "PARTICIPANT_DEFENDED_NO_SELECTIVE_DEFENSE_REMOVAL",
+    "EA_requirements": "GENERAL_EX_ANTE_BEFORE_SCORED_R3_DISCLOSURE",
+    "native_source_unchanged": true,
+    "protocol": "runtime-context/PROTOCOLO_2026-10-13.md"
   },
   "source_recovery": {
     "date": "2026-10-13",
@@ -247,5 +233,61 @@
     "technical_supplement": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
     "scientific_external_independence": "NOT_ESTABLISHED",
     "admission": "NOT_PREREGISTERED"
+  },
+  "historical_primary_trial_before_R2_freeze_R3": {
+    "name": "FLORES_NATIVE_UC17_08_SINGLE_POINT",
+    "state": "DRAFT_NOT_FROZEN",
+    "focus": "native attested absence -> corrupt permit mapping downstream, source intact",
+    "first_branches": [
+      "FLO-F0",
+      "FLO-F1",
+      "FLO-F2",
+      "FLO-F3",
+      "FLO-F4"
+    ],
+    "optional_separate_branches": [
+      "FLO-F5",
+      "FLO-F6"
+    ],
+    "upstream_judges_and_results_untouched": true,
+    "producer_flags_verified_available": false,
+    "comparator": "competent B2 same source/permission/resource/horizon as EA candidate",
+    "false_success_modes": [
+      "blanket stop",
+      "oracle leakage",
+      "hidden world inference",
+      "source verdict alteration",
+      "unsupported C/D promotion"
+    ],
+    "equivalence_valid_outcome": true
+  },
+  "historical_approach_pivot_before_R2_freeze_R3": {
+    "decision_id": "FLORES_RESEARCH_APPROACH_DRIFT_2026-10-12_13",
+    "range": "2026-10-12/2026-10-13",
+    "type": "OWNER_RESEARCH_STRATEGY_CHANGE_NOT_NATIVE_REGIME_EVENT",
+    "state": "DOCUMENTED_NOT_FORMAL_PREREGISTRATION",
+    "previous": "growth of author-side Frame-Watch/casebook and P0-P3 synthetic discriminability checks",
+    "current": "single downstream original-source-preserving perturbation and restoration under equal B2 vs EA comparison",
+    "record": "APPROACH_DRIFT_2026-10-12_13.md",
+    "primary_trial": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "audit": "AUDIT_REPORT_2026-10-13.md",
+    "run_card": "RUN_CARD_PREPARATION.md",
+    "distinguish": {
+      "owner_design_change": "DOCUMENTED",
+      "receiver_question_Q0_to_Q1": "PROPOSED",
+      "consumer_mapping_UC17_08_mutation": "PROPOSED_NOT_EXECUTED",
+      "true_same_claim_R3_observation_regime_change": "NOT_OBSERVED_NOT_ADMITTED"
+    }
+  },
+  "current_research_direction": {
+    "date": "2026-10-13",
+    "authority": "Owner instruction in this task",
+    "object": "Theme #21 Flores same temporal inference; minimal runtime context change",
+    "principle": "Parity in demonstrated repaired R2; full freeze; material admissible R3 outside effective frozen coverage; general EA requalification fixed ex ante",
+    "record": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+    "protocol": "runtime-context/PROTOCOLO_2026-10-13.md",
+    "supersedes": "UC17-08 absence-to-permit as primary priority; static EA superiority framing",
+    "previous_designs_preserved": true,
+    "native_R2_freeze_R3_run": false
   }
 }

@@ -1,3 +1,5 @@
+> **Flores: current owner direction, 13 October 2026.** Read [R2 repaired → full freeze → uncovered R3](./flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md) and [current continuation](./flores-population-ea/CONTINUATION.md) first. Known-context parity is expected. The same temporal inference runtime change now has priority; older UC17-08 priority below is retained history. No native run or Stage A acceptance.
+
 # DDS — campaigns in development (research-side register)
 
 **Date:** 13 October 2026. **Status:** additive working navigation under the existing [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), **not** a new method owner or a completed global physical migration to root `dds/`.

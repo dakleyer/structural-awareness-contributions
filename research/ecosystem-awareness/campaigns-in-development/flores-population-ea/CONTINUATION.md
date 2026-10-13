@@ -1,3 +1,19 @@
+## Orientación vigente — 13 octubre 2026: R2 reparada → freeze → R3
+
+**Esta instrucción posterior de Iván gobierna la continuación y sustituye la prioridad experimental anterior conservada abajo.** El objeto es **Theme #21 / la prueba de Flores**, con el cambio mínimo de contexto de la **misma inferencia temporal**. UC17-08 y UC-21 permanecen antecedentes o controles separados; no son el objetivo principal vigente.
+
+**Mantra:** EA alcanza igualdad en el contexto conocido/reparado. El participante configura y repara hasta el nivel que defienda; demuestra R2 y se congela **toda** su configuración, fuentes, defensas y adaptación. Después se admite un R3 material fuera de la cobertura de esa R2 congelada, sin quitarle defensas. Se estudia si la determinación pierde fundamento mientras los jueces mantienen exactamente los mismos outputs. La evaluación posterior estudia los requisitos generales EA de recalificación, fijados antes de revelar el R3 puntuado, con acceso y recursos comparables. Un patch posterior inaugura otro R2/freeze. La igualdad en R2 no cancela el estudio R3 ni exige volver a preguntar por una ventaja estática.
+
+**Leer primero:** [principio R2/freeze/R3](runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md), [protocolo temporal](runtime-context/PROTOCOLO_2026-10-13.md), [informe completo](runtime-context/INFORME_2026-10-13.md), [18 referencias primarias](runtime-context/REFERENCIAS_2026-10-13.md) y [lectura HTML](runtime-context/Informe_Flores_Runtime_Context_2026-10-13.html).
+
+**Estado:** investigación y protocolo preparados; instancia nativa R2/freeze/R3 aún no admitida ni ejecutada. Los [20 controles y 64 pares sintéticos](runtime-context/preflight/RESULTS_2026-10-13.json) son calibración pública authored, no resultados EA ni datos nativos de Flores. La verdad oculta no se infiere de inputs completos indistinguibles.
+
+**Próximo trabajo:** concretar con la fuente un predicado realmente establecido en t0, demostrar la reparación nativa R2 y fijar su freeze completo; admitir un cambio externo mínimo que afecte ese mismo predicado fuera de su cobertura y sus positivos/negativos; fijar requisitos EA generales ex ante y ejecutar ambas fases bajo el contrato. No reiniciar por la antigua ausencia→permit ni ampliar por defecto el casebook. Las dos fases prospectivas permanecen dentro de este único expediente DDS en desarrollo.
+
+**Custodia:** este es el punto durable en GitHub. Los documentos históricos a continuación se conservan íntegros como antecedentes; sus rótulos «current», «priority» o «read first» anteriores no prevalecen sobre esta orientación. No se modifican fuentes externas, corpus protegido, freezes históricos ni resultados.
+
+---
+
 # Continue FLORES — verified starting point, decisions and next steps
 
 **User retrieval instruction:** when the user says “Flores”, “iniciativa Flores”, “campaña Flores”, “experimento de Flores”, “Theme #21 y EA” or “the residual blind spot of Flores”, open [CAMPAIGN.md](./CAMPAIGN.md), then this document, [SCIENTIFIC_DESIGN.md](./SCIENTIFIC_DESIGN.md), [HISTORY_AND_AUDIT.md](./HISTORY_AND_AUDIT.md), [SOURCES_AND_CUSTODY.md](./SOURCES_AND_CUSTODY.md), and exact current external anchors. Do not ask the user to repeat the earlier two-hour explanation.

@@ -78,3 +78,8 @@ Do not overwrite the prior author's source story or replay counts. This is an ad
 The [audit](AUDIT_REPORT_2026-10-13.md) identified that the first campaign submission only held six historical **summaries**. [Six full readable source texts](history/recovered-text/RECOVERY_MANIFEST.json) (two TXT and four PDF-derived reader texts) were published separately alongside those original summaries. Original PDF/ZIP binary byte identity remains **not verified** and reviewer-only hidden cases are not exposed.
 
 The pivot and preferred trial were then differentiated in campaign master, experiment design, Run Card and machine status. No Stage A protocol admission, B2/EA execution, official Stage B/C result, external ownership transfer or source test rerun is asserted.
+
+
+## 13 October: owner correction persisted in the existing GitHub campaign
+
+The owner corrected the static-parity framing: parity in a demonstrated repaired R2 is expected; freeze the complete participant-defended R2, then admit a material uncovered R3. The same temporal claim may lose its basis while judge outputs remain unchanged. EA general requalification requirements are fixed ex ante, not patched after the scored R3. [Current principle](runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md) and [protocol](runtime-context/PROTOCOLO_2026-10-13.md) now govern resumption. UC17-08 mapping and previous P0/P3 designs are retained as history or separate controls. The earlier research bundle was prepared locally; this addition makes it reachable through CAMPAIGN, CONTINUATION, design and the one machine registry. Twenty authored controls and 64 binary hidden-world pairs remain public finite calibration, not native R2/freeze/R3 execution or independent Stage A acceptance.
