@@ -100,7 +100,7 @@ Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo
 
 ## Current regression count — 12 October 2026
 
-The [current runner](./fixtures/00K-SUITE/run_all.py) and [execution router](./fixtures/00K-SUITE/README.md) specify **346 core +33 supplemental =379 regression tests**. The `101/27/128` block retained in Section6 does not describe that current execution contract. Read the current counts with the individual fixture records; the retained smaller block remains visible in this document's history.
+The [current runner](./run_all.py) and [execution router](./README.md) specify **346 core +33 supplemental =379 regression tests**. The `101/27/128` block retained in Section6 does not describe that current execution contract. Read the current counts with the individual fixture records; the retained smaller block remains visible in this document's history.
 
 The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.
 ````
