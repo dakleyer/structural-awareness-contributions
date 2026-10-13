@@ -690,3 +690,20 @@ El cotejo encontró dos archivos históricos del paquete S5 que ya faltaban de m
 El README UC-21 añade al final acceso a todos los archivos de su paquete, los materiales de envío y los archivos de trabajo del registro. El anexo adicional EA enlaza el soporte compartido, los originales R01 y la historia de revisión. Las tres hojas auxiliares EA/RA/MSCA mantienen su organización; no se crea una colección de índices ni niveles nuevos. El envío aec08fb5, los freezes y los resultados siguen con sus identidades.
 
 Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas enlazadas;2.006destinos anteriores conservados en los cinco documentos intervenidos;13sustituciones inversas exactas, cero cambios fuera de alcance; README/ZIP históricos restaurados idénticos. El detalle permanece en EP VNext.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+Se reabre la relación de evidencia por tres comentarios posteriores a la revisión de 33 entradas. [Nelson](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771) conserva la coordinación del ciclo experimental UC-4, su fuente y stopping rules; el seguimiento se selecciona por pregunta. [Matías](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870) comunica CDA v0.1.3 y sus controles, y [Iván](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) propone paralelizar preparación R2/Stage A y separar diseño, ejecución/verificación y selección de especificaciones.
+
+El puente sigue R01-BRIDGE-DRAFT. Ninguno de esos comentarios revisa este schema ni aprueba una admisión. El candidato 88 enlaza la misma relación en el índice DDS; 85/86 la mantienen en la raíz UC-21. No se requiere una sustitución del perfil para atribuirle una compatibilidad todavía no demostrada. Se conserva la revisión anterior y sus desacuerdos. No se ejecuta software externo.
+
+### Orden de incorporación y comprobación final
+
+1. Aprobar y aplicar 83–88 al paquete mantenido y al índice DDS; mantener originales fuera de cada par, enlaces anteriores, anexos, assets, fixtures y versiones. Los destinos nuevos se habilitan juntos: cabeceras 83/87 apuntan al apartado añadido por 86.
+2. Incorporar 89 al índice del fork. Para la tabla oficial, entregar el mismo par al mantenedor FG-TIDA o incorporarlo con su acceso autorizado. La fila copia el tema marcado como principal en la presentación; no afirma una asignación nueva.
+3. Incorporar 90 al cuerpo de la Issue por su propietario, con GO literal sobre el bloque. Mantener título, estado, labels, campos, casillas, comentarios y enlaces congelados. La petición actual es preparación; no se envía un comentario externo ni se cierra la Issue.
+4. Leer desde la tabla oficial y el enlace de la Issue hasta los cinco objetivos, seis Challenges, método DDS, protocolos, registro/freeze/informe y retorno. Probar también entrada directa USE_CASE, ida y vuelta desde DDS y acceso por anexos a soporte y archivos históricos.
+5. Comparar árboles y blobs contra el corte previo: ninguna ruta perdida, ningún archivo movido o renombrado; todos los destinos anteriores presentes. Comparar el cuerpo externo completo y revertir en copia cada sustitución para demostrar que fuera de lo acordado no cambia nada. Leer de vuelta todos los archivos aplicados; registrar commit, fecha y estado en las VNext y retirar cada ficha aplicada de pendientes según la instrucción de Iván, preservando auditorías y Git.
+
+El cierre documental se declara al completar ese recorrido y la conservación, incluida la entrada oficial. El cierre de cada investigación lo decide su propio contrato/evidencia: S5 al alcance evidenciado, un seguimiento CDA tras acordar ejecución y R1/R2, y especificaciones tras revisión de resultados. La revisión científica de cinco pasadas y conciliación global no se da por terminada por enlazar la raíz. El PDF UC-21 sigue sin localizarse en los dos árboles; no se incluye un reemplazo ficticio.

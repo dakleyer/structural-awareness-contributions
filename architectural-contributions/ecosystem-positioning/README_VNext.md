@@ -1737,3 +1737,42 @@ La prueba de acceso desde los lectores existentes, incluyendo exploración de la
 Iván autoriza publicar el [informe completo de la sesión](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13.html) como trazabilidad de los cambios de navegación y de las incorporaciones aprobadas. Reúne 75 commits consultados, 304 rutas y 76 pares literales antes/después, con razones, autores, versiones, restauraciones y comprobaciones de conservación. El HTML se puede descargar y leer sin recursos externos; su [manifiesto SHA-256](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13_MANIFEST.json) identifica el archivo exacto entregado.
 
 El informe documenta las actuaciones del 6 al 12 de octubre, con cortes `9056ed78e3e79c025f253cfbc823ccc0293064a4` (Contributions) y `0d32667ccce1dd3e568459a64a89e83987d92d4e` (use-cases). La publicación parte de `b5d126cc877c7e4c6bb7fe45bfa7173a128a6023` y conserva las incorporaciones posteriores. Es un registro retrospectivo de la reestructuración; el estado de cada investigación se consulta en su expediente vigente. No constituye otra VNext ni otro nivel de README.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+FG-TIDA: índice de casos → Issue #21 → UC-21 → objetivos → Challenges → DDS → campañas/estudios → resultados → siguientes decisiones.
+
+### Presentación de conjunto
+
+UC-21 aporta el caso y sus preguntas: decisión correcta y continuidad legítima; controles existentes eficaces; recurrencia después de corregir R1; mecanismo causal común; y respuesta común suficiente. HC, HR, HS y los contrastes H1–H6 conservan sus protocolos. Las seis familias son Challenges en la guía; sus S1–S6, fuentes 00E–00J y rutas originales permanecen. El escenario DDS aplica una tecnología/configuración bajo condiciones delimitadas.
+
+DDS aporta el método. Sus etapas A/B/C se distinguen por objeto y referencia; las rutas de comparación UC-21 R0/R1/R2 permanecen independientes de esos nombres. Cada estudio enlaza registro, versión, freeze, ejecución, evidencia y conclusión; un catálogo de archivos no sustituye esos resultados.
+
+Hay trabajo real que ya puede recorrerse: la contribución S5 con alcance de modelo corregido, su auditoría preservada y el compañero sintético 00I-STATEFUL; los estudios e informes reutilizables bajo sus propios contratos; y el código CDA v0.1.3 publicado por su autor, todavía sujeto a la revisión que corresponda al experimento seleccionado. Los trece estudios locales no se agregan como si fueran una campaña UC-21.
+
+El seguimiento UC-4/CDA se prepara como colaboración seleccionada por pregunta. Nelson conserva el ciclo experimental UC-4 descrito en su comentario. En paralelo pueden prepararse el Challenge R2, comparadores, contrapruebas y revisión Stage A; ejecutar R2 requiere R1 demostrada y congelada. Diseño abierto, ejecución/verificación independiente y selección posterior de especificaciones se separan. La vacante de verificación sigue abierta; el texto no nombra un nuevo titular.
+
+Flores / Theme #21 mantiene su expediente DDS propio y su estado de preparación. No es la Issue de caso UC-21 pese a compartir el número 21. La raíz enlaza el registro de desarrollo como lectura relacionada, sin atribuir esa campaña al caso.
+
+| ID | Cambio | Impacto | Riesgo | Esfuerzo | Orden | Estado |
+|---|---|---|---|---|---|---|
+| 83 | Dar a UC-21 una entrada directa y completa desde su raíz | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 84 | Conectar método y arquitectura actuales conservando los cortes anteriores | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 85 | Actualizar las aportaciones S4/CDA y el ciclo opcional UC-4 ↔ UC-21 | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 86 | Explicar el siguiente trabajo y quién decide cada cierre | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 87 | Dar el mismo recorrido al lector que entra directamente en USE_CASE | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 88 | Conciliar en DDS las condiciones del seguimiento UC-4 / CDA | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 89 | Incluir UC-21 en los índices de casos | Alto | Medio | Bajo | Siguiente | Preparado; no aplicado |
+| 90 | Poner la presentación mantenida en la entrada pública de UC-21 | Alto | Medio | Bajo | Siguiente | Preparado; no aplicado |
+### Orden de incorporación y comprobación final
+
+1. Aprobar y aplicar 83–88 al paquete mantenido y al índice DDS; mantener originales fuera de cada par, enlaces anteriores, anexos, assets, fixtures y versiones. Los destinos nuevos se habilitan juntos: cabeceras 83/87 apuntan al apartado añadido por 86.
+2. Incorporar 89 al índice del fork. Para la tabla oficial, entregar el mismo par al mantenedor FG-TIDA o incorporarlo con su acceso autorizado. La fila copia el tema marcado como principal en la presentación; no afirma una asignación nueva.
+3. Incorporar 90 al cuerpo de la Issue por su propietario, con GO literal sobre el bloque. Mantener título, estado, labels, campos, casillas, comentarios y enlaces congelados. La petición actual es preparación; no se envía un comentario externo ni se cierra la Issue.
+4. Leer desde la tabla oficial y el enlace de la Issue hasta los cinco objetivos, seis Challenges, método DDS, protocolos, registro/freeze/informe y retorno. Probar también entrada directa USE_CASE, ida y vuelta desde DDS y acceso por anexos a soporte y archivos históricos.
+5. Comparar árboles y blobs contra el corte previo: ninguna ruta perdida, ningún archivo movido o renombrado; todos los destinos anteriores presentes. Comparar el cuerpo externo completo y revertir en copia cada sustitución para demostrar que fuera de lo acordado no cambia nada. Leer de vuelta todos los archivos aplicados; registrar commit, fecha y estado en las VNext y retirar cada ficha aplicada de pendientes según la instrucción de Iván, preservando auditorías y Git.
+
+El cierre documental se declara al completar ese recorrido y la conservación, incluida la entrada oficial. El cierre de cada investigación lo decide su propio contrato/evidencia: S5 al alcance evidenciado, un seguimiento CDA tras acordar ejecución y R1/R2, y especificaciones tras revisión de resultados. La revisión científica de cinco pasadas y conciliación global no se da por terminada por enlazar la raíz. El PDF UC-21 sigue sin localizarse en los dos árboles; no se incluye un reemplazo ficticio.
+
+Pares y presentación pública completos: [README UC-21 VNext](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md#cierre-de-entrada-uc-21--13-octubre-2026). Los originales se leen contra sus cortes actuales; no se cambia la jerarquía ni se crea una VNext.

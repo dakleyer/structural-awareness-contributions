@@ -1,5 +1,5 @@
 {
-  "version": "1.14",
+  "version": "1.15",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -4100,6 +4100,488 @@
       "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
       "gate": "Aplicado; no ejecutar otra vez",
       "applied_source": "contributions/when-controls-work-system-fails/README.md"
+    },
+    {
+      "id": 83,
+      "date": "2026-10-13",
+      "title": "Dar a UC-21 una entrada directa y completa desde su raíz",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "Un lector ve la edición de investigación actual y recorre objetivos, Challenges, DDS y resultados sin buscar las adiciones del final.",
+      "riskReason": "Mantener la versión enviada, el nombre del caso, anexos y plantilla; no cambiar labels S1–S6, gates ni resultados.",
+      "costReason": "Dos pasajes cortos; verificar navegación de cabecera y diferencia entre edición enviada y guía mantenida.",
+      "dependencies": [],
+      "pairs": [
+        {
+          "key": "case_readme",
+          "repository_full_name": "dakleyer/use-cases",
+          "source": "contributions/when-controls-work-system-fails/README.md",
+          "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+          "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Cabecera de versión, dentro del bloque inicial existente",
+          "before": "**FG-TIDA contributor use-case draft v0.9.3 · 29 September 2026 · open to revision**",
+          "after": "**FG-TIDA contributor use case · submitted draft v0.9.3, 29 September 2026 · maintained reader edition**",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "key": "case_readme",
+          "repository_full_name": "dakleyer/use-cases",
+          "source": "contributions/when-controls-work-system-fails/README.md",
+          "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+          "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Después de los tres enlaces iniciales; se conservan íntegros",
+          "before": "**[Read the case](USE_CASE.md) · [Explore the annexes](annexes/README.md) · [Prepare a run](templates/RUN_RECORD.md)**",
+          "after": "**[Read the case](USE_CASE.md) · [Explore the annexes](annexes/README.md) · [Prepare a run](templates/RUN_RECORD.md)**\n\n**Reader route:** [Objectives](#research-objectives) → [Challenges](#choose-a-challenge-and-its-evaluation-scenario) → [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) → [Recorded studies and results](#challenges-evaluation-scenarios-and-recorded-work) · [Next investigations](#next-investigations-and-evidence-decisions)",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "repository_full_name": "dakleyer/use-cases",
+      "source": "contributions/when-controls-work-system-fails/README.md",
+      "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+      "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "scope": "case",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": []
+    },
+    {
+      "id": 84,
+      "date": "2026-10-13",
+      "title": "Conectar método y arquitectura actuales conservando los cortes anteriores",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "La ruta principal llega al índice DDS actualizado, incluidos los estudios y el registro de desarrollo; los antiguos enlaces siguen disponibles como fuentes de la integración inicial.",
+      "riskReason": "Conservar las dos URI de de677309 y no convertir el corte actual en freeze de un estudio anterior.",
+      "costReason": "Dos rutas principales y sus dos precedentes; cotejar destinos y preservar URI.",
+      "dependencies": [
+        83
+      ],
+      "pairs": [
+        {
+          "key": "case_readme",
+          "repository_full_name": "dakleyer/use-cases",
+          "source": "contributions/when-controls-work-system-fails/README.md",
+          "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+          "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Dos últimas filas de The case, the research method and the wider system",
+          "before": "| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |\n| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md) |",
+          "after": "| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |\n| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README.md) |\n\nEarlier integration sources remain available: [DDS method at de677309](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and [Ecosystem Positioning at de677309](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md). A registered study keeps the versions cited by its own evidence.",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "repository_full_name": "dakleyer/use-cases",
+      "source": "contributions/when-controls-work-system-fails/README.md",
+      "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+      "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "scope": "case",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": [
+        83
+      ]
+    },
+    {
+      "id": 85,
+      "date": "2026-10-13",
+      "title": "Actualizar las aportaciones S4/CDA y el ciclo opcional UC-4 ↔ UC-21",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "La entrada refleja los comentarios del 12–13 de octubre, enlaza CDA v0.1.3 y conserva el alcance de las aportaciones S5.",
+      "riskReason": "La disponibilidad de código y los resultados comunicados por su autor no constituyen una campaña conjunta registrada ni una validación independiente. Mantener coordinación y semánticas propias de UC-4.",
+      "costReason": "Leer los tres comentarios nuevos, identificar el commit del tag y cotejar ambas rutas receptoras.",
+      "dependencies": [
+        84
+      ],
+      "pairs": [
+        {
+          "key": "case_readme",
+          "repository_full_name": "dakleyer/use-cases",
+          "source": "contributions/when-controls-work-system-fails/README.md",
+          "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+          "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Dos filas de Challenges, evaluation scenarios and recorded work; se añade la referencia CDA",
+          "before": "| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |\n| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997). A source determination and its conditions inform the receiving-decision question; a bounded finding may return as a candidate control for a separately registered test. Its Steps A–F describe the proposed feedback sequence, independently of DDS Stages A/B/C. Existing control success and unresolved observation limits remain valid findings. |",
+          "after": "| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) and [UC-4 scope clarification](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771). A separately scoped follow-up after review of its R0/R1 evidence, with authority inputs, observed effects, a competent conventional comparator and agreed resources. |\n| CDA candidate for S4/S5 | [CDA v0.1.3, commit 7b6b24d](https://github.com/matiascloudarch/cognitive-decision-architecture/tree/7b6b24d416bf78a7e2599ccda932745ebe839fff) and [author's 13 October report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870). Published implementation and author-reported controls available for contract and evidence review. UC-21 records the reviewed claim and tested scope separately. |\n| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997), [Nelson's experimental scope](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771) and [13 October sequence and independent-review roles](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176). CDA candidate → agreed UC-4 contract → reviewed R0/R1 evidence → validated R1 freeze → UC-21 R2 → DDS Stage A synthesis → candidate specifications. R2 preparation and Stage A review can proceed in parallel; R2 execution follows demonstrated R1 correction. Each collaboration selects its own question and scope. Existing control success and observation limits remain valid findings. |",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "repository_full_name": "dakleyer/use-cases",
+      "source": "contributions/when-controls-work-system-fails/README.md",
+      "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+      "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "scope": "case",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": [
+        84
+      ]
+    },
+    {
+      "id": 86,
+      "date": "2026-10-13",
+      "title": "Explicar el siguiente trabajo y quién decide cada cierre",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "Cada ruta tiene una siguiente acción, evidencia necesaria y decisión de cierre; diseño, ejecución/verificación y selección de especificaciones quedan separados.",
+      "riskReason": "No asignar a terceros ni presentar un rol abierto como cubierto; conservar S5 como resultado de modelo y CDA como candidato bajo revisión.",
+      "costReason": "Una sección final; revisar responsabilidades frente a los comentarios y distinguir cierre documental de cierre experimental.",
+      "dependencies": [
+        85
+      ],
+      "pairs": [
+        {
+          "key": "case_readme",
+          "repository_full_name": "dakleyer/use-cases",
+          "source": "contributions/when-controls-work-system-fails/README.md",
+          "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+          "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Al final, después de Additional working files and preserved material",
+          "before": "For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.",
+          "after": "For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.\n\n## Next investigations and evidence decisions\n\nThe [13 October UC-21 discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) identifies the next research work. Each investigation selects a question, a source edition and the evidence required to answer it.\n\n| Workstream | Next action | Evidence and closing decision |\n|---|---|---|\n| S5 supplied-model contribution | Record the supported branches, corrected v0.1.3 scope and upstream assumptions in its [source report](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), following the [author's scoped-closure recommendation](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). | Preserve the positive, negative and limited findings; use a separate selection review for specification implications. An independently executed or wider Q0–Q6 claim requires its own evidence. |\n| CDA / optional UC-4–UC-21 investigation | Review the [pinned candidate](https://github.com/matiascloudarch/cognitive-decision-architecture/tree/7b6b24d416bf78a7e2599ccda932745ebe839fff); agree the selected S4/S5 question, implementation-neutral contract, controls and resources with the relevant contributors. | UC-4 retains its [experimental coordination and scope](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771). Demonstrate and freeze the R1 correction before executing the selected R2. |\n| UC-21 R2 preparation and DDS Stage A synthesis | Prepare the contextual intervention, admissible observations, strong comparator, positive control and falsifiers; use the [run record](templates/RUN_RECORD.md) and [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). | Keep evaluation evidence, action verdict, attempted action, target acknowledgement and independently observed target state distinct. Report decision quality, legitimate continuity, timing and burden under the registered contract. |\n| Candidate specification review | Collect the reviewed findings, alternatives, successful existing controls and remaining observation limits. | Separate open test design, independent execution/verification and evidence-based specification selection. The [independent-testing role](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) is open; record an appointment and completed work when they exist. |\n\nThe [DDS development register](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/campaigns-in-development/INDEX.md) links other research preparation under the same method. Its Flores / Theme #21 dossier is a distinct research contribution, not UC-21's case identifier or an executed UC-21 campaign. Each route keeps its source owner and evidence.\n\nFor the navigation changes and their exact history, consult the [restructuring audit report](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13.html) and the [case review](README_VNext.md).",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "repository_full_name": "dakleyer/use-cases",
+      "source": "contributions/when-controls-work-system-fails/README.md",
+      "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+      "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "scope": "case",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": [
+        85
+      ]
+    },
+    {
+      "id": 87,
+      "date": "2026-10-13",
+      "title": "Dar el mismo recorrido al lector que entra directamente en USE_CASE",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "El documento principal conecta sus objetivos con la guía de Challenges, DDS, trabajo registrado y siguientes decisiones, incluso si el lector evita el README.",
+      "riskReason": "Conservar todos los enlaces iniciales y secciones del caso; no cambiar hechos, hipótesis, gates ni instrucciones de ejecución.",
+      "costReason": "Una línea de recorrido; cotejar objetivos, cinco enlaces previos y anclas nuevas.",
+      "dependencies": [
+        83,
+        86
+      ],
+      "pairs": [
+        {
+          "key": "case_use",
+          "repository_full_name": "dakleyer/use-cases",
+          "source": "contributions/when-controls-work-system-fails/USE_CASE.md",
+          "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+          "source_sha": "a59575314c714b2ffb024b9d33aa2bbf3b9d241f",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/USE_CASE_VNext.md",
+          "location": "Reading route anterior al primer apartado; se conserva la línea completa",
+          "before": "**Reading route:** [Scenarios](#2-the-situation-and-six-scenarios) · [Prepare an experiment](#5-select-prepare-and-run-one-experiment) · [Acceptance gates](#6-six-quality-plans-visible-acceptance-criteria) · [Technologies](#7-results-existing-coverage-and-remaining-gap) · [Extensionality](#8-extensibility-and-extensionality)",
+          "after": "**Research route:** [Objectives](#11-research-objectives-and-evidence) → [Challenges](README.md#choose-a-challenge-and-its-evaluation-scenario) → [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) → [Recorded studies and results](README.md#challenges-evaluation-scenarios-and-recorded-work) · [Next investigations](README.md#next-investigations-and-evidence-decisions)\n\n**Reading route:** [Scenarios](#2-the-situation-and-six-scenarios) · [Prepare an experiment](#5-select-prepare-and-run-one-experiment) · [Acceptance gates](#6-six-quality-plans-visible-acceptance-criteria) · [Technologies](#7-results-existing-coverage-and-remaining-gap) · [Extensionality](#8-extensibility-and-extensionality)",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "repository_full_name": "dakleyer/use-cases",
+      "source": "contributions/when-controls-work-system-fails/USE_CASE.md",
+      "source_sha": "a59575314c714b2ffb024b9d33aa2bbf3b9d241f",
+      "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+      "vnext": "contributions/when-controls-work-system-fails/USE_CASE_VNext.md",
+      "scope": "case",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": [
+        83,
+        86
+      ]
+    },
+    {
+      "id": 88,
+      "date": "2026-10-13",
+      "title": "Conciliar en DDS las condiciones del seguimiento UC-4 / CDA",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "El receptor metodológico encuentra las mismas fuentes y condiciones de R1/R2, coordinación y revisión independiente que el caso.",
+      "riskReason": "No alterar Stages A/B/C, freezes, contratos o resultados; la devolución del hallazgo se selecciona por pregunta y no crea dependencias por defecto.",
+      "costReason": "Un párrafo de actualización que conserva íntegro su contexto anterior; cotejo con el receptor UC-4.",
+      "dependencies": [
+        85,
+        86
+      ],
+      "pairs": [
+        {
+          "key": "dds_index",
+          "repository_full_name": "dakleyer/structural-awareness-contributions",
+          "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "source_commit": "fc90cdc78e8c593ddb848f988962e27b00f00c93",
+          "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "location": "§11, párrafo de comparación específico UC-21; contextos posteriores Flores intactos",
+          "before": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.",
+          "after": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.\n\nThe [12–13 October UC-4 scope clarification](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771), [CDA v0.1.3 report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870) and [UC-21 research sequence and independent-review roles](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) define the current proposed follow-up. UC-4 retains its experimental coordination and source semantics. A selected UC-21 R2 follows a demonstrated and frozen R1 correction; R2 preparation and DDS Stage A review may proceed in parallel. Findings return to a separately reviewed candidate specification, preserving successful controls and unresolved observation limits. Read the [case's next investigations](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#next-investigations-and-evidence-decisions) for the work and decisions still required.",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "source_commit": "fc90cdc78e8c593ddb848f988962e27b00f00c93",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "scope": "corpus",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": [
+        85,
+        86
+      ]
+    },
+    {
+      "id": 89,
+      "date": "2026-10-13",
+      "title": "Incluir UC-21 en los índices de casos",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "El lector que comienza en el registro FG-TIDA encuentra la Issue #21 en la misma tabla que los demás casos; el fork muestra la misma referencia.",
+      "riskReason": "El título y tema reproducen el envío; la fila no afirma asignación/adopción. La incorporación oficial depende del mantenedor FG-TIDA y de acceso autorizado.",
+      "costReason": "Una fila en cada uno de los dos índices; verificar número, título, sector general, autor y tema señalado en el envío.",
+      "dependencies": [
+        83,
+        85,
+        86,
+        87,
+        88
+      ],
+      "pairs": [
+        {
+          "key": "case_root",
+          "repository_full_name": "dakleyer/use-cases",
+          "source": "README.md",
+          "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+          "source_sha": "5b5bee6ef408389ea997ebc7c91021372bb8e170",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Última fila de Submissions, antes de Contributing",
+          "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
+          "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "key": "fg_root",
+          "repository_full_name": "FG-TIDA/use-cases",
+          "source": "README.md",
+          "source_commit": "5ae72ac3094a2712d8b9b75d11bbb928b6859fe6",
+          "source_sha": "af5f597bdbdf4c7632b6dc0df64a31eb30081262",
+          "source_updated_at": null,
+          "source_body_sha256": null,
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Última fila de Submissions, antes de Contributing",
+          "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
+          "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "GO de Iván para ambos pares. La tabla oficial requiere además la incorporación del mantenedor o permiso de escritura; preparar el parche no lo envía.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "scope": "external-and-case",
+      "repository_full_name": "dakleyer/use-cases",
+      "source": "README.md",
+      "source_sha": "5b5bee6ef408389ea997ebc7c91021372bb8e170",
+      "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": [
+        83,
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "id": 90,
+      "date": "2026-10-13",
+      "title": "Poner la presentación mantenida en la entrada pública de UC-21",
+      "state": "Pendiente de decisión",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "wave": "Cierre UC-21 — navegación y presentación",
+      "benefit": "Desde la Issue real se llega inmediatamente a objetivos, Challenges, DDS, estudios y siguientes investigaciones; se conserva íntegro el envío original.",
+      "riskReason": "Edición externa de la entrada formal: no cambiar campos, sectores, título, estado o comentarios; conservar todos los enlaces de aec08fb5. Revalidar el cuerpo justo antes de incorporar.",
+      "costReason": "Un bloque de navegación visible, cotejo integral del cuerpo y lectura de vuelta; acceso o aplicación manual por el propietario.",
+      "dependencies": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "pairs": [
+        {
+          "key": "issue",
+          "repository_full_name": "FG-TIDA/use-cases",
+          "source": "https://github.com/FG-TIDA/use-cases/issues/21",
+          "source_commit": null,
+          "source_sha": null,
+          "source_updated_at": "2026-10-13T10:36:49Z",
+          "source_body_sha256": "42a01df4e67c73a56c39544d6ce8a44dbbcb6d592f840b2ca5588ebf74122428",
+          "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+          "location": "Después de los tres enlaces de aec08fb5 y antes del formulario original",
+          "before": "**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**",
+          "after": "**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**\n\n## UC-21: current research and reading route\n\nUC-21 investigates when locally valid controls remain sufficient for the receiving decision after aggregation, intermediation or material change. The case supplies its objectives and six failure families, called **Challenges** in the maintained reader guide. A DDS evaluation scenario pairs a Challenge with a specified technology/configuration and bounded conditions.\n\n**[Current UC-21 package](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md)** → **[Research objectives](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives)** → **[Challenges](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)** → **[DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md)** → **[Recorded studies and results](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#challenges-evaluation-scenarios-and-recorded-work)**.\n\nThe [next investigations and evidence decisions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#next-investigations-and-evidence-decisions) connect the scoped S5 contribution, the CDA candidate and the optional UC-4 / UC-21 collaboration. Test design, independent execution/verification and specification selection have distinct responsibilities, as proposed in the [13 October discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176).\n\nThe three links above retain the submitted v0.9.3 snapshot; the maintained guide records subsequent research and navigation. Each result remains attached to its source question, edition, freeze and evidence.",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "authorized_to_apply": false,
+      "decision_ready": true,
+      "positive_impact_proven": false,
+      "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
+      "gate": "Iván aprueba literalmente el bloque 90 y su destino Issue #21; revalidar y conservar el resto del cuerpo, y disponer de acceso del propietario. No publicar comentario ni cerrar la Issue por esta preparación.",
+      "preparation": "Completa; pares literales preparados",
+      "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
+      "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
+      "scope": "external",
+      "repository_full_name": "FG-TIDA/use-cases",
+      "source": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "source_sha": null,
+      "source_commit": null,
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
+      "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
+      "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
+      "joint_changes": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ]
     }
   ],
   "audit_coverage": [
@@ -5336,7 +5818,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
+  "review_source_commit": "fc90cdc78e8c593ddb848f988962e27b00f00c93",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -10645,6 +11127,82 @@
       [
         50,
         51
+      ],
+      [
+        83,
+        84
+      ],
+      [
+        84,
+        85
+      ],
+      [
+        85,
+        86
+      ],
+      [
+        83,
+        87
+      ],
+      [
+        86,
+        87
+      ],
+      [
+        85,
+        88
+      ],
+      [
+        86,
+        88
+      ],
+      [
+        83,
+        89
+      ],
+      [
+        85,
+        89
+      ],
+      [
+        86,
+        89
+      ],
+      [
+        87,
+        89
+      ],
+      [
+        88,
+        89
+      ],
+      [
+        83,
+        90
+      ],
+      [
+        84,
+        90
+      ],
+      [
+        85,
+        90
+      ],
+      [
+        86,
+        90
+      ],
+      [
+        87,
+        90
+      ],
+      [
+        88,
+        90
+      ],
+      [
+        89,
+        90
       ]
     ],
     "joint": [
@@ -12203,5 +12761,51 @@
       "issue": "https://github.com/FG-TIDA/use-cases/issues/21",
       "no_public_issue_mutation": true
     }
+  },
+  "closure_preparation_epochs": [
+    {
+      "date": "2026-10-13",
+      "ids": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "source_commits": {
+        "dakleyer/use-cases": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+        "dakleyer/structural-awareness-contributions": "fc90cdc78e8c593ddb848f988962e27b00f00c93",
+        "FG-TIDA/use-cases": "5ae72ac3094a2712d8b9b75d11bbb928b6859fe6"
+      },
+      "issue_updated_at": "2026-10-13T10:36:49Z",
+      "comments_read": 36,
+      "state": "Prepared; canonical and external sources unchanged",
+      "literal_passages": 10,
+      "sector_fields_unchanged": true,
+      "former_issue_append": "Historical alternative; do not apply together with 90",
+      "author": "Codex; same assistant, not independent scientific acceptance",
+      "predecessor_review_source_commit": "21c3946009af4a14433d7240eddce939e4ff9599"
+    }
+  ],
+  "current_closure_preparation": {
+    "date": "2026-10-13",
+    "prepared_ids": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "pending_literal_changes": 8,
+    "literal_passages": 10,
+    "applied": false,
+    "external_sent": false,
+    "old_scope_counts": "Previous dated application scopes remain historical"
   }
 }

@@ -678,3 +678,51 @@ Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas
 Iván autoriza publicar el [informe completo de la sesión](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13.html) como trazabilidad de los cambios de navegación y de las incorporaciones aprobadas. Reúne 75 commits consultados, 304 rutas y 76 pares literales antes/después, con razones, autores, versiones, restauraciones y comprobaciones de conservación. El HTML se puede descargar y leer sin recursos externos; su [manifiesto SHA-256](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13_MANIFEST.json) identifica el archivo exacto entregado.
 
 El informe documenta las actuaciones del 6 al 12 de octubre, con cortes `9056ed78e3e79c025f253cfbc823ccc0293064a4` (Contributions) y `0d32667ccce1dd3e568459a64a89e83987d92d4e` (use-cases). La publicación parte de `b5d126cc877c7e4c6bb7fe45bfa7173a128a6023` y conserva las incorporaciones posteriores. Es un registro retrospectivo de la reestructuración; el estado de cada investigación se consulta en su expediente vigente. No constituye otra VNext ni otro nivel de README.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+### Qué se volvió a leer y qué cambió
+
+Revisión documental por Codex, mismo asistente, 13 octubre 2026. Fuentes: raíz y paquete UC-21 en use-cases `0d32667ccce1dd3e568459a64a89e83987d92d4e`; Contributions `fc90cdc78e8c593ddb848f988962e27b00f00c93`; README de FG-TIDA `5ae72ac3094a2712d8b9b75d11bbb928b6859fe6`. Se consultaron la Issue y sus 36 comentarios; updated_at de la Issue `2026-10-13T10:36:49Z` no se toma como fecha de modificación de cada campo.
+
+La tabla oficial omite UC-21 aunque la Issue existe. En el fork hay una entrada de paquete al final, pero tampoco fila 21 en Submissions. El README del caso mezcla una cabecera de envío de septiembre, vínculos de integración de de677309 y navegación mantenida posterior. Sus objetivos, Challenges y acceso completo ya funcionan: se mejora la entrada, no se crea otro dueño ni se repite la matriz EO descartada.
+
+La revisión anterior alcanzaba 33 comentarios. Ahora constan Nelson #6132541771, Matías #6138082870 e Iván #6143678176. Nelson delimita coordinación y colaboración opcional; Matías informa su candidato y sus controles; Iván propone secuencia paralela y separación de funciones. La lectura del tag CDA v0.1.3 resolvió el commit `7b6b24d416bf78a7e2599ccda932745ebe839fff`; se leyó su README. No se ejecutó su software ni se verificaron independientemente los conteos que comunica el autor.
+
+La recomendación S5 de Zhao #6115830369 sigue siendo cierre al alcance evidenciado del modelo. Se conserva ese resultado y las hipótesis upstream; no se reabre su ejercicio por el solo hecho de preparar una colaboración. El puente R01 mantiene R01-BRIDGE-DRAFT: los nuevos comentarios no revisan su schema ni conceden UC4-SOURCE-REVIEWED.
+
+La Issue conserva once casillas sectoriales frente a cuatro en el formulario fuente; es una discrepancia ya documentada. Este cierre de navegación deja las casillas intactas. Una corrección o ampliación sectorial necesita la decisión específica de Iván; no impide enlazar el caso ni se resuelve copiando ciegamente el formulario.
+
+La propuesta de adición al final de la Issue del 12 de octubre sigue como historia. El candidato 90 es su alternativa vigente de presentación al principio, preparado contra el cuerpo actual. No aplicar ambos. El anterior bloqueo 403 y rechazo de revisión automática se conservan como hechos de ejecución; esta preparación no reintenta la escritura externa.
+
+La relación de recepción vuelve al caso; no modifica la metodología ni sus etapas. El registro Flores mantiene su dueño y estado de desarrollo.
+
+### Cambio 88 — Conciliar en DDS las condiciones del seguimiento UC-4 / CDA
+
+**Impacto Alto · riesgo Bajo · esfuerzo Medio · prioridad Primera. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: El receptor metodológico encuentra las mismas fuentes y condiciones de R1/R2, coordinación y revisión independiente que el caso.
+
+Riesgo concreto: No alterar Stages A/B/C, freezes, contratos o resultados; la devolución del hallazgo se selecciona por pregunta y no crea dependencias por defecto.
+
+Coste de lectura/validación/mantenimiento: Un párrafo de actualización que conserva íntegro su contexto anterior; cotejo con el receptor UC-4.
+
+Dependencias: 85, 86. Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.
+
+**Pasaje 1:** `dakleyer/structural-awareness-contributions` → `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`. Ubicación: §11, párrafo de comparación específico UC-21; contextos posteriores Flores intactos. Fuente: commit `fc90cdc78e8c593ddb848f988962e27b00f00c93`; blob `88b78f386047a76e0e2da905bd951ada06e5602b`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.
+
+The [12–13 October UC-4 scope clarification](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771), [CDA v0.1.3 report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870) and [UC-21 research sequence and independent-review roles](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) define the current proposed follow-up. UC-4 retains its experimental coordination and source semantics. A selected UC-21 R2 follows a demonstrated and frozen R1 correction; R2 preparation and DDS Stage A review may proceed in parallel. Findings return to a separately reviewed candidate specification, preserving successful controls and unresolved observation limits. Read the [case's next investigations](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#next-investigations-and-evidence-decisions) for the work and decisions still required.
+````
+
