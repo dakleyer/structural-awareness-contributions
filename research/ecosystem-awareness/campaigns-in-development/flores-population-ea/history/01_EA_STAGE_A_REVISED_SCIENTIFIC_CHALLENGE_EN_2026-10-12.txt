@@ -1,0 +1,11 @@
+RESEARCH-SIDE TEXT EXTRACTION / RECOVERY — 13 OCTOBER 2026
+Origin: Library/RESIDENCIA: 01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN.pdf; 12 Oct 2026; v0.5 author-side working Stage A document; PDF extracted text, NOT byte-identical PDF.
+Source ID (internal Library locator): file_000000001ee882108b7af67dc0562132
+This is a textual rendition of the recovered file, NOT an original binary, not a freeze, not an independently accepted run.
+Do not treat publication of this rendering as scientific acceptance, as an independent review, or as permission to expose auditor-only answer keys.
+
+===== BEGIN RECOVERED TEXT =====
+
+No readable content was found in this file for the requested mode.
+
+===== END RECOVERED TEXT =====

@@ -299,3 +299,7 @@ Read the report that owns the question before its run data. The routes below col
 - [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)
 
 </details>
+
+## 16. Owner-authorized DDS campaign in development — Flores (13 October 2026)
+
+The [Flores / Theme #21 → EA proposed DDS Stage A campaign](./campaigns-in-development/flores-population-ea/CAMPAIGN.md) has a **full research-side documentary dossier** (scientific design, reviews, source custody, related experiments and continuation). Status: **IN_DEVELOPMENT / NOT_PREREGISTERED / NO EA OR B2 RUN / NOT_ACCEPTED**. It is **not** a separate methodological owner, not a Stage B/C result and not a completed physical DDS-wide migration. This leaf exists by the owner's explicit 13 October request to preserve the complete work rather than an isolated note. Original producers (Justin Flores/#21, Cyril/CTGT, Nelson/UC-4) retain their respective source and action boundaries. The [campaign continuation](./campaigns-in-development/flores-population-ea/CONTINUATION.md) and [source register](./campaigns-in-development/flores-population-ea/SOURCES_AND_CUSTODY.md) govern future readers; no frozen research file was moved or overwritten.

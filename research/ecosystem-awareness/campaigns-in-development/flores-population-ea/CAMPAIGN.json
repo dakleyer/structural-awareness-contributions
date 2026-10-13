@@ -1,0 +1,159 @@
+{
+  "campaign_handle": "DDS-A-FLORES-POP-EA-01",
+  "alias": [
+    "Flores",
+    "Flores EA",
+    "FG-TIDA Theme 21",
+    "population residual discriminability"
+  ],
+  "created": "2026-10-13",
+  "working_status": "IN_DEVELOPMENT_NOT_PREREGISTERED",
+  "formal_campaign_admission": "NOT_ESTABLISHED",
+  "dds_stage_candidate": "A",
+  "dds_stage_object": "candidate downstream contextual-sufficiency specification; not producer detector",
+  "method_router": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "owner_scope": {
+    "local_research_preparation": "Iván Abril Palma / The Integral Management Society",
+    "external_source_owner": "Justin Philip Flores / Himalogic Software Pvt. Ltd.",
+    "ctgt_reference_author": "Cyril Gorlla / CTGT",
+    "uc4_prospective_testbed_owner": "Nelson Trasatti; no accepted joint run inferred",
+    "independent_adjudicator": "NOT_ASSIGNED"
+  },
+  "source_lineage": [
+    {
+      "ref": "https://github.com/FG-TIDA/themes/issues/21",
+      "kind": "external Theme #21 original"
+    },
+    {
+      "ref": "https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md",
+      "kind": "external frozen pre-run specification",
+      "blob_sha": "6be3c731b5f1ed287039cabf653c57a1efa023ad"
+    },
+    {
+      "ref": "https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/expected.py",
+      "kind": "precomputed prediction code",
+      "blob_sha": "3c147fd833d996a8d5f66861fe8b3a0a40c7c8ed"
+    },
+    {
+      "ref": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "kind": "separate UC-21 receiving decision case"
+    },
+    {
+      "ref": "https://github.com/FG-TIDA/use-cases/issues/4",
+      "kind": "potential UC-4 testbed"
+    },
+    {
+      "ref": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "kind": "EA A/B/C/D scientific semantics"
+    }
+  ],
+  "external_fixture": {
+    "name": "TIDA6-FX-0.2",
+    "author": "Cyril Gorlla / CTGT",
+    "source_declared_sha256": "10d721acc44228edaa769719d1ff6eac90fdab2576317a7621cc05eaced33d13",
+    "binary_reverified_here": false,
+    "license_source_declared": "CC BY 4.0"
+  },
+  "external_producer_experiment": {
+    "version": "planted-judge v1.0 (11 Oct 2026)",
+    "n_judges": 6,
+    "n_scored_cases": 8,
+    "excluded": [
+      "UC17-08 (attested absence)"
+    ],
+    "round_counts": [
+      1,
+      5,
+      25
+    ],
+    "variants": [
+      "subtle",
+      "gross"
+    ],
+    "source_code_observed": [
+      "README.md",
+      "expected.py"
+    ],
+    "generate_detect_unblind_present_at_inspection": false,
+    "native_results_verified": false,
+    "source_declared_limits": [
+      "AC-5 shared systematic error not revealed from verdicts",
+      "AC-6 effective independent failure modes not inferred from counts"
+    ]
+  },
+  "internal_workstreams": [
+    {
+      "id": "legacy-P0-P3",
+      "status": "HISTORICAL_EXPLORATORY_NOT_ACCEPTED",
+      "archive_named": "EA_FLORES_RESIDUAL_DISCRIMINABILITY_v0_2_2026-10-12.zip",
+      "archive_verified_now": false
+    },
+    {
+      "id": "v0.3-frame",
+      "status": "AUTHOR_SIDE_REVIEW_ONLY"
+    },
+    {
+      "id": "v0.4-casebook",
+      "status": "CRITICISED_SUPERSEDED_NO_PASS"
+    },
+    {
+      "id": "v0.5-requirements",
+      "status": "CANDIDATE_UNFROZEN",
+      "documentary_calibration_cases": 10,
+      "documentary_calibration_scored": false,
+      "prospective_single_case_sessions": 7,
+      "instrument_regression_checks_reported": 8,
+      "ea_run": false,
+      "b2_run": false,
+      "b3_run": false
+    },
+    {
+      "id": "UC17-08-native-mapping",
+      "status": "PROPOSED_NOT_EXECUTED",
+      "injection": "downstream attested absence -> permit",
+      "source_judges_changed": false
+    },
+    {
+      "id": "CTGT-1.0-vs-1.1",
+      "status": "PROPOSED_CONTROLLED_RECEIVER_SCOPE",
+      "real_post_stage1_event_demonstrated": false
+    },
+    {
+      "id": "real-R3",
+      "status": "NOT_ADMITTED_MISSING_SOURCE_OWNED_T1"
+    }
+  ],
+  "comparators": {
+    "native_source": "Flores producer mechanism retained unchanged",
+    "strong_conventional": "B2",
+    "ea_candidate": "B3 / EA-qualified",
+    "same_access_and_budget_required": true,
+    "parity_is_valid_negative_result": true
+  },
+  "admission": {
+    "stage_a_freeze": false,
+    "external_independent_adjudication": false,
+    "real_r3_exogenous_event": false,
+    "semantic_ea_pass": false,
+    "stage_b": false,
+    "stage_c": false,
+    "uc4_execution": false,
+    "uc21_r2_execution": false
+  },
+  "records": {
+    "read_first": "CAMPAIGN.md",
+    "scientific": "SCIENTIFIC_DESIGN.md",
+    "history": "HISTORY_AND_AUDIT.md",
+    "sources": "SOURCES_AND_CUSTODY.md",
+    "resumption": "CONTINUATION.md",
+    "legacy_transcripts_in": "history/"
+  },
+  "disclosure": {
+    "candidate_private_keys_published": false,
+    "hidden_case_packets_published": false,
+    "original_files_moved_or_deleted": false,
+    "external_people_consented_to_joint_campaign": false
+  },
+  "global_dds_physical_migration_status": "NOT_EXECUTED",
+  "status_note": "Research-side additive custody only; not a formal preregistered, executed or independently adjudicated DDS campaign."
+}
