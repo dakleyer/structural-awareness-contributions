@@ -168,5 +168,62 @@
       "native_flores_results_executed": false,
       "ea_b2_differential_proved": false
     }
-  ]
+  ],
+  "last_documentary_audit": "2026-10-13",
+  "scientific_status": "OWNER_RESEARCH_PIVOT_RECORDED_STAGE_A_TRIAL_DRAFT_NOT_PREREGISTERED_OR_EXECUTED",
+  "approach_pivot": {
+    "decision_id": "FLORES_RESEARCH_APPROACH_DRIFT_2026-10-12_13",
+    "range": "2026-10-12/2026-10-13",
+    "type": "OWNER_RESEARCH_STRATEGY_CHANGE_NOT_NATIVE_REGIME_EVENT",
+    "state": "DOCUMENTED_NOT_FORMAL_PREREGISTRATION",
+    "previous": "growth of author-side Frame-Watch/casebook and P0-P3 synthetic discriminability checks",
+    "current": "single downstream original-source-preserving perturbation and restoration under equal B2 vs EA comparison",
+    "record": "APPROACH_DRIFT_2026-10-12_13.md",
+    "primary_trial": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "audit": "AUDIT_REPORT_2026-10-13.md",
+    "run_card": "RUN_CARD_PREPARATION.md",
+    "distinguish": {
+      "owner_design_change": "DOCUMENTED",
+      "receiver_question_Q0_to_Q1": "PROPOSED",
+      "consumer_mapping_UC17_08_mutation": "PROPOSED_NOT_EXECUTED",
+      "true_same_claim_R3_observation_regime_change": "NOT_OBSERVED_NOT_ADMITTED"
+    }
+  },
+  "primary_trial": {
+    "name": "FLORES_NATIVE_UC17_08_SINGLE_POINT",
+    "state": "DRAFT_NOT_FROZEN",
+    "focus": "native attested absence -> corrupt permit mapping downstream, source intact",
+    "first_branches": [
+      "FLO-F0",
+      "FLO-F1",
+      "FLO-F2",
+      "FLO-F3",
+      "FLO-F4"
+    ],
+    "optional_separate_branches": [
+      "FLO-F5",
+      "FLO-F6"
+    ],
+    "upstream_judges_and_results_untouched": true,
+    "producer_flags_verified_available": false,
+    "comparator": "competent B2 same source/permission/resource/horizon as EA candidate",
+    "false_success_modes": [
+      "blanket stop",
+      "oracle leakage",
+      "hidden world inference",
+      "source verdict alteration",
+      "unsupported C/D promotion"
+    ],
+    "equivalence_valid_outcome": true
+  },
+  "source_recovery": {
+    "date": "2026-10-13",
+    "manifest": "history/recovered-text/RECOVERY_MANIFEST.json",
+    "source_count": 6,
+    "original_readable_characters": 105576,
+    "full_source_reader_text_published": true,
+    "original_pdf_zip_binary_integrity": "NOT_VERIFIED",
+    "prior_summaries_preserved": true,
+    "independent_scientific_acceptance": "NOT_ESTABLISHED"
+  }
 }

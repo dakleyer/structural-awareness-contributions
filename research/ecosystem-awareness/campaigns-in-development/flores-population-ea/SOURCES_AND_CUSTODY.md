@@ -1,6 +1,6 @@
 # Flores × EA — sources, custody, precise claims and recovery
 
-**Reading rule:** primary GitHub source → version/pin → what that source actually establishes → status. A link is not another party's approval, and extracted Library text is not binary-verified archive preservation. Current inspection date: 13 October 2026.
+**Reading rule:** primary GitHub source → version/pin → what that source actually establishes → status. A link is not another party's approval. The [full readable text recovered on 13 October](history/recovered-text/RECOVERY_MANIFEST.json) is **not an authenticated original PDF/TXT/ZIP binary copy**. Current inspection date: 13 October 2026.
 
 ## 1. Authoritative public producer and discussion sources
 
@@ -57,7 +57,7 @@ TIDA6-FX-0.2 archival hash **as published by Flores**: 10d721acc44228edaa769719d
 
 ## 4. 11–12 October research documents traced by source-custody summaries under history/
 
-These references existed in the user's Library; verified by reading the complete text when available. The new GitHub history/*.txt files are **source-custody summaries** of previously reviewed Library notes and PDFs. Complete text extraction was blocked at publication by the Library connector (empty read/401); these files are NOT verbatim transcripts or original PDF/ZIP copies, and have no status of independent acceptance. The original documents remain in Library as distinct artifacts.
+These references existed in the user's Library. The **first campaign version held only historical source-custody summaries** after transfer failed. The second 13 October audit recovered and published the **complete text accessible to the Library reader for all six sources**, preserved under [history/recovered-text/](history/recovered-text/RECOVERY_MANIFEST.json) with a manifest. These reader texts are **not raw byte-for-byte identical PDF/TXT or ZIP originals, not independently authenticated binary exports and not an independent scientific audit**; original document identities remain in Library and original binary parities remain unresolved. The earlier summaries were not deleted.
 
 - **01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN.pdf** — 12 Oct v0.5, current author-side requirements challenge; seven hidden single-case sessions, N01–N10 calibration unscored, B2/B3 not run.
 - **02_EXTERNAL_AUDIT_RECONCILIATION_EN.pdf** — 12 Oct v0.5 author-side response to thirteen external audit findings; eight tooling checks not evidence of EA PASS.
@@ -89,3 +89,20 @@ The earlier source-custody paragraph saying the ZIP bytes were not mounted **des
 - The original historical ZIP bytes are **not contained in this public repository**; public exposure of reviewer-only expectations would compromise subsequent blind comparison. A dedicated private full-byte archival destination with permissions and independent parity verification remains OPEN.
 
 This record now provides exact artifact integrity references; it does not convert author-side audits into independent acceptance, verify the CTGT/Nelson external binary archives, or claim that Flores's unpublished generator/detector/unblind scripts have been run. [P0–P3 provenance and 04/05A contract](./technical/TECHNICAL_INDEX.md).
+
+## 6. New full-readable-text source archive and owner research pivot — 13 October audit
+
+The documentary source recovery now provides **six complete Library reader-text renderings**:
+
+1. [12 Oct — EA_FLORES_RECUPERACION_Y_VERIFICACION complete source text](history/recovered-text/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12_SOURCE_TEXT.txt) — native Flores reentry, UC17-08 one-point corruption, Q0/Q1 and E1–E8.
+2. [12 Oct — EA_FLORES_ADDON_MINIMO complete source text](history/recovered-text/EA_FLORES_ADDON_MINIMO_2026-10-12_SOURCE_TEXT.txt) — single intervention and B2 matched test.
+3. [12 Oct — audit-corrected v0.5 scientific challenge PDF-readable text](history/recovered-text/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12_PDF_TEXT.txt) — seven controlled candidate sessions not executed.
+4. [12 Oct — external-critique v0.4→v0.5 reconciliation PDF-readable text](history/recovered-text/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12_PDF_TEXT.txt) — thirteen audit findings and their limits.
+5. [11 Oct — minimal EA frame-qualification v0.3 PDF-readable text](history/recovered-text/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11_PDF_TEXT.txt) — source/receptor roles, conditional R3, negative controls.
+6. [11 Oct — earlier adversarial audit response PDF-readable text](history/recovered-text/01_AUDIT_RECONCILIATION_EN_2026-10-11_PDF_TEXT.txt) — Q-bind error and separate mathematical counterfactual.
+
+**Custody distinction:** full extracted readable text is now accessible, and earlier summaries persist; the original source PDFs (visual/binary) and v0.2/v0.5 ZIPs were not exported and verified as byte-identical GitHub replicas. Reader text sum recorded: **105,576 characters**. The [manifest](history/recovered-text/RECOVERY_MANIFEST.json) identifies each Library source, derived text path and Git blob; it does not assert original SHA256 equivalence or an independent second source-to-GitHub comparison. **Do not publish auditor-only single-case answer keys.**
+
+The decisive **owner-directed change of approach** is preserved in [APPROACH_DRIFT_2026-10-12_13.md](APPROACH_DRIFT_2026-10-12_13.md), the first focused [experimental Stage A proposal](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md), the [unregistered Run Card](RUN_CARD_PREPARATION.md) and the [renewed audit](AUDIT_REPORT_2026-10-13.md). This is separate from any empirical R3 in Flores's native population.
+
+**Not independently authenticated:** original v0.2 residual-discriminability ZIP, v0.5 audit-corrected ZIP (the Library stores only a sidecar text stating claimed SHA256 `0b2a2b5f91e7b5f040ab550fae2d5c86c32b2a9910c719eafc1b6f0afdf507e0`), purported external audit patch, CTGT fixture ZIP and original PDF binary identities. No full primary payload/ZIP member tree is invented.

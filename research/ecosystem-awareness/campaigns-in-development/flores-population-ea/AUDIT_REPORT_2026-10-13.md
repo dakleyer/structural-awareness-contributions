@@ -36,7 +36,7 @@ Las resoluciones anteriores son **documentales**. F-A06 y las obligaciones de va
 
 ## III. Custodia de fuentes de 11–12 octubre recuperada
 
-Se leyeron seis fuentes originales de la biblioteca, cinco... **cuatro PDF y dos TXT** (total seis): [manifiesto](history/recovered-text/RECOVERY_MANIFEST.json), [texto completo recuperado](history/recovered-text/). La recuperación transfiere el **texto legible tal como se obtuvo del lector**, no una exportación binaria autenticada del archivo original.
+Se leyeron **seis fuentes de la biblioteca: cuatro PDF y dos TXT** (total seis): [manifiesto](history/recovered-text/RECOVERY_MANIFEST.json), [texto completo recuperado](history/recovered-text/). La recuperación transfiere el **texto legible tal como se obtuvo del lector**, no una exportación binaria autenticada del archivo original.
 
 | Fuente histórica | Contenido que antes se resumía | Archivo de texto recuperado |
 |---|---|---|
