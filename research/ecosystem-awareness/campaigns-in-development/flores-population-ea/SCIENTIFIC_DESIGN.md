@@ -3,6 +3,10 @@
 **Scope:** DDS Stage A candidate **specification** assessment. Everything here is working design; no new signed Run Card, acceptance freeze or source-owner approval is implied.
 **Related source:** [campaign master](./CAMPAIGN.md).
 
+## Current owner-directed experimental priority (12–13 October 2026)
+
+**Read [the approach change](APPROACH_DRIFT_2026-10-12_13.md) and [primary protocol](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) first.** v0.5 is an **unfrozen audit-corrected Stage A challenge**, *not* seven executed trials or an automatic decision to grow a benchmark. The preferred first slice is a single UC17-08 consumer-side mapping perturbation with a matched clean control, restoration, an observation-null falsifier and a strong conventional B2. Q0 source validity, Q1 changed receiving question and same-claim R3 observation-regime failure are distinct; the original P0–P3 auto-adjustment ambition remains in history, not a verified EA result. All admission conditions in [Run Card preparation](RUN_CARD_PREPARATION.md) remain open.
+
 ## A. Distinct objects and questions
 
 **Producer scientific object (#21):** reading attributed, scoped record verdicts as a *population* under a named taxonomy, observation period and evaluator-family assumptions. Its v1.0 planned planted-judge simulation has six scripted judges, eight scored cases and private role/key separation. It is not our study to alter.
@@ -100,3 +104,13 @@ No simple exact-string checker or unblinded question-answer quiz may substitute 
 The existing Q0→Q1/UC17-08 test remains the leading source-native mapper candidate. The [P0→P3 protocol](./technical/PROTOCOL_P0_P3.md) is a different, strictly **receiver-side proof-sufficiency subprofile** using Flores's already prescribed blind→unblind information views and a later synthetic local EHD association ablation. Do not treat it as an observed t1 change of judges, a population correctness result, a C→B scientific finding or an executed Theme #21 additional test. Its falsifiers and resource-matched conventional B2 peer are in [technical acceptance](./technical/ACCEPTANCE_AND_B2.md); original adverse findings are in [technical audit](./technical/AUDIT_RECONCILIATION.md).
 
 The latest illustrative proof checker adds one necessary correction: failure of the sealed role→label link **refutes the comparison's eligibility**, but cannot refute **independent correctness of the authored reference key**. Objective key truth has a separate unestablished predicate. The public author-written 21 checks are comparator/instrument diagnostics, not EA or source-native execution results. A generic B2 dependency graph can tie.
+
+## I. Explicit scientific status of three different drifts
+
+**Research approach drift:** owner-directed change of experimental strategy 12–13 October, documented by conversation and the present dossier.
+
+**Receiving applicability/mapping drift:** one controlled downstream adapter semantic change, source-side eight scored cases and judge method unchanged. It can support *only* a bounded Stage A minimum-sufficient-specification finding after independent admission, potentially with conventional B2 equivalent.
+
+**True same-claim R3:** a future separate test requiring established t0 identifiability, an independently verified post-t0 material change in observation/evaluator architecture, legitimately observable evidence and supported recovery. **NOT_OBSERVED / NOT_ADMITTED** in original Flores v1.0. Known version mismatches and calculable re-labeling errors must not be relabelled novel C.
+
+These separations are mandatory even when they falsify a stronger proposed EA advantage.

@@ -5,11 +5,14 @@
 **Custodial author:** Iván Abril Palma / The Integral Management Society (IMS) — internal research preparation.
 **Original external research author:** Justin Philip Flores / Himalogic Software Pvt. Ltd., FG-TIDA Theme #21. His methodology, specification, software, fixtures, outputs and authorship remain his/their own; this dossier does not imply joint authorship, consent, commissioned work or standards-body endorsement.
 **Date of this registry:** 13 October 2026.
+**Current research-design state:** `APPROACH_PIVOT_2026_10_12_13_RECORDED` — the owner's decision prioritizes a single native-source, downstream perturbation and recovery with equal B2, **not** expanding the seven-case v0.5 trial as the default. The DDS Stage A candidate remains `NOT_PREREGISTERED / NOT_EXECUTED / NOT_ADJUDICATED`. See [approach drift](APPROACH_DRIFT_2026-10-12_13.md) and [primary trial](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md).
 **Scientific status:** STAGE_A_CANDIDATE_IN_DEVELOPMENT / NOT_PREREGISTERED / NOT_EXECUTED / NOT_ADJUDICATED.
 **Repository status:** additive research dossier with historical cross-links, NOT the proposed physical DDS-wide migration to a root dds/ tree.
 **Primary owning method:** [DDS Canonical Method Index](../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and [Stage A](../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md).
 
 ## Read this dossier in order
+
+**Read first:** [12–13 October change of research direction](APPROACH_DRIFT_2026-10-12_13.md), [single-change experimental protocol](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md), [full source/trace audit](AUDIT_REPORT_2026-10-13.md), and [Run Card preparation](RUN_CARD_PREPARATION.md). These disambiguate an actual research strategy change from an unobserved same-claim R3.
 
 1. **CAMPAIGN.md (this file)** — identity, scope, scientific object, substantive findings and handoffs.
 2. [SCIENTIFIC_DESIGN.md](./SCIENTIFIC_DESIGN.md) — actual experimental questions, controls, differential contract, native-source constraints, falsifiers and admission.
@@ -17,7 +20,13 @@
 4. [SOURCES_AND_CUSTODY.md](./SOURCES_AND_CUSTODY.md) — exact GitHub/Drive anchors, authors, status and archive gaps.
 5. [CONTINUATION.md](./CONTINUATION.md) — concrete continuation route, pending decisions, named owners and no-loss checklist.
 6. [CAMPAIGN.json](./CAMPAIGN.json) — machine-readable prospective identity/status/lineage. Not a Run Card, freeze or outcome.
-7. history/ contains **source-custody notes and detailed research summaries** from Library notes/PDFs previously read, NOT complete verbatim archive copies: Library re-retrieval was unavailable during publication. Exact original text/bytes and parity remain pending. No candidate-private answer key is included.
+7. history/ retains the earlier **source-custody summaries** and now [six full readable-text recoveries](history/recovered-text/RECOVERY_MANIFEST.json) of 11–12 October Library documents. These are **not authenticated original PDF/TXT binary copies**; ZIP archive bytes and auditor-only blind packets remain unverified/unpublished. No private answer key is included.
+
+## 0. Research approach pivot versus external/scientific drift
+
+The [12–13 October approach drift](APPROACH_DRIFT_2026-10-12_13.md) is a **deliberate change to our research strategy**: from broad author-side Frame-Watch/benchmark growth to a **small, concrete, source-preserving receiving-decision experiment**. It does **not** prove that Flores's judge independence dynamically failed, that a same-claim R3 occurred, or that EA detected an invisible fact. The proposed [first experiment](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) separates **Q0 original source question, Q1 new receiver question, UC17-08 mapping mutation/restoration and no-observability**. v0.5 remains an audit-corrected methodological candidate with seven prospective cases, not the preferred initial trial by default.
+
+**Status dimensions:** documentary custody **registered and reviewed**; scientific strategy **pivot documented**; experimental protocol **draft not frozen**; upstream Flores six-run experiment **pre-run specification**; matched B2/EA **not executed**; genuine R3 **not admitted**; DDS Stage B/C **not started**.
 
 ## 1. Why this is one initiative and a prospective DDS Stage A campaign
 
@@ -94,3 +103,9 @@ For exact status and immediate work, see [CONTINUATION.md](./CONTINUATION.md). *
 The registered campaign now owns a [dedicated P0–P3 technical supplement](./technical/TECHNICAL_INDEX.md) **inside this same campaign**, not a second campaign or separate FG-TIDA tests branch. It retains the more detailed receiving-proof hypothesis, 13 falsifier gates, process-relative 04/05A EHD rules, the auditor's nine-item residual ledger, 20 dated mutable-comment body hashes, precise early-archive SHA-256, and the 21-test local generic proof checker. [Direct protocol](./technical/PROTOCOL_P0_P3.md) · [source pins](./technical/SOURCES_AND_PINS.md) · [audit dispositions](./technical/AUDIT_RECONCILIATION.md) · [reference checker](./technical/code/qualifier.py).
 
 **The master scientific question and status above are unchanged:** Q0→Q1/UC17-08 is the prospective source-native handoff candidate; P0→P3 is a separately named receiver-discriminability **subprofile under the same campaign**. Neither was externally co-approved, preregistered or executed against Flores's native six-run data. Historical v0.2/v0.5 ZIPs were freshly present in a later model runtime and SHA-256 verified, but their bytes and auditor-only oracles are not published here; see the technical history. No blanket EA pass or superiority claim follows.
+
+## 8. 13 October renewed audit and resumption
+
+The [renewed audit](AUDIT_REPORT_2026-10-13.md) distinguishes our research-method change from a hypothetical observation-regime change; exposes and corrects the prior loss of six **full readable text** sources, and keeps original binary PDF/ZIP verification openly pending. The [Stage A first-trial protocol](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and [Run Card preparation](RUN_CARD_PREPARATION.md) state controls and blockers. The source owners retain their work, and no test, independent adjudication or real R3 has occurred as a result of publication.
+
+**Shortest retrieval:** Flores → this campaign → [12–13 Oct pivot](APPROACH_DRIFT_2026-10-12_13.md) → [native single-point trial](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) → [continuation](CONTINUATION.md).

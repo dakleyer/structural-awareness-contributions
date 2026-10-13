@@ -2,6 +2,12 @@
 
 **User retrieval instruction:** when the user says “Flores”, “iniciativa Flores”, “campaña Flores”, “experimento de Flores”, “Theme #21 y EA” or “the residual blind spot of Flores”, open [CAMPAIGN.md](./CAMPAIGN.md), then this document, [SCIENTIFIC_DESIGN.md](./SCIENTIFIC_DESIGN.md), [HISTORY_AND_AUDIT.md](./HISTORY_AND_AUDIT.md), [SOURCES_AND_CUSTODY.md](./SOURCES_AND_CUSTODY.md), and exact current external anchors. Do not ask the user to repeat the earlier two-hour explanation.
 
+## Read first — 12–13 October change of research approach
+
+**The priority is now the [small source-native experiment](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md), following the owner's [methodological pivot](APPROACH_DRIFT_2026-10-12_13.md).** Do not restart by expanding v0.5 or reinterpreting old 14/14 self-checks as scientific wins. v0.5 provides **unfrozen** reviewer safeguards; the preferred first test preserves Flores's original experiment, changes one consumer mapping UC17-08 `attested absence→permit`, records positive control/recovery/no-information negative, and matches a strong B2. A genuine same-claim 4→3 identifiability loss is **not established**; the [Run Card](RUN_CARD_PREPARATION.md) is preparation only.
+
+**Six full readable historical source texts have been [recovered](history/recovered-text/RECOVERY_MANIFEST.json)**; their original PDF/ZIP binary parities remain unverified. The [new audit](AUDIT_REPORT_2026-10-13.md) records what was recovered and what remains blocked.
+
 ## 1. Starting status (13 October 2026)
 
 | Component | State | Correct reading |
@@ -11,8 +17,8 @@
 | Exploratory P0–P3 / v0.2 | HISTORICAL_SUPERSEDED_OR_REWORK_NEEDED | ZIP bytes not currently audited; no scientific EA PASS |
 | v0.3 Frame Qualification | AUTHOR_WORKING_REVIEW | Native-source, no actual B→C R3 demonstrated |
 | v0.4 casebook | CRITICISED / SUPERSEDED | Weak oracle, source quiz, clue leakage and self-scoring issues |
-| v0.5 Stage A Challenge | CANDIDATE_UNFROZEN | N01–N10 unscored; 7 prospective single-case controlled sessions and 8 tooling checks |
-| UC17-08 / 09 and CTGT pair addon | WORKING_TEST_PROPOSAL | Downstream consumer injection, not already run by Flores/UC4 |
+| v0.5 Stage A Challenge | CANDIDATE_UNFROZEN / SUPPORTING_AUDIT_DESIGN | N01–N10 unscored; 7 prospective sessions and 8 tooling checks; **not the owner's selected first narrow trial** |
+| UC17-08 minimum single-point handoff test | PRIMARY_STAGE_A_TRIAL_DRAFT | Clean→corrupted `attested absence→permit` mapping→recovery and no-observation control; **not executed**. UC17-09 and CTGT 1.0/1.1 are separate optional controls |
 | Strong B2 vs EA/B3 | NOT_EXECUTED | Equal evidence, resources and timing; valid parity or negative conclusion |
 | Real post-t0 R3 | NOT_ADMITTED | No legitimate independently verified event in this fixed scripted source |
 | DDS Stage A accepted | NO | No independent oracle adjudication/freeze or valid compared result |
@@ -23,10 +29,10 @@
 
 1. **Recheck Flores's repository and #21 thread**: confirm main/tag README blob, available files generate/detect/unblind, version, whether v1.1 or any actual results were published after 13 Oct, dates/results, new consent/handoff. Do not mistake a future due date (review 18 Oct, provisional result horizon 25 Oct) for delivered evidence.
 2. **Reopen the v0.5 audit-corrected package** from Library or authenticated original ZIP if available; verify source hash, candidate vs reviewer-only contents, full case count, tool checks and exclusions. If missing, use the *public* Stage A challenge and audit summaries here, mark private packages unavailable.
-3. **Select the one prospective question**, independent of EA's preferred answer: native UC17-08 absence→permit adapter substitution, UC17-09 valid-content/rejected-record, CTGT 1.0/1.1 consumer applicability, or a separately admitted genuine t1 shift. Do not conflate these four mechanisms or invent a source event.
+3. **Prioritize the owner-selected first question:** [FLO-F0..F4](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) preserving Q0 and using **one** UC17-08 absence→permit consumer mapping mutation, correct/positive control, verified restoration and indistinguishable-input negative. UC17-09 and CTGT 1.0/1.1 are separate optional controls; a real t1/R3 is a different contingent successor.
 4. **Identify receiving decision and owner**, native data permission, comparator competence, relevant Challenge, finite time/resource horizon and positive legal continuity. Obtain qualified external review of accepted/source-authored facts. Future R3 requires demonstrably eligible t0 reliance plus exogenous observable post-t0 effective change for the **same claim**.
 5. **Define strong conventional B2 first**, permitting ordinary source-integrity, provenance, reference-currentness, identity/policy and scope validation. Freeze admissible input profile and fair experiment before comparing any EA candidate.
-6. **Prepare new independently-reviewed oracle, sealed single-case sessions and Run Card**. Candidate receives only one allowed case, no hidden labels/twins/answers. Run N01–N10 only as calibration. Decide whether 7-case v0.5 is still appropriate or a simpler source-native follow-on is scientifically preferable. Never declare either already accepted.
+6. **Prepare the concrete [Run Card draft](RUN_CARD_PREPARATION.md) and independent oracle for the small primary trial first.** Candidate receives only admitted input, no hidden case labels/twins/answers. The seven-case v0.5 material remains a separate possible reviewed campaign lot, **not automatically merged into the first test**; N01–N10 remain unscored calibration. Never declare either accepted without independent freeze.
 7. **Execute and preserve actual results** if authorized: exact files, commits, case session IDs, chronological action/effect traces where applicable, cost, false holds, scope misses, valid continuity and B2/EA comparison. Include adverse outcomes and NO_DIFFERENTIAL where appropriate.
 8. **Return findings to UC-21 / Theme #21 as proposal, not imposed specification**: population producer owns measurements, EA receives and reports bounded insufficiency/gaps, UC-4 and any human/action function own their authorized interventions. External coauthorship/reviewer/standards route requires separate mutual agreement.
 
