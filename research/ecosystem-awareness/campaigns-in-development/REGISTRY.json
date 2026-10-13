@@ -40,7 +40,12 @@
       "trial_status": "DRAFT_NO_FROZEN_RUN_CARD_NO_EXECUTION",
       "audit_report": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/AUDIT_REPORT_2026-10-13.md",
       "readable_source_recovery": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/history/recovered-text/RECOVERY_MANIFEST.json",
-      "binary_original_archive_parity": "NOT_VERIFIED"
+      "binary_original_archive_parity": "NOT_VERIFIED",
+      "technical_subprofile": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md",
+      "technical_audit": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "candidate_experiment_selection": "UC17_08_OWNER_PRIORITY_BUT_NOT_FROZEN; CORRECTED_P0_P3_ALTERNATE_ACTIVE",
+      "mock_checks_reported": 21,
+      "author_rehashed_ZIP_status": "REPORTED_FROM_OTHER_RUNTIME_BINARY_NOT_PUBLIC_NOT_REHASHED_HERE"
     }
   ],
   "last_updated": "2026-10-13"

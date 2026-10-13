@@ -88,3 +88,9 @@ Required output per actually run case: original source and adapter payloads with
 Do not execute without permission to use original inputs and (for a joint test) the owner's agreement. Do not publish `auditor_only` private cases/key; do not equate code expected outputs with measured result. No re-labelling of native judge IDs per round. No new source event conjured from CTGT 1.0/1.1 history. No Stage A PASS from a self-check, no Stage B/C from a Stage A document.
 
 **Next step is not “write another benchmark”; it is resolve the small admissions needed to run one source-preserving F1/F2 paired branch and its recovery control, with B2 strong and an independent expected-outcome owner.**
+
+## 6. Additional corrected P0–P3 proposal — not automatically part of first scored slate
+
+The concurrent [technical subprofile](technical/PROTOCOL_P0_P3.md) also proposes a **different** legitimate receiver study: P0 blind source view, P1 independently verified authorized unblind, P2 remove **one** receiver-specific proof association without altering any producer bytes or inserting a loss label, and P3 re-establish a justified local basis. It is **not** an observed Flores judge-world R3 and does **not** supply results for F0..F4. Its [21 tests](technical/code/test_qualifier.py) operate on author [mock receipts](technical/code/mock_receipts.json); the [technical audit](TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) found one tautological indistinguishability assertion.
+
+The primary F0..F4 trial remains the **owner's first design priority**, but formal choice between the two variants, exact Challenge, resource counterfactual, independent oracle and any joint UC-4 admission are still `NOT_FROZEN / NOT_EXECUTED`. A future Stage A Run Card must select exactly which candidate obligations/cases are scored, then compare strong B2 with full equal source/evidence/cost. Do not silently combine scores or call P0..P3 obsolete.

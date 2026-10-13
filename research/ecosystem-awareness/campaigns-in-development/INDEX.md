@@ -22,3 +22,9 @@ The first Flores dossier is **documentary custody**, not evidence that the exter
 
 
 **Detailed receiver P0–P3 technical content:** The sole Flores campaign also contains a [technical addendum with the source-native protocol, 04/05A/EHD mapping, 13 requirement gates, B2 comparator, 20 source-comment hashes, audit history, nine-claim residual ledger and public mock-code checks](./flores-population-ea/technical/TECHNICAL_INDEX.md). This is part of **DDS-A-FLORES-POP-EA-01**, not a second campaign. Original v0.2/v0.5 ZIP digests were reverified after the first author-side custody summary; original protected reviewer-only archives are not public candidate inputs.
+
+## Supplementary technical research remains inside Flores (13 October)
+
+The existing [Flores dossier](./flores-population-ea/CAMPAIGN.md) incorporates a detailed [corrected P0–P3 receiving-proof technical subprofile](./flores-population-ea/technical/TECHNICAL_INDEX.md), [13 proposed Stage A gates, strong B2 and residual ledger](./flores-population-ea/technical/ACCEPTANCE_AND_B2.md) alongside the owner's preferred [source-native UC17-08 first test](./flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md). A [new audit](./flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) identifies a tautological mocked observational-equivalence check and corrections to reproduction/custody. None of the 21 authored mock checks is a Flores native result, accepted blinded Stage A trial or proof of EA-specific superiority. **These are two distinct candidate designs in one campaign, not two registered campaigns.**
+
+The technical source reports archived ZIP SHA checks from another session; the original private ZIP bytes and any reviewer-only oracle have not been published in this repository, and this auditor did not rehash those originals. Six separate Library-readable historical texts remain available [here](./flores-population-ea/history/recovered-text/RECOVERY_MANIFEST.json).
