@@ -24,7 +24,15 @@
       "external_coapproval": "NOT_ESTABLISHED",
       "independent_stage_a_review": "NOT_EXECUTED",
       "actual_b2_ea_comparison": "NOT_EXECUTED",
-      "stage_b_c": "NOT_STARTED"
+      "stage_b_c": "NOT_STARTED",
+      "technical_addenda": [
+        {
+          "component_id": "RECEIVER-P0-P3",
+          "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md",
+          "status": "ADDED_AUTHOR_SIDE; NOT_PREREGISTERED",
+          "source_status": "historical v0.2/v0.5 ZIP hashes reverified locally 13 October; raw ZIP bytes private"
+        }
+      ]
     }
   ]
 }

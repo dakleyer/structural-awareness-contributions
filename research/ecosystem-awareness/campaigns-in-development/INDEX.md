@@ -17,3 +17,6 @@ Each candidate must name a single DDS Stage, the precise object, its Challenge, 
 The first Flores dossier is **documentary custody**, not evidence that the external Flores method, UC4, UC21, B2/B3 or EA has passed the planned research tests. Original sources remain controlled by their authors. Any eventual global `dds/` campaign migration is governed by a separate 12 October 2026 conservative proposal and requires new authorization, byte-identical preservation and verified mapping.
 
 **Fast retrieval:** Flores / Justin Flores / Theme #21 / population → EA / UC17-08 / attested absence→permit / B2 comparator → [campaign master](./flores-population-ea/CAMPAIGN.md).
+
+
+**Detailed receiver P0–P3 technical content:** The sole Flores campaign also contains a [technical addendum with the source-native protocol, 04/05A/EHD mapping, 13 requirement gates, B2 comparator, 20 source-comment hashes, audit history, nine-claim residual ledger and public mock-code checks](./flores-population-ea/technical/TECHNICAL_INDEX.md). This is part of **DDS-A-FLORES-POP-EA-01**, not a second campaign. Original v0.2/v0.5 ZIP digests were reverified after the first author-side custody summary; original protected reviewer-only archives are not public candidate inputs.
