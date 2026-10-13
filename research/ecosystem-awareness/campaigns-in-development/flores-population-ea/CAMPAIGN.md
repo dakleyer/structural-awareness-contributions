@@ -87,3 +87,10 @@ A separate RA-AAI/TOCTOU/S5 RATS+OPA comparator route was also discussed on 13 O
 **Not supported now:** public Flores six-run outcomes, any measurement from live heterogeneous judge models, independent acceptance of our seven-case oracle, valid source-owned post-t0 regime event, actual EA or B2 matched execution, admitted Stage A verdict, Stage B/C validation, prevention of a real incident, FG-TIDA adoption, or Flores/Nelson co-approval of our local campaign.
 
 For exact status and immediate work, see [CONTINUATION.md](./CONTINUATION.md). **When asked to “continue Flores,” start here and verify current external source changes before running or proposing another test.**
+
+
+## 8. Technical P0–P3 addendum, provenance-complete (13 October 2026)
+
+The registered campaign now owns a [dedicated P0–P3 technical supplement](./technical/TECHNICAL_INDEX.md) **inside this same campaign**, not a second campaign or separate FG-TIDA tests branch. It retains the more detailed receiving-proof hypothesis, 13 falsifier gates, process-relative 04/05A EHD rules, the auditor's nine-item residual ledger, 20 dated mutable-comment body hashes, precise early-archive SHA-256, and the 21-test local generic proof checker. [Direct protocol](./technical/PROTOCOL_P0_P3.md) · [source pins](./technical/SOURCES_AND_PINS.md) · [audit dispositions](./technical/AUDIT_RECONCILIATION.md) · [reference checker](./technical/code/qualifier.py).
+
+**The master scientific question and status above are unchanged:** Q0→Q1/UC17-08 is the prospective source-native handoff candidate; P0→P3 is a separately named receiver-discriminability **subprofile under the same campaign**. Neither was externally co-approved, preregistered or executed against Flores's native six-run data. Historical v0.2/v0.5 ZIPs were freshly present in a later model runtime and SHA-256 verified, but their bytes and auditor-only oracles are not published here; see the technical history. No blanket EA pass or superiority claim follows.

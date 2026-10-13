@@ -57,3 +57,12 @@
 **Justin Flores** authors the original #21 experiment and planted-judge design; **Cyril Gorlla/CTGT** authors the original verdict/fixture reference; **Olena Pavlenko** provides observation architecture/identifiability clarification; **Nelson Trasatti** owns his UC-4 testbed and candidate mapping; **Steven Zhao** contributes negative-control suggestions; **Iván Abril Palma/IMS** develops the EA receiving-side challenge and this prospective DDS campaign. Bot-authored review, synthesis and tooling must be credited as **AI-assisted author-side work**, not autonomous independent external verification. Each person remains free to reject the proposed interface or participation.
 
 Current campaign: **NOT_PREREGISTERED, NOT_EXECUTED, NOT_ADJUDICATED, NO_INDEPENDENT_ACCEPTANCE**.
+
+
+## Supplemental source recovered and technical defect logged — 13 October 2026
+
+The archival ZIPs previously unmounted in this session were found in the later working runtime and SHA-256 checked; the v0.2 package contains 14 files, including actual qualifier.py, fixtures, metamorphic probe, replay, review and source atoms; v0.5 contains 52 files including its seven provisional reviewer-only case packets, source registry and corrected scorer. Full [artifact digest ledger](./technical/HISTORY_AND_REPRODUCTION.md).
+
+The historical v0.2 recursive qualifier (15/15 author-written checks, 4/4 controlled association deletions) contains a further **semantic confound** not previously recorded: its Q_OBJECTIVELY_CORRECT claim depends on a key-relative comparison; if the seal link is explicitly REFUTED it propagates REFUTED onto truth of the reference itself. Broken linkage is evidence *against comparability*, not evidence that Cyril's reference is false. A corrected generic dependency checker in [technical/code/qualifier.py](./technical/code/qualifier.py) separates those proof predicates. Its 21 local consistency checks are **not** a native Flores experiment or a demonstrated EA win against B2.
+
+Do not overwrite the prior author's source story or replay counts. This is an additive historical correction and a link to the [complete prior-adversarial-disposition supplement](./technical/AUDIT_RECONCILIATION.md).

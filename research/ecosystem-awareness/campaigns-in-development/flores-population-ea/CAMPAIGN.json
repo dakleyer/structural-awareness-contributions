@@ -155,5 +155,18 @@
     "external_people_consented_to_joint_campaign": false
   },
   "global_dds_physical_migration_status": "NOT_EXECUTED",
-  "status_note": "Research-side additive custody only; not a formal preregistered, executed or independently adjudicated DDS campaign."
+  "status_note": "Research-side additive custody only; not a formal preregistered, executed or independently adjudicated DDS campaign.",
+  "technical_addenda": [
+    {
+      "component_id": "DDS-A-FLORES-POP-EA-01/RECEIVER-P0-P3",
+      "index": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md",
+      "kind": "SOURCE_PRESERVING_RECEIVER_SIDE_SPECIFICATION_AND_PUBLIC_MOCK_ONLY",
+      "status": "AUTHOR_SIDE_IN_DEVELOPMENT_NOT_ADMITTED",
+      "source_archive_hashes": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/HISTORY_AND_REPRODUCTION.md",
+      "adversarial_audit": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/AUDIT_RECONCILIATION.md",
+      "local_checks": 21,
+      "native_flores_results_executed": false,
+      "ea_b2_differential_proved": false
+    }
+  ]
 }

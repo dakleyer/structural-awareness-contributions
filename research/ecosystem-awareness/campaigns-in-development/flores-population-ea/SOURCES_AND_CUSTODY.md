@@ -76,3 +76,16 @@ These references existed in the user's Library; verified by reading the complete
 3. If original archives become available, inventory original member list, hashes, authorship, execution claims and file bytes before importing. Preserve exact originals and generate an explicit versioned comparison. Never silently promote an extracted PDF to a canonical frozen run.
 4. The future accepted source lineage must specify commit/path/blob, CTGT fixture hash, dynamic comment body capture and authorization for native A; state UNKNOWN when any is unavailable.
 5. Historic negative outcomes, critiques and conventional B2 wins are first-class evidence; no cleaning by deletion, rebranding as success or pooling incompatible denominators.
+
+
+## 6. Later local-binary verification — 13 October 2026 (adds to earlier session, no retroactive rewrite)
+
+The earlier source-custody paragraph saying the ZIP bytes were not mounted **describes that session correctly**. During subsequent controlled continuation the original files became mounted and were **rehashed from actual local bytes**. This changes their current *custody grade*, not their original scientific/evidence grade:
+
+- **EA_FLORES_RESIDUAL_DISCRIMINABILITY_v0_2_2026-10-12.zip** — SHA-256 `8e1d2196736e2a1ef862e37e3e4d4a30361bb5d2121ebe6f22b501715aa520c6`; 14 ZIP members checked by inventory; original code's 15/15 + 4/4 authored checks rerun locally, not a native Flores result.
+- **EA_POPULATION_STAGE_A_AUDIT_CORRECTED_v0_5_2026-10-12.zip** — SHA-256 `0b2a2b5f91e7b5f040ab550fae2d5c86c32b2a9910c719eafc1b6f0afdf507e0`; 52 members inventoried, including reviewer-only future-oracle packets, **not released to candidate inputs**.
+- The preceding R3, Frame-Watch and v0.3/v0.4 ZIPs and two recovery TXT notes have local-byte SHA-256 in [technical history](./technical/HISTORY_AND_REPRODUCTION.md).
+- Twenty GitHub-comment body hashes **as read on 12 October**, with update dates and mutable-source scope, are published for technical traceability in [technical CSV](./technical/COMMENT_BODY_HASHES_20_2026-10-12.csv). The newer 13 October Nelson and Flores comments require a separate digest cut if used verbatim.
+- The original historical ZIP bytes are **not contained in this public repository**; public exposure of reviewer-only expectations would compromise subsequent blind comparison. A dedicated private full-byte archival destination with permissions and independent parity verification remains OPEN.
+
+This record now provides exact artifact integrity references; it does not convert author-side audits into independent acceptance, verify the CTGT/Nelson external binary archives, or claim that Flores's unpublished generator/detector/unblind scripts have been run. [P0–P3 provenance and 04/05A contract](./technical/TECHNICAL_INDEX.md).

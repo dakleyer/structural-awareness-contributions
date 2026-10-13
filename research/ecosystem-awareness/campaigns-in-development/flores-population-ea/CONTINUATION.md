@@ -64,3 +64,8 @@
 The 13 October ideas on IRG/Tegrity.AI contribution review, optional independent testing and later standards-facing participation are contextual. They do not confer external author/authority/commissioning status on Justin Flores or FG-TIDA. Stage A candidate requirements can eventually be reviewed with independent testers, and only accepted specifications would be proposed to proper pre-standardisation/standards routes. Do not turn this GitHub development record into an external claim of recognition, certification, fee or adoption.
 
 **Shortest command to resume:** “Revisa la campaña FLORES de DDS: actualiza fuentes y v0.5, elige el próximo ensayo limpio UC17-08, conserva el comparador B2 y detalla el Run Card prospectivo sin tocar el caso de Flores.”
+
+
+## 7. New read-first technical addendum (13 October 2026)
+
+Before preparing any new Flores trial, read the [P0–P3 technical component](./technical/TECHNICAL_INDEX.md), its [protocol](./technical/PROTOCOL_P0_P3.md), [EHD mapping](./technical/EHD_04_05A_MAPPING.md), [strong B2 and falsifiers](./technical/ACCEPTANCE_AND_B2.md), [auditor resolution](./technical/AUDIT_RECONCILIATION.md) and [binary custody corrections](./technical/HISTORY_AND_REPRODUCTION.md). This is **not another campaign**, does not replace the main source-native Q0→Q1 test, and does not upgrade a mock into Stage A evidence. The v0.2/v0.5 original archive bytes were later rehashed; they remain outside public GitHub and should be stored in a private authorized vault before declaring archival preservation complete. Original previous text remains preserved above as history.

@@ -93,3 +93,10 @@ No simple exact-string checker or unblinded question-answer quiz may substitute 
 **Acceptance:** strict evidence: positive and negative controls, no unauthorized source/authority promotion, no hidden-world clairvoyance, observed differential after fairness checks, independent judgment and reproducible artifact pins. Missing adjudication returns NOT_ESTABLISHED / NOT_EXECUTED, never PASS.
 
 **R2 / later stages:** UC-4 R0/R1 and UC-21 R2 are separate test protocols, not Stage A/B/C labels. Stage B architecture and Stage C native implementation require separate campaigns and actual prior handoff packages. Independent review and candidate-specification selection must occur before Stage B.
+
+
+## I. Receiving-side loss/recovery technical subprofile (P0–P3) — incorporated 13 October 2026
+
+The existing Q0→Q1/UC17-08 test remains the leading source-native mapper candidate. The [P0→P3 protocol](./technical/PROTOCOL_P0_P3.md) is a different, strictly **receiver-side proof-sufficiency subprofile** using Flores's already prescribed blind→unblind information views and a later synthetic local EHD association ablation. Do not treat it as an observed t1 change of judges, a population correctness result, a C→B scientific finding or an executed Theme #21 additional test. Its falsifiers and resource-matched conventional B2 peer are in [technical acceptance](./technical/ACCEPTANCE_AND_B2.md); original adverse findings are in [technical audit](./technical/AUDIT_RECONCILIATION.md).
+
+The latest illustrative proof checker adds one necessary correction: failure of the sealed role→label link **refutes the comparison's eligibility**, but cannot refute **independent correctness of the authored reference key**. Objective key truth has a separate unestablished predicate. The public author-written 21 checks are comparator/instrument diagnostics, not EA or source-native execution results. A generic B2 dependency graph can tie.
