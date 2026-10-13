@@ -10,6 +10,8 @@ This directory is the shared entry for **prospective DDS campaign dossiers**. On
 
 **Machine-readable working directory:** [REGISTRY.json](./REGISTRY.json). The campaign itself has its own [CAMPAIGN.json](./flores-population-ea/CAMPAIGN.json) with the traceable external and internal source bindings.
 
+**FLORES research approach drift, 12–13 October:** [the owner's scientific before/after decision](./flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) → [one-point source-native trial](./flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) → [new full audit](./flores-population-ea/AUDIT_REPORT_2026-10-13.md) → [Run Card preparation](./flores-population-ea/RUN_CARD_PREPARATION.md). Earlier v0.2–v0.5 reports and [six full Library-readable source texts](./flores-population-ea/history/recovered-text/RECOVERY_MANIFEST.json) remain traceable and are not silently regraded or substituted. The first selected protocol is **not yet preregistered, executed or independently adjudicated**; no real same-claim R3 was found.
+
 ## Rules for future additions
 
 Each candidate must name a single DDS Stage, the precise object, its Challenge, accountable research owners, source authority, status of any frozen evaluation, verifiable source/experiment links, all negative and contradictory findings, and distinction between author-side and independent review. Create separate successor campaigns for any later Stage B/C. No retroactive status promotion, no movement or rewriting of previous artifacts, no new README as a redundant navigation owner.
