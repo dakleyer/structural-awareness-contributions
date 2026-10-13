@@ -299,3 +299,12 @@ Read the report that owns the question before its run data. The routes below col
 - [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)
 
 </details>
+
+
+## 16. Registered FG-TIDA campaign: Flores / Theme #21 Population receiving-side qualification (13 October 2026)
+
+**Campaign DDS-EA-FG21-FLORES-01** is maintained in the existing FG-TIDA tests corpus. [Open the single campaign owner and full technical dossier](./fg-tida/tests/flores-population-theme21/CAMPAIGN.md) · [P0–P3 source-native receiving protocol](./fg-tida/tests/flores-population-theme21/PROTOCOL_P0_P3.md) · [A/B/C/D–EHD mapping](./fg-tida/tests/flores-population-theme21/EHD_04_05A_MAPPING.md) · [Stage-A gates and B2 comparator](./fg-tida/tests/flores-population-theme21/ACCEPTANCE_AND_B2.md) · [auditor disposition](./fg-tida/tests/flores-population-theme21/AUDIT_RECONCILIATION.md) · [historical archive custody](./fg-tida/tests/flores-population-theme21/HISTORY_AND_REPRODUCTION.md).
+
+Route: FG-TIDA [Theme #21](https://github.com/FG-TIDA/themes/issues/21) / [UC-21](https://github.com/FG-TIDA/use-cases/issues/21) → Flores's fixed scripted-judge §9 blind/unblind observation boundary → downstream EA receiving-basis Challenge → DDS **Stage A specification candidate** → local illustrative reference-checker tests → later joint-review source receipts and adjudication only when they exist. Producer methods, source A, CTGT fixture, original probabilities and historical freezes retain their ownership. The receiver's synthetic P2 is **not** a Flores judge/world regression; no real C→B, B→C, independent key truth, Stage A pass or B2/B3 differential is established.
+
+This campaign is registered because it has its own named receiving claim, origin, scope, comparators and auditor trail; it does NOT create a new DDS method, nested programme router or independent campaign for every supporting prototype.

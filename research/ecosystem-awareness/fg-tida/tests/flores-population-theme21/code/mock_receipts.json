@@ -1,0 +1,139 @@
+{
+  "status": "PUBLIC_AUTHOR_MOCK_ONLY_NOT_NATIVE_JUDGE_OUTPUT_AND_NOT_BLIND_ORACLE",
+  "facts": {
+    "method_frozen": "SUPPORTED",
+    "eight_content_cases": "SUPPORTED",
+    "reference_1_0": "SUPPORTED",
+    "shared_blind_spot_declared": "SUPPORTED",
+    "all_nine_scored": "REFUTED",
+    "record_09_admissible": "REFUTED",
+    "independent_key_truth": "NOT_ESTABLISHED",
+    "failure_mode_independence": "NOT_ESTABLISHED"
+  },
+  "receipts": {
+    "blind_flags_receipt": "synthetic slot for released blind result",
+    "unblind_report_receipt": "synthetic slot for separate unblind report",
+    "seal_join": "synthetic verify-only linkage, never sealed roles",
+    "receiver_role_scope": "local report-to-scope association",
+    "receiver_reference": "local reference/version association",
+    "receiver_profile": "local versioned EHD interpretation profile",
+    "decorative_field": "nonmaterial field"
+  },
+  "claims": {
+    "Q_METHOD": {
+      "process": "Flores Stage-1 method specification",
+      "requires": [
+        "method_frozen",
+        "eight_content_cases",
+        "reference_1_0"
+      ]
+    },
+    "Q_BLIND_RECEIPT": {
+      "process": "source-qualification of released blind output",
+      "requires": [
+        "Q_METHOD",
+        "blind_flags_receipt"
+      ]
+    },
+    "Q_KEY_RELATIVE_COMPARABILITY": {
+      "process": "receiving comparison after authorized unblind",
+      "requires": [
+        "Q_METHOD",
+        "unblind_report_receipt",
+        "seal_join",
+        "receiver_role_scope",
+        "receiver_reference",
+        "receiver_profile"
+      ]
+    },
+    "Q_KEY_OBJECTIVELY_TRUE": {
+      "process": "independent key truth verification NOT performed",
+      "requires": [
+        "independent_key_truth"
+      ]
+    },
+    "Q_ALL_NINE_COVERED": {
+      "process": "receiving coverage",
+      "requires": [
+        "all_nine_scored"
+      ]
+    },
+    "Q_RECORD09_ADMITTED": {
+      "process": "source record appraisal",
+      "requires": [
+        "record_09_admissible"
+      ]
+    },
+    "Q_SHARED_LIMIT_DOCUMENTED": {
+      "process": "published Flores structural limitation",
+      "requires": [
+        "shared_blind_spot_declared"
+      ]
+    },
+    "Q_FAILURE_MODE_INDEPENDENCE_PROVED": {
+      "process": "actual judge-family failure-mode independence",
+      "requires": [
+        "failure_mode_independence"
+      ]
+    }
+  },
+  "snapshots": {
+    "P0": {
+      "blind_flags_receipt": "SUPPORTED"
+    },
+    "P1": {
+      "blind_flags_receipt": "SUPPORTED",
+      "unblind_report_receipt": "SUPPORTED",
+      "seal_join": "SUPPORTED",
+      "receiver_role_scope": "SUPPORTED",
+      "receiver_reference": "SUPPORTED",
+      "receiver_profile": "SUPPORTED"
+    },
+    "P2": {
+      "blind_flags_receipt": "SUPPORTED",
+      "unblind_report_receipt": "SUPPORTED",
+      "seal_join": "SUPPORTED",
+      "receiver_role_scope": "SUPPORTED",
+      "receiver_profile": "SUPPORTED"
+    },
+    "P3": {
+      "blind_flags_receipt": "SUPPORTED",
+      "unblind_report_receipt": "SUPPORTED",
+      "seal_join": "SUPPORTED",
+      "receiver_role_scope": "SUPPORTED",
+      "receiver_reference": "SUPPORTED",
+      "receiver_profile": "SUPPORTED"
+    },
+    "P2_profile": {
+      "blind_flags_receipt": "SUPPORTED",
+      "unblind_report_receipt": "SUPPORTED",
+      "seal_join": "SUPPORTED",
+      "receiver_role_scope": "SUPPORTED",
+      "receiver_reference": "SUPPORTED"
+    },
+    "P2_scope": {
+      "blind_flags_receipt": "SUPPORTED",
+      "unblind_report_receipt": "SUPPORTED",
+      "seal_join": "SUPPORTED",
+      "receiver_reference": "SUPPORTED",
+      "receiver_profile": "SUPPORTED"
+    },
+    "P1_benign": {
+      "blind_flags_receipt": "SUPPORTED",
+      "unblind_report_receipt": "SUPPORTED",
+      "seal_join": "SUPPORTED",
+      "receiver_role_scope": "SUPPORTED",
+      "receiver_reference": "SUPPORTED",
+      "receiver_profile": "SUPPORTED",
+      "decorative_field": "NOT_ESTABLISHED"
+    },
+    "P1_seal_refuted": {
+      "blind_flags_receipt": "SUPPORTED",
+      "unblind_report_receipt": "SUPPORTED",
+      "seal_join": "REFUTED",
+      "receiver_role_scope": "SUPPORTED",
+      "receiver_reference": "SUPPORTED",
+      "receiver_profile": "SUPPORTED"
+    }
+  }
+}
