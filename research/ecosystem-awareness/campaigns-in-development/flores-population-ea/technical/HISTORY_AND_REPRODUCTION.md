@@ -44,3 +44,16 @@ This reference checker implements explicit, preregistered proof dependencies ove
 - Candidate mock tests vs independent adjudication/real native results.
 
 **Repository custody state:** historical archive hashes recorded; the actual predecessor ZIPs are not in this public branch. Existing conversation/download copies are temporary and should be saved in a private git release or other durable backup under explicit owner choice.
+
+## 13 October 2026 — corrective reproduction and audit erratum (Git history retained)
+
+The earlier reproduction commands above used `research/ecosystem-awareness/fg-tida/tests/flores-population-theme21/code/`, which **is not the published path**. The exact current commands, from repository root, are:
+
+```sh
+python3 research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/code/test_qualifier.py
+python3 research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/code/qualifier.py research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/code/mock_receipts.json --snapshot P2
+```
+
+These exercise **author-written local mock consistency checks**, NOT Flores's native generator/detector or a blinded EA-vs-B2 comparison. [Technical integration audit](../TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) found that the named `indistinguishable observation` check reassigns `independent_key_truth` to `NOT_ESTABLISHED` when the fixture **already** has that value, so this particular equality is **tautological, not an observationally indistinguishable pair with contrasting hidden truth**. The 21 assertions comprise 17 direct checks, three association removals and that one trivial equality. Their success cannot be cited as independent causal falsifiers or EA performance. The old code remains available unchanged with this explicit limitation.
+
+**ZIP custody:** the table's SHA-256 values were **reported by a different 13 October authoring session** after it obtained local originals. This review inspected the public digest ledger but **did not acquire/rehash the private binary ZIPs**. Recorded hashes are attributed source-custody evidence, not a public binary archive or an independent revalidation in this audit. Neither ZIP bytes nor auditor-only oracles/keys have been published here.

@@ -7,6 +7,8 @@
 
 This addendum contributes the detailed receiver-side P0→P3 hypothesis and its post-audit correction to the existing, independently published working Flores campaign. It is **not another owner**, another test method, another registered freeze, or a claim that its P2 ablation is real behaviour of Flores's judges. The master campaign also records the alternative **UC17-08 attested-absence→permit** handoff and source-native §13/UC-4 controls; the two experimental candidates remain distinct pending selection by the campaign reviewer.
 
+**13 October follow-up audit:** [technical integration and code findings](../TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md). The owner's research-approach pivot prioritizes an initial [single-point UC17-08 source→consumer test](../PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) but retains P0–P3 as a **substantive technical candidate**, not discarded. The priority is **not a frozen selection**; no comparative run has been executed.
+
 ## Complete technical reading route
 
 1. [Native eight-case experiment and P0→P3 receiving protocol](./PROTOCOL_P0_P3.md) — judge model, sealed output, provenance, blind/unblind, selective loss and recovery, source limitations.
@@ -32,6 +34,6 @@ This addendum contributes the detailed receiver-side P0→P3 hypothesis and its 
 
 ## New custody check, 13 October 2026
 
-Unlike the earlier session that had only Library summaries, the original v0.2 and v0.5 ZIP files were **present in the current working runtime** and SHA-256 was independently recalculated from those bytes (see [History](./HISTORY_AND_REPRODUCTION.md)). This supersedes the *availability status*, NOT the historical original research text; full raw ZIPs including private oracles have not been uploaded to the public branch.
+Unlike the earlier session that had only Library summaries, the original v0.2 and v0.5 ZIP files were **reported present in a separate 13 October technical authoring runtime** where their SHA-256 was recalculated from those bytes (see [History](./HISTORY_AND_REPRODUCTION.md)). This supersedes the *availability status*, NOT the historical original research text; full raw ZIPs including private oracles have not been uploaded to the public branch.
 
 **Retrieval prompt:** “Open the DDS-A-FLORES-POP-EA-01 campaign, then its RECEIVER-P0-P3 technical component and historical audit ledger.”
