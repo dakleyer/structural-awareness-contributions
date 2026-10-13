@@ -54,8 +54,8 @@
     },
     {
       "path": "source-copy-index.json",
-      "bytes": 3442,
-      "sha256": "6d53df7c59fa19e44ad51781905fbda988931e7e03cf7376d14a637cd0d4f0d9"
+      "bytes": 8531,
+      "sha256": "f79a7da3cfbde9a103135db989d8eb3399e042e176f182efc61c38e0c81502be"
     },
     {
       "path": "code/preflight.mjs",
@@ -74,33 +74,33 @@
     },
     {
       "path": "source-snapshots/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
-      "bytes": 61774,
-      "sha256": "7fdc0f4e6063ebff1c6e3bd62f1a243056b932bfc38b1fad682e849660a397d2"
+      "bytes": 65171,
+      "sha256": "eb180859505a667b470372ba84495004a169c4bfbe91b95cb386c49da6e10e5f"
     },
     {
       "path": "source-snapshots/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
-      "bytes": 42206,
-      "sha256": "213fc466a895d862f510a930fafc7b523233b00588238e4cdaf4e54d3b63027f"
+      "bytes": 43434,
+      "sha256": "f1ac48ada2a0f523355f650b1cfe4ce2f80b97a418724df4be5ae31f65d823f0"
     },
     {
       "path": "source-snapshots/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
-      "bytes": 46218,
-      "sha256": "ed1d27ab289497d6fea5f0898118df665875899d0428b0f5e775b445cc7eba66"
+      "bytes": 48620,
+      "sha256": "1efee817405d9d4772a244c3ed3234a6f590849775a40846c412e2e40c8f4df7"
     },
     {
       "path": "source-snapshots/AUDIT_REPORT_2026-10-13.md",
-      "bytes": 15941,
-      "sha256": "b61560ce373b8d9ef1b27d88fd5795ded788a610ffad005f2ff36caf5c2915b5"
+      "bytes": 19824,
+      "sha256": "e48a9e3df911da3270ea72c670202d7fce8abdcd1cce3cea04ec183b0397d5d2"
     },
     {
       "path": "source-snapshots/CAMPAIGN.md",
-      "bytes": 19584,
-      "sha256": "9789036c843c44c843d93ca02696b82c6d70877a39d4bbbc994de296a76ac6a5"
+      "bytes": 26022,
+      "sha256": "bc510b5c1811e142f174784bb58f3904eec5bed0f7f063e4298f8cd2fd5040d9"
     },
     {
       "path": "source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
-      "bytes": 58288,
-      "sha256": "bfcbeb795439c1634b66462bc21da202870004d15c0c6116befb8bdf1af5934d"
+      "bytes": 64472,
+      "sha256": "1d7c4bb7bacc152930ea75f58e0462e39adc57bef7fb60f459c93f932ae48a00"
     },
     {
       "path": "source-snapshots/flores_expected_v1.0.py.txt",
@@ -119,19 +119,20 @@
     },
     {
       "path": "source-snapshots/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
-      "bytes": 14589,
-      "sha256": "f24ee25bf8ef1e8b0a8be9f5d29153d4eb4e2e9321fad6b6e7657fed54e7ec89"
+      "bytes": 20349,
+      "sha256": "c3c15d8b24bad22d6a5e5ad8c4e96980d8290a55feecbb772e471df7ada3e106"
     },
     {
       "path": "source-snapshots/technical__AUDIT_RECONCILIATION.md",
-      "bytes": 8476,
-      "sha256": "7d816b67ed99cc3a8202fed3bbcdb01ada44918c4c86f61f503d789086320aa3"
+      "bytes": 9829,
+      "sha256": "29b5d5b51a2d15aa3427b78b421371b9655fecdff29bbe6de45ccb4a5f13147f"
     },
     {
       "path": "source-snapshots/technical__PROTOCOL_P0_P3.md",
-      "bytes": 9751,
-      "sha256": "6a672c5332c43b6e36ef5ac8d7989b4d83da524d59776b7496ce2142697d7acc"
+      "bytes": 10708,
+      "sha256": "a8232d7659b2177e7fa204ae189a156299a2b94daedb9b1a4c61d596fa3e28ec"
     }
   ],
-  "sourcePreparationReadAt": "f960f6f5a627993643512b816430a485227f9118"
+  "sourcePreparationReadAt": "f960f6f5a627993643512b816430a485227f9118",
+  "navigationDerivativeCorrection": "Relative links in source copies resolved against original source location; unrewritten copies retained at dc1dad2b7c6ec3aa3f0ee3520d86739c396e88d3"
 }

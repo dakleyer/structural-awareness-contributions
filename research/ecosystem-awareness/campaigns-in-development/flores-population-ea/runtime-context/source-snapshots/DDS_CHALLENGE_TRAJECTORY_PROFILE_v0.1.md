@@ -1,3 +1,5 @@
+> Copia de lectura con enlaces relativos resueltos respecto a [la ubicación fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). [Texto consultado sin reescritura de enlaces](https://github.com/dakleyer/structural-awareness-contributions/blob/dc1dad2b7c6ec3aa3f0ee3520d86739c396e88d3/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) preservado en el primer commit de publicación. El contenido sustantivo se conserva; esta derivación evita enlaces rotos al consultar la copia fuera de su carpeta fuente.
+
 # Deployment Differential Study (DDS) — Stage A: Specification Discovery / Challenge–Trajectory Profile v0.1
 
 <!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
@@ -6,13 +8,13 @@ Extension-review clarification0.1.3: DDS has three development stages: A, B and 
 
 Coverage/delivery clarification0.1.2: reduced implementations remain traceable to this one working corpus reference; technical coverage and delivery completion are distinct. No frozen evidence or mathematics changes.
 
-Review/navigation addition0.1: [sole owning VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Identity clarification is owner-authorized; method version0.1 and historical instance evidence remain unchanged.
+Review/navigation addition0.1: [sole owning VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Identity clarification is owner-authorized; method version0.1 and historical instance evidence remain unchanged.
 
-**Canonical DDS method index:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) · [Stage B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) · [Stage C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
+**Canonical DDS method index:** [DDS Canonical Method Index v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) · [Stage B — Architecture Verification](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) · [Stage C — Implementation / Problem Validation](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
 
-**Status:** canonical working **DDS Stage A** technical profile inside the Ecosystem Awareness research corpus. The complete DDS method is routed by the [canonical three-stage index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). This Stage A source is additive public methodology, not an adopted standard, certification scheme, assurance method or claim of product superiority.
+**Status:** canonical working **DDS Stage A** technical profile inside the Ecosystem Awareness research corpus. The complete DDS method is routed by the [canonical three-stage index](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). This Stage A source is additive public methodology, not an adopted standard, certification scheme, assurance method or claim of product superiority.
 
-> **Meaning of “canonical” here.** This file is canonical only for **DDS Stage A — Specification Discovery** terminology, coverage and challenge–trajectory mechanics. The full DDS method authority is the [three-stage index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). “Canonical” does not mean independent acceptance, external validation, standards-body adoption, industry consensus or a claim that this v0.1 taxonomy is the unique possible test method. For third-party evaluation, treat Stage A as a working harmonization profile and score compared packages against the same frozen checklist rather than treating this corpus's own prior results as an external acceptance authority.  
+> **Meaning of “canonical” here.** This file is canonical only for **DDS Stage A — Specification Discovery** terminology, coverage and challenge–trajectory mechanics. The full DDS method authority is the [three-stage index](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). “Canonical” does not mean independent acceptance, external validation, standards-body adoption, industry consensus or a claim that this v0.1 taxonomy is the unique possible test method. For third-party evaluation, treat Stage A as a working harmonization profile and score compared packages against the same frozen checklist rather than treating this corpus's own prior results as an external acceptance authority.  
 **Date:** 7 October 2026.  
 **Scope:** technical/research definition of **DDS Stage A** and its full or simplified specification-discovery profiles. Commercial packaging, fees, contracting, sponsor recognition and private commissioning records are governed separately and do not redefine this technical method.
 
@@ -20,7 +22,7 @@ Review/navigation addition0.1: [sole owning VNext](./DDS_CHALLENGE_TRAJECTORY_PR
 
 ## Canonical identity — DDS Stage A
 
-**Authority clarification0.1.1 · updated 7 October 2026.** This file is the canonical **DDS Stage A** source in this corpus. The full DDS method is defined by the [canonical method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), with separate canonical sources for [Stage B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
+**Authority clarification0.1.1 · updated 7 October 2026.** This file is the canonical **DDS Stage A** source in this corpus. The full DDS method is defined by the [canonical method index](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), with separate canonical sources for [Stage B](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
 
 A “DDS Stage A implementation profile” means a scoped application of this Stage A profile; it does not designate another DDS method. R01, Human Escalation/Whispering, STAMP/STPA, SPIFFE, RATS and other current studies retain their source-native mathematics, evidence and acceptance contracts. Their corpus-wide Stage classification is a separate migration step and does not alter historical results.
 
@@ -30,7 +32,7 @@ The internal programme master, commercial tracks, templates, scope/run cards and
 
 This file is **DDS Stage A — Specification Discovery**. It is **not** the complete DDS method, not an architecture-verification specification and not an implementation/product-validation protocol.
 
-Use the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) when the question is “what is DDS as a whole?”. Use this file when the question is:
+Use the [DDS Canonical Method Index](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) when the question is “what is DDS as a whole?”. Use this file when the question is:
 
 > **What specification, mechanism, control profile or technology/configuration rule survives a bounded Challenge strongly enough to be frozen as a candidate specification package?**
 
@@ -137,7 +139,7 @@ Stage A asks:
 
 Where a concrete deployment decision exists, the Stage A technical result may then be projected into bounded **Business Value–Risk–Cost (BV–R–C)** when that projection is in scope.
 
-The complete DDS method has three stages: [Stage A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
+The complete DDS method has three stages: [Stage A — Specification Discovery](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B — Architecture Verification](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C — Implementation / Problem Validation](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
 
 Within Stage A, R01 and current technology trajectories retain their own semantics. DBC may supply Challenge/adjudication material and 00D may supply comparator/fairness discipline; neither changes the Stage A route semantics. The current frozen positive/negative technology traversals remain valid in their original form. Their detailed corpus-wide Stage classification is handled prospectively and does not rewrite frozen evidence.
 
@@ -372,7 +374,7 @@ The evaluator records M-admission independently of whether the technology actual
 Where several M_j routes exist, the Challenge may define a reference M region rather than one path. The admission test applies to the region: at least one legitimate reference closure must remain realistically reachable under the frozen contract.
 
 
-The authoritative Type 0/1/2 derivation remains the [Integrated Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), read with [00M](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) for A/B/C/D semantics and [00N](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) for the mechanism-to-requirements bridge.
+The authoritative Type 0/1/2 derivation remains the [Integrated Foundational Theory](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), read with [00M](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) for A/B/C/D semantics and [00N](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) for the mechanism-to-requirements bridge.
 
 ## 6. Segments, trajectory gates, traversals and traces
 
@@ -673,19 +675,19 @@ Current UC21 traversals can be traced to this profile without rerunning the enti
 
 ## 11. Stage A examples and global registry
 
-The authoritative cross-stage/current-corpus classification now lives in the [DDS Canonical Method Index — Current DDS profile and support registry](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#8-current-dds-profile-and-support-registry). This Stage A section keeps only examples whose current object under test is specification/mechanism/configuration discovery.
+The authoritative cross-stage/current-corpus classification now lives in the [DDS Canonical Method Index — Current DDS profile and support registry](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#8-current-dds-profile-and-support-registry). This Stage A section keeps only examples whose current object under test is specification/mechanism/configuration discovery.
 
 The table is a **Stage A reading aid**. It does not modify the cited artefacts or transfer evidence among them.
 
 | Current Stage A artefact / family | Stage A reading | Evidence state |
 |---|---|---|
 | 00E–00J positive/negative technology trajectories and current product profiles | **Simplified DDS Stage A**: Challenge + technology/configuration mapping + trajectory/quality gates + positive/negative routes | documentary / symbolic / fixture-specific as individually stated; no Stage B/C promotion |
-| [00I AWS Step Functions/RDS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) | **Simplified DDS Stage A** with strong continuity and drift controls | source-reviewed design + inspectable skeleton/fixture evidence; no AWS product execution |
-| [R01 core](./baseline/reductions/00G-R01/README.md) | **Rich DDS Stage A** probabilistic reference instantiation | mathematical / virtual / harness stages separately stated |
-| [R01 technology-extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) | Stage A internal Stage1/Stage2 extension discipline | protocol / proof / traversal stages |
-| [Human Escalation / Whispering](./baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md) | **Rich DDS Stage A** over R01 | virtual/analytical core + published finite SQLite companion; no native/human Stage C campaign |
-| [Current common technology-extension studies](./baseline/reductions/00G-R01/extensions/README.md) | **Simplified DDS Stage A** bounded mechanism/configuration studies | local executed/model evidence with profile-specific ceilings |
-| [01K-A01 Human Capacity / HID](./baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md) | Stage A support/reusable component where consumed by a Stage A profile | specification + JSON schema + deterministic semantic controls; no real human calibration |
+| [00I AWS Step Functions/RDS](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) | **Simplified DDS Stage A** with strong continuity and drift controls | source-reviewed design + inspectable skeleton/fixture evidence; no AWS product execution |
+| [R01 core](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) | **Rich DDS Stage A** probabilistic reference instantiation | mathematical / virtual / harness stages separately stated |
+| [R01 technology-extension protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) | Stage A internal Stage1/Stage2 extension discipline | protocol / proof / traversal stages |
+| [Human Escalation / Whispering](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md) | **Rich DDS Stage A** over R01 | virtual/analytical core + published finite SQLite companion; no native/human Stage C campaign |
+| [Current common technology-extension studies](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md) | **Simplified DDS Stage A** bounded mechanism/configuration studies | local executed/model evidence with profile-specific ceilings |
+| [01K-A01 Human Capacity / HID](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md) | Stage A support/reusable component where consumed by a Stage A profile | specification + JSON schema + deterministic semantic controls; no real human calibration |
 
 ### 11.1 Frozen simplified profiles
 
@@ -778,12 +780,12 @@ Its remaining DDS completion questions are primarily:
 
 ### 14.1 Current executed companions and source parity
 
-The preceding virtual-core questions do not imply that no trace or local execution exists. The [HEW DDS research example](./baseline/reductions/00G-R01/feasibility/HEW_DDS_STUDY_2026-10-06.md) now supplies a frozen finite SQLite companion, declared scenario battery, trace/oracle contract, source/result records and scoped controls. Its model outcomes include sufficient delivery, incompletion and a retained false-source violation. M remains unevaluated in that finite profile. Fixture human/source conditions and illustrative work charges are not observed human performance, native integration or calibrated deployment Cost/Business Value.
+The preceding virtual-core questions do not imply that no trace or local execution exists. The [HEW DDS research example](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HEW_DDS_STUDY_2026-10-06.md) now supplies a frozen finite SQLite companion, declared scenario battery, trace/oracle contract, source/result records and scoped controls. Its model outcomes include sufficient delivery, incompletion and a retained false-source violation. M remains unevaluated in that finite profile. Fixture human/source conditions and illustrative work charges are not observed human performance, native integration or calibrated deployment Cost/Business Value.
 
-The [separate STAMP/STPA, SPIFFE and RATS exercises](./baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/EXERCISES_REPORT.md) likewise consume this one profile. Their evidence is respectively a finite control model, authored selected-profile JWT-SVID/RSA validation, and local file-hash/JWS appraisal/consumption with synthetic trust/source assumptions. Their different predicates and denominators are not pooled. Native SPIRE/TPM conformance, real human calibration, matched superiority and external independence remain unestablished.
+The [separate STAMP/STPA, SPIFFE and RATS exercises](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/EXERCISES_REPORT.md) likewise consume this one profile. Their evidence is respectively a finite control model, authored selected-profile JWT-SVID/RSA validation, and local file-hash/JWS appraisal/consumption with synthetic trust/source assumptions. Their different predicates and denominators are not pooled. Native SPIRE/TPM conformance, real human calibration, matched superiority and external independence remain unestablished.
 
 
-The [current scoped completion edition](./baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md) reviews all four existing studies against this one profile, records both extension stages and proportional closure, reproduces the frozen results, and adds15 separately preregistered local/analytical boundary checks. It corrects evidence interpretation where needed (including simulated RATS application confirmation) without changing original cards, thresholds or results. Scope-complete research is not full native, independent or commissioned delivery.
+The [current scoped completion edition](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md) reviews all four existing studies against this one profile, records both extension stages and proportional closure, reproduces the frozen results, and adds15 separately preregistered local/analytical boundary checks. It corrects evidence interpretation where needed (including simulated RATS application confirmation) without changing original cards, thresholds or results. Scope-complete research is not full native, independent or commissioned delivery.
 
 Programme master, scope/run cards, reports and delivery records must preserve these same source/version, coverage, stage and evidence distinctions. A later mirror or explanatory mapping does not alter frozen originals. The public research example records a partial research delivery, not an issued client SOW, Sponsor/seal, DOI deposit or completed international presentation. Method alignment is not proof of full commercial fulfilment.
 
@@ -830,7 +832,7 @@ This profile does not establish that:
 
 ## 17. Minimum citation rule
 
-Future **DDS Stage A** implementation profiles should link the [canonical DDS method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) and this Stage A source, then state in one compact block:
+Future **DDS Stage A** implementation profiles should link the [canonical DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and this Stage A source, then state in one compact block:
 
 ~~~text
 DDS profile:
@@ -859,19 +861,19 @@ That block is sufficient to show which part of **Stage A** is being used without
 
 ## 18. Source relationships
 
-- [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)
-- [DDS Stage B — Architecture Verification v0.1](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md)
-- [DDS Stage C — Implementation / Problem Validation v0.1](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
-- [Ecosystem Awareness router](./README.md)
-- [Canonical corpus manifest](./baseline/CANONICAL_CORPUS_MANIFEST.md)
-- [Decision Boundary Challenge v0.2](./DECISION_BOUNDARY_CHALLENGE_v0.2.md)
-- [00D canonical benchmark v0.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
-- [R01 README](./baseline/reductions/00G-R01/README.md)
-- [R01 technology extension protocol](./baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md)
-- [Human escalation / whispering](./baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md)
-- [00I Semantic TOCTOU](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md)
-- [00I AWS implementation profile](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md)
-- [DDS research basis and documentary benchmarking dossier](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md) — supporting literature/comparison; not a second method or executed market benchmark.
+- [DDS Canonical Method Index v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md)
+- [DDS Stage B — Architecture Verification v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md)
+- [DDS Stage C — Implementation / Problem Validation v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
+- [Ecosystem Awareness router](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/README.md)
+- [Canonical corpus manifest](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/CANONICAL_CORPUS_MANIFEST.md)
+- [Decision Boundary Challenge v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DECISION_BOUNDARY_CHALLENGE_v0.2.md)
+- [00D canonical benchmark v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
+- [R01 README](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/README.md)
+- [R01 technology extension protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md)
+- [Human escalation / whispering](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md)
+- [00I Semantic TOCTOU](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md)
+- [00I AWS implementation profile](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md)
+- [DDS research basis and documentary benchmarking dossier](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md) — supporting literature/comparison; not a second method or executed market benchmark.
 
 ---
 

@@ -1,3 +1,5 @@
+> Copia de lectura con enlaces relativos resueltos respecto a [la ubicación fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/PROTOCOL_P0_P3.md). [Texto consultado sin reescritura de enlaces](https://github.com/dakleyer/structural-awareness-contributions/blob/dc1dad2b7c6ec3aa3f0ee3520d86739c396e88d3/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/source-snapshots/technical__PROTOCOL_P0_P3.md) preservado en el primer commit de publicación. El contenido sustantivo se conserva; esta derivación evita enlaces rotos al consultar la copia fuera de su carpeta fuente.
+
 # Source-native protocol and receiving-side P0→P3 trajectory
 
 **Version:** 0.3 candidate; 13 October 2026. **No modification of Flores's Stage 1.**
@@ -73,4 +75,4 @@ Source: [Olena four-step logic](https://github.com/FG-TIDA/themes/issues/21#issu
 
 An EA pass cannot be obtained by inserting pre-labelled event=loss or role=C into candidate input; using sealed roles or authored key prior to unblind; treating the absent ninth content as permit; turning unmeasured independence into independent; backdating REF 1.1; turning local profile loss into confirmed judge/world context change; blanket UNKNOWN on everything; or treating a source's output A as EHD metadata B/C/D. Any one material violation invalidates that run's claim.
 
-See [test matrix and B2](./ACCEPTANCE_AND_B2.md).
+See [test matrix and B2](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/ACCEPTANCE_AND_B2.md).

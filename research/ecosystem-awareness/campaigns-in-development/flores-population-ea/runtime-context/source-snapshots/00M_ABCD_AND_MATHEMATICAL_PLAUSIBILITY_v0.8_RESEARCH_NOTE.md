@@ -1,3 +1,5 @@
+> Copia de lectura con enlaces relativos resueltos respecto a [la ubicación fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). [Texto consultado sin reescritura de enlaces](https://github.com/dakleyer/structural-awareness-contributions/blob/dc1dad2b7c6ec3aa3f0ee3520d86739c396e88d3/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/source-snapshots/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) preservado en el primer commit de publicación. El contenido sustantivo se conserva; esta derivación evita enlaces rotos al consultar la copia fuera de su carpeta fuente.
+
 # A/B/C/D Semantics and Mathematical Plausibility of Scoped Requalification
 
 **Can partial metadata support a justified review without assembling all source data?** More specifically, under what conditions can actors recognize that an aspect has become more or less assessable, and identify a justified direction for reviewing their observation window?
@@ -22,7 +24,7 @@ Here, **scope** means the subject and boundaries of a particular question; an **
 
 Fix a **producer, functional process, question, subject/scope, capability and time**. Ask: what did that process deliver; what did it already establish about the basis and limits of its result; where does it have a credible but still uncharacterized route to explore; and what can affect it beyond its effective ability to determine? These are four *components of one qualified position*, not four mutually exclusive bins for objects, four required message fields or four probabilities. Change the process or the question and the same datum may change component. The components do not partition a closed universe or add up to 100%.
 
-The canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal. Its connection to exploration–exploitation literature is discussed in [the companion note, 00N](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), which examines how the representations can support a receiving decision under declared timing, authority and cost conditions.
+The canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal. Its connection to exploration–exploitation literature is discussed in [the companion note, 00N](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), which examines how the representations can support a receiving decision under declared timing, authority and cost conditions.
 
 | Component | Practical reading | What distinguishes it |
 |---|---|---|
@@ -276,7 +278,7 @@ This note addresses **early conceptual maturity, consistent with low-TRL researc
 
 ## Optional visual reading aids
 
-[ABCD: roles, boundaries and functions](./visuals/EA_ABCD_v0.1.svg) · [Four mathematical tasks](./visuals/EA_MECHANISMS_v0.1.svg). These selective reading aids accompany the definitions and conditions above; the full text governs their interpretation.
+[ABCD: roles, boundaries and functions](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/visuals/EA_ABCD_v0.1.svg) · [Four mathematical tasks](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/visuals/EA_MECHANISMS_v0.1.svg). These selective reading aids accompany the definitions and conditions above; the full text governs their interpretation.
 
 ## References and scope of support
 
