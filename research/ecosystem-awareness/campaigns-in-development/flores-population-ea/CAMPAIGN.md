@@ -17,7 +17,7 @@
 4. [SOURCES_AND_CUSTODY.md](./SOURCES_AND_CUSTODY.md) — exact GitHub/Drive anchors, authors, status and archive gaps.
 5. [CONTINUATION.md](./CONTINUATION.md) — concrete continuation route, pending decisions, named owners and no-loss checklist.
 6. [CAMPAIGN.json](./CAMPAIGN.json) — machine-readable prospective identity/status/lineage. Not a Run Card, freeze or outcome.
-7. history/ contains **source-custody notes and detailed research summaries** from Library notes/PDFs previously read, NOT complete verbatim archive copies: Library re-retrieval was unavailable during publication. Exact original text/bytes and parity remain pending. No candidate-private answer key is included. No candidate-private answer key is included.
+7. history/ contains **source-custody notes and detailed research summaries** from Library notes/PDFs previously read, NOT complete verbatim archive copies: Library re-retrieval was unavailable during publication. Exact original text/bytes and parity remain pending. No candidate-private answer key is included.
 
 ## 1. Why this is one initiative and a prospective DDS Stage A campaign
 
@@ -68,7 +68,7 @@ The earlier Frame-Watch/v0.2/v0.3/v0.4 work attempted P0 blind detection → P1 
 
 The **12 October v0.5 correction** reframed the goal as a *requirements-first DDS Stage A challenge*: ten native/documentary calibration questions are **unscored**; seven candidate controlled single-case sessions are **not executed** and require an independent hidden oracle; reviewer-only facts, answers and indistinguishable-world twins must not leak to candidate inputs. The revised scorer's eight regression checks concern **tooling/packet validity**, not EA scientific PASS. B2/B3 not run; R3 real change not admitted; 00K/A25 X1–X7 family admission not proved.
 
-A more detailed *later* 12 October native-scope recovery note examined §13, UC17-08/09 and the 1.0/1.1 pair in depth. That note is stored as a text extraction under history/ and is **a proposal**, not a source-owner ratification or a rerun of the v0.5 trials.
+A more detailed *later* 12 October native-scope recovery note examined §13, UC17-08/09 and the 1.0/1.1 pair in depth. That note is represented by a source-custody summary under history/ and is **a proposal**, not a source-owner ratification or a rerun of the v0.5 trials.
 
 ## 6. How this belongs in DDS and FG-TIDA
 

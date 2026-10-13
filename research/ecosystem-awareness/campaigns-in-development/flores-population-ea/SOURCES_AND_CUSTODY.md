@@ -55,7 +55,7 @@ TIDA6-FX-0.2 archival hash **as published by Flores**: 10d721acc44228edaa769719d
 - [Internal DDS Master v0.9](https://docs.google.com/document/d/1ON3supO1tA4jjKg9VIHFxPADIeYHvaIPt0x39JFjqZg/edit) — operational/program design, subordinate to the technical method.
 - **DDS_MIGRATION_PLAN_SELF_CONTAINED_2026-10-12_v0.2.md**, Library/RESIDENCIA, 349-line planning document reviewed 13 Oct. Physical dds/ migration not executed; the present research-side dossier is a narrowly owner-authorized additive document leaf, not implementation of that global move.
 
-## 4. 11–12 October research documents preserved as extracts under history/
+## 4. 11–12 October research documents traced by source-custody summaries under history/
 
 These references existed in the user's Library; verified by reading the complete text when available. The new GitHub history/*.txt files are **source-custody summaries** of previously reviewed Library notes and PDFs. Complete text extraction was blocked at publication by the Library connector (empty read/401); these files are NOT verbatim transcripts or original PDF/ZIP copies, and have no status of independent acceptance. The original documents remain in Library as distinct artifacts.
 
