@@ -1,11 +1,19 @@
-RESEARCH-SIDE TEXT EXTRACTION / RECOVERY — 13 OCTOBER 2026
-Origin: Library/RESIDENCIA: 02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN.pdf; 11 Oct 2026; v0.3 proposal, NOT executed; PDF extracted text.
-Source ID (internal Library locator): file_0000000089f482108038f50831478cd1
-This is a textual rendition of the recovered file, NOT an original binary, not a freeze, not an independently accepted run.
-Do not treat publication of this rendering as scientific acceptance, as an independent review, or as permission to expose auditor-only answer keys.
+SOURCE-CUSTODY NOTE — ORIGINAL 11 OCT PDF NOT COPIED
+Original: Library/RESIDENCIA/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN.pdf, four-page working review; 11 October 2026.
+Status: EA-POP-FRAME-QUAL-0.3 author-side Stage A proposal, not a shared FG-TIDA interface, not a result. Full original PDF not retrievable to publish as authentic copy after this session's initial review.
 
-===== BEGIN RECOVERED TEXT =====
+Scientific corrections to original Frame-Watch: reassigning judge labels independently each round is NOT Flores's once-per-run protocol. Under the defined random transformation the expected resulting deviations can be calculated with the already specified model (B-characterized), not novel EA-C. This is an invented counterfactual, not observed time event or proof of genuine R3.
 
-No readable content was found in this file for the requested mode.
+Minimum native eligible input set:
+- Flores source README/expected.py: six scripted judges, eight cases, REF 1.0, once-per-run labels, published assumptions, source-verdict limits. Any flags.json produced later would be source A, not a file already published.
+- Olena and #21: identifiability vs sampling, source-evaluator assumptions and possible family dependence.
+- CTGT: recorded UC17-07 native scoped indeterminate, UC17-07-2 under v1.1, UC17-08 attested absence, UC17-09 rejected record, UC17-03 remediate-only authorized text, all source-owned.
+- AVS: a declared issuer relationship is a presence/form datum, not factual guarantee of failure-mode independence.
+- Nelson's unrelated UC-6 agent-ID mutation is not source data from Flores and cannot establish a native Flores label failure.
+- No permission to direct new producer computations to make EA's evidence theory true.
 
-===== END RECOVERED TEXT =====
+First native-scope exercise N1–N6: original content scoring cannot prove coverage of all sends; content-valid rejected record not appraised valid; declared judge independence is not externally established; scoped indeterminate and actual permission differ; authored REF 1.1 presence does not prove post-Stage-1 applicability; once-per-run label identity was not lost in published Flores generator.
+
+Second contingent R3 exercise requires fixed accepted t0 same-claim reliance, authentic effective t1 external source/authority event, legitimate accessible observation distinguishing unchanged/changed worlds, no retune of generator, and B2 with equal access and capacity. Correct outcome includes UNKNOWN/UNVERIFIED/NO_OBSERVABLE_CHANGE.
+
+This note does not attribute a performed experiment, passed control, new adopted adapter or authorized actual action. For deeper source coverage see the later [12 October revised scientific challenge](./01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12.txt).

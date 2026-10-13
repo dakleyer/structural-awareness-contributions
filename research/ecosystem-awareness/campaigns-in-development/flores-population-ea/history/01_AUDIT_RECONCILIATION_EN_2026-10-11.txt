@@ -1,11 +1,13 @@
-RESEARCH-SIDE TEXT EXTRACTION / RECOVERY — 13 OCTOBER 2026
-Origin: Library/RESIDENCIA: 01_AUDIT_RECONCILIATION_EN.pdf; 11 Oct 2026; v0.3/Frame-Watch scientific correction; PDF extracted text.
-Source ID (internal Library locator): file_00000000e2a08243a8145b52e39eb1c8
-This is a textual rendition of the recovered file, NOT an original binary, not a freeze, not an independently accepted run.
-Do not treat publication of this rendering as scientific acceptance, as an independent review, or as permission to expose auditor-only answer keys.
+SOURCE-CUSTODY NOTE — ORIGINAL 11 OCT PDF NOT COPIED
+Original: Library/RESIDENCIA/01_AUDIT_RECONCILIATION_EN.pdf, four-page author-side external-audit response; 11 October 2026.
+Status: REVIEW/CORRECTION OF EARLY EA Frame-Watch V0.3; NOT AN INDEPENDENT NEW SCIENTIFIC AUDIT, NOT EXECUTED. Original binary/textual PDF body was read during analysis but could not be transferred after retrieval permissions failed; this is a substantive synopsis, not full-copy preservation.
 
-===== BEGIN RECOVERED TEXT =====
+Auditor's principal scientific correction accepted: no real EA epistemic C or experimentally demonstrated t1 follows from hypothetical independent shuffle of J labels on each round. Flores actually permutes ONCE per run. Within a changed per-round model the expected counts can be derived from its finite known algorithm; the v0.3 author-side analysis reports subtle 25-round approximate 1.17077049 deviation/round per shuffled arbitrary label and ≈0.0024908871% flagging probability, gross counterpart ≈20.9515%. These are conditional theoretical/statistical counterfactuals, not the probability the real detector finds the same planted actor or a universal result. The original public code cannot establish a dynamically changing observation regime.
 
-No readable content was found in this file for the requested mode.
+Additional concessions: circular 14/14 selftests cannot certify EA compliance; a made-up 'basis lost' event from a prompt is not EA detection; no extra metadata should be demanded from Flores; C/D must be process-/aspect-specific; roles and true labels must be hidden from prospective blind candidates; all B2/equally-sourced conventional peers receive full credit for established functionality; real R3 not admitted; 00K/X1–X7 family admission not proven.
 
-===== END RECOVERED TEXT =====
+Reported research custody at the time: original Frame-Watch v0.1 ZIP with 31 entries and earlier R3 dossier with 18 entries retained in archival references, but their original binaries are not mirrored by the present GitHub initiative. Thirteen pinned public Git file blob identifiers reported matched, 20 direct issue-comment reads reported, 102 unique reference URLs reconciled; CTGT and Nelson ZIP binaries and an external purported v0.2 auditor patch not independently verified.
+
+Scientific status remains AUTHOR_WORKING_PROPOSAL / NO EXOGENOUS POST-T0 / B2_NOT_RUN / NO STAGE_A_PASS. Native-source recovery requires independently accepted evidence and a legitimate t1 event if a temporal regression is claimed.
+
+The correct interpretation and revised challenge are in [12 Oct v0.5](./01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12.txt).

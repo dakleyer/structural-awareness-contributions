@@ -17,7 +17,7 @@
 4. [SOURCES_AND_CUSTODY.md](./SOURCES_AND_CUSTODY.md) — exact GitHub/Drive anchors, authors, status and archive gaps.
 5. [CONTINUATION.md](./CONTINUATION.md) — concrete continuation route, pending decisions, named owners and no-loss checklist.
 6. [CAMPAIGN.json](./CAMPAIGN.json) — machine-readable prospective identity/status/lineage. Not a Run Card, freeze or outcome.
-7. history/ contains extracted textual snapshots of previously recovered research notes and PDF review papers. These are **text extractions, not authenticated byte-identical copies** of their original PDF/Library files. No candidate-private answer key is included.
+7. history/ contains **source-custody notes and detailed research summaries** from Library notes/PDFs previously read, NOT complete verbatim archive copies: Library re-retrieval was unavailable during publication. Exact original text/bytes and parity remain pending. No candidate-private answer key is included. No candidate-private answer key is included.
 
 ## 1. Why this is one initiative and a prospective DDS Stage A campaign
 

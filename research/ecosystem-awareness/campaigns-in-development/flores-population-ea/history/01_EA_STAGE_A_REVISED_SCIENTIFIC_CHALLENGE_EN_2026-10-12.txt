@@ -1,11 +1,31 @@
-RESEARCH-SIDE TEXT EXTRACTION / RECOVERY — 13 OCTOBER 2026
-Origin: Library/RESIDENCIA: 01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN.pdf; 12 Oct 2026; v0.5 author-side working Stage A document; PDF extracted text, NOT byte-identical PDF.
-Source ID (internal Library locator): file_000000001ee882108b7af67dc0562132
-This is a textual rendition of the recovered file, NOT an original binary, not a freeze, not an independently accepted run.
-Do not treat publication of this rendering as scientific acceptance, as an independent review, or as permission to expose auditor-only answer keys.
+SOURCE-CUSTODY NOTE — PDF CONTENT COVERAGE; ORIGINAL PDF NOT COPIED
+Original: Library/RESIDENCIA/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN.pdf; three-page review document; 12 October 2026.
+Read and analysed in this session; source became inaccessible for full binary/text transfer during GitHub archiving.
+Status: AUDIT_CORRECTED_AUTHOR_CANDIDATE_V0_5; NO_INDEPENDENT_ACCEPTANCE; NOT_EXECUTED.
+This is a detailed source outline/recovery, NOT an authenticated or verbatim original-PDF extraction.
 
-===== BEGIN RECOVERED TEXT =====
+TITLE: Ecosystem Awareness / Population — Requirements-first Stage A Challenge
+Main scientific question: Does a receiving-decision qualification specification, without altering the producer's eight-case scripted judge result, preserve valid source limits and decision-context sufficiency? It cannot score high merely by repeating what Flores and CTGT already explicitly know.
 
-No readable content was found in this file for the requested mode.
+Source-native givens:
+- Six scripted judges, eight content-scored cases, source REF-FSCOMMS 1.0, once-per-run J-label assignment, verdict-only blind detector, no verified post-t0 native regime change.
+- UC17-08 attested absence is not permit; UC17-09 content judgement is separate from rejected appraisal; UC17-07 original scoped indeterminate and v1.1 successor were both authored before Flores v1.0.
+- Theme #21 producer, CTGT/#6 reference/appraisal and UC4/EA downstream assessment are different owners.
+- Olena's four-step identifiability sequence is different from EA A/B/C/D and does not entail an automatic native B→C or R3 event.
 
-===== END RECOVERED TEXT =====
+Canonical EA requirements proposed for Stage A: S3/S10→T1 actual scope/change observation; S5/S14→T2 disambiguate supported/UNKNOWN/absence; S9/S11→T2 dependency and provenance; S3/S5/S10→T2/T3 scope-positive continuity and external action ownership; S10/S14→T4 bounded sources, budget, horizon. T3/T4 operational execution cannot be empirically passed by a Stage A document.
+
+Revised composition:
+- N01–N10 remain documentary/native-source CALIBRATION_ONLY, explicitly unscored.
+- Seven controlled single-case sessions from a revised context/scenario proposal, with independently judged source currentness, positive continuity, correlated-source repetition, material method deterioration/recovery, hidden indistinguishable-world negative and repeated unsupported C11 relation assertions. Provisional authored expected outcomes and hidden world pairs stay reviewer-only and were UNFROZEN.
+- A separately contingent real-R3 branch is NOT_ADMITTED until an independent source owner establishes accepted t0 conditions and a post-t0 exogenous effective change for the SAME claim. CTGT 1.0/1.1 is an anchor, not a verified R3 event.
+- Blind packet rules: no outcome labels, branch maps, paired twins or private oracle to candidate, no input-profile asymmetry.
+
+Independence/fairness:
+- Competent conventional B2 and EA candidate B3 must receive identical source access, source-native A availability, resource/authority/horizon and independently adjudicated relevant observations.
+- B2 parity or superior result is legitimate NO_EA_DIFFERENTIAL; both failing does not make EA win.
+- No actual EA/B2/B3 run, scientific PASS, product execution or 00K/A25 X1–X7 family admission.
+- Reported source work: 20 comment bodies fingerprinted (edited posts possible); 102 unique URL references not 102 fully reviewed works; original CTGT and Nelson ZIP binaries not independently verified.
+- Corrected scorer's eight regression tests concern tooling consistency, not EA compliance.
+
+Recovery: source was a PDF file. The present .txt is a rigorous interpretive description made after reading it, not a PDF mirror or accepted source quotation. Original PDF and audit-private v0.5 ZIP remain with original holders.

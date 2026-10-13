@@ -57,7 +57,7 @@ TIDA6-FX-0.2 archival hash **as published by Flores**: 10d721acc44228edaa769719d
 
 ## 4. 11–12 October research documents preserved as extracts under history/
 
-These references existed in the user's Library; verified by reading the complete text when available. The new GitHub history/*.txt files are **rendered/extracted text snapshots** with an origin header. They are not original PDF/ZIP byte-identical archives and have no status of independent auditor acceptance.
+These references existed in the user's Library; verified by reading the complete text when available. The new GitHub history/*.txt files are **source-custody summaries** of previously reviewed Library notes and PDFs. Complete text extraction was blocked at publication by the Library connector (empty read/401); these files are NOT verbatim transcripts or original PDF/ZIP copies, and have no status of independent acceptance. The original documents remain in Library as distinct artifacts.
 
 - **01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN.pdf** — 12 Oct v0.5, current author-side requirements challenge; seven hidden single-case sessions, N01–N10 calibration unscored, B2/B3 not run.
 - **02_EXTERNAL_AUDIT_RECONCILIATION_EN.pdf** — 12 Oct v0.5 author-side response to thirteen external audit findings; eight tooling checks not evidence of EA PASS.
@@ -72,7 +72,7 @@ These references existed in the user's Library; verified by reading the complete
 ## 5. Conservation, gaps and reconstruction policy
 
 1. All prior GitHub sources remain where they are; this initiative does not overwrite any file, move R01, recategorize official Theme #21 or assert a completed DDS migration.
-2. Original Library PDFs/ZIPs remain authoritative for their own artifact identity; our new extracted history copies are labelled as such and their page markers may reflect extractor formatting. Source PDF identity/hash parity is **NOT ESTABLISHED**.
+2. Original Library PDFs/ZIPs remain authoritative for their own artifact identity; our new history summaries identify their source but do not reproduce the original PDF/TXT contents. Complete original text and source PDF identity/hash parity are **NOT ESTABLISHED**.
 3. If original archives become available, inventory original member list, hashes, authorship, execution claims and file bytes before importing. Preserve exact originals and generate an explicit versioned comparison. Never silently promote an extracted PDF to a canonical frozen run.
 4. The future accepted source lineage must specify commit/path/blob, CTGT fixture hash, dynamic comment body capture and authorization for native A; state UNKNOWN when any is unavailable.
 5. Historic negative outcomes, critiques and conventional B2 wins are first-class evidence; no cleaning by deletion, rebranding as success or pooling incompatible denominators.

@@ -1,11 +1,33 @@
-RESEARCH-SIDE TEXT EXTRACTION / RECOVERY — 13 OCTOBER 2026
-Origin: Library/RESIDENCIA: EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12.txt; 12 Oct 2026; later source/native-scope recovery; this is an extracted text copy, NOT source-file byte/hash verification.
-Source ID (internal Library locator): file_00000000c83c82468c90bba07b99a55d
-This is a textual rendition of the recovered file, NOT an original binary, not a freeze, not an independently accepted run.
-Do not treat publication of this rendering as scientific acceptance, as an independent review, or as permission to expose auditor-only answer keys.
+SOURCE-CUSTODY NOTE — NOT A COPY OF THE ORIGINAL FILE
+Original: Library/RESIDENCIA/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12.txt
+Original date: 12 October 2026; original 186 rendered lines were reviewed in this research session.
+Status: SOURCE_READ_AND_SUMMARISED; COMPLETE_TEXT_NOT_ARCHIVED; BINARY_ORIGINAL_NOT_MIRRORED.
+Limitation: after the initial full reading, Library retrieval returned no readable content / 401 during transfer. Consequently this new note is an attributed research-side reconstruction of key findings, NOT verbatim extracted text or an authenticated duplicate. Recover original for any textual verification.
 
-===== BEGIN RECOVERED TEXT =====
+SUBSTANTIVE SCOPE OF THE ORIGINAL NOTE
+01 — The prospective add-on is read-only, downstream of Flores's §13 UC-4 joint review. Upstream six judges, eight scored content cases, seeds, blindness and expected verdicts are unchanged. It does not reproduce or extend the original Theme #21 detector.
 
-No readable content was found in this file for the requested mode.
+02 — Q0 is the original population-deviation question (eight scored cases, REF-FSCOMMS 1.0). Q1 is a DIFFERENT receiving-decision claim: whether the same population result establishes DC-SEND communication coverage, valid appraisal, applicable reference and permission. Flores did not make Q1, so he must not be accused of falsely asserting it.
 
-===== END RECOVERED TEXT =====
+03 — The first minimum single-point change was specifically reserved in Flores §13: UC17-08 is source-native ATTESTED_ABSENCE, not permit. A downstream consumer/adaptor controlled for the UC-4 review incorrectly maps that absence to permit in one experimental branch. A matched control preserves native semantics. Source-native population flags and judged items are unaltered, and the test does not manufacture a ninth verdict. The original trace and bad translation must both be legitimately visible to EA/B2; otherwise detection is impossible.
+
+04 — Adjacent source controls: UC17-09 expected CONTENT verdict remediate, while its RECORD fails appraisal C10 for a stale reference; keep these planes separate. UC17-07 native indeterminate under REF-FSCOMMS 1.0; separately authored R-UC17-07-2 has remediate under 1.1 and supersedes the old version, but was NOT scored in Flores v1.0. This is authored historical version information, not evidence of an exogenous t1 event after the experiment.
+
+05 — Olena's claim→observation/evaluator architecture→identifiability→sampling uncertainty distinguishes a change in the question asked by the receiver (Q0 to Q1, re-evaluate steps 2→3) from a real deterioration of identifiability for the SAME claim (a genuine temporal 4→3). The former is immediately viable as an experiment; the latter has not occurred in the fixed scripted producer source. Increasing rounds cannot make originally unobservable majority correctness inferable.
+
+06 — The source 00M A/B/C/D roles are relative to a named process and aspect. Producer's current assessment remains A of that producer. Already characterized limitations and evidence are B; a source-grounded but uncharacterized exploratory method can be C; a materially relevant effect beyond a named process's effective evaluation route may be D. Native word 'indeterminate', protocol gap or known source-version mismatch never automatically equals C or D. No new producer work or fabricated B/C/D inputs are required.
+
+07 — Functional requirements E1–E8: (E1) preserve original results/key/scope; (E2) source and dependency lineage; (E3) genuine receiving question change without inventing Flores claims; (E4) separate absent/indeterminate/rejected/remediated/permit; (E5) continuation of legitimate original work; (E6) process-relative A/B/C/D; (E7) insufficiency with named owner/gap and no authority laundering; (E8) strong competent conventional B2 under identical source/input/resource conditions. Peer equivalence or negative differential is valid scientific outcome.
+
+08 — No real Flores detector execution, matched EA/B2 execution, valid post-t0 loss of independence, B→C→B temporal regression, Stage A acceptance, Stage B or Stage C result was established by this note. The document says it was a reconstructed note after earlier chat text was not available, not an original recovered disappeared file.
+
+PRIMARY ANCHORS
+https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532364422
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5983805190
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-5984029028
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-6028662270
+https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md
+
+RECOVERY ACTION: acquire the original Library .txt bytes and store an explicitly immutable, hash-verified source copy separately if authorised; update custody manifest; do not pretend this synthesis is the original file.

@@ -1,11 +1,25 @@
-RESEARCH-SIDE TEXT EXTRACTION / RECOVERY — 13 OCTOBER 2026
-Origin: Library/RESIDENCIA: 02_EXTERNAL_AUDIT_RECONCILIATION_EN.pdf; 12 Oct 2026; author-side response to external critique, NOT independent acceptance; PDF extracted text.
-Source ID (internal Library locator): file_00000000f8b48210b21cfef41c7c5bd2
-This is a textual rendition of the recovered file, NOT an original binary, not a freeze, not an independently accepted run.
-Do not treat publication of this rendering as scientific acceptance, as an independent review, or as permission to expose auditor-only answer keys.
+SOURCE-CUSTODY NOTE — DETAILED AUDIT DISPOSITION; ORIGINAL PDF NOT COPIED
+Original: Library/RESIDENCIA/02_EXTERNAL_AUDIT_RECONCILIATION_EN.pdf; three-page 12 October 2026 PDF. Previously read, later source transfer 401.
+Status: AUTHOR-SIDE RECONCILIATION OF EXTERNAL CRITICISM, not an independent verdict on the v0.5 successor. Not a verbatim PDF copy.
 
-===== BEGIN RECOVERED TEXT =====
+This source acknowledges thirteen substantive defects in the previous v0.4 design and the state of correction:
 
-No readable content was found in this file for the requested mode.
+1. Overclaim of primary-source GitHub comment verification -> 20 actual comment bodies read and fingerprinted, with mutable comments/edit timestamps registered.
+2. Scorer counted copied scopes/string presence as semantic correctness -> tool validation adjusted, auto exact-match of human adjudication no longer a proof.
+3. Input information profiles not recorded -> METADATA_ONLY, FULL_NATIVE_RESULT or EXTERNAL_SOURCE_A_EVENT; access log needed.
+4. Candidate pack exposed branch answers and case/world-pair clues -> private reviewer-only cases, sealed one-case packets, no shared hidden twin to a blind candidate.
+5. Documentary quiz rewarded reporting obvious source-owner facts -> native N01–N10 now UNSCORED calibration, no invented Flores claims.
+6. Weak, overfit oracle -> narrower seven candidate cases; independent review still needed and no one claims differential EA proof.
+7. Automatic/unjustified D and C role labels -> B/D disputes N05/N06/X08 left for process-relative human judgment; no machine-scored D.
+8. Attribution error: A03 owner source was Cyril/CTGT, not Anton; keep Anton's separate AVS C11 source properly attributed.
+9. Indistinguishable-world twins shown together made comparison trivial -> truth stays with reviewer in separate single-case sessions.
+10. Self-authored EA framework statements counted as external -> separated and labelled in-house; no artificial independent sources.
+11. Registry count conflated additions and distinct references -> 102 distinct URLs, not 102 verified sources (42 rows added had 20 truly new unique URLs).
+12. Claim that all cited EA files independently compared against later HEAD -> identified as auditor-reported, not freshly reproduced by successor author.
+13. External auditor patch SHA and original binaries unavailable -> no claimed hash/parity; external UC-21 receiving decision on-ramp added as candidate only.
 
-===== END RECOVERED TEXT =====
+The corrected 05_tools regression pack has eight narrow checks: source/reasons and completeness, information profile mismatch, human-approved process strings, ignored copied scope strings, evidence of access trace, oracle missing justification negative, metadata-only source A access boundary, and one-case session isolation. Success of these tests does NOT imply EA PASS or Stage A completion.
+
+Other key source facts: no real post-Flores-v1.0 t1 event; no actual loss of judge independence after established t0; no valid B→C empirical regression, no executed B2/B3. The reviewer asked to independently adjudicate claim scope, source-native truth, challenge falsifiability, whether a competent conventional peer satisfies the same obligations and which EA S/T claims the package can support. No hidden answer packets published in this repository.
+
+This note is an interpretive recovery, not a copy of a raw PDF nor an accepted external audit. Recover and pin the original file before asserting full source textual custody.

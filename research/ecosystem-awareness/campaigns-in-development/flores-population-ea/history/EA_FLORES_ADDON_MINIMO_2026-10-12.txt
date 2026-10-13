@@ -1,11 +1,20 @@
-RESEARCH-SIDE TEXT EXTRACTION / RECOVERY — 13 OCTOBER 2026
-Origin: Library/RESIDENCIA: EA_FLORES_ADDON_MINIMO_2026-10-12.txt; 12 Oct 2026; minimal UC17-08 proposal; rendered text copy only.
-Source ID (internal Library locator): file_00000000625c81f4bb6988b870b1b79e
-This is a textual rendition of the recovered file, NOT an original binary, not a freeze, not an independently accepted run.
-Do not treat publication of this rendering as scientific acceptance, as an independent review, or as permission to expose auditor-only answer keys.
+SOURCE-CUSTODY NOTE — NOT A VERIFIED BYTE COPY
+Original: Library/RESIDENCIA/EA_FLORES_ADDON_MINIMO_2026-10-12.txt, 26 rendered lines; read 13 October.
+Status: SOURCE_READ_AND_SUMMARISED; COMPLETE_TEXT_NOT_ARCHIVED; post-read retrieval failed.
 
-===== BEGIN RECOVERED TEXT =====
+This original brief states: keep Flores §13 Stage-1 six judges, eight cases, REF-FSCOMMS 1.0, seeds, answer-key handling and all flags unchanged. The original population detector measures deviation over content verdicts, not every DC-SEND message and not the appraisal or permission of each record.
 
-No readable content was found in this file for the requested mode.
+New receiver-side question: does the source result suffice for a downstream decision requiring complete DC-SEND coverage and record validity? It is not a claim made by Flores and must not be sent upstream to shape measurement.
 
-===== END RECOVERED TEXT =====
+The smallest §13-native candidate injection: R-UC17-08, an 'attested absence' from producer CTGT, is mapped downstream by a consumer adaptor to 'permit' in one controlled UC-4 branch, contrasted with correct no-error mapping. No new judge or ninth verdict. A source-qualified receiver with both original trace and translation should identify the loss of semantics; with only the eight judged verdicts and no UC17-08 source/mapping trace it cannot detect it. Report that observational limit.
+
+Controls: positive original Q0 continuity; UC17-09 content remediate but record rejected C10; R-UC17-07-2 under REF 1.1 selected only as controlled version/receiver request, not imagined later adoption; missing applicability remains NOT_ESTABLISHED. B2 competent conventional source/version/lineage checker receives identical information and resources; if it also succeeds, no EA-specific differential.
+
+Olena step 2→3 on a changed RECEIVING QUESTION is an admissible specification exercise; this does not show 4→3 collapse for the same claim or actual dynamic B→C→B because fixed judges do not exhibit an independently measured exogenous change. Preserve no unauthorized actuation, nonblanket continuity, distinct source-native A and EA B/C/D.
+
+Primary anchors:
+https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532364422
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-5984029028
+
+This note is a recovery summary of a previously read file, not the complete recovered source. For exact wording/freeze or byte parity, retrieve the original from Library.
