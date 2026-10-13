@@ -1,0 +1,30 @@
+{
+  "registry_name": "DDS_CAMPAIGNS_IN_DEVELOPMENT_RESEARCH_SIDE",
+  "date": "2026-10-13",
+  "status": "WORKING_NAVIGATION_NOT_METHOD_AUTHORITY",
+  "canonical_method": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "global_dds_physical_migration": "NOT_EXECUTED",
+  "campaigns": [
+    {
+      "working_id": "DDS-A-FLORES-POP-EA-01",
+      "slug": "flores-population-ea",
+      "title": "Flores / population assessment -> EA receiving-decision qualification",
+      "dds_stage": "A",
+      "status": "IN_DEVELOPMENT_NOT_PREREGISTERED",
+      "science_evidence": "DOCUMENTARY_PREPARATION_ONLY",
+      "main_record": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md",
+      "record": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.json",
+      "links": [
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/HISTORY_AND_AUDIT.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SOURCES_AND_CUSTODY.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md"
+      ],
+      "original_experiment_owner": "Justin Philip Flores / Himalogic; not IMS or the local campaign",
+      "external_coapproval": "NOT_ESTABLISHED",
+      "independent_stage_a_review": "NOT_EXECUTED",
+      "actual_b2_ea_comparison": "NOT_EXECUTED",
+      "stage_b_c": "NOT_STARTED"
+    }
+  ]
+}
