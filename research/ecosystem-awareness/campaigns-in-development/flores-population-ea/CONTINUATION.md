@@ -75,3 +75,14 @@ The 13 October ideas on IRG/Tegrity.AI contribution review, optional independent
 ## 7. New read-first technical addendum (13 October 2026)
 
 Before preparing any new Flores trial, read the [P0–P3 technical component](./technical/TECHNICAL_INDEX.md), its [protocol](./technical/PROTOCOL_P0_P3.md), [EHD mapping](./technical/EHD_04_05A_MAPPING.md), [strong B2 and falsifiers](./technical/ACCEPTANCE_AND_B2.md), [auditor resolution](./technical/AUDIT_RECONCILIATION.md) and [binary custody corrections](./technical/HISTORY_AND_REPRODUCTION.md). This is **not another campaign**, does not replace the main source-native Q0→Q1 test, and does not upgrade a mock into Stage A evidence. The v0.2/v0.5 original archive bytes were later rehashed; they remain outside public GitHub and should be stored in a private authorized vault before declaring archival preservation complete. Original previous text remains preserved above as history.
+
+## 8. Final 13 October technical reconciliation and corrected custody status
+
+The [technical component integration audit](TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) is mandatory before resuming. Both designs remain **available within ONE DDS Stage A working campaign**, neither preregistered, executed or externally coapproved:
+
+- **Owner-prioritized first source-native design:** [UC17-08 attested absence→permit downstream mapping](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md), correct/positive control, independently observable restoration and indistinguishable-visible-world negative. UC17-09 and CTGT 1.0/1.1 are optional separate controls; a real same-claim R3 is not admitted.
+- **Corrected active technical alternate:** [P0 blind→P1 authorised unblind→P2 synthetic local receiver-proof association loss→P3 restoration](technical/PROTOCOL_P0_P3.md); [13 gates and strong conventional B2](technical/ACCEPTANCE_AND_B2.md). Its [mock code](technical/code/test_qualifier.py) contains 21 authored assertions, of which one named two-world indistinguishability assertion is tautological. This is **not actual judge detection or an EA-specific pass**.
+
+**Source archive status update:** earlier notices of unretrieved original ZIPs were local to the first work session. A **different technical-authoring session reported SHA-256 calculations from the original ZIPs**, recorded [here](technical/HISTORY_AND_REPRODUCTION.md); they are **not published as binaries** and this auditor **has not rehashed them**. The [six full readable source-text recoveries](history/recovered-text/RECOVERY_MANIFEST.json) are complementary, not authenticated binary originals. The technical history now has corrected reproduction commands; an independent hidden-world oracle remains to be designed and frozen.
+
+**Never auto-run** the prior broad v0.5 seven-case casebook as the primary experiment. Its role is audit-corrected historic candidate; select/freeze a defensible test with the source owner, decision owner and external assessor first.
