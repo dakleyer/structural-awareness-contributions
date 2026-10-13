@@ -81,3 +81,9 @@ Para probar **D3 / verdadero R3**, hay que conservar *la misma afirmación* y un
 - **Autoría e interfaces externas**: respeto absoluto a titulares; ninguna aceptación o coautoría externa inferida.
 
 El cambio de aproximación está asentado para **continuar el trabajo**, no como evidencia de que el problema físico ya se resolvió.
+
+## 8. Suplemento corregido P0–P3 recibido durante la auditoría del 13 octubre
+
+**Importante:** otro trabajo técnico del 13 octubre añadió al expediente **el subperfil RECEIVER-P0-P3 corregido** ([índice](technical/TECHNICAL_INDEX.md), [protocolo](technical/PROTOCOL_P0_P3.md), [auditoría cruzada](TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md)). Se debe conservar como una segunda alternativa científica **dentro de la misma campaña**, y no etiquetarlo sin más como benchmark abandonado. La versión histórica “Q-bind/unknown automáticamente C” sí fue falsada/restringida; la pregunta corregida de si retirar una asociación justificada del **proceso receptor** cambia `SUPPORTED` a `NOT_ESTABLISHED` y restaurarla permite recuperar **sigue siendo pertinente**.
+
+Esto no invalida la prioridad indicada por el titular tras el 12: el primer experimento deseado es el **cambio mínimo en el adaptador** `UC17-08 attested absence→permit`, con continuidad, restauración y B2 competente. Pero **prioridad de diseño no significa selección/freeze formal**: antes de una campaña puntuada un revisor debe decidir qué cuestión, qué fuente, qué instancia receptora, qué oráculo y qué condiciones probar, posiblemente usando también el subperfil P0–P3. Ninguna de las dos variantes demuestra un R3 real o impone una arquitectura EA.

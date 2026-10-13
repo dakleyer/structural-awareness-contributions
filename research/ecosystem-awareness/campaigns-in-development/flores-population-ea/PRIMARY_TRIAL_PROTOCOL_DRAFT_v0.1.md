@@ -109,3 +109,9 @@ The experimental protocol cannot be scored until: exact external source state an
 Do not claim valid R3, EA/B2 outcome, Stage A acceptance, Stage B architecture verification or Stage C deployment from this draft.
 
 Next operative artifact: [RUN_CARD_PREPARATION.md](RUN_CARD_PREPARATION.md) — required fields and blockers, prepared but not an executed registration.
+
+## 7. Scientific complement and independently attributable source history
+
+A second [corrected P0–P3 receiver-proof protocol](technical/PROTOCOL_P0_P3.md) is now explicitly [audited as a subprofile](TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) **in this single DDS-A-FLORES-POP-EA-01 campaign**. It exercises a different receiving claim: after authorized Flores unblind, a known source/profile/scope proof link is synthetically withdrawn and later restored. Its P2 requires `NOT_ESTABLISHED` for affected key-relative comparisons but **does not** refute the independent authored key's truth, prove a B→C frontier or a real post-t0 deterioration of judge independence. All source output remains unchanged, and a valid alternative path can preserve the claim.
+
+The corrected mock Python checker reports 21 author-authored assertions; its `indistinguishable observation` assertion is tautological (same input value `NOT_ESTABLISHED` on both sides), so no two-world empirical impossibility result is established. **Do not import those checks into the primary FLO-F0..F4 scoring or leak reviewer-only hidden information.** A future independent reviewer may select one design or freeze a carefully scoped sequential programme after disclosure and comparator review; neither is currently a registered/executed campaign experiment.

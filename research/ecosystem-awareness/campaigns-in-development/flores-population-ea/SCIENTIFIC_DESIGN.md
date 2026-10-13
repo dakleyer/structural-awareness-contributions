@@ -114,3 +114,9 @@ The latest illustrative proof checker adds one necessary correction: failure of 
 **True same-claim R3:** a future separate test requiring established t0 identifiability, an independently verified post-t0 material change in observation/evaluator architecture, legitimately observable evidence and supported recovery. **NOT_OBSERVED / NOT_ADMITTED** in original Flores v1.0. Known version mismatches and calculable re-labeling errors must not be relabelled novel C.
 
 These separations are mandatory even when they falsify a stronger proposed EA advantage.
+
+## J. Same-campaign corrected P0–P3 technical complement (13 October)
+
+The source-preserving [P0–P3 technical component](technical/PROTOCOL_P0_P3.md) and [G00–G12 strong-B2 controls](technical/ACCEPTANCE_AND_B2.md) are **substantive non-obsolete alternative Stage A design work** under this very campaign. It tests a **receiving claim’s evidence sufficiency** across planned blind → authorised-unblind → synthetic local association loss → legitimate restoration, without altering Flores's judges. A current source [reference/mock graph](technical/code/qualifier.py) is *not* a source-native algorithm or a distinctive EA mechanism: the [integration audit](TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) identifies a tautological mock indistinguishability check. The mock checks cannot substitute for prospective hidden independent reviewer worlds.
+
+The owner-prioritised [UC17-08 minimal semantic mapper study](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) remains the default **preparation** route, but formal comparison of the two prospective designs is not frozen. Both receive full strong conventional B2 credit, named information visibility and costs, positive legitimate continuity and a no-observable-facts impossibility branch. Neither provides a native real R3 observation.

@@ -72,3 +72,9 @@ En cambio sí se conservaron en el presente expediente seis **textos completos l
 - **No asumir la presencia de los ZIP en este runtime solo porque otro los verificó**. Conservar el acta técnica exacta y pedir/paridad de bytes si una futura ejecución los necesita.
 
 **Próximo punto de decisión:** revisor independiente selecciona el primer `Challenge` mínimo y adjudica requisitos/acciones con el propietario de la decisión, libera lo que pueda verse del experimento original, fija B2 y la especificación EA y hace el Run Card real. Hasta ese momento estado = `CAMPAIGN_IN_DEVELOPMENT / PIVOT_DOCUMENTED / TECHNICAL_SUBPROFILE_PRESENT / NOT_PREREGISTERED / NOT_EXECUTED`.
+
+## 7. Consolidation decision / chronology of this audit
+
+The [master campaign](CAMPAIGN.md), [scientific approach drift](APPROACH_DRIFT_2026-10-12_13.md), [two candidate designs](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and [technical index](technical/TECHNICAL_INDEX.md) have now been reconciled into **one** Stage A campaign in development with **distinct** planned trials and statuses. The owner priority to run a small Flores-native receiving-mapping perturbation does not revoke the corrected technical P0–P3 subprofile. Old P0–P3 Q-bind/B→C assertions remain falsified/restricted, while bounded recipient proof-loss/recovery is still open science.
+
+The technical source's nine archival SHA claims are attributed to the other 13 October authoring runtime; original private ZIPs and hidden evaluator oracles are not published, and the present audit did not rehash them. This is **not** external independent adjudication of either design and no Stage A verdict was issued.
