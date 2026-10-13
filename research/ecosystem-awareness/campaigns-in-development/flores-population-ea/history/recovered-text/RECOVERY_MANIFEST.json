@@ -1,0 +1,74 @@
+{
+  "schema": "DDS_FLORES_LIBRARY_READABLE_TEXT_RECOVERY_v0.1",
+  "date": "2026-10-13",
+  "origin": "Library/RESIDENCIA",
+  "purpose": "Preserve full text available through Library reader following earlier summarization-only limitation",
+  "raw_pdf_or_txt_binary_sha256_verified": false,
+  "recovered_source_typed_text_equals_tool_readback_expected": true,
+  "source_files": [
+    {
+      "origin": "EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12.txt",
+      "origin_format": "TXT",
+      "readable_text_characters": 22819,
+      "rendered_reader_lines": 186,
+      "derived_text_path": "history/recovered-text/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12_SOURCE_TEXT.txt",
+      "original_binary_sha256_verified": false,
+      "review_status": "HISTORICAL_AUTHOR_SIDE_NO_ACCEPTANCE"
+    },
+    {
+      "origin": "EA_FLORES_ADDON_MINIMO_2026-10-12.txt",
+      "origin_format": "TXT",
+      "readable_text_characters": 3347,
+      "rendered_reader_lines": 26,
+      "derived_text_path": "history/recovered-text/EA_FLORES_ADDON_MINIMO_2026-10-12_SOURCE_TEXT.txt",
+      "original_binary_sha256_verified": false,
+      "review_status": "HISTORICAL_AUTHOR_SIDE_NO_ACCEPTANCE"
+    },
+    {
+      "origin": "01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN.pdf",
+      "origin_format": "PDF",
+      "readable_text_characters": 15451,
+      "rendered_reader_lines": 207,
+      "derived_text_path": "history/recovered-text/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12_PDF_TEXT.txt",
+      "original_binary_sha256_verified": false,
+      "review_status": "HISTORICAL_AUTHOR_SIDE_NO_ACCEPTANCE"
+    },
+    {
+      "origin": "02_EXTERNAL_AUDIT_RECONCILIATION_EN.pdf",
+      "origin_format": "PDF",
+      "readable_text_characters": 15829,
+      "rendered_reader_lines": 200,
+      "derived_text_path": "history/recovered-text/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12_PDF_TEXT.txt",
+      "original_binary_sha256_verified": false,
+      "review_status": "HISTORICAL_AUTHOR_SIDE_NO_ACCEPTANCE"
+    },
+    {
+      "origin": "02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN.pdf",
+      "origin_format": "PDF",
+      "readable_text_characters": 24250,
+      "rendered_reader_lines": 330,
+      "derived_text_path": "history/recovered-text/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11_PDF_TEXT.txt",
+      "original_binary_sha256_verified": false,
+      "review_status": "HISTORICAL_AUTHOR_SIDE_NO_ACCEPTANCE"
+    },
+    {
+      "origin": "01_AUDIT_RECONCILIATION_EN.pdf",
+      "origin_format": "PDF",
+      "readable_text_characters": 23880,
+      "rendered_reader_lines": 297,
+      "derived_text_path": "history/recovered-text/01_AUDIT_RECONCILIATION_EN_2026-10-11_PDF_TEXT.txt",
+      "original_binary_sha256_verified": false,
+      "review_status": "HISTORICAL_AUTHOR_SIDE_NO_ACCEPTANCE"
+    }
+  ],
+  "excluded_material": [
+    {
+      "name": "EA_POPULATION_STAGE_A_AUDIT_CORRECTED_v0_5_2026-10-12.zip",
+      "state": "ORIGINAL_ZIP_NOT_RECOVERED_HERE; reviewer-only hidden cases must not be published"
+    },
+    {
+      "name": "EA_FLORES_RESIDUAL_DISCRIMINABILITY_v0_2_2026-10-12.zip",
+      "state": "ORIGINAL_ZIP_NOT_RECOVERED_HERE; no inferred file member list or data"
+    }
+  ]
+}

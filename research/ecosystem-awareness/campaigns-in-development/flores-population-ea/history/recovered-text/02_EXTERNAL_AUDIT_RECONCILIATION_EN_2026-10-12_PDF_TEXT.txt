@@ -1,0 +1,205 @@
+FULL READABLE-TEXT RECOVERY FROM LIBRARY — 13 OCTOBER 2026
+Source: Library/RESIDENCIA/02_EXTERNAL_AUDIT_RECONCILIATION_EN.pdf
+Origin format: PDF
+Text below is the full accessible text returned by the Files reader, NOT the original binary file, not a byte-identical PDF/TXT copy, not a new independent review, and not a frozen/accepted DDS outcome.
+For PDF: page markers, spacing and extraction order follow the reader and should not be treated as a faithful visual PDF rendering. Preserve the original source separately for binary hashes, figures and exact-page verification.
+For TXT: textual equivalence with the Library reader's rendering is checked for this generated artifact, but raw source-file byte parity is not authenticated.
+This archived text contains author-side review proposals. Do not feed any disclosed review expectation to a future blinded experimental candidate as private truth.
+
+===== BEGIN SOURCE READER TEXT =====
+<PARSED TEXT FOR PAGE: 1 / 3>                                                                FG-TIDA #21 | EA REQUIREMENTS STAGE A | DRAFT v0.5
+
+
+
+
+          Independent Audit Response — v0.4 to v0.5
+      Substantive corrections, reproducible tooling regression checks, and unresolved admission limits
+
+                                                   12 October 2026
+
+Decision
+The v0.4 challenge was not an independently adjudicated EA compliance test. The auditor’s criticisms of the
+evaluator and oracle are material. v0.5 is a corrective specification-challenge package, not a certificate of EA
+competence and not a demonstration of B2/B3 differentiation. This response is an author-side reconciliation, NOT a
+second independent audit of the auditor.
+
+
+1. Disposition of every audit finding
+ Audit finding                 Decision                                      Correction and remaining evidence limit
+                                                                             Directly read 20 comment bodies; record
+                                                                             complete-body SHA-256, exact URL, author,
+                                                                             created/updated timestamps and short excerpt
+ 1 — Overclaim of verified
+                               ACCEPT                                        in
+ comments
+                                                                             COMMENT_BODY_PROVENANCE_SNAPSH
+                                                                             OT_20.json. Two edits noted. Hashes are
+                                                                             retrieval snapshots, not immutable Git pins.
+                                                                             Checks execute before computing structural
+                                                                             issue-free counts; no automatic exact-string
+ 2 — Scorer overcounts and                                                   match on role_process or affected_scope. Unit
+                               ACCEPT
+ grades copied scope                                                         tests reproduce both historical issues and
+                                                                             show corrected behavior. No automatic EA
+                                                                             scientific PASS.
+                                                                             input_profile_used is mandatory and one of
+                                                                             METADATA_ONLY, FULL_NATIVE_RESULT,
+                                                                             EXTERNAL_SOURCE_A_EVENT;
+ 3 — Input profile not
+                               ACCEPT                                        mismatched self-declarations are flagged. A
+ recorded
+                                                                             source-access trace reference is required.
+                                                                             Only independent review of actual access logs
+                                                                             can prove the declared route.
+                                                                             Branch-specific failure_falsifier, scenario
+                                                                             IDs/maps, provisional expectations and world-
+                                                                             pair truth are auditor-only. Candidate-facing
+ 4 — Candidate bundle                                                        normative requirements are generic and case-
+                               ACCEPT
+ leaks branch answer hints                                                   specific facts are sent in single-case session
+                                                                             ZIPs. Normative requirements necessarily
+                                                                             remain public; success requires a causal trace
+                                                                             rather than parroting them.
+                                                                             N01–N10 are now unscored source-
+                                                                             semantics calibration only. No claim that
+ 5 — Documentary
+                                                                             Flores asserted full DC-SEND coverage or
+ questions attack claims       ACCEPT
+                                                                             promoted rejected records. Positive source-
+ nobody asserted
+                                                                             owner knowledge is credited, not counted as
+                                                                             an EA discovery.
+                                                                             Seven controlled challenge cases replace 18
+                                                                             case-label quiz items; native controls are
+ 6 — Weak oracle                                                             unscored. The challenge still includes simple
+                               ACCEPT, STILL LIMITED
+ discrimination/repetitions                                                  continuity/lineage checks and cannot
+                                                                             establish unique EA value without a matched
+                                                                             competent B2. No statistical power claim.
+                                                                             N05, N06 and X08 remain pending role
+                                                                             adjudication. Separate B as an established
+ 7 — Unjustified D labels      ACCEPT                                        characterization of a limitation from D as an
+                                                                             effect unassessable by a named process. No
+                                                                             machine-scored D assignment.
+                                                                             Source atom A03 reattributed to Cyril/CTGT at
+                                                                             issue comment 5584133048, not Anton; the
+ 8 — Wrong author for A03      ACCEPT
+                                                                             actual AVS C11 text remains correctly
+                                                                             attributed to Anton at comment 5539203816.
+
+
+
+                              REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 12 OCT 2026 | PAGE 1<PARSED TEXT FOR PAGE: 2 / 3>                                                                 FG-TIDA #21 | EA REQUIREMENTS STAGE A | DRAFT v0.5
+
+
+
+ Audit finding                  Decision                                      Correction and remaining evidence limit
+                                                                              An observational-equivalence twin is now a
+                                                                              private reviewer control; serve one case per
+ 9 — Identical-world pair
+                                ACCEPT                                        fresh session and independently hold the
+ detectable as a pair
+                                                                              hidden truth. Do not present both worlds in the
+                                                                              same candidate input.
+                                                                              EA01/EA02 explicitly labeled author-side
+                                                                              canonical framework; not counted as
+ 10 — Third-party and self-                                                   independent native assertions. Primary source
+                                ACCEPT
+ authored atoms conflated                                                     comments recorded with hashes. Nelson’s
+                                                                              claims remain owner-reported, not reproduced
+                                                                              binaries.
+                                                                              Reconciled count 102 unique URLs; 42 added
+                                                                              registry rows did not mean 42 new unique
+ 11 — 102 URLs and review
+                                ACCEPT                                        URLs (20 unique additions after
+ grades
+                                                                              cross-list/within-list duplicates). Inventory count
+                                                                              does not equal independent source replication.
+                                                                              Auditor reported 37 cited EA files unchanged
+ 12 — Later EA HEAD                                                           from 963a6d9 to 25b1e8f; not independently
+                                ACCEPT, RELIED ON AUDITOR
+ comparison                                                                   repeated here. Historical pins retained. Newly
+                                                                              added files after those pins not investigated.
+                                                                              External auditor-patch SHA is a user-supplied
+                                                                              assertion without its bytes; no hash check is
+ 13 — Audit patch/file hash,
+                                ACCEPT                                        claimed. UC-21 receiving-decision invitation
+ UC-21 on-ramp, digest
+                                                                              explicitly included; new ZIP has an external
+                                                                              SHA-256 file.
+
+
+2. Primary comments recovered without browser plugins
+The original audit could not read GitHub comment bodies. The connected GitHub interface has now returned their
+complete text. Examples material to scientific scope:
+
+  •      Olena Pavlenko (3 September 2026): identification depends on observation/evaluator architecture. A family
+         change may change identifiability, but only if supported by a differentiating observation channel. Source.
+  •      Justin Flores (30 September 2026): downstream EA may report insufficiency and name a gap; it may not
+         direct measurement with a receiving answer/mission/budget. Source.
+  •      Justin Flores (1 October 2026): drift/complaint/recall eligibility reevaluation belongs with #13/#16; the same
+         comment also describes evaluator diversity as a gradient. Both interpretations of this comment are supported by
+         its text, so it is not a wrong source anchor. Source.
+  •      Cyril Gorlla (4/7 October 2026): CTGT record semantics distinguish scoped indeterminate, attested
+         absence, rejected evidence and 1.0/1.1 supersession; the v0.2 channel correction leaves DC-SEND intact.
+         Native subset; correction.
+  •      Nelson (2 October 2026): reported UC-6 calibration and four missing outputs after an ID-map mutation. This
+         belongs to Nelson’s testbed, not Flores’s. Source.
+
+The separate JSON/CSV registry records the content fingerprints of all 20 bodies. Two comments were edited after
+their creation: 5532077493 and 6028662270. Since GitHub issue comments are mutable, an auditor rechecking them
+later should compare updated_at and the snapshot SHA before assuming identical wording.
+
+
+3. Repaired evaluator: what is actually tested
+05_tools/validate_and_score.py --check validates casebook/session isolation and vocabulary consistency only.
+05_tools/test_scoring_regressions.py runs eight narrow regression checks: reasons/sources counted before
+completeness, profile mismatch, human-reviewed process strings, non-scored scope strings, access-log requirement,
+frozen-oracle missing-reason negative, metadata-only source A restriction, and isolated packets. Their success cannot
+be cited as EA compliance, R3 detection, scientific semantic correctness or an executed benchmark.
+
+The response schema requires source/role process, question, time frame, justification, preserved scope, changed basis,
+action owner, continuation explanation, source atoms, input_profile_used, and a trace ID. The scorer checks self-
+asserted provenance consistency; the auditor must inspect actual traces. No provisional expectation is promoted to a
+score until an independent adjudicator explicitly freezes it; method roles remain human judged.
+
+The seven test cases live in 03_protocol/auditor_only/ONE_CASE_SESSION_PACKETS/, not in the candidate-facing
+generic ZIP. An independent protocol runner must provide exactly one to each new session. This is also how the
+indistinguishable-world negative control avoids case-pair leakage. The full ZIP is auditor-facing and contains private
+proposed expectations; never distribute it to candidates as a blinded test pack.
+
+                               REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 12 OCT 2026 | PAGE 2<PARSED TEXT FOR PAGE: 3 / 3>                                                                 FG-TIDA #21 | EA REQUIREMENTS STAGE A | DRAFT v0.5
+
+
+
+
+4. What the revised package still cannot claim
+There is no actual post-Flores-stage1 exogenous incident, and no demonstrated loss of independence after an initially
+empirically established independent regime. CTGT 1.0→1.1 is authored source history, not an externally verified future
+t1. The latest published Flores exercise is a static scripted method demonstration, not a real heterogeneous judge
+network continuously monitoring B/C/D. Not every cross-version condition is C: a characterized version or binding check
+is B. None of this can be overcome by adding cases to a spreadsheet.
+
+To obtain a valid later R3, an owner and an independent assessor must preregister a currently qualified t0 reliance basis,
+a legitimate externally observable t1 event, the exact receiving claim, affected scope, native data availability, finite
+resources, positive continuity, null action and adjudication criteria. To attribute a distinct EA mechanism rather than
+standard version/lineage monitoring, B2 must be strong and equally resourced. The A25 X1–X7 family-admission route
+remains uncompleted and not applicable as a claimed pass unless a concrete base kernel and mapping are
+registered.
+
+
+5. Auditor verdict requested
+The independent auditor should report independently on: (a) whether the revised Challenge has a meaningful material-
+requirement test; (b) whether each case is rooted in correct native facts or explicitly hypothetical controlled facts; (c)
+whether the expected outcome and role are independently justified and frozen; (d) whether a strong conventional peer
+can satisfy it; and (e) which selected EA S/T requirements, if any, are supported at specification level. Passing the tool
+tests is not one of those verdicts.
+
+Prepared result: audit issues reconciled with caveats. Unprepared result: no EA PASS, no B2/EA DIFFERENTIAL, no
+REAL R3 DETECTED.
+
+
+
+
+                             REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 12 OCT 2026 | PAGE 3
+===== END SOURCE READER TEXT =====

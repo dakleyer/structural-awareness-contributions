@@ -1,0 +1,212 @@
+FULL READABLE-TEXT RECOVERY FROM LIBRARY — 13 OCTOBER 2026
+Source: Library/RESIDENCIA/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN.pdf
+Origin format: PDF
+Text below is the full accessible text returned by the Files reader, NOT the original binary file, not a byte-identical PDF/TXT copy, not a new independent review, and not a frozen/accepted DDS outcome.
+For PDF: page markers, spacing and extraction order follow the reader and should not be treated as a faithful visual PDF rendering. Preserve the original source separately for binary hashes, figures and exact-page verification.
+For TXT: textual equivalence with the Library reader's rendering is checked for this generated artifact, but raw source-file byte parity is not authenticated.
+This archived text contains author-side review proposals. Do not feed any disclosed review expectation to a future blinded experimental candidate as private truth.
+
+===== BEGIN SOURCE READER TEXT =====
+<PARSED TEXT FOR PAGE: 1 / 3>                                                                  FG-TIDA #21 | EA REQUIREMENTS STAGE A | DRAFT v0.5
+
+
+
+
+                 Ecosystem Awareness / Population —
+                 Requirements-first Stage A Challenge
+   Audit-corrected v0.5 | a read-only downstream specification trial, not a Population detector replacement
+
+                                                    12 October 2026
+
+Executive determination
+Scientific status: candidate DDS Stage A challenge, NOT a passed EA test. The earlier v0.4 casebook is
+insufficiently discriminating for a claim of EA requirements satisfaction: its ten documentary questions mostly repeat
+source-known limitations; its authored classifications were not independently adjudicated; and some public materials
+leaked branch-specific falsifiers. This revision retains the source corpus, removes the flawed scoring surfaces, and
+defines a narrower, prospectively admissible study. Neither an EA implementation nor a strong conventional B2
+comparator has been executed. No post-Stage-1 exogenous change in Flores’s six scripted judges has been
+established.
+
+The scientific question is not whether EA statistically beats Flores. It is: Can a proposed ecosystem-qualification
+specification, using only eligible pre-existing producer statements and a separately admissible event if one exists,
+preserve context-dependent sufficiency across heterogeneous functions while meeting the materially applicable
+canonical EA requirements? The Stage A adjudicator must judge a requirement route, not a raw multiple-choice
+accuracy percentage.
+
+
+1. Native ownership and frozen facts
+The legitimate source-side chain is reference author and record semantics (#5/#6, Cyril and AVS) → population
+evaluation (#21, Flores) → downstream decision/context qualification (#13/#16 and potentially UC-21). Theme
+#21 determines what observations support within a population and should not be altered or directed by EA’s preferred
+answer, purpose, or budget. Justin Flores expressly permits downstream insufficiency feedback naming the gap but
+rejects upstream purpose-guided measurement. He locates reevaluation after drift/complaint/recall downstream, not
+inside Theme #21. Flores boundary, 30 September; Flores downstream boundary, 1 October.
+
+The first planted-judge slice has six scripted judges, eight scored CTGT cases (not nine), REF-FSCOMMS 1.0, a fixed
+blind deviation rule and threshold, and withheld roles/answer key. Its posted files are README.md and expected.py;
+generate.py, detect.py, unblind.py were not present at the last repository inspection. expected.py has no
+dynamic observation-regime transition. J1..J6 are reshuffled once per run, not every round. The auditor’s hypothetical
+independent reshuffle has a computable effect under the already-characterized method: B, not C. Flores frozen spec;
+exact model.
+
+CTGT’s authored R-UC17-07 (indeterminate under 1.0) and R-UC17-07-2 (remediate under 1.1; supersedes
+predecessor) are a real documented version pair. They do not demonstrate a future change after Flores Stage 1.
+UC17-08 is an attested absence in DC-SEND, not permit; UC17-09 has a content verdict but a rejected record. Those
+boundaries are already recognized by Flores and Cyril, so using them as simple quiz answers cannot demonstrate an EA
+discovery. Cyril interpretation, 4 October; CTGT fixture correction, 7 October.
+
+Nelson reports four missing outputs after removing an agent-ID mapping in a different UC-6 testbed. This is
+evidence that an adapter can surface missing binding; it is NOT a real malfunction of Flores’s judge labels and may
+corroborate B2’s capabilities rather than a unique EA contribution. Nelson explicitly distinguishes inherited UNKNOWN from
+established NONE and supports bounded qualification exchange without merging the incident lifecycle and EA. Nelson
+UC-6 report, 2 October; Nelson on uncertainty, 6 September.
+
+
+2. The two epistemic taxonomies must not be identified
+Olena Pavlenko’s native sequence is claim → observation/evaluator architecture → identifiability under that
+architecture → sampling uncertainty, if identifiable. A transition from step 4 to step 3 means a formerly adequate
+identifiability premise ceased to be established: sampling machinery may still operate, but its prior scope of inference can
+no longer be inherited. This is a conditional review target, not a proof that such a transition occurred. Olena, 3
+September.
+
+                             REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 12 OCT 2026 | PAGE 1<PARSED TEXT FOR PAGE: 2 / 3>                                                                      FG-TIDA #21 | EA REQUIREMENTS STAGE A | DRAFT v0.5
+
+
+
+EA’s canonical 00M §1 is different and process-relative. The producer’s operative finding is A. B includes an
+established basis, limitations, characterized evaluation reserve and defensible additional method. C requires a grounded
+opportunity to explore without a sufficiently characterized evaluation frame. D describes an aspect’s relevant effect
+beyond that process’s effective evaluation route. The absence of a valid role frame remains ROLE_UNCLASSIFIED; a
+source’s own word indeterminate is not automatically C or D.
+
+AC-5/AC-6 require an aspect split, not a fixed D label. Flores’s published characterization of the blind detector’s limit
+may be B when the question is what the detector can establish. The undeterminable effect of shared error may be D for
+the detector attempting to identify majority correctness under verdict-only access. Future method development may have
+C where a source-grounded exploratory direction exists. The three v0.4 B/D disputes (N05, N06, X08) are excluded from
+automatic role scoring pending independent, process-and-aspect-specific adjudication.
+
+The necessary source-preservation principle is already present in 00N §3.6–3.7: differently scoped B/C/D statements
+can expose insufficiency without recovering hidden state. This is a hypothesis of compositional utility, not a source-
+native B/C/D field produced by Flores or Cyril.
+
+
+3. Canonical EA requirements that govern the challenge
+ EA requirement route          Required Stage A behaviour                           What would refute its satisfaction
+                               Declare t0 basis, materiality, allowed observation   Detect an invisible world, manufacture a later
+ S3/S10 → T1                   boundary, actual or synthetic t1 evidence and        event, or confuse mere report/update time with
+                               affected decision scope                              effective change
+                               Distinguish support, contradiction, genuinely        Convert UNKNOWN to PASS, equate a native
+ S5/S14 → T2                   insufficient evidence, absence and bounded           action indeterminate with C, or force
+                               epistemic roles                                      unsupported C from every unmeasured item
+                               Preserve source ownership, per-source                Count three dependent notices as three
+ S9/S11 → T2                   dependency/lineage, overlap and scoped non-          independent authorities; inherit content scoring
+                               substitution                                         as appraisal or grant legitimacy
+                               Preserve valid work and history, state limited
+                                                                                    Blanket HOLD, retroactively rewrite Flores
+ S3/S5/S10 → T2/T3             information-only posture and hand off action
+                                                                                    results, or let an EA note authorize an act
+                               authority
+                               Bound acquisition, token/computation, human          Re-run upstream judges to fabricate inputs;
+ S10/S14 → T4                  attention, time/horizon and incremental semantic     use unlimited search; assert timeliness without
+                               burden                                               evidence
+
+These criteria come from the frozen canonical requirements and 00D’s matched B2/B3 contract. T3’s executed
+authorization and T4’s operational response margin cannot receive a Stage A empirical PASS from documentary
+evidence. Stage A can judge whether a candidate specification adequately declares these obligations and exclusions.
+
+
+4. Revised trial composition and evidence modes
+Documentary calibration (10 native questions, unscored): the prior N01–N10 remain in
+DOCUMENTARY_CALIBRATION_10_NOT_SCORED.csv. They check preservation of Flores/CTGT/AVS/Nelson meanings.
+They are explicitly not attributed claims made by Flores or evidence of special EA benefit. N05/N06 retain unresolved
+process-relative B/D questions. Source owners need not answer another survey; their exact published sources are
+linked.
+
+Controlled specification trials (7 single-case sessions): the original X01–X06 and X08 supply provisional
+hypothetical worlds only. Their public case IDs are opaque; each session packet contains exactly one eligible fact set, a
+generic requirements sheet and blank response template. Private authored expectations, failure descriptions, a source-
+to-outcome map and the X07 indistinguishable-world twin remain with the independent reviewer. Cases test source-
+currentness, positive continuity, common-source repetition, method deterioration C, B recovery, observational
+indistinguishability and repeated unsupported C11 claims. None constitutes a real post-t0 incident. All facts are
+available to both arms, no answer key or confidential role map is sent to them.
+
+Conditional real R3 (not admitted): prefer the genuinely authored CTGT 1.0/1.1 pair as a semantic anchor and the
+owner’s future UC-21 receiving-decision review as the entry point, but require an independently confirmed post-t0
+event with owner, effective scope, legal/source standing, actual t0 reliance, traceably eligible observations and finite
+response horizon. The t1 event cannot be selected merely to make EA win. Flores explicitly mentions UC-21 as a
+possible later receiving-decision second stage. Flores, 4 October. The new EA study should remain a read-only
+downstream sidecar, not an extension of the #21 detector or a new assignment to Nelson’s UC-4 maintainer.
+
+
+
+
+                              REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 12 OCT 2026 | PAGE 2<PARSED TEXT FOR PAGE: 3 / 3>                                                                   FG-TIDA #21 | EA REQUIREMENTS STAGE A | DRAFT v0.5
+
+
+
+
+An important evidentiary limit
+
+Receiving a directly asserted, already-adjudicated “basis lost” event and copying it into a new field is not context-loss
+detection. Any claim of distinctive composition must show a justified relation between multiple eligible partial
+grounds, a controlled information transformation that preserves source/scope/dependence, and a materially different
+qualified result. If the event is wholly unobservable in eligible inputs, both candidate EA and B2 must refrain from
+claiming to distinguish the hidden worlds. This is the impossibility control, not a success rate.
+
+
+5. Independent acceptance and comparison rule
+All first-order source facts, positive control branches, forbidden inference categories, affected decision scope and
+materiality must be frozen by an independent adjudicator before either candidate runs. The adjudicator may adopt,
+amend or reject the author-proposed private oracle. In the v0.5 package, all private expected outcomes remain explicitly
+UNFROZEN and all roles require human review. The generic source-to-output requirements are legitimately public;
+branch-specific falsifiers, private world labels and draft answers are not.
+
+A Stage A specification-level finding requires: (i) exact native-result preservation (including A where necessary); (ii)
+justified process-relative epistemic roles and material scope; (iii) event observability and source dependence discipline;
+(iv) correct positive continuity and bounded unresolved posture; (v) a finite, declared burden/horizon; and (vi) a complete
+auditor-readable causal trace. Any material forbidden promotion, invented external event, oracle leak or unauthorized
+action defeats the affected route. Missing evidence produces NOT_ESTABLISHED, not a compensating averaged score.
+
+Only afterward compare a competent B2 peer and EA-profiled B3, with the same source access, authority,
+compute/communication/human budget, timing and native A availability. If B2 meets the same requirement vector at
+equal/lower burden, record peer closes gap/equivalent semantics, not EA uniqueness. If both fail, do not award EA for
+relative superiority. The Stage A result concerns specification reachability, not implementation effectiveness or statistical
+power.
+
+For an actual R3, a stronger causal comparator is necessary: hold the previously accepted R2 configuration fixed,
+change only a legitimate external observation/authority condition at t1, and independently adjudicate its material effect.
+The study currently lacks this evidence. The DDS Stage A method governs admissions; there is no 00I/A25 family
+extension until its kernel, mapping h, failure reflection X3, requirement route X4 and controls X1–X7 have been
+demonstrated. Thus the former v0.4 00K gate row remains not admitted, not silently omitted.
+
+
+6. Native source provenance and what was verified
+The new COMMENT_BODY_PROVENANCE_SNAPSHOT_20.json records 20 comment bodies actually read via the
+connected GitHub REST endpoint, each with observed author, creation/update timestamp, complete-body SHA-256
+and an excerpt of at most 12 words. Comments 5532077493 and 6028662270 were edited after creation and are
+therefore cited as the particular retrieved version; a body hash is a snapshot fingerprint, not an immutable Git pin.
+File blobs, and their previously reported checks, live in a separate manifest. The original registry retains 102 unique
+URLs; this is a link-inventory statistic, not a claim that 102 sources were fully examined.
+
+The auditor’s report that the 37 previously cited EA files were identical at 963a6d9 and 25b1e8f is registered as an
+auditor observation, not a fresh independent 37-file comparison in this revision. Neither original CTGT binary ZIP
+nor Nelson’s binary UC-6 report has been independently opened/rehashed here; conclusions about them are limited to
+their owners’ public descriptions. The prior v0.4 archive is preserved byte-for-byte and clearly superseded. The auditor’s
+separate v0.2 patch SHA was supplied as text, but its actual ZIP bytes have not been provided, so no verification of that
+patch is claimed.
+
+
+7. Output/status
+Present: SOURCE_DOCUMENTS_REVIEWED, SCORER_TOOLING_REGRESSION_TESTED, STAGE_A_CHALLENGE_CANDIDATE,
+EA_PASS_NOT_ESTABLISHED, B2/B3_NOT_RUN, REAL_R3_NOT_ADMITTED, A25_NOT_ADMITTED.
+
+Next admission decision: have an independent reviewer accept/reject the smaller seven-case challenge and genuinely
+disputed roles; nominate a real receiving-decision owner and a post-t0 observation source if R3 is pursued; freeze
+outcome criteria and paired B2/EA trial specifications before execution. No upstream requests and no GitHub publishing
+are authorized by this package.
+
+
+
+
+                              REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 12 OCT 2026 | PAGE 3
+===== END SOURCE READER TEXT =====
