@@ -58,7 +58,40 @@
       "current_documentary_status": "ORGANIZED_RESEARCH_PREPARATION_NOT_NATIVE_EXECUTION",
       "technical_component_current_role": "SUPPORTING_EARLIER_CONTRACT",
       "known_repaired_R2_parity": "EXPECTED_BASELINE"
+    },
+    {
+      "working_id": "DDS-A-CU-PLM-EA-01",
+      "slug": "china-unicom-privilege-lifecycle-ea",
+      "title": "China Unicom / Theme #23: hibernation privilege restoration and EA-qualified context",
+      "dds_stage": "A",
+      "profile": "SIMPLIFIED_STAGE_A_PREPARATION",
+      "status": "IN_DEVELOPMENT_NOT_PREREGISTERED",
+      "science_evidence": "DOCUMENTARY_AND_PROSPECTIVE_DESIGN_ONLY",
+      "main_record": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CAMPAIGN.md",
+      "record": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CAMPAIGN.json",
+      "links": [
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/SCIENTIFIC_DESIGN.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/INTERFACE_CONTRACT.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/SOURCES_AND_CUSTODY.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/RUN_CARD_PREPARATION.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CONTINUATION.md"
+      ],
+      "external_theme": "https://github.com/FG-TIDA/themes/issues/23",
+      "external_proposers": "Ying Wang and Ye Tao / China Unicom",
+      "source_owner_collaboration": "NOT_ESTABLISHED",
+      "local_owner": "Iván Abril Palma / The Integral Management Society",
+      "primary_case": "CU-HIB-01 / CU-C2",
+      "comparator": "strong conventional source-owned PDP B2 versus same PDP plus optional EA handoff B3",
+      "stage_a_freeze": false,
+      "blind_oracle": false,
+      "native_run": false,
+      "independent_adjudication": false,
+      "stage_b_c": "NOT_STARTED",
+      "external_ITU_adoption": "NOT_CLAIMED",
+      "local_version": "0.1",
+      "created": "2026-10-14"
     }
   ],
-  "last_updated": "2026-10-13"
+  "last_updated": "2026-10-14"
 }
