@@ -83,7 +83,7 @@ This possibility is **complementary**, not a replacement for the R2 native check
 
 ### The one source-facing question
 
-**When reactivating agent A requires a current dependency proposition from agent B, but B's own privilege to issue that proposition is suspended, may A's verifier use B's last snapshot within a defined validity window, query a separately authorized data source without reactivating B, or must B be reactivated first? If none is available, how is this explicitly INDETERMINATE check returned and revisited through an authorized bounded path?**
+**Is B a lifecycle-governed AI agent under Theme #23 or a policy-information service outside it? If B is an agent, how do normal hibernation and security suspension differ when A considers B's last dependency statement, a separately authorized data-plane query, or reactivation of B? How is the unresolved current proposition handled and revisited?**
 
 This question directly follows [Ying's own description of reassessment and partially verifiable authorization](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309) and her [ordered checkpoint clarification](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429). It **does not** ask Ying to adopt a new EA theory, approve a jointly conducted trial or read a large PR.
 
