@@ -1,5 +1,7 @@
 # China Unicom / FG-TIDA Theme #23 — privilege restoration under changing ecosystem context
 
+> **Immediate WP0 priority / R3 audit (14 October 2026):** [Four questions for the policy/source owner — DRAFT, NOT SENT](WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md) · [Full R3 case-admission and inverse CU-SP audit](R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md). R2 already rehearses the visible-edge, stale-cache and irrelevant-delta mechanisms; those R3 variants are **known-family controls**, not new independent results. R3-C± is epistemic conformance. The current empirical question is **qualified detection/reassessment under legitimately observable source footprints**, rather than a policy tautology or EA product superiority. No experimental execution, source-owner agreement or co-authorship is claimed.
+
 > **Reference/credibility update — 14 October 2026:** [Curated NIST/OASIS/OpenID/W3C/IETF reference-to-claim crosswalk](REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md) supplements the v0.4 third-party dossier. The accompanying source PDF was primarily a large URL-candidate list; the appendix credits **existing conventional controls**, uses current final editions in their own scope and records what is not yet proven. **No revised source-policy approval, trial result, company sponsorship or ITU adoption is implied.**
 
 
