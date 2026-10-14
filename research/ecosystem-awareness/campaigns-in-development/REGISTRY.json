@@ -88,7 +88,9 @@
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/EXTERNAL_REVIEW_RECONCILIATION_v0.4.md",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R123_V04_FACTORIAL_PROTOCOL.json",
-        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md"
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md"
       ],
       "external_theme": "https://github.com/FG-TIDA/themes/issues/23",
       "external_proposers": "Ying Wang and Ye Tao / China Unicom",
@@ -128,7 +130,12 @@
       "loss_model": "UNFROZEN_OWNER_APPROVAL_REQUIRED",
       "main_ablations": "DIAGNOSTIC_ONLY_NOT_B2",
       "reference_crosswalk": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
-      "reference_review": "EXTERNAL_PUBLICATION_STATUS_CURATED_NO_INTEROP_EVIDENCE"
+      "reference_review": "EXTERNAL_PUBLICATION_STATUS_CURATED_NO_INTEROP_EVIDENCE",
+      "audit_revision": "v0.4.1",
+      "current_scientific_correction": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
+      "priority_owner_brief": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
+      "current_next_action": "WP0_POLICY_AND_REAL_OBSERVATION_DISCUSSION_NOT_SENT",
+      "R3_novel_out_of_sample": "NOT_ADMITTED_OR_EXECUTED"
     }
   ],
   "last_updated": "2026-10-14"
