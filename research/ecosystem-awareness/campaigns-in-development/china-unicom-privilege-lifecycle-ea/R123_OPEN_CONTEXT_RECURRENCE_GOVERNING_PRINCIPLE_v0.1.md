@@ -1,0 +1,110 @@
+# Governing principle — R1 → R2 repair/freeze → R3 beyond effective coverage → repeat
+
+**Campaign:** DDS-A-CU-PLM-EA-01 / CU-HIB-01. **Edition:** 14 October 2026.  
+**Priority:** governing research orientation for this campaign, clarifying earlier v0.4/0.4.1 interpretations.  
+**Claim grade:** mathematical/research hypothesis and prospective adversarial Challenge protocol; **not an established universal theorem, measured distribution, executed comparison, FG-TIDA approval or China Unicom collaboration**.
+
+## 1. The central thesis — not one more control
+
+**Context changes. Every concrete repair establishes a new defended frontier, not the end of the open context universe. The question is whether a general Ecosystem Awareness capability can recognize when the validity basis of the current controls no longer covers the new situation, preserve the affected scope and open a bounded, authorized requalification path—without needing a repair written specifically for that unseen situation.**
+
+This is categorically different from asking whether an EA-labelled product beats a conventional policy rule for a known change. In an already-known change, an appropriately configured conventional control may correctly outperform any EA overlay in cost, time and simplicity. **That is expected.** The research object is the *next material context change outside the actually defended/frozen coverage*, and the recurrence of such frontiers as local repairs accumulate.
+
+The original hibernation example in [FG-TIDA Theme #23](https://github.com/FG-TIDA/themes/issues/23) is an **initial illustrative uncovered case**, not a permanent definition of R3. If a competent conventional owner implements [Ying's suspension-time factual anchor + activation validation + current intent derivation](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429), the *known hibernation gap* has been repaired for its admitted profile. That success must be credited and **new R3 must move to another admissible change beyond its effective coverage**. It is scientifically wrong to keep testing the same visible hibernation dependency and call a passing repaired controller evidence against the recurrence thesis.
+
+**Existing corpus authority for the research direction:** [Flores — R2 repaired/frozen followed by uncovered R3, 13 Oct](../flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md) and [R01 Human Escalation — §7 R1/R2/R3](../../baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md). Their actual results and theorems remain confined to their own contracts; **nothing is automatically transferred as experimental proof of this China Unicom instance**.
+
+## 2. The recurring sequence and the correct object of R3
+
+| Step | What the defender receives | What must be shown | What it DOES NOT mean |
+|---|---|---|---|
+| **R1 — competent reference + uncovered context c1** | A real/representative, lawfully operating native PDP/privilege lifecycle with its ordinary justified safeguards. A *material* c1 is outside its currently effective coverage. Hibernation with a newly critical dependency can serve as that first example if the actual R1 has not yet repaired it. | A source-owner-admissible counterexample: original decision basis continues or closes incorrectly at c1; controls and observations fully recorded, with legitimate positive cases. | R1 is not deliberately incompetent; the case cannot be declared a failure merely because an author wants an EA result. |
+| **R2 — repair c1, demonstrate and freeze** | Defender may **freely add, optimize, generalize and repair** source-owned conventional controls for the found c1, including full restoration predicate, fresh intent, telemetry, transitive dependency checks, source queries, time budgets, permission/exception rules and its native adaptive capability. | Properly handles c1 and legitimate unchanged/irrelevant positive cases; **freeze the entire defended configuration**, allowed sources and dynamic strategies, data/authority rights, cost, deadline and version. EA's generic specification/profile is independently fixed before the scored next change. | No defender capabilities may be selectively disabled later. No presumption that the current or next context is unseen simply because a clock tick occurred. |
+| **R3 — another material context change c2 outside R2's actual coverage** | The **same frozen R2**, with all its lawful sources, live adaptivity, current query permissions and generic facilities intact, encounters an independently source-grounded changed relation/representation/validity condition. | Establish **the particular uncovered frontier** with a recorded world/observable-information/effect path; measure wrongful continued reliance, honest insufficiency, targeted requalification and legitimate continuity. EA may qualify the loss of basis even without a case-specific repair; it may **not** conjure evaluator-private facts or grant privileges. | R3 is **not** a rerun of the direct dependency case already repaired in R2, nor a technology-neutral requirement that B2 must lose. |
+| **R2(next) → R3(next) → …** | A post-R3 specialized fix or new legitimate generic controller becomes the next fully defended/frozen baseline. | Repeat over admitted, increasingly varied context families, preserving each round's negative and positive evidence and cumulative resources. | A new fix after observing a scored R3 **cannot retroactively repair the previous run**; recurrence is an open research claim, not a proven infinite success count. |
+
+**Research framing, not a new method:** R1/R2/R3 are Challenge trajectories within **DDS Stage A Specification Discovery**. B2/B3 denote candidate comparison arms under matched rights/resources. DDS Stage B tests a later architecture against a selected specification; DDS Stage C tests real implementation/problem effects. Never conflate these axes.
+
+## 3. Example after hibernation is fully repaired — a genuinely different R3 candidate
+
+**First uncovered context (R1):** A1 was authorized to isolate resource R. During hibernation service S in Domain B becomes dependent on R. A reference controller that only checks unchanged identity/policy/credential may restore a no-longer-applicable isolation privilege under a source-approved policy. This demonstrates one *conditional* failure instance, not a universal defect.
+
+**Conventional repair (R2):** The owner declares the suspension-time factual restore condition, evaluates it on activation, re-derives current intent, and adds current native dependency/criticality/NACL/telemetry/source checks. It correctly handles the direct S→R change. Demonstrate this and **freeze** all of it. **The original S→R example is now a R2 calibration/positive-control case.**
+
+**Next possible uncovered frontier (R3 candidate, not admitted yet):** In a third independent governance domain, a newly material **indirect service obligation/dependency path** becomes relevant to isolate(R) *through a source or relation type outside the defended R2's decision/observation coverage*, such as a newly sourced critical service S2 → intermediary T → R or a current scoped continuity obligation whose owner and qualification semantics were not part of the repaired direct-edge contract. The original direct S→R check may still report PASS for its **declared scope**, while another legitimate source carries a new versioned relation/proposition that would change the current reliance basis.
+
+- The **policy reference must be fixed before results** and must actually make the specific added path/obligation material; the context is not prohibited by author fiat.
+- A **real observable footprint** (source-owned graph or relationship event, activity/telemetry or bounded notification) must be defined. If accessible under the frozen R2 rights, conventional generic discovery gets full credit for using it.
+- If the frozen R2 already includes a general transitive/semantic review covering the admitted R3 and its legitimate sources, **it passes**; that specific R3 is **not uncovered**. A new admissible frontier would require another independently justified mechanism class or information boundary.
+- If the fact is literally unavailable to all actors, **EA cannot detect the hidden truth**. It can qualify a known *coverage inadequacy* only when supported by a legitimate profile, source-status or relational signal; otherwise report NOT_ESTABLISHED.
+- The EA candidate must have fixed, general rules for source relevance/validity, current basis and its limitations, affected decision scope, possible reserve/exploration, target owner and re-entry; **it must not be handed a special S2/T/R lookup rule after the event**.
+
+**Example is a generator idea, not a secretly admitted source-owned oracle.** The prospective evaluator and source owner must test whether the discovered relation is truly novel to the defended R2, lawfully observable, material and cost/timing admissible. A corrected path that remains inside R2 is not a failure of the recurrence programme; it is an informative **covered** case.
+
+## 4. Formal research claim — distinguish three logically different propositions
+
+Let U be a declared open context/change domain, K_n the complete effective defended/frozen control configuration after n repairs (including **generic** guards and adaptive strategies), O_n its permitted observation/history and access contract, T the useful horizon, and Cov(K_n,O_n,T) the set of admissible changes for which K_n correctly qualifies current applicability and preserves legitimate decision/continuity obligations.
+
+**P1 — bounded uncovered frontier (per-configuration existence):** For a particular frozen K_n, does there exist an *admissible, material, source-observable* c outside Cov(K_n,O_n,T)? A properly documented scored R3 can give one **existential counterexample** for that exact K_n. A peer's generic, legitimate coverage may make the proposed candidate c **inside** Cov; this must be recorded honestly.
+
+**P2 — recurring frontier across classes of repairs (open hypothesis):** For a specified class F of bounded defended configurations and admissible open changes, ask whether
+
+    for every K in F there exists c in U_admissible(K) \ Cov(K,O,T).
+
+A proof must justify the **strict uncovered remainder for the entire declared class**, not simply state that there are infinitely many possible events. In particular **a single generic rule can cover infinitely many cases**; the fact that a finite number of rules exists does not alone prove P2, and no “number of infinite wins” or percentage follows from cardinality alone. Coverage may be constrained by domain access, information production, capacity, continuity and deadline; those hypotheses must be explicit.
+
+**P3 — general EA boundary capability (separate, testable):** A prospectively fixed EA-style generic qualification/targeted re-entry specification identifies a materially invalidated or insufficient decision basis **under legally accessible distinguishing evidence**, preserving source authority and legitimate actions, **without a new guard written specifically for c**. Test it on multiple properly varied R3 families with independent oracle, provenance and complete cost. A strong conventional engine implementing the *same general epistemic mechanism* deserves functional credit regardless of product label.
+
+**The recurrence thesis does not imply that EA has zero blind spots.** Source invisibility, undecidable materiality, inaccessible owners, finite review capacity and timing may be genuine limits for EA and conventional controls alike. Nor do the current [conditioned R01 mathematical trilemma](../../baseline/reductions/00G-R01/feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) proofs transfer automatically to this class of privilege-restoration systems. They are useful **methodological examples of proofs with declared configurations, information and bounds**.
+
+**“Between the last enumerated control and infinity” is a useful architectural metaphor** for the open frontier of material contexts beyond a *particular enumerative configuration*. It is not a literal claim that the integers have a last number, or a validated superiority ratio. What we may investigate is **how the cost of repeated local patching and the generic requalification burden scale** as the number and diversity of admitted context families grow.
+
+## 5. Two valid complementary evaluation modes — do not ban the adversarial Challenge
+
+**Mode X — adversarial post-freeze recurrence / existential counterexample (primary):**
+
+1. Admit a complete competent K_n, source policy, positive controls and an **immutable full freeze**.
+2. Freeze a general EA-style comparator with the same legitimate data rights, budget, permitted adaptation and response horizon **before** scored R3 disclosure.
+3. The evaluator may **deliberately search for a material c outside the frozen K_n's effective coverage**. That **is the intended Challenge**, not misconduct: register the search space, eligibility criteria, all attempted cases, computational/source/human search budget, causal footprints, selection decisions and all negative/correct native outcomes. No after-the-fact removal of conventional guards, hidden facts for EA or change of policy semantics.
+4. Before accepting an R3, independently verify: current source-approved materiality, actual R2 coverage gap in the admitted view, legitimacy of the source information, policy/PEP effect criteria and reproducible evidence. Report unsuccessful search without pretending a counterexample exists.
+5. Run unchanged R2 and the preregistered generic EA capability. Score loss of foundation, source-aware scope, appropriately bounded re-entry, legitimate continuity, true/false holds where information exists, enforcement/effects (when tested) and **full cost**.
+6. **Finding ceiling:** success yields an existential uncovered example for a specific frozen K_n and evidence about the fixed EA capability on it. Because selection is adaptive/conditioned on K_n, **do not infer prevalence, random-case superiority or universal impossibility** from that selected event.
+7. Allow a new K_(n+1) after the sealed outcome is documented, then repeat with a new freeze, new source-appropriate c and a declared cumulative budget/iteration stopping criterion. Iteration may continue as a **research programme**; “infinite wins” are not an experimental finding.
+
+**Mode Y — prospective blind/generalization benchmark (secondary):** Independently partition case **identities and genuinely distinct mechanism/source families** before outcomes, with a sampling plan and nonselective scoring. Existing R2 direct-edge, stale-source and irrelevant-change cases belong to known-family calibration/continuity. A future untrained cross-domain relation may be a prospective new-family test after independent admission. The original W+/W− indistinguishable-packet control is **epistemic conformance**, not evidence of hidden truth detection.
+
+**The previous [v0.4.1 R3 audit](R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md) correctly rejects falsely labelled “unseen” *known-family tests*, but its disjoint-family/selection rule cannot be treated as a prohibition of explicitly labelled Mode X adaptive adversarial search.** Such a search provides a valid *conditional existential counterexample*, not a randomly selected performance estimate. Preserve both modes and distinguish their inference ceilings.
+
+## 6. Ecosystem Awareness is the requalification relation, not another c-specific patch
+
+A generic EA boundary/contract, if independently established, would preserve or produce:
+
+| What the current control states | What general EA qualification should test | What cannot be presumed |
+|---|---|---|
+| “Grant/restoration condition passed” | **Did the original condition cover the presently material relations, time, source profile and decision scope?** | That old native PASS establishes new global permission; or that EA may issue a grant. |
+| “Direct dependency graph has no blocking edge” | **Is that graph/source scope sufficient for this particular current isolate(R) decision after new cross-domain relations or material source changes?** | Complete visibility into all privately governed sources; a direct-edge negative is not a transitive/semantic global negative. |
+| “No conflicting signal received” | **Was the relevant source/profile expected to report this relation within the current validity window? Is absence meaningful, or is coverage not established?** | Silence proves no dependency. If even relevance/coverage cannot be established, report UNKNOWN at the appropriate process level, not invented D probability. |
+| “Context validation requires a new special case” | **Can a general versioned, provenance-preserving, scope-specific review/re-entry policy discover an authorized path to refresh the determination in time?** | That a generic label replaces the native PDP, grants observation rights, guarantees timely data or always produces a permitted action. |
+| “Hold everyone to be safe” | **Can only the affected request/resource/domain be paused or requalified while unaffected legitimate actions continue?** | Safety alone is sufficient operational effectiveness or that a hidden safe world creates an avoidable false hold. |
+
+The canonical [EA A/B/C/D semantics](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) are process-relative: A actual functional output, B characterized support/reserve, C grounded exploration frontier and D residual materiality outside effective evaluation. **D is not an assumed probability** and the open frontier is not a completed catalogue. [General EHD/IF-S contract](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) can express source, proposition/scope, native result, qualifier and material unknowns; it is **an architectural research candidate**, not a mandatory wire protocol or proof of performance.
+
+**Passing criterion:** given an admitted accessible changed context outside the actual K_n coverage, does the fixed EA mechanism (a) avoid unjustified continuation or false factual certainty, (b) narrow the affected decision scope, (c) identify an authorized, realistically available source/review/decision owner, (d) requalify/re-enter in time when possible, and (e) preserve unaffected legitimate work, all under a matched and fully charged budget? An alert or universal HOLD alone **does not pass**. If the conventional defender possesses the same generic capability and passes, report **functional parity and requalification specification already realizable conventionally**; do not convert this into product-exclusive novelty.
+
+## 7. How the China Unicom source fits — and what WP0 actually gates
+
+The public [Theme #23 proposal by Ying Wang and Ye Tao](https://github.com/FG-TIDA/themes/issues/23) concerns the **full privilege lifecycle**. [Ying's 14 October reply to the hibernation example](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309) explicitly recognizes operating dependency, criticality, evidence confidence and optional EA context signals. [Her answer on the suspension predicate](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429) prescribes in discussion **anchor validation THEN renewed context-based intent**. These provide one concrete **R2 conventional repair** and potential domain semantics, not a guarantee against every future c.
+
+The [four-question WP0 source-owner brief](WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md) is important **for a jointly grounded, source-owned implementation of CU-HIB-01**, but it is **not a logical prerequisite to defining, researching or conditionally proving the structural recurrence mechanism** using a separately declared synthetic/source-neutral contract. If no external policy owner authorizes real China Unicom test material, an explicitly synthetic owner-defined oracle may still support **a bounded theoretical / local Stage A exploratory instance**, with its synthetic claim ceiling stated, no corporate endorsement or product results. Never make up China Unicom source-owned normative policy.
+
+**Next work product, not more prose:** a compact **Mode X run card**:
+- name one complete competent R2 and its repaired c1;
+- list its **effective coverage and legitimate observable source relationships**, including generic guards, not just rule filenames;
+- freeze R2 and EA-profile before c2;
+- propose **one source-grounded c2 outside that coverage**, with observable mechanism and source rights;
+- define legitimate positive/negative trajectories, oracle/action rule, time and full cost;
+- record search attempts, outcomes and post-R3 patch as a **new generation**, not retrospective success.
+
+[Previous v0.4 third-party dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md) · [v0.4.1 R3 admission audit](R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md) · [R01 mathematical scope](../../baseline/reductions/00G-R01/feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) · [Flores recurrence principle](../flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md).
+
+**This file corrects the central study orientation, not source testimony or previous frozen evidence. Status remains independent local research: NOT_PREREGISTERED / NOT_EXECUTED / NO_UNIVERSAL_PROOF / NO CHINA UNICOM APPROVAL.**
