@@ -2,7 +2,7 @@
   "campaign_handle": "DDS-A-CU-PLM-EA-01",
   "slug": "china-unicom-privilege-lifecycle-ea",
   "title": "China Unicom / Theme #23: qualified-context privilege restoration after hibernation",
-  "version": "0.1",
+  "version": "0.2",
   "created": "2026-10-14",
   "last_updated": "2026-10-14",
   "local_campaign_owner": "Iván Abril Palma / The Integral Management Society",
@@ -25,7 +25,16 @@
     "results_verified": false,
     "stage_b_started": false,
     "stage_c_started": false,
-    "ITU_adoption_claimed": false
+    "ITU_adoption_claimed": false,
+    "design_review_ready": true,
+    "local_design_approved": false,
+    "independent_design_review_completed": false,
+    "scientific_stage_a_finding": "NOT_ESTABLISHED",
+    "source_owned_action_policy_confirmed": false,
+    "blind_case_sealed": false,
+    "evaluation_oracle_validated": false,
+    "strong_B2_defended_frozen": false,
+    "actual_external_PDP_test": false
   },
   "method_router": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
   "stage_a_source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
@@ -155,7 +164,13 @@
     "sources": "SOURCES_AND_CUSTODY.md",
     "run_card": "RUN_CARD_PREPARATION.md",
     "continuation": "CONTINUATION.md",
-    "machine": "CAMPAIGN.json"
+    "machine": "CAMPAIGN.json",
+    "challenge": "CHALLENGE_CONTRACT_v0.2.md",
+    "traceability": "REQUIREMENTS_TRACEABILITY_v0.2.md",
+    "approval": "APPROVAL_AND_PREREGISTRATION_v0.2.md",
+    "audit": "AUDIT_REPORT_2026-10-14.md",
+    "calibration": "fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
+    "static_checker": "tools/validate_challenge.py"
   },
   "open_obligations": [
     "Source-authorized decision policy, restore-condition and restricted privilege semantics",
@@ -168,5 +183,45 @@
     "Independent oracle, blind packets and event/injection custody",
     "Executed traces, recovery, total burden and evidence-bounded comparison"
   ],
-  "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation."
+  "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation.",
+  "approval_gates": {
+    "D0_LOCAL_DESIGN": "READY_FOR_REVIEW_NOT_APPROVED",
+    "D1_EXTERNAL_SEMANTICS": "NOT_ESTABLISHED",
+    "D2_STAGE_A_PREREGISTRATION": "BLOCKED_NOT_FROZEN",
+    "D3_STAGE_A_RESULT": "NOT_EXECUTED_NOT_ADJUDICATED",
+    "STAGE_B": "NOT_STARTED",
+    "STAGE_C": "NOT_STARTED"
+  },
+  "protocol_control": {
+    "current_challenge": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CHALLENGE_CONTRACT_v0.2.md",
+    "supersedes_as_future_trial_contract": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "history_preserved": true,
+    "single_causal_change": "Only edge S->R is introduced during hibernation; S is already critical at T0",
+    "all_case_retention": "REQUIRED_BEFORE_RUN",
+    "defender_outcome_conditional_selection": "PROHIBITED",
+    "independent_source_policy": "NOT_AGREED",
+    "synthetic_rule_not_official": "YES",
+    "observational_indistinguishability_control": "CU-C3+ / CU-C3-",
+    "paired_equal_legitimate_data_rights": "REQUIRED",
+    "parity_valid": true
+  },
+  "audit_v0_2": {
+    "date": "2026-10-14",
+    "review_type": "AUTHOR_SIDE_SELF_AUDIT",
+    "independent_review": false,
+    "total_findings": 16,
+    "critical_open": [
+      "CU-F03"
+    ],
+    "execution_blockers": [
+      "CU-F03",
+      "CU-F06",
+      "CU-F11",
+      "CU-F14"
+    ],
+    "documentary_remediations_recorded": true,
+    "static_casebook_assertions_initial_creation": 12,
+    "static_checker_executed_in_this_tool_session": false,
+    "results_or_effects_observed": false
+  }
 }
