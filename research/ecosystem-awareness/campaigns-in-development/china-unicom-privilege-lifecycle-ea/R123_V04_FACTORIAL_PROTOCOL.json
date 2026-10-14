@@ -229,5 +229,11 @@
     "B": "NOT_STARTED",
     "C": "NOT_STARTED"
   },
-  "disclaimer": "No China Unicom affiliation, endorsement or working group mandate is inferred from individual issue discussion; GitHub author_association NONE is an issue-level metadata field and does not establish employment status."
+  "disclaimer": "No China Unicom affiliation, endorsement or working group mandate is inferred from individual issue discussion; GitHub author_association NONE is an issue-level metadata field and does not establish employment status.",
+  "source_owner_policy_approved": false,
+  "independent_oracle_assigned": false,
+  "action_policy_materiality_approved": false,
+  "loss_model_preregistered": false,
+  "experimental_runs_executed": false,
+  "evidence_ceiling_note": "Explicit absent approvals are factual status fields; NOT a scientific proof, simulation outcome or negative normative judgement."
 }
