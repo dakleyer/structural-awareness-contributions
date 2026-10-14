@@ -2,7 +2,7 @@
   "campaign_handle": "DDS-A-CU-PLM-EA-01",
   "slug": "china-unicom-privilege-lifecycle-ea",
   "title": "China Unicom / Theme #23: qualified-context privilege restoration after hibernation",
-  "version": "0.3",
+  "version": "0.4",
   "created": "2026-10-14",
   "last_updated": "2026-10-14",
   "local_campaign_owner": "Iván Abril Palma / The Integral Management Society",
@@ -34,7 +34,8 @@
     "blind_case_sealed": false,
     "evaluation_oracle_validated": false,
     "strong_B2_defended_frozen": false,
-    "actual_external_PDP_test": false
+    "actual_external_PDP_test": false,
+    "external_campaign_consent": false
   },
   "method_router": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
   "stage_a_source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
@@ -171,9 +172,12 @@
     "audit": "AUDIT_REPORT_2026-10-14.md",
     "calibration": "fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
     "static_checker": "tools/validate_challenge.py",
-    "third_party_dossier": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
+    "third_party_dossier": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md",
     "third_party_adversarial_review": "THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md",
-    "R123_stage_register": "R123_STAGE_REGISTER_v0.3.json"
+    "R123_stage_register": "R123_STAGE_REGISTER_v0.3.json",
+    "third_party_dossier_v03": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
+    "external_review_v04": "EXTERNAL_REVIEW_RECONCILIATION_v0.4.md",
+    "factor_protocol_v04": "R123_V04_FACTORIAL_PROTOCOL.json"
   },
   "open_obligations": [
     "Source-authorized decision policy, restore-condition and restricted privilege semantics",
@@ -189,8 +193,8 @@
   "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation.",
   "approval_gates": {
     "D0_LOCAL_DESIGN": "READY_FOR_INDEPENDENT_REVIEW_NOT_APPROVED",
-    "D1_EXTERNAL_SEMANTICS": "TWO_STEP_DISCUSSION_SUPPORTED_SPECIFIC_RISK_POLICY_NOT_APPROVED",
-    "D2_STAGE_A_PREREGISTRATION": "BLOCKED_NOT_FROZEN",
+    "D1_EXTERNAL_SEMANTICS": "SOURCE_TWO_STEP_DISCUSSION_ONLY_POLICY_ALLOW_BLOCK_NOT_APPROVED",
+    "D2_STAGE_A_PREREGISTRATION": "BLOCKED_ON_POLICY_R2_FREEZE_ORACLE_LOSS_AND_CONSENT",
     "D3_STAGE_A_RESULT": "NOT_EXECUTED_NOT_ADJUDICATED",
     "STAGE_B": "NOT_STARTED",
     "STAGE_C": "NOT_STARTED"
@@ -228,9 +232,9 @@
     "results_or_effects_observed": false
   },
   "research_priorities": {
-    "primary": "INDEPENDENT_CONTEXT_SHIFT_RELEVANCE_AND_SPECIFICATION_DISCOVERY",
-    "secondary": "TESTABLE_EA_CANDIDATE_REQUIREMENTS",
-    "tertiary": "OPTIONAL_MATCHED_EA_VS_STRONG_CONVENTIONAL_DIFFERENTIAL_NO_PREDETERMINED_WINNER"
+    "primary": "INDEPENDENT_CONTEXTUAL_APPLICABILITY_WITH_OWNER_POLICY_ALLOW_OR_BLOCK",
+    "secondary": "H_ANCHOR_SCOPE_AND_TWO_STEP_INCREMENTAL_VALUE_WITHOUT_WEAKENING_NATIVE_R2",
+    "tertiary": "NONDEGENERATE_UNKNOWN_CONTINUITY_LOSS_AND_SEPARATE_INTEROPERABILITY_UNDER_PARITY"
   },
   "source_cutoff": {
     "date": "2026-10-14",
@@ -261,5 +265,55 @@
     "scientific_result": "NOT_ESTABLISHED",
     "independent_design_signoff": false,
     "independent_pdp_run": false
+  },
+  "v04_experiment_design": {
+    "status": "DESIGNED_NOT_ADMITTED_NOT_EXECUTED",
+    "hypothesis_ids": [
+      "H-ANCHOR-SCOPE",
+      "H-STEP1-INCREMENTAL",
+      "H-NONDEGENERACY",
+      "H-POLICY-ALLOW",
+      "H-INTEROP-PARITY"
+    ],
+    "predicate_regimes": [
+      "P-E",
+      "P-G",
+      "P-G-UNBOUND (negative calibration only)"
+    ],
+    "diagnostic_ablations": [
+      "R2-FULL",
+      "R2-AB1",
+      "R2-AB2",
+      "R2-AB12"
+    ],
+    "ablations_not_primary_native_comparator": true,
+    "strong_native_R2_full_remains_unchanged": true,
+    "observation_pair": "W+ / W- identical initial visible packet, hidden truth differs",
+    "loss_owner_frozen": false,
+    "active_query_opportunity_registered": false,
+    "terminal_outcomes": [
+      "TERM-POLICY-BLOCK",
+      "TERM-POLICY-ALLOW",
+      "TERM-NOT-ESTABLISHED",
+      "TERM-PARITY",
+      "TERM-NO-SOURCE"
+    ],
+    "source_revisions": {
+      "zhao_vs_ying": "anchor replacement versus sequential addition; not source equivalent",
+      "theme33": "CLOSED_NOT_PLANNED_2026_10_02",
+      "nell_vs_nelson": "Nell original attribution is correct; reject unwarranted rename"
+    },
+    "affiliation": "Public issue comments show author_association NONE; no corporate sponsorship or consent inferred",
+    "github_workflow": ".github/workflows/dds-china-unicom-challenge.yml",
+    "workflow_execution_status": "NOT_VERIFIED_AT_WRITING",
+    "primary_complete_source": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md"
+  },
+  "audit_v0_4": {
+    "review_kind": "EXTERNAL_REVIEW_GROUNDED_AUTHOR_RECONCILIATION",
+    "status": "DOCUMENTARY_CRITICAL_REVIEW_COMPLETE_INDEPENDENT_APPROVAL_PENDING",
+    "applied": 5,
+    "source_status_verified": true,
+    "scientific_result": "NOT_ESTABLISHED",
+    "CI_executed_at_authoring": false
   }
 }
