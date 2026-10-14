@@ -14367,5 +14367,28 @@
       "new_candidates": 0,
       "new_vnext": 0
     }
+  ],
+  "third_damage_review_epochs": [
+    {
+      "date": "2026-10-14",
+      "title": "Third pass — fresh reviewer, primary sources first, full Phase A before prior-audit comparison",
+      "source_commit": "bbce514bfa4cd91cf43cf4cad9cb7ca74b949b71",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#third-pass--fresh-context-and-deferred-audit-comparison-14-october-2026",
+      "reviewer": "/root/third_pass_blind_corpus",
+      "fork_turns": "none",
+      "prior_findings_supplied": false,
+      "prior_audit_comparison_gate": "Only after all principal corpus/material integrations Phase A source judgements are sealed; never cohort-by-cohort unblinding",
+      "per_cohort_first_record_immutable": true,
+      "own_inventory_and_order_required": true,
+      "exposure_ledger_required": true,
+      "independence_scope": "Fresh conversation and source evidence process; no assertion of different model/vendor/institution",
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "new_candidates": 0,
+      "status": "Dispatched; independent source inventory and judgements in progress",
+      "whole_corpus_review_complete": false,
+      "restoration_plan_complete": false,
+      "phase_B_open": false
+    }
   ]
 }

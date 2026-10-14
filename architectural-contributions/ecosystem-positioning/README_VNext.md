@@ -2199,3 +2199,36 @@ Only a supported significant applicable omission or a demonstrated current incon
 | Earlier R01 proof/oracle material not yet adjudicated | A filename or relocation map does not settle the validity or applicability of its claims to current DDS | Read the complete material and consumers first; keep the disposition unresolved until then |
 
 These decisions narrow what may be proposed. They neither insert recovered material nor convert the remaining internal-history queue into a list of changes to apply. The earlier audits and exact pairs remain visible; their age or pending status creates no presumption that they should be adopted.
+
+
+## Third pass — fresh context and deferred audit comparison, 14 October 2026
+
+**Iván requests a fresh, detailed third review of the entire corpus and an independently derived restoration and organization plan.** Reviewer `/root/third_pass_blind_corpus` has been started with an empty conversation context (`fork_turns=none`). No previous findings, candidate list, audit ranking or earlier reviewer reports were supplied. The coordinator retains administrative continuity and keeps it out of the reviewer’s source judgement.
+
+### Phase A: derive and seal the review from primary sources
+
+The reviewer builds its own complete current-file/logical-unit inventory, chooses its own reading sequence from actual source dependencies, and fixes its source cut. All files must be accounted for: principal bodies and their parts/material evidence, code and results, schemas/records, original media/binaries, old versions, branch work and genuinely additional material. Metadata, copies and historical snapshots receive their actual role; counting them does not create extra independent articles or scientific passes.
+
+The central comparison is internal Contributions history: source creation, material intermediate versions and merge parents, current body, displaced information and actual receiving sources. The use-cases fork is secondary provenance. Per-document records identify complete versus partial reading and explain clause/table/formula/field/asset and producer–consumer–return consequences. Hashes, path existence and link scans support those judgements; they do not replace them.
+
+For each coherent cohort, the reviewer saves a timestamped, immutable first judgement, its plan and an exposure/read ledger, with exact source identities and SHA-256 custody. The reviewer may proceed to the next source cohort after sealing. **No earlier VNext audit, review report, priorities or memory is opened until Phase A has been completed and sealed for the whole principal corpus and its material integrations.** Unblinding after one cohort would influence the cohorts that remain, so it is expressly deferred.
+
+Operating controls are read without their appended summaries of earlier audit results. Primary-source assertions and any review commentary encountered in a primary source are logged separately. An accidental exposure is recorded against the affected scope; the independence claim follows that record rather than an assumed label. The agent uses the configured model; the distinction is its fresh context and evidence process, not an invented different model or institution.
+
+### Phase B: compare earlier audits after the independent baseline
+
+Once the whole Phase A baseline is sealed, the reviewer reads the existing audits and distinguishes agreement, disagreement, overlooked evidence and genuinely new findings. The sealed first judgements remain unchanged. Later answers or revisions are dated additions; they cannot be substituted for the original independent record.
+
+The coordinator can publish sealed partial findings before Phase A ends, using the existing owning VNext and preserving its exact predecessor. Those publications are not fed back to the reviewer as evidence or priorities. The fixed source cut prevents new review additions from silently entering the blind source set. Substantive feedback from the coordinator is deferred; custody/coverage checks are kept separate from the reviewer’s reasoning.
+
+### Independently derived restoration and organization plan
+
+Each proposed change must justify the information’s validity, significance, current DDS role and concrete useful effect. The reviewer determines whether it is already received, a sound correction/supersession, history/support only, a significant applicable omission, or unresolved. Negative evidence and applicable historic contracts remain material. No recovered wording is inserted merely because it disappeared.
+
+Where an active change is justified, the existing owner receives complete literal current text before and complete proposed text after, exact location/source, reason/evidence, dependencies and ordering, expected impact, risk, effort and acceptance checks. Organization proposals explain the actual source/destination and preserve content, original files, links and the three canonical README levels. They are plans, not permission to move files, establish competing sources or rebuild the tree.
+
+Original canonical documents, frozen evidence, results, code and binaries remain in reading mode. Restoration/organization requires Iván’s GO for the named passages or wave. This request authorizes the review and its plan, not automatic incorporation. No new public VNext, report collection, experiment, contact or timer is created.
+
+### Actual progress and closure
+
+The new reviewer has been dispatched; its own inventory, first source judgements and plan are being produced. This protocol is not their result and does not certify any file as reviewed. Progress distinguishes unread, complete source read, material history read, receiving relation incomplete, first judgement sealed, earlier audit compared, plan prepared and publication verified. Whole-corpus completion requires those actual records and the final cross-document reconciliation; a first cohort does not close the third pass.
