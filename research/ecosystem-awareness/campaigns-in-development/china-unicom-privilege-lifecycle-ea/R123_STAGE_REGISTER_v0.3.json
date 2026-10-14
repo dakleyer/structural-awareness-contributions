@@ -211,16 +211,20 @@
       "world_delta": "S->R edge hidden exists",
       "positive": false,
       "question": "Can receiver preserve unknown when edge is inaccessible?",
-      "assumption": "visible packet exactly same as R3-C−"
+      "assumption": "visible packet exactly same as R3-C−",
+      "legitimate_world_without_edge": false,
+      "visible_packet_insufficient_for_full_action": true
     },
     {
       "id": "R3-C−",
       "trajectory": "R3",
       "stratum": "INDISTINGUISHABLE_PARTIAL_WORLD",
       "world_delta": "S->R edge hidden absent",
-      "positive": true,
-      "question": "Can receiver refrain from claiming factually known absence while not using a global halt?",
-      "assumption": "visible packet exactly same as R3-C+"
+      "positive": false,
+      "question": "Can receiver preserve UNKNOWN even though the evaluator privately knows the edge is absent, and seek authorized bounded requalification instead of inventing a safe-to-isolate verdict?",
+      "assumption": "Same visible partial packet as R3-C+; positive world truth does NOT make evidence sufficient for automatic full restoration",
+      "legitimate_world_without_edge": true,
+      "visible_packet_insufficient_for_full_action": true
     },
     {
       "id": "R3-D",
