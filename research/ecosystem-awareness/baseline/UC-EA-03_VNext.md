@@ -191,3 +191,52 @@ El frozen conserva exactamente su blob anterior. La revisión aprobada está inc
 The [plan DC-06](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026) adds receiving evidence to CP-01/change93. Current 01K-A01 §§5.2–5.4 already include backlog/service time, response-window state and `sum_i x_ij * ServiceDemand_ij(q) <= AvailableServiceTime_j(W)`, explicitly necessary but not sufficient for all scheduling constraints. The missing compact01K line does not establish a missing component capability. Restore explicit source meaning only after comparing units, concurrent commitments, release/deadline constraints, scheduling proof class, UNKNOWN and receiver qualification.
 
 The complete current component passage is published in DDS VNext; the original before/proposed change93 remains unchanged in01K VNext. Candidate93 stays High impact / Medium risk / Medium effort, not ready or applied. Compare component schema/vectors/verification, UC-EA-03 freeze and working successor, EHD/general-interface and current Flores mapping before choosing a literal restoration, qualified cross-reference or justified no-edit disposition. No schema, scheduling engine, result or frozen source changes by this review.
+
+
+## Second contract review — UC-EA-03 working successor, 14 October 2026
+
+Reviewer `/root/gate_capacity_adversary`. The current working successor has a complete source reading; its inherited v0.4 title is distinguished from the approved working edition, and the frozen predecessor/full adapter review remains pending. [Common audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026); [capacity alternative](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md#second-contract-review--capacity-and-the-change93-alternative-14-october-2026); [component/schema](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#second-contract-review--complete-component-and-schema-14-october-2026).
+
+## 8. UC-EA-03 working successor: consumer judgement
+
+This consumer is relevant because it asks about **effective intervention**, not a nominal human or work-volume ratio. It is an owner-approved v0.5 successor with inherited v0.4 title and status text; a citation must identify the successor blob rather than silently claiming the frozen predecessor changed.
+
+Substantial current clauses:
+
+> R1. The architecture shall represent effective human-oversight capacity separately from the nominal existence of a human role.
+>
+> R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.
+>
+> R3. The system shall not repeatedly escalate to a human when the required capacity is unavailable, the useful window has expired, or additional review has insufficient expected decision value relative to remaining human/time capacity.
+>
+> R11. Human attention/review effort shall be accounted as finite determination capacity of the extended system, not as a cost-free external oracle.
+
+Branch H:
+
+> Several consecutive uncertainty events are routed to the same human capacity pool. Each request is individually reasonable, but queue growth makes later intervention miss the useful response window. Expected EA behavior: treat human attention as capacity-binding, stop generic escalation, prioritize the material domain or choose a bounded non-human containment/requalification path.
+
+Approved Branch B successor:
+
+> Any fallback, including hold or timeout, must retain its authority, affected scope, response window and downside conditions; reviewer unavailability alone does not establish that the fallback is harmless or permitted.
+
+Disposition: a necessary capacity bound is received substantively. The consumer does not define universal A01 proof-class acceptance or a scheduler; it intentionally consumes Theme16 implementation-neutral fields. A01 output cannot replace Theme16 lifecycle authority, and HumanTime omission in 01K cannot be used to infer UC03 requirement failure. **No UC03 source edit proposed.** Its frozen predecessor comparison and all actual adapters remain pending.
+
+| Current consumer section | Disposition |
+|---|---|
+| Owner successor banner/status | Retain edition distinction; approved #22/#23 do not rewrite freeze. |
+| 0 Identification | Retain S4/S13/S14/S5 traceability, non-curative approval, Theme16 owner. |
+| 1 Functional interaction | Retain trigger-path→authority/capacity→evidence/effect question; human not universal safety valve. |
+| 2 Parent facts | Retain T0/T1/T2/H1 records and TBD governing regime; no invented legal/current authority. |
+| 3 Lifecycle interface | Retain implementation-neutral fields; no required HELD/INDETERMINATE vocabulary. |
+| 4 Challenge traceability | Retain formal authority, competence, information/time/means distinctions. |
+| 5 Functional traceability | Retain approved F7 qualified response owner, capacity/downside boundary; EA does not act as controller. |
+| 6 Requirements R1–R12 | Retain all; finite human effort and sensitivity contrast receive HumanTime meaning without defining universal scheduler. |
+| 7 Branches A–I | Retain all; C/H queue depletion, D/E non-curative approval, F currentness, G unresolved execution, I proportionality. |
+| 8 Assessment | Retain raw review minutes/queue/time/evidence/outcome observations, not cognitive value metric. |
+| 9 Peer baseline | Retain conventional HITL/Theme16 credit; composition hypothesis requires matched comparison. |
+| 10 Nonduplication | Retain source-owned Theme6 verdict and Theme16 lifecycle; no state relabel by convenience. |
+| 11 Maturity/IP | Retain hypothetical architecture-validation profile, recommended fixtures, internal/public boundary. |
+| Annex A | Retain extensibility as tests, no unapproved public sector scope expansion. |
+| Annex B | Retain ToR context as citations, not proof of adoption. |
+| Annex C | Retain references; linked external current content not independently refreshed here. |
+

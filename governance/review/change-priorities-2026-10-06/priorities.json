@@ -4752,6 +4752,70 @@
       "quality": "Complete literal current-before/proposed-after, historical predecessor, impact/risk/cost and consumers",
       "acceptance": "All current gate conditions retained; exactly the required HumanTime line restored; bounded-time units/consumer interpretation reconciled",
       "joint_changes": "Owning 01K and 01K-A01 review records; no automatic schema/code change"
+    },
+    {
+      "id": 94,
+      "title": "Align00J-A01 introduction with the same-Q5 controlled regime test",
+      "source": "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md",
+      "source_sha": "af17d682b7e7e742b298de7918ade6029dffa9b8",
+      "source_commit": "ca2131e20e2629a0ef1e0398bb9bd274f407bf3e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "pairs": [
+        {
+          "before": "- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.",
+          "after": "- and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.",
+          "location": "Section1 — last bullet of why Panodyssey/TEMS fits00J"
+        }
+      ],
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "heading": "Second-pass candidate94 — same question, changed ecosystem relationship",
+      "state": "Prepared — pending named Ivan GO",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Second-pass precision wave",
+      "benefit": "Removes the introduction/controlling§6 conflict and explains that Q5 remains constant while the resolver/identifier/lineage contract changes.",
+      "riskReason": "One reader-facing bullet;§6 tests, scenario facts, figures, frozen caseT09 and all source/results stay unchanged. Confirm no broader proposition-change claim is introduced.",
+      "costReason": "Literal one-location check, controlling§6/history check and exact output/readback; no runtime or schema validation.",
+      "dependencies": "00J-A01§6.2–6.4/TestF; reviewerS6 history at3c3d9d; T09 historical interpretation",
+      "gate": "Ivan approves candidate94 exact current-owner passage; no fork or submitted edition edit.",
+      "date": "2026-10-14",
+      "preparation": "Complete before/after and origin traced; one current literal occurrence",
+      "decision_ready": true,
+      "authorized_to_apply": false
+    },
+    {
+      "id": 95,
+      "title": "Clarify UC-21 claim, condition and route namespaces in the existing DDS paragraph",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "source_sha": "e636346c46c49cb81ecc7f84ec9c792e9729cc95",
+      "source_commit": "ca2131e20e2629a0ef1e0398bb9bd274f407bf3e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "pairs": [
+        {
+          "before": "Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.",
+          "after": "Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs. In UC-21, R0/R1/R2 name implementation routes, HC/HR/HS select claims, and A–D name causal trial conditions. S3’s robot actors R1/R2 and S6’s original rights record R0 belong to different local namespaces. S1’s I1/I2/O1/O2 failure-position codes are distinct from AWS configuration names. Use the case conventions and the source profile together before mapping these labels into DDS.",
+          "location": "10A Namespace safety — complete opening paragraph"
+        }
+      ],
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "heading": "Second-pass candidate95 — case namespaces in DDS",
+      "state": "Prepared — pending named Ivan GO",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Second-pass precision wave",
+      "benefit": "Gives the reader the specific case collisions that generic namespace guidance leaves implicit, including R0 as rights record versus comparison route.",
+      "riskReason": "Reader-only clarification of existing labels; no renumbering, trace/schema/fixture mutation or HR/HC acceptance change.",
+      "costReason": "Verify caseConventions/H§13/S6 identifiers and one literal insertion location; exact source/output/link/readback checks.",
+      "dependencies": "CONVENTIONS routes and labels; HYPOTHESES§13; S6/current00J R0 rights namespace; existing10A examples",
+      "gate": "Ivan approves candidate95 exact paragraph; this clarity addition does not close the case run/HR bridge.",
+      "date": "2026-10-14",
+      "preparation": "Source-first findings combined; full original/proposed paragraph, unique predecessor",
+      "decision_ready": true,
+      "authorized_to_apply": false
     }
   ],
   "audit_coverage": [
@@ -11423,6 +11487,33 @@
         }
       ],
       "canonical_applied": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Separate reviewers narrow damage claims and prepare two reader corrections",
+      "source_commit": "ca2131e20e2629a0ef1e0398bb9bd274f407bf3e",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026",
+      "proposal_assessments": [
+        {
+          "id": 93,
+          "state": "Original pair preserved; bounded-service alternative prepared; consumer closure pending",
+          "decision_ready": false,
+          "authorized_to_apply": false
+        },
+        {
+          "id": 94,
+          "state": "Prepared — pending named Ivan GO",
+          "decision_ready": true,
+          "authorized_to_apply": false
+        },
+        {
+          "id": 95,
+          "state": "Prepared — pending named Ivan GO",
+          "decision_ready": true,
+          "authorized_to_apply": false
+        }
+      ],
+      "canonical_applied": false
     }
   ],
   "plan_order": {
@@ -11926,6 +12017,28 @@
       "authorized_to_apply": false,
       "applied_commit": "dcdb42d9814f690a40e79c28ec7f5de0d98af8f0",
       "decision_ready": false
+    },
+    {
+      "id": 93,
+      "variant": "Second source-first contract review — bounded-service interpretation",
+      "date": "2026-10-14",
+      "source_commit": "ca2131e20e2629a0ef1e0398bb9bd274f407bf3e",
+      "source_sha": "e52ed065c5d217da73634c7eb28d26c5d990abae",
+      "pairs": [
+        {
+          "before": "~~~text\nHumanEscalationViable_i(tau,W)\n=\nqualified route exists\nAND applicable authority exists\nAND qualified reviewer/case fit exists\nAND information is sufficient for the requested decision\nAND expected latency fits W\n~~~",
+          "after": "~~~text\nHumanEscalationViable_i(tau,W)\n=\nqualified route exists\nAND applicable authority exists\nAND qualified reviewer/case fit exists\nAND information is sufficient for the requested decision\nAND required qualified human service demand is feasible within W\n    under the declared 01K-A01 capacity/timing model and proof class\nAND expected review-completion latency fits W\n~~~\n\nHere, human service demand is route- and competence-specific work time, not a universal unit of intelligence or an HID metric. Read feasibility with 01K-A01 §§5.2–5.4, including backlog, current commitments, release times, deadlines, non-preemptible work and any material precedence constraints. The necessary load condition alone is not a sufficient scheduling proof. The consuming policy determines which declared proof classes are admissible; unresolved material inputs remain UNKNOWN. This gate qualifies the human review path and does not establish the correctness, authority, execution or effect of the eventual intervention.",
+          "location": "15 Gate A compact viability block and proposed immediately following explanatory paragraph"
+        }
+      ],
+      "state": "Alternative prepared; consumer adjudication pending",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Medio",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "original_pair_preserved": true,
+      "reason": "Complete component/schema and UC03 source readings support a bounded capacity cross-reference; no sufficient scheduling/calibration or all-consumer closure is established."
     }
   ],
   "decision_waves": [
@@ -13277,6 +13390,653 @@
       ],
       "literal_pairs_preserved": true,
       "independent_review_performed": false
+    }
+  ],
+  "second_damage_review_epochs": [
+    {
+      "date": "2026-10-14",
+      "title": "Second damage pass — separate source-first reviewer cohort1",
+      "source_commit": "ca2131e20e2629a0ef1e0398bb9bd274f407bf3e",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026",
+      "source_counts": {
+        "primary_assigned_sources": 13,
+        "case_sections": 75,
+        "case_inventoried_clause_units": 455,
+        "old_gate_properties": 14,
+        "old_gate_sections": 17,
+        "S6_T09_alias_section_maps": 126,
+        "existing_review_path_candidates": 72,
+        "known_joint_pairs": 7,
+        "all_current_paths": 2346
+      },
+      "reviewers": [
+        {
+          "task": "case_clause_forensics",
+          "model": "Inherited parent model; no model override",
+          "external_independence": false,
+          "review_role": "Protocol/claim/form forensics"
+        },
+        {
+          "task": "s6_semantic_forensics",
+          "model": "Inherited parent model; no model override",
+          "external_independence": false,
+          "review_role": "Semantic section/metric/namespace preservation"
+        },
+        {
+          "task": "gate_capacity_adversary",
+          "model": "Inherited parent model; no model override",
+          "external_independence": false,
+          "review_role": "Contract/necessary-versus-sufficient adversary"
+        }
+      ],
+      "primary_results": [
+        {
+          "repository": "dakleyer/use-cases",
+          "path": "contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md",
+          "sha": "824f4f974d1423cb98c78504ac9e6ca91fb95b0b",
+          "sha256": "aa7967a6259ed9c8a0379c41d03bdfdc505414bb32b72f3ec5fa142c8b45361e",
+          "bytes": 17203,
+          "source_read_assigned": "case_clause_forensics",
+          "historical_blob_versions": 1,
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/use-cases",
+          "path": "contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md",
+          "sha": "7e315c2fc1931e19a9a61d03912b9fb88b51031c",
+          "sha256": "2c2bb892598d6f0135ab5c23af68944005071a16142a00e921b7932e53318f11",
+          "bytes": 66940,
+          "source_read_assigned": "case_clause_forensics",
+          "historical_blob_versions": 1,
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/use-cases",
+          "path": "contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md",
+          "sha": "11e844056e6253e3e8ec0983072dd8fdc3b0d88e",
+          "sha256": "0290e6d11e3dca8c317ed84957dc3b35e264cc8011aff540323d60c5e853e9fc",
+          "bytes": 18042,
+          "source_read_assigned": "case_clause_forensics",
+          "historical_blob_versions": 1,
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/use-cases",
+          "path": "contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md",
+          "sha": "f14cfee1b588d0814bb39288b40d715bbed826a2",
+          "sha256": "6911b3048974661675ba3406c001d1d0bf16b1b44a7d8360faff6cb6518591e2",
+          "bytes": 5571,
+          "source_read_assigned": "case_clause_forensics",
+          "historical_blob_versions": 1,
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/use-cases",
+          "path": "contributions/when-controls-work-system-fails/templates/RUN_RECORD.md",
+          "sha": "be014eb521d0ede16697ad0f37b961c5eb562d63",
+          "sha256": "788f9e1f4d788c9ea286d7d0d4f85a9b01497fefba5063cf24217312694095bb",
+          "bytes": 2645,
+          "source_read_assigned": "case_clause_forensics",
+          "historical_blob_versions": 1,
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/use-cases",
+          "path": "contributions/when-controls-work-system-fails/annexes/scenarios/S6.md",
+          "sha": "b4b89ffb9cc647921590dd44b37466eb5950c2fb",
+          "sha256": "32e6d18d4f6aa21908678753575d2c01542481f448ed9a0e0f2e5554c13b6b5d",
+          "bytes": 3633,
+          "source_read_assigned": "s6_semantic_forensics",
+          "historical_blob_versions": 2,
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/use-cases",
+          "path": "contributions/when-controls-work-system-fails/annexes/technology/T09.md",
+          "sha": "c6c49fbc022a7d5539b6fa460db67fc9bcd1c03e",
+          "sha256": "aaf0999ee9e06357c27bd34feffa8ec2788a62e0ecef705e4d8c01118ec65c27",
+          "bytes": 33315,
+          "source_read_assigned": "s6_semantic_forensics",
+          "historical_blob_versions": 1,
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/structural-awareness-contributions",
+          "path": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
+          "sha": "17616f2495ccfc08828fed49d4f566f718e67eee",
+          "sha256": "8217c525180741c246fd095c2c345e28694fb9d2a69b17715d822ed6d85b430f",
+          "bytes": 62811,
+          "source_read_assigned": "s6_semantic_forensics",
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/structural-awareness-contributions",
+          "path": "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md",
+          "sha": "af17d682b7e7e742b298de7918ade6029dffa9b8",
+          "sha256": "5b1546ea6b10c9ca548de34143f754fa03dac06778a34484b511947bab62554c",
+          "bytes": 36119,
+          "source_read_assigned": "s6_semantic_forensics",
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/structural-awareness-contributions",
+          "path": "research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.1_DRAFT.md",
+          "sha": "55b052da6450592bb6cf02174daaf6fa10c82404",
+          "sha256": "a2ca4694cdf6e81751da9a65c49f92f41abf0a55d2ddb3f6722715aed021ba89",
+          "bytes": 12456,
+          "source_read_assigned": "gate_capacity_adversary",
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/structural-awareness-contributions",
+          "path": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+          "sha": "e52ed065c5d217da73634c7eb28d26c5d990abae",
+          "sha256": "fb4781c32f0bae204091844525ca8a0efec28854a96e94dba58181e51d59f814",
+          "bytes": 45945,
+          "source_read_assigned": "gate_capacity_adversary",
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/structural-awareness-contributions",
+          "path": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+          "sha": "20b7c8e0bea79edc237e695924a2a657713d412c",
+          "sha256": "7f49200eae8d426b8ee51253cd4d527812077b7afa524d3adfeae08234426ae7",
+          "bytes": 48994,
+          "source_read_assigned": "gate_capacity_adversary",
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        },
+        {
+          "repository": "dakleyer/structural-awareness-contributions",
+          "path": "research/ecosystem-awareness/DDS_STAGE_A_GATE_BASED_SPECIFICATION_TEST_PROFILE_v0.1_DRAFT.md",
+          "sha": "4a786e778bf16a286c1abe7dccf502804c90c20b",
+          "sha256": "cce31bc4ff46c59441a4fa9ca1d289541cce2463471e11ec305ca124686f6414",
+          "bytes": 22330,
+          "historical": "deleted028fd664; full custody in DDS VNext",
+          "source_read_assigned": "gate_capacity_adversary",
+          "second_pass_state": "Complete primary source reading; material judgement published with explicit receiver limits",
+          "canonical_applied": false
+        }
+      ],
+      "review_space_queue": [
+        {
+          "path": "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+          "sha": "bfbef81ec391d8c210757593fd193741253319b4",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+          "sha": "55d7de4bdc8e1eb16a3e321541f76b9064fafb0f",
+          "state": "Coordinates corpus/plan; article/source damage reconciliation remains waiting.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "sha": "ec39010b1ec2d013ad4f7a6234adcbcad543e4aa",
+          "state": "Hosts three source-review returns; old/current diagnostic/case relationships assigned. Complete DDS Stage-A body and other stages remain waiting.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md",
+          "sha": "944761f5adbd83dc0e6f201efe836d800dbb47d6",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/README_VNext.md",
+          "sha": "2ff716f698cd43f362fa225e448897a1152d979a",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+          "sha": "d5d6c3a797767959580509159f95fd46aa1affcd",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+          "sha": "a722760ca0060fc3a30bbfe8abb0f424a6dbf3b9",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md",
+          "sha": "9c3e54db23f9210f8e59d6cf4822ea01ca2853d3",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+          "sha": "be4ed757a2440360ea83a27da749bf01cada1add",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+          "sha": "8174e77c32985b2e10328a1efbfe8737d25631d9",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00M_VNext.md",
+          "sha": "3948b5e123cfa9570efb7ab453f17c638b27097b",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+          "sha": "c35a1cd5662dbb949a74f5ea4db0ba6fdafd7a03",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00N_VNext.md",
+          "sha": "6b26e87d597276c80b979ff387b2d6bc405502a0",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "sha": "80f7ae3c56f5ff619cc55fa1550951d69cb9131f",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01B_VNext.md",
+          "sha": "0fc9adfd691224f80c76b1765f672d06ba997060",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01C_VNext.md",
+          "sha": "cf167efdf49b7b3b441fa9606360c07a14a2529a",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01D_VNext.md",
+          "sha": "23c3c58e15ef559f6856869148165169f6b9bda2",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01H_VNext.md",
+          "sha": "2f7ffedfb44ae6d64d60ba29037c238c36a3af93",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01I_VNext.md",
+          "sha": "252dc06d6ddc24fbc2510765b95695998804cd81",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01J_VNext.md",
+          "sha": "e565573eccc9f36e21b7e36e90e9e911d23ef4a5",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md",
+          "sha": "4189b462e4ad67b036ceec60bf77e71586bf8200",
+          "state": "Contract adversary assigned its actual source; section/receiver review in progress.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01K_VNext.md",
+          "sha": "e776fb43894c788403629e3e5ea8beb450686459",
+          "state": "Contract adversary assigned its actual source; section/receiver review in progress.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+          "sha": "455e686b66b488d4e4f759b492829caef01272ef",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+          "sha": "be9588abc6896cf9a3f3ea78bd3d4b90f52a2aa0",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "sha": "1e15ac7ab22d1e1f3d891649863a1e4956f29a4d",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "sha": "9be837282610b6ce72a4892975de026cadd7a9a1",
+          "state": "Receives case source/routing consequences. README itself and unassigned source units remain waiting.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+          "sha": "7dd7edad99ef88b8fc50c6a5c0f73f431091b2ac",
+          "state": "Contract adversary assigned working successor consumer; frozen/source-part coverage remains explicitly separate.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+          "sha": "8132daab60fe600a571d1f6d14fae1f66a9be7d1",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+          "sha": "7a0baac8ef6eeab9a83bbda6dc7c38672b08bc7a",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+          "sha": "4da478753f659a9bcbd6efbfbbaa9a5d4919411d",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+          "sha": "b1d3ca39068b7eb299c48f83bcb9d7b8ce3c1128",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+          "sha": "5e1a5b260a84b9ae9bb71012e0a527511952ab3d",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+          "sha": "b9268f767dee36f91d84c2c9b28ae87495292808",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+          "sha": "abc6453a3cba986f35100691166ea062224f3631",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md",
+          "sha": "41831fa36878b91ce33ed11ca37f4434a5fdf295",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md",
+          "sha": "15eb685d1d07615d0c6011fad2a8f9ca9a5ef0b1",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+          "sha": "ddfe8cd56737b6ae11cd45afd2c44c4422357108",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md",
+          "sha": "b5b68ef20c60eb9c2dc101d064ede8608ee691c9",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md",
+          "sha": "17169b09f2f4ddddf4e478bea5127ee9605b2fe1",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+          "sha": "f2c71bd7d3714fb240001e73790243a56273f95d",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md",
+          "sha": "e1b77d1b36d33398757e5224ca79e211ac3d3b40",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+          "sha": "72f1a80bba09449b2e75649c195f7ca622eeaaef",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md",
+          "sha": "fc43276548bd44a7f675a209fed1cbd81f44c9b0",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md",
+          "sha": "4f11398730137538c66dd136a63188de55325b13",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+          "sha": "463c1be04285587c179f340255626f0303bf36c2",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md",
+          "sha": "a6867306911ad4b46ebba740eacab47679a7f960",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md",
+          "sha": "c5ab264ebad6b3591ce3cab7f1ee745c981e1502",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md",
+          "sha": "cfa9610998deafbec0c2b7b74ad50d45a9f0f191",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md",
+          "sha": "6ec77268d701d8a52d528f828b818455f1c6da0b",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md",
+          "sha": "1cea5a4550575ff8eed4d2371e8112a59dac224d",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md",
+          "sha": "44a4dc8d5fa5739781089e4cfba1c0b816d3dd2a",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md",
+          "sha": "bc0e730055e7cdfdb18d81717ad239726383e3bb",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+          "sha": "6fc970da4f635013c151a4231cffd80b41df21b7",
+          "state": "Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted.",
+          "logical_pair_owner": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
+          "sha": "d28111a678d34e067e5f232658d606cec80922ce",
+          "state": "Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted.",
+          "logical_pair_owner": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md",
+          "sha": "4072a6f32df3b5fae6f522977aae5f1a635b769a",
+          "state": "Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted.",
+          "logical_pair_owner": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md",
+          "sha": "414cce93541a3d1828298e0624976237bf968232",
+          "state": "Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted.",
+          "logical_pair_owner": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md",
+          "sha": "db61782a5caf3b9f716909a969a35b948cde1a6d",
+          "state": "Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted.",
+          "logical_pair_owner": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+          "sha": "4a96529982fb1fc39bdfeaa4d97abae2c48fa219",
+          "state": "Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted.",
+          "logical_pair_owner": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md",
+          "sha": "f362d7916dc26202600e6617038f1bfcf5beb0d1",
+          "state": "Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted.",
+          "logical_pair_owner": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+          "sha": "8f7f2fcbe53c52148be6b61ce2b3f5187fae43d5",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+          "sha": "cc30abf06bc5869dc6a52420ba8c639323407e1f",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+          "sha": "f5d5f0f9e8aa04fc578c44b0aa0970dbafa493c8",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+          "sha": "e6f80948d70e023d37964896628969f0a5ea9db8",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "sha": "83fc0e361bb3aa97e0eeeed897e1eec8b600a77b",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "sha": "d294ad7c14a8a161f51a4ef5ee6bfda99ecdeb03",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "research/regime-awareness/README_VNext.md",
+          "sha": "97c3baee0f154323c0d7bc8847d1bbadbb658768",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+          "sha": "1b8f64a5262d4a50d4c67804feacf77fb540d49d",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "standards/minimum-sufficient-control/01_ACC_VNext.md",
+          "sha": "aa1aa9fd7b794a1a0c16272252df23eac7228ca1",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+          "sha": "b85e8481de89f8387081e8da56581e9fad9bbdb4",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+          "sha": "92770fe18ce1fa802d5906761a751858580f3a27",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+          "sha": "b25760af20557a9bd0be7f1cbb8244f64482a600",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        },
+        {
+          "path": "standards/minimum-sufficient-control/README_VNext.md",
+          "sha": "04fed7b586b9322b4c5e2d54fc74b45dea9dea05",
+          "state": "Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially.",
+          "logical_pair_owner": null
+        }
+      ],
+      "source_first": true,
+      "global_second_pass_complete": false,
+      "global_scientific_audit_complete": false,
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "proposal_assessments": [
+        {
+          "id": 93,
+          "state": "Original pair preserved; bounded-service alternative prepared; consumer closure pending",
+          "decision_ready": false,
+          "authorized_to_apply": false
+        },
+        {
+          "id": 94,
+          "state": "Prepared — pending named Ivan GO",
+          "decision_ready": true,
+          "authorized_to_apply": false
+        },
+        {
+          "id": 95,
+          "state": "Prepared — pending named Ivan GO",
+          "decision_ready": true,
+          "authorized_to_apply": false
+        }
+      ],
+      "unresolved": [
+        "Complete source/case edition custody",
+        "HR claim selection/admission/form/alias bridge",
+        "Old00J alias metrics/controls and full applicability",
+        "Generic old gate instrument duties beyond scoped HF reception",
+        "Capacity quantile/proof/units/inputs and complete consumer judgement",
+        "Remaining corpus source cohorts/binaries and final damage consolidation"
+      ],
+      "partial_receiver_states_preserved": true
     }
   ]
 }

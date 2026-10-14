@@ -3283,3 +3283,1334 @@ Do not count an old/current mismatch as an instruction to restore that source. E
 ### Annex D — scope of this plan publication
 
 Only the existing DDS, EP README, baseline README, 01K, 01K-A01 and UC-EA-03 VNext receive append-only additions; the existing priority JSON receives a dated damage-control epoch and consumer reassessment. All previous entry objects and literal pairs are retained. The CSV is unchanged because no new adopted proposal or ordinal rating is invented. Existing31 Flores changes remain untouched. No source file, binary, result, code, directory, official Issue or fork is modified, moved or deleted. Public readback and exact changed-path scope are verified against the actual publication commit. Audit attribution: Codex, same continuing agent; third-party verification remains a defined acceptance requirement, not an asserted reviewer already engaged.
+
+
+## Second damage-review pass — separate source-first reviewers, 14 October 2026
+
+**Iván requests a more detailed second pass, document by document and article by article, using another type of agent and another review method.** Three separate reviewer instances have started under this instruction. They inspect complete authentic sources before judging the previous audit. The coordinating author integrates evidence and disagreements into the already existing VNext; it does not count its own continuation as another reviewer.
+
+This pass checks **preservation and damage**, including unwarranted restoration proposals. It is different from the historical five content/research passes and their sixth consolidation: it does not invent their completion or restart scientific experiments. It asks whether the actual old information, its current applicability, its receiving contract and its correct reader route are accounted for. An unchanged file can still be incompletely integrated; a rewritten paragraph can retain every relevant obligation; a removed claim can be a valid correction.
+
+### Reviewers and first serial document cohort
+
+| Separate reviewer | Method | Documents assigned, in reading order | Return destination |
+|---|---|---|---|
+| `case_clause_forensics` | Source and protocol forensics: quantifiers, claim selection, required form fields, falsifiers, repair/freeze and negative outcomes | UC-21 RECURRENCE_PROTOCOL; HYPOTHESES; EVIDENCE_AND_PROTOCOL; CONVENTIONS; RUN_RECORD, each submitted/current and earlier distinct relevant editions | Existing DDS VNext; material consequences in baseline/receiver owners |
+| `s6_semantic_forensics` | Semantic preservation: complete section/gate/table/figure crosswalk from the reduced case edition to actual current research receivers | Full submitted S6 and current adapter; T09; current00J; current00J-A01, with relevant distinct case editions | Existing DDS VNext and baseline README VNext; no new S6/T09 review files |
+| `gate_capacity_adversary` | Contract adversary: challenge transfer/closure assumptions, typed dependencies and necessary versus sufficient conditions | Complete deleted Stage-A specification; current diagnostic; complete01K; complete01K-A01; related UC-EA-03 consumer | Existing DDS,01K,01K-A01 and UC-EA-03 VNext |
+
+Within each assignment the reviewer reads documents serially, marking the exact edition and sections read. Different assignments can proceed concurrently. The first cohort contains **thirteen primary logical source documents**; ancillary receivers have their own full/partial-read states. The earlier source-object scan is evidence, not a completed second reading of those thirteen documents or of the rest of the corpus.
+
+These are separate agents with separated task context and different review lenses in the same workspace. They use the inherited model, not an invented different model/vendor. They are not external institutions or scientific adjudicators. Source-first judgement is recorded separately from later comparison with the previous audit to reduce anchoring on the author's conclusions.
+
+### The procedure for every article or logical source
+
+**1. Establish the complete unit.** Identify repository, path, body version, full source commit, Git blob, SHA-256, bytes and authority/edition. Group part01/02/03, annexes, frozen successors, adapters and material assets under the actual logical source, preserving every distinct edition. A diagram, template, source-language predecessor or note can carry a claim missing from the main narrative. An edition's name is not its scientific state.
+
+**2. Read the sources before the previous verdict.** Read the complete earliest relevant/source-submitted body, every materially distinct intermediate version and the current source. Track actual section coverage. Then read every current receiving document needed to decide a preservation claim. A full source reading with partial receiver reading can support an identified local comparison; it cannot certify the whole relationship closed.
+
+**3. Build a section/clause map.** For each original section/table/form/figure, identify complete current receiver(s) or an unresolved destination. Track definitions, objectives, hypotheses, quantifiers, applicability, prerequisites, exceptions, prohibitions, negative/null results, measurement/accounting units, comparator competence, authority, version, operation, scope and lifetime. Do not collapse a conjunction into a representative example or remove a refutation clause while keeping its hypothesis.
+
+**4. Inspect non-narrative information.** Compare full table rows and cells, formulas, diagrams and captions, footnotes, source links, reference-style hrefs, HTML/JSON/XML relationships, schemas, traces, binary media/notes and recording fields. For source programs, examine the contract and actual text without running experiments. Source-derived results stay frozen. Complete package inspection/visual reading has its own coverage field; extracted text is not a full binary/visual verdict.
+
+**5. Follow the meaning across documents.** Trace producer → qualified consumer → result/return. Explain what each receiving passage actually preserves and any mismatch in namespace, evidence status, inherited gate, required field or scope. Check both directions of links and intellectual traceability. Case HC/HR/HS, R0/R1/R2, DDS I/M/P/Ø and technology-specific routes retain their own meanings. Review a source relationship in both existing owning VNext when it affects both documents.
+
+**6. Challenge the previous audit.** Take each material prior conclusion as a proposition to test. Quote that conclusion, the actual supporting original/current passages and the second review's result: confirmed; narrowed; contradicted; or unestablished. Missing exact wording is not a demonstrated loss; a similar title, scan/hash or “duplicate” message is not demonstrated semantic transfer. Preserve earlier text and dissent; add the dated corrective interpretation instead of rewriting history.
+
+**7. Test the proposed restoration itself.** Would recovering the old bytes restore information as history, or reinstate an obsolete error as current authority? Does a short insertion change the contractual meaning or invalidate a consumer? Does an added link reach the complete required source or just a summary? Are apparent gaps already covered elsewhere? Distinguish a documented error in this review from an implementation defect established by source/contract evidence. No hypothetical risk is elevated to a demonstrated incident.
+
+**8. Record a bounded decision.** Assign each material item one disposition: exact current preservation; supported semantic rewrite/transfer; full historical custody only; actual applicable active omission; justified correction/supersession; other-case/support; approved applied-fiche history; restricted source; unresolved. State separately custody, active integration, reading route and prior-audit accuracy. If no source change is needed, show why. If a candidate is justified, prepare the complete current literal before and complete proposed after, with a unique-location check, impact/risk/effort/dependencies and the existing owner.
+
+### Required per-document review record
+
+Each completed record contains the real agent identity/date, source edition/commit/blob/bytes, complete source sections read, historical editions covered, full/partial receivers, exhaustive section/clause map, material old/current evidence, negative findings, critique of the earlier audit, proposed disposition and unresolved questions. A reported absence includes the searched receiving scope; it is not an exhaustive-world absence claim. No “fully reviewed” label is based only on a prepared heading or a table of hashes.
+
+The reader sees what was retained, what changed, why it matters and where to inspect it. The detailed audit record stays with the existing logical owner; the collective account returns here and to EP README VNext. Raw private operating records, credentials and unnecessary local-folder details are not copied into GitHub. Public source identities and passages are sufficient to inspect the judgement.
+
+### Whole-corpus sequence after the first cohort
+
+The starting tree is Contributions `ca2131e20e2629a0ef1e0398bb9bd274f407bf3e`, **2,346 physical paths**. The fork cut is `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`. Existing comparison queues cover91 fork paths/162 versions and620 corpus paths/8,749 retired units. None of these physical/scan counts is a logical article count or second-pass completion count.
+
+| Next source cohort | Concrete content and receiving relations | Preparation order |
+|---|---|---|
+| Remaining UC-21 case entry and protocol | README, USE_CASE, SUBMISSION, annex entry, EXTENSIONALITY, RELATED_CASES; five objectives, claim selection and case return; preserve complete current/submitted editions | Immediately after common protocol findings |
+| S1–S5 / T01–T08 | Full case/source family and technology editions; current reader/frozen parts; forms, gate tables and original graphics; exact field/namespace adapter judgement | After S6 establishes the comparison method, not inferred complete from it |
+| DDS current method and Gate B/C | Stage A body, current method index/registry, Stage B/C, potential contribution and source/consumer registers; transfer and acceptance authority | With old/current Stage-A clause adjudication |
+| R01 reduction/extensions/oracles | Scenario, computability/oracle, admission/kernel proof, all extension studies, scoped completion, source/support results and return; same logical source across old feasibility/new extensions | Serial owner batches; no duplicate review per alias |
+| HF and traversal/fixture evidence | C3 source oracle, comparators, mutations/blindness/disagreements, harness and versions, historical negative/parity results;00K/00L/stateful/RS00E evidence | Before declaring any old testing obligation transferred |
+| Foundations / EA / interfaces / capacity consumers | Foundational theory, Requirements/frozen/working successor,01B/C/D/H/I/J, General/Functional and FG-TIDA interfaces;01K/schema/vectors/verification; UC-EA profiles and receiver semantics | Group producers and consumers, retain parts and freezes |
+| EP / gradient / RA / MSCA | Every affected source's whole old/current narrative and proposal history, append-only exceptions, central-line consistency, authority/capacity/operation boundaries | After material interfaces, with separate article-level judgements |
+| Binary/source-language articles and decks | Original/full current packages, translated source editions, figures, slides/notes/media and source claim corrections | Qualified full-package/visual coverage, not text-only closure |
+| UC-20 / other submissions and supporting material | Distinct complete case, original source dossier/designs/visual edition and applicable active receivers; additional material retains its identity | Existing terminal supporting routes; no merged case authority |
+| New/concurrent campaigns | Latest material source deltas including Flores, exact baseline and owner-specific histories | New cuts explicitly reviewed; no retroactive inheritance of earlier scan |
+| Final damage reconciliation | Every material unresolved row, link/claim/contract/form/asset return; reject unsupported restoration or false closure | After actual document records, with open items visible |
+
+Clearly additional documents retain the agreed description/link treatment, not new five-pass scientific audits. In this damage pass their preservation/provenance/applicability can be checked without fabricating active theoretical importance. Current source parts and material evidence cannot be excluded as “extra” merely because their individual navigation link was absent.
+
+### Unicity and existing review-path accountability
+
+The current tree has **72 non-archive review-path candidates**, including the reused benchmark/delta aliases. Seven known feasibility/extensions pairs refer to the same logical review family; their current full bytes differ, so any unique historical audit content must be retained. These are not seven new independent review units. The appendix identifies the paired paths and a joint logical case; it does not merge, delete, demote authority or certify perfect source mapping.
+
+Each logical source's current owner must be confirmed from its actual source/current routing before adding findings. Source lacking its own standalone review uses an already established logical-unit owner where applicable (DDS or baseline for compiled case/source relationships). Create a new VNext only if a material principal source truly has none after alias/part/version checks. No VNext is created by this second-pass organization. Replicas remain preserved; avoid making them duplicate active work queues.
+
+### Publication and actual progress states
+
+The first results are published as they are genuinely produced in the owning existing VNext. Separate **assigned / source read / receiver partly read / section crosswalk complete / material judgement recorded / candidate prepared / publicly verified / unresolved**. An assignment or a source read does not count as a completed whole-corpus damage verification. The queue identifies work still waiting, and later reviewer additions keep predecessors and earlier audit conversations intact.
+
+Audit publication is already authorized. Canonical restoration/editing still requires a concrete approved wave/passage. This review neither applies candidate93 nor reroutes92/91 before their content prerequisites. It does not reactivate the timer, experiment or official external submission.
+
+
+### First-cohort results — completed source readings, bounded integration judgements
+
+The three reviewers returned the thirteen assigned primary source units with full source reading; additional historical bodies and named consumers were inspected as explicitly recorded below. This is actual documentary examination, not merely task assignment. The rest of the global queue remains waiting.
+
+- **Five UC-21 protocol bodies are unchanged.** Current source receivers already preserve HC/HS, H1–H6, common metrics, both S4 outcomes and the five diagnostic states. The open work is the combined HR/claim-selection/field/namespace bridge, not restoration of five destroyed originals. The complete original Word protocol remains an active receiver; extracted text is not a visual/package audit.
+- **S6 core controls survive.** All30 substantive gate cells, C0–C6, ten deterministic rules and twelve measure meanings have supported reception in00J. R0 inside the rights fixture is a rights record; R1/R2 were never labels inside submitted S6. The common configuration ladder is received through T09/Conventions. The older broad R0/R1/R2 summary is narrowed, rather than treated as a demonstrated missing ladder. Full edition custody, a specific citation and case/measurement ownership still require work.
+- **A real incomplete update is localized.** The A01 same-decision correction at3c3d9d updated§6 without changing§1's “decision proposition changes” sentence. This predates the S6 reduction. Candidate94 changes one introduction bullet to agree with the actual controlled question; frozen T09 remains historical source.
+- **Old/current diagnostic gates are not complete method equivalents.** All14 old gate properties and17 sections are mapped to actual current recipients. HF supports some obligations for its own scope; it does not establish universal transfer of freeze/mutation/blindness/dispute/report/promotion duties. Current typed UNKNOWN/dependency/claim distinctions are retained.
+- **Capacity is already modelled, but the compact restoration needs precision.** The component and full reference schema have a complete second reading. Candidate93 gets a bounded alternative in its own VNext; remaining consumers and the real scheduling/input contract are open. Quantile/proof/schema questions are static contract limitations or unresolved interpretation, not proven runtime failures.
+
+Two small current-owner reader corrections are prepared as94/95, both Medium expected impact / Low editorial risk / Low effort, with full literal pairs and named-source match checks. They are proposals, not applied changes. The reviewer's CP-S2-DDS-NAMESPACE wording is integrated into95 with the S6 rights-record distinction; retain its preparatory draft as conversation, not a second edit to apply alongside95. Case E.5's U/window clarification remains preparatory against the authentic case edition; select a maintained receiving owner before any adaptation. No restoration or campaign is executed by this publication.
+
+Detailed source judgements: [S6/T09/current00J](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#second-source-first-review--s6-t09-and-00j-14-october-2026), [01K and93 alternative](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md#second-contract-review--capacity-and-the-change93-alternative-14-october-2026), [01K-A01/schema](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#second-contract-review--complete-component-and-schema-14-october-2026), [UC-EA-03 consumer](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md#second-contract-review--uc-ea-03-working-successor-14-october-2026). Complete case and gate comparisons follow here; source bodies already present at authenticated public locations are linked, rather than copied again as new results.
+
+
+<details>
+<summary>Separate case-protocol reviewer — full detailed judgements, fields and preparatory pairs</summary>
+
+Reviewer `/root/case_clause_forensics`, same inherited model; source-first within the same workspace.
+
+## Outcome and exact limits
+
+All five submitted/latest fork payloads remain unchanged. Core HC/HS, canonical H1–H6, major common metrics, both S4 outcomes and the five control-evidence states have substantive current corpus receivers. The remaining issue is a case-to-DDS bridge for HR, claim/route/factor separation, local aliases and complete run-contract field binding. No byte loss of these five case sources is demonstrated. A bounded E.5 terminology ambiguity is identified separately.
+
+| Cut | Exact identity |
+|---|---|
+| case_current | 724d69f9cf69aaadd2f84f50934db9cf77fcc1f1 |
+| case_submitted | aec08fb5b0fac2ee399372370e9ee2a82a2d5779 |
+| corpus_current | ca2131e20e2629a0ef1e0398bb9bd274f407bf3e |
+| hypothesis_snapshot | 0ca06f446bb4f037b117c1af525a0ae7ded0900b |
+| live_remote_refresh | NOT_PERFORMED_PINNED_AUTHENTICATED_LOCAL_CUT |
+
+Read coverage: five complete case bodies; two complete original Word bodies with binary authentication; complete canonical requirements, working successor and hypothesis reading index. DDS/baseline index/00F/00H were read only in the complete named sections reproduced below. Other canonical predecessors, traceability DOCX bodies, 157 other fork history objects, every family/profile consumer and every possible campaign form are not full-read in this cohort. The JSON retains every exact section/paragraph/table-row locator.
+
+One unique direct payload exists per assigned document across the supplied earlier/submitted/current history, with both readback instances independently authenticated. The exact fork-cited 0ca06f canonical is the current 4fe3d69 blob and was fully read. Earlier Protocol 0.1/0.2 bodies were not available as unique supplied blobs and were not reconstructed. Source read order preceded the prior automated audit counts.
+
+## Material findings and disagreements with broad damage interpretations
+
+### S2-CASE-01 — NO_FORK_PAYLOAD_LOSS_DEMONSTRATED
+
+All five assigned originals remain unchanged from aec08fb5 to 724d69f9: one unique direct source payload each, full-read and independently authenticated at both readback locations.
+
+Consequence: No restoration of these five originals is justified by their fork history. Future corpus custody and active integration remain separate; other 157 history objects are outside this cohort.
+
+### S2-CASE-02 — REJECT_UNMATCHED_EQUALS_LOST
+
+Earlier Markdown matching reports HYPOTHESES 7/141 blocks, EVIDENCE 6/26, RECURRENCE 0/34, CONVENTIONS 0/7 and RUN_RECORD 0/5. Complete active DOCX and actual corpus clauses supply receivers omitted from that count.
+
+Consequence: These are leads, not counts of destroyed obligations. Reclassify preserved HC/HS/KPIs/diagnostics while keeping real HR/compilation/field gaps open.
+
+### S2-CASE-03 — HC_HS_ACTIVE_NOT_HISTORY_ONLY
+
+Current Protocol 0.3 and its reading index preserve HC/HS, both S4 outcomes, static controls, negative findings and bounded refutation. Canonical H1–H6 and the empirical-contrast antecedent remain current accessible bodies.
+
+Consequence: Do not duplicate the core source or resurrect temporal necessity. The historical necessity paragraph is explicitly superseded by the active index.
+
+### S2-CASE-04 — HR_AND_SELECTION_BRIDGE_OPEN
+
+No complete current receiving contract was established for HR correction-before-freeze, retained generic adaptation, D_i quantifier/refutation or the unique combined case §13 selection table.
+
+Consequence: High interpretive risk if failed baseline or qualification-ablation arm is called recurrence, or case PASS is promoted to causation/response sufficiency. This is a bridge gap, not demonstrated source destruction.
+
+### S2-CASE-05 — S4_DUALITY_ALREADY_ACTIVE
+
+Protocol §§5,7,9A and current baseline README 350–356 preserve unauthorized action versus silent finding loss. Full-family coverage needs both, while narrower HR may select one.
+
+Consequence: One-branch HR cannot become full HC/HS coverage; objective-return must state exactly what was established.
+
+### S2-CASE-06 — COMMON_METRICS_ACTIVE_RECORD_BINDING_OPEN
+
+Canonical §§5–5.2 and working successor preserve common metrics and nine trajectory/stress measures. E.6 and RUN_RECORD add the combined claim/route/factor/admission/correction contract.
+
+Consequence: Bind all 18 fields, six trace columns, nine E.6 groups and three conclusions. Generic campaign fields alone are not equivalence; no new KPI/runtime API is required.
+
+### S2-CASE-07 — DIAGNOSTIC_CORE_ACTIVE_ALIASES_OPEN
+
+Current 00F §5.1 and 00H §11.1 actively retain all five capability/control evidence states. Canonical preserves core scope/authority distinctions. Case actor/configuration/route aliases still need a qualified DDS bridge.
+
+Consequence: Zero literal standalone glossary matches is not complete semantic loss, but unresolved namespace collisions make authentic results easy to misread.
+
+### S2-CASE-08 — LOCAL_E5_TERMINOLOGY_AMBIGUITY
+
+E.5 calls U an evidence/observation scope; CONVENTIONS and H §8 distinguish bounded representation from active observation window.
+
+Consequence: Narrow preparatory clarification supplied. It is no evidence of execution damage; exact archived source stays intact.
+
+### S2-CASE-09 — DC02_PLAN_SUPPORTED_WITH_NARROWING
+
+DC-02 correctly says original Word/requirements do not prove transfer of the complete case compilation, general DDS is insufficient for HR and shared KPIs do not establish the full claim-specific run contract.
+
+Consequence: This report provides preserved clauses and remaining bridges. The plan remains a queue, not a completed human audit or a lost-paragraph verdict.
+
+## Document-by-document dispositions
+
+### RECURRENCE_PROTOCOL.md
+
+Complete source path: contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md. Submitted aec08fb5b0fac2ee399372370e9ee2a82a2d5779 and latest 724d69f9cf69aaadd2f84f50934db9cf77fcc1f1 use identical blob 824f4f974d1423cb98c78504ac9e6ca91fb95b0b, 17203 bytes, SHA-256 aa7967a6259ed9c8a0379c41d03bdfdc505414bb32b72f3ec5fa142c8b45361e. State: FULL_READ. No additional unique earlier direct edition appears in supplied path history.
+
+Source publication events: [{"sha":"d4fad875d12c1542fff8236ec484d68c6e641327","date":"2026-10-12T19:06:59+02:00","author":"Iván Abril Palma","subject":"Publish Ivan-authorized UC21 package and all approved reader tandas on main; preserve 23 existing main files, add root navigation only, retain package blobs and branch history","path":"contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md","before":"0000000000000000000000000000000000000000","after":"824f4f974d1423cb98c78504ac9e6ca91fb95b0b","status":"A"},{"sha":"aec08fb5b0fac2ee399372370e9ee2a82a2d5779","date":"2026-09-29T23:11:32+02:00","author":"dakleyer","subject":"Add when controls work but the system fails package","path":"contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md","before":"0000000000000000000000000000000000000000","after":"824f4f974d1423cb98c78504ac9e6ca91fb95b0b","status":"A"}]
+
+| Complete section | Disposition | Actual receiving sources and human reason |
+|---|---|---|
+| ## Annex R | DOCUMENT_HEADER | protocol — Local Annex R identity; no substantive clause in the header. |
+| ### R.1 — Why six scenarios form one use case | CASE_LAYER_BRIDGE_OPEN | protocol, index — Common causal grouping is already in Protocol §1. HR adds corrected-baseline recurrence. It does not merge outcomes or make one scenario evidence for the other five. |
+| ### R.2 — The hypothesis | HR_QUANTIFIER_BRIDGE_OPEN | protocol, dds — HR is for every nominated scenario, some admitted change in D_i after corrected K_i; HC instead requires a complete causal sequence in W_i without that R1 prerequisite. Generic DDS acceptance does not supply the HR quantifier or all-profile claim scope. |
+| ### R.3 — What counts as context and material change | PARTLY_INTEGRATED_HR_DOMAIN_OPEN | protocol, canonical — Protocol §3 preserves reference context versus representation, independent materiality, unknowns and feasibility. HR adds D_i fields/ranges/equality/tolerances/admission/observable signals under retained defences. Similar headings do not establish these obligations. |
+| ### R.4 — Demonstrate the correction before testing recurrence | HR_CORRECTION_FREEZE_BRIDGE_OPEN | protocol, canonical, successor, dds — A failed reinforced baseline cannot demonstrate recurrence. Correct the selected branch with legitimate-activity and time controls before freeze, keeping generic discovery/revalidation/adaptation active. Canonical matched resources and successor S10 binding are related, not a complete HR correction contract. |
+| ### R.5 — Six recurrence questions | CASE_CANDIDATES_PRESERVED_NO_EXECUTION | protocol, baseline_index — Six interventions are documentary candidates. Original Protocol §5 retains dynamic HC proposals and both S4 outcomes; HR selected-branch correction/adaptation and disjunctive-versus-both recurrence require a separate bridge. Full HC needs both S4 outcomes. |
+| ### R.6 — Matched execution and causal attribution | CAUSAL_CORE_INTEGRATED_HR_RETENTION_OPEN | protocol, canonical — Protocol §6 already preserves causal ordering, matched controls, stochastic thresholds and negative arms. Deliberately degraded qualification in HC arm D is not HR unless frozen R1 defences remain active under an independently admitted change. |
+| ### R.7 — Support, refutation and inconclusive results | HR_REFUTATION_BRIDGE_OPEN | protocol, dds — Finite successful interventions do not refute existential HR. Exhaustive/formal preservation for every D_i in one corrected scenario refutes the bounded all-six conjunction. A contrary specific prediction refutes that prediction only. DDS acceptance classes do not supply these logical rules. |
+| ### R.8 — Result record and present status | CASE_RECORD_BRIDGE_OPEN | protocol, canonical, dds — Record correction/intervention/control/business effect/disagreement/exact scope. No six-scenario sufficiency or solution sufficiency is reported. A pooled average cannot hide loss of the finding or an unsupported rights demand. Generic records are partial receivers only. |
+
+All exact section/paragraph/table-row passages and source line locators are in the JSON. Each clause is associated with its human-reviewed section disposition; this does not claim automatic clause-by-clause literal equivalence. Explicit field/group dispositions override the section-level association. The full authenticated source is reproduced below, so no verdict rests on title similarity or missing-string counts.
+
+### HYPOTHESES.md
+
+Complete source path: contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md. Submitted aec08fb5b0fac2ee399372370e9ee2a82a2d5779 and latest 724d69f9cf69aaadd2f84f50934db9cf77fcc1f1 use identical blob 7e315c2fc1931e19a9a61d03912b9fb88b51031c, 66940 bytes, SHA-256 2c2bb892598d6f0135ab5c23af68944005071a16142a00e921b7932e53318f11. State: FULL_READ. No additional unique earlier direct edition appears in supplied path history.
+
+Source publication events: [{"sha":"d4fad875d12c1542fff8236ec484d68c6e641327","date":"2026-10-12T19:06:59+02:00","author":"Iván Abril Palma","subject":"Publish Ivan-authorized UC21 package and all approved reader tandas on main; preserve 23 existing main files, add root navigation only, retain package blobs and branch history","path":"contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md","before":"0000000000000000000000000000000000000000","after":"7e315c2fc1931e19a9a61d03912b9fb88b51031c","status":"A"},{"sha":"aec08fb5b0fac2ee399372370e9ee2a82a2d5779","date":"2026-09-29T23:11:32+02:00","author":"dakleyer","subject":"Add when controls work but the system fails package","path":"contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md","before":"0000000000000000000000000000000000000000","after":"7e315c2fc1931e19a9a61d03912b9fb88b51031c","status":"A"}]
+
+| Complete section | Disposition | Actual receiving sources and human reason |
+|---|---|---|
+| ## Annex H | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN | protocol, index — The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| # Hypotheses communication thesis and refutation protocol | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN | protocol, index — The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| # 1 Purpose and present assessment | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN | protocol, index — The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| ## Why one use case contains six scenarios | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN | protocol, index — The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| ## The proposed communication thesis | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN | protocol, index — The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| # 2 The principal hypothesis of causal sufficiency | CORE_ALREADY_ACTIVE | protocol, index — HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| ## A sufficient pathway for each failure mode | CORE_ALREADY_ACTIVE | protocol, index — HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| ## What counts as a causal witness | CORE_ALREADY_ACTIVE | protocol, index — HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| ## Bounded scope and refutability | CORE_ALREADY_ACTIVE | protocol, index — HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| # 3 What context means in this study | CORE_ALREADY_ACTIVE | protocol — Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| ## Material change and context equality | CORE_ALREADY_ACTIVE | protocol — Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| ## Three distinct contrasts | CORE_ALREADY_ACTIVE | protocol — Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| ## An analytically constructed static pathway | CORE_ALREADY_ACTIVE | protocol — Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| # 4 Conditions of support refutation and revision | CORE_ALREADY_ACTIVE | protocol — The full support/refutation table, independent antecedents, retained negative results, scope changes, conventional successes and coexistence-versus-causation limits are active in Protocol §4. |
+| # 5 Scenario review and candidate sufficient pathways | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION | protocol, baseline_index — All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| ## 00E The 100 Million Token Enterprise | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION | protocol, baseline_index — All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| ## 00F Chaos in the Smartcity | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION | protocol, baseline_index — All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| ## 00G Ciber Napoleon Goes to Russia | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION | protocol, baseline_index — All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| ## 00H The Quiet Four Thousand | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION | protocol, baseline_index — All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| ## 00I The Patch That Undid the Fix | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION | protocol, baseline_index — All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| ## 00J The Author Who Pays for Their Own Work | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION | protocol, baseline_index — All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| # 6 Paired experimental design | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN | protocol, canonical — Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| ## Independent factors | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN | protocol, canonical — Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| ## Execution sequence | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN | protocol, canonical — Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| ## What causal support requires | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN | protocol, canonical — Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| # 7 Establishing common sufficiency across the six scenarios | CORE_ALREADY_ACTIVE | protocol, index — All-six credible witnesses, both 00H outcomes, family membership, exhaustive-domain refutation and separate common response mechanism are preserved in Protocol §7. Five successes do not establish the sixth, and component PASS is not a full family witness. |
+| # 8 The six canonical hypotheses and their refutation tests | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| ### H1 Boundary aware local closure | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| ### H2 Residual scope explicitness | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| ### H3 Compositional residual expansion | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| ### H4 Bounded preservation | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| ### H5 Dynamic ecosystem pressure | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| ### H6 Risk capacity calibrated window selection | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| ## Operational refutation tests | H1_H6_ALREADY_ACTIVE | canonical, antecedent, protocol — Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| # 9A The hypothesis of a sufficient common response | HS_ALREADY_ACTIVE | protocol, index, canonical — Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| ## What sufficiency would mean | HS_ALREADY_ACTIVE | protocol, index, canonical — Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| ## How H1 through H6 support the proposed response | HS_ALREADY_ACTIVE | protocol, index, canonical — Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| ## Comparative tests and refutation | HS_ALREADY_ACTIVE | protocol, index, canonical — Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| # 10 Result record and decision rules | CORE_RECORD_ACTIVE_CASE_FIELDS_OPEN | protocol, dds — Protocol §10 contains the full HC/HS record and pending status. The case E.6 and run form add HR/selection. Omitted principle-traceability phrasing is declared case scope; generic DDS records do not establish the complete case contract. |
+| # 11 Interpretation and preserved scope | LEGITIMATE_CORRECTION_NOT_RESTORE | protocol, index, antecedent — Protocol 0.3 explicitly supersedes necessity-based drafts 0.1/0.2. The antecedent last paragraph still mentions necessity, but the active index identifies that antecedent as historical. Restoring necessity would be a regression. |
+| # 12 Source record and local case references | SOURCE_CUSTODY_EXPLICIT_ADAPTATION | protocol, antecedent, canonical, index — Source identities/snapshot are retained. Original DOCX principle mapping and administrative-attachment screen remain in the complete original; their exclusion from case adaptation is explicit. Local references and packaging boundaries are additions, not full DOCX-byte claims. |
+| # 13 Claim selection | CASE_SELECTION_BRIDGE_OPEN | protocol, canonical, dds, baseline_index — Unique combined case layer: claims HC/HR/HS/H1–H6 are separate from R0/R1/R2, A–D and HS component comparisons. HC full S4 needs both; narrower HR can select one. Core HC/HS and S4 duality are active, but the complete case table/HR rules are not established in a corpus run contract. |
+
+All exact section/paragraph/table-row passages and source line locators are in the JSON. Each clause is associated with its human-reviewed section disposition; this does not claim automatic clause-by-clause literal equivalence. Explicit field/group dispositions override the section-level association. The full authenticated source is reproduced below, so no verdict rests on title similarity or missing-string counts.
+
+### EVIDENCE_AND_PROTOCOL.md
+
+Complete source path: contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md. Submitted aec08fb5b0fac2ee399372370e9ee2a82a2d5779 and latest 724d69f9cf69aaadd2f84f50934db9cf77fcc1f1 use identical blob 11e844056e6253e3e8ec0983072dd8fdc3b0d88e, 18042 bytes, SHA-256 0290e6d11e3dca8c317ed84957dc3b35e264cc8011aff540323d60c5e853e9fc. State: FULL_READ. No additional unique earlier direct edition appears in supplied path history.
+
+Source publication events: [{"sha":"d4fad875d12c1542fff8236ec484d68c6e641327","date":"2026-10-12T19:06:59+02:00","author":"Iván Abril Palma","subject":"Publish Ivan-authorized UC21 package and all approved reader tandas on main; preserve 23 existing main files, add root navigation only, retain package blobs and branch history","path":"contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md","before":"0000000000000000000000000000000000000000","after":"11e844056e6253e3e8ec0983072dd8fdc3b0d88e","status":"A"},{"sha":"aec08fb5b0fac2ee399372370e9ee2a82a2d5779","date":"2026-09-29T23:11:32+02:00","author":"dakleyer","subject":"Add when controls work but the system fails package","path":"contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md","before":"0000000000000000000000000000000000000000","after":"11e844056e6253e3e8ec0983072dd8fdc3b0d88e","status":"A"}]
+
+| Complete section | Disposition | Actual receiving sources and human reason |
+|---|---|---|
+| ## Annex Evidence | COMMON_RECORD_RELATED_CASE_FIELDS_OPEN | canonical, protocol, dds — Canonical §§2.1,5,6.2 and Protocol §§6,10 preserve common run/metric duties. Case routes, gate/action separation, distinct result statuses and complete selected-claim record still require binding. |
+| ### E.1 — Run record and measurements | COMMON_RECORD_RELATED_CASE_FIELDS_OPEN | canonical, protocol, dds — Canonical §§2.1,5,6.2 and Protocol §§6,10 preserve common run/metric duties. Case routes, gate/action separation, distinct result statuses and complete selected-claim record still require binding. |
+| ### E.2 — Evidence classes and claim limits | EVIDENCE_CEILINGS_ACTIVE_CASE_TABLE_OPEN | protocol, index, dds — Source and DDS preserve evidence ceilings. The case five-row evidence table and nine-profile/27-position documentary boundary remain exact case obligations, not product executions or a fully mapped receiving table. |
+| ### E.3 — Existing functions and primary references | DATED_DUPLICATION_CHECK_CUSTODY | protocol, canonical — Existing functions are acknowledged; joint receiving-decision sufficiency is the question. No statement that SPIFFE/RATS/STIX/MCP lacks relevant functions is justified. No present external specification validation was performed. |
+| ### E.4 — Product-profile source entry points | DATED_PRODUCT_SOURCES_CUSTODY | protocol — Nine mutable primary entry points are dated documentary sources, to repin for a future product test. This review makes no current product-feature/deployment claim and did not revalidate those external sources. |
+| ### E.5 — Full common metric definitions | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Decision evidence | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Scope and residual | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Source independence and composition | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Handoff integrity | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Material change and freshness | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Time, capacity and burden | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Response and legitimate-activity measures | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| #### Cross-cutting trajectory and stress measures | COMMON_METRICS_ACTIVE_U_AMBIGUITY | canonical, successor — Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| ### E.6 — Complete run record | CLAIM_SPECIFIC_RECORD_BINDING_OPEN | protocol, canonical, dds — Identity, fixture, authority, outcome and resources have actual core receivers. The combined claim/route/factor/admission/R1-correction/R2-retained-adaptation/hypothesis-conclusion specification is not discharged by a generic DDS handoff. Every group is mapped separately below. |
+| ### E.7 — Source boundary and publication status | CASE_PUBLICATION_BOUNDARY_CUSTODY | protocol, dds — Contributor draft, synthetic facts, documentary profiles and real-world authority boundaries remain distinct. Local asset/fixture closure is a case custody dependency; this reviewer did not fully audit those physical files. |
+
+All exact section/paragraph/table-row passages and source line locators are in the JSON. Each clause is associated with its human-reviewed section disposition; this does not claim automatic clause-by-clause literal equivalence. Explicit field/group dispositions override the section-level association. The full authenticated source is reproduced below, so no verdict rests on title similarity or missing-string counts.
+
+#### E.6 — every recording group
+
+| Group | Disposition | Actual receiver and required distinction |
+|---|---|---|
+| Claim and trial design | CASE_SELECTION_OPEN | protocol, canonical, dds — HC/HS and H1–H6 are preserved. HR, acceptance, routes/factors/domains and local family admission still need the case binding. |
+| Identity and freeze | PARTLY_INTEGRATED | protocol, dds — Identity/provenance/reproduction exists. Exact corrected R1 freeze and assessor if present must be explicit. |
+| Decision and authority | RELATED_CORE_PRESERVED | canonical, protocol — Grantor/grantee/scope/purpose/expiry/regime and source-of-truth authority; simulated versus real components must be declared. |
+| Fixture | RELATED_CORE_PRESERVED | protocol, canonical — Facts, lineage/event order/oracle/actions/materiality/freshness/capacity/deadline/stop/fallback have actual source duties. |
+| R1 correction / R2 intervention | HR_ADMISSION_OPEN | protocol, canonical — Annex R binds correction, retained safeguards/generic adaptation, admitted D_i and no post-outcome engineering. |
+| Per-gate trace | PARTLY_INTEGRATED | canonical, diagnostic_F, diagnostic_H — Diagnostics exist. Bind selected gate/input/version/evidence-at-time/control-presence/result/owner/effect/timestamp and uncertainty. |
+| Measurements | COMMON_METRICS_ACTIVE | canonical — Supply real numerators/denominators/thresholds/intervals/burden/business effect. Forms or qualitative stories are not rates. |
+| Hypothesis conclusion | CORE_LOGIC_ACTIVE_CASE_LINK_OPEN | protocol, canonical, dds — Case FAIL may support admitted causal witness; case PASS establishes no automatic H/HC/HR/HS conclusion. Bind HR separately. |
+| Conclusion | PARTLY_INTEGRATED | protocol, dds — Scope-specific PASS/FAIL/NOT EVALUABLE/NOT EXERCISED/justified NA, disagreements/defenders/exclusions/reproduction remain distinct. |
+
+### CONVENTIONS.md
+
+Complete source path: contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md. Submitted aec08fb5b0fac2ee399372370e9ee2a82a2d5779 and latest 724d69f9cf69aaadd2f84f50934db9cf77fcc1f1 use identical blob f14cfee1b588d0814bb39288b40d715bbed826a2, 5571 bytes, SHA-256 6911b3048974661675ba3406c001d1d0bf16b1b44a7d8360faff6cb6518591e2. State: FULL_READ. No additional unique earlier direct edition appears in supplied path history.
+
+Source publication events: [{"sha":"d4fad875d12c1542fff8236ec484d68c6e641327","date":"2026-10-12T19:06:59+02:00","author":"Iván Abril Palma","subject":"Publish Ivan-authorized UC21 package and all approved reader tandas on main; preserve 23 existing main files, add root navigation only, retain package blobs and branch history","path":"contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md","before":"0000000000000000000000000000000000000000","after":"f14cfee1b588d0814bb39288b40d715bbed826a2","status":"A"},{"sha":"aec08fb5b0fac2ee399372370e9ee2a82a2d5779","date":"2026-09-29T23:11:32+02:00","author":"dakleyer","subject":"Add when controls work but the system fails package","path":"contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md","before":"0000000000000000000000000000000000000000","after":"f14cfee1b588d0814bb39288b40d715bbed826a2","status":"A"}]
+
+| Complete section | Disposition | Actual receiving sources and human reason |
+|---|---|---|
+| # Reading conventions and working vocabulary | CASE_ENTRY_ROUTE | dds — Local section numbering and 00E–00J/S1–S6 route preserve case-edition meaning; no exact corpus glossary counterpart is established. |
+| ## Routes and implementation | CASE_ALIAS_BRIDGE_OPEN | dds — DDS §10A protects local namespaces but does not enumerate R0/R1/R2 versus robot actors, L reinforcement, S3 F/G or S4 U/G/I. No historical state is renamed by an adapter. |
+| ## Evidence and state | DIAGNOSTIC_CORE_ALREADY_ACTIVE | diagnostic_F, diagnostic_H, canonical, dds — All five capability/control states are active in 00F §5.1 and 00H §11.1. Distinct missing/unsupported/unexercised/NA states and bounded owner/time consequences remain case-scoped. Zero standalone glossary matches is not complete glossary loss. |
+| ## Decision and action | CORE_AUTHORITY_BOUNDARIES_ACTIVE_LOCAL_LABELS_OPEN | canonical, diagnostic_H, dds — Canonical S1/S8/T2/T3/S14 and 00H KNOW/SHOULD do not create MAY preserve evidence/authority/action boundaries. Neutral case labels are not identical to global DBC runtime labels. A request for authority grants none. |
+| ## Scope and failure-position labels | CORE_SCOPE_ACTIVE_ALIAS_BRIDGE_OPEN | canonical, antecedent — U, R_U, selected observation window and Type 1/2 are preserved in canonical §1.1/§4 and the antecedent. S1 I1/I2/O1/O2 versus AWS configuration aliases require a case crosswalk; this supports E.5 clarification. |
+
+All exact section/paragraph/table-row passages and source line locators are in the JSON. Each clause is associated with its human-reviewed section disposition; this does not claim automatic clause-by-clause literal equivalence. Explicit field/group dispositions override the section-level association. The full authenticated source is reproduced below, so no verdict rests on title similarity or missing-string counts.
+
+### RUN_RECORD.md
+
+Complete source path: contributions/when-controls-work-system-fails/templates/RUN_RECORD.md. Submitted aec08fb5b0fac2ee399372370e9ee2a82a2d5779 and latest 724d69f9cf69aaadd2f84f50934db9cf77fcc1f1 use identical blob be014eb521d0ede16697ad0f37b961c5eb562d63, 2645 bytes, SHA-256 788f9e1f4d788c9ea286d7d0d4f85a9b01497fefba5063cf24217312694095bb. State: FULL_READ. No additional unique earlier direct edition appears in supplied path history.
+
+Source publication events: [{"sha":"d4fad875d12c1542fff8236ec484d68c6e641327","date":"2026-10-12T19:06:59+02:00","author":"Iván Abril Palma","subject":"Publish Ivan-authorized UC21 package and all approved reader tandas on main; preserve 23 existing main files, add root navigation only, retain package blobs and branch history","path":"contributions/when-controls-work-system-fails/templates/RUN_RECORD.md","before":"0000000000000000000000000000000000000000","after":"be014eb521d0ede16697ad0f37b961c5eb562d63","status":"A"},{"sha":"aec08fb5b0fac2ee399372370e9ee2a82a2d5779","date":"2026-09-29T23:11:32+02:00","author":"dakleyer","subject":"Add when controls work but the system fails package","path":"contributions/when-controls-work-system-fails/templates/RUN_RECORD.md","before":"0000000000000000000000000000000000000000","after":"be014eb521d0ede16697ad0f37b961c5eb562d63","status":"A"}]
+
+| Complete section | Disposition | Actual receiving sources and human reason |
+|---|---|---|
+| # Run record — copy and complete before execution | FORM_BRIDGE_OPEN | protocol, canonical, dds — Working aid adds no claim/gate/route and empty values stay pending. Per-field crosswalk controls; generic records do not prove full equivalence. |
+| ## Per-gate evidence and actual outcome | FORM_BRIDGE_OPEN | protocol, canonical, dds — Working aid adds no claim/gate/route and empty values stay pending. Per-field crosswalk controls; generic records do not prove full equivalence. |
+| ## Separate conclusions | FORM_BRIDGE_OPEN | protocol, canonical, dds — Working aid adds no claim/gate/route and empty values stay pending. Per-field crosswalk controls; generic records do not prove full equivalence. |
+
+All exact section/paragraph/table-row passages and source line locators are in the JSON. Each clause is associated with its human-reviewed section disposition; this does not claim automatic clause-by-clause literal equivalence. Explicit field/group dispositions override the section-level association. The full authenticated source is reproduced below, so no verdict rests on title similarity or missing-string counts.
+
+#### Every run form field
+
+| Field | Disposition | Actual receiver and remaining requirement |
+|---|---|---|
+| Run ID, date, tester and independent reviewer | RELATED_CORE_PRESERVED | protocol, dds — Protocol §10 identity/reproduction; reviewer if any means no assumed institutional or external independence. |
+| Package, protocol, scenario and variant versions | PARTLY_INTEGRATED | protocol, dds — Protocol §10 and DDS §2.1 version/hash fields supply related entries; complete case-package identity still needs binding. |
+| Claim: case acceptance / HC / HR / HS / selected H1–H6 | CASE_SELECTION_OPEN | protocol, canonical, dds — HC/HS and H1–H6 exist separately. HR and explicit case acceptance are not supplied by a generic Stage A finding. |
+| Exact claim scope: candidate, family, all-six or all-profile | PARTLY_INTEGRATED | protocol, dds — Protocol §§2,7,9A preserves bounded quantifiers. All-profile is a distinct scope, not implied by nine documentary profiles. |
+| S4 outcome: unauthorized action / silent loss / both / not applicable | SEMANTICS_ACTIVE_FIELD_BRIDGE_OPEN | protocol, baseline_index — Protocol §§5,7,9A and baseline README 350–356 preserve both. Exact run selection is case-specific; one result does not establish both. |
+| Implementation route: R0 / R1 / R2 | CASE_ROUTE_OPEN | dds — DDS I/M/P/Ø does not replace ordinary/reinforced/retained-reinforcement-under-change routes. |
+| Causal condition A–D or response-component comparison, if applicable | FACTORS_ACTIVE_FIELD_BRIDGE_OPEN | protocol — Protocol §6 A–D and §9A three response variants provide actual factors. They create no fourth implementation route. |
+| Candidate/product/model/tool/configuration versions and hashes | RELATED_CORE_PRESERVED | protocol, dds — Protocol §10 provenance and DDS §2.1 version/hash; actual model/API/tool identities remain concrete. |
+| Receiving decision, owner, grants and governing regime | RELATED_CORE_PRESERVED | canonical, dds — Canonical scope/S1/S8/T2/T3 and DDS handoff preserve boundaries. Recording a grant does not create one. |
+| Baseline facts, source access, provenance and permitted actions | RELATED_CORE_PRESERVED | protocol, canonical — Protocol §§3,6,10 and canonical §6.2 preserve fixed facts and matched evidence/action libraries. |
+| Family admission X1–X7 and independent failure predicate | ADMISSION_BRIDGE_PENDING_OTHER_COHORT | protocol — Protocol requires family admission/independent outcome. Exact local X1–X7 mapping is for the family reviewer; not adjudicated here. |
+| R1 correction, legitimate-activity controls and frozen safeguards | HR_OBLIGATION_OPEN | protocol, canonical, dds — Generic continuity is related. Nominated corrected R1, retained safeguards/adaptation and correction evidence require Annex R. |
+| Context fields, change domain, materiality, timing and observable signals | PARTLY_INTEGRATED_HR_DOMAIN_OPEN | protocol, canonical — Protocol §§2,3,6,10 carries context/timing. HR D_i admission/ranges/equality/observability still must bind. |
+| Matched unchanged / harmless-change / qualification controls | CORE_CONTROLS_ACTIVE_LINK_OPEN | protocol, canonical — Protocol §6 preserves the controls; applicability to the selected claim is declared, not completed by form presence. |
+| Budget, capacity, deadline, fallback and warning/response margins | RELATED_CORE_PRESERVED | protocol, canonical, dds — HS §9A warning margin and canonical T4/H6 preserve these. A named human role is not useful intervention evidence. |
+| Independent evaluator/oracle and separation from tested system | CORE_PRESERVED | protocol, diagnostic_F — Protocol §6 independent evaluator and 00F oracle separation. This source review is no blind scientific execution. |
+| Metrics, thresholds, repetitions, pairing/seeds and uncertainty method | RELATED_CORE_PRESERVED | protocol, canonical — Protocol §§2,6,9A and canonical §5 preserve threshold/uncertainty duties; candidate failure is not global refutation. |
+| Raw evidence and reproduction location | RELATED_CORE_PRESERVED | protocol, dds — Protocol §10 and DDS trace basis. Actual complete raw location must be observable, not inferred from a blank field. |
+
+#### Per-gate columns and three separate conclusions
+
+- Gate: Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.
+- Input/source/version: Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.
+- Evidence at decision time: Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.
+- Result and reason: Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.
+- Owner/action/effect: Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.
+- Timestamp: Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.
+- Implementation outcome: Gate, actual business effect, legitimate continuity, deadline and burden.
+- Hypothesis conclusion: Selected claim/exact scope/support/limitation/rejected candidate/bounded refutation/not tested/inconclusive, with required evidence.
+- Reproduction and disagreements: Rerun, review if present, successful defenders, missing observations and retained objections.
+
+The form has no dedicated control-presence/invocation column, but it links E.6 and the full protocol. This is a form convenience issue rather than demonstrated removal of the obligation. A future adapter must bind the diagnostic to each selected gate; the six-column table alone is not the complete contract.
+
+## Narrow BEFORE / AFTER proposals — preparatory only
+
+No source or canonical edit was applied. Each exact predecessor passage occurs once. The E.5 pair requires a maintained adaptation owner; the authentic archived paragraph remains untouched. The DDS pair belongs only in the existing VNext review and does not itself complete HR admission or the run contract.
+
+### CP-S2-E5-U
+
+Target: contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md. Predecessor 11e844056e6253e3e8ec0983072dd8fdc3b0d88e. Status: PREPARATORY_NO_EDIT.
+
+BEFORE:
+
+~~~~text
+Select the applicable measures before the run. `U` means the declared evidence/observation scope, not a claim to exhaust all relevant reality. “Posture” means the recorded operational decision or disposition, including a bounded hold. Report numerator, denominator, branch, configuration, observation interval and threshold; a zero denominator is not a perfect score. Keep unknown measurements visible. Do not pool heterogeneous branches to hide a material failure.
+~~~~
+
+AFTER:
+
+~~~~text
+Select the applicable measures before the run. `U` denotes the bounded operational representation; the observation window selects what is actively considered for a particular decision and time. An unresolved item inside `U` differs from the open residual `R_U` beyond it. `U` and the active observation window are not interchangeable; neither is a claim to exhaust all relevant reality. “Posture” means the recorded operational decision or disposition, including a bounded hold. Report numerator, denominator, branch, configuration, observation interval and threshold; a zero denominator is not a perfect score. Keep unknown measurements visible. Do not pool heterogeneous branches to hide a material failure.
+~~~~
+
+Do not edit the authentic archived case edition. If a maintained adaptation is authorized, use its existing owner VNext and preserve the source paragraph. Owner selection remains preparatory.
+
+Low effort, medium semantic importance.
+
+### CP-S2-DDS-NAMESPACE
+
+Target: research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md. Predecessor e636346c46c49cb81ecc7f84ec9c792e9729cc95. Status: PREPARATORY_NO_EDIT.
+
+BEFORE:
+
+~~~~text
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.
+~~~~
+
+AFTER:
+
+~~~~text
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs. In UC-21, R0/R1/R2 are implementation routes, while HC/HR/HS select claims and A–D are causal trial conditions. The S3 robot actors also named R1/R2 are not implementation routes; S1 failure-position codes I1/I2/O1/O2 are not AWS configuration names. These local labels require a qualified crosswalk before DDS interpretation.
+~~~~
+
+Existing DDS VNext proposal only. This does not complete HR admission/refutation or a run contract; verify consumers before any authorized application.
+
+Low effort, moderate reader benefit.
+
+## Unanswered requirements
+
+- Choose the maintained existing corpus owner and exact case-to-DDS return route for HR/selection while preserving originals.
+- Complete integration against actual active campaign/run templates. This cohort maps case fields to named generic receivers but does not audit every possible form.
+- Complete X1–X7 family admission and S/T consumer review in other cohorts before any all-family/all-profile claim.
+- Disposition other 157 fork history objects in their own cohorts; no whole-fork PASS is claimed here.
+- Any application must use the existing owner VNext and authentic predecessor custody. No candidate was applied.
+- Native execution, six causal/recurrence witnesses, HS end-to-end response sufficiency and independent adjudication remain unestablished.
+
+## Expected impact, risk and effort
+
+| Work | Impact | Risk | Effort |
+|---|---|---|---|
+| HR/claim-selection bridge | High: prevents false recurrence and causal/response promotion | Wrong quantifiers, disabled-defence arms, one-branch S4 generalized to both | Moderate editorial/consumer reconciliation; empirical prerequisites remain separate |
+| Run-contract binding | High: reviewable runs and correct objective return | Unselected claim, missing correction, execution mistaken for hypothesis support | Moderate: 18 fields, six trace columns, nine E.6 groups, three conclusions |
+| Preserved core HC/HS/KPIs | Avoid duplicate insertion and incorrect restoration | Resurrected necessity or matcher counts read as lost science | Low: retain exact sources and record existing receivers |
+| Namespace and E.5 clarification | Medium reader/measurement correctness | Actor/configuration/type collision and U/window conflation | Low wording effort; consumer review still required |
+
+
+
+<details>
+<summary>Five case protocols — all75 human section dispositions and455 inventoried clause units</summary>
+
+Clause units locate source text;455 is not455 independent semantic proofs. Each unit is attached to its human section judgement. The complete pinned source remains available at each line link. No unmatched-string count replaces these judgements.
+
+#### RECURRENCE_PROTOCOL.md — complete assigned source
+
+Git blob `824f4f974d1423cb98c78504ac9e6ca91fb95b0b`; 17203 bytes; SHA-256 `aa7967a6259ed9c8a0379c41d03bdfdc505414bb32b72f3ec5fa142c8b45361e`. Submitted/current identical.
+
+| Complete source section/lines | Clause units | Disposition and receiving source(s) | Human judgement |
+|---|---:|---|---|
+| [## Annex R (1–2)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L1) | 1 | DOCUMENT_HEADER · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Local Annex R identity; no substantive clause in the header. |
+| [### R.1 — Why six scenarios form one use case (3–8)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L3) | 3 | CASE_LAYER_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | Common causal grouping is already in Protocol §1. HR adds corrected-baseline recurrence. It does not merge outcomes or make one scenario evidence for the other five. |
+| [### R.2 — The hypothesis (9–32)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L9) | 10 | HR_QUANTIFIER_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | HR is for every nominated scenario, some admitted change in D_i after corrected K_i; HC instead requires a complete causal sequence in W_i without that R1 prerequisite. Generic DDS acceptance does not supply the HR quantifier or all-profile claim scope. |
+| [### R.3 — What counts as context and material change (33–44)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L33) | 6 | PARTLY_INTEGRATED_HR_DOMAIN_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Protocol §3 preserves reference context versus representation, independent materiality, unknowns and feasibility. HR adds D_i fields/ranges/equality/tolerances/admission/observable signals under retained defences. Similar headings do not establish these obligations. |
+| [### R.4 — Demonstrate the correction before testing recurrence (45–54)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L45) | 5 | HR_CORRECTION_FREEZE_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | A failed reinforced baseline cannot demonstrate recurrence. Correct the selected branch with legitimate-activity and time controls before freeze, keeping generic discovery/revalidation/adaptation active. Canonical matched resources and successor S10 binding are related, not a complete HR correction contract. |
+| [### R.5 — Six recurrence questions (55–69)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L55) | 11 | CASE_CANDIDATES_PRESERVED_NO_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | Six interventions are documentary candidates. Original Protocol §5 retains dynamic HC proposals and both S4 outcomes; HR selected-branch correction/adaptation and disjunctive-versus-both recurrence require a separate bridge. Full HC needs both S4 outcomes. |
+| [### R.6 — Matched execution and causal attribution (70–84)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L70) | 5 | CAUSAL_CORE_INTEGRATED_HR_RETENTION_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Protocol §6 already preserves causal ordering, matched controls, stochastic thresholds and negative arms. Deliberately degraded qualification in HC arm D is not HR unless frozen R1 defences remain active under an independently admitted change. |
+| [### R.7 — Support, refutation and inconclusive results (85–103)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L85) | 14 | HR_REFUTATION_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Finite successful interventions do not refute existential HR. Exhaustive/formal preservation for every D_i in one corrected scenario refutes the bounded all-six conjunction. A contrary specific prediction refutes that prediction only. DDS acceptance classes do not supply these logical rules. |
+| [### R.8 — Result record and present status (104–114)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#L104) | 5 | CASE_RECORD_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Record correction/intervention/control/business effect/disagreement/exact scope. No six-scenario sufficiency or solution sufficiency is reported. A pooled average cannot hide loss of the finding or an unsupported rights demand. Generic records are partial receivers only. |
+
+#### HYPOTHESES.md — complete assigned source
+
+Git blob `7e315c2fc1931e19a9a61d03912b9fb88b51031c`; 66940 bytes; SHA-256 `2c2bb892598d6f0135ab5c23af68944005071a16142a00e921b7932e53318f11`. Submitted/current identical.
+
+| Complete source section/lines | Clause units | Disposition and receiving source(s) | Human judgement |
+|---|---:|---|---|
+| [## Annex H (1–2)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L1) | 1 | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| [# Hypotheses communication thesis and refutation protocol (3–14)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L3) | 6 | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| [# 1 Purpose and present assessment (15–24)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L15) | 5 | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| [## Why one use case contains six scenarios (25–32)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L25) | 4 | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| [## The proposed communication thesis (33–44)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L33) | 6 | CORE_ALREADY_ACTIVE_CASE_WRAPPER_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | The original active Protocol 0.3 §1 contains grouping, communication thesis and unexecuted status. Local case reading safeguards are additions. No exact 66,940-byte Markdown copy does not mean HC/HS was lost. |
+| [# 2 The principal hypothesis of causal sufficiency (45–46)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L45) | 1 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| [## A sufficient pathway for each failure mode (47–60)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L47) | 7 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| [## What counts as a causal witness (61–68)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L61) | 4 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| [## Bounded scope and refutability (69–76)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L69) | 4 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | HC quantifiers, independent witnesses, deterministic/probabilistic scope, candidate/exhaustive refutation and static alternative pathways are preserved in actual Protocol §§2–4. Do not turn sufficiency into necessity or universal product weakness. |
+| [# 3 What context means in this study (77–93)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L77) | 12 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| [## Material change and context equality (94–101)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L94) | 4 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| [## Three distinct contrasts (102–111)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L102) | 5 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| [## An analytically constructed static pathway (112–117)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L112) | 3 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Protocol §3 preserves C_ref, U_a, message and processing state; contextual fields/equality/materiality; and the constructed static three-robot pathway. Belief change, message arrival and internally generated resource depletion are not automatically initiating reference-context changes. |
+| [# 4 Conditions of support refutation and revision (118–138)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L118) | 16 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | The full support/refutation table, independent antecedents, retained negative results, scope changes, conventional successes and coexistence-versus-causation limits are active in Protocol §4. |
+| [# 5 Scenario review and candidate sufficient pathways (139–142)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L139) | 2 | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| [## 00E The 100 Million Token Enterprise (143–154)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L143) | 6 | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| [## 00F Chaos in the Smartcity (155–166)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L155) | 6 | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| [## 00G Ciber Napoleon Goes to Russia (167–178)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L167) | 6 | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| [## 00H The Quiet Four Thousand (179–190)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L179) | 6 | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| [## 00I The Patch That Undid the Fix (191–202)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L191) | 6 | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| [## 00J The Author Who Pays for Their Own Work (203–214)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L203) | 6 | CANDIDATES_ALREADY_ACTIVE_NOT_EXECUTION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | All six source readings, independent outcomes, static comparisons and dynamic candidates are in Protocol §5. The fork neutralizes the 00E P5 design reference and redirects family links as explicit case adaptation. Family-admission verdicts are not supplied here. Both S4 outcomes remain separate. |
+| [# 6 Paired experimental design (215–216)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L215) | 1 | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| [## Independent factors (217–231)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L217) | 10 | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| [## Execution sequence (232–249)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L232) | 9 | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| [## What causal support requires (250–259)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L250) | 5 | CAUSAL_DESIGN_ACTIVE_HR_SEPARATOR_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Complete A–D design, matched budgets, positive/negative controls, evaluator separation and causal support are in Protocol §6. The case adds the qualification-ablation versus retained-defence HR distinction; that additional bridge remains open. |
+| [# 7 Establishing common sufficiency across the six scenarios (260–273)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L260) | 7 | CORE_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | All-six credible witnesses, both 00H outcomes, family membership, exhaustive-domain refutation and separate common response mechanism are preserved in Protocol §7. Five successes do not establish the sixth, and component PASS is not a full family witness. |
+| [# 8 The six canonical hypotheses and their refutation tests (274–279)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L274) | 3 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [### H1 Boundary aware local closure (280–285)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L280) | 3 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [### H2 Residual scope explicitness (286–291)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L286) | 3 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [### H3 Compositional residual expansion (292–297)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L292) | 3 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [### H4 Bounded preservation (298–303)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L298) | 3 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [### H5 Dynamic ecosystem pressure (304–309)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L304) | 3 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [### H6 Risk capacity calibrated window selection (310–315)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L310) | 3 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [## Operational refutation tests (316–328)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L316) | 10 | H1_H6_ALREADY_ACTIVE · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Canonical §4 retains the six quantified statements; the explanatory antecedent contains their empirical contrasts; Protocol §8 retains operational refutation and some/can existential limitations. The fork compiles them without byte identity of the whole source document. |
+| [# 9A The hypothesis of a sufficient common response (329–330)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L329) | 1 | HS_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| [## What sufficiency would mean (331–340)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L331) | 5 | HS_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| [## How H1 through H6 support the proposed response (341–353)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L341) | 10 | HS_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| [## Comparative tests and refutation (354–365)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L354) | 6 | HS_ALREADY_ACTIVE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Original Protocol §9A preserves exact HS, minimal-map limits, warning/response time, three component variants, strong comparator, both S4 obligations, shared blind spots and strict/probabilistic candidate refutation. Signals or metadata alone do not establish HS. |
+| [# 10 Result record and decision rules (366–386)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L366) | 17 | CORE_RECORD_ACTIVE_CASE_FIELDS_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Protocol §10 contains the full HC/HS record and pending status. The case E.6 and run form add HR/selection. Omitted principle-traceability phrasing is declared case scope; generic DDS records do not establish the complete case contract. |
+| [# 11 Interpretation and preserved scope (387–392)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L387) | 3 | LEGITIMATE_CORRECTION_NOT_RESTORE · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx) | Protocol 0.3 explicitly supersedes necessity-based drafts 0.1/0.2. The antecedent last paragraph still mentions necessity, but the active index identifies that antecedent as historical. Restoring necessity would be a regression. |
+| [# 12 Source record and local case references (393–424)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L393) | 18 | SOURCE_CUSTODY_EXPLICIT_ADAPTATION · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | Source identities/snapshot are retained. Original DOCX principle mapping and administrative-attachment screen remain in the complete original; their exclusion from case adaptation is explicit. Local references and packaging boundaries are additions, not full DOCX-byte claims. |
+| [# 13 Claim selection (425–440)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#L425) | 11 | CASE_SELECTION_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | Unique combined case layer: claims HC/HR/HS/H1–H6 are separate from R0/R1/R2, A–D and HS component comparisons. HC full S4 needs both; narrower HR can select one. Core HC/HS and S4 duality are active, but the complete case table/HR rules are not established in a corpus run contract. |
+
+#### EVIDENCE_AND_PROTOCOL.md — complete assigned source
+
+Git blob `11e844056e6253e3e8ec0983072dd8fdc3b0d88e`; 18042 bytes; SHA-256 `0290e6d11e3dca8c317ed84957dc3b35e264cc8011aff540323d60c5e853e9fc`. Submitted/current identical.
+
+| Complete source section/lines | Clause units | Disposition and receiving source(s) | Human judgement |
+|---|---:|---|---|
+| [## Annex Evidence (1–2)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L1) | 1 | COMMON_RECORD_RELATED_CASE_FIELDS_OPEN · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Canonical §§2.1,5,6.2 and Protocol §§6,10 preserve common run/metric duties. Case routes, gate/action separation, distinct result statuses and complete selected-claim record still require binding. |
+| [### E.1 — Run record and measurements (3–19)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L3) | 12 | COMMON_RECORD_RELATED_CASE_FIELDS_OPEN · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Canonical §§2.1,5,6.2 and Protocol §§6,10 preserve common run/metric duties. Case routes, gate/action separation, distinct result statuses and complete selected-claim record still require binding. |
+| [### E.2 — Evidence classes and claim limits (20–31)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L20) | 9 | EVIDENCE_CEILINGS_ACTIVE_CASE_TABLE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Source and DDS preserve evidence ceilings. The case five-row evidence table and nine-profile/27-position documentary boundary remain exact case obligations, not product executions or a fully mapped receiving table. |
+| [### E.3 — Existing functions and primary references (32–46)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L32) | 11 | DATED_DUPLICATION_CHECK_CUSTODY · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | Existing functions are acknowledged; joint receiving-decision sufficiency is the question. No statement that SPIFFE/RATS/STIX/MCP lacks relevant functions is justified. No present external specification validation was performed. |
+| [### E.4 — Product-profile source entry points (47–61)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L47) | 3 | DATED_PRODUCT_SOURCES_CUSTODY · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Nine mutable primary entry points are dated documentary sources, to repin for a future product test. This review makes no current product-feature/deployment claim and did not revalidate those external sources. |
+| [### E.5 — Full common metric definitions (62–67)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L62) | 3 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Decision evidence (68–71)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L68) | 2 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Scope and residual (72–75)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L72) | 2 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Source independence and composition (76–79)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L76) | 2 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Handoff integrity (80–83)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L80) | 2 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Material change and freshness (84–87)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L84) | 2 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Time, capacity and burden (88–91)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L88) | 2 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Response and legitimate-activity measures (92–101)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L92) | 3 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [#### Cross-cutting trajectory and stress measures (102–120)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L102) | 14 | COMMON_METRICS_ACTIVE_U_AMBIGUITY · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | Seven common metric groups, response measures and nine trajectory/stress measures have substantive canonical §§5–5.2 receivers. Zero denominator, unknowns and no-pooling safeguards remain part of case scoring. Calling U an evidence/observation scope conflicts with the case distinction between bounded representation and observation window; narrow terminology issue, not demonstrated scientific damage. |
+| [### E.6 — Complete run record (121–136)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L121) | 13 | CLAIM_SPECIFIC_RECORD_BINDING_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Identity, fixture, authority, outcome and resources have actual core receivers. The combined claim/route/factor/admission/R1-correction/R2-retained-adaptation/hypothesis-conclusion specification is not discharged by a generic DDS handoff. Every group is mapped separately below. |
+| [### E.7 — Source boundary and publication status (137–141)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md#L137) | 3 | CASE_PUBLICATION_BOUNDARY_CUSTODY · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Contributor draft, synthetic facts, documentary profiles and real-world authority boundaries remain distinct. Local asset/fixture closure is a case custody dependency; this reviewer did not fully audit those physical files. |
+
+#### CONVENTIONS.md — complete assigned source
+
+Git blob `f14cfee1b588d0814bb39288b40d715bbed826a2`; 5571 bytes; SHA-256 `6911b3048974661675ba3406c001d1d0bf16b1b44a7d8360faff6cb6518591e2`. Submitted/current identical.
+
+| Complete source section/lines | Clause units | Disposition and receiving source(s) | Human judgement |
+|---|---:|---|---|
+| [# Reading conventions and working vocabulary (1–4)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md#L1) | 2 | CASE_ENTRY_ROUTE · [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Local section numbering and 00E–00J/S1–S6 route preserve case-edition meaning; no exact corpus glossary counterpart is established. |
+| [## Routes and implementation (5–12)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md#L5) | 6 | CASE_ALIAS_BRIDGE_OPEN · [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | DDS §10A protects local namespaces but does not enumerate R0/R1/R2 versus robot actors, L reinforcement, S3 F/G or S4 U/G/I. No historical state is renamed by an adapter. |
+| [## Evidence and state (13–21)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md#L13) | 7 | DIAGNOSTIC_CORE_ALREADY_ACTIVE · [diagnostic_F](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md); [diagnostic_H](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | All five capability/control states are active in 00F §5.1 and 00H §11.1. Distinct missing/unsupported/unexercised/NA states and bounded owner/time consequences remain case-scoped. Zero standalone glossary matches is not complete glossary loss. |
+| [## Decision and action (22–32)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md#L22) | 9 | CORE_AUTHORITY_BOUNDARIES_ACTIVE_LOCAL_LABELS_OPEN · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [diagnostic_H](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Canonical S1/S8/T2/T3/S14 and 00H KNOW/SHOULD do not create MAY preserve evidence/authority/action boundaries. Neutral case labels are not identical to global DBC runtime labels. A request for authority grants none. |
+| [## Scope and failure-position labels (33–43)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md#L33) | 7 | CORE_SCOPE_ACTIVE_ALIAS_BRIDGE_OPEN · [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx) | U, R_U, selected observation window and Type 1/2 are preserved in canonical §1.1/§4 and the antecedent. S1 I1/I2/O1/O2 versus AWS configuration aliases require a case crosswalk; this supports E.5 clarification. |
+
+#### RUN_RECORD.md — complete assigned source
+
+Git blob `be014eb521d0ede16697ad0f37b961c5eb562d63`; 2645 bytes; SHA-256 `788f9e1f4d788c9ea286d7d0d4f85a9b01497fefba5063cf24217312694095bb`. Submitted/current identical.
+
+| Complete source section/lines | Clause units | Disposition and receiving source(s) | Human judgement |
+|---|---:|---|---|
+| [# Run record — copy and complete before execution (1–25)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md#L1) | 22 | FORM_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Working aid adds no claim/gate/route and empty values stay pending. Per-field crosswalk controls; generic records do not prove full equivalence. |
+| [## Per-gate evidence and actual outcome (26–33)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md#L26) | 5 | FORM_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Working aid adds no claim/gate/route and empty values stay pending. Per-field crosswalk controls; generic records do not prove full equivalence. |
+| [## Separate conclusions (34–40)](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md#L34) | 3 | FORM_BRIDGE_OPEN · [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx); [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md); [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Working aid adds no claim/gate/route and empty values stay pending. Per-field crosswalk controls; generic records do not prove full equivalence. |
+
+</details>
+
+#### Case receiver coverage and source identities
+
+| Receiver | Actual source identity | Read coverage |
+|---|---|---|
+| [canonical](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c` · SHA-256 `36c5ed27590e7deb68aab9968410a9d0894b411bee3ecc238cdead1dc0eebc73` | FULL_READ |
+| [successor](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | `c0226a1ba9a45976ad0c887dd9afb97b103e6c37` · SHA-256 `7f0193a4d194ec4e1f39873da05e570df6ca8508c647e7a780abad669a753304` | FULL_READ |
+| [index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) | `9a4ddf9bc84abc5ca4cdb94a5c753d4ca6f6a749` · SHA-256 `27a5fafd4719735efd43a28c0f6374d99967c2e8bbea6e803d15e7a77cf281d6` | FULL_READ |
+| [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | `e636346c46c49cb81ecc7f84ec9c792e9729cc95` · SHA-256 `28f22335a08fd763abdcf49790b6a559b42679842fd2c0c750195551cf0bb8bf` | PARTIAL_COMPLETE_NAMED_SECTIONS |
+| [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md) | `6d6aedbdae5a775b28ae1e6e2043108948c8f917` · SHA-256 `1aea78364c248c7b7e746a7856ee97c18f358588355018d82f8f7f35c3cd13fb` | PARTIAL_COMPLETE_NAMED_SECTIONS |
+| [diagnostic_F](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) | `4f3a054dba0f23a000acc25222c6279ef72e2e7e` · SHA-256 `a963aae1190cfdf0e06a20bcdf4ffe6196a3b467c8be5ece656dc68a4d698962` | PARTIAL_COMPLETE_NAMED_SECTIONS |
+| [diagnostic_H](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | `187f5fbff6eb397564ee9690e7463f0e68f1ed63` · SHA-256 `65eb1cf6455784cc9698dda04222cb47f94e07f630aea44553b640739090f6e0` | PARTIAL_COMPLETE_NAMED_SECTIONS |
+| [protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | `524fe4cc1091d622f18d37a2441464c263bfe265` · SHA-256 `b2893e9635b6d401e6f6767a29d187814728067ad222814edb73776985cbb290` | FULL_TEXT_READ_BINARY_AUTHENTICATED_NO_LAYOUT_REVIEW |
+| [antecedent](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx) | `ab187dd929f65550c966ed139e48c9412d67079d` · SHA-256 `8d6f40cb5de86fbe7ecd2bd32501a88e031f700939afdfe4f3c457a915da12dd` | FULL_TEXT_READ_BINARY_AUTHENTICATED_NO_LAYOUT_REVIEW |
+
+<details>
+<summary>Complete named partial receiving sections — DDS handoff, baseline and diagnostic states</summary>
+
+
+Source: [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#L186); lines186–209. Complete inspected passage:
+
+``````markdown
+### 2.1 Stage A handoff contract to Stage B
+
+Stage A closes its own question before Stage B begins. The handoff is not “the test passed, therefore build it”; it is a frozen record of **what must be realized and under what conditions**.
+
+For a Stage B-ready handoff, Stage A should identify:
+
+~~~text
+Stage A profile / version
+Challenge / scenario / reduction identity
+candidate specification package / version / hash
+selected requirements or normative statements
+scope / preconditions
+required behavior
+prohibited behavior
+positive / continuity controls
+falsifiers / boundary conditions
+material assumptions / exclusions
+evidence mode / evidence ceiling
+Stage A finding
+NOT_ESTABLISHED / unresolved items
+~~~
+
+Stage B may discover that this package is incomplete, contradictory or unrealizable. That does not authorize Stage B to rewrite Stage A in place. It opens a successor Stage A version while preserving the failed Stage B evidence.
+
+``````
+
+Source: [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#L557); lines557–574. Complete inspected passage:
+
+``````markdown
+## 8. Acceptance
+
+For the common C–R–E profile:
+
+~~~math
+\mathcal A_{b,\delta,p}
+=
+\{(C,R,E): C\le b,\;R\le\delta,\;E\ge p\}.
+~~~
+
+A trace does not itself “pass the DDS.” Traces generate evidence. The evaluated technology/configuration/campaign is then classified against the frozen acceptance policy as:
+
+- **inside acceptance**;
+- **outside acceptance**;
+- **not established / insufficient evidence**.
+
+Other acceptance functions are allowed when the Challenge requires them, but they must be frozen and reproducible.
+
+``````
+
+Source: [dds](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#L637); lines637–673. Complete inspected passage:
+
+``````markdown
+## 10A. Namespace safety for cross-corpus review
+
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.
+
+- **DDS `I/M/P/Ø`** are route/outcome classes in this profile. They are not mutation IDs.
+- **R01 `M/I/P`** retain the source-native R01 route semantics; DDS may crosswalk them but does not silently rename historical results.
+- **Zhao mutant `M1–M4`** means mutation operators in the S5 runnable companion.
+- **Review/MUST `M1–M5`** in Zhao's review-round commit message means review items, not those mutants.
+- **FG-TIDA Annex/Profile `T08`** and Zhao's directory **`examples/T08-S5Q2`** are distinct artefacts even when the latter maps to the former.
+- **AWS-I0/I1/I2** in 00I-A01 and **I0/I1/I2** labels inside another local simulator are local implementation-profile namespaces, not globally identical arms.
+- **00K P5 / 00I** is the symbolic principle-ablation route; **S5/Q0–Q6** is a scenario/gate route. Similar failure semantics do not make their gate IDs interchangeable.
+
+A review report should therefore use qualified names such as `DDS-M`, `R01-M`, `ZHAO-M2-cache-read`, `00K-P5`, `00I-AWS-I1` and `ZHAO/T08-S5Q2` when ambiguity is possible.
+
+## 10B. Reduced coverage, minimum traceability and delivery
+
+A Stage A study need not instantiate the whole Stage A chain or score every dimension. A bounded documentary, analytical or executed study may be complete **within its declared technical scope** while using only part of this canonical Stage A profile.
+
+Its minimum traceability record identifies:
+
+1. this canonical source and the version/commit actually used;
+2. the inherited source/frozen artefact and its original evidence status;
+3. the bounded question, scenario and technology/configuration;
+4. the surfaces selected, simplified, collapsed or not evaluated, with reasons;
+5. the source/trace basis, evidence mode and scoped finding or acceptance rule;
+6. the supported conclusion, exclusions and remaining uncertainty.
+
+**Proportionality clarification0.1.4.** Select the DDS surfaces and evidence depth needed to answer the agreed question. Close the analysis when it has an evidence-bounded answer, including no differential or insufficient evidence; this does not close undelivered contractual outputs. More work is justified by an unresolved issue material to that question, and work beyond the agreed scope requires explicit re-scoping.
+
+**Material assumption check.** Before result-producing work, identify the assumptions or operating limits whose plausible change could reverse the finding. Check the relevant boundary with available evidence where feasible within scope, and report what would invalidate or narrow the conclusion. If that dependency cannot be checked, state the conditional finding or what remains unestablished. Record this briefly in the existing scope/run/report; it adds no deliverable or universal test battery.
+
+A preparation record may leave execution or acceptance pending, but must not report that pending work as an established result. An unscored dimension is not zero, not a passed control and not evidence of absence of risk. A reduced study does not establish full-profile validation, native product performance or deployment Business Value merely by citing DDS.
+
+Current UC21 traversals can be traced to this profile without rerunning the entire battery or rewriting their originals. A later crosswalk records correspondence outside the frozen original; it does not confer a higher evidence grade. A stronger test or additional scored dimension belongs to a declared successor/extension with its own sources, scope and prospective test contract.
+
+**Technical coverage and delivery completion are separate.** A reduced technical scope can support a completely delivered engagement. It does not waive promised outputs. The accepted scope governs which outputs are due; each included output needs a responsible delivering owner, feasible dependencies and observable completion evidence. Prepared, reserved, planned, submitted, published and externally accepted are different states. Changes to promised outputs require explicit agreed re-scoping; commercial fees and recognition never alter technical Cost, evidence grades or acceptance.
+
+``````
+
+Source: [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md#L264); lines264–276. Complete inspected passage:
+
+``````markdown
+## FG-TIDA application package
+
+All FG-TIDA-specific material is maintained in the separate [EA / FG-TIDA application package](../fg-tida/README.md), in this order:
+
+1. [Theme #13 Working Group / Phase 2 Charter preparation](../fg-tida/charter/README.md)
+2. [EA / FG-TIDA specification preparation](../fg-tida/specifications/README.md)
+3. [FG-TIDA interface projection](../fg-tida/interfaces/README.md) — **05 ideal** versus **05A current-source-constrained**
+4. [FG-TIDA-specific cases](../fg-tida/cases/README.md)
+5. [FG-TIDA-specific tests](../fg-tida/tests/README.md)
+6. [FG-TIDA provenance](../fg-tida/provenance/README.md)
+
+The separation is deliberate: **04 defines general EA interfaces; 05/05A apply those interfaces to FG-TIDA.** A Theme-specific mapping cannot redefine the canonical interface, and an ideal 05 field does not become an FG-TIDA requirement until supported by the current-source/owner process.
+
+``````
+
+Source: [baseline_index](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README.md#L350); lines350–361. Complete inspected passage:
+
+``````markdown
+## 00H reading update — 12 October 2026
+
+For the no-attacker Quiet Four Thousand story, the two preservation/authority outcomes, V19/V20 delegation hardening and subsequent test corrections, read the [00H v0.5 working successor](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md). The earlier v0.2 links above remain the preserved predecessor route. A registered study continues to use its frozen edition; the current reading route identifies the fuller successor without changing that study's inputs or results.
+
+The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
+
+The [earlier S4 branch reading](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) remains available with its original preparation context.
+
+
+## Approved working successors — 12 October 2026
+
+The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.
+``````
+
+Source: [diagnostic_F](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md#L286); lines286–297. Complete inspected passage:
+
+``````markdown
+### 5.1 Control-evidence states
+
+To distinguish missing architecture from failed use of an existing control, 00F v0.2 uses the same evidence discipline as the later scenario family:
+
+- **CAPABILITY_ABSENT** — no control exists for the required cross-actor/resource qualification;
+- **CONTROL_PRESENT_NOT_INVOKED / BYPASSED** — the control exists but the path reaches actuation without invoking it;
+- **CONTROL_EXECUTED_FAILED** — the control runs but classifies the branch incorrectly or too late for the declared horizon;
+- **CONTROL_EXECUTED_PASS** — the control runs and produces an admitted outcome;
+- **NOT_OBSERVABLE** — the available trace cannot establish which state occurred.
+
+These labels are scenario evidence states, not new canonical failure types.
+
+``````
+
+Source: [diagnostic_H](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md#L550); lines550–581. Complete inspected passage:
+
+``````markdown
+- **I:** no common root is established → local cases remain independent; false aggregation would fail the test.
+
+Therefore v0.5 does **not** create a new Q6, S15, T5, H7 or canonical KPI family.
+
+If a future executable run shows that an implementation can fully satisfy S1/S7/S8/S9/S12/S13/S14 as currently written and still cannot distinguish U/G/I without an additional solution-neutral obligation, that would be evidence for a new Requirements-vNext gate. We do not have that evidence yet.
+
+## 11. Deterministic gate logic and control-evidence taxonomy
+
+### 11.1 Control-evidence states
+
+For any material control under test, use explicit evidence states:
+
+- **CAPABILITY_ABSENT** — the arm does not implement the required control capability;
+- **CONTROL_PRESENT_NOT_INVOKED / BYPASSED** — the control exists in the configured arm but the action path evades or fails to invoke it;
+- **CONTROL_EXECUTED_FAILED** — the control executes but produces the wrong classification/result;
+- **CONTROL_EXECUTED_PASS** — the control executes and produces the expected result;
+- **NOT_OBSERVABLE** — available traces cannot establish which of the above occurred.
+
+These are evidence labels for the fixture, not new canonical Type states.
+
+### 11.2 Gate rules
+
+1. A mandatory own-grant field in `UNKNOWN` or stale state cannot produce `DBC_EXECUTE`. It produces targeted `DBC_REQUALIFY` or, where local closure is not legitimate, `DBC_ESCALATE`.
+2. Q1 has three distinct exits that MUST NOT be collapsed: **(a)** insufficient but recoverable evidence → `DBC_REQUALIFY`; **(b)** sufficiently established but below `00H-MAT-1` → `NOT_MATERIAL` and return to ordinary flow with no DBC-C05 candidate / no `RepositionIntent`; **(c)** sufficiently established and material → continue to Q2. Where evidence is insufficient and local closure is not legitimate, `DBC_ESCALATE` may be used. Passing Q1 does not pass Q2. KNOW/SHOULD do not create MAY.
+3. Q2 first checks **assigned-case business mandate**. For the base fixture, refund #2 to another customer's account is already outside the agent's current mandate even if the payment endpoint accepts the call.
+4. Campaign/aggregate/velocity controls are additional strong-peer capabilities. They may independently detect V1a/V1b and must be credited when present. They are not smuggled into M7/M8.
+5. **A valid leaf grant does not establish valid root/composed authority.** For V19/V20, Q2 must reconstruct the delegation chain far enough to establish that the authority scope at the originating/root decision covers the composed campaign. If the chain is missing but recoverable, emit `DBC_REQUALIFY`; if the root authority is established as absent, no leaf action may be used to manufacture it.
+6. **S8 non-amplification is a hard gate in V19/V20.** A delegation chain that expands purpose/scope/time/hard limits beyond the root grant cannot pass because every leaf node is locally valid.
+7. **Branch symmetry:** Branch G must remain executable when root authority is current; Branch I must remain local when no common campaign exists. Blanket campaign aggregation or blanket denial is failure.
+8. **Adaptive-search bound:** V20 may only use the frozen action grammar and move budget. Search exhaustion closes through the normal bounded path; it cannot create authority.
+9. If a material opportunity is correctly classified as current-action-not-authorized, Q3 must preserve/rout it or demonstrate a strong-peer equivalent. Blocking + erasing the finding is a failure.
+10. `F-00H-NM` must stop at Q1 as `NOT_MATERIAL` (subject to ordinary audit retention) and must not create a `RepositionIntent`.
+``````
+
+</details>
+
+The two original Word documents were fully read as body/table text and their binary identities were authenticated, with no rendered-layout/whole-media claim. They remain original public source packages at the links above. In the current protocol, “This version supersedes the temporal-necessity interpretation in drafts0.1 and0.2” is an applicable correction; older necessity wording remains historical and does not govern the current sufficiency programme.
+
+</details>
+
+<details>
+<summary>Separate contract reviewer — deleted/current gates and all17 old sections</summary>
+
+Reviewer `/root/gate_capacity_adversary`; all four primary bodies fully read. Later full schema/v0.2 supplement is in the component owner linked above; original partial-read statements here retain their chronology.
+
+## 1. What this pass establishes
+
+1. The deleted 22,330-byte gate draft was not a byte duplicate of diagnostic v0.1. The taxonomy is substantially received, often by multiple current gates, but the old campaign/report/mutation/blindness/dispute/promotion contract is not contained in diagnostic v0.1 §§1–4. Some duties survive in HF-specific preregistration and instrument-validation documents. That is qualified, scope-specific reception, not universal transfer.
+2. Several differences are deliberate improvements that must not be rolled back: absence is not automatically FAIL; identity/evidence/UNKNOWN gates are independently adjudicable; `supports` edges do not block; local verdict and stronger-claim dependencies are separate; remediation may potentially unlock a claim but never guarantees PASS.
+3. Current 01K loses the literal compact condition `AND required HumanTime fits W`. Current A01 already contains service-time, backlog, competing obligations, necessary load and scheduling-proof distinctions. The missing phrase establishes a compact-text omission, not an implementation failure or absence of a capacity model.
+4. The published literal candidate93 is too underspecified to be adopted as a capacity contract. It neither defines HumanTime nor explains service demand versus elapsed time, available time net of commitments, release/deadline conflicts, accepted proof classes or prediction coverage. The damage-control plan correctly makes those matters pending; its next deliverable must be an actual consumer judgement, not another statement that reconciliation is required.
+5. This pass supports a narrower pending textual cross-reference candidate, quoted below. It does not support restoring the old generic gate file as active authority, adopting candidate93, modifying schema, or asserting real capacity/calibration.
+
+## 2. Source cut and honest coverage
+
+Current source cut: `ca2131e20e2629a0ef1e0398bb9bd274f407bf3e` in the authenticated Git object store for that public cut. Sources were resolved by `git -c core.longpaths=true ls-tree` and read by blob with `cat-file`; no long `ref:path` operation or checkout reset was used. Historical source relations and exact old bytes were read directly by their authenticated Git identities. Git object identity is not itself a claim of full semantic transfer.
+
+| Document actually examined | Identity / actual body version | Coverage |
+|---|---|---|
+| Deleted `DDS_STAGE_A_GATE_BASED_SPECIFICATION_TEST_PROFILE_v0.1_DRAFT.md` | Blob `4a786e778bf16a286c1abe7dccf502804c90c20b`; 22,330 bytes; deletion commit `028fd664821c8797621f4d27abf27b86c564af29`; SHA-256 `cce31bc4ff46c59441a4fa9ca1d289541cce2463471e11ec305ca124686f6414`; body v0.1 draft | Full original, all §§1–17, including gates G-A01–14 and closing promotion rule |
+| Current `DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.1_DRAFT.md` | Blob `55b052da6450592bb6cf02174daaf6fa10c82404`; body v0.1 draft, 8 October | Full; §§1–4 are the whole document |
+| Historical 01K immediately before `9f397df86fb66217937fbf08b3c99e0f46bc60a6` | Blob `45e5dec20b09d19be6c574ab3d3e0af410e3d5c7`; SHA-256 `a53dec3665b96702bb72d8f9e225e6584ac2a1bcf1ca25ffb1a85ae84f3149f7`; body v0.1, 6 October | Full §§1–13; historical comparison source, not restored authority |
+| Current `01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md` | Blob `e52ed065c5d217da73634c7eb28d26c5d990abae`; 45,945 bytes; filename v0.1 but body **v0.2**, 6 October | Full §§1–32, Parts I–VIII, Annexes A–D and header |
+| Current `01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md` | Blob `20b7c8e0bea79edc237e695924a2a657713d412c`; 48,994 bytes; body v0.1 plus terminology revision 1 and identity clarification0.1.1 | Full header, identity section, §§0–17 including 2A/2B/2C and 7A |
+| Current `UC-EA-03_v0.5_WORKING_SUCCESSOR.md` | Blob `982a738acedabbd9ea967e63ed3321216a59434f`; 26,437 bytes; 12 October approved successor #22/#23, inherited title/body still v0.4 Maintenance Freeze | Full working successor; predecessor itself was **not** fully read in this delegated pass |
+| HF `DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md` | Blob `89c227175a17338b09d50d513b01195975bff1ae`; 16,189 bytes | Full §§1–13; scope-specific recipient |
+| HF `DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json` | Blob `de603f7f52f06291971ec0c6bfcb5377a1b143a1`; 8,521 bytes | Full; read only, not executed |
+| `DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md` | Blob `b2a7ba7e56599d523b997f5480cd1db8269849af`; 4,381 bytes | Full §§1–5 |
+| Diagnostic v0.2 audit candidate | Blob `dacce9580af70cf883ff0a6b36c68850fd08390a` | Partial: §4.2 and full new §5; no claim of full v0.2 audit |
+| A01 semantic vectors v0.1 | Blob `b79253493ab1bd2da020a9af3d7a00257fec51f9` | Full twelve authored vectors, read only |
+| A01 verification record v0.1 | Blob `a7b92744291f58d27e1dee84dccf0f828c33589d` | Full §§1–11; claims checked as statements, no reproduction |
+| A01 schema v0.1 | Blob `8d6850cff955175bf4226fd101f3567bba07c487`; 26,696 bytes | Partial: input prefix through snapshot reviewer declaration, selected timing/proof/output constraints; no schema execution |
+| DDS canonical Stage A and Method Index | Blobs `e636346c46c49cb81ecc7f84ec9c792e9729cc95`, `88b78f386047a76e0e2da905bd951ada06e5602b` | Partial: relevant headings, method/claim/traceability/blindness/navigation passages; not complete method-source reviews |
+| EHD/general interfaces v0.5 | Blob `30e492c671efed802f7b881ed67e9f4dcd4bb079` | Partial: human-capacity, IF-S6/12, F6 and receiver/horizon passages; full route closure remains pending |
+| Flores `technical/EHD_04_05A_MAPPING.md` | Blob `f1796320ba9dd838d08edda841842f441eaebcf6` | Full six sections and current historical/support banner; no HC scheduler in this mapping |
+| Existing 01K/DDS VNext and damage-control plan | Blobs `e776fb43894c788403629e3e5ea8beb450686459`, `ec39010b1ec2d013ad4f7a6234adcbcad543e4aa`; the published damage-control plan in DDS VNext | Partial: CP-01, superseded64/67, deleted-draft custody, DC-05/06 and rejection/acceptance passages |
+
+The four primary requested documents and one current consumer are fully read. The whole historical corpus, all EHD/Signalling/Operation consumers, all method sources, all alternate HF records, binaries and real runtime implementations are not fully reviewed here. A missing recipient below means **not established in examined recipients**, not a repository-wide nonexistence result.
+
+## 3. Deleted gate draft: exact clause-to-recipient crosswalk
+
+Quotes in this section are literal passages from the named authenticated Git blobs. A gate row is an obligation comparison, not a gate-number translation. Current recipient questions are specification-test questions; they do not by themselves certify conformance of EA, any vendor, or the test instrument.
+
+### G-A01 — decision / scope binding → SA-G00, with partial temporal reception in SA-G07/09
+
+Old §5:
+
+> **Property:** the specification binds each material decision to an explicit subject, scope, owner/principal or declared decision domain, rather than allowing the newest context to silently redefine the decision.
+
+Current diagnostic §3, SA-G00:
+
+> Are the decision, action/alternative, affected resource/domain, current task/mission, owner and null/fallback boundary explicit enough to adjudicate?
+
+SA-G07:
+
+> Does material change in facts, scope, role, purpose, authority or dependency trigger bounded requalification rather than stale reuse?
+
+Disposition: scope/owner binding received; newest-context replacement is not literal in G00 but is tested through requalification and objective integrity. No one-to-one rename. Risk: a reviewer considering only G00 could overlook illegitimate recency-driven rebinding. Keep this old failure rationale in existing DDS VNext; no active edit supported solely by that difference.
+
+### G-A02 — authority provenance, applicability and domain → SA-G03/04/05
+
+Old:
+
+> **Property:** authority must identify origin, subject, purpose/action, scope/domain, standing and applicability. Authority over one participant or mission must not silently become authority over a different resource/domain.
+
+Current SA-G03:
+
+> Does the candidate distinguish self-asserted identity, authenticated message/key, represented role/principal and independently established trust/delegation root?
+
+SA-G04:
+
+> Is authority evaluated for the concrete action/resource/purpose at the relevant commitment/action time, including expiry/revocation/current applicability?
+
+SA-G05:
+
+> Can evidence, authority, approval, population convergence or a grant from one owner/domain silently substitute for another owner/domain?
+
+HF preregistration §7 F-A:
+
+> The evaluation principal validly changes the mission toward HF-related work, but the third-party/resource owner does not authorize the concrete external action (or explicitly denies it).
+
+Disposition: split reception is strong; standing/origin is represented via root/authority fields but not literally named in G04. HF F-A supplies an actual cross-principal falsifier for that frozen case. It is not generic execution evidence. No obsolete authority-amplification shortcut may return.
+
+### G-A03 — identity / representation grounding → SA-G03, HF F-C/BR-07
+
+Old:
+
+> **Property:** the specification distinguishes asserted identity, authenticated identity, represented principal/role and current representation relationship. Self-description or behavioural similarity cannot establish the required identity/authority relation.
+
+Current SA-G03 is quoted above. HF §7 F-C:
+
+> A coordination message is cryptographically signed and internally consistent, but the signer/handle/key binding was initially self-asserted and has no independently established principal/role/delegation root.
+
+Disposition: asserted/authenticated/principal/root distinctions received; **current representation relationship** is distributed to G04 applicability; **behavioural similarity** is not express in the current G03 question. Do not claim that one root check preserves all relationship/timing/behavioural predicates. Historical failure example remains useful review custody. The old dependency making identity unadjudicable without G-A01 should not return; current §4 states SA-G03 is independently adjudicable.
+
+### G-A04 — material-change discrimination and observation → SA-G01/07, HF Q1/BR-05/BR-11
+
+Old:
+
+> **Property:** the specification requires a declared observation/coverage boundary and distinguishes material decision-basis change from ordinary variation inside that boundary.
+
+Current SA-G01:
+
+> Does the candidate declare what can be known/observed, from which sources, at what time/freshness, and where indistinguishability remains?
+
+SA-G07 is quoted under A01. HF §6 Q1:
+
+> Does the candidate distinguish a material change inside the declared observation boundary from ordinary variation?
+
+Disposition: boundary/requalification split in generic diagnostic; ordinary-variation discrimination is explicit in the HF recipient, with BR-11 neutral noise control. No inference of universal detection. A generic cross-framework campaign must freeze its own ordinary-variation control; the HF case does not travel automatically.
+
+### G-A05 — evidence-to-decision qualification → SA-G00/02/06/14 and HF §5/Q2
+
+Old:
+
+> **Property:** evidence is tied to the proposition/decision it actually supports, with sufficiency/insufficiency/inconclusive state explicit.
+
+Current SA-G02:
+
+> Are evidence source, provenance and the distinction among intent/command/action/effect sufficiently preserved to avoid self-report becoming outcome truth?
+
+Current SA-G06:
+
+> Is UNKNOWN/conflict/insufficiency preserved without silently becoming permission, success or a universal veto?
+
+Current SA-G14:
+
+> Can an independent reviewer reconstruct the material basis, unresolved facts, source/owner boundaries and resulting disposition without private chain-of-thought?
+
+HF §5 PASS condition:
+
+> those clauses determine a reviewable decision-level disposition or qualification that is compatible with the evaluator facts;
+
+Disposition: partial distributed reception. Provenance, UNKNOWN and reconstruction do not alone enforce **which proposition** an item supports; scope/decision binding and HF's actual disposition criterion help. Technical feasibility→permission is concretely tested by HF BR-04/M-04. Generic evidence-to-proposition entailment cannot be declared fully transferred by shared words. Pending campaign-level scope/claim mapping; no active spec edit from this review.
+
+### G-A06 — UNKNOWN preservation → SA-G06
+
+Old:
+
+> **Property:** missing, stale, conflicting or unavailable qualification remains explicit and cannot silently become permission.
+
+Current SA-G06 is quoted above. SA-G01/08 qualify stale/time causes.
+
+Disposition: received and strengthened against success/default veto. Current UNKNOWN gate is independently adjudicable; restoring old hard dependency on evidence-to-decision would unnecessarily block direct testing of UNKNOWN semantics. UNKNOWN is a legitimate result; no PASS or FAIL by convenience.
+
+### G-A07 — non-substitution / correlated convergence → SA-G05, HF Q2 and ABL-04
+
+Old:
+
+> **Property:** repeated, imitated, correlated or population-level agreement cannot silently substitute for an independently required authority, policy or evidence dimension.
+
+Current SA-G05 is quoted under A02. HF Q2:
+
+> Can technical success, repeated peer claims, correlation or population convergence silently become authority/policy truth?
+
+HF §9 ABL-04 removes:
+
+> non-substitution/conflict/correlated-convergence language
+
+Disposition: owner/domain non-substitution received generically; repeated/imitated/correlated dependence is materially more specific than G05's population convergence question. HF preserves repeated/correlated distinctions in its own scope. Generic correlation/independence tests remain a campaign obligation, not established by the gate name.
+
+### G-A08 — objective / policy / hard limits → SA-G09, supported by G04/05
+
+Old:
+
+> **Property:** a new objective, scorer utility, peer utility or lower-priority preference cannot silently overwrite a principal-owned hard limit or declared mission boundary.
+
+Current SA-G09:
+
+> Can scorer utility, local reward, collective benefit, peer pressure or another objective silently displace a known mandate/hard boundary?
+
+Disposition: substantively received. HF Q9 allows NOT_ESTABLISHED when qualification does not own execution/compliance. Do not convert a represented hard limit into proof the participant will obey it. Current SA-G13 newly makes that owner explicit.
+
+### G-A09 — temporal validity/default → SA-G04/08
+
+Old:
+
+> **Property:** previously valid authority/policy is rechecked where material at commitment/action time; expiry/revocation is respected; silence, delay or timeout is not permission unless explicitly defined as an authorized response.
+
+Current SA-G04 is quoted under A02. SA-G08:
+
+> Are response horizons finite and are silence, delay, timeout, stale approval or expiry handled without creating permission by default?
+
+Disposition: authority-currentness and finite default semantics received; generic G08 wording lacks the old explicit exception for an independently authorized silence/default response. HF B-C addresses the no-grant case only. This is a scope-sensitive nuance, not permission to recreate arbitrary no-veto consent. A legitimate profile must declare the external rule if such a response is admitted. No unconditional source insertion supported.
+
+### G-A10 — non-rewrite/repair → SA-G10, with owner reconstruction G14
+
+Old:
+
+> **Property:** later behaviour, intervention or repair cannot retroactively rewrite the identity, authority, policy or evidence that applied at the earlier decision.
+
+Current SA-G10:
+
+> Can later behavior/effect, repeated success or repaired state rewrite whether the earlier action was authorized/conforming?
+
+Disposition: historical legitimacy preserved; current question is narrower than an explicit immutable identity/policy/evidence history. G14 reconstruction and HF BR-13/M-09 strengthen it for their own facts. Repair must remain a new state/version, not rewritten history. The identity/evidence histories should remain in custody even when current authority is repaired.
+
+### G-A11 — affected-scope bounded disposition → SA-G06/11/12
+
+Old:
+
+> **Property:** the specification can distinguish the affected transition from unaffected legitimate operation; unresolved state is neither automatic global permission nor automatic global veto.
+
+Current SA-G11:
+
+> Does the candidate define the smallest reviewable hold/requalification/continuation boundary rather than all-or-nothing control?
+
+Current SA-G12:
+
+> When all relevant conditions are established, can legitimate work continue/change without a blanket default-deny solution winning the test?
+
+Disposition: received across boundedness, unresolved semantics and positive control. HF BR-10 plus deny-all M-01 supplies unaffected legitimate work. The current split is helpful, not evidence of lost taxonomy. It does not establish runtime partial containment cost/safety.
+
+### G-A12 — authorized positive transition → SA-G12, G04/07 and valid-continuity claim
+
+Old:
+
+> **Property:** when the relevant change and required authority are genuinely established, the specification permits a legitimate transition instead of freezing the old state forever.
+
+Current G12 quoted above; §4 claim:
+
+```text
+CLAIM-VALID-CONTINUITY
+  requires SA-G04 + SA-G06 + SA-G12
+```
+
+Disposition: received but claim dependencies now typed rather than old unconditional gate chains. HF BR-02 supplies current principal and resource grants; BR-15 existing public task is another positive. Positive test credit must be real, not an aggregate negative-case count.
+
+### G-A13 — finite useful horizon → SA-G08/11, HF Q8/ABL-09
+
+Old:
+
+> **Property:** the specification requires a bounded evidence/review/decision process relative to a useful response horizon and declares what happens when sufficiency cannot be reached in time.
+
+Current G08 and G11 quoted above. HF Q8:
+
+> Is review finite and does timeout/default itself remain a qualified response?
+
+Disposition: finite/default/boundedness received; exact expiry fallback is profile-specific and cannot be invented by taxonomy. ABL-09 retains finite horizon/capacity/fallback discipline. Necessary response timing is not sufficient actuation/effect evidence.
+
+### G-A14 — evidence/trace trust boundary → SA-G02/03/14, HF F-B/F-C
+
+Old:
+
+> **Property:** the specification states when a self-produced trace, log, identity claim or result is insufficient as sole evidence and what qualification/independence is required for a material decision.
+
+Old stage boundary:
+
+> **Stage boundary:** Stage A can require the trust boundary and owner/interface. Stage B must verify how an architecture realizes independent observation or trusted evidence.
+
+Current G02/03/14 quoted above. HF F-B:
+
+> The participant's own trace claims an action was blocked or had no external effect, while an independently supplied evaluator fact records the contrary external effect. The case asks what evidence can support the decision/outcome claim.
+
+Disposition: strong split reception of self-report/effect, trust root and reviewer reconstruction. **A reconstructable self-report is still a self-report.** G14 alone does not preserve independence or demonstrate external effect. HF M-07 is a frozen particular mutant; actual independent observation still belongs to Stage B/C and the chosen evidence contract.
+
+### Reverse check: every current gate receives a disposition
+
+| Current gate | Old source contribution | What current source adds / limits |
+|---|---|---|
+| SA-G00 | A01; decision-relative portions of A02/05/11/13 | Explicit null/fallback boundary |
+| SA-G01 | A04, stale qualification A06, horizon A13 | Freshness/source/indistinguishability is separate |
+| SA-G02 | A05/14, evidence portions A10 | Intent/command/action/effect distinctions |
+| SA-G03 | A03/14, origin/root of A02 | Independently adjudicable; scope is not a mandatory prerequisite |
+| SA-G04 | A02/09/12 | Action-time currentness separate from identity-root facts |
+| SA-G05 | A02/07 | Domain/principal substitution; correlated repeated-source tests require their own case |
+| SA-G06 | A06/11 and insufficiency A05 | Universal-veto and success laundering explicitly excluded |
+| SA-G07 | A04/09/12 and rebinding A01 | Changed role/purpose/dependency; bounded requalification |
+| SA-G08 | A09/13 | Finite horizons and default discipline |
+| SA-G09 | A08 and policy portions A01/07 | Known mandate versus conscious displacement |
+| SA-G10 | A10/14 | Earlier authorized/conforming state protected |
+| SA-G11 | A11/13 | Smallest reviewable disposition |
+| SA-G12 | A11/12 | Positive continuation defeats deny-all |
+| SA-G13 | Old §14 deferral; no standalone old A gate | **New explicit execution/compliance owner declaration**, including external owner |
+| SA-G14 | A14/05/10 | Reconstructability without private chain-of-thought; not independence by itself |
+
+Fourteen old versus fifteen current entries has no evidentiary force. A13 did not simply become G13; old A13 maps to time/boundedness, while current G13 is execution ownership.
+
+## 4. All seventeen deleted sections: disposition and actual recipient duties
+
+| Old section | Disposition after source comparison | Receiving source / remaining obligation |
+|---|---|---|
+| 1 Design objective | Partially received | Diagnostic §1 owns diagnostic output; old instrument ownership of activation/mutation/aggregation is not all stated there. |
+| 2 Profile output | Adapted | Diagnostic §§1–2; evidence anchors/cases/mutant sensitivity are not all in its prose. HF has scoped matrix/mutation inputs; v0.2 §5 requires result table. |
+| 3 Levels | Substantively adapted | Diagnostic §2.2 levels L0–L4; level is not maturity/architecture. Preserve definitions, not merely labels. |
+| 4 Verdicts | **Partly superseded deliberately** | Current §2.1 absence ⇒ NOT_ESTABLISHED unless explicit contrary closure; current NA is preregistered case applicability, not old external-owner OOS automatic exclusion. |
+| 5 Catalogue | Split/partial reception | Clause-level matrix above; particular behavioural/correlation/history nuances need declared cases. |
+| 6 Dependencies | **Superseded by typed current graph** | Current §4 `requires`/`claim_requires`/`supports`; independent G01/02/03/06. Old hard dependencies must not be reintroduced wholesale. |
+| 7 PASSES_IF | **Superseded in implication strength** | Current §2.3 potentially unlocking, v0.2 §5.3 must re-freeze/re-adjudicate. No promised automatic PASS. |
+| 8 Model-based freeze | Partially relocated | HF §§1/6/7/9/12 freezes actual requirement inputs, cases, rules and mutants. Diagnostic v0.2 §5.2 freezes gates/minimums/test role/claims. No verified generic ten-item instrument freeze in v0.1 itself. |
+| 9 Mutation testing | HF-specific recipient, generic unresolved | HF §9/10 and mutation JSON have nine requirement ablations plus ten mutants/kill cases. Not a generic 13-mutant A-gate portability campaign. |
+| 10 Blind-review protocol | HF-specific recipient; exposure audit open | HF §11 neutral packet and prior-exposure exclusion. Canonical Stage A §3.1 is evaluated-technology/private-world blindness, a different boundary. No generic three-state exposure ledger shown in v0.1. |
+| 11 Disagreement | HF-specific recipient, generic unresolved | HF §11 unresolved disagreement blocks PASS until third adjudicator or successor. Generic gate-level same-verdict/different-evidence and scope-reading ledger not established in examined v0.1. |
+| 12 Recommendation graph | Adapted with correction | Current §1/2.3 and v0.2 §5.3 potentially unlock; minimum closure set/maximal unlock is not documented fully in v0.1. Do not restore guarantee. |
+| 13 Claim profiles | Adapted | Current §4 named claims; v0.2 required_for_profile/minimum levels. Old illustrative A/B/C profile subsets are historical examples, not compulsory current subsets. |
+| 14 A/B boundary | Received with new ownership gate | Current introduction, levels and runtime-enforceability claim defer actual realization to Stage B. HF §§2/10/13 retain qualification/architecture/execution boundary. |
+| 15 Report | Partial scoped reception | v0.2 §5 primary gate table; HF matrix/JSON support scope and mutations. Generic full report with mutation, dispute, exclusion and Stage-B deferred ledgers is not established by v0.1. |
+| 16 Design falsifiers | Some portability questions received; not all closed | Validation plan §3 asks redundancy/falsifiability/local applicability. Independent failure, near-universal activation, different-spec discrimination and transfer are still empirical/instrument obligations. |
+| 17 Promotion | Partially relocated; **not satisfied** | Validation plan §§2/4/5 preserves three families and versioned catalog changes. Independent review/mutation performance/reconciliation and exact new-authority promotion remain separate gates. |
+
+### Substantial old campaign/report obligations that must remain visible
+
+Deleted §8.1 freezes:
+
+> 1. specification artefact + hash;
+> 2. claimed scope/profile;
+> 3. gate catalogue + hash;
+> 4. dependency graph + hash;
+> 5. verdict/level definitions;
+> 6. case/fixture set;
+> 7. case-to-gate activation matrix;
+> 8. external facts deliberately supplied by the evaluator;
+> 9. mutation/ablation set; and
+> 10. amendment/stopping rule.
+
+Current v0.2 §5.2, examined recipient:
+
+> Before a reader sees candidate outcomes, freeze:
+>
+> - Challenge/fixture and candidate refs;
+> - gate applicability and `required_for_profile`;
+> - minimum level per required gate;
+> - test role per exercised gate;
+> - case IDs and fail-capable case IDs;
+> - evaluator facts used to suppress conditional dependencies;
+> - required named claims;
+> - acceptance wording and evidence ceiling.
+
+The lists overlap but are not identical. Gate/dependency hashes, amendment/stopping and the mutation set must be found in the actual instrument manifest/run contract before a generic preservation/admission claim. Presence of case IDs is not a complete activation matrix.
+
+Deleted §9:
+
+> A useful Stage A test instrument should fail the intended mutants at the intended gates and preserve conforming reference specifications.
+>
+> Failure to reject the relevant mutant is itself evidence that the gate definition/test is weak.
+
+HF mutation JSON:
+
+> "status": "PREREGISTERED_NOT_EXECUTED"
+
+and:
+
+> "mutant_kill_rule": "Every M-01…M-10 mutant must receive FAIL on at least one registered kill case, or the mutation harness is not sensitive enough for Stage A acceptance."
+
+This is a genuine scoped obligation. It is not evidence that the mutants were run, nor that every generic SA gate can independently fail. HF BR-05 and BR-17 are honest boundaries; Q9 may remain NOT_ESTABLISHED. Preserve those adverse limits alongside successes.
+
+Deleted §10:
+
+> The reviewer does **not** receive:
+>
+> - author gate verdicts;
+> - author requirement-to-case mapping;
+> - expected mutant failures;
+> - architecture-plausibility annexes;
+> - prior adjudication results.
+
+HF §11:
+
+> A reviewer with prior exposure to the adjudications cannot qualify as blind; they may provide an independent non-blind review only.
+
+This delegated reviewer is exposed and same-model. A new task identity is not a blind or external-independent identity.
+
+Deleted §11:
+
+> - same verdict, different clause/evidence → retain verdict and record evidence disagreement;
+> - PASS vs NOT_ESTABLISHED → gate status becomes `REVIEW_DISPUTED`; claim ceiling cannot exceed NOT_ESTABLISHED until resolved by a predeclared adjudicator/rule;
+> - PASS vs FAIL or FAIL vs NOT_ESTABLISHED → `REVIEW_DISPUTED`; no acceptance credit;
+> - scope disagreement → freeze both scope readings and either narrow the claim or invoke the predeclared scope adjudicator.
+
+HF §11:
+
+> 2. record `DISAGREEMENT_UNRESOLVED` for the affected case;
+> 3. no Stage A acceptance claim may use that case as PASS;
+> 4. resolution requires either a third independent adjudicator or a successor specification/scope version;
+> 5. any changed wording or case interpretation produces a successor preregistration version.
+
+A case-level disagreement rule is a real recipient, but not an exact generic gate/evidence/scope ledger replacement. No post-hoc author preference can erase unresolved differences.
+
+Deleted §15 report additions:
+
+> - mutation matrix;
+> - reviewer disagreement ledger;
+> - out-of-scope ledger;
+> - minimal closure recommendations;
+> - Stage-B deferred questions;
+> - complete source/hash freeze.
+
+Diagnostic v0.1 contains no equivalent full report schema. v0.2 says the table remains primary; a table is not all these ledgers. Existing JSON/template/manifest may be recipients, but they were not fully audited in this pass. **Pending**, not presumed loss or completed transfer.
+
+Deleted §17 promotion:
+
+> 1. freeze the gate catalogue and dependency graph;
+> 2. test it against at least two scenario families not used to derive every gate;
+> 3. run specification mutants;
+> 4. obtain independent review of gate independence and verdict semantics;
+> 5. compare with the current DDS Stage A method and reconcile any contradiction;
+> 6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.
+
+Current validation-plan status:
+
+> initial maintainer-side structural portability run completed; independent/candidate result validation still open.
+
+Three named families are a plan/structural portability basis, not automatically two independent out-of-design families with mutation and external acceptance. HF is explicitly low-independence because it informed the design. Current validation plan correctly says it cannot validate completeness/generalization alone.
+
+### Obsolete source errors that should not return
+
+- Deleted §4 says property absent below level is FAIL, while NOT_ESTABLISHED admits missing semantics. Current diagnostic/HF resolve that tension through explicit contradictory/forced closure versus unestablished scope. Historical custody must retain the old wording without reinstating its ambiguity.
+- Deleted §6 forces identity to require scope, UNKNOWN to require evidence qualification, boundedness to require UNKNOWN. Current independent gates plus named claims avoid false blocks. Preserve old reasoning, use current typed dependencies.
+- Deleted §7 `PASSES_IF` and §12 “claim that becomes available after closure” can read as guaranteed upgrade. Current “potentially unlocking” and refreeze/adjudication are safer semantics. Do not back-port a guarantee.
+- Old OUT_OF_SCOPE requiring an external owner and current preregistered NOT_APPLICABLE are different. External execution ownership can be applicable and return NOT_ESTABLISHED; a hard gate cannot be deleted after a difficult verdict by claiming NA.
+- Stage A test sensitivity is not Stage B detector/actuator realization, and neither proves historical incident prevention. A no-deny-all control is necessary but does not establish useful operation under all real conditions.
+
+## 5. Current diagnostic v0.1: every section disposition
+
+| Section | Review disposition | Consequence |
+|---|---|---|
+| Header/relationship | Retain | Draft diagnostic layer, no adopted standard or Stage A acceptance; scenarios are fixtures rather than taxonomy owners. |
+| §1 | Retain with reporting completeness pending | Six diagnostic questions are sound; “what capability Stage B needs” cannot be credited as that capability already existing. |
+| §2.1 | Retain, supersedes old absence-as-FAIL | NA must be preregistered; fails claimed contradictory closure and blanket positive-control denial. |
+| §2.2 | Retain | L4 test-readiness is not maturity or realization. A gate's theoretical ability to fail must be demonstrated in a declared case. |
+| §2.3 | Retain | Own/effective verdict and stronger claims separated; supports cannot block; prerequisite repair only potentially unlocks. |
+| §2.4 | Retain | DISCRIMINATING/COVERAGE_CONTROL/BOUNDARY_CONTROL are materially different; do not relabel tautology as falsifier. |
+| §3 | Retain with clause-level caveats | All fifteen gate questions mapped above; correlation, proposition relation and history breadth need particular case contracts. |
+| §4.1 | Retain as current graph | Added/removed typed edges need prospective rationale/versioning; old dependency restoration is unsupported. |
+| §4.2 | Retain | Authority gate may PASS while authority-resolved claim remains conditional; evaluator facts must really be frozen. |
+| Absent §§5–17 | Not a missing-page accusation | This v0.1 ends at §4. Campaign/report/review duties reside elsewhere or remain pending; the audit must name them. |
+
+Applicability: current diagnostic instrument design and prospective generic runs. Impact High for acceptance claims, risk High if old semantics are bulk-restored, effort High for true multi-family instrument admission; document-only crosswalk has lower immediate operational risk. **No active diagnostic edit proposed.** Complete manifest/template/checker/adjudication review remains a separate accepted-scope duty.
+
+## 10. Critique of prior audit/plan conclusions
+
+- The deletion commit's “duplicate” message is not a correct semantic description of the old 22,330-byte draft versus current diagnostic. The prior literal audit correctly recovered full custody and refused byte identity; that result stands. Custody has now been followed by the clause-level distinctions above, but active generic transfer/admission remains partial.
+- The earlier audit's five retained formulas finding is correct as a literal metric-family observation. It is insufficient to establish correct denominator, counterfactual admissibility, instrumentation or empirical claims. Current A01's HICR_time wording is a measurement-specific refinement, not proof of canonical paper equation equivalence under every scope.
+- CP-01 correctly finds the missing human-work line and expressly disclaims implementation failure. Its proposed wording/acceptance “exactly add former condition” nonetheless privileges literal restoration before meaning is fixed. DC-06 improves this by allowing cross-reference/no-edit and acknowledging existing scheduling semantics. This pass supplies a concrete cross-reference alternative and unresolved timing/proof questions; no option can yet claim all-consumer equivalence.
+- DC-05 correctly demands all fourteen old entries/all seventeen sections and refuses number mapping. Its acceptance cannot be met by the current diagnostic alone or by HF's narrower contract. Independent instrument review still needs the complete chosen manifest/templates/checker/neutral packet and actual run evidence. This pass is a document/contract audit, not that run.
+- The current verification record candidly retains runtime engineering, real human calibration, HID empirical and independent review as open. Its “coherent enough” conclusion is consistent with prototyping, but should be read with A01-01/02/03/04/06 above; dimensional consistency and authored vectors do not close these contracts.
+- Existing higher-level plans correctly retain negative findings, no automatic GO and current source ownership. The remaining risk is **declaring preparation complete because the backlog is detailed**. A detailed pending obligation is still pending. This delegated pass closes full-reading/clause-crosswalk work for the named primary sources, not every recipient or scientific gate.
+
+
+</details>
+
+
+### Second-pass candidate95 — case namespaces in DDS
+
+Source: [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) · Git blob `e636346c46c49cb81ecc7f84ec9c792e9729cc95`. Location: 10A Namespace safety — complete opening paragraph. Current old text appears exactly once.
+
+**Text before — complete current passage:**
+
+```markdown
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.
+```
+
+**Text after — complete proposed passage:**
+
+```markdown
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs. In UC-21, R0/R1/R2 name implementation routes, HC/HR/HS select claims, and A–D name causal trial conditions. S3’s robot actors R1/R2 and S6’s original rights record R0 belong to different local namespaces. S1’s I1/I2/O1/O2 failure-position codes are distinct from AWS configuration names. Use the case conventions and the source profile together before mapping these labels into DDS.
+```
+
+Reason: Gives the reader the specific case collisions that generic namespace guidance leaves implicit, including R0 as rights record versus comparison route.
+
+Expected impact **Medium**; risk **Low** — Reader-only clarification of existing labels; no renumbering, trace/schema/fixture mutation or HR/HC acceptance change. Effort **Low** — Verify caseConventions/H§13/S6 identifiers and one literal insertion location; exact source/output/link/readback checks.
+
+Dependencies: CONVENTIONS routes and labels; HYPOTHESES§13; S6/current00J R0 rights namespace; existing10A examples. Decision: Ivan approves candidate95 exact paragraph; this clarity addition does not close the case run/HR bridge. **Prepared, not applied.**
+
+
+<details>
+<summary>Current review-space queue — all72 existing non-archive paths</summary>
+
+This is a reading/ownership queue, not72 completed articles. Every source/part/version must be mapped before a conclusion is counted. Seven paired paths retain all unique history under one logical comparison; no deletion/consolidation is performed here.
+
+| Existing review path at the cut | Second-pass assignment / actual scope |
+|---|---|
+| [architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [architectural-contributions/ecosystem-positioning/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/architectural-contributions/ecosystem-positioning/README_VNext.md) | Coordinates corpus/plan; article/source damage reconciliation remains waiting. |
+| [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) | Hosts returned case/gate source judgements and their receiver limits. Complete DDS Stage-A body and other stages remain waiting. |
+| [research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00M_A01_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00M_A01_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00M_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00M_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00N_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00N_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/01B_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01B_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/01C_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01C_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/01D_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01D_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/01H_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01H_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/01I_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01I_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/01J_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01J_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) | Complete source/section judgement returned; remaining consumer adjudication pending. |
+| [research/ecosystem-awareness/baseline/01K_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01K_VNext.md) | Complete source/section judgement returned; remaining consumer adjudication pending. |
+| [research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/README_VNext.md) | Receives case source/routing consequences. README itself and unassigned source units remain waiting. |
+| [research/ecosystem-awareness/baseline/UC-EA-03_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md) | Working successor fully read; frozen predecessor and full adapter comparison pending. |
+| [research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md) | Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md) | Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md) | Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md) | Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md) | Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md) | Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md) | Known former/current pair with `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md`; joint source/unique-history mapping pending, no separate independent audit counted. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [research/regime-awareness/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/regime-awareness/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [standards/minimum-sufficient-control/01_ACC_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/standards/minimum-sufficient-control/01_ACC_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [standards/minimum-sufficient-control/02_ROLE_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/standards/minimum-sufficient-control/02_ROLE_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [standards/minimum-sufficient-control/03_COMPOSITION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [standards/minimum-sufficient-control/04_OPERATION_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/standards/minimum-sufficient-control/04_OPERATION_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+| [standards/minimum-sufficient-control/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/standards/minimum-sufficient-control/README_VNext.md) | Waiting — actual owning source, its complete versions/parts and material receivers to be assigned serially. |
+
+</details>
+
+<details>
+<summary>All2,346 current paths — accountability by source area</summary>
+
+| Area | Physical paths at fixed cut | Second-pass coverage meaning |
+|---|---:|---|
+| Root and tooling | 29 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Ecosystem Positioning / architectural contributions | 36 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Governance / review / historical custody | 382 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Baseline fixtures / artifact contracts | 324 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Baseline reductions / extensions / oracles | 835 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Presentation binary editions | 8 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| DDS / EA entry / research supports | 44 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Baseline source profiles and support | 321 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Baseline traversal evidence | 147 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Campaigns in development | 138 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| FG-TIDA research interfaces / cases | 27 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Regime Awareness | 6 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Other research source / support | 3 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| MSCA / standards | 19 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+| Submission editions | 27 | Full manifest accountability; source/artifact/custody role and material second reading pending unless specifically recorded. |
+
+The fixed Git tree provides every path/blob. The previous public620-path and162-version tables remain the detailed comparison queues. Code/data/support snapshots are attached to their actual logical units, not given new VNext or declared reviewed by these counts.
+
+</details>
+
+
+<details>
+<summary>Seven existing former/current review pairs — measured source differences</summary>
+
+Each pair is one logical source relationship. Their audit histories remain physically preserved and the current owner still needs confirmation through actual routing. Source equality is checked directly; six current source editions differ in declared DDS terminology/navigation from their former counterparts, rather than being silently treated as identical. This is a coordinator precheck, not a fourth independent reviewer.
+
+| Former source / blob | Current source / blob | Exact source comparison |
+|---|---|---|
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION.md` · `c61c810ec255ee78415caead8fadeec87ffe20a3` | `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION.md` · `c61c810ec255ee78415caead8fadeec87ffe20a3` | Whole source byte-identical. |
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md` · `b53cc318875b849475d26452aaa8fe2d089ce748` | `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md` · `71dec1fde183252490a421bf3e4ff81eda8e49e9` | Complete source changes consist of 2 line-diff operations; retain old/current wording and current namespace/authority. |
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION.md` · `9ae7a0ba305b2594c7ab8226d371e4ed90360e40` | `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION.md` · `3a690896f96e4b48ac752ded88ef1b3397123324` | Complete source changes consist of 2 line-diff operations; retain old/current wording and current namespace/authority. |
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION.md` · `9bfef1ef5fb3a1b09b173e136e05bb7fdd7677cc` | `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION.md` · `ca8f1e8609f52bfa43835d657756a6094dbb838f` | Complete source changes consist of 2 line-diff operations; retain old/current wording and current namespace/authority. |
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION.md` · `5574832dcc15f6db8910497d21e3f3c5de3e1db5` | `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION.md` · `7155fa579bade79d9e27757ed0f7755dfbc66e96` | Complete source changes consist of 2 line-diff operations; retain old/current wording and current namespace/authority. |
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md` · `f6c33a3fbf76a1cda2705bd1395953a14547611e` | `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md` · `ba43b0ec31ca31114cdd515040c543c9d4dc099d` | Complete source changes consist of 2 line-diff operations; retain old/current wording and current namespace/authority. |
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md` · `fc0caf071937a0bf1426fb320f776ee2cf1ff5e5` | `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md` · `990872beae2f632515ee81a4dba36b16b8ad7f9c` | Complete source changes consist of 2 line-diff operations; retain old/current wording and current namespace/authority. |
+
+The raw current review blobs differ for all seven pairs. Do not erase unique review discussion or count replicas as independent findings. Active pending work uses one joint logical case; no aliases or sources are moved/deleted by this organization.
+
+</details>

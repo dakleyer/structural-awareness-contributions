@@ -453,3 +453,957 @@ Literal no-match counts are not lost-fact counts and do not prove preservation e
 The [detailed plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026) restores complete case/source custody and applicable current meaning without replaying superseded errors. It covers the162 distinct fork editions, all620 internally edited source paths/8,749 retired units and64 deleted-source events lacking a whole-blob receiver at the earlier cut. These are evidence queues, not proven loss counts or completed semantic reconciliations.
 
 Order: preserve exact editions; reconcile UC-21 objectives/H-R-Evidence/Conventions/run obligations; compare all six family/nine technology editions including full S6; retain figures and explicit fixture adapters; map old/current Stage-A clauses; reconcile HumanTime scheduling consumers; address binary/source-language/history and separate UC-20/support; then reprepare92's maintained route and91's actual official entry. Only the three existing canonical reading levels remain. Historical custody uses the existing boundary as a proposed destination, not a new active repository, README owner or VNext collection. Source adoption requires exact complete old/proposed passages or payloads and a named wave decision. No restoration is applied by this plan publication.
+
+
+## Second source-first review — S6, T09 and 00J, 14 October 2026
+
+Reviewer `/root/s6_semantic_forensics`, separate instance with inherited model; full primary sources and complete relevant chronological deltas. Global method and queue: [second damage pass](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026). This is a preservation/meaning judgement with defined limits; complete-source excerpts remain review evidence, not new active sources.
+
+## Verdict
+
+The S6 reduction replaced a complete 46,256-byte case edition with a 3,633-byte pointer. That is a demonstrated current-body reduction of 42,623 bytes, not a measured percentage of semantic loss. The complete current 00J retains the principal rights-provenance mechanism, all seven C0–C6 controls, all ten deterministic rules, both Type-2 and companion Type-1 failures, and all twelve S6 measure meanings. All **30 substantive gate cells are literal-identical** after removing the extra canonical-route column from 00J.
+
+The unresolved differences are the complete case edition and its neutral research framing, the route and measurement ownership bridge, the specific EUIPO citation, figure and link context, and the distinction between a successful conventional defence of a recurrence prediction and a finding about EA differentiation. Full submitted source custody and an explicit current-owner adapter are needed; whole-body restoration as a second canonical 00J is not justified by this comparison.
+
+The additional retired 00J author-pays alias is a different 32,554-byte edition. It contains distinct fixture particulars, an explicit human-approval control, metric denominators and a comparator ladder. Those need separate historical and semantic disposition. Their partial receipt does not establish loss of all S6.
+
+## Scope and source method
+
+Corpus cut: `ca2131e20e2629a0ef1e0398bb9bd274f407bf3e`. Case inventory cut: `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`. Submitted case: `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. S6 reduction: `32ffe48c908a14b60c33bd5fdaa2e3c3263e311a`.
+
+Six primary bodies were read completely as standalone documents: complete submitted S6, complete pointer S6, complete submitted/current T09, complete current 00J, complete current A01, and complete retired 00J alias. The 27 distinct relevant corpus editions were authenticated and compared through complete chronological diffs, using unchanged spans already read in complete current receivers. This covers shared bodies and every changed paragraph, but is not a claim of 27 separate monolithic rereads of repeated text. There are 30 distinct source objects when the three case editions are included.
+
+Current corpus blobs were resolved by `ls-tree` and read by `cat-file blob`. All 27 corpus objects match their recorded bytes, SHA-256 and Git blob SHA-1; the three case readbacks likewise match. No checkout or reset occurred. The specified authenticated cuts govern the findings; public main was not fetched again.
+
+Substantive verdicts were derived from original source bodies and complete current receivers before deliberately challenging previous audit and plan conclusions. This was not a blinded review: shared task/control/memory context and an incidental large JSON output were available. No earlier preservation verdict was accepted as proof. Memory was used only for local-custody orientation.
+
+The current recurrence protocol and Conventions were read completely. USE_CASE, Evidence, DDS VNext, baseline README VNext and the damage plan were read in the relevant receiving/audit passages; those broader documents were not all reread completely. Complete primary bodies are identified by authenticated Git source editions; the crucial source/receiver passages, chronological deltas and coverage limits are reproduced below. Unchanged full current source bodies are not duplicated as new audit results.
+
+## Findings and action risk
+
+### S6-01: complete edition custody remains open; principal content survives
+
+**Impact High; risk Medium; effort Medium.** Current S6 is a pointer, so it cannot be described as the full submitted edition. The submitted pinned fork body is authentic historical custody. Complete custody inside the owner's Contributions boundary remains outstanding. The full source includes neutral case interpretation, contextual references and a unique EUIPO citation that its pointer does not carry.
+
+The receiving document nevertheless retains all nine frozen negative-branch facts, C0–C6, the ten deterministic rules, every gate decision/evidence/exit/failure cell, both failure types and all twelve measure meanings. “The full source is not integrated” and “the main mechanism is preserved” are simultaneously supported conclusions.
+
+### S6-02: exact gate content does not settle acceptance ownership
+
+**Impact High; risk High if substituted wholesale; effort Medium.** Submitted S6 presents local case acceptance criteria and declared measures. Current 00J adds canonical S1–S14/T1–T4/H1–H6 routes and EA interpretation. The 6×5 gate-cell equality verifies the receiving content, not the adoption or validation of an architecture, an executed requirement, or the replacement of UC-21's selected objective.
+
+Public/synthetic/inference boundaries survive. The case's “do not retrospectively change gates” instruction is reformulated into the canonical Requirements-vNext route. The receiving research frame must be declared in the run contract; it must not be inferred from common Q0–Q5 labels.
+
+### S6-03: R0 namespaces and route obligations are preserved in different locations
+
+**Impact High; risk Medium; effort Low to Medium.** A prior summary suggesting that S6 lost the literal R0/R1/R2 ladder over-generalizes. Submitted S6 contains **18 R0 mentions, no R1 and no R2**. Current 00J contains **22 R0 mentions, no R1 and no R2**. These R0 values are original rights records. The actual changed passage is S6 implementation step 6, which says “ordinary, reinforced and frozen-reinforced-under-change configurations”; current 00J step 6 says “Route N and Route Q.”
+
+T09's lead explicitly invokes common R0/R1/R2. Current Conventions `f14cfee1b588d0814bb39288b40d715bbed826a2` maps H0/H1/H2 to the same three ordered configurations. The recurrence protocol and current case preserve corrected R1 before R2, the same registered receiving decision, retained safeguards/resources, and enabled generic discovery, policy loading and adaptation. H0/H1/H2 remain complete in T09/A01. There is no demonstrated disappearance of those obligations from the preserved case source.
+
+Keep the namespaces separate: R0 in A/W/R0 is a rights record; R0 in the implementation ladder is the ordinary configuration. Route N/Q are quality-plan traversals, not the three comparison routes. DDS A/B/C and evidence-maturity Stage-0/1/2 are separate axes. The active Contributions reading bridge needs the compiled case protocol and alias mapping without relying on unqualified implicit inheritance.
+
+### S6-04: twelve S6 measures remain; exact older-alias denominators are a different issue
+
+**Impact High; risk Medium; effort Medium.** Ten S6 metric definition rows are literal-identical to current 00J. Targeted re-entry changes from “the precision/recall definition in Annex Evidence” to “same canonical definition”; total burden is abbreviated canonically, with its full ledger still present in section 4. Current case Evidence E.5 explicitly retains precision/recall denominators, finite horizon, privacy, human capacity and the rule that zero denominator is not a perfect score.
+
+Thus the submitted S6 metric set has been retained in substance. The retired alias's repair-success rate and material-handoff promotion metric, and its differently scoped licence-demand denominator, are separately pending. Do not infer that the twelve S6 rates were deleted merely because they use a different definition owner.
+
+### S6-05: one source attribution is absent; the mechanism is retained
+
+**Impact Medium; risk Medium; effort Low.** The complete submitted S6 adds an EUIPO May-2026 mapping citation, with an explicit statement that it does not establish the final author-pays outcome. The full current 00J, A01 and T09 have no corresponding EUIPO passage.
+
+Their TEMS and European Commission evidence tables still express fragmentation, origin/authorship/use-condition loss, durable signalling and the distinction between registry signalling and rights/licensing adjudication. This is an unreceived **specific citation and source context**, not disappearance of the fragmentation mechanism or an actual occurrence claim. The official EUIPO publication body/date was not refreshed in this pass; it remains an authenticated historical attribution pending official readback and evidence-freeze disposition before active evidentiary adoption.
+
+### S6-06: graphics survive; their embedded reading context changes
+
+**Impact Medium; risk Low; effort Low.** Chain and evidence-scopes SVGs are exact current corpus copies. The gate-card source SVG is still current in case assets; its sole difference from the corpus SVG is a subtitle naming scenario-local acceptance conditions instead of canonical gates. Every Q0–Q5 question and action remains unchanged.
+
+The current S6 pointer drops three figure embeds. Current 00J retains their reading roles and captions and adds a fourth Route N/Q graphic. This creates a cross-repository reading dependency, not proof of graphic destruction. Exact source subtitles and original figure context belong in historical custody. No pixel rendering or wider PNG/binary-family audit was performed here.
+
+### S6-07: T09 and A01 select different research interpretations
+
+**Impact High; risk High; effort Medium.** T09 retains the complete engineering trajectory and credit for a successful frozen defender. It generalizes or removes EA-specific wording in sections 3, 5.3, Test G, 11 and 15. A01 retains a conditional future EA-enabled arm and a differential falsifier involving ordinary engineering without EA-specific semantics. Their same-Q5 correction, paired unsupported/legitimate-transfer controls and H2 coverage-change contract are preserved.
+
+A successful defender can reject the registered failure prediction for that branch. A separate inference about EA distinctiveness may require its own semantics comparison. Neither outcome silently replaces the other research object. Keep UC-21's question, case acceptance, HR recurrence and specification/architecture differentiation explicit. A01's qualified negative findings must remain available; T09's successful-defence criterion must not be rewritten as evidence for recurrence.
+
+### S6-08: a documented incomplete update predates the S6 reduction
+
+**Impact Medium; risk Low; effort Low.** T09 section 1 and current A01 section 1 still say the “decision proposition itself changes downstream.” Their controlling sections 6.2–6.4 and Test F require the **same final Q5 proposition**.
+
+The complete historical diff gives a concrete origin: commit `3c3d9d8ee61456dd1095d99793c5ab01d1028e67`, “Make 00J A01 regime stress same-decision and lineage-aware,” changes `2cc0d0ea187568b8eb65b86ca82177cd9384831e` to `4e2abf8f5de694acf565fdb1f9a93eb89ae36e1d`. It revises H2, section 6, Test F, the matrix and measures from access-to-enforcement change to the same question, while leaving that section-1 sentence untouched. Later authorial correction fixes other remaining falsifier/conclusion wording. The submitted T09 inherits the old section-1 residue.
+
+This is an incomplete earlier source update, not damage caused by the S6 reduction. The exact current-owner A01 correction pair appears below. The same pair for T09 is a historical interpretive disposition of a frozen case edition, not an instruction to edit the fork or submitted snapshot.
+
+### S6-09: pre-existing “fails only” wording must not erase Type 1
+
+**Impact Medium; risk Medium; effort Low.** Both old S6 and current 00J say the scenario fails only when a narrow valid record becomes stronger enforcement; both also retain the companion Type-1 outcome where unlimited search, human review or HOLD makes legitimate use no longer viable. The wording hazard predates reduction. A registered outcome evaluator must keep the finite horizon and legitimate-activity controls; no new loss is established by this shared ambiguity.
+
+### S6-10: later qualified status and negative findings must survive recovery
+
+**Impact High; risk High; effort Low.** Current 00J section 7.4 records one limited semantic proposition pair, a strong non-EA peer that matches both branches, no EA differential, no C0–C6 complete route, no product benchmark or legal determination, and an open A23 P6 bridge. A01 remains an unexecuted product trajectory with not-W3-admitted status and a Stage-A classification.
+
+These claims concern different scopes and coexist. Restoring an older source must not erase the later corrected negative evidence boundary or relabel the limited symbolic pair as a product execution. This review read the status provenance; it did not rerun A10/A11/A23 or independently validate their runtime evidence.
+
+## Additional complete source: retired 00J author-pays alias
+
+Full path: `research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_THE_AUTHOR_PAYS_FOR_THEIR_OWN_WORK_v0.1_DRAFT.md`.
+
+Blob: `55e0a2cff9d354bf18c10ec1a639f1bab22a6319`. Bytes: 32,554. SHA-256: `a0ee6bbef93fddd712e13f215db6fae7af1fb2564a2eca05b2a77877ab608fa2`. Added at `cb10aca3c9cb2d4281e0ed056c60643f305596ac`, 24 September 2026 12:52:22+02:00. Deleted at `49fe688cf3b45e7b1f531b6502254ab5b7a4da48`, 12:53:13+02:00, with a duplicate-filename message. The other 00J source had already been added at `cefc0ca7200b1a00511ef11dbcd9d3814a77081b`, 12:49:18+02:00. This alias is therefore not automatically a linear predecessor fully absorbed by the other source.
+
+The source is not byte-identical, and its complete body has meaningful particulars. All 52 own-section spans are mapped separately below. The following distinctions matter:
+
+| Historical detail | Current receiving meaning | Disposition |
+|---|---|---|
+| P0 permits bounded RAG, denies training/permanent corpus, requires attribution and bounded retention | General fixture requires at least one permitted and one nonpermitted/conditioned use; RAG/unknown-use and A01 training-prohibition controls remain | Specific fixture policy generalized; preserve exact historical choice |
+| W-ID/P0/G1/L1/K1–K4/T0–T5 | A/W/R0/C1/M1/D1/X/RX narrative; some G1/K1–K4 labels remain A01 | Same principal mechanism; explicit variant identifier map pending |
+| J-C0 legitimate transfer | Current C1 | Meaning retained, identifier changes |
+| J-C1 independent work | Current C2 | Meaning retained, identifier changes |
+| J-C2 correlated copies | Current C3 | Meaning retained, identifier changes |
+| J-C3 allowed RAG/unknown downstream use | Current C4 | Meaning retained, identifier changes |
+| J-C4 stale/revoked record | Current C5 | Meaning retained, identifier changes |
+| J-C5 human approval is noncurative | Current deterministic rule 6, Q5 and conditional S4/S13 human branch | Principle retained; explicit named test and applicability selection pending. Current C6 is dispute/re-entry |
+| Repair success: future decisions repaired while R0/G1/RX history remains reconstructable ÷ repair branches | Repair/challenge/history boundaries remain in S12/C6 | Same named rate/denominator not in the two complete current receivers; metric disposition pending |
+| Evidence-scope promotion: stronger proposition consumed ÷ material handoffs | Wrong-domain closures ÷ designated branches; qualifier loss ÷ relevant handoffs | Related mechanism/measures retained; denominator is not identical |
+| Unsupported licence demand ÷ main inversion branches | Unsupported licence-demand decisions ÷ applicable final decisions | Observation scope differs; do not silently pool denominators |
+| Inversion rate ÷ applicable runs | Negative-branch inversion runs ÷ applicable negative branches | Later definition narrows the measured domain |
+| Explicit B0–B3 comparator ladder | Current strong peers and conditional future EA arm | Historical comparator ladder, not a fourth UC-21 technological walkthrough |
+| Four result classes | Current falsification/determination prose | Meanings retained; old result-4 ordinal is historical |
+| Seven horizontal example domains and direct 00E/00F/00G/00H/00D links | Current family-kernel and extensibility/A25 links | Link/example context needs historical custody; linked extra recipients not fully reread here |
+
+The old source's exact human-control and metric passages are reproduced with the current receiving passages below. “Specific citation absent,” “mechanism retained” and “denominator pending” are separate findings. This review does not claim that the repair mechanism vanished or that the entire S6 was lost. It does not claim a corpus-wide absence beyond the two complete current receivers; separate extensibility, success-case and companion traversal bodies were not all read.
+
+## Challenge to previous audit and plan conclusions
+
+- DDS VNext `ec39010b1ec2d013ad4f7a6234adcbcad543e4aa`, full-fork section line 1066, correctly distinguishes the reduced S6 from preservation of principal fixture/controls/gates. The exact thirty-cell comparison strengthens that qualified conclusion.
+- Its case-neutral gate/measurement and route reconciliation queue is justified as ownership, framing and receiving-context work. Any interpretation that all metrics or literal R1/R2 labels disappeared is over-generalized: twelve S6 measure meanings survive, and those labels were never present in the original S6 body.
+- Its EUIPO queue is confirmed as an absent specific citation in the selected receivers. The fragmentation mechanism and its negative source bounds remain elsewhere in their evidence tables.
+- The gate-card inventory difference is real but limited to a subtitle; two other figures are exact. The asset distinction does not prove loss of the whole graphical mechanism.
+- Damage-plan DC-03 correctly requires the complete submitted edition, current receivers and clause/figure mapping. Restoring the full source as historical custody does not require a second live 00J. Its warning against automatic canonical terminology substitution is supported.
+- Damage-plan DC-08's retired 00J alias is a distinct historical source. This review identifies its particulars and rejects byte-duplicate treatment. Full current adoption or global semantic equivalence remains unapproved.
+
+## Exact grounded current-owner proposal, not applied
+
+Owner path: `research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md`. Source blob `af17d682b7e7e742b298de7918ade6029dffa9b8`. The complete old bullet occurs exactly once. This is an editorial correction grounded in the current controlling section 6 and Test F. Impact Medium; risk Low; effort Low. Revalidate the current owner blob and obtain Iván's specific GO before any incorporation.
+
+**Before — complete passage**
+
+````markdown
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+````
+
+**After — complete proposed passage**
+
+````markdown
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.
+````
+
+The same old bullet occurs once in frozen T09 `c6c49fbc022a7d5539b6fa460db67fc9bcd1c03e`. The pair records the interpreted correction for that historical case edition. It is **not a proposal to edit the fork or original submitted source**. Any current compiled case adaptation belongs under the existing Contributions owner and must retain the authentic predecessor.
+
+No active EUIPO assertion, old P0 policy, retired denominator, fourth walkthrough or whole S6 restoration is proposed for automatic incorporation. Current-owner case reading additions should explicitly link the complete selected case edition, Plan S6, common measurements, Conventions and recurrence protocol, preserving each namespace. A final literal pair for that current-owner bridge requires its actual destination and exact current source match; this pass does not invent one.
+
+## Reading limits and unresolved decisions
+
+- Complete Contributions custody of all exact historical source payloads and case-specific context remains a parent/owner wave decision.
+- EUIPO official body/date and evidence-freeze role need fresh official readback before active source adoption.
+- The additional alias requires explicit identifier/control/metric disposition, especially J-C5, repair success, material-handoff promotion, source policy and differently scoped denominators.
+- Full current extensibility/A25/success-case/00L-A10/A11/A23 bodies and the wider binary/PNG family were not reviewed completely. No blanket corpus or experimental closure follows from this report.
+- Source graphics were checked by exact bytes, complete XML text and captions, not rendered pixels.
+- Full current case protocols are preserved sources in the fork; their active owner integration and reader links must be reconciled in Contributions. The fork is source/history, not an active maintenance destination.
+- All optional active pairs require exact current readback and named GO. No restoration or canonical change is performed here.
+
+The parent may publish the substantive finding into the existing DDS VNext and the consequence into existing baseline README VNext. This same-model internal second review does not provide external scientific independence.
+
+
+## Complete crucial source and receiving passages
+
+### Submitted S6 and current 00J gate register
+
+#### Complete submitted S6
+
+````markdown
+### 5. Gate register: case acceptance criteria → scenario disposition
+
+The table below provides every gate's mandatory evidence and acceptable outcome. The metrics section supplies the supplementary rights-specific observations.
+
+Figure 3 is a lookup aid for the six gates. The detailed gate register below is authoritative for this case.
+
+![Figure 3 — Q0–Q5 quick reference](../../assets/00J/4_gate_reference_card.svg)
+
+**Figure 3 — Q0–Q5 quick reference.** The six scenario-local gates in one view: source/right frame, access authority, transformation/source dependency, downstream claim, propagation/correlation and final enforcement. The figure adds no acceptance condition beyond the detailed register.
+
+| Gate | Decision | Mandatory evidence in this fixture | Conforming exit | Failure if bypassed |
+|---|---|---|---|---|
+| **Q0 — original rights frame qualified** | Is the upstream A/W/R0 subject–proposition–decision basis current, scoped and attributable? | authority-field completeness; owner/source/version/scope preservation; handoff integrity; freshness/expiry; residual-scope preservation | A/W/R0 is qualified for the declared scope, with explicit limits | creator/rights source, policy version or scope is absent, stale or flattened while workflow continues |
+| **Q1 — access/use authority qualified** | Who is C1 acting for, what use is requested/permitted and what conditions survive the handoff? | authority/scope/expiry completeness; handoff integrity; qualification-loss rate; retained decision-relevant fields; authorized-response compliance where action occurs | bounded access/use claim advances with purpose/scope/expiry intact | identity or access permission is silently promoted into unrestricted downstream-use authority |
+| **Q2 — transformation and source dependency qualified** | What does M1's D1-generation record actually establish, and is material dependency on W preserved or explicitly unresolved? | explicit-indeterminate rate; provenance/dependency preservation; qualification-loss rate; source retrievability; residual preservation; wrong-domain closure | `generated-by M1` remains separate from source/rights conclusions; W dependency is preserved or explicit UNKNOWN | generation provenance is treated as proof of independent source/original rights or the W dependency disappears without disposition |
+| **Q3 — downstream rights claim qualified** | What current authority/evidence supports RX and which propositions/actors does it bind? | authority completeness; conflict/residual preservation; wrong-domain/systemic-closure rate; handoff integrity; authorised-response compliance; evidence-versus-authority role | RX remains a bounded claim; conflict/insufficiency triggers scoped requalification/hold/challenge | signature, timestamp, registry presence or generation record is promoted into unsupported enforceable rights against A |
+| **Q4 — propagation/corroboration qualified** | Are downstream RX replicas independent corroboration or correlated reuse of one source, and has material state changed? | correlated-evidence error; source diversity/retrievability; false-convergence rate; freshness/staleness; cascade reach/latency; requalification latency; burden/response margin | dependency remains visible; replication cannot increase evidentiary class by itself | repeated/cached copies are counted as independent evidence, stale claims persist, or propagation outruns requalification |
+| **Q5 — licence/enforcement decision qualified** | Is there sufficient current evidence and legitimate authority for `LICENSE_REQUIRED/PAY/BLOCK` against this subject and use? | posture correctness; false continuation/containment; authorized-response compliance; explicit UNKNOWN; handoff integrity; response margin; observable outcome effect; total burden | enforce only a proposition actually supported by current authority/evidence; otherwise REQUALIFY, bounded HOLD/ESCALATE or explicit no-conclusion | an unsupported rights conclusion becomes payment/blocking/enforcement, or uncertainty is hidden by timeout/default/human approval |
+````
+
+#### Complete current 00J
+
+````markdown
+## 5. Gate register: canonical requirements → scenario disposition
+
+All Q-gates below **emanate from the canonical S/T/H/KPI system**. The “mandatory evidence” column uses canonical KPI families first. 00J-specific measures are supplementary outcome observables only.
+
+For rapid orientation, Figure 3 compresses the six gates into one lookup card. It is a reading aid only: the canonical S/T/H/KPI route and the detailed gate register below remain authoritative.
+
+![Figure 3 — Q0–Q5 quick reference](./assets/00J/4_gate_reference_card.svg)
+
+**Figure 3 — Q0–Q5 quick reference.** The six scenario-local gates in one view: source/right frame, access authority, transformation/source dependency, downstream claim, propagation/correlation and final enforcement. No new canonical gate is created by this figure or by 00J.
+
+| Gate | Decision | Canonical route | Mandatory evidence in this fixture | Conforming exit | Failure if bypassed |
+|---|---|---|---|---|---|
+| **Q0 — original rights frame qualified** | Is the upstream A/W/R0 subject–proposition–decision basis current, scoped and attributable? | S1/S7/S11/S14 → T2/T3/T4 → H2/H3/H4 | authority-field completeness; owner/source/version/scope preservation; handoff integrity; freshness/expiry; residual-scope preservation | A/W/R0 is qualified for the declared scope, with explicit limits | creator/rights source, policy version or scope is absent, stale or flattened while workflow continues |
+| **Q1 — access/use authority qualified** | Who is C1 acting for, what use is requested/permitted and what conditions survive the handoff? | S1/S6/S8/S11/S14 → T2/T3/T4 → H2/H4 | authority/scope/expiry completeness; handoff integrity; qualification-loss rate; retained decision-relevant fields; authorized-response compliance where action occurs | bounded access/use claim advances with purpose/scope/expiry intact | identity or access permission is silently promoted into unrestricted downstream-use authority |
+| **Q2 — transformation and source dependency qualified** | What does M1's D1-generation record actually establish, and is material dependency on W preserved or explicitly unresolved? | S5/S7/S11/S12/S14 → T1/T2/T4 → H1/H2/H3/H4 | explicit-indeterminate rate; provenance/dependency preservation; qualification-loss rate; source retrievability; residual preservation; wrong-domain closure | `generated-by M1` remains separate from source/rights conclusions; W dependency is preserved or explicit UNKNOWN | generation provenance is treated as proof of independent source/original rights or the W dependency disappears without disposition |
+| **Q3 — downstream rights claim qualified** | What current authority/evidence supports RX and which propositions/actors does it bind? | S1/S5/S9/S11/S13/S14 → T1/T2/T3/T4 → H1/H2/H3/H4 | authority completeness; conflict/residual preservation; wrong-domain/systemic-closure rate; handoff integrity; authorised-response compliance; evidence-versus-authority role | RX remains a bounded claim; conflict/insufficiency triggers scoped requalification/hold/challenge | signature, timestamp, registry presence or generation record is promoted into unsupported enforceable rights against A |
+| **Q4 — propagation/corroboration qualified** | Are downstream RX replicas independent corroboration or correlated reuse of one source, and has material state changed? | S5/S9/S10/S11/S12/S14 → T1/T2/T4 → H1/H2/H3/H4/H5/H6 | correlated-evidence error; source diversity/retrievability; false-convergence rate; freshness/staleness; cascade reach/latency; requalification latency; burden/response margin | dependency remains visible; replication cannot increase evidentiary class by itself | repeated/cached copies are counted as independent evidence, stale claims persist, or propagation outruns requalification |
+| **Q5 — licence/enforcement decision qualified** | Is there sufficient current evidence and legitimate authority for `LICENSE_REQUIRED/PAY/BLOCK` against this subject and use? | S1/S5/S9/S12/S14 → T2/T3/T4 → H1/H2/H4/H6 | posture correctness; false continuation/containment; authorized-response compliance; explicit UNKNOWN; handoff integrity; response margin; observable outcome effect; total burden | enforce only a proposition actually supported by current authority/evidence; otherwise REQUALIFY, bounded HOLD/ESCALATE or explicit no-conclusion | an unsupported rights conclusion becomes payment/blocking/enforcement, or uncertainty is hidden by timeout/default/human approval |
+````
+
+All thirty cells other than the added canonical column match exactly. Current case Plan S6 preserves the use-case-level acceptance below; it is distinct from an architecture validation verdict.
+
+````markdown
+### Plan S6 — Rights-provenance inversion
+
+| Gate | Evidence and acceptance required |
+|---|---|
+| Q0 | Original author, work, rights claim, source, version and limits remain attributable. |
+| Q1 | Access authority retains purpose, scope and expiry through handoff. |
+| Q2 | A generation record remains distinct from independent origin; source dependency is retained or explicitly unresolved. |
+| Q3 | Downstream rights claims have evidence and authority for the proposition actually asserted. |
+| Q4 | Replication does not create independent corroboration; freshness and material amendments remain visible. |
+| Q5 | Payment, licensing or blocking requires current support for that subject and use; uncertainty cannot become an unsupported enforcement conclusion. |
+
+````
+
+### Complete S6 metric sections
+
+#### Submitted S6
+
+````markdown
+### 8. Scenario-specific outcome measures
+
+These measures supplement the declared measure set. They do not create a new universal KPI family.
+
+| Measure | Definition |
+|---|---|
+| **Rights-provenance inversion rate** | negative-branch runs in which a downstream claim unsupported by fixture authority becomes operationally stronger than R0 and controls A's use ÷ applicable negative-branch runs |
+| **Unsupported licence-demand rate** | `LICENSE_REQUIRED/PAY/BLOCK` decisions lacking sufficient current evidence/authority for the frozen proposition ÷ applicable final decisions |
+| **False block against rightful source** | C0/C6 decisions that prevent fixture-legitimate A use without a supported conflicting right ÷ applicable controls |
+| **Legitimate-transfer acceptance** | C1 runs in which the qualified X right is correctly accepted ÷ C1 runs |
+| **Source-dependency preservation** | required W→D1/R0 dependency fields retained or explicitly unresolved ÷ required handoffs |
+| **Provenance qualification-loss rate** | source/rights qualifiers absent, flattened or strengthened without declared requalification ÷ relevant handoffs |
+| **Correlated-evidence error rate** | closures treating RX replicas as independent corroboration ÷ C3 branches |
+| **Wrong-domain closure rate** | closures that promote generation/identity/registry evidence into unsupported source/rights/compliance conclusions ÷ designated branches |
+| **Explicit-UNKNOWN preservation** | C4 or other unresolved branches preserving UNKNOWN/qualified limit ÷ applicable unresolved branches |
+| **Targeted re-entry precision/recall** | the precision/recall definition in Annex Evidence, applied to source/rights/dependency assumptions |
+| **Requalification latency / response margin** | time to a qualified final posture and remaining useful challenge/enforcement window |
+| **Total decision burden** | compute, tool, communication, waiting, human-review and privacy burden for the run |
+
+A candidate does not pass by driving the inversion rate to zero through universal blocking if it fails C1 legitimate-transfer acceptance, C2 independent-work control, valid continuity or the stated false-containment and burden measures.
+````
+
+#### Current 00J
+
+````markdown
+## 8. Scenario-specific outcome measures
+
+These measures supplement the canonical KPI set. They do not create a new universal KPI family.
+
+| Measure | Definition |
+|---|---|
+| **Rights-provenance inversion rate** | negative-branch runs in which a downstream claim unsupported by fixture authority becomes operationally stronger than R0 and controls A's use ÷ applicable negative-branch runs |
+| **Unsupported licence-demand rate** | `LICENSE_REQUIRED/PAY/BLOCK` decisions lacking sufficient current evidence/authority for the frozen proposition ÷ applicable final decisions |
+| **False block against rightful source** | C0/C6 decisions that prevent fixture-legitimate A use without a supported conflicting right ÷ applicable controls |
+| **Legitimate-transfer acceptance** | C1 runs in which the qualified X right is correctly accepted ÷ C1 runs |
+| **Source-dependency preservation** | required W→D1/R0 dependency fields retained or explicitly unresolved ÷ required handoffs |
+| **Provenance qualification-loss rate** | source/rights qualifiers absent, flattened or strengthened without declared requalification ÷ relevant handoffs |
+| **Correlated-evidence error rate** | closures treating RX replicas as independent corroboration ÷ C3 branches |
+| **Wrong-domain closure rate** | closures that promote generation/identity/registry evidence into unsupported source/rights/compliance conclusions ÷ designated branches |
+| **Explicit-UNKNOWN preservation** | C4 or other unresolved branches preserving UNKNOWN/qualified limit ÷ applicable unresolved branches |
+| **Targeted re-entry precision/recall** | same canonical definition, applied to source/rights/dependency assumptions |
+| **Requalification latency / response margin** | time to a qualified final posture and remaining useful challenge/enforcement window |
+| **Total decision burden** | canonical compute/tool/communication/waiting/human/privacy burden for the run |
+
+A candidate does not pass by driving the inversion rate to zero through universal blocking if it fails C1 legitimate-transfer acceptance, C2 independent-work control, valid continuity or the canonical false-containment/burden measures.
+````
+
+Ten rows are literal-identical. The other two retain meaning through a different definition owner or shorthand with the complete ledger still present.
+
+### Complete execution-plan comparison
+
+#### Submitted S6
+
+````markdown
+### 10. Implementation and execution plan
+
+| Step | Work item | Required output | State |
+|---|---|---|---|
+| **0** | Instrumentation/autotest | Deliberately remove one required W→D1 or R0 qualifier at a named handoff. The trace/gate harness must detect the loss. If it does not, later runs are uninterpretable. | Planned |
+| **1** | Freeze fixture and bounded oracle | Versioned A/W/R0/C1/M1/D1/X/RX facts, dependency graph, authority facts, deadlines, null action and controls C0–C6. | Planned |
+| **2** | Freeze Q0–Q5 pre-registration | Applicable case gates, KPI numerators/denominators, thresholds, stop rule, burden tolerance and deviations. | Planned |
+| **3** | Register strong comparator arms | Standard and defended peer configurations, exact versions and legitimate controls; same evidence/budget/deadline. 00J-A01 now defines the first H0/H1/H2 design trajectory, but executable configurations remain to be frozen. | Design path defined; pre-registration pending |
+| **4** | Build deterministic fixture assessment harness | Replay, bounded oracle, dependency/source graph, trace store, gate-policy module and reproducible report. | Planned |
+| **5** | Run controls before failure branch | C0–C6 first, including legitimate transfer and independent-work controls. | Planned |
+| **6** | Execute ordinary, reinforced and frozen-reinforced-under-change configurations | Gate-by-gate traces locating any bypass, misclassification, inversion or successful defence; declare which components are real or simulated. | Planned |
+| **7** | Strong-peer result | Determine whether conventional provenance, rights, identity and receipt composition closes the fixture within the declared limits. Retain successful results. | Planned |
+| **8** | Technology-specific profiles | [00J-A01 — Panodyssey Notice / TEMS](../technology/T09.md#annex-t09) is now the first source-reviewed design trajectory. A future C2PA/Content-Credentials A02 may provide an independent provenance-first falsifier. Product annexes may not change fixture facts to favour a result. | A01 drafted; execution/freeze pending |
+| **9** | Independent Stage-1 producer/receiver | Separate producer of rights/provenance state and independent receiver/enforcer with stated independence limits. | Future |
+| **10** | Stage-2 real relevance review | Only if an external participant chooses to map a real decision context; not assumed by this draft. | Future |
+````
+
+#### Current 00J
+
+````markdown
+## 10. Implementation and execution plan
+
+| Step | Work item | Required output | State |
+|---|---|---|---|
+| **0** | Instrumentation/autotest | Deliberately remove one required W→D1 or R0 qualifier at a named handoff. The trace/gate harness must detect the loss. If it does not, later runs are uninterpretable. | Planned |
+| **1** | Freeze fixture and bounded oracle | Versioned A/W/R0/C1/M1/D1/X/RX facts, dependency graph, authority facts, deadlines, null action and controls C0–C6. | Planned |
+| **2** | Freeze Q0–Q5 pre-registration | Exact S/T/H route, KPI numerators/denominators, thresholds, stop rule, burden tolerance and deviations. | Planned |
+| **3** | Register strong comparator arms | Standard and defended peer configurations, exact versions and legitimate controls; same evidence/budget/deadline. 00J-A01 now defines the first H0/H1/H2 design trajectory, but executable configurations remain to be frozen. | Design path defined; pre-registration pending |
+| **4** | Build deterministic Stage-0 harness | Replay, bounded oracle, dependency/source graph, trace store, gate-policy module and reproducible report. | Planned |
+| **5** | Run controls before failure branch | C0–C6 first, including legitimate transfer and independent-work controls. | Planned |
+| **6** | Execute Route N and Route Q | Gate-by-gate traces showing where the bad implementation bypasses/misapplies requirements and where the conforming route stops inversion. | Planned |
+| **7** | Strong-peer differential | Determine whether conventional provenance/rights/identity/receipt composition already closes the fixture without EA-equivalent semantics. Retain negative EA result if it does. | Planned |
+| **8** | Technology-specific profiles | [00J-A01 — Panodyssey Notice / TEMS](./00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) is now the first source-reviewed design trajectory. A future C2PA/Content-Credentials A02 may provide an independent provenance-first falsifier. Product annexes may not change fixture facts to favour a result. | A01 drafted; execution/freeze pending |
+| **9** | Independent Stage-1 producer/receiver | Separate producer of rights/provenance state and independent receiver/enforcer with stated independence limits. | Future |
+| **10** | Stage-2 real relevance review | Only if an external participant chooses to map a real decision context; not assumed by this draft. | Future |
+````
+
+### Complete EUIPO historical sentence
+
+````markdown
+EUIPO's [Mapping of EU databases and metadata standards providing information on copyright-protected works](https://www.euipo.europa.eu/en/publications/mapping-of-eu-databases-and-metadata-standards-providing-information-on-copyright-protected-works), published on 28 May 2026, documents fragmentation and interoperability problems relevant to this scenario; it does not establish the final author-pays outcome.
+````
+
+No current receiving EUIPO passage exists in the three completely read current documents; TEMS/EC mechanism rows are retained.
+
+### Complete T09 and current A01 falsification sections
+
+#### Frozen T09
+
+````markdown
+### 11. Falsification rule
+
+The predicted failure is not reproduced on the tested branch if a frozen strong H1 implementation:
+
+- passes all original-regime controls;
+- detects the H2 resolver/evidence-contract invalidation while the final Q5 proposition remains unchanged;
+- retrieves/preserves the required upstream dependency/authority state;
+- blocks unsupported enforcement;
+- accepts legitimate transfer/independent work;
+- does so within the same response horizon and equal/lower burden;
+- and does so using the tested rights/provenance engineering within the declared resources.
+
+Conversely, a H2 failure counts only if H1 was genuinely strong under the original regime. A weak source-side implementation is not evidence for regime-awareness differentiation.
+
+---
+````
+
+#### Current A01
+
+````markdown
+## 11. Falsification rule
+
+The proposed differential is weakened or rejected if a frozen strong H1 implementation:
+
+- passes all original-regime controls;
+- detects the H2 resolver/evidence-contract invalidation while the final Q5 proposition remains unchanged;
+- retrieves/preserves the required upstream dependency/authority state;
+- blocks unsupported enforcement;
+- accepts legitimate transfer/independent work;
+- does so within the same response horizon and equal/lower burden;
+- and does not require EA-specific semantics beyond ordinary strong rights/provenance engineering.
+
+Conversely, a H2 failure counts only if H1 was genuinely strong under the original regime. A weak source-side implementation is not evidence for regime-awareness differentiation.
+
+---
+````
+
+### Additional alias: exact policy, human control and metric passages
+
+The alias passages below are complete. The receiving policy/control passages and current rule section show what survives without pretending that the old denominator or named human test is identical.
+
+#### Alias T0 policy
+
+````markdown
+### T0 — Original work and rights frame
+
+- **A** is the original author / rights-holder principal for work **W** inside the fixture.
+- **W** has stable identifier **W-ID**.
+- Rights/provenance record **R0** binds A, W-ID, policy **P0**, effective time, source/issuer, allowed/prohibited machine uses, obligations and any expiry/revalidation rules.
+- Main branch: bounded RAG/retrieval is conditionally allowed; training/permanent corpus incorporation is denied; attribution and bounded retention are required.
+- R0 is authentic and current at T0.
+
+The exact legal effect of P0 is outside the fixture. R0 is simply the authoritative source record that downstream systems must not silently overwrite or broaden.
+````
+
+#### Current 00J fixture facts and controls
+
+````markdown
+### 2.1 Negative / inversion branch facts
+
+For the core failure branch:
+
+1. **A is the fixture-original creator/rightful source of W.**
+2. **R0 is current at initial publication/access time** and states the relevant use conditions.
+3. **C1 receives only the bounded authority declared by the fixture.**
+4. **D1 has a material dependency on W by fixture definition.** The test does not ask a model, court or similarity detector to infer that dependency.
+5. **M1's generation credential is authentic** for the narrow proposition that M1 generated D1.
+6. **M1's credential does not establish** that D1 is independent of W or that all rights in D1 originated with M1/X.
+7. **X has not received, in this negative branch, the transfer/licence/mandate needed to make the final claim against A.**
+8. Replicas of RX share a represented or oracle-known dependency and are **not independent sources**.
+9. The final rights decision has a finite response horizon and a legitimate challenge/requalification route.
+
+These are synthetic fixture facts. They are not a legal opinion about any real work or jurisdiction.
+### 2.2 Required controls
+
+The fixture must include at least:
+
+- **C0 — valid continuity control:** W is used within R0; no downstream conflicting claim appears.
+- **C1 — legitimate transfer control:** A does grant X the relevant transferable right/authority. A correct architecture must allow the resulting qualified X claim.
+- **C2 — independent-work control:** D2 is fixture-independent of W despite superficial similarity. A correct architecture must not invent W-dependency.
+- **C3 — correlated-copy control:** several downstream records derive from one RX source; they must not be counted as independent corroboration.
+- **C4 — authorised-RAG / unknown-downstream-use control:** access is authorised for RAG and later training cannot be established. The architecture must preserve the unknown; it must not infer either compliance or violation without evidence.
+- **C5 — stale/revoked-record control:** an earlier valid R0 or RX state becomes stale/revoked; action-time revalidation must reject blind reuse.
+- **C6 — dispute/re-entry control:** a legitimate owner supplies new evidence that actually changes the supported proposition; the system must be able to requalify rather than permanently freeze the old result.
+
+The controls prevent an architecture from “passing” merely by always favouring the original creator, always blocking downstream rights, or converting every uncertainty into indefinite HOLD.
+````
+
+#### Alias explicit human-approval test
+
+````markdown
+### J-C5 — Human approval is non-curative
+
+A reviewer approves a downstream claim while source provenance remains unresolved.
+
+Expected: preserve approval as decision/intervention; do not convert it into missing lineage or rights authority.
+
+---
+````
+
+#### Current 00J deterministic rules, including human approval
+
+````markdown
+## 6. Deterministic gate logic
+
+1. A mandatory source/authority/dependency field in `UNKNOWN` or stale state cannot produce an enforcement PASS. It produces targeted `REQUALIFY`, bounded `HOLD/CONTAIN`, authorised `ESCALATE` or explicit `NO CONCLUSION` according to remaining time/capacity.
+2. A valid generation signature proves only the proposition bound to that signature. It cannot silently prove source independence or downstream rights ownership.
+3. A valid rights/registry record proves that the record exists and, where established, who issued it. It cannot silently manufacture upstream authority not present in the fixture.
+4. Correlated replicas of RX do not count as independent corroboration unless source independence is actually established.
+5. A valid access grant for one purpose cannot be widened by downstream handoff without the required authority/delegation semantics.
+6. Human approval or timeout may authorise a bounded procedural response where the owner is entitled to do so; neither is new evidence that cures a missing W→D1 dependency or establishes X's rights.
+7. Q4 stops broad evidence expansion when marginal decision value falls below its floor, burden exceeds its ceiling or the response margin is exhausted; the system must preserve a bounded unresolved disposition rather than search forever.
+8. Q5 may enforce only a proposition supported by current evidence **for the same subject, scope, use, owner and time**. Evidence that supports a different proposition is non-fungible.
+9. Any material policy, rights, principal, delegation, dependency or content-state change reopens the affected gate before enforcement.
+10. Passing the negative branch by always rejecting X is invalid. C1 legitimate-transfer control must pass. Passing by blocking every uncertain use is also invalid if the declared control branch permits bounded continuation.
+````
+
+#### Alias fixture-specific metrics
+
+````markdown
+### Fixture-specific measures
+
+| Measure | Definition |
+|---|---|
+| **Provenance-inversion rate** | runs where a downstream generation/registration record is treated as stronger source/rights provenance than the fixture supports ÷ applicable runs |
+| **Unsupported-license-demand rate** | runs producing A must pay/license X without a valid authority/evidence chain ÷ main inversion branches |
+| **False-block rate against fixture-rightful source** | runs blocking A’s allowed use of W/W2 on unsupported RX/G1 grounds ÷ applicable branches |
+| **Evidence-scope promotion rate** | claims consumed for a stronger proposition than the producer record supports ÷ material handoffs |
+| **Dependent-record inflation** | dependent copies counted as independent corroboration ÷ correlated-copy branches |
+| **Repair success** | challenged erroneous downstream claim repaired for future decisions while R0/G1/RX history remains reconstructable ÷ repair branches |
+
+A lower unsupported-license-demand rate obtained by denying all downstream rights claims is insufficient. J-C0 and J-C1 must also pass.
+
+---
+````
+
+The complete current measure section above has no same repair-success or material-handoff promotion denominator. Related repair/history and promotion controls remain. No broader corpus-wide absence is claimed.
+
+### Complete graphic subtitle delta
+
+````diff
+--- 
++++ 
+@@ -1,7 +1,7 @@
+ <svg width="1200" height="560" viewBox="0 0 1200 560" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+ <rect width="1200" height="560" fill="#F7F8FA"/>
+ <text x="40" y="45" font-size="24" font-weight="bold" fill="#1F2C4A">00J quick reference — six gates in one glance</text>
+-<text x="40" y="70" font-size="14" fill="#5D6572">Lookup card for the six scenario-local Q0–Q5 acceptance conditions.</text>
++<text x="40" y="70" font-size="14" fill="#5D6572">No new canonical gate is created here. This is a lookup card for the existing Q0–Q5 route.</text>
+ <g font-size="13">
+ <rect x="40" y="95" width="140" height="40" fill="#1F2C4A"/>
+ <text x="110" y="120" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Gate</text>
+````
+
+### Exact historical source-update evidence
+
+The full section1 body was unchanged at 3c3d9d; the old sentence remained once before and after. Its corrected same-question section6.2 is reproduced alongside the superseded one.
+
+#### Unchanged section1 across the update
+
+````markdown
+## 1. Why Panodyssey/TEMS is the first implementation trajectory
+
+Panodyssey is unusually well suited to 00J because the public FG-TIDA Theme #17 case already describes a strong publisher-side production chain rather than a hypothetical minimum implementation.
+
+The Theme #17 contribution states that Panodyssey operates five publisher-side layers:
+
+1. domain-level AI governance/access rules;
+2. machine-readable discovery per publication;
+3. structured rights declaration per work using ODRL/JSON-LD and distinguishing indexing, RAG and training;
+4. auditable timestamped history of rights declarations; and
+5. certified author/rightsholder identity.
+
+The same contribution states the boundary clearly: the publisher-side chain can be correct while the **agent-side verifiable identity/representation counterpart is missing**. It also identifies interoperability beyond Panodyssey as a separate layer.
+
+TEMS Trial 7 is a particularly relevant external boundary because it is explicitly about written-work interoperability and rights portability across systems. TEMS' public material notes that origin, authorship and conditions-of-use information can be lost as content moves across platforms and infrastructures.
+
+That combination makes Panodyssey/TEMS stronger for 00J than a generic rights database:
+
+- the source-side rights state is real and comparatively rich;
+- the cross-system boundary is real;
+- the missing/variable agent-side and downstream semantics are explicit;
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+
+The profile therefore does **not** treat Panodyssey as the weak baseline. It starts from a competent production-oriented source-side system.
+
+---
+````
+
+#### Before: original section6.2
+
+````markdown
+### 6.2 Latent regime shift
+
+Under H1's original operating regime, the key decision is:
+
+> **May agent C1 access/use work W for purpose P under current rights record R0?**
+
+The H1 receipt and interface are designed around that proposition.
+
+The regime then changes downstream.
+
+A new/changed rights-resolution context begins making a materially different decision:
+
+> **May downstream claimant X assert a licensing/blocking/payment claim against A for A's later use of W/W2 because D1/RX exists?**
+
+At the same time:
+
+- D1 is accepted as a first-class rights/licensing object by a downstream registry or resolver;
+- G1/RX remain technically valid and correctly signed;
+- the downstream resolver consumes D1/RX but no longer requires, understands or retrieves the W→D1 source-dependency relation with the same semantics;
+- several services replicate RX;
+- no revocation or security alarm necessarily fires;
+- A/W/R0 remains valid upstream;
+- H1's original access-time controls can remain green.
+
+Nothing requires a forged credential.
+
+The **mapping from available evidence to the justified decision has changed**.
+````
+
+#### After: corrected section6.2
+
+````markdown
+### 6.2 Original qualified resolver regime
+
+Under H1's original operating regime, the **same final decision** that 00J will later stress is already exercised:
+
+> **May downstream claimant X require A to license/pay or may the relying system block A's use of W/W2 on the basis of D1/RX?**
+
+The frozen H1 resolver/interoperability contract is lineage-aware. For this decision it requires, directly or through an authoritative dependency service:
+
+- current RX identity/version;
+- the asserted right and its scope;
+- the source/dependency relation relevant to D1;
+- the authority chain needed for the claim against A;
+- conflict with R0;
+- freshness/expiry;
+- the proposition actually supported by the returned status.
+
+Under this original regime H1 MUST pass both paired controls:
+
+- **N — no A→X authority:** D1 materially depends on W; RX is authentic; X lacks the required authority chain → no enforcement against A.
+- **G — legitimate A→X authority:** same general topology, but A has granted X the relevant right → qualified X enforcement may proceed.
+
+Only after N and G pass is H1 frozen for H2.
+````
+
+## Exhaustive source-section crosswalks
+
+Each row covers the own-section span up to the next heading; together these cover every line. JSON retains full exact source and receiver passages for every S6/T09 row. The alias mapping names explicit receiving scopes and preserves its full own body, with partial extra-recipient limits visible.
+
+### Submitted S6 to current 00J / pointer
+
+| Source heading and lines | Receiving section | Verdict and meaning |
+|---|---|---|
+| Annex S6 (1–4) | Current S6 pointer (1–41) | POINTER_REPLACEMENT: Identity is retained in the current pointer, but the complete compiled case edition is not its body. |
+| 0.1 Public-provenance rule (5–20) | 0.1 Public-provenance rule (46–61) | REFORMULATED: Public/synthetic/inference categories and attribution limits survive. Case acceptance anti-retrospective change route becomes canonical Requirements-vNext route. |
+| 0.2 Core distinction under test (21–55) | 0.2 Core distinction under test (62–96) | PRESERVED_WITH_CANONICAL_FRAME: All four evidence scopes, bounded-use and correlation limits retained; neutral description becomes S14/S identifiers and family link destination changes. |
+| 1. Executive case card (56–85) | 1. Executive case card (97–126) | PRESERVED: Complete A/W/R0/C1/M1/D1/X/RX/W2 narrative and unsupported licence/pay/block outcomes retained. |
+| 1.1 Reader walk-through — how the author ends up paying (86–104) | 1.1 Reader walk-through — how the author ends up paying (127–145) | PRESERVED: All six steps, no blanket relicensing and no forged-signature prerequisite retained; chain SVG exact. |
+| 2. Frozen fixture facts and bounded oracle (105–108) | 2. Frozen fixture facts and bounded oracle (146–149) | PRESERVED: Freeze before execution retained. |
+| 2.1 Negative / inversion branch facts (109–124) | 2.1 Negative / inversion branch facts (150–165) | PRESERVED: All nine synthetic facts, oracle-known material dependence, negative-branch absent transfer, correlated sources and finite horizon retained. |
+| 2.2 Required controls (125–138) | 2.2 Required controls (166–179) | PRESERVED: C0-C6 and anti-original-author-always-wins, deny-all and indefinite HOLD controls retained. |
+| 4. Quality-plan fixture (139–156) | 4. Quality-plan fixture (203–220) | PRESERVED_WITH_NOTATION: All freeze fields, finite human capacity, complete burden ledger and runtime oracle restriction retained; sigma notation added. |
+| 5. Gate register: case acceptance criteria → scenario disposition (157–175) | 5. Gate register: canonical requirements → scenario disposition (221–239) | EXACT_30_CELLS_CANONICAL_COLUMN_ADDED: All 30 gate identifier/decision/evidence/exit/failure cells literal-identical after removing Canonical route column. Caption and interpretation ownership differ. |
+| 6. Deterministic gate logic (176–188) | 6. Deterministic gate logic (258–270) | PRESERVED: All ten deterministic rules retained, including same subject/scope/use/owner/time, human approval noncurative, current material change and positive controls. |
+| 7. Failure trace through the event (189–193) | 7. Two routes through the same event (271–278) | PRESERVED_FRAME_RENAMED: Same facts/no better oracle or authority paragraph retained; receiver adds Route N/Q graphic and positive route. |
+| 7.1 failure trace — quality plan exists but is badly implemented / gates are bypassed or misapplied (194–210) | 7.1 Route N — quality plan exists but is badly implemented / gates are bypassed or misapplied (279–295) | PRESERVED: All failure steps and both Type-2 and companion Type-1 retained; canonical naming reintroduced. |
+| 8. Scenario-specific outcome measures (211–231) | 8. Scenario-specific outcome measures (334–354) | TWELVE_MEASURES_RETAINED: Ten literal definition rows exact. Targeted re-entry definition owner changes from Annex Evidence to canonical; burden shortened in table with full ledger in section4. |
+| 9. Falsification and boundary conditions (232–250) | 9. Falsification and boundary conditions (355–373) | RESEARCH_OBJECT_REFORMULATED: All control success conditions retained; case-neutral criteria/unknown gap/strong defence phrasing becomes canonical expressibility and EA differentiation. |
+| 9A. External corroboration and plausibility addendum — reviewed 24 September 2026 (251–272) | 9A. External corroboration and plausibility addendum — reviewed 24 September 2026 (374–395) | EVIDENCE_TABLE_PRESERVED: All nine public rows, dates and positive/negative bounds retained; one proposed-control nonvalidation phrase becomes EA naming. |
+| 9A.1 Evidence-use rule (273–285) | 9A.1 Evidence-use rule (396–408) | PRESERVED_WITH_EA_NAMING: Six plausible mechanisms and no actual terminal event/causation/control-validation survive, with EA-specific last qualifier. |
+| 9A.2 Evidence-to-stage mapping (286–297) | 9A.2 Evidence-to-stage mapping (409–420) | PRESERVED_WITH_CANONICAL_DETAIL: Five stage/source mappings and one-direction plausibility-only rule retained; S identifiers added. |
+| 9A.3 Implementation-profile consequence (298–317) | 9A.3 Implementation-profile consequence (421–438) | SPECIFIC_CITATION_UNRECEIVED: H0/H1/H2 same-Q5 correction retained; link points to A01 instead of T09. EUIPO sentence/URL not received in selected documents. |
+| 10. Implementation and execution plan (318–333) | 10. Implementation and execution plan (439–454) | EXECUTION_PRESENTATION_REFORMULATED: Step6 ordinary/reinforced/frozen-under-change becomes Route N/Route Q. R1/R2 labels were absent in submitted S6. H0/H1/H2 remain profiles and Conventions maps aliases. Stage0 maturity label and EA differential added. |
+| 11. Public-source relationship to FG-TIDA Theme #16 and Theme #17 (334–339) | 11. Public-source relationship to FG-TIDA Theme #16 and Theme #17 (455–460) | PRESERVED: Public adjacency, ownership and nonreplacement retained. |
+| 11.1 Public contributor attribution used by 00J (340–349) | 11.1 Public contributor attribution used by 00J (461–470) | PRESERVED: All public contributor names, identifiers, URLs and supported-role bounds retained. |
+| 11.2 Theme #17 / Panodyssey ownership and non-interference boundary (350–367) | 11.2 Theme #17 / Panodyssey ownership and non-interference boundary (471–488) | PRESERVED: Five layers, agent-side boundary and no production-case modification/failing actor attribution retained. |
+| 11.3 Theme #16 / Olena Pavlenko evidence-to-decision boundary (368–396) | 11.3 Theme #16 / Olena Pavlenko evidence-to-decision boundary (489–517) | PRESERVED: Consume authority, decision-specific evidence, revalidation, separate approval/execution, unchanged matrix facts and owner bounds retained. |
+| 11.4 No private-source dependency (397–409) | 11.4 No private-source dependency (518–530) | PRESERVED_WITH_PRIVATE_EXCLUSION: Public source classes and constructed/synthetic labels retained; current explicit private-email exclusion added. |
+| 12. Claim boundary (410–427) | 12. Claim boundary (531–548) | BROAD_NONCLAIM_NARROWED_TO_EA: Fictional/no incident/no legal/no adoption/no benchmark preserved. Source no architecture superiority becomes no EA superiority; T09/A01 retain other product bounds. |
+| 13. Public references (428–449) | 13. Public references (549–575) | PUBLIC_URLS_PRESERVED_LINK_CONTEXT_CHANGED: All public contributor URLs retained. Source case-local main/S2/T09 reference context replaced by canonical requirements/00F/VNext/A01 references. |
+
+### Frozen T09 to current A01
+
+| Source heading and lines | Receiving section | Verdict and meaning |
+|---|---|---|
+| Annex T09 (1–4) | 00J-A01 — Panodyssey Notice / TEMS Rights-Portability Implementation Trajectory (1–26) | SOURCE_EDITION_CONTEXT: Fork T09 exact current/submitted. A01 new header owns canonical source, evidence freeze and Stage A classification. |
+| 1. Why Panodyssey/TEMS is the first implementation trajectory (5–31) | 1. Why Panodyssey/TEMS is the first implementation trajectory (27–53) | PRESERVED_WITH_INHERITED_RESIDUAL: Same capability boundary and obsolete changed-decision sentence; section6 controls same final question. |
+| 2. Public source boundary (32–33) | 2. Public source boundary (54–55) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 2.0 Public-only evidence rule (34–49) | 2.0 Public-only evidence rule (56–71) | EQUIVALENT_PUBLIC_SOURCE_BOUNDARY: Positive public-only wording substitutes explicit exclusion of private demonstrations/emails; synthetic/constructed classes retained. |
+| P1 — FG-TIDA Theme #17 (50–71) | P1 — FG-TIDA Theme #17 (72–93) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| P2 — Panodyssey AI Transparency Notice launch (72–80) | P2 — Panodyssey AI Transparency Notice launch (94–102) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| P3 — Panodyssey Notice V2.1 public update (81–91) | P3 — Panodyssey Notice V2.1 public update (103–113) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| P4 — Panodyssey licensing / certified human content description (92–102) | P4 — Panodyssey licensing / certified human content description (114–124) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| P5 — TEMS Trial 7 (103–115) | P5 — TEMS Trial 7 (125–137) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| P6 — W3C ODRL (116–124) | P6 — W3C ODRL (138–146) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| P7 — C2PA provenance boundary (125–131) | P7 — C2PA provenance boundary (147–153) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| P8 — European Commission 2026 TDM opt-out registry feasibility study (132–144) | P8 — European Commission 2026 TDM opt-out registry feasibility study (154–166) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 3. Three implementation arms (145–160) | 3. Three implementation arms (167–182) | EA_OBJECT_REMOVED_FROM_ADAPTER: H0/H1/H2 table exact; A01 conditional future EA-enabled arm omitted in T09. Not a fourth case route. |
+| 3A. Public capability versus constructed test architecture (161–180) | 3A. Public capability versus constructed test architecture (183–202) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 4. PANO-H0 — standard competent source-side route (181–184) | 4. PANO-H0 — standard competent source-side route (203–206) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 4.1 What H0 legitimately does well (185–199) | 4.1 What H0 legitimately does well (207–221) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 4.2 What remains outside H0's guaranteed boundary (200–212) | 4.2 What remains outside H0's guaranteed boundary (222–234) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 4.3 H0 gate reading (213–227) | 4.3 H0 gate reading (235–249) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 5. PANO-H1 — defended top interoperability implementation (228–233) | 5. PANO-H1 — defended top interoperability implementation (250–255) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 5.1 Additional H1 controls (234–259) | 5.1 Additional H1 controls (256–281) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 5.2 H1 gate behavior (260–270) | 5.2 H1 gate behavior (282–292) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 5.3 Expected H1 result on original regime (271–292) | 5.3 Expected H1 result on original regime (293–314) | FALSIFIER_FRAME_GENERALIZED: All controls and same-Q5 N/G prerequisite retained; recurrence eligibility vs latent EA differential phrasing differs. |
+| 6. PANO-H2 — same top implementation under regime change (293–298) | 6. PANO-H2 — same top implementation under regime change (315–320) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 6.1 Freeze H1 first (299–310) | 6.1 Freeze H1 first (321–332) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 6.2 Original qualified resolver regime (311–333) | 6.2 Original qualified resolver regime (333–355) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 6.3 Latent interoperability / rights-resolution regime shift (334–353) | 6.3 Latent interoperability / rights-resolution regime shift (356–375) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 6.4 Why this is a regime change rather than an ordinary integration bug (354–366) | 6.4 Why this is a regime change rather than an ordinary integration bug (376–388) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 6.5 Expected H2 failure without dynamic requalification (367–383) | 6.5 Expected H2 failure without dynamic requalification (389–405) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 7. What H2 must do to pass (384–408) | 7. What H2 must do to pass (406–430) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 8. Matched stress tests (409–410) | 8. Matched stress tests (431–432) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Test A — normal source continuity (411–414) | Test A — normal source continuity (433–436) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Test B — agent identity/mandate (415–420) | Test B — agent identity/mandate (437–442) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Test C — legitimate transfer (421–426) | Test C — legitimate transfer (443–448) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Test D — source-dependency preservation (427–432) | Test D — source-dependency preservation (449–454) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Test E — correlated replication (433–438) | Test E — correlated replication (455–460) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Test F — latent rights-resolution regime shift (439–444) | Test F — latent rights-resolution regime shift (461–466) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Test G — strengthened conventional falsifier (445–458) | Test G — strengthened conventional falsifier (467–480) | FALSIFIER_FRAME_GENERALIZED: Defender controls identical. T09 predicted failure not reproduced within declared burden vs A01 EA differential narrowed/eliminated at equal/lower burden. |
+| 9. Q0–Q5 implementation matrix (459–471) | 9. Q0–Q5 implementation matrix (481–493) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 10. Measures (472–487) | 10. Measures (494–509) | SEVEN_PROFILE_MEASURES_PRESERVED: All seven profile observables retained; declared-measure vs canonical KPI labels differ. |
+| 11. Falsification rule (488–503) | 11. Falsification rule (510–525) | RESEARCH_OBJECT_DELTA: T09 recurrence prediction uses tested engineering under declared resources; A01 EA differential also requires no EA-specific semantics beyond ordinary engineering. |
+| 12. Relationship to Panodyssey product claims (504–507) | 12. Relationship to Panodyssey product claims (526–529) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Documented Panodyssey/TEMS capability (508–513) | Documented Panodyssey/TEMS capability (530–535) | EQUIVALENT_PUBLIC_SOURCE_EXCLUSION: Public-only attribution corresponds to private-email source exclusion in A01. |
+| Strong-peer engineering extension (514–517) | Strong-peer engineering extension (536–539) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| Synthetic regime-change test (518–523) | Synthetic regime-change test (540–545) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 13. Why not use C2PA as A01 (524–533) | 13. Why not use C2PA as A01 (546–555) | FUTURE_COMPARATOR_FRAME_DELTA: Future C2PA A02 and provenance bounds retained; T09 own freeze/no transferred result vs A01 efficiency comparison question. |
+| 14. Evidence-source freeze and dating (534–554) | 14. Evidence-source freeze and dating (556–576) | PRESERVED: Full content and qualification retained; heading depth and owner context change. |
+| 15. Current conclusion (555–579) | 15. Current conclusion (577–599) | RESEARCH_OBJECT_DELTA: Same successful-defender/frozen-implementation trajectory retained. Valid defence of tested branch vs proposed EA differential conclusion. Status unchanged. |
+
+### Additional retired alias to current receiving scopes
+
+| Source heading and lines | Receiving scope | Verdict and meaning |
+|---|---|---|
+| 00J — Rights Provenance Inversion: “The Author Pays for Their Own Work” (1–23) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 1. Purpose (24–51) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 2. Scenario boundary and non-claims (52–53) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 2.1 What 00J is testing (54–68) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 2.2 What 00J is not testing (69–85) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 3. Frozen fixture facts (86–87) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| T0 — Original work and rights frame (88–97) | 00J sections1/2.1/4 and A01 sections4/5 | SPECIFIC_POLICY_GENERALIZED: Specific P0 permits bounded RAG, denies training/permanent corpus, requires attribution and bounded retention. Current fixture is more general; RAG and training-prohibition controls remain. Preserve historical policy, no universal restoration. |
+| T1 — Agent access (98–107) | 00J sections1/1.1/2.1/4 | MECHANISM_PRESERVED_OR_REFORMULATED: W-ID/P0/G1/L1/K1-K4/T0-T5 label topology becomes A/W/R0/C1/M1/D1/X/RX narrative. Narrow authentic credential, stipulated dependence, absent authority and correlated replication retained; exact variant label map pending. |
+| T2 — Transformation (108–116) | 00J sections1/1.1/2.1/4 | MECHANISM_PRESERVED_OR_REFORMULATED: W-ID/P0/G1/L1/K1-K4/T0-T5 label topology becomes A/W/R0/C1/M1/D1/X/RX narrative. Narrow authentic credential, stipulated dependence, absent authority and correlated replication retained; exact variant label map pending. |
+| T3 — Downstream rights claim (117–125) | 00J sections1/1.1/2.1/4 | MECHANISM_PRESERVED_OR_REFORMULATED: W-ID/P0/G1/L1/K1-K4/T0-T5 label topology becomes A/W/R0/C1/M1/D1/X/RX narrative. Narrow authentic credential, stipulated dependence, absent authority and correlated replication retained; exact variant label map pending. |
+| T4 — Ecosystem propagation (126–131) | 00J sections1/1.1/2.1/4 | MECHANISM_PRESERVED_OR_REFORMULATED: W-ID/P0/G1/L1/K1-K4/T0-T5 label topology becomes A/W/R0/C1/M1/D1/X/RX narrative. Narrow authentic credential, stipulated dependence, absent authority and correlated replication retained; exact variant label map pending. |
+| T5 — Original author reuses original material (132–137) | 00J sections1/1.1/2.1/4 | MECHANISM_PRESERVED_OR_REFORMULATED: W-ID/P0/G1/L1/K1-K4/T0-T5 label topology becomes A/W/R0/C1/M1/D1/X/RX narrative. Narrow authentic credential, stipulated dependence, absent authority and correlated replication retained; exact variant label map pending. |
+| Fixture oracle for the main branch (138–152) | 00J sections1/1.1/2.1/4 | MECHANISM_PRESERVED_OR_REFORMULATED: W-ID/P0/G1/L1/K1-K4/T0-T5 label topology becomes A/W/R0/C1/M1/D1/X/RX narrative. Narrow authentic credential, stipulated dependence, absent authority and correlated replication retained; exact variant label map pending. |
+| 4. Primary failure mechanism (153–166) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 5. Canonical challenge coverage (167–193) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 6. Quality-plan fixture (194–216) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 7. Gate register — requirements-derived, not a second requirement system (217–229) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 7.1 No supplementary universal gate required (230–246) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 8. Deterministic gate logic (247–263) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 9. Route N — gates exist but are badly implemented or bypassed (264–274) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 9.1 Why the route can look locally reasonable (275–280) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 9.2 Failure classification (281–288) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 10. Route Q — requirements correctly implemented (289–299) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 10.1 Correct route outcome (300–309) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 10.2 Requirements sufficiency determination (310–323) | 00J sections7.3/7.4/14 | LATER_QUALIFIED_FINDINGS_RETAIN: Old design/unexecuted status is historical. Current limited symbolic pair with peer parity does not execute full product trajectory; preserve this added negative evidence boundary. |
+| 11. Positive and negative controls (324–325) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| J-C0 — Legitimate transfer / licence (326–331) | 00J C1 | CONTROL_PRESERVED_RENUMBERED: Control meaning preserved under later identifier; identical control number is not identical control. |
+| J-C1 — Independent work (332–337) | 00J C2 | CONTROL_PRESERVED_RENUMBERED: Control meaning preserved under later identifier; identical control number is not identical control. |
+| J-C2 — Correlated copies (338–343) | 00J C3 | CONTROL_PRESERVED_RENUMBERED: Control meaning preserved under later identifier; identical control number is not identical control. |
+| J-C3 — Allowed RAG, downstream use unobservable (344–349) | 00J C4 | CONTROL_PRESERVED_RENUMBERED: Control meaning preserved under later identifier; identical control number is not identical control. |
+| J-C4 — Stale/revoked record (350–355) | 00J C5 | CONTROL_PRESERVED_RENUMBERED: Control meaning preserved under later identifier; identical control number is not identical control. |
+| J-C5 — Human approval is non-curative (356–363) | 00J rule6/Q5/conditional S4-S13 | PRINCIPLE_RETAINED_EXPLICIT_NAMED_TEST_PENDING: Current C6 is dispute/re-entry, not this approval test. Noncurative rule6 and Q5 retain principle; explicit mandatory applicable human-review test selection needs disposition. |
+| 12. KPI and outcome instrumentation (364–365) | 00J section8; rule6/rule9; case Evidence E.5 | MIXED_DENOMINATORS_PENDING: Old licence demand denominator main inversion branches vs current applicable final decisions. Old inversion denominator applicable runs vs current applicable negative branches. Repair-success and promotion/material-handoff metric have no exact same named denominator in 00J/A01. Mechanisms remain. |
+| Canonical measures (366–386) | 00J section8; rule6/rule9; case Evidence E.5 | MIXED_DENOMINATORS_PENDING: Old licence demand denominator main inversion branches vs current applicable final decisions. Old inversion denominator applicable runs vs current applicable negative branches. Repair-success and promotion/material-handoff metric have no exact same named denominator in 00J/A01. Mechanisms remain. |
+| Fixture-specific measures (387–401) | 00J section8; rule6/rule9; case Evidence E.5 | MIXED_DENOMINATORS_PENDING: Old licence demand denominator main inversion branches vs current applicable final decisions. Old inversion denominator applicable runs vs current applicable negative branches. Repair-success and promotion/material-handoff metric have no exact same named denominator in 00J/A01. Mechanisms remain. |
+| 13. Comparator and falsification rule (402–416) | 00J sections9/10; A01 sections3/8G/11 | COMPARATOR_LADDER_HISTORICAL: B0-B3 ladder generalized to strong peers and conditional future EA arm. B3 is not fourth UC21 walkthrough. Preserve source ladder and negative EA interpretation separately. |
+| 14. Implementation plan (417–418) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 0 — instrumentation autotest (419–424) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 1 — freeze fixture and bounded oracle (425–428) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 2 — freeze gate/KPI pre-registration (429–432) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 3 — deterministic Stage-0 harness (433–436) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 4 — continuity and controls first (437–440) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 5 — execute Route N (441–444) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 6 — execute Route Q (445–450) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 7 — strong-peer comparison (451–454) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 8 — implementation profiles (455–460) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 9 — independent producer/receiver stage (461–464) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| Step 10 — real decision-context stage (465–470) | 00J sections0-14 and A01 | MECHANISM_PRESERVED_OR_REFORMULATED: Historical wording and identifiers remain in this distinct alias. General condition exists in complete current receivers; not byte identity. |
+| 15. Result classes for 00J (471–483) | 00J sections9/14 and A01 section11 | RESULT_MEANINGS_PRESERVED: Failure route, conformance, strong peer and requirements gap retained in prose; ordinal result4 remains historical. |
+| 16. Horizontal extensibility (484–495) | 00J section0.2 and linked extensibility/A25 | KERNEL_RELOCATED_EXTRA_RECIPIENT_PARTIAL: Family kernel and admission bound remain. Exact seven example-domain list not in 00J/A01; separate extensibility profile not fully read. No corpus-wide absence claim. |
+| 17. Public/reference provenance (496–514) | 00J section13/header/3 | HISTORICAL_LINKSET_DIFFERS: Historic direct00E/00F/00G/00H/00D-A01 context not same current list; preserve full source URL context. |
+| 18. Current disposition (515–531) | 00J sections7.3/7.4/14 | LATER_QUALIFIED_FINDINGS_RETAIN: Old design/unexecuted status is historical. Current limited symbolic pair with peer parity does not execute full product trajectory; preserve this added negative evidence boundary. |
+
+## Complete relevant source-edition register
+
+Every listed corpus edition was authenticated and compared. Complete changes are retained in JSON. Shared unchanged spans were read in complete current receivers; separate monolithic duplicate rereads are not claimed.
+
+| Path | Commit and date | Blob | Bytes |
+|---|---|---|---:|
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | cefc0ca7200b1a00511ef11dbcd9d3814a77081b 2026-09-24T12:49:18+02:00 | 6f2f91ed21cbdd9e24ba84a41930a64b4d63e99b | 32906 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | d3d228a912eff74fd780e3c158845e0cd56f032d 2026-09-24T13:09:58+02:00 | 3869932ad579957017133cfd864993818704bfd6 | 41151 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | d77e5d5d1290b75fe7b498c32904c46cac7ea019 2026-09-24T13:33:10+02:00 | c9cbec330f5da00b26abb6bb36f4b85a973c5d12 | 43775 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | ea7813effc08412ce0336af609d2ab444c7fe5d0 2026-09-24T13:33:57+02:00 | 5b549d34207a566985e7f952943e73dea519d353 | 45823 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 580c46eab92623fe54c91760b7e0c0f0b16c094e 2026-09-24T13:38:21+02:00 | 3ae3f15f102f1534d70391b52a3a7b198d0106c0 | 46142 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 451c9f313af83e72e3ea50ddeef8a3377600d039 2026-09-24T13:44:30+02:00 | f142bbb7fdec6057339f72e00db8e0e4626f6cea | 52875 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | d27989f956b0addd28c673ccda3b1f7cc33a2796 2026-09-24T13:46:14+02:00 | 36153853aecc8d534a43e78d80754756e077e23d | 53102 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | dc0b49ee94e1f56be93b881967e2622964bd2cb7 2026-09-24T14:19:06+02:00 | 2bb1f211796e5061a9d8e45b89d9eca5c6e8e93c | 58622 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | d3a3ce9f3227153ab93efac2b9f25f08892e6c3a 2026-09-25T04:27:25+02:00 | b8b9d0d8332dbb914873d144448ffdcdbc668a96 | 58622 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 3842b7d76577e9dfec5f004e2c945514851b2b02 2026-09-25T14:27:03+02:00 | 317fbe2b6c703dd45494a666ee2724fd25c5a628 | 59138 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | b558e281d79c842525c868f9b4be85a1be84fa28 2026-09-25T14:28:14+02:00 | f133c30269956a8ae5f90218701d71c6faf1eea4 | 59859 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 62bad9c23df7f5de270ec3be42aac79b3fd8e5e9 2026-09-25T14:35:11+02:00 | 5794e533e37ddf163e60c67b86961c89e6d3dd37 | 60000 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 38f5f4e6c2865b733c7b043e75954dcdcb7f0dbe 2026-09-25T14:56:45+02:00 | f2059f050deae3989f8c33094a7f3e2e4fc9d36f | 60439 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 6a0d20471c427b848be9513b2584e7d343b7056f 2026-09-25T22:09:22+02:00 | ad0387730615490194760316814d5f59fd4192d7 | 61559 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | f5a64d06677b980fad53c87abdc2b1e91dddfc2f 2026-09-25T23:06:10+02:00 | dd055b2a6bd151e9011a5affff8ed9b8049fbae8 | 61810 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 7d6ec21686145f66b741d334c121ecdd3e7b46e9 2026-09-26T00:35:47+02:00 | b23da66f02db084234dec5d2b52cf2ead1931425 | 62130 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 3cf10a670093fd8f71b32371440266914f5d2ca3 2026-09-26T07:43:54+02:00 | 7513c9daf272a7bbffa5d42a15e3312b2e667183 | 62650 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md | 263cb6c01ab4d535ca2eafcbffdd096b445458fd 2026-10-03T10:28:46+02:00 | 17616f2495ccfc08828fed49d4f566f718e67eee | 62811 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | f6cd189e8e20f4c6022cbcb0ea0f73fa62566e85 2026-09-24T13:12:44+02:00 | 2cc0d0ea187568b8eb65b86ca82177cd9384831e | 23061 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | 3c3d9d8ee61456dd1095d99793c5ab01d1028e67 2026-09-24T13:33:13+02:00 | 4e2abf8f5de694acf565fdb1f9a93eb89ae36e1d | 26172 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | 1b4c84edfdee8b2edc0f70d9ceb07c94eaba73ce 2026-09-24T13:37:46+02:00 | 01a3b0f9f68df8dc96443f8f434d2429db4ced15 | 29034 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | 446b8abfaba177b9809c6e3bf92256ff3dbf0a5a 2026-09-24T13:45:22+02:00 | 4e9a7cc8f25373bcfc6fefbca039ff8b71b43cd6 | 32839 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | be115a4f7e6fe055bc00956a9bf2fa2ba8b94c30 2026-09-24T13:46:17+02:00 | c331f8398b0940b5b4fa25006f0f95a4ff10c3cb | 33194 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | 2531adb10f07c47ebbdfde1aacac7530573aadde 2026-09-24T14:19:09+02:00 | 8e676cc71c32bde46ce6f56a80ecb8040e3a5182 | 35422 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | e8275019b93d7ff06352f0cbd4b86f1606d24885 2026-10-07T12:39:16+02:00 | 4620dad846bcca61ce04e5404e334e9858021c8a | 35996 |
+| research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md | 64fa9f3d777c30860b92ffa7e4440ef4b7193ca8 2026-10-07T13:24:21+02:00 | af17d682b7e7e742b298de7918ade6029dffa9b8 | 36119 |
+| research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_THE_AUTHOR_PAYS_FOR_THEIR_OWN_WORK_v0.1_DRAFT.md | cb10aca3c9cb2d4281e0ed056c60643f305596ac additional retired alias | 55e0a2cff9d354bf18c10ec1a639f1bab22a6319 | 32554 |
+
+## Graphic identity and complete source text
+
+The two exact shared SVGs, the canonical gate card and added Route N/Q graphic are listed below. The distinct case gate card remains fa7485307ef3167a5ae81a307cb95d0222bf5467, 4,883 bytes, SHA-256 1fc032fbe82cd4ea78fbc9ee2f13e5e7a4c62c1ece1f5cefc0c5684e7b9db613; only the subtitle differs as shown above.
+
+### research/ecosystem-awareness/baseline/assets/00J/1_lineage_chain.svg
+
+Blob 370a30d19d8bef1b82452c0528f0d289ffd96b55; 7066 bytes; SHA-256 334fdf0ded33ecc4a26962454b1ffc9408c8081b5654c365047c64930f238dcd.
+
+````text
+00J — How the chain actually breaks
+"The Author Pays for Their Own Work" — the chain begins with locally valid facts; the first material break occurs at step 4.
+1 · A publishes W
+Creator identity, timestamp,
+machine-readable rights record R0
+valid: A is the fixture-original source under R0
+2 · C1 accesses W
+One declared, bounded use —
+not ownership, not relicensing
+valid: a narrow permission
+3 · M1 generates D1
+"M1 generated D1" is authentic.
+D1 still depends on W.
+valid: only the generation act
+4 · THE BREAK
+D1 ← W dependency and R0
+are flattened or dropped
+during one or more handoffs
+nothing downstream is fake —
+the link is just gone
+5 · X registers RX
+Signed, timestamped, authentic
+as X's own record
+valid, but not a claim on A
+6 · RX is replicated
+Many catalogues copy RX —
+same lineage, not independent
+looks like corroboration
+7 · A publishes W2
+Much later — reusing
+material that originates in W
+A is the rightful source
+8 · Rights checker decides
+Sees RX, cannot reconstruct
+A → W → D1
+LICENSE_REQUIRED / PAY_X
+against the original author
+Every box above is individually true. The paradox needs no forged signature —
+only a narrower valid statement quietly promoted into a stronger enforceable claim.
+````
+
+### research/ecosystem-awareness/baseline/assets/00J/2_evidence_scopes.svg
+
+Blob bf144dafa900e0d2f60ff314814bcf24284ae054; 2970 bytes; SHA-256 5e493bc9b708626d97608fa533a647ee303e078637e87d2609414cad71765c70.
+
+````text
+Four different questions, four different evidence types
+A statement that is valid for one of these does not, by itself, answer any of the other three.
+GENERATION PROVENANCE
+"System M1 generated artifact D1 at time t."
+Answers: who/what produced this artifact, and when.
+Does NOT answer: whether D1 is independent of any source it drew on.
+SOURCE PROVENANCE
+"D1 materially depends on source work W."
+Answers: what this artifact was derived from.
+Does NOT answer: who owns the rights in the result, or against whom.
+RIGHTS PROVENANCE
+"X registered/licensed a claim RX over D1."
+Answers: that X made an authentic record of its own claim.
+Does NOT answer: that X acquired every right needed to enforce it against A.
+EXECUTION / COMPLIANCE EVIDENCE
+"A's use of W2 is / is not compliant with a specific condition."
+Answers: whether one particular use matches one particular rule.
+Does NOT follow automatically from any of the three rows above.
+````
+
+### research/ecosystem-awareness/baseline/assets/00J/4_gate_reference_card.svg
+
+Blob eadd7ad5568848801da2dceb3a7d141e8d74d644; 4906 bytes; SHA-256 78e81b6b793aea36d0cd26cfff5d52303caf159ea40d11a763eac3178ad0c223.
+
+````text
+00J quick reference — six gates in one glance
+No new canonical gate is created here. This is a lookup card for the existing Q0–Q5 route.
+Gate
+Question it asks
+Correct system does this
+Q0
+Is the original A / W / R0 rights frame
+current, scoped and attributable?
+Preserves owner, version, use conditions
+and expiry — never treats them as optional.
+Q1
+Who is C1 acting for, and which use
+survives the handoff?
+A bounded access grant never silently
+widens into unrestricted downstream use.
+Q2
+Is the W → D1 dependency preserved
+through the generation record?
+"Generated by M1" stays separate from
+"independent of W" — or marks UNKNOWN.
+Q3
+What authority actually supports
+X's downstream claim RX?
+RX stays a bounded claim; a conflicting R0
+triggers requalification, never silent override.
+Q4
+Are the replicated RX copies independent
+corroboration, or the same source repeated?
+Correlated copies never upgrade to
+independent evidence merely by multiplying.
+Q5
+Is there sufficient current evidence AND
+authority to enforce against this exact use?
+Enforces only a proposition actually
+supported — otherwise REQUALIFY / HOLD.
+````
+
+### research/ecosystem-awareness/baseline/assets/00J/3_two_routes.svg
+
+Blob 0b6f161b8b5455c31318b8826ec84d604f35209e; 5177 bytes; SHA-256 218cb5a3180a7c8201a5948ac9011fb4208467d848a4d2d2d59698936629dc8e.
+
+````text
+Same event, two implementations
+Both routes see the same facts. Only one preserves the difference between "generated" and "owned".
+Route N — gates bypassed / misapplied
+Route Q — gates correctly implemented
+Q2 · generation vs source
+"Generated-by M1" is treated as proof
+that D1 is independent of W.
+D1 ← W dependency silently disappears.
+Q2 · generation vs source
+M1's credential is accepted only for the
+generation proposition, nothing wider.
+W dependency kept, or explicit UNKNOWN.
+Q3 · downstream claim
+Signature + timestamp + registry presence
+is accepted as sufficient rights authority.
+RX becomes stronger than its evidence.
+Q3 · downstream claim
+RX accepted as X's own bounded record;
+conflict with R0 stays visible.
+RX cannot manufacture absent authority.
+Q4 · replication
+Multiple catalogues copying RX are
+counted as independent confirmations.
+False corroboration increases confidence.
+Q4 · replication
+Replicas are correlated to one RX;
+copies never increase evidentiary class.
+Dependent replicas do not become independent corroboration.
+Q5 · final decision
+A later reuses material from W in W2;
+checker emits LICENSE_REQUIRED / PAY_X
+/ BLOCK based on RX alone.
+The original author is billed for their own work.
+Q5 · final decision
+Enforcement requires current evidence
+AND authority for this exact proposition —
+otherwise REQUALIFY / HOLD / no conclusion.
+No unsupported payment or block occurs.
+Route Q uses the existing canonical requirements — the core controls here trace to S1, S5, S7, S9, S11, S12 and S14.
+Route N fails only where those existing requirements were skipped or given flattened evidence.
+````
+
+
+
+### Second-pass candidate94 — same question, changed ecosystem relationship
+
+Source: [research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca2131e20e2629a0ef1e0398bb9bd274f407bf3e/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · Git blob `af17d682b7e7e742b298de7918ade6029dffa9b8`. Location: Section1 — last bullet of why Panodyssey/TEMS fits00J. Current old text appears exactly once.
+
+**Text before — complete current passage:**
+
+```markdown
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+```
+
+**Text after — complete proposed passage:**
+
+```markdown
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.
+```
+
+Reason: Removes the introduction/controlling§6 conflict and explains that Q5 remains constant while the resolver/identifier/lineage contract changes.
+
+Expected impact **Medium**; risk **Low** — One reader-facing bullet;§6 tests, scenario facts, figures, frozen caseT09 and all source/results stay unchanged. Confirm no broader proposition-change claim is introduced. Effort **Low** — Literal one-location check, controlling§6/history check and exact output/readback; no runtime or schema validation.
+
+Dependencies: 00J-A01§6.2–6.4/TestF; reviewerS6 history at3c3d9d; T09 historical interpretation. Decision: Ivan approves candidate94 exact current-owner passage; no fork or submitted edition edit. **Prepared, not applied.**
+
+
+### Reciprocal case/method consequence
+
+The [five-protocol judgement](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026) establishes actual receivers for HC/HS/KPIs/S4 duality and keeps the HR/claim/field bridge open. Retain both formal source and qualified case interpretation. The S6 controls/method reception does not close all case-source custody, older-alias metric dispositions or generic DDS contract transfer. Candidate94 edits only the actual maintained A01 source after GO; no fork edit.
