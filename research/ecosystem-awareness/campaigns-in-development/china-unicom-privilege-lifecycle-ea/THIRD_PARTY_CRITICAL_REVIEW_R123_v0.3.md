@@ -1,5 +1,7 @@
 # CU-HIB-01 · Independent-reader stress review of the self-contained R1/R2/R3 dossier v0.3
 
+> **Provenance of review:** **AI-assisted adversarial, author-side analysis**. This is neither independent peer review nor source-owner validation; the historical filename and earlier “external/third-party” labels are retained only for traceability.
+
 **Review date:** 14 October 2026. **Reviewer class:** author-side adversarial document review, **not an independent examiner, standards editor, product evaluator or source owner's assurance review**.  
 **Read first:** [the third-party dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md).  
 **Evidence ceiling:** public source review, prospective experimental design and machine-readable paper control; no native PDP run, frozen independent oracle or measured EA differential.
