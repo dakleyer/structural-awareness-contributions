@@ -1,5 +1,9 @@
 # CU-HIB-01 — R3 empirical admission correction and reverse requirements audit
 
+
+> **GOVERNING-PRINCIPLE RECONCILIATION — 14 October 2026.** The [recurring uncovered frontier study](R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md) is the current scientific orientation: R1 exposes one source-grounded gap, R2 fixes it and freezes, R3 **deliberately seeks the next material admissible context beyond that frozen configuration**. The known-family calibration classification below remains correct, but **must not be read as prohibiting post-freeze adversarial search**. Such a search is valid for a **conditional existential counterexample**, with its full search/selection budget and all successful/failed probes recorded; it cannot be advertised as representative frequency or a universal impossibility proof. Full source-owner WP0 agreement is needed for a China Unicom-owned empirical policy, **not** for source-neutral synthetic modelling of a recurrence hypothesis. Do not silently promote one tested instance to a claim about all controls or EA's universal superiority.
+
+
 **Research correction:** 2026-10-14 · **Related full dossier:** [v0.4](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md).  
 **Source issue:** [FG-TIDA Theme #23](https://github.com/FG-TIDA/themes/issues/23).  
 **Status:** author-side prospective scientific design, **not approved, frozen, executed, peer-adjudicated, or co-authored/endorsed by China Unicom**.  
