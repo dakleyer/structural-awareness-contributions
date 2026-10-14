@@ -65,8 +65,8 @@
       "title": "China Unicom / Theme #23: hibernation privilege restoration and EA-qualified context",
       "dds_stage": "A",
       "profile": "SIMPLIFIED_STAGE_A_PREPARATION",
-      "status": "IN_DEVELOPMENT_READY_FOR_LOCAL_DESIGN_REVIEW_NOT_APPROVED",
-      "science_evidence": "DOCUMENTARY_AND_AUTHOR_CHECKED_SYNTHETIC_SPECIFICATION_ONLY",
+      "status": "IN_DEVELOPMENT_COMPLETE_THIRD_PARTY_DESIGN_READY_FOR_LOCAL_REVIEW_NOT_APPROVED",
+      "science_evidence": "SOURCE_RECONCILED_DOCUMENTARY_R123_DESIGN_PUBLIC_SYNTHETIC_CONTROLS_ONLY",
       "main_record": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CAMPAIGN.md",
       "record": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CAMPAIGN.json",
       "links": [
@@ -81,7 +81,10 @@
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/AUDIT_REPORT_2026-10-14.md",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/tools/validate_challenge.py",
-        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/REQUIREMENTS_TRACEABILITY_v0.2.md"
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/REQUIREMENTS_TRACEABILITY_v0.2.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R123_STAGE_REGISTER_v0.3.json"
       ],
       "external_theme": "https://github.com/FG-TIDA/themes/issues/23",
       "external_proposers": "Ying Wang and Ye Tao / China Unicom",
@@ -95,16 +98,23 @@
       "independent_adjudication": false,
       "stage_b_c": "NOT_STARTED",
       "external_ITU_adoption": "NOT_CLAIMED",
-      "local_version": "0.2",
+      "local_version": "0.3",
       "created": "2026-10-14",
-      "current_challenge": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CHALLENGE_CONTRACT_v0.2.md",
+      "current_challenge": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
       "internal_design_approval": "PENDING",
       "stage_a_preregistration": "NOT_FROZEN",
       "stage_a_result": "NOT_ESTABLISHED",
       "approval_dossier": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/APPROVAL_AND_PREREGISTRATION_v0.2.md",
       "audit_report": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/AUDIT_REPORT_2026-10-14.md",
       "public_synthetic_casebook": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
-      "machine_static_validation": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/tools/validate_challenge.py"
+      "machine_static_validation": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/tools/validate_challenge.py",
+      "third_party_dossier": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
+      "adversarial_review": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md",
+      "R123_register": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R123_STAGE_REGISTER_v0.3.json",
+      "research_primary_claim": "material changed context changes applicability under approved policy and requirements",
+      "technology_differential": "SECONDARY_OPTIONAL_NOT_ASSUMED",
+      "restore_condition_source_response": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429",
+      "source_policy_approved": false
     }
   ],
   "last_updated": "2026-10-14"
