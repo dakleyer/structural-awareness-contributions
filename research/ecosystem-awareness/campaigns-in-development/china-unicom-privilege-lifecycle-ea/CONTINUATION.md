@@ -1,6 +1,10 @@
 # Continue the China Unicom Theme #23 DDS campaign
 
 
+> **CORRECT SCIENTIFIC CONTINUATION — recurring uncovered R3 (14 October).** [Governing R1→R2 repaired/frozen→R3-U principle](R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md) and [Mode X conditional adversarial run card](R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md) supersede reading the already repaired direct-hibernation edge as the main scored R3. The immediate experiment design task is **freeze the complete competent native R2 and its coverage**, then seek a source-grounded c2 outside that coverage using an honestly reported adversarial search; freeze generic EA ex ante, no hidden oracle data, legitimate positives preserved. The [WP0 owner brief](WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md) remains **unposted** and is for a real source-owned case, not a gate on research framing. No native experiment yet.
+
+
+
 > **CURRENT CONTINUATION — v0.3 (14 October):** first read [the complete third-party dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md), then [the R1/R2/R3 stage register](R123_STAGE_REGISTER_v0.3.json) and [critical review](THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md). The next real step is **D0 review of the context-first Challenge and D1 source-owned policy/materiality**, followed by genuine competent **R1 → defended/frozen R2 → independent R3**. Do **not** organize work around a preselected “EA winner”; a strong conventional R2 pass is valid. Prior v0.1/v0.2 continuation remains below for audit history.
 
 
