@@ -1,5 +1,9 @@
 # China Unicom Theme #23 — DDS Challenge Approval & Preregistration Dossier v0.2
 
+
+> **Audit successor notice (14 October):** [v0.3 third-party R1/R2/R3 dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md), [source/causality scientific audit](THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md) and [machine register](R123_STAGE_REGISTER_v0.3.json) now govern **what is submitted for D0 local design review**. This D0/D1/D2/D3 table retains its approval distinctions. Source-author discussion **agrees to restoration-condition declaration and later intent derivation**, but the **specific experimental authorization policy and owner consent are still not obtained**. No preregistration, scored experiment or stage promotion is implied.
+
+
 **Campaign:** DDS-A-CU-PLM-EA-01 · **Edition:** 14 October 2026 · **Approval owner:** Iván Abril Palma (local research programme only)  
 **Present decision:** **READY_FOR_LOCAL_DESIGN_REVIEW** — not yet approved.  
 **External state:** China Unicom / FG-TIDA owner review, co-design, independent judging and laboratory consent **NOT_ESTABLISHED**.  
