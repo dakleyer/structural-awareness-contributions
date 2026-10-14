@@ -1,5 +1,9 @@
 # China Unicom Theme #23 ↔ EA — candidate interface contract v0.1
 
+
+> **SOURCE + PURPOSE RECONCILIATION (14 October v0.3):** Use this v0.1 EHD/PDP/PEP proposal only alongside [the complete context-first R1/R2/R3 Challenge](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md). The [09:49 source-owner reply](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429) now supports **declaring a restore condition at suspension, verifying it at activation, then fresh intent derivation**. The interface is a potential way to express decision-relative qualifications; **it is not the primary Challenge target, a mandatory China Unicom protocol, nor an EA privilege engine**. Original v0.1 interface text preserved.
+
+
 **Local owner:** DDS-A-CU-PLM-EA-01. **Status:** source-preserving design; no normative acceptance, stable external schema or endpoint implementation.  
 **Primary basis:** [Ying Wang / #23, 14 October](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309); [EA general interfaces v0.5](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md); [00M canonical semantics](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md).
 
