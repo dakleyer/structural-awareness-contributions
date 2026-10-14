@@ -112,7 +112,12 @@
       "step1": "pin-and-validate-anchor",
       "step2": "omitted-for-attribution-only",
       "uses_native_checks": true,
-      "role": "MEASURE_MARGINAL_STEP2_VALUE_NONCONFORMANT_TO_YING_SOURCE_DESIGN"
+      "role": "MEASURE_MARGINAL_STEP2_VALUE_NONCONFORMANT_TO_YING_SOURCE_DESIGN",
+      "display_name": "ANCHOR-ONLY-SENSITIVITY",
+      "legacy_machine_id": "R2-AB2",
+      "claim_scope": "SOURCE_NEUTRAL_STRUCTURAL_SENSITIVITY_NOT_A_REPRESENTATION_OF_ZHAO_IMPLEMENTATION",
+      "guaranteed_failure": false,
+      "scientific_B2_reference": false
     },
     {
       "id": "R2-AB12",
@@ -235,5 +240,115 @@
   "action_policy_materiality_approved": false,
   "loss_model_preregistered": false,
   "experimental_runs_executed": false,
-  "evidence_ceiling_note": "Explicit absent approvals are factual status fields; NOT a scientific proof, simulation outcome or negative normative judgement."
+  "evidence_ceiling_note": "Explicit absent approvals are factual status fields; NOT a scientific proof, simulation outcome or negative normative judgement.",
+  "v041_r3_admission": {
+    "controlling_document": "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
+    "next_external_decision": "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
+    "research_primary_hypothesis": "H-OBS-R3_CONTEXT_OBSERVABILITY_NOT_TAUTOLOGICAL_POLICY_EFFECT",
+    "policy_materiality_is_oracle_premise": true,
+    "actual_policy_owner_approved": false,
+    "r2_training_case_families": [
+      "source_visible_critical_dependency",
+      "stale_cache_and_source",
+      "irrelevant_delta",
+      "revoked_authority",
+      "narrow_grant"
+    ],
+    "r3_case_admission": [
+      {
+        "id": "R3-A",
+        "kind": "KNOWN_FAMILY_CONTROL",
+        "claimed_out_of_family": false
+      },
+      {
+        "id": "R3-B",
+        "kind": "CONDITIONAL_HELD_OUT_OPERATIONAL_SOURCE_TOPOLOGY",
+        "claimed_out_of_family": "NOT_ESTABLISHED"
+      },
+      {
+        "id": "R3-C+",
+        "kind": "EPISTEMIC_CONFORMANCE",
+        "empirical_detection_denominator": false
+      },
+      {
+        "id": "R3-C−",
+        "kind": "EPISTEMIC_CONFORMANCE",
+        "empirical_detection_denominator": false
+      },
+      {
+        "id": "R3-D",
+        "kind": "KNOWN_FAMILY_CALIBRATION",
+        "claimed_out_of_family": false
+      },
+      {
+        "id": "R3-E",
+        "kind": "KNOWN_LEGITIMATE_POSITIVE",
+        "claimed_out_of_family": false
+      },
+      {
+        "id": "R3-F",
+        "kind": "CONDITIONAL_HELD_OUT_SOURCE_LINEAGE",
+        "claimed_out_of_family": "NOT_ESTABLISHED"
+      },
+      {
+        "id": "R3-G",
+        "kind": "AUTHORIZED_REENTRY_CONTINUITY",
+        "claimed_out_of_family": false
+      }
+    ],
+    "case_generation_partition": "PREREGISTER_DISJOINT_CASE_IDENTITIES_AND_EVIDENCE_GENERATORS; NOVEL_MECHANISM_CLAIM_REQUIRES_ADDITIONAL_SOURCE_TOPOLOGY_NONOVERLAP",
+    "complete_calibration_case_disclosure": true,
+    "all_heldout_attempts_retained": true,
+    "world_exogenous_changes": [
+      "S_to_R_edge_added"
+    ],
+    "natural_footprints_may_be_observed": true,
+    "footprints": [
+      {
+        "channel": "dependency_graph_event",
+        "root": "DomainB_Source",
+        "provenance": "OWNER_TO_FIX",
+        "lag": "NOT_DEFINED",
+        "visibility": "NOT_DEFINED"
+      },
+      {
+        "channel": "service_traffic_or_runtime_telemetry",
+        "root": "DomainB_Source",
+        "provenance": "OWNER_TO_FIX",
+        "lag": "NOT_DEFINED",
+        "visibility": "NOT_DEFINED"
+      },
+      {
+        "channel": "NACL_and_policy_read",
+        "root": "DomainA_or_B_PolicySource",
+        "provenance": "OWNER_TO_FIX",
+        "lag": "NOT_DEFINED",
+        "visibility": "NOT_DEFINED"
+      },
+      {
+        "channel": "credential_rotation_status_and_logs",
+        "root": "DomainA_CredentialSource",
+        "provenance": "OWNER_TO_FIX",
+        "lag": "NOT_DEFINED",
+        "visibility": "NOT_DEFINED"
+      }
+    ],
+    "no_artificial_suppression_of_legitimate_causal_footprint": true,
+    "independent_NACL_or_token_policy_mutation_promotes_multifactor": true,
+    "independent_impact_and_PEP_proof_needed_for_effects": true,
+    "c_pair_conformance_only": true,
+    "cu_sp_candidates_preexisting_not_discovered": true,
+    "reverse_falsification_outcomes": [
+      "RETAIN_WITH_EVIDENCE",
+      "NARROW",
+      "RETIRE_LOCAL_INCREMENTAL_CLAIM",
+      "NOT_ESTABLISHED",
+      "OUT_OF_SCOPE"
+    ],
+    "cu_sp09_10_deferred": true,
+    "next_step_send_external_comment": "NOT_AUTHORIZED_OR_SENT",
+    "native_R2_actual_freeze": false,
+    "heldout_R3_scored_runs": 0
+  },
+  "scientific_claim_revision": "Owner-approved policy defines materiality; empirically study source-specific observability/qualification/correct legitimate response with frozen native R2. Any EA-specific increment is optional and falsifiable."
 }
