@@ -36,6 +36,8 @@ REQUIRED = (
     "EXTERNAL_REVIEW_RECONCILIATION_v0.4.md",
     "R123_V04_FACTORIAL_PROTOCOL.json",
     "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
+    "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
+    "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
 )
 checks = []
 errors = []
@@ -219,6 +221,52 @@ check("bibliography_registered_without_result_promotion",
       campaign.get("records", {}).get("reference_crosswalk") == "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md" and
       campaign.get("status", {}).get("scientific_stage_a_finding") == "NOT_ESTABLISHED" and
       campaign.get("status", {}).get("run_executed") is False)
+
+
+# R3 v0.4.1 review: structural/documentary regression; not a test of a real PDP.
+r3audit = (PKG / "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md").read_text(encoding="utf-8")
+wp0 = (PKG / "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md").read_text(encoding="utf-8")
+r3corr = v04.get("v041_r3_admission", {})
+admitted = {x.get("id"):x for x in r3corr.get("r3_case_admission", [])}
+check("v041_policy_materiality_is_not_empirical_detection",
+      r3corr.get("policy_materiality_is_oracle_premise") is True and
+      "H-OBS-R3" in r3audit and "P-CONTEXT" in r3audit)
+check("v041_R2_calibration_not_misreported_as_unseen",
+      all(admitted.get(k, {}).get("claimed_out_of_family") is False
+          for k in ("R3-A","R3-D","R3-E")) and
+      r3corr.get("all_heldout_attempts_retained") is True)
+check("v041_R3_source_topology_novelty_unestablished",
+      all(admitted.get(k, {}).get("claimed_out_of_family") == "NOT_ESTABLISHED"
+          for k in ("R3-B","R3-F")))
+check("v041_world_truth_and_natural_footprints_separated",
+      r3corr.get("natural_footprints_may_be_observed") is True and
+      r3corr.get("no_artificial_suppression_of_legitimate_causal_footprint") is True and
+      r3corr.get("independent_NACL_or_token_policy_mutation_promotes_multifactor") is True and
+      len(r3corr.get("footprints",[])) >= 3)
+check("v041_Cpair_only_epistemic_conformance",
+      all(admitted.get(k,{}).get("empirical_detection_denominator") is False
+          for k in ("R3-C+","R3-C−")) and
+      r3corr.get("c_pair_conformance_only") is True)
+check("v041_anchor_only_is_neutral_sensitivity",
+      any(x.get("id") == "R2-AB2" and
+          x.get("display_name") == "ANCHOR-ONLY-SENSITIVITY" and
+          x.get("guaranteed_failure") is False for x in v04.get("ablations",[])))
+check("v041_all_ten_sp_candidates_have_reverse_rule",
+      r3corr.get("cu_sp_candidates_preexisting_not_discovered") is True and
+      all("**CU-SP" + str(i).zfill(2) in r3audit for i in range(1,11)))
+check("v041_four_WP0_questions_draft_only",
+      all("WP0-Q" + str(i) in wp0 for i in range(1,5)) and
+      r3corr.get("next_step_send_external_comment") == "NOT_AUTHORIZED_OR_SENT" and
+      campaign.get("audit_v0_4_1",{}).get("external_message_posted") is False)
+check("v041_dossier_crosslinks_current_admission_rules",
+      "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md" in v04_dossier and
+      "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md" in v04_dossier and
+      "H-OBS-R3" in v04_dossier)
+check("v041_all_scientific_gate_statuses_still_pending",
+      r3corr.get("actual_policy_owner_approved") is False and
+      r3corr.get("native_R2_actual_freeze") is False and
+      r3corr.get("heldout_R3_scored_runs") == 0 and
+      campaign.get("status",{}).get("scientific_stage_a_finding") == "NOT_ESTABLISHED")
 
 missing_links = []
 relative_links_checked = 0
