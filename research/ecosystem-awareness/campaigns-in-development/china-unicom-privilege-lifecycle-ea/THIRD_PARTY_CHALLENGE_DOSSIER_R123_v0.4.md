@@ -1,6 +1,10 @@
 # CU-HIB-01 — Context Change, Privilege Restoration and Ecosystem-Awareness Specifications
 ## Self-contained third-party challenge dossier · DDS Stage A · R1 → R2 → R3 · v0.4
 
+
+> **GOVERNING SCIENTIFIC PRINCIPLE — recurring uncovered contextual frontier (14 October 2026).** [Read the complete R1→R2→R3 governing formulation](R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md) **before** the narrower, historical direct-hibernation examples or the WP0 consultation. **R1:** competent existing controls encounter a first material context change outside their effective coverage. **R2:** the conventional owner repairs that case, demonstrates success, and freezes the **entire** defended system—including its generic adaptive and source-query methods. **R3:** examine another admissible material context change **outside the coverage of this frozen R2**. The EA research hypothesis is not “one more rule catches R3,” but whether a **prospectively fixed general, source-preserving scope/reliance-basis qualification mechanism** detects the loss of sufficient basis and triggers bounded authorized requalification **without a specific R3 patch**. Every later conventional repair becomes a new defended/frozen configuration; the recurrence question repeats. **Deliberate post-freeze adversarial search is valid for an existential counterexample** when the entire search and its cost are recorded; it is not automatically a frequency/generalization estimate. **This remains a hypothesis/protocol, not a proof of universal infinite failures or a validated EA advantage.** The earlier R3-A/D/E and W± tests are **calibration/conformance controls**, not the next uncovered R3.
+
+
 **Working ID:** DDS-A-CU-PLM-EA-01 / CU-HIB-01  
 **Version and source-review cutoff:** v0.4 — 14 October 2026. [Preserved v0.3 predecessor](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md). Includes the latest [Ying Wang response of 09:49:50 UTC](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429).  
 **Local research preparation:** Iván Abril Palma / The Integral Management Society.  
