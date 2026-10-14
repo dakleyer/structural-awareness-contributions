@@ -294,7 +294,7 @@ check("v042_no_biased_native_guard_disabling",
       gov.get("evaluation", {}).get("R2_generic_requalification_equivalence", "").startswith("FULL_CREDIT"))
 check("v042_EA_generic_fixed_ex_ante_not_case_specific",
       gov.get("evaluation", {}).get("EA_specific_c2_patch_after_freeze") == "DISALLOWED" and
-      "no c2-specific dependency rule" in mode_x_text)
+      "no c2-specific dependency rule" in mode_x_text.lower())
 check("v042_no_magic_information_or_universal_EA_wins",
       gov.get("evaluation", {}).get("strong_no_access_condition") == "NO_HIDDEN_TRUTH_INFERENCE_BY_ANY_ARM" and
       gov.get("recurrence", {}).get("infinite_EA_win_rate") == "NOT_DEFINED_OR_ESTABLISHED")
