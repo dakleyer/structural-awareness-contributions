@@ -35,6 +35,7 @@ REQUIRED = (
     "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md",
     "EXTERNAL_REVIEW_RECONCILIATION_v0.4.md",
     "R123_V04_FACTORIAL_PROTOCOL.json",
+    "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
 )
 checks = []
 errors = []
@@ -200,6 +201,24 @@ check("v04_scientific_object_context_not_EA_winner",
 check("v04_review_preserves_Nell_correctly",
       "Comment 5968346100" in v04_review and "Nell" in v04_review and
       "Nelson" in v04_review)
+
+
+# Editorial bibliographic check: reference-to-claim mapping, not native experimental conformance.
+reference_map = (PKG / "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md").read_text(encoding="utf-8")
+check("reference_map_has_twelve_scoped_primary_sources",
+      all("**N" + str(i).zfill(2) in reference_map for i in range(1,13)))
+check("reference_map_distinguishes_source_and_technology_scope",
+      "prior art" in reference_map.lower() and
+      "not" in reference_map.lower() and
+      "source-owner" in reference_map.lower() and
+      "AuthZEN" in reference_map and "CAEP" in reference_map and "PROV-DM" in reference_map)
+check("references_linked_from_third_party_dossier",
+      "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md" in v04_dossier and
+      "3.3 External standards and prior art" in v04_dossier)
+check("bibliography_registered_without_result_promotion",
+      campaign.get("records", {}).get("reference_crosswalk") == "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md" and
+      campaign.get("status", {}).get("scientific_stage_a_finding") == "NOT_ESTABLISHED" and
+      campaign.get("status", {}).get("run_executed") is False)
 
 missing_links = []
 relative_links_checked = 0
