@@ -180,7 +180,9 @@
     "factor_protocol_v04": "R123_V04_FACTORIAL_PROTOCOL.json",
     "reference_crosswalk": "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
     "r3_empirical_audit": "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
-    "WP0_owner_brief": "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md"
+    "WP0_owner_brief": "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
+    "governing_recurrence_principle": "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
+    "modeX_first_run_card": "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md"
   },
   "open_obligations": [
     "Source-authorized decision policy, restore-condition and restricted privilege semantics",
@@ -195,9 +197,9 @@
   ],
   "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation.",
   "approval_gates": {
-    "D0_LOCAL_DESIGN": "REVIEWABLE_WITH_R3_SCIENTIFIC_CORRECTION_NOT_APPROVED",
-    "D1_EXTERNAL_SEMANTICS": "BLOCKED_WP0_POLICY_AND_OBSERVATION_SOURCE",
-    "D2_STAGE_A_PREREGISTRATION": "BLOCKED_NO_NATIVE_R2_FREEZE_NO_DISJOINT_HOLDOUT_ORACLE",
+    "D0_LOCAL_DESIGN": "UPDATED_RECURRENCE_DESIGN_READY_FOR_REVIEW_NOT_APPROVED",
+    "D1_EXTERNAL_SEMANTICS": "PENDING_FOR_EXTERNAL_SOURCE_OWNED_REAL_CASE_SYNTHETIC_R123_MAY_PROCEED_SEPARATELY",
+    "D2_STAGE_A_PREREGISTRATION": "NO_R2_NATIVE_FREEZE_NO_R3U_ORACLE_RUN",
     "D3_STAGE_A_RESULT": "NOT_EXECUTED_NOT_ADJUDICATED",
     "STAGE_B": "NOT_STARTED",
     "STAGE_C": "NOT_STARTED"
@@ -235,9 +237,9 @@
     "results_or_effects_observed": false
   },
   "research_priorities": {
-    "primary": "INDEPENDENT_CONTEXTUAL_APPLICABILITY_WITH_OWNER_POLICY_ALLOW_OR_BLOCK",
-    "secondary": "H_ANCHOR_SCOPE_AND_TWO_STEP_INCREMENTAL_VALUE_WITHOUT_WEAKENING_NATIVE_R2",
-    "tertiary": "NONDEGENERATE_UNKNOWN_CONTINUITY_LOSS_AND_SEPARATE_INTEROPERABILITY_UNDER_PARITY"
+    "primary": "R1_UNCOVERED_c1_THEN_R2_FULL_REPAIR_FREEZE_THEN_R3_U_NEXT_MATERIAL_CONTEXT_BEYOND_EFFECTIVE_FROZEN_R2_COVERAGE_REPEAT",
+    "secondary": "PRECOMMITTED_GENERAL_EA_QUALIFICATION_RELIANCE_BASIS_LOSS_AND_TARGETED_OWNER_AUTHORIZED_REQUALIFICATION",
+    "tertiary": "STRONG_NATIVE_R2_GENERIC_ADAPTATION_FULLY_CREDITED; SEPARATE_EXISTENTIAL_ADVERSARIAL_SEARCH_FROM_PROSPECTIVE_GENERALIZATION"
   },
   "source_cutoff": {
     "date": "2026-10-14",
@@ -340,7 +342,7 @@
     "independent_conformance_result": false,
     "adopted_new_normative_requirement": false
   },
-  "audit_revision": "v0.4.1_R3_EMPIRICAL_ADMISSION_AND_WP0_PRIORITY",
+  "audit_revision": "v0.4.2_OPEN_CONTEXT_RECURRING_R3_GOVERNS",
   "audit_v0_4_1": {
     "status": "SOURCE_VERIFIED_DESIGN_CORRECTED_NO_INDEPENDENT_ADJUDICATION",
     "primary_empirical_question": "whether frozen competent R2 detects or qualifies the owner-policy-material source change under actual source/telemetry visibility",
@@ -356,5 +358,19 @@
     "R2_native_frozen": false,
     "R3_scored": false,
     "external_message_posted": false
+  },
+  "audit_v0_4_2": {
+    "state": "GOVERNING_SCIENTIFIC_FRAMING_CHANGED_NO_EMPIRICAL_FINDING",
+    "first_hibernation_c1": "R1_GAP_IF_SOURCE_CONFIRMED__R2_REPAIR_AND_CALIBRATION",
+    "next_new_context_c2": "R3_U_NOT_YET_ADMITTED_OR_OBSERVED",
+    "postfreeze_deliberate_search": "EXISTENTIAL_ADVERSARIAL_MODE_X_ALLOWED_WITH_SEARCH_CUSTODY",
+    "generalization": "SEPARATE_MODE_Y_UNESTABLISHED",
+    "scope_of_infinite_recurrence": "HYPOTHESIS_OVER_DECLARED_BOUNDED_COVERAGE_CLASSES_NOT_A_UNIVERSAL_THEOREM",
+    "EA_universal_superiority": "NOT_ESTABLISHED",
+    "conventional_generic_equivalent": "FULL_CREDIT_AND_PARITY_VALID",
+    "source_owner_WP0": "ONLY_FOR_SOURCE_OWNED_DEPLOYMENT_OR_COLLABORATION_NOT_FOR_SYNTHETIC_CONCEPT",
+    "source_rights": "MUST_BE_LEGITIMATE_AND_MATCHED",
+    "no_executed_R3U": true,
+    "no_external_comment_posted": true
   }
 }
