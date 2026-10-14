@@ -158,3 +158,54 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 |---|---|---|---|
 | 73 | Conservar fallos Type 1/2 dentro de un alcance fijo | research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md | Aplicado |
 
+
+
+## Third independent review — 02A/02B proof attribution and proposal 100, 14 October 2026
+
+The isolated source reviewer sealed the following first localized proof comparison and complete current-before/proposed-after pair before opening earlier audit bodies. It found a documentary mismatch: the current 02A Claim attributes an unqualified total, deterministic and surjective normalizer to linked 02B, whose current theorem establishes nonempty relative P1–P6 normal-form coverage. This does not refute that theorem or diagnose a program failure.
+
+This existing Foundation dossier already includes the pending 02A/02B derivations; it remains the shared review destination for this material integration. No separate 02A/02B VNext is created. The review is recorded in both directions here: 02A's attribution must match its actual 02B receiver; the receiver's relative source grammar must not acquire stronger claims from its incoming description.
+
+Source: [02A, current Claim](https://github.com/dakleyer/structural-awareness-contributions/blob/2893f5e842bc07a34802b2e7a817338debf70bb4/research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#L15), blob `06e12884ecbcff9df820d087e5b727bf4a18adab`. Receiver: [02B §§4–10](https://github.com/dakleyer/structural-awareness-contributions/blob/2893f5e842bc07a34802b2e7a817338debf70bb4/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md#7-syntactic-closure-theorem), blob `ac3f066ae72cb9f542e69537b3bcacc46ea4c3fb`. The coordinator rechecked the current before as one complete unique occurrence at line 15, and the proposed after as absent. Other source/receiver bytes remain unchanged.
+
+### Current receiver's complete theorem statement
+
+For every normative control clause \(x\in G_F\):
+
+\[
+NF(x)\subseteq\{P1,P2,P3,P4,P5,P6\}
+\]
+
+and \(NF(x)\neq\varnothing\).
+
+### Plan priority and decision
+
+**Proposal 100: expected impact Medium; risk Low; effort Low for this paragraph; priority Next.** It improves proof attribution without modifying the theorem, source grammar, fixtures or results. Read A19/A21/00K consumers and the current semantic-transfer relationship before the final integration decision. The exact pair is prepared; downstream reconciliation and Iván's named GO remain pending. No incorporation is performed by publishing this review.
+
+The first record sealed at `2026-10-14T20:57:56.480167+00:00` is preserved unchanged: Markdown SHA-256 `5cf886a301403b4fb6b8829ffa56457dc4c56e84cba9e3e2ee5863e70ee702d2`; JSON reading/exposure snapshot SHA-256 `c857c06cd9bcbc966636d2affcb13c41328e0be2c4a66b1121585e834a015311`. Its complete text follows verbatim. The larger proof/source cohort and whole restoration/organization plan remain incomplete.
+
+<details>
+<summary>Original independent judgement, complete before/after and acceptance checks</summary>
+
+# First scoped judgement and proposal: current 02A claim / 02B receiver
+
+Sealed UTC: 2026-10-14T20:57:56.480167+00:00
+
+The broader proof/source cohort remains incomplete. This record freezes a localized documentary comparison and a complete literal proposal; nothing is applied.
+
+Current 02A (`06e12884ecbcff9df820d087e5b727bf4a18adab`, line 15) names a total, deterministic and surjective normalizer, while its current linked 02B (`ac3f066ae72cb9f542e69537b3bcacc46ea4c3fb`, §§4–10) states nonempty set-valued relative closure and gives one or more applicable forms. The historical ordered-normalizer variant is a distinct preserved contract. Complete material proof-family predecessors were read; no test or source program was executed.
+
+Complete current before (unique occurrence):
+
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
+
+Complete proposed after:
+
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a relative syntactic-closure argument and an explicit mapping of the declared control surfaces to one or more P1–P6 normal forms. Its theorem uses the source grammar stated there; transfer to the current A/B/C/D meanings requires a separate semantic check.
+
+Impact Medium, risk Low, effort Low. The benefit is precise attribution of the current proof contract. The risk is extending this localized correction to unexamined fixtures or downstream receivers; the candidate makes no such claim. Cost is one paragraph review without migration or regeneration. Preserve historical proof contracts; check downstream A19/A21/00K and semantic transfer separately. Require Ivan’s named wave/passages GO for incorporation.
+
+Acceptance: verify exact unique before, keep the current receiver link, preserve one-or-more mappings and the unproved semantic-transfer boundary, and leave requirement/code/result semantics and all historical records intact. Exact identities, reading routes and contemporaneous exposures are frozen in the JSON.
+
+
+</details>

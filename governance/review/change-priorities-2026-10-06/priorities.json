@@ -4904,6 +4904,65 @@
       "gate": "Ivan names this exact completion wave; retain every other byte and frozen manifest; refresh current source before applying.",
       "preparation": "Complete current passage uniquely matched; 17/17 historical and11/17 active manifest bindings actually checked.",
       "authorized_to_apply": false
+    },
+    {
+      "id": 100,
+      "title": "Align 02A attribution with the current 02B relative-closure theorem",
+      "state": "Prepared — pending downstream reconciliation and named Ivan GO",
+      "source": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+      "source_sha": "06e12884ecbcff9df820d087e5b727bf4a18adab",
+      "source_commit": "2893f5e842bc07a34802b2e7a817338debf70bb4",
+      "source_cut": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "source_location": {
+        "path": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+        "blob": "06e12884ecbcff9df820d087e5b727bf4a18adab",
+        "line": 15,
+        "selector": "complete Claim block",
+        "uniqueness_count": 1
+      },
+      "receiver": {
+        "path": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
+        "blob": "ac3f066ae72cb9f542e69537b3bcacc46ea4c3fb",
+        "sections": [
+          "4–6 rewrite rules and multi-principle tables",
+          "7 theorem: nonempty NF subset of P1–P6",
+          "8–10 relative completeness/falsifier/boundary"
+        ]
+      },
+      "vnext": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+      "before": "> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.",
+      "after": "> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a relative syntactic-closure argument and an explicit mapping of the declared control surfaces to one or more P1–P6 normal forms. Its theorem uses the source grammar stated there; transfer to the current A/B/C/D meanings requires a separate semantic check.",
+      "impact": "Medium",
+      "risk": "Low",
+      "effort": "Low",
+      "priority": "Next",
+      "wave": "Third independent review — proof attribution",
+      "benefit": "Readers can distinguish canonical relative coverage from a historical single-output precedence normalizer and avoid citing properties that the current theorem does not supply.",
+      "riskReason": "The proposed block does not decide the validity of future refinements or receiver fixtures; maintain those separate documentary obligations.",
+      "costReason": "One localized paragraph review; no migration, regeneration or execution.",
+      "dependencies": [
+        "retain original and material historic variants unchanged in their existing provenance routes",
+        "complete downstream A19/A21/00K receivers and current semantic-transfer judgement before final owner/integration mapping",
+        "Ivan named wave/passages GO required before any incorporation"
+      ],
+      "gate": "Complete A19/A21/00K and semantic-transfer reconciliation; Ivan names this exact paragraph/wave before incorporation. Refresh source and preserve every other byte.",
+      "preparation": "Complete current paragraph uniquely matched at line 15; actual linked 02B theorem and material proof-family predecessors read. Larger integrations remain incomplete.",
+      "quality": "Exact complete literal pair; independent localized proof-source judgement; not final integration clearance",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "assessment_basis": "Isolated fresh-context source reviewer; no previous audit body opened; immutable scoped Phase A record",
+      "sealed_utc": "2026-10-14T20:57:56.480167+00:00",
+      "sealed_markdown_sha256": "5cf886a301403b4fb6b8829ffa56457dc4c56e84cba9e3e2ee5863e70ee702d2",
+      "sealed_json_sha256": "c857c06cd9bcbc966636d2affcb13c41328e0be2c4a66b1121585e834a015311",
+      "acceptance": [
+        "exact current block still uniquely present at fixed blob before incorporation",
+        "new block links the actual current 02B route",
+        "no current statement claims transfer of the source grammar result to revised B/C semantics without a separate check",
+        "retain all historical ordered-normalizer statements and their actual proof contract",
+        "no downstream requirement/code/result semantics changed implicitly"
+      ],
+      "compatibility": "Current source-vocabulary limitation and one-or-more control-surface mappings retained; no requirement, KPI, code, fixture or result changed. The added sentence repeats the already explicit transfer boundary rather than declaring a new proof."
     }
   ],
   "audit_coverage": [
@@ -14483,6 +14542,28 @@
       "plan_complete": false,
       "phase_B_open": false,
       "continuation": "same isolated session; own checkpoint and next foundation source only; no prior findings supplied"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Independent proof-attribution mismatch and literal proposal 100",
+      "source_commit": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "current_source_revalidated_at": "2893f5e842bc07a34802b2e7a817338debf70bb4",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#third-independent-review--02a02b-proof-attribution-and-proposal-100-14-october-2026",
+      "reviewer_thread": "01a13c1e-5ce0-7711-824b-e372b6c3c5b2",
+      "record_id": "02A_CURRENT_CLAIM_TO_02B_SET_NORMAL_FORMS",
+      "sealed_utc": "2026-10-14T20:57:56.480167+00:00",
+      "phase": "A",
+      "new_candidates": [
+        100
+      ],
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "whole_source_cohort_complete": false,
+      "whole_corpus_complete": false,
+      "plan_complete": false,
+      "phase_B_open": false,
+      "verified_unique_before": true,
+      "dependency_clearance": "A19/A21/00K and semantic transfer pending; no incorporation GO inferred"
     }
   ]
 }
