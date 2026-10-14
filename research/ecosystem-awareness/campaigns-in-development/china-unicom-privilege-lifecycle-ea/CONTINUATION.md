@@ -1,5 +1,8 @@
 # Continue the China Unicom Theme #23 DDS campaign
 
+
+> **Current continuation entry (v0.2, 14 October 2026):** Start with [Challenge v0.2](CHALLENGE_CONTRACT_v0.2.md), [requirements/coverage](REQUIREMENTS_TRACEABILITY_v0.2.md), [approval dossier D0–D3](APPROVAL_AND_PREREGISTRATION_v0.2.md), [audit](AUDIT_REPORT_2026-10-14.md) and the [public calibration casebook](fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json). The older v0.1 protocol below is preserved; the v0.2 corrections govern all future preparation. Immediate next step: local design review. Do not score before independent policy/oracle/strong comparator/freeze admission.
+
 **Resume from GitHub:** [Campaign](CAMPAIGN.md) → [Scientific Design](SCIENTIFIC_DESIGN.md) → [Interface](INTERFACE_CONTRACT.md) → [Trial Protocol](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) → [Run Card](RUN_CARD_PREPARATION.md).  
 **Edition:** v0.1, 14 October 2026. **Current priority:** source meaning and one hibernation experiment, not broad execution or a multi-theme umbrella.
 
