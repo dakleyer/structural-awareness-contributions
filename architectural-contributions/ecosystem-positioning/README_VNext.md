@@ -1803,3 +1803,12 @@ R, X, N and Evidence still need case-specific reconciliation: existing source ma
 
 
 Publication custody: the review was rebased onto concurrent commit 49aa7b9eb00acf27de7b1bbd80b23df14a544902. Its Flores runtime-context additions do not change these two VNext or the baseline and hypothesis source counterparts examined above. The content comparison remains explicitly attached to its stated d06956a cut; no new Flores result is inferred from this annex check.
+
+
+## Entire fork preservation — 14 October 2026
+
+The [complete file/history reconciliation](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#entire-use-cases-fork--file-and-history-reconciliation-14-october-2026) accounts for all 77 current fork files, 14 additional branch/historical paths and 162 authenticated historical blob versions. The maintained corpus contains the fifteen direct family/technology sources, but **the compiled UC-21 case protocols, adapted artifacts and complete UC-20 branch package are not fully integrated**. The earlier completion statement concerned navigation, not full content import. The owner now requires complete material preservation inside the one Contributions corpus.
+
+Six family SVGs and one AWS JSON are exact existing copies; five family SVGs and three AWS JSON files are case adaptations with actual semantic/namespace differences. S6 was reduced from 46,256 to 3,633 bytes on 3 October; its complete submitted edition remains in history, and its differences from current 00J must be retained. The case manifest does not certify the current expanded package, and one listed USE_CASE digest has no match in authenticated reachable fork history.
+
+Changes 92/91 are reopened for content recovery and source-owner decisions. Preserve their literal pairs; do not treat an approved link edit as complete case transfer. Required order: full case/protocol preservation, family/profile differences, assets/fixture adapters, separately identified UC-20, then the Contributions entry and official UC-21 route. No physical reorganization, new canonical level or source edit is performed here. The detailed audit includes the upstream register/template files and unresolved historical deletion boundaries, rather than silently excluding them.

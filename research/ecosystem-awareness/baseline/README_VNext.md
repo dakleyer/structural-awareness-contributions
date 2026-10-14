@@ -428,3 +428,12 @@ El README UC-21 añade al final acceso a todos los archivos de su paquete, los m
 **Aplicada con la migración.** Se conserva el contexto íntegro y se añade únicamente el bloque final de acceso opcional. Los pares literales completos están en el predecessor publicado `6cf55449158340f6201a13affc35fcfe6e746e2e`; salen de pendientes tras incorporación.
 
 Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas enlazadas;2.006destinos anteriores conservados en los cinco documentos intervenidos;13sustituciones inversas exactas, cero cambios fuera de alcance; README/ZIP históricos restaurados idénticos. El detalle permanece en EP VNext.
+
+
+## Entire fork preservation — 14 October 2026
+
+The [complete file/history reconciliation](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#entire-use-cases-fork--file-and-history-reconciliation-14-october-2026) accounts for all 77 current fork files, 14 additional branch/historical paths and 162 authenticated historical blob versions. The maintained corpus contains the fifteen direct family/technology sources, but **the compiled UC-21 case protocols, adapted artifacts and complete UC-20 branch package are not fully integrated**. The earlier completion statement concerned navigation, not full content import. The owner now requires complete material preservation inside the one Contributions corpus.
+
+Six family SVGs and one AWS JSON are exact existing copies; five family SVGs and three AWS JSON files are case adaptations with actual semantic/namespace differences. S6 was reduced from 46,256 to 3,633 bytes on 3 October; its complete submitted edition remains in history, and its differences from current 00J must be retained. The case manifest does not certify the current expanded package, and one listed USE_CASE digest has no match in authenticated reachable fork history.
+
+Changes 92/91 are reopened for content recovery and source-owner decisions. Preserve their literal pairs; do not treat an approved link edit as complete case transfer. Required order: full case/protocol preservation, family/profile differences, assets/fixture adapters, separately identified UC-20, then the Contributions entry and official UC-21 route. No physical reorganization, new canonical level or source edit is performed here. The detailed audit includes the upstream register/template files and unresolved historical deletion boundaries, rather than silently excluding them.

@@ -11308,6 +11308,46 @@
           "rationale": "Ivan selects FG-TIDA directly to the one Contributions corpus; the old pair and audit stay historical."
         }
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Entire fork content recovery before direct entry",
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716",
+      "case_commit": "724d69f9cf69aaadd2f84f50934db9cf77fcc1f1",
+      "proposal_assessments": [
+        {
+          "id": 92,
+          "state": "Reopened — content recovery required",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Primera",
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Alto",
+          "preparation": "Content/asset integration must precede route adoption",
+          "rationale": "All-fork reconciliation finds case-specific protocols, adapted fixtures/assets and branch dossier not fully integrated. Published old/new pairs remain; a link replacement is not full source-content transfer."
+        },
+        {
+          "id": 91,
+          "state": "Reopened — content recovery required",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "priority": "Primera",
+          "impact": "Alto",
+          "risk": "Alto",
+          "effort": "Alto",
+          "preparation": "Content/asset integration must precede route adoption",
+          "rationale": "All-fork reconciliation finds case-specific protocols, adapted fixtures/assets and branch dossier not fully integrated. Published old/new pairs remain; a link replacement is not full source-content transfer."
+        }
+      ],
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#entire-use-cases-fork--file-and-history-reconciliation-14-october-2026",
+      "scope": {
+        "current_fork_files": 77,
+        "all_fork_paths": 91,
+        "authenticated_historical_blobs": 162
+      },
+      "literal_pairs_preserved": true,
+      "canonical_applied": false
     }
   ],
   "plan_order": {
