@@ -1,5 +1,8 @@
 # China Unicom / FG-TIDA Theme #23 — privilege restoration under changing ecosystem context
 
+> **Reference/credibility update — 14 October 2026:** [Curated NIST/OASIS/OpenID/W3C/IETF reference-to-claim crosswalk](REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md) supplements the v0.4 third-party dossier. The accompanying source PDF was primarily a large URL-candidate list; the appendix credits **existing conventional controls**, uses current final editions in their own scope and records what is not yet proven. **No revised source-policy approval, trial result, company sponsorship or ITU adoption is implied.**
+
+
 > **CURRENT AUDITED DOSSIER: v0.4 (14 October 2026).** Start with the [full self-contained third-party Challenge](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md), [external-review reconciliation](EXTERNAL_REVIEW_RECONCILIATION_v0.4.md), and [factor/ablation/acceptance working register](R123_V04_FACTORIAL_PROTOCOL.json). **This is an independently authored local study of the public FG-TIDA Theme #23 contribution, not a China Unicom-sponsored collaboration, company affiliation, FG-TIDA endorsement or adopted ITU specification.** Source and contributor attribution remains external; GitHub author_association NONE does not decide anyone's employment. Scientific object: context-sensitive privilege applicability and owner-preserving specification, not EA superiority. **D0 design signoff, D1 source-approved risk policy, D2 full native R2 freeze/oracle/loss and D3 executed evidence are all pending.** Earlier versions below are preserved as research history.
 
 
