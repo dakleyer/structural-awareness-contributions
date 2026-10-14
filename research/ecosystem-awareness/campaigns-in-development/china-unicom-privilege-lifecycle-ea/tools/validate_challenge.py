@@ -317,7 +317,7 @@ check("focused_hibernation_R1_R2_R3_source_asleep",
 check("focused_hibernation_00N_and_UC21_no_sales_claim",
       "00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY" in hib_focus and
       "FG-TIDA/use-cases/issues/21" in hib_focus and
-      "no scored R1" in hib_focus.lower())
+      "no scored r1" in hib_focus.lower())
 check("focused_hibernation_registered_as_unexecuted",
       campaign.get("records", {}).get("focused_source_hibernation_challenge") ==
       "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md" and
