@@ -65,8 +65,8 @@
       "title": "China Unicom / Theme #23: hibernation privilege restoration and EA-qualified context",
       "dds_stage": "A",
       "profile": "SIMPLIFIED_STAGE_A_PREPARATION",
-      "status": "IN_DEVELOPMENT_NOT_PREREGISTERED",
-      "science_evidence": "DOCUMENTARY_AND_PROSPECTIVE_DESIGN_ONLY",
+      "status": "IN_DEVELOPMENT_READY_FOR_LOCAL_DESIGN_REVIEW_NOT_APPROVED",
+      "science_evidence": "DOCUMENTARY_AND_AUTHOR_CHECKED_SYNTHETIC_SPECIFICATION_ONLY",
       "main_record": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CAMPAIGN.md",
       "record": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CAMPAIGN.json",
       "links": [
@@ -75,7 +75,13 @@
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/SOURCES_AND_CUSTODY.md",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/RUN_CARD_PREPARATION.md",
-        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CONTINUATION.md"
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CONTINUATION.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CHALLENGE_CONTRACT_v0.2.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/APPROVAL_AND_PREREGISTRATION_v0.2.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/AUDIT_REPORT_2026-10-14.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/tools/validate_challenge.py",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/REQUIREMENTS_TRACEABILITY_v0.2.md"
       ],
       "external_theme": "https://github.com/FG-TIDA/themes/issues/23",
       "external_proposers": "Ying Wang and Ye Tao / China Unicom",
@@ -89,8 +95,16 @@
       "independent_adjudication": false,
       "stage_b_c": "NOT_STARTED",
       "external_ITU_adoption": "NOT_CLAIMED",
-      "local_version": "0.1",
-      "created": "2026-10-14"
+      "local_version": "0.2",
+      "created": "2026-10-14",
+      "current_challenge": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CHALLENGE_CONTRACT_v0.2.md",
+      "internal_design_approval": "PENDING",
+      "stage_a_preregistration": "NOT_FROZEN",
+      "stage_a_result": "NOT_ESTABLISHED",
+      "approval_dossier": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/APPROVAL_AND_PREREGISTRATION_v0.2.md",
+      "audit_report": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/AUDIT_REPORT_2026-10-14.md",
+      "public_synthetic_casebook": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
+      "machine_static_validation": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/tools/validate_challenge.py"
     }
   ],
   "last_updated": "2026-10-14"
