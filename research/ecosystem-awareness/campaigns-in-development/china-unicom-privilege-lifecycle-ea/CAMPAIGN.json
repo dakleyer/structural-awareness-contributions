@@ -378,8 +378,8 @@
   "focused_discussion_state": {
     "object": "REACTIVATION_WITH_ANOTHER_RELEVANT_DEPENDENCY_SOURCE_HIBERNATING",
     "R1": "PROBLEM_SCOPED_HIBERNATION_CONTEXT_CHANGE_NOT_EXECUTED",
-    "R2": "STRONG_NATIVE_ZHAO_RESTORE_PREDICATE_PLUS_YING_VALIDATION_THEN_CURRENT_INTENT_CANDIDATE_NOT_FROZEN",
-    "R3": "SECOND_SOURCE_UNAVAILABLE_DEPENDENCY_CURRENT_STATE_INDETERMINATE_UNDER_R2_VERIFICATION_NOT_SCORED",
+    "R2": "YING_FULL_NATIVE_TWO_STEP_RESTORE_ANCHOR_VALIDATION_THEN_CURRENT_INTENT_NOT_IMPLEMENTED_OR_FROZEN",
+    "R3": "CONDITIONAL_ONLY_IF_B_IS_FG_TIDA_23_GOVERNED_AGENT_AND_EVIDENCE_AUTHORITY_SUSPENDED; ELSE_NATIVE_R2_SOURCE_AVAILABILITY",
     "source_published_discussion": "YING_2026_10_14_08_54_AND_09_49",
     "role_of_EA": "OPTIONAL_NON_FUNGIBLE_QUALIFIED_INDICATIONS_NOT_PERMISSION_OR_GLOBAL_CERTAINTY",
     "canonical_plausibility": "00N_MECHANISM_TO_REQUIREMENTS_AND_00M_MATHEMATICAL",
@@ -388,6 +388,21 @@
     "source_facing_question_count": 1,
     "external_comment_posted": false,
     "owner_approved_policy": false,
-    "external_test_run": false
+    "external_test_run": false,
+    "ZHAO_INPUT": "EARLIER_ANCHOR_INSTEAD_OF_INTENT_PROPOSAL; NOT_IDENTICAL_TO_YING_COMPLETE_TWO_STEP",
+    "B_scope_admitted": false,
+    "hibernation_and_security_revocation_distinguished": true,
+    "silence_alone_proves_B_sleep": false,
+    "evidence_dimensions": [
+      "lifecycle_attested_state",
+      "source_access",
+      "freshness",
+      "coverage",
+      "consistency",
+      "minimum_proposition_status",
+      "native_PDP_result"
+    ],
+    "R3_candidates_role": "FOCUSED_B_SUSPENDED_EVIDENCE_PRODUCER_CONDITIONAL; THIRD_DOMAIN_CONTRACT_IN_RUN_CARD_IS_HISTORICAL_ALTERNATIVE; SIMPLE_GRAPH_JOIN_NOT_A_DIFFERENTIAL",
+    "review_provenance": "AI_ASSISTED_ADVERSARIAL_NOT_INDEPENDENT_PEER_REVIEW"
   }
 }
