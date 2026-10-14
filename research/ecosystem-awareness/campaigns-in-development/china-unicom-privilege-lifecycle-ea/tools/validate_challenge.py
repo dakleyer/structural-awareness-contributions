@@ -32,6 +32,9 @@ REQUIRED = (
     "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
     "THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md",
     "R123_STAGE_REGISTER_v0.3.json",
+    "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md",
+    "EXTERNAL_REVIEW_RECONCILIATION_v0.4.md",
+    "R123_V04_FACTORIAL_PROTOCOL.json",
 )
 checks = []
 errors = []
@@ -105,7 +108,7 @@ third_party = (PKG / "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md").read_text(enc
 third_party_review = (PKG / "THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md").read_text(encoding="utf-8")
 stages = r123.get("stages", [])
 r123_cases = r123.get("cases", [])
-check("v03_campaign_version", campaign.get("version") == "0.3")
+check("current_campaign_version_v04", campaign.get("version") == "0.4")
 check("v03_source_author_agreement_recorded", campaign.get("source_cutoff", {}).get("source_authors_agree_restoration_anchor") is True)
 check("v03_six_original_source_comment_links",
       all("issuecomment-" + comment_id in third_party for comment_id in
@@ -143,6 +146,60 @@ check("v03_review_not_independent",
 check("v03_primary_goal_not_EA_winner",
       r123.get("research_object") == "CONTINUING_APPLICABILITY_UNDER_CONTEXT_CHANGE" and
       r123.get("scientific_object_not") == "EA_PRODUCT_SUPERIORITY")
+
+
+# v0.4: preserve the R1/R2/R3 study, but distinguish prediction, diagnostic and conformance claims.
+v04 = load_json("R123_V04_FACTORIAL_PROTOCOL.json")
+v04_dossier = (PKG / "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md").read_text(encoding="utf-8")
+v04_review = (PKG / "EXTERNAL_REVIEW_RECONCILIATION_v0.4.md").read_text(encoding="utf-8")
+pids = {p.get("id") for p in v04.get("anchor_regimes", [])}
+aids = {a.get("id") for a in v04.get("ablations", [])}
+terminal = {v.get("id") for v in v04.get("terminal_outcomes", [])}
+check("v04_source_still_has_six_comments",
+      all("issuecomment-" + x in v04_dossier for x in
+      ("5700157082","5707764621","5915019756","6072991126","6164646309","6165603429")))
+check("v04_Zhao_and_Ying_architecture_are_distinct",
+      "ZHAO-ANCHOR-ONLY" in v04_dossier and
+      "YING-ANCHOR-THEN-INTENT" in v04_dossier and
+      v04.get("source_lineage", {}).get("ying_response", {}).get("adoption") ==
+      "SOURCE_DISCUSSION_AGREED_NOT_IMPLEMENTED_OR_NORMATIVE")
+check("v04_theme33_closed_not_active",
+      v04.get("source_lineage", {}).get("theme33", {}).get("state_reason") == "not_planned" and
+      v04.get("source_lineage", {}).get("theme33", {}).get("closed_at") == "2026-10-02T07:51:26Z")
+check("v04_predicate_scope_profiles", {"P-E","P-G","P-G-UNBOUND"}.issubset(pids))
+check("v04_general_unbound_not_conformant",
+      any(x.get("id") == "P-G-UNBOUND" and
+          x.get("label") == "ILL_DEFINED_GENERAL_NEGATIVE_CONTROL" for x in v04.get("anchor_regimes", [])))
+check("v04_ablations_distinct_nonconformant", {"R2-FULL","R2-AB1","R2-AB2","R2-AB12"}.issubset(aids) and
+      all(x.get("source_conformance", "").startswith("INTENTIONALLY_ABLATED") for x in
+          v04.get("ablations", []) if x.get("id") in ("R2-AB1","R2-AB2")))
+check("v04_no_weakened_primary_B2",
+      v04.get("ablation_controls", {}).get("all_other_native_checks_preserved") is True and
+      v04.get("ablation_controls", {}).get("no_ablated_variant_credited_as_full_R2") is True)
+check("v04_unknown_worlds_and_active_query_separated",
+      v04.get("unknown_pair", {}).get("initial_packets_identical") is True and
+      v04.get("unknown_pair", {}).get("unavoidable_uncertainty_safe_hold_is_not_automatically_false_positive") is True and
+      v04.get("unknown_pair", {}).get("active_query_branch", {}).get("source_independent_of_EA_oracle") is True)
+check("v04_loss_owner_freeze_required",
+      v04.get("unknown_pair", {}).get("pre_registration_loss_required") is True and
+      "OWNER_AGREEMENT_REQUIRED" in v04.get("unknown_pair", {}).get("loss_calibration", ""))
+check("v04_policy_allow_terminal_explicit", {"TERM-POLICY-ALLOW","TERM-POLICY-BLOCK","TERM-NOT-ESTABLISHED","TERM-PARITY","TERM-NO-SOURCE"}.issubset(terminal))
+check("v04_EA_parity_does_not_prove_interop",
+      len(v04.get("parity_surviving_claims", [])) >= 3 and
+      all("not_proven" in x for x in v04.get("parity_surviving_claims", [])))
+check("v04_source_policy_oracle_still_unapproved",
+      v04.get("source_owner_policy_approved") is False and
+      v04.get("independent_oracle_assigned") is False and
+      "NOT_EXECUTED" in v04.get("status", "") and
+      campaign.get("status", {}).get("local_design_approved") is False)
+check("v04_scientific_object_context_not_EA_winner",
+      v04.get("scientific_primary", "").startswith("contextual applicability") and
+      "H-ANCHOR-SCOPE" in v04_dossier and
+      "R2-AB1" in v04_dossier and
+      "G-LOSS/REENTRY" in v04_dossier)
+check("v04_review_preserves_Nell_correctly",
+      "Comment 5968346100" in v04_review and "Nell" in v04_review and
+      "Nelson" in v04_review)
 
 missing_links = []
 relative_links_checked = 0
