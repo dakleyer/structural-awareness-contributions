@@ -1,19 +1,19 @@
 {
   "schema": "FLORES_DOCUMENTARY_VALIDATION_1",
   "version": "2026-10-13.ORGANIZATION.1",
-  "checkedAtUTC": "2026-10-14T05:44:15.685Z",
+  "checkedAtUTC": "2026-10-14T05:51:25.368Z",
   "result": "PASS_DOCUMENTARY_CHECKS",
   "scientificStatus": "NOT_PREREGISTERED_NOT_EXECUTED_NOT_ADJUDICATED",
   "independentScientificAudit": false,
-  "filesInventoried": 95,
+  "filesInventoried": 116,
   "originalFiles": 65,
   "originalPathsPresent": 65,
   "originalUnchanged": 44,
   "originalPreservedInCompletePredecessorArchive": 21,
-  "completePredecessors": 25,
-  "checkedLocalLinks": 510,
+  "completePredecessors": 28,
+  "checkedLocalLinks": 535,
   "checkedLocalFragments": 94,
-  "reachableFromCampaign": 95,
+  "reachableFromCampaign": 116,
   "unclassifiedFiles": [],
   "repositoryDependenciesNotInPartialExport": [],
   "repositoryFragmentsNotInPartialExport": [],
@@ -112,8 +112,18 @@
     }
   ],
   "earlierReplayAndNegativeChecksObservedUTC": "2026-10-14T05:43:22.248Z",
-  "editionStartedLocalDate": "2026-10-13",
   "finalizedLocalDate": "2026-10-14",
-  "concurrentWorkPreserved": "a44273b433113b3ba6aba6f02bed8e71fcaaa716",
-  "revalidationScope": "Fresh full structural validation after incorporating concurrent sole VNext. Verifier and instrument bytes unchanged; previously recorded replay/mutation checks retained with date, not re-counted as new tests."
+  "localRecovery": {
+    "sourceInstances": 23,
+    "uniqueVersions": 16,
+    "sourceFilesUnmodified": true,
+    "byteIdentityForEveryArchivedVersion": true
+  },
+  "scope": "Full campaign structural custody plus exact recovery of all local narrative versions; no scientific adjudication",
+  "checkedExactPublicationPayload": true,
+  "exactPublicationPayloadValidationObservedUTC": "2026-10-14T05:52:30.581Z",
+  "publicationErratumResolved": "ERRATA-01: dependency array included and full checker executed from exact file payload, with complete repository dependencies",
+  "exactPayloadFiles": 116,
+  "exactPayloadLinks": 535,
+  "exactPayloadFragments": 94
 }

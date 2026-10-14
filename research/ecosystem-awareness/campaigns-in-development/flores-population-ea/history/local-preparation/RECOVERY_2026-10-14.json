@@ -1,0 +1,346 @@
+{
+  "schema": "FLORES_LOCAL_PREPARATION_FULL_TEXT_RECOVERY_1",
+  "date": "2026-10-14",
+  "source": "Existing owner local research preparation v0.1/v0.2 and authentic old copies",
+  "scope": "Scientific narratives, reader HTML source and package reader entry; complete exact bytes",
+  "originalFileInstances": 23,
+  "uniqueVersions": 16,
+  "exactDuplicateInstances": 7,
+  "noReconstruction": true,
+  "noSummarization": true,
+  "privateLocalRegistrationScriptsOrGovernanceRecordsPublished": false,
+  "nativeRun": false,
+  "scientificAcceptance": false,
+  "versions": [
+    {
+      "id": "LOCAL-001",
+      "path": "history/local-preparation/versions/LOCAL-001/BRIEF_EN_2026-10-13.md.txt",
+      "sha256": "df2166df2f11bdbedf2e1f8ab6dd63307dfa6b0fda63a3d3d90d86ff4a3355f3",
+      "git_blob": "880b62b5cea6523962deeff5c1f87e43c62e9f19",
+      "bytes": 4331,
+      "origins": [
+        "v0.1/BRIEF_EN_2026-10-13.md",
+        "v0.2/old/before_R2_freeze_R3_alignment/BRIEF_EN_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-002",
+      "path": "history/local-preparation/versions/LOCAL-002/FORMALIZACION_2026-10-13.md.txt",
+      "sha256": "b687c202b0e2970b70a68fee6aacf91189b026656ad35ba91c02d2ab310fcf25",
+      "git_blob": "f258d98bfb1e0d986d6a514bf3f9a5686a2eb2f5",
+      "bytes": 7770,
+      "origins": [
+        "v0.1/FORMALIZACION_2026-10-13.md",
+        "v0.2/old/before_R2_freeze_R3_alignment/FORMALIZACION_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-003",
+      "path": "history/local-preparation/versions/LOCAL-003/INFORME_2026-10-13.md.txt",
+      "sha256": "57159edc2e96a9fbed50d86b7d368f238fa891b5a8f1ccece7dd386c2bdbc4c8",
+      "git_blob": "955aaca036926b405319039903e497f02f080a7d",
+      "bytes": 29669,
+      "origins": [
+        "v0.1/INFORME_2026-10-13.md",
+        "v0.2/old/before_R2_freeze_R3_alignment/INFORME_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-004",
+      "path": "history/local-preparation/versions/LOCAL-004/Informe_Flores_Runtime_Context_2026-10-13.html.txt",
+      "sha256": "92ed5b6a20920a6a8c9fc6f7f968ca7dfcbf6a265884d81842b41b0da920f7dd",
+      "git_blob": "47b154cd3642b6e1511ff384a1a59488b96c91f0",
+      "bytes": 93819,
+      "origins": [
+        "v0.1/Informe_Flores_Runtime_Context_2026-10-13.html"
+      ]
+    },
+    {
+      "id": "LOCAL-005",
+      "path": "history/local-preparation/versions/LOCAL-005/INFORME_2026-10-13_before_editorial_polish.md.txt",
+      "sha256": "1138be9cba31ff87aaf094b9b93d6f485930f214f7d9b51e0d3dd35cf8c11baf",
+      "git_blob": "edc6b1aa5cdf7796c8c409e4b8f233b5dd83c556",
+      "bytes": 29667,
+      "origins": [
+        "v0.1/old/INFORME_2026-10-13_before_editorial_polish.md",
+        "v0.2/old/INFORME_2026-10-13_before_editorial_polish.md"
+      ]
+    },
+    {
+      "id": "LOCAL-006",
+      "path": "history/local-preparation/versions/LOCAL-006/PROTOCOLO_2026-10-13.md.txt",
+      "sha256": "8d1ba72823a708d87bb82427729b821e05e2e88fe7423138918073f9e6f566f2",
+      "git_blob": "d028a7002f8be05cb6df1889c5fe8c5f3f80efd7",
+      "bytes": 15396,
+      "origins": [
+        "v0.1/PROTOCOLO_2026-10-13.md",
+        "v0.2/old/before_R2_freeze_R3_alignment/PROTOCOLO_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-007",
+      "path": "history/local-preparation/versions/LOCAL-007/README_2026-10-13.md.txt",
+      "sha256": "613caebba5d2c1f0f83967901d4495b6cbbbea5c0c41b8720ea945288115fac3",
+      "git_blob": "cc4896b6381cc1ac6711537ef0eecba47418191a",
+      "bytes": 1250,
+      "origins": [
+        "v0.1/README_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-008",
+      "path": "history/local-preparation/versions/LOCAL-008/REFERENCIAS_2026-10-13.md.txt",
+      "sha256": "00c354eb8e86ed6c9357456240fd3fb5b90e37626f83733965a818732b895725",
+      "git_blob": "c15049a72b3729368a139ab9e4d1d5e5a5175774",
+      "bytes": 11296,
+      "origins": [
+        "v0.1/REFERENCIAS_2026-10-13.md",
+        "v0.2/REFERENCIAS_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-009",
+      "path": "history/local-preparation/versions/LOCAL-009/REVISION_ADVERSARIAL_2026-10-13.md.txt",
+      "sha256": "7b4ac9360842121526a8668918a9ee25b8b9bec312928b64134cdaebf0447fe5",
+      "git_blob": "8e4dde7d75d14165eefb78b7cbb2498c81fb7f2d",
+      "bytes": 5304,
+      "origins": [
+        "v0.1/REVISION_ADVERSARIAL_2026-10-13.md",
+        "v0.2/REVISION_ADVERSARIAL_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-010",
+      "path": "history/local-preparation/versions/LOCAL-010/BRIEF_EN_2026-10-13.md.txt",
+      "sha256": "fac4e7c715e825157ae82c681f3ec2ac42673681d5b6810b49a78d49fae7f7c3",
+      "git_blob": "bd06e6af80d57fd67fed9b9085dc8b6d529c79f2",
+      "bytes": 4985,
+      "origins": [
+        "v0.2/BRIEF_EN_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-011",
+      "path": "history/local-preparation/versions/LOCAL-011/FORMALIZACION_2026-10-13.md.txt",
+      "sha256": "2726069ddfc9f50818281a0b55ca07ef8fbbec5e29848dd6193ab01d17dc1c84",
+      "git_blob": "298859a566624c2c2ea1dff162baf6bf7588391f",
+      "bytes": 8323,
+      "origins": [
+        "v0.2/FORMALIZACION_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-012",
+      "path": "history/local-preparation/versions/LOCAL-012/INFORME_2026-10-13.md.txt",
+      "sha256": "15a4a4b0d26f8331c42296a1eac026477449ba474122d0568c86eee38bee7625",
+      "git_blob": "0f65270fff7484b9be5b4d67caa345178352d564",
+      "bytes": 29182,
+      "origins": [
+        "v0.2/INFORME_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-013",
+      "path": "history/local-preparation/versions/LOCAL-013/Informe_Flores_Runtime_Context_2026-10-13.html.txt",
+      "sha256": "92dca3e2afd803f25422d85b1388c6c725e95cd891db7bc543a2a2834be56c49",
+      "git_blob": "1a13df376520601696e962c168462b3837c01418",
+      "bytes": 102469,
+      "origins": [
+        "v0.2/Informe_Flores_Runtime_Context_2026-10-13.html"
+      ]
+    },
+    {
+      "id": "LOCAL-014",
+      "path": "history/local-preparation/versions/LOCAL-014/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md.txt",
+      "sha256": "5deee1bc9f600f8ae8e0a33e467d2eeff384626a9280e0ffcc2a059967f523d8",
+      "git_blob": "f5c4d813638a35b6aa5752748bbf22374beca170",
+      "bytes": 6986,
+      "origins": [
+        "v0.2/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-015",
+      "path": "history/local-preparation/versions/LOCAL-015/PROTOCOLO_2026-10-13.md.txt",
+      "sha256": "6387eb681e3077baada508f5013574a49f0652a423b210d2836cdf2d2633c46c",
+      "git_blob": "6b6cfbdad3efc7baa8f6462c0332c2efb476c26b",
+      "bytes": 15180,
+      "origins": [
+        "v0.2/PROTOCOLO_2026-10-13.md"
+      ]
+    },
+    {
+      "id": "LOCAL-016",
+      "path": "history/local-preparation/versions/LOCAL-016/README_2026-10-13.md.txt",
+      "sha256": "16e3cbb2ec9369882bac533f5ad7301f0a7d332ee5c5b808cae43323448e3b56",
+      "git_blob": "cff0ccf405c31b32f5879913cf53bef61fc70ee2",
+      "bytes": 1329,
+      "origins": [
+        "v0.2/README_2026-10-13.md"
+      ]
+    }
+  ],
+  "origins": [
+    {
+      "origin": "v0.1/BRIEF_EN_2026-10-13.md",
+      "version": "LOCAL-001",
+      "path": "history/local-preparation/versions/LOCAL-001/BRIEF_EN_2026-10-13.md.txt",
+      "sha256": "df2166df2f11bdbedf2e1f8ab6dd63307dfa6b0fda63a3d3d90d86ff4a3355f3",
+      "bytes": 4331
+    },
+    {
+      "origin": "v0.1/FORMALIZACION_2026-10-13.md",
+      "version": "LOCAL-002",
+      "path": "history/local-preparation/versions/LOCAL-002/FORMALIZACION_2026-10-13.md.txt",
+      "sha256": "b687c202b0e2970b70a68fee6aacf91189b026656ad35ba91c02d2ab310fcf25",
+      "bytes": 7770
+    },
+    {
+      "origin": "v0.1/INFORME_2026-10-13.md",
+      "version": "LOCAL-003",
+      "path": "history/local-preparation/versions/LOCAL-003/INFORME_2026-10-13.md.txt",
+      "sha256": "57159edc2e96a9fbed50d86b7d368f238fa891b5a8f1ccece7dd386c2bdbc4c8",
+      "bytes": 29669
+    },
+    {
+      "origin": "v0.1/Informe_Flores_Runtime_Context_2026-10-13.html",
+      "version": "LOCAL-004",
+      "path": "history/local-preparation/versions/LOCAL-004/Informe_Flores_Runtime_Context_2026-10-13.html.txt",
+      "sha256": "92ed5b6a20920a6a8c9fc6f7f968ca7dfcbf6a265884d81842b41b0da920f7dd",
+      "bytes": 93819
+    },
+    {
+      "origin": "v0.1/old/INFORME_2026-10-13_before_editorial_polish.md",
+      "version": "LOCAL-005",
+      "path": "history/local-preparation/versions/LOCAL-005/INFORME_2026-10-13_before_editorial_polish.md.txt",
+      "sha256": "1138be9cba31ff87aaf094b9b93d6f485930f214f7d9b51e0d3dd35cf8c11baf",
+      "bytes": 29667
+    },
+    {
+      "origin": "v0.1/PROTOCOLO_2026-10-13.md",
+      "version": "LOCAL-006",
+      "path": "history/local-preparation/versions/LOCAL-006/PROTOCOLO_2026-10-13.md.txt",
+      "sha256": "8d1ba72823a708d87bb82427729b821e05e2e88fe7423138918073f9e6f566f2",
+      "bytes": 15396
+    },
+    {
+      "origin": "v0.1/README_2026-10-13.md",
+      "version": "LOCAL-007",
+      "path": "history/local-preparation/versions/LOCAL-007/README_2026-10-13.md.txt",
+      "sha256": "613caebba5d2c1f0f83967901d4495b6cbbbea5c0c41b8720ea945288115fac3",
+      "bytes": 1250
+    },
+    {
+      "origin": "v0.1/REFERENCIAS_2026-10-13.md",
+      "version": "LOCAL-008",
+      "path": "history/local-preparation/versions/LOCAL-008/REFERENCIAS_2026-10-13.md.txt",
+      "sha256": "00c354eb8e86ed6c9357456240fd3fb5b90e37626f83733965a818732b895725",
+      "bytes": 11296
+    },
+    {
+      "origin": "v0.1/REVISION_ADVERSARIAL_2026-10-13.md",
+      "version": "LOCAL-009",
+      "path": "history/local-preparation/versions/LOCAL-009/REVISION_ADVERSARIAL_2026-10-13.md.txt",
+      "sha256": "7b4ac9360842121526a8668918a9ee25b8b9bec312928b64134cdaebf0447fe5",
+      "bytes": 5304
+    },
+    {
+      "origin": "v0.2/BRIEF_EN_2026-10-13.md",
+      "version": "LOCAL-010",
+      "path": "history/local-preparation/versions/LOCAL-010/BRIEF_EN_2026-10-13.md.txt",
+      "sha256": "fac4e7c715e825157ae82c681f3ec2ac42673681d5b6810b49a78d49fae7f7c3",
+      "bytes": 4985
+    },
+    {
+      "origin": "v0.2/FORMALIZACION_2026-10-13.md",
+      "version": "LOCAL-011",
+      "path": "history/local-preparation/versions/LOCAL-011/FORMALIZACION_2026-10-13.md.txt",
+      "sha256": "2726069ddfc9f50818281a0b55ca07ef8fbbec5e29848dd6193ab01d17dc1c84",
+      "bytes": 8323
+    },
+    {
+      "origin": "v0.2/INFORME_2026-10-13.md",
+      "version": "LOCAL-012",
+      "path": "history/local-preparation/versions/LOCAL-012/INFORME_2026-10-13.md.txt",
+      "sha256": "15a4a4b0d26f8331c42296a1eac026477449ba474122d0568c86eee38bee7625",
+      "bytes": 29182
+    },
+    {
+      "origin": "v0.2/Informe_Flores_Runtime_Context_2026-10-13.html",
+      "version": "LOCAL-013",
+      "path": "history/local-preparation/versions/LOCAL-013/Informe_Flores_Runtime_Context_2026-10-13.html.txt",
+      "sha256": "92dca3e2afd803f25422d85b1388c6c725e95cd891db7bc543a2a2834be56c49",
+      "bytes": 102469
+    },
+    {
+      "origin": "v0.2/old/before_R2_freeze_R3_alignment/BRIEF_EN_2026-10-13.md",
+      "version": "LOCAL-001",
+      "path": "history/local-preparation/versions/LOCAL-001/BRIEF_EN_2026-10-13.md.txt",
+      "sha256": "df2166df2f11bdbedf2e1f8ab6dd63307dfa6b0fda63a3d3d90d86ff4a3355f3",
+      "bytes": 4331
+    },
+    {
+      "origin": "v0.2/old/before_R2_freeze_R3_alignment/FORMALIZACION_2026-10-13.md",
+      "version": "LOCAL-002",
+      "path": "history/local-preparation/versions/LOCAL-002/FORMALIZACION_2026-10-13.md.txt",
+      "sha256": "b687c202b0e2970b70a68fee6aacf91189b026656ad35ba91c02d2ab310fcf25",
+      "bytes": 7770
+    },
+    {
+      "origin": "v0.2/old/before_R2_freeze_R3_alignment/INFORME_2026-10-13.md",
+      "version": "LOCAL-003",
+      "path": "history/local-preparation/versions/LOCAL-003/INFORME_2026-10-13.md.txt",
+      "sha256": "57159edc2e96a9fbed50d86b7d368f238fa891b5a8f1ccece7dd386c2bdbc4c8",
+      "bytes": 29669
+    },
+    {
+      "origin": "v0.2/old/before_R2_freeze_R3_alignment/PROTOCOLO_2026-10-13.md",
+      "version": "LOCAL-006",
+      "path": "history/local-preparation/versions/LOCAL-006/PROTOCOLO_2026-10-13.md.txt",
+      "sha256": "8d1ba72823a708d87bb82427729b821e05e2e88fe7423138918073f9e6f566f2",
+      "bytes": 15396
+    },
+    {
+      "origin": "v0.2/old/INFORME_2026-10-13_before_editorial_polish.md",
+      "version": "LOCAL-005",
+      "path": "history/local-preparation/versions/LOCAL-005/INFORME_2026-10-13_before_editorial_polish.md.txt",
+      "sha256": "1138be9cba31ff87aaf094b9b93d6f485930f214f7d9b51e0d3dd35cf8c11baf",
+      "bytes": 29667
+    },
+    {
+      "origin": "v0.2/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+      "version": "LOCAL-014",
+      "path": "history/local-preparation/versions/LOCAL-014/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md.txt",
+      "sha256": "5deee1bc9f600f8ae8e0a33e467d2eeff384626a9280e0ffcc2a059967f523d8",
+      "bytes": 6986
+    },
+    {
+      "origin": "v0.2/PROTOCOLO_2026-10-13.md",
+      "version": "LOCAL-015",
+      "path": "history/local-preparation/versions/LOCAL-015/PROTOCOLO_2026-10-13.md.txt",
+      "sha256": "6387eb681e3077baada508f5013574a49f0652a423b210d2836cdf2d2633c46c",
+      "bytes": 15180
+    },
+    {
+      "origin": "v0.2/README_2026-10-13.md",
+      "version": "LOCAL-016",
+      "path": "history/local-preparation/versions/LOCAL-016/README_2026-10-13.md.txt",
+      "sha256": "16e3cbb2ec9369882bac533f5ad7301f0a7d332ee5c5b808cae43323448e3b56",
+      "bytes": 1329
+    },
+    {
+      "origin": "v0.2/REFERENCIAS_2026-10-13.md",
+      "version": "LOCAL-008",
+      "path": "history/local-preparation/versions/LOCAL-008/REFERENCIAS_2026-10-13.md.txt",
+      "sha256": "00c354eb8e86ed6c9357456240fd3fb5b90e37626f83733965a818732b895725",
+      "bytes": 11296
+    },
+    {
+      "origin": "v0.2/REVISION_ADVERSARIAL_2026-10-13.md",
+      "version": "LOCAL-009",
+      "path": "history/local-preparation/versions/LOCAL-009/REVISION_ADVERSARIAL_2026-10-13.md.txt",
+      "sha256": "7b4ac9360842121526a8668918a9ee25b8b9bec312928b64134cdaebf0447fe5",
+      "bytes": 5304
+    }
+  ]
+}
