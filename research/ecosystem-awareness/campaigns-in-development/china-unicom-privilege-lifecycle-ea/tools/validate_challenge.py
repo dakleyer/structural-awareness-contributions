@@ -40,6 +40,7 @@ REQUIRED = (
     "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
     "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
     "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md",
+    "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
 )
 checks = []
 errors = []
@@ -306,6 +307,21 @@ check("v042_run_card_and_experiment_still_not_run",
       gov.get("R3", {}).get("execution_status") == "NOT_ADMITTED" and
       gov.get("not_executed") is True and
       campaign.get("status", {}).get("scientific_stage_a_finding") == "NOT_ESTABLISHED")
+
+# Focused source-facing hibernation R3: author-side documentary checks only.
+hib_focus = (PKG / "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md").read_text(encoding="utf-8")
+check("focused_hibernation_discussion_source_linked",
+      all(k in hib_focus for k in ("issuecomment-6164646309", "issuecomment-6072991126", "issuecomment-6165603429")))
+check("focused_hibernation_R1_R2_R3_source_asleep",
+      all(k in hib_focus for k in ("R1 —", "R2 —", "R3 —", "also hibernating", "INDETERMINATE")))
+check("focused_hibernation_00N_and_UC21_no_sales_claim",
+      "00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY" in hib_focus and
+      "FG-TIDA/use-cases/issues/21" in hib_focus and
+      "no scored R1" in hib_focus.lower())
+check("focused_hibernation_registered_as_unexecuted",
+      campaign.get("records", {}).get("focused_source_hibernation_challenge") ==
+      "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md" and
+      campaign.get("status", {}).get("run_executed") is False)
 
 missing_links = []
 relative_links_checked = 0
