@@ -313,7 +313,7 @@ hib_focus = (PKG / "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.
 check("focused_hibernation_discussion_source_linked",
       all(k in hib_focus for k in ("issuecomment-6164646309", "issuecomment-6072991126", "issuecomment-6165603429")))
 check("focused_hibernation_R1_R2_R3_source_asleep",
-      all(k in hib_focus for k in ("R1 —", "R2 —", "R3 —", "also hibernating", "INDETERMINATE")))
+      all(k in hib_focus for k in ("R1 —", "R2 —", "R3 —", "B\'s own privilege", "INDETERMINATE")))
 check("focused_hibernation_00N_and_UC21_no_sales_claim",
       "00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY" in hib_focus and
       "FG-TIDA/use-cases/issues/21" in hib_focus and
