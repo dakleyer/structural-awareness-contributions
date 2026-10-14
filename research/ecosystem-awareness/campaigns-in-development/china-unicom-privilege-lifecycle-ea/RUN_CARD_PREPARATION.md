@@ -1,6 +1,10 @@
 # DDS-A-CU-PLM-EA-01 — run card preparation v0.1
 
 
+> **CURRENT TRAVERSAL NOTICE v0.3:** This is the original **empty** v0.1 run-card template, not a completed R2 freeze or R3 run. The current [R1/R2/R3 context-first experimental sequencing](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md#6-r1--competent-reference-and-original-boundaries) and [machine-readable stage register](R123_STAGE_REGISTER_v0.3.json) take precedence for future run admission. Every D2 prerequisite in [Approval](APPROVAL_AND_PREREGISTRATION_v0.2.md) remains necessary.
+
+
+
 > **Superseding design notice (14 October 2026):** This remains an EMPTY historical run-card preparation. The current Challenge is [v0.2](CHALLENGE_CONTRACT_v0.2.md) and its governing admission checklist is [Approval D2](APPROVAL_AND_PREREGISTRATION_v0.2.md). Source-owner privilege policy, independent oracle, comparator, all-case retention and sealed expected outcomes remain NOT_ESTABLISHED. No test run or freeze is implied.
 
 **Status:** PREPARATION_ONLY / NOT_PREREGISTERED / NOT_FROZEN / NOT_EXECUTED / NOT_ADJUDICATED.  
