@@ -161,3 +161,14 @@ The old path column links the complete last pre-deletion source at that commit�
 ### Immediate internal-history continuation
 
 Read full M03/M04 current/earlier proof texts, all materially distinct theorem/plan changes, scopes of previous-work versus conditioned release, and the corresponding oracle/admission/measurement consumers. The mapped current files are a concrete queue, not examined studies by virtue of being linked. Preserve complete received originals, counterexamples and any justified retractions. Hold93’s capacity consumers open; do not restore superseded metrics or activate steps3–8 from a file count or ranking.
+
+
+## Restoration requires substantive value and current DDS relevance — 14 October 2026
+
+Iván clarifies the purpose of the damage pass: each old/current discrepancy needs a judgement about its information, validity, significance and relation to the current DDS strategy before a change is even proposed. The [complete decision criteria](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#substantive-value-and-current-dds-fit-before-any-restoration--14-october-2026) govern this R01 queue and its actual source/consumer readings.
+
+For M03/M04, the mathematical plan, oracles and admission/measurement contracts, identify the proposition and quantifiers, assumptions, original evidence, subsequent correction and current recipient. Establish whether it still constrains an actual DDS profile, supports an instrument/comparator, or belongs only to the historical research record. R01 mathematics keeps its own source authority; its presence does not establish a theorem for every DDS Challenge. Preserve counterexamples, negative results and the complete contracts of historical runs.
+
+The preceding deletion/relocation table is a discovery map. Its changed-receiver rows are **unresolved review work, not restoration instructions**. Its exact receivers establish custody, not automatic relevance to the active method. M01’s preserved narrative needs no restoration merely because its path and navigation changed. The completion manifest’s old/current distinction requires edition-aware explanation, not replacement of the frozen manifest.
+
+Each material row will end with a reasoned disposition: already received; corrected/superseded; history/support only; significant applicable omission; or unresolved. Only a justified active omission or current inconsistency becomes a complete before/after proposal with its useful effect, impact/risk/effort and affected consumers. No source change is applied by this review; incorporation requires Iván’s GO for the named wave/passages.

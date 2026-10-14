@@ -2161,3 +2161,41 @@ These eight tips have commits not wholly reachable from main; this graph stateme
 | `review/four-point-completion-registers-2026-10-12` | [1b7f30c53165](https://github.com/dakleyer/structural-awareness-contributions/commit/1b7f30c53165e35053b6c3103f734728fa5d7d6d) | Historical snapshot and review-register variants versus actual active files; no new audit of snapshots. |
 
 The complete global object graph is inventoried; semantic closure is per document. Current PDFs/decks and remaining early EP versions stay on the reading queue.
+
+
+## Substantive value and current DDS fit before any restoration — 14 October 2026
+
+**Iván’s instruction:** these passes must establish what earlier content contributes, whether its information remains valid and significant, and how it relates to the current DDS strategy. Finding an absent sentence is a lead to examine, not a reason to insert it. This instruction governs all pending damage/restoration work and its earlier candidates. No source change is authorized by this clarification.
+
+### The decision before drafting a change
+
+For each material discrepancy, the owning VNext must answer these questions in ordinary language:
+
+1. **What information does it carry?** State the actual definition, reasoning, requirement, control, negative result, evidence, dependency or useful explanation. Describe its original purpose and the precise claim it can support. A title, identifier or older phrase is not enough.
+2. **What is genuinely absent?** Read the complete current context and actual recipients. Distinguish a missing proposition from a renamed concept, transferred table, shorter equivalent explanation, duplicate, archived edition or corrected error. A surviving fragment does not prove the whole obligation survived either.
+3. **Is it still valid and applicable?** Check premises, version, authority, evidence and subsequent corrections. Explain whether a historical requirement still governs a registered study, has a qualified successor, or was deliberately superseded. Keep uncertainty visible when the sources do not settle that question.
+4. **Where does it belong in current DDS?** Name the specific Challenge/object, Stage A/B/C or support function and the actual owner. Explain how it helps specification discovery, architecture verification, implementation/problem validation, a sound comparator, useful infrastructure or the human reading route. Do not revive a parallel method or import a source-specific theorem into every DDS profile.
+5. **What useful difference would the change make?** Identify the reader, decision, obligation or result interpretation affected. Explain the consequence of leaving the text as it is and the benefit expected from the smallest adequate correction. Text volume, historical age and the number of apparent omissions are not impact measures. A missing limiter, refutation or negative result can be material even when it adds no new feature.
+6. **What is the supported disposition?** Record: already received; valid correction/supersession; history/support only; significant applicable omission; or unresolved. Link the evidence and explain the judgement. If no active change is warranted, say why and retain the historical source under its proper status.
+
+Only a supported significant applicable omission or a demonstrated current inconsistency advances to a surgical proposal. The proposal retains the complete literal current before/after, source and location, concrete benefit, impact, risk, effort, affected consumers and the decision Iván must make. A proposed restoration may require a newly qualified explanation rather than reinstating the old wording. It remains in the existing VNext until the specific wave/passages receive GO.
+
+### What the current strategy actually requires
+
+[The current DDS Method Index](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca9e6288b32cc29fcbc17c224d014ea3b016/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) distinguishes the object and reference of the three stages: Stage A compares candidate specifications/mechanisms against the frozen Challenge; Stage B verifies an architecture against the frozen Stage A package; Stage C validates a pinned implementation against the originating Challenge and observed effects. Evidence modes remain separate from those stages. Sections 4, 7 and 8 preserve the role of R01, comparator/oracle/harness infrastructure and earlier results without making them competing corpus-wide methods or retrospectively stronger evidence.
+
+[The development strategy](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca9e6288b32cc29fcbc17c224d014ea3b016/architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md) supplies the broader purpose: preserve the meaning and evidence of claims, make a complete useful profile understandable, compare against competent alternatives with the possibility of a negative finding, and transfer only what its premises support. It is an earlier development proposal, read together with current DDS sources; it is not a reason to override later source-specific directions or registered contracts.
+
+**Strategic fit is a test of relevance and justified use, not agreement with a preferred result.** Contrary evidence, counterexamples, competence of conventional controls and applicable restrictions remain material. A changed strategy does not erase earlier results or the contract governing an old run. Historical significance can justify preservation and an explanatory route without reintroducing the passage as current authority.
+
+### Consequences already supported by the internal review
+
+| Earlier material | Current information and DDS role | Decision |
+|---|---|---|
+| Stage A’s former eight-family registry | Its classification and Cost/Risk/Effectiveness/Acceptance/BV/evidence distinctions have an actual recipient in Method Index §8 | Keep the current central registry and the historical source; no duplicate restoration |
+| The claim that one Stage A document is the whole DDS method | The current method has an Index and three substantive stages with distinct objects and references | Retain the updated ownership; review any genuinely missing whole-method version rule on its own evidence |
+| Earlier H3 falsifier, H2 independence iff, and token-queue definition of HID | The internal review records specific corrections and current recipients for their valid remaining content | Preserve the correction and its rationale; do not reinstate the erroneous assertion as a repair |
+| The original completion release manifest versus later active reports | Historical package custody is demonstrated; later documentation has its own edition and diagnostic scope | Preserve both epochs and propose only a useful current-reading clarification; do not regenerate the old manifest to fit later prose |
+| Earlier R01 proof/oracle material not yet adjudicated | A filename or relocation map does not settle the validity or applicability of its claims to current DDS | Read the complete material and consumers first; keep the disposition unresolved until then |
+
+These decisions narrow what may be proposed. They neither insert recovered material nor convert the remaining internal-history queue into a list of changes to apply. The earlier audits and exact pairs remain visible; their age or pending status creates no presumption that they should be adopted.

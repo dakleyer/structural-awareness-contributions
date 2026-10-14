@@ -11643,6 +11643,36 @@
           "authorized_to_apply": false
         }
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Substantive value and current DDS fit before proposing restoration",
+      "source_commit": "6e2eca9e6288b32cc29fcbc17c224d014ea3b016",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#substantive-value-and-current-dds-fit-before-any-restoration--14-october-2026",
+      "human_instruction": "Do not reinsert material simply because it disappeared; judge its information, validity, strategic DDS relevance and significance first.",
+      "required_judgement": [
+        "Actual proposition and original purpose",
+        "Complete current context and actual recipients",
+        "Validity, applicability, version, authority and corrections",
+        "Specific current DDS object/stage/support role and owner",
+        "Concrete useful consequence versus no active change",
+        "Reasoned disposition with evidence and uncertainty"
+      ],
+      "allowed_dispositions": [
+        "Already received",
+        "Valid correction or supersession",
+        "History or support only",
+        "Significant applicable omission",
+        "Unresolved"
+      ],
+      "restoration_is_automatic": false,
+      "historical_contracts_and_contrary_evidence_preserved": true,
+      "strategic_fit_is_not_agreement_filter": true,
+      "affected_candidates": "All pending restoration/damage candidates including93; earlier candidate text and assessments retained, not adopted by this rule",
+      "application_gate": "Complete current literal before/after, benefit, impact/risk/effort, consumers and named Ivan GO for each wave/passages",
+      "canonical_applied": false,
+      "new_candidates": 0,
+      "new_vnext": 0
     }
   ],
   "plan_order": {
@@ -14305,5 +14335,37 @@
     "DDS/R01 M03/M04 mathematical plan, oracle/admission, capacity93 consumer chain",
     "Remaining case/source families within their actual internal histories",
     "Interfaces/EA/EP/RA/MSCA/media and final damage reconciliation"
+  ],
+  "restoration_value_and_strategy_epochs": [
+    {
+      "date": "2026-10-14",
+      "title": "Substantive value and current DDS fit before proposing restoration",
+      "source_commit": "6e2eca9e6288b32cc29fcbc17c224d014ea3b016",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#substantive-value-and-current-dds-fit-before-any-restoration--14-october-2026",
+      "human_instruction": "Do not reinsert material simply because it disappeared; judge its information, validity, strategic DDS relevance and significance first.",
+      "required_judgement": [
+        "Actual proposition and original purpose",
+        "Complete current context and actual recipients",
+        "Validity, applicability, version, authority and corrections",
+        "Specific current DDS object/stage/support role and owner",
+        "Concrete useful consequence versus no active change",
+        "Reasoned disposition with evidence and uncertainty"
+      ],
+      "allowed_dispositions": [
+        "Already received",
+        "Valid correction or supersession",
+        "History or support only",
+        "Significant applicable omission",
+        "Unresolved"
+      ],
+      "restoration_is_automatic": false,
+      "historical_contracts_and_contrary_evidence_preserved": true,
+      "strategic_fit_is_not_agreement_filter": true,
+      "affected_candidates": "All pending restoration/damage candidates including93; earlier candidate text and assessments retained, not adopted by this rule",
+      "application_gate": "Complete current literal before/after, benefit, impact/risk/effort, consumers and named Ivan GO for each wave/passages",
+      "canonical_applied": false,
+      "new_candidates": 0,
+      "new_vnext": 0
+    }
   ]
 }
