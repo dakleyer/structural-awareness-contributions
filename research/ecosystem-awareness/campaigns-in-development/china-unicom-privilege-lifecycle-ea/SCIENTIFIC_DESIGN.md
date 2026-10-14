@@ -1,5 +1,9 @@
 # DDS-A-CU-PLM-EA-01 — Scientific design v0.1
 
+
+> **CURRENT SCIENTIFIC QUESTION — 14 October v0.3:** This historical v0.1 design is supplemented by [the full R1/R2/R3 third-party Challenge](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md) and [critical review](THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md). Primary evidence target = **material change in authorization-relevant context and requirements for qualified restoration**, not EA implementation superiority. [Ying's 09:49 source-author agreement](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429) confirms **suspension-time declared restore condition → activation validation → fresh intent derivation** in the public discussion. v0.1 below remains historical.
+
+
 **Status:** analytic/prospective specification design; no preregistration, frozen oracle, executed run, independent judgement or technology evaluation.  
 **Master:** [CAMPAIGN.md](CAMPAIGN.md). **Method:** [DDS Stage A](../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md).
 
