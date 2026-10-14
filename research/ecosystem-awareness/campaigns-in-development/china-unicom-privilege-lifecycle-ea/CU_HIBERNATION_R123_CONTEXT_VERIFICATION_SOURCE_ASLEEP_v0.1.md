@@ -1,7 +1,8 @@
 # CU-HIB-01 — Hibernation, Context Verification and a Second Sleeping Source
 
 **Focused R1 → R2 → R3 Challenge for discussion of FG-TIDA Theme #23**  
-**Status:** source-grounded *working scenario*, 14 October 2026 · **NOT EXECUTED / NOT ADOPTED / NOT PREREGISTERED**. Independently prepared as a potential contribution for discussion, not an agreed China Unicom collaboration or an implemented source system.
+**Status:** source-grounded *working scenario*, 14 October 2026 · **NOT EXECUTED / NOT ADOPTED / NOT PREREGISTERED**.
+**Review provenance:** author-side **AI-assisted adversarial analysis** informed some edits. It is not an independent reviewer, China Unicom approval, or formal FG-TIDA adjudication. Independently prepared as a potential contribution for discussion, not an agreed China Unicom collaboration or an implemented source system.
 
 ## 1. Begin with Ying's actual question — not a general EA argument
 
