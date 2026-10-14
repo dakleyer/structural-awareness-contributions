@@ -1,5 +1,9 @@
 # CU-HIB-01 — WP0 source-owner decision brief (four questions)
 
+
+> **POSITIONING CLARIFICATION — 14 October 2026.** This [WP0 consultation brief](WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md) supports **a source-owned instance and possible collaboration**. It is **not a prerequisite for investigating the underlying R1→R2→R3 recurrence thesis** through explicitly synthetic, source-neutral contracts. The governing research question is the [next admissible blind spot after a complete R2 repair/freeze](R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md), not a repeat of the direct hibernation fault already covered by Ying's current-context checks. **Nothing in this brief was sent to external authors.**
+
+
 **First decision artefact, ahead of further test-design expansion.**  
 **Date:** 14 October 2026 · **Status:** LOCAL DRAFT **FOR REVIEW; NOT SENT**, no China Unicom endorsement, no source-owner policy agreement or production system access.  
 **Public discussion:** [FG-TIDA Theme #23](https://github.com/FG-TIDA/themes/issues/23) (Ying Wang / Ye Tao, China Unicom).  
