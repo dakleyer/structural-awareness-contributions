@@ -602,3 +602,52 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 
 H06 conserva sus obligaciones de revisión end-to-end: el texto aprobado permite una referencia sólo cuando el receptor resuelve e interpreta el valor necesario a tiempo. No convierte las176filas en conformes ni los44casos en integraciones verificadas.
 
+
+
+## Third independent review — input-contract edition custody and proposals 101–102, 14 October 2026
+
+The isolated reviewer sealed the following first custody comparison of the current input-contract Markdown with its original publication. The current dated B/C amendment is retained. The issue is the remaining wording that describes the living Markdown as an unchanged reproduction of the original Word. This warrants edition-caption clarification, not restoration of the earlier B/C interpretation or regeneration of the original assets.
+
+This contract was already published within the 04 layer and linked in this existing cumulative 04 dossier. Its source, Word, diagrams and publication manifest remain one material input-contract unit here; no separate VNext is created. Source blob `de6c58c62ad70b3182085333106b41b63a9fef18`; preserved Word blob `d597a31c5f085119faa570a0b93d96c8f00ff4d1`, SHA-256 `831dc4b6f1b728da246ea51efcf3a31825b03745ad3966fc3ab512deaa3f6768`. The coordinator checked both complete before passages as unique, both proposed passages as absent, the current N04 amendment and the unchanged Word hash.
+
+**Proposal 101** changes only the HTML custody comment: impact Low, risk Low, effort Low. **Proposal 102** changes only the visible Conservation paragraph: expected impact Medium, risk Low, effort Low. Both have priority After and belong to the same edition-clarification wave. Existing opening notices already identify the semantic amendment, so these captions follow substantive source/receiver work. The original reviewer rates the combined custody clarification Medium; this finer ranking does not rewrite that first judgement. Exact pairs, benefits, dependencies and Iván's named GO remain in the plan; nothing is applied.
+
+The first record was sealed at `2026-10-14T21:19:32.094094+00:00`. Markdown SHA-256 `aa0863e21b4907d6e69855f62a1b443eeaaec11ffd377f9e1768b15abe624665`; original JSON snapshot SHA-256 `7840c27cc54cc058618f76ab99c432e9b71509c1890fb3c9bb5a7f3cdf0dba6f`. It reports actual XML/text comparison and PNG viewing, with Word-page and SVG rendering still pending; it does not claim rendered equivalence. Its source-exposure disclosure remains visible in the original text below.
+
+<details>
+<summary>Original independent custody judgement and both complete literal pairs</summary>
+
+# First scoped judgement: input-contract custody status
+
+Sealed 2026-10-14T21:19:32.094094+00:00. Phase A; whole source/receiver cohort incomplete.
+
+The current Markdown contains dated semantic amendments. The preserved approved Word and original Markdown retain the previous contract, so the current literal unchanged-reproduction claim requires clarification. The complete original body text is accounted comparatively, but Word rendering remains unread. This is a custody correction, not reversal of the current B/C amendment.
+
+Current location: research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md; blob de6c58c62ad70b3182085333106b41b63a9fef18. Each before passage occurs exactly once.
+
+Complete current before, line 1:
+
+```html
+<!-- Approved v0.4 Word body reproduced below in document order. -->
+```
+
+Complete proposed after:
+
+```html
+<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->
+```
+
+Complete current before, line 17:
+
+**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+
+Complete proposed after:
+
+**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+
+Impact Medium; risk Low; effort Low. Preserve original assets and the dated manifest unchanged. Benefit: honest authentication and navigation between original publication and current amendments. Cost: two local status edits; no regeneration. Acceptance: unique literal matches, original hashes preserved, current amendment/field IDs/links preserved, no execution or incompatibility-closure claim. Ivan’s named wave/passages GO is required; nothing applied.
+
+The JSON freezes exact identities, supporting original/current clauses and contemporaneous reading/exposure records. A later A23 audit execution-record exposure is disclosed there; it contributes no input-contract evidence.
+
+
+</details>

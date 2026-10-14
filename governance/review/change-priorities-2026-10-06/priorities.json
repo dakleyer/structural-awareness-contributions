@@ -4963,6 +4963,100 @@
         "no downstream requirement/code/result semantics changed implicitly"
       ],
       "compatibility": "Current source-vocabulary limitation and one-or-more control-surface mappings retained; no requirement, KPI, code, fixture or result changed. The added sentence repeats the already explicit transfer boundary rather than declaring a new proof."
+    },
+    {
+      "id": 101,
+      "title": "Identify the amended input-contract Markdown in its source comment",
+      "state": "Prepared — pending edition/route reconciliation and named Ivan GO",
+      "source": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+      "source_sha": "de6c58c62ad70b3182085333106b41b63a9fef18",
+      "source_commit": "79696713269e197453f00f2be2164acaf8268f14",
+      "source_cut": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "source_location": "line 1 HTML comment",
+      "vnext": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "before": "<!-- Approved v0.4 Word body reproduced below in document order. -->",
+      "after": "<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->",
+      "impact": "Low",
+      "risk": "Low",
+      "effort": "Low",
+      "priority": "After",
+      "wave": "Third independent review — input-contract publication edition",
+      "benefit": "A source reader sees that the living Markdown contains dated amendments, rather than assuming its historical Word body is unchanged.",
+      "riskReason": "Do not recalculate the historical manifest to imply the old publication changed; avoid implying rendered Word equivalence from extraction.",
+      "costReason": "Two localized status edits and review; no conversion/regeneration/migration.",
+      "dependencies": [
+        "preserve original Word, historical MD, diagram and manifest bytes with original hashes",
+        "retain current semantic amendment and actual field IDs/source anchors",
+        "resolve final existing owner and return routes after source baseline; no new owner collection",
+        "Ivan named wave/passages GO before incorporation",
+        "Companion proposal 102; publish the two custody descriptions consistently."
+      ],
+      "gate": "Retain original Word, diagram, historic Markdown and publication manifest; reconcile edition/return routes; Ivan names these exact passages/wave before adoption.",
+      "preparation": "Both complete current spans uniquely matched; current amendment and original Word hash independently rechecked. No Word rendered-equivalence claim.",
+      "quality": "Exact complete localized pair from isolated source review; broader receiver/edition integrations incomplete",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "assessment_basis": "Isolated reviewer first custody judgement plus coordinator current-literal/asset-hash verification. The original record rates the combined custody clarification Medium.",
+      "sealed_utc": "2026-10-14T21:19:32.094094+00:00",
+      "sealed_markdown_sha256": "aa0863e21b4907d6e69855f62a1b443eeaaec11ffd377f9e1768b15abe624665",
+      "sealed_json_sha256": "7840c27cc54cc058618f76ab99c432e9b71509c1890fb3c9bb5a7f3cdf0dba6f",
+      "acceptance": [
+        "both complete before passages still occur uniquely in current source before incorporation",
+        "preserve all Word/PNG/SVG/manifest and predecessor bytes",
+        "dated current semantic-amendment block remains intact",
+        "manifest described as historical authentication, not a current whole-body hash claim",
+        "all 176 original field IDs and existing links/return routes preserved",
+        "no source executions/results, incompatibility closure or rendered Word claim introduced"
+      ],
+      "priority_reason": "Current opening notices already identify dated semantic amendments. These local preservation-caption fixes follow substantive semantic and receiver work; they do not justify a semantic rollback."
+    },
+    {
+      "id": 102,
+      "title": "Distinguish the original Word publication from current input-contract amendments",
+      "state": "Prepared — pending edition/route reconciliation and named Ivan GO",
+      "source": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+      "source_sha": "de6c58c62ad70b3182085333106b41b63a9fef18",
+      "source_commit": "79696713269e197453f00f2be2164acaf8268f14",
+      "source_cut": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "source_location": "line 17 complete Conservación paragraph",
+      "vnext": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "before": "**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.",
+      "after": "**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.",
+      "impact": "Medium",
+      "risk": "Low",
+      "effort": "Low",
+      "priority": "After",
+      "wave": "Third independent review — input-contract publication edition",
+      "benefit": "Readers can locate original historical bytes and distinguish current living Markdown amendments from original publication authentication.",
+      "riskReason": "Do not recalculate the historical manifest to imply the old publication changed; avoid implying rendered Word equivalence from extraction.",
+      "costReason": "Two localized status edits and review; no conversion/regeneration/migration.",
+      "dependencies": [
+        "preserve original Word, historical MD, diagram and manifest bytes with original hashes",
+        "retain current semantic amendment and actual field IDs/source anchors",
+        "resolve final existing owner and return routes after source baseline; no new owner collection",
+        "Ivan named wave/passages GO before incorporation",
+        "Companion proposal 101; publish the two custody descriptions consistently."
+      ],
+      "gate": "Retain original Word, diagram, historic Markdown and publication manifest; reconcile edition/return routes; Ivan names these exact passages/wave before adoption.",
+      "preparation": "Both complete current spans uniquely matched; current amendment and original Word hash independently rechecked. No Word rendered-equivalence claim.",
+      "quality": "Exact complete localized pair from isolated source review; broader receiver/edition integrations incomplete",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "assessment_basis": "Isolated reviewer first custody judgement plus coordinator current-literal/asset-hash verification. The original record rates the combined custody clarification Medium.",
+      "sealed_utc": "2026-10-14T21:19:32.094094+00:00",
+      "sealed_markdown_sha256": "aa0863e21b4907d6e69855f62a1b443eeaaec11ffd377f9e1768b15abe624665",
+      "sealed_json_sha256": "7840c27cc54cc058618f76ab99c432e9b71509c1890fb3c9bb5a7f3cdf0dba6f",
+      "acceptance": [
+        "both complete before passages still occur uniquely in current source before incorporation",
+        "preserve all Word/PNG/SVG/manifest and predecessor bytes",
+        "dated current semantic-amendment block remains intact",
+        "manifest described as historical authentication, not a current whole-body hash claim",
+        "all 176 original field IDs and existing links/return routes preserved",
+        "no source executions/results, incompatibility closure or rendered Word claim introduced"
+      ],
+      "priority_reason": "Current opening notices already identify dated semantic amendments. These local preservation-caption fixes follow substantive semantic and receiver work; they do not justify a semantic rollback."
     }
   ],
   "audit_coverage": [
@@ -14564,6 +14658,30 @@
       "phase_B_open": false,
       "verified_unique_before": true,
       "dependency_clearance": "A19/A21/00K and semantic transfer pending; no incorporation GO inferred"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Independent input-contract custody judgement and two localized pairs",
+      "source_commit": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "current_source_revalidated_at": "79696713269e197453f00f2be2164acaf8268f14",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#third-independent-review--input-contract-edition-custody-and-proposals-101102-14-october-2026",
+      "reviewer_thread": "01a13c1e-5ce0-7711-824b-e372b6c3c5b2",
+      "record_id": "INPUT_CONTRACT_CURRENT_MARKDOWN_CUSTODY_STATUS",
+      "sealed_utc": "2026-10-14T21:19:32.094094+00:00",
+      "phase": "A",
+      "new_candidates": [
+        101,
+        102
+      ],
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "whole_source_cohort_complete": false,
+      "whole_corpus_complete": false,
+      "plan_complete": false,
+      "phase_B_open": false,
+      "both_before_spans_unique": true,
+      "current_semantic_amendment_retained": true,
+      "Word_rendered_fidelity_complete": false
     }
   ]
 }
