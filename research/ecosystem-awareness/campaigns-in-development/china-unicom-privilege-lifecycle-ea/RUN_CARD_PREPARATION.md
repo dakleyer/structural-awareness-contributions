@@ -1,5 +1,8 @@
 # DDS-A-CU-PLM-EA-01 — run card preparation v0.1
 
+
+> **Superseding design notice (14 October 2026):** This remains an EMPTY historical run-card preparation. The current Challenge is [v0.2](CHALLENGE_CONTRACT_v0.2.md) and its governing admission checklist is [Approval D2](APPROVAL_AND_PREREGISTRATION_v0.2.md). Source-owner privilege policy, independent oracle, comparator, all-case retention and sealed expected outcomes remain NOT_ESTABLISHED. No test run or freeze is implied.
+
 **Status:** PREPARATION_ONLY / NOT_PREREGISTERED / NOT_FROZEN / NOT_EXECUTED / NOT_ADJUDICATED.  
 **Source of proposed procedure:** [Trial Protocol](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md); [Scientific Design](SCIENTIFIC_DESIGN.md). No evidence from an existing run is imported.
 
