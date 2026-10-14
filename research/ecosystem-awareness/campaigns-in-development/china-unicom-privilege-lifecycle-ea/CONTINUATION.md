@@ -1,6 +1,10 @@
 # Continue the China Unicom Theme #23 DDS campaign
 
 
+> **CURRENT CONTINUATION — v0.3 (14 October):** first read [the complete third-party dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md), then [the R1/R2/R3 stage register](R123_STAGE_REGISTER_v0.3.json) and [critical review](THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md). The next real step is **D0 review of the context-first Challenge and D1 source-owned policy/materiality**, followed by genuine competent **R1 → defended/frozen R2 → independent R3**. Do **not** organize work around a preselected “EA winner”; a strong conventional R2 pass is valid. Prior v0.1/v0.2 continuation remains below for audit history.
+
+
+
 > **Current continuation entry (v0.2, 14 October 2026):** Start with [Challenge v0.2](CHALLENGE_CONTRACT_v0.2.md), [requirements/coverage](REQUIREMENTS_TRACEABILITY_v0.2.md), [approval dossier D0–D3](APPROVAL_AND_PREREGISTRATION_v0.2.md), [audit](AUDIT_REPORT_2026-10-14.md) and the [public calibration casebook](fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json). The older v0.1 protocol below is preserved; the v0.2 corrections govern all future preparation. Immediate next step: local design review. Do not score before independent policy/oracle/strong comparator/freeze admission.
 
 **Resume from GitHub:** [Campaign](CAMPAIGN.md) → [Scientific Design](SCIENTIFIC_DESIGN.md) → [Interface](INTERFACE_CONTRACT.md) → [Trial Protocol](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) → [Run Card](RUN_CARD_PREPARATION.md).  
