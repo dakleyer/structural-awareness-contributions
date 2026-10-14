@@ -1,3 +1,5 @@
+> **Estado de lectura: APOYO TÉCNICO / CONTRATO ANTERIOR.** El diseño vigente es [R2 → freeze → R3](../runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](../VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](../TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # Residual ledger R0/R1 and how it feeds the receiving-side Challenge
 
 **Purpose:** preserve the auditor's serious alternative proposal instead of discarding it after adopting P0–P3. This ledger is an explicit **baseline and argument map**, not the final EA differentiator. The code's nine named claims form a CLOSED inventory, so it cannot prove detection of an unenumerated residual or a new regime.

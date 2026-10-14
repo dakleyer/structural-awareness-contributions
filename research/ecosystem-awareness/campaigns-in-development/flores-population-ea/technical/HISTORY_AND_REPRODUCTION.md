@@ -1,3 +1,5 @@
+> **Estado de lectura: APOYO TÉCNICO / CONTRATO ANTERIOR.** El diseño vigente es [R2 → freeze → R3](../runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](../VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](../TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # Historical archive registry, preservation and reproduction
 
 **Important:** The working ZIPs listed below were produced during the earlier research/audit iterations and their SHA-256 was computed on the recovered local originals on 13 October 2026. They are NOT silently converted into native-run or audited evidence by this campaign. This public GitHub record preserves the identifiers, digest, scientific disposition and technical content map. The original ZIP bytes are in the researcher's retained working archive; **not uploaded to this public repo**. Some earlier archives contain provisional scoring oracles, so do not publish them as candidate inputs before an agreed blind evaluation.

@@ -1,3 +1,5 @@
+> **Estado de lectura: HISTORIA / AUDITORÍA DE SU CORTE.** El diseño vigente es [R2 → freeze → R3](./runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](./VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](./TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # FLORES — integración auditada del suplemento técnico P0–P3, 13 octubre 2026
 
 **Objeto:** verificar e integrar el [componente técnico RECEIVER-P0-P3](technical/TECHNICAL_INDEX.md) en **la misma campaña** [DDS-A-FLORES-POP-EA-01](CAMPAIGN.md), contrastándolo con el [giro de enfoque 12–13 octubre](APPROACH_DRIFT_2026-10-12_13.md) y el [ensayo UC17-08 de mínima intervención](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md).

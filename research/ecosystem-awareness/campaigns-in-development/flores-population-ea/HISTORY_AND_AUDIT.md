@@ -1,3 +1,5 @@
+> **Estado de lectura: HISTORIA / AUDITORÍA DE SU CORTE.** El diseño vigente es [R2 → freeze → R3](./runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](./VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](./TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # Flores initiative — chronology, author attribution and adversarial audit history
 
 **Purpose:** historical no-loss ledger, not a selective success story or an execution log. Source links in [SOURCES_AND_CUSTODY.md](./SOURCES_AND_CUSTODY.md). Differences in dates or claims are retained as versioned history.

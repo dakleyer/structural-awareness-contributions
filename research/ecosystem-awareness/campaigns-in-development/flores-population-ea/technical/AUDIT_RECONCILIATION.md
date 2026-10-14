@@ -1,3 +1,5 @@
+> **Estado de lectura: APOYO TÉCNICO / CONTRATO ANTERIOR.** El diseño vigente es [R2 → freeze → R3](../runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](../VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](../TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # Adversarial audits and decision record — Flores Population × EA
 
 **Purpose:** preserve the actual questions, corrections and rejected hypotheses. Earlier packages and audits remain provenance, not independent evidence of current EA correctness. This is a technical adjudication **ledger**, not a claim that an external auditor accepted the campaign.

@@ -1,3 +1,5 @@
+> **Estado de lectura: ANTECEDENTE; PRIORIDAD SUSTITUIDA.** El diseño vigente es [R2 → freeze → R3](./runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](./VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](./TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # DDS FLORES — primary minimal Stage A experimental protocol (draft v0.1)
 
 **Date:** 13 October 2026.  

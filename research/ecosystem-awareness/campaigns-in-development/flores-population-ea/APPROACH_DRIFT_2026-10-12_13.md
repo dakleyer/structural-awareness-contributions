@@ -1,3 +1,5 @@
+> **Estado de lectura: ANTECEDENTE; PRIORIDAD SUSTITUIDA.** El diseño vigente es [R2 → freeze → R3](./runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](./VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](./TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # FLORES — cambio de aproximación científica, 12–13 octubre 2026
 
 **Tipo:** decisión de orientación de investigación / `RESEARCH_APPROACH_DRIFT`, no evento observado en el experimento de Justin Flores.  

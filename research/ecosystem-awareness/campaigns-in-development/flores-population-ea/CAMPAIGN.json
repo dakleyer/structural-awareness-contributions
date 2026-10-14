@@ -129,7 +129,8 @@
     "ea_candidate": "B3 / EA-qualified",
     "same_access_and_budget_required": true,
     "parity_is_valid_negative_result": true,
-    "known_repaired_R2_parity": "EXPECTED_NOT_TERMINATION_OF_R3_RESEARCH"
+    "known_repaired_R2_parity": "EXPECTED_NOT_TERMINATION_OF_R3_RESEARCH",
+    "parity_interpretation": "Expected in demonstrated known repaired R2; not termination of subsequent R3 study; R3 parity recorded against its admitted contract"
   },
   "admission": {
     "stage_a_freeze": false,
@@ -149,7 +150,10 @@
     "resumption": "CONTINUATION.md",
     "legacy_transcripts_in": "history/",
     "current_direction": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
-    "runtime_research_report": "runtime-context/INFORME_2026-10-13.md"
+    "runtime_research_report": "runtime-context/INFORME_2026-10-13.md",
+    "versions": "VERSIONS_AND_DECISIONS_2026-10-13.md",
+    "traceability": "TRACEABILITY_2026-10-13.md",
+    "run_card": "RUN_CARD_PREPARATION.md"
   },
   "disclosure": {
     "candidate_private_keys_published": false,
@@ -218,7 +222,7 @@
     "index": "technical/TECHNICAL_INDEX.md",
     "protocol": "technical/PROTOCOL_P0_P3.md",
     "audit": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
-    "status": "ACTIVE_CORRECTED_AUTHOR_SIDE_DRAFT_NOT_FROZEN_NO_NATIVE_FLORES_EXECUTION",
+    "status": "SUPPORTING_EARLIER_CONTRACT_NOT_CURRENT_PRIMARY",
     "separate_from_primary_UC17_08_candidate": true,
     "source_receipts": "MOCK_ONLY",
     "authored_mock_assertions": 21,
@@ -226,7 +230,8 @@
     "strong_B2_experiment": "NOT_EXECUTED",
     "archive_byte_status": "SOURCE_TECHNICAL_SESSION_REHASH_REPORTED_NOT_IN_CURRENT_PUBLIC_GITHUB_AND_NOT_REHASHED_BY_THIS_AUDITOR",
     "historic_v0_2_zip_sha256_attributed": "8e1d2196736e2a1ef862e37e3e4d4a30361bb5d2121ebe6f22b501715aa520c6",
-    "historic_v0_5_zip_sha256_attributed": "0b2a2b5f91e7b5f040ab550fae2d5c86c32b2a9910c719eafc1b6f0afdf507e0"
+    "historic_v0_5_zip_sha256_attributed": "0b2a2b5f91e7b5f040ab550fae2d5c86c32b2a9910c719eafc1b6f0afdf507e0",
+    "previous_status": "ACTIVE_CORRECTED_AUTHOR_SIDE_DRAFT_NOT_FROZEN_NO_NATIVE_FLORES_EXECUTION"
   },
   "research_audit": {
     "initial": "AUDIT_REPORT_2026-10-13.md",
@@ -289,5 +294,17 @@
     "supersedes": "UC17-08 absence-to-permit as primary priority; static EA superiority framing",
     "previous_designs_preserved": true,
     "native_R2_freeze_R3_run": false
+  },
+  "organization": {
+    "version": "2026-10-13.ORGANIZATION.1",
+    "entry": "CAMPAIGN.md",
+    "versions": "VERSIONS_AND_DECISIONS_2026-10-13.md",
+    "traceability": "TRACEABILITY_2026-10-13.md",
+    "control": "audit/CAMPAIGN_CONTROL_2026-10-13.json",
+    "validation": "audit/VALIDATION_2026-10-13.json",
+    "previous_complete_record": "history/versions/2026-10-13_before_organization/CAMPAIGN.json.txt",
+    "previous_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716",
+    "archival_policy": "COMPLETE_ORIGINAL_BYTES_NO_DELETIONS_NO_RECONSTRUCTION",
+    "active_priority": "SAME_TEMPORAL_CLAIM_R2_COMPLETE_FREEZE_UNCOVERED_R3_GENERAL_EA_EX_ANTE"
   }
 }

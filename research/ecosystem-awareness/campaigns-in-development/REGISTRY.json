@@ -45,11 +45,19 @@
       "binary_original_archive_parity": "NOT_VERIFIED",
       "technical_subprofile": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md",
       "technical_audit": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
-      "candidate_experiment_selection": "SAME_TEMPORAL_CLAIM_RUNTIME_CONTEXT_R2_FREEZE_R3_DRAFT; UC17_08_HISTORICAL_SEPARATE_CONTROL",
+      "candidate_experiment_selection": "SAME_TEMPORAL_CLAIM_R2_COMPLETE_FREEZE_UNCOVERED_R3",
       "mock_checks_reported": 21,
       "author_rehashed_ZIP_status": "REPORTED_FROM_OTHER_RUNTIME_BINARY_NOT_PUBLIC_NOT_REHASHED_HERE",
       "historical_research_direction": "OWNER_APPROVED_RESEARCH_APPROACH_PIVOT_TO_SINGLE_NATIVE_RECEIVER_MUTATION",
-      "historical_proposed_primary_trial": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md"
+      "historical_proposed_primary_trial": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+      "organization_version": "2026-10-13.ORGANIZATION.1",
+      "versions": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/VERSIONS_AND_DECISIONS_2026-10-13.md",
+      "traceability": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/TRACEABILITY_2026-10-13.md",
+      "audit_control": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/CAMPAIGN_CONTROL_2026-10-13.json",
+      "validation": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/VALIDATION_2026-10-13.json",
+      "current_documentary_status": "ORGANIZED_RESEARCH_PREPARATION_NOT_NATIVE_EXECUTION",
+      "technical_component_current_role": "SUPPORTING_EARLIER_CONTRACT",
+      "known_repaired_R2_parity": "EXPECTED_BASELINE"
     }
   ],
   "last_updated": "2026-10-13"

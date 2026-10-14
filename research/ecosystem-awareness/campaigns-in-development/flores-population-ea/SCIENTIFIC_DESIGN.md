@@ -1,138 +1,104 @@
-## Orientación vigente — 13 octubre 2026: R2 reparada → freeze → R3
+# Flores — diseño científico vigente
 
-**Esta instrucción posterior de Iván gobierna la continuación y sustituye la prioridad experimental anterior conservada abajo.** El objeto es **Theme #21 / la prueba de Flores**, con el cambio mínimo de contexto de la **misma inferencia temporal**. UC17-08 y UC-21 permanecen antecedentes o controles separados; no son el objetivo principal vigente.
+**Edición 2026-10-13.ORGANIZATION.1.** DDS Stage A en desarrollo. [CAMPAIGN](CAMPAIGN.md) y [principio del propietario](runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md) gobiernan la lectura. [Protocolo detallado](runtime-context/PROTOCOLO_2026-10-13.md), [informe completo](runtime-context/INFORME_2026-10-13.md) y [formalización](runtime-context/FORMALIZACION_2026-10-13.md) conservan todos los argumentos de preparación.
 
-**Mantra:** EA alcanza igualdad en el contexto conocido/reparado. El participante configura y repara hasta el nivel que defienda; demuestra R2 y se congela **toda** su configuración, fuentes, defensas y adaptación. Después se admite un R3 material fuera de la cobertura de esa R2 congelada, sin quitarle defensas. Se estudia si la determinación pierde fundamento mientras los jueces mantienen exactamente los mismos outputs. La evaluación posterior estudia los requisitos generales EA de recalificación, fijados antes de revelar el R3 puntuado, con acceso y recursos comparables. Un patch posterior inaugura otro R2/freeze. La igualdad en R2 no cancela el estudio R3 ni exige volver a preguntar por una ventaja estática.
+## Objeto y predicado
 
-**Leer primero:** [principio R2/freeze/R3](runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md), [protocolo temporal](runtime-context/PROTOCOLO_2026-10-13.md), [informe completo](runtime-context/INFORME_2026-10-13.md), [18 referencias primarias](runtime-context/REFERENCIAS_2026-10-13.md) y [lectura HTML](runtime-context/Informe_Flores_Runtime_Context_2026-10-13.html).
+El objeto es la pérdida de fundamento de la **misma inferencia temporal** tras una modificación mínima de contexto posterior al freeze completo de una reparación demostrada R2. La pregunta incluye sujeto, referencia, arquitectura de observación, periodo, alcance y regla de aceptación desde t0. Los estados de verdad de Q, fundamento/identificabilidad de Q y output del detector son ejes separados.
 
-**Estado:** investigación y protocolo preparados; instancia nativa R2/freeze/R3 aún no admitida ni ejecutada. Los [20 controles y 64 pares sintéticos](runtime-context/preflight/RESULTS_2026-10-13.json) son calibración pública authored, no resultados EA ni datos nativos de Flores. La verdad oculta no se infiere de inputs completos indistinguibles.
+Una afirmación no identificada en t0 no puede presentarse como pérdida posterior de una identificabilidad que nunca tuvo. Los votos de Flores no establecen independencia real de fallos ni corrección objetiva de su clave; el predicado concreto debe estar fundado por la fuente. Un mismatch de epoch conocido es una calibración posible, no un R3 admitido por el mero hecho de cambiar un contador.
 
-**Próximo trabajo:** concretar con la fuente un predicado realmente establecido en t0, demostrar la reparación nativa R2 y fijar su freeze completo; admitir un cambio externo mínimo que afecte ese mismo predicado fuera de su cobertura y sus positivos/negativos; fijar requisitos EA generales ex ante y ejecutar ambas fases bajo el contrato. No reiniciar por la antigua ausencia→permit ni ampliar por defecto el casebook. Las dos fases prospectivas permanecen dentro de este único expediente DDS en desarrollo.
+## Reparación y freeze
 
-**Custodia:** este es el punto durable en GitHub. Los documentos históricos a continuación se conservan íntegros como antecedentes; sus rótulos «current», «priority» o «read first» anteriores no prevalecen sobre esta orientación. No se modifican fuentes externas, corpus protegido, freezes históricos ni resultados.
+La solución convencional es elegida y defendida por su participante, con libertad de configuración y reparación. Se demuestra R2 y los positivos; la igualdad con EA en ese contexto es la base. El freeze incluye código, reglas, umbrales, fuentes, permisos, canales, defensa, adaptación declarada y límites de recurso/horizonte. No se deshabilita una capacidad existente para crear un fallo. Un patch posterior a R3 abre un nuevo R2 y un nuevo freeze.
 
----
+EA se presenta como requisitos generales de recalificación fijados ex ante, con igual acceso legítimo, timing y recursos. No lleva una regla particular escrita después de ver el caso puntuado ni un answer key. Una solución convencional que ya contiene la función general obtiene el mismo crédito. El alcance del contraste depende del dominio de cambios y reparaciones admitido; una instancia no se reetiqueta como prueba universal nueva.
 
-# Flores × EA — scientific design, comparators and proposed execution contract
+## Dos fases bajo un expediente
 
-**Scope:** DDS Stage A candidate **specification** assessment. Everything here is working design; no new signed Run Card, acceptance freeze or source-owner approval is implied.
-**Related source:** [campaign master](./CAMPAIGN.md).
-
-## Current owner-directed experimental priority (12–13 October 2026)
-
-**Read [the approach change](APPROACH_DRIFT_2026-10-12_13.md) and [primary protocol](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) first.** v0.5 is an **unfrozen audit-corrected Stage A challenge**, *not* seven executed trials or an automatic decision to grow a benchmark. The preferred first slice is a single UC17-08 consumer-side mapping perturbation with a matched clean control, restoration, an observation-null falsifier and a strong conventional B2. Q0 source validity, Q1 changed receiving question and same-claim R3 observation-regime failure are distinct; the original P0–P3 auto-adjustment ambition remains in history, not a verified EA result. All admission conditions in [Run Card preparation](RUN_CARD_PREPARATION.md) remain open.
-
-## A. Distinct objects and questions
-
-**Producer scientific object (#21):** reading attributed, scoped record verdicts as a *population* under a named taxonomy, observation period and evaluator-family assumptions. Its v1.0 planned planted-judge simulation has six scripted judges, eight scored cases and private role/key separation. It is not our study to alter.
-
-**Receiver scientific object (EA):** whether a particular receiving decision can *legitimately rely* on an unchanged native #21 finding for a specifically named proposition, considering source scope, versions, missing channels, appraisal, dependence, freshness, capacity and authority. It may report that the basis no longer suffices without instructing the producer to recalculate or taking the downstream action.
-
-**Proposed falsifiable specification question:** can a candidate EA-side qualification contract, compared fairly with conventional B2, preserve valid producer findings and legally/epistemically qualified continuity while identifying **only** demonstrable material handoff and change-of-basis gaps within a finite source/response budget?
-
-The qualitative claim must be independently adjudicated against canonical [DDS Stage A](../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [EA requirements 00N](../../baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). Textual agreement with framework prose is not a PASS.
-
-## B. Native inputs and observation permissions
-
-Use source-native classes; do not require Flores, Cyril or Nelson to manufacture EA B/C/D metadata. Possible input profiles to register **before** any real study:
-- **METADATA_ONLY** — published producer claim, population definition, reference/taxonomy version, observation window, evaluator configuration/dependence declaration, residual limits, record hashes/links where permitted. Does not silently contain unprovided native verdict values.
-- **FULL_NATIVE_RESULT** — the authorised receiver also sees explicitly permitted native A results, e.g. released flags, UC17-08 attested absence, UC17-09 appraisal rejection or CTGT source record. Name each source, permission and delivery route.
-- **EXTERNAL_SOURCE_A_EVENT** — a separately legitimate source/authority provides a verifiable effective-time/context event. It is **not** an invented post-hoc oracle label or a detector's own assertion.
-
-At t0 record exact source version, claim, observation/evaluator architecture, identifiability assumptions, native result, decision scope, valid authority, observation permissions and deadline. At t1 record **which eligible source changed, when, for whose decision**, not just a document update timestamp. A/B/C/D role assessment is receiver-process-relative and separately justified.
-
-## C. Primary native-source experiment: Q0 → Q1 / UC-4 mapper
-
-**Source-owner baseline:** Flores v1.0 scores content only on UC17-01/02/03/04/05/06/07/09 under REF-FSCOMMS 1.0. UC17-08 attested absence excluded; UC17-09 content verdict not record appraisal; REF-FSCOMMS 1.1 R-UC17-07-2 not scored. Neither original detector nor EA is asked to open sealed roles for blind measurement.
-
-**Q0 positive branch:** receiving question remains within valid reported population deviation scope; unchanged original result remains usable within its limits. No excessive alert, blanket hold or invented population defect.
-
-**Q1 receiving-scope branch:** decision owner asks whether the same result establishes DC-SEND **coverage, admissibility/appraisal or permission to send**. The expected *specified reasoning* must distinguish these from content scoring, without alleging that Flores asserted these claims. Report named unsupported conditions, do not falsify the original finding.
-
-**Corrupted-mapping matched pair:** source event R-UC17-08 = attested absence. Branch A passes this state unchanged; Branch B injects one **consumer adapter error** interpreting it as permit. All producer-side computations and eight scored verdicts are identical. Candidate only qualifies observed source/adapter outputs, does not authorize a send. If it does not observe the source absence and the changed mapping, it cannot claim to detect that specific mismatch.
-
-**Native supplementary branch:** UC17-09 content = remediate while C10 rejects the record as stale. Prevent the conversion “scored content → appraised admissible record”. Positive remediation permissions remain with the actual owner.
-
-**Reference/version pair:** R-UC17-07 under REF-FSCOMMS 1.0 versus authored R-UC17-07-2 under 1.1, with correct preservation of both historical claims and explicit standing/effective-time UNKNOWN where lacking. Source publication of version 1.1 **before** Flores v1.0 is *not* a post-Stage-1 event.
-
-**Indistinguishable worlds:** if the legitimate candidate-visible inputs for two underlying states are identical, a candidate must return NOT_ESTABLISHED or NO_OBSERVABLE_CHANGE rather than claim clairvoyant detection. This is a falsifier of unsupported omniscience. Do not show paired hidden worlds or answer keys to a blind candidate.
-
-## D. What happened to historical P0–P3 and Q-bind proposals
-
-The 12 October exploratory EA/Flores v0.2 was described as:
-- P0 — blind detector/receiver evidence assessment before role key;
-- P1 — post-unblinding cross-check, without retroactively tuning detector flags;
-- P2 — selective loss of one necessary binding/qualification and a proposed B→UNKNOWN loss of reliance;
-- P3 — bounded recovery/requalification once a legitimate ground returns.
-
-That construction and its reported 14-file ZIP **are historically relevant but not a passed current protocol**. Independent review and v0.3/v0.5 corrections found that per-round random role relabeling, unlike Flores's per-**run** relabeling, can be analyzed using the source's own declared model; it is known/characterized B, not an established unknown C. A supplied “basis lost” event or textbook version mismatch may be detected by competent B2; copying an oracle truth is not a distinctive EA inference. The old 14/14 author selftest is **withdrawn as scientific EA PASS evidence**, not erased. Do not run P0–P3 as though no audit happened.
-
-## E. Current v0.5 requirements-first Stage A proposal
-
-The 12 October *EA / Population — Requirements-first Stage A Challenge* (v0.5, audit-corrected) is the controlling author-side **candidate**, not a frozen/stage-passed package:
-
-- **N01–N10 documentary source calibration:** preserved as **UNSCORED**; known Flores/CTGT/AVS/Nelson definitions and self-acknowledged limitations cannot count as novel discoveries by EA.
-- **Seven single-case controlled sessions:** drawn from revised hypothetical source-context cases, with positive continuity, true source/version conditions, correlated-not-independent notice controls, bounded method deterioration/recovery, an observational-equivalence negative and false C11-independence declarations. Case-specific facts and draft outcomes are **auditor-only**, may be rejected/changed by the reviewer and must never be presented all at once to the blind candidate.
-- **R3 real exogenous variation:** distinct **NOT_ADMITTED** track. Needs accepted t0 reliance for the **same claim**, verifiable material external t1 event/effective time after t0, eligible observable distinguishing evidence, independent adjudication and a matched control. No present generator implements or proves this real transition.
-- **Instrument checks:** eight self/regression checks address scorer/packet invariants only. They do not show EA specification conformance, product runtime, B2/B3 efficacy or R3 detection.
-
-**Do not publicize reviewer-only case packets or hidden world/answer mappings in this folder.** The public documents state source-native invariants and experimental design; a future reviewer must establish an independent freeze and non-leaking candidate package before an admissible blind comparison.
-
-## F. Matched comparator matrix and fairness
-
-| Arm | Description | Status and non-substitution |
+| Fase prospectiva | Objeto | Condición y salida |
 |---|---|---|
-| Native Flores / CTGT | Original producer result, authored limitations and eligible record appraisal | Upstream reference, **not EA or B2** |
-| B2 — competent conventional baseline | Version/lineage/scope/appraisal, currentness and lawful permission qualification using **same** eligible inputs and budget | **Not executed** here; allow it to solve the entire problem |
-| B3 — candidate EA specification path | Contextual sufficiency and process-relative A/B/C/D, targeted requalification and bounded return | **Not executed**; specification not an implemented technology |
-| Null / no-observable-channel | Correct refusal to assert hidden fact when all visible inputs identical | Necessary negative control |
-| Positive continuation | Legitimate Q0/authorized ordinary work proceeds | Must reject deny-all and spurious global R3 alarm |
+| 1: fuente/continuidad con R2 congelada | Cambio R3 material no cubierto; matriz de votos y scoring originales preservados | Determinar qué evalúa realmente el mecanismo nativo y si la misma determinación/continuidad pierde fundamento. NOT_ASSESSED puede ser una respuesta fuente correcta dentro de su scope |
+| 2: requisitos EA | Capacidad general de reconocer el cambio y abrir recalificación precisa | Especificación fijada antes de la revelación del caso puntuado. Medir scope, evidencia, reentrada, costes y positivos frente al peer completo |
 
-Hold equal: native A availability, evidence source, input-profile permissions, access clock, sample, process/claim, authority, timestamp visibility, deadline, compute/communication/human budget, oracle isolation, evaluator ownership and scored outcomes. Record **time/cost/false containment** as well as correctness. If B2 complies at equal/lower burden, **no distinctive EA win**. If both fail, do not infer superiority from fewer failures. Outcome can be negative, equivalent, not established or partial.
+Se conservan juez/rol/seed/clave/source output, los ocho casos nativos y su umbral. UC17-08 continúa excluido del scoring; UC17-09 content/remediate es distinto de record/rejected. Un wrapper consumidor es un objeto declarado, no una promesa nueva imputada a Flores. Un replay con el mismo archivo no es una prueba de seis modelos viendo hechos nuevos en streaming.
 
-## G. Concrete Stage A functional obligations E1–E8
+## Controles y adjudicación
 
-1. **E1 Original preservation:** no rewriting source flags, scored population, original references, seeds, keys, unblind timing or judgments.
-2. **E2 Traceable provenance:** each reused atom bound to producer, record, revision, source dependence, scope/time and native type; do not multiply the same origin by copying.
-3. **E3 Legitimate changed question:** recognize Q0 versus Q1 and do not fabricate a source-owner claim or a fact the population method never evaluated.
-4. **E4 Non-equivalent states:** absent ≠ indeterminate ≠ rejected ≠ permit; a correct content verdict does not imply a valid admissible record.
-5. **E5 Scope-positive continuity:** untouched judgments and unrelated lawful work continue; no blanket hold, no retroactive regrading.
-6. **E6 Epistemic role discipline:** B/C/D require named process, aspect, evidence path and scope; population rates or native “indeterminate” do not become automatic C/D.
-7. **E7 Bounded return and authority:** only named insufficiency, gap, provenance and affected scope to the permitted receiver; no desired answer upstream, no EA actuation or authorization.
-8. **E8 Strong conventional challenge:** competent B2 with identical information, resources and timing; success by B2 may eliminate the proposed differential.
+| Control | Obligación |
+|---|---|
+| Baseline y reparación positiva | Q fundada en t0 y R2 demostrada antes del freeze |
+| Cambio material único | Afecta el fundamento de la misma Q fuera de cobertura efectiva, sin cambiar arbitrariamente la pregunta |
+| Irrelevancia y alcance no afectado | Conservar actividad legítima y no lanzar un hold global |
+| Restauración o fuente alternativa válida | Reentrada con fundamento vigente y sin borrar la historia |
+| Igualdad de observaciones completas | Con hechos ocultos diferentes pero inputs iguales, no fingir identificación |
+| Fairness y blind | Defender B2 completo; EA ex ante; oracle y casos puntuados separados de inputs y calibraciones públicas |
 
-No simple exact-string checker or unblinded question-answer quiz may substitute for independently assessed causal evidence that these obligations survive meaningful counterexamples. Link each future verdict to a versioned signed outcome oracle, observations and actual trace; preserve root blockers and uncertainty.
+El evaluador independiente fija verdad/mundo, materialidad y expectativas antes de las sesiones. Se registran inputs/queries/timestamps/outputs, alcance, falso permiso, falso hold, latencia, recuperación y todos los costes de preparación/adaptación/perfil humano. Paridad en el contexto reparado no termina el estudio; paridad en R3 se registra con su contrato sin alterar las defensas ni quitar crédito.
 
-## H. Admission, execution and exit criteria
+## Qué existe y qué falta
 
-**Before an admissible test:** verify original Flores source integrity/current status; confirm receiving-decision owner; select one scoped scientific claim and Challenge; fix t0/t1 authority and accessible facts; freeze a fair B2 specification and candidate inputs; appoint an independent adjudicator; create separate blinded run card(s), mutation/positive controls, private oracle and full-resource/time budget; document IP and roles. Keep owner-authored expectations distinct from accepted ground truth.
+Existen preparación documental, 20 controles y 64 pares sintéticos runtime, y un checker previo con 21 asserts authored (uno tautológico, explícitamente pendiente). Ninguno es implementación EA, prueba nativa o aceptación independiente. Falta la instancia source-owned Q/R2/freeze/R3, el contrato operativo, el adjudicador y los resultados ejecutados. [Trazabilidad](TRACEABILITY_2026-10-13.md) identifica cada afirmación, fuente, falsificador y evidencia pendiente.
 
-**During tests:** run identical eligible input worlds per arm; collect decisions, source lists, changes of applicability, incorrect promotions, legitimate continuations, delay, cost, trace and post-effect target only if actually observed. No results are executed or measured in this dossier.
+P0–P3, ausencia→permit y v0.5 se preservan íntegros como antecedentes o controles con otros contratos. Sus fuentes y denominadores no se agregan al resultado actual. [Versiones y decisiones](VERSIONS_AND_DECISIONS_2026-10-13.md) conserva las formulaciones anteriores, cambios de criterio y documentos completos.
 
-**Acceptance:** strict evidence: positive and negative controls, no unauthorized source/authority promotion, no hidden-world clairvoyance, observed differential after fairness checks, independent judgment and reproducible artifact pins. Missing adjudication returns NOT_ESTABLISHED / NOT_EXECUTED, never PASS.
+<details>
+<summary>Anclajes de versiones previas — navegación preservada</summary>
 
-**R2 / later stages:** UC-4 R0/R1 and UC-21 R2 are separate test protocols, not Stage A/B/C labels. Stage B architecture and Stage C native implementation require separate campaigns and actual prior handoff packages. Independent review and candidate-specification selection must occur before Stage B.
+<a id="orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3"></a>
 
+**Orientación vigente — 13 octubre 2026: R2 reparada → freeze → R3** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3).
 
-## I. Receiving-side loss/recovery technical subprofile (P0–P3) — incorporated 13 October 2026
+<a id="flores--ea--scientific-design-comparators-and-proposed-execution-contract"></a>
 
-The existing Q0→Q1/UC17-08 test remains the leading source-native mapper candidate. The [P0→P3 protocol](./technical/PROTOCOL_P0_P3.md) is a different, strictly **receiver-side proof-sufficiency subprofile** using Flores's already prescribed blind→unblind information views and a later synthetic local EHD association ablation. Do not treat it as an observed t1 change of judges, a population correctness result, a C→B scientific finding or an executed Theme #21 additional test. Its falsifiers and resource-matched conventional B2 peer are in [technical acceptance](./technical/ACCEPTANCE_AND_B2.md); original adverse findings are in [technical audit](./technical/AUDIT_RECONCILIATION.md).
+**Flores × EA — scientific design, comparators and proposed execution contract** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#flores--ea--scientific-design-comparators-and-proposed-execution-contract).
 
-The latest illustrative proof checker adds one necessary correction: failure of the sealed role→label link **refutes the comparison's eligibility**, but cannot refute **independent correctness of the authored reference key**. Objective key truth has a separate unestablished predicate. The public author-written 21 checks are comparator/instrument diagnostics, not EA or source-native execution results. A generic B2 dependency graph can tie.
+<a id="current-owner-directed-experimental-priority-1213-october-2026"></a>
 
-## I. Explicit scientific status of three different drifts
+**Current owner-directed experimental priority (12–13 October 2026)** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#current-owner-directed-experimental-priority-1213-october-2026).
 
-**Research approach drift:** owner-directed change of experimental strategy 12–13 October, documented by conversation and the present dossier.
+<a id="a-distinct-objects-and-questions"></a>
 
-**Receiving applicability/mapping drift:** one controlled downstream adapter semantic change, source-side eight scored cases and judge method unchanged. It can support *only* a bounded Stage A minimum-sufficient-specification finding after independent admission, potentially with conventional B2 equivalent.
+**A. Distinct objects and questions** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#a-distinct-objects-and-questions).
 
-**True same-claim R3:** a future separate test requiring established t0 identifiability, an independently verified post-t0 material change in observation/evaluator architecture, legitimately observable evidence and supported recovery. **NOT_OBSERVED / NOT_ADMITTED** in original Flores v1.0. Known version mismatches and calculable re-labeling errors must not be relabelled novel C.
+<a id="b-native-inputs-and-observation-permissions"></a>
 
-These separations are mandatory even when they falsify a stronger proposed EA advantage.
+**B. Native inputs and observation permissions** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#b-native-inputs-and-observation-permissions).
 
-## J. Same-campaign corrected P0–P3 technical complement (13 October)
+<a id="c-primary-native-source-experiment-q0--q1--uc-4-mapper"></a>
 
-The source-preserving [P0–P3 technical component](technical/PROTOCOL_P0_P3.md) and [G00–G12 strong-B2 controls](technical/ACCEPTANCE_AND_B2.md) are **substantive non-obsolete alternative Stage A design work** under this very campaign. It tests a **receiving claim’s evidence sufficiency** across planned blind → authorised-unblind → synthetic local association loss → legitimate restoration, without altering Flores's judges. A current source [reference/mock graph](technical/code/qualifier.py) is *not* a source-native algorithm or a distinctive EA mechanism: the [integration audit](TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) identifies a tautological mock indistinguishability check. The mock checks cannot substitute for prospective hidden independent reviewer worlds.
+**C. Primary native-source experiment: Q0 → Q1 / UC-4 mapper** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#c-primary-native-source-experiment-q0--q1--uc-4-mapper).
 
-The owner-prioritised [UC17-08 minimal semantic mapper study](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) remains the default **preparation** route, but formal comparison of the two prospective designs is not frozen. Both receive full strong conventional B2 credit, named information visibility and costs, positive legitimate continuity and a no-observable-facts impossibility branch. Neither provides a native real R3 observation.
+<a id="d-what-happened-to-historical-p0p3-and-q-bind-proposals"></a>
+
+**D. What happened to historical P0–P3 and Q-bind proposals** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#d-what-happened-to-historical-p0p3-and-q-bind-proposals).
+
+<a id="e-current-v05-requirements-first-stage-a-proposal"></a>
+
+**E. Current v0.5 requirements-first Stage A proposal** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#e-current-v05-requirements-first-stage-a-proposal).
+
+<a id="f-matched-comparator-matrix-and-fairness"></a>
+
+**F. Matched comparator matrix and fairness** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#f-matched-comparator-matrix-and-fairness).
+
+<a id="g-concrete-stage-a-functional-obligations-e1e8"></a>
+
+**G. Concrete Stage A functional obligations E1–E8** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#g-concrete-stage-a-functional-obligations-e1e8).
+
+<a id="h-admission-execution-and-exit-criteria"></a>
+
+**H. Admission, execution and exit criteria** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#h-admission-execution-and-exit-criteria).
+
+<a id="i-receiving-side-lossrecovery-technical-subprofile-p0p3--incorporated-13-october-2026"></a>
+
+**I. Receiving-side loss/recovery technical subprofile (P0–P3) — incorporated 13 October 2026** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#i-receiving-side-lossrecovery-technical-subprofile-p0p3--incorporated-13-october-2026).
+
+<a id="i-explicit-scientific-status-of-three-different-drifts"></a>
+
+**I. Explicit scientific status of three different drifts** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#i-explicit-scientific-status-of-three-different-drifts).
+
+<a id="j-same-campaign-corrected-p0p3-technical-complement-13-october"></a>
+
+**J. Same-campaign corrected P0–P3 technical complement (13 October)** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md#j-same-campaign-corrected-p0p3-technical-complement-13-october).
+
+</details>

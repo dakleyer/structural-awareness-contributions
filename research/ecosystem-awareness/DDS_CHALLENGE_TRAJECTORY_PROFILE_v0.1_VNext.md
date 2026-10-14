@@ -1033,3 +1033,16 @@ This is a location, content-lineage and preservation review by Codex, the same a
 
 
 Publication custody: the review was rebased onto concurrent commit 49aa7b9eb00acf27de7b1bbd80b23df14a544902. Its Flores runtime-context additions do not change these two VNext or the baseline and hypothesis source counterparts examined above. The content comparison remains explicitly attached to its stated d06956a cut; no new Flores result is inferred from this annex check.
+
+
+## Flores campaign organization 2026-10-13 — owner-authorized preservation and audit
+
+**Authority:** Iván explicitly requests organization of the entire existing GitHub campaign, complete version annex, all decisions/links and auditability; his subsequent steering requires full information preservation. **Scope:** existing campaign and its parent research register only. Protected EP/EA README, global method authority, native sources, freezes and scientific results are unchanged. No new README, move, rename or deletion.
+
+**Before:** overlapping entry/continuation/design/custody/Run Card texts, previous priorities called current, technical alternate misread as primary, 65 files without one complete typed catalogue or full preservation proof.
+
+**After:** compact current reading surfaces supported by **complete exact predecessor copies**, explicit historical/support banners, full file/version/decision annex, claim/source/requirement/evidence/open-item traceability and a reproducible structural verifier. R2 repaired parity → complete freeze → uncovered R3 governs current reading. Manuscripts, source snapshots, previous negative outcomes and code/data remain intact and separately graded.
+
+**Complete literal before/after custody:** [versions and per-file predecessor URLs](./campaigns-in-development/flores-population-ea/VERSIONS_AND_DECISIONS_2026-10-13.md); [machine inventory and source blobs](./campaigns-in-development/flores-population-ea/audit/CAMPAIGN_CONTROL_2026-10-13.json); current successor paths in that same record. This entry is prepared before application in the staged plan, with the owner's explicit instruction already received; its publication implements that authorized scope, not a request for later global migration.
+
+**Verification:** original 65 paths survive; each source blob is authenticated from retrieved bytes; every modified predecessor is byte-exact in the archive; all other original bytes are unchanged. Active local links, old fragment aliases, explicit catalogue reachability, publication manifest, code/results and machine status consistency are checked. Known scientific/archival gaps are tracked, not stamped PASS. No claim of independent scientific audit is made.

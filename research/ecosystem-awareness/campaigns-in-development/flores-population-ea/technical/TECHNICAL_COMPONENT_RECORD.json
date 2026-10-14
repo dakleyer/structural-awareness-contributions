@@ -3,7 +3,7 @@
   "campaign_id": "DDS-A-FLORES-POP-EA-01",
   "name": "Flores Theme #21 Population — residual discriminability and receiver-basis requalification",
   "created": "2026-10-13",
-  "status": "TECHNICAL_ADDENDUM_AUTHOR_SIDE_NOT_PREREGISTERED",
+  "status": "SUPPORTING_EARLIER_CONTRACT_NOT_CURRENT_PRIMARY",
   "owner_repository": "dakleyer/structural-awareness-contributions",
   "owner_folder": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical",
   "parent_test_index": "research/ecosystem-awareness/campaigns-in-development/INDEX.md",
@@ -50,5 +50,10 @@
   "notes": "Public campaign includes source-derived and authored protocol; original historic ZIP bytes incl auditor-only oracles remain outside this public repository; see archival custody gap in HISTORY.",
   "parent_campaign_id": "DDS-A-FLORES-POP-EA-01",
   "component_id": "DDS-A-FLORES-POP-EA-01/RECEIVER-P0-P3",
-  "parent_campaign_record": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md"
+  "parent_campaign_record": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md",
+  "previous_complete_record": "../history/versions/2026-10-13_before_organization/technical/TECHNICAL_COMPONENT_RECORD.json.txt",
+  "previous_status": "TECHNICAL_ADDENDUM_AUTHOR_SIDE_NOT_PREREGISTERED",
+  "current_parent_direction": "../runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+  "current_parent_object": "Theme #21 same temporal inference, not UC-21",
+  "authored_check_caveat": "21 authored checks; one observational-equivalence assertion tautological; no native run or independent adjudication"
 }

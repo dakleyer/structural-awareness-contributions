@@ -1,3 +1,5 @@
+> **Estado de lectura: APOYO TÉCNICO / CONTRATO ANTERIOR.** El diseño vigente es [R2 → freeze → R3](../runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](../VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](../TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # Primary source register, owner custody and mutable evidence
 
 **Consultation cuts:** source blobs checked by connected GitHub on 11–13 October 2026; comment bodies previously retrieved and SHA-256 recorded 12 October. A comment's content is mutable; its digest is an observation, NOT a Git commit pin. Do not rely on an edited comment's creation timestamp alone.

@@ -1,0 +1,56 @@
+{
+  "registry_name": "DDS_CAMPAIGNS_IN_DEVELOPMENT_RESEARCH_SIDE",
+  "date": "2026-10-13",
+  "status": "WORKING_NAVIGATION_NOT_METHOD_AUTHORITY",
+  "canonical_method": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "global_dds_physical_migration": "NOT_EXECUTED",
+  "campaigns": [
+    {
+      "working_id": "DDS-A-FLORES-POP-EA-01",
+      "slug": "flores-population-ea",
+      "title": "Flores / population assessment -> EA receiving-decision qualification",
+      "dds_stage": "A",
+      "status": "IN_DEVELOPMENT_NOT_PREREGISTERED",
+      "science_evidence": "DOCUMENTARY_PREPARATION_ONLY",
+      "main_record": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md",
+      "record": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.json",
+      "links": [
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SCIENTIFIC_DESIGN.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/HISTORY_AND_AUDIT.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SOURCES_AND_CUSTODY.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/INFORME_2026-10-13.md"
+      ],
+      "original_experiment_owner": "Justin Philip Flores / Himalogic; not IMS or the local campaign",
+      "external_coapproval": "NOT_ESTABLISHED",
+      "independent_stage_a_review": "NOT_EXECUTED",
+      "actual_b2_ea_comparison": "NOT_EXECUTED",
+      "stage_b_c": "NOT_STARTED",
+      "technical_addenda": [
+        {
+          "component_id": "RECEIVER-P0-P3",
+          "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md",
+          "status": "ADDED_AUTHOR_SIDE; NOT_PREREGISTERED",
+          "source_status": "historical v0.2/v0.5 ZIP hashes reverified locally 13 October; raw ZIP bytes private"
+        }
+      ],
+      "last_documentary_audit": "2026-10-13",
+      "current_research_direction": "R2_REPAIRED_PARITY_FULL_FREEZE_THEN_ADMISSIBLE_UNCOVERED_R3_GENERAL_EA_EX_ANTE",
+      "research_approach_record": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+      "proposed_primary_trial": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/PROTOCOLO_2026-10-13.md",
+      "trial_status": "DRAFT_NO_FROZEN_RUN_CARD_NO_EXECUTION",
+      "audit_report": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/AUDIT_REPORT_2026-10-13.md",
+      "readable_source_recovery": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/history/recovered-text/RECOVERY_MANIFEST.json",
+      "binary_original_archive_parity": "NOT_VERIFIED",
+      "technical_subprofile": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md",
+      "technical_audit": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "candidate_experiment_selection": "SAME_TEMPORAL_CLAIM_RUNTIME_CONTEXT_R2_FREEZE_R3_DRAFT; UC17_08_HISTORICAL_SEPARATE_CONTROL",
+      "mock_checks_reported": 21,
+      "author_rehashed_ZIP_status": "REPORTED_FROM_OTHER_RUNTIME_BINARY_NOT_PUBLIC_NOT_REHASHED_HERE",
+      "historical_research_direction": "OWNER_APPROVED_RESEARCH_APPROACH_PIVOT_TO_SINGLE_NATIVE_RECEIVER_MUTATION",
+      "historical_proposed_primary_trial": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md"
+    }
+  ],
+  "last_updated": "2026-10-13"
+}

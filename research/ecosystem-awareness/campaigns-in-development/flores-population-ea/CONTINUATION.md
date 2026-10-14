@@ -1,104 +1,77 @@
-## Orientación vigente — 13 octubre 2026: R2 reparada → freeze → R3
+# Continuar Flores desde GitHub
 
-**Esta instrucción posterior de Iván gobierna la continuación y sustituye la prioridad experimental anterior conservada abajo.** El objeto es **Theme #21 / la prueba de Flores**, con el cambio mínimo de contexto de la **misma inferencia temporal**. UC17-08 y UC-21 permanecen antecedentes o controles separados; no son el objetivo principal vigente.
+**Edición 2026-10-13.ORGANIZATION.1.** Empezar en [CAMPAIGN](CAMPAIGN.md), [principio vigente](runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md) y [diseño](SCIENTIFIC_DESIGN.md). Las versiones locales gemini_process y los textos antiguos son antecedentes, no otro dueño de la campaña.
 
-**Mantra:** EA alcanza igualdad en el contexto conocido/reparado. El participante configura y repara hasta el nivel que defienda; demuestra R2 y se congela **toda** su configuración, fuentes, defensas y adaptación. Después se admite un R3 material fuera de la cobertura de esa R2 congelada, sin quitarle defensas. Se estudia si la determinación pierde fundamento mientras los jueces mantienen exactamente los mismos outputs. La evaluación posterior estudia los requisitos generales EA de recalificación, fijados antes de revelar el R3 puntuado, con acceso y recursos comparables. Un patch posterior inaugura otro R2/freeze. La igualdad en R2 no cancela el estudio R3 ni exige volver a preguntar por una ventaja estática.
+## Secuencia de trabajo
 
-**Leer primero:** [principio R2/freeze/R3](runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md), [protocolo temporal](runtime-context/PROTOCOLO_2026-10-13.md), [informe completo](runtime-context/INFORME_2026-10-13.md), [18 referencias primarias](runtime-context/REFERENCIAS_2026-10-13.md) y [lectura HTML](runtime-context/Informe_Flores_Runtime_Context_2026-10-13.html).
-
-**Estado:** investigación y protocolo preparados; instancia nativa R2/freeze/R3 aún no admitida ni ejecutada. Los [20 controles y 64 pares sintéticos](runtime-context/preflight/RESULTS_2026-10-13.json) son calibración pública authored, no resultados EA ni datos nativos de Flores. La verdad oculta no se infiere de inputs completos indistinguibles.
-
-**Próximo trabajo:** concretar con la fuente un predicado realmente establecido en t0, demostrar la reparación nativa R2 y fijar su freeze completo; admitir un cambio externo mínimo que afecte ese mismo predicado fuera de su cobertura y sus positivos/negativos; fijar requisitos EA generales ex ante y ejecutar ambas fases bajo el contrato. No reiniciar por la antigua ausencia→permit ni ampliar por defecto el casebook. Las dos fases prospectivas permanecen dentro de este único expediente DDS en desarrollo.
-
-**Custodia:** este es el punto durable en GitHub. Los documentos históricos a continuación se conservan íntegros como antecedentes; sus rótulos «current», «priority» o «read first» anteriores no prevalecen sobre esta orientación. No se modifican fuentes externas, corpus protegido, freezes históricos ni resultados.
-
----
-
-# Continue FLORES — verified starting point, decisions and next steps
-
-**User retrieval instruction:** when the user says “Flores”, “iniciativa Flores”, “campaña Flores”, “experimento de Flores”, “Theme #21 y EA” or “the residual blind spot of Flores”, open [CAMPAIGN.md](./CAMPAIGN.md), then this document, [SCIENTIFIC_DESIGN.md](./SCIENTIFIC_DESIGN.md), [HISTORY_AND_AUDIT.md](./HISTORY_AND_AUDIT.md), [SOURCES_AND_CUSTODY.md](./SOURCES_AND_CUSTODY.md), and exact current external anchors. Do not ask the user to repeat the earlier two-hour explanation.
-
-## Read first — 12–13 October change of research approach
-
-**The priority is now the [small source-native experiment](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md), following the owner's [methodological pivot](APPROACH_DRIFT_2026-10-12_13.md).** Do not restart by expanding v0.5 or reinterpreting old 14/14 self-checks as scientific wins. v0.5 provides **unfrozen** reviewer safeguards; the preferred first test preserves Flores's original experiment, changes one consumer mapping UC17-08 `attested absence→permit`, records positive control/recovery/no-information negative, and matches a strong B2. A genuine same-claim 4→3 identifiability loss is **not established**; the [Run Card](RUN_CARD_PREPARATION.md) is preparation only.
-
-**Six full readable historical source texts have been [recovered](history/recovered-text/RECOVERY_MANIFEST.json)**; their original PDF/ZIP binary parities remain unverified. The [new audit](AUDIT_REPORT_2026-10-13.md) records what was recovered and what remains blocked.
-
-## 1. Starting status (13 October 2026)
-
-| Component | State | Correct reading |
+| Paso | Trabajo concreto | Registro y condición de avance |
 |---|---|---|
-| Flores v1.0 source and expected.py | SOURCE_PUBLISHED / PRE_RUN_SPEC | Original external author; no six-run outputs verified in this repo |
-| Our source/interface and 11–12 Oct internal review | RESEARCH_DOCUMENTED | Source semantics, false inferences, positive controls and audit corrections retained |
-| Exploratory P0–P3 / v0.2 | HISTORICAL_SUPERSEDED_OR_REWORK_NEEDED | ZIP bytes not currently audited; no scientific EA PASS |
-| v0.3 Frame Qualification | AUTHOR_WORKING_REVIEW | Native-source, no actual B→C R3 demonstrated |
-| v0.4 casebook | CRITICISED / SUPERSEDED | Weak oracle, source quiz, clue leakage and self-scoring issues |
-| v0.5 Stage A Challenge | CANDIDATE_UNFROZEN / SUPPORTING_AUDIT_DESIGN | N01–N10 unscored; 7 prospective sessions and 8 tooling checks; **not the owner's selected first narrow trial** |
-| UC17-08 minimum single-point handoff test | PRIMARY_STAGE_A_TRIAL_DRAFT | Clean→corrupted `attested absence→permit` mapping→recovery and no-observation control; **not executed**. UC17-09 and CTGT 1.0/1.1 are separate optional controls |
-| Strong B2 vs EA/B3 | NOT_EXECUTED | Equal evidence, resources and timing; valid parity or negative conclusion |
-| Real post-t0 R3 | NOT_ADMITTED | No legitimate independently verified event in this fixed scripted source |
-| DDS Stage A accepted | NO | No independent oracle adjudication/freeze or valid compared result |
-| Stage B/C and external FG-TIDA adoption | NO | Separate authority/processes and experiments |
-| Physical root dds/ campaign consolidation | NOT_EXECUTED | Independent migration plan, no destructive movement authorized |
+| 1 | Seleccionar con la fuente una misma afirmación temporal Q y fundamento realmente establecido en t0 | No atribuir a votos independencia real o verdad objetiva que no identifican. Conservar pregunta, sujeto, finalidad, scope y horizonte |
+| 2 | Dejar al defensor convencional configurar y reparar; demostrar R2 y controles positivos | Registrar código, reglas, fuentes, permisos, adaptación y recursos realmente defendidos. Paridad esperada |
+| 3 | Congelar R2 completa y requisitos EA generales | Hashes y responsables, evidencia de la reparación, límites y canales parejos. EA fijada antes de revelar el R3 puntuado |
+| 4 | Admitir R3 material posterior fuera de esa cobertura | Un solo cambio causal source-preserving, sin quitar defensas. Si R2 ya lo cubre, elegir otro admisible; no incapacitarla |
+| 5 | Recorrer la fase nativa y la fase de requisitos EA | Mantener resultados fuente; distinguir canal de votos de contexto autorizado. Igual evidencia, oportunidad y presupuesto en la comparación |
+| 6 | Registrar continuidad indebida, reconocimiento preciso, continuidad legítima y recuperación fundada | Oracle independiente, timeline, decisiones, costes, positivos y negativos. Conservar resultados desfavorables y paridad |
 
-## 2. Resume path — do not restart research blindly
+## Preparación pendiente
 
-1. **Recheck Flores's repository and #21 thread**: confirm main/tag README blob, available files generate/detect/unblind, version, whether v1.1 or any actual results were published after 13 Oct, dates/results, new consent/handoff. Do not mistake a future due date (review 18 Oct, provisional result horizon 25 Oct) for delivered evidence.
-2. **Reopen the v0.5 audit-corrected package** from Library or authenticated original ZIP if available; verify source hash, candidate vs reviewer-only contents, full case count, tool checks and exclusions. If missing, use the *public* Stage A challenge and audit summaries here, mark private packages unavailable.
-3. **Prioritize the owner-selected first question:** [FLO-F0..F4](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) preserving Q0 and using **one** UC17-08 absence→permit consumer mapping mutation, correct/positive control, verified restoration and indistinguishable-input negative. UC17-09 and CTGT 1.0/1.1 are separate optional controls; a real t1/R3 is a different contingent successor.
-4. **Identify receiving decision and owner**, native data permission, comparator competence, relevant Challenge, finite time/resource horizon and positive legal continuity. Obtain qualified external review of accepted/source-authored facts. Future R3 requires demonstrably eligible t0 reliance plus exogenous observable post-t0 effective change for the **same claim**.
-5. **Define strong conventional B2 first**, permitting ordinary source-integrity, provenance, reference-currentness, identity/policy and scope validation. Freeze admissible input profile and fair experiment before comparing any EA candidate.
-6. **Prepare the concrete [Run Card draft](RUN_CARD_PREPARATION.md) and independent oracle for the small primary trial first.** Candidate receives only admitted input, no hidden case labels/twins/answers. The seven-case v0.5 material remains a separate possible reviewed campaign lot, **not automatically merged into the first test**; N01–N10 remain unscored calibration. Never declare either accepted without independent freeze.
-7. **Execute and preserve actual results** if authorized: exact files, commits, case session IDs, chronological action/effect traces where applicable, cost, false holds, scope misses, valid continuity and B2/EA comparison. Include adverse outcomes and NO_DIFFERENTIAL where appropriate.
-8. **Return findings to UC-21 / Theme #21 as proposal, not imposed specification**: population producer owns measurements, EA receives and reports bounded insufficiency/gaps, UC-4 and any human/action function own their authorized interventions. External coauthorship/reviewer/standards route requires separate mutual agreement.
+El [Run Card](RUN_CARD_PREPARATION.md) es un registro de preparación vacío de resultados. audit/CAMPAIGN_CONTROL_2026-10-13.json contiene cada pendiente con responsable requerido, dependencia, evidencia de cierre y efecto. La ejecución nativa no está iniciada. La fuente externa y cualquier cooperación efectiva requieren su propio acceso/acuerdo; la organización de este GitHub fue solicitada por Iván y está dentro de esta campaña.
 
-## 3. Distinguish the related strands
+No reiniciar por el antiguo ensayo ausencia→permit ni pedir al propietario que vuelva a explicar una ventaja estática. No convertir la calibración 20/64 o los 21 asserts anteriores en el recorrido R3. La reutilización requiere un caso independiente, admitido y blind cuando corresponda.
 
-**Flores / Theme #21 main path**: six scripted judges, shared error, planted wrong judge, justified dissenter, partial identifiability, native population report. **Our core prospective campaign**: EA receiving side with source qualification and fair B2 comparator — this dossier.
+## Mantener la trazabilidad
 
-**UC-4/CDA 2.0 integration**: proposal for neutral verification route/adapter and independent execution (not falsely attributed to current Nelson commits). Proposed sequence: CDA candidate → freeze UC-4 contract → R0/R1 evidence → independently accepted/frozen R1 → UC-21 R2 under new material regime/positive controls → Stage A synthesis. UC-21 R0/R1/R2 are **not** DDS A/B/C. CDA 2.0 reported 26 pytest and five vectors in separate source work; that is not a Flores campaign outcome and must be freshly verified at its original repo before citation as fact.
+Antes de un cambio, guardar el contenido intacto y su blob/commit en history/versions; dar a la decisión un ID y registrar motivo, fuente, alcance, sucesor y límites. Actualizar CAMPAIGN.json, el catálogo y control de auditoría de esta misma campaña. Un cambio científico exige una nueva versión de contrato/freeze; una corrección editorial no reevalúa el resultado histórico.
 
-**RA-AAI / S5 / TOCTOU complementary idea** (13 Oct discussion): separate prospective UC-21/S5 Challenge and comparison with C0 Passport, C1 Background-Check, C2 AR4SI/EAR, C3 Below Zero Trust, C4 strong RATS+OPA/Rego, C5 C4+EA; suggested V00–V11 and falsifiers F1–F6, plus CHALLENGE, RATS_PROFILE, FIXTURES, ORACLE, FALSIFIERS, ADAPTER, PLAUSIBILITY, RESULTS. This requires its own scope, reference, owners and possible **different** DDS Stage A campaign; do **not** absorb it into Flores judge-population scores just because the same chat discussed both.
+Revisar los enlaces, anclajes y hashes con [el verificador](audit/verify_campaign.mjs), según [las instrucciones de auditoría](TRACEABILITY_2026-10-13.md). El HTML es una edición derivada del informe v0.2 y no el dueño de nuevos cambios. Los cortes históricos de comments y ZIPs conservan su fecha y grado de custodia.
 
-**Theme #18/#13 population and uncertainty discussion**: can supply research conditions (aggregation, incomparability and identifiability), not empirical results. Keep joint-object/decision context as a candidate follow-on, with sources fixed and no assumed group agreement.
+Para recuperar todo el razonamiento previo, abrir [el anexo completo](VERSIONS_AND_DECISIONS_2026-10-13.md) y [la historia](HISTORY_AND_AUDIT.md). Las versiones archivadas son íntegras, no resúmenes reconstructivos.
 
-## 4. Hard requirements / exclusions
+<details>
+<summary>Anclajes de versiones previas — navegación preservada</summary>
 
-- Do not change the original Flores README, expected.py, CTGT fixture, released verdicts, review-week limits or supplied seeds; do not open sealed roles during blind detection.
-- Do not send desired answer/purpose/budget upstream as measurement direction. Return may name unsupported scope/question and gap only when useful and legitimately authorized; independent reviewer must settle interface.
-- Do not infer factual independence from a relationship string, agreement, extra records, or an “indeterminate” content verdict.
-- Do not label an understood mismatch as novel C, an unobserved event as detected R3, or any hypothetical author-side v0.5 case as executed.
-- Do not import an auditor-only answer key to a public candidate test. Public GitHub stores methodology, critique, source custody, no-secret case framing and verified results only as legitimately publishable.
-- Do not treat all unknown conditions as a global stop. Preserve unaffected legitimate activity and express exact affected decision/permission owner.
-- Do not use an EA-favourable baseline. A strong peer that matches EA means peer gap closure, not EA-specific superiority.
-- Do not change protected original GitHub files/frozen scientific evidence; this dossier is add-on navigation under the existing DDS method, not root dds/ migration.
-- Do not automatically tag/message Justin, Nelson, Cyril, Olena, Steven or another participant or represent them as having accepted the campaign.
-- Do not state the current v0.5 ZIP has been byte-reverified or that its private blind packets were safely released; check each artifact later.
+<a id="orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3"></a>
 
-## 5. Definition of completed traceability versus scientific completion
+**Orientación vigente — 13 octubre 2026: R2 reparada → freeze → R3** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3).
 
-**Traceability completed by this GitHub dossier:** master narrative, canonical Stage, prospective local campaign handle, original+modified source routes, external review history, source and archive uncertainty, experiment alternatives, fair conventional comparator, exact read-first file, continuations and claim ceilings. This is DOCUMENTARY_CUSTODY, not SCIENTIFIC_PASS.
+<a id="continue-flores--verified-starting-point-decisions-and-next-steps"></a>
 
-**Scientific entry gate still open:** source/claim and reviewer identification; admitted/frozen Challenge and comparator; truly independent accepted expected outcomes; protected hidden-case delivery; native access and actual run/effect data; reproducible outcome with correctly attributed results. There may be an outcome of parity/negative evidence; record it.
+**Continue FLORES — verified starting point, decisions and next steps** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#continue-flores--verified-starting-point-decisions-and-next-steps).
 
-## 6. External collaboration and commercial boundary
+<a id="read-first--1213-october-change-of-research-approach"></a>
 
-The 13 October ideas on IRG/Tegrity.AI contribution review, optional independent testing and later standards-facing participation are contextual. They do not confer external author/authority/commissioning status on Justin Flores or FG-TIDA. Stage A candidate requirements can eventually be reviewed with independent testers, and only accepted specifications would be proposed to proper pre-standardisation/standards routes. Do not turn this GitHub development record into an external claim of recognition, certification, fee or adoption.
+**Read first — 12–13 October change of research approach** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#read-first--1213-october-change-of-research-approach).
 
-**Shortest command to resume:** “Revisa la campaña FLORES de DDS: actualiza fuentes y v0.5, elige el próximo ensayo limpio UC17-08, conserva el comparador B2 y detalla el Run Card prospectivo sin tocar el caso de Flores.”
+<a id="1-starting-status-13-october-2026"></a>
 
+**1. Starting status (13 October 2026)** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#1-starting-status-13-october-2026).
 
-## 7. New read-first technical addendum (13 October 2026)
+<a id="2-resume-path--do-not-restart-research-blindly"></a>
 
-Before preparing any new Flores trial, read the [P0–P3 technical component](./technical/TECHNICAL_INDEX.md), its [protocol](./technical/PROTOCOL_P0_P3.md), [EHD mapping](./technical/EHD_04_05A_MAPPING.md), [strong B2 and falsifiers](./technical/ACCEPTANCE_AND_B2.md), [auditor resolution](./technical/AUDIT_RECONCILIATION.md) and [binary custody corrections](./technical/HISTORY_AND_REPRODUCTION.md). This is **not another campaign**, does not replace the main source-native Q0→Q1 test, and does not upgrade a mock into Stage A evidence. The v0.2/v0.5 original archive bytes were later rehashed; they remain outside public GitHub and should be stored in a private authorized vault before declaring archival preservation complete. Original previous text remains preserved above as history.
+**2. Resume path — do not restart research blindly** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#2-resume-path--do-not-restart-research-blindly).
 
-## 8. Final 13 October technical reconciliation and corrected custody status
+<a id="3-distinguish-the-related-strands"></a>
 
-The [technical component integration audit](TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) is mandatory before resuming. Both designs remain **available within ONE DDS Stage A working campaign**, neither preregistered, executed or externally coapproved:
+**3. Distinguish the related strands** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#3-distinguish-the-related-strands).
 
-- **Owner-prioritized first source-native design:** [UC17-08 attested absence→permit downstream mapping](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md), correct/positive control, independently observable restoration and indistinguishable-visible-world negative. UC17-09 and CTGT 1.0/1.1 are optional separate controls; a real same-claim R3 is not admitted.
-- **Corrected active technical alternate:** [P0 blind→P1 authorised unblind→P2 synthetic local receiver-proof association loss→P3 restoration](technical/PROTOCOL_P0_P3.md); [13 gates and strong conventional B2](technical/ACCEPTANCE_AND_B2.md). Its [mock code](technical/code/test_qualifier.py) contains 21 authored assertions, of which one named two-world indistinguishability assertion is tautological. This is **not actual judge detection or an EA-specific pass**.
+<a id="4-hard-requirements--exclusions"></a>
 
-**Source archive status update:** earlier notices of unretrieved original ZIPs were local to the first work session. A **different technical-authoring session reported SHA-256 calculations from the original ZIPs**, recorded [here](technical/HISTORY_AND_REPRODUCTION.md); they are **not published as binaries** and this auditor **has not rehashed them**. The [six full readable source-text recoveries](history/recovered-text/RECOVERY_MANIFEST.json) are complementary, not authenticated binary originals. The technical history now has corrected reproduction commands; an independent hidden-world oracle remains to be designed and frozen.
+**4. Hard requirements / exclusions** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#4-hard-requirements--exclusions).
 
-**Never auto-run** the prior broad v0.5 seven-case casebook as the primary experiment. Its role is audit-corrected historic candidate; select/freeze a defensible test with the source owner, decision owner and external assessor first.
+<a id="5-definition-of-completed-traceability-versus-scientific-completion"></a>
+
+**5. Definition of completed traceability versus scientific completion** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#5-definition-of-completed-traceability-versus-scientific-completion).
+
+<a id="6-external-collaboration-and-commercial-boundary"></a>
+
+**6. External collaboration and commercial boundary** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#6-external-collaboration-and-commercial-boundary).
+
+<a id="7-new-read-first-technical-addendum-13-october-2026"></a>
+
+**7. New read-first technical addendum (13 October 2026)** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#7-new-read-first-technical-addendum-13-october-2026).
+
+<a id="8-final-13-october-technical-reconciliation-and-corrected-custody-status"></a>
+
+**8. Final 13 October technical reconciliation and corrected custody status** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#8-final-13-october-technical-reconciliation-and-corrected-custody-status).
+
+</details>

@@ -1,39 +1,36 @@
-# Flores / Population × EA — technical addendum to the ONE DDS campaign
+# Flores — componente técnico receptor histórico y de apoyo
 
-**Parent and only campaign owner:** [DDS-A-FLORES-POP-EA-01 / CAMPAIGN.md](../CAMPAIGN.md)  
-**Component ID:** DDS-A-FLORES-POP-EA-01/RECEIVER-P0-P3  
-**Status:** AUTHOR-SIDE TECHNICAL SUBPROFILE / NOT ADMITTED / NOT EXECUTED AGAINST NATIVE FLORES DATA / NOT A SEPARATE DDS CAMPAIGN  
-**Date:** 13 October 2026.
+**Componente:** DDS-A-FLORES-POP-EA-01/RECEIVER-P0-P3, dentro de [una única campaña](../CAMPAIGN.md). **Estado actual:** SUPPORTING_EARLIER_CONTRACT_NOT_CURRENT_PRIMARY. La totalidad del índice previo y sus argumentos está en [versiones](../VERSIONS_AND_DECISIONS_2026-10-13.md); no se declara otra campaña ni ejecución.
 
-This addendum contributes the detailed receiver-side P0→P3 hypothesis and its post-audit correction to the existing, independently published working Flores campaign. It is **not another owner**, another test method, another registered freeze, or a claim that its P2 ablation is real behaviour of Flores's judges. The master campaign also records the alternative **UC17-08 attested-absence→permit** handoff and source-native §13/UC-4 controls; the two experimental candidates remain distinct pending selection by the campaign reviewer.
+| Función de apoyo | Material íntegro |
+|---|---|
+| Contrato P0/P1/P2/P3 anterior | [Protocolo](PROTOCOL_P0_P3.md) |
+| Requisitos/interfaz propuestos | [EHD/04/05A](EHD_04_05A_MAPPING.md) · [13 gates y B2](ACCEPTANCE_AND_B2.md) · [CSV gates](STAGE_A_GATE_TRACE.csv) |
+| Límites y alternativas | [Nueve residuales](RESIDUAL_LEDGER.md) · [reconciliación](AUDIT_RECONCILIATION.md) |
+| Custodia y autoría | [Pins](SOURCES_AND_PINS.md) · [20 comment hashes](COMMENT_BODY_HASHES_20_2026-10-12.csv) · [historia/reproducción](HISTORY_AND_REPRODUCTION.md) |
+| Instrumento público | [qualifier](code/qualifier.py) · [mock receipts](code/mock_receipts.json) · [21 asserts](code/test_qualifier.py) |
+| Brief conservado | [Brief inglés](SUBMISSION_BRIEF_EN.md), no mensaje enviado |
+| Registro | [Technical component](TECHNICAL_COMPONENT_RECORD.json) |
 
-**13 October follow-up audit:** [technical integration and code findings](../TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md). The owner's research-approach pivot prioritizes an initial [single-point UC17-08 source→consumer test](../PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) but retains P0–P3 as a **substantive technical candidate**, not discarded. The priority is **not a frozen selection**; no comparative run has been executed.
+Los 21 checks authored contienen uno tautológico y no prueban independencia, fuente nativa ni diferencial EA. P0/P3 no constituye por sí mismo una R2 demostrada con freeze completo y R3 admitido. [El diseño vigente](../SCIENTIFIC_DESIGN.md) y [trazabilidad](../TRACEABILITY_2026-10-13.md) determinan su uso actual. Código y mock facts conservan sus bytes exactos.
 
-## Complete technical reading route
+<details>
+<summary>Anclajes íntegros del índice anterior</summary>
 
-1. [Native eight-case experiment and P0→P3 receiving protocol](./PROTOCOL_P0_P3.md) — judge model, sealed output, provenance, blind/unblind, selective loss and recovery, source limitations.
-2. [04/05A/EHD and process-relative B/C/D/UNKNOWN](./EHD_04_05A_MAPPING.md) — IF-S9, N07–N10, source A vs EA interpretation, known/unknown/data ownership, feedback, and receiver profile.
-3. [Falsifiers, positive controls, strong B2 and burdens](./ACCEPTANCE_AND_B2.md) — 13 technical gates G00–G12; real independent reviewer/freeze not yet assigned.
-4. [R0/R1 residual-ledger predecessor](./RESIDUAL_LEDGER.md) — all nine auditor inventory questions, sampling vs structural residual and hypothetical probe correction.
-5. [Primary-source SHA1 locks and twenty mutable-comment body digests](./SOURCES_AND_PINS.md) · [machine CSV](./COMMENT_BODY_HASHES_20_2026-10-12.csv).
-6. [Adversarial corrections](./AUDIT_RECONCILIATION.md) — rejected Q-bind B→C, source A/BCD, frame location, scorer leakage, key-truth conflation, disputed B/D roles, absent native data.
-7. [Historical packet filenames and SHA256](./HISTORY_AND_REPRODUCTION.md) — exact local recovered hashes; original raw historical ZIPs are **not** public here and provisional blind reviewer oracles must remain private.
-8. [Machine trace of the requirements](./STAGE_A_GATE_TRACE.csv).
-9. [Local reference checker](./code/qualifier.py), [explicitly mock facts and receipts](./code/mock_receipts.json), [author-written consistency tests](./code/test_qualifier.py). A competent B2 can use equivalent proof-graph semantics. Tests are illustrative, not EA success.
-10. [An optional English source-owner review brief](./SUBMISSION_BRIEF_EN.md) — **NOT sent** to Flores.
-11. [Technical component manifest](./TECHNICAL_COMPONENT_RECORD.json) — references the existing campaign ID; not a second campaign registry.
+<a id="flores--population--ea--technical-addendum-to-the-one-dds-campaign"></a>
 
-## Critical technical boundary
+**Flores / Population × EA — technical addendum to the ONE DDS campaign** — [apartado completo](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md#flores--population--ea--technical-addendum-to-the-one-dds-campaign).
 
-- Producer A (Flores flags/post-unblind report) remains source-owned and outside metadata-only EHD. Neither EA nor this checker sees sealed roles before original unblind.
-- P0 blind and P1 unblind are observation views already specified by Flores; original generate/detect/unblind results remain unpublished at the verified cut. All local source-receipt booleans are **author mock values**.
-- P2 removes an EHD/receiver association from a frozen local receiving view. Its result is **receiver proof NOT_ESTABLISHED (B→UNKNOWN when process-role basis was prior characterized)**; NOT a demonstrated source change or an automatic C.
-- P3 restores a justified local basis while retaining the history and all source residual. Removing an irrelevant field or recovering a valid alternate association must not create an alarm.
-- Authored-reference agreement ≠ independent truth. Independence of random draws by design ≠ empirically demonstrated independence of evaluator failure modes. UC17-08 absence ≠ permit; UC17-09 content judgment ≠ admissible record.
-- A defended B2 can tie or beat the candidate. Complete receiver qualification is an open Stage A scientific comparison, not an accepted test result.
+<a id="complete-technical-reading-route"></a>
 
-## New custody check, 13 October 2026
+**Complete technical reading route** — [apartado completo](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md#complete-technical-reading-route).
 
-Unlike the earlier session that had only Library summaries, the original v0.2 and v0.5 ZIP files were **reported present in a separate 13 October technical authoring runtime** where their SHA-256 was recalculated from those bytes (see [History](./HISTORY_AND_REPRODUCTION.md)). This supersedes the *availability status*, NOT the historical original research text; full raw ZIPs including private oracles have not been uploaded to the public branch.
+<a id="critical-technical-boundary"></a>
 
-**Retrieval prompt:** “Open the DDS-A-FLORES-POP-EA-01 campaign, then its RECEIVER-P0-P3 technical component and historical audit ledger.”
+**Critical technical boundary** — [apartado completo](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md#critical-technical-boundary).
+
+<a id="new-custody-check-13-october-2026"></a>
+
+**New custody check, 13 October 2026** — [apartado completo](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md#new-custody-check-13-october-2026).
+
+</details>

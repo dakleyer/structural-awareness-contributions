@@ -1,3 +1,5 @@
+> **Estado de lectura: APOYO TÉCNICO / CONTRATO ANTERIOR.** El diseño vigente es [R2 → freeze → R3](../runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md). Consulte [las versiones y decisiones](../VERSIONS_AND_DECISIONS_2026-10-13.md) y [la trazabilidad](../TRACEABILITY_2026-10-13.md). El texto anterior se conserva completo debajo; sus antiguas prioridades no gobiernan la continuación. No contiene resultados nativos de la nueva instancia.
+
 # Source-native protocol and receiving-side P0→P3 trajectory
 
 **Version:** 0.3 candidate; 13 October 2026. **No modification of Flores's Stage 1.**
