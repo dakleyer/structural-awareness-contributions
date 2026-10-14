@@ -65,3 +65,8 @@ Copiar runtime-context a una carpeta de reproducción vacía; ejecutar **node co
 ## Recuperacion y mantenimiento
 
 Para recuperar una versión, elegir su fila en [el anexo](VERSIONS_AND_DECISIONS_2026-10-13.md), abrir texto completo y commit original y verificar su Git blob/SHA-256; no reconstruirla de memoria ni de un resumen. Los fragmentos antiguos de las entradas compactadas llevan al apartado íntegro de su versión anterior. Cada cambio futuro debe introducir decisión, predecessor exacto, relación sucesora, impacto, estado, inventario y validación actualizados. El corte fijado sirve para reproducir este expediente, no para afirmar que cualquier recurso mutable futuro sigue igual.
+
+
+## Auditoria ampliada y cierres — 14 octubre 2026
+
+[Hallazgos, reparaciones y evidencia de cierre](audit/EXPANDED_AUDIT_2026-10-14.md) · [mutaciones adversariales y resultados](audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json) · [readiness/contrato blind](audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md) · [fuentes actualizadas](audit/SOURCE_FRESHNESS_2026-10-14.json). La verificación se amplía a promoción falsa, inventarios/IDs, baseline fijado, paths, recibo obligatorio y scope PARTIAL; el sucesor resuelve la tautología instrumental sin cambiar el original. Los estados y limites actuales están en el informe, manteniendo íntegro el texto anterior.

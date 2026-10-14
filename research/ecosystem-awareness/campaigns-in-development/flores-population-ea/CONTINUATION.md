@@ -75,3 +75,8 @@ Para recuperar todo el razonamiento previo, abrir [el anexo completo](VERSIONS_A
 **8. Final 13 October technical reconciliation and corrected custody status** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md#8-final-13-october-technical-reconciliation-and-corrected-custody-status).
 
 </details>
+
+
+## Auditoria ampliada y cierres — 14 octubre 2026
+
+[Hallazgos, reparaciones y evidencia de cierre](audit/EXPANDED_AUDIT_2026-10-14.md) · [mutaciones adversariales y resultados](audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json) · [readiness/contrato blind](audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md) · [fuentes actualizadas](audit/SOURCE_FRESHNESS_2026-10-14.json). La verificación se amplía a promoción falsa, inventarios/IDs, baseline fijado, paths, recibo obligatorio y scope PARTIAL; el sucesor resuelve la tautología instrumental sin cambiar el original. Los estados y limites actuales están en el informe, manteniendo íntegro el texto anterior.

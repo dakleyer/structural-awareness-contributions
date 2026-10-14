@@ -496,6 +496,116 @@
       "evidence_mode": "HISTORICAL_SUPERSEDED_PRIMARY_PRIORITY"
     },
     {
+      "path": "audit/baselines/PRE_HARDENING_f16b3ba1ef36bb3ff62b02eb89748838c66e8073.json",
+      "classification": "EXPANDED_CORRECTIVE_AUDIT_ARTIFACT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 62109,
+      "sha256": "27b752ca4173ecaa3da8f183fdad2edfe497f9aaf9ec11ba26c05f03da47fc7d",
+      "git_blob": "e257b74b72adc123ea6d77ed0306bd12cc67dd6e",
+      "predecessor": null
+    },
+    {
+      "path": "audit/EXPANDED_AUDIT_2026-10-14.md",
+      "classification": "EXPANDED_CORRECTIVE_AUDIT_ARTIFACT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 6911,
+      "sha256": "da0d9cb055faaad665e7cb49d917c9c0e014fe2dd2d8a2cbff9c5e3c0de5de6c",
+      "git_blob": "0792a5f46c51a95f0b6616dee598ef64e033a0f1",
+      "predecessor": null
+    },
+    {
+      "path": "audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json",
+      "classification": "EXPANDED_CORRECTIVE_AUDIT_ARTIFACT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 15234,
+      "sha256": "ed30ec6fcc7cb87ae65c729e502606bff5596bc603d527f0f56b45dc446c53c0",
+      "git_blob": "572f10e903664af2522603521d9e5fedcf4725bd",
+      "predecessor": null
+    },
+    {
+      "path": "audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md",
+      "classification": "EXPANDED_CORRECTIVE_AUDIT_ARTIFACT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 5735,
+      "sha256": "7abf8e7e7623d95d1026f23dcb93a18ebd9d7095b952f22933a370850716892b",
+      "git_blob": "09a38694e1a52f387962e540ea704e9c6eafd506",
+      "predecessor": null
+    },
+    {
+      "path": "audit/REPRODUCED_GAPS_2026-10-14.json",
+      "classification": "EXPANDED_CORRECTIVE_AUDIT_ARTIFACT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 3041,
+      "sha256": "2fe40baf234916f1f79861b80ea50f9937e71753cedbff2029c9eb601b90f390",
+      "git_blob": "196813ff8ef7725b992debc656a145e680b05cac",
+      "predecessor": null
+    },
+    {
+      "path": "audit/SOURCE_FRESHNESS_2026-10-14.json",
+      "classification": "EXPANDED_CORRECTIVE_AUDIT_ARTIFACT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 13399,
+      "sha256": "ba970125143af1f2f10459f7bcb1e0fc3ee2b8bf71b7b53753b3e51d8d5bbffa",
+      "git_blob": "ffde24e8fc48a48febf277e9ae0dd901919641d6",
+      "predecessor": null
+    },
+    {
+      "path": "audit/test_verifier_v0_2.mjs",
+      "classification": "EXPANDED_CORRECTIVE_AUDIT_ARTIFACT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 7533,
+      "sha256": "2f3db471dd5b4bf52a1d19a19c0ef54b08ac2d48fdba101d8c4d6cb7272a7074",
+      "git_blob": "c94ef24a0f73d8ba7323b00012a0c0233a6904be",
+      "predecessor": null
+    },
+    {
+      "path": "audit/verify_campaign.mjs",
+      "classification": "DOCUMENTARY_AUDIT_CONTROL",
+      "purpose": "Verificador de hashes/rutas/anclajes y conservación",
+      "bytes": 15249,
+      "sha256": "e3dcc29fb81a5f32e899e920f8161c4b19bc1a46132e7c58e35ecca1ec2fcee2",
+      "git_blob": "ca3310dd1f2a21a94d02624e878428254246f1e4",
+      "predecessor": "history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "DOCUMENTARY_AUDIT_CONTROL"
+    },
+    {
       "path": "AUDIT_REPORT_2026-10-13.md",
       "classification": "HISTORICAL_AUDIT_AND_CORRECTION",
       "purpose": "AUDIT_REPORT_2026-10-13 — texto/datos completos conservados",
@@ -511,10 +621,10 @@
       "path": "CAMPAIGN.json",
       "classification": "CURRENT_READING_AND_STATUS",
       "purpose": "Identidad y estado máquina único",
-      "bytes": 13164,
-      "sha256": "a096c2e8cfe461be458edcdc64d467ff1adf4119543f4cba8dc79796344e4ce0",
-      "git_blob": "1f79074004f1f1812a7c899b3553879d6678ff67",
-      "predecessor": "history/versions/2026-10-13_before_organization/CAMPAIGN.json.txt",
+      "bytes": 13759,
+      "sha256": "98ff509f12b47152efec0d472fb35c78f91af4b5b75a64d93d14469c428a49aa",
+      "git_blob": "30c1ca49830bb9997c81038c2dd602c4dff2b2fd",
+      "predecessor": "history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.json.txt",
       "claims": [
         "CLAIM-08"
       ],
@@ -525,10 +635,10 @@
       "path": "CAMPAIGN.md",
       "classification": "CURRENT_READING_AND_STATUS",
       "purpose": "Entrada vigente y mapa de lectura",
-      "bytes": 10767,
-      "sha256": "49a12e8ed2faf5acc62f8832ea63253bcde9a8581bfad16bf661c06aeafe041a",
-      "git_blob": "fe78862f18c05ef53f765c74858e02126e52f51e",
-      "predecessor": "history/versions/2026-10-13_before_organization/CAMPAIGN.md.txt",
+      "bytes": 11433,
+      "sha256": "1de593954690f000a826b0df77a386f2092c02588d92c6f1884e504d4a19490c",
+      "git_blob": "acfdba6a1e70834b780ca55b5a822bbfca69f608",
+      "predecessor": "history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.md.txt",
       "claims": [
         "CLAIM-01"
       ],
@@ -542,10 +652,10 @@
       "path": "CONTINUATION.md",
       "classification": "CURRENT_READING_AND_STATUS",
       "purpose": "Continuación y mantenimiento",
-      "bytes": 8137,
-      "sha256": "871607af0a292122b82db1711f4e6ed11080fbcdbd389cda790e89d482c0de60",
-      "git_blob": "25f01de676fbd50956fad5621f8d62983eb6a52f",
-      "predecessor": "history/versions/2026-10-13_before_organization/CONTINUATION.md.txt",
+      "bytes": 8803,
+      "sha256": "f044c4cc47be69e0e5e6bdc5e414d376b2560f6d97955a98d072cfa8e11733f4",
+      "git_blob": "0ca6cfab9ae4c427f5f4149ccaade74560f68828",
+      "predecessor": "history/versions/2026-10-14_before_expanded_audit/CONTINUATION.md.txt",
       "claims": [
         "CLAIM-08"
       ],
@@ -553,91 +663,6 @@
         "DEC-06"
       ],
       "evidence_mode": "CURRENT_READING_AND_STATUS"
-    },
-    {
-      "path": "HISTORY_AND_AUDIT.md",
-      "classification": "HISTORICAL_AUDIT_AND_CORRECTION",
-      "purpose": "HISTORY_AND_AUDIT — texto/datos completos conservados",
-      "bytes": 16760,
-      "sha256": "1daa62129dd493b400037c6e2e23ad4e41cee3c1dbe7923124dd72032335180d",
-      "git_blob": "c644cca4aa01bc60524bfab34a9cef4bf07e8c2a",
-      "predecessor": "history/versions/2026-10-13_before_organization/HISTORY_AND_AUDIT.md.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "HISTORICAL_AUDIT_AND_CORRECTION"
-    },
-    {
-      "path": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
-      "classification": "HISTORICAL_SUPERSEDED_PRIMARY_PRIORITY",
-      "purpose": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1 — texto/datos completos conservados",
-      "bytes": 16869,
-      "sha256": "7e302b5b46a46e4f8efc27a56340685cc90874bc20bab62f20d6a45ef49c3f26",
-      "git_blob": "52fe3d3c024ff581f0acf9f447af7b52b8fd79ba",
-      "predecessor": "history/versions/2026-10-13_before_organization/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md.txt",
-      "claims": [],
-      "decisions": [
-        "DEC-03"
-      ],
-      "evidence_mode": "HISTORICAL_SUPERSEDED_PRIMARY_PRIORITY"
-    },
-    {
-      "path": "RUN_CARD_PREPARATION.md",
-      "classification": "CURRENT_READING_AND_STATUS",
-      "purpose": "Campos de contrato pendientes; cero resultados",
-      "bytes": 6461,
-      "sha256": "4ebe31aa440416b68206736f5f961b5975033aaddb2cfee9bc9a6cd2bc64e677",
-      "git_blob": "3197bfbae4315c90c2b8c77464b4f23bab51bb5d",
-      "predecessor": "history/versions/2026-10-13_before_organization/RUN_CARD_PREPARATION.md.txt",
-      "claims": [
-        "CLAIM-08"
-      ],
-      "decisions": [],
-      "evidence_mode": "CURRENT_READING_AND_STATUS"
-    },
-    {
-      "path": "SCIENTIFIC_DESIGN.md",
-      "classification": "CURRENT_READING_AND_STATUS",
-      "purpose": "Diseño vigente Q/R2/freeze/R3 y controles",
-      "bytes": 11441,
-      "sha256": "2e3b399670b94b236ed57abac78c6f3b855ff9187c21919130eda874a2695c31",
-      "git_blob": "44aa8a5adc3c4992a8666ba970865ba19cba7265",
-      "predecessor": "history/versions/2026-10-13_before_organization/SCIENTIFIC_DESIGN.md.txt",
-      "claims": [
-        "CLAIM-01"
-      ],
-      "decisions": [
-        "DEC-05"
-      ],
-      "evidence_mode": "CURRENT_READING_AND_STATUS"
-    },
-    {
-      "path": "SOURCES_AND_CUSTODY.md",
-      "classification": "CURRENT_READING_AND_STATUS",
-      "purpose": "Fuentes, autores, custodia y límites actuales",
-      "bytes": 10647,
-      "sha256": "063bfbea19deb1645ae5a489c13467e4179fb9b1f2be53dad3728be5ab24b804",
-      "git_blob": "7865fa6da46e48ba8b28d0aa39e376dca24d47fd",
-      "predecessor": "history/versions/2026-10-13_before_organization/SOURCES_AND_CUSTODY.md.txt",
-      "claims": [
-        "CLAIM-02",
-        "CLAIM-07"
-      ],
-      "decisions": [],
-      "evidence_mode": "CURRENT_READING_AND_STATUS"
-    },
-    {
-      "path": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
-      "classification": "HISTORICAL_AUDIT_AND_CORRECTION",
-      "purpose": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13 — texto/datos completos conservados",
-      "bytes": 15037,
-      "sha256": "cf2aa5826e9becbb9d6b61370aa89e4377768144519b024930aec6c7cbd552d1",
-      "git_blob": "9522cd0924a6c82e89abcb92050a30724ca85fa2",
-      "predecessor": "history/versions/2026-10-13_before_organization/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md.txt",
-      "claims": [
-        "CLAIM-05"
-      ],
-      "decisions": [],
-      "evidence_mode": "HISTORICAL_AUDIT_AND_CORRECTION"
     },
     {
       "path": "history/01_AUDIT_RECONCILIATION_EN_2026-10-11.txt",
@@ -712,974 +737,12 @@
       "evidence_mode": "HISTORICAL_SOURCE_SUMMARY"
     },
     {
-      "path": "history/recovered-text/01_AUDIT_RECONCILIATION_EN_2026-10-11_PDF_TEXT.txt",
-      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
-      "purpose": "Texto completo recuperado / manifest de su identidad Library",
-      "bytes": 24951,
-      "sha256": "f3db1921c2113fd0802da1692f05affd36d6be076d758aedf19865c9864ab199",
-      "git_blob": "99e219d2220d7dfd715dd70f5e14cd7548ceb6bb",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-01"
-      ],
-      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
-    },
-    {
-      "path": "history/recovered-text/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12_PDF_TEXT.txt",
-      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
-      "purpose": "Texto completo recuperado / manifest de su identidad Library",
-      "bytes": 16518,
-      "sha256": "734d4c8877963f36a9df237b20cddd83eb40384a4ab1a34a91507b3a7409a6a2",
-      "git_blob": "d4700f55ddba59547742c60cb0cec86d27307b7a",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-02"
-      ],
-      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
-    },
-    {
-      "path": "history/recovered-text/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12_PDF_TEXT.txt",
-      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
-      "purpose": "Texto completo recuperado / manifest de su identidad Library",
-      "bytes": 16856,
-      "sha256": "c022698fa0614175775c564117381cd843cb2a5c2d2818a9c4965679f511c6e2",
-      "git_blob": "8cc1c98f7daf6d9a2704fd3cf17f1d03ca39d670",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-02"
-      ],
-      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
-    },
-    {
-      "path": "history/recovered-text/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11_PDF_TEXT.txt",
-      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
-      "purpose": "Texto completo recuperado / manifest de su identidad Library",
-      "bytes": 25305,
-      "sha256": "554ab8ca46b8f4d26a268e623308d0deea26e94ef5f40dc22c4959845e9e94ee",
-      "git_blob": "b1aabf74face7b11e1186bd2579d0578218e0a0a",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
-    },
-    {
-      "path": "history/recovered-text/EA_FLORES_ADDON_MINIMO_2026-10-12_SOURCE_TEXT.txt",
-      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
-      "purpose": "Texto completo recuperado / manifest de su identidad Library",
-      "bytes": 4366,
-      "sha256": "c2a4de007e6d3dd11d051775e34f981094ce0b17a95e19a05d0a74dba90882fd",
-      "git_blob": "d300917c93f0b5ceccb13642592587f5b8cbd548",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
-    },
-    {
-      "path": "history/recovered-text/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12_SOURCE_TEXT.txt",
-      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
-      "purpose": "Texto completo recuperado / manifest de su identidad Library",
-      "bytes": 24122,
-      "sha256": "344336b11e6d7b5b71d23c1cc5d0745ef486a9dfb83191fb370e35f92db747f3",
-      "git_blob": "04dc81ba8fdc760e9596653f0ee130aa1d740cb1",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
-    },
-    {
-      "path": "history/recovered-text/RECOVERY_MANIFEST.json",
-      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
-      "purpose": "Texto completo recuperado / manifest de su identidad Library",
-      "bytes": 4532,
-      "sha256": "e58fcfe6290e9500de41c543d72bb9d2203ce07150fb74b1ddaef89543c29d47",
-      "git_blob": "a29b6303f30fa394165c80316706282963e99434",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-07"
-      ],
-      "decisions": [],
-      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
-    },
-    {
-      "path": "runtime-context/BRIEF_EN_2026-10-13.md",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "BRIEF_EN_2026-10-13 — texto/datos completos conservados",
-      "bytes": 5347,
-      "sha256": "0d32e4c7b25464f08a9a2336ab7313b24c5d5018ab2fd3996b004ac27233aad9",
-      "git_blob": "b881fdb660dc86d94b539a6b0e6ca016a8d19244",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/FORMALIZACION_2026-10-13.md",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "FORMALIZACION_2026-10-13 — texto/datos completos conservados",
-      "bytes": 8685,
-      "sha256": "a158fd4df92d82017aa96f6841fd9bb72f1aae5335cfb2b0f6bb774f9a115c85",
-      "git_blob": "963232aa54f1fa6d2c7f8c60e284a666fa61b8db",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-03"
-      ],
-      "decisions": [],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/INFORME_2026-10-13.md",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "INFORME_2026-10-13 — texto/datos completos conservados",
-      "bytes": 29544,
-      "sha256": "69eebd6fc6a1888b78e50246990e526c238ed0367b55f4cce2f47e3d633ac19c",
-      "git_blob": "2af57e9fea47367189b21196919b2ff8a6248d9b",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-04"
-      ],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/Informe_Flores_Runtime_Context_2026-10-13.html",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "Informe_Flores_Runtime_Context_2026-10-13 — texto/datos completos conservados",
-      "bytes": 102483,
-      "sha256": "3934279638009d9d3fc8d780ee15dbd00ea466578653f51daf071c1df0338a40",
-      "git_blob": "e82a892b8480b1d6a1c6f26a67ae6c10fc4c7943",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "PRINCIPIO_R2_FREEZE_R3_2026-10-13 — texto/datos completos conservados",
-      "bytes": 7348,
-      "sha256": "78ea20365830bfb45ea73d617f56c386e483291fa03f92318a91f6d8f5f42bc7",
-      "git_blob": "8d75851856e33b2fcde400c2539a33db84906d2d",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-01"
-      ],
-      "decisions": [
-        "DEC-05"
-      ],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/PROTOCOLO_2026-10-13.md",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "PROTOCOLO_2026-10-13 — texto/datos completos conservados",
-      "bytes": 15542,
-      "sha256": "d33fc071858b743cf934accfbe0b1b6b62a45823928b49890e0373c3faebbc85",
-      "git_blob": "aadd49a40873f7f39c565e188ddb26fc2a13dcd7",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-04"
-      ],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/PUBLICATION_MANIFEST_2026-10-13.json",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "PUBLICATION_MANIFEST_2026-10-13 — texto/datos completos conservados",
-      "bytes": 5062,
-      "sha256": "f48bc9cab202c839f7bd8696c3fc07109af4ab232eddbd02f9927334472ec0d1",
-      "git_blob": "4fa72a9268a3312c085e30d2a8735e45d68c1c3f",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-07"
-      ],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/REFERENCIAS_2026-10-13.md",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "REFERENCIAS_2026-10-13 — texto/datos completos conservados",
-      "bytes": 11658,
-      "sha256": "ed8a93c5a2d676a927a914046e032455a4013642743298065a0f2f7db6ead1a3",
-      "git_blob": "b627610753b603106114c0e21f9b26c7e41b6949",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/REVISION_ADVERSARIAL_2026-10-13.md",
-      "classification": "AUTHOR_REVIEW_WITH_SUPERSEDED_STATIC_FRAME",
-      "purpose": "REVISION_ADVERSARIAL_2026-10-13 — texto/datos completos conservados",
-      "bytes": 5666,
-      "sha256": "afc1164c9a0f51f9d2defb8aa0c23c8a3e0e15d9afaf4f305dfb4623041c0a78",
-      "git_blob": "bd696495e36c9366dfdcae1269474a4d6eaee37a",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "AUTHOR_REVIEW_WITH_SUPERSEDED_STATIC_FRAME"
-    },
-    {
-      "path": "runtime-context/code/preflight.mjs",
-      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
-      "purpose": "preflight — texto/datos completos conservados",
-      "bytes": 11275,
-      "sha256": "6203690c8fa3bfe8f9b4d701c320d603515dfbf965d89a48d317df9560baadf8",
-      "git_blob": "a49a1772dab7321aaeda97933bf86872abd087c9",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-04"
-      ],
-      "decisions": [],
-      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
-    },
-    {
-      "path": "runtime-context/preflight/CONTROL_MATRIX_2026-10-13.csv",
-      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
-      "purpose": "CONTROL_MATRIX_2026-10-13 — texto/datos completos conservados",
-      "bytes": 3818,
-      "sha256": "ac6f488fafd77115203f80154b298b9e11509f6e1d4f64af98e7ce6a05d87d80",
-      "git_blob": "5cb6d6f9e617ad8f240e8ae7e3adabb30787e8dc",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-04"
-      ],
-      "decisions": [],
-      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
-    },
-    {
-      "path": "runtime-context/preflight/RESULTS_2026-10-13.json",
-      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
-      "purpose": "RESULTS_2026-10-13 — texto/datos completos conservados",
-      "bytes": 143076,
-      "sha256": "6a193cf997078561c577f5f6c7d216e2d93fc86a3b31a71e9eb783c622a3abbe",
-      "git_blob": "d3af4ff19b20ef90dfa621022f777026008405ad",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-03",
-        "CLAIM-04"
-      ],
-      "decisions": [],
-      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
-    },
-    {
-      "path": "runtime-context/reference-register.json",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "reference-register — texto/datos completos conservados",
-      "bytes": 11552,
-      "sha256": "660e19d2e77829e2cbccd2d45cde86a26a6830fc7f1ef9627394779553f0a3bc",
-      "git_blob": "fc5dea07a485b9f2fa7401b78b479c24704da142",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/source-copy-index.json",
-      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
-      "purpose": "source-copy-index — texto/datos completos conservados",
-      "bytes": 8531,
-      "sha256": "f79a7da3cfbde9a103135db989d8eb3399e042e176f182efc61c38e0c81502be",
-      "git_blob": "ad6a9adc672f1d2c401860d88612106218d5baa2",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-07"
-      ],
-      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
-    },
-    {
-      "path": "runtime-context/source-snapshots/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 65171,
-      "sha256": "eb180859505a667b470372ba84495004a169c4bfbe91b95cb386c49da6e10e5f",
-      "git_blob": "7f489d1285113647054f4d751901b45010e4a03d",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 43434,
-      "sha256": "f1ac48ada2a0f523355f650b1cfe4ce2f80b97a418724df4be5ae31f65d823f0",
-      "git_blob": "1cf47ca6d62d0955ad8ded2f1442362638161e15",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 48620,
-      "sha256": "1efee817405d9d4772a244c3ed3234a6f590849775a40846c412e2e40c8f4df7",
-      "git_blob": "e8b8d6c77461b54e0c55e5a9f6f3549bf218c845",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/AUDIT_REPORT_2026-10-13.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 19824,
-      "sha256": "e48a9e3df911da3270ea72c670202d7fce8abdcd1cce3cea04ec183b0397d5d2",
-      "git_blob": "a8687ff0b3a9bc7ef7e542cefb22708293e76020",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/CAMPAIGN.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 26022,
-      "sha256": "bc510b5c1811e142f174784bb58f3904eec5bed0f7f063e4298f8cd2fd5040d9",
-      "git_blob": "993144fbe79701d6530aeaa6a6bd3410c2811f71",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 64472,
-      "sha256": "1d7c4bb7bacc152930ea75f58e0462e39adc57bef7fb60f459c93f932ae48a00",
-      "git_blob": "9686d0539f138a757ae973f8e497a38fa95cdae4",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/Himalogic_LICENSE.txt",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 1086,
-      "sha256": "e286c8b3b1a95f269139e73e4b0dec297da5ef9766a6ad31b66bd2606465e82d",
-      "git_blob": "35e77b4d652eade49e143436ec8fecc64c161bb1",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 20349,
-      "sha256": "c3c15d8b24bad22d6a5e5ad8c4e96980d8290a55feecbb772e471df7ada3e106",
-      "git_blob": "7ebe7cd25b1d66a6a4ccac08f43ddf60291f3db3",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/flores_expected_v1.0.py.txt",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 10533,
-      "sha256": "0da69151aa9a742e569352726ff628e87ab2ecfbf201bc503a7be9ff9a770dcc",
-      "git_blob": "e8f77f1620cfe10cd5b9ea227fb64769ddcf381b",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-02"
-      ],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/flores_specification_v1.0.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 16377,
-      "sha256": "a0fa588642cd7a589a9f70f42efff4cad6d89f99154bca4a20a0471cf1602a88",
-      "git_blob": "af97e0875cb5d9fb2b549e8f0283b4745b7410b3",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-02",
-        "CLAIM-03"
-      ],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/technical__AUDIT_RECONCILIATION.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 9829,
-      "sha256": "29b5d5b51a2d15aa3427b78b421371b9655fecdff29bbe6de45ccb4a5f13147f",
-      "git_blob": "08c615153da13339d281a33697114635f6e34515",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "runtime-context/source-snapshots/technical__PROTOCOL_P0_P3.md",
-      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
-      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
-      "bytes": 10708,
-      "sha256": "a8232d7659b2177e7fa204ae189a156299a2b94daedb9b1a4c61d596fa3e28ec",
-      "git_blob": "9a69cb5a39d7f1dd22e960b96d6d07a30ee7869a",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
-    },
-    {
-      "path": "technical/ACCEPTANCE_AND_B2.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "ACCEPTANCE_AND_B2 — texto/datos completos conservados",
-      "bytes": 8616,
-      "sha256": "a6484ea528cbd1dc9b828dd0c568502a6b80766f2e5393c98fc6935d3f791581",
-      "git_blob": "aa9bf847d96332f0e1be7d1fa28c9e7d4bd1e430",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/ACCEPTANCE_AND_B2.md.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/AUDIT_RECONCILIATION.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "AUDIT_RECONCILIATION — texto/datos completos conservados",
-      "bytes": 8928,
-      "sha256": "d39ddb6ac9768f94c14ab86d5c3b79e912eb0657251901030d04b1de3d941f7a",
-      "git_blob": "76431a0eb787c237426c0d410a0b26297bb4e20a",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/AUDIT_RECONCILIATION.md.txt",
-      "claims": [],
-      "decisions": [
-        "DEC-01"
-      ],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/COMMENT_BODY_HASHES_20_2026-10-12.csv",
-      "classification": "HISTORICAL_TRACE_OR_COMMENT_CUT",
-      "purpose": "COMMENT_BODY_HASHES_20_2026-10-12 — texto/datos completos conservados",
-      "bytes": 4129,
-      "sha256": "ce92575d19a600a18d3c6d9f1a329ba13559096fd88abc450b9f9f0fd6dc6b44",
-      "git_blob": "166c15e6de2da57b1b060382da5d3caffbfa085e",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "HISTORICAL_TRACE_OR_COMMENT_CUT"
-    },
-    {
-      "path": "technical/EHD_04_05A_MAPPING.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "EHD_04_05A_MAPPING — texto/datos completos conservados",
-      "bytes": 7723,
-      "sha256": "8640e3bccad77459b69519ed1d2aeea4312641b3fa3c7391a06d9a0edea49c82",
-      "git_blob": "f1796320ba9dd838d08edda841842f441eaebcf6",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/EHD_04_05A_MAPPING.md.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/HISTORY_AND_REPRODUCTION.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "HISTORY_AND_REPRODUCTION — texto/datos completos conservados",
-      "bytes": 8104,
-      "sha256": "de68d6d272b6311f83bdb1350d45beba5315c5ac0e48a4bc8a52f1b7c3d3a2a0",
-      "git_blob": "87f9068084847e1a687c693e99d238d0fb40a14c",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/HISTORY_AND_REPRODUCTION.md.txt",
-      "claims": [
-        "CLAIM-07"
-      ],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/PROTOCOL_P0_P3.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "PROTOCOL_P0_P3 — texto/datos completos conservados",
-      "bytes": 10203,
-      "sha256": "042684e55510aa4e8fe0f9622b9c4660c4245bbef40fb47b44f612e92021bd2f",
-      "git_blob": "a9393c32766e1657cc27da39f7d2ecc94ba87b72",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/PROTOCOL_P0_P3.md.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/RESIDUAL_LEDGER.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "RESIDUAL_LEDGER — texto/datos completos conservados",
-      "bytes": 6592,
-      "sha256": "8172b6a8e1ae8f349415657f65dbe10c3fd4bcd6cd0b020063783cd1ed0ddd45",
-      "git_blob": "cb29636e362ad46b17f5a90ee2dbdd8fa0257415",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/RESIDUAL_LEDGER.md.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/SOURCES_AND_PINS.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "SOURCES_AND_PINS — texto/datos completos conservados",
-      "bytes": 9888,
-      "sha256": "c2e608bcc33661643f432887ae8ef13447f1f5ce0df082d8aa51d41568f2f5ea",
-      "git_blob": "281410318ff1b311eb68c0e67ec4a448d318df32",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/SOURCES_AND_PINS.md.txt",
-      "claims": [
-        "CLAIM-02"
-      ],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/STAGE_A_GATE_TRACE.csv",
-      "classification": "HISTORICAL_TRACE_OR_COMMENT_CUT",
-      "purpose": "STAGE_A_GATE_TRACE — texto/datos completos conservados",
-      "bytes": 1438,
-      "sha256": "a1c01c190af8bc6596a7aa4055c502c2a43bda3eb5f001fb22e8313403219204",
-      "git_blob": "e541b1e4d467437a7b9a4ca2804a3d4302eeaca1",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "HISTORICAL_TRACE_OR_COMMENT_CUT"
-    },
-    {
-      "path": "technical/SUBMISSION_BRIEF_EN.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "SUBMISSION_BRIEF_EN — texto/datos completos conservados",
-      "bytes": 3671,
-      "sha256": "782de9719a3413e0f7ddd49da692b0a2d4f8119983c2ad1da561700403bb2e2c",
-      "git_blob": "ba7d4ea4dd48d5abc8c6f8e2fc9efa6987c9e68b",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/SUBMISSION_BRIEF_EN.md.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/TECHNICAL_COMPONENT_RECORD.json",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "TECHNICAL_COMPONENT_RECORD — texto/datos completos conservados",
-      "bytes": 3368,
-      "sha256": "d04b73d0fd3fedaef441e29e4a6593282484e28942ef3287532a17f31a20a902",
-      "git_blob": "5f2e584d55c10ae288b00d0c0bb7e69213a797a0",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_COMPONENT_RECORD.json.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/TECHNICAL_INDEX.md",
-      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
-      "purpose": "TECHNICAL_INDEX — texto/datos completos conservados",
-      "bytes": 3224,
-      "sha256": "3171b34df5b2f2cc2b960bba199abb38f1aa29d9e0fca45faa657f9aaf831ca3",
-      "git_blob": "1efe29f3c950d219073fa52d66b3f76d7ae3b3b7",
-      "predecessor": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_INDEX.md.txt",
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
-    },
-    {
-      "path": "technical/code/mock_receipts.json",
-      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
-      "purpose": "mock_receipts — texto/datos completos conservados",
-      "bytes": 4229,
-      "sha256": "e5c8d331079b6e557a63b149ec8983ea27688fb95bc935988130b0dc33687ce7",
-      "git_blob": "ea0a247b2c0aa11ef7077055d53de2c6d1fad1e5",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-05"
-      ],
-      "decisions": [],
-      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
-    },
-    {
-      "path": "technical/code/qualifier.py",
-      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
-      "purpose": "qualifier — texto/datos completos conservados",
-      "bytes": 2787,
-      "sha256": "ff42738b94f1865b0f01e8a87f1980e72e1ba5d1dc927eea50b4a07edfddfa4c",
-      "git_blob": "c776e1225d953d7f967150dbd3a65c48401c26f0",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
-    },
-    {
-      "path": "technical/code/test_qualifier.py",
-      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
-      "purpose": "test_qualifier — texto/datos completos conservados",
-      "bytes": 2374,
-      "sha256": "327694a23e28140661433accaba13061fd5c0e3cee44628e668dba10e18840fa",
-      "git_blob": "e5f07d4c54d2e2ce49a6ed78d4b3e7b76310750f",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-05"
-      ],
-      "decisions": [],
-      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/CAMPAIGN.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 22322,
-      "sha256": "24b2051baa2d0a13aadd1fc56d7adef04828e960a04b59a6bd5e3991d7b46122",
-      "git_blob": "539f7bdb493aa882ad0e8febc85f20e4d8a36a29",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/CONTINUATION.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 16687,
-      "sha256": "a0d584d823baba9e53e60c0c268aad8ce5359d8039e70176f2df9b6dba0e1911",
-      "git_blob": "38462926d0216888fc5a59839a0bdf17f7d3da62",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/SCIENTIFIC_DESIGN.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 19912,
-      "sha256": "64bc45fbba872a84ca3a03ea4673e6966f0a9e9e5459744281e5350b871f66e0",
-      "git_blob": "d1228aba6b42e259f12d7673b9d186369121ac8f",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/RUN_CARD_PREPARATION.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 7883,
-      "sha256": "3cc9f27fe37cedd58950fba189df3efd4118cb0f7dce619a9fd1fb3dd8b9e900",
-      "git_blob": "a4d31cf39b1073addcce7451d829da21cc33083e",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/SOURCES_AND_CUSTODY.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 18984,
-      "sha256": "2d20a64f64f25c4499756aacab62479b441731cc2bba403e04bc61c487f1c0fb",
-      "git_blob": "e5da7a6c69b8fbecbb21263caa1a9adc0b1c80a9",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/APPROACH_DRIFT_2026-10-12_13.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 14438,
-      "sha256": "a107078cbeee22beb15efcfc476abf1eb563177ea6a65207a848a30aab206a34",
-      "git_blob": "547710508dd381fd64dfbe56f99ae53a9540b1f4",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 16420,
-      "sha256": "d1bd771b0a24cffec4c47ea979eb136a994dc3205b92a4a0180670a51a156725",
-      "git_blob": "294f0ea5e73b2c1b3f75f5b74cac44c4c4be7f9f",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/AUDIT_REPORT_2026-10-13.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 15940,
-      "sha256": "9074026a1d15a8d61124030be6dfe58fd3c3f9793f731d4fde59b53462edcd84",
-      "git_blob": "ee208e3cfa9ecf4fb669967d4d1d4f8abf813b46",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 14588,
-      "sha256": "66f3c75458844e07153ce55467d9a834cbb40ffe946d814a2c72613ca574f32b",
-      "git_blob": "771b442756fe601dcb75b4ae5b37a0aee559fc32",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/HISTORY_AND_AUDIT.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 16311,
-      "sha256": "b559be9eb5c35fa1727dff85e92a77efaa71757b068518f02176d72ceb290bd7",
-      "git_blob": "6c8bc4d7aa3ff94ba176a7564d37159263a40e3b",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/PROTOCOL_P0_P3.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 9750,
-      "sha256": "761cf7d59ab99e407a65db4ec91203c8c0908dde95bd5d73cddc1ca63b88fa71",
-      "git_blob": "91a42b78968ef42d99cf2fb8a05939bf0b7b89d7",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/ACCEPTANCE_AND_B2.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 8163,
-      "sha256": "d165e55712170a9bfe85bc3ebbf75f94180afa84e6779874cac2a8c187559a0b",
-      "git_blob": "e5ae12cd9235b547d5356d41dc4dbc19ca708762",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/EHD_04_05A_MAPPING.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 7270,
-      "sha256": "590418fb5977ab60289747bddae0351ee665506322bc3cad3940e083425ed7aa",
-      "git_blob": "556ad590da079be94a8be760ca023e04d52a9327",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/RESIDUAL_LEDGER.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 6139,
-      "sha256": "60333efc4d54b5a636a8579f6210f4bb83f680358c6fbee10934b01041a77018",
-      "git_blob": "104730cda8c302e441c7ca0932d2652171267894",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/AUDIT_RECONCILIATION.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 8475,
-      "sha256": "1bfde6b6208e46ebaf6a6567f1e7d11f09e9d66bb4a17c2af321282d316f9797",
-      "git_blob": "e9f8baf729cfee0f97548405cf755646ba2d5834",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/HISTORY_AND_REPRODUCTION.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 7651,
-      "sha256": "b5937ab4eecb17383c337fbff425a76034b9c8c482205b0b5da05d3e3434f95e",
-      "git_blob": "c3f25318d2c2c6eb6d5478870a99a028efe6ed23",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/SOURCES_AND_PINS.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 9435,
-      "sha256": "0e7429574b2db03563f7b6300aa1d82826e807a3b9c33b4c0580eb4329f04a43",
-      "git_blob": "9dfe3eb9a9e3371fdaeab24e77ae43afc80f8ca6",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/SUBMISSION_BRIEF_EN.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 3218,
-      "sha256": "bad7de340ce5984e037d70aff0d79fa571e3e28def2cdf2432670560e2ceac64",
-      "git_blob": "65b7f90f2bd0e396d1965864cd85ff1858941ee4",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_INDEX.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 5148,
-      "sha256": "7ed0acb40854ec750f115bf584099420d8f7a6f1938a376e7a96a21859cf4c83",
-      "git_blob": "599843f90b3e1ebc69e9d15d5b7bf5ad6462b4ab",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/CAMPAIGN.json.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 12117,
-      "sha256": "4a490cd07d88ca985ba503da33175676dabb8c816c0fbe75638b8e4bf4a97451",
-      "git_blob": "51492b64215d8e773c2608d21ef7e165d5f2e0c8",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_COMPONENT_RECORD.json.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 2856,
-      "sha256": "bdbf3f4418e702b1dd06e2b0acbb00f54fdbb492cd30012db795235d15de01eb",
-      "git_blob": "b6343567b89748adf038ae3c62a1aad152ff72ee",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__campaigns-in-development__INDEX.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 5709,
-      "sha256": "cb0fd2f0df7917a2cce2c53bd04b323e069883f7b8af55ac44b2a1ddd1675a81",
-      "git_blob": "9f2248edf2ebb60de19b9fd6e2ae94c070c6c0a0",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__campaigns-in-development__REGISTRY.json.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 3987,
-      "sha256": "7faf70e2290de00e1c6c53fff04ad40ed0d27228e198a51c55f9ae061be081a3",
-      "git_blob": "13c4d0dd139faf120614f0237de3c7008c73a1d4",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 136697,
-      "sha256": "c946c976d053b3e2cfdb21f9ef1f5c12c6d5c19e4b28220ee3ea5e19d381588c",
-      "git_blob": "b48d3c35a942973752a19f7b1a3c22f79ab5bfd2",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "history/versions/2026-10-13_before_organization/parent-routes/DOCUMENT_CONTROL.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Copia completa del predecesor identificado en el anexo",
-      "bytes": 50452,
-      "sha256": "b912c9e2cfb1f5cf35ffe1fe6ea0589ab2db27f174824ff03658e199ed1e5dc0",
-      "git_blob": "2afeb8c8b26b715c32bcbe671398645c309ee714",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
-    },
-    {
-      "path": "TRACEABILITY_2026-10-13.md",
-      "classification": "DOCUMENTARY_AUDIT_CONTROL",
-      "purpose": "Afirmaciones, evidencias, controles y pendientes",
-      "bytes": 11478,
-      "sha256": "d86eda2f78dd2d7aae20377f0df230fbb67be348ed1e07caf24726038144b92a",
-      "git_blob": "46e7b2acc508c77260bd531efcae0c366f5b3ae5",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [
-        "DEC-08"
-      ],
-      "evidence_mode": "DOCUMENTARY_AUDIT_CONTROL"
-    },
-    {
-      "path": "audit/verify_campaign.mjs",
-      "classification": "DOCUMENTARY_AUDIT_CONTROL",
-      "purpose": "Verificador de hashes/rutas/anclajes y conservación",
-      "bytes": 8297,
-      "sha256": "05ae48fc59acf25f670bff26945ffbce3fcb9d2234d744f5548656842693ff4b",
-      "git_blob": "385f52c28a5fe746bf1d72da0219c37d3d32a45c",
-      "predecessor": null,
-      "claims": [],
-      "decisions": [],
-      "evidence_mode": "DOCUMENTARY_AUDIT_CONTROL"
-    },
-    {
-      "path": "VERSIONS_AND_DECISIONS_2026-10-13.md",
-      "classification": "DOCUMENTARY_AUDIT_CONTROL",
-      "purpose": "Anexo íntegro de versiones, decisiones y archivos",
-      "bytes": 40664,
-      "sha256": "7d44ae63d7fb68c37b14dd2154c2c84062e8f24772660987f15c8e477e03f347",
-      "git_blob": "94e2d6113eb6a8963b5c460b44822e42f77979e0",
-      "predecessor": "history/versions/2026-10-14_before_local_recovery/VERSIONS_AND_DECISIONS_2026-10-13.md.txt",
-      "claims": [
-        "CLAIM-06"
-      ],
-      "decisions": [
-        "DEC-08"
-      ],
-      "evidence_mode": "DOCUMENTARY_AUDIT_CONTROL"
-    },
-    {
-      "path": "history/versions/2026-10-14_before_local_recovery/VERSIONS_AND_DECISIONS_2026-10-13.md.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Predecesor completo antes de la recuperación local",
-      "bytes": 40070,
-      "sha256": "8f616fe91fa4d75dddd745e90e78344099d74b7d1ff2d6494177d6d9fc76d78d",
-      "git_blob": "be3fca137f3cd7ad36ba185ad98cae85565b280d",
+      "path": "history/local-preparation/LOCAL_PREPARATION_INDEX_2026-10-14.md",
+      "classification": "LOCAL_RECOVERY_CATALOGUE_AND_ORIGINS",
+      "purpose": "Catálogo humano de todos los originales locales",
+      "bytes": 7426,
+      "sha256": "bfd80d53b2212544702e22df9c73ad453d365bf5e969c08cd9734a387d4657ae",
+      "git_blob": "0ac82558741f845642e925d6209acf18542aefe5",
       "predecessor": null,
       "claims": [
         "CLAIM-06"
@@ -1690,28 +753,12 @@
       "evidence_mode": "FULL_AUTHOR_DOCUMENTARY_RECOVERY_NOT_NATIVE_EVIDENCE"
     },
     {
-      "path": "history/versions/2026-10-14_before_local_recovery/audit/CAMPAIGN_CONTROL_2026-10-13.json.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Predecesor completo antes de la recuperación local",
-      "bytes": 192822,
-      "sha256": "07254036fed472c8c3a6def92ed869b9c83d385fda45127d541ab80a2818f59d",
-      "git_blob": "942e393b33c213c97b76364e647bdb5c903e1663",
-      "predecessor": null,
-      "claims": [
-        "CLAIM-06"
-      ],
-      "decisions": [
-        "DEC-08"
-      ],
-      "evidence_mode": "FULL_AUTHOR_DOCUMENTARY_RECOVERY_NOT_NATIVE_EVIDENCE"
-    },
-    {
-      "path": "history/versions/2026-10-14_before_local_recovery/audit/VALIDATION_2026-10-13.json.txt",
-      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
-      "purpose": "Predecesor completo antes de la recuperación local",
-      "bytes": 3757,
-      "sha256": "eb84f0d8a3d6a1c7ee175f23860ce237c35b35a4e91d9e352c049512c12cd000",
-      "git_blob": "4af59068e8fe6ef2b556cb41e419097c0367d905",
+      "path": "history/local-preparation/RECOVERY_2026-10-14.json",
+      "classification": "LOCAL_RECOVERY_CATALOGUE_AND_ORIGINS",
+      "purpose": "Manifest de cada instancia y versión única",
+      "bytes": 13980,
+      "sha256": "46a02e7673820c96bee76b3ea4886efa2c1bf5a4f719fe312fa9ee32485bc1e2",
+      "git_blob": "f29856ca8d20414d2b4dba8c60f76315489e0c09",
       "predecessor": null,
       "claims": [
         "CLAIM-06"
@@ -1978,12 +1025,544 @@
       "evidence_mode": "FULL_AUTHOR_DOCUMENTARY_RECOVERY_NOT_NATIVE_EVIDENCE"
     },
     {
-      "path": "history/local-preparation/RECOVERY_2026-10-14.json",
-      "classification": "LOCAL_RECOVERY_CATALOGUE_AND_ORIGINS",
-      "purpose": "Manifest de cada instancia y versión única",
-      "bytes": 13980,
-      "sha256": "46a02e7673820c96bee76b3ea4886efa2c1bf5a4f719fe312fa9ee32485bc1e2",
-      "git_blob": "f29856ca8d20414d2b4dba8c60f76315489e0c09",
+      "path": "history/recovered-text/01_AUDIT_RECONCILIATION_EN_2026-10-11_PDF_TEXT.txt",
+      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
+      "purpose": "Texto completo recuperado / manifest de su identidad Library",
+      "bytes": 24951,
+      "sha256": "f3db1921c2113fd0802da1692f05affd36d6be076d758aedf19865c9864ab199",
+      "git_blob": "99e219d2220d7dfd715dd70f5e14cd7548ceb6bb",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [
+        "DEC-01"
+      ],
+      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
+    },
+    {
+      "path": "history/recovered-text/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12_PDF_TEXT.txt",
+      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
+      "purpose": "Texto completo recuperado / manifest de su identidad Library",
+      "bytes": 16518,
+      "sha256": "734d4c8877963f36a9df237b20cddd83eb40384a4ab1a34a91507b3a7409a6a2",
+      "git_blob": "d4700f55ddba59547742c60cb0cec86d27307b7a",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [
+        "DEC-02"
+      ],
+      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
+    },
+    {
+      "path": "history/recovered-text/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12_PDF_TEXT.txt",
+      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
+      "purpose": "Texto completo recuperado / manifest de su identidad Library",
+      "bytes": 16856,
+      "sha256": "c022698fa0614175775c564117381cd843cb2a5c2d2818a9c4965679f511c6e2",
+      "git_blob": "8cc1c98f7daf6d9a2704fd3cf17f1d03ca39d670",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [
+        "DEC-02"
+      ],
+      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
+    },
+    {
+      "path": "history/recovered-text/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11_PDF_TEXT.txt",
+      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
+      "purpose": "Texto completo recuperado / manifest de su identidad Library",
+      "bytes": 25305,
+      "sha256": "554ab8ca46b8f4d26a268e623308d0deea26e94ef5f40dc22c4959845e9e94ee",
+      "git_blob": "b1aabf74face7b11e1186bd2579d0578218e0a0a",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
+    },
+    {
+      "path": "history/recovered-text/EA_FLORES_ADDON_MINIMO_2026-10-12_SOURCE_TEXT.txt",
+      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
+      "purpose": "Texto completo recuperado / manifest de su identidad Library",
+      "bytes": 4366,
+      "sha256": "c2a4de007e6d3dd11d051775e34f981094ce0b17a95e19a05d0a74dba90882fd",
+      "git_blob": "d300917c93f0b5ceccb13642592587f5b8cbd548",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
+    },
+    {
+      "path": "history/recovered-text/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12_SOURCE_TEXT.txt",
+      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
+      "purpose": "Texto completo recuperado / manifest de su identidad Library",
+      "bytes": 24122,
+      "sha256": "344336b11e6d7b5b71d23c1cc5d0745ef486a9dfb83191fb370e35f92db747f3",
+      "git_blob": "04dc81ba8fdc760e9596653f0ee130aa1d740cb1",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
+    },
+    {
+      "path": "history/recovered-text/RECOVERY_MANIFEST.json",
+      "classification": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL",
+      "purpose": "Texto completo recuperado / manifest de su identidad Library",
+      "bytes": 4532,
+      "sha256": "e58fcfe6290e9500de41c543d72bb9d2203ce07150fb74b1ddaef89543c29d47",
+      "git_blob": "a29b6303f30fa394165c80316706282963e99434",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-07"
+      ],
+      "decisions": [],
+      "evidence_mode": "FULL_HISTORICAL_READER_TEXT_NOT_BINARY_ORIGINAL"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/APPROACH_DRIFT_2026-10-12_13.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 14438,
+      "sha256": "a107078cbeee22beb15efcfc476abf1eb563177ea6a65207a848a30aab206a34",
+      "git_blob": "547710508dd381fd64dfbe56f99ae53a9540b1f4",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/AUDIT_REPORT_2026-10-13.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 15940,
+      "sha256": "9074026a1d15a8d61124030be6dfe58fd3c3f9793f731d4fde59b53462edcd84",
+      "git_blob": "ee208e3cfa9ecf4fb669967d4d1d4f8abf813b46",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/CAMPAIGN.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 12117,
+      "sha256": "4a490cd07d88ca985ba503da33175676dabb8c816c0fbe75638b8e4bf4a97451",
+      "git_blob": "51492b64215d8e773c2608d21ef7e165d5f2e0c8",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/CAMPAIGN.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 22322,
+      "sha256": "24b2051baa2d0a13aadd1fc56d7adef04828e960a04b59a6bd5e3991d7b46122",
+      "git_blob": "539f7bdb493aa882ad0e8febc85f20e4d8a36a29",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/CONTINUATION.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 16687,
+      "sha256": "a0d584d823baba9e53e60c0c268aad8ce5359d8039e70176f2df9b6dba0e1911",
+      "git_blob": "38462926d0216888fc5a59839a0bdf17f7d3da62",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/HISTORY_AND_AUDIT.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 16311,
+      "sha256": "b559be9eb5c35fa1727dff85e92a77efaa71757b068518f02176d72ceb290bd7",
+      "git_blob": "6c8bc4d7aa3ff94ba176a7564d37159263a40e3b",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/DOCUMENT_CONTROL.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 50452,
+      "sha256": "b912c9e2cfb1f5cf35ffe1fe6ea0589ab2db27f174824ff03658e199ed1e5dc0",
+      "git_blob": "2afeb8c8b26b715c32bcbe671398645c309ee714",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__campaigns-in-development__INDEX.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 5709,
+      "sha256": "cb0fd2f0df7917a2cce2c53bd04b323e069883f7b8af55ac44b2a1ddd1675a81",
+      "git_blob": "9f2248edf2ebb60de19b9fd6e2ae94c070c6c0a0",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__campaigns-in-development__REGISTRY.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 3987,
+      "sha256": "7faf70e2290de00e1c6c53fff04ad40ed0d27228e198a51c55f9ae061be081a3",
+      "git_blob": "13c4d0dd139faf120614f0237de3c7008c73a1d4",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 136697,
+      "sha256": "c946c976d053b3e2cfdb21f9ef1f5c12c6d5c19e4b28220ee3ea5e19d381588c",
+      "git_blob": "b48d3c35a942973752a19f7b1a3c22f79ab5bfd2",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 16420,
+      "sha256": "d1bd771b0a24cffec4c47ea979eb136a994dc3205b92a4a0180670a51a156725",
+      "git_blob": "294f0ea5e73b2c1b3f75f5b74cac44c4c4be7f9f",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/RUN_CARD_PREPARATION.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 7883,
+      "sha256": "3cc9f27fe37cedd58950fba189df3efd4118cb0f7dce619a9fd1fb3dd8b9e900",
+      "git_blob": "a4d31cf39b1073addcce7451d829da21cc33083e",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/SCIENTIFIC_DESIGN.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 19912,
+      "sha256": "64bc45fbba872a84ca3a03ea4673e6966f0a9e9e5459744281e5350b871f66e0",
+      "git_blob": "d1228aba6b42e259f12d7673b9d186369121ac8f",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/SOURCES_AND_CUSTODY.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 18984,
+      "sha256": "2d20a64f64f25c4499756aacab62479b441731cc2bba403e04bc61c487f1c0fb",
+      "git_blob": "e5da7a6c69b8fbecbb21263caa1a9adc0b1c80a9",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/ACCEPTANCE_AND_B2.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 8163,
+      "sha256": "d165e55712170a9bfe85bc3ebbf75f94180afa84e6779874cac2a8c187559a0b",
+      "git_blob": "e5ae12cd9235b547d5356d41dc4dbc19ca708762",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/AUDIT_RECONCILIATION.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 8475,
+      "sha256": "1bfde6b6208e46ebaf6a6567f1e7d11f09e9d66bb4a17c2af321282d316f9797",
+      "git_blob": "e9f8baf729cfee0f97548405cf755646ba2d5834",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/EHD_04_05A_MAPPING.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 7270,
+      "sha256": "590418fb5977ab60289747bddae0351ee665506322bc3cad3940e083425ed7aa",
+      "git_blob": "556ad590da079be94a8be760ca023e04d52a9327",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/HISTORY_AND_REPRODUCTION.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 7651,
+      "sha256": "b5937ab4eecb17383c337fbff425a76034b9c8c482205b0b5da05d3e3434f95e",
+      "git_blob": "c3f25318d2c2c6eb6d5478870a99a028efe6ed23",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/PROTOCOL_P0_P3.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 9750,
+      "sha256": "761cf7d59ab99e407a65db4ec91203c8c0908dde95bd5d73cddc1ca63b88fa71",
+      "git_blob": "91a42b78968ef42d99cf2fb8a05939bf0b7b89d7",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/RESIDUAL_LEDGER.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 6139,
+      "sha256": "60333efc4d54b5a636a8579f6210f4bb83f680358c6fbee10934b01041a77018",
+      "git_blob": "104730cda8c302e441c7ca0932d2652171267894",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/SOURCES_AND_PINS.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 9435,
+      "sha256": "0e7429574b2db03563f7b6300aa1d82826e807a3b9c33b4c0580eb4329f04a43",
+      "git_blob": "9dfe3eb9a9e3371fdaeab24e77ae43afc80f8ca6",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/SUBMISSION_BRIEF_EN.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 3218,
+      "sha256": "bad7de340ce5984e037d70aff0d79fa571e3e28def2cdf2432670560e2ceac64",
+      "git_blob": "65b7f90f2bd0e396d1965864cd85ff1858941ee4",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_COMPONENT_RECORD.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 2856,
+      "sha256": "bdbf3f4418e702b1dd06e2b0acbb00f54fdbb492cd30012db795235d15de01eb",
+      "git_blob": "b6343567b89748adf038ae3c62a1aad152ff72ee",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_INDEX.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 5148,
+      "sha256": "7ed0acb40854ec750f115bf584099420d8f7a6f1938a376e7a96a21859cf4c83",
+      "git_blob": "599843f90b3e1ebc69e9d15d5b7bf5ad6462b4ab",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Copia completa del predecesor identificado en el anexo",
+      "bytes": 14588,
+      "sha256": "66f3c75458844e07153ce55467d9a834cbb40ffe946d814a2c72613ca574f32b",
+      "git_blob": "771b442756fe601dcb75b4ae5b37a0aee559fc32",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "COMPLETE_PREDECESSOR_ARCHIVE"
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/audit/CAMPAIGN_CONTROL_2026-10-13.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 210967,
+      "sha256": "f8942892e7626f32ae54fafd9bc561681acb9f3f3b2a3215efa9a041f8f4d14d",
+      "git_blob": "afeac7094933511e8d37a9e2b0f278b40a6c4838",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/audit/VALIDATION_2026-10-13.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 4065,
+      "sha256": "6d0b68ea51c8821903f32bc4ccf742fd669d1ef96c6d2fdc60d8cf479e292766",
+      "git_blob": "8ad85a81b4a7ad8770eabefe0e37a9ee6987a891",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 8297,
+      "sha256": "05ae48fc59acf25f670bff26945ffbce3fcb9d2234d744f5548656842693ff4b",
+      "git_blob": "385f52c28a5fe746bf1d72da0219c37d3d32a45c",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 13164,
+      "sha256": "a096c2e8cfe461be458edcdc64d467ff1adf4119543f4cba8dc79796344e4ce0",
+      "git_blob": "1f79074004f1f1812a7c899b3553879d6678ff67",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 10767,
+      "sha256": "49a12e8ed2faf5acc62f8832ea63253bcde9a8581bfad16bf661c06aeafe041a",
+      "git_blob": "fe78862f18c05ef53f765c74858e02126e52f51e",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/CONTINUATION.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 8137,
+      "sha256": "871607af0a292122b82db1711f4e6ed11080fbcdbd389cda790e89d482c0de60",
+      "git_blob": "25f01de676fbd50956fad5621f8d62983eb6a52f",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/parent-routes/DOCUMENT_CONTROL.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 52113,
+      "sha256": "c2f352c26f0a2d9886e357a9da6a4fd333ed4451bafa0e9702977b9e03b666e2",
+      "git_blob": "1e94363e290bf0ee31639a34c36337a4993af410",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/SOURCES_AND_CUSTODY.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 10647,
+      "sha256": "063bfbea19deb1645ae5a489c13467e4179fb9b1f2be53dad3728be5ab24b804",
+      "git_blob": "7865fa6da46e48ba8b28d0aa39e376dca24d47fd",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/TRACEABILITY_2026-10-13.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 11478,
+      "sha256": "d86eda2f78dd2d7aae20377f0df230fbb67be348ed1e07caf24726038144b92a",
+      "git_blob": "46e7b2acc508c77260bd531efcae0c366f5b3ae5",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_expanded_audit/VERSIONS_AND_DECISIONS_2026-10-13.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 40664,
+      "sha256": "7d44ae63d7fb68c37b14dd2154c2c84062e8f24772660987f15c8e477e03f347",
+      "git_blob": "94e2d6113eb6a8963b5c460b44822e42f77979e0",
+      "predecessor": null
+    },
+    {
+      "path": "history/versions/2026-10-14_before_local_recovery/audit/CAMPAIGN_CONTROL_2026-10-13.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Predecesor completo antes de la recuperación local",
+      "bytes": 192822,
+      "sha256": "07254036fed472c8c3a6def92ed869b9c83d385fda45127d541ab80a2818f59d",
+      "git_blob": "942e393b33c213c97b76364e647bdb5c903e1663",
       "predecessor": null,
       "claims": [
         "CLAIM-06"
@@ -1994,12 +1573,12 @@
       "evidence_mode": "FULL_AUTHOR_DOCUMENTARY_RECOVERY_NOT_NATIVE_EVIDENCE"
     },
     {
-      "path": "history/local-preparation/LOCAL_PREPARATION_INDEX_2026-10-14.md",
-      "classification": "LOCAL_RECOVERY_CATALOGUE_AND_ORIGINS",
-      "purpose": "Catálogo humano de todos los originales locales",
-      "bytes": 7426,
-      "sha256": "bfd80d53b2212544702e22df9c73ad453d365bf5e969c08cd9734a387d4657ae",
-      "git_blob": "0ac82558741f845642e925d6209acf18542aefe5",
+      "path": "history/versions/2026-10-14_before_local_recovery/audit/VALIDATION_2026-10-13.json.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Predecesor completo antes de la recuperación local",
+      "bytes": 3757,
+      "sha256": "eb84f0d8a3d6a1c7ee175f23860ce237c35b35a4e91d9e352c049512c12cd000",
+      "git_blob": "4af59068e8fe6ef2b556cb41e419097c0367d905",
       "predecessor": null,
       "claims": [
         "CLAIM-06"
@@ -2008,6 +1587,707 @@
         "DEC-08"
       ],
       "evidence_mode": "FULL_AUTHOR_DOCUMENTARY_RECOVERY_NOT_NATIVE_EVIDENCE"
+    },
+    {
+      "path": "history/versions/2026-10-14_before_local_recovery/VERSIONS_AND_DECISIONS_2026-10-13.md.txt",
+      "classification": "COMPLETE_PREDECESSOR_ARCHIVE",
+      "purpose": "Predecesor completo antes de la recuperación local",
+      "bytes": 40070,
+      "sha256": "8f616fe91fa4d75dddd745e90e78344099d74b7d1ff2d6494177d6d9fc76d78d",
+      "git_blob": "be3fca137f3cd7ad36ba185ad98cae85565b280d",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-06"
+      ],
+      "decisions": [
+        "DEC-08"
+      ],
+      "evidence_mode": "FULL_AUTHOR_DOCUMENTARY_RECOVERY_NOT_NATIVE_EVIDENCE"
+    },
+    {
+      "path": "HISTORY_AND_AUDIT.md",
+      "classification": "HISTORICAL_AUDIT_AND_CORRECTION",
+      "purpose": "HISTORY_AND_AUDIT — texto/datos completos conservados",
+      "bytes": 16760,
+      "sha256": "1daa62129dd493b400037c6e2e23ad4e41cee3c1dbe7923124dd72032335180d",
+      "git_blob": "c644cca4aa01bc60524bfab34a9cef4bf07e8c2a",
+      "predecessor": "history/versions/2026-10-13_before_organization/HISTORY_AND_AUDIT.md.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "HISTORICAL_AUDIT_AND_CORRECTION"
+    },
+    {
+      "path": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+      "classification": "HISTORICAL_SUPERSEDED_PRIMARY_PRIORITY",
+      "purpose": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1 — texto/datos completos conservados",
+      "bytes": 16869,
+      "sha256": "7e302b5b46a46e4f8efc27a56340685cc90874bc20bab62f20d6a45ef49c3f26",
+      "git_blob": "52fe3d3c024ff581f0acf9f447af7b52b8fd79ba",
+      "predecessor": "history/versions/2026-10-13_before_organization/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md.txt",
+      "claims": [],
+      "decisions": [
+        "DEC-03"
+      ],
+      "evidence_mode": "HISTORICAL_SUPERSEDED_PRIMARY_PRIORITY"
+    },
+    {
+      "path": "runtime-context/BRIEF_EN_2026-10-13.md",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "BRIEF_EN_2026-10-13 — texto/datos completos conservados",
+      "bytes": 5347,
+      "sha256": "0d32e4c7b25464f08a9a2336ab7313b24c5d5018ab2fd3996b004ac27233aad9",
+      "git_blob": "b881fdb660dc86d94b539a6b0e6ca016a8d19244",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/code/preflight.mjs",
+      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
+      "purpose": "preflight — texto/datos completos conservados",
+      "bytes": 11275,
+      "sha256": "6203690c8fa3bfe8f9b4d701c320d603515dfbf965d89a48d317df9560baadf8",
+      "git_blob": "a49a1772dab7321aaeda97933bf86872abd087c9",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-04"
+      ],
+      "decisions": [],
+      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
+    },
+    {
+      "path": "runtime-context/FORMALIZACION_2026-10-13.md",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "FORMALIZACION_2026-10-13 — texto/datos completos conservados",
+      "bytes": 8685,
+      "sha256": "a158fd4df92d82017aa96f6841fd9bb72f1aae5335cfb2b0f6bb774f9a115c85",
+      "git_blob": "963232aa54f1fa6d2c7f8c60e284a666fa61b8db",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-03"
+      ],
+      "decisions": [],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/INFORME_2026-10-13.md",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "INFORME_2026-10-13 — texto/datos completos conservados",
+      "bytes": 29544,
+      "sha256": "69eebd6fc6a1888b78e50246990e526c238ed0367b55f4cce2f47e3d633ac19c",
+      "git_blob": "2af57e9fea47367189b21196919b2ff8a6248d9b",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [
+        "DEC-04"
+      ],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/Informe_Flores_Runtime_Context_2026-10-13.html",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "Informe_Flores_Runtime_Context_2026-10-13 — texto/datos completos conservados",
+      "bytes": 102483,
+      "sha256": "3934279638009d9d3fc8d780ee15dbd00ea466578653f51daf071c1df0338a40",
+      "git_blob": "e82a892b8480b1d6a1c6f26a67ae6c10fc4c7943",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/preflight/CONTROL_MATRIX_2026-10-13.csv",
+      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
+      "purpose": "CONTROL_MATRIX_2026-10-13 — texto/datos completos conservados",
+      "bytes": 3818,
+      "sha256": "ac6f488fafd77115203f80154b298b9e11509f6e1d4f64af98e7ce6a05d87d80",
+      "git_blob": "5cb6d6f9e617ad8f240e8ae7e3adabb30787e8dc",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-04"
+      ],
+      "decisions": [],
+      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
+    },
+    {
+      "path": "runtime-context/preflight/RESULTS_2026-10-13.json",
+      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
+      "purpose": "RESULTS_2026-10-13 — texto/datos completos conservados",
+      "bytes": 143076,
+      "sha256": "6a193cf997078561c577f5f6c7d216e2d93fc86a3b31a71e9eb783c622a3abbe",
+      "git_blob": "d3af4ff19b20ef90dfa621022f777026008405ad",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-03",
+        "CLAIM-04"
+      ],
+      "decisions": [],
+      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
+    },
+    {
+      "path": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "PRINCIPIO_R2_FREEZE_R3_2026-10-13 — texto/datos completos conservados",
+      "bytes": 7348,
+      "sha256": "78ea20365830bfb45ea73d617f56c386e483291fa03f92318a91f6d8f5f42bc7",
+      "git_blob": "8d75851856e33b2fcde400c2539a33db84906d2d",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-01"
+      ],
+      "decisions": [
+        "DEC-05"
+      ],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/PROTOCOLO_2026-10-13.md",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "PROTOCOLO_2026-10-13 — texto/datos completos conservados",
+      "bytes": 15542,
+      "sha256": "d33fc071858b743cf934accfbe0b1b6b62a45823928b49890e0373c3faebbc85",
+      "git_blob": "aadd49a40873f7f39c565e188ddb26fc2a13dcd7",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [
+        "DEC-04"
+      ],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/PUBLICATION_MANIFEST_2026-10-13.json",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "PUBLICATION_MANIFEST_2026-10-13 — texto/datos completos conservados",
+      "bytes": 5062,
+      "sha256": "f48bc9cab202c839f7bd8696c3fc07109af4ab232eddbd02f9927334472ec0d1",
+      "git_blob": "4fa72a9268a3312c085e30d2a8735e45d68c1c3f",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [
+        "DEC-07"
+      ],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/reference-register.json",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "reference-register — texto/datos completos conservados",
+      "bytes": 11552,
+      "sha256": "660e19d2e77829e2cbccd2d45cde86a26a6830fc7f1ef9627394779553f0a3bc",
+      "git_blob": "fc5dea07a485b9f2fa7401b78b479c24704da142",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/REFERENCIAS_2026-10-13.md",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "REFERENCIAS_2026-10-13 — texto/datos completos conservados",
+      "bytes": 11658,
+      "sha256": "ed8a93c5a2d676a927a914046e032455a4013642743298065a0f2f7db6ead1a3",
+      "git_blob": "b627610753b603106114c0e21f9b26c7e41b6949",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/REVISION_ADVERSARIAL_2026-10-13.md",
+      "classification": "AUTHOR_REVIEW_WITH_SUPERSEDED_STATIC_FRAME",
+      "purpose": "REVISION_ADVERSARIAL_2026-10-13 — texto/datos completos conservados",
+      "bytes": 5666,
+      "sha256": "afc1164c9a0f51f9d2defb8aa0c23c8a3e0e15d9afaf4f305dfb4623041c0a78",
+      "git_blob": "bd696495e36c9366dfdcae1269474a4d6eaee37a",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "AUTHOR_REVIEW_WITH_SUPERSEDED_STATIC_FRAME"
+    },
+    {
+      "path": "runtime-context/source-copy-index.json",
+      "classification": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY",
+      "purpose": "source-copy-index — texto/datos completos conservados",
+      "bytes": 8531,
+      "sha256": "f79a7da3cfbde9a103135db989d8eb3399e042e176f182efc61c38e0c81502be",
+      "git_blob": "ad6a9adc672f1d2c401860d88612106218d5baa2",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [
+        "DEC-07"
+      ],
+      "evidence_mode": "CURRENT_RESEARCH_PREPARATION_OR_CUSTODY"
+    },
+    {
+      "path": "runtime-context/source-snapshots/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 65171,
+      "sha256": "eb180859505a667b470372ba84495004a169c4bfbe91b95cb386c49da6e10e5f",
+      "git_blob": "7f489d1285113647054f4d751901b45010e4a03d",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 43434,
+      "sha256": "f1ac48ada2a0f523355f650b1cfe4ce2f80b97a418724df4be5ae31f65d823f0",
+      "git_blob": "1cf47ca6d62d0955ad8ded2f1442362638161e15",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 48620,
+      "sha256": "1efee817405d9d4772a244c3ed3234a6f590849775a40846c412e2e40c8f4df7",
+      "git_blob": "e8b8d6c77461b54e0c55e5a9f6f3549bf218c845",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/AUDIT_REPORT_2026-10-13.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 19824,
+      "sha256": "e48a9e3df911da3270ea72c670202d7fce8abdcd1cce3cea04ec183b0397d5d2",
+      "git_blob": "a8687ff0b3a9bc7ef7e542cefb22708293e76020",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/CAMPAIGN.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 26022,
+      "sha256": "bc510b5c1811e142f174784bb58f3904eec5bed0f7f063e4298f8cd2fd5040d9",
+      "git_blob": "993144fbe79701d6530aeaa6a6bd3410c2811f71",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 64472,
+      "sha256": "1d7c4bb7bacc152930ea75f58e0462e39adc57bef7fb60f459c93f932ae48a00",
+      "git_blob": "9686d0539f138a757ae973f8e497a38fa95cdae4",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/flores_expected_v1.0.py.txt",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 10533,
+      "sha256": "0da69151aa9a742e569352726ff628e87ab2ecfbf201bc503a7be9ff9a770dcc",
+      "git_blob": "e8f77f1620cfe10cd5b9ea227fb64769ddcf381b",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-02"
+      ],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/flores_specification_v1.0.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 16377,
+      "sha256": "a0fa588642cd7a589a9f70f42efff4cad6d89f99154bca4a20a0471cf1602a88",
+      "git_blob": "af97e0875cb5d9fb2b549e8f0283b4745b7410b3",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-02",
+        "CLAIM-03"
+      ],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/Himalogic_LICENSE.txt",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 1086,
+      "sha256": "e286c8b3b1a95f269139e73e4b0dec297da5ef9766a6ad31b66bd2606465e82d",
+      "git_blob": "35e77b4d652eade49e143436ec8fecc64c161bb1",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 20349,
+      "sha256": "c3c15d8b24bad22d6a5e5ad8c4e96980d8290a55feecbb772e471df7ada3e106",
+      "git_blob": "7ebe7cd25b1d66a6a4ccac08f43ddf60291f3db3",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/technical__AUDIT_RECONCILIATION.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 9829,
+      "sha256": "29b5d5b51a2d15aa3427b78b421371b9655fecdff29bbe6de45ccb4a5f13147f",
+      "git_blob": "08c615153da13339d281a33697114635f6e34515",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "runtime-context/source-snapshots/technical__PROTOCOL_P0_P3.md",
+      "classification": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE",
+      "purpose": "Texto fuente consultado, con origen y derivación en source-copy-index",
+      "bytes": 10708,
+      "sha256": "a8232d7659b2177e7fa204ae189a156299a2b94daedb9b1a4c61d596fa3e28ec",
+      "git_blob": "9a69cb5a39d7f1dd22e960b96d6d07a30ee7869a",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "PUBLIC_SOURCE_COPY_OR_DECLARED_LINK_DERIVATIVE"
+    },
+    {
+      "path": "RUN_CARD_PREPARATION.md",
+      "classification": "CURRENT_READING_AND_STATUS",
+      "purpose": "Campos de contrato pendientes; cero resultados",
+      "bytes": 6461,
+      "sha256": "4ebe31aa440416b68206736f5f961b5975033aaddb2cfee9bc9a6cd2bc64e677",
+      "git_blob": "3197bfbae4315c90c2b8c77464b4f23bab51bb5d",
+      "predecessor": "history/versions/2026-10-13_before_organization/RUN_CARD_PREPARATION.md.txt",
+      "claims": [
+        "CLAIM-08"
+      ],
+      "decisions": [],
+      "evidence_mode": "CURRENT_READING_AND_STATUS"
+    },
+    {
+      "path": "SCIENTIFIC_DESIGN.md",
+      "classification": "CURRENT_READING_AND_STATUS",
+      "purpose": "Diseño vigente Q/R2/freeze/R3 y controles",
+      "bytes": 11441,
+      "sha256": "2e3b399670b94b236ed57abac78c6f3b855ff9187c21919130eda874a2695c31",
+      "git_blob": "44aa8a5adc3c4992a8666ba970865ba19cba7265",
+      "predecessor": "history/versions/2026-10-13_before_organization/SCIENTIFIC_DESIGN.md.txt",
+      "claims": [
+        "CLAIM-01"
+      ],
+      "decisions": [
+        "DEC-05"
+      ],
+      "evidence_mode": "CURRENT_READING_AND_STATUS"
+    },
+    {
+      "path": "SOURCES_AND_CUSTODY.md",
+      "classification": "CURRENT_READING_AND_STATUS",
+      "purpose": "Fuentes, autores, custodia y límites actuales",
+      "bytes": 11313,
+      "sha256": "c083a63077dac898a7723ff142955acabf103ad1e05593532fe7b41a5d0cdfdd",
+      "git_blob": "624fb4d01316b00276a987449ee0766abd35ad5b",
+      "predecessor": "history/versions/2026-10-14_before_expanded_audit/SOURCES_AND_CUSTODY.md.txt",
+      "claims": [
+        "CLAIM-02",
+        "CLAIM-07"
+      ],
+      "decisions": [],
+      "evidence_mode": "CURRENT_READING_AND_STATUS"
+    },
+    {
+      "path": "technical/ACCEPTANCE_AND_B2.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "ACCEPTANCE_AND_B2 — texto/datos completos conservados",
+      "bytes": 8616,
+      "sha256": "a6484ea528cbd1dc9b828dd0c568502a6b80766f2e5393c98fc6935d3f791581",
+      "git_blob": "aa9bf847d96332f0e1be7d1fa28c9e7d4bd1e430",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/ACCEPTANCE_AND_B2.md.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/AUDIT_RECONCILIATION.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "AUDIT_RECONCILIATION — texto/datos completos conservados",
+      "bytes": 8928,
+      "sha256": "d39ddb6ac9768f94c14ab86d5c3b79e912eb0657251901030d04b1de3d941f7a",
+      "git_blob": "76431a0eb787c237426c0d410a0b26297bb4e20a",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/AUDIT_RECONCILIATION.md.txt",
+      "claims": [],
+      "decisions": [
+        "DEC-01"
+      ],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/code/mock_receipts.json",
+      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
+      "purpose": "mock_receipts — texto/datos completos conservados",
+      "bytes": 4229,
+      "sha256": "e5c8d331079b6e557a63b149ec8983ea27688fb95bc935988130b0dc33687ce7",
+      "git_blob": "ea0a247b2c0aa11ef7077055d53de2c6d1fad1e5",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-05"
+      ],
+      "decisions": [],
+      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
+    },
+    {
+      "path": "technical/code/qualifier.py",
+      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
+      "purpose": "qualifier — texto/datos completos conservados",
+      "bytes": 2787,
+      "sha256": "ff42738b94f1865b0f01e8a87f1980e72e1ba5d1dc927eea50b4a07edfddfa4c",
+      "git_blob": "c776e1225d953d7f967150dbd3a65c48401c26f0",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
+    },
+    {
+      "path": "technical/code/qualifier_v0_2.py",
+      "classification": "PUBLIC_AUTHORED_SUCCESSOR_INSTRUMENT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 3581,
+      "sha256": "ca8fd8b348d917fa303df210b8d86e2b4bbfb7f45a7beb0610b8606b234b9238",
+      "git_blob": "1af285460f9107f1358cc7394262643759c7c17c",
+      "predecessor": null
+    },
+    {
+      "path": "technical/code/test_qualifier.py",
+      "classification": "PUBLIC_AUTHORED_INSTRUMENT_OR_CALIBRATION",
+      "purpose": "test_qualifier — texto/datos completos conservados",
+      "bytes": 2374,
+      "sha256": "327694a23e28140661433accaba13061fd5c0e3cee44628e668dba10e18840fa",
+      "git_blob": "e5f07d4c54d2e2ce49a6ed78d4b3e7b76310750f",
+      "predecessor": null,
+      "claims": [
+        "CLAIM-05"
+      ],
+      "decisions": [],
+      "evidence_mode": "AUTHOR_CALIBRATION_NO_NATIVE_EXECUTION"
+    },
+    {
+      "path": "technical/code/test_qualifier_v0_2.py",
+      "classification": "PUBLIC_AUTHORED_SUCCESSOR_INSTRUMENT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 5042,
+      "sha256": "994fe8b44dfbaaec36382d8024348711b82d0d206f326d9563c0d6f326863c52",
+      "git_blob": "941edb3d1ca93a9f85d604a541dbd581f4cc140c",
+      "predecessor": null
+    },
+    {
+      "path": "technical/COMMENT_BODY_HASHES_20_2026-10-12.csv",
+      "classification": "HISTORICAL_TRACE_OR_COMMENT_CUT",
+      "purpose": "COMMENT_BODY_HASHES_20_2026-10-12 — texto/datos completos conservados",
+      "bytes": 4129,
+      "sha256": "ce92575d19a600a18d3c6d9f1a329ba13559096fd88abc450b9f9f0fd6dc6b44",
+      "git_blob": "166c15e6de2da57b1b060382da5d3caffbfa085e",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "HISTORICAL_TRACE_OR_COMMENT_CUT"
+    },
+    {
+      "path": "technical/EHD_04_05A_MAPPING.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "EHD_04_05A_MAPPING — texto/datos completos conservados",
+      "bytes": 7723,
+      "sha256": "8640e3bccad77459b69519ed1d2aeea4312641b3fa3c7391a06d9a0edea49c82",
+      "git_blob": "f1796320ba9dd838d08edda841842f441eaebcf6",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/EHD_04_05A_MAPPING.md.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/HISTORY_AND_REPRODUCTION.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "HISTORY_AND_REPRODUCTION — texto/datos completos conservados",
+      "bytes": 8104,
+      "sha256": "de68d6d272b6311f83bdb1350d45beba5315c5ac0e48a4bc8a52f1b7c3d3a2a0",
+      "git_blob": "87f9068084847e1a687c693e99d238d0fb40a14c",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/HISTORY_AND_REPRODUCTION.md.txt",
+      "claims": [
+        "CLAIM-07"
+      ],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/PROTOCOL_P0_P3.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "PROTOCOL_P0_P3 — texto/datos completos conservados",
+      "bytes": 10203,
+      "sha256": "042684e55510aa4e8fe0f9622b9c4660c4245bbef40fb47b44f612e92021bd2f",
+      "git_blob": "a9393c32766e1657cc27da39f7d2ecc94ba87b72",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/PROTOCOL_P0_P3.md.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/QUALIFIER_SUCCESSOR_RESULTS_2026-10-14.json",
+      "classification": "PUBLIC_AUTHORED_SUCCESSOR_INSTRUMENT",
+      "purpose": "Versioned full corrective audit artifact",
+      "claims": [],
+      "decisions": [
+        "DEC-11"
+      ],
+      "evidence_mode": "AUTHOR_SIDE_CONTROL_NOT_NATIVE_EXECUTION",
+      "bytes": 6405,
+      "sha256": "3975af9dc5393509444e05743d98d4d0d9af5581b0bebd0907f902c32e915b0e",
+      "git_blob": "98a598b78194056f09e654b9ce095a5eae61b5d9",
+      "predecessor": null
+    },
+    {
+      "path": "technical/RESIDUAL_LEDGER.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "RESIDUAL_LEDGER — texto/datos completos conservados",
+      "bytes": 6592,
+      "sha256": "8172b6a8e1ae8f349415657f65dbe10c3fd4bcd6cd0b020063783cd1ed0ddd45",
+      "git_blob": "cb29636e362ad46b17f5a90ee2dbdd8fa0257415",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/RESIDUAL_LEDGER.md.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/SOURCES_AND_PINS.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "SOURCES_AND_PINS — texto/datos completos conservados",
+      "bytes": 9888,
+      "sha256": "c2e608bcc33661643f432887ae8ef13447f1f5ce0df082d8aa51d41568f2f5ea",
+      "git_blob": "281410318ff1b311eb68c0e67ec4a448d318df32",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/SOURCES_AND_PINS.md.txt",
+      "claims": [
+        "CLAIM-02"
+      ],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/STAGE_A_GATE_TRACE.csv",
+      "classification": "HISTORICAL_TRACE_OR_COMMENT_CUT",
+      "purpose": "STAGE_A_GATE_TRACE — texto/datos completos conservados",
+      "bytes": 1438,
+      "sha256": "a1c01c190af8bc6596a7aa4055c502c2a43bda3eb5f001fb22e8313403219204",
+      "git_blob": "e541b1e4d467437a7b9a4ca2804a3d4302eeaca1",
+      "predecessor": null,
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "HISTORICAL_TRACE_OR_COMMENT_CUT"
+    },
+    {
+      "path": "technical/SUBMISSION_BRIEF_EN.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "SUBMISSION_BRIEF_EN — texto/datos completos conservados",
+      "bytes": 3671,
+      "sha256": "782de9719a3413e0f7ddd49da692b0a2d4f8119983c2ad1da561700403bb2e2c",
+      "git_blob": "ba7d4ea4dd48d5abc8c6f8e2fc9efa6987c9e68b",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/SUBMISSION_BRIEF_EN.md.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/TECHNICAL_COMPONENT_RECORD.json",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "TECHNICAL_COMPONENT_RECORD — texto/datos completos conservados",
+      "bytes": 3368,
+      "sha256": "d04b73d0fd3fedaef441e29e4a6593282484e28942ef3287532a17f31a20a902",
+      "git_blob": "5f2e584d55c10ae288b00d0c0bb7e69213a797a0",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_COMPONENT_RECORD.json.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "technical/TECHNICAL_INDEX.md",
+      "classification": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT",
+      "purpose": "TECHNICAL_INDEX — texto/datos completos conservados",
+      "bytes": 3224,
+      "sha256": "3171b34df5b2f2cc2b960bba199abb38f1aa29d9e0fca45faa657f9aaf831ca3",
+      "git_blob": "1efe29f3c950d219073fa52d66b3f76d7ae3b3b7",
+      "predecessor": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_INDEX.md.txt",
+      "claims": [],
+      "decisions": [],
+      "evidence_mode": "SUPPORTING_EARLIER_TECHNICAL_CONTRACT"
+    },
+    {
+      "path": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "classification": "HISTORICAL_AUDIT_AND_CORRECTION",
+      "purpose": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13 — texto/datos completos conservados",
+      "bytes": 15037,
+      "sha256": "cf2aa5826e9becbb9d6b61370aa89e4377768144519b024930aec6c7cbd552d1",
+      "git_blob": "9522cd0924a6c82e89abcb92050a30724ca85fa2",
+      "predecessor": "history/versions/2026-10-13_before_organization/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md.txt",
+      "claims": [
+        "CLAIM-05"
+      ],
+      "decisions": [],
+      "evidence_mode": "HISTORICAL_AUDIT_AND_CORRECTION"
+    },
+    {
+      "path": "TRACEABILITY_2026-10-13.md",
+      "classification": "DOCUMENTARY_AUDIT_CONTROL",
+      "purpose": "Afirmaciones, evidencias, controles y pendientes",
+      "bytes": 12144,
+      "sha256": "be6e3a366c9f896f2991da69d64d38622e574275bd9d653f015629851b1caa37",
+      "git_blob": "cf9ad9499057b0b3b62048a561b72c5ad38c117c",
+      "predecessor": "history/versions/2026-10-14_before_expanded_audit/TRACEABILITY_2026-10-13.md.txt",
+      "claims": [],
+      "decisions": [
+        "DEC-08"
+      ],
+      "evidence_mode": "DOCUMENTARY_AUDIT_CONTROL"
+    },
+    {
+      "path": "VERSIONS_AND_DECISIONS_2026-10-13.md",
+      "classification": "DOCUMENTARY_AUDIT_CONTROL",
+      "purpose": "Anexo íntegro de versiones, decisiones y archivos",
+      "bytes": 44831,
+      "sha256": "5caa8acce4bf9073ad2db5ec5acb5b6621a3dc1e485950f2490ccc287522316f",
+      "git_blob": "3d0549e3367b748c280512566d96d462ed76b9e8",
+      "predecessor": "history/versions/2026-10-14_before_expanded_audit/VERSIONS_AND_DECISIONS_2026-10-13.md.txt",
+      "claims": [
+        "CLAIM-06"
+      ],
+      "decisions": [
+        "DEC-08"
+      ],
+      "evidence_mode": "DOCUMENTARY_AUDIT_CONTROL"
     }
   ],
   "preservation": [
@@ -2262,6 +2542,96 @@
       "bytes": 3757,
       "original_commit": "d64590498af25db873f2fc8d2ac79f801503ebd5",
       "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/d64590498af25db873f2fc8d2ac79f801503ebd5/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/VALIDATION_2026-10-13.json"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/verify_campaign.mjs",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt",
+      "original_blob": "385f52c28a5fe746bf1d72da0219c37d3d32a45c",
+      "sha256": "05ae48fc59acf25f670bff26945ffbce3fcb9d2234d744f5548656842693ff4b",
+      "bytes": 8297,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/verify_campaign.mjs"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/CAMPAIGN_CONTROL_2026-10-13.json",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/audit/CAMPAIGN_CONTROL_2026-10-13.json.txt",
+      "original_blob": "afeac7094933511e8d37a9e2b0f278b40a6c4838",
+      "sha256": "f8942892e7626f32ae54fafd9bc561681acb9f3f3b2a3215efa9a041f8f4d14d",
+      "bytes": 210967,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/CAMPAIGN_CONTROL_2026-10-13.json"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/VALIDATION_2026-10-13.json",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/audit/VALIDATION_2026-10-13.json.txt",
+      "original_blob": "8ad85a81b4a7ad8770eabefe0e37a9ee6987a891",
+      "sha256": "6d0b68ea51c8821903f32bc4ccf742fd669d1ef96c6d2fdc60d8cf479e292766",
+      "bytes": 4065,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/VALIDATION_2026-10-13.json"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.md.txt",
+      "original_blob": "fe78862f18c05ef53f765c74858e02126e52f51e",
+      "sha256": "49a12e8ed2faf5acc62f8832ea63253bcde9a8581bfad16bf661c06aeafe041a",
+      "bytes": 10767,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.json",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.json.txt",
+      "original_blob": "1f79074004f1f1812a7c899b3553879d6678ff67",
+      "sha256": "a096c2e8cfe461be458edcdc64d467ff1adf4119543f4cba8dc79796344e4ce0",
+      "bytes": 13164,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.json"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/CONTINUATION.md.txt",
+      "original_blob": "25f01de676fbd50956fad5621f8d62983eb6a52f",
+      "sha256": "871607af0a292122b82db1711f4e6ed11080fbcdbd389cda790e89d482c0de60",
+      "bytes": 8137,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CONTINUATION.md"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/VERSIONS_AND_DECISIONS_2026-10-13.md",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/VERSIONS_AND_DECISIONS_2026-10-13.md.txt",
+      "original_blob": "94e2d6113eb6a8963b5c460b44822e42f77979e0",
+      "sha256": "7d44ae63d7fb68c37b14dd2154c2c84062e8f24772660987f15c8e477e03f347",
+      "bytes": 40664,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/VERSIONS_AND_DECISIONS_2026-10-13.md"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/TRACEABILITY_2026-10-13.md",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/TRACEABILITY_2026-10-13.md.txt",
+      "original_blob": "46e7b2acc508c77260bd531efcae0c366f5b3ae5",
+      "sha256": "d86eda2f78dd2d7aae20377f0df230fbb67be348ed1e07caf24726038144b92a",
+      "bytes": 11478,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/TRACEABILITY_2026-10-13.md"
+    },
+    {
+      "source_path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SOURCES_AND_CUSTODY.md",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/SOURCES_AND_CUSTODY.md.txt",
+      "original_blob": "7865fa6da46e48ba8b28d0aa39e376dca24d47fd",
+      "sha256": "063bfbea19deb1645ae5a489c13467e4179fb9b1f2be53dad3728be5ab24b804",
+      "bytes": 10647,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SOURCES_AND_CUSTODY.md"
+    },
+    {
+      "source_path": "DOCUMENT_CONTROL.md",
+      "archive_path": "history/versions/2026-10-14_before_expanded_audit/parent-routes/DOCUMENT_CONTROL.md.txt",
+      "original_blob": "1e94363e290bf0ee31639a34c36337a4993af410",
+      "sha256": "c2f352c26f0a2d9886e357a9da6a4fd333ed4451bafa0e9702977b9e03b666e2",
+      "bytes": 52113,
+      "original_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/DOCUMENT_CONTROL.md"
     }
   ],
   "legacy_anchor_aliases": [
@@ -3460,6 +3830,38 @@
         "audit/VALIDATION_2026-10-13.json"
       ],
       "successor": null
+    },
+    {
+      "id": "DEC-11",
+      "when": "14 October owner audit expansion",
+      "state": "OWNER_AUTHORIZED_EXPANDED_AUDIT",
+      "decision": "Reproduce adversarial audit failures and resolve every correctable finding without scientific promotion",
+      "records": [
+        "audit/EXPANDED_AUDIT_2026-10-14.md",
+        "audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json"
+      ],
+      "successor": null
+    },
+    {
+      "id": "DEC-12",
+      "when": "14 October successor contract checks",
+      "state": "AUTHOR_INSTRUMENT_REPAIR_VERIFIED",
+      "decision": "Preserve tautological legacy assertion and add distinct-truth/equal-packet successor plus strict proof graph schema",
+      "records": [
+        "technical/code/qualifier_v0_2.py",
+        "technical/code/test_qualifier_v0_2.py"
+      ],
+      "successor": null
+    },
+    {
+      "id": "DEC-13",
+      "when": "14 October blind chronology clarification",
+      "state": "PREPARATION_RULE_NOT_NATIVE_ADMISSION",
+      "decision": "Separate revealed development R3-A from held-out scored R3-B when EA is developed after first reveal",
+      "records": [
+        "audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md"
+      ],
+      "successor": null
     }
   ],
   "claims": [
@@ -3722,11 +4124,16 @@
     },
     {
       "id": "OPEN-05",
-      "state": "KNOWN_LEGACY_LIMITATION",
+      "state": "RESOLVED_IN_AUTHORED_SUCCESSOR_LEGACY_LIMIT_RETAINED",
       "topic": "One tautological assertion among 21 technical mock checks",
       "owner_required": "Technical component reviewer",
       "closure": "Keep historical test intact; separately admit meaningful contrast if using it for semantic claims",
-      "effect": "21 instrument checks not 21 independent semantic successes"
+      "effect": "Meaningful finite two-world successor demonstrated; original assertion remains tautological; no native or independent semantic acceptance",
+      "legacy_state": "KNOWN_LEGACY_LIMITATION",
+      "closure_evidence": [
+        "technical/code/test_qualifier_v0_2.py",
+        "technical/QUALIFIER_SUCCESSOR_RESULTS_2026-10-14.json"
+      ]
     },
     {
       "id": "OPEN-06",
@@ -3738,11 +4145,14 @@
     },
     {
       "id": "OPEN-07",
-      "state": "MUTABLE_SOURCE_FRESHNESS",
+      "state": "REFRESHED_CURRENT_CUT_ONGOING_FUTURE_MUTABILITY",
       "topic": "Source comments and future upstream publications",
       "owner_required": "Research source reviewer",
       "closure": "New dated source cut when current external claims are needed",
-      "effect": "12 Oct comment hashes / 13 Oct repository cut cannot assert future state"
+      "effect": "12 Oct comment hashes / 13 Oct repository cut cannot assert future state",
+      "closure_evidence": [
+        "audit/SOURCE_FRESHNESS_2026-10-14.json"
+      ]
     }
   ],
   "author_and_independence": "AI_ASSISTED_SAME_PREPARER_STRUCTURAL_AUDIT_NOT_INDEPENDENT_SCIENTIFIC_ADJUDICATION",
@@ -3769,7 +4179,7 @@
   "repository_dependencies": [
     {
       "path": "DOCUMENT_CONTROL.md",
-      "git_blob": "1e94363e290bf0ee31639a34c36337a4993af410"
+      "git_blob": "e3ada85de309e7f654bbf74f4b1785cde51fb245"
     },
     {
       "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
@@ -3784,7 +4194,7 @@
       "git_blob": "b53cc318875b849475d26452aaa8fe2d089ce748"
     }
   ],
-  "controlRevision": "2026-10-14.LOCAL_RECOVERY_AND_DEPENDENCY_CORRECTION.1",
+  "controlRevision": "2026-10-14.EXPANDED_AUDIT.2",
   "publicationErrata": [
     {
       "id": "ERRATA-01",
@@ -3804,5 +4214,20 @@
     "manifest": "history/local-preparation/RECOVERY_2026-10-14.json",
     "priorGitHubCommit": "d64590498af25db873f2fc8d2ac79f801503ebd5",
     "allOriginalLocalFilesRetained": true
+  },
+  "hardening": {
+    "version": "0.2",
+    "predecessor_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+    "baseline_manifest": "audit/baselines/PRE_HARDENING_f16b3ba1ef36bb3ff62b02eb89748838c66e8073.json",
+    "baseline_sha256": "27b752ca4173ecaa3da8f183fdad2edfe497f9aaf9ec11ba26c05f03da47fc7d",
+    "report": "audit/EXPANDED_AUDIT_2026-10-14.md",
+    "results": "audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json",
+    "phase": "FINAL",
+    "old8findingsReproduced": true,
+    "negativeCases": 25,
+    "qualifierNamedControls": 18,
+    "qualifierTruthTableCases": 27,
+    "sourceCommentsRefreshed": 22,
+    "nativeResultsVerified": false
   }
 }

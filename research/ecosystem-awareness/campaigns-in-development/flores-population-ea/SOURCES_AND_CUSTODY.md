@@ -81,3 +81,8 @@ Se preserva la medición original, se cualifica su uso receptor y se devuelve un
 **7. Technical P0–P3 component and archive custody — corrective addendum, 13 October** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/SOURCES_AND_CUSTODY.md#7-technical-p0p3-component-and-archive-custody--corrective-addendum-13-october).
 
 </details>
+
+
+## Auditoria ampliada y cierres — 14 octubre 2026
+
+[Hallazgos, reparaciones y evidencia de cierre](audit/EXPANDED_AUDIT_2026-10-14.md) · [mutaciones adversariales y resultados](audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json) · [readiness/contrato blind](audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md) · [fuentes actualizadas](audit/SOURCE_FRESHNESS_2026-10-14.json). La verificación se amplía a promoción falsa, inventarios/IDs, baseline fijado, paths, recibo obligatorio y scope PARTIAL; el sucesor resuelve la tautología instrumental sin cambiar el original. Los estados y limites actuales están en el informe, manteniendo íntegro el texto anterior.

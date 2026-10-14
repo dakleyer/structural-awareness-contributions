@@ -1,0 +1,93 @@
+{
+  "sourceCommit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+  "authorSideAdversarialAudit": true,
+  "independentScientificAudit": false,
+  "rows": [
+    {
+      "id": "HARD-01",
+      "description": "Stage B acceptance can be asserted with updated file hash and no execution proof",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED"
+    },
+    {
+      "id": "HARD-02",
+      "description": "Duplicate inventory entry accepted",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED"
+    },
+    {
+      "id": "HARD-03",
+      "description": "Source inventory can be emptied despite declared original count 65",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 0,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED"
+    },
+    {
+      "id": "HARD-04",
+      "description": "Missing published validation receipt is still accepted",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED"
+    },
+    {
+      "id": "HARD-05",
+      "description": "Missing repository dependency still returns PASS by default",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [
+        "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md"
+      ],
+      "finding": "INVALID_STATE_ACCEPTED"
+    },
+    {
+      "id": "HARD-06",
+      "description": "Duplicate decision identity accepted",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED"
+    },
+    {
+      "id": "HARD-07",
+      "description": "Missing dependency schema fails with unstructured exception",
+      "oldExitCode": 1,
+      "oldResult": "UNSTRUCTURED_ERROR",
+      "oldErrors": [],
+      "oldMissingDependencies": [],
+      "finding": "UNSTRUCTURED_ERROR"
+    },
+    {
+      "id": "HARD-08",
+      "description": "Original paths count reported as 65 even when an original is missing",
+      "oldExitCode": 1,
+      "oldResult": "FAIL",
+      "oldErrors": [
+        "MISSING_FILE runtime-context/code/preflight.mjs",
+        "ORIGINAL_PATH_LOST runtime-context/code/preflight.mjs",
+        "PREDECESSOR_NOT_PRESERVED runtime-context/code/preflight.mjs",
+        "RUNTIME_MANIFEST_FILE code/preflight.mjs"
+      ],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "COUNTER_REPORT_DEFECT"
+    }
+  ]
+}

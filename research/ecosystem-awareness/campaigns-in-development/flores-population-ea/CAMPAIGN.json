@@ -306,5 +306,18 @@
     "previous_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716",
     "archival_policy": "COMPLETE_ORIGINAL_BYTES_NO_DELETIONS_NO_RECONSTRUCTION",
     "active_priority": "SAME_TEMPORAL_CLAIM_R2_COMPLETE_FREEZE_UNCOVERED_R3_GENERAL_EA_EX_ANTE"
+  },
+  "audit_hardening": {
+    "version": "0.2",
+    "date": "2026-10-14",
+    "status": "PASS_CORRECTIVE_AUTHOR_AUDIT",
+    "report": "audit/EXPANDED_AUDIT_2026-10-14.md",
+    "results": "audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json",
+    "baseline": "audit/baselines/PRE_HARDENING_f16b3ba1ef36bb3ff62b02eb89748838c66e8073.json",
+    "baseline_sha256": "27b752ca4173ecaa3da8f183fdad2edfe497f9aaf9ec11ba26c05f03da47fc7d",
+    "qualifier_successor": "technical/code/qualifier_v0_2.py",
+    "legacy_source_unchanged": true,
+    "native_run": false,
+    "independent_scientific_acceptance": false
   }
 }

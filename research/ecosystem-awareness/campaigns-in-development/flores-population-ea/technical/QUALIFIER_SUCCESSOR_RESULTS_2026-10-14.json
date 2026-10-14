@@ -1,0 +1,292 @@
+{
+  "schema": "FLORES_AUTHORED_QUALIFIER_SUCCESSOR_CHECKS_0.2",
+  "result": "PASS_AUTHORED_CONTRACT_CHECKS",
+  "native_run": false,
+  "EA_implementation": false,
+  "independent_scientific_adjudication": false,
+  "named_controls": 18,
+  "conjunction_cases": 27,
+  "checks": [
+    "Different external truth",
+    "Different complete world digest",
+    "Identical entire candidate packet",
+    "Identical outputs from equal complete observations",
+    "Neither identifies hidden key truth",
+    "Observed positive truth differs and supports",
+    "Observed refutation differs and refutes",
+    "Bad seal never independently refutes key truth",
+    "All legacy snapshot semantics conserved",
+    "Duplicate JSON keys rejected",
+    "Fact/receipt collision rejected",
+    "Fact/claim collision rejected",
+    "Dependency cycle rejected before evaluation",
+    "Duplicate dependency rejected",
+    "Undeclared dependency rejected",
+    "Unknown snapshot rejected",
+    "Unknown evidence state rejected",
+    "Unnamed process rejected"
+  ],
+  "world_truths": [
+    {
+      "key_objectively_true": true
+    },
+    {
+      "key_objectively_true": false
+    }
+  ],
+  "world_sha256": [
+    "55832274dd255ceb3bdaaf894c446d401743d4aa535815d2dd5da26c33a592d0",
+    "f566aa0278e18dde1d6e97765cf04946b75cdd0d62cc7171fcebedcd6233635e"
+  ],
+  "candidate_packet_sha256": "9c31a5826ff0a13a048a6c811125b4c5123d44f39ab2241041dad56d3963a0a8",
+  "outputs_sha256": [
+    "65addfa6773d759769b5428089a3ee109fc96e5e0fd7d15e667a62de5c1da633",
+    "65addfa6773d759769b5428089a3ee109fc96e5e0fd7d15e667a62de5c1da633"
+  ],
+  "legacy_source_rewritten": false,
+  "truth_table": [
+    {
+      "inputs": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ],
+      "expected": "SUPPORTED",
+      "actual": "SUPPORTED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "NOT_ESTABLISHED",
+      "actual": "NOT_ESTABLISHED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "REFUTED",
+        "SUPPORTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "REFUTED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "REFUTED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "NOT_ESTABLISHED",
+        "SUPPORTED"
+      ],
+      "expected": "NOT_ESTABLISHED",
+      "actual": "NOT_ESTABLISHED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "NOT_ESTABLISHED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "SUPPORTED",
+        "NOT_ESTABLISHED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "NOT_ESTABLISHED",
+      "actual": "NOT_ESTABLISHED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "SUPPORTED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "SUPPORTED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "REFUTED",
+        "SUPPORTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "REFUTED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "REFUTED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "NOT_ESTABLISHED",
+        "SUPPORTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "NOT_ESTABLISHED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "REFUTED",
+        "NOT_ESTABLISHED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ],
+      "expected": "NOT_ESTABLISHED",
+      "actual": "NOT_ESTABLISHED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "SUPPORTED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "SUPPORTED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "NOT_ESTABLISHED",
+      "actual": "NOT_ESTABLISHED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "REFUTED",
+        "SUPPORTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "REFUTED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "REFUTED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "NOT_ESTABLISHED",
+        "SUPPORTED"
+      ],
+      "expected": "NOT_ESTABLISHED",
+      "actual": "NOT_ESTABLISHED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "NOT_ESTABLISHED",
+        "REFUTED"
+      ],
+      "expected": "REFUTED",
+      "actual": "REFUTED"
+    },
+    {
+      "inputs": [
+        "NOT_ESTABLISHED",
+        "NOT_ESTABLISHED",
+        "NOT_ESTABLISHED"
+      ],
+      "expected": "NOT_ESTABLISHED",
+      "actual": "NOT_ESTABLISHED"
+    }
+  ]
+}

@@ -226,3 +226,34 @@ Las nueve source-copy navigation derivatives preservan el texto sin reescritura 
 ## Recuperacion completa de preparacion local — 14 octubre 2026
 
 [Catálogo de todas las versiones locales recuperadas](history/local-preparation/LOCAL_PREPARATION_INDEX_2026-10-14.md) · [manifest de orígenes, igualdad exacta y hashes](history/local-preparation/RECOVERY_2026-10-14.json). Se conservan todos los textos completos, variantes previas a la corrección R2/freeze/R3 y ediciones HTML fuente. Cada instancia tiene procedencia y checksum; las copias idénticas remiten al mismo blob. Las versiones previas de este anexo, el control y el recibo están enlazadas en ese catálogo.
+
+
+## Auditoria ampliada y cierres — 14 octubre 2026
+
+[Hallazgos, reparaciones y evidencia de cierre](audit/EXPANDED_AUDIT_2026-10-14.md) · [mutaciones adversariales y resultados](audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json) · [readiness/contrato blind](audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md) · [fuentes actualizadas](audit/SOURCE_FRESHNESS_2026-10-14.json). La verificación se amplía a promoción falsa, inventarios/IDs, baseline fijado, paths, recibo obligatorio y scope PARTIAL; el sucesor resuelve la tautología instrumental sin cambiar el original. Los estados y limites actuales están en el informe, manteniendo íntegro el texto anterior.
+
+
+### Catalogo completo de nuevos controles y predecesores
+
+| Archivo completo | Función |
+|---|---|
+| [audit/EXPANDED_AUDIT_2026-10-14.md](audit/EXPANDED_AUDIT_2026-10-14.md) | Resultado, contrato o evidencia de auditoría |
+| [audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json](audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json) | Resultado, contrato o evidencia de auditoría |
+| [audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md](audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md) | Resultado, contrato o evidencia de auditoría |
+| [audit/REPRODUCED_GAPS_2026-10-14.json](audit/REPRODUCED_GAPS_2026-10-14.json) | Resultado, contrato o evidencia de auditoría |
+| [audit/SOURCE_FRESHNESS_2026-10-14.json](audit/SOURCE_FRESHNESS_2026-10-14.json) | Resultado, contrato o evidencia de auditoría |
+| [audit/baselines/PRE_HARDENING_f16b3ba1ef36bb3ff62b02eb89748838c66e8073.json](audit/baselines/PRE_HARDENING_f16b3ba1ef36bb3ff62b02eb89748838c66e8073.json) | Corte inmutable fijado |
+| [audit/test_verifier_v0_2.mjs](audit/test_verifier_v0_2.mjs) | Instrumento/version sucesora reproducible |
+| [history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.json.txt](history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.json.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.md.txt](history/versions/2026-10-14_before_expanded_audit/CAMPAIGN.md.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/CONTINUATION.md.txt](history/versions/2026-10-14_before_expanded_audit/CONTINUATION.md.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/SOURCES_AND_CUSTODY.md.txt](history/versions/2026-10-14_before_expanded_audit/SOURCES_AND_CUSTODY.md.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/TRACEABILITY_2026-10-13.md.txt](history/versions/2026-10-14_before_expanded_audit/TRACEABILITY_2026-10-13.md.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/VERSIONS_AND_DECISIONS_2026-10-13.md.txt](history/versions/2026-10-14_before_expanded_audit/VERSIONS_AND_DECISIONS_2026-10-13.md.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/audit/CAMPAIGN_CONTROL_2026-10-13.json.txt](history/versions/2026-10-14_before_expanded_audit/audit/CAMPAIGN_CONTROL_2026-10-13.json.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/audit/VALIDATION_2026-10-13.json.txt](history/versions/2026-10-14_before_expanded_audit/audit/VALIDATION_2026-10-13.json.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt](history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt) | Predecesor completo, mismo blob |
+| [history/versions/2026-10-14_before_expanded_audit/parent-routes/DOCUMENT_CONTROL.md.txt](history/versions/2026-10-14_before_expanded_audit/parent-routes/DOCUMENT_CONTROL.md.txt) | Predecesor completo, mismo blob |
+| [technical/QUALIFIER_SUCCESSOR_RESULTS_2026-10-14.json](technical/QUALIFIER_SUCCESSOR_RESULTS_2026-10-14.json) | Resultado, contrato o evidencia de auditoría |
+| [technical/code/qualifier_v0_2.py](technical/code/qualifier_v0_2.py) | Instrumento/version sucesora reproducible |
+| [technical/code/test_qualifier_v0_2.py](technical/code/test_qualifier_v0_2.py) | Instrumento/version sucesora reproducible |

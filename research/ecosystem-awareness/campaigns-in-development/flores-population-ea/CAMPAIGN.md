@@ -94,3 +94,8 @@ El anexo permite recuperar cada versión exacta, incluidos sus enlaces y razonam
 **9. 13 October renewed audit and resumption** — [versión completa con este apartado](https://github.com/dakleyer/structural-awareness-contributions/blob/a44273b433113b3ba6aba6f02bed8e71fcaaa716/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md#9-13-october-renewed-audit-and-resumption).
 
 </details>
+
+
+## Auditoria ampliada y cierres — 14 octubre 2026
+
+[Hallazgos, reparaciones y evidencia de cierre](audit/EXPANDED_AUDIT_2026-10-14.md) · [mutaciones adversariales y resultados](audit/EXPANDED_AUDIT_RESULTS_2026-10-14.json) · [readiness/contrato blind](audit/READINESS_AND_BLIND_CONTRACT_2026-10-14.md) · [fuentes actualizadas](audit/SOURCE_FRESHNESS_2026-10-14.json). La verificación se amplía a promoción falsa, inventarios/IDs, baseline fijado, paths, recibo obligatorio y scope PARTIAL; el sucesor resuelve la tautología instrumental sin cambiar el original. Los estados y limites actuales están en el informe, manteniendo íntegro el texto anterior.
