@@ -14389,6 +14389,30 @@
       "whole_corpus_review_complete": false,
       "restoration_plan_complete": false,
       "phase_B_open": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Replace memory-exposed setup with isolated memory-free reviewer",
+      "source_commit": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#third-pass-isolation-correction--memory-free-source-reviewer-14-october-2026",
+      "previous_collaboration_attempt": "/root/third_pass_blind_corpus stopped; general memory summary exposed; no credit as strict blind baseline",
+      "reviewer_thread": "01a13c1e-5ce0-7711-824b-e372b6c3c5b2",
+      "mode": "CLI isolated invocation with neutral assignment and sandbox/auto review",
+      "use_memories": false,
+      "generate_memories": false,
+      "ignore_user_config": true,
+      "hooks_apps_subagents": false,
+      "model_override": null,
+      "initial_context_record_sha256": "4784db9ad7fb218a50d144a14ac449f45969cb64d4d8d70e10120c0640aa3866",
+      "initial_memory_conversation_or_prior_findings_visible": false,
+      "preflight_attempts_not_source_audit_credits": true,
+      "previous_findings_supplied": false,
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "new_candidates": 0,
+      "whole_corpus_complete": false,
+      "plan_complete": false,
+      "phase_B_open": false
     }
   ]
 }

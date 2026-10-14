@@ -2232,3 +2232,16 @@ Original canonical documents, frozen evidence, results, code and binaries remain
 ### Actual progress and closure
 
 The new reviewer has been dispatched; its own inventory, first source judgements and plan are being produced. This protocol is not their result and does not certify any file as reviewed. Progress distinguishes unread, complete source read, material history read, receiving relation incomplete, first judgement sealed, earlier audit compared, plan prepared and publication verified. Whole-corpus completion requires those actual records and the final cross-document reconciliation; a first cohort does not close the third pass.
+
+
+## Third-pass isolation correction — memory-free source reviewer, 14 October 2026
+
+The empty-conversation collaboration attempt described above disclosed that its runtime still supplied a general memory summary. That does not meet Iván’s strict requirement of no previous review knowledge. The coordinator stopped that attempt. Its initial inventory and reads remain preserved as setup evidence and are **not counted as the independent third-pass baseline**. No old audit body was deliberately opened, and no source change was applied.
+
+The replacement is one isolated source-review session, `01a13c1e-5ce0-7711-824b-e372b6c3c5b2`, started with memory use and generation disabled for that invocation, without loading user configuration or enabling hooks, apps or subagents. The sandbox and automatic approval review remain active; global settings and credentials are unchanged. [OpenAI Docs — configuration reference](https://learn.chatgpt.com/docs/config-file/config-reference) documents that disabling `memories.use_memories` prevents existing memory injection. The local launch options and initial-context record provide the evidence for this actual run.
+
+Before opening the corpus, the replacement wrote an exposure record stating that no previous memory, conversation or corpus-review findings were visible. It inspected only the neutral operating assignment at that point. The original record was copied under coordinator custody before source reading. Initial exposure SHA-256: `4784db9ad7fb218a50d144a14ac449f45969cb64d4d8d70e10120c0640aa3866`. Operational preflight attempts and interrupted starts are retained separately and do not create extra audit credits or source judgements.
+
+The reviewer receives no previous findings, candidates or earlier ranking. It derives its own inventory, source cut, reading sequence, source/history/receiver judgements and restoration/organization plan. The coordinator supplies administrative custody only. The full Phase A isolation gate remains: prior audits stay unread until all principal source/material-integration first judgements are sealed. Published partial results will not be fed back into the reviewer’s evidence set.
+
+Actual status: the memory-free reviewer is running its initial source work. This correction establishes the operating process; it is not a completed third review, a completed plan or a judgement on all files. Source-reading coverage, sealed results and unresolved work will be recorded from that reviewer’s own artifacts. The unique existing VNext owners remain the publication destination. No restoration, reorganization, experiment or timer is activated.
