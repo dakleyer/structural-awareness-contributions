@@ -1,5 +1,9 @@
 # CU-HIB-01 — Requirements, controls and acceptance traceability v0.2
 
+
+> **Important v0.3 SOURCE CORRECTION (14 October):** CU-R03 below was drafted before [Ying's second reply explicitly agreeing with Zhao's restore-condition proposal](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429). It is no longer accurate to treat **discussion-level source-author acceptance** of declaration at suspension as unestablished; the authors now describe the two-step activation sequence (**validate declared condition, then derive intent**). **Exact normative SHALL language, field schemas, source policy and external adoption remain pending.** For current v0.3 requirements, their R1/R2/R3 coverage and controls read the [self-contained third-party dossier §9](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md#9-minimum-candidate-specifications-implied-by-the-challenge). Preserve the old CU-R03 entry as historical v0.2 evidence of the earlier source cut.
+
+
 **Authority:** [CHALLENGE_CONTRACT_v0.2](CHALLENGE_CONTRACT_v0.2.md). **Status:** candidate requirements + author-side matrix, NOT an accepted FG-TIDA/ITU specification or proof of conformance. **Date:** 14 October 2026.
 
 The matrix distinguishes **S** = statement explicitly supported by the named source; **E** = external/contributor suggestion not adopted; **L** = locally proposed requirement/clarification; **M** = DDS methodological constraint. The origin column establishes what the cited record supports; it does not imply source-owner assent to our phrasing. **All technical test results below remain NOT_RUN.** No “shall” requirement in this file can be attributed to China Unicom without external approval.
