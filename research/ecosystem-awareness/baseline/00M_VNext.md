@@ -269,3 +269,46 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Third independent source review — 00M branch correction, 14 October 2026
+
+The isolated source reviewer has sealed the first bounded judgement below before opening previous audit bodies. It finds a justified correction in an internal 00M branch: finite termination does not establish delivery within an operational deadline. It recommends preserving that correction, with no current replacement candidate. This is a partial source judgement, not completion of 00M, its downstream integrations, the restoration/organization plan or the whole corpus.
+
+The coordinator verified the three authentic Git blobs and commit ancestry. These are internal Contributions branch versions, not a main deletion or an adopted successor inferred from their filenames. The complete old/successor paragraphs below are historical evidence; they are **not** a new before/proposed-after pair against the current canonical source.
+
+| Internal version | Exact source | Git blob | Relationship to the fixed main cut |
+|---|---|---|---|
+| `4d201926cacc` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/4d201926caccc64886334bab615ab5ede5d5418c/research/ecosystem-awareness/baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) | `52a63de27c978c0417ce53026980224f23c30e52` | Branch work; not in main ancestry |
+| `ef177d3a928f` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/ef177d3a928f7aef75ab8ff15e46e414ecb0c6e8/research/ecosystem-awareness/baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) | `5e147aa13d668dcbe1f4218c14d38f28e9880730` | Branch work; not in main ancestry |
+| `f5932a8f5f1b` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/f5932a8f5f1b7c75edf18dc66882f0633c01d778/research/ecosystem-awareness/baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) | `b134301a7e6fdeb76b1eaefb5f83fc70701c3eb4` | Branch work; not in main ancestry |
+
+First judgement sealed at `2026-10-14T20:45:10.903294+00:00`. Markdown SHA-256 `897da242f2621fb356a57abddd23e1881afa25028f7a8e3391d88876c15c29e9`; accompanying source/reading/exposure snapshot SHA-256 `f68001b1d25cf4f72c916d5fea624877b7e6c7d4137f82a6f0e25d079ba11957`. The original sealed private records remain immutable. The public source judgement follows verbatim; private operational records are not copied into the corpus. The coordinator's authentication is a custody check, not a second independent source review.
+
+<details>
+<summary>Sealed first source judgement and its own plan — full text</summary>
+
+# First scoped judgement: branch finite termination correction
+
+Sealed UTC: 2026-10-14T20:45:10.903294+00:00
+
+This is an immutable first judgement on an internal branch correction. The larger source cohort and corpus review remain incomplete.
+
+The three original 00M semantic/feasibility revisions are branch work, not main-ancestry history. Their actual parent chain is recorded in the JSON. No rename, main deletion or main acceptance is inferred from similar dates or titles.
+
+Disposition: **justified correction/supersession**. A finite input with decidable compatibility and finite comparisons admits termination; that fact supplies no useful-response elapsed-time bound. The revision retains the constructive route and states what its assumptions do not establish.
+
+Complete old paragraph (`52a63de27c978c0417ce53026980224f23c30e52`, section 3):
+
+This is a **constructive existence witness**: finite typed records, partial translations, lineage tracking and bounded comparison admit a terminating implementation for a declared finite input and response budget. It does **not** claim a universal matching algorithm, a complete Ω, an optimal decision, a probability for C/D or positive net value in a deployment. On a given implementation, semantic mapping, privacy, metadata capture, adversarial sources and processing may cost more than the warning is worth.
+
+Complete successor paragraph (`5e147aa13d668dcbe1f4218c14d38f28e9880730`, section 3):
+
+This is a **conditional constructive witness**: finite typed records, supplied decidable partial translations, lineage tracking and a finite comparison rule admit a terminating implementation. Finite termination alone does **not** establish that the result arrives within an operational deadline. Nor does the construction supply the semantic mappings or materiality rule, a universal matching algorithm, a complete Ω, an optimal decision, a probability for C/D or positive net value in a deployment. Semantic mapping, privacy, metadata capture, adversarial sources and processing may cost more than the warning is worth.
+
+Plan: preserve the authentic branch history and the corrected limitation. No current edit is justified by this internal correction; there is no fabricated replacement candidate. Impact Medium, risk Low, effort Low for interpreting this correction. The benefit is preventing a termination argument from becoming a deadline-feasibility claim. The material risk is overextending this limited judgement to unexamined receivers. Broader DDS integration effort remains unestimated.
+
+The original document’s section 7 reconciliation claims are disclosed source assertions, still untested against the actual interfaces, mapping cases and proofs. Main-source compatibility is not proof of whole reception. Read and exposure ledgers are frozen in the accompanying JSON.
+
+
+</details>

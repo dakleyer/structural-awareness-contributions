@@ -14413,6 +14413,54 @@
       "whole_corpus_complete": false,
       "plan_complete": false,
       "phase_B_open": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "First independently sealed scoped source judgement: 00M branch correction",
+      "source_commit": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026",
+      "reviewer_thread": "01a13c1e-5ce0-7711-824b-e372b6c3c5b2",
+      "sealed_utc": "2026-10-14T20:45:10.903294+00:00",
+      "phase": "A",
+      "record_id": "00M_BRANCH_FINITE_TERMINATION_CORRECTION",
+      "whole_source_cohort_complete": false,
+      "whole_corpus_complete": false,
+      "plan_complete": false,
+      "phase_B_open": false,
+      "disposition": "justified correction/supersession of the branch finite-termination wording; not documentary damage",
+      "current_change_warranted": false,
+      "new_candidates": 0,
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "sealed_markdown_sha256": "897da242f2621fb356a57abddd23e1881afa25028f7a8e3391d88876c15c29e9",
+      "sealed_json_sha256": "f68001b1d25cf4f72c916d5fea624877b7e6c7d4137f82a6f0e25d079ba11957",
+      "verified_sources": [
+        {
+          "commit": "4d201926caccc64886334bab615ab5ede5d5418c",
+          "path": "research/ecosystem-awareness/baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md",
+          "blob": "52a63de27c978c0417ce53026980224f23c30e52",
+          "sha256": "060497082ef30771d1c9a0a69ae39acdb64526a9a06d61c3eb83af172193bee9",
+          "passage_unique": true,
+          "main_ancestry": false
+        },
+        {
+          "commit": "ef177d3a928f7aef75ab8ff15e46e414ecb0c6e8",
+          "path": "research/ecosystem-awareness/baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md",
+          "blob": "5e147aa13d668dcbe1f4218c14d38f28e9880730",
+          "sha256": "905be73df3d2bed5c1be47bc983f2be7ea0858708541e17f0ca44774dd22c4f6",
+          "passage_unique": true,
+          "main_ancestry": false
+        },
+        {
+          "commit": "f5932a8f5f1b7c75edf18dc66882f0633c01d778",
+          "path": "research/ecosystem-awareness/baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md",
+          "blob": "b134301a7e6fdeb76b1eaefb5f83fc70701c3eb4",
+          "sha256": "9c63f966835f718cf832a995aee85a3e33ee66b689d1cf4b642c111024b8e193",
+          "passage_unique": true,
+          "main_ancestry": false
+        }
+      ],
+      "priority_effect": "No ranking/candidate change; Medium/Low/Low refers to retaining the already justified correction, not a proposed source edit."
     }
   ]
 }
