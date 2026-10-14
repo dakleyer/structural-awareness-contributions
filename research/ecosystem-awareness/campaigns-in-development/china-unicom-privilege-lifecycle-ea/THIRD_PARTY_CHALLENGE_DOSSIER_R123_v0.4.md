@@ -37,7 +37,7 @@ The decisive difference from an ordinary authorization demonstration is the **te
 
 Three outcomes are sought, **in order**:
 
-- **Problem evidence:** independent evidence whether a material context delta changes the legitimate authorization/applicability decision, including cases where it does **not**.
+- **Problem evidence:** the source-owned policy/exception is the **pre-agreed reference premise**. The measurable outcome is whether a competent frozen R2 detects, accesses or correctly qualifies a material contextual change given its permitted evidence, time and resources, including valid POLICY-ALLOW outcomes.
 - **Specification requirements:** a sourced, testable minimal contract for checking restoration conditions, re-deriving intent, qualifying current dependency evidence, transferring unresolved scope, deciding and recording the outcome.
 - **Optional architectural comparison:** determine whether particular EA/EHD capabilities are necessary, merely compatible, redundant, less costly or costlier than a fully competent conventional PDP. **No favorable EA finding is assumed.**
 
@@ -181,7 +181,8 @@ A source may know **the existence of a changed dependency** without knowing ever
 
 | Claim | What would support it | What would refute or narrow it |
 |---|---|---|
-| **H-CONTEXT:** Privilege applicability depends on the current operational relation, not on unchanged identity/policy alone. | Independent owner-authorized reference changes the admissibility of Q(t3) when the single relevant edge changes. | The agreed owner policy allows isolate(R) regardless of the edge, or the edge is not actually material; then the intended Challenge is not established. |
+| **P-CONTEXT (reference premise, not a discovered hypothesis):** whether S→R affects isolate(R) depends on the owner-approved current action/exception policy. | Policy owner fixes applicability, effects and exceptions *before* scoring. | POLICY-ALLOW or an immaterial edge is a legitimate outcome, not a missed detection. |
+| **H-OBS-R3 (primary empirical hypothesis):** under the **same fully frozen competent R2**, an accessible material source change or a lawful requery is detected/qualified in time, without false authority or unwarranted blanket hold. | Independent graph truth, natural source/telemetry footprint, time/coverage and source rights, followed by original predicate, current intent and native PDP/PEP records. | Proper native R2 success, unreachable hidden information or justified POLICY-ALLOW limits any alleged differential and is reported without inventing EA necessity. |
 | **H-CHECKPOINT:** Source-owned declaration + validation of the restore condition followed by new intent derivation is a testable reactivation checkpoint. | Pinned condition, actual reevaluation and decision traces separate T1 reference and T3 current context. | Only a cached PASS, or no independent way to distinguish predicate checking from re-derived intent. |
 | **H-EVIDENCE:** Partial/changed source coverage must stay visible to the receiving decision. | The receiver preserves provenance, scope, freshness, material unknown and the responsible source for re-entry. | Claims of complete source coverage from partial evidence or repeated dependent sources; conversely unjustified global stops. |
 | **H-RESP:** An authorized, decision-scoped response remains possible without universal suspension. | R-scoped reauthorization or an explicitly separately granted narrow permission, with legitimate unaffected operations continuing. | Unauthorised fallback, fabricated observation privilege, endless review or loss of deadline despite an available source-approved minimum closure. |
@@ -266,7 +267,7 @@ R2 may use *all* legitimately authorized source checks and mechanisms that the p
 - a finite targeted query, independent reviewer or human oversight path where authorized;
 - alternative/observation grant checks and PEP enforcement receipts.
 
-**R2 prefreeze demonstration:** show that its quality plan **works** on legitimate restoration, revoked-authority, stale-cache, directly source-visible critical-dependency, unrelated-change and narrow-grant cases. If it succeeds without an EA overlay, this is a scientific success for R2, not an obstacle to the work.
+**R2 prefreeze demonstration — known-family calibration:** show the defended plan works for valid restoration, revoked authority, stale cache, directly visible critical dependencies, unrelated changes and separately valid narrow grants. Because these cases are used in the **repair/calibration set**, R3-A (visible dependency), R3-D (stale source) and R3-E (irrelevant positive) **cannot be claimed as novel out-of-family R3 discoveries**. Later disjoint case instances from these families can be evaluated as *held-out instances of known mechanisms* if preregistered and unexposed to repair. Truly new mechanism/visibility/source-topology tests require a **separate precommitted family and independent eligibility record**. See [R3 admission audit](R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md).
 
 ### 7.3 Freeze discipline F-R2
 
