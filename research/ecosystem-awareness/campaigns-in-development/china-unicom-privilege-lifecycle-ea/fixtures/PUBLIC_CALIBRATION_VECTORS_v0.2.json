@@ -166,12 +166,13 @@
         "scope": "ISOLATE_R",
         "policy_ref": "P_v0",
         "service_S_criticality": "CRITICAL",
-        "dependency_S_R": "BLOCKING",
+        "dependency_S_R": "EDGE_ADDED",
         "freshness": "FRESH",
         "source_root": "domain-B/scoped-signal",
         "available_evidence_scope": "R/S",
         "handoff_kind": "versioned material edge signal",
-        "time_relation": "AFTER_SUSPENSION"
+        "time_relation": "AFTER_SUSPENSION",
+        "native_event": "Domain B reports new dependency edge S->R; S criticality was already established in scope"
       },
       "provisional_oracle": {
         "full_restore_eligible": false,
@@ -180,7 +181,7 @@
           "HOLD_TARGETED_AND_REAUTHORIZE",
           "DENY"
         ],
-        "rationale": "Only edge S->R flips; S remains critical; both arms may query source signal on equal terms"
+        "rationale": "Only edge S->R flips; S already critical; participants must compose current edge evidence with current service criticality under source-owned policy. B2 and B3 have equal rights to the native edge event; no native verdict precomputes the authorization."
       },
       "observed_run": null
     },
@@ -453,7 +454,7 @@
           "critical_service_S": true,
           "edge_S_R": false,
           "other_edge_X_Y": false,
-          "restricted_observation_grant": "ABSENT",
+          "restricted_observation_grant": "VALID",
           "human_resume_ack": false,
           "policy_exception": "NONE"
         },
@@ -489,7 +490,7 @@
           "RESTORE_RESTRICTED_OBSERVE_ONLY",
           "HOLD_TARGETED_AND_REAUTHORIZE"
         ],
-        "rationale": "Observation path requires independent existing authority; full isolate not permitted"
+        "rationale": "Separate valid observation right already existed at T0 and remains unchanged; new blocking edge defeats full isolation, observation remains independently authorized."
       },
       "observed_run": null
     },
@@ -637,7 +638,7 @@
           "edge_S_R": true,
           "other_edge_X_Y": false,
           "restricted_observation_grant": "ABSENT",
-          "human_resume_ack": true,
+          "human_resume_ack": false,
           "policy_exception": "NONE"
         }
       },
@@ -662,9 +663,14 @@
           "HOLD_TARGETED_AND_REAUTHORIZE",
           "DENY"
         ],
-        "rationale": "Human task resumption alone cannot bypass current privilege re-evaluation"
+        "rationale": "At T2 only edge S->R changes. A T3 human task-resume signal remains separate from source-owned privilege reauthorization."
       },
-      "observed_run": null
+      "observed_run": null,
+      "post_activation_input_event": {
+        "time": "T3",
+        "kind": "HUMAN_TASK_RESUME_SIGNAL",
+        "meaning": "Human ack of task resumption, not grant renewal or source PDP authorization"
+      }
     }
   ]
 }
