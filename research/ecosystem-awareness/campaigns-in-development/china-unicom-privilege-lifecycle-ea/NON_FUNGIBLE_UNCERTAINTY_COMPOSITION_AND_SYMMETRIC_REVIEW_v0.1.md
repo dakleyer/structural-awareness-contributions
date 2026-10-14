@@ -1,5 +1,7 @@
 # CU-HIB-01 — Non-fungible composition of uncertainty; bounded complementarity, self-blind spots and symmetrical review
 
+> **Provenance of review:** **AI-assisted adversarial, author-side analysis**. This is neither independent peer review nor source-owner validation; the historical filename and earlier “external/third-party” labels are retained only for traceability.
+
 **Edition:** 14 October 2026 · **Research interpretation:** explicit clarification from the programme owner following the review of Mode X and the recursive R1→R2→R3-U Challenge.  
 **Evidence grade:** *candidate architecture and study protocol*, **not** an executed implementation, theorem of universal dominance, cross-domain proof, China Unicom policy statement, completed TEVV or FG-TIDA normative position.  
 **Read with:** [R1/R2/R3 recurrence governing principle](R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md) · [Mode-X candidate run card](R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md) · [full current source dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md).
