@@ -38,6 +38,8 @@ REQUIRED = (
     "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
     "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
     "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
+    "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
+    "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md",
 )
 checks = []
 errors = []
@@ -267,6 +269,43 @@ check("v041_all_scientific_gate_statuses_still_pending",
       r3corr.get("native_R2_actual_freeze") is False and
       r3corr.get("heldout_R3_scored_runs") == 0 and
       campaign.get("status",{}).get("scientific_stage_a_finding") == "NOT_ESTABLISHED")
+
+
+# v0.4.2 governing correction: recurring c1 repaired/frozen then new uncovered c2.
+gov = v04.get("v042_recurrence_governance", {})
+governing_text = (PKG / "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md").read_text(encoding="utf-8")
+mode_x_text = (PKG / "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md").read_text(encoding="utf-8")
+check("v042_recurrence_principle_is_current",
+      campaign.get("audit_revision") == "v0.4.2_OPEN_CONTEXT_RECURRING_R3_GOVERNS" and
+      campaign.get("records", {}).get("governing_recurrence_principle") == "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md" and
+      "GOVERNING SCIENTIFIC PRINCIPLE" in v04_dossier)
+check("v042_R1_c1_then_full_R2_freeze_then_distinct_R3U",
+      gov.get("R1", {}).get("type") == "COMPETENT_NATIVE_REFERENCE_UNCOVERED_c1" and
+      gov.get("R2", {}).get("type") == "COMPLETE_NATIVE_REPAIR_OF_c1_AND_FULL_FREEZE" and
+      gov.get("R3", {}).get("id") == "R3-U" and
+      gov.get("R3", {}).get("not_the_repaired_direct_S_to_R_example") is True)
+check("v042_adversarial_mode_X_allowed_but_frequency_not_established",
+      gov.get("recurrence", {}).get("adaptive_adversarial_search_allowed") is True and
+      gov.get("recurrence", {}).get("report_all_probes_and_search_effort") is True and
+      gov.get("recurrence", {}).get("general_class_universal_theorem") == "NOT_ESTABLISHED" and
+      "EXISTENTIAL" in gov.get("recurrence", {}).get("proof_ceiling", ""))
+check("v042_no_biased_native_guard_disabling",
+      gov.get("R2", {}).get("disable_native_defenses_in_R3") is False and
+      gov.get("evaluation", {}).get("R2_generic_requalification_equivalence", "").startswith("FULL_CREDIT"))
+check("v042_EA_generic_fixed_ex_ante_not_case_specific",
+      gov.get("evaluation", {}).get("EA_specific_c2_patch_after_freeze") == "DISALLOWED" and
+      "no c2-specific dependency rule" in mode_x_text)
+check("v042_no_magic_information_or_universal_EA_wins",
+      gov.get("evaluation", {}).get("strong_no_access_condition") == "NO_HIDDEN_TRUTH_INFERENCE_BY_ANY_ARM" and
+      gov.get("recurrence", {}).get("infinite_EA_win_rate") == "NOT_DEFINED_OR_ESTABLISHED")
+check("v042_wp0_is_external_instantiation_not_theoretical_gate",
+      "source-neutral" in governing_text.lower() and
+      gov.get("wp0_role", "").startswith("REQUIRED_FOR_REAL_SOURCE_OWNER_CASE"))
+check("v042_run_card_and_experiment_still_not_run",
+      gov.get("R2", {}).get("execution_status") == "NOT_FROZEN" and
+      gov.get("R3", {}).get("execution_status") == "NOT_ADMITTED" and
+      gov.get("not_executed") is True and
+      campaign.get("status", {}).get("scientific_stage_a_finding") == "NOT_ESTABLISHED")
 
 missing_links = []
 relative_links_checked = 0
