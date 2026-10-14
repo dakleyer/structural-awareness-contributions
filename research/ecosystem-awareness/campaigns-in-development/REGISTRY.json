@@ -93,7 +93,8 @@
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
         "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md",
-        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md"
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
+        "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CU_HIBERNATION_CONTEXT_SUFFICIENCY_R123_v0.1.md"
       ],
       "external_theme": "https://github.com/FG-TIDA/themes/issues/23",
       "external_proposers": "Ying Wang and Ye Tao / China Unicom",
@@ -137,14 +138,16 @@
       "audit_revision": "v0.4.2_OPEN_CONTEXT_RECURRENCE",
       "current_scientific_correction": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
       "priority_owner_brief": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
-      "current_next_action": "YING_THEME23_CLARIFY_B_AGENT_VS_PIP_AND_BENIGN_VS_SECURITY_SUSPENSION; R3_ONLY_IF_POLICY_IN_SCOPE; NO_EXTERNAL_COMMENT_POSTED",
+      "current_next_action": "DISCUSS_GENERAL_YING_TWO_STEP_INCOMPLETE_CONTEXT_VALIDATION_AND_SOURCE_OWNED_REENTRY; B_AGENT_SLEEP_CONDITIONAL_SECONDARY",
       "R3_novel_out_of_sample": "NOT_ADMITTED_OR_EXECUTED",
       "governing_principle": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
       "mode_X_first_run_card": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md",
       "infinite_superiority_or_universal_theorem": "NOT_ESTABLISHED",
-      "current_source_facing_entry": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
+      "current_source_facing_entry": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CU_HIBERNATION_CONTEXT_SUFFICIENCY_R123_v0.1.md",
       "case_priority": "SOURCE_FACING_PRIMARY_B_AGENT_EVIDENCE_PRIVILEGE_SUSPENSION_CONDITIONAL; STALE_SOURCE_IS_R2_CONTROL; INDIRECT_PATH_AND_THIRD_DOMAIN_OBLIGATION_ARE_INTERNAL_ALTERNATIVES",
-      "review_provenance": "AI_ASSISTED_ADVERSARIAL_NOT_INDEPENDENT"
+      "review_provenance": "AI_ASSISTED_ADVERSARIAL_NOT_INDEPENDENT",
+      "technical_companion_second_sleeping_source": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
+      "source_discussion_question": "When locally verifiable restoration conditions pass but an owner-required current contextual proposition is NOT_ESTABLISHED, which checkpoint/owner records and revisits that incomplete basis?"
     }
   ],
   "last_updated": "2026-10-14"
