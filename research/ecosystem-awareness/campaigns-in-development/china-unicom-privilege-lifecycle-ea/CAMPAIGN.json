@@ -403,6 +403,27 @@
       "native_PDP_result"
     ],
     "R3_candidates_role": "FOCUSED_B_SUSPENDED_EVIDENCE_PRODUCER_CONDITIONAL; THIRD_DOMAIN_CONTRACT_IN_RUN_CARD_IS_HISTORICAL_ALTERNATIVE; SIMPLE_GRAPH_JOIN_NOT_A_DIFFERENTIAL",
-    "review_provenance": "AI_ASSISTED_ADVERSARIAL_NOT_INDEPENDENT_PEER_REVIEW"
+    "review_provenance": "AI_ASSISTED_ADVERSARIAL_AUTHOR_SIDE_NOT_INDEPENDENT",
+    "R3_source_scope_fallback": {
+      "if_B_in_scope_and_state_confirmed": "CONDITIONAL_LIFECYCLE_COUPLED_R3_CANDIDATE; NOT_PROVEN_NATIVE_FAILURE",
+      "if_B_infrastructure_or_simple_timeout": "KNOWN_R2_EVIDENCE_AVAILABILITY_CONTROL; NOT_A_NEW_R3",
+      "if_new_policy_material_multi_source_coverage_change": "SEPARATE_R3_CANDIDATE_ONLY_AFTER_INDEPENDENT_ADMISSION_AND_COMPLETE_R2_FREEZE",
+      "if_no_new_admissible_change": "R3_NOT_ADMITTED; RETAIN_HIBERNATION_SOURCE_QUESTION; INTERNAL_SOURCE_NEUTRAL_SYNTHETIC_DDS_ONLY",
+      "no_automatic_shift_to_modeY": true,
+      "institutionally_authorized_R3": false
+    },
+    "composition_pathways": {
+      "same_minimum_proposition": "P",
+      "roles_are_source_function_relative": true,
+      "differentiated_routes": {
+        "B": "CHARACTERIZED_LAWFUL_QUERY_IF_SOURCE_AUTHORITY_PERMITS",
+        "C": "BOUNDED_OWNER_AUTHORIZED_EXPLORATION_IF_PLAUSIBLE",
+        "D": "RETAIN_UNEVALUABLE_RESIDUAL_AND_OWNER_ESCALATION_IF_POLICY_PERMITS"
+      },
+      "no_mandatory_scalar": true,
+      "no_replacement_of_B_source_authority": true,
+      "native_equivalence_receives_full_credit": true
+    },
+    "ci_claim": "AUTHOR_SIDE_DOCUMENTARY_STATIC_CHECKS_ONLY_NOT_SCIENTIFIC_OR_TECHNOLOGY_CONFORMANCE"
   }
 }
