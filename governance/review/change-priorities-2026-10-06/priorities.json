@@ -11404,6 +11404,25 @@
       ],
       "existing_91_92_reopened": true,
       "no_canonical_application": true
+    },
+    {
+      "date": "2026-10-14",
+      "title": "HumanTime receiver evidence in damage-control preparation",
+      "source_commit": "81cbfd70b90b32c419cb120ebe800a2f8c7dd34b",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026",
+      "proposal_assessments": [
+        {
+          "id": 93,
+          "state": "Pending consumer reconciliation",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Medio",
+          "new_evidence": "Current 01K-A01 5.2–5.4 already retains backlog/service-time completion and a necessary load bound against AvailableServiceTime_j(W); not sufficient for scheduling in general. Compact wording must reconcile this contract; missing line is not missing implementation proof."
+        }
+      ],
+      "canonical_applied": false
     }
   ],
   "plan_order": {
@@ -13147,6 +13166,117 @@
       "canonical_applied": false,
       "external_sent": false,
       "full_case_package_integration": "Not performed; unique source content still needs a manifest and owner decision"
+    }
+  ],
+  "damage_control_epochs": [
+    {
+      "date": "2026-10-14",
+      "title": "Damage control and restoration plan",
+      "source_commit": "81cbfd70b90b32c419cb120ebe800a2f8c7dd34b",
+      "historical_comparison_cut": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "case_commit": "724d69f9cf69aaadd2f84f50934db9cf77fcc1f1",
+      "plan_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026",
+      "state": "Published plan; source wave preparation required",
+      "canonical_applied": false,
+      "new_active_vnext": 0,
+      "packages": [
+        {
+          "id": "DC-00",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-01",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-02",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-03",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-04",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-05",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-06",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-07",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-08",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-09",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-10",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-11",
+          "state": "Preparation/verification scope; not applied restoration"
+        },
+        {
+          "id": "DC-12",
+          "state": "Preparation/verification scope; not applied restoration"
+        }
+      ],
+      "coverage": {
+        "current_plan_predecessor_files": 2346,
+        "fork_historical_blobs": 162,
+        "fork_paths": 91,
+        "retired_line_units": 8749,
+        "source_paths": 620,
+        "deletion_events_without_prior_whole_blob_receiver": 64
+      },
+      "proposal_assessments": [
+        {
+          "id": 93,
+          "state": "Pending consumer reconciliation",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Medio",
+          "new_evidence": "Current 01K-A01 5.2–5.4 already retains backlog/service-time completion and a necessary load bound against AvailableServiceTime_j(W); not sufficient for scheduling in general. Compact wording must reconcile this contract; missing line is not missing implementation proof."
+        },
+        {
+          "id": 92,
+          "state": "Reopened — case restoration and integration required",
+          "decision_ready": false,
+          "authorized_to_apply": false
+        },
+        {
+          "id": 91,
+          "state": "Reopened — official owner entry last after92 and complete case preservation",
+          "decision_ready": false,
+          "authorized_to_apply": false
+        }
+      ],
+      "superseded_closure_ids": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "literal_pairs_preserved": true,
+      "independent_review_performed": false
     }
   ]
 }

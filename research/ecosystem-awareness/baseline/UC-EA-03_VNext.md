@@ -184,3 +184,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 
 El frozen conserva exactamente su blob anterior. La revisión aprobada está incorporada en un sucesor de trabajo enlazado por baseline; los estudios registrados siguen usando su edición congelada. La incorporación textual no afirma resultados nuevos.
 
+
+
+## Damage-control consumer reconciliation — 14 October 2026
+
+The [plan DC-06](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026) adds receiving evidence to CP-01/change93. Current 01K-A01 §§5.2–5.4 already include backlog/service time, response-window state and `sum_i x_ij * ServiceDemand_ij(q) <= AvailableServiceTime_j(W)`, explicitly necessary but not sufficient for all scheduling constraints. The missing compact01K line does not establish a missing component capability. Restore explicit source meaning only after comparing units, concurrent commitments, release/deadline constraints, scheduling proof class, UNKNOWN and receiver qualification.
+
+The complete current component passage is published in DDS VNext; the original before/proposed change93 remains unchanged in01K VNext. Candidate93 stays High impact / Medium risk / Medium effort, not ready or applied. Compare component schema/vectors/verification, UC-EA-03 freeze and working successor, EHD/general-interface and current Flores mapping before choosing a literal restoration, qualified cross-reference or justified no-edit disposition. No schema, scheduling engine, result or frozen source changes by this review.
