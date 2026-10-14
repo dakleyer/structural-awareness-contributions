@@ -1,5 +1,9 @@
 # CU-HIB-01 — primary trial protocol (draft v0.1)
 
+
+> **HISTORICAL PROTOCOL / SUPERSEDED EXPERIMENTAL FRAMING:** The forward-looking protocol is now the [self-contained DDS Stage A / R1→R2→R3 Challenge v0.3](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md) and [machine register](R123_STAGE_REGISTER_v0.3.json). The first version did not include [Ying's agreement to a declared restore-condition then intent derivation](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429). The document below is preserved for version traceability, not a registered run.
+
+
 **Campaign:** DDS-A-CU-PLM-EA-01. **Mode:** DDS Stage A — prospective Simplified Challenge.  
 **State:** NOT_ADMITTED · NOT_PREREGISTERED · NOT_FROZEN · NOT_EXECUTED · NOT_ADJUDICATED.  
 **Owns:** This dossier's initial hibernation→activation test proposal. The real Theme #23 owners have not selected or approved its cases.
