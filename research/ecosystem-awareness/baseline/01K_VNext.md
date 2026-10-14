@@ -177,3 +177,61 @@ La valoración actual distingue una mejora documental de una modificación conce
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
 **Recepción del plan de identidad01K-A01:** el contrato del componente tiene ahora [su VNext existente](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md); se revisó su par, ya incorporado. Este expediente01K sigue siendo dueño de investigación/medición y sus fuentes, mientras A01 define implementación. La distinción no reabre 64/67 ni acredita un HID empírico; riesgos de transferir autoridad o evidencia se valoranMedio y requieren fuentes/receptores en una revisión futura.
+
+
+## Content preservation CP-01 — restore the explicit human-time condition
+
+**14 October 2026 · Codex · change93.** The content review compares the former 01K edition with the rewritten current source, then checks the component consumer. Five metric expressions still exist in current §7; their presentation changed. Runtime capacity, HID architecture use and the bounded signal/ACC interface remain distinct. The specific issue here is the explicit required-human-work condition in §15.
+
+**Historical source gate — complete previous passage**
+
+```markdown
+~~~text
+HumanEscalationViable_i(τ,W)
+=
+qualified route exists
+AND applicable human authority exists
+AND qualified reviewer/case fit exists
+AND required HumanTime fits W
+AND expected decision latency fits W
+~~~
+```
+
+The current compact gate omits `AND required HumanTime fits W` while retaining expected latency. The old time-demand condition and the current information-sufficiency condition can coexist. CP-01 restores the former explicit condition while preserving every current condition. 01K-A01's runtime acceptance/scheduling interpretation and UC-EA-03 capacity semantics must be read with it; this review does not infer an implementation failure from the text change.
+
+**Source:** [research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) · blob `e52ed065c5d217da73634c7eb28d26c5d990abae · §15 Gate A, runtime viability. This Human Escalation Gate A is not DDS Stage A.
+
+### Text before — current, literal and complete
+
+```markdown
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+~~~
+```
+
+### Text after — proposed, complete
+
+```markdown
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required HumanTime fits W
+AND expected latency fits W
+~~~
+```
+
+**Expected impact: High. Risk: Medium. Effort: Medium. Priority: First, content-preservation wave.** The benefit is an explicit finite human-work admission condition, so availability/latency alone cannot silently stand in for required work fitting the window. Risk concerns the meaning and units of HumanTime, committed work and scheduling assumptions in component/oversight consumers; no interface field or runtime code is changed by this text proposal. Preparation includes reading those consumers and checking that one source clarification preserves their capacity/timing meanings.
+
+**Dependencies:** 01K-A01 component/runtime acceptance; UC-EA-03 capacity source; Human Escalation and EHD receiving use. **Acceptance:** every current condition remains and exactly the former required-HumanTime condition is added in the registered location; the chosen consumers document the same bounded-time meaning. Current old passage verified once; the proposal is not already in the source.
+
+**Iván's instruction:** retain every part of the information, use existing VNext, show old and proposed text and apply only after the GO for the named wave. **Decision/state:** published proposal; not applied; consumer reconciliation required before incorporation. The [whole-corpus literal review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#content-within-surviving-files--literal-preservation-review-14-october-2026) provides the supporting record and distinguishes exact preservation from rewriting, review custody and Git-only history.

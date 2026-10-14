@@ -4716,6 +4716,42 @@
       "quality": "Current source and all old passages identified; inverse comparison exact",
       "acceptance": "Current route within Contributions; submitted snapshot preserved; original source contracts and all destinations retained",
       "joint_changes": []
+    },
+    {
+      "id": 93,
+      "title": "Restore explicit finite HumanTime condition in 01K runtime gate",
+      "source": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "source_sha": "e52ed065c5d217da73634c7eb28d26c5d990abae",
+      "source_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "pairs": [
+        {
+          "before": "~~~text\nHumanEscalationViable_i(tau,W)\n=\nqualified route exists\nAND applicable authority exists\nAND qualified reviewer/case fit exists\nAND information is sufficient for the requested decision\nAND expected latency fits W\n~~~",
+          "after": "~~~text\nHumanEscalationViable_i(tau,W)\n=\nqualified route exists\nAND applicable authority exists\nAND qualified reviewer/case fit exists\nAND information is sufficient for the requested decision\nAND required HumanTime fits W\nAND expected latency fits W\n~~~",
+          "location": "15, Gate A runtime viability"
+        }
+      ],
+      "vnext": "research/ecosystem-awareness/baseline/01K_VNext.md",
+      "heading": "Content preservation CP-01 — restore the explicit human-time condition",
+      "state": "Pending content-restoration review",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Content-preservation wave",
+      "benefit": "The prior required HumanTime-fit condition is absent from the rewritten compact runtime gate. Availability, information sufficiency and expected latency do not explicitly retain that separate required-work condition. Restore its explicit source wording, with component/consumer review before adoption.",
+      "riskReason": "HumanTime units, committed-work and runtime scheduling/oversight consumers must remain coherent; no automated source/schema adoption.",
+      "costReason": "Review component and oversight consumers; validate the one literal insertion and its bounded-time meaning.",
+      "dependencies": "01K-A01; UC-EA-03; Human Escalation/EHD consumers",
+      "gate": "Ivan approves named current passage after consumer reconciliation; no bulk rollback.",
+      "date": "2026-10-14",
+      "preparation": "Current old passage verified once; historical condition identified; consumer reconciliation required",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "quality": "Complete literal current-before/proposed-after, historical predecessor, impact/risk/cost and consumers",
+      "acceptance": "All current gate conditions retained; exactly the required HumanTime line restored; bounded-time units/consumer interpretation reconciled",
+      "joint_changes": "Owning 01K and 01K-A01 review records; no automatic schema/code change"
     }
   ],
   "audit_coverage": [
@@ -11348,6 +11384,26 @@
       },
       "literal_pairs_preserved": true,
       "canonical_applied": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Literal source-content review, surviving files included",
+      "source_commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#content-within-surviving-files--literal-preservation-review-14-october-2026",
+      "proposal_assessments": [
+        {
+          "id": 93,
+          "state": "Pending content-restoration review",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Medio",
+          "priority": "Primera"
+        }
+      ],
+      "existing_91_92_reopened": true,
+      "no_canonical_application": true
     }
   ],
   "plan_order": {
