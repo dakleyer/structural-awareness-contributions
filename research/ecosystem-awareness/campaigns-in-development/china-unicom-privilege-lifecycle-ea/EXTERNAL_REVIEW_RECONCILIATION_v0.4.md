@@ -1,5 +1,7 @@
 # CU-HIB-01 — External review reconciliation v0.4
 
+> **Provenance of review:** **AI-assisted adversarial, author-side analysis**. This is neither independent peer review nor source-owner validation; the historical filename and earlier “external/third-party” labels are retained only for traceability.
+
 **Date:** 14 October 2026. **Owner:** local DDS research programme. **Purpose:** resolve the supplied scientific/forensic objections to the [original v0.3 dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md). **Status:** author-side documented scientific design; no independent approval, preregistration, source consent or experiment. The [v0.4 third-party successor](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md) incorporates these decisions; the [machine design](R123_V04_FACTORIAL_PROTOCOL.json) registers the intended factors.
 
 ## 1. Verified source findings — not all review suggestions were correct
