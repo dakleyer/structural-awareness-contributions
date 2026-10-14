@@ -88,3 +88,18 @@ Those checks evaluate **JSON/documentary integrity**, not a real PDP, blinded ev
 | Stage B / Stage C | **NOT_STARTED** |
 
 The legitimate next decisions are internal design signoff, an optional focused discussion with Ying and, only if source-owner semantics and independent evidence are available, a separate blinded Stage A preregistration. This self-audit does not approve its own scientific claims.
+
+
+## 7. Post-correction author-side QA, 14 October 2026
+
+After the first v0.2 dossier publication, the original synthetic casebook was challenged again for *hidden precomputation* and secondary confounding. Three additive corrections are recorded in Git history:
+
+1. **CU-C2:** Participant data now carries the **native S→R edge-added observation** plus already established service criticality; it does not hand the PDP an already-calculated authorization verdict.
+2. **CU-C7:** The separately valid observation permission now **pre-exists** at T0 and remains unchanged through the critical-edge modification; there is no concurrent unexplained new grant.
+3. **CU-C10:** Human acknowledgment of task resumption is an **independent T3 input event**, not a second T2 world modification or a new privilege grant.
+
+The static verifier was extended to check these three conditions. Author-side tool inspection (not execution of the Python helper) found **27/27 broader structural, registry, change-scope and relative-link checks passing** in the earlier audit sweep, then **9/9 targeted post-correction checks passing**. The earlier sweep checked 129 current relative documentation links at that point; the v0.2 navigation updates refer to existing tracked files. Changed PR scope was 16 files (14 dossier files and parent INDEX/REGISTRY), with Flores' campaign record untouched.
+
+**Limit:** The standalone Python verifier is **provided but was not executed in this tooling session**; the above checks were performed using the GitHub-connected author-side structural inspection. None of the validations measured a PDP, blind oracle, independent reviewer or security effect. Final CI/integration approval remains separate from these documentary checks.
+
+**Final disposition unchanged:** ready for an independent local design review, not signed off; external-source policy, Stage A preregistration, actual runs, Stage B and Stage C remain pending.
