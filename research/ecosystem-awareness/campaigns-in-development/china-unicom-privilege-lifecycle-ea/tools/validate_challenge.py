@@ -84,6 +84,17 @@ if all(k in by for k in ("CU-C7", "CU-C8")):
     check("no_restricted_permission_without_grant", by["CU-C8"]["reference_world"]["T2"]["restricted_observation_grant"] == "ABSENT" and "RESTORE_RESTRICTED_OBSERVE_ONLY" not in by["CU-C8"]["provisional_oracle"]["allowable_dispositions"])
 check("same_root_not_independent", all(z.get("root") == "X" for z in by.get("CU-C9", {}).get("participant_packet", {}).get("signals", [])) and len(by.get("CU-C9", {}).get("participant_packet", {}).get("signals", [])) == 3)
 
+check("primary_packet_is_native_edge_evidence_not_precomputed_policy",
+      by["CU-C2"]["participant_packet"]["dependency_S_R"] == "EDGE_ADDED"
+      and by["CU-C2"]["participant_packet"]["service_S_criticality"] == "CRITICAL")
+check("observation_grant_preexisted_edge_change",
+      by["CU-C7"]["reference_world"]["T0"]["restricted_observation_grant"] == "VALID"
+      and by["CU-C7"]["reference_world"]["T2"]["restricted_observation_grant"] == "VALID")
+check("human_ack_is_separate_postactivation_event",
+      by["CU-C10"]["reference_world"]["T0"]["human_resume_ack"] is False
+      and by["CU-C10"]["reference_world"]["T2"]["human_resume_ack"] is False
+      and by["CU-C10"]["post_activation_input_event"]["time"] == "T3")
+
 missing_links = []
 relative_links_checked = 0
 for rel in REQUIRED:
