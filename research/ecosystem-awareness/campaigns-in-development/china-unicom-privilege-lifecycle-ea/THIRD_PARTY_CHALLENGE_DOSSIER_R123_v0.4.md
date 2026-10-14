@@ -520,9 +520,9 @@ This section makes the campaign deliverable **without claiming those deliverable
 These gates refine, rather than override, existing D0 design, D1 source-owned semantics, D2 independent freeze, D3 adjudicated results and separate DDS Stage B/C. A checklist marked designed does **not** constitute passed or accepted.
 
 
-## 12. Actionable joint-discussion agenda (not sent)
+## 12. WP0 source-owner decisions before further experiment design (draft; not sent)
 
-A future comment to [Ying and Ye Tao in Theme #23](https://github.com/FG-TIDA/themes/issues/23) should not ask whether “EA is useful” in the abstract; Ying has already welcomed exploring the case. A precise discussion would ask:
+**Immediate working brief:** [four bounded WP0 source-owner questions](WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md), including a proposed **unposted** comment. Focus first on (i) policy consequences and legitimate exceptions, (ii) a source-verifiable restore predicate and fresh intent, (iii) a natural graph-event/telemetry observation footprint, and (iv) authorized fallback and review roles. Ying has invited technical exploration, **not agreed to a joint test**. The longer historical question set follows:
 
 **A. Restoration reference:** For **CU-HIB-01**, would the predeclared restore condition contain an explicit *dependency/critical-service applicability relation* (or a versioned reference to it), or should the second intent derivation cover previously unenumerated material dependencies? How is a material mismatch recorded before current privilege enforcement?
 
