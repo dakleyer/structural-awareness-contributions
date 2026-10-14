@@ -1,6 +1,10 @@
 # China Unicom / FG-TIDA Theme #23 — privilege restoration under changing ecosystem context
 
 
+> **CURRENT THIRD-PARTY CHALLENGE — v0.3 / R1→R2→R3 (14 October 2026):** [Open the complete self-contained third-party dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md), [R1/R2/R3 machine register](R123_STAGE_REGISTER_v0.3.json), and [new adversarial review](THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md). The research objective is **the independently testable significance of a contextual change and its requirements**, **not to prove EA superiority**. **Source correction:** [Ying's 09:49 UTC comment](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429) **agrees to predeclared restoration conditions and activation order: validate the condition, then derive current intent**. This supersedes the older local “source acceptance pending” reading. D0 design review pending; D1 concrete policy, D2 preregistration, D3 results remain unavailable. All original v0.1/v0.2 text below is preserved as versioned provenance.
+
+
+
 > **CURRENT AUDITED STUDY CONTRACT — v0.2 (14 October 2026).** Read [CU-HIB-01 Challenge Contract v0.2](CHALLENGE_CONTRACT_v0.2.md), [22-clauses traceability](REQUIREMENTS_TRACEABILITY_v0.2.md), [independent approval/preregistration gates](APPROVAL_AND_PREREGISTRATION_v0.2.md), [self-audit and outstanding findings](AUDIT_REPORT_2026-10-14.md), and [12 public synthetic calibration vectors](fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json) **before** using the historical v0.1 campaign narrative below. The v0.1 trial is a preserved predecessor, **not** the current protocol. Design is READY_FOR_LOCAL_REVIEW, **not approved**; D1 source semantic review, D2 prospective freeze and D3 execution are pending. No external China Unicom/ITU endorsement or DDS Stage A/B/C result is claimed.
 
 **DDS campaign:** DDS-A-CU-PLM-EA-01  
