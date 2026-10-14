@@ -312,3 +312,23 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 
 Fuente primaria revalidada: Bertschinger et al., arXiv1311.2852, v1(12noviembre2013), v2(16enero2014), Entropy16(2014),2161–2183. El resumen declara medidas alternativas y comparación de sus supuestos. La cita se incorpora como orientación, no como resultado empírico EA.
 
+
+
+## Third independent source review — first current-text reading, 14 October 2026
+
+The following is the isolated reviewer's own source-first account from its first execution boundary, preserved before continuation. Previous audit bodies were not opened. This is a **partial documentary reading**, not completion of this logical document, its historical/receiver integrations or the entire restoration/organization plan. The full first report is held unchanged under custody, SHA-256 `639141a6f7f283ec024fc59ce3847184dcb0a78045d776434cb4394e16cf3d4e`. Continuation uses the same isolated session and its own records; the coordinator supplies no previous findings.
+
+### Source reading reported by the isolated reviewer
+
+00N v0.7 connectsthose meanings with functional plausibility. It retains competent conventional comparators, matched resources, time and authority, and the possibility that an existing comparator already carries adequate qualification. Its human-group precedents include improved information processing without improved final problem-solving performance. Locating a capability, making an effective evaluation route available and actually closing a gap are separate achievements. Shared assessment is not presumed cheaper: discovery, adaptation, privacy, coordination, waiting and renewed qualification remain in total burden.
+
+The readiness example keeps confirmed version mismatch distinct from missing/stale or incomparable qualifiers. Its same-version premise is explicit; cross-version compatibility would change the question. Mapping C/D to a supplied-basis gap does not establish a dangerous hidden state or ecosystem-wide ignorance. A serial deadline inequality is illustrative and does not replace actual concurrent elapsed-time bounds or current applicability at use. No architecture execution, bug, empirical improvement or implementation outcome is asserted by this review.
+
+The requirements mapping referred to here was read in its actual current source; its paired first account is in [Requirements VNext](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#third-independent-source-review--first-current-text-reading-14-october-2026). The mathematical-source account is in [00M VNext](./00M_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026). These matching textual routes have not established runtime compliance.
+
+
+### Restoration and organization at this evidence level
+
+No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
+
+The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.

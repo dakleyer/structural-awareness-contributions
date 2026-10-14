@@ -2252,3 +2252,20 @@ Actual status: the memory-free reviewer is running its initial source work. This
 The [00M VNext first source judgement](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026) now contains the isolated reviewer's original assessment, complete old/successor evidence and its own limited plan. The three internal branch versions correct a timing implication: a finite terminating construction does not establish a useful operational deadline. The judgement is **preserve the correction, no current replacement proposed**. The coordinator authenticated the source blobs, unique quoted passages and branch ancestry; it did not supply prior findings to the reviewer.
 
 This is the first scoped result, not a completed document/cohort or global restoration plan. The reviewer continues its own current-source, internal-history and receiver queue on fixed cut `36b6d6e0b485170d68445fcb1bf5540d540355b7`. All-source first judgements must be sealed before it compares previous audit bodies. Original documents, programs, results and binaries remain unchanged.
+
+
+## Third independent review — first execution source account, 14 October 2026
+
+The isolated reviewer has preserved its first partial report and continues the same Phase A source review. It records six current paths with complete textual coverage (five direct, one comparative), seventeen distinct authenticated payload readings/comparisons and one scoped branch judgement. No logical-source cohort or whole restoration/organization plan is complete; 2,340 current paths still had no substantive reading at that boundary. Inventory and material reading remain separate.
+
+The actual source accounts are now within the existing [00M VNext](../../research/ecosystem-awareness/baseline/00M_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026), [00N VNext](../../research/ecosystem-awareness/baseline/00N_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026) and [Requirements VNext](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#third-independent-source-review--first-current-text-reading-14-october-2026). They explain the meanings, conditional mathematical arguments, conventional/comparator and time/authority/burden constraints actually read. These are substantive partials, not a scan or a third-pass completion claim.
+
+### Root entry — isolated reviewer's own first source account
+
+The root README owns programme navigationand separates mathematical work, explanatory field notes, engineering provenance and architecture proposals. It routes the current reader to 00M v0.8 and 00N v0.7 and supplies distinct EA, RA and MSCA technical gates. Its evidence-boundary table refuses to promote engineering provenance to universal validation or submissions to endorsement. Root navigation supports identifying routes; it does not establish content reception in the unread target files. Its 47 path-internal historical payloads remain largely unread.
+
+### Own plan and next source frontier
+
+The first plan retains the justified branch timing correction and proposes no current source edit yet. The reviewer next follows foundations, principles, proof bases, mechanisms, topology, functions and actual input/mapping contracts before deciding source reception or DDS destinations. The complete source/relationship baseline precedes comparison of earlier audit bodies. The organization plan must establish actual owners, destinations and return routes with the three canonical README levels, preserve every file/content/link and avoid competing repositories. It is unfinished.
+
+The first execution report was preserved unchanged before continuation, SHA-256 `639141a6f7f283ec024fc59ce3847184dcb0a78045d776434cb4394e16cf3d4e`. These excerpts publish its source conclusions; private operational records are retained locally. No new VNext, source replacement, move, deletion or experiment is introduced.

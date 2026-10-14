@@ -312,3 +312,25 @@ The original document’s section 7 reconciliation claims are disclosed source a
 
 
 </details>
+
+
+## Third independent source review — first current-text reading, 14 October 2026
+
+The following is the isolated reviewer's own source-first account from its first execution boundary, preserved before continuation. Previous audit bodies were not opened. This is a **partial documentary reading**, not completion of this logical document, its historical/receiver integrations or the entire restoration/organization plan. The full first report is held unchanged under custody, SHA-256 `639141a6f7f283ec024fc59ce3847184dcb0a78045d776434cb4394e16cf3d4e`. Continuation uses the same isolated session and its own records; the coordinator supplies no previous findings.
+
+### Source reading reported by the isolated reviewer
+
+00M v0.8 ownsthe adopted A/B/C/D vocabulary while its mathematical argument remains research. A is the actual functional result, which can be probabilistic. B preserves established support, known limitations and characterized evaluation reserve. C requires grounds for an uncharacterized exploration avenue. D concerns a material effect beyond this process's effective evaluation routes; monitoring an associated indicator does not evaluate that effect. UNKNOWN is lack of grounds for assignment, not a forced C/D label. These components are relative to producer, function, question, capability, scope and time, not a closed partition or four percentages.
+
+The note's exact sufficiency implication ranges over the modeled profile class: equal summaries must imply equal independently specified review answers. Factorization does not supply computability, compression or net economy. The compatible-answer set and its sound superset are explicitly distinct; a nonempty approximation need not prove the exact set nonempty. The union counterexample retains two attributed declarations while rejecting the inference that they provide independent originating evidence. The twenty-door example gives 40–60 additive minutes only under compatible scope/method and excluding travel/setup; it establishes neither cat population nor permission. Interval difference supports only a property-specific sign. Identical metadata cannot universally distinguish disagreeing hidden targets, including under identical randomized output laws. These are coherent bounded documentary claims; external paper support and profile implementation remain unverified.
+
+Coordinator's scope clarification: the reviewer's use of "adopted" describes the current source's vocabulary and its explicit authorial adoption statement. This partial reading has not established the procedural authority of every historic adoption or the reception of all branch material.
+
+For the source-to-functional-conditions relationship, the paired first account is in [00N VNext](./00N_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026).
+
+
+### Restoration and organization at this evidence level
+
+No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
+
+The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.

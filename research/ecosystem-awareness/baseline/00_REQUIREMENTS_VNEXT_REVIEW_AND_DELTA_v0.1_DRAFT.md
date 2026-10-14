@@ -767,3 +767,21 @@ Correction [6a8fd5fd801b](https://github.com/dakleyer/structural-awareness-contr
 The old falsifier said material difference defeats a hypothesis predicting greater harm under loss. The correction instead treats no material difference or vanished advantage under burden as limiting/falsifying evidence. Retain this correction; do not restore the mistaken direction.
 
 All six complete hypothesis rows are exact across the12 editions. Old false-falsifier restoration is rejected; full third-party scientific validation remains a different question. The [EP successor-reading candidate97](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) appends guidance and retains the frozen/working boundary; it is pending named GO, not applied. Next: actual new-study/interface consumers and remaining internal source histories.
+
+
+## Third independent source review — first current-text reading, 14 October 2026
+
+The following is the isolated reviewer's own source-first account from its first execution boundary, preserved before continuation. Previous audit bodies were not opened. This is a **partial documentary reading**, not completion of this logical document, its historical/receiver integrations or the entire restoration/organization plan. The full first report is held unchanged under custody, SHA-256 `639141a6f7f283ec024fc59ce3847184dcb0a78045d776434cb4394e16cf3d4e`. Continuation uses the same isolated session and its own records; the coordinator supplies no previous findings.
+
+### Source reading reported by the isolated reviewer
+
+The actual controlled requirements sourcepreserves S1–S14, T1–T4, H1–H6 and branch-specific KPI/falsification routes. Its full tables were read, including authority, preferences, oversight capacity, bounded subdelegation, multi-principal conflict, commitment, policy, accountability and evidence-to-decision conditions. T3's strongest PNI condition quantifies over every covered admissible state rather than only expectation. T4 includes total burden, finite review capacity and useful response margin. Correctness elsewhere cannot compensate a missing material decision basis without a represented dependency and fresh requalification. The specific S/T/H routes stated in 00N §3.6 agree with the actual requirement mapping. This documentary agreement establishes neither frozen-source history nor conformance of a runtime.
+
+The specific mapping comparison with 00N is also recorded in [00N VNext](./00N_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026). Current table agreement is a source relationship; the historical freeze and actual technical consumers remain in the independent review queue.
+
+
+### Restoration and organization at this evidence level
+
+No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
+
+The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.
