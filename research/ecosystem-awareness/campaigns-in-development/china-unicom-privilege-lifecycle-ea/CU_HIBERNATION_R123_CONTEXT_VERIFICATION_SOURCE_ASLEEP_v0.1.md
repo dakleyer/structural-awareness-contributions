@@ -73,7 +73,7 @@ This possibility is **complementary**, not a replacement for the R2 native check
 
 ### The one source-facing question
 
-**When a suspended agent is reactivated, the restore condition is checked and current intent is re-derived, but a relevant dependency-owning source/agent is itself hibernating and its current state cannot be verified within the decision horizon: how does the proposed lifecycle framework represent and handle that indeterminate contextual condition—and what source-authorized full, restricted or review outcome is expected?**
+**When reactivating agent A requires a current dependency proposition from agent B, but B's own privilege to issue that proposition is suspended, may A's verifier use B's last snapshot within a defined validity window, query a separately authorized data source without reactivating B, or must B be reactivated first? If none is available, how is this explicitly INDETERMINATE check returned and revisited through an authorized bounded path?**
 
 This question directly follows [Ying's own description of reassessment and partially verifiable authorization](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309) and her [ordered checkpoint clarification](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429). It **does not** ask Ying to adopt a new EA theory, approve a jointly conducted trial or read a large PR.
 
