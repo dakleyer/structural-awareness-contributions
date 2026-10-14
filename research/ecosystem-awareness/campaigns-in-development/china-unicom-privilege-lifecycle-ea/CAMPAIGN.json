@@ -178,7 +178,9 @@
     "third_party_dossier_v03": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
     "external_review_v04": "EXTERNAL_REVIEW_RECONCILIATION_v0.4.md",
     "factor_protocol_v04": "R123_V04_FACTORIAL_PROTOCOL.json",
-    "reference_crosswalk": "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md"
+    "reference_crosswalk": "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
+    "r3_empirical_audit": "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
+    "WP0_owner_brief": "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md"
   },
   "open_obligations": [
     "Source-authorized decision policy, restore-condition and restricted privilege semantics",
@@ -193,9 +195,9 @@
   ],
   "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation.",
   "approval_gates": {
-    "D0_LOCAL_DESIGN": "READY_FOR_INDEPENDENT_REVIEW_NOT_APPROVED",
-    "D1_EXTERNAL_SEMANTICS": "SOURCE_TWO_STEP_DISCUSSION_ONLY_POLICY_ALLOW_BLOCK_NOT_APPROVED",
-    "D2_STAGE_A_PREREGISTRATION": "BLOCKED_ON_POLICY_R2_FREEZE_ORACLE_LOSS_AND_CONSENT",
+    "D0_LOCAL_DESIGN": "REVIEWABLE_WITH_R3_SCIENTIFIC_CORRECTION_NOT_APPROVED",
+    "D1_EXTERNAL_SEMANTICS": "BLOCKED_WP0_POLICY_AND_OBSERVATION_SOURCE",
+    "D2_STAGE_A_PREREGISTRATION": "BLOCKED_NO_NATIVE_R2_FREEZE_NO_DISJOINT_HOLDOUT_ORACLE",
     "D3_STAGE_A_RESULT": "NOT_EXECUTED_NOT_ADJUDICATED",
     "STAGE_B": "NOT_STARTED",
     "STAGE_C": "NOT_STARTED"
@@ -337,5 +339,22 @@
     ],
     "independent_conformance_result": false,
     "adopted_new_normative_requirement": false
+  },
+  "audit_revision": "v0.4.1_R3_EMPIRICAL_ADMISSION_AND_WP0_PRIORITY",
+  "audit_v0_4_1": {
+    "status": "SOURCE_VERIFIED_DESIGN_CORRECTED_NO_INDEPENDENT_ADJUDICATION",
+    "primary_empirical_question": "whether frozen competent R2 detects or qualifies the owner-policy-material source change under actual source/telemetry visibility",
+    "policy_materiality_is_premise": true,
+    "R2_trained_families_are_out_of_sample_discoveries": false,
+    "R3_A_D_E": "KNOWN_FAMILY_OR_POSITIVE_CONTROLS",
+    "R3_C_pair": "EPISTEMIC_SPECIFICATION_CONFORMANCE_NOT_EMPIRICAL_DETECTION_ARM",
+    "R3_B_F": "CANDIDATE_HELDOUT_SUBJECT_TO_INDEPENDENT_DISJOINT_FAMILY_ADMISSION",
+    "S_to_R_exogenous_edge_and_observation_footprint": "SOURCE_OWNED_CAUSAL_MEASUREMENT_CONTRACT_PENDING",
+    "reverse_CU_SP_falsifiers": 10,
+    "WP0_priority": "SOURCE_OWNER_CONSULTATION_DRAFT_NOT_POSTED",
+    "independent_owner_signed_policy": false,
+    "R2_native_frozen": false,
+    "R3_scored": false,
+    "external_message_posted": false
   }
 }
