@@ -1,5 +1,8 @@
 # China Unicom Theme #23 — DDS Challenge Approval & Preregistration Dossier v0.2
 
+> **V0.4 SCIENTIFIC REVIEW GATES — 14 October 2026.** This v0.2 approval ledger is preserved. Read the successor [R1/R2/R3 Challenge v0.4](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md), the [external critique and dispositions](EXTERNAL_REVIEW_RECONCILIATION_v0.4.md) and [machine design](R123_V04_FACTORIAL_PROTOCOL.json). Add **G-ANCHOR-SCOPE** (source-owned enumerative/general verifier), **G-ABLATION** (diagnostic-only, no weakened B2), **G-POLICY** (valid BLOCK or ALLOW terminal), **G-LOSS/REENTRY** (no vacuous always-HOLD success), and **G-INTEROP** (unproven cross-source conformance under parity). These are **not gate PASS results**. D0 ready for independent review, not approved; D1 source-approved actual policy missing, D2 freeze missing, D3 not executed.
+
+
 
 > **Audit successor notice (14 October):** [v0.3 third-party R1/R2/R3 dossier](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md), [source/causality scientific audit](THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md) and [machine register](R123_STAGE_REGISTER_v0.3.json) now govern **what is submitted for D0 local design review**. This D0/D1/D2/D3 table retains its approval distinctions. Source-author discussion **agrees to restoration-condition declaration and later intent derivation**, but the **specific experimental authorization policy and owner consent are still not obtained**. No preregistration, scored experiment or stage promotion is implied.
 
