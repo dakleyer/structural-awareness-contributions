@@ -183,7 +183,8 @@
     "WP0_owner_brief": "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
     "governing_recurrence_principle": "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
     "modeX_first_run_card": "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md",
-    "focused_source_hibernation_challenge": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md"
+    "focused_source_hibernation_challenge": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
+    "source_facing_hibernation_context_sufficiency": "CU_HIBERNATION_CONTEXT_SUFFICIENCY_R123_v0.1.md"
   },
   "open_obligations": [
     "Source-authorized decision policy, restore-condition and restricted privilege semantics",
@@ -374,7 +375,7 @@
     "no_executed_R3U": true,
     "no_external_comment_posted": true
   },
-  "current_source_facing_entry": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
+  "current_source_facing_entry": "CU_HIBERNATION_CONTEXT_SUFFICIENCY_R123_v0.1.md",
   "focused_discussion_state": {
     "object": "REACTIVATION_WITH_ANOTHER_RELEVANT_DEPENDENCY_SOURCE_HIBERNATING",
     "R1": "PROBLEM_SCOPED_HIBERNATION_CONTEXT_CHANGE_NOT_EXECUTED",
@@ -424,6 +425,10 @@
       "no_replacement_of_B_source_authority": true,
       "native_equivalence_receives_full_credit": true
     },
-    "ci_claim": "AUTHOR_SIDE_DOCUMENTARY_STATIC_CHECKS_ONLY_NOT_SCIENTIFIC_OR_TECHNOLOGY_CONFORMANCE"
+    "ci_claim": "AUTHOR_SIDE_DOCUMENTARY_STATIC_CHECKS_ONLY_NOT_SCIENTIFIC_OR_TECHNOLOGY_CONFORMANCE",
+    "source_facing_focus": "HIBERNATION_UNDER_CURRENT_CONTEXT_INSUFFICIENCY_NOT_SECOND_SLEEPING_SOURCE",
+    "core_question": "LOCALLY_KNOWN_RESTORE_CONSTRAINTS_PASS_BUT_OWNER_REQUIRED_P_UNESTABLISHED__WHICH_CHECKPOINT_PRESERVES_INCOMPLETE_AND_WHICH_OWNER_RECHECKS",
+    "B_as_secondary_only": true,
+    "technical_second_sleeping_source": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md"
   }
 }
