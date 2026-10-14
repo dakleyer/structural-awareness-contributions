@@ -1,0 +1,172 @@
+{
+  "campaign_handle": "DDS-A-CU-PLM-EA-01",
+  "slug": "china-unicom-privilege-lifecycle-ea",
+  "title": "China Unicom / Theme #23: qualified-context privilege restoration after hibernation",
+  "version": "0.1",
+  "created": "2026-10-14",
+  "last_updated": "2026-10-14",
+  "local_campaign_owner": "Iván Abril Palma / The Integral Management Society",
+  "external_source_owners": [
+    "Ying Wang / China Unicom",
+    "Ye Tao / China Unicom"
+  ],
+  "collaboration_approval": "NOT_ESTABLISHED",
+  "status": {
+    "research": "IN_DEVELOPMENT_NOT_PREREGISTERED",
+    "dds_stage_candidate": "A",
+    "profile": "SIMPLIFIED_PREPARATION",
+    "formal_admission": false,
+    "specification_frozen": false,
+    "comparator_selected": false,
+    "independent_oracle_assigned": false,
+    "source_owner_review_received": false,
+    "joint_campaign_confirmed": false,
+    "run_executed": false,
+    "results_verified": false,
+    "stage_b_started": false,
+    "stage_c_started": false,
+    "ITU_adoption_claimed": false
+  },
+  "method_router": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "stage_a_source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "theme_source": "https://github.com/FG-TIDA/themes/issues/23",
+  "primary_correspondence": {
+    "question": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5915019756",
+    "answer": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309",
+    "answer_timestamp_utc": "2026-10-14T08:54:54Z",
+    "other_restore_condition_proposal": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6072991126",
+    "source_status": "PUBLIC_DISCUSSION_MUTABLE_NOT_FROZEN"
+  },
+  "initial_focus": {
+    "challenge_id": "CU-HIB-01",
+    "primary_proposed_case": "CU-C2",
+    "decision": "May the original high-impact isolate(R) privilege be restored now after hibernation?",
+    "material_change": "New critical service-to-resource dependency in another domain after suspension",
+    "current_evidence": "DOCUMENTARY_DESIGN_ONLY",
+    "expected_change_oracle": "NOT_INDEPENDENTLY_ADMITTED",
+    "source_owned_PDP_policy": "NOT_FROZEN",
+    "other_cases": [
+      "CU-C0",
+      "CU-C1",
+      "CU-C3",
+      "CU-C4",
+      "CU-C5",
+      "CU-C6",
+      "CU-C7"
+    ]
+  },
+  "deferred_challenges": [
+    {
+      "id": "CU-PROP-01",
+      "scope": "receiving-agent operational dependency reassessment before exercising propagated privilege",
+      "status": "FUTURE_NOT_SCORED"
+    },
+    {
+      "id": "CU-REV-01",
+      "scope": "multi-domain known revoked/known surviving/unknown revocation coverage and compensating controls",
+      "status": "FUTURE_NOT_SCORED"
+    },
+    {
+      "id": "CU-OVS-01",
+      "scope": "Theme #16 human intervention boundary",
+      "status": "FUTURE_NOT_SCORED"
+    }
+  ],
+  "comparators": {
+    "B0": {
+      "role": "NAIVE_ILLUSTRATIVE_ONLY",
+      "scientific_reference": false
+    },
+    "B2": {
+      "role": "STRONG_CONVENTIONAL_PDP",
+      "selected": false,
+      "freeze": "NOT_FROZEN"
+    },
+    "B3": {
+      "role": "SAME_PDP_PLUS_EA_QUALIFIED_HANDOFF",
+      "selected": false,
+      "freeze": "NOT_FROZEN"
+    },
+    "oracle": {
+      "role": "INDEPENDENT_BOUNDARY_AND_HIDDEN_REFERENCE",
+      "assigned": false
+    },
+    "equal_authority_evidence_access_budget_horizon_required": true,
+    "parity_admissible": true,
+    "extra_EA_processing_cost_is_charged": true
+  },
+  "claim_boundary": {
+    "ea_cannot_grant_privilege": true,
+    "ea_cannot_enforce_actions": true,
+    "absence_of_signal_not_independent_negative_proof": true,
+    "missing_material_qualifier_preserved_unknown": true,
+    "independent_source_reuse_requires_lineage": true,
+    "reduced_profile_unscored_not_zero": true,
+    "native_external_results_imported": false,
+    "external_source_owner_approval_inferred_from_reply": false
+  },
+  "source_lineage": [
+    {
+      "id": "CU-S01",
+      "url": "https://github.com/FG-TIDA/themes/issues/23",
+      "kind": "China Unicom proposed security theme"
+    },
+    {
+      "id": "CU-S02",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5915019756",
+      "kind": "author question"
+    },
+    {
+      "id": "CU-S03",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309",
+      "kind": "Ying Wang reply and invitation to explore"
+    },
+    {
+      "id": "CU-S04",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6072991126",
+      "kind": "Zhao source-owned restore-condition proposal"
+    },
+    {
+      "id": "CU-S05",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5700157082",
+      "kind": "Lei oversight boundary proposal"
+    },
+    {
+      "id": "CU-S08",
+      "url": "https://github.com/FG-TIDA/themes/issues/13",
+      "kind": "external ecosystem theme"
+    },
+    {
+      "id": "CU-S09",
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+      "kind": "EA interface research"
+    },
+    {
+      "id": "CU-S10",
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "kind": "canonical EA semantics"
+    }
+  ],
+  "records": {
+    "entry": "CAMPAIGN.md",
+    "science": "SCIENTIFIC_DESIGN.md",
+    "interfaces": "INTERFACE_CONTRACT.md",
+    "trial": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "sources": "SOURCES_AND_CUSTODY.md",
+    "run_card": "RUN_CARD_PREPARATION.md",
+    "continuation": "CONTINUATION.md",
+    "machine": "CAMPAIGN.json"
+  },
+  "open_obligations": [
+    "Source-authorized decision policy, restore-condition and restricted privilege semantics",
+    "Independently grounded materiality and action-admissibility reference",
+    "Best available conventional peer prepared and defended",
+    "Equal source access, authority, budgets, time and relevant human routes",
+    "Full R2 freeze and generic EA freeze before scored R3",
+    "One exogenous material context perturbation with hidden evaluator map",
+    "Positive, negative and irrelevant-change controls",
+    "Independent oracle, blind packets and event/injection custody",
+    "Executed traces, recovery, total burden and evidence-bounded comparison"
+  ],
+  "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation."
+}
