@@ -89,3 +89,14 @@ No. Theme #16 supplies human-intervention lifecycle, external grant/issuer owns 
 **Release:** A publicly viewable *draft* PR is not a joint China Unicom or ITU-T publication.
 
 **Next non-circular evidence:** obtain an authorized action-policy/materiality reference; demonstrate and freeze a competent R2 with real current-source checks and legitimate positives; independently admit/seed R3; analyze context effect first and implementation differential only if there is a justified comparison.
+
+
+## 7. Publication-time documentary cross-check, 14 October 2026
+
+A final author-side GitHub read of the v0.3 dossier, critical review, R123 stage register and CAMPAIGN.json performed **11/11 focussed semantic/status checks without a detected mismatch**: campaign version, exactly R1/R2/R3, six original Theme #23 comment references, 14 critical-review finding identifiers, stable S criticality/single S→R edge change, source-authored two-step activation order, policy consent not asserted, no experimental run, D0 approval pending, EA differential secondary, and no oracle-truth leakage in the two-world C pair.
+
+The self-contained third-party dossier contains **99 clickable Markdown links**. In a separate author-side link audit, its GitHub in-repository **main** and **current draft-branch** targets were checked against the corresponding live Git trees and its direct #23 comment identifiers against the returned current six-comment issue list: **no missing link targets identified**. The other public external links include the cited ITU document portal, not independently retrievable through that check. Another check resolved **21 relative document links** from the critical review and campaign INDEX against the draft Git tree: **0 missing**. This is link/address integrity, **not independent source-content verification or an experiment**.
+
+The extended standalone Python checker in \`tools/validate_challenge.py\` is published for a checkout-based run, but **not executed in this tool session**. GitHub branch presence, Markdown links and local synthetic statuses do **not** amount to a signed independent review, native authorization execution, preregistration, oracle adjudication, demonstration of context-delta effect or compliance claim.
+
+**Audit decision remains: D0 READY_FOR_REVIEW / NOT_APPROVED; D1 source-specific action-policy not approved; D2 NOT_FROZEN; D3 NOT_EXECUTED; Stage B/C NOT_STARTED.**
