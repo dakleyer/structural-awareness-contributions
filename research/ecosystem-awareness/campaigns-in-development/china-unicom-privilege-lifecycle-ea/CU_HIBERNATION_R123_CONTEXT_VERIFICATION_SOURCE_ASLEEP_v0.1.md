@@ -1,6 +1,6 @@
 # CU-HIB-01 — Hibernation and Context Sufficiency: R1 → R2 → R3 (Technical Record)
 
-**Technical companion to the source-facing hibernation discussion; recursive suspension of B is one conditional illustration, not the defining question.**  
+**Technical companion to the [concise, source-facing hibernation/context-sufficiency note](CU_HIBERNATION_CONTEXT_SUFFICIENCY_R123_v0.1.md).** This filename preserves the historical second-sleeping-source example for traceability; it does **not** define the general R3 research object or the first question to Ying.  
 **Status:** source-grounded *working scenario*, 14 October 2026 · **NOT EXECUTED / NOT ADOPTED / NOT PREREGISTERED**.
 **Review provenance:** author-side **AI-assisted adversarial analysis** informed some edits. It is not an independent reviewer, China Unicom approval, or formal FG-TIDA adjudication. Independently prepared as a potential contribution for discussion, not an agreed China Unicom collaboration or an implemented source system.
 
