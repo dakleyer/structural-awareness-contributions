@@ -1,5 +1,9 @@
 # China Unicom Theme #23 campaign — sources, ownership and custody v0.1
 
+
+> **Source chronology UPDATE — 14 October 2026, 09:49:50 UTC:** The initial v0.1 source register did **not** include [Ying Wang's second same-day #23 reply](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429). She states agreement with Zhao's suspension-time **declared restore-condition anchor**, to be validated at activation **before fresh intent derivation**; she welcomes the suggested test cases. The earlier open question (“does #23 envisage a declared predicate?”) is therefore **resolved as a source-author discussion preference**, not as an adopted ITU text or finalized implementation. The complete [six-comment chronology](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md#2-primary-source-chronology--all-current-comments-in-theme-23) is now the current source cut. Original passages below remain historical, not the final source-status authority.
+
+
 **Campaign:** DDS-A-CU-PLM-EA-01. **Review cutoff:** 14 October 2026. **Source mode:** publicly visible GitHub texts, not external technical validation.  
 **Method:** [DDS index](../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). **Publication policy:** [Repository contributing rules](../../../../CONTRIBUTING.md).
 
