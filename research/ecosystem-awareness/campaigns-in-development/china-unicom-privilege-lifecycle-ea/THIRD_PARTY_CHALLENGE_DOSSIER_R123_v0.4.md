@@ -1,5 +1,7 @@
 # CU-HIB-01 — Context Change, Privilege Restoration and Ecosystem-Awareness Specifications
 
+> **Provenance / scope of reviews:** references to “third-party” or “external” review in the historical working records mean **author-commissioned AI-assisted adversarial document analysis**, not independent peer review, source-owner approval or testing. For current FG-TIDA #23 discussion, use the [focused hibernation case](CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md); the other source/recurrence cases remain separately labelled internal alternatives.
+
 > **SHORT SOURCE-DISCUSSION ENTRY — READ THIS FIRST:** [Hibernation R1 → full conventional R2 repair → R3 with a second dependency-owning agent also asleep](CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md). The original question is **what the #23 lifecycle should do when its current-context restoration check is indeterminate**, not a defence of EA or a universal-recurrence claim. Ying's proposals are credited as strong R2 candidates; the optional qualified-composition possibility is linked briefly to [00N](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The longer text below is historical/internal research background, **not proposed as an initial message to Ying**.
 
 ## Self-contained third-party challenge dossier · DDS Stage A · R1 → R2 → R3 · v0.4
