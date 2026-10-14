@@ -1791,3 +1791,15 @@ The proposed first step reuses the existing DDS Canonical Method Index. It prese
 **Order:** incorporate and verify 92, then incorporate 91 at the official Issue with its owner's access and approval of the exact text. Complete source-package consolidation is a separate unresolved decision, not an accomplished migration. The official Issue remains unchanged during preparation; prior 403/automatic-review history is retained without an attempted bypass.
 
 Exact before/after passages are in the [existing DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#direct-uc-21-entry-in-contributions--13-october-2026). No new VNext or source file is created.
+
+
+## UC-21 annex sources already in Contributions — 13 October 2026
+
+The earlier statement that the twenty annexes were only in the fork was too broad. Their compiled UC-21 files are preserved in that package, but the six failure-family sources and nine technology-profile sources are already in Contributions baseline. Annex H's original causal/refutation and H1–H6 sources are also present in the 29 September document collection and canonical requirements.
+
+All twenty current annex blobs are unchanged since the verified 12 October case main. Eighteen also equal the submitted snapshot; S3 preserves its body below a retirement/source notice, and S6 is an adapter to 00J with its full original text preserved at the submission commit. None is missing from the case inventories. The two public ZIPs do not contain another full annex package.
+
+R, X, N and Evidence still need case-specific reconciliation: existing source material is not an identical complete case compilation. Reuse the existing source owners and carry over only verified unique obligations, rather than creating another twenty-file mirror. The [twenty-item source map](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#uc-21-twenty-annexes--location-and-source-content-reconciliation-13-october-2026) records actual paths, versions and remaining differences. Original sources remain unchanged.
+
+
+Publication custody: the review was rebased onto concurrent commit 49aa7b9eb00acf27de7b1bbd80b23df14a544902. Its Flores runtime-context additions do not change these two VNext or the baseline and hypothesis source counterparts examined above. The content comparison remains explicitly attached to its stated d06956a cut; no new Flores result is inferred from this annex check.
