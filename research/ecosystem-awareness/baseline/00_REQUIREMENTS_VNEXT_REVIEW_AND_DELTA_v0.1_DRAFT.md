@@ -736,3 +736,34 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 
 El frozen conserva exactamente su blob anterior. La revisión aprobada está incorporada en un sucesor de trabajo enlazado por baseline; los estudios registrados siguen usando su edición congelada. La incorporación textual no afirma resultados nuevos.
 
+
+
+## Internal Contributions history — frozen Requirements and working S10, 14 October 2026
+
+Reviewer `/root/case_clause_forensics`; the [common internal-history procedure](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#internal-contributions-history-takes-priority--14-october-2026) and [EP counterpart](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) hold source/receiver judgements. All12 Requirements payloads and11 deltas were authenticated/read against the complete current source; later approved working S10 is a separate edition. Frozen original [research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is unchanged since25September; successor [research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds its opening approval note and one execution-basis binding in S10, while H1–H6/KPIs and other rows remain. Registered earlier studies retain their actual freeze. No universal consumer adoption is assumed.
+
+### Historical H3 correction — retain its direction
+
+Correction [6a8fd5fd801b](https://github.com/dakleyer/structural-awareness-contributions/commit/6a8fd5fd801be23a4ac3f9a8febd9a1c80befce3) on 2026-09-17T17:23:09+02:00 leaves the hypothesis unchanged but fixes its falsifier.
+
+**Unchanged complete hypothesis row**
+
+~~~~text
+| **H3 — Compositional residual expansion** | Under comparable evidence and computational resources, systems whose critical downstream decisions depend solely on lossy compressed representations will exhibit greater hidden residual and/or false confidence than systems with better context preservation or independent-source access. |
+~~~~
+
+**Historical metric/falsifier before — complete row**
+
+~~~~text
+| **H3** | **Source diversity and primary-source retrievability:** independent source routes and retrievable primary sources ÷ required material source routes. **Correlated-evidence error rate:** closures treating duplicated/correlated evidence as independent corroboration ÷ designated correlated-source branches. **Compression exposure:** number and criticality of downstream decisions dependent on one compressed source; propagation depth of compressed closures. **Systemic decision error** and **false confidence from recursive closure reuse** are reported against the oracle. | A lossy compressed path and a context-preserving/independent-source path have materially different hidden residual or false closure under comparable evidence and resources, contrary to the claimed preservation; or a candidate treats correlation as corroboration. |
+~~~~
+
+**Current metric/falsifier after — complete row**
+
+~~~~text
+| **H3** | **Source diversity and primary-source retrievability:** independent source routes and retrievable primary sources ÷ required material source routes. **Correlated-evidence error rate:** closures treating duplicated/correlated evidence as independent corroboration ÷ designated correlated-source branches. **Compression exposure:** number and criticality of downstream decisions dependent on one compressed source; propagation depth of compressed closures. **Systemic decision error** and **false confidence from recursive closure reuse** are reported against the oracle. | A lossy compressed path and a context-preserving/independent-source path show no material difference in hidden residual, false closure or coordination distortion under comparable evidence and resources; or the claimed advantage disappears once latency, disclosure and review burden are included. |
+~~~~
+
+The old falsifier said material difference defeats a hypothesis predicting greater harm under loss. The correction instead treats no material difference or vanished advantage under burden as limiting/falsifying evidence. Retain this correction; do not restore the mistaken direction.
+
+All six complete hypothesis rows are exact across the12 editions. Old false-falsifier restoration is rejected; full third-party scientific validation remains a different question. The [EP successor-reading candidate97](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) appends guidance and retains the frozen/working boundary; it is pending named GO, not applied. Next: actual new-study/interface consumers and remaining internal source histories.

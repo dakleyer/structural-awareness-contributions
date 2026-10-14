@@ -4816,6 +4816,94 @@
       "preparation": "Source-first findings combined; full original/proposed paragraph, unique predecessor",
       "decision_ready": true,
       "authorized_to_apply": false
+    },
+    {
+      "id": 96,
+      "title": "Date the historical Flores preference and point to the current owner principle",
+      "state": "Prepared — pending named Ivan GO",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "before": "## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary\n\nThe owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.",
+      "after": "## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary\n\n**Current reading direction — 14 October 2026.** The retained paragraphs below record the earlier 13 October UC17-08/P0–P3 preparation; their “preferred” wording is historical. The current [campaign](./campaigns-in-development/flores-population-ea/CAMPAIGN.md) follows the later owner-directed [R2 → freeze → uncovered R3 principle](./campaigns-in-development/flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md): demonstrate the participant-defended complete R2 in the known/repaired context, freeze its configuration, adaptation and resources, then admit a material R3 outside its effective coverage with the general EA requalification specification fixed ex ante. UC17-08 and P0–P3 remain antecedents or separate contrasts. Scientific status remains NOT_PREREGISTERED / NOT_EXECUTED / NOT_ADJUDICATED.\n\nThe owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.",
+      "impact": "High",
+      "risk": "Medium",
+      "effort": "Low",
+      "priority": "First",
+      "wave": "Internal history — reading direction, no experiment",
+      "benefit": "Restores current research direction at the DDS entry while retaining all historic reasoning and negative findings.",
+      "riskReason": "A reader-priority change can be mistaken for trial adoption or could lose historical rationale if implemented as a replacement; the proposed addition retains the old paragraph and links its actual later owner.",
+      "costReason": "One bounded reading notice; verify current campaign/principle, concurrent notices, exact source match and all unchanged bytes.",
+      "dependencies": "Current CAMPAIGN and principle v0.2; technical history and NOT_PREREGISTERED state; coordinate the same campaign owner.",
+      "gate": "Ivan names this exact pair/wave; refresh source and confirm no concurrent governing notice. No campaign or experiment is activated.",
+      "preparation": "Full current paragraph/heading uniquely matched; material before/after history and actual current campaign/principle read.",
+      "authorized_to_apply": false
+    },
+    {
+      "id": 97,
+      "title": "Link the approved S10 working successor at the existing EP closing note",
+      "state": "Prepared — pending named Ivan GO",
+      "source": "architectural-contributions/ecosystem-positioning/README.md",
+      "source_sha": "9767ec8efb7d3a2875866ea3cd22ebc94882e930",
+      "vnext": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "before": "The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.",
+      "after": "The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.\n\nFor current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.",
+      "impact": "Medium",
+      "risk": "Low",
+      "effort": "Low",
+      "priority": "Next",
+      "wave": "Internal history — frozen/working reader distinction",
+      "benefit": "Makes the actual approved working S10 source discoverable while retaining the registered freeze for earlier studies.",
+      "riskReason": "Working-source guidance could be mistaken for retroactive adoption; the complete appended sentence preserves the historic evidence/contract boundary.",
+      "costReason": "One reading paragraph and two source checks; individual new-study consumer adoption is separate.",
+      "dependencies": "Requirements working successor, baseline approved-successor route, DOCUMENT_CONTROL§26 and existing Requirements application#16.",
+      "gate": "Ivan names this pair/wave; EP is append-only and all prior bytes must remain; validate current EOF and links. No source-body replacement.",
+      "preparation": "Complete existing closing paragraph unique, located at EOF; append-only proposed addition.",
+      "authorized_to_apply": false
+    },
+    {
+      "id": 98,
+      "title": "Qualify the dated completion edition",
+      "state": "Prepared — pending named Ivan GO",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+      "source_sha": "990872beae2f632515ee81a4dba36b16b8ad7f9c",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+      "before": "Version0.1 · 6 October2026 · current audited study edition.",
+      "after": "Version0.1 · 6 October2026 · original scoped completion edition, with later current-reading additions in the linked reports. The dated coverage and release manifest describe the preserved 6 October package; each report links its current study record and prospective diagnostic successors. The original results are retained and are not regraded.",
+      "impact": "Medium",
+      "risk": "Low",
+      "effort": "Low",
+      "priority": "First",
+      "wave": "Internal history — completion edition and manifest scope",
+      "benefit": "Qualify the current-edition header and route later diagnostics without overwriting original result meanings.",
+      "riskReason": "The clarification must retain original results and the historical manifest; it cannot regrade evidence, replace inputs or promote later diagnostics.",
+      "costReason": "One uniquely located passage; inspect both historical/active edition bindings, current reports and exact readback. No runner or source changes.",
+      "dependencies": "The other completion-edition pair; historical feasibility package and active current reports/study records.",
+      "gate": "Ivan names this exact completion wave; retain every other byte and frozen manifest; refresh current source before applying.",
+      "preparation": "Complete current passage uniquely matched; 17/17 historical and11/17 active manifest bindings actually checked.",
+      "authorized_to_apply": false
+    },
+    {
+      "id": 99,
+      "title": "Identify the actual release-manifest epoch",
+      "state": "Prepared — pending named Ivan GO",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+      "source_sha": "990872beae2f632515ee81a4dba36b16b8ad7f9c",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+      "before": "The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins this edition and the untouched source corpus.",
+      "after": "The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins the preserved 6 October feasibility edition and its untouched source corpus. It does not certify the later documentation additions in the active extensions README, reports or VNext; their current study records identify the relevant successor evidence.",
+      "impact": "Medium",
+      "risk": "Low",
+      "effort": "Low",
+      "priority": "First",
+      "wave": "Internal history — completion edition and manifest scope",
+      "benefit": "Exact verification shows 17/17 historical feasibility bindings and only11/17 current active documentation bindings; preserve manifest epoch.",
+      "riskReason": "The clarification must retain original results and the historical manifest; it cannot regrade evidence, replace inputs or promote later diagnostics.",
+      "costReason": "One uniquely located passage; inspect both historical/active edition bindings, current reports and exact readback. No runner or source changes.",
+      "dependencies": "The other completion-edition pair; historical feasibility package and active current reports/study records.",
+      "gate": "Ivan names this exact completion wave; retain every other byte and frozen manifest; refresh current source before applying.",
+      "preparation": "Complete current passage uniquely matched; 17/17 historical and11/17 active manifest bindings actually checked.",
+      "authorized_to_apply": false
     }
   ],
   "audit_coverage": [
@@ -11514,6 +11602,47 @@
         }
       ],
       "canonical_applied": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Internal-history priority and bounded current-reader candidates",
+      "source_commit": "ca5dd562a9566e69f691a28a7dfbb0b6c69479bb",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#internal-contributions-history-takes-priority--14-october-2026",
+      "canonical_applied": false,
+      "proposal_assessments": [
+        {
+          "id": 96,
+          "impact": "High",
+          "risk": "Medium",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        },
+        {
+          "id": 97,
+          "impact": "Medium",
+          "risk": "Low",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        },
+        {
+          "id": 98,
+          "impact": "Medium",
+          "risk": "Low",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        },
+        {
+          "id": 99,
+          "impact": "Medium",
+          "risk": "Low",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -14037,6 +14166,144 @@
         "Remaining corpus source cohorts/binaries and final damage consolidation"
       ],
       "partial_receiver_states_preserved": true
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Internal Contributions history has priority — source/intermediate/current/receiver cohort",
+      "source_commit": "ca5dd562a9566e69f691a28a7dfbb0b6c69479bb",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#internal-contributions-history-takes-priority--14-october-2026",
+      "fork_role": "Secondary provenance, not internal preservation closure",
+      "internal_history_summary": {
+        "source_cut": "ca5dd562a9566e69f691a28a7dfbb0b6c69479bb",
+        "earlier_reference": "0ca06f446bb4f037b117c1af525a0ae7ded0900b",
+        "reference_role": "Known document reference dated 29 September, not a universal fork origin. Every logical source uses its actual creation and predecessors; earlier dependencies remain in scope.",
+        "all_reachable_main_commits": 2731,
+        "commits_after_reference_graph": 922,
+        "reference_tree_paths": 541,
+        "current_tree_paths": 2346,
+        "all_post_reference_change_events": 3929,
+        "post_reference_status_counts": {
+          "M": 1949,
+          "A": 1937,
+          "D": 43
+        },
+        "non_review_post_reference_events": 2699,
+        "non_review_post_reference_paths": 1374,
+        "remote_refs_checked": 23,
+        "non_main_ancestor_refs": 14,
+        "non_main_not_ancestor_refs": 8,
+        "semantic_global_closed": false,
+        "fork_only_not_sufficient": true,
+        "merge_method": "All reachable commits; raw merge events compare first parent; both parent ancestries are in the commit inventory. Material merge reconciliation remains explicit per source."
+      },
+      "internal_source_reports": {
+        "dds": {
+          "paths": 4,
+          "events": 48,
+          "unique_commits": 45,
+          "unique_source_versions": 47,
+          "full_body_anchors": 10,
+          "complete_delta_editions": 37
+        },
+        "ep_requirements": {
+          "primary_units": 4,
+          "history_events": 102,
+          "unique_primary_payloads": 100,
+          "EP_current_full_read": true,
+          "requirements_current_and_all_11_internal_deltas_read": true,
+          "successor_unique_body_read": true,
+          "strategy_unique_body_read": true,
+          "EP_all_post_29Sep_deltas_read": 18,
+          "EP_earlier_deltas": "All authenticated and complete diffs captured. Selected truncation/restore/A23 boundary deltas read; earlier remaining semantic dispositions are open, not a completed all-history pass.",
+          "key_HC_earliest_body_full_read": true,
+          "key_current_receivers": "Named complete sections only; no full A01/schema/01D/formal-proof or binary-layout adjudication in this cohort.",
+          "EP_strict_post_submission_deltas_read": 14
+        },
+        "r01": {
+          "primary_units": 3,
+          "unique_source_blobs": 23,
+          "primary_complete_deltas": 20,
+          "current_section_judgements": 46,
+          "historical_section_locations_not_judgements": 396,
+          "four_leaf_reports_unique_blobs": 21,
+          "four_leaf_reports_complete_deltas": 17,
+          "historical_exact_dependencies_not_semantic_reviews": 60,
+          "full_current_records": 4,
+          "metrics_field_projection_not_full_event_audit": true
+        }
+      },
+      "reviewers": [
+        "/root/case_clause_forensics",
+        "/root/s6_semantic_forensics",
+        "/root/gate_capacity_adversary"
+      ],
+      "logical_sources_assigned": 11,
+      "additional_parent_M01_source_read": true,
+      "global_second_pass_complete": false,
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "source_priority": [
+        "Internal Contributions material changes/retirements and actual receiver obligations",
+        "DDS/R01 M03/M04 mathematical plan, oracle/admission, capacity93 consumer chain",
+        "Remaining case/source families within their actual internal histories",
+        "Interfaces/EA/EP/RA/MSCA/media and final damage reconciliation"
+      ],
+      "proposal_assessments": [
+        {
+          "id": 96,
+          "impact": "High",
+          "risk": "Medium",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        },
+        {
+          "id": 97,
+          "impact": "Medium",
+          "risk": "Low",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        },
+        {
+          "id": 98,
+          "impact": "Medium",
+          "risk": "Low",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        },
+        {
+          "id": 99,
+          "impact": "Medium",
+          "risk": "Low",
+          "effort": "Low",
+          "state": "Prepared — pending named Ivan GO",
+          "authorized_to_apply": false
+        }
+      ],
+      "protected_readme_authorization_unaccredited": [
+        "39af310284c0ec84798814ad380473ae1d23f18c",
+        "6c93994c02959c0c0061c08b96983ed5c4afdfbe",
+        "c2d0d5161bc4ddd98258e071de29f586a8813636",
+        "1aba8cf5386806192ca572dff3de0f63814168f5",
+        "64fa9f3d777c30860b92ffa7e4440ef4b7193ca8"
+      ],
+      "corrected_interpretations_preserved": [
+        "H3 falsifier direction",
+        "HIT scheduling unit versus canonical HID",
+        "A23 partial sufficiency and conditional transfer",
+        "Internal DDS table relocation",
+        "Already repaired gate/stage classification",
+        "Historical completion manifest scope versus active successors"
+      ],
+      "prior_epochs_and_entries_retained": true
     }
+  ],
+  "current_internal_damage_review_priority": [
+    "Internal Contributions material changes/retirements and actual receiver obligations",
+    "DDS/R01 M03/M04 mathematical plan, oracle/admission, capacity93 consumer chain",
+    "Remaining case/source families within their actual internal histories",
+    "Interfaces/EA/EP/RA/MSCA/media and final damage reconciliation"
   ]
 }

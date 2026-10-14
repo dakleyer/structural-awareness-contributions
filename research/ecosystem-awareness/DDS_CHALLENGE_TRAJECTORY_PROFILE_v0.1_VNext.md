@@ -4614,3 +4614,449 @@ Each pair is one logical source relationship. Their audit histories remain physi
 The raw current review blobs differ for all seven pairs. Do not erase unique review discussion or count replicas as independent findings. Active pending work uses one joint logical case; no aliases or sources are moved/deleted by this organization.
 
 </details>
+
+
+## Internal Contributions history takes priority — 14 October 2026
+
+**Iván directs this second damage review to the history inside Contributions, especially the changes made after the case fork.** Fork comparisons remain provenance checks; they cannot establish that later Contributions text, evidence or obligations survived. This amendment takes priority over the preceding cohort order, whose historical record is retained below/above unchanged.
+
+For each logical source we now start with its own creation and true predecessors in Contributions, read complete material intermediate changes, compare the current body, and follow every displaced claim/table/form/result to its actual current receiver. The record distinguishes a deletion, a transfer, a justified correction, a historic-only source, an unmerged branch and an unresolved active omission. It tests the previous audit and its proposed restoration against that internal chain. A DDS remnant can be in a document without DDS in its filename: scope discovery uses the complete path/history inventory and producer–consumer relations as well as search.
+
+The next priority is **internal changed DDS/R01/Requirements sources and their consumers**, including M03/M04, the mathematical plan, old/current oracle and admission contracts, capacity93 consumers, and displaced evidence. Remaining UC-21/S1–S5/T01–T08 source comparisons continue as part of that history, followed by interfaces/EA/EP/RA/MSCA, media and final reconciliation. Work in a branch that never entered main is checked separately before any recovery/adoption claim. Earlier corrections, negative results, frozen study contracts and approved applied changes stay intact. No restoration is applied by this audit.
+
+### Current internal scope and bounded progress
+
+At [ca5dd562a956](https://github.com/dakleyer/structural-awareness-contributions/commit/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb), the current tree has2,346 paths and the complete reachable `main` graph has2,731 commits. The documented 29 September reference [0ca06f446bb4](https://github.com/dakleyer/structural-awareness-contributions/commit/0ca06f446bb4f037b117c1af525a0ae7ded0900b) has541 paths; its graph difference to this cut contains922 commits and3,929 path-change events (1,949 modifications,1,937 additions,43 deletions). It is a useful internal reference, **not a universal fork-origin timestamp**. Every source uses its actual origin/edition; dependencies preceding that reference remain in scope.
+
+The inventory includes both merge-parent ancestries; material parent versions require their own comparison.23 remote references were fetched/read:14 non-main tips are ancestors of main and8 have commit work not wholly reachable from main. These counts account for objects; they do not certify semantic closure. The actual source judgements below and in [EP/Requirements](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) and [R01](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md#internal-r01-history-and-relocations--14-october-2026) carry their own reading boundaries.
+
+The three continuing reviewers keep their distinct lenses and previous reports; continuation is not another independent review. Eleven principal sources were assigned across this internal cohort (four DDS, four EP/Requirements/strategy, three R01 units); the parent separately read the M01 source and complete old/current relocation delta. Receiving artifacts, manifested dependencies and early historic editions retain full/partial/unread states. **The global second damage pass remains open.**
+
+| Internal cohort | Actual coverage and consequence | Existing owner |
+|---|---|---|
+| DDS method | Four current bodies;48 events/45 commits/47 unique editions, initial/current anchors plus complete intermediate deltas; one source merge receives the same branch payload | This DDS VNext |
+| EP/Requirements/strategy | Four current bodies;100 payload identities/102 events; all11 Requirements deltas and18 EP deltas from29Sept read; other early EP semantic dispositions remain open | [EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) and [Requirements](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| R01 protocol/HEW/completion | Three current bodies and their internal editions; scope-specific manifest/result checks, not60 semantic source reviews | [R01](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md#internal-r01-history-and-relocations--14-october-2026) and its existing extension owners |
+| Internal deleted-path discovery |41 source/support deletion events after the reference;29 former blobs have exact current recipients. The other12 require actual disposition, including the old Stage-A profile and11 R01 units | [Relocation crosswalk and M01 reading](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md#internal-r01-history-and-relocations--14-october-2026) |
+
+
+### Separate internal DDS method reviewer
+
+Reviewer `/root/gate_capacity_adversary`; complete current source identities and authentic internal event/delta reading are described below. Public full sources: [DDS_CANONICAL_METHOD_INDEX_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), [DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md), [DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
+
+## 2. Internal transformation timeline and disposition
+
+Full event rows are in the authenticated event manifest. This timeline groups related changes without collapsing their identities or hiding intermediate defects.
+
+| Internal commit(s) | Before/after transformation | Source judgement |
+|---|---|---|
+| `b04fb86db8c0ef90e2d7aeb5ed7262e82bfbd1f2`, 6 Oct 16:36 | Introduces whole DDS Challenge–Trajectory source, blob `627418d696e080f8fab9bd856ef3d82750e2c228` | Full original read; broad technology/configuration/deployment scope, reduced coverage, C/R/E and non-claims already present |
+| `72392bfe2f1e015c03a2925421cded82607b959d` → `1fb03bb53c817d9d93f8786b7e877aad8b8ab8f7` → `f107eb178157fbf58d07418ce648510cf25756ea` | Repairs broken math notation then GitHub fences | Genuine presentation repairs; no authority to restore damaged expressions |
+| `c284074bde4a0bf35e2afd2e3d5b3c33afa5d927` | Bounds “canonical” and adds namespace §10A | Retain no external acceptance and no namespace equivalence |
+| `e08e4f12ffd3f1dff64bc08df6af62c943992831` | Adds sole-source identity and existing VNext route | Historical whole-method owner; later split legitimately supersedes this ownership scope |
+| `6206a0cd2cdb40f894ce3c41394d8db8344f3cf3` | Adds A01 registry row | Its cost/state/source distinctions are received in current Index §8 |
+| `03db21016d6a0831a43d7a99d3640854ab549777` | Adds minimum traceability and delivery separation | All six traceability items and commercial/technical distinction still current |
+| `a2cee52fed3db130f2acfe3ece7d2106e3c66362` | Adds explicit extension Stage1/Stage2, two reviews/records, HEW finite-companion disclosure | Substantive addition, not another complete DDS method; later labels need scoped reading |
+| `ba5e8081beff2d4728f043839cb2ea0376a94c57` | Adds proportional closure and material-assumption check | Retained in current §10B; bounded question closure does not close undelivered outputs |
+| `9eee9efdffbea22d2abe27e4eb66144455077cfb` → `f7d8ed0846b301617197ade855d5237cbd2280f9` | Adds Type0/1/2 then realistic M-floor/rework distinction | Retained and qualified; never restore “extra cost = Type1” |
+| `23d3a720e5fea1d99c74e75db6a063e3ae25ceed` | Adds documentary research basis | Source remains support, not an executed market benchmark |
+| `dcfebcefb7d84cdd0442633a755d130180305673` | Adds scoped completion edition/results and limits | Retained dated completion, no native/human/commissioned upgrade |
+| `e1a38a6458be1804eaae30a8d802d0b18b0e061b` | Adds blind map, M-admission, hidden/access-eligible bounds and Type-rate denominators | All material prerequisites current; examined receiver is Stage A itself |
+| `f0ebdd1031eb740b181c6a405fba6beb7f29ff6d` | Explicitly excludes P closure from Type1 numerator | Repaired ambiguity; current clarification must not be removed |
+| `eb4f3f7a5fd6389cb4f4c9d406c157c0f2e0aba9`, `42e1e6603b465bca93646124fc6e911f11954c84`, `1acd3074fc359761a685196724afdcdd15ee4920` | Introduces Index/B/C, initially called gates | New explicit method-owner/stage references and verification/validation contracts; no executed result created by introduction |
+| `bb7e1457ae4278c35da8877f5c431ae4c04ecb73` → `e32672d2bde3e9cb950969b6669248096c792203` | Whole-method source becomes Gate A; tightens identity | Substantive scope/authority transformation, not loss inferred from words “single canonical” disappearing |
+| `27938fa70a82c2fa07f79c60eed34ab4c2d9f267` | Adds orientation, object/reference table and A→B handoff | Stronger prospective package conditions; retained current |
+| `2feb42d05f57a2186f185488d69a2c949e7a6810` | Adds historic DDS incorporation | Retains negative B1/B3 tie and no independent reviewer; older self-tests not regraded |
+| `09f5e06d16df9052233eab024f6c24aad349b8f3` then `03b325ea44fc61ba39347c5c84403990f2a0ddc4` | Adds cross-stage registry to Index, then removes eight-column table from A | Concrete internal relocation. Current Index §8 has all eight former families and material columns, not mere gate names |
+| `6bc8ef6e1e3215c68aa95c69b90aac38ac317b05` | Replaces pending migration note with current migration/preservation account | Dated assertion, not proof all future consumers are current |
+| `64fa9f3d777c30860b92ffa7e4440ef4b7193ca8` | Gate A/B/C→Stage A/B/C across all four owners | Stage/reference semantics retained, but Index accidentally changes local trajectory gates into stages |
+| `6b62d8df6d93e070fcfae28f6644dfa90b107434`, `5fc517a071b61c2a49d2b953f9b129cdc985f6a4` | Repairs remaining “three gates” caption and local table stage/gate error | Current correct. Already repaired historical errors must not become new pending restorations |
+| `448bef221421f47530e250d8b60c4a7d59c0d154` | Index LF→CRLF plus broader extension names and scoped completion note | Raw 174 inserted/170 deleted lines are not 170 destroyed obligations; full raw bodies and actual word additions inspected |
+| `2fe0b25ee30e1dd44928c29d1fc8e26e6bc78d09`, `49aff27926428f610a75a9a9693c2d15bdb829d4` | Adds namespace examples and claim/VNext routes | No frozen evidence or semantics displaced; the named claim register is support, not authority |
+| `47b5229f999e3828f0a1e50a1a6c71e78061d180` then merge `f437c95cce3645a05ba45f52f521f6b9692e0aa7` | Same potential-contributions banner enters main | Both merge-parent blobs inspected; one edition/one banner, no source contradiction or double review credit |
+| `a27679dc451ce2db77432df2b206bb08339b24ef` | Replaces old two-explicit-DDS-stages header with internal Stage A phases | Exact prior surgery is already applied; body legacy headings are a separate reader ambiguity |
+| `63f39526fb8a51ca81ea61bf2084a4ae789b74ee`, `2ff085688de77938aeaa5a3c0e7edbb607247d58`, `269d60cc478d2756516c631f587efc074e822eed`, `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, `9fb9421711521decde6843b04914a143a1f04c35` | Adds Index §§11–15 reader/version/claim/instrument/report routes | Additive source text and negative scope distinctions survive; links to a fork are navigation, not internal preservation evidence |
+| `9056ed78e3e79c025f253cfbc823ccc0293064a4` | Case branch→main active links; retains earlier branch destinations in details; adds pins/checker lineage | Displaced branch destinations still readable inside the internal owner; no claim that linked fork bodies replace internal obligations |
+| `6f6cdb4c3f418af728e584e5f5d588a61892e60c`, `00dc7116054d201f1b12fb73604bcd9fe448e7c6`, `4fefd4e0904072705efb775f57409e05dd54956a`, `b5d126cc877c7e4c6bb7fe45bfa7173a128a6023` | Adds Index Flores §§16–18/candidate status, early pivot and P0–P3 scope | Source retains no-execution/negative limits, but later internal owner direction is not propagated into “preferred” wording |
+
+
+## 3. Critical internal relocation: old table and actual current receiver
+
+**Questioned removal commit:** `03b325ea44fc61ba39347c5c84403990f2a0ddc4`. Before blob `1934155ca07b1f7947664891bd4d7596ba514526`, after `cf63f9ed2a14b1d24ad904ad4189e99df8dee891`. The following is the complete materially removed eight-family table, not a inferred matrix from counts.
+
+```markdown
+| Current artefact / family | DDS profile reading | Cost | Risk | Effectiveness / I-vs-M | Acceptance | BV projection | Evidence state |
+|---|---|---:|---:|---:|---|---|---|
+| 00E–00J positive/negative technology trajectories and their product profiles | Simplified DDS profiles: Challenge + technology mapping + quality gates + positive/negative routes | generally unscored | primary / branch-specific | generally collapsed into legitimate continuity / expected outcome | binary / gate-based | not part of frozen route | documentary / symbolic / fixture-specific as individually stated |
+| 00I AWS ordinary → defended → same frozen defended-under-drift trajectory | Simplified DDS profile with strong continuity and drift controls | unscored as DDS C | stale/prohibited action is primary | I/M not separately priced/scored | gate-based | not part of frozen route | design / fixture evidence as stated by 00I |
+| R01 core | Rich probabilistic DDS reference profile | explicit | explicit | explicit I/M/P and sufficient-delivery `s` | quantitative `A_{b,δ,p}` | optional downstream projection | mathematical / virtual / harness stages separately stated |
+| R01 technology-extension protocol | DDS-compatible extension discipline | explicit | explicit | explicit | quantitative | not intrinsic | protocol / proof / traversal stages |
+| Human escalation + whispering | Rich DDS implementation profile over R01: kernel mapping + additional mechanisms + stochastic C/R/E + R1/R2/R3 | explicit virtual and finite local model ledgers | explicit `r` | explicit `s`, X/Y/M and incompletion | quantitative | deployment BV not calibrated | virtual/analytical core + published finite SQLite companion; no native/human campaign |
+| 01K-A01 Human Capacity / HID component | DDS-compatible reusable component: process-relative A/B/C/D + EHD profile + runtime human-capacity scheduling + HID architecture burden | explicit human runtime/readiness/ACW/component ledger; `C(τ)=Σ_g c_g(τ)` retained | inherited from frozen Challenge / route; HC-HID adds no private Risk definition | inherited from frozen Challenge I/M/P/Ø; matched-route comparison only | component states + Challenge acceptance remain separate | deployment-specific only | specification + JSON schema + deterministic semantic controls; no real human calibration |
+| DBC | Optional DDS evidence/adjudication companion | burden vector | branch-specific outcomes | value/continuity gates as preregistered | hard gates + comparative rule | may consume deployment value rule | evidence ladder DBC-EL# |
+| 00D | Optional DDS comparator contract | matched burden | measured outcome | matched outcome | preregistered comparison | not intrinsic | benchmark design / execution as stated |
+```
+
+
+The actual receiving commit [09f5e06d16df](https://github.com/dakleyer/structural-awareness-contributions/commit/09f5e06d16df9052233eab024f6c24aad349b8f3) precedes the removal [03b325ea44fc](https://github.com/dakleyer/structural-awareness-contributions/commit/03b325ea44fc61ba39347c5c84403990f2a0ddc4). The complete current recipient is [Method Index §8](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) (blob88b78f386047a76e0e2da905bd951ada06e5602b). All eight corresponding families retain Cost, Risk, Effectiveness, Acceptance, BV projection and evidence-state distinctions; the new Stage/Coverage columns and trajectory-gate repair clarify their reading. The current table is linked in full rather than copied a second time. This is a demonstrated **internal transfer**, with implementations/consumers checked separately.
+
+## 4. Corrections, changed contracts and current issues
+
+### IH-01 — Early math repair is not content loss
+
+The initial source contains literal damaged expressions `R=P(τin P).`, `E=P(τin I).` and `{(C,R,E): Cle b,;Rledelta,;Ege p}.`. Repair commits are named in §2. Current §§7–8 retain:
+
+```math
+R=P(\tau\in\mathcal{P}).
+E=P(\tau\in\mathcal{I}).
+\mathcal A_{b,\delta,p}
+=
+\{(C,R,E): C\le b,\;R\le\delta,\;E\ge p\}.
+```
+
+Route definitions and frozen acceptance meaning remain. The oldest literal is not automatically truer than its repair. No scientific formula is restored from damaged typography. **Disposition: corrected/superseded syntax; no edit.**
+
+### IH-02 — Method ownership really changes, while source/evidence boundaries remain
+
+Removed at `bb7e1457ae4278c35da8877f5c431ae4c04ecb73`:
+
+> **Authority clarification0.1.1 ·6 October2026.** This file is the **single canonical DDS technical profile** in this corpus. “DDS implementation profile” means a scoped application of this one profile; it does not designate another canonical DDS method. R01, Human Escalation/Whispering, STAMP/STPA, SPIFFE, RATS and other technology studies declare the surfaces they instantiate, collapse or leave unscored. Their source-native mathematics, evidence and acceptance contracts retain their own owners.
+
+Current A recipient:
+
+> **Authority clarification0.1.1 · updated 7 October 2026.** This file is the canonical **DDS Stage A** source in this corpus. The full DDS method is defined by the [canonical method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), with separate canonical sources for [Stage B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
+
+Current Index defines objects/references: A candidate specification against frozen Challenge; B architecture against frozen A package; C pinned implementation against originating Challenge and observed effect/target state. That is a substantive method clarification/split, not simply renaming three gate IDs. It preserves the old need to expose scope, methods and evidence; it introduces distinct B/C duties rather than pretending prior local code had already passed them.
+
+The deleted paragraph also said: “Future method revisions continue this logical source and explicitly identify their version; historical/frozen instances are never relabelled or strengthened by that revision.” Its exact whole-method single-logical-source promise no longer governs because the method now has Index plus three owners. Current source pins, stage-specific versions, prospectively declared successor classification and historical preservation provide related safeguards, but are not a verbatim general future-method revision rule. **OPEN-METHOD-01:** identify the current owner/rule for versioning a change to DDS as a whole before a future method revision. Destination: existing Method Index metadata and DDS VNext, coordinated with repository controls. No applicable orphan is declared conclusively because full version-governance sources were not read here; no old whole-method authority restoration is supported.
+
+Impact High for method authority, risk High for broad restoration, effort Medium for bounded owner/version clarification. **Pending/no active edit.**
+
+### IH-03 — Actual temporal classification error and already applied repair
+
+At `64fa9f3d777c30860b92ffa7e4440ef4b7193ca8`, the Index changes local 00E–00J fields to:
+
+> Challenge + technology/configuration mapping + trajectory/quality stages + positive/negative routes
+
+and:
+
+> binary / trajectory-stage based
+
+The AWS row becomes `stage-based`. These local trajectory boundaries should not be DDS development stages. `5fc517a071b61c2a49d2b953f9b129cdc985f6a4` repairs the actual same source, before `c303b21a8efbac97d638fd119edb9ca99e9bcb72`, after `dc17323638aff9c99c207d39460732c3eba4d552`:
+
+> Challenge + technology/configuration mapping + trajectory/quality gates + positive/negative routes
+
+> binary / trajectory-gate based
+
+> trajectory-gate based
+
+These corrected cells survive current Index §8. Separately, `6b62d8df6d93e070fcfae28f6644dfa90b107434` repairs A §1's remaining “three gates” to “three stages.” **Disposition: actual internal error, already repaired; obsolete literals remain history only.** No new correction is due for those exact passages.
+
+### IH-04 — Two extension phases: approved header repair applied; body labels remain legacy
+
+Before `a27679dc451ce2db77432df2b206bb08339b24ef`:
+
+> Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
+
+Complete current recipient:
+
+> Extension-review clarification0.1.3: DDS has three development stages: A, B and C. Technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal phases of Stage A, historically labelled Stage1 and Stage2. Completion and evidence are recorded for each declared base and scope.
+
+The source still has §13.1 “Two explicit DDS extension-review stages,” Stage1/Stage2 headings and table/citation fields. Their substantive correspondence/transfer/mechanism/composition/record duties were not removed. Current required record remains:
+
+> **Required stage record:** base/version; scope; correspondence/mechanism inventory; preservation/transfer basis; evidence and permitted conclusion; omissions/open obligations; status **performed within scope / pending / outside scope with reason / not applicable with reason**. If no mechanism outside the preserved kernel is introduced, Stage2 records that finding and its basis instead of inventing one. A partial DDS can remain valid, but citation of DDS never turns a pending stage into a completed review or upgrades frozen historical evidence.
+
+This is **an already applied source surgery plus a remaining local-label ambiguity**, not a missing two-stage process. A consumer can use the legacy labels with the explicit header scope. Do not restore the header or claim that Stage1/Stage2 are B/C. Any additional heading/body-label clarification should be selected against the current passage and exact frozen consumer versions. **Pending reader clarification, no active pair proposed in this cohort.** Impact Medium, risk Low/Medium if a blanket replacement changes historic labels, effort Low for one selected current clause/High for all frozen consumers.
+
+### IH-05 — Type estimators retain their prerequisites and corrected negative outcome
+
+Introduced by `e1a38a6458be1804eaae30a8d802d0b18b0e061b`, Stage A §5.3 requires, before inspecting results, that M be legitimate, nontrivial, plausible under permitted interfaces, inside frozen budget/horizon, reachable without hidden route labels and unblocked by a genuine Type0 barrier. The complete current six clauses are:
+
+> 1. M is legitimate and satisfies the Challenge's declared minimum/reference closure;
+> 2. M is non-trivial — it still requires the declared search, evidence, validation, connection and/or execution work rather than being a free default;
+> 3. M is plausible for the mapped technology: its documented capabilities and permitted interfaces are sufficient in principle to discover, validate and execute at least one M route under the same information-access contract;
+> 4. at least one M route fits inside the frozen physical budget and useful response horizon under the evaluator map;
+> 5. reaching M does not require access to evaluator-private I/M/P labels or other hidden oracle facts;
+> 6. no known Type-0 structural barrier makes legitimate closure unavailable in that generated world.
+
+The original estimator phrase “ending without I or M” could also count a P closure. Actual repair `f0ebdd1031eb740b181c6a405fba6beb7f29ff6d` adds the still-current complete clarification:
+
+> **Type-1 numerator clarification.** In this estimator, “ending without I or M” means **ending without a legitimate closure**: Ø, unresolved HOLD, timeout, budget exhaustion or another preregistered no-closure state. A trace that closes on P is **excluded from the Type-1 numerator** and remains available for the separate Type-2/P analysis below. This prevents one failed trajectory from being counted simultaneously as Type 1 merely because it did not reach I/M and as Type 2 because it falsely closed on P.
+
+Current §7.4 retains both eligible denominators, exclusions, uncertainty, P subset/causal attribution and Type0/unresolved separation. “Missing I” and excess review are not automatically Type1; not every P is Type2. No prerequisite is lost in these four method sources. Underlying campaign implementations of those rules remain to be audited; a method statement does not prove a denominator was actually calculated correctly. **Disposition: retained/corrected; no edit.**
+
+### IH-06 — Blindness and lower bounds remain different information contracts
+
+Current §3.1 keeps frozen supplied/withheld information, private route labels, stopping rules, no evaluator hints and actual discovery sequence. §7.1A keeps hidden-optimum versus accessible-information lower bound separate:
+
+> Where a second minimum can be computed using only the same information legitimately accessible to the technology, report it separately as an **accessible-information lower bound**. Do not conflate that fair-policy bound with the stronger evaluator-private lower bound.
+
+> The witness is a diagnostic baseline, not another DDS arm. It does not change C: all work actually performed by the technology remains charged. It explains how much of C lies above a frozen lower bound and whether that excess helped cause a later loss of I, fallback to M or non-closure.
+
+The initial source already forbids private evaluator leakage. Added hidden-optimium diagnostics are not permission to label every difference avoidable negligence or to make the lower bound an independent matched arm. These clauses remain internally owned by A. **Disposition: retained qualified addition; implementation/consumer proof pending.** This is not the separate human-reviewer blinding contract previously reviewed under G-A.
+
+### IH-07 — Virtual core, executed companion and prospective work are explicitly distinct
+
+The old HEW registry said `virtual/analytical; no real integration/campaign`. `a2cee52fed3db130f2acfe3ece7d2106e3c66362` replaces that with virtual core plus finite SQLite companion/no native-human campaign. This is supported internal reception, not a manufactured native upgrade. Current §14.1 contains the full operative qualifier:
+
+> The preceding virtual-core questions do not imply that no trace or local execution exists. The [HEW DDS research example](./baseline/reductions/00G-R01/feasibility/HEW_DDS_STUDY_2026-10-06.md) now supplies a frozen finite SQLite companion, declared scenario battery, trace/oracle contract, source/result records and scoped controls. Its model outcomes include sufficient delivery, incompletion and a retained false-source violation. M remains unevaluated in that finite profile. Fixture human/source conditions and illustrative work charges are not observed human performance, native integration or calibrated deployment Cost/Business Value.
+
+The same current paragraph family keeps STPA finite model, selected JWT/JWS operations, synthetic trust assumptions, unpooled denominators, absent native SPIRE/TPM, real-human calibration, superiority and independent replication. The actual HEW current extension completion also explicitly preserves 11 I / 9 Ø / 1 false-source P and real-time/work assumptions as author-run model statements, not population rates. Its prospective cost/type successor is distinct from original M-unscored evidence. No result was reproduced in this review.
+
+**OPEN-METHOD-02:** §14 still says “state the exact DDS trace schema generated by the future harness.” The next §14.1 scopes this to the virtual core, but a compact reader could miss that qualification. Select the named missing future deliverable/version in A/HEW current study record before changing text; do not declare all traces absent or complete from that bullet alone. Destination: existing DDS VNext and HEW owning review/study record. **Pending/no source edit.** Impact Medium, risk Medium if a generic “already executed” replacement launders the virtual/native gap, effort Medium.
+
+### IH-08 — Current Method Index retains a stale Flores preference after internal owner change
+
+Index §18's complete first paragraph was introduced by `b5d126cc877c7e4c6bb7fe45bfa7173a128a6023`, 13 Oct 20:41. It still calls the UC17-08 route “preferred” at this review cut:
+
+> The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.
+
+Actual later internal owner source: `dc1dad2b7c6ec3aa3f0ee3520d86739c396e88d3`, 13 Oct 23:32, introduces the full current principle blob `8d75851856e33b2fcde400c2539a33db84906d2d`. The principle is version0.2, not another method authority. Current CAMPAIGN explicitly receives it:
+
+> La igualdad en el contexto conocido y reparado es la base. El participante configura y repara hasta el nivel que defienda, demuestra R2 y congela toda su configuración, defensas, fuentes y adaptación. Después se admite un cambio material R3 fuera de la cobertura efectiva de esa R2, sin retirarle defensas. Se estudia si la **misma inferencia temporal** pierde fundamento mientras los jueces mantienen los mismos outputs. Los requisitos generales EA para reconocer y recalificar esa pérdida se fijan antes de revelar el R3 puntuado. Un patch posterior abre otra R2 y otro freeze.
+
+> El objeto es **Theme #21 / la prueba de Flores**. La antigua prioridad documental UC17-08 ausencia→permit, P0–P3 y UC-21 permanece como antecedente o contraste separado. No sustituye el objetivo actual. Una configuración convencional que incorpora la función general recibe crédito pleno; no se elimina su adaptación para fabricar un contraste. EA opera dentro de su acceso legítimo y no adivina hechos ocultos a partir de inputs indistinguibles.
+
+This is a **failed propagation of later internal reading priority**, not a destroyed method clause or a fork omission. The old preparation and negative findings must remain, but “preferred” needs dated historical framing. Index §§16–18 correctly retain NOT_PREREGISTERED/no run/no acceptance and historical source boundaries; those limits must survive a reader correction.
+
+Impact High for research direction, risk Medium if an edit discards historic reasoning or claims execution, effort Low for a bounded current-reading insertion. Exact pending candidate in §8 below. Parent may coordinate it with the same current campaign owner, without running or adopting that experiment.
+
+### IH-09 — Source merge is reception, not an extra edition or omitted alternative
+
+Merge `f437c95cce3645a05ba45f52f521f6b9692e0aa7` has parents `6f9c9f903a5c800740be77844c3fd4064ec16f59` and `47b5229f999e3828f0a1e50a1a6c71e78061d180`. Exact Method Index blobs:
+
+| DAG edge | Blob |
+|---|---|
+| Parent1 | `4af283947c09bf6d39a7dcd8c1f9e1fbec66a25c` |
+| Parent2 | `a6005739f237c7c0b1e1bca2d9b6fa69c89f7634` |
+| Merge result | `a6005739f237c7c0b1e1bca2d9b6fa69c89f7634` |
+
+The whole change is the source-backed potential-contributions banner, explicitly backlog/not authority/not admitted stage result. Parent2→merge changes no method-source bytes; Parent1→merge receives the same substantive addition already read on the branch. No alternate rule is concealed by reading only first-parent history. **Disposition: received, one edition; no new semantic loss or independent-review credit.**
+
+
+## 5. Every current method section: scope, reception and limits
+
+### Method Index
+
+| Section | Adjudication |
+|---|---|
+| Header/research banner | Current v0.1 plus terminology0.1.3; dated research backlog not method adoption. All later edits are not new scientific stage results. |
+| 1 | Retain one method/three different objects and authoritative references; prospective lineage remains required. |
+| 2 | Retain evidence mode orthogonal to stage; code alone never promotes stage. |
+| 3 | Retain full/simplified as scope, no omitted-surface inheritance. |
+| 4 | Retain source-owned DBC/00D/R01/C11/T03/UC4/CTv1 support, not competing methods. |
+| 5 | Retain qualified namespaces and local trajectory gates; repaired historical error already resolved. |
+| 6 | Retain A≠B≠C claim propagation and failed-record preservation. |
+| 7 | Retain historic incorporation as classification, with B1/B3 tie/no independent reviewer and source versions. No underlying result automatically strengthened. |
+| 8 | Complete internal receiving registry for old table; all old families/dimensions present with stage/scope/evidence corrections. Underlying study validity not established here. |
+| 8 / Registry reading rule | Retain profile-local acceptance/evidence ownership; one row does not establish a full DDS method result or native performance. |
+| 9 | Retain method sources, research bibliography, limited claim register and existing VNext owner. |
+| 10 | Retain migration/preservation statement as dated corpus maintenance; thirteen current studies not all campaigns, no native B/C claim. |
+| 10 / Current extension-study completion records — 7 October2026 | Retain scoped source completion and separate omissions/evidence ceilings; dated records are not completion of all future/native work. |
+| 11 | Retain case→question→method→study→result route and all thirteen report links; navigation does not establish complete internal semantic preservation. |
+| 11 / Existing extension-study report routes | Retain individual owning report routes and their source/result/version distinctions; linked study bodies are not all fully reviewed here. |
+| 12 | Retain exact study/instrument versions; audit checker candidate/local controls not independent instrument admission. |
+| 13 | Retain case claim selection, X1–X7/comparison/execution as different dimensions; S4 business/research campaign separation. Fork links secondary. |
+| 14 | Retain stage object/reference before instrument and matched facts/resources/human capacity; conventional and negative findings preserved. |
+| 15 | Retain owning reports, synthetic/no-EA-arm restrictions and calibrated instrument versus technology results. |
+| Earlier branch details | All seven displaced destinations remain in this internal owner as retained reading history; body content on those destinations not adjudicated here. |
+| 16 | Retain in-development/no-preregistration/no-EA/B2/no-adoption status and source ownership. |
+| 17 | Retain prior approach/experiment/real-R3 distinction, but date historical preference against later current owner source (IH-08). |
+| 18 | Retain full earlier P0–P3/UC17 audit negative basis; “preferred” requires historical framing (IH-08). |
+
+### Stage A
+
+| Section | Adjudication |
+|---|---|
+| Header/identity/orientation | Whole-method→StageA ownership is intentional internal transformation; preserves no external authority. Two-review header repair already applied. |
+| Canonical identity — DDS Stage A | Retain source-native contracts of scoped profiles, separate migration classification and no retrospective evidence strengthening. |
+| Reader orientation — what you are opening | Retain candidate-specification question and full-method Index route. |
+| DDS stage taxonomy at a glance | Retain complete A/B/C object/reference/established/not-established table, explicit later entry mapping and no automatic next-stage proof. |
+| Stage A in one line | Retain discovery/freeze versus architecture verification versus implementation validation. |
+| What belongs inside Stage A | Retain all challenge/mapping/correspondence/parameters/mechanisms/peer/routes/local gates/accounting/blind/acceptance/finding/package surfaces, where scoped. |
+| What does not become Stage A evidence merely by being present | Retain DBC/00D/oracle/testbed/trace/admission infrastructure distinctions and code-execution nonpromotion. |
+| Full versus Simplified DDS Stage A | Retain selected/collapsed/unscored/outside-scope declarations and evidence-mode orthogonality. |
+| Stage A entry and exit boundary | Retain frozen fair entry, complete candidate package fields, negative/trade-off/insufficient exits and not-yet-B-entry distinction. |
+| Reading map for this document | Retain navigation across §§1–18; it supplies no independent evidence. |
+| 1 | Retain frozen Challenge specification discovery, strong peer credit, optional BV projection; no production realization from A. |
+| 2 | Retain complete challenge/configuration/kernel/non-isomorphic/trajectory/accounting/acceptance chain; phase labels not B/C. |
+| 2.1 | Retain frozen required/prohibited behavior, positive/boundary/falsifier/assumption/unknown package; failed B opens A successor. |
+| 3 | Retain full task/owner/world/authority/observable-hidden/actions/quality/violation/horizon/acceptance boundary. |
+| 3.1 | Retain blind supplied-vs-private map, frozen generation/stopping rules and actual discovery sequence; not independent human-reviewer blindness. |
+| 4 Technology mapping | Retain distinct preserved correspondence, changed parameters and added mechanisms instead of treating all transfer as isomorphism. |
+| 4.1 | Retain correspondence proof status; analogy not isomorphism; no R01 theorem by narrative. |
+| 4.2 | Retain parameter changes including information/human capacity/time; attainable region can change. |
+| 4.3 | Retain all seven additional-mechanism fields and complete composition. |
+| 5 I/M/P/Ø | Retain challenge-defined I/peer credit, M not free default, violation P and incomplete Ø not automatic Risk. |
+| 5 / I — high-value admissible region | Retain Challenge-defined high-value route and full conventional peer credit when admitted. |
+| 5 / M — market/reference admissible region | Retain legitimate sufficient reference closure, declared work and no free-default assumption. |
+| 5 / P — prohibited/material-violation region | Retain prohibited/material violation by Challenge; private map alone is not technology-visible information. |
+| 5 / Ø — incomplete / no-sufficient-route | Retain incomplete/no sufficient closure distinct from P and automatic Risk. |
+| 5.1 | Retain conditional Type0/1/2 mapping; no automatic aggregate rate classification. |
+| 5.2 | Retain rework≠Type1, missing I not paralysis. |
+| 5.3 | Retain all six ex-ante M-admission clauses/exclusions, actual type inference conditional. |
+| 6 | Retain trajectory gates, trace/operation/time/authority/human/effect linkage and private-state separation. |
+| 7 DDS trace accounting | Retain actual trace accounting before aggregate scoped Cost/Risk/Effectiveness; diagnostic fields do not replace the ledger. |
+| 7.1 | Retain explicit cost ledger, aggregate rule frozen, fees not Cost; excess work not auto failure. |
+| 7.1A | Retain hidden optimum versus accessible-information bound and all nine per-trace reports; no oracle hint leakage. |
+| 7.2 | Retain P-defined risk, severity only preregistered; HOLD/Ø not automatic Risk. |
+| 7.3 | Retain I probability/value with frozen weights, M admissible reference, no automatic quality equivalence. |
+| 7.4 | Retain separate eligible populations/uncertainty/causal rules; corrected P exclusion from Type1. |
+| 8 | Retain acceptance region and inside/outside/not-established; individual trace not whole DDS pass. |
+| 9 | Retain explicit E→BV assumptions and no company ROI inference. |
+| 10 | Retain every old coverage dimension, added phase/blind/type/minimum-work fields; optional unscored not zero. |
+| 10A | Retain all current namespace examples; candidate95 already pending in existing review, no duplicate proposal here. |
+| 10B | Retain all six minimum traceability fields, proportionality, assumption checks and promised-output/accounting distinction. |
+| 11 | Old table moved internally to Index, current smaller A reading aid deliberately excludes coequal B/C/support method claims. |
+| 11.1 | Retain frozen simplified profile preservation; additional scoring belongs to successor. |
+| 12 | Retain eleven R01 reference surfaces/theorem nontransfer. |
+| 13 | Retain complete eleven-step extension sequence. |
+| 13.1 | Retain correspondence/mechanism/transfer/freeze/required record; legacy labels scoped by current header (IH-04). |
+| 14 | Retain virtual-core open questions; future-harness bullet ambiguous compactly, qualified by next section (OPEN02). |
+| 14.1 | Retain executed companion and negative source/quality/evidence limits; reading reports not reproduction. |
+| 15 | Retain seven differential possibilities including conventional closure/no differential/insufficient evidence. |
+| 16 | Retain nine evidence distinctions and six explicit non-claims. |
+| 17 | Retain expanded citation block, phase/status/evidence/acceptance/object/reference; not full validation by citation. |
+| 18/working status | Retain source owners/Index/B/C/support paths; split does not upgrade frozen evidence. |
+
+### Stage B
+
+Every source edition was read; its only later change is terminology/current-status wording, not deletion of the duties below.
+
+| Section | Adjudication |
+|---|---|
+| Header | Canonical working v0.1, no production-architecture completion claim. |
+| 1 | Architecture realizes frozen A, not product validation; existing V&V/refinement credit. |
+| 2 | Frozen A or equivalent prospectively frozen package; retrospective construction frozen before B adjudication. |
+| 3 | Manifest, requirements matrix, inspectable reference realization, native trace and common projection; package not mere prose. |
+| 4 | A package + trace contract + positives + boundary/rejection + deliberately defective architecture; world truth not substitute for conformance reference. |
+| 5 | Inspection/analysis/demonstration/test/refinement declared per requirement; unrelated tests insufficient. |
+| 6 | All ten oracle questions remain: map/owner/required/prohibited/positive/mutant/private truth/unknown/bypass/scope. |
+| 7 | Positive/boundary/rejection/malformed/source mismatch/unknown/bypass/removal controls retained. |
+| 8 | VERIFIED/PARTIALLY_VERIFIED/NONCONFORMANT/NOT_ESTABLISHED, mandatory set and positive/mutation rule retained. |
+| 9 | Selected/unverified/omitted/method/controls/exact-scope declaration retained. |
+| 10 | Native/common trace/sealing/private separation/replay/unknown retained; C02/BATCH_CONFORMANCE not retroactively B. |
+| 11 | Planned first S5 slice uses existing obligations; UC4 stage terms remain external source-owned. No completion inferred here. |
+| 12 | Full exit package, requirement results, controls/policy/unknown/feedback retained; eligible C not successful C. |
+| 13 | Failure preserved, missing specification opens A successor rather than rewriting A. |
+| 14 | Production/safety/full conformance/BV/superiority/adoption excluded. |
+| 15 | Full citation block retained with selected requirements, evidence methods, controls and unverified items. |
+
+### Stage C
+
+Every source edition was read; its only later change is Gate→Stage terminology/header metadata.
+
+| Section | Adjudication |
+|---|---|
+| Header | Canonical working v0.1; no native-product completion claim. |
+| 1 | Executable configuration solves Challenge under authority/information/resource/time/continuity through observed effects. |
+| 2 | All ten entry fields retained; B lineage conditional on realizing selected architecture, not generic waiver. |
+| 3 | Real executable object; local abstract code does not become C by execution. |
+| 4 | Frozen Challenge + visible info + independent environment/target observation + policy + matched contract; A/B not proof of C. |
+| 5 | Reuse C11/T03/registration/isolation/adapter/broker/CTv1, future explicit A/B lineage hashes. Infrastructure completeness not inspected here. |
+| 6 | Full ordered frozen run/evidence/seal/private adjudication/accounting/comparison sequence retained. |
+| 7 | Decision/request/attempt/receipt/effect/target distinct; abort/success code not outcome proof. |
+| 8 | Strong peers full credit; ten resource/authority/access/tool/human/deadline/environment/difference conditions retained. |
+| 9 | Actual scoped Cost/Risk/Effectiveness; oracle/infrastructure separate, unmeasured not zero. |
+| 10 | All five outcome families retained, including trade-off, NOT_ESTABLISHED and INFRASTRUCTURE_ERROR. |
+| 11 | Simplified selected/omitted/comparator/resources/evidence/transfer limits retained. |
+| 12 | Both seals/native/common/reset/cache/seed/retry/disclosure/isolation and all negative/inconclusive/infrastructure outcomes retained. |
+| 13 | UC4 admission/terms orthogonal; federated testbed can still test synthetic B. |
+| 14 | Complete output package retains upstream pins, comparator/resource/effect observer, traces/accounting/policy/omissions/independence. |
+| 15 | Implementation/B/A/instrument feedback routes and failed records preserved; no post-hoc Challenge/acceptance repair. |
+| 16 | Replication not implied by author run; transfer needs correspondence/successor. |
+| 17 | Universal safety/certification/full product/standards/novelty/BV non-claims retained. |
+| 18 | Full citation block retains evidence/results/replication/omissions, not just one green status. |
+
+
+## 6. Complete critical claim prerequisites and negative-result recipients
+
+The current B §4 authoritative reference is:
+
+```text
+frozen Stage A specification package
++ requirement-to-architecture trace contract
++ specification-derived positive controls
++ boundary/rejection vectors
++ deliberately defective architecture mutations/counterexamples
+```
+
+Current B §8:
+
+> A Stage B package may be considered verified within scope only when its declared mandatory set satisfies the registered verification rule and all required positive/mutation controls behave as expected.
+
+These are the actual recipient obligations, retained from its introduced Gate-B edition. There is no evidence that a small synthetic case/test count satisfies them without its declared mapping and policy. Current C §§10/12 preserves the following complete outcome rule/list:
+
+> - **VALIDATED_WITHIN_SCOPE** — the pinned implementation meets the frozen Stage C acceptance rule in the declared campaign/evidence mode;
+> - **FAILED** — a substantive registered condition is not met;
+> - **NONDOMINATED / TRADE-OFF** — where a registered comparative profile yields no single dominance result;
+> - **NOT_ESTABLISHED** — evidence/reference is insufficient;
+> - **INFRASTRUCTURE_ERROR** — the evaluation path failed such that the substantive implementation result cannot be determined.
+
+> - candidate-visible/private evaluator separation;
+> - candidate trace seal before private adjudication;
+> - post-run result seal;
+> - raw/native evidence;
+> - normalized DDS trace;
+> - reset/cache/seed/retry policy;
+> - disclosure timing;
+> - isolation evidence;
+> - all negative, inconclusive and infrastructure-error outcomes.
+
+Old B/C terminology did not carry a broader evidence licence than these current clauses. All material controls/nonclaims remain in the current method sources. No **truly orphaned applicable substantive test obligation** is established in the four-path cohort. OPEN-METHOD-01/02 are genuine unresolved owner/deliverable mapping questions, not a false closure of every Contributions consumer. The main current inconsistency found is internal Flores priority propagation (IH-08), with an exact bounded candidate below.
+
+
+## 7. Preserved internal receivers and custody limits
+
+| Current preserved route | Same authenticated source edition | Adjudication |
+|---|---|---|
+| `governance/preserved-public-snapshots/2026-10-07_DDS_CANONICAL_REVIEW_before_research__ecosystem-awareness__DDS_CANONICAL_METHOD_INDEX_v0.1.md.txt` | `c303b21a8efbac97d638fd119edb9ca99e9bcb72` | Retains intermediate local stage/gate error; history only, later repair governs. |
+| `.../2026-10-07_DDS_STAGE_TERMINOLOGY_before_research__ecosystem-awareness__DDS_CANONICAL_METHOD_INDEX_v0.1.md.txt` | `72e2a0e45761fd56d7781b8c93b4c30ce73414ab` | Pre-Stage naming retained, no return to Gate as method stage. |
+| `.../2026-10-07_DDS_STAGE_TERMINOLOGY_before_research__ecosystem-awareness__DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md.txt` | `cf63f9ed2a14b1d24ad904ad4189e99df8dee891` | Pre-Stage current-profile source retained; not alternate active method. |
+| `.../2026-10-07_DDS_STAGE_TERMINOLOGY_2_before_research__ecosystem-awareness__DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md.txt` | `63550796d6bf42ef90e08cc48b6596e23c98cdbb` | Intermediate caption retained; subsequent repair already applied. |
+| `.../2026-10-07_DDS_STAGE_TERMINOLOGY_before_research__ecosystem-awareness__DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md.txt` | `d2743744758890a8fd7cd9fb71db73f1449ad6b8` | Complete introduction retained. |
+| `.../2026-10-07_DDS_STAGE_TERMINOLOGY_before_research__ecosystem-awareness__DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md.txt` | `98ea631b5633386dbc0b4742524dbee3fb6a69ea` | Complete introduction retained. |
+| `.../2026-10-12_DDS_POTENTIAL_CONTRIBUTIONS_before_research__ecosystem-awareness__DDS_CANONICAL_METHOD_INDEX_v0.1.md` | `4af283947c09bf6d39a7dcd8c1f9e1fbec66a25c` | Pre-banner source retained; banner not independent method admission. |
+| `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/old/2026-10-07_before_completeness_review/research__ecosystem-awareness__DDS_CANONICAL_METHOD_INDEX_v0.1.md.txt` | `dc17323638aff9c99c207d39460732c3eba4d552` | Complete pre-completion/raw-LF body read; later metadata/name/line-ending change distinguished. |
+
+Each of these editions was already inspected through its source body/delta; an alternate path is custody, not a second scientific judgement. These are current tree locations in Contributions, not a fork or only an old commit. Many of the 47 source editions remain only in authenticated Git/history custody, not as current maintained copies. The report does not claim every version is physically duplicated. Current cross-owner reception requires clauses, as demonstrated for the table; same blob at a preserved path only establishes byte custody.
+
+
+### Remaining internal DDS reading
+
+R01 mathematics/correspondence, extension aliases, Oracle/C02/C11/T03 admission/seals, run/observer/cost/type adapters, retired/current method consumers, whole-method versioning and campaign-priority propagation remain to be reconciled. This cohort verifies the four source histories; it does not certify every implementation, native/human campaign, Stage B/C, independent adjudication or global corpus closure. Earlier reports and authentic custody remain.
+
+
+### Prepared change 96 — Date the historical Flores preference and point to the current owner principle
+
+**Status:** Prepared — pending named Ivan GO. **Impact:** High. **Risk:** Medium. **Effort:** Low. **Priority:** First.
+
+Source: [research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md); exact current blob `88b78f386047a76e0e2da905bd951ada06e5602b`. Full current paragraph/heading uniquely matched; material before/after history and actual current campaign/principle read.
+
+**Text before — complete current affected context**
+
+~~~~text
+## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary
+
+The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.
+~~~~
+
+**Text after — complete proposed context and addition**
+
+~~~~text
+## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary
+
+**Current reading direction — 14 October 2026.** The retained paragraphs below record the earlier 13 October UC17-08/P0–P3 preparation; their “preferred” wording is historical. The current [campaign](./campaigns-in-development/flores-population-ea/CAMPAIGN.md) follows the later owner-directed [R2 → freeze → uncovered R3 principle](./campaigns-in-development/flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md): demonstrate the participant-defended complete R2 in the known/repaired context, freeze its configuration, adaptation and resources, then admit a material R3 outside its effective coverage with the general EA requalification specification fixed ex ante. UC17-08 and P0–P3 remain antecedents or separate contrasts. Scientific status remains NOT_PREREGISTERED / NOT_EXECUTED / NOT_ADJUDICATED.
+
+The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.
+~~~~
+
+**Why:** Restores current research direction at the DDS entry while retaining all historic reasoning and negative findings.
+
+**Risk:** A reader-priority change can be mistaken for trial adoption or could lose historical rationale if implemented as a replacement; the proposed addition retains the old paragraph and links its actual later owner.
+
+**Cost/validation:** One bounded reading notice; verify current campaign/principle, concurrent notices, exact source match and all unchanged bytes.
+
+**Dependencies:** Current CAMPAIGN and principle v0.2; technical history and NOT_PREREGISTERED state; coordinate the same campaign owner.
+
+**Iván’s instruction/decision:** Ivan names this exact pair/wave; refresh source and confirm no concurrent governing notice. No campaign or experiment is activated. Pending; not applied. All other source bytes must remain unchanged.

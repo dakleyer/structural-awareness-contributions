@@ -1839,3 +1839,325 @@ Iván requests another detailed source-first review, document by document. [Thre
 The first findings narrow earlier loss interpretations: HC/HS and common metrics have active original/corpus receivers; S6’s30 gate cells, controls and measure meanings survive in00J; R0’s rights-record meaning must not be merged with the case route ladder. The real open work concerns complete edition custody, case-to-DDS HR/claim/form mapping, old-alias metric disposition and generic contract transfer. A documented incomplete A01 introduction update predates S6’s reduction.
 
 The [S6 review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#second-source-first-review--s6-t09-and-00j-14-october-2026) and [capacity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md#second-contract-review--capacity-and-the-change93-alternative-14-october-2026) keep source identity, uncertainty and disagreement intact. Changes94/95 prepare two narrow Medium-impact/Low-risk reader corrections; candidate93 receives an alternative with Medium risk and unclosed consumers. None is applied. Remaining cohorts proceed through the existing owners and three reading levels; seven existing paired review paths are one joint logical comparison per pair, without deleting unique history.
+
+
+## Internal Contributions history — EP and Requirements, 14 October 2026
+
+The [second damage-review procedure](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#internal-contributions-history-takes-priority--14-october-2026) now gives priority to internal Contributions editions and commits after the case fork; external/fork comparisons are supporting provenance. Reviewer `/root/case_clause_forensics` read the four current units below, all11 Requirements deltas and all18 EP deltas from the29September reference (four same-day context changes,14 strictly after the recorded submitted-package timestamp). The remaining earlier EP changes are authenticated with full diffs but are not all semantically adjudicated.
+
+| Complete current source | Current blob / bytes | Internal identity coverage |
+|---|---|---|
+| [research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c` / 46217 | 12 distinct payloads; current source and declared internal deltas read |
+| [research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | `c0226a1ba9a45976ad0c887dd9afb97b103e6c37` / 47111 | 1 distinct payloads; current source and declared internal deltas read |
+| [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md) | `9767ec8efb7d3a2875866ea3cd22ebc94882e930` / 90992 | 86 distinct payloads; current source and declared internal deltas read |
+| [architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md) | `f25aef42574afa9d321b352b3d2b1e1447575556` / 12211 | 1 distinct payloads; current source and declared internal deltas read |
+
+### INT-REQ-01 — Frozen Requirements did not acquire post-fork body edits
+
+**Judgement:** No post-29-September modification in this primary source.
+
+All 12 internal versions were authenticated. Its last body change is96cbc949 on25September, current blob4fe3d69. This stable cut was already the0ca06f hypothesis snapshot. Later working changes were not secretly put into the frozen original.
+
+### INT-REQ-02 — H3 falsification correction must survive any restoration
+
+**Judgement:** Supported correction, not missing old evidence.
+
+6a8fd5f changed the falsifier from material difference to no material difference or disappeared benefit under burden. H3 itself predicts greater hidden residual/false confidence on lossy paths, so the old contrary wording had the wrong direction. All six full hypothesis rows are exact across the12 primary versions. The correction alters falsification logic, not a missing hypothesis.
+
+### INT-REQ-03 — Approved S10 binding lives in a separate working successor
+
+**Judgement:** Versioned addition with documented current approval and preserved freeze.
+
+00ea317 adds successor c0226a1b, with an opening owner-approved #16 note and one S10 addition. Its inherited freeze statements describe the predecessor, as the opening note explains. H1–H6/KPIs and all other rows are unchanged. Current baseline and Document Control route to both. Broad actual adoption by every fixture/interface is not established, and registered studies correctly retain their own freeze.
+
+### INT-EP-01 — Five protected README replacements require their own authorization record
+
+**Judgement:** Actual replacements, with passage-specific contemporaneous GO not established.
+
+After the6October append-only instruction, commits39af310,6c93994,c2d0d516,1aba8cf,64fa9f replace existing protected passages. The record contains their complete old/new blocks and current receivers. Some are sound corrections or reclassification; that does not establish permission. The12October protected SHA and final append approval do not retrospectively authorize these earlier surgeries.
+
+### INT-EP-02 — Insertion is not the same event as replacement
+
+**Judgement:** Exact operation types preserved.
+
+1d24b7b prepends the review note;7150279 appends the strategy route;8a2860a inserts theHCsection;f77668d inserts the research/test paragraph;00ea317 appends the final clarity section. These transactions remove no old lines. Mid-body insertion is not a byte-prefix operation and its placement exception may need documentation, but it is not source deletion. The five replacement commits above are different.
+
+### INT-EP-03 — HIT retirement has an explicit current rejection rationale
+
+**Judgement:** Source correction with historical custody, not blind metric restoration.
+
+The earliest01K38fcb757 defines HIT accounting and HID(W) as queued demand minus available tokens. Internal2816aa1 rewrites that source to importHICT/HICR; protectedREADME39af310 follows. Current01K§16 expressly says Human Intelligence Tokens are not canonical HID units, permits local scheduling points and forbids calling themHID. §§14–15 preserve finite runtime capacity separately. This supports correction of the old metric object; no protected-README GO is inferred. The earlier five-formula preservation claim must retain the specific edition it examined, not encompass every earliest token formula.
+
+### INT-EP-04 — DDS reclassification preserves comparative obligations
+
+**Judgement:** No demonstrated lost matched-resource/negative-result contract in the examined surgery.
+
+1aba8cf renames00D from parallel comparative method to DDS comparator/fairness support. The current complete paragraphs still require matched B0–B3, frozen facts, continuity/failure branches, preregistration, ledger, downstream effects and pending independent comparison.64fa9f corrects Gate to Stage nomenclature; current Method Index distinguishes stage object, evidence mode and source-native testbed stages. These semantic receivers do not establish approval for protected replacements.
+
+### INT-EP-05 — Earlier truncation was real and restoration is not a full historical PASS
+
+**Judgement:** Temporary internal reduction with later substantial body restoration.
+
+bedcfce7 reduces75,561bytes to4,139 on27September.01e45c1 restores74,814 on28September. The full old/restored diff shows deck/route and ranking wording changes, while the technical body returns. Current media manifest preserves the removed Ward/Drive/mirror/PDF routes as explicit historical versions. Binary rendering/equality over all media was not reviewed. Other earlier EP versions remain semantically open, despite complete identity/diff capture.
+
+### INT-EP-06 — A23 and transfer prerequisites were strengthened before the fork
+
+**Judgement:** Preserved negative correction, not source loss.
+
+7d6ec216 and merge59ca3c42 produce the same corrected README15df1f0b. Old all-six conformance closure is withdrawn, P3/P5/P6 countermodels stay open, and transfer formulas gain BaseGuarantee/X3/X4 prerequisites. Current EP and A23 preserve those limits. The merge is a second chronology event, not a second independent result or payload.
+
+### INT-DEV-01 — Development strategy has one unchanged body
+
+**Judgement:** No later internal rewriting in this path.
+
+7150279 adds f25aef42 on6October; current path has the identical12,211-byte blob. Full strategy was read. Its priorities remain proposals: clarify meaning/evidence, end-to-end profile, negative-capable strong comparison, attributable review and bounded transfer. It grants no experiment/contact authority. Links to later-reviewed owners do not make the strategy complete or adopted.
+
+### INT-SCOPE-01 — All internal versions are identified; early semantic coverage remains bounded
+
+**Judgement:** 100 unique primary payloads/102 history events; not100 complete independent audits.
+
+Requirements12payloads/events; successor1; EP86payloads/88events including two duplicate-payload merges; strategy1. All identities and full modification diffs are captured. Current four bodies and all18 EP deltas from29September are read; Requirements all11 deltas are read. Other earlyEPdeltas are captured but not wholly semantically adjudicated. Prior fullDOCX reviews are contextual support, never substitutes for this internal chronology.
+
+### Five protected replacements — exact historical before/after
+
+These are observed applied transactions, **not pending restoration proposals**. Later current SHA protection, commit titles and a12October approval cannot establish earlier contemporaneous permission. Passage-specific authorization remains unaccredited. The full before/immediate-after blocks below distinguish semantic preservation from permission; current source reading and every prior audit remain intact. No revert follows from this finding.
+
+#### [39af310284c0](https://github.com/dakleyer/structural-awareness-contributions/commit/39af310284c0ec84798814ad380473ae1d23f18c) — 2026-10-06T18:11:26+02:00
+
+HID/HIT correction has explicit source rationale and receiver §§14–16. Time/qualified capacity are now represented by the runtime tuple; do not restore queue-deficit HID as the canonical debt definition.
+
+**Historical text before — complete affected block**
+
+~~~~text
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It separates **Human Time** from **Human Intelligence Tokens (HIT)**, defines a bounded working notion of **Human Intelligence Debt**, and connects finite human-review capacity to the existing Signalling/EHD and Repositioning paths.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It imports the existing **Human Intelligence Debt** framework — HICR, HICT and the architectural gap between feasible genuine human contribution and actual contribution — and connects it to a separate runtime Human Escalation capacity check over the existing Signalling/EHD and Repositioning paths.
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. The runtime question is whether a qualified human path is actually usable inside the response window; the architectural question is whether the interface is eliciting genuine human contribution or generating avoidable compensatory work. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [6c93994c0295](https://github.com/dakleyer/structural-awareness-contributions/commit/6c93994c02959c0c0061c08b96983ed5c4afdfbe) — 2026-10-06T18:25:22+02:00
+
+Expanded two-surface HC/HID source imports architecture/measurement distinctions, retains nonprivileged alerts and authority boundaries; no demonstrated deletion of those obligations.
+
+**Historical text before — complete affected block**
+
+~~~~text
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It imports the existing **Human Intelligence Debt** framework — HICR, HICT and the architectural gap between feasible genuine human contribution and actual contribution — and connects it to a separate runtime Human Escalation capacity check over the existing Signalling/EHD and Repositioning paths.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**01K — Human Capacity / Human Intelligence Debt**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is the additive extension for two non-fungible surfaces: **runtime Human Capacity** for a particular intervention window, and **Human Intelligence Debt** as the architecture-level gap between feasible genuine human contribution and the contribution the socio-technical system actually elicits. Its organisational annexes import HICR/HICT/HID, GIC/NEO/ACW, portfolio answerability, capability-multiplicity, recovery/velocity and Net Oversight Impact measures, with explicit evidence gates and cross-series bridges. It is consumed by Signalling/EHD and Repositioning where material; it is not a new EA/EP core mechanism.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [c2d0d5161bc4](https://github.com/dakleyer/structural-awareness-contributions/commit/c2d0d5161bc4ddd98258e071de29f586a8813636) — 2026-10-06T19:23:09+02:00
+
+Renames extension and appends A01 implementation routing. Old title is a retired local label; exact old source remains historical, while new component claim is a documentary contract, not native execution.
+
+**Historical text before — complete affected block**
+
+~~~~text
+### Additive Human Intelligence / Human Escalation extension
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+### Additive Human Capacity / Human Intelligence Debt extension
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+[**01K — Human Capacity / Human Intelligence Debt**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is the additive extension for two non-fungible surfaces: **runtime Human Capacity** for a particular intervention window, and **Human Intelligence Debt** as the architecture-level gap between feasible genuine human contribution and the contribution the socio-technical system actually elicits. Its organisational annexes import HICR/HICT/HID, GIC/NEO/ACW, portfolio answerability, capability-multiplicity, recovery/velocity and Net Oversight Impact measures, with explicit evidence gates and cross-series bridges. It is consumed by Signalling/EHD and Repositioning where material; it is not a new EA/EP core mechanism.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**01K — Human Capacity / Human Intelligence Debt**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is the additive extension for two non-fungible surfaces: **runtime Human Capacity** for a particular intervention window, and **Human Intelligence Debt** as the architecture-level gap between feasible genuine human contribution and the contribution the socio-technical system actually elicits. Its organisational annexes import HICR/HICT/HID, GIC/NEO/ACW, portfolio answerability, capability-multiplicity, recovery/velocity and Net Oversight Impact measures, with explicit evidence gates and cross-series bridges. It is consumed by Signalling/EHD and Repositioning where material; it is not a new EA/EP core mechanism. Its reusable implementation contract is [**01K-A01 — HC-HID Component Specification**](../../research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md), which exposes process-relative HC/HID A/B/C/D outputs through the ordinary EHD/receiver-requalification path, controls same-operation circularity and contributes human runtime/readiness/architecture cost to the existing DDS ledger.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [1aba8cf53868](https://github.com/dakleyer/structural-awareness-contributions/commit/1aba8cf5386806192ca572dff3de0f63814168f5) — 2026-10-07T11:35:23+02:00
+
+Reclassifies 00D as comparator/fairness support under DDS. Matched B0–B3 facts, controls, pre-registration, budget, downstream effects and pending independent comparison remain explicitly in the current paragraphs.
+
+**Historical text before — complete affected block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Follow Requirements → interfaces → fixtures/harness → benchmark → applied validation / evidence maturity. |
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Gate A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Gate-A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Gate-B and Gate-C claims require their own upstream packages and cannot be inferred from these earlier records.
+
+A narrative scenario is not evidence by itself. The corpus therefore separates **scenario**, **fixture**, **oracle**, **harness**, **pre-registration** and **execution**.
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+[**Testbed Method / Canonical Benchmark v0.2 — comparative execution method**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Comparative execution and independent replication remain pending.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**00D Canonical Benchmark v0.2 — DDS comparator/fairness support**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Within the current DDS method it is comparator/fairness support rather than a parallel method. Comparative execution and independent replication remain pending.
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+The comparative method freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published sources.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+The 00D support contract freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published supporting sources.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [64fa9f3d777c](https://github.com/dakleyer/structural-awareness-contributions/commit/64fa9f3d777c30860b92ffa7e4440ef4b7193ca8) — 2026-10-07T13:24:21+02:00
+
+Gate to Stage terminology correction preserves object/evidence semantics and stable filenames in the current DDS Method Index; source-native Stage-0 terms retain their own meaning.
+
+**Historical text before — complete affected block**
+
+~~~~text
+
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+# Ecosystem Positioning
+
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+### Agentic Architecture for staying situated as the ecosystem changes
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Gate A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Stage A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Gate-A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Gate-B and Gate-C claims require their own upstream packages and cannot be inferred from these earlier records.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Stage A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Stage B and Stage C claims require their own upstream packages and cannot be inferred from these earlier records.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+### Restoration decisions and remaining work
+
+Retain H3’s corrected falsifier, current01K§16’s explicit HIT rejection, the separate runtime-capacity ledger, A23’s P3/P5/P6 countermodels and its conditional transfer prerequisites. These are reasoned internal corrections, not omissions to reverse. Review authorization and historical custody separately. Finish earlier EP clause/media dispositions and actual S10 consumer binding. [Requirements counterpart](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) records the same frozen/working consequences.
+
+| Review work | Positive impact | Risk of mistaken restoration | Effort |
+|---|---|---|---|
+| Reconcile five protected replacements with actual prepared passages/GO | High — verifiable custody and authority | High if later approval is treated as retroactive permission or an obsolete error is restored | Medium evidence work; no source revert |
+| Preserve corrected H3/HIT/A23 interpretation | High — correct falsification/debt/transfer object | High for blanket historical rollback | Low classification; source-consumer validation remains separate |
+| Working S10 discovery | Medium — readable current preparation route | Low for the complete bounded append; Medium for broad consumer adoption | Low editorial; Medium per consumer |
+| Earlier EP versions and media | Medium — complete history | High if textual restoration substitutes for all clauses/assets | High remaining source/visual review |
+
+
+### Prepared change 97 — Link the approved S10 working successor at the existing EP closing note
+
+**Status:** Prepared — pending named Ivan GO. **Impact:** Medium. **Risk:** Low. **Effort:** Low. **Priority:** Next.
+
+Source: [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md); exact current blob `9767ec8efb7d3a2875866ea3cd22ebc94882e930`. Complete existing closing paragraph unique, located at EOF; append-only proposed addition.
+
+**Text before — complete current affected context**
+
+~~~~text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+~~~~
+
+**Text after — complete proposed context and addition**
+
+~~~~text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+
+For current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.
+~~~~
+
+**Why:** Makes the actual approved working S10 source discoverable while retaining the registered freeze for earlier studies.
+
+**Risk:** Working-source guidance could be mistaken for retroactive adoption; the complete appended sentence preserves the historic evidence/contract boundary.
+
+**Cost/validation:** One reading paragraph and two source checks; individual new-study consumer adoption is separate.
+
+**Dependencies:** Requirements working successor, baseline approved-successor route, DOCUMENT_CONTROL§26 and existing Requirements application#16.
+
+**Iván’s instruction/decision:** Ivan names this pair/wave; EP is append-only and all prior bytes must remain; validate current EOF and links. No source-body replacement. Pending; not applied. All other source bytes must remain unchanged.
+
+
+### Internal branches requiring their own disposition
+
+These eight tips have commits not wholly reachable from main; this graph statement does not establish that their substantive payloads are absent. Some entered main by a different integration path, some are draft-only work. Full current/branch source comparison remains in the actual owning source queue; do not merge or restore them from this table.
+
+| Contributions branch | Fixed tip | Real source/recipient question |
+|---|---|---|
+| `audit/pptx-canonical-2026-09-28` | [bfc50c4239f1](https://github.com/dakleyer/structural-awareness-contributions/commit/bfc50c4239f1bd5716931ef67014a10dedf1f3e0) | Intermediate PPTX branch versus final deck branch/current full media; binary/text/visual comparison remains separate. |
+| `campaign/flores-addendum-merge-20261013` | [0f7958c7aebc](https://github.com/dakleyer/structural-awareness-contributions/commit/0f7958c7aebcebd1c43b8902506c5587b145d729) | Technical/addendum preparation versus current recovered Flores campaign; exact and changed payload recipients differ. |
+| `campaign/flores-theme21-residual-20261013` | [04ade51c4d28](https://github.com/dakleyer/structural-awareness-contributions/commit/04ade51c4d28bc6e1ffa40364cecb78407d01d82) | Earlier Flores fg-tida/tests edition versus current campaigns-in-development body/history; source/key/method scope must remain distinct. |
+| `codex/abcd-foundation-2026-10-01` | [f5932a8f5f1b](https://github.com/dakleyer/structural-awareness-contributions/commit/f5932a8f5f1b7c75edf18dc66882f0633c01d778) | Old ABCD proposed canonical note versus actual maintained00M and foundational receivers; avoid restoring competing authority. |
+| `dds/china-unicom-privilege-lifecycle-stage-a-v0.1-20261014` | [b1d0aa2c75f8](https://github.com/dakleyer/structural-awareness-contributions/commit/b1d0aa2c75f814acfa5d1dd542f21268e3ac431c) | New China Unicom campaign drafts/28 paths absent at this main cut; branch-only work, no demonstrated main deletion or adoption. |
+| `research/hf-signalling-handshake-multigate-v04-20261012` | [9fa6878e6613](https://github.com/dakleyer/structural-awareness-contributions/commit/9fa6878e6613a296ef111a78a7251964972c26f3) | HF multigate-v0.4 draft/13 missing branch paths versus current counterfactual studies; no automatic run or evidence promotion. |
+| `research/steven-s5-audit-2026-10-11` | [d355f9022b3f](https://github.com/dakleyer/structural-awareness-contributions/commit/d355f9022b3f9f628707cb13542c6c8df7546acf) | S5 review-package versions/comments versus current S5 source and retained audit; comments are not sent by this check. |
+| `review/four-point-completion-registers-2026-10-12` | [1b7f30c53165](https://github.com/dakleyer/structural-awareness-contributions/commit/1b7f30c53165e35053b6c3103f734728fa5d7d6d) | Historical snapshot and review-register variants versus actual active files; no new audit of snapshots. |
+
+The complete global object graph is inventoried; semantic closure is per document. Current PDFs/decks and remaining early EP versions stay on the reading queue.
