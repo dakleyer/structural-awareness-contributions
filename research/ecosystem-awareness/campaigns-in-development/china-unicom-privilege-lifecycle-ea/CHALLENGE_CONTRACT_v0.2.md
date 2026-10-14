@@ -1,5 +1,9 @@
 # CU-HIB-01 — Approval-ready Challenge design contract v0.2
 
+
+> **CURRENT DESIGN SUCCESSOR — v0.3 (14 October 2026):** [self-contained R1→R2→R3 Challenge and complete source-comment links](THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md), with [adversarial review](THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md). The original v0.2 one-edge causal control remains in force, but the new dossier adds **competent R1, defended restoration R2, full R2 freeze and R3 changed-context traversal**, fixes the source status of [Ying's 09:49 agreement](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429), and does **not** make EA advantage a primary predicate. The text below is preserved historical design.
+
+
 **Campaign:** DDS-A-CU-PLM-EA-01 · **Owner:** Iván Abril Palma / The Integral Management Society · **Issue:** [FG-TIDA Theme #23](https://github.com/FG-TIDA/themes/issues/23) · **Edition:** 14 October 2026.
 
 **Status: COMPLETE FOR INTERNAL DESIGN REVIEW; NOT APPROVED / NOT PREREGISTERED / NOT FROZEN / NOT EXECUTED.** This contract **supersedes the v0.1 experimental design for forward planning**; the [v0.1 predecessor](PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and other source documents remain unmodified historical context. Nothing below is a China Unicom recommendation, source-owner agreement or adopted ITU specification.
