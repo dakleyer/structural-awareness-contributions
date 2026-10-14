@@ -2,7 +2,7 @@
   "campaign_handle": "DDS-A-CU-PLM-EA-01",
   "slug": "china-unicom-privilege-lifecycle-ea",
   "title": "China Unicom / Theme #23: qualified-context privilege restoration after hibernation",
-  "version": "0.2",
+  "version": "0.3",
   "created": "2026-10-14",
   "last_updated": "2026-10-14",
   "local_campaign_owner": "Iván Abril Palma / The Integral Management Society",
@@ -170,7 +170,10 @@
     "approval": "APPROVAL_AND_PREREGISTRATION_v0.2.md",
     "audit": "AUDIT_REPORT_2026-10-14.md",
     "calibration": "fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
-    "static_checker": "tools/validate_challenge.py"
+    "static_checker": "tools/validate_challenge.py",
+    "third_party_dossier": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
+    "third_party_adversarial_review": "THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md",
+    "R123_stage_register": "R123_STAGE_REGISTER_v0.3.json"
   },
   "open_obligations": [
     "Source-authorized decision policy, restore-condition and restricted privilege semantics",
@@ -185,8 +188,8 @@
   ],
   "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation.",
   "approval_gates": {
-    "D0_LOCAL_DESIGN": "READY_FOR_REVIEW_NOT_APPROVED",
-    "D1_EXTERNAL_SEMANTICS": "NOT_ESTABLISHED",
+    "D0_LOCAL_DESIGN": "READY_FOR_INDEPENDENT_REVIEW_NOT_APPROVED",
+    "D1_EXTERNAL_SEMANTICS": "TWO_STEP_DISCUSSION_SUPPORTED_SPECIFIC_RISK_POLICY_NOT_APPROVED",
     "D2_STAGE_A_PREREGISTRATION": "BLOCKED_NOT_FROZEN",
     "D3_STAGE_A_RESULT": "NOT_EXECUTED_NOT_ADJUDICATED",
     "STAGE_B": "NOT_STARTED",
@@ -223,5 +226,40 @@
     "static_casebook_assertions_initial_creation": 12,
     "static_checker_executed_in_this_tool_session": false,
     "results_or_effects_observed": false
+  },
+  "research_priorities": {
+    "primary": "INDEPENDENT_CONTEXT_SHIFT_RELEVANCE_AND_SPECIFICATION_DISCOVERY",
+    "secondary": "TESTABLE_EA_CANDIDATE_REQUIREMENTS",
+    "tertiary": "OPTIONAL_MATCHED_EA_VS_STRONG_CONVENTIONAL_DIFFERENTIAL_NO_PREDETERMINED_WINNER"
+  },
+  "source_cutoff": {
+    "date": "2026-10-14",
+    "all_theme_23_issue_comments": 6,
+    "last_comment": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429",
+    "source_authors_agree_restoration_anchor": true,
+    "activation_order": [
+      "validate_predeclared_restore_condition",
+      "derive_current_intent"
+    ],
+    "normative_ITUT_adoption": "NOT_ESTABLISHED",
+    "specific_source_policy_approved_for_experiment": false
+  },
+  "R123_design": {
+    "status": "DESIGNED_NOT_EXECUTED",
+    "namespace": "R1 R2 R3 are scenario traversals inside DDS Stage A",
+    "R1": "competent_native_authorization_reference",
+    "R2": "source_owned_two_step_restoration_quality_plan_fully_defended_and_frozen_before_R3",
+    "R3": "same_frozen_R2_under_single_new_edge_S_to_R_with_visible_partial_unknown_and_positive_controls",
+    "S_criticality_constant": true,
+    "one_factor_primary": true,
+    "exploratory_uncovered_R3_separate_from_confirmatory": true
+  },
+  "audit_v0_3": {
+    "review_type": "AUTHOR_SIDE_CRITICAL_DOCUMENT_REVIEW",
+    "findings_count": 14,
+    "source_update_applied": true,
+    "scientific_result": "NOT_ESTABLISHED",
+    "independent_design_signoff": false,
+    "independent_pdp_run": false
   }
 }
