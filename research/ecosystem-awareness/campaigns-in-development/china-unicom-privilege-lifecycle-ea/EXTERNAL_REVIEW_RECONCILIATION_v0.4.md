@@ -1,4 +1,4 @@
-# CU-HIB-01 — External review reconciliation v0.4
+# CU-HIB-01 — AI-assisted author-side review reconciliation v0.4
 
 > **Provenance of review:** **AI-assisted adversarial, author-side analysis**. This is neither independent peer review nor source-owner validation; the historical filename and earlier “external/third-party” labels are retained only for traceability.
 
