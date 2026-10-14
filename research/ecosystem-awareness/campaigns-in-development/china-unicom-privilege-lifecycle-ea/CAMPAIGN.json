@@ -182,7 +182,8 @@
     "r3_empirical_audit": "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
     "WP0_owner_brief": "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
     "governing_recurrence_principle": "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
-    "modeX_first_run_card": "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md"
+    "modeX_first_run_card": "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md",
+    "focused_source_hibernation_challenge": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md"
   },
   "open_obligations": [
     "Source-authorized decision policy, restore-condition and restricted privilege semantics",
@@ -372,5 +373,21 @@
     "source_rights": "MUST_BE_LEGITIMATE_AND_MATCHED",
     "no_executed_R3U": true,
     "no_external_comment_posted": true
+  },
+  "current_source_facing_entry": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
+  "focused_discussion_state": {
+    "object": "REACTIVATION_WITH_ANOTHER_RELEVANT_DEPENDENCY_SOURCE_HIBERNATING",
+    "R1": "PROBLEM_SCOPED_HIBERNATION_CONTEXT_CHANGE_NOT_EXECUTED",
+    "R2": "STRONG_NATIVE_ZHAO_RESTORE_PREDICATE_PLUS_YING_VALIDATION_THEN_CURRENT_INTENT_CANDIDATE_NOT_FROZEN",
+    "R3": "SECOND_SOURCE_UNAVAILABLE_DEPENDENCY_CURRENT_STATE_INDETERMINATE_UNDER_R2_VERIFICATION_NOT_SCORED",
+    "source_published_discussion": "YING_2026_10_14_08_54_AND_09_49",
+    "role_of_EA": "OPTIONAL_NON_FUNGIBLE_QUALIFIED_INDICATIONS_NOT_PERMISSION_OR_GLOBAL_CERTAINTY",
+    "canonical_plausibility": "00N_MECHANISM_TO_REQUIREMENTS_AND_00M_MATHEMATICAL",
+    "canonical_sufficiency": "T1_T2_T3_T4_RETAINED_UNPROVEN",
+    "methodological_connection": "DDS_STAGE_A_AND_FG_TIDA_UC21",
+    "source_facing_question_count": 1,
+    "external_comment_posted": false,
+    "owner_approved_policy": false,
+    "external_test_run": false
   }
 }
