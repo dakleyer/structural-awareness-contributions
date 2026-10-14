@@ -29,6 +29,9 @@ REQUIRED = (
     "APPROVAL_AND_PREREGISTRATION_v0.2.md",
     "AUDIT_REPORT_2026-10-14.md",
     "fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
+    "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
+    "THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md",
+    "R123_STAGE_REGISTER_v0.3.json",
 )
 checks = []
 errors = []
@@ -94,6 +97,52 @@ check("human_ack_is_separate_postactivation_event",
       by["CU-C10"]["reference_world"]["T0"]["human_resume_ack"] is False
       and by["CU-C10"]["reference_world"]["T2"]["human_resume_ack"] is False
       and by["CU-C10"]["post_activation_input_event"]["time"] == "T3")
+
+
+# v0.3 context-first challenge and source reconciliation; documentary checks only.
+r123 = load_json("R123_STAGE_REGISTER_v0.3.json")
+third_party = (PKG / "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md").read_text(encoding="utf-8")
+third_party_review = (PKG / "THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md").read_text(encoding="utf-8")
+stages = r123.get("stages", [])
+r123_cases = r123.get("cases", [])
+check("v03_campaign_version", campaign.get("version") == "0.3")
+check("v03_source_author_agreement_recorded", campaign.get("source_cutoff", {}).get("source_authors_agree_restoration_anchor") is True)
+check("v03_six_original_source_comment_links",
+      all("issuecomment-" + comment_id in third_party for comment_id in
+          ("5700157082","5707764621","5915019756","6072991126","6164646309","6165603429")))
+check("v03_correct_activation_order",
+      r123.get("latest_source_agreement", "").endswith("6165603429") and
+      [x.get("id") for x in stages] == ["R1", "R2", "R3"] and
+      stages[1].get("required_order", [])[:3] ==
+      ["AT_SUSPENSION_DECLARE_AND_PIN_RESTORE_CONDITION",
+       "ON_ACTIVATION_VALIDATE_PINNED_CONDITION",
+       "THEN_DERIVE_INTENT_AGAINST_CURRENT_CONTEXT"])
+check("v03_source_policy_and_runs_not_approved",
+      r123.get("source_owner_policy_approved") is False and
+      r123.get("independent_oracle_assigned") is False and
+      r123.get("stage_B") == "NOT_STARTED" and
+      r123.get("stage_C") == "NOT_STARTED" and
+      campaign.get("status", {}).get("local_design_approved") is False)
+check("v03_all_controls_unexecuted",
+      r123.get("status") == "NOT_APPROVED_NOT_PREREGISTERED_NOT_FROZEN_NOT_EXECUTED" and
+      stages[1].get("frozen_completely") is False and
+      all(x.get("completion") == "NOT_EXECUTED" for x in stages))
+check("v03_R3_primary_one_variable_control",
+      stages[2].get("world", {}).get("service_S_critical_at_t0") is True and
+      stages[2].get("world", {}).get("service_S_critical_at_t2") is True and
+      stages[2].get("world", {}).get("dependency_S_R_at_t0") is False and
+      stages[2].get("world", {}).get("dependency_S_R_at_t2") is True)
+check("v03_R3_unknown_worlds_do_not_leak_evaluator_truth",
+      all(x.get("visible_packet_insufficient_for_full_action") is True
+          for x in r123_cases if x.get("id") in ("R3-C+", "R3-C−")) and
+      all(x.get("positive") is False for x in r123_cases
+          if x.get("id") in ("R3-C+", "R3-C−")))
+check("v03_review_not_independent",
+      "not independent" in third_party_review.lower() and
+      "NOT_ESTABLISHED" in third_party_review)
+check("v03_primary_goal_not_EA_winner",
+      r123.get("research_object") == "CONTINUING_APPLICABILITY_UNDER_CONTEXT_CHANGE" and
+      r123.get("scientific_object_not") == "EA_PRODUCT_SUPERIORITY")
 
 missing_links = []
 relative_links_checked = 0
