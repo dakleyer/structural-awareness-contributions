@@ -7494,7 +7494,7 @@ For R01, the [root reader](./baseline/reductions/00G-R01/README.md) and its sole
 
 **Source:** `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `88b78f386047a76e0e2da905bd951ada06e5602b`. **Location:** The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact..
 
-**State:** proposed, not applied. **Priority:** Primera. **Impact / risk / effort:** Alto / Medio / Alto.
+**State:** Applied — owner-authorized 15 October 2026. Source blob `39f2ac08d6a2a07227f9595eaec4537b61be16f4`. No longer pending. **Priority:** Primera. **Impact / risk / effort:** Alto / Medio / Alto.
 
 **Benefit:** Makes the complete original case sources and their media available inside Contributions while keeping one maintained method route.
 
@@ -17694,7 +17694,7 @@ The rows below are the current plan-reading view. Historical entry flags such as
 | 109 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md) |
 | 110 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 111 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md) |
-| 112 | Source custody applied; reader paragraph112 remains pending | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 112 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 113 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 
 The separate sealed 00J transfer-premise pair stays in [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md), without another register ID. Its old/result formula and proposed conditional qualification are complete. Its actual dependencies are A25's separately established full-route base guarantee, X3 failure reflection, X4 conformance preservation, A26's positive controls and reconciliation with the receiving success-case claim. The earlier empty “Dependencies:” caption does not mean that there are no dependencies.
@@ -17887,3 +17887,8 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 ### Application 111 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.
+
+
+### Application 112 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; resulting source blob `39f2ac08d6a2a07227f9595eaec4537b61be16f4`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.

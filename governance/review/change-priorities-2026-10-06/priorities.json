@@ -5662,7 +5662,7 @@
         "W02",
         "W03"
       ],
-      "state": "Source custody applied; reader paragraph112 remains pending",
+      "state": "Applied; removed from the pending queue",
       "impact": "Alto",
       "risk": "Medio",
       "effort": "Alto",
@@ -6127,62 +6127,15 @@
         "original_manifest_preserved": true,
         "actual_use_case_sha256": "b81710d02d4b469d4af024f7dfa9ff4e9efedeb5c56b04eb45e3ae2f171ebf76"
       },
-      "application_status": "partial_source_custody",
+      "application_status": "applied",
       "application_authorization": {
         "date": "2026-10-15",
         "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
         "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
       },
-      "application_from_commit": "1c37061f85365588f0b0535b0f3b1aec7a698685",
+      "application_from_commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429",
       "applied_source_blobs": {
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md": "93a71b4ea2798dffb0aff1c138bd7b94d1da1257",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/SHA256SUMS.txt": "c24e434392b921b31a1211f13ce9e27d7ddc1dcc",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/SUBMISSION.md": "0555b68a75fddf8ae19937efe513ec6ec6f65cef",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md": "6e3d299fdb077ef463d6e9b026510cd050eb34b3",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md": "f14cfee1b588d0814bb39288b40d715bbed826a2",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md": "11e844056e6253e3e8ec0983072dd8fdc3b0d88e",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md": "3fb1a3ffc83a430597502c173146c3d2e3ec70bf",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md": "7e315c2fc1931e19a9a61d03912b9fb88b51031c",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md": "452d0e2f68124d57b0164375339d3bb9e909082c",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md": "824f4f974d1423cb98c78504ac9e6ca91fb95b0b",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md": "d9e0972aa61dbfacb3236dc08b200f94fee284a0",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S1.md": "d70c30fd6080565d90b720da13befca41fe0ad4a",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S2.md": "7b4a1fcb86530e2a1b57f0846aa02996ddf44683",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S3.md": "a14fd35f3dc379490d2c22af8d59aa86e25847ca",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S4.md": "0dec490f15c325ef6e96d76435da192105b686b2",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md": "9e6df1f185971b8a8320701947c3e73ac9268582",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S6.md": "a02ff40d9a74603944c462e52ff5aa28e412535d",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T01.md": "3e42d7f4d6632d8924c0fbc4db8291534972d0ac",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T02.md": "65d9bbe6dd65c1399f6b330f3ba50617c6a70c1e",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T03.md": "ea718347cd642cf1291b6d13839be3848f567d7b",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T04.md": "010b3c6b83a529d0d1874e3e593270bae3b8216e",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T05.md": "df4aeb0798cabd875236212efeab2fb899902106",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T06.md": "b2586c20632b6409805b24e3f085dced945bc62e",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T07.md": "e4543f3b58025d0e2b542713db27cf1d4218e16c",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T08.md": "dd04840f51627d958ef91b154a19bd87f36b585a",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T09.md": "c6c49fbc022a7d5539b6fa460db67fc9bcd1c03e",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg": "ea44ce5fd4659ea948473f96590968668b6387e9",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg": "78add3dea7e641c1ea2f64bc342d0410eb622c2a",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/1_signal_to_role_drift.svg": "9b1de6df0eedb74d063f2b8614a3121866040646",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/2_matched_topology_source_dependence.svg": "e27a2a870e0c19d786303f93048a6f6774d12bd3",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/4_branch_f_vs_g.svg": "dfb3ccb202fe40b64d5d41f4a1e745e97fcc871a",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/5_gate_reference_matrix.svg": "aebfa4b0551528cbb4c9ec4bb4db5cfe1b09ad42",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/6_openai_implementation_trajectories.svg": "1e0564fb2c17fcc7d317c2fa0a66a47df80e6b9e",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/7_compaction_regime_change_test.svg": "bc57afca58f4e2964430f0bea335b0152aeea8a6",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/1_lineage_chain.svg": "370a30d19d8bef1b82452c0528f0d289ffd96b55",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/2_evidence_scopes.svg": "bf144dafa900e0d2f60ff314814bcf24284ae054",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/4_gate_reference_card.svg": "fa7485307ef3167a5ae81a307cb95d0222bf5467",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/admission_checklist.png": "464cc07b47f8188d4c3d924bd196d01e21c065df",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/admission_checklist.svg": "d03f307cc5090def3da050f276e8615d0894bacb",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.png": "a5bc8127241da21313f7fc80f02accdf62198293",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.svg": "dadcf8a77e5070bb61f5a247c0fbe18ee0bb135f",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/package_map.png": "797731d4b2d17afd3eb289f4218750c482a1167c",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/package_map.svg": "98ce5119ee00fbf019b6d6041e458931e9b4bcfd",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json": "cf168bd078c52d5e860267391fc6865a88dd8d3c",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json": "41d17f0009c4e9e6649154a4a79ee686e17a2dbc",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json": "f6f4addd280953aa25d949508a6898ecda3a5794",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json": "d6640591068e85badd88e529ae8d67c78e061d4c",
-        "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md": "be014eb521d0ede16697ad0f37b961c5eb562d63"
+        "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "39f2ac08d6a2a07227f9595eaec4537b61be16f4"
       },
       "custody_applied_commit": "94abab6bc9b98f811df39e820a59864bc451f315"
     },
@@ -16320,6 +16273,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "112",
+      "date": "2026-10-15",
+      "from_commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429",
+      "title": "Preserve the complete 48-file original UC21 source package with a readable entry",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "before_blob": "ce38e7eca70410d8fbd7d7dbcf65665c6a353a25",
+          "after_blob": "39f2ac08d6a2a07227f9595eaec4537b61be16f4",
+          "bytes": 67091,
+          "sha256": "cbbc0018c8c1a281d18eb3e9f353b0ad25fcf3cd2901fe30fc231709e12a56b9"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.",
+          "old_occurrences": 1,
+          "before_sha256": "582b3f254b016122d9d217ea43c71e57f313ff72aa4736d388c31422df5795de",
+          "after_sha256": "c73b589b52fbf1daf05638264e3564cce5d01623d8e960bc90aea50075e040c6",
+          "prefix_sha256": "25cb4d49d8ce707e0dee4f8036372e423813650c31cf46f0b10b3290684c1b2c",
+          "suffix_sha256": "f97ce353bdd2eb039f67fd4e3864ced1819114d7c504b10e1fea069a8f06d075",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18527,6 +18517,13 @@
           "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md": "f511c309fca30942deff376d9b52fb301c3c64b2"
         },
         "from_commit": "18e361778c755ec2f24ecf026e99747bf39359c3"
+      },
+      "112": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "39f2ac08d6a2a07227f9595eaec4537b61be16f4"
+        },
+        "from_commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429"
       }
     }
   }
