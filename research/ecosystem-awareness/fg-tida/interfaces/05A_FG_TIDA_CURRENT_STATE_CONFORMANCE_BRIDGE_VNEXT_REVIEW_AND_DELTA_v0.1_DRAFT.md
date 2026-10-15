@@ -284,6 +284,53 @@ https://github.com/FG-TIDA/themes/issues/21#issuecomment-5936600434
 This creates a defensible current-state boundary without collapsing the two layers: Theme #21 owns the population measurement semantics; EA remains the downstream decision-scoped qualification/composition function.
 
 
+### 2.11 Theme #18 — Collective Objectives / collective-choice interface (15 October 2026 source refresh)
+
+**Additive 05A status entry, not a restatement of the 2 October determination.** The matching ideal addition is 05 Ideal vNext §7.2; frozen 05 v0.4 §13 and this bridge's historical 19 September snapshot remain untouched.
+
+**Public source record.** Theme #18 proposes a collective-choice formalism for conflicting trustworthiness objectives, with the relationship between regime, mode, operator and transition conditions sharpened in the exchanges between Pam Dixon and Arnaud Taddei. Iván's 2016–17 operational example distinguishes state-dependent utilities/constraints from operator drift, but remains an illustrative contributor case. Cyril's 14 October mapping proposes #18's operator declaration as part of a #5-authored reference consumed by #6 and read at population scale by #21. Arnaud expressed willingness to define interfaces while reserving his view of whether trustworthiness controls should have a separate group; Cyril subsequently accepted that separation as a possible arrangement. None of those replies expressly accepts the EA-specific §7.2 adapter.
+
+Anchors:
+- https://github.com/FG-TIDA/themes/issues/18#issuecomment-5485431922
+- https://github.com/FG-TIDA/themes/issues/18#issuecomment-6147855004
+- https://github.com/FG-TIDA/themes/issues/18#issuecomment-6171043104
+- https://github.com/FG-TIDA/themes/issues/18#issuecomment-6173025205
+- https://github.com/FG-TIDA/themes/issues/18#issuecomment-6181569557
+- https://github.com/FG-TIDA/themes/issues/36
+
+**05A disposition:**
+- **Current source state (contributor/Theme-proposer level):** #18's problem and the distinction among declared operator, operating regime/mode and transitions; publicly proposed #18→#6→#21 functional relationship and willingness to define inter-group interfaces.
+- **Candidate cross-Theme EA interface:** conditional #18→EA handoff of an authored declaration and scoped effective-behaviour assessment, with EA checking contextual applicability and returning only insufficiency/requalification information; no agreed common source-native schema.
+- **Test-only / not executed:** an EA/#18 comparative or toy fixture separating changed regime/utility/constraint from operator drift or measurement bias.
+- **Not established:** FG-TIDA adoption of the interface, Arnaud's acceptance of EA fields, a settled Working Group placement, identification of an effective operator from one trace, or a universal applicability claim for Arrow/collective-choice bijection.
+
+**Boundaries retained:** #18 does not acquire EA's contextual qualification task; #5 retains standing, #6 conformance, #21 independent population measurement and #16 authorized escalation. The 05 Ideal addition does not amend any source-owned semantics.
+
+### 2.12 Theme #5 / #9 — provenance of authority, authored aggregation and decision-specific evidence (15 October 2026 source refresh)
+
+**Additive 05A status entry, not a restatement of the 2 October determination.** This evaluates the ideal addition in 05 Ideal vNext §7.3, while preserving frozen 05 v0.4 §9 and the historical 05A authority route.
+
+**Public source record.** Pam Dixon's open Phase 2 charter PR #15 specifies D1–D5, including origination standing and act-time binding of grants, per-grant composition under each mandate's governing regime, and recoverable provenance requirements. In Theme #9, Iván offered a decision-specific observational-sufficiency condition for a cluster assertion that may have lost a grant restriction after change. Pam confirmed the formal condition, grounded it in observability and data-minimisation terms, and asked who authored the summary transformation S and under what standing. The author/standing of S in that proposed fixture has **not** been established by her response.
+
+Anchors:
+- https://github.com/FG-TIDA/themes/pull/15
+- https://github.com/FG-TIDA/themes/pull/15#issuecomment-5481072635
+- https://github.com/FG-TIDA/themes/issues/9#issuecomment-6177147259
+- https://github.com/FG-TIDA/themes/issues/9#issuecomment-6179863862
+
+**05A disposition:**
+- **Current source state (Theme-owner/public-charter level):** grant origination distinct from act-time applicability; scope and legally governed per-link composition; derived attestations/cluster summaries do not themselves establish grant standing. PR #15 remains open, not an adopted FG-TIDA charter.
+- **Current source discussion (bounded mathematical proposition):** observational sufficiency conditional on an independently defined validity reference and legitimately accessible evidence at a fixed action/deadline; the two-history example is a possible counterexample, not a prevalence finding or an impossibility result about every clustering system.
+- **Candidate cross-Theme EA interface:** material grant/mandate distinction, authored or unknown summary transformation S, preserved/omitted scope conditions, provenance/coverage limits, and EA feedback naming an unestablished proposition and authorized requalification route. Pam did not approve this interface payload.
+- **Test-only / not executed:** scope-preserving issuer lookup, lossy cluster assertion, never-authored reference and prospective regrant fixtures under frozen source-access and normative regimes.
+- **Not established:** identity of the actor/authority behind S in the hypothetical case, a universally applicable grant schema, a cross-Theme EA certification of legal standing, or any new authority created through EA, conformance or aggregation.
+
+**Boundaries retained:** #5/#9 owns origin, mandate content and standing; #6/#36 evaluates action conformance without creating standing; #1 supplies attributable action records; EA qualifies sufficiency for the receiving question and preserves the unresolved condition. Where the legal reference itself is not authored or is contested, do not report a failed exact validator of an otherwise well-defined reference.
+
+**Temporal rule:** these entries supplement the 05A vNext source record **as of 15 October 2026**. They do not backdate new agreement into the 2 October delta table or the 19 September bridge, and do not promote a Candidate or Test-only item without semantic-owner review and a frozen conformance record.
+
+---
+
 ## 3. Ideal-to-current delta table
 
 | 05 Ideal item | Current 05A position as of 2 Oct 2026 | Reason |
