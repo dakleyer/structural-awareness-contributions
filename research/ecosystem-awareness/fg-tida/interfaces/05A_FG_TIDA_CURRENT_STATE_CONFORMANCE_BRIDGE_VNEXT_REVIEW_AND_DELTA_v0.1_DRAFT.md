@@ -331,6 +331,20 @@ Anchors:
 
 ---
 
+### 2.13 Theme #13 — direct F3/F4 versus full-EA outbound contract (15 October 2026)
+
+**Additive current-state evaluation** of the candidate profile selector in 05 Ideal vNext §7.4; this does not amend the historical 19 September 05A snapshot or any Theme's agreed interface.
+
+- **Current source state (EA architecture):** frozen 03 defines F1 as mission/decision context qualification; F2 as window/sensing-pathway qualification with `W(d,t)` and F2.APQ; F3 as local epistemic state qualification `QL(d)`; F4 as the corresponding external-source qualification `QE(d)`; and F5/F6/F8 as later composition, systemic assessment and bounded publication. F1 itself is not an acquisition sensor. An F2 path assessment, F3 local qualification and systemic EA output answer different questions.
+- **Current source state (Theme #13 contributor positioning):** Ward Duchamps placed EA within #13 and supported independently testable EA and incident/signal lifecycle mechanisms with a shared interface. Nelson accepted a bounded adapter/testbed direction. Those statements do not specifically endorse bypassing F5/F6 for outward F3/F4 source-state publication.
+- **Candidate cross-Theme contract, not established:** selecting F2→receiver (window/pathway profile), F3→receiver (qualified local state), F4→receiver (qualified external evidence) or F5/F6/F8→receiver (full systemic conclusion) according to the recipient's declared evidence need, with a minimal IF-S11/EHD adapter where appropriate. “F3 replaces EA” means **F3 supplies the semantic output instead of the composite EA result in that single route**, not that the EA function or Theme #13 ownership disappears.
+- **Test-only:** a frozen positive/boundary comparison in which recipient adequacy and preservation of native verdict/authority/measurement semantics are independently reviewed; no such cross-Theme direct-output fixture is asserted to have passed.
+- **Not established:** acceptance by Ward, the Theme #13 proponent, or by #5/#6/#18/#21 producers; a common direct F3 wire format; delegated power to decide policy/authority or direct independent measurement. Any source-native claim or residual UNKNOWN that cannot survive the direct path blocks a sufficiency conclusion.
+
+Source anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476256 ; https://github.com/FG-TIDA/themes/issues/13#issuecomment-5639226397 ; https://github.com/FG-TIDA/themes/issues/13#issuecomment-5640186655 . Internal source definitions: [03 functional architecture part 1](../../baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md), [part 2](../../baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md); [04 IF-S11](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).
+
+---
+
 ## 3. Ideal-to-current delta table
 
 | 05 Ideal item | Current 05A position as of 2 Oct 2026 | Reason |
