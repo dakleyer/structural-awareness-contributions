@@ -292,3 +292,6 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 ### Application 109 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`; resulting source blob `19c98168a39a8f545024e190149e99dee8f4ccee`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+**Verified application commits — 04_capacity_contract:** [109](https://github.com/dakleyer/structural-awareness-contributions/commit/97ed9eee5055a996b38e537bcd6a627d35d695dc).
