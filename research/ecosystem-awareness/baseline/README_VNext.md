@@ -1839,42 +1839,9 @@ The current source cut is `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. Separate s
 
 The following exact pairs are the bounded current batch. Earlier audits and incomplete readings retain their own states.
 
-### Change 122 — Identify the translated R01 check receipts and reconnect their exact originals
+### Change 122 — Applied 15 October 2026
 
-**State:** reviewed exact proposal; authorised by the current restoration instruction, not yet applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
-
-Source: `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, blob `2a696473339c0eb184795a5f91f39216e087120f` at `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. The complete old passage below occurs once.
-
-**Text before — complete current passage**
-
-~~~~markdown
-Earlier deliveries, their arguments and dated statuses are preserved. Only relative links of relocated drafts are adjusted; scientific scripts and reports are byte-exact. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.
-~~~~
-
-**Text after — complete proposed passage**
-
-~~~~markdown
-Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.
-
-**Original receipts.** The complete dated originals below preserve the historical before/after strings. The translated copies under `partial-experiments/historical/` are derivatives; use the original editions when checking the original transformations.
-
-| Record | Complete original edition | Original blob |
-|---|---|---|
-| `M01_SCOPE_CHECKS.json` | [Original at `3384ba5d9db7`](https://github.com/dakleyer/structural-awareness-contributions/blob/3384ba5d9db722808572d30ccee098fe92598410/research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json) | `71d94055d053c762085f1c8ff8f5225b56c961e3` |
-| `M02_RELEASE_CHECKS.json` | [Original at `419b8e93b4b1`](https://github.com/dakleyer/structural-awareness-contributions/blob/419b8e93b4b13a3a96ca1534b0d134be4a764c78/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json) | `2f0e119b79cc79bb9fd28b21cadb7d163e8e46c5` |
-| `M10_RELEASE_CHECKS.json` | [Original at `2dc438df5246`](https://github.com/dakleyer/structural-awareness-contributions/blob/2dc438df524663ebf79e6552cd688d34c2619d8b/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json) | `9ae62142097d5c2f60c5aa90f511de8ccf932e2c` |
-| `TRILEMMA_RELEASE_CHECKS.json` | [Original at `dbae91655316`](https://github.com/dakleyer/structural-awareness-contributions/blob/dbae916553166a29f9e756f8c7a6efdfa4c93c21/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json) | `0e69888adfe6eba16532790509e2cfd4a3101283` |
-~~~~
-
-**Reason / expected benefit:** Corrects a false byte-exact custody statement and gives direct access to four complete primary receipts for historical before/after verification.
-
-**Risk to check:** The edit is confined to the reading index. Preserve the translated JSON, exact source editions, scripts and numerical results; do not recertify a translated before field as an original.
-
-**Preparation and maintenance effort:** Check the complete index, four original/current receipt pairs, links and exact inverse; no scientific rerun.
-
-**Dependencies:** M03/M04 Spanish and English editions; Four pinned receipt originals and their translated derivatives; Baseline auxiliary catalogue and historical study index.
-
-**Iván's instruction:** extend historical damage control to the rest of the corpus; review independently, prepare literal VNext pairs, prioritise, apply surgical repairs and compare the whole predecessors again. This item changes only the stated passage. Scientific scripts/results and physical organisation stay in their current editions.
+The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, source blob `e5f373bb104f370dfb336b356f14733aec61a59f`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/README_VNext.md#change-122--identify-the-translated-r01-check-receipts-and-reconnect-their-exact-originals) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `2a696473339c0eb184795a5f91f39216e087120f` exactly.
 
 ### Change 123 — Restore annotated reading routes to distinct formal antecedents and working drafts
 

@@ -4,7 +4,17 @@
 
 [Current study](../README.md) · [Current mathematical document](../PURE_MATHEMATICAL_TRILEMMA.md).
 
-Earlier deliveries, their arguments and dated statuses are preserved. Only relative links of relocated drafts are adjusted; scientific scripts and reports are byte-exact. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.
+Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.
+
+**Original receipts.** The complete dated originals below preserve the historical before/after strings. The translated copies under `partial-experiments/historical/` are derivatives; use the original editions when checking the original transformations.
+
+| Record | Complete original edition | Original blob |
+|---|---|---|
+| `M01_SCOPE_CHECKS.json` | [Original at `3384ba5d9db7`](https://github.com/dakleyer/structural-awareness-contributions/blob/3384ba5d9db722808572d30ccee098fe92598410/research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json) | `71d94055d053c762085f1c8ff8f5225b56c961e3` |
+| `M02_RELEASE_CHECKS.json` | [Original at `419b8e93b4b1`](https://github.com/dakleyer/structural-awareness-contributions/blob/419b8e93b4b13a3a96ca1534b0d134be4a764c78/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json) | `2f0e119b79cc79bb9fd28b21cadb7d163e8e46c5` |
+| `M10_RELEASE_CHECKS.json` | [Original at `2dc438df5246`](https://github.com/dakleyer/structural-awareness-contributions/blob/2dc438df524663ebf79e6552cd688d34c2619d8b/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json) | `9ae62142097d5c2f60c5aa90f511de8ccf932e2c` |
+| `TRILEMMA_RELEASE_CHECKS.json` | [Original at `dbae91655316`](https://github.com/dakleyer/structural-awareness-contributions/blob/dbae916553166a29f9e756f8c7a6efdfa4c93c21/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json) | `0e69888adfe6eba16532790509e2cfd4a3101283` |
+
 
 | Document | Current copy | Input publication |
 |---|---|---|
