@@ -1903,29 +1903,7 @@ The next source-history block finds one genuine translation error in the active 
 
 C's next sealed cohort adds52 contextual judgments:267 of705 events are now adjudicated and438 remain. Full Differential, Mathematical Feasibility, Continuation, WORKPLAN and Strategic-master histories retain all55 historical acceptance criteria through current theorem/protocol/M16–M17/C02–C11–T03 receivers. Superseded M12/delivery scheduling is not reinstated.133 is the only new useful clause loss identified there.
 
-### Change 133 — Restore the self-review boundary in the R01 continuation translation
+### Change 133 — Applied 15 October 2026
 
-**State:** checked by C and root, authorised by the current restoration instruction, not yet applied. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
-
-Source `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md`, blob `ee08b6f9048738a68f835165a0bf5312c536bbdf` at `da2f098ae7d0cb9670d672736dcd897f223eb99d`. The full current paragraph occurs once.
-
-**Text before — complete current paragraph**
-
-~~~~markdown
-M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another author's review independent.
-~~~~
-
-**Text after — complete proposed paragraph**
-
-~~~~markdown
-M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another self-review independent.
-~~~~
-
-**Reason:** Restores the original prohibition on presenting another self-review as independent, instead of misapplying it to another author. The [Spanish original](https://github.com/dakleyer/structural-awareness-contributions/blob/275d78822a40b2d887909a018c26f047df1a6cc2/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md) says “No llamar independiente a otra revisión propia.” The [first English edition](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md) introduced the another-author wording. C identified the loss; root separately read the full Spanish/current English bodies, checked the three commit trees/blobs and the sentence meaning. This is an internal source/translation review.
-
-**Risk and effort:** Only the final sentence changes. M16 received-coverage-first, M17 fidelity and P08 historical-hash instructions, task statuses, mathematics and all other source bytes stay intact. Read the full Spanish and current English continuation, authenticate first-English/current history and verify the complete paragraph and source-wide inverse.
-
-**Dependencies:** Spanish source275d78822a40b2d887909a018c26f047df1a6cc2/3bf375d73d7ac68cd67cd861c74ae9cd6fa5ea9b; Existing baseline VNext owner; No change to the active work sequence or review-acceptance status.
-
-**Iván's instruction and decision:** apply the same historical damage-control process to the remaining corpus with exact published VNext pairs and surgical preservation checks. This repairs the quoted sentence; current M16/M17/P08 obligations retain their status.
+The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md`, blob `df5e54bd25f2aab11108a310c0cd4f3d0fc8ccf5`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/374da9b879c5015dea6dac483f7edac1bd052403/research/ecosystem-awareness/baseline/README_VNext.md#change-133--restore-the-self-review-boundary-in-the-r01-continuation-translation) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitution recovers source predecessor `ee08b6f9048738a68f835165a0bf5312c536bbdf` byte for byte. Every other source byte is retained.
 

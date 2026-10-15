@@ -1,5 +1,5 @@
 {
-  "version": "1.46",
+  "version": "1.47",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7698,10 +7698,10 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Continued historical translation repairs",
-      "state": "Source/history checked by C and root; authorised exact repair, not yet applied",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": true,
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
       "benefit": "Restores the original prohibition on presenting another self-review as independent, instead of misapplying it to another author.",
       "riskReason": "Only the final sentence changes. M16 received-coverage-first, M17 fidelity and P08 historical-hash instructions, task statuses, mathematics and all other source bytes stay intact.",
@@ -7711,8 +7711,8 @@
         "Existing baseline VNext owner",
         "No change to the active work sequence or review-acceptance status"
       ],
-      "preparation": "C established source-first finding; root read both complete language versions and authenticated all three pinned editions. Exact one-sentence change and full-source inverse verified.",
-      "gate": "Apply only the published paragraph; public exact readback. No named review is certified independent by this repair.",
+      "preparation": "Exact published pair applied; full-source inverse and all unrelated bytes verified.",
+      "gate": "Applied under the current restoration instruction; no reapplication pending.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
@@ -7777,7 +7777,15 @@
           "Use current main source blob and verify one exact occurrence before application."
         ],
         "scientific_scope": "Documentary translation repair only; does not establish that a particular second author is independent or close M16."
-      }
+      },
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "374da9b879c5015dea6dac483f7edac1bd052403",
+      "applied_source_blob": "df5e54bd25f2aab11108a310c0cd4f3d0fc8ccf5",
+      "published_pair_commit": "374da9b879c5015dea6dac483f7edac1bd052403"
     }
   ],
   "audit_coverage": [
@@ -9014,7 +9022,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "da2f098ae7d0cb9670d672736dcd897f223eb99d",
+  "review_source_commit": "374da9b879c5015dea6dac483f7edac1bd052403",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -16047,6 +16055,29 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Historical restoration 133 applied",
+      "source_commit": "374da9b879c5015dea6dac483f7edac1bd052403",
+      "proposal_assessments": [
+        {
+          "id": 133,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Exact published pair applied; full-source inverse and all unrelated bytes verified.",
+          "gate": "Applied under the current restoration instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "ee08b6f9048738a68f835165a0bf5312c536bbdf",
+            "after_blob": "df5e54bd25f2aab11108a310c0cd4f3d0fc8ccf5",
+            "before_unique": true,
+            "exact_inverse": true,
+            "literal_pairs": 1
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -21863,6 +21894,18 @@
       "exact_inverse": true,
       "pair_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
       "source_bytes_delta": 10
+    },
+    {
+      "id": 133,
+      "date": "2026-10-15",
+      "from_commit": "374da9b879c5015dea6dac483f7edac1bd052403",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+      "before_blob": "ee08b6f9048738a68f835165a0bf5312c536bbdf",
+      "after_blob": "df5e54bd25f2aab11108a310c0cd4f3d0fc8ccf5",
+      "literal_pairs": 1,
+      "exact_inverse": true,
+      "pair_commit": "374da9b879c5015dea6dac483f7edac1bd052403",
+      "source_bytes_delta": -4
     }
   ],
   "rest_of_corpus_followon_epochs": [
