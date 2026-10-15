@@ -1,5 +1,5 @@
 {
-  "version": "1.34",
+  "version": "1.35",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6935,14 +6935,22 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Continued rest-of-corpus historical damage control",
-      "state": "Independently reviewed and authorised; not yet applied",
-      "application_status": "planned",
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
       "decision_ready": false,
-      "authorized_to_apply": true,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
-      "preparation": "Exact full passages and source/receiver context independently checked; full-file inverse verified.",
-      "gate": "Apply only the reviewed substitutions under the current restoration instruction.",
-      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
+      "preparation": "Every reviewed passage applied; composed full-source inverse exact.",
+      "gate": "Applied under the current instruction; no reapplication pending.",
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
+      "applied_source_blob": "949682a9613dd30e2a43494379043399b794fc55",
+      "published_pair_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21"
     },
     {
       "id": 127,
@@ -8248,7 +8256,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "be96b051e0eff116f440e478b97eab0483972fd3",
+  "review_source_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -15098,6 +15106,29 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Continued historical restoration 126 applied",
+      "source_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
+      "proposal_assessments": [
+        {
+          "id": 126,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Every reviewed passage applied; composed full-source inverse exact.",
+          "gate": "Applied under the current instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "c534b16998b9d1ab817cf5c6d55e11bfde38ccda",
+            "after_blob": "949682a9613dd30e2a43494379043399b794fc55",
+            "before_unique": true,
+            "exact_inverse": true,
+            "literal_pairs": 1
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -20819,6 +20850,18 @@
       "exact_inverse": true,
       "pair_commit": "a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0",
       "source_bytes_delta": 176
+    },
+    {
+      "id": 126,
+      "date": "2026-10-15",
+      "from_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "before_blob": "c534b16998b9d1ab817cf5c6d55e11bfde38ccda",
+      "after_blob": "949682a9613dd30e2a43494379043399b794fc55",
+      "literal_pairs": 1,
+      "exact_inverse": true,
+      "pair_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
+      "source_bytes_delta": 6
     }
   ],
   "rest_of_corpus_followon_epochs": [

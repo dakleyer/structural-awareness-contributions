@@ -92,31 +92,7 @@ Reviewer C compared all269 Spanish→firstEnglish units, then checked their pres
 
 One coordination lost clear negative scope. The original Spanish says “EA no crea autoridad ni elimina la información indispensable”; first/current English says “EA creates no authority or eliminates indispensable information”. Change126 restores “neither creates authority nor eliminates”, keeping every other paragraph word. D independently checked the complete source paragraph and adjacent4.1 context. It adds no authority, experiment or efficacy claim.
 
-### Change 126 — Restore the two-part negation in the R01 scenario translation
+### Change 126 — Applied 15 October 2026
 
-**State:** independently reviewed, authorised by the current restoration instruction; not yet applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
-
-Source `research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md`, blob `c534b16998b9d1ab817cf5c6d55e11bfde38ccda` at `be96b051e0eff116f440e478b97eab0483972fd3`. Every old passage below occurs once.
-
-**Passage 1 — text before, complete**
-
-~~~~markdown
-00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA creates no authority or eliminates indispensable information; a conventional control doing the same may tie or improve its result.
-~~~~
-
-**Passage 1 — text after, complete**
-
-~~~~markdown
-00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA neither creates authority nor eliminates indispensable information; a conventional control doing the same may tie or improve its result.
-~~~~
-
-**Reason:** Restores the original Spanish statement that EA neither creates authority nor eliminates indispensable information.
-
-**Risk:** Only repair negation coordination; all formulas, costs, strong-peer possibility and result states stay identical.
-
-**Effort:** Compare the complete Spanish/English clause and surrounding argument; exact source inverse/readback.
-
-**Dependencies:** Spanish original c1c4f560/3261a625; First English edition8efc19c9/94874371; Current scenario and unique existing scenario VNext.
-
-**Iván's instruction:** complete the same historical damage-control process across the remaining corpus, using independent source review, exact VNext pairs, prioritised surgical repairs and full preservation checks. This candidate changes only its quoted text.
+All 1 exact reviewed passage(s) are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md`, blob `949682a9613dd30e2a43494379043399b794fc55`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/5105bb4709382834987bfa0ce77806ed4d56bd21/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md#change-126--restore-the-two-part-negation-in-the-r01-scenario-translation) remain in the published review predecessor. This item is removed from the pending queue. Reversing only those substitutions recovers source predecessor `c534b16998b9d1ab817cf5c6d55e11bfde38ccda` byte for byte.
 

@@ -693,7 +693,7 @@ These components are semantic roles, distinct from experiment symbols and arm na
 
 **What makes a contribution plausible.** A summary may suffice for a specific question if it does not group under the same representation states requiring different answers to that question. 00M formulates that condition and its limits [REF11, §§4 and 6.3]. For example, “reviewed” alone does not distinguish two mandates; preserving a comparable version and scope may reveal that a proof does not apply. That allows unjustified trust to be withdrawn, without that comparison magically resolving the missing permission.
 
-00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA creates no authority or eliminates indispensable information; a conventional control doing the same may tie or improve its result.
+00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA neither creates authority nor eliminates indispensable information; a conventional control doing the same may tie or improve its result.
 
 <a id="42-correspondencia-con-las-hipótesis-generales"></a>
 ### 4.2 Correspondence with general hypotheses
