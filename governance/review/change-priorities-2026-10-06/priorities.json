@@ -1,5 +1,5 @@
 {
-  "version": "1.44",
+  "version": "1.45",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7602,18 +7602,26 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Continued historical human-capacity and presentation repairs",
-      "state": "Independently reviewed and authorised; not yet applied",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": true,
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
-      "preparation": "Complete exact passages independently checked; source-wide replay/inverse verified.",
-      "gate": "Apply only the reviewed passages in order130,132,131; retain old URLs before switching current entry.",
+      "preparation": "All complete reviewed passages applied; full-source replay/inverse exact.",
+      "gate": "Applied under the current instruction; no reapplication pending.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
         "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
-      }
+      },
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "49bfb427d0b4829469126c35e66deaf5263787c1",
+      "applied_source_blob": "baf0696990e241518b48929b6385767ab1455404",
+      "published_pair_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162"
     },
     {
       "id": 132,
@@ -8909,7 +8917,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "5984cbe79573451e781e4a889ea48cb2ec633ab7",
+  "review_source_commit": "49bfb427d0b4829469126c35e66deaf5263787c1",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -15919,6 +15927,29 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Historical human-capacity/presentation restoration 131 applied",
+      "source_commit": "49bfb427d0b4829469126c35e66deaf5263787c1",
+      "proposal_assessments": [
+        {
+          "id": 131,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "All complete reviewed passages applied; full-source replay/inverse exact.",
+          "gate": "Applied under the current instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "6b4a635446754d3b7135a9a52bd77995161305aa",
+            "after_blob": "baf0696990e241518b48929b6385767ab1455404",
+            "before_unique": true,
+            "exact_inverse": true,
+            "literal_pairs": 4
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -21723,6 +21754,18 @@
       "exact_inverse": true,
       "pair_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
       "source_bytes_delta": 859
+    },
+    {
+      "id": 131,
+      "date": "2026-10-15",
+      "from_commit": "49bfb427d0b4829469126c35e66deaf5263787c1",
+      "source": "README.md",
+      "before_blob": "6b4a635446754d3b7135a9a52bd77995161305aa",
+      "after_blob": "baf0696990e241518b48929b6385767ab1455404",
+      "literal_pairs": 4,
+      "exact_inverse": true,
+      "pair_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
+      "source_bytes_delta": 10
     }
   ],
   "rest_of_corpus_followon_epochs": [

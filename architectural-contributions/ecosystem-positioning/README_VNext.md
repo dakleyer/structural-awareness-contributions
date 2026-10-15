@@ -2572,73 +2572,7 @@ C has corrected its semantic denominator:178 of705 content events adjudicated,52
 
 All 1 exact reviewed passage(s) are incorporated in `presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md`, blob `853484c33ea9d03db27f6f12b51ee86793a1581c`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/architectural-contributions/ecosystem-positioning/README_VNext.md#change-132--keep-direct-historical-access-to-both-retained-v11-split-decks) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `4c5459f950b18ccb0d99d3d9bd2867b66d2b445a` byte for byte. No presentation, result or code is changed.
 
-### Change 131 — Route programme readers to the repaired split decks and identify the historical PDF
+### Change 131 — Applied 15 October 2026
 
-**State:** independently reviewed and authorised by the current restoration instruction; not yet applied. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Medio. **Priority:** Primera.
-
-Source `README.md`, blob `6b4a635446754d3b7135a9a52bd77995161305aa` at `1f1d90ada72b51c83ee23583298016d032e6b8ee`. Every complete context below occurs once. Application order for this batch: **130 → 132 → 131**.
-
-**Passage 1 — text before, complete current context**
-
-~~~~markdown
-[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx)
-[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)
-
-~~~~
-
-**Passage 1 — text after, complete proposed context**
-
-~~~~markdown
-[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx)
-[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)
-
-~~~~
-
-**Passage 2 — text before, complete current context**
-
-~~~~markdown
-[Requirements & Evidence (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) · [Architecture & Implementation (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)
-
-~~~~
-
-**Passage 2 — text after, complete proposed context**
-
-~~~~markdown
-[Requirements & Evidence (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) · [Architecture & Implementation (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)
-
-~~~~
-
-**Passage 3 — text before, complete current context**
-
-~~~~markdown
-| the current architectural contribution | [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md) · [Requirements & Evidence](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) · [Architecture & Implementation](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) |
-
-~~~~
-
-**Passage 3 — text after, complete proposed context**
-
-~~~~markdown
-| the current architectural contribution | [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md) · [Requirements & Evidence](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) · [Architecture & Implementation](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx) |
-
-~~~~
-
-**Passage 4 — text before, complete current context**
-
-~~~~markdown
-### 📄 [Open the canonical PDF](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
-~~~~
-
-**Passage 4 — text after, complete proposed context**
-
-~~~~markdown
-### 📄 [Open the historical PDF — v1.0](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
-~~~~
-
-**Reason:** All three programme presentation entries reach the existing v1.2 public successors, and the retained v1.0 PDF has its actual historical status.
-
-**Risk and effort:** Six versioned href substitutions and one label only; no binary, other prose, scientific claim, section or target PDF changes. First preserve both exact v1.1 raw URLs in the existing manifest under132. B compared all 39 actual current slides, full ordered OOXML text and used links; map all18 absent relationship URLs to distinguish16 unbound relationships from2 clickable routes, and verify source-wide inverse and readback.
-
-**Dependencies:** 132 must be applied first; Existing manifest names v1.2 as canonical public split successors; Both actual current v1.1 binaries retained; 00M semantic-update notice in manifest retained; No semantic regeneration of dated presentation exports.
-
-**Iván's instruction and decision:** extend historical damage control across the corpus, prepare exact VNext passages, check independently and apply only justified surgical repairs. This card covers only the complete passages above; the full-source inverse and public readback are the acceptance checks.
+All 4 exact reviewed passage(s) are incorporated in `README.md`, blob `baf0696990e241518b48929b6385767ab1455404`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/architectural-contributions/ecosystem-positioning/README_VNext.md#change-131--route-programme-readers-to-the-repaired-split-decks-and-identify-the-historical-pdf) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `6b4a635446754d3b7135a9a52bd77995161305aa` byte for byte. No presentation, result or code is changed.
 
