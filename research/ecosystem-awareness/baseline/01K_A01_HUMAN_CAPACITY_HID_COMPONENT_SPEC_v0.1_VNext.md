@@ -501,3 +501,12 @@ The consuming profile declares which scheduling/timing proof classes it accepts 
 **Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
 
 **Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 107,108.** Both complete old/new sections are present and match the current source.107 replaces the sum of marginal quantiles with a declared joint model or sufficient bound; the union-bound example states its coverage condition.108 keeps the four states and binds assurance to the consuming proof policy. Review completion remains distinct from later action/effect.107 stays high risk and requires93/109 and consumer reconciliation; no schema, scheduler or vector was changed.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.

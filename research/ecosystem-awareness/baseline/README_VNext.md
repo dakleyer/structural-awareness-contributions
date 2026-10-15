@@ -1640,3 +1640,42 @@ The [complete earlier 00J edition](https://github.com/dakleyer/structural-awaren
 ## Cross-document literal detail 15 October 2026
 
 The00J family receives the complete proposed105/106pair above, and113keeps its authentic earlier edition reachable.112preserves full originalS6in the complete case source package, with exact after payloads in the [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026). The current00J frozen fixture and historical outputs are not rewritten. This review adds no canonical reading level or active counterpart to the retained alias.
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 94,105,106,113 and sealed 00J.** All five complete pairs were read against their actual sources.94 preserves the same final enforcement proposition;105 adds selected source-policy/non-curative approval/repair controls to the maintained family, not a frozen fixture;106 keeps the handoff, repair-branch and final-decision populations distinct;113 links the exact antecedent rather than reviving it as an active00J. The sealed transfer formula remains conditional on A25 full-route evidence, X3/X4 and A26 positive controls. That is the dependency list behind its earlier empty caption.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+### Selected literal unit for the existing 00J transfer-premise proposal
+
+This is the same pending proposal, with its source-aligned complete unit and dependencies above; it is not another change or register ID. The affected unit runs from section8 to the current end of file. Preserve every byte before that section.
+
+**Text before — complete current passage**
+
+``````text
+## 8. Transfer result
+
+\[
+Conf(R_J)\Rightarrow G_J\Rightarrow \neg F_J.
+\]
+
+The successful pattern is **valid narrow evidence stays narrow until a justified bridge establishes the stronger proposition**.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+## 8. Transfer result
+
+**Conditional design obligation.** Read the formula below under [A25 §6](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) and [A26 §5](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md#5-conditional-no-new-requirement-argument). A guarantee for every admitted extension requires a separately established base guarantee for the full inherited route, failure reflection, conformance preservation and the required positive controls. The current finite P1/P4 projections and matched proposition pair do not by themselves establish the full G_J predicate or a guarantee for every admitted extension.
+
+\[
+Conf(R_J)\Rightarrow G_J\Rightarrow \neg F_J.
+\]
+
+The successful pattern is **valid narrow evidence stays narrow until a justified bridge establishes the stronger proposition**.
+``````

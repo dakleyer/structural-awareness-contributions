@@ -2357,3 +2357,12 @@ The [detailed source/receiver plan](https://github.com/dakleyer/structural-aware
 For112,45UTF-8after payloads are fully visible in DDS VNext and3unchanged PNGs have exact binary cards. All proposed destinations are absent; the publication creates none. The original package's46/47digest replay discrepancy is retained rather than overwritten. The snapshot's READMEs are historical source content, not another maintained corpus level. Existing routes and archived/current authorities remain distinct.
 
 The initial order prepares custody and case binding, then the coupled technical consumers, and only then92and the officialUC21/PDF. Unadjudicated histories, unused binaries or scientific implementation work receive no fabricated old/new pair. Original sources remain unchanged until Iván's named wave/passage decision.
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 97; joint plan.** The closing source passage matches once. Its proposed addition preserves the entire current EP README as an exact prefix, including its existing terminal newline. The three reading levels and current UC21 → objectives → Challenges → DDS → campaigns → results route stay unchanged. The joint check selects the later92passage 1 and keeps91/92held; this receipt does not create another entry or move content.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
