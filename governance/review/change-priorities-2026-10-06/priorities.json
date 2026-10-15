@@ -1,5 +1,5 @@
 {
-  "version": "1.56",
+  "version": "1.57",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8246,6 +8246,61 @@
       "application_from_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
       "applied_source_blob": "c39e04acae9cb9596250a15b10242fd42cb55498",
       "published_pair_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81"
+    },
+    {
+      "id": 138,
+      "title": "Remove the accidentally duplicated Topology section heading prefix",
+      "source": "research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md",
+      "source_sha": "a5adff56ede0effa4d3fb9d04fe1e41f3a76a17a",
+      "source_commit": "27ebc14437d3b7c5ed6686a781fe3f77fbce55b1",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "## 3. Agent-local## 3. Agent-local qualification and ecosystem composition",
+      "after": "## 3. Agent-local qualification and ecosystem composition",
+      "impact": "Bajo",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Bounded heading readability repair",
+      "state": "D source reading, C separate review and root context/anchor/inverse complete; authorised, not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "Read the section title once and give it the intended clean anchor.",
+      "riskReason": "Delete only the repeated 17-byte prefix in one heading. No definition, example, topology relation or other source byte changes. Neither the malformed nor intended heading has an explicit Markdown inlink in the pinned corpus.",
+      "costReason": "Compare the originating changed passage and complete current section context, check incoming anchors and the whole-file inverse; publish and read back exact bytes.",
+      "dependencies": [
+        "D traced event699/unit5",
+        "Current source must remain bloba5adff56ede0effa4d3fb9d04fe1e41f3a76a17a",
+        "C separate literal/anchor review before application"
+      ],
+      "preparation": "D, C and root agree on the exact complete one-line pair, source history, no observed explicit incoming anchors and whole-source inverse.",
+      "gate": "Apply only the exact published one-line pair under the current surgical restoration instruction; verify every unrelated byte and public readback.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "evidence": {
+        "D_proposal_sha256": "48e8e88fc05ef02558218681d1826d1b3ee702cdb4adcf6c5de240094d9bebb3",
+        "origin": {
+          "global_event": 699,
+          "unit": 5,
+          "parent": "66dbe8134e1fd5fbc586152a8129615898052485",
+          "commit": "135d8ff8b2d953270426f5cda0e77402ed0f81e7",
+          "before_blob": "43f416d267952db16cb2d4a2f20bc94b09a665af",
+          "after_blob": "a5adff56ede0effa4d3fb9d04fe1e41f3a76a17a",
+          "old_full_unit": "C and D preserve the distinction between what could still be known with current capability and what remains structurally residual. Neither makes `R_U` a closed set complement or Ω a closed universe.\n\n## 3. Agent-local qualification and ecosystem composition\n",
+          "current_full_unit": "## 3. Agent-local## 3. Agent-local qualification and ecosystem composition\n"
+        },
+        "root_context_before": "### 2.1 Relation to the earlier coarse four-position wording\n\nThe earlier “determined / unresolved / obtainable / residual” vocabulary is retained as source lineage, not as a second canonical definition. Translate each assertion using [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical):\n\n- a delivered determination can be A; its established justification and assessable remainder are B;\n- an unresolved item with a characterized evaluation basis remains B; lack of a result alone does not make it C;\n- a grounded but uncharacterized exploratory avenue is C; an effect beyond effective evaluation routes is D;\n- missing information about the frame or capability boundary remains UNKNOWN rather than being assigned to C or D by default.\n\nThe relation depends on producer, process, question, scope, capability and time. A specified aspect can have different roles for different actors. Neither C nor D makes `R_U` a closed complement or Ω a closed universe. Role changes require new grounds or a changed frame; they do not follow from exchanging labels.\n\n## 3. Agent-local## 3. Agent-local qualification and ecosystem composition\n\nEA is **not an epistemic super-controller**, does not reconstruct every participant’s internal reasoning and does not require one mandatory shared ecosystem state. Ω retains its open ecosystem meaning. Where participant locality is material, U, W(d,t), R_U and A–D are interpreted for the declared receiving participant/decision; use U_i(d,t), W_i(d,t) and R_{U_i} when the participant index would otherwise be ambiguous.\n\n1. A producer or agent qualifies a decision-relevant result for its own domain and window.\n2. It preserves material scope, determination state, unresolved qualifiers, provenance, freshness, dependency and capacity information through the **Epistemic Handoff Descriptor (EHD)** or an equivalent semantic handoff.\n3. A receiving agent treats the result as a bounded, attributed claim. It does not convert that claim into ecosystem-wide truth.\n4. EA composes only what remains qualified and material for the receiving decision. Missing material qualification remains **UNKNOWN**.\n\nA locally correct result may therefore remain insufficient for a system-level conclusion. More agents, more signals or more review do not automatically remove shared dependencies, scope limits or structural residual.\n",
+        "root_context_after": "### 2.1 Relation to the earlier coarse four-position wording\n\nThe earlier “determined / unresolved / obtainable / residual” vocabulary is retained as source lineage, not as a second canonical definition. Translate each assertion using [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical):\n\n- a delivered determination can be A; its established justification and assessable remainder are B;\n- an unresolved item with a characterized evaluation basis remains B; lack of a result alone does not make it C;\n- a grounded but uncharacterized exploratory avenue is C; an effect beyond effective evaluation routes is D;\n- missing information about the frame or capability boundary remains UNKNOWN rather than being assigned to C or D by default.\n\nThe relation depends on producer, process, question, scope, capability and time. A specified aspect can have different roles for different actors. Neither C nor D makes `R_U` a closed complement or Ω a closed universe. Role changes require new grounds or a changed frame; they do not follow from exchanging labels.\n\n## 3. Agent-local qualification and ecosystem composition\n\nEA is **not an epistemic super-controller**, does not reconstruct every participant’s internal reasoning and does not require one mandatory shared ecosystem state. Ω retains its open ecosystem meaning. Where participant locality is material, U, W(d,t), R_U and A–D are interpreted for the declared receiving participant/decision; use U_i(d,t), W_i(d,t) and R_{U_i} when the participant index would otherwise be ambiguous.\n\n1. A producer or agent qualifies a decision-relevant result for its own domain and window.\n2. It preserves material scope, determination state, unresolved qualifiers, provenance, freshness, dependency and capacity information through the **Epistemic Handoff Descriptor (EHD)** or an equivalent semantic handoff.\n3. A receiving agent treats the result as a bounded, attributed claim. It does not convert that claim into ecosystem-wide truth.\n4. EA composes only what remains qualified and material for the receiving decision. Missing material qualification remains **UNKNOWN**.\n\nA locally correct result may therefore remain insufficient for a system-level conclusion. More agents, more signals or more review do not automatically remove shared dependencies, scope limits or structural residual.\n",
+        "explicit_markdown_anchor_inlinks": [],
+        "whole_file_inverse": true,
+        "C_separate_review": "Current27eb source/origin, whole line, -17bytes/after696872b39522d4cd4e9c166071497aa5e1bf92da, full inverse and real GitHub duplicated h2 verified. Both old/new explicit fragment inlinks absent in the fixed text corpus."
+      }
     }
   ],
   "audit_coverage": [
@@ -9482,7 +9537,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
+  "review_source_commit": "27ebc14437d3b7c5ed6686a781fe3f77fbce55b1",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -22664,6 +22719,16 @@
       ],
       "revision": "C receipt wording precision; Pair1 unchanged and final Pair2 complete",
       "plan_sha256": "2bb7ac7d98eb00f97b1d739670115a8cf777b5d222c790d190ce694bc3088d70",
+      "whole_corpus_semantic_review_complete": false
+    },
+    {
+      "date": "2026-10-15",
+      "base": "27ebc14437d3b7c5ed6686a781fe3f77fbce55b1",
+      "entries": [
+        138
+      ],
+      "literal_pairs": 1,
+      "plan_sha256": "52b1fa22f4bf2a24508121207192e05ab6a9c9eefd351ffe69526a98109a8c78",
       "whole_corpus_semantic_review_complete": false
     }
   ],

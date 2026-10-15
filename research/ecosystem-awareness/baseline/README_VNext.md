@@ -1999,3 +1999,29 @@ Source predecessor `f4723948090e3a1a050fe9d2003a3bb6bf09a241` becomes `c39e04aca
 
 
 
+
+
+### Change 138 — Remove the accidentally duplicated Topology section heading prefix
+
+**State:** D source reading, C separate review and root context/anchor/inverse complete; authorised, not yet applied. **Expected impact:** Bajo. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
+
+Source `research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md`, blob `a5adff56ede0effa4d3fb9d04fe1e41f3a76a17a` at `27ebc14437d3b7c5ed6686a781fe3f77fbce55b1`, line90. The duplication was introduced by the canonical-ABCD alignment at `135d8ff8b2d953270426f5cda0e77402ed0f81e7`. Current §2.1 already receives the corrected A/B/C/D distinctions and §3 retains participant-local qualification, attributed handoff and receiver duties. This pair repairs the title only.
+
+**Text before — complete heading line**
+
+~~~~markdown
+## 3. Agent-local## 3. Agent-local qualification and ecosystem composition
+~~~~
+
+**Text after — complete heading line**
+
+~~~~markdown
+## 3. Agent-local qualification and ecosystem composition
+~~~~
+
+**Reason:** Read the section title once and give it the intended clean anchor.
+
+**Risk and effort:** Delete only the repeated 17-byte prefix in one heading. No definition, example, topology relation or other source byte changes. Neither the malformed nor intended heading has an explicit Markdown inlink in the pinned corpus. Compare the originating changed passage and complete current section context, check incoming anchors and the whole-file inverse; publish and read back exact bytes.
+
+**Iván's instruction:** apply justified surgical repairs after publishing the complete pair; retain every unrelated byte and retire the applied pending card. The exact difference is17 ASCII bytes. No old ABCD definition is restored. The existing baseline VNext owns this small source; no new document or review owner is created.
+
