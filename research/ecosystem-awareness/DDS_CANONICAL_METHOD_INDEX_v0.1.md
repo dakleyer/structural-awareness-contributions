@@ -275,6 +275,9 @@ For a comparative study, freeze the task, facts, information access, authority, 
 
 Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count.
 
+For R01, the [root reader](./baseline/reductions/00G-R01/README.md) and its sole feasibility work queue retain their mathematical/work-control responsibilities. The [extensions reader](./baseline/reductions/00G-R01/extensions/README.md#follow-the-evidence-from-original-study-to-successor) routes completed technology studies and their later cost/type and repair records. A retained feasibility edition, an active reader edition and a registered run freeze are different references. The completion release manifest continues to certify its historical package; later document changes use their own identities. Follow the [completion record](./baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md) for the actual edition and result scope.
+
+
 | Recorded work | Owning report / evidence route | Unit and reading purpose |
 |---|---|---|
 | Thirteen local technology studies | [Study and successor lineage](./baseline/reductions/00G-R01/extensions/README.md#follow-the-evidence-from-original-study-to-successor) | Bounded questions, original cases, cost/type and repair successors. |
