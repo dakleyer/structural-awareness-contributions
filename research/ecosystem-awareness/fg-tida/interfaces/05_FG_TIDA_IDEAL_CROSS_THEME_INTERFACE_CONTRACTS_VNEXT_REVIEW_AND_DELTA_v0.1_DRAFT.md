@@ -351,6 +351,48 @@ https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577
 This section refines the ideal interface; it does not claim that FG-TIDA has adopted the A/B/C/D notation or this exact cross-Theme profile.
 
 
+### 7.2 Theme #18 — Collective Objectives / collective-choice regime continuity
+
+**Additive contract clarification — 15 October 2026.** This supplements, without replacing, the frozen 05 v0.4 supporting contract in part 3, §13. Theme #18 owns its collective-choice/operator semantics; EA does not classify an operator, select an objective trade-off, author a policy or assume authority to switch modes.
+
+**#18 → EA (conditional, source-owned information).** Where an authoritative declaration or qualified assessment exists, the interface may preserve:
+
+- the declared objectives and constraints, including non-compensable vetoes where specified; the applicable choice regime (for example ordinal, cardinal or lexicographic), mode, operator and conditions authorizing transitions between regimes or modes;
+- the author, applicable authority/standing reference from #5, reference and version, effective period, and material transition evidence, keeping a declared reference separate from a claim about effective behaviour;
+- source-native observations or operator/conformance/drift assessments, method and measurement boundary, evaluator/observation dependence, identifiability limits and residual uncertainty, without inventing any missing conclusion;
+- the decision-relevant context/coverage declaration, including which transition conditions or objectives have or have not been evaluated, with as-of and validity limits.
+
+**EA qualification.** EA asks whether the declared operating frame and the scoped evidence remain applicable and sufficient for a particular receiving decision after changes of objectives, constraints, utilities, context, population or evaluation coverage. A changed selected outcome is not by itself operator drift: legitimate regime/mode transitions, state-dependent utility or feasible-set changes, measurement bias and actual drift are distinct hypotheses. Where the observation architecture cannot separate them, EA preserves that limit; it does not infer an effective operator. The collective-choice bijection and any application of Arrow-type impossibility results remain dependent on their stated regimes and axioms, not established universally by this contract.
+
+**EA → #18 / source owner or receiving party.** EA may report the scoped insufficiency, the precise declaration/transition/context proposition that no longer supports reliance, and an authorized requalification route. It must not command an operator change, rewrite the #18 assessment, specify a desired answer to an independent evaluator or route #21 measurement through EA. An assessment or transition revision remains with the relevant semantic/authority owner.
+
+**Adjacent ownership.** #5 governs standing and authored grants/references; #6/#36 governs per-action conformance against a referenced policy; #21 owns population-level reading and its measurement independence; #16 and authorized operators own escalation and intervention. A runtime Condorcet-cycle diagnostic calling for human escalation is not automatically the same evidential state as an indeterminate evaluation.
+
+**First bounded test candidate.** Freeze a declared operator/regime/mode/reference and positive transitions, then contrast (i) legitimate change of utilities/constraints, (ii) a regime/transition applicability gap and (iii) an observationally unidentifiable operator-vs-regime alternative, without assuming which implementation should win. The historic Riviera Maya example may motivate a separately specified toy fixture, not serve as a validated #18 standard.
+
+**Status:** ideal candidate interface, not Theme #18 acceptance or FG-TIDA adoption. Public anchors: https://github.com/FG-TIDA/themes/issues/18#issuecomment-5485431922 ; https://github.com/FG-TIDA/themes/issues/18#issuecomment-6147855004 ; https://github.com/FG-TIDA/themes/issues/18#issuecomment-6171043104 ; https://github.com/FG-TIDA/themes/issues/18#issuecomment-6173025205 .
+
+### 7.3 Theme #5 / #9 — mandate-scoped provenance, aggregation and observational sufficiency
+
+**Additive contract clarification — 15 October 2026.** This supplements, without replacing, the frozen 05 v0.4 provisional contract in part 2, §9. Theme #5 specifies authority origination and provenance; #9 examines missing or never-crisply-authored references. EA remains an evidence/decision-sufficiency qualifier, not a grant issuer, legal adjudicator or runtime conformance engine.
+
+**#5/#9 → EA (where legitimately accessible and material).** A candidate handoff may preserve:
+
+- the individual grant and its grantor/grantee, conferred scope and conditions, governing legal/mandate regime, origination standing and act-time binding/applicability as distinct determinations, each with the authority owner's provenance and applicable version/time;
+- per-link delegation, attenuation, expiry, revocation, replacement and composition references under each link's governing regime, rather than a cluster-level authority verdict presumed to bind all links;
+- the source and standing of any summary/aggregation transformation S that compresses grants into a cluster assertion, its author (if established), what distinctions it retains or drops, and a resolvable path to the underlying issuer/mandate record where one exists;
+- the reference's status: authored and evaluable, authored but presently unverifiable, absent or contested; plus the receiver's eligible evidence coverage and decision deadline. A derived token, attestation or cluster identity does not itself confer standing.
+
+**Decision-scoped sufficiency check.** Where validity is already defined by an independently specified normative reference, an exact yes/no decision from accessible evidence is possible only if evidentially indistinguishable admissible histories cannot require different validity verdicts for the same action. A compressed “cluster authorised” assertion may fail that condition after a model, membership or mandate change when it loses a scope restriction. This is a testable observational-sufficiency condition, not a new impossibility theorem, a general criticism of clustering or a finding that standing under a legal regime has been decided. An eligible issuer record that retains the distinction may resolve the example; its availability must be checked rather than excluded to manufacture a gap. Data minimisation concerns retaining or recoverably referencing the verdict-determining distinctions, not every historical detail.
+
+**EA → #5/#9 or authorized consumer.** EA may identify the specific unestablished grant condition, transformation/aggregation provenance or link whose information is necessary for the receiving action, together with what was checked, what is out of reach, and a targeted authorized recovery/requalification route. If the grant was never authored, an act-time verification gap cannot repair origination. A new properly authored grant may establish future authority, without retrospectively proving the missing historic chain. EA neither changes grant validity nor produces an independent legal verdict.
+
+**Minimal test candidates.** (1) A positive case where a permissible issuer/mandate record recovers the scope after aggregation; (2) a negative case where equally accessible aggregate evidence conceals v1-only versus v1/v2 permission after the same change; (3) a distinct never-authored/contested-reference case; and (4) prospective regrant where permitted. Record independently who authored S and whether that author had standing to choose which conditions were omitted; do not presume the answer. Pin the authority reference and source-access/decision horizon before testing.
+
+**Status:** ideal candidate EA interface. Pam Dixon confirmed the mathematical condition and raised the unresolved authorship question for S; that does not amount to approval of this EA payload or an FG-TIDA common schema. Charter #5 PR #15 remains a separately governed Phase 2 draft. Public anchors: https://github.com/FG-TIDA/themes/issues/9#issuecomment-6177147259 ; https://github.com/FG-TIDA/themes/issues/9#issuecomment-6179863862 ; https://github.com/FG-TIDA/themes/pull/15 ; https://github.com/FG-TIDA/themes/pull/15#issuecomment-5481072635 .
+
+---
+
 ## 7A. Internal corpus profiles usable by the ideal projection
 
 05 Ideal may use programme-internal architecture/profile material as **integration aids**, but must not present those artefacts as FG-TIDA-owned semantics merely because they map cleanly to a Theme.
