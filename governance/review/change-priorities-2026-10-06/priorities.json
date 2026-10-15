@@ -6098,7 +6098,8 @@
         "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json": "f6f4addd280953aa25d949508a6898ecda3a5794",
         "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json": "d6640591068e85badd88e529ae8d67c78e061d4c",
         "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md": "be014eb521d0ede16697ad0f37b961c5eb562d63"
-      }
+      },
+      "custody_applied_commit": "94abab6bc9b98f811df39e820a59864bc451f315"
     },
     {
       "id": 113,
@@ -15838,7 +15839,8 @@
         "png_count": 3,
         "destination_root": "governance/preserved-public-snapshots/UC21_aec08fb5_source/",
         "scope": "Exact original bytes and already proposed paths only"
-      }
+      },
+      "commit": "94abab6bc9b98f811df39e820a59864bc451f315"
     }
   ],
   "current_wave_status": {
@@ -17967,7 +17969,8 @@
           "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json": "d6640591068e85badd88e529ae8d67c78e061d4c",
           "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md": "be014eb521d0ede16697ad0f37b961c5eb562d63"
         },
-        "from_commit": "1c37061f85365588f0b0535b0f3b1aec7a698685"
+        "from_commit": "1c37061f85365588f0b0535b0f3b1aec7a698685",
+        "commit": "94abab6bc9b98f811df39e820a59864bc451f315"
       }
     }
   }

@@ -17828,3 +17828,6 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 | [Original source file](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json) | `f6f4addd280953aa25d949508a6898ecda3a5794` |
 | [Original source file](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json) | `d6640591068e85badd88e529ae8d67c78e061d4c` |
 | [Original source file](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md) | `be014eb521d0ede16697ad0f37b961c5eb562d63` |
+
+
+**Verified application commits — 03_exact_source_custody:** [112-custody](https://github.com/dakleyer/structural-awareness-contributions/commit/94abab6bc9b98f811df39e820a59864bc451f315).
