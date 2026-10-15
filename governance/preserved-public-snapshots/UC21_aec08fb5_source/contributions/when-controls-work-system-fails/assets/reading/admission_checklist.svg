@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="830" viewBox="0 0 1500 830" role="img" aria-labelledby="title desc">
+<title id="title">Seven extension admission tests</title>
+<desc id="desc">X1 kernel, X2 decision boundary, X3 failure reflection, X4 conformance, X5 legitimate controls, X6 finite resources, X7 no hidden new primitive. Admission precedes scoring. Full definitions and formulas follow in the text.</desc>
+<rect width="1500" height="830" fill="#FAFAF8"/>
+<text x="40" y="42" font-family="Arial, sans-serif" font-size="24" fill="#1F2C4A" font-weight="bold">Does this extension count? — the seven admission tests</text>
+<text x="40" y="69" font-family="Arial, sans-serif" font-size="15" fill="#5D6572" font-style="italic">All seven must pass for admission. Determine membership before scoring an implementation; a passing result does not establish membership.</text>
+<rect x="40" y="98" width="460" height="150" rx="8" fill="#FFFFFF" stroke="#1F4E6B" stroke-width="1.4"/>
+<text x="56" y="125" font-family="Arial, sans-serif" font-size="16" fill="#1F4E6B" font-weight="bold">X1 · Kernel preservation</text>
+<text x="56" y="153" font-family="Arial, sans-serif" font-size="15" fill="#333">A mapping preserves every decision-material</text>
+<text x="56" y="173" font-family="Arial, sans-serif" font-size="15" fill="#333">relation in the failure kernel.</text>
+<text x="56" y="206" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">Bridge → hospital-bed capacity can preserve the kernel;</text>
+<text x="56" y="224" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">a case with no shared resource cannot preserve S2.</text>
+<rect x="520" y="98" width="460" height="150" rx="8" fill="#FFFFFF" stroke="#1F4E6B" stroke-width="1.4"/>
+<text x="536" y="125" font-family="Arial, sans-serif" font-size="16" fill="#1F4E6B" font-weight="bold">X2 · Decision-boundary preservation</text>
+<text x="536" y="153" font-family="Arial, sans-serif" font-size="15" fill="#333">Identify the receiving decision, with the same</text>
+<text x="536" y="173" font-family="Arial, sans-serif" font-size="15" fill="#333">structural proposition and decision dependency.</text>
+<text x="536" y="206" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">The subject may change; the role of evidence,</text>
+<text x="536" y="224" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">scope, authority and time in the decision may not.</text>
+<rect x="1000" y="98" width="460" height="150" rx="8" fill="#FFFFFF" stroke="#B66D23" stroke-width="1.4"/>
+<text x="1016" y="125" font-family="Arial, sans-serif" font-size="16" fill="#B66D23" font-weight="bold">X3 · Failure-predicate reflection</text>
+<text x="1016" y="153" font-family="Arial, sans-serif" font-size="15" fill="#333">If the extension trace fails, its mapped base trace</text>
+<text x="1016" y="173" font-family="Arial, sans-serif" font-size="15" fill="#333">must exhibit the same structural failure predicate.</text>
+<text x="1016" y="206" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">Stale-action downtime may qualify for S5;</text>
+<text x="1016" y="224" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">downtime caused only by hardware failure does not.</text>
+<rect x="40" y="267" width="460" height="150" rx="8" fill="#FFFFFF" stroke="#B66D23" stroke-width="1.4"/>
+<text x="56" y="294" font-family="Arial, sans-serif" font-size="16" fill="#B66D23" font-weight="bold">X4 · Acceptance-condition preservation</text>
+<text x="56" y="322" font-family="Arial, sans-serif" font-size="15" fill="#333">Every material base condition remains applicable.</text>
+<text x="56" y="342" font-family="Arial, sans-serif" font-size="15" fill="#333">Conformance must carry through the trace mapping.</text>
+<text x="56" y="375" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">Additional conditions may become material; inherited</text>
+<text x="56" y="393" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">conditions may not be weakened to claim membership.</text>
+<rect x="520" y="267" width="460" height="150" rx="8" fill="#FFFFFF" stroke="#333371" stroke-width="1.4"/>
+<text x="536" y="294" font-family="Arial, sans-serif" font-size="16" fill="#333371" font-weight="bold">X5 · Positive-control preservation</text>
+<text x="536" y="322" font-family="Arial, sans-serif" font-size="15" fill="#333">Preserve legitimate activity: authorized changes</text>
+<text x="536" y="342" font-family="Arial, sans-serif" font-size="15" fill="#333">and campaigns, genuine findings and rights claims.</text>
+<text x="536" y="375" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">This prevents a deny-everything shortcut</text>
+<text x="536" y="393" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">from being counted as an effective solution.</text>
+<rect x="1000" y="267" width="460" height="150" rx="8" fill="#FFFFFF" stroke="#7A3B2E" stroke-width="1.4"/>
+<text x="1016" y="294" font-family="Arial, sans-serif" font-size="16" fill="#7A3B2E" font-weight="bold">X6 · Finite resources and response</text>
+<text x="1016" y="322" font-family="Arial, sans-serif" font-size="15" fill="#333">Declare finite deadlines, capacity, cost/burden</text>
+<text x="1016" y="342" font-family="Arial, sans-serif" font-size="15" fill="#333">and fallback, even when scale changes.</text>
+<text x="1016" y="375" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">Scaling up does not grant unlimited time,</text>
+<text x="1016" y="393" font-family="Arial, sans-serif" font-size="13" fill="#646D79" font-style="italic">evidence, reviewers or compute.</text>
+<rect x="275" y="436" width="950" height="108" rx="8" fill="#FFF4E9" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="295" y="463" font-family="Arial, sans-serif" font-size="17" fill="#B33A3A" font-weight="bold">X7 · No hidden new primitive</text>
+<text x="295" y="488" font-family="Arial, sans-serif" font-size="15" fill="#333">A new decision-material relation or operation not representable in the base kernel makes the variant</text>
+<text x="295" y="509" font-family="Arial, sans-serif" font-size="15" fill="#333">a case-family extension candidate, not yet admitted. Record the addition; a separate case may be needed.</text>
+<rect x="40" y="571" width="1420" height="81" rx="8" fill="#EAF4F4" stroke="#007B82" stroke-width="1.4"/>
+<text x="60" y="597" font-family="Arial, sans-serif" font-size="17" fill="#007B82" font-weight="bold">Admission and implementation results are separate.</text>
+<text x="60" y="622" font-family="Arial, sans-serif" font-size="15" fill="#1F2C4A">Use the kernel, decision boundary, mappings and controls to establish membership before scoring; never infer it from a PASS.</text>
+<text x="40" y="692" font-family="Arial, sans-serif" font-size="17" fill="#1F2C4A" font-weight="bold">Record the appropriate first-pass status after reviewing the admission conditions</text>
+<rect x="40" y="709" width="460" height="75" rx="8" fill="#FFFFFF" stroke="#1F4E6B" stroke-width="1.4"/>
+<text x="54" y="738" font-family="Arial, sans-serif" font-size="15" fill="#1F4E6B" font-weight="bold">Strong structural extension</text>
+<text x="54" y="763" font-family="Arial, sans-serif" font-size="13" fill="#333">In-family design case; not an executed result.</text>
+<rect x="520" y="709" width="460" height="75" rx="8" fill="#FFFFFF" stroke="#B66D23" stroke-width="1.4"/>
+<text x="534" y="738" font-family="Arial, sans-serif" font-size="15" fill="#B66D23" font-weight="bold">Candidate extension</text>
+<text x="534" y="763" font-family="Arial, sans-serif" font-size="13" fill="#333">Mappings, fixture or source/owner definition pending.</text>
+<rect x="1000" y="709" width="460" height="75" rx="8" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="1014" y="738" font-family="Arial, sans-serif" font-size="15" fill="#B33A3A" font-weight="bold">Out-of-family neighbour</text>
+<text x="1014" y="763" font-family="Arial, sans-serif" font-size="13" fill="#333">A kernel relation is absent; not family evidence.</text>
+<text x="40" y="812" font-family="Arial, sans-serif" font-size="13" fill="#5D6572" font-style="italic">Reading aid for Annex X, Sections 4, 5 and 9. The exact tests and mathematical definitions remain in the accompanying text.</text>
+</svg>

@@ -1,0 +1,127 @@
+<svg width="1500" height="820" viewBox="0 0 1500 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" font-family="Georgia, 'Times New Roman', serif">
+<title id="title">Claim selection map</title>
+<desc id="desc">Case acceptance, HC, HR, HS and H1–H6 have distinct evidence requirements. Routes R0, R1 and R2 are a separate dimension. The full accessible claim-selection table follows in section 13.</desc>
+<rect width="1500" height="820" fill="#FAFAF8"/>
+
+<text x="40" y="45" font-size="22" font-weight="bold" fill="#1F2C4A" font-family="Arial">Claim selection map — pick the question before you run anything</text>
+<text x="40" y="70" font-size="13.5" fill="#5D6572" font-family="Arial" font-style="italic">A gate PASS/FAIL is an implementation outcome. It is not, by itself, a conclusion about any claim below.</text>
+
+<!-- entry question -->
+<rect x="560" y="95" width="380" height="60" rx="8" fill="#1F2C4A"/>
+<text x="750" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF" font-family="Arial">What are you actually testing?</text>
+<text x="750" y="140" text-anchor="middle" font-size="11.5" fill="#B9C2D0" font-family="Arial">Register each claim before the run — not after reading the result</text>
+
+<!-- five branches -->
+<line x1="750" y1="155" x2="160" y2="195" stroke="#8B93A0" stroke-width="1.3"/>
+<line x1="750" y1="155" x2="490" y2="195" stroke="#8B93A0" stroke-width="1.3"/>
+<line x1="750" y1="155" x2="750" y2="195" stroke="#8B93A0" stroke-width="1.3"/>
+<line x1="750" y1="155" x2="1010" y2="195" stroke="#8B93A0" stroke-width="1.3"/>
+<line x1="750" y1="155" x2="1340" y2="195" stroke="#8B93A0" stroke-width="1.3"/>
+
+<g font-family="Arial">
+<!-- Case acceptance -->
+<rect x="40" y="195" width="240" height="235" rx="8" fill="#FFFFFF" stroke="#5D6572" stroke-width="1.3"/>
+<rect x="40" y="195" width="240" height="30" rx="8" fill="#5D6572"/>
+<text x="160" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">Case acceptance only</text>
+<text x="55" y="250" font-size="11.5" fill="#333">"Did this configuration</text>
+<text x="55" y="266" font-size="11.5" fill="#333">meet the scenario's gates?"</text>
+<text x="55" y="292" font-size="11" fill="#5D6572">Apply the scenario's</text>
+<text x="55" y="307" font-size="11" fill="#5D6572">applicable gates + matched control.</text>
+<text x="55" y="322" font-size="11" fill="#5D6572">Report the outcome —</text>
+<text x="55" y="337" font-size="11" fill="#5D6572">no causal or response</text>
+<text x="55" y="352" font-size="11" fill="#5D6572">claim attached.</text>
+<text x="55" y="385" font-size="11" font-weight="bold" fill="#1F4E6B">→ implementation outcome,</text>
+<text x="55" y="398" font-size="11" font-weight="bold" fill="#1F4E6B">   within declared scope</text>
+
+<!-- HC -->
+<rect x="360" y="195" width="260" height="235" rx="8" fill="#FFFFFF" stroke="#C17629" stroke-width="1.3"/>
+<rect x="360" y="195" width="260" height="30" rx="8" fill="#C17629"/>
+<text x="490" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">HC — causal pathway</text>
+<text x="375" y="250" font-size="11.5" fill="#333">"Does an admissible</text>
+<text x="375" y="266" font-size="11.5" fill="#333">context-change pathway</text>
+<text x="375" y="282" font-size="11.5" fill="#333">produce this failure?"</text>
+<text x="375" y="308" font-size="11" fill="#5D6572">Admitted transfer/loss/</text>
+<text x="375" y="323" font-size="11" fill="#5D6572">change/reuse pathway;</text>
+<text x="375" y="338" font-size="11" fill="#5D6572">independent outcome, matched</text>
+<text x="375" y="353" font-size="11" fill="#5D6572">controls and reproducibility.</text>
+<text x="375" y="368" font-size="11" fill="#5D6572">All-six support needs each family.</text>
+<text x="375" y="395" font-size="11" font-weight="bold" fill="#C17629">→ sufficiency, not</text>
+<text x="375" y="408" font-size="11" font-weight="bold" fill="#C17629">   necessity</text>
+
+<!-- HR -->
+<rect x="650" y="195" width="200" height="235" rx="8" fill="#FFFFFF" stroke="#7A3B2E" stroke-width="1.3"/>
+<rect x="650" y="195" width="200" height="30" rx="8" fill="#7A3B2E"/>
+<text x="750" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">HR — recurrence</text>
+<text x="665" y="250" font-size="11.5" fill="#333">"Does the SAME</text>
+<text x="665" y="266" font-size="11.5" fill="#333">failure return after a</text>
+<text x="665" y="282" font-size="11.5" fill="#333">real R1 correction?"</text>
+<text x="665" y="308" font-size="11" fill="#5D6572">Establish R1 correction</text>
+<text x="665" y="323" font-size="11" fill="#5D6572">first. Keep its defences</text>
+<text x="665" y="338" font-size="11" fill="#5D6572">active in R2.</text>
+<text x="665" y="353" font-size="11" fill="#5D6572">This does not alone establish</text>
+<text x="665" y="368" font-size="11" fill="#5D6572">HC's causal pathway.</text>
+<text x="665" y="395" font-size="11" font-weight="bold" fill="#7A3B2E">→ related to HC,</text>
+<text x="665" y="408" font-size="11" font-weight="bold" fill="#7A3B2E">   not identical</text>
+
+<!-- HS -->
+<rect x="880" y="195" width="260" height="235" rx="8" fill="#FFFFFF" stroke="#1F4E6B" stroke-width="1.3"/>
+<rect x="880" y="195" width="260" height="30" rx="8" fill="#1F4E6B"/>
+<text x="1010" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">HS — common response</text>
+<text x="895" y="250" font-size="11.5" fill="#333">"Could one communication</text>
+<text x="895" y="266" font-size="11.5" fill="#333">and processing mechanism</text>
+<text x="895" y="282" font-size="11.5" fill="#333">give a sufficient response?"</text>
+<text x="895" y="308" font-size="11" fill="#5D6572">Declare candidate</text>
+<text x="895" y="323" font-size="11" fill="#5D6572">mechanism, operating</text>
+<text x="895" y="338" font-size="11" fill="#5D6572">scope, warning/response</text>
+<text x="895" y="353" font-size="11" fill="#5D6572">margins; run matched</text>
+<text x="895" y="368" font-size="11" fill="#5D6572">component comparisons.</text>
+<text x="895" y="395" font-size="11" font-weight="bold" fill="#1F4E6B">→ tests response sufficiency</text>
+<text x="895" y="408" font-size="11" font-weight="bold" fill="#1F4E6B">   within declared scope</text>
+
+<!-- H1-H6 -->
+<rect x="1180" y="195" width="280" height="235" rx="8" fill="#FFFFFF" stroke="#333371" stroke-width="1.3"/>
+<rect x="1180" y="195" width="280" height="30" rx="8" fill="#333371"/>
+<text x="1320" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#FFFFFF">H1–H6 — the frozen six</text>
+<text x="1195" y="250" font-size="11.5" fill="#333">"Does this specific,</text>
+<text x="1195" y="266" font-size="11.5" fill="#333">pre-existing prediction</text>
+<text x="1195" y="282" font-size="11.5" fill="#333">hold?" (one of six)</text>
+<text x="1195" y="308" font-size="11" fill="#5D6572">Select the statement +</text>
+<text x="1195" y="323" font-size="11" fill="#5D6572">its own refutation test,</text>
+<text x="1195" y="338" font-size="11" fill="#5D6572">comparator and scope.</text>
+<text x="1195" y="353" font-size="11" fill="#5D6572">Unchanged since the</text>
+<text x="1195" y="368" font-size="11" fill="#5D6572">canonical requirements doc.</text>
+<text x="1195" y="395" font-size="11" font-weight="bold" fill="#333371">→ six registered hypotheses,</text>
+<text x="1195" y="408" font-size="11" font-weight="bold" fill="#333371">   each with its own contrast</text>
+</g>
+
+<!-- bottom rule -->
+<rect x="40" y="440" width="1420" height="90" rx="8" fill="#EAF4F4" stroke="#007B82" stroke-width="1.2"/>
+<text x="60" y="465" font-size="13" font-weight="bold" fill="#007B82" font-family="Arial">Two things never mix, whichever column you're in:</text>
+<text x="60" y="488" font-size="12.5" fill="#1F2C4A" font-family="Arial">Deliberately removing a defence to isolate one factor for HC ≠ an HR trial (HR requires R1's defences to stay active throughout).</text>
+<text x="60" y="508" font-size="12.5" fill="#1F2C4A" font-family="Arial">For S4 specifically: unauthorized action and silent loss of the finding are scored separately — a result on one branch never proves the other.</text>
+
+<!-- R0/R1/R2 reminder strip -->
+<text x="40" y="565" font-size="15" font-weight="bold" fill="#1F2C4A" font-family="Arial">Claim selection and implementation routes are separate dimensions</text>
+<g font-family="Arial">
+<rect x="40" y="580" width="440" height="110" rx="8" fill="#FFFFFF" stroke="#8B93A0" stroke-width="1.2"/>
+<text x="55" y="605" font-size="13" font-weight="bold" fill="#1F2C4A">R0 · Ordinary</text>
+<text x="55" y="628" font-size="11.5" fill="#444">Declared, ordinary competent controls.</text>
+<text x="55" y="645" font-size="11.5" fill="#444">Tests whether the failure occurs.</text>
+<text x="55" y="668" font-size="11" fill="#8B93A0" font-style="italic">A strong conventional pass is a real result, not a defeat.</text>
+
+<rect x="530" y="580" width="440" height="110" rx="8" fill="#FFFFFF" stroke="#8B93A0" stroke-width="1.2"/>
+<text x="545" y="605" font-size="13" font-weight="bold" fill="#1F2C4A">R1 · Defended</text>
+<text x="545" y="628" font-size="11.5" fill="#444">Reinforced, then frozen.</text>
+<text x="545" y="645" font-size="11.5" fill="#444">Existing effective controls get full credit.</text>
+<text x="545" y="668" font-size="11" fill="#8B93A0" font-style="italic">Correction must be demonstrated for HR.</text>
+
+<rect x="1020" y="580" width="440" height="110" rx="8" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.2"/>
+<text x="1035" y="605" font-size="13" font-weight="bold" fill="#B33A3A">R2 · Same R1, under drift</text>
+<text x="1035" y="628" font-size="11.5" fill="#444">Admitted, observable material change.</text>
+<text x="1035" y="645" font-size="11.5" fill="#444">Same safeguards; generic adaptation retained.</text>
+<text x="1035" y="668" font-size="11" fill="#8B93A0" font-style="italic">HR needs R1's correction demonstrated first.</text>
+</g>
+
+<text x="40" y="740" font-size="12" fill="#5D6572" font-family="Arial" font-style="italic">There is no fourth route. The A–D causal-trial conditions and HS's component comparisons are experimental factors inside HC and HS — not additional routes.</text>
+<text x="40" y="790" font-size="11" fill="#8B93A0" font-family="Arial">When the controls work but the system fails — FG-TIDA contributor use case · Annex H, §13 "Claim selection," visualized</text>
+</svg>
