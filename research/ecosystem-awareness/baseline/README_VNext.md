@@ -1877,31 +1877,7 @@ C's current history examination identified a second custody distinction in previ
 
 A subsequent A5 continuation has completed the 03/04 current bodies and their histories: 80 further units, including the three B-attributed Operation closures, leave pending; A now has 851 source units open. Its specific judgments are in [03](03_FUNCTIONAL_VNext.md#historical-functional-architecture-reception--15-october-2026) and [04](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#historical-interface-reception--15-october-2026). No additional repair is proposed.
 
-### Change 129 — Identify authentic originals behind translated planning and release records
+### Change 129 — Applied 15 October 2026
 
-**State:** independently reviewed; authorised by the current restoration instruction, not yet applied. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
-
-Source `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, blob `e5f373bb104f370dfb336b356f14733aec61a59f` at `5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f`. The complete paragraph occurs once. This adds three sentences and preserves the full 122 repair.
-
-**Text before — complete current paragraph**
-
-~~~~markdown
-Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.
-~~~~
-
-**Text after — complete proposed paragraph**
-
-~~~~markdown
-Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. The planning snapshot `QUEUE_SNAPSHOT_2026-10-04.json` is also a reading derivative: fifteen of its twenty embedded `content` fields are translated and do not reproduce the original blobs identified by `git_blob_sha`. For original-byte inspection, use the [complete original snapshot](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json) (blob `f8cdf14eabc19cd3432df8c1012980a42e4deb6d`), whose twenty embedded contents reproduce their recorded source blobs. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts. The [original English-release record](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_ENGLISH_RELEASE.json) (blob `eb862458004fab282646607d69487aaf2737c03b`) preserves the source literal `\text{y}` → `\text{and}`; that quoted before-literal was itself translated in the current JSON copy.
-~~~~
-
-**Reason:** Makes all twenty authentic snapshot bodies inspectable at the full original version and distinguishes translated payloads from their retained original-blob identifiers. The linked English-release original also restores the reported translation before-literal, rather than the translated copy's and-to-and quotation. C found the translation event `ce62e84e82006a5643d87f25c463ddf490ccb731`; D recomputed all twenty bindings independently. Root also recomputed20/20 original and5/20 derived bindings. The original `input_commit` is `d8fbfa48581df366081143872ec4c16360c51635`; its twenty paths and blobs match the original embedded records. The snapshot is historical planning, not a live queue.
-
-**Risk and effort:** Three reader sentences only; retain the entire applied122 paragraph and every other source byte. Do not edit either JSON snapshot, its schema, historical hashes, scripts or results, or describe hash mismatch alone as semantic loss. Check the full original/current snapshot, twenty content/blob bindings, source-commit tree, reader context and public exact readback.
-
-**Dependencies:** Applied122 receipt-custody paragraph remains complete; Original snapshot eccb5f24467f073d7f411485bffc5e5cec4c335f/f8cdf14eabc19cd3432df8c1012980a42e4deb6d; Existing baseline VNext is the sole owner; No recreation or rewrite of historical planning files.
-
-The third sentence links the complete original English-release record and its exact translation before-literal. The current JSON copy translated that quotation itself. No equation or result is changed.
-
-**Iván's instruction and decision:** continue the same historical damage-control method across the corpus, publish exact VNext passages, independently check and apply justified surgical repairs. Only the three quoted reader sentences are included here.
+The three reviewed sentences are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, blob `8db79c05aa66a938b1e7ef47f8b22f0790685f00`. The [complete old/proposed paragraph](https://github.com/dakleyer/structural-awareness-contributions/blob/0774c38043e36d41693d21d0c104797a543fa6d3/research/ecosystem-awareness/baseline/README_VNext.md#change-129--identify-authentic-originals-behind-translated-planning-and-release-records) remains in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed paragraph recovers predecessor `e5f373bb104f370dfb336b356f14733aec61a59f` byte for byte;122 and every other source byte remain intact. Both JSON records are unchanged.
 
