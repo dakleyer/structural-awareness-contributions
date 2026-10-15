@@ -17676,7 +17676,7 @@ The rows below are the current plan-reading view. Historical entry flags such as
 | 91 | Complete external-entry pair; wait for92/source reception and the named official-entry decision. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 92 | Use the later passage 1 successor with the other nine original pairs as one held set; do not apply the original passage 1. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 93 | Complete literal pair; reconcile with 107–109 and actual HumanTime consumers before a capacity wave. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md) |
-| 94 | Complete text for a named documentary decision; no source application authorised. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
+| 94 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 | 95 | Complete text for a named documentary decision; no source application authorised. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 96 | Complete text for a named documentary decision; no source application authorised. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 97 | Complete text for a named documentary decision; no source application authorised. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) |
@@ -17708,3 +17708,8 @@ The selected 92 set follows the103/104/110/112changes when those waves have been
 For 97, the checked source passage is the EP README's closing passage. The proposed output keeps every current original byte as its prefix and appends the new paragraph; it satisfies the append-only instruction at this cut. Capacity 93+107–109 and input-contract 101+102 retain their coupled conditions. No applied 16/77–82 change is reopened.
 
 **Result recorded here:** literal presentation verified; selected variant and dependency order clarified. The earlier audits, all before/after blocks and the112payloads remain intact. Canonical source changes executed in this check: **zero**. The unadjudicated history/media frontier in the restoration plan remains open; this plan-quality check does not close it.
+
+
+### Application 94 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.

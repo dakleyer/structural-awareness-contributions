@@ -45,7 +45,7 @@ That combination makes Panodyssey/TEMS stronger for 00J than a generic rights da
 - the source-side rights state is real and comparatively rich;
 - the cross-system boundary is real;
 - the missing/variable agent-side and downstream semantics are explicit;
-- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.
 
 The profile therefore does **not** treat Panodyssey as the weak baseline. It starts from a competent production-oriented source-side system.
 
