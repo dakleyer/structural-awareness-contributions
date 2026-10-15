@@ -4873,7 +4873,7 @@
     {
       "id": 97,
       "title": "Link the approved S10 working successor at the existing EP closing note",
-      "state": "Prepared — pending named Ivan GO",
+      "state": "Applied; removed from the pending queue",
       "source": "architectural-contributions/ecosystem-positioning/README.md",
       "source_sha": "9767ec8efb7d3a2875866ea3cd22ebc94882e930",
       "vnext": "architectural-contributions/ecosystem-positioning/README_VNext.md",
@@ -4890,7 +4890,18 @@
       "dependencies": "Requirements working successor, baseline approved-successor route, DOCUMENT_CONTROL§26 and existing Requirements application#16.",
       "gate": "Ivan names this pair/wave; EP is append-only and all prior bytes must remain; validate current EOF and links. No source-body replacement.",
       "preparation": "Complete existing closing paragraph unique, located at EOF; append-only proposed addition.",
-      "authorized_to_apply": false
+      "authorized_to_apply": false,
+      "decision_ready": false,
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43",
+      "applied_source_blobs": {
+        "architectural-contributions/ecosystem-positioning/README.md": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b"
+      }
     },
     {
       "id": 98,
@@ -15018,6 +15029,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "97",
+      "date": "2026-10-15",
+      "from_commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43",
+      "title": "Link the approved S10 working successor at the existing EP closing note",
+      "canonical_files": [
+        {
+          "path": "architectural-contributions/ecosystem-positioning/README.md",
+          "before_blob": "9767ec8efb7d3a2875866ea3cd22ebc94882e930",
+          "after_blob": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b",
+          "bytes": 91423,
+          "sha256": "60123d07832f6f9e7f3caceb1b4423ebd712d44377eb0966194c5b76b33cf46e"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "existing passage",
+          "old_occurrences": 1,
+          "before_sha256": "feb0e7fd3c799575a3ece33c0729fe0eee42dbf305a6e7f4cc5c8f05667e482b",
+          "after_sha256": "c3580bdcdb5272788fddc870829d39fb17267c1390c326f1a09dca9ebb1e85c3",
+          "prefix_sha256": "e4182518b3ad0152ba956532c88abebdd52d6be7fee78e9432f127e9ca05b91e",
+          "suffix_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -17026,6 +17074,13 @@
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "a11672ae07d919c9892823da889edd8cf0d4e5d1"
         },
         "from_commit": "a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f"
+      },
+      "97": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "architectural-contributions/ecosystem-positioning/README.md": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b"
+        },
+        "from_commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43"
       }
     }
   }
