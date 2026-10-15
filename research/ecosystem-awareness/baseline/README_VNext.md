@@ -1843,42 +1843,7 @@ The following exact pairs are the bounded current batch. Earlier audits and inco
 
 The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, source blob `e5f373bb104f370dfb336b356f14733aec61a59f`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/README_VNext.md#change-122--identify-the-translated-r01-check-receipts-and-reconnect-their-exact-originals) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `2a696473339c0eb184795a5f91f39216e087120f` exactly.
 
-### Change 123 — Restore annotated reading routes to distinct formal antecedents and working drafts
+### Change 123 — Applied 15 October 2026
 
-**State:** reviewed exact proposal; authorised by the current restoration instruction, not yet applied. **Priority:** Siguiente. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo.
-
-Source: `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `160602b5130ec8075d929bb7702e1cd73fbbe319` at `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. The complete old passage below occurs once.
-
-**Text before — complete current passage**
-
-~~~~markdown
-The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.
-~~~~
-
-**Text after — complete proposed passage**
-
-~~~~markdown
-The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.
-
-
-## Earlier 02B formalizations — historical source reading · 15 October 2026
-
-Two earlier 02B drafts retain distinct derivation detail for historical comparison: [the ordered failure-grammar normalizer](https://github.com/dakleyer/structural-awareness-contributions/blob/9097e2d2c71f5d9dadf1b250d219770b8a9cbb60/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) uses precedence and claims one normal form per admitted atomic expression; [the operator-based syntax draft](https://github.com/dakleyer/structural-awareness-contributions/blob/9c820064838ba666acb498c4301a0e12da61d637/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md) uses LF judgement/formation rules and a covering claim. They were removed from main on 25 September and are not exact duplicates of the [current 02B proof route](../02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md), which permits one or more normal forms. Use these texts to compare the derivation choices. Current 02B governs the proof route; the earlier B/C vocabulary and claims remain historical.
-
-The retired machine-readable companions also remain useful for tracing those choices: [foundation/principle grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/8f9382e9526a902035a8e66135a11052a46fab19/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/foundation_principle_grammar.json) records axes, precedence, rules and witnesses; [requirement grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/6d8f6c09821f9a6d7d56628a6c932790a16d4a45/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/requirement_grammar.json) records object signatures, anchors and provenance. These are complete historical editions, distinct from the current closure manifest. Read them with the current 02B/A19 scope; the former checker remains historical.
-
-## Cross-Theme comment drafts — additional working material · 15 October 2026
-
-Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.
-~~~~
-
-**Reason / expected benefit:** Makes two distinct 02B formulations, two retired grammar representations and two additional comment drafts discoverable with their real status.
-
-**Risk to check:** Keep historical formalizations and alternative posting drafts separate from the current proof/interface owners. No file recreation, checker activation or external posting.
-
-**Preparation and maintenance effort:** Read the source editions and draft purposes, validate pinned blobs, current paths and prefix preservation.
-
-**Dependencies:** Current 02B and A19 proof scope; Existing three-level README structure and EA additional-work leaf; Existing 05/05A VNext interface proposals.
-
-**Iván's instruction:** extend historical damage control to the rest of the corpus; review independently, prepare literal VNext pairs, prioritise, apply surgical repairs and compare the whole predecessors again. This item changes only the stated passage. Scientific scripts/results and physical organisation stay in their current editions.
+The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/non-canonical/README.md`, source blob `971e2e91c9977b37f23039e538d6c747eb0eb163`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/README_VNext.md#change-123--restore-annotated-reading-routes-to-distinct-formal-antecedents-and-working-drafts) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `160602b5130ec8075d929bb7702e1cd73fbbe319` exactly.
 
