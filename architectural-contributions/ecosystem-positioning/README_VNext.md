@@ -2625,6 +2625,15 @@ Coverage now also includes every modified/deleted control, review and historical
 
 ## Further bilingual repair identified — 15 October 2026
 
-C's full HF translation comparison found one ambiguous English integer rendering. The primary receipt records33408 checks; [135 in the existing HF owner](../../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-135--use-the-english-thousands-separator-for-the-recorded-33408-hf-checks) changes only33.408 to33,408 in the complete current paragraph. Impact, risk and effort are all low. D and root separately checked context, source identity and the one-byte inverse. Results, code and evidence maturity remain unchanged.
+C's full HF translation comparison found one ambiguous English integer rendering. The primary receipt records33408 checks; [135 in the existing HF owner](https://github.com/dakleyer/structural-awareness-contributions/blob/1eca21c93eb507d6fd27ade56f658b29531860ff/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-135--use-the-english-thousands-separator-for-the-recorded-33408-hf-checks) changes only33.408 to33,408 in the complete current paragraph. Impact, risk and effort are all low. D and root separately checked context, source identity and the one-byte inverse. Results, code and evidence maturity remain unchanged.
 
 A10 now adjudicates all1,734 assigned historical source units:1,113 material receivers,618 valid corrections and three source-cut omissions already addressed. That closes A's assigned retirement queue, not the separate control/source cohorts or the old five/six-pass scientific programme. The detailed current-body and instrument reconciliation is being completed before its bounded handoff.
+
+
+## A21 historical access and scoped queue completion — 15 October 2026
+
+135 is applied at `cbd9e4c9d90477d8e0f9f5538a09fbff8057980c`: one punctuation byte in the HF paragraph, with identical source length and complete inverse. Its current owner contains the applied receipt; the full pair remains in its public preparation predecessor. Its primary result and every unrelated byte remain intact.
+
+136 restores reading access to two distinct retired A21 constructions through the existing auxiliary leaf and baseline VNext. It adds descriptions and fixed source links, without reviving an earlier normalizer or changing the current requirement basis. D read all three bodies; root checked the actual descriptive passages, whole-source inverse and public reference bytes.
+
+D's fourth additional cut has87/199 events reviewed; method/index registry, diagnostics and the50-event baseline-manifest reception have concrete judgments. Diagnostic truncations have real current receivers; the346/33/379 counts are coherent and remain unchanged. A's1,734 assigned historical units are now adjudicated, with its final current-body/instrument handoff in progress. C's large remaining sources and additional audit-source cohort, D's aliases/interfaces/container cohort, review-control history and final relation reconciliation remain explicit work.

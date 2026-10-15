@@ -1961,3 +1961,40 @@ C's sixth continued cohort has 541/705 contextual dispositions and 164 still pen
 B's independent implementation verified conservation of 122–134 at the fixed cut b6da3531: 17 exact pairs and full reverse replay in 11 sources, 243 exact public responses, all 48 preserved UC-21 payloads, and exact replacement of only the 13 applied cards by receipts. Its six negative probes reject altered material. The report is bounded documentary preservation, distinct from the still-open history and final corpus reconciliation. New continuity text is append-only and outside that fixed checker cut.
 
 The review/history/governance history is now explicitly inventoried too. Its 1,041 modified/deleted events include 586 successors containing the complete prior bytes, and 455 requiring contextual reception. The 93 substantive audit-source events go to C; the 362 control/VNext events go to root. No “audit” filename excludes a source from preservation review. Exact-copy and container findings remain evidence leads until examined.
+
+
+## Requirement-history and DDS successor reception — 15 October 2026
+
+D's additional source cohort now has 87 contextual event judgments covering 368 units; 112 events/279 units remain at the fourth sealed cut. The method-index and Stage A/B/C histories receive the current method rules and full C/R/E/acceptance/BV registry. Gate/Stage and internal-stage corrections remain. Two diagnostic-profile truncations were examined clause by clause: current catalogue, successor profile, FG v1 and method§14 receive admission, controls, recommendation algorithms, N/A rationale, handoff and prospective dispute/promotion duties. Restoring the old blocks would reintroduce hard dependencies and erroneous PASSES_IF semantics. No reinsertion is proposed for them.
+
+The baseline manifest's346 core plus33 supplemental tests correctly gives379; P4's76 remains a distinct component. Its CI reproduction wording is scoped by the complete A14 receiver, not treated as an independent human review. A repeated manifest merge delta is duplicate evidence, not another loss. One missing reading route is useful:136 below links the two distinct retired A21 constructions beside the already restored02B/grammar companions. Current A21 keeps its own authority.
+
+A10 also completes A's assigned historical-retirement queue of1,734 units:1,113 material receptions,618 justified corrections and three source-cut omissions separately repaired. It read the remaining baseline reader, VisualGuide, Workplan, DBC and Structural Awareness passages and their actual receivers. Current-body/instrument reconciliation and the separate C/D/control cohorts still have their own boundaries. This is historical damage control, not a claim to have finished the earlier scientific five/six-pass programme.
+### Change 136 — Restore described access to two retired A21 constructions
+
+**State:** D complete source reading and root description/strategy/inverse verification complete; authorised by the current restoration instruction, not yet applied. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
+
+Source `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `173d025fb1129b55a2d3a81036b3b53b7616c2bf` at `cbd9e4c9d90477d8e0f9f5538a09fbff8057980c`. The complete existing paragraph below occurs once; the new sentences follow its final sentence.
+
+**Text before — complete existing paragraph**
+
+~~~~markdown
+The retired machine-readable companions also remain useful for tracing those choices: [foundation/principle grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/8f9382e9526a902035a8e66135a11052a46fab19/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/foundation_principle_grammar.json) records axes, precedence, rules and witnesses; [requirement grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/6d8f6c09821f9a6d7d56628a6c932790a16d4a45/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/requirement_grammar.json) records object signatures, anchors and provenance. These are complete historical editions, distinct from the current closure manifest. Read them with the current 02B/A19 scope; the former checker remains historical.
+~~~~
+
+**Text after — complete context and proposed addition**
+
+~~~~markdown
+The retired machine-readable companions also remain useful for tracing those choices: [foundation/principle grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/8f9382e9526a902035a8e66135a11052a46fab19/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/foundation_principle_grammar.json) records axes, precedence, rules and witnesses; [requirement grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/6d8f6c09821f9a6d7d56628a6c932790a16d4a45/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/requirement_grammar.json) records object signatures, anchors and provenance. These are complete historical editions, distinct from the current closure manifest. Read them with the current 02B/A19 scope; the former checker remains historical. Two retired A21 companions also preserve distinct construction choices: [the eight-object/six-operator requirement grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/cc7ea9f08e24873e2873240575197ad3cb5ec1d0/research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) asserts a fourteen-element bijection; [the ordered requirement normalizer](https://github.com/dakleyer/structural-awareness-contributions/blob/cc7ea9f08e24873e2873240575197ad3cb5ec1d0/research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) applies NR1–NR14 by first match. Compare those historical formulations with [current A21](../00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), whose admitted object/lifecycle atoms may invoke one or more requirement clauses and whose compound obligations use specializations or conjunctions.
+~~~~
+
+**Reason:** A reader can compare the two complete retired A21 constructions with the current requirement basis rather than losing their distinct formulation behind the shortened manifest.
+
+**Risk and effort:** Add two described fixed historical links and one current comparison link in the existing auxiliary paragraph. Preserve its full old wording. No historical theorem, first-match normalizer, checker or result is reinstated. D read all three complete bodies and the manifest retirement; root checked the descriptions in the actual source clauses, current owner, unique literal and whole-source inverse. All four historical/current/primary references were read back from GitHub exactly.
+
+**Evidence:** the manifest retired two genuinely different A21 sources. D read their full 398/505-line bodies and the current 352-line basis. The first old source asserts a fourteen-element bijection from eight objects plus six operators; the second applies NR1–NR14 by first match. The current admitted object/lifecycle basis covers atoms through requirement clauses, with specialization/conjunction for compound obligations. The addition describes this difference; it does not adopt the earlier assertions. Both full historical source blobs and the current target were authenticated and publicly read back.123's earlier navigation pair did not include these two A21 sources.
+
+**Dependencies:** Existing auxiliary leaf, updated by123 and134 for different historical sources; Current A21 remains the owner of its admitted-language closure argument; Fixed complete historical sources at cc7ea9f08e24873e2873240575197ad3cb5ec1d0; No new VNext, source copy, index, hierarchy or Foundation change.
+
+**Iván's instruction and decision:** preserve useful historical information in its proper reading route, use the single existing VNext, publish the literal pair before applying, and then retire the applied card. The960-byte paragraph append does not recreate the retired documents or change the present proof.
+
