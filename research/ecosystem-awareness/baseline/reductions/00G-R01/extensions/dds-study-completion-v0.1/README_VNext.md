@@ -374,3 +374,6 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 ### Application 99 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md`; resulting source blob `33cc9839e804bf22b788bea69b13c2eef4cd85eb`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+**Verified application commits — 02_r01_reading:** [98](https://github.com/dakleyer/structural-awareness-contributions/commit/fc42d7f4711354f4398a179ab8b3dd76624095a8), [99](https://github.com/dakleyer/structural-awareness-contributions/commit/16435141ea59e0f25f31c223701773747bd44e09).
