@@ -1,5 +1,5 @@
 {
-  "version": "1.25",
+  "version": "1.26",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6539,6 +6539,66 @@
       },
       "application_from_commit": "2c43b34b5f49b0ae142716f2a2ec0ce034b62500",
       "applied_source_blob": "7d26dd6071a1ad650f2a6d1aa5d0de42775df79a"
+    },
+    {
+      "id": 120,
+      "title": "Receive the current S5 closure and UC4-linked coordination record",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "7d26dd6071a1ad650f2a6d1aa5d0de42775df79a",
+      "source_commit": "c6a2acf858f2856a20e2e29781c52286f357b25e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "before": "**S5 scope and closure record.** Read the [11 October audit findings](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) with [Xinghua Zhao's 12 October response](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). The author recommends closing the existing exercise at the corrected v0.1.3 supplied-model scope, distinguishing enforced predicates from upstream authority, freshness, lineage and actuator assumptions. Keep the successful branches, contrary probes and subsequent specification-selection questions together.",
+      "after": "**S5 scope and closure record.** Read the [11 October audit findings](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) with [Xinghua Zhao's 12 October response](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). The author recommends closing the existing exercise at the corrected v0.1.3 supplied-model scope, distinguishing enforced predicates from upstream authority, freshness, lineage and actuator assumptions. Keep the successful branches, contrary probes and subsequent specification-selection questions together.\n\n**15 October coordination update.** [Nelson's public statement](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6187658057) records S5 closed at its documented scope; a new Q0 case first needs its authority-state and revocation-observation contract. For UC-4-linked work he proposes source-author coordination and a per-candidate record of roles and interests. [Xinghua Zhao's reply](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6189805180) agrees that separate account names do not establish independent corroboration. Method review, instrument checks, author results, independent reproduction and specification selection retain their separate evidence. DDS Stage A applies to campaigns adopting it prospectively, rather than becoming a general UC-4 gate.\n",
+      "date": "2026-10-15",
+      "state": "Authorised; awaiting surgical insertion",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Dated public-source update during remnant review",
+      "benefit": "Updates the dated12 October closure recommendation with the15 October closed-scope record and actual role/interest boundaries.",
+      "riskReason": "Keep source-owner statements, contributor coordination and scientific evidence distinct; do not claim an executed result or independent validation.",
+      "costReason": "Read the primary public statements and complete receiving context; insert a dated note and verify its exact inverse/readback.",
+      "dependencies": [
+        "Current public comments15 October; original results/freeze remain unchanged"
+      ],
+      "preparation": "Complete before/after; unique old; after is insert-only",
+      "gate": "Authorised by the current remnant-review and careful-insertion instruction; no new campaign or source-owner assignment.",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
+    },
+    {
+      "id": 121,
+      "title": "Record Panodyssey’s dated source-owner confirmation without promoting synthetic results",
+      "source": "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md",
+      "source_sha": "8ec757d73638ed6464dfaa33861cf3d35e665797",
+      "source_commit": "c6a2acf858f2856a20e2e29781c52286f357b25e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "**Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.\n",
+      "after": "**Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.\n\n\n## 16. Later public source update — 15 October 2026\n\n**P9 — source-owner confirmation, supplementing P1–P8 and the 24 September evidence freeze.** In his [public UC-21 reply](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6192128304), Alexandre Leforestier confirms that this profile's description of Panodyssey's production rights stack and the agent-side identity gap matches current production reality, with no corrections at this stage. He also reports preparation of a separate Panodyssey use case grounded in Theme #17, linked to UC-21/S6 where they overlap.\n\nThis is a dated source-owner confirmation of the capability description. H1/H2 remain constructed, unexecuted trajectories; the reply adds no campaign result or product-failure finding.\n",
+      "date": "2026-10-15",
+      "state": "Authorised; awaiting surgical insertion",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Dated public-source update during remnant review",
+      "benefit": "Adds the newly public source-owner corroboration to the existing profile and preserves the separate-case preparation and experimental limits.",
+      "riskReason": "Keep source-owner statements, contributor coordination and scientific evidence distinct; do not claim an executed result or independent validation.",
+      "costReason": "Read the primary public statements and complete receiving context; insert a dated note and verify its exact inverse/readback.",
+      "dependencies": [
+        "Current public comments15 October; original results/freeze remain unchanged"
+      ],
+      "preparation": "Complete before/after; unique old; after is insert-only",
+      "gate": "Authorised by the current remnant-review and careful-insertion instruction; no new campaign or source-owner assignment.",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
     }
   ],
   "audit_coverage": [
@@ -7775,7 +7835,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "499769161a20a7bdc3fa9858a74f29f0aaf6293d",
+  "review_source_commit": "c6a2acf858f2856a20e2e29781c52286f357b25e",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -14496,6 +14556,35 @@
             "before_unique": true,
             "exact_inverse": true
           }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Live public-source update during remnant review",
+      "source_commit": "c6a2acf858f2856a20e2e29781c52286f357b25e",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#public-source-update-15-october-2026",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.",
+        "scope": "Review the original DDS/fork/internal Contributions history, publish exact before/after in existing VNext, and apply only justified surgical documentary insertions preserving every prior source byte. No scientific execution or new archive/package import."
+      },
+      "proposal_assessments": [
+        {
+          "id": 120,
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "preparation": "Complete before/after; unique old; after is insert-only",
+          "gate": "Authorised by the current remnant-review and careful-insertion instruction; no new campaign or source-owner assignment."
+        },
+        {
+          "id": 121,
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "preparation": "Complete before/after; unique old; after is insert-only",
+          "gate": "Authorised by the current remnant-review and careful-insertion instruction; no new campaign or source-owner assignment."
         }
       ]
     }

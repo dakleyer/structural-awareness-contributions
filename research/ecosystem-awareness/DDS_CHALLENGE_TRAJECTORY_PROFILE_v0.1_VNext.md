@@ -18089,3 +18089,31 @@ Applied and read back exactly on main: 115, 119. The old source text, all origin
 Six insertions affect five existing source documents: the current method reader, its existing additional-reading leaf, two R01 reader editions and the central control. Preparation was published first in `7af698d88c8905f52e87910c246a015c40674860`; application/main `499769161a20a7bdc3fa9858a74f29f0aaf6293d` has twelve exact public file readbacks. Every before/after is complete, insert-only and has an exact inverse; all seven new relative destinations and five pinned fork routes resolve. The original48-file source custody, binaries, executable code, manifests, outputs, official Issue/PDF and retained feasibility copies are unchanged in this batch.
 
 The restored S5 closure recommendation remains attributed to its author; the UC4 feedback remains a proposal. The diagnostic N/A rule is prospective and does not certify a supplied substitute or regrade a frozen result. Earlier unresolved full-history/media/scientific work remains explicit; this is closure of these concrete remnant insertions.
+
+
+## Public source update 15 October 2026
+
+The final live UC-21 check found dated public developments beyond the12 October discussions used above. Nelson records S5 closed at its documented scope and sets out the proposed UC4-linked coordination/interest record; Xinghua agrees. A newly posted Panodyssey reply confirms the production-description boundary and reports a separate case in preparation. These are source updates, not historical losses or executed campaign evidence. Their source/receiver meanings were read, compared with the existing contracts, checked for concise formatting/human legibility and consolidated with the completed remnant batch. The current owner instruction authorises these two exact dated additions. No new case is created or launched.
+
+### Change120 — Receive the current S5 closure and UC4-linked coordination record
+
+**State:** authorised; not yet applied. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; blob `7d26dd6071a1ad650f2a6d1aa5d0de42775df79a` at `c6a2acf858f2856a20e2e29781c52286f357b25e`. Benefit: Updates the dated12 October closure recommendation with the15 October closed-scope record and actual role/interest boundaries. Risk: preserve the precise contributor/evidence boundary. The complete old context occurs once; only the dated block is added.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+**S5 scope and closure record.** Read the [11 October audit findings](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) with [Xinghua Zhao's 12 October response](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). The author recommends closing the existing exercise at the corrected v0.1.3 supplied-model scope, distinguishing enforced predicates from upstream authority, freshness, lineage and actuator assumptions. Keep the successful branches, contrary probes and subsequent specification-selection questions together.
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+**S5 scope and closure record.** Read the [11 October audit findings](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) with [Xinghua Zhao's 12 October response](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). The author recommends closing the existing exercise at the corrected v0.1.3 supplied-model scope, distinguishing enforced predicates from upstream authority, freshness, lineage and actuator assumptions. Keep the successful branches, contrary probes and subsequent specification-selection questions together.
+
+**15 October coordination update.** [Nelson's public statement](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6187658057) records S5 closed at its documented scope; a new Q0 case first needs its authority-state and revocation-observation contract. For UC-4-linked work he proposes source-author coordination and a per-candidate record of roles and interests. [Xinghua Zhao's reply](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6189805180) agrees that separate account names do not establish independent corroboration. Method review, instrument checks, author results, independent reproduction and specification selection retain their separate evidence. DDS Stage A applies to campaigns adopting it prospectively, rather than becoming a general UC-4 gate.
+
+~~~~~~~~
+
+**Iván:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.

@@ -1781,3 +1781,37 @@ Applied the complete reviewed addition to `research/ecosystem-awareness/baseline
 Applied and read back exactly on main: 116. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
 
 - Change116: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/7ca37914b70d35e85b914269ea9b0c5b8c3c045f).
+
+
+## Public source update 15 October 2026
+
+The final live UC-21 check found dated public developments beyond the12 October discussions used above. Nelson records S5 closed at its documented scope and sets out the proposed UC4-linked coordination/interest record; Xinghua agrees. A newly posted Panodyssey reply confirms the production-description boundary and reports a separate case in preparation. These are source updates, not historical losses or executed campaign evidence. Their source/receiver meanings were read, compared with the existing contracts, checked for concise formatting/human legibility and consolidated with the completed remnant batch. The current owner instruction authorises these two exact dated additions. No new case is created or launched.
+
+### Change121 — Record Panodyssey’s dated source-owner confirmation without promoting synthetic results
+
+**State:** authorised; not yet applied. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md`; blob `8ec757d73638ed6464dfaa33861cf3d35e665797` at `c6a2acf858f2856a20e2e29781c52286f357b25e`. Benefit: Adds the newly public source-owner corroboration to the existing profile and preserves the separate-case preparation and experimental limits. Risk: preserve the precise contributor/evidence boundary. The complete old context occurs once; only the dated block is added.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+**Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
+
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+**Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
+
+
+## 16. Later public source update — 15 October 2026
+
+**P9 — source-owner confirmation, supplementing P1–P8 and the 24 September evidence freeze.** In his [public UC-21 reply](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6192128304), Alexandre Leforestier confirms that this profile's description of Panodyssey's production rights stack and the agent-side identity gap matches current production reality, with no corrections at this stage. He also reports preparation of a separate Panodyssey use case grounded in Theme #17, linked to UC-21/S6 where they overlap.
+
+This is a dated source-owner confirmation of the capability description. H1/H2 remain constructed, unexecuted trajectories; the reply adds no campaign result or product-failure finding.
+
+~~~~~~~~
+
+**Iván:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
