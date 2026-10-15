@@ -4943,7 +4943,7 @@
     {
       "id": 99,
       "title": "Identify the actual release-manifest epoch",
-      "state": "Prepared — pending named Ivan GO",
+      "state": "Applied; removed from the pending queue",
       "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
       "source_sha": "990872beae2f632515ee81a4dba36b16b8ad7f9c",
       "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
@@ -4960,7 +4960,18 @@
       "dependencies": "The other completion-edition pair; historical feasibility package and active current reports/study records.",
       "gate": "Ivan names this exact completion wave; retain every other byte and frozen manifest; refresh current source before applying.",
       "preparation": "Complete current passage uniquely matched; 17/17 historical and11/17 active manifest bindings actually checked.",
-      "authorized_to_apply": false
+      "authorized_to_apply": false,
+      "decision_ready": false,
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "fc42d7f4711354f4398a179ab8b3dd76624095a8",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md": "33cc9839e804bf22b788bea69b13c2eef4cd85eb"
+      }
     },
     {
       "id": 100,
@@ -15122,6 +15133,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "99",
+      "date": "2026-10-15",
+      "from_commit": "fc42d7f4711354f4398a179ab8b3dd76624095a8",
+      "title": "Identify the actual release-manifest epoch",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+          "before_blob": "eaf8890ad92087cba73c3b6cd6cae5c65e994d14",
+          "after_blob": "33cc9839e804bf22b788bea69b13c2eef4cd85eb",
+          "bytes": 6273,
+          "sha256": "efba65c430daf9199d166ab2ab3e7275fa8232a52998919332ebc01a6ca1f115"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "existing passage",
+          "old_occurrences": 1,
+          "before_sha256": "f3d2f8f5814f5446b72d55a15d6db65749a84963f7f9c22b3c208e7bb2677ea9",
+          "after_sha256": "fa256704ee4cf584182a4c466da7283bb81481ecef48d969fee68da0e91b2b41",
+          "prefix_sha256": "ecaec1b89f4ea7137532c1e51c3dc5883d77fcef972e28e6c5e84822e41d6f05",
+          "suffix_sha256": "7703afe199678084f9f95f4cf2db1d39e2434d84f9bed1d9abacb8047296bd2e",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -17148,6 +17196,13 @@
           "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md": "eaf8890ad92087cba73c3b6cd6cae5c65e994d14"
         },
         "from_commit": "bfe65ef3581396f9f50a310ce33706a08bb6006a"
+      },
+      "99": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md": "33cc9839e804bf22b788bea69b13c2eef4cd85eb"
+        },
+        "from_commit": "fc42d7f4711354f4398a179ab8b3dd76624095a8"
       }
     }
   }

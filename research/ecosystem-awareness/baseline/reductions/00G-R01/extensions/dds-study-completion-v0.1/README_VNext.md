@@ -369,3 +369,8 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 ### Application 98 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md`; resulting source blob `eaf8890ad92087cba73c3b6cd6cae5c65e994d14`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+### Application 99 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md`; resulting source blob `33cc9839e804bf22b788bea69b13c2eef4cd85eb`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
