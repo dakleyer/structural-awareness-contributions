@@ -575,6 +575,7 @@ qualified route exists
 AND applicable authority exists
 AND qualified reviewer/case fit exists
 AND information is sufficient for the requested decision
+AND required HumanTime fits W
 AND expected latency fits W
 ~~~
 

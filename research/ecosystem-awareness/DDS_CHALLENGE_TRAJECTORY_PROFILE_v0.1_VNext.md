@@ -17675,7 +17675,7 @@ The rows below are the current plan-reading view. Historical entry flags such as
 |---|---|---|
 | 91 | Complete external-entry pair; wait for92/source reception and the named official-entry decision. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 92 | Use the later passage 1 successor with the other nine original pairs as one held set; do not apply the original passage 1. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 93 | Complete literal pair; reconcile with 107–109 and actual HumanTime consumers before a capacity wave. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md) |
+| 93 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md) |
 | 94 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 | 95 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 96 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
@@ -17749,3 +17749,8 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 
 
 **Verified application commits — 02_r01_reading:** [98](https://github.com/dakleyer/structural-awareness-contributions/commit/fc42d7f4711354f4398a179ab8b3dd76624095a8), [99](https://github.com/dakleyer/structural-awareness-contributions/commit/16435141ea59e0f25f31c223701773747bd44e09), [110](https://github.com/dakleyer/structural-awareness-contributions/commit/40c1ba36badb59815c0ce9d955ef315f4c58b97d).
+
+
+### Application 93 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.

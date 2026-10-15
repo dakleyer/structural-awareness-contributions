@@ -4733,7 +4733,7 @@
       ],
       "vnext": "research/ecosystem-awareness/baseline/01K_VNext.md",
       "heading": "Content preservation CP-01 — restore the explicit human-time condition",
-      "state": "Pending content-restoration review",
+      "state": "Applied; removed from the pending queue",
       "impact": "Alto",
       "risk": "Medio",
       "effort": "Medio",
@@ -4751,7 +4751,17 @@
       "positive_impact_proven": false,
       "quality": "Complete literal current-before/proposed-after, historical predecessor, impact/risk/cost and consumers",
       "acceptance": "All current gate conditions retained; exactly the required HumanTime line restored; bounded-time units/consumer interpretation reconciled",
-      "joint_changes": "Owning 01K and 01K-A01 review records; no automatic schema/code change"
+      "joint_changes": "Owning 01K and 01K-A01 review records; no automatic schema/code change",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "d04abc8ba151aa6796497f6c80b28f684243cd52",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md": "3c6e9526062335c8eedd6c23dc3f7fded80211bd"
+      }
     },
     {
       "id": 94,
@@ -15223,6 +15233,43 @@
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false,
       "commit": "40c1ba36badb59815c0ce9d955ef315f4c58b97d"
+    },
+    {
+      "key": "93",
+      "date": "2026-10-15",
+      "from_commit": "d04abc8ba151aa6796497f6c80b28f684243cd52",
+      "title": "Restore explicit finite HumanTime condition in 01K runtime gate",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+          "before_blob": "e52ed065c5d217da73634c7eb28d26c5d990abae",
+          "after_blob": "3c6e9526062335c8eedd6c23dc3f7fded80211bd",
+          "bytes": 45975,
+          "sha256": "12e0c947c7a52d7f72cffb0ef644957f50b8e504bbc0713909d592e6dc5150f0"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "15, Gate A runtime viability",
+          "old_occurrences": 1,
+          "before_sha256": "42bf16a2801828a436930cd54f0209ecf57088363b62a14853f88135018f8d46",
+          "after_sha256": "d9c8052fe29fb30eb82b048cc6071d0bf91d4f0caf668c349062757d85eda310",
+          "prefix_sha256": "b426cecd64d1fa56e857f47c4f0013979682b85df6d28fb1b95732bb48e84d75",
+          "suffix_sha256": "9e00d3342843c06e3814ba626bc7340da6ba8d2a2719fe424c30adb1e826243c",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -17266,6 +17313,13 @@
         },
         "from_commit": "16435141ea59e0f25f31c223701773747bd44e09",
         "commit": "40c1ba36badb59815c0ce9d955ef315f4c58b97d"
+      },
+      "93": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md": "3c6e9526062335c8eedd6c23dc3f7fded80211bd"
+        },
+        "from_commit": "d04abc8ba151aa6796497f6c80b28f684243cd52"
       }
     }
   }
