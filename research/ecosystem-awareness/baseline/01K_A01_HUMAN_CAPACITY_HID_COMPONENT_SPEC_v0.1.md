@@ -672,12 +672,12 @@ T_hat_ij(q)
 =
 max(t_now, next_available_j)
 +
-BacklogDelay_j(q)
-+
-ServiceTime_ij(q)
+JointQueueAndServiceDelay_ij(q)
 ~~~
 
-and:
+JointQueueAndServiceDelay_ij(q) is a declared q-quantile or sufficient q-bound for the combined backlog delay and service time under the same model, conditioning and units. Adding two marginal q-quantiles does not generally yield a q-bound for their sum.
+
+A model with separate component bounds may use them if it establishes the combined coverage. For example, bounds at q_queue and q_service give at least q_queue + q_service - 1 joint coverage by the union bound, without independence; to claim q, declare choices whose sum minus one is at least q. A dependence-aware joint model or deterministic upper bounds may supply a different justified construction. State the assumptions and evidence.
 
 ~~~text
 ResponseMargin_ij(q)
@@ -689,7 +689,10 @@ q is deployment-declared. There is no universal mandatory 90th, 95th or 99th per
 
 If only a deterministic upper bound is known, that bound may replace the quantile estimate and the proof class becomes CONSERVATIVE_BOUND.
 
-If the implementation has only a heuristic point estimate, the result MUST say HEURISTIC.
+If the implementation has only a heuristic point estimate, the result MUST say HEURISTIC. When the consuming policy requires a bound that the available timing model cannot establish, retain UNKNOWN for that assurance question.
+
+This estimate concerns completion of the qualified human review. The consuming operation separately states any deadline for approval delivery, permitted action and observed effect; a positive review margin alone establishes none of those later events.
+
 
 ## 5.3 Runtime state rule
 
