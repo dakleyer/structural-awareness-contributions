@@ -6140,7 +6140,7 @@
         "W04",
         "W06"
       ],
-      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "state": "Applied; removed from the pending queue",
       "impact": "Medio",
       "risk": "Bajo",
       "effort": "Bajo",
@@ -6157,11 +6157,21 @@
       "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
       "date": "2026-10-15",
       "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
-      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "8bf5c0b813382647edc6df3a9ca867c090209977",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/baseline/README.md": "5a3244fa97c94a630bf930c54a18d7d39b4e6ff9"
+      }
     }
   ],
   "audit_coverage": [
@@ -15935,6 +15945,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "113",
+      "date": "2026-10-15",
+      "from_commit": "8bf5c0b813382647edc6df3a9ca867c090209977",
+      "title": "Keep the full retired 00J source reachable beside its maintained family profile",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/README.md",
+          "before_blob": "6d6aedbdae5a775b28ae1e6e2043108948c8f917",
+          "after_blob": "5a3244fa97c94a630bf930c54a18d7d39b4e6ff9",
+          "bytes": 78780,
+          "sha256": "f61e8e08bcd6e810620a614382b92ca24ffb4ada5665f7ce4a78a58a9278162a"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.",
+          "old_occurrences": 1,
+          "before_sha256": "2ab1838f67cedd52058152f8629f552acde70bf80844219352ee1f390f523ffb",
+          "after_sha256": "1829ef6b3b448abf69339df2c311a4e69e64efdf793e8cef3fc9bc313066f502",
+          "prefix_sha256": "43d0ba80be607ea4e4ff84accfdf617d2d34a7149e7c8312c11687788ea75b19",
+          "suffix_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18079,6 +18126,13 @@
           "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "b80969c8be13d7b5b710870457b1474ac8dc9880"
         },
         "from_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902"
+      },
+      "113": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/README.md": "5a3244fa97c94a630bf930c54a18d7d39b4e6ff9"
+        },
+        "from_commit": "8bf5c0b813382647edc6df3a9ca867c090209977"
       }
     }
   }

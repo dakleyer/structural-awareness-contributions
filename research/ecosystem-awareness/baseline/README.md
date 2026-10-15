@@ -359,3 +359,8 @@ The [earlier S4 branch reading](https://github.com/dakleyer/use-cases/blob/when-
 ## Approved working successors — 12 October 2026
 
 The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.
+
+### Earlier 00J source and current family profiles
+
+The [complete earlier 00J edition](https://github.com/dakleyer/structural-awareness-contributions/blob/cb10aca3c9cb2d4281e0ed056c60643f305596ac/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_THE_AUTHOR_PAYS_FOR_THEIR_OWN_WORK_v0.1_DRAFT.md) preserves its original source-policy record, non-curative human approval control, material-handoff metric and reconstructable repair definition. It is an antecedent, including its superseded sufficiency language. The maintained [00J family profile](./00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) identifies any selected successor controls and keeps handoff, branch and final-decision populations distinct. Existing00J, Panodyssey and frozen traversal records retain their own scopes and results.
+

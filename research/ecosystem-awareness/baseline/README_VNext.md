@@ -1606,7 +1606,7 @@ Freeze the counted population, unit, inclusion/exclusion rule, pairing and uncer
 
 **Source:** `research/ecosystem-awareness/baseline/README.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `6d6aedbdae5a775b28ae1e6e2043108948c8f917`. **Location:** The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions..
 
-**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Medio / Bajo / Bajo.
+**State:** Applied — owner-authorized 15 October 2026. Source blob `5a3244fa97c94a630bf930c54a18d7d39b4e6ff9`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Medio / Bajo / Bajo.
 
 **Benefit:** Exposes the complete historical source and useful recovered distinctions without recreating a competing active00J.
 
@@ -1697,3 +1697,8 @@ The successful pattern is **valid narrow evidence stays narrow until a justified
 ### Application 106 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md`; resulting source blob `b80969c8be13d7b5b710870457b1474ac8dc9880`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+### Application 113 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/README.md`; resulting source blob `5a3244fa97c94a630bf930c54a18d7d39b4e6ff9`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.

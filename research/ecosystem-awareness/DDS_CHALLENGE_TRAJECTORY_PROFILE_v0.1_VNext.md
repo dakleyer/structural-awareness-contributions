@@ -17695,7 +17695,7 @@ The rows below are the current plan-reading view. Historical entry flags such as
 | 110 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 111 | Complete successor-planning text; tasks 1/2 keep their bounded receipt and tasks3–8 remain inactive. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md) |
 | 112 | Source custody applied; reader paragraph112 remains pending | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 113 | Complete text for a named documentary decision; no source application authorised. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
+| 113 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 
 The separate sealed 00J transfer-premise pair stays in [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md), without another register ID. Its old/result formula and proposed conditional qualification are complete. Its actual dependencies are A25's separately established full-route base guarantee, X3 failure reflection, X4 conformance preservation, A26's positive controls and reconciliation with the receiving success-case claim. The earlier empty “Dependencies:” caption does not mean that there are no dependencies.
 
@@ -17839,5 +17839,10 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 
 
 ### Application 106 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.
+
+
+### Application 113 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.
