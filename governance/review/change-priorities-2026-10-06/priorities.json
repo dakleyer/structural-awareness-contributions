@@ -5271,7 +5271,8 @@
       "application_from_commit": "c28537820f3041702f6f782f69c9f24f4382e5d1",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "fb51d5af38c53b47587a84c6aa170f819e210f88"
-      }
+      },
+      "applied_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902"
     },
     {
       "id": 106,
@@ -5322,7 +5323,8 @@
       "application_from_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "b80969c8be13d7b5b710870457b1474ac8dc9880"
-      }
+      },
+      "applied_commit": "8bf5c0b813382647edc6df3a9ca867c090209977"
     },
     {
       "id": 107,
@@ -6171,7 +6173,8 @@
       "application_from_commit": "8bf5c0b813382647edc6df3a9ca867c090209977",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/README.md": "5a3244fa97c94a630bf930c54a18d7d39b4e6ff9"
-      }
+      },
+      "applied_commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3"
     }
   ],
   "audit_coverage": [
@@ -15907,7 +15910,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902"
     },
     {
       "key": "106",
@@ -15944,7 +15948,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "8bf5c0b813382647edc6df3a9ca867c090209977"
     },
     {
       "key": "113",
@@ -15981,7 +15986,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3"
     },
     {
       "key": "sealed00J",
@@ -16018,7 +16024,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "7868e5741e3be5016ec6fa478532e7f0e69a9693"
     }
   ],
   "current_wave_status": {
@@ -18155,28 +18162,32 @@
         "source_blobs": {
           "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "fb51d5af38c53b47587a84c6aa170f819e210f88"
         },
-        "from_commit": "c28537820f3041702f6f782f69c9f24f4382e5d1"
+        "from_commit": "c28537820f3041702f6f782f69c9f24f4382e5d1",
+        "commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902"
       },
       "106": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "b80969c8be13d7b5b710870457b1474ac8dc9880"
         },
-        "from_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902"
+        "from_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902",
+        "commit": "8bf5c0b813382647edc6df3a9ca867c090209977"
       },
       "113": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/baseline/README.md": "5a3244fa97c94a630bf930c54a18d7d39b4e6ff9"
         },
-        "from_commit": "8bf5c0b813382647edc6df3a9ca867c090209977"
+        "from_commit": "8bf5c0b813382647edc6df3a9ca867c090209977",
+        "commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3"
       },
       "sealed00J": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md": "994783f57be89805d3b737c1337af1df0970e4e9"
         },
-        "from_commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3"
+        "from_commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3",
+        "commit": "7868e5741e3be5016ec6fa478532e7f0e69a9693"
       }
     }
   }
