@@ -5053,7 +5053,8 @@
       "application_from_commit": "f99044bf96a6f782ecd5c93f24fac9e6c71fed43",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md": "7cf6b6e268ff2522841ce6290b6d11ba46e4b175"
-      }
+      },
+      "applied_commit": "7e04793c4b82bfc807d3affffa43e913053fdce5"
     },
     {
       "id": 101,
@@ -5110,7 +5111,8 @@
       "application_from_commit": "7e04793c4b82bfc807d3affffa43e913053fdce5",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md": "1bbc76f673d79e3b5bb52117aeeb3d68af0d5387"
-      }
+      },
+      "applied_commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c"
     },
     {
       "id": 102,
@@ -5167,7 +5169,8 @@
       "application_from_commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md": "407a009999326cd051cb26e003ad78f8cf8e3162"
-      }
+      },
+      "applied_commit": "29c1d0da83c333348787944540ca99462515c03b"
     },
     {
       "id": 103,
@@ -16098,7 +16101,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "7e04793c4b82bfc807d3affffa43e913053fdce5"
     },
     {
       "key": "101",
@@ -16135,7 +16139,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c"
     },
     {
       "key": "102",
@@ -16172,7 +16177,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "29c1d0da83c333348787944540ca99462515c03b"
     }
   ],
   "current_wave_status": {
@@ -18341,21 +18347,24 @@
         "source_blobs": {
           "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md": "7cf6b6e268ff2522841ce6290b6d11ba46e4b175"
         },
-        "from_commit": "f99044bf96a6f782ecd5c93f24fac9e6c71fed43"
+        "from_commit": "f99044bf96a6f782ecd5c93f24fac9e6c71fed43",
+        "commit": "7e04793c4b82bfc807d3affffa43e913053fdce5"
       },
       "101": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md": "1bbc76f673d79e3b5bb52117aeeb3d68af0d5387"
         },
-        "from_commit": "7e04793c4b82bfc807d3affffa43e913053fdce5"
+        "from_commit": "7e04793c4b82bfc807d3affffa43e913053fdce5",
+        "commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c"
       },
       "102": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md": "407a009999326cd051cb26e003ad78f8cf8e3162"
         },
-        "from_commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c"
+        "from_commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c",
+        "commit": "29c1d0da83c333348787944540ca99462515c03b"
       }
     }
   }
