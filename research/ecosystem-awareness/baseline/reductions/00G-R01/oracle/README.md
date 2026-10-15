@@ -194,7 +194,6 @@ The completed documentary work on tasks1/2 retains its bounded receipt. Further 
 Backend expansion is optional and separately scoped. Before any C11 registration/T03 admission or real execution, identify the selected reference, remaining schema/caller/isolation gaps and actual native evidence required. Calibration results remain calibration; the packet does not launch those tasks, reopen applied text or manufacture a technology result. The [existing plan review](./README_VNext.md) records the precise successor proposal and decision.
 
 
-
 ## Reading sequence from registration to result
 
 Follow the record in the order in which its evidence is created:
