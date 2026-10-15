@@ -320,7 +320,7 @@ Complete 29 September-onward proof/oracle/queue history, all13 studies, native p
 
 ### Change118 — Connect the HEW current reader to its retained feasibility edition
 
-**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**State:** Applied — 15 October 2026; no further insertion pending for this item. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
 
 Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md`, blob `71dec1fde183252490a421bf3e4ff81eda8e49e9` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
 
@@ -344,3 +344,8 @@ DDS correspondence. This mechanism profile supplies analytical technical evidenc
 ~~~~~~~~
 
 **Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Historical remnant application118 — 15 October 2026
+
+Applied the complete reviewed addition to `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md`. Predecessor `71dec1fde183252490a421bf3e4ff81eda8e49e9`; successor `227f42c34e57b5da19a20c113a21a1e5de0904f8`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
