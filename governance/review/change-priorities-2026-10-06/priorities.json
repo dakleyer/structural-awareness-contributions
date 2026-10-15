@@ -4793,7 +4793,8 @@
       "application_from_commit": "03fb2f44b5c911db7e2b68f9e489c46f3499e2e2",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md": "8ec757d73638ed6464dfaa33861cf3d35e665797"
-      }
+      },
+      "applied_commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a"
     },
     {
       "id": 95,
@@ -4835,7 +4836,8 @@
       "application_from_commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a",
       "applied_source_blobs": {
         "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md": "47514afea5a968c4a934012150707df509c7a5aa"
-      }
+      },
+      "applied_commit": "a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f"
     },
     {
       "id": 96,
@@ -4868,7 +4870,8 @@
       "application_from_commit": "a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f",
       "applied_source_blobs": {
         "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "a11672ae07d919c9892823da889edd8cf0d4e5d1"
-      }
+      },
+      "applied_commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43"
     },
     {
       "id": 97,
@@ -4901,7 +4904,8 @@
       "application_from_commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43",
       "applied_source_blobs": {
         "architectural-contributions/ecosystem-positioning/README.md": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b"
-      }
+      },
+      "applied_commit": "413208033cd6b92c9982adc3cfff0fa5161a3995"
     },
     {
       "id": 98,
@@ -14954,7 +14958,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a"
     },
     {
       "key": "95",
@@ -14991,7 +14996,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f"
     },
     {
       "key": "96",
@@ -15028,7 +15034,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43"
     },
     {
       "key": "97",
@@ -15065,7 +15072,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "413208033cd6b92c9982adc3cfff0fa5161a3995"
     }
   ],
   "current_wave_status": {
@@ -17059,28 +17067,32 @@
         "source_blobs": {
           "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md": "8ec757d73638ed6464dfaa33861cf3d35e665797"
         },
-        "from_commit": "03fb2f44b5c911db7e2b68f9e489c46f3499e2e2"
+        "from_commit": "03fb2f44b5c911db7e2b68f9e489c46f3499e2e2",
+        "commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a"
       },
       "95": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md": "47514afea5a968c4a934012150707df509c7a5aa"
         },
-        "from_commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a"
+        "from_commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a",
+        "commit": "a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f"
       },
       "96": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "a11672ae07d919c9892823da889edd8cf0d4e5d1"
         },
-        "from_commit": "a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f"
+        "from_commit": "a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f",
+        "commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43"
       },
       "97": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "architectural-contributions/ecosystem-positioning/README.md": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b"
         },
-        "from_commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43"
+        "from_commit": "f1c823ecd1600d772f3dd3f370364b03dd422c43",
+        "commit": "413208033cd6b92c9982adc3cfff0fa5161a3995"
       }
     }
   }

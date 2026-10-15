@@ -17728,3 +17728,6 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 ### Application 97 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.
+
+
+**Verified application commits — 01_clarity:** [94](https://github.com/dakleyer/structural-awareness-contributions/commit/3cdede020c82bf25dbf5f3906ad30b9186dca69a), [95](https://github.com/dakleyer/structural-awareness-contributions/commit/a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f), [96](https://github.com/dakleyer/structural-awareness-contributions/commit/f1c823ecd1600d772f3dd3f370364b03dd422c43), [97](https://github.com/dakleyer/structural-awareness-contributions/commit/413208033cd6b92c9982adc3cfff0fa5161a3995).
