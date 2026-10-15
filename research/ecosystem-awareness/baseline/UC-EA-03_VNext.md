@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 109. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # Revisión de UC-EA-03 — cuándo la supervisión humana puede ayudar
 
 **Única VNext del perfil lógico UC-EA-03**, que incluye el documento completo y sus tres copias por partes. Auditoría realizada por Codex el 6 de octubre de 2026, mismo asistente de IA; no auditoría humana independiente. [Fuente congelada v0.4](./UC-EA-03_v0.4_MAINTENANCE_FREEZE.md) · [nota externa](./UC-EA-03_REVIEW_CARD.md) · [plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
@@ -295,3 +297,10 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 
 
 **Verified application commits — 04_capacity_contract:** [109](https://github.com/dakleyer/structural-awareness-contributions/commit/97ed9eee5055a996b38e537bcd6a627d35d695dc).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 109. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).

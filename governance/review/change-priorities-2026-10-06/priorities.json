@@ -4609,7 +4609,7 @@
       "costReason": "Readback of the entire Issue and all four new destinations; owner access and literal approval of the replacement.",
       "gate": "Ivan approves this exact Issue replacement after 92 is incorporated and checked; owner/mantainer access must be available. No external write is attempted by preparation.",
       "date": "2026-10-13",
-      "state": "Pendiente de decisión",
+      "state": "Applied to the official UC-21 Issue; exact public body readback verified",
       "impact": "Alto",
       "effort": "Medio",
       "priority": "Primera",
@@ -4617,14 +4617,23 @@
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
       "heading": "Direct UC-21 entry in Contributions — 13 October 2026",
       "preparation": "Exact replacement pairs prepared",
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "quality": "Current source and all old passages identified; inverse comparison exact",
       "acceptance": "Current route within Contributions; submitted snapshot preserved; original source contracts and all destinations retained",
       "joint_changes": [
         92
-      ]
+      ],
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "applied_body_sha256": "9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98",
+      "applied_issue_updated_at": "2026-10-15T11:54:39Z",
+      "application_receipt": "Official Issue body read back exactly; unrelated body bytes and metadata unchanged"
     },
     {
       "id": 92,
@@ -16466,6 +16475,35 @@
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false,
       "commit": "c7f6e3d0037e1370197cfce93c6f5d0436dedbac"
+    },
+    {
+      "key": "91",
+      "date": "2026-10-15",
+      "target": "FG-TIDA/use-cases#21",
+      "body_before_sha256": "42a01df4e67c73a56c39544d6ce8a44dbbcb6d592f840b2ca5588ebf74122428",
+      "body_after_sha256": "9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98",
+      "updated_at": "2026-10-15T11:54:39Z",
+      "exact_readback": true,
+      "unrelated_body_bytes_identical": true,
+      "unrelated_issue_metadata_unchanged": [
+        "id",
+        "number",
+        "title",
+        "state",
+        "state_reason",
+        "labels",
+        "assignees",
+        "milestone",
+        "locked",
+        "user",
+        "created_at",
+        "comments"
+      ],
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      }
     }
   ],
   "current_wave_status": {
@@ -18543,7 +18581,7 @@
         "commit": "97ed9eee5055a996b38e537bcd6a627d35d695dc"
       },
       "112-custody": {
-        "state": "Source custody applied; reader paragraph112 remains pending",
+        "state": "Applied exact source custody; reader112 also applied",
         "source_blobs": {
           "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md": "93a71b4ea2798dffb0aff1c138bd7b94d1da1257",
           "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/SHA256SUMS.txt": "c24e434392b921b31a1211f13ce9e27d7ddc1dcc",
@@ -18692,7 +18730,125 @@
         },
         "from_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9",
         "commit": "c7f6e3d0037e1370197cfce93c6f5d0436dedbac"
+      },
+      "91": {
+        "state": "Applied to FG-TIDA/use-cases#21",
+        "body_sha256": "9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98",
+        "updated_at": "2026-10-15T11:54:39Z",
+        "unrelated_body_bytes_identical": true
       }
+    },
+    "state": "Approved literal plan applied and verified",
+    "local_passage_pairs": 32,
+    "official_entry_passage_pairs": 1,
+    "canonical_documents": 14,
+    "exact_archival_files": 48,
+    "approved_items_still_pending": [],
+    "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026",
+    "unknown_history_frontier_closed": false,
+    "experiments_activated": false
+  },
+  "literal_plan_application_closures": [
+    {
+      "date": "2026-10-15",
+      "from_commit": "9847af7e98dc23313bab4cf88ba5327c7d45273f",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026",
+      "source_approval": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "specific_custody_approval": {
+        "date": "2026-10-15",
+        "question": "¿Autorizas publicar el paquete112 —los48 archivos históricos originales de UC-21, incluidos3 PNG— en Contributions, bajo governance/preserved-public-snapshots/UC21_aec08fb5_source/, con exactamente los bytes y destinos ya detallados en la VNext?",
+        "user_answer": "Autorizar el paquete 112",
+        "file_count": 48,
+        "png_count": 3,
+        "destination_root": "governance/preserved-public-snapshots/UC21_aec08fb5_source/",
+        "scope": "Exact original bytes and already proposed paths only"
+      },
+      "local_pairs": 32,
+      "official_pair": 1,
+      "canonical_sources": [
+        {
+          "path": "architectural-contributions/ecosystem-positioning/README.md",
+          "before_blob": "9767ec8efb7d3a2875866ea3cd22ebc94882e930",
+          "after_blob": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b"
+        },
+        {
+          "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "before_blob": "88b78f386047a76e0e2da905bd951ada06e5602b",
+          "after_blob": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f"
+        },
+        {
+          "path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+          "before_blob": "e636346c46c49cb81ecc7f84ec9c792e9729cc95",
+          "after_blob": "47514afea5a968c4a934012150707df509c7a5aa"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md",
+          "before_blob": "af17d682b7e7e742b298de7918ade6029dffa9b8",
+          "after_blob": "8ec757d73638ed6464dfaa33861cf3d35e665797"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+          "before_blob": "e35dd8e39d1914f9c59a78e520b4de58cb8be1ed",
+          "after_blob": "b80969c8be13d7b5b710870457b1474ac8dc9880"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md",
+          "before_blob": "7195c2215454e40d830f159ac838c898b33573a1",
+          "after_blob": "994783f57be89805d3b737c1337af1df0970e4e9"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+          "before_blob": "20b7c8e0bea79edc237e695924a2a657713d412c",
+          "after_blob": "a60ea6991692dd0666203bb99e89b25564628745"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+          "before_blob": "e52ed065c5d217da73634c7eb28d26c5d990abae",
+          "after_blob": "3c6e9526062335c8eedd6c23dc3f7fded80211bd"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+          "before_blob": "06e12884ecbcff9df820d087e5b727bf4a18adab",
+          "after_blob": "7cf6b6e268ff2522841ce6290b6d11ba46e4b175"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+          "before_blob": "de6c58c62ad70b3182085333106b41b63a9fef18",
+          "after_blob": "407a009999326cd051cb26e003ad78f8cf8e3162"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/README.md",
+          "before_blob": "6d6aedbdae5a775b28ae1e6e2043108948c8f917",
+          "after_blob": "5a3244fa97c94a630bf930c54a18d7d39b4e6ff9"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md",
+          "before_blob": "982a738acedabbd9ea967e63ed3321216a59434f",
+          "after_blob": "19c98168a39a8f545024e190149e99dee8f4ccee"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+          "before_blob": "990872beae2f632515ee81a4dba36b16b8ad7f9c",
+          "after_blob": "33cc9839e804bf22b788bea69b13c2eef4cd85eb"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+          "before_blob": "da0a8c4830841936c1313dc8799b7291342b122d",
+          "after_blob": "f511c309fca30942deff376d9b52fb301c3c64b2"
+        }
+      ],
+      "archive_files": 48,
+      "all_approved_pairs_applied": true,
+      "old_file_set_preserved": true,
+      "new_vnext": 0,
+      "code_results_frozen_manifests_unchanged": true,
+      "old_http_destinations_lost": [],
+      "new_local_link_findings": [],
+      "scientific_history_frontier_closed": false
     }
-  }
+  ]
 }

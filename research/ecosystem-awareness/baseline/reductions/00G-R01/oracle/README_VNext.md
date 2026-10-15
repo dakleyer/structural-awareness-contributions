@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 111. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # Oráculo / harness R01 C02 — VNext de auditoría
 
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
@@ -1205,3 +1207,10 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 
 
 **Verified application commits — 07_uc21_contract_and_reader:** [111](https://github.com/dakleyer/structural-awareness-contributions/commit/b3c01574754454d37ad1f4107ecbd0ac47c50429).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 111. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).

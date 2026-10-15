@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 98, 99. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # DDS scoped-completion packet — owning review
 
 Version0.1 ·6 October2026 ·same author.
@@ -377,3 +379,10 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 
 
 **Verified application commits — 02_r01_reading:** [98](https://github.com/dakleyer/structural-awareness-contributions/commit/fc42d7f4711354f4398a179ab8b3dd76624095a8), [99](https://github.com/dakleyer/structural-awareness-contributions/commit/16435141ea59e0f25f31c223701773747bd44e09).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 98, 99. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).

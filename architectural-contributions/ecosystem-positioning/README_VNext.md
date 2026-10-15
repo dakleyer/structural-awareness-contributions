@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 97. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 > **Estado vigente — 12 octubre 2026.** Aplicadas y verificadas en main: cuatro adiciones de tanda5 y26cambios anteriores; UC-21 recibe su precisión de snapshot y conciliación de propuestas en su main. Ningún par vigente y ejecutable queda esperando otra autorización. Las nueve líneas43–51 describen investigación/perfiles/campañas sin un cambio literal definido. Sus estados permanecen separados. Las auditorías antiguas que dicen «pendiente» se leen por su fecha; la cola actual está en el registro de prioridades y este cierre.
 
 # Continuación del plan — lectura del README y fundamentos
@@ -2374,3 +2376,12 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 
 
 **Verified application commits — 01_clarity:** [97](https://github.com/dakleyer/structural-awareness-contributions/commit/413208033cd6b92c9982adc3cfff0fa5161a3995).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 97. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
+
+Current protected EP README blob after the approved append-only addition: `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`. This dated owner-authorised application follows the12 October control entry without changing that historical record.

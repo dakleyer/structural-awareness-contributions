@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 91, 95, 96, 110, 103, 104, 112, 92. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # DDS Stage A — VNext
 
 <!-- DDS terminology revision 3 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
@@ -17673,29 +17675,29 @@ The rows below are the current plan-reading view. Historical entry flags such as
 
 | Proposal | Current selection / next condition | Owning VNext |
 |---|---|---|
-| 91 | Complete external-entry pair; wait for92/source reception and the named official-entry decision. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 92 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 93 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md) |
-| 94 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
-| 95 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 96 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 97 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) |
-| 98 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md) |
-| 99 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md) |
-| 100 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) |
-| 101 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
-| 102 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
-| 103 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 104 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 105 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
-| 106 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
-| 107 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) |
-| 108 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) |
-| 109 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md) |
-| 110 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 111 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md) |
-| 112 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 113 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
+| 91 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 92 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 93 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md) |
+| 94 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
+| 95 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 96 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 97 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) |
+| 98 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md) |
+| 99 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md) |
+| 100 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) |
+| 101 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| 102 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| 103 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 104 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 105 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
+| 106 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
+| 107 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) |
+| 108 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) |
+| 109 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md) |
+| 110 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 111 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md) |
+| 112 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 113 | Applied and verified; complete. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 
 The separate sealed 00J transfer-premise pair stays in [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md), without another register ID. Its old/result formula and proposed conditional qualification are complete. Its actual dependencies are A25's separately established full-route base guarantee, X3 failure reflection, X4 conformance preservation, A26's positive controls and reconciliation with the receiving success-case claim. The earlier empty “Dependencies:” caption does not mean that there are no dependencies.
 
@@ -17900,3 +17902,46 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 
 
 **Verified application commits — 07_uc21_contract_and_reader:** [103](https://github.com/dakleyer/structural-awareness-contributions/commit/bbc1087e3439dc715efdec07819449e011829966), [104](https://github.com/dakleyer/structural-awareness-contributions/commit/18e361778c755ec2f24ecf026e99747bf39359c3), [111](https://github.com/dakleyer/structural-awareness-contributions/commit/b3c01574754454d37ad1f4107ecbd0ac47c50429), [112](https://github.com/dakleyer/structural-awareness-contributions/commit/638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9), [92](https://github.com/dakleyer/structural-awareness-contributions/commit/c7f6e3d0037e1370197cfce93c6f5d0436dedbac).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 91, 95, 96, 110, 103, 104, 112, 92. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The complete approved set comprises **32 local literal replacements in14 existing source documents, plus one paragraph in the official UC-21 Issue**. The48 original source-edition files are also published, with exact original blobs, under the approved custody root. No original file was deleted, moved or renamed; no additional VNext was created. Every existing program, binary, study result and frozen manifest outside that exact copied package is unchanged.
+
+Verification replayed all local pairs independently from the initial source cut and obtained exactly the published final source bytes. Every individual application has an exact inverse, with unchanged prefixes/suffixes outside its approved passage. All earlier HTTP destinations remain present; all21 added local references resolve. The EP README retains every original byte as its prefix.
+
+The official [UC-21 entry](https://github.com/FG-TIDA/use-cases/issues/21) now points directly to [the maintained reader](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results), [objectives](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-research-questions), [Challenges](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-challenge-sources) and [studies/results](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports). Its original snapshot links are retained in the historical fold. Only the approved paragraph changed; title, state, labels, assignees, milestone, comments and every unrelated body byte are unchanged. Final body SHA256: `9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98`.
+
+| Applied proposal | Exact application record |
+|---|---|
+| 94 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/3cdede020c82bf25dbf5f3906ad30b9186dca69a) |
+| 95 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/a4a10ad6ba91bf2f9df371a63c1188d9c11beb0f) |
+| 96 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/f1c823ecd1600d772f3dd3f370364b03dd422c43) |
+| 97 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/413208033cd6b92c9982adc3cfff0fa5161a3995) |
+| 98 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/fc42d7f4711354f4398a179ab8b3dd76624095a8) |
+| 99 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/16435141ea59e0f25f31c223701773747bd44e09) |
+| 110 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/40c1ba36badb59815c0ce9d955ef315f4c58b97d) |
+| 93 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/cad6836a62d70e29632a8c0d81ca23cc9f500a4d) |
+| 107 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/47d1f2d545c3c353a8901fdb1a54038c203c96c3) |
+| 108 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/163cd7360f4036a53f0f31db174f63dba10eb698) |
+| 109 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/97ed9eee5055a996b38e537bcd6a627d35d695dc) |
+| 105 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/d5d02ddf96f49230c053af5f9c7c8e55ef05a902) |
+| 106 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/8bf5c0b813382647edc6df3a9ca867c090209977) |
+| 113 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/c2bdd27d77293176b797c8fcbe8733e2c9e0acf3) |
+| sealed00J | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/7868e5741e3be5016ec6fa478532e7f0e69a9693) |
+| 100 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/7e04793c4b82bfc807d3affffa43e913053fdce5) |
+| 101 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c) |
+| 102 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/29c1d0da83c333348787944540ca99462515c03b) |
+| 103 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/bbc1087e3439dc715efdec07819449e011829966) |
+| 104 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/18e361778c755ec2f24ecf026e99747bf39359c3) |
+| 111 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/b3c01574754454d37ad1f4107ecbd0ac47c50429) |
+| 112 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9) |
+| 92 | [Commit](https://github.com/dakleyer/structural-awareness-contributions/commit/c7f6e3d0037e1370197cfce93c6f5d0436dedbac) |
+| 112 source custody | [Exact48-file publication](https://github.com/dakleyer/structural-awareness-contributions/commit/94abab6bc9b98f811df39e820a59864bc451f315) |
+| 91 | [Official Issue](https://github.com/FG-TIDA/use-cases/issues/21); updated 2026-10-15T11:54:39Z |
+
+For the method index, later92 refines navigation inside the already-applied103/112context. These are approved sequential edits, not missing applications: the final composite source is verified against the whole selected sequence.103,104,105/106,107–109and111 publish their documentary contracts; the per-campaign registration, native evidence and execution duties remain those contracts, not experiments performed by this update.
+
+The earlier unadjudicated historical/media frontier remains separate work. This closes incorporation of the concrete approved literal plan, not every research question in the corpus.

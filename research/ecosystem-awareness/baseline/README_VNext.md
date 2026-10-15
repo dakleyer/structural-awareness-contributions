@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 94, 105, 106, 113, sealed00J. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # Revisión del README del corpus técnico de Ecosystem Awareness
 
 **Única VNext de este README.** [Fuente](./README.md) · [plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) · [EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md). Auditoría por Codex, 6 de octubre de 2026; asistente de IA del mismo chat.
@@ -1450,7 +1452,7 @@ This is the same pending proposal, with its unified-review assessment, rather th
 
 Current bare transfer formula must retain A25 separately established full-route base guarantee, X3/X4 and A26 positive-control premises. Direct current clauses inspected.
 
-**Impact / risk / effort:** Medio / Medio / Medio. **State:** Pending existing-owner resolution and downstream transfer reconciliation; not a new register ID
+**Impact / risk / effort:** Medio / Medio / Medio. **State:** Applied — 15 October 2026; the qualified transfer-premise pair is incorporated. No new register ID.
 
 **Source:** [research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md), blob `7195c2215454e40d830f159ac838c898b33573a1`. Dependencies: 
 
@@ -1710,3 +1712,10 @@ The successful pattern is **valid narrow evidence stays narrow until a justified
 
 
 **Verified application commits — 05_00j_preserved_meaning:** [105](https://github.com/dakleyer/structural-awareness-contributions/commit/d5d02ddf96f49230c053af5f9c7c8e55ef05a902), [106](https://github.com/dakleyer/structural-awareness-contributions/commit/8bf5c0b813382647edc6df3a9ca867c090209977), [113](https://github.com/dakleyer/structural-awareness-contributions/commit/c2bdd27d77293176b797c8fcbe8733e2c9e0acf3), [sealed00J](https://github.com/dakleyer/structural-awareness-contributions/commit/7868e5741e3be5016ec6fa478532e7f0e69a9693).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 94, 105, 106, 113, sealed00J. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).

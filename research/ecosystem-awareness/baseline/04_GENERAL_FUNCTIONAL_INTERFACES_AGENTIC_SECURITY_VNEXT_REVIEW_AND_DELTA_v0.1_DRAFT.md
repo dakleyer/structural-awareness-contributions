@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 101, 102. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 > [!NOTE]
 > **Revisión para personas · instrucción de Iván del 6 de octubre de 2026.** El [plan de trabajo](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) exige cuatro pasadas diferentes, registradas en esta misma VNext: **fondo y lógica; evidencia y relaciones; edición y formato; legibilidad humana**. Después habrá una conciliación del corpus, con consecuencias en cada VNext afectada. El centro es comprender y cuestionar la idea; códigos y comprobaciones técnicas quedan como apoyo. La exploración mixta publicada antes se conserva, pero no se cuenta como cuatro pasadas terminadas.
 
@@ -724,3 +726,10 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 
 
 **Verified application commits — 06_attribution_and_editions:** [101](https://github.com/dakleyer/structural-awareness-contributions/commit/b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c), [102](https://github.com/dakleyer/structural-awareness-contributions/commit/29c1d0da83c333348787944540ca99462515c03b).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 101, 102. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).

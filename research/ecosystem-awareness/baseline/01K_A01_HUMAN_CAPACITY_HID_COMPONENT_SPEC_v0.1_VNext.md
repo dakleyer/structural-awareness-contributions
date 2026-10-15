@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 107, 108. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # 01K-A01 component contract — sole owning VNext
 
 Version0.1; source a2cee52fed3db130f2acfe3ece7d2106e3c66362; same Codex assistant, not independent review. The source is [01K-A01 component specification](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md). This is its only owning VNext; [01K VNext](./01K_VNext.md) remains the parent's research/source review, not an alternative component source.
@@ -523,3 +525,10 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 
 
 **Verified application commits — 04_capacity_contract:** [107](https://github.com/dakleyer/structural-awareness-contributions/commit/47d1f2d545c3c353a8901fdb1a54038c203c96c3), [108](https://github.com/dakleyer/structural-awareness-contributions/commit/163cd7360f4036a53f0f31db174f63dba10eb698).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 107, 108. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
