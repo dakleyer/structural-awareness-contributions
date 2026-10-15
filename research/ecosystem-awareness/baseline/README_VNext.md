@@ -1483,3 +1483,160 @@ The successful pattern is **valid narrow evidence stays narrow until a justified
 ``````
 
 This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+## Detailed restoration proposals 15 October 2026
+
+Iván requests complete literal before/after before execution. The [joint source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) owns cross-document order; this existing VNext retains its source-specific pairs. Previous reviews and proposals remain unchanged.
+
+
+### 105 — Recover explicit source-policy and non-curative approval controls for 00J successors
+
+**Source:** `research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `e35dd8e39d1914f9c59a78e520b4de58cb8be1ed`. **Location:** ## 2. Inherited requirement route.
+
+**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Medio.
+
+**Benefit:** Preserves useful old policy, human-approval and repair obligations in the maintained family interface.
+
+**Risk:** New control descriptions must not redefine current C0–C6 identifiers, freeze old fixtures differently or claim new execution.
+
+**Effort:** Compare retired source, current family/00J/A01/UC03 and future control input/output mapping.
+
+**Dependencies and order:** Current00J frozen fixture unchanged; Actual selected successor freeze; 109 human-profile consistency.
+
+**Text before — complete current passage**
+
+``````text
+## 2. Inherited requirement route
+
+Core surfaces:
+
+**S1/S5/S7/S9/S11/S12/S14**, with T1–T4 as applicable.
+
+Additional:
+
+- S6/S8 for access/delegation transfer;
+- S10 for material change;
+- S13 for later intervention/history.
+
+The family retains positive controls for legitimate transfer and independent creation; universal blocking is not a valid pass.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+## 2. Inherited requirement route
+
+Core surfaces:
+
+**S1/S5/S7/S9/S11/S12/S14**, with T1–T4 as applicable.
+
+Additional:
+
+- S6/S8 for access/delegation transfer;
+- S10 for material change;
+- S13 for later intervention/history.
+
+The family retains positive controls for legitimate transfer and independent creation; universal blocking is not a valid pass.
+
+### Selected successor controls and source-policy fields
+
+For a prospective 00J-family instantiation, declare whether the following historically explicit controls apply; freeze their actual facts and expected outcomes before testing. They supplement the selected profile rather than silently amend the old v0.1 fixture or its numbered controls.
+
+- **Source-policy record:** bind the original author/principal, work identifier, source/issuer, policy, effective time/validity, permitted/prohibited machine uses, obligations and expiry/revalidation rule. In the earlier rights instantiation, bounded RAG was conditionally permitted while training/permanent incorporation was denied, with attribution and bounded retention. Those are fixture facts, not a general legal conclusion for other sources.
+- **Non-curative human approval:** a reviewer approves a downstream claim while source lineage remains unresolved. Preserve that approval as a bounded intervention; it supplies neither the missing lineage nor broader rights authority. A different outcome needs actual new evidence/current authority, not the approval label alone. This recovers historical J-C5 without renaming the current C5 stale-record control.
+- **Repair with history:** a challenged erroneous downstream claim is corrected for future decisions while the original source record, generation claim and downstream claim remain reconstructable. Verify legitimate continuity and the owner's applicable intervention; do not replace prior evidence with the repaired result.
+
+Retain legitimate transfer, independent work, correlated-copy, unresolved downstream-use, stale-record and re-entry controls. A strong conventional mechanism receives the same credit and resources as any EA proposal.
+``````
+
+**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
+
+**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
+
+
+### 106 — Keep retired 00J handoff, repair and branch denominators as distinct prospective profiles
+
+**Source:** `research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `e35dd8e39d1914f9c59a78e520b4de58cb8be1ed`. **Location:** ## Success-case route.
+
+**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Medio.
+
+**Benefit:** Recovers three useful measurement distinctions without overwriting current metrics or historical results.
+
+**Risk:** Pooling handoffs, branches, runs and final decisions would change evidence; each new profile requires its own counting rule.
+
+**Effort:** Check raw populations, claims-per-handoff multiplicity, zero denominators and selected future result schema.
+
+**Dependencies and order:** 105 selected control scope; Actual profile population/freeze; Existing00J§8 and prior rates unchanged.
+
+**Text before — complete current passage**
+
+``````text
+## Success-case route
+
+The failure-family profile above is paired with the positive [**Proposition-Scoped Provenance**](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+## Success-case route
+
+The failure-family profile above is paired with the positive [**Proposition-Scoped Provenance**](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
+
+## Prospective measurement profiles: retain the denominator
+
+When selected for a future 00J instantiation, report these historical measures as separate profiles from the current case's per-final-decision and per-run measures:
+
+| Profile | Numerator | Denominator / required declaration |
+|---|---|---|
+| Material-handoff evidence-scope promotion | Claims consumed for a stronger proposition than their producer record supports | Declared material handoffs; record how each claim is assigned to its handoff and how multiple claims are counted. |
+| Reconstructable repair | Challenged erroneous downstream claims corrected for future decisions with the source/generation/downstream history reconstructable | Declared repair branches; preserve the earlier wrong decision, intervention and later qualified decision separately. |
+| Main-branch unsupported licence demand | Runs demanding that the original author pay/license the downstream claimant without a valid authority/evidence chain | Declared main inversion branches; retain separately the existing case's applicable-final-decisions denominator. |
+
+Freeze the counted population, unit, inclusion/exclusion rule, pairing and uncertainty before the run; report zero denominator as not evaluable with its reason. Do not pool these populations or retrospectively recompute published rates. No score improves by universal blocking: legitimate transfer, independent creation, valid continuity, finite time and burden remain acceptance conditions. The conditional A25/A26 transfer premises remain unchanged.
+``````
+
+**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
+
+**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
+
+
+### 113 — Keep the full retired 00J source reachable beside its maintained family profile
+
+**Source:** `research/ecosystem-awareness/baseline/README.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `6d6aedbdae5a775b28ae1e6e2043108948c8f917`. **Location:** The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions..
+
+**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Medio / Bajo / Bajo.
+
+**Benefit:** Exposes the complete historical source and useful recovered distinctions without recreating a competing active00J.
+
+**Risk:** Readers must not adopt old sufficiency assertions or conflate old J-C5 with current C5.
+
+**Effort:** Check the introducing-commit blob, maintained family links and reader interpretation.
+
+**Dependencies and order:** 105; 106; Original retired blob and existing traversal results unchanged.
+
+**Text before — complete current passage**
+
+``````text
+The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.
+
+### Earlier 00J source and current family profiles
+
+The [complete earlier 00J edition](https://github.com/dakleyer/structural-awareness-contributions/blob/cb10aca3c9cb2d4281e0ed056c60643f305596ac/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_THE_AUTHOR_PAYS_FOR_THEIR_OWN_WORK_v0.1_DRAFT.md) preserves its original source-policy record, non-curative human approval control, material-handoff metric and reconstructable repair definition. It is an antecedent, including its superseded sufficiency language. The maintained [00J family profile](./00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) identifies any selected successor controls and keeps handoff, branch and final-decision populations distinct. Existing00J, Panodyssey and frozen traversal records retain their own scopes and results.
+``````
+
+**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
+
+**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
+
+
+## Cross-document literal detail 15 October 2026
+
+The00J family receives the complete proposed105/106pair above, and113keeps its authentic earlier edition reachable.112preserves full originalS6in the complete case source package, with exact after payloads in the [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026). The current00J frozen fixture and historical outputs are not rewritten. This review adds no canonical reading level or active counterpart to the retained alias.

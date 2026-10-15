@@ -1142,3 +1142,49 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 | 25 | Explicar reutilización por familia sin trasladar resultados | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
 | 29 | Distinguir modo, efectos y métricas antes de reproducir | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
 
+
+
+## Detailed restoration proposals 15 October 2026
+
+Iván requests complete literal before/after before execution. The [joint source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) owns cross-document order; this existing VNext retains its source-specific pairs. Previous reviews and proposals remain unchanged.
+
+
+### 111 — Detail the next oracle successor packet while retaining completed work and inactive tasks
+
+**Source:** `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `da0a8c4830841936c1313dc8799b7291342b122d`. **Location:** ## Claim boundary.
+
+**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+
+**Benefit:** Makes the source/reference/control/caller prerequisites explicit before optional later engineering.
+
+**Risk:** Readers could confuse preparation with an active campaign or overgeneralize calibration; existing closure and task states are retained.
+
+**Effort:** Read UC4/interface/isolation and selected pilot clauses; future engineering remains separately estimated.
+
+**Dependencies and order:** Actual source/schema and CTv1 scope selection; C11/T03 separate authorization; Completed1/2 and frozen calibration unchanged.
+
+**Text before — complete current passage**
+
+``````text
+## Claim boundary
+
+The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+## Claim boundary
+
+The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+
+### Next scoped successor decision
+
+The completed documentary work on tasks1/2 retains its bounded receipt. Further tasks3–8 remain inactive until their own scope and decision. A prospective successor packet identifies: the exact UC4/source-schema edition and correspondence; one selected CTv1 profile and admitted clauses; clause → predicate → private reference → fail-capable/positive control mapping; attempted versus observed effect and operation/cost accounting; candidate/caller/private-state isolation; and the accepted adapter/broker/reset/resource/stop conditions.
+
+Backend expansion is optional and separately scoped. Before any C11 registration/T03 admission or real execution, identify the selected reference, remaining schema/caller/isolation gaps and actual native evidence required. Calibration results remain calibration; the packet does not launch those tasks, reopen applied text or manufacture a technology result. The [existing plan review](./README_VNext.md) records the precise successor proposal and decision.
+``````
+
+**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
+
+**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.

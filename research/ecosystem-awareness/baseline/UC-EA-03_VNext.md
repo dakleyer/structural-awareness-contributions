@@ -240,3 +240,41 @@ Disposition: a necessary capacity bound is received substantively. The consumer 
 | Annex B | Retain ToR context as citations, not proof of adoption. |
 | Annex C | Retain references; linked external current content not independently refreshed here. |
 
+
+
+## Detailed restoration proposals 15 October 2026
+
+Iván requests complete literal before/after before execution. The [joint source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) owns cross-document order; this existing VNext retains its source-specific pairs. Previous reviews and proposals remain unchanged.
+
+
+### 109 — Carry the qualified capacity/timing contract into the UC03 working successor
+
+**Source:** `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `982a738acedabbd9ea967e63ed3321216a59434f`. **Location:** R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window..
+
+**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+
+**Benefit:** Makes the caller expose what a usable human-review path must actually supply while preserving the frozen predecessor.
+
+**Risk:** UC03 must consume rather than own Theme16 lifecycle semantics; do not retrofit its frozen v0.4 tests.
+
+**Effort:** Review working successor R2/R3/R4, 01K/A01 and actual selected human-capacity consumer.
+
+**Dependencies and order:** 93; 107; 108; UC03v0.4 frozen predecessor unchanged.
+
+**Text before — complete current passage**
+
+``````text
+R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.
+
+For a tested configuration that consumes the 01K-A01 capacity component, also bind the reviewer/pool competence and applicable authority, service-demand units, queue/current commitments, model/proof class and required review-completion deadline. Record separately the latest permitted action/effect deadline and any remaining execution budget. The chosen profile identifies the timing bound it accepts; missing material inputs or required proof remain UNKNOWN. A human approval does not by itself supply missing evidence, enlarge mandate or prove timely execution. This is a binding for that selected configuration, not a universal Theme #16 state machine or HID measurement requirement.
+``````
+
+**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
+
+**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.

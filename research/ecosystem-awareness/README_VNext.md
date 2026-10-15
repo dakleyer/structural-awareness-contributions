@@ -321,3 +321,8 @@ Pending 92 contains five broken case-relative draft links and a malformed object
 ## Unified DDS restoration plan 15 October 2026
 
 The shared reader route remains UC-21, objectives, Challenges, reusable DDS, campaigns and results. The [unified restoration plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) distinguishes complete case-edition custody from active protocol reception. Existing theory, controls and adverse results keep their owners; a linked historical edition is not a second maintained corpus. Case-specific HR, selection and run fields require explicit bindings before the direct entry is treated as complete. No hierarchy, source file or existing destination is changed by this review.
+
+
+## Literal restoration detail 15 October 2026
+
+The [joint plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) records the complete proposed103case binding and112immutable source package in the existingDDS review. No source or hierarchy changes now. Its historical READMEs do not add a maintained reading level; the active route stays UC21→objectives→Challenges→DDS→campaigns→results. Current baseline/UC03 owners hold their own exact pairs; future92depends on source/card reception.

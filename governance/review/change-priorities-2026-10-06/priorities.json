@@ -5057,6 +5057,908 @@
         "no source executions/results, incompatibility closure or rendered Word claim introduced"
       ],
       "priority_reason": "Current opening notices already identify dated semantic amendments. These local preservation-caption fixes follow substantive semantic and receiver work; they do not justify a semantic rollback."
+    },
+    {
+      "id": 103,
+      "title": "Bind UC-21 HR, claim selection and complete run evidence in the method index",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "## 13. Select an exercise and keep its comparison dimensions explicit\n\nA case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), then select the bounded scenario, technology/configuration and evidence contract.\n\n| Selection | Owning source | What the record preserves |\n|---|---|---|\n| Objective and scientific claim | [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast. |\n| Challenge and admitted variant | [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |\n| Implementation comparison | [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |\n| Method stage and recorded execution | [DDS stage definitions](#1-one-method-three-stages) and the study's owning record | Stage A/B/C, frozen version, run, actual effect, timing and burden. |\n\nKeep labels qualified in cross-study comparisons. UC-21 R0/R1/R2, AWS-I0/I1/I2, the external S5 simulator's I0/I1/I2, causal conditions A–D, and DDS Stages A/B/C describe different dimensions. The [existing namespace rule](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#10a-namespace-safety-for-cross-corpus-review) preserves those meanings. In particular, the external S5 `I2-complete` selects a supplied-model correction; AWS-I2/R2 tests the retained corrected implementation under admitted drift.\n\nFor S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.",
+          "after": "## 13. Select an exercise and keep its comparison dimensions explicit\n\nA case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), then select the bounded scenario, technology/configuration and evidence contract.\n\n| Selection | Owning source | What the record preserves |\n|---|---|---|\n| Objective and scientific claim | [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast. |\n| Challenge and admitted variant | [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |\n| Implementation comparison | [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |\n| Method stage and recorded execution | [DDS stage definitions](#1-one-method-three-stages) and the study's owning record | Stage A/B/C, frozen version, run, actual effect, timing and burden. |\n\nKeep labels qualified in cross-study comparisons. UC-21 R0/R1/R2, AWS-I0/I1/I2, the external S5 simulator's I0/I1/I2, causal conditions A–D, and DDS Stages A/B/C describe different dimensions. The [existing namespace rule](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#10a-namespace-safety-for-cross-corpus-review) preserves those meanings. In particular, the external S5 `I2-complete` selects a supplied-model correction; AWS-I2/R2 tests the retained corrected implementation under admitted drift.\n\nFor S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.\n\n### UC-21 application contract: select the claim before the run\n\nThis subsection binds the UC-21 case protocols to DDS; other originating cases retain their own application contracts. Select the Challenge, bounded base scenario, technology/version/configuration, admitted variant and evidence contract. A technology mapping does not erase the base scenario or the original study freeze.\n\n| Selected question | Additional acceptance and conclusion |\n|---|---|\n| Case acceptance | Evaluate the selected scenario gates, actual outcome, matched legitimate activity, deadline and burden. Report that implementation outcome. |\n| HC | Register the family member, independent failure predicate, material intervention and specific transfer/qualification-loss/change/reuse pathway; use the declared A–D causal comparisons. A static failure neither establishes nor refutes that temporal sufficient pathway. |\n| HR | Demonstrate correction by the nominated R1 configuration before applying an admitted change; retain the same safeguards and ordinary adaptation in R2. Use the recurrence contract below. |\n| HS | Register the proposed communication-and-processing response, operating scope, component comparisons, warning/response margins and legitimate-activity criteria. Score the actual timely authorized response. |\n| H1–H6 | Name the individual frozen statement, its refutation test, comparator, measurements and scope. Case acceptance alone does not decide all six. |\n\nImplementation routes R0/R1/R2, causal factors A–D, response-component comparisons and DDS Stages A/B/C are separate selections. An HC ablation that disables a defence is not an HR trial retaining that defence. For S4, unauthorized aggregate action and silent loss of the material finding have separate outcomes: a narrower one-branch recurrence does not establish both.\n\n### UC-21 corrected-baseline recurrence contract\n\nFor each nominated scenario i, register the reinforced implementation K_i, baseline C_i, remaining fixed conditions B_i, admissible intervention domain D_i and independent failure predicate F_i. The bounded deterministic question is: for every nominated scenario i, does some delta in D_i reproduce F_i under (delta(C_i),B_i) after K_i has corrected F_i at baseline? Each scenario may have its own delta. This quantifies over the named implementations and domains, not every implementation or all possible products.\n\n1. **Admission and correction.** Define family membership and X1–X7 mapping independently of the result. Demonstrate R1 correction on the selected branch and its legitimate-activity controls within the resource/deadline contract. A baseline still failing its selected branch is not admitted as recurrence.\n2. **Intervention domain.** Freeze permitted fields/ranges, owners/source versions, equality rules/tolerances, timing, observable signals, combinations, exclusions and feasible response/fallback limits. Preserve enough history to distinguish a new material change from a static mismatch. Unknown reference conditions remain unknown. Do not define materiality from the observed failure.\n3. **Retained defender.** Pin implementation/model/tools, capabilities, safeguards and total resource budget. Preserve ordinary discovery, policy loading, revalidation, adaptation and authorized response. The implementation freeze prevents post-outcome engineering; it does not disable lawful adaptive state. Declare capacity or response-margin variation and match access/resources across arms.\n4. **Comparison and attribution.** Use the same R1 in unchanged-context and admitted-change trials, with harmless-change and qualification controls as applicable. Record intervention time before consequential reliance, gate evidence, actual action/business outcome and, where feasible, withdrawal/restoration evidence. A different harm, removed defence or impossible response does not establish the nominated recurrence.\n5. **Stochastic scope.** Predeclare repetitions, pairing/randomization, available seeds, minimum relevant effect and uncertainty method. Distinguish reproducible witness, bounded recurrence probability and near-deterministic prediction.\n6. **Conclusion.** A causally supported admitted witness supports that scenario/configuration/domain. Joint six-family support needs the declared evidence for each family. Successful defenders remain results. Exhaustive/formal preservation of one scenario across its complete declared domain refutes that conjunction for the named scope; a finite non-exhaustive no-recurrence sample reports its coverage/bound, not immunity. Refuting one preregistered intervention prediction does not refute every other admitted intervention. Preserve disagreements, inconclusive trials and earlier protocol versions.\n\nThe [case claim-selection source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) and [complete recurrence source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#annex-r) retain their full editions and definitions. These application bindings supply no new execution or hypothesis result.\n\n### UC-21 run and evidence binding\n\nUse the following eighteen fields for a prospective UC-21 record, or provide an explicit field-by-field mapping to the selected existing card. Name the actual card, claim, version and receiving owner before using it; an existing HEW or HF card is not automatically an HR campaign. An unfilled field remains pending; justified non-applicability states its reason and scope. U denotes the bounded operational representation; its active observation window is a separate selection.\n\n| Required field | Value/evidence to bind before execution |\n|---|---|\n| Run ID, date, tester and independent reviewer | Unique run identity; actual tester and reviewer, with independence/exposure described rather than assumed. |\n| Package, protocol, scenario and variant versions | Exact case package, selected protocol, scenario/variant and registered freeze. |\n| Claim: case acceptance / HC / HR / HS / selected H1–H6 | One selected case/HC/HR/HS/H contrast and its acceptance rule. |\n| Exact claim scope: candidate, family, all-six or all-profile | Named implementation, candidate set, family/all-six/all-profile domain and quantifier. |\n| S4 outcome: unauthorized action / silent loss / both / not applicable | Select unauthorized action, silent loss, both, or a reasoned not-applicable scope. |\n| Implementation route: R0 / R1 / R2 | R0, R1 or retained-R1-under-change R2; do not reuse rights-record R0 as a route. |\n| Causal condition A–D or response-component comparison, if applicable | Causal A–D or response components when selected; these are not extra implementation routes. |\n| Candidate/product/model/tool/configuration versions and hashes | Product/model/API/tool/code/configuration identities and hashes. |\n| Receiving decision, owner, grants and governing regime | Receiving decision, legitimate owner, current grants, purpose, scope, expiry and governing regime. |\n| Baseline facts, source access, provenance and permitted actions | Fixed facts, permitted access/actions, source/dependence and shared comparison conditions. |\n| Family admission X1–X7 and independent failure predicate | Declared X1–X7 mapping, independently fixed failure predicate and positive controls. |\n| R1 correction, legitimate-activity controls and frozen safeguards | Evidence of branch-specific correction, legitimate continuity and retained safeguards/adaptation. |\n| Context fields, change domain, materiality, timing and observable signals | D_i fields, materiality, equality/tolerances, intervention time and observable signal. |\n| Matched unchanged / harmless-change / qualification controls | Matched unchanged, harmless-change and qualification conditions; preserve successful defenders. |\n| Budget, capacity, deadline, fallback and warning/response margins | Units, finite budgets, qualified capacity, deadlines, warning margin and authorized fallback; state proof class and separate review completion from timely effect. |\n| Independent evaluator/oracle and separation from tested system | Evaluator/oracle identity, private truth, visibility/exposure and separation evidence. |\n| Metrics, thresholds, repetitions, pairing/seeds and uncertainty method | Actual numerator/denominator, thresholds, repetitions/pairing/seeds, uncertainty and minimum relevant effect. |\n| Raw evidence and reproduction location | Raw traces, inputs, frozen source identities, reproduction instructions and access conditions. |\n\nThe same record also binds these nine evidence groups; a field may serve more than one group without being counted as another independent observation.\n\n| Record group | Required entries |\n|---|---|\n| Claim and trial design | Case acceptance, HC, HR, HS or selected H1–H6; implementation route R0/R1/R2; causal condition A–D where applicable; response candidate/component comparison where applicable; declared candidate/intervention domain and family-admission record. Keep these identifiers separate. |\n| Identity and freeze | Run ID; scenario/variant; selected R0/R1/R2; technology/model/API versions; code/configuration hashes; date; tester; independent assessor if any. |\n| Decision and authority | Receiving decision and owner; grantor, grantee, scope, purpose, expiry and governing regime; legitimate action owners; source-of-truth records; distinction between simulated and real components. |\n| Fixture | Fixed facts and snapshots; source lineage; input/event order; independent oracle; permitted actions; materiality/freshness thresholds; capacity; deadline; stop and fallback rules. |\n| R1 correction / R2 intervention | Baseline gate/control evidence; frozen safeguards and generic adaptation; admitted change fields, values, timing and observable signal; unchanged/harmless-change comparison; no post-outcome engineering. |\n| Per-gate trace | Gate ID; input and versions; evidence available at the time; control present/invoked status; result/reason; next step; actual owner/action/effect; timestamp; uncertainty and unexercised fields. |\n| Measurements | Declared numerators, denominators, thresholds and intervals; false continuation/containment; timing; source/review/query/token/resource burden; actual business outcome. |\n| Hypothesis conclusion | Separate from the implementation result: support within scope, rejected candidate, bounded refutation, not tested or inconclusive, with the claim-specific reason and causal/response evidence. A case FAIL may support an admitted causal witness; a case PASS does not establish every hypothesis. |\n| Conclusion | Scope-specific PASS/FAIL/NOT EVALUABLE/NOT EXERCISED/justified NOT APPLICABLE; disagreements; successful defences; excluded interpretations; reproduction instructions. |\n\nCopy each applicable scenario gate with its original wording into this six-column trace; keep actual control state, uncertainty and unexercised conditions visible.\n\n| Gate | Input/source/version | Evidence at decision time | Result and reason | Owner/action/effect | Timestamp |\n|---|---|---|---|---|---|\n\nConclude separately: **implementation outcome** (gates, actual effect, continuity, deadline and burden); **hypothesis conclusion** (selected claim, supported scope, rejected candidate/bounded refutation/not tested/inconclusive and its reason); **reproduction and disagreements** (data, rerun/review status, successful defences and retained objections). Gate acceptance, warning and execution effect retain their distinct meanings.\n",
+          "location": "## 13. Select an exercise and keep its comparison dimensions explicit"
+        }
+      ],
+      "packages": [
+        "W02",
+        "W03"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Alto",
+      "priority": "Primera",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Makes corrected-baseline recurrence and the complete case record usable from Contributions without duplicating the general DDS method.",
+      "riskReason": "Application wording must agree with full case editions and selected actual campaign/card; no past registration is rewritten.",
+      "costReason": "Read full HR/H13/E6 and card fields; review semantics, family admission, custody and future consumers.",
+      "dependencies": [
+        "112 source custody",
+        "93 and107–109 timing/capacity",
+        "Named actual campaign/card before execution",
+        "103 precedes92; rebase if reverse order"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 104,
+      "title": "Specify a prospective diagnostic-successor packet without rewriting preregistrations",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "## 14. Select the method profile and its instruments\n\nSelect the study's object and authoritative reference first. Then use the instruments admitted for that question.\n\n| Question | Profile or instrument | Reference and use |\n|---|---|---|\n| Which specification distinctions survive the Challenge? | [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [gate diagnostic v0.2 audit candidate](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md) | The frozen Challenge and candidate specification; the diagnostic keeps gate verdict, level and dependency separate. Use the [v0.2 instrument freeze](./DDS_STAGE_A_GATE_DIAGNOSTIC_AUDIT_MANIFEST_v0.2.json) for that audit candidate. |\n| Does an architecture realize the selected specification? | [Stage B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) | The frozen specification package and requirement-to-architecture evidence. |\n| Does the implementation satisfy the problem under the registered conditions? | [Stage C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) | The Challenge, observed target/effect, acceptance policy and matched comparator contract. |\n| How are candidate execution, private evaluation and resources recorded? | [R01 C02 reading sequence](./baseline/reductions/00G-R01/oracle/README.md#reading-sequence-from-registration-to-result) | Adapter, broker, frozen policy and sealed traces within the selected R01 profile. |\n| How is the HF authority/evidence fixture evaluated? | [HF oracle C3](./baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) | Its own frozen family predicates and controls; select its profile rather than substituting C02 labels. |\n\nFor a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.",
+          "after": "## 14. Select the method profile and its instruments\n\nSelect the study's object and authoritative reference first. Then use the instruments admitted for that question.\n\n| Question | Profile or instrument | Reference and use |\n|---|---|---|\n| Which specification distinctions survive the Challenge? | [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [gate diagnostic v0.2 audit candidate](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md) | The frozen Challenge and candidate specification; the diagnostic keeps gate verdict, level and dependency separate. Use the [v0.2 instrument freeze](./DDS_STAGE_A_GATE_DIAGNOSTIC_AUDIT_MANIFEST_v0.2.json) for that audit candidate. |\n| Does an architecture realize the selected specification? | [Stage B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) | The frozen specification package and requirement-to-architecture evidence. |\n| Does the implementation satisfy the problem under the registered conditions? | [Stage C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) | The Challenge, observed target/effect, acceptance policy and matched comparator contract. |\n| How are candidate execution, private evaluation and resources recorded? | [R01 C02 reading sequence](./baseline/reductions/00G-R01/oracle/README.md#reading-sequence-from-registration-to-result) | Adapter, broker, frozen policy and sealed traces within the selected R01 profile. |\n| How is the HF authority/evidence fixture evaluated? | [HF oracle C3](./baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) | Its own frozen family predicates and controls; select its profile rather than substituting C02 labels. |\n\nFor a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.\n\n### Prospective diagnostic successor: complete the instrument contract\n\nThe preregistered [validation plan v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md), its runs, and the v0.2 audit-candidate freeze retain their original contracts. A new instrument scope is registered as a successor before use. The following packet is required for the scope claiming instrument admission; it does not retroactively change those freezes.\n\n| Successor packet | Exact declaration and verification |\n|---|---|\n| Scope and freeze | Instrument/catalog/dependency versions, claimed levels, families/cases, applicability and activation rules, participant facts, private references, mutations, stopping rules, hashes and full dependency manifest. |\n| Expected outcomes | Gate-specific expected verdicts and positive, negative, boundary and fail-capable controls; justified NOT_APPLICABLE remains distinct from missing evidence/NOT_ESTABLISHED. |\n| Dependencies | Trace old14/current15 gates and old17 sections many-to-many by actual clauses. Typed requires/claim_requires/supports retain distinct semantics; ordinal equality is not correspondence. |\n| Sensitivity | Predeclared mutations and exclusions, expected changed/unchanged verdicts and recorded sensitivity. A suggested repair is a candidate to refreeze and readjudicate, not a guaranteed PASSES_IF rule. |\n| Reviewer exposure | Reviewer identity/role, material seen, timing and permitted private evidence. Same-author checks remain identified as such. |\n| Disputes and report | Gate, evidence, scope, reason, adjudicator and disposition for each disagreement; report unresolved conditions, exclusions, deferred B/C work and actual outcomes. An unresolved material dispute does not create acceptance. |\n| Promotion | State the prospective threshold, applicable portability/unseen-family question and required evidence. Reuse HF procedures only for rows whose source versions and scope match; an HF-specific preregistration is not generic admission. |\n\nSA-G08's finite-response/default rule and SA-G11's smallest affected disposition preserve parts of the earlier bounded-review duty. Old G-A13 and current SA-G13 have different meanings. Scope-specific completion of this packet is preparation for instrument admission, not a candidate technology result or an instruction to execute a campaign.\n",
+          "location": "## 14. Select the method profile and its instruments"
+        }
+      ],
+      "packages": [
+        "W07"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Alto",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Recovers useful freeze, sensitivity, exposure, dispute and promotion duties as an explicit scoped successor.",
+      "riskReason": "Applying new requirements retrospectively would invalidate frozen-study interpretation; current typed dependencies must remain intact.",
+      "costReason": "Compare manifest, fourteen/fifteen gate mapping, seventeen source sections and chosen instrument consumers.",
+      "dependencies": [
+        "Actual successor scope and instrument owner",
+        "Existing v0.1/v0.2 freezes unchanged"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 105,
+      "title": "Recover explicit source-policy and non-curative approval controls for 00J successors",
+      "source": "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "source_sha": "e35dd8e39d1914f9c59a78e520b4de58cb8be1ed",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "pairs": [
+        {
+          "before": "## 2. Inherited requirement route\n\nCore surfaces:\n\n**S1/S5/S7/S9/S11/S12/S14**, with T1–T4 as applicable.\n\nAdditional:\n\n- S6/S8 for access/delegation transfer;\n- S10 for material change;\n- S13 for later intervention/history.\n\nThe family retains positive controls for legitimate transfer and independent creation; universal blocking is not a valid pass.",
+          "after": "## 2. Inherited requirement route\n\nCore surfaces:\n\n**S1/S5/S7/S9/S11/S12/S14**, with T1–T4 as applicable.\n\nAdditional:\n\n- S6/S8 for access/delegation transfer;\n- S10 for material change;\n- S13 for later intervention/history.\n\nThe family retains positive controls for legitimate transfer and independent creation; universal blocking is not a valid pass.\n\n### Selected successor controls and source-policy fields\n\nFor a prospective 00J-family instantiation, declare whether the following historically explicit controls apply; freeze their actual facts and expected outcomes before testing. They supplement the selected profile rather than silently amend the old v0.1 fixture or its numbered controls.\n\n- **Source-policy record:** bind the original author/principal, work identifier, source/issuer, policy, effective time/validity, permitted/prohibited machine uses, obligations and expiry/revalidation rule. In the earlier rights instantiation, bounded RAG was conditionally permitted while training/permanent incorporation was denied, with attribution and bounded retention. Those are fixture facts, not a general legal conclusion for other sources.\n- **Non-curative human approval:** a reviewer approves a downstream claim while source lineage remains unresolved. Preserve that approval as a bounded intervention; it supplies neither the missing lineage nor broader rights authority. A different outcome needs actual new evidence/current authority, not the approval label alone. This recovers historical J-C5 without renaming the current C5 stale-record control.\n- **Repair with history:** a challenged erroneous downstream claim is corrected for future decisions while the original source record, generation claim and downstream claim remain reconstructable. Verify legitimate continuity and the owner's applicable intervention; do not replace prior evidence with the repaired result.\n\nRetain legitimate transfer, independent work, correlated-copy, unresolved downstream-use, stale-record and re-entry controls. A strong conventional mechanism receives the same credit and resources as any EA proposal.\n",
+          "location": "## 2. Inherited requirement route"
+        }
+      ],
+      "packages": [
+        "W04"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Preserves useful old policy, human-approval and repair obligations in the maintained family interface.",
+      "riskReason": "New control descriptions must not redefine current C0–C6 identifiers, freeze old fixtures differently or claim new execution.",
+      "costReason": "Compare retired source, current family/00J/A01/UC03 and future control input/output mapping.",
+      "dependencies": [
+        "Current00J frozen fixture unchanged",
+        "Actual selected successor freeze",
+        "109 human-profile consistency"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 106,
+      "title": "Keep retired 00J handoff, repair and branch denominators as distinct prospective profiles",
+      "source": "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "source_sha": "e35dd8e39d1914f9c59a78e520b4de58cb8be1ed",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "pairs": [
+        {
+          "before": "## Success-case route\n\nThe failure-family profile above is paired with the positive [**Proposition-Scoped Provenance**](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.",
+          "after": "## Success-case route\n\nThe failure-family profile above is paired with the positive [**Proposition-Scoped Provenance**](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.\n\n## Prospective measurement profiles: retain the denominator\n\nWhen selected for a future 00J instantiation, report these historical measures as separate profiles from the current case's per-final-decision and per-run measures:\n\n| Profile | Numerator | Denominator / required declaration |\n|---|---|---|\n| Material-handoff evidence-scope promotion | Claims consumed for a stronger proposition than their producer record supports | Declared material handoffs; record how each claim is assigned to its handoff and how multiple claims are counted. |\n| Reconstructable repair | Challenged erroneous downstream claims corrected for future decisions with the source/generation/downstream history reconstructable | Declared repair branches; preserve the earlier wrong decision, intervention and later qualified decision separately. |\n| Main-branch unsupported licence demand | Runs demanding that the original author pay/license the downstream claimant without a valid authority/evidence chain | Declared main inversion branches; retain separately the existing case's applicable-final-decisions denominator. |\n\nFreeze the counted population, unit, inclusion/exclusion rule, pairing and uncertainty before the run; report zero denominator as not evaluable with its reason. Do not pool these populations or retrospectively recompute published rates. No score improves by universal blocking: legitimate transfer, independent creation, valid continuity, finite time and burden remain acceptance conditions. The conditional A25/A26 transfer premises remain unchanged.\n",
+          "location": "## Success-case route"
+        }
+      ],
+      "packages": [
+        "W04"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Recovers three useful measurement distinctions without overwriting current metrics or historical results.",
+      "riskReason": "Pooling handoffs, branches, runs and final decisions would change evidence; each new profile requires its own counting rule.",
+      "costReason": "Check raw populations, claims-per-handoff multiplicity, zero denominators and selected future result schema.",
+      "dependencies": [
+        "105 selected control scope",
+        "Actual profile population/freeze",
+        "Existing00J§8 and prior rates unchanged"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 107,
+      "title": "Use a joint queue/service timing bound and separate review from effect",
+      "source": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+      "source_sha": "20b7c8e0bea79edc237e695924a2a657713d412c",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "## 5.2 Predicted completion and response margin\n\nWhere a timing model exists, for declared prediction quantile q:\n\n~~~text\nT_hat_ij(q)\n=\nmax(t_now, next_available_j)\n+\nBacklogDelay_j(q)\n+\nServiceTime_ij(q)\n~~~\n\nand:\n\n~~~text\nResponseMargin_ij(q)\n=\ndeadline_i - T_hat_ij(q)\n~~~\n\nq is deployment-declared. There is no universal mandatory 90th, 95th or 99th percentile.\n\nIf only a deterministic upper bound is known, that bound may replace the quantile estimate and the proof class becomes CONSERVATIVE_BOUND.\n\nIf the implementation has only a heuristic point estimate, the result MUST say HEURISTIC.",
+          "after": "## 5.2 Predicted completion and response margin\n\nWhere a timing model exists, for declared prediction quantile q:\n\n~~~text\nT_hat_ij(q)\n=\nmax(t_now, next_available_j)\n+\nJointQueueAndServiceDelay_ij(q)\n~~~\n\nJointQueueAndServiceDelay_ij(q) is a declared q-quantile or sufficient q-bound for the combined backlog delay and service time under the same model, conditioning and units. Adding two marginal q-quantiles does not generally yield a q-bound for their sum.\n\nA model with separate component bounds may use them if it establishes the combined coverage. For example, bounds at q_queue and q_service give at least q_queue + q_service - 1 joint coverage by the union bound, without independence; to claim q, declare choices whose sum minus one is at least q. A dependence-aware joint model or deterministic upper bounds may supply a different justified construction. State the assumptions and evidence.\n\n~~~text\nResponseMargin_ij(q)\n=\ndeadline_i - T_hat_ij(q)\n~~~\n\nq is deployment-declared. There is no universal mandatory 90th, 95th or 99th percentile.\n\nIf only a deterministic upper bound is known, that bound may replace the quantile estimate and the proof class becomes CONSERVATIVE_BOUND.\n\nIf the implementation has only a heuristic point estimate, the result MUST say HEURISTIC. When the consuming policy requires a bound that the available timing model cannot establish, retain UNKNOWN for that assurance question.\n\nThis estimate concerns completion of the qualified human review. The consuming operation separately states any deadline for approval delivery, permitted action and observed effect; a positive review margin alone establishes none of those later events.\n",
+          "location": "## 5.2 Predicted completion and response margin"
+        }
+      ],
+      "packages": [
+        "W05"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Alto",
+      "effort": "Alto",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Prevents marginal percentile arithmetic being read as a guaranteed combined deadline and identifies the later effect deadline.",
+      "riskReason": "Timing consumers and accepted proof classes can change availability interpretation; no measured runtime failure is asserted.",
+      "costReason": "Review probabilistic conditioning, units, queue/calendar commitments, proof class and consuming deadlines.",
+      "dependencies": [
+        "93 qualified gate variant",
+        "108 proof policy",
+        "109 UC03 working receiver",
+        "No schema/runtime or frozen-result change"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 108,
+      "title": "Bind AVAILABLE to the consuming proof policy without adding a state",
+      "source": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+      "source_sha": "20b7c8e0bea79edc237e695924a2a657713d412c",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "## 5.3 Runtime state rule\n\nA minimal state rule is:\n\n~~~text\nAVAILABLE\n  if at least one eligible route is established\n  and predicted completion is inside the response window\n  and no material unknown defeats that conclusion.\n\nDEGRADED\n  if a feasible route exists but only through fallback,\n  low declared response margin,\n  reduced redundancy,\n  or another deployment-declared degraded condition.\n\nUNAVAILABLE\n  if all relevant candidate routes are sufficiently known\n  and none can complete the required intervention inside the window.\n\nUNKNOWN\n  if the component cannot establish either a usable route\n  or proven unavailability because material competence, authority,\n  information, queue, timing or freshness state is unresolved.\n~~~\n\nThe component does not create a fifth state for every failure cause; causes remain structured reasons.",
+          "after": "## 5.3 Runtime state rule\n\nA minimal state rule is:\n\n~~~text\nAVAILABLE\n  if at least one eligible route is established\n  and predicted completion is inside the response window\n  and no material unknown defeats that conclusion.\n\nDEGRADED\n  if a feasible route exists but only through fallback,\n  low declared response margin,\n  reduced redundancy,\n  or another deployment-declared degraded condition.\n\nUNAVAILABLE\n  if all relevant candidate routes are sufficiently known\n  and none can complete the required intervention inside the window.\n\nUNKNOWN\n  if the component cannot establish either a usable route\n  or proven unavailability because material competence, authority,\n  information, queue, timing or freshness state is unresolved.\n~~~\n\nThe component does not create a fifth state for every failure cause; causes remain structured reasons.\n\nThe consuming profile declares which scheduling/timing proof classes it accepts for each decision. EXACT and CONSERVATIVE_BOUND claims identify their model, assignment or bound and assumptions; HEURISTIC is reported as a heuristic. An availability indication must not silently become a stronger deadline guarantee than its witness supports. If a material proof/input required by the consuming policy is missing, use UNKNOWN for that decision. A deployment need not implement a universal exact scheduler or the optional HID measurement engine.\n",
+          "location": "## 5.3 Runtime state rule"
+        }
+      ],
+      "packages": [
+        "W05"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Alto",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Connects existing states to explicit model/proof requirements and preserves legitimate heuristic deployments.",
+      "riskReason": "An unconditional proof requirement would wrongly reject scoped heuristic uses; state and policy meanings must remain separate.",
+      "costReason": "Check A01 state/model/schema profiles and selected consuming assurance claims.",
+      "dependencies": [
+        "93",
+        "107",
+        "109",
+        "Existing four states and conditional proof-class design"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 109,
+      "title": "Carry the qualified capacity/timing contract into the UC03 working successor",
+      "source": "research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md",
+      "source_sha": "982a738acedabbd9ea967e63ed3321216a59434f",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+      "pairs": [
+        {
+          "before": "R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.",
+          "after": "R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.\n\nFor a tested configuration that consumes the 01K-A01 capacity component, also bind the reviewer/pool competence and applicable authority, service-demand units, queue/current commitments, model/proof class and required review-completion deadline. Record separately the latest permitted action/effect deadline and any remaining execution budget. The chosen profile identifies the timing bound it accepts; missing material inputs or required proof remain UNKNOWN. A human approval does not by itself supply missing evidence, enlarge mandate or prove timely execution. This is a binding for that selected configuration, not a universal Theme #16 state machine or HID measurement requirement.\n",
+          "location": "R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window."
+        }
+      ],
+      "packages": [
+        "W05"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Alto",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Makes the caller expose what a usable human-review path must actually supply while preserving the frozen predecessor.",
+      "riskReason": "UC03 must consume rather than own Theme16 lifecycle semantics; do not retrofit its frozen v0.4 tests.",
+      "costReason": "Review working successor R2/R3/R4, 01K/A01 and actual selected human-capacity consumer.",
+      "dependencies": [
+        "93",
+        "107",
+        "108",
+        "UC03v0.4 frozen predecessor unchanged"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 110,
+      "title": "Make R01 mathematical queue, active study reading and historical freeze explicit",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count.",
+          "after": "Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count.\n\nFor R01, the [root reader](./baseline/reductions/00G-R01/README.md) and its sole feasibility work queue retain their mathematical/work-control responsibilities. The [extensions reader](./baseline/reductions/00G-R01/extensions/README.md#follow-the-evidence-from-original-study-to-successor) routes completed technology studies and their later cost/type and repair records. A retained feasibility edition, an active reader edition and a registered run freeze are different references. The completion release manifest continues to certify its historical package; later document changes use their own identities. Follow the [completion record](./baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md) for the actual edition and result scope.\n",
+          "location": "Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count."
+        }
+      ],
+      "packages": [
+        "W08"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Explains existing epoch/owner differences without rewriting queues, reports or manifests.",
+      "riskReason": "Reader guidance must not demote the authoritative work queue or transfer old certification to current prose.",
+      "costReason": "Verify links and the 98/99 completion captions as a coupled reader change.",
+      "dependencies": [
+        "98",
+        "99",
+        "Root queue remains authoritative for its declared work"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 111,
+      "title": "Detail the next oracle successor packet while retaining completed work and inactive tasks",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+      "source_sha": "da0a8c4830841936c1313dc8799b7291342b122d",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+      "pairs": [
+        {
+          "before": "## Claim boundary\n\nThe self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.",
+          "after": "## Claim boundary\n\nThe self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.\n\n### Next scoped successor decision\n\nThe completed documentary work on tasks1/2 retains its bounded receipt. Further tasks3–8 remain inactive until their own scope and decision. A prospective successor packet identifies: the exact UC4/source-schema edition and correspondence; one selected CTv1 profile and admitted clauses; clause → predicate → private reference → fail-capable/positive control mapping; attempted versus observed effect and operation/cost accounting; candidate/caller/private-state isolation; and the accepted adapter/broker/reset/resource/stop conditions.\n\nBackend expansion is optional and separately scoped. Before any C11 registration/T03 admission or real execution, identify the selected reference, remaining schema/caller/isolation gaps and actual native evidence required. Calibration results remain calibration; the packet does not launch those tasks, reopen applied text or manufacture a technology result. The [existing plan review](./README_VNext.md) records the precise successor proposal and decision.\n",
+          "location": "## Claim boundary"
+        }
+      ],
+      "packages": [
+        "W08"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Alto",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Makes the source/reference/control/caller prerequisites explicit before optional later engineering.",
+      "riskReason": "Readers could confuse preparation with an active campaign or overgeneralize calibration; existing closure and task states are retained.",
+      "costReason": "Read UC4/interface/isolation and selected pilot clauses; future engineering remains separately estimated.",
+      "dependencies": [
+        "Actual source/schema and CTv1 scope selection",
+        "C11/T03 separate authorization",
+        "Completed1/2 and frozen calibration unchanged"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+    },
+    {
+      "id": 112,
+      "title": "Preserve the complete 48-file original UC21 source package with a readable entry",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.",
+          "after": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.\n\nA preserved source edition is available as the [UC-21 case snapshot](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md), including its [full claim source](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), [recurrence protocol](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md), [evidence protocol](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md) and [run-record form](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md). The original48-file repository snapshot at aec08fb5 is preserved without changing its internal paths, text, images, fixtures or original SHA256SUMS. Its READMEs describe that historical package, not an additional maintained corpus route. The current method and the UC-21 application bindings remain here in the DDS index.\n\nThe historical manifest matches46 of its47 listed payloads; its USE_CASE.md digest differs from the actual aec08fb5 blob. Preserve both the original file and the original digest list. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) records the actual48file Git/blob/SHA256 inventory and this discrepancy. Historical edition custody does not certify its statements or replace the current claim-specific acceptance contract.\n",
+          "location": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact."
+        }
+      ],
+      "packages": [
+        "W06",
+        "W04",
+        "W02",
+        "W03"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Alto",
+      "priority": "Primera",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Makes the complete original case sources and their media available inside Contributions while keeping one maintained method route.",
+      "riskReason": "A partial copy could break links or promote old assertions; preserve the whole package and explicitly distinguish the source edition and checksum discrepancy.",
+      "costReason": "Verify48blobs,45full text payloads,3image containers, original internal paths/anchors, source status and future publication scope.",
+      "dependencies": [
+        "All48future destinations and bytes approved as one custody scope",
+        "103 receiving contract and future card binding",
+        "No physical move, source deletion or new maintained README/VNext",
+        "112 precedes92; no implicit92 GO"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.",
+      "preserved_payloads": [
+        {
+          "source": "contributions/when-controls-work-system-fails/README.md",
+          "blob": "93a71b4ea2798dffb0aff1c138bd7b94d1da1257",
+          "mode": "100644",
+          "sha256": "2c05407105948b11e4e14a2b0997c9011419049369df6cc9ae52ba64faab3c84",
+          "bytes": 7653,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/SHA256SUMS.txt",
+          "blob": "c24e434392b921b31a1211f13ce9e27d7ddc1dcc",
+          "mode": "100644",
+          "sha256": "b07eddddb670688bb44e596a057318ac8f88ca90f2f5b4b98ae704145eaabb11",
+          "bytes": 4552,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/SHA256SUMS.txt"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/SUBMISSION.md",
+          "blob": "0555b68a75fddf8ae19937efe513ec6ec6f65cef",
+          "mode": "100644",
+          "sha256": "ade30edda74800d846f3416a2b5c606a62a451389c0c807a1c92c9dfd371b274",
+          "bytes": 16331,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/SUBMISSION.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/USE_CASE.md",
+          "blob": "6e3d299fdb077ef463d6e9b026510cd050eb34b3",
+          "mode": "100644",
+          "sha256": "b81710d02d4b469d4af024f7dfa9ff4e9efedeb5c56b04eb45e3ae2f171ebf76",
+          "bytes": 28453,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md",
+          "blob": "f14cfee1b588d0814bb39288b40d715bbed826a2",
+          "mode": "100644",
+          "sha256": "6911b3048974661675ba3406c001d1d0bf16b1b44a7d8360faff6cb6518591e2",
+          "bytes": 5571,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md",
+          "blob": "11e844056e6253e3e8ec0983072dd8fdc3b0d88e",
+          "mode": "100644",
+          "sha256": "0290e6d11e3dca8c317ed84957dc3b35e264cc8011aff540323d60c5e853e9fc",
+          "bytes": 18042,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md",
+          "blob": "3fb1a3ffc83a430597502c173146c3d2e3ec70bf",
+          "mode": "100644",
+          "sha256": "f1dce53ae7c363e022d1167d60b3e75b86f2351b2fdfec8eca0e0cde211ce19f",
+          "bytes": 32408,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md",
+          "blob": "7e315c2fc1931e19a9a61d03912b9fb88b51031c",
+          "mode": "100644",
+          "sha256": "2c2bb892598d6f0135ab5c23af68944005071a16142a00e921b7932e53318f11",
+          "bytes": 66940,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/README.md",
+          "blob": "452d0e2f68124d57b0164375339d3bb9e909082c",
+          "mode": "100644",
+          "sha256": "a72aa6f6ee8ae1be633cc82ff5a29fb35ac24a4476cd226dc2cfb450bbd261e0",
+          "bytes": 2710,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md",
+          "blob": "824f4f974d1423cb98c78504ac9e6ca91fb95b0b",
+          "mode": "100644",
+          "sha256": "aa7967a6259ed9c8a0379c41d03bdfdc505414bb32b72f3ec5fa142c8b45361e",
+          "bytes": 17203,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md",
+          "blob": "d9e0972aa61dbfacb3236dc08b200f94fee284a0",
+          "mode": "100644",
+          "sha256": "be19770fb3669e0e4e7aa9a8737991d805c5bd1e75afedafb1a1bc6881187ff9",
+          "bytes": 2115,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/scenarios/S1.md",
+          "blob": "d70c30fd6080565d90b720da13befca41fe0ad4a",
+          "mode": "100644",
+          "sha256": "81009b74441e9aceca916d7b04f4f1f9278d5791a5601d535bce4bce74a9d27e",
+          "bytes": 61009,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S1.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/scenarios/S2.md",
+          "blob": "7b4a1fcb86530e2a1b57f0846aa02996ddf44683",
+          "mode": "100644",
+          "sha256": "ce86f6618fbb236e75aa7ec831a870680b58643f79c2cb37d4aa9a5ba2f2a185",
+          "bytes": 38786,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S2.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/scenarios/S3.md",
+          "blob": "a14fd35f3dc379490d2c22af8d59aa86e25847ca",
+          "mode": "100644",
+          "sha256": "c48bd5a0e3f68351064ca6c409658e8d47953177a8a58a126eac07aaf96afe16",
+          "bytes": 38578,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S3.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/scenarios/S4.md",
+          "blob": "0dec490f15c325ef6e96d76435da192105b686b2",
+          "mode": "100644",
+          "sha256": "90a79d4ce9873d559ca89a91eef0388650a0943b703e1a3b07e599ddc9694462",
+          "bytes": 75339,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S4.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/scenarios/S5.md",
+          "blob": "9e6df1f185971b8a8320701947c3e73ac9268582",
+          "mode": "100644",
+          "sha256": "ca6924a71a6cd95bb6d66c2be6b5d439bdcf0c2b708f95d3eedb136f4deff717",
+          "bytes": 49527,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/scenarios/S6.md",
+          "blob": "a02ff40d9a74603944c462e52ff5aa28e412535d",
+          "mode": "100644",
+          "sha256": "7f3c280ac2c069b0152d5f7d0bcca457b5c7931af48a6d838487898421494124",
+          "bytes": 46256,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S6.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T01.md",
+          "blob": "3e42d7f4d6632d8924c0fbc4db8291534972d0ac",
+          "mode": "100644",
+          "sha256": "8ef1e17735a7ee038e64fc1072d619b9e4897042170cc8877e1f3029de8aa8f1",
+          "bytes": 25519,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T01.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T02.md",
+          "blob": "65d9bbe6dd65c1399f6b330f3ba50617c6a70c1e",
+          "mode": "100644",
+          "sha256": "b7b4f71f116cf5350a0d4d51c0cc248c99c5d441cbbf556d48ae83151903ec1a",
+          "bytes": 21088,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T02.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T03.md",
+          "blob": "ea718347cd642cf1291b6d13839be3848f567d7b",
+          "mode": "100644",
+          "sha256": "7ba1f5a791dd5ffa9af9560a57a4b3fc6fe8564e22afeb73c67f60a84f549c98",
+          "bytes": 23951,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T03.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T04.md",
+          "blob": "010b3c6b83a529d0d1874e3e593270bae3b8216e",
+          "mode": "100644",
+          "sha256": "ca2bd9de03737a30b7682463497732f88056ef81df68dadef9bca75aab4a0927",
+          "bytes": 24709,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T04.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T05.md",
+          "blob": "df4aeb0798cabd875236212efeab2fb899902106",
+          "mode": "100644",
+          "sha256": "0e9d9ddff0d0d1c1caa5e6ab9f64f29dc8ab98f0e3052aed4dc2cab74f309ef5",
+          "bytes": 22981,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T05.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T06.md",
+          "blob": "b2586c20632b6409805b24e3f085dced945bc62e",
+          "mode": "100644",
+          "sha256": "26fa5a3d5fc98f9378a97f6783727172a4191e9de9039800771cd4cb10c1b471",
+          "bytes": 17438,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T06.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T07.md",
+          "blob": "e4543f3b58025d0e2b542713db27cf1d4218e16c",
+          "mode": "100644",
+          "sha256": "db6cfdff111a53c62676260b0659448a6ef27f6b79297f41c445a1d50d7685db",
+          "bytes": 18118,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T07.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T08.md",
+          "blob": "dd04840f51627d958ef91b154a19bd87f36b585a",
+          "mode": "100644",
+          "sha256": "be607668c1a89ab850179cb573ed1d791206d2085937cd35f0e105f96f66e248",
+          "bytes": 26452,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T08.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/annexes/technology/T09.md",
+          "blob": "c6c49fbc022a7d5539b6fa460db67fc9bcd1c03e",
+          "mode": "100644",
+          "sha256": "aaf0999ee9e06357c27bd34feffa8ec2788a62e0ecef705e4d8c01118ec65c27",
+          "bytes": 33315,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T09.md"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg",
+          "blob": "ea44ce5fd4659ea948473f96590968668b6387e9",
+          "mode": "100644",
+          "sha256": "7d928164cec8b90ceba675f59119ab0fbfe1cbd64f1db695554691ecfac726dd",
+          "bytes": 6424,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg",
+          "blob": "78add3dea7e641c1ea2f64bc342d0410eb622c2a",
+          "mode": "100644",
+          "sha256": "e66398d6871763b36d2e216ef661326e029ff92c45f2fc06395f22b3af1685fa",
+          "bytes": 6315,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00G/1_signal_to_role_drift.svg",
+          "blob": "9b1de6df0eedb74d063f2b8614a3121866040646",
+          "mode": "100644",
+          "sha256": "c2a58f84766cbd36f689d2bd0412f1cd55cf1f4fab6771bbbedc004054b48ab4",
+          "bytes": 7194,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/1_signal_to_role_drift.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00G/2_matched_topology_source_dependence.svg",
+          "blob": "e27a2a870e0c19d786303f93048a6f6774d12bd3",
+          "mode": "100644",
+          "sha256": "4d6de73c5f23873c5c9d7e739540d31db4562ee7abb9b7291809316f35f59caa",
+          "bytes": 8179,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/2_matched_topology_source_dependence.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00G/4_branch_f_vs_g.svg",
+          "blob": "dfb3ccb202fe40b64d5d41f4a1e745e97fcc871a",
+          "mode": "100644",
+          "sha256": "8f89f44877b38258f8c70249925bf4ae3be33e55568136bf30cc109ee226cec9",
+          "bytes": 4247,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/4_branch_f_vs_g.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00G/5_gate_reference_matrix.svg",
+          "blob": "aebfa4b0551528cbb4c9ec4bb4db5cfe1b09ad42",
+          "mode": "100644",
+          "sha256": "0fbbc43e3d2a93cc7b99075babeb34f318dc499e880ceb236eb8f944d52aa120",
+          "bytes": 7899,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/5_gate_reference_matrix.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00G/6_openai_implementation_trajectories.svg",
+          "blob": "1e0564fb2c17fcc7d317c2fa0a66a47df80e6b9e",
+          "mode": "100644",
+          "sha256": "fdc3968a94dc7be9b200c856309512004bb2712e33e0817293f64c382fea31a8",
+          "bytes": 6147,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/6_openai_implementation_trajectories.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00G/7_compaction_regime_change_test.svg",
+          "blob": "bc57afca58f4e2964430f0bea335b0152aeea8a6",
+          "mode": "100644",
+          "sha256": "423ed003a883002e3c135aff83add3682b64fea717e950799e6563d3ca122147",
+          "bytes": 5301,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/7_compaction_regime_change_test.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00J/1_lineage_chain.svg",
+          "blob": "370a30d19d8bef1b82452c0528f0d289ffd96b55",
+          "mode": "100644",
+          "sha256": "334fdf0ded33ecc4a26962454b1ffc9408c8081b5654c365047c64930f238dcd",
+          "bytes": 7066,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/1_lineage_chain.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00J/2_evidence_scopes.svg",
+          "blob": "bf144dafa900e0d2f60ff314814bcf24284ae054",
+          "mode": "100644",
+          "sha256": "5e493bc9b708626d97608fa533a647ee303e078637e87d2609414cad71765c70",
+          "bytes": 2970,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/2_evidence_scopes.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/00J/4_gate_reference_card.svg",
+          "blob": "fa7485307ef3167a5ae81a307cb95d0222bf5467",
+          "mode": "100644",
+          "sha256": "1fc032fbe82cd4ea78fbc9ee2f13e5e7a4c62c1ece1f5cefc0c5684e7b9db613",
+          "bytes": 4883,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/4_gate_reference_card.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/reading/admission_checklist.png",
+          "blob": "464cc07b47f8188d4c3d924bd196d01e21c065df",
+          "mode": "100644",
+          "sha256": "4688244b3277a41ea9c3d1102833b158af69f5d872acc41ee1525933e6554ac0",
+          "bytes": 335442,
+          "kind": "binary",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/admission_checklist.png"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/reading/admission_checklist.svg",
+          "blob": "d03f307cc5090def3da050f276e8615d0894bacb",
+          "mode": "100644",
+          "sha256": "1dfa13e24a2b44f4e3b028092db754e86511a1f231e2ed827eb2e2de3f999771",
+          "bytes": 8595,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/admission_checklist.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.png",
+          "blob": "a5bc8127241da21313f7fc80f02accdf62198293",
+          "mode": "100644",
+          "sha256": "51a84db6b16fa71a9b06b82255319f3a7037c3a322b6b1fcf31981992317b00b",
+          "bytes": 272443,
+          "kind": "binary",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.png"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.svg",
+          "blob": "dadcf8a77e5070bb61f5a247c0fbe18ee0bb135f",
+          "mode": "100644",
+          "sha256": "1119a5b2473af18c812fb38d970178b130873cdb6eaf4800de1ed78ae174f70e",
+          "bytes": 10507,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/reading/package_map.png",
+          "blob": "797731d4b2d17afd3eb289f4218750c482a1167c",
+          "mode": "100644",
+          "sha256": "0db714dfe9976d3e50d66e43f839b25f1160daf8252821d9507f3bed0ca819ea",
+          "bytes": 177686,
+          "kind": "binary",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/package_map.png"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/assets/reading/package_map.svg",
+          "blob": "98ce5119ee00fbf019b6d6041e458931e9b4bcfd",
+          "mode": "100644",
+          "sha256": "e99acb85208de78402a0ed63357bd35b70a3cf5837c01ebd12d76a104efb3338",
+          "bytes": 5040,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/package_map.svg"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json",
+          "blob": "cf168bd078c52d5e860267391fc6865a88dd8d3c",
+          "mode": "100644",
+          "sha256": "e927992821332049aa5f1f9f743d1ae6b83432b2511814cb0ef03f66d723e82a",
+          "bytes": 1298,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json",
+          "blob": "41d17f0009c4e9e6649154a4a79ee686e17a2dbc",
+          "mode": "100644",
+          "sha256": "cd9ddfd3cc9406ab15d058c0212495eae3ef970a873a5ab1dfa37d55a1bd86f4",
+          "bytes": 835,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json",
+          "blob": "f6f4addd280953aa25d949508a6898ecda3a5794",
+          "mode": "100644",
+          "sha256": "3219f588250e98f37323409f918c58c447f5652b83b7d03e2e0e8e695d9d2070",
+          "bytes": 2446,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json",
+          "blob": "d6640591068e85badd88e529ae8d67c78e061d4c",
+          "mode": "100644",
+          "sha256": "f264e84764766b22965526fd14998c474433eb614a8a2324ea3fe820622dde84",
+          "bytes": 1292,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json"
+        },
+        {
+          "source": "contributions/when-controls-work-system-fails/templates/RUN_RECORD.md",
+          "blob": "be014eb521d0ede16697ad0f37b961c5eb562d63",
+          "mode": "100644",
+          "sha256": "788f9e1f4d788c9ea286d7d0d4f85a9b01497fefba5063cf24217312694095bb",
+          "bytes": 2645,
+          "kind": "utf8 text",
+          "destination": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md"
+        }
+      ],
+      "source_package_commit": "aec08fb5b0fac2ee399372370e9ee2a82a2d5779",
+      "historical_manifest_check": {
+        "matching": 46,
+        "listed": 47,
+        "mismatch": "USE_CASE.md",
+        "original_manifest_preserved": true,
+        "actual_use_case_sha256": "b81710d02d4b469d4af024f7dfa9ff4e9efedeb5c56b04eb45e3ae2f171ebf76"
+      }
+    },
+    {
+      "id": 113,
+      "title": "Keep the full retired 00J source reachable beside its maintained family profile",
+      "source": "research/ecosystem-awareness/baseline/README.md",
+      "source_sha": "6d6aedbdae5a775b28ae1e6e2043108948c8f917",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "pairs": [
+        {
+          "before": "The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.",
+          "after": "The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions.\n\n### Earlier 00J source and current family profiles\n\nThe [complete earlier 00J edition](https://github.com/dakleyer/structural-awareness-contributions/blob/cb10aca3c9cb2d4281e0ed056c60643f305596ac/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_THE_AUTHOR_PAYS_FOR_THEIR_OWN_WORK_v0.1_DRAFT.md) preserves its original source-policy record, non-curative human approval control, material-handoff metric and reconstructable repair definition. It is an antecedent, including its superseded sufficiency language. The maintained [00J family profile](./00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) identifies any selected successor controls and keeps handoff, branch and final-decision populations distinct. Existing00J, Panodyssey and frozen traversal records retain their own scopes and results.\n",
+          "location": "The [Requirements working successor](./00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the approved action-time decision-basis binding to S10. The [UC-EA-03 v0.5 working successor](./UC-EA-03_v0.5_WORKING_SUCCESSOR.md) clarifies the response owner and bounded fallback when a reviewer is unavailable. Their frozen predecessors remain linked and unchanged; an existing registered study continues to use its own frozen contract. The existing Requirements and UC-EA-03 VNext own both editions."
+        }
+      ],
+      "packages": [
+        "W04",
+        "W06"
+      ],
+      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "wave": "Detailed restoration preparation 15 October 2026",
+      "benefit": "Exposes the complete historical source and useful recovered distinctions without recreating a competing active00J.",
+      "riskReason": "Readers must not adopt old sufficiency assertions or conflate old J-C5 with current C5.",
+      "costReason": "Check the introducing-commit blob, maintained family links and reader interpretation.",
+      "dependencies": [
+        "105",
+        "106",
+        "Original retired blob and existing traversal results unchanged"
+      ],
+      "gate": "Iván names the exact passage/wave after the listed source/receiver conditions; this task authorizes preparation only.",
+      "date": "2026-10-15",
+      "preparation": "Complete current old and complete proposed text; exact source and joint compatibility checks recorded",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
     }
   ],
   "audit_coverage": [
@@ -11945,6 +12847,87 @@
       ],
       "canonical_applied": false,
       "new_candidates": 0
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Detailed literal restoration preparation; held entry and coupled consumers",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026",
+      "proposal_assessments": [
+        {
+          "id": 91,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 92,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 93,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 103,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 104,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 105,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 106,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 107,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 108,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 109,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 111,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        },
+        {
+          "id": 112,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Held on named source/card/consumer gates; literal detail is not adoption"
+        }
+      ],
+      "canonical_applied": false
     }
   ],
   "plan_order": {
@@ -15104,6 +16087,141 @@
           "W10"
         ]
       }
+    }
+  ],
+  "literal_restoration_detail_epochs": [
+    {
+      "date": "2026-10-15",
+      "title": "Literal detail of the unified restoration plan; sources remain read-only",
+      "source_commit": "a479f8c691f7de557c29b1a1d96d4fcf6710577d",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026",
+      "instruction": "Before execution: complete text before/text after in existing VNext; preserve earlier information",
+      "new_literal_proposals": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "existing_complete_pairs_revalidated": [
+        {
+          "id": "93",
+          "source": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+          "blob": "e52ed065c5d217da73634c7eb28d26c5d990abae",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "94",
+          "source": "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md",
+          "blob": "af17d682b7e7e742b298de7918ade6029dffa9b8",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "95",
+          "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+          "blob": "e636346c46c49cb81ecc7f84ec9c792e9729cc95",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "96",
+          "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "blob": "88b78f386047a76e0e2da905bd951ada06e5602b",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "97",
+          "source": "architectural-contributions/ecosystem-positioning/README.md",
+          "blob": "9767ec8efb7d3a2875866ea3cd22ebc94882e930",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "98",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+          "blob": "990872beae2f632515ee81a4dba36b16b8ad7f9c",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "99",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+          "blob": "990872beae2f632515ee81a4dba36b16b8ad7f9c",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "100",
+          "source": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+          "blob": "06e12884ecbcff9df820d087e5b727bf4a18adab",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "101",
+          "source": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+          "blob": "de6c58c62ad70b3182085333106b41b63a9fef18",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "102",
+          "source": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+          "blob": "de6c58c62ad70b3182085333106b41b63a9fef18",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        },
+        {
+          "id": "existing-third-00J-transfer",
+          "source": "research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md",
+          "blob": "7195c2215454e40d830f159ac838c898b33573a1",
+          "pairs": 1,
+          "status": "Existing complete pair revalidated; no approval or execution"
+        }
+      ],
+      "source_package": {
+        "source_commit": "aec08fb5b0fac2ee399372370e9ee2a82a2d5779",
+        "files": 48,
+        "complete_utf8_payloads": 45,
+        "binary_cards": 3,
+        "proposed_archive_root": "governance/preserved-public-snapshots/UC21_aec08fb5_source/",
+        "copy_executed": false,
+        "old_digest_matches": 46,
+        "old_digest_entries": 47,
+        "mismatch": "USE_CASE.md"
+      },
+      "compatibility": {
+        "new_pairs": 11,
+        "new_pair_order": [
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "legacy92_after_new_pairs": "All ten old units still occur once; original proposed pairs compose textually in that order. 91/92 substantive gates remain held.",
+        "reverse_order": "103/104/112 must be rebased with a complete new literal pair if overlapping92 edits are applied first.",
+        "source_files_changed_in_workspace": 0,
+        "source_outputs_are_memory_only": true
+      },
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "plan_preparation_is_not_source_adoption": true
     }
   ]
 }

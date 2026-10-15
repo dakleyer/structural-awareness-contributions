@@ -2348,3 +2348,12 @@ For current preparation, the [owner-approved Requirements working successor](../
 ``````
 
 This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+## Literal restoration detail 15 October 2026
+
+The [detailed source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) now supplies11new literal pairs103–113 beside the11existing complete proposals.103contains the complete UC21 HR/selection/run binding;104a prospective instrument packet;105/106the selected00J historical controls/populations;107–109capacity timing and its actual working caller;110/111R01 epoch/successor reading;112the complete48file historical custody scope;113the retired00J reading route.
+
+For112,45UTF-8after payloads are fully visible in DDS VNext and3unchanged PNGs have exact binary cards. All proposed destinations are absent; the publication creates none. The original package's46/47digest replay discrepancy is retained rather than overwritten. The snapshot's READMEs are historical source content, not another maintained corpus level. Existing routes and archived/current authorities remain distinct.
+
+The initial order prepares custody and case binding, then the coupled technical consumers, and only then92and the officialUC21/PDF. Unadjudicated histories, unused binaries or scientific implementation work receive no fabricated old/new pair. Original sources remain unchanged until Iván's named wave/passage decision.

@@ -177,3 +177,8 @@ Each material row will end with a reasoned disposition: already received; correc
 ## Unified restoration review 15 October 2026
 
 The [unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) distinguishes surviving R01 proof/transfer/observer/cost contracts from unclosed source-history and consumer checks. H2 conditional-independence, source-coverage q, separate ACK calendars and negative evidence keep their corrected meanings. Existing oracle tasks1/2 retain their bounded closure; steps3–8 are not activated by this review. Completion proposals98/99 qualify historical-versus-current documentation epochs in the existing completion README VNext; the historical manifest is preserved. Any future missing-deliverable or generic instrument successor must name its actual contract and version before preparation. No source, experiment, run or oracle result is changed.
+
+
+## Literal R01 successor detail 15 October 2026
+
+The [oracle README VNext](./oracle/README_VNext.md) now contains full proposed111text for the next scoped source/reference/control/caller packet.110and existing98/99hold the reader/epoch consequences. Tasks1/2retain their bounded closure;3–8remain inactive. [Joint literal plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026).

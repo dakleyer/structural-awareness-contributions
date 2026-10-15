@@ -472,3 +472,8 @@ Here, human service demand is route- and competence-specific work time, not a un
 ``````
 
 This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+## Coupled literal capacity preparation 15 October 2026
+
+Existing93 remains pending and complete above. New107/108 in the [A01 VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) supply the full joint timing/proof-policy text;109 in [UC03 VNext](./UC-EA-03_VNext.md) binds the working caller. These form one scoped consumer wave. Its original frozen profiles, schema and results remain unchanged. [Joint acceptance/order](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026).
