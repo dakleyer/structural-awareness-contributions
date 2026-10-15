@@ -275,3 +275,10 @@ The source and actual step commits are recorded in the application receipts abov
 ## Execution reaudit 15 October 2026
 
 Re-read100 in its complete source-relative claim and semantic-transfer context. The approved attribution correction is exact; the source grammar claim does not become universal operational validity. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical 02B reading route 15 October 2026
+
+The historical damage review compared the earlier ordered-normalizer and operator-based 02B editions with the current proof route. The ordered draft claims exactly one atomic normal form through precedence; the later/current route permits one or more applicable forms and carries its own syntax and semantic limits. The old texts also use earlier B/C vocabulary. They are distinct antecedents, so their removal as duplicates did not preserve an identical active text.
+
+The repair is a described, version-pinned reading route in the existing EA additional-work leaf, under change 123 in the [baseline VNext](README_VNext.md#rest-of-corpus--source-custody-and-historical-reading-15-october-2026). Current 02B and 02A retain proof ownership and revised-semantics limits; no old uniqueness theorem is reintroduced. Related grammar representations remain historical. The receipt/source distinction in R01 and A25 neutrality have their own owners in that same batch.

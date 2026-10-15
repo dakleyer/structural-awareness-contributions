@@ -1,5 +1,5 @@
 {
-  "version": "1.29",
+  "version": "1.30",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6615,6 +6615,199 @@
       },
       "application_from_commit": "a5e01a0461563a7305732467c848bac844f86641",
       "applied_source_blob": "fbcaffa0a7097027e3c46271874823e13b9449a5"
+    },
+    {
+      "id": 122,
+      "title": "Identify the translated R01 check receipts and reconnect their exact originals",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "Earlier deliveries, their arguments and dated statuses are preserved. Only relative links of relocated drafts are adjusted; scientific scripts and reports are byte-exact. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.",
+      "after": "Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.\n\n**Original receipts.** The complete dated originals below preserve the historical before/after strings. The translated copies under `partial-experiments/historical/` are derivatives; use the original editions when checking the original transformations.\n\n| Record | Complete original edition | Original blob |\n|---|---|---|\n| `M01_SCOPE_CHECKS.json` | [Original at `3384ba5d9db7`](https://github.com/dakleyer/structural-awareness-contributions/blob/3384ba5d9db722808572d30ccee098fe92598410/research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json) | `71d94055d053c762085f1c8ff8f5225b56c961e3` |\n| `M02_RELEASE_CHECKS.json` | [Original at `419b8e93b4b1`](https://github.com/dakleyer/structural-awareness-contributions/blob/419b8e93b4b13a3a96ca1534b0d134be4a764c78/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json) | `2f0e119b79cc79bb9fd28b21cadb7d163e8e46c5` |\n| `M10_RELEASE_CHECKS.json` | [Original at `2dc438df5246`](https://github.com/dakleyer/structural-awareness-contributions/blob/2dc438df524663ebf79e6552cd688d34c2619d8b/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json) | `9ae62142097d5c2f60c5aa90f511de8ccf932e2c` |\n| `TRILEMMA_RELEASE_CHECKS.json` | [Original at `dbae91655316`](https://github.com/dakleyer/structural-awareness-contributions/blob/dbae916553166a29f9e756f8c7a6efdfa4c93c21/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json) | `0e69888adfe6eba16532790509e2cfd4a3101283` |\n",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Corrects a false byte-exact custody statement and gives direct access to four complete primary receipts for historical before/after verification.",
+      "riskReason": "The edit is confined to the reading index. Preserve the translated JSON, exact source editions, scripts and numerical results; do not recertify a translated before field as an original.",
+      "costReason": "Check the complete index, four original/current receipt pairs, links and exact inverse; no scientific rerun.",
+      "dependencies": [
+        "M03/M04 Spanish and English editions",
+        "Four pinned receipt originals and their translated derivatives",
+        "Baseline auxiliary catalogue and historical study index"
+      ],
+      "evidence": {
+        "reviewer": "C",
+        "original_receipts": [
+          {
+            "name": "M01_SCOPE_CHECKS.json",
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json",
+            "last_source_commit": "3384ba5d9db722808572d30ccee098fe92598410",
+            "blob": "71d94055d053c762085f1c8ff8f5225b56c961e3",
+            "sha256": "67969fa70e13b49955d17d0eadb07258b997c8cdbecaf071a5d4e049540ffee7",
+            "current_derivative_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M01_SCOPE_CHECKS.json",
+            "current_derivative_blob": "170055de896e7ab935fba2781030ec71fd660707",
+            "ls_tree_verified": true,
+            "git_blob_hash_verified": true
+          },
+          {
+            "name": "M02_RELEASE_CHECKS.json",
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json",
+            "last_source_commit": "419b8e93b4b13a3a96ca1534b0d134be4a764c78",
+            "blob": "2f0e119b79cc79bb9fd28b21cadb7d163e8e46c5",
+            "sha256": "b269c3efb39068678e73c6041bdc971b6e10bdb35ac05dd0e39c12baadfc1ab7",
+            "current_derivative_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M02_RELEASE_CHECKS.json",
+            "current_derivative_blob": "c779b9db6cbeb97cea87fd719cd1e7209b46cdcb",
+            "ls_tree_verified": true,
+            "git_blob_hash_verified": true
+          },
+          {
+            "name": "M10_RELEASE_CHECKS.json",
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json",
+            "last_source_commit": "2dc438df524663ebf79e6552cd688d34c2619d8b",
+            "blob": "9ae62142097d5c2f60c5aa90f511de8ccf932e2c",
+            "sha256": "23502cc7a7b4899ef384b8e820765c7f90ef71f0df54f7d02a813b1c31d1fa7c",
+            "current_derivative_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M10_RELEASE_CHECKS.json",
+            "current_derivative_blob": "8f7d229f3c0070ebc2eb0bd8fb97e83a6d67d9fb",
+            "ls_tree_verified": true,
+            "git_blob_hash_verified": true
+          },
+          {
+            "name": "TRILEMMA_RELEASE_CHECKS.json",
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json",
+            "last_source_commit": "dbae916553166a29f9e756f8c7a6efdfa4c93c21",
+            "blob": "0e69888adfe6eba16532790509e2cfd4a3101283",
+            "sha256": "88beca9607386ff2c030abc813e9e75238452cca737f6226568067e68c0cde58",
+            "current_derivative_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/TRILEMMA_RELEASE_CHECKS.json",
+            "current_derivative_blob": "994edfb7262ecdea6d4a3124c5229254ec9fd095",
+            "ls_tree_verified": true,
+            "git_blob_hash_verified": true
+          }
+        ],
+        "retirement_translation_commit": "ce62e84e82006a5643d87f25c463ddf490ccb731"
+      },
+      "source_sha": "2a696473339c0eb184795a5f91f39216e087120f",
+      "source_commit": "9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "date": "2026-10-15",
+      "wave": "Rest-of-corpus historical damage control",
+      "state": "Reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "preparation": "Independent strategy check complete; literal unique context and exact inverse verified.",
+      "gate": "Apply only this exact reviewed passage under the current instruction; preserve results, sources and all other bytes.",
+      "positive_impact_proven": false,
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
+    },
+    {
+      "id": 123,
+      "title": "Restore annotated reading routes to distinct formal antecedents and working drafts",
+      "source": "research/ecosystem-awareness/baseline/non-canonical/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.\n",
+      "after": "The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.\n\n\n## Earlier 02B formalizations — historical source reading · 15 October 2026\n\nTwo earlier 02B drafts retain distinct derivation detail for historical comparison: [the ordered failure-grammar normalizer](https://github.com/dakleyer/structural-awareness-contributions/blob/9097e2d2c71f5d9dadf1b250d219770b8a9cbb60/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) uses precedence and claims one normal form per admitted atomic expression; [the operator-based syntax draft](https://github.com/dakleyer/structural-awareness-contributions/blob/9c820064838ba666acb498c4301a0e12da61d637/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md) uses LF judgement/formation rules and a covering claim. They were removed from main on 25 September and are not exact duplicates of the [current 02B proof route](../02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md), which permits one or more normal forms. Use these texts to compare the derivation choices. Current 02B governs the proof route; the earlier B/C vocabulary and claims remain historical.\n\nThe retired machine-readable companions also remain useful for tracing those choices: [foundation/principle grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/8f9382e9526a902035a8e66135a11052a46fab19/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/foundation_principle_grammar.json) records axes, precedence, rules and witnesses; [requirement grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/6d8f6c09821f9a6d7d56628a6c932790a16d4a45/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/requirement_grammar.json) records object signatures, anchors and provenance. These are complete historical editions, distinct from the current closure manifest. Read them with the current 02B/A19 scope; the former checker remains historical.\n\n## Cross-Theme comment drafts — additional working material · 15 October 2026\n\nTwo prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.\n",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "benefit": "Makes two distinct 02B formulations, two retired grammar representations and two additional comment drafts discoverable with their real status.",
+      "riskReason": "Keep historical formalizations and alternative posting drafts separate from the current proof/interface owners. No file recreation, checker activation or external posting.",
+      "costReason": "Read the source editions and draft purposes, validate pinned blobs, current paths and prefix preservation.",
+      "dependencies": [
+        "Current 02B and A19 proof scope",
+        "Existing three-level README structure and EA additional-work leaf",
+        "Existing 05/05A VNext interface proposals"
+      ],
+      "evidence": {
+        "reviewer": "A and C; current navigation scan by root",
+        "02B_donors": [
+          {
+            "event_index": 942,
+            "path": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md",
+            "last_parent_commit": "9097e2d2c71f5d9dadf1b250d219770b8a9cbb60",
+            "deletion_commit": "9c820064838ba666acb498c4301a0e12da61d637",
+            "source_blob": "c70a6c927e2f15a47c800e34bef2f2dd5e0c8fa9",
+            "sha256": "69ffc962fabbfd92e12ba022896cadda705ff58ff515f2dcddfecec04f78632a",
+            "current_exact_blob_receivers": []
+          },
+          {
+            "event_index": 941,
+            "path": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md",
+            "last_parent_commit": "9c820064838ba666acb498c4301a0e12da61d637",
+            "deletion_commit": "f56ca8e8c8b2ed3a5d3935aa50972a0ad18d5cb0",
+            "source_blob": "2047eafa12d013ae36f8b8dd3696efb96445d6be",
+            "sha256": "5ebfbd10d5de011577d6c1d63d44c561e0821e92b9b8df9ebd8472536a8d5760",
+            "current_exact_blob_receivers": []
+          }
+        ],
+        "grammar_deletion_commits": [
+          "6d8f6c09821f9a6d7d56628a6c932790a16d4a45",
+          "44b5f5b33bd7e34f059b74df8e09d49e8c34efad"
+        ]
+      },
+      "source_sha": "160602b5130ec8075d929bb7702e1cd73fbbe319",
+      "source_commit": "9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "date": "2026-10-15",
+      "wave": "Rest-of-corpus historical damage control",
+      "state": "Reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "preparation": "Independent strategy check complete; literal unique context and exact inverse verified.",
+      "gate": "Apply only this exact reviewed passage under the current instruction; preserve results, sources and all other bytes.",
+      "positive_impact_proven": false,
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
+    },
+    {
+      "id": 124,
+      "title": "Make authority/evidence neutrality explicit in failure-family admission",
+      "source": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
+      "vnext": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "before": "### X6 — finite resource and response declaration\n\nScale may change, but finite decision resources remain explicit: deadline/response horizon, observation or review capacity, relevant cost/burden and fallback. Upward extension does not grant unlimited time, evidence, humans or compute.",
+      "after": "### X6 — finite resource and response declaration\n\nScale may change, but finite decision resources remain explicit: deadline/response horizon, observation or review capacity, relevant cost/burden and fallback. Upward extension does not grant unlimited time, evidence, humans or compute.\n\nThe extension may not make the case easier by silently granting broader authority, a better oracle, independent evidence or a stronger owner than the base comparison permits.",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "benefit": "Recovers the exact earlier condition within A25 admission, where A26 positive-success rules need not be invoked.",
+      "riskReason": "Apply it as declared-case comparison discipline. Do not exclude a legitimately stronger defended peer, demand universal independence or retrospectively regrade frozen results.",
+      "costReason": "Read complete old/current A25 and A26, admission conditions and registry scope, then verify one added sentence.",
+      "dependencies": [
+        "A25 X1-X7 and section 11",
+        "A26 Y3 (already preserves positive-extension restriction)",
+        "CASE-EXTENSION structural validator (no code change; must not imply semantic enforcement)",
+        "00E-00J family profiles and successor campaign admission"
+      ],
+      "evidence": {
+        "reviewer": "B",
+        "historical": {
+          "path": "research/ecosystem-awareness/baseline/00K_A25_REFERENCE_FAILURE_CASE_STUDY_EXTENSIBILITY_FRAMEWORK_v0.1.md",
+          "parent": "b38cb286ae2c29b04d7fbb4e029a00367a72c919",
+          "retirement_commit": "23f0d1b675e5e9ccd8b29facaab2501ce39afbd8",
+          "blob": "c16a947adf13657ed0dd0aefcbfc6fc88dd14dd8",
+          "clause": "### X5 — authority/evidence neutrality\n\nThe extension may not make the case easier by silently granting broader authority, a better oracle, independent evidence or a stronger owner than the base comparison permits."
+        },
+        "partial_receiver": {
+          "path": "research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md",
+          "blob": "9aa4852906137684c790d190e7ed7f66b1bfae16",
+          "section": "3/Y3",
+          "exact": "### Y3 — no hidden oracle\n\nThe extension may not succeed because it receives a perfect source, unlimited human review, global state or authority that the base case did not assume."
+        }
+      },
+      "source_sha": "40da30f981f2cdd51b7cbc0ab4f00b55114b429e",
+      "source_commit": "9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "date": "2026-10-15",
+      "wave": "Rest-of-corpus historical damage control",
+      "state": "Reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "preparation": "Independent strategy check complete; literal unique context and exact inverse verified.",
+      "gate": "Apply only this exact reviewed passage under the current instruction; preserve results, sources and all other bytes.",
+      "positive_impact_proven": false,
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
     }
   ],
   "audit_coverage": [
@@ -7851,7 +8044,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "c844eb45d5ca0c577663baf30e1f576a95f38002",
+  "review_source_commit": "9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -20291,5 +20484,36 @@
     "pending_ids": [],
     "no_previous_source_bytes_removed": true,
     "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#public-source-update-15-october-2026"
-  }
+  },
+  "rest_of_corpus_damage_epochs": [
+    {
+      "date": "2026-10-15",
+      "cut": "9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab",
+      "entries": [
+        122,
+        123,
+        124
+      ],
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#rest-of-corpus--historical-damage-control-15-october-2026",
+      "authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "mechanical_history": {
+        "commits": 2797,
+        "historical_paths": 2539,
+        "current_files": 2396,
+        "distinct_blobs_authenticated": 5502
+      },
+      "whole_corpus_semantic_review_complete": false,
+      "separate_reviewers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "strategy_verifier": "D",
+      "unresolved_source_frontier": "See current EP/baseline/00K VNext narrative; machine retrieval does not close semantic reading."
+    }
+  ]
 }

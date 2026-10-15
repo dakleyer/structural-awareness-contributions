@@ -1825,3 +1825,93 @@ Exact dated addition incorporated; predecessor `8ec757d73638ed6464dfaa33861cf3d3
 ## Dated source updates verified 15 October 2026
 
 Change121 is applied in main and read back exactly: [application](https://github.com/dakleyer/structural-awareness-contributions/commit/c844eb45d5ca0c577663baf30e1f576a95f38002). The complete old source survives, its old/new pair is applied history, and no insertion from this batch remains pending. Source-owner confirmation, coordination and study evidence retain their separate scope; no new experiment or case was launched.
+
+
+## Rest of corpus — source custody and historical reading 15 October 2026
+
+The current source cut is `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. Separate source-first reviewers A/B/C and strategy verifier D distinguish historical reception from literal no-match counts. The [EP synthesis](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#rest-of-corpus--historical-damage-control-15-october-2026) records the common strategy and unfinished coverage.
+
+**R01 custody finding.** `feasibility/previous-work/README.md` says only relative links changed and scientific reports are byte-exact. Original M03/M04 (`41bc5443899c244a6427e82782d8bdd18123c9db`) was relocated and then translated into English (`5e758e1607f4dd4681365949f81ebc54d9e096d4`, commit `ce62e84e82006a5643d87f25c463ddf490ccb731`). Four check receipts also had historical delta strings translated: M01 scope, M02 release, M10 release and trilemma release. Their old/current blobs are respectively `71d94055→170055de`, `2f0e119b→c779b9db`, `9ae62142→8f7d229f` and `0e69888a→994edfb7`. The scripts and selected numerical-result files checked by C remain exact. D independently verified the four complete receipt pairs and found only string changes there. Change 122 corrects the reading index and supplies source-edition access; the JSON derivatives and result files are retained.
+
+**Historical-formulation finding.** Deleted 02B editions (`c70a6c927e2f15a47c800e34bef2f2dd5e0c8fa9` and `2047eafa12d013ae36f8b8dd3696efb96445d6be`) are distinct formal approaches, not current-proof duplicates. The earlier grammar JSONs are distinct representations too; equivalence of every encoded relation is still unadjudicated. Change 123 explains and links their full original editions in the existing non-canonical leaf. It does not select their obsolete normalizer or former B/C semantics as current. Two additional cross-Theme comment drafts receive described links in that same leaf; their different venue orders remain visible alternatives.
+
+**Cross-document consequence.** The current foundation/02B scope remains in its owner review. A25's failure-family neutrality insertion is owned by the [existing 00K VNext](fixtures/00K-SUITE/README_VNext.md#historical-control-of-a25-admission-15-october-2026); its success-side partial receiver is A26 Y3. The CASE-EXTENSION validator checks structure, not semantic satisfaction of this condition. No fixture or past verdict is rescored.
+
+The following exact pairs are the bounded current batch. Earlier audits and incomplete readings retain their own states.
+
+### Change 122 — Identify the translated R01 check receipts and reconnect their exact originals
+
+**State:** reviewed exact proposal; authorised by the current restoration instruction, not yet applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
+
+Source: `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, blob `2a696473339c0eb184795a5f91f39216e087120f` at `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. The complete old passage below occurs once.
+
+**Text before — complete current passage**
+
+~~~~markdown
+Earlier deliveries, their arguments and dated statuses are preserved. Only relative links of relocated drafts are adjusted; scientific scripts and reports are byte-exact. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.
+
+**Original receipts.** The complete dated originals below preserve the historical before/after strings. The translated copies under `partial-experiments/historical/` are derivatives; use the original editions when checking the original transformations.
+
+| Record | Complete original edition | Original blob |
+|---|---|---|
+| `M01_SCOPE_CHECKS.json` | [Original at `3384ba5d9db7`](https://github.com/dakleyer/structural-awareness-contributions/blob/3384ba5d9db722808572d30ccee098fe92598410/research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json) | `71d94055d053c762085f1c8ff8f5225b56c961e3` |
+| `M02_RELEASE_CHECKS.json` | [Original at `419b8e93b4b1`](https://github.com/dakleyer/structural-awareness-contributions/blob/419b8e93b4b13a3a96ca1534b0d134be4a764c78/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json) | `2f0e119b79cc79bb9fd28b21cadb7d163e8e46c5` |
+| `M10_RELEASE_CHECKS.json` | [Original at `2dc438df5246`](https://github.com/dakleyer/structural-awareness-contributions/blob/2dc438df524663ebf79e6552cd688d34c2619d8b/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json) | `9ae62142097d5c2f60c5aa90f511de8ccf932e2c` |
+| `TRILEMMA_RELEASE_CHECKS.json` | [Original at `dbae91655316`](https://github.com/dakleyer/structural-awareness-contributions/blob/dbae916553166a29f9e756f8c7a6efdfa4c93c21/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json) | `0e69888adfe6eba16532790509e2cfd4a3101283` |
+~~~~
+
+**Reason / expected benefit:** Corrects a false byte-exact custody statement and gives direct access to four complete primary receipts for historical before/after verification.
+
+**Risk to check:** The edit is confined to the reading index. Preserve the translated JSON, exact source editions, scripts and numerical results; do not recertify a translated before field as an original.
+
+**Preparation and maintenance effort:** Check the complete index, four original/current receipt pairs, links and exact inverse; no scientific rerun.
+
+**Dependencies:** M03/M04 Spanish and English editions; Four pinned receipt originals and their translated derivatives; Baseline auxiliary catalogue and historical study index.
+
+**Iván's instruction:** extend historical damage control to the rest of the corpus; review independently, prepare literal VNext pairs, prioritise, apply surgical repairs and compare the whole predecessors again. This item changes only the stated passage. Scientific scripts/results and physical organisation stay in their current editions.
+
+### Change 123 — Restore annotated reading routes to distinct formal antecedents and working drafts
+
+**State:** reviewed exact proposal; authorised by the current restoration instruction, not yet applied. **Priority:** Siguiente. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo.
+
+Source: `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `160602b5130ec8075d929bb7702e1cd73fbbe319` at `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. The complete old passage below occurs once.
+
+**Text before — complete current passage**
+
+~~~~markdown
+The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.
+
+
+## Earlier 02B formalizations — historical source reading · 15 October 2026
+
+Two earlier 02B drafts retain distinct derivation detail for historical comparison: [the ordered failure-grammar normalizer](https://github.com/dakleyer/structural-awareness-contributions/blob/9097e2d2c71f5d9dadf1b250d219770b8a9cbb60/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) uses precedence and claims one normal form per admitted atomic expression; [the operator-based syntax draft](https://github.com/dakleyer/structural-awareness-contributions/blob/9c820064838ba666acb498c4301a0e12da61d637/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md) uses LF judgement/formation rules and a covering claim. They were removed from main on 25 September and are not exact duplicates of the [current 02B proof route](../02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md), which permits one or more normal forms. Use these texts to compare the derivation choices. Current 02B governs the proof route; the earlier B/C vocabulary and claims remain historical.
+
+The retired machine-readable companions also remain useful for tracing those choices: [foundation/principle grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/8f9382e9526a902035a8e66135a11052a46fab19/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/foundation_principle_grammar.json) records axes, precedence, rules and witnesses; [requirement grammar](https://github.com/dakleyer/structural-awareness-contributions/blob/6d8f6c09821f9a6d7d56628a6c932790a16d4a45/research/ecosystem-awareness/baseline/fixtures/00K-TRACE/requirement_grammar.json) records object signatures, anchors and provenance. These are complete historical editions, distinct from the current closure manifest. Read them with the current 02B/A19 scope; the former checker remains historical.
+
+## Cross-Theme comment drafts — additional working material · 15 October 2026
+
+Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.
+~~~~
+
+**Reason / expected benefit:** Makes two distinct 02B formulations, two retired grammar representations and two additional comment drafts discoverable with their real status.
+
+**Risk to check:** Keep historical formalizations and alternative posting drafts separate from the current proof/interface owners. No file recreation, checker activation or external posting.
+
+**Preparation and maintenance effort:** Read the source editions and draft purposes, validate pinned blobs, current paths and prefix preservation.
+
+**Dependencies:** Current 02B and A19 proof scope; Existing three-level README structure and EA additional-work leaf; Existing 05/05A VNext interface proposals.
+
+**Iván's instruction:** extend historical damage control to the rest of the corpus; review independently, prepare literal VNext pairs, prioritise, apply surgical repairs and compare the whole predecessors again. This item changes only the stated passage. Scientific scripts/results and physical organisation stay in their current editions.
+

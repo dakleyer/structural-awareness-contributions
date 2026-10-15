@@ -2480,3 +2480,39 @@ Applied the complete reviewed addition to `DOCUMENT_CONTROL.md`. Predecessor `e3
 Applied and read back exactly on main: 114. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
 
 - Change114: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/2817f22aff28aca84eff2dab389fbf35eb82cb47).
+
+
+## Rest of corpus — historical damage control 15 October 2026
+
+This review helps a human decide what to restore, what already has a receiver and what was correctly changed. The source cut is `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. The earlier DDS repairs 114–121 are already applied and are not queued again.
+
+The fresh history inventory follows **2,797 commits, every additional merge parent, 2,539 historical path identities and all 2,396 current files**. All **5,502 distinct historical/current Git blobs** were retrieved and authenticated, including review records, code and media. This establishes the versions available for comparison. It does not stand in for reading and reconciling every changed clause.
+
+### Separate reviews and consolidation
+
+Three separate Codex AI reviewers first examined source editions and receivers: A covered conceptual architecture/EA/RA/MSCA, B cases/proofs/benchmarks and Flores, and C R01/HF, technical records and media. Reviewer D then checked the current strategy, their findings and the exact repair plans against the sources. These are separate AI reviews within this task. A disclosed reading 90 lines of an earlier EP review overview while locating controls; C consulted memory pointers. Those limits remain part of their source-first records.
+
+| Area | What the source comparison establishes | Decision |
+|---|---|---|
+| R01 previous work | M03/M04 has a Spanish original and English reading edition. Four historical JSON check receipts also contain translated `before`/`after` strings. The index's blanket byte-exact description is incorrect. D independently checked the four complete receipt pairs: their changes are strings, with no numeric-value changes in those pairs. | Change 122 corrects the index and links the four complete original receipts. Keep the translated derivatives and scientific results. |
+| Earlier 02B / grammar forms | Two deleted 02B texts use distinct ordered-normalizer/operator presentations. They are not identical to current set-valued 02B. Two retired JSON grammar representations also retain axes/rules/witnesses or object signatures/provenance not identical to the current closure manifest. | Change 123 restores explained, pinned historical reading routes. Current proof ownership and corrected claims remain. |
+| A25 / A26 | The old A25 authority/evidence-neutrality condition is explicit in A26's positive-success rules; A25 failure-family admission can be used without those rules. | Change 124 restores the exact sentence under A25 X6, preserving X1–X7 numbering and current proof limits. |
+| 03 / 01H / Gradient / Operation | The examined redirection, systemic-scope and anti-global-score clauses have current receivers. Gradient retains the three posture distinctions and delegates the sole operator to MSCA Operation. | Keep the current owner separation; no source rollback. |
+| 00K / 00L / benchmarks | A05 survives as A06; six old fixture scripts/tests survive as exact historical blobs; benchmark editions have receiving routes. A23's all-six theorem was corrected to partial implications/counterexamples. Paper deductions, symbolic controls, CI and product trials retain separate scopes. | Preserve these corrections, strong-peer ties and adverse evidence. No old theorem or completed-experiment status is reintroduced. |
+| Flores / media | Ten reorganisation predecessors have exact current history/versions receivers. Twenty binary change events have extraction records; two translated PNG figures were also inspected. DOCX/PDF/PPTX visual parity remains unverified. | Preserve current versions and old sources. Do not regenerate results or media as a restoration shortcut. |
+
+### Order of the bounded repair batch
+
+1. **122 — source-custody accuracy:** expected impact high, edit risk low, effort low. Its purpose is reliable historical replay, not a new scientific result.
+2. **123 — historical/additional reading:** impact medium, risk low, effort low. It also links two currently unlinked cross-Theme comment drafts, preserving their different posting-order alternatives and draft status.
+3. **124 — comparison neutrality:** impact medium, risk low, effort low. It forbids silent advantages within an agreed comparison, while allowing declared, legitimately defended peers.
+
+The full old/proposed passages for 122/123 are in the existing [baseline VNext](../../research/ecosystem-awareness/baseline/README_VNext.md#rest-of-corpus--source-custody-and-historical-reading-15-october-2026); 124 is in the existing [00K VNext](../../research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#historical-control-of-a25-admission-15-october-2026). The [foundation review](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#historical-02b-reading-route-15-october-2026) records the 02B consequence. No extra VNext, canonical README level, source copy or physical reorganisation is created.
+
+### Coverage still open
+
+The first source-first reports explicitly distinguish semantic decisions from retrieval: A still has 1,537 source units unresolved; B has 365 retirement events unresolved; C has 551 events unresolved. These use different and partly overlapping units and must not be summed as a corpus completion score. Further source readings are continuing. Remaining work includes full translated-text reconciliation, unadjudicated architectural/interface/case revisions, code-dependent claims and visual comparison of the large presentation replacements. The 143 historical paths absent from the current tree are a relocation/deletion queue, not 143 established losses.
+
+The current local-target scan covers 15,869 navigation occurrences. Its 30 missing-target occurrences are confined to two retained historical snapshots; active source routes resolve at this cut. Raw links, external availability and fragments have separate checks and are not certified by this target-presence count. Every current nonhistorical Markdown has an explicit local incoming link except the two comment drafts now proposed for the existing additional-work leaf.
+
+All previous corpus audits, unresolved proposals and frozen evidence remain. The full-corpus damage review stays open until its clause-level and media frontier is reconciled; this bounded repair batch can be completed and verified meanwhile.
