@@ -513,7 +513,7 @@ Compared views contain all public recipes and catalogs and each queried record. 
 <a id="6-7-correspondencia-con-los-criterios-a25"></a>
 ### 6 7 Correspondence with A25 criteria
 
-A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem provides no R01 guarantee or turns this case into 00G. The social relation to 00G retains its own proof.
+A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem neither provides an R01 guarantee nor turns this case into 00G. The social relation to 00G retains its own proof.
 
 | Criterion | Status of this work |
 | --- | --- |
@@ -682,7 +682,7 @@ Conversation with Nic must focus on a testable question: for this concrete compo
 <a id="anexo-a-auditoría-y-continuidad-documental"></a>
 ## Annex A Audit and documentary continuity
 
-Edition 0.5 integrates 0.4 content into one reading sequence. It makes runs 0/1/2 explicit, brings P1 forward, gathers references and updates internal pointers. It preserves proof conditions, figures and limits. It adds no product experimental results or converts an EA hypothesis into a result.
+Edition 0.5 integrates 0.4 content into one reading sequence. It makes runs 0/1/2 explicit, brings P1 forward, gathers references and updates internal pointers. It preserves proof conditions, figures and limits. It neither adds product experimental results nor converts an EA hypothesis into a result.
 
 Earlier reviews recovered the original document, corrected references and separated simple export control from composition with use conditions. Review 0.3 added the factor matrix and information lemma; 0.4 added transfer between policy classes and the exact model. Version 0.5 retains those results and corrects presentation so scenario and proof can be understood together.
 
