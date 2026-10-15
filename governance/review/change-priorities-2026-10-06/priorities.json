@@ -1,5 +1,5 @@
 {
-  "version": "1.58",
+  "version": "1.59",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8301,6 +8301,150 @@
         "whole_file_inverse": true,
         "C_separate_review": "Current27eb source/origin, whole line, -17bytes/after696872b39522d4cd4e9c166071497aa5e1bf92da, full inverse and real GitHub duplicated h2 verified. Both old/new explicit fragment inlinks absent in the fixed text corpus."
       }
+    },
+    {
+      "id": 139,
+      "title": "Restore HF review readability",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+      "source_sha": "aa910d27c2435c6e36b2fc3d3750bed400ca5e61",
+      "source_commit": "bcc05db79b337cb957b9fa1b93d273f57cf7976b",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.\n````\n\n\n## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026",
+      "after": "For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.\n\n\n## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026",
+      "pairs": [
+        {
+          "before": "For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.\n````\n\n\n## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026",
+          "after": "For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.\n\n\n## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026",
+          "reason": "Delete precisely the orphaned four-backtick line and its LF, five bytes."
+        },
+        {
+          "before": "C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.\n",
+          "after": "C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.\n\n\n## HF review readability repair — 15 October 2026\n\nChange 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.\n",
+          "reason": "Append only the dated application receipt, with no new pending card in this receiving review."
+        }
+      ],
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Existing audit quotation-boundary repairs",
+      "state": "Exact C source proposal and root context/inverse complete; D separate final verification pending",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "benefit": "Restore the human reading of existing audits and applied receipts; high impact is limited to audit readability.",
+      "riskReason": "Only the source-specific quotation delimiters and dated reviewed receipt change. Every prior research prose/count byte remains. The retired pending card is not restored.",
+      "costReason": "Read retirement origin, complete old/proposed context and public-before HTML, compare GFM structure and the whole-file inverse, then verify exact public readback.",
+      "dependencies": [
+        "D final separate check before application",
+        "Source must retain the pinned blob immediately before application",
+        "Keep historical source excerpts and their relative URLs literal",
+        "No scientific source, code, result or archive alteration"
+      ],
+      "preparation": "C source/history and authentic public-before HTML; root complete contexts, both directions and separate GFM reproduction; D final check pending.",
+      "gate": "Publish all exact old/proposed pairs, finish separate verification, apply only this existing-VNext repair and retire its pending card.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "change_kind": "review-format-and-receipt; no canonical scientific source",
+      "evidence": {
+        "C_proposal_file": "reviewer_C5_proposal_139_v1_1_2026-10-15.json",
+        "C_proposal_sha256": "8277213e6e9f2024d80427d816dd04fb948feec3fe30be1b878569608241b103",
+        "origin": {
+          "event": 352,
+          "parent": "77fc61447d3f278072d13f566bbedd7ccfe245d3",
+          "commit": "9fb9421711521decde6843b04914a143a1f04c35",
+          "before_blob": "d6ddc6cee68e1c6516ded924e5acbe432221dbbe",
+          "after_blob": "463c1be04285587c179f340255626f0303bf36c2",
+          "current_orphan_line": 172
+        },
+        "expected_after_blob": "40dd126d4355a4d731c75a407963e351abbfc127",
+        "whole_inverse": true,
+        "byte_delta": 987,
+        "base_9bd_prefix_exception": "The delimiters predate the audit baseline. Prove full conservation by this exact inverse, not a literal old-prefix claim after repair."
+      }
+    },
+    {
+      "id": 140,
+      "title": "Restore 00K historical audit readability",
+      "source": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "source_sha": "a897cc2aa56adcb6abe061bd851aea9665be121c",
+      "source_commit": "bcc05db79b337cb957b9fa1b93d273f57cf7976b",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.\n````\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+      "after": "The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+      "pairs": [
+        {
+          "before": "The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.\n````\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+          "after": "The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+          "reason": "Remove only the stray106 delimiter that opens code over a real audit."
+        },
+        {
+          "before": "### Variante vigente del plan de conteo — historia comprobada, aplicada\n\nAplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.\n\n## Current regression count — 12 October 2026",
+          "after": "### Variante vigente del plan de conteo — historia comprobada, aplicada\n\nAplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.\n\n````markdown\n## Current regression count — 12 October 2026",
+          "reason": "Restore the original-type opening quotation delimiter immediately before the applied source excerpt; retain147 as its proper closer. Do not activate historical source-relative URLs as current review links."
+        },
+        {
+          "before": "D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.\n\n",
+          "after": "D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.\n\n\n\n## Historical audit readability repair — 15 October 2026\n\nChange 140 repairs the quotation boundaries left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). One stray delimiter before the historical audit is removed; the opening delimiter of the retained applied-source excerpt is restored, with its existing closer. The historical review again has normal headings, its evidence table and links. The source excerpt, including its source-relative link strings, stays quoted and literal. The earlier pending cards remain retired and every prior prose/count byte is retained. The [existing baseline review](../../README_VNext.md#change-140--restore-00k-historical-audit-readability) owns the complete exact pairs and their global inverse.\n",
+          "reason": "Append only the dated application receipt, with no new pending card in this receiving review."
+        }
+      ],
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Existing audit quotation-boundary repairs",
+      "state": "Exact C source proposal and root context/inverse complete; D separate final verification pending",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "benefit": "Restore the human reading of existing audits and applied receipts; high impact is limited to audit readability.",
+      "riskReason": "Only the source-specific quotation delimiters and dated reviewed receipt change. Every prior research prose/count byte remains. The retired pending card is not restored.",
+      "costReason": "Read retirement origin, complete old/proposed context and public-before HTML, compare GFM structure and the whole-file inverse, then verify exact public readback.",
+      "dependencies": [
+        "D final separate check before application",
+        "Source must retain the pinned blob immediately before application",
+        "Keep historical source excerpts and their relative URLs literal",
+        "No scientific source, code, result or archive alteration"
+      ],
+      "preparation": "C source/history and authentic public-before HTML; root complete contexts, both directions and separate GFM reproduction; D final check pending.",
+      "gate": "Publish all exact old/proposed pairs, finish separate verification, apply only this existing-VNext repair and retire its pending card.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "change_kind": "review-format-and-receipt; no canonical scientific source",
+      "evidence": {
+        "C_proposal_file": "reviewer_C5_proposal_140_v1_1_2026-10-15.json",
+        "C_proposal_sha256": "c3092aa11c4c3499e59bcb7a77c5c3ca29c245cf0e5429d0fdac3e0904da1552",
+        "origin": {
+          "event": 350,
+          "parent": "77fc61447d3f278072d13f566bbedd7ccfe245d3",
+          "commit": "9fb9421711521decde6843b04914a143a1f04c35",
+          "before_blob": "19f04acf38cb0a30d98361f6c52ca1078ba0f918",
+          "after_blob": "71e380cd76b4ce064af43bb7b11c9448caef1cf4",
+          "current_delimiter_lines": [
+            106,
+            147
+          ],
+          "restored_quote_starts_before_current_line": 140
+        },
+        "expected_after_blob": "493b81e29cfff98dbd23e103084a1940fd72054f",
+        "whole_inverse": true,
+        "byte_delta": 854,
+        "base_9bd_prefix_exception": "The delimiters predate the audit baseline. Prove full conservation by this exact inverse, not a literal old-prefix claim after repair.",
+        "A13_A14_links": "The two later A13/A14 links remain active and identical before/after. This repair does not correct their source-relative destinations. The four ./fixtures links of the retained applied-source excerpt stay quoted."
+      }
     }
   ],
   "audit_coverage": [
@@ -9537,7 +9681,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "996628047cbe89d3ad909c364d80469d66d86156",
+  "review_source_commit": "bcc05db79b337cb957b9fa1b93d273f57cf7976b",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -22745,6 +22889,17 @@
       ],
       "literal_pairs": 1,
       "plan_sha256": "52b1fa22f4bf2a24508121207192e05ab6a9c9eefd351ffe69526a98109a8c78",
+      "whole_corpus_semantic_review_complete": false
+    },
+    {
+      "date": "2026-10-15",
+      "base": "bcc05db79b337cb957b9fa1b93d273f57cf7976b",
+      "entries": [
+        139,
+        140
+      ],
+      "literal_pairs": 5,
+      "plan_sha256": "ac562d2dd949dc47246ac2e2deade2ca7d2deca3d6352d9bc31fa5a1f25193d1",
       "whole_corpus_semantic_review_complete": false
     }
   ],

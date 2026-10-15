@@ -2679,3 +2679,10 @@ The actual receivers explain why many retired passages need no reinsertion. The 
 The structured control history is complete, while the residual prose-control history is split into disjoint assignments for B and C. A preliminary suspicion about the priority extractor was withdrawn after reading its complete overlay flow: the nine research lines remain available in the planning view, and superseded or applied items are not reactivated. No code repair is proposed from that partial reading.
 
 **138 is prepared, not applied.** Automatic approval review requires Iván’s specific GO for the exact Topology heading. Its complete pair remains in the [baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix). The source stays unchanged while the remaining historical work continues.
+
+
+## Further quotation-boundary repairs prepared — 15 October 2026
+
+Source/context checks confirmed two more audit-reading defects left by the earlier retirement of applied cards. [139 restores normal HF audit headings](../../research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability), including the135 applied receipt. [140 restores the 00K historical audit](../../research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability), keeping its retained source excerpt as a literal quotation. Every complete old/proposed passage is in the existing baseline review. High impact here means readable audits; research claims and results do not change.
+
+The root reproduced both whole-file inverses and the Markdown structure from C’s exact proposals. D’s separate final verification precedes application. The two later A13/A14 review links are preserved as a separate context question;140 does not claim to fix them. A possible DDS delimiter repair remains under examination, with no claim of a public HTML check where GitHub’s large-file response prevents it.138 still awaits Iván’s specific decision on the canonical Topology title.

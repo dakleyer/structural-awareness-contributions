@@ -2036,3 +2036,132 @@ The input-contract examination read the complete current contract and all 176 fi
 Eight old EP presentation-transfer fragments still have no authenticated whole-source receiver. The batch is not an intact ZIP. A later scan recovered four complete slide members by length and CRC; their content and remaining bytes are being traced against actual editions. The fragments are not labelled harmless duplicates or silently reintroduced as current slides. Historical versions and generation sources are being checked; current complete presentations remain intact.
 
 **138 application gate update:** the one-line pair above is fully reviewed, but has not been applied. Automatic approval review requires Iván’s specific GO on that canonical Topology heading. The previously prepared application commit is not public main; no other paragraph is included in that decision.
+
+
+### Change 139 — Restore HF review readability
+
+**State:** prepared; D’s separate final check precedes application. **Expected impact:** Alto for audit readability. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md`, blob `aa910d27c2435c6e36b2fc3d3750bed400ca5e61` at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. The applied-card retirement at `9fb9421711521decde6843b04914a143a1f04c35` left the quotation boundary in the wrong state. The source and audit contents remain; the delimiter prevents normal reading.
+
+**Pair 1 — complete text before**
+
+`````markdown
+For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
+````
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+`````
+
+**Complete text after**
+
+`````markdown
+For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+`````
+
+**Pair 2 — complete text before**
+
+`````markdown
+C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.
+
+`````
+
+**Complete text after**
+
+`````markdown
+C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.
+
+
+## HF review readability repair — 15 October 2026
+
+Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
+
+`````
+
+**Reason:** Restore the human reading of existing audits and applied receipts; high impact is limited to audit readability.
+
+**Risk and effort:** Only the source-specific quotation delimiters and dated reviewed receipt change. Every prior research prose/count byte remains. The retired pending card is not restored. Read retirement origin, complete old/proposed context and public-before HTML, compare GFM structure and the whole-file inverse, then verify exact public readback.
+
+HF’s applied135 receipt and later audit notes become headings again. Its earlier table and contrary outcomes remain intact. The exact delta is +987 bytes: −5 delimiter bytes and +992 receipt bytes.
+
+**Iván’s instruction:** preserve useful audit reception, publish the full old/proposed passages first and retire only the applied item. Use the existing owning baseline VNext, with a dated receipt in the affected review. Reversing every listed pair must recover the full source. No new VNext, programme or research result is introduced.
+
+### Change 140 — Restore 00K historical audit readability
+
+**State:** prepared; D’s separate final check precedes application. **Expected impact:** Alto for audit readability. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`, blob `a897cc2aa56adcb6abe061bd851aea9665be121c` at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. The applied-card retirement at `9fb9421711521decde6843b04914a143a1f04c35` left the quotation boundary in the wrong state. The source and audit contents remain; the delimiter prevents normal reading.
+
+**Pair 1 — complete text before**
+
+`````markdown
+The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.
+````
+
+
+## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
+`````
+
+**Complete text after**
+
+`````markdown
+The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.
+
+
+## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
+`````
+
+**Pair 2 — complete text before**
+
+`````markdown
+### Variante vigente del plan de conteo — historia comprobada, aplicada
+
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
+
+## Current regression count — 12 October 2026
+`````
+
+**Complete text after**
+
+`````markdown
+### Variante vigente del plan de conteo — historia comprobada, aplicada
+
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
+
+````markdown
+## Current regression count — 12 October 2026
+`````
+
+**Pair 3 — complete text before**
+
+`````markdown
+D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.
+
+
+`````
+
+**Complete text after**
+
+`````markdown
+D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.
+
+
+
+## Historical audit readability repair — 15 October 2026
+
+Change 140 repairs the quotation boundaries left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). One stray delimiter before the historical audit is removed; the opening delimiter of the retained applied-source excerpt is restored, with its existing closer. The historical review again has normal headings, its evidence table and links. The source excerpt, including its source-relative link strings, stays quoted and literal. The earlier pending cards remain retired and every prior prose/count byte is retained. The [existing baseline review](../../README_VNext.md#change-140--restore-00k-historical-audit-readability) owns the complete exact pairs and their global inverse.
+
+`````
+
+**Reason:** Restore the human reading of existing audits and applied receipts; high impact is limited to audit readability.
+
+**Risk and effort:** Only the source-specific quotation delimiters and dated reviewed receipt change. Every prior research prose/count byte remains. The retired pending card is not restored. Read retirement origin, complete old/proposed context and public-before HTML, compare GFM structure and the whole-file inverse, then verify exact public readback.
+
+The historical 128→134→379 audit becomes prose again while its applied-source excerpt stays quoted, with all four source-relative href strings intact. The later A13/A14 links are unchanged and are a separate context question. The exact delimiter delta is +8 bytes, followed by the reviewed receipt, for +854 bytes overall. Three Python quotations remain exact.
+
+**Iván’s instruction:** preserve useful audit reception, publish the full old/proposed passages first and retire only the applied item. Use the existing owning baseline VNext, with a dated receipt in the affected review. Reversing every listed pair must recover the full source. No new VNext, programme or research result is introduced.
+
