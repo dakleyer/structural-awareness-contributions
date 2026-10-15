@@ -334,3 +334,73 @@ For the source-to-functional-conditions relationship, the paired first account i
 No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
 
 The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.
+
+
+---
+
+## 15 octubre 2026 — plausibilidad de asignación de explotación mediante contexto compuesto (propuesta 00M §6.4)
+
+**Estado: propuesta matemática del autor para la única VNext de 00M, NO aplicada al 00M v0.8 publicado.** La definición semántica vigente continúa en [00M §1](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md); [00N §§1.2–1.3, 3.6–3.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) conserva su desarrollo funcional. Esta ampliación distingue dos problemas que no deben confundirse: (i) el conjunto de composiciones **en principio computables** por un sistema dado; (ii) qué partes **elige explotar** un conjunto de agentes con tiempo, atención y recursos limitados. No es un nuevo teorema de computabilidad ni evidencia de un despliegue EA.
+
+### A. La reserva no explotada es una diferencia de selección, no una nueva clase de computabilidad
+
+Fijados un instante \(t\), una familia de capacidades de agentes \(\mathcal F_{i,t}\), sus contratos de entradas/salidas, permisos y reglas de admisión \(\mathrm{Adm}_t\), podemos definir una envolvente idealizada de composiciones finitas admisibles:
+
+\[
+\mathcal K_t=\operatorname{Cl}_{\circ}^{\mathrm{Adm}_t}
+ \Bigl(\bigcup_i\mathcal F_{i,t}\Bigr).
+\]
+
+Esta **clausura composicional** es una construcción relativa a los contratos realmente admitidos: no afirma que todo programa termine, que conozcamos todas las composiciones posibles, que exista un algoritmo para decidir su equivalencia, ni que su ejecución sea barata o llegue a tiempo. Las transformaciones metamórficas obligan a indexar tanto capacidades como contratos y observaciones por versión y tiempo. Es incorrecto situar algo en C solo porque exceda una máquina aislada si una **composición legítima y caracterizada** ya permite su evaluación dentro del sistema.
+
+Para una familia declarada de preguntas \(Q_t\), sea \(\mathcal R_t\subseteq Q_t\) la porción con método, variables, alcance y elegibilidad **suficientemente caracterizados** para evaluación usando la capacidad disponible. Sea \(\mathcal X_t\subseteq\mathcal R_t\) la selección de evaluaciones efectivamente emprendidas bajo el presupuesto disponible; no toda evaluación emprendida ha de terminar con una respuesta satisfactoria. Los resultados emitidos por su actividad son **A**; el soporte caracterizado, los límites y las oportunidades \(\mathcal R_t\setminus\mathcal X_t\) forman parte de **B**, la reserva de explotación. No se escribe literalmente \(A\subseteq B\): A es el resultado funcional, B su fundamento y reserva; la inclusión correcta es \(\mathcal X_t\subseteq\mathcal R_t\) entre **operaciones/preguntas**, no entre dos salidas del mismo tipo.
+
+C es una **vía de exploración fundada** cuyo marco de evaluación todavía no está caracterizado; no se representa como el complemento calculado \(Q_t\setminus\mathcal R_t\) ni como un inventario cerrado. D representa **efectos potencialmente materiales fuera de la evaluación efectiva** del proceso bajo sus condiciones; la imposibilidad de control no equivale por sí sola a D si el efecto sí puede evaluarse. UNKNOWN se conserva cuando tampoco hay fundamentos para asignar rol. Que exista una frontera relativa a un universo mayor no demuestra que todo sistema posea un C concretamente observado ni que se pueda enumerar D.
+
+### B. Hipótesis no oracular: conservar las posiciones, no decidir lo indecidible
+
+Cada agente entrega su resultado operativo \(A_i\) y, cuando existe fundamento, una descripción contextual \(\mu_i\) de sus bases, reservas, vías de exploración y límites de evaluación. La representación intercambiada puede ser \((A_i,\mu_i)\), pero **\(\mu_i\) no contiene los valores desconocidos de C o D**, no transfiere autoridad y no garantiza que la pregunta original sea decidible. Un mismo canal físico podría transportar ambos; no son **fungibles semánticamente** ante un receptor que solamente entiende el tipo A.
+
+Supongamos que \(\mu_i\) es computable a partir de trazas finitas, contratos y bases ya establecidas por los productores, y que la composición de mensajes es computable. Bajo ese supuesto, una capa EA **no aumenta la clase de funciones parciales computables por el sistema ideal**. Sí puede aumentar la observabilidad efectiva de un receptor que antes veía únicamente los \(A_i\), porque se evita descartar cualificaciones en el handoff. Un A producido por la función de revisión contextual NO convierte retrospectivamente el C o D irresuelto del productor en un A suyo. Ningún oráculo de Turing es supuesto ni suministrado.
+
+### C. Proposición condicional exacta: mayor conjunto de políticas de asignación
+
+Sea \(\theta\) una situación operativa en una distribución de ensayo predeclarada; \(A\) el conjunto de resultados transportados; \(M\) las cualificaciones contextuales legítimas, con su tiempo, alcance y fuente; \(\mathcal U\) una misma familia de acciones/evaluaciones **ya elegibles** y \(J(u,\theta)\) el beneficio o cumplimiento de una pregunta de *revisión y asignación de recursos*, NO una declaración de verdad sobre lo irresoluble.
+
+Para políticas con el mismo límite de coste de ejecución, un receptor que observa \((A,M)\) puede siempre ignorar \(M\). Por tanto, si el coste de capturar/interpretar \(M\) no se contabiliza todavía:
+
+\[
+V_{A,M}=\sup_{\pi\in\Pi_{A,M}}\mathbb E[J(\pi(A,M),\theta)]
+\ \ge\
+V_A=\sup_{\pi\in\Pi_A}\mathbb E[J(\pi(A),\theta)],
+\quad \Pi_A\subseteq\Pi_{A,M}.
+\]
+
+**Prueba:** toda política de \(\Pi_A\) también pertenece a \(\Pi_{A,M}\) al ignorar \(M\). Es una dominancia **débil** elemental por ampliación de observaciones, no una nueva teoría. La desigualdad solo es **estricta** cuando el metacontexto modifica de modo beneficioso la decisión óptima en escenarios con peso positivo. El **valor neto** puede ser menor o negativo al introducir los costes completos de instrumentación, envío, validación y composición, o cuando un sistema convencional ya posee el mismo contexto. No se afirma una mejora universal, ni que añadir etiquetas por sí solo genere correlación con el objetivo.
+
+**Testigo finito para falsación:** dos productores comunican siempre el mismo A=«7». El próximo control tiene **un solo turno de evaluación** y dos rutas \(u_L,u_R\), ambas existentes en la envolvente componible, pero solo una dispone del método/permiso actualmente aplicable. En la mitad de estados de prueba \(u_L\) es aplicable y en la otra mitad \(u_R\). Una cualificación B legítima que indica cuál ruta está ya caracterizada permite elegir correctamente el turno en ambos casos. Un receptor que solo ve A no distingue los casos: con priori equiprobable, no puede superar probabilidad \(1/2\) de elegir una **ruta aplicable**, mientras el receptor contextual alcanza \(1\), **sin resolver aún el resultado de la propia evaluación**. Es un ejemplo de **asignación**, no una predicción de autorización, de la población desconocida en C ni de los riesgos reales en D. Si el receptor ordinario ya conoce el registro de rutas aplicables, también alcanza \(1\): resultado nulo para cualquier ventaja exclusiva de EA.
+
+Un beneficio específico de C/D exige una pregunta distinta: por ejemplo, detectar una **brecha de base suministrada**, justificar una abstención o dirigir una búsqueda hacia otro agente que tenga una capacidad B compatible, sin asignar una probabilidad ficticia a la extensión C ni computar el efecto D. C o D pueden orientar acciones sin revelar el valor de la respuesta original. Un beneficio estricto requiere su propio testigo y coste; no se hereda del caso de B.
+
+### D. Qué cambia —y qué NO cambia— en los teoremas de imposibilidad
+
+- **Arrow:** la inexistencia de una función de bienestar social que satisfaga simultáneamente dominio irrestricto, ordenación social, Pareto, independencia y no dictadura sigue intacta con esos axiomas, aun si todo el espacio de funciones del tipo exigido es computable. Un contexto puede orientar qué problema de elección formular, qué condición reconsiderar o cuándo **no** producir una ordenación; esto cambia el contrato de evaluación, **no refuta Arrow**. [Definición y alcance](https://plato.stanford.edu/entries/arrows-theorem/).
+- **Kleinberg:** ninguna función de clustering plano satisface simultáneamente invariancia de escala, riqueza y consistencia bajo sus axiomas. El metacontexto puede orientar una partición condicionada o una revisión de régimen si se modifica explícitamente el perfil, **no satisfacer simultáneamente los tres axiomas originales**. [Artículo](https://web.stanford.edu/~rezab/discrete/Notes/Kleinberg%20-%20impossibility%20theorem.pdf).
+- **Rice:** la indecidibilidad **uniforme** de propiedades semánticas no triviales de programas no implica que cada problema individual sea indecidible. Una ejecución agotada por tiempo o memoria tampoco demuestra no computabilidad. Se puede mejorar la elección de ensayos y recursos sin decidir universalmente la propiedad. [Enunciado formal](https://plato.stanford.edu/entries/recursive-functions/).
+- **Wonham y Pam Dixon:** una interfaz contextual puede cambiar el conjunto de observaciones y ayudar a reconocer **qué condición de autoridad necesita ser revisada**; la suficiencia para una decisión futura todavía requiere un criterio propio y evidence/standing admitidos. Ningún metadato crea un mandato originario ni su autorización. La composición de incertidumbre es diferente de resolver la autorización. [Pam, respuesta directa](https://github.com/FG-TIDA/themes/issues/9#issuecomment-6179863862).
+
+La tesis defendible no es «los imposibles se vuelven posibles» en el mismo modelo y con los mismos axiomas, sino que la arquitectura **puede usar conocimiento ya caracterizado sobre sus propias fronteras** para reasignar explotación y mejorar decisiones de revisión dentro de las capacidades existentes, en escenarios donde una interfaz A-only lo perdería. Los teoremas generales siguen imponiendo sus límites; cambia la **política efectiva bajo recursos finitos**, el tipo de salida contextual y, a veces, la observación legítimamente disponible.
+
+### E. Antes/después localizado propuesto para 00M; NO incorporado
+
+**Ubicación si Iván da GO de incorporación:** tras **00M §6.3** (límite de información con estados indistinguibles), antes de §7 (alcance de la plausibilidad), como **§6.4 “Compositional capacity versus resource-bounded exploitation”**. No cambiar §1 canónica, §§4.1–4.3, ejemplos, referencias fijadas ni el nombre de la v0.8 original; si se autoriza una versión nueva, preservar la publicación actual y documentar el sucesor con su propio control de cambios.
+
+**Antes (00M §6.3 final, cuerpo actual intacto):** «This elementary indistinguishability argument is stated here directly. Braverman et al. [R5] provides quantitative communication lower bounds for particular statistical models; it is relevant context, not the source of this generic two-state argument or an EA validation.»
+
+**Después propuesto, núcleo de una adición (sin sustituir el texto anterior):**
+
+> A result-only interface can be sufficient for the producer's selected operation yet omit already-characterized reserves, exploration routes and effective determination limits that matter to a different review question. For a fixed typed family of permissible agent operations, admissible finite compositions do not become non-computable merely because the agents exchange qualified context. The proposed gain is **resource-bounded and question-relative**: qualified positions may improve the selection of which already-assessable operation to run, where to inspect an uncharacterized frontier or when to preserve an unresolved limit. For a fixed admissible action family, policies able to ignore metadata include all A-only policies, so gross optimal value cannot decrease solely from observing additional valid context. Strict and net benefit require source-eligible, timely, decision-relevant qualifiers and measured total cost, and must be compared with a competent baseline that already retains them. C/D are not assumed enumerable or calculable and no oracle decides them; Arrow, Kleinberg and Rice remain valid within their original formal hypotheses.
+
+**Falsadores y DDS propuesto:** fijar agentes y sus composiciones; identificar las preguntas y el presupuesto; construir al menos dos estados con el mismo A y distinta acción óptima de revisión fundamentada; contrastar A-only, EA contextual y un incumbente con información equivalente; medir utilidad, coste total, tiempo, errores de falsa continuación, abstención justificada y procedencia/autoridad. Si los agentes no aportan diferencias útiles, si la comparación ordinaria ya transporta el mismo contexto, si la cualificación llega tarde o si el coste destruye el beneficio, el diferencial es **nulo o negativo**. Ningún experimento DDS Stage A/B/C real queda ejecutado por esta nota.
+
+**Gobernanza y fuentes:** esta sección es **una ampliación propuesta en 00M_VNext, no una edición del documento 00M v0.8 ni de sus requisitos congelados**. No se publican notas históricas privadas, originales de Drive ni supuestas aprobaciones de FG-TIDA; el trabajo formal y el diálogo con Pam siguen fuentes distintas. Sin validación matemática independiente ni un GO para sustituir la versión pública de 00M. La evaluación puede avanzar aunque nunca se apruebe la incorporación.
