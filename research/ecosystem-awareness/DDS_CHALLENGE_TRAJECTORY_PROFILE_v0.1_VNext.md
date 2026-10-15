@@ -17674,7 +17674,7 @@ The rows below are the current plan-reading view. Historical entry flags such as
 | Proposal | Current selection / next condition | Owning VNext |
 |---|---|---|
 | 91 | Complete external-entry pair; wait for92/source reception and the named official-entry decision. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 92 | Use the later passage 1 successor with the other nine original pairs as one held set; do not apply the original passage 1. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 92 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 93 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md) |
 | 94 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 | 95 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
@@ -17892,3 +17892,8 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 ### Application 112 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; resulting source blob `39f2ac08d6a2a07227f9595eaec4537b61be16f4`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+### Application 92 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 10 complete literal replacements to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; resulting source blob `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.

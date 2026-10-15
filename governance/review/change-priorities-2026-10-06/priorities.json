@@ -4702,7 +4702,7 @@
       "costReason": "Ten identified passages, full inverse comparison, source-version and fragment checks, and reciprocal reader review. A later full integration requires a content manifest and its own exact proposals.",
       "gate": "Ivan approves these exact reader passages. No physical migration, file deletion, normative protocol replacement or new README is authorized by this pair set.",
       "date": "2026-10-13",
-      "state": "Pendiente de decisión",
+      "state": "Applied; removed from the pending queue",
       "impact": "Alto",
       "effort": "Medio",
       "priority": "Primera",
@@ -4710,12 +4710,22 @@
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
       "heading": "Direct UC-21 entry in Contributions — 13 October 2026",
       "preparation": "Exact replacement pairs prepared",
-      "decision_ready": true,
+      "decision_ready": false,
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "quality": "Current source and all old passages identified; inverse comparison exact",
       "acceptance": "Current route within Contributions; submitted snapshot preserved; original source contracts and all destinations retained",
-      "joint_changes": []
+      "joint_changes": [],
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f"
+      }
     },
     {
       "id": 93,
@@ -13989,7 +13999,7 @@
           "before_matches": 1
         }
       ],
-      "state": "Draft successor — existing content-integration suspension retained",
+      "state": "Applied selected later passage1 with original passages2–10; earlier alternatives retained as history",
       "decision_ready": false,
       "authorized_to_apply": false,
       "impact": "Alto",
@@ -16310,6 +16320,142 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "92",
+      "date": "2026-10-15",
+      "from_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9",
+      "title": "Make the existing DDS index the Contributions reader entry for UC-21",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "before_blob": "39f2ac08d6a2a07227f9595eaec4537b61be16f4",
+          "after_blob": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f",
+          "bytes": 76246,
+          "sha256": "7785a3869aed073ab137a7224edf47133eac99e81f3f7270d59920e9a3b1f220"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "Section 11, existing 92 passage 1",
+          "old_occurrences": 1,
+          "before_sha256": "582b3f254b016122d9d217ea43c71e57f313ff72aa4736d388c31422df5795de",
+          "after_sha256": "1a183db15ff7fd663bbff230e2bfe83ace784622355586ef3e2a424845d15586",
+          "prefix_sha256": "25cb4d49d8ce707e0dee4f8036372e423813650c31cf46f0b10b3290684c1b2c",
+          "suffix_sha256": "77b81db49243a72d19c0ea41d62d636c7c3c1ae6cc9d11e34c672d9f5bc8ae30",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 2,
+          "location": "Existing reader passage: | What is UC-21 trying to establish? |",
+          "old_occurrences": 1,
+          "before_sha256": "2f7fe7eba8ec829de4b6278f2472e9355b4bb0e852170769bf6b39c12348f7ec",
+          "after_sha256": "667529b5c3155ea3ad08db4ce2f2a12d8468683ef2c10aca169f8242a3efc1b0",
+          "prefix_sha256": "5fdbd269e42c6f6fdd9e8ce174d2ecc59c8d2b1cc0f6f93eb1c044a8eedf4e83",
+          "suffix_sha256": "5de54a8aa37452aa09a565755627e3d93ae5c0bc6f8ffe35539399a846bb72a8",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 3,
+          "location": "Existing reader passage: | Which scenario, reduction or extension supplies the problem? |",
+          "old_occurrences": 1,
+          "before_sha256": "eec038be10dc85f8002c981a2f6b32547aaf7681b292b61b3acb18afef21cc10",
+          "after_sha256": "9524a9dbbaa4f1ceb42fb6e3c8530e915043d2efcd407c9035b6edd769d24418",
+          "prefix_sha256": "66e9794286195b7282f64fd70ec724f622d849a6e5024e05ff615f1dad9be5a9",
+          "suffix_sha256": "9f77f5544447c28c05ecb14482fe6fc13c4e8eb9a73d3234c92dffbfe8621581",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 4,
+          "location": "Existing reader passage: For terminology, use [Stage A §3]",
+          "old_occurrences": 1,
+          "before_sha256": "baf5e47c6cd80e8fd43b523c92e00a7c6671b48f8cdb94d1c025adadd73a4033",
+          "after_sha256": "23f08b0e09eb6baea86c2bd598d55c7e872c01b0076e28c0e6926eca0d3e1b1e",
+          "prefix_sha256": "358bfc7325156eba71aa2ea3415d04a37dd9ea03f8f5aa1a4566230c36c46b8d",
+          "suffix_sha256": "9fb7c50215cffeded9efa11e5a77380e59fbaf4051004586fbee10b4b799b8f8",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 5,
+          "location": "Existing reader passage: The [submitted UC-21 snapshot]",
+          "old_occurrences": 1,
+          "before_sha256": "6f1ca100ace2b26d5b8352a89fc6bb001da4d2bf58e4881d1cf30fbf7854dbcb",
+          "after_sha256": "2581bbdefd70e9419672a947f605a931a025794bcd9145cee9bc21de9d95b144",
+          "prefix_sha256": "9a4e2bc7b7f080d9e0c9434464f3a256698efc975edd2f26b139fe325ea43f90",
+          "suffix_sha256": "c1a7c666eca99111c1c99246a94a9fd2eea3aa8d43aa33a716932e04b7bdeab6",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 6,
+          "location": "Existing reader passage: A case supplies the question and acceptance conditions. DDS supplies t",
+          "old_occurrences": 1,
+          "before_sha256": "30c4741e59773bcd742d69779bdc2bed5a73153cee278d5d55cb0e7314023ac5",
+          "after_sha256": "228b98796fb678ec0b28fdb89159cad651dc429fb8f348186ccac2a86805f82b",
+          "prefix_sha256": "8de779cad4df3e3f6c4b93afbbf8f9f13e4605ea637f9780cd26c64979436d30",
+          "suffix_sha256": "0fd470f5bfe9685b983e842fb38b7501fe926a8e0e5b977d690349daf32b0aa6",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 7,
+          "location": "Existing reader passage: | Objective and scientific claim |",
+          "old_occurrences": 1,
+          "before_sha256": "5479a639c10b6163e1cea63f10d31db8377125e84af6d917930bbdced6a1173d",
+          "after_sha256": "20caae6aace99f8f82e923a066cd3bcfad4697fd4bc0a834d815419a29a32995",
+          "prefix_sha256": "733edb6e2b69b0aaed3a68f80f295c1b25a43482b2ecfb961040f36e66a676a5",
+          "suffix_sha256": "5aa8805a6c5c9af65d233ea2909c8f3f179b54acdae100b5536cee471cfd1c44",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 8,
+          "location": "Existing reader passage: | Challenge and admitted variant |",
+          "old_occurrences": 1,
+          "before_sha256": "c70807a9a699c36fcae50fe70fddb62751f51cf27d05fc0409506b06d74da7a2",
+          "after_sha256": "23b1c5375e0edc455666e0996f0cf49fa6a051e0a864480d8698e713f5b96eba",
+          "prefix_sha256": "2964e77af8dc5b2074f184e9eb6f51df92a346e00f33b230fc2e83ecbb3ea6a1",
+          "suffix_sha256": "769b31fa4e2604dee5c59543040ef81b723b01859b1beadd0d2009a66406e8bc",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 9,
+          "location": "Existing reader passage: | Implementation comparison |",
+          "old_occurrences": 1,
+          "before_sha256": "cceb8cfe32177d65191c150fabf4f113ba0b2613ccd39a60bb79ae02801ce72b",
+          "after_sha256": "8c5b7cbb606acbbe9a4864b280d6fd9a3aa6fe6fdbfd3c8c1efed009ccee57cd",
+          "prefix_sha256": "7ada900658e038d0199d500069d08b21212d8a9c0dd867d450fb12a601327d47",
+          "suffix_sha256": "6ebec1b68c6c5e5d88a04c1708494ae3464e736c04fcb9a8b9fcce6adc790176",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        },
+        {
+          "pair": 10,
+          "location": "Existing reader passage: [UC-21's maintained package on main]",
+          "old_occurrences": 1,
+          "before_sha256": "1343ba04c004ade29b733aa752913def25d90a663d21913b6517dcd6da488d1e",
+          "after_sha256": "6b068f791d1991d118ee4b3868169862f0ab9f35d569a68e6f0fb1758f2598e2",
+          "prefix_sha256": "541e7697e355a62366909c0a8009388358d3116c22dc379c607f5aa3a787360e",
+          "suffix_sha256": "9c6d96bf7ba3b6796a31a80de5cd42094e5aea7251e455516d6854cdcde3abda",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18524,6 +18670,13 @@
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "39f2ac08d6a2a07227f9595eaec4537b61be16f4"
         },
         "from_commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429"
+      },
+      "92": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f"
+        },
+        "from_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9"
       }
     }
   }
