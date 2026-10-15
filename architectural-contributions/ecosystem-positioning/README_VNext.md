@@ -2599,3 +2599,16 @@ B's18-event media cohort is complete for historical reception:156 PDF pages and1
 
 133's one-sentence self-review repair is applied and removed from pending at `62e03c56bac3f5c34f5c97939c52bf9bd37bab1a`. Its complete before/proposed paragraph remains in the public plan predecessor. A continues its remaining reader/router/current-body history; C's latest sealed code cohort has332/705 contextual events adjudicated and373 pending. These remaining readings prevent final corpus closure.
 
+
+
+## Historical coverage crosscheck and applied restoration — 15 October 2026
+
+The 13 repairs 122–134 are applied on main. They contain 17 literal pairs in 11 source documents; their complete public plan predecessors and individual application receipts remain in the owning VNext.134 is now applied at `b6da353172b4cf335cc4974cd1f79851096245c1`, adding described access to the nine older DAOS editions. It is no longer pending.
+
+Full-source replay and reverse replay against `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab` reproduce every source byte, including the two files changed in successive repairs. All 2,396 paths and modes remain. Exactly 43 existing paths changed, including review/priority records; the other 2,353 are byte-identical. No source code, scientific result or binary changed. This conservation check is distinct from the still-open historical reading.
+
+The root crosschecked every source-retirement event by its `(commit, parent, path)` identity against the assigned queues. Their union covered 1,708 of 1,907 events.199 events/647 old-text units across 101 historical paths had no assigned reader; overlaps in earlier queues had concealed that gap. This is an assignment defect, not 199 confirmed information losses. The uncovered events are explicitly retained for source-first examination, including DDS, manifests, older aliases and import containers. No topic is silently excluded because it was reviewed in an earlier session.
+
+A7 completed the EP reader and hypothesis-lineage block:222 unit IDs,208 newly resolved, with 579 of 1,734 assigned source units still unresolved at its sealed cut. Useful P4 limits and adverse P1/P3/P6 findings have concrete current receivers; the old omnibus sufficiency or executed-product wording is not restored. C's fourth continued history cohort reached 404/705 contextual events, with 301 still pending at its sealed cut. All 137 assigned Python/workflow events now have static contextual dispositions; this did not execute them. The [baseline record](../../research/ecosystem-awareness/baseline/README_VNext.md#ep-reader-lineage-and-continued-r 01-history--15-october-2026) explains the material reception.
+
+These figures are dated reading frontiers. They are not summed as independent evidence and do not close the whole corpus. The uncovered cohort, remaining source passages, current bodies without retired passages and final cross-document reconciliation remain visible work.
