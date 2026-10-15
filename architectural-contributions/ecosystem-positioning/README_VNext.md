@@ -2668,3 +2668,14 @@ The coordinator completed the 84 JSON-registry and 25 CSV historical control eve
 137 is applied at `27ebc14437d3b7c5ed6686a781fe3f77fbce55b1`. C separately downloaded the actual GitHub pages: the Extensions audit again has31 headings and no hidden code block;127 and137 are readable headings, and the baseline137 return anchor resolves. The full-file inverse retains all substantive text; the five delimiter bytes are the one explicit exception to the old VNext prefix. The four existing tables remain unchanged.
 
 D found one further small editorial defect: the Topology §3 title repeats its prefix. [138 in the existing baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix) removes17 repeated heading bytes, with the complete line before/after. Impact, risk and effort are low. The current semantics and body stay intact. Remaining source-container questions and review prose are still being examined.
+
+
+## Restoration continuity: controls, receivers and remaining uncertainty — 15 October 2026
+
+The source-history reviewers have now examined the complete additional 199-event source assignment. Eight historical presentation-transfer fragments remain unresolved: the available concatenation is corrupt and has not been identified as an intact presentation. Current slide files and complete public editions remain preserved; resemblance of names is not accepted as evidence that these fragments are duplicates. Their earlier versions and source generation are being investigated before deciding whether anything useful can be restored.
+
+The actual receivers explain why many retired passages need no reinsertion. The FG-TIDA map, superseded profile and current draft/successor retain their distinct duties; interface field identities survive the semantic and custody amendments; HF historical routes retain source-specific research paragraphs. The receiving reviews below record the substance. Restoring earlier mandatory interpretations would undo legitimate corrections.
+
+The structured control history is complete, while the residual prose-control history is split into disjoint assignments for B and C. A preliminary suspicion about the priority extractor was withdrawn after reading its complete overlay flow: the nine research lines remain available in the planning view, and superseded or applied items are not reactivated. No code repair is proposed from that partial reading.
+
+**138 is prepared, not applied.** Automatic approval review requires Iván’s specific GO for the exact Topology heading. Its complete pair remains in the [baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix). The source stays unchanged while the remaining historical work continues.

@@ -2025,3 +2025,14 @@ Source `research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY
 
 **Iván's instruction:** apply justified surgical repairs after publishing the complete pair; retain every unrelated byte and retire the applied pending card. The exact difference is17 ASCII bytes. No old ABCD definition is restored. The existing baseline VNext owns this small source; no new document or review owner is created.
 
+
+
+## Historical source reception: proof families, interfaces and transfer remnants — 15 October 2026
+
+D examined the additional source cohort against actual current bodies. Apparent cuts in split EA units have receiving parts; current topology and case explanations preserve the corrected producer/process/question/scope/capability/time meanings. The old coarse ABCD wording is lineage rather than a second current definition. The A21 historical route was restored by136; its old 14-element bijection and ordered normalizer are not substituted for the current relative-completeness argument.137 has restored normal reading of the Extensions audit without removing research prose.
+
+The input-contract examination read the complete current contract and all 176 field rows, comparing 58 old/new units. Field IDs and historical Word/diagram/manifest identities survive. Custody captions distinguish authentication of a historical edition from a claim that one old hash certifies the amended current body. H06/F9 and the stated classification questions remain research issues; retention of rows does not resolve them. The existing interface owner records the detailed consequence.
+
+Eight old EP presentation-transfer fragments still have no authenticated whole-source receiver. The batch is not an intact ZIP. A later scan recovered four complete slide members by length and CRC; their content and remaining bytes are being traced against actual editions. The fragments are not labelled harmless duplicates or silently reintroduced as current slides. Historical versions and generation sources are being checked; current complete presentations remain intact.
+
+**138 application gate update:** the one-line pair above is fully reviewed, but has not been applied. Automatic approval review requires Iván’s specific GO on that canonical Topology heading. The previously prepared application commit is not public main; no other paragraph is included in that decision.

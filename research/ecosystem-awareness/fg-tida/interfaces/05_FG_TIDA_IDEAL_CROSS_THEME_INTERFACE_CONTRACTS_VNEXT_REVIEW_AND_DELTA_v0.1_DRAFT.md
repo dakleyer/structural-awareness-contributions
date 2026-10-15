@@ -966,3 +966,10 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Control-history reception of 05 — 15 October 2026
+
+B read all historical changed clauses in this review and the complete current 05 source, with actual receiving sections in DBC and 05A. The earlier “None committed” reading is not restored as present status: the current receiving material and its internal illustrative scope remain distinct from evidence of an external FG-TIDA deployment. Applied33/34 and the later coordinated documentary tranche remain applied; retiring their pending cards does not erase the source passages.
+
+The [05A review](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#control-history-reception-of-05a--15-october-2026) records the other end of this reading. The examined 05 control cohort adds no useful source omission to restore. It preserves the differences among a source report, its reproduction, a mutable publication and independently reviewed evidence.

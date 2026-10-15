@@ -667,3 +667,10 @@ Reviewer A read the full05A source, Charterv0.1/v0.2 and their734-line predecess
 
 The full Charter lineage receives identity/detection/reputation/privacy/incentives as staged or admission/owner-review work. Preparation, repository publication, Charter PR, WG discussion and adoption remain distinct. The [Foundation owner](../../baseline/01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026) records the 160-unit lineage and legal-owner chain. Existing v0.1 routing does not establish or refute v0.2 promotion; that authority is a separate state question. No source change is proposed from this reception review.
 
+
+
+## Control-history reception of 05A — 15 October 2026
+
+B compared the changed historical review clauses with the complete current bridge and actual receiving material. The source passages for applied31/32 and the later documentary tranche are present; the earlier F004/F005/F006 audit observations remain visible. Keeping an applied item out of pending does not turn a source consultation into independent validation or make a changing external page permanently current.
+
+The [05 review](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#control-history-reception-of-05--15-october-2026) records the matching receiver. No useful source omission was found in this control cohort. The earlier full source/case readings and this later control-history reading are separate scopes by the same agent, not two independent scientific audits.

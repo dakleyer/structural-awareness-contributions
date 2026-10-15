@@ -750,3 +750,10 @@ Current A/B/C/D corrections retain result/basis, characterised reserve, uncharac
 
 Competing intents retain the same decision/resource-time binding and owner precedence. Continuity/re-entry remains conditional and creates no universal hierarchy, O7, IF-S14 or actuation authority. IF-S2 at line 758 directly says EA consumes authority and neither originates grants nor decides legal standing, reinforcing the Charter receiver chain. No source restoration follows. The [03 owner](03_FUNCTIONAL_VNext.md#historical-functional-architecture-reception--15-october-2026) and [Foundation owner](01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026) record both relationships.
 
+
+
+## Historical interface custody and semantic reception — 15 October 2026
+
+D read the complete 1,038-line current input contract, its 176 rows across 19 families and all 58 changed historical units. The original field IDs and row literals remain. Original Word, SVG, PNG and historical Markdown identities match the historical manifest, while the amended current text keeps its dated semantic amendment. The two objects answer different identity questions; the historical manifest is not recast as a hash for the amended current body.
+
+The B/C corrections and custody descriptions are legitimate receiving changes. No field, option or explanatory reason from the examined unit history needs blind restoration. This retention judgement does not admit every classification or close H06/F9, the stated A-exclusion question or O2. Those remain visible in their source contracts. No programme or result was executed or altered by this reading.

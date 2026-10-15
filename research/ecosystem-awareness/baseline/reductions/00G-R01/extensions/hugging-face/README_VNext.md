@@ -186,3 +186,10 @@ One English punctuation ambiguity is concrete: §4.3 says33.408 checks while the
 
 The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md`, blob `b9c17c59deaf2c9cee12497a91eff4493a13b60c`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/1eca21c93eb507d6fd27ade56f658b29531860ff/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-135--use-the-english-thousands-separator-for-the-recorded-33408-hf-checks) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitution recovers source predecessor `2b19ae3d129e072e3520fec74f655479cc087885` byte for byte. Every other source byte is retained.
 
+
+
+## Historical HF route reception cross-check — 15 October 2026
+
+D compared the 14 additional HF history events and their 25 changed units against complete source-specific receivers. Thirteen former navigation paragraphs retain literal receiving passages and their research meaning in the version history. That supports keeping the present historical/current route distinction; it does not justify reinserting every old paragraph into the current README.
+
+C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.

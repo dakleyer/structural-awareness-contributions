@@ -1,5 +1,5 @@
 {
-  "version": "1.57",
+  "version": "1.58",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8263,10 +8263,10 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Bounded heading readability repair",
-      "state": "D source reading, C separate review and root context/anchor/inverse complete; authorised, not yet applied",
+      "state": "Prepared; exact canonical heading awaits Iván’s specific GO",
       "application_status": "planned",
       "decision_ready": true,
-      "authorized_to_apply": true,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
       "benefit": "Read the section title once and give it the intended clean anchor.",
       "riskReason": "Delete only the repeated 17-byte prefix in one heading. No definition, example, topology relation or other source byte changes. Neither the malformed nor intended heading has an explicit Markdown inlink in the pinned corpus.",
@@ -8276,8 +8276,8 @@
         "Current source must remain bloba5adff56ede0effa4d3fb9d04fe1e41f3a76a17a",
         "C separate literal/anchor review before application"
       ],
-      "preparation": "D, C and root agree on the exact complete one-line pair, source history, no observed explicit incoming anchors and whole-source inverse.",
-      "gate": "Apply only the exact published one-line pair under the current surgical restoration instruction; verify every unrelated byte and public readback.",
+      "preparation": "D and C separate source/context/anchor checks and root whole-source inverse complete. Literal plan published; no source application.",
+      "gate": "Automatic approval review requires Iván’s explicit decision on this exact17-byte Topology heading repair; all other work continues.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
@@ -9537,7 +9537,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "27ebc14437d3b7c5ed6686a781fe3f77fbce55b1",
+  "review_source_commit": "996628047cbe89d3ad909c364d80469d66d86156",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -16686,6 +16686,22 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Topology heading138 application gate; source remains intact",
+      "source_commit": "996628047cbe89d3ad909c364d80469d66d86156",
+      "proposal_assessments": [
+        {
+          "id": 138,
+          "state": "Prepared; exact canonical heading awaits Iván’s specific GO",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "preparation": "D and C separate source/context/anchor checks and root whole-source inverse complete. Literal plan published; no source application.",
+          "gate": "Automatic approval review requires Iván’s explicit decision on this exact17-byte Topology heading repair; all other work continues."
+        }
+      ],
+      "reason": "Automatic approval review declined canonical-source write without a specific named passage GO. Exact user question is pending. No rejected action was executed."
     }
   ],
   "plan_order": {

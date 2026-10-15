@@ -18127,3 +18127,10 @@ Exact dated addition incorporated; predecessor `7d26dd6071a1ad650f2a6d1aa5d0de42
 ## Dated source updates verified 15 October 2026
 
 Change120 is applied in main and read back exactly: [application](https://github.com/dakleyer/structural-awareness-contributions/commit/a5e01a0461563a7305732467c848bac844f86641). The complete old source survives, its old/new pair is applied history, and no insertion from this batch remains pending. Source-owner confirmation, coordination and study evidence retain their separate scope; no new experiment or case was launched.
+
+
+## Additional historical method and FG-TIDA reception — 15 October 2026
+
+D read the complete 1,209-line FG-TIDA map, the deleted 433-line profile, the 403-line receiving draft, the 137-line successor and their routers. The receiving alias existed in the parent before the old profile was removed; it is a real receiving document rather than a later name-only explanation. The move from old VM/order labels to DBC-EL keeps review before execution and the current Stage A/B/C duties. The former profile is retained as lineage, not reinstated as a competing method owner.
+
+The additional Stage B/C history likewise changes stage terminology without turning a specification result into architecture verification or an implementation result. UC-21 supplies objectives and Challenges; DDS remains the reusable method; campaign and outcome editions retain their own evidence contracts. The historical retired passages examined here reveal no new useful method clause to restore. Separate control-history and unresolved transfer-container work remains open in the corpus review.
