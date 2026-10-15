@@ -18097,7 +18097,7 @@ The final live UC-21 check found dated public developments beyond the12 October 
 
 ### Change120 — Receive the current S5 closure and UC4-linked coordination record
 
-**State:** authorised; not yet applied. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**State:** Applied — 15 October 2026; no pending insertion. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
 
 Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; blob `7d26dd6071a1ad650f2a6d1aa5d0de42775df79a` at `c6a2acf858f2856a20e2e29781c52286f357b25e`. Benefit: Updates the dated12 October closure recommendation with the15 October closed-scope record and actual role/interest boundaries. Risk: preserve the precise contributor/evidence boundary. The complete old context occurs once; only the dated block is added.
 
@@ -18117,3 +18117,8 @@ Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; blob `
 ~~~~~~~~
 
 **Iván:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Source-update application120
+
+Exact dated addition incorporated; predecessor `7d26dd6071a1ad650f2a6d1aa5d0de42775df79a`, successor `d6cbccf686e51deb2560430909fc8fde1630b60a`. Its inverse restores every predecessor byte. Public verification follows below.
