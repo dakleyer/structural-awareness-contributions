@@ -1,5 +1,5 @@
 {
-  "version": "1.38",
+  "version": "1.39",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7053,10 +7053,10 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Continued rest-of-corpus historical damage control",
-      "state": "Independently reviewed and authorised; not yet applied",
-      "application_status": "planned",
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
       "decision_ready": false,
-      "authorized_to_apply": true,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
       "benefit": "Stops earlier P1/P3 isolation pairs and the 29-test A4 layer from being read as the current corrected fixture dispositions.",
       "riskReason": "Label only the specific historical layers. Preserve every heading, paragraph, anchor, count, result and corrected-source route; do not regrade evidence.",
@@ -7069,8 +7069,8 @@
         "Existing 00K family review route",
         "Root 122–127 distinct changes; not duplicated"
       ],
-      "preparation": "D accepted revised1.1 literal plan; unique current context, pure insertion and full inverse verified.",
-      "gate": "Apply only the reviewed note; preserve all headings, anchors and result text.",
+      "preparation": "Exact single reader insertion applied; complete source inverse verified.",
+      "gate": "Applied under current instruction; no reapplication pending.",
       "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
       "evidence": {
         "reviewer": "B",
@@ -7103,7 +7103,15 @@
           "00K-A15 Execution summary",
           "00K-A05 Prior execution summary"
         ]
-      }
+      },
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "23dc1176267ce7d24b60258e7b93b1806b058199",
+      "applied_source_blob": "7320c1ab1b562dc6ac912bcc3c30c4127ab3200a",
+      "published_pair_commit": "23dc1176267ce7d24b60258e7b93b1806b058199"
     }
   ],
   "audit_coverage": [
@@ -8340,7 +8348,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "19564b502d2086097703c6304945719b8872f8c3",
+  "review_source_commit": "23dc1176267ce7d24b60258e7b93b1806b058199",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -15259,6 +15267,28 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "A04 historical layer clarification128 applied",
+      "source_commit": "23dc1176267ce7d24b60258e7b93b1806b058199",
+      "proposal_assessments": [
+        {
+          "id": 128,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Exact single reader insertion applied; complete source inverse verified.",
+          "gate": "Applied under current instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "f7173d3c47d5b5ace7e2d9d4537a7a7cef0b2bc3",
+            "after_blob": "7320c1ab1b562dc6ac912bcc3c30c4127ab3200a",
+            "before_unique": true,
+            "exact_inverse": true
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -21016,6 +21046,17 @@
       "exact_inverse": true,
       "pair_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
       "source_bytes_delta": 41
+    },
+    {
+      "id": 128,
+      "source": "research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_SUMMARY_v0.1.md",
+      "from_commit": "23dc1176267ce7d24b60258e7b93b1806b058199",
+      "before_blob": "f7173d3c47d5b5ace7e2d9d4537a7a7cef0b2bc3",
+      "after_blob": "7320c1ab1b562dc6ac912bcc3c30c4127ab3200a",
+      "literal_pairs": 1,
+      "exact_inverse": true,
+      "all_old_text_preserved_in_order": true,
+      "pair_commit": "23dc1176267ce7d24b60258e7b93b1806b058199"
     }
   ],
   "rest_of_corpus_followon_epochs": [
