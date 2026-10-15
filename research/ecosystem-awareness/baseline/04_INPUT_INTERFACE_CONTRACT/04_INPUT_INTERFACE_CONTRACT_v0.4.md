@@ -14,7 +14,7 @@ Este contrato forma parte de la línea **04**, independiente de programas o domi
 
 **Lectura:** [guía](#cómo-leer-y-aplicar-este-contrato), [diagrama](#el-marco-de-clasificación-de-un-vistazo), [definiciones](#1-marco-de-clasificación-y-cuadrante), [ejemplos](#7-ejemplos-de-descomposición-en-04) y [familias no previstas](#8-bis-familias-no-previstas). El anexo A conserva la matriz completa; los anexos B/C, los hallazgos y contraejemplos.
 
-**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.
 
 ---
 

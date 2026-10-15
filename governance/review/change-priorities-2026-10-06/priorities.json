@@ -5115,7 +5115,7 @@
     {
       "id": 102,
       "title": "Distinguish the original Word publication from current input-contract amendments",
-      "state": "Prepared — pending edition/route reconciliation and named Ivan GO",
+      "state": "Applied; removed from the pending queue",
       "source": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
       "source_sha": "de6c58c62ad70b3182085333106b41b63a9fef18",
       "source_commit": "79696713269e197453f00f2be2164acaf8268f14",
@@ -5157,7 +5157,17 @@
         "all 176 original field IDs and existing links/return routes preserved",
         "no source executions/results, incompatibility closure or rendered Word claim introduced"
       ],
-      "priority_reason": "Current opening notices already identify dated semantic amendments. These local preservation-caption fixes follow substantive semantic and receiver work; they do not justify a semantic rollback."
+      "priority_reason": "Current opening notices already identify dated semantic amendments. These local preservation-caption fixes follow substantive semantic and receiver work; they do not justify a semantic rollback.",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md": "407a009999326cd051cb26e003ad78f8cf8e3162"
+      }
     },
     {
       "id": 103,
@@ -16126,6 +16136,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "102",
+      "date": "2026-10-15",
+      "from_commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c",
+      "title": "Distinguish the original Word publication from current input-contract amendments",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+          "before_blob": "1bbc76f673d79e3b5bb52117aeeb3d68af0d5387",
+          "after_blob": "407a009999326cd051cb26e003ad78f8cf8e3162",
+          "bytes": 121045,
+          "sha256": "9df9734a0b1206a7ac3a4346adc4b24424db8e56a11c4df07a25f50c7a8d99cb"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "line 17 complete Conservación paragraph",
+          "old_occurrences": 1,
+          "before_sha256": "fcd66dc6595d3a2f0d725cb6207c8c701b013ca32c9511ceae98e3a408ee2353",
+          "after_sha256": "c638c60904273e1f658f67e86c96268266740ab317f8589b8fc4ef6584849326",
+          "prefix_sha256": "925b021dc7017b2b3ce0a2053f582dc4d724a064ad7d900f406ecb5819b2bc79",
+          "suffix_sha256": "77df4c6ab4c5121c3fb03e008e867b0a85e91d6c98e95664145281a8c8b2c7b0",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18302,6 +18349,13 @@
           "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md": "1bbc76f673d79e3b5bb52117aeeb3d68af0d5387"
         },
         "from_commit": "7e04793c4b82bfc807d3affffa43e913053fdce5"
+      },
+      "102": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md": "407a009999326cd051cb26e003ad78f8cf8e3162"
+        },
+        "from_commit": "b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c"
       }
     }
   }

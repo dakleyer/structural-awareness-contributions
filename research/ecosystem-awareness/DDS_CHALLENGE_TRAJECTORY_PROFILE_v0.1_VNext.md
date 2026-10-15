@@ -17684,7 +17684,7 @@ The rows below are the current plan-reading view. Historical entry flags such as
 | 99 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md) |
 | 100 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) |
 | 101 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
-| 102 | Complete companion pair; edition/return-route reconciliation remains open. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| 102 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 | 103 | Complete application contract;112 payload custody and actual case/card/consumer reception precede use. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 104 | Complete prospective instrument text; preserve existing validation plans, freezes and runs. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 105 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
@@ -17862,5 +17862,10 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 
 
 ### Application 101 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.
+
+
+### Application 102 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. The owning VNext records the source, resulting blob and exact-inverse check. This item is no longer pending in the current plan view.
