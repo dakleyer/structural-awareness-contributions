@@ -5425,7 +5425,7 @@
       "packages": [
         "W05"
       ],
-      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "state": "Applied; removed from the pending queue",
       "impact": "Alto",
       "risk": "Medio",
       "effort": "Alto",
@@ -5447,7 +5447,17 @@
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
-      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "163cd7360f4036a53f0f31db174f63dba10eb698",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md": "19c98168a39a8f545024e190149e99dee8f4ccee"
+      }
     },
     {
       "id": 110,
@@ -15364,6 +15374,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "109",
+      "date": "2026-10-15",
+      "from_commit": "163cd7360f4036a53f0f31db174f63dba10eb698",
+      "title": "Carry the qualified capacity/timing contract into the UC03 working successor",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md",
+          "before_blob": "982a738acedabbd9ea967e63ed3321216a59434f",
+          "after_blob": "19c98168a39a8f545024e190149e99dee8f4ccee",
+          "bytes": 27127,
+          "sha256": "36fa06b8ab94bc02e8b62126627700c737ef4243ba3986ccc31dda80664664a8"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.",
+          "old_occurrences": 1,
+          "before_sha256": "9143ccf820e9b52fc98b68670df2390375c7cfbcb2e8d6aa6074c7b13d2fe5a8",
+          "after_sha256": "3bb3097a25c94e18783fe19ee55eec84968f268e6804b8b09ea6213b0327dc7f",
+          "prefix_sha256": "fdd402102bbd10ec523f09905e9b09ed48e4bb6cf892cc2308407380af189230",
+          "suffix_sha256": "50f541dfdad4e9d94857641532e5f51b315f84531fb785053b14ca69306d1baa",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -17428,6 +17475,13 @@
           "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md": "a60ea6991692dd0666203bb99e89b25564628745"
         },
         "from_commit": "47d1f2d545c3c353a8901fdb1a54038c203c96c3"
+      },
+      "109": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md": "19c98168a39a8f545024e190149e99dee8f4ccee"
+        },
+        "from_commit": "163cd7360f4036a53f0f31db174f63dba10eb698"
       }
     }
   }

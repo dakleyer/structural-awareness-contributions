@@ -238,6 +238,9 @@ R1. The architecture shall represent effective human-oversight capacity separate
 
 R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.
 
+For a tested configuration that consumes the 01K-A01 capacity component, also bind the reviewer/pool competence and applicable authority, service-demand units, queue/current commitments, model/proof class and required review-completion deadline. Record separately the latest permitted action/effect deadline and any remaining execution budget. The chosen profile identifies the timing bound it accepts; missing material inputs or required proof remain UNKNOWN. A human approval does not by itself supply missing evidence, enlarge mandate or prove timely execution. This is a binding for that selected configuration, not a universal Theme #16 state machine or HID measurement requirement.
+
+
 R3. The system shall not repeatedly escalate to a human when the required capacity is unavailable, the useful window has expired, or additional review has insufficient expected decision value relative to remaining human/time capacity.
 
 R4. A human approval shall remain distinguishable from the evidence on which it was based and from the final execution decision/outcome.

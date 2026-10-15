@@ -251,7 +251,7 @@ Iván requests complete literal before/after before execution. The [joint source
 
 **Source:** `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `982a738acedabbd9ea967e63ed3321216a59434f`. **Location:** R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window..
 
-**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+**State:** Applied — owner-authorized 15 October 2026. Source blob `19c98168a39a8f545024e190149e99dee8f4ccee`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
 
 **Benefit:** Makes the caller expose what a usable human-review path must actually supply while preserving the frozen predecessor.
 
@@ -287,3 +287,8 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 **Pairs checked here: 109.** The entire current R2 requirement is retained in the proposed paragraph. Its added capacity binding applies to a selected 01K-A01-consuming configuration and does not impose a universal HID engine. The pending receiving relation is93+107/108. The frozen v0.4 and working v0.5sources remain unchanged.
 
 Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+### Application 109 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`; resulting source blob `19c98168a39a8f545024e190149e99dee8f4ccee`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
