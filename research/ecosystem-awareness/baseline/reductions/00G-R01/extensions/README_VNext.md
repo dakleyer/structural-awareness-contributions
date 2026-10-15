@@ -218,7 +218,6 @@ Start with the selected study's report and CURRENT_STUDY_RECORD. Its later recor
 | Technical repair successor | [Technical audit](./TECHNICAL_AUDIT_2026-10-07.md), [registration](./extension-audit-v0.1/RUN_CARD.json), [freeze](./extension-audit-v0.1/FREEZE.json), [recorded result](./extension-audit-v0.1/runs/2026-10-07-03/RESULTS.json) | Repaired input/effect grading preserves the162 named original operations/cases;26 original deliberate controls and40 repair/positive vectors remain distinct cohorts. |
 
 A repeated original or replay is a linked execution of that evidence, not another independent observation. Passing the registered expectation may mean a correctly retained failure or incomplete outcome. Keep the study's case count, eligible diagnostic denominator and selected cost unit with its conclusion.
-````
 
 
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
@@ -280,3 +279,8 @@ B read all732 nonempty bilingual DOCX paragraphs,23 tables/183rows/500cells and 
 
 No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.
 
+
+
+## Readability repair — 15 October 2026
+
+Change 137 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its former paired quotation remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#plan-pendiente--linaje-originalcostetiposreparación). GitHub rendered the later audits and applied receipts as code at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`; removing that line restores their headings and links. All substantive text remains. The [existing baseline review](../../../README_VNext.md#change-137--restore-extensions-audit-readability) owns the complete reviewed pair and conservation check.

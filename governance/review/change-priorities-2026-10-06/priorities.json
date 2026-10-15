@@ -1,5 +1,5 @@
 {
-  "version": "1.55",
+  "version": "1.56",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8199,8 +8199,8 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Existing review readability repair",
-      "state": "Exact revised two-pair plan; C confirmed source origin, delimiter, receipt bytes and rendered effect; final revised receipt check pending",
-      "application_status": "planned",
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
       "decision_ready": false,
       "authorized_to_apply": false,
       "positive_impact_proven": false,
@@ -8213,8 +8213,8 @@
         "No restoration of an already applied pending card",
         "All other source and repository bytes remain identical"
       ],
-      "preparation": "B traced the source delimiter and confirmed the actual GitHub render defect. Root checked both unique literals and full-source inverse.",
-      "gate": "Complete separate verification and publish this literal plan before exact application.",
+      "preparation": "B and C source/render verification; exact published two-pair application and whole-source inverse verified.",
+      "gate": "Applied under the current surgical restoration instruction; no reapplication pending.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
@@ -8237,7 +8237,15 @@
         "first_published_plan_commit": "67b10ddc26d0ac337236f5c455be96de095c2ec5",
         "C_precision": "No table occurs after the orphaned fence. Say headings and links, not tables. Exact source change is still the five-byte delimiter deletion and the reviewed receipt."
       },
-      "change_kind": "review-format-and-receipt; no canonical scientific source"
+      "change_kind": "review-format-and-receipt; no canonical scientific source",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
+      "applied_source_blob": "c39e04acae9cb9596250a15b10242fd42cb55498",
+      "published_pair_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81"
     }
   ],
   "audit_coverage": [
@@ -9474,7 +9482,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "67b10ddc26d0ac337236f5c455be96de095c2ec5",
+  "review_source_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -16599,6 +16607,30 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Historical review readability137 applied",
+      "source_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
+      "proposal_assessments": [
+        {
+          "id": 137,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "B and C source/render verification; exact published two-pair application and whole-source inverse verified.",
+          "gate": "Applied under the current surgical restoration instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "f4723948090e3a1a050fe9d2003a3bb6bf09a241",
+            "after_blob": "c39e04acae9cb9596250a15b10242fd42cb55498",
+            "before_unique": true,
+            "exact_inverse": true,
+            "literal_pairs": 2,
+            "five_byte_old_VNext_prefix_exception": true
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -22463,6 +22495,19 @@
       "exact_inverse": true,
       "pair_commit": "4be747b295bd75bbc1517ffee8a3913d1dd5397d",
       "source_bytes_delta": 960
+    },
+    {
+      "id": 137,
+      "date": "2026-10-15",
+      "from_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+      "before_blob": "f4723948090e3a1a050fe9d2003a3bb6bf09a241",
+      "after_blob": "c39e04acae9cb9596250a15b10242fd42cb55498",
+      "literal_pairs": 2,
+      "exact_inverse": true,
+      "pair_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
+      "source_bytes_delta": 919,
+      "change_kind": "review-format-and-receipt; no canonical scientific source"
     }
   ],
   "rest_of_corpus_followon_epochs": [
