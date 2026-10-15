@@ -312,3 +312,49 @@ Related history: A05's authority-confound note survives as A06 with only the hea
 
 The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md`, source blob `2a46b95e350cd1885dbf8d69cffc58d259267074`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#change-124--make-authorityevidence-neutrality-explicit-in-failure-family-admission) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `40da30f981f2cdd51b7cbc0ab4f00b55114b429e` exactly.
 
+
+
+## Complete assigned case-history reception and A04 reading layers — 15 October 2026
+
+Reviewer B completed the assigned historical source-retirement queue: **468 events with source/receiver judgments; zero unadjudicated in that queue**. The last253 events contain833 changed units over80 logical paths and86 complete receiving bodies. This closes that fixed-cut reception queue, not all unchanged/new repository sources or scientific validity. The source cut remains9bd445fe; subsequent authorised text repairs are tracked separately.
+
+The last examination preserves the valid corrections to A23: separately declared source facts replace direct clause/target equivalences; finite P1/P2/P4 implications are distinct from reduced P3/P5/P6 countermodels. A24 label projection is not preservation proof. A20/A22's64-signature result remains separate from a lift to B1–B11. A25/A26 retain admission, positive controls, failure reflection and conformance preservation, with any universal transfer requiring a separately established base guarantee. None of those superseded sufficiency assertions is restored.
+
+Historical code changes retain controls while correcting resource-exhaustion labelling, action-time authority/root checks, amount/window validation, mixed-batch root qualification, transitive evidence filtering and vacuous absent/None/type equality. P4's strict>10000 boundary follows frozenMAT-1. The removed A4 alignment tests receive their full assertion surface in v02_additions; A2-L remains in its separately strengthened peer. P5's serious-grid section remains intact, and the original Stage0 record keeps15 exact blobs/five source fingerprints. These are source/reception judgments, not new executions.
+
+The current closure manifest receives the former normal-form body plus proof paths; the former validation duties have explicit current guards. Earlier14-by-construction uniqueness/precedence is superseded by the admitted object×lifecycle coverage language, not asserted verbatim-equivalent. Typed/operator receivers preserve authority, preference, human capacity, identity, handoff, delegation, composition, change, accountability, intervention history and evidence/decision fit. Exact historical02B/grammar access is already restored by123.
+
+One reader ambiguity remains in the actively linked A04 SYMBOLIC_EXECUTION_SUMMARY: its corrected §1 has76 A4 tests while §3 calls an earlier29-test layer “current”. A07/A09 reject the old issuer/source and HOLD-marked pairs as necessity isolations; their underlying principle discriminants are not thereby rejected. A10 permits minimal authority qualification without full lineage. D compared both completeA04 aliases, the manifest,A07/A09/A10 and current fixture contracts. It required a precision avoiding the false implication that the valid P1 explanation itself was obsolete. The selected note below makes only those specific distinctions and retains every old heading, paragraph, count and link.
+
+### Change 128 — Identify the fixture generations in the retained A04 explanations
+
+**State:** independently reviewed and authorised by the current restoration instruction; not yet applied. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
+
+Source `research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_SUMMARY_v0.1.md`, blob `f7173d3c47d5b5ace7e2d9d4537a7a7cef0b2bc3` at `19564b502d2086097703c6304945719b8872f8c3`. The complete insertion context below occurs once.
+
+**Text before — complete current context**
+
+~~~~markdown
+## 3. Principle-specific discriminants
+
+### P1 / 00J — what does the evidence actually establish?
+~~~~
+
+**Text after — complete proposed context and insertion**
+
+~~~~markdown
+## 3. Principle-specific discriminants
+
+**Fixture generations.** The earlier P1 issuer/source pair and P3 HOLD-marked pair were subsequently rejected as necessity isolations. The P4 paragraph records an earlier 29-test layer. The current 76-test A4 surface retains minimal authority qualification without requiring full lineage. Use the corrected matrix in [§1](#1-execution-matrix) and current fixture packages in [§5](#5-executable-package-routes) for the current tested surfaces and counts.
+
+### P1 / 00J — what does the evidence actually establish?
+~~~~
+
+**Reason:** Stops earlier P1/P3 isolation pairs and the 29-test A4 layer from being read as the current corrected fixture dispositions.
+
+**Risk and effort:** Label only the specific historical layers. Preserve every heading, paragraph, anchor, count, result and corrected-source route; do not regrade evidence. Read both complete A04 aliases, manifest,A07/A09/A10 and current fixture contracts; verify one insertion and existing anchors.
+
+**Dependencies:** Current section1 matrix; Section5 fixture routes; A07/A09 naive-pair confounds; A10 P4 refinement; Existing 00K family review route; Root 122–127 distinct changes; not duplicated.
+
+**Iván's instruction:** extend historical damage control to the remaining corpus, prepare exact VNext passages, verify independently and apply only surgical repairs. This adds only the quoted reader paragraph.
+
