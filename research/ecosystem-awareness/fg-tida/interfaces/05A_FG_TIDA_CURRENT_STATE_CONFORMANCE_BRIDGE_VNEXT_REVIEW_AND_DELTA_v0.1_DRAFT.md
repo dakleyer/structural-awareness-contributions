@@ -345,6 +345,46 @@ Source anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476
 
 ---
 
+
+### 2.14 EA/F2 source-conversation status for ideal external input/output contracts (15 October 2026)
+
+**New additive 05A state bridge for 05 Ideal vNext §7.5; EA ONLY.** The larger **05 Ideal** table is deliberately an *offered architectural target*: it includes useful bilateral input/output contracts regardless of whether a source owner has reviewed an adapter. **05A** states what public comments and contributor correspondence establish now. Neither this section nor §7.5 defines **T13.F3 Response Coordination outputs**; those belong in the three-function charter's separate proposed D6 and the Ward/Nelson map.
+
+**Status vocabulary for recipient conversations.**
+- **Acordado en principio** — the counterpart explicitly accepts the narrow *semantic boundary or feedback direction*; this does not imply agreement on a new transport/profile.
+- **En conversación** — real technical exchange concerns the EA route or adjacent interface; mapping under discussion.
+- **Ofrecido** — an EA output/interface was described to the owner, with no affirmative bilateral profile agreement.
+- **Prospectivo** — candidate ideal interface identified from a Theme's source-owned role, not yet the subject of a bilateral EA exchange.
+- **Propuesto internamente** — working Theme #13 topology/profile, not a Theme-wide or FG requirement.
+
+**Architectural reading.** T13.F1 is the signalling ingress and outbound exchange carrier **within the proposed Theme #13 signalling configuration**. It may distribute source-native findings to T13.F2/EA and EA-authored qualifications to subscribed recipients. That does not require universal F1 transit: native direct handoffs, passive acquisition and no-signalling EA operation remain possible under 03/04. EHD is a semantic handoff, IF-S11 the signal-exchange capability, and pub/sub one implementation topology. **EA outputs below are native EA/F2 contextual qualification and candidate opportunity indications, not F3 response coordination.**
+
+| Theme / interlocutor | F1-carried native input for EA when #13 exchange is used | EA/F2 native contextual output offered or discussed | Actual conversation status |
+|---|---|---|---|
+| **#5/#9 Pam Dixon** | Grant standing, mandate limits, author of aggregation S, act-time evidence | Lost/unknown mandate distinction, contextual insufficiency, request for authoritative requalification | **En conversación:** Pam confirms observational-sufficiency condition and asks who authored S; [response](https://github.com/FG-TIDA/themes/issues/9#issuecomment-6179863862) |
+| **#6 Cyril Gorlla / #36** | Five-state native action verdict, reference/version, appraisal/attested absence | New context-sufficiency/recheck indication without changing native verdict | **En conversación:** [cross-theme source mapping](https://github.com/FG-TIDA/themes/issues/18#issuecomment-6171043104). EA outbound remains **propuesto** for separate review per [Nelson](https://github.com/FG-TIDA/themes/issues/36#issuecomment-6187271636) |
+| **#18 Arnaud Taddei** | Regime/mode/operator/transition context and drift evidence | Applicability change, limited reliance, conditional new qualification | **En conversación** on interfaces; [Arnaud](https://github.com/FG-TIDA/themes/issues/18#issuecomment-6173025205); EA-specific route proposed |
+| **#21 Justin Flores** | Population, native rate, taxonomy, evaluator dependence, identifiability | Insufficiency for a receiving decision and named gap, no preferred answer or upstream directed measurement | **Acordado en principio**, **only this narrow feedback**; [Justin](https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577) |
+| **#22 Henk Birkholz (Fraunhofer) / Houda Labiod (Huawei)** | Native Attestation Result, appraisal coverage, affected subject/dependency and use | Specific assessment-to-use sufficiency change or reason for RP reappraisal | **En conversación / ofrecido:** Henk asks to compare existing RATS freshness/RP policy before defining the additional role; [Henk](https://github.com/FG-TIDA/themes/issues/22#issuecomment-6148093573) |
+| **#23 Ying Wang / China Unicom** | Restore-condition anchor, privilege state, service criticality, coverage and change notifications | Optional dependency/context requalification and insufficient restoration evidence | **En conversación; ofrecimiento EA opcional acogido expresamente** [Ying](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309), [change notifications](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6183549076) |
+| **#25 Gianpaolo Scalone / Vodafone** | Delegated protection and service-enforcement dependency | Early-warning context change for an existing restriction | **Ofrecido** in [Iván's comment](https://github.com/FG-TIDA/themes/issues/25#issuecomment-5918118296) |
+| **#34 ATHENA / Vodafone** | Telco-anchored identity and delegation across operators | Contextual reliance/assurance requalification | **Prospectivo**, a distinct newer [Vodafone Theme #34](https://github.com/FG-TIDA/themes/issues/34) |
+| **#26 Matias Salgado / CDA** | Native two-axis action/evidence state, policy/reference and atomic check-to-act result | Contextual/regime dependency gap affecting future reliance or next commit | **En conversación**, Matias discusses this precise boundary [here](https://github.com/FG-TIDA/themes/issues/26#issuecomment-6089010036) |
+| **#16 human oversight** | Review capacity, evidence presented, versioned decision, effect and response window | Qualification of decision-context/oversight-capacity sufficiency | **En conversación**, with source-owner/UC4 review separation [Lei](https://github.com/FG-TIDA/themes/issues/16#issuecomment-6019817298) |
+| **#1 accountability / #31 memory handoff** | Action provenance, original authority limitations and compressed context | Lost restriction or lineage / changed-context reliance cue | **Prospectivo** for EA outgoing profile; [#1](https://github.com/FG-TIDA/themes/issues/1), [#31](https://github.com/FG-TIDA/themes/issues/31) |
+| **#2 discovery / #29 governed connections** | Pathway/capability changes and connection acceptance/withdrawal | Changed evidence/pathway/connection reliance | **Prospectivo**; [#2](https://github.com/FG-TIDA/themes/issues/2), [#29](https://github.com/FG-TIDA/themes/issues/29) |
+| **#7/#27/#28 verifier-side obligations** | Check execution/appraisal/rejection semantics and coverage | Missing-check/changed applicability or relying-party reassessment cue | **Prospectivo** EA recipient route; [#7](https://github.com/FG-TIDA/themes/issues/7), [#27](https://github.com/FG-TIDA/themes/issues/27), [#28](https://github.com/FG-TIDA/themes/issues/28) |
+| **#11/#12 model trust / #35 supply chain** | Model/harness provenance, changing dependencies and evidence | Dependency/coverage/assurance-basis requalification | **Prospectivo**; [#11](https://github.com/FG-TIDA/themes/issues/11), [#12](https://github.com/FG-TIDA/themes/issues/12), [#35](https://github.com/FG-TIDA/themes/issues/35) |
+| **#3/#8/#14 governance and legal binding** | Trust/assurance/representation and jurisdictional references | Scope-bound reliance/standing/assurance-gap notice | **Prospectivo** EA output, source owner retains declaration |
+| **#10 network enforcement / #19 privacy** | Native control/effect and disclosure constraints | Contextual control-evidence sufficiency; recipient-authorised EA projection | **Prospectivo** EA output, no new power to enforce or disclose |
+| **#17 rights / #20 embodied binding** | Usage/right and actor-device-action source records | Changed usage/physical interaction reliance | **Prospectivo**, owner retains native semantics |
+| **#32 terminology / #37 trust moderators** | Vocabulary or moderated claim/evidence semantics | Relevant compatibility/interpretation gap | **Prospectivo**, no required EA adoption |
+
+**#13 framing and current-state separation.** Ward proposed the three-function framing on [8 October](https://mail.google.com/mail/u/0/#all/1a11b83e5a822d39); Nelson's and Iván's 13 October Word charter work describes F2 outputs and a **proposed D6** for F3. Ward's [15 October diagram](https://mail.google.com/mail/u/0/#all/1a13e8f7b9bfeabe) and Nelson's [review](https://mail.google.com/mail/u/0/#all/1a13ee828c10aabb) retain F1/F2/F3 distinctions. **The independent outward EA-to-external-subscriber edge is proposed for better visibility in the map, not as a missing invention in the charter.** A 05 Ideal output offer, a contributor's limited agreement, an operational adopter and a WG determination remain separate statuses.
+
+**Boundary:** This current-state ledger remains focused on **EA inputs and native EA outputs**. It intentionally does not map possible incremental F3 actions; the external email's executive comparison can discuss them separately. 05 Ideal vNext §7.5 continues to include prospectively valuable interfaces independent of what was already discussed with owners.
+
+
 ## 3. Ideal-to-current delta table
 
 | 05 Ideal item | Current 05A position as of 2 Oct 2026 | Reason |
