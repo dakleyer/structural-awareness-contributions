@@ -344,6 +344,23 @@ Select the study's object and authoritative reference first. Then use the instru
 
 For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.
 
+### Prospective diagnostic successor: complete the instrument contract
+
+The preregistered [validation plan v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md), its runs, and the v0.2 audit-candidate freeze retain their original contracts. A new instrument scope is registered as a successor before use. The following packet is required for the scope claiming instrument admission; it does not retroactively change those freezes.
+
+| Successor packet | Exact declaration and verification |
+|---|---|
+| Scope and freeze | Instrument/catalog/dependency versions, claimed levels, families/cases, applicability and activation rules, participant facts, private references, mutations, stopping rules, hashes and full dependency manifest. |
+| Expected outcomes | Gate-specific expected verdicts and positive, negative, boundary and fail-capable controls; justified NOT_APPLICABLE remains distinct from missing evidence/NOT_ESTABLISHED. |
+| Dependencies | Trace old14/current15 gates and old17 sections many-to-many by actual clauses. Typed requires/claim_requires/supports retain distinct semantics; ordinal equality is not correspondence. |
+| Sensitivity | Predeclared mutations and exclusions, expected changed/unchanged verdicts and recorded sensitivity. A suggested repair is a candidate to refreeze and readjudicate, not a guaranteed PASSES_IF rule. |
+| Reviewer exposure | Reviewer identity/role, material seen, timing and permitted private evidence. Same-author checks remain identified as such. |
+| Disputes and report | Gate, evidence, scope, reason, adjudicator and disposition for each disagreement; report unresolved conditions, exclusions, deferred B/C work and actual outcomes. An unresolved material dispute does not create acceptance. |
+| Promotion | State the prospective threshold, applicable portability/unseen-family question and required evidence. Reuse HF procedures only for rows whose source versions and scope match; an HF-specific preregistration is not generic admission. |
+
+SA-G08's finite-response/default rule and SA-G11's smallest affected disposition preserve parts of the earlier bounded-review duty. Old G-A13 and current SA-G13 have different meanings. Scope-specific completion of this packet is preparation for instrument admission, not a candidate technology result or an instruction to execute a campaign.
+
+
 
 ## 15. Recorded work and its owning reports
 

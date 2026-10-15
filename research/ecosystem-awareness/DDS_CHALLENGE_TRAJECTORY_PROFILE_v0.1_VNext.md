@@ -7390,7 +7390,7 @@ Conclude separately: **implementation outcome** (gates, actual effect, continuit
 
 **Source:** `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `88b78f386047a76e0e2da905bd951ada06e5602b`. **Location:** ## 14. Select the method profile and its instruments.
 
-**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+**State:** Applied — owner-authorized 15 October 2026. Source blob `ce38e7eca70410d8fbd7d7dbcf65665c6a353a25`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
 
 **Benefit:** Recovers useful freeze, sensitivity, exposure, dispute and promotion duties as an explicit scoped successor.
 
@@ -17686,7 +17686,7 @@ The rows below are the current plan-reading view. Historical entry flags such as
 | 101 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 | 102 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 | 103 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
-| 104 | Complete prospective instrument text; preserve existing validation plans, freezes and runs. | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| 104 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
 | 105 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 | 106 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) |
 | 107 | Applied; removed from the pending queue | [Existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) |
@@ -17877,3 +17877,8 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 ### Application 103 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; resulting source blob `eeeddc729a969440744fd142bea48532e3b4c1b7`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+### Application 104 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; resulting source blob `ce38e7eca70410d8fbd7d7dbcf65665c6a353a25`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.

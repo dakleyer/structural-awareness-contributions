@@ -5243,7 +5243,7 @@
       "packages": [
         "W07"
       ],
-      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "state": "Applied; removed from the pending queue",
       "impact": "Alto",
       "risk": "Medio",
       "effort": "Alto",
@@ -5263,7 +5263,17 @@
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
-      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "bbc1087e3439dc715efdec07819449e011829966",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "ce38e7eca70410d8fbd7d7dbcf65665c6a353a25"
+      }
     },
     {
       "id": 105,
@@ -16226,6 +16236,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "104",
+      "date": "2026-10-15",
+      "from_commit": "bbc1087e3439dc715efdec07819449e011829966",
+      "title": "Specify a prospective diagnostic-successor packet without rewriting preregistrations",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "before_blob": "eeeddc729a969440744fd142bea48532e3b4c1b7",
+          "after_blob": "ce38e7eca70410d8fbd7d7dbcf65665c6a353a25",
+          "bytes": 65423,
+          "sha256": "dfe4496fd1c80d6646fd5087037d50d2c5b86cb5bbeb4f3ac2e864cbbfaf7d8a"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "## 14. Select the method profile and its instruments",
+          "old_occurrences": 1,
+          "before_sha256": "54841b6f8dca76c6b951f0b8dcceffe62e0ed446184abd0079a6ef613c945e75",
+          "after_sha256": "c495ab42ff4f6d8465152b0d0ee345ad5c5be9d072daa8b7244b13c372f012c2",
+          "prefix_sha256": "80061cdcc5f386743c19fbec7e453330c8af3a8e736ab2b533222ebd16d81dc6",
+          "suffix_sha256": "1966a2b9e965983e6086f2efbd436654e2a1fce569a70d641fdd11e2a39a56dd",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18419,6 +18466,13 @@
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "eeeddc729a969440744fd142bea48532e3b4c1b7"
         },
         "from_commit": "d3d9c058e7e94946fe4dec6db1b8175b101ea625"
+      },
+      "104": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "ce38e7eca70410d8fbd7d7dbcf65665c6a353a25"
+        },
+        "from_commit": "bbc1087e3439dc715efdec07819449e011829966"
       }
     }
   }
