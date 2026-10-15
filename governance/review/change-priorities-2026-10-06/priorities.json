@@ -5291,7 +5291,7 @@
       "packages": [
         "W04"
       ],
-      "state": "Prepared literal proposal; pending named wave/passage decision",
+      "state": "Applied; removed from the pending queue",
       "impact": "Alto",
       "risk": "Medio",
       "effort": "Medio",
@@ -5312,7 +5312,17 @@
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "instructions": "Iván,15 October2026: detail the plan with complete text before/text after inside existing VNext before execution; preserve earlier information.",
-      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved."
+      "acceptance": "One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "b80969c8be13d7b5b710870457b1474ac8dc9880"
+      }
     },
     {
       "id": 107,
@@ -15888,6 +15898,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "106",
+      "date": "2026-10-15",
+      "from_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902",
+      "title": "Keep retired 00J handoff, repair and branch denominators as distinct prospective profiles",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+          "before_blob": "fb51d5af38c53b47587a84c6aa170f819e210f88",
+          "after_blob": "b80969c8be13d7b5b710870457b1474ac8dc9880",
+          "bytes": 8365,
+          "sha256": "be46b9ae43681d99bbc938807e880494d390802f07d23a252ec119c8fe09d626"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "## Success-case route",
+          "old_occurrences": 1,
+          "before_sha256": "1a4928b557db59bca871d147bc99741bdc324ac0b3b3e63ead6b9e445bf6a42a",
+          "after_sha256": "3244d8a1971c35887bb431b43a6eaa2ca0ab19e479019817300a1197e74b8032",
+          "prefix_sha256": "5c21c90810cb287e9207cdd8355c6f99502ec073d84b82380f830bd568bc831b",
+          "suffix_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18025,6 +18072,13 @@
           "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "fb51d5af38c53b47587a84c6aa170f819e210f88"
         },
         "from_commit": "c28537820f3041702f6f782f69c9f24f4382e5d1"
+      },
+      "106": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md": "b80969c8be13d7b5b710870457b1474ac8dc9880"
+        },
+        "from_commit": "d5d02ddf96f49230c053af5f9c7c8e55ef05a902"
       }
     }
   }
