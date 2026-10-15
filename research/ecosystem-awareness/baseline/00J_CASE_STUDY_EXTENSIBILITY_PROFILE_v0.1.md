@@ -54,6 +54,17 @@ Additional:
 
 The family retains positive controls for legitimate transfer and independent creation; universal blocking is not a valid pass.
 
+### Selected successor controls and source-policy fields
+
+For a prospective 00J-family instantiation, declare whether the following historically explicit controls apply; freeze their actual facts and expected outcomes before testing. They supplement the selected profile rather than silently amend the old v0.1 fixture or its numbered controls.
+
+- **Source-policy record:** bind the original author/principal, work identifier, source/issuer, policy, effective time/validity, permitted/prohibited machine uses, obligations and expiry/revalidation rule. In the earlier rights instantiation, bounded RAG was conditionally permitted while training/permanent incorporation was denied, with attribution and bounded retention. Those are fixture facts, not a general legal conclusion for other sources.
+- **Non-curative human approval:** a reviewer approves a downstream claim while source lineage remains unresolved. Preserve that approval as a bounded intervention; it supplies neither the missing lineage nor broader rights authority. A different outcome needs actual new evidence/current authority, not the approval label alone. This recovers historical J-C5 without renaming the current C5 stale-record control.
+- **Repair with history:** a challenged erroneous downstream claim is corrected for future decisions while the original source record, generation claim and downstream claim remain reconstructable. Verify legitimate continuity and the owner's applicable intervention; do not replace prior evidence with the repaired result.
+
+Retain legitimate transfer, independent work, correlated-copy, unresolved downstream-use, stale-record and re-entry controls. A strong conventional mechanism receives the same credit and resources as any EA proposal.
+
+
 ## 3. Upward / vertical extensibility
 
 **Strong extensions:**

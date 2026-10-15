@@ -1494,7 +1494,7 @@ Iván requests complete literal before/after before execution. The [joint source
 
 **Source:** `research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `e35dd8e39d1914f9c59a78e520b4de58cb8be1ed`. **Location:** ## 2. Inherited requirement route.
 
-**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Medio.
+**State:** Applied — owner-authorized 15 October 2026. Source blob `fb51d5af38c53b47587a84c6aa170f819e210f88`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Medio.
 
 **Benefit:** Preserves useful old policy, human-approval and repair obligations in the maintained family interface.
 
@@ -1687,3 +1687,8 @@ The successful pattern is **valid narrow evidence stays narrow until a justified
 
 
 **Verified application commits — 01_clarity:** [94](https://github.com/dakleyer/structural-awareness-contributions/commit/3cdede020c82bf25dbf5f3906ad30b9186dca69a).
+
+
+### Application 105 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md`; resulting source blob `fb51d5af38c53b47587a84c6aa170f819e210f88`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
