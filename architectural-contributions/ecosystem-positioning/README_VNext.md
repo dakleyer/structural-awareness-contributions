@@ -2576,3 +2576,16 @@ All 1 exact reviewed passage(s) are incorporated in `presentations/ecosystem-pos
 
 All 4 exact reviewed passage(s) are incorporated in `README.md`, blob `baf0696990e241518b48929b6385767ab1455404`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/architectural-contributions/ecosystem-positioning/README_VNext.md#change-131--route-programme-readers-to-the-repaired-split-decks-and-identify-the-historical-pdf) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `6b4a635446754d3b7135a9a52bd77995161305aa` byte for byte. No presentation, result or code is changed.
 
+
+
+## Applied presentation repairs and the next translation finding — 15 October 2026
+
+130,132,131 are applied serially in main at `da2f098ae7d0cb9670d672736dcd897f223eb99d`. The complete six source pairs were public first at `6d49be9c62c0dd889a6757ba0eb050e24b4c1162`.130 adds the optional protection example;132 preserves both previous v1.1 destinations in the existing manifest;131 updates only six root hrefs and the PDF's historical label. Every source-wide inverse and four-file public application readback passed. The five actual public presentation targets were separately read back exactly; no binary was edited. Their applied cards are retired from pending.
+
+The automatic publication check initially rejected132 under the older canonical-read-only instruction. Reconsideration of the same action used Iván's later canonical-application and current extension instructions plus the exact append-only diff. It then approved the same132 publication; no bypass or extra scope was used.
+
+C's sealed semantic frontier is215/705 content events adjudicated and490 pending, separate from20 binary events. Its newest useful loss is a mistranslated self-review instruction in the active R01 continuation. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#continued-r01-history-and-the-self-review-translation--15-october-2026) records133's full current/proposed paragraph and pinned original. It is a high-impact, low-risk one-sentence correction. A's remaining reader/router cohort, D's root/control/DAOS history and the remaining C/media work stay open.
+
+
+C's next sealed cohort adds52 contextual judgments:267 of705 events are now adjudicated and438 remain. Full Differential, Mathematical Feasibility, Continuation, WORKPLAN and Strategic-master histories retain all55 historical acceptance criteria through current theorem/protocol/M16–M17/C02–C11–T03 receivers. Superseded M12/delivery scheduling is not reinstated.133 is the only new useful clause loss identified there.
+

@@ -1889,3 +1889,43 @@ A6 completes the Foundation/Gradient/01K/A01 historical block:78 examined units,
 
 The [EP owner](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#human-capacity-and-presentation-follow-on-repairs--15-october-2026) records actual v1.1/v1.2 slide/link reception, the historical PDF and exact131/132 navigation proposals. Both old deck destinations remain available before the main route advances. C's latest semantic ledger has178/705 events adjudicated and527 pending, separate from20 binary events. Full-body custody alone is not its reception verdict.
 
+
+
+## Continued R01 history and the self-review translation — 15 October 2026
+
+C's third sealed cohort has215 of705 text/code events contextually adjudicated and490 still pending;20 binary events are separate. Its initial135 exact-blob cases were custody coverage, not135 semantic verdicts. Complete-original evidence is useful, but contextual reception remains explicit for each ID.
+
+All seven retirement events of the R01 theorem have been read through the current English receiver. Paid-prior/producer accounting, all-policy quantifiers, receipt timing, AVG/WC distinctions and open review duties remain. Reciprocal-multiplier, send/receive-charge and private-evaluator repairs are valid corrections. The examined extension records retain original outcomes, cost units and separate control cohorts; successor diagnostics do not rescore frozen cases.
+
+HF's complete pre-audit v0.1 records retain their historical wording, while current v0.2/v0.3 routes carry the audit downgrade and pending-acceptance duties. N10 remains post-audit/unscored, rather than being silently moved into the N0–N9 freeze. Two historical manifest/document binding discrepancies remain recorded; frozen hashes are not rewritten.122/126/127/129 are already applied and are not new losses here.
+
+The next source-history block finds one genuine translation error in the active continuation: Spanish “otra revisión propia” became English “another author's review”.133 repairs that sentence only, preserving M16/M17/P08 and the current staged sequence. C's remaining HF/code/history work continues; this does not close the corpus.
+
+C's next sealed cohort adds52 contextual judgments:267 of705 events are now adjudicated and438 remain. Full Differential, Mathematical Feasibility, Continuation, WORKPLAN and Strategic-master histories retain all55 historical acceptance criteria through current theorem/protocol/M16–M17/C02–C11–T03 receivers. Superseded M12/delivery scheduling is not reinstated.133 is the only new useful clause loss identified there.
+
+### Change 133 — Restore the self-review boundary in the R01 continuation translation
+
+**State:** checked by C and root, authorised by the current restoration instruction, not yet applied. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md`, blob `ee08b6f9048738a68f835165a0bf5312c536bbdf` at `da2f098ae7d0cb9670d672736dcd897f223eb99d`. The full current paragraph occurs once.
+
+**Text before — complete current paragraph**
+
+~~~~markdown
+M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another author's review independent.
+~~~~
+
+**Text after — complete proposed paragraph**
+
+~~~~markdown
+M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another self-review independent.
+~~~~
+
+**Reason:** Restores the original prohibition on presenting another self-review as independent, instead of misapplying it to another author. The [Spanish original](https://github.com/dakleyer/structural-awareness-contributions/blob/275d78822a40b2d887909a018c26f047df1a6cc2/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md) says “No llamar independiente a otra revisión propia.” The [first English edition](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md) introduced the another-author wording. C identified the loss; root separately read the full Spanish/current English bodies, checked the three commit trees/blobs and the sentence meaning. This is an internal source/translation review.
+
+**Risk and effort:** Only the final sentence changes. M16 received-coverage-first, M17 fidelity and P08 historical-hash instructions, task statuses, mathematics and all other source bytes stay intact. Read the full Spanish and current English continuation, authenticate first-English/current history and verify the complete paragraph and source-wide inverse.
+
+**Dependencies:** Spanish source275d78822a40b2d887909a018c26f047df1a6cc2/3bf375d73d7ac68cd67cd861c74ae9cd6fa5ea9b; Existing baseline VNext owner; No change to the active work sequence or review-acceptance status.
+
+**Iván's instruction and decision:** apply the same historical damage-control process to the remaining corpus with exact published VNext pairs and surgical preservation checks. This repairs the quoted sentence; current M16/M17/P08 obligations retain their status.
+

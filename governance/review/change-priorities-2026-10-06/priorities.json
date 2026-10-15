@@ -1,5 +1,5 @@
 {
-  "version": "1.45",
+  "version": "1.46",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7681,6 +7681,103 @@
       "application_from_commit": "5984cbe79573451e781e4a889ea48cb2ec633ab7",
       "applied_source_blob": "853484c33ea9d03db27f6f12b51ee86793a1581c",
       "published_pair_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162"
+    },
+    {
+      "id": 133,
+      "title": "Restore the self-review boundary in the R01 continuation translation",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+      "source_sha": "ee08b6f9048738a68f835165a0bf5312c536bbdf",
+      "source_commit": "da2f098ae7d0cb9670d672736dcd897f223eb99d",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another author's review independent.",
+      "after": "M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another self-review independent.",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Continued historical translation repairs",
+      "state": "Source/history checked by C and root; authorised exact repair, not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "Restores the original prohibition on presenting another self-review as independent, instead of misapplying it to another author.",
+      "riskReason": "Only the final sentence changes. M16 received-coverage-first, M17 fidelity and P08 historical-hash instructions, task statuses, mathematics and all other source bytes stay intact.",
+      "costReason": "Read the full Spanish and current English continuation, authenticate first-English/current history and verify the complete paragraph and source-wide inverse.",
+      "dependencies": [
+        "Spanish source275d78822a40b2d887909a018c26f047df1a6cc2/3bf375d73d7ac68cd67cd861c74ae9cd6fa5ea9b",
+        "Existing baseline VNext owner",
+        "No change to the active work sequence or review-acceptance status"
+      ],
+      "preparation": "C established source-first finding; root read both complete language versions and authenticated all three pinned editions. Exact one-sentence change and full-source inverse verified.",
+      "gate": "Apply only the published paragraph; public exact readback. No named review is certified independent by this repair.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "evidence": {
+        "schema": "PRIVATE-C3-EXACT-SURGICAL-PROPOSAL",
+        "id": "C3-P03",
+        "date": "2026-10-15",
+        "source_first_sealed_at_utc": "2026-10-15T15:09:31.889663+00:00",
+        "state": "PROPOSED_NOT_APPLIED",
+        "event_id": "C-S0510",
+        "problem": "Spanish self-review prohibition translated into a prohibition about another author. This deletes the specific self-review instruction and wrongly disqualifies review by another author.",
+        "spanish_original": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+          "commit": "275d78822a40b2d887909a018c26f047df1a6cc2",
+          "blob": "3bf375d73d7ac68cd67cd861c74ae9cd6fa5ea9b",
+          "sha256": "6f0fd053c4f25771b0a096033c1ede05474cfd56a5953571e4dac48dd615c6a3",
+          "bytes": 4390,
+          "ls_tree_then_cat_file": true
+        },
+        "spanish_original_complete_paragraph": "M16 registra primero la cobertura externa recibida y luego solo lo que falte; M17 conserva la auditoría de fidelidad pendiente sin desconocer el puente ya desarrollado; P08 verifica ediciones actuales sin sobrescribir hashes históricos. No llamar independiente a otra revisión propia.",
+        "spanish_original_line": 11,
+        "first_english_receiver": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+          "commit": "eccb5f24467f073d7f411485bffc5e5cec4c335f",
+          "blob": "38ddbf961aa43bc911694e42041f77a9cdb3b49b",
+          "sha256": "4297ea20a354c6b1aba1a3211e008194d6f69b70cc343ac88e19ff08c7abc864",
+          "bytes": 4441,
+          "ls_tree_then_cat_file": true
+        },
+        "current_receiver": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+          "commit": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+          "blob": "ee08b6f9048738a68f835165a0bf5312c536bbdf",
+          "sha256": "8d93791b8528b69934e64f0c37157c3bd8ebe945bc965c2627d7997b235bea9b",
+          "bytes": 4605,
+          "ls_tree_then_cat_file": true
+        },
+        "current_line": 11,
+        "text_before_complete_paragraph": "M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another author's review independent.",
+        "text_after_complete_paragraph": "M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another self-review independent.",
+        "only_change": {
+          "before": "Do not call another author's review independent.",
+          "after": "Do not call another self-review independent."
+        },
+        "existing_unique_owner": {
+          "path": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "commit": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+          "blob": "0cc3fa994a3b15ff9f407293bca3977d6361e2ab",
+          "sha256": "12cfecbc86ee5cfb2d9c78dafd0eaed1c50b2ec80e8f00fb6b2b0b775e1a7458",
+          "bytes": 222402,
+          "ls_tree_then_cat_file": true
+        },
+        "owner_rationale": "No VNext exists for this continuation prompt or R01 root. Existing baseline README_VNext has already received bounded R01 corpus-custody repairs122/129; route this single source restoration there without creating a new owner. Root confirms final routing.",
+        "impact": "High: restores correct independent-review boundary and avoids rejecting another author merely by identity.",
+        "risk": "Low: one sentence only; all other current paragraph/source bytes retained.",
+        "effort": "Low: exact literal replacement and inverse/readback; no execution or result changes.",
+        "dependencies": [
+          "Preserve M16 received-coverage-first rule, M17 fidelity obligation and P08 frozen-hash rule in same paragraph.",
+          "Do not change mathematical proof, current task statuses, code, frozen results or source receipts.",
+          "Use current main source blob and verify one exact occurrence before application."
+        ],
+        "scientific_scope": "Documentary translation repair only; does not establish that a particular second author is independent or close M16."
+      }
     }
   ],
   "audit_coverage": [
@@ -8917,7 +9014,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "49bfb427d0b4829469126c35e66deaf5263787c1",
+  "review_source_commit": "da2f098ae7d0cb9670d672736dcd897f223eb99d",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -21848,6 +21945,36 @@
       "binary_events_separate": 20,
       "whole_corpus_semantic_review_complete": false,
       "plan_sha256": "edfd433d1cb2c95d8c8c98584443a46b94e846f9b686baf3ad8739c90a5b6acc"
+    },
+    {
+      "date": "2026-10-15",
+      "base": "da2f098ae7d0cb9670d672736dcd897f223eb99d",
+      "entries": [
+        133
+      ],
+      "literal_pairs": 1,
+      "reviewers": [
+        "C",
+        "root source/translation verification"
+      ],
+      "C_content_events_adjudicated": 215,
+      "C_content_events_pending": 490,
+      "binary_events_separate": 20,
+      "whole_corpus_semantic_review_complete": false,
+      "plan_sha256": "221b4520e76cf57480b9ea05c02e275c106dfa1d62598391b4187eccf56cfbeb"
+    }
+  ],
+  "rest_of_corpus_contextual_review_epochs": [
+    {
+      "date": "2026-10-15",
+      "reviewer": "C3 cohort02",
+      "content_events": 705,
+      "adjudicated": 267,
+      "pending": 438,
+      "custody_only_pending": 102,
+      "binary_events_separate": 20,
+      "new_loss": "C3-P03/133",
+      "whole_corpus_semantic_review_complete": false
     }
   ]
 }
