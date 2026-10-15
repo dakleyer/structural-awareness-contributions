@@ -636,7 +636,7 @@ Evidence maturity and Stage identity are orthogonal. A Stage A profile may conta
 
 ## 10A. Namespace safety for cross-corpus review
 
-Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs. In UC-21, R0/R1/R2 name implementation routes, HC/HR/HS select claims, and A–D name causal trial conditions. S3’s robot actors R1/R2 and S6’s original rights record R0 belong to different local namespaces. S1’s I1/I2/O1/O2 failure-position codes are distinct from AWS configuration names. Use the case conventions and the source profile together before mapping these labels into DDS.
 
 - **DDS `I/M/P/Ø`** are route/outcome classes in this profile. They are not mutation IDs.
 - **R01 `M/I/P`** retain the source-native R01 route semantics; DDS may crosswalk them but does not silently rename historical results.

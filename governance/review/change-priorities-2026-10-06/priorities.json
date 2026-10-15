@@ -4811,7 +4811,7 @@
       ],
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
       "heading": "Second-pass candidate95 — case namespaces in DDS",
-      "state": "Prepared — pending named Ivan GO",
+      "state": "Applied; removed from the pending queue",
       "impact": "Medio",
       "risk": "Bajo",
       "effort": "Bajo",
@@ -4824,8 +4824,18 @@
       "gate": "Ivan approves candidate95 exact paragraph; this clarity addition does not close the case run/HR bridge.",
       "date": "2026-10-14",
       "preparation": "Source-first findings combined; full original/proposed paragraph, unique predecessor",
-      "decision_ready": true,
-      "authorized_to_apply": false
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md": "47514afea5a968c4a934012150707df509c7a5aa"
+      }
     },
     {
       "id": 96,
@@ -14923,6 +14933,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "95",
+      "date": "2026-10-15",
+      "from_commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a",
+      "title": "Clarify UC-21 claim, condition and route namespaces in the existing DDS paragraph",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+          "before_blob": "e636346c46c49cb81ecc7f84ec9c792e9729cc95",
+          "after_blob": "47514afea5a968c4a934012150707df509c7a5aa",
+          "bytes": 58679,
+          "sha256": "71eb69686a8222988c7c52837829cbbafddc4133aa95f77d82b3d49b5b09a61f"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "10A Namespace safety — complete opening paragraph",
+          "old_occurrences": 1,
+          "before_sha256": "b7669ad3e61a631d2371ab5974a89bea1a00114ba9cc17c4cff0c87853ab59db",
+          "after_sha256": "6d739bf711cada4527852d0d5e5d2de836246dc3e9bb7b6e3b5ef7a147f933f3",
+          "prefix_sha256": "f4d8d145ac628b2701c0e3276949bba1429ca033ecbe8ed0e2f9b91de85ea7c1",
+          "suffix_sha256": "b51d83d72c851b437199fa878ff388b617c3ef7d2fc07e2af21420ae2c4436ab",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -16917,6 +16964,13 @@
           "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md": "8ec757d73638ed6464dfaa33861cf3d35e665797"
         },
         "from_commit": "03fb2f44b5c911db7e2b68f9e489c46f3499e2e2"
+      },
+      "95": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md": "47514afea5a968c4a934012150707df509c7a5aa"
+        },
+        "from_commit": "3cdede020c82bf25dbf5f3906ad30b9186dca69a"
       }
     }
   }
