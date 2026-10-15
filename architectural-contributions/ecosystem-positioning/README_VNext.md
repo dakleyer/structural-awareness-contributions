@@ -2650,3 +2650,12 @@ A's source assignment is complete for historical preservation:114 paths,1,734 re
 The 23 public branch/tag references were checked too:15 tips are already reachable from main and eight retain distinct development/superseded histories. Their absence from main is not treated as proof of deletion or permission to merge. Their material source roles and any current use remain separate from formerly published main history. No branch was reset, removed or adopted.
 
 Additional source and control cohorts still prevent whole-corpus closure. D continues its aliases/interfaces/containers, C continues substantive audit sources, and B separately examines historical VNext/control retirements. Their later findings may reopen a specific relationship. This closes the original assigned source queues, not those additional cohorts or the earlier scientific five/six-pass programme.
+
+
+## Historical reception: source coverage and a review-format repair — 15 October 2026
+
+The additional R01/Flores source cohort is complete: C examined all 93 events and their 302 retired units, including the full audit/control changes, old verifier and actual corrective receivers. The documented corrections preserve the earlier records while separating reproduction, dependencies, blind chronology and scientific acceptance. No further restoration was identified in that cohort.
+
+The identity join now compares every source event by commit, parent and path. It prevents the 176 overlapping assignments from inflating coverage. Remaining source/container questions and the separate review/control history are still being resolved; an assignment or an exact copy alone does not count as a substantive reading.
+
+One real navigation defect is in the existing Extensions VNext. An orphaned four-backtick line makes GitHub display later audits and the applied127 receipt as code. [137 in the baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) publishes the two exact passages: remove five delimiter bytes and add the dated receipt. This is a bounded repair of audit readability, with high reading impact and low risk/effort. EP’s apparent fence warning was only a parser limitation; its public headings already render correctly.

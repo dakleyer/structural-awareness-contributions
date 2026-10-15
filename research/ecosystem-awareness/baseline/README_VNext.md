@@ -1989,3 +1989,57 @@ C3 completed all 705 original text/code events in 254 paths, with zero custody-o
 C's new audit-source cohort is 60/93 complete at its third sealed cut: current common criteria, continuity and deep audit, HF provenance/audit-corrected editions and checker/result histories retain their material cautions and corrections. No further repair has been established there. Static allowlists and CI runs are kept within their actual mechanical scope. D's continuing source cohort and B's control-history judgments remain separate; queue completion is not pooled as independent validation.
 
 135 is applied at `cbd9e4c9d90477d8e0f9f5538a09fbff8057980c`, with its primary integer/result untouched.136 is applied at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`, after Iván's exact decision “Autorizar 136 en esa hoja”. The complete old/proposed 136 paragraph remains in [its preparation edition](https://github.com/dakleyer/structural-awareness-contributions/blob/4be747b295bd75bbc1517ffee8a3913d1dd5397d/research/ecosystem-awareness/baseline/README_VNext.md#change-136--restore-described-access-to-two-retired-a21-constructions). Neither item remains pending. No historical proof, normalizer, source result or program was restored or executed by 136.
+
+
+### Change 137 — Restore Extensions audit readability
+
+**State:** prepared; separate verification precedes application. **Expected impact:** Alto for reading the audit. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md`, blob `f4723948090e3a1a050fe9d2003a3bb6bf09a241` at `887eb776e6bd8d7dceb16e0fa9140f85898acdf1`. The applied tranche-5 card retirement at `9fb9421711521decde6843b04914a143a1f04c35` removed its opening quotation delimiter and left the closing delimiter. GitHub consequently renders the later audits as code. The repair removes only that orphaned line and adds the dated receipt. The applied card stays retired.
+
+**Pair 1 — complete text before**
+
+`````markdown
+A repeated original or replay is a linked execution of that evidence, not another independent observation. Passing the registered expectation may mean a correctly retained failure or incomplete outcome. Keep the study's case count, eligible diagnostic denominator and selected cost unit with its conclusion.
+````
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+`````
+
+**Complete text after**
+
+`````markdown
+A repeated original or replay is a linked execution of that evidence, not another independent observation. Passing the registered expectation may mean a correctly retained failure or incomplete outcome. Keep the study's case count, eligible diagnostic denominator and selected cost unit with its conclusion.
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+`````
+
+**Pair 2 — complete text before**
+
+`````markdown
+No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.
+
+
+`````
+
+**Complete text after**
+
+`````markdown
+No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.
+
+
+
+## Readability repair — 15 October 2026
+
+Change 137 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its former paired quotation remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#plan-pendiente--linaje-originalcostetiposreparación). GitHub rendered the later audits and applied receipts as code at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`; removing that line restores their headings, tables and links. All substantive text remains. The [existing baseline review](../../../README_VNext.md#change-137--restore-extensions-audit-readability) owns the complete reviewed pair and conservation check.
+
+`````
+
+**Reason and benefit:** Restore normal headings, tables and working links for the audits after the orphaned line, including the applied127 receipt.
+
+**Risk and effort:** Remove exactly four backticks and their LF, then append only the reviewed receipt. Every substantive byte remains. This is an intentional five-byte exception to the old VNext prefix, checked by exact inverse. Trace the delimiter to its actual retirement commit, compare full literal context and whole-file inverse, and check real GitHub rendering before and after.
+
+**Iván’s instruction:** restore useful reception surgically, publish the complete old/proposed passages first and retire the applied item. Existing controls and the unique owning VNext are reused. The historical source retains both delimiter bytes in Git history; no research text, result or programme is changed. Both whole-file substitutions must reverse exactly, and the live GitHub audit headings must render normally.
+
