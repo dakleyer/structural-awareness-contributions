@@ -1,5 +1,5 @@
 {
-  "version": "1.68",
+  "version": "1.69",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -9905,7 +9905,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "1f65fbfbb17d29499e2b11657f579a2a01ff38de",
+  "review_source_commit": "7d74647594db68112f62430ce4a7694c0243e827",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -23440,6 +23440,40 @@
       "source_originals_and_results_unchanged_outside_exact_authorised_pairs": true,
       "whole_corpus_semantic_review_complete": false,
       "older_five_six_pass_programme_closed": false
+    }
+  ],
+  "rest_of_corpus_final_preservation_epochs": [
+    {
+      "date": "2026-10-15",
+      "checked_cut": "7d74647594db68112f62430ce4a7694c0243e827",
+      "base": "9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab",
+      "paths": 2396,
+      "changed_existing_paths": 48,
+      "unchanged_blobs": 2348,
+      "new_deleted_moved_files": 0,
+      "source_documents": 12,
+      "source_pairs": 19,
+      "review_files": 4,
+      "review_pairs": 11,
+      "literal_pairs": 30,
+      "whole_source_inverses": true,
+      "whole_VNext_append_predecessors_exact": 8,
+      "concurrent05_05A_retained_exact": true,
+      "original_JSON_entry_tokens_byte_identical": 121,
+      "original_CSV_prefix_retained": true,
+      "visible_GFM_Markdown_files": 1040,
+      "visible_repository_target_occurrences": 15994,
+      "new_missing_file_directory_targets": 0,
+      "inherited_missing_context_occurrences": 3398,
+      "source_code_result_binary_changes": 0,
+      "unresolved_source_units": [
+        1475,
+        1479,
+        1480,
+        1482
+      ],
+      "138_applied": false,
+      "whole_corpus_semantic_review_complete": false
     }
   ]
 }
