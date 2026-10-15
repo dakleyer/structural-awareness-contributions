@@ -419,7 +419,7 @@ The Architectural Role supplies the focal structural binding used by the cycle:
 - authority/delegation references;
 - validity/capacity constraints.
 
-These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **what this participant actually does** rather than relative to the whole MSCA indiscriminately.
+These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **the function assigned to this participant under the bound Architectural Role** rather than relative to the whole MSCA indiscriminately.
 
 The role object remains static. Supplying it as context does not itself change the role.
 

@@ -130,31 +130,7 @@ Reviewer A compared the complete Role source and its nine retired units with cur
 
 Change125 selects a narrower variant than A's longer suggestion: replace only that phrase with the assigned bound function. The explanatory observation/drift sentence stays here in the audit. D checked the complete source and receivers; fields, authority and dynamic ownership remain as defined today.
 
-### Change 125 — Align the role producer with the assigned bound function
+### Change 125 — Applied 15 October 2026
 
-**State:** independently reviewed, authorised by the current restoration instruction; not yet applied. **Priority:** Siguiente. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo.
-
-Source `standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md`, blob `9f6aef99c9f65888f10ce4b27f2e081388f3403c` at `be96b051e0eff116f440e478b97eab0483972fd3`. Every old passage below occurs once.
-
-**Passage 1 — text before, complete**
-
-~~~~markdown
-These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **what this participant actually does** rather than relative to the whole MSCA indiscriminately.
-~~~~
-
-**Passage 1 — text after, complete**
-
-~~~~markdown
-These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **the function assigned to this participant under the bound Architectural Role** rather than relative to the whole MSCA indiscriminately.
-~~~~
-
-**Reason:** Aligns the static role producer with01C and Operation, keeping observed behaviour separate.
-
-**Risk:** Replace only the ambiguous phrase. No field, authority or dynamic-classification owner changes.
-
-**Effort:** Read Role,01C and Operation receiver clauses; check full-source inverse and links.
-
-**Dependencies:** 01C ArchitecturalRole_i static/declared role; Operation bound/effective role comparison.
-
-**Iván's instruction:** complete the same historical damage-control process across the remaining corpus, using independent source review, exact VNext pairs, prioritised surgical repairs and full preservation checks. This candidate changes only its quoted text.
+All 1 exact reviewed passage(s) are incorporated in `standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md`, blob `64d521e28eba0d4c751408257cdfaab19879d66e`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/5105bb4709382834987bfa0ce77806ed4d56bd21/standards/minimum-sufficient-control/02_ROLE_VNext.md#change-125--align-the-role-producer-with-the-assigned-bound-function) remain in the published review predecessor. This item is removed from the pending queue. Reversing only those substitutions recovers source predecessor `9f6aef99c9f65888f10ce4b27f2e081388f3403c` byte for byte.
 

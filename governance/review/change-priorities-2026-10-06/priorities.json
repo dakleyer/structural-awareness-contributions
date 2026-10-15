@@ -1,5 +1,5 @@
 {
-  "version": "1.36",
+  "version": "1.37",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6885,14 +6885,22 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Continued rest-of-corpus historical damage control",
-      "state": "Independently reviewed and authorised; not yet applied",
-      "application_status": "planned",
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
       "decision_ready": false,
-      "authorized_to_apply": true,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
-      "preparation": "Exact full passages and source/receiver context independently checked; full-file inverse verified.",
-      "gate": "Apply only the reviewed substitutions under the current restoration instruction.",
-      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
+      "preparation": "Every reviewed passage applied; composed full-source inverse exact.",
+      "gate": "Applied under the current instruction; no reapplication pending.",
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "07f50661abe51d83598005e2c967d718de2ec52a",
+      "applied_source_blob": "64d521e28eba0d4c751408257cdfaab19879d66e",
+      "published_pair_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21"
     },
     {
       "id": 126,
@@ -8264,7 +8272,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "27e6cf5588b13a3ed570f3ac7d070237eb9234d9",
+  "review_source_commit": "07f50661abe51d83598005e2c967d718de2ec52a",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -15160,6 +15168,29 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Continued historical restoration 125 applied",
+      "source_commit": "07f50661abe51d83598005e2c967d718de2ec52a",
+      "proposal_assessments": [
+        {
+          "id": 125,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Every reviewed passage applied; composed full-source inverse exact.",
+          "gate": "Applied under the current instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "9f6aef99c9f65888f10ce4b27f2e081388f3403c",
+            "after_blob": "64d521e28eba0d4c751408257cdfaab19879d66e",
+            "before_unique": true,
+            "exact_inverse": true,
+            "literal_pairs": 1
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -20905,6 +20936,18 @@
       "exact_inverse": true,
       "pair_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
       "source_bytes_delta": 15
+    },
+    {
+      "id": 125,
+      "date": "2026-10-15",
+      "from_commit": "07f50661abe51d83598005e2c967d718de2ec52a",
+      "source": "standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md",
+      "before_blob": "9f6aef99c9f65888f10ce4b27f2e081388f3403c",
+      "after_blob": "64d521e28eba0d4c751408257cdfaab19879d66e",
+      "literal_pairs": 1,
+      "exact_inverse": true,
+      "pair_commit": "5105bb4709382834987bfa0ce77806ed4d56bd21",
+      "source_bytes_delta": 41
     }
   ],
   "rest_of_corpus_followon_epochs": [
