@@ -1202,3 +1202,6 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 ### Application 111 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; resulting source blob `f511c309fca30942deff376d9b52fb301c3c64b2`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+**Verified application commits — 07_uc21_contract_and_reader:** [111](https://github.com/dakleyer/structural-awareness-contributions/commit/b3c01574754454d37ad1f4107ecbd0ac47c50429).

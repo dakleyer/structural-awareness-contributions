@@ -17897,3 +17897,6 @@ For 97, the checked source passage is the EP README's closing passage. The propo
 ### Application 92 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 10 complete literal replacements to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; resulting source blob `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+**Verified application commits — 07_uc21_contract_and_reader:** [103](https://github.com/dakleyer/structural-awareness-contributions/commit/bbc1087e3439dc715efdec07819449e011829966), [104](https://github.com/dakleyer/structural-awareness-contributions/commit/18e361778c755ec2f24ecf026e99747bf39359c3), [111](https://github.com/dakleyer/structural-awareness-contributions/commit/b3c01574754454d37ad1f4107ecbd0ac47c50429), [112](https://github.com/dakleyer/structural-awareness-contributions/commit/638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9), [92](https://github.com/dakleyer/structural-awareness-contributions/commit/c7f6e3d0037e1370197cfce93c6f5d0436dedbac).

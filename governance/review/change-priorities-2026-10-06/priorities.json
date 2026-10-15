@@ -4725,7 +4725,8 @@
       "application_from_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9",
       "applied_source_blobs": {
         "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f"
-      }
+      },
+      "applied_commit": "c7f6e3d0037e1370197cfce93c6f5d0436dedbac"
     },
     {
       "id": 93,
@@ -5233,7 +5234,8 @@
       "application_from_commit": "d3d9c058e7e94946fe4dec6db1b8175b101ea625",
       "applied_source_blobs": {
         "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "eeeddc729a969440744fd142bea48532e3b4c1b7"
-      }
+      },
+      "applied_commit": "bbc1087e3439dc715efdec07819449e011829966"
     },
     {
       "id": 104,
@@ -5283,7 +5285,8 @@
       "application_from_commit": "bbc1087e3439dc715efdec07819449e011829966",
       "applied_source_blobs": {
         "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "ce38e7eca70410d8fbd7d7dbcf65665c6a353a25"
-      }
+      },
+      "applied_commit": "18e361778c755ec2f24ecf026e99747bf39359c3"
     },
     {
       "id": 105,
@@ -5649,7 +5652,8 @@
       "application_from_commit": "18e361778c755ec2f24ecf026e99747bf39359c3",
       "applied_source_blobs": {
         "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md": "f511c309fca30942deff376d9b52fb301c3c64b2"
-      }
+      },
+      "applied_commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429"
     },
     {
       "id": 112,
@@ -6147,7 +6151,8 @@
       "applied_source_blobs": {
         "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "39f2ac08d6a2a07227f9595eaec4537b61be16f4"
       },
-      "custody_applied_commit": "94abab6bc9b98f811df39e820a59864bc451f315"
+      "custody_applied_commit": "94abab6bc9b98f811df39e820a59864bc451f315",
+      "applied_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9"
     },
     {
       "id": 113,
@@ -16208,7 +16213,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "bbc1087e3439dc715efdec07819449e011829966"
     },
     {
       "key": "104",
@@ -16245,7 +16251,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "18e361778c755ec2f24ecf026e99747bf39359c3"
     },
     {
       "key": "111",
@@ -16282,7 +16289,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429"
     },
     {
       "key": "112",
@@ -16319,7 +16327,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9"
     },
     {
       "key": "92",
@@ -16455,7 +16464,8 @@
       },
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
-      "campaign_or_experiment_activated": false
+      "campaign_or_experiment_activated": false,
+      "commit": "c7f6e3d0037e1370197cfce93c6f5d0436dedbac"
     }
   ],
   "current_wave_status": {
@@ -18648,35 +18658,40 @@
         "source_blobs": {
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "eeeddc729a969440744fd142bea48532e3b4c1b7"
         },
-        "from_commit": "d3d9c058e7e94946fe4dec6db1b8175b101ea625"
+        "from_commit": "d3d9c058e7e94946fe4dec6db1b8175b101ea625",
+        "commit": "bbc1087e3439dc715efdec07819449e011829966"
       },
       "104": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "ce38e7eca70410d8fbd7d7dbcf65665c6a353a25"
         },
-        "from_commit": "bbc1087e3439dc715efdec07819449e011829966"
+        "from_commit": "bbc1087e3439dc715efdec07819449e011829966",
+        "commit": "18e361778c755ec2f24ecf026e99747bf39359c3"
       },
       "111": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md": "f511c309fca30942deff376d9b52fb301c3c64b2"
         },
-        "from_commit": "18e361778c755ec2f24ecf026e99747bf39359c3"
+        "from_commit": "18e361778c755ec2f24ecf026e99747bf39359c3",
+        "commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429"
       },
       "112": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "39f2ac08d6a2a07227f9595eaec4537b61be16f4"
         },
-        "from_commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429"
+        "from_commit": "b3c01574754454d37ad1f4107ecbd0ac47c50429",
+        "commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9"
       },
       "92": {
         "state": "Applied; removed from the pending queue",
         "source_blobs": {
           "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f"
         },
-        "from_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9"
+        "from_commit": "638ff0758d45effdd9d2f8eb6aa2b4f60372fcb9",
+        "commit": "c7f6e3d0037e1370197cfce93c6f5d0436dedbac"
       }
     }
   }
