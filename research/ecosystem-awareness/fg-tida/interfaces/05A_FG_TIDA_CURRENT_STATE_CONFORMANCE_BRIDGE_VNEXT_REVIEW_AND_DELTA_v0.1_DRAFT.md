@@ -714,3 +714,10 @@ The full Charter lineage receives identity/detection/reputation/privacy/incentiv
 B compared the changed historical review clauses with the complete current bridge and actual receiving material. The source passages for applied31/32 and the later documentary tranche are present; the earlier F004/F005/F006 audit observations remain visible. Keeping an applied item out of pending does not turn a source consultation into independent validation or make a changing external page permanently current.
 
 The [05 review](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#control-history-reception-of-05--15-october-2026) records the matching receiver. No useful source omission was found in this control cohort. The earlier full source/case readings and this later control-history reading are separate scopes by the same agent, not two independent scientific audits.
+
+
+## Concurrent state-bridge addition retained and read — 15 October 2026
+
+The complete new §2.14 from commit aaf0de16 was read and retained with all previous bytes. Its vocabulary distinguishes narrow agreement in principle, actual conversation, an offer, a prospective interface and an internal proposal. The catalogue in [05 Ideal §7.5](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) therefore remains an offer; no universal subscription or transport agreement is inferred.
+
+EA contextual output, source-native findings, recipient decisions and proposed F3 response coordination remain separate. The new section preserves optional/direct handoffs and source authority. This is a consistency reading of the declared state bridge, with no fresh external-source or email acceptance verification. The historical-control judgements retain their earlier fixed cuts, and the existing baseline contracts are unchanged.

@@ -1020,3 +1020,10 @@ Las fichas retiradas se conservan completas en la [edición anterior](https://gi
 B read all historical changed clauses in this review and the complete current 05 source, with actual receiving sections in DBC and 05A. The earlier “None committed” reading is not restored as present status: the current receiving material and its internal illustrative scope remain distinct from evidence of an external FG-TIDA deployment. Applied33/34 and the later coordinated documentary tranche remain applied; retiring their pending cards does not erase the source passages.
 
 The [05A review](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#control-history-reception-of-05a--15-october-2026) records the other end of this reading. The examined 05 control cohort adds no useful source omission to restore. It preserves the differences among a source report, its reproduction, a mutable publication and independently reviewed evidence.
+
+
+## Concurrent interface addition retained and read — 15 October 2026
+
+The complete new §7.5 matrix from commit 3dbdce1c was read during the historical-review publication. All 12,688 inserted bytes and all prior bytes were retained when main advanced. It is an ideal EA-only offer. T13.F1 as an optional exchange carrier remains distinct from EA.F1–F9, EHD and IF-S11; direct acquisition remains available. Native EA contextual qualifications stay separate from proposed Response Coordination, Regime Awareness regime movement and EP/MSCA/ACC positioning and authority.
+
+The companion [05A §2.14](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) states conversation levels rather than turning the catalogue into accepted bilateral profiles. This reading checks the new declared boundaries against the retained contract roles; it does not independently reverify the cited external conversations. H06 and concrete profile/receiver admission remain with their source owners. No source, former audit, existing contract or campaign result was replaced by this concurrent addition.

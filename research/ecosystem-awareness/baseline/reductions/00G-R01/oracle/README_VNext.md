@@ -1219,3 +1219,12 @@ The source and actual step commits are recorded in the application receipts abov
 ## Execution reaudit 15 October 2026
 
 Re-read111 with110 and the future R01 packet. The reader entry does not launch tasks3–8; original oracle code, source freeze, expected results and bounded completed tasks1/2 are unchanged. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical control reception consolidated — 15 October 2026
+
+C5 read all 19 oracle-control events in its allocation against the complete current oracle README and the actual retained paragraphs. The CTv1 prevalidation, eight-family mapping, S5 failure witness, F011–F016 limits, effect/resource tables and correspondence controls remain. Raw/normalised payloads, temporal order, nulls, paid information, source authority and unknowns were not replaced by a benchmark PASS. Tasks 1/2 keep their bounded documentary completion; steps 3–8 remain prospective and inactive.
+
+Applied waves and their literal variants have authentic predecessors and source receipts. They do not re-enter the active queue when an old header says pending. The current descriptions preserve same-maintainer, finite/DAG/reference-domain limits, actual-effect versus selected-batch distinctions and q/deadline obligations. Reading schema fields, source hashes or a self-test record does not establish semantic admission or native isolation. No source, reference world, result or script was changed by this reception review.
+
+The common [restoration decisions](../../../README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) and [EP branch map](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#historical-damage-control-consolidation-and-remaining-boundaries--15-october-2026) retain the cross-document consequences. This is the completed historical-control allocation, not another independent scientific execution or completion of all neighbouring-source reviews.

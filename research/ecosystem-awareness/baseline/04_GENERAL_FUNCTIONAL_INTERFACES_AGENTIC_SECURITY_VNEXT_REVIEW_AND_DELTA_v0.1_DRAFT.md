@@ -757,3 +757,10 @@ Competing intents retain the same decision/resource-time binding and owner prece
 D read the complete 1,038-line current input contract, its 176 rows across 19 families and all 58 changed historical units. The original field IDs and row literals remain. Original Word, SVG, PNG and historical Markdown identities match the historical manifest, while the amended current text keeps its dated semantic amendment. The two objects answer different identity questions; the historical manifest is not recast as a hash for the amended current body.
 
 The B/C corrections and custody descriptions are legitimate receiving changes. No field, option or explanatory reason from the examined unit history needs blind restoration. This retention judgement does not admit every classification or close H06/F9, the stated A-exclusion question or O2. Those remain visible in their source contracts. No programme or result was executed or altered by this reading.
+
+
+## Historical contract and review reception — 15 October 2026
+
+B's completed prose-control reading confirms the distinction between generic 04 semantics and programme-specific 05/05A mappings. The current A_ref route keeps unavailable, stale and unbound values as UNKNOWN; H06 end-to-end reconciliation remains a real requirement. Retiring applied navigation/editorial dossiers does not settle that contract question or reactivate an older alternative.
+
+The two visible ./PUBLICATION_MANIFEST.json strings inside the preserved 101/102 input-contract before/after material are literal source-relative context. Their named source is 04_INPUT_INTERFACE_CONTRACT; operative owner links reach the current contract 407a0099 and its manifest 3934ed2b. Both actual receivers were read. Rewriting the quoted URLs would falsify the complete old/proposed passages, so no such patch is proposed. The current input-contract semantics and 176-row conditional map retain their own review limits. The [baseline consolidation](./README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) records the cross-document decision.

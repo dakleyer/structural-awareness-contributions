@@ -1,5 +1,5 @@
 {
-  "version": "1.67",
+  "version": "1.68",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -9905,7 +9905,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "3fef8fc395fd3d11381b1a9f096419c2094a3e02",
+  "review_source_commit": "1f65fbfbb17d29499e2b11657f579a2a01ff38de",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -23368,6 +23368,78 @@
       "binary_events_separate": 20,
       "new_loss": "C3-P03/133",
       "whole_corpus_semantic_review_complete": false
+    }
+  ],
+  "rest_of_corpus_reconciliation_epochs": [
+    {
+      "date": "2026-10-15",
+      "source_application_cut": "1f65fbfbb17d29499e2b11657f579a2a01ff38de",
+      "source_counts": {
+        "denominator_events": 1907,
+        "denominator_units": 6992,
+        "examined_events": 1907,
+        "complete_events": 1903,
+        "pending_events": 4,
+        "unexamined_events": 0,
+        "examined_but_unresolved_events": 4,
+        "covered_units": 6988,
+        "overlapping_events": 176,
+        "unknown_ledger_identities": 0
+      },
+      "context_control_events": 455,
+      "full_old_body_preservation_events": 586,
+      "overlap_event_groups_read": 123,
+      "overlap_events": 176,
+      "applied_ids": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "literal_pairs": 30,
+      "source_documents": 12,
+      "source_pairs": 19,
+      "review_files": 4,
+      "review_pairs": 11,
+      "unresolved_source_units": [
+        1475,
+        1479,
+        1480,
+        1482
+      ],
+      "138_specific_GO_received": false,
+      "branches_purpose_read": 8,
+      "branch_main_cut": "3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657",
+      "branch_source_table_sha256": "84cacaa6990cb3dbd4b060314afbd803cfa550db66c71350c2fe44c544a55978",
+      "concurrent_05_05A_additions_retained": [
+        "3dbdce1c21aa5982e1d42fb1c719feee02c82ac5",
+        "aaf0de16e6fd1462a842165a99a37124a787971d"
+      ],
+      "E_separate_verification_cut": "0a5d9dc89bea22981280904da209042579a15ea2",
+      "E_checks": 137,
+      "E_public_raw_readbacks": 29,
+      "E_applied_repairs_in_own_cut": 20,
+      "143_historical_audit_qualification_applied": true,
+      "source_originals_and_results_unchanged_outside_exact_authorised_pairs": true,
+      "whole_corpus_semantic_review_complete": false,
+      "older_five_six_pass_programme_closed": false
     }
   ]
 }
