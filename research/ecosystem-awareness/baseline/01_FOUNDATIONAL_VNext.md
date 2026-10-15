@@ -209,3 +209,10 @@ Acceptance: verify exact unique before, keep the current receiver link, preserve
 
 
 </details>
+
+
+## Third source review — proof consumers and current corrections, 14 October 2026
+
+The [00K source/evidence record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#third-source-review--00k-relative-proofs-and-preserved-corrections-14-october-2026) now explains the reviewed A19/A21/A23/A24 roles and A20/A22 model boundary with actual historical/current source passages. Traceability, grammar coverage, reverse sufficiency and assigned-label projection remain separate. The current withdrawal and simplified-model qualifications should be retained; no replacement candidate is introduced. The record discloses prior execution-report exposure for the affected A23 assertion rather than counting it as a blind result.
+
+This is reciprocal evidence for the 02A/02B relationship behind proposal 100. It does not yet settle the broader current-semantic transfer or all runtime/fixture consumers. Proposal 100 remains pending its stated reconciliation and named GO; old source contracts and all original evidence stay intact. Full Foundation/00K integration and the corpus plan remain incomplete.

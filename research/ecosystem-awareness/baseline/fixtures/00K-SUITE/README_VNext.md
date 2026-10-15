@@ -150,3 +150,151 @@ The fixtures also changed in substance: corrected isolation and stronger repairs
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
 
 Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Third source review — 00K relative proofs and preserved corrections, 14 October 2026
+
+The source reviewer has sealed the following scoped preservation and organization judgement. It retains the current A23 withdrawal of all-six sufficiency and the simplified-model qualification in A22; it proposes no rollback or new edit in those assessed passages. This is material proof/evidence work linked through the existing 00K review route, not a new public dossier or completion of the entire 00K family.
+
+A19 traces requirements, A21 covers a declared grammar, A23 examines reverse conformance, and A24 projects assigned labels. These are different obligations. Structural manifest validation cannot substitute for semantic fidelity, and a counting result on a simplified Boolean model does not supply a missing lift to the larger source substrate. Preserve the negative evidence, conventional one-conjunction comparator and each historical contract.
+
+This source comparison followed an inadvertently opened earlier A23 reconstruction execution record. The reviewer disclosed its exact exposure and did not adopt its reported PASS/counts as a new independent result. The affected assertion is not perfectly blind. The actual old/current formulas below were inspected directly; the previous first seals remain unchanged. No source program or experiment was run.
+
+### Authenticated material source routes
+
+| Source or support | Exact current route | Git blob |
+|---|---|---|
+| `00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) | `62c41013a8657b5e2b4daf8083c3c214976e0bc9` |
+| `00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) | `3f4af0748ed5084e21ca6ddf865a934f2f8b2571` |
+| `00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) | `9ab3d4cc0246939083238489ce4a6479ec2f2ded` |
+| `00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) | `9d166fd86fe3e238e06b7d01c06fac2570005a22` |
+| `00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) | `5a96570775c112cef810f631b61c2430ecc03345` |
+| `00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) | `a16b7764cbb1d3db0aa9aea721f61e5e45fb0ba1` |
+| `requirement_sufficiency_model.py` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/requirement_sufficiency_model.py) | `fea3f5a9bed71cbacb2292d3062d92cd0bc65f4b` |
+| `full_cube_model.py` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube/full_cube_model.py) | `e654f34427d9c5c40b187d25ba43744f4c2a9dd0` |
+| `test_full_cube.py` | [Full source](https://github.com/dakleyer/structural-awareness-contributions/blob/bdd578e1e7f336991d2d8fc1aab9eb2688aff968/research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube/test_full_cube.py) | `1a81c7ba328670304e4a415b6b9830a8303b5b75` |
+
+### Exact historical/current evidence — an existing correction, not a replacement proposal
+
+Historical model `3919d378baf0b05f418ad76b4a9a48cab7f9cf36` repeats the target expression in the requirement clauses. Complete inspected historical passage:
+
+```python
+def s5_no_false_permission(s: State) -> bool:
+    return not (s.unresolved_material and s.executes)
+
+
+def t3_response_not_evidence(s: State) -> bool:
+    # In this reduced model, the relevant P3 consequence is that an unresolved
+    # material state cannot be laundered through execution/default.
+    return not (s.unresolved_material and s.executes)
+
+
+def s1_authority_current_scope(s: State) -> bool:
+    return (not s.executes) or (s.authority_current and s.authority_scoped)
+
+
+def s6_receiver_can_verify_authority(s: State) -> bool:
+    return (not s.executes) or s.authority_verifiable
+
+
+def s8_nonamplification(s: State) -> bool:
+    return (not s.executes) or s.authority_nonamplifying
+
+
+
+```
+
+Current model `fea3f5a9bed71cbacb2292d3062d92cd0bc65f4b` separates source observation from the bounded-response projection. Complete inspected current passage:
+
+```python
+def s5_no_false_permission(s: State) -> bool:
+    # No conversion of uncertainty into permission. A bounded authorized
+    # response under uncertainty is not itself such a conversion.
+    return not s.permission_from_uncertainty
+
+
+def t3_bounded_authorized_response(s: State) -> bool:
+    # One T3 projection shared by R3 and R4. The no-worse bit stands for an
+    # externally supplied per-state certificate, not a utility proof here.
+    return ((not s.executes) or
+            (s.response_authorized and s.response_failure_declared
+             and s.response_reversibility_declared and s.response_externalities_declared
+             and s.response_downside_declared and s.null_action_declared
+             and ((not s.strong_response_claimed) or s.no_worse_than_null)))
+
+
+
+```
+
+### Existing A22 qualification to retain
+
+> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).
+
+The actual simplified model carries the following complete inspected contract and P2/P3 definitions; it does not implement a derivation of conflict from records or the full inquiry graph/rank claimed by a stronger reading. The code was read, not executed.
+
+```python
+@dataclass(frozen=True)
+class Inquiry:
+    """One shared unresolved object used by both P2 and P3."""
+    proposition: str
+    unresolved: bool
+    material_to_action: bool
+    cyclic_progress: bool
+    bounded_fallback: bool
+
+
+@dataclass
+class Model:
+    records: Dict[str, Record]
+    used_records: FrozenSet[str]
+    asserted: FrozenSet[str]
+    explicit_unresolved: FrozenSet[str]
+    inquiry: Inquiry
+    executes: bool
+    grant_record: str
+    requalified_at_action: bool
+    counted_pairs: FrozenSet[Tuple[str, str]]
+
+    def record(self, name: str) -> Record:
+        return self.records[name]
+
+
+def p2(m: Model) -> bool:
+    """The shared unresolved inquiry has finite progress and a bounded fallback."""
+    if not m.inquiry.unresolved:
+        return True
+    return (not m.inquiry.cyclic_progress) and m.inquiry.bounded_fallback
+
+
+def p3(m: Model) -> bool:
+    """A material unresolved state is not promoted into execution."""
+    material_unresolved = m.inquiry.unresolved and m.inquiry.material_to_action
+    return not (material_unresolved and m.executes)
+
+
+
+```
+
+### First source judgement and own organization plan
+
+The complete first record below was sealed at `2026-10-14T21:27:38.514459+00:00`: Markdown SHA-256 `e72a04a1e41ebac48a02e2431cc27c9292afb06a83d3dfd4846159b659aad5e0` and original JSON reading/exposure snapshot SHA-256 `5cfde93fc340f25b6bb14c2ae6b5b8d926d3a72bb1a63c7c33b70857b2e57452`. Current source bytes and the quoted passages were rechecked by the coordinator. The JSON preserves the material historical routes and the disclosed source exposure. The original first record follows verbatim.
+
+<details>
+<summary>Original scoped preservation judgement and organization plan</summary>
+
+# First scoped preservation judgement: 00K relative proof/model boundaries
+
+Sealed 2026-10-14T21:27:38.514459+00:00. Full logical cohort and corpus incomplete.
+
+Retain the current A23 withdrawal of all-six sufficiency. Exact old code repeats target expressions in requirement clauses; current source separates observation and disposition fields and preserves reduced-model negative evidence. No source code was run. This comparison followed exposure to a prior audit execution report, so the affected assertion is not perfectly blind; exact exposure is frozen in the JSON.
+
+A19 traceability, A21 declared grammar coverage, A23 partial reverse implication and A24 projection to assigned labels are distinct. Structural manifest/validator checks do not discharge semantic fidelity. The earlier ontology-bijection and ordered-normalizer variants retain their own authenticated contracts.
+
+A22’s 64-signature Boolean counting bound requires lossless recovery on its actual model class. The full model/test sources read here use unresolved/cyclic/fallback flags rather than the full A20 record-conflict and inquiry graph/rank relations. Current A22/A20/fixture qualifications already retain the missing bridge. Preserve those valid corrections, the one-conjunction conventional comparator and all original tests; no additional edit candidate is justified in these assessed passages.
+
+Plan: retain existing source and fixture owners and reciprocal README/proof/requirement routes; preserve all authentic predecessor contracts. Do not add duplicate authorities or public collections. The final three-level README and unique existing VNext-owner mapping requires the remaining full source phase first. Wider 00E–00J, harness/result contracts, semantic transfers, history/merges and all other sources remain pending. No whole-cohort completion is claimed.
+
+The JSON supplies complete old/current support passages, exact identities, coverage routes, limits and contemporaneous read/exposure snapshots. Nothing applied.
+
+
+</details>

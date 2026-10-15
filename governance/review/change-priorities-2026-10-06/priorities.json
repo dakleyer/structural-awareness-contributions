@@ -14682,6 +14682,28 @@
       "both_before_spans_unique": true,
       "current_semantic_amendment_retained": true,
       "Word_rendered_fidelity_complete": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Retain qualified 00K proof/model corrections; no new restoration candidate",
+      "source_commit": "36b6d6e0b485170d68445fcb1bf5540d540355b7",
+      "current_source_revalidated_at": "bdd578e1e7f336991d2d8fc1aab9eb2688aff968",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#third-source-review--00k-relative-proofs-and-preserved-corrections-14-october-2026",
+      "reviewer_thread": "01a13c1e-5ce0-7711-824b-e372b6c3c5b2",
+      "record_id": "00K_RELATIVE_PROOF_AND_MODEL_CORRECTION_BOUNDARIES",
+      "phase": "A",
+      "sealed_utc": "2026-10-14T21:27:38.514459+00:00",
+      "new_candidates": 0,
+      "canonical_applied": false,
+      "new_vnext": 0,
+      "whole_source_cohort_complete": false,
+      "whole_corpus_complete": false,
+      "plan_complete": false,
+      "phase_B_open": false,
+      "source_programs_executed": false,
+      "exposure": "A23 previous reconstruction execution report disclosed; affected assertion not perfectly blind; independent source formula inspection distinguished from accepting reported runs",
+      "latest_checkpoint_current_bodies": 41,
+      "latest_checkpoint_read_payloads_including_disclosed_exposure": 205
     }
   ]
 }
