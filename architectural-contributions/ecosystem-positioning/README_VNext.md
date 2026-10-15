@@ -2305,3 +2305,12 @@ The review found a concrete defect in pending 92: five case-relative links resol
 Consequences are recorded in the existing EA and baseline README VNext. All additions in this publication are review/control records. No original source, result, code, binary, file path or current reading relationship is changed. The exhaustive history review remains incomplete; its isolated source reviewer was not restarted or supplied this comparison.
 
 A pre-existing priority-reader data-format error is repaired by explicitly declaring that the instruction-only guidance epoch contains no individual assessments. All its previous fields and all 102 original proposal entries remain unchanged; the current suspended view of 91/92 is checked with the existing reader.
+
+
+## Independent strategy re-audit and unified restoration review (15 October 2026)
+
+Iván asks a different reviewer to verify the strategy and all prior agents’ change/restoration plans before producing one detailed unified restoration and reinsertion plan. The [new reviewer’s sealed source-first judgement](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#independent-source-strategy-baseline-15-october-2026) is published in the existing DDS VNext. It finds the declared DDS progression coherent while identifying current-authority and version-reading ambiguities. It preserves **UC-21 → objectives → Challenges → DDS → campaigns → results**, with DDS reusable across cases.
+
+This first account was recorded before the prior strategy and damage plans were opened. Comparative review is now in progress, with attributed source checks of case/EP/requirements and DDS/R01/oracle plans. The unified plan must distinguish useful missing information, valid correction, an existing receiver, historical support and unresolved evidence. It must specify complete old/proposed text, exact sources and destinations, dependencies, impact/risk/effort and verification for each proposed wave. Restoring an older formulation solely because it disappeared is not the method.
+
+This publication adds review text only. The first account is not a completed unified plan, exhaustive corpus audit or source-adoption decision. Originals and existing owners remain unchanged; any incorporation waits for Iván’s named passage/wave GO.
