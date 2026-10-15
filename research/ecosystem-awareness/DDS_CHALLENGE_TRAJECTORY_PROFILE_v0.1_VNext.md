@@ -18013,7 +18013,7 @@ Iván's current instruction authorises careful insertion of justified remnants a
 
 ### Change115 — Recover S5 scope reconciliation and the proposed UC4–UC21 return route
 
-**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**State:** Applied — 15 October 2026; no further insertion pending for this item. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
 
 Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, blob `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
 
@@ -18067,3 +18067,8 @@ An instrument successor that treats a required prerequisite as `NOT_APPLICABLE` 
 ~~~~~~~~
 
 **Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Historical remnant application115 — 15 October 2026
+
+Applied the complete reviewed addition to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`. Predecessor `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f`; successor `18bd84c68a3c559d781f07ca7ecedd64d305d986`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
