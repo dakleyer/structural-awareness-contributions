@@ -1,5 +1,5 @@
 {
-  "version": "1.49",
+  "version": "1.50",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7951,6 +7951,90 @@
       "application_from_commit": "11a11874a909d4e1dec965abee699f46924be847",
       "applied_source_blob": "173d025fb1129b55a2d3a81036b3b53b7616c2bf",
       "published_pair_commit": "11a11874a909d4e1dec965abee699f46924be847"
+    },
+    {
+      "id": 135,
+      "title": "Use the English thousands separator for the recorded 33,408 HF checks",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "source_sha": "2b19ae3d129e072e3520fec74f655479cc087885",
+      "source_commit": "3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+      "before": "The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33.408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.",
+      "after": "The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33,408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.",
+      "impact": "Bajo",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Minimal bilingual documentary repair",
+      "state": "C source review, D separate check and root context/inverse complete; authorised, not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "Read the integer count unambiguously in English: 33,408 rather than a decimal 33.408. The primary result remains 33408.",
+      "riskReason": "One punctuation byte in one complete paragraph. No count, conclusion, source result, checker or evidence grade changes.",
+      "costReason": "Read the Spanish/English source history, current paragraph and primary JSON field; compare the whole source and inverse, then public readback. No experiment is required.",
+      "dependencies": [
+        "Current primary results.json blob5c4913d2fa08ef8a2d2213a6308ad29f664f864b records integer33408",
+        "Existing HF README_VNext owner",
+        "Do not change or rerun results.json or check.py"
+      ],
+      "preparation": "Complete current paragraph, unique before and exact full-source inverse; C, D and root checks agree.",
+      "gate": "Apply only the reviewed punctuation substitution after publication of this pair; retain results/code and all other source bytes.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "evidence": {
+        "C_proposal": {
+          "id": "C3-P04",
+          "kind": "translation_numeric_separator_documentary_repair",
+          "state": "PRIVATE_PROPOSAL_NOT_APPLIED",
+          "source_event": "C-S0658",
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+          "spanish_source": {
+            "commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
+            "blob": "aff217c27fe15742c2794a7512d753d747d1bd31",
+            "paragraph": "El registro exacto y sus contadores están en [results.json](./results.json): 288 configuraciones conjuntas, 576 verificaciones de conjuntos de rutas y óptimos bajo permutaciones, 33.408 comprobaciones de resultado de ruta y conectores, 25 pares de vistas completas, 36 valores de políticas de consulta y 918 comprobaciones de cobertura de ventanas. Todos los chequeos pasaron."
+          },
+          "first_english_receiver": {
+            "commit": "8efc19c9659dacfae1e18bce7250dfc60a05ef7e",
+            "blob": "8d7e0bc813dacba35b7bab44566914dca4fd6ee4"
+          },
+          "current_receiver": {
+            "commit": "b6da353172b4cf335cc4974cd1f79851096245c1",
+            "blob": "2b19ae3d129e072e3520fec74f655479cc087885",
+            "sha256": "a3267b651c71890f92634cb7150d48d516aecfecf5fa5a3c8d02eca8ae497755",
+            "line": 237
+          },
+          "before": "The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33.408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.",
+          "after": "The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33,408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.",
+          "change": "One punctuation byte only: Spanish thousands separator point becomes English comma; integer33408 unchanged in primary receipt.",
+          "primary_result": {
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/results.json",
+            "blob": "5c4913d2fa08ef8a2d2213a6308ad29f664f864b",
+            "field": "path_outcome_and_connector_checks",
+            "value": 33408
+          },
+          "existing_unique_vnext_owner": {
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+            "blob": "463c1be04285587c179f340255626f0303bf36c2"
+          },
+          "impact": "Low scientific impact, removes English decimal interpretation of an integer count; no result or maturity change.",
+          "risk": "Low; single unambiguous punctuation replacement backed by unchanged primary integer.",
+          "effort": "One paragraph literal replacement; no experiments.",
+          "dependencies": [
+            "Independent review and root application decision",
+            "Do not change or rerun results.json or check.py"
+          ],
+          "sources_edited": false
+        },
+        "D_pair_sha256": "e9868a32818d1a8c26400784261c9a5e04e3bca2e037b021aea80f68a4f9c50c",
+        "root_check": "Targeted full-context source paragraph and primary integer; full-source byte replay/inverse"
+      }
     }
   ],
   "audit_coverage": [
@@ -9187,7 +9271,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "11a11874a909d4e1dec965abee699f46924be847",
+  "review_source_commit": "3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -22223,6 +22307,16 @@
       "C_content_events_pending": 373,
       "whole_corpus_semantic_review_complete": false,
       "plan_sha256": "d53661735d1b1f42163395a3ff41c00fbee156a15e36831e3f0bf575461ae66e"
+    },
+    {
+      "date": "2026-10-15",
+      "base": "3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657",
+      "entries": [
+        135
+      ],
+      "literal_pairs": 1,
+      "plan_sha256": "b7360a4a761006be2ec5dc976f19d3197a30f09a3e9a286146d4d3f7066a243a",
+      "whole_corpus_semantic_review_complete": false
     }
   ],
   "rest_of_corpus_contextual_review_epochs": [

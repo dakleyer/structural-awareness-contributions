@@ -175,3 +175,36 @@ For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BO
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
 
 Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Bilingual HF reception and numeric clarity — 15 October 2026
+
+C read the complete 55k-character HF English translation against its Spanish source, including all fifteen groups/tables, counterexamples and historical navigation. Current v0.1, corrected v0.2 and prospective v0.3 retain their distinct duties; N10 remains post-audit/unscored. The strong conventional controls and contrary outcomes remain visible. No additional research clause was found missing in that translation.
+
+One English punctuation ambiguity is concrete: §4.3 says33.408 checks while the primary result records integer33408.135 below changes only the thousands separator. D separately read the source editions, current§4.3 context and the primary JSON status/counts; root verified that the full-source difference is one ASCII byte and reverses exactly. This is a low-impact clarity repair, not new evidence or a changed result. Other R01 history and final corpus reconciliation remain open.
+### Change 135 — Use the English thousands separator for the recorded 33,408 HF checks
+
+**State:** C source reading, D separate verification and root context/inverse check complete; authorised by the current restoration instruction, not yet applied. **Expected impact:** Bajo. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md`, blob `2b19ae3d129e072e3520fec74f655479cc087885` at `3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657`, §4.3, line237. This complete paragraph occurs once.
+
+**Text before — complete existing paragraph**
+
+~~~~markdown
+The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33.408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.
+~~~~
+
+**Text after — complete proposed paragraph**
+
+~~~~markdown
+The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33,408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.
+~~~~
+
+**Reason:** Read the integer count unambiguously in English: 33,408 rather than a decimal 33.408. The primary result remains 33408.
+
+**Risk and effort:** One punctuation byte in one complete paragraph. No count, conclusion, source result, checker or evidence grade changes. Read the Spanish/English source history, current paragraph and primary JSON field; compare the whole source and inverse, then public readback. No experiment is required.
+
+**Evidence and dependencies:** the [primary receipt](./results.json) records `path_outcome_and_connector_checks: 33408`. The Spanish edition at `c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340` uses its normal thousands separator; the first English edition at `8efc19c9659dacfae1e18bce7250dfc60a05ef7e` carried the point into English. Current§4.3 retains the finite-grid and non-independent-sample limits. The correction does not change those limits or rerun the checker.
+
+**Iván's instruction and decision:** apply justified remnants only after the published literal plan and independent review, preserve every unrelated byte and remove the applied card from pending. This is one ASCII byte46→44, with no source-length change.
+
