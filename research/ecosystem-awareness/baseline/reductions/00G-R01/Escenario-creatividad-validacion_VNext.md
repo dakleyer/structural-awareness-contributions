@@ -96,3 +96,11 @@ One coordination lost clear negative scope. The original Spanish says “EA no c
 
 All 1 exact reviewed passage(s) are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md`, blob `949682a9613dd30e2a43494379043399b794fc55`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/5105bb4709382834987bfa0ce77806ed4d56bd21/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md#change-126--restore-the-two-part-negation-in-the-r01-scenario-translation) remain in the published review predecessor. This item is removed from the pending queue. Reversing only those substitutions recovers source predecessor `c534b16998b9d1ab817cf5c6d55e11bfde38ccda` byte for byte.
 
+
+
+## Historical binary reception — 15 October 2026
+
+B compared all653 nonempty Spanish/English DOCX paragraphs,22 tables/155rows/405cells, two translated drawings and all eleven equations. Operators, quantities and mathematical conditions survive label translation. The31-page Spanish and29-page English PDFs, plus the attribution-only current29-page PDF, were fully rendered and read; all89 pages retain the research sections. The later PDF pages2–29 are pixel-identical under the same renderer after the author-line change.
+
+Strong conventional peers, no-EA-advantage controls, own-review status, costs and scientific limits remain. No useful textual omission was found;126's earlier negative-coordination repair remains distinct. DOCX native layout is not inferred from the PDF. The [baseline media result](../../README_VNext.md#historical-media-reception-completed--15-october-2026) keeps the complete scope and limits.
+

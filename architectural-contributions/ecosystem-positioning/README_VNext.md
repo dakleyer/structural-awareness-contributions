@@ -2589,3 +2589,13 @@ C's sealed semantic frontier is215/705 content events adjudicated and490 pending
 
 C's next sealed cohort adds52 contextual judgments:267 of705 events are now adjudicated and438 remain. Full Differential, Mathematical Feasibility, Continuation, WORKPLAN and Strategic-master histories retain all55 historical acceptance criteria through current theorem/protocol/M16–M17/C02–C11–T03 receivers. Superseded M12/delivery scheduling is not reinstated.133 is the only new useful clause loss identified there.
 
+
+
+## Completed root and media cohorts, with historical-source access — 15 October 2026
+
+D's root/control/DAOS cohort has369 judgments across106 supplied events; five units are duplicate side-branch evidence, leaving105 first-parent events/364 units. Current programme explanation, custody, corrected fixture routes and case/challenge meaning have real receivers. Retired one-off write workflows stay retired. One useful navigation repair remains:134 appends nine described, version-pinned complete DAOS editions to the existing auxiliary catalogue. It neither copies those documents nor creates a new README/VNext.
+
+B's18-event media cohort is complete for historical reception:156 PDF pages and142 slides inspected, full OOXML/text/relationship comparison and every current/historical source pin authenticated. No useful current textual omission was established. The old PDF's real layout defect is recorded, and a false semantic inference from a font-extraction glyph was discarded after visual inspection. Native DOCX/desktop-PowerPoint limits remain specific and visible. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#historical-media-reception-completed--15-october-2026) records the detailed result and affected source owners.
+
+133's one-sentence self-review repair is applied and removed from pending at `62e03c56bac3f5c34f5c97939c52bf9bd37bab1a`. Its complete before/proposed paragraph remains in the public plan predecessor. A continues its remaining reader/router/current-body history; C's latest sealed code cohort has332/705 contextual events adjudicated and373 pending. These remaining readings prevent final corpus closure.
+

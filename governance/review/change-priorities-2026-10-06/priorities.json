@@ -1,5 +1,5 @@
 {
-  "version": "1.47",
+  "version": "1.48",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7786,6 +7786,163 @@
       "application_from_commit": "374da9b879c5015dea6dac483f7edac1bd052403",
       "applied_source_blob": "df5e54bd25f2aab11108a310c0cd4f3d0fc8ccf5",
       "published_pair_commit": "374da9b879c5015dea6dac483f7edac1bd052403"
+    },
+    {
+      "id": 134,
+      "title": "Restore described access to nine complete historical DAOS editions",
+      "source": "research/ecosystem-awareness/baseline/non-canonical/README.md",
+      "source_sha": "971e2e91c9977b37f23039e538d6c747eb0eb163",
+      "source_commit": "62e03c56bac3f5c34f5c97939c52bf9bd37bab1a",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.\n",
+      "after": "Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.\n\n## Earlier DAOS review editions — historical source reading · 15 October 2026\n\nEarlier DAOS review editions document the development from the integrated case to the modular pre-freeze package. The [current DAOS package](../../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) owns the case, extensions and S1–S14 challenge route.\n\n| Earlier complete edition | Purpose and relationship to the current package |\n|---|---|\n| [Main case v0.6](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md) | Integrated case, full xSeil → Car Evolution → MACA / Minimum Sufficient Control lineage and implementation-neutral rationale. |\n| [Main case v0.7](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.7.md) | Neutral ideal D1–D3 +1 readiness framing, governing-regime clarification and controlled regime-specific variants. |\n| [Main case v0.8](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.8.md) | Purpose-first narrative and explicit separation of desirable D1/D2 from mandate and authority-validity boundaries. |\n| [Main working structure v0.9](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.9.md) | Return to a short modular main note; case facts and S1–S14 remain in the annexes. |\n| [Annex I v0.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md) | Earlier minimal G1/P1/C1, T0–T2 mobility case before the expanded public explanation and technical completion. |\n| [Annex II v1.2](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md) | Original upward, downward/private-factory and horizontal extension tests; current AnnexII retains the substantive body. |\n| [Annex III v1.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md) | Original S1–S14 solution-challenge table and validation-unit choice; current AnnexIII remains the challenge owner. |\n| [Annex IV v1.0](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md) | Original many-to-many ToR mapping and its declared coverage boundary; current AnnexIV is the maintained route. |\n| [Annex V v1.1](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md) | Original adjacent standards/research map with its dated reference statuses; current AnnexV preserves the interface route. |\n",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Historical source access after root and media reception",
+      "state": "D source review and root pin/strategy check complete; authorised insertion, not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "Makes nine complete distinct retired case/annex editions discoverable with their purpose and current successor, without copying them into a competing corpus.",
+      "riskReason": "Append one historical-reading table to the existing auxiliary leaf. Preserve all previous bytes, current DAOS ownership and three corpus README levels. Do not restore obsolete integrated architecture or harden ideal D1/D2 conditions into gates.",
+      "costReason": "D read complete distinct old/current case bodies and clause receivers; root checked all nine pinned blobs, descriptions, current route and full-source prefix/inverse. Publicly read back all nine originals.",
+      "dependencies": [
+        "Existing EA additional-work leaf and baseline VNext owner",
+        "Version-pinned complete originals at c33c1d57820a0880d714a36f36bec7bd3f540869",
+        "Current DAOS package remains the current case/challenge owner",
+        "123 already supplies a distinct formalism/grammar reading addition; not duplicated here"
+      ],
+      "preparation": "One append-only full-context pair, nine authentic fixed destinations, existing owner and source-wide inverse verified.",
+      "gate": "Apply only the published historical table after public source/pair checks; no import of old case rules.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "evidence": {
+        "reviewer": "D source/context review; root separate pin/strategy check",
+        "proposal": {
+          "id": "D-ROOT-DAOS-HISTORY-01",
+          "status": "private proposal only; not applied or published",
+          "base": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+          "source": "research/ecosystem-awareness/baseline/non-canonical/README.md",
+          "source_blob": "971e2e91c9977b37f23039e538d6c747eb0eb163",
+          "existing_unique_owner_vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "owner_blob": "0cc3fa994a3b15ff9f407293bca3977d6361e2ab",
+          "before": "Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.\n",
+          "after": "Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.\n\n## Earlier DAOS review editions — historical source reading · 15 October 2026\n\nEarlier DAOS review editions document the development from the integrated case to the modular pre-freeze package. The [current DAOS package](../../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) owns the case, extensions and S1–S14 challenge route.\n\n| Earlier complete edition | Purpose and relationship to the current package |\n|---|---|\n| [Main case v0.6](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md) | Integrated case, full xSeil → Car Evolution → MACA / Minimum Sufficient Control lineage and implementation-neutral rationale. |\n| [Main case v0.7](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.7.md) | Neutral ideal D1–D3 +1 readiness framing, governing-regime clarification and controlled regime-specific variants. |\n| [Main case v0.8](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.8.md) | Purpose-first narrative and explicit separation of desirable D1/D2 from mandate and authority-validity boundaries. |\n| [Main working structure v0.9](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.9.md) | Return to a short modular main note; case facts and S1–S14 remain in the annexes. |\n| [Annex I v0.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md) | Earlier minimal G1/P1/C1, T0–T2 mobility case before the expanded public explanation and technical completion. |\n| [Annex II v1.2](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md) | Original upward, downward/private-factory and horizontal extension tests; current AnnexII retains the substantive body. |\n| [Annex III v1.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md) | Original S1–S14 solution-challenge table and validation-unit choice; current AnnexIII remains the challenge owner. |\n| [Annex IV v1.0](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md) | Original many-to-many ToR mapping and its declared coverage boundary; current AnnexIV is the maintained route. |\n| [Annex V v1.1](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md) | Original adjacent standards/research map with its dated reference statuses; current AnnexV preserves the interface route. |\n",
+          "insertion": "\n## Earlier DAOS review editions — historical source reading · 15 October 2026\n\nEarlier DAOS review editions document the development from the integrated case to the modular pre-freeze package. The [current DAOS package](../../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) owns the case, extensions and S1–S14 challenge route.\n\n| Earlier complete edition | Purpose and relationship to the current package |\n|---|---|\n| [Main case v0.6](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md) | Integrated case, full xSeil → Car Evolution → MACA / Minimum Sufficient Control lineage and implementation-neutral rationale. |\n| [Main case v0.7](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.7.md) | Neutral ideal D1–D3 +1 readiness framing, governing-regime clarification and controlled regime-specific variants. |\n| [Main case v0.8](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.8.md) | Purpose-first narrative and explicit separation of desirable D1/D2 from mandate and authority-validity boundaries. |\n| [Main working structure v0.9](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.9.md) | Return to a short modular main note; case facts and S1–S14 remain in the annexes. |\n| [Annex I v0.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md) | Earlier minimal G1/P1/C1, T0–T2 mobility case before the expanded public explanation and technical completion. |\n| [Annex II v1.2](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md) | Original upward, downward/private-factory and horizontal extension tests; current AnnexII retains the substantive body. |\n| [Annex III v1.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md) | Original S1–S14 solution-challenge table and validation-unit choice; current AnnexIII remains the challenge owner. |\n| [Annex IV v1.0](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md) | Original many-to-many ToR mapping and its declared coverage boundary; current AnnexIV is the maintained route. |\n| [Annex V v1.1](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md) | Original adjacent standards/research map with its dated reference statuses; current AnnexV preserves the interface route. |\n",
+          "links": [
+            {
+              "event_index": 86,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "589268ec7d81d70c1b8ab41a31f8856d4e967acd",
+              "label": "Main case v0.6",
+              "purpose": "Integrated case, full xSeil → Car Evolution → MACA / Minimum Sufficient Control lineage and implementation-neutral rationale.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md"
+            },
+            {
+              "event_index": 87,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.7.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "28ccf7dc506013512847bb91d96d12daae6a7f45",
+              "label": "Main case v0.7",
+              "purpose": "Neutral ideal D1–D3 +1 readiness framing, governing-regime clarification and controlled regime-specific variants.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.7.md"
+            },
+            {
+              "event_index": 88,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.8.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "b7e542d68bc1e68ffda5246e1d1bdd2591b03099",
+              "label": "Main case v0.8",
+              "purpose": "Purpose-first narrative and explicit separation of desirable D1/D2 from mandate and authority-validity boundaries.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.8.md"
+            },
+            {
+              "event_index": 89,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.9.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "db2c01d1ac55fe479c1b61b77c6cf8a0090b2ed7",
+              "label": "Main working structure v0.9",
+              "purpose": "Return to a short modular main note; case facts and S1–S14 remain in the annexes.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.9.md"
+            },
+            {
+              "event_index": 90,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "75be1e2750201d70b2a9d300b64ec5826de18bdd",
+              "label": "Annex I v0.3",
+              "purpose": "Earlier minimal G1/P1/C1, T0–T2 mobility case before the expanded public explanation and technical completion.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md"
+            },
+            {
+              "event_index": 91,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "c691ba1bb4604d73e3ed8b158053c8141c1545e6",
+              "label": "Annex II v1.2",
+              "purpose": "Original upward, downward/private-factory and horizontal extension tests; current AnnexII retains the substantive body.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md"
+            },
+            {
+              "event_index": 92,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "8fa7c6ab6f6396e3ad790481b11678318acb1418",
+              "label": "Annex III v1.3",
+              "purpose": "Original S1–S14 solution-challenge table and validation-unit choice; current AnnexIII remains the challenge owner.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md"
+            },
+            {
+              "event_index": 93,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "93a6882bbcbcf1fb6174ba1267655620d9114caa",
+              "label": "Annex IV v1.0",
+              "purpose": "Original many-to-many ToR mapping and its declared coverage boundary; current AnnexIV is the maintained route.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md"
+            },
+            {
+              "event_index": 94,
+              "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md",
+              "commit": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+              "blob": "cfd4c8839709ba5845e98804f5a6b54b5193a8d7",
+              "label": "Annex V v1.1",
+              "purpose": "Original adjacent standards/research map with its dated reference statuses; current AnnexV preserves the interface route.",
+              "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md"
+            }
+          ],
+          "old_unique": true,
+          "whole_inverse_exact": true,
+          "whole_predecessor_prefix_preserved": true,
+          "candidate_sha256": "585703266124d6f0a06b21db526ea7020e486fd3638a53e91478d55af980dd8e",
+          "impact": "Medium",
+          "risk": "Low",
+          "effort": "Low",
+          "necessity": "Complete earlier editions carry different development and correction history. The existing auxiliary catalogue links only the current six files and package README; Git object survival alone is not described human access.",
+          "limits": "Historical reading access only. Do not revive old integrated architecture, harden ideal D1/D2 into current admission gates, create new README/VNext, claim frozen case or external adoption, or alter code/results/JSON.",
+          "dependencies": [
+            "Rebase actual source and sole existing owner at application head.",
+            "One additive table in existing auxiliary leaf and existing owner review.",
+            "Resolve every pinned URL to the authenticated Git object and perform public readback under parent authorization."
+          ],
+          "public_HTTP_readback_by_D": false
+        },
+        "root_cohort_events": 106,
+        "root_cohort_units": 369,
+        "first_parent_events": 105,
+        "first_parent_units": 364,
+        "duplicate_branch_events": 1,
+        "precision": "AnnexII/IV/V retain substantive bodies with parent-link changes; III also adds current abstraction/EA reading route while keeping the old challenge table and validation-unit choice."
+      }
     }
   ],
   "audit_coverage": [
@@ -9022,7 +9179,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "374da9b879c5015dea6dac483f7edac1bd052403",
+  "review_source_commit": "62e03c56bac3f5c34f5c97939c52bf9bd37bab1a",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -22005,6 +22162,24 @@
       "binary_events_separate": 20,
       "whole_corpus_semantic_review_complete": false,
       "plan_sha256": "221b4520e76cf57480b9ea05c02e275c106dfa1d62598391b4187eccf56cfbeb"
+    },
+    {
+      "date": "2026-10-15",
+      "base": "62e03c56bac3f5c34f5c97939c52bf9bd37bab1a",
+      "entries": [
+        134
+      ],
+      "literal_pairs": 1,
+      "D_root_events": 106,
+      "D_root_units": 369,
+      "D_first_parent_units": 364,
+      "B_media_non_PNG_events_adjudicated": 18,
+      "B_PDF_pages_inspected": 156,
+      "B_slides_inspected": 142,
+      "C_content_events_adjudicated": 332,
+      "C_content_events_pending": 373,
+      "whole_corpus_semantic_review_complete": false,
+      "plan_sha256": "d53661735d1b1f42163395a3ff41c00fbee156a15e36831e3f0bf575461ae66e"
     }
   ],
   "rest_of_corpus_contextual_review_epochs": [

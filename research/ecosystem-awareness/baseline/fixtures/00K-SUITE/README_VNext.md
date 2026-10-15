@@ -330,3 +330,9 @@ One reader ambiguity remains in the actively linked A04 SYMBOLIC_EXECUTION_SUMMA
 
 The single reviewed reader paragraph is inserted in `research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_SUMMARY_v0.1.md`, blob `7320c1ab1b562dc6ac912bcc3c30c4127ab3200a`. The [complete old/proposed context](https://github.com/dakleyer/structural-awareness-contributions/blob/23dc1176267ce7d24b60258e7b93b1806b058199/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#change-128--identify-the-fixture-generations-in-the-retained-a04-explanations) remains in its published predecessor. This item is removed from the pending queue. The exact inverse recovers source `f7173d3c47d5b5ace7e2d9d4537a7a7cef0b2bc3`; every previous paragraph, heading, anchor, count and result remains.
 
+
+
+## Root workflow and fixture history reception — 15 October 2026
+
+D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.
+
