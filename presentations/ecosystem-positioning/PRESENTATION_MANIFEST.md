@@ -56,3 +56,12 @@ The upward route is the Structural Awareness Programme. The presentation must no
 ## Version-control rule
 
 The stable canonical filenames remain unchanged. Git history records revisions. Milestone versions may later be tagged or released instead of accumulating numbered copies in this folder.
+
+## Earlier split-deck editions — direct historical access
+
+The two v1.1 files below preserve the earlier public split-deck presentations. Use the v1.2 entries above for the repaired public reading route; these complete earlier editions remain available for comparison and provenance.
+
+| Earlier edition | Complete retained file |
+|---|---|
+| Requirements & Evidence v1.1 | [Download the earlier v1.1 deck](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) |
+| Architecture & Implementation v1.1 | [Download the earlier v1.1 deck](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) |
