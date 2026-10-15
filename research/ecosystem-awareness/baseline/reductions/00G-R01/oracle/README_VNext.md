@@ -1153,7 +1153,7 @@ Iván requests complete literal before/after before execution. The [joint source
 
 **Source:** `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `da0a8c4830841936c1313dc8799b7291342b122d`. **Location:** ## Claim boundary.
 
-**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+**State:** Applied — owner-authorized 15 October 2026. Source blob `f511c309fca30942deff376d9b52fb301c3c64b2`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
 
 **Benefit:** Makes the source/reference/control/caller prerequisites explicit before optional later engineering.
 
@@ -1197,3 +1197,8 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 **Pairs checked here: 111.** The complete current Claim boundary and proposed successor section are present. The packet distinguishes calibration, registration, admission and real execution; it preserves the bounded receipt for tasks 1/2 and leaves 3–8 inactive. Its method-index counterpart 110 also matches its source. No candidate, broker, oracle, freeze or run changed.
 
 Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+### Application 111 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; resulting source blob `f511c309fca30942deff376d9b52fb301c3c64b2`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.

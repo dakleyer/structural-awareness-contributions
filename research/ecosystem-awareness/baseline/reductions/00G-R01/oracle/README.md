@@ -187,6 +187,13 @@ oracle/
 
 The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
 
+### Next scoped successor decision
+
+The completed documentary work on tasks1/2 retains its bounded receipt. Further tasks3–8 remain inactive until their own scope and decision. A prospective successor packet identifies: the exact UC4/source-schema edition and correspondence; one selected CTv1 profile and admitted clauses; clause → predicate → private reference → fail-capable/positive control mapping; attempted versus observed effect and operation/cost accounting; candidate/caller/private-state isolation; and the accepted adapter/broker/reset/resource/stop conditions.
+
+Backend expansion is optional and separately scoped. Before any C11 registration/T03 admission or real execution, identify the selected reference, remaining schema/caller/isolation gaps and actual native evidence required. Calibration results remain calibration; the packet does not launch those tasks, reopen applied text or manufacture a technology result. The [existing plan review](./README_VNext.md) records the precise successor proposal and decision.
+
+
 
 ## Reading sequence from registration to result
 
