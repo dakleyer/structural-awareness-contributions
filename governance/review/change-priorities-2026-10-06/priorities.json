@@ -1,5 +1,5 @@
 {
-  "version": "1.61",
+  "version": "1.62",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8463,6 +8463,75 @@
         "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
       },
       "final_priority_reason": "D assesses low overall impact and next priority. Earlier high rating referred only to local audit readability; no efficacy is established."
+    },
+    {
+      "id": 141,
+      "title": "Restore DDS review quotation boundary",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "source_sha": "15a7f0f465605d797ec63f586268dfdbe947ece4",
+      "source_commit": "8a15d6490f2066ea6721948bbac777c7e3816b5a",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.\n````\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+      "after": "[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+      "pairs": [
+        {
+          "before": "[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.\n````\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+          "after": "[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.\n\n\n## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026",
+          "reason": "Delete only the orphaned four-backtick line plus LF: five bytes; legitimate opener719 and closer721 remain untouched."
+        },
+        {
+          "before": "The additional Stage B/C history likewise changes stage terminology without turning a specification result into architecture verification or an implementation result. UC-21 supplies objectives and Challenges; DDS remains the reusable method; campaign and outcome editions retain their own evidence contracts. The historical retired passages examined here reveal no new useful method clause to restore. Separate control-history and unresolved transfer-container work remains open in the corpus review.\n",
+          "after": "The additional Stage B/C history likewise changes stage terminology without turning a specification result into architecture verification or an implementation result. UC-21 supplies objectives and Challenges; DDS remains the reusable method; campaign and outcome editions retain their own evidence contracts. The historical retired passages examined here reveal no new useful method clause to restore. Separate control-history and unresolved transfer-container work remains open in the corpus review.\n\n\n## DDS review quotation repair — 15 October 2026\n\nChange 141 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its complete original pair remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-pendiente--mapa-de-informes-por-unidad-de-investigación). Local GFM parsing now reads the following audits as prose and pairs the later, legitimate quotation delimiters correctly. All prior prose, tables, link strings and scientific records remain unchanged. Verification combines the exact whole-source inverse and local GFM structure. GitHub’s HTML API returned `403 too_large` for this 2.4 MB review; the raw Markdown remains public. The 12 October passage above retains its dated case-package link. For current research navigation, follow the [DDS method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) in Contributions. The [existing baseline review](./baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary) owns the exact pairs and conservation check.\n",
+          "reason": "Append a dated, explicitly local-GFM-bounded receipt; no new pending card in this source."
+        }
+      ],
+      "impact": "Bajo",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Bounded existing DDS audit quotation repair",
+      "state": "Complete source-specific plan and root inverse prepared; D final revised-receipt check pending",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "benefit": "Read the existing audit paragraphs with the intended local/exported Markdown structure and the current method route.",
+      "riskReason": "Delete only one orphaned four-backtick line plus LF and append the exact reviewed receipt. All later legitimate quotations and prior substantive bytes remain.",
+      "costReason": "Trace the retired card, read affected contexts, verify the whole-source inverse and GFM structure of the2.4MB file, then exact public raw readback.",
+      "dependencies": [
+        "D final check of these exact revised receipt words and resulting blob",
+        "All later legitimate source quotations stay exact",
+        "No claim that the large public HTML response was rendered",
+        "Current source pin must still match before application"
+      ],
+      "preparation": "C traced source origin and tested local structure; root read the complete changed spans and reproduced whole-file inverse. D final revised receipt check pending.",
+      "gate": "Publish both complete pairs, finish separate verification and apply only this existing-VNext correction; retire its own pending card.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "change_kind": "review-format-and-receipt; no canonical scientific source",
+      "evidence": {
+        "C_original_proposal_sha256": "89cbbe67e0a1452db28dfb8c77d195be088784e17f0eb19afe4ae594e9ccb845",
+        "origin": {
+          "event": 348,
+          "parent": "77fc61447d3f278072d13f566bbedd7ccfe245d3",
+          "commit": "9fb9421711521decde6843b04914a143a1f04c35",
+          "before_blob": "d767893577c8ca7ecc1eb966415a570170b3edea",
+          "after_blob": "0dd872f1b960cd5ccf419fcda9a25f72b61dd838",
+          "current_orphan_line": 591,
+          "legitimate_opener_line": 719,
+          "legitimate_closer_line": 721
+        },
+        "expected_after_blob": "202709a3db61470b4e5cd73978bd037d7ea97772",
+        "byte_delta": 1293,
+        "whole_inverse": true,
+        "root_receipt_refinement": "Direct factual verification scope plus current DDS index; original C proposal remains intact.",
+        "public_html_limit": "GitHub HTML API403too_large; raw/source and local-GFM verification only"
+      }
     }
   ],
   "audit_coverage": [
@@ -9699,7 +9768,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "66417488fd75dba2612aed15767dc5bf465fcd10",
+  "review_source_commit": "8a15d6490f2066ea6721948bbac777c7e3816b5a",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -22998,6 +23067,16 @@
       ],
       "literal_pairs": 5,
       "plan_sha256": "ac562d2dd949dc47246ac2e2deade2ca7d2deca3d6352d9bc31fa5a1f25193d1",
+      "whole_corpus_semantic_review_complete": false
+    },
+    {
+      "date": "2026-10-15",
+      "base": "8a15d6490f2066ea6721948bbac777c7e3816b5a",
+      "entries": [
+        141
+      ],
+      "literal_pairs": 2,
+      "plan_sha256": "faf336c79efc347340ff5af05a903b34d31d114bb5f212bc86df9a55203db5de",
       "whole_corpus_semantic_review_complete": false
     }
   ],

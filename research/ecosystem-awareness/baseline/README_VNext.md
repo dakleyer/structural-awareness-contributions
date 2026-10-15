@@ -2050,3 +2050,57 @@ Expected overall impact, risk and effort are **Bajo**, priority **Siguiente**, f
 
 Expected overall impact, risk and effort are **Bajo**, priority **Siguiente**, following D’s final assessment. The earlier Alto label described the local reading benefit, not a scientific or system-level effect. The exact file delta is +854 bytes, including its dated receipt. Reversing these substitutions recovers source predecessor `a897cc2aa56adcb6abe061bd851aea9665be121c` byte for byte. All prior substantive prose, numerical evidence and unrelated bytes remain. No research code or result changes.
 
+
+
+### Change 141 — Restore DDS review quotation boundary
+
+**State:** prepared; separate final verification precedes application. **Expected impact:** Bajo. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
+
+Source `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `15a7f0f465605d797ec63f586268dfdbe947ece4` at `8a15d6490f2066ea6721948bbac777c7e3816b5a`. The old applied-card retirement left one closing delimiter at line591 as an opener. Local GFM then treats the following audit as code. The legitimate later opening/closing quotation remains untouched. Current research navigation is added only in the new dated receipt; the earlier case-package link stays literal.
+
+**Pair 1 — complete text before**
+
+`````markdown
+[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
+````
+
+
+## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
+`````
+
+**Complete text after**
+
+`````markdown
+[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
+
+
+## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
+`````
+
+**Pair 2 — complete text before**
+
+`````markdown
+The additional Stage B/C history likewise changes stage terminology without turning a specification result into architecture verification or an implementation result. UC-21 supplies objectives and Challenges; DDS remains the reusable method; campaign and outcome editions retain their own evidence contracts. The historical retired passages examined here reveal no new useful method clause to restore. Separate control-history and unresolved transfer-container work remains open in the corpus review.
+
+`````
+
+**Complete text after**
+
+`````markdown
+The additional Stage B/C history likewise changes stage terminology without turning a specification result into architecture verification or an implementation result. UC-21 supplies objectives and Challenges; DDS remains the reusable method; campaign and outcome editions retain their own evidence contracts. The historical retired passages examined here reveal no new useful method clause to restore. Separate control-history and unresolved transfer-container work remains open in the corpus review.
+
+
+## DDS review quotation repair — 15 October 2026
+
+Change 141 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its complete original pair remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-pendiente--mapa-de-informes-por-unidad-de-investigación). Local GFM parsing now reads the following audits as prose and pairs the later, legitimate quotation delimiters correctly. All prior prose, tables, link strings and scientific records remain unchanged. Verification combines the exact whole-source inverse and local GFM structure. GitHub’s HTML API returned `403 too_large` for this 2.4 MB review; the raw Markdown remains public. The 12 October passage above retains its dated case-package link. For current research navigation, follow the [DDS method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) in Contributions. The [existing baseline review](./baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary) owns the exact pairs and conservation check.
+
+`````
+
+**Reason:** Read the existing audit paragraphs with the intended local/exported Markdown structure and the current method route.
+
+**Risk and effort:** Delete only one orphaned four-backtick line plus LF and append the exact reviewed receipt. All later legitimate quotations and prior substantive bytes remain. Trace the retired card, read affected contexts, verify the whole-source inverse and GFM structure of the2.4MB file, then exact public raw readback.
+
+**Verification:** source identity, exact full-file inverse and local GFM. GitHub’s HTML API returned `403 too_large`; public raw-byte readback remains the publication check. The complete file is2.4MB; no new semantic audit of every line is inferred from a delimiter check.
+
+**Iván’s instruction:** preserve source content and useful audit reception; publish complete old/proposed passages first, keep one owning VNext and retire only the incorporated item. The earlier exact review remains in Git history. The scientific source, code, results and frozen media do not change.
+
