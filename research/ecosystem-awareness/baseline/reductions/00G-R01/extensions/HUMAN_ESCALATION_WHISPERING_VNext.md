@@ -349,3 +349,10 @@ DDS correspondence. This mechanism profile supplies analytical technical evidenc
 ### Historical remnant application118 — 15 October 2026
 
 Applied the complete reviewed addition to `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md`. Predecessor `71dec1fde183252490a421bf3e4ff81eda8e49e9`; successor `227f42c34e57b5da19a20c113a21a1e5de0904f8`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
+
+
+## Historical remnant insertions verified 15 October 2026
+
+Applied and read back exactly on main: 118. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
+
+- Change118: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/2c43b34b5f49b0ae142716f2a2ec0ce034b62500).

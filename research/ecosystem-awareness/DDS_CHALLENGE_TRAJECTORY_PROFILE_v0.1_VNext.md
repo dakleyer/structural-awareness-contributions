@@ -18008,7 +18008,7 @@ This closes review of the six concrete documentary insertions, not the meaning o
 
 ### Authorised literal additions
 
-Iván's current instruction authorises careful insertion of justified remnants after the existing review/literal procedure. Old/new units below are complete; applicability is limited to the stated documentary source. These six items have no pending approval request in this batch. Application receipts will follow after public preparation and exact readback.
+Iván's current instruction authorises careful insertion of justified remnants after the existing review/literal procedure. Old/new units below are complete; applicability is limited to the stated documentary source. All six authorised additions are applied and publicly verified. Their literal units remain as applied history; the batch has no pending insertion.
 
 
 ### Change115 — Recover S5 scope reconciliation and the proposed UC4–UC21 return route
@@ -18077,3 +18077,15 @@ Applied the complete reviewed addition to `research/ecosystem-awareness/DDS_CANO
 ### Historical remnant application119 — 15 October 2026
 
 Applied the complete reviewed addition to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`. Predecessor `18bd84c68a3c559d781f07ca7ecedd64d305d986`; successor `7d26dd6071a1ad650f2a6d1aa5d0de42775df79a`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
+
+
+## Historical remnant insertions verified 15 October 2026
+
+Applied and read back exactly on main: 115, 119. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
+
+- Change115: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/99efcc3de7d53480e63b641187d8e633a591f53a).
+- Change119: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/499769161a20a7bdc3fa9858a74f29f0aaf6293d).
+
+Six insertions affect five existing source documents: the current method reader, its existing additional-reading leaf, two R01 reader editions and the central control. Preparation was published first in `7af698d88c8905f52e87910c246a015c40674860`; application/main `499769161a20a7bdc3fa9858a74f29f0aaf6293d` has twelve exact public file readbacks. Every before/after is complete, insert-only and has an exact inverse; all seven new relative destinations and five pinned fork routes resolve. The original48-file source custody, binaries, executable code, manifests, outputs, official Issue/PDF and retained feasibility copies are unchanged in this batch.
+
+The restored S5 closure recommendation remains attributed to its author; the UC4 feedback remains a proposal. The diagnostic N/A rule is prospective and does not certify a supplied substitute or regrade a frozen result. Earlier unresolved full-history/media/scientific work remains explicit; this is closure of these concrete remnant insertions.

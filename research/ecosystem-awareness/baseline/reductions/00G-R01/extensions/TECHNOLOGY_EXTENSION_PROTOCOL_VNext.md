@@ -320,3 +320,10 @@ The R01 equations and acceptance region remain authoritative wherever this proto
 ### Historical remnant application117 — 15 October 2026
 
 Applied the complete reviewed addition to `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md`. Predecessor `ba43b0ec31ca31114cdd515040c543c9d4dc099d`; successor `d9aa8d49c0203d92f9f33b71f67388c6a15b071f`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
+
+
+## Historical remnant insertions verified 15 October 2026
+
+Applied and read back exactly on main: 117. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
+
+- Change117: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/2efe2130805d1e19ae0716fc876662b34c11e12a).

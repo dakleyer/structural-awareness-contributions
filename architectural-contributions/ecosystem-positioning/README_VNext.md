@@ -2473,3 +2473,10 @@ The maintained reader route is UC-21 → objectives → Challenges → DDS → c
 ### Historical remnant application114 — 15 October 2026
 
 Applied the complete reviewed addition to `DOCUMENT_CONTROL.md`. Predecessor `e3ada85de309e7f654bbf74f4b1785cde51fb245`; successor `fdffd2ace15ed01ee9b9d9998d1ec27c1ba725d9`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
+
+
+## Historical remnant insertions verified 15 October 2026
+
+Applied and read back exactly on main: 114. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
+
+- Change114: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/2817f22aff28aca84eff2dab389fbf35eb82cb47).

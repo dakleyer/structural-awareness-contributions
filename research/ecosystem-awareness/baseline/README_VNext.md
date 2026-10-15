@@ -1774,3 +1774,10 @@ The linked documents and assets keep their source versions, authorship and terms
 ### Historical remnant application116 — 15 October 2026
 
 Applied the complete reviewed addition to `research/ecosystem-awareness/baseline/non-canonical/README.md`. Predecessor `26f0c3639aea11745b977a45ccc1de39f0655a9d`; successor `160602b5130ec8075d929bb7702e1cd73fbbe319`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
+
+
+## Historical remnant insertions verified 15 October 2026
+
+Applied and read back exactly on main: 116. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
+
+- Change116: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/7ca37914b70d35e85b914269ea9b0c5b8c3c045f).
