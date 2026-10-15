@@ -1881,3 +1881,11 @@ A subsequent A5 continuation has completed the 03/04 current bodies and their hi
 
 The three reviewed sentences are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, blob `8db79c05aa66a938b1e7ef47f8b22f0790685f00`. The [complete old/proposed paragraph](https://github.com/dakleyer/structural-awareness-contributions/blob/0774c38043e36d41693d21d0c104797a543fa6d3/research/ecosystem-awareness/baseline/README_VNext.md#change-129--identify-authentic-originals-behind-translated-planning-and-release-records) remains in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed paragraph recovers predecessor `e5f373bb104f370dfb336b356f14733aec61a59f` byte for byte;122 and every other source byte remain intact. Both JSON records are unchanged.
 
+
+
+## Further human-capacity and presentation history — 15 October 2026
+
+A6 completes the Foundation/Gradient/01K/A01 historical block:78 examined units,64 newly resolved,787 source units remain in A's fixed cohort. The [01K owner](01K_VNext.md#historical-human-capacity-integration-and-the-optional-protection-example--15-october-2026) contains the one useful optional protection example130; A01 timing and source-series corrections stay intact. No old HIT formula, universal argmax or enlargement-only Type restriction is restored.
+
+The [EP owner](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#human-capacity-and-presentation-follow-on-repairs--15-october-2026) records actual v1.1/v1.2 slide/link reception, the historical PDF and exact131/132 navigation proposals. Both old deck destinations remain available before the main route advances. C's latest semantic ledger has178/705 events adjudicated and527 pending, separate from20 binary events. Full-body custody alone is not its reception verdict.
+

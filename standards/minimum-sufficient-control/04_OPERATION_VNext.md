@@ -269,3 +269,9 @@ Current [00G v0.4 §§6/9](https://github.com/dakleyer/structural-awareness-cont
 
 [Operation §§16–18](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#16-worked-falsifier--bar-to-napoleon), blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`, retains `Role_effective ≠ Role_bound`, evaluation from observed behaviour and a legitimate metamorphic transition with objective, ACC/lineage, authority and validity horizon. [01D §§2–3/6](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), blob `8db6ded733dada42ca20f2cbe952b26809ec556e`, is the compatible per-operation/decision composition contract; it is not the narrative's replacement. New evidence does not extend old permission, and material change invalidates only dependent claims. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) records the receiver side. All three reception questions are resolved; empirical execution and efficacy remain separate questions.
 
+
+
+## Gradient posture-signature reception — 15 October 2026
+
+A6 traced Gradient's retired competing Γ signature to the complete current Operation §11 (lines329–408, blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). The three postures and ACC/authority/capacity/horizon inputs survive with Cart, Type, role and focal MSCA context. Normal may remain appropriate under qualified nonzero change; containment classification and legitimate migration retain their separate execution gates. Threshold/hysteresis remains local. The [Gradient owner](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the source-side judgment. No Operation patch or duplicate signature is needed.
+

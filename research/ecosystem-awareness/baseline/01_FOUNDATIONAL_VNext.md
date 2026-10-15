@@ -298,3 +298,11 @@ The legal/jurisdiction boundary has a real owner chain: Charter v0.2 §§2.3/Rel
 
 No new source repair follows from this continuation. The [baseline continuation](README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) preserves the wider frontier; remaining Foundation/03/04 histories continue.
 
+
+
+## Foundation reception completed for this historical block — 15 October 2026
+
+Reviewer A read the full 2,110-line Foundation and its old/current clause series, source blob `5d45779a223f114b1e68e5df0b5a9beb56b6fdc9`. Type1/2 are not limited to enlarging scope: waiting for an already-defined input may create Type1, and treating silence as approval or stale state as current may create Type2 within fixed scope. Current lines25–54 and1120–1150 receive the structural condition, finite closure and both management failures. Reinstating the narrower scope-enlargement restriction would reverse a valid correction.
+
+A may be probabilistic or interval-valued. Properly qualified uncertainty is not automatically a management fault; extra work becomes more than inefficiency when it consumes a viable response. Challenge outcomes remain conditional diagnostic signatures rather than universal Type identities. The 00M alignment retains handoff scope, freshness and provenance; characterised assessable reserve B remains distinct from uncharacterised exploration C. The neighbour expansion narrows novelty, and the coordination-distortion trajectory remains a hypothesis. No source repair is needed here. [Gradient VNext](../../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the coupled posture-owner reception.
+

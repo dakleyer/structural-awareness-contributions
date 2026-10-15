@@ -508,3 +508,47 @@ The source and actual step commits are recorded in the application receipts abov
 ## Execution reaudit 15 October 2026
 
 Re-read93 with107–109. Runtime/provider capacity and bounded admission guards remain aligned; no score, measured capacity or earlier HumanTime consumer was silently changed. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical human-capacity integration and the optional protection example — 15 October 2026
+
+Reviewer A read complete 01K (1,086 lines, blob `3c6e9526062335c8eedd6c23dc3f7fded80211bd`) and A01 (1,673 lines, blob `a60ea6991692dd0666203bb99e89b25564628745`), the old01K clauses and current ACC/Operation receivers. The source-series period-relative HICT/HICR/HID and GIC/NEO/ACW task framework remain separate from runtime human capacity; the superseded demand-minus-HIT debt formula is not restored. Current time, competence, authority, case fit, queue/timing, horizon, alert qualification and HOLD/UNRESOLVED boundaries survive. Routing does not demonstrate effective intervention or reduced HID.
+
+A01 §§7A.6–7A.9 receives the old falsifier: a conventional admissible route meeting the same frozen quality/authority objective at equal or lower burden receives full credit. Two marginal delay q-quantiles do not prove a q-bound for their sum; current A01 lines666–725 requires a joint delay or justified combined coverage and retains heuristic/UNKNOWN status. Human review completion remains distinct from approval delivery, action and effect. The [A01 owner](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#human-capacity-timing-and-source-series-reception--15-october-2026) records that receiver side.
+
+One useful optional example was lost from old §11 at commit `9f397df86fb66217937fbf08b3c99e0f46bc60a6`, parent `1a39dfe0ed70e1aa8040ddfbd68c20d713713dff`, blob `45e5dec20b09d19be6c574ab3d3e0af410e3d5c7`: non-retaliation / protected-objection conditions for an applicable ACC/signalling profile. The other old list functions have current receivers; R01's bounded objection studies do not replace the general optional example.130 restores only that example in §19 and leaves its legitimate ACC/policy owner explicit. D independently checked the full old clause, current context and ACC lineage. It creates no universal rule or claim that any deployment enforces such protection.
+
+### Change 130 — Restore the optional protected-objection example for a human-escalation profile
+
+**State:** independently reviewed and authorised by the current restoration instruction; not yet applied. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
+
+Source `research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md`, blob `3c6e9526062335c8eedd6c23dc3f7fded80211bd` at `1f1d90ada72b51c83ee23583298016d032e6b8ee`. Every complete context below occurs once. Application order for this batch: **130 → 132 → 131**.
+
+**Passage 1 — text before, complete current context**
+
+~~~~markdown
+A human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.
+
+A deployment may implement:
+
+~~~~
+
+**Passage 1 — text after, complete proposed context**
+
+~~~~markdown
+A human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.
+
+The applicable ACC or signalling profile may specify protected-objection and non-retaliation conditions for that human-escalation path; the legitimate ACC or policy owner determines those conditions.
+
+A deployment may implement:
+
+~~~~
+
+**Reason:** Restores a useful optional human-escalation design condition under its legitimate ACC/policy owner.
+
+**Risk and effort:** Keep may, the external owner and the human-escalation path. Do not create a universal requirement, assert an institutional protection or change runtime/HID calculations. Read the original complete ACC clause and current 01K/ACC receivers; verify one exact insertion and full-source inverse.
+
+**Dependencies:** Current 01K human-consumer section; ACC/policy-owner authority; Original317.4 clause, not the whole obsolete list.
+
+**Iván's instruction and decision:** extend historical damage control across the corpus, prepare exact VNext passages, check independently and apply only justified surgical repairs. This card covers only the complete passages above; the full-source inverse and public readback are the acceptance checks.
+

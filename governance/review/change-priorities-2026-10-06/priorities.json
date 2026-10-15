@@ -1,5 +1,5 @@
 {
-  "version": "1.41",
+  "version": "1.42",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7459,6 +7459,204 @@
       "application_from_commit": "0774c38043e36d41693d21d0c104797a543fa6d3",
       "applied_source_blob": "8db79c05aa66a938b1e7ef47f8b22f0790685f00",
       "published_pair_commit": "0774c38043e36d41693d21d0c104797a543fa6d3"
+    },
+    {
+      "id": 130,
+      "title": "Restore the optional protected-objection example for a human-escalation profile",
+      "source": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "source_sha": "3c6e9526062335c8eedd6c23dc3f7fded80211bd",
+      "source_commit": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+      "vnext": "research/ecosystem-awareness/baseline/01K_VNext.md",
+      "before": "A human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.\n\nA deployment may implement:\n",
+      "after": "A human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.\n\nThe applicable ACC or signalling profile may specify protected-objection and non-retaliation conditions for that human-escalation path; the legitimate ACC or policy owner determines those conditions.\n\nA deployment may implement:\n",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "benefit": "Restores a useful optional human-escalation design condition under its legitimate ACC/policy owner.",
+      "riskReason": "Keep may, the external owner and the human-escalation path. Do not create a universal requirement, assert an institutional protection or change runtime/HID calculations.",
+      "costReason": "Read the original complete ACC clause and current 01K/ACC receivers; verify one exact insertion and full-source inverse.",
+      "dependencies": [
+        "Current 01K human-consumer section",
+        "ACC/policy-owner authority",
+        "Original317.4 clause, not the whole obsolete list"
+      ],
+      "evidence": {
+        "historical_event": 317,
+        "unit": 4,
+        "commit": "9f397df86fb66217937fbf08b3c99e0f46bc60a6",
+        "parent": "1a39dfe0ed70e1aa8040ddfbd68c20d713713dff",
+        "old_blob": "45e5dec20b09d19be6c574ab3d3e0af410e3d5c7",
+        "historical_full_clause": "## 11. Relationship to ACC\n\nACC may govern whether and how human escalation is required, permitted or constrained.\n\nAn applicable ACC/signalling profile may specify, for example:\n\n- mandatory escalation conditions;\n- named or role-based recipients;\n- acknowledgement expectations;\n- required evidence fields;\n- non-retaliation / protected-objection conditions;\n- maximum tolerated response delay;\n- fallback or alternate-owner requirements;\n- constraints on automated reliance on human approval;\n- limits or policies for consuming scarce human-review capacity.\n\nACC does not calculate HID, HICR/HICT or runtime reviewer capacity.\n\nThis annex does not issue ACC.\n\nThe coupling is:\n\n~~~text\nACC defines admissible participation / escalation obligations\n+\n01K qualifies runtime human-escalation capacity where used and imports the existing HID architecture test\n+\n01J/EHD transports the bounded signal\n+\nRepositioning/authority consumes the result without bypassing legitimacy gates\n~~~\n\n",
+        "receiver_evidence": [
+          {
+            "path": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+            "blob": "3c6e9526062335c8eedd6c23dc3f7fded80211bd",
+            "line": 665,
+            "end_line": 683,
+            "literal": "## 19. Human consumer / subscription semantics\n\nA human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.\n\nA deployment may implement:\n\n- subscription;\n- notification;\n- queue membership;\n- named-owner routing;\n- role-based routing.\n\nSubscription means routing, not authority.\n\nNotification means delivery, not capacity.\n\nSilence does not imply approval unless an externally legitimate rule says so.\n\nA human is one possible receiver in the signalling topology, not a super-controller over Awareness or Repositioning.\n"
+          },
+          {
+            "path": "standards/minimum-sufficient-control/01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md",
+            "blob": "6059423eb0e2eca5a1281225e117f9f5017e3286",
+            "line": 65,
+            "end_line": 84,
+            "literal": "| Object | Meaning |\n|---|---|\n| **ACC_Lineage_ID** | Stable identifier for the contract/profile family whose continuity is being asserted. |\n| **ACC_Root / Lineage Authority** | Governance/issuance authority that anchors the lineage. This is an architectural trust/authority reference, not necessarily one cryptographic key or one server. |\n| **ACC_Instance_ID** | Identifier of the specific current ACC instance. |\n| **Parent_ACC_ID** | Previous instance from which the current instance derives, where lineage is versioned through successor records. |\n| **Subject binding** | Identity or actor binding for the participant to which the ACC applies. It MAY be UNBOUND for an MSCA-level ACC template/profile and becomes required when the ACC is instantiated as a participant's role-defining contract. |\n| **Domain / membership scope** | Organization, ecosystem, service, role-domain or participation context in which the ACC is meaningful. |\n| **Issuer / approver reference** | Authority that issued, approved or attested the current instance. |\n| **Authority evidence reference** | External evidence used to establish the issuer/approver mandate where required. |\n| **Version** | Version or revision of the ACC instance/profile. |\n| **Effective-from / validity** | When the instance becomes applicable. |\n| **Expiry / revalidation condition** | When the instance ceases to be current or must be checked again. |\n| **Status** | ACTIVE, SUSPENDED, REVOKED, SUPERSEDED, EXPIRED, or equivalent profile-defined state. |\n| **Mutation envelope** | Which fields or classes of change the subject may alter, propose, accept or delegate without breaking the lineage. |\n| **Approval route reference** | Which authority/process must approve changes outside the subject's currently delegated mutation rights. |\n| **MSCA extension-profile reference** | Mapping used to load the ACC constraints into the MSCA S/E/C/P/M boundary. |\n| **Signalling-profile reference** | Optional signalling contract/module required by this ACC. |\n| **Conflict / precedence owner reference** | Legitimate owner/rule for conflicts with overlapping ACCs, if one exists. |\n| **Proof / status reference** | Optional cryptographic, registry, attestation, credential-status or other verification reference. |\n"
+          },
+          {
+            "path": "standards/minimum-sufficient-control/01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md",
+            "blob": "6059423eb0e2eca5a1281225e117f9f5017e3286",
+            "line": 154,
+            "end_line": 162,
+            "literal": "The participant's identity does not prove that it may issue, amend or approve its own ACC.\n\nThe root/lineage authority may be an organization, institution, delegated governance role, policy authority, multisignature body, federation, service owner or other legitimate external owner.\n\n### 5.3 What may this participant do under the current ACC?\n\nThis is the **contract/admissibility** question.\n\nThe ACC may define permissions, prohibitions, role eligibility and mutation rights, but those do not automatically create a runtime authority token or execution permit. Where action requires a separate delegated authority or permit, the external authority mechanism remains authoritative.\n"
+          }
+        ]
+      },
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Continued historical human-capacity and presentation repairs",
+      "state": "Independently reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "preparation": "Complete exact passages independently checked; source-wide replay/inverse verified.",
+      "gate": "Apply only the reviewed passages in order130,132,131; retain old URLs before switching current entry.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      }
+    },
+    {
+      "id": 131,
+      "title": "Route programme readers to the repaired split decks and identify the historical PDF",
+      "source": "README.md",
+      "source_sha": "6b4a635446754d3b7135a9a52bd77995161305aa",
+      "source_commit": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+      "vnext": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "before": "[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx)\n[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)\n",
+      "after": "[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx)\n[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)\n",
+      "pairs": [
+        {
+          "before": "[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx)\n[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)\n",
+          "after": "[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx)\n[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)\n",
+          "reason": "Route to the existing repaired split decks while their v1.1 originals remain accessible from the manifest."
+        },
+        {
+          "before": "[Requirements & Evidence (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) · [Architecture & Implementation (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)\n",
+          "after": "[Requirements & Evidence (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) · [Architecture & Implementation (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)\n",
+          "reason": "Route to the existing repaired split decks while their v1.1 originals remain accessible from the manifest."
+        },
+        {
+          "before": "| the current architectural contribution | [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md) · [Requirements & Evidence](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) · [Architecture & Implementation](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) |\n",
+          "after": "| the current architectural contribution | [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md) · [Requirements & Evidence](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) · [Architecture & Implementation](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx) |\n",
+          "reason": "Route to the existing repaired split decks while their v1.1 originals remain accessible from the manifest."
+        },
+        {
+          "before": "### 📄 [Open the canonical PDF](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)",
+          "after": "### 📄 [Open the historical PDF — v1.0](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)",
+          "reason": "Match the manifest and the actual dated nine-page PDF; preserve the same PDF target."
+        }
+      ],
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Primera",
+      "benefit": "All three programme presentation entries reach the existing v1.2 public successors, and the retained v1.0 PDF has its actual historical status.",
+      "riskReason": "Six versioned href substitutions and one label only; no binary, other prose, scientific claim, section or target PDF changes. First preserve both exact v1.1 raw URLs in the existing manifest under132.",
+      "costReason": "B compared all 39 actual current slides, full ordered OOXML text and used links; map all18 absent relationship URLs to distinguish16 unbound relationships from2 clickable routes, and verify source-wide inverse and readback.",
+      "dependencies": [
+        "132 must be applied first",
+        "Existing manifest names v1.2 as canonical public split successors",
+        "Both actual current v1.1 binaries retained",
+        "00M semantic-update notice in manifest retained",
+        "No semantic regeneration of dated presentation exports"
+      ],
+      "evidence": {
+        "reviewer": "B",
+        "record": "Current v1.1/v1.2 full-body, visual and hyperlink reception",
+        "architecture_current_v11": "80da60b7",
+        "requirements_current_v11": "277b9006",
+        "architecture_v12": "9ce4606e",
+        "requirements_v12": "4afb9755",
+        "slides_inspected": 39,
+        "absent_relationship_urls": 18,
+        "unbound_orphan_relationship_urls": 16,
+        "formerly_clickable_routes": [
+          "01H via baseline README",
+          "MSCA via manifest"
+        ],
+        "pdf_blob": "8489462972887a78122e36f598770f41e81b63e8",
+        "pdf_pages": 9,
+        "pdf_edition": "v1.0 / 2026-09-23"
+      },
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Continued historical human-capacity and presentation repairs",
+      "state": "Independently reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "preparation": "Complete exact passages independently checked; source-wide replay/inverse verified.",
+      "gate": "Apply only the reviewed passages in order130,132,131; retain old URLs before switching current entry.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      }
+    },
+    {
+      "id": 132,
+      "title": "Keep direct historical access to both retained v1.1 split decks",
+      "source": "presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md",
+      "source_sha": "4c5459f950b18ccb0d99d3d9bd2867b66d2b445a",
+      "source_commit": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+      "vnext": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "before": "The stable canonical filenames remain unchanged. Git history records revisions. Milestone versions may later be tagged or released instead of accumulating numbered copies in this folder.\n",
+      "after": "The stable canonical filenames remain unchanged. Git history records revisions. Milestone versions may later be tagged or released instead of accumulating numbered copies in this folder.\n\n## Earlier split-deck editions — direct historical access\n\nThe two v1.1 files below preserve the earlier public split-deck presentations. Use the v1.2 entries above for the repaired public reading route; these complete earlier editions remain available for comparison and provenance.\n\n| Earlier edition | Complete retained file |\n|---|---|\n| Requirements & Evidence v1.1 | [Download the earlier v1.1 deck](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) |\n| Architecture & Implementation v1.1 | [Download the earlier v1.1 deck](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) |\n",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Preserves both previous programme download destinations as explicit historical reading routes before the programme entry advances to v1.2.",
+      "riskReason": "Append only to the existing manifest. Preserve all prior bytes, current entries and the 00M semantic-update notice; do not copy or edit presentations.",
+      "costReason": "Check the actual current v1.1 blobs, two full URLs and clear relationship to their corrected v1.2 successors.",
+      "dependencies": [
+        "Precedes131",
+        "Existing presentation manifest remains the single presentation status owner",
+        "Both v1.1 files stay at their present paths"
+      ],
+      "evidence": {
+        "reviewer": "B",
+        "manifest_blob": "4c5459f950b18ccb0d99d3d9bd2867b66d2b445a",
+        "v11_paths": [
+          {
+            "path": "presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx",
+            "blob": "277b90069029ac2b5a41f1fb6c95faaab71e8e4f"
+          },
+          {
+            "path": "presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx",
+            "blob": "80da60b78e041126afb3723646e3a309e563b8dd"
+          }
+        ]
+      },
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Continued historical human-capacity and presentation repairs",
+      "state": "Independently reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "preparation": "Complete exact passages independently checked; source-wide replay/inverse verified.",
+      "gate": "Apply only the reviewed passages in order130,132,131; retain old URLs before switching current entry.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      }
     }
   ],
   "audit_coverage": [
@@ -8695,7 +8893,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "0774c38043e36d41693d21d0c104797a543fa6d3",
+  "review_source_commit": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -21500,6 +21698,27 @@
       "whole_corpus_semantic_review_complete": false,
       "verifier": "D",
       "plan_sha256": "fdd765edefa75191478d0a79b4b98ee710f4e9db168e7b9dacee4742213d58f7"
+    },
+    {
+      "date": "2026-10-15",
+      "base": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+      "entries": [
+        130,
+        131,
+        132
+      ],
+      "application_order": [
+        130,
+        132,
+        131
+      ],
+      "literal_pairs": 6,
+      "A6_unresolved": 787,
+      "C_content_events_adjudicated": 178,
+      "C_content_events_pending": 527,
+      "binary_events_separate": 20,
+      "whole_corpus_semantic_review_complete": false,
+      "plan_sha256": "edfd433d1cb2c95d8c8c98584443a46b94e846f9b686baf3ad8739c90a5b6acc"
     }
   ]
 }

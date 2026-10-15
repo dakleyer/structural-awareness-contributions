@@ -128,3 +128,11 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 | 58 | Conservar alternativas y casos sin máximo en la selección | architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md | Aplicado |
 | 61 | Corregir el título duplicado de residual en Gradient | architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md | Aplicado |
 
+
+
+## Bounded gradient history and posture owner — 15 October 2026
+
+Reviewer A read all531 current Gradient lines, blob `72bee8adf66ef4281459190737d78e3fa1e5023a`, and its complete historical before/after series. Owner objectives, non-fungible risks, finite burden/time, material dependency projection, ACC admissibility and opportunity/admissibility/authority/execution separation survive. Current lines245–359 correctly retain vector/Pareto incomparability, ties, empty sets, unattained maxima and UNRESOLVED. Restoring an unconditional scalar-sign/unique-argmax transition would be a regression.
+
+Known unused assessable options remain B; C establishes neither benefit nor reachability, and D does not receive an assumed probability for the entire residual. Source-owned RA delta remains distinct from participant objective-conditioned gradient. The retired competing Γ signature is substantively received in current [Operation §11](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`, lines329–408: three postures, ACC/authority/capacity/horizon, Cart, Type, role and focal MSCA context. Qualified nonzero change may remain Normal; containment classification leaves execution with its owner, and migration requires a legitimate qualified path. No second Γ signature or source patch is needed. The [Foundation owner](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#foundation-reception-completed-for-this-historical-block--15-october-2026) records the corresponding Type correction.
+
