@@ -2,7 +2,7 @@
 
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
-Version0.1 · 6 October2026 · current audited study edition.
+Version0.1 · 6 October2026 · original scoped completion edition, with later current-reading additions in the linked reports. The dated coverage and release manifest describe the preserved 6 October package; each report links its current study record and prospective diagnostic successors. The original results are retained and are not regraded.
 
 These four studies now have an explicit current correspondence to the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [Stage A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), including both Stage A extension-review stages, proportional closure, material assumptions, Cost/Risk/Effectiveness, conditional Business Value and delivery boundaries. They are complete **within their declared analytical/local Stage A scope**; none is Stage B architecture verification, complete Stage C native/independent/population validation or commissioned SOW fulfilment.
 
