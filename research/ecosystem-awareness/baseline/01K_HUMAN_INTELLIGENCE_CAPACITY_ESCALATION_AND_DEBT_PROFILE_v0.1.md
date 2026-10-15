@@ -666,6 +666,8 @@ No Human Intelligence Debt measure becomes a privileged interrupt.
 
 A human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.
 
+The applicable ACC or signalling profile may specify protected-objection and non-retaliation conditions for that human-escalation path; the legitimate ACC or policy owner determines those conditions.
+
 A deployment may implement:
 
 - subscription;

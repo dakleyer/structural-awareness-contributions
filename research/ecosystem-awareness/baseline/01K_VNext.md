@@ -518,37 +518,7 @@ A01 §§7A.6–7A.9 receives the old falsifier: a conventional admissible route 
 
 One useful optional example was lost from old §11 at commit `9f397df86fb66217937fbf08b3c99e0f46bc60a6`, parent `1a39dfe0ed70e1aa8040ddfbd68c20d713713dff`, blob `45e5dec20b09d19be6c574ab3d3e0af410e3d5c7`: non-retaliation / protected-objection conditions for an applicable ACC/signalling profile. The other old list functions have current receivers; R01's bounded objection studies do not replace the general optional example.130 restores only that example in §19 and leaves its legitimate ACC/policy owner explicit. D independently checked the full old clause, current context and ACC lineage. It creates no universal rule or claim that any deployment enforces such protection.
 
-### Change 130 — Restore the optional protected-objection example for a human-escalation profile
+### Change 130 — Applied 15 October 2026
 
-**State:** independently reviewed and authorised by the current restoration instruction; not yet applied. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
-
-Source `research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md`, blob `3c6e9526062335c8eedd6c23dc3f7fded80211bd` at `1f1d90ada72b51c83ee23583298016d032e6b8ee`. Every complete context below occurs once. Application order for this batch: **130 → 132 → 131**.
-
-**Passage 1 — text before, complete current context**
-
-~~~~markdown
-A human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.
-
-A deployment may implement:
-
-~~~~
-
-**Passage 1 — text after, complete proposed context**
-
-~~~~markdown
-A human may be a receiver where an ACC, policy or signalling profile routes a class of signal to that human/role.
-
-The applicable ACC or signalling profile may specify protected-objection and non-retaliation conditions for that human-escalation path; the legitimate ACC or policy owner determines those conditions.
-
-A deployment may implement:
-
-~~~~
-
-**Reason:** Restores a useful optional human-escalation design condition under its legitimate ACC/policy owner.
-
-**Risk and effort:** Keep may, the external owner and the human-escalation path. Do not create a universal requirement, assert an institutional protection or change runtime/HID calculations. Read the original complete ACC clause and current 01K/ACC receivers; verify one exact insertion and full-source inverse.
-
-**Dependencies:** Current 01K human-consumer section; ACC/policy-owner authority; Original317.4 clause, not the whole obsolete list.
-
-**Iván's instruction and decision:** extend historical damage control across the corpus, prepare exact VNext passages, check independently and apply only justified surgical repairs. This card covers only the complete passages above; the full-source inverse and public readback are the acceptance checks.
+All 1 exact reviewed passage(s) are incorporated in `research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md`, blob `042fd311692586eeaa7c184315c13596c0ffa6b5`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/research/ecosystem-awareness/baseline/01K_VNext.md#change-130--restore-the-optional-protected-objection-example-for-a-human-escalation-profile) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `3c6e9526062335c8eedd6c23dc3f7fded80211bd` byte for byte. No presentation, result or code is changed.
 

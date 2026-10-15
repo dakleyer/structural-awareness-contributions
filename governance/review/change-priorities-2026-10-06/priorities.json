@@ -1,5 +1,5 @@
 {
-  "version": "1.42",
+  "version": "1.43",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7515,18 +7515,26 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Continued historical human-capacity and presentation repairs",
-      "state": "Independently reviewed and authorised; not yet applied",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": true,
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
-      "preparation": "Complete exact passages independently checked; source-wide replay/inverse verified.",
-      "gate": "Apply only the reviewed passages in order130,132,131; retain old URLs before switching current entry.",
+      "preparation": "All complete reviewed passages applied; full-source replay/inverse exact.",
+      "gate": "Applied under the current instruction; no reapplication pending.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
         "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
-      }
+      },
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
+      "applied_source_blob": "042fd311692586eeaa7c184315c13596c0ffa6b5",
+      "published_pair_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162"
     },
     {
       "id": 131,
@@ -8893,7 +8901,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "1f1d90ada72b51c83ee23583298016d032e6b8ee",
+  "review_source_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -15857,6 +15865,29 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Historical human-capacity/presentation restoration 130 applied",
+      "source_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
+      "proposal_assessments": [
+        {
+          "id": 130,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "All complete reviewed passages applied; full-source replay/inverse exact.",
+          "gate": "Applied under the current instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "3c6e9526062335c8eedd6c23dc3f7fded80211bd",
+            "after_blob": "042fd311692586eeaa7c184315c13596c0ffa6b5",
+            "before_unique": true,
+            "exact_inverse": true,
+            "literal_pairs": 1
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -21637,6 +21668,18 @@
       "exact_inverse": true,
       "pair_commit": "0774c38043e36d41693d21d0c104797a543fa6d3",
       "source_bytes_delta": 1072
+    },
+    {
+      "id": 130,
+      "date": "2026-10-15",
+      "from_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
+      "source": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "before_blob": "3c6e9526062335c8eedd6c23dc3f7fded80211bd",
+      "after_blob": "042fd311692586eeaa7c184315c13596c0ffa6b5",
+      "literal_pairs": 1,
+      "exact_inverse": true,
+      "pair_commit": "6d49be9c62c0dd889a6757ba0eb050e24b4c1162",
+      "source_bytes_delta": 201
     }
   ],
   "rest_of_corpus_followon_epochs": [
