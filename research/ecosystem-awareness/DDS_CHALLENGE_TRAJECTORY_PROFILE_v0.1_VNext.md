@@ -588,7 +588,6 @@ Read the report that owns the question before its run data. The routes below col
 | Instrument calibration | [R01 calibration v0.9](./baseline/reductions/00G-R01/oracle/SELFTEST_RECORD_v0.9.md) | Controls of the evaluator infrastructure, kept separate from technology-study outcomes. |
 
 [UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
-````
 
 
 ## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
@@ -18134,3 +18133,8 @@ Change120 is applied in main and read back exactly: [application](https://github
 D read the complete 1,209-line FG-TIDA map, the deleted 433-line profile, the 403-line receiving draft, the 137-line successor and their routers. The receiving alias existed in the parent before the old profile was removed; it is a real receiving document rather than a later name-only explanation. The move from old VM/order labels to DBC-EL keeps review before execution and the current Stage A/B/C duties. The former profile is retained as lineage, not reinstated as a competing method owner.
 
 The additional Stage B/C history likewise changes stage terminology without turning a specification result into architecture verification or an implementation result. UC-21 supplies objectives and Challenges; DDS remains the reusable method; campaign and outcome editions retain their own evidence contracts. The historical retired passages examined here reveal no new useful method clause to restore. Separate control-history and unresolved transfer-container work remains open in the corpus review.
+
+
+## DDS review quotation repair — 15 October 2026
+
+Change 141 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its complete original pair remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-pendiente--mapa-de-informes-por-unidad-de-investigación). Local GFM parsing now reads the following audits as prose and pairs the later, legitimate quotation delimiters correctly. All prior prose, tables, link strings and scientific records remain unchanged. Verification combines the exact whole-source inverse and local GFM structure. GitHub’s HTML API returned `403 too_large` for this 2.4 MB review; the raw Markdown remains public. The 12 October passage above retains its dated case-package link. For current research navigation, follow the [DDS method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) in Contributions. The [existing baseline review](./baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary) owns the exact pairs and conservation check.
