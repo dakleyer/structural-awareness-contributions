@@ -1,5 +1,5 @@
 {
-  "version": "1.65",
+  "version": "1.66",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8599,6 +8599,67 @@
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
         "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
       }
+    },
+    {
+      "id": 143,
+      "title": "Retain the DDS 0.1.2/0.1.3 review reservations",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "source_sha": "202709a3db61470b4e5cd73978bd037d7ea97772",
+      "source_commit": "0a5d9dc89bea22981280904da209042579a15ea2",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "Their detailed historical text remains available in Git history. They are not active work items.",
+      "after": "Their detailed historical text remains available in Git history. They are not active work items.\n\n**Historical review qualification — 15 October 2026 ([Change 143](./baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations)).** The [6 October review preserved before the ledger pruning](https://github.com/dakleyer/structural-awareness-contributions/blob/27938fa70a82c2fa07f79c60eed34ab4c2d9f267/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#L240-L266) records that the 0.1.2 literal pair covered §10B while its introductory addition was described outside that pair. It also records that the four 0.1.3 pairs covered the chain, §13.1, the HEW row and §14.1, while introduction, coverage and citation-field changes were also described outside those pairs. Those literal plans were therefore partial accounts of the respective deltas. The [retained EP review](../../architectural-contributions/ecosystem-positioning/README_VNext.md#imagen-conjunta-qué-planes-son-adecuados-y-cuáles-todavía-no) already keeps the 0.1.2 caveat and points to the 0.1.3 detail in this DDS review; the complete original linked here supplies that historical detail. The original review also warns that authority and evidence additions are not low-risk merely because they are prose, and that publication or text presence does not establish original authorization, replication or native results. This qualification retains the historical audit without reactivating incorporated proposals or restoring the former single-document method authority.",
+      "pairs": [
+        {
+          "before": "Their detailed historical text remains available in Git history. They are not active work items.",
+          "after": "Their detailed historical text remains available in Git history. They are not active work items.\n\n**Historical review qualification — 15 October 2026 ([Change 143](./baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations)).** The [6 October review preserved before the ledger pruning](https://github.com/dakleyer/structural-awareness-contributions/blob/27938fa70a82c2fa07f79c60eed34ab4c2d9f267/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#L240-L266) records that the 0.1.2 literal pair covered §10B while its introductory addition was described outside that pair. It also records that the four 0.1.3 pairs covered the chain, §13.1, the HEW row and §14.1, while introduction, coverage and citation-field changes were also described outside those pairs. Those literal plans were therefore partial accounts of the respective deltas. The [retained EP review](../../architectural-contributions/ecosystem-positioning/README_VNext.md#imagen-conjunta-qué-planes-son-adecuados-y-cuáles-todavía-no) already keeps the 0.1.2 caveat and points to the 0.1.3 detail in this DDS review; the complete original linked here supplies that historical detail. The original review also warns that authority and evidence additions are not low-risk merely because they are prose, and that publication or text presence does not establish original authorization, replication or native results. This qualification retains the historical audit without reactivating incorporated proposals or restoring the former single-document method authority.",
+          "reason": "Restore specific historical qualification and its original source link while keeping incorporated proposals retired."
+        }
+      ],
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Siguiente",
+      "wave": "Historical audit reception",
+      "state": "Complete historical reception pair published; separate final verification precedes application",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "benefit": "Make the old non-exhaustive-delta and authority-risk reservations readable at the DDS receiver that EP already references.",
+      "riskReason": "Add one explicitly dated historical qualification. Preserve the current incorporated-item sentence, method ownership, all earlier content and evidence; no old proposal or authority is reinstated.",
+      "costReason": "Read the complete old review, actual EP partial receiver and current method contracts; reproduce whole-source inverse and public readback.",
+      "dependencies": [
+        "Independent D review of this exact pair and source pins",
+        "Root revalidation against current public head before any application",
+        "Plan uses existing baseline README_VNext owner; source DDS VNext receives no second VNext",
+        "Keep source-native Stage1/Stage2 labels only as historical quotation descriptions; no DDS taxonomy change"
+      ],
+      "preparation": "C5 identified partial historical reception from complete source reading; root read full original240–266, EP relation and exact pair; D final exact check precedes application.",
+      "gate": "Publish the complete pair, finish separate review, revalidate source and apply only this existing-VNext addition under the current restoration instruction.",
+      "change_kind": "review-format-and-historical-reception; no canonical scientific source",
+      "evidence": {
+        "candidate_sha256": "4b09a5f7e23854ae4b88bf206ac11fcb92600b58a16b69fa7ed054ca925fb5c8",
+        "expected_after_blob": "b3e8122980f2ee3aded5b5fb5a13157dc62f73fe",
+        "byte_delta": 1483,
+        "whole_inverse": true,
+        "original_source": {
+          "commit": "27938fa70a82c2fa07f79c60eed34ab4c2d9f267",
+          "path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "blob": "ce51be33e085bb7a9ea8be7a436f9927fca2f127",
+          "bytes": 80950,
+          "sha256": "bc650a54bdb004f921f08a0894c9c608b02893e43fd1914f3ef9947cfb2d4197"
+        },
+        "current_EP_reception": "0.1.2 caveat retained; 0.1.3 detail points to DDS but was removed there",
+        "older_applied_proposals_reactivated": false
+      },
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      }
     }
   ],
   "audit_coverage": [
@@ -9835,7 +9896,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "7bd720c87fc45ab544fa2e5133e74b9a22781132",
+  "review_source_commit": "0a5d9dc89bea22981280904da209042579a15ea2",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -23234,6 +23295,16 @@
       ],
       "literal_pairs": 1,
       "scope": "Reader routes outside a retained source-relative quotation in an existing review",
+      "whole_corpus_semantic_review_complete": false
+    },
+    {
+      "date": "2026-10-15",
+      "base": "0a5d9dc89bea22981280904da209042579a15ea2",
+      "entries": [
+        143
+      ],
+      "literal_pairs": 1,
+      "scope": "Partial historical audit reception identified in final C5 event641",
       "whole_corpus_semantic_review_complete": false
     }
   ],

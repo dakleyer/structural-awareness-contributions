@@ -2702,3 +2702,10 @@ The root reproduced both whole-file inverses and the Markdown structure from C�
 [142 provides the next exact reader-route pair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation): a 403-byte paragraph containing two contextual links outside an unchanged historical A22 quotation. It does not replace the source-relative strings inside that quotation or reopen its stronger proof claim.
 
 The historical source join now has 1,907 events / 6,992 units examined, with 1,903 events / 6,988 units resolved. Four EP transfer-fragment units remain a custody question: parts 000/004/005/007, whose damaged or unidentified regions and package closure lack a matching complete original. Fifty complete CRC members, including eight slide XMLs, support four other resolved fragment units. They do not authenticate an intact presentation. The bounded local search of 170 files / 38 distinct deck contents found no exact original. Existing published presentations are unchanged. 138 remains the separately published canonical-title proposal awaiting Iván's specific decision.
+
+
+## Historical DDS audit reservation located — 15 October 2026
+
+C5 completes its 98 control-history events with one concrete partial reception: the old DDS review recorded that 0.1.2/0.1.3 literal pairs did not exhaust every introductory, coverage and citation change, and that authority/evidence changes do not become low-risk simply by being prose. EP already retains the 0.1.2 caveat, but its reference to 0.1.3 detail in DDS no longer reaches that detail. Current technical method content remains received.
+
+[143 publishes the complete contextual repair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations), with the full old audit 240–266 and one proposed 1,483-byte addition to the existing DDS VNext. It keeps incorporated proposals retired and current method ownership intact. Separate exact-text verification precedes incorporation. This is a historical audit omission, not a reason to restore an obsolete method or its old plans.
