@@ -1733,7 +1733,7 @@ Re-read94,105/106,113 and the qualified00J transfer pair together. Same-Q5 scopi
 
 ### Change116 — Explain and link the fork’s separate case and repository-support material
 
-**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**State:** Applied — 15 October 2026; no further insertion pending for this item. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
 
 Source `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `26f0c3639aea11745b977a45ccc1de39f0655a9d` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
 
@@ -1769,3 +1769,8 @@ The linked documents and assets keep their source versions, authorship and terms
 ~~~~~~~~
 
 **Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Historical remnant application116 — 15 October 2026
+
+Applied the complete reviewed addition to `research/ecosystem-awareness/baseline/non-canonical/README.md`. Predecessor `26f0c3639aea11745b977a45ccc1de39f0655a9d`; successor `160602b5130ec8075d929bb7702e1cd73fbbe319`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
