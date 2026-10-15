@@ -2070,62 +2070,9 @@ Impact, risk and effort are **Bajo**, priority **Siguiente**. Both source-relati
 
 ### Change 143 — Retain the DDS 0.1.2/0.1.3 review reservations
 
-**State:** complete pair published; separate final check precedes incorporation. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Medio. **Priority:** Siguiente.
+**Applied 15 October 2026.** The exact 1,483-byte historical qualification is incorporated in `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `b3e8122980f2ee3aded5b5fb5a13157dc62f73fe`. The [complete published before/after and original audit context](https://github.com/dakleyer/structural-awareness-contributions/blob/3fef8fc395fd3d11381b1a9f096419c2094a3e02/research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations) retain the plan. C5 identified the partial reception from the full historical changes; D34 separately read the original, current DDS and EP receivers and verified this exact pair; root reproduced the full-source inverse. The pending card is retired.
 
-Source `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `202709a3db61470b4e5cd73978bd037d7ea97772` at `0a5d9dc89bea22981280904da209042579a15ea2`, under “2. Incorporated — no longer pending”, line 61. The old review qualified the completeness of the 0.1.2/0.1.3 literal deltas and the risk of authority/evidence changes. EP still preserves the 0.1.2 caveat and remits 0.1.3 detail to DDS. That specific detail was retired from DDS with the former whole-method review; an incorporated-item list and generic Git history do not fully receive it. The technical content is received in the current method contracts.
+Final overall impact and risk are **Bajo**; priority **Siguiente**. Effort is **Medio** because it includes historical reading, receiver comparison and validation, rather than drafting alone. C's original medium impact/effort assessment and D's low incremental impact/risk/effort judgement remain attributed in the published plan and review history. The addition restores audit reception; current scientific content and method authority do not change.
 
-**Complete text before**
-
-`````markdown
-Their detailed historical text remains available in Git history. They are not active work items.
-`````
-
-**Complete text after**
-
-`````markdown
-Their detailed historical text remains available in Git history. They are not active work items.
-
-**Historical review qualification — 15 October 2026 ([Change 143](./baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations)).** The [6 October review preserved before the ledger pruning](https://github.com/dakleyer/structural-awareness-contributions/blob/27938fa70a82c2fa07f79c60eed34ab4c2d9f267/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#L240-L266) records that the 0.1.2 literal pair covered §10B while its introductory addition was described outside that pair. It also records that the four 0.1.3 pairs covered the chain, §13.1, the HEW row and §14.1, while introduction, coverage and citation-field changes were also described outside those pairs. Those literal plans were therefore partial accounts of the respective deltas. The [retained EP review](../../architectural-contributions/ecosystem-positioning/README_VNext.md#imagen-conjunta-qué-planes-son-adecuados-y-cuáles-todavía-no) already keeps the 0.1.2 caveat and points to the 0.1.3 detail in this DDS review; the complete original linked here supplies that historical detail. The original review also warns that authority and evidence additions are not low-risk merely because they are prose, and that publication or text presence does not establish original authorization, replication or native results. This qualification retains the historical audit without reactivating incorporated proposals or restoring the former single-document method authority.
-`````
-
-**Justification:** Make the old non-exhaustive-delta and authority-risk reservations readable at the DDS receiver that EP already references. The paragraph repairs a historical audit reception route. It does not present both caveats as lost throughout the corpus, infer that the old scientific claims are false, or revive the previous monolithic authority.
-
-**Risk, effort and acceptance:** Add one explicitly dated historical qualification. Preserve the current incorporated-item sentence, method ownership, all earlier content and evidence; no old proposal or authority is reinstated. Read the complete old review, actual EP partial receiver and current method contracts; reproduce whole-source inverse and public readback. The one exact insertion is 1,483 bytes. Reverse substitution recovers the whole source. The original audit, current EP caveat/remission and new owner anchor must resolve; the pending card is retired after incorporation. C proposed; root independently checked the old/current relation; D's exact-text judgement precedes application.
-
-**Iván's instruction:** preserve substantive audits, not only file paths; publish complete before/after in the existing VNext, make a justified surgical repair and verify all unrelated bytes. No new review file, scientific execution, result change or reinstatement of applied work.
-
-<details>
-<summary>Complete historical review context — original lines 240–266</summary>
-
-`````markdown
-## Revisión a fondo de los planes de cambio — 6 octubre 2026
-
-**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `947f0ee3ac887160b19ddeff25ca73ba721697b7`. Los registros anteriores y sus viejos completos permanecen íntegros.
-
-No se confunden los pares históricos con trabajo pendiente. En particular, promoción a «canonical research document» y nuevas afirmaciones de evidencia no reciben riesgo Bajo sólo por estar en prosa. La valoración siguiente es del alcance documental; la presencia de texto no verifica autorización original, réplica o resultado nativo.
-
-| Par conservado | Estado comprobado | Impacto esperado | Riesgo | Esfuerzo |
-|---|---|---|---|---|
-| DDS canonical technical profile — VNext | Histórico; sustituido por época posterior | Alto | Medio | Medio |
-| Current-source epoch — preserve concurrent canonical-boundary/namespace clarification | Contenido incorporado; adición posterior en el preámbulo | Alto | Medio | Medio |
-| Owner-authorized reduced-coverage and delivery clarification0.1.2 | Texto ya incorporado | Alto | Medio | Medio |
-
-**DDS canonical technical profile — VNext.** Ni viejo ni propuesto aparecen en la fuente actual: la segunda época conserva una aclaración concurrente de qué significa canonical. No aplicar el primer preámbulo, que borraría esa reserva. **Comprobación:** viejo 0, después 0 coincidencia(s). **Antes de una revisión futura:** Mantener la época posterior y la declaración de canon interno; no atribuir aceptación externa.
-
-**Current-source epoch — preserve concurrent canonical-boundary/namespace clarification.** La aclaración Canonical identity sigue íntegra en la fuente y ya está publicada. El preámbulo completo dejó de coincidir porque se añadió Coverage/delivery clarification0.1.2; aplicar el después antiguo borraría esa aclaración. No es propuesta pendiente. **Comprobación:** viejo 0, después 0 coincidencia(s). **Antes de una revisión futura:** Conservar la época actual de preámbulo, identidad y cobertura/entrega; un cambio posterior requiere otro par literal contra esa fuente, no reescribir el antes histórico.
-
-**Owner-authorized reduced-coverage and delivery clarification0.1.2.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. El par cubre la sección 10B, pero la adición introductoria queda descrita fuera del par: el expediente debe reconocer esa cobertura literal parcial, no anunciar delta exhaustivo. **Comprobación:** viejo 1, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones. Las seis trazas mínimas, cobertura/evidencia/entrega y el contexto de la introducción deben conciliarse si se prepara una revisión futura.
-
-El trabajo nativo, una evaluación con otros responsables o una medición operacional siguen por concretar con alcance/recursos; no son nuevos pares que puedan ejecutarse. No se crea otra VNext por ejercicio, anexo o instrumento.
-
-[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
-
-### Revalidación concurrente de DDS0.1.3
-
-Durante la preparación entró `a2cee52fed3db130f2acfe3ece7d2106e3c66362`. Se preservan íntegros la fuente y la única VNext de esa entrega. Se leyeron sus cuatro nuevos pares: cadena Stage1/Stage2, inserción13.1, filaHEW e inserción14.1. Los cuatro después están presentes una vez; sus viejos son historia, no nuevas tareas. Impacto Alto, riesgo Medio, esfuerzo Medio: la disciplina de transferencia y el estado de la evidencia requieren cotejo, aunque el texto sea aditivo. La narración fuera de los pares también añade introducción, cobertura y campos de cita: el plan literal no es exhaustivo para todo ese delta. No se presenta esa reserva como una prueba fallida ni como trabajo nativo hecho.
-
-Stage1 conserva sólo la correspondencia probada en su kernel/base; Stage2 requiere justificar el compuesto. La referencia a SQLite/JWT-SVID/JWS no acredita humanos calibrados, implementación nativa, ventaja comparativa o auditor independiente. Las31 fichas de pares de las siete VNext DDS/tecnología quedan en la época de este mismo registro de prioridades, sin otra VNext ni otro método.
-`````
-
-</details>
+EP already retained the 0.1.2 caveat. The new DDS paragraph receives the specific 0.1.3 detail and authority-risk reservation, links the complete authentic original and leaves incorporated proposals retired. Reversing this one substitution recovers `202709a3db61470b4e5cd73978bd037d7ea97772` byte for byte. D confirmed all 168 code tokens and all blockquote/table/heading structure unchanged. The two concurrent 05/05A additions were retained exactly when this plan was published over `aaf0de16e6fd1462a842165a99a37124a787971d`.
 
