@@ -2062,29 +2062,7 @@ Impact, risk and effort are **Bajo**, priority **Siguiente**. The delta is +1,29
 
 ### Change 142 — Provide working reader links outside the retained A22 quotation
 
-**State:** complete pair published; separate exact-context verification precedes application. **Expected impact/risk/effort:** Bajo. **Priority:** Siguiente.
+**Applied 15 October 2026.** The exact 403-byte reader paragraph is incorporated in `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`, blob `ddf1e1b791935dec143246b05d850e096ee07f1e`. The [complete published before/after passage](https://github.com/dakleyer/structural-awareness-contributions/blob/7bd720c87fc45ab544fa2e5133e74b9a22781132/research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation) retains its plan. C identified the quoted-context routing; D33 separately read A22 and both complete A13/A14 receivers and verified this exact pair; root reproduced the whole-source inverse. The pending card is retired.
 
-Source `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`, blob `493b81e29cfff98dbd23e103084a1940fd72054f` at `86be8d6e14ff29cf56d6446a2684d49ca0682bd9`. The A22 qualification is retained as a literal source quotation. Its two source-relative links resolve in A22; this review needs its own reader routes. Add the following paragraph outside the quotation, immediately before the complete inspected-model paragraph.
-
-**Complete text before**
-
-`````markdown
-The actual simplified model carries the following complete inspected contract and P2/P3 definitions; it does not implement a derivation of conflict from records or the full inquiry graph/rank claimed by a stronger reading. The code was read, not executed.
-`````
-
-**Complete text after**
-
-`````markdown
-For the quoted A22 qualification above, open [A13 findings](../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) and [A14 corrections and status](../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md). These links resolve from this review; the source-relative links inside the historical quotation are retained verbatim.
-
-The actual simplified model carries the following complete inspected contract and P2/P3 definitions; it does not implement a derivation of conflict from records or the full inquiry graph/rank claimed by a stronger reading. The code was read, not executed.
-`````
-
-**Reason and benefit:** Let the reader open the actual A13 and A14 evidence from the A22 audit qualification in this review. A13 identifies the missing lifting bridge; A14 retains its open status. The new routes preserve that reading.
-
-**Risk and effort:** Only add a navigation paragraph outside the retained source quotation; both original URL strings, the qualification and the inspected code stay exact. Read the complete surrounding quotation and receiving argument, verify both targets and the whole-source inverse, then public readback. The exact addition is 403 bytes; inverse recovery must return the whole source. Delimiter repair 140 is already applied and is not repeated.
-
-**Dependencies and acceptance:** both target files, unchanged historical qualification and all source/coded evidence, current source identity and full public readback. C identified the quotation context; root checked the exact candidate and both path resolutions; D's separate exact-pair verdict precedes application.
-
-**Iván's instruction:** retain the information and its source, use existing VNext, publish complete old/proposed passages before justified surgical repair, and remove only the applied pending card after incorporation. This is an existing review addition; no original scientific source changes.
+Impact, risk and effort are **Bajo**, priority **Siguiente**. Both source-relative hrefs inside the historic quotation remain verbatim. All four code tokens, every existing blockquote and the complete A22 qualification remain unchanged. The new routes let readers open the findings and corrections while retaining the unresolved lifting-bridge limit. Reversing the single substitution recovers source predecessor `493b81e29cfff98dbd23e103084a1940fd72054f` byte for byte. No canonical source, code or result changes.
 

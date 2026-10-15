@@ -1,5 +1,5 @@
 {
-  "version": "1.64",
+  "version": "1.65",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8564,8 +8564,8 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Existing review navigation reception",
-      "state": "Candidate prepared; separate source/context check pending",
-      "application_status": "planned",
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
       "decision_ready": false,
       "authorized_to_apply": false,
       "positive_impact_proven": false,
@@ -8577,8 +8577,8 @@
         "Both correct baseline-relative target files must remain present",
         "Separate reviewer must verify this exact paragraph and source pin"
       ],
-      "preparation": "C identified quoted-context routing; root checked the current full qualification, unchanged following argument and both target paths.",
-      "gate": "Publish the complete pair, finish separate check and apply only the existing review addition under the current restoration instruction.",
+      "preparation": "C source-quotation context, D33 complete A22/A13/A14 receiver and exact-pair checks, root inverse complete.",
+      "gate": "Applied existing-VNext reader addition under the current restoration instruction; no reapplication pending.",
       "change_kind": "review-format-and-reader-route; no canonical scientific source",
       "evidence": {
         "expected_after_blob": "ddf1e1b791935dec143246b05d850e096ee07f1e",
@@ -8587,6 +8587,14 @@
         "does_not_rewrite_quoted_href": true
       },
       "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "7bd720c87fc45ab544fa2e5133e74b9a22781132",
+      "published_pair_commit": "7bd720c87fc45ab544fa2e5133e74b9a22781132",
+      "applied_source_blob": "ddf1e1b791935dec143246b05d850e096ee07f1e",
+      "application_authorization": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
         "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
@@ -9827,7 +9835,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "86be8d6e14ff29cf56d6446a2684d49ca0682bd9",
+  "review_source_commit": "7bd720c87fc45ab544fa2e5133e74b9a22781132",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -17073,6 +17081,33 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Existing review reader-route142 applied after D33",
+      "source_commit": "7bd720c87fc45ab544fa2e5133e74b9a22781132",
+      "proposal_assessments": [
+        {
+          "id": 142,
+          "state": "Applied; removed from the pending queue",
+          "impact": "Bajo",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "C source-quotation context, D33 complete A22/A13/A14 receiver and exact-pair checks, root inverse complete.",
+          "gate": "Applied existing-VNext reader addition under the current restoration instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "493b81e29cfff98dbd23e103084a1940fd72054f",
+            "after_blob": "ddf1e1b791935dec143246b05d850e096ee07f1e",
+            "literal_pairs": 1,
+            "exact_inverse": true,
+            "old_VNext_delimiter_exception": false
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -22989,6 +23024,19 @@
       "pair_commit": "49277ecd9af132668d7db5491ee8d62099eb98b7",
       "source_bytes_delta": 1293,
       "change_kind": "review-format-and-receipt; no canonical scientific source"
+    },
+    {
+      "id": 142,
+      "date": "2026-10-15",
+      "from_commit": "7bd720c87fc45ab544fa2e5133e74b9a22781132",
+      "source": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "before_blob": "493b81e29cfff98dbd23e103084a1940fd72054f",
+      "after_blob": "ddf1e1b791935dec143246b05d850e096ee07f1e",
+      "literal_pairs": 1,
+      "exact_inverse": true,
+      "pair_commit": "7bd720c87fc45ab544fa2e5133e74b9a22781132",
+      "source_bytes_delta": 403,
+      "change_kind": "review-format-and-reader-route; no canonical scientific source"
     }
   ],
   "rest_of_corpus_followon_epochs": [
