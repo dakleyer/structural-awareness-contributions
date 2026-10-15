@@ -2046,76 +2046,7 @@ Expected overall impact, risk and effort are **Bajo**, priority **Siguiente**, f
 
 ### Change 140 — Restore 00K historical audit readability
 
-**State:** prepared; D’s separate final check precedes application. **Expected impact:** Alto for audit readability. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**Applied 15 October 2026.** The exact 3 source-specific substitutions are incorporated in `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`, blob `493b81e29cfff98dbd23e103084a1940fd72054f`. The [complete published before/after passages](https://github.com/dakleyer/structural-awareness-contributions/blob/092dc8bb893c9b3618dbc8750b464b7ce8cd9238/research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability) retain the reviewed plan. C identified the retirement error and checked the public-before page; D separately checked the full-file pairs, affected context and Markdown structure; root reproduced the inverse and structure. The pending card is retired.
 
-Source `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`, blob `a897cc2aa56adcb6abe061bd851aea9665be121c` at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. The applied-card retirement at `9fb9421711521decde6843b04914a143a1f04c35` left the quotation boundary in the wrong state. The source and audit contents remain; the delimiter prevents normal reading.
-
-**Pair 1 — complete text before**
-
-`````markdown
-The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.
-````
-
-
-## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
-`````
-
-**Complete text after**
-
-`````markdown
-The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.
-
-
-## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
-`````
-
-**Pair 2 — complete text before**
-
-`````markdown
-### Variante vigente del plan de conteo — historia comprobada, aplicada
-
-Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
-
-## Current regression count — 12 October 2026
-`````
-
-**Complete text after**
-
-`````markdown
-### Variante vigente del plan de conteo — historia comprobada, aplicada
-
-Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
-
-````markdown
-## Current regression count — 12 October 2026
-`````
-
-**Pair 3 — complete text before**
-
-`````markdown
-D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.
-
-
-`````
-
-**Complete text after**
-
-`````markdown
-D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.
-
-
-
-## Historical audit readability repair — 15 October 2026
-
-Change 140 repairs the quotation boundaries left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). One stray delimiter before the historical audit is removed; the opening delimiter of the retained applied-source excerpt is restored, with its existing closer. The historical review again has normal headings, its evidence table and links. The source excerpt, including its source-relative link strings, stays quoted and literal. The earlier pending cards remain retired and every prior prose/count byte is retained. The [existing baseline review](../../README_VNext.md#change-140--restore-00k-historical-audit-readability) owns the complete exact pairs and their global inverse.
-
-`````
-
-**Reason:** Restore the human reading of existing audits and applied receipts; high impact is limited to audit readability.
-
-**Risk and effort:** Only the source-specific quotation delimiters and dated reviewed receipt change. Every prior research prose/count byte remains. The retired pending card is not restored. Read retirement origin, complete old/proposed context and public-before HTML, compare GFM structure and the whole-file inverse, then verify exact public readback.
-
-The historical 128→134→379 audit becomes prose again while its applied-source excerpt stays quoted, with all four source-relative href strings intact. The later A13/A14 links are unchanged and are a separate context question. The exact delimiter delta is +8 bytes, followed by the reviewed receipt, for +854 bytes overall. Three Python quotations remain exact.
-
-**Iván’s instruction:** preserve useful audit reception, publish the full old/proposed passages first and retire only the applied item. Use the existing owning baseline VNext, with a dated receipt in the affected review. Reversing every listed pair must recover the full source. No new VNext, programme or research result is introduced.
+Expected overall impact, risk and effort are **Bajo**, priority **Siguiente**, following D’s final assessment. The earlier Alto label described the local reading benefit, not a scientific or system-level effect. The exact file delta is +854 bytes, including its dated receipt. Reversing these substitutions recovers source predecessor `a897cc2aa56adcb6abe061bd851aea9665be121c` byte for byte. All prior substantive prose, numerical evidence and unrelated bytes remain. No research code or result changes.
 

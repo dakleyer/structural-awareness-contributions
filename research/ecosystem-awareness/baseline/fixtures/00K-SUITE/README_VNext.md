@@ -103,7 +103,6 @@ Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo
 The [current runner](./run_all.py) and [execution router](./README.md) specify **346 core +33 supplemental =379 regression tests**. The `101/27/128` block retained in Section6 does not describe that current execution contract. Read the current counts with the individual fixture records; the retained smaller block remains visible in this document's history.
 
 The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.
-````
 
 
 ## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
@@ -137,6 +136,7 @@ No reemplazar128 por379 sin contexto. La candidata deconteo de tanda5 queda refi
 
 Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
 
+````markdown
 ## Current regression count — 12 October 2026
 
 The campaign has three separately recorded execution states: **101 core +27 supplemental =128** ([25 September CI](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36099824950)); **101+33=134** ([successor CI](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965)); and **346+33=379** ([hardened-state CI](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548)). Each result belongs to its tested commit.
@@ -336,3 +336,8 @@ The single reviewed reader paragraph is inserted in `research/ecosystem-awarenes
 
 D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.
 
+
+
+## Historical audit readability repair — 15 October 2026
+
+Change 140 repairs the quotation boundaries left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). One stray delimiter before the historical audit is removed; the opening delimiter of the retained applied-source excerpt is restored, with its existing closer. The historical review again has normal headings, its evidence table and links. The source excerpt, including its source-relative link strings, stays quoted and literal. The earlier pending cards remain retired and every prior prose/count byte is retained. The [existing baseline review](../../README_VNext.md#change-140--restore-00k-historical-audit-readability) owns the complete exact pairs and their global inverse.
