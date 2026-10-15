@@ -158,3 +158,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 |---|---|---|---|
 | 17 | Explicar la correspondencia P_RA y delta RA | research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md | Aplicado |
 
+
+
+## Historical reception of composed authorisation — 15 October 2026
+
+Reviewer A read complete01D and its historical withdrawn clauses. Operation, objective, environment, context, action library, utility, affected parties, time and version remain bound together. UNKNOWN is not silently converted to RA neutral, MSCA SUPPORTED or EA Normal. An optional RA monitor does not veto an independently authorised action by default.
+
+A new signal does not extend an old permit; a new permit does not cure insufficient evidence. Acquisition, governance, review and execution costs remain attributed once, and a receipt is distinct from measured effect. These are preserved contracts, so the earlier broader/pending formulations are not restored. The separate Role phrase repair125 leaves this contract intact.

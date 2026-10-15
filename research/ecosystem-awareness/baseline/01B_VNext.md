@@ -89,3 +89,10 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/01B_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Historical reception of the MSCA interface — 15 October 2026
+
+Reviewer A compared complete current01B with its retired source clauses. Partial states UNASSESSED, FAILED and UNRESOLVED remain explicit; the legitimate owner supplies the objective, and evaluated alternatives do not establish a global minimum. F2 retains Semantic Window ownership. ACC remains separately owned and needs a compatibility check before its normative extension is coupled.
+
+Former pending architecture/ControlPositioning descriptions are now received through kernel, staticRole and dynamicOperation owners. Reinstating the pending wording would misstate current ownership. No interface field or old result needs restoration in the examined units.

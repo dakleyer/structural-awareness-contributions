@@ -84,3 +84,10 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [46](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [47](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Historical harness and snapshot reception — 15 October 2026
+
+Reviewer B read complete current A03 and its retired clauses. P1 preservation and P2 derivable composition retain equal registry access/cost and the C0 control. The permitted posture set excludes winning through HOLD; modeled burden stays nondiscriminating. CTv1, the disabled-detector self-test and operative preregistration remain explicit.
+
+Static runner review found legitimate corrections: expected qualifiers are snapshotted before adapter access, repeats are deep-copied, observed burden is validated, failed/runtime traces are retained and shared logic is labelled. Fifteen original Stage0 files retain their exact blobs from `be511a0`; five recorded fingerprints match the earlier executed runner/facts/oracle/preregistration/CTv1 editions. These are documentary/static comparisons; their nine code/record events remain in the source-review frontier pending full contextual adjudication. No fixture was rerun.

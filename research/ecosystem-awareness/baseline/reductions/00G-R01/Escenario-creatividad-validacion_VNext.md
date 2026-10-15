@@ -84,3 +84,39 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [29](oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [48](oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Complete bilingual scenario reception — 15 October 2026
+
+Reviewer C compared all269 Spanish→firstEnglish units, then checked their present receivers:220 paragraphs remain directly received across scenario/HF/reduction sources;49 changed units retain their conditions through terminology, capacity-versus-acceptance distinctions, Part3 placement or prose updates. Formulae, tables, costs and conventional-control tie/improvement remain.
+
+One coordination lost clear negative scope. The original Spanish says “EA no crea autoridad ni elimina la información indispensable”; first/current English says “EA creates no authority or eliminates indispensable information”. Change126 restores “neither creates authority nor eliminates”, keeping every other paragraph word. D independently checked the complete source paragraph and adjacent4.1 context. It adds no authority, experiment or efficacy claim.
+
+### Change 126 — Restore the two-part negation in the R01 scenario translation
+
+**State:** independently reviewed, authorised by the current restoration instruction; not yet applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md`, blob `c534b16998b9d1ab817cf5c6d55e11bfde38ccda` at `be96b051e0eff116f440e478b97eab0483972fd3`. Every old passage below occurs once.
+
+**Passage 1 — text before, complete**
+
+~~~~markdown
+00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA creates no authority or eliminates indispensable information; a conventional control doing the same may tie or improve its result.
+~~~~
+
+**Passage 1 — text after, complete**
+
+~~~~markdown
+00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA neither creates authority nor eliminates indispensable information; a conventional control doing the same may tie or improve its result.
+~~~~
+
+**Reason:** Restores the original Spanish statement that EA neither creates authority nor eliminates indispensable information.
+
+**Risk:** Only repair negation coordination; all formulas, costs, strong-peer possibility and result states stay identical.
+
+**Effort:** Compare the complete Spanish/English clause and surrounding argument; exact source inverse/readback.
+
+**Dependencies:** Spanish original c1c4f560/3261a625; First English edition8efc19c9/94874371; Current scenario and unique existing scenario VNext.
+
+**Iván's instruction:** complete the same historical damage-control process across the remaining corpus, using independent source review, exact VNext pairs, prioritised surgical repairs and full preservation checks. This candidate changes only its quoted text.
+

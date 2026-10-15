@@ -73,3 +73,10 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 01H §5 y 01B § §1/5, leídos completos, reciben la distinción delkernel entre representación/assessment, plantilla UNPOPULATED y UNASSESSED.01B §2 conserva multiobjetivo yalternativas realmente examinadas. ArticleII completo aporta procedencia; su A(t) deconfiguración ysu MCA amplio no sustituyen los símbolos/owners actuales. No hay razón nueva para editar S/E/C/P/M ni aplicar 57–59; fuentes/realizaciones aún abiertas.
 
 La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+## Historical reception of the kernel — 15 October 2026
+
+Reviewer A compared the complete current kernel (`ab03b11a6b91a156eaa22f76f4959d5ac530f52b`) and26 retired units. Legitimate ObjectiveEnvelope, partial versus sufficient support, authority, execution and measured effect remain separate. No universal minimum or merger of unrelated objectives is introduced.
+
+The older pending ControlPositioning work is received across the qualified architecture position,01B evaluation outputs and Operation candidates/gradients. Role alone is not asserted to receive the entire old function. The concrete receivers support retaining current ownership rather than restoring obsolete pending text.

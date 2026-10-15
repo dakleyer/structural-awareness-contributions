@@ -180,3 +180,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 | 53 | Conservar la calificación al enviar Cart_i a RA | standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md | Aplicado |
 | 56 | Corregir el título duplicado de D_Cart | standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md | Aplicado |
 
+
+
+## Historical reception of cartography — 15 October 2026
+
+Reviewer A compared complete Composition (`e30c89b0cf4157918088374504941826d7c015a9`) and41 retired units. ECM→Cart retains semantic map, material dependencies, support, assessment reserves and residual through current clauses. Similarity does not create dependency; an absent edge does not prove absence of a relationship.
+
+Known but unused resources remain B; a C route must establish its evaluative basis before being treated as reachable. RA still qualifies question, scope, version, freshness and evidence. Shared A/B/C/D vocabulary does not transfer support automatically. The historical D-heading fragment remains for navigation. No cartographic mechanism needs blanket restoration in these examined units.

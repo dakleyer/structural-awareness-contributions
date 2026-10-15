@@ -242,3 +242,12 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 | 37 | Conservar significado RA al entrar en Operation | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
 | 59 | Mantener en Operation el perfil de comparación del gradiente | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
 
+
+
+## Historical reception of operation and repositioning — 15 October 2026
+
+Reviewer A read complete Operation (`9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`) and105 retired units. Bound/effective drift, evaluation from observed state and realignment survive. Old RESTORE/CONTAIN/ISOLATE labels now have bounded target/request/approval routes: REALIGN_TARGET, REQUEST_CONTAINMENT, REQUEST_ISOLATION, REBIND_ROLE, RECONTRACT, MIGRATE, ESCALATE and UNRESOLVED.
+
+Containment classification is not execution, P3 does not authorise a destination, and high confidence alone does not establish Type2. Declared scalar/vector/Pareto gradients remain available; RA confidence is not physical change magnitude. Change125 aligns the staticRole source phrase with this existing bound/effective comparison.
+
+Three historical Operation scenario-version receiver obligations remain unresolved (`1263.0`, `1408.0`, `1433.0` in the source ledger). They require checking the referenced00G editions with the case review; their mere presence here is not a preservation verdict.

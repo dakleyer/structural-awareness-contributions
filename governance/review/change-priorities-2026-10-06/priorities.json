@@ -1,5 +1,5 @@
 {
-  "version": "1.33",
+  "version": "1.34",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6832,6 +6832,186 @@
       "application_from_commit": "666117e3e06f35908e5ea29945204ade4e2c4df2",
       "applied_source_blob": "2a46b95e350cd1885dbf8d69cffc58d259267074",
       "published_pair_commit": "a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0"
+    },
+    {
+      "id": 125,
+      "title": "Align the role producer with the assigned bound function",
+      "source": "standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md",
+      "vnext": "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+      "before": "These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **what this participant actually does** rather than relative to the whole MSCA indiscriminately.",
+      "after": "These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **the function assigned to this participant under the bound Architectural Role** rather than relative to the whole MSCA indiscriminately.",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "benefit": "Aligns the static role producer with01C and Operation, keeping observed behaviour separate.",
+      "riskReason": "Replace only the ambiguous phrase. No field, authority or dynamic-classification owner changes.",
+      "costReason": "Read Role,01C and Operation receiver clauses; check full-source inverse and links.",
+      "dependencies": [
+        "01C ArchitecturalRole_i static/declared role",
+        "Operation bound/effective role comparison"
+      ],
+      "evidence": {
+        "reviewer": "A",
+        "introduced_at_commit": "b05d0d3e6fe4b14d23903051b39e1f181dd341cf",
+        "introduced_blob": "4e738884472f3904b4dab0b33018c333d9192170",
+        "receiving_clauses": [
+          {
+            "path": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
+            "blob": "ac23f699b019c874684d8dde2dd5b6679cf05c9b",
+            "line": 131,
+            "end_line": 135,
+            "literal": "| **Cart_i / Δ_Cart,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and material cartographic change-set. The shared A/B/C/D vocabulary permits reuse without a second role taxonomy. RA must still qualify the slice's source question, scope, versions, freshness and evidential basis for its declared regime decision; cartographic support is not automatically support for the RA observation/context/detection contract. |\n| **focal MSCA X_i** | [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) | Current Objective Envelope, operating assumptions and C/P/M architecture against which regime change becomes control-relevant. |\n| **ArchitecturalRole_i** | [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) | The participant's declared functional/contractual role in the focal MSCA, including assigned inputs, outputs, dependencies, ACC binding and authority references. Qualified observation of actual behaviour and action/effect history remains separate evidence for comparison with that bound role; it does not replace the role binding or establish authority. Dynamic role-drift classification remains owned by Operation & Repositioning. |\n| **Decision / W_i / owner scope** | Legitimate owner + EA F1/F2 | Defines the active decision, observation boundary, materiality, response horizon and residual tolerance. |\n| **Direct observations / action effects** | Local sensors, systems, human/technical observation, execution/effect records | Evidence of local change that need not arrive through inter-agent signalling. |\n"
+          },
+          {
+            "path": "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
+            "blob": "9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb",
+            "line": 39,
+            "end_line": 77,
+            "literal": "## 2. Bound role versus effective role\n\nA participant may have a formally bound role:\n\n~~~text\nRole_bound,i(t)\n~~~\n\ndefined by the MSCA Architectural Role and its role-bound ACC.\n\nBut between control cycles the participant may already have changed behaviour.\n\nDefine:\n\n~~~text\nRole_effective,i(t)\n~~~\n\nas the role/function inferred from current observable behaviour, outputs, consumed inputs, dependencies, authority use, signalling, control actions and other qualified state.\n\nExamples of divergence include:\n\n- doing tasks outside the bound role;\n- pursuing a different Objective Envelope;\n- using interventions not assigned to the role;\n- accepting authority from a different lineage;\n- ceasing to perform required outputs;\n- creating dependencies inconsistent with the current role;\n- behaving as if a different ACC were applicable.\n\nThe first operation of repositioning is therefore:\n\n~~~text\nRole_bound,i\n↔\nRole_effective,i\n~~~\n\nnot immediately “find a better role”.\n"
+          },
+          {
+            "path": "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
+            "blob": "9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb",
+            "line": 124,
+            "end_line": 134,
+            "literal": "| Π_EA,i | participant-local EA | Current epistemic state and first evidence that a role metamorphosis may already have occurred. |\n| Role_bound,i | MSCA Architectural Role | Declared static function, dependencies, C/P/M and contractual binding. |\n| Role_effective,i | qualified observation of current behaviour | Determine where the participant is actually operating now. |\n| X_focal,i | focal MSCA | Current Objective Envelope and control architecture. |\n| Cart_i | Ecosystem Cartography | Candidate role/MSCA neighbourhood, confidence, expansion capability and residual. |\n| Δ_Cart,i | Composition & Control | Material changes in the represented ecosystem map. |\n| Δ_RA | Regime Awareness | Qualified regime-change position: A_RA direction; B_RA established support, validity limits and characterized assessment reserve; C_RA grounded exploration avenues not yet characterized; D_RA effects beyond effective evaluation. Confidence qualifies support and is not physical change magnitude; uncertain role classification remains UNKNOWN. Retain the source's scope, context, versions and freshness. |\n| RegimeOverlay_i | Regime Awareness | Which cartographic/MSCA assumptions are weakening, departed or unresolved. |\n| ACC_Role / lineage | role-bound ACC + ACC Lineage | Admissibility, mutation envelope, lineage continuity, approval route and validity. |\n| authority | external legitimate authority/delegation mechanisms | What may actually be approved/executed. |\n| action/effect history | execution + effect observation | Detect role drift and failed assumptions. |\n"
+          }
+        ],
+        "selected_variant": "Root minimum phrase replacement; the additional explanatory canonical sentence proposed by A stays in audit prose."
+      },
+      "source_sha": "9f6aef99c9f65888f10ce4b27f2e081388f3403c",
+      "source_commit": "be96b051e0eff116f440e478b97eab0483972fd3",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Continued rest-of-corpus historical damage control",
+      "state": "Independently reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "preparation": "Exact full passages and source/receiver context independently checked; full-file inverse verified.",
+      "gate": "Apply only the reviewed substitutions under the current restoration instruction.",
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
+    },
+    {
+      "id": 126,
+      "title": "Restore the two-part negation in the R01 scenario translation",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+      "before": "00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA creates no authority or eliminates indispensable information; a conventional control doing the same may tie or improve its result.",
+      "after": "00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA neither creates authority nor eliminates indispensable information; a conventional control doing the same may tie or improve its result.",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Restores the original Spanish statement that EA neither creates authority nor eliminates indispensable information.",
+      "riskReason": "Only repair negation coordination; all formulas, costs, strong-peer possibility and result states stay identical.",
+      "costReason": "Compare the complete Spanish/English clause and surrounding argument; exact source inverse/readback.",
+      "dependencies": [
+        "Spanish original c1c4f560/3261a625",
+        "First English edition8efc19c9/94874371",
+        "Current scenario and unique existing scenario VNext"
+      ],
+      "evidence": {
+        "reviewer": "C",
+        "spanish_source": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+          "commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
+          "blob": "3261a625975e303e12c484bc9c273d7f8819b099",
+          "full_paragraph": "00N conecta esa preservación con requisitos e hipótesis existentes y plantea comprobar conjuntamente utilidad, oportunidad y carga [REF12, §§3–4]. Ése es el puente hacia el experimento: medir si conservar esas distinciones recupera configuraciones eficaces después de cobrar su producción, interpretación, transmisión y mantenimiento. EA no crea autoridad ni elimina la información indispensable; un control convencional que haga lo mismo puede empatar o mejorar su resultado.",
+          "exact_clause": "EA no crea autoridad ni elimina la información indispensable",
+          "ls_tree_verified": true
+        },
+        "first_english_receiver": {
+          "commit": "8efc19c9659dacfae1e18bce7250dfc60a05ef7e",
+          "blob": "94874371b14beab370000ba8582714f89ba9d3d4",
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+          "changed_clause": "EA creates no authority or eliminates indispensable information"
+        }
+      },
+      "source_sha": "c534b16998b9d1ab817cf5c6d55e11bfde38ccda",
+      "source_commit": "be96b051e0eff116f440e478b97eab0483972fd3",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Continued rest-of-corpus historical damage control",
+      "state": "Independently reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "preparation": "Exact full passages and source/receiver context independently checked; full-file inverse verified.",
+      "gate": "Apply only the reviewed substitutions under the current restoration instruction.",
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
+    },
+    {
+      "id": 127,
+      "title": "Restore both negations in the Infoblox translation",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+      "source_sha": "b44b9c158cd47f8e59e2d92add1d74c4a3f11cae",
+      "source_commit": "be96b051e0eff116f440e478b97eab0483972fd3",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "before": "A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem provides no R01 guarantee or turns this case into 00G. The social relation to 00G retains its own proof.",
+      "after": "A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem neither provides an R01 guarantee nor turns this case into 00G. The social relation to 00G retains its own proof.",
+      "pairs": [
+        {
+          "before": "A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem provides no R01 guarantee or turns this case into 00G. The social relation to 00G retains its own proof.",
+          "after": "A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem neither provides an R01 guarantee nor turns this case into 00G. The social relation to 00G retains its own proof.",
+          "location": "line516",
+          "spanish_full_paragraph": "A25 exige X1–X7 y separa pertenencia de éxito [R18]. Lo usamos como disciplina de admisión; su teorema de transferencia de conformidad no suministra una garantía de R01 ni convierte este caso en 00G. La relación social con 00G conserva su prueba propia."
+        },
+        {
+          "before": "Edition 0.5 integrates 0.4 content into one reading sequence. It makes runs 0/1/2 explicit, brings P1 forward, gathers references and updates internal pointers. It preserves proof conditions, figures and limits. It adds no product experimental results or converts an EA hypothesis into a result.",
+          "after": "Edition 0.5 integrates 0.4 content into one reading sequence. It makes runs 0/1/2 explicit, brings P1 forward, gathers references and updates internal pointers. It preserves proof conditions, figures and limits. It neither adds product experimental results nor converts an EA hypothesis into a result.",
+          "location": "line685",
+          "spanish_full_paragraph": "La edición 0.5 integra el contenido de la 0.4 en una secuencia de lectura única. Explicita los recorridos 0/1/2, adelanta el perfil P1, reúne las referencias y actualiza las remisiones internas. Conserva las condiciones, cifras y límites de la demostración. No añade resultados experimentales de producto ni convierte una hipótesis de EA en un resultado."
+        }
+      ],
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Restores the original statement that A25 neither guaranteesR01 nor converts the case to00G, and that edition0.5 neither adds product results nor turns anEA hypothesis into a result.",
+      "riskReason": "Only repair negative coordination and its English article in two existing paragraphs. No proof, data, figure, run, result or protocol changes.",
+      "costReason": "Compare both complete Spanish/English paragraphs and surrounding context; verify composed whole-source inverse/readback.",
+      "dependencies": [
+        "Verified Spanish/firstEnglish/current Infoblox editions",
+        "Existing sole extensions catalogue VNextowner",
+        "All other source bytes retained"
+      ],
+      "wave": "Continued rest-of-corpus historical damage control",
+      "state": "Independently reviewed and authorised; not yet applied",
+      "application_status": "planned",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "preparation": "Exact full passages and source/receiver context independently checked; full-file inverse verified.",
+      "gate": "Apply only the reviewed substitutions under the current restoration instruction.",
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+      "evidence": {
+        "reviewer": "C",
+        "spanish_source": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md",
+          "commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
+          "blob": "97b5df5c2e5d2be8adcbff17595720cc68bf9514",
+          "ls_tree_verified": true
+        },
+        "first_english_receiver": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md",
+          "commit": "8efc19c9659dacfae1e18bce7250dfc60a05ef7e",
+          "blob": "aba2f04aa5deaee59bbf043d89a15495dc295a28",
+          "ls_tree_verified": true
+        },
+        "full_comparison": {
+          "spanish_to_first_english_units": 268,
+          "all_units_read": true,
+          "current_reception_exact_normalized_units": 259,
+          "current_reception_changed_units_read": 9,
+          "other_substantive_omission_found": false
+        }
+      }
     }
   ],
   "audit_coverage": [
@@ -8068,7 +8248,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "666117e3e06f35908e5ea29945204ade4e2c4df2",
+  "review_source_commit": "be96b051e0eff116f440e478b97eab0483972fd3",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -20639,6 +20819,36 @@
       "exact_inverse": true,
       "pair_commit": "a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0",
       "source_bytes_delta": 176
+    }
+  ],
+  "rest_of_corpus_followon_epochs": [
+    {
+      "date": "2026-10-15",
+      "base": "be96b051e0eff116f440e478b97eab0483972fd3",
+      "entries": [
+        125,
+        126,
+        127
+      ],
+      "application_order": [
+        126,
+        127,
+        125
+      ],
+      "actual_literal_pairs": 4,
+      "strategy_verifier": "D",
+      "source_review_addenda": [
+        "A2",
+        "A3",
+        "B2",
+        "C2"
+      ],
+      "source_frontier": {
+        "A_units_unresolved": 1200,
+        "B_events_unresolved": 253,
+        "C": "Event frontier separately retained; complete translations reviewed as described in owners"
+      },
+      "whole_corpus_semantic_review_complete": false
     }
   ]
 }

@@ -122,3 +122,39 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [54](../../research/ecosystem-awareness/baseline/01C_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [57](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [60](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Bound function versus observed behaviour — historical continuation, 15 October 2026
+
+Reviewer A compared the complete Role source and its nine retired units with current01C and Operation. 01C line133 and Operation §§2/4 bind the declared/static Role and separately infer effective behaviour from qualified observations. The Role source introduced “what this participant actually does” in commit `b05d0d3e6fe4b14d23903051b39e1f181dd341cf`; the following paragraph still says the object is static. This is a surviving producer ambiguity, not a lost function.
+
+Change125 selects a narrower variant than A's longer suggestion: replace only that phrase with the assigned bound function. The explanatory observation/drift sentence stays here in the audit. D checked the complete source and receivers; fields, authority and dynamic ownership remain as defined today.
+
+### Change 125 — Align the role producer with the assigned bound function
+
+**State:** independently reviewed, authorised by the current restoration instruction; not yet applied. **Priority:** Siguiente. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo.
+
+Source `standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md`, blob `9f6aef99c9f65888f10ce4b27f2e081388f3403c` at `be96b051e0eff116f440e478b97eab0483972fd3`. Every old passage below occurs once.
+
+**Passage 1 — text before, complete**
+
+~~~~markdown
+These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **what this participant actually does** rather than relative to the whole MSCA indiscriminately.
+~~~~
+
+**Passage 1 — text after, complete**
+
+~~~~markdown
+These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **the function assigned to this participant under the bound Architectural Role** rather than relative to the whole MSCA indiscriminately.
+~~~~
+
+**Reason:** Aligns the static role producer with01C and Operation, keeping observed behaviour separate.
+
+**Risk:** Replace only the ambiguous phrase. No field, authority or dynamic-classification owner changes.
+
+**Effort:** Read Role,01C and Operation receiver clauses; check full-source inverse and links.
+
+**Dependencies:** 01C ArchitecturalRole_i static/declared role; Operation bound/effective role comparison.
+
+**Iván's instruction:** complete the same historical damage-control process across the remaining corpus, using independent source review, exact VNext pairs, prioritised surgical repairs and full preservation checks. This candidate changes only its quoted text.
+

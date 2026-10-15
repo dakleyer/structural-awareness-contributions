@@ -260,3 +260,51 @@ Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas
 ## Literal R01 reader detail 15 October 2026
 
 Proposed110in the [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) distinguishes the root mathematical/work queue, active extensions reports and frozen historical packages with complete old/new reader text. Existing98/99remain in the completion review. No study, queue, manifest or result changes in this preparation.
+
+
+## Complete bilingual Infoblox reception — 15 October 2026
+
+Reviewer C compared all268 Spanish/firstEnglish units and their current receiving text.259 have direct current reception and nine changed units were examined in context; formulas, tables, proof boundaries,0/1/2 routes and product-evidence limits remain. Two negative coordinations were mistranslated: A25 neither guaranteesR01 nor turns this case into00G; edition0.5 neither adds product results nor converts an EA hypothesis into a result.
+
+Change127 corrects only those two complete paragraphs. The original source is Spanish blob `97b5df5c2e5d2be8adcbff17595720cc68bf9514` at `c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340`; firstEnglish is `aba2f04aa5deaee59bbf043d89a15495dc295a28` at `8efc19c9659dacfae1e18bce7250dfc60a05ef7e`. The current receiving blob is `b44b9c158cd47f8e59e2d92add1d74c4a3f11cae`. This catalogue remains the existing review owner; no Infoblox VNext is created.
+
+### Change 127 — Restore both negations in the Infoblox translation
+
+**State:** independently reviewed, authorised by the current restoration instruction; not yet applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md`, blob `b44b9c158cd47f8e59e2d92add1d74c4a3f11cae` at `be96b051e0eff116f440e478b97eab0483972fd3`. Every old passage below occurs once.
+
+**Passage 1 — text before, complete**
+
+~~~~markdown
+A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem provides no R01 guarantee or turns this case into 00G. The social relation to 00G retains its own proof.
+~~~~
+
+**Passage 1 — text after, complete**
+
+~~~~markdown
+A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem neither provides an R01 guarantee nor turns this case into 00G. The social relation to 00G retains its own proof.
+~~~~
+
+**Passage 2 — text before, complete**
+
+~~~~markdown
+Edition 0.5 integrates 0.4 content into one reading sequence. It makes runs 0/1/2 explicit, brings P1 forward, gathers references and updates internal pointers. It preserves proof conditions, figures and limits. It adds no product experimental results or converts an EA hypothesis into a result.
+~~~~
+
+**Passage 2 — text after, complete**
+
+~~~~markdown
+Edition 0.5 integrates 0.4 content into one reading sequence. It makes runs 0/1/2 explicit, brings P1 forward, gathers references and updates internal pointers. It preserves proof conditions, figures and limits. It neither adds product experimental results nor converts an EA hypothesis into a result.
+~~~~
+
+**Reason:** Restores the original statement that A25 neither guaranteesR01 nor converts the case to00G, and that edition0.5 neither adds product results nor turns anEA hypothesis into a result.
+
+**Risk:** Only repair negative coordination and its English article in two existing paragraphs. No proof, data, figure, run, result or protocol changes.
+
+**Effort:** Compare both complete Spanish/English paragraphs and surrounding context; verify composed whole-source inverse/readback.
+
+**Dependencies:** Verified Spanish/firstEnglish/current Infoblox editions; Existing sole extensions catalogue VNextowner; All other source bytes retained.
+
+**Iván's instruction:** complete the same historical damage-control process across the remaining corpus, using independent source review, exact VNext pairs, prioritised surgical repairs and full preservation checks. This candidate changes only its quoted text.
+

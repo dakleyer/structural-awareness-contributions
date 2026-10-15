@@ -234,3 +234,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 | 52 | Calificar la cartografía al recibirla en RA | research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md | Aplicado |
 | 54 | Separar rol vinculado y conducta observada al entrar en RA | research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md | Aplicado |
 
+
+
+## Historical producer/consumer reconciliation — 15 October 2026
+
+Reviewer A compared full01C and its history with Role, Composition and Operation. The current Cart_i row permits shared vocabulary but requires source question, scope, versions, freshness and evidential qualification for RA. This corrects the intermediate claim that common labels transferred support automatically. Historical redirection and scope clauses also retain current receivers; no blanket rollback is warranted.
+
+The ArchitecturalRole_i row at line133 correctly consumes the declared/static role; observed behaviour and action/effect history are separate evidence, and Operation classifies drift. The source Role line422 still said “what this participant actually does”. Change125 in the existing Role VNext selects only the phrase “the function assigned to this participant under the bound Architectural Role”. The source/consumer meaning aligns without adding a dynamic field or granting authority.

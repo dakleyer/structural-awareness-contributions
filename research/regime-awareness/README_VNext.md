@@ -202,3 +202,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 |---|---|---|---|
 | 35 | Conciliar los cuatro roles RA en su README | research/regime-awareness/README.md | Aplicado |
 
+
+
+## Historical source reception — RA and interfaces, 15 October 2026
+
+Reviewer A read the current RA/EWS routers and complete01B/01C/01D sources against their retired clauses. The old RA explanation is preserved exactly in PROGRAMME_CONTEXT, blob `c9b2a614423238842010537679e2ba77cb895b02`, with its six research questions, diagrams, relationships and authority/evidence limits. Current README links that receiver; no programme-body restoration is needed.
+
+01C preserves source question, observation scope, baseline, version, freshness and evidence qualification when interpreting A_RA/B_RA/C_RA/D_RA. P_RA is the detector signal; neutral does not imply Normal. A transient historical assertion that shared A/B/C/D labels made Cart_i immediately consumable was too strong; current01C line131 requires RA-specific qualification. Retain that correction. The source Role wording still blurred assigned function and observed behaviour; proposal125 addresses only its phrase, while Operation owns dynamic drift.

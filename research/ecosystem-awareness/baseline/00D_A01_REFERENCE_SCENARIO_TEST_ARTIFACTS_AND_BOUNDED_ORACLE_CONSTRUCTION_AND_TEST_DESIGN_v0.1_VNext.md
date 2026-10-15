@@ -84,3 +84,8 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [25](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [46](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [48](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Historical construction and oracle reception — 15 October 2026
+
+Reviewer B compared the complete former proof-sketch body with the current construction/test-design source and its historical clauses. The source graph, oracle residual, runtime/evaluator separation, ICR boundary, scarce resources, defender, preregistration, controls and full matrix survive. Changed title/status/01C/S# references and stronger observation duties do not remove that body. Current branching adds Q1c R/NR and Q1e/Q2/Q4; the former stipulated no-cascade falsifier is replaced by an observable null/control boundary. No old proof/execution implication is restored.

@@ -2516,3 +2516,18 @@ The first source-first reports explicitly distinguish semantic decisions from re
 The current local-target scan covers 15,869 navigation occurrences. Its 30 missing-target occurrences are confined to two retained historical snapshots; active source routes resolve at this cut. Raw links, external availability and fragments have separate checks and are not certified by this target-presence count. Every current nonhistorical Markdown has an explicit local incoming link except the two comment drafts now proposed for the existing additional-work leaf.
 
 All previous corpus audits, unresolved proposals and frozen evidence remain. The full-corpus damage review stays open until its clause-level and media frontier is reconciled; this bounded repair batch can be completed and verified meanwhile.
+
+
+## Continued historical readings and verified first repairs — 15 October 2026
+
+Changes 122–124 are applied in main at `be96b051e0eff116f440e478b97eab0483972fd3`. The exact earlier passages and proposals were first published at `a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0`. Each applied card was replaced by an application receipt in its existing VNext; the complete pairs remain in that published review predecessor.
+
+Verification compared the complete initial/final trees and replayed each source pair and its inverse: **2,396 paths before and after; nine existing paths changed; no new/deleted/moved files; three exact source repairs; 17 public byte readbacks** (nine changed files and eight pinned historical sources). All earlier VNext bytes remain a prefix, the first 121 registry entries are unchanged, and the old CSV is an exact prefix. All source/code/result/binary files outside the three named targets retain their original blobs.
+
+The source review then continued. A read RA/EWS and 01B/01C/01D completely, plus the six MSCA documents and their historical clauses. B added 112 clause/receiver decisions over 46 case/proof paths; C completed bilingual comparisons of M03/M04, protocol, HEW, scenario and Infoblox. These are continuations by the same source reviewers, not newly independent replications.
+
+Three further small repairs are ready: **126**, high impact/low risk, restores the scenario's Spanish two-part negation; **127**, high impact/low risk, restores two such negations in Infoblox; **125**, medium impact/low risk, aligns one Role phrase with its static producer contract. D independently checked their exact sources, receiving context and full-file inverses. Apply 126, 127, then 125. The first three repairs remain applied and are not queued again.
+
+Current semantic frontier after A3/B2: **A 1,200 units unresolved; B 253 events unresolved**. C's original event frontier remains separately tracked while its bilingual reading has progressed; its counts use different units. No sum or scan percentage represents corpus closure. Three MSCA Operation scenario-version receiver questions remain explicit, and the large presentation/visual frontier is still open.
+
+The complete old/proposed passages are in the existing [scenario review —126](../../research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md#complete-bilingual-scenario-reception--15-october-2026), [extension review —127](../../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#complete-bilingual-infoblox-reception--15-october-2026) and [Role review —125](../../standards/minimum-sufficient-control/02_ROLE_VNext.md#bound-function-versus-observed-behaviour--historical-continuation-15-october-2026). Cross-reception is recorded in01C; no extra review owner is created.

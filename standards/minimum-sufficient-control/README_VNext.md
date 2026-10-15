@@ -164,3 +164,10 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Historical reception of the six MSCA sources — 15 October 2026
+
+Reviewer A read all six current MSCA source documents and 278 retired historical units;256 previously unresolved units now have source/receiver decisions. The earlier README body survives as ARCHITECTURE_AND_STANDARDS_CONTEXT, exact blob `d9b2d4baf3c76e93f69727277e3302f5eff0c3c7`. The current README retains its route and separates documentary state from comparative validation.
+
+Architecture retains ObjectiveEnvelope and partial/sufficient support; ACC separates identity, binding, mutation and execution; Role is static; Composition owns Cart_i; Operation owns bound/effective comparison and requests. These receivers preserve the useful earlier responsibilities without recreating automatic control authority. Proposal125 only clarifies the staticRole producer phrase. Three Operation scenario-version receiver questions remain open; this reading is not a closure of all MSCA integrations.

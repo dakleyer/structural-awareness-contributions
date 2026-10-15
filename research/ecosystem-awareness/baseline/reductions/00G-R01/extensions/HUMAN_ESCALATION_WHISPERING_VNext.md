@@ -356,3 +356,8 @@ Applied the complete reviewed addition to `research/ecosystem-awareness/baseline
 Applied and read back exactly on main: 118. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
 
 - Change118: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/2c43b34b5f49b0ae142716f2a2ec0ce034b62500).
+
+
+## Complete bilingual HEW reception — 15 October 2026
+
+Reviewer C compared117 Spanish units with119 English units (two lists were split), including all formulae/tables, human capacity, authority, restart, sharing and costs. The English receiver and present feasibility/extensions editions retain those constraints; later differences are DDS terminology and the already applied118 edition note. No further substantive omission was found in this complete translation comparison.118 remains applied and is not requeued.
