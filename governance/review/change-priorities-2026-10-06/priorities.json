@@ -1,5 +1,5 @@
 {
-  "version": "1.32",
+  "version": "1.33",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6816,14 +6816,22 @@
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "date": "2026-10-15",
       "wave": "Rest-of-corpus historical damage control",
-      "state": "Reviewed and authorised; not yet applied",
-      "application_status": "planned",
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
       "decision_ready": false,
-      "authorized_to_apply": true,
-      "preparation": "Independent strategy check complete; literal unique context and exact inverse verified.",
-      "gate": "Apply only this exact reviewed passage under the current instruction; preserve results, sources and all other bytes.",
+      "authorized_to_apply": false,
+      "preparation": "Exact reviewed passage applied; complete source inverse verified.",
+      "gate": "Applied under the current instruction; no reapplication pending.",
       "positive_impact_proven": false,
-      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization."
+      "instructions": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "666117e3e06f35908e5ea29945204ade4e2c4df2",
+      "applied_source_blob": "2a46b95e350cd1885dbf8d69cffc58d259267074",
+      "published_pair_commit": "a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0"
     }
   ],
   "audit_coverage": [
@@ -8060,7 +8068,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "5d4e4629523b44da9e285e7af0c4366af9ca7cf8",
+  "review_source_commit": "666117e3e06f35908e5ea29945204ade4e2c4df2",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -14888,6 +14896,28 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Rest-of-corpus restoration 124 applied",
+      "source_commit": "666117e3e06f35908e5ea29945204ade4e2c4df2",
+      "proposal_assessments": [
+        {
+          "id": 124,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Exact reviewed passage applied; complete source inverse verified.",
+          "gate": "Applied under the current instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "40da30f981f2cdd51b7cbc0ab4f00b55114b429e",
+            "after_blob": "2a46b95e350cd1885dbf8d69cffc58d259267074",
+            "before_unique": true,
+            "exact_inverse": true
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -20598,6 +20628,17 @@
       "exact_inverse": true,
       "pair_commit": "a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0",
       "source_bytes_delta": 2609
+    },
+    {
+      "id": 124,
+      "date": "2026-10-15",
+      "from_commit": "666117e3e06f35908e5ea29945204ade4e2c4df2",
+      "source": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
+      "before_blob": "40da30f981f2cdd51b7cbc0ab4f00b55114b429e",
+      "after_blob": "2a46b95e350cd1885dbf8d69cffc58d259267074",
+      "exact_inverse": true,
+      "pair_commit": "a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0",
+      "source_bytes_delta": 176
     }
   ]
 }

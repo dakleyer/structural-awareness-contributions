@@ -207,6 +207,8 @@ Examples:
 
 Scale may change, but finite decision resources remain explicit: deadline/response horizon, observation or review capacity, relevant cost/burden and fallback. Upward extension does not grant unlimited time, evidence, humans or compute.
 
+The extension may not make the case easier by silently granting broader authority, a better oracle, independent evidence or a stronger owner than the base comparison permits.
+
 ### X7 — no hidden new primitive
 
 If the proposed variant needs a new semantic object/operator that does not normalize through the current A21 requirement grammar, it is a **case-family extension candidate**, not yet an admitted member.

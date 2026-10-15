@@ -308,37 +308,7 @@ Change 124 returns only that exact sentence under X6. The comparison fixes the d
 
 Related history: A05's authority-confound note survives as A06 with only the heading changed; the six historical A1–A3 code/test files retain their exact blobs and their separate 32 assertions. The current 379 campaign count is not increased. Two earlier JSON grammar representations receive historical reading links under change 123 in the [baseline owner review](../../README_VNext.md#rest-of-corpus--source-custody-and-historical-reading-15-october-2026), alongside the distinct 02B antecedents. Keep their historical proof scope, not the old all-six sufficiency assertion.
 
-### Change 124 — Make authority/evidence neutrality explicit in failure-family admission
+### Change 124 — Applied 15 October 2026
 
-**State:** reviewed exact proposal; authorised by the current restoration instruction, not yet applied. **Priority:** Siguiente. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo.
-
-Source: `research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md`, blob `40da30f981f2cdd51b7cbc0ab4f00b55114b429e` at `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. The complete old passage below occurs once.
-
-**Text before — complete current passage**
-
-~~~~markdown
-### X6 — finite resource and response declaration
-
-Scale may change, but finite decision resources remain explicit: deadline/response horizon, observation or review capacity, relevant cost/burden and fallback. Upward extension does not grant unlimited time, evidence, humans or compute.
-~~~~
-
-**Text after — complete proposed passage**
-
-~~~~markdown
-### X6 — finite resource and response declaration
-
-Scale may change, but finite decision resources remain explicit: deadline/response horizon, observation or review capacity, relevant cost/burden and fallback. Upward extension does not grant unlimited time, evidence, humans or compute.
-
-The extension may not make the case easier by silently granting broader authority, a better oracle, independent evidence or a stronger owner than the base comparison permits.
-~~~~
-
-**Reason / expected benefit:** Recovers the exact earlier condition within A25 admission, where A26 positive-success rules need not be invoked.
-
-**Risk to check:** Apply it as declared-case comparison discipline. Do not exclude a legitimately stronger defended peer, demand universal independence or retrospectively regrade frozen results.
-
-**Preparation and maintenance effort:** Read complete old/current A25 and A26, admission conditions and registry scope, then verify one added sentence.
-
-**Dependencies:** A25 X1-X7 and section 11; A26 Y3 (already preserves positive-extension restriction); CASE-EXTENSION structural validator (no code change; must not imply semantic enforcement); 00E-00J family profiles and successor campaign admission.
-
-**Iván's instruction:** extend historical damage control to the rest of the corpus; review independently, prepare literal VNext pairs, prioritise, apply surgical repairs and compare the whole predecessors again. This item changes only the stated passage. Scientific scripts/results and physical organisation stay in their current editions.
+The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md`, source blob `2a46b95e350cd1885dbf8d69cffc58d259267074`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#change-124--make-authorityevidence-neutrality-explicit-in-failure-family-admission) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `40da30f981f2cdd51b7cbc0ab4f00b55114b429e` exactly.
 
