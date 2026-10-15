@@ -255,6 +255,80 @@ Keep labels qualified in cross-study comparisons. UC-21 R0/R1/R2, AWS-I0/I1/I2, 
 
 For S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.
 
+### UC-21 application contract: select the claim before the run
+
+This subsection binds the UC-21 case protocols to DDS; other originating cases retain their own application contracts. Select the Challenge, bounded base scenario, technology/version/configuration, admitted variant and evidence contract. A technology mapping does not erase the base scenario or the original study freeze.
+
+| Selected question | Additional acceptance and conclusion |
+|---|---|
+| Case acceptance | Evaluate the selected scenario gates, actual outcome, matched legitimate activity, deadline and burden. Report that implementation outcome. |
+| HC | Register the family member, independent failure predicate, material intervention and specific transfer/qualification-loss/change/reuse pathway; use the declared A–D causal comparisons. A static failure neither establishes nor refutes that temporal sufficient pathway. |
+| HR | Demonstrate correction by the nominated R1 configuration before applying an admitted change; retain the same safeguards and ordinary adaptation in R2. Use the recurrence contract below. |
+| HS | Register the proposed communication-and-processing response, operating scope, component comparisons, warning/response margins and legitimate-activity criteria. Score the actual timely authorized response. |
+| H1–H6 | Name the individual frozen statement, its refutation test, comparator, measurements and scope. Case acceptance alone does not decide all six. |
+
+Implementation routes R0/R1/R2, causal factors A–D, response-component comparisons and DDS Stages A/B/C are separate selections. An HC ablation that disables a defence is not an HR trial retaining that defence. For S4, unauthorized aggregate action and silent loss of the material finding have separate outcomes: a narrower one-branch recurrence does not establish both.
+
+### UC-21 corrected-baseline recurrence contract
+
+For each nominated scenario i, register the reinforced implementation K_i, baseline C_i, remaining fixed conditions B_i, admissible intervention domain D_i and independent failure predicate F_i. The bounded deterministic question is: for every nominated scenario i, does some delta in D_i reproduce F_i under (delta(C_i),B_i) after K_i has corrected F_i at baseline? Each scenario may have its own delta. This quantifies over the named implementations and domains, not every implementation or all possible products.
+
+1. **Admission and correction.** Define family membership and X1–X7 mapping independently of the result. Demonstrate R1 correction on the selected branch and its legitimate-activity controls within the resource/deadline contract. A baseline still failing its selected branch is not admitted as recurrence.
+2. **Intervention domain.** Freeze permitted fields/ranges, owners/source versions, equality rules/tolerances, timing, observable signals, combinations, exclusions and feasible response/fallback limits. Preserve enough history to distinguish a new material change from a static mismatch. Unknown reference conditions remain unknown. Do not define materiality from the observed failure.
+3. **Retained defender.** Pin implementation/model/tools, capabilities, safeguards and total resource budget. Preserve ordinary discovery, policy loading, revalidation, adaptation and authorized response. The implementation freeze prevents post-outcome engineering; it does not disable lawful adaptive state. Declare capacity or response-margin variation and match access/resources across arms.
+4. **Comparison and attribution.** Use the same R1 in unchanged-context and admitted-change trials, with harmless-change and qualification controls as applicable. Record intervention time before consequential reliance, gate evidence, actual action/business outcome and, where feasible, withdrawal/restoration evidence. A different harm, removed defence or impossible response does not establish the nominated recurrence.
+5. **Stochastic scope.** Predeclare repetitions, pairing/randomization, available seeds, minimum relevant effect and uncertainty method. Distinguish reproducible witness, bounded recurrence probability and near-deterministic prediction.
+6. **Conclusion.** A causally supported admitted witness supports that scenario/configuration/domain. Joint six-family support needs the declared evidence for each family. Successful defenders remain results. Exhaustive/formal preservation of one scenario across its complete declared domain refutes that conjunction for the named scope; a finite non-exhaustive no-recurrence sample reports its coverage/bound, not immunity. Refuting one preregistered intervention prediction does not refute every other admitted intervention. Preserve disagreements, inconclusive trials and earlier protocol versions.
+
+The [case claim-selection source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) and [complete recurrence source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#annex-r) retain their full editions and definitions. These application bindings supply no new execution or hypothesis result.
+
+### UC-21 run and evidence binding
+
+Use the following eighteen fields for a prospective UC-21 record, or provide an explicit field-by-field mapping to the selected existing card. Name the actual card, claim, version and receiving owner before using it; an existing HEW or HF card is not automatically an HR campaign. An unfilled field remains pending; justified non-applicability states its reason and scope. U denotes the bounded operational representation; its active observation window is a separate selection.
+
+| Required field | Value/evidence to bind before execution |
+|---|---|
+| Run ID, date, tester and independent reviewer | Unique run identity; actual tester and reviewer, with independence/exposure described rather than assumed. |
+| Package, protocol, scenario and variant versions | Exact case package, selected protocol, scenario/variant and registered freeze. |
+| Claim: case acceptance / HC / HR / HS / selected H1–H6 | One selected case/HC/HR/HS/H contrast and its acceptance rule. |
+| Exact claim scope: candidate, family, all-six or all-profile | Named implementation, candidate set, family/all-six/all-profile domain and quantifier. |
+| S4 outcome: unauthorized action / silent loss / both / not applicable | Select unauthorized action, silent loss, both, or a reasoned not-applicable scope. |
+| Implementation route: R0 / R1 / R2 | R0, R1 or retained-R1-under-change R2; do not reuse rights-record R0 as a route. |
+| Causal condition A–D or response-component comparison, if applicable | Causal A–D or response components when selected; these are not extra implementation routes. |
+| Candidate/product/model/tool/configuration versions and hashes | Product/model/API/tool/code/configuration identities and hashes. |
+| Receiving decision, owner, grants and governing regime | Receiving decision, legitimate owner, current grants, purpose, scope, expiry and governing regime. |
+| Baseline facts, source access, provenance and permitted actions | Fixed facts, permitted access/actions, source/dependence and shared comparison conditions. |
+| Family admission X1–X7 and independent failure predicate | Declared X1–X7 mapping, independently fixed failure predicate and positive controls. |
+| R1 correction, legitimate-activity controls and frozen safeguards | Evidence of branch-specific correction, legitimate continuity and retained safeguards/adaptation. |
+| Context fields, change domain, materiality, timing and observable signals | D_i fields, materiality, equality/tolerances, intervention time and observable signal. |
+| Matched unchanged / harmless-change / qualification controls | Matched unchanged, harmless-change and qualification conditions; preserve successful defenders. |
+| Budget, capacity, deadline, fallback and warning/response margins | Units, finite budgets, qualified capacity, deadlines, warning margin and authorized fallback; state proof class and separate review completion from timely effect. |
+| Independent evaluator/oracle and separation from tested system | Evaluator/oracle identity, private truth, visibility/exposure and separation evidence. |
+| Metrics, thresholds, repetitions, pairing/seeds and uncertainty method | Actual numerator/denominator, thresholds, repetitions/pairing/seeds, uncertainty and minimum relevant effect. |
+| Raw evidence and reproduction location | Raw traces, inputs, frozen source identities, reproduction instructions and access conditions. |
+
+The same record also binds these nine evidence groups; a field may serve more than one group without being counted as another independent observation.
+
+| Record group | Required entries |
+|---|---|
+| Claim and trial design | Case acceptance, HC, HR, HS or selected H1–H6; implementation route R0/R1/R2; causal condition A–D where applicable; response candidate/component comparison where applicable; declared candidate/intervention domain and family-admission record. Keep these identifiers separate. |
+| Identity and freeze | Run ID; scenario/variant; selected R0/R1/R2; technology/model/API versions; code/configuration hashes; date; tester; independent assessor if any. |
+| Decision and authority | Receiving decision and owner; grantor, grantee, scope, purpose, expiry and governing regime; legitimate action owners; source-of-truth records; distinction between simulated and real components. |
+| Fixture | Fixed facts and snapshots; source lineage; input/event order; independent oracle; permitted actions; materiality/freshness thresholds; capacity; deadline; stop and fallback rules. |
+| R1 correction / R2 intervention | Baseline gate/control evidence; frozen safeguards and generic adaptation; admitted change fields, values, timing and observable signal; unchanged/harmless-change comparison; no post-outcome engineering. |
+| Per-gate trace | Gate ID; input and versions; evidence available at the time; control present/invoked status; result/reason; next step; actual owner/action/effect; timestamp; uncertainty and unexercised fields. |
+| Measurements | Declared numerators, denominators, thresholds and intervals; false continuation/containment; timing; source/review/query/token/resource burden; actual business outcome. |
+| Hypothesis conclusion | Separate from the implementation result: support within scope, rejected candidate, bounded refutation, not tested or inconclusive, with the claim-specific reason and causal/response evidence. A case FAIL may support an admitted causal witness; a case PASS does not establish every hypothesis. |
+| Conclusion | Scope-specific PASS/FAIL/NOT EVALUABLE/NOT EXERCISED/justified NOT APPLICABLE; disagreements; successful defences; excluded interpretations; reproduction instructions. |
+
+Copy each applicable scenario gate with its original wording into this six-column trace; keep actual control state, uncertainty and unexercised conditions visible.
+
+| Gate | Input/source/version | Evidence at decision time | Result and reason | Owner/action/effect | Timestamp |
+|---|---|---|---|---|---|
+
+Conclude separately: **implementation outcome** (gates, actual effect, continuity, deadline and burden); **hypothesis conclusion** (selected claim, supported scope, rejected candidate/bounded refutation/not tested/inconclusive and its reason); **reproduction and disagreements** (data, rerun/review status, successful defences and retained objections). Gate acceptance, warning and execution effect retain their distinct meanings.
+
+
 
 ## 14. Select the method profile and its instruments
 
