@@ -522,3 +522,8 @@ One useful optional example was lost from old §11 at commit `9f397df86fb6621793
 
 All 1 exact reviewed passage(s) are incorporated in `research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md`, blob `042fd311692586eeaa7c184315c13596c0ffa6b5`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/research/ecosystem-awareness/baseline/01K_VNext.md#change-130--restore-the-optional-protected-objection-example-for-a-human-escalation-profile) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `3c6e9526062335c8eedd6c23dc3f7fded80211bd` byte for byte. No presentation, result or code is changed.
 
+
+
+## Review-card history received at its dated source cut — 15 October 2026
+
+A11 read all four retired clauses of 01K_REVIEW_CARD with the complete current card and authentic source versions. Superseded HIT/runtime interpretation is received by the current 01K/A01 ownership split; component/schema/vector hashes remain prior verification snapshots. The card's `e52ed065…` “current public source blob” records its 6October review basis. It is a dated snapshot, while the linked profile remains the live source. This metadata does not identify a missing-content restoration or a new VNext. The current profile, component and earlier review bodies remain unchanged by this note.
