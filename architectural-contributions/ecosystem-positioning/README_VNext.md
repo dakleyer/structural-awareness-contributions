@@ -2423,3 +2423,48 @@ The maintained reader route is UC-21 → objectives → Challenges → DDS → c
 ````
 
 Acceptance: retain every current byte as the exact prefix; add only section34 after a named approval, check the two source identities and relative links, and read the final public bytes back. Current old-context matching and candidate preparation are verified; incorporation is pending.
+
+
+## Historical remnants 15 October 2026
+
+114 updates only the dated current-EP certification; the protected EP README and its old append-only application remain byte-identical during this batch. [Joint source and consolidation review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026).
+
+
+### Change114 — Record the approved 15 October EP successor in the existing central document control
+
+**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `DOCUMENT_CONTROL.md`, blob `e3ada85de309e7f654bbf74f4b1785cde51fb245` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
+
+**Why:** The central current-EP certification identifies the actual approved main edition instead of stopping at the 12 October predecessor.
+
+**Risk and validation:** A dated source certification could be mistaken for a new scientific approval. The append identifies the exact documentary application and keeps every historical certification and scope. Read dependencies `["97 already applied in413208033cd6b92c9982adc3cfff0fa5161a3995", "Existing application and execution-re-audit records"]`; verify the complete predecessor, relative links, inverse and final public bytes.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+## 33. 14 October 2026 — owner-requested expanded Flores corrective audit
+
+The existing campaign gains an [expanded corrective audit](./research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/EXPANDED_AUDIT_2026-10-14.md), a pinned predecessor baseline, stricter verifier, adversarial probes and an authored proof-checker successor. The owner asks to expand and resolve audits while preserving complete information. Every replaced record and previous verifier is retained as the identical blob in history/versions; original scientific source, fixture/code/calibration data and mock checker stay unchanged. The existing campaign/README ownership and source freezes do not change. Stage A/B/C promotion, native execution and independent acceptance remain prohibited without their own evidence. The dated source freshness cut and prospective blind/readiness contract close preparation issues without fabricating missing external results or private binaries.
+
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+## 33. 14 October 2026 — owner-requested expanded Flores corrective audit
+
+The existing campaign gains an [expanded corrective audit](./research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/EXPANDED_AUDIT_2026-10-14.md), a pinned predecessor baseline, stricter verifier, adversarial probes and an authored proof-checker successor. The owner asks to expand and resolve audits while preserving complete information. Every replaced record and previous verifier is retained as the identical blob in history/versions; original scientific source, fixture/code/calibration data and mock checker stay unchanged. The existing campaign/README ownership and source freezes do not change. Stage A/B/C promotion, native execution and independent acceptance remain prohibited without their own evidence. The dated source freshness cut and prospective blind/readiness contract close preparation issues without fabricating missing external results or private binaries.
+
+
+## 34. 15 October 2026 — approved UC-21/DDS literal application and protected EP successor
+
+Iván authorised the reviewed literal plan on 15 October. The [application record](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026) identifies 32 local passage replacements in 14 existing documents, the one approved paragraph in the official UC-21 Issue, and the separately approved custody of 48 exact original source-edition files. Their source and step commits are recorded in the existing VNext; no prior file was deleted, moved or renamed and no VNext was created.
+
+**Current protected EP README blob: `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`.** Proposal 97 appended only its approved S10 working-successor reading note in commit `413208033cd6b92c9982adc3cfff0fa5161a3995`; every predecessor byte remains the exact prefix. This dated successor supersedes the current-EP certification in section 26, whose `9767ec8efb7d3a2875866ea3cd22ebc94882e930` blob remains the correct 12 October historical edition. The protected EA entry README and Development Strategy remain unchanged by this application.
+
+The maintained reader route is UC-21 → objectives → Challenges → DDS → campaigns and results. The source-edition package is historical custody, not a second current method or case owner. Programs, earlier binaries, results and frozen manifests remain unchanged. The [execution re-audit](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026) distinguishes completion of this literal application from the still-open historical/material reception work and future per-campaign evidence duties.
+
+~~~~~~~~
+
+**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.

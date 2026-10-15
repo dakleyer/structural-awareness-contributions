@@ -282,3 +282,36 @@ Archived scripts may inspire controls and tests for the future harness. Their pa
 Complete 29 September-onward proof/oracle/queue history, all13 studies, native products, raw complete ledgers, independent oracle robustness and error3–8 adjudication remain outside this3-source review. No complete intermediary VNext chronology is claimed beyond stated retired/current bodies. World/source legitimacy, original authorized execution, institutional acceptance and empirical human/monetary/lifecycle calibration require their own evidence. No global closure follows from97 links,60 identical blobs or retained titles.
 
 
+
+
+## Historical remnants 15 October 2026
+
+117 compares the complete extensions/feasibility bodies. All bytes from section1 onward are identical; the added note links the retained context and sole work queue while preserving the mathematical contract. [Joint source and consolidation review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026).
+
+
+### Change117 — Connect the extension protocol’s current DDS reader to its retained mathematical edition
+
+**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md`, blob `ba43b0ec31ca31114cdd515040c543c9d4dc099d` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
+
+**Why:** Readers can distinguish the current Stage A route from the retained feasibility context and find the one work queue without treating two copies as two methods.
+
+**Risk and validation:** A navigation note could demote a mathematical source or alter its authority. The note preserves the same contract and requires edition-specific citation. Read dependencies `[]`; verify the complete predecessor, relative links, inverse and final public bytes.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+The R01 equations and acceptance region remain authoritative wherever this protocol is used.
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+The R01 equations and acceptance region remain authoritative wherever this protocol is used.
+
+**Edition route.** This `extensions/` edition supplies the current DDS Stage A reading. The [retained feasibility edition](../feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md) preserves the mathematical/work-plan context, whose [single queue](../feasibility/WORKPLAN.md) remains the R01 work register. Both editions retain the same mathematical contract; cite the exact edition used by the study.
+
+~~~~~~~~
+
+**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.

@@ -17972,3 +17972,98 @@ No prior HTTP destination disappears from the 14 changed sources. The previous c
 The EP VNext already identifies its approved new blob, but the central `DOCUMENT_CONTROL.md` current-EP certification still stops at the12 October blob. This is a control-record omission, not an unapproved EP edit. **Proposal114**, in the existing [EP VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#execution-reaudit-15-october-2026), gives complete old EOF context and complete proposed appendix. ImpactMedium, riskLow, effortLow; pending Iván's concrete decision. This re-audit does not change that canonical control source.
 
 The approved33 passage applications are complete. This review corrects the three review-record defects and prepares114; it changes no canonical source, historical payload, result, executable or official Issue. Earlier unresolved historical/material reception work remains visible in its own existing tasks. The scoped execution audit does not stand in for completing that wider work.
+
+
+## Historical remnants 15 October 2026
+
+The return to source history found three kinds of remnant worth receiving: **missing S5/UC-4 discussion routes; unclear relations between current extension readers and retained feasibility copies; and an explicit N/A-prerequisite condition removed from the diagnostic prose**. The remaining fork material needs a clear additional-reading description, rather than a copy of its registry tools or a second current case. Proposal114 also completes the already identified EP control record. Six exact insertions below preserve every existing source byte.
+
+### Sources and what the comparison establishes
+
+The fresh cut is `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`; the fork is `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`. The inventory authenticates all2,396 current files, the2,784 reachable main commits, the additional parent of each13merge, and all162 path/blob versions across the fork's four branches/48commits. It identifies6,991 retired contiguous text groups for reading; literal absence alone is not semantic loss. Current source, review/custody and Git-only history are distinguished.
+
+All23 current Contributions branch refs were also checked:21 non-main tips match the earlier full branch inventory, while the unmerged China Unicom development branch advanced from `b1d0aa2c` to `97f182ca`. Its latest source-facing hibernation-entry change was read separately; it remains another campaign's unmerged development, not adopted main content removed by the DDS migration. The eight previously unmerged branches retain that distinction. This batch does not import their proposals or publish a new campaign.
+
+The fork's54 UC21 files comprise the48original package positions and six existing review files. All48 original bytes,17figures and fourS5JSONfixtures are already preserved in Contributions. Of the later primary bodies, S3 adds a historical-copy notice; S6 is a pointer to maintained00J while its full original remains in the preserved package; README/USE_CASE add reader and objective guidance. The five objectives, sixChallenges, source-specific HR/HC/HS and full case protocols remain represented or source-linked in the maintained method; no wholesale old-case restoration is justified. The separate contextual-trust branch and23current root/register support files have different jobs and are linked as additional material, not called missing DDS evidence.
+
+The DDS history retains the three-stage split, source-relativeGateA scope, I/M/P/Ø and Type0/1/2 distinctions, corrected mathematical notation and typed dependency semantics. Old hard edges, automaticPASSES_IF claims and absence=FAIL rules are not reintroduced. The sourcebook and GatesB/C retain their own authority/evidence limits. For R01, the full current protocol copies have identical mathematical bodies from section1 onward; the full HEW copies have identical content from the DDS surface table onward. Their differences are the routed StageA framing and terminology comment. A short reciprocal reading note resolves that edition ambiguity without editing the retained copies.
+
+### Material diagnostic retirement
+
+Commit `dfa697e8a79e3d741a5b83d3bb935eb053f8574f` replaced the old diagnostic's latter part with a corrected conditional-result example. Its currentv0.1 ends at4.2; old sections5–12 and4.3 no longer appear there. The earlier body is blob `cd594ef27622a8b9d15d4b7a8df76d8cf4cb7880` at `3369f0b404714e6dfedc02988c03778cefcb4be6`. This is a demonstrable text retirement; intent or absence of owner approval is not inferred from the diff.
+
+| Retired function | Current reception and decision |
+|---|---|
+| Profile admission, required gates and fail-capable controls | Currentv0.2 sections5–5.2 and the declared result template; prospective Index§14 carries the successor packet. Preserve those versioned conditions. |
+| Standard gate report and remediation | Current result templates/catalog retain rows and remediation hints; Index§14 requests source/expected outcomes, sensitivity, disputes and reporting. Repairs remain candidates to refreeze/readjudicate. |
+| Cross-framework comparison and A/B/C boundary | CurrentStageA, Index§14 and GateC comparator rules retain strongest admissible peers, matched facts/resources and separate evidence claims. Do not restore the old illustrative gate count as a real result. |
+| Three-family validation and promotion | The separatev0.1 validation plan and its run remain versioned; the successor packet registers its own scope and promotion evidence. The earlier draft is not blanket admission. |
+| Explicit N/A-prerequisite substitute | The old4.3 said to freeze why a prerequisite is irrelevant and what fact supplies the dependent condition. Current prose retains a narrower identity-frozen example; the generic statement was retired.119 receives that condition only in the prospective successor. Current checker boolean/rationale checks do not prove the semantic sufficiency of a substitute. |
+
+### Six distinct review questions for these insertions
+
+**Meaning:** restore missing relationships and a decision condition, not earlier scientific conclusions. **Evidence/relations:** compare full pinned source and receiver bodies, including S5 author response and the UC4 return proposal; current frozen records retain their contracts. **Editing/format:** each after is the complete old context plus only an added block, with unique old match and an exact inverse. **Human reading:** explain what a source is for and which edition to choose; the sole three-level corpus and existing auxiliary leaf remain. **External source check:** comments6109154445/6115830369/6127959997 and the actual pinned S5README were read; attribute the author's closure recommendation and preserve proposed versus executed states. No external code, data or image is imported. **Consolidation:** source/receiver navigation is reviewed together across DDS, R01, baseline and EP; no new method, campaign, VNext or physical reorganisation is created.
+
+This closes review of the six concrete documentary insertions, not the meaning of all6,991 historical detection groups. Original binary rendering/rights, full wider source adjudication and real campaign evidence remain in the previously recorded tasks. The20binary change events are accounted as history; no binary is regenerated, overwritten or imported by this batch. Historical language/format changes and mathematical corrections are not automatically losses to restore.
+
+### Authorised literal additions
+
+Iván's current instruction authorises careful insertion of justified remnants after the existing review/literal procedure. Old/new units below are complete; applicability is limited to the stated documentary source. These six items have no pending approval request in this batch. Application receipts will follow after public preparation and exact readback.
+
+
+### Change115 — Recover S5 scope reconciliation and the proposed UC4–UC21 return route
+
+**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, blob `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
+
+**Why:** Restores the source author’s scope/closure response and the already proposed return loop from the fork reader into the maintained Contributions route.
+
+**Risk and validation:** A link could be mistaken for an agreed new campaign or full S5 acceptance; the text attributes the closure recommendation and labels the feedback proposal. Read dependencies `[]`; verify the complete predecessor, relative links, inverse and final public bytes.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.
+
+**S5 scope and closure record.** Read the [11 October audit findings](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) with [Xinghua Zhao's 12 October response](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). The author recommends closing the existing exercise at the corrected v0.1.3 supplied-model scope, distinguishing enforced predicates from upstream authority, freshness, lineage and actuator assumptions. Keep the successful branches, contrary probes and subsequent specification-selection questions together.
+
+**Proposed UC-4 ↔ UC-21 feedback.** The [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997) connects a source determination and its supporting conditions to a receiving-decision assessment; a demonstrated gap can return as a candidate control for a separately scoped UC-4 test. Its Steps A–F are a feedback sequence, distinct from DDS Stages A/B/C. Preserve evaluation evidence, action verdict, attempted action, target acknowledgement and independently observed target state as separate observations. Existing control success and observation limits remain valid outcomes. This is a proposed research route; the cited discussion records its scope and participants.
+
+~~~~~~~~
+
+**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Change119 — Recover the explicit N/A-prerequisite binding in the prospective diagnostic contract
+
+**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, blob `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
+
+**Why:** Restores a removed decision condition: non-applicability needs a justified substitute for a dependent claim, rather than becoming either automatic acceptance or blanket failure.
+
+**Risk and validation:** Reinstating the old whole profile would revive obsolete dependencies and automatic PASSES_IF language. The insertion applies only to the already prospective successor contract. Read dependencies `["104 already applied; successor scope only; frozen diagnostic packages unchanged"]`; verify the complete predecessor, relative links, inverse and final public bytes.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+SA-G08's finite-response/default rule and SA-G11's smallest affected disposition preserve parts of the earlier bounded-review duty. Old G-A13 and current SA-G13 have different meanings. Scope-specific completion of this packet is preparation for instrument admission, not a candidate technology result or an instruction to execute a campaign.
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+SA-G08's finite-response/default rule and SA-G11's smallest affected disposition preserve parts of the earlier bounded-review duty. Old G-A13 and current SA-G13 have different meanings. Scope-specific completion of this packet is preparation for instrument admission, not a candidate technology result or an instruction to execute a campaign.
+
+An instrument successor that treats a required prerequisite as `NOT_APPLICABLE` records, before adjudication, why it is irrelevant and which frozen fact or declared substitute supplies the dependent claim's needed condition. An unbound N/A declaration does not satisfy that dependency. Record this justification alongside the gate and named claim; explanatory `supports` edges do not become blocking prerequisites.
+
+~~~~~~~~
+
+**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.

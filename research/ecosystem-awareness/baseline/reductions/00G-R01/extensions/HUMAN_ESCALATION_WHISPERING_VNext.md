@@ -311,3 +311,36 @@ The analytical review-only calendar stipulates a separate authorized owner ACK a
 Complete 29 September-onward proof/oracle/queue history, all13 studies, native products, raw complete ledgers, independent oracle robustness and error3–8 adjudication remain outside this3-source review. No complete intermediary VNext chronology is claimed beyond stated retired/current bodies. World/source legitimacy, original authorized execution, institutional acceptance and empirical human/monetary/lifecycle calibration require their own evidence. No global closure follows from97 links,60 identical blobs or retained titles.
 
 
+
+
+## Historical remnants 15 October 2026
+
+118 compares the complete HEW copies. The DDS table and all following content match exactly; the added note explains routed StageA framing and edition/freeze citation, without alteringH0–H4, virtualR1/R2/R3, q or ACK calendars. [Joint source and consolidation review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026).
+
+
+### Change118 — Connect the HEW current reader to its retained feasibility edition
+
+**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md`, blob `71dec1fde183252490a421bf3e4ff81eda8e49e9` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
+
+**Why:** Makes the two existing HEW copies understandable and mutually reachable while retaining the analytical contract and distinct model/native evidence.
+
+**Risk and validation:** Do not pool analyticalq, model timing, measured human capacity or results across editions. The note only names the shared derivations and source-specific freeze. Read dependencies `[]`; verify the complete predecessor, relative links, inverse and final public bytes.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+DDS correspondence. This mechanism profile supplies analytical technical evidence for a Deployment Differential Study. Preserve R01 Cost–Risk–Effectiveness and the original q/h/p laws; a declared deployment adds a separate Business Value–Risk–Cost interpretation. The first [canonical HEW DDS research record](./HEW_DDS_STUDY_2026-10-06.md) now includes human-readable scenario selection, scope, freeze, exact reconstructions and a bounded SQLite model integration. These are neither measured human effectiveness nor a completed commissioned DDS.
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+DDS correspondence. This mechanism profile supplies analytical technical evidence for a Deployment Differential Study. Preserve R01 Cost–Risk–Effectiveness and the original q/h/p laws; a declared deployment adds a separate Business Value–Risk–Cost interpretation. The first [canonical HEW DDS research record](./HEW_DDS_STUDY_2026-10-06.md) now includes human-readable scenario selection, scope, freeze, exact reconstructions and a bounded SQLite model integration. These are neither measured human effectiveness nor a completed commissioned DDS.
+
+**Edition route.** Read this `extensions/` profile for current Stage A terminology and the linked study reports. The [retained feasibility edition](../feasibility/HUMAN_ESCALATION_WHISPERING.md) remains available with its earlier framing. H0–H4, the virtual R1/R2/R3 derivations and their evidence are shared; a study cites the particular edition and freeze it consumes.
+
+~~~~~~~~
+
+**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.

@@ -1724,3 +1724,48 @@ The source and actual step commits are recorded in the application receipts abov
 ## Execution reaudit 15 October 2026
 
 Re-read94,105/106,113 and the qualified00J transfer pair together. Same-Q5 scoping, historical non-curative approval/populations, the old J-C5 namespace, A25/X3/X4/A26 limits and the Contributions historical source link retain their intended distinctions; frozen fixture evidence is unchanged. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical remnants 15 October 2026
+
+116 classifies all additional fork roles and links them only in the existing noncanonical leaf. The original48-file case custody remains exact; nothing is copied into a new case or technical owner. [Joint source and consolidation review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026).
+
+
+### Change116 — Explain and link the fork’s separate case and repository-support material
+
+**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `26f0c3639aea11745b977a45ccc1de39f0655a9d` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
+
+**Why:** Accounts for the fork material beyond the48-file original UC21 package, with a purpose and bounded route for the separate case, graphics and register tools.
+
+**Risk and validation:** Support tools or a separate proposal could be confused with canonical DDS evidence. They are linked only as additional material in the existing leaf. Read dependencies `[]`; verify the complete predecessor, relative links, inverse and final public bytes.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.
+
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.
+
+
+## Other fork material — source reading and repository support · 15 October 2026
+
+The original UC-21 source package is [preserved in Contributions](../../../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md). The [current DDS reader](../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) owns the maintained research route. These additional links explain the remaining fork material without introducing another corpus entry.
+
+| Material | Purpose and relation to this corpus |
+|---|---|
+| [Later UC-21 reader and existing review records](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails) | Version-pinned history of the reader additions and review discussion. Its original annexes, figures and fixtures are preserved in Contributions; later objective/Challenge guidance and the S5/UC-4 discussion routes are received by the current DDS reader. This link identifies history, rather than maintaining a second case route. |
+| [Contextual trust under recursive human–agent escalation](https://github.com/dakleyer/use-cases/tree/57fb8682944d2c5d4f288182a2be278bfb8b7f93/contributions/contextual-trust-recursive-escalation) | Separate proposed case with a complete dossier, visual reading edition and original SVG/PNG guides. It contains 26 HAP requirements and 66 unexecuted test designs. Useful for comparing package admission, recursive review, evidence boundaries and stopping conditions; it is not UC-21 campaign evidence. |
+| [Case-register design and reviewer tools](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/use-case-register) and [submission template](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md) | Repository curation, SQL schema, dashboard/export helpers and submission support. These operate on the use-case register; they are not missing DDS protocols or study results. Their [root index and workflows](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1) retain the support context. |
+
+The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.
+
+~~~~~~~~
+
+**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.

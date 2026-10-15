@@ -1,5 +1,5 @@
 {
-  "version": "1.17",
+  "version": "1.18",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6314,6 +6314,183 @@
       "after": "## 33. 14 October 2026 — owner-requested expanded Flores corrective audit\n\nThe existing campaign gains an [expanded corrective audit](./research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/EXPANDED_AUDIT_2026-10-14.md), a pinned predecessor baseline, stricter verifier, adversarial probes and an authored proof-checker successor. The owner asks to expand and resolve audits while preserving complete information. Every replaced record and previous verifier is retained as the identical blob in history/versions; original scientific source, fixture/code/calibration data and mock checker stay unchanged. The existing campaign/README ownership and source freezes do not change. Stage A/B/C promotion, native execution and independent acceptance remain prohibited without their own evidence. The dated source freshness cut and prospective blind/readiness contract close preparation issues without fabricating missing external results or private binaries.\n\n\n## 34. 15 October 2026 — approved UC-21/DDS literal application and protected EP successor\n\nIván authorised the reviewed literal plan on 15 October. The [application record](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026) identifies 32 local passage replacements in 14 existing documents, the one approved paragraph in the official UC-21 Issue, and the separately approved custody of 48 exact original source-edition files. Their source and step commits are recorded in the existing VNext; no prior file was deleted, moved or renamed and no VNext was created.\n\n**Current protected EP README blob: `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`.** Proposal 97 appended only its approved S10 working-successor reading note in commit `413208033cd6b92c9982adc3cfff0fa5161a3995`; every predecessor byte remains the exact prefix. This dated successor supersedes the current-EP certification in section 26, whose `9767ec8efb7d3a2875866ea3cd22ebc94882e930` blob remains the correct 12 October historical edition. The protected EA entry README and Development Strategy remain unchanged by this application.\n\nThe maintained reader route is UC-21 → objectives → Challenges → DDS → campaigns and results. The source-edition package is historical custody, not a second current method or case owner. Programs, earlier binaries, results and frozen manifests remain unchanged. The [execution re-audit](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026) distinguishes completion of this literal application from the still-open historical/material reception work and future per-campaign evidence duties.\n",
       "acceptance": "After a named approval, current source equals the pinned complete predecessor plus only section34; all existing source bytes and dated controls remain, links resolve, exact public readback.",
       "instructions": "User requests a complete re-audit. Prepare any newly discovered canonical follow-up as an exact old/new proposal; no unapproved source execution in this audit."
+    },
+    {
+      "id": 115,
+      "title": "Recover S5 scope reconciliation and the proposed UC4–UC21 return route",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f",
+      "source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "before": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.",
+      "after": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.\n\n**S5 scope and closure record.** Read the [11 October audit findings](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) with [Xinghua Zhao's 12 October response](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). The author recommends closing the existing exercise at the corrected v0.1.3 supplied-model scope, distinguishing enforced predicates from upstream authority, freshness, lineage and actuator assumptions. Keep the successful branches, contrary probes and subsequent specification-selection questions together.\n\n**Proposed UC-4 ↔ UC-21 feedback.** The [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997) connects a source determination and its supporting conditions to a receiving-decision assessment; a demonstrated gap can return as a candidate control for a separately scoped UC-4 test. Its Steps A–F are a feedback sequence, distinct from DDS Stages A/B/C. Preserve evaluation evidence, action verdict, attempted action, target acknowledgement and independently observed target state as separate observations. Existing control success and observation limits remain valid outcomes. This is a proposed research route; the cited discussion records its scope and participants.\n",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Restores the source author’s scope/closure response and the already proposed return loop from the fork reader into the maintained Contributions route.",
+      "riskReason": "A link could be mistaken for an agreed new campaign or full S5 acceptance; the text attributes the closure recommendation and labels the feedback proposal.",
+      "costReason": "Read the complete source and receiver context; insert only the proposed block; inverse, link and exact public-byte checks; maintain the existing owner.",
+      "dependencies": [],
+      "evidence": [
+        "Fork README at724d69f9: Challenges, evaluation scenarios and recorded work",
+        "Official comments6109154445,6115830369,6127959997 re-read15 October",
+        "External S5 README at a9eca743df5a5c1fbef5dc6f792ea08f8add29e0, complete supplied-model scope"
+      ],
+      "positive_impact_proven": false,
+      "date": "2026-10-15",
+      "wave": "Historical remnants — surgical documentary insertions",
+      "heading": "Historical remnants 15 October 2026",
+      "preparation": "Complete old context and exact appended text; old unique in pinned current source; all other bytes retained.",
+      "state": "Authorised; awaiting surgical insertion",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "gate": "Iván authorised this bounded remnant review and surgical insertions in the current instruction. No experiment, frozen-source rewrite, new package or hierarchy change.",
+      "acceptance": "Exact source equals its predecessor with only this added block; inverse restores every predecessor byte; all previous paths, modes, links and source text remain; exact public readback.",
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
+    },
+    {
+      "id": 116,
+      "title": "Explain and link the fork’s separate case and repository-support material",
+      "source": "research/ecosystem-awareness/baseline/non-canonical/README.md",
+      "source_sha": "26f0c3639aea11745b977a45ccc1de39f0655a9d",
+      "source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.\n",
+      "after": "The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.\n\n\n## Other fork material — source reading and repository support · 15 October 2026\n\nThe original UC-21 source package is [preserved in Contributions](../../../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md). The [current DDS reader](../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) owns the maintained research route. These additional links explain the remaining fork material without introducing another corpus entry.\n\n| Material | Purpose and relation to this corpus |\n|---|---|\n| [Later UC-21 reader and existing review records](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails) | Version-pinned history of the reader additions and review discussion. Its original annexes, figures and fixtures are preserved in Contributions; later objective/Challenge guidance and the S5/UC-4 discussion routes are received by the current DDS reader. This link identifies history, rather than maintaining a second case route. |\n| [Contextual trust under recursive human–agent escalation](https://github.com/dakleyer/use-cases/tree/57fb8682944d2c5d4f288182a2be278bfb8b7f93/contributions/contextual-trust-recursive-escalation) | Separate proposed case with a complete dossier, visual reading edition and original SVG/PNG guides. It contains 26 HAP requirements and 66 unexecuted test designs. Useful for comparing package admission, recursive review, evidence boundaries and stopping conditions; it is not UC-21 campaign evidence. |\n| [Case-register design and reviewer tools](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/use-case-register) and [submission template](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md) | Repository curation, SQL schema, dashboard/export helpers and submission support. These operate on the use-case register; they are not missing DDS protocols or study results. Their [root index and workflows](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1) retain the support context. |\n\nThe linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.\n",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Accounts for the fork material beyond the48-file original UC21 package, with a purpose and bounded route for the separate case, graphics and register tools.",
+      "riskReason": "Support tools or a separate proposal could be confused with canonical DDS evidence. They are linked only as additional material in the existing leaf.",
+      "costReason": "Read the complete source and receiver context; insert only the proposed block; inverse, link and exact public-byte checks; maintain the existing owner.",
+      "dependencies": [],
+      "evidence": [
+        "Complete77-file current fork inventory and162 path/blob versions across four branches",
+        "54 UC21 files =48 original package positions plus6 existing VNext; original48 blobs authenticated",
+        "Separate case branch57fb8682 README and complete dossier opening read; repository support read/classified by function"
+      ],
+      "positive_impact_proven": false,
+      "date": "2026-10-15",
+      "wave": "Historical remnants — surgical documentary insertions",
+      "heading": "Historical remnants 15 October 2026",
+      "preparation": "Complete old context and exact appended text; old unique in pinned current source; all other bytes retained.",
+      "state": "Authorised; awaiting surgical insertion",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "gate": "Iván authorised this bounded remnant review and surgical insertions in the current instruction. No experiment, frozen-source rewrite, new package or hierarchy change.",
+      "acceptance": "Exact source equals its predecessor with only this added block; inverse restores every predecessor byte; all previous paths, modes, links and source text remain; exact public readback.",
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
+    },
+    {
+      "id": 117,
+      "title": "Connect the extension protocol’s current DDS reader to its retained mathematical edition",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+      "source_sha": "ba43b0ec31ca31114cdd515040c543c9d4dc099d",
+      "source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "before": "The R01 equations and acceptance region remain authoritative wherever this protocol is used.",
+      "after": "The R01 equations and acceptance region remain authoritative wherever this protocol is used.\n\n**Edition route.** This `extensions/` edition supplies the current DDS Stage A reading. The [retained feasibility edition](../feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md) preserves the mathematical/work-plan context, whose [single queue](../feasibility/WORKPLAN.md) remains the R01 work register. Both editions retain the same mathematical contract; cite the exact edition used by the study.\n",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Readers can distinguish the current Stage A route from the retained feasibility context and find the one work queue without treating two copies as two methods.",
+      "riskReason": "A navigation note could demote a mathematical source or alter its authority. The note preserves the same contract and requires edition-specific citation.",
+      "costReason": "Read the complete source and receiver context; insert only the proposed block; inverse, link and exact public-byte checks; maintain the existing owner.",
+      "dependencies": [],
+      "evidence": [
+        "Full current extensions/feasibility protocol comparison: only terminology comment and method-router paragraph differ",
+        "Internal R01 history, including relocation3c9db810 and translationeccb5f24",
+        "Complete mathematical body from section1 onward matches byte-for-byte between the two current editions"
+      ],
+      "positive_impact_proven": false,
+      "date": "2026-10-15",
+      "wave": "Historical remnants — surgical documentary insertions",
+      "heading": "Historical remnants 15 October 2026",
+      "preparation": "Complete old context and exact appended text; old unique in pinned current source; all other bytes retained.",
+      "state": "Authorised; awaiting surgical insertion",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "gate": "Iván authorised this bounded remnant review and surgical insertions in the current instruction. No experiment, frozen-source rewrite, new package or hierarchy change.",
+      "acceptance": "Exact source equals its predecessor with only this added block; inverse restores every predecessor byte; all previous paths, modes, links and source text remain; exact public readback.",
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
+    },
+    {
+      "id": 118,
+      "title": "Connect the HEW current reader to its retained feasibility edition",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md",
+      "source_sha": "71dec1fde183252490a421bf3e4ff81eda8e49e9",
+      "source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "before": "DDS correspondence. This mechanism profile supplies analytical technical evidence for a Deployment Differential Study. Preserve R01 Cost–Risk–Effectiveness and the original q/h/p laws; a declared deployment adds a separate Business Value–Risk–Cost interpretation. The first [canonical HEW DDS research record](./HEW_DDS_STUDY_2026-10-06.md) now includes human-readable scenario selection, scope, freeze, exact reconstructions and a bounded SQLite model integration. These are neither measured human effectiveness nor a completed commissioned DDS.",
+      "after": "DDS correspondence. This mechanism profile supplies analytical technical evidence for a Deployment Differential Study. Preserve R01 Cost–Risk–Effectiveness and the original q/h/p laws; a declared deployment adds a separate Business Value–Risk–Cost interpretation. The first [canonical HEW DDS research record](./HEW_DDS_STUDY_2026-10-06.md) now includes human-readable scenario selection, scope, freeze, exact reconstructions and a bounded SQLite model integration. These are neither measured human effectiveness nor a completed commissioned DDS.\n\n**Edition route.** Read this `extensions/` profile for current Stage A terminology and the linked study reports. The [retained feasibility edition](../feasibility/HUMAN_ESCALATION_WHISPERING.md) remains available with its earlier framing. H0–H4, the virtual R1/R2/R3 derivations and their evidence are shared; a study cites the particular edition and freeze it consumes.\n",
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Makes the two existing HEW copies understandable and mutually reachable while retaining the analytical contract and distinct model/native evidence.",
+      "riskReason": "Do not pool analyticalq, model timing, measured human capacity or results across editions. The note only names the shared derivations and source-specific freeze.",
+      "costReason": "Read the complete source and receiver context; insert only the proposed block; inverse, link and exact public-byte checks; maintain the existing owner.",
+      "dependencies": [],
+      "evidence": [
+        "Full current extensions/feasibility HEW comparison: only terminology comment and DDS-status paragraph differ",
+        "All bytes from the DDS surface table through section9.4 match between current editions",
+        "Original H2 independence iff and q/ACK corrections stay in both current bodies"
+      ],
+      "positive_impact_proven": false,
+      "date": "2026-10-15",
+      "wave": "Historical remnants — surgical documentary insertions",
+      "heading": "Historical remnants 15 October 2026",
+      "preparation": "Complete old context and exact appended text; old unique in pinned current source; all other bytes retained.",
+      "state": "Authorised; awaiting surgical insertion",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "gate": "Iván authorised this bounded remnant review and surgical insertions in the current instruction. No experiment, frozen-source rewrite, new package or hierarchy change.",
+      "acceptance": "Exact source equals its predecessor with only this added block; inverse restores every predecessor byte; all previous paths, modes, links and source text remain; exact public readback.",
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
+    },
+    {
+      "id": 119,
+      "title": "Recover the explicit N/A-prerequisite binding in the prospective diagnostic contract",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f",
+      "source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "before": "SA-G08's finite-response/default rule and SA-G11's smallest affected disposition preserve parts of the earlier bounded-review duty. Old G-A13 and current SA-G13 have different meanings. Scope-specific completion of this packet is preparation for instrument admission, not a candidate technology result or an instruction to execute a campaign.",
+      "after": "SA-G08's finite-response/default rule and SA-G11's smallest affected disposition preserve parts of the earlier bounded-review duty. Old G-A13 and current SA-G13 have different meanings. Scope-specific completion of this packet is preparation for instrument admission, not a candidate technology result or an instruction to execute a campaign.\n\nAn instrument successor that treats a required prerequisite as `NOT_APPLICABLE` records, before adjudication, why it is irrelevant and which frozen fact or declared substitute supplies the dependent claim's needed condition. An unbound N/A declaration does not satisfy that dependency. Record this justification alongside the gate and named claim; explanatory `supports` edges do not become blocking prerequisites.\n",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "benefit": "Restores a removed decision condition: non-applicability needs a justified substitute for a dependent claim, rather than becoming either automatic acceptance or blanket failure.",
+      "riskReason": "Reinstating the old whole profile would revive obsolete dependencies and automatic PASSES_IF language. The insertion applies only to the already prospective successor contract.",
+      "costReason": "Read the complete source and receiver context; insert only the proposed block; inverse, link and exact public-byte checks; maintain the existing owner.",
+      "dependencies": [
+        "104 already applied; successor scope only; frozen diagnostic packages unchanged"
+      ],
+      "evidence": [
+        "Old diagnosticv0.1 blobcd594ef27622a8b9d15d4b7a8df76d8cf4cb7880 at3369f0b404714e6dfedc02988c03778cefcb4be6 section4.3",
+        "Removal in dfa697e8a79e3d741a5b83d3bb935eb053f8574f, with old sections5–12",
+        "Current v0.2 frozen manifest/templates and v0.4 audit checker4e44f513eaf8baa07fa80934c1bf7a78d94aeb35 read statically; boolean/rationale validation is not proof of substitute sufficiency"
+      ],
+      "positive_impact_proven": false,
+      "date": "2026-10-15",
+      "wave": "Historical remnants — surgical documentary insertions",
+      "heading": "Historical remnants 15 October 2026",
+      "preparation": "Complete old context and exact appended text; old unique in pinned current source; all other bytes retained.",
+      "state": "Authorised; awaiting surgical insertion",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "gate": "Iván authorised this bounded remnant review and surgical insertions in the current instruction. No experiment, frozen-source rewrite, new package or hierarchy change.",
+      "acceptance": "Exact source equals its predecessor with only this added block; inverse restores every predecessor byte; all previous paths, modes, links and source text remain; exact public readback.",
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
     }
   ],
   "audit_coverage": [
@@ -7550,7 +7727,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "6dd9edc87070b38d3c84021f7389e07596b9d1ad",
+  "review_source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -13990,6 +14167,151 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Historical remnant review and authorised surgical additions",
+      "source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.",
+        "scope": "Review the original DDS/fork/internal Contributions history, publish exact before/after in existing VNext, and apply only justified surgical documentary insertions preserving every prior source byte. No scientific execution or new archive/package import."
+      },
+      "proposal_assessments": [
+        {
+          "id": 114,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "vnext": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+          "source": "DOCUMENT_CONTROL.md",
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "quality": "Primary-source, receiving-context and preservation checks complete for this documentary insertion.",
+          "preparation": "Exact complete old/new published below; the current user instruction authorises this bounded remnant insertion.",
+          "gate": "Authorised by Iván in the current15 October instruction; apply only the exact reviewed addition and verify all unrelated bytes.",
+          "current_literal_check": {
+            "source_cut": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+            "source_blob": "e3ada85de309e7f654bbf74f4b1785cde51fb245",
+            "old_unique": true,
+            "insertion_only": true,
+            "exact_composed_inverse": true
+          }
+        },
+        {
+          "id": 115,
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "quality": "Primary-source, receiving-context and preservation checks complete for this documentary insertion.",
+          "preparation": "Exact complete old/new published below; the current user instruction authorises this bounded remnant insertion.",
+          "gate": "Authorised by Iván in the current15 October instruction; apply only the exact reviewed addition and verify all unrelated bytes.",
+          "current_literal_check": {
+            "source_cut": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+            "source_blob": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f",
+            "old_unique": true,
+            "insertion_only": true,
+            "exact_composed_inverse": true
+          }
+        },
+        {
+          "id": 116,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "source": "research/ecosystem-awareness/baseline/non-canonical/README.md",
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "quality": "Primary-source, receiving-context and preservation checks complete for this documentary insertion.",
+          "preparation": "Exact complete old/new published below; the current user instruction authorises this bounded remnant insertion.",
+          "gate": "Authorised by Iván in the current15 October instruction; apply only the exact reviewed addition and verify all unrelated bytes.",
+          "current_literal_check": {
+            "source_cut": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+            "source_blob": "26f0c3639aea11745b977a45ccc1de39f0655a9d",
+            "old_unique": true,
+            "insertion_only": true,
+            "exact_composed_inverse": true
+          }
+        },
+        {
+          "id": 117,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "quality": "Primary-source, receiving-context and preservation checks complete for this documentary insertion.",
+          "preparation": "Exact complete old/new published below; the current user instruction authorises this bounded remnant insertion.",
+          "gate": "Authorised by Iván in the current15 October instruction; apply only the exact reviewed addition and verify all unrelated bytes.",
+          "current_literal_check": {
+            "source_cut": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+            "source_blob": "ba43b0ec31ca31114cdd515040c543c9d4dc099d",
+            "old_unique": true,
+            "insertion_only": true,
+            "exact_composed_inverse": true
+          }
+        },
+        {
+          "id": 118,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md",
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "quality": "Primary-source, receiving-context and preservation checks complete for this documentary insertion.",
+          "preparation": "Exact complete old/new published below; the current user instruction authorises this bounded remnant insertion.",
+          "gate": "Authorised by Iván in the current15 October instruction; apply only the exact reviewed addition and verify all unrelated bytes.",
+          "current_literal_check": {
+            "source_cut": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+            "source_blob": "71dec1fde183252490a421bf3e4ff81eda8e49e9",
+            "old_unique": true,
+            "insertion_only": true,
+            "exact_composed_inverse": true
+          }
+        },
+        {
+          "id": 119,
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "state": "Authorised; awaiting surgical insertion",
+          "decision_ready": false,
+          "authorized_to_apply": true,
+          "quality": "Primary-source, receiving-context and preservation checks complete for this documentary insertion.",
+          "preparation": "Exact complete old/new published below; the current user instruction authorises this bounded remnant insertion.",
+          "gate": "Authorised by Iván in the current15 October instruction; apply only the exact reviewed addition and verify all unrelated bytes.",
+          "current_literal_check": {
+            "source_cut": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+            "source_blob": "aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f",
+            "old_unique": true,
+            "insertion_only": true,
+            "exact_composed_inverse": true
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -19396,6 +19718,101 @@
       "canonical_sources_changed_by_reaudit": false,
       "official_issue_changed_by_reaudit": false,
       "unresolved_history_frontier_not_closed": true
+    }
+  ],
+  "historical_remnant_review_epochs": [
+    {
+      "date": "2026-10-15",
+      "source_commit": "94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e",
+      "fork_commit": "724d69f9cf69aaadd2f84f50934db9cf77fcc1f1",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026",
+      "main_commits_enumerated": 2784,
+      "other_merge_parents_compared": 13,
+      "current_files_authenticated": 2396,
+      "fork_current_files": 77,
+      "fork_path_blob_versions": 162,
+      "historical_literal_groups_detected": 6991,
+      "literal_absence_is_not_loss": true,
+      "selected_exact_insertions": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "nonmain_branch_check": {
+        "current_refs": 23,
+        "unchanged_nonmain_refs": 21,
+        "changed_nonmain_refs": [
+          {
+            "name": "dds/china-unicom-privilege-lifecycle-stage-a-v0.1-20261014",
+            "before": "b1d0aa2c75f814acfa5d1dd542f21268e3ac431c",
+            "now": "97f182ca6e928ccf66d6a8533d04d4dec690c9c7"
+          }
+        ],
+        "nonmain_unmerged_prior_inventory": [
+          {
+            "name": "audit/pptx-canonical-2026-09-28",
+            "prior_commit": "bfc50c4239f1bd5716931ef67014a10dedf1f3e0",
+            "current_commit": "bfc50c4239f1bd5716931ef67014a10dedf1f3e0",
+            "prior_branch_change_paths": 2,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          },
+          {
+            "name": "campaign/flores-addendum-merge-20261013",
+            "prior_commit": "0f7958c7aebcebd1c43b8902506c5587b145d729",
+            "current_commit": "0f7958c7aebcebd1c43b8902506c5587b145d729",
+            "prior_branch_change_paths": 25,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          },
+          {
+            "name": "campaign/flores-theme21-residual-20261013",
+            "prior_commit": "04ade51c4d28bc6e1ffa40364cecb78407d01d82",
+            "current_commit": "04ade51c4d28bc6e1ffa40364cecb78407d01d82",
+            "prior_branch_change_paths": 18,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          },
+          {
+            "name": "codex/abcd-foundation-2026-10-01",
+            "prior_commit": "f5932a8f5f1b7c75edf18dc66882f0633c01d778",
+            "current_commit": "f5932a8f5f1b7c75edf18dc66882f0633c01d778",
+            "prior_branch_change_paths": 7,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          },
+          {
+            "name": "dds/china-unicom-privilege-lifecycle-stage-a-v0.1-20261014",
+            "prior_commit": "b1d0aa2c75f814acfa5d1dd542f21268e3ac431c",
+            "current_commit": "97f182ca6e928ccf66d6a8533d04d4dec690c9c7",
+            "prior_branch_change_paths": 30,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          },
+          {
+            "name": "research/hf-signalling-handshake-multigate-v04-20261012",
+            "prior_commit": "9fa6878e6613a296ef111a78a7251964972c26f3",
+            "current_commit": "9fa6878e6613a296ef111a78a7251964972c26f3",
+            "prior_branch_change_paths": 17,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          },
+          {
+            "name": "research/steven-s5-audit-2026-10-11",
+            "prior_commit": "d355f9022b3f9f628707cb13542c6c8df7546acf",
+            "current_commit": "d355f9022b3f9f628707cb13542c6c8df7546acf",
+            "prior_branch_change_paths": 6,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          },
+          {
+            "name": "review/four-point-completion-registers-2026-10-12",
+            "prior_commit": "1b7f30c53165e35053b6c3103f734728fa5d7d6d",
+            "current_commit": "1b7f30c53165e35053b6c3103f734728fa5d7d6d",
+            "prior_branch_change_paths": 14,
+            "disposition": "Unmerged proposal/development, not previously adopted main content to restore"
+          }
+        ],
+        "no_unmerged_content_auto_adopted": true
+      },
+      "all_retired_source_meanings_adjudicated": false,
+      "wider_frontier": "Original media rendering/rights, full all-source clause adjudication and per-campaign native evidence remain in the existing history/research tasks; no complete scientific closure inferred."
     }
   ]
 }
