@@ -597,3 +597,10 @@ A successful H1/H2 result therefore counts against the proposed differential. A 
 **The implementation question is ultimately the same as the scenario question: when a record remains technically valid, can the system still establish that it remains sufficient for the proposition now being enforced?**
 
 **Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
+
+
+## 16. Later public source update — 15 October 2026
+
+**P9 — source-owner confirmation, supplementing P1–P8 and the 24 September evidence freeze.** In his [public UC-21 reply](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6192128304), Alexandre Leforestier confirms that this profile's description of Panodyssey's production rights stack and the agent-side identity gap matches current production reality, with no corrections at this stage. He also reports preparation of a separate Panodyssey use case grounded in Theme #17, linked to UC-21/S6 where they overlap.
+
+This is a dated source-owner confirmation of the capability description. H1/H2 remain constructed, unexecuted trajectories; the reply adds no campaign result or product-failure finding.

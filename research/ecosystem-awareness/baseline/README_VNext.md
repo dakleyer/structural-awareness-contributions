@@ -1789,7 +1789,7 @@ The final live UC-21 check found dated public developments beyond the12 October 
 
 ### Change121 — Record Panodyssey’s dated source-owner confirmation without promoting synthetic results
 
-**State:** authorised; not yet applied. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**State:** Applied — 15 October 2026; no pending insertion. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
 
 Source `research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md`; blob `8ec757d73638ed6464dfaa33861cf3d35e665797` at `c6a2acf858f2856a20e2e29781c52286f357b25e`. Benefit: Adds the newly public source-owner corroboration to the existing profile and preserves the separate-case preparation and experimental limits. Risk: preserve the precise contributor/evidence boundary. The complete old context occurs once; only the dated block is added.
 
@@ -1815,3 +1815,8 @@ This is a dated source-owner confirmation of the capability description. H1/H2 r
 ~~~~~~~~
 
 **Iván:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Source-update application121
+
+Exact dated addition incorporated; predecessor `8ec757d73638ed6464dfaa33861cf3d35e665797`, successor `fbcaffa0a7097027e3c46271874823e13b9449a5`. Its inverse restores every predecessor byte. Public verification follows below.
