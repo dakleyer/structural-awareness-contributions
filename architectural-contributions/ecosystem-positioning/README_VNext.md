@@ -2393,7 +2393,7 @@ The approved EP addition97 is exact and append-only: source predecessor `9767ec8
 
 ### Proposal114 — central control successor
 
-**State:** Pending Iván's decision; not applied. **Impact:** Medium. **Risk:** Low. **Effort:** Low. **Priority:** First control follow-up. The benefit is a correct current-EP certification in the one existing central control. The risk is confusing a dated source certification with scientific approval; the proposed section names the exact source and documentary scope. Cost covers checking the source identities, EOF and links, then inverse/readback verification. Dependency:97 is already applied. No file move, new owner or hierarchy change is proposed.
+**State:** Applied — 15 October 2026; the later owner-authorised application below completes this control entry. **Impact:** Medium. **Risk:** Low. **Effort:** Low. **Priority:** First control follow-up. The benefit is a correct current-EP certification in the one existing central control. The risk is confusing a dated source certification with scientific approval; the proposed section names the exact source and documentary scope. Cost covers checking the source identities, EOF and links, then inverse/readback verification. Dependency:97 is already applied. No file move, new owner or hierarchy change is proposed.
 
 Source: `DOCUMENT_CONTROL.md`, blob `e3ada85de309e7f654bbf74f4b1785cde51fb245` at `6dd9edc87070b38d3c84021f7389e07596b9d1ad`. Location: EOF, after section33. The complete existing final section below occurs once and is unchanged; the only proposed addition is section34. Instructions from Iván: audit all execution, preserve all information, and keep exact old/new proposals in the owning VNext. A new source change requires his concrete decision.
 
@@ -2422,7 +2422,7 @@ Iván authorised the reviewed literal plan on 15 October. The [application recor
 The maintained reader route is UC-21 → objectives → Challenges → DDS → campaigns and results. The source-edition package is historical custody, not a second current method or case owner. Programs, earlier binaries, results and frozen manifests remain unchanged. The [execution re-audit](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026) distinguishes completion of this literal application from the still-open historical/material reception work and future per-campaign evidence duties.
 ````
 
-Acceptance: retain every current byte as the exact prefix; add only section34 after a named approval, check the two source identities and relative links, and read the final public bytes back. Current old-context matching and candidate preparation are verified; incorporation is pending.
+Acceptance: retain every current byte as the exact prefix; add only section34 after a named approval, check the two source identities and relative links, and read the final public bytes back. The exact append-only incorporation is recorded in the later authorised application below.
 
 
 ## Historical remnants 15 October 2026
@@ -2432,7 +2432,7 @@ Acceptance: retain every current byte as the exact prefix; add only section34 af
 
 ### Change114 — Record the approved 15 October EP successor in the existing central document control
 
-**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**State:** Applied — 15 October 2026; no further insertion pending for this item. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
 
 Source `DOCUMENT_CONTROL.md`, blob `e3ada85de309e7f654bbf74f4b1785cde51fb245` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
 
@@ -2468,3 +2468,8 @@ The maintained reader route is UC-21 → objectives → Challenges → DDS → c
 ~~~~~~~~
 
 **Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Historical remnant application114 — 15 October 2026
+
+Applied the complete reviewed addition to `DOCUMENT_CONTROL.md`. Predecessor `e3ada85de309e7f654bbf74f4b1785cde51fb245`; successor `fdffd2ace15ed01ee9b9d9998d1ec27c1ba725d9`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
