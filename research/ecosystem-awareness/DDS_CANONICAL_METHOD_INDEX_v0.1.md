@@ -401,6 +401,9 @@ The preregistered [validation plan v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATIO
 
 SA-G08's finite-response/default rule and SA-G11's smallest affected disposition preserve parts of the earlier bounded-review duty. Old G-A13 and current SA-G13 have different meanings. Scope-specific completion of this packet is preparation for instrument admission, not a candidate technology result or an instruction to execute a campaign.
 
+An instrument successor that treats a required prerequisite as `NOT_APPLICABLE` records, before adjudication, why it is irrelevant and which frozen fact or declared substitute supplies the dependent claim's needed condition. An unbound N/A declaration does not satisfy that dependency. Record this justification alongside the gate and named claim; explanatory `supports` edges do not become blocking prerequisites.
+
+
 
 
 ## 15. Recorded work and its owning reports

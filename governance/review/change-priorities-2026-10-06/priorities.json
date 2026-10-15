@@ -1,5 +1,5 @@
 {
-  "version": "1.23",
+  "version": "1.24",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -6525,12 +6525,20 @@
       "wave": "Historical remnants — surgical documentary insertions",
       "heading": "Historical remnants 15 October 2026",
       "preparation": "Complete old context and exact appended text; old unique in pinned current source; all other bytes retained.",
-      "state": "Authorised; awaiting surgical insertion",
+      "state": "Applied; removed from the pending queue",
       "decision_ready": false,
-      "authorized_to_apply": true,
+      "authorized_to_apply": false,
       "gate": "Iván authorised this bounded remnant review and surgical insertions in the current instruction. No experiment, frozen-source rewrite, new package or hierarchy change.",
       "acceptance": "Exact source equals its predecessor with only this added block; inverse restores every predecessor byte; all previous paths, modes, links and source text remain; exact public readback.",
-      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más."
+      "instructions": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.",
+        "scope": "Review the original DDS/fork/internal Contributions history, publish exact before/after in existing VNext, and apply only justified surgical documentary insertions preserving every prior source byte. No scientific execution or new archive/package import."
+      },
+      "application_from_commit": "2c43b34b5f49b0ae142716f2a2ec0ce034b62500",
+      "applied_source_blob": "7d26dd6071a1ad650f2a6d1aa5d0de42775df79a"
     }
   ],
   "audit_coverage": [
@@ -7767,7 +7775,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "2efe2130805d1e19ae0716fc876662b34c11e12a",
+  "review_source_commit": "2c43b34b5f49b0ae142716f2a2ec0ce034b62500",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -14467,6 +14475,29 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Surgical remnant insertion119",
+      "source_commit": "2c43b34b5f49b0ae142716f2a2ec0ce034b62500",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026",
+      "proposal_assessments": [
+        {
+          "id": 119,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Applied exact additive text; inverse restores every predecessor byte.",
+          "gate": "Applied under the current owner instruction. No reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "18bd84c68a3c559d781f07ca7ecedd64d305d986",
+            "after_blob": "7d26dd6071a1ad650f2a6d1aa5d0de42775df79a",
+            "before_unique": true,
+            "exact_inverse": true
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -20043,6 +20074,22 @@
       "before_blob": "71dec1fde183252490a421bf3e4ff81eda8e49e9",
       "after_blob": "227f42c34e57b5da19a20c113a21a1e5de0904f8",
       "addition_bytes": 375,
+      "old_source_bytes_preserved_in_order": true,
+      "exact_inverse": true,
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.",
+        "scope": "Review the original DDS/fork/internal Contributions history, publish exact before/after in existing VNext, and apply only justified surgical documentary insertions preserving every prior source byte. No scientific execution or new archive/package import."
+      }
+    },
+    {
+      "id": 119,
+      "date": "2026-10-15",
+      "from_commit": "2c43b34b5f49b0ae142716f2a2ec0ce034b62500",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "before_blob": "18bd84c68a3c559d781f07ca7ecedd64d305d986",
+      "after_blob": "7d26dd6071a1ad650f2a6d1aa5d0de42775df79a",
+      "addition_bytes": 417,
       "old_source_bytes_preserved_in_order": true,
       "exact_inverse": true,
       "authorization": {

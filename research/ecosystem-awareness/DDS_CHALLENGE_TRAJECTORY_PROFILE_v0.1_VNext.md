@@ -18043,7 +18043,7 @@ For a UC-21-specific comparison, consult the [existing external S5 exercise](htt
 
 ### Change119 — Recover the explicit N/A-prerequisite binding in the prospective diagnostic contract
 
-**State:** reviewed and authorised by Iván's current instruction; not yet incorporated. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**State:** Applied — 15 October 2026; no further insertion pending for this item. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
 
 Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, blob `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
 
@@ -18072,3 +18072,8 @@ An instrument successor that treats a required prerequisite as `NOT_APPLICABLE` 
 ### Historical remnant application115 — 15 October 2026
 
 Applied the complete reviewed addition to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`. Predecessor `aac77c88d176ba6cc61fcb42cdae2c7ec98ef33f`; successor `18bd84c68a3c559d781f07ca7ecedd64d305d986`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
+
+
+### Historical remnant application119 — 15 October 2026
+
+Applied the complete reviewed addition to `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`. Predecessor `18bd84c68a3c559d781f07ca7ecedd64d305d986`; successor `7d26dd6071a1ad650f2a6d1aa5d0de42775df79a`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
