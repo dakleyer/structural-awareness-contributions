@@ -4989,7 +4989,7 @@
     {
       "id": 100,
       "title": "Align 02A attribution with the current 02B relative-closure theorem",
-      "state": "Prepared — pending downstream reconciliation and named Ivan GO",
+      "state": "Applied; removed from the pending queue",
       "source": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
       "source_sha": "06e12884ecbcff9df820d087e5b727bf4a18adab",
       "source_commit": "2893f5e842bc07a34802b2e7a817338debf70bb4",
@@ -5043,7 +5043,17 @@
         "retain all historical ordered-normalizer statements and their actual proof contract",
         "no downstream requirement/code/result semantics changed implicitly"
       ],
-      "compatibility": "Current source-vocabulary limitation and one-or-more control-surface mappings retained; no requirement, KPI, code, fixture or result changed. The added sentence repeats the already explicit transfer boundary rather than declaring a new proof."
+      "compatibility": "Current source-vocabulary limitation and one-or-more control-surface mappings retained; no requirement, KPI, code, fixture or result changed. The added sentence repeats the already explicit transfer boundary rather than declaring a new proof.",
+      "application_status": "applied",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "application_from_commit": "f99044bf96a6f782ecd5c93f24fac9e6c71fed43",
+      "applied_source_blobs": {
+        "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md": "7cf6b6e268ff2522841ce6290b6d11ba46e4b175"
+      }
     },
     {
       "id": 101,
@@ -16026,6 +16036,49 @@
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false,
       "commit": "7868e5741e3be5016ec6fa478532e7f0e69a9693"
+    },
+    {
+      "key": "100",
+      "date": "2026-10-15",
+      "from_commit": "f99044bf96a6f782ecd5c93f24fac9e6c71fed43",
+      "title": "Align 02A attribution with the current 02B relative-closure theorem",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+          "before_blob": "06e12884ecbcff9df820d087e5b727bf4a18adab",
+          "after_blob": "7cf6b6e268ff2522841ce6290b6d11ba46e4b175",
+          "bytes": 12557,
+          "sha256": "0e44b12a1340d9773b61c996429b135f9b6f71fe45cd37077c8524f600ad47f9"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": {
+            "path": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+            "blob": "06e12884ecbcff9df820d087e5b727bf4a18adab",
+            "line": 15,
+            "selector": "complete Claim block",
+            "uniqueness_count": 1
+          },
+          "old_occurrences": 1,
+          "before_sha256": "9a3f5d8a190a98dbfdf78a8ccec991352fdd113856d5b8241e1c664e23ff5972",
+          "after_sha256": "708750be38b2ef296e949db4e6fb522bec864c8fcbba1e0dd2122ed944bb6d09",
+          "prefix_sha256": "17dbd7eb58740d11eddaf2269bcccc3cbec8ab4c25e7a45eca45cf4803486eea",
+          "suffix_sha256": "d7525512bfad4ac812ce9250bfc25aea2f4eb5475e182443982e9195762b72c7",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18188,6 +18241,13 @@
         },
         "from_commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3",
         "commit": "7868e5741e3be5016ec6fa478532e7f0e69a9693"
+      },
+      "100": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md": "7cf6b6e268ff2522841ce6290b6d11ba46e4b175"
+        },
+        "from_commit": "f99044bf96a6f782ecd5c93f24fac9e6c71fed43"
       }
     }
   }
