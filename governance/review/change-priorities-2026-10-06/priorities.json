@@ -1,5 +1,5 @@
 {
-  "version": "1.50",
+  "version": "1.51",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7968,10 +7968,10 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Minimal bilingual documentary repair",
-      "state": "C source review, D separate check and root context/inverse complete; authorised, not yet applied",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": true,
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": false,
       "positive_impact_proven": false,
       "benefit": "Read the integer count unambiguously in English: 33,408 rather than a decimal 33.408. The primary result remains 33408.",
       "riskReason": "One punctuation byte in one complete paragraph. No count, conclusion, source result, checker or evidence grade changes.",
@@ -7981,8 +7981,8 @@
         "Existing HF README_VNext owner",
         "Do not change or rerun results.json or check.py"
       ],
-      "preparation": "Complete current paragraph, unique before and exact full-source inverse; C, D and root checks agree.",
-      "gate": "Apply only the reviewed punctuation substitution after publication of this pair; retain results/code and all other source bytes.",
+      "preparation": "Exact published pair applied; full-source inverse and all unrelated bytes verified.",
+      "gate": "Applied under the current restoration instruction; no reapplication pending.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
@@ -8034,7 +8034,15 @@
         },
         "D_pair_sha256": "e9868a32818d1a8c26400784261c9a5e04e3bca2e037b021aea80f68a4f9c50c",
         "root_check": "Targeted full-context source paragraph and primary integer; full-source byte replay/inverse"
-      }
+      },
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "application_from_commit": "1eca21c93eb507d6fd27ade56f658b29531860ff",
+      "applied_source_blob": "b9c17c59deaf2c9cee12497a91eff4493a13b60c",
+      "published_pair_commit": "1eca21c93eb507d6fd27ade56f658b29531860ff"
     }
   ],
   "audit_coverage": [
@@ -9271,7 +9279,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657",
+  "review_source_commit": "1eca21c93eb507d6fd27ade56f658b29531860ff",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -16350,6 +16358,29 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Historical restoration 135 applied",
+      "source_commit": "1eca21c93eb507d6fd27ade56f658b29531860ff",
+      "proposal_assessments": [
+        {
+          "id": 135,
+          "state": "Applied; removed from the pending queue",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Exact published pair applied; full-source inverse and all unrelated bytes verified.",
+          "gate": "Applied under the current restoration instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "2b19ae3d129e072e3520fec74f655479cc087885",
+            "after_blob": "b9c17c59deaf2c9cee12497a91eff4493a13b60c",
+            "before_unique": true,
+            "exact_inverse": true,
+            "literal_pairs": 1
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -22190,6 +22221,18 @@
       "exact_inverse": true,
       "pair_commit": "11a11874a909d4e1dec965abee699f46924be847",
       "source_bytes_delta": 4083
+    },
+    {
+      "id": 135,
+      "date": "2026-10-15",
+      "from_commit": "1eca21c93eb507d6fd27ade56f658b29531860ff",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "before_blob": "2b19ae3d129e072e3520fec74f655479cc087885",
+      "after_blob": "b9c17c59deaf2c9cee12497a91eff4493a13b60c",
+      "literal_pairs": 1,
+      "exact_inverse": true,
+      "pair_commit": "1eca21c93eb507d6fd27ade56f658b29531860ff",
+      "source_bytes_delta": 0
     }
   ],
   "rest_of_corpus_followon_epochs": [

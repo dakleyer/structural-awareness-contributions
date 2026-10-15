@@ -234,7 +234,7 @@ In a separate module, U relations are allocated among N reviewers. Shared work i
 <a id="43-resultado-del-comprobador"></a>
 ### 4.3 Checker result
 
-The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33.408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.
+The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33,408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.
 
 Configurations and assertions share data; **they are not independent samples or agent trials**. A PASS means the indicated finite properties hold in the declared code and grid. It does not certify the entire document or a technological integration.
 
