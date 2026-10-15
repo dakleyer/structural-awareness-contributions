@@ -169,7 +169,6 @@ Select the report for the receiver configuration actually tested:
 Each report links its registration, inputs, raw outcomes, verification and retained limits. These are different programmed studies; their task counts and logical ticks stay attached to their own contracts.
 
 For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
-````
 
 
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
@@ -193,3 +192,8 @@ The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/ba
 D compared the 14 additional HF history events and their 25 changed units against complete source-specific receivers. Thirteen former navigation paragraphs retain literal receiving passages and their research meaning in the version history. That supports keeping the present historical/current route distinction; it does not justify reinserting every old paragraph into the current README.
 
 C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.
+
+
+## HF review readability repair — 15 October 2026
+
+Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.

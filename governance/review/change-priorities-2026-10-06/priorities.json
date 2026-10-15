@@ -1,5 +1,5 @@
 {
-  "version": "1.59",
+  "version": "1.60",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8323,15 +8323,15 @@
           "reason": "Append only the dated application receipt, with no new pending card in this receiving review."
         }
       ],
-      "impact": "Alto",
+      "impact": "Bajo",
       "risk": "Bajo",
       "effort": "Bajo",
-      "priority": "Primera",
+      "priority": "Siguiente",
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Existing audit quotation-boundary repairs",
-      "state": "Exact C source proposal and root context/inverse complete; D separate final verification pending",
-      "application_status": "planned",
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
       "decision_ready": false,
       "authorized_to_apply": false,
       "positive_impact_proven": false,
@@ -8344,8 +8344,8 @@
         "Keep historical source excerpts and their relative URLs literal",
         "No scientific source, code, result or archive alteration"
       ],
-      "preparation": "C source/history and authentic public-before HTML; root complete contexts, both directions and separate GFM reproduction; D final check pending.",
-      "gate": "Publish all exact old/proposed pairs, finish separate verification, apply only this existing-VNext repair and retire its pending card.",
+      "preparation": "C source/public-before, D separate source-specific/context/GFM check and root full inverse complete; exact published pairs applied.",
+      "gate": "Applied review-format repair under the current restoration instruction; no reapplication pending.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
@@ -8367,7 +8367,16 @@
         "whole_inverse": true,
         "byte_delta": 987,
         "base_9bd_prefix_exception": "The delimiters predate the audit baseline. Prove full conservation by this exact inverse, not a literal old-prefix claim after repair."
-      }
+      },
+      "application_from_commit": "092dc8bb893c9b3618dbc8750b464b7ce8cd9238",
+      "published_pair_commit": "092dc8bb893c9b3618dbc8750b464b7ce8cd9238",
+      "applied_source_blob": "40dd126d4355a4d731c75a407963e351abbfc127",
+      "application_authorization": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "final_priority_reason": "D assesses low overall impact and next priority. Earlier high rating referred only to local audit readability; no efficacy is established."
     },
     {
       "id": 140,
@@ -9681,7 +9690,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "bcc05db79b337cb957b9fa1b93d273f57cf7976b",
+  "review_source_commit": "092dc8bb893c9b3618dbc8750b464b7ce8cd9238",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -16846,6 +16855,33 @@
         }
       ],
       "reason": "Automatic approval review declined canonical-source write without a specific named passage GO. Exact user question is pending. No rejected action was executed."
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Existing review-format repair139 applied after D29",
+      "source_commit": "092dc8bb893c9b3618dbc8750b464b7ce8cd9238",
+      "proposal_assessments": [
+        {
+          "id": 139,
+          "state": "Applied; removed from the pending queue",
+          "impact": "Bajo",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "C source/public-before, D separate source-specific/context/GFM check and root full inverse complete; exact published pairs applied.",
+          "gate": "Applied review-format repair under the current restoration instruction; no reapplication pending.",
+          "current_literal_check": {
+            "application_verified": true,
+            "before_blob": "aa910d27c2435c6e36b2fc3d3750bed400ca5e61",
+            "after_blob": "40dd126d4355a4d731c75a407963e351abbfc127",
+            "literal_pairs": 2,
+            "exact_inverse": true,
+            "old_VNext_delimiter_exception": true
+          }
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -22722,6 +22758,19 @@
       "exact_inverse": true,
       "pair_commit": "3331ed06dddfff95438b191fe482bb123a2f4b81",
       "source_bytes_delta": 919,
+      "change_kind": "review-format-and-receipt; no canonical scientific source"
+    },
+    {
+      "id": 139,
+      "date": "2026-10-15",
+      "from_commit": "092dc8bb893c9b3618dbc8750b464b7ce8cd9238",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+      "before_blob": "aa910d27c2435c6e36b2fc3d3750bed400ca5e61",
+      "after_blob": "40dd126d4355a4d731c75a407963e351abbfc127",
+      "literal_pairs": 2,
+      "exact_inverse": true,
+      "pair_commit": "092dc8bb893c9b3618dbc8750b464b7ce8cd9238",
+      "source_bytes_delta": 987,
       "change_kind": "review-format-and-receipt; no canonical scientific source"
     }
   ],

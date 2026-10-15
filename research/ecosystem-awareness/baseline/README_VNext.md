@@ -2040,55 +2040,9 @@ Eight old EP presentation-transfer fragments still have no authenticated whole-s
 
 ### Change 139 — Restore HF review readability
 
-**State:** prepared; D’s separate final check precedes application. **Expected impact:** Alto for audit readability. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+**Applied 15 October 2026.** The exact 2 source-specific substitutions are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md`, blob `40dd126d4355a4d731c75a407963e351abbfc127`. The [complete published before/after passages](https://github.com/dakleyer/structural-awareness-contributions/blob/092dc8bb893c9b3618dbc8750b464b7ce8cd9238/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability) retain the reviewed plan. C identified the retirement error and checked the public-before page; D separately checked the full-file pairs, affected context and Markdown structure; root reproduced the inverse and structure. The pending card is retired.
 
-Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md`, blob `aa910d27c2435c6e36b2fc3d3750bed400ca5e61` at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. The applied-card retirement at `9fb9421711521decde6843b04914a143a1f04c35` left the quotation boundary in the wrong state. The source and audit contents remain; the delimiter prevents normal reading.
-
-**Pair 1 — complete text before**
-
-`````markdown
-For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
-````
-
-
-## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
-`````
-
-**Complete text after**
-
-`````markdown
-For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
-
-
-## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
-`````
-
-**Pair 2 — complete text before**
-
-`````markdown
-C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.
-
-`````
-
-**Complete text after**
-
-`````markdown
-C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.
-
-
-## HF review readability repair — 15 October 2026
-
-Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
-
-`````
-
-**Reason:** Restore the human reading of existing audits and applied receipts; high impact is limited to audit readability.
-
-**Risk and effort:** Only the source-specific quotation delimiters and dated reviewed receipt change. Every prior research prose/count byte remains. The retired pending card is not restored. Read retirement origin, complete old/proposed context and public-before HTML, compare GFM structure and the whole-file inverse, then verify exact public readback.
-
-HF’s applied135 receipt and later audit notes become headings again. Its earlier table and contrary outcomes remain intact. The exact delta is +987 bytes: −5 delimiter bytes and +992 receipt bytes.
-
-**Iván’s instruction:** preserve useful audit reception, publish the full old/proposed passages first and retire only the applied item. Use the existing owning baseline VNext, with a dated receipt in the affected review. Reversing every listed pair must recover the full source. No new VNext, programme or research result is introduced.
+Expected overall impact, risk and effort are **Bajo**, priority **Siguiente**, following D’s final assessment. The earlier Alto label described the local reading benefit, not a scientific or system-level effect. The exact file delta is +987 bytes, including its dated receipt. Reversing these substitutions recovers source predecessor `aa910d27c2435c6e36b2fc3d3750bed400ca5e61` byte for byte. All prior substantive prose, numerical evidence and unrelated bytes remain. No research code or result changes.
 
 ### Change 140 — Restore 00K historical audit readability
 
