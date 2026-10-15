@@ -393,6 +393,22 @@ This section refines the ideal interface; it does not claim that FG-TIDA has ado
 
 ---
 
+### 7.4 Theme #13 outbound profile selection — F2, F3/F4 and systemic EA
+
+**Additive working clarification — 15 October 2026.** This supplements the ideal 05 cross-Theme contracts, without changing frozen 03/04 functional semantics, the 05 v0.4 bilateral clauses, or Theme #13's incident/signal lifecycle. It is a candidate way to *choose the smallest semantically sufficient outbound profile*; not a new mandatory route or a claim of Ward Duchamps's or FG-TIDA's agreement.
+
+1. **Sensing prerequisites, not a global sensor.** F1 identifies the mission/decision requirements, material domains, criticality, dependency, capacity and usable response horizon. F2 qualifies the active observation window `W(d,t)`, source coverage and acquisition pathways, including passive/non-cooperative sensing or the #13 shared signalling channel. An F2 window/APQ finding is a distinct source-owned output when a neighbouring function only needs acquisition/coverage sufficiency; it is not an action verdict, an evaluated source claim or a full EA systemic disposition.
+2. **Bounded local qualification as the outbound result.** For a local agent/subsystem result, F3 may be the named **semantic producer of a direct, decision-scope-limited contract output**: native result/reference plus Qualified Local Epistemic State `QL(d)`, identified source, scope/window, as-of/version, evidence/standing references where supplied, dependencies and residual/UNKNOWN qualifiers. This may **substitute for a full-EA composite output in that particular outbound contract** where the receiving Theme needs local qualification but not a systemic conclusion. For an independently governed/external result, F4—not F3—owns the equivalent external evidence qualification `QE(d)`. Neither F3 nor F4 redecides the native verdict, mandate standing, population statistic or collective-choice operator.
+3. **Full EA only where composition is material.** If the receiver's actual question requires multiple sources, cumulative dependencies, systemic sufficiency or operating-frame posture, the route continues F3/F4 → F5 → F6, with recipient-appropriate F8 envelope and, where needed, targeted F7 requalification. An F3 direct result may not claim the F5/F6 determination that was never performed.
+4. **Carrier and ownership.** The existing Theme #13 shared incident/signal interface (IF-S11) or another authorized transport may carry an F2 profile, bounded F3/F4 result or full EA output using an attributed and versioned EHD/adapter; no additional centralized controller or global common schema is inferred. The incident lifecycle retains birth, distribution, corroboration/amendment, containment coordination and resolution. Ward's review as the originating #13 proposer is requested before any claim that this two-tier outward route is a Theme-wide agreed contract.
+5. **No authority/measurement leakage.** The receiving Theme keeps its own rules; no output authorizes an action, launders missing qualifiers or directs independent evaluation toward a preferred answer. In #21 interactions, a downstream F3 output must not become instructions to the rate producer; #18 retains operator/regime interpretation; #5 retains grant standing; #6 retains action-side verdict semantics.
+
+**Test proposal:** Compare native pass-through, F2 sensing-profile-only, F3/F4 bounded qualification and full EA-composed output for the same frozen source and decision. Predeclare each recipient's question and the minimum required distinctions; check whether a narrower route suffices and whether a wider one supplies decision-material additional evidence at justified burden. Record the semantic owner, carrier, fields and unknowns per route, not a generic “EA result”.
+
+Public #13 anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476256 ; https://github.com/FG-TIDA/themes/issues/13#issuecomment-5640186655 . Functional owners: [03 F1/F2](../../baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md), [03 F3/F4/F8](../../baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md), [04 EHD/IF-S11](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).
+
+---
+
 ## 7A. Internal corpus profiles usable by the ideal projection
 
 05 Ideal may use programme-internal architecture/profile material as **integration aids**, but must not present those artefacts as FG-TIDA-owned semantics merely because they map cleanly to a Theme.
