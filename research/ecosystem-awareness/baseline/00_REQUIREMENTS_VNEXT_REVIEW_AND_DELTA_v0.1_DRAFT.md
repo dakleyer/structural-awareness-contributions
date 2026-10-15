@@ -797,3 +797,11 @@ A22 retains its valid simplified-model counting qualification and the convention
 ## Unified restoration review 15 October 2026
 
 The unified plan retains the frozen requirements source and its working S10 successor as distinct editions. Applied proposal16 remains applied; it is not a restoration backlog item. Existing pending proposal97 concerns discovery from the EP closing note and is reproduced in EP VNext. Historical EP replacements require their own passage-specific authorization evidence; their usefulness does not establish that authorization. [Unified decisions, source checks and gates](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026). No requirement, original binary, source claim or successor is changed here.
+
+
+## Historical requirement reception — 15 October 2026
+
+Reviewer A read all225 current source lines and the changed historical units. The challenges→requirements wording retains S1–S14,T1–T4,H1–H6, declared scope and owner boundaries. Oscillation, saturation, false convergence and timeout controls add test conditions. H3's repaired falsifier correctly asks for no material difference or disappearance of the advantage after full burden, rather than treating the predicted difference itself as a refutation.
+
+The removed two-candidate summary has exact current receivers in this document: CAND-R1 at271–287 retains `Role_bound ↔ Role_effective`; CAND-R2 at289–305 retains `opportunity ≠ admissibility ≠ authority ≠ execution`, source blob `048caccffd4322b34b05017894070e5307036cd8`. Both remain candidate clarifications, not automatically promoted requirements. No old wording needs reinstatement. The complete wider historical frontier is reported in [Foundation VNext](01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026).
+

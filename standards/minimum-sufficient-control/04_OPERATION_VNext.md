@@ -250,4 +250,22 @@ Reviewer A read complete Operation (`9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`) 
 
 Containment classification is not execution, P3 does not authorise a destination, and high confidence alone does not establish Type2. Declared scalar/vector/Pareto gradients remain available; RA confidence is not physical change magnitude. Change125 aligns the staticRole source phrase with this existing bound/effective comparison.
 
-Three historical Operation scenario-version receiver obligations remain unresolved (`1263.0`, `1408.0`, `1433.0` in the source ledger). They require checking the referenced00G editions with the case review; their mere presence here is not a preservation verdict.
+The three historical Operation scenario-version receiver obligations (`1263.0`, `1408.0`, `1433.0`) are resolved by the substantive cross-owner check below. The dated A3 report remains preserved; these are valid successor corrections, with no source restoration required.
+
+
+## Completed Operation / 00G historical receiver check — 15 October 2026
+
+Reviewer B checked the three receiving-version questions left by A3/A4; A verified59 exact literals before attributed integration. All three are valid successor corrections with substantive current reception. This is a continuation of those reviewers, not a new blind review. No source repair is proposed.
+
+| Historical substitution | Commit | Current reception and consequence |
+|---|---|---|
+| 00G v0.1 → v0.2 | `0575df8c78ab3f3311bf75e9a0a99a1c23218790` | The illustrative mission/ACC/authority separation is retained; the paired opaque false/genuine F/G contract strengthens symmetric testing. Reverting would weaken that correction. |
+| v0.2 → v0.3 Draft | `ae5e437748db3166fe408386e3d398b0034a6599` | The paired contract remains; current authority applicability, DBC routing and per-rate numerator/denominator/oracle obligations are added. Draft status does not turn a candidate into an executed result. |
+| v0.3 Draft → v0.4 | `9092ee279f74f0f230f8db657b31b0d0d13212de` | v0.4 receives the full contract and the unexecuted OAI-G0/G1/G2 trajectories. The v0.3 blob at retirement includes visual aids and an implementation-draft route added after its introduction; both actual versions were checked. |
+
+Current [00G v0.4 §§6/9](https://github.com/dakleyer/structural-awareness-contributions/blob/5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#9-executable-paired-fixture-and-quality-gate-plan), blob `eeea590e01912d89d1e27d8d5c1822cb361c4df7`, requires preserving the still-valid mission under dependent repetition in F and requalifying/changing or suspending it under independent evidence plus applicable authority in G. Blanket persistence therefore fails the positive branch. `DBC_DENY` concerns the candidate transition, not unrelated valid operations; `DBC_EXECUTE` creates neither authority nor actuation.
+
+00G §§11–13 preserve the strong peer, comparable budget, branch-specific measures, burdens and falsifiers. Equal or better performance at equal or lower burden counts against the proposed differential. §§16–18 retain source dependence, matched implementation trajectories and the limited symbolic A6 authority-confound correction. Provenance is distinct from truth, identities from independence, opportunity from admissibility, and authority from confidence. Old trust-only B / available-capacity C definitions stay historical.
+
+[Operation §§16–18](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#16-worked-falsifier--bar-to-napoleon), blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`, retains `Role_effective ≠ Role_bound`, evaluation from observed behaviour and a legitimate metamorphic transition with objective, ACC/lineage, authority and validity horizon. [01D §§2–3/6](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), blob `8db6ded733dada42ca20f2cbe952b26809ec556e`, is the compatible per-operation/decision composition contract; it is not the narrative's replacement. New evidence does not extend old permission, and material change invalidates only dependent claims. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) records the receiver side. All three reception questions are resolved; empirical execution and efficacy remain separate questions.
+

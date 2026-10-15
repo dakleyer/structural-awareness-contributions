@@ -1,5 +1,5 @@
 {
-  "version": "1.39",
+  "version": "1.40",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7112,6 +7112,345 @@
       "application_from_commit": "23dc1176267ce7d24b60258e7b93b1806b058199",
       "applied_source_blob": "7320c1ab1b562dc6ac912bcc3c30c4127ab3200a",
       "published_pair_commit": "23dc1176267ce7d24b60258e7b93b1806b058199"
+    },
+    {
+      "id": 129,
+      "title": "Identify authentic originals behind translated planning and release records",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md",
+      "source_sha": "e5f373bb104f370dfb336b356f14733aec61a59f",
+      "source_commit": "5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "before": "Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.",
+      "after": "Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. The planning snapshot `QUEUE_SNAPSHOT_2026-10-04.json` is also a reading derivative: fifteen of its twenty embedded `content` fields are translated and do not reproduce the original blobs identified by `git_blob_sha`. For original-byte inspection, use the [complete original snapshot](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json) (blob `f8cdf14eabc19cd3432df8c1012980a42e4deb6d`), whose twenty embedded contents reproduce their recorded source blobs. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts. The [original English-release record](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_ENGLISH_RELEASE.json) (blob `eb862458004fab282646607d69487aaf2737c03b`) preserves the source literal `\\text{y}` → `\\text{and}`; that quoted before-literal was itself translated in the current JSON copy.",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "date": "2026-10-15",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "wave": "Continued historical custody repairs",
+      "state": "Independently reviewed; authorised exact insertion, not yet applied",
+      "application_status": "planned",
+      "decision_ready": true,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "Makes all twenty authentic snapshot bodies inspectable at the full original version and distinguishes translated payloads from their retained original-blob identifiers. The linked English-release original also restores the reported translation before-literal, rather than the translated copy's and-to-and quotation.",
+      "riskReason": "Three reader sentences only; retain the entire applied122 paragraph and every other source byte. Do not edit either JSON snapshot, its schema, historical hashes, scripts or results, or describe hash mismatch alone as semantic loss.",
+      "costReason": "Check the full original/current snapshot, twenty content/blob bindings, source-commit tree, reader context and public exact readback.",
+      "dependencies": [
+        "Applied122 receipt-custody paragraph remains complete",
+        "Original snapshot eccb5f24467f073d7f411485bffc5e5cec4c335f/f8cdf14eabc19cd3432df8c1012980a42e4deb6d",
+        "Existing baseline VNext is the sole owner",
+        "No recreation or rewrite of historical planning files"
+      ],
+      "preparation": "C source-history finding independently checked by D and replayed by root; literal context and whole-file inverse exact.",
+      "gate": "Apply only the published three-sentence insertion; public readback and exact inverse required.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
+        "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
+      },
+      "evidence": {
+        "reviewer": "C",
+        "independent_checker": "D",
+        "source_history_event": {
+          "id": "C-S0506",
+          "commit": "ce62e84e82006a5643d87f25c463ddf490ccb731",
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json",
+          "before_blob": "f8cdf14eabc19cd3432df8c1012980a42e4deb6d",
+          "after_blob": "b1c0431a176e620c684994ccabf338b486ddbb70"
+        },
+        "original_snapshot": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json",
+          "commit": "eccb5f24467f073d7f411485bffc5e5cec4c335f",
+          "blob": "f8cdf14eabc19cd3432df8c1012980a42e4deb6d",
+          "sha256": "7419c3f0b3f84d565eb28c99f1ba23dca9abe57de12ae2f1c442fd26b0737294",
+          "ls_tree_verified": true,
+          "content_checks": [
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+              "recorded_blob": "3a2128f68de56696f2929215a8f9e049d6c7e659",
+              "content_blob": "3a2128f68de56696f2929215a8f9e049d6c7e659",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+              "recorded_blob": "0e22bdffa51c7bfee621fbbddbf874c12057a4db",
+              "content_blob": "0e22bdffa51c7bfee621fbbddbf874c12057a4db",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+              "recorded_blob": "baeef6e3c8e19915e0d852a3deb0e4756219b68e",
+              "content_blob": "baeef6e3c8e19915e0d852a3deb0e4756219b68e",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+              "recorded_blob": "58bd1e8e5a6856033aa37c92c33ad172f0fe379e",
+              "content_blob": "58bd1e8e5a6856033aa37c92c33ad172f0fe379e",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+              "recorded_blob": "b38f017c2047f7ea6c8c9291d9071864dfcacc30",
+              "content_blob": "b38f017c2047f7ea6c8c9291d9071864dfcacc30",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
+              "recorded_blob": "6384a49c9c83a6f914b9b280aed55a004bd7d3cd",
+              "content_blob": "6384a49c9c83a6f914b9b280aed55a004bd7d3cd",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+              "recorded_blob": "87933feefb07b34329a57f4e9b944f205c61626c",
+              "content_blob": "87933feefb07b34329a57f4e9b944f205c61626c",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
+              "recorded_blob": "eda0cb3ea3e8ee84f9bd515b77fdaaaea5f2d297",
+              "content_blob": "eda0cb3ea3e8ee84f9bd515b77fdaaaea5f2d297",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json",
+              "recorded_blob": "e51d0f20cedbf499a868e3b4d385788f6484fd0e",
+              "content_blob": "e51d0f20cedbf499a868e3b4d385788f6484fd0e",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+              "recorded_blob": "681604687222c9d554fa4ec64cac897c46cc8f97",
+              "content_blob": "681604687222c9d554fa4ec64cac897c46cc8f97",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md",
+              "recorded_blob": "69c4b9f478f7cf1dcf873b6daff0c24fc99ff295",
+              "content_blob": "69c4b9f478f7cf1dcf873b6daff0c24fc99ff295",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+              "recorded_blob": "8b63f2123fd9ddf48781593087c6f88973aaac80",
+              "content_blob": "8b63f2123fd9ddf48781593087c6f88973aaac80",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md",
+              "recorded_blob": "043df0b247ac42c74d8b50d5a7c525c043c43cae",
+              "content_blob": "043df0b247ac42c74d8b50d5a7c525c043c43cae",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONDITIONED_TRILEMMA.md",
+              "recorded_blob": "5fe325b3adde93e64b92c2fcc07258f68b285b0d",
+              "content_blob": "5fe325b3adde93e64b92c2fcc07258f68b285b0d",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md",
+              "recorded_blob": "34d110fffdb87cc9156f6b81b2fe31e2cae787ad",
+              "content_blob": "34d110fffdb87cc9156f6b81b2fe31e2cae787ad",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+              "recorded_blob": "5c33787d1cee82fa83b56887ef0635600782078b",
+              "content_blob": "5c33787d1cee82fa83b56887ef0635600782078b",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/README.md",
+              "recorded_blob": "56b799a7a033a180a53efa67903e4a071493e23d",
+              "content_blob": "56b799a7a033a180a53efa67903e4a071493e23d",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/WORKPLAN.md",
+              "recorded_blob": "97b302536c11cdedc1e86467dcc5e15b80bf2cba",
+              "content_blob": "97b302536c11cdedc1e86467dcc5e15b80bf2cba",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/VISUAL_GUIDE.md",
+              "recorded_blob": "d052400578d81656fbdc1faa71b2c0ce72608c3a",
+              "content_blob": "d052400578d81656fbdc1faa71b2c0ce72608c3a",
+              "matches": true
+            },
+            {
+              "path": "governance/NEXT_REVIEW_BACKLOG_2026-09-23.md",
+              "recorded_blob": "c3ce3fdc08e56e2488e8bd9ee1bfe426ccf5bcb0",
+              "content_blob": "c3ce3fdc08e56e2488e8bd9ee1bfe426ccf5bcb0",
+              "matches": true
+            }
+          ]
+        },
+        "current_derivative": {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json",
+          "blob": "b1c0431a176e620c684994ccabf338b486ddbb70",
+          "content_checks": [
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+              "recorded_blob": "3a2128f68de56696f2929215a8f9e049d6c7e659",
+              "content_blob": "f76677170dcfaf4bba92c84189523669f0ef6143",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+              "recorded_blob": "0e22bdffa51c7bfee621fbbddbf874c12057a4db",
+              "content_blob": "318f8ce7684b4e7efc552f6942f6e95fb8540948",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+              "recorded_blob": "baeef6e3c8e19915e0d852a3deb0e4756219b68e",
+              "content_blob": "dd3324377fabbc5836d5a8e6c795b53022d5cb73",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+              "recorded_blob": "58bd1e8e5a6856033aa37c92c33ad172f0fe379e",
+              "content_blob": "1f4d37281c7a216a114adc1843629d5c388c833f",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+              "recorded_blob": "b38f017c2047f7ea6c8c9291d9071864dfcacc30",
+              "content_blob": "db40517a2a3308814568b059e605f676965bcab2",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
+              "recorded_blob": "6384a49c9c83a6f914b9b280aed55a004bd7d3cd",
+              "content_blob": "6384a49c9c83a6f914b9b280aed55a004bd7d3cd",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+              "recorded_blob": "87933feefb07b34329a57f4e9b944f205c61626c",
+              "content_blob": "87933feefb07b34329a57f4e9b944f205c61626c",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
+              "recorded_blob": "eda0cb3ea3e8ee84f9bd515b77fdaaaea5f2d297",
+              "content_blob": "b304caabd2be59d9bb8f0911fc351d437b1f9093",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json",
+              "recorded_blob": "e51d0f20cedbf499a868e3b4d385788f6484fd0e",
+              "content_blob": "663a3e800b85f710e4c0304a958016e6cfcd9a73",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+              "recorded_blob": "681604687222c9d554fa4ec64cac897c46cc8f97",
+              "content_blob": "e67b17413322ec88749e4358f1a029e7e67c703a",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md",
+              "recorded_blob": "69c4b9f478f7cf1dcf873b6daff0c24fc99ff295",
+              "content_blob": "c241418478f343fbaab263a1ede9165a83605a05",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+              "recorded_blob": "8b63f2123fd9ddf48781593087c6f88973aaac80",
+              "content_blob": "fb40e2885ecc028162cc79ea1e382195b65582fa",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md",
+              "recorded_blob": "043df0b247ac42c74d8b50d5a7c525c043c43cae",
+              "content_blob": "9a78dd980376a688a2aedc66125255f753fd6d41",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONDITIONED_TRILEMMA.md",
+              "recorded_blob": "5fe325b3adde93e64b92c2fcc07258f68b285b0d",
+              "content_blob": "c4f03fa618423b9c2bb582a8e32c88c26217f8de",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md",
+              "recorded_blob": "34d110fffdb87cc9156f6b81b2fe31e2cae787ad",
+              "content_blob": "cf8f04de993e77c6fce1f089d76fc2d5be744da7",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+              "recorded_blob": "5c33787d1cee82fa83b56887ef0635600782078b",
+              "content_blob": "d21243dba7814e00e5a5aea4c4bdb0ad36bd0d7d",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/README.md",
+              "recorded_blob": "56b799a7a033a180a53efa67903e4a071493e23d",
+              "content_blob": "59d299d3c864a5b81d5bd25170cd332e7b0f3151",
+              "matches": false
+            },
+            {
+              "path": "research/ecosystem-awareness/WORKPLAN.md",
+              "recorded_blob": "97b302536c11cdedc1e86467dcc5e15b80bf2cba",
+              "content_blob": "97b302536c11cdedc1e86467dcc5e15b80bf2cba",
+              "matches": true
+            },
+            {
+              "path": "research/ecosystem-awareness/VISUAL_GUIDE.md",
+              "recorded_blob": "d052400578d81656fbdc1faa71b2c0ce72608c3a",
+              "content_blob": "d052400578d81656fbdc1faa71b2c0ce72608c3a",
+              "matches": true
+            },
+            {
+              "path": "governance/NEXT_REVIEW_BACKLOG_2026-09-23.md",
+              "recorded_blob": "c3ce3fdc08e56e2488e8bd9ee1bfe426ccf5bcb0",
+              "content_blob": "c3ce3fdc08e56e2488e8bd9ee1bfe426ccf5bcb0",
+              "matches": true
+            }
+          ]
+        },
+        "owner_blob_at_plan": "4f78f685d8e50fc1b68d25db9b4e2ac66d657db1",
+        "release_record": {
+          "private_id": "C3-P02",
+          "status": "PRIVATE_PROPOSAL_NOT_APPLIED",
+          "source_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md",
+          "current_cut": "19564b502d2086097703c6304945719b8872f8c3",
+          "current_blob": "e5f373bb104f370dfb336b356f14733aec61a59f",
+          "line": 7,
+          "before": "Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts.",
+          "after": "Earlier deliveries, their arguments and dated statuses are preserved. Relocated drafts include relative-link updates and an English translation of M03/M04. The checked scientific scripts and numerical-result files are byte-exact. Four translated check receipts are reading derivatives; their historical before/after strings differ from the originals linked below. Instructions, literal paths and release hashes describe the original commit. The current priority is the baseline proof by configurations, not the order of those prompts. The [original English-release record](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_ENGLISH_RELEASE.json) (blob `eb862458004fab282646607d69487aaf2737c03b`) preserves the source literal `\\text{y}` → `\\text{and}`; that quoted before-literal was itself translated in the current JSON copy.",
+          "insertion_only": " The [original English-release record](https://github.com/dakleyer/structural-awareness-contributions/blob/eccb5f24467f073d7f411485bffc5e5cec4c335f/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_ENGLISH_RELEASE.json) (blob `eb862458004fab282646607d69487aaf2737c03b`) preserves the source literal `\\text{y}` → `\\text{and}`; that quoted before-literal was itself translated in the current JSON copy.",
+          "original_record": {
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_ENGLISH_RELEASE.json",
+            "commit": "eccb5f24467f073d7f411485bffc5e5cec4c335f",
+            "blob": "eb862458004fab282646607d69487aaf2737c03b",
+            "sha256": "fe960479ac99eb3e6c869258ee61851a2f0d45ac2efb23f6afa9e828cf28c3f4",
+            "math_display_change": "Only the prose connective \\text{y} translated to \\text{and}; numerical and mathematical expressions preserved",
+            "ls_tree_verified": true
+          },
+          "current_derivative": {
+            "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_ENGLISH_RELEASE.json",
+            "blob": "f0dec19821168f648f10794af0da7ee3361c986a",
+            "math_display_change": "Only the prose connective \\text{and} translated to \\text{and}; numerical and mathematical expressions preserved"
+          },
+          "owner_vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "owner_vnext_blob": "f33020361c1e736a8f3797bf6b0c321f5b7d958f",
+          "impact": "Medium: restores literal provenance of the reportedmath-prose-only translation without changing historicalJSON.",
+          "risk": "Low: additiveoriginalpointer only, no equations/results changed.",
+          "effort": "Low: one sentence andexactoriginalreference.",
+          "dependencies": [
+            "Sameparagraph asC3-P01; parent must combine insertions or rebaseexactpair",
+            "No sourceJSON/result/freeze edits",
+            "Do not infer semanticparity from restoredliteralcustody"
+          ]
+        }
+      }
     }
   ],
   "audit_coverage": [
@@ -8348,7 +8687,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "23dc1176267ce7d24b60258e7b93b1806b058199",
+  "review_source_commit": "5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -21101,6 +21440,23 @@
       "verifier": "D",
       "plan_sha256": "0a20d1db392d7b1b63be03cd7cf1e6e871aebaedbd5d91ccd67af7986642a4fc",
       "revision": "D1.1 precision distinguishes rejected pairs from still-validP1discriminant"
+    },
+    {
+      "date": "2026-10-15",
+      "base": "5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f",
+      "entries": [
+        129
+      ],
+      "A4_source_units_examined": 336,
+      "A4_newly_resolved": 269,
+      "A4_unresolved": 931,
+      "A5_newly_resolved": 80,
+      "A5_unresolved": 851,
+      "Operation_00G_questions_resolved": 3,
+      "B_media_non_PNG_events_pending": 18,
+      "whole_corpus_semantic_review_complete": false,
+      "verifier": "D",
+      "plan_sha256": "fdd765edefa75191478d0a79b4b98ee710f4e9db168e7b9dacee4742213d58f7"
     }
   ]
 }

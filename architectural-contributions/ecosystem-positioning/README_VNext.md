@@ -2540,3 +2540,15 @@ The complete old/proposed passages are in the existing [scenario review —126](
 Reviewer B has completed source/receiver adjudication of all468 events in its assigned historical retirement queue. Its last253 decisions preserve corrected proofs, code contracts, old fixture receivers and result histories; no further useful material omission was established there. B is separately checking three MSCA Operation/00G receiving-version questions. A and C continue their remaining historical cohorts; corpus closure is still open.
 
 128 is a final bounded reader clarification for the actively linked A04 Summary. It distinguishes earlier P1/P3 isolation pairs and the29-test A4 layer from the current corrected matrix/fixture surface. Existing text/results stay intact. The [00K owner](../../research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#complete-assigned-case-history-reception-and-a04-reading-layers--15-october-2026) records B's full conclusion, D's correction to the first draft and the complete selected old/proposed passage. The other A04 campaign alias already has its dated historical-count explanation; it receives no duplicate patch.
+
+
+## Cumulative preservation check and continued source reception — 15 October 2026
+
+At `5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f`,122–128 are applied: eight literal pairs across seven source documents. Replaying only those pairs reproduces all seven current files; reversing them recovers their full predecessors. All 2,396 paths/modes remain; 2,367 other blobs are unchanged. Twenty existing VNext retain their complete starting bodies, the original 121 registry entries and CSV prefix are exact, and 44 public readbacks authenticate current sources/reviews, their source predecessors and pinned originals. No new VNext or public file was created.
+
+B's468-event case/history queue and its separate three Operation/00G receiver questions now have decisions. A's fourth continuation resolves269 further source units and leaves931 open at its dated cut; C continues the remaining R01/math/family cohort. Eighteen non-PNG historical media events still need visual review. These remaining tasks prevent a whole-corpus closure claim.
+
+129 is a high-impact, low-risk custody clarification: identify the complete authentic twenty-body snapshot behind a translated planning derivative. It preserves122 and both JSONs. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) contains the finding, full current/proposed paragraph, priorities and reciprocal Operation result. This is a source-byte distinction, not a demonstrated loss of meaning.
+
+The subsequent A5 continuation resolves 80 further units and leaves 851 in its source frontier; full 03/04 body comparisons are now recorded in their existing owners. It preserves open H06 rather than confusing reference reception with resolved validity.
+

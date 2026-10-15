@@ -58,3 +58,9 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [57](../../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [60](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Historical participant-norm reception — 15 October 2026
+
+Reviewer A read all172 current01I lines and the changed historical units. Autonomy, resource limits, role eligibility per interaction, obligations/permissions/prohibitions, revocation, exit and conflict ownership survive. Available ACC profiles are distinct from the ACC binding the concrete participant. A compatible normative extension transfers neither identity, authority, execution nor participation-rule ownership. No source restoration is justified. [MSCA Operation's reception](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#completed-operation--00g-historical-receiver-check--15-october-2026) confirms the compatible bound/effective and authority conditions.
+

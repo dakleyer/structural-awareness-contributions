@@ -70,3 +70,9 @@ Primera, tercera y cuarta textuales realizadas; segunda material y quinta amplia
 Se leyó ArticleIV entero como procedencia:señales yhuellas pueden ser informativas sin intención cooperativa,pero su valor no es automático. Las tres partes 03 confirman APQ≠calificación deunmensaje,F9historia≠confianza global ylinaje≠transporte diferente. F2 sigue siendo dueño de ventana; F7 pide acciones sin crearsuautoridad. La ampliación actual de Foundation requiere conservar fallos en scope fijo:73queda en la fuente,con fuentecompleta aún pendiente. Se supera elpendiente de lectura propia de ArticleIV/funciones en esta relación; siguen los perfiles/realizaciones y fuentes externas completas.
 
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+
+## Historical local-positioning reception — 15 October 2026
+
+Reviewer A read all233 current01H lines and its changed historical clauses. Optional asymmetric signalling, empty/sparse starts, UNASSESSED, W redirection and bounded pathway learning remain; no portable global trust score is introduced. ECM→Cart retains the material-change path to Composition/RA. Operation owns operational posture closure;01H supplies its EA/F6 evidence. No useful omission is established and no source restoration is proposed. [01J's reception](01J_VNext.md#historical-signalling-reception--15-october-2026) and [Operation's cross-check](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#completed-operation--00g-historical-receiver-check--15-october-2026) record the receiving relationships.
+

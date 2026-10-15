@@ -140,3 +140,11 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 | 69 | Conservar UNKNOWN en perfiles sintetizados todavía no calificados | research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md | Aplicado |
 | 70 | Hacer condicionalD_compatibility en el esquema de recepción | research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md | Aplicado |
 
+
+
+## Historical signalling reception — 15 October 2026
+
+Reviewer A read all727 current01J lines and its retired clauses. Translation residue belongs to D only when an effective evaluation barrier is established; otherwise its actual qualification or UNKNOWN remains. Known unused records/options remain characterised reserve B. Deterministic telemetry decoding is distinct from physical accuracy, and receiver-added qualification is not attributed to the sender.
+
+Retired ranking pseudocode has receivers in current objectives, epistemic state, MSCA, resources and `ReceivedSignals_i` (§§275–304), with the gradient law and Operation retaining selection ownership. Cost, privacy, capacity, horizon, normalisation and absence of a global gradient survive. RepositionIntent may be consumed locally or transported to the approver; transport does not approve the transition. No source repair is established. [Operation/00G reception](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#completed-operation--00g-historical-receiver-check--15-october-2026) preserves the cross-owner consequence.
+
