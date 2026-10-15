@@ -1820,3 +1820,8 @@ This is a dated source-owner confirmation of the capability description. H1/H2 r
 ### Source-update application121
 
 Exact dated addition incorporated; predecessor `8ec757d73638ed6464dfaa33861cf3d35e665797`, successor `fbcaffa0a7097027e3c46271874823e13b9449a5`. Its inverse restores every predecessor byte. Public verification follows below.
+
+
+## Dated source updates verified 15 October 2026
+
+Change121 is applied in main and read back exactly: [application](https://github.com/dakleyer/structural-awareness-contributions/commit/c844eb45d5ca0c577663baf30e1f576a95f38002). The complete old source survives, its old/new pair is applied history, and no insertion from this batch remains pending. Source-owner confirmation, coordination and study evidence retain their separate scope; no new experiment or case was launched.

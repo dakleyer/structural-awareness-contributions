@@ -18122,3 +18122,8 @@ Source `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`; blob `
 ### Source-update application120
 
 Exact dated addition incorporated; predecessor `7d26dd6071a1ad650f2a6d1aa5d0de42775df79a`, successor `d6cbccf686e51deb2560430909fc8fde1630b60a`. Its inverse restores every predecessor byte. Public verification follows below.
+
+
+## Dated source updates verified 15 October 2026
+
+Change120 is applied in main and read back exactly: [application](https://github.com/dakleyer/structural-awareness-contributions/commit/a5e01a0461563a7305732467c848bac844f86641). The complete old source survives, its old/new pair is applied history, and no insertion from this batch remains pending. Source-owner confirmation, coordination and study evidence retain their separate scope; no new experiment or case was launched.

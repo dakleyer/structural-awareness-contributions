@@ -1,5 +1,5 @@
 {
-  "version": "1.28",
+  "version": "1.29",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -7851,7 +7851,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "c6a2acf858f2856a20e2e29781c52286f357b25e",
+  "review_source_commit": "c844eb45d5ca0c577663baf30e1f576a95f38002",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -20279,5 +20279,17 @@
       "after_blob": "fbcaffa0a7097027e3c46271874823e13b9449a5",
       "exact_inverse": true
     }
-  ]
+  ],
+  "dated_source_application_closure": {
+    "date": "2026-10-15",
+    "application_head": "c844eb45d5ca0c577663baf30e1f576a95f38002",
+    "exact_public_readbacks": 6,
+    "applied_ids": [
+      120,
+      121
+    ],
+    "pending_ids": [],
+    "no_previous_source_bytes_removed": true,
+    "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#public-source-update-15-october-2026"
+  }
 }
