@@ -1,4 +1,4 @@
-<!-- Approved v0.4 Word body reproduced below in document order. -->
+<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->
 
 > **Identificador de esta enmienda semántica: `ABCD-00M08-2026-10-02`.** Conforme a N11, un perfil que usaba C para una opción evaluable omitida necesita correspondencia y versión explícitas antes de reutilizarse. Esta edición documental no convierte los envíos antiguos ni reinterpreta sus versiones por semejanza. Las 176 filas se conservan como mapa condicionado, no como 176 clasificaciones ya verificadas bajo el marco nuevo.
 

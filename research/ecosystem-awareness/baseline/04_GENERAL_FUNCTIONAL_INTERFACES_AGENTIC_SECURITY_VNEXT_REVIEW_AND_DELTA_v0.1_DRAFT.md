@@ -711,3 +711,8 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 **Pairs checked here: 101,102.** Both complete old/new publication descriptions match the source. Their joint proposed meaning distinguishes the preserved Word/manifest/diagram edition from dated living Markdown amendments. Neither pair changes those binaries or recalculates the historical manifest. Both remain one companion decision after edition/return-route reconciliation.
 
 Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+### Application 101 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md`; resulting source blob `1bbc76f673d79e3b5bb52117aeeb3d68af0d5387`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
