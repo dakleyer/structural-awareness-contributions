@@ -15982,6 +15982,43 @@
       "scope_verified": true,
       "canonical_unrelated_bytes_identical": true,
       "campaign_or_experiment_activated": false
+    },
+    {
+      "key": "sealed00J",
+      "date": "2026-10-15",
+      "from_commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3",
+      "title": "Qualify the existing00J transfer result by its full-route premises",
+      "canonical_files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md",
+          "before_blob": "7195c2215454e40d830f159ac838c898b33573a1",
+          "after_blob": "994783f57be89805d3b737c1337af1df0970e4e9",
+          "bytes": 3926,
+          "sha256": "f5acde6d9eaf763e4471f2e050e53e4a97da943e4adbb54ca3c9cf8295f60c5c"
+        }
+      ],
+      "pairs": [
+        {
+          "pair": 1,
+          "location": "section8 to EOF",
+          "old_occurrences": 1,
+          "before_sha256": "f0acbbd474825beb0effb4169a4da72fbeb31e0b90aac4721abca0a6f672baf1",
+          "after_sha256": "35ce2ff15212dc0121797060eae05c80e7c6e310ec9d87fd24bf62276cea5480",
+          "prefix_sha256": "0fa40811cba98ae32483d689190e7e49968029a57dcd2272230a59e39c52b5cc",
+          "suffix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "exact_inverse": true,
+          "unrelated_bytes_identical": true
+        }
+      ],
+      "status": "Applied; removed from the pending queue",
+      "authorization": {
+        "date": "2026-10-15",
+        "user_instruction": "Ahora una a una tienes que ir ejecutando la suggest, aplicando los cambios en los documentos que van a ser canónicos y luego revisar adecuadamente que no hayan habido modificaciones adicionales y que todo lo de la VNS está aplicado correctamente.",
+        "scope": "Execute the reviewed literal documentary proposals one by one, preserving every unrelated byte; no experiments or new campaigns."
+      },
+      "scope_verified": true,
+      "canonical_unrelated_bytes_identical": true,
+      "campaign_or_experiment_activated": false
     }
   ],
   "current_wave_status": {
@@ -18133,6 +18170,13 @@
           "research/ecosystem-awareness/baseline/README.md": "5a3244fa97c94a630bf930c54a18d7d39b4e6ff9"
         },
         "from_commit": "8bf5c0b813382647edc6df3a9ca867c090209977"
+      },
+      "sealed00J": {
+        "state": "Applied; removed from the pending queue",
+        "source_blobs": {
+          "research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md": "994783f57be89805d3b737c1337af1df0970e4e9"
+        },
+        "from_commit": "c2bdd27d77293176b797c8fcbe8733e2c9e0acf3"
       }
     }
   }
