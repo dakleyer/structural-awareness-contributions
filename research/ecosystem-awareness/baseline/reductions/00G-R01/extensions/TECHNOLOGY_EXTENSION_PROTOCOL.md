@@ -26,6 +26,9 @@ For a technology extension to be represented as a richer DDS implementation prof
 
 The R01 equations and acceptance region remain authoritative wherever this protocol is used.
 
+**Edition route.** This `extensions/` edition supplies the current DDS Stage A reading. The [retained feasibility edition](../feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md) preserves the mathematical/work-plan context, whose [single queue](../feasibility/WORKPLAN.md) remains the R01 work register. Both editions retain the same mathematical contract; cite the exact edition used by the study.
+
+
 ## 1. What is compared
 
 Fix problem x: task, mandate, worlds and their law, sufficient quality, evaluation horizon, actual violation and accounting rule. Declare technology t and complete manifest θ_t=θ(x,t). Admissible strategies are Π(θ_t), without access to the evaluator's private state.
