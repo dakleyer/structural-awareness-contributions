@@ -422,7 +422,7 @@ This estimate concerns completion of the qualified human review. The consuming o
 
 **Source:** `research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `20b7c8e0bea79edc237e695924a2a657713d412c`. **Location:** ## 5.3 Runtime state rule.
 
-**State:** proposed, not applied. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+**State:** Applied — owner-authorized 15 October 2026. Source blob `a60ea6991692dd0666203bb99e89b25564628745`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
 
 **Benefit:** Connects existing states to explicit model/proof requirements and preserves legitimate heuristic deployments.
 
@@ -515,3 +515,8 @@ Complete old and proposed blocks remain above; they were not replaced by this re
 ### Application 107 — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md`; resulting source blob `c4371ab49c78dadaebca493171df12c7e5c720ce`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+### Application 108 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md`; resulting source blob `a60ea6991692dd0666203bb99e89b25564628745`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.

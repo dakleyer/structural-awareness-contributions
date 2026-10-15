@@ -722,6 +722,9 @@ UNKNOWN
 
 The component does not create a fifth state for every failure cause; causes remain structured reasons.
 
+The consuming profile declares which scheduling/timing proof classes it accepts for each decision. EXACT and CONSERVATIVE_BOUND claims identify their model, assignment or bound and assumptions; HEURISTIC is reported as a heuristic. An availability indication must not silently become a stronger deadline guarantee than its witness supports. If a material proof/input required by the consuming policy is missing, use UNKNOWN for that decision. A deployment need not implement a universal exact scheduler or the optional HID measurement engine.
+
+
 ## 5.4 Multiple simultaneous obligations
 
 Human capacity is not static headcount.
