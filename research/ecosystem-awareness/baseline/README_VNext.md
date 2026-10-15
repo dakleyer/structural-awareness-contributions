@@ -1931,47 +1931,7 @@ The historical PDF has a genuine cover/map layout regression. Extraction suggest
 
 Six DOCX versions have complete structural/text comparison, with R01 PDF render support, but native Word/LibreOffice layout was unavailable. PowerPoint desktop was not used. These specific visual limits remain; they are not textual loss verdicts or proof of native compatibility.
 
-### Change 134 — Restore described access to nine complete historical DAOS editions
+### Change 134 — Applied 15 October 2026
 
-**State:** reviewed by D and root, authorised by the current restoration instruction, not yet applied. **Expected impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
-
-Source `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `971e2e91c9977b37f23039e538d6c747eb0eb163` at `62e03c56bac3f5c34f5c97939c52bf9bd37bab1a`. The full existing final paragraph below occurs once. The proposed addition follows it at the end of the existing auxiliary catalogue.
-
-**Text before — complete existing context**
-
-~~~~markdown
-Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.
-
-~~~~
-
-**Text after — complete context and proposed addition**
-
-~~~~markdown
-Two prepared comment packages explain possible F1/F2/F3 outbound interfaces and shared Theme #13 signalling: [the five-venue package](../../fg-tida/interfaces/2026-10-15_MINIMAL_CROSS_THEME_COMMENT_PACKAGE_DRAFT.md) proposes Theme #21 as its fourth venue; [the four-venue alternative](../../fg-tida/interfaces/COMMENT_PACKET_THEME13_F1_F2_F3_2026-10-15_DRAFT.md) leaves Theme #21 optional and deferred. Both are draft, not posted. They retain alternatives for contributor review; the existing 05/05A VNext own the interface proposals and their review.
-
-## Earlier DAOS review editions — historical source reading · 15 October 2026
-
-Earlier DAOS review editions document the development from the integrated case to the modular pre-freeze package. The [current DAOS package](../../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) owns the case, extensions and S1–S14 challenge route.
-
-| Earlier complete edition | Purpose and relationship to the current package |
-|---|---|
-| [Main case v0.6](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md) | Integrated case, full xSeil → Car Evolution → MACA / Minimum Sufficient Control lineage and implementation-neutral rationale. |
-| [Main case v0.7](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.7.md) | Neutral ideal D1–D3 +1 readiness framing, governing-regime clarification and controlled regime-specific variants. |
-| [Main case v0.8](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.8.md) | Purpose-first narrative and explicit separation of desirable D1/D2 from mandate and authority-validity boundaries. |
-| [Main working structure v0.9](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.9.md) | Return to a short modular main note; case facts and S1–S14 remain in the annexes. |
-| [Annex I v0.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md) | Earlier minimal G1/P1/C1, T0–T2 mobility case before the expanded public explanation and technical completion. |
-| [Annex II v1.2](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md) | Original upward, downward/private-factory and horizontal extension tests; current AnnexII retains the substantive body. |
-| [Annex III v1.3](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md) | Original S1–S14 solution-challenge table and validation-unit choice; current AnnexIII remains the challenge owner. |
-| [Annex IV v1.0](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md) | Original many-to-many ToR mapping and its declared coverage boundary; current AnnexIV is the maintained route. |
-| [Annex V v1.1](https://github.com/dakleyer/structural-awareness-contributions/blob/c33c1d57820a0880d714a36f36bec7bd3f540869/submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md) | Original adjacent standards/research map with its dated reference statuses; current AnnexV preserves the interface route. |
-
-~~~~
-
-**Reason:** Makes nine complete distinct retired case/annex editions discoverable with their purpose and current successor, without copying them into a competing corpus.
-
-**Risk and effort:** Append one historical-reading table to the existing auxiliary leaf. Preserve all previous bytes, current DAOS ownership and three corpus README levels. Do not restore obsolete integrated architecture or harden ideal D1/D2 conditions into gates. D read complete distinct old/current case bodies and clause receivers; root checked all nine pinned blobs, descriptions, current route and full-source prefix/inverse. Publicly read back all nine originals.
-
-**Dependencies:** Existing EA additional-work leaf and baseline VNext owner; Version-pinned complete originals at c33c1d57820a0880d714a36f36bec7bd3f540869; Current DAOS package remains the current case/challenge owner; 123 already supplies a distinct formalism/grammar reading addition; not duplicated here.
-
-**Iván's instruction and decision:** preserve all useful information and earlier versions, classify historical/additional material under the existing auxiliary leaves, and apply only exact reviewed insertions. This restores reading access rather than current authority. Every old byte remains an exact prefix.
+The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `173d025fb1129b55a2d3a81036b3b53b7616c2bf`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/11a11874a909d4e1dec965abee699f46924be847/research/ecosystem-awareness/baseline/README_VNext.md#change-134--restore-described-access-to-nine-complete-historical-daos-editions) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitution recovers source predecessor `971e2e91c9977b37f23039e538d6c747eb0eb163` byte for byte. Every other source byte is retained.
 
