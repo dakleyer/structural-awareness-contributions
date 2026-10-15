@@ -11825,7 +11825,8 @@
       "application_gate": "Complete current literal before/after, benefit, impact/risk/effort, consumers and named Ivan GO for each wave/passages",
       "canonical_applied": false,
       "new_candidates": 0,
-      "new_vnext": 0
+      "new_vnext": 0,
+      "proposal_assessments": []
     }
   ],
   "plan_order": {
@@ -12351,6 +12352,35 @@
       "authorized_to_apply": false,
       "original_pair_preserved": true,
       "reason": "Complete component/schema and UC03 source readings support a bounded capacity cross-reference; no sufficient scheduling/calibration or all-consumer closure is established."
+    },
+    {
+      "base_change_id": 92,
+      "name": "15 October strategy repair — passage 1 successor only",
+      "date": "2026-10-15",
+      "source_commit": "6e2eca21b47f4dfe85fd252ba46565ca3462a578",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.",
+          "after": "The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.\n\n### UC-21 research questions\n\nThe [official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) records the case and its submitted acceptance conditions. Contributions is the maintained research corpus. Select the question first, then its Challenge, technology/configuration and evidence contract. The questions below guide that selection; they do not replace the complete case protocols.\n\nThe historical protocol links select the verified case edition at commit `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`, which includes later case and reader revisions. That source edition is distinct from the [original submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails). A study identifies the exact case edition and protocol it actually consumes.\n\n| Objective | Research question | Historical case-source protocol |\n|---|---|---|\n| Decision correctness and legitimate continuity | Does the selected configuration meet the decision, authority, effect and timing conditions while allowing justified activity? | [Case acceptance plans](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) |\n| Effectiveness of existing controls | Does a competent conventional configuration, including the reinforced R1, correct the selected failure? Successful existing defences receive credit. | [R0/R1/R2 comparisons](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) |\n| Recurrence after correction | Can an admitted material change reproduce the same failure after R1 has demonstrated correction, with its safeguards and generic adaptation retained? | [HR recurrence protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#annex-r) |\n| Common causal pathway | Can an admitted transfer, qualification-loss, material-change and reuse pathway produce the independently defined failure in each declared family? | [HC causal protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |\n| Sufficient common response | Can a declared communication-and-processing mechanism provide timely warning and authorized response while preserving legitimate activity across its registered scope? | [HS response protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |\n\nSelect case acceptance, HC, HR, HS or an individual [H1–H6 contrast](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#8-the-six-canonical-hypotheses-and-their-refutation-tests) through the [case claim-selection protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection). Keep that choice separate from R0/R1/R2 and from DDS Stages A/B/C. Each source retains its definitions, admission conditions and evidence limits.\n\nThe historical case texts and their unique protocols have not yet been fully reconciled into Contributions. This is a reading bridge to existing research and identified source dependencies, not a replacement case compilation or a completed source migration. DDS remains the reusable method for UC-21 and other cases; case-specific sources retain their own responsibilities.\n\n### UC-21 Challenge sources\n\nThe S1–S6 slots correspond to the following Contributions sources. Choose the exact edition consumed by a study; a current reader source does not replace its earlier freeze.\n\n| Challenge slot | Failure family | Contributions source |\n|---|---|---|\n| S1 / 00E | Enterprise synthesis | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) |\n| S2 / 00F | Shared mobility | [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) |\n| S3 / 00G | Propagated false mission | [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) |\n| S4 / 00H | Finding beyond authority | [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) |\n| S5 / 00I | Delayed repair | [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) |\n| S6 / 00J | Rights-provenance inversion | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |",
+          "location": "Section 11, existing 92 passage 1",
+          "before_matches": 1
+        }
+      ],
+      "state": "Draft successor — existing content-integration suspension retained",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "impact": "Alto",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Primera",
+      "scope": "Repairs links and objective table in passage 1 only; other nine passages, case integration and owner decisions remain open",
+      "supersedes_draft_only": true,
+      "original_pairs_and_states_preserved": true,
+      "case_source_commit": "724d69f9cf69aaadd2f84f50934db9cf77fcc1f1",
+      "review": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#dds-strategy-and-restoration-decisions-15-october-2026"
     }
   ],
   "decision_waves": [
@@ -14704,6 +14734,66 @@
       "exposure": "A23 previous reconstruction execution report disclosed; affected assertion not perfectly blind; independent source formula inspection distinguished from accepting reported runs",
       "latest_checkpoint_current_bodies": 41,
       "latest_checkpoint_read_payloads_including_disclosed_exposure": 205
+    }
+  ],
+  "dds_strategy_organizer_epochs": [
+    {
+      "date": "2026-10-15",
+      "title": "DDS strategy before restoration — organizing review and existing-plan reconciliation",
+      "source_commit": "6e2eca21b47f4dfe85fd252ba46565ca3462a578",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#dds-strategy-and-restoration-decisions-15-october-2026",
+      "organizer_role": "DDS strategy and presentation organizer",
+      "source_first_account_before_prepared_plan_comparison": true,
+      "strategic_scope_complete": true,
+      "whole_corpus_history_review_complete": false,
+      "source_reviewer_resumed": false,
+      "reader_route": "UC-21 → objectives → Challenges → DDS → campaigns → results",
+      "restoration_decision_rule": [
+        "State actual information/value",
+        "Check validity and current corrected recipient",
+        "Preserve source/version/evidence and current owner",
+        "Choose restoration, relink, history/support, non-reintroduction or unresolved",
+        "Prepare exact bounded pair and obtain named GO before source incorporation"
+      ],
+      "case_integration_complete": false,
+      "optional_application_router_nomination_not_adopted": true,
+      "assessments": [
+        {
+          "id": 92,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "effective_suspension_preexisted": "14 October damage_control_epochs and current CSV",
+          "all_ten_original_before_passages_match_once": true,
+          "newly_identified_missing_relative_links": 5,
+          "malformed_objective_rows": 5,
+          "draft_successor_passage": 1,
+          "global_revised_wave_complete": false
+        },
+        {
+          "id": 91,
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "dependency": "92 plus actual case content, reader destinations and official-owner decision; prepare from current Issue body last"
+        },
+        {
+          "id": 96,
+          "state": "Existing named-pair dossier preserved; source-grounded strategy supports bounded notice, pending named GO"
+        }
+      ],
+      "draft_A": "Merge into existing 92 passage 5; no duplicate ID",
+      "draft_B": "Narrowed current/successor reading guidance; no new ID",
+      "canonical_applied": false,
+      "new_active_vnext": 0,
+      "new_change_ids": 0,
+      "new_files": 0,
+      "priority_record_schema_repair": {
+        "source_epoch_index": 17,
+        "source_epoch_date": "2026-10-14",
+        "added_field": "proposal_assessments",
+        "value": [],
+        "reason": "Instruction-only guidance epoch contains no per-proposal assessments; explicit empty array fixes the pre-existing extract_top.py KeyError without changing historical instructions or rankings",
+        "original_fields_preserved": true
+      }
     }
   ]
 }

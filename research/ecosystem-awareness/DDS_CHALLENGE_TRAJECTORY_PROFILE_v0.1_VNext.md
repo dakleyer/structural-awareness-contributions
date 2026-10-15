@@ -5060,3 +5060,407 @@ The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-d
 **Dependencies:** Current CAMPAIGN and principle v0.2; technical history and NOT_PREREGISTERED state; coordinate the same campaign owner.
 
 **Iván’s instruction/decision:** Ivan names this exact pair/wave; refresh source and confirm no concurrent governing notice. No campaign or experiment is activated. Pending; not applied. All other source bytes must remain unchanged.
+
+
+## DDS strategy and restoration decisions (15 October 2026)
+
+**Iván’s instruction:** understand DDS and its presentation before proposing recovery. Retain the reader route **UC-21 → objectives → Challenges → DDS → campaigns → results** and judge historical content by its current contribution. Recovery must preserve the present order and useful information, with one maintained corpus and the existing document owners.
+
+**Review:** a separately assigned organizing agent first read current sources, then compared existing prepared plans. The coordinator verified the current Contributions head, all ten old passages of 92, and its five introduced missing relative links in an in-memory preview. This task completes the bounded strategic review; whole-corpus historical examination and case-source integration remain open. The proposals below are published for review; canonical documents are unchanged.
+
+### 1. Sources and review scope
+
+Contributions cut: `6e2eca21b47f4dfe85fd252ba46565ca3462a578`. The source and control readings, representative result records and their actual roles are identified below. Reported experiment outcomes are attributed to those sources; no experiment was run in this review. The official UC-21 Issue body was read at its 15 October state; its entry still selects the submitted fork snapshot. The later case-protocol edition was independently pinned and checked at `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`, as documented in Section 11. The owner-supplied 12 October migration plan v0.2 was examined as a proposal.
+
+| Source | Reading used here | What it governs |
+|---|---|---|
+| [DOCUMENT_CONTROL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/DOCUMENT_CONTROL.md) | Navigation rules, protected routers, §§13–14, latest UC-21/DDS control additions | Owners, three corpus reading levels, preservation and change gates |
+| [EP Development Strategy](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md) | Full strategic argument | What research should advance and what would count as progress |
+| [DDS Research Basis and Benchmarking](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md) | §§1–12: decision utility, proportional method, documentary positioning, strong alternatives and evidence limits; bibliography not independently re-audited here | Supporting value/research dossier with its existing VNext; Method Index remains method authority and 00D retains comparator/fairness ownership |
+| [EP README](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/architectural-contributions/ecosystem-positioning/README.md), [EA entry](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/README.md), [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/README.md) | Current reading/status explanations and technical source map | Programme explanation, technical navigation and source status |
+| [DDS Method Index](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), [Stage A](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md), [Stage C](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) | Full method identity, Stage A challenge/mapping/accounting/acceptance and handoff provisions; full B/C contracts | One reusable method, three objects/references, coverage and evidence boundaries |
+| [R01](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/README.md), [extension protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md), [extension-study home](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md) | Current purpose/status, mathematical transfer discipline and recorded-study routes | Rich Stage A instantiation, scope-specific extension and source/result lineage |
+| [R01 oracle](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md) and its adapter, isolation, trace, broker and gate contracts | Full contracts; static inspection of admission checks and selected batch/interactive harness paths | Instrumentation, candidate visibility, execution/effect, authoritative measurements and seals |
+| [FG-TIDA application package](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/fg-tida/README.md) | Full owner/boundary explanation | Application projection, distinct from general EA and external adoption |
+| [00I-STATEFUL](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md), [HF reports](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md#recorded-comparisons-and-their-results), [structured-output study](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/DDS_STUDY.md), [Flores campaign](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md) | Representative owning reports and states, including adverse outcomes | What the architecture of records must preserve in practice |
+
+
+### 2. What DDS is trying to achieve
+
+The Development Strategy asks a practical question: what does retaining and reviewing decision context add over a competent solution that already has controls, evidence and supervision? Its next steps are to clarify a claim, describe a small complete profile, freeze a comparison capable of giving a negative answer, obtain review/evidence, and transfer only what can be justified. More components or files are not themselves progress.
+
+DDS turns that ambition into a disciplined evaluation lineage. It is reusable across UC-21, R01-derived questions, other cases and independently defined deployment problems. UC-21 supplies a case and selected acceptance/hypothesis questions; DDS supplies the method. Neither needs to become a duplicate of the other.
+
+The supporting Research Basis dossier makes the **decision value** concrete. A deployment owner needs an adoption, redesign, configuration or further-test decision; a provider needs an evidence-bounded explanation of what its configuration adds and where that contribution stops. A technology can work correctly and still be a poor fit for a particular authority boundary, workload or response window. A useful DDS therefore connects the actual problem to preserved structure, added mechanisms, a competent reference, traces, acceptance, burden and a conditional deployment interpretation. Improvement, equivalence, trade-off, no material differential and insufficient evidence are all legitimate outcomes. A negative result can avoid an unsuitable investment or identify the exact boundary a redesign must address.
+
+That integration is the proposition to demonstrate case by case. The dossier explicitly credits substantial overlap with established formal, assurance, hazard-analysis, evaluation and commercial approaches; its documentary comparison is not a common-fixture vendor benchmark, proof of unique invention, equivalent external independence or superior performance. Research funding cannot buy a favorable result. The method is useful when a reviewer can reconstruct a material finding, inspect the decisive assumption that could reverse it, and use the conclusion for the declared decision—not when the taxonomy or bibliography is larger.
+
+Proportionality follows from that purpose. Select enough evidence to answer the agreed question and check its material reversible assumption where feasible. Close with a bounded or conditional answer rather than generating a universal battery. Technical scope and agreed delivery remain separate: a reduced technical study can be finished within scope without silently waiving promised engagement outputs. The Research Basis dossier supports these explanations; it does not create another method or replace 00D's fairness contract.
+
+| Level | Object and authority | Required output / decision | Boundary to preserve |
+|---|---|---|---|
+| UC-21 case | Receiving-decision problem, five objectives, HC/HR/HS and separately selected H1–H6; scenario-local acceptance | A chosen research question, family, variant and comparison | Gate result, case conclusion and hypothesis conclusion are separate |
+| Challenge / bounded scenario | Technology-independent problem/failure family, then declared facts, authority, outcomes and horizon | A fair, frozen reference for the question | An implementation is not allowed to redefine success to make itself succeed |
+| DDS A | Candidate specification, mechanism, control profile or mapped configuration trajectory against the Challenge | Bounded differential/no-differential/trade-off/insufficient-evidence finding; possibly a frozen candidate specification package | Runnable code can still be Stage A; no automatic architecture or product finding |
+| DDS B | Architecture/reference realization against the frozen A specification package | Requirement-level VERIFIED/PARTIAL/NONCONFORMANT/NOT_ESTABLISHED matrix and architecture package | The Challenge alone is not substituted for the conformance reference; A cannot be rewritten after the result |
+| DDS C | Pinned implementation/configuration against the Challenge and independently observed effect/target | Bounded implementation/problem-validation finding | Decision, command, attempt, receipt, actual effect and final target state remain distinct |
+| Campaign/study | The selected object, version, scope, frozen contract, comparator and runs | An owning report tying question to evidence and conclusion | Several runs, repairs or annexes do not automatically become independent campaigns |
+| Instrument | Oracle/reference, harness, broker, adapter, traces and admission machinery | Qualified infrastructure and explicit remaining obligations | Calibration PASS is not a substantive DDS result or independent acceptance |
+| Current reader / successor | Source/version relations and what the evidence presently supports | Understandable route and correction/successor relationship | A later explanation does not rewrite the earlier result or its consumed version |
+
+The source method distinguishes **stage**, **evidence mode** and **coverage**. Documentary, mathematical, symbolic, local software, native execution and independent replication describe evidence; Full/Simplified describes selected coverage. Neither axis determines A/B/C. A complete local Simplified A answer can remain valuable while B/C are unestablished.
+
+Stage A accounting is also substantive. I is high-value admissible completion, M is a legitimate reference closure, P is material violation and Ø is incompletion. These are not free substitutions for Type 0/1/2. Type-1 diagnosis needs an admitted, reachable M floor and its denominator; P is excluded from the no-closure numerator. Unscored cost is not zero; a cheap incorrect or incomplete trace is not an efficiency gain. Risk, sufficient completion, burden, hidden optimum and accessible-information lower bounds remain separate. These distinctions should survive any organizational simplification.
+
+### 3. The route that exists, the route intended, and the missing integration
+
+#### Current observable route
+
+1. [FG-TIDA UC-21 Issue](https://github.com/FG-TIDA/use-cases/issues/21) → [submitted case package](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails).
+2. The compiled case README provides [five objectives](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives), [Challenge selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), claim/recurrence/admission sources and links to DDS.
+3. [DDS §11](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) already states the agreed route. §§13–15 select a question, profile/instruments and recorded owning report. Several active labels still call fork main the maintained case package.
+4. Actual studies are reached through existing reports, the baseline, R01, extensions and fixtures. [DDS §15](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports) provides multiple result families, not only the thirteen-study extension table.
+5. A finding returns to its selected case objective and may motivate a prospectively declared specification or successor. The current records require this relationship, but a visible per-study return statement still needs checking campaign by campaign. An index link alone does not prove the loop is complete.
+
+**Gap:** this route is navigable through external historical dependencies, but it is not yet the selected one-corpus case integration. The inspected Contributions tree contains no complete `contributions/when-controls-work-system-fails` compilation. Its six family sources and nine profile sources are present; case-specific recurrence, claim-selection, admission, evidence and adaptation obligations cannot be assumed identical merely because counterparts exist. The EP VNext's 13–14 October owner direction expressly recognizes this distinction. A menu must not be reported as a migrated case package.
+
+#### Intended reader route, using existing owners
+
+**UC-21 → objectives → Challenges → DDS → campaigns → results → selected case conclusion / next specification decision.**
+
+| Reader step | Real source / destination | Ownership and present state |
+|---|---|---|
+| Case entry | Public Issue #21 and compiled source package above | Submitted record remains authoritative for its edition. Current research is to be maintained in Contributions; the official primary route has not yet changed |
+| Five objectives | Case objectives; HC/HR/HS and H1–H6 selection | Case semantics, not DDS definitions. Source compilation reconciliation remains needed |
+| Challenge selection | Existing 00E–00J sources in baseline, linked below | General source families remain with baseline; S1–S6 are retained package labels |
+| Evaluation scenario | DDS A §§3–4 plus selected case admission X1–X7 / relevant extension contract | Technology/version/configuration × Challenge under bounded conditions. Preserve base scenario and mapping separately |
+| Method stage | Existing DDS Method Index → A/B/C | Sole cross-case method authority; no UC-21-only DDS branch |
+| Instruments | R01 C02/selected oracle, adapter, broker, fairness and admission contracts | Reuse only after a declared mapping; C02 and HF C3 have different truth/policy contracts |
+| Study/campaign | Existing owning report/current study record, registration and freeze | The contract establishes identity. A related folder or replay does not |
+| Runs/evidence | Exact registered code/configuration, native trace, normalized trace, result and observer | Their own version/hash/evidence mode remains attached |
+| Return | Owning report → selected objective/claim/Challenge and remaining condition | A case finding or successor decision; no unregistered generalization |
+
+The six actual family destinations are:
+
+| UC-21 slot / Challenge | Contributions source | Decision to preserve |
+|---|---|---|
+| S1 / 00E — enterprise synthesis | [00E](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) | Supported composition and finite review/closure |
+| S2 / 00F — shared mobility | [00F controlled edition](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) | Shared resource/time/capacity and legitimate movement |
+| S3 / 00G — propagated false mission | [00G current source](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | Source dependence versus actual mission-transition authority |
+| S4 / 00H — finding beyond authority | [00H v0.5 working source](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | Unauthorized aggregate action and silent loss of the material finding, separately |
+| S5 / 00I — delayed repair | [00I controlled edition](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) | Applicable evidence at use and check-to-effect validity |
+| S6 / 00J — rights/provenance inversion | [00J](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | Evidence and authority for the exact final proposition and use |
+
+Technology profiles remain in their existing 00E-A01/A02 through 00J-A01 sources, reached through the [baseline implementation-profile matrix](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/README.md#implementation-profile-matrix). This is a source map, not nine independently verified products.
+
+#### Explicit recommendation: ownership of the UC-21 entry
+
+Keep **DDS §11 as a short cross-case reading bridge**, with the order already approved. It may explain how to choose a UC-21 objective and reach the relevant Challenge, but must not absorb the full case, twenty annexes, acceptance plans and evolving case prose. DDS must remain usable from other cases.
+
+For a lasting UC-21-facing entry inside Contributions, the existing **FG-TIDA application owner** (`research/ecosystem-awareness/fg-tida/README.md`) is the appropriate existing router to nominate for a compact case-entry link/section, subject to the joint owner decision in EP VNext and the existing EA/DDS review records. Its current content explicitly owns FG-TIDA-specific case context; this nomination adds no new README or reading level. The existing `cases/README.md` remains subordinate package navigation. It should not become another method owner, and the unrelated DAOS masterclass should not be silently renamed or repurposed as UC-21.
+
+This is a **proposed reader ownership**, not a claim that the complete case source is already integrated there. Before a maintained-case link can replace the historical dependency, reconcile unique case clauses to existing substantive source owners. Use an existing appropriate destination when it truly owns that content; do not hide unmatched case protocol clauses in a menu or claim they are duplicated without comparison. If no appropriate existing substantive destination exists, record that unresolved source-placement question in the present VNext rather than creating a README, a new active VNext or an artificial duplicate compilation. No routing change should promise content that its destination does not contain.
+
+### 4. Controls that organization must keep visible
+
+#### Problem, reduction and extension
+
+The case admission X1–X7 preserves the kernel, decision boundary, failure predicate, acceptance, positive control and finite resources and declares new primitives. Membership is independent of success. DDS A §4 similarly separates correspondence, parameter changes and genuinely additional mechanisms. The R01 extension protocol requires a proved direction for impossibility transfer; an attainable construction is not an all-policy impossibility proof. Narrative resemblance, a framework label, or a one-way simulation must not be reintroduced as an isomorphism.
+
+The useful strategy is therefore to make these relations explicit where a campaign uses them. A campaign directory need not reproduce the genealogy as nested folders, but its report cannot omit the mapping needed to justify inherited conclusions.
+
+#### Oracle, harness, adapter and effect
+
+| Surface | Current control / technical observation | Organizational implication |
+|---|---|---|
+| Oracle/reference | Frozen private world and separate reference methods; disagreement preserves INCONCLUSIVE | Keep reference/policy version and scope with the run. Never pool C02 truth and HF C3 truth |
+| Harness | Static batch-code inspection seals the candidate/authoritative-measurement trace before computing the private reference; batch result labels `BATCH_CONFORMANCE` and `execution_verified=False` | Preserve the mode. A sealed batch choice is not an actual applied effect |
+| Interactive broker | Declared explore/inspect/review/mandate/commit/execute sequence, operation charges and private effect evidence | Keep actual effect evidence distinct from candidate reports and acknowledgements |
+| Gate policy | Acceptance thresholds are frozen separately from world truth; sidecar numeric parameters must match | An acceptance-policy change creates a different experiment, not an editorial fix |
+| Adapter | Native evidence plus normalized projection; timeouts, refusal, malformed output and infrastructure errors distinguished | Preserve raw source events and mapping version; do not invent evidence lost by normalization |
+| Isolation | Real decision logic must be outside oracle trust/storage; in-process test adapters are calibration controls | Do not present a field-hidden in-process self-test as proof of real-runtime blindness |
+| Admission | `validate_real_registration` checks required fields, statuses, isolation declarations, resource constraints and review declarations | It does not fetch hash-named artifacts or authenticate the claimed review. Keep artifact resolution, review and runtime-isolation evidence with real admission |
+| Trace integrity | Candidate-before-oracle seal and post-result seal are different statements | Do not let a single hash stand in for both information separation and result integrity |
+| Resource accounting | Harness-authoritative batch measurements replace candidate self-report; oracle work is separate | Preserve the accounting unit, source, omissions and evaluator/candidate separation |
+
+The [C02 contracts](https://github.com/dakleyer/structural-awareness-contributions/tree/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle) already express most of this. Organization should expose these contracts at the point of study selection, not invent another generic instrument. C11 is the campaign/resource/comparator/analysis freeze; T03 is the admitted pinned real-technology execution path. Their names are not proof that admission happened.
+
+#### Case comparisons and independent claims
+
+UC-21 R0/R1/R2 means ordinary competent → reinforced → same successfully corrected and frozen reinforcement under admitted material change. Generic discovery/adaptation remains active in R2. Recurrence is not established by first removing a safeguard or failing to demonstrate the corrected baseline. R01-R1/R2/R3, Flores R2/R3, AWS-I0/I1/I2, causal A–D and DDS A/B/C retain their own namespaces.
+
+The [00D benchmark support](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) and DDS C require strong peers and declared information/resource/authority/timing differences. The current v0.3 document remains a working comparator proposal; its presence is not a completed B0–B3 comparison. Review, authorship, code-path separation, CI and external independence are different facts.
+
+### 5. Representative application: what preservation decisions must retain
+
+| Existing work | Source-reported state/finding | Consequence for restoration or reorganization |
+|---|---|---|
+| [00I-STATEFUL](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md) | 52 synthetic scenario rows: 44 accept, eight deliberately visible failures; 49 separate regressions. Conventional dynamic guard gets credit. Shared omission and writer bypass violate its own assumptions | Preserve the successful conventional defence and adverse limit cases. Do not restore a generic claim of full S5/S10 conformance or say 52/52 successful tasks. The fixture is not AWS execution or a validated UC-4 adapter |
+| [HF programmed paired study](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/traversals/00G-HF-SCRIPTED-PAIRED-v0.1/RESULTS.md) | Native 8/8 versus native+EA 7/8; all bounded safety predicates hold; short deadline loses legitimate EA completion; zero model requests | This negative differential is material evidence. Keep it in the reader route, its exact registered conditions and author-side status. It neither proves universal EA inferiority nor can be overwritten by a broader adaptation hypothesis |
+| [HF cached-lineage](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/traversals/00G-HF-CACHED-LINEAGE-v0.1/RESULTS.md) | EA repairs authored stale-lineage failures; conventional current-source revalidation also repairs them. EA 8/10 versus conventional 9/10; two-tick conventional advantage | Preserve repair and non-exclusivity together. Missing provenance is uncertainty, not observed hidden dependence. Repeated native paths are not independent samples |
+| [HF Casbin-polling](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/traversals/00G-HF-CASBIN-POLLING-v0.1/RESULTS.md) | Selected PyCasbin 1.43.0 stale polling configuration fails revoked branch; timely EA and conventional reload repair it; conventional completes at tick 15 versus 17 | Preserve exact product/version/integration and synthetic effect scope. It is not a general defect of Casbin, the best defended peer, a historical HF reproduction or an EA superiority result |
+| [HF Stage A v0.3 Run Card](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json) | `PREREGISTERED__ACCEPTANCE_PENDING__NOT_EXECUTED`; blind reader and mutation work false; B/C not started | Do not combine those pending gates with executed programmed receiver findings. Original v0.1/v0.2 and v0.3 source freeze remain separate |
+| [Structured-output current study](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/DDS_STUDY.md) | Simplified local A closure; selected Pydantic/JSON/SQLite configuration. Ten authored cases yield I=1, M=2, P=1, Ø=6; two fault controls separate. Source-reported cost 33 selected units; Type1 0/3, Type2 1/10 | A complete scoped answer can include a P outcome and incompletion. Preserve denominator, unit and source-truth failure. Do not reopen just to make the table all green, rank technologies by heterogeneous cost, or promote this into B/C |
+| [Flores / Theme #21](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md) | One prospective owner; NOT_PREREGISTERED / NOT_EXECUTED / NOT_ADJUDICATED. Repaired parity → complete freeze → uncovered material R3, general EA ex ante | Keep current direction and complete old alternatives as history. Do not reintroduce superseded UC17-08/P0–P3 priority as the active experiment, confuse Theme #21 with UC-21, or create another campaign under tests |
+| R01 C02 calibration | Instrument 0.7 under freeze v0.9; expected PASS/FAIL/INCONCLUSIVE controls; full admission and real technology remain open | Preserve each freeze/version and expected negative result. Calibration counts are not candidate episodes or substantive A/B/C completion |
+
+These examples show that the core organizational problem is **relationship and status**, not merely file access. Useful negative evidence often occupies the same package as successful controls. A restoration that retains files but suppresses their adverse implications is not semantic preservation.
+
+### 6. Operational criteria for Contributions history
+
+#### Unit of review
+
+Review a **decision-material clause or coherent passage**, its producer and its consumers, not a whole old README as an indivisible object. Record in the existing VNext: source commit/blob/path; exact earlier passage; current passage or verified absence; the role it performed; whether an approved correction/successor already supplies it; affected links/contracts; evidence of value or error; and one proposed disposition. An old URL surviving somewhere does not establish that its substantive content is still usable.
+
+The first questions are:
+
+1. What question, distinction, control, counterexample, rationale or reproducibility dependency does this passage supply?
+2. Is it still needed for the current strategy/claim, or only to understand how the work developed?
+3. Is the same obligation already fully supplied by the current owning source? Compare clauses and conditions, not titles or path names.
+4. Was the earlier formulation corrected, narrowed, rejected or superseded? What specific evidence or owner decision supports that change?
+5. Would restoring it reverse a correction, conflict with a freeze, duplicate an authority, weaken a comparator or imply execution/independence that did not occur?
+6. What is the least disruptive treatment that preserves the intellectual/evidential contribution and the current authority boundary?
+
+#### Disposition rule
+
+| Disposition | Positive decision test | Required treatment / rejection condition |
+|---|---|---|
+| **Restore into a current owning source** | A current decision-material obligation, explanation or reproducibility dependency was actually lost; its predecessor is authenticated; no adequate current replacement exists; the old content is still sound or an explicit corrected successor can retain its useful part | Literal scoped before/after in existing owner VNext; preserve current valid corrections, frozen originals and prior bytes. Reject a wholesale rollback merely because the predecessor is longer |
+| **Relink / redirect current reading** | The needed current content exists under its legitimate owner, but the reader is sent to stale authority, wrong edition or an ineffective route | Fix the reader relationship only, preserve historical URI/version as history, verify target/anchor and source semantics. Do not claim content import |
+| **Annex / retain as antecedent** | Full historic content is valuable for provenance, disagreement, earlier rationale, original execution or an abandoned branch, while it should not govern current semantics | Retain complete authentic source, exact version and clear successor/rejection relation. Make it reachable through the existing owner; a summary cannot replace it |
+| **Do not reintroduce into the current route** | Earlier passage is false, contradicted by a retained falsifier, superseded by a legitimate correction, duplicates another authority, relies on unproved transfer, or promises an unperformed result | Preserve and explain it as historical material. This disposition never authorizes deleting it |
+| **Defer judgement** | The supposed loss, author decision, authentic predecessor or transfer obligation cannot be established | Mark the exact uncertainty and the evidence that would resolve it; do not invent a restore/no-loss verdict |
+
+**Legitimate correction:** the new passage preserves or improves the original question while correcting a demonstrated defect, declaring a narrower scope, crediting a successful peer or distinguishing evidence states. Preserve the old reasoning as history; do not roll back the correction.
+
+**Useful loss:** an explanation, constraint, admissible positive control, adverse comparison, attribution or executable dependency that still matters to the current question is absent without an adequate replacement. Restore its useful function at the owning source, with a scoped proposal and the current corrected semantics.
+
+**Historical material:** complete original logic and evidence needed to understand the record, even when incorrect, obsolete or outside the active programme. Preserve it intact and reachable; it need not sit in the principal explanation or retain current normative force.
+
+#### Mandatory negative checks on any restoration
+
+Before proposing incorporation, try to show that it would wrongly restore one of these: a universal claim from a bounded result; all-six sufficiency where a countermodel remains; an old hypothesis/refutation error; permission from UNKNOWN; unproved isomorphism; a weak or disabled conventional comparator; missing legitimate continuity; an action label substituted for observed effect; self-tests presented as independent validation; or an old priority overriding later owner direction. If it does, separate the useful historic content from that error instead of reinstating both.
+
+A scientifically corrected passage can still have been changed through an inadequately documented editorial action. Record **semantic merit** and **custody/authorization** separately. A custody concern is not automatic evidence that every replaced sentence should be restored; a sound correction is not evidence that its change procedure was authorized. The current task requires a proposal, not retroactive approval of either.
+
+### 7. What the migration proposal contributes—and what is not adopted
+
+The 12 October v0.2 proposal usefully distinguishes method, campaign, specification output, shared infrastructure and historical lineage. Its campaign questions—object, Stage, contract, comparator, evidence mode, runs, finding and independence—are a good test of whether an existing owning report is intelligible. Its insistence on adverse results, complete predecessors and original freezes fits current DDS.
+
+Its **physical `dds/` tree, copied canonical documents, new global registry, mandatory per-campaign files and verbatim source-tree archive remain a proposed design**. Current method authority is the existing Index; current owners and three reading levels are protected. The actual campaigns-in-development register is a subordinate development catalogue, not the proposed global migration or an inventory of every past campaign. A source/copy count, including the historical HF package count, does not establish the correct unit of research or justify another copy of the method.
+
+The proposal's historical examples must be version-qualified. In particular, its suggestion that Flores might derive from UC-21 is not the current campaign identity: the existing source explicitly distinguishes Theme #21 from UC-21 and fixes a later temporal research direction. Keep that planning passage as history; follow the current campaign owner.
+
+Adopt the useful questions as a **review lens inside existing reports and VNext**, without adopting the folder diagram. The immediate objective is to improve a reader's ability to reconstruct a real study and its return to the case. Copying 121 files, creating `dds/`, or producing a new report for every folder does not by itself achieve that.
+
+### 8. Bounded proposals and order of work
+
+These are unnumbered draft recommendations for reconciliation with the existing pending proposals. They are **not new change IDs and not approved implementation**.
+
+| Order | Concrete work | Existing owner / review custody | Impact / risk and exit |
+|---|---|---|---|
+| 1 | Resolve the UC-21 source/reader authority mismatch before calling its entry maintained | Joint EP README VNext; existing DDS VNext; case-source record | High impact, low risk for an honest status/link clarification. Exit: exact current-versus-historical labels, no promised missing source |
+| 2 | Reconcile only the unique UC-21 case protocol obligations to appropriate existing Contributions owners | EP joint account plus existing DDS/baseline/EA records and original case records | High impact, medium risk. Exit: each unique obligation has a source, owner, disposition and preserved complete predecessor; no menu-as-content substitution |
+| 3 | Nominate the existing FG-TIDA application router for the case-facing entry, retaining DDS §11 as a short reusable bridge | EP joint account and current EA/DDS owner reviews; no new README/VNext | High impact, low-to-medium risk after source placement is settled. Exit: no duplicate case compilation inside the general method index |
+| 4 | Complete one report-to-case return using a representative existing study before enlarging a register | Existing owning report/current record, DDS VNext and EP joint account | High impact, low risk for explanation only. Prefer S5 for state/effect and a paired positive/failing control; preserve native-product and adapter limits |
+| 5 | Review historical passages by current value and correction status using §6, starting with a small affected source/consumer pair | The affected sole document VNext and owning README VNext, with EP joint account | High impact, bounded risk. Exit: one authenticated before/current/proposed comparison and disposition; no whole-corpus restoration claim |
+| 6 | Verify the complete agreed route and official entry only after its sources exist and concrete text is approved | Existing owners and Document Control | Exit: target/anchor and ida/vuelta checks, exact before/after, predecessor custody, source/contract preservation and readback. External Issue action remains separately gated |
+
+The first report-to-case example must select its objective: e.g. S5 correctness/continuity is supportable in the stated synthetic model; a full HR recurrence claim additionally needs the case protocol's corrected/frozen baseline and admissible intervention. Do not retrofit the latter label onto a convenient regression table.
+
+#### Literal proposal A: correct the version/authority explanation without pretending integration
+
+**Source:** DDS Method Index §12, at the pinned cut above. **Review owner:** existing DDS VNext; joint relationship in EP VNext. **State:** wording for review only. The historical destinations are intentionally retained in the after text.
+
+Before:
+
+```text
+The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and main for current reading. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and version decisions.
+```
+
+After:
+
+```text
+The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [later case compilation in the historical fork](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Contributions is the maintained research corpus. Its current case-to-study route is [Section 11](#11-reader-route-from-cases-to-studies-and-results); the complete case compilation and its unique protocols have not yet been fully reconciled into this corpus. Cite the exact case edition and study freeze actually consumed by a result. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory, remaining source-integration questions and version decisions.
+```
+
+This pair fixes one explanatory paragraph. It does **not** settle other moving-fork labels in §§11/13/15 or constitute a completed source transfer. Reconcile all affected active reader labels in one bounded proposal after the actual current case destination is chosen, while keeping the old destinations as explicit history. Do not activate the official Issue replacement before its promised content exists.
+
+#### Literal proposal B: make a return requirement explicit without adding a campaign document
+
+**Source:** DDS Method Index §15. **Review owner:** existing DDS VNext, and each selected owning report only where a real missing return statement is found.
+
+Before:
+
+```text
+Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count.
+```
+
+After:
+
+```text
+Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count. In that existing report, identify the originating case or problem, selected objective and Challenge, consumed source version, supported finding and remaining condition. Return the conclusion to that question; a study from another case supplies evidence only through its declared correspondence.
+```
+
+This is an editorial requirement to make the existing lineage usable, not a demand to generate new case reports or claim that every existing report currently lacks it. No new contract, output, denominator or scientific obligation is imposed on a frozen historical run.
+
+### 10. Subsequent comparison with existing prepared proposals
+
+**Sequence.** The organizing agent recorded its source-first interpretation before comparing prepared proposals 91, 92 and 96. The first interpretation and subsequent qualifications remain visible. This is a strategic comparison of those plans, not a completed review of every earlier damage audit.
+
+The comparison sources are [priorities.json entries 91, 92 and 96](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/governance/review/change-priorities-2026-10-06/priorities.json), the [direct UC-21 entry proposal and exact pairs](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#direct-uc-21-entry-in-contributions--13-october-2026), and [prepared change 96](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#prepared-change-96--date-the-historical-flores-preference-and-point-to-the-current-owner-principle). For 96 I additionally read the actual [Flores owner principle v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md), GitHub blob `8d75851856e33b2fcde400c2539a33db84906d2d`.
+
+#### Compatibility, defects and precedence
+
+| Existing proposal | Strategic judgement | Current literal / target evidence | Disposition and precedence |
+|---|---|---|---|
+| **92 — Contributions reader entry in the existing DDS Index** | Compatible with the agreed route **as a compact reading bridge**. Five questions and six source links can orient the case without duplicating its protocols. It cannot stand in for complete source integration or make DDS case-specific | Current method blob is still `88b78f386047a76e0e2da905bd951ada06e5602b`; all ten original before passages match exactly once. However, proposed passage 1 links to `USE_CASE.md` and `annexes/RECURRENCE_PROTOCOL.md` / `annexes/HYPOTHESES.md` as if the method file were inside the case package. Those paths do not exist under `research/ecosystem-awareness/`. The table declares two columns, while each data row ends with an extra empty cell, and the “Research question” column supplies links without the actual explanatory questions | **Revise existing 92; do not apply as prepared or add another competing case-entry proposal.** Resolve true source destinations/unique case content, use verified pinned dependencies during a stated transition, repair the table and its explanations, then verify the entire path and preservation. Its old `decision_ready=true` flag is not current readiness evidence |
+| **91 — Official Issue entry** | Fits one maintained Contributions route while retaining the submitted package as a source record | The complete old three-link header still occurs once in the currently read Issue body. The `#uc-21-research-questions` and `#uc-21-challenge-sources` targets do not exist in current Method Index. The old issue timestamp in the proposal is stale; the newer timestamp does not itself show a changed body | **Remain deferred behind revised and verified 92 plus the content-preservation gate.** Refresh complete body identity before an authorized write; maintain all remaining fields. Do not advertise a case destination whose promised protocols are missing |
+| **96 — Date the old Flores preference and point to its current owner** | Direct application of the primary-source preservation criterion: keep the earlier alternatives intact, make the current principle govern reader priority and preserve no-execution status | Full old heading/paragraph matches exactly once in the same current method blob. The actual campaign and principle v0.2 agree on participant-defended repaired parity, complete freeze, material uncovered R3 and general EA fixed ex ante; all adaptation and legitimate information boundaries remain | **Strategically support the existing bounded notice, subject to its named GO and fresh-source check.** It is independent of the UC-21 source-import problem and should not be held behind a global physical migration. It changes reading priority, not the experiment, result, method authority or status |
+
+There is no reason to repeat the earlier fork-index wave 83–90. The current selected route and later content-preservation direction govern. The first account's nomination of the existing FG-TIDA application router is a **possible long-term owner option**, not an instruction to replace the already selected DDS §11 entry or insert another mandatory hop. For this bounded wave, keep the approved route and existing Index bridge; decide the substantive case-protocol destinations explicitly under their current owners. Do not make an additional router change a prerequisite merely to satisfy that optional organizational preference.
+
+The dependency order is therefore: **preserve/reconcile unique case content and correct existing 92 → verify the actual Contributions reading destination → prepare the current exact 91 body edit for the authorized owner**. Existing 96 is a separate small reader correction with its own GO. No new global campaign registry or physical `dds/` adoption is required for those decisions.
+
+#### Reconcile draft A; do not create a duplicate proposal
+
+Draft A in §8 addresses **exactly the same old paragraph as passage 5 of existing 92**. Its original before text currently occurs once, and its source blob remains `88b78f386047a76e0e2da905bd951ada06e5602b`. The decision-useful contribution of A is its explicit statement that the complete case compilation/unique protocols are not fully reconciled. Bring that limitation into the revised 92 where appropriate; do not register or apply A separately.
+
+| Draft A metadata | Assessment |
+|---|---|
+| Benefit | Prevent the fork from appearing to be the second maintained corpus; prevent a reading bridge being presented as completed case integration |
+| Expected impact | High |
+| Risk | Low for a truthful status paragraph; medium when combined with route changes because wrong source/version labels could hide a still-needed case protocol |
+| Effort | Low for the paragraph; medium for reconciling the existing ten-passage 92 wave and its dependencies |
+| Source / literal validation | Source Method Index at `6e2eca21b47f4dfe85fd252ba46565ca3462a578`, blob `88b78f386047a76e0e2da905bd951ada06e5602b`; complete old paragraph matches once |
+| Dependencies | Existing 92, actual case-source placement and preservation, all affected active/history links, and refreshed reader/anchor checks |
+| Status | Consolidation input for 92 only; not a new registered change or authorized application |
+
+The exact final 92 wording should be drafted once after the source/owner choices; creating a second simultaneous after text here would introduce the conflict this comparison is meant to prevent.
+
+#### Narrow draft B to current reading and future reporting
+
+The old paragraph used by draft B occurs exactly once in the current Method Index blob `88b78f386047a76e0e2da905bd951ada06e5602b`. It is not a replacement passage in 91, 92 or 96, but it concerns the same existing reader route and should be reconciled there before any new proposal registration. The first wording could sound like a new retrospective obligation on every historical report. The following **review wording supersedes draft B's after text**, while the first account remains intact as preparation history.
+
+Before — same complete current literal:
+
+```text
+Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count.
+```
+
+After — narrowed guidance for current reading and future/successor reporting:
+
+```text
+Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count. For current and successor reports, identify the originating case or problem, selected objective and Challenge, consumed source version, supported finding and remaining conditions; return that finding to the question it answers. Historical studies retain their original contract and evidence scope.
+```
+
+| Draft B metadata | Assessment |
+|---|---|
+| Benefit | Make the result's decision use and return to the selected question explicit without generating a new campaign/report for every package |
+| Expected impact | Alto |
+| Risk | Bajo |
+| Effort | Bajo |
+| Source / literal validation | Source Method Index at `6e2eca21b47f4dfe85fd252ba46565ca3462a578`, blob `88b78f386047a76e0e2da905bd951ada06e5602b`; complete old paragraph matches once |
+| Dependencies | Existing DDS VNext, revised 92 reading route, real report-to-question relation, and preservation of original study scope/acceptance/delivery |
+| Status | Review wording only. Check other current pending proposals before registering; no new change ID and no application authorized |
+
+The impact judgement reflects improved reader comprehension and future report discipline. The bounded wording keeps risk low by preserving historical contracts; an actual report-specific amendment would still need an identified gap and its own scoped review.
+
+#### Strategic closure for this organizing task
+
+The current strategy is worth preserving: a reusable method, decision-relevant bounded studies, competent comparators, negative evidence, explicit source ownership and prospective successors. The presentation can be improved through **existing owners and small exact changes**, with no duplicate case compilation in the general DDS method and no return to indiscriminate historical restoration.
+
+This task closes the strategic/presentation judgement and its operational restoration criteria. It leaves exhaustive file/version review, complete case-source reconciliation, concrete revised change 92, official entry 91 and all scientific execution/admission questions open under their own evidence and decisions. The prepared-proposal comparison does not apply any change or promote any DDS Stage.
+
+### 11. Change 92, passage 1 — bounded successor for review
+
+#### Effective register state: preserve the existing suspension
+
+The first comparison's reference to `entries[].decision_ready=true` describes the **historical base entries**, not the operative current decision. I subsequently inspected the [14 October `damage_control_epochs` assessment](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/governance/review/change-priorities-2026-10-06/priorities.json) and [current CSV](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/governance/review/change-priorities-2026-10-06/priorities.csv). They already suspend 91/92: `Reopened — content recovery required`, `No — content integration first`, not authorized to apply. The epoch explicitly records `decision_ready=false` for both. This review did **not** newly reopen them.
+
+The valid register action is to preserve that effective suspension and the authentic historical entries/pairs, then append the concrete new link/table defect and this successor variant to **existing 92**. Do not rewrite the historical base metadata to make the earlier state appear never to have existed. A dated current-state reconciliation may make the superseding assessment clearer while retaining the predecessor snapshot and exact old pairs. This is compatible with retaining 91 behind 92/content integration and leaving 96 in its existing named-pair file, without duplicating it.
+
+#### Verified historical source edition and anchors
+
+GitHub's [fork main branch reference](https://api.github.com/repos/dakleyer/use-cases/branches/main) was read without modification and returned commit **`724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`**. The following files were then fetched explicitly at that commit. The headings corresponding to every protocol fragment in the proposed after text were checked in those exact source bodies; they are not inferred from the submitted `aec08fb5` edition.
+
+| Exact historical source at 724d69f9 | Git blob | Verified heading / fragment |
+|---|---|---|
+| [USE_CASE.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md) | `a59575314c714b2ffb024b9d33aa2bbf3b9d241f` | `5. Select, prepare and run one experiment` → `#5-select-prepare-and-run-one-experiment`; `6. Six quality plans: visible acceptance criteria` → `#6-six-quality-plans-visible-acceptance-criteria` |
+| [RECURRENCE_PROTOCOL.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md) | `824f4f974d1423cb98c78504ac9e6ca91fb95b0b` | `Annex R` → `#annex-r` |
+| [HYPOTHESES.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md) | `7e315c2fc1931e19a9a61d03912b9fb88b51031c` | `2 The principal hypothesis of causal sufficiency`; `9A The hypothesis of a sufficient common response`; `8 The six canonical hypotheses and their refutation tests`; `13 Claim selection`, with their corresponding fragments used below |
+
+The Recurrence text was read through its baseline correction, retained adaptation, intervention, refutation and result-record rules. H §13 was read through its separation of case/HC/HR/HS/H1–H6 and implementation routes. These links therefore identify actual case-source obligations; they do not substitute the general DDS method for them. No claim is made that all the later case additions already occur in the original submitted snapshot.
+
+#### Complete canonical before and proposed after
+
+**Identity:** successor variant of **existing change 92, passage 1 only**; no new ID. **Owning review:** existing DDS VNext with EP joint relations. **Source:** [DDS Method Index at 6e2eca21](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca21b47f4dfe85fd252ba46565ca3462a578/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), Git blob **`88b78f386047a76e0e2da905bd951ada06e5602b`**. The complete canonical old paragraph occurs **once**. The former defective after text remains preserved in the original 92 pair and VNext as preparation history; it is not silently overwritten or applied.
+
+**Before — complete current canonical literal**
+
+`````markdown
+The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.
+`````
+
+**After — complete bounded successor, not applied**
+
+`````markdown
+The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.
+
+### UC-21 research questions
+
+The [official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) records the case and its submitted acceptance conditions. Contributions is the maintained research corpus. Select the question first, then its Challenge, technology/configuration and evidence contract. The questions below guide that selection; they do not replace the complete case protocols.
+
+The historical protocol links select the verified case edition at commit `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`, which includes later case and reader revisions. That source edition is distinct from the [original submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails). A study identifies the exact case edition and protocol it actually consumes.
+
+| Objective | Research question | Historical case-source protocol |
+|---|---|---|
+| Decision correctness and legitimate continuity | Does the selected configuration meet the decision, authority, effect and timing conditions while allowing justified activity? | [Case acceptance plans](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) |
+| Effectiveness of existing controls | Does a competent conventional configuration, including the reinforced R1, correct the selected failure? Successful existing defences receive credit. | [R0/R1/R2 comparisons](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) |
+| Recurrence after correction | Can an admitted material change reproduce the same failure after R1 has demonstrated correction, with its safeguards and generic adaptation retained? | [HR recurrence protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#annex-r) |
+| Common causal pathway | Can an admitted transfer, qualification-loss, material-change and reuse pathway produce the independently defined failure in each declared family? | [HC causal protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |
+| Sufficient common response | Can a declared communication-and-processing mechanism provide timely warning and authorized response while preserving legitimate activity across its registered scope? | [HS response protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |
+
+Select case acceptance, HC, HR, HS or an individual [H1–H6 contrast](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#8-the-six-canonical-hypotheses-and-their-refutation-tests) through the [case claim-selection protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection). Keep that choice separate from R0/R1/R2 and from DDS Stages A/B/C. Each source retains its definitions, admission conditions and evidence limits.
+
+The historical case texts and their unique protocols have not yet been fully reconciled into Contributions. This is a reading bridge to existing research and identified source dependencies, not a replacement case compilation or a completed source migration. DDS remains the reusable method for UC-21 and other cases; case-specific sources retain their own responsibilities.
+
+### UC-21 Challenge sources
+
+The S1–S6 slots correspond to the following Contributions sources. Choose the exact edition consumed by a study; a current reader source does not replace its earlier freeze.
+
+| Challenge slot | Failure family | Contributions source |
+|---|---|---|
+| S1 / 00E | Enterprise synthesis | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) |
+| S2 / 00F | Shared mobility | [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) |
+| S3 / 00G | Propagated false mission | [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) |
+| S4 / 00H | Finding beyond authority | [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) |
+| S5 / 00I | Delayed repair | [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) |
+| S6 / 00J | Rights-provenance inversion | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
+`````
+
+#### Assessment and verification boundary
+
+| Field | Successor assessment |
+|---|---|
+| Benefit | Five meaningful questions and working version-specific protocol destinations; complete retained Challenge table; honest distinction between current research, historical case sources and unresolved integration |
+| Impact | High |
+| Risk | Medium |
+| Effort | Medium |
+| Current literal check | Original canonical paragraph matches once; current method blob equals the prepared source blob. No source edit was made |
+| Local link check | All six retained `./baseline/` Challenge destinations exist in the pinned Contributions tree. The five nonexistent case-relative URLs are replaced with exact public fork-source permalinks. Every protocol fragment is supported by its checked heading in that pinned source |
+| Table check | Three declared columns and three cells in each objective row; the Challenge table retains its three-column structure. No extra empty cell remains |
+| Dependencies | Existing 92's remaining nine passages, the effective 14 October content-integration gate, case-source owners, and whole-wave link/version preservation; 91 remains last |
+| Status | Successor wording for existing 92 only. Global 92 stays under review and not decision-ready; 91 remains suspended. Correcting this passage does not authorize source import or official Issue action |
+
+The expected impact is reader comprehension and accurate source selection. Risk remains medium because a repaired table could still be mistaken for complete case import, ownership resolution or protocol equivalence. The bounded drafting/checking effort is medium; full source/content integration is a separate task.
+
+Before any future GO, verify the revised 92 as a complete coherent wave: unchanged canonical bytes outside its exact passages, authentic predecessors, all former destinations retained as history, correct historical-versus-current labels, actual target headings, no duplicate case/method authority and readable return from selected evidence to the selected question. A successful static link/table check does not establish complete semantic preservation, an admitted campaign, independent review or a DDS Stage result.
+
+
+
+### Current coordinating decision
+
+The agreed route remains the organising spine. DDS is the reusable method; UC-21 owns its case objectives and protocols. The optional application-router nomination in the first account is not a new mandatory hop or an adopted redistribution. Existing 91/92 remain suspended under the 14 October content-integration gate. Passage 1 of 92 now has the bounded successor below, while its defective predecessor and other historical pairs remain intact. Draft A contributes to existing 92 rather than becoming a duplicate candidate. Draft B is narrowed reading guidance. Existing 96 retains its own source, priority and named-GO requirement. No restoration, source relocation, campaign execution or official Issue change is applied by this publication.
+
+The coordinator also found a pre-existing priority-reader failure: the 14 October instruction-only guidance record in plan_quality_review_epochs omitted proposal_assessments. The control record now declares an empty array, preserving every prior instruction and all 102 stored proposals. This data-format repair adds no assessment and changes no source program. The effective suspended status of 91/92 is verified through the existing read-only priority reader.
