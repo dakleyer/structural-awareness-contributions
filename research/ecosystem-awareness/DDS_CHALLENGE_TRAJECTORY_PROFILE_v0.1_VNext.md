@@ -18153,3 +18153,317 @@ The old checker variants were read statically, including the Boolean guard, T05/
 The broader [historical consolidation and branch map](../../architectural-contributions/ecosystem-positioning/README_VNext.md#historical-damage-control-consolidation-and-remaining-boundaries--15-october-2026) distinguishes real main receivers from additional branch work. In particular, never-adopted branch conclusions do not become missing main science. Four old EP transfer-fragment units remain a custody question; the older five/six-pass research programme is not closed by this historical review.
 
 One C5 judgement required a concrete correction: event 641 had retired the 0.1.3 non-exhaustive-delta detail and the authority-risk reservation with the old whole-method review. EP already kept the 0.1.2 qualification. 143 is now incorporated under the existing “Incorporated” section, with a dated historical paragraph and complete source link. The item is retired from the active queue. It preserves current method contracts and does not restore the old single-document authority or reactivate the previous proposals.
+
+
+## Official UC-21 and canonical corpus revalidation — 15 October 2026
+
+**Review by Codex in the continuing corpus review, not an independent external opinion.** Iván asks whether the published FG-TIDA UC-21 can now be updated without losing the case or its supporting material. This review reads the complete live form, all 43 public comments, the official repository index and issue template, the PR description and tree, the submitted package/version differences, and the current Contributions case-to-method routes. It compares all 37 form requirements with their submitted source and the current 00E–00J gate registers. It reuses the earlier historical forensic work for unchanged source bodies; it does not label that reuse a fresh independent rereading of every annex sentence or completion of the older six-pass programme.
+
+### Decision and precise scope
+
+**The direct reading route can be completed with small additions. No case rewrite or package merge is needed.** The official Issue already leads directly to Contributions. The complete 48-file submitted edition is now present and publicly readable in Contributions with exactly its submitted bytes, including the full S6 text, three PNGs, fourteen SVGs, four JSON design files and original manifest. Nothing from those 48 files needs to be reconstructed from a summary.
+
+The maintained route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. UC-21 remains the case record; the DDS index owns the current research route. The preserved package is the historical source, not a second current method or a replacement report. This preservation finding does not claim that all original HC/HR/HS protocols have been adopted as current DDS contracts, that every Challenge is experimentally solved, or that FG-TIDA adopted DDS. The remaining source-to-current reconciliation duties stay visible in §11 of the index.
+
+The three exact candidates below address the official entry, the missing official index row, and the stale-looking PR verification. They are **prepared, not applied**. No original source, official body, discussion, code, result or binary is changed by publishing this review.
+
+### What is actually published
+
+| Surface | Verified publication state and consequence |
+|---|---|
+| [Official UC-21](https://github.com/FG-TIDA/use-cases/issues/21) | Open Issue, complete ten-section form, 37 local requirements, 43 comments; body last updated 15 October 2026 12:32:54 UTC. Its opening four links already point directly to Contributions. The earlier navigation insertion is applied and is not queued again. |
+| [Official use-cases main](https://github.com/FG-TIDA/use-cases/tree/5ae72ac3094a2712d8b9b75d11bbb928b6859fe6) | The case is not a merged folder in this tree. UC-21 is absent from its submissions table. The issue template still asks for the same ten form sections. No UC-21 PDF was identified in this tree or the inspected case package; this review concerns the published Issue and linked Markdown/assets. |
+| [PR #22](https://github.com/FG-TIDA/use-cases/pull/22) | Open, unmerged, head `188f31921202d0beb06cfd15eea5008829f60e29`; no PR discussion/review comments in the fetched endpoints. The PR tree has 54 files in the case folder and the root README change, rather than only the original 48 source files. |
+| [Current Contributions](https://github.com/dakleyer/structural-awareness-contributions/tree/323476322b0c2776328400910a44aa4e35b267aa) | Exact review cut. The [DDS index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) owns the live route; this existing VNext owns its review. No new VNext, repository, case copy or hierarchy is created. |
+| [Submitted source in Contributions](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) | All 48 Git blob identities equal `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`; fresh immutable public raw readback also matched every file's SHA-256 and Git blob, total 1,609,898 bytes. |
+
+### Original, reader edition and current method are different references
+
+Against the submitted `aec08fb5` edition, the current PR retains **44/48 original blobs** and changes four existing source paths. The later `724d69f9` case edition used by the current DDS historical-protocol links has the same four source-path differences; the current PR then adds later README/review work. The six active review files in that fork tree are not six additional case annexes or new independent audits.
+
+| Changed original path in the PR | What changed and where the original remains |
+|---|---|
+| README.md | Adds objectives, case/method relationships, Challenges and research navigation. The original package README remains exact in the Contributions source snapshot. |
+| USE_CASE.md | Adds the five-objective/evidence table and method/campaign traceability. The original submitted scientific body remains the source edition; current objectives are also received by DDS index §11. |
+| annexes/scenarios/S3.md | Adds a maintained-00G pointer before the retained historical submission body. This is an additive reader change, not new evidence. |
+| annexes/scenarios/S6.md | Replaces the long duplicate with a short UC-21 adapter to current 00J, 00J-A01 and the Panodyssey traceability map. The full submitted S6 remains exact and directly accessible in Contributions; a reader must not mistake this adapter for the complete original source. |
+
+The PR description's original 48-file verification still identifies its historical submission, but does not describe the later 54-file case-folder tree. Candidate 146 adds that version distinction without deleting or rewriting its original verification. Merging the old package is not a prerequisite for updating the live Issue and would be a separate repository/content decision.
+
+### Form-level preservation and discrepancies
+
+All ten form sections remain. **All 37 requirement rows, including their wording, Technical type and Must criticality, are literally equal to the preserved SUBMISSION.md.** The scientific situation, synthetic mandates, assessment criteria, claim selection, duplication notes and original maturity/IP/asset boundaries remain supported by the preserved case material. URL absolutisation, the opening reader block and direct asset links are reader changes rather than replacement scientific clauses.
+
+There is a pre-existing difference that must not be hidden by saying the entire form is identical: the official Issue checks **Education, Displaced persons/humanitarian, Health, Telecom, Logistics, Energy and Smart home/IoT**, while these seven boxes are unchecked in the submitted SUBMISSION.md. They were already selected in the saved official body before the earlier direct-route insertion. This review establishes neither who changed them nor that seven additional sector implementations exist. The substantive case remains the six declared constructed families. **Owner decision:** retain those boxes as intended hypothetical applicability, or return to the narrower submission flags. No sector edit is included in candidates 144–146.
+
+The original SHA256SUMS.txt has **47 listed payloads: 46 match, USE_CASE.md differs**. The actual submitted USE_CASE SHA-256 is `b81710d02d4b469d4af024f7dfa9ff4e9efedeb5c56b04eb45e3ae2f171ebf76`; the preserved list still states `9996fe1c0101a7a4f77c6cd17f7ef043016bafd96435880175adbedd854e6f55`. The PR already describes the author-supplied replacement. Both bytes and discrepancy are retained; neither the old manifest nor its source is silently repaired. This is a known version discrepancy, not missing case content.
+
+### Gate-by-gate reception in the current Challenge sources
+
+These are semantic correspondences to the current source registers, not an assertion that their labels are interchangeable with global requirement numbers or that any implementation passed them. The complete official wording is preserved in the source form above. Each row below was contrasted against the current owning register.
+
+| Official local gate | Current source reception and review judgment |
+|---|---|
+| S1-Q0 | 00E §7.4 Q0: decision scope, budget, dependency, deadline and stopping frame before work. Same duty. |
+| S1-Q1 | 00E Q1: source, scope, uncertainty, correlation and retrievable assumptions through aggregation. No promotion of compressed confidence. |
+| S1-Q2 | 00E Q2: reconstructable evidence and finite human capacity; approval does not add factual evidence. |
+| S1-Q3 | 00E Q3: a creative option needs its own sufficient basis and hard limits before strategic use. |
+| S1-Q4 | 00E Q4: bounded inquiry, residual uncertainty and legitimate bounded learning. Unlimited research is not closure. |
+| S1-Q5 | 00E Q5: material composition, precedence, scoped veto/expiry and explicit no-conclusion. Averaging or timeout is not support. |
+| S2-Q0 | 00F §6 gate register Q0: common corridor, owners, authority, capacity, response window and fallback. |
+| S2-Q1 | 00F Q1: material break, stale/correlated sources and retained UNKNOWN scoped to the affected operation. |
+| S2-Q2 | 00F Q2: movement, stopping and emergency postures must compose over the same resource and time. |
+| S2-Q3 | 00F Q3: authorized bounded response and usable human review, rather than unlimited escalation or blanket halt. |
+| S2-Q4 | 00F Q4: targeted observation/requalification before the response margin expires. |
+| S2-Q5 | 00F Q5: explicit precedence and qualified resume/segmentation/termination; local success is not city-wide closure. |
+| S3-Q0 | 00G gate register Q0: current mission/frame, owner, version, authority and validity horizon. |
+| S3-Q1 | 00G Q1: attributed incoming claim, issuer, freshness, scope, lineage and UNKNOWN qualifiers. |
+| S3-Q2 | 00G Q2: dependence graph distinguishes repeated claims from independent corroboration. |
+| S3-Q3 | 00G Q3: transition admissibility and current authority; identity/tool permission alone is insufficient. |
+| S3-Q4 | 00G Q4: useful channels, finite capacity/horizon, targeted inquiry and stopping/re-entry. |
+| S3-Q5 | 00G Q5: reject an unsupported replacement while preserving valid work; an authorized supported transition remains possible. |
+| S4-Q0 | 00H v0.5 §10 register Q0: worker/principal/case grant and root authority; leaf authority does not establish a campaign grant. |
+| S4-Q1 | 00H Q1: material finding plus causal/campaign membership and independence evidence, rather than superficial aggregation. |
+| S4-Q2 | 00H Q2: non-amplifying delegation and current authority for the actual composed effect. |
+| S4-Q3 | 00H Q3: preserve the finding and request legitimate authority without executing the wider campaign. |
+| S4-Q4 | 00H Q4: targeted lineage/owner request under the retained five-plus-two-day horizon. |
+| S4-Q5 | 00H Q5: revalidate leaf/root authority against the actual action set; retain both unauthorized-action and silent-loss outcomes. |
+| S5-Q0 | Current 00I reader register Q0: grant/subject/scope/validity. The external supplied-model S5 module does not demonstrate the full authority predicate. |
+| S5-Q1 | 00I Q1: incident, diagnosis, target generation, intervention history and freeze are reconstructable. The module's assertion is not that reconstruction. |
+| S5-Q2 | 00I Q2: reassess at use, rather than reuse queue-time facts. Independent source acquisition remains separate from supplied-observation logic. |
+| S5-Q3 | 00I Q3: source authority and declared freshness. Checking availability alone does not establish freshness. |
+| S5-Q4 | 00I Q4: later intervention/generation can supersede the queued basis. Supplied lineage is not independent proof of its completeness. |
+| S5-Q5 | 00I Q5: timely affected-scope decision and legitimate parallel continuity, not an indefinite global stop. |
+| S5-Q6 | 00I Q6 retains check-to-act binding as CAND-R4 in that source's requirements review. UC-21 explicitly proposes it as a local Must. These are different authority scopes; the case proposal does not silently adopt a global requirements amendment. |
+| S6-Q0 | 00J §5 Q0: current attributable A/W/R0 original-rights frame with source/version/limits. |
+| S6-Q1 | 00J Q1: bounded access/use authority, purpose, scope and expiry survive handoff. |
+| S6-Q2 | 00J Q2: generation provenance is not independent origin; source dependency stays present or explicitly unresolved. |
+| S6-Q3 | 00J Q3: current evidence and authority for the downstream rights proposition, not just its signature or registry entry. |
+| S6-Q4 | 00J Q4: replicas remain dependent; material amendments/freshness require requalification. |
+| S6-Q5 | 00J Q5: current proposition/subject/use support before payment, licence or block; uncertainty does not create an enforcement right. |
+
+The current [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md), [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md), [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md), [00I reader](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) and [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) are the receiving sources at this cut. A study pins the exact edition it consumes.
+
+### Hypotheses, profiles and evidence do not collapse into one conclusion
+
+The complete [H](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), [R](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md), [X](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md), [N](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md) and [Evidence](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md) annexes remain present in full. HC, HR, HS and individual H1–H6 contrasts have their own admission, expected outcomes and limits. X1–X7 family admission is not replaced by a convenient DDS label. Strong R1 correction must precede a genuine retained-configuration R2 recurrence claim. A successful conventional defence remains a successful finding.
+
+All nine T01–T09 profiles and their three documentary comparison positions remain exact in the source snapshot. They are not 27 executed product benchmarks. Current AWS/00I and Panodyssey/00J-A01 successors remain separately identified. The original form's Hypothetical/Reference implementation fields describe that submitted package; later local studies have their own evidence and cannot be reported as complete UC-21 or product validation. The proposed new reader block makes that temporal distinction visible.
+
+The current DDS index preserves Stage A/B/C by research object and adjudication reference. UC-21 R0/R1/R2, local AWS/Zhao I0/I1/I2, R01 M/I/P, DDS I/M/P/Ø, and the UC-4 Stage-0/Stage-1 vocabulary keep their source meanings. A source-owned result, an instrument self-test, independent reproduction and later specification selection remain different records.
+
+### Complete public-discussion reading and current reception
+
+All 43 comment bodies were read, not merely counted. The following dated source links identify the statements examined and how they constrain a current reader update. These are records of the public speakers' statements, not a fresh verification of every external runtime claim or licence revision.
+
+| Public comment | Material content and receiving consequence |
+|---|---|
+| [5899726866](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5899726866) — T-n-Nelson | Initial S5 candidate: select one branch, baseline/change, legitimate control and bounded capability before committing a campaign. |
+| [5899921649](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5899921649) — dakleyer | T08 documentary capabilities and decision-versus-effect boundary; source assumptions remain explicit. |
+| [5900761904](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5900761904) — T-n-Nelson | Declarative UC-4 mapping cannot prove prevention; a new bounded stateful capability is proposed, not AWS execution. |
+| [5908867886](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5908867886) — dakleyer | Requirements/positive walkthrough audit precedes implementation claims; the conventional full-basis peer also passes the cited symbolic contrast. |
+| [5908967023](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5908967023) — dakleyer | Nine documentary technology profiles offered for gate-specific tests; not nine product executions. |
+| [5909255408](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5909255408) — zhaoxinghua09-cell | First SF-006 omission example; later comments correct its overreach into temporal Q2 and freeze naming. |
+| [5911417271](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5911417271) — dakleyer | Coverage, temporal reassessment, freshness, source completeness and actual prevention are distinct; reference acquisition remains open. |
+| [5913014591](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5913014591) — zhaoxinghua09-cell | A/B/C and act-window model cases plus mutation controls reported; source assumptions and future work remain. |
+| [5919920097](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5919920097) — zhaoxinghua09-cell | S5 Q-register local I0/I1/I2 simulation crosswalk; later review corrects D1 and Q6 mapping. |
+| [5920358641](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5920358641) — dakleyer | Patch B supersession is not D1; broker conditional write/abort is not independently observed RDS prevention; fair frozen configurator comparison. |
+| [5921902005](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5921902005) — zhaoxinghua09-cell | Author accepts mapping corrections and same-capability strong-peer/R2 conditions; related papers remain author citations. |
+| [5936720586](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5936720586) — T-n-Nelson | Nelson requests frozen branch/continuity inputs, G1/G4 controls and observed target state before implementation commitment. |
+| [5968112807](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5968112807) — dakleyer | R01 crowd/search/signalling M/I/P proposal, validation/resource costs, HF/family/Infoblox extensions; invitation is not completion. |
+| [5969952795](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5969952795) — amsupavlenko-coder | Olena offers human-escalation help using Theme16 boundaries; trigger, acknowledgement, authorized intervention and effect remain separate. |
+| [5982574521](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5982574521) — zhaoxinghua09-cell | External catalogue exact pin cf6c989 replaces an incorrect release handle; retain precise version ownership. |
+| [5998599001](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5998599001) — dakleyer | Second technical audit finds README/code drift, branch leakage, conditional Q6 recheck, bad M4 and non-independent target observation. |
+| [6006822904](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6006822904) — zhaoxinghua09-cell | Author reports corrected a41d60a2 with observations-only interface, unconditional recheck and separate target model; model boundary retained. |
+| [6012160598](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6012160598) — T-n-Nelson | Nelson requests explicit licence before incorporation; prior MIT scope did not clearly include examples. |
+| [6015856352](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6015856352) — zhaoxinghua09-cell | Author states examples/code/fixtures/example README MIT extension, with catalogue prose under separate content terms. Verify exact licence version before reuse. |
+| [6033701828](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6033701828) — dakleyer | Third technical audit: complete crosswalk agreement, ordinary time observations, coherent final status and honest fault-injection/source-mutation distinctions. |
+| [6034629996](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6034629996) — dakleyer | Foundation Protocol invitation to a bounded mechanism-neutral specification study; no contributor acceptance or EA requirement is established. |
+| [6056877810](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6056877810) — T-n-Nelson | Nelson static mutation-scorer defects: double-counted timeout, false fatal-sentinel kill and non-exempt survivors. Not a source-mechanism execution finding. |
+| [6071173179](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6071173179) — matiascloudarch | Matías proposes bounded CDA stateful simulation and a two-to-three-week preparation window; not a delivered campaign result. |
+| [6071668399](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6071668399) — zhaoxinghua09-cell | Zhao reports b59a686 scorer fixes and stubbed negative controls, with remaining exemption/cache/stillborn limitations explicit. |
+| [6071913677](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6071913677) — zhaoxinghua09-cell | Zhao reports third-round crosswalk/time/coherence/classification corrections; remaining scorer limits persist. |
+| [6071946632](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6071946632) — zhaoxinghua09-cell | Zhao relates two axes to separate decision/attempt/effect observations; offers adapter material without setting the joint timeline. |
+| [6076953110](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6076953110) — dakleyer | Iván distinguishes CDA R0/R1 preparation from optional frozen R2, observability limits, legitimate continuity and fair conventional comparison. |
+| [6089067288](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6089067288) — T-n-Nelson | Nelson proposes full UC-4 experimental coordination with source owners; R2 remains follow-up; do not convert attribution into adoption. |
+| [6089199114](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6089199114) — matiascloudarch | Matías accepts the division and states intended INDETERMINATE/fallback behaviour; R0/R1 bounded simulation precedes R2 scoping. |
+| [6109154445](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) — dakleyer | 11Oct S5 audit: 18 cases,15 probes and6480 sensitivity rows are bounded model audit evidence; seven wider Q0–Q6 predicates are not demonstrated. |
+| [6111953753](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) — dakleyer | Optional S4/CDA follow-up preserves unauthorized action and silent finding loss, U/G/I authority distinctions, strong merchant peer and its separate freeze. |
+| [6115830369](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369) — zhaoxinghua09-cell | Zhao recommends scoped v0.1.3 S5 closure, aligns seven upstream assumptions, and makes new Q0 dependent on an external observation contract. |
+| [6127959997](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997) — dakleyer | Proposed UC4↔UC21 receiving-decision feedback Steps A–F; not DDS Stage A/B/C or an automatically applicable dependency. |
+| [6132541771](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771) — T-n-Nelson | Nelson accepts a separately scoped possible collaboration; no default EA/UC21/DDS/CDA gate or automatic reopening of existing UC4 work. |
+| [6138082870](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870) — matiascloudarch | Matías reports CDA v0.1.3 tests/vectors and claimed R0/R1/R2 support; treat as contributor-reported evidence, not independently admitted UC21 R2. |
+| [6143678176](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) — dakleyer | Iván proposes parallel preparation, frozen validated R1 before R2 execution, and separate design/testing/specification-selection roles. |
+| [6157702672](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6157702672) — zhaoxinghua09-cell | Zhao discloses catalogue/CDA/two-axis interest; can offer eligible non-CDA replay only under a frozen protocol and role check. |
+| [6157833560](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6157833560) — zhaoxinghua09-cell | Zhao confirms S5 closure is bounded, not independent replay/all-Q validation; Q0 authority/revocation contract is a new specification question. |
+| [6166486213](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6166486213) — dakleyer | Seven-area roadmap is a proposal: open review, author experiments, other Challenges, calibration, method validation, experimental validation and selection. |
+| [6171419825](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6171419825) — zhaoxinghua09-cell | Zhao adds failed/negative controls, pre-result freeze, per-candidate COI, symmetric failed selection and explicit stage entry/exit. |
+| [6187658057](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6187658057) — T-n-Nelson | 15Oct Nelson: source-author-coordinated UC4 full cycle, real per-candidate interests, separate accounts not independence, prospective DDS adoption only, S5 bounded closure. |
+| [6189805180](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6189805180) — zhaoxinghua09-cell | Zhao agrees on account/interest disclosure and separate coordinator/executor eligibility; do not infer independent corroboration. |
+| [6192128304](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6192128304) — AlexandreLeforestierITU | Alexandre confirms the public production rights-stack/identity-gap description in00J-A01; no synthetic failure, run, adoption or completed new case follows from confirmation. |
+
+The current index already receives the S5 closure, S4/CDA proposal, UC4 feedback scope and 15Oct coordination/interest boundary; 00J-A01 receives the source-owner confirmation. The new official navigation must point to those owning records, rather than compress all of this discussion into an invented completed campaign. Public comments remain untouched.
+
+### Link and byte verification
+
+The selected GFM link/image scan examined **651 repository-target occurrences**, including the source package's **203 relative links**, current DDS/Challenge links, and official aec08fb5 links resolved against their identical Contributions custody paths. No missing file/directory target or checked-fragment failure was found. Of 149 fragment-bearing occurrences,136 had target bodies available and were checked; 13 were not fragment-certified. Another 338 occurrences point to other fixed versions or external resources and are not certified by that scan. Those numbers are navigation evidence; they do not replace the source and discussion reading above or certify all external product documentation.
+
+Fresh public raw reads matched all 48 original files. The 37 official requirement rows match the source form literally. The original 20 annexes are five common-protocol annexes, six S1–S6 scenario annexes and nine T01–T09 technology profiles; CONVENTIONS.md is supporting vocabulary, not a twenty-first technical annex. The complete inventory below makes source preservation reproducible from the public Git objects. Hashes alone are not the semantic reception judgment.
+
+<details>
+<summary>All 48 preserved original paths and exact identities</summary>
+
+All paths are relative to the [preserved case folder](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). Every Git blob below equals the same path in the original aec08fb5 repository tree.
+
+| Original relative path | Bytes | Git blob | SHA-256 |
+|---|---:|---|---|
+| [README.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) | 7653 | `93a71b4ea2798dffb0aff1c138bd7b94d1da1257` | `2c05407105948b11e4e14a2b0997c9011419049369df6cc9ae52ba64faab3c84` |
+| [SHA256SUMS.txt](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/SHA256SUMS.txt) | 4552 | `c24e434392b921b31a1211f13ce9e27d7ddc1dcc` | `b07eddddb670688bb44e596a057318ac8f88ca90f2f5b4b98ae704145eaabb11` |
+| [SUBMISSION.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/SUBMISSION.md) | 16331 | `0555b68a75fddf8ae19937efe513ec6ec6f65cef` | `ade30edda74800d846f3416a2b5c606a62a451389c0c807a1c92c9dfd371b274` |
+| [USE_CASE.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md) | 28453 | `6e3d299fdb077ef463d6e9b026510cd050eb34b3` | `b81710d02d4b469d4af024f7dfa9ff4e9efedeb5c56b04eb45e3ae2f171ebf76` |
+| [annexes/CONVENTIONS.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) | 5571 | `f14cfee1b588d0814bb39288b40d715bbed826a2` | `6911b3048974661675ba3406c001d1d0bf16b1b44a7d8360faff6cb6518591e2` |
+| [annexes/EVIDENCE_AND_PROTOCOL.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md) | 18042 | `11e844056e6253e3e8ec0983072dd8fdc3b0d88e` | `0290e6d11e3dca8c317ed84957dc3b35e264cc8011aff540323d60c5e853e9fc` |
+| [annexes/EXTENSIONALITY.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md) | 32408 | `3fb1a3ffc83a430597502c173146c3d2e3ec70bf` | `f1dce53ae7c363e022d1167d60b3e75b86f2351b2fdfec8eca0e0cde211ce19f` |
+| [annexes/HYPOTHESES.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md) | 66940 | `7e315c2fc1931e19a9a61d03912b9fb88b51031c` | `2c2bb892598d6f0135ab5c23af68944005071a16142a00e921b7932e53318f11` |
+| [annexes/README.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) | 2710 | `452d0e2f68124d57b0164375339d3bb9e909082c` | `a72aa6f6ee8ae1be633cc82ff5a29fb35ac24a4476cd226dc2cfb450bbd261e0` |
+| [annexes/RECURRENCE_PROTOCOL.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md) | 17203 | `824f4f974d1423cb98c78504ac9e6ca91fb95b0b` | `aa7967a6259ed9c8a0379c41d03bdfdc505414bb32b72f3ec5fa142c8b45361e` |
+| [annexes/RELATED_CASES.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md) | 2115 | `d9e0972aa61dbfacb3236dc08b200f94fee284a0` | `be19770fb3669e0e4e7aa9a8737991d805c5bd1e75afedafb1a1bc6881187ff9` |
+| [annexes/scenarios/S1.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S1.md) | 61009 | `d70c30fd6080565d90b720da13befca41fe0ad4a` | `81009b74441e9aceca916d7b04f4f1f9278d5791a5601d535bce4bce74a9d27e` |
+| [annexes/scenarios/S2.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S2.md) | 38786 | `7b4a1fcb86530e2a1b57f0846aa02996ddf44683` | `ce86f6618fbb236e75aa7ec831a870680b58643f79c2cb37d4aa9a5ba2f2a185` |
+| [annexes/scenarios/S3.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S3.md) | 38578 | `a14fd35f3dc379490d2c22af8d59aa86e25847ca` | `c48bd5a0e3f68351064ca6c409658e8d47953177a8a58a126eac07aaf96afe16` |
+| [annexes/scenarios/S4.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S4.md) | 75339 | `0dec490f15c325ef6e96d76435da192105b686b2` | `90a79d4ce9873d559ca89a91eef0388650a0943b703e1a3b07e599ddc9694462` |
+| [annexes/scenarios/S5.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md) | 49527 | `9e6df1f185971b8a8320701947c3e73ac9268582` | `ca6924a71a6cd95bb6d66c2be6b5d439bdcf0c2b708f95d3eedb136f4deff717` |
+| [annexes/scenarios/S6.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S6.md) | 46256 | `a02ff40d9a74603944c462e52ff5aa28e412535d` | `7f3c280ac2c069b0152d5f7d0bcca457b5c7931af48a6d838487898421494124` |
+| [annexes/technology/T01.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T01.md) | 25519 | `3e42d7f4d6632d8924c0fbc4db8291534972d0ac` | `8ef1e17735a7ee038e64fc1072d619b9e4897042170cc8877e1f3029de8aa8f1` |
+| [annexes/technology/T02.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T02.md) | 21088 | `65d9bbe6dd65c1399f6b330f3ba50617c6a70c1e` | `b7b4f71f116cf5350a0d4d51c0cc248c99c5d441cbbf556d48ae83151903ec1a` |
+| [annexes/technology/T03.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T03.md) | 23951 | `ea718347cd642cf1291b6d13839be3848f567d7b` | `7ba1f5a791dd5ffa9af9560a57a4b3fc6fe8564e22afeb73c67f60a84f549c98` |
+| [annexes/technology/T04.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T04.md) | 24709 | `010b3c6b83a529d0d1874e3e593270bae3b8216e` | `ca2bd9de03737a30b7682463497732f88056ef81df68dadef9bca75aab4a0927` |
+| [annexes/technology/T05.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T05.md) | 22981 | `df4aeb0798cabd875236212efeab2fb899902106` | `0e9d9ddff0d0d1c1caa5e6ab9f64f29dc8ab98f0e3052aed4dc2cab74f309ef5` |
+| [annexes/technology/T06.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T06.md) | 17438 | `b2586c20632b6409805b24e3f085dced945bc62e` | `26fa5a3d5fc98f9378a97f6783727172a4191e9de9039800771cd4cb10c1b471` |
+| [annexes/technology/T07.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T07.md) | 18118 | `e4543f3b58025d0e2b542713db27cf1d4218e16c` | `db6cfdff111a53c62676260b0659448a6ef27f6b79297f41c445a1d50d7685db` |
+| [annexes/technology/T08.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T08.md) | 26452 | `dd04840f51627d958ef91b154a19bd87f36b585a` | `be607668c1a89ab850179cb573ed1d791206d2085937cd35f0e105f96f66e248` |
+| [annexes/technology/T09.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/technology/T09.md) | 33315 | `c6c49fbc022a7d5539b6fa460db67fc9bcd1c03e` | `aaf0999ee9e06357c27bd34feffa8ec2788a62e0ecef705e4d8c01118ec65c27` |
+| [assets/00E/figure_00E_01_five_stage_cascade.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg) | 6424 | `ea44ce5fd4659ea948473f96590968668b6387e9` | `7d928164cec8b90ceba675f59119ab0fbfe1cbd64f1db695554691ecfac726dd` |
+| [assets/00E/figure_00E_03_many_to_one_funnel.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg) | 6315 | `78add3dea7e641c1ea2f64bc342d0410eb622c2a` | `e66398d6871763b36d2e216ef661326e029ff92c45f2fc06395f22b3af1685fa` |
+| [assets/00G/1_signal_to_role_drift.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/1_signal_to_role_drift.svg) | 7194 | `9b1de6df0eedb74d063f2b8614a3121866040646` | `c2a58f84766cbd36f689d2bd0412f1cd55cf1f4fab6771bbbedc004054b48ab4` |
+| [assets/00G/2_matched_topology_source_dependence.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/2_matched_topology_source_dependence.svg) | 8179 | `e27a2a870e0c19d786303f93048a6f6774d12bd3` | `4d6de73c5f23873c5c9d7e739540d31db4562ee7abb9b7291809316f35f59caa` |
+| [assets/00G/4_branch_f_vs_g.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/4_branch_f_vs_g.svg) | 4247 | `dfb3ccb202fe40b64d5d41f4a1e745e97fcc871a` | `8f89f44877b38258f8c70249925bf4ae3be33e55568136bf30cc109ee226cec9` |
+| [assets/00G/5_gate_reference_matrix.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/5_gate_reference_matrix.svg) | 7899 | `aebfa4b0551528cbb4c9ec4bb4db5cfe1b09ad42` | `0fbbc43e3d2a93cc7b99075babeb34f318dc499e880ceb236eb8f944d52aa120` |
+| [assets/00G/6_openai_implementation_trajectories.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/6_openai_implementation_trajectories.svg) | 6147 | `1e0564fb2c17fcc7d317c2fa0a66a47df80e6b9e` | `fdc3968a94dc7be9b200c856309512004bb2712e33e0817293f64c382fea31a8` |
+| [assets/00G/7_compaction_regime_change_test.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00G/7_compaction_regime_change_test.svg) | 5301 | `bc57afca58f4e2964430f0bea335b0152aeea8a6` | `423ed003a883002e3c135aff83add3682b64fea717e950799e6563d3ca122147` |
+| [assets/00J/1_lineage_chain.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/1_lineage_chain.svg) | 7066 | `370a30d19d8bef1b82452c0528f0d289ffd96b55` | `334fdf0ded33ecc4a26962454b1ffc9408c8081b5654c365047c64930f238dcd` |
+| [assets/00J/2_evidence_scopes.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/2_evidence_scopes.svg) | 2970 | `bf144dafa900e0d2f60ff314814bcf24284ae054` | `5e493bc9b708626d97608fa533a647ee303e078637e87d2609414cad71765c70` |
+| [assets/00J/4_gate_reference_card.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00J/4_gate_reference_card.svg) | 4883 | `fa7485307ef3167a5ae81a307cb95d0222bf5467` | `1fc032fbe82cd4ea78fbc9ee2f13e5e7a4c62c1ece1f5cefc0c5684e7b9db613` |
+| [assets/reading/admission_checklist.png](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/admission_checklist.png) | 335442 | `464cc07b47f8188d4c3d924bd196d01e21c065df` | `4688244b3277a41ea9c3d1102833b158af69f5d872acc41ee1525933e6554ac0` |
+| [assets/reading/admission_checklist.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/admission_checklist.svg) | 8595 | `d03f307cc5090def3da050f276e8615d0894bacb` | `1dfa13e24a2b44f4e3b028092db754e86511a1f231e2ed827eb2e2de3f999771` |
+| [assets/reading/claim_selection_map.png](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.png) | 272443 | `a5bc8127241da21313f7fc80f02accdf62198293` | `51a84db6b16fa71a9b06b82255319f3a7037c3a322b6b1fcf31981992317b00b` |
+| [assets/reading/claim_selection_map.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.svg) | 10507 | `dadcf8a77e5070bb61f5a247c0fbe18ee0bb135f` | `1119a5b2473af18c812fb38d970178b130873cdb6eaf4800de1ed78ae174f70e` |
+| [assets/reading/package_map.png](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/package_map.png) | 177686 | `797731d4b2d17afd3eb289f4218750c482a1167c` | `0db714dfe9976d3e50d66e43f839b25f1160daf8252821d9507f3bed0ca819ea` |
+| [assets/reading/package_map.svg](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/package_map.svg) | 5040 | `98ce5119ee00fbf019b6d6041e458931e9b4bcfd` | `e99acb85208de78402a0ed63357bd35b70a3cf5837c01ebd12d76a104efb3338` |
+| [fixtures/S5-AWS/fixture_d1_source_set_drift.json](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json) | 1298 | `cf168bd078c52d5e860267391fc6865a88dd8d3c` | `e927992821332049aa5f1f9f743d1ae6b83432b2511814cb0ef03f66d723e82a` |
+| [fixtures/S5-AWS/i0_ordinary.asl.json](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json) | 835 | `41d17f0009c4e9e6649154a4a79ee686e17a2dbc` | `cd9ddfd3cc9406ab15d058c0212495eae3ef970a873a5ab1dfa37d55a1bd86f4` |
+| [fixtures/S5-AWS/i1_top_notch.asl.json](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json) | 2446 | `f6f4addd280953aa25d949508a6898ecda3a5794` | `3219f588250e98f37323409f918c58c447f5652b83b7d03e2e0e8e695d9d2070` |
+| [fixtures/S5-AWS/trace_contract.json](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json) | 1292 | `d6640591068e85badd88e529ae8d67c78e061d4c` | `f264e84764766b22965526fd14998c474433eb614a8a2324ea3fe820622dde84` |
+| [templates/RUN_RECORD.md](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md) | 2645 | `be014eb521d0ede16697ad0f37b961c5eb562d63` | `788f9e1f4d788c9ea286d7d0d4f85a9b01497fefba5063cf24217312694095bb` |
+
+</details>
+
+### Exact official-publication candidates
+
+Iván’s standing instruction requires the old literal passage, proposed passage, impact, risk, effort and named wave decision. The source below is the actual official resource, not a private staging file. Each old passage was verified unique in its complete current body. The proposed after retains the complete before as a substring; removing only the new insertion reproduces every prior source byte. Revalidate the official body/head before applying.
+
+### Change 144 — Connect the official UC-21 form directly to its complete Contributions source edition
+
+**State:** prepared; not applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
+
+**Source:** FG-TIDA/use-cases — `https://github.com/FG-TIDA/use-cases/issues/21`; updated_at=2026-10-15T12:32:54Z; complete source-body SHA-256 `9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98`.
+
+**Text before — complete old passage**
+
+~~~~markdown
+UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.
+
+**Current reading — 15 October 2026.** Follow **UC-21 → objectives → Challenges → DDS → campaigns → results** through the research guide above. The retained S1–S6 families supply the Challenges; a DDS evaluation scenario maps a selected technology/configuration to a Challenge under declared conditions. The submitted form and its local gate labels remain the case reference.
+
+The complete submitted edition is also available directly in Contributions: **[case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[twenty annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md)** · **[all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails)**. This source snapshot preserves the submitted text, figures, fixtures and original manifest. The Maturity and Assets fields below describe that submitted edition. The current research guide identifies later source editions, bounded executed studies and work in development; each report supplies its own scope and result.
+~~~~
+
+**Reason and benefit:** A reader can follow the current research route and read all submitted material in Contributions without using the fork as a required gateway.
+
+**Risk:** Adds one bounded reader block. Keeps the whole existing form, 37 requirements, links, banner and discussion untouched; distinguish source custody from current research.
+
+**Effort:** Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.
+
+**Dependencies and order:** Source snapshot remains byte-identical in all 48 files; Existing four top links and all ten form sections remain; Re-read issue body immediately before application; exact old paragraph must occur once; Iván's GO for this particular official-entry insertion. Apply144 first,145 when the official index route is authorized,146 as the separate PR-provenance clarification. None requires merging PR #22 or altering its54 case-folder files.
+
+**Iván's instruction and decision:** preserve all information, use this existing VNext and exact old/new passages, and receive GO for each adoption wave. This review publishes the complete candidates. GO for these three official-resource changes is pending; no inference of FG-TIDA acceptance, source-owner participation or new experiment follows.
+
+### Change 145 — Index the already published UC-21 issue in the official repository README
+
+**State:** prepared; not applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
+
+**Source:** FG-TIDA/use-cases — `README.md`; 5ae72ac3094a2712d8b9b75d11bbb928b6859fe6; complete source-body SHA-256 `dcb1d8abe38252b7dc5d0c992a75af9cb2f7fe0c58b923cc47414145156feaed`.
+
+**Text before — complete old passage**
+
+~~~~markdown
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |
+~~~~
+
+**Reason and benefit:** Repository readers find UC-21 from the submissions table and reach its direct Contributions guide through the official issue.
+
+**Risk:** Adds one table row using identification and proposed primary theme already present in the official case. Does not merge the package or create another case owner.
+
+**Effort:** Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.
+
+**Dependencies and order:** Revalidate the official README head and check that no UC-21 row has appeared; Preserve all existing rows and repository instructions; Iván's GO for the exact row; repository maintainer acceptance if direct write is unavailable. Apply144 first,145 when the official index route is authorized,146 as the separate PR-provenance clarification. None requires merging PR #22 or altering its54 case-folder files.
+
+**Iván's instruction and decision:** preserve all information, use this existing VNext and exact old/new passages, and receive GO for each adoption wave. This review publishes the complete candidates. GO for these three official-resource changes is pending; no inference of FG-TIDA acceptance, source-owner participation or new experiment follows.
+
+### Change 146 — Qualify the historical PR verification against its actual current head
+
+**State:** prepared; not applied. **Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Bajo.
+
+**Source:** FG-TIDA/use-cases — `https://github.com/FG-TIDA/use-cases/pull/22`; updated_at=2026-10-12T17:01:45Z; head=188f31921202d0beb06cfd15eea5008829f60e29; complete source-body SHA-256 `39f3380fddb2222f1b9913d6339aaaede3e4313ef8f358f548de6564d4683888`.
+
+**Text before — complete old passage**
+
+~~~~markdown
+This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.
+
+### Current provenance — 15 October 2026
+
+The 48-file inventory and checks above describe the original submission at `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. The current PR head, `188f31921202d0beb06cfd15eea5008829f60e29`, contains 54 case-folder files: the original 48 paths plus six review records. Of the original 48, 44 retain their submitted bytes; README.md and USE_CASE.md add reader guidance, S3.md adds a maintained-source pointer, and S6.md is a shorter adapter to canonical 00J.
+
+All 48 original files, including the complete submitted S6, are preserved byte for byte in the [Contributions source snapshot](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The [official UC-21 issue](https://github.com/FG-TIDA/use-cases/issues/21) is the case entry; the [Contributions guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) maintains objectives, Challenges, DDS and recorded research. This PR remains an unmerged historical submission; its complete package is not required to update that direct reader route.
+~~~~
+
+**Reason and benefit:** The PR no longer invites a reader to interpret the original 48-file verification as a certificate of its later 54-file working tree.
+
+**Risk:** Appends dated provenance only. Preserves the original verification, archive references, full PR body and all package files.
+
+**Effort:** Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.
+
+**Dependencies and order:** Revalidate PR head 188f319 and all four named changed source files; Keep original 48-file submission and every existing PR paragraph; Iván's GO for the exact PR-body addendum; no merge or source-branch edits. Apply144 first,145 when the official index route is authorized,146 as the separate PR-provenance clarification. None requires merging PR #22 or altering its54 case-folder files.
+
+**Iván's instruction and decision:** preserve all information, use this existing VNext and exact old/new passages, and receive GO for each adoption wave. This review publishes the complete candidates. GO for these three official-resource changes is pending; no inference of FG-TIDA acceptance, source-owner participation or new experiment follows.
+

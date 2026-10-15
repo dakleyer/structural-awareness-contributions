@@ -8669,6 +8669,142 @@
         "user_text": "El mismo proceso de siempre para evitar tu desastre de que no eres capaz de cambiar un logo sin romper el archivo completo y ahí queda hacerte lanzar mil millones de tokens para que puedas copiar y pegar sin destruir todo el contenido. O sea, el mismo de control de daños de siempre."
       },
       "assessment_reconciliation": "C: medium historical audit-reception benefit and verification effort; D: low incremental impact/risk/effort. Coordinator retains low overall impact/risk and medium whole verification effort under Ivan criterion."
+    },
+    {
+      "id": 144,
+      "title": "Connect the official UC-21 form directly to its complete Contributions source edition",
+      "source": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "source_version": "updated_at=2026-10-15T12:32:54Z",
+      "before": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.",
+      "after": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n**Current reading — 15 October 2026.** Follow **UC-21 → objectives → Challenges → DDS → campaigns → results** through the research guide above. The retained S1–S6 families supply the Challenges; a DDS evaluation scenario maps a selected technology/configuration to a Challenge under declared conditions. The submitted form and its local gate labels remain the case reference.\n\nThe complete submitted edition is also available directly in Contributions: **[case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[twenty annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md)** · **[all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails)**. This source snapshot preserves the submitted text, figures, fixtures and original manifest. The Maturity and Assets fields below describe that submitted edition. The current research guide identifies later source editions, bounded executed studies and work in development; each report supplies its own scope and result.",
+      "benefit": "A reader can follow the current research route and read all submitted material in Contributions without using the fork as a required gateway.",
+      "riskReason": "Adds one bounded reader block. Keeps the whole existing form, 37 requirements, links, banner and discussion untouched; distinguish source custody from current research.",
+      "dependencies": [
+        "Source snapshot remains byte-identical in all 48 files",
+        "Existing four top links and all ten form sections remain",
+        "Re-read issue body immediately before application; exact old paragraph must occur once",
+        "Iván's GO for this particular official-entry insertion"
+      ],
+      "date": "2026-10-15",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "state": "Prepared; not applied; awaiting specific wave GO",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "wave": "UC-21 official-entry completion",
+      "positive_impact_proven": false,
+      "source_sha256": "9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98",
+      "repository_full_name": "FG-TIDA/use-cases",
+      "source_commit": null,
+      "review_source_commit": "323476322b0c2776328400910a44aa4e35b267aa",
+      "pairs": [
+        {
+          "before": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.",
+          "after": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n**Current reading — 15 October 2026.** Follow **UC-21 → objectives → Challenges → DDS → campaigns → results** through the research guide above. The retained S1–S6 families supply the Challenges; a DDS evaluation scenario maps a selected technology/configuration to a Challenge under declared conditions. The submitted form and its local gate labels remain the case reference.\n\nThe complete submitted edition is also available directly in Contributions: **[case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[twenty annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md)** · **[all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails)**. This source snapshot preserves the submitted text, figures, fixtures and original manifest. The Maturity and Assets fields below describe that submitted edition. The current research guide identifies later source editions, bounded executed studies and work in development; each report supplies its own scope and result."
+        }
+      ],
+      "application_status": "pending_specific_GO",
+      "preparation": "Full official form/discussion review; exact source pin and unique insertion; all predecessor bytes and old links preserved.",
+      "gate": "Iván decides this official-publication wave; no source change applied in this review.",
+      "costReason": "Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Revalidate official UC-21 against canonical Contributions and preserve every source; prepare exact VNext pairs before a wave is applied.",
+        "per_wave_GO_required": true
+      }
+    },
+    {
+      "id": 145,
+      "title": "Index the already published UC-21 issue in the official repository README",
+      "source": "README.md",
+      "repository_full_name": "FG-TIDA/use-cases",
+      "source_version": "5ae72ac3094a2712d8b9b75d11bbb928b6859fe6",
+      "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
+      "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |",
+      "benefit": "Repository readers find UC-21 from the submissions table and reach its direct Contributions guide through the official issue.",
+      "riskReason": "Adds one table row using identification and proposed primary theme already present in the official case. Does not merge the package or create another case owner.",
+      "dependencies": [
+        "Revalidate the official README head and check that no UC-21 row has appeared",
+        "Preserve all existing rows and repository instructions",
+        "Iván's GO for the exact row; repository maintainer acceptance if direct write is unavailable"
+      ],
+      "date": "2026-10-15",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "state": "Prepared; not applied; awaiting specific wave GO",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "wave": "UC-21 official-entry completion",
+      "positive_impact_proven": false,
+      "source_sha256": "dcb1d8abe38252b7dc5d0c992a75af9cb2f7fe0c58b923cc47414145156feaed",
+      "source_commit": "5ae72ac3094a2712d8b9b75d11bbb928b6859fe6",
+      "review_source_commit": "323476322b0c2776328400910a44aa4e35b267aa",
+      "pairs": [
+        {
+          "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
+          "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |"
+        }
+      ],
+      "application_status": "pending_specific_GO",
+      "preparation": "Full official form/discussion review; exact source pin and unique insertion; all predecessor bytes and old links preserved.",
+      "gate": "Iván decides this official-publication wave; no source change applied in this review.",
+      "costReason": "Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Revalidate official UC-21 against canonical Contributions and preserve every source; prepare exact VNext pairs before a wave is applied.",
+        "per_wave_GO_required": true
+      }
+    },
+    {
+      "id": 146,
+      "title": "Qualify the historical PR verification against its actual current head",
+      "source": "https://github.com/FG-TIDA/use-cases/pull/22",
+      "source_version": "updated_at=2026-10-12T17:01:45Z; head=188f31921202d0beb06cfd15eea5008829f60e29",
+      "before": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.",
+      "after": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.\n\n### Current provenance — 15 October 2026\n\nThe 48-file inventory and checks above describe the original submission at `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. The current PR head, `188f31921202d0beb06cfd15eea5008829f60e29`, contains 54 case-folder files: the original 48 paths plus six review records. Of the original 48, 44 retain their submitted bytes; README.md and USE_CASE.md add reader guidance, S3.md adds a maintained-source pointer, and S6.md is a shorter adapter to canonical 00J.\n\nAll 48 original files, including the complete submitted S6, are preserved byte for byte in the [Contributions source snapshot](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The [official UC-21 issue](https://github.com/FG-TIDA/use-cases/issues/21) is the case entry; the [Contributions guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) maintains objectives, Challenges, DDS and recorded research. This PR remains an unmerged historical submission; its complete package is not required to update that direct reader route.",
+      "benefit": "The PR no longer invites a reader to interpret the original 48-file verification as a certificate of its later 54-file working tree.",
+      "riskReason": "Appends dated provenance only. Preserves the original verification, archive references, full PR body and all package files.",
+      "dependencies": [
+        "Revalidate PR head 188f319 and all four named changed source files",
+        "Keep original 48-file submission and every existing PR paragraph",
+        "Iván's GO for the exact PR-body addendum; no merge or source-branch edits"
+      ],
+      "date": "2026-10-15",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "state": "Prepared; not applied; awaiting specific wave GO",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "wave": "UC-21 official-entry completion",
+      "positive_impact_proven": false,
+      "source_sha256": "39f3380fddb2222f1b9913d6339aaaede3e4313ef8f358f548de6564d4683888",
+      "repository_full_name": "FG-TIDA/use-cases",
+      "source_commit": null,
+      "review_source_commit": "323476322b0c2776328400910a44aa4e35b267aa",
+      "pairs": [
+        {
+          "before": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.",
+          "after": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.\n\n### Current provenance — 15 October 2026\n\nThe 48-file inventory and checks above describe the original submission at `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. The current PR head, `188f31921202d0beb06cfd15eea5008829f60e29`, contains 54 case-folder files: the original 48 paths plus six review records. Of the original 48, 44 retain their submitted bytes; README.md and USE_CASE.md add reader guidance, S3.md adds a maintained-source pointer, and S6.md is a shorter adapter to canonical 00J.\n\nAll 48 original files, including the complete submitted S6, are preserved byte for byte in the [Contributions source snapshot](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The [official UC-21 issue](https://github.com/FG-TIDA/use-cases/issues/21) is the case entry; the [Contributions guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) maintains objectives, Challenges, DDS and recorded research. This PR remains an unmerged historical submission; its complete package is not required to update that direct reader route."
+        }
+      ],
+      "application_status": "pending_specific_GO",
+      "preparation": "Full official form/discussion review; exact source pin and unique insertion; all predecessor bytes and old links preserved.",
+      "gate": "Iván decides this official-publication wave; no source change applied in this review.",
+      "costReason": "Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.",
+      "instructions": {
+        "date": "2026-10-15",
+        "scope": "Revalidate official UC-21 against canonical Contributions and preserve every source; prepare exact VNext pairs before a wave is applied.",
+        "per_wave_GO_required": true
+      }
     }
   ],
   "audit_coverage": [
@@ -23474,6 +23610,32 @@
       ],
       "138_applied": false,
       "whole_corpus_semantic_review_complete": false
+    }
+  ]
+,
+  "uc21_official_revalidation_epochs": [
+    {
+      "date": "2026-10-15",
+      "base": "323476322b0c2776328400910a44aa4e35b267aa",
+      "official_main": "5ae72ac3094a2712d8b9b75d11bbb928b6859fe6",
+      "issue_updated_at": "2026-10-15T12:32:54Z",
+      "pr_head": "188f31921202d0beb06cfd15eea5008829f60e29",
+      "comment_bodies_read": 43,
+      "exact_source_files": 48,
+      "source_bytes": 1609898,
+      "literal_requirement_rows": 37,
+      "source_relative_links": 203,
+      "selected_link_occurrences": 651,
+      "checked_fragments": 136,
+      "uncertified_fragments": 13,
+      "entries": [
+        144,
+        145,
+        146
+      ],
+      "source_changes_applied": false,
+      "six_pass_programme_complete": false,
+      "audit": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#official-uc-21-and-canonical-corpus-revalidation--15-october-2026"
     }
   ]
 }
