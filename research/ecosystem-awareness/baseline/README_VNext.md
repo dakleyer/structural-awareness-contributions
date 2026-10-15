@@ -2043,3 +2043,32 @@ Change 137 removes the orphaned four-backtick line left by the [applied tranche-
 
 **Iván’s instruction:** restore useful reception surgically, publish the complete old/proposed passages first and retire the applied item. Existing controls and the unique owning VNext are reused. The historical source retains both delimiter bytes in Git history; no research text, result or programme is changed. Both whole-file substitutions must reverse exactly, and the live GitHub audit headings must render normally.
 
+
+
+### Change 137 — Final receipt after separate review
+
+C independently reproduced the delimiter origin, both complete source substitutions and the rendered 20→31 heading / one→zero code-block change. It also noted that all four tables occur before the fence. The receipt therefore says **headings and links**. Pair 1 above is unchanged. This final Pair 2 replaces only the earlier proposed receipt; the source has not yet been edited.
+
+**Pair 2 — complete text before**
+
+`````markdown
+No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.
+
+
+`````
+
+**Complete text after — final proposed receipt**
+
+`````markdown
+No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.
+
+
+
+## Readability repair — 15 October 2026
+
+Change 137 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its former paired quotation remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#plan-pendiente--linaje-originalcostetiposreparación). GitHub rendered the later audits and applied receipts as code at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`; removing that line restores their headings and links. All substantive text remains. The [existing baseline review](../../../README_VNext.md#change-137--restore-extensions-audit-readability) owns the complete reviewed pair and conservation check.
+
+`````
+
+Expected impact is high for audit readability; risk and effort are low. Apply Pair 1 above and this final Pair 2 once each, then require the whole-file inverse and actual public GitHub render check. The source delta is +919 bytes: five delimiter bytes removed and the complete 924-byte receipt appended. No substantive source text is removed.
+

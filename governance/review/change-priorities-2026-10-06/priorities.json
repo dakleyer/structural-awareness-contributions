@@ -1,5 +1,5 @@
 {
-  "version": "1.54",
+  "version": "1.55",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8188,7 +8188,7 @@
           "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
           "source_blob": "f4723948090e3a1a050fe9d2003a3bb6bf09a241",
           "before": "No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.\n\n",
-          "after": "No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.\n\n\n\n## Readability repair — 15 October 2026\n\nChange 137 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its former paired quotation remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#plan-pendiente--linaje-originalcostetiposreparación). GitHub rendered the later audits and applied receipts as code at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`; removing that line restores their headings, tables and links. All substantive text remains. The [existing baseline review](../../../README_VNext.md#change-137--restore-extensions-audit-readability) owns the complete reviewed pair and conservation check.\n",
+          "after": "No further useful omission was found.127's two negative-coordination repairs remain the earlier source corrections; no product fact is refreshed or model executed by this history check. Native Word layout remains unconfirmed. The [baseline media result](../../../README_VNext.md#historical-media-reception-completed--15-october-2026) records the whole binary cohort and source boundaries.\n\n\n\n## Readability repair — 15 October 2026\n\nChange 137 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its former paired quotation remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#plan-pendiente--linaje-originalcostetiposreparación). GitHub rendered the later audits and applied receipts as code at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`; removing that line restores their headings and links. All substantive text remains. The [existing baseline review](../../../README_VNext.md#change-137--restore-extensions-audit-readability) owns the complete reviewed pair and conservation check.\n",
           "reason": "Add only the dated owning-review receipt; no recursive literal plan in this source."
         }
       ],
@@ -8199,12 +8199,12 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Existing review readability repair",
-      "state": "Exact two-pair plan prepared; separate verification pending before application",
+      "state": "Exact revised two-pair plan; C confirmed source origin, delimiter, receipt bytes and rendered effect; final revised receipt check pending",
       "application_status": "planned",
       "decision_ready": false,
       "authorized_to_apply": false,
       "positive_impact_proven": false,
-      "benefit": "Restore normal headings, tables and working links for the audits after the orphaned line, including the applied127 receipt.",
+      "benefit": "Restore normal headings and working links for the audits after the orphaned line, including the applied127 receipt.",
       "riskReason": "Remove exactly four backticks and their LF, then append only the reviewed receipt. Every substantive byte remains. This is an intentional five-byte exception to the old VNext prefix, checked by exact inverse.",
       "costReason": "Trace the delimiter to its actual retirement commit, compare full literal context and whole-file inverse, and check real GitHub rendering before and after.",
       "dependencies": [
@@ -8233,7 +8233,9 @@
           "explanation": "The retirement removed the opening four-backtick markdown fence at old line220, the old/before quote and plan metadata. It retained the applied after-excerpt and its former closing fence at old235/new221. That closing fence becomes an opening fence through EOF. The substantive approved excerpt remains; do not restore the pending card."
         },
         "actual_pinned_GitHub_render": "Receipt127 was inside preformatted code, not a heading. EP131 rendered correctly and requires no repair.",
-        "pre_9bd_prefix_exception": "This fence already exists at9bd. Earlier QA proved exact VNext prefix conservation, not correct rendering. This proposal deliberately removes five source bytes (four backticks plus LF); do not claim the old VNext remains a literal prefix after application. Prove conservation by this exact inverse instead."
+        "pre_9bd_prefix_exception": "This fence already exists at9bd. Earlier QA proved exact VNext prefix conservation, not correct rendering. This proposal deliberately removes five source bytes (four backticks plus LF); do not claim the old VNext remains a literal prefix after application. Prove conservation by this exact inverse instead.",
+        "first_published_plan_commit": "67b10ddc26d0ac337236f5c455be96de095c2ec5",
+        "C_precision": "No table occurs after the orphaned fence. Say headings and links, not tables. Exact source change is still the five-byte delimiter deletion and the reviewed receipt."
       },
       "change_kind": "review-format-and-receipt; no canonical scientific source"
     }
@@ -9472,7 +9474,7 @@
       "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
-  "review_source_commit": "887eb776e6bd8d7dceb16e0fa9140f85898acdf1",
+  "review_source_commit": "67b10ddc26d0ac337236f5c455be96de095c2ec5",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -22607,6 +22609,16 @@
       ],
       "literal_pairs": 2,
       "plan_sha256": "a3863860cdaca3d5a83f2d02f3ede1e88d7d7893cebeabdaef87579e5d32ffc5",
+      "whole_corpus_semantic_review_complete": false
+    },
+    {
+      "date": "2026-10-15",
+      "base": "67b10ddc26d0ac337236f5c455be96de095c2ec5",
+      "entries": [
+        137
+      ],
+      "revision": "C receipt wording precision; Pair1 unchanged and final Pair2 complete",
+      "plan_sha256": "2bb7ac7d98eb00f97b1d739670115a8cf777b5d222c790d190ce694bc3088d70",
       "whole_corpus_semantic_review_complete": false
     }
   ],
