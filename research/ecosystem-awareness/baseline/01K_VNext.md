@@ -424,3 +424,51 @@ Here, human service demand is route- and competence-specific work time, not a un
 ````
 
 High expected impact / Medium risk / Medium effort. Not decision-ready: complete frozen/current UC03, EHD/01J/Operation/HEW and actual adapter judgement remains required. No schema/code/result/freeze change follows from publishing this proposal.
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 93
+
+Literal absence is real, but current01K14 and A015.2–5.4 retain capacity semantics. Prefer precise service-demand/proof-class qualification; all consuming deadlines and proof policies still need reconciliation.
+
+**Impact / risk / effort:** Alto / Medio / Medio. **State:** Not decision-ready: consumer timing/proof-policy reconciliation incomplete.
+
+**Source:** [research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), blob `e52ed065c5d217da73634c7eb28d26c5d990abae`. Dependencies: 01K-A01; UC-EA-03; Human Escalation/EHD consumers
+
+**Text before — complete current passage (1).**
+
+``````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+~~~
+``````
+
+**Text after — complete proposal.**
+
+``````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required qualified human service demand is feasible within W
+    under the declared 01K-A01 capacity/timing model and proof class
+AND expected review-completion latency fits W
+~~~
+
+Here, human service demand is route- and competence-specific work time, not a universal unit of intelligence or an HID metric. Read feasibility with 01K-A01 §§5.2–5.4, including backlog, current commitments, release times, deadlines, non-preemptible work and any material precedence constraints. The necessary load condition alone is not a sufficient scheduling proof. The consuming policy determines which declared proof classes are admissible; unresolved material inputs remain UNKNOWN. This gate qualifies the human review path and does not establish the correctness, authority, execution or effect of the eventual intervention.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).

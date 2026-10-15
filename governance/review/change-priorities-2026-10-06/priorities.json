@@ -11827,6 +11827,124 @@
       "new_candidates": 0,
       "new_vnext": 0,
       "proposal_assessments": []
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Independent restoration-plan consolidation; named source gates remain",
+      "source_commit": "89273f548f6b5ed8f7e0576040f615b5653ffaf6",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026",
+      "proposal_assessments": [
+        {
+          "id": 91,
+          "state": "Preparation remains held on the concrete unified-plan receiver/content gates",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 92,
+          "state": "Preparation remains held on the concrete unified-plan receiver/content gates",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 93,
+          "state": "Preparation remains held on the concrete unified-plan receiver/content gates",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 100,
+          "state": "Preparation remains held on the concrete unified-plan receiver/content gates",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 93,
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Medio",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 94,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 95,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 96,
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 97,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 98,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 99,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 100,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 101,
+          "impact": "Bajo",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        },
+        {
+          "id": 102,
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "authorized_to_apply": false,
+          "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026"
+        }
+      ],
+      "canonical_applied": false,
+      "new_candidates": 0
     }
   ],
   "plan_order": {
@@ -14793,6 +14911,198 @@
         "value": [],
         "reason": "Instruction-only guidance epoch contains no per-proposal assessments; explicit empty array fixes the pre-existing extract_top.py KeyError without changing historical instructions or rankings",
         "original_fields_preserved": true
+      }
+    }
+  ],
+  "unified_restoration_plan_epochs": [
+    {
+      "date": "2026-10-15",
+      "version": "independent-unification-v2",
+      "source_commit": "89273f548f6b5ed8f7e0576040f615b5653ffaf6",
+      "publication_base_commit": "e9e7cd3cd1b71b9759fe6adcf183bc3882fc9a96",
+      "audit": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026",
+      "plan_sha256": "45aa827abd997f577a28ba75998a1bcd36f8c4589e3395768fa0bf85132a6eca",
+      "principal_first_judgement_sha256": "9b286bbfad7b948e632a15a80b589f792b3820336112d30803ade6f3f0042f49",
+      "candidate_assessments": [
+        {
+          "id": "93",
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Medio",
+          "assessment": "revised",
+          "readiness": "Not decision-ready: consumer timing/proof-policy reconciliation incomplete.",
+          "source": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+          "vnext": "research/ecosystem-awareness/baseline/01K_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "94",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md",
+          "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "95",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+          "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "96",
+          "impact": "Alto",
+          "risk": "Medio",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "97",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "architectural-contributions/ecosystem-positioning/README.md",
+          "vnext": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "98",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+          "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "99",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+          "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "100",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Literal and attribution defect confirmed; downstream A19/A21/00K and semantic transfer still unresolved, no global proof repair clearance.",
+          "source": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+          "vnext": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "101",
+          "impact": "Bajo",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+          "vnext": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "102",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "assessment": "maintained",
+          "readiness": "Pending named exact Ivan GO; additional gates in plan apply",
+          "source": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+          "vnext": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "authorized_to_apply": false
+        },
+        {
+          "id": "existing-third-00J-transfer",
+          "impact": "Medio",
+          "risk": "Medio",
+          "effort": "Medio",
+          "assessment": "qualified successor / premise qualification",
+          "readiness": "Pending existing-owner resolution and downstream transfer reconciliation; not a new register ID",
+          "source": "research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md",
+          "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "authorized_to_apply": false
+        }
+      ],
+      "official_and_maintained_entry_candidates_held": [
+        91,
+        92
+      ],
+      "aliases_are_not_additional_actions": [
+        "SP-S6-01=94",
+        "CP-S2-DDS-NAMESPACE=95",
+        "PRIVATE_EP_REQUIREMENTS_SUCCESSOR_READING_LINK=97"
+      ],
+      "applied_candidates_not_reopened": [
+        16,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "source_changes_applied": false,
+      "all_sources_reviewed": false,
+      "all_prior_report_bodies_fully_reviewed": false,
+      "publication_is_not_adoption": true,
+      "support_reports": [
+        {
+          "file": "unified_case_plan_verification_2026-10-15.md",
+          "bytes": 195187,
+          "sha256": "bf4c449da3934e23ed0003885812516098afc269e7375dc62ed5eeb54d1361bc",
+          "read_in_full": true,
+          "lines": 975,
+          "exposure": "After own sealed judgement, substantial source/previous-plan reading and v1; attributed corroboration only"
+        },
+        {
+          "file": "unified_dds_plan_verification_2026-10-15.md",
+          "bytes": 227366,
+          "sha256": "d7f0864806cbe6c20b9b35a8fedbb5193c1e984fce3e33e568b34ff306541d95",
+          "read_in_full": true,
+          "lines": 1244,
+          "exposure": "After own sealed judgement, substantial source/previous-plan reading and v1; initially truncated range reread in smaller ranges; attributed corroboration only"
+        }
+      ],
+      "work_order": {
+        "Primera": [
+          "W01",
+          "W02 preparation",
+          "W03 preparation",
+          "W06 preparation"
+        ],
+        "Siguiente": [
+          "W04",
+          "W05",
+          "W07",
+          "W08",
+          "W09"
+        ],
+        "Después": [
+          "W10"
+        ]
       }
     }
   ]

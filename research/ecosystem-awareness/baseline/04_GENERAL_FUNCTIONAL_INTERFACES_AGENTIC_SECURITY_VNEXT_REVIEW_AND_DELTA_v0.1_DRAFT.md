@@ -651,3 +651,54 @@ The JSON freezes exact identities, supporting original/current clauses and conte
 
 
 </details>
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 101
+
+Current Markdown itself contains explicit dated semantic amendments; unchanged-reproduction comment is misleading. Preserve Word/graphics/manifest bytes.
+
+**Impact / risk / effort:** Bajo / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 102; publish the two custody descriptions consistently.
+
+**Text before — complete current passage (1).**
+
+``````text
+<!-- Approved v0.4 Word body reproduced below in document order. -->
+``````
+
+**Text after — complete proposal.**
+
+``````text
+<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+### Existing candidate 102
+
+Current dated amendment and historical manifest require an honest original-vs-current custody explanation; no reversal of B/C correction or rendered-parity assertion.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 101; publish the two custody descriptions consistently.
+
+**Text before — complete current passage (1).**
+
+``````text
+**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).

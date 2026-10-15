@@ -216,3 +216,31 @@ Acceptance: verify exact unique before, keep the current receiver link, preserve
 The [00K source/evidence record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#third-source-review--00k-relative-proofs-and-preserved-corrections-14-october-2026) now explains the reviewed A19/A21/A23/A24 roles and A20/A22 model boundary with actual historical/current source passages. Traceability, grammar coverage, reverse sufficiency and assigned-label projection remain separate. The current withdrawal and simplified-model qualifications should be retained; no replacement candidate is introduced. The record discloses prior execution-report exposure for the affected A23 assertion rather than counting it as a blind result.
 
 This is reciprocal evidence for the 02A/02B relationship behind proposal 100. It does not yet settle the broader current-semantic transfer or all runtime/fixture consumers. Proposal 100 remains pending its stated reconciliation and named GO; old source contracts and all original evidence stay intact. Full Foundation/00K integration and the corpus plan remain incomplete.
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 100
+
+Current02A overattributes a deterministic surjective normalizer to current02B, whose theorem is nonempty set-valued relative closure. Full downstream/semantic-transfer reconciliation remains pending.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Literal and attribution defect confirmed; downstream A19/A21/00K and semantic transfer still unresolved, no global proof repair clearance.
+
+**Source:** [research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md), blob `06e12884ecbcff9df820d087e5b727bf4a18adab`. Dependencies: retain original and material historic variants unchanged in their existing provenance routes; complete downstream A19/A21/00K receivers and current semantic-transfer judgement before final owner/integration mapping; Ivan named wave/passages GO required before any incorporation
+
+**Text before — complete current passage (1).**
+
+``````text
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a relative syntactic-closure argument and an explicit mapping of the declared control surfaces to one or more P1–P6 normal forms. Its theorem uses the source grammar stated there; transfer to the current A/B/C/D meanings requires a separate semantic check.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).

@@ -304,3 +304,54 @@ The script validates its own freeze and pinned original source blobs, uses fresh
 **Dependencies:** The other completion-edition pair; historical feasibility package and active current reports/study records.
 
 **Iván’s instruction/decision:** Ivan names this exact completion wave; retain every other byte and frozen manifest; refresh current source before applying. Pending; not applied. All other source bytes must remain unchanged.
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 98
+
+Dated release manifest and current active documentation are different epochs. Direct raw-byte checks recorded separately; preserve original manifest and avoid regrading original results.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md), blob `990872beae2f632515ee81a4dba36b16b8ad7f9c`. Dependencies: The other completion-edition pair; historical feasibility package and active current reports/study records.
+
+**Text before — complete current passage (1).**
+
+``````text
+Version0.1 · 6 October2026 · current audited study edition.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+Version0.1 · 6 October2026 · original scoped completion edition, with later current-reading additions in the linked reports. The dated coverage and release manifest describe the preserved 6 October package; each report links its current study record and prospective diagnostic successors. The original results are retained and are not regraded.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+### Existing candidate 99
+
+Dated release manifest and current active documentation are different epochs. Direct raw-byte checks recorded separately; preserve original manifest and avoid regrading original results.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md), blob `990872beae2f632515ee81a4dba36b16b8ad7f9c`. Dependencies: The other completion-edition pair; historical feasibility package and active current reports/study records.
+
+**Text before — complete current passage (1).**
+
+``````text
+The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins this edition and the untouched source corpus.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins the preserved 6 October feasibility edition and its untouched source corpus. It does not certify the later documentation additions in the active extensions README, reports or VNext; their current study records identify the relevant successor evidence.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).

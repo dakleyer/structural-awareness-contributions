@@ -2314,3 +2314,37 @@ Iván asks a different reviewer to verify the strategy and all prior agents’ c
 This first account was recorded before the prior strategy and damage plans were opened. Comparative review is now in progress, with attributed source checks of case/EP/requirements and DDS/R01/oracle plans. The unified plan must distinguish useful missing information, valid correction, an existing receiver, historical support and unresolved evidence. It must specify complete old/proposed text, exact sources and destinations, dependencies, impact/risk/effort and verification for each proposed wave. Restoring an older formulation solely because it disappeared is not the method.
 
 This publication adds review text only. The first account is not a completed unified plan, exhaustive corpus audit or source-adoption decision. Originals and existing owners remain unchanged; any incorporation waits for Iván’s named passage/wave GO.
+
+
+## DDS unified restoration plan 15 October 2026
+
+The independent re-audit retains the current presentation strategy and one maintained corpus. Recovery follows the useful information and its actual receiver, rather than a missing-string count. Current HC/HS, common metrics and important S6 meanings already have receivers; the complete case-specific recurrence/selection/run contract and source-edition custody still need binding.
+
+The plan orders narrow reader corrections, contract/proof/capacity reconciliation, full case and asset reception, the maintained research bridge, and finally the official UC-21 entry/PDF. Existing corrections and contrary comparator evidence remain in place. It nominates receivers, records incomplete evidence and gives literal pairs where preparation supports them. It creates no extra README level or VNext owner.
+
+[Read the full unified restoration plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026). Its work-package decisions and complete literal proposals govern the next preparation; source incorporation requires a named decision by Iván. The present EP source and development strategy remain unchanged.
+
+
+### Existing candidate 97
+
+Current EP ends at the exact old paragraph; S10 working successor exists with action-time binding and distinct frozen-predecessor status. Addition must remain at EOF.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/architectural-contributions/ecosystem-positioning/README.md), blob `9767ec8efb7d3a2875866ea3cd22ebc94882e930`. Dependencies: Requirements working successor, baseline approved-successor route, DOCUMENT_CONTROL§26 and existing Requirements application#16.
+
+**Text before — complete current passage (1).**
+
+``````text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+
+For current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).

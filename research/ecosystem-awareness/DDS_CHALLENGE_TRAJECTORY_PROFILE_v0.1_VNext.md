@@ -5514,3 +5514,1720 @@ The above is my first source-based strategy baseline. Phase B comparisons may re
 ### Comparative work now in progress
 
 The first strategic judgement is sealed. The reviewer is now reading the preceding strategy and all available plan families, checking their sources and recipients, with two separately attributed corroborating source reviewers. The required deliverable is one detailed unified plan: disposition of every earlier recommendation, actual useful gaps, complete literal pairs where justified, present owners, small dependent waves, impact/risk/effort and third-party acceptance checks. No unified plan or restored corpus is declared complete by this preliminary publication.
+
+
+## Unified restoration plan 15 October 2026
+
+The current DDS strategy is retained: **UC-21 → objectives → Challenges → DDS → campaigns → results → the selected case objective**. The unified plan below reconciles earlier restoration recommendations with current receivers and legitimate corrections. It separates useful reinsertion, complete source custody, relinking, historical preservation and work that lacks sufficient evidence for adoption.
+
+The principal reviewer sealed a source-first strategy judgement before reading the previous strategy and damage plans. Two attributed supporting reviews were then compared, including their disagreements and remaining coverage limits. The consolidation corrects the G-A13 paraphrase attribution and the claim-selection locator: the relevant Method Index table is in §13. Earlier reports remain unchanged.
+
+The common work order is **Primera** for W01 and preparation of W02/W03/W06; **Siguiente** for W04/W05/W07/W08/W09 once their receiving contracts are established; **Después** for W10 after material source reception. Narrow pairs already prepared under W01 can be considered independently. This order distinguishes execution priority from the importance ratings retained in the independent audit tables; every source wave retains its own decision gate.
+
+Read the executive decisions and work packages first; the detailed catalogue retains complete current-before/proposed-after passages, owners, dependencies, impact, risk, effort and acceptance checks. Existing proposal IDs and applied states are retained. Case-content integration precedes proposals91/92 and the official UC-21/PDF update. This publication adopts the audit and plan as review material; source restoration awaits Iván's named wave/passage decision.
+
+<details>
+<summary>Complete independent comparative audit and unified restoration plan</summary>
+
+# Unified restoration and reinsertion plan
+
+15 October 2026. Documentary comparative audit and proposed restoration work; no automatic execution.
+
+| Decision package | Recommended decision now | Existing preparation owner | Readiness / dependency | Priority · impact · risk · effort |
+|---|---|---|---|---|
+| W01 evidence errata and narrow corrections | Accept the dated audit corrections; consider exact pairs separately | DDS / respective current VNext | Eleven complete pairs below;93 held;94/95/97 each once | Alto · Alto · Bajo · Bajo |
+| W02 HR / claim selection | Prepare a complete UC21-specific receiving contract in existing Index §13 | Existing DDS VNext | Material reception required before 91/92 | Alto · Alto · Medio · Medio |
+| W03 run/evidence contract | Bind 18fields,9groups,6trace columns and 3conclusions to a selected actual card | Existing DDS VNext + chosen campaign owner | Precise preparation packet; no invented ready payload | Alto · Alto · Medio · Alto |
+| W04 neutral S6 / retired alias | Preserve full editions; select useful distinct controls/denominators | Existing baseline VNext | Narrow 94 ready for decision; full custody/profile payload pending | Alto · Alto · Medio · Alto |
+| W05 capacity/proof/time | Prefer qualified 93; finish actual consumer/proof binding | Existing 01K and A01 VNext | Text prepared; receiver qualification pending | Alto · Alto · Medio · Alto |
+| W06 history/media/protected changes | Work in logical source batches; authenticate GO and media meaning | Existing source VNext, coordinated in DDS | Source frontier remains explicit | Alto · Alto · Alto · Alto |
+| W07 generic diagnostic instrument | Prepare scoped successor duties, reuseHF only where applicable | Existing DDS VNext | No generic admission or compulsory scheduler/backend | Alto · Alto · Medio · Alto |
+| W08 R01/oracle | Retain corrected mathematics and applied text; resolve epochs and pending engineering | Existing protocol/HEW/completion/oracle VNext |98/99 narrow; native science open | Alto · Alto · Medio · Alto |
+| W09 six seals | Accept bounded corrections; retain premise/source checks | Six existing semantic owners | Seals authenticate records, not complete cohorts | Medio · Alto · Medio · Alto |
+| W10 source route then official entry | Keep91/92 held; officialIssue/PDF last | Existing DDS/EP and official owner | After actual W02/03/04/06 reception | Alto · Alto · Alto · Alto |
+
+**Independent verdict:** retain the working DDS strategy and the human-approved UC21→objectives→Challenges→DDS→campaigns→results spine. Correct specific evidence, reception and edition defects; reject wholesale rollback, migration by counts, automatic equivalence and restoration of repaired scientific errors. The one maintained corpus is `dakleyer/structural-awareness-contributions`; `dakleyer/use-cases` supplies secondary full editions/history.
+
+This delivery completes comparative plan consolidation for the available prior recommendations and both final support reports. It does not execute restoration, exhaust every source/version/asset, establish scientific results or imply adoption. Exact named Ivan GO is required for each later source change. Original sources, freezes, code, results and binaries remain read-only. The coordinator integrates this substantive audit into existing owning VNext with EP/README consequences; this document creates no additional public review owner.
+
+## 1. Independence gate, sources and own strategy
+
+Reviewer: Codex AI assistant newly assigned in this session, not a claimed different institution or human scientist. Mandatory task/root README reading necessarily exposed root-embedded earlier audit summaries. INITIAL_EXPOSURE.json records that fact. No memory, chats, separate AgentSync, previous strategy/damage report or corroborating reviewer body was opened before saving Phase A. Infrastructure non-injection cannot be independently attested inside this session.
+
+PHASE_A_STRATEGY.md was first sealed at2026-10-15T10:19:48Z, SHA256 `9b286bbfad7b948e632a15a80b589f792b3820336112d30803ade6f3f0042f49`. It remains unchanged. Its selective reading/truncated-output limits are explicit; later corroboration does not alter its sealed judgement. This is this reauditor's strategy gate, separate from the older exhaustive corpus reviewer's unfinished source phase.
+
+The safe publication store has no valid HEAD. Read-only remote-main verification returned Contributions `89273f548f6b5ed8f7e0576040f615b5653ffaf6`, matching the fixed cut. Secondary case main is `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`. Bodies were obtained using ls-tree then cat-file SHA. No dirty-root pull/reset/checkout. Future adoption must refresh head and each affected source; these pins do not promise future freshness.
+
+DDS is coherent as a working bounded research method: A discovers/selects specification against frozen Challenge; B verifies architecture against frozen specification; C validates pinned executable implementation against originating Challenge and observed effects. Stage is object/reference, evidence mode is documentary/mathematical/symbolic/local/native/independently replicated, and Full/Simplified is coverage. Code does not itself imply B/C. A negative or insufficient-evidence result can close a scoped question.
+
+Human route: **UC-21 → objectives → Challenges → DDS → campaigns → results**. Six failure families are Challenges in the case reader, retaining S1–S6 slots. Evaluation scenario means bounded technology/configuration application to Challenge and conditions. Stage A separately records bounded base scenario/reduction and technology mapping; shorthand technology×Challenge must not erase that distinction. DDS remains reusable for other originating cases.
+
+Five UC21 objectives remain distinct: correctness/continuity; existing-control effectiveness; corrected-baseline recurrence; common causal sufficiency; sufficient common response. HC is not temporal necessity. HR requires demonstrated R1 correction and retained adaptation. Case PASS is not a hypothesis conclusion; HC qualification ablation cannot simultaneously be HR with all frozen defences retained. S4 unauthorized aggregate action and silent loss of the wider finding remain separate required outcomes for full-family claims.
+
+Retain semantic owners: EP narrative/append-only strategy; DDS index stage identity/registry; A/B/C respective contracts; DBC Challenge/adjudication;00D comparator/fairness; R01 theorem/local machinery; actual case protocols; campaign/report/instrument frozen inputs/results. Iván decides adoption. Three canonical README levels are EP→Awareness→technical owners. Frozen original package README bytes do not create another maintained level. One cumulative VNext per logical unit; no VNext of VNext.
+
+Published method/organization does not prove scientific utility, product safety, superiority, independence, standards adoption or commissioned delivery. Original source-contained review assertions remain assertions unless independently checked.
+
+## 2. Explicit comparison with preceding organizer
+
+The organizer was opened after the seal. Its substantial narrative, recommendations and subsequent comparisons were read; several combined outputs truncated, so complete line-by-line reading is not claimed. Its cut6e2eca21 differs from this task cut, but principal source blobs independently match: method88b78f, A e636346, B84c9216, C4f9f2f6, strategyf25aef4.
+
+Agreement: bounded development, strong peers, negative evidence, proportional scope, source ownership, custody versus active meaning and corrected successors. My sealed A independently identified the fork-maintained ambiguity and stale Flores preference. Agreement on those same sources does not supply scientific independence or exhaustive preservation proof.
+
+Disagreement/narrowing: optional FG-TIDA application-router nomination must not become a prerequisite or additional mandatory hop; keep selected DDS11 bridge. Organizer later qualifies that nomination as optional/not adopted. W02 now nominates the existing Index §13 UC21 application subsection as the preferred receiving owner; W03 binds its actual selected campaign form, without a duplicate general method or compulsory FG-TIDA hop. Initial draftA overlaps92 passage5 and must merge there. Initial draftB could retrospectively impose reporting duties; its later current/successor wording is preferable. Later92 passage1 repairs actual links/table but does not settle remaining nine units or case integration. Existing damage-control epoch already suspended91/92 despite historical true flags; this review does not newly reopen them.
+
+Source omissions: organizer was representative, not all internal history, binaries, source-specific plans or unique fields. Its stateful52/49, some admission-code observations and source result counts remain attributable claims where not independently read here. Full version/merge/authorization/asset reception cannot be inferred from its coherent strategy.
+
+## 3. Final supporting critiques, critical comparison and dated errata
+
+Both final reports were read in manageable complete sections after this session's sealed Phase A and substantial source/previous-plan reading. The case report is195187bytes, SHA256 `bf4c449da3934e23ed0003885812516098afc269e7375dc62ed5eeb54d1361bc`; the DDS report is227366bytes, SHA256 `d7f0864806cbe6c20b9b35a8fedbb5193c1e984fce3e33e568b34ff306541d95`. File names are `unified_case_plan_verification_2026-10-15.md` and `unified_dds_plan_verification_2026-10-15.md`. Their final identities match the coordinating receipt. These are attributed supporting reviews with disclosed parent/memory/report exposure, not fresh independent scientists or extra seals of this review. I did not personally repeat every history/source operation reported by them.
+
+The case critique materially improves v1: active Protocol0.3/Requirements receive HC/HS/S4 and common measurement duties; the missing combined HR/H13/E6/form binding remains specific. I accept its full-edition versus active-meaning distinction,30S6 gate cells/twelve metric meanings as attributed corroboration, and its correction that the retired00J has useful distinct denominators. I independently read selected actual HR/H13/E6/current protocol receivers before corroboration. I reject treating those table checks as exhaustive semantic or rendered-media review. W02/03 now choose a concrete preferred owner instead of repeating its open placement question. That nomination is this reauditor's proposal, not a reported agreement or adoption.
+
+The DDS critique materially improves v1 on generic instrument duties versusHF, service demand versus joint timing proof, R01 epochs and already-applied oracle text. I accept its qualified successor treatment of93 and retention of H2/q/ACK corrections; I do not import every instrument ambition as a compulsory general DDS prerequisite. Its UNCERTAIN section inventories remain a source frontier. I retain its explicit separation of static verification, admission and native results. Both support reports preserve unclosed cohorts; neither supplies a whole-corpus PASS.
+
+**Rating disagreement resolved:** case review rates94/95 narrowlyBajo while DDS review gives broader propagation riskMedio. This plan rates the single-line94, namespace95 and link97 changes riskBajo/effortBajo after the directly checked origins/context. Broader S6, namespace adapter and recipient work remainsMedio/Alto in W03/04. For93 I accept the DDS qualification, not a restoration of an allegedly sufficient isolated HumanTime inequality. Applied77–82/#16 and oracle deltas are retained; stale pending captions do not reopen them.
+
+### Audit erratum EA-2026-10-15-01 — G-A13 evidence quotation
+
+`second_pass_gate_capacity.json /gate_crosswalk/G-A13/current_quote` presents `Is review finite and does timeout/default itself remain a qualified response?` as a current quote. Direct cat-file reading finds **zero literal occurrences in both** diagnosticv0.1 blob`55b052da6450592bb6cf02174daaf6fa10c82404` andv0.2 blob`dacce9580af70cf883ff0a6b36c68850fd08390a`. It is a paraphrase. The authentic earlier property in draft blob`4a786e778bf16a286c1abe7dccf502804c90c20b`, line218, is:
+
+> **Property:** the specification requires a bounded evidence/review/decision process relative to a useful response horizon and declares what happens when sufficiency cannot be reached in time.
+
+The actual receivers in both current diagnostic editions are line108 SA-G08 and line111 SA-G11:
+
+> Are response horizons finite and are silence, delay, timeout, stale approval or expiry handled without creating permission by default?
+
+> Does the candidate define the smallest reviewable hold/requalification/continuation boundary rather than all-or-nothing control?
+
+The old bounded-horizon/default meaning is partially received across these two clauses. Zero occurrence of the paraphrase does **not** demonstrate absence of reception. CurrentSA-G13 concerns execution/compliance ownership; it is not oldG-A13 by ordinal identity. Full process/instrument/useful-horizon bindings remain W05/W07. Retain the earlier report unchanged; append this dated correction to its existing DDS review record.
+
+### Audit erratum EA-2026-10-15-02 — case receiver locator
+
+The final case critique repeatedly locates claim/route selection and correctedR1 retained inR2 at Method Index §10. Direct authentication of Index blob`88b78f386047a76e0e2da905bd951ada06e5602b` shows §10 is **Migration and preservation status**; the actual claim/route selection owner is **§13 Select an exercise and keep its comparison dimensions explicit**, with the entry route in§11. Its substantive partial-reception finding remains valid; correct the locator without declaring the receiver absent. Support report bytes remain unchanged.
+
+## 4. Recommendation-level adjudication and author/version coverage
+
+The following decisions are mine. Tables labelled corroborating use the final reviewers' actual recommendation matrices as attributed evidence, qualified by the package and acceptance columns added here. Copying a record creates no new audit. Earlier author identity remains as recorded in the JSON; Git authorship does not establish operator identity. Prepared copies/readback receipts are custody only. One logical item may have several aliases.
+
+| Item | Decision | Reason |
+|---|---|---|
+| DC00 | maintained | Verified89273f baseline, predecessor/allowlist and actual adoption boundary. |
+| DC01 | revised | Preserve authentic complete case editions, deduplicate exact bytes with full instance provenance.162 objects are inventory, not162 losses or new maintained files. |
+| DC02 | revised | Current DOCX already receives HC/HS/S4. Reinsertion concerns HR/H13/E6/form/admission case bridges; no duplicate theory authority. |
+| DC03 | revised | Preserve full neutral S6 history and useful deltas.94 verified; do not claim old S6 had literal R1/R2 ladder or every metric vanished. |
+| DC04 | maintained | Original assets/JSON namespaces and peer-result meaning required. Complete visual/adapter mapping still unresolved. |
+| DC05 | revised | OldG-A text stays full review custody. No old hard dependency/PASSES_IF/automaticFAIL restoration; generic current freeze/mutation/reviewer/report reception needs actual manifest evidence. |
+| DC06 | revised |93 qualified service-demand/proof-class alternative; A01 already models capacity. No demonstrated runtime failure. |
+| DC07 | maintained | Exact original-language binaries/media/notes/parts; rendered-package review remains open. No reconstruction or current correction rollback. |
+| DC08 | revised |620/8749 remain detection frontier. Prioritize material meaning, internal intermediate/merge history and actual EP GO, not counts. |
+| DC09 | maintained | UC20 distinct, tooling inert historical support. No live workflow/import or66-design execution. |
+| DC10 | revised | All ten92 pairs/current targets/content must be reconciled. Historical manifest unchanged; temporary working bridge is not completed integration. |
+| DC11 | maintained | OfficialUC21/Issue/PDF last after source integration and named owner decisions. Stale timestamp is not current body. |
+| DC12 | maintained | Wave-specific independent documentary verification. No seal/PASS closes unread source cohorts. |
+
+| Family / attributed version | Unified decision and reason | Package |
+|---|---|---|
+| Organizer15Oct; DDS andEP currentVNext | Own sealed comparison in§2; revised placement inW02; agree stage/evidence/owner separation; reject compulsoryFGTIDArouter and retrospective draftB duties. | W02/W10 |
+| Initial closure83–90; direct91–92 | 83–90 historical/superseded operation.91/92 remain held; all ten92 preparations retained. Later92passage1 replaces only earlier1; organizerdraftA merges92passage5. | W10 |
+| Twenty-annex13Oct / full_fork14Oct / literal14Oct | Maintain custody/accountability; reject20missing-annexes and unmatched=useful-loss inferences. Fifteen counterparts differ from case compilations; distinct 162objects/620paths/8749units are search scopes, not restoration counts. | W02/W03/W04/W06 |
+| Second-pass public review and queue | Accept bounded triage and actual receiver discipline;85queue rows are dependency/source leads. Do not promote partial assigned cohorts to global review. | W06/W08 |
+| Case_clause_forensics ninefindings+fields | Accept/qualify as table below; activecore alreadyreceived, HR/form binding remains; no five-source fork damage established. | W02/W03 |
+| S6 secondpass 10findings+retiredalias | Accept 12meanings/30cells as corroboration; full neutral edition and distinct denominators remain; originalR0rights is not lost routeR1/R2. | W04 |
+| Gate_capacity_adversary14/15/17/capacity | Accept many-to-many, reject numerical matching, correctG-A13; select scoped genericinstrument successor and qualified 93. | W05/W07 |
+| InternalDDS IH01–09,OPEN | Retain current corrections;96alias; whole-method governance and missing exact future deliverable gates remain specific. | W01/W07/W08 |
+| InternalEP/Requirements 11findings,5surgeries | Keep correctedRequirements/HID/currentstrategy. Obtain exact contemporaryGO for protected replacements; absence of retrievedGO is not proof of unauthorised change. | W06 |
+| InternalR01 IR01-01–09,C01/C02/publicextracts | Selected mathematics retained/corrected;98/99epochs; proofs/native/oracle/fullhistory remain unclosed. Repeated publicextracts counted once. | W08 |
+| Thirdreview6sealedfirstjudgements+checkpoint | All6recommendations dispositioned below, zero exhaustive completed cohorts. Checkpoint/continuation limits survive; hashes authenticate custody. | W09 |
+| Priorities1–102 and preparedappliedaliases | Effective source/adoption state outranks stale flags.77–82/#16 not reopened;94/95/97 once;96/IH08,98/99IR01,100–102seals and00Jqualifier once. Unverified historical source science stays explicit. | W01/W08/W10 |
+
+### Case9 and6open — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| S2-CASE-01 | All five assigned originals remain unchanged from aec08fb5 to 724d69f9: one unique direct source payload each, full-read and independently authenticated at both readback locations.<br>MAINTAINED<br>Submitted/current Git tree IDs and independently hashed full cached bytes agree for all five. No restoration of source content within the fork is justified. Complete Contributions custody is a different task.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-02 | Earlier Markdown matching reports HYPOTHESES 7/141 blocks, EVIDENCE 6/26, RECURRENCE 0/34, CONVENTIONS 0/7 and RUN_RECORD 0/5. Complete active DOCX and actual corpus clauses supply receivers omitted from that count.<br>MAINTAINED<br>Exact core DOCX/Requirements receivers authenticate at H. Block-unmatched counts cannot measure semantic loss.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-03 | Current Protocol 0.3 and its reading index preserve HC/HS, both S4 outcomes, static controls, negative findings and bounded refutation. Canonical H1–H6 and the empirical-contrast antecedent remain current accessible bodies.<br>ALREADY_RECEIVED<br>HC/HS and H1–H6 have active current source owners. Current Protocol 0.3 limits causal sufficiency and permits static alternatives; the older necessity inference is superseded.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-04 | No complete current receiving contract was established for HR correction-before-freeze, retained generic adaptation, D_i quantifier/refutation or the unique combined case §13 selection table.<br>MODIFIED<br>Full HR intervention domain, quantifier, exhaustive-vs-sampled refutation and adaptation rules remain source-specific. Current DDS Index §13 [locator corrected by this review] already receives claim selection and baseline-correction route by links; do not describe the entire bridge as absent.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-05 | Protocol §§5,7,9A and current baseline README 350–356 preserve unauthorized action versus silent finding loss. Full-family coverage needs both, while narrower HR may select one.<br>ALREADY_RECEIVED<br>Protocol and baseline active passages preserve unauthorized aggregate action and silent loss separately. A selected one-branch HR outcome does not establish both.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-06 | Canonical §§5–5.2 and working successor preserve common metrics and nine trajectory/stress measures. E.6 and RUN_RECORD add the combined claim/route/factor/admission/correction contract.<br>MODIFIED<br>Common metrics active; DDS Index supplies selected claim/route and actual result questions. Still no demonstrated full compiled 18-field/9-group/current-template equivalence.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-07 | Current 00F §5.1 and 00H §11.1 actively retain all five capability/control evidence states. Canonical preserves core scope/authority distinctions. Case actor/configuration/route aliases still need a qualified DDS bridge.<br>MODIFIED<br>00F §5.1 and 00H §11.1 retain five control states. Current DDS Index already qualifies several namespaces. Additional S6 rights R0 ambiguity is candidate 95; full adapters remain open.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-08 | E.5 calls U an evidence/observation scope; CONVENTIONS and H §8 distinguish bounded representation from active observation window.<br>MAINTAINED<br>E5 intro evidence/observation scope conflicts with Conventions U/window distinction. Clarification is preparatory; original edition must remain unaltered.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| S2-CASE-09 | DC-02 correctly says original Word/requirements do not prove transfer of the complete case compilation, general DDS is insufficient for HR and shared KPIs do not establish the full claim-specific run contract.<br>MODIFIED<br>DC02 remains appropriate as custody/compilation binding. Its general loss interpretation must be narrowed by active DOCX/metrics/Index receivers.<br>Existing DDS/EP/baseline VNext; named source comparison; no source action or experiment. Detailed clause/field receivers follow. | W02 |
+| Choose the maintained existing corpus owner and exact case-to-DDS return route for HR/selection while preserving originals. | MAINTAINED — Select existing maintained owner and exact receiving contract before preparing replacement. | W02 |
+| Complete integration against actual active campaign/run templates. This cohort maps case fields to named generic receivers but does not audit every possible form. | MAINTAINED — Audit actual campaign/run templates field by field; Index pointers are partial reception. | W02 |
+| Complete X1–X7 family admission and S/T consumer review in other cohorts before any all-family/all-profile claim. | MAINTAINED — Leave X1–X7/all-family claims with the assigned family cohort; no borrowed PASS. | W02 |
+| Disposition other 157 fork history objects in their own cohorts; no whole-fork PASS is claimed here. | MAINTAINED — Keep other 157 source-history objects open in their own cohorts; identities alone are not full reviews. | W02 |
+| Any application must use the existing owner VNext and authentic predecessor custody. No candidate was applied. | MAINTAINED — Rebase against H and existingVNext; only later named GO may apply a pair. | W02 |
+| Native execution, six causal/recurrence witnesses, HS end-to-end response sufficiency and independent adjudication remain unestablished. | MAINTAINED — No execution/adjudication evidence was generated; retain all scientific limitations. | W02 |
+
+### HR/H13/Conventions — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| R.2: for every nominated scenario, an admissible change exists after baseline correction | MODIFIED<br>Current DDS Index §13 [locator corrected by this review] names HR and corrected R1 retained in R2. The complete quantifier, nominated implementation and D_i domain still need the maintained case contract.<br>Keep existential and all-six claims distinct. Select the receiving contract before preparing its full literal addition. | W02 |
+| R.3: materiality, observability, equality and feasible response domain | MAINTAINED<br>Current generic context clauses are related. No complete reception of all case-specific intervention fields was demonstrated.<br>Declare materiality independently of the outcome and exclude or qualify impossible-response interventions. | W02 |
+| R.4: correction before freeze; runtime adaptation retained | MODIFIED<br>Current Index and T09/A01 receive the corrected-defender route. Full configuration, resource and adaptation binding remains case-specific.<br>Retain the strongest legitimate defender and its ordinary runtime mechanisms. | W02 |
+| R.6: controls, causal attribution and stochastic design | ALREADY_RECEIVED<br>Protocol §6 and canonical KPI discipline actively receive the generic obligations.<br>Bind those controls to the HR domain and fixed receiving decision; do not duplicate the KPI family. | W02 |
+| R.7: exhaustive negation versus finite sample; successful defences | MAINTAINED<br>The complete case quantifiers and refutation rules remain in Annex R.<br>Retain contrary results and state the declared domain, achieved coverage and uncertainty. | W02 |
+| H §13: case acceptance / HC / HR / HS / H1–H6; A–D factors | MODIFIED<br>Current Index §13 [locator corrected by this review] and Protocol 0.3 partially receive selection and factors. They do not establish full compiled form reception.<br>Return each finding only to the selected claim; candidate 95 does not close the full contract. | W02 |
+| Evidence E.5: U versus observation window | MAINTAINED<br>The authenticated case paragraph is ambiguous against Conventions and H1 definitions.<br>Keep the source edition intact. Select a maintained adaptation before using the proposed clarification. | W02 |
+| Conventions: routes, actors, rights record, factors and failure positions | MODIFIED<br>Current Index already qualifies several labels. Candidate95 adds remaining concrete examples.<br>Apply one namespace clarification only; do not renumber fixtures or treat labels as a runtime API. | W02 |
+
+### Run18 — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| 1 | Run ID, date, tester and independent reviewer<br>RELATED_CORE_PRESERVED<br>ALREADY_RECEIVED<br>protocol; dds<br>Protocol §10 identity/reproduction; reviewer if any means no assumed institutional or external independence.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 2 | Package, protocol, scenario and variant versions<br>PARTLY_INTEGRATED<br>MAINTAINED<br>protocol; dds<br>Protocol §10 and DDS §2.1 version/hash fields supply related entries; complete case-package identity still needs binding.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 3 | Claim: case acceptance / HC / HR / HS / selected H1–H6<br>CASE_SELECTION_OPEN<br>MODIFIED<br>protocol; canonical; dds<br>HC/HS and H1–H6 exist separately. HR and explicit case acceptance are not supplied by a generic Stage A finding. Fresh qualification: current DDS Index §13 [locator corrected by this review] already receives claim/route selection and the corrected R1 retained in R2 by source links.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 4 | Exact claim scope: candidate, family, all-six or all-profile<br>PARTLY_INTEGRATED<br>MAINTAINED<br>protocol; dds<br>Protocol §§2,7,9A preserves bounded quantifiers. All-profile is a distinct scope, not implied by nine documentary profiles.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 5 | S4 outcome: unauthorized action / silent loss / both / not applicable<br>SEMANTICS_ACTIVE_FIELD_BRIDGE_OPEN<br>MAINTAINED<br>protocol; baseline_index<br>Protocol §§5,7,9A and baseline README 350–356 preserve both. Exact run selection is case-specific; one result does not establish both.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 6 | Implementation route: R0 / R1 / R2<br>CASE_ROUTE_OPEN<br>MODIFIED<br>dds<br>DDS I/M/P/Ø does not replace ordinary/reinforced/retained-reinforcement-under-change routes. Fresh qualification: current DDS Index §13 [locator corrected by this review] already receives claim/route selection and the corrected R1 retained in R2 by source links.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 7 | Causal condition A–D or response-component comparison, if applicable<br>FACTORS_ACTIVE_FIELD_BRIDGE_OPEN<br>MAINTAINED<br>protocol<br>Protocol §6 A–D and §9A three response variants provide actual factors. They create no fourth implementation route.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 8 | Candidate/product/model/tool/configuration versions and hashes<br>RELATED_CORE_PRESERVED<br>ALREADY_RECEIVED<br>protocol; dds<br>Protocol §10 provenance and DDS §2.1 version/hash; actual model/API/tool identities remain concrete.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 9 | Receiving decision, owner, grants and governing regime<br>RELATED_CORE_PRESERVED<br>ALREADY_RECEIVED<br>canonical; dds<br>Canonical scope/S1/S8/T2/T3 and DDS handoff preserve boundaries. Recording a grant does not create one.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 10 | Baseline facts, source access, provenance and permitted actions<br>RELATED_CORE_PRESERVED<br>ALREADY_RECEIVED<br>protocol; canonical<br>Protocol §§3,6,10 and canonical §6.2 preserve fixed facts and matched evidence/action libraries.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 11 | Family admission X1–X7 and independent failure predicate<br>ADMISSION_BRIDGE_PENDING_OTHER_COHORT<br>MAINTAINED<br>protocol<br>Protocol requires family admission/independent outcome. Exact local X1–X7 mapping is for the family reviewer; not adjudicated here.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 12 | R1 correction, legitimate-activity controls and frozen safeguards<br>HR_OBLIGATION_OPEN<br>MODIFIED<br>protocol; canonical; dds<br>Generic continuity is related. Nominated corrected R1, retained safeguards/adaptation and correction evidence require Annex R. Fresh qualification: current DDS Index §13 [locator corrected by this review] already receives claim/route selection and the corrected R1 retained in R2 by source links.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 13 | Context fields, change domain, materiality, timing and observable signals<br>PARTLY_INTEGRATED_HR_DOMAIN_OPEN<br>MAINTAINED<br>protocol; canonical<br>Protocol §§2,3,6,10 carries context/timing. HR D_i admission/ranges/equality/observability still must bind.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 14 | Matched unchanged / harmless-change / qualification controls<br>CORE_CONTROLS_ACTIVE_LINK_OPEN<br>MAINTAINED<br>protocol; canonical<br>Protocol §6 preserves the controls; applicability to the selected claim is declared, not completed by form presence.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 15 | Budget, capacity, deadline, fallback and warning/response margins<br>RELATED_CORE_PRESERVED<br>ALREADY_RECEIVED<br>protocol; canonical; dds<br>HS §9A warning margin and canonical T4/H6 preserve these. A named human role is not useful intervention evidence.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 16 | Independent evaluator/oracle and separation from tested system<br>CORE_PRESERVED<br>ALREADY_RECEIVED<br>protocol; diagnostic_F<br>Protocol §6 independent evaluator and 00F oracle separation. This source review is no blind scientific execution.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 17 | Metrics, thresholds, repetitions, pairing/seeds and uncertainty method<br>RELATED_CORE_PRESERVED<br>ALREADY_RECEIVED<br>protocol; canonical<br>Protocol §§2,6,9A and canonical §5 preserve threshold/uncertainty duties; candidate failure is not global refutation.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+| 18 | Raw evidence and reproduction location<br>RELATED_CORE_PRESERVED<br>ALREADY_RECEIVED<br>protocol; dds<br>Protocol §10 and DDS trace basis. Actual complete raw location must be observable, not inferred from a blank field.<br>Select the maintained case/run form; show its complete current field and proposed field. No source change or experiment is authorized. | W03 |
+
+### Evidence9/trace6/conclusions3 — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| E6-1 | Claim and trial design<br>MODIFIED<br>HC/HS and H1–H6 are preserved. HR, acceptance, routes/factors/domains and local family admission still need the case binding.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-2 | Identity and freeze<br>MAINTAINED<br>Identity/provenance/reproduction exists. Exact corrected R1 freeze and assessor if present must be explicit.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-3 | Decision and authority<br>MAINTAINED<br>Grantor/grantee/scope/purpose/expiry/regime and source-of-truth authority; simulated versus real components must be declared.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-4 | Fixture<br>MAINTAINED<br>Facts, lineage/event order/oracle/actions/materiality/freshness/capacity/deadline/stop/fallback have actual source duties.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-5 | R1 correction / R2 intervention<br>MODIFIED<br>Annex R binds correction, retained safeguards/generic adaptation, admitted D_i and no post-outcome engineering.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-6 | Per-gate trace<br>MAINTAINED<br>Diagnostics exist. Bind selected gate/input/version/evidence-at-time/control-presence/result/owner/effect/timestamp and uncertainty.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-7 | Measurements<br>MAINTAINED<br>Supply real numerators/denominators/thresholds/intervals/burden/business effect. Forms or qualitative stories are not rates.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-8 | Hypothesis conclusion<br>MAINTAINED<br>Case FAIL may support admitted causal witness; case PASS establishes no automatic H/HC/HR/HS conclusion. Bind HR separately.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| E6-9 | Conclusion<br>MAINTAINED<br>Scope-specific PASS/FAIL/NOT EVALUABLE/NOT EXERCISED/justified NA, disagreements/defenders/exclusions/reproduction remain distinct.<br>Bind the complete group to the selected claim and actual maintained form. Current Index links are partial reception. | W03 |
+| TRACE-1 | Gate — Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| TRACE-2 | Input/source/version — Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| TRACE-3 | Evidence at decision time — Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| TRACE-4 | Result and reason — Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| TRACE-5 | Owner/action/effect — Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| TRACE-6 | Timestamp — Retain actual time-specific evidence, control diagnostic and effect for the selected gate. A column is not the required evidence.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| CONCLUSION-1 | Implementation outcome — Gate, actual business effect, legitimate continuity, deadline and burden.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| CONCLUSION-2 | Hypothesis conclusion — Selected claim/exact scope/support/limitation/rejected candidate/bounded refutation/not tested/inconclusive, with required evidence.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+| CONCLUSION-3 | Reproduction and disagreements — Rerun, review if present, successful defenders, missing observations and retained objections.<br>MAINTAINED<br>Keep gate evidence, actual action and effect, hypothesis assessment, reproduction and disagreements distinguishable.<br>Copy the selected scenario gate wording; bind the field to observable evidence. A planned or documentary expectation is not an observed result. | W03 |
+
+### S6ten — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| S6-01 | complete edition custody remains open; principal content survives<br>MODIFIED<br>Preserve the full submitted S6 as a case edition. Its principal mechanism is active in 00J; complete edition custody and case context are different questions.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-02 | exact gate content does not settle acceptance ownership<br>MAINTAINED<br>Literal gate equality does not choose the acceptance owner. Case acceptance, canonical conformance and EA differential require a declared run contract.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-03 | R0 namespaces and route obligations are preserved in different locations<br>MODIFIED<br>Reject literal S6 R1/R2 loss. Conventions/T09 retain the ladder and current DDS Index receives corrected R1→R2 by links. The full compiled bridge still needs binding.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-04 | twelve S6 measures remain; exact older-alias denominators are a different issue<br>ALREADY_RECEIVED<br>The twelve S6 measure meanings are retained. Do not restore them in bulk. Older-alias denominators, repair success and scope promotion remain separate questions.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-05 | one source attribution is absent; the mechanism is retained<br>MAINTAINED<br>The specific EUIPO attribution is in old S6 line314 and absent from selected current 00J/A01/T09 bodies. Preserve it as historical source context; verify the official body/date before active evidentiary adoption.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-06 | graphics survive; their embedded reading context changes<br>MODIFIED<br>Preserve original figures and the gate-card subtitle variant. These S6 assets do not demonstrate graphic destruction. Pixel rendering and the whole seventeen-figure family remain unreviewed here.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-07 | T09 and A01 select different research interpretations<br>MAINTAINED<br>T09 generalizes the research interpretation; A01 retains the conditional EA arm and strong-peer falsifier. Preserve successful-defender credit and distinguish both research objects.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-08 | a documented incomplete update predates the S6 reduction<br>MAINTAINED<br>The genuine same-decision update left an introduction residue before the S6 reduction. Candidate94 is a bounded clarification; do not attribute this defect to the reduction operator.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-09 | pre-existing “fails only” wording must not erase Type 1<br>MAINTAINED<br>Shared “fails only” wording is an inherited ambiguity. Preserve Type1, finite horizon and legitimate-activity controls in the evaluator. That finding contains no complete new correction pair.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| S6-10 | later qualified status and negative findings must survive recovery<br>ALREADY_RECEIVED<br>Current 00J §7.4 records strong non-EA parity, no EA differential and no complete C0–C6/product/legal result. A01 remains unexecuted and not W3-admitted. Preserve these negative boundaries.<br>Existing baseline/DDS VNext; exact receiving contract and source comparison. Candidate94 is one edit only. No source adoption here. | W04 |
+| 1 | - Its EUIPO queue is confirmed as an absent specific citation in the selected receivers. The fragmentation mechanism and its negative source bounds remain elsewhere in their evidence tables.<br>MAINTAINED<br>S6-05: verify the specific citation; the fragmentation mechanism is already received. | W04 |
+| 2 | - Damage-plan DC-03 correctly requires the complete submitted edition, current receivers and clause/figure mapping. Restoring the full source as historical custody does not require a second live 00J. Its warning against automatic canonical terminology substitution is supported.<br>MAINTAINED<br>DC03/S6-01: preserve the historical edition; do not create another live 00J. | W04 |
+| 3 | - Damage-plan DC-08's retired 00J alias is a distinct historical source. This review identifies its particulars and rejects byte-duplicate treatment. Full current adoption or global semantic equivalence remains unapproved.<br>MAINTAINED<br>Retired alias: preserve its distinct source and disposition its differences. | W04 |
+| 4 | - and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.<br>ALREADY_RECEIVED<br>This is candidate94 BEFORE text, not another action. | W04 |
+| 5 | - and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.<br>ALREADY_RECEIVED<br>This is candidate94 AFTER text, not another action. | W04 |
+| 6 | - Complete Contributions custody of all exact historical source payloads and case-specific context remains a parent/owner wave decision.<br>MAINTAINED<br>Choose the destination and edition manifest in the existing owner review. | W04 |
+| 7 | - EUIPO official body/date and evidence-freeze role need fresh official readback before active source adoption.<br>MAINTAINED<br>Verify official EUIPO body/date and its evidence-freeze role before active adoption. | W04 |
+| 8 | - The additional alias requires explicit identifier/control/metric disposition, especially J-C5, repair success, material-handoff promotion, source policy and differently scoped denominators.<br>MAINTAINED<br>Resolve J-C5, source policy, metrics and denominators before adoption. | W04 |
+| 9 | - Full current extensibility/A25/success-case/00L-A10/A11/A23 bodies and the wider binary/PNG family were not reviewed completely. No blanket corpus or experimental closure follows from this report.<br>UNCERTAIN<br>Complete A25/00L/A23 bodies and the binary family require their own source/visual/replay coverage. | W04 |
+| 10 | - All optional active pairs require exact current readback and named GO. No restoration or canonical change is performed here.<br>MAINTAINED<br>Revalidate current source and obtain the named decision for any exact pair. Review publication is not application. | W04 |
+
+### Retired00Jdistinct — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| T0: R0/P0 source policy, issuer, effective time and permitted/prohibited uses | MAINTAINED<br>Current rights-frame semantics are related; full field equivalence was not established.<br>Preserve historical policy details; select the current case contract and show its complete receiving clause. | W04 |
+| J-C5: human approval is non-curative | MAINTAINED<br>Current authority rules are related; an explicit named test has not been established as received.<br>Map the old control to a current control and observable outcome; do not invent execution. | W04 |
+| Evidence-scope promotion rate per material handoff | UNCERTAIN<br>Current wrong-domain measures are related; their unit and denominator differ.<br>Compare complete definitions and actual oracle units before choosing a metric. | W04 |
+| Repair success with reconstructable R0/G1/RX history | MAINTAINED<br>Repair/accountability semantics exist; the old explicit rate and ledger reception remain unestablished.<br>Specify repair branch, denominator and current result consumer before any source pair. | W04 |
+| Unsupported licence-demand denominator | UNCERTAIN<br>S6/current 00J use applicable final decisions. The retired alias uses another measurement scope.<br>State observation unit, denominator and branch; do not pool incomparable rates. | W04 |
+| Older sufficiency, comparator ladder and result wording | REJECTED<br>Current A23 and 00J retain contrary limits and negative findings.<br>Preserve the historical edition without restoring all-six or EA-advantage authority. | W04 |
+
+### EP/Requirements11and6open — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| INT-REQ-01 | Frozen Requirements did not acquire post-fork body edits<br>ALREADY_RECEIVED<br>Frozen Requirements remain 4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c; no later source-body damage demonstrated. Follow successor and consumers. | W06 |
+| INT-REQ-02 | H3 falsification correction must survive any restoration<br>REJECTED<br>Do not restore the old H3 falsifier: it reverses the prediction. Preserve history and retain the current no-difference/disappearing-benefit criterion. | W06 |
+| INT-REQ-03 | Approved S10 binding lives in a separate working successor<br>ALREADY_RECEIVED<br>The approved S10 successor and freeze boundary are present. Do not reopen applied #16. Audit actual new-study adoption separately. | W06 |
+| INT-EP-01 | Five protected README replacements require their own authorization record<br>MAINTAINED<br>Five protected replacements are authentic. Exact contemporaneous human GO was not established here. That is not proof that no approval existed; find the human decision and passage mapping. | W06 |
+| INT-EP-02 | Insertion is not the same event as replacement<br>MAINTAINED<br>Insertions and appends differ from replacements. Prefix failure alone is not deleted information. Keep placement authorization separate. | W06 |
+| INT-EP-03 | HIT retirement has an explicit current rejection rationale<br>MODIFIED<br>Current 01K §§14–16 reject HIT as canonical HID units and retain separate runtime capacity. Preserve the early edition; reject rollback of the corrected metric object. Runtime gaps belong to the capacity cohort. | W06 |
+| INT-EP-04 | DDS reclassification preserves comparative obligations<br>ALREADY_RECEIVED<br>Current EP retains matched B0–B3, frozen facts, controls, preregistration, burden and pending independent comparison under DDS support classification. Authorization remains separate. | W06 |
+| INT-EP-05 | Earlier truncation was real and restoration is not a full historical PASS<br>MODIFIED<br>The temporary 75,561→4,139-byte truncation and later 74,814-byte restoration are real. Restored body, changed routes/ranking language and all-media custody are separate facts. | W06 |
+| INT-EP-06 | A23 and transfer prerequisites were strengthened before the fork<br>REJECTED<br>Do not restore stronger all-six A23 sufficiency or unconditional transfer. Preserve BaseGuarantee/X3/X4 prerequisites and P3/P5/P6 limitations. | W06 |
+| INT-DEV-01 | Development strategy has one unchanged body<br>ALREADY_RECEIVED<br>Strategy f25aef42574afa9d321b352b3d2b1e1447575556 is unchanged. Do not manufacture textual damage; reassess stale relationships without granting experiment/contact authority. | W06 |
+| INT-SCOPE-01 | All internal versions are identified; early semantic coverage remains bounded<br>MAINTAINED<br>102 events/100 primary payloads describe provenance, not 100 completed independent semantic audits. Earlier EP deltas, media and outside consumers remain open. | W06 |
+| Find exact contemporaneous human GO/prepared-passages mapping for each of the five protected replacements, or keep authorization unaccredited. | MAINTAINED<br>Find exact human GO and passage mapping for all five surgeries; later 12 October approval is not itself that earlier record. | W06 |
+| Finish semantic dispositions of earlier EP versions not fully read/adjudicated in this cohort; all raw identities and complete diffs are available in the JSON. | MAINTAINED<br>Adjudicate earlier EP semantic deltas, including material merge-parent differences. Identities were checked; semantics remain open. | W06 |
+| Do not treat three current exact historical snapshot destinations as complete history closure; raw Git objects preserve custody but not active applicability. | MAINTAINED<br>Separate full-payload custody, historical excerpts and active meaning. Three snapshots do not close all history. | W06 |
+| Review each actual new-study consumer of the working S10 contract; unchanged frozen consumers are not automatically defects. | MAINTAINED<br>Inventory actual new-study S10 consumers and their registered editions; older frozen contracts are not automatically defects. | W06 |
+| Complete body/part/interface source propagation and media review in assigned cohorts; no layout, native execution or independent validation is inferred here. | UNCERTAIN<br>Complete body/part/interface/media work in the assigned cohorts. No binary-layout or native-execution closure here. | W06 |
+| Any source change stays blocked until Iván named GO; parent publishes only into existing EP/Requirements VNext and DDS plan. | MODIFIED<br>Parent publishes into existing owners and writes AgentSync. This verifier creates only its private report; source changes require the named exact-pair decision. | W06 |
+
+### Fork/literal/annex — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| Full-fork recovery1 / DC01–02 | Preserve H/R/Evidence/Conventions/form obligations<br>MODIFIED<br>Complete five unchanged case sources authenticate; current theory/metrics/Index partially receive them. Preserve the case compilation and close the contract bridge, rather than call all content lost.<br>Destination manifest and exact consumer contract; no duplicate live core theory. | W06 |
+| Full-fork recovery2 / DC03 | Reconcile six scenarios and nine profiles; full S6<br>MODIFIED<br>Fresh S6 controls/metrics survive. Complete case edition and current interpretation differ. Other S/T scopes are not complete by this S6 result.<br>Source-specific clause/figure/result map for every remaining S/T pair. | W06 |
+| Full-fork recovery3 / DC04 | Preserve adapted artwork and four fixtures<br>MAINTAINED<br>Case labels and peer interpretations can materially differ. Source bytes alone do not establish rendered semantics.<br>Full field/schema/consumer map and visual review in assigned asset cohort. | W06 |
+| Full-fork recovery4 / DC09 | Keep UC20 separate with full dossier/designs/assets<br>UNCERTAIN<br>Correct case-separation rule; complete source cohort was not freshly read here.<br>Exact branch/source custody and reader-route review before importing or claiming completeness. | W06 |
+| Full-fork recovery5 / DC09 | Upstream tooling/support as inert terminal custody<br>MAINTAINED<br>Authentic upstream infrastructure is not DDS research authority. No active workflow import is justified by preservation.<br>Verify all source payloads/provenance and keep executable locations inactive. | W06 |
+| Full-fork manifest / DC10 | Preserve47-entry historical SHA256SUMS<br>MAINTAINED<br>Earlier mismatches and unmatched USE_CASE digest remain author-identified exceptions; not re-certified here.<br>Independent manifest replay must settle each listed edition; never regenerate old certification to conceal mismatch. | W06 |
+| Full-fork239-link check / DC10 | Retain all routes and do full navigation checks<br>MAINTAINED<br>239 existing relative targets do not prove fragment, remote, semantic or migration completeness.<br>Dated route/anchor/semantic check and explicit unavailable targets, after approved content destinations. | W06 |
+| Literal comparison6382 unmatched / DC08 | Classify unmatched units before restoring<br>MAINTAINED<br>Exact matching is a detection method, not a count of destroyed facts. The reviewed active receivers and corrections reproduce counterexamples.<br>Complete old/current applicable clauses per source; each unresolved unit remains a real queue item. | W06 |
+| Literal DDS columns | Do not call reduced table discarded dimensions<br>ALREADY_RECEIVED<br>Current Method Index §8 retains Cost/Risk/Effectiveness/Acceptance/BV/evidence roles.<br>No wholesale table rollback; any demonstrated row-level change receives its own clause decision. | W06 |
+| Literal 01K formulas /93 | Preserve formulas and examine HumanTime condition<br>MODIFIED<br>Earlier five-formula claim concerns its actual edition; earliest HIT formulas have an explicit current correction. The compact runtime question remains capacity-cohort work.<br>Exact version and current component/consumer compatibility; no metric-object rollback. | W05 |
+| Literal legacy Stage A | Retain full draft and crosswalk obligations<br>MAINTAINED<br>Complete draft is already quoted in current DDS VNext. Active transfer is not established by custody.<br>Gate cohort must adjudicate14 old gates/17 sections; no competing active spec. | W06 |
+| Literal applied-review retirement | Do not revive incorporated fiches<br>MAINTAINED<br>Applied77–82 and approved#16 are distinct from pending 91–99. Retired proposals remain history, not pending sources.<br>Use application commit/readback and named approval; do not infer application from a review title. | W06 |
+| Literal EP middle replacements | Separate custody/authorization from correction<br>MAINTAINED<br>Five actual surgeries are reproduced above. Permission remains unaccredited in inspected evidence; some substantive corrections are supported.<br>Exact contemporaneous decision mapping; no automatic reversion. | W06 |
+| Annex 15 source counterparts | Reuse actual source owners<br>MODIFIED<br>Real00E–00J/profile owners and original hypotheses already exist. Same counterpart does not prove the entire compiled case edition is received.<br>No second maintained copy of all twenty annexes; source-specific delta and owner decisions. | W06 |
+| Annex H§13/R/X/E6/N | Preserve compilation, admission, recording and dated neighbour-case bounds<br>MODIFIED<br>H§13/R/E6 are verified case needs; DDS Index already gives partial reader reception. X and N need their actual assigned comparison.<br>Complete actual admission and neighbour-case source reads; no generic pointer or source-name equivalence. | W06 |
+| Annex S3 vs S6 | Do not equate notice addition with reduction<br>MAINTAINED<br>Prior histories distinguish S3 notice addition from S6 pointer replacement. This pass did not independently reread S3 complete history.<br>Verify the named full S3 old/new payload before a source-specific final completeness claim. | W06 |
+
+### DDS/R01findings — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| IH-01 | Early math repair, no lost formula<br>REJECT old broken syntax; correction ALREADY_RECEIVED<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IH-02 | Whole-method version-policy ownership needs current governance receiver before an edit<br>MODIFY / PENDING whole-method revision ownership<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IH-03 | Trajectory gates were wrongly called stages, then corrected internally<br>ALREADY_RECEIVED stage / trajectory-gate repair<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IH-04 | Two internal A phases retain material duties; do not recreate two method stages<br>Header ALREADY_RECEIVED; legacy body-label clarification PENDING<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IH-05 | Six M admission conditions and distinct type denominators remain<br>MAINTAIN current M/type prerequisites; consumers PENDING<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IH-06 | Hidden optimum and accessible-information lower bound are distinct<br>MAINTAIN hidden / accessible-bound distinction; consumers PENDING<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IH-07 | Virtual core, finite companion and future/native deliverables need named-version reading<br>MODIFY / PENDING exact missing harness deliverable<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IH-08 | Earlier preferred UC17/P0-P3 framing survives later internal R2-freeze-R3 direction<br>MAINTAIN pending96 stale Flores correction<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W01 |
+| IH-09 | Both source parents checked; banner admitted once, not scientific authority<br>ALREADY_RECEIVED one merge edition<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W08 |
+| IR01-01 | Primary mathematical contracts survived the internal move and method conversion<br>MAINTAIN selected-clause preservation; entire proof history UNCERTAIN<br>extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md; extensions/HUMAN_ESCALATION_WHISPERING_VNext.md | W08 |
+| IR01-02 | H2 independence iff was legitimately corrected<br>REJECT old iff restoration; correction ALREADY_RECEIVED<br>extensions/HUMAN_ESCALATION_WHISPERING_VNext.md | W08 |
+| IR01-03 | Stage A routing is a bounded method conversion, not native promotion<br>ALREADY_RECEIVED scoped Stage A conversion<br>extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md; extensions/HUMAN_ESCALATION_WHISPERING_VNext.md; extensions/dds-study-completion-v0.1/README_VNext.md; DDS existing owner | W08 |
+| IR01-04 | Historical and active entry points still require explicit owner/epoch reconciliation<br>MAINTAIN / PENDING exact entry epoch<br>extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md; extensions/HUMAN_ESCALATION_WHISPERING_VNext.md; extensions/dds-study-completion-v0.1/README_VNext.md; R01 existing README owner if entry link is changed | W08 |
+| IR01-05 | Release Manifest certifies the historical edition, not every current active document<br>MAINTAIN / PENDING98/99; fresh17/11 check<br>extensions/dds-study-completion-v0.1/README_VNext.md | W08 |
+| IR01-06 | Original and later diagnostic denominators remain distinct and received<br>MAINTAIN epoch / denominator protection; full causal ledger UNCERTAIN<br>extensions/dds-study-completion-v0.1/README_VNext.md; extensions/HUMAN_ESCALATION_WHISPERING_VNext.md | W08 |
+| IR01-07 | q and ACK calendars were corrected without loss of the analytical contract<br>ALREADY_RECEIVED q / ACK corrections<br>extensions/HUMAN_ESCALATION_WHISPERING_VNext.md; extensions/dds-study-completion-v0.1/README_VNext.md | W08 |
+| IR01-08 | Oracle robustness and return claims are explicitly narrower than earlier documentary checks<br>MODIFY / PENDING independent static oracle / code verification<br>extensions/dds-study-completion-v0.1/README_VNext.md; DDS existing owner | W08 |
+| IR01-09 | Applied review plans remain historical; byte-different aliases do not prove divergent science<br>ALREADY_RECEIVED review custody; intermediary chronology UNCERTAIN<br>extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md; extensions/HUMAN_ESCALATION_WHISPERING_VNext.md; extensions/dds-study-completion-v0.1/README_VNext.md | W08 |
+
+### Sixseals — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| 00M_BRANCH_FINITE_TERMINATION_CORRECTION | sealed\20261014T204510Z_00M_branch_finite_termination.md; SHA256 897da242f2621fb356a57abddd23e1881afa25028f7a8e3391d88876c15c29e9<br>MAINTAIN correction; no active edit<br>Finite termination does not prove a useful deadline; the three branch commits are not main ancestors.<br>research/ecosystem-awareness/baseline/00M_VNext.md | W09 |
+| 02A_CURRENT_CLAIM_TO_02B_SET_NORMAL_FORMS | sealed\20261014T205756Z_02A_current_claim_02B.md; SHA256 5cf886a301403b4fb6b8829ffa56457dc4c56e84cba9e3e2ee5863e70ee702d2<br>MAINTAIN pending100<br>Correct02A attribution against current02B; actual downstream scope remains pending.<br>research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md | W09 |
+| INPUT_CONTRACT_CURRENT_MARKDOWN_CUSTODY_STATUS | sealed\20261014T211932Z_input_contract_custody.md; SHA256 aa0863e21b4907d6e69855f62a1b443eeaaec11ffd377f9e1768b15abe624665<br>MAINTAIN pending101/102<br>Clarify edition custody; no B/C rollback or Word-rendering certification.<br>research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W09 |
+| 00K_RELATIVE_PROOF_AND_MODEL_CORRECTION_BOUNDARIES | sealed\20261014T212738Z_00K_relative_boundaries.md; SHA256 e72a04a1e41ebac48a02e2431cc27c9292afb06a83d3dfd4846159b659aad5e0<br>MAINTAIN no-restoration; wider proof UNCERTAIN<br>Three judgements: keep the A23 withdrawal; keep A19/A21/A23/A24 distinct; A22 counting remains conditional on the missing A20 bridge.<br>research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md | W09 |
+| 00J_SUCCESS_TRANSFER_CONDITIONAL_PREMISES | sealed\20261015T081049Z_00J_success_transfer.md; SHA256 b8c520487d135ca58ec2ac01ad7246192bf9162712e88e5fad21b8170b6a2958<br>MAINTAIN pending00J qualifier<br>Require the full-route guarantee, reflection, conformance and positive controls. Wider actual receivers remain pending.<br>research/ecosystem-awareness/baseline/README_VNext.md | W09 |
+| DDS_STAGE_AND_PANO_REGIME_CORRECTION | sealed\20261015T081911Z_DDS_PANO_preservation.md; SHA256 21a96e40214fc024a53bb42bdda0842d2db09496f9711013feaba202841a82ba<br>MAINTAIN PANO correction and DDS boundaries<br>Two judgements: same-Q5 resolver change differs from question change; keep stage, reference and evidence mode distinct.<br>research/ecosystem-awareness/baseline/README_VNext.md + DDSV | W09 |
+
+### Gate14/reverse15/17sections — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| G-A01 | the specification binds each material decision to an explicit subject, scope, owner/principal or declared decision domain, rather than allowing the newest context to silently redefine the decision.<br>SA-G00; SA-G07; SA-G09<br>Are the decision, action/alternative, affected resource/domain, current task/mission, owner and null/fallback boundary explicit enough to adjudicate?<br>MAINTAIN adapted clause reception; scope binding received; recency-driven rebinding distributed, not exact rename; generic actual-case coverage PENDING | W07 |
+| G-A02 | authority must identify origin, subject, purpose/action, scope/domain, standing and applicability. Authority over one participant or mission must not silently become authority over a different resource/domain.<br>SA-G03; SA-G04; SA-G05; HF §7 F-A<br>Is authority evaluated for the concrete action/resource/purpose at the relevant commitment/action time, including expiry/revocation/current applicability?<br>MAINTAIN adapted clause reception; strong split reception; origin/standing via root/applicability, not every word in G04; generic actual-case coverage PENDING | W07 |
+| G-A03 | the specification distinguishes asserted identity, authenticated identity, represented principal/role and current representation relationship. Self-description or behavioural similarity cannot establish the required identity/authority relation.<br>SA-G03; SA-G04; HF F-C/BR-07<br>Does the candidate distinguish self-asserted identity, authenticated message/key, represented role/principal and independently established trust/delegation root?<br>MAINTAIN adapted clause reception; core root distinction received; behavioural similarity/current relationship not all literal in G03; generic actual-case coverage PENDING | W07 |
+| G-A04 | the specification requires a declared observation/coverage boundary and distinguishes material decision-basis change from ordinary variation inside that boundary.<br>SA-G01; SA-G07; HF Q1/BR-05/BR-11<br>Does the candidate declare what can be known/observed, from which sources, at what time/freshness, and where indistinguishability remains?<br>MAINTAIN adapted clause reception; generic observation/requalification split; ordinary-variation explicit HF only in examined recipients; generic actual-case coverage PENDING | W07 |
+| G-A05 | evidence is tied to the proposition/decision it actually supports, with sufficiency/insufficiency/inconclusive state explicit.<br>SA-G00; SA-G02; SA-G06; SA-G14; HF §5/Q2/BR-04<br>Are evidence source, provenance and the distinction among intent/command/action/effect sufficiently preserved to avoid self-report becoming outcome truth?<br>MAINTAIN adapted clause reception; partial distributed reception; provenance/reconstruction not sufficient evidence-to-proposition entailment; generic actual-case coverage PENDING | W07 |
+| G-A06 | missing, stale, conflicting or unavailable qualification remains explicit and cannot silently become permission.<br>SA-G06; SA-G01; SA-G08<br>Is UNKNOWN/conflict/insufficiency preserved without silently becoming permission, success or a universal veto?<br>MAINTAIN adapted clause reception; received and strengthened; current independent gate should retain independent adjudicability; generic actual-case coverage PENDING | W07 |
+| G-A07 | repeated, imitated, correlated or population-level agreement cannot silently substitute for an independently required authority, policy or evidence dimension.<br>SA-G05; HF Q2/ABL-04<br>Can evidence, authority, approval, population convergence or a grant from one owner/domain silently substitute for another owner/domain?<br>MAINTAIN adapted clause reception; generic owner/domain substitution received; repetition/correlation dependence requires own cases; generic actual-case coverage PENDING | W07 |
+| G-A08 | a new objective, scorer utility, peer utility or lower-priority preference cannot silently overwrite a principal-owned hard limit or declared mission boundary.<br>SA-G09; SA-G04; SA-G05; HF Q9<br>Can scorer utility, local reward, collective benefit, peer pressure or another objective silently displace a known mandate/hard boundary?<br>MAINTAIN adapted clause reception; received; qualification must not be promoted into enforcement; generic actual-case coverage PENDING | W07 |
+| G-A09 | previously valid authority/policy is rechecked where material at commitment/action time; expiry/revocation is respected; silence, delay or timeout is not permission unless explicitly defined as an authorized response.<br>SA-G04; SA-G08; HF B-B/B-C<br>Are response horizons finite and are silence, delay, timeout, stale approval or expiry handled without creating permission by default?<br>MAINTAIN adapted clause reception; received default/currentness; old externally authorized response exception profile-specific, no arbitrary consent; generic actual-case coverage PENDING | W07 |
+| G-A10 | later behaviour, intervention or repair cannot retroactively rewrite the identity, authority, policy or evidence that applied at the earlier decision.<br>SA-G10; SA-G14; HF BR-13/M-09<br>Can later behavior/effect, repeated success or repaired state rewrite whether the earlier action was authorized/conforming?<br>MAINTAIN adapted clause reception; legitimacy received; full immutable identity/policy/evidence history not identical wording; generic actual-case coverage PENDING | W07 |
+| G-A11 | the specification can distinguish the affected transition from unaffected legitimate operation; unresolved state is neither automatic global permission nor automatic global veto.<br>SA-G06; SA-G11; SA-G12; HF BR-10/M-01<br>Does the candidate define the smallest reviewable hold/requalification/continuation boundary rather than all-or-nothing control?<br>MAINTAIN adapted clause reception; received across boundedness/unknown/positive controls; no runtime containment proof; generic actual-case coverage PENDING | W07 |
+| G-A12 | when the relevant change and required authority are genuinely established, the specification permits a legitimate transition instead of freezing the old state forever.<br>SA-G12; SA-G04; SA-G07; CLAIM-VALID-CONTINUITY; HF BR-02/BR-15<br>When all relevant conditions are established, can legitimate work continue/change without a blanket default-deny solution winning the test?<br>MAINTAIN adapted clause reception; received via typed claims and positive cases; generic actual-case coverage PENDING | W07 |
+| G-A13 | the specification requires a bounded evidence/review/decision process relative to a useful response horizon and declares what happens when sufficiency cannot be reached in time.<br>SA-G08; SA-G11; HF Q8/ABL-09<br>Are response horizons finite and are silence, delay, timeout, stale approval or expiry handled without creating permission by default? [SA-G08line108]; Does the candidate define the smallest reviewable hold/requalification/continuation boundary rather than all-or-nothing control? [SA-G11line111]<br>MODIFY quotation evidence; finite/default received; timeout disposition frozen per profile; old A13 is not current G13; generic actual-case coverage PENDING | W07 |
+| G-A14 | the specification states when a self-produced trace, log, identity claim or result is insufficient as sole evidence and what qualification/independence is required for a material decision.<br>SA-G02; SA-G03; SA-G14; HF F-B/F-C/M-07<br>Can an independent reviewer reconstruct the material basis, unresolved facts, source/owner boundaries and resulting disposition without private chain-of-thought?<br>MAINTAIN adapted clause reception; split trust/effect/reconstruction reception; reconstructable self-report is not independent observation; generic actual-case coverage PENDING | W07 |
+| SA-G00 | A01 and decision-relative A02/A05/A11/A13; adds null/fallback<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G01 | A04/staleness A06/horizon A13; freshness and indistinguishability<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G02 | A05/A14 and evidence A10; intent-command-action-effect<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G03 | A03/A14/root A02; independently adjudicable<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G04 | A02/A09/A12; authority applicability/action time<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G05 | A02/A07; correlation cases not automatic<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G06 | A06/A11/A05; unknown not permission/success/veto<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G07 | A04/A09/A12/A01; material role-purpose-dependency requalification<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G08 | A09/A13; finite default discipline<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G09 | A08/A01/A07; mandate integrity<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G10 | A10/A14; earlier legitimacy<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G11 | A11/A13; smallest bounded disposition<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G12 | A11/A12; positive continuity<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G13 | new explicit execution/compliance ownership from old stage deferral; no old A13 identity<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| SA-G14 | A14/A05/A10; reconstruction not independence itself<br>MAINTAIN a many-to-many reading map; actual cases, predicates and admission PENDING; no same-number equivalence | W07 |
+| 1 | PARTIAL_RECEIVED<br>MAINTAIN investigation; generic transfer PENDING<br>diagnostic §1; instrument activation/mutation/aggregation ownership not all in prose | W07 |
+| 2 | ADAPTED<br>MAINTAIN investigation; generic transfer PENDING<br>diagnostic §§1–2; v0.2 §5; HF inputs; anchors/cases/mutant sensitivity need actual run | W07 |
+| 3 | ADAPTED<br>MAINTAIN investigation; generic transfer PENDING<br>diagnostic §2.2; L4 not architecture/evidence maturity | W07 |
+| 4 | PARTLY_SUPERSEDED<br>REJECT old semantics; retain history<br>diagnostic §2.1/HF §5; absence not automatically FAIL; OOS differs from NA | W07 |
+| 5 | SPLIT_PARTIAL<br>MAINTAIN investigation; generic transfer PENDING<br>gate matrix; no numbered bijection or full transfer claim | W07 |
+| 6 | SUPERSEDED_CURRENT_TYPED_GRAPH<br>REJECT old semantics; retain history<br>diagnostic §4; old hard chains must not return | W07 |
+| 7 | SUPERSEDED_IMPLICATION_STRENGTH<br>REJECT old semantics; retain history<br>diagnostic §2.3/v0.2 §5.3; potentially unlock and refreeze, no guaranteed PASS | W07 |
+| 8 | PARTIAL_RELOCATED<br>MAINTAIN investigation; generic transfer PENDING<br>HF §§1/6/7/9/12; v0.2 §5.2; generic ten-item hash/mutation/stopping freeze not established in v0.1 | W07 |
+| 9 | HF_SCOPED_RECIPIENT<br>MAINTAIN investigation; generic transfer PENDING<br>HF §§9–10/mutation JSON; generic independent-gate 13-mutant sensitivity not established | W07 |
+| 10 | HF_SCOPED_RECIPIENT<br>MAINTAIN investigation; generic transfer PENDING<br>HF §11; canonical StageA §3.1 different blindness; no generic three-state exposure ledger audited; this reviewer exposed | W07 |
+| 11 | HF_SCOPED_RECIPIENT<br>MAINTAIN investigation; generic transfer PENDING<br>HF §11; generic gate/evidence/scope dispute ledger not established | W07 |
+| 12 | ADAPTED_CORRECTED<br>MAINTAIN investigation; generic transfer PENDING<br>diagnostic §1/2.3 and v0.2 §5.3; minimal/maximal-unlock algorithm not full in v0.1 | W07 |
+| 13 | ADAPTED<br>MAINTAIN investigation; generic transfer PENDING<br>diagnostic §4; v0.2 required_for_profile; old A/B/C subsets illustrative only | W07 |
+| 14 | RECEIVED<br>MAINTAIN investigation; generic transfer PENDING<br>diagnostic header/levels/G13/claims; HF §§2/10/13; no architecture realization or historical prevention | W07 |
+| 15 | PARTIAL_SCOPED<br>MAINTAIN investigation; generic transfer PENDING<br>v0.2 primary table; HF matrix/JSON; complete report-ledger/schema audit pending | W07 |
+| 16 | PARTIAL_PORTABILITY_QUESTIONS<br>MAINTAIN investigation; generic transfer PENDING<br>validation plan §3; independent failure/universal activation/different-spec discrimination not closed | W07 |
+| 17 | PARTIAL_RELOCATED_NOT_SATISFIED<br>MAINTAIN investigation; generic transfer PENDING<br>validation plan §§2/4/5; mutations, independent review and explicit promotion still separate | W07 |
+
+### Capacity/schema/diagnostic — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| A01-01 | A01 §5.2; T_hat_ij(q) = max(t_now, next_available_j) + BacklogDelay_j(q) + ServiceTime_ij(q)<br>MAINTAIN investigation; no active pair<br>Sum of marginal q-quantiles is not generally a proven q-quantile of total completion; dependence/joint calibration or allocated sufficient bounds must be stated.<br>Existing A01 VNext | W05 |
+| A01-02 | A01 §§3.4/5.4/10.1/14; acceptable_proof_classes[]<br>MAINTAIN investigation; no active pair<br>Policy declares acceptable classes; reference algorithm attaches proof class but does not visibly enforce acceptance list. An honest heuristic AVAILABLE is not automatically admissible for a hard receiving gate.<br>Existing A01 VNext | W05 |
+| A01-03 | A01 §§3/5.2–5.4; partial schema; authored minute vectors; sum_i x_ij * ServiceDemand_ij(q) <= AvailableServiceTime_j(W)<br>MAINTAIN investigation; no active pair<br>Service work, elapsed W, net available capacity and latency differ; do not double subtract backlog/commitments or sum incompatible competence capacity. Full schema confirms no time-unit/epoch relation or conditional runtime completeness rule; adapter may supply one.<br>Existing A01 VNext | W05 |
+| A01-04 | A01 §§5.2/8.7/12.1; UC03 effective intervention; message receipt<br>decision<br>application<br>effect<br>MAINTAIN investigation; no active pair<br>Review completion is not target effect; a Challenge requiring effect by deadline needs downstream application/actuation/effect delay and evidence. No new universal component deadline invented.<br>Existing A01 VNext | W05 |
+| A01-05 | A01 §16; vectors TV01/TV07; verification record; proof = EXACT under declared snapshot/model<br>MAINTAIN claim ceiling / no edit<br>Illustrative arithmetic/12 authored vectors do not prove production schedule or real human calibration; keep exactness model-relative and report release/precedence limits.<br>Existing A01 VNext | W05 |
+| A01-06 | A01 §§6.1–6.2/10.2; partial schema; HICR_time = H_GIC / H_total<br>MAINTAIN investigation; no active pair<br>Reference pseudocode does not visibly state positive denominator/classified total/bound order/feasible recovery bounds. Full schema confirms static absence of those cross-field conditions and measured-status/Study0 linkage; no actual runtime bug established. Do not invent clamp or change source metric.<br>Existing A01 VNext | W05 |
+| SCH-01 | MAINTAIN static shape limit; runtime failure NOT_ESTABLISHED<br>root required/properties; Request-only root and optional engines/results serve a reference envelope, not semantic runtime conformance.<br>Existing A01 VNext | W05 |
+| SCH-02 | MAINTAIN static shape limit; runtime failure NOT_ESTABLISHED<br>request/snapshot/reviewer; now/required_authority/validity/version/provenance/timing evidence partly optional; no time-unit/epoch or conditional runtime completeness rule. External profile may supply bindings.<br>Existing A01 VNext | W05 |
+| SCH-03 | MAINTAIN static shape limit; runtime failure NOT_ESTABLISHED<br>policy_profile and result.runtime_capacity; No cross-object accepted-proof-class/AVAILABLE-to-current-input/schedule constraint; result state/proof/validity not required locally. Pseudocode linkage remains pending, no runtime acceptance defect established.<br>Existing A01 VNext | W05 |
+| SCH-04 | MAINTAIN static shape limit; runtime failure NOT_ESTABLISHED<br>hid_task_ledger/result.hid_architecture; No denominator>0, sum identity, bound ordering, feasible recovered share or MEASURED_BOUNDED⇒Study0 PASSED cross-field condition; ratio ranges alone do not enforce semantic measurement validity.<br>Existing A01 VNext | W05 |
+| SCH-05 | MAINTAIN static shape limit; runtime failure NOT_ESTABLISHED<br>human_pool_snapshot and result.runtime_capacity; No batch assignment/release/precedence/schedule witness or AvailableServiceTime field; a nonmandatory reference envelope need not contain full scheduler, but shape validation cannot prove EXACT.<br>Existing A01 VNext | W05 |
+| DG02-01 | MAINTAIN ceiling; selected editorial clarification PENDING<br>Bounded PROFILE_PASS does not establish generic independent-gate mutant sensitivity, two unseen families, blind exposure/dispute ledger, independent instrument review or promotion.<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W05 |
+| DG02-02 | MAINTAIN ceiling; selected editorial clarification PENDING<br>§1 shorthand can conflate gate and stronger-claim dependency; §4.2 explicitly makes G04 basic dependency SATISFIED and authority-resolved claim conditional. Editorial ambiguity, not tested checker failure.<br>research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W05 |
+| root | retain reference envelope, not semantic conformance<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| request | retain shape; conditional authority/time/profile completeness pending<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| human_pool_snapshot | retain tri-state inputs/freshness; optional inputs not assumed established<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| hid_task_ledger | retain exclusive enums; Study0/accounting/bound invariants external<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| policy_profile | retain q in (0,1), proof vocabulary; acceptance linkage pending<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.runtime_capacity | retain states; state-to-evidence/schedule/proof not enforced by shape<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.hid_architecture | retain ratios/hours; derived invariants not schema-enforced<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.authority_created_signal_is_command | retain false-only values when present, not required/behavioural evidence<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.evaluation_refs | retain optional version refs; no anticircularity detection from shape<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.qualified_positions | retain producer required in present object, roles optional process-relative arrays<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.cost_profile | retain unit/valuation/allocation/vector; no cross-field accounting proof<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.requalification_request | retain ordinary requested-required shape, no trigger execution<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+| result.same_operation_self_support_detected | retain record flag, no detection mechanism<br>MAINTAIN profile question; actual runtime conformance UNCERTAIN | W05 |
+
+### Oracle8/deltas7/consumers — accepted/qualified corroboration
+
+The attributed decision/evidence column retains the supporting reviewer's reasoning; my final disposition is acceptance subject to the named work package, except the explicit errata and deviations in§3. Pending entries mean the specified preparation/receiver test in that package, not automatic restoration.
+
+| Recommendation | Attributed decision / evidence, qualified here | Unified package |
+|---|---|---|
+| Oracle plan1 | ALREADY_RECEIVED documentary records<br>Retain four scoped same-assistant review records. Human/external comprehension remains unperformed. Verify remaining gaps rather than restarting published review records.<br>Current oracle VNext §§3/5.3/5.4 | W08 |
+| Oracle plan2 | ALREADY_RECEIVED documentary matrix; engineering PENDING<br>Dimension/family matrix, S5 example and import prototype exist. Installation, complete native contracts, code fidelity and admission do not follow.<br>Oracle VNext §5.2 / CTv1 import review | W08 |
+| Oracle plan3 / priority 46 | MODIFY / PENDING<br>Select authenticated UC4 source/schema/package and declared R01 sidecar. Separate serialization, contributor semantics, capabilities, review and admission. Dated1.1.0/1.1.0-r1 is not assumed newest. No request sent.<br>Existing UC4 bridge + oracle VNext | W08 |
+| Oracle plan4 / priority 47 | MAINTAIN / PENDING<br>CTv1/replay/selected00K then S5 is a possible scoped instrument pilot, not a compulsory hierarchy. Preserve native traces/effect oracle; missing/malformed/positive/boundary controls before admission.<br>Existing oracle/adapter reviews | W08 |
+| Oracle plan5 / priority 48 | MAINTAIN / PENDING<br>Clause→predicate→reference→control, candidate/evaluator/infrastructure costs, no-reference and scoped reference comparison. Code diversity differs from external review.<br>Oracle + COMPUTABILITY_AND_ORACLE_PLAN_VNext | W08 |
+| Oracle plan6 / priority 49 | MODIFY / PENDING optional expansion<br>Extend00L/C3/oldR01/HF only to meet a concrete missing property. Keep their truth, units, semantics and adverse results. No requirement to finish every backend before a chosen campaign.<br>Existing oracle + source-family reviews | W08 |
+| Oracle plan7 / C11 | MAINTAIN / PENDING future campaign<br>Freeze selected question, strong peers, resources, reset/memory/seeds, analysis/retries/stopping after adequate C02 scope. No execution authorized here.<br>Actual C11/workplan existing owners | W08 |
+| Oracle plan8 / T03/M13 | MODIFY / PENDING future native route<br>Chosen realization needs admitted correspondence/isolation/C11. Historic HEW-first priority is source-specific, not a universal DDS order or a demand to rerun unrelated Stage A work.<br>Actual M13/T03/workplan owners | W08 |
+| DELTA-001 / priority 24 | ALREADY_RECEIVED exact text<br>Current old-before count=0; complete old-after count=1. Schema and package names remain distinct.<br>research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| DELTA-002 / priority 25 | ALREADY_RECEIVED exact text<br>Current old-before count=1; complete old-after count=1. Complete reuse table retains source-specific result boundaries.<br>research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| DELTA-003 / priority 26 | ALREADY_RECEIVED adapted wording<br>Current old-before count=1; complete old-after count=0. Current line 90 records expected mixed outcomes.<br>research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| DELTA-004 / priority 27 | ALREADY_RECEIVED adapted wording<br>Current old-before count=0; complete old-after count=0. Current Claim boundary line 188 scopes synthetic/DAG references and independent review.<br>research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| DELTA-005 / priority 28 | ALREADY_RECEIVED adapted wording<br>Current old-before count=0; complete old-after count=0. Opening line 7 gives purpose and private-view separation.<br>research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| DELTA-006 / priority 29 | ALREADY_RECEIVED exact text<br>Current old-before count=1; complete old-after count=1. Mode/effect/metric explanation remains.<br>research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| DELTA-007 / priority 30 | ALREADY_RECEIVED exact text<br>Current old-before count=0; complete old-after count=1. Current source links are navigable.<br>research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 43 effective versus linked role | MAINTAIN / PENDING research<br>Find an actual gap against S7/S10/S12/S13/S14 and Role/Operation before adding requirements; a role link is not runtime capability.<br>Requirements / Role / Operation VNext | W08 |
+| 01K capacity receivers | MAINTAIN / PENDING<br>Current UC03/EHD/01J/Operation/HEW/Flores: request/decision/effect deadline, authority, service demand, proof class, UNKNOWN and effect evidence. Frozen runs keep their contracts. New05/05A commentary may affect receivers.<br>Existing01K/A01/UC03 + actual consumer VNext | W05 |
+| 91 official UC21 entry | MAINTAIN / DEFERRED<br>Complete case/source coverage, actual official current body/access and exact approved external replacement. No external action now.<br>DDSV / actual official owner | W10 |
+| 92 / successor variants | MODIFY / PENDING<br>Repair objective links and reconcile complete case duties before direct-route completeness. Keep DDS reusable, preserve variants/history, no physical migration inferred.<br>DDSV / Method Index | W10 |
+
+### Five protected EP surgeries — do not undo current useful receivers
+
+These are authenticated internal changes, not five demonstrated losses. The case corroborator read their complete old/new blocks; I retain that attribution rather than claiming a new full historical review. Source identities below make each recommendation independently checkable. The action is W06 contemporaneous authorisation/receiver verification, not rollback.
+
+| Change / first parent | Old → new EP blob | Disposition / actual current meaning |
+|---|---|---|
+| [39af310284c0ec84798814ad380473ae1d23f18c](https://github.com/dakleyer/structural-awareness-contributions/commit/39af310284c0ec84798814ad380473ae1d23f18c) / 2816aa1f8e0e77ceb6aea961d7163f228706e86b | 117324cfaf8cb6978f33f2923f9151479ec1c918 → dbb6218cb6d5a31be1012b8d508e1367ccecd1eb | Maintained current correction; authorisation unresolved until exact contemporary GO is retrieved. Replace HIT queue framing with existing HID source and separate runtime capacity from architectural debt; current01K§14–16/EP HumanCapacity receivers useful. |
+| [6c93994c02959c0c0061c08b96983ed5c4afdfbe](https://github.com/dakleyer/structural-awareness-contributions/commit/6c93994c02959c0c0061c08b96983ed5c4afdfbe) / 9f397df86fb66217937fb08b3c99e0f46bc60a6 | dbb6218cb6d5a31be1012b8d508e1367ccecd1eb → 503486825db547f208cee1fed46642638b468336 | Maintained current correction; authorisation unresolved until exact contemporary GO is retrieved. Expand the two HumanCapacity/HID surfaces; no generic authority loss follows. |
+| [c2d0d5161bc4ddd98258e071de29f586a8813636](https://github.com/dakleyer/structural-awareness-contributions/commit/c2d0d5161bc4ddd98258e071de29f586a8813636) / 22f27487a5fef4f385447695ec561d9e477c2440 | 503486825db547f208cee1fed46642638b468336 → 641693f5a56e610fc1e76ae79ad41b96bd903f00 | Maintained current correction; authorisation unresolved until exact contemporary GO is retrieved. Rename extension and addA01 component route; preserve source/measurement distinctions. |
+| [1aba8cf5386806192ca572dff3de0f63814168f5](https://github.com/dakleyer/structural-awareness-contributions/commit/1aba8cf5386806192ca572dff3de0f63814168f5) / e717f93a7119e01e83ed1afc42ac044eb5f401ff | 641693f5a56e610fc1e76ae79ad41b96bd903f00 → 99632b541f1a0b38814320cf6b3220eb62c238d3 | Maintained current correction; authorisation unresolved until exact contemporary GO is retrieved. DDS route plus00D support; B0–3, matched resources and negative findings survive. Some hunks are insertions, not replaced old bodies. |
+| [64fa9f3d777c30860b92ffa7e4440ef4b7193ca8](https://github.com/dakleyer/structural-awareness-contributions/commit/64fa9f3d777c30860b92ffa7e4440ef4b7193ca8) / 622b574731a451d6d4a24474a9224b5195da561b | 99632b541f1a0b38814320cf6b3220eb62c238d3 → a0a7f27842c13c409c4664bd1bda066860a98f83 | Maintained current correction; authorisation unresolved until exact contemporary GO is retrieved. Gate→Stage and title/comment; no scientific promotion. Keep later repaired taxonomy. |
+
+### Source-frontier decisions and applied priorities
+
+For all six seals, their original JSON/MD and checkpoint/continuation remain authentic; six recorded first judgements are not six completed corpus cohorts. The00M branch checks do not turn a non-main branch into an adopted successor. The00K A23 report exposure remains disclosed. Protect A23 withdrawal and A22's missing A20 bridge; do not revive disproved unconditional transfer. Preserve full failed records and strong peers.
+
+The priority register contains102 entries with complete original metadata in the machine crosswalk. Already-applied77–82 and Requirements#16 remain received.83–90 are superseded closure preparation;91/92 are held despite older true flags;64/67 obsolete HIT-as-HID proposals are not revived.94=SP-S6-01;95=CP-S2-DDS-NAMESPACE;97=PRIVATE_EP_REQUIREMENTS_SUCCESSOR_READING_LINK each occurs once in the actionable catalogue.96=IH08-C1,98=IR01-C01,99=IR01-C02;100=02Aseal and101/102=inputseal; the existing00J qualifier has no invented priority. OracleDELTA001–007 are received exact/adapted, not seven pending reapplications. The precise source state reasons remain in the attributed oracle matrix; old before and after can coexist in an applied insertion.
+
+The620path/8749unit literal frontier,94full-fork rows,85queue records,75case sections,126S6/alias sections,capacity/Index/A/B/C inventories and46R01 locations are detection/coverage records. They are retained individually in the JSON, tied to a specific work package and original source locator. A path survives does not prove a clause received; a section is unreviewed does not establish loss. Complete internal Contributions material intermediate versions and merge parents remain required in W06; fork comparison alone is insufficient. The supporting48DDS path-events,20R01 deltas and102EP events are provenance support, not that many new reviews. All unclosed section cohorts remain visible.
+
+## 5. Detailed restoration/reinsertion work packages
+
+Each package nominates a preferred existing owner. Preparation owner is an existing VNext; source destination is the proposed receiving body, not permission to edit it. A full exact successor pair is required after completing any currently missing payload/rights/receiver preparation. New or absent custody assets have no invented old body; authenticate the actual insertion directory/manifest and supply full bytes. Necessary antecedent evidence remains reachable in full.
+
+### W01 — Correct documentary evidence and narrow captions
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| Preferred destination / insertion | Existing 15 October review section: dated errata; candidate pairs stay in their respective owning VNext. |
+| Exact origin / full edition | Old gate draft blob4a786e778bf16a286c1abe7dccf502804c90c20b; diagnostic blobs55b052da6450592bb6cf02174daaf6fa10c82404/dacce9580af70cf883ff0a6b36c68850fd08390a; Index88b78f386047a76e0e2da905bd951ada06e5602b; candidates94–102 below. |
+| Useful information / DDS purpose | Correct provenance, namespaces, stale preference and edition attribution without changing scientific results. |
+| Current reception / valid correction | SA-G08/11 receive bounded time/default and bounded disposition; §13 receives case selection. 94/95/97 each one logical proposal; 96=IH08,98/99=IR01C01/C02,100=02Aseal,101/102=inputseal. |
+| Complete preparation task | Integrate the two dated errata below. Rebase the eleven exact pairs independently; split94/95/97,96,98/99,100,101/102 and00J qualifier into separate allowlisted decisions. Do not attach93 or91/92 approval. |
+| Acceptance | Each before count1; preserve surrounding current additions, actual links/fragments and original reports; narrow source/comment changes only; no new scientific acceptance. |
+| Dependencies | None for erratum; campaign-owner current-reading check for96; document/comment owner check for100–102. |
+| Priority · impact · risk · effort | Alto · Alto · Bajo · Bajo |
+| State | Documentary errata complete here; source pairs proposed only |
+| Exact Ivan decision | Ivan GO must identify each selected ID and exact after; coordinator review integration is distinct from source adoption. |
+
+### W02 — Receive the complete UC21 HR and claim-selection contract
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| Preferred destination / insertion | research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md §13, a bounded UC-21 application-contract subsection after the existing claim/route comparison table; retain §11 as the short entry bridge. |
+| Exact origin / full edition | Secondary submitted aec08fb5b0fac2ee399372370e9ee2a82a2d5779/current724d69f9cf69aaadd2f84f50934db9cf77fcc1f1: annexes/RECURRENCE_PROTOCOL.md blob824f4f974d1423cb98c78504ac9e6ca91fb95b0b; HYPOTHESES.md7e315c2fc1931e19a9a61d03912b9fb88b51031c; EVIDENCE_AND_PROTOCOL.md11e844056e6253e3e8ec0983072dd8fdc3b0d88e. Full editions remain antecedents, never silently optional. |
+| Useful information / DDS purpose | Restore usable experimental obligations: corrected baseline, declared intervention domain and quantifier, retained strongest lawful adaptation, refutation and successful-defender credit. |
+| Current reception / valid correction | Index §13 already names claims/routes and retained R1 inR2; Protocol0.3 receives HC/HS, S4 and causal controls. Neither pointers nor generic DDS alone establish full HR reception. |
+| Complete preparation task | Prepare ONE complete replacement of current Index §13, keeping its existing content. Add: nominate K_i and independently admitted D_i; demonstrate R1 correction and positive controls before freeze; pin full configuration, resources and ordinary adaptation; R2 changes only admitted material observable conditions, with feasible response and matched access; prohibit post-outcome domain design; separate existential witness from all-six/family scope; record successful defenders and exhaustive-negation versus finite-sampling ceilings. Include H§13 selection of acceptance/HC/HR/HS/H1–6 separately from R0/1/2, factorsA–D, components and X1–7. Generic DDS sections remain reusable. |
+| Acceptance | A reviewer maps every R2/R3/R4/R6/R7 and H13 clause to a complete proposed receiving sentence; no temporal-necessity revival, no disabled-defender HC ablation relabelled HR; selected current campaign/card consumes the declared contract. All old/current context and exact new payload must be shown before adoption. |
+| Dependencies | W06 source edition/rights packet; W03 actual form binding; no scientific run required to prepare text. |
+| Priority · impact · risk · effort | Alto · Alto · Medio · Medio |
+| State | Preparation nominated; no invented ready pair |
+| Exact Ivan decision | Ivan GO: approve UC21-specific §13 placement and exact successor payload after preparation; no blanket DDS obligation or experiment authorization. |
+
+### W03 — Bind the 18-field run contract, nine evidence groups and six trace columns
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| Preferred destination / insertion | research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md §13 adjacent to W02, with direct mappings to the selected existing campaign RUN_CARD/BOUNDARY_RUN_CARD and its report; no mandatory extra router. |
+| Exact origin / full edition | RUN_RECORD.md blobbe014eb521d0ede16697ad0f37b961c5eb562d63; EVIDENCE_AND_PROTOCOL.md11e844056e6253e3e8ec0983072dd8fdc3b0d88e E.6; HYPOTHESES7e315c2fc1931e19a9a61d03912b9fb88b51031c§13; canonical4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c; Protocol0.3 DOCX524fe4cc1091d622f18d37a2441464c263bfe265. |
+| Useful information / DDS purpose | Make combined claim-specific duties operational without duplicating the canonical KPI theory or declaring blank forms executed. |
+| Current reception / valid correction | Generic identity, authority, metrics, oracle, resource and reproduction fields already received; exact case binding remains partial. The support matrices below distinguish these. |
+| Complete preparation task | Choose the actual first receiving campaign/card by selected question, not because it exists. Produce one row per 18fields/9groups/6columns/3conclusions: current exact field, applicability, proposed field, units/version/owner/effect and explicit missing/NA behavior. Keep per-gate evidence-at-time, reason and timestamp; separate implementation outcome, hypothesis conclusion and reproduction/disagreements. Correct E5 U in the maintained adaptation to bounded operational representation; keep active observation window separate, source edition intact. Existing HEW completion card is a comparator for fields, not an automatic UC21 HR campaign. |
+| Acceptance | All36 obligations plus three conclusions have named current receiver or justified NA; field15 binds W05;11 binds actual X1–7 family admission;12/13 bind W02;8/10/16 preserve matched facts/private oracle;17 has actual numerator/denominator. No generic form-equivalence claim without exact mapped bodies. |
+| Dependencies | W02; chosen campaign owner confirms actual card. |
+| Priority · impact · risk · effort | Alto · Alto · Medio · Alto |
+| State | Complete preparation specification; exact payload pending chosen card |
+| Exact Ivan decision | Ivan GO names §13 integration plus any specific card/report successor; frozen original cards remain unchanged. |
+
+### W04 — Preserve neutral S6 and recover useful retired-edition distinctions
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/baseline/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/README_VNext.md) |
+| Preferred destination / insertion | research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md and existing T09/A01 receiving sections, each source-specific consequence in its current owner review. |
+| Exact origin / full edition | Submitted full S6 at aec08fb5; retired00J blob55e0a2cff9d354bf18c10ec1a639f1bab22a6319 (32554bytes), addedcb10aca3c9cb2d4281e0ed056c60643f305596ac, deleted49fe688cf3b45e7b1f531b6502254ab5b7a4da48; current00J17616f2495ccfc08828fed49d4f566f718e67eee andA01af17d682b7e7e742b298de7918ade6029dffa9b8. |
+| Useful information / DDS purpose | Keep the full neutral case reachable and preserve distinct policy/approval/control and metric denominators while retaining scientific corrections. |
+| Current reception / valid correction | Support rechecked30gatecells and12metric meanings; principal S6 retained, not whole-edition equivalence. R0 is rights; no old literalR1/R2 ladder. A01 same-Q5 arm and T09 neutral research question differ. Current00J7.4 negative parity/noEA differential remain. |
+| Complete preparation task | Custody full S6 and retired alias in Contributions through existing source-owner package, with original-language bytes and index entry, no second active00J. Prepare selected successor controls: T0 source policy issuer/effective time/permittedRAG/prohibitedtraining/attribution/retention; explicit J-C5 noncurative human approval; promotion per MATERIAL HANDOFF; repair success preserving R0/G1/RX reconstructability per repair branch; unsupported licence demand denominator main inversion branches. Compare each to current perBRANCH/perFINALdecision denominators before adopting; retain them as distinct profiles if both questions useful. Keep Type1/legitimate continuity/time despite inherited fails-only wording. |
+| Acceptance | Full edition bytes/hash/source manifest reachable; selected denominator populations explicitly named, no pooling; strong nonEA peer gets full credit; no restoration of all-six sufficiency/EA superiority. Specific EUIPO attribution remains historical until official body/date and rights checked. Candidate94 alone cannot close this package. |
+| Dependencies | W06 media/edition custody; W03 case acceptance owner mapping;94 independent narrow edit. |
+| Priority · impact · risk · effort | Alto · Alto · Medio · Alto |
+| State | Qualified successor and retained antecedents; exact control payloads pending |
+| Exact Ivan decision | Ivan GO selects individual control/metric profiles and custody destinations, never wholesale retired body as current. |
+
+### W05 — Complete capacity, proof and useful-response timing contract
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/baseline/01K_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_VNext.md) |
+| Preferred destination / insertion | research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md §14–15; component details in existing01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md; UC03 consequences in UC-EA-03_VNext.md. |
+| Exact origin / full edition | 01K e52ed065c5d217da73634c7eb28d26c5d990abae; predecessor1a39dfe0ed70e1aa8040ddfbd68c20d713713dff blob45e5dec20b09d19be6c574ab3d3e0af410e3d5c7; A0120b7c8e0bea79edc237e695924a2a657713d412c; schema8d6850cff955175bf4226fd101f3567bba07c487. |
+| Useful information / DDS purpose | Reinsert explicit service-demand budget and name proof class, units/epoch and timely effect rather than merely a linked human role. |
+| Current reception / valid correction | A01 already models scheduling and HID separately. Schema shape does not prove cross-object semantic validity; no observed runtime defect established. Candidate93 qualified pair retains current information/authority additions. |
+| Complete preparation task | Before93 approval map request→source/evidence→qualified authorised reviewer→queue/review/correction/continuation→effect deadline. Declare service demand and capacity, release times/precedence/commitments, warning margin, residual budget and safe fallback; identify deterministic bound versus joint probabilistic deadline law and calibration. Do not sum marginal q-quantiles as a guaranteed joint q bound. Bind schema optional fields to selected profile requirements: units/common epoch, identity/current authority/version/provenance, AVAILABLE proof witness, positive HID denominator/sum bounds/Study0 validity, assignment/calendar witness where claimed. No mandatory universal scheduler. Check UC03, EHD,01J,Operation,HEW,Flores receivers individually. |
+| Acceptance | Complete93 before/after retained; reviewer validates same useful horizon and no permission by timeout; every chosen AVAILABLE witness demonstrates actual timely authority/information/service/effect; UNKNOWN remains valid. Frozen runs retain their original contracts. Missing consumer or native evidence stays open. |
+| Dependencies | W03 field15 and selected consumer; current05/05A comment receiver implications must be checked. |
+| Priority · impact · risk · effort | Alto · Alto · Medio · Alto |
+| State | 93 exact textual alternative prepared; receiver-qualified adoption held |
+| Exact Ivan decision | Ivan GO must name93 qualified alternative and selected consumer mappings/proof class; no generic capacity success claim. |
+
+### W06 — Authenticate full editions, internal history and original media custody
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| Preferred destination / insertion | Existing source-owning packages and their existing unique VNext; coordination manifest in DDS review, EP consequences in architectural-contributions/ecosystem-positioning/README_VNext.md. No physical migration. |
+| Exact origin / full edition | Primary internal Contributions intermediate versions and all material merge parents; support inventories48DDS path-events,20R01 deltas,102EP events/100payloads; secondary full-fork 162 objects,2348current tree entries; exact source identities in appendices. |
+| Useful information / DDS purpose | Retain necessary evidence in full, including bilingual media, protected revisions and negative outcomes; separate custody from scientific reception. |
+| Current reception / valid correction | Source history counts are leads. Five case identities and selected current contracts authenticated; broad binary rendering/rights/history semantics remain open. Five protectedEP surgeries are real replacements/additions, not proof of absent GO. |
+| Complete preparation task | For each logical unit extract ls-tree identity then cat-file raw bytes; record full path/mode/commit/blob/SHA256/parent set/language/rights/access. Reuse identical custody payload with every instance provenance; do not call retired55e0a2 duplicate. Compare internal intermediate/merge changes before fork narrative. For fiveEP surgeries retrieve contemporaneous exact IvanGO or record authorisation unresolved; retain legitimate current01K/HID and DDS corrections. For DOCX compare OOXML parts/relationships/media and render visually;17-figure family needs nativeSVG/PNG/bilingual originals, labels and outbound anchors, not XML-text equivalence. Keep tools/workflows/UC20 inert and separate. |
+| Acceptance | Every selected item has custody axis and meaning axis, receiver/correction/no-reintroduction decision and readable full antecedent; no silent optional demotion of protocol evidence. Permit no byte loss, overwrite or mass tree import; list unreviewed cohorts explicitly. Missing rights/visual review holds that asset only unless it is required for a claimed complete route. |
+| Dependencies | No restoration permission required to specify work; future custody/adoption requires named source owner and IvanGO. |
+| Priority · impact · risk · effort | Alto · Alto · Alto · Alto |
+| State | Bounded evidence frontier, actionable batches specified |
+| Exact Ivan decision | Ivan GO identifies exact custody packet/file set and rights basis; approval never inferred from source presence or operator identity. |
+
+### W07 — Choose a generic diagnostic instrument successor contract
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| Preferred destination / insertion | Existing DDS diagnostic validation-plan section and existing v0.2 audit-candidate context, prepared in DDSV; HF stays a profile-specific consumer. |
+| Exact origin / full edition | Old gate draft4a786e778bf16a286c1abe7dccf502804c90c20b §§1–17; currentdiagnostic55b052da6450592bb6cf02174daaf6fa10c82404/dacce9580af70cf883ff0a6b36c68850fd08390a; HFprereg89c227175a17338b09d50d513b01195975bff1ae/mutationde603f7f52f06291971ec0c6bfcb5377a1b143a1. |
+| Useful information / DDS purpose | Recover useful generic instrument-development duties without reinstalling obsolete hard dependencies or claiming HF preregistration equals admission. |
+| Current reception / valid correction | 15current gates, typed graph and local profile outcomes already receive many old clauses; generic hash/mutation/blind-review/dispute/stopping/report-promotion contract not fully demonstrated. StageA3.1 candidate blindness differs from reviewer exposure. |
+| Complete preparation task | Select prospective instrument scope; prepare frozen manifest of catalog/dependencies/levels/cases/activation/rules/facts/mutants/stopping, hashes and version; gate-specific expected verdict and fail-capable controls; reviewer exposure ledger; dispute gate/evidence/scope and no acceptance through unresolved dispute; report mutation sensitivity/exclusions/deferredB; declared promotion threshold. Map14old→15current many-to-many and all 17sections below. Distinguish ownG04 from stronger conditional authority claim. Keep minimal remediation potential unlock followed by refreeze/readjudication; reject guaranteedPASSES_IF and absenceFAIL/NA equivalence. Portability/unseen-family work only for the scope claiming it. |
+| Acceptance | Selected successor has a complete manifest, control/reference matrix, mutation/blind/dispute/report/admission policy; HF applicable rows reused with exact versions and limitations. No demand that every DDS application finish every historical ambition; instrument status not upgraded by this plan. |
+| Dependencies | W01erratum; actual diagnostic-owner decision on scope. |
+| Priority · impact · risk · effort | Alto · Alto · Medio · Alto |
+| State | Qualified successor preparation; not admitted |
+| Exact Ivan decision | Ivan GO specifies instrument successor scope and exact proposed contract, distinct from scientific test execution/admission. |
+
+### W08 — Reconcile R01 epochs, oracle plans and retained corrections
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md) |
+| Preferred destination / insertion | Existing extensions protocol/HEW/completion VNext; oracle tasks stay in research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md; no duplicate feasibility VNext. |
+| Exact origin / full edition | Protocolba43b0ec31ca31114cdd515040c543c9d4dc099d, HEW71dec1fde183252490a421bf3e4ff81eda8e49e9, completion990872beae2f632515ee81a4dba36b16b8ad7f9c, historical feasibilityb53cc318875b849475d26452aaa8fe2d089ce748/f6c33a3fbf76a1cda2705bd1395953a14547611e; originalH2d8fbfa48581df366081143872ec4c16360c51635 blob043df0b247ac42c74d8b50d5a7c525c043c43cae. |
+| Useful information / DDS purpose | Keep full proof/oracle/harness/campaign separation and authentic historical science while correcting navigation/edition claims. |
+| Current reception / valid correction | H2 iff corrected, q source-certificate coverage corrected, analyticalACK2 versus SQLiteACK service tick distinct, original 17/17manifest covers11/17active bytes, all60raw input blobs retained. No broad loss demonstrated; oracle1/2 documentary output and seven deltas received. |
+| Complete preparation task | Prepare explicit current-entry/retained-feasibility epoch mapping;98/99 narrow captions separate from science. Retain all-policy transfer inequalities, nonvacuous three pair controls and possibility of a perfect affordable oracle; no universal impossibility. Keep analytical q, observed evidence, denominator populations and chain reliability separate. Oracle3–8: choose actualUC4/schema source, scopedCTv1 pilot, clause→predicate→reference→controls, optional backend expansion, then authorizedC11/T03/M13 route. Independently inspect static evaluator/caller/private-state/code boundaries before robustness claims; do not run tests here. |
+| Acceptance | Current readers reach complete historical and active versions; each selected oracle task has exact input/output and unverified native/reference/independence gates; no rerun or reopening applied77–82/#16; no pooled diagnostic sample or automatic return/BV claim. |
+| Dependencies | W06material internal history;98/99 can proceed as narrow text independently. |
+| Priority · impact · risk · effort | Alto · Alto · Medio · Alto |
+| State | Documentary corrections prepared; engineering/scientific gates open |
+| Exact Ivan decision | Ivan GO selects captions/entry payload separately from any future instrument/campaign work. |
+
+### W09 — Close six third-review recommendation cohorts without borrowing their seals
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| Preferred destination / insertion | Existing00M_VNext,01_FOUNDATIONAL_VNext,04 review/delta,fixtures/00K-SUITE/README_VNext,baseline/README_VNext and DDSV respectively. |
+| Exact origin / full edition | All six immutable seals named in recommendation matrix; current00J7195c2215454e40d830f159ac838c898b33573a1/A2540da30f981f2cdd51b7cbc0ab4f00b55114b429e/A269aa4852906137684c790d190e7ed7f66b1bfae16. |
+| Useful information / DDS purpose | Preserve corrections and conditional premises; distinguish finite termination, derivation, custody, relative model correction, transfer and same-Q5 research. |
+| Current reception / valid correction | Six first judgements exist, zero exhaustive completed cohorts. 100/101/102 and00J qualifier are narrow pairs, not new audits; A23execution report exposure disclosed by its reviewer. |
+| Complete preparation task | 00M inspect three non-main branch antecedents and retain finite conditional termination not deadline. 02Ause100 with02Bset-normal-form scope. Input101/102 identify originalWord vs amendedMarkdown and nativeassets.00K retainA23withdrawal,A19/A21/A23/A24distinctness,A22requiresA20bridge; prepare exact local receiver only after full relevant body.00J retainA25/A26 reciprocal conditional antecedents; DDS/PANO preserve currentA/B/C and same-Q5 controlled change,strongpeer/unexecuted ceiling. |
+| Acceptance | Each seal recommendation maps to actual current clause/qualified successor/no-reintroduction; no full-cohort PASS from hash authentication. Independent reader checks100–102/transfer exact pairs and broader premise dependencies separately. |
+| Dependencies | W06 history/media; W04neutral S6 versusPANO research boundaries. |
+| Priority · impact · risk · effort | Medio · Alto · Medio · Alto |
+| State | Narrow pairs available; broader premise/source checks open |
+| Exact Ivan decision | Ivan GO identifies each local candidate; no wholesale seal adoption. |
+
+### W10 — Integrate case reader route; official UC21 issue/PDF last
+
+| Property | Decision |
+|---|---|
+| Existing unique VNext | [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) |
+| Preferred destination / insertion | research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md §11 current bridge and all ten92 units; EP/README consequences remain three levels; official issue/PDF owned externally and last. |
+| Exact origin / full edition | All ten92 literal preparations below; official91 historical external-body identity retained only in JSON; current Index88b78f386047a76e0e2da905bd951ada06e5602b. |
+| Useful information / DDS purpose | Deliver readable UC21→objectives→Challenges→DDS→campaigns→results after material case reception rather than using navigation to conceal gaps. |
+| Current reception / valid correction | 92passage1 later successor repairs actual objective links and sixChallenge table. Other nine units remain historical preparation requiring corrections and current context.91/92 already held in effective epoch. |
+| Complete preparation task | After W02/03/04/06 material reception, prepare a single consistent92wave: retain all unique source duties, neutral S6/history, negative results and current owners; merge organizer draftA with92passage5, apply draftB only prospectively. Validate everyincoming/outgoinglink/fragment and external current body/rights. Prepare exact officialIssue/PDF replacements only after named owner review; no send/publication authorized. |
+| Acceptance | A reader can reach actual full necessary evidence without a fourthREADMElevel, compulsoryFGTIDArouter or maintainedfork. All ten currentbefore and completeproposedafter reviewed together; official source freshness/access/owner approval verified last. |
+| Dependencies | W02/W03/W04/W06 material reception; all selected receiver conditions;91mustfollow92acceptance. |
+| Priority · impact · risk · effort | Alto · Alto · Alto · Alto |
+| State | 91/92 held; complete preparation history retained |
+| Exact Ivan decision | Separate exact IvanGO for92 source adoption, then official owner approval and explicit external publicationGO; no automatic execution. |
+
+## 6. Complete verified current-before / proposed-after units
+
+All eleven complete before units matched their pinned current source exactly once in v1 and are checked again for this consolidation. Their actual source context is preserved in full in the machine crosswalk; the complete replacement units below are not abbreviated diffs. They are proposed text only. Current ratings below use Alto/Medio/Bajo; authentic quoted earlier metadata remains unchanged. Refreshed source/receiver and named GO gates still apply.93 is a qualified successor whose capacity/proof receivers remain held; a mechanically exact pair is not ready scientific or operational adoption.
+
+### Candidate 93 — qualified successor
+
+Source: [research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`e52ed065c5d217da73634c7eb28d26c5d990abae`. Existing preparation: [research/ecosystem-awareness/baseline/01K_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_VNext.md).
+
+Reason: Literal absence is real, but current01K14 and A015.2–5.4 retain capacity semantics. Prefer precise service-demand/proof-class qualification; all consuming deadlines and proof policies still need reconciliation.
+
+Impact/risk/effort: Alto/Medio/Medio. Work package W05. Readiness: Not decision-ready: consumer timing/proof-policy reconciliation incomplete.. No automatic application.
+
+Location: 15, Gate A runtime viability
+
+Complete actual current before:
+
+``````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+~~~
+``````
+
+Complete proposed after:
+
+``````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required qualified human service demand is feasible within W
+    under the declared 01K-A01 capacity/timing model and proof class
+AND expected review-completion latency fits W
+~~~
+
+Here, human service demand is route- and competence-specific work time, not a universal unit of intelligence or an HID metric. Read feasibility with 01K-A01 §§5.2–5.4, including backlog, current commitments, release times, deadlines, non-preemptible work and any material precedence constraints. The necessary load condition alone is not a sufficient scheduling proof. The consuming policy determines which declared proof classes are admissible; unresolved material inputs remain UNKNOWN. This gate qualifies the human review path and does not establish the correctness, authority, execution or effect of the eventual intervention.
+``````
+
+### Candidate 94 — current-source clarification
+
+Source: [research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`af17d682b7e7e742b298de7918ade6029dffa9b8`. Existing preparation: [research/ecosystem-awareness/baseline/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/README_VNext.md).
+
+Reason: Current introduction conflicts with same-Q5 section6; independently checked original3c3d9d history confirms incomplete earlier update.
+
+Impact/risk/effort: Medio/Bajo/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: Section1 — last bullet of why Panodyssey/TEMS fits00J
+
+Complete actual current before:
+
+``````text
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+``````
+
+Complete proposed after:
+
+``````text
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.
+``````
+
+### Candidate 95 — current-source clarification
+
+Source: [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`e636346c46c49cb81ecc7f84ec9c792e9729cc95`. Existing preparation: [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md).
+
+Reason: Current generic namespace paragraph can use the selected case-specific distinctions; conventions and claim-selection independently inspected. Does not supply complete HR/run bridge.
+
+Impact/risk/effort: Medio/Bajo/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: 10A Namespace safety — complete opening paragraph
+
+Complete actual current before:
+
+``````text
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.
+``````
+
+Complete proposed after:
+
+``````text
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs. In UC-21, R0/R1/R2 name implementation routes, HC/HR/HS select claims, and A–D name causal trial conditions. S3’s robot actors R1/R2 and S6’s original rights record R0 belong to different local namespaces. S1’s I1/I2/O1/O2 failure-position codes are distinct from AWS configuration names. Use the case conventions and the source profile together before mapping these labels into DDS.
+``````
+
+### Candidate 96 — current-source clarification
+
+Source: [research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`88b78f386047a76e0e2da905bd951ada06e5602b`. Existing preparation: [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md).
+
+Reason: Current index still calls antecedent UC17-08 preferred; current campaign and full principle v0.2 explicitly supersede that priority. Preserve both texts and no-run status.
+
+Impact/risk/effort: Alto/Medio/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary
+
+The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.
+``````
+
+Complete proposed after:
+
+``````text
+## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary
+
+**Current reading direction — 14 October 2026.** The retained paragraphs below record the earlier 13 October UC17-08/P0–P3 preparation; their “preferred” wording is historical. The current [campaign](./campaigns-in-development/flores-population-ea/CAMPAIGN.md) follows the later owner-directed [R2 → freeze → uncovered R3 principle](./campaigns-in-development/flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md): demonstrate the participant-defended complete R2 in the known/repaired context, freeze its configuration, adaptation and resources, then admit a material R3 outside its effective coverage with the general EA requalification specification fixed ex ante. UC17-08 and P0–P3 remain antecedents or separate contrasts. Scientific status remains NOT_PREREGISTERED / NOT_EXECUTED / NOT_ADJUDICATED.
+
+The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.
+``````
+
+### Candidate 97 — relinking
+
+Source: [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/architectural-contributions/ecosystem-positioning/README.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`9767ec8efb7d3a2875866ea3cd22ebc94882e930`. Existing preparation: [architectural-contributions/ecosystem-positioning/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/architectural-contributions/ecosystem-positioning/README_VNext.md).
+
+Reason: Current EP ends at the exact old paragraph; S10 working successor exists with action-time binding and distinct frozen-predecessor status. Addition must remain at EOF.
+
+Impact/risk/effort: Medio/Bajo/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+``````
+
+Complete proposed after:
+
+``````text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+
+For current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.
+``````
+
+### Candidate 98 — current-source clarification
+
+Source: [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`990872beae2f632515ee81a4dba36b16b8ad7f9c`. Existing preparation: [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md).
+
+Reason: Dated release manifest and current active documentation are different epochs. Direct raw-byte checks recorded separately; preserve original manifest and avoid regrading original results.
+
+Impact/risk/effort: Medio/Bajo/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+Version0.1 · 6 October2026 · current audited study edition.
+``````
+
+Complete proposed after:
+
+``````text
+Version0.1 · 6 October2026 · original scoped completion edition, with later current-reading additions in the linked reports. The dated coverage and release manifest describe the preserved 6 October package; each report links its current study record and prospective diagnostic successors. The original results are retained and are not regraded.
+``````
+
+### Candidate 99 — current-source clarification
+
+Source: [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`990872beae2f632515ee81a4dba36b16b8ad7f9c`. Existing preparation: [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md).
+
+Reason: Dated release manifest and current active documentation are different epochs. Direct raw-byte checks recorded separately; preserve original manifest and avoid regrading original results.
+
+Impact/risk/effort: Medio/Bajo/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins this edition and the untouched source corpus.
+``````
+
+Complete proposed after:
+
+``````text
+The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins the preserved 6 October feasibility edition and its untouched source corpus. It does not certify the later documentation additions in the active extensions README, reports or VNext; their current study records identify the relevant successor evidence.
+``````
+
+### Candidate 100 — current-source clarification
+
+Source: [research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`06e12884ecbcff9df820d087e5b727bf4a18adab`. Existing preparation: [research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md).
+
+Reason: Current02A overattributes a deterministic surjective normalizer to current02B, whose theorem is nonempty set-valued relative closure. Full downstream/semantic-transfer reconciliation remains pending.
+
+Impact/risk/effort: Medio/Bajo/Bajo. Work package W01. Readiness: Literal and attribution defect confirmed; downstream A19/A21/00K and semantic transfer still unresolved, no global proof repair clearance.. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
+``````
+
+Complete proposed after:
+
+``````text
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a relative syntactic-closure argument and an explicit mapping of the declared control surfaces to one or more P1–P6 normal forms. Its theorem uses the source grammar stated there; transfer to the current A/B/C/D meanings requires a separate semantic check.
+``````
+
+### Candidate 101 — current-source clarification
+
+Source: [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`de6c58c62ad70b3182085333106b41b63a9fef18`. Existing preparation: [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+
+Reason: Current Markdown itself contains explicit dated semantic amendments; unchanged-reproduction comment is misleading. Preserve Word/graphics/manifest bytes.
+
+Impact/risk/effort: Bajo/Bajo/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+<!-- Approved v0.4 Word body reproduced below in document order. -->
+``````
+
+Complete proposed after:
+
+``````text
+<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->
+``````
+
+### Candidate 102 — current-source clarification
+
+Source: [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`de6c58c62ad70b3182085333106b41b63a9fef18`. Existing preparation: [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+
+Reason: Current dated amendment and historical manifest require an honest original-vs-current custody explanation; no reversal of B/C correction or rendered-parity assertion.
+
+Impact/risk/effort: Medio/Bajo/Bajo. Work package W01. Readiness: Pending named exact Ivan GO; additional gates in plan apply. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+``````
+
+Complete proposed after:
+
+``````text
+**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+``````
+
+### Candidate existing-third-00J-transfer — qualified successor / premise qualification
+
+Source: [research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md); commit`89273f548f6b5ed8f7e0576040f615b5653ffaf6`; blob`7195c2215454e40d830f159ac838c898b33573a1`. Existing preparation: [research/ecosystem-awareness/baseline/README_VNext.md (joint transfer consequence; verify logical source owner before integration)](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/README_VNext.md (joint transfer consequence; verify logical source owner before integration)).
+
+Reason: Current bare transfer formula must retain A25 separately established full-route base guarantee, X3/X4 and A26 positive-control premises. Direct current clauses inspected.
+
+Impact/risk/effort: Medio/Medio/Medio. Work package W09. Readiness: Pending existing-owner resolution and downstream transfer reconciliation; not a new register ID. No automatic application.
+
+Location: existing exact unit
+
+Complete actual current before:
+
+``````text
+## 8. Transfer result
+
+\[
+Conf(R_J)\Rightarrow G_J\Rightarrow \neg F_J.
+\]
+
+The successful pattern is **valid narrow evidence stays narrow until a justified bridge establishes the stronger proposition**.
+
+``````
+
+Complete proposed after:
+
+``````text
+## 8. Transfer result
+
+**Conditional design obligation.** Read the formula below under [A25 §6](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) and [A26 §5](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md#5-conditional-no-new-requirement-argument). A guarantee for every admitted extension requires a separately established base guarantee for the full inherited route, failure reflection, conformance preservation and the required positive controls. The current finite P1/P4 projections and matched proposition pair do not by themselves establish the full G_J predicate or a guarantee for every admitted extension.
+
+\[
+Conf(R_J)\Rightarrow G_J\Rightarrow \neg F_J.
+\]
+
+The successful pattern is **valid narrow evidence stays narrow until a justified bridge establishes the stronger proposition**.
+
+``````
+
+### Candidate92 — complete historical preparation and bounded passage1 successor
+
+**Held, not adopted.** The following ten complete literal preparation units are retained as the actual former proposal for review, not ten approved replacements. Each current-before was mechanically checked once at the pinned Index body. Their complete after text still needs W02/03/04/06 material reception and W10 route/receiver reconciliation. Later passage1 below supersedes the earlier first proposal; it does not silently approve the other nine. The historical units preserve their exact links and errors as evidence. Do not run the old batch as-is.
+
+####92 historical unit 1 — §11, after the reader-route paragraph
+
+Complete current before at preparation epoch:
+
+``````text
+The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.
+
+### UC-21 research questions
+
+The [official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) supplies the case and acceptance conditions. Contributions is the maintained research corpus. Select the question first, then its Challenge, technology/configuration and evidence contract.
+
+| Objective | Research question |
+|---|---|
+| Decision correctness and legitimate continuity | [Case acceptance plans](USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) | |
+| Effectiveness of existing controls | [R0/R1/R2 comparisons](USE_CASE.md#5-select-prepare-and-run-one-experiment) | |
+| Recurrence after correction | [HR recurrence protocol](annexes/RECURRENCE_PROTOCOL.md#annex-r) | |
+| Common causal pathway | [HC causal protocol](annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) | |
+| Sufficient common response | [HS response protocol](annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) | |
+
+The source-specific HC, HR, HS and H1–H6 protocols retain their registered meaning. Their complete case texts are preserved in the submitted and pre-consolidation case snapshots, linked as source records below. This guide connects the existing Contributions research; it does not claim that the complete twenty-annex case package has already been integrated into this repository.
+
+### UC-21 Challenge sources
+
+The S1–S6 slots correspond to the following Contributions sources. Choose the exact edition consumed by a study; a current reader source does not replace its earlier freeze.
+
+| Challenge slot | Failure family | Contributions source |
+|---|---|---|
+| S1 / 00E | Enterprise synthesis | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) |
+| S2 / 00F | Shared mobility | [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) |
+| S3 / 00G | Propagated false mission | [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) |
+| S4 / 00H | Finding beyond authority | [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) |
+| S5 / 00I | Delayed repair | [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) |
+| S6 / 00J | Rights-provenance inversion | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
+
+``````
+
+####92 historical unit 2 — Existing reader passage: | What is UC-21 trying to establish? |
+
+Complete current before at preparation epoch:
+
+``````text
+| What is UC-21 trying to establish? | [UC-21 public entry](https://github.com/FG-TIDA/use-cases/issues/21) and [current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives) |
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+| What is UC-21 trying to establish? | [Official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) and [research questions in this corpus](#uc-21-research-questions) |
+``````
+
+####92 historical unit 3 — Existing reader passage: | Which scenario, reduction or extension supplies the problem? |
+
+Complete current before at preparation epoch:
+
+``````text
+| Which scenario, reduction or extension supplies the problem? | [UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/README.md), [R01 reference scenario](./baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), [technology extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) and [kernel/proof obligations](./baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md) |
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+| Which scenario, reduction or extension supplies the problem? | [UC-21 Challenge sources](#uc-21-challenge-sources), [R01 reference scenario](./baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), [technology extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) and [kernel/proof obligations](./baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md) |
+``````
+
+####92 historical unit 4 — Existing reader passage: For terminology, use [Stage A §3]
+
+Complete current before at preparation epoch:
+
+``````text
+For terminology, use [Stage A §3](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first): the Challenge is the problem or failure family, and a bounded scenario, fixture or reduction instantiates it. [Stage A §6](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces) distinguishes profile, traversal, trace and DDS battery/campaign. [UC-21 conventions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) retain the scenario and route labels. A research campaign, an S4 business campaign and R01's operational campaign are different source contexts and accounting units. Reduction/extension transfer follows its owning proof or family-admission contract; navigation does not merge them.
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+For terminology, use [Stage A §3](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first): the Challenge is the problem or failure family, and a bounded scenario, fixture or reduction instantiates it. [Stage A §6](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces) distinguishes profile, traversal, trace and DDS battery/campaign. [preserved UC-21 conventions](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) retain the scenario and route labels. A research campaign, an S4 business campaign and R01's operational campaign are different source contexts and accounting units. Reduction/extension transfer follows its owning proof or family-admission contract; navigation does not merge them.
+``````
+
+####92 historical unit 5 — Existing reader passage: The [submitted UC-21 snapshot]
+
+Complete current before at preparation epoch:
+
+``````text
+The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and main for current reading. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and version decisions.
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) and the [pre-consolidation case snapshot](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails) preserve the original package and later reader work. Contributions hosts the current research route. A registered study freeze and an instrument successor retain their own edition; this navigation change does not revise a recorded result. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the source inventory and any integration still required.
+``````
+
+####92 historical unit 6 — Existing reader passage: A case supplies the question and acceptance conditions. DDS supplies t
+
+Complete current before at preparation epoch:
+
+``````text
+A case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), then select the bounded scenario, technology/configuration and evidence contract.
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+A case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge sources](#uc-21-challenge-sources), then select the bounded scenario, technology/configuration and evidence contract.
+``````
+
+####92 historical unit 7 — Existing reader passage: | Objective and scientific claim |
+
+Complete current before at preparation epoch:
+
+``````text
+| Objective and scientific claim | [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast. |
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+| Objective and scientific claim | [UC-21 research questions](#uc-21-research-questions) and [official case assessment criteria](https://github.com/FG-TIDA/use-cases/issues/21#6-assessment-criteria) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast; use the original claim-specific protocol identified by the study. |
+``````
+
+####92 historical unit 8 — Existing reader passage: | Challenge and admitted variant |
+
+Complete current before at preparation epoch:
+
+``````text
+| Challenge and admitted variant | [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+| Challenge and admitted variant | [Preserved case-family admission X1–X7](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |
+``````
+
+####92 historical unit 9 — Existing reader passage: | Implementation comparison |
+
+Complete current before at preparation epoch:
+
+``````text
+| Implementation comparison | [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+| Implementation comparison | [Preserved UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |
+``````
+
+####92 historical unit 10 — Existing reader passage: [UC-21's maintained package on main]
+
+Complete current before at preparation epoch:
+
+``````text
+[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
+``````
+
+Complete earlier proposed after (held):
+
+``````text
+[The official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) connects to the [research questions](#uc-21-research-questions), [Challenge sources](#uc-21-challenge-sources) and recorded work in Contributions. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain their original names, units, protocols and stopping rules.
+
+<details>
+<summary>Earlier fork-based reader passages — retained navigation history</summary>
+
+The following passages retain the earlier links and wording for traceability. The active route is the official case record and Contributions above.
+
+| What is UC-21 trying to establish? | [UC-21 public entry](https://github.com/FG-TIDA/use-cases/issues/21) and [current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives) |
+
+| Which scenario, reduction or extension supplies the problem? | [UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/README.md), [R01 reference scenario](./baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), [technology extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) and [kernel/proof obligations](./baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md) |
+
+For terminology, use [Stage A §3](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first): the Challenge is the problem or failure family, and a bounded scenario, fixture or reduction instantiates it. [Stage A §6](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces) distinguishes profile, traversal, trace and DDS battery/campaign. [UC-21 conventions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) retain the scenario and route labels. A research campaign, an S4 business campaign and R01's operational campaign are different source contexts and accounting units. Reduction/extension transfer follows its owning proof or family-admission contract; navigation does not merge them.
+
+The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and main for current reading. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and version decisions.
+
+A case supplies the question and acceptance conditions. DDS supplies the study method. Read the [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario), then select the bounded scenario, technology/configuration and evidence contract.
+
+| Objective and scientific claim | [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) | Case acceptance, HC, HR, HS or the selected H1–H6 contrast. |
+
+| Challenge and admitted variant | [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS technology mapping](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping) | Kernel, receiving boundary, failure predicate, inherited acceptance, positive control, resources and declared additions. |
+
+| Implementation comparison | [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) | The tested configuration and, for recurrence, the demonstrated R1 correction retained in R2. |
+
+[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
+
+</details>
+``````
+
+####92 passage1 later qualified successor — held with the wave
+
+Complete actual current before:
+
+``````text
+The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.
+``````
+
+Complete later proposed after:
+
+``````text
+The reader route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. Within DDS, the technology/version/configuration is mapped to a Challenge through a specified evaluation scenario/profile. The source method records the bounded base scenario and technology mapping separately; its original meaning, frozen facts and labels remain intact.
+
+### UC-21 research questions
+
+The [official UC-21 case record](https://github.com/FG-TIDA/use-cases/issues/21) records the case and its submitted acceptance conditions. Contributions is the maintained research corpus. Select the question first, then its Challenge, technology/configuration and evidence contract. The questions below guide that selection; they do not replace the complete case protocols.
+
+The historical protocol links select the verified case edition at commit `724d69f9cf69aaadd2f84f50934db9cf77fcc1f1`, which includes later case and reader revisions. That source edition is distinct from the [original submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails). A study identifies the exact case edition and protocol it actually consumes.
+
+| Objective | Research question | Historical case-source protocol |
+|---|---|---|
+| Decision correctness and legitimate continuity | Does the selected configuration meet the decision, authority, effect and timing conditions while allowing justified activity? | [Case acceptance plans](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) |
+| Effectiveness of existing controls | Does a competent conventional configuration, including the reinforced R1, correct the selected failure? Successful existing defences receive credit. | [R0/R1/R2 comparisons](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment) |
+| Recurrence after correction | Can an admitted material change reproduce the same failure after R1 has demonstrated correction, with its safeguards and generic adaptation retained? | [HR recurrence protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#annex-r) |
+| Common causal pathway | Can an admitted transfer, qualification-loss, material-change and reuse pathway produce the independently defined failure in each declared family? | [HC causal protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |
+| Sufficient common response | Can a declared communication-and-processing mechanism provide timely warning and authorized response while preserving legitimate activity across its registered scope? | [HS response protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |
+
+Select case acceptance, HC, HR, HS or an individual [H1–H6 contrast](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#8-the-six-canonical-hypotheses-and-their-refutation-tests) through the [case claim-selection protocol](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection). Keep that choice separate from R0/R1/R2 and from DDS Stages A/B/C. Each source retains its definitions, admission conditions and evidence limits.
+
+The historical case texts and their unique protocols have not yet been fully reconciled into Contributions. This is a reading bridge to existing research and identified source dependencies, not a replacement case compilation or a completed source migration. DDS remains the reusable method for UC-21 and other cases; case-specific sources retain their own responsibilities.
+
+### UC-21 Challenge sources
+
+The S1–S6 slots correspond to the following Contributions sources. Choose the exact edition consumed by a study; a current reader source does not replace its earlier freeze.
+
+| Challenge slot | Failure family | Contributions source |
+|---|---|---|
+| S1 / 00E | Enterprise synthesis | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) |
+| S2 / 00F | Shared mobility | [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) |
+| S3 / 00G | Propagated false mission | [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) |
+| S4 / 00H | Finding beyond authority | [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) |
+| S5 / 00I | Delayed repair | [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) |
+| S6 / 00J | Rights-provenance inversion | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
+``````
+
+## 7. Ordered small waves and closure matrix
+
+Wave0 finishes this documentary comparative plan and evidence errata. Coordinator integration into existing review owners is separate authorised work; this task performs no VNext/public writes. Every later wave requires its own exact named Ivan GO; the ordering below never grants execution.
+
+| Wave | Allowlisted scope / owner | Readiness and exact decision | Acceptance / still open |
+|---|---|---|---|
+| 0 documentary delivery | This unifiedMD/JSON,checkpoint/hash; sealed A unchanged | Complete comparative consolidation; accept plan as preparation only | Two final supports read; critical errata authenticated; originals andv1 history preserved. No corpus-restored claim. |
+| 1a narrow independent text | 94,95,97 respective existingVNext | Complete units; IvanGO names selectedIDs | Exactbefore1, links/fragments/context; full case/S6 reception remains open. |
+| 1b dated scientific reading / attribution | 96;98/99;100;101/102;00Jqualifier in separate subwaves | Exact units; campaign/document owner verifies current reading; no 93 bundle | Negative outcomes/premises retained; captions cannot close science or media. |
+| 2 material case reception | W02+W03;W04 selected neutral/alias controls; W06 required source custody | Full current§13 and proposedafter/card mappings needed; IvanGO exact payload/file set | All HR/run duties/denominators and necessary evidence reachable; no duplicate theory/mandatoryhop. |
+| 3 capacity and instrument successors | 93qualified/W05; W07 selected instrument; W08 epoch/oracle nexttasks | Before/after plus consumer/proof manifest; distinctGO perunit | No native/admission/engineering result inferred; current UNKNOWN and freeze contracts intact. |
+| 4 remaining logical evidence batches | W06/W09 material versions,merges,protectedGO,bilingual/media | Exact selectedbatch/rights/premises before custody/adoptionGO | No masscopy/countmigration; unread remainder remains explicit. |
+| 5 reader route source wave | All ten92 plusEP/READMEjointconsequences | Held until actual material reception; exactconsistentbatchGO | UC21→objectives→Challenges→DDS→campaigns→results; complete links; 3READMElevels; oldevidence remains full. |
+| 6 officialIssue/PDF | 91 actual officialentry/attachments | Last: fresh actualexternalbody/access,ownerapproval,exactIvanpublicationGO | Publicreadback body/assets/fragments; this plan neither sends nor publishes. |
+
+| Closure axis | Current state | Evidence needed to close |
+|---|---|---|
+| Independent source-first strategy gate | Sealed, complete for its disclosed bounded scope | Phase A hash unchanged; no retrospective exposure rewrite. |
+| Comparative unified PLAN delivery | Complete for available prior recommendation families and final corroboration | This report/matrix/packages/full pairs; no borrowed whole-source PASS. |
+| Source restoration/reinsertion | Not executed | NamedGO, actual allowlisted application and independentreadback. |
+| Exhaustive source/version/media review | Open | W06/W09 and specific source-frontier records; full source flags remainfalse. |
+| Genericinstrumentadmission/native architecture/product claims | Open | Chosen instrumentcontrols, independentreference/admission and scopedA/B/C evidence. |
+| OfficialUC21/PDF/Issue update | Held | Actualsource integration and namedofficial owner+Ivanapproval last. |
+
+## 8. Third-party verification and inverse scope
+
+For each wave an independent reviewer receives its exact commit cut, allowlisted paths/modes, full current before/after, source/receiver matrix, predecessor custody and decision text. Verify both the forward change and its inverse: inverse scope is exactly the selected replacement units and new explicitly allowlisted custody assets, never an old whole-tree rollback. Reversal must preserve authentic later successors and their current owner links; if later edits intersect a unit, prepare a new inverse against that actual body rather than overwriting it.
+
+Record pre/post trees and blob/SHA256/mode/byte counts. Nonallowlisted file-set and bytes must remain identical, including originals, freezes, code/results and binaries. New custody assets require full raw-source hashes, edition provenance and rights; absence has no invented old file. Verify incoming as well as outgoing links and fragments, case-sensitive paths, anchors generated from actual headings, source pins, reciprocal receiver links and the complete reader path. Link survival alone is insufficient: each clause/asset needs a named semantic receiver, correction or retained full antecedent decision.
+
+Check each consumed freeze/run contract unchanged: source/card/schema/version/hash, private versus public observations, temporal authority, capacity/resource units, control populations, thresholds, seeds/reset/retry/stopping and evidence-mode ceiling. Separate old evidence-reading links from active consumption. Compare OOXML ZIP parts/relationships/media, nativeSVG/PNG and bilingual/original text plus rendered visual meaning. Text extraction/hash parity does not substitute for visual or rights review.
+
+After later authorised publication, read back exact remote blobs/body/attachments and all official links; record actual head and new concurrent delta rather than relabelling old coverage. An applied pair has its decision, final bytes and receiver evidence, not merely a prepared-copy receipt. Any failed gate holds the affected wave or dependent claim; no global restored/reviewed label follows from a count, seal or local PASS.
+
+## 9. Source identities, public evidence and honest frontier
+
+Source cut`89273f548f6b5ed8f7e0576040f615b5653ffaf6` remains scientific baseline. The later`e9e7cd3cd1b71b9759fe6adcf183bc3882fc9a96` delta is this reviewer's published PhaseA addition in existingDDS/EPVNext only; source bodies unchanged. Baseline oldVNext bytes are exact prefixes. Future adoption still refreshes affected heads and bodies.
+
+## Appendix A. All102 priority recommendations — documentary dispositions
+
+Original titles below are quoted source metadata; current decisions are in English. A specific unresolved gate is retained rather than an identical generic placeholder. Full earlier literals/dependencies/metadata remain in the machine crosswalk.
+
+| ID | Original title | Disposition | Specific reason / missing gate | Existing VNext | Package |
+|---|---|---|---|---|---|
+| 1 | Nota de acceso a revisión de EP | already-received | Documentary reception: all recorded complete after units occur in actual pinned source architectural-contributions/ecosystem-positioning/README.md; source state also records Ya publicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | architectural-contributions/ecosystem-positioning/README_VNext.md | W06 |
+| 2 | Antigua propuesta de convertir EP en Level 4 | rejected | Four-level EP proposal conflicts with current Document Control section14 and explicit three-level instruction; retain its authentic history. | architectural-contributions/ecosystem-positioning/README_VNext.md | W06 |
+| 3 | Explicar la idea central antes de elegir una ruta | revised | Original mid-body insertion conflicts with EP append-only guard. Preserve prior pair; use already-present joint closing orientation71 rather than repeat these edits. | architectural-contributions/ecosystem-positioning/README_VNext.md | W06 |
+| 4 | Separar semántica actual y resultados históricos | revised | Original mid-body insertion conflicts with EP append-only guard. Preserve prior pair; use already-present joint closing orientation71 rather than repeat these edits. | architectural-contributions/ecosystem-positioning/README_VNext.md | W06 |
+| 5 | Distinguir principios P1–P6 y posturas P1–P3 | revised | Original mid-body insertion conflicts with EP append-only guard. Preserve prior pair; use already-present joint closing orientation71 rather than repeat these edits. | architectural-contributions/ecosystem-positioning/README_VNext.md | W06 |
+| 6 | Explicar cómo leer la tabla mecanismo–requisito | unresolved | Specific gate for #6 (Explicar cómo leer la tabla mecanismo–requisito): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md and named dependencies ['research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md', 'research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00M_A01_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00M_A01_VNext.md | W06 |
+| 7 | Dar un siguiente paso de 00M a 00N | unresolved | Specific gate for #7 (Dar un siguiente paso de 00M a 00N): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md and named dependencies ['research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00M_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00M_VNext.md | W06 |
+| 8 | Ejemplo de evidencia incompatible y falsa certeza | unresolved | Specific gate for #8 (Ejemplo de evidencia incompatible y falsa certeza): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md and named dependencies ['research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md', 'research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00M_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00M_VNext.md | W06 |
+| 9 | Acceso alternativo a la referencia R4 | unresolved | Specific gate for #9 (Acceso alternativo a la referencia R4): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md and named dependencies ['research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00M_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00M_VNext.md | W06 |
+| 10 | Distinguir versiones de origen y ruta actual del addendum | unresolved | Specific gate for #10 (Distinguir versiones de origen y ruta actual del addendum): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md and named dependencies ['research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md', 'research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md', 'research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md', 'research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md | W06 |
+| 11 | Condicionar el tamaño y coste del contexto útil | unresolved | Specific gate for #11 (Condicionar el tamaño y coste del contexto útil): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md and named dependencies ['research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md', 'research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00N_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00N_VNext.md | W06 |
+| 12 | Ruta corta de lectura en 00N | unresolved | Specific gate for #12 (Ruta corta de lectura en 00N): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md and named dependencies ['research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00N_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00N_VNext.md | W06 |
+| 13 | Publicación de 00N distinta de madurez | unresolved | Specific gate for #13 (Publicación de 00N distinta de madurez): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md and named dependencies ['research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00N_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00N_VNext.md | W06 |
+| 14 | Corregir el total a seis familias de escenarios | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 15 | Cuatro familias distintas sin afirmar independencia | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 16 | Vincular la ejecución al estado recalificado | already-received | S10 applied in working successor c0226a1ba9a45976ad0c887dd9afb97b103e6c37; frozen canonical4fe3d69 intentionally retains earlier body. Do not reopen #16 or retrofit old freezes. | research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W08 |
+| 17 | Explicar la correspondencia P_RA y delta RA | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/01D_VNext.md | W06 |
+| 18 | Actualizar la referencia de 04 a 00I existente | unresolved | Specific gate for #18 (Actualizar la referencia de 04 a 00I existente): compare its complete historical pair against actual research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md and named dependencies ['research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md', 'research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 19 | Condicionar cuándo un A_ref conserva el resultado | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 20 | Orientación humana del índice EA | unresolved | Specific gate for #20 (Orientación humana del índice EA): compare its complete historical pair against actual research/ecosystem-awareness/baseline/README.md and named dependencies ['research/ecosystem-awareness/baseline/README.md', 'research/ecosystem-awareness/baseline/visuals/README.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/README_VNext.md | W06 |
+| 21 | Acceso a trabajo adicional desde baseline | unresolved | Specific gate for #21 (Acceso a trabajo adicional desde baseline): compare its complete historical pair against actual research/ecosystem-awareness/baseline/README.md and named dependencies ['research/ecosystem-awareness/baseline/non-canonical/README.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/README_VNext.md | W06 |
+| 22 | Mantener al dueño legítimo de la respuesta en UC03 | unresolved | Specific gate for #22 (Mantener al dueño legítimo de la respuesta en UC03): compare its complete historical pair against actual research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md and named dependencies ['research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md', 'research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md', 'standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md', 'research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/UC-EA-03_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/UC-EA-03_VNext.md | W06 |
+| 23 | Calificar el fallback humano por autoridad y plazo | unresolved | Specific gate for #23 (Calificar el fallback humano por autoridad y plazo): compare its complete historical pair against actual research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md and named dependencies ['research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md', 'research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md', 'standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md', 'research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/UC-EA-03_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/UC-EA-03_VNext.md | W06 |
+| 24 | Separar versión de schema y paquete UC4 | already-received | OracleDELTA001 received exact/adapted in current oracle body as final DDS corroboration specifies; old complete after need not remain substring after later adaptation. Do not reopen from stale pending caption. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 25 | Explicar reutilización por familia sin trasladar resultados | already-received | OracleDELTA002 received exact/adapted in current oracle body as final DDS corroboration specifies; old complete after need not remain substring after later adaptation. Do not reopen from stale pending caption. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 26 | Self-test verde distinto de tecnología que pasa | already-received | OracleDELTA003 received exact/adapted in current oracle body as final DDS corroboration specifies; old complete after need not remain substring after later adaptation. Do not reopen from stale pending caption. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 27 | Límite de dominio e independencia del oráculo | already-received | OracleDELTA004 received exact/adapted in current oracle body as final DDS corroboration specifies; old complete after need not remain substring after later adaptation. Do not reopen from stale pending caption. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 28 | Propósito del oráculo antes de la atribución | already-received | OracleDELTA005 received exact/adapted in current oracle body as final DDS corroboration specifies; old complete after need not remain substring after later adaptation. Do not reopen from stale pending caption. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 29 | Distinguir modo, efectos y métricas antes de reproducir | already-received | OracleDELTA006 received exact/adapted in current oracle body as final DDS corroboration specifies; old complete after need not remain substring after later adaptation. Do not reopen from stale pending caption. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 30 | Convertir referencias propias en rutas navegables | already-received | OracleDELTA007 received exact/adapted in current oracle body as final DDS corroboration specifies; old complete after need not remain substring after later adaptation. Do not reopen from stale pending caption. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 31 | Reporte Theme21 distinto de reproducción propia | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 32 | Fecha y versión de fuente para promociones 05A | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 33 | Reconocer 00I como escenario interno en 05 | unresolved | Specific gate for #33 (Reconocer 00I como escenario interno en 05): compare its complete historical pair against actual research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md and named dependencies ['research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md', 'research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 34 | Dos peers como propuesta, no arquitectura FG adoptada | unresolved | Specific gate for #34 (Dos peers como propuesta, no arquitectura FG adoptada): compare its complete historical pair against actual research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md and named dependencies ['research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 35 | Conciliar los cuatro roles RA en su README | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/regime-awareness/README.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/regime-awareness/README_VNext.md | W06 |
+| 36 | Acceso a trabajo adicional desde EWS | unresolved | Specific gate for #36 (Acceso a trabajo adicional desde EWS): compare its complete historical pair against actual research/regime-awareness/minimalistic-early-warning-systems/README.md and named dependencies ['research/regime-awareness/ADDITIONAL_WORK_README.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/regime-awareness/README_VNext.md. Preserve current corrections and freeze contracts. | research/regime-awareness/README_VNext.md | W06 |
+| 37 | Conservar significado RA al entrar en Operation | already-received | Documentary reception: all recorded complete after units occur in actual pinned source standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | standards/minimum-sufficient-control/04_OPERATION_VNext.md | W06 |
+| 38 | Mostrar todo B_Cart en el índice MSCA | unresolved | Specific gate for #38 (Mostrar todo B_Cart en el índice MSCA): compare its complete historical pair against actual standards/minimum-sufficient-control/README.md and named dependencies ['research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md', 'research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md', 'research/regime-awareness/README.md', 'standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md', 'standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md', 'research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md', 'research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination standards/minimum-sufficient-control/README_VNext.md. Preserve current corrections and freeze contracts. | standards/minimum-sufficient-control/README_VNext.md | W06 |
+| 39 | Acceso a trabajo adicional desde MSCA | unresolved | Specific gate for #39 (Acceso a trabajo adicional desde MSCA): compare its complete historical pair against actual standards/minimum-sufficient-control/README.md and named dependencies ['standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination standards/minimum-sufficient-control/README_VNext.md. Preserve current corrections and freeze contracts. | standards/minimum-sufficient-control/README_VNext.md | W06 |
+| 40 | Tabla W1 presente distinta de todos los gates cerrados | unresolved | Specific gate for #40 (Tabla W1 presente distinta de todos los gates cerrados): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md and named dependencies ['research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md', 'research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'research/ecosystem-awareness/WORKPLAN.md', 'research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/pre_registration_v0.5.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md | W06 |
+| 41 | Fijar admisión antes de ver resultados y conservar fallos | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md | W06 |
+| 42 | Justificar medida de información antes de usar sinergia | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/00N_VNext.md | W06 |
+| 43 | Precisar rol efectivo frente a rol vinculado | unresolved | Specific gate for #43 (Precisar rol efectivo frente a rol vinculado): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md and named dependencies ['research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md', 'research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md', 'research/regime-awareness/README.md', 'standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md', 'standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md', 'research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md', 'research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 44 | Hacer visible oportunidad, admisibilidad, autoridad y ejecución | unresolved | Specific gate for #44 (Hacer visible oportunidad, admisibilidad, autoridad y ejecución): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md and named dependencies ['research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md', 'research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 45 | Aclarar autorización del efecto compuesto | unresolved | Specific gate for #45 (Aclarar autorización del efecto compuesto): compare its complete historical pair against actual research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md and named dependencies ['research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md', 'research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W06 |
+| 46 | Preparar envolvente UC4 y sidecar R01 | unresolved | Specific gate for #46 (Preparar envolvente UC4 y sidecar R01): compare its complete historical pair against actual research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md and named dependencies ['research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE.md', 'research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/NELSON_BASELINE_IMPORT.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 47 | Diseñar primer perfil propio de instrumento | unresolved | Specific gate for #47 (Diseñar primer perfil propio de instrumento): compare its complete historical pair against actual research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md and named dependencies ['research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md', 'research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md', 'research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 48 | Completar fidelidad del evaluador en perfil admitido | unresolved | Specific gate for #48 (Completar fidelidad del evaluador en perfil admitido): compare its complete historical pair against actual research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md and named dependencies ['research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md', 'research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 49 | Extender solo lo necesario a otras familias | unresolved | Specific gate for #49 (Extender solo lo necesario a otras familias): compare its complete historical pair against actual research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md and named dependencies ['research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md', 'research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md', 'research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 50 | Registrar una campaña concreta | unresolved | Specific gate for #50 (Registrar una campaña concreta): compare its complete historical pair against actual research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md and named dependencies ['research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md', 'research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 51 | Evaluar una realización real elegida | unresolved | Specific gate for #51 (Evaluar una realización real elegida): compare its complete historical pair against actual research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md and named dependencies ['research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md', 'research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/ISOLATION_CONTRACT.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md | W08 |
+| 52 | Calificar la cartografía al recibirla en RA | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/01C_VNext.md | W06 |
+| 53 | Conservar la calificación al enviar Cart_i a RA | already-received | Documentary reception: all recorded complete after units occur in actual pinned source standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | standards/minimum-sufficient-control/03_COMPOSITION_VNext.md | W06 |
+| 54 | Separar rol vinculado y conducta observada al entrar en RA | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/01C_VNext.md | W06 |
+| 55 | Acceso a revisión de Role y Composition | unresolved | Specific gate for #55 (Acceso a revisión de Role y Composition): compare its complete historical pair against actual standards/minimum-sufficient-control/README.md and named dependencies ['standards/minimum-sufficient-control/02_ROLE_REVIEW_CARD.md', 'standards/minimum-sufficient-control/03_COMPOSITION_REVIEW_CARD.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination standards/minimum-sufficient-control/README_VNext.md. Preserve current corrections and freeze contracts. | standards/minimum-sufficient-control/README_VNext.md | W06 |
+| 56 | Corregir el título duplicado de D_Cart | already-received | Documentary reception: all recorded complete after units occur in actual pinned source standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | standards/minimum-sufficient-control/03_COMPOSITION_VNext.md | W06 |
+| 57 | Precisar cómo se compara un gradiente vectorial | already-received | Documentary reception: all recorded complete after units occur in actual pinned source architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md | W06 |
+| 58 | Conservar alternativas y casos sin máximo en la selección | already-received | Documentary reception: all recorded complete after units occur in actual pinned source architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md | W06 |
+| 59 | Mantener en Operation el perfil de comparación del gradiente | already-received | Documentary reception: all recorded complete after units occur in actual pinned source standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | standards/minimum-sufficient-control/04_OPERATION_VNext.md | W06 |
+| 60 | Decir que P3 identifica una necesidad, sin verbo de autorización | unresolved | Specific gate for #60 (Decir que P3 identifica una necesidad, sin verbo de autorización): compare its complete historical pair against actual standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md and named dependencies ['architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md', 'standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md', 'standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination standards/minimum-sufficient-control/04_OPERATION_VNext.md. Preserve current corrections and freeze contracts. | standards/minimum-sufficient-control/04_OPERATION_VNext.md | W06 |
+| 61 | Corregir el título duplicado de residual en Gradient | already-received | Documentary reception: all recorded complete after units occur in actual pinned source architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md | W06 |
+| 62 | Enlazar fichas de revisión de Architecture y ACC | already-received | Documentary reception: all recorded complete after units occur in actual pinned source standards/minimum-sufficient-control/README.md; source state also records Ya publicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | standards/minimum-sufficient-control/README_VNext.md | W06 |
+| 63 | Enlazar ficha externa de participación ACC01I | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/README.md; source state also records Ya publicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/README_VNext.md | W06 |
+| 64 | Evitar doble conteo de trabajo comprometido en HID | rejected | Do not reinstate the retired queue-deficit HIT/HID definition. Current01K separates architectural HID from runtime capacity. Historical custody remains necessary. | research/ecosystem-awareness/baseline/01K_VNext.md | W05 |
+| 65 | Separar dos lecturas en el índice de extensiones | unresolved | Specific gate for #65 (Separar dos lecturas en el índice de extensiones): compare its complete historical pair against actual research/ecosystem-awareness/baseline/README.md and named dependencies ['research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md', 'standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md', 'research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/README_VNext.md | W06 |
+| 66 | Explicar el cuarto propietario de extensión en el resumen | unresolved | Specific gate for #66 (Explicar el cuarto propietario de extensión en el resumen): compare its complete historical pair against actual research/ecosystem-awareness/baseline/README.md and named dependencies ['research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md', 'standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md', 'research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/README_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/README_VNext.md | W06 |
+| 67 | Limitar la aritmética HIT a unidades aditivas declaradas | rejected | Do not reinstate the retired queue-deficit HIT/HID definition. Current01K separates architectural HID from runtime capacity. Historical custody remains necessary. | research/ecosystem-awareness/baseline/01K_VNext.md | W05 |
+| 68 | Condicionar el residualD a una barrera efectiva | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/01J_VNext.md | W06 |
+| 69 | Conservar UNKNOWN en perfiles sintetizados todavía no calificados | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/01J_VNext.md | W06 |
+| 70 | Hacer condicionalD_compatibility en el esquema de recepción | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/01J_VNext.md | W06 |
+| 71 | Aclaración conjunta de arquitectura, evidencia y posturas al final de EP | already-received | Documentary reception: all recorded complete after units occur in actual pinned source architectural-contributions/ecosystem-positioning/README.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | architectural-contributions/ecosystem-positioning/README_VNext.md | W06 |
+| 72 | Conservar A como resultado funcional en la explicación de x de 01B | unresolved | Specific gate for #72 (Conservar A como resultado funcional en la explicación de x de 01B): compare its complete historical pair against actual research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md and named dependencies ['research/ecosystem-awareness/baseline/00M_VNext.md', 'research/ecosystem-awareness/baseline/01D_VNext.md', 'standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/baseline/01B_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/baseline/01B_VNext.md | W06 |
+| 73 | Conservar fallos Type 1/2 dentro de un alcance fijo | already-received | Documentary reception: all recorded complete after units occur in actual pinned source research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md; source state also records Aplicado. Do not repeat. This does not establish original GO, scientific utility or every dependency. | research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md | W06 |
+| 74 | Rechazar sustitutos NA de tipo string antes de adjudicar | unresolved | Specific gate for #74 (Rechazar sustitutos NA de tipo string antes de adjudicar): compare its complete historical pair against actual research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py and named dependencies ['research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md', 'research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.2.py']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W06 |
+| 75 | Mantener auditorías y viejos publicados al cerrar propuestas | unresolved | Specific gate for #75 (Mantener auditorías y viejos publicados al cerrar propuestas): compare its complete historical pair against actual research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md and named dependencies ['governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md', 'architectural-contributions/ecosystem-positioning/README_VNext.md']. The full after is not established as current; decide current obligation versus source-specific realization before any successor. Existing preparation destination research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md. Preserve current corrections and freeze contracts. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W07 |
+| 76 | Aclarar que Stage1/Stage2 son fases internas de DDS Stage A | already-received | Relevant current source body read directly: internal A phases clarified; current case links and corrected checker reading route already present. No repeat application. Original human authorization not independently authenticated here. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W07 |
+| 77 | Leer UC-21 desde main en las siete rutas DDS | already-received | Applied navigation/terminology/corrected reading wave. Retain authentic before/after and actual current receiver; no repeated application. Broader meaning/science remains separate. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W01 |
+| 78 | Distinguir el inventario histórico de la lectura actual | already-received | Applied navigation/terminology/corrected reading wave. Retain authentic before/after and actual current receiver; no repeated application. Broader meaning/science remains separate. | contributions/when-controls-work-system-fails/README_VNext.md | W01 |
+| 79 | Llevar la familia S4 vigente a main sin perder su ruta anterior | already-received | Applied navigation/terminology/corrected reading wave. Retain authentic before/after and actual current receiver; no repeated application. Broader meaning/science remains separate. | research/ecosystem-awareness/baseline/README_VNext.md | W01 |
+| 80 | Conectar la reutilización de los trece estudios con el caso vigente | already-received | Applied navigation/terminology/corrected reading wave. Retain authentic before/after and actual current receiver; no repeated application. Broader meaning/science remains separate. | research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md | W01 |
+| 81 | Dar acceso al checker corregido manteniendo la edición congelada | already-received | Applied navigation/terminology/corrected reading wave. Retain authentic before/after and actual current receiver; no repeated application. Broader meaning/science remains separate. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W01 |
+| 82 | Enlazar el nuevo ciclo bidireccional propuesto UC4–UC21 | already-received | Applied navigation/terminology/corrected reading wave. Retain authentic before/after and actual current receiver; no repeated application. Broader meaning/science remains separate. | contributions/when-controls-work-system-fails/README_VNext.md | W01 |
+| 83 | Dar a UC-21 una entrada directa y completa desde su raíz | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | contributions/when-controls-work-system-fails/README_VNext.md | W06 |
+| 84 | Conectar método y arquitectura actuales conservando los cortes anteriores | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | contributions/when-controls-work-system-fails/README_VNext.md | W06 |
+| 85 | Actualizar las aportaciones S4/CDA y el ciclo opcional UC-4 ↔ UC-21 | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | contributions/when-controls-work-system-fails/README_VNext.md | W06 |
+| 86 | Explicar el siguiente trabajo y quién decide cada cierre | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | contributions/when-controls-work-system-fails/README_VNext.md | W06 |
+| 87 | Dar el mismo recorrido al lector que entra directamente en USE_CASE | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | contributions/when-controls-work-system-fails/USE_CASE_VNext.md | W06 |
+| 88 | Conciliar en DDS las condiciones del seguimiento UC-4 / CDA | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W07 |
+| 89 | Incluir UC-21 en los índices de casos | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | contributions/when-controls-work-system-fails/README_VNext.md | W06 |
+| 90 | Poner la presentación mantenida en la entrada pública de UC-21 | rejected | Superseded closure route; its fork maintenance/entry wave cannot govern the one-maintained-Contributions instruction. Preserve complete old pairs and useful source evidence;92/91 supersede reader work. | contributions/when-controls-work-system-fails/README_VNext.md | W06 |
+| 91 | Link the official UC-21 entry directly to Contributions | revised | Held in effective epoch until W02/03/04/06 material case reception;92 ten preparations must be reconciled together and91 external official source/PDF last. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W10 |
+| 92 | Make the existing DDS index the Contributions reader entry for UC-21 | revised | Held in effective epoch until W02/03/04/06 material case reception;92 ten preparations must be reconciled together and91 external official source/PDF last. | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W10 |
+| 93 | Restore explicit finite HumanTime condition in 01K runtime gate | revised | Literal absence is real, but current01K14 and A015.2–5.4 retain capacity semantics. Prefer precise service-demand/proof-class qualification; all consuming deadlines and proof policies still need reconciliation.; complete pair preserved; Not decision-ready: consumer timing/proof-policy reconciliation incomplete. | research/ecosystem-awareness/baseline/01K_VNext.md | W05 |
+| 94 | Align00J-A01 introduction with the same-Q5 controlled regime test | maintained | Current introduction conflicts with same-Q5 section6; independently checked original3c3d9d history confirms incomplete earlier update.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | research/ecosystem-awareness/baseline/README_VNext.md | W01 |
+| 95 | Clarify UC-21 claim, condition and route namespaces in the existing DDS paragraph | maintained | Current generic namespace paragraph can use the selected case-specific distinctions; conventions and claim-selection independently inspected. Does not supply complete HR/run bridge.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W01 |
+| 96 | Date the historical Flores preference and point to the current owner principle | maintained | Current index still calls antecedent UC17-08 preferred; current campaign and full principle v0.2 explicitly supersede that priority. Preserve both texts and no-run status.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md | W01 |
+| 97 | Link the approved S10 working successor at the existing EP closing note | maintained | Current EP ends at the exact old paragraph; S10 working successor exists with action-time binding and distinct frozen-predecessor status. Addition must remain at EOF.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | architectural-contributions/ecosystem-positioning/README_VNext.md | W01 |
+| 98 | Qualify the dated completion edition | maintained | Dated release manifest and current active documentation are different epochs. Direct raw-byte checks recorded separately; preserve original manifest and avoid regrading original results.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md | W01 |
+| 99 | Identify the actual release-manifest epoch | maintained | Dated release manifest and current active documentation are different epochs. Direct raw-byte checks recorded separately; preserve original manifest and avoid regrading original results.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md | W01 |
+| 100 | Align 02A attribution with the current 02B relative-closure theorem | maintained | Current02A overattributes a deterministic surjective normalizer to current02B, whose theorem is nonempty set-valued relative closure. Full downstream/semantic-transfer reconciliation remains pending.; complete pair preserved; Literal and attribution defect confirmed; downstream A19/A21/00K and semantic transfer still unresolved, no global proof repair clearance. | research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md | W01 |
+| 101 | Identify the amended input-contract Markdown in its source comment | maintained | Current Markdown itself contains explicit dated semantic amendments; unchanged-reproduction comment is misleading. Preserve Word/graphics/manifest bytes.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W01 |
+| 102 | Distinguish the original Word publication from current input-contract amendments | maintained | Current dated amendment and historical manifest require an honest original-vs-current custody explanation; no reversal of B/C correction or rendered-parity assertion.; complete pair preserved; Pending named exact Ivan GO; additional gates in plan apply | research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md | W01 |
+
+| Source path / commit permalink | Blob / bytes / raw SHA256 |
+|---|---|
+| [DOCUMENT_CONTROL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/DOCUMENT_CONTROL.md) | e3ada85de309e7f654bbf74f4b1785cde51fb245 / 53097 / d8343817b320af0655b28a90ebbbbabc50f8b14af13a776fa032db9452217e5b |
+| [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/architectural-contributions/ecosystem-positioning/README.md) | 9767ec8efb7d3a2875866ea3cd22ebc94882e930 / 90992 / 4204d931a2334ad79dece6d30f8cee0c095b147fd05335daca342dd9f30e38dc |
+| [architectural-contributions/ecosystem-positioning/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/architectural-contributions/ecosystem-positioning/README_VNext.md) | 03e4e2b5a5931ea66f17127fd21e0d43e06d3020 / 341185 / 011aa30929ce8b506e85ca3d4fe23d514337c83ebdc588969b59427bc628912a |
+| [governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) | 88429a05db0795b5f0a67f90f3965fbec9b7f730 / 63627 / b4054e12b9728c3b8932dcb44ff66d0a4426255e60608c10128965198f70f693 |
+| [governance/review/change-priorities-2026-10-06/priorities.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/governance/review/change-priorities-2026-10-06/priorities.json) | 65649ce22b53dd1ed7fb4c53fd5f1fc26e1f8d5a / 977428 / 3374989a9022ab5e44d5660f9f397102fe49a266070c160b6bf3dba8f81f0f1c |
+| [research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) | 88b78f386047a76e0e2da905bd951ada06e5602b / 49765 / 957454dc2daea832383717a9ad531ec65509b7cba99243b72a7bbd5ed31c2aa5 |
+| [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | e636346c46c49cb81ecc7f84ec9c792e9729cc95 / 58287 / 28f22335a08fd763abdcf49790b6a559b42679842fd2c0c750195551cf0bb8bf |
+| [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) | b7bb45fdc011badc5c866ceecfa58af8fa8db4ad / 1117284 / 2cdf224d702eff8a209abd8ebce6212664151ed76e55b6ecdd452fd681cf4979 |
+| [research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) | 84c921669d2403aaf885b95219e1645d6e952355 / 11026 / 32a4afdd8632eca9e28acad7a8be15581e761cd8cee91ef11e9300f845893318 |
+| [research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) | 4f9f2f605e599570592f08762dd4d91dc7863a7f / 11051 / 129650976481b6482ea40b1891e6f61a46697ed6337282218ace54018e5f41f7 |
+| [research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.1_DRAFT.md) | 55b052da6450592bb6cf02174daaf6fa10c82404 / 12456 / a2ca4694cdf6e81751da9a65c49f92f41abf0a55d2ddb3f6722715aed021ba89 |
+| [research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md) | dacce9580af70cf883ff0a6b36c68850fd08390a / 15374 / f5e86ac0248481cf80c6f3cef2d7df37311ec9d1b0c503c6ebcd9700251f6447 |
+| [research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md) | b2a7ba7e56599d523b997f5480cd1db8269849af / 4381 / 8b08f5e3bd8c2557ccbd863e8a8e3588069dedead6a7d58e19120e78999835a5 |
+| [research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) | af17d682b7e7e742b298de7918ade6029dffa9b8 / 36119 / 5b1546ea6b10c9ca548de34143f754fa03dac06778a34484b511947bab62554c |
+| [research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) | 7195c2215454e40d830f159ac838c898b33573a1 / 3241 / cb6e534afaef1a989d0eabb8d829b902e5d0522bfa71a335fa0d4d8e1b0495d1 |
+| [research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) | 40da30f981f2cdd51b7cbc0ab4f00b55114b429e / 16365 / 3920b2d3afbe3d16c26e9c724331e97f3d1b9cc884b9f732560727f838329a21 |
+| [research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) | 9aa4852906137684c790d190e7ed7f66b1bfae16 / 8216 / 50578320dc572f543ca67bc85054d9cf99fa53d7764c27c05ef0f23a15b26e7e |
+| [research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | c0226a1ba9a45976ad0c887dd9afb97b103e6c37 / 47111 / 7f0193a4d194ec4e1f39873da05e570df6ca8508c647e7a780abad669a753304 |
+| [research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SCHEMA_v0.1.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SCHEMA_v0.1.json) | 8d6850cff955175bf4226fd101f3567bba07c487 / 26696 / 4b6b39ca9f90ae6e1df51cd7aba238cf57c43b9b161e7993c278d14662372245 |
+| [research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md) | 20b7c8e0bea79edc237e695924a2a657713d412c / 48994 / 7f49200eae8d426b8ee51253cd4d527812077b7afa524d3adfeae08234426ae7 |
+| [research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) | ea4bdf6d38064c6fab9c776960df719344919fc3 / 34030 / 44b8ae4e626719830e1908b2ec001a39c6cd1fbd64b02b715d4317caaba1ad1e |
+| [research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_TEST_VECTORS_v0.1.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_TEST_VECTORS_v0.1.json) | b79253493ab1bd2da020a9af3d7a00257fec51f9 / 9252 / 2930b983d77c5afd7752e7810fadb06dbce831452011395eaee8d39648d93b71 |
+| [research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_VERIFICATION_v0.1.md) | a7b92744291f58d27e1dee84dccf0f828c33589d / 12083 / e806c5d68b2ae60a34b3b13bc00c50a3866fc83f2c7ad9ca9b6b67c9e96cf050 |
+| [research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) | e52ed065c5d217da73634c7eb28d26c5d990abae / 45945 / fb4781c32f0bae204091844525ca8a0efec28854a96e94dba58181e51d59f814 |
+| [research/ecosystem-awareness/baseline/01K_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_VNext.md) | 2ec48fc1c71ea72bfba5cc9d58dfb591866cb6d0 / 36719 / 0a9f9d8100caf8b237cf66c140d4e43edf471c89ea5ea679e33a6e4913a71018 |
+| [research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) | cd93c47e302b2f7faaaa5443b75e262d3b8e65d9 / 32975 / b16c8a47d9f783b5bbcbfb714b6f4e6343f5d9a645cc92b27368b18f775279ac |
+| [research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) | 06e12884ecbcff9df820d087e5b727bf4a18adab / 12434 / 990be8220d08634d374ae1ead8b70f9d5e14204b84c5413b540af678339ba117 |
+| [research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) | ac3f066ae72cb9f542e69537b3bcacc46ea4c3fb / 14569 / d23eeeb46c3dd913ce505f300bbfb711d9173ba8748426b37322107c5386718b |
+| [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | eb7ee8539b1cc6765015db114cf0b2c47cd7de5a / 50806 / 67d1147e53a2f92d33748b47f85012f51f12cf14d7cf362cda7068c5f506b483 |
+| [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) | 30e492c671efed802f7b881ed67e9f4dcd4bb079 / 92853 / cbdf56d0fdc78354b6812111e7d5645edb17787bc4f00c1d45d1ee29bff516df |
+| [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) | de6c58c62ad70b3182085333106b41b63a9fef18 / 120640 / 42f27e95a9c9c269c61f6605d9efd02b711d05f7103a6ff00af0fa3da5c15c97 |
+| [research/ecosystem-awareness/baseline/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/README_VNext.md) | c14e88cd8c863152611ede8ab93cbf8f85bce2d4 / 176019 / 355a70b98bcadf74c43ec6a3b95400c7eae8e8fcb543ebc729dd78d727c4255e |
+| [research/ecosystem-awareness/baseline/UC-EA-03_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md) | e1d92fea810669b119cbc134ebe959733138c74c / 26840 / 1ee399c53793f7f118f099717e1553eb3e69d973c96ee90d2382e183505b283e |
+| [research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md) | 982a738acedabbd9ea967e63ed3321216a59434f / 26437 / 1b70384a0d7a8cd49fd0b055273e96211045f0ab5b4f794010fa1ff9be1cf6bd |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) | a194109d55869e7a51ea4f41815c57837e6d100a / 29365 / abc0c15b4be519aec6444812dc4c39109707181e5285f5f9bc004aa322d50640 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md) | 71dec1fde183252490a421bf3e4ff81eda8e49e9 / 49772 / 2002a96f0fb1fe081119b8b32462dd45fcf4f017ce06fad942d8866181e792bc |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md) | dc77ddbdf2ac25668facd4aa174a482028344d8b / 38431 / 92124be3a960ad631a77997fcba1cf47fa491d8af8c896d3eeb7336ddf4c2137 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md) | e890e14e74ecba52f6dc8f2130f28a130eedffe4 / 28386 / b902d8ec82a7ec34ed67f276c27723382212268b709457f27f222bae884e27de |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) | ba43b0ec31ca31114cdd515040c543c9d4dc099d / 18009 / acac4bf93ae42188ca3e7bd7b910e45c40bb15fc5c5e173710d8a495e000cbc9 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md) | 9edd48ff3046b95298146e093b830ea27946f170 / 31537 / 460ef15d558503542af6937d993336490e573b57f8785cf783aad53f95bc0c0a |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/BOUNDARY_RUN_CARD.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/BOUNDARY_RUN_CARD.json) | eebc6bd08515bdf599fab7b53d5c6b7a01d4601b / 5699 / 0ef03db7f98813174c4aa8eeecb033cc9386a40186139864caf3f5b4d1f59766 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/DDS_PROFILE_COVERAGE.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/DDS_PROFILE_COVERAGE.json) | 18bda14a2c9b30351c6f6dbd0e7be05fd0235993 / 8598 / f84039983600f8655e89a415e031b682c5ef4c538b48222da5a323b7bc48f454 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/DELIVERY_MAP.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/DELIVERY_MAP.json) | 6deaa761ec14894eb8b178f3ca7dd0b14eb1ad77 / 2841 / f30ca78af1f2bc1cac10cb2a2ba651dfd04424896c1d833b59dbe41e53d5227d |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/FREEZE.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/FREEZE.json) | 728d4c8f0485364bde35c0e3091c02f9fe4d9b76 / 696 / 4d1f5e6f87f79e8bb2d74b9adfaf11833fa7bf83661a4f807edb90417bae6906 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md) | eded068dcf3b69cd90e45c430c7c608f07ce67b3 / 12878 / ef97cd7b26d62df25e7900a13dba6a3791ed5fb642bf0884200604425cfc9667 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md) | debb9ae62862239ce90be98810d38e5303041e1a / 9731 / 7a257b9af8902f4ecad0b855bc7ba5c0e65bc084f2edd2d6e680d5aba8816bf7 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md) | 990872beae2f632515ee81a4dba36b16b8ad7f9c / 5782 / b02dcfb396e28c60eb9f84387d918b424a874d137ca32ba593e836e004b79026 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md) | 438ef326ea0a565e62a85b2b659b9dbba8dfb231 / 39982 / 78b1e5bfc3e490adf16f49dd11320e48018a24d20c6673031a2b3147823a2913 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/REPRODUCTION_REVIEW.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/REPRODUCTION_REVIEW.json) | 3a0521fa667aabc347674ad335fd0cc3bf8452b0 / 4291 / 9909c68dba40d9aefb98f25da26a2cba5513983e25b48a7144d0c4c93ff872b6 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md) | d087e10bc6faf0c5e1094479afbab00a7b895ecd / 9818 / 190a08f72e437193e9376982dc65b30ff2d0d34191b69ae26b2e7b7c3ee26d18 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md) | 881581f132dc2baeb287a6911ff3d0f1b7b7465b / 9709 / c43378cbedcfa41bbcbf5b554d0c2405b72c2374cc89385f966e4694e0a3b74b |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/run_completion_checks.py](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/run_completion_checks.py) | d0a9a5f1574f0c9343c169a8b679b2659c680dcd / 9846 / 4b26433f12ef077a6d5cd31539145c8fbbfb3f9ebf1ed7c0d269c1baa6db342d |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/2026-10-06-01/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/2026-10-06-01/RESULTS.json) | 8f6a1b7f84c5944aa8dd16c85549785e6eba82f1 / 34050 / d32a4e85094f0def3774cc00cb4d784f19b67b270ddbd4cf55b53c48bf288f79 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/hew/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/hew/RESULTS.json) | ff932def7ec4919817436acc513aadedbf53e869 / 178155 / cbb74df149dfae5928d9358c659fce2b248745afda3d161a0cadd714cfad8000 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/rats-jws/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/rats-jws/RESULTS.json) | 656315ea02b63e677926eff04fc6bdff9b16ade0 / 15235 / c55f9407eeb167a59c280d65fe4c232a3e35177412128f148a4659ba9aa83121 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/spiffe-jwt/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/spiffe-jwt/RESULTS.json) | fbe1a9529620ed3fc4c4fc309afd9862f2510433 / 15727 / b8853fc29f79d5d770954649f35dce483291024f3a42d36e68dfc785072bb8aa |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/stamp-stpa/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/stamp-stpa/RESULTS.json) | 6300c76f714f0c7d9579c6c30e6f6c47a3c42284 / 23616 / 4b715f0be8e28c9615abb53c453ea0627e7a74beb5902e27a37791ff0c31d758 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json) | de603f7f52f06291971ec0c6bfcb5377a1b143a1 / 8521 / f3cf2c0656d16b35c0f523bcb7459e8749c8bf65b652777a21f6da6781c89f2c |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md) | 89c227175a17338b09d50d513b01195975bff1ae / 16189 / fc675df130a8bd41c2d27abf52e48251bb2be4e2a9bc3b187f65d2b2738d08c5 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md) | b53cc318875b849475d26452aaa8fe2d089ce748 / 49361 / a299b4b235858237991f5e4433f15f47f2dfc0e48166460154962fb7003838db |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md) | ddd6e139e7c7833e71c832c0d59fe792d1428aae / 4207 / eab3715c299ebb01f91f5dbf5cb96c70cd08a5ba6b561ea9dd331bb377fef463 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md) | f6c33a3fbf76a1cda2705bd1395953a14547611e / 17741 / e56530c555fe81f795632bc0adcaebedf2520d5b419e663321ab10f5e4041d22 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/BOUNDARY_RUN_CARD.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/BOUNDARY_RUN_CARD.json) | eebc6bd08515bdf599fab7b53d5c6b7a01d4601b / 5699 / 0ef03db7f98813174c4aa8eeecb033cc9386a40186139864caf3f5b4d1f59766 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/DDS_PROFILE_COVERAGE.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/DDS_PROFILE_COVERAGE.json) | 18bda14a2c9b30351c6f6dbd0e7be05fd0235993 / 8598 / f84039983600f8655e89a415e031b682c5ef4c538b48222da5a323b7bc48f454 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/DELIVERY_MAP.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/DELIVERY_MAP.json) | 6deaa761ec14894eb8b178f3ca7dd0b14eb1ad77 / 2841 / f30ca78af1f2bc1cac10cb2a2ba651dfd04424896c1d833b59dbe41e53d5227d |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/FREEZE.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/FREEZE.json) | 728d4c8f0485364bde35c0e3091c02f9fe4d9b76 / 696 / 4d1f5e6f87f79e8bb2d74b9adfaf11833fa7bf83661a4f807edb90417bae6906 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md) | d0ff729f173cad9277c928c1891690efb6e8f0e0 / 9867 / f15d355c6d9e91a7dafdbf8ee6a1ee7e4bd4a8599c5de6236fd19091a272de4e |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md) | e04b8682249289915438ac435e72aec27c4d73f9 / 8215 / 4bf4982e02b1240c737be960a70e578e38579d6ca64fa0a1486c875bfdd3da72 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md) | fc0caf071937a0bf1426fb320f776ee2cf1ff5e5 / 5496 / f3bc41e62595fa1bfc29f7fe4a80362c03b04b5142dfe1d508cc0553a658a72b |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md) | f362d7916dc26202600e6617038f1bfcf5beb0d1 / 1740 / e7d1e0626a078702a524caa58c5f06b758e1994e29a41d86149de25f76343a3e |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/REPRODUCTION_REVIEW.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/REPRODUCTION_REVIEW.json) | 3a0521fa667aabc347674ad335fd0cc3bf8452b0 / 4291 / 9909c68dba40d9aefb98f25da26a2cba5513983e25b48a7144d0c4c93ff872b6 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md) | 547d019b95343e384297f66d87262d045d92e895 / 8282 / 3aa52de019355045115a9becc24c6026d00a16e3c23f6fc116078b9013bee7e2 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md) | ce27999bfd3cf204aa4371d2c2ad405b5e1636fd / 8165 / 1b848c3dfecc442dbcdd2936f20f53567c61581bbbdc6be72e77c0c9793fb327 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/run_completion_checks.py](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/run_completion_checks.py) | d0a9a5f1574f0c9343c169a8b679b2659c680dcd / 9846 / 4b26433f12ef077a6d5cd31539145c8fbbfb3f9ebf1ed7c0d269c1baa6db342d |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/2026-10-06-01/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/2026-10-06-01/RESULTS.json) | 8f6a1b7f84c5944aa8dd16c85549785e6eba82f1 / 34050 / d32a4e85094f0def3774cc00cb4d784f19b67b270ddbd4cf55b53c48bf288f79 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/hew/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/hew/RESULTS.json) | ff932def7ec4919817436acc513aadedbf53e869 / 178155 / cbb74df149dfae5928d9358c659fce2b248745afda3d161a0cadd714cfad8000 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/rats-jws/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/rats-jws/RESULTS.json) | 656315ea02b63e677926eff04fc6bdff9b16ade0 / 15235 / c55f9407eeb167a59c280d65fe4c232a3e35177412128f148a4659ba9aa83121 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/spiffe-jwt/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/spiffe-jwt/RESULTS.json) | fbe1a9529620ed3fc4c4fc309afd9862f2510433 / 15727 / b8853fc29f79d5d770954649f35dce483291024f3a42d36e68dfc785072bb8aa |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/stamp-stpa/RESULTS.json](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/stamp-stpa/RESULTS.json) | 6300c76f714f0c7d9579c6c30e6f6c47a3c42284 / 23616 / 4b715f0be8e28c9615abb53c453ea0627e7a74beb5902e27a37791ff0c31d758 |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md) | da0a8c4830841936c1313dc8799b7291342b122d / 14683 / f4f99f4f3e1a336853c51231442884d89613fdb7c0d93bef8a7ef30272b458ed |
+| [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md) | cc30abf06bc5869dc6a52420ba8c639323407e1f / 168302 / 3dffb342cb8e118dce6ce602a2e6f260c91130ba60517342a0f72f714141a5e5 |
+| [research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/EHD_04_05A_MAPPING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/EHD_04_05A_MAPPING.md) | f1796320ba9dd838d08edda841842f441eaebcf6 / 7723 / 8640e3bccad77459b69519ed1d2aeea4312641b3fa3c7391a06d9a0edea49c82 |
+
+### Complete case-source provenance
+
+| Unit | Pinned current source | Git blob | Bytes | SHA-256 | Fresh check |
+|---|---|---|---|---|---|
+| RECURRENCE_PROTOCOL.md | [contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md) | 824f4f974d1423cb98c78504ac9e6ca91fb95b0b | 17203 | aa7967a6259ed9c8a0379c41d03bdfdc505414bb32b72f3ec5fa142c8b45361e | Submitted/current tree ID equal; cached payload independently authenticates to that blob |
+| HYPOTHESES.md | [contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md) | 7e315c2fc1931e19a9a61d03912b9fb88b51031c | 66940 | 2c2bb892598d6f0135ab5c23af68944005071a16142a00e921b7932e53318f11 | Submitted/current tree ID equal; cached payload independently authenticates to that blob |
+| EVIDENCE_AND_PROTOCOL.md | [contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md) | 11e844056e6253e3e8ec0983072dd8fdc3b0d88e | 18042 | 0290e6d11e3dca8c317ed84957dc3b35e264cc8011aff540323d60c5e853e9fc | Submitted/current tree ID equal; cached payload independently authenticates to that blob |
+| CONVENTIONS.md | [contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md) | f14cfee1b588d0814bb39288b40d715bbed826a2 | 5571 | 6911b3048974661675ba3406c001d1d0bf16b1b44a7d8360faff6cb6518591e2 | Submitted/current tree ID equal; cached payload independently authenticates to that blob |
+| RUN_RECORD.md | [contributions/when-controls-work-system-fails/templates/RUN_RECORD.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md) | be014eb521d0ede16697ad0f37b961c5eb562d63 | 2645 | 788f9e1f4d788c9ea286d7d0d4f85a9b01497fefba5063cf24217312694095bb | Submitted/current tree ID equal; cached payload independently authenticates to that blob |
+
+### Remaining evidence frontier
+
+Unclosed work includes other157case history objects, full material internal intermediate/merge-parent semantics, all thirteen studies and intended capacity receivers, complete R01 proof/oracle/M01/M03/M04/queue/caller/isolation history, per-operation causal/cost/type ledgers, original 17-figure/nativebinary rendering and rights, specific officialEUIPO source body/date, contemporary protectedEP GO receipts, actual externalofficialUC21 freshness/access, and scientific implementation/admission/replication gates. Supporting tables explicitly preserve their incomplete cohorts. These do not prevent documentary plan delivery; they do prevent claiming exhaustive conservation or restoration execution.
+
+Actual exposure: mandatoryroot controls exposed embedded earlier audit summaries before Phase A, recorded inINITIAL_EXPOSURE; no separate previousreport/memory/chats/AgentSyncbody before seal. After seal, source/previousplan reading andv1 preceded both final supporting critiques. This continuation read both final reports in full; one initially truncated DDS range was reread in smaller overlapping ranges. The critics disclosed their own parent/memory/priorreport exposure, which is not this session's exposure. No model/institutional/scientific-independence claim is made. Sealed A remains unchanged.
+
+Exact v1 output bytes and hashes are retained in this task's `old/v1_before_final_support_consolidation/`. The machine crosswalk preserves private provenance/accounting and authentic earlier metadata; public evidence above uses actual repository paths and commit permalinks. It keeps `all_sources_reviewed=false` and `all_prior_reports_read_in_full=false`. The latter includes older multi-megabyte embedded source ledgers and earlier truncated combined outputs; it does not imply the two final support reports were left unread.
+
+## Appendix B. Selected authentic passage catalogue — evidence, not current replacement payloads
+
+These full selected source units explain the useful obligations in W02/03/04. They remain authentic antecedents; new current wording requires the complete preparation/receiver work specified above. The secondary repository is history/source custody, not another maintained corpus.
+### RECURRENCE_PROTOCOL.md — complete actual antecedent
+
+[contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md); blob`824f4f974d1423cb98c78504ac9e6ca91fb95b0b`. Useful value/current reception/destination and gates: W02/W03.
+
+``````text
+## Annex R
+
+### R.1 — Why six scenarios form one use case
+
+The six scenarios are grouped to investigate one proposed recurrence pattern: an implementation corrects a defined failure under established conditions, yet a material change in the context can be sufficient to reproduce that failure while the implemented defences remain active. Grouping provides a shared experimental question and comparison method. It does not establish a single exclusive origin for every failure, merge the six business outcomes or make one scenario's result evidence for the other five.
+
+This is the question posed by the **third walkthrough**, labelled **R2** in this document because numbering begins at R0. R0 is the ordinary competent configuration; R1 is the reinforced configuration; R2 is that reinforced configuration exposed to a declared change. No additional solution walkthrough is introduced.
+
+### R.2 — The hypothesis
+
+**HR — Context-change sufficiency for recurrence.** For each of the six scenarios, after a specified reinforced implementation has corrected the registered failure under the baseline conditions, there exists an admissible material change of context that is sufficient, together with the otherwise retained operating conditions, to make that same registered failure reappear despite the retained defences.
+
+HR is a local label for this annex. It does not renumber any pre-existing research hypotheses. The sufficiency claimed is conditional on a specified configuration, baseline, workload and operating scope. It does not mean that every context change causes failure, that a change acts without any background conditions, or that the same change must reproduce all six failures.
+
+Other causes may produce a failure in unchanged context. Such a result does **not** refute HR. It is relevant to whether a particular baseline was genuinely corrected and to alternative explanations of a particular run. HR does not claim that context change is necessary for all failures, that it explains every possible cause, or that the six scenarios exhaust all failure types.
+
+For a deterministic or fully specified bounded model, let:
+
+- `i` identify one of the six scenarios;
+- `K_i` be its registered reinforced implementation, including its available generic adaptation mechanisms;
+- `C_i` be the baseline context and `B_i` the other fixed test conditions;
+- `D_i` be the admissible set of material context interventions, defined before results are known;
+- `F_i` be the independently scored failure, also fixed before intervention.
+
+The baseline prerequisite is that `K_i` corrects `F_i` under `(C_i, B_i)` while satisfying the applicable acceptance criteria and legitimate-activity controls. The recurrence proposition is:
+
+> **For every scenario i, there exists a change δ in D_i such that F_i occurs with K_i under (δ(C_i), B_i).**
+
+*In plain terms: for each scenario, can an admissible material context change bring back the same failure after a reinforced configuration has corrected it, while its defences and generic adaptation remain active?*
+
+Each scenario can have its own change. Configuration identities and domains must be explicit: results about nominated implementations do not quantify over every possible implementation of every product. The nine documentary technology profiles are candidates for instantiation, not nine completed demonstrations. An all-profile claim would require a separately declared scope.
+
+### R.3 — What counts as context and material change
+
+**Decision context** is the independently specified set of conditions governing the evidence, authority and operational feasibility required for the receiving decision. Relevant fields include the decision's purpose and scope, current mandates and policies, source authority and dependence, incident or resource state, applicable validity intervals and the legitimate relationships among participants and objects.
+
+Distinguish the reference context from what a participant currently believes or stores about it. A message arriving, a summary becoming shorter or a model changing its belief does not automatically establish a change in the applicable reference conditions. A static mismatch between source and receiver scopes is also distinct from a temporal change. Those distinctions allow other causes to be recorded without forcing them into HR.
+
+A change is material when it alters a predeclared decision-relevant condition: for example, which evidence is required, which action is authorized, what a source result establishes, or what response is feasible within the permitted horizon. Materiality must be specified independently of the observed failure. A harmless metadata edit does not become material merely because a run fails afterwards.
+
+For each `D_i`, record permitted fields and ranges, owners and source versions, intervention timing, equality rules and tolerances, observable signals, combinations allowed and excluded, and operational limits. Include sufficient upstream history to distinguish an introduced change from an already existing mismatch. Unknown context values stay unknown; they cannot be silently assumed changed or unchanged.
+
+A completely unobservable change cannot support a claim that a participant should have detected it. Likewise, an intervention that simply destroys all feasible responses must be distinguished from a failure of previously adequate decision controls. The admissible operating scope must state whether such conditions are excluded or evaluated only against an authorized fallback. These boundaries are fixed before testing, not introduced to explain away an inconvenient result.
+
+### R.4 — Demonstrate the correction before testing recurrence
+
+A stronger configuration that still fails the selected baseline branch has not demonstrated correction of that branch. Its subsequent failure under change cannot, by itself, be called a reappearance. This matters where a documentary profile describes a partially reinforced system that still lacks campaign authority, lineage or another applicable condition.
+
+Before admitting an HR test, require the selected R1 configuration to satisfy the applicable quality-plan gates on the registered baseline and its legitimate-activity controls, within the declared resources and deadline. Record exactly which branch has been corrected. A limited result on one branch does not establish correction of an entire scenario family.
+
+Then retain the implementation, model and tool versions, action capabilities, safeguards and total resource budget. Existing policy discovery, revalidation, adaptation and authorized response mechanisms remain enabled. Freezing the tested implementation prevents retrospective engineering after the outcome; it does not require the system's legitimate runtime state or adaptive behaviour to remain static.
+
+Where context interventions alter response margins or externally available capacity, register that variation explicitly. Do not give one comparator hidden sources, extra reviewers or unlimited time. An ordinary context-sensitive control that preserves the correction is a valid result.
+
+### R.5 — Six recurrence questions
+
+The entries below identify candidate interventions already represented by the scenario and technology-profile material. They are proposals for controlled reproduction, not results. The final intervention set and exact outcome must be registered for the chosen implementation.
+
+| Scenario | Baseline correction to establish | Candidate context intervention | Same failure to score after change |
+|---|---|---|---|
+| S1 — Enterprise synthesis | Reach the registered justified disposition within the budget, preserving material qualifications and bounded review. | Previously independent sources acquire a common provider; evidence validity or decision relevance changes while the defended workflow remains active. | Unsupported enterprise commitment or failure to reach the required bounded disposition because the retained process relies on an insufficient basis. Token expenditure alone is not the outcome. |
+| S2 — Shared mobility | Resolve the declared corridor conflicts while retaining local safety and meeting the mission's response conditions. | Dependency, timestamp meaning, environmental relationship or declared response margin changes within the admitted scope. | Incompatible shared-resource decisions prevent the registered service outcome, despite the retained local safety controls. |
+| S3 — Propagated false mission | Reject unsupported mission replacement while distinguishing genuinely supported, authorized change. | Sources previously independent become dependent, or the applicability of a legitimate mission-transition authority changes. | The participant abandons the bound task or adopts an unsupported or unauthorized replacement mission. Message repetition alone is not the scored failure. |
+| S4 — Refund finding | Prevent unauthorized aggregate action and preserve and route the wider material finding; distinguish genuinely independent cases. | Campaign membership, delegation/principal mapping or current mandate applicability changes after the relevant checks or approval. | Unauthorized composed action or loss of the required wider finding. Report these as two separate outcomes; correction of one does not establish correction of the other. |
+| S5 — Delayed repair | Prevent a queued action from undoing a later valid repair, including the relevant check-to-act condition. | After the known delayed-repair problem is corrected, the legitimate source set, policy or dependency governing the same decision changes, as in the declared V11 family. | A technically accepted delayed operation again executes on an obsolete basis and causes the registered service deterioration or reverses a valid recovery. |
+| S6 — Rights-provenance inversion | Correctly decide the same final rights demand using current authority and lineage, including the legitimate-transfer control. | A resolver, identifier or registry profile changes the evidentiary coverage of a technically usable result while records remain authentic. | The same receiving decision issues an unsupported licensing, payment or blocking demand against the original author. |
+
+The change need not be the original cause in R0. In particular, S5's original intervening repair establishes the ordinary failure; testing R2 requires a defence that already handles that known problem before applying the newly declared change. For S4, one supported recurrence establishes a recurrence of the scenario's disjunctive failure, but a claim that both branches recur requires separate evidence for both.
+
+### R.6 — Matched execution and causal attribution
+
+Use the same registered R1 configuration in an unchanged-context control and in each admitted changed-context trial. Keep the receiving decision and outcome predicate fixed. When conditions require different legitimate actions, the outcome evaluator must apply the predeclared rule for those conditions rather than require the old action regardless of context.
+
+1. Freeze the implementation, baseline correction evidence, decision and authority boundaries, `D_i`, failure criteria, resource limits and analysis plan.
+2. Demonstrate the relevant baseline correction and controls for justified activity. A failed prerequisite is recorded before any recurrence claim.
+3. Apply the declared intervention while retaining safeguards and generic adaptation. Run matched unchanged and harmless-change controls where applicable.
+4. Record context and evidence versions, observable intervention time, first consequential reliance, gate results, actual action and business outcome separately.
+5. Attribute the result to the intervention using the matched comparison, trace and, where feasible, withdrawal or restoration of the changed condition. Exclude an unrelated injected defect or unnoticed removal of a defence as the claimed context effect.
+6. Retain configurations that preserve the correction, disagreements and inconclusive trials. Do not invent progressively harder interventions after observing success and present them as the original registered test.
+
+Co-occurrence of change and failure is not sufficient evidence of causal sufficiency. The intervention must precede the relevant reliance and the observed effect must match the registered failure. A qualification may have been lost, may have become stale, or may still be stored but no longer enforced. Those are candidate explanations to investigate; the test must not define “lost context” simply as whatever caused an adverse outcome.
+
+For stochastic implementations, a single changed-context failure does not show that change made the difference. Predeclare repetitions, randomization or pairing, seeds where available, error-rate thresholds, uncertainty and the minimum effect required for the causal comparison. State whether the claim concerns the existence of a reproducible recurrence, a bounded recurrence probability or a near-deterministic effect. Do not silently switch between those strengths after observing results.
+
+### R.7 — Support, refutation and inconclusive results
+
+For the deterministic formulation with registered baselines, HR has the structure **for each scenario, some admitted change reproduces the failure**. Its negation is **there is at least one scenario for which every admitted change preserves the correction**. That negation applies to the declared implementations and intervention domains.
+
+| Observation | Interpretation |
+|---|---|
+| R1 remains failing before the change | Baseline correction is not established. This is not an admitted demonstration of recurrence. |
+| A declared change causally reproduces the same corrected failure | Supports HR for that scenario, configuration and scope. Repeat and review the causal evidence. |
+| At least one supported recurrence is established for each of the six | Supports the joint six-scenario proposition within the registered scope. It does not prove a unique cause or universal product weakness. |
+| One or several changes are handled correctly | Those interventions do not establish recurrence. For an existential claim, this alone does not exclude other admitted changes. |
+| A sound exhaustive or formal assessment shows that one corrected scenario remains corrected for every change in its declared domain | Refutes HR for that scenario/configuration/domain and therefore the conjunction across the six registered scenarios. |
+| A finite non-exhaustive sample produces no recurrence | Reports no recurrence observed and the achieved coverage or statistical bound. It does not prove immunity to untested changes. |
+| A failure occurs without context change | Does not refute HR. Check baseline stability and other causes; do not relabel it as a context-change result. |
+| A different harm appears, a defence was disabled, or no feasible authorized response remained under the declared rules | Does not establish the claimed recurrence without resolving admission and causal attribution. |
+
+If a **specific intervention** is preregistered with the stronger prediction that it will reproduce the failure, a sound contrary result refutes that specific sufficiency prediction. It does not automatically refute the broader proposition that another admitted intervention could do so. For statistical claims, use the predeclared effect and uncertainty criteria; a low-powered nonsignificant result is inconclusive.
+
+No rule permits excluding a successful defender after seeing its result. Nor may the admission definition require recurrence in advance. If an unanticipated variable changes the intended domain, issue a new protocol version and preserve the earlier result under its original scope.
+
+### R.8 — Result record and present status
+
+Retain, for every assessed branch: scenario and branch identifier; R1 implementation and source versions; evidence of baseline correction; context fields and registered domain; intervention and observable signals; unchanged-context comparison; resource use and response margin; applicable gate evidence; actual business outcome; causal assessment; reproduction data; reviewer disagreements; and conclusion with its exact scope.
+
+The shared record supports comparison across the six while leaving their different outcomes intact. A single average must not conceal failure of an authority obligation, loss of the refund finding or an unsupported rights demand. A blocked action is not automatically a successful correction: the scenario's bounded response and legitimate-activity criteria still apply.
+
+**Present status:** the case supplies documentary walkthroughs and this annex supplies a testable recurrence hypothesis and proposed protocol. No new product execution is reported, and the joint six-scenario sufficiency proposition is not declared demonstrated. The annex justifies studying the scenarios together without presupposing the result.
+
+This hypothesis concerns the sufficiency of a context intervention to reproduce a corrected failure. It establishes no sufficiency claim for a proposed solution. Such a claim would require its own candidate, operating scope, acceptance conditions and evidence.
+
+
+
+``````
+### RUN_RECORD.md — complete actual antecedent
+
+[contributions/when-controls-work-system-fails/templates/RUN_RECORD.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md); blob`be014eb521d0ede16697ad0f37b961c5eb562d63`. Useful value/current reception/destination and gates: W02/W03.
+
+``````text
+# Run record — copy and complete before execution
+
+This is a working form for the existing [main protocol](../USE_CASE.md#5-select-prepare-and-run-one-experiment), [Annex H](../annexes/HYPOTHESES.md), [Annex R](../annexes/RECURRENCE_PROTOCOL.md) and [evidence record](../annexes/EVIDENCE_AND_PROTOCOL.md#e6--complete-run-record). It adds no hypothesis, gate or implementation route. Empty fields are pending inputs, not assumed facts.
+
+| Field | Registered value / evidence reference |
+|---|---|
+| Run ID, date, tester and independent reviewer | |
+| Package, protocol, scenario and variant versions | |
+| Claim: case acceptance / HC / HR / HS / selected H1–H6 | |
+| Exact claim scope: candidate, family, all-six or all-profile | |
+| S4 outcome: unauthorized action / silent loss / both / not applicable | |
+| Implementation route: R0 / R1 / R2 | |
+| Causal condition A–D or response-component comparison, if applicable | |
+| Candidate/product/model/tool/configuration versions and hashes | |
+| Receiving decision, owner, grants and governing regime | |
+| Baseline facts, source access, provenance and permitted actions | |
+| Family admission X1–X7 and independent failure predicate | |
+| R1 correction, legitimate-activity controls and frozen safeguards | |
+| Context fields, change domain, materiality, timing and observable signals | |
+| Matched unchanged / harmless-change / qualification controls | |
+| Budget, capacity, deadline, fallback and warning/response margins | |
+| Independent evaluator/oracle and separation from tested system | |
+| Metrics, thresholds, repetitions, pairing/seeds and uncertainty method | |
+| Raw evidence and reproduction location | |
+
+## Per-gate evidence and actual outcome
+
+Copy all applicable gates from the selected scenario; retain their wording.
+
+| Gate | Input/source/version | Evidence at decision time | Result and reason | Owner/action/effect | Timestamp |
+|---|---|---|---|---|---|
+| | | | | | |
+
+## Separate conclusions
+
+- **Implementation outcome:** gate results, actual business effect, legitimate-activity control, deadline and burden.
+- **Hypothesis conclusion:** claim evaluated; support or limitation; rejected candidate or bounded refutation; not tested or inconclusive; exact scope and required evidence.
+- **Reproduction and disagreements:** rerun, independent review, successful defences, missing observations and retained objections.
+
+Do not describe a failed R1 baseline as recurrence. Do not convert an HR result into HC evidence without checking the causal pathway. Do not convert a gate pass or a warning into HS without the declared response, timing and continuity evidence.
+
+``````
+### Retired00J — full reachable edition and selected distinct units
+
+[research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_THE_AUTHOR_PAYS_FOR_THEIR_OWN_WORK_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/cb10aca3c9cb2d4281e0ed056c60643f305596ac/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_THE_AUTHOR_PAYS_FOR_THEIR_OWN_WORK_v0.1_DRAFT.md); blob`55e0a2cff9d354bf18c10ec1a639f1bab22a6319`. Current owner00J, preparation baseline/README_VNext; do not promote obsolete sufficiency conclusions. Distinct denominator/control reception is W04.
+``````text
+### T0 — Original work and rights frame
+
+- **A** is the original author / rights-holder principal for work **W** inside the fixture.
+- **W** has stable identifier **W-ID**.
+- Rights/provenance record **R0** binds A, W-ID, policy **P0**, effective time, source/issuer, allowed/prohibited machine uses, obligations and any expiry/revalidation rules.
+- Main branch: bounded RAG/retrieval is conditionally allowed; training/permanent corpus incorporation is denied; attribution and bounded retention are required.
+- R0 is authentic and current at T0.
+
+The exact legal effect of P0 is outside the fixture. R0 is simply the authoritative source record that downstream systems must not silently overwrite or broaden.
+
+
+``````
+``````text
+### J-C5 — Human approval is non-curative
+
+A reviewer approves a downstream claim while source provenance remains unresolved.
+
+Expected: preserve approval as decision/intervention; do not convert it into missing lineage or rights authority.
+
+---
+
+
+``````
+``````text
+## 12. KPI and outcome instrumentation
+
+### Canonical measures
+
+- authority-field completeness;
+- provenance/freshness preservation;
+- residual-scope preservation;
+- explicit-indeterminate rate;
+- qualification-loss rate;
+- handoff integrity;
+- wrong-domain/systemic-closure rate;
+- correlated-evidence error rate;
+- false-convergence rate;
+- source diversity / primary-source retrievability;
+- material-break recall/precision where rights/context changes;
+- requalification latency;
+- targeted re-entry precision/recall;
+- human-capacity binding where applicable;
+- deadline-pass / remaining response margin;
+- authorized-response compliance;
+- observable outcome effect;
+- total decision burden.
+
+### Fixture-specific measures
+
+| Measure | Definition |
+|---|---|
+| **Provenance-inversion rate** | runs where a downstream generation/registration record is treated as stronger source/rights provenance than the fixture supports ÷ applicable runs |
+| **Unsupported-license-demand rate** | runs producing A must pay/license X without a valid authority/evidence chain ÷ main inversion branches |
+| **False-block rate against fixture-rightful source** | runs blocking A’s allowed use of W/W2 on unsupported RX/G1 grounds ÷ applicable branches |
+| **Evidence-scope promotion rate** | claims consumed for a stronger proposition than the producer record supports ÷ material handoffs |
+| **Dependent-record inflation** | dependent copies counted as independent corroboration ÷ correlated-copy branches |
+| **Repair success** | challenged erroneous downstream claim repaired for future decisions while R0/G1/RX history remains reconstructable ÷ repair branches |
+
+A lower unsupported-license-demand rate obtained by denying all downstream rights claims is insufficient. J-C0 and J-C1 must also pass.
+
+---
+
+
+``````
+### Full neutral S6 edition
+
+[contributions/when-controls-work-system-fails/annexes/scenarios/S6.md](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails/annexes/scenarios/S6.md); blob`b4b89ffb9cc647921590dd44b37466eb5950c2fb`. Current receiver00J is not the complete original edition; W04/W06 require full Contributions custody and figure context, not wholesale source rollback.
+
+### Original generic gate instrument edition
+
+[research/ecosystem-awareness/DDS_STAGE_A_GATE_BASED_SPECIFICATION_TEST_PROFILE_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/c29cecbeb1932b539859c096a5f1ec1ef9187685/research/ecosystem-awareness/DDS_STAGE_A_GATE_BASED_SPECIFICATION_TEST_PROFILE_v0.1_DRAFT.md); blob`4a786e778bf16a286c1abe7dccf502804c90c20b`; full body already retained in current DDSV. W07 selects useful successor duties, rejects superseded semantics and keeps that full antecedent reachable.
+
+</details>
+
+
+### Existing candidate 95
+
+Current generic namespace paragraph can use the selected case-specific distinctions; conventions and claim-selection independently inspected. Does not supply complete HR/run bridge.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `e636346c46c49cb81ecc7f84ec9c792e9729cc95`. Dependencies: CONVENTIONS routes and labels; HYPOTHESES§13; S6/current00J R0 rights namespace; existing10A examples
+
+**Text before — complete current passage (1).**
+
+``````text
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs. In UC-21, R0/R1/R2 name implementation routes, HC/HR/HS select claims, and A–D name causal trial conditions. S3’s robot actors R1/R2 and S6’s original rights record R0 belong to different local namespaces. S1’s I1/I2/O1/O2 failure-position codes are distinct from AWS configuration names. Use the case conventions and the source profile together before mapping these labels into DDS.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+### Existing candidate 96
+
+Current index still calls antecedent UC17-08 preferred; current campaign and full principle v0.2 explicitly supersede that priority. Preserve both texts and no-run status.
+
+**Impact / risk / effort:** Alto / Medio / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), blob `88b78f386047a76e0e2da905bd951ada06e5602b`. Dependencies: Current CAMPAIGN and principle v0.2; technical history and NOT_PREREGISTERED state; coordinate the same campaign owner.
+
+**Text before — complete current passage (1).**
+
+``````text
+## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary
+
+The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+## 18. Flores 13 October technical companion, second scientific audit and no-execution boundary
+
+**Current reading direction — 14 October 2026.** The retained paragraphs below record the earlier 13 October UC17-08/P0–P3 preparation; their “preferred” wording is historical. The current [campaign](./campaigns-in-development/flores-population-ea/CAMPAIGN.md) follows the later owner-directed [R2 → freeze → uncovered R3 principle](./campaigns-in-development/flores-population-ea/runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md): demonstrate the participant-defended complete R2 in the known/repaired context, freeze its configuration, adaptation and resources, then admit a material R3 outside its effective coverage with the general EA requalification specification fixed ex ante. UC17-08 and P0–P3 remain antecedents or separate contrasts. Scientific status remains NOT_PREREGISTERED / NOT_EXECUTED / NOT_ADJUDICATED.
+
+The owner-directed 12–13 Oct [Flores research-approach pivot](./campaigns-in-development/flores-population-ea/APPROACH_DRIFT_2026-10-12_13.md) retains **two different prospective Stage A receiving tests within one campaign**: (i) the preferred [one-point UC17-08 native-to-consumer semantic mapping change](./campaigns-in-development/flores-population-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md) and (ii) the corrected [P0→P3 receiver-proof-sufficiency technical component](./campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md). The [second audit](./campaigns-in-development/flores-population-ea/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md) details 13 proposed gates, B2 parity, a tautological mock two-world check and corrected reproduction commands. One experiment's mocks, results, source key or hidden oracles **must not** be inherited by the other; no real R3 or EA superiority is established.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).

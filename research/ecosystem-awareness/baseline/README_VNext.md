@@ -1416,3 +1416,70 @@ The [source-led organizing review](https://github.com/dakleyer/structural-awaren
 Case acceptance, HC/HR/HS, H1–H6 and recurrence/admission obligations must be compared to their actual recipients before any claim of complete case integration. General DDS definitions or similar family titles do not automatically receive every case-specific clause. R01, C02, HF C3, adapters and calibration retain their individual contracts. A reported instrument check and a substantive study finding remain different records; successful conventional controls and negative outcomes remain part of the result.
 
 For historical review, identify the decision-material contribution and current corrected meaning before choosing restoration, a link, historical support or an unresolved judgement. No source rollback, new package tree, fixture execution or source edit is made here. Existing 91/92 remain suspended; the corrected draft passage of 92 and all its dependencies are in the same owning VNext. The [joint EP account](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#dds-strategy-before-restoration-15-october-2026) keeps the corpus-level explanation and three reading levels.
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 94
+
+Current introduction conflicts with same-Q5 section6; independently checked original3c3d9d history confirms incomplete earlier update.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), blob `af17d682b7e7e742b298de7918ade6029dffa9b8`. Dependencies: 00J-A01§6.2–6.4/TestF; reviewerS6 history at3c3d9d; T09 historical interpretation
+
+**Text before — complete current passage (1).**
+
+``````text
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+### Existing sealed00J transfer-premise proposal
+
+Current bare transfer formula must retain A25 separately established full-route base guarantee, X3/X4 and A26 positive-control premises. Direct current clauses inspected.
+
+**Impact / risk / effort:** Medio / Medio / Medio. **State:** Pending existing-owner resolution and downstream transfer reconciliation; not a new register ID
+
+**Source:** [research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md), blob `7195c2215454e40d830f159ac838c898b33573a1`. Dependencies: 
+
+**Text before — complete current passage (1).**
+
+``````text
+## 8. Transfer result
+
+\[
+Conf(R_J)\Rightarrow G_J\Rightarrow \neg F_J.
+\]
+
+The successful pattern is **valid narrow evidence stays narrow until a justified bridge establishes the stronger proposition**.
+
+``````
+
+**Text after — complete proposal.**
+
+``````text
+## 8. Transfer result
+
+**Conditional design obligation.** Read the formula below under [A25 §6](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) and [A26 §5](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md#5-conditional-no-new-requirement-argument). A guarantee for every admitted extension requires a separately established base guarantee for the full inherited route, failure reflection, conformance preservation and the required positive controls. The current finite P1/P4 projections and matched proposition pair do not by themselves establish the full G_J predicate or a guarantee for every admitted extension.
+
+\[
+Conf(R_J)\Rightarrow G_J\Rightarrow \neg F_J.
+\]
+
+The successful pattern is **valid narrow evidence stays narrow until a justified bridge establishes the stronger proposition**.
+
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).

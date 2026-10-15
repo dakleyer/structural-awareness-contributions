@@ -321,3 +321,8 @@ That is a bounded profile rule. It does not require every taxonomy gate to have 
 ### 12.4 Amended judgement after completed reads
 
 The quantile coverage concern remains conceptual/statistical; the proof-class policy link is now supported by both full schema and pseudocode declarations; several input/measurement invariant omissions are confirmed static schema limitations. None establishes a runtime failure because no actual implementation or data flow was tested. Diagnostic v0.2 materially improves result-producing profile discipline but still does not transfer all deleted generic instrument obligations. Candidate93 remains visible, original pair preserved, unapplied and pending all-consumer judgement. The exact alternative in §9 is likewise pending, not adopted.
+
+
+## Unified restoration review 15 October 2026
+
+Candidate93 in the existing [01K review](./01K_VNext.md) is a qualified successor proposal. The current component already represents service demand, backlog, commitments, timing, necessary load and declared proof classes. Its reception prevents treating the lost compact HumanTime phrase as proof that implementation capacity logic vanished. Complete unit/epoch, admissible-proof, joint-tail-bound and review-versus-effect-deadline reconciliation across selected consumers precedes source adoption. The optional HID measurement engine does not become a universal runtime requirement. [Unified plan, exact pair and receiver gates](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026). Component, schema, vectors, frozen consumers and results remain unchanged.
