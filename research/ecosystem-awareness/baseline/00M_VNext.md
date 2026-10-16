@@ -437,3 +437,88 @@ Una proyección no inyectiva sobre estados de **probabilidad positiva** hace pos
 **Punto de continuación:** aislar primero el vínculo verificable «compresión de la selección → cualificaciones descartadas → relación entre ventanas → nueva distinción para una pregunta receptora»; después investigar si existe una clase no trivial de perfiles con triangulación estricta y beneficio neto acotado. No cerrar la tesis, no simular resultados y no introducir esta nota como teorema o conclusión en el 00M canónico.
 
 **Nexos:** [00M §4 y §6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [00N §§2.1–2.3, 3.6–3.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) · [revisión actual de la hipótesis sobre explotación bajo recursos](#15-octubre-2026--plausibilidad-de-asignación-de-explotación-mediante-contexto-compuesto-propuesta-00m-64).
+
+
+### G. Cartografía abierta — U, U′ y metadatos primados locales (sin procesarlos)
+
+**16 octubre 2026 — formulación del autor, versión cartográfica inicial.** Es una **continuación de la propuesta** del PR borrador, no una enmienda al 00M v0.8 vigente, ni una inferencia de triangulación o utilidad neta. El autor pide por ahora **definir los objetos, no procesar ni componer las primas**. Esta nota no supone sensores nuevos, algoritmos de inferencia de fronteras ni oráculos.
+
+#### G.1 Higiene de tipos: A–E son máquinas, no los roles A/B/C/D de 00M
+
+La notación informal del autor llama **A, B, C, D, E** a cinco máquinas reales. Para no confundirlas con los **roles de cualificación** A (resultado), B (reserva caracterizada), C (frontera de exploración) y D (residual), aquí escribimos las cinco máquinas \(\mathsf M_A,\mathsf M_B,\mathsf M_C,\mathsf M_D,\mathsf M_E\). Sus salidas funcionales son \(a_A,\ldots,a_E\), y sus registros primados son \(A',B',C',D',E'\), respectivamente. Los primados son **registros o declaraciones parciales sobre contexto**, no conjuntos de todo lo que falta a la salida ni nuevas respuestas funcionales.
+
+#### G.2 El universo de composabilidad \(U\) y un exterior \(U'\) solo relativo a un marco
+
+Sea \(I=\{A,B,C,D,E\}\). Cada máquina dispone, en un instante y régimen \(t\), de una familia de funciones computables \(\mathcal F_{i,t}\). Fijadas las reglas \(\mathrm{Adm}_t\) (tipos, contratos, precondiciones, capacidades y permisos), definimos el horizonte ideal de composiciones finitas **admisibles**:
+
+\[
+U_t:=\mathrm{Cl}_{\circ,\mathrm{Adm}_t}\!\left(\bigcup_{i\in I}\mathcal F_{i,t}\right).
+\]
+
+Las capacidades \(\mathcal F_{i,t}\) están dentro de \(U_t\) por construcción; una «máquina», entendida como hardware/actor, no es literalmente un elemento de un conjunto de funciones salvo que se la represente formalmente como tal. \(U_t\) es el universo **componible de esos productores**. No es el universo físico, no es necesariamente conocido ni enumerado por ellos, y no afirma que exista un algoritmo que decida si una tarea arbitraria pertenece a su clausura.
+
+Para hablar de exterior hace falta fijar **un marco envolvente de posibilidades del mismo tipo** \(\mathscr W\). Entonces:
+
+\[
+U'_t:=\mathscr W\setminus U_t.
+\]
+
+La afirmación \(U'_t\ne\varnothing\) exige \(\mathscr W\supsetneq U_t\); **no se deduce de que el sistema tenga cinco máquinas ni de negar una «máquina universal»**. Existen máquinas de Turing universales para las funciones efectivamente computables: «universal» no significa decidir HALT ni abarcar todas las funciones matemáticas o la totalidad del mundo abierto.
+
+**Testigo condicional para existencia de exterior:** si \(\mathscr W\) es el conjunto de todas las funciones totales \(\mathbb N\to\{0,1\}\), y \(U_t\) contiene solo funciones implementables por descripciones finitas sin oráculos (y de ese tipo), entonces \(U_t\) es a lo sumo numerable y \(\mathscr W\) es no numerable por Cantor. Por tanto \(U'_t\ne\varnothing\). Este teorema sobre funciones no demuestra que los agentes conozcan **qué elemento específico** está en su exterior práctico, ni identifica C/D, ni convierte \(\mathscr W\) en un inventario del mundo físico. Si \(\mathscr W=U_t\), el exterior relativo es vacío. El máximo teórico respecto al marco es \(\mathscr W=U_t\cup U'_t\), no \(U'_t\) por sí solo.
+
+#### G.3 Qué significa precisamente cada prima
+
+Fijamos un espacio de **descripciones** \(\mathscr L\), distinto del espacio de funciones y estados del entorno. Cuando existe documentación o instrumentación legítima, cada máquina \(i\) puede proporcionar un registro \(m_i\in\mathscr L\). Por convención del autor:
+
+\[
+A':=m_A,\quad B':=m_B,\quad C':=m_C,\quad D':=m_D,\quad E':=m_E.
+\]
+
+Ejemplos de información que **podría** estar ya conservada: tipos y contrato de entrada; población declarada «gatos domésticos»; condiciones de operación y calibración; excepciones observadas; requisitos de memoria/tiempo; exclusiones conocidas; una vía exterior indicada como «gatos monteses no evaluados»; un riesgo ambiental cuya incidencia no se sabe evaluar. El registro solo afirma lo que su fuente realmente justifica. Puede contener referencias B, algunas pistas C y D del *proceso*, sin enumerar las regiones C/D. No todos los campos existen por defecto.
+
+**Prohibición explícita de complementos ficticios:**
+
+\[
+A'\ne\overline{a_A},\quad A'\ne \mathscr W\setminus\mathrm{Dom}(\mathsf M_A),\quad A'\ne U'_t.
+\]
+
+Estas expresiones pertenecen además a **tipos diferentes**: un registro de límites no es el conjunto de todas las funciones, casos o mundos externos. Análogamente para \(B',C',D',E'\). Una prima puede referirse a un límite y a una vecindad epistemológica sin conocer el exterior completo. No debe inferirse, a partir de un límite declarado, ni la existencia de todos los ejemplos vecinos ni su computabilidad. Tampoco se ha probado una cobertura exhaustiva de \(U'_t\) al reunir las cinco primas.
+
+#### G.4 Tesis a probar / contraejemplo: tener un límite formal no equivale a conservar internamente un mapa de ese límite
+
+Toda función parcial \(f\) **posee** un dominio matemático \(\mathrm{Dom}(f)=\{x:f(x)\downarrow\}\), y un contrato de aplicación puede declarar una frontera semántica. Pero **no se sigue que todo programa compute, almacene o conozca una descripción de esa frontera**. Si se siguiera que existe un procedimiento universal capaz de decidir, desde cualquier código de programa, todos los miembros de su dominio de terminación, resolveríamos HALT; esa conclusión es falsa.
+
+**Contraejemplo aún más sencillo de autoconocimiento semántico:** el programa \(p(x)=7\) para toda cadena \(x\), sin metadatos de dominio, produce exactamente las mismas trazas si una persona lo denomina «contador de gatos domésticos» o «contador de cualquier animal» a nivel de uso externo. Si el contrato de aplicación no entra en el código ni en sus fuentes observables, ninguna función del solo \((p,\text{traza})\) identifica legítimamente cuál era la frontera de aplicación imaginada por esa persona. La máquina no tiene forzosamente un dato «gatos monteses quizá» escondido que podamos copiar sin trabajo.
+
+**Resultado condicional sí defendible:** si cada productor incluye o posee accesibles un contrato, precondiciones, declaraciones de cobertura, registros de fallos o metadatos \(m_i\) ya establecidos, es posible **preservar esos registros tal cual** sin ejecutar las alternativas que no se exploraron ni resolver sus incertidumbres. Esta conservación es un objetivo de ingeniería documentable, no una ley de toda máquina teórica. Un registro vacío o meramente «scope not declared» también puede ser honesto, pero no garantiza una información exterior nueva.
+
+#### G.5 Mapa estático, sin ninguna composición de primas por ahora
+
+\[
+\begin{array}{c}
+\mathscr W:\text{marco de referencia más amplio}\\
+\underbrace{U_t=\mathrm{Cl}_{\mathrm{Adm}_t}(\mathcal F_A\cup\cdots\cup\mathcal F_E)}_{\text{máquinas y sus funciones componibles}}
+\qquad
+\underbrace{U'_t=\mathscr W\setminus U_t}_{\text{exterior relativo}}\\
+\mathsf M_A\mapsto(a_A,A'),\;\mathsf M_B\mapsto(a_B,B'),\ldots,\mathsf M_E\mapsto(a_E,E').
+\end{array}
+\]
+
+Los \(a_i\) constituyen la interfaz **funcional**; los registros \(A',\ldots,E'\) constituyen una interfaz **contextual**, con significado dependiente de su productor, alcance y momento. Por decisión expresa del autor, **el depósito colectivo en esta etapa únicamente conserva los registros; NO los intersecta, triangula, clasifica globalmente, computa contrafácticos ni reetiqueta C/D como A**. No se postula ningún sensor capaz de observar \(U'_t\).
+
+#### G.6 Coste: «ningún cómputo funcional nuevo» no significa coste físico total cero
+
+Con los \(m_i\) ya generados y disponibles **sin una evaluación nueva**, las funciones productoras pueden quedar idénticas y la cantidad de computación necesaria para resolver sus problemas funcionales no cambia. En este sentido restringido, el metarregistro no exige explorar más gatos ni evaluar gatos monteses. Pero copiar, registrar, serializar, transmitir, autenticar y almacenar metadatos sigue teniendo coste de recursos y normalmente consume operaciones. Enviar físicamente una carga de \(L\) bits requiere transportar esos bits (salvo referencias/deduplicación con un almacén compartido y costes desplazados al acceso). Puede evitarse recomputación semántica adicional, **no** afirmar coste computacional/energético total nulo.
+
+Si la prima no se creó ni se mantuvo originalmente, reconstruir una frontera significativa sí puede exigir cómputo, inspección humana o experimentación. No procede asumir por definición que estaba almacenada. El supuesto de metadatos ya disponibles es el fundamento bajo el que se podrá estudiar un coste **incremental** relativamente pequeño.
+
+#### G.7 Qué queda demostrado y qué debe permanecer abierto
+
+**Por construcción:** \(U_t\) contiene las composiciones admisibles de las capacidades declaradas; cada prima es una descripción parcial **si** el productor dispone de esa descripción; los primados no son complementos ni un inventario de \(U'\); copiar registros existentes no exige resolver los contenidos no evaluados.
+
+**Condicionalmente demostrado:** \(U'_t\neq\varnothing\) para la envolvente no numerable de todas las funciones binarias frente a un sistema sin oráculos descrito finitamente. No hay demostración universal de \(U'\) para cualquier marco de referencia.
+
+**NO demostrado:** que toda máquina ya tenga un \(m_i\) útil; que todas las primas sean no vacías; que estén totalmente determinadas sin trabajo; que describan de modo completo una frontera epistemológica; que reúnan conocimiento suficiente sobre \(U'\); que el traslado sea gratis; o que la triangulación posterior aumente información o beneficio neto.
+
+**Punto de continuidad:** primero fijar matemáticamente **tipos, dominios, admisibilidad, significado de cada prima y custodia**; todavía no efectuar composición de las primas, probabilidad de triangulación, optimización de recursos ni una «ley de ganancia neta». El siguiente incremento del autor tratará esos procesos. **00M, 00N y las fuentes publicadas quedan intactos; esta nota vive en la VNext propuesta del PR borrador.**
