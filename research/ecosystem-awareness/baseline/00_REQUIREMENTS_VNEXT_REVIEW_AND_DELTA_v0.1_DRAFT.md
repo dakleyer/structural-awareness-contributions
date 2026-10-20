@@ -703,29 +703,6 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="req-r1-delta-001--recuento-interno-de-familias"></a>
-<a id="cambio-14--corregir-el-total-a-seis-familias-de-escenarios"></a>
-<a id="cambio-15--cuatro-familias-distintas-sin-afirmar-independencia"></a>
-<a id="ola-2--cambio-9-requirements-seis-escenarios-y-cuatro-incorporaciones-distintas"></a>
-<a id="pasaje-1--título-reference-failure-scenario-expansion"></a>
-<a id="pasaje-2--oración-post-freeze"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="bloques-aplicados-retirados"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Aplicación completa autorizada — 12 octubre 2026
 
 Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
