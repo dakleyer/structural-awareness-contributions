@@ -12,7 +12,7 @@ Conservar canon y contratos, registrar un contraste en ambos extremos, siempre v
 
 La fuente conserva Cart_i persistente en Composition y el overlay/request en RA. La frase de §14 permite consumir un slice por compartir A/B/C/D, igual que la fila 01C §5.1. Es compatible como vocabulario; no justifica por sí sola la pregunta científica receptora. Soporte de un elemento/dependencia cartográfica y soporte de una dirección RA son objetos distintos.
 
-El [cambio 52 de 01C](../../research/ecosystem-awareness/baseline/01C_VNext.md#cambio-52--calificar-la-cartografía-al-recibirla-en-ra) y el cambio 53 de esta VNext se preparan juntos. No se propone un segundo mapa ni una taxonomía. Falta un perfil de recepción que muestre qué significado/evidencia conserva y qué no.
+El [cambio 52 de 01C](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/01C_VNext.md#cambio-52--calificar-la-cartografía-al-recibirla-en-ra) y el cambio 53 de esta VNext se preparan juntos. No se propone un segundo mapa ni una taxonomía. Falta un perfil de recepción que muestre qué significado/evidencia conserva y qué no.
 
 ## Conversación
 
