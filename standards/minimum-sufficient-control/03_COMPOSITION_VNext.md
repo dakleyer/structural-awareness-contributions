@@ -26,10 +26,6 @@ Completar lecturas propias y consumidores reales, incluida actualización/overla
 
 ## Propuesta — viejo/nuevo, impacto y riesgo
 
-### Cambio 53 — Conservar la calificación al enviar Cart_i a RA
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio53 incorporado en `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
-
 ## Pasadas propias de Composition — leer el mapa completo y sus límites
 
 **Auditoría realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se leyó toda la fuente §§1–19, corte `ee55859f6a398249196db218ba6bbdad569692a4`, blob `0366cbd184149235005dc2236b3da7e4c394ed3e`. No se renombra como completa la anterior lectura de §§10/13–15; se añade este examen distinto.
