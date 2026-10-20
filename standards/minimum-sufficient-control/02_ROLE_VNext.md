@@ -12,7 +12,7 @@ Preservar fuente canónica, registrar relaciones materiales en sus extremos y pr
 
 Role define el lugar funcional/contractual dentro de una MSCA y un Objective Envelope, con inputs/outputs/dependencias, ACC binding y referencias a autoridad. Operation §§2–4 distingue Role_bound de Role_effective inferido de observaciones. La fila de 01C §5.1 llama al primer input “what actually does”, lo que puede ocultar esa diferencia.
 
-No es necesario cambiar Role para corregir ese resumen. El [cambio 54 en 01C](../../research/ecosystem-awareness/baseline/01C_VNext.md#cambio-54--separar-rol-vinculado-y-conducta-observada-al-entrar-en-ra) mantiene el input contractual y trata la conducta como evidencia separada. Su **impacto esperado es alto, riesgo alto, esfuerzo medio**: hay que cotejar perfiles/Operation y evitar que observar conducta cree legitimidad.
+No es necesario cambiar Role para corregir ese resumen. El [cambio 54 en 01C](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/01C_VNext.md#cambio-54--separar-rol-vinculado-y-conducta-observada-al-entrar-en-ra) mantiene el input contractual y trata la conducta como evidencia separada. Su **impacto esperado es alto, riesgo alto, esfuerzo medio**: hay que cotejar perfiles/Operation y evitar que observar conducta cree legitimidad.
 
 ## Conversación de auditoría
 
