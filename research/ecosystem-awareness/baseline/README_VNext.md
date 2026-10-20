@@ -2001,32 +2001,6 @@ Source predecessor `f4723948090e3a1a050fe9d2003a3bb6bf09a241` becomes `c39e04aca
 
 
 
-### Change 138 — Remove the accidentally duplicated Topology section heading prefix
-
-**State:** D source reading, C separate review and root context/anchor/inverse complete; authorised, not yet applied. **Expected impact:** Bajo. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Siguiente.
-
-Source `research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md`, blob `a5adff56ede0effa4d3fb9d04fe1e41f3a76a17a` at `27ebc14437d3b7c5ed6686a781fe3f77fbce55b1`, line90. The duplication was introduced by the canonical-ABCD alignment at `135d8ff8b2d953270426f5cda0e77402ed0f81e7`. Current §2.1 already receives the corrected A/B/C/D distinctions and §3 retains participant-local qualification, attributed handoff and receiver duties. This pair repairs the title only.
-
-**Text before — complete heading line**
-
-~~~~markdown
-## 3. Agent-local## 3. Agent-local qualification and ecosystem composition
-~~~~
-
-**Text after — complete heading line**
-
-~~~~markdown
-## 3. Agent-local qualification and ecosystem composition
-~~~~
-
-**Reason:** Read the section title once and give it the intended clean anchor.
-
-**Risk and effort:** Delete only the repeated 17-byte prefix in one heading. No definition, example, topology relation or other source byte changes. Neither the malformed nor intended heading has an explicit Markdown inlink in the pinned corpus. Compare the originating changed passage and complete current section context, check incoming anchors and the whole-file inverse; publish and read back exact bytes.
-
-**Iván's instruction:** apply justified surgical repairs after publishing the complete pair; retain every unrelated byte and retire the applied pending card. The exact difference is17 ASCII bytes. No old ABCD definition is restored. The existing baseline VNext owns this small source; no new document or review owner is created.
-
-
-
 ## Historical source reception: proof families, interfaces and transfer remnants — 15 October 2026
 
 D examined the additional source cohort against actual current bodies. Apparent cuts in split EA units have receiving parts; current topology and case explanations preserve the corrected producer/process/question/scope/capability/time meanings. The old coarse ABCD wording is lineage rather than a second current definition. The A21 historical route was restored by136; its old 14-element bijection and ordered normalizer are not substituted for the current relative-completeness argument.137 has restored normal reading of the Extensions audit without removing research prose.
@@ -2034,8 +2008,6 @@ D examined the additional source cohort against actual current bodies. Apparent 
 The input-contract examination read the complete current contract and all 176 field rows, comparing 58 old/new units. Field IDs and historical Word/diagram/manifest identities survive. Custody captions distinguish authentication of a historical edition from a claim that one old hash certifies the amended current body. H06/F9 and the stated classification questions remain research issues; retention of rows does not resolve them. The existing interface owner records the detailed consequence.
 
 Eight old EP presentation-transfer fragments still have no authenticated whole-source receiver. The batch is not an intact ZIP. A later scan recovered four complete slide members by length and CRC; their content and remaining bytes are being traced against actual editions. The fragments are not labelled harmless duplicates or silently reintroduced as current slides. Historical versions and generation sources are being checked; current complete presentations remain intact.
-
-**138 application gate update:** the one-line pair above is fully reviewed, but has not been applied. Automatic approval review requires Iván’s specific GO on that canonical Topology heading. The previously prepared application commit is not public main; no other paragraph is included in that decision.
 
 
 ### Change 139 — Restore HF review readability
@@ -2092,6 +2064,6 @@ The two source-relative manifest hrefs in the preserved 04 input-contract pair r
 
 One current wording observation is retained for the cross-scenario package: its README still says three kernels/three short functions, reflecting original P4–P6, while the table and added P1–P3 module cover six kernels and 12 tests. The original module really has three functions; none is missing. This historical-loss review therefore does not blindly replace the code docstring or replay an older count. Any editorial proposal must name both README passages, the later module and the versioned core reference together.
 
-At application cut `1f65fbfbb17d29499e2b11657f579a2a01ff38de`, twenty-one repairs 122–143 except 138 contain 30 exact pairs: 19 in 12 source documents and eleven in four existing review files. All are incorporated and their pending cards replaced by receipts. 138 remains a low-impact, low-risk, low-effort heading correction awaiting the specific decision already requested; its complete pair is published and its source unchanged. No additional high-impact restoration was manufactured from corrected or never-adopted history. The four unresolved EP container units require an authentic original, not an inferred replacement. The [EP consolidation](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#historical-damage-control-consolidation-and-remaining-boundaries--15-october-2026) owns the common route and branch table.
+At application cut `1f65fbfbb17d29499e2b11657f579a2a01ff38de`, twenty-one repairs 122–143 except 138 contain 30 exact pairs: 19 in 12 source documents and eleven in four existing review files. All are incorporated and their pending cards replaced by receipts. No additional high-impact restoration was manufactured from corrected or never-adopted history. The four unresolved EP container units require an authentic original, not an inferred replacement. The [EP consolidation](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#historical-damage-control-consolidation-and-remaining-boundaries--15-october-2026) owns the common route and branch table.
 
 The last C5 event 641 identified partial reception of an old DDS audit rather than complete preservation. 143 now restores its specific non-exhaustive-delta and authority-risk qualifications in the existing DDS VNext. EP had already retained the 0.1.2 caveat and remitted 0.1.3 detail to DDS; the new paragraph completes that route with a full authentic-source link. Original technical content remains with the current contracts. C's medium historical-benefit assessment and D's low incremental-impact judgement remain attributed; final overall impact/risk are low, and full verification effort medium.
