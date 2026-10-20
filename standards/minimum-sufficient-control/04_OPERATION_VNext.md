@@ -209,30 +209,6 @@ El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/04_OPERATION_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="cambio-60--decir-que-p3-identifica-una-necesidad-sin-verbo-de-autorización"></a>
-<a id="revalidación-del-cambio60-contra-la-nueva-fuente"></a>
-<a id="ola-2--cambio-1-p3-identifica-una-transición-no-concede-autoridad"></a>
-<a id="113-última-oración"></a>
-<a id="ola-2--redacción-directa-del-cambio-1"></a>
-<a id="113-última-oración-1"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="bloques-aplicados-retirados"></a>
-<a id="ola2-redaccion-01"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/04_OPERATION_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Aplicación completa autorizada — 12 octubre 2026
 
 Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
