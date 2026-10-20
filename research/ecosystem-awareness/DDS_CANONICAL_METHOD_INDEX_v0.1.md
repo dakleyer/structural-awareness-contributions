@@ -89,6 +89,20 @@ To prevent collision with existing scenario terminology:
 - **C02 / C11 / T03** retain their R01 lifecycle/delivery meaning.
 - **Cross-corpus examples:** UC-21 `R0/R1/R2` are comparison routes; `T08/S5` identifies the AWS Step Functions/RDS profile for the delayed repair, while `T09/S6` identifies the Panodyssey/TEMS rights profile. AWS `AWS-I0/I1/I2`, Steven Zhao's local `I0/I1/I2`, R01 `M/I/P` and DDS `I/M/P/Ø` retain distinct source-specific meanings. For the full translation discipline, consult [Stage A §10A — namespace safety](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#10a-namespace-safety-for-cross-corpus-review).
 
+### Optional sequential comparison arms — UC-20 mapping (20 October 2026)
+
+A prospective **three-position comparison** may execute its arms **conditionally**, rather than requiring all three in every campaign. In the [UC-20 discussion](https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6296588097), the proposed comparison shorthand **DDS R1/R2/R3** maps to the *source-native* **UC-20 R0/R1/R2**, respectively. These are local comparison-arm labels, **not** DDS development Stages A/B/C or a global renaming of UC-21 R0/R1/R2.
+
+| Proposed comparison arm | Entry/exit rule |
+|---|---|
+| **R1 — selected competent initial configuration** (UC-20 R0) | Execute first, with predeclared positive controls and acceptance. A demonstrated PASS gives full credit to the existing configuration; do **not** run R2 merely to strengthen something that already satisfies the selected Challenge. |
+| **R2 — reinforcement/reconfiguration** (UC-20 R1) | Admit only after a demonstrated R1 FAIL on the selected question and with a prospectively defined correction/comparator contract. If R1 passes, R2 is **NOT_RUN / NOT_REQUIRED**, never an inferred PASS. |
+| **R3 — retained successful configuration under material change** (UC-20 R2) | Admit only after a predecessor configuration has **actually demonstrated PASS** and the material-change family, selector, safeguards, legitimate controls, resources and outcome oracle are preregistered. If neither R1 nor R2 passes, R3 is **NOT_ADMITTED / NOT_RUN**, not FAIL. |
+
+For **the original frozen UC-20 protocol**, its R2 specifically starts from a **passing UC-20 R1**. A direct successful UC-20 R0 → changed-context experiment requires an **explicit prospective successor variant**; do not silently claim it follows the frozen UC-20 R2 definition. An inconclusive, missing-observation or not-established predecessor result is **not** a FAIL or PASS that automatically activates another arm. Report executed and omitted arms, the stopping reason, original labels and evidence ceiling separately. In an admitted full baseline/correction/changed-context question, two or three arms may execute; a narrower study may stop earlier under its frozen contract. No universal three-run obligation, optimality claim or source-case regrading follows.
+
+
+
 ## 6. Claim propagation rule
 
 No stage result automatically proves a later stage.
