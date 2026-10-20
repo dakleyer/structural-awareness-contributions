@@ -253,38 +253,6 @@ Esta evidencia no adopta 73, no demuestra sinergia universal ni cierra campañas
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00N_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada"></a>
-<a id="una-ruta-corta-para-el-lector-humano"></a>
-<a id="estado-público-de-la-nota"></a>
-<a id="cambio-11--condicionar-el-tamaño-y-coste-del-contexto-útil"></a>
-<a id="cambio-12--ruta-corta-de-lectura-en-00n"></a>
-<a id="cambio-13--publicación-de-00n-distinta-de-madurez"></a>
-<a id="ola-2--cambio-2-contexto-útil-y-coste-quitar-la-promesa-implícita-de-pequeño"></a>
-<a id="apertura-segunda-oración-del-primer-párrafo"></a>
-<a id="ola-2--redacción-directa-del-cambio-2"></a>
-<a id="apertura-segunda-oración-del-primer-párrafo-1"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="ola-3--cambio-5-entrada-por-el-ejemplo-de-dos-señales-ready"></a>
-<a id="ola-3--cambio-6-estado-de-publicación-claro"></a>
-<a id="bloques-aplicados-retirados"></a>
-<a id="ola2-redaccion-02"></a>
-<a id="ola3-cambio-05"></a>
-<a id="ola3-cambio-06"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00N_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Aplicación completa autorizada — 12 octubre 2026
 
 Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
