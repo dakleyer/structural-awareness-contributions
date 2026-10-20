@@ -158,14 +158,6 @@ La evidencia de fuente primaria, todos los campos/consumidores de 01H/01J, repre
 
 ## Propuestas de esta lectura — viejos completos y prioridad
 
-### Cambio 52 — Calificar la cartografía al recibirla en RA
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio52 incorporado en `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
-
-### Cambio 54 — Separar rol vinculado y conducta observada al entrar en RA
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio54 incorporado en `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
-
 ## Lectura completa de Role y Composition — reevaluación de la auditoría
 
 **Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** La lectura íntegra de Role/Composition matiza52/53/54: Role§13.1 ya usa what actually does dentro del objeto estático; Composition§10.1 y conformance conserva qualifiers. Son aclaraciones de lectura aislada, no contradicciones operativas demostradas. Valoración vigente: impacto Medio/riesgo Medio/esfuerzo Medio/prioridad Siguiente, conservando viejo/nuevo y rating anterior.
