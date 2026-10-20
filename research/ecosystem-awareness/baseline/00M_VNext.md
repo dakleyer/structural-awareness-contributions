@@ -239,38 +239,6 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="orientar-la-lectura-y-señalar-el-siguiente-paso"></a>
-<a id="un-ejemplo-que-evita-una-falsa-certeza"></a>
-<a id="facilitar-el-acceso-a-r4"></a>
-<a id="cambio-7--dar-un-siguiente-paso-de-00m-a-00n"></a>
-<a id="cambio-8--ejemplo-de-evidencia-incompatible-y-falsa-certeza"></a>
-<a id="cambio-9--acceso-alternativo-a-la-referencia-r4"></a>
-<a id="ola-2--cambio-10-una-respuesta-única-puede-seguir-sin-respaldo"></a>
-<a id="00m-42-oración-inicial-del-párrafo-de-inconsistencia"></a>
-<a id="ola-2--redacción-directa-del-cambio-10"></a>
-<a id="00m-42-oración-inicial-del-párrafo-de-inconsistencia-1"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="ola-3--cambio-2-enlazar-la-pregunta-matemática-con-la-funcional"></a>
-<a id="ola-3--cambio-3-acceso-directo-a-la-fuente-primaria-r4"></a>
-<a id="bloques-aplicados-retirados"></a>
-<a id="ola2-redaccion-10"></a>
-<a id="ola3-cambio-02"></a>
-<a id="ola3-cambio-03"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Third independent source review — 00M branch correction, 14 October 2026
 
 The isolated source reviewer has sealed the first bounded judgement below before opening previous audit bodies. It finds a justified correction in an internal 00M branch: finite termination does not establish delivery within an operational deadline. It recommends preserving that correction, with no current replacement candidate. This is a partial source judgement, not completion of 00M, its downstream integrations, the restoration/organization plan or the whole corpus.
