@@ -203,23 +203,6 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 |---|---|---|---|---|---|
 | 42 · Justificar medida de información antes de usar sinergia | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Medio | Pendiente de decisión |
 
-### Cambio 42 — Justificar medida de información antes de usar sinergia
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Dar antecedente primario para por qué sinergia no tiene una medida universal transferible.
-
-**Qué podría quedar desactualizado o afectado:** Añadir una referencia no selecciona automáticamente una medida correcta; perfiles/métricas pueden interpretar sinergia de modos distintos.
-
-**Qué cuesta prepararlo:** Verificar referencia y coherencia con §2.3/00M/métricas que la consuman; sin cálculo nuevo.
-
-**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) · [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Conservar edición fijada y separar elección de medida de evidencia operacional.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#documentar-la-elección-de-medida-en-23); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
-
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
 **Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Los registros anteriores y sus viejos completos permanecen íntegros.
