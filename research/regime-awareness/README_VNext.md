@@ -176,24 +176,6 @@ Foundation §17.4 separa salida dinámica observable de invalidación del marco 
 35/37/38 sobre B/C/D siguen pendientes con 01C/01D/Operation; esta relación no resuelve su semántica. No se elige postura, se mueve el programa o incorpora un candidato. Registrar ambas proposiciones y sus límites en el examen material pendiente; sexta global aún no lanzada.
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/regime-awareness/README_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="adición-de-navegación--texto-viejo-y-después-completo"></a>
-<a id="cambio-36--acceso-a-trabajo-adicional-desde-ews"></a>
-<a id="bloques-aplicados-retirados"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/regime-awareness/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Aplicación completa autorizada — 12 octubre 2026
 
 Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
