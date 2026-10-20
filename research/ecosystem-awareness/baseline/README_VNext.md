@@ -410,12 +410,6 @@ Requirements y UC-EA-03 conservan sus freezes y los sucesores de trabajo aprobad
 
 [Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
 
-### Cambio 79 — Llevar la familia S4 vigente a main sin perder su ruta anterior
-
-**Aplicado en main — autorización de Iván, 12 octubre 2026.** Cambio 79 incorporado y fuera de pendientes. El par completo y su ficha anterior se conservan en el predecessor Git de esta aplicación.
-
-
-
 ## Migración conservadora completada en los repositorios — 12 octubre 2026
 
 Iván autoriza completar la migración y preservar toda la información y sus rutas. Se incorporan los seis cambios77–82 mediante sus trece pasajes exactos, con nueve enlaces de orientación actualizados y sus referencias anteriores conservadas. No se mueve ni renombra ningún archivo. Las fuentes mantienen todo el contenido fuera de esos pasajes; los anexos añadidos son bloques al final.
@@ -1839,16 +1833,6 @@ The current source cut is `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. Separate s
 
 The following exact pairs are the bounded current batch. Earlier audits and incomplete readings retain their own states.
 
-### Change 122 — Applied 15 October 2026
-
-The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, source blob `e5f373bb104f370dfb336b356f14733aec61a59f`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/README_VNext.md#change-122--identify-the-translated-r01-check-receipts-and-reconnect-their-exact-originals) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `2a696473339c0eb184795a5f91f39216e087120f` exactly.
-
-### Change 123 — Applied 15 October 2026
-
-The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/non-canonical/README.md`, source blob `971e2e91c9977b37f23039e538d6c747eb0eb163`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/README_VNext.md#change-123--restore-annotated-reading-routes-to-distinct-formal-antecedents-and-working-drafts) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `160602b5130ec8075d929bb7702e1cd73fbbe319` exactly.
-
-
-
 ## Further case and translation reception — 15 October 2026
 
 Reviewer B's second source examination adds 112 decisions in 46 paths (215/468 bounded decisions, 253 events still open). The complete prior/current A01 construction body and current A03 harness design were read, together with their historical changed clauses. Renaming the old proof sketch to construction/test design preserves the technical body, source graph, oracle residual, runtime/evaluator separation, scarce resources, defender, preregistration, controls and matrix. The successor strengthens comparator and observation duties; the old proof/execution implication should not return.
@@ -1877,12 +1861,6 @@ C's current history examination identified a second custody distinction in previ
 
 A subsequent A5 continuation has completed the 03/04 current bodies and their histories: 80 further units, including the three B-attributed Operation closures, leave pending; A now has 851 source units open. Its specific judgments are in [03](03_FUNCTIONAL_VNext.md#historical-functional-architecture-reception--15-october-2026) and [04](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#historical-interface-reception--15-october-2026). No additional repair is proposed.
 
-### Change 129 — Applied 15 October 2026
-
-The three reviewed sentences are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md`, blob `8db79c05aa66a938b1e7ef47f8b22f0790685f00`. The [complete old/proposed paragraph](https://github.com/dakleyer/structural-awareness-contributions/blob/0774c38043e36d41693d21d0c104797a543fa6d3/research/ecosystem-awareness/baseline/README_VNext.md#change-129--identify-authentic-originals-behind-translated-planning-and-release-records) remains in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed paragraph recovers predecessor `e5f373bb104f370dfb336b356f14733aec61a59f` byte for byte;122 and every other source byte remain intact. Both JSON records are unchanged.
-
-
-
 ## Further human-capacity and presentation history — 15 October 2026
 
 A6 completes the Foundation/Gradient/01K/A01 historical block:78 examined units,64 newly resolved,787 source units remain in A's fixed cohort. The [01K owner](01K_VNext.md#historical-human-capacity-integration-and-the-optional-protection-example--15-october-2026) contains the one useful optional protection example130; A01 timing and source-series corrections stay intact. No old HIT formula, universal argmax or enlargement-only Type restriction is restored.
@@ -1902,12 +1880,6 @@ HF's complete pre-audit v0.1 records retain their historical wording, while curr
 The next source-history block finds one genuine translation error in the active continuation: Spanish “otra revisión propia” became English “another author's review”.133 repairs that sentence only, preserving M16/M17/P08 and the current staged sequence. C's remaining HF/code/history work continues; this does not close the corpus.
 
 C's next sealed cohort adds52 contextual judgments:267 of705 events are now adjudicated and438 remain. Full Differential, Mathematical Feasibility, Continuation, WORKPLAN and Strategic-master histories retain all55 historical acceptance criteria through current theorem/protocol/M16–M17/C02–C11–T03 receivers. Superseded M12/delivery scheduling is not reinstated.133 is the only new useful clause loss identified there.
-
-### Change 133 — Applied 15 October 2026
-
-The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md`, blob `df5e54bd25f2aab11108a310c0cd4f3d0fc8ccf5`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/374da9b879c5015dea6dac483f7edac1bd052403/research/ecosystem-awareness/baseline/README_VNext.md#change-133--restore-the-self-review-boundary-in-the-r01-continuation-translation) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitution recovers source predecessor `ee08b6f9048738a68f835165a0bf5312c536bbdf` byte for byte. Every other source byte is retained.
-
-
 
 ## Root, control and DAOS history adjudicated — 15 October 2026
 
@@ -1930,12 +1902,6 @@ No useful current textual omission was established. The38-page received suppleme
 The historical PDF has a genuine cover/map layout regression. Extraction suggested an ≠→= semantic change on an older page7, but full-size visual inspection showed visible = in both editions; that preliminary inference is rejected. The current nine-page PDF remains a dated visually imperfect v1.0 source. Its historical label and the v1.2 split-deck route are already corrected by131/132; all original binaries remain unchanged.
 
 Six DOCX versions have complete structural/text comparison, with R01 PDF render support, but native Word/LibreOffice layout was unavailable. PowerPoint desktop was not used. These specific visual limits remain; they are not textual loss verdicts or proof of native compatibility.
-
-### Change 134 — Applied 15 October 2026
-
-The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `173d025fb1129b55a2d3a81036b3b53b7616c2bf`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/11a11874a909d4e1dec965abee699f46924be847/research/ecosystem-awareness/baseline/README_VNext.md#change-134--restore-described-access-to-nine-complete-historical-daos-editions) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitution recovers source predecessor `971e2e91c9977b37f23039e538d6c747eb0eb163` byte for byte. Every other source byte is retained.
-
-
 
 ## EP reader lineage and continued R01 history — 15 October 2026
 
@@ -1970,12 +1936,6 @@ D's additional source cohort now has 87 contextual event judgments covering 368 
 The baseline manifest's346 core plus33 supplemental tests correctly gives379; P4's76 remains a distinct component. Its CI reproduction wording is scoped by the complete A14 receiver, not treated as an independent human review. A repeated manifest merge delta is duplicate evidence, not another loss. One missing reading route is useful:136 below links the two distinct retired A21 constructions beside the already restored02B/grammar companions. Current A21 keeps its own authority.
 
 A10 also completes A's assigned historical-retirement queue of1,734 units:1,113 material receptions,618 justified corrections and three source-cut omissions separately repaired. It read the remaining baseline reader, VisualGuide, Workplan, DBC and Structural Awareness passages and their actual receivers. Current-body/instrument reconciliation and the separate C/D/control cohorts still have their own boundaries. This is historical damage control, not a claim to have finished the earlier scientific five/six-pass programme.
-### Change 136 — Applied 15 October 2026
-
-The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `7ab01f831f0a774179b98678fc92083dc08652ad`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/4be747b295bd75bbc1517ffee8a3913d1dd5397d/research/ecosystem-awareness/baseline/README_VNext.md#change-136--restore-described-access-to-two-retired-a21-constructions) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitution recovers source predecessor `173d025fb1129b55a2d3a81036b3b53b7616c2bf` byte for byte. Every other source byte is retained.
-
-
-
 ## Completed original history assignments and preservation limits — 15 October 2026
 
 A10 completed the original source-retirement reading:1,113 material receptions,618 justified corrections and three historical omissions at the source cut. The complete baseline index, VisualGuide, Workplan, DBC and article annex plus every distinct retired passage have receiving-clause judgments. The distinct antecedent navigation repair is 123, not 122;122 is the separate R01 custody clarification. This corrects that identifier in A10's private narrative without rewriting its sealed source judgments.
@@ -1991,16 +1951,6 @@ C's new audit-source cohort is 60/93 complete at its third sealed cut: current c
 135 is applied at `cbd9e4c9d90477d8e0f9f5538a09fbff8057980c`, with its primary integer/result untouched.136 is applied at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`, after Iván's exact decision “Autorizar 136 en esa hoja”. The complete old/proposed 136 paragraph remains in [its preparation edition](https://github.com/dakleyer/structural-awareness-contributions/blob/4be747b295bd75bbc1517ffee8a3913d1dd5397d/research/ecosystem-awareness/baseline/README_VNext.md#change-136--restore-described-access-to-two-retired-a21-constructions). Neither item remains pending. No historical proof, normalizer, source result or program was restored or executed by 136.
 
 
-### Change 137 — Restore Extensions audit readability
-
-**Applied 15 October 2026.** The orphaned four-backtick line is removed and the exact dated receipt is added in the [existing Extensions VNext](./reductions/00G-R01/extensions/README_VNext.md#readability-repair--15-october-2026). The [complete published plan and final receipt](https://github.com/dakleyer/structural-awareness-contributions/blob/3331ed06dddfff95438b191fe482bb123a2f4b81/research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) retain both full before/after substitutions and C’s wording precision. B traced the original retirement and confirmed the real GitHub defect; C independently reproduced the origin, literal pairs and rendered effect; root checked the whole-file inverse.
-
-Source predecessor `f4723948090e3a1a050fe9d2003a3bb6bf09a241` becomes `c39e04acae9cb9596250a15b10242fd42cb55498`. The exact +919-byte change consists of deleting five delimiter bytes and adding the reviewed 924-byte receipt. Reversing those two substitutions recovers the entire predecessor. All research prose, results and programmes remain intact. Both initial and revised137 cards are retired from pending; the heading is retained for incoming review links.
-
-
-
-
-
 ## Historical source reception: proof families, interfaces and transfer remnants — 15 October 2026
 
 D examined the additional source cohort against actual current bodies. Apparent cuts in split EA units have receiving parts; current topology and case explanations preserve the corrected producer/process/question/scope/capability/time meanings. The old coarse ABCD wording is lineage rather than a second current definition. The A21 historical route was restored by136; its old 14-element bijection and ordered normalizer are not substituted for the current relative-completeness argument.137 has restored normal reading of the Extensions audit without removing research prose.
@@ -2008,46 +1958,6 @@ D examined the additional source cohort against actual current bodies. Apparent 
 The input-contract examination read the complete current contract and all 176 field rows, comparing 58 old/new units. Field IDs and historical Word/diagram/manifest identities survive. Custody captions distinguish authentication of a historical edition from a claim that one old hash certifies the amended current body. H06/F9 and the stated classification questions remain research issues; retention of rows does not resolve them. The existing interface owner records the detailed consequence.
 
 Eight old EP presentation-transfer fragments still have no authenticated whole-source receiver. The batch is not an intact ZIP. A later scan recovered four complete slide members by length and CRC; their content and remaining bytes are being traced against actual editions. The fragments are not labelled harmless duplicates or silently reintroduced as current slides. Historical versions and generation sources are being checked; current complete presentations remain intact.
-
-
-### Change 139 — Restore HF review readability
-
-**Applied 15 October 2026.** The exact 2 source-specific substitutions are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md`, blob `40dd126d4355a4d731c75a407963e351abbfc127`. The [complete published before/after passages](https://github.com/dakleyer/structural-awareness-contributions/blob/092dc8bb893c9b3618dbc8750b464b7ce8cd9238/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability) retain the reviewed plan. C identified the retirement error and checked the public-before page; D separately checked the full-file pairs, affected context and Markdown structure; root reproduced the inverse and structure. The pending card is retired.
-
-Expected overall impact, risk and effort are **Bajo**, priority **Siguiente**, following D’s final assessment. The earlier Alto label described the local reading benefit, not a scientific or system-level effect. The exact file delta is +987 bytes, including its dated receipt. Reversing these substitutions recovers source predecessor `aa910d27c2435c6e36b2fc3d3750bed400ca5e61` byte for byte. All prior substantive prose, numerical evidence and unrelated bytes remain. No research code or result changes.
-
-### Change 140 — Restore 00K historical audit readability
-
-**Applied 15 October 2026.** The exact 3 source-specific substitutions are incorporated in `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`, blob `493b81e29cfff98dbd23e103084a1940fd72054f`. The [complete published before/after passages](https://github.com/dakleyer/structural-awareness-contributions/blob/092dc8bb893c9b3618dbc8750b464b7ce8cd9238/research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability) retain the reviewed plan. C identified the retirement error and checked the public-before page; D separately checked the full-file pairs, affected context and Markdown structure; root reproduced the inverse and structure. The pending card is retired.
-
-Expected overall impact, risk and effort are **Bajo**, priority **Siguiente**, following D’s final assessment. The earlier Alto label described the local reading benefit, not a scientific or system-level effect. The exact file delta is +854 bytes, including its dated receipt. Reversing these substitutions recovers source predecessor `a897cc2aa56adcb6abe061bd851aea9665be121c` byte for byte. All prior substantive prose, numerical evidence and unrelated bytes remain. No research code or result changes.
-
-
-
-### Change 141 — Restore DDS review quotation boundary
-
-**Applied 15 October 2026.** Both exact substitutions are incorporated in `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `202709a3db61470b4e5cd73978bd037d7ea97772`. The [complete published before/after passages](https://github.com/dakleyer/structural-awareness-contributions/blob/49277ecd9af132668d7db5491ee8d62099eb98b7/research/ecosystem-awareness/baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary) retain the reviewed plan. C traced the retired card and checked quotation structure; D separately verified this exact final plan, all changed spans, the other 167 complete code tokens and the whole-file inverse; root reproduced the source inverse. The pending card is retired.
-
-Impact, risk and effort are **Bajo**, priority **Siguiente**. The delta is +1,293 bytes: five orphaned delimiter bytes removed and a dated 1,298-byte receipt added. Reversing the two exact pairs recovers `15a7f0f465605d797ec63f586268dfdbe947ece4` byte for byte. Prior prose, link strings, quoted evidence and scientific records remain unchanged. Local GFM restores the intended audit headings and tables. GitHub's HTML API returned `403 too_large`; verification uses the full raw source and local Markdown structure. The appended receipt provides the current Contributions DDS route.
-
-
-
-### Change 142 — Provide working reader links outside the retained A22 quotation
-
-**Applied 15 October 2026.** The exact 403-byte reader paragraph is incorporated in `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`, blob `ddf1e1b791935dec143246b05d850e096ee07f1e`. The [complete published before/after passage](https://github.com/dakleyer/structural-awareness-contributions/blob/7bd720c87fc45ab544fa2e5133e74b9a22781132/research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation) retains its plan. C identified the quoted-context routing; D33 separately read A22 and both complete A13/A14 receivers and verified this exact pair; root reproduced the whole-source inverse. The pending card is retired.
-
-Impact, risk and effort are **Bajo**, priority **Siguiente**. Both source-relative hrefs inside the historic quotation remain verbatim. All four code tokens, every existing blockquote and the complete A22 qualification remain unchanged. The new routes let readers open the findings and corrections while retaining the unresolved lifting-bridge limit. Reversing the single substitution recovers source predecessor `493b81e29cfff98dbd23e103084a1940fd72054f` byte for byte. No canonical source, code or result changes.
-
-
-
-### Change 143 — Retain the DDS 0.1.2/0.1.3 review reservations
-
-**Applied 15 October 2026.** The exact 1,483-byte historical qualification is incorporated in `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `b3e8122980f2ee3aded5b5fb5a13157dc62f73fe`. The [complete published before/after and original audit context](https://github.com/dakleyer/structural-awareness-contributions/blob/3fef8fc395fd3d11381b1a9f096419c2094a3e02/research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations) retain the plan. C5 identified the partial reception from the full historical changes; D34 separately read the original, current DDS and EP receivers and verified this exact pair; root reproduced the full-source inverse. The pending card is retired.
-
-Final overall impact and risk are **Bajo**; priority **Siguiente**. Effort is **Medio** because it includes historical reading, receiver comparison and validation, rather than drafting alone. C's original medium impact/effort assessment and D's low incremental impact/risk/effort judgement remain attributed in the published plan and review history. The addition restores audit reception; current scientific content and method authority do not change.
-
-EP already retained the 0.1.2 caveat. The new DDS paragraph receives the specific 0.1.3 detail and authority-risk reservation, links the complete authentic original and leaves incorporated proposals retired. Reversing this one substitution recovers `202709a3db61470b4e5cd73978bd037d7ea97772` byte for byte. D confirmed all 168 code tokens and all blockquote/table/heading structure unchanged. The two concurrent 05/05A additions were retained exactly when this plan was published over `aaf0de16e6fd1462a842165a99a37124a787971d`.
-
 
 
 ## Historical reception and restoration decisions — 15 October 2026
