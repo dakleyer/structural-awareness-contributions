@@ -326,6 +326,19 @@ For each nominated scenario i, register the reinforced implementation K_i, basel
 
 The [case claim-selection source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection) and [complete recurrence source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md#annex-r) retain their full editions and definitions. These application bindings supply no new execution or hypothesis result.
 
+### UC-21 per-candidate evidence qualification — review clarification (20 October 2026)
+
+For a selected candidate, the review record must **separately identify four evidence objects**, rather than presenting one composite "validation" outcome. This is a clarification of evidence handling for the prospective UC-21 / DDS review, not an alteration of the eighteen-field run contract or a general UC-4 admission requirement:
+
+1. **Instrument qualification:** the versioned test instrument, its producer/reviewer, falsification controls, tested applicability and independently established limitations. Instrument readiness does not validate a candidate's effects.
+2. **Preservation of supplied findings:** the source author, version/pin, original reported result, custodian and mapping checks. Faithful preservation does not confirm the supplied result is true.
+3. **Native execution:** the actual candidate mechanism, configuration, executor, observation point and trace, distinguished from source text, synthetic fixtures and author-reported tests.
+4. **Independently observed effects:** the independent observation source, target state or effect, observer, coverage and time window, distinguished from a gate verdict, acknowledgement or attempted action.
+
+Each object carries its own **status, producing party, pin, evidence mode, scope and limitations**. Missing required observations remain **NOT_ESTABLISHED** and cannot silently become PASS, zero effect or NOT_APPLICABLE. Material changes after a review freeze require a versioned successor and recorded revalidation decision; earlier results are preserved. A candidate-specific roles/interests record precedes any assignment or claim of independent verification, with implementation, catalogue, reference/oracle and control-criterion interests screened symmetrically.
+
+This incorporates the [UC-21 closure conditions recorded by Nelson](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6263257536) and [Steven's explicit four-way interpretation](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6271173349). The corresponding operating status and dated document-review cut are recorded in the existing [EA/EP Workplan](./WORKPLAN.md); the original Stage A v0.2 audit candidate is unchanged.
+
 ### UC-21 run and evidence binding
 
 Use the following eighteen fields for a prospective UC-21 record, or provide an explicit field-by-field mapping to the selected existing card. Name the actual card, claim, version and receiving owner before using it; an existing HEW or HF card is not automatically an HR campaign. An unfilled field remains pending; justified non-applicability states its reason and scope. U denotes the bounded operational representation; its active observation window is a separate selection.
