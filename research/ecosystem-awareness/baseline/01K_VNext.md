@@ -490,14 +490,6 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
 
 
-### Application 93 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md`; resulting source blob `3c6e9526062335c8eedd6c23dc3f7fded80211bd`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-**Verified application commits — 04_capacity_contract:** [93](https://github.com/dakleyer/structural-awareness-contributions/commit/cad6836a62d70e29632a8c0d81ca23cc9f500a4d).
-
-
 ## Owner authorised application complete 15 October 2026
 
 **Applied and verified:** 93. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
