@@ -100,20 +100,6 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 |---|---|---|---|---|---|
 | 35 · Conciliar los cuatro roles RA en su README | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
 
-### Cambio 35 — Conciliar los cuatro roles RA en su README
-
-**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera.** Que B sea soporte/reserva, C exploración y D barrera efectiva, sin confundir UNKNOWN.
-
-**Qué podría quedar desactualizado o afectado:** Cambiar solo el resumen puede dejar Operation, Cartografía, perfiles y lectores con otra interpretación; campos con mismo nombre no garantizan compatibilidad.
-
-**Qué cuesta prepararlo:** Revisión coordinada de productor y consumidores, antes/después y significado recibido.
-
-**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [README.md](README.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Decidir con 37/38 y correspondencia 17; no renombrar payload ni autoridad.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#propuesta-antesdespués--conciliación-del-resumen-pendiente); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `f021454aeb8359da468dbe4a2725851cce9c4d01`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
 ## Continuación de 01C — payloads y separación de propietarios
 
 **Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** Se leyó 01C completo en texto y se amplió el contraste de entradas, payloads y owners. Los candidatos 52/53 impiden usar el esquema compartido como soporte automático de la pregunta RA; 54 separa rol contractual y conducta. El candidato anterior de resumen A/B/C/D no se adopta ni cambia su viejo. Evidencia del paper y realizaciones siguen abiertas.
