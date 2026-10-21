@@ -799,48 +799,6 @@ El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.m
 | 25 · Explicar reutilización por familia sin trasladar resultados | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
 | 29 · Distinguir modo, efectos y métricas antes de reproducir | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
 
-### Cambio 24 — Separar versión de schema y paquete UC4
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** No mezclar schema 1.1.0 con release 1.1.0-r1.
-
-**Qué podría quedar desactualizado o afectado:** Companion mutable, sidecar y validador pueden usar versiones distintas; corregir solo el README deja el perfil o import note desfasados.
-
-**Qué cuesta prepararlo:** Cotejo del manifest pin y dos documentos receptores; no cambiar sidecars congelados.
-
-**Dependencias conocidas:** [UC4_INTEROPERABILITY_PROFILE.md](UC4_INTEROPERABILITY_PROFILE.md) · [NELSON_BASELINE_IMPORT.md](NELSON_BASELINE_IMPORT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Verificar vigencia del pin antes de incorporar; source-review no equivale a validator-pass.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-001--separar-versión-del-esquema-y-del-paquete-uc4); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 25 — Explicar reutilización por familia sin trasladar resultados
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Hacer visible qué puede usarse de Q1a/00K/00L/00I/C3 y qué sigue sin mapping.
-
-**Qué podría quedar desactualizado o afectado:** La tabla puede quedar vieja o sumar campañas distintas como evidencia R01; desarrollar un adapter es otra acción.
-
-**Qué cuesta prepararlo:** Siete familias con owners/versiones y comparación de límites; no importación ni ejecución.
-
-**Dependencias conocidas:** [README.md](../../../fixtures/RS-00E-Q1a/README.md) · [README.md](../../../fixtures/00K-SUITE/README.md) · [README.md](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) · [README.md](../../../fixtures/00I-STATEFUL/README.md) · [README.md](../../../fixtures/00G-HF-ORACLE-v0.4/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Alinear con matriz existente, tareas 1/2 y workplan; tabla propuesta, no admisión.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-002--hacer-visible-la-reutilización-de-los-harness-propios); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 29 — Distinguir modo, efectos y métricas antes de reproducir
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Que una instrucción de reproducción no confunda intento, efecto y aceptación.
-
-**Qué podría quedar desactualizado o afectado:** El texto puede prometer métricas o aislamiento que el runner no produce; datos instrumentales no son costes reales.
-
-**Qué cuesta prepararlo:** Leer contrato/mode y etiquetas de salida del instrumento; ninguna ejecución de programa.
-
-**Dependencias conocidas:** [README.md](README.md) · [TRACE_CONTRACT.md](TRACE_CONTRACT.md) · [ISOLATION_CONTRACT.md](ISOLATION_CONTRACT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Confirmar correspondencia documental con los modos; evitar nueva autorización de ejecución implícita.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-006--separar-modo-efectos-y-métricas-antes-de-reproducir); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
 ### Líneas de trabajo por concretar — no cambios ejecutables
 
 | Trabajo ya recomendado | Impacto esperado | Riesgo | Esfuerzo | Prioridad / preparación |
