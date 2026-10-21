@@ -391,7 +391,7 @@ For A01 itself, this pass deliberately proposes **no exact active replacement** 
 
 ### Complete candidate93 alternative — literal current source delimiters retained
 
-The reviewer body above supplies the rationale. The exact pair below retains the source’s tilded delimiters and includes the whole proposed following paragraph; one original match verified. The original93 pair remains visible and pending until a concrete choice.
+The reviewer body above supplies the rationale. The exact pair below retains the source’s tilded delimiters and includes the whole proposed following paragraph; one original match verified. The original #93 HumanTime insertion was applied on 15 October 2026; the alternative detailed here was not adopted and remains subject to its own decision.
 
 **Text before — complete current block:**
 
@@ -478,7 +478,7 @@ This is the same pending proposal, with its unified-review assessment, rather th
 
 ## Coupled literal capacity preparation 15 October 2026
 
-Existing93 remains pending and complete above. New107/108 in the [A01 VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) supply the full joint timing/proof-policy text;109 in [UC03 VNext](./UC-EA-03_VNext.md) binds the working caller. These form one scoped consumer wave. Its original frozen profiles, schema and results remain unchanged. [Joint acceptance/order](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026).
+The original #93 insertion is applied; the alternative capacity/proof-class proposal above remains pending its own approval. New107/108 in the [A01 VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) supply the full joint timing/proof-policy text;109 in [UC03 VNext](./UC-EA-03_VNext.md) binds the working caller. These form one scoped consumer wave. Its original frozen profiles, schema and results remain unchanged. [Joint acceptance/order](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026).
 
 
 ## Literal plan check 15 October 2026
@@ -487,7 +487,7 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 
 **Pairs checked here: 93.** The complete current formula and proposed HumanTime conjunction are present. The literal match is not a standalone runtime acceptance result:93 remains coupled with 107–109, qualified demand, assignment and the actual HumanTime consumers. This review leaves the source formula and results unchanged.
 
-Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. The historical review is complete; incorporation of the alternative text described above remains pending a separate named decision. The original #93 correction has already been applied.
 
 
 ## Owner authorised application complete 15 October 2026
