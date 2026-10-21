@@ -1673,29 +1673,6 @@ The successful pattern is **valid narrow evidence stays narrow until a justified
 ``````
 
 
-### Application 94 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md`; resulting source blob `8ec757d73638ed6464dfaa33861cf3d35e665797`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-**Verified application commits — 01_clarity:** [94](https://github.com/dakleyer/structural-awareness-contributions/commit/3cdede020c82bf25dbf5f3906ad30b9186dca69a).
-
-
-### Application 105 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md`; resulting source blob `fb51d5af38c53b47587a84c6aa170f819e210f88`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-### Application 106 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md`; resulting source blob `b80969c8be13d7b5b710870457b1474ac8dc9880`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-### Application 113 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/README.md`; resulting source blob `5a3244fa97c94a630bf930c54a18d7d39b4e6ff9`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
 ### Application sealed00J — 15 October 2026
 
 **Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md`; resulting source blob `994783f57be89805d3b737c1337af1df0970e4e9`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
@@ -1721,46 +1698,6 @@ Re-read94,105/106,113 and the qualified00J transfer pair together. Same-Q5 scopi
 116 classifies all additional fork roles and links them only in the existing noncanonical leaf. The original48-file case custody remains exact; nothing is copied into a new case or technical owner. [Joint source and consolidation review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026).
 
 
-### Change116 — Explain and link the fork’s separate case and repository-support material
-
-**State:** Applied — 15 October 2026; no further insertion pending for this item. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
-
-Source `research/ecosystem-awareness/baseline/non-canonical/README.md`, blob `26f0c3639aea11745b977a45ccc1de39f0655a9d` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
-
-**Why:** Accounts for the fork material beyond the48-file original UC21 package, with a purpose and bounded route for the separate case, graphics and register tools.
-
-**Risk and validation:** Support tools or a separate proposal could be confused with canonical DDS evidence. They are linked only as additional material in the existing leaf. Read dependencies `[]`; verify the complete predecessor, relative links, inverse and final public bytes.
-
-**Texto antes — completo**
-
-~~~~~~~~text
-The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.
-
-~~~~~~~~
-
-**Texto después — completo**
-
-~~~~~~~~text
-The restored ZIP retains SHA256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`, 123,884 bytes and its original contents. The restoration changes its accessibility in main, not its results, authorship or review status. No script in that packet is executed by this navigation work. All previous links in this catalogue remain in place.
-
-
-## Other fork material — source reading and repository support · 15 October 2026
-
-The original UC-21 source package is [preserved in Contributions](../../../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md). The [current DDS reader](../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) owns the maintained research route. These additional links explain the remaining fork material without introducing another corpus entry.
-
-| Material | Purpose and relation to this corpus |
-|---|---|
-| [Later UC-21 reader and existing review records](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/contributions/when-controls-work-system-fails) | Version-pinned history of the reader additions and review discussion. Its original annexes, figures and fixtures are preserved in Contributions; later objective/Challenge guidance and the S5/UC-4 discussion routes are received by the current DDS reader. This link identifies history, rather than maintaining a second case route. |
-| [Contextual trust under recursive human–agent escalation](https://github.com/dakleyer/use-cases/tree/57fb8682944d2c5d4f288182a2be278bfb8b7f93/contributions/contextual-trust-recursive-escalation) | Separate proposed case with a complete dossier, visual reading edition and original SVG/PNG guides. It contains 26 HAP requirements and 66 unexecuted test designs. Useful for comparing package admission, recursive review, evidence boundaries and stopping conditions; it is not UC-21 campaign evidence. |
-| [Case-register design and reviewer tools](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/use-case-register) and [submission template](https://github.com/dakleyer/use-cases/blob/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1/.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md) | Repository curation, SQL schema, dashboard/export helpers and submission support. These operate on the use-case register; they are not missing DDS protocols or study results. Their [root index and workflows](https://github.com/dakleyer/use-cases/tree/724d69f9cf69aaadd2f84f50934db9cf77fcc1f1) retain the support context. |
-
-The linked documents and assets keep their source versions, authorship and terms. These references do not copy or activate their programs, import their diagrams or change their evidence status.
-
-~~~~~~~~
-
-**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
-
-
 ### Historical remnant application116 — 15 October 2026
 
 Applied the complete reviewed addition to `research/ecosystem-awareness/baseline/non-canonical/README.md`. Predecessor `26f0c3639aea11745b977a45ccc1de39f0655a9d`; successor `160602b5130ec8075d929bb7702e1cd73fbbe319`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
@@ -1776,36 +1713,6 @@ Applied and read back exactly on main: 116. The old source text, all original fi
 ## Public source update 15 October 2026
 
 The final live UC-21 check found dated public developments beyond the12 October discussions used above. Nelson records S5 closed at its documented scope and sets out the proposed UC4-linked coordination/interest record; Xinghua agrees. A newly posted Panodyssey reply confirms the production-description boundary and reports a separate case in preparation. These are source updates, not historical losses or executed campaign evidence. Their source/receiver meanings were read, compared with the existing contracts, checked for concise formatting/human legibility and consolidated with the completed remnant batch. The current owner instruction authorises these two exact dated additions. No new case is created or launched.
-
-### Change121 — Record Panodyssey’s dated source-owner confirmation without promoting synthetic results
-
-**State:** Applied — 15 October 2026; no pending insertion. **Impact:** Alto. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
-
-Source `research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md`; blob `8ec757d73638ed6464dfaa33861cf3d35e665797` at `c6a2acf858f2856a20e2e29781c52286f357b25e`. Benefit: Adds the newly public source-owner corroboration to the existing profile and preserves the separate-case preparation and experimental limits. Risk: preserve the precise contributor/evidence boundary. The complete old context occurs once; only the dated block is added.
-
-**Texto antes — completo**
-
-~~~~~~~~text
-**Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
-
-~~~~~~~~
-
-**Texto después — completo**
-
-~~~~~~~~text
-**Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
-
-
-## 16. Later public source update — 15 October 2026
-
-**P9 — source-owner confirmation, supplementing P1–P8 and the 24 September evidence freeze.** In his [public UC-21 reply](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6192128304), Alexandre Leforestier confirms that this profile's description of Panodyssey's production rights stack and the agent-side identity gap matches current production reality, with no corrections at this stage. He also reports preparation of a separate Panodyssey use case grounded in Theme #17, linked to UC-21/S6 where they overlap.
-
-This is a dated source-owner confirmation of the capability description. H1/H2 remain constructed, unexecuted trajectories; the reply adds no campaign result or product-failure finding.
-
-~~~~~~~~
-
-**Iván:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
-
 
 ### Source-update application121
 
