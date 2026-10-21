@@ -131,10 +131,6 @@ ATHENA y su solicitud pública de cadena/revocación se contrastan en ACC VNext:
 
 ## Propuestas de esta lectura — fuente y consumidor juntos
 
-### Cambio 59 — Mantener en Operation el perfil de comparación del gradiente
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio59 incorporado en `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
-
 ## Reapertura por nueva capacidad humana — fuente vigente
 
 **Codex, mismo asistente,6 de octubre de 2026.** La fuente cambió a `8757ba614c94f962206912d4896c119a18a924fa`, blob `e11731c36e207d11631ade1a60ee521537840801`: se leyó íntegra la nueva §4.1 y su productor01K completo. Los demás pasajes no cambiaron. Se conservan la lectura y pares anteriores contra 26eb; no se reescribe suviejo.
