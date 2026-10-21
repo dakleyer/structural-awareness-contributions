@@ -95,10 +95,6 @@ No se estableció diferencial mediante comparación. Reutilizaría procedencia/r
 
 ## Propuesta editorial de esta lectura
 
-### Cambio 56 — Corregir el título duplicado de D_Cart
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio56 incorporado en `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
-
 ### 3.4 D_Cart### 3.4 D_Cart — cartographic residual
 ```
 
