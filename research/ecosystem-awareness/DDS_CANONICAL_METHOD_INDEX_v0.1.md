@@ -103,7 +103,7 @@ For **the original frozen UC-20 protocol**, its R2 specifically starts from a **
 
 
 
-### Ex-ante comparison discipline for Differential Findings — 23 October 2026
+### Ex-ante comparison discipline for Differential Findings (23 October 2026)
 
 **Prospective methodological clarification, not a new DDS Stage, evidence result, or change to frozen protocols.** The common DDS method compares the *policies and capabilities available before the selected future change is revealed*. It must not grant a conventional comparator exact knowledge of a later failure, an expertly tailored repair, unlimited or uncharged preparation, and then use its successful retrospective outcome to conclude that no Ecosystem Awareness (EA) differential exists. Such a run answers only the **known-failure repair / oracle-assisted upper-bound** question.
 
