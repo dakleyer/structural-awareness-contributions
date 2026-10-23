@@ -6,7 +6,8 @@
 
 **Owning source:** [DDS Stage A — Specification Discovery / Challenge–Trajectory Profile v0.1](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
 **DDS method router:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)  
-**Current review date:** 23 October 2026 (new scoped comparison review; earlier reviews retained below).  
+**Current review date:** 23 October 2026 (new scoped comparison review; earlier reviews retained below).
+
 **Status:** current Stage A review ledger only. Historical incorporated proposals have been removed from this VNext because Git history already preserves them.
 
 ## Scoped cross-corpus correction — 23 October 2026: ex-ante differential and the hindsight-oracle error
