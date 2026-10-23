@@ -177,3 +177,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 Reviewer A read the current RA/EWS routers and complete01B/01C/01D sources against their retired clauses. The old RA explanation is preserved exactly in PROGRAMME_CONTEXT, blob `c9b2a614423238842010537679e2ba77cb895b02`, with its six research questions, diagrams, relationships and authority/evidence limits. Current README links that receiver; no programme-body restoration is needed.
 
 01C preserves source question, observation scope, baseline, version, freshness and evidence qualification when interpreting A_RA/B_RA/C_RA/D_RA. P_RA is the detector signal; neutral does not imply Normal. A transient historical assertion that shared A/B/C/D labels made Cart_i immediately consumable was too strong; current01C line131 requires RA-specific qualification. Retain that correction. The source Role wording still blurred assigned function and observed behaviour; proposal125 addresses only its phrase, while Operation owns dynamic drift.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #35 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #35: `research/regime-awareness/README.md` (current blob `33bc7dd83958c3a8714c423a4791dca5403bbf3c`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

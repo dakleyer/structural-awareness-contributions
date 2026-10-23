@@ -143,3 +143,8 @@ La valoración actual distingue una mejora documental de una modificación conce
 Reviewer A read all six current MSCA source documents and 278 retired historical units;256 previously unresolved units now have source/receiver decisions. The earlier README body survives as ARCHITECTURE_AND_STANDARDS_CONTEXT, exact blob `d9b2d4baf3c76e93f69727277e3302f5eff0c3c7`. The current README retains its route and separates documentary state from comparative validation.
 
 Architecture retains ObjectiveEnvelope and partial/sufficient support; ACC separates identity, binding, mutation and execution; Role is static; Composition owns Cart_i; Operation owns bound/effective comparison and requests. These receivers preserve the useful earlier responsibilities without recreating automatic control authority. Proposal125 only clarifies the staticRole producer phrase. Three Operation scenario-version receiver questions remain open; this reading is not a closure of all MSCA integrations.
+
+
+## Historical review-link reception — 23 October 2026
+
+**Auditor: Codex, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** EP's old `propuesta-antesdespués--expresar-todo-bcart` fragment never matches this owner's literal `b_cart` historical anchor, whose redirect stub has now also been retired.149 in the [EP review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#change-149--pin-historical-review-references-to-the-edition-that-contains-their-sections) fixes that one incoming href by using the exact `b_cart` spelling and the verified18October historical edition. It does not restore an incorporated proposal to the queue or change the current MSCA source.

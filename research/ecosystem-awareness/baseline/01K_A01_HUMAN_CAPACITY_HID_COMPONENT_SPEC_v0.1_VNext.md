@@ -362,3 +362,8 @@ Reviewer A's complete A01/01K historical reading retains the independent source-
 
 No A01 patch is justified by this block. The optional protected-objection example belongs to the general [01K owner and change130](01K_VNext.md#historical-human-capacity-integration-and-the-optional-protection-example--15-october-2026), not a new runtime hard gate or metric. Foundation and Gradient historical corrections remain in force.
 
+
+
+## Applied capacity-contract scope — 23 October 2026
+
+**Auditor: Codex, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** #107 and#108 are applied in the unchanged current component source: joint queue/service bound and review-versus-effect deadline separation; consuming proof-class/UNKNOWN qualification. The generic retained sentence “source incorporation remains pending its named decision” is historical plan language, not the current state of these two changes. Their applied commits are [107](https://github.com/dakleyer/structural-awareness-contributions/commit/47d1f2d545c3c353a8901fdb1a54038c203c96c3) and [108](https://github.com/dakleyer/structural-awareness-contributions/commit/163cd7360f4036a53f0f31db174f63dba10eb698). #93's separate unadopted alternative remains a distinct question in01K VNext. The malformed DDS quotation also prevents this review's link to the14October plan from reaching a heading; [148](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits) fixes that reception with one separator, without restoring applied cards.

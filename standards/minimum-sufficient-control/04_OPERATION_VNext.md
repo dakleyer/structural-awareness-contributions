@@ -230,3 +230,10 @@ Current [00G v0.4 §§6/9](https://github.com/dakleyer/structural-awareness-cont
 
 A6 traced Gradient's retired competing Γ signature to the complete current Operation §11 (lines329–408, blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). The three postures and ACC/authority/capacity/horizon inputs survive with Cart, Type, role and focal MSCA context. Normal may remain appropriate under qualified nonzero change; containment classification and legitimate migration retain their separate execution gates. Threshold/hysteresis remains local. The [Gradient owner](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the source-side judgment. No Operation patch or duplicate signature is needed.
 
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #37, #59 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #37: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`); #59: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

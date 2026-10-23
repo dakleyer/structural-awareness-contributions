@@ -2772,3 +2772,155 @@ Three exact additions are prepared in that same VNext:144 gives the official Iss
 Iván's pasted full form matches the current official body. The [section-by-section review and Change 147](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#complete-uc-21-main-form-source-review--18-october-2026) connect its body to the six current Challenge sources and nine profiles, including integrated 00G/OpenAI, 00H v0.5 and Claude/Stripe v0.4, 00I reader and 00J's separate Panodyssey context. Thirteen original fork destinations survive in the existing source-history fold; none remains a required active route in the candidate. The full proposed form and eight complete before/after passages are in the same existing VNext.
 
 All 37 requirement rows remain literal; sections 1, 3, 5 and 9 and every original URL destination are preserved. The candidate's 55 repository targets and 7 fragments were checked. Change 147 supersedes pending 144, without deleting its history or changing 145/146. Impact high, risk low, effort medium; official application awaits the named wave GO. No canonical source, official Issue, title/sector metadata, result, code, asset or hierarchy changes in this review. The latest three public comments keep the proposed three-case Panodyssey Challenge distinct from S6.
+
+
+## Corpus integrity recheck — 23 October 2026
+
+**Auditor: Codex (AI assistant), same-agent source and context review.** Compared current main `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8` with last reviewed cut `e59430d264c66c3cbd8be67b9ae7b4ca067972d7`: 42 commits, the same 2,396 file paths/modes, 24 changed existing files and 2,372 identical blobs. Read every changed textual unit; checked all 1,040 Markdown documents mechanically for repository targets/fragments. This is a change-integrity review, not a new independent six-pass scientific closure.
+
+**Finding:** no file disappeared, no file was added or moved, and the three new substantive document additions preserve every earlier byte in order. Those are the two DDS method clarifications, the DDS-QA-01 Workplan note and the Theme #13 reception in 05A. The only other source change is the exact 17-byte duplicated Topology heading prefix removed by [138](https://github.com/dakleyer/structural-awareness-contributions/commit/3e94f7f1a98e8faa2cf88eaa7f6d9d94c51d5d95). **138 is applied.** Earlier dated references to it awaiting a decision describe the prior cut. Canonical EP/EA entry READMEs, Development Strategy, research programs/results and frozen binaries are unchanged between these cuts.
+
+The four reported checker errors are reproducible: two `./PUBLICATION_MANIFEST.json` strings in complete input-contract before/after quotations, and two A13/A14 source-relative links inside the A22 quotation in 00K review. Their real receivers exist; the 00K review already supplies working links immediately outside the quotation. Rewriting these source literals would damage the quotation. The [baseline finding]( https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#four-checker-reports-and-their-actual-receivers--23-october-2026 ) identifies the correct files and existing context. The checker does not test fragments, so its four reports are not the complete reader-integrity diagnosis.
+
+Beyond those contexts, **16 live review-link occurrences point to 10 unavailable fragment targets**; 10 occurrences became unavailable after the latest retirements, while six predate this cut. Five reach the still-preserved 14 October DDS plan whose heading is swallowed by a malformed code quotation; eleven need a historical-link correction, including the old MSCA `bcart`/`b_cart` mismatch. Frozen snapshots are counted separately and remain untouched. No previously reachable file became unreachable in the root-to-file graph.
+
+**First:** [148 in DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits) inserts one LF before an existing quotation closer. It retains the complete 22,330-byte historical source and every other byte, exposes the intended plan heading and restores its five incoming links. **Next:**149 below and [150 in HF VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections) pin the other eleven hrefs to the verified edition that still contains their historical sections. These are prepared proposals; no source replacement is applied by this publication.
+
+Retiring applied fiches also left older rating tables saying “pending” for applied IDs24/25/29,35,37/59,42,52/54 and53/56. Their owners receive dated status clarification in this same publication. The JSON register correctly marks these items applied; they must not be reapplied from old table rows. #93's applied HumanTime insertion remains distinct from its unadopted alternative. The [detailed DDS review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#corpus-integrity-recheck--23-october-2026) gives the source and preservation findings. Public audit text and plans are English; communication with Iván remains Spanish.
+
+
+## Change 149 — Pin historical review references to the edition that contains their sections
+
+**Prepared; not applied. Impact: Medio. Risk: Bajo. Effort: Bajo. Priority: Siguiente.** Source `architectural-contributions/ecosystem-positioning/README_VNext.md`, blob `c6f4de2c28dc27c0b956d783fec27eecb37ec052`, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.
+
+Retirement of already-applied cards must not erase their incoming audit route. Replace only the affected hrefs with a fixed, verified pre-retirement edition; retain original prose and applied states. The MSCA historical fragment also needs its literal b_cart spelling. No card is reinstated as pending.
+
+### Exact pair 1
+
+**Texto antes — complete current affected unit**
+
+````````````text
+| [Condicionar el tamaño y coste del contexto útil](../../research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+| [Condicionar el tamaño y coste del contexto útil](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+````````````
+
+### Exact pair 2
+
+**Texto antes — complete current affected unit**
+
+````````````text
+| [Mostrar todo B_Cart en el índice MSCA](../../standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-bcart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+| [Mostrar todo B_Cart en el índice MSCA](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-b_cart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+````````````
+
+### Exact pair 3
+
+**Texto antes — complete current affected unit**
+
+````````````text
+One real navigation defect is in the existing Extensions VNext. An orphaned four-backtick line makes GitHub display later audits and the applied127 receipt as code. [137 in the baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) publishes the two exact passages: remove five delimiter bytes and add the dated receipt. This is a bounded repair of audit readability, with high reading impact and low risk/effort. EP’s apparent fence warning was only a parser limitation; its public headings already render correctly.
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+One real navigation defect is in the existing Extensions VNext. An orphaned four-backtick line makes GitHub display later audits and the applied127 receipt as code. [137 in the baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) publishes the two exact passages: remove five delimiter bytes and add the dated receipt. This is a bounded repair of audit readability, with high reading impact and low risk/effort. EP’s apparent fence warning was only a parser limitation; its public headings already render correctly.
+````````````
+
+### Exact pair 4
+
+**Texto antes — complete current affected unit**
+
+````````````text
+D found one further small editorial defect: the Topology §3 title repeats its prefix. [138 in the existing baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix) removes17 repeated heading bytes, with the complete line before/after. Impact, risk and effort are low. The current semantics and body stay intact. Remaining source-container questions and review prose are still being examined.
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+D found one further small editorial defect: the Topology §3 title repeats its prefix. [138 in the existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix) removes17 repeated heading bytes, with the complete line before/after. Impact, risk and effort are low. The current semantics and body stay intact. Remaining source-container questions and review prose are still being examined.
+````````````
+
+### Exact pair 5
+
+**Texto antes — complete current affected unit**
+
+````````````text
+**138 is prepared, not applied.** Automatic approval review requires Iván’s specific GO for the exact Topology heading. Its complete pair remains in the [baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix). The source stays unchanged while the remaining historical work continues.
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+**138 is prepared, not applied.** Automatic approval review requires Iván’s specific GO for the exact Topology heading. Its complete pair remains in the [baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix). The source stays unchanged while the remaining historical work continues.
+````````````
+
+### Exact pair 6
+
+**Texto antes — complete current affected unit**
+
+````````````text
+Source/context checks confirmed two more audit-reading defects left by the earlier retirement of applied cards. [139 restores normal HF audit headings](../../research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability), including the135 applied receipt. [140 restores the 00K historical audit](../../research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability), keeping its retained source excerpt as a literal quotation. Every complete old/proposed passage is in the existing baseline review. High impact here means readable audits; research claims and results do not change.
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+Source/context checks confirmed two more audit-reading defects left by the earlier retirement of applied cards. [139 restores normal HF audit headings](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability), including the135 applied receipt. [140 restores the 00K historical audit](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability), keeping its retained source excerpt as a literal quotation. Every complete old/proposed passage is in the existing baseline review. High impact here means readable audits; research claims and results do not change.
+````````````
+
+### Exact pair 7
+
+**Texto antes — complete current affected unit**
+
+````````````text
+[141 publishes the complete DDS quotation repair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary). One orphaned delimiter and its dated receipt are the exact scope; later legitimate quotations stay intact. Verification uses source identity, the whole-file inverse and local GFM. GitHub’s HTML API declines this2.4MB review, so the [public raw Markdown](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) is the full-source route. D’s final revised-receipt check precedes application.138 remains a separate canonical-title decision for Iván.
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+[141 publishes the complete DDS quotation repair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary). One orphaned delimiter and its dated receipt are the exact scope; later legitimate quotations stay intact. Verification uses source identity, the whole-file inverse and local GFM. GitHub’s HTML API declines this2.4MB review, so the [public raw Markdown](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) is the full-source route. D’s final revised-receipt check precedes application.138 remains a separate canonical-title decision for Iván.
+````````````
+
+### Exact pair 8
+
+**Texto antes — complete current affected unit**
+
+````````````text
+[142 provides the next exact reader-route pair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation): a 403-byte paragraph containing two contextual links outside an unchanged historical A22 quotation. It does not replace the source-relative strings inside that quotation or reopen its stronger proof claim.
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+[142 provides the next exact reader-route pair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation): a 403-byte paragraph containing two contextual links outside an unchanged historical A22 quotation. It does not replace the source-relative strings inside that quotation or reopen its stronger proof claim.
+````````````
+
+### Exact pair 9
+
+**Texto antes — complete current affected unit**
+
+````````````text
+[143 publishes the complete contextual repair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations), with the full old audit 240–266 and one proposed 1,483-byte addition to the existing DDS VNext. It keeps incorporated proposals retired and current method ownership intact. Separate exact-text verification precedes incorporation. This is a historical audit omission, not a reason to restore an obsolete method or its old plans.
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+[143 publishes the complete contextual repair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations), with the full old audit 240–266 and one proposed 1,483-byte addition to the existing DDS VNext. It keeps incorporated proposals retired and current method ownership intact. Separate exact-text verification precedes incorporation. This is a historical audit omission, not a reason to restore an obsolete method or its old plans.
+````````````
+
+**Acceptance:** each old unit has one literal occurrence in the pinned source. Reverse only these substitutions to recover the exact predecessor. Preserve complete source quotations, all unrelated prose, paths, bytes and applied states. Verify target fragments, rendered GFM boundaries and public raw bytes against the new head.
+
+**Iván instruction and dependency:** preserve content, use the existing unique VNext, publish review/complete old–new plans, and apply only the named approved wave.148 is separate from historical-link149/150; no pending scientific alternative or canonical body is included. Incorporation awaits Iván’s specific GO.

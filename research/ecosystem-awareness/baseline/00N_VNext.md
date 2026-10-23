@@ -283,3 +283,10 @@ The requirements mapping referred to here was read in its actual current source;
 No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
 
 The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #42 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #42: `research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md` (current blob `8c5bff223c66ba750771fc9e2650480337619fb4`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

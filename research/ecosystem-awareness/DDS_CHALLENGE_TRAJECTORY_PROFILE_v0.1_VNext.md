@@ -19007,3 +19007,56 @@ The complete [submitted package index](https://github.com/dakleyer/structural-aw
 ~~~~~
 
 </details>
+
+
+## Corpus integrity recheck — 23 October 2026
+
+**Auditor: Codex (AI assistant), same-agent source and context review.** Compared current main `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8` with last reviewed cut `e59430d264c66c3cbd8be67b9ae7b4ca067972d7`: 42 commits, the same 2,396 file paths/modes, 24 changed existing files and 2,372 identical blobs. Read every changed textual unit; checked all 1,040 Markdown documents mechanically for repository targets/fragments. This is a change-integrity review, not a new independent six-pass scientific closure.
+
+### New source content and cross-document consistency
+
+The complete changed units in DDS index, EA Workplan and 05A were read against their surroundings and eight public source comments. DDS index adds 4,579 bytes in two insertions; Workplan adds3,797 bytes; 05A VNext adds5,508 bytes. Each inverse consists only of deleting its exact added units and recovers the complete old source. No preceding section or link is removed by those additions.
+
+- **UC-20 comparison mapping:** the [20 October proposal](https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6296588097) explicitly maps local DDS R1/R2/R3 to source UC-20 R0/R1/R2. The new index retains those namespaces, PASS-gated change and the explicit successor needed for a direct successful R0 → changed-context arm. It does not rename UC-21 routes or DDS Stages A/B/C. No inconsistency requiring a source amendment was found in that reception.
+- **UC-21 evidence:** [Nelson's three closure conditions](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6263257536) and [Steven's four-way reading](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6271173349) match the new separation of instrument qualification, preserved findings, native execution and independently observed effects. The Workplan separates the dated document-review freeze from campaign execution. Its five frozen v0.2 manifest members still match the current Git blob IDs; author/reviewer attribution and source freezes remain distinct. The private Drive operating sheets/export were not independently re-audited in this public-corpus check.
+- **Theme #13:** the [UC6 report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841), [four prospective H1 cases](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6188764689), [field proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6271168964), [Nelson clarification](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6263435099) and [offline demonstration report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6279011475) support the attributed distinctions recorded in 05A. Static reading of the [README](https://github.com/zhaoxinghua09-cell/agent-evidence-kit/blob/71dcadec03e8b278a8d674c759c1f3ef72ac7898/examples/themes13-receiver-oracle/README.md) and `claim_supported`/`validate` code at that same pin confirms the stated field/domain coverage limit. Equality of dispatch/receiver digests establishes a content-identity comparison, not latest decision-applicable state at action time. The source's “REAL” case4 label refers to the proposed comparison; its demonstration uses placeholder records and adds no observed native H1 event. No external program was executed or imported.
+
+### Audit reception and apparently missing sections
+
+The four file-target reports are the source-relative quotation contexts explained in the [baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#four-checker-reports-and-their-actual-receivers--23-october-2026). The frozen UC03 part02 URL ending `submissions/it` is split at its file boundary; concatenating the actual ordered parts reconstructs the complete URL. It is not evidence that the target was deleted. Frozen and historical bodies remain authentic.
+
+The pre-existing DDS formatting defect is concrete: the four-backtick quotation opens on line1313 at this cut, but its intended closer is attached to the final sentence of the preserved Stage-A source on line1847. CommonMark therefore consumes1,696lines through line3008 as one code token. It includes the 14 October restoration-plan heading, binary custody table and subsequent audit discussion. Their bytes exist; their normal heading/table/link reception is broken.148 below separates the delimiter with one LF. Candidate-only parsing restores the five incoming plan-fragment links and exposes no additional missing live target. The historical source blob `4a786e778bf16a286c1abe7dccf502804c90c20b` occurs exactly once and remains22,330identical bytes after the proposed separator.
+
+The 20–21 October VNext retirements remove applied cards/receipts and earlier redirect stubs, rather than current scientific bodies. Every complete removed textual unit was read. The working JSON record retains all147 proposal records; its only changed proposal is138, now correctly applied. The unresolved four EP presentation-fragment custody units and pending scientific alternatives remain outside this review's closure. Current DDS research ownership stays with the method index.
+
+### Verification scope and result
+
+The repository's unchanged checker expressions reproduce exactly four local-route reports over10,086local href occurrences. GFM additionally scans16,462current repository-target occurrences and detects the16active fragment failures. All8protected EP architecture sections meet the existing presence/length conditions and all4required source routes remain. The two unchanged PPTX archives have no corrupt member:7/12slides and12,569/15,496text characters respectively. These are package/text checks; no claim of new visual or scientific validation follows.
+
+Candidate148 plus149/150 removes all16active fragment failures in the tested view. The four literal-context checker reports remain by design, and frozen snapshot links are preserved. Historical fixed-commit URLs are validated where selected for149/150; the worldwide external URL set is not certified. No new public file, VNext, canonical edit or experiment is included in this audit publication.
+
+
+## Change 148 — Separate the historical Stage-A source from the following DDS audits
+
+**Prepared; not applied. Impact: Alto. Risk: Bajo. Effort: Bajo. Priority: Primera.** Source `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `6be23365db8cc6ed7eae1001b707156c3b4d7f0a`, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.
+
+One four-backtick closer is attached to the final source sentence. GFM therefore treats lines 1313–3008 as one code block and hides the 14 October restoration-plan heading and later audit navigation. Insert one separator LF before the existing delimiter. All 22,330 historical-source bytes and every other original byte remain exact. The five incoming plan-fragment references can then reach the intended heading. This is high impact for audit reading, not a new scientific result.
+
+### Exact pair 1
+
+**Texto antes — complete current affected unit**
+
+````````````text
+6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.````
+````````````
+
+**Texto después — complete proposed unit**
+
+````````````text
+6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.
+````
+````````````
+
+**Acceptance:** each old unit has one literal occurrence in the pinned source. Reverse only these substitutions to recover the exact predecessor. Preserve complete source quotations, all unrelated prose, paths, bytes and applied states. Verify target fragments, rendered GFM boundaries and public raw bytes against the new head.
+
+**Iván instruction and dependency:** preserve content, use the existing unique VNext, publish review/complete old–new plans, and apply only the named approved wave.148 is separate from historical-link149/150; no pending scientific alternative or canonical body is included. Incorporation awaits Iván’s specific GO.
