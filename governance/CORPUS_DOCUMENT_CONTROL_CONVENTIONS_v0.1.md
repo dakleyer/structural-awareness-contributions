@@ -82,7 +82,7 @@ Existing descriptive filenames, numbering and stable external citations remain v
 
 For an editable Markdown document, a **small visible note** may suffice, rather than a large mandatory YAML block:
 
-> **Document control:** `EA:01B` · **Role:** Canonical working · **Edition:** v0.2 · **Owner:** EA · **Review:** [own VNext](01B_VNext.md) (example for a file located alongside its VNext).
+> **Document control:** `EA:01B` · **Role:** Canonical working · **Edition:** v0.2 · **Owner:** EA · **Review:** `[own VNext](01B_VNext.md)` (literal template; use a real relative path when placed beside its VNext).
 
 For a VNext, identify the canonical source it shadows, its draft/review status, the real reviewer(s), the date and the scope of each review pass. When useful, issue/PR labels may mirror the documented role (for example, `doc:canonical`, `doc:vnext`, `doc:context`, `change:editorial`, `change:substantive`); **these are suggested future labels, not labels created by this edition**. An issue label, branch name, path suffix or passing CI badge never determines adoption by itself. For historic or binary files, use an external register/review card instead of modifying protected bytes. Machine-readable inventories/checks may be added later; they must not displace human-readable explanations.
 
