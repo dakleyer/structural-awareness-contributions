@@ -20,3 +20,10 @@
 **After (proposed, not applied):** “The supplementary working research hypotheses [01A-A01](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) examine whether awareness of unsupported mission transitions is a stronger causal protection than additional facts, and whether the same qualification can cost less compute. They offer an experimental motivation for P1–P6, not an alternate proof or amendment.”
 
 **Benefit:** explanatory traceability; **risk:** presenting ablation invariants as causal or compute validation. **Status:** not incorporated; four review passes not completed.
+
+
+### Editorial adoption and owner reception — 24 October 2026
+
+**Iván's current instruction:** promote FH-C and FH-E as canonical statements of **research hypotheses** and keep each VNext reachable through its own source only. The incorporation is now recorded in the [current integrated Foundation](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), the [01A-A01 hypothesis source](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md), the [corpus README](README.md), the [corpus manifest](CANONICAL_CORPUS_MANIFEST.md) and relevant original source-level reading pointers. Earlier “proposed/not applied” paragraphs above are historical proposal receipts; their editorial promotion is now applied.
+
+**Scientific status unchanged:** FH-C is not validated causal dominance; FH-E is not validated compute saving. No frozen requirements, H1–H6, controlled historical texts or old tests are reinterpreted as proof. Cross-document navigation added in this work points to **source texts** rather than another source's VNext.

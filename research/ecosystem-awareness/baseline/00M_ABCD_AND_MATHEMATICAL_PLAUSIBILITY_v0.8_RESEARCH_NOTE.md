@@ -6,6 +6,8 @@ Given declared functional meanings and legitimate scope correspondences, limits 
 
 **Research note · v0.8 · 2 October 2026 · draft for external review.**
 
+**Owner review:** [one VNext](./00M_VNext.md). **Upstream canonical research hypotheses (24 October 2026):** [01A-A01 FH-C/FH-E](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) propose a comparative causal role for unrecognized epistemic limits and a conditional compute-economy route. **00M §4 addresses sufficiency for an independently declared *review question*, not FH-C causation or FH-E's cost outcome.** The 00M v0.8 result and adopted A/B/C/D definitions are unchanged.
+
 **Semantic adoption — 2 October 2026.** Section 1 is the canonical A/B/C/D vocabulary for this EA/EP corpus. This adoption fixes terminology; the mathematical argument remains a research proposal and does not validate the architecture or change frozen requirements.
 
 This note develops an **argument for mathematical plausibility** of the scoped qualification and repositioning support proposed for Ecosystem Awareness (EA) / Ecosystem Positioning (EP). It connects those operations to established mathematical structures, identifies assumptions and gives limited examples and counterexamples. The representations, conditions and examples bound the research question; they do not provide a complete characterization.

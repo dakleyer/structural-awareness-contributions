@@ -12,6 +12,8 @@
 | **Status** | working derivation proof; no change to controlled/frozen source semantics |
 | **Date** | 25 September 2026 |
 
+> **Owner review:** [one VNext](./02A_VNext.md). **Later canonical research hypotheses (24 October 2026):** [01A-A01 FH-C/FH-E](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) propose a comparative drift-cause explanation and a possible computation-saving path. They are **later experimental motivations** for the established P1–P6 operational basis, **not retroactive premises** of this source's preserved derivation or proof of those comparative effects.
+
 > **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a relative syntactic-closure argument and an explicit mapping of the declared control surfaces to one or more P1–P6 normal forms. Its theorem uses the source grammar stated there; transfer to the current A/B/C/D meanings requires a separate semantic check.
 
 > Each P1–P6 is a compact operational projection of an identifiable upstream semantic invariant. Five are direct projections of the general epistemic/control model; P4 is an explicit authority-typed specialization of a boundary rule already present upstream. This document records the derivation and its limits. The stronger syntactic claim — that the declared A/B/C/D + Type-0/1/2 foundation normalizes into P1–P6 without an uncovered primitive form — is proved separately in [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md).

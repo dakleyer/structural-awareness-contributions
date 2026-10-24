@@ -4,9 +4,20 @@
 
 **Conservation rule:** the earlier v0.4 §§1–18 are included below once each, with their prose retained and source-section labels visible. The earlier five split files and the additive 01A note remain intact as historical source files. New work is integrated by the two linked origins and their architectural consequences; external programmes remain separate interfaces, not adopted implementations.
 
+**Review of this current working source:** [one owner VNext](./01_FOUNDATIONAL_VNext.md).
+
 ## 1. Foundational problem: two related, non-identical origins
 
 Ecosystem Awareness (EA) addresses two conditions that must be kept distinguishable. First, no operational actor should presume that its bounded representation exhausts all potentially mission-relevant ecosystem state, even when its represented frame is well constructed. Second, the ecosystem on which an otherwise justified operation depends can change during the observation, decision or control cycle. The first is an epistemic and capacity limit; the second is a temporal and relational qualification problem. Their interaction creates the architectural need for bounded, continuously requalified awareness. Neither condition alone implies that every decision must stop or that the complete ecosystem must be reconstructed.
+
+### 1.0 Current research-hypothesis extension: causal priority and computational economy (adopted 24 October 2026)
+
+The following are **canonical statements of proposed research hypotheses**, not demonstrated theorems or historical additions to the preserved v0.4 §11 register of H1–H6. Their full independent wording, mechanisms, comparators, falsifiers and cost boundaries are in the [01A-A01 foundational hypothesis note](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md).
+
+- **FH-C — comparative cause of unjustified mission drift.** Within declared classes of materially cross-domain mission-pivot decisions and under matched resources, **failure to remain aware of what the present evidence and capabilities do not establish** is hypothesized to cause more unjustified mission replacements than merely lacking further subject-domain facts. It does not assert that all drift is due to ignorance, or that knowing a boundary reveals the hidden state.
+- **FH-E — conditional computational economy.** For the **same independently specified task of qualifying a proposed mission change**, a minimum sufficient, provenance- and scope-qualified epistemic map is hypothesized to reach non-inferior protection with **less computation** than broad additional subject-domain processing. The hypothesis does **not** claim lower system-design complexity, net deployment cost, or universally cheaper metadata acquisition.
+
+These are two **separately falsifiable hypotheses**. They motivate investigating why the existing boundary, residual, composition and risk/capacity principles may work in UC21-like traversals **without adding a Repositioning or citizenship contract**. [00M](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) establishes only conditional mathematical task-sufficiency, not lower cost; [00N](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) supplies bounded functional plausibility, not a proved runtime outcome. The original H1–H6, S1–S14, derivation records, symbolic tests and provenance are unaffected.
 
 ### 1.1 Residual indeterminacy and the epistemic posture
 

@@ -10,6 +10,8 @@ The central claim is that **selected review questions can be answered, or meanin
 
 **Research note · v0.7 · 2 October 2026 · publicly available working draft for review.**
 
+**Owner review:** [one VNext](./00N_VNext.md). **Upstream canonical research hypotheses (24 October 2026):** [01A-A01 FH-C/FH-E](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) give the unproved comparative-cause and compute-economy motivation for **Awareness's epistemic qualification itself**, before any separate Repositioning or execution contract. This is an added research reading route, not evidence that the mechanism meets T1–T4 or outperforms a matched peer.
+
 **Read first:** [A/B/C/D Semantics and Mathematical Plausibility of Scoped Requalification, v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). That note asks whether the proposed operations have defensible mathematical representations. This companion asks whether those operations could serve the functions EA is required to provide. It develops a scientific plausibility argument, not a demonstration of operational compliance or engineering viability.
 
 Here, **EA** is shorthand for the broader EA/EP architectural proposal. Qualification, positioning, authority and execution keep their respective responsibilities. The A/B/C/D meanings are those of the preceding note. Start with [the two ready signals in §3.6](#36-two-ready-signals-one-version-condition), then use the T1–T4 table to connect the example with information quality, response, timing and cost conditions.

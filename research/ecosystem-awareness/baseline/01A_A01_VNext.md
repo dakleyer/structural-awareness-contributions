@@ -12,7 +12,7 @@ The two proposed research claims are **not equivalent**. FH-C predicts that lack
 
 ## 2. Evidencia y relaciones entre documentos — preliminary cross-reading, open
 
-01A gives residual and changed-frame origins. 01/02A and the canonical requirement set already give the normative response. 00M §4.1–§4.3 provides conditional task-sufficiency, explicitly not a cost theorem. 00N gives only conditional functional plausibility and an economic open question. UC21/S3 is a designed falsifiable example, not measured causal effect. 00K ablation is symbolic, not a runtime or cost measurement. Inverse reader routes are recorded as proposals in [01A VNext](01A_VNext.md), [02A VNext](02A_VNext.md), [Foundation VNext](01_FOUNDATIONAL_VNext.md), [00M VNext](00M_VNext.md), [00N VNext](00N_VNext.md) and [README VNext](README_VNext.md).
+01A gives residual and changed-frame origins. 01/02A and the canonical requirement set already give the normative response. 00M §4.1–§4.3 provides conditional task-sufficiency, explicitly not a cost theorem. 00N gives only conditional functional plausibility and an economic open question. UC21/S3 is a designed falsifiable example, not measured causal effect. 00K ablation is symbolic, not a runtime or cost measurement. Inverse reader routes are recorded as proposals in [01A source](01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md), [02A source](02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md), [Foundation source](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), [00M source](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), [00N source](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) and [README source](README.md).
 
 ## 3. Edición, estructura y formato — preliminary review, open
 
@@ -27,3 +27,10 @@ A reader should be able to say: “The robot need not learn all military history
 **Before:** source v0.1 states FH-C and FH-E as bounded falsifiable research hypotheses and reports no test result.  
 **After, only on future explicit approval and supporting evidence:** add the actual registered experiment, matched comparator, confidence/uncertainty, relevant negative cases and per-arm compute/cost profiles. Do not infer H7 or alter S1–S14/H1–H6.  
 **Benefit:** falsifiability and correct placement between foundational causes, principles and 00M/00N plausibility. **Risk:** causal overstatement or false cost generalization. **Next condition:** reproducible test design and explicit source-change GO.
+
+
+### Editorial adoption and owner reception — 24 October 2026
+
+**Iván's current instruction:** promote FH-C and FH-E as canonical statements of **research hypotheses** and keep each VNext reachable through its own source only. The incorporation is now recorded in the [current integrated Foundation](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), the [01A-A01 hypothesis source](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md), the [corpus README](README.md), the [corpus manifest](CANONICAL_CORPUS_MANIFEST.md) and relevant original source-level reading pointers. Earlier “proposed/not applied” paragraphs above are historical proposal receipts; their editorial promotion is now applied.
+
+**Scientific status unchanged:** FH-C is not validated causal dominance; FH-E is not validated compute saving. No frozen requirements, H1–H6, controlled historical texts or old tests are reinterpreted as proof. Cross-document navigation added in this work points to **source texts** rather than another source's VNext.
