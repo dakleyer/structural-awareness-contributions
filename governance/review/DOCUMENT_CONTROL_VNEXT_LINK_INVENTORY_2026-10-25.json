@@ -1,0 +1,2042 @@
+{
+  "schema": 1,
+  "source_commit": "21e200cd4c9a0558e4ae3669c55f7256c03a005a",
+  "generated_date": "2026-10-25",
+  "scope": "Public GitHub default-tree Markdown only; not an institutional or scientific audit.",
+  "method": {
+    "active_selection": "Exclude paths containing /old/, /history/, /historical/, /previous-work/, /archived/ or preserved-public-snapshots. This is a path-based working subset, not an authoritative document-role classification.",
+    "links": "Rendered inline Markdown [label](destination) links, excluding fenced code and simple inline code spans; destination containing case-insensitive VNext/VNEXT. HTML, reference-style Markdown, plain-text references and external-repository crawling are outside this count.",
+    "links_accuracy": "Automated preliminary inventory; use source classification and review before inferring link-rule violations."
+  },
+  "summary": {
+    "markdown_all": 1045,
+    "markdown_active_path_subset": 787,
+    "markdown_archived_path_subset": 258,
+    "vnext_links_all": 2747,
+    "vnext_links_active": 1565,
+    "vnext_links_archived": 1182,
+    "active_source_files_with_vnext": 176,
+    "active_non_vnext_named_source_files_with_vnext": 107,
+    "active_local_vnext_link_occurrences": 950,
+    "active_external_or_nonlocal_vnext_link_occurrences": 615,
+    "active_distinct_local_source_target_pairs": 621,
+    "missing_local_vnext_targets": 0,
+    "readme_md_in_tree": 103,
+    "active_vnext_named_files": 74
+  },
+  "active_sources": [
+    {
+      "path": "architectural-contributions/ecosystem-positioning/01_GRADIENT_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md",
+      "link_occurrences": 4,
+      "local_occurrences": 4,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "link_occurrences": 227,
+      "local_occurrences": 154,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "research/ecosystem-awareness/README_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+        "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/README.md",
+      "link_occurrences": 3,
+      "local_occurrences": 3,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "controlled_router"
+    },
+    {
+      "path": "DOCUMENT_CONTROL.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "governance/ABCD_CANONICAL_ALIGNMENT_2026-10-02.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+      "link_occurrences": 5,
+      "local_occurrences": 5,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "governance/ECOSYSTEM_POSITIONING_LINKED_DOCUMENT_AUDIT_2026-09-25.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_INTEGRATIONS_2026-10-06.md",
+      "link_occurrences": 7,
+      "local_occurrences": 7,
+      "local_targets": [
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "research/ecosystem-awareness/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_NAVIGATION_2026-10-06.md",
+      "link_occurrences": 3,
+      "local_occurrences": 3,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "link_occurrences": 15,
+      "local_occurrences": 10,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+      "link_occurrences": 5,
+      "local_occurrences": 5,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md",
+      "link_occurrences": 4,
+      "local_occurrences": 4,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2_DRAFT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.3_DRAFT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+      "link_occurrences": 9,
+      "local_occurrences": 5,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00M_A01_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+      "link_occurrences": 7,
+      "local_occurrences": 5,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00M_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00M_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_VNext.md",
+      "link_occurrences": 13,
+      "local_occurrences": 13,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_ADDENDUM_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+      "link_occurrences": 6,
+      "local_occurrences": 4,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00N_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00N_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_VNext.md",
+      "link_occurrences": 12,
+      "local_occurrences": 11,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+      "link_occurrences": 21,
+      "local_occurrences": 15,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01A_A01_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01A_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01B_VNext.md",
+      "link_occurrences": 10,
+      "local_occurrences": 8,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01C_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01C_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01C_VNext.md",
+      "link_occurrences": 14,
+      "local_occurrences": 13,
+      "local_targets": [
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01D_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01D_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01D_VNext.md",
+      "link_occurrences": 13,
+      "local_occurrences": 13,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/README_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01H_VNext.md",
+      "link_occurrences": 12,
+      "local_occurrences": 12,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01B_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01I_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01I_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01I_VNext.md",
+      "link_occurrences": 13,
+      "local_occurrences": 13,
+      "local_targets": [
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01J_REVIEW_CARD.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01J_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01J_VNext.md",
+      "link_occurrences": 12,
+      "local_occurrences": 12,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/regime-awareness/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md",
+      "link_occurrences": 16,
+      "local_occurrences": 5,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01K_REVIEW_CARD.md",
+      "link_occurrences": 3,
+      "local_occurrences": 3,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01K_VNext.md",
+      "link_occurrences": 10,
+      "local_occurrences": 10,
+      "local_targets": [
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/02A_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+      "link_occurrences": 8,
+      "local_occurrences": 8,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+      "link_occurrences": 5,
+      "local_occurrences": 5,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "link_occurrences": 22,
+      "local_occurrences": 14,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/05A_BASELINE_COPY_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+      "link_occurrences": 11,
+      "local_occurrences": 7,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/CLAUSE_AUDIT.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "link_occurrences": 13,
+      "local_occurrences": 8,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/non-canonical/README.md",
+      "link_occurrences": 123,
+      "local_occurrences": 123,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_COMPLETE_AUDIT_before_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_COMPLETE_AUDIT_before_research__ecosystem-awareness__baseline__00N_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_COMPLETE_AUDIT_before_research__ecosystem-awareness__fg-tida__interfaces__05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_CONTINUOUS_README_VNEXT_BEFORE_FOUNDATION_CYCLE.md",
+        "governance/preserved-public-snapshots/2026-10-06_EP_VNext_before_R01_tasks12_reconciliation.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00M_A01_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00M_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00N_ADDENDUM_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00N_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__01C_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__01D_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__UC-EA-03_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__fixtures__00G-HF-ORACLE-v0.4__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__fixtures__00I-STATEFUL__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__fixtures__00K-SUITE__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__fixtures__RS-00E-Q1a__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__reductions__00G-R01__COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__reductions__00G-R01__Escenario-creatividad-validacion_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__reductions__00G-R01__feasibility__partial-experiments__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__reductions__00G-R01__oracle__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__reductions__00G-R01__oracle__UC4_INTEROPERABILITY_PROFILE_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__baseline__traversals__00G-HF-DYNAMIC-REVIEW-v0.1__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__fg-tida__interfaces__05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__ecosystem-awareness__fg-tida__interfaces__05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_research__regime-awareness__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_standards__minimum-sufficient-control__04_OPERATION_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_EXTERNAL_PASS_before_standards__minimum-sufficient-control__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_HUMAN_FOUR_PASSES_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_HUMAN_FOUR_PASSES_research__ecosystem-awareness__baseline__00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_HUMAN_FOUR_PASSES_research__ecosystem-awareness__baseline__04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_HUMAN_FOUR_PASSES_research__ecosystem-awareness__fg-tida__interfaces__05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_HUMAN_FOUR_PASSES_research__ecosystem-awareness__fg-tida__interfaces__05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_SUMMARY_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__fg-tida__interfaces__05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__fg-tida__interfaces__05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_PUBLISH_RECONCILIATION_before_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_PUBLISH_RECONCILIATION_before_research__ecosystem-awareness__baseline__00M_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_README_before_VNext_40cb1968.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_REVIEW_COVERAGE_before_VNext_40cb1968.tsv",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_VNext_before_matrix_ea3302f5.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_VNext_before_pass1_71502794.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_VNext_before_pass2_55505144.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_VNext_before_pass3_aa9e077c.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_VNext_before_pass4_64ef5f8d.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_VNext_before_workplan_f065b999.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_VNext_before_method_appendix_1_3_ack.md",
+        "governance/preserved-public-snapshots/2026-10-06_R01_overview_pass1-fondo_README_VNext.md_dc37db50",
+        "governance/preserved-public-snapshots/2026-10-06_R01_overview_pass2-evidencia_README_VNext.md_531abe13",
+        "governance/preserved-public-snapshots/2026-10-06_R01_overview_pass2-evidencia_UC4_INTEROPERABILITY_PROFILE_VNext.md_59bb1b7f",
+        "governance/preserved-public-snapshots/2026-10-06_R01_overview_pass3-edicion_README_VNext.md_d0c6e8ac",
+        "governance/preserved-public-snapshots/2026-10-06_R01_overview_pass4-comprension_README_VNext.md_a4d3c2ac",
+        "governance/preserved-public-snapshots/2026-10-06_THREE_LEVEL_README_before_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_WHOLE_SCOPE_before_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_WHOLE_SCOPE_before_research__ecosystem-awareness__baseline__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_always_old_text_before_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00M_A01_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00M_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00N_ADDENDUM_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00N_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__01C_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__01D_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__UC-EA-03_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__fixtures__00G-HF-ORACLE-v0.4__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__fixtures__00I-STATEFUL__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__fixtures__00K-SUITE__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__fixtures__RS-00E-Q1a__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__reductions__00G-R01__COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__reductions__00G-R01__Escenario-creatividad-validacion_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__reductions__00G-R01__feasibility__partial-experiments__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__reductions__00G-R01__oracle__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__reductions__00G-R01__oracle__UC4_INTEROPERABILITY_PROFILE_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__baseline__traversals__00G-HF-DYNAMIC-REVIEW-v0.1__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__fg-tida__interfaces__05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__ecosystem-awareness__fg-tida__interfaces__05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_research__regime-awareness__README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_standards__minimum-sufficient-control__04_OPERATION_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_sixth_unifier_before_standards__minimum-sufficient-control__README_VNext.md",
+        "research/ecosystem-awareness/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+        "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "link_occurrences": 80,
+      "local_occurrences": 33,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/README.md",
+      "link_occurrences": 3,
+      "local_occurrences": 3,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "controlled_router"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+      "link_occurrences": 15,
+      "local_occurrences": 7,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+      "link_occurrences": 7,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+      "link_occurrences": 25,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/DDS_STUDY.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/BOT_APPROX_REVIEW_REGISTER.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+      "link_occurrences": 20,
+      "local_occurrences": 13,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/review-2026-10-11/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "link_occurrences": 7,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/DDS_STUDY.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/DDS_STUDY.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/DDS_STUDY.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+      "link_occurrences": 41,
+      "local_occurrences": 7,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/DDS_STUDY.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md",
+      "link_occurrences": 4,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "link_occurrences": 6,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+      "link_occurrences": 5,
+      "local_occurrences": 5,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "link_occurrences": 3,
+      "local_occurrences": 1,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_REVIEW.md",
+      "link_occurrences": 4,
+      "local_occurrences": 4,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+      "link_occurrences": 17,
+      "local_occurrences": 16,
+      "local_targets": [
+        "governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_README_before_VNext_40cb1968.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+        "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+        "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+        "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+      "link_occurrences": 20,
+      "local_occurrences": 7,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_REVIEW.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/UC-EA-03_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+      "link_occurrences": 14,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/source-snapshots/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "link_occurrences": 1,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/source-snapshots/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "link_occurrences": 1,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/runtime-context/source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "link_occurrences": 1,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/EHD_04_05A_MAPPING.md",
+      "link_occurrences": 1,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/SOURCES_AND_PINS.md",
+      "link_occurrences": 1,
+      "local_occurrences": 0,
+      "local_targets": [],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/VERSIONS_AND_DECISIONS_2026-10-13.md",
+      "link_occurrences": 4,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md.txt"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "link_occurrences": 4,
+      "local_occurrences": 4,
+      "local_targets": [
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "link_occurrences": 254,
+      "local_occurrences": 12,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/DDS_CLAIM_SOURCE_CONSUMER_REGISTER_v0.1.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/README_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/charter/THEME_13_CHARTER_PRE_RESTRUCTURE_SOURCE_2026-09-24.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "link_occurrences": 11,
+      "local_occurrences": 9,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "link_occurrences": 12,
+      "local_occurrences": 10,
+      "local_targets": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/README.md",
+      "link_occurrences": 3,
+      "local_occurrences": 3,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/README.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "controlled_router"
+    },
+    {
+      "path": "research/ecosystem-awareness/README_VNext.md",
+      "link_occurrences": 42,
+      "local_occurrences": 25,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/README_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/ecosystem-awareness/README.md",
+      "link_occurrences": 3,
+      "local_occurrences": 3,
+      "local_targets": [
+        "research/ecosystem-awareness/README_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md"
+      ],
+      "role_hint": "controlled_router"
+    },
+    {
+      "path": "research/ecosystem-awareness/WORKPLAN.md",
+      "link_occurrences": 3,
+      "local_occurrences": 3,
+      "local_targets": [
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "role_hint": "not_yet_classified"
+    },
+    {
+      "path": "research/regime-awareness/ADDITIONAL_WORK_README.md",
+      "link_occurrences": 2,
+      "local_occurrences": 2,
+      "local_targets": [
+        "research/regime-awareness/README_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "research/regime-awareness/README_VNext.md",
+      "link_occurrences": 15,
+      "local_occurrences": 14,
+      "local_targets": [
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "research/ecosystem-awareness/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "research/regime-awareness/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "research/regime-awareness/README_VNext.md"
+      ],
+      "role_hint": "controlled_router"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/00_ARCHITECTURE_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+      "link_occurrences": 13,
+      "local_occurrences": 13,
+      "local_targets": [
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/01_ACC_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "standards/minimum-sufficient-control/01_ACC_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/01_ACC_VNext.md",
+      "link_occurrences": 13,
+      "local_occurrences": 13,
+      "local_targets": [
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/02_ROLE_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+      "link_occurrences": 11,
+      "local_occurrences": 10,
+      "local_targets": [
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/03_COMPOSITION_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+      "link_occurrences": 13,
+      "local_occurrences": 11,
+      "local_targets": [
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/04_OPERATION_REVIEW_CARD.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+      "link_occurrences": 31,
+      "local_occurrences": 30,
+      "local_targets": [
+        "research/regime-awareness/README_VNext.md",
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "research/ecosystem-awareness/baseline/01K_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md",
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+        "research/ecosystem-awareness/baseline/README_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md",
+      "link_occurrences": 6,
+      "local_occurrences": 6,
+      "local_targets": [
+        "standards/minimum-sufficient-control/README_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md"
+      ],
+      "role_hint": "context_or_review_candidate"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/README_VNext.md",
+      "link_occurrences": 22,
+      "local_occurrences": 21,
+      "local_targets": [
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "research/ecosystem-awareness/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/01_ACC_VNext.md",
+        "research/ecosystem-awareness/baseline/01I_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+        "research/ecosystem-awareness/baseline/01J_VNext.md"
+      ],
+      "role_hint": "vnext_named"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/README.md",
+      "link_occurrences": 1,
+      "local_occurrences": 1,
+      "local_targets": [
+        "standards/minimum-sufficient-control/README_VNext.md"
+      ],
+      "role_hint": "controlled_router"
+    }
+  ]
+}
