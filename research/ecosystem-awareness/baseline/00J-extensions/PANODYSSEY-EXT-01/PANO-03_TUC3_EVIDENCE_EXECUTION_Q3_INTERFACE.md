@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 03 — T-UC3 Trajectory and UC21 Q3 Interface
 Google Docs source: https://docs.google.com/document/d/12ekNFP1pfe1eC6uxqN2t5lbbaPzVazL064Ytrz9DWEw/edit
 Observed Google Docs revision: AHj4eMQGxP5xVXxDqjr7dumVADdK-HFjJAQ56oMVbYb0kTGTcymrh7YmnvU-HbMGsZjNL5VYCzv3vvHc187-1n7IFhl5U9H-cmMMY-B_0-w

@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 02 — S1–S14 Traceability Addendum (EU Legislation / Technical and International References)
 Google Docs source: https://docs.google.com/document/d/1mLp2Sb1q2dD67FKBqQMiZ9hR__t2snyitFIwcwpi78Y/edit
 Observed Google Docs revision: AHj4eMQrZpZZO1N0z6UHSlm9Rm3Oqv7mEE0-2R9d7MSl1SfpkLIlUFjsw4Zmx6zKoUU97LueL-w7yo6L3qv24Ci5FV2a_Mv16SbOqPMqWI0

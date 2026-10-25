@@ -1,12 +1,12 @@
 # 00J-EXT-PANO-01 — Panodyssey composite S6/00J extension
 
-> **PROPOSED CANONICAL PACKAGE · DRAFT PR #39 · REVIEW PENDING · 25 October 2026.** This reader is the proposed *single canonical entry point for this logical extension*. Individual `PANO-xx` and `SOURCE-00` files preserve their source-document roles. None reports a completed A25/A26 admission, DDS score, UC4 run, Panodyssey failure or EU-law compliance decision.
+> **CANONICAL RESEARCH RECORD OF A PROPOSED EXTENSION · OWNER-ACCEPTED FOR CORPUS PUBLICATION · 25 October 2026.** This reader is the *single current canonical entry point for this logical extension*. Individual `PANO-xx` and `SOURCE-00` files preserve their source-document roles. None reports a completed A25/A26 admission, DDS score, UC4 run, Panodyssey failure or EU-law compliance decision.
 >
-> **Disclosure status:** The source Docs are marked **INTERNAL / NOT FOR EXTERNAL CIRCULATION**. At the owner's request, the extension now appears in a public draft PR for review. Before merge or further external reuse, review source ownership, third-party evidence, redaction and attribution; PR visibility is not methodological or legal acceptance.
+> **Publication and custody:** The original Google Docs retain their historical **INTERNAL / NOT FOR EXTERNAL CIRCULATION** labels. Iván Abril Palma, the corpus owner, explicitly directed public GitHub publication and promotion of these ten working-document mirrors through [PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39) on 25 October 2026. That scoped corpus decision does **not** grant permission to publish underlying third-party private correspondence, commercial records or unpublished source material, nor authorize external filing, rights claims or institutional approval. Source-owner and evidentiary permissions remain separate for those purposes. See [the disposition record](./PROMOTION_REVIEW.md#5-owner-promotion-decision-and-residual-gates).
 
 ## 1. Identity and parental discipline
 
-- **ID:** `00J-EXT-PANO-01` (working, not frozen).
+- **ID:** `00J-EXT-PANO-01` (canonical documentary entry; proposed technical extension, not admitted or frozen).
 - **Source case:** Panodyssey — *one broad Challenge and three specific operational trajectories* (T-UC1 authority/permission lifecycle; T-UC2 actor/organizational binding/delegated authority; T-UC3 evidence of authority vs execution).
 - **Family parent:** [00J — Rights-Provenance Inversion, UC21 S6](../../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md). S6 here names the UC21 scenario; it is not `EA-S6`.
 - **Positive counterpart:** [00J Success Model Case](../../00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md).
@@ -60,4 +60,4 @@ Sources: [execution-readiness register](./DDS_UC4_READINESS.md) and the full sou
 
 ## 6. Acceptance / publication boundary
 
-First complete [the promotion review](./PROMOTION_REVIEW.md): exact document/table reconciliation, owner/third-party disclosure decision, prospective evidence freeze and source pins, new path/nav link check, A25/A26 and DDS scope check, and open-finding disposition. The corpus role **canonical** would mean *the primary documented research statement for this extension* only, not that Panodyssey, TEMS, UC21, UC4, FG-TIDA or any legal regulator has endorsed, executed or accepted it.
+The [documentary promotion review](./PROMOTION_REVIEW.md) records the completed source/table/link verification and owner's public-corpus instruction. Future source-owner permissions, proof-transfer claims, candidate/comparator/evaluator freeze, DDS/UC4 execution, formal FG-TIDA filing and material dependency re-evaluation remain distinct open gates. The corpus role **canonical** means *the primary documented research statement for this extension* only, not that Panodyssey, TEMS, UC21, UC4, FG-TIDA or any legal regulator has endorsed, executed or accepted it.

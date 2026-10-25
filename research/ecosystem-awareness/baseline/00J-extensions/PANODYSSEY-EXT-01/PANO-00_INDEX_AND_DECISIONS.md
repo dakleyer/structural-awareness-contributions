@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 00 — INDEX & Decision Record
 Google Docs source: https://docs.google.com/document/d/1lwMj3JcMRSgOBM4CNjVws_MJFAQxp9SsEWFnhz97w-M/edit
 Observed Google Docs revision: AHj4eMQ9T4E43eBllevbE9kIyUC_fsZWrnpbUZgSHBlUDn1pJIUjVQmmYDDcAc39RJrRDd4b8bmmhhsamNAqdmtt5fZoK0vln-Fs6vY3oE4

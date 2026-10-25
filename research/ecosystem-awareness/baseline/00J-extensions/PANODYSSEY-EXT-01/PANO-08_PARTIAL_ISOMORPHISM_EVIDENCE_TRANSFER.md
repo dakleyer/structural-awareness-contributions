@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 08 — Panodyssey / S6-00J — Partially Isomorphic Extension & Evidence Transfer v0.2
 Google Docs source: https://docs.google.com/document/d/1Oo-HsO6gfj7cY4M1Qe0YgyVjP86kCcJ9_163ZQEXTks/edit
 Observed Google Docs revision: AHj4eMQX0s77eSxuzAfJ3k0Y6fshTcMkOcHvKw4Oc-AyvCaZV_p2qdZHubmee8AUr0ZhKFyDh4MXUTbqwd2xiqgJIdA16alWJX9ald2lMIg

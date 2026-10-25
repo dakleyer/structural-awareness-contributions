@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 05 — Alexandre — AI Notice / RAG Discrepancy Decision
 Google Docs source: https://docs.google.com/document/d/11GzD425qTaxXiUW0cx0xrvA5Z2QY5yKZVfoSjpFOC3Y/edit
 Observed Google Docs revision: AHj4eMRvDJme9xUjhqNLP74oRKFacr6wg2Ew-sBSB4Zy9SCD9UJVobEwcFErqoUkHanRjH7Oh2Be6grOvDfTslZZjy3BuGl-zNJtejhqFtY

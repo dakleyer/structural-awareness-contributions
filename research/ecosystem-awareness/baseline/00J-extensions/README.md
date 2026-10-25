@@ -1,12 +1,12 @@
 # 00J — Structural extensions register
 
-> **Draft PR #39; owner review pending (25 October 2026).** The baseline source of truth remains [00J failure scenario](../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) and [00J case-study extensibility profile](../00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md). This register does not alter either source or assert that an extension is admitted.
+> **Current canonical documentary register (owner-accepted 25 October 2026).** The baseline source of truth remains [00J failure scenario](../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) and [00J case-study extensibility profile](../00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md). This register does not alter either source or assert that an extension is experimentally admitted.
 
 ## Children
 
 | Key | Extension | Status | Relation |
 |---|---|---|---|
-| `00J-EXT-PANO-01` | [Panodyssey — one Challenge / three trajectories](./PANODYSSEY-EXT-01/README.md) | **Public draft PR #39 for review**; no A25 admission, native execution, merge or FG-TIDA submission | Composite: a proposed typed isomorphic S6/00J subkernel + non-isomorphic Panodyssey mechanisms + coupling tests |
+| `00J-EXT-PANO-01` | [Panodyssey — one Challenge / three trajectories](./PANODYSSEY-EXT-01/README.md) | **Canonical documentation of a proposed extension**; no A25/A26 admission, native execution or FG-TIDA submission | Composite: a proposed typed isomorphic S6/00J subkernel + non-isomorphic Panodyssey mechanisms + coupling tests |
 
 ## Extension rule
 
@@ -14,4 +14,4 @@ An extension is not whole-system equivalence, a reduction or merely a horizontal
 
 **Source-provenance boundary:** Panodyssey/TEMS [00J-A01](../00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) remains a separate, older source-reviewed implementation trajectory. Do not overwrite its freeze or treat the extended case as a Panodyssey product-incident report.
 
-**Disclosure and reuse gate:** The mirrored Google Docs explicitly say *internal/not for external circulation*. At the owner's request the candidate is visible in a public draft PR; that does not establish attribution or permissions for third-party evidence, external reuse, institutional submission or acceptance. Resolve scope, redaction and author attribution before merging or reusing it elsewhere.
+**Disclosure and reuse boundary:** The mirrored Google Docs retain *internal/not for external circulation* as historical source labels. The corpus owner explicitly authorized the public research-corpus copy and promotion through [PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39). That does not release third-party underlying evidence or permit further external reuse, formal submission or institutional claims. The [scope decision](./PANODYSSEY-EXT-01/PROMOTION_REVIEW.md#5-owner-promotion-decision-and-residual-gates) keeps those separate gates visible.

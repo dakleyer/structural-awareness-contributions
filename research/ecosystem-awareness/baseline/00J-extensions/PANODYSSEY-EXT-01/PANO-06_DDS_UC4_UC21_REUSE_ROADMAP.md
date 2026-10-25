@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 06 — UC20 / UC21 / UC4 / DDS Reuse and Roadmap
 Google Docs source: https://docs.google.com/document/d/1RG6NjkPl5d8y3NjB6wA_iFHePsyTTQereQhGumeCcnw/edit
 Observed Google Docs revision: AHj4eMTGtOZgmrVrgYdW-iFWcUag-V1Nkke1enfaZbvMkS2YeMxhYtRBUPG1flTJYXrLie59EKkPbt-s5hqPdlGfwprDC34oFpDPlQC2e7M

@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 07 — Completeness Audit and Open Findings
 Google Docs source: https://docs.google.com/document/d/1YMWi8c4b6k49Om-4vNhNZqEAJRynoKlYYRPk8sQ5Ae4/edit
 Observed Google Docs revision: AHj4eMTDbNPRF007v7Cin4VVm55JrlQO8k2R-eB6pyEne8WLVhdATW5xoCP_1KBNAAvqH6625OC0ObSrGXYwoIoeAIqODZmt1kI6Jl_ztyI

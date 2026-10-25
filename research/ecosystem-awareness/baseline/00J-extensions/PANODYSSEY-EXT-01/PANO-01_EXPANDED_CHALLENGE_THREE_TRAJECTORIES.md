@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 01 — Expanded UC / Three Specific UCs / Challenge Architecture
 Google Docs source: https://docs.google.com/document/d/1lU4zfSA1I5RMPxjoPrRMtp4ZXMIKvebCPko47ZgUMIk/edit
 Observed Google Docs revision: AHj4eMRmIo4COZpsjbS5xsbg32Ztd3v7Win_uZw4vQmFUo6GcI47n39U3h9huxcaym-yNgz_-cJhQdfHuCGKx0OyT2OoaRZbcP6uqrdmQiM

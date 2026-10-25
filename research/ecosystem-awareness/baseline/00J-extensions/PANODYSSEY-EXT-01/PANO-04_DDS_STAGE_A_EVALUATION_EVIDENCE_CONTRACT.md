@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: 04 — DDS Stage A Outcomes and Evidence Contract
 Google Docs source: https://docs.google.com/document/d/1QgCwAZORVivQXyH8kmrudbRVbzldV7qogy9OWvWxRPg/edit
 Observed Google Docs revision: AHj4eMT0elDRcVmSfIxmftC1gt57Yg1vrHQehRBri68x-7iuHns2IPnoB_aMtFM_J6pJRAIy7GtaFGhsSkvxt18ldiV9MDvuWq-pL9knL6w

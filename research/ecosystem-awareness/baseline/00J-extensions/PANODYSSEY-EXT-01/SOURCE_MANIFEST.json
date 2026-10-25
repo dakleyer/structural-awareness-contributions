@@ -1,14 +1,35 @@
 {
   "logical_id": "00J-EXT-PANO-01",
-  "package_role": "candidate_canonical_extension_reader_not_approved",
+  "package_role": "canonical_documentary_extension_record_proposed_not_admitted",
   "canonical_parent": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
-  "first_local_base_branch": "733749040565cab79ce7af291a7f58cb28024fa2",
-  "precommit_branch": "work/panodyssey-s6-00j-extension-review-20261025",
+  "initial_main_commit": "733749040565cab79ce7af291a7f58cb28024fa2",
+  "promotion_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/39",
+  "head_branch": "work/panodyssey-s6-00j-extension-review-20261025",
   "source_folder": "https://drive.google.com/drive/folders/1_smNfS4Ii5XjBY7dZUEkPd21NAwKPOGO",
   "source_core_docs_count": 9,
   "external_source_map_count": 1,
   "cutoff_date": "2026-10-25",
-  "disclosure_status": "LOCAL_REVIEW_ONLY_DO_NOT_COMMIT_TO_PUBLIC_REPOSITORY",
+  "disclosure_status": "CORPUS_OWNER_AUTHORIZED_PUBLIC_RESEARCH_COPY_2026-10-25; ORIGINAL_SOURCE_LABELS_RETAINED; THIRD_PARTY_UNDERLYING_EVIDENCE_NOT_LICENSED",
+  "promotion_decision": {
+    "decision_date": "2026-10-25",
+    "decision_owner": "Ivan Abril Palma",
+    "authorized_scope": "Public canonical research-corpus documentation of the Panodyssey S6/00J proposed extension and its ten full source-text mirrors, through PR #39",
+    "excluded_scope": "Third-party private correspondence or commercial source packs; external FG-TIDA submission; institutional/legal endorsement; A25/A26 evidence admission; DDS/UC4/PanO v6 test results"
+  },
+  "source_fidelity_audit": {
+    "date": "2026-10-25",
+    "source_docs_revision_ids_reverified": 10,
+    "normalized_text_matches": 10,
+    "native_tables_checked": 11,
+    "native_rows_checked": 121,
+    "native_cells_checked": 566,
+    "native_link_runs_total": 281,
+    "paragraph_link_runs": 185,
+    "table_cell_link_runs": 96,
+    "unique_link_urls_summed_per_document": 190,
+    "all_native_link_targets_preserved_in_mirrors": true,
+    "scope": "Source fidelity, not format identity, scientific approval, permission for third-party underlying evidence, or executed proof"
+  },
   "asserted_00J_family_admission": false,
   "asserted_DDS_UC4_execution": false,
   "source_documents": [
@@ -28,13 +49,16 @@
           "columns": 5
         }
       ],
-      "source_hyperlink_targets": 8,
+      "source_hyperlink_targets": 70,
+      "source_paragraph_link_runs": 8,
+      "source_table_cell_link_runs": 62,
+      "source_distinct_link_urls": 21,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 22499,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "835453ba98da6a6f3c62210f298db65e4265d4f9810fd25b430a380764c9e43a",
-      "mirror_bytes": 22700
+      "mirror_sha256": "bd8db8b6d20384d41fb63622293742f4343558ea8caeca0b9f521f6191170322",
+      "mirror_bytes": 22953
     },
     {
       "order": 1,
@@ -48,12 +72,15 @@
       "source_paragraphs": 67,
       "native_table_shapes": [],
       "source_hyperlink_targets": 25,
+      "source_paragraph_link_runs": 25,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 22,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 13951,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "c01e65271aed2df276e72c4628d7e32e873eb4d5e29f10b22d591da0967e78a5",
-      "mirror_bytes": 14061
+      "mirror_sha256": "b943f795b4dc41c62536cdfd9fb876061771d9804cd9c698574bf02d849a38db",
+      "mirror_bytes": 14314
     },
     {
       "order": 2,
@@ -72,12 +99,15 @@
         }
       ],
       "source_hyperlink_targets": 11,
+      "source_paragraph_link_runs": 11,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 10,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 17589,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "70ad23a4f2456b1834eb25b2e95aa5311143f2c1d6237a8cb8996e8d64091603",
-      "mirror_bytes": 17798
+      "mirror_sha256": "d4d5918d276f35e4c434a4a778158629700a75e275ffa155e5feae3284e931b8",
+      "mirror_bytes": 18051
     },
     {
       "order": 3,
@@ -96,12 +126,15 @@
         }
       ],
       "source_hyperlink_targets": 28,
+      "source_paragraph_link_runs": 28,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 24,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 23483,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "a54faa36c77448d3cff28331d23c23c3de8ff80b18a2ae5c9aada07e9709e698",
-      "mirror_bytes": 23633
+      "mirror_sha256": "9e9a470d1c4db5b4fa5598dac0f609d6c72feceee9810ff70319d4996f05e6bd",
+      "mirror_bytes": 23886
     },
     {
       "order": 4,
@@ -119,13 +152,16 @@
           "columns": 5
         }
       ],
-      "source_hyperlink_targets": 18,
+      "source_hyperlink_targets": 52,
+      "source_paragraph_link_runs": 18,
+      "source_table_cell_link_runs": 34,
+      "source_distinct_link_urls": 27,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 19099,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "4458e53336f8bf07cdc616bf6707405258451bf286a583e836029139f2432be1",
-      "mirror_bytes": 19209
+      "mirror_sha256": "5935855c6ba1cb13eb16cb345d209577ab24069774dd35d60b59ce256f34dbc3",
+      "mirror_bytes": 19462
     },
     {
       "order": 5,
@@ -144,12 +180,15 @@
         }
       ],
       "source_hyperlink_targets": 7,
+      "source_paragraph_link_runs": 7,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 6,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 26373,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "47ec9165a41da58ecae017545bb4892457a05d4e2367959f1429761826ac4711",
-      "mirror_bytes": 26486
+      "mirror_sha256": "614e40838a90461457a06d12c595a58e95e17e2c34c2173daaf58a34ae828d95",
+      "mirror_bytes": 26739
     },
     {
       "order": 6,
@@ -163,12 +202,15 @@
       "source_paragraphs": 27,
       "native_table_shapes": [],
       "source_hyperlink_targets": 6,
+      "source_paragraph_link_runs": 6,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 5,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 6860,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "890f8824722dc0a46478559c9df600073a192dd6ccfed83321a1781aeaa4fc18",
-      "mirror_bytes": 6895
+      "mirror_sha256": "65bd362fda80de5e5aa75b66e52ec877fa4a9b9ee83964e273810f964783632e",
+      "mirror_bytes": 7148
     },
     {
       "order": 7,
@@ -191,12 +233,15 @@
         }
       ],
       "source_hyperlink_targets": 29,
+      "source_paragraph_link_runs": 29,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 26,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 35475,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "79df69fce41ce91d5d968eea26ba963bf9bb6708fa8bf4e0e15c35df2baed6e8",
-      "mirror_bytes": 35656
+      "mirror_sha256": "a3af2f8baf89d9192040bf917bba5c232d233213d6b4cefff9d91666a37167f6",
+      "mirror_bytes": 35909
     },
     {
       "order": 8,
@@ -215,12 +260,15 @@
         }
       ],
       "source_hyperlink_targets": 31,
+      "source_paragraph_link_runs": 31,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 27,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 35241,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "07b3758e5f147824252cf01aa36bef1678c4d508bf39f158ac5a91500b176ecf",
-      "mirror_bytes": 35515
+      "mirror_sha256": "f209b9c4d141344fdb7b16f21749920c97231196eae480e1e21fea2d0fcc1468",
+      "mirror_bytes": 35768
     },
     {
       "order": 9,
@@ -247,12 +295,15 @@
         }
       ],
       "source_hyperlink_targets": 22,
+      "source_paragraph_link_runs": 22,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 22,
       "unresolved_link_target_count": 0,
       "export_utf16_chars": 42316,
-      "disclosure": "INTERNAL / NOT FOR EXTERNAL CIRCULATION; no approved public release evidenced",
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
       "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
-      "mirror_sha256": "7d0d7c5cba612d6337e3fb3a1650146ab19d427c06289fee09f8176bb0e5217e",
-      "mirror_bytes": 42499
+      "mirror_sha256": "8ef69a9439acf1eb037396798317e53b3f603dc6b2a836d1000a0bbe647e999b",
+      "mirror_bytes": 42752
     }
   ],
   "preserved_historical_google_docs": "Subfolder /old contains v0.3/v0.4 prior editions; they remain separately in Google Drive and are not silently replaced or republished here."

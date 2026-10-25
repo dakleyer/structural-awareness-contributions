@@ -1,5 +1,5 @@
 <!--
-Source-preserving Markdown conversion for owner review; internal, not for public release.
+Source-preserving Markdown mirror of a Google Doc historically labelled INTERNAL. The corpus owner expressly authorized public research-corpus promotion on 25 October 2026. Historical source labels remain quoted faithfully; this does not grant rights in third-party underlying evidence, endorse the case, or constitute an experimental result.
 Google Docs title: Panodyssey — Industry Challenge Map & FG-TIDA ToR Traceability — v0.1
 Google Docs source: https://docs.google.com/document/d/1qA8XG_L7ZJbwBOlOb37r4Qm7J6nG_AcSCddnzEAAPi8/edit
 Observed Google Docs revision: AHj4eMTvxsu8vkYtuDc_NpAb7dCQl_a3Wl4EeChKdPUDQKDm3G4ngLt2j5ZMtH1U-2aXKM3TpOClpVGS5IB3kJ6MYwKwFQanIcdyzxvjCcs
