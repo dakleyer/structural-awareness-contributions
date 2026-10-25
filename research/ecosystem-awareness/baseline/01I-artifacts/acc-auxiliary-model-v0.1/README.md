@@ -59,3 +59,8 @@ Los ejemplos humanos, institucionales, empresariales y de infraestructuras forma
 Se restauran premisas de compensación, acuerdo y autoridad; se explicitan las cautelas de bienestar y ejemplos hipotéticos; se corrigen rangos y se prepara una trazabilidad conceptual. [La disposición de las 24 acciones](review/AUDIT_ACTIONS.md) distingue lo aplicado y lo pendiente. El [mapa de conceptos](review/CONCEPT_MAP.md) y las [notas de fuentes](review/SOURCE_NOTES.md) permiten seguir las condiciones y sus diferencias históricas.
 
 Para reproducir el piloto basta Python 3.12 o posterior y su biblioteca estándar. Las instrucciones están en su protocolo. La coincidencia de un ejecutable con tablas manuales no certifica toda la teoría ni mide bienestar humano. El alojamiento y uso posterior en ACC conservan los límites declarados al comienzo de esta página.
+
+
+### Puente experimental UC21 / DDS y revisión científica (25-10-2026)
+
+La integración ejecutable con los seis escenarios está en el [contrato de falsabilidad](studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md), junto con la [matriz de efectos S1–S6](studies/parametric-economic-toy-v0.1/UC21_SIX_SCENARIO_NEGATIVE_TEST_MATRIX.md), el [adaptador Python y tests](studies/parametric-economic-toy-v0.1/README.md#integración-ejecutable-uc21--dds--acc--01k-25-10-2026) y la [autoevaluación crítica](studies/parametric-economic-toy-v0.1/EXECUTABLE_ENGINE_AUDIT_2026-10-25.md). Esta adición prepara estudios DDS sin modificar el oráculo ni los criterios UC21 congelados. Los resultados actuales siguen siendo sintéticos/documentales, no ejecución de productos reales.

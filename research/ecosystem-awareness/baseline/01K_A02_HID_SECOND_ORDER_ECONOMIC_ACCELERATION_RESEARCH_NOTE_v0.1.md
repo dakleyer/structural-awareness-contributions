@@ -210,3 +210,8 @@ La regla soberana W como puerta económica constituye **un brazo opcional de pru
 - **Antes del primer nuevo run:** protocolo HID2-01/02 con servicios comparables, oráculo y forecast sellados; tests analíticos; aprobación del plan de evidencias; ejecución en **una rama o paquete de estudio versionado propio**. La fase de investigación no requiere alterar 01K-A01, congelados UC21/R01 ni el contrato normativo de ACC.
 
 **Decisión editorial:** esta nota es un anexo de investigación técnica de HID dentro de 01K. La reflexión de Magnifica Humanitas sobre elección, autonomía y solidaridad permanece en los libros de contexto originales; aquí sólo se trata la facultad de aceptación como condición económica/operacional cuando forma parte del escenario.
+
+
+## Instrumentación UC21 / DDS — referencia de estudio (25-10-2026)
+
+La [integración ejecutable con UC21 y DDS](01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md) permite registrar resultados tecnológicos adversos **y favorables** al modelo, sin reinterpretar los gates UC21 ni convertir automáticamente un fallo de escenario en HID. El [adaptador](01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/uc21_dds_bridge.py) devuelve horas GIC/NEO/ACW/UNKNOWN, HID observado condicional, contrafactual de horas liberables y segunda diferencia temporal (curvatura **no** prueba causalidad). La [auditoría de alcance](01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/EXECUTABLE_ENGINE_AUDIT_2026-10-25.md) especifica las mediciones y estudios que faltan antes de una conclusión empírica. Los experimentos HID2-01…10 continúan como agenda **NOT_RUN**.

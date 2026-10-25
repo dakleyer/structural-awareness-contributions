@@ -160,3 +160,17 @@ Para medir HID en organizaciones reales se requiere el Study 0 de 01K, evaluador
 [test_toy.py](test_toy.py) ejecuta **34 pruebas** de invariantes y resultados numéricos: transferencias de suma cero; permisos, derechos, costes, exclusiones, frontera de igual servicio; distinción entre HID observado/potencial; red N/L/E/R, retiro, saturación de capacidad, sinergia que impide comparación; reproducción de fórmulas y barridos CLI. El mismo código está incluido en la verificación de PR para comprobar su ejecución.
 
 El paso científico posterior es preregistrar y ejecutar HID2-01…10 en [01K-A02](../../../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md), empezando por pares con **mismo Y, recursos, información ex ante, autoridad y costes completos**. Después podrán añadirse escenarios con selección de propuestas endógenas, planificación óptima de transición a lo largo del tiempo, incertidumbre aleatoria y fallos de información, siempre versionados sin alterar los estudios originales.
+
+
+## Integración ejecutable UC21 ↔ DDS ↔ ACC / 01K (25-10-2026)
+
+El [contrato de falsabilidad UC21–DDS](UC21_DDS_FALSIFIABILITY_CONTRACT.md) y el adaptador [uc21_dds_bridge.py](uc21_dds_bridge.py) incorporan la conexión experimental: los recorridos originales UC21 R0/R1/R2 (R1/R2/R3 en la exposición conversacional), admisión estricta de cambio de contexto, controles positivos, efectos independientes, coste e indicadores HID condicionados. [Matriz S1–S6](UC21_SIX_SCENARIO_NEGATIVE_TEST_MATRIX.md), [auditoría del ejecutable](EXECUTABLE_ENGINE_AUDIT_2026-10-25.md), [fixture de defensa sintética](examples/uc21_s4_synthetic_defender.json) y [regresiones](tests/test_uc21_dds_bridge.py).
+
+Ejecutar desde este directorio:
+
+~~~bash
+python3 -B -m unittest discover -s tests -p 'test_*.py' -v
+python3 -B uc21_dds_bridge.py examples/uc21_s4_synthetic_defender.json
+~~~
+
+**Evidencia:** el fixture muestra que un comparador puede ganar. El adaptador verifica y conserva declaraciones de evidencia, pero no autentica por sí solo trazas externas; no hay un benchmark nativo de tecnología real ni un resultado de UC21 HR a partir de estas pruebas. Mantener los cuatro objetos de evidencia separados: instrumento, fuente, ejecución y efecto observado. La nota 01K-A02 sigue siendo agenda de investigación, no una demostración causal de aceleración.
