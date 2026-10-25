@@ -157,10 +157,15 @@ def portfolio(config):
     if not isinstance(current_ids, list) or len(current_ids) != len(set(current_ids)) or set(current_ids) - ids_set:
         raise ToyError("current_projects are not a valid unique subset")
 
+    # v0.1 only models additive transitions from the declared current state.
+    # Removing a live project would require a separately specified rollback cost and permission.
+    current_set = set(current_ids)
     feasible = []
     for mask in range(1 << len(norm_projects)):
         selected = [p for index, p in enumerate(norm_projects) if mask & (1 << index)]
         selected_ids = set(p["id"] for p in selected)
+        if not current_set.issubset(selected_ids):
+            continue
         if any(not p["rights"] or set(p["requires"]) - selected_ids
                or set(p["excludes"]) & selected_ids for p in selected):
             continue
@@ -169,6 +174,7 @@ def portfolio(config):
         actor_net = {a: 0.0 for a in actors}
         category_costs = {}
         transitions = 0.0
+        additional_transition_cost = 0.0
         for p in selected:
             d = p["delta"]
             for label, field in (("production", "production"), ("resources", "resources"),
@@ -182,31 +188,36 @@ def portfolio(config):
             if p["bearer"] is not None:
                 actor_net[p["bearer"]] -= shadow * d["acw_hours"]
             transitions += sum(p["costs"].values())
+            if p["id"] not in current_set:
+                additional_transition_cost += sum(p["costs"].values())
             for category, amount in p["costs_by_category"].items():
                 category_costs[category] = category_costs.get(category, 0.0) + amount
         if (state["production"] < -EPS or state["resources"] < -EPS
-                or state["resources"] > resources_limit + EPS or transitions > budget + EPS
+                or state["resources"] > resources_limit + EPS or additional_transition_cost > budget + EPS
                 or any(state[k] < -EPS for k in ("gic", "neo", "acw", "unknown"))
                 or sum(state[k] for k in ("gic", "neo", "acw", "unknown")) > base["human_capacity"] + EPS
                 or any(amount < -EPS for amount in outputs.values())):
             continue
         gates_missing = sorted(set(g for p in selected for g in p["gates"] if not approvals[g]))
-        negative_actors = [a for a in actors if actor_net[a] < -EPS]
-        gov = not gates_missing and (not require_pareto or not negative_actors)
         utility = sum(actor_net.values())
         row = {"projects": sorted(selected_ids), "production": state["production"],
                "resources": state["resources"], "outputs": outputs,
                "gic_hours": state["gic"], "neo_hours": state["neo"], "acw_hours": state["acw"],
                "unknown_hours": state["unknown"], "utility": utility,
-               "actor_net": actor_net, "C_adj": transitions, "cost_categories": category_costs,
-               "governable": gov, "missing_approvals": gates_missing,
-               "negative_actors": negative_actors}
+               "actor_net": actor_net, "C_adj": transitions,
+               "new_C_adj": additional_transition_cost, "cost_categories": category_costs,
+               "missing_approvals": gates_missing}
         feasible.append(row)
     by_state = {tuple(s["projects"]): s for s in feasible}
     key = tuple(sorted(current_ids))
     if key not in by_state:
         raise ToyError("current state is not technically feasible")
     actual = by_state[key]
+    # Pareto/actor consent is relative to the presently realized portfolio, not to t=0.
+    for row in feasible:
+        negative_actors = [a for a in actors if row["actor_net"][a] - actual["actor_net"][a] < -EPS]
+        row["negative_actors"] = negative_actors
+        row["governable"] = not row["missing_approvals"] and (not require_pareto or not negative_actors)
     ordered = sorted(feasible, key=lambda x: (-x["utility"], x["resources"], x["projects"]))
     technical = ordered[0]
     gov_states = [s for s in ordered if s["governable"]]
@@ -241,6 +252,7 @@ def portfolio(config):
     return {
         "mode": "portfolio", "status": "SYNTHETIC_RESEARCH_TOY",
         "dimension_count": len(dimensions), "dimension_labels": dimensions,
+        "transition_scope": "ADDITIONS_ONLY_FROM_CURRENT; NO_UNMODELLED_ROLLBACK",
         "state_count_F_T": len(feasible), "state_count_F_G": len(gov_states),
         "actual": actual, "technical_optimum": technical, "governance_optimum": governed,
         "G_technical": g_technical, "G_governable": g_governance,
@@ -257,6 +269,7 @@ def portfolio(config):
                          for s in ordered[:top_k]],
         "caveats": ["F^T contains technical options, not automatic legal authority.",
                     "Payoffs exclude adjustment and ACW shadow charges, which are booked once.",
+                    "Pareto checks and transition budget are relative to current; no project removal is simulated.",
                     "Efficiency compares identical declared output vectors; rights/service quality are input assumptions.",
                     "HID indicators, if enabled, depend on assumed classifications and a finite alternative set."]}
 
