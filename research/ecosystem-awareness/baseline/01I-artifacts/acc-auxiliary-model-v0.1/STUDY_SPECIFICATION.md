@@ -10,6 +10,8 @@ El estado inicial y los estados alternativos incluyen recursos, tecnología, per
 
 ## Familias formales conservadas
 
+La formalización económica completa se encuentra en el [núcleo técnico del modelo](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md), con la frontera de eficiencia G^E, la distancia G^T/G^G, las reglas de compensación de utilidad plenamente transferible, C_adj con episodios deduplicados, M0–M3, producción frente a interdependencias y las condiciones de HID. Esta tabla es un índice de familias, no su sustituto. La [nota experimental HID 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) detalla segundo orden y sus estados de evidencia.
+
 Estas expresiones identifican construcciones de trabajo de las fuentes. Su ejecución requiere fijar parámetros, unidades y supuestos. No constituyen un teorema común.
 
 Las letras son locales a cada familia: D distribución, C coordinación y A atribución en un toy no equivalen a las regiones epistémicas A/B/C/D. E como eficiencia tampoco equivale a E(n), número de relaciones. Una ejecución declarará su diccionario de símbolos sin reescribir las fuentes.
@@ -34,6 +36,8 @@ Las letras son locales a cada familia: D distribución, C coordinación y A atri
 | Gradiente existente | Gi de candidato = reducción de riesgo condicionado al objetivo | Relación escalar o vectorial declarada, restricciones duras y autoridad separada |
 
 ### Sensibilidad que debe fijar cada estudio
+
+Las pérdidas por propuesta R(n), las brechas G y las horas HID no se pueden sumar o intercambiar. Una prueba que reporte "deuda neta" debe construir el mejor paquete **conjuntamente factible** y descontar costes de reajuste; una que reporte aceleración debe comparar Δ²d_t del flujo con la mera acumulación D_T. Véase el [núcleo técnico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md#distancia-al-óptimo-accesible-oportunidad-y-deuda-de-utilidad) y la [nota 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md).
 
 Variar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizonte; incluir coste incremental de interoperabilidad y transición. Mostrar regiones con ganancia, empate y pérdida. En el brazo de crédito, contrastar la regla de veto contra explicaciones por servicio, riesgo y autoridad legítima. La probabilidad q de aceptación independiente de unos filtros y la fracción q de obligaciones protegidas de otro toy son parámetros locales distintos; una realización debe distinguirlos. No se infiere causalidad de una curva incorporada por la topología o por la regla de retiro.
 
