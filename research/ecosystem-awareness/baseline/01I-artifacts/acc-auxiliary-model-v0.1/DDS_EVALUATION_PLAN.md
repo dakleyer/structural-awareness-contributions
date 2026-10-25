@@ -67,6 +67,8 @@ El resultado del escenario fuente no se reetiqueta con un oráculo social añadi
 
 ## Orden de construcción
 
+Existe una [realización adicional del toy paramétrico](studies/parametric-economic-toy-v0.1/README.md) para fórmulas y trayectorias de redes; verifica numéricamente las condiciones que el programa pretende contrastar, pero **no ejecuta** los experimentos HID2-01…10 ni constituye Stage B/C. Debe utilizarse como generador de escenarios y controles para una futura especificación DDS congelada.
+
 1. Especificación y recorrido manual de un caso empresarial o institucional.
 2. Modelo determinista pequeño con controles que fallen de manera conocida.
 3. Incertidumbre, negociación, redes, propuestas endógenas y retorno.
