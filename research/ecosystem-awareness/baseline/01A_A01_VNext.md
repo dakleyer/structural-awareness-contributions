@@ -1,6 +1,6 @@
 # 01A-A01 VNext — review of mission-drift causal priority and epistemic economy
 
-**24 October 2026 · Reviewer: Codex (AI) · Status: proposal/research pending evidence, not canonical adoption.**
+**Review status — 25 October 2026.** FH-C and FH-E are incorporated as canonical research hypotheses under the24October decision. Causal dominance and computational savings remain research questions. Reviewer: Codex (AI).
 
 **Source under review:** [01A-A01 research note](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md). **Related preserved sources:** [01A](01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md), [02A](02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md), [00M](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), [00N](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md).
 

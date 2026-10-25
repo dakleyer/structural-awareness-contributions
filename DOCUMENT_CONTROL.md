@@ -1,6 +1,6 @@
 # Corpus Document Control — DC-GH-01
 
-**Edition:** v1.0.1 · **Effective:** 25 October 2026 (owner-authorized clarifications)  
+**Edition:** v1.0.2 · **Effective:** 25 October 2026 (owner-authorized clarifications)  
 **Owner:** Iván Abril Palma · **Scope:** dakleyer/structural-awareness-contributions  
 **Status:** Current repository document-control policy. **Implementation is progressive; publication is not a claim of corpus-wide conformity.**
 
@@ -47,7 +47,7 @@ Do not rename all existing files, duplicate Git technical timestamps/SHA in docu
 
 ## 5. Canonical and VNext link contract
 
-A VNext is the cumulative review/development shadow **of a specific logical canonical document**. Repeated review passes remain in that one active shadow. A VNext of a VNext is not permitted.
+A VNext is the cumulative review/development shadow **of a specific logical canonical document**. Repeated review passes remain in that one active shadow. A VNext of a VNext is not permitted. Its purpose is to develop an incorporable next edition. Resolve settled blocks through a named promotion wave; keep only real unresolved proposals in its pending queue, with a concrete next deliverable or owner decision. After incorporation, retain the audit argument and an anchored receipt of the complete historical card.
 
 | Source | Direct link to own VNext | Direct link to foreign VNext | Links to canonical, contextual or evidence sources |
 | --- | --- | --- | --- |
@@ -115,14 +115,14 @@ No GitHub link or publication implies approval, validation or adoption by FG-TID
 
 Retain superseded sources, review records, submitted packets, frozen tests and negative results for their exact provenance. Historical links may legitimately point to older paths or pinned Git commits. Do not silently rewrite historical records for a current link-style convention.
 
-Record any exception with its scope, source, justification, responsible decision and reference. Avoid a separate administrative log of all commits; issues/PRs and Git history already provide that trail. Use a distinct record only where the semantic decision cannot be inferred from the technical change.
+Record any exception with its scope, source, justification, responsible decision and reference. Avoid a separate administrative log of all commits; issues/PRs and Git history already provide that trail. Use a distinct record only where the semantic decision cannot be inferred from the technical change. For quoted or split historical sources, bind the disposition to the exact source unit/quote bytes, original context, expected occurrences and valid receiver; a blanket VNext, directory or blockquote exclusion is insufficient. Retiring an applied proposal keeps its incoming anchor on an application receipt and its complete pre-application card at an immutable revision.
 
 ## 12. Bounded rollout and acceptance
 
 - **Wave 0 — effective policy and custody:** preserve predecessor texts, publish this single current policy and audit link, identify protected-source discrepancies. No mass corpus changes.
 - **Wave 1 — read-only inventory:** enumerate VNext references; distinguish occurrences, unique edges, source roles and historical citations. Resolve identity ambiguities before labeling violations.
 - **Wave 2 — safeguards:** create `governance/DOCUMENT_REGISTRY.yml` from the adjudicated logical identities, extend the existing check, and configure enforceable review/branch settings proportionately.
-- **Wave 3 — approved corrections:** amend only confirmed incompatible mutable canonical links and ownership ambiguities, in small evidence-backed PRs.
+- **Wave 3 — promotion and approved corrections:** incorporate accepted VNext blocks into the proper maintained sources, reconcile their receivers, retire applied pending cards with anchored historical receipts, and then amend confirmed incompatible mutable canonical review links in small evidence-backed PRs. Preserve frozen source editions and keep unresolved material assigned to a concrete decision or research task.
 - **Wave 4 — conformance closure:** rerun checks, record unresolved exceptions/owner decisions, verify actual GitHub enforcement, and close the follow-up only to its demonstrated scope.
 
 The [dated conformance audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) is the **baseline of actual versus required state** and remains linked from this policy. It is not a certification of scientific results or institutional norms.
@@ -136,7 +136,7 @@ Amendments require a scoped GitHub change record and responsible-owner decision 
 
 ## 14. Corpus action, promotion and verification plan — 25 October 2026
 
-**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes.
+**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes. The [action-plan 2.0 reassessment and decision sheet](#15-action-plan-20--reassessment-and-next-waves) is the current planning entry; sections14.2–14.3 retain the earlier selection history, while14.12 supplies the expanded candidate population. Operative policy sections1–13 change only through accepted source pairs.
 
 **Iván’s instruction:** the global plan belongs here, includes the specific VNext blocks to incorporate, and specifies complete surgical text/link pairs and verification. The existing VNext remain the source-owned audit/development spaces. Publication of this plan records the proposed work; Iván gives the GO for each incorporation wave. Sections 1–13 above remain operative until their identified amendments are accepted. No proposed pair, registry, workflow or GitHub setting is executed by appending this section.
 
@@ -259,7 +259,7 @@ These are mandatory future tests on disposable candidate objects or an explicitl
 | Claim upgrade | Research hypothesis/reference fixture becomes validated/native/adopted by wording alone | Semantic review rejects the unsupported status change |
 | Recovery | Authorized correct wave after an adverse example | Rules still enforce; valid wave succeeds without weakening the rule |
 
-Closure requires both a valid wave and representative rejected cases with actual actor, head, rule/check result and resulting branch state recorded. A textual configuration proposal, a local content check or one successful merge does not establish that a non-bypass actor was blocked.
+Closure requires both a valid wave and representative rejected cases with actual actor, head, rule/check result and resulting branch state recorded. A textual configuration proposal, a local content check or one successful merge does not establish that a non-bypass actor was blocked. Report literal-equality checks, byte-inverse simulations, rejected inputs from an actual validator, and native GitHub denials as separate results. The prior 42 stale-text assertions established inequality only; they did not run 42 rejection paths. A reused verification receipt must bind the complete candidate tree or all covered input blobs, parser/checker version, policy/registry and exception mappings, and the tested base/head. A checker-code digest alone cannot certify changed Markdown. If any bound input changes, rerun the affected assessment and its dependent relations; a focused candidate test is never native merge enforcement.
 
 ### 14.8 Exact prospective changes
 
@@ -291,26 +291,7 @@ For registered sources, use only the fields needed to disambiguate: stable logic
 
 #### Unit 2 — Give every settled VNext block an incorporation outcome
 
-**Source:** `DOCUMENT_CONTROL.md` · current blob `984ba6c35cc161c57c757faf0a98295548b7fe40` · line 50, bytes 6956–7147 at the pinned source cut. **Expected impact:** High; **risk:** Low; **effort:** Medium.
-
-**Why:** Turn the existing one-companion rule into an active promotion and queue-maintenance obligation.
-
-**Dependencies and decision:** Named wave GO and current source/receiver validation
-
-**Texto antes — complete current unit**
-
-````````````text
-A VNext is the cumulative review/development shadow **of a specific logical canonical document**. Repeated review passes remain in that one active shadow. A VNext of a VNext is not permitted.
-````````````
-
-**Texto después — complete proposed unit**
-
-````````````text
-A VNext is the cumulative review/development shadow **of a specific logical canonical document**. Repeated review passes remain in that one active shadow. A VNext of a VNext is not permitted. Its purpose is to develop an incorporable next edition. Resolve settled blocks through a named promotion wave; keep only real unresolved proposals in its pending queue, with a concrete next deliverable or owner decision. After incorporation, retain the audit argument and an anchored receipt of the complete historical card.
-````````````
-
-**Acceptance:** exact source-region match and inverse; complete proposed unit appears once in the intended receiving body; all unrelated bytes, claim levels and frozen sources remain exact. Check source/receiver meanings, route targets and incoming anchors, then public readback and the owning review/queue receipt.
-
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L292) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Unit 3 — Specify the owner decision and exact incorporation acceptance
 
@@ -383,49 +364,11 @@ Keep the broad documentation link checker on pull requests/manual runs unless it
 
 #### Unit 6 — Make historical exceptions and applied-card retirement exact
 
-**Source:** `DOCUMENT_CONTROL.md` · current blob `984ba6c35cc161c57c757faf0a98295548b7fe40` · line 118, bytes 15380–15683 at the pinned source cut. **Expected impact:** High; **risk:** Low; **effort:** Medium.
-
-**Why:** Preserve genuine history while rejecting a newly broken live route beside an old quotation.
-
-**Dependencies and decision:** Named wave GO and current source/receiver validation
-
-**Texto antes — complete current unit**
-
-````````````text
-Record any exception with its scope, source, justification, responsible decision and reference. Avoid a separate administrative log of all commits; issues/PRs and Git history already provide that trail. Use a distinct record only where the semantic decision cannot be inferred from the technical change.
-````````````
-
-**Texto después — complete proposed unit**
-
-````````````text
-Record any exception with its scope, source, justification, responsible decision and reference. Avoid a separate administrative log of all commits; issues/PRs and Git history already provide that trail. Use a distinct record only where the semantic decision cannot be inferred from the technical change. For quoted or split historical sources, bind the disposition to the exact source unit/quote bytes, original context, expected occurrences and valid receiver; a blanket VNext, directory or blockquote exclusion is insufficient. Retiring an applied proposal keeps its incoming anchor on an application receipt and its complete pre-application card at an immutable revision.
-````````````
-
-**Acceptance:** exact source-region match and inverse; complete proposed unit appears once in the intended receiving body; all unrelated bytes, claim levels and frozen sources remain exact. Check source/receiver meanings, route targets and incoming anchors, then public readback and the owning review/queue receipt.
-
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L384) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Unit 7 — Put substantive promotion before routing cleanup
 
-**Source:** `DOCUMENT_CONTROL.md` · current blob `984ba6c35cc161c57c757faf0a98295548b7fe40` · line 125, bytes 16321–16474 at the pinned source cut. **Expected impact:** High; **risk:** Low; **effort:** Medium.
-
-**Why:** Make mature content available in the actual corpus rather than hide a living proposal behind a replacement hyperlink.
-
-**Dependencies and decision:** Named wave GO and current source/receiver validation
-
-**Texto antes — complete current unit**
-
-````````````text
-- **Wave 3 — approved corrections:** amend only confirmed incompatible mutable canonical links and ownership ambiguities, in small evidence-backed PRs.
-````````````
-
-**Texto después — complete proposed unit**
-
-````````````text
-- **Wave 3 — promotion and approved corrections:** incorporate accepted VNext blocks into the proper maintained sources, reconcile their receivers, retire applied pending cards with anchored historical receipts, and then amend confirmed incompatible mutable canonical review links in small evidence-backed PRs. Preserve frozen source editions and keep unresolved material assigned to a concrete decision or research task.
-````````````
-
-**Acceptance:** exact source-region match and inverse; complete proposed unit appears once in the intended receiving body; all unrelated bytes, claim levels and frozen sources remain exact. Check source/receiver meanings, route targets and incoming anchors, then public readback and the owning review/queue receipt.
-
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L407) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Unit 8 — Promote Requirements CAND-R1–R3 into the working successor
 
@@ -468,37 +411,7 @@ These are reading clarifications of the existing S/T/H system in this maintained
 
 #### Unit 9 — Promote the two-clock and human-output clarifications into 04
 
-**Source:** `research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md` · current blob `30e492c671efed802f7b881ed67e9f4dcd4bb079` · line 1869, bytes 92745–92852 at the pinned source cut. **Expected impact:** High; **risk:** Medium; **effort:** Medium.
-
-**Why:** Expose the useful generic handoff guidance in the programme-independent current reader while preserving frozen predecessors.
-
-**Dependencies and decision:** Named wave GO and current source/receiver validation
-
-**Material selected from VNext:**
-
-- `research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md` — 6. Semantic/qualification validity window versus response window
-- `research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md` — 7. Human-review outputs under the general handoff discipline
-
-**Texto antes — complete current unit**
-
-````````````text
-The controlled/repaired v0.4 source blobs remain preserved separately for historical/freeze reconstruction.
-````````````
-
-**Texto después — complete proposed unit**
-
-````````````text
-The controlled/repaired v0.4 source blobs remain preserved separately for historical/freeze reconstruction.
-
-## Qualified timing and human-review handoff — maintained reading
-
-**Two clocks.** A qualification validity window states when its evidence, authority, policy, configuration and assumptions remain applicable. A response window states when an intervention can still affect the outcome. Preserve both when material; a valid result may arrive too late to help, and remaining response time does not make a stale result applicable. An epistemic decision to continue, stop, redirect or corroborate is distinct from permission for operational intervention.
-
-**Human-produced results.** IF-S6/EHD reading keeps the review decision/result, assurance in the received review event, capacity qualification and inherited residual distinct. Authentication or an authorized actor does not erase those evidence questions. Use the lightest categorical or structured qualifiers that preserve the material distinction; assurance in a particular review event is not a general score of a person's competence. This clarification adds no mandatory EHD-kernel field.
-````````````
-
-**Acceptance:** exact source-region match and inverse; complete proposed unit appears once in the intended receiving body; all unrelated bytes, claim levels and frozen sources remain exact. Check source/receiver meanings, route targets and incoming anchors, then public readback and the owning review/queue receipt.
-
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L469) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Unit 10 — Promote the dated UC-6/H1 evidence distinctions into 05A
 
@@ -1006,70 +919,7 @@ The controlled Google Drive revision anchors above continue to identify their ow
 
 #### Unit 26 — Publish one uniquely identifiable documentation check
 
-**Source:** `.github/workflows/document-integrity.yml` · current blob `cabf2e08b417d9d05e134604aa1ca10cc93a4e04` · line 1, bytes 0–648 at the pinned source cut. **Expected impact:** High; **risk:** Low; **effort:** Medium.
-
-**Why:** The current shared verify name is ambiguous. Name this existing job explicitly and retain its PR/manual triggers, architecture and presentation checks.
-
-**Dependencies and decision:** This naming pair does not cure the four inherited quote reports. Implement/test the exact contextual dispositions and policy extension before enabling it as a required successful check.
-
-**Texto antes — complete current unit**
-
-````````````text
-name: Documentation integrity
-
-# Intentionally not triggered on every push.
-# This repository is a high-churn research corpus; running the broad link checker
-# on each documentation commit created repeated false-positive notification floods.
-# Keep the check available for controlled review and pull requests.
-on:
-  workflow_dispatch:
-  pull_request:
-
-jobs:
-  verify:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Check links, architecture sections and presentations
-        run: python scripts/check_document_integrity.py
-
-````````````
-
-**Texto después — complete proposed unit**
-
-````````````text
-name: Documentation integrity
-
-# Intentionally not triggered on every push.
-# This repository is a high-churn research corpus; running the broad link checker
-# on each documentation commit created repeated false-positive notification floods.
-# Keep the check available for controlled review and pull requests.
-on:
-  workflow_dispatch:
-  pull_request:
-
-permissions:
-  contents: read
-
-jobs:
-  verify:
-    name: Document control verification
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Check links, architecture sections and presentations
-        run: python scripts/check_document_integrity.py
-
-````````````
-
-**Acceptance:** exact source-region match and inverse; complete proposed unit appears once in the intended receiving body; all unrelated bytes, claim levels and frozen sources remain exact. Check source/receiver meanings, route targets and incoming anchors, then public readback and the owning review/queue receipt.
-
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L1007) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### New-file candidate — `governance/DOCUMENT_REGISTRY.yml`
 
@@ -1394,7 +1244,7 @@ The plan distinguishes publication, incorporation and evidence work. No proposed
 
 | Wave | Exact units / deliverable | Expected benefit | Risk / effort | Required decision |
 |---|---|---|---|---|
-| First substantive/readability wave |2–7,9,41: six operative-control refinements, two 04 blocks and seven 05A blocks | High: clear promotion outcomes and usable timing/source/interface readings | Low–Medium / Medium | Named eight-unit GO; preserve the 19 September snapshot and dated later evidence |
+| First control and readability wave |2,6,7, then38–40;9 is a separate explanatory promotion,41 a separate dated source/interface packet | High for2/6/7 and9; Medium for38–40; High for41 | Low for2/6/7/38–40; Medium for9/41 / Medium overall | Select named units. Revalidate current operative control spans; apply9 withA2-09a/b reception and41 withA2-09c reception; the three Requirements blocks remain in their own identity packet |
 | Requirements content and identity |8,11–17,27–28, plus the already proposed dependent registry record | High: one maintained Requirements reading with all seven identity/status notices consistent | High / Medium | Accept the complete ten-unit packet and source/consumer identity together; no isolated header promotion |
 | Review identities and first-reader state |31–40 | High for edition ownership; Medium for three opening/remnant repairs | Medium for 31–37; Low for 38–40 / Medium | Select the seven active continuations; preserve retained editions, applied histories and working anchors |
 | Case-reading precision |30; E145R/E146R are separate external choices | High: dated follow-up and current official-entry/PR provenance | Medium internally; Low externally / Medium | Contributions 30 only on its GO; official maintainer/PR-owner action is separate |
@@ -2716,198 +2566,27 @@ The 12–13 October source discussion records a proposed, separately scoped CDA/
 
 #### Action unit 38 — Align the first-reader status in 01A_A01_VNext.md
 
-**Source / location:** [01A_A01_VNext.md](research/ecosystem-awareness/baseline/01A_A01_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `7fd853b7dfa9e8a951dc79106be1da0d76fd1669`, line 3, byte interval [83, 197). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The old opening says the editorial reception is only proposed even though the later receipt and current sources show incorporation. State that distinction once at the entrance.
-
-**Dependencies and acceptance:** Named wave GO; preserve unrelated bytes; owning review receipt after application. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
-
-**Text before — complete current unit**
-
-````````````````text
-**24 October 2026 · Reviewer: Codex (AI) · Status: proposal/research pending evidence, not canonical adoption.**
-````````````````
-
-**Text after — complete proposed unit**
-
-````````````````text
-**Review status — 25 October 2026.** FH-C and FH-E are incorporated as canonical research hypotheses under the24October decision. Causal dominance and computational savings remain research questions. Reviewer: Codex (AI).
-````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L2717) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Action unit 39 — Align the first-reader status in 02A_VNext.md
 
-**Source / location:** [02A_VNext.md](research/ecosystem-awareness/baseline/02A_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `009f4debfac1be612a0dc4cc088eeb109078a68d`, line 3, byte interval [63, 162). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The old opening says the editorial reception is only proposed even though the later receipt and current sources show incorporation. State that distinction once at the entrance.
-
-**Dependencies and acceptance:** Named wave GO; preserve unrelated bytes; owning review receipt after application. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
-
-**Text before — complete current unit**
-
-````````````````text
-**24 October 2026 · Reviewer: Codex (AI) · Preliminary cross-document reception, proposed only.**
-````````````````
-
-**Text after — complete proposed unit**
-
-````````````````text
-**Review status — 25 October 2026.** The24October hypothesis cross-reference and earlier proof-attribution correction are incorporated. This source-owned review preserves their histories and the remaining research questions. Reviewer: Codex (AI).
-````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L2737) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Action unit 40 — Retire the stranded applied 61 heading fragment from the Gradient review
 
-**Source / location:** [01_GRADIENT_VNext.md](architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `9f3f17033a054f73dfb7aa133fa4690ba0303882`, line 57, byte interval [7739, 8635). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** An obsolete duplicated heading and orphaned literal block remained below an applied receipt. Keep the application route and remove only this already-applied proposal remnant.
-
-**Dependencies and acceptance:** Named wave GO; preserve unrelated bytes; owning review receipt after application. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
-
-**Text before — complete current unit**
-
-````````````````text
-### D — structural / capability residual### D — structural / capability residual
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-### D — structural / capability residual
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Decisión de Iván y control de anclas, como56 sin unificar fuentes. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
-````````````````
-
-**Text after — complete proposed unit**
-
-````````````````text
-<a id="d--structural--capability-residual-d--structural--capability-residual"></a>
-
-**Change61 is incorporated.** The current source has one residual-D heading. The complete old/new card is retained in the identified Git predecessor above; it is not pending work.
-````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L2757) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Action unit 41 — Receive the dated source-state evidence and the scoped EA-only interface offer
 
-**Source / location:** [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md](research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5`, line 165, byte interval [22664, 23014). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** Promote four useful architectural reading blocks already developed in 05 Ideal/05A without copying the entire subscriber catalogue or changing a frozen contract. Receive the earlier three evidence blocks in the same source addition.
-
-**Dependencies and acceptance:** This is the selected replacement for old unit 10, never apply both. Check 03/04/01J native ownership and keep the dated 21 October evidence distinct from later H0–H6 protocol revisions.. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
-
-**Text before — complete current unit**
-
-````````````````text
-This is less than the ideal 05 contract, but it is the most complete profile currently supportable without claiming FG-TIDA adoption, inventing absent fields or converting a testbed into a control plane. It preserves a clear path from public discussion to reviewed adapters, fixtures and conformance evidence while keeping later extension reversible.
-````````````````
-
-**Text after — complete proposed unit**
-
-````````````````text
-This is less than the ideal 05 contract, but it is the most complete profile currently supportable without claiming FG-TIDA adoption, inventing absent fields or converting a testbed into a control plane. It preserves a clear path from public discussion to reviewed adapters, fixtures and conformance evidence while keeping later extension reversible.
-
-## Source-state reception — 21 October 2026
-
-This later reception preserves the 19 September bridge as its dated source snapshot. It adds three qualified reading points from the public source record reviewed on 21 October, without changing the ideal 05 contracts.
-
-**UC-6 Stage-0 reference.** [Nelson's UC6_Stage0_Theme13_v0.4.1-r1 report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841) describes reference assertions, deliberately corrupted applicability controls and offline replay. Its demonstrated claim remains that bounded reference/mapping work; authority calculation, measured response-window performance and executed cross-organizational intervention are separate investigations.
-
-**H1 prospective handoff.** The [H1 protocol proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6188764689) specifies four prospective cases: an unchanged applicable finding; material amendment before action; an irrelevant change that preserves legitimate work; and acknowledgement without independent effect readback. These are proposed observations for a future mapped investigation. Preserve source meaning, local authority, decision, acknowledgement, attempted action, effect and recovery as separate records.
-
-**Identity and current applicability.** The [proposed receiver-visible record fields](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6271168964) and [author's executable-diagnostic report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6279011475) are candidate record/test material. Matching dispatch and receiver-used digests can support identity at those declared observation points. Latest decision-applicable state at action time additionally needs a source-state/freshness witness covering relevant changes, or a bounded NOT_ESTABLISHED qualification. The contributor-reported field/token checks do not establish that stronger proposition.
-
-### EA-only interface offer — reception of the 15 October design
-
-**Select the semantic output for the receiving question.** A receiver may need EA.F2 pathway/window qualification, EA.F3 local-state qualification, EA.F4 external-evidence qualification or a composed EA.F5/F6/F8 conclusion. The selected route identifies which result was actually produced and preserves source-native findings and material unknowns.
-
-**Use the existing exchange surface where useful.** T13.F1 in the proposed signalling configuration can carry source findings and qualified EA publications. It is distinct from EA.F1–F9; direct handoffs and passive acquisition remain valid routes. An EHD describes semantic handoff, IF-S11 supplies signalling capability and publish/subscribe is an implementation choice.
-
-**Keep EA qualification and response ownership visible.** EA can identify a changed reliance basis, insufficiency, a narrowly affected decision or a contextual opportunity to reconsider. A population measurement, source-native verdict, qualified RA regime movement and an authorized MSCA/ACC repositioning retain their respective owners. The proposed T13.F3 response-coordination output is not specified by this EA-only offer.
-
-**Reuse one assessment through qualified recipient projections.** Preserve provenance, source lineage, scope, temporal/state versions, dependencies, coverage, unknowns and recipient disclosure limits. Forwarded copies of one source are not independent corroboration. The cross-Theme catalogue is an offered design; its dated conversation record and each accepted bilateral profile determine what is actually available.
-````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L2788) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 #### Action unit 42 — Prepare exact source-quotation resolution in the existing checker
 
-**Source / location:** [check_document_integrity.py](scripts/check_document_integrity.py); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 44, byte interval [1667, 1706). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** Bind each of the four inherited source-relative quotation reports to its exact review path, full line digest, literal href and actual receiving file. Altered or newly live references receive no blanket exemption.
-
-**Dependencies and acceptance:** Code-owner review; both checker units 42/43 together; sixteen focused tests and whole-corpus route differential; full role/inverse safeguards remain a separate implementation packet.. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
-
-**Text before — complete current unit**
-
-````````````````text
-def navigation_text(body: str) -> str:
-
-````````````````
-
-**Text after — complete proposed unit**
-
-````````````````text
-# Exact historical source quotations; keep their literal text and check the
-# identified receiving target. Owner review is required to change this table.
-SOURCE_QUOTATION_TARGETS = {
-    ('research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'fcd66dc6595d3a2f0d725cb6207c8c701b013ca32c9511ceae98e3a408ee2353', './PUBLICATION_MANIFEST.json'): 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json',
-    ('research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'c638c60904273e1f658f67e86c96268266740ab317f8589b8fc4ef6584849326', './PUBLICATION_MANIFEST.json'): 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json',
-    ('research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md', '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md'): 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md',
-    ('research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md', '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md'): 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md',
-}
-
-
-def documentation_link_records(source: Path, body: str):
-    """Yield live hrefs and only exactly authenticated quote resolutions."""
-    import hashlib
-    visible = navigation_text(body)
-    relative = source.relative_to(ROOT).as_posix()
-    matches = list(MARKDOWN_LINK.finditer(visible)) + list(HTML_LINK.finditer(visible))
-    for match in matches:
-        start = visible.rfind("\n", 0, match.start()) + 1
-        end = visible.find("\n", match.end())
-        if end < 0:
-            end = len(visible)
-        line = visible[start:end].rstrip("\r")
-        raw = match.group(1)
-        key = (relative, hashlib.sha256(line.encode("utf-8")).hexdigest(), raw)
-        yield raw, SOURCE_QUOTATION_TARGETS.get(key)
-
-
-def navigation_text(body: str) -> str:
-
-````````````````
+**Superseded and resolved — 25 October 2026.** The unapplied line-only candidate is replaced by implemented A2-07/08. The [complete original proposal](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L2828) remains preserved. Use the current checker; this earlier candidate is not executable pending work.
 
 #### Action unit 43 — Use exact quotation receivers while retaining ordinary missing-route checks
 
-**Source / location:** [check_document_integrity.py](scripts/check_document_integrity.py); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 76, byte interval [3038, 3550). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** The four historic links are checked against identified receiver files rather than silently ignored; every other link keeps the existing route check. Architecture sections, required references and presentations are untouched.
-
-**Dependencies and acceptance:** Unit 42 and the focused quote/live-link tests; authoritative owner review of the checker change; do not activate a required check before actor and native-gate acceptance.. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
-
-**Text before — complete current unit**
-
-````````````````text
-        for raw in MARKDOWN_LINK.findall(navigation_text(body)) + HTML_LINK.findall(navigation_text(body)):
-            target = raw.split(" ")[0].strip("<>")
-            if not target or target.startswith(EXTERNAL):
-                continue
-            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
-            checked_links += 1
-            if not (source.parent / route).resolve().exists():
-                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
-````````````````
-
-**Text after — complete proposed unit**
-
-````````````````text
-        for raw, quoted_target in documentation_link_records(source, body):
-            target = raw.split(" ")[0].strip("<>")
-            if not target or target.startswith(EXTERNAL):
-                continue
-            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
-            checked_links += 1
-            resolved = (ROOT / quoted_target) if quoted_target else (source.parent / route).resolve()
-            if not resolved.exists():
-                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
-````````````````
+**Superseded and resolved — 25 October 2026.** The unapplied line-only candidate is replaced by implemented A2-07/08. The [complete original proposal](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L2877) remains preserved. Use the current checker; this earlier candidate is not executable pending work.
 
 #### Complete replacement registry candidate — still not installed
 
@@ -4019,16 +3698,16 @@ All 48 original files, including the complete submitted S6, are preserved byte f
 
 ### 14.16 Practical enforcement sequence
 
-1. **Establish the declared identities.** Receive the 75 source/review bindings and seven retained-edition decisions in the complete proposed 72 record registry above; preserve ordered 03/05/UC03 parts, the frozen requirement source, benchmark semantic alias and EA approved/observed discrepancy. The complete seed is structurally validated but remains a candidate, not an installed registry or a source of authority.
+1. **Establish the declared identities.** Receive the 75 source/review bindings and seven retained-edition decisions in the complete proposed 72 record registry above; preserve ordered 03/05/UC03 parts, the frozen requirement source, benchmark semantic alias and EA approved/observed discrepancy. The complete seed is structurally validated but remains a candidate, not an installed registry or a source of authority. The 61 source-under-review records are provisional identity bindings, not an accepted documentary role. Before a role-dependent wave, classify every changed source and material receiver as canonical, contextual, evidence, historical or explicitly unresolved, and bind lifecycle/protection separately to the applicable source decision or freeze. In particular, ordered 03/05 parts and the frozen C3 fixture need their own supported protection interpretation. Unchanged legacy unknowns may remain reported; a changed unknown cannot pass as exempt. Test against trusted pre-change mappings; a candidate cannot promote its own role or accept its observed blob.
 2. **Implement the bounded checker packet 42/43.** Its four exceptions bind an exact review path, full quotation-line digest, literal href and real receiving file. The link is checked at that receiver; changed quotations and new live links get no exemption. Preserve the eight architecture minima, four routes and two deck checks.
-3. **Complete the exact-wave and role guards in the same checker.** For a named trusted owner decision, bind base/head, source blobs, path/mode set, exact old offsets/after blocks, ordered parts, frozen/append-only protection and source/review roles. Reject unrelated bytes, absent old units, duplicate application, a second active companion, a VNext-of-VNext, foreign semantic-review router targets and retired fragments without an authenticated receiver. The candidate registry cannot approve its own role/protection change. Each function-level pair and executable adverse fixture is required before this guard is called implemented. This is code work specified by the plan, not a claim that prose activated it.
+3. **Complete the exact-wave and role guards in the same checker.** For a named trusted owner decision, bind base/head, source blobs, path/mode set, exact old offsets/after blocks, ordered parts, frozen/append-only protection and source/review roles. Reject unrelated bytes, absent old units, duplicate application, a second active companion, a VNext-of-VNext, foreign semantic-review router targets and retired fragments without an authenticated receiver. The candidate registry cannot approve its own role/protection change. Each function-level pair and executable adverse fixture is required before this guard is called implemented. This is code work specified by the plan, not a claim that prose activated it. Deliver the complete function-level patch and adverse fixtures for the existing verifier before implementation GO: trusted base/head and owner-decision witness as inputs; changed paths/modes, exact preimages/offsets, permitted replacements/additions, receiving companions and incoming anchors as the checked unit; explicit applied/partial/rejected/unclassified results as outputs. Validate the approved wave as one dependency graph, including each affected review receipt. Reject stale base/head, altered old text, an extra unrelated byte, repeated application and omitted receiver. Until that code and native actor tests are published and run, these are implementation requirements, not an installed enforcement mechanism.
 4. **Exercise the 24 native/semantic acceptance cases in 14.7.** Run the trusted base verifier against candidate data, including changed verifier/registry/workflow attempts, exact source quotes and split-source URLs. The focused 16 quote tests prepared with 42/43 are a different test set and do not stand in for these 24 acceptance cases.
 5. **Verify the real author/reviewer/check path, then activate once.** A distinct limited automation author, human owner approval, exact check context and GitHubActions publisher must work before CODEOWNERS/required-review activation. Use the already proposed unique workflow and one native branch-protection configuration. Owner/admin bypass is not an automation credential. Confirm stale approval, wrong publisher, skipped/tampered check, direct/force/delete and legitimate recovery behaviour.
 6. **Receive each applied outcome.** Public raw readback and inverse evidence close only the chosen units; update their existing VNext and 150-entry ledger. Research/evidence tasks retain their real state. Do not let a missing application_status or an obsolete pending sentence resurrect incorporated work.
 
 ### 14.17 Completion record for this planning request
 
-All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition.
+All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition. Completion here means disposition of the 75 review candidates, not executable implementation of every future guard. The 72-record registry candidate still uses source-under-review for 61 records; those roles and their applicable protection remain to be adjudicated before role-dependent enforcement. The 42 literal preimages matched the cited cut; seven DOCUMENT_CONTROL whole-file identities have since advanced through plan-only appends. An executor binds the actual wave base/head and operative spans rather than treating a dated self-quotation or a planned registry field as authority.
 
 This finishes consolidation of the action/promotion plan. Applying the chosen waves, demonstrating native enforcement and obtaining scientific evidence are the resulting work; none is silently treated as completed by this planning publication.
 
@@ -4080,466 +3759,119 @@ All before units below are complete affected spans from75f5b6b; line/byte ranges
 <details>
 <summary>A2-01a — Give the reader one current action-plan entry</summary>
 
-**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 139, bytes[17588,18049). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Low. **Reason:** The earlier eight-block selection and later twelve-block selection are both preserved, but a reader needs one explicit current decision route.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes. The [action-plan 2.0 reassessment and decision sheet](#15-action-plan-20--reassessment-and-next-waves) is the current planning entry; sections14.2–14.3 retain the earlier selection history, while14.12 supplies the expanded candidate population. Operative policy sections1–13 change only through accepted source pairs.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4080) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-01b — State exactly which part of plan consolidation is complete</summary>
 
-**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 4031, bytes[383435,384283). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Low. **Reason:** The coverage and pair counts are supported; classification and native enforcement are not completed by those counts.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition. Completion here means disposition of the 75 review candidates, not executable implementation of every future guard. The 72-record registry candidate still uses source-under-review for 61 records; those roles and their applicable protection remain to be adjudicated before role-dependent enforcement. The 42 literal preimages matched the cited cut; seven DOCUMENT_CONTROL whole-file identities have since advanced through plan-only appends. An executor binds the actual wave base/head and operative spans rather than treating a dated self-quotation or a planned registry field as authority.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4103) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-02a — Split the first wave by actual risk and receiving work</summary>
 
-**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 1397, bytes[173887,174192). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Low. **Reason:** The previous eight-unit wave mixed routine control changes with nine substantive reading blocks. The new order offers three existing high-impact/low-risk clauses first, followed by the independently scoped promotions. Unit1 and3–5 remain their own medium-risk decisions; they are not silently accepted by this ordering.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-| First substantive/readability wave |2–7,9,41: six operative-control refinements, two 04 blocks and seven 05A blocks | High: clear promotion outcomes and usable timing/source/interface readings | Low–Medium / Medium | Named eight-unit GO; preserve the 19 September snapshot and dated later evidence |
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-| First control and readability wave |2,6,7, then38–40;9 is a separate explanatory promotion,41 a separate dated source/interface packet | High for2/6/7 and9; Medium for38–40; High for41 | Low for2/6/7/38–40; Medium for9/41 / Medium overall | Select named units. Revalidate current operative control spans; apply9 withA2-09a/b reception and41 withA2-09c reception; the three Requirements blocks remain in their own identity packet |
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4126) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-02b — Rate the workflow change by its operational consequence</summary>
 
-**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 1009, bytes[127449,127675). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit26 changes the identity and permissions of a future required check. The textual change is short, but workflow/required-context compatibility warrants medium risk and code-owner review.
-
-**Dependencies / Iván decision:** Reclassification only; actual unit26 application still needs its named code/workflow GO.
-
-**Text before — complete affected unit**
-
-``````````````````text
-**Source:** `.github/workflows/document-integrity.yml` · current blob `cabf2e08b417d9d05e134604aa1ca10cc93a4e04` · line 1, bytes 0–648 at the pinned source cut. **Expected impact:** High; **risk:** Low; **effort:** Medium.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-**Source:** `.github/workflows/document-integrity.yml` · current blob `cabf2e08b417d9d05e134604aa1ca10cc93a4e04` · line 1, bytes 0–648 at the pinned source cut. **Expected impact:** High; **risk:** Medium; **effort:** Medium.
-``````````````````
+**Applied — 25 October 2026.** Workflow 26 was assessed at Medium operational risk and implemented with its named context; required-review/check enforcement is a later activation. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4149) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-03 — Finish role/protection adjudication where enforcement depends on it</summary>
 
-**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 4022, bytes[380773,381190). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Medium. **Reason:** The complete candidate identifies all review surfaces but61provisional roles cannot implement the policy distinction between canonical, contextual and frozen sources.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-1. **Establish the declared identities.** Receive the 75 source/review bindings and seven retained-edition decisions in the complete proposed 72 record registry above; preserve ordered 03/05/UC03 parts, the frozen requirement source, benchmark semantic alias and EA approved/observed discrepancy. The complete seed is structurally validated but remains a candidate, not an installed registry or a source of authority.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-1. **Establish the declared identities.** Receive the 75 source/review bindings and seven retained-edition decisions in the complete proposed 72 record registry above; preserve ordered 03/05/UC03 parts, the frozen requirement source, benchmark semantic alias and EA approved/observed discrepancy. The complete seed is structurally validated but remains a candidate, not an installed registry or a source of authority. The 61 source-under-review records are provisional identity bindings, not an accepted documentary role. Before a role-dependent wave, classify every changed source and material receiver as canonical, contextual, evidence, historical or explicitly unresolved, and bind lifecycle/protection separately to the applicable source decision or freeze. In particular, ordered 03/05 parts and the frozen C3 fixture need their own supported protection interpretation. Unchanged legacy unknowns may remain reported; a changed unknown cannot pass as exempt. Test against trusted pre-change mappings; a candidate cannot promote its own role or accept its observed blob.
-``````````````````
+**Applied — 25 October 2026.** The classification/protection requirement is adopted. Adjudication of the 61 provisional records remains a concrete implementation task; this receipt does not classify them by filename. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4172) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-04 — Turn the deferred exact-wave guard into a bounded implementation deliverable</summary>
 
-**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 4024, bytes[381522,382235). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Medium. **Reason:** Plan1correctly defers the larger guard, but its implementation boundary and required input/output packet should be explicit and testable.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-3. **Complete the exact-wave and role guards in the same checker.** For a named trusted owner decision, bind base/head, source blobs, path/mode set, exact old offsets/after blocks, ordered parts, frozen/append-only protection and source/review roles. Reject unrelated bytes, absent old units, duplicate application, a second active companion, a VNext-of-VNext, foreign semantic-review router targets and retired fragments without an authenticated receiver. The candidate registry cannot approve its own role/protection change. Each function-level pair and executable adverse fixture is required before this guard is called implemented. This is code work specified by the plan, not a claim that prose activated it.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-3. **Complete the exact-wave and role guards in the same checker.** For a named trusted owner decision, bind base/head, source blobs, path/mode set, exact old offsets/after blocks, ordered parts, frozen/append-only protection and source/review roles. Reject unrelated bytes, absent old units, duplicate application, a second active companion, a VNext-of-VNext, foreign semantic-review router targets and retired fragments without an authenticated receiver. The candidate registry cannot approve its own role/protection change. Each function-level pair and executable adverse fixture is required before this guard is called implemented. This is code work specified by the plan, not a claim that prose activated it. Deliver the complete function-level patch and adverse fixtures for the existing verifier before implementation GO: trusted base/head and owner-decision witness as inputs; changed paths/modes, exact preimages/offsets, permitted replacements/additions, receiving companions and incoming anchors as the checked unit; explicit applied/partial/rejected/unclassified results as outputs. Validate the approved wave as one dependency graph, including each affected review receipt. Reject stale base/head, altered old text, an extra unrelated byte, repeated application and omitted receiver. Until that code and native actor tests are published and run, these are implementation requirements, not an installed enforcement mechanism.
-``````````````````
+**Applied — 25 October 2026.** The exact-wave/role implementation specification is adopted. Its larger executable patch and native actor tests remain a separately gated deliverable. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4195) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-05 — Make test claims and cached evidence reproducible</summary>
 
-**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 262, bytes[41547,41831). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Medium. **Reason:** The private verification helper cached results by checker digest and counted simple inequality assertions as stale-input rejections. This narrows the claim and defines an adequate evidence key.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-Closure requires both a valid wave and representative rejected cases with actual actor, head, rule/check result and resulting branch state recorded. A textual configuration proposal, a local content check or one successful merge does not establish that a non-bypass actor was blocked.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-Closure requires both a valid wave and representative rejected cases with actual actor, head, rule/check result and resulting branch state recorded. A textual configuration proposal, a local content check or one successful merge does not establish that a non-bypass actor was blocked. Report literal-equality checks, byte-inverse simulations, rejected inputs from an actual validator, and native GitHub denials as separate results. The prior 42 stale-text assertions established inequality only; they did not run 42 rejection paths. A reused verification receipt must bind the complete candidate tree or all covered input blobs, parser/checker version, policy/registry and exception mappings, and the tested base/head. A checker-code digest alone cannot certify changed Markdown. If any bound input changes, rerun the affected assessment and its dependent relations; a focused candidate test is never native merge enforcement.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4218) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-06a — Restore evidenced leading digits in the dated audit</summary>
 
-**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 138, bytes[16034,16171). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-1. **First-audit baseline:** `21e200cd4c9a0558e4ae3669c55f7256c03a005a`, before policy consolidation; ,401 files and ,045 Markdown files.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-1. **First-audit baseline:** `21e200cd4c9a0558e4ae3669c55f7256c03a005a`, before policy consolidation; 2,401 files and 1,045 Markdown files.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4241) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-06b — Restore evidenced leading digits in the dated audit</summary>
 
-**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 139, bytes[16172,16479). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-2. **Second-audit source:** `b9499c34e8690acdc9a1d1b6f274895a94c4c4b9`; ,405 files, ,048 Markdown files and 103 files named exactly README.md. The consolidation adds four custody/control artifacts, changes seven control paths, and deletes no file. Both complete predecessor texts match their original blobs.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-2. **Second-audit source:** `b9499c34e8690acdc9a1d1b6f274895a94c4c4b9`; 2,405 files, 1,048 Markdown files and 103 files named exactly README.md. The consolidation adds four custody/control artifacts, changes seven control paths, and deletes no file. Both complete predecessor texts match their original blobs.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4264) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-06c — Restore evidenced leading digits in the dated audit</summary>
 
-**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 142, bytes[17013,17685). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-All ,048 Markdown files are parsed with **marked 17.0.5, GFM enabled**. Link/image tokens, reference-style links, HTML href/src, heading slugs and explicit IDs are checked separately; fenced/inline code is excluded from rendered navigation. Current same-repository main URLs resolve against the tree, as do relative paths and folder README fragments. Pinned historic and external URLs are a separate population: the repaired historical destinations are individually checked, while an exhaustive live external-link crawl is outside this assessment. First-literal line positions carry an explicit uniqueness flag; repeated literals are not assigned invented exact locations.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-All 1,048 Markdown files are parsed with **marked 17.0.5, GFM enabled**. Link/image tokens, reference-style links, HTML href/src, heading slugs and explicit IDs are checked separately; fenced/inline code is excluded from rendered navigation. Current same-repository main URLs resolve against the tree, as do relative paths and folder README fragments. Pinned historic and external URLs are a separate population: the repaired historical destinations are individually checked, while an exhaustive live external-link crawl is outside this assessment. First-literal line positions carry an explicit uniqueness flag; repeated literals are not assigned invented exact locations.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4287) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-06d — Restore evidenced leading digits in the dated audit</summary>
 
-**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 166, bytes[24868,25634). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-The original inventory reported,747 inline VNext links, of which,565 were in its working subset. A fresh **GFM-token recount of the same21e200 baseline** obtains,786/,600. The working difference is confined to three sources: EP README VNext226 versus227; 01K VNext24 versus10; R01 oracle README VNext39 versus17. The legacy difference is four occurrences. Both methods identify176 working source files. Fifteen reference-style VNext occurrences form a separately excluded population. The difference is a parser/denominator reconciliation, not35 discovered policy violations. The first extractor’s exact implementation was not in its public artifact, so its old scalar counts are preserved as reported rather than rewritten or falsely certified as fully reproduced.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-The original inventory reported 2,747 inline VNext links, of which1,565 were in its working subset. A fresh **GFM-token recount of the same21e200 baseline** obtains 2,786/1,600. The working difference is confined to three sources: EP README VNext226 versus227; 01K VNext24 versus10; R01 oracle README VNext39 versus17. The legacy difference is four occurrences. Both methods identify176 working source files. Fifteen reference-style VNext occurrences form a separately excluded population. The difference is a parser/denominator reconciliation, not35 discovered policy violations. The first extractor’s exact implementation was not in its public artifact, so its old scalar counts are preserved as reported rather than rewritten or falsely certified as fully reproduced.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4310) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-06e — Restore evidenced leading digits in the dated audit</summary>
 
-**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 170, bytes[26088,26524). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
-
-**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
-
-**Text before — complete affected unit**
-
-``````````````````text
-At the second source cut: **,788 inline VNext occurrences,,596 working,,192 legacy;15 reference-style occurrences;177 working source files;74 working filename-hinted VNext files plus the existing benchmark alias.** Local working occurrences:,166; distinct local source→target pairs:666; missing local VNext target paths:zero. These are measured graph populations, not75 approved logical pairs or proof of completed substantive passes.
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-At the second source cut: **2,788 inline VNext occurrences; 1,596 working; 1,192 legacy;15 reference-style occurrences;177 working source files;74 working filename-hinted VNext files plus the existing benchmark alias.** Local working occurrences: 1,166; distinct local source→target pairs:666; missing local VNext target paths:zero. These are measured graph populations, not75 approved logical pairs or proof of completed substantive passes.
-``````````````````
+**Applied — 25 October 2026.** The complete accepted before/after unit is incorporated in its identified receiving source. Unrelated audit arguments, sources and remaining decisions are retained. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4333) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-07 — Authenticate the complete historical quotation context</summary>
 
-**Source:** [scripts/check_document_integrity.py](scripts/check_document_integrity.py) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 44, bytes[1667,1706). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** The original42candidate accepts an exact line copied into a new live section of the same file. Reproduced for all four configured links. Bind the full section, raw-text digest, unique occurrence and exact line count instead.
-
-**Dependencies / Iván decision:** A2-08; focused duplicate/context/receiver tests; code-owner GO; future wider role/native safeguards remain separate. **Supersedes:** Unapplied action unit42; preserve its historical proposal.
-
-**Text before — complete affected unit**
-
-``````````````````text
-def navigation_text(body: str) -> str:
-
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-# Owner-reviewed historical source quotations. Contexts are raw UTF-8 text;
-# match their complete section and exact line counts, never a whole directory.
-SOURCE_QUOTATION_CONTEXTS = (
-    {'source': 'research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'context': "# First scoped judgement: input-contract custody status\r\n\r\nSealed 2026-10-14T21:19:32.094094+00:00. Phase A; whole source/receiver cohort incomplete.\r\n\r\nThe current Markdown contains dated semantic amendments. The preserved approved Word and original Markdown retain the previous contract, so the current literal unchanged-reproduction claim requires clarification. The complete original body text is accounted comparatively, but Word rendering remains unread. This is a custody correction, not reversal of the current B/C amendment.\r\n\r\nCurrent location: research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md; blob de6c58c62ad70b3182085333106b41b63a9fef18. Each before passage occurs exactly once.\r\n\r\nComplete current before, line 1:\r\n\r\n```html\r\n<!-- Approved v0.4 Word body reproduced below in document order. -->\r\n```\r\n\r\nComplete proposed after:\r\n\r\n```html\r\n<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->\r\n```\r\n\r\nComplete current before, line 17:\r\n\r\n**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.\r\n\r\nComplete proposed after:\r\n\r\n**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.\r\n\r\nImpact Medium; risk Low; effort Low. Preserve original assets and the dated manifest unchanged. Benefit: honest authentication and navigation between original publication and current amendments. Cost: two local status edits; no regeneration. Acceptance: unique literal matches, original hashes preserved, current amendment/field IDs/links preserved, no execution or incompatibility-closure claim. Ivan’s named wave/passages GO is required; nothing applied.\r\n\r\nThe JSON freezes exact identities, supporting original/current clauses and contemporaneous reading/exposure records. A later A23 audit execution-record exposure is disclosed there; it contributes no input-contract evidence.\r\n\n\n</details>\n\n\n## Unified restoration candidates 15 October 2026\n\nThe [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.\n\n\n### Existing candidate 101\n\nCurrent Markdown itself contains explicit dated semantic amendments; unchanged-reproduction comment is misleading. Preserve Word/graphics/manifest bytes.\n\n**Impact / risk / effort:** Bajo / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply\n\n**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 102; publish the two custody descriptions consistently.\n\n**Text before — complete current passage (1).**\n\n``````text\n<!-- Approved v0.4 Word body reproduced below in document order. -->\n``````\n\n**Text after — complete proposal.**\n\n``````text\n<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->\n``````\n\nThis is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).\n\n\n### Existing candidate 102\n\nCurrent dated amendment and historical manifest require an honest original-vs-current custody explanation; no reversal of B/C correction or rendered-parity assertion.\n\n**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply\n\n**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 101; publish the two custody descriptions consistently.\n\n**Text before — complete current passage (1).**\n\n``````text\n**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.\n``````\n\n**Text after — complete proposal.**\n\n``````text\n**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.\n``````\n\nThis is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).\n\n\n## Literal plan check 15 October 2026\n\nReview by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.\n\n**Pairs checked here: 101,102.** Both complete old/new publication descriptions match the source. Their joint proposed meaning distinguishes the preserved Word/manifest/diagram edition from dated living Markdown amendments. Neither pair changes those binaries or recalculates the historical manifest. Both remain one companion decision after edition/return-route reconciliation.\n\nComplete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.\n\n\n### Application 101 — 15 October 2026\n\n**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md`; resulting source blob `1bbc76f673d79e3b5bb52117aeeb3d68af0d5387`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.\n\n\n### Application 102 — 15 October 2026\n\n**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md`; resulting source blob `407a009999326cd051cb26e003ad78f8cf8e3162`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.\n\n\n**Verified application commits — 06_attribution_and_editions:** [101](https://github.com/dakleyer/structural-awareness-contributions/commit/b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c), [102](https://github.com/dakleyer/structural-awareness-contributions/commit/29c1d0da83c333348787944540ca99462515c03b).\n\n\n## Owner authorised application complete 15 October 2026\n\n**Applied and verified:** 101, 102. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.\n\nThe source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).\n\n\n## Execution reaudit 15 October 2026\n\nRe-read101/102 with the current semantic amendment and original publication description. The two caption changes do not replace the original Word, diagram, frozen Markdown or manifest, and do not promote v0.4 over current integration ownership. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).\n\n\n## Historical interface reception — 15 October 2026\n\nReviewer A read the complete 1,869-line 04 v0.5 body and compared all three current v0.4 bodies line by line, reading their differing blocks. All 78 historical units received clause-specific judgments. Renaming S1–S13 to IF-S1–IF-S13 preserves thirteen interface families, O1–O6 and F1–F9 while separating interface labels from requirements and DAOS challenges. Identity, authority, attestation, appraisal, capacity, privacy, records, population and response retain their owners. Theme numbers remain in v0.4 and 05/05A; their removal from the general body does not remove those functions.\n\nThe fourth EHD element survives: current line 99 accepts a source-bound reference only if the receiving profile can resolve and interpret it at decision time. An unavailable, stale or insufficiently bound reference retains UNKNOWN and cannot support uses needing the value. The line 9 notice still leaves H06 open for input contracts and EHD/F9 uses; historical reception does not settle that substantive tension.\n\nCurrent A/B/C/D corrections retain result/basis, characterised reserve, uncharacterised exploration and effective evaluation barrier, together with provenance/process/question/scope/time. Earlier definitions remain lineage, without automatic theorem or empirical transfer. ICR conditions are retained and strengthened: maintainer-declared materiality is identified; route and aggregations are declared before execution; later-discovered aggregation is a mapping defect. A distinct mapping reviewer and a material objection still block sufficiency. Nondeterministic tests retain distribution/dispersion; the original three classes remain alongside adversarial assertion. A simulated boundary is not independent interoperability.\n\nCompeting intents retain the same decision/resource-time binding and owner precedence. Continuity/re-entry remains conditional and creates no universal hierarchy, O7, IF-S14 or actuation authority. IF-S2 at line 758 directly says EA consumes authority and neither originates grants nor decides legal standing, reinforcing the Charter receiver chain. No source restoration follows. The [03 owner](03_FUNCTIONAL_VNext.md#historical-functional-architecture-reception--15-october-2026) and [Foundation owner](01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026) record both relationships.\n\n\n\n## Historical interface custody and semantic reception — 15 October 2026\n\nD read the complete 1,038-line current input contract, its 176 rows across 19 families and all 58 changed historical units. The original field IDs and row literals remain. Original Word, SVG, PNG and historical Markdown identities match the historical manifest, while the amended current text keeps its dated semantic amendment. The two objects answer different identity questions; the historical manifest is not recast as a hash for the amended current body.\n\nThe B/C corrections and custody descriptions are legitimate receiving changes. No field, option or explanatory reason from the examined unit history needs blind restoration. This retention judgement does not admit every classification or close H06/F9, the stated A-exclusion question or O2. Those remain visible in their source contracts. No programme or result was executed or altered by this reading.\n\n\n## Historical contract and review reception — 15 October 2026\n\nB's completed prose-control reading confirms the distinction between generic 04 semantics and programme-specific 05/05A mappings. The current A_ref route keeps unavailable, stale and unbound values as UNKNOWN; H06 end-to-end reconciliation remains a real requirement. Retiring applied navigation/editorial dossiers does not settle that contract question or reactivate an older alternative.\n\nThe two visible ./PUBLICATION_MANIFEST.json strings inside the preserved 101/102 input-contract before/after material are literal source-relative context. Their named source is 04_INPUT_INTERFACE_CONTRACT; operative owner links reach the current contract 407a0099 and its manifest 3934ed2b. Both actual receivers were read. Rewriting the quoted URLs would falsify the complete old/proposed passages, so no such patch is proposed. The current input-contract semantics and 176-row conditional map retain their own review limits. The [baseline consolidation](./README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) records the cross-document decision.\n", 'context_sha256': 'fa2e925aa7cf32aca58cd030768be66d3cf254d704015492b47b196a0bf5b0bf', 'links': [{'line': '**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.', 'line_sha256': 'fcd66dc6595d3a2f0d725cb6207c8c701b013ca32c9511ceae98e3a408ee2353', 'href': './PUBLICATION_MANIFEST.json', 'receiver': 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json', 'expected_line_occurrences': 2}, {'line': '**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.', 'line_sha256': 'c638c60904273e1f658f67e86c96268266740ab317f8589b8fc4ef6584849326', 'href': './PUBLICATION_MANIFEST.json', 'receiver': 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json', 'expected_line_occurrences': 2}]},
-    {'source': 'research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md', 'context': '### Existing A22 qualification to retain\n\n> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).\n\nFor the quoted A22 qualification above, open [A13 findings](../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) and [A14 corrections and status](../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md). These links resolve from this review; the source-relative links inside the historical quotation are retained verbatim.\n\nThe actual simplified model carries the following complete inspected contract and P2/P3 definitions; it does not implement a derivation of conflict from records or the full inquiry graph/rank claimed by a stronger reading. The code was read, not executed.\n\n```python\n@dataclass(frozen=True)\nclass Inquiry:\n    """One shared unresolved object used by both P2 and P3."""\n    proposition: str\n    unresolved: bool\n    material_to_action: bool\n    cyclic_progress: bool\n    bounded_fallback: bool\n\n\n@dataclass\nclass Model:\n    records: Dict[str, Record]\n    used_records: FrozenSet[str]\n    asserted: FrozenSet[str]\n    explicit_unresolved: FrozenSet[str]\n    inquiry: Inquiry\n    executes: bool\n    grant_record: str\n    requalified_at_action: bool\n    counted_pairs: FrozenSet[Tuple[str, str]]\n\n    def record(self, name: str) -> Record:\n        return self.records[name]\n\n\ndef p2(m: Model) -> bool:\n    """The shared unresolved inquiry has finite progress and a bounded fallback."""\n    if not m.inquiry.unresolved:\n        return True\n    return (not m.inquiry.cyclic_progress) and m.inquiry.bounded_fallback\n\n\ndef p3(m: Model) -> bool:\n    """A material unresolved state is not promoted into execution."""\n    material_unresolved = m.inquiry.unresolved and m.inquiry.material_to_action\n    return not (material_unresolved and m.executes)\n\n\n\n```\n\n', 'context_sha256': 'ea87107ac484a8ee536ccc90f176834571bc99c467f08f5fba4ae6f9786cf536', 'links': [{'line': '> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).', 'line_sha256': '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', 'href': './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md', 'receiver': 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md', 'expected_line_occurrences': 1}, {'line': '> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).', 'line_sha256': '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', 'href': './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md', 'receiver': 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md', 'expected_line_occurrences': 1}]},
-)
-
-
-def documentation_link_records(source: Path, body: str):
-    """Resolve only unique complete quoted contexts; leave live links ordinary."""
-    import hashlib
-    visible = navigation_text(body)
-    relative = source.relative_to(ROOT).as_posix()
-    authorized = {}
-    lines = body.splitlines()
-    for record in SOURCE_QUOTATION_CONTEXTS:
-        if record["source"] != relative:
-            continue
-        context = record["context"]
-        if hashlib.sha256(context.encode("utf-8")).hexdigest() != record["context_sha256"]:
-            continue
-        if body.count(context) != 1:
-            continue
-        exposed = navigation_text(context)
-        if not exposed or visible.count(exposed) != 1:
-            continue
-        offset = visible.index(exposed)
-        for link in record["links"]:
-            line = link["line"]
-            if hashlib.sha256(line.encode("utf-8")).hexdigest() != link["line_sha256"]:
-                continue
-            if lines.count(line) != link["expected_line_occurrences"]:
-                continue
-            if exposed.count(line) != 1:
-                continue
-            at = offset + exposed.index(line)
-            key = (at, at + len(line), link["href"])
-            authorized[key] = link["receiver"]
-    matches = list(MARKDOWN_LINK.finditer(visible)) + list(HTML_LINK.finditer(visible))
-    for match in matches:
-        start = visible.rfind("\n", 0, match.start()) + 1
-        end = visible.find("\n", match.end())
-        if end < 0:
-            end = len(visible)
-        raw = match.group(1)
-        receiver = next((target for (a, b, href), target in authorized.items()
-                         if href == raw and a <= match.start() and match.end() <= b), None)
-        yield raw, receiver
-
-
-def navigation_text(body: str) -> str:
-
-``````````````````
+**Applied — 25 October 2026.** The context-bound quotation checker is implemented; copied/mutated contexts remain ordinary checked links. This is not the larger logical-role guard. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4356) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-08 — Preserve raw quotation bytes and check the actual receiving file</summary>
 
-**Source:** [scripts/check_document_integrity.py](scripts/check_document_integrity.py) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 75, bytes[2987,3550). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** Python universal-newline text reading would change the exact mixed-line-ending context. Read raw UTF-8 text for quotation authentication; all ordinary hrefs and receiver-existence checks remain active.
-
-**Dependencies / Iván decision:** A2-07 and actual missing-receiver recovery; complete inverse and existing architecture/presentation invariants. **Supersedes:** Unapplied action unit43; preserve its historical proposal.
-
-**Text before — complete affected unit**
-
-``````````````````text
-        body = source.read_text(encoding="utf-8")
-        for raw in MARKDOWN_LINK.findall(navigation_text(body)) + HTML_LINK.findall(navigation_text(body)):
-            target = raw.split(" ")[0].strip("<>")
-            if not target or target.startswith(EXTERNAL):
-                continue
-            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
-            checked_links += 1
-            if not (source.parent / route).resolve().exists():
-                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-        body = source.read_bytes().decode("utf-8")
-        for raw, quoted_target in documentation_link_records(source, body):
-            target = raw.split(" ")[0].strip("<>")
-            if not target or target.startswith(EXTERNAL):
-                continue
-            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
-            checked_links += 1
-            resolved = (ROOT / quoted_target) if quoted_target else (source.parent / route).resolve()
-            if not resolved.exists():
-                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
-``````````````````
+**Applied — 25 October 2026.** The context-bound quotation checker is implemented; copied/mutated contexts remain ordinary checked links. This is not the larger logical-role guard. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4431) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-09a — Receive the selected04promotion in its existing review</summary>
 
-**Source:** [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a7f5c37a722da35740ba1f96ecdbdef19274f436`, line 242, bytes[13961,14028). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit9has an exact source pair but its simultaneous owning-review reception was only an instruction. Prepare that receiving text before the incorporation wave.
-
-**Dependencies / Iván decision:** Apply only with or after verified unit9incorporation; receipt must not precede its source.
-
-**Text before — complete affected unit**
-
-``````````````````text
-## 6. Semantic/qualification validity window versus response window
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-## 6. Semantic/qualification validity window versus response window
-
-**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the two-clock explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
-``````````````````
+**Applied — 25 October 2026.** The owning-review reception is incorporated together with its maintained 04/05A source. Research evidence and unrelated pending proposals remain in the original review. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4471) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-09b — Receive the selected04promotion in its existing review</summary>
 
-**Source:** [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a7f5c37a722da35740ba1f96ecdbdef19274f436`, line 289, bytes[16325,16388). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit9has an exact source pair but its simultaneous owning-review reception was only an instruction. Prepare that receiving text before the incorporation wave.
-
-**Dependencies / Iván decision:** Apply only with or after verified unit9incorporation; receipt must not precede its source.
-
-**Text before — complete affected unit**
-
-``````````````````text
-## 7. Human-review outputs under the general handoff discipline
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-## 7. Human-review outputs under the general handoff discipline
-
-**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the human-review output explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
-``````````````````
+**Applied — 25 October 2026.** The owning-review reception is incorporated together with its maintained 04/05A source. Research evidence and unrelated pending proposals remain in the original review. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4496) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
 <details>
 <summary>A2-09c — Receive the selected05Areception in its existing review</summary>
 
-**Source:** [research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f15dc579c601d6109f7912faa53d3e485d25d209`, line 388, bytes[36285,36363). **State:** proposed; not applied.
-
-**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit41also needs a literal owning-review receipt. Keep its research/audit argument and explicitly retain later-version distinctions.
-
-**Dependencies / Iván decision:** Apply only with or after verified unit41incorporation; keep41separate from superseded10.
-
-**Text before — complete affected unit**
-
-``````````````````text
-### 2.15 Theme #13 — UC-6 Stage-0 and H1 receiver evidence (21 October 2026)
-``````````````````
-
-**Text after — complete proposed unit**
-
-``````````````````text
-### 2.15 Theme #13 — UC-6 Stage-0 and H1 receiver evidence (21 October 2026)
-
-**Incorporated reading.** The maintained [05A source](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md#source-state-reception--21-october-2026) receives the three dated evidence distinctions selected below, followed by the scoped EA-only interface offer. This review preserves the complete attributed records and the remaining 2.1–2.14 claims/profile questions. The 21 October four-case proposal retains its date; subsequent protocols retain their own source/version.
-``````````````````
+**Applied — 25 October 2026.** The owning-review reception is incorporated together with its maintained 04/05A source. Research evidence and unrelated pending proposals remain in the original review. The [complete pre-application card](https://github.com/dakleyer/structural-awareness-contributions/blob/f8ce4866b6dc61af822198e66e256ca08f08c307/DOCUMENT_CONTROL.md#L4521) remains at its immutable source revision. This item is removed from the pending queue; the Git revision/PR publishing this execution identifies its application.
 
 </details>
 
@@ -4562,3 +3894,34 @@ The150 ledger object spans were compared as raw bytes:134 are identical and the1
 
 
 **Publication and receiving-route verification:** the GFM differential over all 1,048 Markdown files finds zero newly broken paths/fragments, zero removed heading IDs and zero newly unreachable files. The separate hypothetical 19-unit packet combines these 17 proposals with existing source units 9/41 so their three review receipts can be checked against the actual receiving headings; it also introduces none of those navigation defects. That is a simulation, not application. Existing frozen/quoted/split-source diagnostics remain in their original scope.
+
+
+## 16. Action-plan 2.0 execution — 25 October 2026
+
+**Owner GO:** “Ejecuta plan de acción 2.0 y luego revisa que no hubieran cambios no autorizados.” The 26 literal units in the current execution packet are incorporated; the policy edition advances to 1.0.2. This section records application, not another review, registry or campaign.
+
+### 16.1 Incorporated packet and verification boundary
+
+Accepted units: A2-01a/b, A2-02a/b, A2-03–05, A2-06a–e, A2-07/08, A2-09a–c; existing 2/6/7/9/26/38/39/40/41. The 17 new pairs are received together with their nine already-specified dependencies/first-wave units. The source-bound old spans were revalidated against f8ce4866; only their complete replacements/additions, the required policy-edition increment, applied-card retirement and this execution/audit reception form the approved candidate. Every applied card retains its old heading/summary and a complete immutable pre-application link. Applied and superseded before/after cards leave the pending queue; their audit reasoning and original Git editions remain available.
+
+The operative additions require concrete review outcomes, exact historical contexts and content reception before route cleanup. The 04 reader receives the two-clock and human-result clarifications; 05A receives its dated evidence/EA-only offer, with all original snapshot content retained. The existing unique 04/05A reviews receive their literal notes. Two obsolete first-reader status lines and the already-applied Gradient 61 remnant are resolved without removing the audit argument. Five audit-number defects receive their exact evidenced leading digits.
+
+The existing checker implements full historical quotation-context, raw UTF-8, expected-occurrence and actual receiver checks. The existing PR/manual workflow publishes the unique `Document control verification` job with read-only contents permission. This implementation is a link/preservation improvement; the larger role/exact-wave guard is still a distinct deliverable.
+
+### 16.2 Genuine remaining work
+
+| Work | Current state and next concrete deliverable |
+|---|---|
+| 61 provisional document roles | The requirement is adopted. Adjudicate material role/lifecycle/protection from actual owner/freeze evidence before role-dependent enforcement; preserve unresolved records honestly |
+| EA protected successor and seven edition families |Keep exact approved/observed and retained-edition distinctions. Their named authority/identity choices precede protected router or role promotion |
+| Exact-wave/role guard |Publish its complete function-level implementation and adverse fixtures against trusted base/head/owner inputs; the current quote checker is not that guard |
+| Native merge protection | Establish distinct author/reviewer and trusted check identity; execute the 24 native/semantic acceptance cases before activation. No account or branch setting changed in this packet |
+| Requirements, HumanTime and protected routing | Their atomic content/identity/consumer decisions remain visible in 14.12; no alternative is selected by status cleanup |
+| H06, benchmark, R01 and FH evidence |Retain the specified profiles, comparators, costs and admission deliverables; no experiment or institutionally external action is launched |
+
+This executed packet is not completion of those later scientific or administrative decisions. Remaining source/program/result/binary files and frozen editions retain their exact blobs. Verification and public readback for this execution are received below and in the existing control audit.
+
+
+**Execution verification:** all 26 accepted literal units and each dependent edition/receipt/retirement operation reproduce the expected candidate. Reversing the recorded operations recovers every complete predecessor byte; no unrecorded byte is accepted. The full candidate documentation checker passes 10,347 local routes, eight architecture minima and two canonical decks, with all four required references retained. The 36 quotation-context adversarial cases also pass against the actually amended reviews.
+
+The complete GFM graph introduces no broken route/fragment or newly unreachable file. The one removed heading is the expressly retired duplicated Gradient 61remnant; its exact incoming ID remains as an explicit HTML anchor and its complete card remains pinned. Both maintained 04/05A sources retain their complete original bytes as prefixes. All 2,405 paths/modes remain, with only 11 existing files changed, 2,394 other entries and 70 other review surfaces exact. The 150-entry priorities ledger, 151 CSV rows, protected EP/EA routers, strategy, frozen sources/results and all binaries remain byte-identical. Final exact public readback is required before this application is reported complete.

@@ -1867,3 +1867,9 @@ This integrated reader is the current programme-independent general-interface ro
 Later participant-local positioning, ACC/admissibility, signalling/choreography, Ecosystem Cartography, agentic-gradient and MSCA Operation/Repositioning work may **consume, specialize or test** these interfaces. They do not automatically create new 04 interface families or rewrite earlier 04 semantics. Any new mandatory interface family, field or conformance requirement must be introduced through an explicit versioned interface change.
 
 The controlled/repaired v0.4 source blobs remain preserved separately for historical/freeze reconstruction.
+
+## Qualified timing and human-review handoff — maintained reading
+
+**Two clocks.** A qualification validity window states when its evidence, authority, policy, configuration and assumptions remain applicable. A response window states when an intervention can still affect the outcome. Preserve both when material; a valid result may arrive too late to help, and remaining response time does not make a stale result applicable. An epistemic decision to continue, stop, redirect or corroborate is distinct from permission for operational intervention.
+
+**Human-produced results.** IF-S6/EHD reading keeps the review decision/result, assurance in the received review event, capacity qualification and inherited residual distinct. Authentication or an authorized actor does not erase those evidence questions. Use the lightest categorical or structured qualifiers that preserve the material distinction; assurance in a particular review event is not a general score of a person's competence. This clarification adds no mandatory EHD-kernel field.
