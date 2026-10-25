@@ -821,6 +821,15 @@ Use bounded declared scenario families, stress cases and blind holdouts: residua
 
 **Inference rule:** “A specifically prepared conventional control would solve the disclosed R3” establishes only a *known-case repair*, not “EA adds no differential.” Conversely, “the frozen conventional arm missed one blind R3” does not prove EA's general superiority. A finding of **no incremental EA differential** requires a competent peer to match or improve the relevant blind, prospective outcomes at equal or lower **full-life-cycle burden** within the declared test family. Otherwise report the proper bounded conclusion: demonstrated incremental contribution, trade-off, not demonstrated, inconclusive, or hindsight-only parity.
 
+
+**Compatibility with previously declared R3 variants.** The existing R01 R3-A–R3-G battery illustrates possible changes and is not, by itself, evidence of a hidden-selector experiment. In a *new scored* DDS contrast, disclose or formally register the admissible family, intervention ranges and outcome rules before result inspection, while withholding which realization is selected. The participant may build generic controls for the entire known family; the selected variant, private world and outcome key are not revealed before its legitimate event/observations. A small exhaustive family legitimately covered by a strong peer is a valid negative result, not a reason to expand the variants after observing success.
+
+**Custody and independent selection.** Record who owns the change family, selector and oracle separately from the tested candidate; the family and selection-rule version, registration/commitment and hash; the R1 result and R2 admission; the complete passing predecessor and candidate adaptation-policy freeze; the selection or sealed-commitment time; the candidate-facing information and permitted source/authority access; the reveal time; and every selected, excluded, inconclusive or successful variant with a reason. Selection should occur under the registered rule after freeze or be provably sealed from both arms until then. If a participant or evaluator learned the scored instance in advance, mark the information-boundary failure and restrict the result to development/hindsight evidence, rather than silently treating it as blind. Keep legitimate online adaptation active under the frozen policy.
+
+**Known-case R2 and charged preparation.** Revealing the *observed R1 failure* to enable R2 is legitimate; telling R2 the *future scored R3 answer* is not. Record R2 investigation, candidate/configuration search (including unsuccessful iterations), expert/human time, rule/gate engineering, integration, acquisition of sources or observability, calibration, testing and verification, transition/rollback and recurring upkeep. Attribute initial, R2, frozen generic defenses, R3 detection/response and false-alarm/continuity costs to non-overlapping ledger entries; distinguish research/evaluator overhead from candidate deployment work and use a declared shared horizon/amortization. Report **functional R2 PASS** separately from **C–R–E admissibility**. Where an expense is unknown, use `NOT_MEASURED`, not `0`. The variant family may be transparent; the scored realization may not be supplied as a free oracle.
+
+**Two selection claims.** An independently drawn blind instance from a preregistered family supports only that family's declared prospective inference. A diagnostic change deliberately chosen outside one frozen configuration's effective coverage supports only the registered conditional/existential stress question; it must report the selection criterion, attempts and successful conventional configurations, and cannot yield an unbiased comparative frequency. Out-of-family discoveries remain exploration until a new version, balanced refreeze and independently held-out evaluation. The original UC-20, UC-21, R01 and Flores local definitions and any frozen outcomes remain untouched.
+
 **Namespace:** in the optional prospective DDS R1/R2/R3 comparison shorthand (distinct from the frozen source-native UC-20 protocol), R1 is the competent initial configuration, R2 an admitted repair after an actual R1 failure, and R3 a subsequent material change to an actually passing and frozen predecessor. R3 is a *stress traversal*, not the EA arm. UC-21's source-native R0/R1/R2 and R01's mathematical R1/R2/R3 keep their own contracts; no historical test is relabelled. See the [method index comparison discipline](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#ex-ante-comparison-discipline-for-differential-findings-23-october-2026) and [00D comparator contract](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#42-ex-ante-knowledge-preparation-and-adaptation-accounting--prospective-clarification).
 
 ## 16. Evidence and claim boundary
@@ -875,7 +884,25 @@ Base/frozen artefact:
 Successor/extension status:
 ~~~
 
-That block is sufficient to show which part of **Stage A** is being used without inventing an ad hoc test vocabulary. Stage B and Stage C profiles use their own canonical citation blocks.
+For an **optional prospective R1/R2/R3 comparison**, append this *additional operational record* (do not relabel source-native routes or alter their frozen templates):
+
+~~~text
+Comparison shorthand and owning source-native R0/R1/R2 or R1/R2/R3 mapping:
+R1 actual result and reason to admit/omit R2:
+R2 known failure, configured correction, demonstrations and full preparation ledger:
+R2 technical PASS versus Cost–Risk–Effectiveness acceptance:
+Registered R3 family/generator, materiality, selection rule, controls and trial count:
+Independent selector/oracle custody, sealed commitment/hash, registration time:
+Frozen passing configuration, generic adaptation, access, authority and resources:
+Scored variant selection time, permitted observations, reveal and leakage status:
+Selection mode: independent blind holdout | conditional out-of-envelope stress | development:
+Matched unchanged, harmless-change, legitimate-continuity and recovery controls:
+R3 actual action/decision/effects and separate runtime adaptation/false-alarm costs:
+Full horizon and amortization; measured/unmeasured cost and exclusions:
+Evidence maturity, negative findings and claims explicitly NOT established:
+~~~
+
+The preceding general block is sufficient when no sequential comparison is declared to show which part of **Stage A** is being used without inventing an ad hoc test vocabulary. Stage B and Stage C profiles use their own canonical citation blocks.That block is sufficient to show which part of **Stage A** is being used without inventing an ad hoc test vocabulary. Stage B and Stage C profiles use their own canonical citation blocks.
 
 ## 18. Source relationships
 
