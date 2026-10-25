@@ -4,7 +4,7 @@
 
 # Continuación del plan — lectura del README y fundamentos
 
-**6 de octubre de 2026 · revisión acumulativa 1.5.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext.
+**Historical review cut — 6 October 2026, cumulative review1.5.** The hourly continuation recorded at that cut was subsequently cancelled by Iván. Review continues through explicitly requested work in this chat. The objective remains completion of the substantive passes and final corpus reconciliation; publishing progress does not itself close that objective. The statuses below describe actual work, not the mere existence of a VNext.
 
 | Documento | Fondo y lógica | Evidencia y relaciones | Edición/formato | Lectura humana |
 |---|---|---|---|---|

@@ -1,10 +1,10 @@
 # Corpus Document Control — DC-GH-01
 
-**Edition:** v1.0.2 · **Effective:** 25 October 2026 (owner-authorized clarifications)  
+**Edition:** v1.0.3 · **Effective:** 25 October 2026 (owner-authorized document-control maintenance)  
 **Owner:** Iván Abril Palma · **Scope:** dakleyer/structural-awareness-contributions  
 **Status:** Current repository document-control policy. **Implementation is progressive; publication is not a claim of corpus-wide conformity.**
 
-**Latest conformity audit:** [25 October 2026 — second assessment](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026) · [VNext-link inventory with dated assessments](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
+**Latest conformity audit:** [25 October 2026 — post-implementation audit 2.0](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#post-implementation-document-control-audit-20--25-october-2026) · [VNext-link inventory with dated assessments](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
 
 **Preserved predecessor:** [DOCUMENT_CONTROL v1.1, complete pre-consolidation text](./governance/preserved-public-snapshots/2026-10-25_DOCUMENT_CONTROL_v1.1_PRE_CONSOLIDATION.md). The [24 October v0.1 conventions](./governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md) are a historical predecessor, not an independently operative second policy. For working historical hyperlinks, [read the original at its original pinned location](https://github.com/dakleyer/structural-awareness-contributions/blob/21e200cd4c9a0558e4ae3669c55f7256c03a005a/DOCUMENT_CONTROL.md); the relocated custody snapshot retains its original relative strings.
 
@@ -136,7 +136,7 @@ Amendments require a scoped GitHub change record and responsible-owner decision 
 
 ## 14. Corpus action, promotion and verification plan — 25 October 2026
 
-**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes. The [action-plan 2.0 reassessment and decision sheet](#15-action-plan-20--reassessment-and-next-waves) is the current planning entry; sections14.2–14.3 retain the earlier selection history, while14.12 supplies the expanded candidate population. Operative policy sections1–13 change only through accepted source pairs.
+**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes. The [action-plan 3.0 decision sheet](#17-action-plan-30--simple-improvements-after-audit-20) is the current planning entry. [Section16](#16-action-plan-20-execution--25-october-2026) records the applied2.0 packet; sections14.2–14.3 retain the earlier selection history, while14.12 supplies the expanded candidate population. Operative policy sections1–13 change only through accepted source pairs.
 
 **Iván’s instruction:** the global plan belongs here, includes the specific VNext blocks to incorporate, and specifies complete surgical text/link pairs and verification. The existing VNext remain the source-owned audit/development spaces. Publication of this plan records the proposed work; Iván gives the GO for each incorporation wave. Sections 1–13 above remain operative until their identified amendments are accepted. No proposed pair, registry, workflow or GitHub setting is executed by appending this section.
 
@@ -2592,6 +2592,15 @@ The 12–13 October source discussion records a proposed, separately scoped CDA/
 
 This full candidate supersedes the partial seed in 14.8. It binds all 75 review surfaces through 68 proposed current continuation groups and seven retained reviews, plus the declared remaining routers and strategy:72 records. It preserves the EA approval discrepancy and the Requirements frozen/current distinction. The file uses JSON syntax, which is a YAML1.2 subset; the proposed implementation can parse it with the standard JSON parser and validate the supported schema. Role/identity acceptance remains a named owner decision. No registry file is created by this publication.
 
+**Observation reconciliation after the accepted PR31 packet — 25 October 2026.** The complete candidate below is the preserved pre-application mapping. For a later installation, reconcile these two observed fields against the actual accepted source; all remaining role, lifecycle, protection and authority decisions stay as recorded.
+
+| Candidate source | Preserved candidate observation | Accepted source observation after PR31 |
+|---|---|---|
+| [04 integrated interfaces](./research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) | `30e492c671efed802f7b881ed67e9f4dcd4bb079` | `02f4c9712d1b4be76a7c18a98452ee133a069661` |
+| [05A current-state bridge](./research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md) | `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5` | `ea94ba9dbc63da8e8708455cab543e58b960f102` |
+
+[PR31](https://github.com/dakleyer/structural-awareness-contributions/pull/31) and its [merged source cut](https://github.com/dakleyer/structural-awareness-contributions/tree/0221c0a9e85a5e456c90e15594be487778baf408) identify the two accepted additive receptions. This dated reconciliation supplements the earlier candidate; it neither installs a registry nor changes a provisional role or special approved-protection SHA. Before installation, materialize and validate one complete candidate against the then-current trusted tree, applying this reconciliation only if these exact source observations still match.
+
 <details>
 <summary>Complete proposed governance/DOCUMENT_REGISTRY.yml</summary>
 
@@ -3714,7 +3723,7 @@ This finishes consolidation of the action/promotion plan. Applying the chosen wa
 
 ## 15. Action plan 2.0 — reassessment and next waves
 
-**Decision-ready review of plan 1.0;25 October 2026.** This section is the current planning entry. The operative policy remains DC-GH-01v1.0.1. It preserves the complete earlier plan and audit; the pairs below are proposals for named implementation waves. The same Codex assistant performed this reassessment, not an independent external reviewer.
+**Historical reassessment of plan 1.0 — 25 October 2026.** This section records the review prepared while DC-GH-01v1.0.1 was operative. [Section16](#16-action-plan-20-execution--25-october-2026) identifies the accepted2.0 packet and its actual application. The header identifies the current policy edition; [section17](#17-action-plan-30--simple-improvements-after-audit-20) is the current planning entry. The complete earlier plan, audit and scoped proposals remain preserved. The same Codex assistant performed this reassessment, not an independent external reviewer.
 
 ### 15.1 What the detailed verification establishes
 
