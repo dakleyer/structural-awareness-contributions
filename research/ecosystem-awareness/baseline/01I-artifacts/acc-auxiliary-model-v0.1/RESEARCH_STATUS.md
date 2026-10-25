@@ -17,19 +17,19 @@ Una exposición integrada, cuatro textos fuente de trabajo, un registro por pár
 | Experiencias de métodos y empresas | Relatos atribuidos a sus fuentes, no validación de este paquete |
 | Correspondencias religiosas y filosóficas | Interpretación y diálogo; citas y numeración externa requieren cotejo propio antes de utilizarlas como evidencia |
 | Material cultural | Contexto y derechos de titulares; no representación o consentimiento comunitario |
-| Integración y ejecución futuras | Trabajo pendiente; alojamiento documental no es implantación |
+| Integración operativa en agentes y tecnologías | Trabajo pendiente; el piloto determinista acotado ya ejecutado no equivale a esa integración |
 
 Se conservan divergencias entre textos: alcance y significado histórico de ABCD, numeración de referencias, formulaciones tempranas fuertes y precisiones posteriores. La guía integrada usa significados propietarios y condiciones explícitas, sin corregir silenciosamente el archivo histórico.
 
-Añadir notas localizadas para S3 P0027–P0031 frente a 00M. Para S3 P0007, indicar que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. Conservar transcripción histórica, referencia cotejada y explicación de la diferencia como campos distintos. Véanse las [notas de cotejo](review/SOURCE_NOTES.md), que distinguen abreviatura histórica, definición canónica y localizador externo.
+Las notas localizadas cotejan S3 P0027–P0031 frente a 00M. Para S3 P0007 señalan que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. La transcripción histórica, la referencia cotejada y la explicación de la diferencia se conservan como campos distintos. Véanse las [notas de cotejo](review/SOURCE_NOTES.md), que distinguen abreviatura histórica, definición canónica y localizador externo.
 
 El corpus no obtiene una auditoría independiente por reunir textos del mismo autor o por esta organización de Codex. Las comprobaciones de párrafos, vínculos y hashes son controles de conservación, no pruebas de superioridad ni cierre DDS.
 
 El control de conservación verifica libros frente al inventario y no autentica por sí solo la fuente. La fidelidad frente a las lecturas nativas se documentó en la autoauditoría; no se ha repetido esa descarga por ejecutar el piloto. Un cambio concordante de libro e inventario puede pasar el primer control, por lo que la custodia y los controles conceptuales permanecen separados.
 
-## Próximo cierre verificable
+## Primer cierre ejecutado y siguientes pasos
 
-Congelar una pregunta y un caso mínimo con variables, comparadores y oráculos. Después implementar y ejecutar sólo lo declarado, publicar trazas y resultados positivos/negativos, y revisar qué parte de la hipótesis queda sostenida o refutada. Los costes de información, adaptación y revisión se atribuyen una vez.
+El protocolo mínimo ya está congelado, recorrido manualmente e implementado, con costes atribuidos, comparadores competentes y resultados publicados más abajo. El siguiente paso científico es una revisión independiente de sus supuestos y expectativas, seguida de una pregunta nueva que justifique otro estudio; el empate no demuestra ventaja diferencial. La futura conexión nativa DDS → UC21 requiere los criterios de fuente, observabilidad, permisos y oráculo definidos en el adaptador. El historial completo de prompts, la autenticación histórica y los derechos de material adicional conservan su propia condición pendiente.
 
 ## Revisión previa a publicación
 

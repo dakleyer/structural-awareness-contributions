@@ -369,6 +369,45 @@
       "before": "## Propuesta y transición",
       "after": "### Sensibilidad que debe fijar cada estudio\n\nVariar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizonte; incluir coste incremental de interoperabilidad y transición. Mostrar regiones con ganancia, empate y pérdida. En el brazo de crédito, contrastar la regla de veto contra explicaciones por servicio, riesgo y autoridad legítima. La probabilidad q de aceptación independiente de unos filtros y la fracción q de obligaciones protegidas de otro toy son parámetros locales distintos; una realización debe distinguirlos. No se infiere causalidad de una curva incorporada por la topología o por la regla de retiro.\n\n### Medidas de contribución humana\n\nToda medida declarará contrafactual, horizonte, denominador y evidencia de evitabilidad. Separar cuota observada de ACW, capacidad liberable, contribución genuina potencial y recuperación real. Si no hay convertibilidad o referencia comparable, conservar vector, intervalo o no establecido. HICT y HICR conservan su definición propietaria. Una pérdida de habilidades exige observaciones distintas del trabajo ACW eliminado; no se deduce del cociente de horas.\n\n## Propuesta y transición",
       "reason": "Keep the complete formal-family table continuous; add explanatory notes after it"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "| Integración y ejecución futuras | Trabajo pendiente; alojamiento documental no es implantación |",
+      "after": "| Integración operativa en agentes y tecnologías | Trabajo pendiente; el piloto determinista acotado ya ejecutado no equivale a esa integración |",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "Añadir notas localizadas para S3 P0027–P0031 frente a 00M. Para S3 P0007, indicar que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. Conservar transcripción histórica, referencia cotejada y explicación de la diferencia como campos distintos.",
+      "after": "Las notas localizadas cotejan S3 P0027–P0031 frente a 00M. Para S3 P0007 señalan que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. La transcripción histórica, la referencia cotejada y la explicación de la diferencia se conservan como campos distintos.",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "## Próximo cierre verificable\n\nCongelar una pregunta y un caso mínimo con variables, comparadores y oráculos. Después implementar y ejecutar sólo lo declarado, publicar trazas y resultados positivos/negativos, y revisar qué parte de la hipótesis queda sostenida o refutada. Los costes de información, adaptación y revisión se atribuyen una vez.",
+      "after": "## Primer cierre ejecutado y siguientes pasos\n\nEl protocolo mínimo ya está congelado, recorrido manualmente e implementado, con costes atribuidos, comparadores competentes y resultados publicados más abajo. El siguiente paso científico es una revisión independiente de sus supuestos y expectativas, seguida de una pregunta nueva que justifique otro estudio; el empate no demuestra ventaja diferencial. La futura conexión nativa DDS → UC21 requiere los criterios de fuente, observabilidad, permisos y oráculo definidos en el adaptador. El historial completo de prompts, la autenticación histórica y los derechos de material adicional conservan su propia condición pendiente.",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
     }
   ]
 }
