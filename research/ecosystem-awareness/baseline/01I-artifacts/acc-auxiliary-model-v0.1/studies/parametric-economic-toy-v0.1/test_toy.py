@@ -24,8 +24,8 @@ class PortfolioTests(unittest.TestCase):
 
     def test_joint_optimum_and_all_ledgers(self):
         r = portfolio(self.s)
-        self.assertEqual(r["state_count_F_T"], 4)
-        self.assertEqual(r["state_count_F_G"], 4)
+        self.assertEqual(r["state_count_F_T"], 2)
+        self.assertEqual(r["state_count_F_G"], 2)
         self.assertEqual(r["actual"]["projects"], ["SCALE"])
         self.assertEqual(r["technical_optimum"]["projects"], ["INTEGRATE", "SCALE"])
         self.assertAlmostEqual(r["G_technical"], 58)
@@ -40,7 +40,7 @@ class PortfolioTests(unittest.TestCase):
         r = portfolio(self.s)
         self.assertAlmostEqual(r["G_technical"], 58)
         self.assertAlmostEqual(r["G_governable"], 0)
-        self.assertEqual(r["state_count_F_G"], 2)
+        self.assertEqual(r["state_count_F_G"], 1)
         self.assertIn("CFO", r["technical_optimum_block_reason"]["missing_approvals"])
         self.assertFalse(r["suboptimal_governable"])
 
@@ -51,6 +51,22 @@ class PortfolioTests(unittest.TestCase):
         self.assertAlmostEqual(r["G_governable"], 0)
         self.assertIn("Systems", r["technical_optimum_block_reason"]["negative_actors"])
 
+    def test_pareto_is_relative_to_current_not_initial_baseline(self):
+        self.s["projects"][0]["gross_payoffs"]["Marketing"] = 46.5
+        r = portfolio(self.s)
+        self.assertGreater(r["technical_optimum"]["actor_net"]["Marketing"], 0)
+        self.assertLess(r["technical_optimum"]["actor_net"]["Marketing"],
+                        r["actual"]["actor_net"]["Marketing"])
+        self.assertAlmostEqual(r["G_technical"], 44.5)
+        self.assertAlmostEqual(r["G_governable"], 0)
+        self.assertIn("Marketing", r["technical_optimum_block_reason"]["negative_actors"])
+
+    def test_no_unmodelled_rollback_and_incremental_adjustment_cost(self):
+        r = portfolio(self.s)
+        self.assertTrue(all("SCALE" in x["projects"] for x in r["frontier_top"]))
+        self.assertEqual(r["transition_scope"], "ADDITIONS_ONLY_FROM_CURRENT; NO_UNMODELLED_ROLLBACK")
+        self.assertAlmostEqual(r["technical_optimum"]["new_C_adj"], 15)
+
     def test_transfer_is_zero_sum(self):
         self.s["projects"][0]["transfers"]["Marketing"] = -39
         with self.assertRaises(ToyError):
@@ -59,7 +75,7 @@ class PortfolioTests(unittest.TestCase):
     def test_bad_rights_excluded_from_both_frontiers(self):
         self.s["projects"][0]["rights_preserved"] = False
         r = portfolio(self.s)
-        self.assertEqual(r["state_count_F_T"], 2)
+        self.assertEqual(r["state_count_F_T"], 1)
         self.assertAlmostEqual(r["G_technical"], 0)
 
     def test_costly_transition_can_rationally_be_rejected(self):
