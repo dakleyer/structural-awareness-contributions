@@ -37,7 +37,7 @@ Las letras son locales a cada familia: D distribución, C coordinación y A atri
 
 ### Sensibilidad que debe fijar cada estudio
 
-Las pérdidas por propuesta R(n), las brechas G y las horas HID no se pueden sumar o intercambiar. Una prueba que reporte "deuda neta" debe construir el mejor paquete **conjuntamente factible** y descontar costes de reajuste; una que reporte aceleración debe comparar Δ²d_t del flujo con la mera acumulación D_T. Véase el [núcleo técnico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md#distancia-al-óptimo-accesible-oportunidad-y-deuda-de-utilidad) y la [nota 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md).
+Las pérdidas por propuesta R(n), las brechas G y las horas HID no se pueden sumar o intercambiar. Una prueba que reporte "deuda neta" debe construir el mejor paquete **conjuntamente factible** y descontar costes de reajuste; una que reporte aceleración debe comparar Δ²d_t del flujo con la mera acumulación D_T. Véase el [núcleo técnico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) y la [nota 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md).
 
 Variar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizonte; incluir coste incremental de interoperabilidad y transición. Mostrar regiones con ganancia, empate y pérdida. En el brazo de crédito, contrastar la regla de veto contra explicaciones por servicio, riesgo y autoridad legítima. La probabilidad q de aceptación independiente de unos filtros y la fracción q de obligaciones protegidas de otro toy son parámetros locales distintos; una realización debe distinguirlos. No se infiere causalidad de una curva incorporada por la topología o por la regla de retiro.
 
