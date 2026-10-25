@@ -10,6 +10,8 @@ Este es un modelo de investigación alojado en ACC para uso posterior. Su descri
 
 ## Núcleo económico del modelo
 
+**Contrato formal de esta exposición:** [núcleo técnico económico abierto](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md), que consolida los anexos v0.1–v0.6: fronteras técnica/gobernanza, producción creciente con brecha creciente, utilidad y distribución, condiciones soberanas, reajuste, compensación, modelos probabilísticos rivales, obligaciones, HID y doble cómputo. Las ecuaciones se interpretan conforme a sus supuestos declarados, no como leyes empíricas.
+
 El punto de partida son mejoras posibles hoy con los recursos y la tecnología disponibles. Se distinguen producir los mismos bienes y servicios con menos recursos y mejorar utilidad o reparto. Una oportunidad local puede ser un acuerdo conjunto inmediato, requerir reajuste o quedar bloqueada por condiciones adicionales. La coordinación, la atribución y las nuevas dimensiones aportan oportunidades y también condiciones de aceptación.
 
 La hipótesis dinámica es que producción y beneficio absoluto pueden crecer mientras aumenta la distancia respecto de alternativas mejores. Esa distancia puede afectar al bienestar y a la capacidad de elegir, pero su existencia no demuestra por sí sola frustración vivida, deuda neta recuperable ni una causalidad concreta. El modelo compara esa trayectoria con configuraciones que coordinan bien, aprenden y realizan las mejoras con menor carga.
@@ -96,6 +98,8 @@ Predicción candidata: con calidad comparable y controles especializados y adapt
 
 ## Redes y efectos de segundo orden
 
+**Programa de pruebas:** [nota 01K-A02 de HID y aceleración](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md). Mantiene separados el toy matemático, la recreación analítica de resultados históricos, las pruebas empresariales pendientes y la medición humana; no adopta una causalidad por observar curvatura.
+
 El modelo distingue número de conexiones, condiciones soberanas independientes, sustitutos, gobierno conjunto y capacidad de resolver un cuello común. Ormuz se conserva como experimento mental, con rutas alternativas y costes, sin afirmar un episodio geopolítico concreto.
 
 Los ensayos de unanimidad y redes fijan supuestos como independencia, q constante, topología y generación de propuestas. La saturación del rechazo no demuestra por sí sola aceleración indefinida. Las interacciones también pueden producir sinergias; una red dispersa o una coordinación competente pueden refutar una extrapolación del bloqueo.
@@ -138,4 +142,4 @@ FH-C es una prioridad causal propuesta y falsable para clases declaradas de deri
 
 ## Uso posterior
 
-La [especificación de estudio](STUDY_SPECIFICATION.md) organiza objetos, supuestos y observaciones; no define cómo se integra ACC en un agente. El [plan DDS](DDS_EVALUATION_PLAN.md) prepara contrastes y, cuando proceda, adaptadores a UC21/R01. Las fuentes completas permanecen disponibles para revisar cada fórmula, ejemplo y modificación histórica. El futuro consumidor deberá justificar qué partes usa y con qué límites.
+El [núcleo técnico económico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) es la entrada formal para parámetros, ecuaciones, distancias, costes y capacidades; la [nota 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) define los ensayos HID de segundo orden pendientes. La [especificación de estudio](STUDY_SPECIFICATION.md) organiza objetos, supuestos y observaciones; no define cómo se integra ACC en un agente. El [plan DDS](DDS_EVALUATION_PLAN.md) prepara contrastes y, cuando proceda, adaptadores a UC21/R01. Las fuentes completas permanecen disponibles para revisar cada fórmula, ejemplo y modificación histórica. El futuro consumidor deberá justificar qué partes usa y con qué límites.
