@@ -6,8 +6,43 @@
 
 **Owning source:** [DDS Stage A — Specification Discovery / Challenge–Trajectory Profile v0.1](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
 **DDS method router:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)  
-**Current review date:** 8 October 2026.  
+**Current review date:** 23 October 2026 (new scoped comparison review; earlier reviews retained below).
+
 **Status:** current Stage A review ledger only. Historical incorporated proposals have been removed from this VNext because Git history already preserves them.
+
+## Scoped cross-corpus correction — 23 October 2026: ex-ante differential and the hindsight-oracle error
+
+**Reviewer:** Codex AI assistant (same continuing assistant; not an independent human scientific review). **Owner instruction:** Iván Abril Palma, 23 October 2026: correct the recurring R1/R2/R3 differential-comparison error in DDS and put the result in the existing VNext. **Scope read:** current DDS Index §5, Stage A §§3, 7, 15–17, 00D §§2, 4, 6, 8, R01 extension protocol §§1–7 and HEW R1/R2/R3; public A/B/C/D 00M v0.8; selected controlled corpus navigation. This is a **scoped new review and additive methodological clarification**; no complete independent four-pass audit of the entire corpus is claimed. The earlier record below is retained.
+
+### 1. Fondo y lógica — qué se estaba comparando incorrectamente
+
+The recurring statement “a competent conventional controller could simply have installed a gate for that failure, therefore EA has no differential” quietly grants the conventional arm **hindsight about the exact future event** and often treats the time, specialists and instrumentation required for the tailored gate as free. It compares a policy designed with tomorrow's answer against another policy expected to react without that answer. The resulting known-case solvability can be true **without deciding** the prospective adaptation question.
+
+The candidate differential is not perfect prediction: **recognizing that prior knowledge/authority/dependency conditions no longer justify the intended decision, requalifying only the affected scope and responding within legitimate time and resource bounds**. A capable conventional system may do exactly that with already deployed generic monitoring/revalidation; success at equal or lower total cost is a valid negative EA result. R3 is the post-freeze changed-context **challenge**, not a synonymous name for EA or a guarantee that a peer must fail.
+
+### 2. Evidencia y relaciones — qué puede concluirse y qué todavía no
+
+- [DDS Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) owns stage identity, conditional local R1/R2/R3 admission and cross-stage comparison interpretation. Original UC-20 R0/R1/R2 and UC-21 R0/R1/R2 remain source-native; R01 has a mathematically distinct R1/R2/R3. No old result is relabelled.
+- [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) owns the **specification-level differential finding**, its trace Cost–Risk–Effectiveness scope and evidence ceiling; Stage B/C do not inherit new results from this prose.
+- [00D](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) owns strong B0–B3 fairness. Its resource-match rule and credit for B1/B2 were correct but left the **chronology, domain-specific preparation and amortized burden** implicit. This correction complements, not weakens, strong conventional peers.
+- [R01 extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) already separates evaluator-private solving information, mapped observations and charged mechanisms. [00M v0.8](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) defines D as residual beyond effective evaluation; a fictitious probability distribution over all D must not be used to assert an expected improvement.
+- [Flores/Theme #21 prospective campaign](./campaigns-in-development/flores-population-ea/CAMPAIGN.md) already considers repaired parity, freeze and uncovered R3, with blind holdout obligations. Its actual scientific status and independent selection must be checked at campaign time; this entry does **not** assert R3 executed or valid EA superiority.
+
+**Evidence remaining open:** no newly run blind prospective comparator, no real-cost calibrated specialist/adaptation ledger, no general regime-versus-benefit curve, and no proof that EA will recognize all changes. Known-failure repairs, selectively out-of-envelope stress tests, synthetic controls and real runtime evidence remain separately typed.
+
+### 3. Edición, estructura y formato — antes/después de los receptores
+
+| Owner / original wording | Additive receiving change | Status of inference |
+|---|---|---|
+| **Stage A §15**: “A strong conventional or market-reference solution receives full credit.” | Retain that sentence. Add **§15.1**: all-in ex-ante policy comparison, chronology/knowledge freeze, cost of development and reconfiguration, blind R3 holdout, false alarms/legitimate continuity, no known D distribution and separate conclusions `hindsight-only parity` / `blind differential not established` / `peer parity`. | Prospective method; no old empirical result regraded. |
+| **00D §4**: “All arms receive the same frozen facts, task, action library, source access, authority, compute/token ceiling, communication budget, human capacity and deadline.” | Retain that sentence and B0–B3 arms. Add **§4.2**: knowledge timing and full preparation/adaptation budget also matter; peer fully credited for generic defenses frozen before the specific change. | Comparator-fairness clarification; 00D v0.2 historic findings unchanged. |
+| **DDS Index §5**: strong R1, conditional R2, post-PASS changed R3, separate UC-20/UC-21/R01 namespaces. | Retain all three entry/exit rules. Add **“Ex-ante comparison discipline for Differential Findings”** below them; R3 remains test stimulus, not architecture arm. | Cross-stage rule; no new DDS method/Stage. |
+
+### 4. Legibilidad y comprensión humana — prueba de lectura simulada
+
+Useful analogy: a person can easily avoid an obstacle **after being shown its exact position**; that does not measure whether a prepared but non-omniscient process recognizes and safely reacts to an obstacle whose exact position was not known beforehand. The experiment must compare the **whole preparation-plus-operation policy**, not the single lucky retrospective path. A fair comparator is permitted to install an excellent generic detection/avoidance capability in advance, and its cost, false positives and missed obstacles count in both directions. This is a same-assistant simulated reader check, not an independently observed user study.
+
+**Owner-directed application boundary:** current work proposes/reconciles the three additive target changes above, preserving this sole Stage A VNext, the old text, hashes, freezes, reported results and associated ownership. Adoption/publishing these methodological statements does not demonstrate an EA differential, validate a product or change the 00D/UC-21/R01 frozen campaigns. If new evidence appears, reopen this specific comparison finding rather than erasing it.
 
 ## 1. Current Stage A state
 
