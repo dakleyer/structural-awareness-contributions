@@ -66,21 +66,42 @@ def navigation_text(body: str) -> str:
     return re.sub(r"(?<!`)(`+)(?!`)([\s\S]*?)(?<!`)\1(?!`)", "", value)
 
 
-def main() -> int:
-    errors: list[str] = []
-    checked_links = 0
-    for source in ROOT.rglob("*.md"):
+def extract_targets(body: str):
+    visible = navigation_text(body)
+    return MARKDOWN_LINK.findall(visible) + HTML_LINK.findall(visible)
+
+
+def check_document_links(root: Path):
+    from historical_source_routes import qualified_routes
+    qualifications, errors = qualified_routes(root, extract_targets)
+    checked_links = historical_links = 0
+    used = {}
+    for source in root.rglob("*.md"):
         if ".git" in source.parts or "preserved-public-snapshots" in source.parts:
             continue
         body = source.read_text(encoding="utf-8")
-        for raw in MARKDOWN_LINK.findall(navigation_text(body)) + HTML_LINK.findall(navigation_text(body)):
+        for raw in extract_targets(body):
             target = raw.split(" ")[0].strip("<>")
             if not target or target.startswith(EXTERNAL):
                 continue
             route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
             checked_links += 1
-            if not (source.parent / route).resolve().exists():
-                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
+            if (source.parent / route).resolve().exists():
+                continue
+            key = (source.relative_to(root).as_posix(), target)
+            if key in qualifications:
+                used[key] = used.get(key, 0) + 1
+                historical_links += 1
+                continue
+            errors.append(f"missing link: {source.relative_to(root)} -> {target}")
+    for key, qualification in qualifications.items():
+        if used.get(key, 0) != qualification["expected_occurrences"]:
+            errors.append(f"qualified citation use changed: {key}")
+    return errors, checked_links, historical_links
+
+
+def main() -> int:
+    errors, checked_links, historical_links = check_document_links(ROOT)
 
     if not ARCHITECTURE.exists():
         errors.append("missing Ecosystem Positioning architecture README")
@@ -131,6 +152,7 @@ def main() -> int:
         print("\n".join(errors))
         return 1
     print(f"DOCUMENT INTEGRITY: PASS ({checked_links} local routes, "
+          f"{historical_links} qualified historical source citations, "
           f"{len(REQUIRED_SECTIONS)} architecture sections, {len(PRESENTATIONS)} canonical decks)")
     return 0
 
