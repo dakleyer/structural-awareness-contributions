@@ -16,8 +16,12 @@ Las perspectivas humanas, epistémicas e institucionales se integran en esa preg
 
 ## Cómo leerlo
 
+**Lectura técnica prioritaria:** [núcleo económico abierto completo](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) — producción, brechas, dimensiones soberanas, compensaciones, coordinación, costes de reajuste y modelos M0–M3. Su puente específico de deuda humana y aceleración se desarrolla en la [nota 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md), dentro del propietario HID; ninguna de las dos piezas constituye un requisito normativo ACC.
+
 | Lectura | Para qué sirve |
 |---|---|
+| [Núcleo técnico económico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) | Definiciones económicas completas, restricciones, ecuaciones, cifras ilustrativas, familias rivales y falsadores |
+| [01K-A02 — experimentos HID de segundo orden](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) | Hipótesis de aceleración, medición de deuda humana, controles y agenda experimental aún no ejecutada |
 | [Modelo integrado](MODEL.md) | Comprender el problema, sus mecanismos, los límites y las preguntas abiertas |
 | [Especificación del modelo de estudio](STUDY_SPECIFICATION.md) | Saber qué estados, variables, supuestos y observaciones deberá fijar una ejecución futura |
 | [Casos y dimensiones](CASES.md) | Recorrer los ejemplos conservados y localizar su desarrollo completo |
