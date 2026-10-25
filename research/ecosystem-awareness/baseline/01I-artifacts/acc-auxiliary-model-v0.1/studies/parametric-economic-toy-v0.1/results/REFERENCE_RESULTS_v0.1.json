@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-25",
+  "engine_sha256": "9a4578adba62c5bd78ac974c93318ac64ffb7103f2b3126a4853c3d1270b42e7",
+  "results": {
+    "formulas": {
+      "A_approved_M3": 1.5341764925993788,
+      "D_bruta_M3": 6318.4658235074,
+      "D_inter_M1": 1896.0000000000002,
+      "D_opportunity_M2": 632.0,
+      "D_veto_M0": 239.94174013319244,
+      "E_edges": 3160.0,
+      "M_proposals_M3": 6320.0,
+      "P_endogenous_M3": 801.5341764925994,
+      "P_real_M2": 3328.0,
+      "R_rejected_M3": 6318.4658235074,
+      "approval_fraction": 0.0002427494450315473,
+      "mode": "formulas",
+      "n": 80
+    },
+    "network": {
+      "D_T": 924.0000000000001,
+      "G_path_governable": 392.86733532596645,
+      "G_path_technical": 781.5,
+      "HID_observed": 0.6774193548387096,
+      "HID_potential": 0.6129032258064516,
+      "convex_last_three": true,
+      "d_t": 126.0,
+      "delta2_d_t": 0.6000000000000085,
+      "first_human_capacity_overflow_t": null,
+      "first_negative_marginal_t": 17,
+      "horizon": 20,
+      "last_D_T": 924.0000000000001,
+      "last_G_path_governable": 392.86733532596645,
+      "last_G_path_technical": 781.5,
+      "last_HID_observed": 0.6774193548387096,
+      "last_d_t": 126.0,
+      "last_delta2_d_t": 0.6000000000000085,
+      "last_forecast_error_e_t": 114.0,
+      "last_production": 200.0,
+      "mode": "network",
+      "production": 200.0
+    },
+    "portfolio": {
+      "G_efficiency": 20.0,
+      "G_governable": 58.0,
+      "G_technical": 58.0,
+      "HID_observed": 0.5833333333333334,
+      "HID_potential": 0.25,
+      "mode": "portfolio",
+      "n": 5,
+      "state_count_F_G": 4,
+      "state_count_F_T": 4,
+      "suboptimal_governable": true,
+      "suboptimal_technical": true,
+      "technical_optimum_projects": [
+        "INTEGRATE",
+        "SCALE"
+      ]
+    }
+  },
+  "scenario_sha256": {
+    "formulas": "c76c0eec973a890e8c7d2a3134524eefdf78d64da357ed01f102b64a20780807",
+    "network": "c130f86c5382526fe94b7879f2e454fc6567c67cf75e967db09bd73243820805",
+    "portfolio": "33c75e832f6be8344d5b71d2be92c29a445177d09535579379a3a8ffce32985f"
+  },
+  "status": "REFERENCE_FROM_EXACT_PYTHON_ENGINE__SYNTHETIC_ONLY",
+  "test_count": 31,
+  "version": "v0.1"
+}
