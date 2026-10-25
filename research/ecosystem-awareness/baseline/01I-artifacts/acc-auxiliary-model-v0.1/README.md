@@ -23,6 +23,7 @@ Las perspectivas humanas, epistémicas e institucionales se integran en esa preg
 | [Núcleo técnico económico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) | Definiciones económicas completas, restricciones, ecuaciones, cifras ilustrativas, familias rivales y falsadores |
 | [01K-A02 — experimentos HID de segundo orden](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) | Hipótesis de aceleración, medición de deuda humana, controles y agenda experimental aún no ejecutada |
 | [Toy económico ejecutable y parametrizable](studies/parametric-economic-toy-v0.1/README.md) | Ejecutar óptimos, costes, permisos, HID, crecimiento n→n+1, aceleración y barridos de parámetros; 34 pruebas sintéticas |
+| [Puentes experimentales HID · Attribution Gap · Informational Friction · obligaciones](studies/causal-bridges-v0.1/README.md) | Medir diferencias de inputs humanos frente a óptimos comparables y contrastar, con controles sintéticos, atribución, mapa/flujo y alta/extinción de obligaciones; 19 pruebas nuevas |
 | [Modelo integrado](MODEL.md) | Comprender el problema, sus mecanismos, los límites y las preguntas abiertas |
 | [Especificación del modelo de estudio](STUDY_SPECIFICATION.md) | Saber qué estados, variables, supuestos y observaciones deberá fijar una ejecución futura |
 | [Casos y dimensiones](CASES.md) | Recorrer los ejemplos conservados y localizar su desarrollo completo |
@@ -44,7 +45,9 @@ Los textos completos conservan desarrollos históricos y formulaciones que requi
 
 **Modelo acotado → especificación de preguntas y comparadores en DDS → preparación de casos y oráculos → arquitectura/implementación de estudio → ejecución y efectos → revisión de resultados.** Cuando una pregunta utilice UC21/R01, el adaptador queda definido en su protocolo DDS y conserva el contrato de fuente.
 
-Existe también un [toy paramétrico ejecutable](studies/parametric-economic-toy-v0.1/README.md) con tres motores, 34 pruebas y un registro de resultados numéricos reproducible. Es adicional al piloto congelado, no lo reemplaza ni acredita medición humana. 
+Existe también un [toy paramétrico ejecutable](studies/parametric-economic-toy-v0.1/README.md) con tres motores, 34 pruebas y un registro de resultados numéricos reproducible. Es adicional al piloto congelado, no lo reemplaza ni acredita medición humana.
+
+El [estudio adicional de puentes HID / Attribution Gap / Informational Friction / obligaciones](studies/causal-bridges-v0.1/README.md) incorpora un protocolo reproducible de comparaciones y una matriz de cobertura/lagunas. Sus 19 pruebas verifican código sintético y no ejecutan las campañas empíricas HID2 de 01K. 
 
 Existe ahora un [piloto económico determinista](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md), con [recorrido manual](studies/economic-pilot-v0.1/MANUAL_TRAVERSAL.md), código y [resultados](studies/economic-pilot-v0.1/results/RESULTS.md). Ejecuta una especificación pequeña: los procedimientos principales empatan y los límites conservan sus FAIL. No es una integración operativa de ACC ni un cierre DDS. Las cifras sintéticas históricas conservan su procedencia y siguen sin autenticarse; la [recreación analítica nueva](studies/synthetic-recreation-v0.1/README.md) se identifica por separado.
 

@@ -68,6 +68,8 @@ Esta secuencia opera el experimento. No prescribe el método interno del agente 
 
 **Implementación exploratoria adicional:** [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) con espacios de estados y fronteras, evolución de n dimensiones, clasificación humana condicional y barridos factoriales. Complementa el estudio fijo, pero sus pares son sintéticos; no modifica ningún identificador congelado ni el contrato de un adaptador DDS/UC21.
 
+**Puentes de las series de investigación:** [batería sintética y tabla de cobertura](studies/causal-bridges-v0.1/README.md). Añade (a) HID=HICT−HICR como resta por inputs humanos entre estado actual y cada alternativa factible no dominada con igual recurso, servicio y derechos; (b) observaciones de dependencia y reconocimiento desde fuentes independientes y contraste de retiro; (c) mapa/flujo con back-action y control de revisión; (d) contabilidad separada de obligaciones monetarias. Sus 19 tests no satisfacen el freeze, los oráculos, los requisitos humanos ni la ejecución del HID2 original.
+
 Una mejora en Marketing/Producción requiere cooperación de Sistemas. Hay dos asignaciones de coste posibles, una condición presupuestaria de Finanzas, una oferta o aprobación con plazo y un cambio posterior que modifica el fundamento o coste. Se permite éxito por coordinación convencional, reajuste aceptado, abstención justificada y fallo.
 
 Primero puede recorrerse con personas y tablas. Después se podrá implementar un modelo determinista y una realización mixta bajo las mismas reglas. Que un ACC sucesor llegue a ser necesario en una futura realización se registrará como dependencia externa; este artefacto no define su emisión o integración.

@@ -51,3 +51,8 @@ La [disposición de las auditorías](review/AUDIT_ACTIONS.md) registra correccio
 El [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) implementa tres motores separados: enumeración de estados y óptimos F^T/F^G, dinámica de n dimensiones/interacciones/deuda HID, y evaluación algebraica M0–M3. Sus 34 pruebas deterministas comprobaron invariantes de costes, transferencias, autorizaciones, HID condicional, crecimiento/no crecimiento de deuda y límites de comparabilidad. [Referencia numérica de la versión](studies/parametric-economic-toy-v0.1/results/REFERENCE_RESULTS_v0.1.json).
 
 **Estado de evidencia:** ejecución de cálculo sintético, no ensayo de agentes ni medición empresarial/humana. En particular, las 10.000 ejecuciones históricas siguen sin autenticarse, la batería causal HID2-01…10 sigue NOT RUN, y un óptimo de trayectoria desde t=0 no acredita factibilidad de retorno en t. No se alteran el piloto congelado, DDS, UC21/R01 ni ACC normativo.
+
+
+## Puentes de las series HID / Attribution Gap / Informational Friction / obligaciones
+
+El [estudio de puentes sintéticos](studies/causal-bridges-v0.1/README.md) ha añadido comparaciones de inputs humanos contra alternativas factibles y no dominadas, indicadores de Attribution Gap con fuentes declaradas independientes, retirada contrastada, mapa/flujo con retroacción y contabilidad de compromisos monetarios como objeto distinto. **19 tests unitarios locales pasan** para cálculos e invariantes en escenarios inventados; no se han ejecutado campañas de campo ni se afirma que HID2-01…10 hayan sido realizados. [Protocolo de medida y matriz de experimentos pendientes](studies/causal-bridges-v0.1/README.md).

@@ -1,0 +1,63 @@
+{
+  "HID": {
+    "human_hours": 100,
+    "current": {
+      "resources": {"people_hours": 100, "technology_units": 2},
+      "service": {"outcome": "same", "quality": 1},
+      "informational_inputs": {"diagnosis": 15, "judgement": 10, "design": 15}
+    },
+    "optima": {
+      "feasible_A": {
+        "resources": {"people_hours": 100, "technology_units": 2},
+        "service": {"outcome": "same", "quality": 1},
+        "rights_preserved": true, "governance_feasible": true,
+        "informational_inputs": {"diagnosis": 25, "judgement": 14, "design": 21}
+      },
+      "feasible_B": {
+        "resources": {"people_hours": 100, "technology_units": 2},
+        "service": {"outcome": "same", "quality": 1},
+        "rights_preserved": true, "governance_feasible": true,
+        "informational_inputs": {"diagnosis": 17, "judgement": 17, "design": 16}
+      },
+      "inaccessible_C": {
+        "resources": {"people_hours": 100, "technology_units": 2},
+        "service": {"outcome": "same", "quality": 1},
+        "rights_preserved": false, "governance_feasible": false,
+        "informational_inputs": {"diagnosis": 30, "judgement": 30, "design": 30}
+      }
+    }
+  },
+  "attribution": {
+    "snapshots": [
+      {"period": "t0", "pairs": {
+        "appA:source-of-truth": {"dependency": 0.9, "attribution": 0.6, "technical_source": "flow-logs-t0", "declaration_source": "portfolio-t0", "raised": 2, "ignored_after_raised": 0},
+        "appB:reconciliation": {"dependency": 0.8, "attribution": 0.7, "technical_source": "lineage-t0", "declaration_source": "raci-t0", "raised": 1, "ignored_after_raised": 0}
+      }},
+      {"period": "t1", "pairs": {
+        "appA:source-of-truth": {"dependency": 0.9, "attribution": 0.1, "technical_source": "flow-logs-t1", "declaration_source": "portfolio-t1", "raised": 6, "ignored_after_raised": 5},
+        "appB:reconciliation": {"dependency": 0.8, "attribution": 0.5, "technical_source": "lineage-t1", "declaration_source": "raci-t1", "raised": 2, "ignored_after_raised": 1}
+      }}
+    ]
+  },
+  "retirement": {
+    "new_obligations": [1,2,3,4,5,6,7,8,9,10],
+    "safe_retirement_rate": 0.2,
+    "legitimate_protection": 0.1,
+    "attribution_block": 0.65,
+    "assumed_ACW_hours_per_obligation": 2
+  },
+  "information": {
+    "exogenous_new_links": [1,2,3,4,5,6,7,8,9,10],
+    "map_coverage": 0.5,
+    "backaction_links_per_hidden_link": 0.15,
+    "incompatibility_fraction": 0.25,
+    "assumed_ACW_hours_per_incompatible_link": 4,
+    "verification_hours_per_period": 0.4,
+    "production_per_capacity_period": 10
+  },
+  "money": {
+    "issued": [10,10,10,10],
+    "extinguished": [0,3,5,7],
+    "explicit_capitalized_rate": 0.05
+  }
+}
