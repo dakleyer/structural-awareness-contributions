@@ -372,15 +372,18 @@ def network(config):
         forecast_error = actual["d_t"] - d_hat
         comparable = [name for name, arm in normalized.items()
                       if arm["technical"] and arm["rights"] and arm["service"] and same_service
-                      and per_gic*t + per_neo*t + per_unknown*t + state[name]["rows"][-1]["d_t"] <= cap*t + EPS
-                      and all(abs(state[name]["production_path"][j] - state[actual_id]["production_path"][j]) < EPS
+                      and all((per_gic + per_neo + per_unknown)*(j+1)
+                              + state[name]["rows"][j]["d_t"] <= cap*(j+1) + EPS
+                              and abs(state[name]["production_path"][j]
+                                      - state[actual_id]["production_path"][j]) < EPS
                               for j in range(t))]
         actual_time = per_gic * t + per_neo * t + per_unknown * t + actual["d_t"]
         capacity = cap * t
         overflow = actual_time > capacity + EPS
         if overflow and first_overflow is None:
             first_overflow = t
-        if not overflow and any(name != actual_id for name in comparable):
+        path_overflow = first_overflow is not None
+        if not path_overflow and any(name != actual_id for name in comparable):
             best_t = min(comparable, key=lambda n: (-state[n]["cumulative_net"], n))
             available = [n for n in comparable if normalized[n]["gov"]]
             best_g = min(available, key=lambda n: (-state[n]["cumulative_net"], n)) if available else None
@@ -408,10 +411,12 @@ def network(config):
                      "HID_potential": potential, "HICT_conditional": hicr + potential if potential is not None else None,
                      "F_HICT_conditional": hicr + rho * potential if potential is not None else None,
                      "HID_spent_conditional": (1-rho) * potential if potential is not None else None,
-                     "best_releasable_witness": most_releasable, "human_capacity_overflow": overflow}
+                     "best_releasable_witness": most_releasable, "human_capacity_overflow": overflow,
+                     "historical_capacity_overflow": path_overflow}
         else:
             human = {"status": "NOT_MEASURED_CLASSIFICATION_REQUIRED", "HID_observed": None,
-                     "H_releasable": None, "human_capacity_overflow": overflow}
+                     "H_releasable": None, "human_capacity_overflow": overflow,
+                     "historical_capacity_overflow": path_overflow}
         delta2 = (actual["d_t"] - 2 * actual_flows[-1] + actual_flows[-2] if len(actual_flows) >= 2 else None)
         actual_flows.append(actual["d_t"])
         marginal = actual["flow_value"] - prior_flow if prior_flow is not None else None
