@@ -4,6 +4,8 @@
 
 **Alcance:** hipótesis, objeto económico, fórmulas, diseños de contraste, controles, criterios de falsación y agenda de instrumentación de la serie HID. No amplía el contrato operativo [01K-A01](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md), no adopta una ley económica, no añade un test congelado UC21/R01 ni acredita Stage B/C de DDS. «Human Intelligence Lab» puede designar el trabajo experimental; las definiciones y el contrato de medida continúan siendo **Human Intelligence Debt (HID) en 01K**.
 
+**Realización algebraica nueva (sin elevar estado de evidencia):** [toy paramétrico de ACC](01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/README.md). Ejecuta fórmulas M0–M3, redes L/N/E/R, parámetros y barridos y calcula indicadores HID únicamente bajo clasificación ACW declarada como sintética. Sus controles ejecutados **no constituyen** las campañas HID2-01…10; estas siguen NOT RUN y requieren su freeze, oráculo independiente y evidencia propia.
+
 ## A. Qué se pretende averiguar
 
 El modelo económico abierto distingue **producir más** de **estar más lejos de una alternativa técnicamente mejor hoy**. El problema de segundo orden pregunta algo adicional:
