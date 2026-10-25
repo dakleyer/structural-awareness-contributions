@@ -30,3 +30,5 @@ jobs:
         run: |
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/checks/check_preservation.py
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/economic-pilot-v0.1 -p test_model.py -v
+      - name: Check parametric ACC economic toy (synthetic Stage A)
+        run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_toy.py -v
