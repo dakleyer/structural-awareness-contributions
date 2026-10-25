@@ -4,6 +4,8 @@
 
 ## Ruta de integración de estudios
 
+La evaluación utiliza como contrato económico el [núcleo formal del modelo abierto](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md). Los [experimentos de segundo orden HID 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) son agenda de investigación adicional **NOT RUN**: no se consideran ejecutados por el piloto determinista existente ni constituyen nuevas pruebas congeladas UC21/R01.
+
 El objeto de evaluación es el modelo acotado. [DDS](../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) proporciona el método para especificar preguntas y comparadores y evaluar realizaciones. Cuando un contraste necesite un caso UC21 o R01, se define desde su protocolo DDS un adaptador versionado al contrato de esa fuente. El alojamiento en ACC no salta esas decisiones ni acredita su cumplimiento.
 
 - **Stage A:** formular problema, especificación, propiedades, casos y comparadores, y descubrir qué se exige realmente. Un toy matemático o simulación sobre la especificación puede seguir aquí.
