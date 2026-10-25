@@ -114,7 +114,7 @@ Con b=10, h=3, T=20 y otros parámetros del ejemplo:
 - La configuración inicial marca E técnicamente disponible pero no autorizada; R sí autorizada. Por eso el modelo entrega dos distancias de **trayectorias**, una técnica y otra gobernable. Su interpretación depende de igualdad de servicio a lo largo de todas las fechas comparadas y de que la historia alternativa pudiera haberse elegido en t=0.
 - La curvatura positiva se deriva de topología + persistencia supuestas. **No es prueba causal de segundo orden fuera del toy.**
 
-Si se activan sinergias, el output entre brazos puede dejar de ser comparable; entonces no se fabrica una distancia de bienestar entre servicios distintos. Si el trabajo humano esperado supera la capacidad disponible, el motor **marca saturación** y suspende las conclusiones de brecha y recuperación desde ese punto.
+Si se activan sinergias, el output entre brazos puede dejar de ser comparable; entonces no se fabrica una distancia de bienestar entre servicios distintos. Si el trabajo humano esperado supera la capacidad disponible en **cualquier período de la trayectoria**, el motor marca saturación histórica y suspende las conclusiones de brecha y recuperación de esa trayectoria, incluso si el período final ya no está saturado. Las alternativas también han de respetar capacidad en cada período.
 
 ### 3. Fórmulas: comparar mecanismos M0–M3 sin reprogramar
 
@@ -157,6 +157,6 @@ Para medir HID en organizaciones reales se requiere el Study 0 de 01K, evaluador
 
 ## Pruebas y siguiente nivel
 
-[test_toy.py](test_toy.py) ejecuta **33 pruebas** de invariantes y resultados numéricos: transferencias de suma cero; permisos, derechos, costes, exclusiones, frontera de igual servicio; distinción entre HID observado/potencial; red N/L/E/R, retiro, saturación de capacidad, sinergia que impide comparación; reproducción de fórmulas y barridos CLI. El mismo código está incluido en la verificación de PR para comprobar su ejecución.
+[test_toy.py](test_toy.py) ejecuta **34 pruebas** de invariantes y resultados numéricos: transferencias de suma cero; permisos, derechos, costes, exclusiones, frontera de igual servicio; distinción entre HID observado/potencial; red N/L/E/R, retiro, saturación de capacidad, sinergia que impide comparación; reproducción de fórmulas y barridos CLI. El mismo código está incluido en la verificación de PR para comprobar su ejecución.
 
 El paso científico posterior es preregistrar y ejecutar HID2-01…10 en [01K-A02](../../../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md), empezando por pares con **mismo Y, recursos, información ex ante, autoridad y costes completos**. Después podrán añadirse escenarios con selección de propuestas endógenas, planificación óptima de transición a lo largo del tiempo, incertidumbre aleatoria y fallos de información, siempre versionados sin alterar los estudios originales.
