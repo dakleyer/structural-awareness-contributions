@@ -24296,7 +24296,8 @@
       "138_applied": false,
       "whole_corpus_semantic_review_complete": false
     }
-  ],
+  ]
+,
   "uc21_official_revalidation_epochs": [
     {
       "date": "2026-10-15",
@@ -24321,7 +24322,8 @@
       "six_pass_programme_complete": false,
       "audit": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#official-uc-21-and-canonical-corpus-revalidation--15-october-2026"
     }
-  ],
+  ]
+,
   "uc21_main_text_review_epochs": [
     {
       "date": "2026-10-18",
@@ -24352,25 +24354,25 @@
     }
   ],
   "corpus_integrity_recheck_epochs": [
-    {
-      "date": "2026-10-23",
-      "base": "e59430d264c66c3cbd8be67b9ae7b4ca067972d7",
-      "head": "f44d9f2ed04232124c56fb94e6dc0d9cf14616d8",
-      "path_count": 2396,
-      "changed_existing": 24,
-      "new_files": 0,
-      "deleted_files": 0,
-      "markdown_count": 1040,
-      "checker_reports": 4,
-      "live_fragment_occurrences": 16,
-      "unique_fragment_targets": 10,
-      "candidate_ids": [
-        148,
-        149,
-        150
-      ],
-      "canonical_edits_in_this_review": 0,
-      "passage_scope": "All changed textual units plus full-tree links/sections/packages; not independent scientific closure."
-    }
-  ]
+  {
+    "date": "2026-10-23",
+    "base": "e59430d264c66c3cbd8be67b9ae7b4ca067972d7",
+    "head": "f44d9f2ed04232124c56fb94e6dc0d9cf14616d8",
+    "path_count": 2396,
+    "changed_existing": 24,
+    "new_files": 0,
+    "deleted_files": 0,
+    "markdown_count": 1040,
+    "checker_reports": 4,
+    "live_fragment_occurrences": 16,
+    "unique_fragment_targets": 10,
+    "candidate_ids": [
+      148,
+      149,
+      150
+    ],
+    "canonical_edits_in_this_review": 0,
+    "passage_scope": "All changed textual units plus full-tree links/sections/packages; not independent scientific closure."
+  }
+]
 }
