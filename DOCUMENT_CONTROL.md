@@ -16,7 +16,7 @@ This file is the single current repository-wide rule for document identity, role
 
 The [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) remains authoritative for the **method of substantive document reviews**, including human-readable review passes and specific before/after proposals. [Claim and Attribution Boundaries](./governance/CLAIM_BOUNDARIES.md) govern the proper qualification of scientific, institutional and external claims. The [EA Canonical Corpus Manifest](./research/ecosystem-awareness/baseline/CANONICAL_CORPUS_MANIFEST.md) and applicable source-specific freeze, release, provenance and custody records govern **their own identified sources and editions**, not all repository documents.
 
-Preserve signed, frozen, submitted and preregistered source obligations within their exact scope. An owner-authorized file-specific restriction may be stricter than this general policy; it must be visible in the source or register. No generic cleanup instruction silently overrides such restrictions.
+Preserve signed, frozen, submitted and preregistered source obligations within their exact scope. **Until the register is reconciled, source-specific owner restrictions in the preserved predecessor remain binding for the exact named files and decisions** (including protected routers, append-only materials and canonical presentations); the legacy document is not thereby a second general policy. An owner-authorized file-specific restriction may be stricter than this general policy. Later scoped owner decisions take precedence over earlier contradictory historical status notes only when verified; unresolved conflicts must be reported. No generic cleanup instruction silently overrides such restrictions.
 
 ## 2. GitHub is the technical change record
 
@@ -69,7 +69,7 @@ Keep the public programme navigation distinct from internal technical reading ro
 
 Each controlled navigation family has one owner. Cross-links do not transfer ownership. The existing nine controlled navigation owner paths are the transitional baseline: root README; Ecosystem Positioning README; EA entry README; EA baseline README; EA FG-TIDA README; RS-00E-Q1a fixture README; Regime Awareness README; MSCA README; submissions README. The register shall identify these explicitly. Other package READMEs may describe executable packages without becoming extra programme-level navigation owners.
 
-Do not delete or merge a README merely to reduce its numerical count. Moves, renames, splits, consolidation and hierarchy changes require scoped authorization, preserved source content, inbound-link/anchor assessment, reader continuity and exact before/after verification. Current README and link counts should be **generated**, not manually restated as invariant numbers.
+Do not delete or merge a README merely to reduce its numerical count. Moves, renames, splits, consolidation and hierarchy changes require scoped authorization, preserved source content, inbound-link/anchor assessment, reader continuity and exact before/after verification. A presentation-link update must never truncate or regenerate the substantive Ecosystem Positioning router. Canonical presentation editions, original exports and presentation-specific integrity controls retain their existing provenance. Current README and link counts should be **generated**, not manually restated as invariant numbers.
 
 ## 7. Review, incorporation and promotion
 
