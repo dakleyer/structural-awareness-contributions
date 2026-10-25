@@ -272,7 +272,7 @@ Los resultados analíticos recreados de 20 ciclos pertenecen a [recreación sint
 
 ## 11. Estado, propietarios y ruta de estudio
 
-**Realización ejecutable:** [toy económico paramétrico v0.1](studies/parametric-economic-toy-v0.1/README.md): (1) búsqueda de óptimos entre configuraciones conjuntamente factibles; (2) simulador analítico de producción, interdependencias, obligaciones, d_t, D_T, HID condicional y brechas entre trayectorias; (3) M0–M3 con n variable; más CLI, seis ejes de sensibilidad y 33 pruebas deterministas. Los [resultados de referencia](studies/parametric-economic-toy-v0.1/results/REFERENCE_RESULTS_v0.1.json) se derivan del programa publicado. Es un instrumento de estudio, no una inferencia del comportamiento empírico.
+**Realización ejecutable:** [toy económico paramétrico v0.1](studies/parametric-economic-toy-v0.1/README.md): (1) búsqueda de óptimos entre configuraciones conjuntamente factibles; (2) simulador analítico de producción, interdependencias, obligaciones, d_t, D_T, HID condicional y brechas entre trayectorias; (3) M0–M3 con n variable; más CLI, seis ejes de sensibilidad y 34 pruebas deterministas. Los [resultados de referencia](studies/parametric-economic-toy-v0.1/results/REFERENCE_RESULTS_v0.1.json) se derivan del programa publicado. Es un instrumento de estudio, no una inferencia del comportamiento empírico.
 
 - **Formalizado ahora:** objetos, unidades, modelos M0–M3, reglas de admisión, contabilidad de reajuste, diferenciación de deuda y mecanismos rivales.
 - **Demostrado sólo dentro de toys:** posibilidad de producir más mientras crecen las brechas bajo parámetros explícitos; saturación de unanimidad; curvatura condicional de redes densas; no se infiere universalidad.
