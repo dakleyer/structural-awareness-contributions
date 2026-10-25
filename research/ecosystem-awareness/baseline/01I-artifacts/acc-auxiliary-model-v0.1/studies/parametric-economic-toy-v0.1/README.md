@@ -11,10 +11,12 @@ No modifica ni reinterpreta el [piloto económico ya congelado](../economic-pilo
 Desde este directorio del repositorio:
 
 ~~~bash
-python3 -B -m unittest discover -s . -p test_toy.py -v
+python3 -B -m unittest discover -s . -p 'test_*.py' -v
 
 python3 -B run.py portfolio scenarios/portfolio.json --summary
+python3 -B run.py portfolio scenarios/portfolio_hid.json --summary  # HID primario por cada óptimo
 python3 -B run.py network scenarios/network.json --summary
+python3 -B run.py network scenarios/network_abcd.json --summary   # ABCD: física igual, cualificación/política distintas
 python3 -B run.py formulas scenarios/formulas.json
 
 python3 -B run.py portfolio scenarios/portfolio.json --set approvals.CFO=false --summary
@@ -141,7 +143,11 @@ Se preserva la taxonomía del [01K](../../../../01K_HUMAN_INTELLIGENCE_CAPACITY_
 - **ACW:** trabajo compensatorio evitable sólo si existe un contrafactual seguro y comparable; en estos ejemplos, la clasificación es **asumida sintéticamente**, no auditada.
 - **UNKNOWN:** horas no calificadas, que el programa no adjudica por defecto.
 
-El código ofrece **HICR_time**, **HID_observed**, **H_releasable**, **HICT_condicional**, **HID_potential**, **F-HICT_condicional** y **HID_spent_condicional** con el denominador adecuado y el ρ declarado. En portfolio se buscan estados del mismo servicio y valor no inferior; en network se buscan trayectorias de output igual, válidas y con coste completo no superior. Si no hay medición válida, devuelve **null/NOT_MEASURED**. Sólo se calcula capacidad de contribución **según la métrica propuesta**, no IQ, talento ni dignidad, ni se presupone pérdida de habilidades.
+**Resultado primario de HID en el optimizador:** para cada óptimo técnico y gobernable de recursos/servicio comparables se calcula directamente `HID(S,O_j) = (Σ inputs informacionales humanos(O_j) − Σ inputs informacionales humanos(S)) / H_común`, conservando **cada vector y cada óptimo** (sin combinarlos). El estado actual y el óptimo deben declarar entradas humanas genuinas comparables por dimensión; de faltar un vector, dominancia, recursos o servicio equivalentes, se informa `NOT COMPARABLE`, no se infiere el resultado a partir de ACW. Se publica la diferencia en horas y ratio. Los dos óptimos del [ejemplo HID](scenarios/portfolio_hid.json) producen brechas de 13 y 15 horas. La [auditoría formal y contraste ABCD](HID_OPTIMUM_ABCD_AUDIT_v0.1.md) registra supuestos, contrafactuales y pruebas.
+
+**Comparación ABCD:** el [escenario de red](scenarios/network_abcd.json) mantiene constante física, producción y recursos en cuatro brazos, y varía **cualificación de dependencias y política efectiva**. Mide curvas de HID directo, Δ² en horas y Δ² en ratio por separado, con nulos y sensibilidad; ABCD es relativo a la pregunta/proceso, no una escala numérica de cobertura. Los costes NEO de inspección se conservan fuera de HID.
+
+**Indicadores auxiliares conservados:** el código ofrece **HICR_time**, **HID_observed**, **H_releasable**, **HICT_condicional**, **HID_potential**, **F-HICT_condicional** y **HID_spent_condicional** con el denominador adecuado y el ρ declarado. En portfolio se buscan estados del mismo servicio y valor no inferior; en network se buscan trayectorias de output igual, válidas y con coste completo no superior. Si no hay medición válida, devuelve **null/NOT_MEASURED**. Sólo se calcula capacidad de contribución **según la métrica propuesta**, no IQ, talento ni dignidad, ni se presupone pérdida de habilidades.
 
 Para medir HID en organizaciones reales se requiere el Study 0 de 01K, evaluadores y auditoría de reemplazabilidad. La hipótesis de deterioro de capacidad humana o ρ<1 exige un estudio longitudinal posterior; no está embebida como «ley» en las ecuaciones.
 
@@ -152,11 +158,11 @@ Para medir HID en organizaciones reales se requiere el Study 0 de 01K, evaluador
 3. **No confundir stock con flujo:** O_t son obligaciones, d_t carga en cada período, D_T exposición acumulada, Δ²d_t curvatura. Ninguna identidad prueba aceleración universal.
 4. **No confundir veto con dimensión:** sólo gates declarados y actores legítimos; las dimensiones agregadas por sí solas pueden aumentar producción y reducir, mantener o aumentar deuda.
 5. **No equiparar historias y estados:** network presenta brechas **pathwise desde origen común**; la frontera accesible en un estado actual exige el motor portfolio o un problema dinámico de reoptimización con transición explícita.
-6. **No concluir HID empírico:** las cifras son sintéticas; si no se marca acw_classified_synthetically, el motor no publica un HID_observed numérico. ρ y HICT son condicionados.
+6. **No concluir HID empírico:** las cifras son sintéticas; si no se marca acw_classified_synthetically, el motor no publica un HID_observed numérico. La resta directa HID por óptimo sólo usa **vectores informacionales declarados** y comparadores válidos, nunca convierte ACW en GIC de forma oculta. ρ y las conversiones mediadas por ACW son condicionadas.
 7. **Causación no automática:** p, topología, retiro y sinergia están en la ecuación; un barrido identifica sensibilidad y regiones posibles, no confirma el mecanismo empresarial sin comparadores medidos.
 
 ## Pruebas y siguiente nivel
 
-[test_toy.py](test_toy.py) ejecuta **34 pruebas** de invariantes y resultados numéricos: transferencias de suma cero; permisos, derechos, costes, exclusiones, frontera de igual servicio; distinción entre HID observado/potencial; red N/L/E/R, retiro, saturación de capacidad, sinergia que impide comparación; reproducción de fórmulas y barridos CLI. El mismo código está incluido en la verificación de PR para comprobar su ejecución.
+[test_toy.py](test_toy.py) conserva **34 pruebas originales** de invariantes y resultados numéricos; [test_hid_optimum.py](test_hid_optimum.py) agrega **18 pruebas**, sumando **52 verificaciones sintéticas locales**, que cubren HID por óptimo, no derivación de ACW, nulidad/comparabilidad y ABCD con controles. Las pruebas originales cubren: transferencias de suma cero; permisos, derechos, costes, exclusiones, frontera de igual servicio; distinción entre HID observado/potencial; red N/L/E/R, retiro, saturación de capacidad, sinergia que impide comparación; reproducción de fórmulas y barridos CLI. El mismo código está incluido en la verificación de PR para comprobar su ejecución.
 
 El paso científico posterior es preregistrar y ejecutar HID2-01…10 en [01K-A02](../../../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md), empezando por pares con **mismo Y, recursos, información ex ante, autoridad y costes completos**. Después podrán añadirse escenarios con selección de propuestas endógenas, planificación óptima de transición a lo largo del tiempo, incertidumbre aleatoria y fallos de información, siempre versionados sin alterar los estudios originales.

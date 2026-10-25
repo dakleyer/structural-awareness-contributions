@@ -58,9 +58,15 @@ def compact(result):
             "G_path_governable": row["G_path_governable"],
             "HID_observed": row["human"]["HID_observed"],
             "HID_potential": row["human"].get("HID_potential"),
+            "epistemic_ABCD_status": result["epistemic_ABCD_experiment"]["status"],
             **result["summary"],
         }
     if result["mode"] == "portfolio":
+        direct = result["hid"]["primary_optimum_input_gap"]
+        technical_hid = [s["HID_direct_hours"] for s in direct["technical_utility_optima"]
+                         if s["HID_direct_hours"] is not None]
+        governed_hid = [s["HID_direct_hours"] for s in direct["governance_utility_optima"]
+                        if s["HID_direct_hours"] is not None]
         return {
             "mode": "portfolio", "n": result["dimension_count"],
             "G_technical": result["G_technical"], "G_governable": result["G_governable"],
@@ -71,6 +77,12 @@ def compact(result):
             "suboptimal_governable": result["suboptimal_governable"],
             "HID_observed": result["hid"]["HID_observed"],
             "HID_potential": result["hid"].get("HID_potential"),
+            "HID_direct_technical_optima_count": len(direct["technical_utility_optima"]),
+            "HID_direct_comparable_technical_count": len(technical_hid),
+            "HID_direct_technical_min_hours": min(technical_hid) if technical_hid else None,
+            "HID_direct_technical_max_hours": max(technical_hid) if technical_hid else None,
+            "HID_direct_governance_min_hours": min(governed_hid) if governed_hid else None,
+            "HID_direct_governance_max_hours": max(governed_hid) if governed_hid else None,
             "technical_optimum_projects": result["technical_optimum"]["projects"],
         }
     return {"mode": "formulas", **result["rows"][-1]}

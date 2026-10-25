@@ -2,6 +2,8 @@
 
 **Papel:** estudio **auxiliar sintético ejecutable** dentro de ACC — Modelo auxiliar, en continuidad con el núcleo económico y el anexo [01K-A02](../../../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md). **Autor conceptual:** Iván Abril Palma / The Integral Management Society. **Implementación de estudio:** Codex. **Edición:** 25-10-2026. **Evidencia:** 19 pruebas unitarias locales del puente completadas; no son ensayos de campo ni la campaña HID2, que sigue **NOT RUN**.
 
+**Ubicación del resultado primario en el optimizador:** la resta directa de inputs informacionales humanos contra **cada óptimo**, con control de recursos/servicio y prueba ABCD, está implementada y auditada en el [toy paramétrico / HID por óptimos](../parametric-economic-toy-v0.1/HID_OPTIMUM_ABCD_AUDIT_v0.1.md). Este estudio causal conserva su función **auxiliar**: ensayar Attribution Gap, Informational Friction y obligaciones; no recalcula ni reemplaza la medición principal ni crea otro propietario de HID.
+
 ## Resultado de la auditoría de integración
 
 El corpus **sí** contenía los mecanismos H0–H7, diez diseños experimentales HID2-01…10 y un programa que ejecuta óptimos/recursos, las redes L/N/E/R, obligaciones, ACW y diferencias de segundo orden. La cobertura no era completa: faltaban entradas separadas para las **mediciones de las tres series**, un contraste operativo de mapa→acción→flujo y un libro explícito de altas/extinciones monetarias. Este anexo completa **un primer nivel analítico reproducible** sin sustituir el toy precedente ni los protocolos de origen.
