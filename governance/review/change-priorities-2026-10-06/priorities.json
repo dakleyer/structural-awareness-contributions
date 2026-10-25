@@ -8917,10 +8917,10 @@
       "effort": "Bajo",
       "priority": "Primera",
       "wave": "Audit readability and historical review reception",
-      "state": "Prepared; not applied",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": false,
+      "state": "Applied — owner-authorized DC-GH-01 second assessment, 25 October 2026",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": true,
       "positive_impact_proven": false,
       "benefit": "One four-backtick closer is attached to the final source sentence. GFM therefore treats lines 1313–3008 as one code block and hides the 14 October restoration-plan heading and later audit navigation. Insert one separator LF before the existing delimiter. All 22,330 historical-source bytes and every other original byte remain exact. The five incoming plan-fragment references can then reach the intended heading. This is high impact for audit reading, not a new scientific result.",
       "riskReason": "Bounded review-format or historical href edit; preserve quoted source bytes and distinguish historical proposed/applied states. No canonical theory, experiment or result changes.",
@@ -8931,7 +8931,10 @@
         "Iván named wave GO"
       ],
       "preparation": "Complete literal units and candidate-only verification published in owner VNext.",
-      "gate": "Await Iván named wave GO."
+      "gate": "Applied in PR26 following Iván’s named instruction for the small clarifications and second audit; no remaining incorporation gate for this exact repair.",
+      "application_source_commit": "b9499c34e8690acdc9a1d1b6f274895a94c4c4b9",
+      "application_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/26",
+      "application_scope": "Exact published units only; applied card retired with its original anchor and immutable pre-application history retained."
     },
     {
       "id": 149,
@@ -8945,11 +8948,11 @@
       "pairs": [
         {
           "before": "| [Condicionar el tamaño y coste del contexto útil](../../research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |",
-          "after": "| [Condicionar el tamaño y coste del contexto útil](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |"
+          "after": "| [Condicionar el tamaño y coste del contexto útil](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |"
         },
         {
           "before": "| [Mostrar todo B_Cart en el índice MSCA](../../standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-bcart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |",
-          "after": "| [Mostrar todo B_Cart en el índice MSCA](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-b_cart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |"
+          "after": "| [Mostrar todo B_Cart en el índice MSCA](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-b_cart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |"
         },
         {
           "before": "One real navigation defect is in the existing Extensions VNext. An orphaned four-backtick line makes GitHub display later audits and the applied127 receipt as code. [137 in the baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) publishes the two exact passages: remove five delimiter bytes and add the dated receipt. This is a bounded repair of audit readability, with high reading impact and low risk/effort. EP’s apparent fence warning was only a parser limitation; its public headings already render correctly.",
@@ -8985,10 +8988,10 @@
       "effort": "Bajo",
       "priority": "Siguiente",
       "wave": "Audit readability and historical review reception",
-      "state": "Prepared; not applied",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": false,
+      "state": "Applied — owner-authorized DC-GH-01 second assessment, 25 October 2026",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": true,
       "positive_impact_proven": false,
       "benefit": "Retirement of already-applied cards must not erase their incoming audit route. Replace only the affected hrefs with a fixed, verified pre-retirement edition; retain original prose and applied states. The MSCA historical fragment also needs its literal b_cart spelling. No card is reinstated as pending.",
       "riskReason": "Bounded review-format or historical href edit; preserve quoted source bytes and distinguish historical proposed/applied states. No canonical theory, experiment or result changes.",
@@ -8999,7 +9002,11 @@
         "Iván named wave GO"
       ],
       "preparation": "Complete literal units and candidate-only verification published in owner VNext.",
-      "gate": "Await Iván named wave GO."
+      "gate": "Applied in PR26 following Iván’s named instruction for the small clarifications and second audit; no remaining incorporation gate for this exact repair.",
+      "application_source_commit": "b9499c34e8690acdc9a1d1b6f274895a94c4c4b9",
+      "application_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/26",
+      "application_scope": "Exact published units only; applied card retired with its original anchor and immutable pre-application history retained.",
+      "destination_revalidation": "Two old00N/MSCA headings are absent at the previously prepared e59430d pin. Corrected exact pairs were published in PR26 commit2ff1367 before incorporation;5c8024b contains both complete historical sections."
     },
     {
       "id": 150,
@@ -9021,10 +9028,10 @@
       "effort": "Bajo",
       "priority": "Siguiente",
       "wave": "Audit readability and historical review reception",
-      "state": "Prepared; not applied",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": false,
+      "state": "Applied — owner-authorized DC-GH-01 second assessment, 25 October 2026",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": true,
       "positive_impact_proven": false,
       "benefit": "Retirement of already-applied cards must not erase their incoming audit route. Replace only the affected hrefs with a fixed, verified pre-retirement edition; retain original prose and applied states. The MSCA historical fragment also needs its literal b_cart spelling. No card is reinstated as pending.",
       "riskReason": "Bounded review-format or historical href edit; preserve quoted source bytes and distinguish historical proposed/applied states. No canonical theory, experiment or result changes.",
@@ -9035,7 +9042,10 @@
         "Iván named wave GO"
       ],
       "preparation": "Complete literal units and candidate-only verification published in owner VNext.",
-      "gate": "Await Iván named wave GO."
+      "gate": "Applied in PR26 following Iván’s named instruction for the small clarifications and second audit; no remaining incorporation gate for this exact repair.",
+      "application_source_commit": "b9499c34e8690acdc9a1d1b6f274895a94c4c4b9",
+      "application_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/26",
+      "application_scope": "Exact published units only; applied card retired with its original anchor and immutable pre-application history retained."
     }
   ],
   "audit_coverage": [
