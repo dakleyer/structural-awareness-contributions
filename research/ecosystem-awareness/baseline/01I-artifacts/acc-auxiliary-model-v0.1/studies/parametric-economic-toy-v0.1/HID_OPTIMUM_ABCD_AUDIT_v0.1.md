@@ -97,3 +97,9 @@ python3 -B run.py network scenarios/network_abcd.json --set unqualified_dependen
 La batería conserva las **34 pruebas de regresión** existentes y agrega **18 controles específicos**: independencia respecto a ACW; cada óptimo; invalidez por cambios de recursos, servicio o autoridad; ausencia de inferencia si faltan vectores; igualdad de física; curvatura absoluta frente a ratio; nulo de pérdida; topología dispersa; recalificación y rechazo de contribución negativa. **Estado: 52 pruebas locales en total; ejecución sintética, no HID2 original.**
 
 Se mantienen los IDs de 01K/UC21/R01 y los resultados congelados. Los mecanismos de Attribution Gap e Informational Friction conservan su [estudio puente separado](../causal-bridges-v0.1/README.md). [Estudio de segundo orden 01K-A02](../../../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md).
+
+## 5. Condición de promoción: benchmark A no es tecnología EA probada
+
+En el escenario ABCD actual, `A_result` conoce/puede cualificar todos los enlaces operativos y su coste adicional de verificación `neo_hours_per_qualified_link` se fija en **cero**. Es una **referencia ideal sintética**, no una prueba de que una implementación real de Ecosystem Awareness alcance esa cualificación ni de que su obtención sea gratuita. La pérdida de inputs GIC por cada enlace sin cualificación está igualmente declarada como parámetro experimental, no observada desde datos humanos.
+
+Por ello, la reducción de 8,4 horas frente a A y su curvatura no son **efecto causal neto atribuido a EA**. La comparación crítica siguiente debe incluir un incumbente técnicamente fuerte con acceso legítimo a la misma información, tiempos y costes completos de obtención/validación de B/C/D, ablations y nulos preregistrados. Véase la [auditoría de promoción del modelo social](../../review/PROMOTION_AUDIT_2026-10-25.md). El cálculo primario HID queda implementado aunque esa hipótesis tecnológica permanezca abierta.

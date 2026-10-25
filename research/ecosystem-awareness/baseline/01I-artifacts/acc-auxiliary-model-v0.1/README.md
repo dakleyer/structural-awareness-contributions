@@ -22,6 +22,7 @@ Las perspectivas humanas, epistémicas e institucionales se integran en esa preg
 |---|---|
 | [Núcleo técnico económico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) | Definiciones económicas completas, restricciones, ecuaciones, cifras ilustrativas, familias rivales y falsadores |
 | [01K-A02 — experimentos HID de segundo orden](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) | Hipótesis de aceleración, medición de deuda humana, controles y agenda experimental aún no ejecutada |
+| [Auditoría de promoción del modelo social — 25 octubre](review/PROMOTION_AUDIT_2026-10-25.md) | Decisión sobre PRs y ramas, límites del experimento ABCD, pruebas, gates para promover a la rama principal sin asumir eficacia de EA |
 | [Toy económico ejecutable y parametrizable](studies/parametric-economic-toy-v0.1/README.md) | Ejecutar óptimos, costes, permisos, HID directo por cada óptimo, contraste ABCD, crecimiento n→n+1, aceleración y barridos; 52 pruebas sintéticas |
 | [Auditoría: HID primario por óptimo y experimento ABCD](studies/parametric-economic-toy-v0.1/HID_OPTIMUM_ABCD_AUDIT_v0.1.md) | Fórmula por resta de inputs informacionales humanos, comparabilidad, controles ABCD y aceleración sin ACW como sustituto |
 | [Puentes experimentales HID · Attribution Gap · Informational Friction · obligaciones](studies/causal-bridges-v0.1/README.md) | Medir diferencias de inputs humanos frente a óptimos comparables y contrastar, con controles sintéticos, atribución, mapa/flujo y alta/extinción de obligaciones; 19 pruebas nuevas |

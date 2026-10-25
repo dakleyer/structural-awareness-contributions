@@ -43,7 +43,7 @@ Variar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizon
 
 ### Medidas de contribución humana
 
-Toda medida declarará contrafactual, horizonte, denominador y evidencia de evitabilidad. Separar cuota observada de ACW, capacidad liberable, contribución genuina potencial y recuperación real. Si no hay convertibilidad o referencia comparable, conservar vector, intervalo o no establecido. HICT y HICR conservan su definición propietaria. Una pérdida de habilidades exige observaciones distintas del trabajo ACW eliminado; no se deduce del cociente de horas.
+Toda medida declarará contrafactual, horizonte, denominador y evidencia de evitabilidad. **En el optimizador sintético, el resultado HID primario se obtiene para cada óptimo O_j por resta de los mismos componentes de inputs humanos informacionales respecto a S y división por H_común.** El programa no calcula esa diferencia desde ACW, recuperación o un óptimo compuesto de varios estados. Si faltan comparabilidad, dominancia por componentes, autoridad o datos de contribución, publica indeterminación. [Detalle y pruebas](studies/parametric-economic-toy-v0.1/HID_OPTIMUM_ABCD_AUDIT_v0.1.md). Separar cuota observada de ACW, capacidad liberable, contribución genuina potencial y recuperación real. Si no hay convertibilidad o referencia comparable, conservar vector, intervalo o no establecido. HICT y HICR conservan su definición propietaria. Una pérdida de habilidades exige observaciones distintas del trabajo ACW eliminado; no se deduce del cociente de horas.
 
 ## Propuesta y transición
 
@@ -66,7 +66,9 @@ Esta secuencia opera el experimento. No prescribe el método interno del agente 
 
 ## Primera instancia mínima
 
-**Implementación exploratoria adicional:** [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) con espacios de estados y fronteras, evolución de n dimensiones, clasificación humana condicional y barridos factoriales. Complementa el estudio fijo, pero sus pares son sintéticos; no modifica ningún identificador congelado ni el contrato de un adaptador DDS/UC21.
+**Implementación exploratoria adicional:** [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) con espacios de estados y fronteras, evolución de n dimensiones, HID directo por óptimo comparable, clasificación humana auxiliar y barridos factoriales, incluido contraste ABCD a física constante con costes explícitos. Complementa el estudio fijo, pero sus pares son sintéticos; no modifica ningún identificador congelado ni el contrato de un adaptador DDS/UC21.
+
+**Condición para estudiar la hipótesis EA→HID:** los resultados ABCD actuales son una prueba sintética de mecanismo y nulo, **no** ventaja causal o económica acreditada de Ecosystem Awareness. La siguiente comparación debe incluir A-only, incumbente competente con evidencia equivalente, EA cualificando A/B/C/D con coste completo y ablaciones; reportar por separado HID_horas, HID_ratio y sus segundas diferencias. Véase la [auditoría de promoción](review/PROMOTION_AUDIT_2026-10-25.md).
 
 **Puentes de las series de investigación:** [batería sintética y tabla de cobertura](studies/causal-bridges-v0.1/README.md). Añade (a) HID=HICT−HICR como resta por inputs humanos entre estado actual y cada alternativa factible no dominada con igual recurso, servicio y derechos; (b) observaciones de dependencia y reconocimiento desde fuentes independientes y contraste de retiro; (c) mapa/flujo con back-action y control de revisión; (d) contabilidad separada de obligaciones monetarias. Sus 19 tests no satisfacen el freeze, los oráculos, los requisitos humanos ni la ejecución del HID2 original.
 
