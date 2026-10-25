@@ -1378,3 +1378,2656 @@ For each named wave present 5–10 complete units, the actual source/receiving e
 **First proposed decision package:** the three content pairs (eight selected blocks), their own-source review reception, and only the routing units whose receiving content and protection decisions are ready. The seven operative-policy refinements, registry seed, verifier implementation, unique check/CODEOWNERS and branch-setting activation are separate controllable packages. No requirement to accept all 29 prospective units together is created.
 
 The plan is complete when the supported changes are in their maintained sources, every reviewed unit has a current disposition, the remaining VNext contain actual work rather than already-applied cards, and the demonstrated GitHub safeguards enforce that practice for the intended actors. Scientific evidence tasks keep their proper open status.
+
+
+## 14.11 Completed review-unit adjudication — 25 October 2026
+
+This continuation completes the plan-level examination of all **75 existing review candidates** at Contributions `e79cae15cbf0f015021718f1b1a95b561643d8da`. Each now has a specific source identity, current disposition and either a concrete receiving change, an explicit no-change judgement, an edition decision or a defined evidence deliverable. It replaces the open-ended 75-row work queue in 14.9 as the current planning disposition. Earlier text and all original source editions remain preserved.
+
+The plan distinguishes publication, incorporation and evidence work. No proposed source promotion, scientific claim, program, registry configuration, GitHub permission or experiment is applied by publishing this continuation. Existing scientific reviews keep their stated pass coverage; this is the consolidated action plan, not a newly claimed sixth scientific pass.
+
+**Substantive reception:** twelve selected blocks can enter three maintained readers: three Requirements clarifications, two general-interface explanations and seven dated source-state/EA-only interface explanations. Action unit 41 replaces the earlier unit 10 so the 05A source receives one coherent addition. **Forty-two current Contributions pairs**, two separately gated external pairs and two existing future-file candidates now define the concrete change inventory. Action-unit numbers belong to this plan; they are not the old change-ledger IDs.
+
+**Identity corrections:** thirteen owner bindings needed an explicit correction/completion from the earlier heuristic candidate table. In particular,01A_A01_VNext owns the FH-C/FH-E note,01A_VNext owns dual origins,02A_VNext owns 02A, and five technology reviews own DDS_STUDY.md rather than nonexistent README.md files. The three-part 03 and 05 sources retain one logical review each. Seven feasibility/extensions pairs are retained editions, with one proposed current continuation per family; no file is removed or renamed.
+
+### 14.12 Decision waves and concrete remaining deliverables
+
+| Wave | Exact units / deliverable | Expected benefit | Risk / effort | Required decision |
+|---|---|---|---|---|
+| First substantive/readability wave |2–7,9,41: six operative-control refinements, two 04 blocks and seven 05A blocks | High: clear promotion outcomes and usable timing/source/interface readings | Low–Medium / Medium | Named eight-unit GO; preserve the 19 September snapshot and dated later evidence |
+| Requirements content and identity |8,11–17,27–28, plus the already proposed dependent registry record | High: one maintained Requirements reading with all seven identity/status notices consistent | High / Medium | Accept the complete ten-unit packet and source/consumer identity together; no isolated header promotion |
+| Review identities and first-reader state |31–40 | High for edition ownership; Medium for three opening/remnant repairs | Medium for 31–37; Low for 38–40 / Medium | Select the seven active continuations; preserve retained editions, applied histories and working anchors |
+| Case-reading precision |30; E145R/E146R are separate external choices | High: dated follow-up and current official-entry/PR provenance | Medium internally; Low externally / Medium | Contributions 30 only on its GO; official maintainer/PR-owner action is separate |
+| Source navigation |18–25 after receiving content and protected-source decisions | High: maintained reading without foreign-review dependence | Medium–High / Medium | EA successor acceptance and exact EP owner exception before protected replacements |
+| Checker implementation |42/43, then the role/inverse safeguards and native activation described below | High: exact quotation handling and demonstrated controls | Medium / High | Code-owner decision; trusted verifier/actor tests before required-check activation |
+| Capacity contract |29 | High: a qualified meaning for HumanTime, commitments and useful deadlines | High / High | Explicit chosen alternative and complete consumer reconciliation;93/107–109 stay applied |
+
+The first wave is an eight-unit proposal, not approval to execute it. Requirements identity, capacity, protected routers, external publication and account settings remain separate decisions.
+
+#### Concrete evidence and decision packets
+
+**Requirements maintained edition.** Units 8,11–17,27–28 form one ten-unit content/identity packet. Three interpretive blocks enter the existing successor; all seven visible identity/status notices and index/manifest reception agree. The frozen predecessor remains the test contract for its studies.
+
+Expected impact **High**; risk **High**; effort **Medium**. Completion: Named content/identity decision; frozen predecessor equality, unchanged S/T/H/KPI rows except approved S10 lineage, current consumer/registry alignment.
+
+**General interface reception and H06.** Unit 9 receives two clocks and qualified human outputs. H06 separately delivers a 176-row input/EHD/F9 material-profile matrix: actual A versus resolvable A_ref, decision-time access, stale/missing/source-unbound cases, owner and expected UNKNOWN.
+
+Expected impact **High**; risk **Medium**; effort **High**. Completion: The explanatory addition may proceed on its own. A changed wire/semantic contract needs the concrete matrix and receiver acceptance; no O7/IF-S14 or mandatory new kernel field.
+
+**Dated source reception and bilateral profile.** Unit 41 replaces 10 and receives seven blocks: three dated evidence distinctions plus four scoped EA-only architectural readings. For a later profile select one producer/receiver and record native inputs, actual EA result, retained source verdict, authority, version/time/freshness, acknowledgement/effect and positive/negative cases.
+
+Expected impact **High**; risk **Medium**; effort **High**. Completion: Keep 15/21 October records dated. The later official form reports seven H0–H6 rows; do not silently replace that protocol with the four earlier prospective cases or treat an offer as an accepted subscription.
+
+**Protected EA successor.** Produce the exact approved-versus-observed EA delta and identify the decision for the observed successor. The two blob identities remain visible. Accept the named successor or choose a specified compatible edition before router 21–22.
+
+Expected impact **High**; risk **High**; effort **Medium**. Completion: A current observation is not approval. No rollback, automatic approved_blob refresh or protected-source replacement follows from this plan.
+
+**One active continuation per parallel edition family.** The seven complete source comparisons are attached below. Select the extensions companion for current continuation, retain feasibility source/review editions as history and apply 31–37 only with that identity decision. Keep one logical map, original paths and all exact evidence packages.
+
+Expected impact **High**; risk **Medium**; effort **Medium**. Completion: Fencing source bodies are identical. HEW/protocol differ in stated reader/terminology; RATS/SPIFFE/STPA in method framing; completion in epoch notes. Preserve every difference rather than flattening files.
+
+**Qualified HumanTime alternative.** Unit 29 rebases the real optional alternative against the current 93 formula including HumanTime. Bind W, review completion versus action/effect deadline, competence-specific demand, commitments, proof class, UNKNOWN and actual selected consumers.
+
+Expected impact **High**; risk **High**; effort **High**. Completion: Read 01K-A01, UC03 v0.5, EHD/01J, Operation and HEW together. A necessary load inequality is not a scheduling proof and no exact scheduler is imposed by default.
+
+**Benchmark v0.3 design adoption.** Deliver the remaining §§9/13 source-to-requirement, comparator, ablation, complexity/burden and admission-owner decisions in the existing benchmark development document.41 from the old ledger is already applied and is not a new task.
+
+Expected impact **High**; risk **High**; effort **High**. Completion: Retain v0.2 until an explicit bounded design decision. Later execution needs its own frozen candidates, admission, failure denominators, strong peers and negative controls.
+
+**Selected source/reference/harness correspondence.** For one declared use provide source facts→private reference predicates→candidate observable fields→error/UNKNOWN→caller decision; include CTv1 ordered arrays, stable-key/list-of-pairs rejects, positive controls, retained admitted failures and actual effect observation.
+
+Expected impact **High**; risk **High**; effort **High**. Completion: Use A01/A03/RS-Q1 a/C3 and the selected caller; preserve all original fixture/code/result blobs. Test-domain truth and a green self-test do not establish open-world admission.
+
+**Next bounded R01 instrument packet.** Use the already incorporated 110/111 route to specify one source/reference/control/caller packet: exact theorem assumptions, finite/DAG domain, solving versus evaluation oracle, schema/package versions, sidecar, costs/horizon and stop condition.
+
+Expected impact **High**; risk **High**; effort **High**. Completion: Tasks 1/2 keep their bounded closure;3–8 stay inactive. Registration, calibration, semantic admission and real execution have distinct evidence and decisions. No universal result follows from relocation or tracker counts.
+
+**FH-C/FH-E evidence work.** Deliver one independently defined mission-pivot outcome with severity-matched ablations, legitimate positive mission changes, adequate strong peers, metadata creation/freshness/update costs and per-arm total compute/resource ledgers.
+
+Expected impact **High**; risk **High**; effort **High**. Completion: The research hypotheses and source pointers are already incorporated. Factorisation does not prove economy; neither symbolic checks nor design publication validate causal dominance or a saving.
+
+**Scoped local studies.** Retain each current record/report/freeze and its actual result. A new native campaign selects the product/version, defended configuration, original Challenge, source assumptions, independent target observation and full budget; each failure and comparator finding remains visible.
+
+Expected impact **High**; risk **High**; effort **Not estimable before selected scope**. Completion: No experiment is launched. The 13 study catalogue and repaired cohort already supply the useful reading; missing native evidence is not repaired by adding a qualification paragraph.
+
+**Canonical-source navigation.** Existing 18–25 handle the ten controlled-router review occurrences and the living 05A cross-review route. Targets are maintained sources which expose their own review. Preserve benchmark v0.2, frozen-source citations and all prior historical destinations.
+
+Expected impact **High**; risk **Medium–High**; effort **Medium**. Completion: EA successor and protected EP replacement decisions precede those units. No fourth canonical README level, moved files, blanket historical-link deletion or automatic promotion of benchmark v0.3.
+
+**UC21 source and external status reconciliation.** Current Contributions 92/103 reception stays; unit 30 replaces the fork-dependent 88 candidate. Official 144/147 are superseded by the newer source, with partial literal reception recorded. E145R uses the current title; E146R qualifies the actual 54-file PR head.
+
+Expected impact **High**; risk **Medium**; effort **Medium**. Completion: Preserve UC21→objectives→Challenges→protocol/DDS→campaigns→results. The official body is current source evidence, not proof of this agent applying old cards or fresh verification of private outreach.
+
+**Code and native safeguards.** Units 42/43 provide the complete bounded quotation-receiver implementation. Keep its exact-context tests separate from the larger role/inverse and native-protection acceptance campaign in 14.7.
+
+Expected impact **High**; risk **Medium**; effort **High**. Completion: No broad VNext/blockquote exemption. Owner-controlled code/registry changes, distinct automation authorship, unambiguous check publisher/name and native review gates precede required-check activation.
+
+### 14.13 Disposition of every existing review candidate
+
+The current source links below identify readers, while pinned review links identify the examined audit/proposal history. “Received” means the selected text or responsibility already has its current recipient; it is not a scientific-validation label. “Retain” records a reasoned no-change outcome for this plan.
+
+<details>
+<summary>1. 01_GRADIENT_VNext.md — Received</summary>
+
+**Source:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md); blob `72bee8adf66ef4281459190737d78e3fa1e5023a`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md); blob `9f3f17033a054f73dfb7aa133fa4690ba0303882`.
+
+**Judgement and selected material.** Gradient 57/58/61 are already applied. The current comparison preserves vector incomparability, ties, empty/unattained maxima and constrained selection; Operation owns posture closure.
+
+**Disposition / next deliverable.** Keep the repaired D heading and current Operation receiver. Do not restore a unique unconditional argmax or manufacture a second gradient signature.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>2. README_VNext.md — Control packet</summary>
+
+**Source:** [README.md](architectural-contributions/ecosystem-positioning/README.md); blob `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/architectural-contributions/ecosystem-positioning/README_VNext.md); blob `1d83037568a0a87f266f7f7bb4470bc8e3e7a572`.
+
+**Judgement and selected material.** EP 71/97/114 and presentation 131/132 are received;149 repaired historical review routes. The remaining live foreign-review routes are a source-navigation issue, separate from those applied cards.
+
+**Disposition / next deliverable.** Use existing policy units 18–20 only after protected-source decisions and receiving-source selection; keep Level 4 discarded. EA protection discrepancy is not permission to rewrite EP.
+
+**Action family:** Canonical-source navigation. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>3. DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md — Control and external packet</summary>
+
+**Source:** [DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); blob `47514afea5a968c4a934012150707df509c7a5aa`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md); blob `c7db9ee3bdcf85dc5a2286d7a7e152d59d425c10`.
+
+**Judgement and selected material.** DDS 76/77/81/91/92/103/104/110/112/115/119/120/148 are applied;74 lives in its corrected checker successor and 75 was superseded by the authorised retirement rule. The official UC21 body refreshed 25 October now receives the direct Contributions route, six-source/nine-profile table and later campaign status.
+
+**Disposition / next deliverable.** Retire fork 83–87 as an executable route; replace 88 with exact unit 30.144/147 require no wholesale replay against the newer official body.145 needs the current title;146 retains a real historical PR-head qualification. Do not rerun custody 112 or activate R01 steps.
+
+**Action family:** UC21 source and external status reconciliation. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>4. DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md — Received</summary>
+
+**Source:** [DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md](research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md); blob `08c457e8622a487848290173340f53faded21a5e`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md); blob `944761f5adbd83dc0e6f201efe836d800dbb47d6`.
+
+**Judgement and selected material.** The authored DDS research sourcebook already incorporates its positioning,34 typed references,12 approach families and 4 offers. Its illustrative reviewer-capacity example and comparison conditions are source material, not an absent promotion.
+
+**Disposition / next deliverable.** Retain the bibliography access classes and same-question comparison. A new comparative performance claim requires a common admitted fixture and provider evidence; no source patch follows from this review.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>5. README_VNext.md — Edition decision</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/README.md); blob `3ff5c26946b25608cea5cc1c9df8519dc61e1afd`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/README_VNext.md); blob `584122e678161cbbe770f73e5f44bdf8d728195b`.
+
+**Judgement and selected material.** The EA router contains the authorised DDS reading additions, but the control lists an earlier approved protected blob while the observed source is a later non-prefix successor.
+
+**Disposition / next deliverable.** The exact protected successor history must be accepted or an identified compatible edition selected. Future source-route units 21–22 depend on that decision; never certify the observed blob as approved solely because it is current.
+
+**Action family:** Protected EA successor. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>6. 00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md — Evidence task</summary>
+
+**Source:** [00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md](research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md); blob `7f15849d0a11c1b8f810099569c132c841e0871b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md); blob `dafff7f067ca416df3c376016f3158ac1765abc1`.
+
+**Judgement and selected material.** A01 provides construction of a bounded reference/oracle, not authority over an open world. The existing review is a partial R01-X03 relation plus historical reception; it contains no unincorporated source correction.
+
+**Disposition / next deliverable.** Deliver an explicit source-fact→reference-predicate→unknown/error→caller mapping for one selected R01 use. Keep the original fixture and admitted failures; a local reference cannot manufacture ecosystem truth.
+
+**Action family:** Selected source/reference/harness correspondence. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>7. 00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md — Evidence task</summary>
+
+**Source:** [00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md](research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md); blob `5515daa14ee13a54b0155ae49879d109c1029349`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md); blob `0f80360a912c6f2c31b27da14cdb00f2c21e57cc`.
+
+**Judgement and selected material.** A03 already separates loader, candidate, evaluator/oracle and writer; CTv1 preserves ordered semantic arrays. Snapshot, deep-copy and retained-failure corrections are legitimate current receivers.
+
+**Disposition / next deliverable.** Deliver the selected adapter input/error correspondence against A01 and RS-Q1 a, including list-of-pairs and stable-key rejects. No universal interchangeability claim or source edit is ready.
+
+**Action family:** Selected source/reference/harness correspondence. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>8. 00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md — Design decision</summary>
+
+**Source:** [00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md](research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md); blob `c989d94032646f1ad9e7f9a0fe15a5d502243123`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md); blob `9c3e54db23f9210f8e59d6cf4822ea01ca2853d3`.
+
+**Judgement and selected material.** Benchmark 40/41 are applied inside the existing v0.3 development document. Its W1 table is present and Q0 admission/failure retention is corrected; these facts do not adopt v0.3 over v0.2.
+
+**Disposition / next deliverable.** Adjudicate remaining §§9/13 gates: traceability, comparator/ablation admissions, common complexity/burden and decision ownership. Select design adoption separately from execution; never repeat 41 or roll back adverse run retention.
+
+**Action family:** Benchmark v0.3 design adoption. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>9. README_VNext.md — Retain</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md); blob `65252e9c7d1d67db0f2228f354057edf0fd9965e`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md); blob `be4ed757a2440360ea83a27da749bf01cada1add`.
+
+**Judgement and selected material.** 00L already distinguishes paper/symbolic traversals, mutation checks and later correction status.379 regressions and 77 correction checks are distinct units; neither totals independent missions.
+
+**Disposition / next deliverable.** Keep F/O/K/E, D/X/? and unmeasured cost status. Any reuse names the particular traversal, law and source version; no extra publication count or source paragraph is needed.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>10. 00M_A01_VNext.md — Received</summary>
+
+**Source:** [00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md](research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md); blob `1aafa27b9594ab62c88f6ed770f8cc14685a1e39`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00M_A01_VNext.md); blob `8174e77c32985b2e10328a1efbfe8737d25631d9`.
+
+**Judgement and selected material.** 00M-A01 change 6 already explains how to read the mechanism-to-requirement table. A correspondence is a traceable research claim, not an implemented guarantee.
+
+**Disposition / next deliverable.** Retain the current table explanation. For any new correspondence require the actual producer, consuming requirement, preserved qualifiers and evidence; do not repeat 6.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>11. 00M_VNext.md — Received and evidence task</summary>
+
+**Source:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md); blob `f318fa776918b7c938be9f18ec957c1dad24f0bb`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00M_VNext.md); blob `ade60a2237baeb7b762386395430a4ebdc4e3305`.
+
+**Judgement and selected material.** 00M7/8/9 and the 24 October FH-C/FH-E reading pointer are received. Conditional factorisation through a sufficient summary establishes neither computability nor net cost saving; the branch timing correction must survive.
+
+**Disposition / next deliverable.** The remaining deliverable is an independently defined review function, a sound summary construction and a complete matched compute/resource ledger. Do not promote FH-E as a proved consequence of factorisation.
+
+**Action family:** FH-C/FH-E evidence work. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>12. 00N_ADDENDUM_VNext.md — Received</summary>
+
+**Source:** [00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md](research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md); blob `27ffa495bf780cd9177006d8b05a7b93b515a267`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md); blob `c35a1cd5662dbb949a74f5ea4db0ba6fdafd7a03`.
+
+**Judgement and selected material.** 00N addendum 10 already distinguishes historical origin editions from the current reading route. Its neighbour/source provenance is supporting research, not a new live requirements contract.
+
+**Disposition / next deliverable.** Retain old versions and attributed references. A fresh external-source refresh would name the exact paper/version/access; the previous provenance clarification must not be applied again.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>13. 00N_VNext.md — Received and evidence task</summary>
+
+**Source:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md); blob `0dffa798a1a5503c8084e62e4e5c8b0fd9ca372a`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00N_VNext.md); blob `11f1ca336c9c1cf269bd4bae063a807342cb3968`.
+
+**Judgement and selected material.** 00N11/12/13/42 and the FH-C/FH-E pointer are received. Conditional T1/T2 plausibility, externally owned T3 response and open T4 economy remain different claims.
+
+**Disposition / next deliverable.** Use the matched causal/cost packet to test the proposed awareness-only route. Preserve the need for a justified information measure before any synergy quantity is reused.
+
+**Action family:** FH-C/FH-E evidence work. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>14. 00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md — Promotion packet</summary>
+
+**Source:** [00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md); blob `c0226a1ba9a45976ad0c887dd9afb97b103e6c37`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); blob `28198af4b49be57c42328f5a5be1b7b4f7c663dc`.
+
+**Judgement and selected material.** CAND-R1/R2/R3 contain useful settled reading clarifications absent from the frozen requirement rows; CAND-R4/S10 is already incorporated in the existing 12 October successor.14/15/16 are not pending.
+
+**Disposition / next deliverable.** Existing unit 8 receives the three clarification blocks. The seven identity/status units 11–15/27–28, index 16, manifest 17 and registry transition must be decided together if this successor becomes maintained canon. Assessor-meta hypotheses remain experimental design work.
+
+**Action family:** Requirements maintained edition. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>15. 01A_A01_VNext.md — Received and evidence task</summary>
+
+**Source:** [01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md](research/ecosystem-awareness/baseline/01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md); blob `c3fc5eee39992004d65a78f5a1df9aca8a3483b2`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01A_A01_VNext.md); blob `7fd853b7dfa9e8a951dc79106be1da0d76fd1669`.
+
+**Judgement and selected material.** This filename owns 01A-A01, despite the neighbouring 01A_VNext name. FH-C and FH-E were promoted on 24 October as research hypotheses, not causal dominance or measured compute saving.
+
+**Disposition / next deliverable.** Register severity-matched ablations and valid positive mission transitions, including metadata creation/update and strong-peer cost. No new H7 and no repetition of the already incorporated hypothesis statement.
+
+**Action family:** FH-C/FH-E evidence work. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>16. 01A_VNext.md — Received</summary>
+
+**Source:** [01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md](research/ecosystem-awareness/baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md); blob `e8013f30b23bee9f3af43986bcc37158f46004cc`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01A_VNext.md); blob `8dfe08d92e2b5269dd5157b081dcd6ca4674404a`.
+
+**Judgement and selected material.** 01A_VNext owns the dual-origin 01A source. Its proposed pointer to 01A-A01 was received by the 24 October editorial adoption; the initial pending paragraphs describe an earlier epoch.
+
+**Disposition / next deliverable.** Keep residual and changing-frame origins separate from the later comparative causal hypothesis. The same research evidence packet serves the companion; no source cross-reference must be re-added.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>17. 01B_VNext.md — Received</summary>
+
+**Source:** [01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md](research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md); blob `2817d1a1da29f9d11093518361ff579d77f2ac18`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01B_VNext.md); blob `8ed095caefe8a187b54c0d68bf9e632ddfdc2cc5`.
+
+**Judgement and selected material.** 01B72 already restores A as a functional result. Partial UNASSESSED/FAILED/UNRESOLVED states, objective ownership and sufficient-support versus permission boundaries survive.
+
+**Disposition / next deliverable.** Retain kernel/staticRole/dynamicOperation ownership. An interoperable implementation needs the actual profile/result/authority/return contract; an RFC analogy is not an absent canonical paragraph.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>18. 01C_VNext.md — Received</summary>
+
+**Source:** [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md); blob `ac23f699b019c874684d8dde2dd5b6679cf05c9b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01C_VNext.md); blob `6a30b38370c608b66112b7f993b2f280f269dd55`.
+
+**Judgement and selected material.** 01C52/54 are applied. Cart_i requires the RA question, scope, baseline, versions, freshness and evidence; shared labels alone do not transfer support. Role 125 resolved the upstream static/effective phrase.
+
+**Disposition / next deliverable.** Keep Cart qualification and declared Role separate from observed behaviour. A new adapter must preserve those fields and unknowns, not restore the discarded automatic-vocabulary equivalence.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>19. 01D_VNext.md — Received</summary>
+
+**Source:** [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md); blob `8db6ded733dada42ca20f2cbe952b26809ec556e`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01D_VNext.md); blob `78eb07f950916d9b1c2b036649117217b9a89215`.
+
+**Judgement and selected material.** 01D17 is applied. Per-operation composition keeps scope/version/time, qualified RA dependence, sufficient control, legitimate authority and action/effect separate.
+
+**Disposition / next deliverable.** Retain the conditional RA requirement and explicit P_RA interpretation; advisory RA is not a universal veto. No new mapping or permit-emitting MSCA claim is warranted.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>20. 01H_VNext.md — Retain</summary>
+
+**Source:** [01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md](research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md); blob `32143e360857f73d38bd3fda888f7ecbe1a7e557`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01H_VNext.md); blob `48f0590c54d0830edee82c76b0808aa933ac2b70`.
+
+**Judgement and selected material.** 01H already handles optional signalling, sparse/empty starts, UNASSESSED, review-window redirection and local evidence opportunity; Operation closes posture. The source-source value-of-information citation ambiguity did not establish a false 01H claim.
+
+**Disposition / next deliverable.** No canonical replacement. A selected acquisition profile must declare objective, horizon, cost, authority and informative dependence before external optimal-learning guarantees can be transferred.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>21. 01I_VNext.md — Retain</summary>
+
+**Source:** [01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md](research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md); blob `9477861ecb59f991a5bcc6957459c3332cb714f1`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01I_VNext.md); blob `9df7017b5ae1f2d7409d4505ff902cfd1ab91f6d`.
+
+**Judgement and selected material.** 01I keeps citizenship as a metaphor and separates available ACC profiles, concrete binding, obligations, eligibility, revocation and permission. OAP is a possible adapter vocabulary, not a missing participation rule.
+
+**Disposition / next deliverable.** Retain the source. Any OAP adapter must specify role/enactment/precedence and rights of the chosen piece; do not import a global rank or credentials by analogy.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>22. 01J_VNext.md — Received</summary>
+
+**Source:** [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md); blob `4a2359f046a6cc7aa783e615e22f2bfc68d6ffe9`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01J_VNext.md); blob `20cb238c5887bdb171c6b1636eddf5cc8807f68c`.
+
+**Judgement and selected material.** 01J68/69/70 are applied. D requires an effective evaluation barrier; known unused resources remain B and unqualified received material can remain UNKNOWN.
+
+**Disposition / next deliverable.** Keep receiver-added qualification distinct from sender assertions and deterministic decoding distinct from physical truth. No restoration of structuralUNKNOWN by default or automatic RepositionIntent permission.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>23. 01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md — Received</summary>
+
+**Source:** [01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md](research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md); blob `a60ea6991692dd0666203bb99e89b25564628745`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md); blob `ed791d5e0c8b682f0c782b044276cbf9e54d1401`.
+
+**Judgement and selected material.** 01K-A01 107/108 are applied. The joint queue/service bound and combined coverage replace an invalid sum of marginal quantiles; AVAILABLE depends on the consuming proof policy.
+
+**Disposition / next deliverable.** Keep the four states, model/proof class and separate review versus action/effect deadlines. Do not regenerate vectors, schemas or measurements merely to retire obsolete pending wording.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>24. 01K_VNext.md — Alternative decision</summary>
+
+**Source:** [01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md); blob `042fd311692586eeaa7c184315c13596c0ffa6b5`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01K_VNext.md); blob `b71b68b090fbb3b5be7df94bc0dc72aab8e5d7cb`.
+
+**Judgement and selected material.** 01K93 and 130 are applied;64/67 were superseded by the source-series/runtime separation. The later alternative to 93 is a different contract, not an unapplied instance of the original correction.
+
+**Disposition / next deliverable.** Decide the exact remaining alternative only against A01 and UC03 consumers, qualified demand, assignment, UNKNOWN and separate effect deadlines. Retain the protected-objection example as optional and policy-owned.
+
+**Action family:** Qualified HumanTime alternative. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>25. 01_FOUNDATIONAL_VNext.md — Received</summary>
+
+**Source:** [01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md](research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md); blob `ff5f9fc489b209aa2f9e0ca64c63421efe24a239`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md); blob `27b156024f4ce44ebb33db33dd9ce408c7c875c0`.
+
+**Judgement and selected material.** Foundation 73/100 and the 24 October hypothesis reception are applied. Type 1/2 can arise in fixed scope;02B relative closure is not a new semantic sufficiency theorem.02A now has its own review while its historical proof audit remains here.
+
+**Disposition / next deliverable.** Retain the repaired attribution, Type distinctions and current source-owned routes. New causal/compute evidence belongs to the hypothesis packet, not another Foundation rewrite.
+
+**Action family:** FH-C/FH-E evidence work. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>26. 02A_VNext.md — Received</summary>
+
+**Source:** [02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md](research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md); blob `68b95114200533645a26792096238b250f7ed61f`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/02A_VNext.md); blob `009f4debfac1be612a0dc4cc088eeb109078a68d`.
+
+**Judgement and selected material.** 02A has the current source-owned review; its earlier complete proof-attribution audit survives in Foundation.100 and the 24 October explanatory pointer are applied.
+
+**Disposition / next deliverable.** Keep F-A–F-H→P1–P6 chronology and the actual 02B relative proof. No duplicate 02A shadow, alternate derivation or additional promotion follows.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>27. 03_FUNCTIONAL_VNext.md — Retain</summary>
+
+**Source:** [03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md](research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md); blob `94c8427bdf9c7c088ff12fba992d440f7636d184`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md); blob `3483ab90fe09bc4cbfaf003522a70114af4d7eb2`.
+
+**Judgement and selected material.** The 03 logical source is an ordered three-part unit. F1 mission/capacity, F2 window, F4/F5 signal/acquisition/lineage and F7 requests versus authority preserve the roles inspected in its historical review.
+
+**Disposition / next deliverable.** Treat all three fragments as one registered source and one companion. Maintain split continuations and F9 history; do not add a global trust average or duplicate interface family.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>28. 04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md — Promotion and evidence packet</summary>
+
+**Source:** [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md](research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md); blob `30e492c671efed802f7b881ed67e9f4dcd4bb079`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); blob `a7f5c37a722da35740ba1f96ecdbdef19274f436`.
+
+**Judgement and selected material.** 04 changes 18/19/101/102 are applied. The general v0.5 reader can receive the separate validity/response clocks and human-output discipline from §§6–7; the 176-row input contract remains separately versioned.
+
+**Disposition / next deliverable.** Existing unit 9 supplies the exact explanatory reception. H06/A versus A_ref still needs a material-profile matrix, resolvability at decision time, input-contract/F9 consistency and unavailable/stale negative cases.
+
+**Action family:** General interface reception and H06. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>29. README_VNext.md — Received and control packet</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/README.md); blob `8cb270ecd4ee4eb87356fa3b6550a0ec582ba791`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/README_VNext.md); blob `819e63ad874cce66a824588f76428f535caa59cc`.
+
+**Judgement and selected material.** Baseline 20/79,00J94/105/106/113/121, historical 123/134/136 and review 137–143 are already received;65/66 were resolved by later integration. FH-C/FH-E is canonical hypothesis text.
+
+**Disposition / next deliverable.** Retain the existing additional-work sheet and source routes. Use existing unit 23 for the foreign benchmark review route, and 16/17 only in the joint Requirements role packet. Never recreate the fork corpus or reopen applied restorations.
+
+**Action family:** Canonical-source navigation. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>30. UC-EA-03_VNext.md — Received</summary>
+
+**Source:** [UC-EA-03_v0.4_MAINTENANCE_FREEZE.md](research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md); blob `7d940f33d011bb234f98e5d03a408dbeca34d92d`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md); blob `ce683750d04ffb871c1fde956ddf829e28fb7d24`.
+
+**Judgement and selected material.** UC03 changes 22/23/109 live in the v0.5 working successor; frozen v0.4 still controls studies citing it. The chosen A01-consuming configuration exposes competence/authority, demand, commitments, timing and proof class.
+
+**Disposition / next deliverable.** Preserve both editions and cite the actual one used. A role promotion of UC03 would need a separate decision; this plan does not relabel its working status by analogy with Requirements.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>31. README_VNext.md — Retain and evidence task</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md); blob `84a823e020f0e509a027e7e7cd8c481bf2ad06d5`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md); blob `8132daab60fe600a571d1f6d14fae1f66a9be7d1`.
+
+**Judgement and selected material.** The frozen C3 fixture retains subject/task/resource/operation/time. Its 102 controls do not decide R01 membership or private-reference truth.
+
+**Disposition / next deliverable.** For a new R01 projection deliver the actual subject/task/resource/time mapping and independent observed-effect interpretation; retain failed/unresolved cases. No edit to the frozen oracle is proposed.
+
+**Action family:** Selected source/reference/harness correspondence. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>32. README_VNext.md — Retain</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md); blob `f40c92452a649b8bf59d4c378a935422a9c7dbdc`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md); blob `7a0baac8ef6eeab9a83bbda6dc7c38672b08bc7a`.
+
+**Judgement and selected material.** 00I stateful evidence already distinguishes EXECUTE from APPLIED, simulation from SQLite/process recovery and successful regression from the intended scenario finding.
+
+**Disposition / next deliverable.** Keep its source-frozen run and actual poststate/attempt logs. A new consumer must name the chosen state/effect fixture and observation limits; no price or empirical-time conclusion from logical counters.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>33. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README.md); blob `76f449fa2b3974ac0c3ca7524ae406363e2f6757`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md); blob `cc1dee4eab1a66660c10c06020a8311396fa53b8`.
+
+**Judgement and selected material.** 00K124/128 and readability 140/142 are applied.379=346+33 is the current suite; the 128 mutation layer and historical A04 generations have separate purposes. Relative proofs and P3/P5/P6 countermodels retain their quantifiers.
+
+**Disposition / next deliverable.** Keep A25 admission neutrality, positive controls, failure reflection and the corrected A04 reading. No old all-six theorem or pooled mission count is restored. Literal source-relative quote contexts are handled in the verifier packet.
+
+**Action family:** Code and native safeguards. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>34. README_VNext.md — Retain and evidence task</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md); blob `0e418d4fcac2966fbbc93f8952abe66518677302`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md); blob `b1d3ca39068b7eb299c48f83bcb9d7b8ce3c1128`.
+
+**Judgement and selected material.** RS-Q1 a preserves its preregistration/reject set and the local CTv1 import profile. Agreement on ten valid examples does not establish identical stable-key and list-of-pairs error behaviour.
+
+**Disposition / next deliverable.** Include those negative interface cases in the selected harness correspondence. Keep original Q1 a truth and freeze separate from the prospective R01 adapter; no new campaign follows.
+
+**Action family:** Selected source/reference/harness correspondence. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>35. COMPUTABILITY_AND_ORACLE_PLAN_VNext.md — Evidence task</summary>
+
+**Source:** [COMPUTABILITY_AND_ORACLE_PLAN.md](research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md); blob `ec481658bd06cae2370ed5b5bbad5fcf1e401ebc`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md); blob `1bb087a3a32de39277bcbf4893daf0ab9a8d0d0f`.
+
+**Judgement and selected material.** The computability plan retains its mathematical proof/observer/cost/transfer owners. Exact relocation receivers and the changed-source table establish different things; oracle 111 and reader 110 are already applied.
+
+**Disposition / next deliverable.** Deliver the next selected R01 source/reference/control/caller record under the existing oracle route, with theorem quantifiers and explicit reference-domain limits. Do not reactivate steps 3–8 or restore corrected timing/independence clauses.
+
+**Action family:** Next bounded R01 instrument packet. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>36. Escenario-creatividad-validacion_VNext.md — Received</summary>
+
+**Source:** [Escenario-creatividad-validacion.md](research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md); blob `949682a9613dd30e2a43494379043399b794fc55`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md); blob `40d2e28db88f37ab94567724b51f080a238a1da4`.
+
+**Judgement and selected material.** Scenario 126 repairs the two-part negation; the bilingual review retained formulae, tables, conventional-peer credit and all original scientific content.
+
+**Disposition / next deliverable.** Keep the current English negation and actual M17/legitimate-delivery conditions. The rendered historical PDFs and DOCX custody are evidence, not pending text to reinsert.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>37. FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md — Received and edition packet</summary>
+
+**Source:** [FENCING_CONFUSED_DEPUTY_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION.md); blob `c61c810ec255ee78415caead8fadeec87ffe20a3`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md); blob `abc6453a3cba986f35100691166ea062224f3631`.
+
+**Judgement and selected material.** The current fencing profile already includes scoped DDS integration and retains generation/principal/deputy limits. Local model controls establish neither a native resource nor universal delivery.
+
+**Disposition / next deliverable.** Keep the extensions edition as the proposed active companion with the feasibility edition recorded explicitly as history in the identity packet; no mechanism-code or evidence promotion.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>38. HUMAN_ESCALATION_WHISPERING_VNext.md — Received and edition packet</summary>
+
+**Source:** [HUMAN_ESCALATION_WHISPERING.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md); blob `227f42c34e57b5da19a20c113a21a1e5de0904f8`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md); blob `7b487296feb893a618d1157892e9dea790eb2825`.
+
+**Judgement and selected material.** HEW 118 already links the retained feasibility edition. H0–H4, virtual R1/R2/R3, q coverage, separate ACK calendars and full human-chain costs survive the translation/history review.
+
+**Disposition / next deliverable.** Keep analytical q separate from measured human effectiveness. Select one current companion for the logical profile while retaining both source editions and exact historical studies.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>39. RATS_EXTENSION_VNext.md — Received and edition packet</summary>
+
+**Source:** [RATS_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION.md); blob `3a690896f96e4b48ac752ded88ef1b3397123324`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md); blob `15eb685d1d07615d0c6011fad2a8f9ca9a5ef0b1`.
+
+**Judgement and selected material.** RATS incorporation is present. Source appraisal and relying-party action-time policy remain separate; an authored fixture Boolean is not native attestation or observed confirmation.
+
+**Disposition / next deliverable.** Resolve the two physical RATS editions in the identity packet without merging result cohorts. A native realization requires an actual verifier/appraisal/policy/resource contract.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>40. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md); blob `e890e14e74ecba52f6dc8f2130f28a130eedffe4`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md); blob `f944a54fe95bc48809fef3c2b028eef23effd961`.
+
+**Judgement and selected material.** Extensions 80/127 and readability 137 are applied. The index already links original study, cost/type continuation and repair successor for the 13 studies; Infoblox negative-coordination repairs are received.
+
+**Disposition / next deliverable.** Retain the existing study catalogue and report ownership. Edition identities must not produce a second method or another hierarchy; no third broad index is necessary.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>41. SPIFFE_SPIRE_EXTENSION_VNext.md — Received and edition packet</summary>
+
+**Source:** [SPIFFE_SPIRE_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION.md); blob `ca8f1e8609f52bfa43835d657756a6094dbb838f`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md); blob `b5b68ef20c60eb9c2dc101d064ede8608ee691c9`.
+
+**Judgement and selected material.** SPIFFE integration is present with identity/use-time separation; a workload identity or local cryptographic test is not authorization for the target effect.
+
+**Disposition / next deliverable.** Retain source-specific freeze and result scope. Registry the feasibility counterpart as a retained edition under one selected active review; native federation needs a separate chosen profile.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>42. STAMP_STPA_EXTENSION_VNext.md — Received and edition packet</summary>
+
+**Source:** [STAMP_STPA_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION.md); blob `7155fa579bade79d9e27757ed0f7755dfbc66e96`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md); blob `17169b09f2f4ddddf4e478bea5127ee9605b2fe1`.
+
+**Judgement and selected material.** STAMP/STPA integration is present. Control-structure constraints and the selected model witness do not establish that every unsafe control action is found or that the world model is complete.
+
+**Disposition / next deliverable.** Preserve the selected source/control-model assumptions and the historical counterpart. Native safety evidence needs source-owner/model-fidelity admission; no theorem or campaign is promoted here.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>43. TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md — Received and edition packet</summary>
+
+**Source:** [TECHNOLOGY_EXTENSION_PROTOCOL.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md); blob `d9aa8d49c0203d92f9f33b71f67388c6a15b071f`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md); blob `4b05bdfa3ee71331aaf35a74c0d362e6bf322d31`.
+
+**Judgement and selected material.** Protocol 117 already connects the current StageA reader, retained feasibility context and single WORKPLAN. Mathematical acceptance, evaluation oracle, solving oracle and harness retain distinct roles.
+
+**Disposition / next deliverable.** Select the extensions companion as current with the mathematical edition declared in the identity map. Preserve all formulae and avoid turning finite harness sampling into universal proof.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>44. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README.md); blob `8c97875cabad64bd0f87ae4ca87e1e941da7888b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md); blob `e1b77d1b36d33398757e5224ca79e211ac3d3b40`.
+
+**Judgement and selected material.** Cache/TTL review records 9 cases:4I/2M/2Ø/1P and the source/time counterexample. The source record/report already owns this bounded Simplified StageA result.
+
+**Disposition / next deliverable.** Retain false-source P and separate TTL, version and permission. No missing native outcome or population estimate is filled by a prose addition.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>45. README_VNext.md — Received and edition packet</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md); blob `33cc9839e804bf22b788bea69b13c2eef4cd85eb`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md); blob `b1a0f61d6b1d6abba445970b6dd801618d32e2a0`.
+
+**Judgement and selected material.** Completion 98/99 are applied. The README distinguishes the preserved 6 October release manifest from later report/VNext additions; historical pins remain authentic.
+
+**Disposition / next deliverable.** Do not regenerate RELEASE_MANIFEST or regrade old 15 checks. Select one active companion with the feasibility completion review retained as dated history.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>46. README_VNext.md — Received</summary>
+
+**Source:** [DDS_STUDY.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/DDS_STUDY.md); blob `4f8b6840b98eadb2c854b5851e85a8d7dc897a79`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md); blob `fc43276548bd44a7f675a209fed1cbd81f44c9b0`.
+
+**Judgement and selected material.** Durable workflows retains 9 cases 3I/1M/4Ø/1P; WF04 provides its same-contract conventional witness and Type 1 1/5. Persistence/retry is not idempotency or delivered closure.
+
+**Disposition / next deliverable.** No text promotion needed. A further campaign would name a native engine/resource, observation boundary and full budget, rather than relabel the existing same-process law as independent.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>47. README_VNext.md — Retain</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README.md); blob `34d3d41751257f543c21f3977a9c1f618c8dca61`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md); blob `4f11398730137538c66dd136a63188de55325b13`.
+
+**Judgement and selected material.** The extension-audit successor already preserves 122+40 cases/operations and 18+8 controls. The 40 repair/positive vectors form a post-defect cohort rather than an independent holdout.
+
+**Disposition / next deliverable.** Keep the original/repair series separate in the existing catalogue; changes to an old freeze or outcome are excluded. No new global DDS method or audit-of-audit source.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>48. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md); blob `b9c17c59deaf2c9cee12497a91eff4493a13b60c`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md); blob `3890e88cd4f685cf5074bcede90f4a35c0dae0ff`.
+
+**Judgement and selected material.** HF 135/139/150 are applied. Its main reader and v0.4 receiver retain contrary outcomes, strong-peer comparisons,33,408 checks and scoped branch ancestry.
+
+**Disposition / next deliverable.** Keep conventional seven versus EA eight prohibited effects in its actual synthetic cohort and report each comparator question separately. Do not pool traces/graphs or reinsert every historical navigation paragraph.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>49. README_VNext.md — Received</summary>
+
+**Source:** [DDS_STUDY.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/DDS_STUDY.md); blob `9da7eda0b30eb8e1e919a30266881d2429eaab45`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md); blob `a6867306911ad4b46ebba740eacab47679a7f960`.
+
+**Judgement and selected material.** MCP retains 9 selected JSON/SQLite cases 3I/6Ø, no scored M. readOnlyHint is metadata and the tested write was admitted; full protocol/authentication/consent conformance was not executed.
+
+**Disposition / next deliverable.** No canonical correction is justified. Any broader campaign must specify the actual transport/schema/authenticator and target-effect oracle; parsing evidence alone cannot fill those fields.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>50. README_VNext.md — Received</summary>
+
+**Source:** [DDS_STUDY.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/DDS_STUDY.md); blob `8f1bb7bb60b00ee4f387f8490470d39f6f7afe74`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md); blob `c5ab264ebad6b3591ce3cab7f1ee745c981e1502`.
+
+**Judgement and selected material.** OAuth/OIDC retains 11 cases 2I/1M/8Ø with actual local RSA/SQLite operations and scoped issuer/audience/type/time/nonce checks. Login-only M is not delivered resource effect.
+
+**Disposition / next deliverable.** Keep native provider flow and population efficacy unscored. A new profile names grant generation, resource use time, replay and observed effect; do not promote current token checks as whole OIDC conformance.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>51. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README.md); blob `b33b601b8095108c4edb81f9ec860b69a3c7554b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md); blob `cfa9610998deafbec0c2b7b74ad50d45a9f0f191`.
+
+**Judgement and selected material.** Observability/response retains 10 cases 1I/2M/6Ø/1P, Type 1 1/4 and Type 2 1/10. Notify-only incompletion and false telemetry P remain visible.
+
+**Disposition / next deliverable.** No source patch. A further profile must measure the response and target state independently of notification/receipt, with an applicable useful-response window.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>52. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README.md); blob `d1ceaf858f4ad821c6803b8c9da6fa70801d0e93`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md); blob `6ec77268d701d8a52d528f828b818455f1c6da0b`.
+
+**Judgement and selected material.** Queues retains 11 cases and Type 1 2/6,Type 2 2/11. Publisher confirm, channel ACK and effect receipt remain separate; the conventional recovery route receives credit.
+
+**Disposition / next deliverable.** Preserve denominators and effect-domain distinctions. A new native broker campaign needs declared redelivery/recovery and target observation, not a reinterpretation of the old ACK record.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>53. README_VNext.md — Received</summary>
+
+**Source:** [DDS_STUDY.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/DDS_STUDY.md); blob `e349bec02f03a8d5cbe4834a24a2856cdad15c73`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md); blob `1cea5a4550575ff8eed4d2371e8112a59dac224d`.
+
+**Judgement and selected material.** RAG retains 8 cases 2I/3M/2Ø/1P. The false-source case survives;3M are admitted deferments, not measured human responses. Run 01 disclosure and A2/run 02 instrument correction remain distinct.
+
+**Disposition / next deliverable.** Keep FTS5/retrieval/admission evidence separate from generated-answer fidelity and blinded isolation. No missing efficacy conclusion should be written into the source.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>54. README_VNext.md — Received</summary>
+
+**Source:** [DDS_STUDY.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/DDS_STUDY.md); blob `a4025f569ca04a5f56e4072b61e6245a048b4c78`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md); blob `44a4dc8d5fa5739781089e4cfba1c0b816d3dd2a`.
+
+**Judgement and selected material.** SQL retains 9 cases 4I/4Ø/1P and a separately committed second-database counterexample. The prohibited orphan effect is not automatically a causal Type 2 finding.
+
+**Disposition / next deliverable.** Retain rollback/resource-key/payload/receipt controls and the cost ledger boundaries. A wider distributed-effect result requires a declared second effect domain; no result regrading.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>55. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README.md); blob `b7085e30afdc68b904cb9565bedd81999e19a745`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md); blob `bc0e730055e7cdfdb18d81717ad239726383e3bb`.
+
+**Judgement and selected material.** Structured output retains 10 cases 1I/2M/6Ø/1P, Type 2 1/10. Local schema acceptance can carry a false policy; it measures no LLM generator.
+
+**Disposition / next deliverable.** Keep shape validation distinct from policy truth and authorization. No native generator performance promotion; a future realization must identify the generator/source and target observation.
+
+**Action family:** Scoped local studies. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>56. FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md — Retained edition</summary>
+
+**Source:** [FENCING_CONFUSED_DEPUTY_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION.md); blob `c61c810ec255ee78415caead8fadeec87ffe20a3`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md); blob `6fc970da4f635013c151a4231cffd80b41df21b7`.
+
+**Judgement and selected material.** This is the feasibility counterpart to fencing 37. Its earlier review/integration receipt is not another independent audit or unincorporated body.
+
+**Disposition / next deliverable.** Retain all bytes and source epoch; select 37 as proposed current logical companion in the identity packet, with a reciprocal historical handoff. Do not delete or merge scientific bodies.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>57. HUMAN_ESCALATION_WHISPERING_VNext.md — Retained edition</summary>
+
+**Source:** [HUMAN_ESCALATION_WHISPERING.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md); blob `b53cc318875b849475d26452aaa8fe2d089ce748`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md); blob `d28111a678d34e067e5f232658d606cec80922ce`.
+
+**Judgement and selected material.** This is the retained HEW feasibility review. Its concurrent DDS crosswalk was preservation of an already present addition, with before=after, not a new pending improvement.
+
+**Disposition / next deliverable.** Keep the local model freeze and original analytical history;38 receives current review continuation. Never turn both copies into two campaigns or measured human-rate evidence.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>58. RATS_EXTENSION_VNext.md — Retained edition</summary>
+
+**Source:** [RATS_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION.md); blob `9ae7a0ba305b2594c7ab8226d371e4ed90360e40`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md); blob `4072a6f32df3b5fae6f522977aae5f1a635b769a`.
+
+**Judgement and selected material.** This is the RATS feasibility counterpart to 39, preserving the earlier same-author integration and scoped independent-exercise report.
+
+**Disposition / next deliverable.** Record its exact edition under one selected current companion; no source-result cohort merger or assertion that cryptographic fixtures demonstrate native attestation.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>59. SPIFFE_SPIRE_EXTENSION_VNext.md — Retained edition</summary>
+
+**Source:** [SPIFFE_SPIRE_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION.md); blob `9bfef1ef5fb3a1b09b173e136e05bb7fdd7677cc`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md); blob `414cce93541a3d1828298e0624976237bf968232`.
+
+**Judgement and selected material.** This is the SPIFFE feasibility counterpart to 41. Repeated integration and comparison wording belongs to the same logical profile, not a new validation claim.
+
+**Disposition / next deliverable.** Retain edition-specific source/freeze/rights and select the extensions companion for current continuation in the identity packet. Identity does not create use-time authority.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>60. STAMP_STPA_EXTENSION_VNext.md — Retained edition</summary>
+
+**Source:** [STAMP_STPA_EXTENSION.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION.md); blob `5574832dcc15f6db8910497d21e3f3c5de3e1db5`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md); blob `db61782a5caf3b9f716909a969a35b948cde1a6d`.
+
+**Judgement and selected material.** This is the STAMP/STPA feasibility counterpart to 42. Historical scoped reconciliation does not launch the repository-wide sixth scientific pass.
+
+**Disposition / next deliverable.** Retain the complete control-model history and select 42 as proposed active companion. Do not add another scenario, result or global safety claim by consolidating metadata.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>61. TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md — Retained edition</summary>
+
+**Source:** [TECHNOLOGY_EXTENSION_PROTOCOL.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md); blob `f6c33a3fbf76a1cda2705bd1395953a14547611e`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md); blob `4a96529982fb1fc39bdfeaa4d97abae2c48fa219`.
+
+**Judgement and selected material.** This is the mathematical/protocol feasibility review paired with 43. The same retained DDS crosswalk had identical before/after and is not a pending edit.
+
+**Disposition / next deliverable.** Keep WORKPLAN and equations authoritative for their selected use. Select 43 for current review continuation while preserving this dated source/contract reference.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>62. README_VNext.md — Retained edition</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md); blob `fc0caf071937a0bf1426fb320f776ee2cf1ff5e5`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md); blob `f362d7916dc26202600e6617038f1bfcf5beb0d1`.
+
+**Judgement and selected material.** The feasibility completion packet records the 15 prospective analytical/local checks and narrows RATS simulated confirmation to a Boolean. Its original freeze and delivery scope survive.
+
+**Disposition / next deliverable.** Retain it as the dated counterpart of 45, not a second current completion authority. Later completion-reader clarifications 98/99 do not rewrite this release.
+
+**Action family:** One active continuation per parallel edition family. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>63. README_VNext.md — Retain</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README.md); blob `0398ff65b3d757203ca6fe455ec8408124eb270b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md); blob `8f7f2fcbe53c52148be6b61ce2b3f5187fae43d5`.
+
+**Judgement and selected material.** Partial-experiment M01/M02/M10/F-W and trackers are historical research/support. Their relocation and retained outputs do not reactivate R01 tasks or replace its theorem.
+
+**Disposition / next deliverable.** Reuse only a named law/output/date under the ORACLE packet. No cosmetic patch, new audit campaign or altered historical result is justified.
+
+**Action family:** Next bounded R01 instrument packet. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>64. README_VNext.md — Received and evidence task</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md); blob `65c03bae4004f4e6d7ecf4f9a825177f4c85faa3`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md); blob `58ec11740b841ca00bf97ea7412801349adbe87b`.
+
+**Judgement and selected material.** Oracle 24–30/111 are applied. Tasks 1/2 have bounded closure;3–8 remain inactive. CTv1/source/reference truth, semantic admission and observed target effects remain distinct.
+
+**Disposition / next deliverable.** Prepare one packet binding actual reference world, source qualifications, adversarial/positive controls, helper-error behavior, caller/error result and cost/deadline ledger. Registration, calibration, admission and execution are separate milestones.
+
+**Action family:** Next bounded R01 instrument packet. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>65. UC4_INTEROPERABILITY_PROFILE_VNext.md — Prospective profile decision</summary>
+
+**Source:** [UC4_INTEROPERABILITY_PROFILE.md](research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE.md); blob `91c10aadaf44af2ee26890185608c07d1bc32942`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md); blob `f5d5f0f9e8aa04fc578c44b0aa0970dbafa493c8`.
+
+**Judgement and selected material.** UC4 is R01-BRIDGE-DRAFT. The internal envelope/sidecar and A–F route remain a prospective compatibility profile; external contributor comments did not admit this schema.
+
+**Disposition / next deliverable.** For one chosen source/caller specify compatible schema/package versions, mechanism semantics, observation/ACK/effect and stopping rule; obtain source/caller acceptance before calling it interoperable. Do not rerun obsolete fork 83–90.
+
+**Action family:** Next bounded R01 instrument packet. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>66. README_VNext.md — Retain</summary>
+
+**Source:** [README.md](research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README.md); blob `b65830bfec6e3ac017efbbe8d3be8d4a8396882b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md); blob `e6f80948d70e023d37964896628969f0a5ea9db8`.
+
+**Judgement and selected material.** Dynamic review retains 1,056 networks/50,688 correlated records and distinct preparation/execution epochs. Counts are not independent trials; A25 transfer is not established by a green fixture.
+
+**Disposition / next deliverable.** Keep the dated source/result interpretation. A new use needs preservation of useful horizon, burden, control and source validity; no rewrite of the historical preparation date.
+
+**Action family:** Selected source/reference/harness correspondence. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>67. 05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md — Promotion and profile packet</summary>
+
+**Source:** [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md](research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md); blob `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); blob `f15dc579c601d6109f7912faa53d3e485d25d209`.
+
+**Judgement and selected material.** 05A31/32 and its internal-case route repairs are applied. §2.15 supports the dated UC6 Stage 0, four proposed H1 cases and digest-identity versus applicable-state distinction; it does not report a native H1 event.
+
+**Disposition / next deliverable.** Unit 41 replaces 10 and receives those three evidence blocks plus four scoped architectural readings. The remaining detailed 2.1–2.14 claims/offers require the external-profile packet per selected receiver, not a bulk Current promotion.
+
+**Action family:** Dated source reception and bilateral profile. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>68. 05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md — Prospective profile decision</summary>
+
+**Source:** [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md](research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md); blob `23eedba4c8f552313393d475eeb886de0b08e1ab`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); blob `d924d0932b8286e23ea85ab2a64e763a06ee4212`.
+
+**Judgement and selected material.** 05 Ideal 33/34 and route corrections are already applied to the development review. Its 7.5 catalogue is an ideal offer; direct acquisition and optional carrier remain available. The frozen v0.4 parts remain their original edition.
+
+**Disposition / next deliverable.** Do not paste the full ideal catalogue into frozen 05. Choose one bilateral profile with producer-native fields, receiver sufficiency, authority, source/time/version and negative tests; adopt a bounded successor edition only on an explicit contract decision.
+
+**Action family:** Dated source reception and bilateral profile. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>69. README_VNext.md — Received</summary>
+
+**Source:** [README.md](research/regime-awareness/README.md); blob `33bc7dd83958c3a8714c423a4791dca5403bbf3c`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/research/regime-awareness/README_VNext.md); blob `6d41e53150952ba26c781837e38578f4a46916e4`.
+
+**Judgement and selected material.** RA35 and additional-work 36 are received. The old programme explanation remains in PROGRAMME_CONTEXT, while the current router and 01C preserve detector versus qualified decision-basis change.
+
+**Disposition / next deliverable.** Keep neutral≠Normal and qualified RA source semantics. No programme-body restoration or universal RA veto. Role 125 and per-operation 17/37 reception are already present.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>70. 00_ARCHITECTURE_VNext.md — Retain</summary>
+
+**Source:** [00_CANONICAL_MSCA_ARCHITECTURE.md](standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md); blob `ab03b11a6b91a156eaa22f76f4959d5ac530f52b`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md); blob `c44203c66be3ef024044b08df4ae6d833200c645`.
+
+**Judgement and selected material.** MSCA Architecture already separates ObjectiveEnvelope, partial/sufficient support, authority and measured effect. S/E/C/P/M is not missing a scalar winner rule.
+
+**Disposition / next deliverable.** Keep kernel ownership;57/58/59 are applied in Gradient/Operation. Do not expand the kernel or restore outdated pending ControlPositioning text for an already received responsibility.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>71. 01_ACC_VNext.md — Retain</summary>
+
+**Source:** [01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md](standards/minimum-sufficient-control/01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md); blob `6059423eb0e2eca5a1281225e117f9f5017e3286`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/standards/minimum-sufficient-control/01_ACC_VNext.md); blob `fe37ae5f496e7ce9cc805b5d33b1447665f734c6`.
+
+**Judgement and selected material.** ACC lineage already distinguishes identity, membership, binding, mutation, execution and compatibility, including UNRESOLVED_LINEAGE. Optional human objection protection is received in 01K130.
+
+**Disposition / next deliverable.** Retain the issuer/approver/source-owner chain. A credential/delegation adapter requires its own field/validity/revocation/conflict contract; no universal protection rule or automatic recovery of revoked credentials.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>72. 02_ROLE_VNext.md — Received</summary>
+
+**Source:** [02_MSCA_ARCHITECTURAL_ROLE.md](standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md); blob `64d521e28eba0d4c751408257cdfaab19879d66e`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/standards/minimum-sufficient-control/02_ROLE_VNext.md); blob `7812f81fc6a273c5e3dfbeec3737325275bcb2a0`.
+
+**Judgement and selected material.** Role 125 is applied and the producer now describes assigned bound function rather than observed behaviour.01C and Operation consume that distinction.
+
+**Disposition / next deliverable.** Keep the source static and dynamic drift with Operation. Earlier 54 urgency and what-actually-does ambiguity are history, not fresh pending repairs.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>73. 03_COMPOSITION_VNext.md — Received</summary>
+
+**Source:** [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md); blob `e30c89b0cf4157918088374504941826d7c015a9`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/standards/minimum-sufficient-control/03_COMPOSITION_VNext.md); blob `13513aa5d84773a5bb26cf4aac31308506e23fa5`.
+
+**Judgement and selected material.** Composition 53/56 are applied. ECM→Cart preserves semantic/material dependencies, known unused B, qualified C and effective-barrier D; RA requires its own question/scope/version/time qualification.
+
+**Disposition / next deliverable.** Keep the historical heading anchor and corrected current heading; similarity does not create dependency. No automatic-support or retired cartographic-body restoration.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>74. 04_OPERATION_VNext.md — Received</summary>
+
+**Source:** [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md); blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/standards/minimum-sufficient-control/04_OPERATION_VNext.md); blob `d3527d209731187a45b0c0129bcfc317a430dcda`.
+
+**Judgement and selected material.** Operation 37/59/60 are applied. It owns posture closure, qualified bound/effective role and legitimate transition;00G v0.4 positive and negative paired branches have actual receivers.
+
+**Disposition / next deliverable.** Keep Normal under qualified nonzero change where appropriate, local thresholds and independent authority. No duplicate Gamma or blanket persistence; further empirical efficacy is a separate study.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+<details>
+<summary>75. README_VNext.md — Received</summary>
+
+**Source:** [README.md](standards/minimum-sufficient-control/README.md); blob `8633052340edcd635898d2a0696065d165d7d138`. **Examined review:** [existing review](https://github.com/dakleyer/structural-awareness-contributions/blob/e79cae15cbf0f015021718f1b1a95b561643d8da/standards/minimum-sufficient-control/README_VNext.md); blob `062aa70fd59853b1e360fb4b8fe7b056cfae6cba`.
+
+**Judgement and selected material.** MSCA38/39/55/62 are received. Its former readable body survives in ARCHITECTURE_AND_STANDARDS_CONTEXT; the current six source owners retain their distinct questions.
+
+**Disposition / next deliverable.** Keep the three README levels and one additional-work sheet. Old cross-review links are handled by the source-navigation packet, not another hierarchy or reapplication of B_Cart wording.
+
+**Action family:** No new source change. Its benefit, risk, effort and acceptance conditions are specified in 14.12; no-change rows create no fictitious before/after.
+
+</details>
+
+#### Exact parallel-edition comparison
+
+| Current continuation / retained review | Source comparison at the cut | Required treatment |
+|---|---|---|
+| 37 / 56 | Complete source bytes identical | One proposed current companion; retain both exact source/review editions and all frozen evidence |
+| 38 / 57 | Full sources compared; 18 unified-diff lines identify only the retained reader/terminology/epoch differences | One proposed current companion; retain both exact source/review editions and all frozen evidence |
+| 39 / 58 | Full sources compared; 12 unified-diff lines identify only the retained reader/terminology/epoch differences | One proposed current companion; retain both exact source/review editions and all frozen evidence |
+| 41 / 59 | Full sources compared; 12 unified-diff lines identify only the retained reader/terminology/epoch differences | One proposed current companion; retain both exact source/review editions and all frozen evidence |
+| 42 / 60 | Full sources compared; 12 unified-diff lines identify only the retained reader/terminology/epoch differences | One proposed current companion; retain both exact source/review editions and all frozen evidence |
+| 43 / 61 | Full sources compared; 18 unified-diff lines identify only the retained reader/terminology/epoch differences | One proposed current companion; retain both exact source/review editions and all frozen evidence |
+| 45 / 62 | Full sources compared; 17 unified-diff lines identify only the retained reader/terminology/epoch differences | One proposed current companion; retain both exact source/review editions and all frozen evidence |
+
+### 14.14 Additional complete literal units and amended dependencies
+
+Existing units 1–26 retain their complete before/after in 14.8. Their operative old units were revalidated at the current cut; quoted copies inside this plan are not mistaken for live-source occurrences. **Old 10 is superseded by 41.** Existing Requirements identity units 11–17 must include 27–28; the original five-unit identity packet alone is incomplete. The old 93 alternative is historical:29 below uses the actually applied HumanTime source. Protected-source replacements 18–22 require their explicit source decisions and are not low-risk cleanup.
+
+#### Action unit 27 — Complete the Requirements promotion: reconcile the retained review/freeze notice
+
+**Source / location:** [00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `c0226a1ba9a45976ad0c887dd9afb97b103e6c37`, line 18, byte interval [2194, 2878). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / High / Medium. **Reason:** The original five identity units leave this second notice calling the promoted edition frozen and awaiting promotion. Update the whole edition-status packet together.
+
+**Dependencies and acceptance:** Existing units 8,11–17 and 28; explicit maintained-canon decision and receiver/registry alignment. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+> **Requirements vNext review is open — the frozen requirements themselves are unchanged.** The current cumulative working review is [**Requirements vNext Review & Delta v0.1 Draft**](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). It records post-freeze corpus evolution, including the two additional 00G/00H reference failure scenarios, and tests whether that material exposes a genuine requirement gap or only architecture/conformance/evidence deltas. Its current recommendation remains **not** to create S15+, T5+, H7+ or a new canonical KPI family. This document remains the frozen canonical Requirements until an explicit versioned successor is deliberately promoted.
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+> **Requirements review and edition boundary.** The [single cumulative Requirements review](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) records later proposals and their decisions. This maintained reading receives the approved S10 binding and the effective-role, opportunity/authority and composed-effect clarifications. The [frozen predecessor](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) retains its original S1–S14, T1–T4, H1–H6 and KPI test contract. The reception adds no S15+, T5+, H7+ or new KPI family; a study is assessed against the exact edition it cites.
+````````````````
+
+#### Action unit 28 — Complete the Requirements promotion: align the remaining freeze-status line
+
+**Source / location:** [00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `c0226a1ba9a45976ad0c887dd9afb97b103e6c37`, line 20, byte interval [2880, 3276). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / High / Medium. **Reason:** A live canonical header and an operative frozen-status line would contradict one another. This unit completes the visible identity change while retaining the frozen test source.
+
+**Dependencies and acceptance:** Same atomic identity packet as 27 and existing 8,11–17. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+**Freeze status:** public frozen canonical requirements baseline for the current review cycle. It applies to a human-led process, conventional control system, agentic architecture or composed system, within its declared decision scope, authority, evidence boundary, response horizon and resource envelope. Post-freeze changes are reviewed through the linked vNext delta rather than inserted here.
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+**Edition status:** current maintained canonical Requirements reading after the named promotion decision. The frozen predecessor keeps its original semantics and version-specific study contracts. This reading applies within the declared decision scope, authority, evidence boundary, response horizon and resource envelope; later material amendments go through the same source-owned review and versioned decision.
+````````````````
+
+#### Action unit 29 — Rebase the optional HumanTime alternative on the actually applied 93 source
+
+**Source / location:** [01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `042fd311692586eeaa7c184315c13596c0ffa6b5`, line 571, byte interval [22284, 22537). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / High / High. **Reason:** The retained alternative was prepared against a block without HumanTime. Current 93 already added HumanTime. This complete new pair preserves that obligation and gives it the existing A01 feasibility/proof meaning.
+
+**Dependencies and acceptance:** Choose this variant explicitly; reconcile 01K-A01, UC03 v0.5, EHD/01J, Operation and HEW consumers under one meaning of W.107–109 stay applied; frozen tests unchanged.. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required HumanTime fits W
+AND expected latency fits W
+~~~
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required qualified human service demand is feasible within W
+    under the declared 01K-A01 capacity/timing model and proof class
+AND expected review-completion latency fits W
+~~~
+
+Human service demand is route- and competence-specific work time. Evaluate feasibility under 01K-A01 §§5.2–5.4, including backlog, current commitments, release times, deadlines, non-preemptible work and material precedence. A necessary load bound alone is not a sufficient scheduling proof. The consuming policy identifies admissible proof classes; unresolved material inputs remain UNKNOWN. Preserve the separately applicable approval-delivery, action and effect deadlines. This gate qualifies the review path; the legitimate decision and execution owners retain their responsibilities.
+````````````````
+
+#### Action unit 30 — Replace the obsolete fork-dependent 88 candidate with a dated Contributions/official route
+
+**Source / location:** [DDS_CANONICAL_METHOD_INDEX_v0.1.md](research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `d40c5cce3d78dea9b283322ec107d3d7d47b1e58`, line 271, byte interval [41389, 42087). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** The literal old paragraph still exists, but the earlier candidate linked the mutable fork. Receive the useful experiment-order distinction through existing maintained routes and date the source record.
+
+**Dependencies and acceptance:** Compare with current index §§11/15 and official UC21 dated status; preserve 92/103; external publication is a separate packet. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.
+
+The 12–13 October source discussion records a proposed, separately scoped CDA/UC-4 follow-up. It preserves UC-4's experimental coordination and source semantics; a selected UC-21 R2 execution follows demonstrated and frozen R1 correction, while R2 preparation and DDS Stage A review may proceed in parallel. For the maintained case binding use the [UC-21 application and recurrence contract](#uc-21-application-contract-select-the-claim-before-the-run); the [official UC-21 status record](https://github.com/FG-TIDA/use-cases/issues/21#11-campaign-status-and-review-activity) carries later dated campaign updates. Each returned finding identifies its scope, successful existing controls, uncertainty and proposed specification consequence. These documentary routes do not combine the studies into one campaign.
+````````````````
+
+#### Action unit 31 — Identify the retained FENCING_CONFUSED_DEPUTY_EXTENSION review edition
+
+**Source / location:** [FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `6fc970da4f635013c151a4231cffd80b41df21b7`, line 4, byte interval [360, 415). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** One selected active logical companion prevents counting the parallel review as another audit while preserving every original file and source-specific freeze.
+
+**Dependencies and acceptance:** Approve the seven source/edition identities together; register historical companions and ordered evidence without moving or deleting files. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+# Owning VNext — FENCING_CONFUSED_DEPUTY_EXTENSION.md
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# Owning VNext — FENCING_CONFUSED_DEPUTY_EXTENSION.md
+
+**Review edition — retained history.** This file preserves the review of the `feasibility/` source edition. Continue current review in the [existing `extensions/` companion](../extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md). Both source editions, their original evidence and this complete earlier review remain available; this retained edition is not a second active logical companion.
+````````````````
+
+#### Action unit 32 — Identify the retained HUMAN_ESCALATION_WHISPERING review edition
+
+**Source / location:** [HUMAN_ESCALATION_WHISPERING_VNext.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `d28111a678d34e067e5f232658d606cec80922ce`, line 4, byte interval [354, 414). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** One selected active logical companion prevents counting the parallel review as another audit while preserving every original file and source-specific freeze.
+
+**Dependencies and acceptance:** Approve the seven source/edition identities together; register historical companions and ordered evidence without moving or deleting files. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+# Human escalation and whispering — owning technical VNext
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# Human escalation and whispering — owning technical VNext
+
+**Review edition — retained history.** This file preserves the review of the `feasibility/` source edition. Continue current review in the [existing `extensions/` companion](../extensions/HUMAN_ESCALATION_WHISPERING_VNext.md). Both source editions, their original evidence and this complete earlier review remain available; this retained edition is not a second active logical companion.
+````````````````
+
+#### Action unit 33 — Identify the retained RATS_EXTENSION review edition
+
+**Source / location:** [RATS_EXTENSION_VNext.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `4072a6f32df3b5fae6f522977aae5f1a635b769a`, line 4, byte interval [341, 377). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** One selected active logical companion prevents counting the parallel review as another audit while preserving every original file and source-specific freeze.
+
+**Dependencies and acceptance:** Approve the seven source/edition identities together; register historical companions and ordered evidence without moving or deleting files. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+# Owning VNext — RATS_EXTENSION.md
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# Owning VNext — RATS_EXTENSION.md
+
+**Review edition — retained history.** This file preserves the review of the `feasibility/` source edition. Continue current review in the [existing `extensions/` companion](../extensions/RATS_EXTENSION_VNext.md). Both source editions, their original evidence and this complete earlier review remain available; this retained edition is not a second active logical companion.
+````````````````
+
+#### Action unit 34 — Identify the retained SPIFFE_SPIRE_EXTENSION review edition
+
+**Source / location:** [SPIFFE_SPIRE_EXTENSION_VNext.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `414cce93541a3d1828298e0624976237bf968232`, line 4, byte interval [349, 393). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** One selected active logical companion prevents counting the parallel review as another audit while preserving every original file and source-specific freeze.
+
+**Dependencies and acceptance:** Approve the seven source/edition identities together; register historical companions and ordered evidence without moving or deleting files. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+# Owning VNext — SPIFFE_SPIRE_EXTENSION.md
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# Owning VNext — SPIFFE_SPIRE_EXTENSION.md
+
+**Review edition — retained history.** This file preserves the review of the `feasibility/` source edition. Continue current review in the [existing `extensions/` companion](../extensions/SPIFFE_SPIRE_EXTENSION_VNext.md). Both source editions, their original evidence and this complete earlier review remain available; this retained edition is not a second active logical companion.
+````````````````
+
+#### Action unit 35 — Identify the retained STAMP_STPA_EXTENSION review edition
+
+**Source / location:** [STAMP_STPA_EXTENSION_VNext.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `db61782a5caf3b9f716909a969a35b948cde1a6d`, line 4, byte interval [347, 389). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** One selected active logical companion prevents counting the parallel review as another audit while preserving every original file and source-specific freeze.
+
+**Dependencies and acceptance:** Approve the seven source/edition identities together; register historical companions and ordered evidence without moving or deleting files. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+# Owning VNext — STAMP_STPA_EXTENSION.md
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# Owning VNext — STAMP_STPA_EXTENSION.md
+
+**Review edition — retained history.** This file preserves the review of the `feasibility/` source edition. Continue current review in the [existing `extensions/` companion](../extensions/STAMP_STPA_EXTENSION_VNext.md). Both source editions, their original evidence and this complete earlier review remain available; this retained edition is not a second active logical companion.
+````````````````
+
+#### Action unit 36 — Identify the retained TECHNOLOGY_EXTENSION_PROTOCOL review edition
+
+**Source / location:** [TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `4a96529982fb1fc39bdfeaa4d97abae2c48fa219`, line 4, byte interval [356, 428). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** One selected active logical companion prevents counting the parallel review as another audit while preserving every original file and source-specific freeze.
+
+**Dependencies and acceptance:** Approve the seven source/edition identities together; register historical companions and ordered evidence without moving or deleting files. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+# Owning review — DDS/HEW addition to TECHNOLOGY_EXTENSION_PROTOCOL.md
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# Owning review — DDS/HEW addition to TECHNOLOGY_EXTENSION_PROTOCOL.md
+
+**Review edition — retained history.** This file preserves the review of the `feasibility/` source edition. Continue current review in the [existing `extensions/` companion](../extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md). Both source editions, their original evidence and this complete earlier review remain available; this retained edition is not a second active logical companion.
+````````````````
+
+#### Action unit 37 — Identify the retained README review edition
+
+**Source / location:** [README_VNext.md](research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `f362d7916dc26202600e6617038f1bfcf5beb0d1`, line 1, byte interval [0, 48). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** One selected active logical companion prevents counting the parallel review as another audit while preserving every original file and source-specific freeze.
+
+**Dependencies and acceptance:** Approve the seven source/edition identities together; register historical companions and ordered evidence without moving or deleting files. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+# DDS scoped-completion packet — owning review
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# DDS scoped-completion packet — owning review
+
+**Review edition — retained history.** This file preserves the review of the `feasibility/` source edition. Continue current review in the [existing `extensions/` companion](../../extensions/dds-study-completion-v0.1/README_VNext.md). Both source editions, their original evidence and this complete earlier review remain available; this retained edition is not a second active logical companion.
+````````````````
+
+#### Action unit 38 — Align the first-reader status in 01A_A01_VNext.md
+
+**Source / location:** [01A_A01_VNext.md](research/ecosystem-awareness/baseline/01A_A01_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `7fd853b7dfa9e8a951dc79106be1da0d76fd1669`, line 3, byte interval [83, 197). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The old opening says the editorial reception is only proposed even though the later receipt and current sources show incorporation. State that distinction once at the entrance.
+
+**Dependencies and acceptance:** Named wave GO; preserve unrelated bytes; owning review receipt after application. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+**24 October 2026 · Reviewer: Codex (AI) · Status: proposal/research pending evidence, not canonical adoption.**
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+**Review status — 25 October 2026.** FH-C and FH-E are incorporated as canonical research hypotheses under the24October decision. Causal dominance and computational savings remain research questions. Reviewer: Codex (AI).
+````````````````
+
+#### Action unit 39 — Align the first-reader status in 02A_VNext.md
+
+**Source / location:** [02A_VNext.md](research/ecosystem-awareness/baseline/02A_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `009f4debfac1be612a0dc4cc088eeb109078a68d`, line 3, byte interval [63, 162). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The old opening says the editorial reception is only proposed even though the later receipt and current sources show incorporation. State that distinction once at the entrance.
+
+**Dependencies and acceptance:** Named wave GO; preserve unrelated bytes; owning review receipt after application. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+**24 October 2026 · Reviewer: Codex (AI) · Preliminary cross-document reception, proposed only.**
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+**Review status — 25 October 2026.** The24October hypothesis cross-reference and earlier proof-attribution correction are incorporated. This source-owned review preserves their histories and the remaining research questions. Reviewer: Codex (AI).
+````````````````
+
+#### Action unit 40 — Retire the stranded applied 61 heading fragment from the Gradient review
+
+**Source / location:** [01_GRADIENT_VNext.md](architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `9f3f17033a054f73dfb7aa133fa4690ba0303882`, line 57, byte interval [7739, 8635). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** An obsolete duplicated heading and orphaned literal block remained below an applied receipt. Keep the application route and remove only this already-applied proposal remnant.
+
+**Dependencies and acceptance:** Named wave GO; preserve unrelated bytes; owning review receipt after application. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+### D — structural / capability residual### D — structural / capability residual
+```
+
+**Texto después — propuesto completo:**
+
+```markdown
+### D — structural / capability residual
+```
+
+**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Decisión de Iván y control de anclas, como56 sin unificar fuentes. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+<a id="d--structural--capability-residual-d--structural--capability-residual"></a>
+
+**Change61 is incorporated.** The current source has one residual-D heading. The complete old/new card is retained in the identified Git predecessor above; it is not pending work.
+````````````````
+
+#### Action unit 41 — Receive the dated source-state evidence and the scoped EA-only interface offer
+
+**Source / location:** [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md](research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5`, line 165, byte interval [22664, 23014). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** Promote four useful architectural reading blocks already developed in 05 Ideal/05A without copying the entire subscriber catalogue or changing a frozen contract. Receive the earlier three evidence blocks in the same source addition.
+
+**Dependencies and acceptance:** This is the selected replacement for old unit 10, never apply both. Check 03/04/01J native ownership and keep the dated 21 October evidence distinct from later H0–H6 protocol revisions.. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+This is less than the ideal 05 contract, but it is the most complete profile currently supportable without claiming FG-TIDA adoption, inventing absent fields or converting a testbed into a control plane. It preserves a clear path from public discussion to reviewed adapters, fixtures and conformance evidence while keeping later extension reversible.
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+This is less than the ideal 05 contract, but it is the most complete profile currently supportable without claiming FG-TIDA adoption, inventing absent fields or converting a testbed into a control plane. It preserves a clear path from public discussion to reviewed adapters, fixtures and conformance evidence while keeping later extension reversible.
+
+## Source-state reception — 21 October 2026
+
+This later reception preserves the 19 September bridge as its dated source snapshot. It adds three qualified reading points from the public source record reviewed on 21 October, without changing the ideal 05 contracts.
+
+**UC-6 Stage-0 reference.** [Nelson's UC6_Stage0_Theme13_v0.4.1-r1 report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841) describes reference assertions, deliberately corrupted applicability controls and offline replay. Its demonstrated claim remains that bounded reference/mapping work; authority calculation, measured response-window performance and executed cross-organizational intervention are separate investigations.
+
+**H1 prospective handoff.** The [H1 protocol proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6188764689) specifies four prospective cases: an unchanged applicable finding; material amendment before action; an irrelevant change that preserves legitimate work; and acknowledgement without independent effect readback. These are proposed observations for a future mapped investigation. Preserve source meaning, local authority, decision, acknowledgement, attempted action, effect and recovery as separate records.
+
+**Identity and current applicability.** The [proposed receiver-visible record fields](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6271168964) and [author's executable-diagnostic report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6279011475) are candidate record/test material. Matching dispatch and receiver-used digests can support identity at those declared observation points. Latest decision-applicable state at action time additionally needs a source-state/freshness witness covering relevant changes, or a bounded NOT_ESTABLISHED qualification. The contributor-reported field/token checks do not establish that stronger proposition.
+
+### EA-only interface offer — reception of the 15 October design
+
+**Select the semantic output for the receiving question.** A receiver may need EA.F2 pathway/window qualification, EA.F3 local-state qualification, EA.F4 external-evidence qualification or a composed EA.F5/F6/F8 conclusion. The selected route identifies which result was actually produced and preserves source-native findings and material unknowns.
+
+**Use the existing exchange surface where useful.** T13.F1 in the proposed signalling configuration can carry source findings and qualified EA publications. It is distinct from EA.F1–F9; direct handoffs and passive acquisition remain valid routes. An EHD describes semantic handoff, IF-S11 supplies signalling capability and publish/subscribe is an implementation choice.
+
+**Keep EA qualification and response ownership visible.** EA can identify a changed reliance basis, insufficiency, a narrowly affected decision or a contextual opportunity to reconsider. A population measurement, source-native verdict, qualified RA regime movement and an authorized MSCA/ACC repositioning retain their respective owners. The proposed T13.F3 response-coordination output is not specified by this EA-only offer.
+
+**Reuse one assessment through qualified recipient projections.** Preserve provenance, source lineage, scope, temporal/state versions, dependencies, coverage, unknowns and recipient disclosure limits. Forwarded copies of one source are not independent corroboration. The cross-Theme catalogue is an offered design; its dated conversation record and each accepted bilateral profile determine what is actually available.
+````````````````
+
+#### Action unit 42 — Prepare exact source-quotation resolution in the existing checker
+
+**Source / location:** [check_document_integrity.py](scripts/check_document_integrity.py); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 44, byte interval [1667, 1706). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** Bind each of the four inherited source-relative quotation reports to its exact review path, full line digest, literal href and actual receiving file. Altered or newly live references receive no blanket exemption.
+
+**Dependencies and acceptance:** Code-owner review; both checker units 42/43 together; sixteen focused tests and whole-corpus route differential; full role/inverse safeguards remain a separate implementation packet.. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+def navigation_text(body: str) -> str:
+
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+# Exact historical source quotations; keep their literal text and check the
+# identified receiving target. Owner review is required to change this table.
+SOURCE_QUOTATION_TARGETS = {
+    ('research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'fcd66dc6595d3a2f0d725cb6207c8c701b013ca32c9511ceae98e3a408ee2353', './PUBLICATION_MANIFEST.json'): 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json',
+    ('research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'c638c60904273e1f658f67e86c96268266740ab317f8589b8fc4ef6584849326', './PUBLICATION_MANIFEST.json'): 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json',
+    ('research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md', '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md'): 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md',
+    ('research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md', '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md'): 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md',
+}
+
+
+def documentation_link_records(source: Path, body: str):
+    """Yield live hrefs and only exactly authenticated quote resolutions."""
+    import hashlib
+    visible = navigation_text(body)
+    relative = source.relative_to(ROOT).as_posix()
+    matches = list(MARKDOWN_LINK.finditer(visible)) + list(HTML_LINK.finditer(visible))
+    for match in matches:
+        start = visible.rfind("\n", 0, match.start()) + 1
+        end = visible.find("\n", match.end())
+        if end < 0:
+            end = len(visible)
+        line = visible[start:end].rstrip("\r")
+        raw = match.group(1)
+        key = (relative, hashlib.sha256(line.encode("utf-8")).hexdigest(), raw)
+        yield raw, SOURCE_QUOTATION_TARGETS.get(key)
+
+
+def navigation_text(body: str) -> str:
+
+````````````````
+
+#### Action unit 43 — Use exact quotation receivers while retaining ordinary missing-route checks
+
+**Source / location:** [check_document_integrity.py](scripts/check_document_integrity.py); commit `e79cae15cbf0f015021718f1b1a95b561643d8da`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 76, byte interval [3038, 3550). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** The four historic links are checked against identified receiver files rather than silently ignored; every other link keeps the existing route check. Architecture sections, required references and presentations are untouched.
+
+**Dependencies and acceptance:** Unit 42 and the focused quote/live-link tests; authoritative owner review of the checker change; do not activate a required check before actor and native-gate acceptance.. The complete old unit must still match; a scoped inverse must reproduce every preceding source byte, with unrelated files/blobs unchanged and public readback after an approved application.
+
+**Text before — complete current unit**
+
+````````````````text
+        for raw in MARKDOWN_LINK.findall(navigation_text(body)) + HTML_LINK.findall(navigation_text(body)):
+            target = raw.split(" ")[0].strip("<>")
+            if not target or target.startswith(EXTERNAL):
+                continue
+            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
+            checked_links += 1
+            if not (source.parent / route).resolve().exists():
+                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
+````````````````
+
+**Text after — complete proposed unit**
+
+````````````````text
+        for raw, quoted_target in documentation_link_records(source, body):
+            target = raw.split(" ")[0].strip("<>")
+            if not target or target.startswith(EXTERNAL):
+                continue
+            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
+            checked_links += 1
+            resolved = (ROOT / quoted_target) if quoted_target else (source.parent / route).resolve()
+            if not resolved.exists():
+                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
+````````````````
+
+#### Complete replacement registry candidate — still not installed
+
+This full candidate supersedes the partial seed in 14.8. It binds all 75 review surfaces through 68 proposed current continuation groups and seven retained reviews, plus the declared remaining routers and strategy:72 records. It preserves the EA approval discrepancy and the Requirements frozen/current distinction. The file uses JSON syntax, which is a YAML1.2 subset; the proposed implementation can parse it with the standard JSON parser and validate the supported schema. Role/identity acceptance remains a named owner decision. No registry file is created by this publication.
+
+<details>
+<summary>Complete proposed governance/DOCUMENT_REGISTRY.yml</summary>
+
+````````````````text
+{
+  "schema": 1,
+  "policy": "DC-GH-01",
+  "serialization": "JSON subset of YAML1.2; parse as JSON and validate schema before installation",
+  "decision_state": "proposed-current-mapping-awaiting-named-owner-decisions",
+  "source_cut": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+  "coverage": "75 review surfaces; 68 proposed current continuation groups; additional declared routers and strategy",
+  "unclassified_changed_source_action": "require-exact-wave-and-owner-adjudication; no role inferred from filename",
+  "documents": [
+    {
+      "id": "source.architectural-contributions-ecosystem-positioning-01-objective-conditioned-agentic-gradient-law",
+      "path": "architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md",
+      "observed_blob": "72bee8adf66ef4281459190737d78e3fa1e5023a",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 1,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "ep.entry",
+      "path": "architectural-contributions/ecosystem-positioning/README.md",
+      "observed_blob": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b",
+      "role": "canonical-router",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 2,
+      "disposition": "Control packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "technical_reading_level": 1,
+      "protection": "owner-gated-append-only-unless-named-exception",
+      "approved_blob": "9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-dds-challenge-trajectory-profile-v0.1",
+      "path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "observed_blob": "47514afea5a968c4a934012150707df509c7a5aa",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 3,
+      "disposition": "Control and external packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-dds-research-basis-and-benchmarking-2026-10-06",
+      "path": "research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md",
+      "observed_blob": "08c457e8622a487848290173340f53faded21a5e",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 4,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "ea.entry",
+      "path": "research/ecosystem-awareness/README.md",
+      "observed_blob": "3ff5c26946b25608cea5cc1c9df8519dc61e1afd",
+      "role": "canonical-router",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 5,
+      "disposition": "Edition decision",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "technical_reading_level": 2,
+      "protection": "owner-gated",
+      "last_recorded_approved_blob": "4e41fc697bb2bd94d1f4dd2b75230937684b8152",
+      "baseline_decision": "unresolved; observed successor is not approval"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00d-a01-reference-scenario-test-artifacts-and-bounded-oracle-construction-and-test-design-v0.1",
+      "path": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md",
+      "observed_blob": "7f15849d0a11c1b8f810099569c132c841e0871b",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 6,
+      "disposition": "Evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00d-a03-rs-00e-q1a-stage-0-deterministic-harness-design-v0.1",
+      "path": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md",
+      "observed_blob": "5515daa14ee13a54b0155ae49879d109c1029349",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 7,
+      "disposition": "Evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00d-canonical-architecture-benchmark-and-reference-scenario-evidence-v0.2",
+      "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "observed_blob": "c989d94032646f1ad9e7f9a0fe15a5d502243123",
+      "role": "source-under-review",
+      "lifecycle": "v0.2-current-design; v0.3-development-companion",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 8,
+      "disposition": "Design decision",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "promotion_gate": "remaining benchmark adoption gates; not an executed comparison"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00l-reinforced-paper-traversals-00e-00j-v0.1-readme",
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md",
+      "observed_blob": "65252e9c7d1d67db0f2228f354057edf0fd9965e",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 9,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00m-a01-mechanism-to-requirements-traceability-v0.1-working-proposal",
+      "path": "research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md",
+      "observed_blob": "1aafa27b9594ab62c88f6ed770f8cc14685a1e39",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 10,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00m-abcd-and-mathematical-plausibility-v0.8-research-note",
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "observed_blob": "f318fa776918b7c938be9f18ec957c1dad24f0bb",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00M_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 11,
+      "disposition": "Received and evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00n-research-neighbours-and-experimental-precedents-v0.1-addendum",
+      "path": "research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md",
+      "observed_blob": "27ffa495bf780cd9177006d8b05a7b93b515a267",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 12,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-00n-from-mechanism-to-requirements-scientific-plausibility-v0.7-research-note",
+      "path": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+      "observed_blob": "0dffa798a1a5503c8084e62e4e5c8b0fd9ca372a",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00N_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 13,
+      "disposition": "Received and evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "ea.requirements",
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "observed_blob": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c",
+      "role": "canonical",
+      "lifecycle": "frozen-edition",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 14,
+      "disposition": "Promotion packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "working_successor_path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md",
+      "working_successor_blob": "c0226a1ba9a45976ad0c887dd9afb97b103e6c37",
+      "proposed_current_path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md",
+      "promotion_gate": "Units8,11–17,27–28 plus index/manifest/registry reception; not applied",
+      "protection": "preserve-frozen-predecessor-and-version-specific-test-contracts"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01a-a01-mission-drift-causal-priority-and-epistemic-economy-hypotheses-v0.1-research-note",
+      "path": "research/ecosystem-awareness/baseline/01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md",
+      "observed_blob": "c3fc5eee39992004d65a78f5a1df9aca8a3483b2",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01A_A01_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 15,
+      "disposition": "Received and evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01a-foundational-dual-origin-note-v0.1",
+      "path": "research/ecosystem-awareness/baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md",
+      "observed_blob": "e8013f30b23bee9f3af43986bcc37158f46004cc",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01A_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 16,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01b-ea-msca-interface-annex-v0.2",
+      "path": "research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md",
+      "observed_blob": "2817d1a1da29f9d11093518361ff579d77f2ac18",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01B_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 17,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01c-ea-regime-awareness-interface-annex-v0.2",
+      "path": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
+      "observed_blob": "ac23f699b019c874684d8dde2dd5b6679cf05c9b",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01C_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 18,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01d-ea-msca-ra-operation-composition-profile-v0.1",
+      "path": "research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md",
+      "observed_blob": "8db6ded733dada42ca20f2cbe952b26809ec556e",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01D_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 19,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01h-participant-local-ecosystem-positioning-and-decision-scoped-epistemic-opportunity-v0.1",
+      "path": "research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md",
+      "observed_blob": "32143e360857f73d38bd3fda888f7ecbe1a7e557",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01H_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 20,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01i-agentic-citizenship-contract-human-governed-participation-profile-v0.1",
+      "path": "research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md",
+      "observed_blob": "9477861ecb59f991a5bcc6957459c3332cb714f1",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01I_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 21,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01j-ecosystem-signalling-selective-disclosure-and-choreographed-repositioning-v0.1",
+      "path": "research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md",
+      "observed_blob": "4a2359f046a6cc7aa783e615e22f2bfc68d6ffe9",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01J_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 22,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01k-a01-human-capacity-hid-component-spec-v0.1",
+      "path": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+      "observed_blob": "a60ea6991692dd0666203bb99e89b25564628745",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 23,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01k-human-intelligence-capacity-escalation-and-debt-profile-v0.1",
+      "path": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+      "observed_blob": "042fd311692586eeaa7c184315c13596c0ffa6b5",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01K_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 24,
+      "disposition": "Alternative decision",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-01-foundational-theory-v0.5-integrated",
+      "path": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+      "observed_blob": "ff5f9fc489b209aa2f9e0ca64c63421efe24a239",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 25,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-02a-foundation-to-operational-principle-derivation-proof-v0.1",
+      "path": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+      "observed_blob": "68b95114200533645a26792096238b250f7ed61f",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/02A_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 26,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-03-functional-architecture-v0.4.part01",
+      "path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md",
+      "observed_blob": "94c8427bdf9c7c088ff12fba992d440f7636d184",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 27,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "ordered_parts": [
+        {
+          "path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md",
+          "observed_blob": "94c8427bdf9c7c088ff12fba992d440f7636d184"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md",
+          "observed_blob": "611cb11ef172e5d47a7e583149d6c915de268a53"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part03.md",
+          "observed_blob": "b9bdc929a8bde366c0fab20cc4ff43a4082b4454"
+        }
+      ]
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-04-general-functional-interfaces-agentic-security-v0.5-integrated",
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+      "observed_blob": "30e492c671efed802f7b881ed67e9f4dcd4bb079",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 28,
+      "disposition": "Promotion and evidence packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "ea.technical-index",
+      "path": "research/ecosystem-awareness/baseline/README.md",
+      "observed_blob": "8cb270ecd4ee4eb87356fa3b6550a0ec582ba791",
+      "role": "canonical-router",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 29,
+      "disposition": "Received and control packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "technical_reading_level": 3
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-uc-ea-03-v0.4-maintenance-freeze",
+      "path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md",
+      "observed_blob": "7d940f33d011bb234f98e5d03a408dbeca34d92d",
+      "role": "source-under-review",
+      "lifecycle": "frozen-v0.4-with-distinct-working-v0.5",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 30,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "working_successor_path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md",
+      "working_successor_blob": "19c98168a39a8f545024e190149e99dee8f4ccee",
+      "ordered_parts": [
+        {
+          "path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part01.md",
+          "observed_blob": "dcdbea5f672e13d3d270ce992fc8f1cb8275333d"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part02.md",
+          "observed_blob": "8066ca89eef7f982cd4efa80e3f8c27d227e94de"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part03.md",
+          "observed_blob": "ba7a0d21aef1991872b903e1c4288581fc32897d"
+        }
+      ]
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-fixtures-00g-hf-oracle-v0.4-readme",
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md",
+      "observed_blob": "84a823e020f0e509a027e7e7cd8c481bf2ad06d5",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 31,
+      "disposition": "Retain and evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-fixtures-00i-stateful-readme",
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md",
+      "observed_blob": "f40c92452a649b8bf59d4c378a935422a9c7dbdc",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 32,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-fixtures-00k-suite-readme",
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README.md",
+      "observed_blob": "76f449fa2b3974ac0c3ca7524ae406363e2f6757",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 33,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "ea.rs00eq1a-package",
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md",
+      "observed_blob": "0e418d4fcac2966fbbc93f8952abe66518677302",
+      "role": "fixture-index",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 34,
+      "disposition": "Retain and evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "technical_reading_level": null
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-computability-and-oracle-plan",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "observed_blob": "ec481658bd06cae2370ed5b5bbad5fcf1e401ebc",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 35,
+      "disposition": "Evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-escenario-creatividad-validacion",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "observed_blob": "949682a9613dd30e2a43494379043399b794fc55",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 36,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-fencing-confused-deputy-extension",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+      "observed_blob": "c61c810ec255ee78415caead8fadeec87ffe20a3",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 37,
+      "disposition": "Received and edition packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "retained_source_editions": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+          "observed_blob": "c61c810ec255ee78415caead8fadeec87ffe20a3"
+        }
+      ],
+      "historical_vnext_paths": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md"
+      ],
+      "identity_decision": "proposed-one-active-continuation; owner decision required; preserve all physical files"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-human-escalation-whispering",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md",
+      "observed_blob": "227f42c34e57b5da19a20c113a21a1e5de0904f8",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 38,
+      "disposition": "Received and edition packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "retained_source_editions": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md",
+          "observed_blob": "b53cc318875b849475d26452aaa8fe2d089ce748"
+        }
+      ],
+      "historical_vnext_paths": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md"
+      ],
+      "identity_decision": "proposed-one-active-continuation; owner decision required; preserve all physical files"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-rats-extension",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION.md",
+      "observed_blob": "3a690896f96e4b48ac752ded88ef1b3397123324",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 39,
+      "disposition": "Received and edition packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "retained_source_editions": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION.md",
+          "observed_blob": "9ae7a0ba305b2594c7ab8226d371e4ed90360e40"
+        }
+      ],
+      "historical_vnext_paths": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md"
+      ],
+      "identity_decision": "proposed-one-active-continuation; owner decision required; preserve all physical files"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md",
+      "observed_blob": "e890e14e74ecba52f6dc8f2130f28a130eedffe4",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 40,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-spiffe-spire-extension",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION.md",
+      "observed_blob": "ca8f1e8609f52bfa43835d657756a6094dbb838f",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 41,
+      "disposition": "Received and edition packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "retained_source_editions": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION.md",
+          "observed_blob": "9bfef1ef5fb3a1b09b173e136e05bb7fdd7677cc"
+        }
+      ],
+      "historical_vnext_paths": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md"
+      ],
+      "identity_decision": "proposed-one-active-continuation; owner decision required; preserve all physical files"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-stamp-stpa-extension",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION.md",
+      "observed_blob": "7155fa579bade79d9e27757ed0f7755dfbc66e96",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 42,
+      "disposition": "Received and edition packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "retained_source_editions": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION.md",
+          "observed_blob": "5574832dcc15f6db8910497d21e3f3c5de3e1db5"
+        }
+      ],
+      "historical_vnext_paths": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md"
+      ],
+      "identity_decision": "proposed-one-active-continuation; owner decision required; preserve all physical files"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-technology-extension-protocol",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+      "observed_blob": "d9aa8d49c0203d92f9f33b71f67388c6a15b071f",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 43,
+      "disposition": "Received and edition packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "retained_source_editions": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+          "observed_blob": "f6c33a3fbf76a1cda2705bd1395953a14547611e"
+        }
+      ],
+      "historical_vnext_paths": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md"
+      ],
+      "identity_decision": "proposed-one-active-continuation; owner decision required; preserve all physical files"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-cache-ttl-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README.md",
+      "observed_blob": "8c97875cabad64bd0f87ae4ca87e1e941da7888b",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 44,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-dds-study-completion-v0.1-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+      "observed_blob": "33cc9839e804bf22b788bea69b13c2eef4cd85eb",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 45,
+      "disposition": "Received and edition packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "retained_source_editions": [
+        {
+          "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md",
+          "observed_blob": "fc0caf071937a0bf1426fb320f776ee2cf1ff5e5"
+        }
+      ],
+      "historical_vnext_paths": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md"
+      ],
+      "identity_decision": "proposed-one-active-continuation; owner decision required; preserve all physical files"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-durable-workflows-retries-dds-study",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/DDS_STUDY.md",
+      "observed_blob": "4f8b6840b98eadb2c854b5851e85a8d7dc897a79",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 46,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-extension-audit-v0.1-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README.md",
+      "observed_blob": "34d3d41751257f543c21f3977a9c1f618c8dca61",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 47,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-hugging-face-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "observed_blob": "b9c17c59deaf2c9cee12497a91eff4493a13b60c",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 48,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-mcp-tool-calling-dds-study",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/DDS_STUDY.md",
+      "observed_blob": "9da7eda0b30eb8e1e919a30266881d2429eaab45",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 49,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-oauth-oidc-dds-study",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/DDS_STUDY.md",
+      "observed_blob": "8f1bb7bb60b00ee4f387f8490470d39f6f7afe74",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 50,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-observability-response-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README.md",
+      "observed_blob": "b33b601b8095108c4edb81f9ec860b69a3c7554b",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 51,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-queues-ack-redelivery-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README.md",
+      "observed_blob": "d1ceaf858f4ad821c6803b8c9da6fa70801d0e93",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 52,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-rag-dds-study",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/DDS_STUDY.md",
+      "observed_blob": "e349bec02f03a8d5cbe4834a24a2856cdad15c73",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 53,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-sql-transactions-idempotency-dds-study",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/DDS_STUDY.md",
+      "observed_blob": "a4025f569ca04a5f56e4072b61e6245a048b4c78",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 54,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-extensions-structured-output-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README.md",
+      "observed_blob": "b7085e30afdc68b904cb9565bedd81999e19a745",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 55,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-feasibility-partial-experiments-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README.md",
+      "observed_blob": "0398ff65b3d757203ca6fe455ec8408124eb270b",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 63,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-oracle-readme",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+      "observed_blob": "65c03bae4004f4e6d7ecf4f9a825177f4c85faa3",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 64,
+      "disposition": "Received and evidence task",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-reductions-00g-r01-oracle-uc4-interoperability-profile",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE.md",
+      "observed_blob": "91c10aadaf44af2ee26890185608c07d1bc32942",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 65,
+      "disposition": "Prospective profile decision",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-baseline-traversals-00g-hf-dynamic-review-v0.1-readme",
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README.md",
+      "observed_blob": "b65830bfec6e3ac017efbbe8d3be8d4a8396882b",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 66,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-fg-tida-interfaces-05a-fg-tida-current-state-conformance-bridge-v0.1",
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md",
+      "observed_blob": "71abf26cd885d8567ca7d87dfcb4e44a2a5709d5",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 67,
+      "disposition": "Promotion and profile packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.research-ecosystem-awareness-fg-tida-interfaces-05-fg-tida-ideal-cross-theme-interface-contracts-v0.4.part01",
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md",
+      "observed_blob": "23eedba4c8f552313393d475eeb886de0b08e1ab",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 68,
+      "disposition": "Prospective profile decision",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "ordered_parts": [
+        {
+          "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md",
+          "observed_blob": "23eedba4c8f552313393d475eeb886de0b08e1ab"
+        },
+        {
+          "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part02.md",
+          "observed_blob": "b4fe419a370b785df52a201d1381447ae60bacae"
+        },
+        {
+          "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part03.md",
+          "observed_blob": "1e4b66a76a530d5ebd678b35f10592e81618fbf0"
+        }
+      ]
+    },
+    {
+      "id": "ra.entry",
+      "path": "research/regime-awareness/README.md",
+      "observed_blob": "33bc7dd83958c3a8714c423a4791dca5403bbf3c",
+      "role": "canonical-router",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "research/regime-awareness/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 69,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "technical_reading_level": 2
+    },
+    {
+      "id": "source.standards-minimum-sufficient-control-00-canonical-msca-architecture",
+      "path": "standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md",
+      "observed_blob": "ab03b11a6b91a156eaa22f76f4959d5ac530f52b",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 70,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.standards-minimum-sufficient-control-01-acc-lineage-identity-authority-binding-profile",
+      "path": "standards/minimum-sufficient-control/01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md",
+      "observed_blob": "6059423eb0e2eca5a1281225e117f9f5017e3286",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "standards/minimum-sufficient-control/01_ACC_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 71,
+      "disposition": "Retain",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.standards-minimum-sufficient-control-02-msca-architectural-role",
+      "path": "standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md",
+      "observed_blob": "64d521e28eba0d4c751408257cdfaab19879d66e",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "standards/minimum-sufficient-control/02_ROLE_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 72,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.standards-minimum-sufficient-control-03-msca-ecosystem-composition-and-control",
+      "path": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
+      "observed_blob": "e30c89b0cf4157918088374504941826d7c015a9",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 73,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "source.standards-minimum-sufficient-control-04-canonical-msca-operation-and-repositioning",
+      "path": "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
+      "observed_blob": "9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb",
+      "role": "source-under-review",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 74,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record"
+    },
+    {
+      "id": "msca.entry",
+      "path": "standards/minimum-sufficient-control/README.md",
+      "observed_blob": "8633052340edcd635898d2a0696065d165d7d138",
+      "role": "canonical-router",
+      "lifecycle": "source-edition-as-published",
+      "active_vnext_path": "standards/minimum-sufficient-control/README_VNext.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 75,
+      "disposition": "Received",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "technical_reading_level": 2
+    },
+    {
+      "id": "programme.entry",
+      "path": "README.md",
+      "observed_blob": "baf0696990e241518b48929b6385767ab1455404",
+      "role": "canonical-router",
+      "lifecycle": "current",
+      "technical_reading_level": null,
+      "human_owner": "Ivan Abril Palma"
+    },
+    {
+      "id": "ea.fg-tida-index",
+      "path": "research/ecosystem-awareness/fg-tida/README.md",
+      "observed_blob": "063ce7443cd01df76ac613799ca911dc040e1879",
+      "role": "canonical-router",
+      "lifecycle": "current",
+      "technical_reading_level": 3,
+      "human_owner": "Ivan Abril Palma"
+    },
+    {
+      "id": "submissions.entry",
+      "path": "submissions/README.md",
+      "observed_blob": "c06785727829102a5bde9d11c98cfbdc82b912ba",
+      "role": "canonical-router",
+      "lifecycle": "current",
+      "technical_reading_level": null,
+      "human_owner": "Ivan Abril Palma"
+    },
+    {
+      "id": "ep.development-strategy",
+      "path": "architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md",
+      "role": "strategy",
+      "lifecycle": "current",
+      "observed_blob": "f25aef42574afa9d321b352b3d2b1e1447575556",
+      "protection": "owner-gated-append-only",
+      "human_owner": "Ivan Abril Palma"
+    }
+  ],
+  "unresolved_identity_decisions": [
+    "ea-protected-successor-approval",
+    "seven-retained-edition-continuation-decisions",
+    "Requirements-maintained-reading-promotion"
+  ],
+  "approval_rule": "No candidate field or observed blob grants its own authority. Trusted owner decision and accepted current-head evidence are external to this candidate."
+}
+````````````````
+
+</details>
+
+**Dependent Requirements transition.** After that exact seed is installed, the following complete record pair replaces the earlier dependent transition in 14.8. It belongs to the same source content/identity wave, never to a status-only edit.
+
+**Text before — complete proposed-seed record**
+
+````````````````text
+    {
+      "id": "ea.requirements",
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "observed_blob": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c",
+      "role": "canonical",
+      "lifecycle": "frozen-edition",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 14,
+      "disposition": "Promotion packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "working_successor_path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md",
+      "working_successor_blob": "c0226a1ba9a45976ad0c887dd9afb97b103e6c37",
+      "proposed_current_path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md",
+      "promotion_gate": "Units8,11–17,27–28 plus index/manifest/registry reception; not applied",
+      "protection": "preserve-frozen-predecessor-and-version-specific-test-contracts"
+    }
+````````````````
+
+**Text after — complete promoted-source record proposal**
+
+````````````````text
+    {
+      "id": "ea.requirements",
+      "path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md",
+      "observed_blob": "c0226a1ba9a45976ad0c887dd9afb97b103e6c37",
+      "role": "canonical",
+      "lifecycle": "maintained-canonical-reading",
+      "active_vnext_path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "human_owner": "Ivan Abril Palma",
+      "planning_unit": 14,
+      "disposition": "Promotion packet",
+      "authority_note": "Mapping/proposal status; no new source authority or promotion by this record",
+      "promotion_gate": "Named Requirements content/identity wave and actual acceptance/readback evidence required",
+      "protection": "frozen-predecessor-remains-exact; maintained-source-changes-through-owner-review",
+      "frozen_predecessor_path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "frozen_predecessor_blob": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c"
+    }
+````````````````
+
+### 14.15 Current external entry and stale-plan reconciliation
+
+The officialUC21 body was freshly read with updated_at **2026-10-25T07:58:19Z**, UTF-8 SHA256 `be8ec62db737dd7a947e21282d9ce585123e866a54da7e17cf0b776dbe182842`. It already opens directly into Contributions, contains the current six-source/nine-profile table and includes subsequent campaign/review activity. Old 144/147 cannot be replayed against that later body: most old units no longer match, one 147 after-unit is present literally and two older before-units survive inside a form that now supplies their later-study context elsewhere. This is observed later source reception, not a claim that this agent applied those old cards. No wholesale official-body change is proposed here.
+
+Fork 83–87 are obsolete as the maintained publication route;89’s fork/index combination and 90’s former whole-body route are retired as executable candidates.88 remains useful only in revised Contributions unit 30. E145R updates the official index with the currently published title. E146R retains the original verification as its submission epoch and identifies the actual unmergedPR head.
+
+**PR22 verification:** head `188f31921202d0beb06cfd15eea5008829f60e29`;54 case-folder files;48 original paths;44 equal original blobs and four different source paths: `contributions/when-controls-work-system-fails/README.md`, `contributions/when-controls-work-system-fails/USE_CASE.md`, `contributions/when-controls-work-system-fails/annexes/scenarios/S3.md`, `contributions/when-controls-work-system-fails/annexes/scenarios/S6.md`. The complete 48 originals remain in the Contributions source snapshot. This tree comparison executes no package or product.
+
+#### External unit E145R
+
+**Target:** [https://raw.githubusercontent.com/FG-TIDA/use-cases/main/README.md](https://raw.githubusercontent.com/FG-TIDA/use-cases/main/README.md); complete current body SHA256 `dcb1d8abe38252b7dc5d0c992a75af9cb2f7fe0c58b923cc47414145156feaed`. **Impact / risk / effort:** High / Low / Low.
+
+Use the title currently published in the official case, preserve every existing row, and link the already-open Issue. The primary theme mirrors the submitted form, not a new allocation. **Decision:** Official repository owner/maintainer incorporation; not applied.
+
+**Text before — complete affected unit**
+
+````````````````text
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+````````````````
+
+**Text after — complete proposal**
+
+````````````````text
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+| 21 | When the controls work but the system fails — six failure scenarios and three comparison positions | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |
+````````````````
+
+#### External unit E146R
+
+**Target:** [https://github.com/FG-TIDA/use-cases/pull/22](https://github.com/FG-TIDA/use-cases/pull/22); complete current body SHA256 `39f3380fddb2222f1b9913d6339aaaede3e4313ef8f358f548de6564d4683888`. **Impact / risk / effort:** Medium / Low / Medium.
+
+The actual current PR tree contains 54 case files;44/48 original source blobs match and four have identified receiving differences. Keep the old verification as the original epoch rather than implying it certifies this later head. **Decision:** Specific external PR-description GO and current-head check; not applied.
+
+**Text before — complete affected unit**
+
+````````````````text
+This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.
+````````````````
+
+**Text after — complete proposal**
+
+````````````````text
+This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.
+
+### Current provenance — verified 25 October 2026
+
+The 48-file inventory and checks above describe the original submission at `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. The current PR head, `188f31921202d0beb06cfd15eea5008829f60e29`, contains 54 case-folder files: the original 48 paths plus six review records. Of the original 48, 44 retain their submitted bytes; README.md and USE_CASE.md add reader guidance, S3.md adds a maintained-source pointer, and S6.md is a shorter adapter to canonical 00J.
+
+All 48 original files, including the complete submitted S6, are preserved byte for byte in the [Contributions source snapshot](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The [official UC-21 issue](https://github.com/FG-TIDA/use-cases/issues/21) is the case entry; the [Contributions guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) maintains objectives, Challenges, DDS and recorded research. This PR remains an unmerged historical submission; its complete package is not required to update that direct reader route.
+````````````````
+
+### 14.16 Practical enforcement sequence
+
+1. **Establish the declared identities.** Receive the 75 source/review bindings and seven retained-edition decisions in the complete proposed 72 record registry above; preserve ordered 03/05/UC03 parts, the frozen requirement source, benchmark semantic alias and EA approved/observed discrepancy. The complete seed is structurally validated but remains a candidate, not an installed registry or a source of authority.
+2. **Implement the bounded checker packet 42/43.** Its four exceptions bind an exact review path, full quotation-line digest, literal href and real receiving file. The link is checked at that receiver; changed quotations and new live links get no exemption. Preserve the eight architecture minima, four routes and two deck checks.
+3. **Complete the exact-wave and role guards in the same checker.** For a named trusted owner decision, bind base/head, source blobs, path/mode set, exact old offsets/after blocks, ordered parts, frozen/append-only protection and source/review roles. Reject unrelated bytes, absent old units, duplicate application, a second active companion, a VNext-of-VNext, foreign semantic-review router targets and retired fragments without an authenticated receiver. The candidate registry cannot approve its own role/protection change. Each function-level pair and executable adverse fixture is required before this guard is called implemented. This is code work specified by the plan, not a claim that prose activated it.
+4. **Exercise the 24 native/semantic acceptance cases in 14.7.** Run the trusted base verifier against candidate data, including changed verifier/registry/workflow attempts, exact source quotes and split-source URLs. The focused 16 quote tests prepared with 42/43 are a different test set and do not stand in for these 24 acceptance cases.
+5. **Verify the real author/reviewer/check path, then activate once.** A distinct limited automation author, human owner approval, exact check context and GitHubActions publisher must work before CODEOWNERS/required-review activation. Use the already proposed unique workflow and one native branch-protection configuration. Owner/admin bypass is not an automation credential. Confirm stale approval, wrong publisher, skipped/tampered check, direct/force/delete and legitimate recovery behaviour.
+6. **Receive each applied outcome.** Public raw readback and inverse evidence close only the chosen units; update their existing VNext and 150-entry ledger. Research/evidence tasks retain their real state. Do not let a missing application_status or an obsolete pending sentence resurrect incorporated work.
+
+### 14.17 Completion record for this planning request
+
+All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition.
+
+This finishes consolidation of the action/promotion plan. Applying the chosen waves, demonstrating native enforcement and obtaining scientific evidence are the resulting work; none is silently treated as completed by this planning publication.

@@ -325,3 +325,14 @@ Iván directs the [single cross-corpus action/promotion/verification plan](../DO
 - [../standards/minimum-sufficient-control/README_VNext.md](../standards/minimum-sufficient-control/README_VNext.md)
 
 </details>
+
+
+## Completed consolidation of the action and VNext-promotion plan — 25 October 2026
+
+The existing [global plan in DOCUMENT_CONTROL](../DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026) now gives an individual source/receiver disposition for all 75 candidate reviews, complete current old/new units and bounded decision/evidence packets. It reconciles existing applications rather than inventing 75 new changes. The twelve selected substantive blocks are three Requirements interpretations, two general-interface explanations and seven dated source-state/EA-only interface readings.42 active Contributions pairs and two separately gated external pairs are prepared; none is applied by this publication.
+
+The extended check found concrete gaps in the earlier plan: three owner-source assignments were wrong and ten missing primary bindings were completed (five are DDS_STUDY.md rather than nonexistent README.md); seven physical edition pairs need one declared active continuation; the Requirements promotion packet omitted two operative freeze notices; and the optional HumanTime alternative was stale after 93. The exact corrected pairs and edition differences are now in the same plan. The 04/00K four quotation receivers have a complete bounded checker candidate with 16 focused tests, separate from the 24 future native/semantic acceptance cases.
+
+Fresh officialUC21 reading shows a newer body, updated 25 October 07:58:19UTC, already receiving the direct Contributions route, current source/profile table and subsequent campaign status.144/147 are not safe replay candidates. The official index still lacks 21 and its proposed title needed updating; the unmergedPR22 actually has 54 case files,44/48 original blobs equal and four identified receiving differences. E145R/E146R preserve those distinctions. No official body/comment, source program, frozen result or source edition is changed here.
+
+The plan-level disposition is complete. The original conformance finding remains partial: the registry/identity decisions, actual safeguards and scientific/evidence work are not completed merely by the plan. Earlier audit bodies and their exact sources remain preserved. The same Codex assistant performed this consolidation; no new independent reviewer or sixth-pass completion is claimed.
