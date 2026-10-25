@@ -369,3 +369,151 @@ This receipt closes the 26 literal applications. Role/protection adjudication, p
 **Execution verification:** all 26 accepted literal units and each dependent edition/receipt/retirement operation reproduce the expected candidate. Reversing the recorded operations recovers every complete predecessor byte; no unrecorded byte is accepted. The full candidate documentation checker passes 10,347 local routes, eight architecture minima and two canonical decks, with all four required references retained. The 36 quotation-context adversarial cases also pass against the actually amended reviews.
 
 The complete GFM graph introduces no broken route/fragment or newly unreachable file. The one removed heading is the expressly retired duplicated Gradient 61remnant; its exact incoming ID remains as an explicit HTML anchor and its complete card remains pinned. Both maintained 04/05A sources retain their complete original bytes as prefixes. All 2,405 paths/modes remain, with only 11 existing files changed, 2,394 other entries and 70 other review surfaces exact. The 150-entry priorities ledger, 151 CSV rows, protected EP/EA routers, strategy, frozen sources/results and all binaries remain byte-identical. Final exact public readback is required before this application is reported complete.
+
+
+## Post-implementation document-control audit 2.0 — 25 October 2026
+
+**Assessment:** the repository is **partially conformant** with DC-GH-01 v1.0.2. The authorized implementation is present and preserves its source scope. Document identity, protection decisions and preventive enforcement remain incomplete. The most urgent additional finding is an inherited, still-active workflow that can write the two canonical presentation binaries directly to its checked-out branch.
+
+This is the requested assessment of the repository **after implementation**, following the earlier policy, planning and execution assessments retained above. Reviewer: Codex, AI assistant, same continuing review; no independent human or external certification is claimed. The audited source is [main at 0221c0a9](https://github.com/dakleyer/structural-awareness-contributions/tree/0221c0a9e85a5e456c90e15594be487778baf408), the merge of [PR31](https://github.com/dakleyer/structural-awareness-contributions/pull/31). The comparison baseline is [f8ce4866](https://github.com/dakleyer/structural-awareness-contributions/tree/f8ce4866b6dc61af822198e66e256ca08f08c307), immediately before that implementation. Live branch, ruleset, workflow-state and execution queries were repeated on 25 October; these observations are time-bound settings evidence.
+
+### What was examined and what the verdict means
+
+The assessment reread the actual operative clauses 1–13, current planning/execution entries, CONTRIBUTING, all nine tracked workflow definitions, the deployed documentation verifier, the source/review receptions and the protected-source records. It enumerated the complete 2,405-path Git tree, parsed all 1,048 Markdown files with GFM links/headings/HTML IDs, compared navigation with the pre-implementation tree, and rechecked the 75 existing review candidates against their current sources, openings and source-owned dispositions. It replayed and reversed the complete implementation operation journal against the real merged blobs. Seven isolated adverse documentary cases then tested the deployed verifier's practical boundary.
+
+Those activities evaluate document control and this implementation interval. Parsing all Markdown is not a new scientific reading of every assertion, completion of five/six substantive passes per source, or proof that every historical corpus edit preserved all scientific meaning. Source roles not yet adjudicated remain unclassified. The existing 75-unit population includes historical edition reviews; it is not a count of 75 independent audits or 75 approved current canons.
+
+### Verified improvements and preservation
+
+1. **The implementation reached main.** PR31 is merged; its real 11-file tree matches the recorded candidate. The 26 accepted literal units and their edition/reception/retirement operations reproduce the merged blobs, and inverse reconstruction recovers their complete predecessors. This review found no additional, unrecorded changed byte in that packet.
+2. **No file or unrelated source was lost in that interval.** All 2,405 paths and modes remain; 2,394 other tree entries are identical. Both maintained 04/05A source files retain their entire earlier byte sequences as exact prefixes. Protected EP/EA entry routers, the strategy, historical/frozen sources, results and binaries are unchanged by PR31. This preservation result is bounded to f8ce4866 → 0221c0a9.
+3. **Actual promotion is distinguishable from research validation.** The 04 source now explains qualification/response clocks and human-result reception. The 05A source receives dated UC-6/H1 evidence and the scoped EA-only interface offer. Their existing reviews acknowledge those additions. They introduce neither a new mandatory EHD-kernel field nor a new executed cross-organization result. The 01A-A01 and 02A opening statuses correctly identify incorporated research hypotheses while leaving causal and computational evidence open.
+4. **Applied pending cards were retired with history.** The implementation journal accounts for 26 applied and two superseded control-plan card retirements. Short application receipts retain their headings/summaries and pinned complete original cards. The Gradient61 duplicated heading remnant is gone, while its old incoming HTML ID survives. These authorized retirements removed text from current working queues; they did not erase the earlier Git editions or their audit arguments.
+5. **The real documentation job passed.** [Job121210027071](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40207017095/job/121210027071), from GitHub Actions application15368, completed successfully on the accepted candidate. Its unique name is `Document control verification`; it reports 10,347 local routes, eight architecture section minima and two canonical decks. The current script retains all four required architecture references. Its workflow has explicit `contents: read` and PR/manual triggers.
+6. **No new navigation failure was introduced.** The full before/after GFM comparison found zero new missing paths/fragments and zero newly unreachable files in the explicit file-edge graph. The only removed heading is the authorized Gradient61 remnant whose compatibility ID remains. All 75 review surfaces still have an incoming rendered route somewhere in the corpus, and all their mapped source paths exist. An incoming route somewhere is not proof of correct ownership or three-level placement.
+
+### Clause-by-clause assessment against the current policy
+
+| Operative clause | Actual post-implementation state | Assessment and consequence |
+|---|---|---|
+| **1. Authority, scope and precedence** | One operative DC-GH-01 v1.0.2 entry; review-method, claims and source-freeze authorities remain separately identified. EA's approved/observed discrepancy is still open. | **Partial:** the general precedence is clear; exact protected successor acceptance is not established. |
+| **2. GitHub technical change record** | PR31, exact file diffs, immutable source editions and the real workflow result identify the application. Technical publication is kept distinct from scientific adoption. | **Met for this packet.** Historical audit receipts are provenance, not additional operative policies. |
+| **3. Identity, role, lifecycle and claim status** | The revised hypothesis openings and maintained 04/05A reading distinguish incorporation from evidence. The proposed registry still has 61 `source-under-review` roles. | **Partial:** useful source-specific distinctions exist; corpus-wide role-dependent decisions cannot yet be enforced. |
+| **4. Minimal logical-document register** | `governance/DOCUMENT_REGISTRY.yml` does not exist. The full proposed 72-record candidate is still text inside this control, with 68 proposed continuations plus seven retained reviews. Two source observations are now stale. | **Open:** the proposed mapping is not an installed operational register or accepted role decision. See findings DC2-03/04. |
+| **5. Canonical/VNext link contract** | Ten foreign-review occurrences remain in four controlled navigation owners, plus the separately identified living05A→05review route. Benchmarkv0.3 is correctly recognized as a review alias. | **Partial/nonconforming at the confirmed mutable edges:** preserve proposal access and source meaning while resolving those exact routes after their dependencies. |
+| **6. Navigation ownership and preservation** | The three canonical reading levels and nine owner paths are stated; no owner, path or file was moved/deleted in PR31. GFM introduced no new disconnection. | **Met for packet preservation; partial for repository role reconciliation.** Package/fixture README counts do not add canonical levels. |
+| **7. Review, incorporation and promotion** | A named owner GO, complete literal units, bounded PR, receiving reviews and application receipts exist for the executed packet. Other requirements/profiles remain explicitly pending. | **Met for the incorporated packet; rollout remains open.** No further content is promoted by this assessment. |
+| **8. Protected, append-only, frozen and historical sources** | The packet preserved their blobs; EA still differs from its last recorded approved blob. The deployed general checker does not verify protection or append-only constraints. A separate active presentation writer remains. | **Partial, high practical risk:** preservation was verified manually for this wave, but future preventive control is missing. |
+| **9. Technical checks and enforcement** | A uniquely named read-only checker is live and successful. No role/exact-wave guard is deployed. `main` is unprotected, required checks are off and the ruleset list is empty. | **Open for prevention:** green CI does not enforce owner decisions or block out-of-scope edits. |
+| **10. Institution and programme boundaries** | The operative policy, CONTRIBUTING and accepted additions distinguish inclusion, hypotheses, contributor reports and external adoption. | **Met in the assessed control/application texts.** This is not a new assessment of every institutional claim in the corpus. |
+| **11. Exceptions, conservation and historical citations** | The four quotation references use exact original contexts and real receivers; broad VNext exclusions were not introduced. Frozen split-source and relocated snapshot citations retain their bytes. | **Met for checker disposition and card custody; reader limitations remain:** preserved quoted hrefs themselves are not repaired browser clicks. |
+| **12. Bounded rollout and acceptance** | The accepted packet is closed to its demonstrated scope. Registry, roles, native controls, protected decisions and later content/evidence packets remain open. | **Partial:** implementation is progressive, as the policy says; overall closure would be premature. |
+| **13. Maintenance** | CONTRIBUTING and the root README route to the one policy. Its latest-audit link and the wording of its current planning entry lag the newly applied edition. | **Partial:** small current-entry corrections are justified; avoid another control, index or VNext. |
+
+### DC2-01 — An inherited active workflow can publish canonical presentation binaries
+
+The [presentation-repair workflow at the audited revision](https://github.com/dakleyer/structural-awareness-contributions/blob/0221c0a9e85a5e456c90e15594be487778baf408/.github/workflows/repair-ecosystem-positioning-v12.yml) has `contents: write`, a manual trigger and push triggers on its two repair scripts and workflow. It runs both repair programs, checks that the changed-path set is exactly the two canonical v1.2 PPTX files, commits them as `github-actions[bot]`, and runs `git push`. Its path check limits which files may change; it does not establish accepted before/after bytes, content parity or a fresh owner decision for that run. There is no PR or environment-review gate in that definition.
+
+The live [workflow369026517](https://api.github.com/repos/dakleyer/structural-awareness-contributions/actions/workflows/369026517) reports `active`. Five runs are recorded; the latest returned run, [36417928766](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36417928766), succeeded on 28 September. This is an inherited capability, not a presentation modification caused by PR31 or an execution performed during this audit. A manual run uses its selected ref; a qualifying push uses its checked-out branch. With the observed unprotected main configuration, the definition supplies an uncontrolled publication path if it runs against main with sufficient token permissions.
+
+**Consequence:** the document-control PR/manual check is read-only, but the repository as a whole is not read-only for automation. A later repair can change approved binaries without the ordinary exact-wave reception and could invalidate custody/version references.
+
+**Priority First; expected impact High; change risk Medium; effort Medium.** Prepare an exact owner-approved disposition: retire the obsolete writer or convert it to generation of reviewable outputs with a bounded PR and presentation-specific acceptance. Verify historical editions and current canonical deck identity before any change. Do not run it as a diagnostic or regenerate the decks to test this finding. No workflow setting or binary was changed by this audit.
+
+### DC2-02 — The live checker does less than its future guard specification
+
+The [deployed verifier](https://github.com/dakleyer/structural-awareness-contributions/blob/0221c0a9e85a5e456c90e15594be487778baf408/scripts/check_document_integrity.py#L119) checks parsed relative inline/HTML file existence, eight EP section minima, four reference strings and package/text minima for two decks. It does not read a document register, trusted approved blobs, an accepted exact-wave packet or GitHub approval authority. Its regex does not parse reference-style links; `https:` targets and `#`-only targets are excluded, and a fragment on a relative file URL is discarded before existence checking.
+
+The following tests were actually executed against that script in an isolated documentary tree. All 1,048 Markdown inputs matched the audited main blobs; the two authentic presentation inputs were retained. Other tracked paths were existence placeholders, sufficient only for the checker's file-existence questions. The independent native CI result above covers the real complete checkout. Each test changed one private input, ran the whole checker, then restored that input byte-for-byte. No repository source, branch setting, scientific runner or external system was changed by these tests.
+
+| Isolated case | Expected document-control outcome | Actual deployed-checker result |
+|---|---|---|
+| Add `[Audit test](./__audit_missing__.md)` to baseline README | Reject missing local file | **FAIL**, correctly identifies the missing path |
+| Add `[Audit test](#__audit_missing_heading__)` to that README | Reject nonexistent live section | **PASS**; fragment is not assessed |
+| Add `[Audit test][audit-missing]` and definition `[audit-missing]: ./__audit_missing__.md` | Reject missing reference-style target | **PASS**; this syntax is not parsed |
+| Add a same-repository absolute `https://github.com/dakleyer/structural-awareness-contributions/blob/main/__audit_missing__.md` link | Reject missing current-repository file | **PASS**; treated as external HTTPS |
+| Add baseline's direct link to `./00M_VNext.md` | Report a new foreign-review edge from a canonical router | **PASS**; 10,348 existing local routes are counted |
+| Change the first EP heading prefix from `# ` to `# Audit ` while leaving the eight required sections intact | Report changed specially protected source | **PASS**; no approved-blob comparison exists |
+| Insert a paragraph after EP's first blank line, within its earlier content rather than at the end | Reject failure of an append-only rule when applicable | **PASS**; no predecessor-prefix check exists |
+
+These are six demonstrated coverage gaps, not six newly corrupted published files. The first case shows that the original local-file test still works. The quotation-context improvement is also real; its earlier 36 targeted cases are a different test set and are not counted as these seven tests or as native actor acceptance.
+
+Live [main metadata](https://api.github.com/repos/dakleyer/structural-awareness-contributions/branches/main) reports `protected: false`, required checks off, empty check contexts/checks; [rulesets](https://api.github.com/repos/dakleyer/structural-awareness-contributions/rulesets) returns `[]`. `.github/CODEOWNERS` is absent. PR31 author and merger are both `dakleyer`; this does not supply a distinct owner reviewer. No adverse real-actor merge was attempted here.
+
+**Priority First, after valid identity/protection inputs; impact High; risk Medium–High; effort High.** Implement and test the existing specified guard, including these parser/protection cases, rather than relabeling the present checker as complete. Establish a viable distinct author/reviewer route, trusted check identity and native denial/recovery tests before activating mandatory protections. Do not enable an owner-only approval rule that leaves the sole PR author unable to obtain the required review.
+
+### DC2-03 — Identity coverage is proposed, not operational
+
+The complete proposed registry has 72 records: 61 `source-under-review`, eight `canonical-router`, one `canonical`, one `fixture-index` and one `strategy`. These are planning roles, not a new global classification decision. The seven retained review editions are linked within proposed logical continuations. The current tree has 74 working filename-hinted review files plus the existing benchmarkv0.3 alias; their filenames alone do not establish roles or active uniqueness.
+
+The 75 source-owned dispositions still point to existing sources, and every review has an incoming rendered route. No new VNext or VNext-of-VNext was created in the implementation. However, the two R01 families and the other retained-edition relationships cannot be certified as single-active current mappings until their proposed lifecycle/continuation decisions are accepted. Shared earlier Foundation/02A evidence remains historical dependency review, not a second new independent 02A audit.
+
+**Priority First; impact High; risk Medium; effort Medium–High.** Adjudicate protected sources and the sources/receivers of the next change wave first; retain unsupported roles as unknown. Then install one small register at the declared path, with supported ownership, editions, parts and protection. Do not create another review for each part/edition or make all 61 records canonical by a bulk label.
+
+### DC2-04 — Two observations in the proposed full registry are now stale
+
+The [complete replacement registry candidate](https://github.com/dakleyer/structural-awareness-contributions/blob/0221c0a9e85a5e456c90e15594be487778baf408/DOCUMENT_CONTROL.md#complete-replacement-registry-candidate--still-not-installed) predates the now-applied 04/05A promotions. Comparing every candidate record's observed source blob against the audited tree finds exactly these two changes:
+
+| Proposed registry source | Candidate `observed_blob` | Actual source at audited main |
+|---|---|---|
+| 04 general functional interfaces v0.5 integrated | `30e492c671efed802f7b881ed67e9f4dcd4bb079` | `02f4c9712d1b4be76a7c18a98452ee133a069661` |
+| 05A current-state bridge v0.1 | `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5` | `ea94ba9dbc63da8e8708455cab543e58b960f102` |
+
+The changes are the authorized additive receptions, not loss or unexplained source drift. The old candidate remains legitimate history. Installing it verbatim would supply out-of-date observations to a future guard. Its source roles also remain provisional; the new blob observations would not resolve that independent decision.
+
+**Priority First before installation; impact High for a valid guard baseline; risk Low for an evidence-backed proposal refresh; effort Low–Medium including receiving-source verification.** Prepare a successor candidate against the actual execution head and receipt, retaining the dated earlier candidate. Do not reset special *approved* SHAs to observations: those authority decisions are different fields and evidence.
+
+### DC2-05 — EA's protected successor remains unresolved
+
+The last recorded approved EA entry blob remains `4e41fc697bb2bd94d1f4dd2b75230937684b8152`; the observed entry is still `3ff5c26946b25608cea5cc1c9df8519dc61e1afd`. Their difference predates PR31. EP remains `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`, and the append-only strategy remains `f25aef42574afa9d321b352b3d2b1e1447575556`. PR31 preserves all three observed sources.
+
+**Priority First; impact High; risk High if corrected without an authority decision, Low for preparation of the exact decision; effort Medium.** Use the existing historical delta analysis to obtain acceptance of the named EA successor or an exact targeted correction. Neither the current useful routes nor the older approved baseline should be discarded as an administrative shortcut. No reset, rollback or blanket approval follows from this audit.
+
+### DC2-06 — Confirmed foreign-review routes still contradict the target contract
+
+Fresh GFM inspection, including the benchmark alias, finds **ten occurrences / nine distinct source–target edges / four controlled owners**:
+
+| Current owner | Foreign-review targets | Occurrences |
+|---|---|---|
+| EP entry | Requirements review; benchmarkv0.3 review twice | 3 |
+| EA entry | benchmarkv0.3 review; DDS owning review | 2 |
+| EA baseline index | Requirements review;04review;benchmarkv0.3 review | 3 |
+| EA FG-TIDA index |05review;05Areview | 2 |
+
+The living05A preface additionally links directly to05review; its own05Areview link is valid. The frozen05part retains its historical citations and is not retrofitted to the mutable-source rule. Own-companion repetitions in EP/EA are a readability question, not a second active VNext. Cross-VNext and contextual-to-VNext links remain allowed. Thus the 1,778 rendered references to these 75 review targets from 220 source paths are **not** 1,778 violations.
+
+**Priority Next after content/identity gates; impact High for reader authority; risk Medium, High on protected routers without their decision; effort Medium.** Reuse the existing complete units18–25 and their dependencies. Route the reader to the incorporated/current source and retain review access through that source or a contextual route. Requirements promotion remains an atomic content/identity/consumer packet; do not replace its link in isolation or pretend a proposed working successor is already the adopted canon. EP's append-only restriction and EA's approved-successor decision still govern their exact treatment.
+
+### DC2-07 — Four preserved quoted links are explained, not repaired as browser clicks
+
+The current raw GFM graph reports 3,455 missing-file and 17 missing-fragment occurrences. Of the missing-file reports, 3,450 are in preserved/legacy-path records with original source-relative strings. All 17 fragment reports are in that historical population. These raw counts are not counts of broken current canonical routes.
+
+The five reports outside that population are unchanged: two manifest references inside the04review quotation, A13/A14 inside the00Kreview quotation, and the partial UC-EA-03 URL at the frozen part02/part03 boundary. The exact-context verifier resolves the four quotation references to existing original receivers; ordered concatenation reconstructs the fifth destination. Existing nearby live routes supply the readable alternatives. This is why the native check can correctly pass without changing frozen/quoted text.
+
+A literal click inside either retained quotation can still resolve relative to the review's directory and fail. The checker now understands provenance; the browser does not. Keep that reader limitation distinct from absent evidence, an undiscovered fifth CI failure, or a claim that every visible historical link now works.
+
+**Priority Next for live explanatory routes only; impact Medium; risk Low; effort Low–Medium.** Preserve the original quote and expose the original-location/receiver link clearly beside it where needed. Do not edit the frozen split parts, rewrite thousands of custody strings or exclude all review files to make a scan green.
+
+### DC2-08 — The current entry still contains stale status language
+
+The operative header correctly says v1.0.2 and section16 records the accepted implementation. However, section15 still calls itself the **current planning entry** and says, literally, “The operative policy remains DC-GH-01v1.0.1.” The header's “Latest conformity audit” link still leads to the older second-assessment section. The EP VNext opening also retains the 6October statement that an hourly continuation is scheduled, although Iván subsequently canceled that continuation. These are current-reader ambiguities in preserved cumulative documents, not evidence that the timer has restarted or that the applied packet is pending again.
+
+DOCUMENT_CONTROL is now 395,203bytes/3,927lines; its operative clauses occupy 18,479bytes/136lines. Most of the file is the owner-requested complete plan, candidates and evidence history. Keeping those units is justified, but a reader needs one short unambiguous current entry, current adopted edition, live outstanding work and direct latest-assessment link. A second control or wholesale rewrite would make ownership worse.
+
+**Priority First for a small status-only wave; impact Medium–High for usability; risk Low; effort Low including literal/context checks.** Prepare bounded current-entry corrections in the existing documents, retain the dated historical facts and original cards, and point to section16.2 and this assessment. This audit publication itself appends only to the existing audit; it does not revise those source entries or reinstate scheduling.
+
+### Prioritized follow-through and closure tests
+
+| Order | Concrete next result | Expected benefit / impact | Risk / effort | Evidence required before closure |
+|---|---|---|---|---|
+| **First** | Decide the inherited automatic canonical-deck writer's disposition (DC2-01) | High: remove a publication path outside the accepted-wave process | Medium / Medium | Exact workflow disposition, current deck/custody baseline and reviewable-output path; no unsolicited binary regeneration |
+| **First** | Prepare EA successor and material role/edition decisions (DC2-03/05) | High: reliable protection and companion ownership | Medium–High if applied prematurely / Medium–High | Named source/edition/owner decisions with unresolved roles visible |
+| **First, small textual wave** | Refresh the two candidate observations and the few current-entry statements (DC2-04/08) | High for guard inputs; Medium–High for human navigation | Low / Low–Medium | Literal old/new pairs, actual source blobs, accepted receipts, unchanged history and no automatic role/SHA approval |
+| **Next, dependent** | Install supported registry and implement the existing exact-wave/role/parser/protection guard (DC2-02/03) | High: reject wrong target, stale source and unauthorized scope | Medium–High / High | Trusted base/head/decision inputs; valid controls and adverse cases fail/pass as specified; no self-authorizing metadata |
+| **Next, dependent** | Establish and prove native merge protection (DC2-02) | High: prevent rather than merely report inadmissible merges | Medium / Medium–High | Distinct feasible author/reviewer route, identifiable trusted check, actual denial and authorized-recovery evidence |
+| **Next after reception** | Resolve the confirmed foreign-review reader routes and necessary quotation explanations (DC2-06/07) | High for authority/navigation; Medium for historical-click clarity | Medium on routers, Low on explanation / Medium | Content and consumers first; protected-source GO; source/review access and incoming anchors retained |
+| **After** | Repeat the actual-state audit and close only demonstrated clauses | High: a truthful remaining-work boundary | Low after dependencies / Medium | Current tree, accepted role/protection data, native behavior, scoped source parity and public readback |
+
+The proposed Requirements packet, HumanTime alternative, remaining source-profile decisions and H06/benchmark/R01/FH research work retain their existing scope and gates in the one action plan. They are not failed executions of the 26-unit packet or newly authorized experiments. A useful future wave must name its specific passages/settings and receiving documents; this assessment supplies priorities and acceptance evidence, not blanket implementation authority.
+
+**Final assessment:** the executed wave improved actual reading, review reception, historical-context checking and traceable retirement. Its preservation and scope checks hold. Repository-wide document control remains incomplete chiefly because preventive controls and supported identity/protection data are absent. Address the inherited binary-writing workflow, accepted source identities and the real guard/native settings before declaring conformance closure. This additional audit is published in the existing audit file, preserving all preceding audit content and every other repository path/blob.
