@@ -196,7 +196,7 @@ C’s separate full translation comparison and135’s one-byte English integer c
 
 ## HF review readability repair — 15 October 2026
 
-Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
+Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
 
 
 ## Earlier HF branch reception — 15 October 2026
@@ -211,26 +211,8 @@ This resolves ancestry versus content reception without copying a second study o
 **Auditor: Codex.** This review's remaining live link to baseline's retired139 heading became unavailable during the latest card cleanup. The target's complete applied receipt survives at the verified18October edition.150 below pins this single href; no HF evidence, negative finding, study count or source changes. The [joint review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) separates this real audit-route defect from the four source-quotation checker reports.
 
 
-## Change 150 — Pin historical review references to the edition that contains their sections
+<a id="change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections"></a>
 
-**Prepared; not applied. Impact: Medio. Risk: Bajo. Effort: Bajo. Priority: Siguiente.** Source `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md`, blob `411266d82e4a14f1c23562f0a7868f275fee9644`, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.
+## Applied review repair 150 — 25 October 2026
 
-Retirement of already-applied cards must not erase their incoming audit route. Replace only the affected hrefs with a fixed, verified pre-retirement edition; retain original prose and applied states. The MSCA historical fragment also needs its literal b_cart spelling. No card is reinstated as pending.
-
-### Exact pair 1
-
-**Texto antes — complete current affected unit**
-
-````````````text
-Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
-````````````
-
-**Texto después — complete proposed unit**
-
-````````````text
-Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
-````````````
-
-**Acceptance:** each old unit has one literal occurrence in the pinned source. Reverse only these substitutions to recover the exact predecessor. Preserve complete source quotations, all unrelated prose, paths, bytes and applied states. Verify target fragments, rendered GFM boundaries and public raw bytes against the new head.
-
-**Iván instruction and dependency:** preserve content, use the existing unique VNext, publish review/complete old–new plans, and apply only the named approved wave.148 is separate from historical-link149/150; no pending scientific alternative or canonical body is included. Incorporation awaits Iván’s specific GO.
+Iván authorized these small corrections with the second document-control audit. Applied the exact published unit(s); the complete plan remains in the [pre-application edition](https://github.com/dakleyer/structural-awareness-contributions/blob/b9499c34e8690acdc9a1d1b6f274895a94c4c4b9/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections). This item is applied and is no longer a pending proposal. The retained anchor directs existing review links to this application receipt. All unrelated source bytes and scientific records remain unchanged.

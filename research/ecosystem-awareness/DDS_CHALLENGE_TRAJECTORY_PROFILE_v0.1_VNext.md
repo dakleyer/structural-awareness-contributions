@@ -1844,7 +1844,8 @@ Before it can become the controlling DDS Stage A gate profile:
 3. run specification mutants;
 4. obtain independent review of gate independence and verdict semantics;
 5. compare with the current DDS Stage A method and reconcile any contradiction;
-6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.````
+6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.
+````
 
 </details>
 
@@ -19036,27 +19037,8 @@ The repository's unchanged checker expressions reproduce exactly four local-rout
 Candidate148 plus149/150 removes all16active fragment failures in the tested view. The four literal-context checker reports remain by design, and frozen snapshot links are preserved. Historical fixed-commit URLs are validated where selected for149/150; the worldwide external URL set is not certified. No new public file, VNext, canonical edit or experiment is included in this audit publication.
 
 
-## Change 148 — Separate the historical Stage-A source from the following DDS audits
+<a id="change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits"></a>
 
-**Prepared; not applied. Impact: Alto. Risk: Bajo. Effort: Bajo. Priority: Primera.** Source `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md`, blob `6be23365db8cc6ed7eae1001b707156c3b4d7f0a`, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.
+## Applied review repair 148 — 25 October 2026
 
-One four-backtick closer is attached to the final source sentence. GFM therefore treats lines 1313–3008 as one code block and hides the 14 October restoration-plan heading and later audit navigation. Insert one separator LF before the existing delimiter. All 22,330 historical-source bytes and every other original byte remain exact. The five incoming plan-fragment references can then reach the intended heading. This is high impact for audit reading, not a new scientific result.
-
-### Exact pair 1
-
-**Texto antes — complete current affected unit**
-
-````````````text
-6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.````
-````````````
-
-**Texto después — complete proposed unit**
-
-````````````text
-6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.
-````
-````````````
-
-**Acceptance:** each old unit has one literal occurrence in the pinned source. Reverse only these substitutions to recover the exact predecessor. Preserve complete source quotations, all unrelated prose, paths, bytes and applied states. Verify target fragments, rendered GFM boundaries and public raw bytes against the new head.
-
-**Iván instruction and dependency:** preserve content, use the existing unique VNext, publish review/complete old–new plans, and apply only the named approved wave.148 is separate from historical-link149/150; no pending scientific alternative or canonical body is included. Incorporation awaits Iván’s specific GO.
+Iván authorized these small corrections with the second document-control audit. Applied the exact published unit(s); the complete plan remains in the [pre-application edition](https://github.com/dakleyer/structural-awareness-contributions/blob/b9499c34e8690acdc9a1d1b6f274895a94c4c4b9/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits). This item is applied and is no longer a pending proposal. The retained anchor directs existing review links to this application receipt. All unrelated source bytes and scientific records remain unchanged.

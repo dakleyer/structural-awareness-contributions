@@ -1,12 +1,12 @@
 # Corpus Document Control — DC-GH-01
 
-**Edition:** v1.0 · **Effective:** 25 October 2026 (owner-authorized GitHub publication)  
+**Edition:** v1.0.1 · **Effective:** 25 October 2026 (owner-authorized clarifications)  
 **Owner:** Iván Abril Palma · **Scope:** dakleyer/structural-awareness-contributions  
 **Status:** Current repository document-control policy. **Implementation is progressive; publication is not a claim of corpus-wide conformity.**
 
-**Latest conformity audit:** [25 October 2026 audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · [VNext-link baseline inventory](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
+**Latest conformity audit:** [25 October 2026 — second assessment](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026) · [VNext-link inventory with dated assessments](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
 
-**Preserved predecessor:** [DOCUMENT_CONTROL v1.1, complete pre-consolidation text](./governance/preserved-public-snapshots/2026-10-25_DOCUMENT_CONTROL_v1.1_PRE_CONSOLIDATION.md). The [24 October v0.1 conventions](./governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md) are a historical predecessor, not an independently operative second policy.
+**Preserved predecessor:** [DOCUMENT_CONTROL v1.1, complete pre-consolidation text](./governance/preserved-public-snapshots/2026-10-25_DOCUMENT_CONTROL_v1.1_PRE_CONSOLIDATION.md). The [24 October v0.1 conventions](./governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md) are a historical predecessor, not an independently operative second policy. For working historical hyperlinks, [read the original at its original pinned location](https://github.com/dakleyer/structural-awareness-contributions/blob/21e200cd4c9a0558e4ae3669c55f7256c03a005a/DOCUMENT_CONTROL.md); the relocated custody snapshot retains its original relative strings.
 
 This document consolidates the repository's documentary identity, classification, navigation, VNext, preservation and maintenance rules. It replaces the operative document-control instructions scattered across the prior two controls, **without replacing domain-specific scientific, freeze, review or institutional requirements**.
 
@@ -37,7 +37,7 @@ GitHub publication, merge, issue label and a passing check do not themselves est
 
 ## 4. Minimal logical-document register
 
-The repository shall progressively maintain a machine-readable DOCUMENT_REGISTRY.yml (to be created in Wave 1; not yet present) as the single operational mapping for identities and role-dependent checks. **Its nonexistence or incomplete coverage is an audit finding, not grounds to invent document roles.**
+The repository shall progressively maintain a machine-readable `governance/DOCUMENT_REGISTRY.yml` as the single operational mapping for identities and role-dependent checks. Wave 1 collects and adjudicates the read-only inventory; Wave 2 creates the registry from those supported mappings. The registry is not yet present. **Its nonexistence or incomplete coverage is an audit finding, not grounds to invent document roles.**
 
 For registered sources, use only the fields needed to disambiguate: stable logical ID, repository path, role, lifecycle, accountable owner where required, canonical companion/owner relation for VNext, protection mode and approved blob for specially protected files, and relevant decision/exception reference when material. A current logical canonical may have **at most one active VNext**. Historical versions and historical VNext records may remain preserved under their exact editions but must not be counted as additional active companions.
 
@@ -66,6 +66,8 @@ Keep the public programme navigation distinct from internal technical reading ro
 
 - **Public route:** Iván Abril Palma profile → Structural Awareness Programme → four human programme areas (Mathematical Contributions; Field Notes/Research Series; Field Practice/Engineering; Architectural Contributions/pre-standardization) → Ecosystem Positioning.
 - **Technical architecture:** Ecosystem Positioning routes to Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control, with their own canonical technical indexes, work packages, evidence and applications.
+
+The maintained technical corpus has **exactly three canonical README reading levels: Ecosystem Positioning entry → Awareness entry → technical corpus indexes**. The nine controlled owner paths below are not nine reading levels. Package/fixture READMEs and the three existing additional-work catalogues provide subordinate or optional reading; they do not add canonical levels. This carries forward the owner instruction in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#redistribución-de-archivos-y-tres-niveles-de-readme--instrucción-de-iván).
 
 Each controlled navigation family has one owner. Cross-links do not transfer ownership. The existing nine controlled navigation owner paths are the transitional baseline: root README; Ecosystem Positioning README; EA entry README; EA baseline README; EA FG-TIDA README; RS-00E-Q1a fixture README; Regime Awareness README; MSCA README; submissions README. The register shall identify these explicitly. Other package READMEs may describe executable packages without becoming extra programme-level navigation owners.
 
@@ -119,7 +121,7 @@ Record any exception with its scope, source, justification, responsible decision
 
 - **Wave 0 — effective policy and custody:** preserve predecessor texts, publish this single current policy and audit link, identify protected-source discrepancies. No mass corpus changes.
 - **Wave 1 — read-only inventory:** enumerate VNext references; distinguish occurrences, unique edges, source roles and historical citations. Resolve identity ambiguities before labeling violations.
-- **Wave 2 — safeguards:** register relevant logical identities, extend the existing check, and configure enforceable review/branch settings proportionately.
+- **Wave 2 — safeguards:** create `governance/DOCUMENT_REGISTRY.yml` from the adjudicated logical identities, extend the existing check, and configure enforceable review/branch settings proportionately.
 - **Wave 3 — approved corrections:** amend only confirmed incompatible mutable canonical links and ownership ambiguities, in small evidence-backed PRs.
 - **Wave 4 — conformance closure:** rerun checks, record unresolved exceptions/owner decisions, verify actual GitHub enforcement, and close the follow-up only to its demonstrated scope.
 
