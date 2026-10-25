@@ -1,6 +1,6 @@
 # ACC — Modelo auxiliar
 
-**Papel:** conjunto de artefactos opcionales de investigación alojado en la línea del [Agentic Citizenship Contract](../../01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md). **Estado:** modelo de trabajo deliberadamente acotado, preparado para desarrollo y evaluación posterior. Autoría de las ideas: Iván Abril Palma / The Integral Management Society; organización documental asistida por Codex.
+**Papel:** conjunto de artefactos opcionales de investigación alojado en la línea del [Agentic Citizenship Contract](../../01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md). **Estado:** modelo de trabajo deliberadamente acotado con un primer piloto determinista ejecutado; la evaluación científica e integración posteriores permanecen abiertas. Autoría de las ideas: Iván Abril Palma / The Integral Management Society; organización documental asistida por Codex.
 
 **Nombre del artefacto:** ACC — Modelo auxiliar. «Conscientia» identifica únicamente los documentos de origen.
 
@@ -39,10 +39,16 @@ Los textos completos conservan desarrollos históricos y formulaciones que requi
 
 **Modelo acotado → especificación de preguntas y comparadores en DDS → preparación de casos y oráculos → arquitectura/implementación de estudio → ejecución y efectos → revisión de resultados.** Cuando una pregunta utilice UC21/R01, el adaptador queda definido en su protocolo DDS y conserva el contrato de fuente.
 
-La existencia de este paquete no equivale a un cierre DDS ni a un sistema ejecutado. Las cifras sintéticas históricas conservan el estado declarado por sus autores y no se presentan como runs reproducidos por esta incorporación.
+Existe ahora un [piloto económico determinista](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md), con [recorrido manual](studies/economic-pilot-v0.1/MANUAL_TRAVERSAL.md), código y [resultados](studies/economic-pilot-v0.1/results/RESULTS.md). Ejecuta una especificación pequeña: los procedimientos principales empatan y los límites conservan sus FAIL. No es una integración operativa de ACC ni un cierre DDS. Las cifras sintéticas históricas conservan su procedencia y siguen sin autenticarse; la [recreación analítica nueva](studies/synthetic-recreation-v0.1/README.md) se identifica por separado.
 
 ## Relación con el corpus
 
 ACC conserva sus condiciones de participación y gobierno. EA conserva ABCD y cualificación; MSCA, suficiencia de control; los mecanismos de identidad/autoridad, sus mandatos; y el ejecutor, la acción. El modelo puede informar futuras decisiones o contrastes de esos consumidores sin transferir sus competencias. [Límites y decisiones posteriores](ACC_BOUNDARY.md).
 
 Los ejemplos humanos, institucionales, empresariales y de infraestructuras forman parte del objeto del modelo. Su primer estudio puede realizarse sin agentes de IA. Las cuatro pasadas de revisión de este paquete son relecturas de Codex, asistente de IA; no una revisión humana independiente ni un cierre científico. La elección de un soporte informático, de una ubicación posterior o de un perfil contractual concreto corresponde a trabajo futuro.
+
+## Qué cambió tras las auditorías
+
+Se restauran premisas de compensación, acuerdo y autoridad; se explicitan las cautelas de bienestar y ejemplos hipotéticos; se corrigen rangos y se prepara una trazabilidad conceptual. [La disposición de las 24 acciones](review/AUDIT_ACTIONS.md) distingue lo aplicado y lo pendiente. El [mapa de conceptos](review/CONCEPT_MAP.md) y las [notas de fuentes](review/SOURCE_NOTES.md) permiten seguir las condiciones y sus diferencias históricas.
+
+Para reproducir el piloto basta Python 3.12 o posterior y su biblioteca estándar. Las instrucciones están en su protocolo. La coincidencia de un ejecutable con tablas manuales no certifica toda la teoría ni mide bienestar humano. El alojamiento y uso posterior en ACC conservan los límites declarados al comienzo de esta página.

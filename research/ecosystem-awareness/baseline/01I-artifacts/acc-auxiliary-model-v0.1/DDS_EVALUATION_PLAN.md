@@ -1,6 +1,6 @@
 # Programa de evaluación del modelo mediante DDS
 
-**Estado:** programa candidato de investigación; no se ha ejecutado por incorporar este artefacto. Los IDs ACC-ECO pertenecen a este programa local y no crean requisitos ni tests canónicos del ACC, EA, DDS o UC21.
+**Estado:** programa candidato de investigación; el primer piloto determinista acotado fue ejecutado el 25 de octubre de 2026. La agenda completa no se ha ejecutado ni obtiene aceptación DDS por este piloto. Los IDs ACC-ECO pertenecen a este programa local y no crean requisitos ni tests canónicos del ACC, EA, DDS o UC21.
 
 ## Ruta de integración de estudios
 
@@ -73,3 +73,9 @@ El resultado del escenario fuente no se reetiqueta con un oráculo social añadi
 6. Estudio humano separado si se contrastan bienestar, comprensión o legitimidad percibida.
 
 Los resultados sintéticos mencionados en las notas requieren localizar código/salidas originales y comprobar correspondencia antes de llamarlos reproducidos. No se heredan cifras como evidencia nueva de este paquete.
+
+## Primer protocolo y correspondencia de fuente
+
+El [estudio económico v0.1](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) realiza un subconjunto de preguntas de ACC-ECO-01, 04–06, 10–11 y 16–22, con cobertura parcial indicada en su protocolo. No ejecuta las 22 familias. Se publican recorrido manual, entradas congeladas, implementación, trazas y resultados contrarios.
+
+La primera correspondencia útil es con S5: una orden diferida puede dejar de estar justificada aunque su token siga vigente. [El adaptador v0.1](studies/economic-pilot-v0.1/DDS_ADAPTER_SPEC.md) fija versión de fuente, campos y límites; exporta una vista documental, no una ejecución del caso original. El oráculo social del modelo y el oráculo UC21 permanecen separados. No se conecta todavía un ejecutor de base de datos ni un desafío R01; esas dependencias se incorporarán sólo mediante el protocolo DDS correspondiente.

@@ -71,3 +71,8 @@ Reviewer A read all172 current01I lines and the changed historical units. Autono
 Iván's current instruction is to house the complete working model as a deliberately bounded artefact for subsequent ACC use/integration, explicitly excluding a definition of all ACC or how it is integrated inside an agent. The earlier proposal to generalize the whole ACC is outside this scope.
 
 The [package reader](./01I-artifacts/acc-auxiliary-model-v0.1/README.md) links its integrated account, full source books, coverage, study specification and DDS route. The current ACC receives only a non-normative navigation paragraph; §§1–10 and their participation/authority meanings remain unchanged. This does not complete the pending substantive review passes or adopt the artefact's hypotheses.
+
+
+## ACC auxiliary model audit corrections and first bounded study
+
+Iván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.

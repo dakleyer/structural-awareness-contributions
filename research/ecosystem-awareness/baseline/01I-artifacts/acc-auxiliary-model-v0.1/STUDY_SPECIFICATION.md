@@ -12,6 +12,8 @@ El estado inicial y los estados alternativos incluyen recursos, tecnología, per
 
 Estas expresiones identifican construcciones de trabajo de las fuentes. Su ejecución requiere fijar parámetros, unidades y supuestos. No constituyen un teorema común.
 
+Las letras son locales a cada familia: D distribución, C coordinación y A atribución en un toy no equivalen a las regiones epistémicas A/B/C/D. E como eficiencia tampoco equivale a E(n), número de relaciones. Una ejecución declarará su diccionario de símbolos sin reescribir las fuentes.
+
 | Familia formal | Expresión o estructura de origen | Condición que debe acompañarla |
 |---|---|---|
 | Dominancia en dimensiones conocidas | S1 domina S0 si cada dj no empeora y alguna mejora | Lista abierta, órdenes declarados, sin sustitución automática entre ejes |
@@ -30,6 +32,14 @@ Estas expresiones identifican construcciones de trabajo de las fuentes. Su ejecu
 | Flujo y acumulación | d_t por periodo; D_T como suma temporal con duración | Trabajo nuevo por periodo frente a repetición del mismo episodio; curvatura del flujo distinta de acumularlo |
 | Contribución humana | HID = HICT − HICR; GIC/NEO/ACW y perfil de inputs | Unidades compatibles, evitabilidad contrastada y capacidad liberable distinta de uso real |
 | Gradiente existente | Gi de candidato = reducción de riesgo condicionado al objetivo | Relación escalar o vectorial declarada, restricciones duras y autoridad separada |
+
+### Sensibilidad que debe fijar cada estudio
+
+Variar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizonte; incluir coste incremental de interoperabilidad y transición. Mostrar regiones con ganancia, empate y pérdida. En el brazo de crédito, contrastar la regla de veto contra explicaciones por servicio, riesgo y autoridad legítima. La probabilidad q de aceptación independiente de unos filtros y la fracción q de obligaciones protegidas de otro toy son parámetros locales distintos; una realización debe distinguirlos. No se infiere causalidad de una curva incorporada por la topología o por la regla de retiro.
+
+### Medidas de contribución humana
+
+Toda medida declarará contrafactual, horizonte, denominador y evidencia de evitabilidad. Separar cuota observada de ACW, capacidad liberable, contribución genuina potencial y recuperación real. Si no hay convertibilidad o referencia comparable, conservar vector, intervalo o no establecido. HICT y HICR conservan su definición propietaria. Una pérdida de habilidades exige observaciones distintas del trabajo ACW eliminado; no se deduce del cociente de horas.
 
 ## Propuesta y transición
 
@@ -61,3 +71,11 @@ Primero puede recorrerse con personas y tablas. Después se podrá implementar u
 Antes de congelar una prueba faltan: unidad y escala de cada variable, conjunto de casos, política de generación/semillas, algoritmos o procedimiento manual, asignación de autoridad, recursos y costes, condiciones de éxito/fallo, adaptación admitida, oráculos, formato de trazas y reglas de análisis. Cada elemento tendrá versión.
 
 Si se estudian experiencia o bienestar humanos, se requiere un protocolo propio con instrumentos y población adecuados. Una simulación económica no suministra por sí misma esa medición.
+
+## Primer estudio delimitado y controles adicionales
+
+El [protocolo económico v0.1](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) fija unidad, actores, costes, autoridad, información, comparadores, 18 casos, criterios y expectativas manuales antes de la implementación. [El recorrido manual](studies/economic-pilot-v0.1/MANUAL_TRAVERSAL.md) y el freeze conservan ese contrato. El modelo determinista es una realización de estudio; no una API ni integración de ACC en agentes.
+
+El estudio incluye el control de información y bienestar propuesto en C04: mismo estado material, diferente visibilidad de una alternativa y registro separado de W, elección y acceso acordado a información. La disminución de F por ocultación puede subir una puntuación sin eliminar la causa material. No se presume que conocer siempre aumente malestar. Los controles auxiliares son construcciones, no mediciones humanas.
+
+Dos estados con la misma información visible pueden exigir respuestas distintas: se conserva ese fallo en E09/E10. T06 impone un máximo de dos consultas y permite causa no resuelta. La continuidad se examina con aprobación caducada, reparación que deja obsoleta una orden todavía autenticada y renovación legítima. El procedimiento convencional dispone de las mismas vías de revisión y puede empatar o resultar más barato.

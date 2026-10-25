@@ -24,6 +24,8 @@ Generar capacidades y preservar las valiosas son funciones relacionadas. Preserv
 
 La motivación permite contrastar prosperidad material distribuida, autonomía/participación y solidaridad libremente elegida. Pueden combinarse o entrar en tensión. El diálogo con Magnifica Humanitas y las referencias a Babel/Nehemías conservan su naturaleza interpretativa; sus correspondencias no validan modelos técnicos ni imponen una finalidad religiosa. Las personas conservan dignidad y derechos con independencia de su productividad.
 
+La antivisión es la dependencia obligada y el sacrificio evitable. Ayuda a identificar límites, pero deja abierta la elección positiva entre prosperidad distribuida, autonomía, participación y solidaridad libremente elegida, u otros fines legítimamente declarados.
+
 ## Del caso de una dimensión al modelo abierto
 
 Una primera dimensión ordena una propiedad bajo su contrato de medida. Al añadir eficiencia y distribución se distinguen dos preguntas: producir exactamente el mismo vector de bienes/servicios con menos recursos; y mejorar la utilidad o reparto para los afectados. Pueden mejorar juntas o requerir acuerdos.
@@ -32,7 +34,11 @@ La equivalencia de servicio conserva cantidad, calidad, cobertura, continuidad, 
 
 Las escenas del plátano muestran cómo aparecen nuevas condiciones. Una alternativa puede mejorar eficiencia y reparto pero necesitar coordinación. Resuelta ésta, Cáritas/DANA y Viernes/Robinson muestran que la atribución, el reconocimiento o la distribución relativa del diferencial pueden condicionar aceptación aun cuando ambos mantengan ganancias directas positivas.
 
+Cáritas/DANA es aquí un ejemplo hipotético sobre preferencias y percepciones del donante. No describe prácticas reales de la entidad ni atribuye egoísmo, error o mala fe. Se mantienen las ganancias directas positivas y se estudia por separado el crédito o reconocimiento relativo.
+
 El conjunto n de dimensiones es finito y provisional. Una alternativa domina sobre las coordenadas declaradas si ninguna empeora y alguna mejora; eso no equivale automáticamente a Pareto sobre las preferencias completas de todas las personas. La apertura n→n+1 invita a investigar condiciones omitidas, datos, derechos, mecanismos, capacidades o costes. No obliga a inventar una dimensión invisible que salve cualquier predicción del modelo.
+
+El protocolo fijará presupuesto de investigación, evidencia mínima y criterio de mejora explicativa fuera del caso que motivó el ajuste. Agotado ese presupuesto sin discriminar mecanismos, el resultado será causa no resuelta. Una dimensión incorporada después se registra como exploración para un contraste nuevo.
 
 ## Dos hipótesis distintas y retroalimentación de la aceptación
 
@@ -44,9 +50,13 @@ El vértigo, la desconfianza o la pérdida anticipada de autonomía pueden influ
 
 Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.
 
+Comprender una mejora no concede mandato para realizarla. Como en el tendero que puede fiar y la cajera que no puede autorizarlo, importa disponer de vías efectivas para comprender, negociar, modificar, impugnar o detener una decisión según las facultades aplicables; ninguna se presume por el mero conocimiento.
+
+Un acuerdo conjunto inmediato presupone información suficiente sobre las dimensiones relevantes, costes de transición incluidos y permiso y mecanismo disponibles. No requiere inventar negociación distributiva adicional, aunque pueda consumir recursos ordinarios de comprobación o implementación.
+
 La negociación puede cambiar propuesta, distribución, responsabilidad, presupuesto, delegación o confianza. Si Marketing y Producción ganan mientras Sistemas soporta carga, pueden existir varias rutas legítimas de compensación; Operaciones no es el pagador predeterminado. Finanzas, CFO, junta, proveedores homologados y concursos añaden condiciones reales con titulares y plazos. No se supone un coordinador omnisciente.
 
-En una ilustración cardinal declarada, puede estudiarse Δu_i+t_i−c_i≥0 para cada participante con suma t_i=0. La transferencia cambia el reparto; el tiempo y los recursos gastados en investigar, negociar y reconfigurar son costes adicionales. Seguridad, derechos, autoridad y ciertas responsabilidades pueden ser no transferibles. En perfiles ordinales se conservan órdenes y acuerdos sin inventar una utilidad cardinal.
+Con utilidad plenamente transferible, un numerario común, costes en la misma unidad y transferencias practicables sin restricciones adicionales, puede estudiarse Δu_i+t_i−c_i≥0 para cada participante con suma t_i=0. Bajo esos supuestos, existe una distribución si ΣΔu_i≥Σc_i; la mera cardinalidad no basta. La transferencia cambia el reparto; el tiempo y los recursos gastados en investigar, negociar y reconfigurar son costes adicionales. Seguridad, derechos, autoridad y ciertas responsabilidades pueden ser no transferibles. En perfiles ordinales se conservan órdenes y acuerdos sin inventar una utilidad cardinal.
 
 Una transición que finalmente se aprueba puede consumir atención y crear dependencia o malestar. Esa posibilidad no demuestra que su resultado neto sea negativo ni que la negociación fuera evitable. El contraste incluye organizaciones convencionales que coordinen bien.
 
@@ -57,6 +67,8 @@ Los ministerios, las oficinas y la imagen de 700 aplicaciones a dos muestran una
 Quien conoce mejor la duplicación puede depender de su puesto, presupuesto o autoridad. Hacer viable la reforma exige estudiar medios de vida, nuevas aportaciones y elección. El tiempo liberado pertenece también a usuarios. La capacidad liberable, su recuperación efectiva y su uso posterior son observaciones distintas.
 
 Una persona con reconocimiento de incapacidad puede encontrar barreras para desplegar capacidades y preferencias. Se estudian apoyos y formas de participación sin deducir obligación de trabajar ni garantizar una adaptación suficiente en todos los casos. La dignidad no se mide por la aportación producida.
+
+Las alternativas se evalúan conservando derechos, protección y elección de la persona.
 
 El caso de la playa distingue ingreso nuevo de utilidad nueva. Cobrar sin modificar el servicio puede transferir valor y limitar acceso; financiar conservación o protección efectiva puede aportar beneficios. Deben compararse costes, acceso, calidad, distribución y usos alternativos.
 
@@ -70,6 +82,8 @@ Los tres estados de dos plátanos ilustran que más consumo puede coexistir con 
 
 Se comparan regímenes donde W es informativo y donde una autoridad legítima lo adopta como condición vinculante. No admitir aumento de G y no admitir pérdida de W son reglas distintas. El segundo criterio puede aceptar oportunidades no realizadas si otras ganancias compensan el coste bajo el perfil elegido.
 
+Ambos regímenes son propuestas para ensayo comparativo. La condición ΔW ≥ 0 no sustituye automáticamente consentimiento, dignidad, derechos no compensables ni autoridad legítima. En el régimen B, mayor producción con ΔW < 0 no supera esa puerta; las demás condiciones permanecen.
+
 ## Error irreversibilidad y tiempo
 
 Una condición basada en bienestar previsto no garantiza bienestar realizado. El protocolo registra supuestos, error de ambos signos, falsas aprobaciones, falsas denegaciones y oportunidades de revisión.
@@ -78,11 +92,15 @@ Volver al estado anterior es otra transición: instalaciones retiradas, capacida
 
 La continuidad a través de cambios sucesivos interesa además de un acierto puntual. Se contrastan entornos estables, cambios conocidos, novedades y secuencias mixtas, con iguales futuros posibles, información ex ante y reglas de adaptación. La preparación y mantenimiento de ambos métodos cuentan incluso en futuros en que no se utilizan. La analogía del tropiezo no concede previsión del fallo a un brazo.
 
+Predicción candidata: con calidad comparable y controles especializados y adaptativos competentes, la ventaja neta puede ser nula o negativa en entornos estables y bien catalogados. Se contrastará si cambia con la novedad y la tasa de cambio, contando preparación y mantenimiento completos de ambos métodos.
+
 ## Redes y efectos de segundo orden
 
 El modelo distingue número de conexiones, condiciones soberanas independientes, sustitutos, gobierno conjunto y capacidad de resolver un cuello común. Ormuz se conserva como experimento mental, con rutas alternativas y costes, sin afirmar un episodio geopolítico concreto.
 
 Los ensayos de unanimidad y redes fijan supuestos como independencia, q constante, topología y generación de propuestas. La saturación del rechazo no demuestra por sí sola aceleración indefinida. Las interacciones también pueden producir sinergias; una red dispersa o una coordinación competente pueden refutar una extrapolación del bloqueo.
+
+La expresión q^v describe el caso de consentimientos independientes. Con q = 0,9 y v = 20 da 0,1216; con respuestas perfectamente coincidentes da 0,9. Una prueba debe variar correlación, delegación, sustitución, negociación y gobierno conjunto.
 
 Se separan trabajo por periodo y pérdida acumulada. Una suma creciente no prueba aceleración del flujo; una segunda diferencia positiva describe curvatura y no identifica por sí sola una causa. Un efecto de segundo orden requiere mostrar cómo una decisión cambia reglas, capacidad, crédito, dependencias o decisiones posteriores.
 
@@ -112,7 +130,11 @@ ABCD sigue siendo relativo al proceso que produce una evaluación: A es el resul
 
 Verdad del dominio y fundamento para actuar son preguntas diferentes. El limpiador de mesas puede carecer de base para cambiar de misión sin resolver la verdad completa de una afirmación histórica. Una insuficiencia no se compensa con muchos datos de otro dominio ni con repeticiones dependientes.
 
+Si dos estados requieren respuestas distintas pero producen la misma información admitida, una decisión basada sólo en ella no puede distinguirlos siempre. El estudio variará fuentes, observabilidad, latencia y capacidad de revisión. Un control con feedback suficiente puede eliminar el diferencial; el límite queda referido a la observación impuesta.
+
 FH-C formula una prioridad causal comparativa de perder conciencia de límites en clases de deriva; FH-E, una posible economía computacional para la misma tarea de cualificación y calidad no inferior. Son hipótesis diferentes. Menor cómputo no implica menor complejidad arquitectónica o coste total. Awareness puede estudiarse sin Repositioning; alojar este modelo en ACC no cambia esa independencia.
+
+FH-C es una prioridad causal propuesta y falsable para clases declaradas de deriva, con evidencia, autoridad y recursos comparables. La comparación de FH-E define la tarea independientemente y contabiliza también construcción y mantenimiento de la cartografía. Estas condiciones no convierten las hipótesis en resultados demostrados ni alteran su independencia respecto de Repositioning.
 
 ## Uso posterior
 

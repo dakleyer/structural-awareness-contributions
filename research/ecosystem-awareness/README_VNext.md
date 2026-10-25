@@ -331,3 +331,8 @@ The [joint plan](https://github.com/dakleyer/structural-awareness-contributions/
 ## ACC auxiliary model — navigation reception
 
 The owner asks to house a bounded working model for later ACC use/integration, not redefine ACC or its internal integration into agents. An append-only optional-package paragraph in this README points to the [artefact reader](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md). Existing router text remains byte-preserved; the artefact stays outside the EA core/frozen baseline. No previously pending audit or validation is marked complete by this addition.
+
+
+## ACC auxiliary model implementation reception
+
+Iván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.

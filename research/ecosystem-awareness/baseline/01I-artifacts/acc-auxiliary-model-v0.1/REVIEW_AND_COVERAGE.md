@@ -92,3 +92,25 @@ La propuesta anterior de generalizar el ACC completo queda superada por la delim
 ## Límites pendientes
 
 Quedan por formalizar los protocolos y parámetros finales, verificar/reproducir las salidas sintéticas originales y completar la bibliografía específica cuando se use como evidencia. No se declara revisada toda la literatura citada, toda la topología del corpus ni la teoría económica como demostrada. Estas limitaciones no impiden conservar y publicar el modelo como trabajo acotado.
+
+## Conciliación y correcciones autorizadas el 25 de octubre de 2026
+
+Iván responde «adelante» a conciliar ambas auditorías, aplicar correcciones mínimas preservando fuentes, fijar un protocolo económico, recorrerlo a mano, implementar un modelo determinista y examinar continuidad con posterior adaptación DDS. La anotación autoriza esta secuencia y actualiza el PR en borrador; no autoriza fusionarlo ni cambiar todo ACC.
+
+### Primera pasada Fondo y lógica
+
+Codex releyó las objeciones semánticas y formales frente a los pasajes completos citados. Restauró la premisa de utilidad transferible, las condiciones de acuerdo inmediato y la agencia efectiva. Se incorporó el contraejemplo de ocultación como pregunta de diseño, sin concluir que toda medida de bienestar genere ese incentivo. Se mantiene el núcleo económico y la posibilidad de coordinación competente. La falta de un historial completo impide certificar todos los prompts originales.
+
+### Segunda pasada Evidencia y relaciones
+
+Los cuatro libros y el inventario permanecen idénticos a la versión auditada. El [mapa de conceptos](review/CONCEPT_MAP.md) conecta fuentes, condiciones, explicación, pregunta, refutador y evidencia, con recepción explícita de S3. Las notas de cotejo conservan abreviaturas históricas. El piloto no implementa EA o ACC: sus dos procedimientos competentes empatan y el límite E10 conserva FAIL. Se separan recreación analítica nueva y autenticación histórica pendiente. La correspondencia S5 sólo prepara un adaptador documental y mantiene el resultado de fuente sin ejecutar.
+
+### Tercera pasada Edición estructura y formato
+
+Se corrigieron siete rangos discontinuos, las cautelas locales de Cáritas, capacidades y bienestar, y la notación por familias. Las redacciones comparten sus anclajes sin duplicar fuentes. Se actualiza la entrada existente del artefacto y se conservan sus versiones previas auténticas. El [delta exacto](review/applied_delta.json) registra antes y después; no se crea otra VNext ni se cambia el cuerpo normativo de 01I.
+
+### Cuarta pasada Legibilidad y comprensión
+
+Codex recorrió la entrada, el núcleo económico, el caso empresarial, la tabla de variables, las expectativas manuales, los resultados y el límite de la correspondencia DDS. Las notas de sensibilidad y capacidad se colocaron después de la tabla formal completa para conservar su lectura continua; se redujo repetición sin suprimir condiciones. La ruta permite distinguir un acuerdo beneficioso, un permiso insuficiente, un efecto realmente observado y un FAIL conocido. El empate de los procedimientos y el fallo de información no quedan ocultos tras un PASS de comprobación.
+
+Esta es una simulación de lectura por el mismo asistente, no una prueba con una persona nueva ni una revisión humana independiente. La integración conceptual está examinada en los conceptos y pasajes declarados; el historial original completo y la validación empírica siguen abiertos.

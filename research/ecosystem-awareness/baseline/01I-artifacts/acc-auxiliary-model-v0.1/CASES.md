@@ -9,7 +9,7 @@ Los desarrollos narrativos completos permanecen en los [cuatro textos fuente](SO
 | 700 aplicaciones a dos | Eliminar obligaciones frente a añadir otra integración | Ilustración declarada, no cifra medida |
 | Plátano y transporte adicional | Mejora distributiva con posible coste E | Control de trade-off real |
 | Plátano de 14.000 km y entrega local | Candidato de mejora conjunta y coordinación | Caso completo con supuestos y contrafactual |
-| Cáritas y DANA | Ganancia directa y crédito/legitimidad relativa | Condiciones de participación y desacuerdo |
+| Cáritas y DANA | Ganancia directa y crédito/legitimidad relativa | Condiciones de participación y desacuerdo; ejemplo hipotético de preferencias, sin afirmación sobre prácticas reales de Cáritas ni atribución de mala fe |
 | Viernes y Robinson 1/999 | Reparto del diferencial con ganancia directa de ambos | Negociación y preferencias relativas |
 | Bocadillo del pueblo y supermercado | Información y aceptación local sin autoridad | Ruta de delegación/excepción/recontratación |
 | Dos plátanos en tres estados | Producción, alternativa y experiencia | Balance y no doble cómputo |

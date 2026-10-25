@@ -18,3 +18,11 @@ jobs:
           python-version: '3.12'
       - name: Check links, architecture sections and presentations
         run: python scripts/check_document_integrity.py
+      - name: Check historical source qualifications and navigation
+        run: |
+          python -B -m unittest discover -s scripts -p test_historical_source_routes.py -v
+          python -B scripts/test_document_navigation_literals.py
+      - name: Check bounded ACC auxiliary model
+        run: |
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/checks/check_preservation.py
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/economic-pilot-v0.1 -p test_model.py -v

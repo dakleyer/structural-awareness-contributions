@@ -27,4 +27,4 @@ assert {u["prior_action_id"] for u in main if u["prior_action_id"]} == set(range
 assert any("IQ-06" in u["text"] and "Ormuz" in u["text"] for u in main)
 plan = (root / "DDS_EVALUATION_PLAN.md").read_text(encoding="utf-8-sig")
 assert re.findall(r"\| ACC-ECO-(\d+) \|", plan) == [f"{i:02}" for i in range(1,23)]
-print(json.dumps({"source_documents":4, "source_paragraphs":1441, "main_source_paragraphs":1045, "main_blocks":29, "new_action_passages":13, "ormuz_preexisting":True, "private_locator_redacted_paragraphs":20, "proposed_contrasts":22, "model_experiments_executed":False}, ensure_ascii=False))
+print(json.dumps({"source_documents":4, "source_paragraphs":1441, "main_source_paragraphs":1045, "main_blocks":29, "new_action_passages":13, "ormuz_preexisting":True, "private_locator_redacted_paragraphs":20, "proposed_contrasts":22, "model_runs_verified_by_this_preservation_check":False}, ensure_ascii=False))
