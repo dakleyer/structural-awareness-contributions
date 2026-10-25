@@ -1,15 +1,15 @@
 # DDS-MR-01 — External Methodology Review Record (copy per reviewer)
 
-**Status:** BLANK TEMPLATE — not a completed or independent audit. Submit a populated version in `REVIEWS/YYYY-MM-DD-REVIEWER-v0.1.md` via GitHub PR.  
-**Owning instructions:** [DDS-MR-01 v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/review-packets/DDS-MR-01/README.md). Do not overwrite this template or frozen source documents.
+**Status:** BLANK TEMPLATE — not a completed or independent audit. Complete privately first; use the agreed PRIVATE_INTAKE or consented PUBLIC_PR route in §6 of the work order. Never publish detailed interests or identity without informed consent.  
+**Owning instructions:** [DDS-MR-01 v0.3](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/review-packets/DDS-MR-01/README.md). Do not overwrite this template or frozen source documents.
 
 ## A. Reviewer, freeze and authority
 
-- Reviewer name / public identifier: `PENDING`
+- Reviewer legal/verified identity (restricted intake only): `PENDING`; public identifier if separately consented: `PENDING`
 - Organization (optional) and review role: `PENDING`
 - Date / location-independent timezone / review duration: `PENDING`
-- Consent to be named and credited: `PENDING` (attribution and public use handled separately)
-- Independence / interest disclosures: methodology `PENDING`; UC21/S5 `PENDING`; compared mechanisms/vendors `PENDING`; instruments/controls `PENDING`; target result/oracle `PENDING`
+- Agreed intake route: `PRIVATE_INTAKE / PUBLIC_PR — PENDING`; informed consent to publish name/username/findings/COI summary: `PENDING` (distinct from invitation and attribution)
+- Detailed independence/interest disclosures (RESTRICTED VERSION ONLY): methodology `PENDING`; UC21/S5 `PENDING`; compared mechanisms/vendors `PENDING`; instruments/controls `PENDING`; target result/oracle `PENDING`. Public version: approved summary or `DECLARATION HELD PRIVATELY`, never unapproved sensitive details.
 - Prior access to exact R3 variants or any scoring key: `PENDING`
 - DDS-MR-01 packet commit assigned (SHA): `PENDING`
 - Technical method reference cut: `f89565fabcc1a256aa7619a6e7fb7df9c1e41a75`
@@ -78,6 +78,6 @@ Use exactly `CONFORMING`, `DEFECT`, `UNCLEAR` or justified `NOT_APPLICABLE`. Eve
 - Explicitly **not established** by this review: actual UC21 R3 run, statistical performance, third-party native technology validation, EA differential, FG-TIDA/ITU adoption
 - Prospective revision required? `YES / NO / UNDECIDED`
 - Owner disposition: `PENDING — recorded separately by Iván, not the reviewer's signature`
-- PR URL / subsequent response or approved method amendment: `PENDING`
+- Private intake reference OR consented public PR URL / successor version: `PENDING`
 
 **Reviewer's acknowledgement:** the signed/name-attributed submission reports only the work actually inspected; this form grants no institutional approval and no pre-agreed publication rights.
