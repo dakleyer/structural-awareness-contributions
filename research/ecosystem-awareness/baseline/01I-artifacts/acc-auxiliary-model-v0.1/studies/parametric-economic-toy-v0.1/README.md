@@ -54,7 +54,7 @@ Cada proyecto declara:
 - cambios de GIC, NEO, ACW y horas UNKNOWN, así como quién soporta la variación ACW monetizada si se desea;
 - autorizaciones requeridas, dependencias, incompatibilidades y preservación de derechos.
 
-El algoritmo enumera estados técnicamente admisibles **bajo guardrails duros de recursos, servicio, derechos, capacidades y presupuesto**, obtiene F^T y luego F^G aplicando aprobaciones y la condición de aceptación por actor, cuando se activa. Una dimensión nueva **no añade veto** hasta que el escenario declare una condición bloqueante efectiva.
+El algoritmo enumera estados técnicamente admisibles **bajo guardrails duros de recursos, servicio, derechos, capacidades y presupuesto**, obtiene F^T y luego F^G aplicando aprobaciones y la condición de aceptación por actor, cuando se activa. **Desde el estado actual sólo permite agregar proyectos**, no deshacer proyectos vivos sin un modelo de rollback. El presupuesto de transición se carga sobre los proyectos nuevos; la condición por actor compara su utilidad con la **utilidad del estado actual**, no con una fotografía inicial ya superada. Una dimensión nueva **no añade veto** hasta que el escenario declare una condición bloqueante efectiva.
 
 Para cada alternativa calcula:
 
@@ -157,6 +157,6 @@ Para medir HID en organizaciones reales se requiere el Study 0 de 01K, evaluador
 
 ## Pruebas y siguiente nivel
 
-[test_toy.py](test_toy.py) ejecuta **31 pruebas** de invariantes y resultados numéricos: transferencias de suma cero; permisos, derechos, costes, exclusiones, frontera de igual servicio; distinción entre HID observado/potencial; red N/L/E/R, retiro, saturación de capacidad, sinergia que impide comparación; reproducción de fórmulas y barridos CLI. El mismo código está incluido en la verificación de PR para comprobar su ejecución.
+[test_toy.py](test_toy.py) ejecuta **33 pruebas** de invariantes y resultados numéricos: transferencias de suma cero; permisos, derechos, costes, exclusiones, frontera de igual servicio; distinción entre HID observado/potencial; red N/L/E/R, retiro, saturación de capacidad, sinergia que impide comparación; reproducción de fórmulas y barridos CLI. El mismo código está incluido en la verificación de PR para comprobar su ejecución.
 
 El paso científico posterior es preregistrar y ejecutar HID2-01…10 en [01K-A02](../../../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md), empezando por pares con **mismo Y, recursos, información ex ante, autoridad y costes completos**. Después podrán añadirse escenarios con selección de propuestas endógenas, planificación óptima de transición a lo largo del tiempo, incertidumbre aleatoria y fallos de información, siempre versionados sin alterar los estudios originales.
