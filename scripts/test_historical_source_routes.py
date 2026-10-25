@@ -1,8 +1,10 @@
 """Check the boundary: exact historical citations qualify; live failures stay failures."""
 from pathlib import Path
 import json
+import hashlib
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from check_document_integrity import check_document_links
 from historical_source_routes import MANIFEST, text_hash
@@ -79,6 +81,35 @@ class SourceQualificationTests(unittest.TestCase):
         self.assertEqual(check_document_links(self.root)[0], [])
         source.write_bytes(source.read_bytes().replace(b'Preserved', b'Preserved '))
         self.assertTrue(check_document_links(self.root)[0])
+
+    def quote_context(self, receiver='origin/old.md'):
+        body = (self.root/'review.md').read_bytes().decode('utf8')
+        line = body.splitlines()[0]
+        digest = lambda value: hashlib.sha256(value.encode('utf8')).hexdigest()
+        return [{'source':'review.md','context':body,'context_sha256':digest(body),
+                 'links':[{'line':line,'line_sha256':digest(line),
+                           'expected_line_occurrences':1,'href':'./old.md',
+                           'receiver':receiver}]}]
+
+    def test_upstream_context_and_registry_agree(self):
+        with patch('check_document_integrity.SOURCE_QUOTATION_CONTEXTS', self.quote_context()):
+            self.assertEqual(check_document_links(self.root), ([], 2, 1))
+
+    def test_requalified_hash_cannot_override_changed_quote_context(self):
+        context = self.quote_context()
+        with (self.root/'review.md').open('a', encoding='utf8') as handle:
+            handle.write('Changed context\n')
+        # Change within the old exact context, then refresh only the whole-source hash.
+        source = self.root/'review.md'
+        source.write_bytes(source.read_bytes().replace(b'Preserved', b'Changed'))
+        self.entry['source_text_sha256_lf'] = text_hash(source)
+        self.write_manifest()
+        with patch('check_document_integrity.SOURCE_QUOTATION_CONTEXTS', context):
+            self.assertTrue(any('quote context changed' in e for e in check_document_links(self.root)[0]))
+
+    def test_registry_cannot_override_upstream_receiver(self):
+        with patch('check_document_integrity.SOURCE_QUOTATION_CONTEXTS', self.quote_context('live.md')):
+            self.assertTrue(any('receiver disagreement' in e for e in check_document_links(self.root)[0]))
 
 
 if __name__ == '__main__':
