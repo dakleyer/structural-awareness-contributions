@@ -241,6 +241,8 @@ Use DBC to expose missing or laundered boundaries in 04 implementations; do not 
 
 ## 6. Semantic/qualification validity window versus response window
 
+**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the two-clock explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
+
 Two independent post-baseline routes make the same temporal distinction visible. The Operational Risk / Response Window / Epistemic Opportunity v0.2 work separates qualification validity from response timing. Independently, [DBC-C02 — semantic TOCTOU](../DECISION_BOUNDARY_CHALLENGE_v0.2.md#5-challenge-pack-families) tests whether a result can remain technically available or syntactically valid while a material authority/evidence/context condition has become stale before use. Together they make two temporal concepts more explicit:
 
 1. **semantic / qualification validity window** — how long evidence, authority, delegation, policy, configuration and supporting assumptions remain applicable; and
@@ -287,6 +289,8 @@ DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semant
 ---
 
 ## 7. Human-review outputs under the general handoff discipline
+
+**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the human-review output explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
 
 Later human-oversight discussion has made a useful generic distinction visible:
 

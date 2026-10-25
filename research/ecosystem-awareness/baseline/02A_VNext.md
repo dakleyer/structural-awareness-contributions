@@ -1,6 +1,6 @@
 # 02A VNext — reception of awareness-first drift hypotheses
 
-**24 October 2026 · Reviewer: Codex (AI) · Preliminary cross-document reception, proposed only.**
+**Review status — 25 October 2026.** The24October hypothesis cross-reference and earlier proof-attribution correction are incorporated. This source-owned review preserves their histories and the remaining research questions. Reviewer: Codex (AI).
 
 [02A — Foundation-to-Operational-Principle Derivation](02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) already derives P1–P6 from invariants F-A–F-H. Do **not** reverse that chronology or replace the proof with a new, unvalidated causal theory.
 

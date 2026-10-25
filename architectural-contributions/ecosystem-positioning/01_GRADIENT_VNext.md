@@ -54,16 +54,9 @@ Primera, tercera y cuarta pasadas textuales realizadas; segunda abierta por perf
 
 **Aplicado — autorización de Iván, 12 octubre 2026.** Cambio61 incorporado en `architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
-### D — structural / capability residual### D — structural / capability residual
-```
+<a id="d--structural--capability-residual-d--structural--capability-residual"></a>
 
-**Texto después — propuesto completo:**
-
-```markdown
-### D — structural / capability residual
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Decisión de Iván y control de anclas, como56 sin unificar fuentes. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+**Change61 is incorporated.** The current source has one residual-D heading. The complete old/new card is retained in the identified Git predecessor above; it is not pending work.
 
 
 ---
