@@ -1,6 +1,6 @@
-# DDS-MR-01 — Independent DDS Methodology Audit: R1/R2/R3 (v0.2)
+# DDS-MR-01 — Independent DDS Methodology Audit: R1/R2/R3 (v0.3)
 
-**Status:** READY FOR BOUNDED DOCUMENTARY REVIEW; reviewer **UNASSIGNED**; no independent findings received.  
+**Status:** WORK ORDER PREPARED FOR INDEPENDENT ASSIGNMENT-READINESS CHECK; reviewer **UNASSIGNED**; no independent findings received. Publication and submission arrangements remain subject to consent.  
 **Home / authority:** Ecosystem Awareness → DDS → review-packets/DDS-MR-01. Internal methodological review under DDS-QA-01 **QC-05**, informed by UC21 roadmap **Area 5**; not a new stage, test method, UC4 experiment or FG-TIDA submission.  
 **Owner / assignment gate:** Iván Abril Palma. A proposed external reviewer must accept the work and disclose relevant interests before any claim of independent review. Formal attribution and any FG-TIDA publication are later owner-controlled steps.  
 **Lineage:** corrects/operationalises the [Drive planning draft v0.1](https://docs.google.com/document/d/1gFY7fY00KN8-u5_tLMGiwXY3aGp-JSMN5LbMhC-7pYA/edit); the draft's proposed generic `R3-B` name is **not adopted** because it collides with existing source-specific labels. This GitHub packet is the review workspace; Drive remains historical coordination context.
@@ -9,11 +9,22 @@
 
 **Question:** Is the *prospective DDS comparison method* auditable and falsifiable when (a) a competent conventional solution repairs a **known** R1 failure in R2, paying its real preparation/adaptation cost, and (b) a subsequent **material R3 variant is selected and held privately** from a preregistered family until legitimate observation, with meaningful continuity and effects measured for both arms?
 
+**One-minute review map (questions, not assumed outcomes):**
+
+| Checkpoint | What to ask | What to record |
+|---|---|---|
+| Eligibility | Was an R1 failure actually evidenced before an R2 repair? Was the predecessor PASS evidenced before any R3 claim? | Source location or `NOT_ADMITTED`; never invent a PASS |
+| R2 preparation | Can a strong conventional peer correct the **known** failure, counting attempts, engineering and deployment? | M03–M04, cost ledger and negative probe N2 |
+| R3 held-out change | Was the scored variant selected prospectively and hidden from **both** arms until legitimate observation? | M05–M06, disclosure sequence and negative probe N1 |
+| Findings | Do the method, controls, total effects and limitations support a fair result, including a tie? | M01–M09, N1/N2, one S5 crosswalk and a single review record |
+
+**Plain-language terms:** *predecessor* = the earlier configuration whose applicable PASS must be verified; *custodian* = a separate party holding the exact selected future variant; *scored realization* = that actual held-out change, not merely its general family.
+
 **Do this, in order:**
 1. Read the pinned method excerpts in §1, then the exact UC21/S5 worked source in §2.
 2. Answer **M01–M09** in §3 as `CONFORMING / DEFECT / UNCLEAR / NOT_APPLICABLE`, citing a section and exact source link each time. An `UNCLEAR` is not a PASS.
 3. Apply the two deliberately invalid paper rows **N1–N2** in §4; record whether the method flags each error. Optionally add one independent counterexample.
-4. Copy [REVIEW_RECORD_TEMPLATE.md](./REVIEW_RECORD_TEMPLATE.md), complete one findings file (normally 1–3 pages), and submit it as a GitHub PR per §6. **Do not edit this task or any frozen source as your review answer.**
+4. Copy [REVIEW_RECORD_TEMPLATE.md](./REVIEW_RECORD_TEMPLATE.md), complete one findings file (normally 1–3 pages), and submit it through the agreed private or consented public route in §6. **Do not edit this task or any frozen source as your review answer.**
 
 **Time box:** approximately 4–6 hours as planning guidance, subject to the reviewer's acceptance. **Deliverable:** one evidence-linked methodology audit and one falsification example; **not** D1–D5 separate papers, a new vendor campaign, code, a product assessment, an R3-U solution or a scientific endorsement. One clarification round is permitted; additional research requires separate scope.
 
@@ -85,17 +96,19 @@ The review is **complete** when there are **nine M-ID decisions with primary-sou
 
 A negative result is useful. None of these is a certification, completed R3 test, accepted specification, vendor evaluation, actual costs measurement, or independent replication of an implementation. **Do not demand proof that out-of-family R3 surprises are prospectively scoreable** to finish this *bounded* method audit; record the open question.
 
-## 6. How external contributions are received — single GitHub working place
+## 6. How contributions are received — controlled intake, then approved GitHub record
 
-1. Iván explicitly invites one reviewer; reviewer accepts scope and discloses method, case, control, instrument, supplier, execution and oracle interests. The subject's authors do not self-certify independence.
-2. Reviewer uses [the review record template](./REVIEW_RECORD_TEMPLATE.md) and creates **one new file** in `research/ecosystem-awareness/review-packets/DDS-MR-01/REVIEWS/YYYY-MM-DD-REVIEWER-v0.1.md`, with the reviewer-chosen display name and actual evidentiary identity as agreed. No blank review file is evidence.
-3. Submit a GitHub pull request against `main` with the reviewer findings. Include the reference cut, source citations, dissent and items unverified. Version a correction as a new commit on the review PR or a clearly linked successor; preserve adverse findings. PR review comments and commits are part of provenance.
-4. Iván records an explicit disposition (`ACCEPT / REVISE / DEFER / REJECT`) against each substantive proposal. Accepted changes to the *method* go through a separate scoped canonical-method PR with inbound-link and frozen-source checks. The review itself remains an independently attributable source, not a replacement for Stage A.
-5. Only after internal review and an agreed scope may an **authorized final review/synthesis** be prepared for the FG-TIDA UC21/UC4 discussion. A GitHub merge here does **not** submit anything to FG-TIDA or confer institutional approval. Attribution/public acknowledgement follows separately agreed author/contributor rules; a proposed reviewer has no pre-awarded credit.
+1. **Invite and consent.** Iván invites a reviewer; the person accepts the scope, effort and handling route and gives any relevant methodology, case, control, supplier, execution or oracle-interest declaration **privately**. An invitation is not publication consent or proof of independence.
+2. **One findings record.** Complete [the review record template](./REVIEW_RECORD_TEMPLATE.md) with source commits, M01–M09, N1/N2, S5 crosswalk, uncertainties, dissent and conclusion. Do not edit frozen inputs. Agree **one** submission route before work starts:
+   - **PRIVATE_INTAKE (default until informed consent):** submit the completed record and detailed interests to an owner-controlled restricted channel whose exact address/permission is supplied at invitation. Preserve author, version, receipt date, source cut and an auditable copy. Nothing is made public automatically.
+   - **PUBLIC_PR (opt-in):** after explicit informed agreement to publication and naming, submit a sanitized file `REVIEWS/YYYY-MM-DD-REVIEW-ID-v0.1.md` by PR to `main`. The GitHub account, filename, text and PR are public **as soon as the PR opens**; an ID in the filename alone does not make a public PR anonymous. Do not publish private declarations, employer-sensitive details, unreleased variants or personal contact data.
+3. **Public record after private review.** If the private route was chosen, Iván may later propose a source-linked, consented and appropriately redacted public review or synthesis in GitHub. Keep the original restricted evidence/provenance; never imply a redacted summary is the full independently published report. Preserve negative findings and review dissent.
+4. **Owner disposition.** Iván records `ACCEPT / REVISE / DEFER / REJECT` per substantive finding. A change to the *method* requires a separate scoped canonical-method PR with source, inbound-link and freeze checks; the review does not replace Stage A.
+5. **Institutional boundary.** Only an approved synthesis may later inform FG-TIDA UC21/UC4 discussion. Public posting or merging is neither an FG-TIDA submission nor endorsement; later attribution follows the person's agreement.
 
 **Review version/freeze rule:** the reviewer records the actual assignment-time packet commit SHA as well as the technical reference cut `f89565fabcc1a256aa7619a6e7fb7df9c1e41a75`. If the method evolves during review, report the delta or request a new frozen cut. Historical submissions and negative outcomes stay inspectable; direct canonical reader links must not point to unrelated VNext work.
 
-## 7. Internal readiness audit of predecessor v0.1 → this v0.2
+## 7. Internal readiness changes from v0.1 → v0.3 (not independent certification)
 
 | v0.1 issue | Resolved for *assignment* here |
 |---|---|
@@ -105,6 +118,7 @@ A negative result is useful. None of these is a certification, completed R3 test
 | Reviewer had to choose UC21 and UC4 fixture | S5/00I is fixed; UC4 is not assumed or required |
 | “Harness goes red” had no executable fixture supplied | Explicit manual documentary falsifier; no execution assertion |
 | R2 known-failure engineering and total cost not fully operational | M03/M04 + explicit cost ledger and negative probe |
-| Mutable `main` sources and standalone Drive draft | Mandatory source contents pinned to `f89565fabcc1a256aa7619a6e7fb7df9c1e41a75` and S5 source `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`; GitHub owns review versions |
+| Mutable `main` sources and standalone Drive draft | Mandatory source contents pinned to `f89565fabcc1a256aa7619a6e7fb7df9c1e41a75` and S5 source `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`; GitHub owns approved public review versions |
+| Public-PR-only intake disclosed reviewer identity and detailed interests immediately | Adds consented PUBLIC_PR and restricted PRIVATE_INTAKE paths; public provenance follows agreement, not invitation |
 
-**Remaining, intentionally unfilled:** named external reviewer, COI/exposure declaration, assignment-time packet SHA, measured costs, actual source-native PASS if any, a never-before-disclosed variant/selector, an independent method opinion, and any external publication/attribution. These are **review activity**, not omissions the coordinator should fabricate.
+**Remaining, intentionally unfilled:** accepted submission route and any private-channel details, named external reviewer, COI/exposure declaration, assignment-time packet SHA, measured costs, actual source-native PASS if any, a never-before-disclosed variant/selector, an independent method opinion, and any external publication/attribution. These are **review activity**, not omissions the coordinator should fabricate.

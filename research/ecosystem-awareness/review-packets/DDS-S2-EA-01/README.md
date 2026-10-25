@@ -1,11 +1,20 @@
-# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.1)
+# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2)
 
-**Status:** READY FOR ASSIGNMENT — reviewer **UNASSIGNED**, no independent findings yet.  
+**Status:** WORK ORDER PREPARED FOR INDEPENDENT ASSIGNMENT-READINESS CHECK — reviewer **UNASSIGNED**, no independent findings yet; submission/publication requires agreement.  
 **Home:** Ecosystem Awareness → DDS → review-packets/DDS-S2-EA-01. This is the **third bounded review task**, distinct from [DDS-MR-01 (method audit)](../DDS-MR-01/README.md), the Thales capability pre-review and any actual product execution.  
 **Question:** Do the **frozen Ecosystem Awareness requirements** adequately specify what a candidate would need to do in **UC21 scenario S2 / 00F (shared smart-city mobility)** under the **conditional DDS R1, R2 and R3 positions**? Where does the specification leave a gap, conflicting instruction, untestable claim, or unstated dependency?  
 **Decision owner:** Iván Abril Palma. No reviewer is appointed, credited or publicly attributed by this document. Any future contribution, decision or FG-TIDA synthesis is separately agreed.
 
 ## 0. Exact task — read, challenge, record
+
+**Review at a glance:**
+
+| Phase | Required reading or check | Evidence to return |
+|---|---|---|
+| Establish the case | Original S2, frozen S/T requirements and 00F | Six sourced Q0–Q5 adequacy rows |
+| Examine conditional traversals | DDS method and existing 00L record | Three on-paper R1/R2/R3 rows; no invented execution |
+| Challenge the conclusion | N1/N2, corrected A14 paired trace and A23 ceiling | Negative controls, recorded peer tie, one bounded counterexample |
+| Hand in one record | Follow the agreed §6 private or consented public route | One completed template and source pins |
 
 Complete **one documentary adequacy audit**, approximately **4–6 hours** (planning estimate, subject to reviewer acceptance):
 
@@ -13,7 +22,7 @@ Complete **one documentary adequacy audit**, approximately **4–6 hours** (plan
 2. Complete **six gate rows Q0–Q5** in the [review template](./REVIEW_RECORD_TEMPLATE.md): for each gate, identify the requirement text, expected decision, credible counterexample, and whether the words actually oblige that behaviour.
 3. Complete **three DDS-position rows R1/R2/R3**: adequacy **on paper**, entry/preparation assumptions, costs and information boundary. Do **not** grant a test PASS merely because requirements sound sufficient.
 4. Evaluate the two mandatory adverse probes **N1/N2**, including the **strong conventional-peer tie already recorded in 00L**. Give **at least one** precise counterexample or explicitly explain why none was found in this narrow review.
-5. Submit **one findings document via a GitHub pull request** as in §6. Do not edit frozen cases, S#/T#/H# requirements, 00F variants, executable fixtures or DDS methodology in this task.
+5. Submit **one findings document** using the agreed restricted or consented public route in §6. Do not edit frozen cases, S#/T#/H# requirements, 00F variants, executable fixtures or DDS methodology in this task.
 
 **Deliverable:** one source-cited reviewer record (normally 2–4 pages), not a vendor benchmark, new city simulator, legal opinion, code project, revised requirement set, proof of product compliance, or completed blind R3 run. Honest negative/unknown findings are useful.
 
@@ -34,6 +43,17 @@ All required technical documents below are pinned to **Contributions commit `b05
 | I — optional cost detail | [00D comparator / §4.2](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) · [DDS Stage A §§10a,17](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Matched comparator, full-cost horizon, source namespace and minimum prospective run record. |
 
 For technology context only: [FIWARE / NGSI-LD profile](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [AWS IoT/TwinMaker profile](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md). They are **design assessments**, not evidence either product failed or passed.
+
+### English navigation aid for original Spanish-language 00L evidence
+
+The instructions and template here are in English. Some **mandatory frozen sources** retain Spanish titles and text; this table helps locate them but does not translate, reinterpret or replace the source. The reviewer must be able to verify the original, or agree a bounded translation/read-through before accepting the time box.
+
+| Original label | English navigation cue | Check in the source |
+|---|---|---|
+| `traza de papel emparejada` | Paired paper traversal | What was decided on the same shared resource and time |
+| `verificación de pares y prevuelo` | Paired verification and preflight | Matched data, controls and strong conventional peer |
+| `correcciones de auditoría` | Audit corrections | Which corrected version supersedes the earlier trace |
+| `trazas corregidas` | Corrected traces | Exact recorded JSONL decisions, not a city execution |
 
 ## 2. Do not mix three namespaces
 
@@ -82,13 +102,16 @@ There is no requirement to make a specific peer lose. A strong peer that detects
 
 **A23 countermodel boundary:** inspect whether any S2 “all S/T requirements satisfied, therefore all P1–P6 hold” claim would exceed [A23](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md). **P3/P5/P6 semantic implication is open**. You need not solve A23; flag unjustified extrapolation and any specific S2 dependency on it.
 
-## 6. One GitHub contribution and disposition
+## 6. Submission, review history and owner disposition
 
-1. **Assignment:** Iván first invites a named reviewer. Reviewer accepts, declares prior authorship of requirements/fixtures, access to variants/oracles, relevant vendor interests, and any limitation on being named. No independence is pre-awarded.
-2. **Record:** Copy [REVIEW_RECORD_TEMPLATE.md](./REVIEW_RECORD_TEMPLATE.md) into a new `REVIEWS/YYYY-MM-DD-REVIEWER-v0.1.md`. Fill the six Q rows, three traversal rows, N1/N2, 00L tie, A23 claim limit, one challenged example and summary. Reviewer records the **packet SHA at assignment**, plus pinned technical inputs.
-3. **PR:** Propose **one new review file** in a pull request against `main`, link each finding to source commit **and section**, record dissent, missing data and adverse outcomes. Fixes to the reviewer note have visible commits; later opinions become successor versions, not overwrites of other reviewers.
-4. **Owner disposition:** Iván reviews each recommendation as `ACCEPT / REVISE / DEFER / REJECT`. Any accepted **method/requirement** change requires a **separate** controlled PR with scope, inbound-link checks and protection for frozen sources. The external review record is retained even when a change is declined.
-5. **External use:** A curated, explicitly approved synthesis may later inform FG-TIDA UC21/Theme 13. A merged reviewer PR is **not** submission, adoption, endorsement, certification or automatic author credit.
+1. **Acceptance:** Iván invites the person; the reviewer accepts scope, effort and a submission route, privately disclosing authorship/fixture interests, vendor interests and any prior exposure to variants or scoring keys. No independence or public credit is pre-awarded.
+2. **One record:** Complete [REVIEW_RECORD_TEMPLATE.md](./REVIEW_RECORD_TEMPLATE.md) with all Q0–Q5, R1–R3, N1/N2, A14, A23 and conclusion fields. Preserve packet SHA, the frozen Contributions cut and original UC21 source cut.
+3. **Choose intake before starting:**
+   - **PRIVATE_INTAKE (default before explicit publication consent):** send one source-cited record and detailed disclosures through an owner-controlled restricted channel provided at invitation. Iván preserves the private evidence, author and revision history. No automatic publication follows.
+   - **PUBLIC_PR (opt-in):** submit an approved, privacy-checked `REVIEWS/YYYY-MM-DD-REVIEW-ID-v0.1.md` in a pull request to `main`. GitHub username/account, filename, findings and PR metadata become **public on opening**, not only on merge. Do not include unapproved personal, employer-sensitive or private oracle/variant data. A review ID alone cannot anonymize an identified GitHub author.
+4. **Public record if agreed:** A private review may later be represented by an expressly authorized, source-linked, redacted GitHub record or synthesis. Do not hide negative findings, imply that an internal review was publicly replicated, or overwrite another reviewer's evidence.
+5. **Owner disposition:** Iván decides `ACCEPT / REVISE / DEFER / REJECT` per finding. Accepted method or requirement changes need separate controlled PRs; preserve the frozen inputs and inbound links.
+6. **FG-TIDA boundary:** An approved synthesis may later inform UC21/Theme 13. Neither intake route, a PR nor a merge constitutes submission, endorsement, certification or automatic author credit.
 
 **Complete when:** 6 cited gate decisions + 3 eligible/conditional DDS-position assessments + 2 probe decisions + exact A14 tie finding + A23 limitation + one falsifiable counterexample or reasoned absence + conflicts/independence/exposure record + one concrete recommendation. If a necessary premise cannot be verified, `UNDETERMINED` is an acceptable conclusion. No requirement is rewritten and no numerical performance claim is made.
 
