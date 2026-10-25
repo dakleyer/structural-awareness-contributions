@@ -2924,3 +2924,128 @@ Source/context checks confirmed two more audit-reading defects left by the earli
 **Acceptance:** each old unit has one literal occurrence in the pinned source. Reverse only these substitutions to recover the exact predecessor. Preserve complete source quotations, all unrelated prose, paths, bytes and applied states. Verify target fragments, rendered GFM boundaries and public raw bytes against the new head.
 
 **Iván instruction and dependency:** preserve content, use the existing unique VNext, publish review/complete old–new plans, and apply only the named approved wave.148 is separate from historical-link149/150; no pending scientific alternative or canonical body is included. Incorporation awaits Iván’s specific GO.
+
+
+## Approved document-control clarifications — 25 October 2026
+
+**Iván authorizes the small clarifications and a complete second conformance audit.** Scope: DC-GH-01 wording/reading routes, existing review reception, and previously published review-only repairs148–150. Protected scientific originals, frozen evidence, programs and results remain outside this application. The exact control units follow; each has one literal match at source cut `b9499c34e8690acdc9a1d1b6f274895a94c4c4b9`.
+
+### Control pair 1 — Edition applicability
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Edition:** v1.0 · **Effective:** 25 October 2026 (owner-authorized GitHub publication)
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Edition:** v1.0.1 · **Effective:** 25 October 2026 (owner-authorized clarifications)
+````````````
+
+### Control pair 2 — Current assessment route
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Latest conformity audit:** [25 October 2026 audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · [VNext-link baseline inventory](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Latest conformity audit:** [25 October 2026 — second assessment](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026) · [VNext-link inventory with dated assessments](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
+````````````
+
+### Control pair 3 — Readable historical predecessor
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Preserved predecessor:** [DOCUMENT_CONTROL v1.1, complete pre-consolidation text](./governance/preserved-public-snapshots/2026-10-25_DOCUMENT_CONTROL_v1.1_PRE_CONSOLIDATION.md). The [24 October v0.1 conventions](./governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md) are a historical predecessor, not an independently operative second policy.
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Preserved predecessor:** [DOCUMENT_CONTROL v1.1, complete pre-consolidation text](./governance/preserved-public-snapshots/2026-10-25_DOCUMENT_CONTROL_v1.1_PRE_CONSOLIDATION.md). The [24 October v0.1 conventions](./governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md) are a historical predecessor, not an independently operative second policy. For working historical hyperlinks, [read the original at its original pinned location](https://github.com/dakleyer/structural-awareness-contributions/blob/21e200cd4c9a0558e4ae3669c55f7256c03a005a/DOCUMENT_CONTROL.md); the relocated custody snapshot retains its original relative strings.
+````````````
+
+### Control pair 4 — One registry path and rollout sequence
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+The repository shall progressively maintain a machine-readable DOCUMENT_REGISTRY.yml (to be created in Wave 1; not yet present) as the single operational mapping for identities and role-dependent checks. **Its nonexistence or incomplete coverage is an audit finding, not grounds to invent document roles.**
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+The repository shall progressively maintain a machine-readable `governance/DOCUMENT_REGISTRY.yml` as the single operational mapping for identities and role-dependent checks. Wave 1 collects and adjudicates the read-only inventory; Wave 2 creates the registry from those supported mappings. The registry is not yet present. **Its nonexistence or incomplete coverage is an audit finding, not grounds to invent document roles.**
+````````````
+
+### Control pair 5 — Three technical README levels
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+- **Technical architecture:** Ecosystem Positioning routes to Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control, with their own canonical technical indexes, work packages, evidence and applications.
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+- **Technical architecture:** Ecosystem Positioning routes to Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control, with their own canonical technical indexes, work packages, evidence and applications.
+
+The maintained technical corpus has **exactly three canonical README reading levels: Ecosystem Positioning entry → Awareness entry → technical corpus indexes**. The nine controlled owner paths below are not nine reading levels. Package/fixture READMEs and the three existing additional-work catalogues provide subordinate or optional reading; they do not add canonical levels. This carries forward the owner instruction in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#redistribución-de-archivos-y-tres-niveles-de-readme--instrucción-de-iván).
+````````````
+
+### Control pair 6 — Wave 2 target path
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+- **Wave 2 — safeguards:** register relevant logical identities, extend the existing check, and configure enforceable review/branch settings proportionately.
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+- **Wave 2 — safeguards:** create `governance/DOCUMENT_REGISTRY.yml` from the adjudicated logical identities, extend the existing check, and configure enforceable review/branch settings proportionately.
+````````````
+
+### Control pair 7 — Stable CONTRIBUTING label
+
+Source: `CONTRIBUTING.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Current document-control policy:** [DC-GH-01 v1.0](./DOCUMENT_CONTROL.md). Use its role, protected-document and canonical/VNext link rules; specialized review methodology remains in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Current document-control policy:** [DC-GH-01](./DOCUMENT_CONTROL.md). Use its role, protected-document and canonical/VNext link rules; specialized review methodology remains in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+````````````
+
+**Reception additions:** link the unchanged [gradient review card](01_GRADIENT_REVIEW_CARD.md) here as optional review history; connect the new02A VNext to the existing14October proof review in01_FOUNDATIONAL_VNext, with reciprocal current-ownership clarification. Retain the old source/audit bytes.
+
+**148–150:** apply the exact already-published units after revalidating their current source context; retire only their own applied proposal cards, preserve their complete plans at the pre-application Git revision, and update their existing registry states. No older scientific candidate is activated.
+
+**Validation:** exact substitutions and global inverse, unchanged file set, GFM paths/fragments, original-source byte equality, raw public readback and a bounded GitHub PR. The second audit covers all thirteen policy sections and retains unresolved roles and actual enforcement gaps as findings.
