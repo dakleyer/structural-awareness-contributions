@@ -235,3 +235,93 @@ These explanations do not turn a red repository check green. The existing integr
 | **After** | Final role-aware conformance rerun and exception/owner closure | High | Low after dependencies / Medium | All above decisions resolved or explicitly bounded; current pinned inventory, actual workflow result and residual coverage stated |
 
 **Current conclusion:** the small clarification/reception work is complete within its approved scope. The general control is useful and internally consistent; the repository remains **partially conformant** because the register, authority reconciliation and enforceable safeguards are unfinished. The next wave is identity and authority adjudication, followed by supported safeguards and six bounded router corrections. It is not a mass rewrite, file cleanup or scientific promotion.
+
+
+## Corpus action and VNext-promotion plan reception — 25 October 2026
+
+Iván directs the [single cross-corpus action/promotion/verification plan](../DOCUMENT_CONTROL.md#14-corpus-action-promotion-and-verification-plan--25-october-2026) to live inside DOCUMENT_CONTROL, linked to this audit. The plan identifies eight selected VNext blocks through three exact receiving-source pairs, operative-control refinements, literal routing pairs, a prospective registry/CODEOWNERS, a unique check and exact proposed protection settings. Publication is the planning step; each incorporation wave receives its own GO. No proposed source, registry, code or GitHub setting is applied in this publication.
+
+**Additional semantic-link finding:** the preceding six named-VNext router edges were a filename-scoped subset. The existing00Dbenchmark v0.3 file explicitly declares itself the benchmark VNext despite lacking VNext in its filename. It adds four foreign-review router occurrences: two inEP, one inEA and one inbaseline. The plan therefore covers ten confirmed foreign-review router occurrences, plus the living05A preface’s direct05review route. This is a role/navigation finding, not four missing files or an adopted benchmark. The frozen05part retains its original historical citations under its own edition.
+
+**Enforcement precondition:** current GitHub checks share the name verify, from application 15368; a future required check must have an unambiguous published name. Existing PR authorship is@dakleyer, so owner-only approval requires a distinct automation author before activation. The action plan provides the actor/check/settings acceptance tests and keeps both constraints visible.
+
+<details>
+<summary>Existing review directory for the 75-unit promotion coverage queue</summary>
+
+- [../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md](../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md)
+- [../architectural-contributions/ecosystem-positioning/README_VNext.md](../architectural-contributions/ecosystem-positioning/README_VNext.md)
+- [ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md](../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md)
+- [ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md](../research/ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md)
+- [ecosystem-awareness/README_VNext.md](../research/ecosystem-awareness/README_VNext.md)
+- [ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md](../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md)
+- [ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md](../research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md)
+- [ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md)
+- [ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md](../research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md)
+- [ecosystem-awareness/baseline/00M_A01_VNext.md](../research/ecosystem-awareness/baseline/00M_A01_VNext.md)
+- [ecosystem-awareness/baseline/00M_VNext.md](../research/ecosystem-awareness/baseline/00M_VNext.md)
+- [ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md](../research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md)
+- [ecosystem-awareness/baseline/00N_VNext.md](../research/ecosystem-awareness/baseline/00N_VNext.md)
+- [ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md)
+- [ecosystem-awareness/baseline/01A_A01_VNext.md](../research/ecosystem-awareness/baseline/01A_A01_VNext.md)
+- [ecosystem-awareness/baseline/01A_VNext.md](../research/ecosystem-awareness/baseline/01A_VNext.md)
+- [ecosystem-awareness/baseline/01B_VNext.md](../research/ecosystem-awareness/baseline/01B_VNext.md)
+- [ecosystem-awareness/baseline/01C_VNext.md](../research/ecosystem-awareness/baseline/01C_VNext.md)
+- [ecosystem-awareness/baseline/01D_VNext.md](../research/ecosystem-awareness/baseline/01D_VNext.md)
+- [ecosystem-awareness/baseline/01H_VNext.md](../research/ecosystem-awareness/baseline/01H_VNext.md)
+- [ecosystem-awareness/baseline/01I_VNext.md](../research/ecosystem-awareness/baseline/01I_VNext.md)
+- [ecosystem-awareness/baseline/01J_VNext.md](../research/ecosystem-awareness/baseline/01J_VNext.md)
+- [ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md](../research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md)
+- [ecosystem-awareness/baseline/01K_VNext.md](../research/ecosystem-awareness/baseline/01K_VNext.md)
+- [ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md](../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md)
+- [ecosystem-awareness/baseline/02A_VNext.md](../research/ecosystem-awareness/baseline/02A_VNext.md)
+- [ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md](../research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md)
+- [ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md)
+- [ecosystem-awareness/baseline/README_VNext.md](../research/ecosystem-awareness/baseline/README_VNext.md)
+- [ecosystem-awareness/baseline/UC-EA-03_VNext.md](../research/ecosystem-awareness/baseline/UC-EA-03_VNext.md)
+- [ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md](../research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md)
+- [ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md](../research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md)
+- [ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md](../research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md)
+- [ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md](../research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md)
+- [ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md](../research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md)
+- [ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md](../research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md)
+- [ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md)
+- [ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md)
+- [regime-awareness/README_VNext.md](../research/regime-awareness/README_VNext.md)
+- [../standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md](../standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md)
+- [../standards/minimum-sufficient-control/01_ACC_VNext.md](../standards/minimum-sufficient-control/01_ACC_VNext.md)
+- [../standards/minimum-sufficient-control/02_ROLE_VNext.md](../standards/minimum-sufficient-control/02_ROLE_VNext.md)
+- [../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md](../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md)
+- [../standards/minimum-sufficient-control/04_OPERATION_VNext.md](../standards/minimum-sufficient-control/04_OPERATION_VNext.md)
+- [../standards/minimum-sufficient-control/README_VNext.md](../standards/minimum-sufficient-control/README_VNext.md)
+
+</details>
