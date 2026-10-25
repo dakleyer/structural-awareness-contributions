@@ -1,6 +1,6 @@
 # Panodyssey corpus-migration QA — source fidelity and open gates
 
-**Local-preparation audit date:** 25 October 2026. **Base GitHub main:** `733749040565cab79ce7af291a7f58cb28024fa2`. **Change state:** uncommitted owner-review branch. **Source provenance:** Google Docs observed revisions in [SOURCE_MANIFEST.json](./SOURCE_MANIFEST.json).
+**Source-fidelity audit date:** 25 October 2026. **Base GitHub main:** `733749040565cab79ce7af291a7f58cb28024fa2`. **Change state:** public draft [PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39), not merged. **Source provenance:** Google Docs observed revisions in [SOURCE_MANIFEST.json](./SOURCE_MANIFEST.json).
 
 ## 1. Content conservation — checked
 
@@ -31,15 +31,15 @@ Content conservation is a **mechanical equivalence check of the visible text**, 
 ## 3. Navigation and file controls — checked / to recheck
 
 - A new `00J-extensions/README.md` routes to the unique candidate extension, and `PANODYSSEY-EXT-01/README.md` routes to every source/method/audit artifact.
-- Surgical source-preserving **one-row** entry proposed in `baseline/README.md`; **one-line** reference proposed in `baseline/CANONICAL_CORPUS_MANIFEST.md`. No change to canonical frozen requirement IDs.
+- Surgical source-preserving **one-row** entry included in `baseline/README.md`; **one-line** reference included in `baseline/CANONICAL_CORPUS_MANIFEST.md`. No change to canonical frozen requirement IDs.
 - Relative package links were tested locally. One route to `governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md` appeared absent **only because sparse checkout excluded governance**; the exact canonical file was independently confirmed present through the GitHub connector.
-- At final commit review, rerun link checker against the complete Git tree, verify immutable source SHA-256 from the manifest, and reconcile repository main drift. Do not create a competing active VNext.
+- At pre-merge review, rerun the link checker against the complete PR tree, verify source SHA-256 from the manifest, and reconcile repository main drift. Do not create a competing active VNext.
 
 ## 4. Blockers that remain open, not technical export failures
 
 | Gate | State | Closure evidence required |
 |---|---|---|
-| Public disclosure of internal Doc content | **HOLD** | Explicit owner decision: publish, redact or keep private; include source rights / attribution and third-party consent boundaries |
+| Further reuse / merger of originally internal Doc content | **PUBLIC DRAFT PR OPEN; MERGE/REUSE HOLD** | Explicit owner decision about retaining, redacting or removing source content; include attribution and third-party consent boundaries |
 | Final editorial corpus promotion | **HOLD** | Owner reviews diff, nomenclature, scope and primary canonical reader; no unrequested edits to historical sources |
 | 00J A25/A26 extension admission | **NOT ESTABLISHED** | Per-claim X1–X7/Y1–Y7 evidence, typed projection and coupling checks |
 | Transferred PanO-v6 result | **NONE VERIFIED** | Unique executed/proved source result + source hash + parameter/horizon/comparator match; independent reviewer ledger |
@@ -47,4 +47,4 @@ Content conservation is a **mechanical equivalence check of the visible text**, 
 | Legal/technical requirement applicability | **CONDITIONAL / UNKNOWN WHERE STATED** | Exact factual predicate if a particular claim is later assessed; no claim of global legal compliance |
 | Reviewer conflicts / hidden dependencies | **PROTOCOL PREPARED** | Actual adjudication/reopen events only if observed; historic results unchanged |
 
-**Audit conclusion:** suitable for a **private owner-review branch with no commit**. Not yet suitable for public-branch content publication, external submission, legal/conformance claims or experimental transfer admission. Remaining gates belong to the next review, not to the mechanical transfer.
+**Audit conclusion:** mechanically conserved content is now available for review in **public draft PR #39**, on the owner's explicit request. This is **not** yet an approval to merge, submit externally, assert legal/conformance claims or admit transferred experimental results. The source's INTERNAL labels require explicit disclosure/attribution disposition before those next steps.

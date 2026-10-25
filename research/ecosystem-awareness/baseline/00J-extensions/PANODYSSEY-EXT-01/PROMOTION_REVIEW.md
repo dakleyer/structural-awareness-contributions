@@ -1,6 +1,6 @@
 # Promotion and independent corpus-integrity review — 00J-EXT-PANO-01
 
-**Audit target:** review the *local uncommitted* extension packet as a prospective canonical child of [00J](../../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md). **Do not interpret a successful repository link check or future GitHub publication as methodological, legal or institutional acceptance.** Sources are internal/not for external circulation.
+**Audit target:** review the extension packet in [public draft PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39) as a prospective canonical child of [00J](../../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md). **Do not interpret a successful repository link check or PR visibility as methodological, legal or institutional acceptance.** Sources are labelled internal/not for external circulation.
 
 ## 1. Frozen material to compare
 
@@ -24,12 +24,12 @@
 - [ ] **Discrepancies:** source/receiver fact variance, independent reviewer dissent, adjudication and successor review after new dependency, with original outcomes retained and no retroactive PASS.
 - [ ] **DDS/UC4:** distinguish documentary Stage A, proposed Stage B, optional UC4 preflight and *not-yet-executed* Stage C/native product tests. Verify H0/H1/H2 semantics preserved for 00J-A01.
 - [ ] **Links and custody:** check every local relative reference resolves at the current local tree, and historical pinned GitHub/Drive/ITU URLs are preserved; add no canon→foreign VNext link. Protect frozen sources; add only controlled navigation links.
-- [ ] **Disclose scope before publication:** each source Google Doc is marked INTERNAL. Obtain release/redaction/attribution authority from the document owner and relevant third-party evidence owners. **Fail release gate until explicitly authorized.**
-- [ ] **Final owner acceptance:** review clear, dated change summary and unresolved material mismatches; only then authorize Git commit and public release if appropriate.
+- [ ] **Disclose scope before merge or further release:** each source Google Doc is marked INTERNAL. Content is already visible in the owner-requested public draft PR. Confirm what may remain, what must be redacted, and attribution / third-party evidence permissions. **Fail merge and external-reuse gates until decided.**
+- [ ] **Final owner acceptance:** review clear, dated change summary and unresolved material mismatches; authorize merge and any external submission separately.
 
 ## 3. Reconciliation ledger
 
-| Object | Checked now | Remaining before commit |
+| Object | Checked now | Remaining before merge |
 |---|---|---|
 | Full ten-document conversion / native tables | **Prepared for automated verification** | Independent sampling of source link, row/cell fidelity |
 | Package routing and internal links | **Proposed** | Run read-only link tests after local changes |
@@ -37,11 +37,11 @@
 | A25/A26 / R01 source hierarchy | **Read and mapped** | Reviewer acceptance for any concrete claimed transfer |
 | Legal and terminology/source conditions | Complete source docs **retained** | Review clause exactness and facts; no legal approval claim |
 | DDS Stage A/UC4 execution readiness | **HOLD / NOT EXECUTED** | Candidate, comparator, permissions, evaluators, fixture freeze |
-| External publication authority | **NOT GRANTED / not evidenced** | Explicit decision / selective redaction |
-| Commit / merge / FG-TIDA filing | **NONE** | Owner authorizes next phase separately |
+| External reuse / disclosure boundary | **Public draft PR visible; source labelled INTERNAL** | Decide retained scope, third-party rights, attribution and any redaction |
+| Commit / merge / FG-TIDA filing | **Review commit in draft PR #39; no merge or filing** | Owner authorizes next phase separately |
 
 ## 4. Reviewer output contract
 
-Return one findings register with `ID | severity | exact file + heading/table cell | source revision or Git blob | observed mismatch | preserved evidence | minimal correction | owner | disposition`. Use statuses `CONFIRMED, CORRECTED, OPEN, OUT OF SCOPE`; classify *not established* separately from *not applicable* and *failed*. Only call the package ready for commit when every material open finding and the confidentiality-release gate have a recorded owner decision.
+Return one findings register with `ID | severity | exact file + heading/table cell | source revision or Git blob | observed mismatch | preserved evidence | minimal correction | owner | disposition`. Use statuses `CONFIRMED, CORRECTED, OPEN, OUT OF SCOPE`; classify *not established* separately from *not applicable* and *failed*. Only call the package ready for merge when every material open finding and the disclosure/reuse gate have a recorded owner decision.
 
 **Governance:** [DC-GH-01](../../../../../DOCUMENT_CONTROL.md) and [Corpus Review Procedure](../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md). Existing source-specific file protections take precedence over ordinary prose editing.

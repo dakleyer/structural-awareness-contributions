@@ -1,8 +1,8 @@
 # 00J-EXT-PANO-01 — Panodyssey composite S6/00J extension
 
-> **PROPOSED CANONICAL PACKAGE · REVIEW LOCAL · NO COMMIT / NO PUBLICATION · 25 October 2026.** This reader is the proposed *single canonical entry point for this logical extension*. Individual `PANO-xx` and `SOURCE-00` files preserve their source-document roles. None reports a completed A25/A26 admission, DDS score, UC4 run, Panodyssey failure or EU-law compliance decision.
+> **PROPOSED CANONICAL PACKAGE · DRAFT PR #39 · REVIEW PENDING · 25 October 2026.** This reader is the proposed *single canonical entry point for this logical extension*. Individual `PANO-xx` and `SOURCE-00` files preserve their source-document roles. None reports a completed A25/A26 admission, DDS score, UC4 run, Panodyssey failure or EU-law compliance decision.
 >
-> **Disclosure restriction:** The source Docs are marked **INTERNAL / NOT FOR EXTERNAL CIRCULATION**. Do not publish this branch's content to the public repository before scoped permission / redaction / attribution review.
+> **Disclosure status:** The source Docs are marked **INTERNAL / NOT FOR EXTERNAL CIRCULATION**. At the owner's request, the extension now appears in a public draft PR for review. Before merge or further external reuse, review source ownership, third-party evidence, redaction and attribution; PR visibility is not methodological or legal acceptance.
 
 ## 1. Identity and parental discipline
 
@@ -32,7 +32,7 @@ All ten working source documents are carried as full Markdown representations of
 | [07 — completeness audit](./PANO-07_COMPLETENESS_AUDIT_OPEN_FINDINGS.md) | Previous audit findings, open dependencies, evidential status |
 | [08 — extension and transfer method v0.2](./PANO-08_PARTIAL_ISOMORPHISM_EVIDENCE_TRANSFER.md) | Isomorphic subkernel, TI-01–TI-07 obligations, prospective DT-01–DT-12, PanO-v6 reuse illustration |
 
-[Source inventory with revisions](./SOURCE_MANIFEST.json) · [claim-by-claim inheritance ledger](./TRANSFER_LEDGER.md) · [DDS/UC4 implementation readiness](./DDS_UC4_READINESS.md) · [pre-commit & promotion audit](./PROMOTION_REVIEW.md).
+[Source inventory with revisions](./SOURCE_MANIFEST.json) · [claim-by-claim inheritance ledger](./TRANSFER_LEDGER.md) · [DDS/UC4 implementation readiness](./DDS_UC4_READINESS.md) · [pre-merge & promotion audit](./PROMOTION_REVIEW.md).
 
 ## 3. Interface namespaces and boundaries
 
