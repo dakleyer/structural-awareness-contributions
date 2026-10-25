@@ -183,6 +183,8 @@ def main() -> int:
         return 1
     print(f"DOCUMENT INTEGRITY: PASS ({checked_links} local routes, "
           f"{len(REQUIRED_SECTIONS)} architecture sections, {len(PRESENTATIONS)} canonical decks)")
+    print("CHECK COVERAGE: relative inline/HTML local paths; EP section/reference minima; "
+          "PPTX package/text minima.")
     return 0
 
 
