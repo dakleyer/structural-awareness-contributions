@@ -3049,3 +3049,38 @@ Source: `CONTRIBUTING.md`.
 **148–150:** apply the exact already-published units after revalidating their current source context; retire only their own applied proposal cards, preserve their complete plans at the pre-application Git revision, and update their existing registry states. No older scientific candidate is activated.
 
 **Validation:** exact substitutions and global inverse, unchanged file set, GFM paths/fragments, original-source byte equality, raw public readback and a bounded GitHub PR. The second audit covers all thirteen policy sections and retains unresolved roles and actual enforcement gaps as findings.
+
+
+## Repair 149 destination revalidation — 25 October 2026
+
+Final GFM verification found that the previously proposed e59430d edition no longer contains the two old 00N/MSCA proposal headings. The 6 October 5c8024b edition contains both headings and their complete plans. These two approved reader-link units therefore use 5c8024b before incorporation; all other 149 units retain their verified destinations. This corrects a prepared historical pin, without reopening applied scientific proposals. The old candidate remains in its pinned pre-application edition.
+
+### Historical destination unit 1
+
+**Texto antes — complete current source unit**
+
+````````````text
+| [Condicionar el tamaño y coste del contexto útil](../../research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+````````````
+
+**Texto después — complete corrected unit**
+
+````````````text
+| [Condicionar el tamaño y coste del contexto útil](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+````````````
+
+### Historical destination unit 2
+
+**Texto antes — complete current source unit**
+
+````````````text
+| [Mostrar todo B_Cart en el índice MSCA](../../standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-bcart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+````````````
+
+**Texto después — complete corrected unit**
+
+````````````text
+| [Mostrar todo B_Cart en el índice MSCA](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-b_cart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+````````````
+
+**Impact: High; risk: Low; effort: Low.** Benefit: working historical sections with their original context. Verification: both complete targets and GFM heading IDs exist at 5c8024b; current source units each match once. Iván’s authorization for these small corrections applies. No scientific text or original source is altered.
