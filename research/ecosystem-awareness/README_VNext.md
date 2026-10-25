@@ -326,3 +326,8 @@ The shared reader route remains UC-21, objectives, Challenges, reusable DDS, cam
 ## Literal restoration detail 15 October 2026
 
 The [joint plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) records the complete proposed103case binding and112immutable source package in the existingDDS review. No source or hierarchy changes now. Its historical READMEs do not add a maintained reading level; the active route stays UC21→objectives→Challenges→DDS→campaigns→results. Current baseline/UC03 owners hold their own exact pairs; future92depends on source/card reception.
+
+
+## ACC auxiliary model — navigation reception
+
+The owner asks to house a bounded working model for later ACC use/integration, not redefine ACC or its internal integration into agents. An append-only optional-package paragraph in this README points to the [artefact reader](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md). Existing router text remains byte-preserved; the artefact stays outside the EA core/frozen baseline. No previously pending audit or validation is marked complete by this addition.
