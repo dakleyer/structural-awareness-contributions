@@ -1,0 +1,125 @@
+{
+  "mode": "portfolio",
+  "description": "Example: current SCALE is executable but INTEGRATE remains a superior jointly feasible alternative; set CFO=false to make only F^T improve.",
+  "actors": [
+    "Marketing",
+    "Operations",
+    "Systems",
+    "Finance"
+  ],
+  "dimensions": [
+    "E_efficiency",
+    "D_distribution",
+    "C_coordination",
+    "A_attribution",
+    "Q_authority"
+  ],
+  "approvals": {
+    "Marketing": true,
+    "Systems": true,
+    "CFO": true
+  },
+  "parameters": {
+    "acw_shadow_price": 1,
+    "recovery_fraction": 0.7,
+    "transition_budget": 50,
+    "resources_limit": 200,
+    "require_pareto": true,
+    "acw_classified_synthetically": true,
+    "top_k": 8
+  },
+  "baseline": {
+    "production": 100,
+    "resources": 100,
+    "outputs": {
+      "service_units": 100
+    },
+    "gic_hours": 3,
+    "neo_hours": 2,
+    "acw_hours": 5,
+    "unknown_hours": 0,
+    "human_capacity_hours": 20
+  },
+  "current_projects": [
+    "SCALE"
+  ],
+  "projects": [
+    {
+      "id": "INTEGRATE",
+      "delta_production": 0,
+      "delta_resources": -20,
+      "delta_acw_hours": -3,
+      "output_deltas": {
+        "service_units": 0
+      },
+      "gross_payoffs": {
+        "Marketing": 60,
+        "Operations": 40,
+        "Systems": -30
+      },
+      "adjustment_costs_by_actor": {
+        "Marketing": {
+          "discovery": 2,
+          "verification": 2,
+          "reconfiguration": 3
+        },
+        "Operations": {
+          "communication": 1,
+          "negotiation": 3
+        },
+        "Systems": {
+          "contracts": 2,
+          "risk_resolution": 2
+        }
+      },
+      "transfers": {
+        "Marketing": -40,
+        "Systems": 40
+      },
+      "acw_bearer": "Systems",
+      "required_approvals": [
+        "CFO",
+        "Systems"
+      ],
+      "rights_preserved": true,
+      "requires": [],
+      "excludes": []
+    },
+    {
+      "id": "SCALE",
+      "delta_production": 40,
+      "delta_resources": 25,
+      "delta_acw_hours": 2,
+      "output_deltas": {
+        "service_units": 20
+      },
+      "gross_payoffs": {
+        "Marketing": 25,
+        "Operations": 15,
+        "Systems": -10
+      },
+      "adjustment_costs_by_actor": {
+        "Marketing": {
+          "discovery": 1,
+          "reconfiguration": 3
+        },
+        "Systems": {
+          "verification": 2,
+          "risk_resolution": 3
+        }
+      },
+      "transfers": {
+        "Marketing": -20,
+        "Systems": 20
+      },
+      "acw_bearer": "Systems",
+      "required_approvals": [
+        "Marketing",
+        "Systems"
+      ],
+      "rights_preserved": true,
+      "requires": [],
+      "excludes": []
+    }
+  ]
+}
