@@ -1,16 +1,16 @@
 # DDS-S2-EA-01 — Independent S2/00F Requirements Review Record (template)
 
 **Status:** BLANK TEMPLATE — no external audit has been performed.  
-**Read first:** [DDS-S2-EA-01 v0.1 — work order](./README.md). Make **one reviewer-owned copy** in `REVIEWS/YYYY-MM-DD-REVIEWER-v0.1.md` and submit by PR. Never overwrite this template or frozen technical sources.
+**Read first:** [DDS-S2-EA-01 v0.2 — work order](./README.md). Make **one reviewer-owned findings record**, keep detailed conflicts private, and submit through the agreed PRIVATE_INTAKE or consented PUBLIC_PR procedure in §6. Never overwrite this template or frozen technical sources.
 
 ## A. Reviewer identity, evidence freeze and independence
 
-- Reviewer name / agreed public identifier: `PENDING`
+- Verified reviewer identity (RESTRICTED VERSION ONLY): `PENDING`; public identifier if consented: `PENDING`
 - Affiliation / declared role, if any: `PENDING`
 - Date, hours spent and applicable time zone: `PENDING`
-- Reviewer consent to public identification/attribution: `PENDING / OWNER-AGREEMENT REQUIRED`
-- Requirements, case, model, instruments, or fixture authorship/participation: `PENDING`
-- Vendor/comparator interests and any access to oracle, exact future variant/seed or result: `PENDING`
+- Intake route: `PRIVATE_INTAKE / PUBLIC_PR — PENDING`; public identity/account, findings and COI-summary publication consent: `PENDING / OWNER-AGREEMENT REQUIRED`
+- Requirements, case, model, instruments or fixture authorship/participation (DETAILED RESTRICTED RECORD): `PENDING`; public copy contains only consented summary
+- Vendor/comparator interests or access to oracle, exact future variant/seed or result (RESTRICTED): `PENDING`; do not publish sensitive disclosure details
 - Packet commit SHA supplied at assignment: `PENDING`
 - Technical source cut, Contributions: `b056bd621262edc3a026fd21780c866afb22b1d5`
 - Original UC21/S2 case cut, `dakleyer/use-cases`: `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`
@@ -95,6 +95,6 @@ Allowed **adequacy** status: `SPECIFIED` / `CONDITIONAL_OR_UNDER_SPECIFIED` / `G
 - Independent dissent / comparator match or better result: `PENDING`
 - Recommended next **smallest** action (or none): `PENDING`
 - Owner decision per finding: `PENDING (Iván records separately: ACCEPT / REVISE / DEFER / REJECT)`
-- Reviewer PR / review commits and any successor version: `PENDING`
+- Private intake reference OR consented public PR/commits and successor version: `PENDING`
 
 **Reviewer statement:** I only attest to sources and procedures actually inspected; the work record creates no FG-TIDA/ITU adoption, vendor certification, automatic publication right or pre-agreed contributor credit.
