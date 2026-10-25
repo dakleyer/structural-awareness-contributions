@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "engine_sha256": "9a4578adba62c5bd78ac974c93318ac64ffb7103f2b3126a4853c3d1270b42e7",
+  "engine_sha256": "ab47f5953e202a8f6b5583c0eb0b8c414c5237e5153cd7bd0ee9c8f8ebda9a9c",
   "results": {
     "formulas": {
       "A_approved_M3": 1.5341764925993788,
@@ -48,8 +48,8 @@
       "HID_potential": 0.25,
       "mode": "portfolio",
       "n": 5,
-      "state_count_F_G": 4,
-      "state_count_F_T": 4,
+      "state_count_F_G": 2,
+      "state_count_F_T": 2,
       "suboptimal_governable": true,
       "suboptimal_technical": true,
       "technical_optimum_projects": [
@@ -64,6 +64,6 @@
     "portfolio": "33c75e832f6be8344d5b71d2be92c29a445177d09535579379a3a8ffce32985f"
   },
   "status": "REFERENCE_FROM_EXACT_PYTHON_ENGINE__SYNTHETIC_ONLY",
-  "test_count": 31,
+  "test_count": 33,
   "version": "v0.1"
 }
