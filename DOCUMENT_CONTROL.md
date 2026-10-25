@@ -4031,3 +4031,534 @@ All 48 original files, including the complete submitted S6, are preserved byte f
 All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition.
 
 This finishes consolidation of the action/promotion plan. Applying the chosen waves, demonstrating native enforcement and obtaining scientific evidence are the resulting work; none is silently treated as completed by this planning publication.
+
+
+## 15. Action plan 2.0 — reassessment and next waves
+
+**Decision-ready review of plan 1.0;25 October 2026.** This section is the current planning entry. The operative policy remains DC-GH-01v1.0.1. It preserves the complete earlier plan and audit; the pairs below are proposals for named implementation waves. The same Codex assistant performed this reassessment, not an independent external reviewer.
+
+### 15.1 What the detailed verification establishes
+
+Both planning publications were checked directly against their Git trees, rather than accepting the previous receipts. PR 27 changed only this control and its existing audit; PR 29 changed those two plus priorities.json/csv. Across the complete interval 2aa0c10 → 75f5b6b, all 2,405 paths and modes remain, both complete control/audit predecessors remain exact byte prefixes, and 2,401 other entries—including all 75 review surfaces—are unchanged. No research source, program, result, presentation, frozen part or binary changed in that interval. This verifies these publications; it does not retroactively certify all earlier corpus edits.
+
+The ledger retains 150 IDs, 151 CSV rows and all original proposal pairs in dated history. Exactly 16 JSON records/17 CSV rows changed as planned; 134 other JSON objects retain their original bytes. The changed pairs are the current 88/145/146 replacements, not deleted originals. All 42 literal old spans still match; 35 whole-file identities match their planning cut and seven control-file identities have advanced through plan appends. Rebind the actual execution head and operative spans at GO. A plan quoting its own clauses must not patch the quoted copy or manufacture a self-referential final-file hash.
+
+**Plan 1 has useful coverage, but its original completion statement was too broad for implementation readiness.** All 75 candidate reviews have individual dispositions. That does not finish role classification, executable guards, native safeguards or scientific evidence. No source restoration is required by these two publication diffs. No excessive source addition is found: the additions are the authorized plan/audit material and bounded ledger reconciliation. The size of this control now requires a clear current entry and folded detailed pairs rather than another policy/index/VNext.
+
+### 15.2 Findings and decisions
+
+| Finding | Evidence and consequence | Response |
+|---|---|---|
+| Historical quotation candidate is too broad | Original 42/43 authenticate a line, not its enclosing historical section. In all four cases, copying that exact line into a new live section still resolves it as historical | Replace only the pending code candidates with A2-07/08; require full context, occurrence and missing-receiver tests |
+| Test claims need correction | The 42 stale checks were inequality assertions; 16 quote tests omitted the reproduced same-file copy/context attack. Cached results used the checker digest without all covered source identities | A2-05 plus the actual planning-validator and context tests reported below; no native enforcement claim |
+| Mapping is not role adjudication |72 candidate records bind 68 current continuations plus 7 retained reviews; 61 records still say source-under-review |A2-03/04: classify changed sources/receivers and their exact freeze/protection before role-dependent enforcement; retain honest unknowns |
+| Wave selection evolved without one clear front door |14.3 lists the older eight blocks; 14.12/14.17 select 12 across 3 receivers. These are successive planning cuts, not missing content |A2-01/02: one current decision entry; three low-risk control clauses first; then scoped promotions |
+| Receiving-review deltas were not literal |9/41 have complete source pairs, but review closure was only procedural |A2-09a–c provides the exact companion reception; apply only after the corresponding source reaches main |
+| The audit has inherited missing leading digits |The damaged numeric strings already exist at 2aa0c10. The public inventory supplies unambiguous values |A2-06a–e repairs only the report's digits; all underlying inventory/evidence remains untouched |
+| Larger safeguards still need implementation |The native branch remains unprotected and rulesets empty at this check. Role/exact-wave code is specified, not delivered as a complete tested public patch | Keep A2-04 as a real implementation task. Use distinct authorship, trusted checking and real actor tests before activation |
+
+The current official UC21 issue remains at 25 October 07:58:19 UTC and PR 22 at188f3192, so the dated external dispositions have not drifted at this check. They remain separate maintainer/owner choices. No external document or settings are changed here.
+
+### 15.3 Practical order, impact, risk and effort
+
+| Wave | Exact candidate / deliverable | Benefit | Risk / effort | Dependency and exit |
+|---|---|---|---|---|
+| First: control wording |Existing 2,6,7 plus selected A2-01/02/05 clarifications |High: one live pending queue, exact preservation and a usable promotion route |Low / Medium including validation |Named GO; rebind the current operative paragraphs; exact inverse and public readback; no theory change |
+| First: review/report hygiene |Existing 38–40;A2-06a–e |Medium: truthful first-reader status and readable evidence counts |Low / Low |Preserve incoming anchors and complete audit argument; no result regrading |
+| Next: focused useful content |Existing 9 with A2-09a/b; then 41 with A2-09c |High: understandable timing/human results and dated source/interface reception |Medium / Medium |Read the two receivers and current source dates; receive each source and its review together; 41 never runs with 10 |
+| Next: quote checker |A2-07/08 replaces pending 42/43;26 has Medium operational risk |High: real historical receiver checks without hiding new live defects |Medium / Medium |Code-owner GO, complete private tests and unchanged eight section/four reference/two deck checks; required-check activation is separate |
+| Next: identities/protection |A2-03/04 and the seven retained-edition choices |High: role-dependent checks have valid inputs |Medium–High / Medium–High |Decide each material role/protection and EA successor; candidate metadata cannot approve itself |
+| Later: content identity and contracts |Requirements 8,11–17,27–28; capacity 29; protected routes 18–25 |High |High / Medium–High |Keep their atomic packets, approved exceptions and both-end contract acceptance; never an isolated header/route patch |
+| Later: native enforcement and evidence |Exact-wave/role function patches, trusted author/check path, 24 acceptance cases; named H06/benchmark/R01/FH evidence packets |High |High / High or scoped estimate |Complete public implementation and representative actual GitHub denials/recovery before enforcement closure; no experiments launched by this plan |
+
+Each row is a decision package, not an instruction to execute automatically. Existing 2/6/7 are the smallest high-impact/low-risk first choice. Small spelling fixes and source-control changes receive proportionate checks; this review does not create an institutional approval process for routine editing. All original proposals and alternatives remain visible.
+
+### 15.4 Complete surgical pairs
+
+All before units below are complete affected spans from75f5b6b; line/byte ranges identify that cut. For adoption read the real current base/head, then match the operative span; later planning appends do not authorize patching another copy. A2-07/08 supersede only the unapplied 42/43 code candidates. A2-09is conditional reception, not a present assertion of application. Every unit retains the rationale, benefit, risk, effort, dependency and owner decision below.
+
+<details>
+<summary>A2-01a — Give the reader one current action-plan entry</summary>
+
+**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 139, bytes[17588,18049). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Low. **Reason:** The earlier eight-block selection and later twelve-block selection are both preserved, but a reader needs one explicit current decision route.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes. The [action-plan 2.0 reassessment and decision sheet](#15-action-plan-20--reassessment-and-next-waves) is the current planning entry; sections14.2–14.3 retain the earlier selection history, while14.12 supplies the expanded candidate population. Operative policy sections1–13 change only through accepted source pairs.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-01b — State exactly which part of plan consolidation is complete</summary>
+
+**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 4031, bytes[383435,384283). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Low. **Reason:** The coverage and pair counts are supported; classification and native enforcement are not completed by those counts.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+All 75 candidates now have individual dispositions and specified recipients. The plan contains 42 active exact Contributions units, with the earlier 10 kept as history and replaced by 41, plus E145R/E146R and the existing registry/CODEOWNERS candidates. The first substantive selection is 12 blocks across 3 readers. Three original source-owner mismatches and ten formerly unresolved/missing path bindings are resolved explicitly; seven parallel-edition families have a non-destructive identity proposal. The 150 record IDs and original pairs remain preserved, with dated current-state reconciliation for 16 affected records. The CSV has 151 rows for 150IDs because 144 has two inherited variants; both are preserved and marked superseded, not counted as two recommendations. The JSON record and named current plan determine the active disposition. Completion here means disposition of the 75 review candidates, not executable implementation of every future guard. The 72-record registry candidate still uses source-under-review for 61 records; those roles and their applicable protection remain to be adjudicated before role-dependent enforcement. The 42 literal preimages matched the cited cut; seven DOCUMENT_CONTROL whole-file identities have since advanced through plan-only appends. An executor binds the actual wave base/head and operative spans rather than treating a dated self-quotation or a planned registry field as authority.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-02a — Split the first wave by actual risk and receiving work</summary>
+
+**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 1397, bytes[173887,174192). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Low. **Reason:** The previous eight-unit wave mixed routine control changes with nine substantive reading blocks. The new order offers three existing high-impact/low-risk clauses first, followed by the independently scoped promotions. Unit1 and3–5 remain their own medium-risk decisions; they are not silently accepted by this ordering.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+| First substantive/readability wave |2–7,9,41: six operative-control refinements, two 04 blocks and seven 05A blocks | High: clear promotion outcomes and usable timing/source/interface readings | Low–Medium / Medium | Named eight-unit GO; preserve the 19 September snapshot and dated later evidence |
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+| First control and readability wave |2,6,7, then38–40;9 is a separate explanatory promotion,41 a separate dated source/interface packet | High for2/6/7 and9; Medium for38–40; High for41 | Low for2/6/7/38–40; Medium for9/41 / Medium overall | Select named units. Revalidate current operative control spans; apply9 withA2-09a/b reception and41 withA2-09c reception; the three Requirements blocks remain in their own identity packet |
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-02b — Rate the workflow change by its operational consequence</summary>
+
+**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 1009, bytes[127449,127675). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit26 changes the identity and permissions of a future required check. The textual change is short, but workflow/required-context compatibility warrants medium risk and code-owner review.
+
+**Dependencies / Iván decision:** Reclassification only; actual unit26 application still needs its named code/workflow GO.
+
+**Text before — complete affected unit**
+
+``````````````````text
+**Source:** `.github/workflows/document-integrity.yml` · current blob `cabf2e08b417d9d05e134604aa1ca10cc93a4e04` · line 1, bytes 0–648 at the pinned source cut. **Expected impact:** High; **risk:** Low; **effort:** Medium.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+**Source:** `.github/workflows/document-integrity.yml` · current blob `cabf2e08b417d9d05e134604aa1ca10cc93a4e04` · line 1, bytes 0–648 at the pinned source cut. **Expected impact:** High; **risk:** Medium; **effort:** Medium.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-03 — Finish role/protection adjudication where enforcement depends on it</summary>
+
+**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 4022, bytes[380773,381190). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Medium. **Reason:** The complete candidate identifies all review surfaces but61provisional roles cannot implement the policy distinction between canonical, contextual and frozen sources.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+1. **Establish the declared identities.** Receive the 75 source/review bindings and seven retained-edition decisions in the complete proposed 72 record registry above; preserve ordered 03/05/UC03 parts, the frozen requirement source, benchmark semantic alias and EA approved/observed discrepancy. The complete seed is structurally validated but remains a candidate, not an installed registry or a source of authority.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+1. **Establish the declared identities.** Receive the 75 source/review bindings and seven retained-edition decisions in the complete proposed 72 record registry above; preserve ordered 03/05/UC03 parts, the frozen requirement source, benchmark semantic alias and EA approved/observed discrepancy. The complete seed is structurally validated but remains a candidate, not an installed registry or a source of authority. The 61 source-under-review records are provisional identity bindings, not an accepted documentary role. Before a role-dependent wave, classify every changed source and material receiver as canonical, contextual, evidence, historical or explicitly unresolved, and bind lifecycle/protection separately to the applicable source decision or freeze. In particular, ordered 03/05 parts and the frozen C3 fixture need their own supported protection interpretation. Unchanged legacy unknowns may remain reported; a changed unknown cannot pass as exempt. Test against trusted pre-change mappings; a candidate cannot promote its own role or accept its observed blob.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-04 — Turn the deferred exact-wave guard into a bounded implementation deliverable</summary>
+
+**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 4024, bytes[381522,382235). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Medium. **Reason:** Plan1correctly defers the larger guard, but its implementation boundary and required input/output packet should be explicit and testable.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+3. **Complete the exact-wave and role guards in the same checker.** For a named trusted owner decision, bind base/head, source blobs, path/mode set, exact old offsets/after blocks, ordered parts, frozen/append-only protection and source/review roles. Reject unrelated bytes, absent old units, duplicate application, a second active companion, a VNext-of-VNext, foreign semantic-review router targets and retired fragments without an authenticated receiver. The candidate registry cannot approve its own role/protection change. Each function-level pair and executable adverse fixture is required before this guard is called implemented. This is code work specified by the plan, not a claim that prose activated it.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+3. **Complete the exact-wave and role guards in the same checker.** For a named trusted owner decision, bind base/head, source blobs, path/mode set, exact old offsets/after blocks, ordered parts, frozen/append-only protection and source/review roles. Reject unrelated bytes, absent old units, duplicate application, a second active companion, a VNext-of-VNext, foreign semantic-review router targets and retired fragments without an authenticated receiver. The candidate registry cannot approve its own role/protection change. Each function-level pair and executable adverse fixture is required before this guard is called implemented. This is code work specified by the plan, not a claim that prose activated it. Deliver the complete function-level patch and adverse fixtures for the existing verifier before implementation GO: trusted base/head and owner-decision witness as inputs; changed paths/modes, exact preimages/offsets, permitted replacements/additions, receiving companions and incoming anchors as the checked unit; explicit applied/partial/rejected/unclassified results as outputs. Validate the approved wave as one dependency graph, including each affected review receipt. Reject stale base/head, altered old text, an extra unrelated byte, repeated application and omitted receiver. Until that code and native actor tests are published and run, these are implementation requirements, not an installed enforcement mechanism.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-05 — Make test claims and cached evidence reproducible</summary>
+
+**Source:** [DOCUMENT_CONTROL.md](DOCUMENT_CONTROL.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f6d8707dbf2d595d184032bd7893bb3864b51cf8`, line 262, bytes[41547,41831). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Medium. **Reason:** The private verification helper cached results by checker digest and counted simple inequality assertions as stale-input rejections. This narrows the claim and defines an adequate evidence key.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+Closure requires both a valid wave and representative rejected cases with actual actor, head, rule/check result and resulting branch state recorded. A textual configuration proposal, a local content check or one successful merge does not establish that a non-bypass actor was blocked.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+Closure requires both a valid wave and representative rejected cases with actual actor, head, rule/check result and resulting branch state recorded. A textual configuration proposal, a local content check or one successful merge does not establish that a non-bypass actor was blocked. Report literal-equality checks, byte-inverse simulations, rejected inputs from an actual validator, and native GitHub denials as separate results. The prior 42 stale-text assertions established inequality only; they did not run 42 rejection paths. A reused verification receipt must bind the complete candidate tree or all covered input blobs, parser/checker version, policy/registry and exception mappings, and the tested base/head. A checker-code digest alone cannot certify changed Markdown. If any bound input changes, rerun the affected assessment and its dependent relations; a focused candidate test is never native merge enforcement.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-06a — Restore evidenced leading digits in the dated audit</summary>
+
+**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 138, bytes[16034,16171). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+1. **First-audit baseline:** `21e200cd4c9a0558e4ae3669c55f7256c03a005a`, before policy consolidation; ,401 files and ,045 Markdown files.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+1. **First-audit baseline:** `21e200cd4c9a0558e4ae3669c55f7256c03a005a`, before policy consolidation; 2,401 files and 1,045 Markdown files.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-06b — Restore evidenced leading digits in the dated audit</summary>
+
+**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 139, bytes[16172,16479). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+2. **Second-audit source:** `b9499c34e8690acdc9a1d1b6f274895a94c4c4b9`; ,405 files, ,048 Markdown files and 103 files named exactly README.md. The consolidation adds four custody/control artifacts, changes seven control paths, and deletes no file. Both complete predecessor texts match their original blobs.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+2. **Second-audit source:** `b9499c34e8690acdc9a1d1b6f274895a94c4c4b9`; 2,405 files, 1,048 Markdown files and 103 files named exactly README.md. The consolidation adds four custody/control artifacts, changes seven control paths, and deletes no file. Both complete predecessor texts match their original blobs.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-06c — Restore evidenced leading digits in the dated audit</summary>
+
+**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 142, bytes[17013,17685). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+All ,048 Markdown files are parsed with **marked 17.0.5, GFM enabled**. Link/image tokens, reference-style links, HTML href/src, heading slugs and explicit IDs are checked separately; fenced/inline code is excluded from rendered navigation. Current same-repository main URLs resolve against the tree, as do relative paths and folder README fragments. Pinned historic and external URLs are a separate population: the repaired historical destinations are individually checked, while an exhaustive live external-link crawl is outside this assessment. First-literal line positions carry an explicit uniqueness flag; repeated literals are not assigned invented exact locations.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+All 1,048 Markdown files are parsed with **marked 17.0.5, GFM enabled**. Link/image tokens, reference-style links, HTML href/src, heading slugs and explicit IDs are checked separately; fenced/inline code is excluded from rendered navigation. Current same-repository main URLs resolve against the tree, as do relative paths and folder README fragments. Pinned historic and external URLs are a separate population: the repaired historical destinations are individually checked, while an exhaustive live external-link crawl is outside this assessment. First-literal line positions carry an explicit uniqueness flag; repeated literals are not assigned invented exact locations.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-06d — Restore evidenced leading digits in the dated audit</summary>
+
+**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 166, bytes[24868,25634). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+The original inventory reported,747 inline VNext links, of which,565 were in its working subset. A fresh **GFM-token recount of the same21e200 baseline** obtains,786/,600. The working difference is confined to three sources: EP README VNext226 versus227; 01K VNext24 versus10; R01 oracle README VNext39 versus17. The legacy difference is four occurrences. Both methods identify176 working source files. Fifteen reference-style VNext occurrences form a separately excluded population. The difference is a parser/denominator reconciliation, not35 discovered policy violations. The first extractor’s exact implementation was not in its public artifact, so its old scalar counts are preserved as reported rather than rewritten or falsely certified as fully reproduced.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+The original inventory reported 2,747 inline VNext links, of which1,565 were in its working subset. A fresh **GFM-token recount of the same21e200 baseline** obtains 2,786/1,600. The working difference is confined to three sources: EP README VNext226 versus227; 01K VNext24 versus10; R01 oracle README VNext39 versus17. The legacy difference is four occurrences. Both methods identify176 working source files. Fifteen reference-style VNext occurrences form a separately excluded population. The difference is a parser/denominator reconciliation, not35 discovered policy violations. The first extractor’s exact implementation was not in its public artifact, so its old scalar counts are preserved as reported rather than rewritten or falsely certified as fully reproduced.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-06e — Restore evidenced leading digits in the dated audit</summary>
+
+**Source:** [governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md](governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `31e7a278e736f99cc5b87d12c746e3d92b51fb06`, line 170, bytes[26088,26524). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** Medium / Low / Low. **Reason:** The published numeric inventory and pinned trees support these numbers. The missing leading digits are already present beforePR27and were preserved, not caused byPR27/29. No underlying count or source observation is changed.
+
+**Dependencies / Iván decision:** Named passage/wave GO; exact source and unrelated-byte verification.
+
+**Text before — complete affected unit**
+
+``````````````````text
+At the second source cut: **,788 inline VNext occurrences,,596 working,,192 legacy;15 reference-style occurrences;177 working source files;74 working filename-hinted VNext files plus the existing benchmark alias.** Local working occurrences:,166; distinct local source→target pairs:666; missing local VNext target paths:zero. These are measured graph populations, not75 approved logical pairs or proof of completed substantive passes.
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+At the second source cut: **2,788 inline VNext occurrences; 1,596 working; 1,192 legacy;15 reference-style occurrences;177 working source files;74 working filename-hinted VNext files plus the existing benchmark alias.** Local working occurrences: 1,166; distinct local source→target pairs:666; missing local VNext target paths:zero. These are measured graph populations, not75 approved logical pairs or proof of completed substantive passes.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-07 — Authenticate the complete historical quotation context</summary>
+
+**Source:** [scripts/check_document_integrity.py](scripts/check_document_integrity.py) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 44, bytes[1667,1706). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** The original42candidate accepts an exact line copied into a new live section of the same file. Reproduced for all four configured links. Bind the full section, raw-text digest, unique occurrence and exact line count instead.
+
+**Dependencies / Iván decision:** A2-08; focused duplicate/context/receiver tests; code-owner GO; future wider role/native safeguards remain separate. **Supersedes:** Unapplied action unit42; preserve its historical proposal.
+
+**Text before — complete affected unit**
+
+``````````````````text
+def navigation_text(body: str) -> str:
+
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+# Owner-reviewed historical source quotations. Contexts are raw UTF-8 text;
+# match their complete section and exact line counts, never a whole directory.
+SOURCE_QUOTATION_CONTEXTS = (
+    {'source': 'research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md', 'context': "# First scoped judgement: input-contract custody status\r\n\r\nSealed 2026-10-14T21:19:32.094094+00:00. Phase A; whole source/receiver cohort incomplete.\r\n\r\nThe current Markdown contains dated semantic amendments. The preserved approved Word and original Markdown retain the previous contract, so the current literal unchanged-reproduction claim requires clarification. The complete original body text is accounted comparatively, but Word rendering remains unread. This is a custody correction, not reversal of the current B/C amendment.\r\n\r\nCurrent location: research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md; blob de6c58c62ad70b3182085333106b41b63a9fef18. Each before passage occurs exactly once.\r\n\r\nComplete current before, line 1:\r\n\r\n```html\r\n<!-- Approved v0.4 Word body reproduced below in document order. -->\r\n```\r\n\r\nComplete proposed after:\r\n\r\n```html\r\n<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->\r\n```\r\n\r\nComplete current before, line 17:\r\n\r\n**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.\r\n\r\nComplete proposed after:\r\n\r\n**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.\r\n\r\nImpact Medium; risk Low; effort Low. Preserve original assets and the dated manifest unchanged. Benefit: honest authentication and navigation between original publication and current amendments. Cost: two local status edits; no regeneration. Acceptance: unique literal matches, original hashes preserved, current amendment/field IDs/links preserved, no execution or incompatibility-closure claim. Ivan’s named wave/passages GO is required; nothing applied.\r\n\r\nThe JSON freezes exact identities, supporting original/current clauses and contemporaneous reading/exposure records. A later A23 audit execution-record exposure is disclosed there; it contributes no input-contract evidence.\r\n\n\n</details>\n\n\n## Unified restoration candidates 15 October 2026\n\nThe [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.\n\n\n### Existing candidate 101\n\nCurrent Markdown itself contains explicit dated semantic amendments; unchanged-reproduction comment is misleading. Preserve Word/graphics/manifest bytes.\n\n**Impact / risk / effort:** Bajo / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply\n\n**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 102; publish the two custody descriptions consistently.\n\n**Text before — complete current passage (1).**\n\n``````text\n<!-- Approved v0.4 Word body reproduced below in document order. -->\n``````\n\n**Text after — complete proposal.**\n\n``````text\n<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->\n``````\n\nThis is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).\n\n\n### Existing candidate 102\n\nCurrent dated amendment and historical manifest require an honest original-vs-current custody explanation; no reversal of B/C correction or rendered-parity assertion.\n\n**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply\n\n**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 101; publish the two custody descriptions consistently.\n\n**Text before — complete current passage (1).**\n\n``````text\n**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.\n``````\n\n**Text after — complete proposal.**\n\n``````text\n**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.\n``````\n\nThis is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).\n\n\n## Literal plan check 15 October 2026\n\nReview by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.\n\n**Pairs checked here: 101,102.** Both complete old/new publication descriptions match the source. Their joint proposed meaning distinguishes the preserved Word/manifest/diagram edition from dated living Markdown amendments. Neither pair changes those binaries or recalculates the historical manifest. Both remain one companion decision after edition/return-route reconciliation.\n\nComplete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.\n\n\n### Application 101 — 15 October 2026\n\n**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md`; resulting source blob `1bbc76f673d79e3b5bb52117aeeb3d68af0d5387`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.\n\n\n### Application 102 — 15 October 2026\n\n**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md`; resulting source blob `407a009999326cd051cb26e003ad78f8cf8e3162`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.\n\n\n**Verified application commits — 06_attribution_and_editions:** [101](https://github.com/dakleyer/structural-awareness-contributions/commit/b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c), [102](https://github.com/dakleyer/structural-awareness-contributions/commit/29c1d0da83c333348787944540ca99462515c03b).\n\n\n## Owner authorised application complete 15 October 2026\n\n**Applied and verified:** 101, 102. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.\n\nThe source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).\n\n\n## Execution reaudit 15 October 2026\n\nRe-read101/102 with the current semantic amendment and original publication description. The two caption changes do not replace the original Word, diagram, frozen Markdown or manifest, and do not promote v0.4 over current integration ownership. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).\n\n\n## Historical interface reception — 15 October 2026\n\nReviewer A read the complete 1,869-line 04 v0.5 body and compared all three current v0.4 bodies line by line, reading their differing blocks. All 78 historical units received clause-specific judgments. Renaming S1–S13 to IF-S1–IF-S13 preserves thirteen interface families, O1–O6 and F1–F9 while separating interface labels from requirements and DAOS challenges. Identity, authority, attestation, appraisal, capacity, privacy, records, population and response retain their owners. Theme numbers remain in v0.4 and 05/05A; their removal from the general body does not remove those functions.\n\nThe fourth EHD element survives: current line 99 accepts a source-bound reference only if the receiving profile can resolve and interpret it at decision time. An unavailable, stale or insufficiently bound reference retains UNKNOWN and cannot support uses needing the value. The line 9 notice still leaves H06 open for input contracts and EHD/F9 uses; historical reception does not settle that substantive tension.\n\nCurrent A/B/C/D corrections retain result/basis, characterised reserve, uncharacterised exploration and effective evaluation barrier, together with provenance/process/question/scope/time. Earlier definitions remain lineage, without automatic theorem or empirical transfer. ICR conditions are retained and strengthened: maintainer-declared materiality is identified; route and aggregations are declared before execution; later-discovered aggregation is a mapping defect. A distinct mapping reviewer and a material objection still block sufficiency. Nondeterministic tests retain distribution/dispersion; the original three classes remain alongside adversarial assertion. A simulated boundary is not independent interoperability.\n\nCompeting intents retain the same decision/resource-time binding and owner precedence. Continuity/re-entry remains conditional and creates no universal hierarchy, O7, IF-S14 or actuation authority. IF-S2 at line 758 directly says EA consumes authority and neither originates grants nor decides legal standing, reinforcing the Charter receiver chain. No source restoration follows. The [03 owner](03_FUNCTIONAL_VNext.md#historical-functional-architecture-reception--15-october-2026) and [Foundation owner](01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026) record both relationships.\n\n\n\n## Historical interface custody and semantic reception — 15 October 2026\n\nD read the complete 1,038-line current input contract, its 176 rows across 19 families and all 58 changed historical units. The original field IDs and row literals remain. Original Word, SVG, PNG and historical Markdown identities match the historical manifest, while the amended current text keeps its dated semantic amendment. The two objects answer different identity questions; the historical manifest is not recast as a hash for the amended current body.\n\nThe B/C corrections and custody descriptions are legitimate receiving changes. No field, option or explanatory reason from the examined unit history needs blind restoration. This retention judgement does not admit every classification or close H06/F9, the stated A-exclusion question or O2. Those remain visible in their source contracts. No programme or result was executed or altered by this reading.\n\n\n## Historical contract and review reception — 15 October 2026\n\nB's completed prose-control reading confirms the distinction between generic 04 semantics and programme-specific 05/05A mappings. The current A_ref route keeps unavailable, stale and unbound values as UNKNOWN; H06 end-to-end reconciliation remains a real requirement. Retiring applied navigation/editorial dossiers does not settle that contract question or reactivate an older alternative.\n\nThe two visible ./PUBLICATION_MANIFEST.json strings inside the preserved 101/102 input-contract before/after material are literal source-relative context. Their named source is 04_INPUT_INTERFACE_CONTRACT; operative owner links reach the current contract 407a0099 and its manifest 3934ed2b. Both actual receivers were read. Rewriting the quoted URLs would falsify the complete old/proposed passages, so no such patch is proposed. The current input-contract semantics and 176-row conditional map retain their own review limits. The [baseline consolidation](./README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) records the cross-document decision.\n", 'context_sha256': 'fa2e925aa7cf32aca58cd030768be66d3cf254d704015492b47b196a0bf5b0bf', 'links': [{'line': '**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.', 'line_sha256': 'fcd66dc6595d3a2f0d725cb6207c8c701b013ca32c9511ceae98e3a408ee2353', 'href': './PUBLICATION_MANIFEST.json', 'receiver': 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json', 'expected_line_occurrences': 2}, {'line': '**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.', 'line_sha256': 'c638c60904273e1f658f67e86c96268266740ab317f8589b8fc4ef6584849326', 'href': './PUBLICATION_MANIFEST.json', 'receiver': 'research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/PUBLICATION_MANIFEST.json', 'expected_line_occurrences': 2}]},
+    {'source': 'research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md', 'context': '### Existing A22 qualification to retain\n\n> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).\n\nFor the quoted A22 qualification above, open [A13 findings](../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) and [A14 corrections and status](../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md). These links resolve from this review; the source-relative links inside the historical quotation are retained verbatim.\n\nThe actual simplified model carries the following complete inspected contract and P2/P3 definitions; it does not implement a derivation of conflict from records or the full inquiry graph/rank claimed by a stronger reading. The code was read, not executed.\n\n```python\n@dataclass(frozen=True)\nclass Inquiry:\n    """One shared unresolved object used by both P2 and P3."""\n    proposition: str\n    unresolved: bool\n    material_to_action: bool\n    cyclic_progress: bool\n    bounded_fallback: bool\n\n\n@dataclass\nclass Model:\n    records: Dict[str, Record]\n    used_records: FrozenSet[str]\n    asserted: FrozenSet[str]\n    explicit_unresolved: FrozenSet[str]\n    inquiry: Inquiry\n    executes: bool\n    grant_record: str\n    requalified_at_action: bool\n    counted_pairs: FrozenSet[Tuple[str, str]]\n\n    def record(self, name: str) -> Record:\n        return self.records[name]\n\n\ndef p2(m: Model) -> bool:\n    """The shared unresolved inquiry has finite progress and a bounded fallback."""\n    if not m.inquiry.unresolved:\n        return True\n    return (not m.inquiry.cyclic_progress) and m.inquiry.bounded_fallback\n\n\ndef p3(m: Model) -> bool:\n    """A material unresolved state is not promoted into execution."""\n    material_unresolved = m.inquiry.unresolved and m.inquiry.material_to_action\n    return not (material_unresolved and m.executes)\n\n\n\n```\n\n', 'context_sha256': 'ea87107ac484a8ee536ccc90f176834571bc99c467f08f5fba4ae6f9786cf536', 'links': [{'line': '> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).', 'line_sha256': '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', 'href': './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md', 'receiver': 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md', 'expected_line_occurrences': 1}, {'line': '> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).', 'line_sha256': '277f44d8de7d866b75e47874bdcb8cacdfeb373abe0b49214160446720561397', 'href': './00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md', 'receiver': 'research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md', 'expected_line_occurrences': 1}]},
+)
+
+
+def documentation_link_records(source: Path, body: str):
+    """Resolve only unique complete quoted contexts; leave live links ordinary."""
+    import hashlib
+    visible = navigation_text(body)
+    relative = source.relative_to(ROOT).as_posix()
+    authorized = {}
+    lines = body.splitlines()
+    for record in SOURCE_QUOTATION_CONTEXTS:
+        if record["source"] != relative:
+            continue
+        context = record["context"]
+        if hashlib.sha256(context.encode("utf-8")).hexdigest() != record["context_sha256"]:
+            continue
+        if body.count(context) != 1:
+            continue
+        exposed = navigation_text(context)
+        if not exposed or visible.count(exposed) != 1:
+            continue
+        offset = visible.index(exposed)
+        for link in record["links"]:
+            line = link["line"]
+            if hashlib.sha256(line.encode("utf-8")).hexdigest() != link["line_sha256"]:
+                continue
+            if lines.count(line) != link["expected_line_occurrences"]:
+                continue
+            if exposed.count(line) != 1:
+                continue
+            at = offset + exposed.index(line)
+            key = (at, at + len(line), link["href"])
+            authorized[key] = link["receiver"]
+    matches = list(MARKDOWN_LINK.finditer(visible)) + list(HTML_LINK.finditer(visible))
+    for match in matches:
+        start = visible.rfind("\n", 0, match.start()) + 1
+        end = visible.find("\n", match.end())
+        if end < 0:
+            end = len(visible)
+        raw = match.group(1)
+        receiver = next((target for (a, b, href), target in authorized.items()
+                         if href == raw and a <= match.start() and match.end() <= b), None)
+        yield raw, receiver
+
+
+def navigation_text(body: str) -> str:
+
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-08 — Preserve raw quotation bytes and check the actual receiving file</summary>
+
+**Source:** [scripts/check_document_integrity.py](scripts/check_document_integrity.py) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a9ea07cad0b6a4320b8cae57ba5e890f4c9ac05b`, line 75, bytes[2987,3550). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Medium / Medium. **Reason:** Python universal-newline text reading would change the exact mixed-line-ending context. Read raw UTF-8 text for quotation authentication; all ordinary hrefs and receiver-existence checks remain active.
+
+**Dependencies / Iván decision:** A2-07 and actual missing-receiver recovery; complete inverse and existing architecture/presentation invariants. **Supersedes:** Unapplied action unit43; preserve its historical proposal.
+
+**Text before — complete affected unit**
+
+``````````````````text
+        body = source.read_text(encoding="utf-8")
+        for raw in MARKDOWN_LINK.findall(navigation_text(body)) + HTML_LINK.findall(navigation_text(body)):
+            target = raw.split(" ")[0].strip("<>")
+            if not target or target.startswith(EXTERNAL):
+                continue
+            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
+            checked_links += 1
+            if not (source.parent / route).resolve().exists():
+                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+        body = source.read_bytes().decode("utf-8")
+        for raw, quoted_target in documentation_link_records(source, body):
+            target = raw.split(" ")[0].strip("<>")
+            if not target or target.startswith(EXTERNAL):
+                continue
+            route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
+            checked_links += 1
+            resolved = (ROOT / quoted_target) if quoted_target else (source.parent / route).resolve()
+            if not resolved.exists():
+                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-09a — Receive the selected04promotion in its existing review</summary>
+
+**Source:** [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a7f5c37a722da35740ba1f96ecdbdef19274f436`, line 242, bytes[13961,14028). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit9has an exact source pair but its simultaneous owning-review reception was only an instruction. Prepare that receiving text before the incorporation wave.
+
+**Dependencies / Iván decision:** Apply only with or after verified unit9incorporation; receipt must not precede its source.
+
+**Text before — complete affected unit**
+
+``````````````````text
+## 6. Semantic/qualification validity window versus response window
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+## 6. Semantic/qualification validity window versus response window
+
+**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the two-clock explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-09b — Receive the selected04promotion in its existing review</summary>
+
+**Source:** [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `a7f5c37a722da35740ba1f96ecdbdef19274f436`, line 289, bytes[16325,16388). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit9has an exact source pair but its simultaneous owning-review reception was only an instruction. Prepare that receiving text before the incorporation wave.
+
+**Dependencies / Iván decision:** Apply only with or after verified unit9incorporation; receipt must not precede its source.
+
+**Text before — complete affected unit**
+
+``````````````````text
+## 7. Human-review outputs under the general handoff discipline
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+## 7. Human-review outputs under the general handoff discipline
+
+**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the human-review output explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
+``````````````````
+
+</details>
+
+<details>
+<summary>A2-09c — Receive the selected05Areception in its existing review</summary>
+
+**Source:** [research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · cut `75f5b6b92e7bbe9c4979d09465ca26bccf458b51`, blob `f15dc579c601d6109f7912faa53d3e485d25d209`, line 388, bytes[36285,36363). **State:** proposed; not applied.
+
+**Expected impact / risk / effort:** High / Low / Low. **Reason:** Unit41also needs a literal owning-review receipt. Keep its research/audit argument and explicitly retain later-version distinctions.
+
+**Dependencies / Iván decision:** Apply only with or after verified unit41incorporation; keep41separate from superseded10.
+
+**Text before — complete affected unit**
+
+``````````````````text
+### 2.15 Theme #13 — UC-6 Stage-0 and H1 receiver evidence (21 October 2026)
+``````````````````
+
+**Text after — complete proposed unit**
+
+``````````````````text
+### 2.15 Theme #13 — UC-6 Stage-0 and H1 receiver evidence (21 October 2026)
+
+**Incorporated reading.** The maintained [05A source](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md#source-state-reception--21-october-2026) receives the three dated evidence distinctions selected below, followed by the scoped EA-only interface offer. This review preserves the complete attributed records and the remaining 2.1–2.14 claims/profile questions. The 21 October four-case proposal retains its date; subsequent protocols retain their own source/version.
+``````````````````
+
+</details>
+
+### 15.5 Acceptance and handoff
+
+Before calling a wave applied: bind its real base/head and accepted units, verify full old spans, reject ambiguous/quoted targets, apply only the dependency-complete packet, verify exact inverse/unrelated paths and source-aware links/anchors, publish through its bounded PR, download the actual merged files and receive the applied outcome in the existing review. Keep the remaining substantive and evidence tasks visible. A quote-check patch is not the full role guard; a local validator is not native merge enforcement.
+
+GitHub currently prevents authors from approving their own PRs; unique job names and an actual protection rule are material safeguards, not labels. The current plan retains their existing separate activation decision. [Official branch-protection guidance](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches), [review restrictions](https://docs.github.com/en/pull-requests/how-tos/review-pull-requests/approving-a-pull-request-with-required-reviews) and [workflow event guidance](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows) were checked for this reassessment.
+
+This 2.0 publication adds the reassessment, complete revised proposals and the receiving audit entry only. It applies none of their source/code/review/status/settings pairs. No new public policy, VNext, helper, registry, campaign or index is created.
+
+
+### 15.6 Verification performed for this reassessment
+
+The17 new complete pairs and42 earlier literal spans were checked against75f5b6b. Two valid packet/inverse simulations preserve every unrelated byte. A separate private planning validator actually rejected71 adverse inputs:42 old and17 new altered preimages, plus stale head, unrelated comma, extra path, omitted source, repeated application and overlapping unit for each packet. This replaces the earlier inequality-only claim; it is not the future installed role/authority guard.
+
+The revised quotation candidate passed36 focused context cases across its four configured links: original, isolated line, copied line, copied complete section, changed enclosing section, wrong source, changed quote, new live link and changed raw line endings. Three actual-main receiver-removal/recovery tests cover the three distinct destinations. Those main-branch fixtures disable unrelated architecture/deck checks only in the private test namespace; the candidate itself separately retains all eight section minima, four required references and two deck checks exactly. No research package or native system was executed.
+
+The150 ledger object spans were compared as raw bytes:134 are identical and the16 reconciled objects retain original pairs in dated history. GFM input identity is checked against all1,048 current Markdown blobs before rerunning the publication graph assessment; documented universal-newline projections are distinguished from raw source custody. Changed source input invalidates the full verification key. The larger24 native/semantic acceptance cases remain unexecuted.
+
+
+**Publication and receiving-route verification:** the GFM differential over all 1,048 Markdown files finds zero newly broken paths/fragments, zero removed heading IDs and zero newly unreachable files. The separate hypothetical 19-unit packet combines these 17 proposals with existing source units 9/41 so their three review receipts can be checked against the actual receiving headings; it also introduces none of those navigation defects. That is a simulation, not application. Existing frozen/quoted/split-source diagnostics remain in their original scope.
