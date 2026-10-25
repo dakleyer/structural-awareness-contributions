@@ -2,6 +2,8 @@
 
 This repository is an inspectable public working corpus. Contributions are welcome when they preserve its evidence, attribution and maturity boundaries.
 
+**Current document-control policy:** [DC-GH-01 v1.0](./DOCUMENT_CONTROL.md). Use its role, protected-document and canonical/VNext link rules; specialized review methodology remains in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
 ## Useful contribution types
 
 - corrections supported by a primary or authoritative source;
