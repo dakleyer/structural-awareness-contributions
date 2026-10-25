@@ -48,6 +48,6 @@ La [disposición de las auditorías](review/AUDIT_ACTIONS.md) registra correccio
 
 ## Realización programable adicional — 25 de octubre de 2026
 
-El [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) implementa tres motores separados: enumeración de estados y óptimos F^T/F^G, dinámica de n dimensiones/interacciones/deuda HID, y evaluación algebraica M0–M3. Sus 33 pruebas deterministas comprobaron invariantes de costes, transferencias, autorizaciones, HID condicional, crecimiento/no crecimiento de deuda y límites de comparabilidad. [Referencia numérica de la versión](studies/parametric-economic-toy-v0.1/results/REFERENCE_RESULTS_v0.1.json).
+El [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) implementa tres motores separados: enumeración de estados y óptimos F^T/F^G, dinámica de n dimensiones/interacciones/deuda HID, y evaluación algebraica M0–M3. Sus 34 pruebas deterministas comprobaron invariantes de costes, transferencias, autorizaciones, HID condicional, crecimiento/no crecimiento de deuda y límites de comparabilidad. [Referencia numérica de la versión](studies/parametric-economic-toy-v0.1/results/REFERENCE_RESULTS_v0.1.json).
 
 **Estado de evidencia:** ejecución de cálculo sintético, no ensayo de agentes ni medición empresarial/humana. En particular, las 10.000 ejecuciones históricas siguen sin autenticarse, la batería causal HID2-01…10 sigue NOT RUN, y un óptimo de trayectoria desde t=0 no acredita factibilidad de retorno en t. No se alteran el piloto congelado, DDS, UC21/R01 ni ACC normativo.
