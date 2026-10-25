@@ -86,6 +86,15 @@ Under 00G-R01, both extensions/ and feasibility/ hold an RATS_EXTENSION.md, a TE
 
 The current extensions/ Technology Protocol (documentary v0.4) explicitly describes feasibility/ as a retained edition, whereas the feasibility/ README still routes to its local protocol as a working reference. The two RATS sources also carry closely overlapping canonical wording. These facts require a **logical-identity and lifecycle decision**, not a mechanical deduplication or deletion. If one edition is historic, preserve both its original source and review record; only one current canonical/VNext pair should be active per chosen logical subject. If the scopes truly differ, give them distinct stable logical IDs.
 
+## GitHub Actions verification of the publication (PR #25)
+
+The existing `Documentation integrity` workflow ran on [publication PR #25](https://github.com/dakleyer/structural-awareness-contributions/pull/25), [run 40174825789](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40174825789), and **failed on four existing relative-link references**, all in two unchanged scientific VNext files:
+
+- `research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md`: two occurrences of a relative link to `./PUBLICATION_MANIFEST.json`.
+- `research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md`: relative links to the `00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md` and `00L_A14_CORRECCIONES_AUDITORIA_v0.1.md` artifacts under `./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/`.
+
+Both source files are present unchanged in the pinned baseline `21e200c`; neither was edited in this documentary-control publication. The four active Markdown files altered or introduced by the policy publication add **no broken local links** in the separate publication-specific check. This is a **documented inherited CI failure, not a passing repository-wide check**. The references require a separately scoped, evidence-preserving repair or properly explained exception; publication of this policy does not silently resolve them. These findings are additional to, and not counted among, the 1,565 method-scoped VNext-link occurrences assessed above.
+
 ## Priority and next-wave acceptance criteria
 
 **P0 — Integrity and enforceability**
