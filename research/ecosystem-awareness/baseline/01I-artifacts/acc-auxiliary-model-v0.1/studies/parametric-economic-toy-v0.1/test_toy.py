@@ -168,6 +168,17 @@ class NetworkTests(unittest.TestCase):
         self.assertIsNone(r["rows"][-1]["G_path_technical"])
         self.assertIsNone(r["rows"][-1]["human"]["HID_potential"])
 
+    def test_earlier_human_overflow_invalidates_whole_path_comparison(self):
+        self.s["capacity_hours_per_dimension"] = 4
+        self.s["arms"]["N"]["p_incompatible"] = 0.8
+        self.s["arms"]["N"]["retirement_rate"] = 0.8
+        self.s["arms"]["N"]["interoperability"] = "inverse_time"
+        r = network(self.s)
+        self.assertTrue(r["rows"][0]["human"]["human_capacity_overflow"])
+        self.assertFalse(r["rows"][-1]["human"]["human_capacity_overflow"])
+        self.assertTrue(r["rows"][-1]["human"]["historical_capacity_overflow"])
+        self.assertIsNone(r["rows"][-1]["G_path_technical"])
+
     def test_positive_synergy_can_break_same_service_comparison(self):
         self.s["synergy_per_compatible_link"] = 1
         r = network(self.s)
