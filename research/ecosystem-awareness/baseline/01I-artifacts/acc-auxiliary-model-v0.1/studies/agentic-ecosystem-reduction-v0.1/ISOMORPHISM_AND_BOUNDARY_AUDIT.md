@@ -79,3 +79,13 @@ Este paquete corresponde a una **investigación Stage A sintética**, posterior 
 - Para extrapolar a personas, nunca traducir automáticamente brecha operativa en sufrimiento vivido, derechos o dignidad.
 
 **Resultado del PR:** plausibilidad lógica, 30 fixtures y 160 variaciones con falsadores; no predicción de que los sistemas agénticos sean universalmente mejores ni solución al óptimo social global.
+
+## 6. Trabajos primarios relacionados: respaldo limitado y diferencial aún abierto
+
+| Trabajo primario | Qué acredita para esta investigación | Qué **no** acredita |
+|---|---|---|
+| [A2A Protocol — especificación oficial de Agent Cards](https://github.com/a2aproject/A2A/blob/main/docs/specification.md), §8, §§3.1.11/3.3.4 y §13 | Un protocolo de interoperabilidad de agentes puede publicar habilidades, endpoints, capacidades, versiones y credenciales sin publicar el funcionamiento interno; incluso distingue fichas públicas de fichas extendidas sujetas a autorización. Hace **verosímil técnicamente** AG-R1. | No prueba que un contrato A sea siempre insuficiente, que un output sea subóptimo, que una Q concreta sea verdadera ni que toda arquitectura agéntica sea opaca. |
+| [Reid G. Smith (1980), *The Contract Net Protocol*](https://cse-robotics.engr.tamu.edu/dshell/cs631/papers/smith80contract.pdf), pp. 1104–1106 | La negociación de tareas, la selección mutua, la reasignación y el cambio dinámico de roles mediante protocolos distribuidos tienen antecedentes formales **no exclusivos de agentes LLM**. Es un antecedente/comparador necesario para AG-R3. | No valida nuestro metaprotocolo específico, nuestra semántica B/C/D ni el coste de implantación. |
+| [Bernstein, Givan, Immerman y Zilberstein, *The Complexity of Decentralized Control of Markov Decision Processes*](https://people.cs.umass.edu/~immerman/pub/bgiz.pdf), resumen y §1 | Bajo el formalismo **Dec-POMDP** del artículo, ciertos problemas de control descentralizado con información parcial son complejos en el peor caso; justifica tratar la observabilidad y la coordinación como problemas técnicos serios. | No prueba que nuestro fixture sea un Dec-POMDP, ni que un metaprotocolo A+Q sea óptimo, ni que agentes actuales cuesten menos de reorganizar que microservicios o una organización humana. |
+
+**Conclusión del estado del arte:** hay precedentes sólidos de **interfaces con visibilidad parcial, coordinación distribuida y límites computacionales**. La afirmación investigable de este PR es una combinación contextual y falsable con presupuesto, Q acotada, autoridad y costes; **no** la invención original de la coordinación, de la solidaridad programable o de la frustración humana. La hipótesis de menor coste y mayor plasticidad agéntica requiere una campaña comparativa nueva.

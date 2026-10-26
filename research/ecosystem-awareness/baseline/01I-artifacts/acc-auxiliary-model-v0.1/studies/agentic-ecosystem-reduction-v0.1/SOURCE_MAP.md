@@ -18,3 +18,11 @@ El material procede de **textos de autor, notas de investigación y teoría can�
 **Respeto a terminología y limitaciones:** B es fundamento/reserva de evaluación **caracterizada**, no todo lo no ejecutado. C es indicio de exploración fundamentado sin una pauta suficiente de valoración. D es influencia potencialmente material sin ruta efectiva de evaluación **para este agente/pregunta**. La negativa a calcular un ROI o una distribución de D **no** demuestra que D sea globalmente indecidible. Si la transformación de rol ya está descrita en el contrato del agente y es válida, pertenece a A de esa función, no a un «poder emergente» creado por C. Si hay varias perspectivas, el atributo B/C/D puede diferir según fuente y receptor, sin inventario exhaustivo del exterior.
 
 **Control de ejemplos:** el usuario solicita conservar los ejemplos originales. Este estudio no reemplaza ni altera [EXAMPLE_LEDGER (ACC)](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md). La reasignación de recursos tiene relación con plátanos, naranjas, crédito, capacidades y proveedores X−200, pero el ensayo AG01–AG30 es **un nuevo caso de producción sintética**, no una reconstrucción documental literal de esas anécdotas.
+
+## Literatura primaria de contraste (no evidencia del coste o la ventaja de este modelo)
+
+- **A2A, especificación de Agent Cards y capacidades.** https://github.com/a2aproject/A2A/blob/main/docs/specification.md — precedente oficial de interfaces agénticas públicamente acotadas; no demuestra optimalidad ni falta inevitable de información.
+- **Smith, *Contract Net Protocol* (1980).** https://cse-robotics.engr.tamu.edu/dshell/cs631/papers/smith80contract.pdf — antecedente de coordinación y negociación distribuida; limita cualquier pretensión de novedad o exclusividad agéntica.
+- **Bernstein et al., *The Complexity of Decentralized Control of Markov Decision Processes*.** https://people.cs.umass.edu/~immerman/pub/bgiz.pdf — límites de una clase formal de control distribuido; **no** traduce esos límites al coste de nuestro toy.
+
+Véase la [auditoría comparativa](ISOMORPHISM_AND_BOUNDARY_AUDIT.md) para la correspondencia y los no-alcances de cada fuente.
