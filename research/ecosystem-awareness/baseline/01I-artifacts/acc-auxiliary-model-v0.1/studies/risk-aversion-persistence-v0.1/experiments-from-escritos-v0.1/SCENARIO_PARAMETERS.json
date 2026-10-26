@@ -1,0 +1,557 @@
+{
+  "schema": "ACC-RAV-WRITING-EXPERIMENTS-v0.1",
+  "status": "SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL",
+  "source": "Concepts paraphrased from private author essay v0.6 (2026-10-26); anecdotes not copied, no private Google Docs URL.",
+  "comparison_rules": [
+    "Within each case: same declared horizon, service definition, actor/population and abstract unit.",
+    "Commercial transactions and fiscal transfers do not by themselves count as social value.",
+    "Rights/comparable service are hard constraints; numerical surplus cannot legitimize prohibited actions.",
+    "Private actor score and social net surplus are separate functions; never add across actors.",
+    "Human experienced suffering F and ACC structural suffering are NOT estimated."
+  ],
+  "static_cases": [
+    {
+      "id": "EX01_TELEWORK",
+      "label": "Eliminar el desplazamiento obligatorio en un trabajo digital elegible",
+      "horizon": "un periodo comparable",
+      "service_floor": 95,
+      "baseline": "ONSITE",
+      "options": [
+        {
+          "name": "ONSITE",
+          "service_value": 100,
+          "real_resource_cost": 20,
+          "maintenance_cost": 5,
+          "external_cost": 4,
+          "gross_transactions": 60,
+          "private_actor_score": 65,
+          "rights_authorized": true
+        },
+        {
+          "name": "REMOTE",
+          "service_value": 100,
+          "real_resource_cost": 9,
+          "maintenance_cost": 3,
+          "external_cost": 2,
+          "gross_transactions": 45,
+          "private_actor_score": 78,
+          "rights_authorized": true
+        },
+        {
+          "name": "HYBRID",
+          "service_value": 100,
+          "real_resource_cost": 13,
+          "maintenance_cost": 4,
+          "external_cost": 3,
+          "gross_transactions": 50,
+          "private_actor_score": 75,
+          "rights_authorized": true
+        }
+      ],
+      "cost_buckets_nonoverlapping_stipulated": true,
+      "same_service_metric_and_horizon_stipulated": true
+    },
+    {
+      "id": "EX01B_PHYSICAL_WORK_CONTROL",
+      "label": "Control adverso: tarea que requiere presencia física",
+      "horizon": "un periodo comparable",
+      "service_floor": 95,
+      "baseline": "ONSITE",
+      "options": [
+        {
+          "name": "ONSITE",
+          "service_value": 100,
+          "real_resource_cost": 20,
+          "maintenance_cost": 5,
+          "external_cost": 4,
+          "gross_transactions": 60,
+          "private_actor_score": 65,
+          "rights_authorized": true
+        },
+        {
+          "name": "REMOTE_UNDER_SERVICE",
+          "service_value": 70,
+          "real_resource_cost": 9,
+          "maintenance_cost": 3,
+          "external_cost": 2,
+          "gross_transactions": 45,
+          "private_actor_score": 80,
+          "rights_authorized": true
+        }
+      ],
+      "cost_buckets_nonoverlapping_stipulated": true,
+      "same_service_metric_and_horizon_stipulated": true
+    },
+    {
+      "id": "EX02_GARDEN_RECURSION",
+      "label": "Sucesión tierra→baldosas→madera→sustrato comprado",
+      "horizon": "vida útil equiparada",
+      "service_floor": 98,
+      "baseline": "SOIL",
+      "options": [
+        {
+          "name": "SOIL",
+          "service_value": 100,
+          "real_resource_cost": 5,
+          "maintenance_cost": 6,
+          "external_cost": 0,
+          "gross_transactions": 10,
+          "private_actor_score": 65,
+          "rights_authorized": true
+        },
+        {
+          "name": "TILES",
+          "service_value": 103,
+          "real_resource_cost": 18,
+          "maintenance_cost": 10,
+          "external_cost": 0,
+          "gross_transactions": 25,
+          "private_actor_score": 70,
+          "rights_authorized": true
+        },
+        {
+          "name": "WOOD_ON_TILES",
+          "service_value": 107,
+          "real_resource_cost": 30,
+          "maintenance_cost": 12,
+          "external_cost": 0,
+          "gross_transactions": 48,
+          "private_actor_score": 75,
+          "rights_authorized": true
+        },
+        {
+          "name": "PURCHASED_SOIL_ON_WOOD",
+          "service_value": 110,
+          "real_resource_cost": 48,
+          "maintenance_cost": 16,
+          "external_cost": 0,
+          "gross_transactions": 80,
+          "private_actor_score": 80,
+          "rights_authorized": true
+        },
+        {
+          "name": "GENUINELY_BENEFICIAL_RENOVATION",
+          "service_value": 145,
+          "real_resource_cost": 30,
+          "maintenance_cost": 8,
+          "external_cost": 0,
+          "gross_transactions": 40,
+          "private_actor_score": 100,
+          "rights_authorized": true
+        }
+      ],
+      "cost_buckets_nonoverlapping_stipulated": true,
+      "same_service_metric_and_horizon_stipulated": true
+    },
+    {
+      "id": "EX03_SOCIAL_PLATFORM",
+      "label": "Intermediación de una relación preexistente y valor nuevo de alcance",
+      "horizon": "un periodo comparable",
+      "service_floor": 98,
+      "baseline": "DIRECT_RELATIONS",
+      "options": [
+        {
+          "name": "DIRECT_RELATIONS",
+          "service_value": 100,
+          "real_resource_cost": 3,
+          "maintenance_cost": 2,
+          "external_cost": 0,
+          "gross_transactions": 5,
+          "private_actor_score": 95,
+          "rights_authorized": true
+        },
+        {
+          "name": "LOW_ADDED_REACH",
+          "service_value": 118,
+          "real_resource_cost": 15,
+          "maintenance_cost": 8,
+          "external_cost": 18,
+          "gross_transactions": 90,
+          "private_actor_score": 100,
+          "rights_authorized": true
+        },
+        {
+          "name": "HIGH_ADDED_REACH",
+          "service_value": 165,
+          "real_resource_cost": 20,
+          "maintenance_cost": 10,
+          "external_cost": 10,
+          "gross_transactions": 110,
+          "private_actor_score": 120,
+          "rights_authorized": true
+        }
+      ],
+      "cost_buckets_nonoverlapping_stipulated": true,
+      "same_service_metric_and_horizon_stipulated": true
+    },
+    {
+      "id": "EX04_CITY_CLIMATE",
+      "label": "Evitar desplazamientos no necesarios frente a mejorar el vehículo",
+      "horizon": "misma demanda de servicio y horizonte",
+      "service_floor": 95,
+      "baseline": "CONVENTIONAL_COMMUTE",
+      "options": [
+        {
+          "name": "CONVENTIONAL_COMMUTE",
+          "service_value": 100,
+          "real_resource_cost": 30,
+          "maintenance_cost": 4,
+          "external_cost": 32,
+          "gross_transactions": 80,
+          "private_actor_score": 75,
+          "rights_authorized": true
+        },
+        {
+          "name": "VEHICLE_EFFICIENCY_UPGRADE",
+          "service_value": 100,
+          "real_resource_cost": 36,
+          "maintenance_cost": 5,
+          "external_cost": 11,
+          "gross_transactions": 100,
+          "private_actor_score": 95,
+          "rights_authorized": true
+        },
+        {
+          "name": "AVOID_UNNECESSARY_TRIP",
+          "service_value": 100,
+          "real_resource_cost": 14,
+          "maintenance_cost": 3,
+          "external_cost": 5,
+          "gross_transactions": 55,
+          "private_actor_score": 85,
+          "rights_authorized": true
+        },
+        {
+          "name": "AVOID_REQUIRED_PHYSICAL_TRIP_INVALID",
+          "service_value": 75,
+          "real_resource_cost": 10,
+          "maintenance_cost": 3,
+          "external_cost": 4,
+          "gross_transactions": 45,
+          "private_actor_score": 99,
+          "rights_authorized": true
+        }
+      ],
+      "cost_buckets_nonoverlapping_stipulated": true,
+      "same_service_metric_and_horizon_stipulated": true
+    },
+    {
+      "id": "EX05_RARE_INTERSECTION",
+      "label": "Rotonda donde apenas hay cruces",
+      "horizon": "misma demanda vial y horizonte amortizado",
+      "service_floor": 98,
+      "baseline": "KEEP_SAFE_JUNCTION",
+      "options": [
+        {
+          "name": "KEEP_SAFE_JUNCTION",
+          "service_value": 100,
+          "real_resource_cost": 4,
+          "maintenance_cost": 1,
+          "external_cost": 3,
+          "gross_transactions": 8,
+          "private_actor_score": 90,
+          "rights_authorized": true
+        },
+        {
+          "name": "BUILD_ROUNDABOUT",
+          "service_value": 103,
+          "real_resource_cost": 25,
+          "maintenance_cost": 9,
+          "external_cost": 2,
+          "gross_transactions": 30,
+          "private_actor_score": 100,
+          "rights_authorized": true
+        }
+      ],
+      "cost_buckets_nonoverlapping_stipulated": true,
+      "same_service_metric_and_horizon_stipulated": true
+    },
+    {
+      "id": "EX05B_BUSY_INTERSECTION_CONTROL",
+      "label": "Control favorable: rotonda donde sí mejora seguridad y flujo",
+      "horizon": "misma demanda vial ocupada y horizonte amortizado",
+      "service_floor": 98,
+      "baseline": "KEEP_BUSY_JUNCTION",
+      "options": [
+        {
+          "name": "KEEP_BUSY_JUNCTION",
+          "service_value": 100,
+          "real_resource_cost": 4,
+          "maintenance_cost": 1,
+          "external_cost": 25,
+          "gross_transactions": 8,
+          "private_actor_score": 72,
+          "rights_authorized": true
+        },
+        {
+          "name": "BUILD_USEFUL_ROUNDABOUT",
+          "service_value": 130,
+          "real_resource_cost": 25,
+          "maintenance_cost": 9,
+          "external_cost": 4,
+          "gross_transactions": 30,
+          "private_actor_score": 104,
+          "rights_authorized": true
+        }
+      ],
+      "cost_buckets_nonoverlapping_stipulated": true,
+      "same_service_metric_and_horizon_stipulated": true
+    }
+  ],
+  "park_cases": [
+    {
+      "id": "EX06_UNDERUSED_CHILD_PARK",
+      "label": "Parque financiado hoy que puede no beneficiar a quien hereda su carga",
+      "years_to_eligible": 5,
+      "prob_use": 0.08,
+      "prob_functional_at_eligibility": 0.35,
+      "value_if_used_and_functional": 320,
+      "capital_resource_cost": 200,
+      "maintenance_real_cost": 20,
+      "present_tax_revenue_pv": 20,
+      "future_tax_liability_pv": 200,
+      "parent_current_private_tax": 2,
+      "parent_identity_value": 30,
+      "independent_use_and_functionality_stipulated": true,
+      "all_intertemporal_values_same_pv_date_stipulated": true
+    },
+    {
+      "id": "EX06B_USED_CHILD_PARK_CONTROL",
+      "label": "Control favorable: parque conservado y efectivamente utilizado",
+      "years_to_eligible": 5,
+      "prob_use": 0.95,
+      "prob_functional_at_eligibility": 0.95,
+      "value_if_used_and_functional": 320,
+      "capital_resource_cost": 200,
+      "maintenance_real_cost": 20,
+      "present_tax_revenue_pv": 20,
+      "future_tax_liability_pv": 200,
+      "parent_current_private_tax": 2,
+      "parent_identity_value": 30,
+      "independent_use_and_functionality_stipulated": true,
+      "all_intertemporal_values_same_pv_date_stipulated": true
+    }
+  ],
+  "risk_cases": [
+    {
+      "id": "EX07_MIGRATION_EARLY",
+      "label": "Continuidad y salida de mayor media con riesgo, periodo inicial",
+      "stay": {
+        "mean": 10,
+        "variance": 4
+      },
+      "redesign": {
+        "mean": 16,
+        "variance": 36
+      },
+      "gamma": 0.5,
+      "transition_cost": 0,
+      "choice_sensitivity": 1,
+      "normal_lotteries_characterized_stipulated": true,
+      "same_actor_horizon_numerario_stipulated": true
+    },
+    {
+      "id": "EX07_MIGRATION_LATE",
+      "label": "Más utilidad material, más frustración sintética y mayor prima de salida",
+      "stay": {
+        "mean": 14,
+        "variance": 4
+      },
+      "redesign": {
+        "mean": 25,
+        "variance": 64
+      },
+      "gamma": 0.5,
+      "transition_cost": 0,
+      "choice_sensitivity": 1,
+      "stipulated_current_welfare": 17,
+      "stipulated_discomfort": 13,
+      "forecast_future_stay": 14,
+      "normal_lotteries_characterized_stipulated": true,
+      "same_actor_horizon_numerario_stipulated": true
+    },
+    {
+      "id": "EX07B_INSURED_EXIT_CONTROL",
+      "label": "Salida protegida con retorno medio conservado",
+      "stay": {
+        "mean": 14,
+        "variance": 4
+      },
+      "redesign": {
+        "mean": 25,
+        "variance": 4
+      },
+      "gamma": 0.5,
+      "transition_cost": 0,
+      "choice_sensitivity": 1,
+      "normal_lotteries_characterized_stipulated": true,
+      "same_actor_horizon_numerario_stipulated": true
+    },
+    {
+      "id": "EX07C_CARE_AS_UTILITY",
+      "label": "Defensa afectiva con mismo pago material y mayor utilidad total",
+      "stay": {
+        "mean": 14,
+        "variance": 4
+      },
+      "redesign": {
+        "mean": 25,
+        "variance": 64
+      },
+      "gamma": 0.5,
+      "transition_cost": 0,
+      "choice_sensitivity": 1,
+      "defend": {
+        "mean": 15,
+        "variance": 4,
+        "effort_cost": 0.5,
+        "material_mean_if_bonus_removed": 14
+      },
+      "normal_lotteries_characterized_stipulated": true,
+      "same_actor_horizon_numerario_stipulated": true
+    },
+    {
+      "id": "EX07D_NEUTRAL_RISK_CONTROL",
+      "label": "Neutralidad al riesgo: la mayor media de salida vence",
+      "stay": {
+        "mean": 14,
+        "variance": 4
+      },
+      "redesign": {
+        "mean": 25,
+        "variance": 64
+      },
+      "gamma": 0,
+      "transition_cost": 0,
+      "choice_sensitivity": 1,
+      "normal_lotteries_characterized_stipulated": true,
+      "same_actor_horizon_numerario_stipulated": true
+    },
+    {
+      "id": "EX07E_WEAK_SOCIAL_VALIDATION",
+      "label": "Control: escasa recompensa personal por validación social",
+      "stay": {
+        "mean": 14,
+        "variance": 4
+      },
+      "redesign": {
+        "mean": 25,
+        "variance": 64
+      },
+      "gamma": 0.5,
+      "transition_cost": 0,
+      "choice_sensitivity": 1,
+      "defend": {
+        "mean": 14.3,
+        "variance": 4,
+        "effort_cost": 0.5,
+        "material_mean_if_bonus_removed": 14
+      },
+      "normal_lotteries_characterized_stipulated": true,
+      "same_actor_horizon_numerario_stipulated": true
+    },
+    {
+      "id": "EX07F_STRONG_SOCIAL_VALIDATION",
+      "label": "Misma seguridad material, validación interior valorada lo suficiente para defender",
+      "stay": {
+        "mean": 14,
+        "variance": 4
+      },
+      "redesign": {
+        "mean": 25,
+        "variance": 64
+      },
+      "gamma": 0.5,
+      "transition_cost": 0,
+      "choice_sensitivity": 1,
+      "defend": {
+        "mean": 15,
+        "variance": 4,
+        "effort_cost": 0.5,
+        "material_mean_if_bonus_removed": 14
+      },
+      "normal_lotteries_characterized_stipulated": true,
+      "same_actor_horizon_numerario_stipulated": true
+    }
+  ],
+  "route_cases": [
+    {
+      "id": "EX08_SIERRA_SHORT",
+      "label": "Ruta de tres etapas bajo independencia sintética",
+      "step_success_probability": 0.95,
+      "steps": 3,
+      "breach_reduction_on_success": 20,
+      "breach_increase_on_failure": 40,
+      "independent_identical_steps_stipulated": true
+    },
+    {
+      "id": "EX08_SIERRA_LONG",
+      "label": "Ruta de veinticinco etapas, mismo riesgo por etapa",
+      "step_success_probability": 0.95,
+      "steps": 25,
+      "breach_reduction_on_success": 20,
+      "breach_increase_on_failure": 40,
+      "independent_identical_steps_stipulated": true
+    },
+    {
+      "id": "EX08B_MODULAR_RECOVERY_CONTROL",
+      "label": "Control: elevar fiabilidad de pasos sin alterar objetivos",
+      "step_success_probability": 0.99,
+      "steps": 25,
+      "breach_reduction_on_success": 20,
+      "breach_increase_on_failure": 40,
+      "independent_identical_steps_stipulated": true
+    }
+  ],
+  "distribution_cases": [
+    {
+      "id": "EX09_INTERGENERATIONAL_RATIOS",
+      "label": "Representación retórica, NO estadística generacional",
+      "reference_wage_index": 1,
+      "late_wage_index": 0.5,
+      "reference_housing_price_index": 100,
+      "late_housing_price_index": 400,
+      "reference_pension_transfer_share": 0,
+      "late_pension_transfer_share": 0.33,
+      "comparable_housing_and_wage_units_stipulated": true
+    }
+  ],
+  "sensitivity": {
+    "risk_reference_id": "EX07_MIGRATION_LATE",
+    "gamma_grid": [
+      0,
+      0.1,
+      0.25,
+      0.5,
+      1
+    ],
+    "redesign_variance_grid": [
+      4,
+      24,
+      48,
+      64,
+      100
+    ],
+    "park_reference_id": "EX06_UNDERUSED_CHILD_PARK",
+    "park_prob_use_grid": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "park_prob_functional_grid": [
+      0.35,
+      0.95
+    ],
+    "route_reference_id": "EX08_SIERRA_LONG",
+    "step_count_grid": [
+      3,
+      10,
+      25,
+      40
+    ],
+    "step_success_grid": [
+      0.95,
+      0.99
+    ]
+  }
+}
