@@ -1,7 +1,7 @@
 # DDS-MR-01 — External Methodology Review Record (copy per reviewer)
 
 **Status:** BLANK TEMPLATE — not a completed or independent audit. Complete privately first; use the agreed PRIVATE_INTAKE or consented PUBLIC_PR route in §6 of the work order. Never publish detailed interests or identity without informed consent.  
-**Owning instructions:** [DDS-MR-01 v0.3](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/review-packets/DDS-MR-01/README.md). Do not overwrite this template or frozen source documents.
+**Owning instructions:** [DDS-MR-01 v0.3.1](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/review-packets/DDS-MR-01/README.md). Do not overwrite this template or frozen source documents.
 
 ## A. Reviewer, freeze and authority
 

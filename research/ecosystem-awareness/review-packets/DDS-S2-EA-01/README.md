@@ -1,4 +1,4 @@
-# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2)
+# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.1)
 
 **Status:** WORK ORDER PREPARED FOR INDEPENDENT ASSIGNMENT-READINESS CHECK — reviewer **UNASSIGNED**, no independent findings yet; submission/publication requires agreement.  
 **Home:** Ecosystem Awareness → DDS → review-packets/DDS-S2-EA-01. This is the **third bounded review task**, distinct from [DDS-MR-01 (method audit)](../DDS-MR-01/README.md), the Thales capability pre-review and any actual product execution.  
@@ -24,7 +24,9 @@ Complete **one documentary adequacy audit**, approximately **4–6 hours** (plan
 4. Evaluate the two mandatory adverse probes **N1/N2**, including the **strong conventional-peer tie already recorded in 00L**. Give **at least one** precise counterexample or explicitly explain why none was found in this narrow review.
 5. Submit **one findings document** using the agreed restricted or consented public route in §6. Do not edit frozen cases, S#/T#/H# requirements, 00F variants, executable fixtures or DDS methodology in this task.
 
-**Deliverable:** one source-cited reviewer record (normally 2–4 pages), not a vendor benchmark, new city simulator, legal opinion, code project, revised requirement set, proof of product compliance, or completed blind R3 run. Honest negative/unknown findings are useful.
+**Effort agreement:** the provisional 4–6 hours includes required reading, source checking and response tables. Confirm language support and methodological fit before accepting the estimate; agree a narrower scope or revised effort if needed. Page guidance applies to the findings narrative, not a cap that omits required tables.
+
+**Deliverable:** one source-cited reviewer record (normally 2–4 pages of findings plus completed tables), not a vendor benchmark, new city simulator, legal opinion, code project, revised requirement set, proof of product compliance, or completed blind R3 run. Honest negative/unknown findings are useful.
 
 ## 1. Self-contained source pack — fixed reference cut
 
@@ -80,7 +82,7 @@ For each gate, start from **00F §6** and canonical requirements §§2–6, **qu
 | **Q4 — targeted requalification** | `S3/S10/S12/S14 → T1/T2/T4 → H4/H5/H6` | Minimal evidence to reopen affected dependency/model, stop rules, search load, human and time cost; feasible within window. |
 | **Q5 — arbitrate/resume** | `S9/S11/S12/S14 → T1/T2/T4 (plus T3 for non-null action) → H2/H4/H5/H6` | Authority vs evidence, shared outcome, veto/expiry, legitimate segmented/normal return, residual trace and **observed** effect. |
 
-**Use one status per row:** `SPECIFIED` (obligation is clear in frozen requirements), `CONDITIONAL_OR_UNDER_SPECIFIED` (needs an assumption/contract the text does not mandate), `GAP_OR_CONFLICT` (important missing/conflicting obligation), or `UNASSESSABLE_FROM_SOURCES`. Give the exact source clause, a one-sentence reason and one concrete counterexample. **SPECIFIED is not IMPLEMENTED or PASSED.**
+**Use one status per row:** `SPECIFIED` (obligation is clear in frozen requirements), `CONDITIONAL_OR_UNDER_SPECIFIED` (needs an assumption/contract the text does not mandate), `GAP_OR_CONFLICT` (important missing/conflicting obligation), or `UNASSESSABLE_FROM_SOURCES`. Give the exact source clause and a one-sentence reason in every row. Where you identify a gap, provide the relevant concrete counterexample; where none is found, explain the bounded adequacy judgment. The package asks for at least one original counterexample overall if found, or explicit reasoned absence—not six new counterexamples. **SPECIFIED is not IMPLEMENTED or PASSED.**
 
 ## 4. Apply the requirements to R1, R2 and R3 — no invented execution
 
@@ -107,7 +109,7 @@ There is no requirement to make a specific peer lose. A strong peer that detects
 1. **Acceptance:** Iván invites the person; the reviewer accepts scope, effort and a submission route, privately disclosing authorship/fixture interests, vendor interests and any prior exposure to variants or scoring keys. No independence or public credit is pre-awarded.
 2. **One record:** Complete [REVIEW_RECORD_TEMPLATE.md](./REVIEW_RECORD_TEMPLATE.md) with all Q0–Q5, R1–R3, N1/N2, A14, A23 and conclusion fields. Preserve packet SHA, the frozen Contributions cut and original UC21 source cut.
 3. **Choose intake before starting:**
-   - **PRIVATE_INTAKE (default before explicit publication consent):** send one source-cited record and detailed disclosures through an owner-controlled restricted channel provided at invitation. Iván preserves the private evidence, author and revision history. No automatic publication follows.
+   - **PRIVATE_INTAKE (default before explicit publication consent):** send one source-cited record and detailed disclosures by individual email to `ivan.abril@tegrity.ai` without copying the group, or through an owner-controlled restricted Drive handoff agreed before starting. Do not include employer-confidential material or unreleased variants without separately agreed authority and handling. Iván preserves the private evidence, author and revision history. No automatic publication follows.
    - **PUBLIC_PR (opt-in):** submit an approved, privacy-checked `REVIEWS/YYYY-MM-DD-REVIEW-ID-v0.1.md` in a pull request to `main`. GitHub username/account, filename, findings and PR metadata become **public on opening**, not only on merge. Do not include unapproved personal, employer-sensitive or private oracle/variant data. A review ID alone cannot anonymize an identified GitHub author.
 4. **Public record if agreed:** A private review may later be represented by an expressly authorized, source-linked, redacted GitHub record or synthesis. Do not hide negative findings, imply that an internal review was publicly replicated, or overwrite another reviewer's evidence.
 5. **Owner disposition:** Iván decides `ACCEPT / REVISE / DEFER / REJECT` per finding. Accepted method or requirement changes need separate controlled PRs; preserve the frozen inputs and inbound links.
