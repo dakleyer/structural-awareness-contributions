@@ -2968,3 +2968,121 @@ The [second DC-GH-01 assessment](../../governance/DOCUMENT_CONTROL_CONFORMANCE_A
 **Current state: partial conformance.** The three technical README levels and single registry path are explicit. The logical registry, EA protected-successor decision, R01 edition identities and actual merge safeguards remain open. Six foreign-review links from four controlled routers need a later scoped source-route correction; their source/target declarations and receiver requirements are in the assessment. No protected router, scientific source, frozen part, experiment or result is changed here. The five scientific passes and corpus consolidation retain their own actual status.
 
 The [existing inventory](../../governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json) retains its first baseline and adds reproducible GFM counts, occurrence evidence, current role uncertainties and exact historic/split-source exceptions. [PR 26](https://github.com/dakleyer/structural-awareness-contributions/pull/26) records the bounded application and verification. Next comes identity/authority adjudication, supported safeguards and six exact router corrections; no mass cleanup is authorized by that order.
+
+
+## Additional nomenclature, semantic and taxonomy audit — 26 October 2026
+
+**Audit by Codex AI assistant, for human review.** Iván requested an additional complete taxonomy review of this case, taking Olena's terminology question seriously. Baseline: `1b5a07f916d3f65cf467628e2bec5b13b769a029`. This assessment covers the UC-21 → objectives → Challenges → agreed protocol/DDS → campaigns → results route and its material EA, human-oversight, authority, RA/MSCA and document-control interfaces. It is a new focused audit, not an independent human review or a new count of the historical six corpus passes.
+
+**Finding.** The main structure is coherent. UC-21 remains a case; DDS remains a method; Challenges, stages, study organization, evidence, appraisal, decision and effect have different roles. The main weakness is compressed language at the evidence-to-decision boundary. Nine bounded textual candidates below make that boundary easier to use. None changes a frozen case, schema, enum, oracle, result or runtime behavior. Canonical source text is unchanged by this audit publication.
+
+### What Olena's contribution changes in this review
+
+The review begins from the operational distinctions, not from constructing another general AI glossary. The private terminology email was read in full under local custody. Its unpublished glossary was not supplied; no entries are invented, attributed to it or republished. The findings below are grounded in Olena's available **public** statements and matrix, and in the current corpus.
+
+Her [matrix v0.2](https://github.com/FG-TIDA/themes/issues/16#issuecomment-5715075656) separates trigger qualification, intervention routing, applicable authority, capacity, permitted options, evidence, judgment, selected decision, execution, revalidation and return. Its complete Markdown source has six rows and twelve columns. Her [semantic calibration](https://github.com/FG-TIDA/themes/issues/16#issuecomment-5872506565) additionally distinguishes a general repertoire from a branch-permitted set, serialization order from semantic ranking, recorded approval from authorizing effect, and source ownership from adapter encoding.
+
+Her [human-factors clarification](https://github.com/FG-TIDA/themes/issues/16#issuecomment-6302053285) separates presentation, notice and understanding, and a requested fallback from its actual effect. Her [UC-20 assessment interface](https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6301163175) separates test finding, sufficiency judgment, authorized decision and monitoring. Her [T28/I.6 clarification](https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6375358937) distinguishes a represented condition changing from a previously unrepresented condition becoming material while the old evidence remains authentic. Monitoring cannot guarantee discovery outside its represented boundary. These are the decisive audit criteria.
+
+### Taxonomy: use several named axes rather than one master label
+
+| Axis / terms | Meaning and owner | Reading rule and current assessment |
+|---|---|---|
+| UC-21 / UC-20 / UC-6 / UC-4 | Separate public case/testbed sources | A case number is not a DDS stage. UC-21 is not Theme #21; use repository and object names. Current route preserves this. |
+| Objective / Challenge | The receiving question and technology-independent problem/failure family | A Challenge may serve several cases, and one case may address several Challenges. Keep source requirements traceable instead of copying case context into another universal template. |
+| Reference scenario / reduction | Bounded instantiation fixing relevant facts and relations | DDS already uses this before technology mapping. Preserve 00E–00J and frozen S labels. TAX26-06 clarifies this use. |
+| Technology-instantiated scenario / implementation profile | Challenge/reference bound to a technology, configuration and context | This is the concrete application Iván requested. The profile records the binding; it is not a replacement Challenge. |
+| Exercise / study / campaign / run | Study is the bounded inquiry; a research campaign registers related work; a run is one execution | Exercise remains a source-local informal description. Distinguish research campaign, S4 business campaign and R01 operational campaign. No mass renaming. |
+| Stage A / B / C | Specification discovery / architecture verification / implementation–problem validation | Object and authoritative reference determine stage. Executable code or native access does not determine it. |
+| Local gate / Stage-0 / C02 / C11 / T03 | Trajectory boundary, source testbed maturity, infrastructure or lifecycle routes | Qualify the owning source; they are not additional DDS stages. |
+| UC-21 R0/R1/R2 / DDS sequential R1/R2/R3 / R01 routes | Different comparison contracts | Retain original labels and admission conditions. A translation needs source, protocol/version and claim; never map on the numeral alone. |
+| Evidence basis / execution setting / study organization / independence | Different attributes of a finding | Documentary, symbolic, native, matched and independent do not form a single scale. TAX26-07 separates these axes in the method index. |
+| Instrument qualification / preserved supplied finding / native execution / observed effect | Four UC-21 evidence objects | The current index already separates these. Preserve that stronger treatment; do not replace it with one composite validation badge. |
+| Available / presented / noticed / understood | Different evidence-access or human-factors observations | One does not establish the next. TAX26-02/04 make this explicit in the reader dictionary and IF-S6. No numeric comprehension score is invented. |
+| Evidence sufficiency / authorized decision | Judgment under claim/criteria/current context versus legitimate decision | Evidence sufficient for escalation need not justify continuation or return. Preserve dissent and later adjudication. TAX26-02/05/09 clarify the boundary. |
+| General intervention repertoire / permitted set / selected intervention | Capability list, current applicable options, actual choice | Array order is not policy priority without an owning rule. Public HO-EDM calibration already explains this; no new options enum is proposed. |
+| Request / decision / acknowledgement / attempt / execution / observed effect | Successive, separately evidenced events | A pause request is not a stop. TAX26-01/04 clarify the reader-facing inference. |
+| Authority origin / present applicability / practical capacity | Source of legitimate permission, applicability to this action, ability to intervene | HO-EDM consumes authority; it does not create it. Olha's authority/capacity work retains attribution. TAX26-08 clarifies the HC route record. |
+| Historical authenticity / present applicability | Integrity of a past finding versus whether it supports this decision now | Reassessment preserves history and revisits affected reliance, not every old observation. TAX26-03/09 add the missing plain-language distinction. |
+| Validity window / response window | Applicability duration versus time remaining to affect an outcome | The maintained 04 two-clock paragraph already makes this explicit. Keep it; no further pair is needed. |
+| Known monitored change / newly material dependency | Change inside the represented monitoring model versus an enlarged relevance boundary | Both can reopen targeted assessment. No monitor is credited with exhaustive discovery. TAX26-03/09 cover the two sides. |
+| UNKNOWN / INDETERMINATE / absent evaluation / not exercised / not applicable | Producer-owned states, not synonyms | Retain reason, profile, assessed question and actual evidence. A missing result does not become FAIL; not applicable requires a reason. |
+| A/B/C/D / Type 0/1/2 / P1/P2/P3 / DDS I/M/P/Ø | Epistemic relation / condition-failure diagnosis / operating posture / route classification | These are orthogonal taxonomies. D is not a probability distribution; Type 0 is not a third management failure; P2 is not observed containment. |
+| Unused characterized reserve / exploration frontier / beyond effective determination | B / C / D relative to a named producer process | An evaluable alternative omitted by cost or policy stays B; C lacks a sufficiently characterized evaluation basis; externality or lack of action control alone does not make a factor D. An unclassifiable input remains pending/UNKNOWN rather than being forced into C/D. Current 00M and the Input Contract preserve this. |
+| RA delta / EA qualification / MSCA posture / ACC authority binding | Different producer/consumer outputs | Current RA/MSCA/ACC sources preserve direction, sufficiency, posture and action authority separately. No single global verdict or merged owner is justified. |
+| Canonical / frozen / working / proposed / applied / adopted | Document role and revision state | Canonical identifies the owner's current reference, including research hypotheses; it does not mean empirical confirmation or ITU adoption. A VNext proposal is not applied merely by publication. |
+| Documentary check PASS / semantic conformance / scientific validation | Different verification questions | Plan3 first-wave execution checks preservation/routes within its declared scope. It does not prove this semantic audit or the scientific claims. Existing conformance gaps remain open. |
+| General AI glossary / operational glossary / interface profile / runtime schema | Different publication and implementation roles | Harmonize attributed meanings where useful; do not force the complete corpus or HO-EDM into one glossary/schema. |
+| Agentic Misalignment in #51 / mission or epistemic drift in EA | Source-specific behavior/intent framing versus objective/support-boundary movement | #51 entry 4.1.8 uses an intentional harmful-conduct research framing. Do not infer malicious intent from a good-faith mission pivot or insufficient epistemic support, or silently substitute the terms. |
+
+### Findings, priority and compatibility
+
+| Candidate | Concrete change | Expected impact | Risk | Effort | Priority / dependency |
+|---|---|---|---|---|---|
+| TAX26-01 | Foundation HELD entry: distinguish request/receipt from confirmed stop/effect | High | Low | Low | First; pair with IF-S6 reading |
+| TAX26-02 | Foundation dictionary: evidence-to-decision observations and decision-specific sufficiency | High | Low | Low | First; shared reader reference for 04/05A |
+| TAX26-03 | Foundation requalification: represented change versus newly material condition | High | Low | Low | First; pair with 05A receiver reading |
+| TAX26-04 | IF-S6: presented/noticed/understood and decision/receipt/effect | High | Low | Low | First; retain payload/schema semantics |
+| TAX26-05 | IF-S5: appraisal policy/scope versus decision authority | Medium | Low | Low | Next; no RATS verdict redefinition |
+| TAX26-06 | DDS: reference scenario versus technology-instantiated scenario | High | Low | Low | First; keep all historical labels/routes |
+| TAX26-07 | DDS Index: separate evidence, environment, study design and independence | High | Low | Low | First; current four evidence objects stay unchanged |
+| TAX26-08 | 01K: capacity vector is a route record with separately owned conditions | Medium | Low | Low | Next; component/schema/vector unchanged |
+| TAX26-09 | 05A: current reliance, monitoring owner, triggers and residual boundary | High | Low | Low | First; use with Foundation clarification |
+
+Benefits are expected improvements in interpretation, not measured efficacy. Low risk applies to these exact editorial pairs: no file moves, enum changes or automatic result reclassification. Review cost includes checking linked consumers and source version, not only drafting. A change to producer states, runtime fields or historical scores would be a different, higher-risk proposal. Source-owned complete old/new pairs and acceptance conditions are in the existing VNext owners linked below; this table is not an alternative queue.
+
+**Material issue that cannot be fixed by wording alone — 04 input direction (existing H06).** The current 04 EHD/interface map admits an operational result/producer verdict; the separate [04 Input Contract](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) N02 excludes the producer's functional A value from that entry route. The contract itself records H06 as not yet integrated into 04. These can coexist only if the receiving routes are explicitly distinguished; they cannot be advertised as the same universal handoff. **High impact, High semantic/integration risk, effort not yet estimable.** Keep the existing H06 discussion in the 04 VNext and obtain a source/route decision before drafting a global replacement. This audit does not solve it by relabelling A as B, merging the two payloads or adding a generic disclaimer.
+
+**Other matters already adequate.** The current method explicitly separates Stage identity from evidence; the new clarification refines its mixed evidence list. UC-21 already has four evidence objects and current case-native routes. 01K-A01 already separates runtime capacity and HID into two engines. 00M, RA, MSCA and ACC already distinguish epistemic relation, sufficiency, role, direction, posture and authority. These relations remain part of the audit, with no fabricated before/after pair where no change is justified.
+
+**Implementation-profile states.** Lei's [clarification](https://github.com/FG-TIDA/themes/issues/16#issuecomment-5467788988) treats HELD, execution/admission INDETERMINATE and bounded mandates as possible mappings beneath the oversight lifecycle, not universal stages. Keep that context alongside Olena's evidence-status indeterminacy after bounded examination; the same word does not establish one common enum. The dictionary already labels its Theme readings provisional; the candidate narrows an inference without standardizing a state machine.
+
+### Cross-document analytical counter-readings
+
+These are semantic desk checks against the cited passages, not executions or new scientific results.
+
+| Reading attempted | Audit judgment and reason |
+|---|---|
+| Evidence is accessible, so the human understood it | Unsupported: presentation, notice and comprehension require their own observations. |
+| Reviewer clicked approve, so stale authority became current | Unsupported: recorded approval does not repair source authority applicability. |
+| HOLD was acknowledged, so the workflow stopped | Unsupported: distinguish request/acknowledgement, enforced state and observed effect. |
+| Old trace hashes match, so the finding still authorizes today's action | Unsupported: authenticity and present applicability answer different questions. |
+| No configured monitor fired, so no new material dependency exists | Unsupported: the monitoring boundary can omit a newly relevant condition. |
+| Test evidence supports escalation but not resumption | Coherent: sufficiency is decision-specific, not a contradiction. |
+| A native run demonstrates independent review | Unsupported: execution setting does not establish observer independence. |
+| A symbolic model must be Stage B because it is executable | Unsupported: determine the object/reference; Stage A can use executable models. |
+| UC-21 R2 can be replaced by R01 R2 | Unsupported: case/protocol-native labels and admission rules differ. |
+| A frozen reference scenario must be renamed because current navigation uses Challenge | Unsupported: retain source IDs; clarify reference versus technology instantiation. |
+| External reviewer pool unavailable means local reviewer incompetent | Unsupported: preserve the external dependency and the failed viability condition. |
+| Type 2 or a RA warning directly selects P2 and executes containment | Unsupported: diagnosis, receiver posture, permission and effect remain separate. |
+| A producer sends A; the same route claims strict N02 no-A conformance | Unresolved H06: name which route applies; no generic equivalence established. |
+| A source has correct bytes and native CI passes, so its hypothesis is validated | Unsupported: custody/check scope and scientific evidence are different axes. |
+
+### External alignment, attribution and language
+
+The [official FG-TIDA Terms of Reference](https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/ToR.aspx) makes terminology harmonization part of the trust/identity work and distinguishes pre-standardization studies from approved deliverables. The general architecture can have a wider programme scope; its FG-TIDA projection must retain the focus group's technical scope.
+
+[Theme #32](https://github.com/FG-TIDA/themes/issues/32) is an existing harmonization venue; Duncan Sparrell proposes it and explicitly does not undertake to lead it. [Silvia Carina Blanco's #51](https://github.com/FG-TIDA/themes/issues/51) and [#52](https://github.com/FG-TIDA/themes/issues/52) are broad proposals, not adopted definitions. #51 Human Oversight is broad; it does not replace a case-specific intervention-capacity assessment. #52 Trajectory (4.1.144) and Verifier (4.1.150) are RL-specific uses; they are not definitions of a DDS trajectory or every credential/evidence verifier. Silvia's response confirms contextual meanings and invites source-based refinements. Map senses by domain/source rather than replacing them by spelling similarity.
+
+Olena owns the HO-EDM/interface contribution; Olha Borysenko's authority/capacity contribution, Arpita's UC-6 case semantics and Nelson's adapter/fixture encoding remain separately attributed as the public calibration specifies. A local rephrasing is our proposal, not text from Olena's unseen glossary. Public text is analyzed with links; no external code, data set or private manuscript is imported. Public availability does not grant republication rights to an entire glossary. New audit prose is in English; original-language source passages and historical terminology stay intact.
+
+The practical glossary route is complementary: preserve the full authorial work with its owner; consider selected, source-attributed operational distinctions for harmonization when the owner supplies them. That publication choice remains separate from this corpus audit and is not a prerequisite for the nine textual improvements.
+
+**Current independent-review status.** The concurrent 26 October packet clarification is retained: DDS-MR-01 v0.3.1 and DDS-S2-EA-01 v0.2.1 are work orders prepared for assignment-readiness review, with reviewers unassigned and individual scope/effort agreement pending. Their templates are not completed audits. This reinforces, rather than closes, the separation between this assistant's review, actual independent findings and FG-TIDA decisions. All nine old passages were rechecked against this updated corpus cut.
+
+### Coverage and continuation
+
+All **1,164 Markdown bodies / 2,620 tracked paths** at the baseline were included in the nomenclature discovery inventory, retaining review/history/support distinctions. Section-level semantic close reading covers the **22 material sources** enumerated in the owner records and local evidence. The inventory is not a claim to have deeply reread every historical study, binary, mathematical proof or unshared glossary. No historical audit pass is silently closed by this additional taxonomy work.
+
+The source-owned plan is:
+
+- [Foundation: TAX26-01/02/03](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026).
+- [General interfaces: TAX26-04/05 and H06 dependency](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026).
+- [DDS source/router: TAX26-06/07](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026).
+- [Human capacity: TAX26-08](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026); [component reception](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#taxonomy-audit-reception--26-october-2026).
+- [FG-TIDA bridge: TAX26-09](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026).
+- [EA reader-route reception](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/README_VNext.md#taxonomy-audit-reception--26-october-2026) and [document-control audit reception](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#taxonomy-audit-reception--26-october-2026).
+
+**Decision requested later:** select exact TAX26 pairs for source promotion. They are **PROPOSED, NOT APPLIED**. Before any promotion, bind the current old passage again, preserve its predecessor, check affected consumers and apply only the selected complete new passage. On acceptance, retire its pending card to a concise applied receipt with immutable history. The separate AP3-09 workflow decision and all unresolved scientific/native-conformance work retain their current states. No hourly continuation is created.
+
+**Publication dependency checked.** The existing historical-citation manifest binds the entire 04 VNext text, including these new append-only observations. This publication refreshes only that entry's normalized source-text SHA256 after verifying the old source is an exact prefix, the same two historical PUBLICATION_MANIFEST citations remain, and the receiver hash/path and every other qualification stay unchanged. The checker/helper and all its rules are unchanged. This is custody metadata for the audit addition, not an applied TAX26 candidate or an exception for new links.

@@ -536,3 +536,191 @@ Two AI-assisted bots have exchanged questions; this is not independent human ass
 - **HELD / effect (TX-F020, TX-F030):** distinguish declaration, enforcement demonstrated within a model/harness and an observed protective effect in the target scope. Do not infer either effect from a bare declaration or the opposite universal claim that a HELD observation can never support a bounded model effect. Continue in the [Foundation review](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) and [interfaces review](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 The next useful contribution is a source-qualified counterexample or consumer trace, not a majority vote on a preferred word. No new experiment, source edit, approval or merge is recorded by this discussion.
+
+
+<a id="working-taxonomy-board"></a>
+
+## Working taxonomy board
+
+This is the main working view for [PR56](https://github.com/dakleyer/structural-awareness-contributions/pull/56): **32 observations, 10 ideas, nine source-owned text proposals and four active discussions**. Use the PR conversation to challenge an entry; commit its durable conclusion here and in [observations.json](./observations.json). The original cards above remain intact.
+
+**Where we stand:** the sources support useful distinctions, and the two reviewing chats have narrowed four concrete questions. 31 observations remain open; TX-F031 records an observed scoped difference with compatibility/remedy still disputed. No TAX26 source proposal has been applied.
+
+Read [current positions](#current-positions), [all next actions](#observation-workboard), [the text-proposal links](#source-owned-change-queue), [the debate](#attributed-debate) or [this re-audit](#re-audit-of-this-work).
+
+### Current positions
+
+| Topic | What the reading supports | Remaining question |
+| --- | --- | --- |
+| Evidence and action — [TX-F017](#tx-f017), [TX-F018](#tx-f018), [TX-F020](#tx-f020) | Presentation, comprehension, judgment, authorization, execution and effect are different observations. Both chats retain the request/acknowledgment versus outcome distinction. | Name the object, observer and scope; a harness stop can support its bounded claim without proving a production outcome. |
+| DDS — [TX-F011](#tx-f011), [TX-F026](#tx-f026), [TX-F032](#tx-f032) | Stage, evidence basis, setting, organization and replication are different descriptions. Preserve reference-to-technology instantiation. | Separate descriptions do not prove orthogonality or every combination; correspondence needs its preservation assumptions. |
+| Current reliance — [TX-F018](#tx-f018), [TX-F022](#tx-f022), [TX-F023](#tx-f023) | An authentic finding can outlive its decision applicability. Changed represented conditions and newly relevant conditions are different reasons to reassess. | Identify the actual monitor, observable triggers and receiver boundary. TAX26-03/09 are proposals, not an extra bot agreement. |
+| EHD / N02 — [TX-F031](#tx-f031) | N02 excludes functional A/replicas on its proposed route, permits identifying references and puts value retrieval outside it; the general kernel can carry a result or a resolvable reference. | The proposal does not replace the04baseline. Identify a real consumer claiming both obligations before judging incompatibility; receipt and authority-use are separate. |
+
+These positions are supported by [the source-owned case audit](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026) and the actual [initial response](https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423354136) / [follow-up](https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423420186). Agreement between the two AI-assisted chats is recorded as such; owner decisions and source adoption remain separate.
+
+### Observation workboard
+
+This is a provisional **reading order**, not a score for32 defects. First includes investigation of a consequential incompatibility, not permission to apply it. Impact/risk/effort are kept with the nine concrete proposals below. Each ID links to its source-qualified card.
+
+| Observation | Attention | Basis / concrete next action |
+| --- | --- | --- |
+| [TX-F001](#tx-f001) | Next | **Design hypothesis.** Compare a source-qualified glossary with classification and relation-bearing models before selecting the larger design. |
+| [TX-F002](#tx-f002) | Next | **Initial source reading.** Trace one cross-programme claim to EP, EA, RA or MSCA and its actual owning definition; retain distinct scopes. |
+| [TX-F003](#tx-f003) | Next | **Initial source reading.** Contrast known-but-unconsulted with outside-frame material under the same subject, process, decision and time. |
+| [TX-F004](#tx-f004) | Next | **Initial source reading.** Separate structural non-determination, Type1/2 events and ensuing trajectories in one worked case. |
+| [TX-F005](#tx-f005) | Next | **Initial source reading.** Contrast populated-but-unevaluated and unpopulated instances without changing either assessment status. |
+| [TX-F006](#tx-f006) | Later | **Initial source reading.** Map S/E/C/P/M to an implementation while preserving semantic-slot identity and the five-slot source. |
+| [TX-F007](#tx-f007) | Next | **Initial source reading.** Pair a capable but unauthorized actor with an authorized but unavailable actor; identify the decision owner. |
+| [TX-F008](#tx-f008) | First | **Initial cross-source reading.** Qualify new RA references by expanded source name; locate ambiguous consumer occurrences before proposing an edit. |
+| [TX-F009](#tx-f009) | Next | **Initial source reading.** Trace delta to recipient posture and action; identify the decision/authority transition the signal does not supply. |
+| [TX-F010](#tx-f010) | Next | **Candidate occurrence audit.** Find actual P-posture/P-principle collisions and propose source-qualified references without renumbering identifiers. |
+| [TX-F011](#tx-f011) | First | **Published case review plus peer challenge.** Separate DDS attributes/stage namespaces and review valid combinations after the owning rationale clarification. |
+| [TX-F012](#tx-f012) | Next | **Initial external-source reading.** Contrast RL, DDS and credential-verifier senses through source-qualified examples instead of one replacement definition. |
+| [TX-F013](#tx-f013) | Next | **Initial external-source reading.** Identify the policy object, author, version, jurisdiction and change authority in each affected interface. |
+| [TX-F014](#tx-f014) | Next | **Initial external-source reading.** State each classified universe and observation unit before mapping flag classes to cross-evaluator failure classes. |
+| [TX-F015](#tx-f015) | Next | **Published case review; broader definition dispute open.** Keep trust definitions and reliance decisions distinct; review the narrow IF-S5 appraisal candidate TAX26-05. |
+| [TX-F016](#tx-f016) | Next | **Design hypothesis.** Trace principal, runtime instance and legal binding with their separate evidence; do not infer all from a signature. |
+| [TX-F017](#tx-f017) | First | **Published case review.** Review TAX26-02/04 together using a presented-and-noticed but not-understood counterexample. |
+| [TX-F018](#tx-f018) | First | **Published case review.** Review TAX26-02/05/09 together; a supported finding can still be insufficient for the recipient's stated decision. |
+| [TX-F019](#tx-f019) | First | **Published case review.** Use valid authority with an unavailable reviewer/deadline miss; preserve the failed dependency in TAX26-08. |
+| [TX-F020](#tx-f020) | First | **Published case review plus peer challenge.** Specify the stopped object and observer for TAX26-01/04; distinguish a bare acknowledgment from an observed harness stop. |
+| [TX-F021](#tx-f021) | Next | **Initial source reading.** Keep evidence-validity horizon and feasible intervention deadline separate in one time-qualified example. |
+| [TX-F022](#tx-f022) | First | **Published case review.** Review TAX26-03/09 as a source/receiver pair: authentic old evidence may no longer support current reliance. |
+| [TX-F023](#tx-f023) | First | **Published case review.** Contrast change within represented monitoring with a newly relevant condition outside it, using TAX26-03/09. |
+| [TX-F024](#tx-f024) | First | **Published case review.** Review TAX26-08 without recoding runtime unavailability as HID or as deficient local competence. |
+| [TX-F025](#tx-f025) | Next | **Initial source reading.** Type one principle, requirement, hypothesis, condition and KPI by the claim actually supported. |
+| [TX-F026](#tx-f026) | First | **Published case review; broader status inventory open.** Keep maturity, execution setting and replication distinct; TAX26-07 does not regrade old evidence. |
+| [TX-F027](#tx-f027) | Next | **Initial external-source reading.** For a claimed coverage cell, name the evidence and boundary; a thematic mention alone leaves evidence coverage open. |
+| [TX-F028](#tx-f028) | Later | **Initial external-source reading.** Describe cross-WG terminology as a possible contribution route with actual owner status, rather than an appointment. |
+| [TX-F029](#tx-f029) | Next | **Design hypothesis.** Compare two same-label editions and identify changed consumer assumptions before proposing semantic version rules. |
+| [TX-F030](#tx-f030) | First | **Published case review plus peer challenge.** Build a reason-preserving and reason-losing status crosswalk; keep HELD, INDETERMINATE and no-assertion source-qualified. |
+| [TX-F031](#tx-f031) | First | **Observed scoped difference; consumer compatibility/remedy disputed.** Name the actual receiver and claimed obligations. Separately check an unresolved identifier, non-authoritative functional A, and a result-resolving reference under each declared route. |
+| [TX-F032](#tx-f032) | First | **Published case review plus peer challenge.** Record reference-to-instantiation assumptions and reduction preservation in TAX26-06; a navigation link does not establish preservation. |
+
+### Source-owned change queue
+
+Full literal **text before / text after**, reasons, dependencies and owner instructions remain in the linked existing VNext. All nine source passages and both sides of the cards were rechecked against the published PR55 edition. A selected wave must revalidate current main. The ratings concern the stated prose change and its consumer checks, not a wider contract redesign.
+
+| Proposal / owner | Observations | Expected impact / editorial risk / effort | Next treatment |
+| --- | --- | --- |
+| [TAX26-01 — A hold request is not a confirmed stop](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F020](#tx-f020), [TX-F030](#tx-f030) | High / Low / Low | Refine against declared-only / observed-harness-stop counterpair before selection. |
+| [TAX26-02 — Give readers one operational evidence-to-decision distinction](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F017](#tx-f017), [TX-F018](#tx-f018) | High / Low / Low | First small editorial selection: dictionary and IF-S6 should be read together. |
+| [TAX26-03 — Explain the two reasons for targeted reassessment](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F022](#tx-f022), [TX-F023](#tx-f023) | High / Low / Low | First small editorial selection, paired with the receiving bridge TAX26-09. |
+| [TAX26-04 — Make human-review evidence interpretable at IF-S6](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F017](#tx-f017), [TX-F020](#tx-f020) | High / Low / Low | First small editorial selection, paired with dictionary TAX26-02. |
+| [TAX26-05 — Scope the meaning of appraisal at IF-S5](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F015](#tx-f015), [TX-F018](#tx-f018) | Medium / Low / Low | Next editorial selection; retain appraisal policy/scope and receiving decision owner. |
+| [TAX26-06 — Distinguish reference scenario from technology-instantiated scenario](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F011](#tx-f011), [TX-F032](#tx-f032) | High / Low / Low | Refine by one source-family correspondence / preservation example before selection. |
+| [TAX26-07 — Separate evidence basis, execution setting, study design and independence](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F011](#tx-f011), [TX-F026](#tx-f026) | High / Low / Low | Rationale refined additively in the same owner VNext; valid-combination/consumer check still needed before selection. |
+| [TAX26-08 — Interpret the runtime-capacity vector as separate conditions](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01K_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F019](#tx-f019), [TX-F024](#tx-f024) | Medium / Low / Low | Next editorial selection; keep upstream authority and local/external dependency separate. |
+| [TAX26-09 — Carry current-reliance and monitoring distinctions into the FG-TIDA bridge](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026) | [TX-F018](#tx-f018), [TX-F022](#tx-f022), [TX-F023](#tx-f023), [TX-F030](#tx-f030) | High / Low / Low | First small editorial selection, paired with Foundation TAX26-03. |
+
+**All nine remain proposed, not applied.** Seven have High expected impact; TAX26-05/08 have Medium. Each has Low editorial risk and Low effort for its bounded wording and related reading/validation.
+
+**First small selection:** TAX26-02/04 together clarify evidence reaching a human and a decision; TAX26-03/09 together clarify current reliance and monitoring at producer and receiver. TAX26-01 needs the declared/enforced/observed scope check; TAX26-06 needs a worked correspondence; TAX26-07 needs valid-combination and consumer checks after its [rationale refinement](../ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#tax26-07-review-rationale-refinement). TAX26-05/08 follow as narrow appraisal/capacity clarifications.
+
+**H06 stays outside that editorial selection.** Changing A admission can affect contracts, consumers and authority assumptions: High expected impact, High integration risk and effort not yet estimable. Resolve the consumer/contract question before a design proposal.
+
+### Attributed debate
+
+These are actual exchanged positions from Corpus Github and Taxonomía, with proposed desk-review cases. No experiment is reported as performed.
+
+**[TX-F031](#tx-f031) — Receiving A and using A as authority**
+
+**Source-review position:** Corpus Github / PR55 identifies a result-carrying general kernel and a proposed no-functional-A input route. That difference is observed, not itself disputed.
+
+**Counterpoint:** Taxonomía reread N02: it permits references/type descriptions, excludes the functional value or a replica, and puts result retrieval outside that route. The proposed contract does not replace the04baseline.
+
+**Response:** Corpus Github reread both passages and accepts that refinement: a non-authoritative A payload may still violate N02; receiving an identifier is different from resolving it for the value.
+
+**Common ground:** Admission and authority-use are separate. Different scoped profiles alone do not demonstrate an architectural contradiction.
+
+**Open alternatives:** Deliberately distinct consumers/profiles; An intended shared consumer has incompatible value requirements; The consumer/profile mapping is incomplete.
+
+**Next check:** Check three documentary cases separately under named contracts: identifying reference without retrieval; functional A present without authority use; reference resolved for A. Identify a real consumer claiming both obligations before calling them incompatible.
+
+**State:** Textual difference observed; consumer compatibility/remedy disputed. No cases executed.
+
+**Direct evidence:** [adversarial rereading](https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6427491558), [N02](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md#n02-mantener-a-fuera-de-la-entrada) and [general kernel](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#L99).
+
+**[TX-F011](#tx-f011) — DDS descriptive facets and independent evidence**
+
+**Source-review position:** Corpus Github / TAX26-07: the mixed evidence-mode list should be described as separate evidence basis, setting, organization and replication.
+
+**Counterpoint:** Taxonomía: separation does not prove mathematical orthogonality, arbitrary Cartesian combinations or independent evidence.
+
+**Response:** Corpus Github accepts that qualification. The earlier orthogonal-axes rationale is preserved as history and refined additively in the same owner VNext; the proposed canonical paragraph is unchanged.
+
+**Common ground:** Report separate descriptions; require evidence for replication and independence.
+
+**Open alternatives:** A descriptive record with constrained combinations; A more formal multi-axis model, only if its admissibility rules earn their maintenance cost.
+
+**Next check:** Review valid combinations and actual independence evidence at a named consumer, then revalidate the unchanged proposed source paragraph before selection.
+
+**State:** Partial convergence; review rationale corrected, source adoption and consumer check remain open.
+
+**[TX-F032](#tx-f032) — Reference scenario and technology–Challenge instantiation**
+
+**Source-review position:** Corpus Github / TAX26-06 retains both the pre-technology bounded reference and the technology/configuration/context binding.
+
+**Counterpoint:** Taxonomía: retain source identifiers and correspondence; do not insert a new validation stage.
+
+**Response:** Corpus Github: navigability is not evidence that a reduction preserves the tested property; use the family's actual preservation argument and assumptions.
+
+**Common ground:** Keep both objects and their correspondence without renaming frozen cases.
+
+**Open alternatives:** Use a qualified scenario name in navigation while the implementation profile owns the binding; Keep source-native scenario labels with an explicit contextual explanation.
+
+**Next check:** Walk one existing DDS family through reference, reduction, technology binding, authoritative reference and result; record missing assumptions without running it.
+
+**State:** Partial convergence; worked consumer example still needed.
+
+**[TX-F020](#tx-f020), [TX-F030](#tx-f030) — HELD and what a test actually observes**
+
+**Source-review position:** Corpus Github / TAX26-01 distinguishes hold request or acknowledgment from the stopped state, enforcement and protective effect.
+
+**Counterpoint:** Taxonomía: a harness/model may observe an enforced stop and a bounded effect. Do not turn caution into a claim that HELD can never carry such evidence.
+
+**Response:** Corpus Github: name object, observer and scope; production observations are not required for every bounded test.
+
+**Common ground:** A label alone is insufficient; scoped observations may establish exactly what they observe.
+
+**Open alternatives:** Declared hold only; Stop/enforcement observed within a supplied model or harness; Protective outcome observed at the claimed target boundary.
+
+**Next check:** Recheck TAX26-01 with a declared-only case and an observed-harness-stop case, retaining the exact claimed boundary.
+
+**State:** Partial convergence; profile-specific evidence review remains open.
+
+### Ten ideas: next useful contribution
+
+| Existing idea | What would test its value |
+| --- | --- |
+| TX-I001 — Federated concept architecture | Compare a small source-qualified glossary against the federated-core design on actual ambiguity cases before choosing. |
+| TX-I002 — Separate classification axes | Represent separate descriptions without asserting statistical or mathematical independence; specify invalid combinations when material. |
+| TX-I003 — Meaning-preserving crosswalks | Try exact/related/incompatible/unresolved mappings on one status crosswalk, preserving reasons that affect action. |
+| TX-I004 — Decision-oriented minimal pairs | Use the four existing debate cases before inventing a broad testing campaign. |
+| TX-I005 — Source-qualified identifiers | Qualify RA and P-family references while preserving native identifiers and historical labels. |
+| TX-I006 — Version-aware consumer impact | Trace one changed meaning through actual producer/consumer uses and retain independent support paths. |
+| TX-I007 — Bilingual and metaphor review | Review translations and metaphor separately; publish source-qualified English definitions, with bilingual explanation when useful. |
+| TX-I008 — Coverage by collection and surface | Extend the existing coverage record across own collections and FG-TIDA surfaces, stating what was actually read. |
+| TX-I009 — Review tests without semantic overclaim | Use mapping examples to assess compatibility; reserve executable experiments for their separate authorization and protocol. |
+| TX-I010 — Incremental public PR practice | Keep PR discussion and this board synchronized, with exact source edits staying in existing owner VNext. |
+
+### Working and closing an entry
+
+1. Use its existing TX-F/TX-I ID in PR discussion. Give the passage/edition, strongest alternative reading and affected consumer decision.
+2. Record evidence, reviewer position, owner decision and actual implementation separately. An open observation may still have a selection-ready narrow proposal.
+3. Put exact source edits only in the source’s existing VNext; link them here. Apply a selected pair only under its applicable owner decision, with unchanged-gap checks and public readback. Close its applied pending card through the verified receipt.
+4. Retain rejected alternatives and disagreements. Close an observation as supported in scope, refuted, deliberately distinct, or superseded only with the responsible decision and supporting evidence.
+5. Extend actual occurrence/consumer coverage before adding a wider concept system. Compare a simple source-qualified glossary and loss-aware crosswalk against the federated-core hypothesis.
+
+### Re-audit of this work
+
+**Improvement:** the board now gives a next action to every existing observation, keeps the nine exact source proposals with their owners, and records objections plus counterexamples. This improves traceability and reviewability; it does not establish corpus-wide semantic consistency.
+
+**Problems found and corrected:** the unpublished expansion repeated the same summary/debate and assigned impact/risk/effort scores to all32 preliminary observations. That draft was retained privately and reduced before publication; the speculative scores were removed. The published TAX26-07 rationale also overstated orthogonality. TX-F031 also needed a narrower reading: N02 permits identifying references/type descriptions, excludes functional A/replicas and places value retrieval outside that proposed route; the contract remains under review, not a universal adopted baseline. Its “disputed” state concerns compatibility/remedy. The DDS rationale’s same owning VNext now has an additive [review clarification](../ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#tax26-07-review-rationale-refinement), preserving the old rationale and the canonical candidate.
+
+**Preservation rechecked:** actual Git objects for PR55 retain all2,620 previous paths/modes: its nine Markdown additions preserve their full predecessors and its manifest changes only the one qualified source hash. PR56 retains all originals, adds only its two review files and authentic CONTRIBUTING snapshot, and appends its contributor entry. This continuation brings PR55 into the working branch and changes only this board, its JSON companion and the additive DDS review clarification. Canonical definitions, code, frozen sources/results, binaries, workflows and settings stay unchanged.
+
+**Still open:** the broader programme and FG-TIDA occurrence/consumer audit; H06 design; nine source adoptions; the complete authorial glossary not yet received. Initial discovery covered1,164 Markdown bodies/2,620 paths; the case audit section-read22material sources. The counts describe different kinds of work. Document CI and route scans check documentary integrity, not conceptual truth.
+
+Continue in this same PR, board and initiative. No new VNext, initiative or parallel taxonomy queue is created.

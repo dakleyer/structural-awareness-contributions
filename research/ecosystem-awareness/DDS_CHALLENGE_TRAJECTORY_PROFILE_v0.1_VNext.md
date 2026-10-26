@@ -19079,3 +19079,89 @@ Candidate148 plus149/150 removes all16active fragment failures in the tested vie
 ## Applied review repair 148 — 25 October 2026
 
 Iván authorized these small corrections with the second document-control audit. Applied the exact published unit(s); the complete plan remains in the [pre-application edition](https://github.com/dakleyer/structural-awareness-contributions/blob/b9499c34e8690acdc9a1d1b6f274895a94c4c4b9/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits). This item is applied and is no longer a pending proposal. The retained anchor directs existing review links to this application receipt. All unrelated source bytes and scientific records remain unchanged.
+
+
+## Taxonomy audit and literal candidates — 26 October 2026
+
+**Audit by Codex AI assistant, for human review; baseline `1b5a07f916d3f65cf467628e2bec5b13b769a029`.** This is the existing cumulative owner VNext. The [cross-corpus taxonomy assessment](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026) explains the common axes, public sources, counter-readings, priorities and remaining H06 integration question. The private terminology email guided the question; unpublished glossary entries are not available and are not reconstructed or published.
+
+**What holds:** producer meaning, evidence, judgment, authority, capacity, timing and actual effects retain different owners and states. The following prose candidates make existing distinctions legible; they do not create another glossary, event schema or audit VNext. Related receptors are Foundation, IF-S5/S6, 01K/component, 05A and the DDS reader route as linked in the common assessment. Changes remain proposals; no source text or old audit is removed.
+
+### TAX26-06 — Distinguish reference scenario from technology-instantiated scenario
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** First. **Expected positive impact:** High. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#L230) · Stage A §3, after Challenge instantiation. Source blob `3f84f461e8e6746659dff130832ec249bc8c63d9`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The source uses scenario for a bounded reference before technology mapping; the reader route also needs the technology–Challenge instantiation requested by Iván. One qualified pair of meanings preserves both uses without duplicating Challenges or rewriting S1–S6.
+
+**Evidence:** https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results ; https://github.com/FG-TIDA/use-cases/issues/21
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+The Challenge is then instantiated as a **bounded scenario, fixture or reduction**. A reduction may simplify the narrative or state space only if it preserves the relation needed for the stated claim.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+The Challenge is then instantiated as a **bounded scenario, fixture or reduction**. A reduction may simplify the narrative or state space only if it preserves the relation needed for the stated claim.
+
+For current navigation, distinguish the **bounded reference scenario/reduction**, which fixes the problem independently of a selected technology, from the **technology-instantiated scenario**, which binds that Challenge/reference to a named technology, configuration and context. The implementation profile records that binding. Retain historical scenario IDs and source-native meanings; the distinction clarifies the route rather than renaming frozen cases.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+### TAX26-07 — Separate evidence basis, execution setting, study design and independence
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** First. **Expected positive impact:** High. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#L46) · DDS Index §2, first paragraph. Source blob `61b205e1ae3d677b9d17757180259f08949681dd`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The current evidence-mode list mixes several orthogonal axes. Reporting them separately prevents executable/native/campaign/independent from becoming a false evidence ladder; no historical result or stage is regraded.
+
+**Evidence:** https://github.com/FG-TIDA/themes/issues/16#issuecomment-6302053285 ; https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6301163175 ; https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-per-candidate-evidence-qualification--review-clarification-20-october-2026
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+Documentary, analytical, mathematical, virtual, symbolic, deterministic-fixture, controlled-harness, native-execution, matched-campaign and independently replicated evidence are **evidence modes**, not DDS stages.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+Describe the evidence basis (documentary, analytical, mathematical, virtual/symbolic or deterministic-fixture), execution setting (such as a controlled harness or native implementation), study organization (such as a matched campaign), and replication/independence separately. These descriptions may coexist; none determines the DDS stage, which is set by the object under test and its authoritative reference. A native execution is not automatically independent, and a matched campaign does not by itself establish replication.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+
+<a id="tax26-07-review-rationale-refinement"></a>
+
+## TAX26-07 review rationale refinement
+
+The [PR56 taxonomy discussion](https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423420186) correctly challenges the phrase orthogonal axes. Corpus Github accepts that correction to its review rationale. The earlier card stays visible as history; the following rationale governs its continued review.
+
+**Earlier rationale — literal complete passage:**
+
+````text
+The current evidence-mode list mixes several orthogonal axes. Reporting them separately prevents executable/native/campaign/independent from becoming a false evidence ladder; no historical result or stage is regraded.
+````
+
+**Refined rationale:**
+
+````text
+The current evidence-mode list mixes descriptive facets: evidence basis, execution setting, study organization and replication/independence. Reporting them separately avoids a false evidence ladder. Their separation does not establish orthogonality, independence or every possible combination; actual combinations retain their applicable profile and evidence constraints. No historical result or DDS stage is regraded.
+````
+
+**Scope and state:** This is an applied clarification of the audit reasoning only. TAX26-07’s complete canonical text-before/text-after pair above is unchanged and remains PROPOSED, NOT APPLIED. Its High expected impact / Low editorial risk / Low effort concern that bounded paragraph, including current-source and consumer reading. A redesign of evidence types, combinations or contracts is outside those ratings. Name any admissibility assumptions and the actual independence evidence before selecting the pair. TAX26-06 still requires its reference-to-instantiation correspondence; no new stage, scenario rename, rerun or result regrade is introduced.

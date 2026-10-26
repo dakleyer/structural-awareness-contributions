@@ -748,3 +748,40 @@ The [05 review](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_
 The complete new §2.14 from commit aaf0de16 was read and retained with all previous bytes. Its vocabulary distinguishes narrow agreement in principle, actual conversation, an offer, a prospective interface and an internal proposal. The catalogue in [05 Ideal §7.5](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) therefore remains an offer; no universal subscription or transport agreement is inferred.
 
 EA contextual output, source-native findings, recipient decisions and proposed F3 response coordination remain separate. The new section preserves optional/direct handoffs and source authority. This is a consistency reading of the declared state bridge, with no fresh external-source or email acceptance verification. The historical-control judgements retain their earlier fixed cuts, and the existing baseline contracts are unchanged.
+
+
+## Taxonomy audit and literal candidates — 26 October 2026
+
+**Audit by Codex AI assistant, for human review; baseline `1b5a07f916d3f65cf467628e2bec5b13b769a029`.** This is the existing cumulative owner VNext. The [cross-corpus taxonomy assessment](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026) explains the common axes, public sources, counter-readings, priorities and remaining H06 integration question. The private terminology email guided the question; unpublished glossary entries are not available and are not reconstructed or published.
+
+**What holds:** producer meaning, evidence, judgment, authority, capacity, timing and actual effects retain different owners and states. The following prose candidates make existing distinctions legible; they do not create another glossary, event schema or audit VNext. Related receptors are Foundation, IF-S5/S6, 01K/component, 05A and the DDS reader route as linked in the common assessment. Changes remain proposals; no source text or old audit is removed.
+
+### TAX26-09 — Carry current-reliance and monitoring distinctions into the FG-TIDA bridge
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** First. **Expected positive impact:** High. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md#L185) · EA-only interface offer, after qualified recipient projections. Source blob `ea94ba9dbc63da8e8708455cab543e58b960f102`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The bridge preserves source versions but leaves the operational distinction between source change and changed decision relevance implicit. This reading links the native HO-EDM judgment to EA reception without imposing its seven-part illustrative record as an EHD kernel.
+
+**Evidence:** https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6375358937 ; https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6301163175
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+**Reuse one assessment through qualified recipient projections.** Preserve provenance, source lineage, scope, temporal/state versions, dependencies, coverage, unknowns and recipient disclosure limits. Forwarded copies of one source are not independent corroboration. The cross-Theme catalogue is an offered design; its dated conversation record and each accepted bilateral profile determine what is actually available.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+**Reuse one assessment through qualified recipient projections.** Preserve provenance, source lineage, scope, temporal/state versions, dependencies, coverage, unknowns and recipient disclosure limits. Forwarded copies of one source are not independent corroboration. The cross-Theme catalogue is an offered design; its dated conversation record and each accepted bilateral profile determine what is actually available.
+
+**Current reliance and monitoring.** Preserve the original finding and evidence boundary, the receiver's sufficiency judgment and any disagreement, the authorized decision and its validity conditions. A changed monitored condition and a newly material condition outside the represented monitoring boundary both call for targeted reassessment of affected reliance. Identify the monitoring responsibility, observable triggers and residual limits when supplied; do not infer present applicability from unchanged evidence or from silence by a monitor.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.

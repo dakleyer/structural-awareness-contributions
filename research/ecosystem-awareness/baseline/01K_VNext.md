@@ -513,3 +513,40 @@ One useful optional example was lost from old §11 at commit `9f397df86fb6621793
 ## Review-card history received at its dated source cut — 15 October 2026
 
 A11 read all four retired clauses of 01K_REVIEW_CARD with the complete current card and authentic source versions. Superseded HIT/runtime interpretation is received by the current 01K/A01 ownership split; component/schema/vector hashes remain prior verification snapshots. The card's `e52ed065…` “current public source blob” records its 6October review basis. It is a dated snapshot, while the linked profile remains the live source. This metadata does not identify a missing-content restoration or a new VNext. The current profile, component and earlier review bodies remain unchanged by this note.
+
+
+## Taxonomy audit and literal candidates — 26 October 2026
+
+**Audit by Codex AI assistant, for human review; baseline `1b5a07f916d3f65cf467628e2bec5b13b769a029`.** This is the existing cumulative owner VNext. The [cross-corpus taxonomy assessment](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026) explains the common axes, public sources, counter-readings, priorities and remaining H06 integration question. The private terminology email guided the question; unpublished glossary entries are not available and are not reconstructed or published.
+
+**What holds:** producer meaning, evidence, judgment, authority, capacity, timing and actual effects retain different owners and states. The following prose candidates make existing distinctions legible; they do not create another glossary, event schema or audit VNext. Related receptors are Foundation, IF-S5/S6, 01K/component, 05A and the DDS reader route as linked in the common assessment. Changes remain proposals; no source text or old audit is removed.
+
+### TAX26-08 — Interpret the runtime-capacity vector as separate conditions
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** Next. **Expected positive impact:** Medium. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md#L556) · §14, immediately after UNKNOWN/AVAILABLE rule. Source blob `fe4830b7dbcf70cc8368fef5b5f4b2f70cf62d5f`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The vector correctly includes authority and information but its broad capacity name can conceal which condition failed. Preserve upstream authority and external dependency ownership while keeping the existing vector and HC/HID separation.
+
+**Evidence:** https://github.com/FG-TIDA/themes/issues/16#issuecomment-5748998508 ; https://github.com/FG-TIDA/themes/issues/16#issuecomment-5715075656
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+UNKNOWN must not silently become AVAILABLE.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+UNKNOWN must not silently become AVAILABLE.
+
+The RuntimeHumanCapacity vector is a route-viability record with separate conditions, not a single interchangeable measure of authority, competence, information and time. Consume the applicable authority determination from its owner and assess whether it applies to this action. An unavailable external reviewer or escalation dependency is not automatically a lack of the local reviewer's competence; preserve the affected dependency and response window.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.

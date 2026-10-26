@@ -615,5 +615,570 @@
       "discussion": []
     }
   ],
-  "cross_review_note": "Initial30 retained; TX-F031–032 add two cross-review questions from published PR55. Distinct bots are not independent human validation; no consensus or source promotion claimed."
+  "cross_review_note": "Initial30 retained; TX-F031–032 add two cross-review questions from published PR55. Distinct bots are not independent human validation; no consensus or source promotion claimed.",
+  "working_board": {
+    "purpose": "Primary working board for this taxonomy PR, requested by Ivan on 26 October 2026; not a second source-edit queue.",
+    "baseline": "cde8b704395d687cb48b4235aa6f203a98dac9ea",
+    "source_review_commit": "3e58fc6997a439b9783fd6b92ccee3f4292772dd",
+    "workflow": {
+      "discussion": "PR56 conversation; cite observation IDs and actual evidence.",
+      "durable_state": "This Markdown board and its structured companion, updated together.",
+      "source_proposals": "Only the affected source's existing VNext holds complete executable before/after cards.",
+      "coordination": "Reuse the existing initiative; no parallel glossary or review register.",
+      "promotion": "A source proposal is applied only under its applicable named owner decision."
+    },
+    "state_dimensions": {
+      "evidence": [
+        "initial_reading",
+        "published_case_review",
+        "counterexample_pending"
+      ],
+      "discussion": [
+        "open",
+        "partial_convergence",
+        "disputed"
+      ],
+      "decision": [
+        "pending",
+        "accepted",
+        "rejected",
+        "superseded"
+      ],
+      "implementation": [
+        "not_proposed",
+        "proposed_not_applied",
+        "applied_verified"
+      ]
+    },
+    "current_counts": {
+      "observations": 32,
+      "ideas": 10,
+      "open_observations": 31,
+      "disputed_observations": 1,
+      "source_candidates": 9,
+      "applied_source_candidates": 0,
+      "independent_human_reviews_recorded": 0
+    },
+    "scope": {
+      "discovery": "1164 Markdown bodies and 2620 tracked paths in the PR55 discovery cut.",
+      "close_reading": "22 material sources section-read for UC-21/DDS and its material interfaces; see the published audit.",
+      "remaining": "Whole-programme occurrence/consumer coverage, external working-group surfaces and the complete unpublished authorial glossary are not closed by this board.",
+      "source": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026"
+    },
+    "assessments": [
+      {
+        "observation_id": "TX-F001",
+        "priority": "Next",
+        "evidence_basis": "Design hypothesis",
+        "next_action": "Compare a source-qualified glossary with classification and relation-bearing models before selecting the larger design.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F002",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Trace one cross-programme claim to EP, EA, RA or MSCA and its actual owning definition; retain distinct scopes.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F003",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Contrast known-but-unconsulted with outside-frame material under the same subject, process, decision and time.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F004",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Separate structural non-determination, Type1/2 events and ensuing trajectories in one worked case.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F005",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Contrast populated-but-unevaluated and unpopulated instances without changing either assessment status.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F006",
+        "priority": "Later",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Map S/E/C/P/M to an implementation while preserving semantic-slot identity and the five-slot source.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F007",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Pair a capable but unauthorized actor with an authorized but unavailable actor; identify the decision owner.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F008",
+        "priority": "First",
+        "evidence_basis": "Initial cross-source reading",
+        "next_action": "Qualify new RA references by expanded source name; locate ambiguous consumer occurrences before proposing an edit.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F009",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Trace delta to recipient posture and action; identify the decision/authority transition the signal does not supply.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F010",
+        "priority": "Next",
+        "evidence_basis": "Candidate occurrence audit",
+        "next_action": "Find actual P-posture/P-principle collisions and propose source-qualified references without renumbering identifiers.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F011",
+        "priority": "First",
+        "evidence_basis": "Published case review plus peer challenge",
+        "next_action": "Separate DDS attributes/stage namespaces and review valid combinations after the owning rationale clarification.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F012",
+        "priority": "Next",
+        "evidence_basis": "Initial external-source reading",
+        "next_action": "Contrast RL, DDS and credential-verifier senses through source-qualified examples instead of one replacement definition.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F013",
+        "priority": "Next",
+        "evidence_basis": "Initial external-source reading",
+        "next_action": "Identify the policy object, author, version, jurisdiction and change authority in each affected interface.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F014",
+        "priority": "Next",
+        "evidence_basis": "Initial external-source reading",
+        "next_action": "State each classified universe and observation unit before mapping flag classes to cross-evaluator failure classes.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F015",
+        "priority": "Next",
+        "evidence_basis": "Published case review; broader definition dispute open",
+        "next_action": "Keep trust definitions and reliance decisions distinct; review the narrow IF-S5 appraisal candidate TAX26-05.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F016",
+        "priority": "Next",
+        "evidence_basis": "Design hypothesis",
+        "next_action": "Trace principal, runtime instance and legal binding with their separate evidence; do not infer all from a signature.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F017",
+        "priority": "First",
+        "evidence_basis": "Published case review",
+        "next_action": "Review TAX26-02/04 together using a presented-and-noticed but not-understood counterexample.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F018",
+        "priority": "First",
+        "evidence_basis": "Published case review",
+        "next_action": "Review TAX26-02/05/09 together; a supported finding can still be insufficient for the recipient's stated decision.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F019",
+        "priority": "First",
+        "evidence_basis": "Published case review",
+        "next_action": "Use valid authority with an unavailable reviewer/deadline miss; preserve the failed dependency in TAX26-08.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F020",
+        "priority": "First",
+        "evidence_basis": "Published case review plus peer challenge",
+        "next_action": "Specify the stopped object and observer for TAX26-01/04; distinguish a bare acknowledgment from an observed harness stop.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F021",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Keep evidence-validity horizon and feasible intervention deadline separate in one time-qualified example.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F022",
+        "priority": "First",
+        "evidence_basis": "Published case review",
+        "next_action": "Review TAX26-03/09 as a source/receiver pair: authentic old evidence may no longer support current reliance.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F023",
+        "priority": "First",
+        "evidence_basis": "Published case review",
+        "next_action": "Contrast change within represented monitoring with a newly relevant condition outside it, using TAX26-03/09.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F024",
+        "priority": "First",
+        "evidence_basis": "Published case review",
+        "next_action": "Review TAX26-08 without recoding runtime unavailability as HID or as deficient local competence.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F025",
+        "priority": "Next",
+        "evidence_basis": "Initial source reading",
+        "next_action": "Type one principle, requirement, hypothesis, condition and KPI by the claim actually supported.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F026",
+        "priority": "First",
+        "evidence_basis": "Published case review; broader status inventory open",
+        "next_action": "Keep maturity, execution setting and replication distinct; TAX26-07 does not regrade old evidence.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F027",
+        "priority": "Next",
+        "evidence_basis": "Initial external-source reading",
+        "next_action": "For a claimed coverage cell, name the evidence and boundary; a thematic mention alone leaves evidence coverage open.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F028",
+        "priority": "Later",
+        "evidence_basis": "Initial external-source reading",
+        "next_action": "Describe cross-WG terminology as a possible contribution route with actual owner status, rather than an appointment.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F029",
+        "priority": "Next",
+        "evidence_basis": "Design hypothesis",
+        "next_action": "Compare two same-label editions and identify changed consumer assumptions before proposing semantic version rules.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F030",
+        "priority": "First",
+        "evidence_basis": "Published case review plus peer challenge",
+        "next_action": "Build a reason-preserving and reason-losing status crosswalk; keep HELD, INDETERMINATE and no-assertion source-qualified.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F031",
+        "priority": "First",
+        "evidence_basis": "Observed scoped difference; consumer compatibility/remedy disputed",
+        "next_action": "Name the actual receiver and claimed obligations. Separately check an unresolved identifier, non-authoritative functional A, and a result-resolving reference under each declared route.",
+        "decision": "Open; no source adoption decided"
+      },
+      {
+        "observation_id": "TX-F032",
+        "priority": "First",
+        "evidence_basis": "Published case review plus peer challenge",
+        "next_action": "Record reference-to-instantiation assumptions and reduction preservation in TAX26-06; a navigation link does not establish preservation.",
+        "decision": "Open; no source adoption decided"
+      }
+    ],
+    "debates": [
+      {
+        "id": "TX-F031",
+        "topic": "Receiving A and using A as authority",
+        "source_review": "Corpus Github / PR55 identifies a result-carrying general kernel and a proposed no-functional-A input route. That difference is observed, not itself disputed.",
+        "counterposition": "Taxonomía reread N02: it permits references/type descriptions, excludes the functional value or a replica, and puts result retrieval outside that route. The proposed contract does not replace the04baseline.",
+        "response": "Corpus Github reread both passages and accepts that refinement: a non-authoritative A payload may still violate N02; receiving an identifier is different from resolving it for the value.",
+        "common_ground": "Admission and authority-use are separate. Different scoped profiles alone do not demonstrate an architectural contradiction.",
+        "open_alternatives": [
+          "Deliberately distinct consumers/profiles.",
+          "An intended shared consumer has incompatible value requirements.",
+          "The consumer/profile mapping is incomplete."
+        ],
+        "next": "Check three documentary cases separately under named contracts: identifying reference without retrieval; functional A present without authority use; reference resolved for A. Identify a real consumer claiming both obligations before calling them incompatible.",
+        "evidence": [
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423354136",
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423420186",
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6427491558"
+        ],
+        "outcome": "Textual difference observed; consumer compatibility/remedy disputed. No cases executed."
+      },
+      {
+        "id": "TX-F011",
+        "topic": "DDS descriptive facets and independent evidence",
+        "source_review": "Corpus Github / TAX26-07: the mixed evidence-mode list should be described as separate evidence basis, setting, organization and replication.",
+        "counterposition": "Taxonomía: separation does not prove mathematical orthogonality, arbitrary Cartesian combinations or independent evidence.",
+        "response": "Corpus Github accepts that qualification. The earlier orthogonal-axes rationale is preserved as history and refined additively in the same owner VNext; the proposed canonical paragraph is unchanged.",
+        "common_ground": "Report separate descriptions; require evidence for replication and independence.",
+        "open_alternatives": [
+          "A descriptive record with constrained combinations.",
+          "A more formal multi-axis model, only if its admissibility rules earn their maintenance cost."
+        ],
+        "next": "Review valid combinations and actual independence evidence at a named consumer, then revalidate the unchanged proposed source paragraph before selection.",
+        "evidence": [
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423354136",
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423420186"
+        ],
+        "outcome": "Partial convergence; review rationale corrected, source adoption and consumer check remain open."
+      },
+      {
+        "id": "TX-F032",
+        "topic": "Reference scenario and technology–Challenge instantiation",
+        "source_review": "Corpus Github / TAX26-06 retains both the pre-technology bounded reference and the technology/configuration/context binding.",
+        "counterposition": "Taxonomía: retain source identifiers and correspondence; do not insert a new validation stage.",
+        "response": "Corpus Github: navigability is not evidence that a reduction preserves the tested property; use the family's actual preservation argument and assumptions.",
+        "common_ground": "Keep both objects and their correspondence without renaming frozen cases.",
+        "open_alternatives": [
+          "Use a qualified scenario name in navigation while the implementation profile owns the binding.",
+          "Keep source-native scenario labels with an explicit contextual explanation."
+        ],
+        "next": "Walk one existing DDS family through reference, reduction, technology binding, authoritative reference and result; record missing assumptions without running it.",
+        "evidence": [
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423354136",
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423420186"
+        ],
+        "outcome": "Partial convergence; worked consumer example still needed."
+      },
+      {
+        "id": "TX-F020",
+        "related": [
+          "TX-F030"
+        ],
+        "topic": "HELD and what a test actually observes",
+        "source_review": "Corpus Github / TAX26-01 distinguishes hold request or acknowledgment from the stopped state, enforcement and protective effect.",
+        "counterposition": "Taxonomía: a harness/model may observe an enforced stop and a bounded effect. Do not turn caution into a claim that HELD can never carry such evidence.",
+        "response": "Corpus Github: name object, observer and scope; production observations are not required for every bounded test.",
+        "common_ground": "A label alone is insufficient; scoped observations may establish exactly what they observe.",
+        "open_alternatives": [
+          "Declared hold only.",
+          "Stop/enforcement observed within a supplied model or harness.",
+          "Protective outcome observed at the claimed target boundary."
+        ],
+        "next": "Recheck TAX26-01 with a declared-only case and an observed-harness-stop case, retaining the exact claimed boundary.",
+        "evidence": [
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423354136",
+          "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423420186"
+        ],
+        "outcome": "Partial convergence; profile-specific evidence review remains open."
+      }
+    ],
+    "idea_next_steps": {
+      "TX-I001": "Compare a small source-qualified glossary against the federated-core design on actual ambiguity cases before choosing.",
+      "TX-I002": "Represent separate descriptions without asserting statistical or mathematical independence; specify invalid combinations when material.",
+      "TX-I003": "Try exact/related/incompatible/unresolved mappings on one status crosswalk, preserving reasons that affect action.",
+      "TX-I004": "Use the four existing debate cases before inventing a broad testing campaign.",
+      "TX-I005": "Qualify RA and P-family references while preserving native identifiers and historical labels.",
+      "TX-I006": "Trace one changed meaning through actual producer/consumer uses and retain independent support paths.",
+      "TX-I007": "Review translations and metaphor separately; publish source-qualified English definitions, with bilingual explanation when useful.",
+      "TX-I008": "Extend the existing coverage record across own collections and FG-TIDA surfaces, stating what was actually read.",
+      "TX-I009": "Use mapping examples to assess compatibility; reserve executable experiments for their separate authorization and protocol.",
+      "TX-I010": "Keep PR discussion and this board synchronized, with exact source edits staying in existing owner VNext."
+    },
+    "source_candidates": [
+      {
+        "id": "TAX26-01",
+        "title": "A hold request is not a confirmed stop",
+        "observation_ids": [
+          "TX-F020",
+          "TX-F030"
+        ],
+        "source": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "High",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "Refine against declared-only / observed-harness-stop counterpair before selection.",
+        "reason": "The current sentence describes a stopped operation but does not state the evidence needed to infer that state. Preserve its meaning and exclude the request-to-effect shortcut.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-02",
+        "title": "Give readers one operational evidence-to-decision distinction",
+        "observation_ids": [
+          "TX-F017",
+          "TX-F018"
+        ],
+        "source": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "High",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "First small editorial selection: dictionary and IF-S6 should be read together.",
+        "reason": "The dictionary has detailed producer verdicts but no equally accessible explanation of presentation, comprehension and decision-specific sufficiency. This is a reader entry, not a new universal event schema.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-03",
+        "title": "Explain the two reasons for targeted reassessment",
+        "observation_ids": [
+          "TX-F022",
+          "TX-F023"
+        ],
+        "source": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "High",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "First small editorial selection, paired with the receiving bridge TAX26-09.",
+        "reason": "The existing definition names dependencies and window but does not distinguish changed evidence from an enlarged decision-relevance boundary. This clarification retains the original historical finding.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-04",
+        "title": "Make human-review evidence interpretable at IF-S6",
+        "observation_ids": [
+          "TX-F017",
+          "TX-F020"
+        ],
+        "source": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "High",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "First small editorial selection, paired with dictionary TAX26-02.",
+        "reason": "The current evidence-considered input and outcome/reconciliation input are too compressed to explain what was actually observed. Expand their reading without adding mandatory EHD fields or changing interface payloads.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-05",
+        "title": "Scope the meaning of appraisal at IF-S5",
+        "observation_ids": [
+          "TX-F015",
+          "TX-F018"
+        ],
+        "source": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "Medium",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "Next editorial selection; retain appraisal policy/scope and receiving decision owner.",
+        "reason": "Entitled to be relied upon can be misread as a general authorization. Name the appraisal policy and claim scope while preserving the distinct receiving judgment and decision owner.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-06",
+        "title": "Distinguish reference scenario from technology-instantiated scenario",
+        "observation_ids": [
+          "TX-F011",
+          "TX-F032"
+        ],
+        "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "High",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "Refine by one source-family correspondence / preservation example before selection.",
+        "reason": "The source uses scenario for a bounded reference before technology mapping; the reader route also needs the technology–Challenge instantiation requested by Iván. One qualified pair of meanings preserves both uses without duplicating Challenges or rewriting S1–S6.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-07",
+        "title": "Separate evidence basis, execution setting, study design and independence",
+        "observation_ids": [
+          "TX-F011",
+          "TX-F026"
+        ],
+        "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "High",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "Rationale refined additively in the same owner VNext; valid-combination/consumer check still needed before selection.",
+        "reason": "The current evidence-mode list mixes several orthogonal axes. Reporting them separately prevents executable/native/campaign/independent from becoming a false evidence ladder; no historical result or stage is regraded.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-08",
+        "title": "Interpret the runtime-capacity vector as separate conditions",
+        "observation_ids": [
+          "TX-F019",
+          "TX-F024"
+        ],
+        "source": "research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01K_VNext.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "Medium",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "Next editorial selection; keep upstream authority and local/external dependency separate.",
+        "reason": "The vector correctly includes authority and information but its broad capacity name can conceal which condition failed. Preserve upstream authority and external dependency ownership while keeping the existing vector and HC/HID separation.",
+        "decision": null
+      },
+      {
+        "id": "TAX26-09",
+        "title": "Carry current-reliance and monitoring distinctions into the FG-TIDA bridge",
+        "observation_ids": [
+          "TX-F018",
+          "TX-F022",
+          "TX-F023",
+          "TX-F030"
+        ],
+        "source": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md",
+        "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#taxonomy-audit-and-literal-candidates--26-october-2026",
+        "expected_impact": "High",
+        "editorial_risk": "Low",
+        "effort": "Low",
+        "status": "PROPOSED_NOT_APPLIED",
+        "current_treatment": "First small editorial selection, paired with Foundation TAX26-03.",
+        "reason": "The bridge preserves source versions but leaves the operational distinction between source change and changed decision relevance implicit. This reading links the native HO-EDM judgment to EA reception without imposing its seven-part illustrative record as an EHD kernel.",
+        "decision": null
+      }
+    ],
+    "triage_basis": "Provisional documentary reading order based on concrete consumer consequences; not a maturity or impact score for all32 observations.",
+    "main_integration": "Preserve current main PR55 audit and all four existing PR56 paths together; no rollback to branch ancestry.",
+    "reaudit": {
+      "published_PR55_actual_tree_verified": true,
+      "published_PR56_actual_tree_verified": true,
+      "prior_main_paths_preserved": 2620,
+      "prior_branch_paths_preserved": 2623,
+      "canonical_sources_changed": 0,
+      "nine_literal_candidates_rechecked": 9,
+      "draft_issues_corrected": [
+        "Redundant summary/debate removed from unpublished candidate.",
+        "Speculative impact/risk/effort scores removed from32 preliminary observations; source-owned nine candidate ratings retained."
+      ],
+      "published_review_issue": "TAX26-07 orthogonality rationale overstated evidence; corrected by an additive clarification in the same owning VNext. TX-F031 was too broad about A; the board now distinguishes functional value/replica from an allowed identifying reference and qualifies proposed-contract status. No concrete dual-obligation consumer conflict is demonstrated.",
+      "remaining": [
+        "32 issues are not32 confirmed defects.",
+        "Whole-programme occurrence/consumer audit remains open.",
+        "H06 contract design remains disputed.",
+        "Nine source candidates remain proposed, not applied."
+      ]
+    },
+    "refinement_review": "../ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#tax26-07-review-rationale-refinement",
+    "source_scope_correction": {
+      "observation_id": "TX-F031",
+      "source_fact": "General04kernel permits an operational result or a result reference resolvable under the receiving profile at decision time. N02 excludes functional A or its replica on its declared route, permits an identifying reference/type description, and places result retrieval through that reference outside the route.",
+      "contract_status": "Ideal/proposed integration under review; it does not replace the04baseline.",
+      "discussion_status": "Consumer compatibility and remedy are disputed; the textual difference itself is observed. Different scoped profiles are not contradictory merely because their input sets differ.",
+      "actual_consumer_obligation_conflict_demonstrated": false,
+      "desk_cases": [
+        "Identifying reference/type, not resolved for A.",
+        "Functional A present, never treated as authority.",
+        "Reference resolved to retrieve A."
+      ],
+      "cases_executed": false,
+      "source_comment": "https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6427491558",
+      "primary_sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md#n02-mantener-a-fuera-de-la-entrada",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#L99"
+      ]
+    }
+  }
 }
