@@ -178,8 +178,15 @@
         "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md"
       ],
       "proposed_source_change": null,
-      "owning_review": null,
-      "discussion": []
+      "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "discussion": [
+        {
+          "basis": "published_PR55_review_and_current_AI_assisted_counterquestion",
+          "source": "https://github.com/dakleyer/structural-awareness-contributions/pull/55",
+          "position": "PR55 identifies DDS modes combining evidence basis, environment, design and independence. Response: separate facets do not prove orthogonality or license every Cartesian combination; evidence of independence must not be inferred from environment.",
+          "status": "open_no_consensus_claimed"
+        }
+      ]
     },
     {
       "id": "TX-F012",
@@ -315,8 +322,15 @@
         "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md"
       ],
       "proposed_source_change": null,
-      "owning_review": null,
-      "discussion": []
+      "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "discussion": [
+        {
+          "basis": "published_PR55_review_and_current_AI_assisted_counterquestion",
+          "source": "https://github.com/dakleyer/structural-awareness-contributions/pull/55",
+          "position": "PR55's review supports separating request, acknowledgment and effect. Response: identify the observation boundary; model/harness enforcement can support a bounded effect claim without establishing a real-world protective outcome.",
+          "status": "open_no_consensus_claimed"
+        }
+      ]
     },
     {
       "id": "TX-F021",
@@ -467,7 +481,55 @@
         "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md"
       ],
       "proposed_source_change": null,
-      "owning_review": null,
+      "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md",
+      "discussion": [
+        {
+          "basis": "published_PR55_review_and_current_AI_assisted_counterquestion",
+          "source": "https://github.com/dakleyer/structural-awareness-contributions/pull/55",
+          "position": "PR55 proposes clarifying HELD. Response: distinguish declared state, demonstrated model enforcement and observed target-world effect. Do not infer the inverse claim that HELD can never carry bounded effect evidence.",
+          "status": "open_no_consensus_claimed"
+        }
+      ]
+    },
+    {
+      "id": "TX-F031",
+      "title": "Result-aware EHD transport versus the N02 no-A input boundary",
+      "status": "disputed",
+      "kind": "cross_route_contract_question",
+      "basis": "published_source_review_consumer_test_pending",
+      "observation": "The PR55 review preserves an H06 question: the general EHD route can carry a producer A/result while the 04 N02 receiving contract excludes A on that input route. Treating the two as identical would conceal a possible contract incompatibility. Two explicit profiles are only a candidate, not an approved solution.",
+      "next_question_or_test": "Name the consumer of each route. Distinguish receiving producer A as attributed contextual data from treating A as authoritative permission. Test a case preserving non-authoritative A and a negative case wrongly promoting it to permission. If N02 forbids A entirely, allowing it changes the contract, not merely the label.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/pull/55",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "discussion": [
+        {
+          "basis": "AI_assisted_cross_review_response",
+          "source": "https://github.com/dakleyer/structural-awareness-contributions/pull/55",
+          "position": "A two-profile design must explain residual evidence, consumer authority and rejection rules before any harmonization.",
+          "status": "open_no_consensus_claimed"
+        }
+      ]
+    },
+    {
+      "id": "TX-F032",
+      "title": "Reference scenario versus technology–Challenge instantiation",
+      "status": "open",
+      "kind": "scenario_object_distinction",
+      "basis": "published_source_review_consumer_test_pending",
+      "observation": "The reference scenario defined before technology selection and the scenario instantiated for a particular technology–Challenge correspondence are related objects, not interchangeable names. PR55 proposes explicit wording in the owning DDS review.",
+      "next_question_or_test": "Keep the reference scenario fixed while changing the candidate technology. Identify the mapping assumptions and what belongs only to the instantiated case. Do not introduce a new validation stage or claim that instantiation itself demonstrates applicability.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/pull/55",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
       "discussion": []
     }
   ],
@@ -552,5 +614,6 @@
       "decision": null,
       "discussion": []
     }
-  ]
+  ],
+  "cross_review_note": "Initial30 retained; TX-F031–032 add two cross-review questions from published PR55. Distinct bots are not independent human validation; no consensus or source promotion claimed."
 }
