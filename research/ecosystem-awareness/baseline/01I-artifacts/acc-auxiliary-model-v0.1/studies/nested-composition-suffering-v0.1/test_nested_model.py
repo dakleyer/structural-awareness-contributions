@@ -5,7 +5,8 @@ from nested_model import (
     ProducerWorld, HumanDevelopmentCandidate, current_handoff,
     full_state_joint_capacity, receiver_only_decision_classes,
     agent_unilateral_reachability, structural_suffering_proxy, branch_profiles,
-    current_nested_output, answer_future_branch, distinct_future_answer_profiles,
+    current_nested_output, hierarchical_current_output, minimum_interface_bits_for_total_future,
+    answer_future_branch, distinct_future_answer_profiles,
     minimum_interface_bits_for_all_branch_queries, capacity_counterexample,
     cnf_satisfiable, report,
 )
@@ -70,6 +71,14 @@ class StipulatedSuffering(unittest.TestCase):
     def test_unknown_epistemic_status_not_zero(self):
         self.assertEqual(structural_suffering_proxy(self.p(evidence_of_epistemic_insufficiency=None))['status'],'NOT_IDENTIFIED')
 
+    def test_infinite_reference_not_accepted(self):
+        with self.assertRaises(ValueError):
+            structural_suffering_proxy(self.p(demonstrated_jointly_feasible_contribution=float('inf')))
+
+    def test_infinite_actual_not_accepted(self):
+        with self.assertRaises(ValueError):
+            structural_suffering_proxy(self.p(actual_genuine_contribution=float('inf')))
+
     def test_invalid_negative_contribution(self):
         with self.assertRaises(ValueError):
             structural_suffering_proxy(self.p(actual_genuine_contribution=-1))
@@ -78,6 +87,21 @@ class NestedInterface(unittest.TestCase):
     def test_all_current_A_equal_for_all_profiles(self):
         for n in range(1,7):
             self.assertEqual({current_nested_output(p) for p in branch_profiles(n)}, {8*n})
+
+    def test_recursive_composition_matches_flat_current_observation(self):
+        for n in range(1,7):
+            for p in branch_profiles(n):
+                self.assertEqual(hierarchical_current_output(p), current_nested_output(p))
+
+    def test_aggregate_query_uses_fewer_bits_than_individual_queries(self):
+        self.assertEqual(minimum_interface_bits_for_total_future(4), 3)
+        self.assertEqual(minimum_interface_bits_for_total_future(6), 3)
+        self.assertLess(minimum_interface_bits_for_total_future(6),
+                        minimum_interface_bits_for_all_branch_queries(6))
+
+    def test_recursive_observation_at_future_input_differs(self):
+        self.assertEqual(hierarchical_current_output([8,10], request=10),18)
+        self.assertEqual(hierarchical_current_output([10,10], request=10),20)
 
     def test_future_query_witness_is_distinct(self):
         self.assertNotEqual(answer_future_branch((8,10),0), answer_future_branch((10,8),0))

@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from itertools import product
-from math import ceil, log2
+from math import isfinite
 from typing import Iterable, Sequence
 
 
@@ -72,7 +72,7 @@ class HumanDevelopmentCandidate:
 def structural_suffering_proxy(p: HumanDevelopmentCandidate) -> dict[str, object]:
     """Require all three author-specified conditions plus legitimate feasible comparator."""
     a, z = p.actual_genuine_contribution, p.demonstrated_jointly_feasible_contribution
-    if not isinstance(a, (float, int)) or a < 0 or a != a:
+    if not isinstance(a, (float, int)) or not isfinite(a) or a < 0:
         raise ValueError('Actual contribution must be observed and finite/nonnegative')
     if z is None or any(v is None for v in (p.positive_contribution_to_others,
                                              p.blocked_without_unilateral_control,
@@ -80,7 +80,7 @@ def structural_suffering_proxy(p: HumanDevelopmentCandidate) -> dict[str, object
                                              p.rights_and_mission_preserved)):
         return {'status': 'NOT_IDENTIFIED', 'structural_development_gap': None,
                 'structural_suffering_proxy': None, 'subjective_suffering': 'NOT_MEASURED'}
-    if not isinstance(z, (int, float)) or z < 0 or z != z or z == float('inf'):
+    if not isinstance(z, (int, float)) or not isfinite(z) or z < 0:
         raise ValueError('Reference contribution must be finite and nonnegative')
     gap = max(0.0, float(z) - float(a))
     criteria = bool(gap > 0 and p.positive_contribution_to_others
@@ -109,6 +109,34 @@ def current_nested_output(capacity_vector: Sequence[int]) -> int:
     return sum(min(8, k) for k in capacity_vector)
 
 
+def hierarchical_current_output(capacity_vector: Sequence[int], request: int = 8) -> int:
+    """Recursive binary composition: a parent sees only the sums of child outputs.
+
+    No oracle, fabricated unknown, or extra signal. All leaves are simulated in
+    the finite declared world; actual receiver gets only the top-level output.
+    """
+    if not capacity_vector:
+        raise ValueError('At least one producer required')
+    if any(k not in (8, 10) for k in capacity_vector) or request < 0:
+        raise ValueError('Invalid finite producer profile')
+    if len(capacity_vector) == 1:
+        return min(request, capacity_vector[0])
+    middle = len(capacity_vector) // 2
+    return (hierarchical_current_output(capacity_vector[:middle], request)
+            + hierarchical_current_output(capacity_vector[middle:], request))
+
+
+def minimum_interface_bits_for_total_future(n: int) -> int:
+    """Only aggregate demand across branches: n+1 responses, not 2**n.
+
+    Thus a single aggregate query has lower communication cost than all
+    distinct future branch questions. Prevents universalizing the n-bit bound.
+    """
+    if type(n) is not int or n < 1:
+        raise ValueError('Positive n required')
+    return n.bit_length()  # ceil(log2(n+1))
+
+
 def answer_future_branch(capacity_vector: Sequence[int], branch: int, request: int = 10) -> int:
     if not (0 <= branch < len(capacity_vector)) or request < 0:
         raise ValueError('Invalid branch or request')
@@ -131,11 +159,13 @@ def capacity_counterexample(n: int) -> dict[str, object]:
     profiles = branch_profiles(n)
     values = {current_nested_output(x) for x in profiles}
     assert values == {8 * n}
+    assert {hierarchical_current_output(x) for x in profiles} == values
     f = distinct_future_answer_profiles(n)
     return {'branch_count': n, 'distinct_hidden_states': len(profiles),
             'same_current_A': next(iter(values)),
             'distinct_future_query_response_vectors': len(f),
             'min_exact_message_bits_for_all_branch_queries': minimum_interface_bits_for_all_branch_queries(n),
+        'min_exact_message_bits_for_single_aggregate_future_query': minimum_interface_bits_for_total_future(n),
             'not_uncomputability': True}
 
 

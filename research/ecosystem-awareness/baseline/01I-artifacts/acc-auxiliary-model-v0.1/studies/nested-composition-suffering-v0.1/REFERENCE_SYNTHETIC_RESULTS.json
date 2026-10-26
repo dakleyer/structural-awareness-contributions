@@ -18,6 +18,7 @@
       "distinct_future_query_response_vectors": 2,
       "distinct_hidden_states": 2,
       "min_exact_message_bits_for_all_branch_queries": 1,
+      "min_exact_message_bits_for_single_aggregate_future_query": 1,
       "not_uncomputability": true,
       "same_current_A": 8
     },
@@ -26,6 +27,7 @@
       "distinct_future_query_response_vectors": 4,
       "distinct_hidden_states": 4,
       "min_exact_message_bits_for_all_branch_queries": 2,
+      "min_exact_message_bits_for_single_aggregate_future_query": 2,
       "not_uncomputability": true,
       "same_current_A": 16
     },
@@ -34,6 +36,7 @@
       "distinct_future_query_response_vectors": 8,
       "distinct_hidden_states": 8,
       "min_exact_message_bits_for_all_branch_queries": 3,
+      "min_exact_message_bits_for_single_aggregate_future_query": 2,
       "not_uncomputability": true,
       "same_current_A": 24
     },
@@ -42,6 +45,7 @@
       "distinct_future_query_response_vectors": 16,
       "distinct_hidden_states": 16,
       "min_exact_message_bits_for_all_branch_queries": 4,
+      "min_exact_message_bits_for_single_aggregate_future_query": 3,
       "not_uncomputability": true,
       "same_current_A": 32
     },
@@ -50,6 +54,7 @@
       "distinct_future_query_response_vectors": 64,
       "distinct_hidden_states": 64,
       "min_exact_message_bits_for_all_branch_queries": 6,
+      "min_exact_message_bits_for_single_aggregate_future_query": 3,
       "not_uncomputability": true,
       "same_current_A": 48
     }
