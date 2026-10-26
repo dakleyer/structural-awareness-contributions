@@ -94,3 +94,8 @@ jobs:
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/tests -p test_uc21_dds_bridge.py -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/uc21_dds_bridge.py research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/examples/uc21_s4_synthetic_defender.json --output /tmp/uc21_dds_synthetic_result.json
           python -B -c "import json; d=json.load(open('/tmp/uc21_dds_synthetic_result.json')); assert d['selected_intervention_prediction']=='SYNTHETIC_DEFENCE_NOT_EMPIRICAL_FALSIFICATION'; assert d['case_results'][2]['admitted_branch_defence']; assert d['uc21_hr_existential_six_case_conclusion']=='NOT_REFUTED_OR_PROVED_BY_NONEXHAUSTIVE_RUNS'; assert d['economic_projection']['mode']=='formulas'"
+
+      - name: Check ACC agentic ecosystem reduction (synthetic Stage A)
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1 -p 'test_*.py' -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/verify.py
