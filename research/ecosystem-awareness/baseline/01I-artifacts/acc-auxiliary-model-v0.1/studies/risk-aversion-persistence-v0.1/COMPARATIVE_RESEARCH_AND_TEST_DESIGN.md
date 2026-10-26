@@ -122,3 +122,5 @@ Registrar antes de elegir expectativas, γ aproximada por tareas de lotería, κ
 Es **normativamente inadmisible** inferir que la elección de permanecer o defender legitima imponer cargas a hijos, migrantes u otros actores, o que la defensa es socialmente eficiente. La voluntad humana, titularidad, externalidades, derechos y distribución intergeneracional requieren evaluación separada. El ejemplo del parque infantil financiado para quien aún no lo puede usar es una ilustración crítica en el escrito privado; no constituye aquí dato sobre gobiernos, corrosión o deuda.
 
 **Documentos ejecutables:** [README](README.md), [implementación](risk_model.py), [pruebas deterministas](test_risk_model.py) y [resultados sintéticos declarados](REFERENCE_SYNTHETIC_RESULTS.json). Mantener el PR abierto en borrador hasta revisión y CI.
+
+**Propuestas de extensibilidad investigable:** [RAV-01-EXT: kernel isomórfico, deltas no isomórficos, validación social, vínculos y agentes](EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md). El anexo clasifica correspondencias y diseña pruebas futuras; no modifica ni ejecuta el testigo de este documento.
