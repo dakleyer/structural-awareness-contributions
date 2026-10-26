@@ -3,13 +3,13 @@ import json
 import unittest
 from pathlib import Path
 
-from bridge_core import (
+from bridge import (
     ModelError, attribution_signatures, curvature, evaluate, hid_against_optima,
     map_flow, money_ledger, retirement,
 )
 
 
-FIXTURE = json.loads(Path(__file__).with_name("bridge_scenario.json").read_text())
+FIXTURE = json.loads(Path(__file__).with_name("scenario.json").read_text())
 
 
 class BridgeTests(unittest.TestCase):
