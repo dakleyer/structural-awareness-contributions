@@ -4,7 +4,7 @@
 
 ## 1. Objetivo y fuentes realmente utilizadas
 
-Convierte varios Google Docs de Conscientia Ecosystemica, el trabajo de composición social y los dosieres de Attribution Gap, Informational Friction, Cost of Clarity y Human Intelligence Debt en una campaña homogénea con **identidad de cada documento, pregunta, hipótesis, variante adversa, estado del ensayo y resultados**. [SOURCE_REGISTER.json](SOURCE_REGISTER.json) identifica **23 fuentes** (19 referencias de Google Docs y cuatro entradas del corpus Github). De los 19 Docs se recuperó texto para un **cribado temático de los 19** (incluidas las dos entradas históricas CE-MH-ONEPAGER y CE-PRESCIENCE); no se atribuye una lectura académico-crítica integral de cada uno ni un corpus congelado/inmutable. Son fuentes de conceptos/hipótesis, no experimentos observados. Las referencias siguen siendo **documentos vivos**: para una auditoría externa a largo plazo habrá que custodiar una exportación consentida, fechada e íntegra de sus ediciones; no se supone que el enlace actual sea una edición inmutable.
+Convierte varios Google Docs de Conscientia Ecosystemica, el trabajo de composición social y los dosieres de Attribution Gap, Informational Friction, Cost of Clarity y Human Intelligence Debt en una campaña homogénea con **identidad de cada documento, pregunta, hipótesis, variante adversa, estado del ensayo y resultados**. [SOURCE_REGISTER.json](SOURCE_REGISTER.json) identifica **23 fuentes** (19 referencias de Google Docs y cuatro entradas del corpus Github). De los 19 Docs, se inspeccionó texto de **17**; las dos entradas históricas CE-MH-ONEPAGER y CE-PRESCIENCE están catalogadas por título, **no** se atribuye una extracción completa. Son fuentes de conceptos/hipótesis, no experimentos observados. Las referencias siguen siendo **documentos vivos**: para una auditoría externa a largo plazo habrá que custodiar una exportación consentida, fechada e íntegra de sus ediciones; no se supone que el enlace actual sea una edición inmutable.
 
 [CASE_REGISTRY.json](CASE_REGISTRY.json) congela el objeto sintético: **12 familias × cinco variantes = 60 escenarios**; cada una tiene origen y ejemplo establecido por [EXAMPLE_LEDGER PR #42](../bounded-traps-v0.1/EXAMPLE_LEDGER.md). Los originales no se sustituyen ni se presentan como eventos observados. [SOURCE_COVERAGE_AND_BACKLOG.md](SOURCE_COVERAGE_AND_BACKLOG.md) fija qué caso sí está modelado y cuáles sólo son propuestas de futura instrumentación.
 
@@ -16,7 +16,6 @@ Convierte varios Google Docs de Conscientia Ecosystemica, el trabajo de composic
 | FH-C causal | **8 combinaciones**: Q de fronteras sí/no × hechos adicionales sí/no × dos perfiles adversos; se incluyen tanto apoyo como contradicción de FH-C. No es identificación causal real. |
 | Composición física / awareness | **8 combinaciones 2×2×2**: Q × transición conjunta × necesidad de fundamento; Q sola no produce recursos. |
 | Brecha relativa | **8 situaciones**: cuatro tamaños n con red densa o estrella; el óptimo conjunto contrafactual está supuesto. No equivale a HID medido. |
-| Microensayos directamente anclados | **12 comprobaciones aritméticas o puertas de evidencia**: plátanos, coste de coordinación, crédito, manzanas, eficiencia IQ-03, procedencia, XOR, naranjas, escuela, ministerios, oficios y liceo. No son observaciones sociales. |
 | Entropía y preimagen | Dos mundos finitos explícitos, Shannon condicional, y contraejemplo de KL en la orientación original errónea. Ninguna entropía atribuida al exterior abierto D. |
 | Capacidades humanas, atribución, Cost of Clarity | Una brecha personal estructural sintética sin dolor medido; roles ACW/GIC/NEO/UNKNOWN **no observados**; cálculo D02 bloqueado por discrepancia de ediciones; capture–recapture sin muestreo queda no identificado. |
 | Reproducción de PR #42–#45 | Cuatro scripts originales del repositorio se ejecutan **de nuevo** en CI y se comparan con sus propios JSON de referencia. No son cuatro verificaciones empíricas independientes. |
@@ -54,3 +53,18 @@ La CI aprovecha el único [workflow de integridad documental](https://github.com
 5. No calcular índice D02 con una ecuación inconsistente entre ediciones ni extrapolar frecuencias Shannon/capture–recapture a C/D abiertos.
 
 **Novedad atribuible:** un paquete de pruebas **interoperable y trazable** de composición socioeconómica + cualificación epistémica + derechos y resultados humanos separados, con falsadores y comparadores fuertes. Las ideas de juegos de coordinación, Blackwell, Shannon e interpretación abstracta tienen prior art; esta batería no demuestra una primicia matemática.
+
+## Confirmación de la ejecución integrada en GitHub CI
+
+**Corte verificado tras el commit experimental, sin sustituir las mediciones locales anteriores:** la [ejecución 40350676384](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40350676384) concluyó SUCCESS. Se verificaron **49 pruebas nuevas**, cuatro replays de módulos sintéticos PR #42–#45 frente a sus resultados de referencia y un único adaptador UC21/S4 **SINTÉTICO**, sin prueba nativa de productos. La salida de `verify_campaign.py` declara `passed=true`, `scenario_cases=60`, `arm_decisions=300`, `prior_studies_replayed=4`, `UC21_synthetic_only=true`.
+
+La ejecución publicó el artifact `conscientia-acc-synthetic-results` (ID 12664160091) con JSON y Markdown de resultados regenerados; es un entregable temporal de Actions, no una observación independiente. Los datos fuente/casos/resultados fijados y los programas permanecen en el repositorio para reproducirlos después del vencimiento del artifact.
+
+**Índice en Google Docs (nuevo, sin cambios a las fuentes originales):** https://docs.google.com/document/d/17ud6Jce6b-Dy2mnV3GSXiqfrhsMMe09xAJzLztNknUc/edit
+
+
+## Extensión documental con doce microensayos reproducibles (PR #49)
+
+La ampliación [PR #49](https://github.com/dakleyer/structural-awareness-contributions/pull/49) conserva **todo el trabajo ya fusionado** y añade doce verificaciones fuente-ancladas a los ejemplos originales: el plátano en tres estados con conservación de unidades y consentimiento, crédito 7+4/7+3, manzanas y frutería con utilidad no monótona, eficiencia del documento IQ-03, procedencia duplicada, XOR finito, naranjas sin colusión demostrada, educación, ministerios, oficios y alumno de liceo como viñeta. El runner guarda los resultados en `source_anchored_microexperiments`, comparables con el JSON de referencia, **sin convertir ilustraciones en evidencia social observada**.
+
+Las 61 pruebas abarcan los 49 controles previos y doce casos adicionales. Los resultados anteriores y el artefacto CI ya verificado se preservan; los valores económicos/psicológicos de esos nuevos ejemplos siguen siendo sintéticos o NO ESTABLECIDOS. El instrumento D02 Attribution Gap permanece bloqueado por discrepancia de fórmula entre versiones y las métricas humanas necesitan fuente independiente. No existe un segundo protocolo DDS ni un oráculo UC21 reescrito.

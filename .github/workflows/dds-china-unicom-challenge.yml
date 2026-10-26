@@ -1,0 +1,38 @@
+name: DDS China Unicom challenge integrity
+
+# Narrow-scoped documentation/synthetic integrity only.
+# Runs on this campaign branch and PR changes, not on all repository pushes.
+# This DOES NOT adjudicate the authorization challenge or measure PDP safety.
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'dds/china-unicom-privilege-lifecycle-*'
+    paths:
+      - 'research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/**'
+      - 'research/ecosystem-awareness/campaigns-in-development/INDEX.md'
+      - 'research/ecosystem-awareness/campaigns-in-development/REGISTRY.json'
+      - '.github/workflows/dds-china-unicom-challenge.yml'
+  pull_request:
+    paths:
+      - 'research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/**'
+      - 'research/ecosystem-awareness/campaigns-in-development/INDEX.md'
+      - 'research/ecosystem-awareness/campaigns-in-development/REGISTRY.json'
+      - '.github/workflows/dds-china-unicom-challenge.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  static-campaign-integrity:
+    name: Author-side synthetic/doc integrity (not scientific TEVV)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Python syntax
+        run: python -m py_compile research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/tools/validate_challenge.py
+      - name: Check registry, source status, casebook, v0.4 documents and internal links
+        run: python research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/tools/validate_challenge.py

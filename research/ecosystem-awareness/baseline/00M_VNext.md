@@ -333,3 +333,191 @@ The current note does not apply changes. A warranted incorporation must supply c
 **Benefit:** explicit, non-circular transitions between mathematical sufficiency, resource-constrained policy inclusion and credible technological falsifiers. **Risks:** quietly replacing general plausibility with a toy, confusing a mathematical inclusion with lower lifecycle cost, confusing R0/R1/R2 with DDS stages, post-hoc changing source gates, or claiming that one defender pass refutes every possible recurrence.
 
 **Owner decision proposed:** review and approve a *single bounded crossreading pointer* in 00M or retain this VNext record only. No 00M semantic paragraphs, H1–H6, UC21 source bytes or frozen DDS evidence are altered by this draft.
+
+
+---
+
+## 15 octubre 2026 — plausibilidad de asignación de explotación mediante contexto compuesto (propuesta 00M §6.4)
+
+**Estado: propuesta matemática del autor para la única VNext de 00M, NO aplicada al 00M v0.8 publicado.** La definición semántica vigente continúa en [00M §1](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md); [00N §§1.2–1.3, 3.6–3.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) conserva su desarrollo funcional. Esta ampliación distingue dos problemas que no deben confundirse: (i) el conjunto de composiciones **en principio computables** por un sistema dado; (ii) qué partes **elige explotar** un conjunto de agentes con tiempo, atención y recursos limitados. No es un nuevo teorema de computabilidad ni evidencia de un despliegue EA.
+
+### A. La reserva no explotada es una diferencia de selección, no una nueva clase de computabilidad
+
+Fijados un instante \(t\), una familia de capacidades de agentes \(\mathcal F_{i,t}\), sus contratos de entradas/salidas, permisos y reglas de admisión \(\mathrm{Adm}_t\), podemos definir una envolvente idealizada de composiciones finitas admisibles:
+
+\[
+\mathcal K_t=\operatorname{Cl}_{\circ}^{\mathrm{Adm}_t}
+ \Bigl(\bigcup_i\mathcal F_{i,t}\Bigr).
+\]
+
+Esta **clausura composicional** es una construcción relativa a los contratos realmente admitidos: no afirma que todo programa termine, que conozcamos todas las composiciones posibles, que exista un algoritmo para decidir su equivalencia, ni que su ejecución sea barata o llegue a tiempo. Las transformaciones metamórficas obligan a indexar tanto capacidades como contratos y observaciones por versión y tiempo. Es incorrecto situar algo en C solo porque exceda una máquina aislada si una **composición legítima y caracterizada** ya permite su evaluación dentro del sistema.
+
+Para una familia declarada de preguntas \(Q_t\), sea \(\mathcal R_t\subseteq Q_t\) la porción con método, variables, alcance y elegibilidad **suficientemente caracterizados** para evaluación usando la capacidad disponible. Sea \(\mathcal X_t\subseteq\mathcal R_t\) la selección de evaluaciones efectivamente emprendidas bajo el presupuesto disponible; no toda evaluación emprendida ha de terminar con una respuesta satisfactoria. Los resultados emitidos por su actividad son **A**; el soporte caracterizado, los límites y las oportunidades \(\mathcal R_t\setminus\mathcal X_t\) forman parte de **B**, la reserva de explotación. No se escribe literalmente \(A\subseteq B\): A es el resultado funcional, B su fundamento y reserva; la inclusión correcta es \(\mathcal X_t\subseteq\mathcal R_t\) entre **operaciones/preguntas**, no entre dos salidas del mismo tipo.
+
+C es una **vía de exploración fundada** cuyo marco de evaluación todavía no está caracterizado; no se representa como el complemento calculado \(Q_t\setminus\mathcal R_t\) ni como un inventario cerrado. D representa **efectos potencialmente materiales fuera de la evaluación efectiva** del proceso bajo sus condiciones; la imposibilidad de control no equivale por sí sola a D si el efecto sí puede evaluarse. UNKNOWN se conserva cuando tampoco hay fundamentos para asignar rol. Que exista una frontera relativa a un universo mayor no demuestra que todo sistema posea un C concretamente observado ni que se pueda enumerar D.
+
+### B. Hipótesis no oracular: conservar las posiciones, no decidir lo indecidible
+
+Cada agente entrega su resultado operativo \(A_i\) y, cuando existe fundamento, una descripción contextual \(\mu_i\) de sus bases, reservas, vías de exploración y límites de evaluación. La representación intercambiada puede ser \((A_i,\mu_i)\), pero **\(\mu_i\) no contiene los valores desconocidos de C o D**, no transfiere autoridad y no garantiza que la pregunta original sea decidible. Un mismo canal físico podría transportar ambos; no son **fungibles semánticamente** ante un receptor que solamente entiende el tipo A.
+
+Supongamos que \(\mu_i\) es computable a partir de trazas finitas, contratos y bases ya establecidas por los productores, y que la composición de mensajes es computable. Bajo ese supuesto, una capa EA **no aumenta la clase de funciones parciales computables por el sistema ideal**. Sí puede aumentar la observabilidad efectiva de un receptor que antes veía únicamente los \(A_i\), porque se evita descartar cualificaciones en el handoff. Un A producido por la función de revisión contextual NO convierte retrospectivamente el C o D irresuelto del productor en un A suyo. Ningún oráculo de Turing es supuesto ni suministrado.
+
+### C. Proposición condicional exacta: mayor conjunto de políticas de asignación
+
+Sea \(\theta\) una situación operativa en una distribución de ensayo predeclarada; \(A\) el conjunto de resultados transportados; \(M\) las cualificaciones contextuales legítimas, con su tiempo, alcance y fuente; \(\mathcal U\) una misma familia de acciones/evaluaciones **ya elegibles** y \(J(u,\theta)\) el beneficio o cumplimiento de una pregunta de *revisión y asignación de recursos*, NO una declaración de verdad sobre lo irresoluble.
+
+Para políticas con el mismo límite de coste de ejecución, un receptor que observa \((A,M)\) puede siempre ignorar \(M\). Por tanto, si el coste de capturar/interpretar \(M\) no se contabiliza todavía:
+
+\[
+V_{A,M}=\sup_{\pi\in\Pi_{A,M}}\mathbb E[J(\pi(A,M),\theta)]
+\ \ge\
+V_A=\sup_{\pi\in\Pi_A}\mathbb E[J(\pi(A),\theta)],
+\quad \Pi_A\subseteq\Pi_{A,M}.
+\]
+
+**Prueba:** toda política de \(\Pi_A\) también pertenece a \(\Pi_{A,M}\) al ignorar \(M\). Es una dominancia **débil** elemental por ampliación de observaciones, no una nueva teoría. La desigualdad solo es **estricta** cuando el metacontexto modifica de modo beneficioso la decisión óptima en escenarios con peso positivo. El **valor neto** puede ser menor o negativo al introducir los costes completos de instrumentación, envío, validación y composición, o cuando un sistema convencional ya posee el mismo contexto. No se afirma una mejora universal, ni que añadir etiquetas por sí solo genere correlación con el objetivo.
+
+**Testigo finito para falsación:** dos productores comunican siempre el mismo A=«7». El próximo control tiene **un solo turno de evaluación** y dos rutas \(u_L,u_R\), ambas existentes en la envolvente componible, pero solo una dispone del método/permiso actualmente aplicable. En la mitad de estados de prueba \(u_L\) es aplicable y en la otra mitad \(u_R\). Una cualificación B legítima que indica cuál ruta está ya caracterizada permite elegir correctamente el turno en ambos casos. Un receptor que solo ve A no distingue los casos: con priori equiprobable, no puede superar probabilidad \(1/2\) de elegir una **ruta aplicable**, mientras el receptor contextual alcanza \(1\), **sin resolver aún el resultado de la propia evaluación**. Es un ejemplo de **asignación**, no una predicción de autorización, de la población desconocida en C ni de los riesgos reales en D. Si el receptor ordinario ya conoce el registro de rutas aplicables, también alcanza \(1\): resultado nulo para cualquier ventaja exclusiva de EA.
+
+Un beneficio específico de C/D exige una pregunta distinta: por ejemplo, detectar una **brecha de base suministrada**, justificar una abstención o dirigir una búsqueda hacia otro agente que tenga una capacidad B compatible, sin asignar una probabilidad ficticia a la extensión C ni computar el efecto D. C o D pueden orientar acciones sin revelar el valor de la respuesta original. Un beneficio estricto requiere su propio testigo y coste; no se hereda del caso de B.
+
+### D. Qué cambia —y qué NO cambia— en los teoremas de imposibilidad
+
+- **Arrow:** la inexistencia de una función de bienestar social que satisfaga simultáneamente dominio irrestricto, ordenación social, Pareto, independencia y no dictadura sigue intacta con esos axiomas, aun si todo el espacio de funciones del tipo exigido es computable. Un contexto puede orientar qué problema de elección formular, qué condición reconsiderar o cuándo **no** producir una ordenación; esto cambia el contrato de evaluación, **no refuta Arrow**. [Definición y alcance](https://plato.stanford.edu/entries/arrows-theorem/).
+- **Kleinberg:** ninguna función de clustering plano satisface simultáneamente invariancia de escala, riqueza y consistencia bajo sus axiomas. El metacontexto puede orientar una partición condicionada o una revisión de régimen si se modifica explícitamente el perfil, **no satisfacer simultáneamente los tres axiomas originales**. [Artículo](https://web.stanford.edu/~rezab/discrete/Notes/Kleinberg%20-%20impossibility%20theorem.pdf).
+- **Rice:** la indecidibilidad **uniforme** de propiedades semánticas no triviales de programas no implica que cada problema individual sea indecidible. Una ejecución agotada por tiempo o memoria tampoco demuestra no computabilidad. Se puede mejorar la elección de ensayos y recursos sin decidir universalmente la propiedad. [Enunciado formal](https://plato.stanford.edu/entries/recursive-functions/).
+- **Wonham y Pam Dixon:** una interfaz contextual puede cambiar el conjunto de observaciones y ayudar a reconocer **qué condición de autoridad necesita ser revisada**; la suficiencia para una decisión futura todavía requiere un criterio propio y evidence/standing admitidos. Ningún metadato crea un mandato originario ni su autorización. La composición de incertidumbre es diferente de resolver la autorización. [Pam, respuesta directa](https://github.com/FG-TIDA/themes/issues/9#issuecomment-6179863862).
+
+La tesis defendible no es «los imposibles se vuelven posibles» en el mismo modelo y con los mismos axiomas, sino que la arquitectura **puede usar conocimiento ya caracterizado sobre sus propias fronteras** para reasignar explotación y mejorar decisiones de revisión dentro de las capacidades existentes, en escenarios donde una interfaz A-only lo perdería. Los teoremas generales siguen imponiendo sus límites; cambia la **política efectiva bajo recursos finitos**, el tipo de salida contextual y, a veces, la observación legítimamente disponible.
+
+### E. Antes/después localizado propuesto para 00M; NO incorporado
+
+**Ubicación si Iván da GO de incorporación:** tras **00M §6.3** (límite de información con estados indistinguibles), antes de §7 (alcance de la plausibilidad), como **§6.4 “Compositional capacity versus resource-bounded exploitation”**. No cambiar §1 canónica, §§4.1–4.3, ejemplos, referencias fijadas ni el nombre de la v0.8 original; si se autoriza una versión nueva, preservar la publicación actual y documentar el sucesor con su propio control de cambios.
+
+**Antes (00M §6.3 final, cuerpo actual intacto):** «This elementary indistinguishability argument is stated here directly. Braverman et al. [R5] provides quantitative communication lower bounds for particular statistical models; it is relevant context, not the source of this generic two-state argument or an EA validation.»
+
+**Después propuesto, núcleo de una adición (sin sustituir el texto anterior):**
+
+> A result-only interface can be sufficient for the producer's selected operation yet omit already-characterized reserves, exploration routes and effective determination limits that matter to a different review question. For a fixed typed family of permissible agent operations, admissible finite compositions do not become non-computable merely because the agents exchange qualified context. The proposed gain is **resource-bounded and question-relative**: qualified positions may improve the selection of which already-assessable operation to run, where to inspect an uncharacterized frontier or when to preserve an unresolved limit. For a fixed admissible action family, policies able to ignore metadata include all A-only policies, so gross optimal value cannot decrease solely from observing additional valid context. Strict and net benefit require source-eligible, timely, decision-relevant qualifiers and measured total cost, and must be compared with a competent baseline that already retains them. C/D are not assumed enumerable or calculable and no oracle decides them; Arrow, Kleinberg and Rice remain valid within their original formal hypotheses.
+
+**Falsadores y DDS propuesto:** fijar agentes y sus composiciones; identificar las preguntas y el presupuesto; construir al menos dos estados con el mismo A y distinta acción óptima de revisión fundamentada; contrastar A-only, EA contextual y un incumbente con información equivalente; medir utilidad, coste total, tiempo, errores de falsa continuación, abstención justificada y procedencia/autoridad. Si los agentes no aportan diferencias útiles, si la comparación ordinaria ya transporta el mismo contexto, si la cualificación llega tarde o si el coste destruye el beneficio, el diferencial es **nulo o negativo**. Ningún experimento DDS Stage A/B/C real queda ejecutado por esta nota.
+
+**Gobernanza y fuentes:** esta sección es **una ampliación propuesta en 00M_VNext, no una edición del documento 00M v0.8 ni de sus requisitos congelados**. No se publican notas históricas privadas, originales de Drive ni supuestas aprobaciones de FG-TIDA; el trabajo formal y el diálogo con Pam siguen fuentes distintas. Sin validación matemática independiente ni un GO para sustituir la versión pública de 00M. La evaluación puede avanzar aunque nunca se apruebe la incorporación.
+
+
+### F. Punto y seguido — pérdida muchos-a-uno, contexto cualificado y potencial de triangulación
+
+**Nota abierta del autor, 16 de octubre de 2026 — primera base de un argumento de ganancia neta, NO su demostración.** Esta continuación forma parte de la propuesta de §6.4 anterior; no sustituye las hipótesis ni solicita incorporar hoy la VNext en 00M. El autor desarrollará la parte restante en un siguiente intercambio.
+
+**1. La pérdida tiene lugar en la elección/composición, no en un mundo oculto que se haya inventariado.** En cada productor, varias alternativas, trazas, bases, intentos, condiciones de operación o posibilidades de explotación ya caracterizadas pueden desembocar en un solo resultado funcional A. Si una proyección \(a:S\to\mathcal A\) identifica estados \(s\neq s'\) que antes eran distinguibles, la interfaz A sola no reproduce esa distinción. El ejemplo de «el contador entrega 7» es distinto de transmitir qué cobertura, dependencias, reserva B o rutas C/D se han caracterizado al producir 7. Un receptor puede estar interesado en una pregunta distinta de la pregunta inicial del contador.
+
+La **relación con B/C/D es funcional, no una igualdad de conjuntos**: B refiere a la base y reserva evaluable ya caracterizada que puede no haberse seleccionado; C a direcciones de exploración fundadas pero todavía no caracterizadas para evaluación; D a efectos potencialmente materiales fuera de la evaluación efectiva. Lo enviado es una **representación parcial, atribuida y lícita de estas posiciones**, no los contenidos totales de C/D ni una lista completa de opciones descartadas. Una proyección muchos-a-uno puede haber eliminado distinciones respecto de B o señales de C/D, pero el mero hecho de ser muchos-a-uno NO demuestra que haya eliminado alguna cualificación útil: todas las diferencias descartadas podrían ser irrelevantes para el receptor.
+
+**2. Información retenida y relevancia para otra pregunta son dos cantidades distintas.** Para una variable discreta \(S\) de estados/trazas fuente observados en un perfil delimitado, \(A=a(S)\), metacontexto \(M=m(S)\) y pregunta receptora predeclarada \(R=r(S)\):
+
+\[
+L_{\mathrm{source}}=H(S\mid A),
+\qquad
+G_{\mathrm{retained}}=I(S;M\mid A),
+\qquad
+G_{\mathrm{review}}=I(R;M\mid A).
+\]
+
+Una proyección no inyectiva sobre estados de **probabilidad positiva** hace posible \(H(S\mid A)>0\); si M separa realmente esos estados, \(I(S;M\mid A)>0\). Por la regla de la cadena y las cotas de entropía, \(0\leq G_{\mathrm{review}}\leq H(R\mid A)\leq H(S\mid A)\) si R es función de S. Así, la pérdida fuente impone una **cota superior del espacio de ganancia**, no una ley de recuperación proporcional ni una ganancia garantizada. Incluso un \(H(S\mid A)\) enorme puede coexistir con \(I(R;M\mid A)=0\) cuando lo perdido no es relevante para R. Los indicadores que describen una frontera pueden ser útiles para elegir una revisión aunque aporten cero información sobre la respuesta oculta original. Para el exterior abierto C/D sin distribución validada, no se calcula una entropía fingida.
+
+**3. Dos vías que no deben mezclarse.** (a) Reconstruir escenarios contrafácticos («¿qué ocurriría si el agente hubiese seleccionado también la alternativa 2, 3, ...?») exige nuevas evaluaciones y recursos; EA no lo obtiene gratuitamente. (b) Conservar las declaraciones parciales, condiciones de validez, razones conocidas de descarte, posiciones y fronteras ya advertidas en los productores permite que un receptor COMPONGA INFORMACIÓN CONTEXTUAL SIN EJECUTAR TODOS LOS CONTRAFÁCTICOS. El coste de (b) puede ser menor o mayor que la repetición, según instrumentación, cantidad, proveniencia, latencia, derechos y necesidad de interpretación. No equivale a una clonación Docker/Kubernetes ni a un oráculo para resolver C o D.
+
+**4. Hipótesis de triangulación multiagente, explícitamente aún no demostrada.** Si tres productores trabajan en habitaciones o ventanas diferentes y transmiten A junto con observaciones cualificadas acerca de sus fronteras, las relaciones entre sus posiciones podrían permitir a un receptor establecer una incompatibilidad, una correspondencia de alcance, un solapamiento o una brecha de observación que ninguna A aislada determina. La analogía geométrica de triangulación requiere referencias comunes, superposición justificada, tiempo coherente, atribución y un mecanismo de inferencia correcto; sin ello, «varios puntos de vista» no determina un entorno común. «No puede ver fuera» no identifica qué hay fuera. Los agentes pueden compartir una misma fuente o describir el mismo punto ciego sin que ello constituya evidencias independientes. La estricta ganancia epistémica de esa triangulación es una cuestión de prueba, no una premisa.
+
+**5. Por qué "más pérdida ⇒ más ganancia neta" sigue abierta.** La intuición del autor es que un ecosistema cuyas salidas A comprimen muchas elecciones tiene más **margen potencial** para recuperar distinciones por composición. La relación propuesta es investigable, pero no admite hoy ni universalidad, ni proporcionalidad, ni monotonía: una compresión mayor puede descartar solamente ruido o diferencias sin valor para la pregunta receptora. Para hablar de beneficio neto necesitamos distinguir medidas en bits de magnitudes de utilidad, coste, tiempo y riesgo. Definir, para un mismo horizonte y acciones elegibles, \(U_{\mathrm{net}}=\Delta U_{\mathrm{decisional}}-C_{\mathrm{captura,transporte,interpretación,verificación,coordinación}}\), con unidades de utilidad comparables. Puede ser positiva, cero o negativa; hay que compararla con una arquitectura convencional competente que ya transmita las mismas cualificaciones.
+
+**6. Supuestos pendientes para una futura ley condicional (no asumirlos como satisfechos):** (i) algún productor conserva cualificaciones pertinentes no deducibles de su A; (ii) el receptor dispone de un contrato semántico para composiciones entre actores y preguntas; (iii) alcance, procedencia, tiempo, fiabilidad y acceso se justifican; (iv) la triangulación efectivamente distingue estados/revisiones relevantes y no infiere el contenido oculto de C/D; (v) coste completo y ventana temporal permiten un beneficio neto; (vi) se fija una alternativa fuerte con igual acceso; (vii) la hipótesis de utilidad se prueba en un perfil específico y admite contraejemplos. Estos son **requisitos por investigar**, no afirmaciones de que EA ya los cumple.
+
+**Punto de continuación:** aislar primero el vínculo verificable «compresión de la selección → cualificaciones descartadas → relación entre ventanas → nueva distinción para una pregunta receptora»; después investigar si existe una clase no trivial de perfiles con triangulación estricta y beneficio neto acotado. No cerrar la tesis, no simular resultados y no introducir esta nota como teorema o conclusión en el 00M canónico.
+
+**Nexos:** [00M §4 y §6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [00N §§2.1–2.3, 3.6–3.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) · [revisión actual de la hipótesis sobre explotación bajo recursos](#15-octubre-2026--plausibilidad-de-asignación-de-explotación-mediante-contexto-compuesto-propuesta-00m-64).
+
+
+### G. Cartografía abierta — U, U′ y metadatos primados locales (sin procesarlos)
+
+**16 octubre 2026 — formulación del autor, versión cartográfica inicial.** Es una **continuación de la propuesta** del PR borrador, no una enmienda al 00M v0.8 vigente, ni una inferencia de triangulación o utilidad neta. El autor pide por ahora **definir los objetos, no procesar ni componer las primas**. Esta nota no supone sensores nuevos, algoritmos de inferencia de fronteras ni oráculos.
+
+#### G.1 Higiene de tipos: A–E son máquinas, no los roles A/B/C/D de 00M
+
+La notación informal del autor llama **A, B, C, D, E** a cinco máquinas reales. Para no confundirlas con los **roles de cualificación** A (resultado), B (reserva caracterizada), C (frontera de exploración) y D (residual), aquí escribimos las cinco máquinas \(\mathsf M_A,\mathsf M_B,\mathsf M_C,\mathsf M_D,\mathsf M_E\). Sus salidas funcionales son \(a_A,\ldots,a_E\), y sus registros primados son \(A',B',C',D',E'\), respectivamente. Los primados son **registros o declaraciones parciales sobre contexto**, no conjuntos de todo lo que falta a la salida ni nuevas respuestas funcionales.
+
+#### G.2 El universo de composabilidad \(U\) y un exterior \(U'\) solo relativo a un marco
+
+Sea \(I=\{A,B,C,D,E\}\). Cada máquina dispone, en un instante y régimen \(t\), de una familia de funciones computables \(\mathcal F_{i,t}\). Fijadas las reglas \(\mathrm{Adm}_t\) (tipos, contratos, precondiciones, capacidades y permisos), definimos el horizonte ideal de composiciones finitas **admisibles**:
+
+\[
+U_t:=\mathrm{Cl}_{\circ,\mathrm{Adm}_t}\!\left(\bigcup_{i\in I}\mathcal F_{i,t}\right).
+\]
+
+Las capacidades \(\mathcal F_{i,t}\) están dentro de \(U_t\) por construcción; una «máquina», entendida como hardware/actor, no es literalmente un elemento de un conjunto de funciones salvo que se la represente formalmente como tal. \(U_t\) es el universo **componible de esos productores**. No es el universo físico, no es necesariamente conocido ni enumerado por ellos, y no afirma que exista un algoritmo que decida si una tarea arbitraria pertenece a su clausura.
+
+Para hablar de exterior hace falta fijar **un marco envolvente de posibilidades del mismo tipo** \(\mathscr W\). Entonces:
+
+\[
+U'_t:=\mathscr W\setminus U_t.
+\]
+
+La afirmación \(U'_t\ne\varnothing\) exige \(\mathscr W\supsetneq U_t\); **no se deduce de que el sistema tenga cinco máquinas ni de negar una «máquina universal»**. Existen máquinas de Turing universales para las funciones efectivamente computables: «universal» no significa decidir HALT ni abarcar todas las funciones matemáticas o la totalidad del mundo abierto.
+
+**Testigo condicional para existencia de exterior:** si \(\mathscr W\) es el conjunto de todas las funciones totales \(\mathbb N\to\{0,1\}\), y \(U_t\) contiene solo funciones implementables por descripciones finitas sin oráculos (y de ese tipo), entonces \(U_t\) es a lo sumo numerable y \(\mathscr W\) es no numerable por Cantor. Por tanto \(U'_t\ne\varnothing\). Este teorema sobre funciones no demuestra que los agentes conozcan **qué elemento específico** está en su exterior práctico, ni identifica C/D, ni convierte \(\mathscr W\) en un inventario del mundo físico. Si \(\mathscr W=U_t\), el exterior relativo es vacío. El máximo teórico respecto al marco es \(\mathscr W=U_t\cup U'_t\), no \(U'_t\) por sí solo.
+
+#### G.3 Qué significa precisamente cada prima
+
+Fijamos un espacio de **descripciones** \(\mathscr L\), distinto del espacio de funciones y estados del entorno. Cuando existe documentación o instrumentación legítima, cada máquina \(i\) puede proporcionar un registro \(m_i\in\mathscr L\). Por convención del autor:
+
+\[
+A':=m_A,\quad B':=m_B,\quad C':=m_C,\quad D':=m_D,\quad E':=m_E.
+\]
+
+Ejemplos de información que **podría** estar ya conservada: tipos y contrato de entrada; población declarada «gatos domésticos»; condiciones de operación y calibración; excepciones observadas; requisitos de memoria/tiempo; exclusiones conocidas; una vía exterior indicada como «gatos monteses no evaluados»; un riesgo ambiental cuya incidencia no se sabe evaluar. El registro solo afirma lo que su fuente realmente justifica. Puede contener referencias B, algunas pistas C y D del *proceso*, sin enumerar las regiones C/D. No todos los campos existen por defecto.
+
+**Prohibición explícita de complementos ficticios:**
+
+\[
+A'\ne\overline{a_A},\quad A'\ne \mathscr W\setminus\mathrm{Dom}(\mathsf M_A),\quad A'\ne U'_t.
+\]
+
+Estas expresiones pertenecen además a **tipos diferentes**: un registro de límites no es el conjunto de todas las funciones, casos o mundos externos. Análogamente para \(B',C',D',E'\). Una prima puede referirse a un límite y a una vecindad epistemológica sin conocer el exterior completo. No debe inferirse, a partir de un límite declarado, ni la existencia de todos los ejemplos vecinos ni su computabilidad. Tampoco se ha probado una cobertura exhaustiva de \(U'_t\) al reunir las cinco primas.
+
+#### G.4 Tesis a probar / contraejemplo: tener un límite formal no equivale a conservar internamente un mapa de ese límite
+
+Toda función parcial \(f\) **posee** un dominio matemático \(\mathrm{Dom}(f)=\{x:f(x)\downarrow\}\), y un contrato de aplicación puede declarar una frontera semántica. Pero **no se sigue que todo programa compute, almacene o conozca una descripción de esa frontera**. Si se siguiera que existe un procedimiento universal capaz de decidir, desde cualquier código de programa, todos los miembros de su dominio de terminación, resolveríamos HALT; esa conclusión es falsa.
+
+**Contraejemplo aún más sencillo de autoconocimiento semántico:** el programa \(p(x)=7\) para toda cadena \(x\), sin metadatos de dominio, produce exactamente las mismas trazas si una persona lo denomina «contador de gatos domésticos» o «contador de cualquier animal» a nivel de uso externo. Si el contrato de aplicación no entra en el código ni en sus fuentes observables, ninguna función del solo \((p,\text{traza})\) identifica legítimamente cuál era la frontera de aplicación imaginada por esa persona. La máquina no tiene forzosamente un dato «gatos monteses quizá» escondido que podamos copiar sin trabajo.
+
+**Resultado condicional sí defendible:** si cada productor incluye o posee accesibles un contrato, precondiciones, declaraciones de cobertura, registros de fallos o metadatos \(m_i\) ya establecidos, es posible **preservar esos registros tal cual** sin ejecutar las alternativas que no se exploraron ni resolver sus incertidumbres. Esta conservación es un objetivo de ingeniería documentable, no una ley de toda máquina teórica. Un registro vacío o meramente «scope not declared» también puede ser honesto, pero no garantiza una información exterior nueva.
+
+#### G.5 Mapa estático, sin ninguna composición de primas por ahora
+
+\[
+\begin{array}{c}
+\mathscr W:\text{marco de referencia más amplio}\\
+\underbrace{U_t=\mathrm{Cl}_{\mathrm{Adm}_t}(\mathcal F_A\cup\cdots\cup\mathcal F_E)}_{\text{máquinas y sus funciones componibles}}
+\qquad
+\underbrace{U'_t=\mathscr W\setminus U_t}_{\text{exterior relativo}}\\
+\mathsf M_A\mapsto(a_A,A'),\;\mathsf M_B\mapsto(a_B,B'),\ldots,\mathsf M_E\mapsto(a_E,E').
+\end{array}
+\]
+
+Los \(a_i\) constituyen la interfaz **funcional**; los registros \(A',\ldots,E'\) constituyen una interfaz **contextual**, con significado dependiente de su productor, alcance y momento. Por decisión expresa del autor, **el depósito colectivo en esta etapa únicamente conserva los registros; NO los intersecta, triangula, clasifica globalmente, computa contrafácticos ni reetiqueta C/D como A**. No se postula ningún sensor capaz de observar \(U'_t\).
+
+#### G.6 Coste: «ningún cómputo funcional nuevo» no significa coste físico total cero
+
+Con los \(m_i\) ya generados y disponibles **sin una evaluación nueva**, las funciones productoras pueden quedar idénticas y la cantidad de computación necesaria para resolver sus problemas funcionales no cambia. En este sentido restringido, el metarregistro no exige explorar más gatos ni evaluar gatos monteses. Pero copiar, registrar, serializar, transmitir, autenticar y almacenar metadatos sigue teniendo coste de recursos y normalmente consume operaciones. Enviar físicamente una carga de \(L\) bits requiere transportar esos bits (salvo referencias/deduplicación con un almacén compartido y costes desplazados al acceso). Puede evitarse recomputación semántica adicional, **no** afirmar coste computacional/energético total nulo.
+
+Si la prima no se creó ni se mantuvo originalmente, reconstruir una frontera significativa sí puede exigir cómputo, inspección humana o experimentación. No procede asumir por definición que estaba almacenada. El supuesto de metadatos ya disponibles es el fundamento bajo el que se podrá estudiar un coste **incremental** relativamente pequeño.
+
+#### G.7 Qué queda demostrado y qué debe permanecer abierto
+
+**Por construcción:** \(U_t\) contiene las composiciones admisibles de las capacidades declaradas; cada prima es una descripción parcial **si** el productor dispone de esa descripción; los primados no son complementos ni un inventario de \(U'\); copiar registros existentes no exige resolver los contenidos no evaluados.
+
+**Condicionalmente demostrado:** \(U'_t\neq\varnothing\) para la envolvente no numerable de todas las funciones binarias frente a un sistema sin oráculos descrito finitamente. No hay demostración universal de \(U'\) para cualquier marco de referencia.
+
+**NO demostrado:** que toda máquina ya tenga un \(m_i\) útil; que todas las primas sean no vacías; que estén totalmente determinadas sin trabajo; que describan de modo completo una frontera epistemológica; que reúnan conocimiento suficiente sobre \(U'\); que el traslado sea gratis; o que la triangulación posterior aumente información o beneficio neto.
+
+**Punto de continuidad:** primero fijar matemáticamente **tipos, dominios, admisibilidad, significado de cada prima y custodia**; todavía no efectuar composición de las primas, probabilidad de triangulación, optimización de recursos ni una «ley de ganancia neta». El siguiente incremento del autor tratará esos procesos. **00M, 00N y las fuentes publicadas quedan intactos; esta nota vive en la VNext propuesta del PR borrador.**
