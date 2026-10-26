@@ -1,7 +1,7 @@
 # DDS-S2-EA-01 — Independent S2/00F Requirements Review Record (template)
 
 **Status:** BLANK TEMPLATE — no external audit has been performed.  
-**Read first:** [DDS-S2-EA-01 v0.2 — work order](./README.md). Make **one reviewer-owned findings record**, keep detailed conflicts private, and submit through the agreed PRIVATE_INTAKE or consented PUBLIC_PR procedure in §6. Never overwrite this template or frozen technical sources.
+**Read first:** [DDS-S2-EA-01 v0.2.1 — work order](./README.md). Make **one reviewer-owned findings record**, keep detailed conflicts private, and submit through the agreed PRIVATE_INTAKE or consented PUBLIC_PR procedure in §6. Never overwrite this template or frozen technical sources.
 
 ## A. Reviewer identity, evidence freeze and independence
 
