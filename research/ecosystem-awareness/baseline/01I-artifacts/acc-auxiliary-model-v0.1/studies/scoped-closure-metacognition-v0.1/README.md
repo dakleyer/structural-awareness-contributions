@@ -110,3 +110,8 @@ python3 -B -c "import json; assert json.load(open('REFERENCE_SYNTHETIC_RESULTS.j
 ```
 
 Sólo usa la biblioteca estándar de Python. La CI del repositorio ejecuta los mismos checks junto con las pruebas anteriores. Véase [SCIENTIFIC_LIMITS.md](SCIENTIFIC_LIMITS.md) para estado de cada afirmación y [PROMPT_COVERAGE_MATRIX.md](PROMPT_COVERAGE_MATRIX.md) para la concordancia con el Word completo. La corrección algebraica de estas pruebas no equivale a validación de campo ni aprobación de instituciones internacionales.
+
+## 11. Comparación externa de novedad y respuesta estratégica
+
+La [revisión de antecedentes y de casos adversos](EXTERNAL_RESEARCH_NOVELTY_REVIEW_2026-10-26.md) relaciona suficiencia local con Blackwell y Cousot, provenance con W3C PROV-O, cooperación con Ostrom y motivación prosocial con Bénabou–Tirole y Martela–Ryan. **Morris–Shin (2002)** advierte que divulgar más información públicamente en sistemas con complementariedades estratégicas puede alterar el equilibrio y tener un efecto ambiguo sobre bienestar. El lema de no descarte sólo se aplica al problema fijo con políticas previas reproducibles: no certifica por sí solo mayor bienestar social, ni exige difundir Q. El estudio no sustituye consentimiento, ni calcula el residual abierto D.
+

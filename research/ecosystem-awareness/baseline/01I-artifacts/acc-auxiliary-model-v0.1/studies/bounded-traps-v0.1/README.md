@@ -96,3 +96,8 @@ Este estudio desarrolla el [núcleo técnico económico](../../ECONOMIC_MODEL_TE
 La [auditoría de conversación y delimitación de tesis](CONVERSATION_COVERAGE_AUDIT_2026-10-26.md) identifica qué afirmaciones de la discusión reciente ya están probadas por este toy, cuáles son hipótesis en otro propietario (00M/01K/FH-C/FH-E) y cuáles corresponden al **estudio separado** de sistemas anidados y sufrimiento estructural. Publicar este estudio NO equivale a promover como hecho empírico la conversación completa.
 
 El [registro versionado de ejemplos del autor](EXAMPLE_LEDGER.md) conserva con IDs estables los plátanos, Cáritas/DANA, Viernes/Robinson, ministerios, naranjas, hormigas, READY/v1/v2, crédito 7/10, manzanas-frutería, trampa (0,0)→(1,1), X−200 y la viñeta de desarrollo humano impedido en barrio desfavorecido/liceo. Los casos no medidos se conservan como **hipótesis/analogías**, no como estadísticas ni hechos externos.
+
+## 9. Evidencia externa y límite de la reivindicación de novedad
+
+La [revisión bibliográfica vinculada a este estudio](EXTERNAL_RESEARCH_NOVELTY_REVIEW_2026-10-26.md) identifica los antecedentes de complementariedad estratégica, gobernanza de recursos comunes, precio de la anarquía y motivaciones de reconocimiento. No atribuye a ACC esos resultados previos. La prueba binaria de bloqueo es una construcción matemática **del toy**, no un descubrimiento de un tipo desconocido de equilibrio. La brecha G sólo tiene lectura de deuda recuperable cuando el estado S* se demuestra conjuntamente factible. Se proponen contrastes con coordinadores convencionales competentes y mínimos de crédito realmente acreditados.
+

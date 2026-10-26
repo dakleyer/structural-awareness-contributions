@@ -86,3 +86,8 @@ Ejecución reproducible en Python estándar: `python -B -m unittest discover -s 
 ## 9. Auditoría interna del alcance
 
 [Revisión de afirmaciones, supuestos, fuentes y controles negativos](SCIENTIFIC_REVIEW_AND_NEGATIVE_CONTROLS.md). Incluye el coste de conservar los logs operacionales fuente, la autenticación aún no implementada y los ámbitos donde **el comparador convencional gana** o el residual sigue no establecido. Es una auditoría del mismo equipo asistido, no un dictamen científico independiente.
+
+## 10. Anteriores resultados sobre unawareness, abstracción y procedencia
+
+La [revisión comparada](EXTERNAL_RESEARCH_NOVELTY_REVIEW_2026-10-26.md) identifica investigación existente de Heifetz–Meier–Schipper (desconocimiento interactivo), Cousot–Cousot (interpretación abstracta), Blackwell (valor de información) y W3C PROV-O (procedencia). La novedad **no** es clasificar lo desconocido ni añadir metadatos conocidos: la contribución candidata a probar es el coste y la corrección de la **cualificación situada producida por la fuente** al integrarse en una decisión social/económica específica. Mantener comparación fuerte con inspección convencional dirigida, costes de ciclo de vida, fuentes falsas y verdaderos no resultados.
+
