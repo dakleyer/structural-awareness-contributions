@@ -91,6 +91,8 @@ Se distinguen:
 
 **Apertura n→n+1:** si una mejora de coordenadas conocidas no transita, se puede investigar una condición adicional *con hipótesis que prediga observaciones distinguibles* (distribución, autoridad, límite físico, conocimiento, presupuesto, confianza). También se admite error, datos insuficientes, falta de ejecutor o causa no resuelta. Agregar dimensiones indefinidamente para «salvar» la hipótesis no es validación.
 
+**Dimensiones implícitas y activación:** el inventario de ejes y su relevancia para una transición son cuestiones distintas. Una preferencia de reparto puede estar implícita durante un régimen repetitivo y pasar a decidir el acuerdo cuando se abre un beneficio adicional. Si ese diferencial no está disponible en el conjunto de opciones y horizonte iniciales, no hay un nuevo beneficio positivo que repartir en esa comparación; las distribuciones previas no desaparecen. Distinguir activación de un eje ya presente, cambio de su peso, descubrimiento de uno omitido y ampliación real del conjunto factible. La persistencia no prueba optimalidad: una ineficiencia puede contener una mejora desconocida o bloqueada. Un óptimo de Pareto relativo al conjunto inicial y otro conjunto abierto por una transición no son la misma comparación. Véanse la [explicación integrada](MODEL.md#dimensiones-implícitas-y-activación-en-una-transición) y las [variantes del plátano y ministerios](CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear). El eje no adquiere veto propio por activarse, ni toda transición añade otro eje.
+
 **Estados de propuesta:**
 
 1. No-brainer **local**: favorable para una parte/subconjunto de coordenadas; no acredita solución global.
@@ -330,6 +332,8 @@ HID_observed, HID potencial, capacidad efectivamente recuperada y HID_spent **no
 La **preservación de capacidad** requiere observar competencia efectiva, práctica, transmisión, acceso a instrumentos/recursos, condiciones de uso y posibilidad de reejercicio. Pérdida de habilidad por desuso, irreversibilidad, ρ∞<1 y recuperación parcial son **hipótesis longitudinales**; no se deducen de que la deuda o el número de dimensiones aumenten.
 
 La pregunta de producción es independiente y complementaria: una dimensión productiva nueva puede aportar b>0 mientras eleva interacciones E(n), trabajo compensatorio y condiciones de reajuste; o puede aumentar sinergias, reducir ACW y preservar mejor la capacidad. Ambas trayectorias deben poder salir del mismo protocolo.
+
+**Actividad intelectual, uso y efecto útil:** el esfuerzo realizado, el resultado producido, su utilización, la contribución útil contrastada y la experiencia humana se observan por separado. Puede movilizarse inteligencia para una mejora que no llega a utilizarse, o producirse un resultado cuya falta de utilidad para el fin declarado se demuestra. Esto no equivale a incapacidad de la persona, ni permite clasificar como evitable una garantía necesaria. La frustración e insatisfacción por esa distancia constituyen hipótesis humanas adicionales al reparto de recursos, con instrumento propio. Esta precisión explicativa no cambia la resta directa de inputs comparables por óptimo, las definiciones propietarias de HID ni las condiciones de recuperación; evita inferirlas de esfuerzo o malestar. [Recepción y fuentes](review/PROMPT_CLARIFICATIONS.md#anotación-1-inteligencia-actuación-y-experiencia).
 
 ## 8. Utilidad neta, disconfort, soberanía económica y no duplicación
 

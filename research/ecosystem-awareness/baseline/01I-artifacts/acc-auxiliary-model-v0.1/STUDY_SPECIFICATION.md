@@ -45,11 +45,21 @@ Variar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizon
 
 Toda medida declarará contrafactual, horizonte, denominador y evidencia de evitabilidad. **En el optimizador sintético, el resultado HID primario se obtiene para cada óptimo O_j por resta de los mismos componentes de inputs humanos informacionales respecto a S y división por H_común.** El programa no calcula esa diferencia desde ACW, recuperación o un óptimo compuesto de varios estados. Si faltan comparabilidad, dominancia por componentes, autoridad o datos de contribución, publica indeterminación. [Detalle y pruebas](studies/parametric-economic-toy-v0.1/HID_OPTIMUM_ABCD_AUDIT_v0.1.md). Separar cuota observada de ACW, capacidad liberable, contribución genuina potencial y recuperación real. Si no hay convertibilidad o referencia comparable, conservar vector, intervalo o no establecido. HICT y HICR conservan su definición propietaria. Una pérdida de habilidades exige observaciones distintas del trabajo ACW eliminado; no se deduce del cociente de horas.
 
+### Inteligencia movilizada resultado utilizado y experiencia
+
+Un estudio humano distinguirá capacidad disponible, actividad intelectual efectivamente realizada, resultado producido, uso de ese resultado, utilidad para el fin declarado y frustración o insatisfacción declaradas. Contrastar un resultado no utilizado con uno utilizado sin utilidad demostrada, una garantía necesaria y una mejora útil bloqueada. Investigar sus motivos y alternativas antes de clasificar ACW como evitable. El esfuerzo por sí solo no mide inteligencia; la ausencia de resultado útil no implica incapacidad personal. Mantener costes, HID y experiencia separados, con unidades y población propias.
+
 ## Propuesta y transición
 
 Para cada propuesta se registran estado inicial, cambio, efectos previstos por dimensión y actor, información disponible, condiciones necesarias, alternativas sustitutivas, mecanismo de negociación si existe, titulares pertinentes, costes de adaptación y plazo. El observador distingue propuesta, acuerdo, factibilidad, admisibilidad, autoridad, intento y efecto.
 
 La negociación puede modificar las condiciones del ensayo; no se aplica una ecuación con q fijo a un mundo donde q cambió sin declarar el cambio de régimen. Se guardan estados posteriores y costes de retorno reales.
+
+### Activación de dimensiones en el siguiente protocolo
+
+Registrar conjuntamente: régimen y estado inicial; opciones factibles y accesibles y horizonte; dimensión implícita o ya reconocida; evento o transición que la vuelve material; beneficio adicional y reparto propuesto cuando existan; actores y condición que habilita o bloquea; autoridad, información, tiempo y coste. Distinguir activación de una dimensión presente, descubrimiento de una omitida, cambio de su peso y ampliación real de opciones. La ausencia de un nuevo beneficio a repartir no elimina las distribuciones previas. Una sociedad persistente no se clasifica como óptima ni ineficiente sólo por persistir.
+
+Contrastes pendientes: régimen repetitivo sin nuevo diferencial; transición que lo abre y activa el reparto; acuerdo o bloqueo con motivos observables; y transición que reduce condiciones o resuelve un cuello común. Comparar también una mejora existente pero desconocida con otra no disponible en el conjunto inicial. Congelar esos casos en un estudio posterior: estas precisiones no alteran entradas, expectativas, resultados ni alcance del piloto económico v0.1.
 
 ## Episodio de estudio
 

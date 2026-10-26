@@ -38,6 +38,21 @@ El dossier amplio añade los siguientes contextos y mecanismos:
 | Mapa, flujo y cumplimiento incompatible | Decisiones guiadas por una representación incompleta | Falta de opción conforme no legitima cualquier desviación |
 | Un participante colectivo y varios decisores | Organización como unidad de análisis y autoridad de representación | No presumir una voluntad única o un orquestador omnisciente |
 
+## Recorrido de variantes y condiciones que pueden bloquear
+
+Las escenas cambian deliberadamente supuestos. No se comprimen en un único ejemplo logístico ni en una lista fija de dimensiones: se pregunta qué mejora, qué condición sigue sin resolverse y qué cambio la haría material. E y R mantienen aquí la notación integrada de eficiencia y reparto; las letras históricas de cada pasaje conservan su interpretación en las notas de fuentes.
+
+| Escena | Mejora considerada y supuesto distintivo | Condición que puede bloquear | Fuente y límite |
+|---|---|---|---|
+| Dos ministerios | Mismo servicio y garantías con menos recursos | Reparto, medios de vida, facultad o transición institucional | [S1-P0104](model/01_NOTAS_COMPLETAS.md#s1-p0104), [S1-P0153](model/01_NOTAS_COMPLETAS.md#s1-p0153); ahorro no equivale a acuerdo de todos |
+| Plátano enviado a quien lo necesita, África en la variante de Iván | Mejor reparto mediante un traslado adicional | Recursos y logística pueden empeorar E; la entrega requiere medios y consentimiento | [S1-P0269](model/01_NOTAS_COMPLETAS.md#s1-p0269) recoge el traslado; África es la precisión directa de Iván, no un dato histórico verificado de una cadena comercial |
+| Plátano aprovechado cerca de su producción, en el país de origen | Alternativa a transportarlo y terminar desechándolo; 14.000 km son ilustrativos | Información, coordinación, contratos, pagos, entrega y efectos sobre terceros | [S1-P0271](model/01_NOTAS_COMPLETAS.md#s1-p0271), [S1-P0272](model/01_NOTAS_COMPLETAS.md#s1-p0272), [S1-P0158](model/01_NOTAS_COMPLETAS.md#s1-p0158); la proximidad simplifica ese supuesto físico, no acredita factibilidad completa |
+| Plátano y recogida Cáritas/DANA ya disponible | Alimento seguro y ruta legítima existente; se reduce la carga marginal de coordinación | Atribución, reconocimiento, confianza o reparto del diferencial pueden seguir importando | [S1-P0214](model/01_NOTAS_COMPLETAS.md#s1-p0214)–[S1-P0216](model/01_NOTAS_COMPLETAS.md#s1-p0216); preferencias hipotéticas del donante |
+| Viernes y Robinson | Ganancia absoluta positiva para ambos, repartida 1/999 en la ilustración | Preferencia sobre el diferencial y reconocimiento; no desaparece la ganancia directa | [S1-P0277](model/01_NOTAS_COMPLETAS.md#s1-p0277); no atribuye la misma preferencia a toda persona |
+| Dos plátanos en tres estados | No producir, producir y desechar, o aprovechar ambos bajo condiciones factibles | El paso al tercer estado requiere identificar la restricción; F y W necesitan su propia medida | [S1-P0639](model/01_NOTAS_COMPLETAS.md#s1-p0639); cifras ilustrativas, no medición psicológica |
+
+La [activación de dimensiones](MODEL.md#dimensiones-implícitas-y-activación-en-una-transición) permite leer cómo aparece un nuevo diferencial al abrirse una transición, aunque las preferencias de reparto fueran implícitas antes. No presupone que toda escena añada un veto, ni confunde dimensión de evaluación con actor autorizado para detener la acción. [Procedencia de las tres aclaraciones](review/PROMPT_CLARIFICATIONS.md).
+
 ## Conservación de las catorce acciones
 
 Las acciones 1–10 y 12–14 fueron incorporadas a las notas fuente; la 11 ya estaba cubierta por IQ-06. Se conservan en el libro completo de S1 y en el inventario por párrafo.

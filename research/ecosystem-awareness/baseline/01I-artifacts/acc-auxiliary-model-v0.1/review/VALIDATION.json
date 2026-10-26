@@ -45,8 +45,9 @@
     }
   ],
   "artifact_navigation": {
-    "local_targets": 367,
-    "fragments": 280,
+    "markdown_local_targets": 670,
+    "markdown_fragments": 326,
+    "concept_record_routes": 45,
     "failures": []
   },
   "source_preservation": {
@@ -81,7 +82,7 @@
   "concept_map": {
     "concepts": 40,
     "unique_source_units": {
-      "S1": 56,
+      "S1": 59,
       "S2": 6,
       "S3": 32,
       "S4": 14
@@ -99,5 +100,23 @@
     "cases.json": "923b6b671c5f53900e191810c3c68f35a94afdd098578749d68a791c7d51f362",
     "manual_oracle.json": "1d17e35f5864c010146213b09ee32c80134425adcccfd26501569852a421626b",
     "MANUAL_TRAVERSAL.md": "9dfdccdaa92034406c9551723cfe882f71f7361d5c17ac476f8b957c0748401a"
+  },
+  "prompt_clarifications": {
+    "baseline": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+    "received_annotations": [
+      1,
+      2,
+      3
+    ],
+    "scope": "Documentary reception; unchanged frozen economic pilot and no new empirical result",
+    "byte_identical_books_inventory_and_all_study_files": 98,
+    "authentic_predecessor_files": 9,
+    "concepts": 40,
+    "future_activation_cases_not_yet_run": true,
+    "local_checks": [
+      "source preservation PASS",
+      "global document integrity PASS",
+      "all artifact Markdown and concept-record paths/fragments PASS"
+    ]
   }
 }

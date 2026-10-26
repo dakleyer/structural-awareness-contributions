@@ -1,0 +1,565 @@
+{
+  "scope": "material concepts reviewed in this revision; no claim that every idea in all sources or prompts is exhaustively audited",
+  "records": [
+    {
+      "id": "CONCEPT-01",
+      "concept": "Dos vías económicas",
+      "source_units": [
+        "S1-P0010",
+        "S1-P0093"
+      ],
+      "condition": "Mismo servicio íntegro para eficiencia; utilidad y reparto no equivalen a ahorro",
+      "integrated_destination": "MODEL.md#núcleo-económico-del-modelo",
+      "candidate_contrast": "ACC-ECO-01",
+      "counterexample": "La ganancia depende de bajar calidad o trasladar daño",
+      "evidence_state": "Ilustración de servicio equivalente; no validación empírica"
+    },
+    {
+      "id": "CONCEPT-02",
+      "concept": "Una dos y n dimensiones",
+      "source_units": [
+        "S1-P0264",
+        "S1-P0533",
+        "S1-P0535"
+      ],
+      "condition": "Órdenes y perímetro declarados; dimensión no equivale a persona",
+      "integrated_destination": "MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto",
+      "candidate_contrast": "ACC-ECO-01",
+      "counterexample": "Ejes conocidos dominados y preferencia relevante perjudicada",
+      "evidence_state": "Explicado; escalado con n pendiente"
+    },
+    {
+      "id": "CONCEPT-03",
+      "concept": "H1 y H2",
+      "source_units": [
+        "S1-P0331",
+        "S1-P0565",
+        "S1-P0566"
+      ],
+      "condition": "Aditividad instrumental distinta de complejidad condicionada",
+      "integrated_destination": "MODEL.md#dos-hipótesis-distintas-y-retroalimentación-de-la-aceptación",
+      "candidate_contrast": "ACC-ECO-12",
+      "counterexample": "Sinergia o coordinación elimina el bloqueo",
+      "evidence_state": "Explicado; causalidad no contrastada"
+    },
+    {
+      "id": "CONCEPT-04",
+      "concept": "Acuerdo inmediato",
+      "source_units": [
+        "S1-P0254",
+        "S1-P1006"
+      ],
+      "condition": "Información suficiente, transición incluida, permiso y mecanismo",
+      "integrated_destination": "MODEL.md#propuestas-aceptación-y-reajuste",
+      "candidate_contrast": "ACC-ECO-01",
+      "counterexample": "Un coste omitido convierte la supuesta mejora en perjuicio",
+      "evidence_state": "E02 ilustrado en modelo determinista"
+    },
+    {
+      "id": "CONCEPT-05",
+      "concept": "Coordinación del plátano",
+      "source_units": [
+        "S1-P0254",
+        "S1-P0275"
+      ],
+      "condition": "La entrega y su coste deben ser factibles",
+      "integrated_destination": "MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto",
+      "candidate_contrast": "ACC-ECO-02",
+      "counterexample": "El medio de coordinación existente ya basta",
+      "evidence_state": "Explicado; prueba propia pendiente"
+    },
+    {
+      "id": "CONCEPT-06",
+      "concept": "Atribución y ganancias positivas",
+      "source_units": [
+        "S1-P0215",
+        "S1-P0216",
+        "S1-P0275"
+      ],
+      "condition": "Ejemplo hipotético; conservar utilidad directa positiva de ambos",
+      "integrated_destination": "MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto",
+      "candidate_contrast": "ACC-ECO-03",
+      "counterexample": "Se acepta el reparto relativo sin bloqueo",
+      "evidence_state": "Explicado; comportamiento humano no medido"
+    },
+    {
+      "id": "CONCEPT-07",
+      "concept": "Agencia y mandato",
+      "source_units": [
+        "S1-P0369",
+        "S1-P0375",
+        "S1-P0638",
+        "S3-P0036"
+      ],
+      "condition": "Conocer no autoriza; vías efectivas de objeción según facultades",
+      "integrated_destination": "MODEL.md#propuestas-aceptación-y-reajuste",
+      "candidate_contrast": "ACC-ECO-04",
+      "counterexample": "Una delegación competente permite el acuerdo",
+      "evidence_state": "Cautela y controles de aprobación del piloto"
+    },
+    {
+      "id": "CONCEPT-08",
+      "concept": "Transferencias y reajuste",
+      "source_units": [
+        "S1-P1007",
+        "S1-P1013",
+        "S1-P1020"
+      ],
+      "condition": "Utilidad transferible y numerario común sólo en el toy; derechos separados",
+      "integrated_destination": "MODEL.md#propuestas-aceptación-y-reajuste",
+      "candidate_contrast": "ACC-ECO-05",
+      "counterexample": "Suma positiva sin transferencia practicable",
+      "evidence_state": "E01 E03 E04 E05 ilustrados"
+    },
+    {
+      "id": "CONCEPT-09",
+      "concept": "Sustracción y transición",
+      "source_units": [
+        "S1-P0107",
+        "S1-P0113"
+      ],
+      "condition": "Servicio íntegro, medios de vida, protección y elección",
+      "integrated_destination": "MODEL.md#rediseño-y-transición-humana",
+      "candidate_contrast": "ACC-ECO-13",
+      "counterexample": "Eliminar trámites destruye una garantía necesaria",
+      "evidence_state": "Explicado; estudio institucional pendiente"
+    },
+    {
+      "id": "CONCEPT-10",
+      "concept": "Playa e ingreso",
+      "source_units": [
+        "S1-P0156"
+      ],
+      "condition": "Cobro es transferencia salvo beneficio adicional demostrado",
+      "integrated_destination": "MODEL.md#rediseño-y-transición-humana",
+      "candidate_contrast": "ACC-ECO-22",
+      "counterexample": "La conservación financiada sí crea servicio útil",
+      "evidence_state": "Explicado; experiencia no medida"
+    },
+    {
+      "id": "CONCEPT-11",
+      "concept": "Capacidades y dignidad",
+      "source_units": [
+        "S1-P0113",
+        "S3-P0007",
+        "S3-P0054"
+      ],
+      "condition": "Participación elegida; dignidad independiente de productividad",
+      "integrated_destination": "MODEL.md#fines-y-capacidades",
+      "candidate_contrast": "ACC-ECO-22",
+      "counterexample": "Una medida de ahorro no representa capacidad o dignidad",
+      "evidence_state": "Explicado; sin instrumento humano"
+    },
+    {
+      "id": "CONCEPT-12",
+      "concept": "Antivisión y fines plurales",
+      "source_units": [
+        "S1-P0007",
+        "S3-P0087"
+      ],
+      "condition": "Dependencia obligada y sacrificio evitable no fijan fin universal",
+      "integrated_destination": "MODEL.md#fines-y-capacidades",
+      "candidate_contrast": "ACC-ECO-22",
+      "counterexample": "Preferencias legítimas valoran solidaridad o cuidado sobre producto",
+      "evidence_state": "Explicado; elección normativa permanece abierta"
+    },
+    {
+      "id": "CONCEPT-13",
+      "concept": "Brecha y frustración",
+      "source_units": [
+        "S1-P0317",
+        "S1-P0639"
+      ],
+      "condition": "Factibilidad y experiencia requieren auditorías distintas",
+      "integrated_destination": "MODEL.md#utilidad-bienestar-y-frustración",
+      "candidate_contrast": "ACC-ECO-10",
+      "counterexample": "Comprender alivia o agrava F sin cambiar G",
+      "evidence_state": "Control W ilustrado; no medición humana"
+    },
+    {
+      "id": "CONCEPT-14",
+      "concept": "Bienestar informado y vinculante",
+      "source_units": [
+        "S1-P0623",
+        "S1-P0624",
+        "S1-P0626"
+      ],
+      "condition": "Regímenes candidatos; no reemplazan derechos, consentimiento o autoridad",
+      "integrated_destination": "MODEL.md#utilidad-bienestar-y-frustración",
+      "candidate_contrast": "ACC-ECO-10",
+      "counterexample": "La puerta mal informada rechaza una mejora",
+      "evidence_state": "Regla ilustrada; política no adoptada"
+    },
+    {
+      "id": "CONCEPT-15",
+      "concept": "Incentivo de ocultación",
+      "source_units": [
+        "S1-P0317",
+        "S1-P0413",
+        "S1-P0639"
+      ],
+      "condition": "Objeción nueva derivada condicionalmente de F visible, no hallazgo empírico",
+      "integrated_destination": "MODEL.md#utilidad-bienestar-y-frustración",
+      "candidate_contrast": "ACC-ECO-22",
+      "counterexample": "Información reduce F o permite resolver su causa",
+      "evidence_state": "Control auxiliar ilustra subida de W sin mejora material"
+    },
+    {
+      "id": "CONCEPT-16",
+      "concept": "Error y reversión",
+      "source_units": [
+        "S1-P0486",
+        "S1-P0492",
+        "S1-P0493"
+      ],
+      "condition": "Errores de ambos signos; volver atrás es otra transición",
+      "integrated_destination": "MODEL.md#error-irreversibilidad-y-tiempo",
+      "candidate_contrast": "ACC-ECO-11",
+      "counterexample": "Retorno imposible o mucho más costoso",
+      "evidence_state": "E10 E11 cubren error; juego de rollback pendiente"
+    },
+    {
+      "id": "CONCEPT-17",
+      "concept": "Vértigo anterior a la aceptación",
+      "source_units": [
+        "S1-P0386",
+        "S1-P0387",
+        "S1-P0388"
+      ],
+      "condition": "No necesariamente irracional ni prueba automática de n más uno",
+      "integrated_destination": "MODEL.md#dos-hipótesis-distintas-y-retroalimentación-de-la-aceptación",
+      "candidate_contrast": "ACC-ECO-22",
+      "counterexample": "Mayor confianza no cambia una restricción física",
+      "evidence_state": "Explicado; experiencia no medida"
+    },
+    {
+      "id": "CONCEPT-18",
+      "concept": "Continuidad y comparación ex ante",
+      "source_units": [
+        "S1-P0085",
+        "S3-P0033",
+        "S3-P0034",
+        "S3-P0050"
+      ],
+      "condition": "Iguales futuros, reglas de adaptación y costes; comparador fuerte",
+      "integrated_destination": "MODEL.md#error-irreversibilidad-y-tiempo",
+      "candidate_contrast": "ACC-ECO-16",
+      "counterexample": "El proceso convencional empata o gana",
+      "evidence_state": "T01–T05 ilustrados; sin ventaja EA establecida"
+    },
+    {
+      "id": "CONCEPT-19",
+      "concept": "Redes y sinergias",
+      "source_units": [
+        "S1-P0568",
+        "S1-P0576",
+        "S1-P0827"
+      ],
+      "condition": "Topología e incompatibilidad declaradas; no convertir rechazos en deuda por definición",
+      "integrated_destination": "MODEL.md#redes-y-efectos-de-segundo-orden",
+      "candidate_contrast": "ACC-ECO-12",
+      "counterexample": "Red dispersa o integración produce más valor que carga",
+      "evidence_state": "Recreación analítica; observación real pendiente"
+    },
+    {
+      "id": "CONCEPT-20",
+      "concept": "Cuello común y Ormuz",
+      "source_units": [
+        "S1-P0820",
+        "S1-P0821"
+      ],
+      "condition": "Experimento mental; no multiplicar una dependencia ni afirmar episodio real",
+      "integrated_destination": "MODEL.md#redes-y-efectos-de-segundo-orden",
+      "candidate_contrast": "ACC-ECO-12",
+      "counterexample": "Sustituto o gobierno conjunto elimina condición necesaria",
+      "evidence_state": "Explicado; no caso geopolítico medido"
+    },
+    {
+      "id": "CONCEPT-21",
+      "concept": "Flujo acumulación y causalidad",
+      "source_units": [
+        "S1-P0567",
+        "S1-P0643",
+        "S1-P0798"
+      ],
+      "condition": "Curvatura distinta de mecanismo causal de segundo orden",
+      "integrated_destination": "MODEL.md#redes-y-efectos-de-segundo-orden",
+      "candidate_contrast": "ACC-ECO-12",
+      "counterexample": "Flujo constante produce gran acumulación sin acelerarse",
+      "evidence_state": "Identidades recreadas; causalidad pendiente"
+    },
+    {
+      "id": "CONCEPT-22",
+      "concept": "Dinero garantías y retiro",
+      "source_units": [
+        "S4-P0029",
+        "S4-P0031",
+        "S4-P0158",
+        "S1-P0719"
+      ],
+      "condition": "Identidad de conteo distinta de ley monetaria; coste protector puede justificarse",
+      "integrated_destination": "MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento",
+      "candidate_contrast": "ACC-ECO-14",
+      "counterexample": "Retiro proporcional y coordinación compensan obligaciones",
+      "evidence_state": "Recreación del toy de retiro; no teoría monetaria validada"
+    },
+    {
+      "id": "CONCEPT-23",
+      "concept": "Opcionalidad y dependencia",
+      "source_units": [
+        "S4-P0033",
+        "S4-P0034",
+        "S4-P0160"
+      ],
+      "condition": "Poder esperar y salir, con distribución de alternativas",
+      "integrated_destination": "MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento",
+      "candidate_contrast": "ACC-ECO-14",
+      "counterexample": "Comprometerse crea una capacidad valiosa",
+      "evidence_state": "Explicado; hipótesis abierta"
+    },
+    {
+      "id": "CONCEPT-24",
+      "concept": "HID y uso elegido",
+      "source_units": [
+        "S1-P0597",
+        "S1-P0601",
+        "S1-P0602",
+        "S1-P0603",
+        "S1-P0606",
+        "S3-P0023"
+      ],
+      "condition": "Contrafactual, unidades y conversión; ACW observado no es recuperación de GIC",
+      "integrated_destination": "MODEL.md#utilidad-bienestar-y-frustración",
+      "candidate_contrast": "ACC-ECO-21",
+      "counterexample": "El tiempo liberado se usa legítimamente para descanso",
+      "evidence_state": "Control auxiliar numérico; habilidades no medidas"
+    },
+    {
+      "id": "CONCEPT-25",
+      "concept": "Reconocimiento y contribución",
+      "source_units": [
+        "S4-P0037",
+        "S4-P0038",
+        "S1-P0782"
+      ],
+      "condition": "Fuentes del mismo autor no corroboran entre sí; regla de veto supuesta",
+      "integrated_destination": "MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento",
+      "candidate_contrast": "ACC-ECO-14",
+      "counterexample": "El crédito no explica retención tras controlar riesgo",
+      "evidence_state": "Recreación de mezcla; EX-AG1 empírico pendiente"
+    },
+    {
+      "id": "CONCEPT-26",
+      "concept": "Fricción y coste de claridad",
+      "source_units": [
+        "S4-P0042",
+        "S3-P0042",
+        "S1-P0785",
+        "S1-P0786"
+      ],
+      "condition": "Mapa distinto de flujo; feedback y claridad tienen costes",
+      "integrated_destination": "MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento",
+      "candidate_contrast": "ACC-ECO-15",
+      "counterexample": "Un mapa actualizado competente elimina la trampa",
+      "evidence_state": "E09/E10 ilustran límite; back-action causal pendiente"
+    },
+    {
+      "id": "CONCEPT-27",
+      "concept": "Preservar una práctica viva",
+      "source_units": [
+        "S4-P0068",
+        "S4-P0070",
+        "S3-P0044",
+        "S3-P0045",
+        "S3-P0056"
+      ],
+      "condition": "Personas herramientas confianza transmisión y consentimiento",
+      "integrated_destination": "MODEL.md#preservación-métodos-y-contextos",
+      "candidate_contrast": "ACC-ECO-13",
+      "counterexample": "Archivo conservado y oficio deja de transmitirse",
+      "evidence_state": "Contexto conservado; no representación ni ensayo comunitario"
+    },
+    {
+      "id": "CONCEPT-28",
+      "concept": "Métodos relacionados y clausura",
+      "source_units": [
+        "S4-P0059",
+        "S4-P0060",
+        "S4-P0063",
+        "S3-P0043",
+        "S3-P0050"
+      ],
+      "condition": "No fusionar métodos en índice universal; límite de una solución no agota alternativas",
+      "integrated_destination": "MODEL.md#preservación-métodos-y-contextos",
+      "candidate_contrast": "ACC-ECO-13",
+      "counterexample": "Otra arquitectura resuelve el bloqueo con menor carga",
+      "evidence_state": "Explicado; comparación de métodos pendiente"
+    },
+    {
+      "id": "CONCEPT-29",
+      "concept": "Verdad y fundamento",
+      "source_units": [
+        "S2-P0013",
+        "S2-P0025",
+        "S3-P0079"
+      ],
+      "condition": "No establecido no equivale a falso imposible o prohibido para siempre",
+      "integrated_destination": "MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis",
+      "candidate_contrast": "ACC-ECO-08",
+      "counterexample": "Una misión nueva queda legítimamente fundada",
+      "evidence_state": "Explicado; no evaluación nativa Cyber Napoleon"
+    },
+    {
+      "id": "CONCEPT-30",
+      "concept": "ABCD situado",
+      "source_units": [
+        "S3-P0027",
+        "S3-P0028",
+        "S3-P0029",
+        "S3-P0030",
+        "S3-P0031"
+      ],
+      "condition": "Proceso pregunta alcance capacidad y tiempo; no cuatro probabilidades",
+      "integrated_destination": "MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis",
+      "candidate_contrast": "ACC-ECO-08",
+      "counterexample": "La misma información cambia de papel al cambiar pregunta",
+      "evidence_state": "Cotejo con 00M; no nuevo canon"
+    },
+    {
+      "id": "CONCEPT-31",
+      "concept": "Límite de indistinguibilidad",
+      "source_units": [
+        "S2-P0033",
+        "S3-P0084"
+      ],
+      "condition": "Misma información admitida no revela la verdad oculta",
+      "integrated_destination": "MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis",
+      "candidate_contrast": "ACC-ECO-08",
+      "counterexample": "Nueva evidencia legítima separa los estados",
+      "evidence_state": "E09/E10 ejecutados con la misma observación"
+    },
+    {
+      "id": "CONCEPT-32",
+      "concept": "FH C",
+      "source_units": [
+        "S1-P0055",
+        "S2-P0016",
+        "S3-P0078",
+        "S3-P0086"
+      ],
+      "condition": "Hipótesis causal, clases declaradas y evidencia autoridad recursos comparables",
+      "integrated_destination": "MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis",
+      "candidate_contrast": "ACC-ECO-08",
+      "counterexample": "Más conocimiento explica igual o mejor la deriva",
+      "evidence_state": "Explicado; no contraste causal ejecutado"
+    },
+    {
+      "id": "CONCEPT-33",
+      "concept": "FH E",
+      "source_units": [
+        "S2-P0020",
+        "S3-P0081"
+      ],
+      "condition": "Tarea independiente, no inferioridad, construcción y mantenimiento incluidos",
+      "integrated_destination": "MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis",
+      "candidate_contrast": "ACC-ECO-09",
+      "counterexample": "Cartografía más cara o calidad inferior",
+      "evidence_state": "Explicado; no ahorro computacional medido"
+    },
+    {
+      "id": "CONCEPT-34",
+      "concept": "Awareness y Repositioning",
+      "source_units": [
+        "S2-P0030",
+        "S3-P0083"
+      ],
+      "condition": "Awareness puede operar sin Repositioning; cualificar no concede mandato",
+      "integrated_destination": "MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis",
+      "candidate_contrast": "ACC-ECO-08",
+      "counterexample": "Cambio legítimo exige decisión autorizada adicional",
+      "evidence_state": "Explicado; registro cualificado del piloto no implementa EA"
+    },
+    {
+      "id": "CONCEPT-35",
+      "concept": "Bien común y subsidiariedad",
+      "source_units": [
+        "S3-P0017",
+        "S3-P0019",
+        "S3-P0055"
+      ],
+      "condition": "Juicio normativo no resuelto por seguridad o trazabilidad técnica",
+      "integrated_destination": "MODEL.md#fines-y-capacidades",
+      "candidate_contrast": "ACC-ECO-22",
+      "counterexample": "Todos los controles pasan pero los fines son disputados",
+      "evidence_state": "Contexto interpretativo conservado; no prueba teológica"
+    },
+    {
+      "id": "CONCEPT-36",
+      "concept": "Prioridades incorporadas",
+      "source_units": [
+        "S3-P0021",
+        "S3-P0036"
+      ],
+      "condition": "Hacer visible un límite no legitima prioridades ni riesgos aceptables",
+      "integrated_destination": "MODEL.md#fines-y-capacidades",
+      "candidate_contrast": "ACC-ECO-22",
+      "counterexample": "El fin declarado sigue siendo impugnable con buena información",
+      "evidence_state": "Explicado; decisión humana no sustituida"
+    },
+    {
+      "id": "CONCEPT-37",
+      "concept": "Estatuto DDS y costes",
+      "source_units": [
+        "S3-P0038",
+        "S3-P0047",
+        "S3-P0048",
+        "S3-P0049",
+        "S3-P0050"
+      ],
+      "condition": "A B C son etapas de objetos distintos; evidencia de una no promueve otra",
+      "integrated_destination": "MODEL.md#uso-posterior",
+      "candidate_contrast": "ACC-ECO-16",
+      "counterexample": "Toy concordante que no cumple condiciones de campaña",
+      "evidence_state": "Piloto de especificación; aceptación formal pendiente"
+    },
+    {
+      "id": "CONCEPT-38",
+      "concept": "Token vigente y orden obsoleta",
+      "source_units": [
+        "S3-P0033",
+        "S1-P0795"
+      ],
+      "condition": "Caducidad técnica distinta de pérdida material de fundamento",
+      "integrated_destination": "MODEL.md#error-irreversibilidad-y-tiempo",
+      "candidate_contrast": "ACC-ECO-18",
+      "counterexample": "Revalidación convencional descubre reparación y freeze",
+      "evidence_state": "T02/T03 ilustrados; fuente UC21 NOT_RUN"
+    },
+    {
+      "id": "CONCEPT-39",
+      "concept": "Conflicto silencio y representación",
+      "source_units": [
+        "S1-P0375",
+        "S3-P0036",
+        "S3-P0056"
+      ],
+      "condition": "No inventar consentimiento ni precedencia; actor colectivo requiere representante",
+      "integrated_destination": "MODEL.md#propuestas-aceptación-y-reajuste",
+      "candidate_contrast": "ACC-ECO-19",
+      "counterexample": "La ruta legítima de revisión resuelve el conflicto",
+      "evidence_state": "E07 y T06 ilustrados; integración ACC excluida"
+    },
+    {
+      "id": "CONCEPT-40",
+      "concept": "Causa no resuelta",
+      "source_units": [
+        "S1-P0548"
+      ],
+      "condition": "Presupuesto previo y falsación; nuevas dimensiones quedan exploratorias",
+      "integrated_destination": "MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto",
+      "candidate_contrast": "ACC-ECO-12",
+      "counterexample": "Agotar consulta sin identificar mecanismo",
+      "evidence_state": "T06 ejecutado con dos consultas"
+    }
+  ]
+}
