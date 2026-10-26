@@ -1,0 +1,805 @@
+{
+  "count_cases": 20,
+  "input_sha256": "2485cee56990607fbfde26acf0529fd91e57568c9c7c556a1508d22b2a4f122f",
+  "note": "Finite synthetic counterexamples/positive controls, not estimates. Only within-case actors/units/horizons may be compared. F human, B/C/D exterior probabilities, authority and legitimacy not inferred.",
+  "results": {
+    "distribution_cases": [
+      {
+        "do_not_infer_actual_national_cohort_data": true,
+        "gross_housing_price_to_wage_multiplier": 8,
+        "id": "EX09_INTERGENERATIONAL_RATIOS",
+        "net_after_declared_transfer_multiplier": 11.9402985075,
+        "statistical_estimate": false
+      }
+    ],
+    "park_cases": [
+      {
+        "assumed_independent_use_and_functionality": true,
+        "child_net_of_allocated_future_tax": -191.04,
+        "child_service_exceeds_real_resources_before_unaggregated_preferences": false,
+        "child_service_minus_real_resources_NOT_full_social_welfare": -211.04,
+        "expected_child_service_value": 8.96,
+        "future_tax_pv_is_transfer_not_extra_social_cost": 200,
+        "id": "EX06_UNDERUSED_CHILD_PARK",
+        "parent_prefers_build_in_simplified_two_choice_problem": true,
+        "parent_private_gain_from_symbolic_care": 28,
+        "probability_product_useful": 0.028,
+        "social_break_even_use_times_functional": 0.6875,
+        "years_until_child_eligible": 5
+      },
+      {
+        "assumed_independent_use_and_functionality": true,
+        "child_net_of_allocated_future_tax": 88.8,
+        "child_service_exceeds_real_resources_before_unaggregated_preferences": true,
+        "child_service_minus_real_resources_NOT_full_social_welfare": 68.8,
+        "expected_child_service_value": 288.8,
+        "future_tax_pv_is_transfer_not_extra_social_cost": 200,
+        "id": "EX06B_USED_CHILD_PARK_CONTROL",
+        "parent_prefers_build_in_simplified_two_choice_problem": true,
+        "parent_private_gain_from_symbolic_care": 28,
+        "probability_product_useful": 0.9025,
+        "social_break_even_use_times_functional": 0.6875,
+        "years_until_child_eligible": 5
+      }
+    ],
+    "risk_cases": [
+      {
+        "exit_probability_postulated_logit_NOT_success": 0.119202922,
+        "gamma_fixed_within_case": 0.5,
+        "id": "EX07_MIGRATION_EARLY",
+        "preferred_under_characterized_cara_normal": "STAY",
+        "redesign_ce_advantage": -2,
+        "redesign_ce_after_one_transition_cost": 7,
+        "redesign_excess_variance": 32,
+        "redesign_mean_gain_before_cost": 6,
+        "stay_ce": 9,
+        "strict_stay_if_redesign_variance_exceeds": 28
+      },
+      {
+        "exit_probability_postulated_logit_NOT_success": 0.01798621,
+        "gamma_fixed_within_case": 0.5,
+        "id": "EX07_MIGRATION_LATE",
+        "preferred_under_characterized_cara_normal": "STAY",
+        "redesign_ce_advantage": -4,
+        "redesign_ce_after_one_transition_cost": 9,
+        "redesign_excess_variance": 60,
+        "redesign_mean_gain_before_cost": 11,
+        "stay_ce": 13,
+        "stipulations_not_human_observations": {
+          "current_welfare": 17,
+          "forecast_future_stay_below_current": true,
+          "synthetic_discomfort_F": 13
+        },
+        "strict_stay_if_redesign_variance_exceeds": 48
+      },
+      {
+        "exit_probability_postulated_logit_NOT_success": 0.9999832986,
+        "gamma_fixed_within_case": 0.5,
+        "id": "EX07B_INSURED_EXIT_CONTROL",
+        "preferred_under_characterized_cara_normal": "REDESIGN",
+        "redesign_ce_advantage": 11,
+        "redesign_ce_after_one_transition_cost": 24,
+        "redesign_excess_variance": 0,
+        "redesign_mean_gain_before_cost": 11,
+        "stay_ce": 13,
+        "strict_stay_if_redesign_variance_exceeds": 48
+      },
+      {
+        "defense": {
+          "certainty_equivalents": {
+            "DEFEND_STAY": 13.5,
+            "REDESIGN": 9,
+            "STAY": 13
+          },
+          "intrinsic_utility_added_to_material_mean": 1,
+          "not_a_new_nonisomorphic_mechanism_without_a_projection_witness": true,
+          "preferred": "DEFEND_STAY",
+          "same_material_payoff_as_stay": true,
+          "same_variance_as_stay": true
+        },
+        "exit_probability_postulated_logit_NOT_success": 0.01798621,
+        "gamma_fixed_within_case": 0.5,
+        "id": "EX07C_CARE_AS_UTILITY",
+        "preferred_under_characterized_cara_normal": "STAY",
+        "redesign_ce_advantage": -4,
+        "redesign_ce_after_one_transition_cost": 9,
+        "redesign_excess_variance": 60,
+        "redesign_mean_gain_before_cost": 11,
+        "stay_ce": 13,
+        "strict_stay_if_redesign_variance_exceeds": 48
+      },
+      {
+        "exit_probability_postulated_logit_NOT_success": 0.9999832986,
+        "gamma_fixed_within_case": 0,
+        "id": "EX07D_NEUTRAL_RISK_CONTROL",
+        "preferred_under_characterized_cara_normal": "REDESIGN",
+        "redesign_ce_advantage": 11,
+        "redesign_ce_after_one_transition_cost": 25,
+        "redesign_excess_variance": 60,
+        "redesign_mean_gain_before_cost": 11,
+        "stay_ce": 14,
+        "strict_stay_if_redesign_variance_exceeds": null
+      },
+      {
+        "defense": {
+          "certainty_equivalents": {
+            "DEFEND_STAY": 12.8,
+            "REDESIGN": 9,
+            "STAY": 13
+          },
+          "intrinsic_utility_added_to_material_mean": 0.3,
+          "not_a_new_nonisomorphic_mechanism_without_a_projection_witness": true,
+          "preferred": "STAY",
+          "same_material_payoff_as_stay": true,
+          "same_variance_as_stay": true
+        },
+        "exit_probability_postulated_logit_NOT_success": 0.01798621,
+        "gamma_fixed_within_case": 0.5,
+        "id": "EX07E_WEAK_SOCIAL_VALIDATION",
+        "preferred_under_characterized_cara_normal": "STAY",
+        "redesign_ce_advantage": -4,
+        "redesign_ce_after_one_transition_cost": 9,
+        "redesign_excess_variance": 60,
+        "redesign_mean_gain_before_cost": 11,
+        "stay_ce": 13,
+        "strict_stay_if_redesign_variance_exceeds": 48
+      },
+      {
+        "defense": {
+          "certainty_equivalents": {
+            "DEFEND_STAY": 13.5,
+            "REDESIGN": 9,
+            "STAY": 13
+          },
+          "intrinsic_utility_added_to_material_mean": 1,
+          "not_a_new_nonisomorphic_mechanism_without_a_projection_witness": true,
+          "preferred": "DEFEND_STAY",
+          "same_material_payoff_as_stay": true,
+          "same_variance_as_stay": true
+        },
+        "exit_probability_postulated_logit_NOT_success": 0.01798621,
+        "gamma_fixed_within_case": 0.5,
+        "id": "EX07F_STRONG_SOCIAL_VALIDATION",
+        "preferred_under_characterized_cara_normal": "STAY",
+        "redesign_ce_advantage": -4,
+        "redesign_ce_after_one_transition_cost": 9,
+        "redesign_excess_variance": 60,
+        "redesign_mean_gain_before_cost": 11,
+        "stay_ce": 13,
+        "strict_stay_if_redesign_variance_exceeds": 48
+      }
+    ],
+    "route_cases": [
+      {
+        "completion_probability_under_iid_steps": 0.857375,
+        "expected_G_decreases": true,
+        "expected_change_in_G_versus_stay": -11.4425,
+        "id": "EX08_SIERRA_SHORT",
+        "no_claim_about_human_F_or_choice": true,
+        "probability_at_least_one_damaging_failure": 0.142625,
+        "step_success_probability": 0.95,
+        "steps": 3,
+        "success_probability_break_even_if_total_outcomes_positive": 0.6666666667
+      },
+      {
+        "completion_probability_under_iid_steps": 0.2773895731,
+        "expected_G_decreases": false,
+        "expected_change_in_G_versus_stay": 23.3566256127,
+        "id": "EX08_SIERRA_LONG",
+        "no_claim_about_human_F_or_choice": true,
+        "probability_at_least_one_damaging_failure": 0.7226104269,
+        "step_success_probability": 0.95,
+        "steps": 25,
+        "success_probability_break_even_if_total_outcomes_positive": 0.6666666667
+      },
+      {
+        "completion_probability_under_iid_steps": 0.7778213594,
+        "expected_G_decreases": true,
+        "expected_change_in_G_versus_stay": -6.6692815639,
+        "id": "EX08B_MODULAR_RECOVERY_CONTROL",
+        "no_claim_about_human_F_or_choice": true,
+        "probability_at_least_one_damaging_failure": 0.2221786406,
+        "step_success_probability": 0.99,
+        "steps": 25,
+        "success_probability_break_even_if_total_outcomes_positive": 0.6666666667
+      }
+    ],
+    "static_cases": [
+      {
+        "baseline": "ONSITE",
+        "horizon": "un periodo comparable",
+        "id": "EX01_TELEWORK",
+        "options": [
+          {
+            "activity_difference_from_baseline": 0,
+            "commercial_transactions_not_social_value": 60,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "ONSITE",
+            "net_difference_from_baseline": 0,
+            "private_actor_score_separate": 65,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 71
+          },
+          {
+            "activity_difference_from_baseline": -15,
+            "commercial_transactions_not_social_value": 45,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "REMOTE",
+            "net_difference_from_baseline": 15,
+            "private_actor_score_separate": 78,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 86
+          },
+          {
+            "activity_difference_from_baseline": -10,
+            "commercial_transactions_not_social_value": 50,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "HYBRID",
+            "net_difference_from_baseline": 9,
+            "private_actor_score_separate": 75,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 80
+          }
+        ],
+        "private_actor_winner_under_declared_preferences": "REMOTE",
+        "private_social_rankings_diverge": false,
+        "service_floor": 95,
+        "social_surplus_winner_under_declared_guardrails": "REMOTE"
+      },
+      {
+        "baseline": "ONSITE",
+        "horizon": "un periodo comparable",
+        "id": "EX01B_PHYSICAL_WORK_CONTROL",
+        "options": [
+          {
+            "activity_difference_from_baseline": 0,
+            "commercial_transactions_not_social_value": 60,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "ONSITE",
+            "net_difference_from_baseline": 0,
+            "private_actor_score_separate": 65,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 71
+          },
+          {
+            "activity_difference_from_baseline": -15,
+            "commercial_transactions_not_social_value": 45,
+            "eligible_under_stipulated_guardrails": false,
+            "extra_service_needed_to_match_baseline": 15,
+            "name": "REMOTE_UNDER_SERVICE",
+            "net_difference_from_baseline": -15,
+            "private_actor_score_separate": 80,
+            "rights_authorized_stipulated": true,
+            "service_matched": false,
+            "service_value": 70,
+            "social_net_value": 56
+          }
+        ],
+        "private_actor_winner_under_declared_preferences": "ONSITE",
+        "private_social_rankings_diverge": false,
+        "service_floor": 95,
+        "social_surplus_winner_under_declared_guardrails": "ONSITE"
+      },
+      {
+        "baseline": "SOIL",
+        "horizon": "vida útil equiparada",
+        "id": "EX02_GARDEN_RECURSION",
+        "options": [
+          {
+            "activity_difference_from_baseline": 0,
+            "commercial_transactions_not_social_value": 10,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "SOIL",
+            "net_difference_from_baseline": 0,
+            "private_actor_score_separate": 65,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 89
+          },
+          {
+            "activity_difference_from_baseline": 15,
+            "commercial_transactions_not_social_value": 25,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 14,
+            "name": "TILES",
+            "net_difference_from_baseline": -14,
+            "private_actor_score_separate": 70,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 103,
+            "social_net_value": 75
+          },
+          {
+            "activity_difference_from_baseline": 38,
+            "commercial_transactions_not_social_value": 48,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 24,
+            "name": "WOOD_ON_TILES",
+            "net_difference_from_baseline": -24,
+            "private_actor_score_separate": 75,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 107,
+            "social_net_value": 65
+          },
+          {
+            "activity_difference_from_baseline": 70,
+            "commercial_transactions_not_social_value": 80,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 43,
+            "name": "PURCHASED_SOIL_ON_WOOD",
+            "net_difference_from_baseline": -43,
+            "private_actor_score_separate": 80,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 110,
+            "social_net_value": 46
+          },
+          {
+            "activity_difference_from_baseline": 30,
+            "commercial_transactions_not_social_value": 40,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "GENUINELY_BENEFICIAL_RENOVATION",
+            "net_difference_from_baseline": 18,
+            "private_actor_score_separate": 100,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 145,
+            "social_net_value": 107
+          }
+        ],
+        "private_actor_winner_under_declared_preferences": "GENUINELY_BENEFICIAL_RENOVATION",
+        "private_social_rankings_diverge": false,
+        "service_floor": 98,
+        "social_surplus_winner_under_declared_guardrails": "GENUINELY_BENEFICIAL_RENOVATION"
+      },
+      {
+        "baseline": "DIRECT_RELATIONS",
+        "horizon": "un periodo comparable",
+        "id": "EX03_SOCIAL_PLATFORM",
+        "options": [
+          {
+            "activity_difference_from_baseline": 0,
+            "commercial_transactions_not_social_value": 5,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "DIRECT_RELATIONS",
+            "net_difference_from_baseline": 0,
+            "private_actor_score_separate": 95,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 95
+          },
+          {
+            "activity_difference_from_baseline": 85,
+            "commercial_transactions_not_social_value": 90,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 18,
+            "name": "LOW_ADDED_REACH",
+            "net_difference_from_baseline": -18,
+            "private_actor_score_separate": 100,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 118,
+            "social_net_value": 77
+          },
+          {
+            "activity_difference_from_baseline": 105,
+            "commercial_transactions_not_social_value": 110,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "HIGH_ADDED_REACH",
+            "net_difference_from_baseline": 30,
+            "private_actor_score_separate": 120,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 165,
+            "social_net_value": 125
+          }
+        ],
+        "private_actor_winner_under_declared_preferences": "HIGH_ADDED_REACH",
+        "private_social_rankings_diverge": false,
+        "service_floor": 98,
+        "social_surplus_winner_under_declared_guardrails": "HIGH_ADDED_REACH"
+      },
+      {
+        "baseline": "CONVENTIONAL_COMMUTE",
+        "horizon": "misma demanda de servicio y horizonte",
+        "id": "EX04_CITY_CLIMATE",
+        "options": [
+          {
+            "activity_difference_from_baseline": 0,
+            "commercial_transactions_not_social_value": 80,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "CONVENTIONAL_COMMUTE",
+            "net_difference_from_baseline": 0,
+            "private_actor_score_separate": 75,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 34
+          },
+          {
+            "activity_difference_from_baseline": 20,
+            "commercial_transactions_not_social_value": 100,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "VEHICLE_EFFICIENCY_UPGRADE",
+            "net_difference_from_baseline": 14,
+            "private_actor_score_separate": 95,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 48
+          },
+          {
+            "activity_difference_from_baseline": -25,
+            "commercial_transactions_not_social_value": 55,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "AVOID_UNNECESSARY_TRIP",
+            "net_difference_from_baseline": 44,
+            "private_actor_score_separate": 85,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 78
+          },
+          {
+            "activity_difference_from_baseline": -35,
+            "commercial_transactions_not_social_value": 45,
+            "eligible_under_stipulated_guardrails": false,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "AVOID_REQUIRED_PHYSICAL_TRIP_INVALID",
+            "net_difference_from_baseline": 24,
+            "private_actor_score_separate": 99,
+            "rights_authorized_stipulated": true,
+            "service_matched": false,
+            "service_value": 75,
+            "social_net_value": 58
+          }
+        ],
+        "private_actor_winner_under_declared_preferences": "VEHICLE_EFFICIENCY_UPGRADE",
+        "private_social_rankings_diverge": true,
+        "service_floor": 95,
+        "social_surplus_winner_under_declared_guardrails": "AVOID_UNNECESSARY_TRIP"
+      },
+      {
+        "baseline": "KEEP_SAFE_JUNCTION",
+        "horizon": "misma demanda vial y horizonte amortizado",
+        "id": "EX05_RARE_INTERSECTION",
+        "options": [
+          {
+            "activity_difference_from_baseline": 0,
+            "commercial_transactions_not_social_value": 8,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "KEEP_SAFE_JUNCTION",
+            "net_difference_from_baseline": 0,
+            "private_actor_score_separate": 90,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 92
+          },
+          {
+            "activity_difference_from_baseline": 22,
+            "commercial_transactions_not_social_value": 30,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 25,
+            "name": "BUILD_ROUNDABOUT",
+            "net_difference_from_baseline": -25,
+            "private_actor_score_separate": 100,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 103,
+            "social_net_value": 67
+          }
+        ],
+        "private_actor_winner_under_declared_preferences": "BUILD_ROUNDABOUT",
+        "private_social_rankings_diverge": true,
+        "service_floor": 98,
+        "social_surplus_winner_under_declared_guardrails": "KEEP_SAFE_JUNCTION"
+      },
+      {
+        "baseline": "KEEP_BUSY_JUNCTION",
+        "horizon": "misma demanda vial ocupada y horizonte amortizado",
+        "id": "EX05B_BUSY_INTERSECTION_CONTROL",
+        "options": [
+          {
+            "activity_difference_from_baseline": 0,
+            "commercial_transactions_not_social_value": 8,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "KEEP_BUSY_JUNCTION",
+            "net_difference_from_baseline": 0,
+            "private_actor_score_separate": 72,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 100,
+            "social_net_value": 70
+          },
+          {
+            "activity_difference_from_baseline": 22,
+            "commercial_transactions_not_social_value": 30,
+            "eligible_under_stipulated_guardrails": true,
+            "extra_service_needed_to_match_baseline": 0,
+            "name": "BUILD_USEFUL_ROUNDABOUT",
+            "net_difference_from_baseline": 22,
+            "private_actor_score_separate": 104,
+            "rights_authorized_stipulated": true,
+            "service_matched": true,
+            "service_value": 130,
+            "social_net_value": 92
+          }
+        ],
+        "private_actor_winner_under_declared_preferences": "BUILD_USEFUL_ROUNDABOUT",
+        "private_social_rankings_diverge": false,
+        "service_floor": 98,
+        "social_surplus_winner_under_declared_guardrails": "BUILD_USEFUL_ROUNDABOUT"
+      }
+    ]
+  },
+  "schema": "ACC-RAV-WRITING-EXPERIMENTS-v0.1",
+  "sensitivity": {
+    "grid_status": "PREREGISTERED_SYNTHETIC_PARAMETERS_NO_FITTING",
+    "park_real_resource_grid": [
+      {
+        "child_service_less_real_resource_cost": -208.8,
+        "positive_excluding_unaggregated_preferences": false,
+        "prob_functional": 0.35,
+        "prob_use": 0.1
+      },
+      {
+        "child_service_less_real_resource_cost": -189.6,
+        "positive_excluding_unaggregated_preferences": false,
+        "prob_functional": 0.95,
+        "prob_use": 0.1
+      },
+      {
+        "child_service_less_real_resource_cost": -164,
+        "positive_excluding_unaggregated_preferences": false,
+        "prob_functional": 0.35,
+        "prob_use": 0.5
+      },
+      {
+        "child_service_less_real_resource_cost": -68,
+        "positive_excluding_unaggregated_preferences": false,
+        "prob_functional": 0.95,
+        "prob_use": 0.5
+      },
+      {
+        "child_service_less_real_resource_cost": -119.2,
+        "positive_excluding_unaggregated_preferences": false,
+        "prob_functional": 0.35,
+        "prob_use": 0.9
+      },
+      {
+        "child_service_less_real_resource_cost": 53.6,
+        "positive_excluding_unaggregated_preferences": true,
+        "prob_functional": 0.95,
+        "prob_use": 0.9
+      }
+    ],
+    "risk_sign_grid": [
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0,
+        "preferred": "REDESIGN",
+        "redesign_variance": 4
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0,
+        "preferred": "REDESIGN",
+        "redesign_variance": 24
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0,
+        "preferred": "REDESIGN",
+        "redesign_variance": 48
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0,
+        "preferred": "REDESIGN",
+        "redesign_variance": 64
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0,
+        "preferred": "REDESIGN",
+        "redesign_variance": 100
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0.1,
+        "preferred": "REDESIGN",
+        "redesign_variance": 4
+      },
+      {
+        "ce_gain_redesign": 10,
+        "gamma": 0.1,
+        "preferred": "REDESIGN",
+        "redesign_variance": 24
+      },
+      {
+        "ce_gain_redesign": 8.8,
+        "gamma": 0.1,
+        "preferred": "REDESIGN",
+        "redesign_variance": 48
+      },
+      {
+        "ce_gain_redesign": 8,
+        "gamma": 0.1,
+        "preferred": "REDESIGN",
+        "redesign_variance": 64
+      },
+      {
+        "ce_gain_redesign": 6.2,
+        "gamma": 0.1,
+        "preferred": "REDESIGN",
+        "redesign_variance": 100
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0.25,
+        "preferred": "REDESIGN",
+        "redesign_variance": 4
+      },
+      {
+        "ce_gain_redesign": 8.5,
+        "gamma": 0.25,
+        "preferred": "REDESIGN",
+        "redesign_variance": 24
+      },
+      {
+        "ce_gain_redesign": 5.5,
+        "gamma": 0.25,
+        "preferred": "REDESIGN",
+        "redesign_variance": 48
+      },
+      {
+        "ce_gain_redesign": 3.5,
+        "gamma": 0.25,
+        "preferred": "REDESIGN",
+        "redesign_variance": 64
+      },
+      {
+        "ce_gain_redesign": -1,
+        "gamma": 0.25,
+        "preferred": "STAY",
+        "redesign_variance": 100
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 0.5,
+        "preferred": "REDESIGN",
+        "redesign_variance": 4
+      },
+      {
+        "ce_gain_redesign": 6,
+        "gamma": 0.5,
+        "preferred": "REDESIGN",
+        "redesign_variance": 24
+      },
+      {
+        "ce_gain_redesign": 0,
+        "gamma": 0.5,
+        "preferred": "TIE",
+        "redesign_variance": 48
+      },
+      {
+        "ce_gain_redesign": -4,
+        "gamma": 0.5,
+        "preferred": "STAY",
+        "redesign_variance": 64
+      },
+      {
+        "ce_gain_redesign": -13,
+        "gamma": 0.5,
+        "preferred": "STAY",
+        "redesign_variance": 100
+      },
+      {
+        "ce_gain_redesign": 11,
+        "gamma": 1,
+        "preferred": "REDESIGN",
+        "redesign_variance": 4
+      },
+      {
+        "ce_gain_redesign": 1,
+        "gamma": 1,
+        "preferred": "REDESIGN",
+        "redesign_variance": 24
+      },
+      {
+        "ce_gain_redesign": -11,
+        "gamma": 1,
+        "preferred": "STAY",
+        "redesign_variance": 48
+      },
+      {
+        "ce_gain_redesign": -19,
+        "gamma": 1,
+        "preferred": "STAY",
+        "redesign_variance": 64
+      },
+      {
+        "ce_gain_redesign": -37,
+        "gamma": 1,
+        "preferred": "STAY",
+        "redesign_variance": 100
+      }
+    ],
+    "route_composition_grid": [
+      {
+        "expected_G_decreases": true,
+        "expected_change_in_G": -11.4425,
+        "q": 0.95,
+        "steps": 3
+      },
+      {
+        "expected_G_decreases": true,
+        "expected_change_in_G": -18.21794,
+        "q": 0.99,
+        "steps": 3
+      },
+      {
+        "expected_G_decreases": false,
+        "expected_change_in_G": 4.0757836457,
+        "q": 0.95,
+        "steps": 10
+      },
+      {
+        "expected_G_decreases": true,
+        "expected_change_in_G": -14.2629245005,
+        "q": 0.99,
+        "steps": 10
+      },
+      {
+        "expected_G_decreases": false,
+        "expected_change_in_G": 23.3566256127,
+        "q": 0.95,
+        "steps": 25
+      },
+      {
+        "expected_G_decreases": true,
+        "expected_change_in_G": -6.6692815639,
+        "q": 0.99,
+        "steps": 25
+      },
+      {
+        "expected_G_decreases": false,
+        "expected_change_in_G": 32.2892706061,
+        "q": 0.95,
+        "steps": 40
+      },
+      {
+        "expected_G_decreases": true,
+        "expected_change_in_G": -0.1383055142,
+        "q": 0.99,
+        "steps": 40
+      }
+    ]
+  },
+  "status": "SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL"
+}
