@@ -1,0 +1,1463 @@
+{
+  "evidence": "SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL",
+  "grids": {
+    "closure": [
+      {
+        "bounds": null,
+        "group": "closure",
+        "id": "SW-CLOSURE-000",
+        "parameters": [
+          null,
+          6.0
+        ],
+        "source": "CE11",
+        "status": "REGULARITY_NOT_ESTABLISHED"
+      },
+      {
+        "bounds": null,
+        "group": "closure",
+        "id": "SW-CLOSURE-001",
+        "parameters": [
+          null,
+          8.0
+        ],
+        "source": "CE11",
+        "status": "REGULARITY_NOT_ESTABLISHED"
+      },
+      {
+        "bounds": null,
+        "group": "closure",
+        "id": "SW-CLOSURE-002",
+        "parameters": [
+          null,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "REGULARITY_NOT_ESTABLISHED"
+      },
+      {
+        "bounds": null,
+        "group": "closure",
+        "id": "SW-CLOSURE-003",
+        "parameters": [
+          null,
+          12.0
+        ],
+        "source": "CE11",
+        "status": "REGULARITY_NOT_ESTABLISHED"
+      },
+      {
+        "bounds": [
+          8.5,
+          10.5
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-004",
+        "parameters": [
+          0.5,
+          6.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_SUPPORTED_IN_FRAME"
+      },
+      {
+        "bounds": [
+          8.5,
+          10.5
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-005",
+        "parameters": [
+          0.5,
+          8.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_SUPPORTED_IN_FRAME"
+      },
+      {
+        "bounds": [
+          8.5,
+          10.5
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-006",
+        "parameters": [
+          0.5,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_UNDETERMINED"
+      },
+      {
+        "bounds": [
+          8.5,
+          10.5
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-007",
+        "parameters": [
+          0.5,
+          12.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_REFUTED_IN_FRAME"
+      },
+      {
+        "bounds": [
+          8.0,
+          11.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-008",
+        "parameters": [
+          1.0,
+          6.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_SUPPORTED_IN_FRAME"
+      },
+      {
+        "bounds": [
+          8.0,
+          11.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-009",
+        "parameters": [
+          1.0,
+          8.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_SUPPORTED_IN_FRAME"
+      },
+      {
+        "bounds": [
+          8.0,
+          11.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-010",
+        "parameters": [
+          1.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_UNDETERMINED"
+      },
+      {
+        "bounds": [
+          8.0,
+          11.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-011",
+        "parameters": [
+          1.0,
+          12.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_REFUTED_IN_FRAME"
+      },
+      {
+        "bounds": [
+          6.0,
+          13.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-012",
+        "parameters": [
+          3.0,
+          6.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_SUPPORTED_IN_FRAME"
+      },
+      {
+        "bounds": [
+          6.0,
+          13.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-013",
+        "parameters": [
+          3.0,
+          8.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_UNDETERMINED"
+      },
+      {
+        "bounds": [
+          6.0,
+          13.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-014",
+        "parameters": [
+          3.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_UNDETERMINED"
+      },
+      {
+        "bounds": [
+          6.0,
+          13.0
+        ],
+        "global_D_open": true,
+        "group": "closure",
+        "id": "SW-CLOSURE-015",
+        "parameters": [
+          3.0,
+          12.0
+        ],
+        "source": "CE11",
+        "status": "PREDICATE_UNDETERMINED"
+      }
+    ],
+    "credit": [
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 4.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-000",
+        "parameters": [
+          3,
+          1
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 6.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-001",
+        "parameters": [
+          3,
+          3
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 8.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-002",
+        "parameters": [
+          3,
+          5
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 10.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-003",
+        "parameters": [
+          3,
+          7
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 6.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-004",
+        "parameters": [
+          5,
+          1
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 8.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-005",
+        "parameters": [
+          5,
+          3
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 10.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-006",
+        "parameters": [
+          5,
+          5
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 12.0,
+        "credit_shortfall": 2.0,
+        "group": "credit",
+        "id": "SW-CREDIT-007",
+        "parameters": [
+          5,
+          7
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_IMPOSSIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 8.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-008",
+        "parameters": [
+          7,
+          1
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 10.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-009",
+        "parameters": [
+          7,
+          3
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 12.0,
+        "credit_shortfall": 2.0,
+        "group": "credit",
+        "id": "SW-CREDIT-010",
+        "parameters": [
+          7,
+          5
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_IMPOSSIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 14.0,
+        "credit_shortfall": 4.0,
+        "group": "credit",
+        "id": "SW-CREDIT-011",
+        "parameters": [
+          7,
+          7
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_IMPOSSIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 10.0,
+        "credit_shortfall": 0,
+        "group": "credit",
+        "id": "SW-CREDIT-012",
+        "parameters": [
+          9,
+          1
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_FEASIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 12.0,
+        "credit_shortfall": 2.0,
+        "group": "credit",
+        "id": "SW-CREDIT-013",
+        "parameters": [
+          9,
+          3
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_IMPOSSIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 14.0,
+        "credit_shortfall": 4.0,
+        "group": "credit",
+        "id": "SW-CREDIT-014",
+        "parameters": [
+          9,
+          5
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_IMPOSSIBLE"
+      },
+      {
+        "absolute_pareto": true,
+        "credit_available": 10.0,
+        "credit_demand": 16.0,
+        "credit_shortfall": 6.0,
+        "group": "credit",
+        "id": "SW-CREDIT-015",
+        "parameters": [
+          9,
+          7
+        ],
+        "source": "CE11",
+        "status": "RELATIVE_CREDIT_IMPOSSIBLE"
+      }
+    ],
+    "network": [
+      {
+        "actual_production": 50.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-000",
+        "joint_optimum_empirically_eligible": false,
+        "links": 10,
+        "parameters": [
+          "dense",
+          5,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 51.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-001",
+        "joint_optimum_empirically_eligible": false,
+        "links": 10,
+        "parameters": [
+          "dense",
+          5,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 50.0,
+        "group": "network",
+        "hypothetical_gap": 2.0,
+        "id": "SW-NETWORK-002",
+        "joint_optimum_empirically_eligible": false,
+        "links": 10,
+        "parameters": [
+          "dense",
+          5,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 4.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 51.0,
+        "group": "network",
+        "hypothetical_gap": 2.0,
+        "id": "SW-NETWORK-003",
+        "joint_optimum_empirically_eligible": false,
+        "links": 10,
+        "parameters": [
+          "dense",
+          5,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 3.92156863,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 100.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-004",
+        "joint_optimum_empirically_eligible": false,
+        "links": 45,
+        "parameters": [
+          "dense",
+          10,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 104.5,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-005",
+        "joint_optimum_empirically_eligible": false,
+        "links": 45,
+        "parameters": [
+          "dense",
+          10,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 100.0,
+        "group": "network",
+        "hypothetical_gap": 9.0,
+        "id": "SW-NETWORK-006",
+        "joint_optimum_empirically_eligible": false,
+        "links": 45,
+        "parameters": [
+          "dense",
+          10,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 9.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 104.5,
+        "group": "network",
+        "hypothetical_gap": 9.0,
+        "id": "SW-NETWORK-007",
+        "joint_optimum_empirically_eligible": false,
+        "links": 45,
+        "parameters": [
+          "dense",
+          10,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 8.61244019,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 200.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-008",
+        "joint_optimum_empirically_eligible": false,
+        "links": 190,
+        "parameters": [
+          "dense",
+          20,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 219.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-009",
+        "joint_optimum_empirically_eligible": false,
+        "links": 190,
+        "parameters": [
+          "dense",
+          20,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 200.0,
+        "group": "network",
+        "hypothetical_gap": 38.0,
+        "id": "SW-NETWORK-010",
+        "joint_optimum_empirically_eligible": false,
+        "links": 190,
+        "parameters": [
+          "dense",
+          20,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 19.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 219.0,
+        "group": "network",
+        "hypothetical_gap": 38.0,
+        "id": "SW-NETWORK-011",
+        "joint_optimum_empirically_eligible": false,
+        "links": 190,
+        "parameters": [
+          "dense",
+          20,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 17.35159817,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 400.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-012",
+        "joint_optimum_empirically_eligible": false,
+        "links": 780,
+        "parameters": [
+          "dense",
+          40,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 478.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-013",
+        "joint_optimum_empirically_eligible": false,
+        "links": 780,
+        "parameters": [
+          "dense",
+          40,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 400.0,
+        "group": "network",
+        "hypothetical_gap": 156.0,
+        "id": "SW-NETWORK-014",
+        "joint_optimum_empirically_eligible": false,
+        "links": 780,
+        "parameters": [
+          "dense",
+          40,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 39.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 478.0,
+        "group": "network",
+        "hypothetical_gap": 156.0,
+        "id": "SW-NETWORK-015",
+        "joint_optimum_empirically_eligible": false,
+        "links": 780,
+        "parameters": [
+          "dense",
+          40,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 32.63598326,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 50.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-016",
+        "joint_optimum_empirically_eligible": false,
+        "links": 4,
+        "parameters": [
+          "star",
+          5,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 50.4,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-017",
+        "joint_optimum_empirically_eligible": false,
+        "links": 4,
+        "parameters": [
+          "star",
+          5,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 50.0,
+        "group": "network",
+        "hypothetical_gap": 0.8,
+        "id": "SW-NETWORK-018",
+        "joint_optimum_empirically_eligible": false,
+        "links": 4,
+        "parameters": [
+          "star",
+          5,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 1.6,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 50.4,
+        "group": "network",
+        "hypothetical_gap": 0.8,
+        "id": "SW-NETWORK-019",
+        "joint_optimum_empirically_eligible": false,
+        "links": 4,
+        "parameters": [
+          "star",
+          5,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 1.58730159,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 100.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-020",
+        "joint_optimum_empirically_eligible": false,
+        "links": 9,
+        "parameters": [
+          "star",
+          10,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 100.9,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-021",
+        "joint_optimum_empirically_eligible": false,
+        "links": 9,
+        "parameters": [
+          "star",
+          10,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 100.0,
+        "group": "network",
+        "hypothetical_gap": 1.8,
+        "id": "SW-NETWORK-022",
+        "joint_optimum_empirically_eligible": false,
+        "links": 9,
+        "parameters": [
+          "star",
+          10,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 1.8,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 100.9,
+        "group": "network",
+        "hypothetical_gap": 1.8,
+        "id": "SW-NETWORK-023",
+        "joint_optimum_empirically_eligible": false,
+        "links": 9,
+        "parameters": [
+          "star",
+          10,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 1.7839445,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 200.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-024",
+        "joint_optimum_empirically_eligible": false,
+        "links": 19,
+        "parameters": [
+          "star",
+          20,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 201.9,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-025",
+        "joint_optimum_empirically_eligible": false,
+        "links": 19,
+        "parameters": [
+          "star",
+          20,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 200.0,
+        "group": "network",
+        "hypothetical_gap": 3.8,
+        "id": "SW-NETWORK-026",
+        "joint_optimum_empirically_eligible": false,
+        "links": 19,
+        "parameters": [
+          "star",
+          20,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 1.9,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 201.9,
+        "group": "network",
+        "hypothetical_gap": 3.8,
+        "id": "SW-NETWORK-027",
+        "joint_optimum_empirically_eligible": false,
+        "links": 19,
+        "parameters": [
+          "star",
+          20,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 1.88211986,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 400.0,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-028",
+        "joint_optimum_empirically_eligible": false,
+        "links": 39,
+        "parameters": [
+          "star",
+          40,
+          0.0,
+          0.0
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 403.9,
+        "group": "network",
+        "hypothetical_gap": 0.0,
+        "id": "SW-NETWORK-029",
+        "joint_optimum_empirically_eligible": false,
+        "links": 39,
+        "parameters": [
+          "star",
+          40,
+          0.0,
+          0.1
+        ],
+        "ratio_percent": 0.0,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 400.0,
+        "group": "network",
+        "hypothetical_gap": 7.8,
+        "id": "SW-NETWORK-030",
+        "joint_optimum_empirically_eligible": false,
+        "links": 39,
+        "parameters": [
+          "star",
+          40,
+          0.2,
+          0.0
+        ],
+        "ratio_percent": 1.95,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      },
+      {
+        "actual_production": 403.9,
+        "group": "network",
+        "hypothetical_gap": 7.8,
+        "id": "SW-NETWORK-031",
+        "joint_optimum_empirically_eligible": false,
+        "links": 39,
+        "parameters": [
+          "star",
+          40,
+          0.2,
+          0.1
+        ],
+        "ratio_percent": 1.93117108,
+        "source": "CE11",
+        "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+      }
+    ],
+    "qualification": [
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-000",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": 0.0,
+          "TARGETED_CONVENTIONAL": -1.0
+        },
+        "parameters": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "SOURCE_B",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-001",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 10.0,
+          "TARGETED_CONVENTIONAL": 9.0
+        },
+        "parameters": [
+          0.0,
+          1.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-002",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": 0.0,
+          "TARGETED_CONVENTIONAL": -3.0
+        },
+        "parameters": [
+          0.0,
+          3.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "SOURCE_B",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-003",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 10.0,
+          "TARGETED_CONVENTIONAL": 7.0
+        },
+        "parameters": [
+          0.0,
+          3.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-004",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": 0.0,
+          "TARGETED_CONVENTIONAL": -10.0
+        },
+        "parameters": [
+          0.0,
+          10.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "SOURCE_B",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-005",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 10.0,
+          "TARGETED_CONVENTIONAL": 0.0
+        },
+        "parameters": [
+          0.0,
+          10.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-006",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -2.25,
+          "TARGETED_CONVENTIONAL": -1.0
+        },
+        "parameters": [
+          2.25,
+          1.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "TARGETED_CONVENTIONAL",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-007",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 7.75,
+          "TARGETED_CONVENTIONAL": 9.0
+        },
+        "parameters": [
+          2.25,
+          1.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-008",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -2.25,
+          "TARGETED_CONVENTIONAL": -3.0
+        },
+        "parameters": [
+          2.25,
+          3.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "SOURCE_B",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-009",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 7.75,
+          "TARGETED_CONVENTIONAL": 7.0
+        },
+        "parameters": [
+          2.25,
+          3.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-010",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -2.25,
+          "TARGETED_CONVENTIONAL": -10.0
+        },
+        "parameters": [
+          2.25,
+          10.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "SOURCE_B",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-011",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 7.75,
+          "TARGETED_CONVENTIONAL": 0.0
+        },
+        "parameters": [
+          2.25,
+          10.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-012",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -8.0,
+          "TARGETED_CONVENTIONAL": -1.0
+        },
+        "parameters": [
+          8.0,
+          1.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "TARGETED_CONVENTIONAL",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-013",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 2.0,
+          "TARGETED_CONVENTIONAL": 9.0
+        },
+        "parameters": [
+          8.0,
+          1.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-014",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -8.0,
+          "TARGETED_CONVENTIONAL": -3.0
+        },
+        "parameters": [
+          8.0,
+          3.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "TARGETED_CONVENTIONAL",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-015",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 2.0,
+          "TARGETED_CONVENTIONAL": 7.0
+        },
+        "parameters": [
+          8.0,
+          3.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-016",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -8.0,
+          "TARGETED_CONVENTIONAL": -10.0
+        },
+        "parameters": [
+          8.0,
+          10.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "SOURCE_B",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-017",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": 2.0,
+          "TARGETED_CONVENTIONAL": 0.0
+        },
+        "parameters": [
+          8.0,
+          10.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-018",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -15.0,
+          "TARGETED_CONVENTIONAL": -1.0
+        },
+        "parameters": [
+          15.0,
+          1.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "TARGETED_CONVENTIONAL",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-019",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": -5.0,
+          "TARGETED_CONVENTIONAL": 9.0
+        },
+        "parameters": [
+          15.0,
+          1.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-020",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -15.0,
+          "TARGETED_CONVENTIONAL": -3.0
+        },
+        "parameters": [
+          15.0,
+          3.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "TARGETED_CONVENTIONAL",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-021",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": -5.0,
+          "TARGETED_CONVENTIONAL": 7.0
+        },
+        "parameters": [
+          15.0,
+          3.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-022",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -32.0,
+          "SOURCE_B": -15.0,
+          "TARGETED_CONVENTIONAL": -10.0
+        },
+        "parameters": [
+          15.0,
+          10.0,
+          0.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      },
+      {
+        "best_mode": "A_ONLY",
+        "certificate_qualified": true,
+        "group": "qualification",
+        "id": "SW-QUALIFICATION-023",
+        "net_values": {
+          "A_ONLY": 0.0,
+          "FULL_A_EXPANSION": -22.0,
+          "SOURCE_B": -5.0,
+          "TARGETED_CONVENTIONAL": 0.0
+        },
+        "parameters": [
+          15.0,
+          10.0,
+          10.0
+        ],
+        "source": "CE11",
+        "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+      }
+    ]
+  },
+  "schema": "CONSCIENTIA-SENSITIVITY-v0.1",
+  "total_sweep_runs": 88
+}
