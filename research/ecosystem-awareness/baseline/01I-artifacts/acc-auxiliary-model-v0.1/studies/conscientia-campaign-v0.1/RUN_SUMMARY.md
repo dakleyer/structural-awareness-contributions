@@ -44,3 +44,9 @@
 El bloque precedente `LOCAL_ONLY_NO_SIBLING_REPLAY` describe correctamente aquella ejecución **local aislada**. Después, GitHub Actions sí ejecutó los replays completos: [workflow 40350676384](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40350676384), SUCCESS. Se reejecutaron cuatro módulos anteriores frente a sus resultados de referencia, las 49 pruebas nuevas pasaron y el adaptador UC21/S4 se ejecutó únicamente sobre su fixture sintético. El resultado HR sigue sin prueba ni refutación empírica. El artifact `conscientia-acc-synthetic-results` contiene la salida integral regenerada y un resumen legible.
 
 **Concordancia con Google Docs:** https://docs.google.com/document/d/17ud6Jce6b-Dy2mnV3GSXiqfrhsMMe09xAJzLztNknUc/edit
+
+## Ampliación comprobada — doce microensayos trazables
+
+Los controles adicionales de PR #49 recalculan explícitamente: IQ-03 con brecha de recursos 20→45 conservando el servicio por período, el plátano S0/S1/S2, límites de consentimiento, cuotas 7+4 inviables y 7+3 factibles, manzanas que recuperan utilidad tras umbral, no independencia de una copia, XOR finito, y cuatro puertas de no-inferencia para naranjas, educación, ministerios, oficios y liceo.
+
+**Estatus: sólo fixtures sintéticos.** Las 61 pruebas locales de la ampliación se ejecutaron satisfactoriamente; la CI de la nueva base publicará y revalidará su resultado. Conservar el bloque anterior de postverificación CI como historial de la primera edición, sin presentarlo como verificación de las doce pruebas nuevas.

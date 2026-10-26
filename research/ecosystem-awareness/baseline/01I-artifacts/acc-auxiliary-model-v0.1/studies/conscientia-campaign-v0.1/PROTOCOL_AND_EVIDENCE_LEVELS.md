@@ -35,3 +35,7 @@ La distinción *Q pública versus privada* con cambios de equilibrio multiagente
 ## Reglas de parada y publicaciones
 
 Pausar elevación de madurez si una versión fuente cambia sin custodia; una fórmula propietaria diverge; Q tiene origen falso o caducado; un contrafactual viola derechos o dispone de más recursos; la política falsea `REVIEW` como `PASS`; o un ensayo humano pretende usar la brecha para juzgar dignidad. Los resultados negativos se publican con igual prominencia y **el caso se re-registra** antes de modificar hipótesis. Cualquier resultado Stage C necesita anexo independiente con artefactos firmados/observables; nunca se simula retrospectivamente un PASS productivo usando esta matriz.
+
+## Doce microensayos aritméticos y puertas de evidencia
+
+`source_anchored_microexperiments` preserva las tres escenas S0/S1/S2 del plátano, el contraste IQ-03 de recursos por servicio **en cada período**, el umbral de crédito 7+4 frente a 7+3, la utilidad no monótona de manzanas, procedencia no fungible, sinergia XOR **sólo finita**, y puertas `NOT_ESTABLISHED` para naranjas, escuela, ministerios, oficios y la viñeta del liceo. Estas salidas no son una muestra, ni un experimento controlado con personas, ni una prueba de que una institución real incumpla su misión.

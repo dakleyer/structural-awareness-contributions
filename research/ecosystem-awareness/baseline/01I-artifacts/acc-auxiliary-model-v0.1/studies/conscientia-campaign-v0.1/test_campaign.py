@@ -175,6 +175,53 @@ class CausalAndHumanBoundaries(unittest.TestCase):
         self.assertEqual(len(rows),6)
         self.assertEqual(sum(r['gate_count'] for r in rows),37)
         self.assertTrue(all(r['product_execution']=='NOT_RUN' for r in rows))
+    def test_IQ03_same_period_output_and_resource_gap(self):
+        v=app.source_anchored_microexperiments()["IQ03_EFFICIENCY_GAP"]
+        self.assertEqual((v["resource_gap_t0"],v["resource_gap_t1"]),(20,45))
+        self.assertTrue(v["output_increased"])
+        self.assertEqual(v["alt_feasible"],"ASSUMED_WITHIN_EACH_PERIOD")
+    def test_bananas_three_states_conserve_resource(self):
+        v=app.source_anchored_microexperiments()["BANANA_THREE_STATES"]
+        for state in v["states"].values():
+            self.assertEqual(state["bananas_produced"],state["consumed_by_holder"]+state["received_by_child"]+state["wasted"])
+        self.assertEqual(v["conditional_recovery_of_wasted_one"],1)
+    def test_donation_not_without_consent(self):
+        self.assertFalse(app.source_anchored_microexperiments()["BANANA_DONATION_AND_CARITAS"]["actual_authorized_donation_without_donor_consent"])
+    def test_credit_70_40_infeasible_and_70_30_feasible(self):
+        v=app.source_anchored_microexperiments()["CREDIT_RELATIVE_FLOORS"]
+        self.assertFalse(v["seven_plus_four"]["feasible"])
+        self.assertTrue(v["seven_plus_three"]["feasible"])
+    def test_nonmonotone_apples_stuck_at_local_peak(self):
+        v=app.source_anchored_microexperiments()["NONMONOTONE_APPLES"]
+        self.assertEqual((v["local_peak_quantity"],v["best_global_quantity"]),(3,8))
+        self.assertTrue(v["local_step_decreases_utility"])
+    def test_duplicate_source_not_independent(self):
+        v=app.source_anchored_microexperiments()["NONFUNGIBLE_PROVENANCE"]
+        self.assertEqual(v["three_messages"],3)
+        self.assertEqual(v["distinct_origins"],2)
+    def test_finite_xor_synergy_not_open_D_entropy(self):
+        v=app.source_anchored_microexperiments()["FINITE_XOR_SYNERGY"]
+        self.assertEqual(v["I_R_Q1Q2_bits"],1)
+        self.assertEqual(v["I_R_Q1_bits"],0)
+        self.assertTrue(v["no_open_D_probability"])
+    def test_orange_price_claim_not_proved(self):
+        v=app.source_anchored_microexperiments()["ORANGE_RESEARCH_GATE"]
+        self.assertEqual(v["price_collusion"],"NOT_ESTABLISHED")
+        self.assertEqual(v["actor_experienced_suffering"],"NOT_MEASURED")
+    def test_education_algebra_not_full_suitability(self):
+        v=app.source_anchored_microexperiments()["EDUCATION_ARCHITECTURE_GATE"]
+        self.assertTrue(v["candidate_passes_algebra"])
+        self.assertEqual(v["full_architecture_adoption"],"NOT_ESTABLISHED")
+    def test_ministries_not_assumed_feasible(self):
+        v=app.source_anchored_microexperiments()["TWO_MINISTRIES_700_APPLICATIONS"]
+        self.assertEqual(v["certified_recoverable_savings"],"NOT_ESTABLISHED")
+    def test_craft_preservation_requires_functional_transmission(self):
+        v=app.source_anchored_microexperiments()["CRAFT_TRANSMISSION"]
+        self.assertEqual(v["ability_to_reproduce_craft"],"NOT_ESTABLISHED")
+    def test_lycee_not_french_empirical_data(self):
+        v=app.source_anchored_microexperiments()["HUMAN_SCENARIO_LYCEE"]
+        self.assertEqual(v["observed_french_student"],"NOT_OBSERVED")
+        self.assertEqual(v["experienced_distress"],"NOT_MEASURED")
     def test_report_reproducible_locally(self):
         a=app.build_campaign(require_existing=False)
         b=app.read_json('REFERENCE_SYNTHETIC_RESULTS.json')

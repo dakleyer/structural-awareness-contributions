@@ -61,3 +61,10 @@ La CI aprovecha el único [workflow de integridad documental](https://github.com
 La ejecución publicó el artifact `conscientia-acc-synthetic-results` (ID 12664160091) con JSON y Markdown de resultados regenerados; es un entregable temporal de Actions, no una observación independiente. Los datos fuente/casos/resultados fijados y los programas permanecen en el repositorio para reproducirlos después del vencimiento del artifact.
 
 **Índice en Google Docs (nuevo, sin cambios a las fuentes originales):** https://docs.google.com/document/d/17ud6Jce6b-Dy2mnV3GSXiqfrhsMMe09xAJzLztNknUc/edit
+
+
+## Extensión documental con doce microensayos reproducibles (PR #49)
+
+La ampliación [PR #49](https://github.com/dakleyer/structural-awareness-contributions/pull/49) conserva **todo el trabajo ya fusionado** y añade doce verificaciones fuente-ancladas a los ejemplos originales: el plátano en tres estados con conservación de unidades y consentimiento, crédito 7+4/7+3, manzanas y frutería con utilidad no monótona, eficiencia del documento IQ-03, procedencia duplicada, XOR finito, naranjas sin colusión demostrada, educación, ministerios, oficios y alumno de liceo como viñeta. El runner guarda los resultados en `source_anchored_microexperiments`, comparables con el JSON de referencia, **sin convertir ilustraciones en evidencia social observada**.
+
+Las 61 pruebas abarcan los 49 controles previos y doce casos adicionales. Los resultados anteriores y el artefacto CI ya verificado se preservan; los valores económicos/psicológicos de esos nuevos ejemplos siguen siendo sintéticos o NO ESTABLECIDOS. El instrumento D02 Attribution Gap permanece bloqueado por discrepancia de fórmula entre versiones y las métricas humanas necesitan fuente independiente. No existe un segundo protocolo DDS ni un oráculo UC21 reescrito.
