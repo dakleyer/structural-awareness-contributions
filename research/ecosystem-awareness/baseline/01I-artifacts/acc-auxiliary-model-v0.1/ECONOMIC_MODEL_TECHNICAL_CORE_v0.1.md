@@ -199,7 +199,18 @@ El modelo productivo abre dimensiones que **generan** capacidad y nuevas interac
 - ACW: mediación, reconciliación, reentrada o contexto reconstruido **evitables** bajo un contrafactual seguro y equivalente.
 - UNKNOWN: insuficiencia para clasificar, conservar explícitamente.
 
-Indicadores con sus propias unidades y denominadores:
+**Cálculo primario implementado en el optimizador sintético — diferencia directa por cada óptimo comparable:** sea S el estado subóptimo y O_j un óptimo técnico o gobernable dentro de las configuraciones factibles declaradas. Para igual servicio, capacidad, recursos, derechos y mismo vector de contribución informacional humana `h_k`, el resultado por óptimo es:
+
+~~~text
+HICR_modelo(S)       = Σ_k h_k(S)   / H_común
+HICT_modelo(O_j)     = Σ_k h_k(O_j) / H_común
+HID_modelo(S, O_j)   = [Σ_k h_k(O_j) − Σ_k h_k(S)] / H_común
+HID_horas(S, O_j)    = Σ_k [h_k(O_j) − h_k(S)]
+~~~
+
+Se devuelve el resultado **para cada O_j**, con diferencias por componente y test de dominancia; no se fabrica un vector ideal combinando óptimos distintos. Si la comparación no es válida, HID directo queda **no medido**, no cero. Las horas ACW, NEO, recuperación `ρ` y brechas de utilidad sirven para **explicar/contrastar** el resultado; por sí solas no determinan la diferencia de entradas `h_k`. Esta realización operacional dentro de ACC **no crea un nuevo protocolo de medición de personas**, cuya autoridad permanece en 01K. Véase [auditoría HID por óptimos y experimento ABCD](studies/parametric-economic-toy-v0.1/HID_OPTIMUM_ABCD_AUDIT_v0.1.md).
+
+**Indicadores auxiliares históricos con sus propias unidades y denominadores:**
 
 ~~~text
 HICR_time = H_GIC / H_total
@@ -210,6 +221,8 @@ F-HICT = HICR + ρ∞·H_releasable/H_total
 HID_spent = (1−ρ∞)·H_releasable/H_total
 NOI = H_added − H_removed    [trabajo de oversight]
 ~~~
+
+En el bloque histórico de arriba, `HICT=HICR+H_releasable/H_total` es un **indicador potencial condicionado a recuperación/reemplazabilidad**, no un método para inferir automáticamente el incremento efectivo de `h_k` del óptimo. Su uso no debe sustituir la resta directa entre vectores de contribución informacional cuando estos existen.
 
 HID_observed, HID potencial, capacidad efectivamente recuperada y HID_spent **no son intercambiables**. HICT/HICR siguen el contrato original; las horas y clases de Paper 5 sólo se publican como medida tras su puerta de calidad y evidencia de sustituibilidad. No usar n aplicaciones, n dimensiones, G de utilidad o C_adj como estimador directo de HID.
 

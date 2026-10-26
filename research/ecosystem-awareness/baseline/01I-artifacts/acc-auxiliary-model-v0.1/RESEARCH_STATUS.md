@@ -48,6 +48,20 @@ La [disposición de las auditorías](review/AUDIT_ACTIONS.md) registra correccio
 
 ## Realización programable adicional — 25 de octubre de 2026
 
-El [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) implementa tres motores separados: enumeración de estados y óptimos F^T/F^G, dinámica de n dimensiones/interacciones/deuda HID, y evaluación algebraica M0–M3. Sus 34 pruebas deterministas comprobaron invariantes de costes, transferencias, autorizaciones, HID condicional, crecimiento/no crecimiento de deuda y límites de comparabilidad. [Referencia numérica de la versión](studies/parametric-economic-toy-v0.1/results/REFERENCE_RESULTS_v0.1.json).
+El [toy económico paramétrico](studies/parametric-economic-toy-v0.1/README.md) implementa tres motores separados: enumeración de estados y óptimos F^T/F^G, dinámica de n dimensiones/interacciones/deuda HID, y evaluación algebraica M0–M3. Sus **34 pruebas originales**, preservadas, comprobaron invariantes de costes, transferencias, autorizaciones, HID condicional, crecimiento/no crecimiento de deuda y límites de comparabilidad. Una ampliación posterior (descrita más abajo) incorpora 18 pruebas adicionales. [Referencia numérica de la versión](studies/parametric-economic-toy-v0.1/results/REFERENCE_RESULTS_v0.1.json).
 
 **Estado de evidencia:** ejecución de cálculo sintético, no ensayo de agentes ni medición empresarial/humana. En particular, las 10.000 ejecuciones históricas siguen sin autenticarse, la batería causal HID2-01…10 sigue NOT RUN, y un óptimo de trayectoria desde t=0 no acredita factibilidad de retorno en t. No se alteran el piloto congelado, DDS, UC21/R01 ni ACC normativo.
+
+
+## Puentes de las series HID / Attribution Gap / Informational Friction / obligaciones
+
+El [estudio de puentes sintéticos](studies/causal-bridges-v0.1/README.md) ha añadido comparaciones de inputs humanos contra alternativas factibles y no dominadas, indicadores de Attribution Gap con fuentes declaradas independientes, retirada contrastada, mapa/flujo con retroacción y contabilidad de compromisos monetarios como objeto distinto. **19 tests unitarios locales pasan** para cálculos e invariantes en escenarios inventados; no se han ejecutado campañas de campo ni se afirma que HID2-01…10 hayan sido realizados. [Protocolo de medida y matriz de experimentos pendientes](studies/causal-bridges-v0.1/README.md).
+
+
+## Promoción revisable de HID primario y ABCD — 25 de octubre de 2026
+
+El [cálculo directo por óptimo](studies/parametric-economic-toy-v0.1/HID_OPTIMUM_ABCD_AUDIT_v0.1.md) produce un vector de diferencias de inputs humanos genuinamente informacionales entre cada óptimo comparable y el subóptimo, en horas y ratio con denominador común. Los auxiliares GIC/NEO/ACW/recuperación quedan separados y no originan por extrapolación la cifra HID primaria. El escenario portfolio publica dos referencias sintéticas comparables (13 y 15 horas).
+
+El contraste ABCD mantiene la red física, la producción y los recursos en cuatro brazos, cambiando la pregunta/proceso de cualificación y su política; el caso de prueba a t20 da 8,4 h de diferencia directa D→A, Δ²HID_horas≈+0,04 y Δ²HID_ratio≈0. El test de pérdida informacional cero y el de topología dispersa muestran que una aceleración no sigue de la etiqueta ABCD por definición. **El brazo A tiene cualificación completa con coste NEO de adquisición cero**: representa una referencia ideal, no tecnología EA demostrada ni mejoría neta bajo todos los costes. La pérdida de GIC por enlace sin cualificación está parametrizada, no inferida de personas.
+
+**Estado de ejecución:** 34 pruebas anteriores + 18 nuevas = **52 pruebas locales en verde**. El workflow documental exitoso del head original de PR #28 precede a los commits de integración; se requiere una nueva ejecución de CI y revisión independiente antes de fusionar. El estudio separado de puentes conserva sus 19 pruebas locales y no certifica las campañas HID2-01…10. No se ha ejecutado una prueba DDS/UC21 ni el protocolo humano 01K-A01. [Auditoría de PRs, propietarios y promoción](review/PROMOTION_AUDIT_2026-10-25.md).
