@@ -768,3 +768,68 @@ The B/C corrections and custody descriptions are legitimate receiving changes. N
 B's completed prose-control reading confirms the distinction between generic 04 semantics and programme-specific 05/05A mappings. The current A_ref route keeps unavailable, stale and unbound values as UNKNOWN; H06 end-to-end reconciliation remains a real requirement. Retiring applied navigation/editorial dossiers does not settle that contract question or reactivate an older alternative.
 
 The two visible ./PUBLICATION_MANIFEST.json strings inside the preserved 101/102 input-contract before/after material are literal source-relative context. Their named source is 04_INPUT_INTERFACE_CONTRACT; operative owner links reach the current contract 407a0099 and its manifest 3934ed2b. Both actual receivers were read. Rewriting the quoted URLs would falsify the complete old/proposed passages, so no such patch is proposed. The current input-contract semantics and 176-row conditional map retain their own review limits. The [baseline consolidation](./README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) records the cross-document decision.
+
+
+## Taxonomy audit and literal candidates — 26 October 2026
+
+**Audit by Codex AI assistant, for human review; baseline `1b5a07f916d3f65cf467628e2bec5b13b769a029`.** This is the existing cumulative owner VNext. The [cross-corpus taxonomy assessment](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026) explains the common axes, public sources, counter-readings, priorities and remaining H06 integration question. The private terminology email guided the question; unpublished glossary entries are not available and are not reconstructed or published.
+
+**What holds:** producer meaning, evidence, judgment, authority, capacity, timing and actual effects retain different owners and states. The following prose candidates make existing distinctions legible; they do not create another glossary, event schema or audit VNext. Related receptors are Foundation, IF-S5/S6, 01K/component, 05A and the DDS reader route as linked in the common assessment. Changes remain proposals; no source text or old audit is removed.
+
+**H06 remains open.** The current general EHD includes operational result/producer verdict, whereas [Input Contract N02](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md#n02-mantener-a-fuera-de-la-entrada) excludes the functional A value. The source explicitly retains this integration gap. Its resolution needs a named route/ownership decision; neither TAX26-04 nor TAX26-05 removes it or permits relabelling A as B. High impact / High semantic-integration risk / effort not yet estimable. Preserve the two routes until their relationship is agreed.
+
+### TAX26-04 — Make human-review evidence interpretable at IF-S6
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** First. **Expected positive impact:** High. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#L978) · IF-S6, Boundary. Source blob `02f4c9712d1b4be76a7c18a98452ee133a069661`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The current evidence-considered input and outcome/reconciliation input are too compressed to explain what was actually observed. Expand their reading without adding mandatory EHD fields or changing interface payloads.
+
+**Evidence:** https://github.com/FG-TIDA/themes/issues/16#issuecomment-6302053285 ; https://github.com/FG-TIDA/themes/issues/16#issuecomment-5715075656
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+Human oversight owns human capacity and intervention. EA consumes human-capacity state as one dependency among many. Human approval does not retroactively validate an upstream world model. Repeated escalation, review and evidence requests also consume finite human attention in the extended human-agent system; EA may therefore identify the human channel itself as capacity-binding or Type-1-amplifying without taking ownership of the human decision.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+Human oversight owns human capacity and intervention. EA consumes human-capacity state as one dependency among many. Human approval does not retroactively validate an upstream world model. Repeated escalation, review and evidence requests also consume finite human attention in the extended human-agent system; EA may therefore identify the human channel itself as capacity-binding or Type-1-amplifying without taking ownership of the human decision. Where a human-review profile uses them, distinguish evidence available, evidence presented, human notice and assessed comprehension; presentation or notice alone does not establish comprehension. Keep the recorded decision, execution acknowledgement, confirmed intervention and independently observed effect separate.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+### TAX26-05 — Scope the meaning of appraisal at IF-S5
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** Next. **Expected positive impact:** Medium. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#L880) · IF-S5, Generic role. Source blob `02f4c9712d1b4be76a7c18a98452ee133a069661`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** Entitled to be relied upon can be misread as a general authorization. Name the appraisal policy and claim scope while preserving the distinct receiving judgment and decision owner.
+
+**Evidence:** https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6301163175 ; https://github.com/FG-TIDA/themes/issues/16#issuecomment-5872506565
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+Checks whether evidence/records/claims are entitled to be relied upon and produces explicit appraisal or rejection outcomes. This aligns with evidence-appraisal patterns such as RATS appraisal.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+Appraises evidence, records or claims against the declared appraisal policy and claim scope, and produces explicit appraisal or rejection outcomes. This aligns with evidence-appraisal patterns such as RATS appraisal. The appraisal result is an input to the receiving decision; it does not itself grant authority for that decision or establish the execution outcome.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
