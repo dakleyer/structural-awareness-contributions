@@ -1,0 +1,389 @@
+# 04 General Interfaces vNext Review & Delta — Ecosystem Awareness
+
+> **Working delta only — not a new interface specification.**  
+> The current programme-independent interface reference remains [**04 — General Functional Interfaces & Agentic Security v0.5 Integrated**](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).  
+> The historical controlled v0.4 source remains preserved separately.  
+> This file accumulates post-baseline addenda, clarifications and review questions. It may remain partial while review is active. Nothing here changes O1–O6, IF-S1–IF-S13, the EHD kernel, the Composition-Critical profile or Appendix A unless a later 04 version is explicitly promoted.
+>
+> **Downstream navigation only.** The FG-TIDA-specific ideal/current projections are 05/05A. They consume this layer; no FG-TIDA Theme semantics belong in the 04 technical delta itself.
+
+| | |
+|---|---|
+| **ID** | 04-vNext Review & Delta |
+| **Version · date** | v0.1-draft · opened 24 September 2026 |
+| **Status** | Cumulative interface delta / review; incomplete by design; no change to 04 v0.5 baseline |
+| **Current 04 baseline** | General Functional Interfaces & Agentic Security v0.5 Integrated |
+| **Historical controlled source** | 04 Functional Interfaces & Agentic Security v0.4 split source |
+| **Upstream control** | [00 Requirements frozen baseline](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) + [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| **Downstream consumers** | Programme/domain-specific application mappings, validation/test profiles and later specification-preparation work |
+
+---
+
+## 1. Delta rule
+
+04 is the **programme-independent interface layer**. This delta therefore asks only whether post-baseline work requires a change to the generic EA interface architecture.
+
+It does **not** import programme-specific identifiers, ownership structures or institutional mappings into 04. Those belong only in downstream application profiles.
+
+For each new development, the review asks:
+
+1. does the upstream Requirements delta expose a genuinely new solution-neutral obligation?;
+2. if not, does the current 04 already express the needed interface semantics?;
+3. if partly, is only an editorial clarification or optional profile refinement needed?;
+4. does the proposed change belong instead to component conformance, a test profile, a signalling/control annex or a programme-specific mapping?;
+5. would adding the field/family create unnecessary metadata or semantic coupling for simple routes?
+
+A new architecture object, scenario field, test disposition or programme-specific mapping is **not** automatically a new O#/IF-S# family or universal EHD field.
+
+---
+
+## 2. Upstream Requirements disposition
+
+The current [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) does **not** justify S15, T5, H7 or a new canonical KPI family.
+
+That constrains 04-vNext in the same direction:
+
+- do **not** create O7 merely because later architecture adds a new processing object;
+- do **not** create IF-S14 merely because a later scenario or test names another boundary;
+- do **not** expand the six-element EHD interoperability kernel merely because one fixture benefits from an extra qualifier;
+- prefer conditional/profile semantics where the information is material only to specific compositions.
+
+Three Requirements clarification candidates are interface-relevant.
+
+### CAND-R1 — effective-role drift
+
+The later corpus makes the distinction
+
+`Role_bound ≠ Role_effective`
+
+more operationally visible.
+
+**Tentative 04 consequence:** where role/function drift is material to the receiving decision, a producer or adapter may need to preserve enough source-owned state to distinguish:
+
+- declared/bound role or representation;
+- observed effective function/state;
+- the basis and time of the observation; and
+- whether current authority/applicability for that effective function is established, not established or external to the producer.
+
+This should initially remain a **conditional qualifier/profile concern**, not a new universal EHD kernel field and not a new identity/authority interface family.
+
+Continuity of identity, name, runtime lineage or newly acquired capability must not be interpreted by 04 as proof of continuity or expansion of authority.
+
+### CAND-R2 — opportunity / admissibility / authority / execution
+
+The later corpus increasingly uses the reading rule:
+
+`opportunity ≠ admissibility ≠ authority ≠ execution`.
+
+**Tentative 04 consequence:** the generic interface architecture should remain capable of carrying these distinctions without translating one into another.
+
+In particular:
+
+- a high-value or technically reachable candidate may be preserved as information without becoming permission;
+- a policy/admissibility result remains source-owned;
+- an authority response remains authority-owner state;
+- an execution/outcome record remains distinct from the decision or request that preceded it.
+
+The current 04 already supports most of this through O1/O5, IF-S2, IF-S4, IF-S8, IF-S11/12 and the Composition-Critical EHD profile. The delta therefore records a likely **editorial clarification**, not a new interface family.
+
+### CAND-R3 — per-action compliance versus aggregate/composed authorization
+
+The upstream Requirements delta now makes explicit:
+
+`per-action compliance ≠ aggregate/composed authorization`.
+
+00H supplies the concrete falsifier: every atomic action may satisfy a local cap or rule while the cumulative campaign remains outside the participant's legitimate authority boundary.
+
+**Tentative 04 consequence:** where authority is defined over a cumulative, campaign-level, resource-time or other composed effect, the interface route may need a **conditional Composition-Critical relation** that preserves enough action-history / aggregate-lineage state for the legitimate owner or relying party to evaluate the composed effect.
+
+This should **not** become a seventh mandatory EHD kernel element. The relevant aggregate/composition boundary is source-owned and context-specific. A simple single-action route should not carry aggregate-history metadata merely because another profile needs it.
+
+The current 04 already provides the right extension point through decision/operation references, predecessor/parent relations, decision-basis references and source-owned authority semantics in the Composition-Critical EHD profile. The vNext question is therefore whether that profile should state the aggregate/cumulative case explicitly, not whether a new interface family is needed.
+
+---
+
+## 3. 00G — false-context convergence and source-dependence pressure
+
+[00G — Collective False-Context Convergence](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md) adds a post-baseline stress case in which repeated claims, role drift, authority claims and attractive opportunity can displace the legitimate operating frame.
+
+### Interface pressure
+
+A sufficiently expressive route must be able, where material, to preserve:
+
+- source/provenance and upstream dependence;
+- independent versus correlated corroboration;
+- claimed versus established scope;
+- claimed versus established role/authority;
+- current objective/mission or the reference that owns it;
+- material unresolved qualifiers;
+- a bounded requalification target rather than an indiscriminate request for more context.
+
+### Current 04 coverage
+
+The current 04 already contains:
+
+- EHD source/provenance/dependency semantics;
+- explicit UNKNOWN handling;
+- decision-scope projection;
+- source-native ownership;
+- O1 objective/mission references;
+- IF-S1/IF-S2 identity and authority boundaries;
+- IF-S7 drift/observability;
+- IF-S11 ecosystem signal/incident exchange;
+- optional Composition-Critical lineage/dependency fields.
+
+### Delta disposition
+
+**No new O#/IF-S# family established.**
+
+Potential later clarification:
+
+- make the “correlated repetition is not independent corroboration” rule more prominent in the general interface reading;
+- cross-reference CAND-R1 where role drift is material.
+
+00G remains scenario/test pressure, not an interface-specification source by itself.
+
+---
+
+## 4. 00H — beneficial opportunity beyond current authority
+
+[00H — Batch Opportunity Beyond Authority](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.1.md) adds a post-baseline stress case in which a candidate action is valuable, technically reachable and well evidenced but lies outside the participant's current role/grant.
+
+It also tests a second failure: individually compliant actions may form an unauthorized aggregate campaign.
+
+### Interface pressure
+
+Where the receiving decision depends on these facts, a route may need to preserve:
+
+- current grant/authority reference and scope;
+- action/operation reference;
+- aggregate lineage or action-history relation when the authority condition is aggregate rather than per transaction;
+- the candidate finding/opportunity as a separate information object;
+- request/re-contract/requalification state;
+- authority-owner response;
+- response expiry/no-valid-response;
+- requalification before any subsequent execution;
+- actual execution/outcome separately from approval or request.
+
+### Current 04 coverage
+
+The Composition-Critical EHD profile already allows decision/operation references, parent/predecessor relationships, decision-basis references, validity/review conditions, targeted re-entry and external authority ownership.
+
+IF-S2, IF-S8, IF-S11 and IF-S12 already separate authority, record, signal/request and execution/control concerns.
+
+### Delta disposition
+
+**No universal EHD expansion yet.**
+
+The aggregate-action relation is material only for some authority models. It should first be treated as a **conditional Composition-Critical profile requirement** or external record reference, not a metadata tax on every handoff.
+
+`RepositionIntent`, `AuthorityResponse` and DBC dispositions remain owned by their signalling/control/test layers. 04 only needs to preserve the semantic separability of request, authority response, requalification and execution.
+
+Silence/expiry must remain representable without being silently translated into permission.
+
+---
+
+## 5. Decision Boundary Challenge v0.2 — test vocabulary must not become interface ontology
+
+[Decision Boundary Challenge v0.2](../DECISION_BOUNDARY_CHALLENGE_v0.2.md) distinguishes:
+
+- producer-native result;
+- determination condition / Type 0/1/2;
+- operating posture;
+- DBC procedural disposition;
+- authority-owner response;
+- execution/outcome.
+
+Its CAN / KNOW / MAY / SHOULD / ACT questions are useful for testing boundary collapse.
+
+### 04 consequence
+
+The generic interface architecture should be able to **preserve the separability** of these layers where a test route uses them.
+
+It should **not**:
+
+- translate external verdicts into DBC dispositions;
+- make DBC disposition a universal EHD field;
+- make P1/P2/P3 universal interface semantics;
+- make AuthorityResponse a universal transport enum; or
+- create a new interface family solely for DBC.
+
+### Delta disposition
+
+**Test/conformance pressure only.**  
+Use DBC to expose missing or laundered boundaries in 04 implementations; do not use it to redefine 04 by default.
+
+---
+
+## 6. Semantic/qualification validity window versus response window
+
+Two independent post-baseline routes make the same temporal distinction visible. The Operational Risk / Response Window / Epistemic Opportunity v0.2 work separates qualification validity from response timing. Independently, [DBC-C02 — semantic TOCTOU](../DECISION_BOUNDARY_CHALLENGE_v0.2.md#5-challenge-pack-families) tests whether a result can remain technically available or syntactically valid while a material authority/evidence/context condition has become stale before use. Together they make two temporal concepts more explicit:
+
+1. **semantic / qualification validity window** — how long evidence, authority, delegation, policy, configuration and supporting assumptions remain applicable; and
+2. **operational response window** — how long remains to materially affect the outcome.
+
+The same work distinguishes:
+
+- more can still be known within current available capacity; from
+- more knowledge would still be useful for the current decision.
+
+### Current 04 coverage
+
+04 already contains:
+
+- freshness/as-of;
+- validity interval or revalidation condition;
+- response horizon;
+- capacity binding;
+- observation/determination burden;
+- targeted re-entry;
+- F2/F4/F5/F6/F7 responsibilities for acquisition, qualification, composition, posture and requalification.
+
+### Tentative 04-vNext clarification
+
+A later 04 version should make explicit that **validity time and response time are not interchangeable**.
+
+Where material, a producer/adapter should be able to preserve both without forcing them into one scalar or universal field.
+
+Likewise, an epistemic-processing outcome such as:
+
+- continue investigation;
+- stop because current support is sufficient;
+- redirect effort;
+- request targeted corroboration/requalification;
+
+must remain distinct from an authorized operational intervention.
+
+### Delta disposition
+
+Likely **editorial/interface clarification**, not a new function or interface family.
+
+DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
+
+---
+
+## 7. Human-review outputs under the general handoff discipline
+
+Later human-oversight discussion has made a useful generic distinction visible:
+
+1. human decision/result;
+2. assurance in the received review event;
+3. capacity binding/qualification;
+4. residual/inherited indeterminacy.
+
+The important boundary is that assurance concerns the evidentiary status of the received human-review event; it is not a generalized judgment of human competence.
+
+### Current 04 coverage
+
+IF-S6 already owns Human Oversight & Intervention Capacity, while EHD can carry result, uncertainty/assurance semantics, capacity and residual qualifiers conditionally.
+
+### Tentative 04-vNext consequence
+
+A future editorial pass may make explicit that **human-produced outputs are not exempt from bounded epistemic handoff discipline** merely because the channel is authenticated or the actor is authorized.
+
+That does not require every human decision to carry a complex score. Lightweight categorical/structured qualifiers remain sufficient where they preserve the material distinction.
+
+### Delta disposition
+
+Candidate clarification within IF-S6/EHD guidance.  
+No new mandatory kernel field at this stage.
+
+---
+
+## 8. IF-S11 external signal / incident peer capability — preserve, do not redesign
+
+The current 04 already states that an external incident-signal / affected-scope mechanism is a concrete **IF-S11 peer capability** that EA can consume rather than reproduce, and that EA may also be needed where no incident or malicious participant exists.
+
+This is the correct programme-independent boundary:
+
+**external signal / incident capability ↔ EA qualification / requalification**
+
+Both sides may be independently implemented and tested. The external mechanism owns its signal/lifecycle semantics; EA owns decision-scoped systemic qualification. Neither side gains action authority merely by emitting a signal, assessment or request.
+
+### Delta disposition
+
+**No generic architectural change required. Preserve the current peer-capability boundary.**
+
+A later 04 editorial revision may make the bidirectionality easier to read while keeping every programme-specific owner, Theme number, lifecycle name or institutional mapping outside 04.
+
+---
+
+## 9. Downstream specialization rule
+
+The change-control order is generic:
+
+**Requirements baseline**  
+→ **Requirements delta/review**  
+→ **04 General Interfaces baseline**  
+→ **04 General Interfaces delta/review**  
+→ **programme/domain-specific mappings**
+
+Therefore:
+
+- a downstream application may specialize, map or narrow a reviewed 04 capability;
+- a downstream application cannot create a new generic EA interface merely because its local programme needs it;
+- current-state application profiles may be narrower than an ideal application profile;
+- a downstream issue that reveals a genuine generic gap returns upstream to this 04 delta rather than silently changing 04 semantics.
+
+---
+
+## 10. Current delta determination
+
+The post-baseline material reviewed through 24 September 2026 does **not** currently justify:
+
+- O7;
+- IF-S14;
+- a seventh mandatory EHD kernel element;
+- a mandatory DBC/ACC/MSCA/programme-specific vocabulary in the generic interface layer; or
+- a new universal human-review or incident payload.
+
+The strongest likely 04-vNext changes are presently **clarifications and conditional profile refinements**:
+
+1. make effective-role drift preservable where material without treating observed function as authority;
+2. make opportunity / admissibility / authority / execution separation visually explicit;
+3. make per-action compliance versus aggregate/composed authorization explicit where the authority boundary is cumulative;
+4. distinguish qualification-validity time from operational response time;
+5. clarify that human review outputs can carry bounded assurance/capacity/residual qualification;
+6. reinforce source-dependence / independent-corroboration preservation;
+7. treat cumulative/aggregate action-history as a **conditional Composition-Critical profile element** where the authority rule is aggregate rather than per transaction, without adding it to the universal EHD kernel; and
+8. preserve the current IF-S11 peer-capability relation while making generic bidirectionality easier to read.
+
+This delta remains open and cumulative. New post-baseline interface findings should be appended here first. The 04 v0.5 Integrated baseline is not silently rewritten while review is active.
+
+---
+
+## 11. Input-interface contract working starting point — 30 September 2026
+
+The owner-authorized [**EA Input Interface Contract v0.4**](./04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) ([preserved Word](./04_INPUT_INTERFACE_CONTRACT/04_Contrato_interfaces_entrada_EA_v0.4.docx)) is published **within 04** as the starting point for input-interface work. It is programme-independent and precedes any 05/05A projection. It does not specify EA outputs.
+
+The contract preserves the 176 reviewed input bullets across O1–O6 / IF-S1–IF-S13 and proposes their component-level decomposition. It adds a reader guide, classification diagram, N01–N13, 17 recorded findings, 44 analytical adversarial cases, worked discovery/retrieval examples and one semantic profile represented through HTTP, a message queue and a file batch. These are specification and mapping artefacts, not executed adapters or empirical transport-equivalence results.
+
+### Proposed input boundary
+
+- A is the producer's functional product; its value goes to its operational consumer and is excluded from this EA handoff route.
+- B preserves already-established meaning, support, coverage and limits about A, to the extent they are outside the functional product.
+- C preserves a recognized, insufficiently characterized possibility that was not examined through an available path, with its existing exclusion reason or the honest absence of that reason.
+- D preserves a recognized dependency beyond the declared effective determination boundary, with the existing limit/reason. Lack of control alone does not establish D; the communicated subset does not exhaust unknown residuals.
+- Packaging does not change the producer frame. Capture/transport overhead is distinct from new epistemic computation. Missing reasons are not reconstructed.
+- N13 allows a process to be declared **family not classified** instead of forcing it into the nearest family. This is independent of A/B/C/D; it does not add O7 or IF-S14 automatically.
+
+### Integration work that remains open
+
+| Item | Concrete work in 04 | Closure boundary |
+|---|---|---|
+| **H06 — exclusion of A** | Reconcile §2's EHD kernel, §8's local-output requirement, Appendix-A routes and §7/F9 consumers with the metadata-only input profile. Identify uses that remain unsupported without A. | Not closed by relabelling operational results as B or by publishing this contract. No claim that all F1–F9 uses remain sufficient. |
+| **Topology terminology** | Align the producer-relative A/B/C/D definitions with the current topology, preserving the distinction between communicated D and unenumerated structural residual. | Explicit semantic review before promoting a successor baseline. |
+| **O2 expression** | Explicitly map any natively available omitted catalogue/path/reason and out-of-scope dependency into the discovery profile; the existing seven O2 bullets do not enumerate these pieces fully. | Do not claim those components are already requested, generated or implemented; no new producer computation merely to populate them. |
+| **Profile and route conformance** | Review producer-owned meanings and, for implementations, exercise adapters for preservation, missingness, duplicates, time, versions and burden. | Illustrative mappings and analytical cases are not execution evidence. |
+
+**Disposition:** published working input-contract proposal and review starting point inside 04. The 04 v0.5 body and earlier controlled source semantics remain preserved. Publication adds this explicit delta and navigation; it is not promotion to an integrated successor, downstream adoption or closure of H06. The prior §10 determination is dated to 24 September and remains part of the review history.
+
+---
+
+## 12. Canonical A/B/C/D semantic reconciliation — 1 October 2026
+
+The new [00M semantic foundation](./00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) defines A as the situated functional result, which may itself be probabilistic; B as established support, uncertainty **and the known, assessable boundary/omitted part of a characterized population**, with available variables and a defensible basis for cost/benefit/risk estimates where applicable; C as a grounded but open exploration route **without sufficient variables to calculate** its feasibility, acquisition cost, yield, benefit or risk; and D as an effective determination/defence limit with a partially witnessable but unenumerated residual. These are producer-process-relative components, not compulsory payload fields or four probabilities.
+
+**Required successor review in 04:** N04/Q5 and the 176-input decomposition presently classify a known available but deliberately unused route as C. This is not uniformly compatible with 00M: a characterized population, omission and variables/method for assessing further evaluation belong in B **even when the agent chose not to evaluate them**; an open search route without such variables belongs in C. Review every affected mapping by proposition and process rather than relabelling all omissions; preserve cases whose characterization is insufficient as UNKNOWN. Revise explanatory examples and input profiles accordingly. A confidence or cost–benefit value is A when it is the functional deliverable and B when it qualifies a different deliverable.
+
+This issue is **open**. No new O#/IF-S# family is thereby required; no controlled 04 source or published v0.5 body has been silently replaced. H06 (metadata-only route versus uses requiring A), O2 expression and executed profile/route conformance remain independent open issues. A successor 04 is needed before claiming that its input contract implements the current canonical semantic foundation.

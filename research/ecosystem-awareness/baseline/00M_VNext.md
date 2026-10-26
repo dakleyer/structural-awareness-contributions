@@ -521,3 +521,8 @@ Si la prima no se creó ni se mantuvo originalmente, reconstruir una frontera si
 **NO demostrado:** que toda máquina ya tenga un \(m_i\) útil; que todas las primas sean no vacías; que estén totalmente determinadas sin trabajo; que describan de modo completo una frontera epistemológica; que reúnan conocimiento suficiente sobre \(U'\); que el traslado sea gratis; o que la triangulación posterior aumente información o beneficio neto.
 
 **Punto de continuidad:** primero fijar matemáticamente **tipos, dominios, admisibilidad, significado de cada prima y custodia**; todavía no efectuar composición de las primas, probabilidad de triangulación, optimización de recursos ni una «ley de ganancia neta». El siguiente incremento del autor tratará esos procesos. **00M, 00N y las fuentes publicadas quedan intactos; esta nota vive en la VNext propuesta del PR borrador.**
+
+
+## Reception of the 1 October proposal — 26 October 2026
+
+Iván authorized the corrections proposed in the PR audit. The [earlier A/B/C/D proposal](./00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) is retained as a complete historical antecedent. Current reader routes continue to use 00M v0.8, its declared assumptions and its existing review. The earlier functional-result/basis/frontier/residual distinction and conditional finite-construction argument remain useful lineage; they are not a competing current canon. The old §7 identifies dated reconciliation questions, not a present instruction to reapply all of them. The current 04 review retains the producer-mapping/H06 obligations; this historical disposition closes none of those scientific or implementation questions. The PR remains a reviewable historical-retention proposal.

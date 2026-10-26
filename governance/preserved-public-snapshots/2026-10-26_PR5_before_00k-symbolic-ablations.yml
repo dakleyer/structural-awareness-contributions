@@ -1,0 +1,218 @@
+name: 00K symbolic ablations
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/00K_*.md"
+      - "research/ecosystem-awareness/baseline/fixtures/00K-*/**"
+      - ".github/workflows/00k-symbolic-ablations.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/00K_*.md"
+      - "research/ecosystem-awareness/baseline/fixtures/00K-*/**"
+      - ".github/workflows/00k-symbolic-ablations.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: 00k-symbolic-ablations-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  symbolic-ablation:
+    name: ${{ matrix.id }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - id: "A1 P1 / 00J"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J"
+            expected: "42"
+          - id: "A2 P2 / 00E"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E"
+            expected: "58"
+          - id: "A3 P3 / 00F"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F"
+            expected: "49"
+          - id: "A4 P4 / 00H"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H"
+            expected: "76"
+          - id: "A5 P5 / 00I"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I"
+            expected: "47"
+          - id: "A6 P6 / 00G matched-authority isolation"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G"
+            expected: "74"
+          - id: "A6a P6 / 00G naive-pair falsifier"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A6a-P6-00G"
+            expected: "10"
+          - id: "A6b P6 / 00F composition isolation"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A6b-P6-00F"
+            expected: "11"
+          - id: "Cross-scenario P1-P6"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent"
+            expected: "12"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install pytest
+        run: python -m pip install --upgrade pytest
+
+      - name: Run symbolic harness
+        working-directory: ${{ matrix.harness }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pytest -q | tee pytest-output.txt
+          grep -Eq "${{ matrix.expected }} passed" pytest-output.txt
+
+      - name: Publish execution summary
+        if: always()
+        working-directory: ${{ matrix.harness }}
+        shell: bash
+        run: |
+          {
+            echo "### ${{ matrix.id }}"
+            echo
+            echo '- Harness: `${{ matrix.harness }}`'
+            echo '- Expected regression count: **${{ matrix.expected }}**'
+            if [ -f pytest-output.txt ]; then
+              echo
+              echo '~~~text'
+              cat pytest-output.txt
+              echo '~~~'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+
+  p5-reproducibility:
+    name: P5 reproducibility / Python ${{ matrix.python }} / hash ${{ matrix.hashseed }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - python: "3.9"
+            hashseed: "1"
+          - python: "3.12"
+            hashseed: "777"
+          - python: "3.13"
+            hashseed: "314159"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install pytest
+        run: python -m pip install --upgrade pytest
+
+      - name: Validate P5 fixture-spec agreement
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I
+        env:
+          PYTHONHASHSEED: ${{ matrix.hashseed }}
+        run: python validate_fixture_spec.py
+
+      - name: Re-run unchanged P5 regression surface
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I
+        env:
+          PYTHONHASHSEED: ${{ matrix.hashseed }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pytest -q | tee p5-output.txt
+          grep -Eq "47 passed" p5-output.txt
+
+      - name: Scope note
+        run: echo "Replay only; matrix runs do not add scientific cases to the canonical 47/379 counts."
+
+
+  campaign-total:
+    name: 00K full campaign (379)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install pytest
+        run: python -m pip install --upgrade pytest
+
+      - name: Validate principle invariant lock
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
+        run: python validate_manifest.py
+
+      - name: Validate formal relative-independence certificate
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL
+        run: python formal_independence_certificate.py
+
+      - name: Validate semantic traceability graph
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-TRACE
+        run: python validate_traceability.py
+
+      - name: Validate P5 fixture-spec agreement
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I
+        run: python validate_fixture_spec.py
+
+      - name: Validate P5 blind-signature certificate
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature
+        run: python -m pytest -q
+
+      - name: Validate full-cube Boolean diagnostic minimality
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube
+        run: python -m unittest -v
+
+      - name: Validate requirement-conformance sufficiency
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency
+        run: python -m unittest -v
+
+      - name: Validate syntactic closure graph
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE
+        run: python validate_closure.py
+
+      - name: Validate A25/A26 failure-success case extensibility registry
+        working-directory: research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION
+        run: python validate_extensibility.py
+
+      - name: Run complete symbolic campaign
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
+        shell: bash
+        run: |
+          set -euo pipefail
+          python run_all.py | tee campaign-output.txt
+          grep -F "Core passing regression count: 346/346" campaign-output.txt
+          grep -F "Supplemental passing count: 33/33" campaign-output.txt
+          grep -F "Campaign total: 379/379" campaign-output.txt
+
+      - name: Publish campaign summary
+        if: always()
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
+        shell: bash
+        run: |
+          {
+            echo "### 00K full symbolic campaign"
+            echo
+            if [ -f campaign-output.txt ]; then
+              echo '~~~text'
+              tail -n 12 campaign-output.txt
+              echo '~~~'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
