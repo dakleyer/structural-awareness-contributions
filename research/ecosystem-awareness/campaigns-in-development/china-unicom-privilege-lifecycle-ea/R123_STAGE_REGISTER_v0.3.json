@@ -1,0 +1,280 @@
+{
+  "id": "DDS-A-CU-PLM-EA-01/R123-v0.3",
+  "date": "2026-10-14",
+  "source_authoritative_issue": "https://github.com/FG-TIDA/themes/issues/23",
+  "latest_source_agreement": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429",
+  "research_object": "CONTINUING_APPLICABILITY_UNDER_CONTEXT_CHANGE",
+  "scientific_object_not": "EA_PRODUCT_SUPERIORITY",
+  "primary_measure": "WHETHER_ONE_MATERIAL_CHANGED_DEPENDENCY_CHANGES_SOURCE_APPROVED_APPLICABILITY_AND_WHAT_EVIDENCE_CAN_SUPPORT_CURRENT_REEVALUATION",
+  "dds_stage": "A_SPECIFICATION_DISCOVERY_DESIGN",
+  "status": "NOT_APPROVED_NOT_PREREGISTERED_NOT_FROZEN_NOT_EXECUTED",
+  "source_owner_policy_approved": false,
+  "independent_oracle_assigned": false,
+  "namespace_explanation": {
+    "R1_R2_R3": "SCENARIO_TRAJECTORIES",
+    "B2_B3": "MATCHED_COMPARISON_ARMS_ONLY_OPTIONAL",
+    "DDS_A_B_C": "DEVELOPMENT_STAGES",
+    "local_R3_branches": "CONTRAST_CLASSES_NOT_IDENTICAL_SCORED_TRIALS"
+  },
+  "stages": [
+    {
+      "id": "R1",
+      "type": "COMPETENT_REFERENCE",
+      "goal": "Verify a legitimate grant/positive restoration and current source-owned conventional checks without a strawman.",
+      "external_native_owner_assigned": false,
+      "mandatory_controls": [
+        "R1-POS",
+        "R1-REV",
+        "R1-STALE",
+        "R1-NARROW",
+        "R1-OTHER"
+      ],
+      "required_outputs": [
+        "original_authority_and_scope",
+        "reference_current_policy",
+        "positive_legal_action",
+        "source_packet_coverage",
+        "PDP_verdict_vs_PEP_effect",
+        "horizon_and_total_cost"
+      ],
+      "completion": "NOT_EXECUTED"
+    },
+    {
+      "id": "R2",
+      "type": "DEFENDED_RESTORATION_MECHANISM",
+      "goal": "Verify source-proposed suspension-time restore-condition declaration, then activation validation followed by fresh intent derivation, under full defended configuration.",
+      "source_semantics": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429",
+      "required_order": [
+        "AT_SUSPENSION_DECLARE_AND_PIN_RESTORE_CONDITION",
+        "ON_ACTIVATION_VALIDATE_PINNED_CONDITION",
+        "THEN_DERIVE_INTENT_AGAINST_CURRENT_CONTEXT",
+        "THEN_SOURCE_PDP_DECIDES",
+        "THEN_PEP_MAY_EXECUTE"
+      ],
+      "no_selected_tech_label": true,
+      "conventional_defender_can_already_do_all_of_this": true,
+      "frozen_completely": false,
+      "freeze_scope": [
+        "source_text_and_owned_policy",
+        "restore_predicate",
+        "grant_scope_issuer_credentials",
+        "PDP_code_config",
+        "NACL_current_policy_and_graph_access",
+        "event_and_source_subscriptions",
+        "correlation_freshness_methods",
+        "query_rights",
+        "automated_adaptation",
+        "review_human_capacity",
+        "timeouts_budgets",
+        "legitimate_positives",
+        "oracle_and_evidence_contract"
+      ],
+      "required_outputs": [
+        "demonstrated_valid_reactivation",
+        "fresh_applicability_reassessment_trace",
+        "direct_dependency_delta_conventional_test",
+        "full_defender_freeze_hash"
+      ],
+      "completion": "NOT_EXECUTED"
+    },
+    {
+      "id": "R3",
+      "type": "FROZEN_R2_UNDER_CONTEXT_CHANGE",
+      "goal": "Reevaluate the same decision under material change without changing R2 policy, rules, source access, adaptation or parameters. Distinguish changed world from available evidence.",
+      "world": {
+        "subject": "A1",
+        "grant": "G0",
+        "grant_reference": "unchanged identity/grant binding for primary material-change vector",
+        "action": "isolate(R)",
+        "purpose": "incident X",
+        "policy_ref": "P0",
+        "domainA": "principal/grant/PDP",
+        "domainB": "critical service S/dependency source",
+        "service_S_critical_at_t0": true,
+        "service_S_critical_at_t2": true,
+        "dependency_S_R_at_t0": false,
+        "dependency_S_R_at_t2": true,
+        "primary_only_material_world_delta": "S_to_R_edge_added",
+        "source_policy": "LOCAL_SYNTHETIC_PENDING_OWNER_CONFIRMATION"
+      },
+      "confirmed_one_factor_world_change": true,
+      "freeze_protected": true,
+      "required_outputs": [
+        "independently_confirmed_world_delta",
+        "source_visibility_stratum",
+        "predicate_result_at_activation",
+        "fresh_intent_derivation_result",
+        "qualification_scope_unknown",
+        "source_PDP_disposition",
+        "PEP_actual_effect_if_executed",
+        "legitimate_unaffected_actions",
+        "requalification_and_cost"
+      ],
+      "completion": "NOT_EXECUTED"
+    }
+  ],
+  "cases": [
+    {
+      "id": "R1-POS",
+      "trajectory": "R1",
+      "stratum": "LEGITIMATE_UNCHANGED",
+      "world_delta": "NONE",
+      "positive": true,
+      "question": "Is original isolation justified by source-owned mandate when evidence fresh and S->R absent?",
+      "assumption": "local policy authorizes G0 isolate(R) under stated t0 facts"
+    },
+    {
+      "id": "R1-REV",
+      "trajectory": "R1",
+      "stratum": "INVALID_GRANT",
+      "world_delta": "G0 revoked in separate reference control",
+      "positive": false,
+      "question": "Does fresh grant standing defeat cached token evidence?",
+      "assumption": "source grant owner recognizes revocation"
+    },
+    {
+      "id": "R1-STALE",
+      "trajectory": "R1",
+      "stratum": "STALE_VERDICT",
+      "world_delta": "freshness expires in separate control",
+      "positive": false,
+      "question": "Can cached PASS be used when validity window expired?",
+      "assumption": "source defines validity window"
+    },
+    {
+      "id": "R1-NARROW",
+      "trajectory": "R1",
+      "stratum": "RESTRICTED_PERMISSION",
+      "world_delta": "NONE",
+      "positive": true,
+      "question": "Can observation-only action be separately authorized without deriving it from isolation?",
+      "assumption": "separate current observation grant"
+    },
+    {
+      "id": "R1-OTHER",
+      "trajectory": "R1",
+      "stratum": "IRRELEVANT_CHANGE",
+      "world_delta": "unrelated edge only",
+      "positive": true,
+      "question": "Does an unrelated change leave a legitimate action reachable?",
+      "assumption": "independent materiality rule excludes unrelated edge"
+    },
+    {
+      "id": "R2-ANCHOR",
+      "trajectory": "R2",
+      "stratum": "SOURCE_RESTORE_PREDICATE",
+      "world_delta": "NONE",
+      "positive": true,
+      "question": "Was restoration predicate declared at suspension, version-pinned and evaluated at activation?",
+      "assumption": "predicate meaning/algorithm selected by source owner"
+    },
+    {
+      "id": "R2-INTENT",
+      "trajectory": "R2",
+      "stratum": "CURRENT_INTENT_DERIVATION",
+      "world_delta": "NONE",
+      "positive": true,
+      "question": "After predicate validation, does current intent derivation occur before PDP approval?",
+      "assumption": "source owner's authorized intent semantics"
+    },
+    {
+      "id": "R2-DIRECT",
+      "trajectory": "R2",
+      "stratum": "COMPETENT_NATIVE_VISIBLE_DELTA",
+      "world_delta": "S->R edge (public calibration only)",
+      "positive": false,
+      "question": "Does defender detect a directly accessible blocking dependency?",
+      "assumption": "local materiality reference; calibration not scored R3"
+    },
+    {
+      "id": "R3-A",
+      "trajectory": "R3",
+      "stratum": "SOURCE_VISIBLE_SINGLE_EDGE",
+      "world_delta": "S->R edge only",
+      "positive": false,
+      "question": "Does frozen R2 change applicability or appropriately preserve insufficiency based on accessible current evidence?",
+      "assumption": "source-owner-approved isolation restriction"
+    },
+    {
+      "id": "R3-B",
+      "trajectory": "R3",
+      "stratum": "CROSS_DOMAIN_SCOPED_EDGE_SIGNAL",
+      "world_delta": "S->R edge only",
+      "positive": false,
+      "question": "Does a scoped source signal let PDP reassess without full private graph or invented assurance?",
+      "assumption": "same material source facts legitimately accessible to both B2/B3"
+    },
+    {
+      "id": "R3-C+",
+      "trajectory": "R3",
+      "stratum": "INDISTINGUISHABLE_PARTIAL_WORLD",
+      "world_delta": "S->R edge hidden exists",
+      "positive": false,
+      "question": "Can receiver preserve unknown when edge is inaccessible?",
+      "assumption": "visible packet exactly same as R3-C−",
+      "legitimate_world_without_edge": false,
+      "visible_packet_insufficient_for_full_action": true
+    },
+    {
+      "id": "R3-C−",
+      "trajectory": "R3",
+      "stratum": "INDISTINGUISHABLE_PARTIAL_WORLD",
+      "world_delta": "S->R edge hidden absent",
+      "positive": false,
+      "question": "Can receiver preserve UNKNOWN even though the evaluator privately knows the edge is absent, and seek authorized bounded requalification instead of inventing a safe-to-isolate verdict?",
+      "assumption": "Same visible partial packet as R3-C+; positive world truth does NOT make evidence sufficient for automatic full restoration",
+      "legitimate_world_without_edge": true,
+      "visible_packet_insufficient_for_full_action": true
+    },
+    {
+      "id": "R3-D",
+      "trajectory": "R3",
+      "stratum": "SOURCE_FRESHNESS_ALTERNATE",
+      "world_delta": "source freshness expires, separate one-factor experiment",
+      "positive": false,
+      "question": "Does frozen R2 refresh or mark insufficiency without converting stale PASS?",
+      "assumption": "not pooled into primary edge-change outcome"
+    },
+    {
+      "id": "R3-E",
+      "trajectory": "R3",
+      "stratum": "UNRELATED_CHANGE_POSITIVE",
+      "world_delta": "unrelated edge only",
+      "positive": true,
+      "question": "Can legitimate isolate(R) continue when no relevant context changed?",
+      "assumption": "source confirms immateriality"
+    },
+    {
+      "id": "R3-F",
+      "trajectory": "R3",
+      "stratum": "CORRELATED_SIGNALS",
+      "world_delta": "same source replicated",
+      "positive": false,
+      "question": "Can three relays be recognized as one rooted evidential source?",
+      "assumption": "not three independent witnesses"
+    },
+    {
+      "id": "R3-G",
+      "trajectory": "R3",
+      "stratum": "REENTRY_WITH_FRESH_AUTHORIZED_EVIDENCE",
+      "world_delta": "fresh approved source evidence or independently issued grant arrives",
+      "positive": true,
+      "question": "Can frozen response return narrowly and before useful horizon without granting rights via EA?",
+      "assumption": "re-entry authority granted by source; separate recovery stage"
+    }
+  ],
+  "R3_branches_pretending_to_be_blind_scored": false,
+  "participation_rights": "NOT_ESTABLISHED",
+  "nonstrawman_rule": "R1 competent; R2 defender participant free to implement any lawful general equivalent, and successful parity is credited",
+  "postfreeze_adaptive_reroll_for_B2_failure": "PROHIBITED_IN_CONFIRMATORY_STUDY",
+  "adversarial_uncovered_search": "SEPARATE_REPORT_WITH_ITS_SEARCH_UNIVERSE_AND_SELECTION_CONDITION; no population/universal claim",
+  "visibility_control": "R3-C+ and R3-C− share participant-visible packet and differ only in evaluator-private truth",
+  "minimum_hand_off": "producer scope/proposition, provenance, result, determination, material unknown/limits; optional EA/EHD only",
+  "authority": "SOURCE_OWNED_PDP; EA no grant, no PDP or PEP enforcement",
+  "substantive_acceptance": "PENDING_SOURCE_OWNED_ACTION_POLICY_AND_INDEPENDENT_ORACLE",
+  "source_provenance_note": "Ying accepts Zhao suspension-time predicate in 14 Oct 09:49 comment; not standards adopted nor implemented.",
+  "external_cooperation": "NOT_ESTABLISHED",
+  "stage_B": "NOT_STARTED",
+  "stage_C": "NOT_STARTED",
+  "document": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md"
+}

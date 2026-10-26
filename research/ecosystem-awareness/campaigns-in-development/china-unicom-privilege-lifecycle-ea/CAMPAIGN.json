@@ -1,0 +1,434 @@
+{
+  "campaign_handle": "DDS-A-CU-PLM-EA-01",
+  "slug": "china-unicom-privilege-lifecycle-ea",
+  "title": "China Unicom / Theme #23: qualified-context privilege restoration after hibernation",
+  "version": "0.4",
+  "created": "2026-10-14",
+  "last_updated": "2026-10-14",
+  "local_campaign_owner": "Iván Abril Palma / The Integral Management Society",
+  "external_source_owners": [
+    "Ying Wang / China Unicom",
+    "Ye Tao / China Unicom"
+  ],
+  "collaboration_approval": "NOT_ESTABLISHED",
+  "status": {
+    "research": "IN_DEVELOPMENT_NOT_PREREGISTERED",
+    "dds_stage_candidate": "A",
+    "profile": "SIMPLIFIED_PREPARATION",
+    "formal_admission": false,
+    "specification_frozen": false,
+    "comparator_selected": false,
+    "independent_oracle_assigned": false,
+    "source_owner_review_received": false,
+    "joint_campaign_confirmed": false,
+    "run_executed": false,
+    "results_verified": false,
+    "stage_b_started": false,
+    "stage_c_started": false,
+    "ITU_adoption_claimed": false,
+    "design_review_ready": true,
+    "local_design_approved": false,
+    "independent_design_review_completed": false,
+    "scientific_stage_a_finding": "NOT_ESTABLISHED",
+    "source_owned_action_policy_confirmed": false,
+    "blind_case_sealed": false,
+    "evaluation_oracle_validated": false,
+    "strong_B2_defended_frozen": false,
+    "actual_external_PDP_test": false,
+    "external_campaign_consent": false
+  },
+  "method_router": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "stage_a_source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "theme_source": "https://github.com/FG-TIDA/themes/issues/23",
+  "primary_correspondence": {
+    "question": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5915019756",
+    "answer": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309",
+    "answer_timestamp_utc": "2026-10-14T08:54:54Z",
+    "other_restore_condition_proposal": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6072991126",
+    "source_status": "PUBLIC_DISCUSSION_MUTABLE_NOT_FROZEN"
+  },
+  "initial_focus": {
+    "challenge_id": "CU-HIB-01",
+    "primary_proposed_case": "CU-C2",
+    "decision": "May the original high-impact isolate(R) privilege be restored now after hibernation?",
+    "material_change": "New critical service-to-resource dependency in another domain after suspension",
+    "current_evidence": "DOCUMENTARY_DESIGN_ONLY",
+    "expected_change_oracle": "NOT_INDEPENDENTLY_ADMITTED",
+    "source_owned_PDP_policy": "NOT_FROZEN",
+    "other_cases": [
+      "CU-C0",
+      "CU-C1",
+      "CU-C3",
+      "CU-C4",
+      "CU-C5",
+      "CU-C6",
+      "CU-C7"
+    ]
+  },
+  "deferred_challenges": [
+    {
+      "id": "CU-PROP-01",
+      "scope": "receiving-agent operational dependency reassessment before exercising propagated privilege",
+      "status": "FUTURE_NOT_SCORED"
+    },
+    {
+      "id": "CU-REV-01",
+      "scope": "multi-domain known revoked/known surviving/unknown revocation coverage and compensating controls",
+      "status": "FUTURE_NOT_SCORED"
+    },
+    {
+      "id": "CU-OVS-01",
+      "scope": "Theme #16 human intervention boundary",
+      "status": "FUTURE_NOT_SCORED"
+    }
+  ],
+  "comparators": {
+    "B0": {
+      "role": "NAIVE_ILLUSTRATIVE_ONLY",
+      "scientific_reference": false
+    },
+    "B2": {
+      "role": "STRONG_CONVENTIONAL_PDP",
+      "selected": false,
+      "freeze": "NOT_FROZEN"
+    },
+    "B3": {
+      "role": "SAME_PDP_PLUS_EA_QUALIFIED_HANDOFF",
+      "selected": false,
+      "freeze": "NOT_FROZEN"
+    },
+    "oracle": {
+      "role": "INDEPENDENT_BOUNDARY_AND_HIDDEN_REFERENCE",
+      "assigned": false
+    },
+    "equal_authority_evidence_access_budget_horizon_required": true,
+    "parity_admissible": true,
+    "extra_EA_processing_cost_is_charged": true
+  },
+  "claim_boundary": {
+    "ea_cannot_grant_privilege": true,
+    "ea_cannot_enforce_actions": true,
+    "absence_of_signal_not_independent_negative_proof": true,
+    "missing_material_qualifier_preserved_unknown": true,
+    "independent_source_reuse_requires_lineage": true,
+    "reduced_profile_unscored_not_zero": true,
+    "native_external_results_imported": false,
+    "external_source_owner_approval_inferred_from_reply": false
+  },
+  "source_lineage": [
+    {
+      "id": "CU-S01",
+      "url": "https://github.com/FG-TIDA/themes/issues/23",
+      "kind": "China Unicom proposed security theme"
+    },
+    {
+      "id": "CU-S02",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5915019756",
+      "kind": "author question"
+    },
+    {
+      "id": "CU-S03",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309",
+      "kind": "Ying Wang reply and invitation to explore"
+    },
+    {
+      "id": "CU-S04",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6072991126",
+      "kind": "Zhao source-owned restore-condition proposal"
+    },
+    {
+      "id": "CU-S05",
+      "url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5700157082",
+      "kind": "Lei oversight boundary proposal"
+    },
+    {
+      "id": "CU-S08",
+      "url": "https://github.com/FG-TIDA/themes/issues/13",
+      "kind": "external ecosystem theme"
+    },
+    {
+      "id": "CU-S09",
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+      "kind": "EA interface research"
+    },
+    {
+      "id": "CU-S10",
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "kind": "canonical EA semantics"
+    }
+  ],
+  "records": {
+    "entry": "CAMPAIGN.md",
+    "science": "SCIENTIFIC_DESIGN.md",
+    "interfaces": "INTERFACE_CONTRACT.md",
+    "trial": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "sources": "SOURCES_AND_CUSTODY.md",
+    "run_card": "RUN_CARD_PREPARATION.md",
+    "continuation": "CONTINUATION.md",
+    "machine": "CAMPAIGN.json",
+    "challenge": "CHALLENGE_CONTRACT_v0.2.md",
+    "traceability": "REQUIREMENTS_TRACEABILITY_v0.2.md",
+    "approval": "APPROVAL_AND_PREREGISTRATION_v0.2.md",
+    "audit": "AUDIT_REPORT_2026-10-14.md",
+    "calibration": "fixtures/PUBLIC_CALIBRATION_VECTORS_v0.2.json",
+    "static_checker": "tools/validate_challenge.py",
+    "third_party_dossier": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md",
+    "third_party_adversarial_review": "THIRD_PARTY_CRITICAL_REVIEW_R123_v0.3.md",
+    "R123_stage_register": "R123_STAGE_REGISTER_v0.3.json",
+    "third_party_dossier_v03": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.3.md",
+    "external_review_v04": "EXTERNAL_REVIEW_RECONCILIATION_v0.4.md",
+    "factor_protocol_v04": "R123_V04_FACTORIAL_PROTOCOL.json",
+    "reference_crosswalk": "REFERENCE_AND_PRIOR_ART_CROSSWALK_v0.1.md",
+    "r3_empirical_audit": "R3_EMPIRICAL_ADMISSION_AND_REVERSE_FALSIFICATION_v0.4.1.md",
+    "WP0_owner_brief": "WP0_SOURCE_OWNER_DECISION_BRIEF_v0.1.md",
+    "governing_recurrence_principle": "R123_OPEN_CONTEXT_RECURRENCE_GOVERNING_PRINCIPLE_v0.1.md",
+    "modeX_first_run_card": "R123_MODE_X_RECURSIVE_CHALLENGE_RUN_CARD_v0.1.md",
+    "focused_source_hibernation_challenge": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md",
+    "source_facing_hibernation_context_sufficiency": "CU_HIBERNATION_CONTEXT_SUFFICIENCY_R123_v0.1.md"
+  },
+  "open_obligations": [
+    "Source-authorized decision policy, restore-condition and restricted privilege semantics",
+    "Independently grounded materiality and action-admissibility reference",
+    "Best available conventional peer prepared and defended",
+    "Equal source access, authority, budgets, time and relevant human routes",
+    "Full R2 freeze and generic EA freeze before scored R3",
+    "One exogenous material context perturbation with hidden evaluator map",
+    "Positive, negative and irrelevant-change controls",
+    "Independent oracle, blind packets and event/injection custody",
+    "Executed traces, recovery, total burden and evidence-bounded comparison"
+  ],
+  "scope_note": "Local independent research proposal associated with China Unicom-published Theme #23. It is not an accepted China Unicom collaboration, implementation test or ITU-T adopted recommendation.",
+  "approval_gates": {
+    "D0_LOCAL_DESIGN": "UPDATED_RECURRENCE_DESIGN_READY_FOR_REVIEW_NOT_APPROVED",
+    "D1_EXTERNAL_SEMANTICS": "PENDING_FOR_EXTERNAL_SOURCE_OWNED_REAL_CASE_SYNTHETIC_R123_MAY_PROCEED_SEPARATELY",
+    "D2_STAGE_A_PREREGISTRATION": "NO_R2_NATIVE_FREEZE_NO_R3U_ORACLE_RUN",
+    "D3_STAGE_A_RESULT": "NOT_EXECUTED_NOT_ADJUDICATED",
+    "STAGE_B": "NOT_STARTED",
+    "STAGE_C": "NOT_STARTED"
+  },
+  "protocol_control": {
+    "current_challenge": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CHALLENGE_CONTRACT_v0.2.md",
+    "supersedes_as_future_trial_contract": "research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "history_preserved": true,
+    "single_causal_change": "Only edge S->R is introduced during hibernation; S is already critical at T0",
+    "all_case_retention": "REQUIRED_BEFORE_RUN",
+    "defender_outcome_conditional_selection": "PROHIBITED",
+    "independent_source_policy": "NOT_AGREED",
+    "synthetic_rule_not_official": "YES",
+    "observational_indistinguishability_control": "CU-C3+ / CU-C3-",
+    "paired_equal_legitimate_data_rights": "REQUIRED",
+    "parity_valid": true
+  },
+  "audit_v0_2": {
+    "date": "2026-10-14",
+    "review_type": "AUTHOR_SIDE_SELF_AUDIT",
+    "independent_review": false,
+    "total_findings": 16,
+    "critical_open": [
+      "CU-F03"
+    ],
+    "execution_blockers": [
+      "CU-F03",
+      "CU-F06",
+      "CU-F11",
+      "CU-F14"
+    ],
+    "documentary_remediations_recorded": true,
+    "static_casebook_assertions_initial_creation": 12,
+    "static_checker_executed_in_this_tool_session": false,
+    "results_or_effects_observed": false
+  },
+  "research_priorities": {
+    "primary": "R1_UNCOVERED_c1_THEN_R2_FULL_REPAIR_FREEZE_THEN_R3_U_NEXT_MATERIAL_CONTEXT_BEYOND_EFFECTIVE_FROZEN_R2_COVERAGE_REPEAT",
+    "secondary": "PRECOMMITTED_GENERAL_EA_QUALIFICATION_RELIANCE_BASIS_LOSS_AND_TARGETED_OWNER_AUTHORIZED_REQUALIFICATION",
+    "tertiary": "STRONG_NATIVE_R2_GENERIC_ADAPTATION_FULLY_CREDITED; SEPARATE_EXISTENTIAL_ADVERSARIAL_SEARCH_FROM_PROSPECTIVE_GENERALIZATION"
+  },
+  "source_cutoff": {
+    "date": "2026-10-14",
+    "all_theme_23_issue_comments": 6,
+    "last_comment": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-6165603429",
+    "source_authors_agree_restoration_anchor": true,
+    "activation_order": [
+      "validate_predeclared_restore_condition",
+      "derive_current_intent"
+    ],
+    "normative_ITUT_adoption": "NOT_ESTABLISHED",
+    "specific_source_policy_approved_for_experiment": false
+  },
+  "R123_design": {
+    "status": "DESIGNED_NOT_EXECUTED",
+    "namespace": "R1 R2 R3 are scenario traversals inside DDS Stage A",
+    "R1": "competent_native_authorization_reference",
+    "R2": "source_owned_two_step_restoration_quality_plan_fully_defended_and_frozen_before_R3",
+    "R3": "same_frozen_R2_under_single_new_edge_S_to_R_with_visible_partial_unknown_and_positive_controls",
+    "S_criticality_constant": true,
+    "one_factor_primary": true,
+    "exploratory_uncovered_R3_separate_from_confirmatory": true
+  },
+  "audit_v0_3": {
+    "review_type": "AUTHOR_SIDE_CRITICAL_DOCUMENT_REVIEW",
+    "findings_count": 14,
+    "source_update_applied": true,
+    "scientific_result": "NOT_ESTABLISHED",
+    "independent_design_signoff": false,
+    "independent_pdp_run": false
+  },
+  "v04_experiment_design": {
+    "status": "DESIGNED_NOT_ADMITTED_NOT_EXECUTED",
+    "hypothesis_ids": [
+      "H-ANCHOR-SCOPE",
+      "H-STEP1-INCREMENTAL",
+      "H-NONDEGENERACY",
+      "H-POLICY-ALLOW",
+      "H-INTEROP-PARITY"
+    ],
+    "predicate_regimes": [
+      "P-E",
+      "P-G",
+      "P-G-UNBOUND (negative calibration only)"
+    ],
+    "diagnostic_ablations": [
+      "R2-FULL",
+      "R2-AB1",
+      "R2-AB2",
+      "R2-AB12"
+    ],
+    "ablations_not_primary_native_comparator": true,
+    "strong_native_R2_full_remains_unchanged": true,
+    "observation_pair": "W+ / W- identical initial visible packet, hidden truth differs",
+    "loss_owner_frozen": false,
+    "active_query_opportunity_registered": false,
+    "terminal_outcomes": [
+      "TERM-POLICY-BLOCK",
+      "TERM-POLICY-ALLOW",
+      "TERM-NOT-ESTABLISHED",
+      "TERM-PARITY",
+      "TERM-NO-SOURCE"
+    ],
+    "source_revisions": {
+      "zhao_vs_ying": "anchor replacement versus sequential addition; not source equivalent",
+      "theme33": "CLOSED_NOT_PLANNED_2026_10_02",
+      "nell_vs_nelson": "Nell original attribution is correct; reject unwarranted rename"
+    },
+    "affiliation": "Public issue comments show author_association NONE; no corporate sponsorship or consent inferred",
+    "github_workflow": ".github/workflows/dds-china-unicom-challenge.yml",
+    "workflow_execution_status": "NOT_VERIFIED_AT_WRITING",
+    "primary_complete_source": "THIRD_PARTY_CHALLENGE_DOSSIER_R123_v0.4.md"
+  },
+  "audit_v0_4": {
+    "review_kind": "EXTERNAL_REVIEW_GROUNDED_AUTHOR_RECONCILIATION",
+    "status": "DOCUMENTARY_CRITICAL_REVIEW_COMPLETE_INDEPENDENT_APPROVAL_PENDING",
+    "applied": 5,
+    "source_status_verified": true,
+    "scientific_result": "NOT_ESTABLISHED",
+    "CI_executed_at_authoring": false
+  },
+  "editorial_reference_update": {
+    "date": "2026-10-14",
+    "status": "CURATED_EXTERNAL_SOURCES_AND_PRIOR_ART_NO_SCIENTIFIC_STAGE_CHANGE",
+    "input_pdf_link_inventory": 235,
+    "verified_primary_reference_ids": [
+      "N01",
+      "N02",
+      "N03",
+      "N04",
+      "N05",
+      "N06",
+      "N07",
+      "N08",
+      "N09",
+      "N10",
+      "N11",
+      "N12"
+    ],
+    "independent_conformance_result": false,
+    "adopted_new_normative_requirement": false
+  },
+  "audit_revision": "v0.4.2_OPEN_CONTEXT_RECURRING_R3_GOVERNS",
+  "audit_v0_4_1": {
+    "status": "SOURCE_VERIFIED_DESIGN_CORRECTED_NO_INDEPENDENT_ADJUDICATION",
+    "primary_empirical_question": "whether frozen competent R2 detects or qualifies the owner-policy-material source change under actual source/telemetry visibility",
+    "policy_materiality_is_premise": true,
+    "R2_trained_families_are_out_of_sample_discoveries": false,
+    "R3_A_D_E": "KNOWN_FAMILY_OR_POSITIVE_CONTROLS",
+    "R3_C_pair": "EPISTEMIC_SPECIFICATION_CONFORMANCE_NOT_EMPIRICAL_DETECTION_ARM",
+    "R3_B_F": "CANDIDATE_HELDOUT_SUBJECT_TO_INDEPENDENT_DISJOINT_FAMILY_ADMISSION",
+    "S_to_R_exogenous_edge_and_observation_footprint": "SOURCE_OWNED_CAUSAL_MEASUREMENT_CONTRACT_PENDING",
+    "reverse_CU_SP_falsifiers": 10,
+    "WP0_priority": "SOURCE_OWNER_CONSULTATION_DRAFT_NOT_POSTED",
+    "independent_owner_signed_policy": false,
+    "R2_native_frozen": false,
+    "R3_scored": false,
+    "external_message_posted": false
+  },
+  "audit_v0_4_2": {
+    "state": "GOVERNING_SCIENTIFIC_FRAMING_CHANGED_NO_EMPIRICAL_FINDING",
+    "first_hibernation_c1": "R1_GAP_IF_SOURCE_CONFIRMED__R2_REPAIR_AND_CALIBRATION",
+    "next_new_context_c2": "R3_U_NOT_YET_ADMITTED_OR_OBSERVED",
+    "postfreeze_deliberate_search": "EXISTENTIAL_ADVERSARIAL_MODE_X_ALLOWED_WITH_SEARCH_CUSTODY",
+    "generalization": "SEPARATE_MODE_Y_UNESTABLISHED",
+    "scope_of_infinite_recurrence": "HYPOTHESIS_OVER_DECLARED_BOUNDED_COVERAGE_CLASSES_NOT_A_UNIVERSAL_THEOREM",
+    "EA_universal_superiority": "NOT_ESTABLISHED",
+    "conventional_generic_equivalent": "FULL_CREDIT_AND_PARITY_VALID",
+    "source_owner_WP0": "ONLY_FOR_SOURCE_OWNED_DEPLOYMENT_OR_COLLABORATION_NOT_FOR_SYNTHETIC_CONCEPT",
+    "source_rights": "MUST_BE_LEGITIMATE_AND_MATCHED",
+    "no_executed_R3U": true,
+    "no_external_comment_posted": true
+  },
+  "current_source_facing_entry": "CU_HIBERNATION_CONTEXT_SUFFICIENCY_R123_v0.1.md",
+  "focused_discussion_state": {
+    "object": "REACTIVATION_WITH_ANOTHER_RELEVANT_DEPENDENCY_SOURCE_HIBERNATING",
+    "R1": "PROBLEM_SCOPED_HIBERNATION_CONTEXT_CHANGE_NOT_EXECUTED",
+    "R2": "YING_FULL_NATIVE_TWO_STEP_RESTORE_ANCHOR_VALIDATION_THEN_CURRENT_INTENT_NOT_IMPLEMENTED_OR_FROZEN",
+    "R3": "CONDITIONAL_ONLY_IF_B_IS_FG_TIDA_23_GOVERNED_AGENT_AND_EVIDENCE_AUTHORITY_SUSPENDED; ELSE_NATIVE_R2_SOURCE_AVAILABILITY",
+    "source_published_discussion": "YING_2026_10_14_08_54_AND_09_49",
+    "role_of_EA": "OPTIONAL_NON_FUNGIBLE_QUALIFIED_INDICATIONS_NOT_PERMISSION_OR_GLOBAL_CERTAINTY",
+    "canonical_plausibility": "00N_MECHANISM_TO_REQUIREMENTS_AND_00M_MATHEMATICAL",
+    "canonical_sufficiency": "T1_T2_T3_T4_RETAINED_UNPROVEN",
+    "methodological_connection": "DDS_STAGE_A_AND_FG_TIDA_UC21",
+    "source_facing_question_count": 1,
+    "external_comment_posted": false,
+    "owner_approved_policy": false,
+    "external_test_run": false,
+    "ZHAO_INPUT": "EARLIER_ANCHOR_INSTEAD_OF_INTENT_PROPOSAL; NOT_IDENTICAL_TO_YING_COMPLETE_TWO_STEP",
+    "B_scope_admitted": false,
+    "hibernation_and_security_revocation_distinguished": true,
+    "silence_alone_proves_B_sleep": false,
+    "evidence_dimensions": [
+      "lifecycle_attested_state",
+      "source_access",
+      "freshness",
+      "coverage",
+      "consistency",
+      "minimum_proposition_status",
+      "native_PDP_result"
+    ],
+    "R3_candidates_role": "FOCUSED_B_SUSPENDED_EVIDENCE_PRODUCER_CONDITIONAL; THIRD_DOMAIN_CONTRACT_IN_RUN_CARD_IS_HISTORICAL_ALTERNATIVE; SIMPLE_GRAPH_JOIN_NOT_A_DIFFERENTIAL",
+    "review_provenance": "AI_ASSISTED_ADVERSARIAL_AUTHOR_SIDE_NOT_INDEPENDENT",
+    "R3_source_scope_fallback": {
+      "if_B_in_scope_and_state_confirmed": "CONDITIONAL_LIFECYCLE_COUPLED_R3_CANDIDATE; NOT_PROVEN_NATIVE_FAILURE",
+      "if_B_infrastructure_or_simple_timeout": "KNOWN_R2_EVIDENCE_AVAILABILITY_CONTROL; NOT_A_NEW_R3",
+      "if_new_policy_material_multi_source_coverage_change": "SEPARATE_R3_CANDIDATE_ONLY_AFTER_INDEPENDENT_ADMISSION_AND_COMPLETE_R2_FREEZE",
+      "if_no_new_admissible_change": "R3_NOT_ADMITTED; RETAIN_HIBERNATION_SOURCE_QUESTION; INTERNAL_SOURCE_NEUTRAL_SYNTHETIC_DDS_ONLY",
+      "no_automatic_shift_to_modeY": true,
+      "institutionally_authorized_R3": false
+    },
+    "composition_pathways": {
+      "same_minimum_proposition": "P",
+      "roles_are_source_function_relative": true,
+      "differentiated_routes": {
+        "B": "CHARACTERIZED_LAWFUL_QUERY_IF_SOURCE_AUTHORITY_PERMITS",
+        "C": "BOUNDED_OWNER_AUTHORIZED_EXPLORATION_IF_PLAUSIBLE",
+        "D": "RETAIN_UNEVALUABLE_RESIDUAL_AND_OWNER_ESCALATION_IF_POLICY_PERMITS"
+      },
+      "no_mandatory_scalar": true,
+      "no_replacement_of_B_source_authority": true,
+      "native_equivalence_receives_full_credit": true
+    },
+    "ci_claim": "AUTHOR_SIDE_DOCUMENTARY_STATIC_CHECKS_ONLY_NOT_SCIENTIFIC_OR_TECHNOLOGY_CONFORMANCE",
+    "source_facing_focus": "HIBERNATION_UNDER_CURRENT_CONTEXT_INSUFFICIENCY_NOT_SECOND_SLEEPING_SOURCE",
+    "core_question": "LOCALLY_KNOWN_RESTORE_CONSTRAINTS_PASS_BUT_OWNER_REQUIRED_P_UNESTABLISHED__WHICH_CHECKPOINT_PRESERVES_INCOMPLETE_AND_WHICH_OWNER_RECHECKS",
+    "B_as_secondary_only": true,
+    "technical_second_sleeping_source": "CU_HIBERNATION_R123_CONTEXT_VERIFICATION_SOURCE_ASLEEP_v0.1.md"
+  }
+}
