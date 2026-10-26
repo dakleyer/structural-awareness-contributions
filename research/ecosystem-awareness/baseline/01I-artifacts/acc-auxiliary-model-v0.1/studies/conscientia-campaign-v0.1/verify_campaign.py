@@ -13,7 +13,7 @@ expected=json.loads((HERE/'REFERENCE_SYNTHETIC_RESULTS.json').read_text(encoding
 observed=build_campaign(require_existing=True)
 # The synthetic decision/factorial/entropy experiment is an exact fixture replay.
 for key in ('schema_version','date_cutoff','source_documents_screened','decision_experiments',
-            'factorial_joint_mechanism','FH_C_competing_ablations','network_counterfactuals','finite_entropic_experiment',
+            'factorial_joint_mechanism','FH_C_competing_ablations','network_counterfactuals','source_anchored_microexperiments','finite_entropic_experiment',
             'human_and_measurement_blockers','uc21_case_templates_not_executed','interpretation_guard'):
     assert observed[key]==expected[key],f'Synthetic experiment reference mismatch: {key}'
 # Prior artefacts are executed again: source code and pinned reference both checked.

@@ -3930,6 +3930,134 @@
     }
   ],
   "schema_version": "CE-CAMPAIGN-0.1",
+  "source_anchored_microexperiments": {
+    "BANANA_DONATION_AND_CARITAS": {
+      "actual_authorized_donation_without_donor_consent": false,
+      "actual_third_party_behaviour": "NOT_OBSERVED",
+      "capacity_if_already_collected": 1,
+      "charity_public_credit_assumed_misappropriated": false,
+      "delivery_possible_if_route_safe": true
+    },
+    "BANANA_THREE_STATES": {
+      "conditional_recovery_of_wasted_one": 1,
+      "legality_and_safety": "ASSUMED_NOT_TESTED",
+      "states": {
+        "S0": {
+          "bananas_produced": 0,
+          "consumed_by_holder": 0,
+          "received_by_child": 0,
+          "wasted": 0
+        },
+        "S1": {
+          "bananas_produced": 2,
+          "consumed_by_holder": 1,
+          "received_by_child": 0,
+          "wasted": 1
+        },
+        "S2": {
+          "bananas_produced": 2,
+          "consumed_by_holder": 1,
+          "received_by_child": 1,
+          "wasted": 0
+        }
+      }
+    },
+    "CRAFT_TRANSMISSION": {
+      "ability_to_reproduce_craft": "NOT_ESTABLISHED",
+      "artifacts_still_exist": true,
+      "historical_labour_outcome": "NOT_OBSERVED",
+      "master_apprentice_capacity": "NOT_OBSERVED"
+    },
+    "CREDIT_RELATIVE_FLOORS": {
+      "necessity_of_share": "SOURCE_SPECIFIC_VALIDATION_PENDING",
+      "seven_plus_four": {
+        "feasible": false,
+        "required": [
+          7,
+          4
+        ]
+      },
+      "seven_plus_three": {
+        "feasible": true,
+        "required": [
+          7,
+          3
+        ]
+      },
+      "total": 10
+    },
+    "EDUCATION_ARCHITECTURE_GATE": {
+      "accessibility": "UNKNOWN",
+      "candidate_passes_algebra": true,
+      "child_protection": "UNKNOWN",
+      "full_architecture_adoption": "NOT_ESTABLISHED",
+      "transfer_of_learning": "UNKNOWN"
+    },
+    "FINITE_XOR_SYNERGY": {
+      "I_R_Q1Q2_bits": 1,
+      "I_R_Q1_bits": 0,
+      "I_R_Q2_bits": 0,
+      "joint_states": 4,
+      "no_open_D_probability": true,
+      "target_outputs": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "HUMAN_SCENARIO_LYCEE": {
+      "experienced_distress": "NOT_MEASURED",
+      "observed_french_student": "NOT_OBSERVED",
+      "person_worth_metric": "NONE",
+      "structural_hypothesis": "POSSIBLE_IF_JOINTLY_FEASIBLE_AND_PERSON_ENDORSES_GOAL"
+    },
+    "IQ03_EFFICIENCY_GAP": {
+      "alt_feasible": "ASSUMED_WITHIN_EACH_PERIOD",
+      "gap_increased": true,
+      "output_increased": true,
+      "resource_gap_t0": 20,
+      "resource_gap_t1": 45,
+      "service_t0": 100,
+      "service_t1": 140
+    },
+    "NONFUNGIBLE_PROVENANCE": {
+      "distinct_origins": 2,
+      "fully_independent_observations": "NOT_ESTABLISHED",
+      "three_messages": 3
+    },
+    "NONMONOTONE_APPLES": {
+      "best_global_quantity": 8,
+      "jump_legally_executable": "NOT_ESTABLISHED",
+      "local_peak_quantity": 3,
+      "local_step_decreases_utility": true,
+      "utilities": [
+        0,
+        4,
+        7,
+        8,
+        7,
+        5,
+        5,
+        9,
+        10
+      ]
+    },
+    "ORANGE_RESEARCH_GATE": {
+      "actor_experienced_suffering": "NOT_MEASURED",
+      "authorized_harvest_quantity": "UNKNOWN",
+      "discarded_fruit_reported": true,
+      "price_collusion": "NOT_ESTABLISHED",
+      "recoverable_output": "NOT_ESTABLISHED"
+    },
+    "TWO_MINISTRIES_700_APPLICATIONS": {
+      "certified_recoverable_savings": "NOT_ESTABLISHED",
+      "illustrative_candidate_applications": 2,
+      "illustrative_start_applications": 700,
+      "same_service_and_rights_evidence": "NOT_ESTABLISHED"
+    },
+    "evidence_tier": "DECLARED_FINITE_SOURCE_ILLUSTRATIONS_NOT_OBSERVATIONS"
+  },
   "source_documents_screened": 23,
   "uc21_case_templates_not_executed": [
     {

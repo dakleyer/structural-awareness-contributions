@@ -4,7 +4,7 @@
 
 | Fuente Google Doc / corpus | Motivo original conservado | Caso(s) registrados / código | Estado y requisito adicional |
 |---|---|---|---|
-| CE-NOTES, notas de *Conscientia Ecosystemica* | IQ-01 eficiencia, reparto y coordinación; plátanos/Cáritas/Viernes; IQ-03 deuda dinámica; 6A HID | `COORD-*`, `CREDIT-*`, `FH_C_competing_ablations`, `network_counterfactuals` | SYNTHETIC_RUN; los números históricos de horas del texto no se reclaman como reproducidos por el modelo nuevo; distinguir utilidad/disconfort subjetivo |
+| CE-NOTES, notas de *Conscientia Ecosystemica* | IQ-01 eficiencia, reparto y coordinación; plátanos/Cáritas/Viernes; IQ-03 deuda dinámica; 6A HID | `COORD-*`, `CREDIT-*`, `FH_C_competing_ablations`, `network_counterfactuals`, `source_anchored_microexperiments` (IQ-03/plátanos/crédito) | SYNTHETIC_RUN; los números históricos de horas del texto no se reclaman como reproducidos por el modelo nuevo; distinguir utilidad/disconfort subjetivo |
 | CE-SOLIDARITY-V3 | Modelo económico, UC21 refutador, requisitos de solidaridad | `SOLID-*`, `uc21_case_templates_not_executed` | SYNTHETIC_RUN+UC21 NOT_RUN; el texto es diálogo, no encíclica validada por el experimento |
 | CE-DIALOGUE-V4 | Dependencia sufrida, agencia y solidaridad elegida | `SOLID-*`, `human_and_measurement_blockers` | SYNTHETIC_RUN; no existe cuestionario humano ni consentimiento real en el toy |
 | CE-SCHEME | FH-C, FH-E, evidencias de misión y seis escenarios UC21 | `LINEAGE-*`, `FH_C_competing_ablations`, UC21 stage-A fixtures | SYNTHETIC_RUN; un resultado favorable y uno contrario a FH-C están presentes |
@@ -20,7 +20,7 @@
 | HID-D20 | Trabajo humano compensatorio, medición por roles y retroalimentación | `HID_task_time_synthetic` | SYNTHETIC_ONLY; sin fuentes humanas longitudinales, sin resultado 01K externo |
 | ENT-DIST y ENT-AUDIT | Cobertura de preimágenes, KL, riesgo de inferencias físicas | `finite_entropic_experiment` | FINITE_MATH: Shannon sólo con población definida, orientación KL correcta, no Landauer universal |
 | CE-MH-NOTE | Bien común, derechos, UC21/S4 y reflexión | `RIGHTS-*`, `SOLID-*`, UC21 S4 fixture | Analogía; no declaración atribuible oficialmente al Vaticano por este experimento |
-| CE-MH-ONEPAGER y CE-PRESCIENCE | Archivos y antecedente de conciencia mínima | fuente por METADATOS; no caso nuevo atribuido | **READ_PENDING**: no se inspeccionó su texto íntegro en este corte; no invocar como respaldo de resultado |
+| CE-MH-ONEPAGER y CE-PRESCIENCE | Archivos y antecedente de conciencia mínima | fuente por METADATOS; no caso nuevo atribuido | **TEXT_SCREENED_CONCEPTUAL**: recuperados ambos textos y cribados temas y secciones; copia histórica y antecedente de awareness suficiente, sin nueva observación ni replicación |
 | 00M y 01K | Semántica B/C/D y medidas humanas propiamente dichas | `finite_entropic_experiment`, bloqueadores humanos, PR47 bridge | Definición y límites en vigor; NO se reescribieron canónicos |
 | UC21 S1–S6 | 37 gates fuente, R0/R1/R2 y falsadores | `uc21_case_templates_not_executed` + `UC21_adapter_replay` | **Seis tests nativos NOT_RUN**; se ejecuta únicamente fixture S4 sintético; ningún defensor real aceptado |
 | ACC-EXAMPLES | Plátanos, DANA, naranjas, crédito, manzanas, liceo y X−200 | EX-IDs estables en cada familia, cuatro replays de #42–#45 | Historias ilustrativas conservadas, no hechos observados ni pruebas sociológicas |

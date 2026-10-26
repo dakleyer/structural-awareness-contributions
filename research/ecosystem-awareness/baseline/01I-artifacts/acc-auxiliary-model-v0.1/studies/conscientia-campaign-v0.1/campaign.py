@@ -238,6 +238,120 @@ def finite_information() -> dict:
             "scope":"FINITE_UNIFORM_TOY_ONLY. No entropy or probability assigned to open C/D."}
 
 
+def source_anchored_microexperiments() -> dict:
+    """Small transparent witnesses for concrete passages of the source GDocs.
+
+    These results are arithmetic or bounded tests on DECLARED synthetic data,
+    never observational findings about people, organisations or markets.
+    """
+    # IQ-03 (CE-NOTES paragraph under heading): within each period, same service.
+    service_t0, current_r0, valid_alt_r0 = 100, 100, 80
+    service_t1, current_r1, valid_alt_r1 = 140, 110, 65
+    resource_gap_t0 = current_r0 - valid_alt_r0
+    resource_gap_t1 = current_r1 - valid_alt_r1
+
+    # Two bananas, explicitly conditional on feasible route, consent and safety.
+    banana_worlds = {
+        "S0": {"bananas_produced": 0, "consumed_by_holder": 0, "received_by_child": 0, "wasted": 0},
+        "S1": {"bananas_produced": 2, "consumed_by_holder": 1, "received_by_child": 0, "wasted": 1},
+        "S2": {"bananas_produced": 2, "consumed_by_holder": 1, "received_by_child": 1, "wasted": 0},
+    }
+    assert all(d["consumed_by_holder"]+d["received_by_child"]+d["wasted"]==d["bananas_produced"] for d in banana_worlds.values())
+
+    # A physical donation and a participant's consent are independent questions.
+    donation = {
+        "capacity_if_already_collected": 1,
+        "delivery_possible_if_route_safe": True,
+        "actual_authorized_donation_without_donor_consent": False,
+        "charity_public_credit_assumed_misappropriated": False,
+        "actual_third_party_behaviour": "NOT_OBSERVED",
+    }
+
+    # Credit/share floor is conditional on functional necessity, not proof of egoism.
+    credit = {
+        "total": 10,
+        "seven_plus_four": {"required": [7, 4], "feasible": 7 + 4 <= 10},
+        "seven_plus_three": {"required": [7, 3], "feasible": 7 + 3 <= 10},
+        "necessity_of_share": "SOURCE_SPECIFIC_VALIDATION_PENDING",
+    }
+
+    # Per the author's discrete apples example: crossing a utility valley requires
+    # a mechanism that can legitimately pay for / bridge a non-monotone move.
+    apples = [0, 4, 7, 8, 7, 5, 5, 9, 10]
+    local_peak = 3
+    next_step_is_decline = apples[local_peak + 1] < apples[local_peak]
+    best_global = max(range(len(apples)), key=lambda i: apples[i])
+
+    # An independent source's repetition is not independent corroboration.
+    source_ids = ["archive-A", "archive-A", "archive-B"]
+
+    # A finite XOR example of relational information not present in each one
+    # individual bit. No probability distribution is inferred for real C or D.
+    q1_states = [(0, 0), (0, 1), (1, 0), (1, 1)]
+    xor_outputs = [a ^ b for a, b in q1_states]
+    assert sorted(xor_outputs) == [0, 0, 1, 1]
+
+    # Orange harvest/price scenario cannot identify price manipulation or
+    # feasible redirection without actual safety, title and cost evidence.
+    oranges = {"discarded_fruit_reported": True,
+               "authorized_harvest_quantity": "UNKNOWN",
+               "price_collusion": "NOT_ESTABLISHED",
+               "recoverable_output": "NOT_ESTABLISHED",
+               "actor_experienced_suffering": "NOT_MEASURED"}
+
+    # Simulated educational architecture comparison refuses to hide health,
+    # minors' welfare, inclusivity or learning quality behind narrow efficiency.
+    education = {"candidate_passes_algebra": True,
+                 "child_protection": "UNKNOWN",
+                 "transfer_of_learning": "UNKNOWN",
+                 "accessibility": "UNKNOWN",
+                 "full_architecture_adoption": "NOT_ESTABLISHED"}
+
+    return {
+        "evidence_tier": "DECLARED_FINITE_SOURCE_ILLUSTRATIONS_NOT_OBSERVATIONS",
+        "IQ03_EFFICIENCY_GAP": {"service_t0": service_t0, "service_t1": service_t1,
+                                "resource_gap_t0": resource_gap_t0,
+                                "resource_gap_t1": resource_gap_t1,
+                                "output_increased": service_t1 > service_t0,
+                                "gap_increased": resource_gap_t1 > resource_gap_t0,
+                                "alt_feasible":"ASSUMED_WITHIN_EACH_PERIOD"},
+        "BANANA_THREE_STATES": {"states": banana_worlds,
+                                  "conditional_recovery_of_wasted_one": 1,
+                                  "legality_and_safety":"ASSUMED_NOT_TESTED"},
+        "BANANA_DONATION_AND_CARITAS": donation,
+        "CREDIT_RELATIVE_FLOORS": credit,
+        "NONMONOTONE_APPLES": {"utilities":apples,
+                                "local_peak_quantity":local_peak,
+                                "best_global_quantity":best_global,
+                                "local_step_decreases_utility":next_step_is_decline,
+                                "jump_legally_executable":"NOT_ESTABLISHED"},
+        "NONFUNGIBLE_PROVENANCE": {"three_messages":len(source_ids),
+                                    "distinct_origins":len(set(source_ids)),
+                                    "fully_independent_observations":"NOT_ESTABLISHED"},
+        "FINITE_XOR_SYNERGY": {"joint_states":len(q1_states),
+                               "target_outputs":xor_outputs,
+                               "I_R_Q1_bits":0,"I_R_Q2_bits":0,"I_R_Q1Q2_bits":1,
+                               "no_open_D_probability":True},
+        "ORANGE_RESEARCH_GATE": oranges,
+        "EDUCATION_ARCHITECTURE_GATE": education,
+        "TWO_MINISTRIES_700_APPLICATIONS": {
+            "illustrative_start_applications":700,
+            "illustrative_candidate_applications":2,
+            "same_service_and_rights_evidence":"NOT_ESTABLISHED",
+            "certified_recoverable_savings":"NOT_ESTABLISHED"},
+        "CRAFT_TRANSMISSION": {
+            "artifacts_still_exist":True,
+            "master_apprentice_capacity":"NOT_OBSERVED",
+            "ability_to_reproduce_craft":"NOT_ESTABLISHED",
+            "historical_labour_outcome":"NOT_OBSERVED"},
+        "HUMAN_SCENARIO_LYCEE": {
+            "structural_hypothesis":"POSSIBLE_IF_JOINTLY_FEASIBLE_AND_PERSON_ENDORSES_GOAL",
+            "observed_french_student":"NOT_OBSERVED",
+            "experienced_distress":"NOT_MEASURED",
+            "person_worth_metric":"NONE"},
+    }
+
+
 def gap_and_human_limits() -> dict:
     candidate={"development_now":4.0,"development_feasible_joint":7.0,
                "desired_positive_contribution":True,"blocked_externally":True,
@@ -329,6 +443,7 @@ def build_campaign(require_existing: bool=True) -> dict:
             "factorial_joint_mechanism":factorial_joint_information(),
             "FH_C_competing_ablations":fh_c_competing_ablations(),
             "network_counterfactuals":network_gap(),
+            "source_anchored_microexperiments":source_anchored_microexperiments(),
             "finite_entropic_experiment":finite_information(),
             "human_and_measurement_blockers":gap_and_human_limits(),
             "uc21_case_templates_not_executed":source_uc21_templates(),
@@ -353,6 +468,7 @@ def report_summary(report: dict) -> str:
         "- **Factorial 2×2×2:** evidencia Q × transición conjunta × requisito de acreditación; Q sin mecanismo físico no genera recursos, y mecanismo conjunto sin Q puede ser suficiente cuando la prueba adicional no es necesaria.",
         "- **FH-C con contradicción incluida:** dos perfiles 2×2 ablativos dan predicciones OPUESTAS sobre si retirar cualificación B/C/D causa más pivotes injustificados que retirar hechos del dominio. No hay afirmación de prioridad causal universal.",
         "- **Crecimiento de brecha:** dos topologías (densa/estrella) y n=5/10/20/40; el óptimo superior se presupone y debe certificarse fuera del toy antes de llamarlo deuda recuperable.",
+        "- **Doce microensayos de fuente:** IQ-03 sobre eficiencia con mismo servicio por periodo, plátanos S0/S1/S2, consentimiento/coste/atribución, cuotas de crédito 7+4/7+3, manzanas, trazabilidad independiente, XOR, naranjas, educación, ministerios, oficios y liceo. Son modelos y puertas de evidencia, NO datos observados.",
         "- **Shannon:** dos estados con A idéntico, un bit de ambigüedad para una pregunta y cero al recibir B auténtico; sólo sobre espacio finito uniforme; divergencia KL en orientación equivocada da infinito.",
         "- **Persona:** brecha estructural sintética de 3 unidades con las tres condiciones estipuladas; experiencia de sufrimiento y dignidad no cuantificadas.",
         "- **Instrumentos bloqueados:** fórmula D02 Attribution Gap conflictiva entre ediciones; captura-recaptura sin muestreo e independencia; falta de medición longitudinal 01K/psicológica.",
