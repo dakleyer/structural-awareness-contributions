@@ -66,6 +66,9 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1/experiments-from-escritos-v0.1/scenario_campaign.py > /tmp/acc_rav_essay_experiments.json
           python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1/experiments-from-escritos-v0.1/REFERENCE_EXPERIMENT_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_rav_essay_experiments.json').read_text())"
 
+      - name: Check 00M-ACC-UC21 scoped claim ladder (no new UC21 oracle)
+        run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/00m-acc-uc21-bridge-v0.1 -p test_claim_ladder.py -v
+
       - name: Check optimum-derived HID and matched ABCD synthetic tests
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_hid_optimum.py -v
 
