@@ -554,3 +554,10 @@ The [EP daily audit](../architectural-contributions/ecosystem-positioning/README
 ### Daily-audit native check receipt
 
 The [document-control job for audit head db75b9c](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40408471507/job/121872253805) succeeds. Its annotations also disclose two environment transitions: actions/checkout@v4, setup-python@v5 and upload-artifact@v4 target Node20 but run under forced Node24; ubuntu-latest is migrating to Ubuntu26. These are portability/maintenance signals, not failed scientific assertions. They support recording the actual interpreter/runner boundary in D26-F02; a green documentation job does not supply PR22's missing Python3.9 execution. No runner or action version is changed by this audit.
+
+
+### Late daily coverage and attribution receipt
+
+The 21-PR cut now includes PR60's seven added documents; all current-main paths/modes/blobs remain. Updated 58 at 406c4637 adds arithmetic and accepts evidence limitations. At 8008240c, after our comment, attribution identifies Codex AI-assisted review rather than a personal owner statement. D26-F10 is resolved; no already corrected attribution card remains in the source queue.
+
+Actual document checks succeed for PR60 aa4a2250 (run 40409231123/job 121875046445) and PR58 at 8008240c (run 40410442516/job 121879493551). They do not validate query conditioning (F08), namespace/admission (F09), original-source editions or real architecture advantage. Late GFM adds zero missing local routes/fragments. All source pairs remain unapplied.

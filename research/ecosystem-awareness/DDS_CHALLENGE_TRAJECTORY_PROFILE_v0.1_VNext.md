@@ -19191,3 +19191,10 @@ PR21 adds a documentary Theme23candidate/campaign route; it does not establish a
 **Acceptance:** match this heading once, retain every other byte and both old/new entry fragments, and verify incoming routes. No packet source is edited by this proposal.
 
 The direct Panodyssey publication also adds a presentation reading layer while preserving the ten source mirrors and their manifest. It remains a documentary/pending-execution route; presentation views must not replace source citations or imply inherited DDS/UC4 PASS. No campaign or hierarchy is reorganized here.
+
+
+## Late daily PR audit — UC21/DDS receiving contract
+
+D26-F09 contrasts PR60 study05/matrix with this profile's namespace paragraph and DDS-MR-01eligibility. UC21 keeps native R0/R1/R2; prospective DDS uses R1 competent initial, R2 repair after actual R1 failure, R3 material stress of a passing frozen predecessor. Known failure disclosure for repair and a blinded later scored realization are separate opportunities; no predecessor PASS may be invented.
+
+Exact C06/C07 pairs live in the [single 01I owner review](./baseline/01I_VNext.md#exact-source-candidates-for-the-pr60-cut). This receiving source is unchanged. Prior C02/C03 bookmark proposals remain separate; no historical run is relabelled or executed.

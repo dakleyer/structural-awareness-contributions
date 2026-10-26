@@ -121,3 +121,90 @@ In PR57, Q_META_PROTOCOL and CONVENTIONAL_EQUIVALENT_Q share the decision branch
 PR54 contains worked synthetic cases and regression-checked arithmetic, not observations of people/products. Eight network sweep cells overlap 49; retain their lineage rather than delete them or count them as independent evidence. A conditional mathematical/example result is still useful; asking it to estimate a real effect requires a different protocol. PR58 is a useful AI-assisted challenge, not independent human validation or coverage of all core/prior/later work. Its suggested remedies also need evaluation: a new fixture proving its own rule cannot fix empirical identification, and a stipulated h-per-arm difference would still need measurement.
 
 The 42/43 feasibility trap, utility examples and fibre counts support their stated finite constructions. The shown loss is already caused by demand censoring; the nested aggregation does not itself identify a new empirical mechanism. The 46 CARA/normal formulas are conditional on characterized lotteries, not probabilities over unknown C/D. Full subjective suffering, human HID and production deployment remain separate claims. Preserve these examples, negative cases and disagreements while narrowing any expansive presentation.
+
+
+## Late daily PR audit — mathematical lineage and supplementary evidence
+
+PR60 appeared after the first cut, at aa4a2250fb3f2634059322f010649621a7ffbf30. All seven documents were read. The finite quotient/congruence argument, four-state operation witness, stable-refinement termination, finite certificate and weak optional-information inequality hold under their displayed assumptions. Source/derivation separation, strong comparators and explicit negative outcomes improve the research specification. Original-source fidelity remains its own check: R12 PDF extraction is acknowledged missing, and mutable historical-source/review editions require their specified custody.
+
+### D26-F08 — Q-only sufficiency is not supplementary evidence given A
+
+D3 is correct as a Q-only theorem. Its use for minimum supplementary evidence drops baseline o from the receiving map and covers pairs A already separates. Counterexample: X={0,1,2,3}, o(x)=floor(x/2), r(x)=x, one available unit-cost Q(x)=x mod2. D3 has six conflicting pairs; Q leaves(0,2)/(1,3) uncovered, so this Q-only menu cannot solve r. Yet the already available pair(o,Q) identifies all four states with that one incremental query. The correct supplementary problem covers the two equal-o/different-r pairs; Q separates both.
+
+This is an integration gap, not a refutation of D3. Retain A in the map and condition conflicts on A, or explicitly restrict candidate states to the actual observed A fiber before using D3. Do not charge known A as newly acquired evidence or erase its separately reported past cost.
+
+### D26-F09 — Reconcile UC21/DDS labels and admission
+
+Doc05/matrix M-UC21 conflate source-native UC21 R0/R1/R2 with separate prospective DDS R1/R2/R3. DDS requires actual failure before an admitted repair and a passing frozen predecessor before subsequent material stress; a merely hypothetical context is insufficient. The [receiving DDS review](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#late-daily-pr-audit--uc21dds-receiving-contract) records the counterpart.
+
+### Exact source candidates for the PR60 cut
+
+These four pairs target pinned, unmerged PR60 sources, not main files that do not yet exist. Each old passage is literal/unique. Revalidate the current head and the complete dependent unit before implementation. The earlier C01–C03 remain separate and unapplied.
+
+### D26-C04 — Condition supplementary query selection on available A
+
+**State:** proposed, not applied. **Priority:** First. **Expected impact:** High. **Risk:** Medium. **Effort:** Medium. **Source/location:** [research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/02_FORMAL_CORE_AND_PROOFS.md](https://github.com/dakleyer/structural-awareness-contributions/blob/aa4a2250fb3f2634059322f010649621a7ffbf30/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/02_FORMAL_CORE_AND_PROOFS.md), the complete passage shown below. **Reason/benefit:** D26-F08 for C04/C05 (avoid false unattainability/overpriced supplementary information); D26-F09 for C06/C07 (retain correct traversal identity and evidence gates). **Risk/cost:** reconcile receiving maps, cost ledgers and caller claims before adoption; C07 is editorial only when paired with C06. **Dependencies/decision:** D26-C05; six original target pairs versus two A-conditioned pairs. Source-owner selection remains pending.
+
+**Text before — complete literal affected passage:**
+
+````markdown
+**Boundary:** D3 does not prove that each Q is available, true, safe, private, legally disclosable or sufficient outside \(\widehat X\). A source query may be a costed observation of a particular B-profile *only after 00M qualification*; none can be invented from C or D. If \(\bigcup_{j\in J_\kappa}C_j\ne U_r\), the exact target is **unachievable by this query menu**, not “solved by oracle.” Cost additivity fails with batch discounts, shared proof work and correlated permissions: use general \(C(H,\kappa)\) and re-check.
+````
+
+**Text after — complete proposed passage:**
+
+````markdown
+**Boundary:** D3 does not prove that each Q is available, true, safe, private, legally disclosable or sufficient outside \(\widehat X\). A source query may be a costed observation of a particular B-profile *only after 00M qualification*; none can be invented from C or D. If \(\bigcup_{j\in J_\kappa}C_j\ne U_r\), the exact target is **unachievable by this query menu**, not “solved by oracle.” Cost additivity fails with batch discounts, shared proof work and correlated permissions: use general \(C(H,\kappa)\) and re-check.
+
+**Supplementary evidence given an already available observation.** For requalification with current input o, use \(\widetilde g_H(x)=(o(x),g_H(x))\) and \(U_{r\mid o}=\{\{x,y\}\in U_r:o(x)=o(y)\}\). Then \(r=h\circ\widetilde g_H\) on \(\widehat X\) iff \(U_{r\mid o}\subseteq\bigcup_{j\in H}C_j\). The proof is D3 applied to pairs still indistinguishable after both inputs. Use this conditional universe in P3 and steps 04–05 whenever the recipient already has the qualified A observation; alternatively, first restrict candidate states to the actual observed A fiber and declare that restriction. D3 above is the Q-only case, and is equivalent only under that restriction or when o adds no distinctions. Preserve A's prior acquisition/verification costs in their declared ledger; do not charge them again as newly acquired Q or silently erase them. For a finite-horizon target, substitute \(r_h\) throughout and retain that horizon.
+````
+
+### D26-C05 — Make the protocol use the supplementary-evidence problem
+
+**State:** proposed, not applied. **Priority:** First. **Expected impact:** High. **Risk:** Medium. **Effort:** Medium. **Source/location:** [research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/03_METAPROTOCOL_ALGORITHMS_AND_COST.md](https://github.com/dakleyer/structural-awareness-contributions/blob/aa4a2250fb3f2634059322f010649621a7ffbf30/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/03_METAPROTOCOL_ALGORITHMS_AND_COST.md), the complete passage shown below. **Reason/benefit:** D26-F08 for C04/C05 (avoid false unattainability/overpriced supplementary information); D26-F09 for C06/C07 (retain correct traversal identity and evidence gates). **Risk/cost:** reconcile receiving maps, cost ledgers and caller claims before adoption; C07 is editorial only when paired with C06. **Dependencies/decision:** D26-C04; align P3, steps 04–05 and E2/matrix wording as a single unit. Source-owner selection remains pending.
+
+**Text before — complete literal affected passage:**
+
+````markdown
+The following is pseudocode, not a deployed service:
+````
+
+**Text after — complete proposed passage:**
+
+````markdown
+**Existing-input rule for P3/steps 04–05:** when qualified A is already an input, acquire supplementary queries against \(U_{r\mid o}\), preserving o in the decision map as specified in [02 §4](./02_FORMAL_CORE_AND_PROOFS.md). A Q-only cover is appropriate only after explicitly conditioning candidate states on the actual observed A fiber, or for a genuinely Q-only receiving problem. Keep already incurred A costs separate from incremental query cost.
+
+The following is pseudocode, not a deployed service:
+````
+
+### D26-C06 — Retain UC21 labels and actual DDS admission gates
+
+**State:** proposed, not applied. **Priority:** First. **Expected impact:** High. **Risk:** Medium. **Effort:** Medium. **Source/location:** [research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/05_INDEPENDENT_VALIDATION_PROTOCOL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/aa4a2250fb3f2634059322f010649621a7ffbf30/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/05_INDEPENDENT_VALIDATION_PROTOCOL.md), the complete passage shown below. **Reason/benefit:** D26-F08 for C04/C05 (avoid false unattainability/overpriced supplementary information); D26-F09 for C06/C07 (retain correct traversal identity and evidence gates). **Risk/cost:** reconcile receiving maps, cost ledgers and caller claims before adoption; C07 is editorial only when paired with C06. **Dependencies/decision:** D26-C07 and receiving DDS/MR eligibility; preserve all historical labels. Source-owner selection remains pending.
+
+**Text before — complete literal affected passage:**
+
+````markdown
+**UC21 — a companion falsifier:** the related UC21 challenge assesses technology/control behavior under concrete adversarial contexts. Its R1 is current technology as normally configured; R2 is a serious top-notch configuration for the scenario; R3 is a **hypothetical change-of-context condition**, not an inevitable fate. A UC21 failure/success does **not** prove or refute the general social model by itself. It can falsify a narrower **implementation capability or superior-control claim**. Keep its scoring independent and its exact frozen rubric separate.
+````
+
+**Text after — complete proposed passage:**
+
+````markdown
+**UC21 — a companion falsifier:** the related UC21 challenge assesses technology/control behavior under concrete adversarial contexts and preserves its source-native **R0/R1/R2** contracts. The separate optional prospective **DDS R1/R2/R3** shorthand means a competent initial configuration, an admitted repair after an actual R1 failure, and a subsequent material changed-context stress traversal of an actually passing, frozen predecessor. R3 is not an EA arm or an inevitable outcome. Preserve the applicable admission, preregistered-family, blinded scored-realization, retained-safeguard and cost/continuity gates from the [DDS namespace and comparison contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); do not relabel historical UC21 runs. A UC21 result can falsify a narrower implementation-capability or comparative-control claim; it does not prove or refute the entire social model. Keep its scoring and exact frozen rubric separate.
+````
+
+### D26-C07 — Align the matrix with the actual source contracts
+
+**State:** proposed, not applied. **Priority:** First. **Expected impact:** Medium. **Risk:** Low. **Effort:** Low. **Source/location:** [research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/06_CLAIM_AND_EVIDENCE_MATRIX.md](https://github.com/dakleyer/structural-awareness-contributions/blob/aa4a2250fb3f2634059322f010649621a7ffbf30/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/06_CLAIM_AND_EVIDENCE_MATRIX.md), the complete passage shown below. **Reason/benefit:** D26-F08 for C04/C05 (avoid false unattainability/overpriced supplementary information); D26-F09 for C06/C07 (retain correct traversal identity and evidence gates). **Risk/cost:** reconcile receiving maps, cost ledgers and caller claims before adoption; C07 is editorial only when paired with C06. **Dependencies/decision:** D26-C06; a row-only correction leaves the prose inconsistent. Source-owner selection remains pending.
+
+**Text before — complete literal affected passage:**
+
+````markdown
+| **M-UC21** | UC21 can test current R1, strong R2, hypothetical changed-context R3 technology capability | UC21 separate frozen study, not primary math source | [05 §D](./05_INDEPENDENT_VALIDATION_PROTOCOL.md) | **Independent companion**; no general mathematical proof |
+````
+
+**Text after — complete proposed passage:**
+
+````markdown
+| **M-UC21** | UC21 retains native R0/R1/R2; separate prospective DDS R1/R2/R3 use initial configuration, admitted repair and material stress of an actual passing frozen predecessor | UC21 separate frozen study, not primary math source | [05 §D](./05_INDEPENDENT_VALIDATION_PROTOCOL.md) | **Independent companion**; no general mathematical proof |
+````
