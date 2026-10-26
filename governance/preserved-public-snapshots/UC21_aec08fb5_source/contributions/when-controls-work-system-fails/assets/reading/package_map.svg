@@ -1,0 +1,63 @@
+<svg width="1500" height="620" viewBox="0 0 1500 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" font-family="Georgia, 'Times New Roman', serif">
+<title id="title">Package navigation map</title>
+<desc id="desc">Start at README. Choose the main case, submission form, hypothesis protocols, annex index or run-record template. The numbered list below gives the same navigation in text.</desc>
+<rect width="1500" height="620" fill="#FAFAF8"/>
+<text x="40" y="45" font-size="22" font-weight="bold" fill="#1F2C4A" font-family="Arial">Where do I actually go? — package map</text>
+<text x="40" y="70" font-size="13.5" fill="#5D6572" font-family="Arial" font-style="italic">One entry point. Pick your need, land on the right file.</text>
+
+<rect x="40" y="260" width="230" height="100" rx="8" fill="#1F2C4A"/>
+<text x="155" y="300" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF" font-family="Arial">README.md</text>
+<text x="155" y="322" text-anchor="middle" font-size="11.5" fill="#B9C2D0" font-family="Arial">start here, always</text>
+
+<g font-family="Arial" font-size="12">
+<!-- five needs, each with a line to its file -->
+<line x1="270" y1="290" x2="440" y2="90" stroke="#8B93A0" stroke-width="1.2"/>
+<rect x="440" y="55" width="480" height="70" rx="7" fill="#FFFFFF" stroke="#1F4E6B" stroke-width="1.3"/>
+<text x="455" y="78" font-weight="bold" fill="#1F4E6B">"I just want the case itself"</text>
+<text x="455" y="98" fill="#333">→ USE_CASE.md — 3,590 words, six stories, 37 gates</text>
+<text x="455" y="114" fill="#8B93A0" font-style="italic">Everything needed to understand and score the case is here.</text>
+
+<line x1="270" y1="300" x2="440" y2="190" stroke="#8B93A0" stroke-width="1.2"/>
+<rect x="440" y="155" width="480" height="70" rx="7" fill="#FFFFFF" stroke="#C17629" stroke-width="1.3"/>
+<text x="455" y="178" font-weight="bold" fill="#C17629">"I want to submit this to FG-TIDA"</text>
+<text x="455" y="198" fill="#333">→ SUBMISSION.md — copy into the issue form</text>
+<text x="455" y="214" fill="#8B93A0" font-style="italic">Replace local links with real GitHub links after upload.</text>
+
+<line x1="270" y1="310" x2="440" y2="290" stroke="#8B93A0" stroke-width="1.2"/>
+<rect x="440" y="255" width="480" height="70" rx="7" fill="#FFFFFF" stroke="#7A3B2E" stroke-width="1.3"/>
+<text x="455" y="278" font-weight="bold" fill="#7A3B2E">"What exactly are you claiming?"</text>
+<text x="455" y="298" fill="#333">→ annexes/HYPOTHESES.md — HC, H1–H6, HS, §13 claim map</text>
+<text x="455" y="314" fill="#8B93A0" font-style="italic">See the claim-selection diagram before choosing.</text>
+
+<line x1="270" y1="320" x2="440" y2="390" stroke="#8B93A0" stroke-width="1.2"/>
+<rect x="440" y="355" width="480" height="70" rx="7" fill="#FFFFFF" stroke="#333371" stroke-width="1.3"/>
+<text x="455" y="378" font-weight="bold" fill="#333371">"I need the full detail on one scenario or product"</text>
+<text x="455" y="398" fill="#333">→ annexes/README.md — index into scenarios/ and technology/</text>
+<text x="455" y="414" fill="#8B93A0" font-style="italic">One file per scenario (S1–S6), one per technology (T01–T09).</text>
+
+<line x1="270" y1="330" x2="440" y2="490" stroke="#8B93A0" stroke-width="1.2"/>
+<rect x="440" y="455" width="480" height="70" rx="7" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.3"/>
+<text x="455" y="478" font-weight="bold" fill="#B33A3A">"I'm about to actually run something"</text>
+<text x="455" y="498" fill="#333">→ templates/RUN_RECORD.md — copy before you start</text>
+<text x="455" y="514" fill="#8B93A0" font-style="italic">Records your claim choice separately from the gate result.</text>
+</g>
+
+<!-- second column: deeper support docs -->
+<g font-family="Arial" font-size="11.5">
+<rect x="990" y="55" width="470" height="60" rx="6" fill="#F0F1F5"/>
+<text x="1005" y="76" font-weight="bold" fill="#5D6572">Also inside USE_CASE.md's world:</text>
+<text x="1005" y="94" fill="#444">annexes/CONVENTIONS.md — terms and scoring precedence</text>
+
+<rect x="990" y="255" width="470" height="90" rx="6" fill="#F0F1F5"/>
+<text x="1005" y="276" font-weight="bold" fill="#5D6572">Other annexes in annexes/:</text>
+<text x="1005" y="294" fill="#444">RECURRENCE_PROTOCOL.md — the HR-specific test</text>
+<text x="1005" y="310" fill="#444">EXTENSIONALITY.md — family admission and extensions</text>
+<text x="1005" y="326" fill="#444">RELATED_CASES.md — neighbouring cases and boundaries</text>
+
+<rect x="990" y="455" width="470" height="60" rx="6" fill="#F0F1F5"/>
+<text x="1005" y="476" font-weight="bold" fill="#5D6572">Also for reproducing a result:</text>
+<text x="1005" y="494" fill="#444">EVIDENCE_AND_PROTOCOL.md — metrics, evidence-class limits</text>
+</g>
+
+<text x="40" y="570" font-size="12" fill="#5D6572" font-family="Arial" font-style="italic">SHA256SUMS.txt covers every other package file. Assets and fixtures are referenced from their matching scenario/technology annex, not listed separately here.</text>
+</svg>

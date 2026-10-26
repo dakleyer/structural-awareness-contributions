@@ -12,7 +12,7 @@ Preservar fuente canónica, registrar relaciones materiales en sus extremos y pr
 
 Role define el lugar funcional/contractual dentro de una MSCA y un Objective Envelope, con inputs/outputs/dependencias, ACC binding y referencias a autoridad. Operation §§2–4 distingue Role_bound de Role_effective inferido de observaciones. La fila de 01C §5.1 llama al primer input “what actually does”, lo que puede ocultar esa diferencia.
 
-No es necesario cambiar Role para corregir ese resumen. El [cambio 54 en 01C](../../research/ecosystem-awareness/baseline/01C_VNext.md#cambio-54--separar-rol-vinculado-y-conducta-observada-al-entrar-en-ra) mantiene el input contractual y trata la conducta como evidencia separada. Su **impacto esperado es alto, riesgo alto, esfuerzo medio**: hay que cotejar perfiles/Operation y evitar que observar conducta cree legitimidad.
+No es necesario cambiar Role para corregir ese resumen. El [cambio 54 en 01C](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/01C_VNext.md#cambio-54--separar-rol-vinculado-y-conducta-observada-al-entrar-en-ra) mantiene el input contractual y trata la conducta como evidencia separada. Su **impacto esperado es alto, riesgo alto, esfuerzo medio**: hay que cotejar perfiles/Operation y evitar que observar conducta cree legitimidad.
 
 ## Conversación de auditoría
 
@@ -122,3 +122,11 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [54](../../research/ecosystem-awareness/baseline/01C_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [57](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [60](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Bound function versus observed behaviour — historical continuation, 15 October 2026
+
+Reviewer A compared the complete Role source and its nine retired units with current01C and Operation. 01C line133 and Operation §§2/4 bind the declared/static Role and separately infer effective behaviour from qualified observations. The Role source introduced “what this participant actually does” in commit `b05d0d3e6fe4b14d23903051b39e1f181dd341cf`; the following paragraph still says the object is static. This is a surviving producer ambiguity, not a lost function.
+
+Change125 selects a narrower variant than A's longer suggestion: replace only that phrase with the assigned bound function. The explanatory observation/drift sentence stays here in the audit. D checked the complete source and receivers; fields, authority and dynamic ownership remain as defined today.
+

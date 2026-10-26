@@ -351,6 +351,111 @@ https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577
 This section refines the ideal interface; it does not claim that FG-TIDA has adopted the A/B/C/D notation or this exact cross-Theme profile.
 
 
+### 7.2 Theme #18 — Collective Objectives / collective-choice regime continuity
+
+**Additive contract clarification — 15 October 2026.** This supplements, without replacing, the frozen 05 v0.4 supporting contract in part 3, §13. Theme #18 owns its collective-choice/operator semantics; EA does not classify an operator, select an objective trade-off, author a policy or assume authority to switch modes.
+
+**#18 → EA (conditional, source-owned information).** Where an authoritative declaration or qualified assessment exists, the interface may preserve:
+
+- the declared objectives and constraints, including non-compensable vetoes where specified; the applicable choice regime (for example ordinal, cardinal or lexicographic), mode, operator and conditions authorizing transitions between regimes or modes;
+- the author, applicable authority/standing reference from #5, reference and version, effective period, and material transition evidence, keeping a declared reference separate from a claim about effective behaviour;
+- source-native observations or operator/conformance/drift assessments, method and measurement boundary, evaluator/observation dependence, identifiability limits and residual uncertainty, without inventing any missing conclusion;
+- the decision-relevant context/coverage declaration, including which transition conditions or objectives have or have not been evaluated, with as-of and validity limits.
+
+**EA qualification.** EA asks whether the declared operating frame and the scoped evidence remain applicable and sufficient for a particular receiving decision after changes of objectives, constraints, utilities, context, population or evaluation coverage. A changed selected outcome is not by itself operator drift: legitimate regime/mode transitions, state-dependent utility or feasible-set changes, measurement bias and actual drift are distinct hypotheses. Where the observation architecture cannot separate them, EA preserves that limit; it does not infer an effective operator. The collective-choice bijection and any application of Arrow-type impossibility results remain dependent on their stated regimes and axioms, not established universally by this contract.
+
+**EA → #18 / source owner or receiving party.** EA may report the scoped insufficiency, the precise declaration/transition/context proposition that no longer supports reliance, and an authorized requalification route. It must not command an operator change, rewrite the #18 assessment, specify a desired answer to an independent evaluator or route #21 measurement through EA. An assessment or transition revision remains with the relevant semantic/authority owner.
+
+**Adjacent ownership.** #5 governs standing and authored grants/references; #6/#36 governs per-action conformance against a referenced policy; #21 owns population-level reading and its measurement independence; #16 and authorized operators own escalation and intervention. A runtime Condorcet-cycle diagnostic calling for human escalation is not automatically the same evidential state as an indeterminate evaluation.
+
+**First bounded test candidate.** Freeze a declared operator/regime/mode/reference and positive transitions, then contrast (i) legitimate change of utilities/constraints, (ii) a regime/transition applicability gap and (iii) an observationally unidentifiable operator-vs-regime alternative, without assuming which implementation should win. The historic Riviera Maya example may motivate a separately specified toy fixture, not serve as a validated #18 standard.
+
+**Status:** ideal candidate interface, not Theme #18 acceptance or FG-TIDA adoption. Public anchors: https://github.com/FG-TIDA/themes/issues/18#issuecomment-5485431922 ; https://github.com/FG-TIDA/themes/issues/18#issuecomment-6147855004 ; https://github.com/FG-TIDA/themes/issues/18#issuecomment-6171043104 ; https://github.com/FG-TIDA/themes/issues/18#issuecomment-6173025205 .
+
+### 7.3 Theme #5 / #9 — mandate-scoped provenance, aggregation and observational sufficiency
+
+**Additive contract clarification — 15 October 2026.** This supplements, without replacing, the frozen 05 v0.4 provisional contract in part 2, §9. Theme #5 specifies authority origination and provenance; #9 examines missing or never-crisply-authored references. EA remains an evidence/decision-sufficiency qualifier, not a grant issuer, legal adjudicator or runtime conformance engine.
+
+**#5/#9 → EA (where legitimately accessible and material).** A candidate handoff may preserve:
+
+- the individual grant and its grantor/grantee, conferred scope and conditions, governing legal/mandate regime, origination standing and act-time binding/applicability as distinct determinations, each with the authority owner's provenance and applicable version/time;
+- per-link delegation, attenuation, expiry, revocation, replacement and composition references under each link's governing regime, rather than a cluster-level authority verdict presumed to bind all links;
+- the source and standing of any summary/aggregation transformation S that compresses grants into a cluster assertion, its author (if established), what distinctions it retains or drops, and a resolvable path to the underlying issuer/mandate record where one exists;
+- the reference's status: authored and evaluable, authored but presently unverifiable, absent or contested; plus the receiver's eligible evidence coverage and decision deadline. A derived token, attestation or cluster identity does not itself confer standing.
+
+**Decision-scoped sufficiency check.** Where validity is already defined by an independently specified normative reference, an exact yes/no decision from accessible evidence is possible only if evidentially indistinguishable admissible histories cannot require different validity verdicts for the same action. A compressed “cluster authorised” assertion may fail that condition after a model, membership or mandate change when it loses a scope restriction. This is a testable observational-sufficiency condition, not a new impossibility theorem, a general criticism of clustering or a finding that standing under a legal regime has been decided. An eligible issuer record that retains the distinction may resolve the example; its availability must be checked rather than excluded to manufacture a gap. Data minimisation concerns retaining or recoverably referencing the verdict-determining distinctions, not every historical detail.
+
+**EA → #5/#9 or authorized consumer.** EA may identify the specific unestablished grant condition, transformation/aggregation provenance or link whose information is necessary for the receiving action, together with what was checked, what is out of reach, and a targeted authorized recovery/requalification route. If the grant was never authored, an act-time verification gap cannot repair origination. A new properly authored grant may establish future authority, without retrospectively proving the missing historic chain. EA neither changes grant validity nor produces an independent legal verdict.
+
+**Minimal test candidates.** (1) A positive case where a permissible issuer/mandate record recovers the scope after aggregation; (2) a negative case where equally accessible aggregate evidence conceals v1-only versus v1/v2 permission after the same change; (3) a distinct never-authored/contested-reference case; and (4) prospective regrant where permitted. Record independently who authored S and whether that author had standing to choose which conditions were omitted; do not presume the answer. Pin the authority reference and source-access/decision horizon before testing.
+
+**Status:** ideal candidate EA interface. Pam Dixon confirmed the mathematical condition and raised the unresolved authorship question for S; that does not amount to approval of this EA payload or an FG-TIDA common schema. Charter #5 PR #15 remains a separately governed Phase 2 draft. Public anchors: https://github.com/FG-TIDA/themes/issues/9#issuecomment-6177147259 ; https://github.com/FG-TIDA/themes/issues/9#issuecomment-6179863862 ; https://github.com/FG-TIDA/themes/pull/15 ; https://github.com/FG-TIDA/themes/pull/15#issuecomment-5481072635 .
+
+---
+
+### 7.4 Theme #13 outbound profile selection — F2, F3/F4 and systemic EA
+
+**Additive working clarification — 15 October 2026.** This supplements the ideal 05 cross-Theme contracts, without changing frozen 03/04 functional semantics, the 05 v0.4 bilateral clauses, or Theme #13's incident/signal lifecycle. It is a candidate way to *choose the smallest semantically sufficient outbound profile*; not a new mandatory route or a claim of Ward Duchamps's or FG-TIDA's agreement.
+
+1. **Sensing prerequisites, not a global sensor.** F1 identifies the mission/decision requirements, material domains, criticality, dependency, capacity and usable response horizon. F2 qualifies the active observation window `W(d,t)`, source coverage and acquisition pathways, including passive/non-cooperative sensing or the #13 shared signalling channel. An F2 window/APQ finding is a distinct source-owned output when a neighbouring function only needs acquisition/coverage sufficiency; it is not an action verdict, an evaluated source claim or a full EA systemic disposition.
+2. **Bounded local qualification as the outbound result.** For a local agent/subsystem result, F3 may be the named **semantic producer of a direct, decision-scope-limited contract output**: native result/reference plus Qualified Local Epistemic State `QL(d)`, identified source, scope/window, as-of/version, evidence/standing references where supplied, dependencies and residual/UNKNOWN qualifiers. This may **substitute for a full-EA composite output in that particular outbound contract** where the receiving Theme needs local qualification but not a systemic conclusion. For an independently governed/external result, F4—not F3—owns the equivalent external evidence qualification `QE(d)`. Neither F3 nor F4 redecides the native verdict, mandate standing, population statistic or collective-choice operator.
+3. **Full EA only where composition is material.** If the receiver's actual question requires multiple sources, cumulative dependencies, systemic sufficiency or operating-frame posture, the route continues F3/F4 → F5 → F6, with recipient-appropriate F8 envelope and, where needed, targeted F7 requalification. An F3 direct result may not claim the F5/F6 determination that was never performed.
+4. **Carrier and ownership.** The existing Theme #13 shared incident/signal interface (IF-S11) or another authorized transport may carry an F2 profile, bounded F3/F4 result or full EA output using an attributed and versioned EHD/adapter; no additional centralized controller or global common schema is inferred. The incident lifecycle retains birth, distribution, corroboration/amendment, containment coordination and resolution. Ward's review as the originating #13 proposer is requested before any claim that this two-tier outward route is a Theme-wide agreed contract.
+5. **No authority/measurement leakage.** The receiving Theme keeps its own rules; no output authorizes an action, launders missing qualifiers or directs independent evaluation toward a preferred answer. In #21 interactions, a downstream F3 output must not become instructions to the rate producer; #18 retains operator/regime interpretation; #5 retains grant standing; #6 retains action-side verdict semantics.
+
+**Test proposal:** Compare native pass-through, F2 sensing-profile-only, F3/F4 bounded qualification and full EA-composed output for the same frozen source and decision. Predeclare each recipient's question and the minimum required distinctions; check whether a narrower route suffices and whether a wider one supplies decision-material additional evidence at justified burden. Record the semantic owner, carrier, fields and unknowns per route, not a generic “EA result”.
+
+Public #13 anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476256 ; https://github.com/FG-TIDA/themes/issues/13#issuecomment-5640186655 . Functional owners: [03 F1/F2](../../baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md), [03 F3/F4/F8](../../baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md), [04 EHD/IF-S11](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).
+
+---
+
+
+### 7.5 EA/F2 cross-Theme input/output contracts — ideal offer and candidate subscribers (15 October 2026)
+
+**Additive clarification; EA ONLY.** This is the ideal/wishlist layer of the cross-Theme architecture, not a statement that every source owner has accepted an adapter. It extends §7.4 and the frozen 05 v0.4 bilateral clauses without removing them. The working three-function Theme #13 charter (13 October) assigns decision-scoped contextual qualification to **T13.F2 / Ecosystem Awareness** and proposes a separate Response Coordination deliverable, D6. **No T13.F3 response/coordination result is specified in this EA contract table.** 05A vNext §2.14 supplies the source-conversation status for each relationship.
+
+**Shared architecture and naming.** In the proposed Theme #13 *signalling configuration*, **T13.F1** can receive qualified source-native notifications, deliver them to EA/F2, and distribute the resulting qualified EA publications to authorised recipients. This is a shared logical exchange surface, **not** an additional EA sensor, a mandatory F1 transit for every direct bilateral handoff, or a new broker that replaces IF-S11. T13.F1–F3 are separate from the frozen *EA.F1–F9* functional model. EHD is the semantic envelope, IF-S11 the signalling capability, and selective publish/subscribe a possible delivery topology. F1→F3 direct handoff remains available without EA.
+
+**Native EA outward product, before any specialised downstream response.** EA can issue one or more **recipient-scoped** statements: (i) materially changed contextual assumption or dependency, with origin; (ii) *supported / insufficient / unresolved* reliance basis and why; (iii) the narrowly affected domain and requalification or re-entry need; (iv) a newly qualified contextual state or *no material change*; and (v) a **candidate opportunity** to reconsider positioning where source evidence supports it. The last is **not** a global or executable agentic gradient. Qualified regime movement \`Δ_RA\` remains Regime Awareness-owned, while objective-conditioned gradients and executable repositioning remain Ecosystem Positioning/MSCA/ACC/authority-owned. The source finding, EA assessment and recipient's native decision remain separately attributable.
+
+**What the receiving component receives.** A native source result/reference plus **EA's own additional qualification** as appropriate: affected proposition/decision, provenance and source-lineage, scope/observed versus inferred relation, temporal reference and versions, dependency/corroboration status, declared coverage, material unknowns, validity/re-entry condition and disclosure limitations. A narrow **EA.F2/APQ** acquisition-profile output or **EA.F3/F4** local/external evidence qualification may satisfy one receiver without pretending that **EA.F5/F6** systemic composition or **EA.F8** systemic envelope publication occurred. Use a reviewed EHD adapter when material; never invent source fields, authority or an unperformed systemic result. Receiver-specific disclosures may differ while pointing to the same attributed EA assessment.
+
+**Ideal producer/input → EA-only output matrix.** “F1 ingress” below means an optional *T13.F1-carried* version of the source-to-EA interface. For each source, the direct already-described producer→EA contract remains permissible.
+
+| Theme / source owner | F1-carried source input to EA/F2 (source-native) | EA/F2 output offered to authorised thematic subscribers | Owner boundary |
+|---|---|---|---|
+| **#1 accountability** | Attributed activity, action and decision/effect records | Decision-scope evidence gap, inconsistent lineage or requalification of what the record supports | Original action/record facts remain source-owned |
+| **#2 discovery / #8 cross-border trust** | Available endpoints, source/capability and trust-framework profile updates | Qualified pathway/coverage/freshness change and target evidence to reacquire | Discovery/recognition is not trust or authority |
+| **#3 governance / #14 principal binding** | Authored trust, jurisdiction, representation and mandate-relevant declarations | Scope-specific reliance change or unresolved representation/standing dependency | Legal/governance conclusions belong to owners |
+| **#4 metamorphing agents / #12 trust mechanics** | Changed agent/harness/identity capability and source-native assessment | Local qualification invalidation or dependency-triggered recheck | Native agent/identity mechanics are not recomputed |
+| **#5 Pam / #9 fuzzy-authority; PR #15** | Grant, standing, mandate scope, act-time applicability, authored aggregation and version | Missing or changed grant distinction, evidence-insufficiency finding, targeted authority-owner inquiry | Origination, applicable standing and authority composition stay with #5 / legitimate regimes |
+| **#6 Cyril / #36 joint action-time control** | Five-state native action verdict, authored reference, freshness, appraisal or attested non-evaluation | A *new contextual sufficiency/reassessment indication* for the governing reference or act-time context; no rewrite of the old verdict | #6/#36 keeps verdict, policy and re-evaluation authority |
+| **#7 / #27/#28 verifier-side** | Per-check evidence, appraisal/rejection, coverage and failure semantics | Material missing-check or changed-applicability qualification and bounded recheck need | Verifier/RP own evaluation and acceptance rule |
+| **#10 network controls** | Enforcement reach, availability, revocation/effect status | Qualified control-capacity/response-opportunity or recovery-evidence gap | Control/actuation authority stays with owner |
+| **#11 model trust / #35 supply chain** | Model/harness/supply-chain provenance, change/version, attested coverage | Dependency or supply-chain basis-change notice; selective requalification | Source trust/assurance claims are not fabricated by EA |
+| **#16 human oversight** | Reviewer availability, actual presented evidence, response-time/capacity state, review decision | Decision-specific capacity/understanding-evidence limitation or request to revalidate affected assumptions | Oversight/human decisions remain #16/local |
+| **#17 rights/usage lineage** | Versioned rights, mandate, scope, source provenance and usage changes | A material gap or invalidated usage-context dependency, with relevant uncertainty | Rights and legal interpretation stay with issuer/owner |
+| **#18 Arnaud collective objectives** | Declared operator, regime/mode, objectives/constraints, transition criteria and qualified observations | Change in whether the declared regime applies to the receiving question; targeted reassessment request | EA does not choose operator, reinterpret a Condorcet verdict or infer drift from outcome alone |
+| **#19 privacy** | Recipient permissions, selective-disclosure policy, linkability limits and changes | Minimal authorised EA projection; disclosure insufficiency or revised recipient eligibility | Privacy rule/consent source-owned; no indiscriminate publication |
+| **#20 embodied binding** | Device–runtime–agent/action bindings, physical/interaction context changes | Material binding/coverage/requalification cue within declared scope | EA does not assert physical actuation or control rights |
+| **#21 Justin population evaluation** | Population, period, native rates, taxonomy, evaluator dependence, identifiability limits | **Sufficiency feedback with named gap** and scoped receiving requalification, with no recomputation | No preferred answer, receiver target hypothesis/purpose or receiver budget pushed into independent measurement |
+| **#22 Henk (Fraunhofer)/Houda (Huawei) attestation** | Native Attestation Result, verifier/appraisal reference, covered subject and evidence freshness | A specific *assessment-to-use* reliance/dependency gap or qualified no-change; candidate RP-side recheck notice | Reuse RATS/AR4SI/RP policies and existing freshness semantics; no new EA attestor |
+| **#23 Ying/China Unicom privileges** | Hibernation restore anchor, source-coverage and service-criticality changes, current privilege-related evidence | Optional dependency/context applicability or insufficient-restoration-evidence cue | Restore anchor validation, intent derivation and privilege decisions stay with #23 |
+| **#25/#34 Vodafone (age-aware / ATHENA)** | Delegation, service protection, identity and policy/credential continuity where legitimately disclosed | Early warning that a relied-on enforcement/service dependency has changed; no unnecessary age attributes | Guardian/protection/policy and actual eligibility native to source |
+| **#26 Matias CDA enforcement** | Two-axis action/evaluation state, policy reference, check-to-act/gate and effect evidence | Changed external-regime or dependency basis affecting *sufficiency of use*; targeted new native precondition check | CDA owns check-to-act, token, fallback and runtime gate; neither 60s TTL nor EA proves external propagation |
+| **#29 governed connection** | Declared Connection Profile, connection acceptance/withdrawal and observed effective state | Contextual concern that a prior reliance or connectivity assumption no longer holds | Connection admission/withdrawal does not become EA action permission |
+| **#31 context/memory handoff** | Versioned original restriction, compressed/derived summary, source and receiving context | Lost or unestablished restriction/context distinction, prompt to recover authoritative record | Memory representation does not become a new grant |
+| **#32 terminology / #37 trust moderators** | Versioned vocabulary/moderator assumptions, claim/evidence taxonomy where used | Semantic-compatibility or claim-basis insufficiency when material | Harmonisation/moderator model is not dictated by EA |
+
+**One publication, many qualified uses.** A source may enter T13.F1 once; EA may emit a single **bounded, source-attributed assessment** from that evidence, with **receiver-specific projection/subscription** to multiple components. These are *logical EA input/output contracts*, not separate mandatory physical links or promises that every Theme implements a common EA subscription. An EA output may be queried directly or delivered by the existing F1/IF-S11 signalling function. No feedback loop may count a forwarded version of its own upstream source as independent corroboration.
+
+**Candidate event profile families** (illustrative, not new normative primitives): material context/dependency change; insufficiency or loss of reliance; targeted requalification/renewed-basis notice; APQ coverage/freshness/pathway change; contextual repositioning opportunity *candidate*; and no-material-change/continuity. Preserve observed versus inferred change, original source, as-of/state version, source dependence, unknown/unassessed/not-presented distinctions, expiry/amendment and optional recipient privacy projection. An event cannot confer authority, invalidate a legally authored grant by fiat, select an operator, compel a new independent population measurement or prove containment.
+
+**Scope of the ideal offer.** The above includes existing owner conversations as well as *useful prospective* EA contracts. Contract design belongs in 05 Ideal; evidence of what parties have discussed or welcomed belongs in 05A. A broad ideal route catalogue does not turn a profile into an adopted specification or a compulsory participation condition. The next demonstration may select **one** route and compare it against a competent native mechanism at the same access, policy and cost boundary.
+
+Working anchors: [Ward component question, email 15 October](https://mail.google.com/mail/u/0/#all/1a13e8f7b9bfeabe); [Ward three functions, 8 October](https://mail.google.com/mail/u/0/#all/1a11b83e5a822d39); [Nelson diagram, 15 October](https://mail.google.com/mail/u/0/#all/1a13ee828c10aabb); [#13 proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6187880754); [#23 response](https://github.com/FG-TIDA/themes/issues/23#issuecomment-6164646309); [#22 Henk](https://github.com/FG-TIDA/themes/issues/22#issuecomment-6148093573); [#21 Justin](https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577); [#9 Pam](https://github.com/FG-TIDA/themes/issues/9#issuecomment-6179863862); [#26 Matias](https://github.com/FG-TIDA/themes/issues/26#issuecomment-6089010036); [#25 Vodafone](https://github.com/FG-TIDA/themes/issues/25#issuecomment-5918118296); [01J signalling](../../baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) and [04 EHD/IF-S11](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).
+
+
 ## 7A. Internal corpus profiles usable by the ideal projection
 
 05 Ideal may use programme-internal architecture/profile material as **integration aids**, but must not present those artefacts as FG-TIDA-owned semantics merely because they map cleanly to a Theme.
@@ -812,42 +917,6 @@ Estas fechas describen los comentarios, no fecha de adopción. Lectura hecha el 
 
 ## Propuestas quirúrgicas — IF05-R1, pendientes
 
-### IF05-R1-DELTA-001 — C02/00I en el catálogo
-
-**Objeto:** este VNext §10B; blob de esta época. **Hallazgo:** F001. **Preparación:** IVAN-20261006-START-SEQUENTIAL-AUDITS; incorporación pendiente.
-
-**TEXTO ANTES**
-
-```markdown
-| **C02 semantic TOCTOU** | **None committed** | UC #6 exercises changed applicability; a future 00I has been discussed as a possible dedicated scenario but is not a repository source and is not assumed here. |
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-| **C02 semantic TOCTOU** | **00I v0.5 Freeze Edition, internal EA scenario** | UC #6 remains the FG-TIDA changed-applicability semantic case. The committed 00I scenario is a parallel internal stress source; a reviewed fixture mapping is required before its use as FG-TIDA execution evidence. |
-```
-
-**Efecto:** reconocer archivo existente y preservar source ownership. **Dependencias:** §6/§8/§10A/§18 y 05A; esos pasajes requieren revisión coordinada antes de aplicar para no dejar la reserva «future00I» contradictoria. No se afirma ejecución. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-### IF05-R1-DELTA-002 — carácter propuesto de los peers
-
-**Objeto:** este VNext §3, una frase única. **Hallazgo:** F003. **Tipo:** precisión de status y attribution, no cambio de funciones.
-
-**TEXTO ANTES**
-
-```markdown
-Theme #13-derived work should contain **two peer mechanisms**:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-For this ideal projection, the proposed Theme #13-derived architecture contains **two peer mechanisms**. The cited public anchors support placement and independent testing and express compatibility from the UC #4/testbed side; formal peer characterization and the general EHD abstraction remain subject to the relevant Theme #13 confirmation and review, without implying adoption:
-```
-
-**Gate:** si otras fuentes posteriores cierran esa confirmación, añadir sus referencias exactas y registrar fecha/scope antes de adjudicar este wording. No se proclama ausencia definitiva de confirmación. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
 ### Cobertura restante
 
 Partes2/3 del contrato congelado, todos los mappings de Themes, cada use case nativo, datos de testbed, historia completa de13 y revisión source-to-profile quedan pendientes. Esta es una primera auditoría documental de la VNext y algunos anchors críticos; no una validación del mapa ideal entero.
@@ -885,41 +954,6 @@ Los hallazgos concretos se comentarán aquí y en las VNext de los documentos re
 
 El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
-| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
-|---|---|---|---|---|---|
-| 33 · Reconocer 00I como escenario interno en 05 | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Medio | Pendiente de decisión |
-| 34 · Dos peers como propuesta, no arquitectura FG adoptada | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
-
-### Cambio 33 — Reconocer 00I como escenario interno en 05
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Corregir la contradicción committed/future sin convertir 00I en use case FG.
-
-**Qué podría quedar desactualizado o afectado:** Una celda actualizada deja contradictorios §§6/8/10A/18 y 05A; el mapping a UC6 sigue sin probar.
-
-**Qué cuesta prepararlo:** Revisión de varios pasajes y puente con 04/05A, preservar material histórico.
-
-**Dependencias conocidas:** [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Decidir conjuntamente con 18; completar antes/después de otros pasajes afectados.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-001--c0200i-en-el-catálogo); el viejo tiene una coincidencia en [la fuente actual](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `dea87c75816959f6749c6922e1e9a9b2c3cfd013`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 34 — Dos peers como propuesta, no arquitectura FG adoptada
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Conservar la diferencia entre placement, proceso de revisión y confirmación arquitectónica.
-
-**Qué podría quedar desactualizado o afectado:** La declaración podría quedar anticuada por fuente posterior no leída; los owners de otros Themes no se adquieren por silencio.
-
-**Qué cuesta prepararlo:** Consultar los pins usados y buscar cambios relevantes antes de decidir wording; no outreach.
-
-**Dependencias conocidas:** [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Mantener reserva de fuentes no revisadas; actualizar con evidencia si hubo confirmación posterior.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-002--carácter-propuesto-de-los-peers); el viejo tiene una coincidencia en [la fuente actual](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `dea87c75816959f6749c6922e1e9a9b2c3cfd013`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
 
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
@@ -927,26 +961,6 @@ El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prio
 
 La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
 
-| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
-|---|---|---|---|---|---|
-| 33 | Plan parcial; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
-| 34 | Documental condicionado; Pendiente de decisión | Alto | Medio | Medio | Primera |
-
-**Cambio 33 — Plan parcial.** La filaNone committed contradice00I existente, pero el candidato sólo cubre una de las apariciones.
-
-**Beneficio esperado:** Corregir la contradicción committed/future sin convertir 00I en use case FG. **Riesgo concreto:** Una celda actualizada deja contradictorios § §6/8/10A/18 y 05A; el mapping a UC6 sigue sin probar. **Coste de preparar y mantener:** Revisión de varios pasajes y puente con 04/05A, preservar material histórico.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Preparar los pares de§ §6/8/10A/18 junto con 18/05A; ningún escenario interno asciende a evidenciaFG por su existencia. Revisar junto con 18. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 34 — Documental condicionado.** La propuesta de dos peers puede ser defendible sin presentarse como arquitecturaFG adoptada. El alcance de la reserva depende de anchors concretos.
-
-**Beneficio esperado:** Conservar la diferencia entre placement, proceso de revisión y confirmación arquitectónica. **Riesgo concreto:** La declaración podría quedar anticuada por fuente posterior no leída; los owners de otros Themes no se adquieren por silencio. **Coste de preparar y mantener:** Consultar los pins usados y buscar cambios relevantes antes de decidir wording; no outreach.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Distinguirplacement, prueba independiente posible y confirmación arquitectónica; no afirmar ausencia mundial de adopción a partir de ocho comentarios antiguos. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
@@ -966,188 +980,50 @@ La [tanda conjunta en EP VNext](../../../../architectural-contributions/ecosyste
 
 <a id="ola2-cambio-04"></a>
 
-## Ola 2 — cambio 4: Dos mecanismos de Theme 13: atribuir claramente la propuesta
-
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 34; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
-
-**Fuente actual:** [research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `1d2b8c7a95a8e6c5570e4765081391a2e5d44824`. **Ubicación:** §3, Ideal 05 consequence, oración anterior a la tabla.
-
-**Justificación:** Conserva el diseño lifecycle/EA y atribuye su relación a esta proyección. Una propuesta de interoperación se entiende sin presentarla como arquitectura adoptada por el grupo.
-
-**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
-
-**Riesgo concreto:** La relación propuesta puede confundirse con estatus de Theme. Esta variante atribuye el diseño al propio documento, sin resolver ni negar decisiones externas posteriores. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** Conservar las responsabilidades de la tabla, límites y anchors; no alterar estados públicos de FG-TIDA.
-
-### §3, Ideal 05 consequence, oración anterior a la tabla
-
-Viejo verificado una vez fuera de citas de propuestas, línea 147 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-Theme #13-derived work should contain **two peer mechanisms**:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-This ideal projection proposes **two peer mechanisms** for Theme #13-derived work; the proposal is distinct from formal adoption by the Theme:
-~~~~
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
 
----
+## Propuestas aplicadas retiradas
 
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="if05-r1-delta-001--c0200i-en-el-catálogo"></a>
+<a id="if05-r1-delta-002--carácter-propuesto-de-los-peers"></a>
+<a id="cambio-33--reconocer-00i-como-escenario-interno-en-05"></a>
+<a id="cambio-34--dos-peers-como-propuesta-no-arquitectura-fg-adoptada"></a>
+<a id="ola-2--cambio-4-dos-mecanismos-de-theme-13-atribuir-claramente-la-propuesta"></a>
+<a id="3-ideal-05-consequence-oración-anterior-a-la-tabla"></a>
+<a id="ola-2--redacción-directa-del-cambio-4"></a>
+<a id="3-ideal-05-consequence-oración-anterior-a-la-tabla-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="ola-4--coherencia-de-escenarios-internos-y-rutas-de-interfaces"></a>
+<a id="pasaje-2--8-bloque-completo-de-separación-de-rutas"></a>
+<a id="pasaje-3--10a-lista-de-escenarios-internos"></a>
+<a id="pasaje-4--10b-fila-c02"></a>
+<a id="pasaje-5--18-punto8"></a>
+<a id="cierre-de-ola-4--aplicado"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-04"></a>
-
-## Ola 2 — redacción directa del cambio 4
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 34; la anterior queda como antecedente.
-
-**Propósito:** Conserva el diseño lifecycle/EA y atribuye su relación a esta proyección. Una propuesta de interoperación se entiende sin presentarla como arquitectura adoptada por el grupo.
-
-**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `9c3923599d07a248e206bf87e120927b99bcfa7c`.
-
-### §3, Ideal 05 consequence, oración anterior a la tabla
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-Theme #13-derived work should contain **two peer mechanisms**:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-This ideal projection proposes **two peer mechanisms** for Theme #13-derived work: **Incident / Signal Lifecycle** and **Ecosystem Awareness**. The table specifies their responsibilities and bidirectional interfaces.
-~~~~
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio34 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio4 / propuesta34.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
----
-
 <a id="ola4-integracion-00i-00j"></a>
 
-## Ola 4 — coherencia de escenarios internos y rutas de interfaces
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
-**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
-
-**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
-
-**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
-
-### Pasaje 2 — §8, bloque completo de separación de rutas
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea391. Viejo único fuera de citas.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-### Future 00I / UC #6 route-separation reservation
-
-If a dedicated **00I Semantic TOCTOU** scenario is later committed and reviewed, it must remain **parallel to**, not a stage of, the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.
-
-- **UC #6** remains the public FG-TIDA semantic case for changed-purpose/current-authority applicability.
-- **00I**, if created, would remain an EA/DBC reference failure scenario testing the broader stale-semantic-applicability pattern.
-- **UC #4** remains the downstream executable/testbed mapping layer only after the originating semantic owners review the mapping.
-
-The routes may inform one another and may share fixtures or boundary questions, but neither replaces the other's ownership or provenance. This reservation mirrors the existing separation discipline used for 00H versus FG-TIDA case/test routes and prevents a later internal scenario from being mistaken for the source case.
+</details>
 
 
+## Control-history reception of 05 — 15 October 2026
 
-~~~~
+B read all historical changed clauses in this review and the complete current 05 source, with actual receiving sections in DBC and 05A. The earlier “None committed” reading is not restored as present status: the current receiving material and its internal illustrative scope remain distinct from evidence of an external FG-TIDA deployment. Applied33/34 and the later coordinated documentary tranche remain applied; retiring their pending cards does not erase the source passages.
 
-**Texto después — propuesto completo**
-
-~~~~markdown
-<a id="future-00i--uc-6-route-separation-reservation"></a>
-
-### 00I and UC #6 — parallel provenance routes
-
-The committed [00I Semantic TOCTOU v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies an EA/DBC scenario for stale semantic applicability. It is a parallel source to the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.
-
-- **UC #6** supplies public FG-TIDA semantic facts about changed-purpose/current-authority applicability.
-- **00I** supplies the internal EA/DBC reference scenario with its own frozen scenario provenance.
-- **UC #4** supplies executable/testbed mapping after semantic-owner review.
-
-The routes can inform each other and share fixtures or boundary questions. Each retains its source ownership and provenance.
+The [05A review](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#control-history-reception-of-05a--15-october-2026) records the other end of this reading. The examined 05 control cohort adds no useful source omission to restore. It preserves the differences among a source report, its reproduction, a mutable publication and independently reviewed evidence.
 
 
+## Concurrent interface addition retained and read — 15 October 2026
 
-~~~~
+The complete new §7.5 matrix from commit 3dbdce1c was read during the historical-review publication. All 12,688 inserted bytes and all prior bytes were retained when main advanced. It is an ideal EA-only offer. T13.F1 as an optional exchange carrier remains distinct from EA.F1–F9, EHD and IF-S11; direct acquisition remains available. Native EA contextual qualifications stay separate from proposed Response Coordination, Regime Awareness regime movement and EP/MSCA/ACC positioning and authority.
 
-### Pasaje 3 — §10A, lista de escenarios internos
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea456. Viejo único fuera de citas.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-- **00E — 100 Million Tokens / compounded epistemic collapse**
-- **00F — Smart-City Mobility / systemic divergence**
-- **00G — Collective False-Context Convergence**
-- **00H — Batch Opportunity Beyond Authority**
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- **00E — 100 Million Tokens / compounded epistemic collapse**
-- **00F — Smart-City Mobility / systemic divergence**
-- **00G — Collective False-Context Convergence**
-- **00H — Batch Opportunity Beyond Authority**
-- **[00I — Semantic TOCTOU / The Patch That Undid the Fix](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)**
-- **[00J — Rights-Provenance Inversion / The Author Pays for Their Own Work](../../baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md)**
-~~~~
-
-### Pasaje 4 — §10B, fila C02
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea470. Viejo único fuera de citas.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-| **C02 semantic TOCTOU** | **None committed** | UC #6 exercises changed applicability; a future 00I has been discussed as a possible dedicated scenario but is not a repository source and is not assumed here. |
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-| **C02 semantic TOCTOU** | **[00I v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md), internal EA scenario** | UC #6 supplies FG-TIDA changed-applicability semantics; 00I supplies a parallel internal stress scenario. Use as FG-TIDA execution evidence requires a reviewed fixture mapping. |
-~~~~
-
-### Pasaje 5 — §18, punto8
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea752. Viejo único fuera de citas.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-8. integrate 00E–00H, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-8. integrate 00E–00J, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;
-~~~~
-
-**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
-
-
-## Cierre de Ola 4 — aplicado
-
-Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
+The companion [05A §2.14](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) states conversation levels rather than turning the catalogue into accepted bilateral profiles. This reading checks the new declared boundaries against the retained contract roles; it does not independently reverify the cited external conversations. H06 and concrete profile/receiver admission remain with their source owners. No source, former audit, existing contract or campaign result was replaced by this concurrent addition.

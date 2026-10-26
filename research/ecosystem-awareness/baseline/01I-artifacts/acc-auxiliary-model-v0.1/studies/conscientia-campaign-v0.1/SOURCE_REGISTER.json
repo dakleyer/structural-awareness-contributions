@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1",
+  "source_cutoff": "2026-10-26",
+  "note": "These are screened documents; not every file in Google Drive. Source-derived assertions are separated from test assumptions.",
+  "sources": [
+    {
+      "source_id": "CE-NOTES",
+      "title": "NOTAS DE TRABAJO — Conscientia Ecosystemica para Magnifica Humanitas — One-pager 1: elección, solidaridad y dos mecanismos",
+      "url": "https://docs.google.com/document/d/1QUzDHPp-yjrgCsjpXq7HLVMldNUO4iOFZ-4W2t4mHuI/edit",
+      "role": "working",
+      "relevant_passage": "§10A–10E; IQ-01–IQ-06; HID §6A; status mixes modelling and hypothetical examples",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-SOLIDARITY-V3",
+      "title": "De la dependencia sufrida a la solidaridad elegida — Conscientia Ecosystemica para Magnifica Humanitas — v3",
+      "url": "https://docs.google.com/document/d/1aKYkPlmuaiNv51QtW51q30fiNDdXrZ-1LQOJ2EGKhrg/edit",
+      "role": "working",
+      "relevant_passage": "Three contributions: economic gap, UC21 technical falsifier, voluntary solidarity",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-DIALOGUE-V4",
+      "title": "De la dependencia sufrida a la solidaridad elegida — Diálogo experimental con Magnifica Humanitas — v4",
+      "url": "https://docs.google.com/document/d/1Y2xQduM_P4PnGs3Z9-d3ZypBfoNLW7b2Pl4ZC0ntvaQ/edit",
+      "role": "working",
+      "relevant_passage": "Three contributions; social burden and genuine voluntary choice; not a Vatican endorsement",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-SCHEME",
+      "title": "Conscientia Ecosystematis — Saber lo que no sabemos, deriva de misión y elección humana",
+      "url": "https://docs.google.com/document/d/1YRehP7BuSOR9qBhFs3OOrYrPjH3TDvoL4hPJ9eFV-TY/edit",
+      "role": "working",
+      "relevant_passage": "FH-C / FH-E, mission changes, A/B/C/D, falsification and UC21 S1–S6",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-ANTS",
+      "title": "A/B/C/D y reposicionamiento: hormigas metamórficas",
+      "url": "https://docs.google.com/document/d/1ZBCAoni5TUVxGkbFGeTY0uRSBaS14vWYK3hhHDXlmww/edit",
+      "role": "historical",
+      "relevant_passage": "Analogical historical vocabulary; for experiment use canonical 00M, not its earlier B/C meanings",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-CAPACITY",
+      "title": "Preservación de capacidades — Clausura arquitectónica, inteligencia humana y coherencia democrática",
+      "url": "https://docs.google.com/document/d/1QHzTPaEGY0OCgUr-ObswadFGgrh7JP8XIxX-t36tj1M/edit",
+      "role": "working",
+      "relevant_passage": "Six cases: incapacity, equations learning, professional accountability, France, crafts, administrative usability; hypothesis of feasible alternatives",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-CORRESPONDENCE",
+      "title": "Conscientia Ecosystematis para Magnifica Humanitas — Correspondencia técnica y social",
+      "url": "https://docs.google.com/document/d/1rJTg__x4xKYRQbo63hFH3V-BNtkxsgnCUwgQ-oUCPck/edit",
+      "role": "working",
+      "relevant_passage": "Attribution Gap/HID/Informational Friction/Cost of Clarity; custody of essential capabilities",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-SOCIAL-WORK",
+      "title": "DOCUMENTO DE TRABAJO — Composición abierta de indeterminación y modelo social multiagente — v0.6",
+      "url": "https://docs.google.com/document/d/1qpBDFBZa7nGKlTD2D5poYuStCf0oJcAogBtUuzEjD90/edit",
+      "role": "research-note",
+      "relevant_passage": "Parts I–VII; mathematical conditions, toy hypotheses, previously run analyses, no external validation",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "AG-D01",
+      "title": "RESEARCH DOSSIER 01 — The Attribution Gap and Capability Loss v8",
+      "url": "https://docs.google.com/document/d/1FXSKDD9sxXUXaqM99FgM3tFPe4UD3vAcT0rA5V3FVCI/edit",
+      "role": "dossier",
+      "relevant_passage": "Claim A dependency–attribution discrepancy; controls listed-without-dependency and unlisted-dependent; not field-observed",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "AG-D02",
+      "title": "RESEARCH DOSSIER 02 — Measuring the Attribution Gap v2",
+      "url": "https://docs.google.com/document/d/1wgFHAKE9sZFWrgvCIe4HUcK5cO3tuSidC2q24BVEFKU/edit",
+      "role": "dossier",
+      "relevant_passage": "Five signatures S1–S5; source PDF vs HTML disagree on E formula — BLOCK_FOR_COMPUTATION",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "HID-D06",
+      "title": "RESEARCH DOSSIER 06 — The Human Intelligence Debt Dilemma",
+      "url": "https://docs.google.com/document/d/1UXDkojn5NjQCB6wZeiB7Y9Rg3ysLzpL92lA3uUHnAvk/edit",
+      "role": "dossier",
+      "relevant_passage": "productive, blocking and integrator agents; incentives and roles, no observed motives",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "IF-D10",
+      "title": "RESEARCH DOSSIER 10 — Optimization, Coherence, and the Frame",
+      "url": "https://docs.google.com/document/d/1sMuoAcfAqq8uQeeR98NBkr8-NChS2mZBQ1DmKSdAMuA/edit",
+      "role": "dossier",
+      "relevant_passage": "Attribution vs coherent frame, suppression beyond cost; distinct causal question",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CC-D17",
+      "title": "RESEARCH DOSSIER 17 — How to Measure the Cost of Not Knowing",
+      "url": "https://docs.google.com/document/d/12GPkA8fYZvqIrhsC1SF2mg9-JStmbJPeYy4wcBJU7jc/edit",
+      "role": "dossier",
+      "relevant_passage": "Capture-recapture assumptions and source-owner observation effects; no empirical sample",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "HID-D20",
+      "title": "RESEARCH DOSSIER 20 — What Goes Unpriced Is Paid in Human Intelligence",
+      "url": "https://docs.google.com/document/d/1vwTSpSK_f4ePjg3ayRwI3fDkB9fqzYpWA4BiYL8n7qk/edit",
+      "role": "dossier",
+      "relevant_passage": "Human ACW GIC NEO UNKNOWN categories and causal feedback; need independent measurement",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "ENT-DIST",
+      "title": "Distorsión Entrópica: Método y Laboratorio",
+      "url": "https://docs.google.com/document/d/19VwS524d9Kx3RVXbZjSdUn5yi9gRYAF-H66Mut540EU/edit",
+      "role": "historical",
+      "relevant_passage": "Finite preimage coverage; original orientation of KL has a mathematical counterexample",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "ENT-AUDIT",
+      "title": "MATHEMATICAL_CLAIM_AUDIT — Entropic Primitive, Incompleteness and EA Transfer",
+      "url": "https://docs.google.com/document/d/1lBdXV47NjRY9pIbQlfYsdCcwGjSz_3k85P7m47Zw9J8/edit",
+      "role": "mathematical-audit",
+      "relevant_passage": "Finite coverage log2(m/n) not Shannon entropy; KL support and Landauer transfer cautions",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-MH-NOTE",
+      "title": "Ciencia ecosistémica y Magnifica Humanitas — Nota breve para comentarios",
+      "url": "https://docs.google.com/document/d/1P-b6PNdYW4iEQ4s37U6VJQc9XbANWpRiUSt3rIDCYr4/edit",
+      "role": "working",
+      "relevant_passage": "Human-development framing and UC21 S4 discussion; not empirical",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-MH-ONEPAGER",
+      "title": "2026-10-25 — Conscientia Ecosystemica — copia íntegra previa al plan de 14 inserciones",
+      "url": "https://docs.google.com/document/d/1EOMd1wwuXTp3BdVDjJ3vVed8an1H4EZ2pbTJbZUmHpo/edit",
+      "role": "historical",
+      "relevant_passage": "Historical copy, reference only; no independent new observations",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "CE-PRESCIENCE",
+      "title": "2026-09-07 Ecosystem Awareness Conceptual Foundations and Minimum Sufficient Awareness",
+      "url": "https://docs.google.com/document/d/1EKkIX4BGTUE7ehApKDGGnzz4G20J26ZPcTxOydHGnRc/edit",
+      "role": "conceptual",
+      "relevant_passage": "Minimum sufficient awareness — antecedent, not test observation",
+      "source_evidence_tier": "AUTHOR_CONCEPT_OR_INTERNAL_REVIEW"
+    },
+    {
+      "source_id": "00M-CANON",
+      "title": "00M v0.8 A/B/C/D and mathematical plausibility",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "role": "canonical-semantics",
+      "relevant_passage": "§1 A/B/C/D and §4 task sufficiency",
+      "source_evidence_tier": "FORMAL_DEFINITION_AND_BOUNDED_THEOREM"
+    },
+    {
+      "source_id": "01K-HID",
+      "title": "01K HC-HID capacity component",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+      "role": "measurement-owner",
+      "relevant_passage": "§6 task-time GIC/NEO/ACW/UNKNOWN; §7 costs",
+      "source_evidence_tier": "EXISTING_CONTRACT_NOT_OBSERVATION"
+    },
+    {
+      "source_id": "UC21-SOURCE",
+      "title": "UC21 frozen source and Annex R",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md",
+      "role": "source-owner",
+      "relevant_passage": "S1–S6, R0/R1/R2, 37 source-local gates; no native product tests",
+      "source_evidence_tier": "FROZEN_CASE_AND_CONTRACT"
+    },
+    {
+      "source_id": "ACC-EXAMPLES",
+      "title": "ACC example ledger PR42",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/research/acc-rational-bottlenecks-nonmonotone-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "role": "example-provenance",
+      "relevant_passage": "EX-BAN/ORANGE/ANT/VERS/CREDIT/LINEAR/APPLE/SUPER/HUMAN/SOLIDAR/PRICES",
+      "source_evidence_tier": "AUTHOR_HYPOTHETICAL_AND_TOY"
+    }
+  ]
+}

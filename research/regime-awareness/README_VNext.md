@@ -56,24 +56,7 @@ Antes de incorporar el cambio se revisarán implementaciones/perfiles que utilic
 
 ## Propuesta antes/después — conciliación del resumen, pendiente
 
-**Localización:** lista “Current architectural output”, segundo elemento, una coincidencia. **Fuente:** blob arriba. **Instrucción:** revisión total segura de Iván. **Tipo:** cambio semántico de explicación; no se clasifica como inocuo solo por conservar campos.
-
-**Texto antes:**
-
-```markdown
-- The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: direction (A_RA), confidence/intensity attached to that direction (B_RA), recognized current-capability frontier (C_RA), and structural/residual unknown (D_RA). Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
-```
-
-**Texto después:**
-
-```markdown
-- The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: qualified direction (A_RA), established support, validity limits and characterized assessment reserve (B_RA), grounded exploration avenues not yet characterized (C_RA), and potentially material effects beyond effective evaluation under the declared frame (D_RA). Confidence qualifies evidential support; it is not the physical magnitude of change or all of B_RA. Uncertain role classification remains UNKNOWN. Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
-```
-
-**Razón:** conciliar el resumen con 01C y 00M sin cambiar nombres de payload. **Dependencias:** 01C, MSCA 03/04, perfiles de signalling y consumidores RA; VNext de sus README. **Compatibilidad:** pendiente, revisar declaraciones históricas y significado recibido. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio35 incorporado en `research/regime-awareness/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -107,34 +90,6 @@ El [plan 1.10](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fu
 
 Los originales sueltos, canon, código, datos, freezes y binarios no reciben correcciones. Estar en el catálogo no altera autoridad. La lectura es de orientación y organización; no sustituye las cinco pasadas de una fuente vigente ni una dependencia material del argumento.
 
-### Adición de navegación — texto viejo y después completo
-
-**Fuente:** [índice propietario](minimalistic-early-warning-systems/README.md), blob `235f27142650f4adb48711648dbfe3652cd1eb38`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
-
-**Texto antes — viejo (último párrafo, literal):**
-
-```markdown
-**Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.
-```
-
-**Texto después — adición al final, manteniendo el viejo:**
-
-```markdown
-**Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](../ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
-
-El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
-
-
----
-
 ## Prioridades del plan de cambios — revisión del corte
 
 **Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
@@ -144,38 +99,6 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
 | 35 · Conciliar los cuatro roles RA en su README | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
-| 36 · Acceso a trabajo adicional desde EWS | Histórico · Histórico | Medio | Bajo | No nuevo | Ya publicado |
-
-### Cambio 35 — Conciliar los cuatro roles RA en su README
-
-**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera.** Que B sea soporte/reserva, C exploración y D barrera efectiva, sin confundir UNKNOWN.
-
-**Qué podría quedar desactualizado o afectado:** Cambiar solo el resumen puede dejar Operation, Cartografía, perfiles y lectores con otra interpretación; campos con mismo nombre no garantizan compatibilidad.
-
-**Qué cuesta prepararlo:** Revisión coordinada de productor y consumidores, antes/después y significado recibido.
-
-**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [README.md](README.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Decidir con 37/38 y correspondencia 17; no renombrar payload ni autoridad.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#propuesta-antesdespués--conciliación-del-resumen-pendiente); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `f021454aeb8359da468dbe4a2725851cce9c4d01`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 36 — Acceso a trabajo adicional desde EWS
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: No nuevo. Prioridad: Histórico.** Separar contexto/revisión adicional de detector validado.
-
-**Qué podría quedar desactualizado o afectado:** Duplicar el enlace ya publicado crea otra ruta aparente.
-
-**Qué cuesta prepararlo:** Ya publicado y verificado; solo mantener vínculo.
-
-**Dependencias conocidas:** [ADDITIONAL_WORK_README.md](ADDITIONAL_WORK_README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](minimalistic-early-warning-systems/README.md), blob `8e24a311bb7c7a89a29df15909961e6ecf6967f1`. El bloque añadido está presente; no se repite la ejecución.
-
-
----
 
 ## Continuación de 01C — payloads y separación de propietarios
 
@@ -213,7 +136,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
 | 35 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Medio | Primera |
-| 36 | Ya publicado; Ya publicado | Medio | Bajo | No nuevo | Histórico |
 
 **Cambio 35 — Cambio acoplado; no listo.** El resumenRA atribuyeC a capacidad caracterizada yD aunknown residual; no conserva las definiciones de 00M/01C. Debe corregirse con receptores.
 
@@ -222,14 +144,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
 
 **Condición y orden de decisión:** Cotejo35/37/38 más 01C/01D/Composition/01J: reserva evaluable→B, exploración fundada→C, barrera efectiva→D y clasificación incierta→UNKNOWN; ninguna API nueva. Revisar junto con 17, 37, 38, 68, 69, 70. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 36 — Ya publicado.** Separar contexto/revisión adicional de detector validado.
-
-**Beneficio esperado:** Separar contexto/revisión adicional de detector validado. **Riesgo concreto:** Duplicar el enlace ya publicado crea otra ruta aparente. **Coste de preparar y mantener:** Ya publicado y verificado; solo mantener vínculo.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
@@ -246,3 +160,27 @@ Foundation §17.4 separa salida dinámica observable de invalidación del marco 
 §17.1 reserva Type 0 a un fundamento declarado; la alerta no es un certificado estructural por sí sola. La representación y el indicador deben conservar incertidumbre sobre su efecto. La comparación externa de Foundation no establece calibración del detector ni garantiza un horizonte útil.
 
 35/37/38 sobre B/C/D siguen pendientes con 01C/01D/Operation; esta relación no resuelve su semántica. No se elige postura, se mueve el programa o incorpora un candidato. Registrar ambas proposiciones y sus límites en el examen material pendiente; sexta global aún no lanzada.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 35 | Conciliar los cuatro roles RA en su README | research/regime-awareness/README.md | Aplicado |
+
+
+
+## Historical source reception — RA and interfaces, 15 October 2026
+
+Reviewer A read the current RA/EWS routers and complete01B/01C/01D sources against their retired clauses. The old RA explanation is preserved exactly in PROGRAMME_CONTEXT, blob `c9b2a614423238842010537679e2ba77cb895b02`, with its six research questions, diagrams, relationships and authority/evidence limits. Current README links that receiver; no programme-body restoration is needed.
+
+01C preserves source question, observation scope, baseline, version, freshness and evidence qualification when interpreting A_RA/B_RA/C_RA/D_RA. P_RA is the detector signal; neutral does not imply Normal. A transient historical assertion that shared A/B/C/D labels made Cart_i immediately consumable was too strong; current01C line131 requires RA-specific qualification. Retain that correction. The source Role wording still blurred assigned function and observed behaviour; proposal125 addresses only its phrase, while Operation owns dynamic drift.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #35 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #35: `research/regime-awareness/README.md` (current blob `33bc7dd83958c3a8714c423a4791dca5403bbf3c`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

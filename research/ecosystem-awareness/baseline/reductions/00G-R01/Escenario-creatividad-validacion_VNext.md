@@ -84,3 +84,23 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [29](oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [48](oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Complete bilingual scenario reception — 15 October 2026
+
+Reviewer C compared all269 Spanish→firstEnglish units, then checked their present receivers:220 paragraphs remain directly received across scenario/HF/reduction sources;49 changed units retain their conditions through terminology, capacity-versus-acceptance distinctions, Part3 placement or prose updates. Formulae, tables, costs and conventional-control tie/improvement remain.
+
+One coordination lost clear negative scope. The original Spanish says “EA no crea autoridad ni elimina la información indispensable”; first/current English says “EA creates no authority or eliminates indispensable information”. Change126 restores “neither creates authority nor eliminates”, keeping every other paragraph word. D independently checked the complete source paragraph and adjacent4.1 context. It adds no authority, experiment or efficacy claim.
+
+### Change 126 — Applied 15 October 2026
+
+All 1 exact reviewed passage(s) are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md`, blob `949682a9613dd30e2a43494379043399b794fc55`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/5105bb4709382834987bfa0ce77806ed4d56bd21/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md#change-126--restore-the-two-part-negation-in-the-r01-scenario-translation) remain in the published review predecessor. This item is removed from the pending queue. Reversing only those substitutions recovers source predecessor `c534b16998b9d1ab817cf5c6d55e11bfde38ccda` byte for byte.
+
+
+
+## Historical binary reception — 15 October 2026
+
+B compared all653 nonempty Spanish/English DOCX paragraphs,22 tables/155rows/405cells, two translated drawings and all eleven equations. Operators, quantities and mathematical conditions survive label translation. The31-page Spanish and29-page English PDFs, plus the attribution-only current29-page PDF, were fully rendered and read; all89 pages retain the research sections. The later PDF pages2–29 are pixel-identical under the same renderer after the author-line change.
+
+Strong conventional peers, no-EA-advantage controls, own-review status, costs and scientific limits remain. No useful textual omission was found;126's earlier negative-coordination repair remains distinct. DOCX native layout is not inferred from the PDF. The [baseline media result](../../README_VNext.md#historical-media-reception-completed--15-october-2026) keeps the complete scope and limits.
+

@@ -1,0 +1,21 @@
+# Paquete de preparación Flores runtime context
+
+13 octubre 2026. Versión 0.2. Entrada visual: [informe HTML](Informe_Flores_Runtime_Context_2026-10-13.html).
+
+- [PRINCIPIO_R2_FREEZE_R3_2026-10-13.md](PRINCIPIO_R2_FREEZE_R3_2026-10-13.md)
+- [INFORME_2026-10-13.md](INFORME_2026-10-13.md)
+- [PROTOCOLO_2026-10-13.md](PROTOCOLO_2026-10-13.md)
+- [FORMALIZACION_2026-10-13.md](FORMALIZACION_2026-10-13.md)
+- [REFERENCIAS_2026-10-13.md](REFERENCIAS_2026-10-13.md)
+- [REVISION_ADVERSARIAL_2026-10-13.md](REVISION_ADVERSARIAL_2026-10-13.md)
+- [BRIEF_EN_2026-10-13.md](BRIEF_EN_2026-10-13.md)
+
+- [Código de preflight](code/preflight.mjs)
+- [Resultados completos](preflight/RESULTS_2026-10-13.json)
+- [Matriz de controles](preflight/CONTROL_MATRIX_2026-10-13.csv)
+- [Registro de fuentes](reference-register.json)
+- [Copias de fuente consultadas](source-snapshots/)
+
+Reproducir el preflight: node code/preflight.mjs. Rehacer HTML y manifest: node code/build_report.mjs. Runtime utilizado: Node.js 24.19.0, standard library, sin red ni dependencias externas.
+
+Las dos campañas sustantivas permanecen NOT_PREREGISTERED / NOT_EXECUTED. Los controles son instrumentación authored. B2 y reference igualan estados; no una implementación EA ni resultado nativo. Fuentes históricas privadas y fixture ZIP no se autentican con este paquete.

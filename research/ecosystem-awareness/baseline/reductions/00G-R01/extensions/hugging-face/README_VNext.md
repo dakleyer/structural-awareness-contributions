@@ -108,3 +108,111 @@ El README actual difiere del SHA256 local anterior. El nuevo índice de blobs Gi
 **Límite temporal:** detectar después del primer uso no puede recibir crédito por prevenir ese mismo uso. Puede ser relevante para actos posteriores sólo con observación, plazo, dueño y efecto definidos. El texto de primera canalización conserva el caso no observable y la conducta deliberadamente incumplidora, por lo que no promete prevención universal. No hay motivo sustentado aquí para cambiar su cuerpo o añadir S15/T5.
 
 La pequeña ambigüedad Stage1/Stage2 está en la portada del contrato A, no en estos resultados: [DDS VNext, propuesta 76](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#consistencia-de-dds-y-sus-receptores--12-octubre-2026). El extremo de consumo se registra en [Operation VNext](../../../../../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#consistencia-con-dds-y-recalificación-local--12-octubre-2026) y la lectura de conjunto en [EP VNext](../../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#consistencia-del-corpus-en-torno-a-dds--12-octubre-2026). Este comentario conserva las auditorías y sus estados previos; no es otra revisión independiente ni cierre del ciclo científico.
+
+
+## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
+
+**Auditoría realizada por Codex, mismo asistente; revisión documental sobre el corte `07c83653babec79f387bdfd5fc4b93e4ac21b533`.** Iván solicita analizar el borrador autocontenido v0.2 de reorganización, no ejecutar la migración. Se leyó el plan completo y se contrastaron la navegación controlada, el método A/B/C, los contratos HF v0.3 y v0.3.1, sus ocho bindings de paquete, el catálogo de extensiones y los recorridos bot v0.6. El documento recibido permanece fuera del repositorio; aquí se publican las conclusiones de revisión.
+
+HF es un buen piloto de lectura porque concentra contratos, sucesores, auditorías y recorridos, pero una ficha no debe amalgamar sus objetos distintos. La Stage A documental v0.3 permanece PREREGISTERED__ACCEPTANCE_PENDING__NOT_EXECUTED; los recorridos bot v0.2–v0.6 son exploración sintética ejecutada con sus propios resultados, no la ejecución de ese contrato. CH-01…CH-08 siguen fuera del freeze v0.3 hasta un sucesor prospectivo.
+
+Cotejo de custodia: los ocho bindings del [manifiesto v0.3](./DDS_STAGE_A_V0_3_PACKAGE_MANIFEST.json) coinciden con el árbol leído. El mapa de preparación consumido conserva blob38d64f61ef81a300a20d9d89cda65e5bb6ba5b22, distinto del14ce6fd9a476f5943b64b2d54a903ec205c87d81 actual. Es una diferencia documentada en el contrato: la versión actual no sustituye el input congelado. El [addendum v0.3.1](./DDS_STAGE_A_SOURCE_FREEZE_ADDENDUM_v0.3.1.md) fija las fuentes históricas corregidas y mantiene scoring v0.3. Una sola carpeta source-tree sin clave de versión no resuelve ambas épocas de un mismo nombre.
+
+El paquete neutral del lector ciego se entrega separado de los enlaces a adjudicaciones, predicciones e historial de respuestas; véase [contrato §11](./DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md#11-independentblind-reader-rule). El índice público de campaña y el paquete de distribución al lector tienen públicos y funciones distintos. No modificar ese paquete para incluir el nuevo índice.
+
+Los resultados negativos permanecen en lectura principal de la ficha: v0.6 registra siete efectos conocidos prohibidos para el control convencional fuerte y ocho para EA meta-local en ese conjunto sintético. No seleccionar sólo victorias ni agregar versiones con contratos distintos. Los scripts escriben junto a sí mismos: check.py regenera results.json; v0.6 run.py escribe registros, resumen y hashes. No ejecutarlos sobre el archivo preservado para comprobar una migración.
+
+Prioridad: ficha e índice con fuentes exactas, impacto Alto/riesgo Bajo/esfuerzo Medio. Copia de los121 archivos actuales HF no basta para preservar sus dependencias congeladas externas al subárbol. [Extensiones VNext](../README_VNext.md), [DDS VNext](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) y [EP VNext](../../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md) contienen las consecuencias recíprocas. Sin cambios de resultados, código, contratos o clasificación retroactiva.
+
+
+## Tanda 5 — campañas, estudios e informes · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda4 y pide que todas las tandas aprobadas estén en main. Contributions `1897ed9424f58b95a10f2839c8e5b9f7bf741935` incorpora la4; use-cases main `d4fad875d12c1542fff8236ec484d68c6e641327` publica los54archivos UC-21 ya existentes en su rama y una entrada raíz añadida conservando los23archivos previos. Se reutilizan las seis VNext del paquete: ningún expediente nuevo. Continúa este trabajo en main de ambos repositorios. La rama anterior queda como historia. Esta tanda publica revisión y cuatro candidatos nuevos; no los aplica. PDF y entradaFG-TIDA siguen al final.
+
+### Relación de pregunta, registro, ejecución y retorno
+
+Se cotejaron los13CURRENT_STUDY_RECORD y su evidence successor con catalogue/reportes; las47fuentes materiales seleccionadas conservan sus blobs en el head. Se leyeron cierres, scope, resultados y pasajes de accounting de los reportes para contrastar unidades/epochs; no se declara otra auditoría completa de todos los anexos/código ni se rerun ningún experimento. En los13 registros coinciden case count y ambas fraccionesType1/Type2 con la evidencia sucesora. El conjunto descriptivo contiene162operaciones/casos:122 del primercohorte y40 del segundo. No es una tasa común ni162observaciones independientes de una misma tecnología.
+
+El linaje distingue resultado original, sucesor coste/tipos de nueve perfiles y repair successor de trece. Se preservan26controles originales y40controles de reparación/positivos, elegidos tras conocer defectos. Un replay no duplica la muestra. Los antiguos párrafos no puntuados pertenecen a su versión; los nuevos diagnósticos tienen su registro, inputs yadmisiónM propios. RawP no se fuerza aType2 yØ no se fuerza aType1: el SQL conserva unP fuera deType2 yHEW tiene9Ø sin convertirlas en9Type1.
+
+### Comparaciones y trabajos separados
+
+Las fuentes HF conservan éxitos convencionales y límites: strong-native8/8 frente a7/8native+EA; cachedlineage EA8/10 frente a9/10revalidación; Casbin-polling mejora con recarga convencional tick15 frente a17EA. Los rapports de access-check para native/model-receiver declaran cero model requests/episodes y bloqueo antes de ejecución. No se hereda ejecución de modelos desde los nombres de directorio. El botv0.6 conserva30casos×10arms=300trazas sintéticas y7efectos known-denied del comparatorstrong-assurance frente a8EA-meta-local; no se convierte en aceptación del paquete StageAv0.3, que registra blind-reader/mutations pendientes.
+
+Los lotes R123(480redes), socialcontinuo(960) ydynamicreview(1056) se leen por sus protocolos propios: redes y receiver/checkpoint records no son muestras deLLM. En esos lotes no se ejecutó un brazoEA; se conservan revalidación convencional y pendientes de admisión/continuidad. El00I-STATEFUL aporta efecto/recovery local por contrato separado;00L combina trazas en papel, evidencia simbólica y correcciones. No se crea una campaña por fichero, repetición o réplica.
+
+### Inconsistencia material encontrada
+
+00K-A04 anuncia379 al principio y conserva en§6 un bloque101+27=128 presentado como expected regression contract. El runner actual fija42+58+49+76+47+74=346core y10+11+12=33supplemental,379total; el router coincide. Se propone una aclaración vigente al final y enlace directo desde DDS a ella. Los números anteriores, código, historial, resultados adversos yfalsifiers permanecen. No se ejecutaron los379tests aquí ni se los usa como score científico.
+
+### Prioridad y siguientes pasos
+
+Cuatro candidatos de impactoAlto/riesgoBajo/esfuerzoMedio: primero00Kconteo, luego linaje de estudios, mapa de informes DDS ycomparaciones HF. El beneficio es reconocer el trabajo ya ejecutado y qué conclusión puede usarse. Riesgos concretos: duplicar cohortes, mezclar unidades/versiones o asociar un pendingaunresult; las adiciones enlazan el registro eidentifican alcance. No cambian thresholds, datos, hipótesis o experimentos. PendingGOtanda5. Después corresponde conciliación de navegación; esta tanda no equivale al cierre de las cinco/sexta pasadas científicas de todo el corpus.
+
+
+Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
+
+### Plan aplicado — Selección directa de comparaciones HF y resultados adversos
+
+Aplicado en main por autorización de Iván del 12 octubre 2026. El par completo se conserva en el predecessor Git `77fc61447d3f278072d13f566bbedd7ccfe245d3`; queda fuera de la cola pendiente.
+
+## Recorded comparisons and their results
+
+Select the report for the receiver configuration actually tested:
+
+| Study | Recorded finding | Complete report |
+|---|---|---|
+| Strong programmed native reference and native+EA | Native completes8/8 tasks; native+EA7/8. The added EA processing loses the short-deadline continuity branch. | [Paired results](../../../../traversals/00G-HF-SCRIPTED-PAIRED-v0.1/RESULTS.md) |
+| Cached source lineage | EA repairs the selected stale-lineage failures; conventional current-source revalidation also repairs them. Across the ten authored cases, EA completes8/10 and conventional revalidation9/10. | [Cached-lineage results](../../../../traversals/00G-HF-CACHED-LINEAGE-v0.1/RESULTS.md) |
+| PyCasbin1.43.0 with selected polling interval | Timely EA and conventional reload prevent the selected stale-policy effect. Conventional reload completes at logical tick15 versus17 for EA. | [Casbin-polling results](../../../../traversals/00G-HF-CASBIN-POLLING-v0.1/RESULTS.md) |
+
+Each report links its registration, inputs, raw outcomes, verification and retained limits. These are different programmed studies; their task counts and logical ticks stay attached to their own contracts.
+
+For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+
+Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Bilingual HF reception and numeric clarity — 15 October 2026
+
+C read the complete 55k-character HF English translation against its Spanish source, including all fifteen groups/tables, counterexamples and historical navigation. Current v0.1, corrected v0.2 and prospective v0.3 retain their distinct duties; N10 remains post-audit/unscored. The strong conventional controls and contrary outcomes remain visible. No additional research clause was found missing in that translation.
+
+One English punctuation ambiguity is concrete: §4.3 says33.408 checks while the primary result records integer33408.135 below changes only the thousands separator. D separately read the source editions, current§4.3 context and the primary JSON status/counts; root verified that the full-source difference is one ASCII byte and reverses exactly. This is a low-impact clarity repair, not new evidence or a changed result. Other R01 history and final corpus reconciliation remain open.
+### Change 135 — Applied 15 October 2026
+
+The exact reviewed paragraph is incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md`, blob `b9c17c59deaf2c9cee12497a91eff4493a13b60c`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/1eca21c93eb507d6fd27ade56f658b29531860ff/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-135--use-the-english-thousands-separator-for-the-recorded-33408-hf-checks) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitution recovers source predecessor `2b19ae3d129e072e3520fec74f655479cc087885` byte for byte. Every other source byte is retained.
+
+
+
+## Historical HF route reception cross-check — 15 October 2026
+
+D compared the 14 additional HF history events and their 25 changed units against complete source-specific receivers. Thirteen former navigation paragraphs retain literal receiving passages and their research meaning in the version history. That supports keeping the present historical/current route distinction; it does not justify reinserting every old paragraph into the current README.
+
+C’s separate full translation comparison and135’s one-byte English integer clarification remain the earlier work. These checks do not create new experimental observations, rerun a model or promote a prospective edition. The conventional controls, contrary outcomes, costs and post-audit/unscored material retain their stated roles. No further HF restoration is proposed from this additional route cohort.
+
+
+## HF review readability repair — 15 October 2026
+
+Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
+
+
+## Earlier HF branch reception — 15 October 2026
+
+B separately read the v0.4 signalling/handshake branch and its main receiver. The 13 former context-signalling-multigate-v0.4 paths never entered main under that name. Their actual receiver is [first-channel-counterfactual-v0.4](./review-2026-10-11/traversals/first-channel-counterfactual-v0.4/README.md): 12 code/data blobs are exact, and all 16,266 README bytes survive after a 566-byte notice explaining parity by construction and the later v0.5 route. The recorded 182 traces and 63 graphs are earlier synthetic records, not another observed HF episode or new independent result.
+
+This resolves ancestry versus content reception without copying a second study or reactivating its code. The main negative evidence, strong-peer comparisons and campaign contracts retain their original status. 139 is already incorporated as a quotation-format repair, with its pending card retired. The [EP table](../../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#additional-branch-material-and-actual-reception) links the complete branch source and pinned receiver, alongside the other development material. No source or result changes in this follow-on note.
+
+
+## Corpus integrity recheck — 23 October 2026
+
+**Auditor: Codex.** This review's remaining live link to baseline's retired139 heading became unavailable during the latest card cleanup. The target's complete applied receipt survives at the verified18October edition.150 below pins this single href; no HF evidence, negative finding, study count or source changes. The [joint review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) separates this real audit-route defect from the four source-quotation checker reports.
+
+
+<a id="change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections"></a>
+
+## Applied review repair 150 — 25 October 2026
+
+Iván authorized these small corrections with the second document-control audit. Applied the exact published unit(s); the complete plan remains in the [pre-application edition](https://github.com/dakleyer/structural-awareness-contributions/blob/b9499c34e8690acdc9a1d1b6f274895a94c4c4b9/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections). This item is applied and is no longer a pending proposal. The retained anchor directs existing review links to this application receipt. All unrelated source bytes and scientific records remain unchanged.

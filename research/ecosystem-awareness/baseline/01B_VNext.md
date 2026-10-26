@@ -53,32 +53,6 @@ Juicio para 01B: proveedor de evidencias/credenciales y decisión receptora ya t
 
 El hallazgo de la referencia NIST en 01H se resuelve identificando en la auditoría los dos artículos del editor; no es motivo para fabricar un cambio a 01B. El siguiente trabajo sustantivo es ArticleIV/funciones y fuente urbana, conservando alcance real. Primera/tercera/cuarta textuales realizadas; segunda y quinta ampliada abiertas; sexta global pendiente.
 
-## Plan de cambios — candidato 72, pendiente de Iván
-
-**Ubicación:** último párrafo de §2 de 01B v0.2; viejo literal único verificado en el blob indicado. **Impacto esperado Medio; riesgo Medio; esfuerzo Medio; prioridad Siguiente; tanda 2 de coherencia EA/RA/MSCA.** El contexto ya preserva parte de la distinción; no se presume que este cambio sea necesario.
-
-**Beneficio:** Evitar que la explicación local de la notación reduzca el resultado funcional A a una aserción/scope, cuando la cabecera y el propio payload ya usan 00M vigente.
-**Riesgo:** El contexto ya conserva la semántica actual; sustituir una frase no debe parecer una taxonomía nueva, cambiar el payload o renombrar A(t) histórico de ArticleII.
-**Coste:** Cotejar la cabecera, tabla §4,00M §1 y receptores antes de decidir si la precisión mejora lectura; mantener versiones y no cambiar pruebas antiguas.
-**Orden/compatibilidad:** cotejar cabecera, tabla §4,00M §1 y 01D/Architecture; no alterar ArticleII ni tipos locales de pruebas. Decisión concreta pendiente; publicación de auditoría autorizada, incorporación no.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already the delivered functional result component of the canonical EA qualified position, interpreted for the declared producer, process, question, scope, capability and time. A claim or scope declaration can be part of that result, but does not define the whole A component.
-~~~~
-
-**Instrucciones de Iván:** preservar originales, unaVNext por unidad lógica, viejo completo, impacto/riesgo/esfuerzo y propuesta quirúrgica. Ningún cambio incorporado a la fuente por esta publicación; la decisión puede ser no modificarla.
-
-
----
-
 ## Relación material con funciones y taxonomía — 6 octubre 2026
 
 **Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
@@ -92,74 +66,33 @@ Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [
 
 <a id="ola2-cambio-07"></a>
 
-## Ola 2 — cambio 7: A significa resultado funcional, no sólo aserción o alcance
-
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 72; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
-
-**Fuente actual:** [research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md), blob `53c08ab1644d031ab0f7b53de5efa24ef5c8520f`. **Ubicación:** §2, párrafo de notación x frente a A.
-
-**Justificación:** La notación de 01B reduce A a assertion/scope. Precisarla conecta correctamente el componente con la definición compartida de 00M y con los distintos tipos de resultado.
-
-**Impacto esperado Medio; riesgo Medio; esfuerzo Medio; prioridad Siguiente.**
-
-**Riesgo concreto:** La definición local es reutilizada por consumidores. Precisar la explicación de x/A conservando tuplas, campos y resultados evita un cambio de contrato. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** 00M §1 y payload 01B; no cambiar x, tuplas, schema o contrato.
-
-### §2, párrafo de notación x frente a A
-
-Viejo verificado una vez fuera de citas de propuestas, línea 49 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already the delivered functional result component of the canonical EA qualified position, interpreted for the declared producer, process, question, scope, capability and time. A claim or scope declaration can be part of that result, but does not define the whole A component.
-~~~~
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
-
-**Conciliación con 00M:** §1 entrega el resultado A del proceso; la corrección de la notación x se cotejó con esa definición. La VNext de 00M registra la misma relación en esta entrega.
 
 
----
+## Propuestas aplicadas retiradas
 
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/01B_VNext.md).
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="plan-de-cambios--candidato-72-pendiente-de-iván"></a>
+<a id="ola-2--cambio-7-a-significa-resultado-funcional-no-sólo-aserción-o-alcance"></a>
+<a id="2-párrafo-de-notación-x-frente-a-a"></a>
+<a id="ola-2--redacción-directa-del-cambio-7"></a>
+<a id="2-párrafo-de-notación-x-frente-a-a-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-07"></a>
 
-## Ola 2 — redacción directa del cambio 7
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/01B_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 72; la anterior queda como antecedente.
-
-**Propósito:** La notación de 01B reduce A a assertion/scope. Precisarla conecta correctamente el componente con la definición compartida de 00M y con los distintos tipos de resultado.
-
-**Impacto Medio · Riesgo Medio · Esfuerzo Medio · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md), blob `53c08ab1644d031ab0f7b53de5efa24ef5c8520f`.
-
-### §2, párrafo de notación x frente a A
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The symbol **x** denotes a candidate control configuration. **A** denotes the functional result delivered by the declared producer and process for a specified question, scope, capability and time. A claim or scope declaration may be part of that result.
-~~~~
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio72 hecho y retirado de pendientes; se conserva el par completo.
+</details>
 
 
-## Aplicaciones confirmadas — 12 octubre 2026
+## Historical reception of the MSCA interface — 15 October 2026
 
-- **Aplicado:** Ola2 cambio7 / propuesta72.
+Reviewer A compared complete current01B with its retired source clauses. Partial states UNASSESSED, FAILED and UNRESOLVED remain explicit; the legitimate owner supplies the objective, and evaluated alternatives do not establish a global minimum. F2 retains Semantic Window ownership. ACC remains separately owned and needs a compatibility check before its normative extension is coupled.
 
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+Former pending architecture/ControlPositioning descriptions are now received through kernel, staticRole and dynamicOperation owners. Reinstating the pending wording would misstate current ownership. No interface field or old result needs restoration in the examined units.

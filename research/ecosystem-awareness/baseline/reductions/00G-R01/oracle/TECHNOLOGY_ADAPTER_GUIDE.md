@@ -98,3 +98,10 @@ A real technology adapter is not admitted until:
 - expected outcomes and analysis/stopping rule are frozen before execution.
 
 Use [REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) as the R01-side registration checklist; it does not replace Nelson's UC-4 experiment package.
+
+
+## Evidence attached to an admission record
+
+Resolve the registered source versions and hashes to the actual frozen artifacts before execution. Keep the schema-validator result, contributor-review evidence, isolation record, native mapping and comparator/resource contract with the registration. The campaign record identifies where each supporting artifact can be inspected.
+
+The current `validate_real_registration` checks required field presence and declared admission values. It does not fetch the artifacts named by their hashes or authenticate a contributor's review. Its synthetically complete admission control tests that checker path. Actual artifact resolution and the supporting review/isolation evidence remain part of preparing the real campaign under the contracts above.

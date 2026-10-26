@@ -72,9 +72,19 @@ Se leyó ArticleIV entero como procedencia:señales yhuellas pueden ser informat
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
 
 
+## Historical local-positioning reception — 15 October 2026
+
+Reviewer A read all233 current01H lines and its changed historical clauses. Optional asymmetric signalling, empty/sparse starts, UNASSESSED, W redirection and bounded pathway learning remain; no portable global trust score is introduced. ECM→Cart retains the material-change path to Composition/RA. Operation owns operational posture closure;01H supplies its EA/F6 evidence. No useful omission is established and no source restoration is proposed. [01J's reception](01J_VNext.md#historical-signalling-reception--15-october-2026) and [Operation's cross-check](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#completed-operation--00g-historical-receiver-check--15-october-2026) record the receiving relationships.
+
+
+
+## Recepción de la revisión anterior — 26 octubre 2026
+
+Por autorización de Iván para aplicar las correcciones de la auditoría de PR, se conserva íntegra la VNext actual de main y se recibe a continuación el examen del 12 de octubre en su alcance original. No sustituye las decisiones, incorporaciones o revisiones posteriores registradas arriba. Codex realiza esta conciliación; no se añade una revisión humana independiente ni una validación experimental.
+
 ## Revisión en cuatro puntos — R27 / 01H — 12 octubre 2026
 
-**Revisión de la nota completada; estudios y perfiles abiertos.** Se reutiliza esta VNext única y su lectura integral §§1–9. Fuente actual: blob32143e360857f73d38bd3fda888f7ecbe1a7e557. Las limitaciones materiales de las pasadas históricas permanecen explícitas.
+**Revisión de la nota completada; estudios y perfiles abiertos.** Se reutiliza esta VNext única y su lectura integral §§1–9. Fuente examinada en el corte histórico: blob32143e360857f73d38bd3fda888f7ecbe1a7e557. Las limitaciones materiales de las pasadas históricas permanecen explícitas.
 
 ### 1. Problemas reales del artículo
 No se encontró contradicción que obligue a cambiar el núcleo. La representación vacía ya es UNASSESSED, no suficiente; la adquisición no es autoridad; los costes de correlación, revelación, espera y atención están incluidos. La nota no obliga a un objetivo global o a cooperación universal. La imprecisión en el registro externo NIST de dos títulos/DOI no es prueba de que la referencia genérica de 01H sea un resultado falso. La observación 72 corresponde al consumidor01B, no a esta fuente.
@@ -82,10 +92,13 @@ No se encontró contradicción que obligue a cambiar el núcleo. La representaci
 ### 2. Desarrollo necesario
 Instanciar utilidad/coste bajo un Objective Envelope concreto, con derechos y tiempo explícitos; tratar objetivos incomparables sin scalarización universal. Ejemplo: obtener q mejora una predicción, pero la acción permitida sigue HOLD; valor epistemológico y operacional difieren. Probar costes de buscar, interpretar y revalidar, no sólo bytes de envío. Mantener linaje al devolver una afirmación por otra ruta. Restan evaluación empírica, perfiles concretos y fuentes/consumidores no cubiertos materialmente.
 
-**Condición matemática.** Si a*(x) es la disposición fijada por el owner, E suficiente para a* debe ser constante en cada fibra relevante para a*. Esa condición no elige el owner ni el presupuesto. Una observación que diferencia dos mundos cuyo a* es idéntico puede ser útil para otro objetivo, pero no demuestra mejora en éste.
+**Condición matemática.** Si a*(x) es la disposición fijada por el owner, para que E sea suficiente para a*, a* debe ser constante en cada fibra de E: E(x)=E(y) implica a*(x)=a*(y). Esa condición no elige el owner ni el presupuesto. Una observación que diferencia dos mundos cuyo a* es idéntico puede ser útil para otro objetivo, pero no demuestra mejora en éste.
 
 ### 3. Aportación posible a DDS
 Stage A: decisión local y adquisición opcional con presupuestos, autoridad y fuente. Stage B: verificar que la cartografía y los qualifiers se interpretan en el receptor; una vuelta de mensaje no suma independencia. Stage C: comparar coste neto y tiempo de respuesta con una política de valor de información competente y limitada por los mismos permisos. Nulo: la selección estándar ya logra igual utilidad; daño: los qualifiers consumen la ventana útil. No se introduce obligación de señalización global.
 
 ### 4. Sinergias internacionales actuales
 Dahal y coautores, Thinking Before Thinking, septiembre2026 (https://arxiv.org/abs/2609.38147v1): aporte externo en control del presupuesto y reuse; nuestro aporte potencial en decisión local con fuentes y derechos no fungibles. Contraste: misma tarea, memoria/presupuesto/worker igualados, coste de verificar qualifiers y decisiones permitidas. Nulo: no mejora frente al controlador competente. FORGE (https://arxiv.org/abs/2602.16708v3) sirve para convertir selección informativa en ejecución con permiso. Primer contraste: información útil pero acción no autorizada; nuestra oportunidad es mejorar adquisición legítima, no conferir mandato. T07 conserva por separado el antecedente Russell–Wefald. Sin contacto o colaboración aceptada.
+
+
+**Corrección autorizada — 26 octubre 2026.** Iván autorizó aplicar las correcciones de la auditoría de las PR. La condición anterior invertía las fibras. Un resumen constante puede perder la decisión aunque satisfaga la condición invertida; la identidad conserva la decisión aunque contenga información adicional. Se corrige la factorización, sin convertir suficiencia en minimalidad o beneficio. El predecesor completo permanece en el archivo de preservación de esta PR.

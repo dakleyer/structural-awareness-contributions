@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "baseline_commit": "863d66760b1aee3232b13434ad5b6ae15444c601",
+  "reviewer": "Codex same AI assistant; not independent human validation",
+  "checks": [
+    {
+      "check": "pilot",
+      "returncode": 0,
+      "output": "{\"manual_oracle_matches\": true, \"cases\": 18, \"primary_runs\": 36, \"negative_controls\": 2, \"trace_events\": 62, \"formal_dds_acceptance\": false}"
+    },
+    {
+      "check": "adapter_preview",
+      "returncode": 0,
+      "output": "{\"status\": \"DOCUMENTARY_PREPARATION_ONLY\", \"source_case_assessment\": \"NOT_RUN\", \"staging_events\": 18}"
+    },
+    {
+      "check": "analytical_recreation",
+      "returncode": 0,
+      "output": "{\"status\": \"NEW_ANALYTICAL_RECREATION_ONLY\", \"N20\": 126.00000000000001, \"R20\": 58.21188270458233, \"original_runs_authenticated\": false}"
+    },
+    {
+      "check": "pilot_tests",
+      "returncode": 0,
+      "output": "test_adapter_does_not_regrade_source_case (test_model.FrozenStudyTests.test_adapter_does_not_regrade_source_case) ... ok\ntest_all_manual_expectations_and_pairs (test_model.FrozenStudyTests.test_all_manual_expectations_and_pairs) ... ok\ntest_attempt_is_not_effect (test_model.FrozenStudyTests.test_attempt_is_not_effect) ... ok\ntest_bookkeeping_is_not_created_by_transfer (test_model.FrozenStudyTests.test_bookkeeping_is_not_created_by_transfer) ... ok\ntest_bounded_controls_retain_distinctions (test_model.FrozenStudyTests.test_bounded_controls_retain_distinctions) ... ok\ntest_cause_can_remain_unresolved (test_model.FrozenStudyTests.test_cause_can_remain_unresolved) ... ok\ntest_continuity_allows_legitimate_change (test_model.FrozenStudyTests.test_continuity_allows_legitimate_change) ... ok\ntest_cost_incurred_on_rejection_is_not_erased (test_model.FrozenStudyTests.test_cost_incurred_on_rejection_is_not_erased) ... ok\ntest_expiry_boundary_is_explicit (test_model.FrozenStudyTests.test_expiry_boundary_is_explicit) ... ok\ntest_freeze_detects_modified_fixture (test_model.FrozenStudyTests.test_freeze_detects_modified_fixture) ... ok\ntest_manual_oracle_detects_wrong_balance (test_model.FrozenStudyTests.test_manual_oracle_detects_wrong_balance) ... ok\ntest_material_change_and_legitimate_renewal (test_model.FrozenStudyTests.test_material_change_and_legitimate_renewal) ... ok\ntest_nonfinite_and_bad_vectors_are_not_accepted (test_model.FrozenStudyTests.test_nonfinite_and_bad_vectors_are_not_accepted) ... ok\ntest_other_payer_can_succeed (test_model.FrozenStudyTests.test_other_payer_can_succeed) ... ok\ntest_positive_sum_does_not_buy_rights (test_model.FrozenStudyTests.test_positive_sum_does_not_buy_rights) ... ok\ntest_same_observation_cannot_supply_hidden_truth (test_model.FrozenStudyTests.test_same_observation_cannot_supply_hidden_truth) ... ok\ntest_silence_is_not_consent (test_model.FrozenStudyTests.test_silence_is_not_consent) ... ok\ntest_success_is_not_repeated_on_replay (test_model.FrozenStudyTests.test_success_is_not_repeated_on_replay) ... ok\ntest_unknown_is_not_guessed (test_model.FrozenStudyTests.test_unknown_is_not_guessed) ... ok\ntest_valid_token_does_not_imply_current_basis (test_model.FrozenStudyTests.test_valid_token_does_not_imply_current_basis) ... ok\ntest_worse_service_is_not_equivalent (test_model.FrozenStudyTests.test_worse_service_is_not_equivalent) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.152s\n\nOK"
+    },
+    {
+      "check": "historical_route_tests",
+      "returncode": 0,
+      "output": "test_changed_receiver_invalidates_qualification (test_historical_source_routes.SourceQualificationTests.test_changed_receiver_invalidates_qualification) ... ok\ntest_exact_historical_receiver_is_checked (test_historical_source_routes.SourceQualificationTests.test_exact_historical_receiver_is_checked) ... ok\ntest_missing_manifest_does_not_silently_skip_quote (test_historical_source_routes.SourceQualificationTests.test_missing_manifest_does_not_silently_skip_quote) ... ok\ntest_missing_receiver_is_a_failure (test_historical_source_routes.SourceQualificationTests.test_missing_receiver_is_a_failure) ... ok\ntest_new_broken_link_is_not_hidden (test_historical_source_routes.SourceQualificationTests.test_new_broken_link_is_not_hidden) ... ok\ntest_occurrence_count_cannot_expand (test_historical_source_routes.SourceQualificationTests.test_occurrence_count_cannot_expand) ... ok\ntest_only_line_endings_are_normalized (test_historical_source_routes.SourceQualificationTests.test_only_line_endings_are_normalized) ... ok\ntest_registry_cannot_override_upstream_receiver (test_historical_source_routes.SourceQualificationTests.test_registry_cannot_override_upstream_receiver) ... ok\ntest_repaired_live_link_needs_no_historical_exception (test_historical_source_routes.SourceQualificationTests.test_repaired_live_link_needs_no_historical_exception) ... ok\ntest_repository_escape_is_rejected (test_historical_source_routes.SourceQualificationTests.test_repository_escape_is_rejected) ... ok\ntest_requalified_hash_cannot_override_changed_quote_context (test_historical_source_routes.SourceQualificationTests.test_requalified_hash_cannot_override_changed_quote_context) ... ok\ntest_source_change_invalidates_qualification (test_historical_source_routes.SourceQualificationTests.test_source_change_invalidates_qualification) ... ok\ntest_upstream_context_and_registry_agree (test_historical_source_routes.SourceQualificationTests.test_upstream_context_and_registry_agree) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.475s\n\nOK"
+    },
+    {
+      "check": "navigation_literals",
+      "returncode": 0,
+      "output": "8 regression checks PASS; actual broken routes remain checked."
+    },
+    {
+      "check": "source_preservation",
+      "returncode": 0,
+      "output": "{\"source_documents\": 4, \"source_paragraphs\": 1441, \"main_source_paragraphs\": 1045, \"main_blocks\": 29, \"new_action_passages\": 13, \"ormuz_preexisting\": true, \"private_locator_redacted_paragraphs\": 20, \"proposed_contrasts\": 22, \"model_runs_verified_by_this_preservation_check\": false}"
+    },
+    {
+      "check": "global_document_integrity",
+      "returncode": 0,
+      "output": "DOCUMENT INTEGRITY: PASS (10724 local routes, 4 qualified historical source citations, 8 architecture sections, 2 canonical decks)"
+    }
+  ],
+  "artifact_navigation": {
+    "markdown_local_targets": 670,
+    "markdown_fragments": 326,
+    "concept_record_routes": 45,
+    "failures": []
+  },
+  "source_preservation": {
+    "four_books_and_1441_unit_inventory_byte_identical": true,
+    "protected_files_match_explicit_baselines": {
+      "research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md": "59e0e7fcb40e99c5da735e6acbb2e5bfb5547924",
+      "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md": "67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2",
+      "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md": "59e0e7fcb40e99c5da735e6acbb2e5bfb5547924",
+      "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md": "59e0e7fcb40e99c5da735e6acbb2e5bfb5547924"
+    },
+    "owner_reviews_append_only": [
+      "research/ecosystem-awareness/baseline/01I_VNext.md",
+      "research/ecosystem-awareness/README_VNext.md"
+    ],
+    "concurrent_main_imported_without_rewriting": "67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2",
+    "imported_files_checked": [
+      ".github/workflows/document-integrity.yml",
+      "DOCUMENT_CONTROL.md",
+      "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md",
+      "governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md",
+      "governance/review/change-priorities-2026-10-06/priorities.csv",
+      "governance/review/change-priorities-2026-10-06/priorities.json",
+      "research/ecosystem-awareness/baseline/01A_A01_VNext.md",
+      "research/ecosystem-awareness/baseline/02A_VNext.md",
+      "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+      "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md",
+      "scripts/check_document_integrity.py"
+    ]
+  },
+  "concept_map": {
+    "concepts": 40,
+    "unique_source_units": {
+      "S1": 59,
+      "S2": 6,
+      "S3": 32,
+      "S4": 14
+    },
+    "exhaustive_prompt_compliance": false
+  },
+  "evidence_limits": {
+    "formal_dds_acceptance": false,
+    "native_uc21_r01_executed": false,
+    "original_synthetic_runs_authenticated": false,
+    "full_original_prompt_history_available": false
+  },
+  "frozen_study_inputs": {
+    "protocol.json": "2f411835ab816a0c3a6ad7861b2d391e9b43431c55d9f18577746ba0893fbb32",
+    "cases.json": "923b6b671c5f53900e191810c3c68f35a94afdd098578749d68a791c7d51f362",
+    "manual_oracle.json": "1d17e35f5864c010146213b09ee32c80134425adcccfd26501569852a421626b",
+    "MANUAL_TRAVERSAL.md": "9dfdccdaa92034406c9551723cfe882f71f7361d5c17ac476f8b957c0748401a"
+  },
+  "prompt_clarifications": {
+    "baseline": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+    "received_annotations": [
+      1,
+      2,
+      3
+    ],
+    "scope": "Documentary reception; unchanged frozen economic pilot and no new empirical result",
+    "byte_identical_books_inventory_and_all_study_files": 98,
+    "authentic_predecessor_files": 9,
+    "concepts": 40,
+    "future_activation_cases_not_yet_run": true,
+    "local_checks": [
+      "source preservation PASS",
+      "global document integrity PASS",
+      "all artifact Markdown and concept-record paths/fragments PASS"
+    ]
+  }
+}

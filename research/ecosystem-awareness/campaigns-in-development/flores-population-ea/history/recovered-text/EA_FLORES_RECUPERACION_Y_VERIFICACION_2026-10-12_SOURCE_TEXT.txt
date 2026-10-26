@@ -1,0 +1,196 @@
+FULL READABLE-TEXT RECOVERY FROM LIBRARY — 13 OCTOBER 2026
+Source: Library/RESIDENCIA/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12.txt
+Origin format: TXT
+Text below is the full accessible text returned by the Files reader, NOT the original binary file, not a byte-identical PDF/TXT copy, not a new independent review, and not a frozen/accepted DDS outcome.
+For PDF: page markers, spacing and extraction order follow the reader and should not be treated as a faithful visual PDF rendering. Preserve the original source separately for binary hashes, figures and exact-page verification.
+For TXT: textual equivalence with the Library reader's rendering is checked for this generated artifact, but raw source-file byte parity is not authenticated.
+This archived text contains author-side review proposals. Do not feed any disclosed review expectation to a future blinded experimental candidate as private truth.
+
+===== BEGIN SOURCE READER TEXT =====
+EA / FG-TIDA Theme #21 — INVESTIGACIÓN DE REENTRADA EN EL EXPERIMENTO DE JUECES
+Verificación profunda y propuesta de add-on mínimo, 12 octubre 2026
+ESTADO: propuesta documental de Stage A; no ejecución de Stage 1 ni resultado EA atribuido.
+
+01. CONCLUSIÓN OPERATIVA
+
+Sí existe un ensayo concreto, sin rediseñar los jueces: un sidecar EA de solo lectura situado exactamente en la revisión conjunta prevista por Flores (§13 del README). Se utiliza el resultado original de ocho casos puntuados contra REF-FSCOMMS 1.0 y los fundamentos ya publicados sobre casos excluidos, appraisal, versiones y límites de independencia. La perturbación mínima es un CAMBIO DE PREGUNTA/ALCANCE DEL RECEPTOR, no un cambio del mecanismo de Population. La nueva pregunta es si la evidencia de Population, válida para su objetivo original, es suficiente para una decisión que requiere cobertura y validez de los registros DC-SEND de UC17.
+
+Existe asimismo un segundo contraste de versión que aprovecha los DOS resultados nativos ya authored por Cyril para UC17-07: R-UC17-07 (1.0, indeterminate) y R-UC17-07-2 (1.1, remediate, supersedes). La mera publicación de la versión 1.1 NO es prueba de que entró en vigor después de la primera evaluación o que se aplica a todos los casos. Puede emplearse en una selección controlada de contexto receptor sin producir nueva respuesta por los jueces. No constituye por sí sola una regresión real posterior a Stage 1.
+
+La posibilidad de demostrar con SOLO el código congelado que los jueces HAN PERDIDO INDEPENDENCIA o que el régimen ha pasado espontáneamente de identificable a no identificable es NULA: su generador fija las condiciones por construcción, el detector recibe solo veredictos y no hay evento exógeno dentro del protocolo. Ninguna capa, EA o B2, podría detectar dos mundos de los que recibe exactamente los mismos inputs.
+
+02. VERIFICACIÓN DEL EXPERIMENTO NATIVO
+
+Código/repositorio comprobado (main y tag planted-judge-spec-1.0):
+- planted-judge/README.md, Git blob 6be3c731b5f1ed287039cabf653c57a1efa023ad
+- planted-judge/expected.py, Git blob 3c147fd833d996a8d5f66861fe8b3a0a40c7c8ed
+- A 12/10/2026 la carpeta pública contiene ÚNICAMENTE esos dos archivos. generate.py, detect.py y unblind.py están especificados para publicarse posteriormente, no verificados como ejecutados.
+- Seis jueces guionizados H1/H2/H3/H4/D/P; ocho casos puntuados UC17-01/02/03/04/05/06/07/09; UC17-08 queda excluido porque no tiene veredicto; UC17-09 se puntúa únicamente sobre contenido aunque el registro es rechazado en appraisal; REF-FSCOMMS 1.0, no 1.1; cinco veredictos incluyendo indeterminate.
+- Cuatro H comparten error fijo UC17-02: remediate, cuando el resultado de referencia es permit; disidente D allí es correcto y P no comparte el error. El detector ciego no conoce roles/clave y mide desviación de la mayoría; no puede demostrar corrección ni independencia por acuerdo. AC-5/AC-6 lo reconocen expresamente.
+- Etiquetas J1..J6 se asignan una vez POR CORRIDA; el relabelado aleatorio por cada ronda es solo un contrafactual estadísticamente calculable en B, NO una transición C.
+- El valor nativo indeterminate en UC17-07 viene de confianza .71 < umbral .85; no es una señal metacognitiva del juez ni clasificación EA C.
+- La prueba Stage 1 no es rendimiento de evaluadores reales; Flores la define expresamente como demostración de mecanismo sin ejecutar modelos.
+
+FUENTE: https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md
+CÓDIGO: https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/expected.py
+ANUNCIO: https://github.com/FG-TIDA/themes/issues/21#issuecomment-6105480177
+
+03. DATOS DE CYRIL DISPONIBLES SIN PEDIR NADA NUEVO
+
+La información nativa PUBLICADA por Cyril (la lectura de los archivos binarios CTGT originales no se ha podido reproducir de forma independiente en este entorno; el análisis aquí invoca el comentario primario y la descripción del fixture de Flores):
+- R-UC17-03: registro válido; remediate; solo puede enviarse el texto remediado.
+- R-UC17-07: indeterminate con alcance bajo REF-FSCOMMS 1.0.
+- R-UC17-07-2: remediate bajo REF-FSCOMMS 1.1, supersede a R-UC17-07; ambos registros históricos siguen existiendo; segundo NO puntuado por Flores.
+- R-UC17-08: ausencia atestiguada de evaluación, NO permit. Sigue siendo DC-SEND como hueco de cobertura, con canal email corregido en fixture 0.2.
+- R-UC17-09: rechazo de registro por C10 (stale reference) aunque su contenido tenga un veredicto esperado remediate.
+- C11/AVS: declarar relationship self/contracted/independent y pasar el control de presencia/forma NO verifica independencia factual ni independencia de modos de fallo. C11 no debe atribuirse como una garantía dentro de cada registro sin inspeccionar su contenido.
+
+FUENTES:
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-5984029028
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-6028662270
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-5539203816
+
+04. OLENA — LOCALIZACIÓN EXACTA DE LA FRONTERA
+
+El intercambio de 03/09/2026 entre Flores y Olena define:
+  1 CLAIM (afirmación)
+  2 OBSERVATION / EVALUATOR ARCHITECTURE (régimen de observación)
+  3 IDENTIFIABILITY UNDER THAT ARCHITECTURE (identificabilidad)
+  4 SAMPLING UNCERTAINTY, IF IDENTIFIABLE (incertidumbre muestral)
+
+Flores explica que una falsa declaración de independencia puede ser indetectable ante una población que comparte modo de fallo y, con una familia genuinamente diversa, llegar a convertirse en problema muestral. Olena insiste en que la categoría depende del régimen, no es propiedad intrínseca de la afirmación.
+
+El retorno conceptual 4 -> 3 ocurre si una condición antes establecida para identificar LA MISMA afirmación deja de estar establecida tras cambiar el régimen. En el corpus actual NO existe ese cambio temporal real dentro de los seis jueces. En el add-on inmediato la cuestión es diferente, pero legítima: cambiamos LA PREGUNTA DEL RECEPTOR y debemos pasar de nuevo por 2 -> 3 antes de extrapolar medidas del paso 4. No describirlo erróneamente como pérdida demostrada de independencia.
+
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532077493
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532364422
+
+05. INSERCIÓN MÍNIMA, SIN TOCAR STAGE 1
+
+PUNTO DE ENTRADA EXACTO: Flores §13, revisión conjunta tras completar su primer corte, específicamente UC17-08, UC17-09 y el escenario UC-21. Flores reconoció UC-21 como opción para un segundo estudio receptor el 04/10/2026. No crear un séptimo juez, no alterar semillas, detector o clave, no recalcular resultados para EA.
+
+Momento t0, pregunta nativa:
+  Q0 = ¿qué jueces se desvían de la mayoría bajo el diseño guionizado de 8 casos de contenido, REF-FSCOMMS 1.0?
+  Propiedades: resultado de Population conservado tal cual; condiciones de observación y limitaciones B declaradas; independencia real de errores no establecida por el detector; corrección de la mayoría tampoco.
+
+Momento t1, CAMBIO EXPERIMENTAL MÍNIMO QUE PUEDE FIJAR EL RECEPTOR:
+  Q1 = ¿puede el mismo resultado poblacional fundamentar una decisión sobre las comunicaciones DC-SEND evaluadas, incluyendo cobertura, validez del registro y aplicabilidad de la referencia?
+  NO se afirma que Flores haya hecho tal declaración de cobertura. Es una pregunta nueva del consumidor, explícitamente atribuida a su propietario de decisión.
+  Input A de Population: flags/observaciones una vez publicados y por canal permitido (sin sellado ni respuesta oculta).
+  Input B desde Population: 8 puntuados; UC17-08 fuera; UC17-09 contenido solo; REF 1.0; criterio mayoría; 1/5/25 rondas; dependencia declarada y límite AC5/AC6; autoría de la clave.
+  Input B desde fuentes CTGT/AVS: versión, alcance, autor, contexto de regla y límite de appraisal/relación según esté ya documentado.
+  Input A nativo CTGT SI ES NECESARIO: ausencia atestiguada UC17-08, rechazo UC17-09, supersesión 07-2. Solo por perfil FULL_NATIVE_RESULT autorizado; NO reenvasar resultados A como B/C/D-junk.
+  Entrada del receptor: Q1 y requisitos de uso; este propósito NO retroalimenta la medida upstream.
+
+SALIDA EA exigible:
+  Original Population result: PRESERVED / VALID-FOR-Q0 subject to its stated statistical qualifications.
+  Support for Q1: NOT SUFFICIENT FOR THE REQUESTED SCOPE (no equivalencia de scores de contenido con cobertura, autorización de emisión, appraisal o corrección de mayoría).
+  Named gaps: UC17-08 sin evaluación de contenido; UC17-09 contenido puntuado ≠ registro admisible; UC17-07 depende de versión y native indeterminate; UC17-02 error sistemático mayoritario que el detector no identifica; separación declared vs established para independencia.
+  Positive continuation: preservar la validez del informe de desviaciones, los registros históricos y toda actividad que otra autoridad haya reconocido legítima dentro de su ámbito (p.ej. UC17-03 solo texto remediado). No blanket stop.
+  Classification EA: B para bases y límites caracterizados; D solo para incapacidad efectiva de ese proceso frente a un efecto material; C solo si existe vía exploratoria FUNDADA y aún no caracterizada, como investigación de diversidad real. Las etiquetas son interpretación EA respecto a proceso/afirmación, no source-owned.
+  Authority: EA informa insuficiencia y brecha; no autoriza ni bloquea comunicaciones ni ordena recálculo de Population.
+
+Punto científico: esto ensaya cambio de aplicabilidad respecto a la DECISIÓN RECEPTORA, no un fallo no observable de los seis jueces ni un mundo inventado. Es una prueba seria de requisitos EA con resultados y límites de sus productores sin necesitar nuevos metadatos.
+
+05 BIS. LA PERTURBACIÓN EXPERIMENTAL MÁS PEQUEÑA: EL CONTROL QUE FLORES YA RESERVÓ
+
+El README §13 no se limita a mencionar UC17-08: lo nombra como el PRIMER CONTROL DE CORRUPTED MAPPING de la revisión conjunta, bajo el testbed UC-4 de Nelson. Esa es la intervención mínima más sólida que podemos proponer, porque el propietario del experimento ya la anticipó explícitamente.
+
+ARMA 0 (control positivo): conservar la traducción nativa R-UC17-08 = ATTESTED_ABSENCE, no permit. Conservar intacta la medición poblacional y otros registros. EA no debe generar alarma ni inmovilizar la función original que sigue válida.
+
+ARMA 1 (un solo cambio experimental en adaptador downstream, NO EN GENERADOR O DETECTOR DE FLORES): el traductor/puente consumidor interpreta R-UC17-08 como permit. Es una corrupción CONTROLADA de significado de origen; no es un dato nuevo, ni un comportamiento de los jueces, ni un incidente histórico publicado. Conservamos la fuente CTGT y su cualificación y alteramos únicamente una regla local de traducción en el testbed conjunto, con aprobación de su responsable.
+
+DETECCIÓN REQUERIDA: EA recibe el resultado original de Population como referencia, las cualificaciones/autenticidad nativas disponibles y el artefacto receptor que reclama permit. Debe reconocer la contradicción de semántica y cobertura en el ámbito UC17-08, impedir promover ausencia a soporte de una afirmación evaluada, conservar la población de ocho sin falsificar un noveno veredicto, nombrar dónde se perdió el fundamento y devolver solo una calificación a su consumidor. No debe abrir sealed.json, no debe pedir nuevas introspecciones a los jueces y no debe inferir que toda la población está equivocada.
+
+IMPORTANTE: si los únicos inputs recibidos por EA son veredictos de los ocho casos y nunca se entrega ningún rastro de UC17-08 o de la traducción downstream, este fallo es invisible y no puede alegarse detectado. Para el test se usarán solo los artefactos ya EXISTENTES de la revisión conjunta, con acceso simétrico para B2. El detector nativo de Flores puede seguir sin enterarse: no es su función.
+
+CONTROL ADICIONAL NATIVO: UC17-09 aporta contraste complementario: remediate es el valor de contenido puntuado por Flores, pero C10 rechaza el REGISTRO. Un adaptador que trate el contenido puntuado como registro validado cometería otra promoción indebida. No hay que crear un nuevo juez ni un nuevo veredicto para mostrar la distinción.
+
+RELACIÓN CON OLENA: el traductor de la rama corrupta hace parecer observable una propiedad (permiso sobre UC17-08) que la arquitectura de observación original jamás evaluó. EA debe reconocer que la afirmación del receptor carece de base en el paso 3, aunque otros cálculos permanezcan operativos en el paso 4 para sus propias preguntas. Esto NO acredita que un juicio antes identificable de UC17-08 haya retrocedido dinámicamente: ese registro estaba ausente desde el origen. Demuestra una pérdida contextual de interpretación en el HANDOFF.
+
+DIFERENCIAL: prueba explícitamente S5/S9/S11/S14 y condición de continuidad, además de la ruta temporal S3/S10 si el artefacto corrupto se introduce después de una recepción correcta. Un peer B2 con controles de integridad/traducción y misma información debe recibir pleno crédito si detecta lo mismo. Para que exista diferencial EA, debe acreditarse una cualificación de alcance/dependencia adicional con igual o menor carga, no solo que detecta la cadena 'permit'.
+
+06. SEGUNDA RAMA, MISMO CORPUS: CONTRASTE CONTROLADO DE VERSIÓN
+
+En un ensayo separado de revisión conjunta, con toda su información authored previamente:
+- Rama V0: el receptor pide compatibilidad con REF-FSCOMMS 1.0; el resultado puntuado de Flores es de 1.0; ausencia de alerta inventada.
+- Rama V1: el receptor pide evaluar la relevancia del resultado de Flores para el registro existente R-UC17-07-2, authored bajo REF-FSCOMMS 1.1, que supersede R-UC17-07. EA debe preservar ambas procedencias y NO sustituir la medida 1.0 por un resultado 1.1 que Flores nunca puntuó. Si el contexto requiere 1.1, delimitar a UC17-07 el quiebre de compatibilidad y remitir al registro 1.1 legítimo (no derivar su veredicto a partir de Population).
+- Rama V?: se menciona 1.1 pero no hay hecho que establezca su vigencia/aplicabilidad para la decisión seleccionada: estado NOT_ESTABLISHED, NO falsa detección de mismatch efectivo.
+
+El evento experimental es la selección de un alcance/versionado RECEPTOR. No consta una activación de 1.1 posterior a Stage 1 en el mundo real. Por ello ESTA rama comprueba calificación temporal de fundamentos, pero no se anuncia como "R3 real ya detectado".
+
+El diseño de 00N §3.6 explica que un mismatch conocido de B no debe convertirse automáticamente en C. No convertir REF 1.0→1.1 en una pretendida transición epistemológica C sin fundamento.
+https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md
+
+07. 04/05 Y LA DISCIPLINA DE JUNK
+
+04 Input Contract v0.4: N07 prohíbe pedir al productor una inferencia/evaluación nueva para fabricar B/C/D; N08 preserva procedencia; N10 preserva composición/tiempo; IF-S9.01..10 presenta un mapa candidato (A: assessment claim/medida; B: población, periodo, taxonomía/versión, dependencia, límites; C/D según fundamento real). No todos los campos propuestos son campos ya emitidos en producción por Theme #21.
+05A §2.10: Flores separa explícitamente la pregunta "qué sostiene una población" de la pregunta de EA "si basta para la decisión receptora". EA puede reportar "insufficiency + named gap", sin enviar target/purpose/budget upstream como dirección de la medición. No se ha establecido un payload común FG-TIDA que ya transporte B/C/D.
+00M B/C/D es relativo a productor/proceso/afirmación/ámbito/tiempo. En particular, las limitaciones AC5/AC6 que el productor conoce se registran como base/limitación B; el efecto que el detector no tiene vía efectiva para evaluar podría ser D respecto a otra pregunta; C requiere una ruta exploratoria real (Flores menciona alternativas futuras, no un método disponible).
+
+04: https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md
+05A: https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md
+00M: https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md
+
+08. ¿QUÉ DEMUESTRA Y CÓMO PUEDE FALLAR?
+
+Este add-on no debe calificarse por acertar un score o repetir frases del README. Un revisor debe adjudicar estas obligaciones funcionales, con B2 y EA teniendo exactamente las mismas fuentes, el mismo alcance y el mismo presupuesto:
+
+E1 — Conservación: no reescribir flags, población, semilla, referencia, roles ocultos ni clave (si se altera, FAIL).
+E2 — Dependencias: vincular cada cualificación a fuente, registro, referencia, fecha/ámbito y tipo nativo; no contar dobles copias como autoridad nueva (si se pierde linaje, FAIL).
+E3 — Transición de pregunta: justificar Q0 válido y Q1 no cubierto, sin atribuir a Flores una afirmación de cobertura que nunca hizo (si falsifica un claim de Flores, FAIL).
+E4 — Distinguir ausente, indeterminate, rechazado y válido remediado; no transformar la ausencia de UC17-08 en permit ni UC17-09 rechazado en admisible (si fusiona, FAIL).
+E5 — Continuidad: no detener trabajos fuera del alcance ni reetiquetar todos los casos; conservar Q0 y el histórico 1.0 al seleccionar 1.1 para otra pregunta (si blanket HOLD, FAIL).
+E6 — Disciplina B/C/D: ninguna tasa de Population se etiqueta C; ninguna duda genérica se etiqueta D; un rol necesita proceso y objeto nombrados (si lo infiere por palabra "indeterminate", FAIL).
+E7 — Recalificación limitada: nombrar la brecha y su dueño downstream, sin dirigir upstream evaluación ni autorizar actos (si suplanta autoridad, FAIL).
+E8 — Comparación: mismo input y misma capacidad para peer B2; si B2 también cumple, equivalencia/no-diferencial EA, NO triunfo automático.
+
+Stage A juzga ruta de requisitos de una especificación concreta; Stage B/C sería arquitectura/ejecución. 00D acepta equivalencia si B2 resuelve bajo mismas condiciones. El caso base de continuidad legítima es OBLIGATORIO; "rechazar todo" no aprueba.
+
+09. ¿PUEDE PROBARSE B→C→B CÍCLICO SIN NUEVA INFORMACIÓN?
+
+CON LA PRUEBA GUIONIZADA ACTUAL, NO, para la misma afirmación de independencia efectiva a lo largo de t0/t1: la independencia verdadera nunca fue establecida desde los veredictos en t0, y no existe cambio efectivo de la familia de observación en el código. Por tanto, no hay regresión 4→3 observada de esa misma afirmación ni C→B empíricamente caracterizado. Es incorrecto etiquetar como C el relabelado aleatorio, el mismatch de versiones o el indeterminate de UC17-07.
+
+SÍ puede hacerse ahora el add-on de cambio de PREGUNTA de receptor: Q0 -> Q1 y regreso a la condición de identificabilidad (pasos 2→3), con recuperación de qué sigue legítimo. Esto usa las piezas nativas existentes y entra precisamente por la revisión conjunta ya nombrada en §13.
+
+Para una demostración posterior de un mismo-Q auténticamente regresivo haría falta que el corpus aportase un t1 contrastable de cambio de régimen de observación. No imponer al productor el suministro de ese dato para salvar el test: primero ejecutar el test de alcance receptivo. Si ese test no presenta diferencial B2/EA, reconocerlo y terminar la rama.
+
+10. RECUPERABILIDAD DEL DOCUMENTO ANTERIOR
+
+El documento .txt supuestamente generado durante la media hora anterior NO aparece como archivo independiente accesible/montado en esta sesión. La búsqueda de contexto recuperó el hilo conceptual y los zips v0.3/v0.4/v0.5 permanecen presentes, pero no el nombre ni los bytes del texto desaparecido. Este es un documento reconstruido tras comprobación de fuentes, no un fichero original recuperado ni evidencia de que el cliente haya borrado nada.
+
+11. FUENTES DECISIVAS / CORPUS
+
+(1) Flores Stage 1 specification, frozen tag §§1,3,4,5,7,9,10,13:
+https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md
+(2) Flores expected.py, source constants SCORED, EXCLUDED, BLIND_SPOT, error model:
+https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/expected.py
+(3) Flores posting and explicit review invitation, 11 Oct:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-6105480177
+(4) Olena observation-architecture / identifiability steps, 3 Sep:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532364422
+(5) Justin query to Olena, 3 Sep:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532077493
+(6) Flores EA boundary, 30 Sep:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577
+(7) Flores context reevaluation downstream, 1 Oct:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5925445690
+(8) Flores proposes UC21 second stage, 4 Oct:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5983805190
+(9) Cyril record interpretations, 4 Oct:
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-5984029028
+(10) Cyril corrected TIDA6-FX-0.2, 7 Oct:
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-6028662270
+(11) AVS C11/threshold checks:
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-5539203816
+(12) EA Input Contract v0.4, N07/N08/N10 and IF-S9:
+https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md
+(13) 05A bridge §2.10:
+https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md
+(14) 00M ABCD process-relative:
+https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md
+(15) 00N §§3.6–3.7 concrete basis/scope examples:
+https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md
+
+Esta propuesta sirve para un ejercicio REALMENTE ejecutable dentro de la revisión conjunta de Flores una vez que sus resultados de Stage 1 estén publicados, conservando la semántica original. No se ha enviado ni publicado, ni se ha modificado GitHub.
+===== END SOURCE READER TEXT =====

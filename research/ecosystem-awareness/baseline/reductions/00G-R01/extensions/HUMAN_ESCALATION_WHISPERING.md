@@ -30,6 +30,9 @@ Whispering here means notifying the rest of the group when an agent identifies a
 
 DDS correspondence. This mechanism profile supplies analytical technical evidence for a Deployment Differential Study. Preserve R01 Cost–Risk–Effectiveness and the original q/h/p laws; a declared deployment adds a separate Business Value–Risk–Cost interpretation. The first [canonical HEW DDS research record](./HEW_DDS_STUDY_2026-10-06.md) now includes human-readable scenario selection, scope, freeze, exact reconstructions and a bounded SQLite model integration. These are neither measured human effectiveness nor a completed commissioned DDS.
 
+**Edition route.** Read this `extensions/` profile for current Stage A terminology and the linked study reports. The [retained feasibility edition](../feasibility/HUMAN_ESCALATION_WHISPERING.md) remains available with its earlier framing. H0–H4, the virtual R1/R2/R3 derivations and their evidence are shared; a study cites the particular edition and freeze it consumes.
+
+
 <a id="why-it-can-help"></a>
 ## 0. Why this technology can help before its traversal
 

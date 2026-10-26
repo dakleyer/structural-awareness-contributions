@@ -106,7 +106,7 @@ Before an EP arm can support a comparative claim, verify that it actually instan
 - signalling treated as qualified input, not command;
 - no hidden global-state or super-controller assumption unless the arm is explicitly the OR reference.
 
-A non-conforming EP implementation produces **Insufficient evidence**, not an EP win/loss.
+A configuration that fails preregistered Q0 admission before comparative execution produces **Insufficient evidence** for the claimed EP comparison. Admission criteria, exclusion rules and the adjudication owner must be fixed before outcomes are inspected. A failure or conformance deviation observed after an admitted run begins remains reported with its trace and cause; it must not be discarded or retrospectively relabelled merely to remove an adverse result. Its implication for the hypothesis is adjudicated under the frozen protocol.
 
 ### Q1 — requirement coverage
 
@@ -465,41 +465,9 @@ El diseño separa Q0 conformance, Q1 requirement coverage, Q2 module contributio
 
 ## Propuestas quirúrgicas — BENCH-R1, pendientes
 
-### BENCH-R1-DELTA-001 — distinguir tablaW1 presente de gates restantes
-
-**Objeto:** este borrador§12. **Hallazgo:** F001. **Instrucción:** autoriza preparación/publicación de auditoría, no adopción del benchmark.
-
-**TEXTO ANTES**
-
-```markdown
-- that this draft has passed the Requirements-vNext or bibliographic gate.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-- that this draft has passed all adoption gates: the W1 traceability table is recorded in §9, while prior-art bibliography, comparator capability/configuration, frozen ablation/complexity protocols and fixture admission remain to be completed; recorded mapping does not establish empirical conformance or comparative support.
-```
-
-**Efecto:** estado de proceso más preciso. **Dependencias:** §4/§9/§13/WORKPLAN deberán revisarse juntos antes de incorporar. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
 ### BENCH-R1-DELTA-002 — Q0 antes del resultado y conservación de fallos
 
-**Objeto:** este borrador§2/Q0, frase única. **Hallazgo:** F002. **Tipo:** precisión material del protocolo de admisión/adjudicación; revisión necesaria antes de freeze.
-
-**TEXTO ANTES**
-
-```markdown
-A non-conforming EP implementation produces **Insufficient evidence**, not an EP win/loss.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-A configuration that fails preregistered Q0 admission before comparative execution produces **Insufficient evidence** for the claimed EP comparison. Admission criteria, exclusion rules and the adjudication owner must be fixed before outcomes are inspected. A failure or conformance deviation observed after an admitted run begins remains reported with its trace and cause; it must not be discarded or retrospectively relabelled merely to remove an adverse result. Its implication for the hypothesis is adjudicated under the frozen protocol.
-```
-
-**Razón:** impedir outcome-dependent exclusion sin convertir configuracionesincorrectas en evidencia limpia. **Dependencias:** preregistration/admission/oracle, positivecontrols y comparator defenders. **Gate:** probar protocolo con runválidofallido, configinválidapre-run, datasetmissing, timeout y fallo del comparator; registrar censura y branchdenominator. **Decisión:** pendiente. **Incorporación:** no ejecutada.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio41 incorporado en `research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cobertura restante
 
@@ -540,22 +508,7 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 40 · Tabla W1 presente distinta de todos los gates cerrados | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Bajo | Pendiente de decisión |
 | 41 · Fijar admisión antes de ver resultados y conservar fallos | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
-
-### Cambio 40 — Tabla W1 presente distinta de todos los gates cerrados
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Primera.** Que una entrega de mapping no parezca adopción/validación de benchmark v0.3.
-
-**Qué podría quedar desactualizado o afectado:** Corregir solo §12 deja estados desfasados en §§4/9/13/WORKPLAN; gates pendientes no se cumplen al redactarlos.
-
-**Qué cuesta prepararlo:** Una precisión y revisar estado documental en cuatro lugares.
-
-**Dependencias conocidas:** [00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) · [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [WORKPLAN.md](../WORKPLAN.md) · [pre_registration_v0.5.md](fixtures/RS-00E-Q1a/pre_registration_v0.5.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. No promover v0.3 ni cerrar bibliografía/comparadores/fixtures; completar pares de los otros estados si requieren edición.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#bench-r1-delta-001--distinguir-tablaw1-presente-de-gates-restantes); el viejo tiene una coincidencia en [la fuente actual](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `34720bc29438b51b733dcb233102869c52abf695`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Cambio 41 — Fijar admisión antes de ver resultados y conservar fallos
 
@@ -582,16 +535,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 40 | Plan parcial; Pendiente de decisión | Alto | Medio | Bajo | Primera |
 | 41 | Cambio de protocolo; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
-
-**Cambio 40 — Plan parcial.** W1 tiene una tabla, pero el borrador conserva estados atrasados en otros apartados. La frase propuesta corrige sólo uno.
-
-**Beneficio esperado:** Que una entrega de mapping no parezca adopción/validación de benchmark v0.3. **Riesgo concreto:** Corregir solo §12 deja estados desfasados en § §4/9/13/WORKPLAN; gates pendientes no se cumplen al redactarlos. **Coste de preparar y mantener:** Una precisión y revisar estado documental en cuatro lugares.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Concretar§ §4/9/13 y WORKPLAN afectados; separar entrega de tabla, revisión de requisitos, promoción, bibliografía y ejecución. No promoverv0.3. Revisar junto con 41. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 41 — Cambio de protocolo; no listo.** Excluir retrospectivamente fallos de una configuración admitida protegería la hipótesis del falsador. El protocolo debe distinguir admisión y fallo observado.
 
@@ -608,166 +552,43 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 <a id="ola2-cambio-05"></a>
 
-## Ola 2 — cambio 5: Benchmark: conciliar W1 ya registrado y adopción pendiente
-
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 40; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
-
-**Fuente actual:** [research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `dff38db9c12b261fc298a3b3d35ec3b3cbdabec4`. **Ubicación:** §§4,9,12,13: cuatro pasajes coordinados.
-
-**Justificación:** §9 ya contiene el mapping, mientras §§4/9 siguen tratándolo como futuro. Cuatro precisiones coordinadas eliminan esa inconsistencia sin cerrar los demás gates.
-
-**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
-
-**Riesgo concreto:** Modificar sólo una frase deja contradicciones de estado. Los cuatro pares forman un solo paquete; W1 registrado no equivale a gate revisado o benchmark adoptado. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** WORKPLAN W2/Track D ya registra W1 cerrado como revisión de mapping; §9 y Requirements VNext mantienen EP-BH1–7 y S/T/H existentes. Mantener v0.2 actual y v0.3 candidato.
-
-### Pasaje 1 — §4
-
-Viejo verificado una vez fuera de citas de propuestas, línea 152 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional until the remaining source, comparator, protocol and fixture-admission gates in §13 are completed.
-~~~~
-
-### Pasaje 2 — §9
-
-Viejo verificado una vez fuera de citas de propuestas, línea 312 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
-~~~~
-
-### Pasaje 3 — §12
-
-Viejo verificado una vez fuera de citas de propuestas, línea 394 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-- that this draft has passed the Requirements-vNext or bibliographic gate.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- that the recorded W1 mapping alone establishes bibliographic review, fixture admission or benchmark adoption.
-~~~~
-
-### Pasaje 4 — §13
-
-Viejo verificado una vez fuera de citas de propuestas, línea 402 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
-~~~~
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
-
-Este paquete reemplaza la variante antigua que sólo tocaba §12; no se aplican ambas. Se cotejó WORKPLAN W2/Track D, blob `fe793085dadd4695b2163f8de844196911d15907`: ya dice «W1 Requirements review is complete» y «W1 traceability already closed». No necesita cambio para estos cuatro pares. La revisión W1 registrada se mantiene; la adopción y ejecución del benchmark siguen con sus propios gates.
-
-**Fuente receptora cotejada:** [WORKPLAN, W2](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/WORKPLAN.md). Su estado de mapping concuerda con §9; la corrección devuelve esa misma lectura a §§4/9/12/13, sin reiniciar W1 ni cerrar el ciclo científico del corpus.
 
 
----
+## Propuestas aplicadas retiradas
 
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md).
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="bench-r1-delta-001--distinguir-tablaw1-presente-de-gates-restantes"></a>
+<a id="cambio-40--tabla-w1-presente-distinta-de-todos-los-gates-cerrados"></a>
+<a id="ola-2--cambio-5-benchmark-conciliar-w1-ya-registrado-y-adopción-pendiente"></a>
+<a id="pasaje-1--4"></a>
+<a id="pasaje-2--9"></a>
+<a id="pasaje-3--12"></a>
+<a id="pasaje-4--13"></a>
+<a id="ola-2--redacción-directa-del-cambio-5"></a>
+<a id="4"></a>
+<a id="9"></a>
+<a id="12"></a>
+<a id="13"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-05"></a>
 
-## Ola 2 — redacción directa del cambio 5
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md). Los enlaces anteriores siguen llevando a este historial.
 
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 40; la anterior queda como antecedente.
-
-**Propósito:** §9 ya contiene el mapping, mientras §§4/9 siguen tratándolo como futuro. Cuatro precisiones coordinadas eliminan esa inconsistencia sin cerrar los demás gates.
-
-**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `4f4eb69989edab9663614d407661b20ecb23f8e5`.
-
-### §4
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional while the source, comparator, protocol and fixture-admission gates in §13 are completed.
-~~~~
-
-### §9
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
-~~~~
-
-### §12
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-- that this draft has passed the Requirements-vNext or bibliographic gate.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- completion of bibliographic review, fixture admission or benchmark adoption on the basis of the W1 mapping alone.
-~~~~
-
-### §13
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
-~~~~
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio40 hecho y retirado de pendientes; se conserva el par completo.
+</details>
 
 
-## Aplicaciones confirmadas — 12 octubre 2026
+## Aplicación completa autorizada — 12 octubre 2026
 
-- **Aplicado:** Ola2 cambio5 / propuesta40.
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
 
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 41 | Fijar admisión antes de ver resultados y conservar fallos | research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md | Aplicado |
+

@@ -1,0 +1,216 @@
+# Revisión de Composition & Control — el mapa que RA recibe
+
+**Única VNext de la fuente Composition & Control. Auditoría realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** [Fuente](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md), blob `0366cbd184149235005dc2236b3da7e4c394ed3e`, corte `5c8024b8e86f01151d204ecc6b568173ffebd8e4`. [Ficha externa](03_COMPOSITION_REVIEW_CARD.md) · [plan](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
+## Instrucciones de Iván y cobertura
+
+Conservar canon y contratos, registrar un contraste en ambos extremos, siempre viejo/nuevo y prioridad. Es fuente principal de MSCA; no material suelto que necesite auditoría nueva por catálogo.
+
+**Lectura parcial de evidencia/relaciones:** §§10/13–15, entrada RA y retorno/persistencia; no todo Composition ni cuatro pasadas propias completas. Quinta y sexta pendientes.
+
+## El vínculo Cart_i → RA
+
+La fuente conserva Cart_i persistente en Composition y el overlay/request en RA. La frase de §14 permite consumir un slice por compartir A/B/C/D, igual que la fila 01C §5.1. Es compatible como vocabulario; no justifica por sí sola la pregunta científica receptora. Soporte de un elemento/dependencia cartográfica y soporte de una dirección RA son objetos distintos.
+
+El [cambio 52 de 01C](../../research/ecosystem-awareness/baseline/01C_VNext.md#cambio-52--calificar-la-cartografía-al-recibirla-en-ra) y el cambio 53 de esta VNext se preparan juntos. No se propone un segundo mapa ni una taxonomía. Falta un perfil de recepción que muestre qué significado/evidencia conserva y qué no.
+
+## Conversación
+
+**Codex, misma identidad:** la lectura literal “sin otra traducción” no tiene por qué negar calificación, ya declarada en otras secciones. La precisión previene esa lectura más fuerte en una frontera abreviada. No prueba error runtime o necesidad de una implementación concreta.
+
+Hay una observación editorial fuera de este contraste: el título de §3.4 aparece duplicado en la fuente. Se conserva para la pasada editorial propia posterior, sin corrección automática en esta entrega.
+
+## Continuación
+
+Completar lecturas propias y consumidores reales, incluida actualización/overlay. La relación y propuesta quedan parciales; ningún resultado anterior se reinterpreta por esta precisión.
+
+## Propuesta — viejo/nuevo, impacto y riesgo
+
+### Cambio 53 — Conservar la calificación al enviar Cart_i a RA
+
+**Fuente:** [documento original](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md), blob `0366cbd184149235005dc2236b3da7e4c394ed3e`; una coincidencia literal del viejo en el corte. **Instrucción de Iván:** auditar y publicar propuestas, conservar originales y siempre el texto viejo. **Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera, tanda de coherencia RA–EA–MSCA.**
+
+**Por qué:** Que el productor mantenga visible que compartir roles no transfiere la justificación de un resultado.
+**Riesgo de afectar otro documento:** Una precisión aislada en 01C o 03 deja productor y receptor con lecturas distintas; el texto puede ser leído como nueva obligación universal si no se preserva el scope del perfil.
+**Preparación:** Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.
+**Dependencias:** [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [01C_VNext.md](../../research/ecosystem-awareness/baseline/01C_VNext.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md).
+**Condición:** Tanda conjunta 52/53 y revisión de perfiles/retorno; Composition & Control conserva Cart_i y RA sus contratos científicos. Decisión concreta de Iván e incorporación pendientes.
+
+**Texto antes — viejo, completo:**
+
+```markdown
+RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. Because Cart_i already uses A/B/C/D semantics, that bounded slice can enter RA without inventing a second epistemic translation layer.
+```
+
+**Texto después — propuesto, completo:**
+
+```markdown
+RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. The shared A/B/C/D vocabulary permits reuse without inventing a second role taxonomy. The receiving RA profile must nevertheless qualify the source question, scope, versions, freshness and evidential basis of that slice for its own declared observation/context/detection contract. Support for a cartographic element does not by itself establish that the element preserves the regime distinction or supplies support for A_RA.
+```
+
+La propuesta no introduce una implementación ni un formato obligatorio. El antes permanece en la fuente; no se incorpora el candidato.
+
+
+---
+
+## Pasadas propias de Composition — leer el mapa completo y sus límites
+
+**Auditoría realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se leyó toda la fuente §§1–19, corte `ee55859f6a398249196db218ba6bbdad569692a4`, blob `0366cbd184149235005dc2236b3da7e4c394ed3e`. No se renombra como completa la anterior lectura de §§10/13–15; se añade este examen distinto.
+
+| Pasada | Cobertura real |
+|---|---|
+| Fondo/lógica | Texto completo, ejemplos y conformance examinados; sin prueba de escala/despliegue. |
+| Evidencia/relaciones | Contratos/outputs cotejados con Role/Architecture/01C/Operation en pasajes pertinentes; perfiles y fuentes completos pendientes. |
+| Edición/formato | Markdown completo; título§3.4 duplicado localizado. |
+| Comprensión | Relectura completa simulada, sin lector independiente. |
+| Quinta | Contraste particular de procedencia y vecino actual, parcial. Sexta global pendiente. |
+
+### Primera pasada — semántica y dependencia son preguntas distintas
+
+El mapa alrededor del focal contiene MSCAs con sus propios objetivos. Parecido semántico ayuda a descubrir; una relación material determina si el cambio puede afectar su proceso. Taxi/bus/food muestran que lo parecido no siempre depende, y lo distante puede importar. Componer no crea S común sin regla/owner legítimos.
+
+A_Cart es lo representado; B_Cart soporte/límites/reserva caracterizada; C_Cart exploración cuya base falta; D_Cart efectos fuera de rutas efectivas. Detalle no garantiza confianza; missing edge no prueba independencia; recursos disponibles no establecen C. El párrafo previo a los ejemplos D impide usarlos como clasificador automático.
+
+R0–R4 son resoluciones, **no niveles de README**. La pérdida de detalle no se convierte en certeza. La arquitectura permite zoom y modelos locales, pero su frase final scalable no acredita rendimiento/latencia medidos: la factibilidad sigue por demostrar en cada implementación. Se registra ese límite, sin fabricar otra corrección normativa.
+
+### Segunda pasada — el circuito del mapa
+
+**Auditoría realizada por Codex, texto/contratos.**
+
+| Tramo | Qué conserva y qué no prueba |
+|---|---|
+| Role/MSCA → Cart | Binding focal/S/rol y dependencias; no fusión de envelopes por compartir actor. |
+| Señales/observaciones → update | §10.1 conserva fuente/scope/freshness/residual; recibir un mensaje no acredita todo su contenido. |
+| Update → Cart/Δ_Cart | §§10.3–10.4 mantienen mapa/cambio calificados. Δ_Cart no es Δ_RA ni prueba de cambio físico. |
+| Cart → EA | §13 da contexto bounded; el receptor califica su uso, no verdad global. |
+| Cart → RA → overlay | §14 conserva neighbourhood/retorno y persistencia en Composition; RA conserva su justificación científica. |
+| Operation → ciclo siguiente | Actualización y aviso después del proceso legítimo; el receptor decide localmente, sin permiso o consenso automáticos. |
+
+Se consultaron Architecture§§3/8–9, Role completo, relaciones pertinentes01H/01J y Operation. 01C completo fue objeto del examen anterior; aquí solo se volvió a su frontera material. No todos los estándares/profiles ni runtime se revisaron.
+
+### Conversación — reevaluar52/53 al leer su contexto completo
+
+**Codex, segunda lectura:** §10.1 exige qualifiers por input. §§3/8/10.4/13 y conformance§18 impiden ocultar soporte/freshness/residual. “Sin segunda traducción” puede significar evitar otra taxonomía A/B/C/D, conservando la calificación que el resto del documento ya exige.
+
+El análisis inicial no había considerado todo ese contexto.52/53 sirven si se leen esas frases aisladamente; **no demostraron una omisión general o una transferencia de garantía ejecutada**. Reevaluación vigente: **impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Siguiente**, como aclaración opcional. Viejos/nuevos y ratings previos permanecen.
+
+El perfil concreto aún debe mostrar qué transmite; se reduce la urgencia de la nota, no las obligaciones de conservar significado.
+
+### Tercera pasada — tablas, diagramas y título
+
+**Auditoría realizada por Codex, fuente completa.** Las matrices separan las dos preguntas y los diagrams proponen representaciones. Las notaciones no suministran un descubridor de dependencias, ni un algoritmo universal o prueba de escala.
+
+El título§3.4 duplica D_Cart. Corregirlo mejora lectura, pero cambia el slug. El grafo del corte no contiene referencias locales a ese fragmento; externos/históricos no fueron todos inspeccionados. Se conserva el viejo y el candidato al final, sin tocar definición o fuente.
+
+### Cuarta pasada — un ejemplo que una persona puede contar
+
+**Auditoría realizada por Codex, simulación.** Food puede empezar como concepto y adquirir detalle cuando logística afecta ingredientes; se representa la dependencia necesaria sin asumir sus objetivos/permisos. Un mapa detallado viejo puede tener menos soporte que una etiqueta actual bien fundada.
+
+La prosa ya explica confidence/resolution y aliases. ECM conserva compatibilidad nominal, no identidad de bytes de toda edición histórica. No hace falta crear otra teoría de capas para leerlo.
+
+### Quinta específica — procedencia e identidad como piezas
+
+[PROV-DM, W3C2013, §§5.2.1/5.3.3–5.3.5](https://www.w3.org/TR/prov-dm/) ofrece derivación/asociación/influencia para documentar cómo se produce o usa un elemento. Candidato para origen/change-set; no acredita por su registro la dependencia material, coste o validez RA. Mapping y adapter no implementados.
+
+[ATHENA, propuesta FG-TIDA#34 de1 octubre](https://github.com/FG-TIDA/themes/issues/34) aporta una pregunta de origen/vigencia de identidades delegadas. No proporciona por su título el mapa entero o S común. Body open leído; XSTR.ATHENA y realización sin revisar.
+
+No se estableció diferencial mediante comparación. Reutilizaría procedencia/referencias de identidad en perfiles, antes de inventar otra infraestructura. Solo ideas citadas; no código/dataset o texto extenso copiados. Versiones/licencias por pieza y tests de correspondencia pendientes: quinta parcial.
+
+### Continuación
+
+[Soporte](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). Completar fuentes/profiles/consumidores materiales. No se adopta53; reevaluación conserva la entrada previa. Sexta pendiente.
+
+## Propuesta editorial de esta lectura
+
+### Cambio 56 — Corregir el título duplicado de D_Cart
+
+**Impacto esperado: Bajo. Riesgo: Medio. Esfuerzo: Bajo. Prioridad: Después.** No se cambia significado; puede desactualizarse un fragmento de enlace. Revisar externos relevantes o preservar compatibilidad del ancla en una edición aprobada por Iván.
+
+**Texto antes — viejo completo:**
+
+```markdown
+### 3.4 D_Cart### 3.4 D_Cart — cartographic residual
+```
+
+**Texto después — propuesto completo:**
+
+```markdown
+### 3.4 D_Cart — cartographic residual
+```
+
+Viejo único en la fuente actual, nuevo título ausente. Incorporación pendiente; ni heading ni enlaces históricos corregidos.
+
+
+---
+
+## Continuación de evidencia — contrato y comparación de objetivos
+
+**Auditoría cruzada realizada por Codex, 6 de octubre de 2026; mismo asistente.** Se leyeron completos Architecture, ACC, Operation,01I y Gradient. La composición permite varios MSCAs con sus propios envelopes y no los fusiona por compartir un agente. Una dependencia material transfiere relevancia, no propiedad del objetivo o mandato. El rol vinculado y el observado permanecen distintos al actualizar el mapa; una revisión de fuente no canoniza conducta.
+
+[Architecture](00_ARCHITECTURE_VNext.md), [ACC](01_ACC_VNext.md), [01I](../../research/ecosystem-awareness/baseline/01I_VNext.md), [Operation](04_OPERATION_VNext.md) y [Gradient](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md) contienen el otro extremo. El hallazgo57/58/59 importa al comparar candidatos de distintos objetivos: el mapa no suministra una scalarización universal. Se conserva 53 opcional y56 editorial; no se aplica ninguna propuesta ni se cambia Cart_i.
+
+La quinta anterior de procedencia permanece parcial; el catálogo de identidad externo no demuestra una dependencia material. La segunda sigue abierta por perfiles/consumidores restantes; no se repiten primera/tercera/cuarta como auditoría independiente. [Fuentes y alcance de esta continuación](../../governance/review/MSCA-kernel-lineage-gradient-2026-10-06/evidence.json).
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md), blob `0366cbd184149235005dc2236b3da7e4c394ed3e`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 53 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
+| 56 | Editorial condicionado; Pendiente de decisión | Bajo | Medio | Bajo | Después |
+
+**Cambio 53 — Aclaración opcional.** «Sin segunda traducción» puede referirse a la taxonomía compartida sin negar calificación. El propioComposition ya conserva esa calificación.
+
+**Beneficio esperado:** Hacer explícita en la frase de frontera una calificación ya prevista por el contexto de la fuente. **Riesgo concreto:** Una nota repetida puede agregar carga o leerse como contrato nuevo aunque Composition ya conserva scope/evidencia/vigencia; mantenerlo como claridad de lectura. **Coste de preparar y mantener:** Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Leer§ §3/8/10.1/10.4/13/18 con 52; añadir sólo si aporta claridad, no una nueva semántica obligatoria. Revisar junto con 52. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 56 — Editorial condicionado.** El título duplicado es un defecto visible. El título limpio ya existe como parte/cita, lo que no prueba que el encabezado defectuoso haya cambiado.
+
+**Beneficio esperado:** Que el encabezado de §3.4 sea legible sin duplicar el nombre del componente. **Riesgo concreto:** Cambiar el título cambia el slug del ancla; no se encontraron enlaces locales a ese fragmento en el grafo del corte, pero pueden existir referencias externas o históricas. **Coste de preparar y mantener:** Un encabezado, control de referencias/anclas y preservación de la versión previa; no cambios de significado.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. El después puede aparecer como subcadena del título defectuoso; no prueba incorporación. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Inventariar enlaces al slug anterior y resolver compatibilidad de ancla antes de decidir; no renombrar la sección por limpieza aislada. Revisar junto con 61. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Consecuencia entre documentos:** [35](../../research/regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [37](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con posicionamiento local e interfaz EA/MSCA — 6 octubre 2026
+
+**Auditoría cruzada realizada por Codex, mismo asistente.** Fuente de esta ampliación: `fa2c411c810950fb94924caae38938c52dfd5014`;01H § §1–9,01B § §1–8 y 01D § §1–7 completos, ArticleII completo como procedencia; no experimentos o audiencia humana independiente.
+
+01H §2.1 puede proporcionar posición yefectos locales aCart_i; §6.1 exige conservar linaje material alreemitir.01B § §4/5 mantiene la vuelta deestado parcial ynegativo yno exporta MSCA completo por obligación universal. Composition sigue siendo dueño decartografía persistente; repetir/recibir unhand-off no crea corroboración independiente o permiso.52/53 permanecen opcionales, sin nueva adopción.
+
+La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+## Revisión en cuatro puntos — R28 / MSCA Composition & Control — 12 octubre 2026
+
+**Reconciliación completada de la revisión del artículo.** La VNext ya contiene una segunda lectura integral §§1–19, que amplió la primera lectura parcial. El índice de12octubre repetía indebidamente sólo el alcance del primer checkpoint; esta síntesis registra ambos en orden. Fuente actual blob0366cbd184149235005dc2236b3da7e4c394ed3e. Completar los cuatro puntos no acredita los perfiles, consumidores o implementaciones abiertos.
+
+### 1. Problemas reales del artículo
+El título§3.4 está duplicado; es un defecto editorial localizado cuyo slug requiere cuidado. La preocupación inicial “sin segunda traducción” no demostró falta general de qualifiers: §§3/8/10.1/10.4/13/18 ya mantienen alcance, vigencia, soporte y residual. Compartir taxonomía no equivale a compartir prueba, pero la fuente completa permite la lectura compatible. La propuesta52/53 se conserva como aclaración opcional, con su reevaluación de prioridad. No se infiere defecto ejecutado por una frase abreviada ni falsedad del mapa completo.
+
+### 2. Desarrollo necesario
+Construir y comprobar adapters para las preguntas distintas de Cart_i y A_RA, con fuentes, versiones, frescura y residual. Probar unknown edge, edge descartado y dependencia confirmada como estados diferentes. Una tabla más detallada no acredita actualización o verdad. Resolver costes/plazos/escala, permisos separados y objetivos incomparables; revisar enlaces al slug antes de una edición de autor. Los perfiles reales, consumidores restantes, código y lectura humana independiente siguen en desarrollo.
+
+**Reformulación.** Una dependencia material e(i,j,q,t) requiere evidencia propia; una similitud nominal sólo aporta un candidato a investigar. Contraejemplo: taxi y bus son semánticamente parecidos sin dependencia de esta misión; un proveedor semánticamente distante puede bloquear un ingrediente. Un mapa cuyo conjunto de aristas está vacío no demuestra independencia. No se elimina UNKNOWN para llenar el mapa.
+
+### 3. Aportación posible a DDS
+Stage A: fixture de dependencia conocida/ausente/no evaluada con respuesta legítima y recepción Cart→RA. Stage B: verificar qualifiers al actualizar Cart, producir Δ_Cart y consumir un slice; comprobar que Δ_Cart no se convierte por nombre en cambio físico Δ_RA. Stage C: medir cobertura y coste frente a un grafo de dependencias/procedencia competente. Conservar Composition como dueño del mapa persistente y RA de su contrato científico. Nulo: la solución existente ya conserva las mismas distinciones y resuelve el caso.
+
+### 4. Sinergias internacionales actuales
+ProvSQL (https://provsql.org/) aporta linaje y query provenance formalizada. Podemos aportar un slice con aristas materialmente relevantes y derechos receptores, para contrastar conservación del soporte al recomponerlo. Nulo: no existe distinción adicional útil frente a su procedencia madura. Aldini/Fusco, Bridging concurrency theory and epistemic models, marzo2026 (https://doi.org/10.1007/s10849-026-09461-3), aporta transiciones multiagente con modelos epistémicos. Podemos aportar update/revocation y dos preguntas receptoras distintas; ellos un lenguaje/model checker para verificar no promoción injustificada y progreso legítimo. Primer contraste finito con fuente vigente/expirada y arista desconocida, contra el mismo verificador con iguales datos. No contacto; adapter y derechos de reutilización concretos no establecidos.

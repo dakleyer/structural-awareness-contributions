@@ -1,0 +1,108 @@
+# Programa de evaluación del modelo mediante DDS
+
+**Estado:** programa candidato de investigación; el primer piloto determinista acotado fue ejecutado el 25 de octubre de 2026. La agenda completa no se ha ejecutado ni obtiene aceptación DDS por este piloto. Los IDs ACC-ECO pertenecen a este programa local y no crean requisitos ni tests canónicos del ACC, EA, DDS o UC21.
+
+## Ruta de integración de estudios
+
+La evaluación utiliza como contrato económico el [núcleo formal del modelo abierto](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md). Los [experimentos de segundo orden HID 01K-A02](../../01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) son agenda de investigación adicional **NOT RUN**: no se consideran ejecutados por el piloto determinista existente ni constituyen nuevas pruebas congeladas UC21/R01.
+
+El objeto de evaluación es el modelo acotado. [DDS](../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) proporciona el método para especificar preguntas y comparadores y evaluar realizaciones. Cuando un contraste necesite un caso UC21 o R01, se define desde su protocolo DDS un adaptador versionado al contrato de esa fuente. El alojamiento en ACC no salta esas decisiones ni acredita su cumplimiento.
+
+- **Stage A:** formular problema, especificación, propiedades, casos y comparadores, y descubrir qué se exige realmente. Un toy matemático o simulación sobre la especificación puede seguir aquí.
+- **Stage B:** evaluar una realización arquitectónica declarada frente a la especificación congelada del estudio. Es arquitectura de ese objeto y alcance; no prueba toda integración de ACC en agentes.
+- **Stage C:** evaluar una implementación/configuración concreta mediante efectos observados. Las conclusiones se limitan a la población, tecnología, entorno y versión ensayados.
+
+## Contrastes candidatos
+
+| ID | Contraste | Resultado medible y refutación |
+|---|---|---|
+| ACC-ECO-01 | Mejora aceptada frente a mejora sólo en eficiencia | Outputs equivalentes, pérdidas por actor y transición; refuta llamar Pareto a un perjuicio no aceptado |
+| ACC-ECO-02 | Coordinación del plátano disponible o ausente | Coste, ejecutabilidad y ganancia neta; control donde el mecanismo existente ya basta |
+| ACC-ECO-03 | Ganancia directa y atribución relativa | Aceptación, reparto y coste; permite que Viernes acepte o rechace sin cambiar sus bienes directos |
+| ACC-ECO-04 | Tendero con autoridad y cajera sin ella | Comprensión, facultad efectiva y ruta de decisión; control con delegación competente |
+| ACC-ECO-05 | Varias compensaciones para Sistemas | Quién paga, quién acepta, coste y resultado; Operaciones no se fuerza como pagador |
+| ACC-ECO-06 | Reajuste presupuestario con Finanzas | Autorizaciones necesarias, plazo, transferencias y consumo real de recursos |
+| ACC-ECO-07 | Segunda opinión acumulativa o sustitutiva | Falsos rechazos, errores de aprobación y vetos efectivos; fuentes correlacionadas frente a independientes |
+| ACC-ECO-08 | Expansión de conocimiento y conciencia de límites | FH-C con ablaciones emparejadas y decisiones legítimas/ilegítimas; la causa comparativa puede no sostenerse |
+| ACC-ECO-09 | Cartografía y procesamiento amplio para la misma tarea | FH-E: no inferioridad de decisión y cómputo completo; incluye mantenimiento, falsos avisos y peer fuerte |
+| ACC-ECO-10 | Bienestar informado o vinculante | Decisiones, ΔW previsto/real y distribución; permite que la puerta mal informada empeore resultados |
+| ACC-ECO-11 | Estimación, nuevos vetos y retorno | Falsas aprobaciones/denegaciones, coste y disponibilidad de reversión, estado restaurado real |
+| ACC-ECO-12 | Redes dispersas/densas y propuestas endógenas | Producción, aprobaciones, deuda bruta/neta, flujo y curvatura; controles de coordinación, sustitución y saturación |
+| ACC-ECO-13 | Rediseño por eliminación frente a automatizar proxies | Y equivalente, costes de transición/medios de vida, tiempo de usuarios, ACW y uso elegido; control donde integración existente es suficiente |
+| ACC-ECO-14 | Crédito, retiro y mantenimiento de obligaciones | Separar divergencia de crédito, contribución real e incentivo de retiro; preservación legítima puede explicar el resultado |
+| ACC-ECO-15 | Mapa de control y flujo real bajo cambios | Error de previsión y back-action; un mapa competente actualizado puede eliminar la trampa |
+| ACC-ECO-16 | Estado estable y secuencia de cambios materiales | Suficiencia mantenida, recuperación, latencia, falsas paradas y carga; sin parches retrospectivos exclusivos para un brazo |
+| ACC-ECO-17 | Cambio ACC dentro de envolvente o de linaje | Sucesor, aprobación, compatibilidad y vínculo; rechaza autorizar por un gradiente positivo |
+| ACC-ECO-18 | Caducidad entre acuerdo y ejecución | Vigencia revalidada y efecto observado; una aprobación histórica no basta para actuar después |
+| ACC-ECO-19 | Conflicto de perfiles, silencio y respuesta inválida | HOLD/escalación acotados, plazo y fallback; evita inventar precedencia o consentimiento |
+| ACC-ECO-20 | Cualificación local frente a efecto organizativo posterior | PASS de fuente y oráculo sistémico independiente; no redefine un FAIL de UC21 a posteriori |
+| ACC-ECO-21 | Capacidad humana y doble cómputo | Capacidad real de revisión, GIC/NEO/ACW, uso elegido y carga deduplicada; no toma aviso recibido como intervención |
+| ACC-ECO-22 | Comprensión, legitimidad y agencia en viñetas humanas | Playa con/sin servicio, capacidades con/sin apoyos y frustración separada de G; protocolo propio, sin inferir incapacidad o deber de trabajar; resultado nulo o contrario admisible |
+
+## Protocolo común
+
+Cada estudio fija pregunta, hipótesis o propiedad, población/unidad, fronteras de servicio, información ex ante, autoridad, tecnología, recursos, horizonte, política de generación y adaptación, semillas cuando procedan, oráculos independientes y falsadores. Registra abstenciones, errores, exclusiones, costes completos y límites de generalización.
+
+Los brazos incluyen proceso convencional competente, modelo con condiciones explícitas, negociación/reajuste habilitados y coordinación competente que pueda eliminar el supuesto diferencial. Las ablaciones separan EA, información adicional, reglas de negociación y otros cambios. Un comparador puede empatar o ganar.
+
+Las secuencias contienen estabilidad, cambios conocidos, novedades y regímenes mixtos. Se computan preparación, mantenimiento y recursos de ambos métodos sobre todos los futuros posibles admitidos. No se introducen parches retrospectivos exclusivos para un brazo. La hipótesis de ventaja en cambio y ventaja nula/negativa en estabilidad es falsable; no se impone monotonía.
+
+Se miden fracción y número de acuerdos inmediatos, realizados tras reajuste y bloqueos; producción y beneficio neto; incertidumbre y error; coste de retorno; cargas humanas y, con protocolo propio, experiencia. Una función de aprobación administrativa no crea deuda por definición.
+
+## Adaptador a UC21 y R01 a través de DDS
+
+El adaptador declara fuente/versión, escenario, ruta, inputs admitidos, acción intentada, efecto observado, reloj, autoridad, etiquetas de resultado y qué pregunta añade el estudio del modelo. Las rutas R0/R1/R2 de UC21 y M/I/P de R01 conservan sus significados y espacios de nombres. R3 de los retos DDS o de un estudio particular no se usa como sinónimo universal de esos brazos.
+
+| Familia de fuente | Pregunta que podría alimentar | Evidencia adicional que necesita el modelo |
+|---|---|---|
+| UC21 S1 | Carga de observación, claridad y revisión | Capacidad real, utilidad y coste completo |
+| UC21 S2 | Coordinación y recurso compartido | Efectos organizativos y alternativas de gobierno |
+| UC21 S3 | Cambio de misión y fuentes dependientes | Ramas positivas/negativas y causalidad comparativa |
+| UC21 S4 | Acción local y efecto agregado | Autoridad sobre el agregado y balance de alcance |
+| UC21 S5 | Vigencia entre aprobación y ejecución | Caducidad, cambio material y efecto realizado |
+| UC21 S6 | Atribución, origen y derechos | Independencia, condiciones de uso y coste del conflicto |
+| R01 y extensiones admitidas | Cualificación y rutas de cierre | Preservar información reservada al evaluador y distinguir intento de efecto |
+
+El resultado del escenario fuente no se reetiqueta con un oráculo social añadido posteriormente. Una simulación social receptora requiere su propio protocolo y no vuelve válido o inválido un test UC21 congelado.
+
+## Orden de construcción
+
+Existe una [realización adicional del toy paramétrico](studies/parametric-economic-toy-v0.1/README.md) para fórmulas y trayectorias de redes; verifica numéricamente las condiciones que el programa pretende contrastar, pero **no ejecuta** los experimentos HID2-01…10 ni constituye Stage B/C. Debe utilizarse como generador de escenarios y controles para una futura especificación DDS congelada.
+
+1. Especificación y recorrido manual de un caso empresarial o institucional.
+2. Modelo determinista pequeño con controles que fallen de manera conocida.
+3. Incertidumbre, negociación, redes, propuestas endógenas y retorno.
+4. Adaptadores DDS a casos UC21/R01 seleccionados.
+5. Realizaciones con agentes simulados o reales cuando el estudio lo requiera.
+6. Estudio humano separado si se contrastan bienestar, comprensión o legitimidad percibida.
+
+Los resultados sintéticos mencionados en las notas requieren localizar código/salidas originales y comprobar correspondencia antes de llamarlos reproducidos. No se heredan cifras como evidencia nueva de este paquete.
+
+## Primer protocolo y correspondencia de fuente
+
+El [estudio económico v0.1](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) realiza un subconjunto de preguntas de ACC-ECO-01, 04–06, 10–11 y 16–22, con cobertura parcial indicada en su protocolo. No ejecuta las 22 familias. Se publican recorrido manual, entradas congeladas, implementación, trazas y resultados contrarios.
+
+La primera correspondencia útil es con S5: una orden diferida puede dejar de estar justificada aunque su token siga vigente. [El adaptador v0.1](studies/economic-pilot-v0.1/DDS_ADAPTER_SPEC.md) fija versión de fuente, campos y límites; exporta una vista documental, no una ejecución del caso original. El oráculo social del modelo y el oráculo UC21 permanecen separados. No se conecta todavía un ejecutor de base de datos ni un desafío R01; esas dependencias se incorporarán sólo mediante el protocolo DDS correspondiente.
+
+
+## Contrato de falsabilidad UC21 y adaptador ejecutable — suplemento 25-10-2026
+
+El [contrato UC21–DDS](studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md) implementa prospectivamente la selección de una predicción de fallo concreta, los tres recorridos **UC21 R0/R1/R2** (alias conversacional R1/R2/R3), una R1 reforzada previa a R2, el dominio de cambios creíbles congelado, los controles de continuidad y los cuatro objetos de evidencia separados. El [adaptador Python](studies/parametric-economic-toy-v0.1/uc21_dds_bridge.py) puede recibir trazas calificadas y preservar contraejemplos favorables a la tecnología; la [matriz S1–S6](studies/parametric-economic-toy-v0.1/UC21_SIX_SCENARIO_NEGATIVE_TEST_MATRIX.md) conserva efectos y controles específicos, y la [auditoría](studies/parametric-economic-toy-v0.1/EXECUTABLE_ENGINE_AUDIT_2026-10-25.md) identifica límites de inferencia.
+
+**Importante:** el adaptador ejecuta comprobaciones de contratos y proyecciones analíticas, **no** una prueba nativa UC21; una predicción acotada refutada por un comparador no refuta automáticamente la hipótesis existencial HR en un dominio no exhaustivo ni mide por sí sola HID, bienestar o sufrimiento. Rutas originales, oráculos y Stages DDS conservan sus fuentes de autoridad.
+
+## Puente de tres niveles 00M → ACC social → UC21 (revisión 26-10-2026)
+
+La [concordancia de pretensiones y falsadores](studies/00m-acc-uc21-bridge-v0.1/README.md) conserva la plausibilidad general de 00M §4/§7, la inclusión de políticas A-only dentro de A+Q a coste cero y Q opcional dentro del toy económico, y la capacidad **real de refutación tecnológica** de UC21 a través de DDS. No sustituye el [contrato de falsabilidad UC21–DDS](studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md), el [Anexo R nativo](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md) ni crea un cuarto Stage o ruta.
+
+**Admisión de resultado contrario:** tecnología ordinaria que pasa R0, R1 eficaz que corrige, R2 exitoso bajo δ congelado, evaluación independiente con 37 gates de fuente y continuidad legítima. El éxito del defensor **para un δ** refuta la predicción de ese δ, NO el existencial de HR. La hipótesis de recurrencia de seis casos requiere un argumento de dominio completo en al menos un escenario para su refutación lógica; una ventaja diferencial de EA puede quedar refutada en una familia más limitada con un peer equivalente o mejor. El resultado social/económico exige estudio propio, no se infiere de UC21 PASS.
+
+**Dos hipótesis fundacionales a separar:** FH-C exige un diseño causal con dos ablaciones (eliminar fronteras conocidas B/C/D frente a eliminar hechos adicionales de dominio) para una pregunta de cambio de misión preregistrada; FH-E exige coste de cómputo inferior a igual corrección contra un peer fuerte. UC21/S3 y otras familias pueden servir de problemas receptores, pero un único resultado UC21 no decide ambas hipótesis ni reetiqueta sus puertas. El [estudio de puente](studies/00m-acc-uc21-bridge-v0.1/README.md) conserva ambas rutas.
+
+**Protocolo para ejecutar después:** preregistrar pregunta, tecnología/versiones, recursos, puertas de UC21, comparadores con igual información/acceso y costes completos, cuál de los tres objetos se pretende refutar, delta, evidencia nativa, efecto y un resultado explícito de insuficiencia si no se dispone del dominio o de la traza. Conservar todas las ejecuciones contrarias. El puente añade controles de comprensión de pretensiones, no un nuevo oráculo técnico de casos.
+
+## Campaña ejecutable Conscientia Ecosystemica — escenario Stage A sintético (26-10-2026)
+
+[Fuente y protocolo de la campaña](studies/conscientia-campaign-v0.1/README.md): inventario controlado de Docs y doce mecanismos, con 60 casos de laboratorio, 300 comparaciones de cinco brazos, cuatro replays de artefactos precedentes y seis perfiles UC21 conservados como **NOT_RUN en tecnología real**. Su [contrato de evidencias](studies/conscientia-campaign-v0.1/PROTOCOL_AND_EVIDENCE_LEVELS.md) impide trasladar resultados de simulación a DDS Stage B/C, HID, sufrimiento experimentado o validación institucional. Los falsadores FH-C y FH-E permanecen separados; las réplicas sintéticas incluyen un perfil contradictorio para FH-C y un comparador convencional que supera a la implementación ingenua de Q.
+
+**Ruta siguiente:** ejecución externa con permiso, recurso realmente igualado, fuente certificada, oráculo independiente y preregistro **nuevo**. Este fixture se ejecutó de forma exploratoria antes de fijar el JSON de referencia; no es ensayo prospectivo registrado ni experimento de campo.

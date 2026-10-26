@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 93. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # VNext — Capacidad humana, escalada y deuda 01K
 
 > [!IMPORTANT]
@@ -177,3 +179,337 @@ La valoración actual distingue una mejora documental de una modificación conce
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
 **Recepción del plan de identidad01K-A01:** el contrato del componente tiene ahora [su VNext existente](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md); se revisó su par, ya incorporado. Este expediente01K sigue siendo dueño de investigación/medición y sus fuentes, mientras A01 define implementación. La distinción no reabre 64/67 ni acredita un HID empírico; riesgos de transferir autoridad o evidencia se valoranMedio y requieren fuentes/receptores en una revisión futura.
+
+
+## Content preservation CP-01 — restore the explicit human-time condition
+
+**14 October 2026 · Codex · change93.** The content review compares the former 01K edition with the rewritten current source, then checks the component consumer. Five metric expressions still exist in current §7; their presentation changed. Runtime capacity, HID architecture use and the bounded signal/ACC interface remain distinct. The specific issue here is the explicit required-human-work condition in §15.
+
+**Historical source gate — complete previous passage**
+
+```markdown
+~~~text
+HumanEscalationViable_i(τ,W)
+=
+qualified route exists
+AND applicable human authority exists
+AND qualified reviewer/case fit exists
+AND required HumanTime fits W
+AND expected decision latency fits W
+~~~
+```
+
+The current compact gate omits `AND required HumanTime fits W` while retaining expected latency. The old time-demand condition and the current information-sufficiency condition can coexist. CP-01 restores the former explicit condition while preserving every current condition. 01K-A01's runtime acceptance/scheduling interpretation and UC-EA-03 capacity semantics must be read with it; this review does not infer an implementation failure from the text change.
+
+**Source:** [research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/f16b3ba1ef36bb3ff62b02eb89748838c66e8073/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) · blob `e52ed065c5d217da73634c7eb28d26c5d990abae · §15 Gate A, runtime viability. This Human Escalation Gate A is not DDS Stage A.
+
+### Text before — current, literal and complete
+
+```markdown
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+~~~
+```
+
+### Text after — proposed, complete
+
+```markdown
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required HumanTime fits W
+AND expected latency fits W
+~~~
+```
+
+**Expected impact: High. Risk: Medium. Effort: Medium. Priority: First, content-preservation wave.** The benefit is an explicit finite human-work admission condition, so availability/latency alone cannot silently stand in for required work fitting the window. Risk concerns the meaning and units of HumanTime, committed work and scheduling assumptions in component/oversight consumers; no interface field or runtime code is changed by this text proposal. Preparation includes reading those consumers and checking that one source clarification preserves their capacity/timing meanings.
+
+**Dependencies:** 01K-A01 component/runtime acceptance; UC-EA-03 capacity source; Human Escalation and EHD receiving use. **Acceptance:** every current condition remains and exactly the former required-HumanTime condition is added in the registered location; the chosen consumers document the same bounded-time meaning. Current old passage verified once; the proposal is not already in the source.
+
+**Iván's instruction:** retain every part of the information, use existing VNext, show old and proposed text and apply only after the GO for the named wave. **Decision/state:** published proposal; not applied; consumer reconciliation required before incorporation. The [whole-corpus literal review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#content-within-surviving-files--literal-preservation-review-14-october-2026) provides the supporting record and distinguishes exact preservation from rewriting, review custody and Git-only history.
+
+
+## Damage-control consumer reconciliation — 14 October 2026
+
+The [plan DC-06](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026) adds receiving evidence to CP-01/change93. Current 01K-A01 §§5.2–5.4 already include backlog/service time, response-window state and `sum_i x_ij * ServiceDemand_ij(q) <= AvailableServiceTime_j(W)`, explicitly necessary but not sufficient for all scheduling constraints. The missing compact01K line does not establish a missing component capability. Restore explicit source meaning only after comparing units, concurrent commitments, release/deadline constraints, scheduling proof class, UNKNOWN and receiver qualification.
+
+The complete current component passage is published in DDS VNext; the original before/proposed change93 remains unchanged in01K VNext. Candidate93 stays High impact / Medium risk / Medium effort, not ready or applied. Compare component schema/vectors/verification, UC-EA-03 freeze and working successor, EHD/general-interface and current Flores mapping before choosing a literal restoration, qualified cross-reference or justified no-edit disposition. No schema, scheduling engine, result or frozen source changes by this review.
+
+
+## Second contract review — capacity and the change93 alternative, 14 October 2026
+
+Reviewer `/root/gate_capacity_adversary`, separate source-first contract reviewer. [Common second-pass record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026); [component/schema judgement](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#second-contract-review--complete-component-and-schema-14-october-2026); [UC03 receiver](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/UC-EA-03_VNext.md#second-contract-review--uc-ea-03-working-successor-14-october-2026). All primary source bodies were fully read; complete consumer closure remains distinct.
+
+## 6. 01K: historical/current capacity and full section dispositions
+
+### Exact material runtime passages
+
+Historical 01K §8:
+
+```text
+HumanEscalationViable_i(τ,W)
+=
+qualified route exists
+AND applicable human authority exists
+AND qualified reviewer/case fit exists
+AND required HumanTime fits W
+AND expected decision latency fits W
+```
+
+Current 01K §14:
+
+```text
+RuntimeHumanCapacity_J(W) = [
+  route_reachable,
+  qualified_reviewer_available,
+  competence_case_fit,
+  authority,
+  information_sufficiency,
+  queue_or_committed_work,
+  expected_ack_latency,
+  expected_decision_latency,
+  fallback_or_backup,
+  response_horizon
+]
+```
+
+Current 01K §15:
+
+```text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+```
+
+Literal omission is real. Information sufficiency was added and should remain. `expected latency fits W` is ambiguous if a reader treats it as acknowledgement or transport latency; the parent says “expected latency” while §14 distinguishes acknowledgement from decision. Current A01 explicitly models completion, so omission is not proof of lost runtime service-time semantics.
+
+Historical/current 01K substantive preservation by section:
+
+| Current section | Disposition / old contribution / limitation |
+|---|---|
+| Header and A01 route | Retain source-owner/component split; body v0.2 despite filename v0.1. Version labels are real provenance, not maturity. |
+| 1 Purpose | Retains runtime vs architectural questions from old §§2–4; neither answer entails the other. |
+| 2 Component contract | New four-surface split; optionality and UNKNOWN/NOT MEASURED preserved. A mandatory runtime consumer still requires its material inputs. |
+| 3 Definition | Old §2 conceptual HICT/HICR/HID retained; definition is not empirical measurement. |
+| 4 Period/frontier | Expanded counterfactual scope; model imitation alone is not debt. External paper's entire evidence not audited here. |
+| 5 Measurement correction | Tiered replaceability evidence retained/expanded; observed benchmark is not an organisation's measurement. |
+| 6 GIC/NEO/ACW | Retains exclusive task-time classes and distinguishes necessary oversight from avoidable work. |
+| 7 Metric family | Five historical expressions retained plus NOI; HICR vs HICR_time naming needs declared measurement reading, not silent universal units. |
+| 8 Harvester multiplication | New detailed mechanism context; app count alone not HID. No source-paper empirical validation asserted. |
+| 9 Incentives | New detailed model; explicitly hypothesis, not causal closure. |
+| 10 Entropy/recovery | Expanded hypothesis from old §2; rho not inferred from fragmentation. |
+| 11 Measurement layers | New context/internal/dynamic structure; cognitive load not classifier, deficit not decay. |
+| 12 Evidence Notes | Evidence licensing separate from organisational execution; incompatible panels not pooled. |
+| 13 Study gates | Expanded Study0–5; do not construe all later research studies as prerequisites for every descriptive output, but empirical HID gate remains mandatory. |
+| 14 Runtime capacity | Receives old §3 and §9; explicit queue/commitments, freshness-related state and dual latencies. Literal Human Time field not listed. |
+| 15 Two-gate rule | Receives old §4 and §8; CP-01 omission real, conditional candidate below. Architectural gate is review question, not automatic incident veto. |
+| 16 HIT units | Retains old §4 rejection of universal HIT/HID token construct. Do not revive changes64/67. |
+| 17 Human Escalation | Receives old §5 (including its duplicated heading only as historical artefact); route receipt ≠ effective intervention ≠ debt-neutral design. |
+| 18 Alert | Receives old §6 with optional governance trigger; no fifth primitive signal/command. |
+| 19 Subscription | Receives old §7; routing≠authority, notification≠capacity. Authorized silence exception remains scoped. |
+| 20 Repositioning | Receives old §8 bounded HOLD/UNRESOLVED and ACC/authority gates; output cannot manufacture capacity. |
+| 21 Cost of Clarity bridge | Expanded research context; not an HID formula or transferred proof. |
+| 22 Attribution bridge | Independent formal machinery retained; convergence not proof. |
+| 23 Informational Friction bridge | Distinct ideal/counterfactual framing preserved; not silently unified. |
+| 24 AI Operational Integrity bridge | NOI/threshold prediction, not observed threshold result. |
+| 25 AI Integrity Management bridge | Managed-remnant hypothesis with rho uncertainty; no universal implementation mandate. |
+| 26 RA bridge | Receives old §10, retains no direct HID→RA output identity; no cross-series proof. |
+| 27 Organisational profile | Optional field envelope; qualitative valid, numerical requires instruments/gates. |
+| 28 Dashboard | New integration view, not standard or validation. Runtime row not fungible with cognitive hours. |
+| 29 Design review | New fourteen architecture questions; value/safety of current necessary NEO cannot be negated by high debt. |
+| 30 Claim status | Definition/framework versus diagnostic support versus open hypotheses retained; do not call definitions empirical validation. |
+| 31 UC03/HEW | Receives old §12; richer routes cited, no native/human validation inherited. Current link uses v0.4 freeze, successor requires explicit reading. |
+| 32 Contributor lineage | Receives old §1 public source links; no institutional adoption follows. |
+| Annex A | Research source map, not full external-source audit. |
+| Annex B | Bridge meanings/limits preserved separately. |
+| Annex C | Minimum organisational study data; instrumentation/independence/source cuts remain required. |
+| Annex D | Receives old §13 canonical thesis; current incident necessity, interfaces and optional architecture review kept separate. |
+
+Historical §11 ACC ownership remains across current §§17–20 and Annex D, but there is no complete identical current ACC-example list. Historic protected-objection/non-retaliation, acknowledgement and alternate-owner examples are retained history; their selective absence is not authority to introduce new obligations into every component. Every example is conditional on its actual ACC/profile owner.
+
+Applicability: 01K research/source map and runtime readers. Impact High for capacity admission and external claims, risk Medium for compact phrase changes, effort Medium for bounded wording and High for all-consumer engineering closure. **No numerical HID or token repair is applicable.**
+
+## 9. CP-01/change93: decision and exact alternative candidate
+
+**Current decision:** preserve the published literal candidate unchanged as historical proposal; do not apply it. It is not decision-ready. Changes64/67 remain superseded and must not be restored as HID arithmetic. The new candidate below is a pending alternative for the same existing 01K owner, not a new active contract or approved supersession.
+
+Why the existing candidate is underspecified: `required HumanTime fits W` could mean demand≤elapsed window, per-reviewer residual service capacity, a feasible schedule for concurrent obligations, or a universal cognitive unit. These meanings are not interchangeable. Existing A01 §5.4 deliberately says a demand/capacity inequality is only necessary. A pool may have enough aggregate minutes while no qualified available route can meet a particular deadline; a short transport/ack latency may coexist with long backlog and review time. No code or experiment was run to make those conceptual distinctions.
+
+**BEFORE — literal current 01K §15 Gate A block:**
+
+```text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+```
+
+**AFTER — supported narrower cross-reference alternative, pending owner judgement:**
+
+```text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required qualified human service demand is feasible within W
+    under the declared 01K-A01 capacity/timing model and proof class
+AND expected review-completion latency fits W
+```
+
+**Proposed immediately following interpretive paragraph, pending:**
+
+> Here, human service demand is route- and competence-specific work time, not a universal unit of intelligence or an HID metric. Read feasibility with 01K-A01 §§5.2–5.4, including backlog, current commitments, release times, deadlines, non-preemptible work and any material precedence constraints. The necessary load condition alone is not a sufficient scheduling proof. The consuming policy determines which declared proof classes are admissible; unresolved material inputs remain UNKNOWN. This gate qualifies the human review path and does not establish the correctness, authority, execution or effect of the eventual intervention.
+
+Support: all substantive requirements already appear in A01 §§3.1–3.4/5.1–5.4/8.7/14 and 01K §§1/14/17–20. This is preferable to unqualified literal restoration because it gives required work a bounded, existing-owner meaning and makes review-completion latency explicit. It still needs consumer reconciliation: no generic effect deadline or proof-class policy is invented.
+
+Risk/impact/effort: High impact, Medium risk, Medium preparation effort. It may change how compact-text-only consumers read expected latency and feasibility. Confirm the chosen block does not force every runtime consumer to implement an exact scheduler, upgrade heuristics to proof, or make the optional HID engine mandatory. The same policy must retain the consumer's actuation/effect deadline if that is the material useful horizon.
+
+Acceptance before adoption: pin exact current passage; decide meaning of W and completion for this consumer; identify route/pool/competence, commitments convention, time units/epoch, proof acceptance and unknown handling; compare frozen/working UC03, EHD/01J/Operation/HEW actual receivers; retain original candidate93 pair and rejection/supersession reason; obtain Iván's GO for the exact chosen pair. No new schema or result field follows automatically from adopting prose. **Not approved, not applied, all material consumers not closed.**
+
+For A01 itself, this pass deliberately proposes **no exact active replacement** for the quantile formula, proof-policy pseudocode or metric input contract. Their interpretation depends on facts not established in this delegated cut. Record pending owner questions with exact current passages; do not hide them inside a broad 01K restoration.
+
+
+
+### Complete candidate93 alternative — literal current source delimiters retained
+
+The reviewer body above supplies the rationale. The exact pair below retains the source’s tilded delimiters and includes the whole proposed following paragraph; one original match verified. The original #93 HumanTime insertion was applied on 15 October 2026; the alternative detailed here was not adopted and remains subject to its own decision.
+
+**Text before — complete current block:**
+
+````markdown
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+~~~
+````
+
+**Text after — complete alternative block and paragraph:**
+
+````markdown
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required qualified human service demand is feasible within W
+    under the declared 01K-A01 capacity/timing model and proof class
+AND expected review-completion latency fits W
+~~~
+
+Here, human service demand is route- and competence-specific work time, not a universal unit of intelligence or an HID metric. Read feasibility with 01K-A01 §§5.2–5.4, including backlog, current commitments, release times, deadlines, non-preemptible work and any material precedence constraints. The necessary load condition alone is not a sufficient scheduling proof. The consuming policy determines which declared proof classes are admissible; unresolved material inputs remain UNKNOWN. This gate qualifies the human review path and does not establish the correctness, authority, execution or effect of the eventual intervention.
+````
+
+High expected impact / Medium risk / Medium effort. Not decision-ready: complete frozen/current UC03, EHD/01J/Operation/HEW and actual adapter judgement remains required. No schema/code/result/freeze change follows from publishing this proposal.
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 93
+
+Literal absence is real, but current01K14 and A015.2–5.4 retain capacity semantics. Prefer precise service-demand/proof-class qualification; all consuming deadlines and proof policies still need reconciliation.
+
+**Impact / risk / effort:** Alto / Medio / Medio. **State:** Not decision-ready: consumer timing/proof-policy reconciliation incomplete.
+
+**Source:** [research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), blob `e52ed065c5d217da73634c7eb28d26c5d990abae`. Dependencies: 01K-A01; UC-EA-03; Human Escalation/EHD consumers
+
+**Text before — complete current passage (1).**
+
+``````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND expected latency fits W
+~~~
+``````
+
+**Text after — complete proposal.**
+
+``````text
+~~~text
+HumanEscalationViable_i(tau,W)
+=
+qualified route exists
+AND applicable authority exists
+AND qualified reviewer/case fit exists
+AND information is sufficient for the requested decision
+AND required qualified human service demand is feasible within W
+    under the declared 01K-A01 capacity/timing model and proof class
+AND expected review-completion latency fits W
+~~~
+
+Here, human service demand is route- and competence-specific work time, not a universal unit of intelligence or an HID metric. Read feasibility with 01K-A01 §§5.2–5.4, including backlog, current commitments, release times, deadlines, non-preemptible work and any material precedence constraints. The necessary load condition alone is not a sufficient scheduling proof. The consuming policy determines which declared proof classes are admissible; unresolved material inputs remain UNKNOWN. This gate qualifies the human review path and does not establish the correctness, authority, execution or effect of the eventual intervention.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+## Coupled literal capacity preparation 15 October 2026
+
+The original #93 insertion is applied; the alternative capacity/proof-class proposal above remains pending its own approval. New107/108 in the [A01 VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) supply the full joint timing/proof-policy text;109 in [UC03 VNext](./UC-EA-03_VNext.md) binds the working caller. These form one scoped consumer wave. Its original frozen profiles, schema and results remain unchanged. [Joint acceptance/order](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026).
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 93.** The complete current formula and proposed HumanTime conjunction are present. The literal match is not a standalone runtime acceptance result:93 remains coupled with 107–109, qualified demand, assignment and the actual HumanTime consumers. This review leaves the source formula and results unchanged.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. The historical review is complete; incorporation of the alternative text described above remains pending a separate named decision. The original #93 correction has already been applied.
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 93. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
+
+
+## Execution reaudit 15 October 2026
+
+Re-read93 with107–109. Runtime/provider capacity and bounded admission guards remain aligned; no score, measured capacity or earlier HumanTime consumer was silently changed. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical human-capacity integration and the optional protection example — 15 October 2026
+
+Reviewer A read complete 01K (1,086 lines, blob `3c6e9526062335c8eedd6c23dc3f7fded80211bd`) and A01 (1,673 lines, blob `a60ea6991692dd0666203bb99e89b25564628745`), the old01K clauses and current ACC/Operation receivers. The source-series period-relative HICT/HICR/HID and GIC/NEO/ACW task framework remain separate from runtime human capacity; the superseded demand-minus-HIT debt formula is not restored. Current time, competence, authority, case fit, queue/timing, horizon, alert qualification and HOLD/UNRESOLVED boundaries survive. Routing does not demonstrate effective intervention or reduced HID.
+
+A01 §§7A.6–7A.9 receives the old falsifier: a conventional admissible route meeting the same frozen quality/authority objective at equal or lower burden receives full credit. Two marginal delay q-quantiles do not prove a q-bound for their sum; current A01 lines666–725 requires a joint delay or justified combined coverage and retains heuristic/UNKNOWN status. Human review completion remains distinct from approval delivery, action and effect. The [A01 owner](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#human-capacity-timing-and-source-series-reception--15-october-2026) records that receiver side.
+
+One useful optional example was lost from old §11 at commit `9f397df86fb66217937fbf08b3c99e0f46bc60a6`, parent `1a39dfe0ed70e1aa8040ddfbd68c20d713713dff`, blob `45e5dec20b09d19be6c574ab3d3e0af410e3d5c7`: non-retaliation / protected-objection conditions for an applicable ACC/signalling profile. The other old list functions have current receivers; R01's bounded objection studies do not replace the general optional example.130 restores only that example in §19 and leaves its legitimate ACC/policy owner explicit. D independently checked the full old clause, current context and ACC lineage. It creates no universal rule or claim that any deployment enforces such protection.
+
+## Review-card history received at its dated source cut — 15 October 2026
+
+A11 read all four retired clauses of 01K_REVIEW_CARD with the complete current card and authentic source versions. Superseded HIT/runtime interpretation is received by the current 01K/A01 ownership split; component/schema/vector hashes remain prior verification snapshots. The card's `e52ed065…` “current public source blob” records its 6October review basis. It is a dated snapshot, while the linked profile remains the live source. This metadata does not identify a missing-content restoration or a new VNext. The current profile, component and earlier review bodies remain unchanged by this note.

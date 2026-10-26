@@ -285,3 +285,8 @@ The protocol:
 This page should remain a router while the programme structure is still being consolidated. New substantive documents, cases, interface annexes, validation material and historical records should be indexed in the appropriate destination README rather than duplicated or removed here. The canonical corpus is preserved as-is; this page only exposes stable entry routes.
 
 **Status:** public working research and test proposals; not adopted standards, completed pilots or certified comparative results.
+
+
+## Optional bounded ACC research artefact
+
+The [ACC auxiliary model](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md) is hosted under the ACC line as a deliberately bounded model of systems, society, economic transition and human capabilities, for later use and integration. Its full working texts, examples and candidate studies remain research material. It neither defines all ACC nor specifies its embedding in agents. Its evaluation route goes through DDS; source-preserving UC21/R01 adapters are a later study decision. This is a subordinate package reader, outside the EA core and frozen baseline.

@@ -75,6 +75,8 @@ A forged record is primarily an authenticity case. A pure authority error with n
 
 ## 8. Transfer result
 
+**Conditional design obligation.** Read the formula below under [A25 §6](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) and [A26 §5](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md#5-conditional-no-new-requirement-argument). A guarantee for every admitted extension requires a separately established base guarantee for the full inherited route, failure reflection, conformance preservation and the required positive controls. The current finite P1/P4 projections and matched proposition pair do not by themselves establish the full G_J predicate or a guarantee for every admitted extension.
+
 \[
 Conf(R_J)\Rightarrow G_J\Rightarrow \neg F_J.
 \]

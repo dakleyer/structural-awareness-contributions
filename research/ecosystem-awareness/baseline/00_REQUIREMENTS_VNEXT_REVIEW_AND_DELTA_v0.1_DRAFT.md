@@ -517,56 +517,9 @@ No hay auditor externo adicional en esta pasada. Otro auditor debe citar estos I
 
 ## Propuestas quirúrgicas — REQ-R1, pendientes
 
-### REQ-R1-DELTA-001 — recuento interno de familias
-
-**Objeto:** este VNext, no la fuente congelada. **Hallazgo:** F001. **Preparación:** IVAN-20261006-START-SEQUENTIAL-AUDITS. Son dos cambios localizados únicos:
-
-**TEXTO ANTES**
-
-```markdown
-## Reference failure-scenario expansion — two scenarios to five
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-## Reference failure-scenario expansion — two scenarios to six
-```
-
-**TEXTO ANTES**
-
-```markdown
-The post-freeze corpus now adds three independent reference scenarios:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-The post-freeze corpus now adds four distinct reference failure-scenario families:
-```
-
-**Razón:** el conjunto enumerado es G/H/I/J; «distinct» evita inferir independencia estadística a partir de nombres de escenarios. **Efecto:** aclaración editorial del registro. **Estado:** propuesto, no aplicado; las frases antiguas permanecen en el cuerpo y en la copia preservada.
-
 ### REQ-R1-DELTA-002 — CAND-R4, texto candidato para una futura edición
 
-**Objeto:** Requirements §2, celda S10; source blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. **Hallazgos:** F003/F004. **Tipo:** propuesta potencialmente material de precisión de la obligación; no clasificada todavía como mero cambio editorial. No aplicable en-place a la fuente congelada. **Instrucción:** autoriza preparar la auditoría/propuesta, no incorporarla.
-
-**TEXTO ANTES**
-
-```text
-Distinguish recommendation, negotiation, reservation, binding commitment and execution; detect when a material change of cost, route, time, context, policy or authority requires confirmation, revalidation, cancellation or change of authority. Silence or delay is not permission.
-```
-
-**TEXTO DESPUÉS**
-
-```text
-Distinguish recommendation, negotiation, reservation, binding commitment and execution; detect when a material change of cost, route, time, context, policy or authority requires confirmation, revalidation, cancellation or change of authority. Silence or delay is not permission. Where execution relies on a requalification, preserve a demonstrable binding between the requalified decision basis and the basis consumed by execution; a material intervening change reopens the affected qualification before the action relies on it.
-```
-
-**Razón:** hacer explícito el check-to-use de CAND-R4 sin imponer locks, transactions, epochs ni una plataforma. **Dependencias:** S14/T2/T4; CAND-A23-P5; 00I; 04; oracle/fixtures que citen esta versión. **Adjudicación pendiente:** si añade una obligación o solo precisa una ya exigida, efecto sobre control positivo autorizado, observabilidad y estados alcanzables. No se usa el candidato para declarar probado A23. **Decisión de Iván:** pendiente por ID. **Incorporación:** no ejecutada; cualquier adopción requiere successor versionado y pruebas referidas a su propia edición.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio16 incorporado en `research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -600,37 +553,7 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 14 · Corregir el total a seis familias de escenarios | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
-| 15 · Cuatro familias distintas sin afirmar independencia | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
 | 16 · Vincular la ejecución al estado recalificado | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
-
-### Cambio 14 — Corregir el total a seis familias de escenarios
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Hacer que el encabezado corresponda a la enumeración E–J.
-
-**Qué podría quedar desactualizado o afectado:** Corregir solo el título dejaría la frase de tres adicionales incoherente; emparejar con cambio 15.
-
-**Qué cuesta prepararlo:** Dos correcciones documentales conjuntas, sin cambiar Requirements congelado.
-
-**Dependencias conocidas:** [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Preparar junto con 15 y conservar el VNext anterior.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-001--recuento-interno-de-familias); el viejo tiene una coincidencia en [la fuente actual](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `a8ebfc8abe61fb569a658c722bcb714371f1693d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 15 — Cuatro familias distintas sin afirmar independencia
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Corregir el número G/H/I/J y evitar independencia estadística implícita.
-
-**Qué podría quedar desactualizado o afectado:** Usar independent como propiedad inferida de nombres exagera evidencia; hay que mantener coherencia con el cambio 14.
-
-**Qué cuesta prepararlo:** Una frase del registro y comprobación de la lista.
-
-**Dependencias conocidas:** [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Decidir junto con 14; ningún nuevo requisito.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-001--recuento-interno-de-familias); el viejo tiene una coincidencia en [la fuente actual](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `a8ebfc8abe61fb569a658c722bcb714371f1693d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Cambio 16 — Vincular la ejecución al estado recalificado
 
@@ -671,28 +594,10 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 14 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
-| 15 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
 | 16 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
 | 43 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
 | 44 | Trabajo por concretar; Por concretar; sin par literal | Medio | Medio | Medio | Siguiente |
 | 45 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
-
-**Cambio 14 — Documental preparado.** En el texto fuera de las citas hay un único título2→5 y cuatro familias nuevas00G–00J; la corrección a 2→6 es consistente con la lista.
-
-**Beneficio esperado:** Hacer que el encabezado corresponda a la enumeración E–J. **Riesgo concreto:** Corregir solo el título dejaría la frase de tres adicionales incoherente; emparejar con cambio 15. **Coste de preparar y mantener:** Dos correcciones documentales conjuntas, sin cambiar Requirements congelado.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Considerar14/15 juntos. Mantener el registro histórico de esta propuesta; no renumerar S/T/H ni inferir seis familias completamente auditadas. Revisar junto con 15. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 15 — Documental preparado.** «Adds three» contradice los cuatro escenarios listados. El número de familias no equivale a independencia estadística o auditoría externa.
-
-**Beneficio esperado:** Corregir el número G/H/I/J y evitar independencia estadística implícita. **Riesgo concreto:** Usar independent como propiedad inferida de nombres exagera evidencia; hay que mantener coherencia con el cambio 14. **Coste de preparar y mantener:** Una frase del registro y comprobación de la lista.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Cotejar00G–00J con 14 y mantener el significado de familias distintas; ninguna nueva obligación canónica. Revisar junto con 14. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 16 — Cambio acoplado; no listo.** La requalificación temporal necesita conexión al estado realmente usado. El párrafo solo expresa la obligación; no resuelve el binding técnico.
 
@@ -796,57 +701,84 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 <a id="ola2-cambio-09"></a>
 
-## Ola 2 — cambio 9: Requirements: seis escenarios y cuatro incorporaciones distintas
 
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 14 ycambio 15; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
 
-**Fuente actual:** [research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `84c56cbe086368f85b6121f4b998e27f52889e4a`. **Ubicación:** Reference failure-scenario expansion: título e introducción post-freeze.
+## Aplicación completa autorizada — 12 octubre 2026
 
-**Justificación:** La lista enumera E–J, pero el título dice cinco y la introducción tres independent. Corrige la cuenta y distingue diversidad de escenarios de independencia experimental.
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
 
-**Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 16 | Vincular la ejecución al estado recalificado | research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md | Aplicado en sucesor |
 
-**Riesgo concreto:** Un cambio de conteo no establece revisiones independientes. Conservar lista, IDs S/T/H y distinguir cuatro familias distintas de independencia experimental. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
+El frozen conserva exactamente su blob anterior. La revisión aprobada está incorporada en un sucesor de trabajo enlazado por baseline; los estudios registrados siguen usando su edición congelada. La incorporación textual no afirma resultados nuevos.
 
-**Dependencias y aceptación:** E/F previos + G/H/I/J nuevos = seis; conservar las familias S/T/H y los nombres/rutas.
 
-### Pasaje 1 — Título Reference failure-scenario expansion
 
-Viejo verificado una vez fuera de citas de propuestas, línea 90 de la fuente fijada.
+## Internal Contributions history — frozen Requirements and working S10, 14 October 2026
 
-**Texto antes — viejo literal completo**
+Reviewer `/root/case_clause_forensics`; the [common internal-history procedure](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#internal-contributions-history-takes-priority--14-october-2026) and [EP counterpart](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) hold source/receiver judgements. All12 Requirements payloads and11 deltas were authenticated/read against the complete current source; later approved working S10 is a separate edition. Frozen original [research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is unchanged since25September; successor [research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds its opening approval note and one execution-basis binding in S10, while H1–H6/KPIs and other rows remain. Registered earlier studies retain their actual freeze. No universal consumer adoption is assumed.
 
-~~~~markdown
-## Reference failure-scenario expansion — two scenarios to five
+### Historical H3 correction — retain its direction
+
+Correction [6a8fd5fd801b](https://github.com/dakleyer/structural-awareness-contributions/commit/6a8fd5fd801be23a4ac3f9a8febd9a1c80befce3) on 2026-09-17T17:23:09+02:00 leaves the hypothesis unchanged but fixes its falsifier.
+
+**Unchanged complete hypothesis row**
+
+~~~~text
+| **H3 — Compositional residual expansion** | Under comparable evidence and computational resources, systems whose critical downstream decisions depend solely on lossy compressed representations will exhibit greater hidden residual and/or false confidence than systems with better context preservation or independent-source access. |
 ~~~~
 
-**Texto después — propuesto completo**
+**Historical metric/falsifier before — complete row**
 
-~~~~markdown
-## Reference failure-scenario expansion — two scenarios to six
+~~~~text
+| **H3** | **Source diversity and primary-source retrievability:** independent source routes and retrievable primary sources ÷ required material source routes. **Correlated-evidence error rate:** closures treating duplicated/correlated evidence as independent corroboration ÷ designated correlated-source branches. **Compression exposure:** number and criticality of downstream decisions dependent on one compressed source; propagation depth of compressed closures. **Systemic decision error** and **false confidence from recursive closure reuse** are reported against the oracle. | A lossy compressed path and a context-preserving/independent-source path have materially different hidden residual or false closure under comparable evidence and resources, contrary to the claimed preservation; or a candidate treats correlation as corroboration. |
 ~~~~
 
-### Pasaje 2 — Oración post-freeze
+**Current metric/falsifier after — complete row**
 
-Viejo verificado una vez fuera de citas de propuestas, línea 97 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-The post-freeze corpus now adds three independent reference scenarios:
+~~~~text
+| **H3** | **Source diversity and primary-source retrievability:** independent source routes and retrievable primary sources ÷ required material source routes. **Correlated-evidence error rate:** closures treating duplicated/correlated evidence as independent corroboration ÷ designated correlated-source branches. **Compression exposure:** number and criticality of downstream decisions dependent on one compressed source; propagation depth of compressed closures. **Systemic decision error** and **false confidence from recursive closure reuse** are reported against the oracle. | A lossy compressed path and a context-preserving/independent-source path show no material difference in hidden residual, false closure or coordination distortion under comparable evidence and resources; or the claimed advantage disappears once latency, disclosure and review burden are included. |
 ~~~~
 
-**Texto después — propuesto completo**
+The old falsifier said material difference defeats a hypothesis predicting greater harm under loss. The correction instead treats no material difference or vanished advantage under burden as limiting/falsifying evidence. Retain this correction; do not restore the mistaken direction.
 
-~~~~markdown
-The post-freeze corpus now adds four distinct reference failure-scenario families:
-~~~~
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambios14/15 fuera de pendientes. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+All six complete hypothesis rows are exact across the12 editions. Old false-falsifier restoration is rejected; full third-party scientific validation remains a different question. The [EP successor-reading candidate97](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) appends guidance and retains the frozen/working boundary; it is pending named GO, not applied. Next: actual new-study/interface consumers and remaining internal source histories.
 
 
-## Aplicaciones confirmadas — 12 octubre 2026
+## Third independent source review — first current-text reading, 14 October 2026
 
-- **Aplicado:** Ola2 cambio9 / propuesta14/15.
+The following is the isolated reviewer's own source-first account from its first execution boundary, preserved before continuation. Previous audit bodies were not opened. This is a **partial documentary reading**, not completion of this logical document, its historical/receiver integrations or the entire restoration/organization plan. The full first report is held unchanged under custody, SHA-256 `639141a6f7f283ec024fc59ce3847184dcb0a78045d776434cb4394e16cf3d4e`. Continuation uses the same isolated session and its own records; the coordinator supplies no previous findings.
 
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+### Source reading reported by the isolated reviewer
+
+The actual controlled requirements sourcepreserves S1–S14, T1–T4, H1–H6 and branch-specific KPI/falsification routes. Its full tables were read, including authority, preferences, oversight capacity, bounded subdelegation, multi-principal conflict, commitment, policy, accountability and evidence-to-decision conditions. T3's strongest PNI condition quantifies over every covered admissible state rather than only expectation. T4 includes total burden, finite review capacity and useful response margin. Correctness elsewhere cannot compensate a missing material decision basis without a represented dependency and fresh requalification. The specific S/T/H routes stated in 00N §3.6 agree with the actual requirement mapping. This documentary agreement establishes neither frozen-source history nor conformance of a runtime.
+
+The specific mapping comparison with 00N is also recorded in [00N VNext](./00N_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026). Current table agreement is a source relationship; the historical freeze and actual technical consumers remain in the independent review queue.
+
+
+### Restoration and organization at this evidence level
+
+No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
+
+The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.
+
+
+## Third source review — distinct proof obligations and retained correction, 14 October 2026
+
+The [00K source/evidence record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#third-source-review--00k-relative-proofs-and-preserved-corrections-14-october-2026) preserves the independently inspected old/current formulas and the current A23 correction. A19 requirement traceability, A21 declared grammar coverage, A23 reverse-conformance obligations and A24 projection to assigned labels do not establish the same property. Structural source manifests do not establish semantic fidelity. The source review does not restore old all-six sufficiency, create a requirement family or modify the frozen Requirements.
+
+A22 retains its valid simplified-model counting qualification and the conventional conjunction comparator; full A20 lifting remains a different obligation. The actual source/model code was read without execution. The affected A23 finding followed a disclosed earlier execution-report exposure and is not labelled perfectly blind. The corresponding record is also linked from Foundation VNext. Wider source-semantic, scenario and receiver checks remain open.
+
+
+## Unified restoration review 15 October 2026
+
+The unified plan retains the frozen requirements source and its working S10 successor as distinct editions. Applied proposal16 remains applied; it is not a restoration backlog item. Existing pending proposal97 concerns discovery from the EP closing note and is reproduced in EP VNext. Historical EP replacements require their own passage-specific authorization evidence; their usefulness does not establish that authorization. [Unified decisions, source checks and gates](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026). No requirement, original binary, source claim or successor is changed here.
+
+
+## Historical requirement reception — 15 October 2026
+
+Reviewer A read all225 current source lines and the changed historical units. The challenges→requirements wording retains S1–S14,T1–T4,H1–H6, declared scope and owner boundaries. Oscillation, saturation, false convergence and timeout controls add test conditions. H3's repaired falsifier correctly asks for no material difference or disappearance of the advantage after full burden, rather than treating the predicted difference itself as a refutation.
+
+The removed two-candidate summary has exact current receivers in this document: CAND-R1 at271–287 retains `Role_bound ↔ Role_effective`; CAND-R2 at289–305 retains `opportunity ≠ admissibility ≠ authority ≠ execution`, source blob `048caccffd4322b34b05017894070e5307036cd8`. Both remain candidate clarifications, not automatically promoted requirements. No old wording needs reinstatement. The complete wider historical frontier is reported in [Foundation VNext](01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026).
+

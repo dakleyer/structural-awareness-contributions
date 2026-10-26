@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 111. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # Oráculo / harness R01 C02 — VNext de auditoría
 
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
@@ -693,50 +695,12 @@ Todas las propuestas siguientes pertenecen exclusivamente a `R01-ORACLE-C02-READ
 
 ### R01-ORACLE-DELTA-001 — Separar versión del esquema y del paquete UC4
 
-**ID y estado:** R01-ORACLE-DELTA-001 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F004, R01-ORACLE-F005.  
-**Localización:** Upstream sources and attribution · única entrada de public experiment schema.  
-**Tipo:** sustitución editorial propuesta.
-
-**TEXTO ANTES**
-
-```markdown
-- UC #4 public experiment schema 1.1.0-r1, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
-  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-- UC #4 experiment schema **1.1.0**, published in package **1.1.0-r1**, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
-  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
-```
-
-**Razón y efecto semántico:** Evita confundir el contrato JSON con la revisión del ZIP. No cambia la versión ni el contenido de un sidecar congelado.
-
-**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
-
-**Dependencias y otras VNext:** UC4_INTEROPERABILITY_PROFILE.md, NELSON_BASELINE_IMPORT.md y registro de integración; cualquier corrección de esas fuentes requiere su propio expediente.
-
-**Comprobaciones necesarias y límites:** Contrastar schema_version y package_version del manifest del companion público; verificar cita y coincidencia única. No inferir validator-pass ni aceptación de Nelson.
-
-**Decisión de Iván:** pendiente sobre este ID concreto.  
-**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio24 incorporado en `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### R01-ORACLE-DELTA-002 — Hacer visible la reutilización de los harness propios
 
-**ID y estado:** R01-ORACLE-DELTA-002 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F002, R01-ORACLE-F003, R01-ORACLE-F007, R01-ORACLE-F008, R01-ORACLE-F009, R01-ORACLE-F010.  
-**Localización:** Antes de Interoperability rule; se conserva y repite el ancla literal.  
-**Tipo:** inserción propuesta.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio25 incorporado en `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
-**TEXTO ANTES**
-
-```markdown
 ## Interoperability rule
 
 R01 does **not** fork Nelson's experiment contract. The intended composition is:
@@ -776,74 +740,6 @@ R01 does **not** fork Nelson's experiment contract. The intended composition is:
 **Decisión de Iván:** pendiente sobre este ID concreto.  
 **Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
 
-### R01-ORACLE-DELTA-003 — Distinguir self-test del instrumento y aceptación del candidato
-
-**ID y estado:** R01-ORACLE-DELTA-003 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F001, R01-ORACLE-F009.  
-**Localización:** What is executable now · párrafo de apertura.  
-**Tipo:** inserción propuesta.
-
-**TEXTO ANTES**
-
-```markdown
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-The recorded self-test is successful because each control produces its frozen expected outcome. In the v0.9 record, the positive and tied-optimum vectors return PASS; the connector-boundary, inadmissible-route and cost/deadline vectors return FAIL; the no-reference vector remains INCONCLUSIVE. These are intentional instrumentation outcomes, not six successful technology trials. See [SELFTEST_RECORD_v0.9](./SELFTEST_RECORD_v0.9.md).
-
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-```
-
-**Razón y efecto semántico:** Impide leer el resultado global verde como éxito de toda tecnología o de todos los escenarios. Conserva la lista de funciones existente.
-
-**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
-
-**Dependencias y otras VNext:** SELFTEST_RECORD_v0.9.md y selftest_result_v0.9.json como evidencia intacta; ninguno se modifica ni recalcula.
-
-**Comprobaciones necesarias y límites:** Leer las seis entradas del registro fijado; separar expected control result, candidate status y scientific conclusion. No añadir números a una tasa poblacional.
-
-**Decisión de Iván:** pendiente sobre este ID concreto.  
-**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
-
-### R01-ORACLE-DELTA-004 — Delimitar diversidad de referencia, dominio y validación externa
-
-**ID y estado:** R01-ORACLE-DELTA-004 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F006, R01-ORACLE-F010.  
-**Localización:** Claim boundary · párrafo único final.  
-**Tipo:** inserción propuesta.
-
-**TEXTO ANTES**
-
-```markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-
-The two exact trajectory reference paths are separately coded by the same maintainer; their agreement is an implementation cross-check, not independent external validation. The additional exhaustive-versus-dynamic-programming DAG controls cover their declared finite, nonnegative conjunctive domain. They do not establish all R01 relational/parity profiles, collective dynamics, stochastic performance or real operational resource measurements. Those require separately scoped correspondence and review before campaign admission.
-```
-
-**Razón y efecto semántico:** Aclara la relación entre dos implementaciones, un contraste algorítmico y la cobertura completa de R01. No retira el soporte acotado ni presupone errores fuera del dominio.
-
-**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
-
-**Dependencias y otras VNext:** reference.py, reference_secondary.py, reference_graph_exhaustive.py, reference_graph_dp.py, oracle/README y COMPUTABILITY_AND_ORACLE_PLAN; código y freeze permanecen intactos.
-
-**Comprobaciones necesarias y límites:** Revisar admisibilidad y codificación del dominio de cada método y manifest de controles; cotejar M16/M17 y C02 antes de cualquier afirmación más amplia. Sin nueva ejecución durante la preparación.
-
-**Decisión de Iván:** pendiente sobre este ID concreto.  
-**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
-
 ### Consolidación final
 
 Se recomienda preparar DELTA-001–004 como cambios documentales compatibles entre sí, únicamente después de decisión de Iván y revalidación sobre la fuente entonces vigente. No se propone aplicar deltas de código, modificar los 30 archivos del freeze, alterar resultados o cerrar C02. F003/F005/F007/F008/F010 mantienen verificaciones e integración pendientes; no se resuelven mediante estas mejoras del README.
@@ -852,90 +748,9 @@ Se recomienda preparar DELTA-001–004 como cambios documentales compatibles ent
 
 Las propuestas 001–004 anteriores permanecen íntegramente como historia. Las siguientes se preparan por **IVAN-R01-ORACLE-20261006-03** sobre la misma fuente del README, blob `282d97ed967898a086303927872fbdfcaf37dd70`, ahora reconfirmado en corte `715027943eefb372fdb4541a23d288bffdedbdb2`. Ninguna se incorpora por esta entrega.
 
-### R01-ORACLE-DELTA-005 — Explicar el propósito antes de la atribución técnica
-
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Párrafo de estado, después del título. **Hallazgos:** Pasadas 1/3 y futura lectura humana; límites F001/F011/F012.
-
-**TEXTO ANTES**
-
-```markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-
-This instrument compares a recorded candidate choice or execution with the best admissible route in a small frozen world, under declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
-```
-
-**Razón y efecto:** Añade la pregunta que responde el instrumento antes de los términos C02/UC4/sidecar. No cambia su estado ni amplía evidencia.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
-
 ### R01-ORACLE-DELTA-006 — Separar modo, efectos y métricas antes de reproducir
 
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Antes del comando de reproducción. **Hallazgos:** F011/F012/F016; pasadas 1–3.
-
-**TEXTO ANTES**
-
-```markdown
-Run locally from this directory:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-Interpret results by their declared mode. A batch PASS checks the candidate's declared selection against a bounded reference and frozen measurements; it is not proof of an executed effect. The interactive instrumentation additionally checks matching environment execution evidence. Native `completion` and `legitimate_q` fields do not automatically establish the scenario's timely admissible-delivery metrics: the current evaluator checks deadline separately. Full scenario metrics and real-runtime isolation remain profile-specific verification obligations.
-
-Run locally from this directory:
-```
-
-**Razón y efecto:** Hace explícita una frontera documentada en código/contratos. Evita importar choice, completion o q sintéticos como entrega/seguridad empírica. No corrige código ni recalcula evidencia.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
-
-### R01-ORACLE-DELTA-007 — Hacer navegables las fuentes propias del bloque Corpus reuse
-
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Bloque Corpus reuse, cinco referencias planas. **Hallazgos:** Pasada 3; consecuencias de trazabilidad de F002/F003/F007.
-
-**TEXTO ANTES**
-
-```markdown
-Corpus reuse:
-
-- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
-- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
-- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
-- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
-- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-Corpus reuse:
-
-- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)
-- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)
-- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
-- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
-- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
-```
-
-**Razón y efecto:** Conserva los cinco destinos y su orden; modifica únicamente el formato de enlace para que la fuente sea accesible.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio29 incorporado en `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -982,109 +797,7 @@ El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.m
 |---|---|---|---|---|---|
 | 24 · Separar versión de schema y paquete UC4 | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Bajo | Pendiente de decisión |
 | 25 · Explicar reutilización por familia sin trasladar resultados | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
-| 26 · Self-test verde distinto de tecnología que pasa | Primera · 1 — Claridad de evidencia y estado | Alto | Bajo | Bajo | Pendiente de decisión |
-| 27 · Límite de dominio e independencia del oráculo | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
-| 28 · Propósito del oráculo antes de la atribución | Siguiente · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
 | 29 · Distinguir modo, efectos y métricas antes de reproducir | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
-| 30 · Convertir referencias propias en rutas navegables | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
-
-### Cambio 24 — Separar versión de schema y paquete UC4
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** No mezclar schema 1.1.0 con release 1.1.0-r1.
-
-**Qué podría quedar desactualizado o afectado:** Companion mutable, sidecar y validador pueden usar versiones distintas; corregir solo el README deja el perfil o import note desfasados.
-
-**Qué cuesta prepararlo:** Cotejo del manifest pin y dos documentos receptores; no cambiar sidecars congelados.
-
-**Dependencias conocidas:** [UC4_INTEROPERABILITY_PROFILE.md](UC4_INTEROPERABILITY_PROFILE.md) · [NELSON_BASELINE_IMPORT.md](NELSON_BASELINE_IMPORT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Verificar vigencia del pin antes de incorporar; source-review no equivale a validator-pass.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-001--separar-versión-del-esquema-y-del-paquete-uc4); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 25 — Explicar reutilización por familia sin trasladar resultados
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Hacer visible qué puede usarse de Q1a/00K/00L/00I/C3 y qué sigue sin mapping.
-
-**Qué podría quedar desactualizado o afectado:** La tabla puede quedar vieja o sumar campañas distintas como evidencia R01; desarrollar un adapter es otra acción.
-
-**Qué cuesta prepararlo:** Siete familias con owners/versiones y comparación de límites; no importación ni ejecución.
-
-**Dependencias conocidas:** [README.md](../../../fixtures/RS-00E-Q1a/README.md) · [README.md](../../../fixtures/00K-SUITE/README.md) · [README.md](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) · [README.md](../../../fixtures/00I-STATEFUL/README.md) · [README.md](../../../fixtures/00G-HF-ORACLE-v0.4/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Alinear con matriz existente, tareas 1/2 y workplan; tabla propuesta, no admisión.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-002--hacer-visible-la-reutilización-de-los-harness-propios); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 26 — Self-test verde distinto de tecnología que pasa
-
-**Impacto esperado: Alto. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Primera.** Evitar que seis controles esperados se presenten como seis éxitos de tecnologías.
-
-**Qué podría quedar desactualizado o afectado:** Números o estados del lote pueden quedar desactualizados; la explicación debe citar v0.9 en vez de decir siempre current.
-
-**Qué cuesta prepararlo:** Un párrafo y cotejo de las seis entradas fijadas; no recalcular evidencia.
-
-**Dependencias conocidas:** [SELFTEST_RECORD_v0.9.md](SELFTEST_RECORD_v0.9.md) · [selftest_result_v0.9.json](selftest_result_v0.9.json). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Fijar registro usado y distinguir control esperado, candidate status y conclusión.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-003--distinguir-self-test-del-instrumento-y-aceptación-del-candidato); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 27 — Límite de dominio e independencia del oráculo
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Impedir que acuerdo de dos implementaciones o un DAG finito parezca validación externa del R01 completo.
-
-**Qué podría quedar desactualizado o afectado:** Si otros README/métricas mantienen esa extrapolación el efecto queda incompleto; futuras ampliaciones pueden cambiar el dominio.
-
-**Qué cuesta prepararlo:** Cotejo del dominio/premisas y recibos ya existentes, M16/M17, sin nuevas campañas.
-
-**Dependencias conocidas:** [README.md](README.md) · [SELFTEST_RECORD_v0.9.md](SELFTEST_RECORD_v0.9.md) · [selftest_result_v0.9.json](selftest_result_v0.9.json) · [UC4_INTEROPERABILITY_PROFILE.md](UC4_INTEROPERABILITY_PROFILE.md) · [COMPUTABILITY_AND_ORACLE_PLAN.md](../COMPUTABILITY_AND_ORACLE_PLAN.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Conservar soporte acotado y límites; no declarar independencia por relectura de Codex.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-004--delimitar-diversidad-de-referencia-dominio-y-validación-externa); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 28 — Propósito del oráculo antes de la atribución
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Que una persona entienda entrada, evaluación y resultado antes de fuentes técnicas.
-
-**Qué podría quedar desactualizado o afectado:** La apertura debe concordar con el modo del instrumento y no parecer servicio desplegado.
-
-**Qué cuesta prepararlo:** Un párrafo y cotejo con interfaces actuales.
-
-**Dependencias conocidas:** [README.md](README.md) · [TRACE_CONTRACT.md](TRACE_CONTRACT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener estado limited implementation y límites del lote.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-005--explicar-el-propósito-antes-de-la-atribución-técnica); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 29 — Distinguir modo, efectos y métricas antes de reproducir
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Que una instrucción de reproducción no confunda intento, efecto y aceptación.
-
-**Qué podría quedar desactualizado o afectado:** El texto puede prometer métricas o aislamiento que el runner no produce; datos instrumentales no son costes reales.
-
-**Qué cuesta prepararlo:** Leer contrato/mode y etiquetas de salida del instrumento; ninguna ejecución de programa.
-
-**Dependencias conocidas:** [README.md](README.md) · [TRACE_CONTRACT.md](TRACE_CONTRACT.md) · [ISOLATION_CONTRACT.md](ISOLATION_CONTRACT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Confirmar correspondencia documental con los modos; evitar nueva autorización de ejecución implícita.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-006--separar-modo-efectos-y-métricas-antes-de-reproducir); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 30 — Convertir referencias propias en rutas navegables
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Que el lector abra la fuente correcta desde Corpus reuse.
-
-**Qué podría quedar desactualizado o afectado:** Enlaces y versiones pueden quedar viejos; ruta existente no demuestra conservación semántica.
-
-**Qué cuesta prepararlo:** Cuatro enlaces y comprobar destinos fijados.
-
-**Dependencias conocidas:** [README.md](../../../fixtures/00G-HF-ORACLE-v0.4/README.md) · [00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) · [00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener atribución y límites de cada origen.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-007--hacer-navegables-las-fuentes-propias-del-bloque-corpus-reuse); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Líneas de trabajo por concretar — no cambios ejecutables
 
@@ -1124,11 +837,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 |---|---|---|---|---|---|
 | 24 | Documental condicionado; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
 | 25 | Plan de lectura; incompleto; Pendiente de decisión | Alto | Medio | Medio | Siguiente |
-| 26 | Documental preparado; Pendiente de decisión | Alto | Bajo | Bajo | Primera |
-| 27 | Documental preparado; Pendiente de decisión | Alto | Medio | Medio | Primera |
-| 28 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
 | 29 | Documental preparado; Pendiente de decisión | Alto | Medio | Medio | Siguiente |
-| 30 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Después |
 | 46 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
 | 47 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Siguiente |
 | 48 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
@@ -1152,30 +861,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 **Condición y orden de decisión:** Cada fila necesita contrato/pin, parte reutilizada, resultado que no transfiere y gate propio;43/46–49 no se cierran por publicar la tabla. Revisar junto con 46, 48, 49. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
-**Cambio 26 — Documental preparado.** PASS/FAIL/INCONCLUSIVE del self-test son resultados esperados del instrumento, no seis tecnologías exitosas. La advertencia ataca una lectura materialmente errónea.
-
-**Beneficio esperado:** Evitar que seis controles esperados se presenten como seis éxitos de tecnologías. **Riesgo concreto:** Números o estados del lote pueden quedar desactualizados; la explicación debe citar v0.9 en vez de decir siempre current. **Coste de preparar y mantener:** Un párrafo y cotejo de las seis entradas fijadas; no recalcular evidencia.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** CotejarSELFTEST_RECORD_v0.9/resultv0.9 y mantener dominio, denominador y expectativas; ningún rerun o eficacia comparativa. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 27 — Documental preparado.** Dos rutas codificadas por el mismo mantenedor son cross-check, no validación independiente. El dominioDAG finito no cubre todoR01.
-
-**Beneficio esperado:** Impedir que acuerdo de dos implementaciones o un DAG finito parezca validación externa del R01 completo. **Riesgo concreto:** Si otros README/métricas mantienen esa extrapolación el efecto queda incompleto; futuras ampliaciones pueden cambiar el dominio. **Coste de preparar y mantener:** Cotejo del dominio/premisas y recibos ya existentes, M16/M17, sin nuevas campañas.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Conservar dominio no negativo/conjuntivo, atribución y límites de perfiles. No presentar el cotejo como independencia, escalabilidad o ejecución tecnológica. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 28 — Documental preparado.** Explicar propósito antes del detalle facilita lectura. No crea un segundo oráculo ni desplaza la aceptación del escenario.
-
-**Beneficio esperado:** Que una persona entienda entrada, evaluación y resultado antes de fuentes técnicas. **Riesgo concreto:** La apertura debe concordar con el modo del instrumento y no parecer servicio desplegado. **Coste de preparar y mantener:** Un párrafo y cotejo con interfaces actuales.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** La inserción queda antes de instrucciones técnicas, conserva fuentes y no convierteREADME en contrato nuevo. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
 **Cambio 29 — Documental preparado.** Separar batch, ejecución interactive y métricas nativas evita acreditar efecto por una selección o una regresión verde.
 
 **Beneficio esperado:** Que una instrucción de reproducción no confunda intento, efecto y aceptación. **Riesgo concreto:** El texto puede prometer métricas o aislamiento que el runner no produce; datos instrumentales no son costes reales. **Coste de preparar y mantener:** Leer contrato/mode y etiquetas de salida del instrumento; ninguna ejecución de programa.
@@ -1183,14 +868,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
 
 **Condición y orden de decisión:** LeerTRACE_CONTRACT/ISOLATION_CONTRACT y las métricas originales; conservar deadline/efecto/legitimidad como verificaciones diferentes, sin activar ejecución. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 30 — Documental preparado.** Son cinco rutas propias, no cuatro como decía el cálculo antiguo de esfuerzo. La mejora es navegación y no adopción de los resultados enlazados.
-
-**Beneficio esperado:** Que el lector abra la fuente correcta desde Corpus reuse. **Riesgo concreto:** Enlaces y versiones pueden quedar viejos; ruta existente no demuestra conservación semántica. **Coste de preparar y mantener:** Son cinco enlaces; revisar cinco destinos y atribuciones, no cuatro. Esfuerzo Bajo para navegación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Abrir los cinco destinos, mantener texto de atribución y scope; revisar desde el directoriooracle, no desde el de laVNext. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 46 — Etapa posterior; no parche.** Paso3 combina envolventeUC4 con sidecarR01. El trabajo es perfil de compatibilidad, no cambio autorizado por el ranking.
 
@@ -1299,171 +976,212 @@ Los datos y límites están en [EP VNext](../../../../../../architectural-contri
 
 <a id="ola2-cambio-03"></a>
 
-## Ola 2 — cambio 3: Oráculo: declarar qué dominio respalda su acuerdo
-
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 27; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
-
-**Fuente actual:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `a467c6d60803bf0864dd23ba260bd92d67aec993`. **Ubicación:** §Claim boundary, párrafo completo.
-
-**Justificación:** Hace visible que dos implementaciones concordantes son un cotejo interno sobre un dominio delimitado; ayuda a decidir qué tecnología o perfil puede compararse después.
-
-**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
-
-**Riesgo concreto:** Una explicación de dominio puede ser leída como nuevo aval. Mantener el dominio observado y los gates; no ampliar qué perfiles se consideran probados. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** Controles DAG, no negativos/conjuntivos, alcance R01, C11/T03 y autoría. No ejecutar pruebas ni alterar referencias/resultados.
-
-### §Claim boundary, párrafo completo
-
-Viejo verificado una vez fuera de citas de propuestas, línea 169 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-
-The reference implementations provide internal cross-checks over their declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. Their agreement does not establish independent validation or coverage of other R01 profiles. Any broader evaluation must first document the corresponding domain and evidence.
-~~~~
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
 
----
+## Propuestas aplicadas retiradas
 
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md).
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="r01-oracle-delta-003--distinguir-self-test-del-instrumento-y-aceptación-del-candidato"></a>
+<a id="r01-oracle-delta-004--delimitar-diversidad-de-referencia-dominio-y-validación-externa"></a>
+<a id="r01-oracle-delta-005--explicar-el-propósito-antes-de-la-atribución-técnica"></a>
+<a id="r01-oracle-delta-007--hacer-navegables-las-fuentes-propias-del-bloque-corpus-reuse"></a>
+<a id="cambio-26--self-test-verde-distinto-de-tecnología-que-pasa"></a>
+<a id="cambio-27--límite-de-dominio-e-independencia-del-oráculo"></a>
+<a id="cambio-28--propósito-del-oráculo-antes-de-la-atribución"></a>
+<a id="cambio-30--convertir-referencias-propias-en-rutas-navegables"></a>
+<a id="ola-2--cambio-3-oráculo-declarar-qué-dominio-respalda-su-acuerdo"></a>
+<a id="claim-boundary-párrafo-completo"></a>
+<a id="ola-2--redacción-directa-del-cambio-3"></a>
+<a id="claim-boundary-párrafo-completo-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="ola-3--cambio-8-leer-correctamente-los-controles-del-self-test"></a>
+<a id="ola-3--cambio-9-propósito-del-oráculo-en-una-frase-operativa"></a>
+<a id="ola-3--cambio-10-cinco-referencias-convertidas-en-enlaces"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-03"></a>
-
-## Ola 2 — redacción directa del cambio 3
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 27; la anterior queda como antecedente.
-
-**Propósito:** Hace visible que dos implementaciones concordantes son un cotejo interno sobre un dominio delimitado; ayuda a decidir qué tecnología o perfil puede compararse después.
-
-**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `a467c6d60803bf0864dd23ba260bd92d67aec993`.
-
-### §Claim boundary, párrafo completo
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
-~~~~
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio27 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio3 / propuesta27.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
----
-
 <a id="ola3-cambio-08"></a>
-
-## Ola 3 — cambio 8: Leer correctamente los controles del self-test
-
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente26 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** What is executable now, antes de la enumeración; línea75, viejo localizado una vez fuera de quotes.
-
-**Razón:** Explica por qué el self-test es correcto aunque sus controles produzcan PASS, FAIL e INCONCLUSIVE.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The [v0.9 calibration record](./SELFTEST_RECORD_v0.9.md) has expected PASS outcomes for positive and tied-optimum controls, expected FAIL outcomes for connector-boundary, inadmissible-route and cost/deadline controls, and an expected INCONCLUSIVE outcome for the no-reference control. The self-test succeeds when each control returns its registered outcome.
-
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-~~~~
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-**Evidencia:** SELFTEST_RECORD_v0.9 mantiene dosPASS, tresFAIL y unINCONCLUSIVE como outcomes registrados; la frase explica esa calibración, con seis controles. El registro fuente se conserva.
-
-
----
-
 <a id="ola3-cambio-09"></a>
-
-## Ola 3 — cambio 9: Propósito del oráculo en una frase operativa
-
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente28 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Párrafo Status inicial; línea7, viejo localizado una vez fuera de quotes.
-
-**Razón:** Explica entrada, comparación y condiciones antes de atribución y detalles técnicos.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-**Status: limited implementation with a successful Stage-0 instrumentation self-test · 5 October 2026.** This directory implements the C02 instrument slice for R01. It compares a recorded candidate choice or execution with the best admissible route in a frozen world, using declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
-~~~~
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-
----
-
 <a id="ola3-cambio-10"></a>
 
-## Ola 3 — cambio 10: Cinco referencias convertidas en enlaces
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente30 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+</details>
 
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Bloque Corpus reuse; línea30, viejo localizado una vez fuera de quotes.
 
-**Razón:** El lector puede abrir directamente escenarios, métodos y trazas desde el oráculo.
+## Instrumentos en la ruta caso–método–evidencia — 12 octubre 2026
 
-**Texto antes — viejo literal completo**
+El nuevo acceso DDS remite a este oráculo/harness y su freeze v0.9 e interoperability profile. Se conserva la distinción entre referencia del evaluador, observaciones del candidato, control, decisión, acción intentada y efecto. R01 usa también oráculos de acceso a información: no se traduce ese rol automáticamente a un juez de aceptación o proveedor de verdad. El self-test y sus fuentes quedan intactos. C11/T03 y UC-4 conservan sus registros y admisión; añadir un vínculo no ejecuta una campaña. [DDS VNext](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) y [EP VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md) registran el cambio de lectura. No hay modificación de código, thresholds, result JSON, freezes o instrumentos.
 
-~~~~markdown
-Corpus reuse:
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
 
-- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
-- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
-- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
-- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
-- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
-~~~~
 
-**Texto después — propuesto completo**
 
-~~~~markdown
-Corpus reuse:
+## Incorporación de la primera tanda de lectura — 12 octubre 2026
 
-- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)
-- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)
-- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
-- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
-- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
-~~~~
+Iván autoriza ejecutar la ruta UC-21→objetivos→Challenges→DDS→campañas→resultados. Las adiciones descritas aquí se incorporan conservando todos los bytes previos y vínculos de las fuentes. La terminología de lectura remite a sus propietarios: Challenge, escenario base, escenario de evaluación/perfil tecnológico y campañas/operaciones mantienen sus contextos. No se renombra un archivo, se modifica un contrato o se ejecuta una campaña.
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
+La ficha de esta tanda aplicada se retira de la cola activa; sus textos completos están en la [versión de preparación](https://github.com/dakleyer/structural-awareness-contributions/blob/ccf0d4b897eb56498de8fd64d97bf94af496e614/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md). El plan de las tandas 2–6 sigue vigente: inventario de dependencias/versiones, agrupación con unidad explícita, informes de campaña y conciliación. La entrada de Issue se actualiza después de verificar las fuentes publicadas. Sus enlaces de envío se conservan.
+
+
+## Tanda 2 — inventario de rutas, versiones y dependencias · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván confirma que «no cambiar nada» significa conservar la información: autoriza continuar las ayudas de navegación, sin borrar contenido. El UC-21 en PDF y su entrada pública quedan para el final. La ruta de trabajo sigue UC-21 → objetivos → Challenges → DDS → campañas → resultados.
+
+Se obtuvieron los árboles completos y los bytes de los cortes Contributions `af344bd93d8e0ae0e9912dbc08055ded3b25cd25` (2.200 archivos) y rama UC-21 `aafc9a49346a7b2030563d3b8c1bde51de3c6446` (77 archivos). Cada uno de los 2.277 blobs se cotejó contra su identidad Git. Se extrajeron enlaces Markdown de las 967 páginas de Contributions y las 38 de la rama del caso; el análisis distingue documentos actuales, VNext y archivos preservados. Las rutas explícitas y fragmentos examinados en los Markdown actuales resolvieron; no se extiende ese resultado a todos los enlaces web, comandos o formatos de manifiesto.
+
+La lectura humana detecta 19 documentos actuales sin enlace Markdown entrante: dos documentos del diagnóstico, un perfil FG-TIDA, cuatro guías de la segunda serie, tres guías/recapitulaciones compartidas y nueve explicaciones de coste/tipos. Las nueve últimas ya están referidas por los registros JSON; falta acceso directo para el lector. Se añaden tres accesos desde el índice DDS y dieciséis desde el índice de extensiones. La modificación es navegación, no una nueva prueba científica.
+
+Los trece CURRENT_STUDY_RECORD conservan su pregunta y Stage A/Simplified. Se comprobaron 186 referencias de archivo explícitas dentro de esos registros, con cero ausentes. Se verificaron 173 bindings SHA-256 de los mapas `files` de FREEZE/MANIFEST en extensiones, sin divergencias en ese alcance, y los cinco blobs del instrumento diagnóstico v0.2 coinciden con su freeze. El perfil FG-TIDA v0.2 consume expresamente el diagnóstico v0.1: se explica esa relación, sin reemplazar su dependencia por v0.2 o v0.3.
+
+La custodia de 92 copias al pin409bfa9 sigue identificando su origen auténtico. En el receptor actual, 70 permanecen idénticas y 22 evolucionaron: 16 documentos y seis revisiones. Se cotejaron las diferencias documentales: lectura A/B/C, sucesores coste/tipos y aclaraciones de resultados, sin convertir las copias en campañas independientes. Las 16 fuentes correspondientes en feasibility mantienen sus blobs originales. Las seis VNext tienen evolución propia; no se abre otro expediente ni se declara independencia por duplicación.
+
+Se verificaron los árboles de 39 referencias históricas de estos dos repositorios, recuperando cada destino citado por Markdown actual. Incluyen el envío UC-21 aec08fb5, la custodia409bfa9 y el paquete S5 en2c7f545, ausente del main actual. La existencia y ubicación del paquete S5 están comprobadas; su ZIP no se ejecutó aquí. Los enlaces externos de otros propietarios mantienen sus versiones y quedan para la revisión de las relaciones materiales, sin asimilarlos a archivos del head.
+
+**Prioridad Primera; impacto Alto; riesgo Bajo para estas adiciones; esfuerzo Medio.** Beneficio: el lector llega a guías, evidencia y versiones sin depender de claves JSON o de adivinar carpetas. Riesgo concreto: confundir un documento actualizado con el input de un run; se conserva el pin/freeze y se explica la distinción. Coste: lectura de los materiales identificados, cotejo de destinos y mantenimiento de tres pequeñas adiciones. La auditoría de identidad no cierra las pasadas científicas ni las tandas 3–6.
+
+El [plan común](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) sigue fijando el orden. No se reubica, renombra o elimina un archivo; el contenido previo se conserva byte por byte. Los before/after completos se registran en las VNext propietarias antes de incorporar las adiciones. La ficha aplicada se retira de la cola activa y permanece en Git history.
+
+
+## Tanda 2 aplicada — decisión concreta de Iván, 12 octubre 2026
+
+Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
+
+Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/structural-awareness-contributions/blob/b8729701ff0303363d48fe63a629587d4b12a6e2/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.
+
+
+## Tanda 4 — método, instrumentos, comparadores y evidencia · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda3 y pide preparar la siguiente. Las cuatro adiciones anteriores ya se incorporaron en Contributions `269d60cc478d2756516c631f587efc074e822eed` y la rama UC-21 `5c2a969bfbfc5eb8065537f3fade718e756dcdad`; se conservan los bytes anteriores y sus fichas aplicadas salen de pendientes. Esta tanda publica lectura de contratos y cuatro propuestas nuevas, aún pendientes del GO de la tanda4. PDF y entrada final UC-21 quedan reservados.
+
+### Lo que sostiene la cadena
+
+Se leyeron README/adapter/policy/isolation/broker/trace/bridge R01, registro y resultado v0.9, el freeze de30artefactos, perfil diagnóstico StageA v0.2, perfiles B/C y campos de registro T03. La lectura estática de real_admission y pasajes de verify.py se usa para precisar qué comprueba la admisión; no se ejecutó el harness, código del corpus ni producto. Las dos referencias DAG se examinaron por su dominio declarado y su papel de contraste; no se declara una nueva demostración de corrección del algoritmo.
+
+Stage A contrasta especificaciones con el Challenge; B contrasta una arquitectura con el paquete de especificación congelado; C contrasta una implementación con el Challenge y efectos observados. Los perfiles B/C preservan resultados por requisito, continuidad, negativos/mutations cuando aplican, comparadores y retroalimentación por sucesor. El instrumento común aporta separación de vistas, operaciones/ledgers/traces/integridad; no cambia la referencia sustantiva de la etapa por sí mismo.
+
+R01 separa adapter, broker, gate policy, trace y evaluator. La policy fija criterios y no determina la verdad del mundo; los métodos de referencia no inventan thresholds. El contrato de trazas distingue seal pre-oracle y result seal; el aislamiento exige frontera real del candidato, no sólo quitar campos de un objeto in-process. Para la comparación se fijan acceso, autoridad, recursos, capacidad y tiempo; un control convencional exitoso cuenta. Self-test0.7/freeze0.9 conserva seis vectores de resultados mezclados: dosPASS,tresFAIL,unoINCONCLUSIVE esperados. SELFTEST_PASS significa cumplir esos controles, no seis tecnologías aceptadas.
+
+### Versiones y evidencia comprobadas
+
+Los30bindings Git del freezev0.9 coinciden con el árbol vivo de esta tanda. Instrument0.7 y freeze0.9 son identidades distintas y ambos constan en el registro. C02 R01 y C3 HF evalúan perfiles/predicados propios; el C3 de instrumento y el brazoC3 de otro protocolo tampoco son equivalentes. El diagnóstico StageA v0.2 sigue como audit candidate de su freeze; el checker v0.3 audit candidate es un sucesor separado, no sustitución de los bytes v0.2 ni aceptación retroactiva.
+
+Se consultaron IssueUC-4 y sus diez comentarios públicos el12octubre. La fuente distingue package1.1.1/schema1.0.0 y schema1.1.0-r1; preserva contratos previos. La conversación más reciente ofrece SF-011 al pinv0.1.3 para una futura revisión de adapter y dice que no admite campaña/run. Esta lectura no identifica aceptación de nuestro puente R01. El perfil consultado mantieneR01-BRIDGE-DRAFT y su esquema/semántica/revisión/capacidades siguen siendo dimensiones distintas. No se enviaron mensajes ni se importó elZIP de esquema.
+
+### Hallazgo de admisión y límite preciso
+
+real_admission.py valida flags/status, números, modos de aislamiento y presencia de referencias. Su `_present` comprueba valor distinto deNone/stringvacío/listavacía; no resuelve un commit/hash ni autentica el archivo o la revisión. verify.py construye hashes ficticios y labels de review en el control sintético admitido. Ese control es coherente con una prueba de instrumento, pero no demuestra la evidencia de una campaña real. La propuesta pide que la guía conecte los campos declarados con los artefactos y reviews verificables. No cambia el validador congelado ni afirma que esta lectura ejecutó un falso PASS.
+
+### Adecuación y prioridad
+
+El diseño general mantiene referencias y ownership coherentes. Dos mejoras de lectura son prioritarias: abrir los contratos en secuencia práctica y conectar el diseño antiguo del bridge con los perfiles DDS publicados. Dos complementos aclaran selección de instrumento y evidencia que respalda la admisión. Cuatro adiciones, Alto impacto esperado/Bajo riesgo/Medio esfuerzo; el beneficio es seleccionar y preparar correctamente el estudio. Riesgo concreto: confundir calibration, declaración, conformance o efecto; los textos identifican su objeto y artefacto. No alteran policy, thresholds, código, resultados o freezes. Orden: guía oracle→selección DDS→bridge→evidencia adapter, como una tanda de enlaces conjunta.
+
+
+La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
+
+
+## Tanda 4 aplicada y publicación en main — decisión de Iván, 12 octubre 2026
+
+Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md). Se conservan auditorías y otras decisiones abiertas.
+
+Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 24 | Separar versión de schema y paquete UC4 | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
+| 25 | Explicar reutilización por familia sin trasladar resultados | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
+| 29 | Distinguir modo, efectos y métricas antes de reproducir | research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md | Aplicado |
+
+
+
+## Detailed restoration proposals 15 October 2026
+
+Iván requests complete literal before/after before execution. The [joint source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) owns cross-document order; this existing VNext retains its source-specific pairs. Previous reviews and proposals remain unchanged.
+
+
+### 111 — Detail the next oracle successor packet while retaining completed work and inactive tasks
+
+**Source:** `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `da0a8c4830841936c1313dc8799b7291342b122d`. **Location:** ## Claim boundary.
+
+**State:** Applied — owner-authorized 15 October 2026. Source blob `f511c309fca30942deff376d9b52fb301c3c64b2`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+
+**Benefit:** Makes the source/reference/control/caller prerequisites explicit before optional later engineering.
+
+**Risk:** Readers could confuse preparation with an active campaign or overgeneralize calibration; existing closure and task states are retained.
+
+**Effort:** Read UC4/interface/isolation and selected pilot clauses; future engineering remains separately estimated.
+
+**Dependencies and order:** Actual source/schema and CTv1 scope selection; C11/T03 separate authorization; Completed1/2 and frozen calibration unchanged.
+
+**Text before — complete current passage**
+
+``````text
+## Claim boundary
+
+The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+## Claim boundary
+
+The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+
+### Next scoped successor decision
+
+The completed documentary work on tasks1/2 retains its bounded receipt. Further tasks3–8 remain inactive until their own scope and decision. A prospective successor packet identifies: the exact UC4/source-schema edition and correspondence; one selected CTv1 profile and admitted clauses; clause → predicate → private reference → fail-capable/positive control mapping; attempted versus observed effect and operation/cost accounting; candidate/caller/private-state isolation; and the accepted adapter/broker/reset/resource/stop conditions.
+
+Backend expansion is optional and separately scoped. Before any C11 registration/T03 admission or real execution, identify the selected reference, remaining schema/caller/isolation gaps and actual native evidence required. Calibration results remain calibration; the packet does not launch those tasks, reopen applied text or manufacture a technology result. The [existing plan review](./README_VNext.md) records the precise successor proposal and decision.
+``````
+
+**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
+
+**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 111.** The complete current Claim boundary and proposed successor section are present. The packet distinguishes calibration, registration, admission and real execution; it preserves the bounded receipt for tasks 1/2 and leaves 3–8 inactive. Its method-index counterpart 110 also matches its source. No candidate, broker, oracle, freeze or run changed.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 111. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
+
+
+## Execution reaudit 15 October 2026
+
+Re-read111 with110 and the future R01 packet. The reader entry does not launch tasks3–8; original oracle code, source freeze, expected results and bounded completed tasks1/2 are unchanged. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical control reception consolidated — 15 October 2026
+
+C5 read all 19 oracle-control events in its allocation against the complete current oracle README and the actual retained paragraphs. The CTv1 prevalidation, eight-family mapping, S5 failure witness, F011–F016 limits, effect/resource tables and correspondence controls remain. Raw/normalised payloads, temporal order, nulls, paid information, source authority and unknowns were not replaced by a benchmark PASS. Tasks 1/2 keep their bounded documentary completion; steps 3–8 remain prospective and inactive.
+
+Applied waves and their literal variants have authentic predecessors and source receipts. They do not re-enter the active queue when an old header says pending. The current descriptions preserve same-maintainer, finite/DAG/reference-domain limits, actual-effect versus selected-batch distinctions and q/deadline obligations. Reading schema fields, source hashes or a self-test record does not establish semantic admission or native isolation. No source, reference world, result or script was changed by this reception review.
+
+The common [restoration decisions](../../../README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) and [EP branch map](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#historical-damage-control-consolidation-and-remaining-boundaries--15-october-2026) retain the cross-document consequences. This is the completed historical-control allocation, not another independent scientific execution or completion of all neighbouring-source reviews.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #24, #25, #29 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #24: `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md` (current blob `65c03bae4004f4e6d7ecf4f9a825177f4c85faa3`); #25: `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md` (current blob `65c03bae4004f4e6d7ecf4f9a825177f4c85faa3`); #29: `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md` (current blob `65c03bae4004f4e6d7ecf4f9a825177f4c85faa3`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

@@ -627,3 +627,83 @@ If these ten conditions hold, Stage B has a credible first implementation path. 
 **Not reused as a false equivalence:** UC-4 Stage-0 as proof of R01; ISO 42010 architecture-description conformance as proof of functional realization; a generic benchmark score as Stage C validation; a batch harness PASS as evidence of actual effects; a formal proof beyond its properties; a source-owner statement as independent empirical validation.
 
 **DDS differential:** the same Challenge lineage is preserved across specification discovery, architecture verification and eventual implementation validation, while each stage has a different authoritative reference and a non-promotable claim boundary.
+
+
+## Tanda 4 — método, instrumentos, comparadores y evidencia · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda3 y pide preparar la siguiente. Las cuatro adiciones anteriores ya se incorporaron en Contributions `269d60cc478d2756516c631f587efc074e822eed` y la rama UC-21 `5c2a969bfbfc5eb8065537f3fade718e756dcdad`; se conservan los bytes anteriores y sus fichas aplicadas salen de pendientes. Esta tanda publica lectura de contratos y cuatro propuestas nuevas, aún pendientes del GO de la tanda4. PDF y entrada final UC-21 quedan reservados.
+
+### Lo que sostiene la cadena
+
+Se leyeron README/adapter/policy/isolation/broker/trace/bridge R01, registro y resultado v0.9, el freeze de30artefactos, perfil diagnóstico StageA v0.2, perfiles B/C y campos de registro T03. La lectura estática de real_admission y pasajes de verify.py se usa para precisar qué comprueba la admisión; no se ejecutó el harness, código del corpus ni producto. Las dos referencias DAG se examinaron por su dominio declarado y su papel de contraste; no se declara una nueva demostración de corrección del algoritmo.
+
+Stage A contrasta especificaciones con el Challenge; B contrasta una arquitectura con el paquete de especificación congelado; C contrasta una implementación con el Challenge y efectos observados. Los perfiles B/C preservan resultados por requisito, continuidad, negativos/mutations cuando aplican, comparadores y retroalimentación por sucesor. El instrumento común aporta separación de vistas, operaciones/ledgers/traces/integridad; no cambia la referencia sustantiva de la etapa por sí mismo.
+
+R01 separa adapter, broker, gate policy, trace y evaluator. La policy fija criterios y no determina la verdad del mundo; los métodos de referencia no inventan thresholds. El contrato de trazas distingue seal pre-oracle y result seal; el aislamiento exige frontera real del candidato, no sólo quitar campos de un objeto in-process. Para la comparación se fijan acceso, autoridad, recursos, capacidad y tiempo; un control convencional exitoso cuenta. Self-test0.7/freeze0.9 conserva seis vectores de resultados mezclados: dosPASS,tresFAIL,unoINCONCLUSIVE esperados. SELFTEST_PASS significa cumplir esos controles, no seis tecnologías aceptadas.
+
+### Versiones y evidencia comprobadas
+
+Los30bindings Git del freezev0.9 coinciden con el árbol vivo de esta tanda. Instrument0.7 y freeze0.9 son identidades distintas y ambos constan en el registro. C02 R01 y C3 HF evalúan perfiles/predicados propios; el C3 de instrumento y el brazoC3 de otro protocolo tampoco son equivalentes. El diagnóstico StageA v0.2 sigue como audit candidate de su freeze; el checker v0.3 audit candidate es un sucesor separado, no sustitución de los bytes v0.2 ni aceptación retroactiva.
+
+Se consultaron IssueUC-4 y sus diez comentarios públicos el12octubre. La fuente distingue package1.1.1/schema1.0.0 y schema1.1.0-r1; preserva contratos previos. La conversación más reciente ofrece SF-011 al pinv0.1.3 para una futura revisión de adapter y dice que no admite campaña/run. Esta lectura no identifica aceptación de nuestro puente R01. El perfil consultado mantieneR01-BRIDGE-DRAFT y su esquema/semántica/revisión/capacidades siguen siendo dimensiones distintas. No se enviaron mensajes ni se importó elZIP de esquema.
+
+### Hallazgo de admisión y límite preciso
+
+real_admission.py valida flags/status, números, modos de aislamiento y presencia de referencias. Su `_present` comprueba valor distinto deNone/stringvacío/listavacía; no resuelve un commit/hash ni autentica el archivo o la revisión. verify.py construye hashes ficticios y labels de review en el control sintético admitido. Ese control es coherente con una prueba de instrumento, pero no demuestra la evidencia de una campaña real. La propuesta pide que la guía conecte los campos declarados con los artefactos y reviews verificables. No cambia el validador congelado ni afirma que esta lectura ejecutó un falso PASS.
+
+### Adecuación y prioridad
+
+El diseño general mantiene referencias y ownership coherentes. Dos mejoras de lectura son prioritarias: abrir los contratos en secuencia práctica y conectar el diseño antiguo del bridge con los perfiles DDS publicados. Dos complementos aclaran selección de instrumento y evidencia que respalda la admisión. Cuatro adiciones, Alto impacto esperado/Bajo riesgo/Medio esfuerzo; el beneficio es seleccionar y preparar correctamente el estudio. Riesgo concreto: confundir calibration, declaración, conformance o efecto; los textos identifican su objeto y artefacto. No alteran policy, thresholds, código, resultados o freezes. Orden: guía oracle→selección DDS→bridge→evidencia adapter, como una tanda de enlaces conjunta.
+
+
+La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
+
+
+## Tanda 4 aplicada y publicación en main — decisión de Iván, 12 octubre 2026
+
+Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md). Se conservan auditorías y otras decisiones abiertas.
+
+Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Receptor UC-4 del nuevo recorrido propuesto
+
+El [comentario de Iván del 12 de octubre](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997) propone que una determinación UC4 conserve fuente, significado y condiciones; UC21 examine su suficiencia para la decisión receptora; y un hallazgo acotado informe un control candidato bajo otro contrato. El PASS original conserva su ámbito. El comentario distingue evidencia Axis2, verdict Axis1, intento, acknowledgement y estado observado.
+
+El puente conserva schema1.1.0 / paquete1.1.0-r1 y R01-BRIDGE-DRAFT. Cada adaptador identifica la fuente de sus predicados. Un nuevo control necesita su observación, positivos y negativos, o declarar su límite de identificabilidad. EA no adquiere autoridad sobre la determinación nativa ni se vuelve obligatoria por la propuesta. El último de los 33 comentarios es esa propuesta; no consta respuesta posterior en este hilo. El cambio82 se prepara en README UC-21. Este puente recibe la revisión de la relación y no necesita fabricar un par sobre su propia fuente.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
+
+
+## Migración conservadora completada en los repositorios — 12 octubre 2026
+
+Iván autoriza completar la migración y preservar toda la información y sus rutas. Se incorporan los seis cambios77–82 mediante sus trece pasajes exactos, con nueve enlaces de orientación actualizados y sus referencias anteriores conservadas. No se mueve ni renombra ningún archivo. Las fuentes mantienen todo el contenido fuera de esos pasajes; los anexos añadidos son bloques al final.
+
+El cotejo encontró dos archivos históricos del paquete S5 que ya faltaban de main antes de esta tanda: README y ZIP. Ambos vuelven a sus rutas originales con los mismos blobs del commit2c7f545. El ZIP conserva123.884bytes y SHA2569ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8; sus25miembros pasan comprobación CRC, sin ejecutar scripts. La restauración se presenta en la hoja adicional EA, con su edición y finalidad histórica. El paquete v0.1.3 de Steven y sus límites posteriores mantienen su propio registro.
+
+El README UC-21 añade al final acceso a todos los archivos de su paquete, los materiales de envío y los archivos de trabajo del registro. El anexo adicional EA enlaza el soporte compartido, los originales R01 y la historia de revisión. Las tres hojas auxiliares EA/RA/MSCA mantienen su organización; no se crea una colección de índices ni niveles nuevos. El envío aec08fb5, los freezes y los resultados siguen con sus identidades.
+
+Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas enlazadas;2.006destinos anteriores conservados en los cinco documentos intervenidos;13sustituciones inversas exactas, cero cambios fuera de alcance; README/ZIP históricos restaurados idénticos. El detalle permanece en EP VNext.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+Se reabre la relación de evidencia por tres comentarios posteriores a la revisión de 33 entradas. [Nelson](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771) conserva la coordinación del ciclo experimental UC-4, su fuente y stopping rules; el seguimiento se selecciona por pregunta. [Matías](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870) comunica CDA v0.1.3 y sus controles, y [Iván](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) propone paralelizar preparación R2/Stage A y separar diseño, ejecución/verificación y selección de especificaciones.
+
+El puente sigue R01-BRIDGE-DRAFT. Ninguno de esos comentarios revisa este schema ni aprueba una admisión. El candidato 88 enlaza la misma relación en el índice DDS; 85/86 la mantienen en la raíz UC-21. No se requiere una sustitución del perfil para atribuirle una compatibilidad todavía no demostrada. Se conserva la revisión anterior y sus desacuerdos. No se ejecuta software externo.
+
+### Orden de incorporación y comprobación final
+
+1. Aprobar y aplicar 83–88 al paquete mantenido y al índice DDS; mantener originales fuera de cada par, enlaces anteriores, anexos, assets, fixtures y versiones. Los destinos nuevos se habilitan juntos: cabeceras 83/87 apuntan al apartado añadido por 86.
+2. Incorporar 89 al índice del fork. Para la tabla oficial, entregar el mismo par al mantenedor FG-TIDA o incorporarlo con su acceso autorizado. La fila copia el tema marcado como principal en la presentación; no afirma una asignación nueva.
+3. Incorporar 90 al cuerpo de la Issue por su propietario, con GO literal sobre el bloque. Mantener título, estado, labels, campos, casillas, comentarios y enlaces congelados. La petición actual es preparación; no se envía un comentario externo ni se cierra la Issue.
+4. Leer desde la tabla oficial y el enlace de la Issue hasta los cinco objetivos, seis Challenges, método DDS, protocolos, registro/freeze/informe y retorno. Probar también entrada directa USE_CASE, ida y vuelta desde DDS y acceso por anexos a soporte y archivos históricos.
+5. Comparar árboles y blobs contra el corte previo: ninguna ruta perdida, ningún archivo movido o renombrado; todos los destinos anteriores presentes. Comparar el cuerpo externo completo y revertir en copia cada sustitución para demostrar que fuera de lo acordado no cambia nada. Leer de vuelta todos los archivos aplicados; registrar commit, fecha y estado en las VNext y retirar cada ficha aplicada de pendientes según la instrucción de Iván, preservando auditorías y Git.
+
+El cierre documental se declara al completar ese recorrido y la conservación, incluida la entrada oficial. El cierre de cada investigación lo decide su propio contrato/evidencia: S5 al alcance evidenciado, un seguimiento CDA tras acordar ejecución y R1/R2, y especificaciones tras revisión de resultados. La revisión científica de cinco pasadas y conciliación global no se da por terminada por enlazar la raíz. El PDF UC-21 sigue sin localizarse en los dos árboles; no se incluye un reemplazo ficticio.

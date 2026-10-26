@@ -54,27 +54,6 @@ La precisión de B_Cart importa porque una oportunidad evaluable no realizada pu
 
 No se cambia la jerarquía, el ownership o una interfaz para corregir una frase. La propuesta final requiere contrastar consumidores y versiones antes de una incorporación de Iván.
 
-## Propuesta antes/después — expresar todo B_Cart
-
-**Localización:** fila única de canonicalización. **Preparación:** autorización de auditoría de Iván. **Tipo:** precisión semántica de explicación; revisar consumidores antes de incorporar.
-
-**Texto antes:**
-
-```markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
-```
-
-**Texto después:**
-
-```markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` established support, validity limits and characterized assessment reserve; confidence is one qualification within that basis | **DEFINED in Composition & Control v0.1** |
-```
-
-**Razón:** conciliar la tabla con la descripción actual de 03; no cambiar A_Cart/B_Cart ni crear campos obligatorios. **Dependencias:** 03, 04, EA/RA y perfiles consumidores. **Compatibilidad:** pendiente; el campo compartido no garantiza interpretación idéntica. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
-
----
-
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
 **Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
@@ -107,109 +86,18 @@ El [plan 1.10](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fu
 
 Los originales sueltos, canon, código, datos, freezes y binarios no reciben correcciones. Estar en el catálogo no altera autoridad. La lectura es de orientación y organización; no sustituye las cinco pasadas de una fuente vigente ni una dependencia material del argumento.
 
-### Adición de navegación — texto viejo y después completo
-
-**Fuente:** [índice propietario](README.md), blob `6e964aae2fb3e15d3980fd4004a364b892a95cbf`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
-
-**Texto antes — viejo (último párrafo, literal):**
-
-```markdown
-**Claim status:** standards-oriented research and a posted focus-group input; no adopted ITU position, universal minimum, completed comparative validation or production certification.
-```
-
-**Texto después — adición al final, manteniendo el viejo:**
-
-```markdown
-**Claim status:** standards-oriented research and a posted focus-group input; no adopted ITU position, universal minimum, completed comparative validation or production certification.
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
-
-El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
-
-
----
-
 ## Prioridades del plan de cambios — revisión del corte
 
 **Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
 
 El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
-| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
-|---|---|---|---|---|---|
-| 38 · Mostrar todo B_Cart en el índice MSCA | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Medio | Medio | Pendiente de decisión |
-| 39 · Acceso a trabajo adicional desde MSCA | Histórico · Histórico | Medio | Bajo | No nuevo | Ya publicado |
-
-### Cambio 38 — Mostrar todo B_Cart en el índice MSCA
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Que la tabla no reduzca B a confianza numérica.
-
-**Qué podría quedar desactualizado o afectado:** Otros resúmenes o consumers pueden continuar con confidence-only; el cambio debe referir 03 sin añadir campos obligatorios.
-
-**Qué cuesta prepararlo:** Una celda y lectura cruzada de 03/04/EA/RA.
-
-**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [README.md](../../research/regime-awareness/README.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Coordinar con 35/37 y conservar el contrato existente.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#propuesta-antesdespués--expresar-todo-bcart); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `0cbbec3e934e25cfcd4e0e79f92fb5d3ab491605`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 39 — Acceso a trabajo adicional desde MSCA
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: No nuevo. Prioridad: Histórico.** Distinguir notas de dominio, historia y especificación vigente.
-
-**Qué podría quedar desactualizado o afectado:** Duplicar el bloque confunde lectura canónica y adicional.
-
-**Qué cuesta prepararlo:** Publicado y verificado; no nueva incorporación.
-
-**Dependencias conocidas:** [ADDITIONAL_WORK_README.md](ADDITIONAL_WORK_README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `0cbbec3e934e25cfcd4e0e79f92fb5d3ab491605`. El bloque añadido está presente; no se repite la ejecución.
-
-
----
 
 ## Continuación de 01C — payloads y separación de propietarios
 
 **Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** Las fuentes Role y Composition conservan su texto; se abren sus únicas VNext y fichas externas para registrar esta relación principal. Role sigue siendo fuente estática/contractual y Operation distingue conducta efectiva. El candidato 53 corresponde a la frase de Composition sobre la entrada del slice RA y se prepara con 52 en 01C. Los enlaces de revisión nuevos son solo navegación.
 
 La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](03_COMPOSITION_VNext.md) y [Role VNext](02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
-
-### Cambio 55 — adición de acceso a revisión de Role y Composition
-
-**Solo navegación autorizada por el procedimiento. Impacto esperado: Medio. Riesgo: Bajo. Esfuerzo: Bajo.** Los originales Role/Composition permanecen intactos; el índice enlaza las fichas externas y no crea otro nivel canónico. El texto anterior entero es prefijo del índice ampliado.
-
-**Texto antes — viejo completo del último párrafo:**
-
-```markdown
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-```
-
-**Texto después — mismo contexto y adición al final:**
-
-```markdown
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
----
-
-## Review workspaces for Role and Composition
-
-The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-```
-
-El después muestra dónde se añade; no sustituye el párrafo viejo. Esta adición se publica con la entrega y se verifica por readback; queda fuera de tandas técnicas pendientes.
-
-
----
 
 ## Lectura completa de Role y Composition — reevaluación de la auditoría
 
@@ -230,80 +118,12 @@ El después muestra dónde se añade; no sustituye el párrafo viejo. Esta adici
 
 El README canónico recibe sólo una breve adición de navegación a fichas externas paraArchitecture/ACC. Originales técnicos intactos. No nuevo nivel deREADME; este sigue siendo propietario de su índice. Sexta global pendiente.
 
-### Adición de navegación 62 — Enlazar fichas de revisión de Architecture y ACC
-
-**Instrucción de Iván:** publicar auditoría y adiciones de navegación, conservando cuerpos. ImpactoMedio/riesgoBajo/esfuerzoBajo; adición autorizada de esta entrega, fuera de propuestas sustantivas pendientes. Fuente actual `64a82af9d51515f21fc5300636e844beeceffcab`, viejo único. No cambio de jerarquía/canon.
-
-**Texto antes — contexto viejo literal completo al final:**
-
-```markdown
-The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-```
-
-**Texto después — contexto conservado y adición completa:**
-
-```markdown
-The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-
----
-
-## Review workspaces for Architecture and ACC lineage
-
-The [Architecture review note](./00_ARCHITECTURE_REVIEW_CARD.md) and [ACC lineage review note](./01_ACC_REVIEW_CARD.md) lead to the separate audit workspaces for the current kernel and its canonical extension profile. Their original texts remain preserved; audit findings and proposed changes do not establish implementation validation or adoption.
-
-```
-
-El cuerpo anterior completo se conserva como prefijo exacto. La publicación se confirma mediante commit/readback de esta entrega; no repetir luego la adición.
-
-
----
-
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
 **Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](README.md), blob `767b75b7670d248d40289776a1dabd000dc5d95d`. Los registros anteriores y sus viejos completos permanecen íntegros.
 
 La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
 
-| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
-|---|---|---|---|---|---|
-| 38 | Aclaración contextual acoplada; Pendiente de decisión | Medio | Medio | Medio | Primera |
-| 39 | Ya publicado; Ya publicado | Medio | Bajo | No nuevo | Histórico |
-| 55 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
-| 62 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
-
-**Cambio 38 — Aclaración contextual acoplada.** El propioREADME/Composition ya contempla soporte y reserva. La filaconfidence-only es una abreviatura potencialmente confusa, no prueba de omisión en todo el sistema.
-
-**Beneficio esperado:** Que la tabla no reduzca B a confianza numérica. **Riesgo concreto:** Otros resúmenes o consumers pueden continuar con confidence-only; el cambio debe referir 03 sin añadir campos obligatorios. **Coste de preparar y mantener:** Una celda y lectura cruzada de 03/04/EA/RA.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Coordinar35/37 y el contexto entero; decidir si ampliar la fila mejora lectura sin volverla un contrato obligatorio nuevo. Revisar junto con 35, 37. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 39 — Ya publicado.** Distinguir notas de dominio, historia y especificación vigente.
-
-**Beneficio esperado:** Distinguir notas de dominio, historia y especificación vigente. **Riesgo concreto:** Duplicar el bloque confunde lectura canónica y adicional. **Coste de preparar y mantener:** Publicado y verificado; no nueva incorporación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 55 — Ya publicado.** Acceder a los dos expedientes sin alterar sus fuentes.
-
-**Beneficio esperado:** Acceder a los dos expedientes sin alterar sus fuentes. **Riesgo concreto:** Evitar duplicar ruta o convertir una nota de revisión en fuente normativa; fuente/cuerpo actual preservados. **Coste de preparar y mantener:** Dos enlaces y comprobación de rutas/preservación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. Texto incorporado con separación de líneas distinta; conservar como histórico. Se verificó además la sección publicada de Role/Composition; el cambio de líneas separadoras no la convierte en pendiente. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Adición de navegación autorizada, verificación de publicación y texto; no decisión de incorporación técnica. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 62 — Ya publicado.** Acceso humano a la revisión sin modificar la fuente.
-
-**Beneficio esperado:** Acceso humano a la revisión sin modificar la fuente. **Riesgo concreto:** No duplicar notas de navegación; fichas no conceden autoridad o cierre. **Coste de preparar y mantener:** Adición corta y comprobación de enlaces/preservación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar tras publicación/readback; sólo navegación ya autorizada. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Consecuencia entre documentos:** [57](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
@@ -316,74 +136,15 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 <a id="ola2-cambio-08"></a>
 
-## Ola 2 — cambio 8: B_Cart: soporte y reserva evaluable, además de confianza
-
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 38; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
-
-**Fuente actual:** [standards/minimum-sufficient-control/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/standards/minimum-sufficient-control/README.md), blob `767b75b7670d248d40289776a1dabd000dc5d95d`. **Ubicación:** Tabla de estado del README MSCA, fila Semantic/dependency/process structures.
-
-**Justificación:** El resumen MSCA reduce B_Cart a confidence; Composition §3.2 ya establece soporte, límites y reserva. Alinear esa fila evita perder parte de la arquitectura en la entrada.
-
-**Impacto esperado Medio; riesgo Medio; esfuerzo Medio; prioridad Siguiente.**
-
-**Riesgo concreto:** El índice puede ser leído como contrato. La fila sólo resume lo que Composition §3.2 ya define; no exige nuevos campos ni resuelve las propuestas RA 35/37. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** Composition §3.2 y 00M §1: precisión del índice, sin campo obligatorio nuevo ni cambio de RA.
-
-### Tabla de estado del README MSCA, fila Semantic/dependency/process structures
-
-Viejo verificado una vez fuera de citas de propuestas, línea 138 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` support, validity limits and characterized assessment reserve (including confidence) | **DEFINED in Composition & Control v0.1** |
-~~~~
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
-
-**Conciliación con Composition:** §3.2 ya contiene soporte, límites y reserva; no se propone modificar su definición. Las propuestas 35/37 y 52/53 mantienen su alcance propio; esta fila no las incorpora.
 
 
----
+## Historical reception of the six MSCA sources — 15 October 2026
 
-<a id="ola2-redaccion-08"></a>
+Reviewer A read all six current MSCA source documents and 278 retired historical units;256 previously unresolved units now have source/receiver decisions. The earlier README body survives as ARCHITECTURE_AND_STANDARDS_CONTEXT, exact blob `d9b2d4baf3c76e93f69727277e3302f5eff0c3c7`. The current README retains its route and separates documentary state from comparative validation.
 
-## Ola 2 — redacción directa del cambio 8
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 38; la anterior queda como antecedente.
-
-**Propósito:** El resumen MSCA reduce B_Cart a confidence; Composition §3.2 ya establece soporte, límites y reserva. Alinear esa fila evita perder parte de la arquitectura en la entrada.
-
-**Impacto Medio · Riesgo Medio · Esfuerzo Medio · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [standards/minimum-sufficient-control/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/standards/minimum-sufficient-control/README.md), blob `767b75b7670d248d40289776a1dabd000dc5d95d`.
-
-### Tabla de estado del README MSCA, fila Semantic/dependency/process structures
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart`, qualified element-wise by `B_Cart` support, validity limits and characterized assessment reserve; confidence is one qualifier | **DEFINED in Composition & Control v0.1** |
-~~~~
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio38 hecho y retirado de pendientes; se conserva el par completo.
+Architecture retains ObjectiveEnvelope and partial/sufficient support; ACC separates identity, binding, mutation and execution; Role is static; Composition owns Cart_i; Operation owns bound/effective comparison and requests. These receivers preserve the useful earlier responsibilities without recreating automatic control authority. Proposal125 only clarifies the staticRole producer phrase. Three Operation scenario-version receiver questions remain open; this reading is not a closure of all MSCA integrations.
 
 
-## Aplicaciones confirmadas — 12 octubre 2026
+## Historical review-link reception — 23 October 2026
 
-- **Aplicado:** Ola2 cambio8 / propuesta38.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+**Auditor: Codex, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** EP's old `propuesta-antesdespués--expresar-todo-bcart` fragment never matches this owner's literal `b_cart` historical anchor, whose redirect stub has now also been retired.149 in the [EP review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#change-149--pin-historical-review-references-to-the-edition-that-contains-their-sections) fixes that one incoming href by using the exact `b_cart` spelling and the verified18October historical edition. It does not restore an incorporated proposal to the queue or change the current MSCA source.

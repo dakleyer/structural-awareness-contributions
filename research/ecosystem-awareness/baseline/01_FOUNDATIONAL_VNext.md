@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 100. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # VNext — Foundational Theory y su taxonomía de fallos
 
 **6 de octubre de 2026 · Codex, mismo asistente de IA, revisión para una persona.** Único expediente de la unidad Foundation: [sucesor integradov0.5](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) ycinco partesv0.4 de procedencia comparten esta VNext. Source snapshot `f7d8ed0846b301617197ade855d5237cbd2280f9`, blob `2cee8af601c89a8785bba9f48974061f0a5dc102`. Se comprobó que no existía expediente activo. [Procedimiento](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md). Ningún original se modifica.
@@ -41,36 +43,7 @@ No renombro Type 0/1/2 ni añado otro marcador. La recomendación es decir expl�
 
 ## Plan de cambios — candidato 73 pendiente de Iván
 
-**Fuente/ubicación:** bloque de §1.1A desde «Failure Types 1and 2share...» hasta elfinal delbullet Type 2, anterior alejemplo de gatos. Viejo completo único en elblob indicado, ya verificado. **Impacto esperado Alto, riesgo Alto, esfuerzo Alto; prioridad Primera para preparar/conciliar, tanda 3 de contratos/protocolo.** No pertenece a laprimera onda documental de bajo riesgo 26/31/32.
-
-**Beneficio:** Evitar que diagnosticar Type 1/2 exija una ampliación del dominio cuando las definiciones conservadas ya incluyen espera indefinida, silencio tratado como aprobación o datos stale dentro del mismo scope.
-**Riesgo:** Afecta taxonomía central y diagnósticos de funciones, Requirements y perfiles DDS; una modificación aislada podría cambiar cómo se interpretan controles o resultados históricos.
-**Coste:** Conciliar el bloque 1.1A con § §2/3.4/3.5 conservados, función F6/F7, RequirementsS5/S14/T4 y diagnósticos DDS/realizaciones. No basta modificar un título o un párrafo; la lectura integral de Foundation sigue pendiente.
-**Compatibilidad/orden:** conservar la fuente de 00M, tipos anteriores ycausalidad deChallenge; revisar con 03/Requirements/00N/DDS ycasos deobservación/espera dentro deunscope fijo. Completar la lectura integral de Foundation antes deconsiderar elpar incorporable.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-Failure Types 1 and 2 share the same root mistake: the system does not respect the qualified boundary of the active exploitation result A relative to B/C/D. In both cases it tries, explicitly or operationally, to treat a broader portion of the surrounding state as if it could be brought into one decision result. The difference is how that attempted enlargement fails.
-
-- **Failure Type 1 — non-viable enlargement / failure to decide.** The system keeps extending observation, search, verification, escalation or qualification in an attempt to absorb more B/C/D material into a broader or more certain decision result. Because the additional material is not yet supported by an adequate evaluation basis, the active determination becomes less viable: uncertainty may widen, confidence may fall, or the system may remain unable to justify a decision at all. The characteristic operational outcome is not “extra work” but failure to reach bounded legitimate closure before budget, capacity or response horizon is exhausted.
-- **Failure Type 2 — unjustified enlargement / false decision.** The system also broadens what it treats as operationally determined, but instead of remaining unresolved it collapses insufficiently qualified B/C/D material into A, permission or a globally valid closure. It therefore produces a decision, but one whose scope or certainty exceeds the established basis. The characteristic operational outcome is false closure or an unjustified action.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-Failure Types 1 and 2 fail to preserve the qualified boundary between what the process can establish and what remains insufficiently determined. Unqualified enlargement of observation or claimed scope is one way this can happen; it is not a necessary condition. Both failure types can also occur within an unchanged represented scope.
-
-- **Failure Type 1 — failure of bounded legitimate closure.** Acknowledged uncertainty remains active through waiting, search, verification or escalation without a justified capacity/time bound or escape condition. This may involve an attempted enlargement, but may also occur while waiting for one already-defined input within the existing decision scope. Additional work alone is not Type 1; the relevant failure is unresolved determination managed in a way that exhausts or fails to preserve a viable legitimate response.
-- **Failure Type 2 — suppressed insufficiency / false closure.** The process suppresses material uncertainty, missing input, invalidated support or a scope limit and presents unsupported closure or action as justified. This may broaden claimed scope, but may also occur within the existing scope by treating silence as approval, insufficient evidence as PASS or stale status as current. A prohibited outcome caused by another mechanism is not automatically Type 2.
-
-The causal treatment of non-determination, the declared scope and the supported response contract govern the diagnosis. Correctly bounded unresolved state remains a legitimate outcome; neither extra work nor an outcome label by itself establishes a management failure.
-~~~~
-
-**Instrucciones de Iván:** original sólo lectura, una VNext porunidad, preservar elviejo ylas conversaciones, valorar impacto/riesgo/coste yproponer antes/después quirúrgicos. Decisión concreta pendiente; ninguna taxonomía, métrica, esquema oresultado se modifica por publicar esta auditoría.
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio73 incorporado en `research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Lectura completa de la Foundation integrada — 6 octubre 2026
 
@@ -177,3 +150,172 @@ Se leyeron completos los nuevos pasajes DDS §§3.1/5.3/7.1A/7.4 y su contexto �
 **Pregunta material pendiente de perfil:** ¿qué evidencia establece que la falta de cierre expresa el mecanismo Type 1 en el contrato de información/capacidad, en vez de deducirlo sólo de M existente en el mapa del evaluador? La fuente acota el estimador y pide admisión; hay que comprobar esa obligación y exclusiones en cada realización, no tomar la fórmula como diagnóstico universal. La nueva regla no certifica sus denominadores, independencia o ejecución. No se añade otro candidato mientras falte ese cotejo.
 
 73 conserva su par y valoración, con el gate actualizado de este receptor. Revisión cruzada también en DDS y continuidad EP. No se cierra la sexta ni se cambia el original por la revalidación.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 73 | Conservar fallos Type 1/2 dentro de un alcance fijo | research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md | Aplicado |
+
+
+
+## Third independent review — 02A/02B proof attribution and proposal 100, 14 October 2026
+
+The isolated source reviewer sealed the following first localized proof comparison and complete current-before/proposed-after pair before opening earlier audit bodies. It found a documentary mismatch: the current 02A Claim attributes an unqualified total, deterministic and surjective normalizer to linked 02B, whose current theorem establishes nonempty relative P1–P6 normal-form coverage. This does not refute that theorem or diagnose a program failure.
+
+This existing Foundation dossier already includes the pending 02A/02B derivations; it remains the shared review destination for this material integration. No separate 02A/02B VNext is created. The review is recorded in both directions here: 02A's attribution must match its actual 02B receiver; the receiver's relative source grammar must not acquire stronger claims from its incoming description.
+
+Source: [02A, current Claim](https://github.com/dakleyer/structural-awareness-contributions/blob/2893f5e842bc07a34802b2e7a817338debf70bb4/research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#L15), blob `06e12884ecbcff9df820d087e5b727bf4a18adab`. Receiver: [02B §§4–10](https://github.com/dakleyer/structural-awareness-contributions/blob/2893f5e842bc07a34802b2e7a817338debf70bb4/research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md#7-syntactic-closure-theorem), blob `ac3f066ae72cb9f542e69537b3bcacc46ea4c3fb`. The coordinator rechecked the current before as one complete unique occurrence at line 15, and the proposed after as absent. Other source/receiver bytes remain unchanged.
+
+### Current receiver's complete theorem statement
+
+For every normative control clause \(x\in G_F\):
+
+\[
+NF(x)\subseteq\{P1,P2,P3,P4,P5,P6\}
+\]
+
+and \(NF(x)\neq\varnothing\).
+
+### Plan priority and decision
+
+**Proposal 100: expected impact Medium; risk Low; effort Low for this paragraph; priority Next.** It improves proof attribution without modifying the theorem, source grammar, fixtures or results. Read A19/A21/00K consumers and the current semantic-transfer relationship before the final integration decision. The exact pair is prepared; downstream reconciliation and Iván's named GO remain pending. No incorporation is performed by publishing this review.
+
+The first record sealed at `2026-10-14T20:57:56.480167+00:00` is preserved unchanged: Markdown SHA-256 `5cf886a301403b4fb6b8829ffa56457dc4c56e84cba9e3e2ee5863e70ee702d2`; JSON reading/exposure snapshot SHA-256 `c857c06cd9bcbc966636d2affcb13c41328e0be2c4a66b1121585e834a015311`. Its complete text follows verbatim. The larger proof/source cohort and whole restoration/organization plan remain incomplete.
+
+<details>
+<summary>Original independent judgement, complete before/after and acceptance checks</summary>
+
+# First scoped judgement and proposal: current 02A claim / 02B receiver
+
+Sealed UTC: 2026-10-14T20:57:56.480167+00:00
+
+The broader proof/source cohort remains incomplete. This record freezes a localized documentary comparison and a complete literal proposal; nothing is applied.
+
+Current 02A (`06e12884ecbcff9df820d087e5b727bf4a18adab`, line 15) names a total, deterministic and surjective normalizer, while its current linked 02B (`ac3f066ae72cb9f542e69537b3bcacc46ea4c3fb`, §§4–10) states nonempty set-valued relative closure and gives one or more applicable forms. The historical ordered-normalizer variant is a distinct preserved contract. Complete material proof-family predecessors were read; no test or source program was executed.
+
+Complete current before (unique occurrence):
+
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
+
+Complete proposed after:
+
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a relative syntactic-closure argument and an explicit mapping of the declared control surfaces to one or more P1–P6 normal forms. Its theorem uses the source grammar stated there; transfer to the current A/B/C/D meanings requires a separate semantic check.
+
+Impact Medium, risk Low, effort Low. The benefit is precise attribution of the current proof contract. The risk is extending this localized correction to unexamined fixtures or downstream receivers; the candidate makes no such claim. Cost is one paragraph review without migration or regeneration. Preserve historical proof contracts; check downstream A19/A21/00K and semantic transfer separately. Require Ivan’s named wave/passages GO for incorporation.
+
+Acceptance: verify exact unique before, keep the current receiver link, preserve one-or-more mappings and the unproved semantic-transfer boundary, and leave requirement/code/result semantics and all historical records intact. Exact identities, reading routes and contemporaneous exposures are frozen in the JSON.
+
+
+</details>
+
+
+## Third source review — proof consumers and current corrections, 14 October 2026
+
+The [00K source/evidence record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#third-source-review--00k-relative-proofs-and-preserved-corrections-14-october-2026) now explains the reviewed A19/A21/A23/A24 roles and A20/A22 model boundary with actual historical/current source passages. Traceability, grammar coverage, reverse sufficiency and assigned-label projection remain separate. The current withdrawal and simplified-model qualifications should be retained; no replacement candidate is introduced. The record discloses prior execution-report exposure for the affected A23 assertion rather than counting it as a blind result.
+
+This is reciprocal evidence for the 02A/02B relationship behind proposal 100. It does not yet settle the broader current-semantic transfer or all runtime/fixture consumers. Proposal 100 remains pending its stated reconciliation and named GO; old source contracts and all original evidence stay intact. Full Foundation/00K integration and the corpus plan remain incomplete.
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 100
+
+Current02A overattributes a deterministic surjective normalizer to current02B, whose theorem is nonempty set-valued relative closure. Full downstream/semantic-transfer reconciliation remains pending.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Literal and attribution defect confirmed; downstream A19/A21/00K and semantic transfer still unresolved, no global proof repair clearance.
+
+**Source:** [research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md), blob `06e12884ecbcff9df820d087e5b727bf4a18adab`. Dependencies: retain original and material historic variants unchanged in their existing provenance routes; complete downstream A19/A21/00K receivers and current semantic-transfer judgement before final owner/integration mapping; Ivan named wave/passages GO required before any incorporation
+
+**Text before — complete current passage (1).**
+
+``````text
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a relative syntactic-closure argument and an explicit mapping of the declared control surfaces to one or more P1–P6 normal forms. Its theorem uses the source grammar stated there; transfer to the current A/B/C/D meanings requires a separate semantic check.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 100.** The complete current Claim block and proposed attribution are visible and match the source. The proposal distinguishes the relative, set-valued closure claim from the attributed deterministic surjective normalizer. Downstream semantic transfer remains a condition; the wording correction is not a completed proof repair.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 100. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
+
+
+## Execution reaudit 15 October 2026
+
+Re-read100 in its complete source-relative claim and semantic-transfer context. The approved attribution correction is exact; the source grammar claim does not become universal operational validity. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical 02B reading route 15 October 2026
+
+The historical damage review compared the earlier ordered-normalizer and operator-based 02B editions with the current proof route. The ordered draft claims exactly one atomic normal form through precedence; the later/current route permits one or more applicable forms and carries its own syntax and semantic limits. The old texts also use earlier B/C vocabulary. They are distinct antecedents, so their removal as duplicates did not preserve an identical active text.
+
+The repair is a described, version-pinned reading route in the existing EA additional-work leaf, under change 123 in the [baseline VNext](README_VNext.md#rest-of-corpus--source-custody-and-historical-reading-15-october-2026). Current 02B and 02A retain proof ownership and revised-semantics limits; no old uniqueness theorem is reintroduced. Related grammar representations remain historical. The receipt/source distinction in R01 and A25 neutrality have their own owners in that same batch.
+
+
+## Continued foundation and Charter-lineage reception — 15 October 2026
+
+Reviewer A's fourth sealed continuation examines336 historical units and resolves269 previously open units. Across its 1,734 assigned source units,589 have retained receivers,212 are valid corrections,2 were the historical02B omissions already linked by123, and931 remain open at this cut. The four separately identified instrument-retirement units are not silently counted as source-body completion.
+
+Full current Requirements,01A,01E,01H/01I/01J,02A/02B, the three principle fragments and the Charter/interface routers were read with their changed historical clauses. 01A retains residual and temporal-frame origins, distributed composition, inherited uncertainty and the strong peer. It correctly limits the universal-impossibility reading and keeps the irreducible EHD core as a candidate. Preparation remains distinct from destination authorisation.
+
+02A retains the P4 specialisation and non-amplification of authority. The F-H boundary precedes P4; S1/S8 supply later verifiable surfaces rather than circular premises. The normaliser is limited to relative closure and one-or-many principle results; its theorem is not transferred automatically to current B/C meanings. Current02B is not asserted equivalent to its two distinct earlier formalisms; their full originals are separately reachable through123. The three principle fragments retain twelve control surfaces, Type0 as condition, Type1/2 as management failures, cross-domain non-compensation and coverage versus corroboration; five changes repaired punctuation/escapes only.
+
+The 734-line pre-restructure Charter, blob `4758e474c4f74090e7f1c5f98f88a7785572faee`, survives as the actual original. Its 160 lineage units were checked against full v0.1/v0.2 and current interface receivers. v0.2 Annexes A–D receive vocabulary/state distinctions, mechanisms, all four determinacy-envelope fields, provenance/freshness/scope/dependencies, UC6 facts, time dimensions, package versions and contributor review conditions. D5 keeps a mapping reviewer distinct from the maintainer, material objection blocking sufficiency, strong comparison and no execution inferred from copied labels.
+
+The legal/jurisdiction boundary has a real owner chain: Charter v0.2 §§2.3/RelatedThemes leaves policy, identity, authority and legal binding with their sources; [04 IF-S13](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) receives jurisdiction/regulatory/equivalence context and returns decision-scoped insufficiency/request/residual; 05 part 2 retains the authority root. No additional universal legal competence or repeated exclusion is introduced. Two operational mechanisms plus their interoperability/conformance bridge replace the old three-peer-mechanism description. Existing v0.1 entry labels are not promoted merely because v0.2 exists; adoption authority must be established separately.
+
+No new source repair follows from this continuation. The [baseline continuation](README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) preserves the wider frontier; remaining Foundation/03/04 histories continue.
+
+
+
+## Foundation reception completed for this historical block — 15 October 2026
+
+Reviewer A read the full 2,110-line Foundation and its old/current clause series, source blob `5d45779a223f114b1e68e5df0b5a9beb56b6fdc9`. Type1/2 are not limited to enlarging scope: waiting for an already-defined input may create Type1, and treating silence as approval or stale state as current may create Type2 within fixed scope. Current lines25–54 and1120–1150 receive the structural condition, finite closure and both management failures. Reinstating the narrower scope-enlargement restriction would reverse a valid correction.
+
+A may be probabilistic or interval-valued. Properly qualified uncertainty is not automatically a management fault; extra work becomes more than inefficiency when it consumes a viable response. Challenge outcomes remain conditional diagnostic signatures rather than universal Type identities. The 00M alignment retains handoff scope, freshness and provenance; characterised assessable reserve B remains distinct from uncharacterised exploration C. The neighbour expansion narrows novelty, and the coordination-distortion trajectory remains a hypothesis. No source repair is needed here. [Gradient VNext](../../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the coupled posture-owner reception.
+
+
+
+## New foundational comparative hypothesis bridge — 24 October 2026 (proposed, not adopted)
+
+**Reviewer: Codex (AI). Instruction: Iván, 24 October 2026.** The new [01A-A01 research note](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) states two distinct falsifiable hypotheses: **FH-C**, that *unawareness of epistemic boundaries* is the comparatively stronger cause of unjustified mission pivots than the lack of additional domain knowledge in delimited cases; **FH-E**, that qualified bounded metadata may meet the same mission-protection objective with **less computation**, though not necessarily less architecture complexity or total engineering cost. See [01A origin source](01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [02A principle source](02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md).
+
+**Before (current 01 §§8/11):** H1–H6 cover bounded closure, residual, composition, preservation, dynamic pressure and risk/capacity selection, but do not explicitly rank causal drivers or claim lower computational cost.  
+**After (proposal only, no source change):** add a short reader pointer to FH-C/FH-E as *comparative extensions requiring registered evidence*, not H7 or corollaries of H1–H6.  
+**Expected value:** explain why awareness of what is *not established* could protect the mission before costly object-domain inference. **Risk:** causal overgeneralization and false cost claims. **Evidence still needed:** matched ablations, positive mission transitions, metadata-production costs and strong-peer comparison. Links forward: [00M plausibility source](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) and [00N functional source](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). All existing statements and review history preserved; incorporation pending explicit GO.
+
+
+### Editorial adoption and owner reception — 24 October 2026
+
+**Iván's current instruction:** promote FH-C and FH-E as canonical statements of **research hypotheses** and keep each VNext reachable through its own source only. The incorporation is now recorded in the [current integrated Foundation](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), the [01A-A01 hypothesis source](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md), the [corpus README](README.md), the [corpus manifest](CANONICAL_CORPUS_MANIFEST.md) and relevant original source-level reading pointers. Earlier “proposed/not applied” paragraphs above are historical proposal receipts; their editorial promotion is now applied.
+
+**Scientific status unchanged:** FH-C is not validated causal dominance; FH-E is not validated compute saving. No frozen requirements, H1–H6, controlled historical texts or old tests are reinterpreted as proof. Cross-document navigation added in this work points to **source texts** rather than another source's VNext.
+
+
+## Current 02A review route — 25 October 2026
+
+The 24 October source-owned [02A VNext](02A_VNext.md#review-ownership-and-earlier-proof-audit--25-october-2026) is the current companion for 02A. The 14 October proof-attribution audit retained here remains intact as prior 02A/02B history and as the Foundation unit’s material dependency review. The earlier statement that this file was the shared 02A destination describes that prior allocation; it does not appoint a competing current 02A shadow. Proposal 100 is applied, not reopened by this reception link.

@@ -22,24 +22,7 @@ Sigue abierta la lectura de drift, Type catalogue, gradiente, ACC, posture gate,
 
 ## Propuesta antes/después — entrada RA, pendiente
 
-**Localización:** §4, fila única. **Tipo:** precisión semántica; compatibilidad aún por examinar. **Instrucción:** preparación de revisión integral autorizada por Iván.
-
-**Texto antes:**
-
-```markdown
-| Δ_RA | Regime Awareness | Qualified direction/intensity/capability/residual of ecosystem/regime change. |
-```
-
-**Texto después:**
-
-```markdown
-| Δ_RA | Regime Awareness | Qualified regime-change position: A_RA direction; B_RA established support, validity limits and characterized assessment reserve; C_RA grounded exploration avenues not yet characterized; D_RA effects beyond effective evaluation. Confidence qualifies support and is not physical change magnitude; uncertain role classification remains UNKNOWN. Retain the source's scope, context, versions and freshness. |
-```
-
-**Razón:** mantener el sentido del productor 01C sin renombrar campos. **Dependencias:** RA, EA, Cartography, Operation y perfiles que utilicen esta entrada. **Comprobación previa:** una coincidencia en el blob auditado. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio37 incorporado en `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -74,23 +57,6 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
 | 37 · Conservar significado RA al entrar en Operation | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
-
-### Cambio 37 — Conservar significado RA al entrar en Operation
-
-**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera.** Que el consumidor reciba la semántica y condiciones del productor.
-
-**Qué podría quedar desactualizado o afectado:** Cambiar entrada puede alterar decisiones esperadas o interpretación histórica; un resumen más largo no prueba equivalencia de ejecución.
-
-**Qué cuesta prepararlo:** Cotejar 01C, RA, 03, 04, 01D y perfiles; ningún nuevo resultado runtime.
-
-**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [README.md](../../research/regime-awareness/README.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Tanda conjunta con 35/38, mantener scopes/versión/freshness y revisar consumidores.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](04_OPERATION_VNext.md#propuesta-antesdespués--entrada-ra-pendiente); el viejo tiene una coincidencia en [la fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
 
 ## Continuación de 01C — payloads y separación de propietarios
 
@@ -148,66 +114,6 @@ ATHENA y su solicitud pública de cadena/revocación se contrastan en ACC VNext:
 
 ## Propuestas de esta lectura — fuente y consumidor juntos
 
-### Cambio 59 — Mantener en Operation el perfil de comparación del gradiente
-
-**Fuente/ubicación:** [fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`; el viejo aparece exactamente una vez. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
-
-**Beneficio esperado:** Que el consumidor no universalice lo que la fuente delimita. No es eficacia medida. **Riesgo concreto:** Puede desactualizar perfiles y decisiones esperadas; no cambia permisos y posturas. **Trabajo necesario:** Cotejo conjunto57/58,01D y contratos de selección.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-For each candidate transition τ:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-=
-expected reduction in objective-conditioned risk
-=
-expected increase in Objective-Envelope fulfilment
-~~~
-
-as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-= profile-qualified comparison of current and candidate objective-conditioned risk
-~~~
-
-For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
-
-The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Tanda compatible57/58/59 y decisión de Iván. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
-
-### Cambio 60 — Decir que P3 identifica una necesidad, sin verbo de autorización
-
-**Fuente/ubicación:** [fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`; el viejo aparece exactamente una vez. **Impacto esperado: Medio. Riesgo: Medio. Esfuerzo: Bajo. Prioridad: Siguiente. Tanda: 3 — Contratos y protocolo.**
-
-**Beneficio esperado:** Evitar que authorize se lea como autoridad creada por la postura. No es eficacia medida. **Riesgo concreto:** §§13/14/25 ya protegen la autoridad externa; no transformar la nota en nuevo gate. **Trabajo necesario:** Pasaje corto con cotejo de Gradient§8 y ACC§§5/7; preservación.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Aclaración opcional, decisión de Iván y consumidores comprobados. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
-
-
 ## Reapertura por nueva capacidad humana — fuente vigente
 
 **Codex, mismo asistente,6 de octubre de 2026.** La fuente cambió a `8757ba614c94f962206912d4896c119a18a924fa`, blob `e11731c36e207d11631ade1a60ee521537840801`: se leyó íntegra la nueva §4.1 y su productor01K completo. Los demás pasajes no cambiaron. Se conservan la lectura y pares anteriores contra 26eb; no se reescribe suviejo.
@@ -218,58 +124,7 @@ La nueva entrada preserva cualificación,Cart/RA,ACC/autoridad y no convierte el
 
 ### Revalidación del cambio59 contra la nueva fuente
 
-Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. **Texto antes — viejo completo:**
-
-```markdown
-For each candidate transition τ:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-=
-expected reduction in objective-conditioned risk
-=
-expected increase in Objective-Envelope fulfilment
-~~~
-
-as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
-
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-= profile-qualified comparison of current and candidate objective-conditioned risk
-~~~
-
-For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
-
-The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
-```
-
-Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
-
-### Revalidación del cambio60 contra la nueva fuente
-
-Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. **Texto antes — viejo completo:**
-
-```markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
-```
-
-Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
-
-
----
+**Aplicado en main — cambio59.** La variante revalidada coincide con el texto ya incorporado en `00ea3174c10a7e7cad84905d5642aa74eba35b18`. Se retira también esta ficha repetida de la cola. Su par histórico completo permanece en Git `00ea3174c10a7e7cad84905d5642aa74eba35b18`.
 
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
@@ -281,7 +136,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 |---|---|---|---|---|---|
 | 37 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Medio | Primera |
 | 59 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
-| 60 | Aclaración opcional preparada; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
 
 **Cambio 37 — Cambio acoplado; no listo.** La fila de Operation abrevia la entradaRA. Su contexto conserva scope/autoridad, pero no explica por sí solo todos los papelesB/C/D.
 
@@ -298,14 +152,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
 
 **Condición y orden de decisión:** 57/58 antes o junto a 59; mantener evidencia, hard constraints y permiso externos. No prometer algoritmo computable o ganador único. Revisar junto con 57, 58. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 60 — Aclaración opcional preparada.** La palabraauthorizes puede confundir necesidad de cualificar con potestad. El contexto ya exigeACC/autoridad; es precisión preventiva.
-
-**Beneficio esperado:** Evitar que authorize se lea como autoridad creada por la postura. **Riesgo concreto:** § §13/14/25 ya protegen la autoridad externa; no transformar la nota en nuevo gate. **Coste de preparar y mantener:** Pasaje corto con cotejo de Gradient §8 y ACC§ §5/7; preservación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** LeerP3 ygatesACC/autoridad, con Role/ACC. La decisión puede ser no añadir porque la frontera ya está protegida. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Consecuencia entre documentos:** [35](../../research/regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [64](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
@@ -340,72 +186,54 @@ El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el
 
 <a id="ola2-cambio-01"></a>
 
-## Ola 2 — cambio 1: P3 identifica una transición; no concede autoridad
-
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 60; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
-
-**Fuente actual:** [standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`. **Ubicación:** §11.3, última oración.
-
-**Justificación:** Elimina la ambigüedad de un verbo que parece otorgar permiso. La postura P3 señala la necesidad; ACC y autoridad gobiernan aprobación y ejecución.
-
-**Impacto esperado Medio; riesgo Medio; esfuerzo Bajo; prioridad Primera.**
-
-**Riesgo concreto:** La formulación de P3 es consumida por reglas de transición y lectores de autoridad. Conservar las obligaciones ACC y no cambiar la selección o ejecución. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
-
-**Dependencias y aceptación:** Concordar con §11.2, §11.4 y el gate ACC/autoridad; conservar estados y contratos.
-
-### §11.3, última oración
-
-Viejo verificado una vez fuera de citas de propuestas, línea 398 de la fuente fijada.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
-~~~~
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
 
----
+## Aplicación completa autorizada — 12 octubre 2026
 
-<a id="ola2-redaccion-01"></a>
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
 
-## Ola 2 — redacción directa del cambio 1
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 60; la anterior queda como antecedente.
-
-**Propósito:** Elimina la ambigüedad de un verbo que parece otorgar permiso. La postura P3 señala la necesidad; ACC y autoridad gobiernan aprobación y ejecución.
-
-**Impacto Medio · Riesgo Medio · Esfuerzo Bajo · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`.
-
-### §11.3, última oración
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-P3 identifies the need to qualify a legitimate transition path. ACC and the applicable authority mechanisms govern approval of the destination and execution.
-~~~~
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio60 hecho y retirado de pendientes; se conserva el par completo.
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 37 | Conservar significado RA al entrar en Operation | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
+| 59 | Mantener en Operation el perfil de comparación del gradiente | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
 
 
-## Aplicaciones confirmadas — 12 octubre 2026
 
-- **Aplicado:** Ola2 cambio1 / propuesta60.
+## Historical reception of operation and repositioning — 15 October 2026
 
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+Reviewer A read complete Operation (`9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`) and105 retired units. Bound/effective drift, evaluation from observed state and realignment survive. Old RESTORE/CONTAIN/ISOLATE labels now have bounded target/request/approval routes: REALIGN_TARGET, REQUEST_CONTAINMENT, REQUEST_ISOLATION, REBIND_ROLE, RECONTRACT, MIGRATE, ESCALATE and UNRESOLVED.
+
+Containment classification is not execution, P3 does not authorise a destination, and high confidence alone does not establish Type2. Declared scalar/vector/Pareto gradients remain available; RA confidence is not physical change magnitude. Change125 aligns the staticRole source phrase with this existing bound/effective comparison.
+
+The three historical Operation scenario-version receiver obligations (`1263.0`, `1408.0`, `1433.0`) are resolved by the substantive cross-owner check below. The dated A3 report remains preserved; these are valid successor corrections, with no source restoration required.
+
+
+## Completed Operation / 00G historical receiver check — 15 October 2026
+
+Reviewer B checked the three receiving-version questions left by A3/A4; A verified59 exact literals before attributed integration. All three are valid successor corrections with substantive current reception. This is a continuation of those reviewers, not a new blind review. No source repair is proposed.
+
+| Historical substitution | Commit | Current reception and consequence |
+|---|---|---|
+| 00G v0.1 → v0.2 | `0575df8c78ab3f3311bf75e9a0a99a1c23218790` | The illustrative mission/ACC/authority separation is retained; the paired opaque false/genuine F/G contract strengthens symmetric testing. Reverting would weaken that correction. |
+| v0.2 → v0.3 Draft | `ae5e437748db3166fe408386e3d398b0034a6599` | The paired contract remains; current authority applicability, DBC routing and per-rate numerator/denominator/oracle obligations are added. Draft status does not turn a candidate into an executed result. |
+| v0.3 Draft → v0.4 | `9092ee279f74f0f230f8db657b31b0d0d13212de` | v0.4 receives the full contract and the unexecuted OAI-G0/G1/G2 trajectories. The v0.3 blob at retirement includes visual aids and an implementation-draft route added after its introduction; both actual versions were checked. |
+
+Current [00G v0.4 §§6/9](https://github.com/dakleyer/structural-awareness-contributions/blob/5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#9-executable-paired-fixture-and-quality-gate-plan), blob `eeea590e01912d89d1e27d8d5c1822cb361c4df7`, requires preserving the still-valid mission under dependent repetition in F and requalifying/changing or suspending it under independent evidence plus applicable authority in G. Blanket persistence therefore fails the positive branch. `DBC_DENY` concerns the candidate transition, not unrelated valid operations; `DBC_EXECUTE` creates neither authority nor actuation.
+
+00G §§11–13 preserve the strong peer, comparable budget, branch-specific measures, burdens and falsifiers. Equal or better performance at equal or lower burden counts against the proposed differential. §§16–18 retain source dependence, matched implementation trajectories and the limited symbolic A6 authority-confound correction. Provenance is distinct from truth, identities from independence, opportunity from admissibility, and authority from confidence. Old trust-only B / available-capacity C definitions stay historical.
+
+[Operation §§16–18](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#16-worked-falsifier--bar-to-napoleon), blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`, retains `Role_effective ≠ Role_bound`, evaluation from observed behaviour and a legitimate metamorphic transition with objective, ACC/lineage, authority and validity horizon. [01D §§2–3/6](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), blob `8db6ded733dada42ca20f2cbe952b26809ec556e`, is the compatible per-operation/decision composition contract; it is not the narrative's replacement. New evidence does not extend old permission, and material change invalidates only dependent claims. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) records the receiver side. All three reception questions are resolved; empirical execution and efficacy remain separate questions.
+
+
+
+## Gradient posture-signature reception — 15 October 2026
+
+A6 traced Gradient's retired competing Γ signature to the complete current Operation §11 (lines329–408, blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). The three postures and ACC/authority/capacity/horizon inputs survive with Cart, Type, role and focal MSCA context. Normal may remain appropriate under qualified nonzero change; containment classification and legitimate migration retain their separate execution gates. Threshold/hysteresis remains local. The [Gradient owner](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the source-side judgment. No Operation patch or duplicate signature is needed.
+
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #37, #59 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #37: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`); #59: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

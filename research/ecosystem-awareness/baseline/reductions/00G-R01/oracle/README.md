@@ -18,7 +18,7 @@ Primary source:
   https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5846988611
 - UC #4 candidate experiment input package v1.1.1 / schema 1.0.0  
   https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5847245589
-- UC #4 public experiment schema 1.1.0-r1, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
+- UC #4 experiment schema **1.1.0**, published in package **1.1.0-r1**, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
   https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
 - Theme #13 — Ecosystem-level Agent Defense  
   https://github.com/FG-TIDA/themes/issues/13
@@ -34,6 +34,21 @@ Corpus reuse:
 - [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
 - [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
 - [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
+
+## Reuse of the existing corpus harnesses
+
+R01 builds on an existing test corpus. Reuse must distinguish code or infrastructure already adapted, controls available for a new profile, and a mapping that has actually been tested and admitted. Prior results retain their original scenario, version and evidence scope.
+
+| Existing source | Reusable part | Current R01 integration boundary |
+|---|---|---|
+| [RS-00E-Q1a](../../../fixtures/RS-00E-Q1a/README.md) | Canonical Trace v1, post-run evaluation, replay and instrumentation controls. | The serialization utility is adapted here; Q1a truth, scoring and shared-logic comparator results do not evaluate R01 routes. |
+| [00K symbolic suite](../../../fixtures/00K-SUITE/README.md) | P1–P6 regressions, matched controls, ablations, strong-repair tests and retained falsifiers. | Keep the registered suite as a regression source; importing a control does not create an R01 outcome or a real-technology result. |
+| [00L paired traversals](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) | Frozen facts, visible observations, prior rules, separate oracle, paired comparisons and requirement/gate traceability. | Normalize observations, dispositions and resource units through a reviewed profile; paper and symbolic results retain their scope. |
+| [00I / S5 stateful harness](../../../fixtures/00I-STATEFUL/README.md) | Queue, source reads, guard, permit, executor, target-state observations and bounded recovery. | Candidate backend for a versioned R01/UC-4 adapter; no such admitted adapter or AWS execution is established by this reference. S5 effect expectations remain a specific evaluator. |
+| [00G-HF development history](../../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) | Recorder, authority controls, episode/seed handling, social messages and dynamic schedules. | Preserve each runner's own oracle, policy and result scope; projection to R01 routes and collective measures requires a declared correspondence. |
+| [Earlier R01 diagnostics](../feasibility/partial-experiments/README.md) | Small-world enumeration, budget/measurement countercontrols and historical counterexamples. | Revalidate against the current scenario and conditioned theorem; these are not the complete neutral R01 evaluator. |
+
+The integration direction is a common experiment/trace boundary with versioned scenario backends and specific evaluators. It does not require rewriting the retained harnesses or merging their ground truths. Conventional controls that succeed retain that result.
 
 ## Interoperability rule
 
@@ -103,6 +118,8 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 25. keep the declared nonnegative base and reject ambiguous reference types; and
 26. reject incomplete or oracle-visible T03 registrations while admitting a synthetically complete isolated registration control.
 
+Interpret results by their declared mode. A batch PASS checks the candidate's declared selection against a bounded reference and frozen measurements; it is not proof of an executed effect. The interactive instrumentation additionally checks matching environment execution evidence. Native `completion` and `legitimate_q` fields do not automatically establish the scenario's timely admissible-delivery metrics: the current evaluator checks deadline separately. Full scenario metrics and real-runtime isolation remain profile-specific verification obligations.
+
 Run locally from this directory:
 
 ```sh
@@ -169,3 +186,25 @@ oracle/
 ## Claim boundary
 
 The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+
+### Next scoped successor decision
+
+The completed documentary work on tasks1/2 retains its bounded receipt. Further tasks3–8 remain inactive until their own scope and decision. A prospective successor packet identifies: the exact UC4/source-schema edition and correspondence; one selected CTv1 profile and admitted clauses; clause → predicate → private reference → fail-capable/positive control mapping; attempted versus observed effect and operation/cost accounting; candidate/caller/private-state isolation; and the accepted adapter/broker/reset/resource/stop conditions.
+
+Backend expansion is optional and separately scoped. Before any C11 registration/T03 admission or real execution, identify the selected reference, remaining schema/caller/isolation gaps and actual native evidence required. Calibration results remain calibration; the packet does not launch those tasks, reopen applied text or manufacture a technology result. The [existing plan review](./README_VNext.md) records the precise successor proposal and decision.
+
+
+## Reading sequence from registration to result
+
+Follow the record in the order in which its evidence is created:
+
+| Step | Read | What it fixes |
+|---|---|---|
+| 1. Imported question and semantics | [UC-4 bridge](./UC4_INTEROPERABILITY_PROFILE.md) | Source/version, mapping, capabilities and distinct review states. |
+| 2. Candidate and execution envelope | [Adapter guide](./TECHNOLOGY_ADAPTER_GUIDE.md) and [registration template](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) | Implementation, native mapping, comparisons, resources, reset/cache and disclosure policy. |
+| 3. Candidate visibility | [Isolation contract](./ISOLATION_CONTRACT.md) | What the candidate can access and the evidence for that runtime boundary. |
+| 4. Actions and acceptance | [Tool broker](./TOOL_BROKER_CONTRACT.md) and [gate policy](./GATE_POLICY_CONTRACT.md) | Available operations, charges, durations, effects and frozen acceptance conditions. |
+| 5. Evidence before and after evaluation | [Trace contract](./TRACE_CONTRACT.md) | Candidate/native evidence, attempted action, observed effect, pre-oracle seal and result seal. |
+| 6. Instrument calibration | [v0.9 record](./SELFTEST_RECORD_v0.9.md), [result](./selftest_result_v0.9.json) and [freeze](./STAGE0_FREEZE_v0.9.json) | The published calibration of the instrument0.7 under freeze0.9, preserving each control's expected PASS, FAIL or INCONCLUSIVE outcome. |
+
+Use the [DDS method index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) for the study stage and its authoritative reference. C11 registers the selected campaign; T03 admits its pinned real-technology adapter. The registration template is completed and evidenced before that execution. The existing self-test records remain the calibration history of the instrument.

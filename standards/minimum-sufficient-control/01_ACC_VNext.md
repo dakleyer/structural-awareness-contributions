@@ -58,3 +58,16 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [16](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [43](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [45](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [60](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Historical reception of ACC boundaries — 15 October 2026
+
+Reviewer A compared the complete ACC source (`6059423eb0e2eca5a1281225e117f9f5017e3286`) and26 retired units. Identity, membership, lineage, mutation authority, execution authority and compatibility remain distinct. UNBOUND permits a template, not an authorised concrete participant.
+
+RepositionIntent still needs approval, a valid successor and compatibility before mutation. Compatibility does not create citizenship or precedence. The historical changes strengthen these constraints; restoring earlier loose wording would regress them.
+
+
+## Optional human-escalation protection example — 15 October 2026
+
+Historical 01K §11 allowed an applicable ACC/signalling profile to specify non-retaliation/protected-objection conditions. The current ACC lineage source still owns issuer/approver, signalling-profile and legitimate external-owner binding; it does not itself define a universal protection policy. Change130 restores the optional example in [01K's existing review](../../research/ecosystem-awareness/baseline/01K_VNext.md#historical-human-capacity-integration-and-the-optional-protection-example--15-october-2026), keeping those conditions with the legitimate ACC/policy owner. Current ACC semantics and source text require no amendment.
+

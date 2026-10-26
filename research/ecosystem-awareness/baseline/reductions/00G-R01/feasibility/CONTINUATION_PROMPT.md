@@ -8,7 +8,7 @@ Continue M13 with HUMAN_ESCALATION_WHISPERING.md: **human escalation and whisper
 
 Then apply the same profile to LangGraph, OpenAI Agents SDK, smolagents and relevant mechanisms from received annexes. Do not open separate governance projects or execute three adapters before qualifying their mechanisms. Previous notes and scripts remain subordinate in partial-experiments/ as noncanonical rehearsals. Do not repeat them as a requirement for task cleanup.
 
-M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another author's review independent.
+M16 first records received external coverage and then only missing coverage; M17 retains the pending fidelity audit without disregarding the existing bridge; P08 verifies current editions without overwriting historical hashes. Do not call another self-review independent.
 
 The staged sequence remains mathematical proof → evaluation oracle and neutral harness C02 → registration C11 → adapter and real campaign T03. C02 is now in limited Stage-0 instrumentation implementation; C11 and T03 remain gated. The private evaluator does not deliver its verdict to the agent. Preparing a contract does not demonstrate implementation, and finite execution does not prove universal impossibility. Preserve competent controls, legitimate alternatives and adverse results.
 

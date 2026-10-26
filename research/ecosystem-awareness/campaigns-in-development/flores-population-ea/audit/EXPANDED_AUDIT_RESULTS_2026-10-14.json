@@ -1,0 +1,445 @@
+{
+  "schema": "FLORES_EXPANDED_AUDIT_1",
+  "date": "2026-10-14",
+  "sourceCommit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+  "phase": "FINAL",
+  "authorSideReview": true,
+  "independentScientificAdjudication": false,
+  "nativeRun": false,
+  "EAImplementation": false,
+  "reproducedAndRepaired": [
+    {
+      "id": "HARD-01",
+      "description": "Stage B acceptance can be asserted with updated file hash and no execution proof",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N01"
+    },
+    {
+      "id": "HARD-02",
+      "description": "Duplicate inventory entry accepted",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N02"
+    },
+    {
+      "id": "HARD-03",
+      "description": "Source inventory can be emptied despite declared original count 65",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 0,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N03"
+    },
+    {
+      "id": "HARD-04",
+      "description": "Missing published validation receipt is still accepted",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N04"
+    },
+    {
+      "id": "HARD-05",
+      "description": "Missing repository dependency still returns PASS by default",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [
+        "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md"
+      ],
+      "finding": "INVALID_STATE_ACCEPTED",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N05"
+    },
+    {
+      "id": "HARD-06",
+      "description": "Duplicate decision identity accepted",
+      "oldExitCode": 0,
+      "oldResult": "PASS_DOCUMENTARY_CHECKS",
+      "oldErrors": [],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "INVALID_STATE_ACCEPTED",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N06"
+    },
+    {
+      "id": "HARD-07",
+      "description": "Missing dependency schema fails with unstructured exception",
+      "oldExitCode": 1,
+      "oldResult": "UNSTRUCTURED_ERROR",
+      "oldErrors": [],
+      "oldMissingDependencies": [],
+      "finding": "UNSTRUCTURED_ERROR",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N07"
+    },
+    {
+      "id": "HARD-08",
+      "description": "Original paths count reported as 65 even when an original is missing",
+      "oldExitCode": 1,
+      "oldResult": "FAIL",
+      "oldErrors": [
+        "MISSING_FILE runtime-context/code/preflight.mjs",
+        "ORIGINAL_PATH_LOST runtime-context/code/preflight.mjs",
+        "PREDECESSOR_NOT_PRESERVED runtime-context/code/preflight.mjs",
+        "RUNTIME_MANIFEST_FILE code/preflight.mjs"
+      ],
+      "oldReportedOriginalPaths": 65,
+      "oldMissingDependencies": [],
+      "finding": "COUNTER_REPORT_DEFECT",
+      "resolution": "CLOSED_BY_COUNTEREXAMPLE_REJECTION",
+      "successor": "audit/verify_campaign.mjs",
+      "newCase": "N08"
+    }
+  ],
+  "verifierMutationTests": {
+    "schema": "FLORES_VERIFIER_V02_ADVERSARIAL_TESTS",
+    "result": "PASS_ADVERSARIAL_DOCUMENTARY_CONTROLS",
+    "baselinePass": true,
+    "negativeCases": 25,
+    "restoredValidCasePass": true,
+    "independentScientificAudit": false,
+    "nativeRun": false,
+    "rows": [
+      {
+        "id": "N01",
+        "name": "Fictitious Stage B acceptance",
+        "expected": "FALSE_SCIENTIFIC_PROMOTION stage_b",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "FALSE_SCIENTIFIC_PROMOTION stage_b"
+        ]
+      },
+      {
+        "id": "N02",
+        "name": "Duplicate artifact identity",
+        "expected": "DUPLICATE_INVENTORY",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "DUPLICATE_INVENTORY APPROACH_DRIFT_2026-10-12_13.md"
+        ]
+      },
+      {
+        "id": "N03",
+        "name": "Erase original inventory and change its declared count",
+        "expected": "SOURCE_COUNT_DRIFT",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "SOURCE_COUNT_DRIFT"
+        ]
+      },
+      {
+        "id": "N04",
+        "name": "Missing published receipt",
+        "expected": "MISSING_FILE",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "MISSING_FILE audit/VALIDATION_2026-10-13.json",
+          "LINK_MISSING CAMPAIGN.md -> audit/VALIDATION_2026-10-13.json",
+          "LINK_MISSING TRACEABILITY_2026-10-13.md -> audit/VALIDATION_2026-10-13.json",
+          "LINK_MISSING VERSIONS_AND_DECISIONS_2026-10-13.md -> audit/VALIDATION_2026-10-13.json",
+          "NOT_REACHABLE_FROM_CAMPAIGN audit/VALIDATION_2026-10-13.json"
+        ]
+      },
+      {
+        "id": "N05",
+        "name": "Missing dependency with default flags",
+        "expected": "PARTIAL",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 2,
+        "diagnostics": []
+      },
+      {
+        "id": "N06",
+        "name": "Duplicate decision",
+        "expected": "DUPLICATE_DECISION",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "DUPLICATE_DECISION DEC-01"
+        ]
+      },
+      {
+        "id": "N07",
+        "name": "Missing dependency array",
+        "expected": "SCHEMA_ARRAY repository_dependencies",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "SCHEMA_ARRAY repository_dependencies"
+        ]
+      },
+      {
+        "id": "N08",
+        "name": "Actual original-path count after loss",
+        "expected": "ORIGINAL_PATH_LOST",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "PINNED_PREDECESSOR_LOST runtime-context/code/preflight.mjs",
+          "MISSING_FILE runtime-context/code/preflight.mjs",
+          "ORIGINAL_PATH_LOST runtime-context/code/preflight.mjs",
+          "PREDECESSOR_NOT_PRESERVED runtime-context/code/preflight.mjs",
+          "LINK_MISSING CAMPAIGN.md -> runtime-context/code/preflight.mjs",
+          "LINK_MISSING TRACEABILITY_2026-10-13.md -> runtime-context/code/preflight.mjs",
+          "LINK_MISSING VERSIONS_AND_DECISIONS_2026-10-13.md -> runtime-context/code/preflight.mjs",
+          "NOT_REACHABLE_FROM_CAMPAIGN runtime-context/code/preflight.mjs",
+          "RUNTIME_MANIFEST_FILE code/preflight.mjs",
+          "RECEIPT_ORIGINAL_COUNT",
+          "RECEIPT_BASELINE_COUNT"
+        ]
+      },
+      {
+        "id": "N09",
+        "name": "False scientific control status",
+        "expected": "CONTROL_SCIENTIFIC_STATE",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "CONTROL_SCIENTIFIC_STATE"
+        ]
+      },
+      {
+        "id": "N10",
+        "name": "Path outside campaign",
+        "expected": "PATH_NOT_CANONICAL",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "PATH_NOT_CANONICAL ../outside"
+        ]
+      },
+      {
+        "id": "N11",
+        "name": "Malformed SHA-256",
+        "expected": "INVALID_SHA256",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "INVALID_SHA256 APPROACH_DRIFT_2026-10-12_13.md"
+        ]
+      },
+      {
+        "id": "N12",
+        "name": "Unauthorized self-hash exception",
+        "expected": "INVALID_SELF_HASH_EXEMPTION",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "INVALID_SELF_HASH_EXEMPTION"
+        ]
+      },
+      {
+        "id": "N13",
+        "name": "Forged pinned baseline even with updated inventory hash",
+        "expected": "PINNED_BASELINE_HASH",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "PINNED_BASELINE_HASH",
+          "PINNED_BASELINE_COMMIT"
+        ]
+      },
+      {
+        "id": "N14",
+        "name": "Orphan claim decision",
+        "expected": "CLAIM_DECISION",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "CLAIM_DECISION CLAIM-01"
+        ]
+      },
+      {
+        "id": "N15",
+        "name": "Duplicate claim",
+        "expected": "DUPLICATE_CLAIM",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "DUPLICATE_CLAIM CLAIM-01"
+        ]
+      },
+      {
+        "id": "N16",
+        "name": "False declared dependency blob",
+        "expected": "DEPENDENCY_BLOB",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "DEPENDENCY_BLOB DOCUMENT_CONTROL.md",
+          "DEPENDENCY_BLOB DOCUMENT_CONTROL.md"
+        ]
+      },
+      {
+        "id": "N17",
+        "name": "Lost authenticated old checker",
+        "expected": "PINNED_PREDECESSOR_LOST",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "PINNED_PREDECESSOR_LOST audit/verify_campaign.mjs",
+          "MISSING_FILE history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt",
+          "ARCHIVE_MISSING history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt",
+          "LINK_MISSING VERSIONS_AND_DECISIONS_2026-10-13.md -> history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt",
+          "NOT_REACHABLE_FROM_CAMPAIGN history/versions/2026-10-14_before_expanded_audit/audit/verify_campaign.mjs.txt",
+          "RECEIPT_BASELINE_COUNT"
+        ]
+      },
+      {
+        "id": "N18",
+        "name": "Forged original source declaration",
+        "expected": "SOURCE_DECLARATION_DRIFT",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "SOURCE_DECLARATION_DRIFT APPROACH_DRIFT_2026-10-12_13.md",
+          "PREDECESSOR_MISMATCH APPROACH_DRIFT_2026-10-12_13.md"
+        ]
+      },
+      {
+        "id": "N19",
+        "name": "Unclassified file",
+        "expected": "UNCLASSIFIED_FILE",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "UNCLASSIFIED_FILE UNCLASSIFIED_TEST_ONLY.txt"
+        ]
+      },
+      {
+        "id": "N20",
+        "name": "Broken current route despite refreshed inventory",
+        "expected": "LINK_MISSING",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "LINK_MISSING CAMPAIGN.md -> MISSING_CURRENT_DESIGN.md"
+        ]
+      },
+      {
+        "id": "N21",
+        "name": "Lost old fragment despite refreshed document hash",
+        "expected": "LEGACY_ANCHOR_LOST",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "LEGACY_ANCHOR_LOST CAMPAIGN.md#orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3"
+        ]
+      },
+      {
+        "id": "N22",
+        "name": "Erase old anchor declarations",
+        "expected": "LEGACY_ALIAS_DECLARATION_DRIFT",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "LEGACY_ALIAS_DECLARATION_DRIFT CAMPAIGN.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT CONTINUATION.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT SCIENTIFIC_DESIGN.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT RUN_CARD_PREPARATION.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT SOURCES_AND_CUSTODY.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT APPROACH_DRIFT_2026-10-12_13.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT AUDIT_REPORT_2026-10-13.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT HISTORY_AND_AUDIT.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/PROTOCOL_P0_P3.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/ACCEPTANCE_AND_B2.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/EHD_04_05A_MAPPING.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/RESIDUAL_LEDGER.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/AUDIT_RECONCILIATION.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/HISTORY_AND_REPRODUCTION.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/SOURCES_AND_PINS.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/SUBMISSION_BRIEF_EN.md",
+          "LEGACY_ALIAS_DECLARATION_DRIFT technical/TECHNICAL_INDEX.md"
+        ]
+      },
+      {
+        "id": "N23",
+        "name": "Receipt falsely claims independence",
+        "expected": "RECEIPT_FALSE_INDEPENDENCE",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "RECEIPT_FALSE_INDEPENDENCE"
+        ]
+      },
+      {
+        "id": "N24",
+        "name": "Receipt falsely claims scientific PASS",
+        "expected": "RECEIPT_UNSUPPORTED_RESULT",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "RECEIPT_UNSUPPORTED_RESULT"
+        ]
+      },
+      {
+        "id": "N25",
+        "name": "Fictitious working admission",
+        "expected": "FALSE_WORKING_STATUS",
+        "result": "REJECTED_AS_REQUIRED",
+        "exitCode": 1,
+        "diagnostics": [
+          "FALSE_WORKING_STATUS"
+        ]
+      }
+    ]
+  },
+  "qualifierSuccessor": {
+    "namedControls": 18,
+    "boundedConjunctionCases": 27,
+    "result": "PASS_AUTHORED_CONTRACT_CHECKS",
+    "sameCompleteCandidatePacket": true,
+    "differentExternalWorldTruths": true,
+    "legacy21AssertionsUnchanged": true
+  },
+  "sourceFreshness": {
+    "commentsRetrieved": 22,
+    "previousBodyHashesUnchanged": 20,
+    "nativePublishedFiles": [
+      "README.md",
+      "expected.py"
+    ]
+  },
+  "remainingNativeAdmission": [
+    "OPEN-01",
+    "OPEN-02",
+    "OPEN-03",
+    "OPEN-04"
+  ],
+  "privateBinaryCustodyRemaining": "OPEN-06",
+  "freshnessLimit": "Current dated cut; future mutations require another cut"
+}

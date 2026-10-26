@@ -127,7 +127,7 @@ The list is extensible.
 | X_focal,i | focal MSCA | Current Objective Envelope and control architecture. |
 | Cart_i | Ecosystem Cartography | Candidate role/MSCA neighbourhood, confidence, expansion capability and residual. |
 | Δ_Cart,i | Composition & Control | Material changes in the represented ecosystem map. |
-| Δ_RA | Regime Awareness | Qualified direction/intensity/capability/residual of ecosystem/regime change. |
+| Δ_RA | Regime Awareness | Qualified regime-change position: A_RA direction; B_RA established support, validity limits and characterized assessment reserve; C_RA grounded exploration avenues not yet characterized; D_RA effects beyond effective evaluation. Confidence qualifies support and is not physical change magnitude; uncertain role classification remains UNKNOWN. Retain the source's scope, context, versions and freshness. |
 | RegimeOverlay_i | Regime Awareness | Which cartographic/MSCA assumptions are weakening, departed or unresolved. |
 | ACC_Role / lineage | role-bound ACC + ACC Lineage | Admissibility, mutation envelope, lineage continuity, approval route and validity. |
 | authority | external legitimate authority/delegation mechanisms | What may actually be approved/executed. |
@@ -284,18 +284,16 @@ D_Cart does not become an executable candidate space merely because it may conta
 
 ## 9. Agentic gradient as repositioning opportunity function
 
-For each candidate transition τ:
+For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
 
 ~~~text
 G_i(τ | Δ_RA, Cart_i, X_i)
-=
-expected reduction in objective-conditioned risk
-=
-expected increase in Objective-Envelope fulfilment
+= profile-qualified comparison of current and candidate objective-conditioned risk
 ~~~
 
-as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
+For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
 
+The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
 The gradient asks:
 
 > **If I could legitimately occupy this candidate position, how much better would it be for my current objective binding under the qualified change?**

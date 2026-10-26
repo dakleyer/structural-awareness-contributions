@@ -56,24 +56,7 @@ La propuesta vuelve a los README VNext de [EA](../README_VNext.md), [RA](../../r
 
 ## Propuesta antes/después — declarar el puente de representación
 
-**Localización:** §2, párrafo único de reconciliación de símbolos. **Instrucción:** revisión completa segura de Iván. **Tipo:** adición que condiciona un perfil de integración; revisar su alcance y consumidores antes de adoptar.
-
-**Texto antes:**
-
-```text
-The symbol P_RA denotes the source-defined **RA directional detector output** (called directional posture in the minimal-detector paper); P_MSCA denotes the MSCA intervention/planning dimension. They are **not the same variable**. P_RA is not one of the three EA/Positioning operating postures. In particular, RA neutral (P_RA = 0) is not EA Normal Operation, and RA Pointwise Non-Inferiority (PNI) is not an MSCA proof of S/E/C/P_MSCA/M sufficiency.
-```
-
-**Texto después:**
-
-```text
-The symbol P_RA denotes the source-defined **RA directional detector output** (called directional posture in the minimal-detector paper); P_MSCA denotes the MSCA intervention/planning dimension. They are **not the same variable**. P_RA is not one of the three EA/Positioning operating postures. In particular, RA neutral (P_RA = 0) is not EA Normal Operation, and RA Pointwise Non-Inferiority (PNI) is not an MSCA proof of S/E/C/P_MSCA/M sufficiency. Where an operation instead consumes the broader Δ_RA=[A_RA,B_RA,C_RA,D_RA] position, its profile must declare the source-qualified mapping and the components and qualifiers actually relied upon. It must not manufacture P_RA from a confidence value or assume that the broader delta inherits every minimal-detector or response-safety claim.
-```
-
-**Razón:** hacer explícita la relación entre representaciones preservando permiso, semántica y prueba propios. **Dependencias:** 01C/01B, RA/EA/MSCA, Operation y implementaciones de la composición. **Antes comprobado:** una coincidencia. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio17 incorporado en `research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -165,3 +148,20 @@ La valoración actual distingue una mejora documental de una modificación conce
 Nueva pregunta de segunda pasada: ¿qué condiciones de las dos interfaces se conservan al leer 01B y 01H completos?01B § §5.1/7.1 y 01D § §2/3/6 mantienen permiso separado, evidencia/operación/tiempo yfallback con dueño.01H §5 conserva estado vacío UNASSESSED. «MSCA permit» en 01D § §3/6 se interpreta en contexto como permiso asociado auna operación, no emitido por elassessment; la redacción no demuestra por sí sola un fallo operativo.17 sigue pendiente: nueva lectura no crea mappingΔ_RA→P_RA. No se repiten las propias pasadas anteriores como si fueran otra revisión independiente.
 
 La explicación de origen y los límites están en [01H VNext](01H_VNext.md) y [01B VNext](01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 17 | Explicar la correspondencia P_RA y delta RA | research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md | Aplicado |
+
+
+
+## Historical reception of composed authorisation — 15 October 2026
+
+Reviewer A read complete01D and its historical withdrawn clauses. Operation, objective, environment, context, action library, utility, affected parties, time and version remain bound together. UNKNOWN is not silently converted to RA neutral, MSCA SUPPORTED or EA Normal. An optional RA monitor does not veto an independently authorised action by default.
+
+A new signal does not extend an old permit; a new permit does not cure insufficient evidence. Acquisition, governance, review and execution costs remain attributed once, and a receipt is distinct from measured effect. These are preserved contracts, so the earlier broader/pending formulations are not restored. The separate Role phrase repair125 leaves this contract intact.

@@ -1,0 +1,65 @@
+# Revisión adversarial y decisiones del paquete Flores
+
+13 octubre 2026. Revisión por el mismo preparador del paquete. No independencia externa. El objeto es mejorar la propuesta antes de entregar un contrato experimental.
+
+## Hallazgos resueltos en el diseño
+
+| Hallazgo | Resolución | Evidencia en paquete |
+|---|---|---|
+| Desplazamiento hacia UC17-08 en vez del objetivo temporal | Misma afirmación temporal definida antes de t0 | Informe §§2,5,7 |
+| Baseline de independencia inexistente | Prohíbe usar votes como prueba inicial de independencia/corrección objetiva | Informe §4 |
+| Confusión entre no verdad y no fundamento | Estados separados y condición para identificación | Formalización §§2,5,6 |
+| Indistinguibilidad tautológica | Truths ocultas diferentes, complete packet igual | Preflight null_pairs |
+| Ventaja de información para EA | Comparación B2/EA en O_context; native O_votes aparte | Protocolo §§7,11 |
+| B2 débil | Versions, lineage, alternate proof, expiry, unknown y recovery | code/preflight.mjs |
+| Campo de pérdida que da la respuesta | Current epoch/source witness brutos; no answer field | Protocolo §3 |
+| Reentrada que borra historia | Se conserva historial; toda restoration necesita evidence | Controles K03,K16 |
+| Scope/global hold | Target independiente y control de decisionB | K17 y assert específico |
+| Autoejecución de fuente ausente | Solo authored proxy; oficiales source snapshot intactos | Source snapshots / resultados |
+| Falsa promoción DDS | Documento y preflight separados de campañas | Informe §16 |
+| Count de checks como muestras | Unidades named controls y twin constructions separadas | RESULT JSON |
+| Cambio de native scoring | UC17-08 excluido y ocho scored keys conservadas | Assert de scored cases |
+| Fuente desconocida/copiada como independiente | Trusted issuer estipulado; duplicados no corroboran | K07,K08 |
+| Verdad de clave a partir del sello | No se determina key truth con joins | Informe §17 |
+| Dependencia cambiante como “mismos inputs” por marginales | Diferencia entre transcript, votes y statistics | Informe §6 |
+
+## Objeciones que siguen abiertas
+
+### La retirada de witness puede ser trivial
+
+Correcto. La familia básica puede resolverse con joins convencionales; el preflight muestra ese empate. Es útil como filtro de requisitos, no una prueba de singularidad EA. Para una segunda familia, exigir una ventaja verificable en composición, adquisición o costes y mantener un B2 pleno.
+
+### El trust de la fuente es estipulado
+
+Correcto. Las fuentes autorizadas del demo son una premisa synthetic. Un run real necesita el régimen de source admission, factual validity y source-owner agreement. Un digest no reemplaza esas comprobaciones.
+
+### El monitor recibe un dato cuya semántica ya está especificada
+
+Correcto. Este es un Stage A contract check con esquema conocido. No demuestra autonomously deriving context semantics. El coste de construir el perfil se incluye; un test con profile semantics no caracterizada tendría scope y oráculo nuevos.
+
+### El actor real puede cambiar aunque el label no cambie
+
+Posible, pero no demostrado por el caso base. Esa alternativa requiere mapping identity con source standing y timestamp, y no debe confundirse con el antiguo shuffle por ronda. No se invoca C automáticamente.
+
+### La ciencia nativa de Flores tiene otro output
+
+Correcto. El detector no promete detectar toda pérdida de contexto. La campaña primera puede concluir “not assessed in native scope”, preservando su mérito. Cualquier wrapper de continuidad que herede legitimidad es un objeto distinto y se identifica como tal.
+
+### En t0 el contexto futuro no se conoce con certeza
+
+Correcto. La pregunta debe incluir su temporalidad desde el inicio y la baseline depende de una relación con horizonte declarado. Una inferencia sobre un futuro open world no se vuelve garantía universal. No llamar “sabía verdad inmutable y luego la olvidó” a un cambio de aplicabilidad.
+
+### Los 64 twins no representan casos reales independientes
+
+Correcto. Son una enumeración finita de posibles inputs con hidden labels. La igualdad garantiza un límite para el canal definido, no un número de eventos reales. El formal argument hace el trabajo general; los asserts solo verifican instancias y software.
+
+## Dictamen interno
+
+La propuesta tiene un objetivo coherente con la aclaración de Iván, una intervención causal única seleccionable, un límite de información explícito, comparación fuerte y una calibración consistente. Está preparada para revisión y acuerdo del predicado/context relation. No tiene aceptación científica independiente ni native run.
+
+Antes de Stage A scored deben resolverse world source, oracle owner, source rights, candidate scope, peer defender, resource limits, case freeze y stopping criteria. Estos pendientes se encuentran en la Run Card y no se confunden con falta de preparación documental.
+
+## Control de publicación
+
+El paquete local incorpora fuentes y textos de preparación. No modifica GitHub, el fixture original, roles, Drive ni comunicaciones. El brief es interno. La aprobación futura debe recaer sobre texto/run contract concretos y no sobre una autorización genérica inferida de preparar la investigación.
+

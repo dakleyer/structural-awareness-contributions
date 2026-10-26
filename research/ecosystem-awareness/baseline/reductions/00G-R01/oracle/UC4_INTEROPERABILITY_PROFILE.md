@@ -303,3 +303,10 @@ Before claiming UC4-SOURCE-REVIEWED, ask Nelson to correct at least these points
 5. whether the current explicit statuses `PASS | FAIL | INCONCLUSIVE | INFRASTRUCTURE_ERROR` fit his expected-outcome semantics or require mapping.
 
 Until that review, this profile deliberately avoids claiming exact UC-4 schema compatibility.
+
+
+## Current DDS reading route — 12 October 2026
+
+Section4.1 retains the earlier three-stage design discussion. For the maintained DDS method, use the [method index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), [Stage A](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B Architecture Verification](../../../../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C Implementation / Problem Validation](../../../../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md). Their objects and authoritative references govern the selected study; the earlier sketches remain their design history.
+
+UC-4's imported schema, contributor review, validation and execution capabilities retain their own versioned records. The R01 bridge's listed status remains R01-BRIDGE-DRAFT. The [adapter evidence guide](./TECHNOLOGY_ADAPTER_GUIDE.md#evidence-attached-to-an-admission-record) connects declared admission fields to their supporting artifacts. DDS stage selection and UC-4 compatibility are recorded separately.

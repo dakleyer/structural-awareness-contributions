@@ -885,3 +885,14 @@ The purpose is not to prove Ecosystem Positioning by definition. It is to make t
 The next phase focuses on clarifying the evidence behind the architecture, developing a small end-to-end profile, defining a demanding comparison and extending only what can be supported. The [development strategy and priorities](./DEVELOPMENT_STRATEGY.md) (Spanish working proposal) explains these directions, where specialist knowledge can help and the external research that informs them.
 
 This is a separate strategy document. It complements the architecture and its review programme; it does not replace the explanations above or turn planned work into a validation result.
+
+
+## Reading the architecture and its evidence
+
+A participant can receive an apparently correct output while the conditions that made it relevant have changed. Ecosystem Awareness qualifies what a process can support for a declared question and scope; Regime Awareness examines qualified changes in the applicable basis or regime; MSCA assesses sufficient configurations and possible repositioning. Qualification, permission, execution and confirmed effect remain separate responsibilities.
+
+Use the current semantic notes to understand the architecture, and keep each frozen proof, scenario and result attached to its own assumptions, version and evidence limits. A current reading does not retrospectively validate an older proof or turn symbolic execution into a completed comparative experiment. The requirements express obligations to examine; traceability to them does not itself demonstrate fulfilment.
+
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+
+For current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.

@@ -1,0 +1,36 @@
+FULL READABLE-TEXT RECOVERY FROM LIBRARY — 13 OCTOBER 2026
+Source: Library/RESIDENCIA/EA_FLORES_ADDON_MINIMO_2026-10-12.txt
+Origin format: TXT
+Text below is the full accessible text returned by the Files reader, NOT the original binary file, not a byte-identical PDF/TXT copy, not a new independent review, and not a frozen/accepted DDS outcome.
+For PDF: page markers, spacing and extraction order follow the reader and should not be treated as a faithful visual PDF rendering. Preserve the original source separately for binary hashes, figures and exact-page verification.
+For TXT: textual equivalence with the Library reader's rendering is checked for this generated artifact, but raw source-file byte parity is not authenticated.
+This archived text contains author-side review proposals. Do not feed any disclosed review expectation to a future blinded experimental candidate as private truth.
+
+===== BEGIN SOURCE READER TEXT =====
+EA / POPULATION — PROPUESTA DE UN SOLO ENSAYO NATIVO (12 OCT 2026)
+
+PUNTO: §13 de planted-judge README de Justin Flores. MANTENER INALTERADOS 6 jueces, 8 casos puntuados, REF-FSCOMMS 1.0, seeds, ceguera y todos los flags.
+
+ANTES: población #21 calcula desviaciones entre jueces solo sobre veredictos de contenido. Un resultado correcto aquí no demuestra cobertura de todas las comunicaciones, appraisal de cada registro ni corrección de mayoría.
+
+CAMBIO MÍNIMO: en el ejercicio posterior de revisión conjunta el receptor formula una NUEVA cuestión: ¿basta esta evidencia poblacional para una decisión que exige cobertura y validez de DC-SEND? No se atribuye esta afirmación a Flores ni se envía la nueva pregunta a los jueces.
+
+ENTRADAS YA PUBLICADAS: fundamento de Flores (ocho casos, exclusión UC17-08, solo contenido de UC17-09, REF 1.0, AC-5/AC-6); contexto de Cyril (UC17-08 ausencia atestiguada, UC17-09 C10 rechazado, UC17-07 indeterminate bajo 1.0 y segundo registro no puntuado bajo 1.1); AVS C11 declara relación pero no verifica independencia real. No se pide nuevo output upstream. Fuente A CTGT, si es indispensable, se accede por canal propio FULL_NATIVE_RESULT; no se disfraza de B/C/D.
+
+PRUEBA EA: mantener intacta la conclusión poblacional para su pregunta original; determinar que NO alcanza sin más para la nueva decisión; señalar la brecha EXACTA por registro/alcance/procedencia; no equiparar indeterminate, ausencia y rechazo; conservar continuidad válida sin bloqueo general; no inventar C/D ni cambios invisibles; informar solo a receptor autorizado.
+
+PERTURBACIÓN EXACTA YA RESERVADA POR FLORES §13: una sola alteración downstream, R-UC17-08 "attested absence" interpretado erróneamente como "permit" por el adaptador de la revisión conjunta UC-4. Rama de control sin alteración y rama corrupta, sin tocar un juez ni alterar los ocho veredictos. EA debe reconocer el salto indebido entre ausencia y permiso y conservar el alcance original. Requiere rastro visible de esa traducción; si no llega, es indetectable. Es una inyección controlada propuesta, no un incidente real observado.
+
+CONTRASTES: continuidad cuando la pregunta sigue siendo la original; nueva cuestión de cobertura DC-SEND; selección CONTROLADA del registro authored 1.1 de UC17-07 sin fingir que esa versión entró en vigor después de Stage 1; fuente insuficiente frente a mismatch demostrado.
+
+IGUALDAD EXPERIMENTAL: peer B2 fuerte recibe lo mismo y con iguales recursos. Si también satisface todo, se concluye equivalencia; no se otorga victoria EA.
+
+LIMITACIÓN PRECISA: este ensayo comprueba retorno 2→3 de Olena cuando cambia la PREGUNTA RECEPTORA, NO pérdida empírica 4→3 para la MISMA afirmación debido a cambio espontáneo del régimen de los jueces, pues tal evento no existe en el código guionizado actual.
+
+PRIMARIOS:
+https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532364422
+https://github.com/FG-TIDA/themes/issues/6#issuecomment-5984029028
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5983805190
+https://github.com/dakleyer/structural-awareness-contributions/blob/963a6d973f7670b33aebc7dd3695c3f2afaaeff8/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md
+===== END SOURCE READER TEXT =====

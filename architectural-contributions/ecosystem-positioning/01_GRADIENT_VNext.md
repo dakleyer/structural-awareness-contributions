@@ -44,104 +44,19 @@ Primera, tercera y cuarta pasadas textuales realizadas; segunda abierta por perf
 
 ### Cambio 57 — Precisar cómo se compara un gradiente vectorial
 
-**Fuente/ubicación:** [fuente actual](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md), blob `330cbdab2fa8ca0cb162f480f2ab83b06485a1f8`; el viejo aparece exactamente una vez. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
-
-**Beneficio esperado:** Evitar declarar positiva una alternativa que mejora un objetivo y empeora otro sin regla legítima. No es eficacia medida. **Riesgo concreto:** Afecta significado matemático y rankings de Gradient/Operation/Architecture/01D. **Trabajo necesario:** Conciliar orden, medida, incertidumbre y contraejemplos en consumidores.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-Therefore:
-
-> **Positive gradient means the transition is expected to reduce objective-conditioned uncertainty/risk and equivalently increase expected Objective-Envelope fulfilment.**
-
-> **Negative gradient means the transition increases objective-conditioned risk or decreases expected fulfilment.**
-
-> **Zero gradient means no material improvement under the current qualified model.**
-
-This is the core law.
-
-It is valid for discrete transitions through finite differences and for continuous state spaces through an ordinary differential gradient when such a representation is justified.
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-Therefore, when the declared profile uses a scalar risk functional and the conditional expectation is supported for the assessed scope:
-
-> **Positive gradient means the transition is expected to reduce that objective-conditioned risk. For a normalized binary objective V_i = 1 - R_i, this is equivalently an increase in expected fulfilment.**
-
-> **Negative gradient means an expected increase in that risk.**
-
-> **Zero gradient means no modelled change in that declared scalar measure; it does not establish that unassessed effects are absent.**
-
-A vector-valued or Pareto profile MUST declare how its objective outcomes are compared. It may preserve incomparable alternatives instead of assigning them a single positive or negative sign. Lexicographic priorities or an owner-authorized scalarization are possible profile choices, not universal consequences of this law. A compensating gain MUST NOT override an owner-declared hard constraint.
-
-An expectation requires a declared and justified conditional model for the characterized aspects being assessed. If that basis is unavailable, the profile preserves bounded estimates, a declared robust comparison or UNRESOLVED; it does not assign probabilities to the whole C or D frontier by assumption.
-
-This is an objective-conditioned comparison rule. In a scalar profile it can use discrete finite differences; a differential gradient requires a justified differentiable representation. The law alone establishes neither such a representation nor a computable, unique best transition.
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Conciliar57/58/59; decisión de Iván; no algoritmo universal. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio57 incorporado en `architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cambio 58 — Conservar alternativas y casos sin máximo en la selección
 
-**Fuente/ubicación:** [fuente actual](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md), blob `330cbdab2fa8ca0cb162f480f2ab83b06485a1f8`; el viejo aparece exactamente una vez. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
-
-**Beneficio esperado:** Evitar que argmax implique ganador único o existente cuando falta orden, candidatos o evidencia. No es eficacia medida. **Riesgo concreto:** Empates y fallback pueden alterar contratos y resultados; conjuntos sujetos a ACC/autoridad vigentes. **Trabajo necesario:** Cotejar perfiles/casos de incomparabilidad, empate y máximo no alcanzado.
-
-**Texto antes — viejo literal completo:**
-
-```markdown
-Thus:
-
-~~~text
-τ*_candidate = argmax over T_ACC,i of G_i(τ)
-~~~
-
-but:
-
-~~~text
-τ*_execute = argmax over T_exec,i of G_i(τ)
-~~~
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-For a scalar profile in which a maximum is established, selection first preserves the full set of maximizing candidates:
-
-~~~text
-Candidates_best = argmax over T_ACC,i of G_i(τ)
-Executable_best = argmax over T_exec,i of G_i(τ)
-~~~
-
-These are sets, not a guaranteed unique transition or an execution command. A legitimate profile supplies any required tie-break. For a vector-valued or Pareto profile, retain the non-dominated candidates under its declared comparison relation and apply only an owner-authorized selection rule.
-
-If the relevant set is empty, candidates remain incomparable, no maximum is attained, or material evidence is unresolved, report that state. Use the bounded HOLD, exploration, authority-request or escalation route supplied by the surrounding operation/profile; do not invent a winning transition.
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Depende de57 y conciliación con Operation; decisión de Iván; no fallback universal. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio58 incorporado en `architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cambio 61 — Corregir el título duplicado de residual en Gradient
 
-**Fuente/ubicación:** [fuente actual](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md), blob `330cbdab2fa8ca0cb162f480f2ab83b06485a1f8`; el viejo aparece exactamente una vez. **Impacto esperado: Bajo. Riesgo: Medio. Esfuerzo: Bajo. Prioridad: Después. Tanda: 4 — Lectura humana y rutas.**
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio61 incorporado en `architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
-**Beneficio esperado:** Leer una vez el título del apartado D. No es eficacia medida. **Riesgo concreto:** Cambia el slug; comprobar referencias o preservar ancla compatible. **Trabajo necesario:** Título y enlaces de fragmento, preservación; semántica intacta.
+<a id="d--structural--capability-residual-d--structural--capability-residual"></a>
 
-**Texto antes — viejo literal completo:**
-
-```markdown
-### D — structural / capability residual### D — structural / capability residual
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-### D — structural / capability residual
-```
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Decisión de Iván y control de anclas, como56 sin unificar fuentes. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+**Change61 is incorporated.** The current source has one residual-D heading. The complete old/new card is retained in the identified Git predecessor above; it is not pending work.
 
 
 ---
@@ -194,3 +109,23 @@ La valoración actual distingue una mejora documental de una modificación conce
 Se leyó 01H completo: §4.1 describe oportunidad deobservar/preguntar/verificar, no cambio autorizado derol. ArticleII § §5/6 preserva región suficiente, multiobjetivos yóptimos locales distintos de Pareto. Ambos son antecedentes, no prueba de unranking único.57/58/59 siguen la propuesta conjunta; la lectura no los incorpora ni deduce una esperanza probabilística sobre todoC/D.
 
 La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 57 | Precisar cómo se compara un gradiente vectorial | architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md | Aplicado |
+| 58 | Conservar alternativas y casos sin máximo en la selección | architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md | Aplicado |
+| 61 | Corregir el título duplicado de residual en Gradient | architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md | Aplicado |
+
+
+
+## Bounded gradient history and posture owner — 15 October 2026
+
+Reviewer A read all531 current Gradient lines, blob `72bee8adf66ef4281459190737d78e3fa1e5023a`, and its complete historical before/after series. Owner objectives, non-fungible risks, finite burden/time, material dependency projection, ACC admissibility and opportunity/admissibility/authority/execution separation survive. Current lines245–359 correctly retain vector/Pareto incomparability, ties, empty sets, unattained maxima and UNRESOLVED. Restoring an unconditional scalar-sign/unique-argmax transition would be a regression.
+
+Known unused assessable options remain B; C establishes neither benefit nor reachability, and D does not receive an assumed probability for the entire residual. Source-owned RA delta remains distinct from participant objective-conditioned gradient. The retired competing Γ signature is substantively received in current [Operation §11](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`, lines329–408: three postures, ACC/authority/capacity/horizon, Cart, Type, role and focal MSCA context. Qualified nonzero change may remain Normal; containment classification leaves execution with its owner, and migration requires a legitimate qualified path. No second Γ signature or source patch is needed. The [Foundation owner](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#foundation-reception-completed-for-this-historical-block--15-october-2026) records the corresponding Type correction.
+

@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.1",
+  "registration": {
+    "id": "UC21-S4-SYNTHETIC-DEFENCE-001",
+    "frozen_at": "2026-10-25T14:00+01:00",
+    "uc21_source_ref": "Preserved source aec08fb5 — synthetic example, not registered native case",
+    "uc21_claim": "HR",
+    "source_case_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "dds_method_ref": "DDS-index-v0.1",
+    "registered_before_runs": true,
+    "admitted_change_domains": {
+      "S4": "2222222222222222222222222222222222222222222222222222222222222222"
+    }
+  },
+  "runs": [
+    {
+      "id": "r0",
+      "scenario": "S4",
+      "route": "R0",
+      "dds_stage": "A",
+      "evidence_mode": "SYNTHETIC",
+      "executed_at": "2026-10-25T14:10:00+01:00",
+      "implementation": {
+        "product": "Synthetic peer",
+        "version": "1.0",
+        "config_hash": "pinned-config-123",
+        "safeguards_hash": "pinned-safeguards-321",
+        "adaptation_enabled": true
+      },
+      "fixture": {
+        "id": "fixed-scope-a",
+        "version": "v1",
+        "source_snapshot_ref": "snapshot-v1",
+        "oracle_reference": "private-oracle-v1",
+        "oracle_visible_to_defender": false
+      },
+      "resources": {
+        "compute_units": 100,
+        "human_review_hours": 2,
+        "deadline_seconds": 300
+      },
+      "gates": {
+        "Q0": "PASS",
+        "Q1": "PASS",
+        "Q2": "FAIL",
+        "Q3": "PASS",
+        "Q4": "PASS",
+        "Q5": "PASS"
+      },
+      "controls": {
+        "legitimate_activity": "PASS",
+        "matched_resources": "PASS",
+        "control_trace_ref": "positive-control-fixture"
+      },
+      "result": {
+        "source_verdict": "FAIL",
+        "observed_effect": "FAILURE_OCCURRED",
+        "deadline_met": true,
+        "authorized_response": true,
+        "observed_effect_ref": "simulated-effect-log",
+        "effect_evidence_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "effect_observer": "fixture assessor"
+      },
+      "evidence_status": {
+        "instrument_qualified": true,
+        "source_findings_preserved": true,
+        "native_execution_verified": false,
+        "independent_effect_verified": false,
+        "qualification_ref": "fixture-selftest-not-native"
+      },
+      "trace_ref": "synthetic-trace-ref",
+      "costs": {
+        "compute": 10.0,
+        "review": 2.0
+      },
+      "impact": {
+        "affected_people": 4000,
+        "unjustified_actions": 3,
+        "human_rework_hours": 140
+      }
+    },
+    {
+      "id": "r1",
+      "scenario": "S4",
+      "route": "R1",
+      "dds_stage": "A",
+      "evidence_mode": "SYNTHETIC",
+      "executed_at": "2026-10-25T14:20:00+01:00",
+      "implementation": {
+        "product": "Synthetic peer",
+        "version": "1.0",
+        "config_hash": "pinned-config-123",
+        "safeguards_hash": "pinned-safeguards-321",
+        "adaptation_enabled": true
+      },
+      "fixture": {
+        "id": "fixed-scope-a",
+        "version": "v1",
+        "source_snapshot_ref": "snapshot-v1",
+        "oracle_reference": "private-oracle-v1",
+        "oracle_visible_to_defender": false
+      },
+      "resources": {
+        "compute_units": 100,
+        "human_review_hours": 2,
+        "deadline_seconds": 300
+      },
+      "gates": {
+        "Q0": "PASS",
+        "Q1": "PASS",
+        "Q2": "PASS",
+        "Q3": "PASS",
+        "Q4": "PASS",
+        "Q5": "PASS"
+      },
+      "controls": {
+        "legitimate_activity": "PASS",
+        "matched_resources": "PASS",
+        "control_trace_ref": "positive-control-fixture"
+      },
+      "result": {
+        "source_verdict": "PASS",
+        "observed_effect": "FAILURE_AVOIDED",
+        "deadline_met": true,
+        "authorized_response": true,
+        "observed_effect_ref": "simulated-effect-log",
+        "effect_evidence_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "effect_observer": "fixture assessor"
+      },
+      "evidence_status": {
+        "instrument_qualified": true,
+        "source_findings_preserved": true,
+        "native_execution_verified": false,
+        "independent_effect_verified": false,
+        "qualification_ref": "fixture-selftest-not-native"
+      },
+      "trace_ref": "synthetic-trace-ref",
+      "costs": {
+        "compute": 10.0,
+        "review": 2.0
+      },
+      "impact": {
+        "affected_people": 4000,
+        "unjustified_actions": 0,
+        "human_rework_hours": 8
+      }
+    },
+    {
+      "id": "r2",
+      "scenario": "S4",
+      "route": "R2",
+      "dds_stage": "A",
+      "evidence_mode": "SYNTHETIC",
+      "executed_at": "2026-10-25T14:30:00+01:00",
+      "implementation": {
+        "product": "Synthetic peer",
+        "version": "1.0",
+        "config_hash": "pinned-config-123",
+        "safeguards_hash": "pinned-safeguards-321",
+        "adaptation_enabled": true
+      },
+      "fixture": {
+        "id": "fixed-scope-a",
+        "version": "v1",
+        "source_snapshot_ref": "snapshot-v1",
+        "oracle_reference": "private-oracle-v1",
+        "oracle_visible_to_defender": false
+      },
+      "resources": {
+        "compute_units": 100,
+        "human_review_hours": 2,
+        "deadline_seconds": 300
+      },
+      "gates": {
+        "Q0": "PASS",
+        "Q1": "PASS",
+        "Q2": "PASS",
+        "Q3": "PASS",
+        "Q4": "PASS",
+        "Q5": "PASS"
+      },
+      "controls": {
+        "legitimate_activity": "PASS",
+        "matched_resources": "PASS",
+        "control_trace_ref": "positive-control-fixture"
+      },
+      "result": {
+        "source_verdict": "PASS",
+        "observed_effect": "FAILURE_AVOIDED",
+        "deadline_met": true,
+        "authorized_response": true,
+        "observed_effect_ref": "simulated-effect-log",
+        "effect_evidence_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "effect_observer": "fixture assessor"
+      },
+      "evidence_status": {
+        "instrument_qualified": true,
+        "source_findings_preserved": true,
+        "native_execution_verified": false,
+        "independent_effect_verified": false,
+        "qualification_ref": "fixture-selftest-not-native"
+      },
+      "trace_ref": "synthetic-trace-ref",
+      "costs": {
+        "compute": 10.0,
+        "review": 2.0
+      },
+      "impact": {
+        "affected_people": 4000,
+        "unjustified_actions": 0,
+        "human_rework_hours": 9
+      },
+      "baseline_r1_id": "r1",
+      "context_change": {
+        "change_id": "delta-01",
+        "domain_hash": "2222222222222222222222222222222222222222222222222222222222222222",
+        "preregistered": true,
+        "within_frozen_domain": true,
+        "materiality_independent_of_outcome": true,
+        "credible_reviewed": true,
+        "observable_in_admitted_scope": true,
+        "feasible_authorized_response": true,
+        "intervention_precedes_reliance": true,
+        "defences_retained": true,
+        "ordinary_adaptation_retained": true
+      }
+    }
+  ],
+  "social_observations": [
+    {
+      "run_id": "r1",
+      "t": 1,
+      "production": 100,
+      "gic_hours": 10,
+      "neo_hours": 4,
+      "acw_hours": 4,
+      "unknown_hours": 0,
+      "human_capacity_hours": 100,
+      "classification_validated": true,
+      "same_service_counterfactual": true,
+      "counterfactual_ref": "toy-same-service-synthetic-witness",
+      "releasable_acw_hours": 2.0
+    },
+    {
+      "run_id": "r1",
+      "t": 2,
+      "production": 140,
+      "gic_hours": 10,
+      "neo_hours": 4,
+      "acw_hours": 6,
+      "unknown_hours": 0,
+      "human_capacity_hours": 100,
+      "classification_validated": true,
+      "same_service_counterfactual": true,
+      "counterfactual_ref": "toy-same-service-synthetic-witness",
+      "releasable_acw_hours": 3.0
+    },
+    {
+      "run_id": "r1",
+      "t": 3,
+      "production": 200,
+      "gic_hours": 10,
+      "neo_hours": 4,
+      "acw_hours": 10,
+      "unknown_hours": 0,
+      "human_capacity_hours": 100,
+      "classification_validated": true,
+      "same_service_counterfactual": true,
+      "counterfactual_ref": "toy-same-service-synthetic-witness",
+      "releasable_acw_hours": 5.0
+    }
+  ],
+  "economic_projection": {
+    "purpose": "SEPARATE_ANALYTIC_PROJECTION",
+    "config": {
+      "mode": "formulas",
+      "n_values": [
+        5,
+        10,
+        20
+      ],
+      "q_accept": 0.9,
+      "p_incompatible": 0.2,
+      "value_per_veto_proposal": 3,
+      "proposals_per_pair": 1,
+      "production_per_dimension": 10,
+      "production_per_accepted_relation": 1,
+      "loss_per_incompatible_relation": 3,
+      "value_per_rejected_proposal": 1,
+      "topology": "complete"
+    }
+  }
+}

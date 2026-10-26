@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 101, 102. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 > [!NOTE]
 > **Revisión para personas · instrucción de Iván del 6 de octubre de 2026.** El [plan de trabajo](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) exige cuatro pasadas diferentes, registradas en esta misma VNext: **fondo y lógica; evidencia y relaciones; edición y formato; legibilidad humana**. Después habrá una conciliación del corpus, con consecuencias en cada VNext afectada. El centro es comprender y cuestionar la idea; códigos y comprobaciones técnicas quedan como apoyo. La exploración mixta publicada antes se conserva, pero no se cuenta como cuatro pasadas terminadas.
 
@@ -239,6 +241,8 @@ Use DBC to expose missing or laundered boundaries in 04 implementations; do not 
 
 ## 6. Semantic/qualification validity window versus response window
 
+**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the two-clock explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
+
 Two independent post-baseline routes make the same temporal distinction visible. The Operational Risk / Response Window / Epistemic Opportunity v0.2 work separates qualification validity from response timing. Independently, [DBC-C02 — semantic TOCTOU](../DECISION_BOUNDARY_CHALLENGE_v0.2.md#5-challenge-pack-families) tests whether a result can remain technically available or syntactically valid while a material authority/evidence/context condition has become stale before use. Together they make two temporal concepts more explicit:
 
 1. **semantic / qualification validity window** — how long evidence, authority, delegation, policy, configuration and supporting assumptions remain applicable; and
@@ -285,6 +289,8 @@ DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semant
 ---
 
 ## 7. Human-review outputs under the general handoff discipline
+
+**Incorporated reading.** The maintained [04 integrated reader](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#qualified-timing-and-human-review-handoff--maintained-reading) receives the human-review output explanation. This review retains its source reasoning; the separate H06 input/profile investigation remains open.
 
 Later human-oversight discussion has made a useful generic distinction visible:
 
@@ -453,41 +459,9 @@ IVAN-20261006-START-SEQUENTIAL-AUDITS autoriza la publicación secuencial de aud
 
 ## Propuestas quirúrgicas — IF04-R1, pendientes
 
-### IF04-R1-DELTA-001 — referencia temporal a 00I
-
-**Objeto:** este VNext §6. **Hallazgo:** F003. **Fuente:** blob de la cabecera. **Tipo:** corrección documental propuesta, no aplicada. **Instrucción:** IVAN-20261006-START-SEQUENTIAL-AUDITS.
-
-**TEXTO ANTES**
-
-```markdown
-DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-DBC-C02 provides an applied-validation route for this distinction. The committed [00I Semantic TOCTOU v0.5 Freeze Edition](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) is an additional scenario-level stressor; its requirements and action-time binding candidates are recorded in the Requirements vNext review. Inclusion here does not certify the scenario's implementation, close H06 or promote this interface delta.
-```
-
-**Efecto:** actualizar procedencia temporal y mantener límites; no nuevo O/IF-S. **Dependencias:** 00I y Requirements VNext; los enlaces antiguos a 00G/00H deberán revisarse por separado antes de una edición. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
 ### IF04-R1-DELTA-002 — H06: candidato de lectura del elemento4 para un successor
 
-**Objeto:** 04 v0.5 §2, único segmento del kernel EHD. **Hallazgo:** F001. **Tipo:** candidato semántico de perfil, no mera renumeración. **Estado:** pendiente de H06/end-to-end review y decisión de Iván; el baseline no se altera.
-
-**TEXTO ANTES**
-
-```text
-(4) operational result/closure;
-```
-
-**TEXTO DESPUÉS**
-
-```text
-(4) operational result/closure, or a source-bound result reference only where the declared receiving profile can resolve and interpret the required result at the decision time; an unavailable, stale or insufficiently bound reference preserves material UNKNOWN and does not support uses that require the result value;
-```
-
-**Razón:** evitar universal exclusion of A sin fingir que A_ref vale para todos los usos. **Dependencias:** Recognition Guide §4/§9, Input Contract H06, F9, T2/T4/S14 y privacidad/authority owners. **Gate:** probar un perfil full-result y uno metadata-only con controles positivos, missing/stale/reference mismatch y límites de autorización; conservar revisión histórica. No se afirma que una implementación exista o pase. **Decisión de incorporación:** pendiente. **Incorporación:** no ejecutada.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio19 incorporado en `research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Cobertura restante
 
@@ -537,22 +511,7 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 18 · Actualizar la referencia de 04 a 00I existente | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Bajo | Pendiente de decisión |
 | 19 · Condicionar cuándo un A_ref conserva el resultado | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
-
-### Cambio 18 — Actualizar la referencia de 04 a 00I existente
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Eliminar la reserva future 00I sin atribuir una ejecución que no existe.
-
-**Qué podría quedar desactualizado o afectado:** Si 05/05A mantienen None committed o future, la cadena queda desactualizada; la existencia no acredita un mapping.
-
-**Qué cuesta prepararlo:** Precisar esta frase y revisar textos temporales relacionados en 04/05/05A.
-
-**Dependencias conocidas:** [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Coordinación con cambio 33 y pasajes relacionados; conservar fechas y owners.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if04-r1-delta-001--referencia-temporal-a-00i); el viejo tiene una coincidencia en [la fuente actual](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `598ed9ea150f288b086dde7c6ea569cd9694fbf5`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Cambio 19 — Condicionar cuándo un A_ref conserva el resultado
 
@@ -588,16 +547,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 18 | Plan parcial; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
 | 19 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
-
-**Cambio 18 — Plan parcial.** La referencia a 00I futuro está desactualizada. Corregir sólo esta oración deja otras épocas/versiones discordantes en 04/05.
-
-**Beneficio esperado:** Eliminar la reserva future 00I sin atribuir una ejecución que no existe. **Riesgo concreto:** Si 05/05A mantienen None committed o future, la cadena queda desactualizada; la existencia no acredita un mapping. **Coste de preparar y mantener:** Precisar esta frase y revisar textos temporales relacionados en 04/05/05A.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** 18/33 juntos; concretar las demás frases afectadas de 04/05/05A y conservar00I interno separado de ejecución/adopciónFG. Revisar junto con 33. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 19 — Cambio acoplado; no listo.** A_ref sólo conserva el resultado si el receptor puede resolver e interpretar la referencia aplicable. Una cita sintáctica no cierraH06.
 
@@ -625,33 +575,196 @@ Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [
 
 <a id="ola4-integracion-00i-00j"></a>
 
-## Ola 4 — coherencia de escenarios internos y rutas de interfaces
-
-**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
-
-**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
-
-**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
-
-### Pasaje 1 — §6, Delta disposition
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`a310cb7574560fbeb64ee43827398bcc9d6a29e7`, línea283. Viejo único fuera de citas.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semantic TOCTOU v0.5 Freeze Edition](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies the internal EA scenario; its requirements coverage and action-time binding candidates are recorded in the [Requirements vNext review](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
-~~~~
-
-**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
 
 
-## Cierre de Ola 4 — aplicado
+## Propuestas aplicadas retiradas
 
-Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="if04-r1-delta-001--referencia-temporal-a-00i"></a>
+<a id="cambio-18--actualizar-la-referencia-de-04-a-00i-existente"></a>
+<a id="ola-4--coherencia-de-escenarios-internos-y-rutas-de-interfaces"></a>
+<a id="pasaje-1--6-delta-disposition"></a>
+<a id="cierre-de-ola-4--aplicado"></a>
+<a id="bloques-aplicados-retirados"></a>
+
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
+
+</details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 19 | Condicionar cuándo un A_ref conserva el resultado | research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md | Aplicado |
+
+H06 conserva sus obligaciones de revisión end-to-end: el texto aprobado permite una referencia sólo cuando el receptor resuelve e interpreta el valor necesario a tiempo. No convierte las176filas en conformes ni los44casos en integraciones verificadas.
+
+
+
+## Third independent review — input-contract edition custody and proposals 101–102, 14 October 2026
+
+The isolated reviewer sealed the following first custody comparison of the current input-contract Markdown with its original publication. The current dated B/C amendment is retained. The issue is the remaining wording that describes the living Markdown as an unchanged reproduction of the original Word. This warrants edition-caption clarification, not restoration of the earlier B/C interpretation or regeneration of the original assets.
+
+This contract was already published within the 04 layer and linked in this existing cumulative 04 dossier. Its source, Word, diagrams and publication manifest remain one material input-contract unit here; no separate VNext is created. Source blob `de6c58c62ad70b3182085333106b41b63a9fef18`; preserved Word blob `d597a31c5f085119faa570a0b93d96c8f00ff4d1`, SHA-256 `831dc4b6f1b728da246ea51efcf3a31825b03745ad3966fc3ab512deaa3f6768`. The coordinator checked both complete before passages as unique, both proposed passages as absent, the current N04 amendment and the unchanged Word hash.
+
+**Proposal 101** changes only the HTML custody comment: impact Low, risk Low, effort Low. **Proposal 102** changes only the visible Conservation paragraph: expected impact Medium, risk Low, effort Low. Both have priority After and belong to the same edition-clarification wave. Existing opening notices already identify the semantic amendment, so these captions follow substantive source/receiver work. The original reviewer rates the combined custody clarification Medium; this finer ranking does not rewrite that first judgement. Exact pairs, benefits, dependencies and Iván's named GO remain in the plan; nothing is applied.
+
+The first record was sealed at `2026-10-14T21:19:32.094094+00:00`. Markdown SHA-256 `aa0863e21b4907d6e69855f62a1b443eeaaec11ffd377f9e1768b15abe624665`; original JSON snapshot SHA-256 `7840c27cc54cc058618f76ab99c432e9b71509c1890fb3c9bb5a7f3cdf0dba6f`. It reports actual XML/text comparison and PNG viewing, with Word-page and SVG rendering still pending; it does not claim rendered equivalence. Its source-exposure disclosure remains visible in the original text below.
+
+<details>
+<summary>Original independent custody judgement and both complete literal pairs</summary>
+
+# First scoped judgement: input-contract custody status
+
+Sealed 2026-10-14T21:19:32.094094+00:00. Phase A; whole source/receiver cohort incomplete.
+
+The current Markdown contains dated semantic amendments. The preserved approved Word and original Markdown retain the previous contract, so the current literal unchanged-reproduction claim requires clarification. The complete original body text is accounted comparatively, but Word rendering remains unread. This is a custody correction, not reversal of the current B/C amendment.
+
+Current location: research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md; blob de6c58c62ad70b3182085333106b41b63a9fef18. Each before passage occurs exactly once.
+
+Complete current before, line 1:
+
+```html
+<!-- Approved v0.4 Word body reproduced below in document order. -->
+```
+
+Complete proposed after:
+
+```html
+<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->
+```
+
+Complete current before, line 17:
+
+**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+
+Complete proposed after:
+
+**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+
+Impact Medium; risk Low; effort Low. Preserve original assets and the dated manifest unchanged. Benefit: honest authentication and navigation between original publication and current amendments. Cost: two local status edits; no regeneration. Acceptance: unique literal matches, original hashes preserved, current amendment/field IDs/links preserved, no execution or incompatibility-closure claim. Ivan’s named wave/passages GO is required; nothing applied.
+
+The JSON freezes exact identities, supporting original/current clauses and contemporaneous reading/exposure records. A later A23 audit execution-record exposure is disclosed there; it contributes no input-contract evidence.
+
+
+</details>
+
+
+## Unified restoration candidates 15 October 2026
+
+The [independent unified plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) re-evaluates these existing proposals against their current sources and receivers. The passages below are complete current preparations, pending their stated decision gates. Earlier alternatives and audits remain visible.
+
+
+### Existing candidate 101
+
+Current Markdown itself contains explicit dated semantic amendments; unchanged-reproduction comment is misleading. Preserve Word/graphics/manifest bytes.
+
+**Impact / risk / effort:** Bajo / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 102; publish the two custody descriptions consistently.
+
+**Text before — complete current passage (1).**
+
+``````text
+<!-- Approved v0.4 Word body reproduced below in document order. -->
+``````
+
+**Text after — complete proposal.**
+
+``````text
+<!-- Preserved approved v0.4 Word body forms the historical base; the current Markdown includes the explicitly dated semantic amendments identified below. -->
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+### Existing candidate 102
+
+Current dated amendment and historical manifest require an honest original-vs-current custody explanation; no reversal of B/C correction or rendered-parity assertion.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md), blob `de6c58c62ad70b3182085333106b41b63a9fef18`. Dependencies: preserve original Word, historical MD, diagram and manifest bytes with original hashes; retain current semantic amendment and actual field IDs/source anchors; resolve final existing owner and return routes after source baseline; no new owner collection; Ivan named wave/passages GO before incorporation; Companion proposal 101; publish the two custody descriptions consistently.
+
+**Text before — complete current passage (1).**
+
+``````text
+**Conservación:** a continuación se reproduce íntegro el cuerpo del Word aprobado, en español, con sus tablas y diagrama. Sus declaraciones de estado corresponden a la revisión previa a esta publicación. Esta publicación añade rutas y un registro en el delta; no atribuye ejecuciones ni cierra incompatibilidades. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos y el snapshot de origen. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+**Conservación:** el Word aprobado, en español, con sus tablas y diagrama, se conserva íntegro como fuente histórica. El Markdown actual parte de ese cuerpo y contiene las enmiendas semánticas fechadas e identificadas en esta página; por ello no es una reproducción literal inalterada del Word. Las declaraciones de estado del cuerpo histórico corresponden a la revisión previa a su publicación. El [manifiesto](./PUBLICATION_MANIFEST.json) identifica los archivos originales y el snapshot de origen; sus hashes describen esa publicación histórica y no certifican las modificaciones posteriores del Markdown. Se conservan las rutas y el registro del delta. No se atribuyen ejecuciones ni se cierran incompatibilidades. Los nombres de los campos del ejemplo de transporte son ilustrativos.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 101,102.** Both complete old/new publication descriptions match the source. Their joint proposed meaning distinguishes the preserved Word/manifest/diagram edition from dated living Markdown amendments. Neither pair changes those binaries or recalculates the historical manifest. Both remain one companion decision after edition/return-route reconciliation.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+### Application 101 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md`; resulting source blob `1bbc76f673d79e3b5bb52117aeeb3d68af0d5387`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+### Application 102 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md`; resulting source blob `407a009999326cd051cb26e003ad78f8cf8e3162`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+**Verified application commits — 06_attribution_and_editions:** [101](https://github.com/dakleyer/structural-awareness-contributions/commit/b6a4ba78bb7b5135dcdc7da71fd6d1821f54963c), [102](https://github.com/dakleyer/structural-awareness-contributions/commit/29c1d0da83c333348787944540ca99462515c03b).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 101, 102. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
+
+
+## Execution reaudit 15 October 2026
+
+Re-read101/102 with the current semantic amendment and original publication description. The two caption changes do not replace the original Word, diagram, frozen Markdown or manifest, and do not promote v0.4 over current integration ownership. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).
+
+
+## Historical interface reception — 15 October 2026
+
+Reviewer A read the complete 1,869-line 04 v0.5 body and compared all three current v0.4 bodies line by line, reading their differing blocks. All 78 historical units received clause-specific judgments. Renaming S1–S13 to IF-S1–IF-S13 preserves thirteen interface families, O1–O6 and F1–F9 while separating interface labels from requirements and DAOS challenges. Identity, authority, attestation, appraisal, capacity, privacy, records, population and response retain their owners. Theme numbers remain in v0.4 and 05/05A; their removal from the general body does not remove those functions.
+
+The fourth EHD element survives: current line 99 accepts a source-bound reference only if the receiving profile can resolve and interpret it at decision time. An unavailable, stale or insufficiently bound reference retains UNKNOWN and cannot support uses needing the value. The line 9 notice still leaves H06 open for input contracts and EHD/F9 uses; historical reception does not settle that substantive tension.
+
+Current A/B/C/D corrections retain result/basis, characterised reserve, uncharacterised exploration and effective evaluation barrier, together with provenance/process/question/scope/time. Earlier definitions remain lineage, without automatic theorem or empirical transfer. ICR conditions are retained and strengthened: maintainer-declared materiality is identified; route and aggregations are declared before execution; later-discovered aggregation is a mapping defect. A distinct mapping reviewer and a material objection still block sufficiency. Nondeterministic tests retain distribution/dispersion; the original three classes remain alongside adversarial assertion. A simulated boundary is not independent interoperability.
+
+Competing intents retain the same decision/resource-time binding and owner precedence. Continuity/re-entry remains conditional and creates no universal hierarchy, O7, IF-S14 or actuation authority. IF-S2 at line 758 directly says EA consumes authority and neither originates grants nor decides legal standing, reinforcing the Charter receiver chain. No source restoration follows. The [03 owner](03_FUNCTIONAL_VNext.md#historical-functional-architecture-reception--15-october-2026) and [Foundation owner](01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026) record both relationships.
+
+
+
+## Historical interface custody and semantic reception — 15 October 2026
+
+D read the complete 1,038-line current input contract, its 176 rows across 19 families and all 58 changed historical units. The original field IDs and row literals remain. Original Word, SVG, PNG and historical Markdown identities match the historical manifest, while the amended current text keeps its dated semantic amendment. The two objects answer different identity questions; the historical manifest is not recast as a hash for the amended current body.
+
+The B/C corrections and custody descriptions are legitimate receiving changes. No field, option or explanatory reason from the examined unit history needs blind restoration. This retention judgement does not admit every classification or close H06/F9, the stated A-exclusion question or O2. Those remain visible in their source contracts. No programme or result was executed or altered by this reading.
+
+
+## Historical contract and review reception — 15 October 2026
+
+B's completed prose-control reading confirms the distinction between generic 04 semantics and programme-specific 05/05A mappings. The current A_ref route keeps unavailable, stale and unbound values as UNKNOWN; H06 end-to-end reconciliation remains a real requirement. Retiring applied navigation/editorial dossiers does not settle that contract question or reactivate an older alternative.
+
+The two visible ./PUBLICATION_MANIFEST.json strings inside the preserved 101/102 input-contract before/after material are literal source-relative context. Their named source is 04_INPUT_INTERFACE_CONTRACT; operative owner links reach the current contract 407a0099 and its manifest 3934ed2b. Both actual receivers were read. Rewriting the quoted URLs would falsify the complete old/proposed passages, so no such patch is proposed. The current input-contract semantics and 176-row conditional map retain their own review limits. The [baseline consolidation](./README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) records the cross-document decision.

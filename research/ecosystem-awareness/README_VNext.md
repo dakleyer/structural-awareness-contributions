@@ -99,52 +99,6 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 
 **Authorization:** User instructed application of the approved first stage; this is a report of source changes actually published, not a retroactive scientific conclusion.
 
-### PC1.0-01B — EA validation route
-
-**Source:** [Awareness README](./README.md) · before blob `5ff08d47747bbd45eeba21b45325402ea0f4b8a3` · after blob `25d33d0b81b60a1a5130705507306da6f11b060d` · [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/b297e3cc1cf287c3fdbb9413e643653043d28554).
-
-**TEXTO ANTES — viejo:**
-
-> - **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → [published Stage-0 traces](./baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) and [00L records](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) → independent comparison and replication.
-
-**TEXTO DESPUÉS — publicado:**
-
-> - **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → [published Stage-0 traces](./baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) and [00L records](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) → independent comparison and replication.
-> - **UC-21 / S5 source-to-evidence route:** start with the [UC-21 case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md), then the [S5 scenario](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md) and [T08 AWS documentary profile](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T08.md); the [00I-STATEFUL report](./baseline/fixtures/00I-STATEFUL/README.md) records separately executed local synthetic effects. [UC-4](https://github.com/FG-TIDA/use-cases/issues/4) owns the external testbed review/admission discussion.
-
-**Reader relation:** UC-21 → S5 → T08 design → distinct 00I-STATEFUL synthetic witness → UC-4 external testbed discussion. The original four Reading routes bullets and all other text were retained. The alternate PC1.0-01D technical-baseline addition was NOT applied (one owner route only).
-
-### PC1.0-01C — DDS namespace locator
-
-**Source:** [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) · before blob `a9510abb9da9249acf08f5f64c75ebb16f21588e` · after blob `236ba24a962e547a5fcf4a958cb5fd373c2390c3` · [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/2fe0b25ee30e1dd44928c29d1fc8e26e6bc78d09).
-
-**TEXTO ANTES — viejo (entire affected §5):**
-
-> ## 5. Namespace rule
->
-> To prevent collision with existing scenario terminology:
->
-> - **DDS Stage A / B / C** means only the three development stages in this index.
-> - **trajectory gate** means a local decision/validation boundary inside a Challenge, including Q0–Q6 or equivalent local gates.
-> - **gate policy** means a profile-specific acceptance/verification policy; it is not a DDS Stage.
-> - **Stage-0 / Stage-1** retain the meaning assigned by the source testbed that owns them.
-> - **C02 / C11 / T03** retain their R01 lifecycle/delivery meaning.
-
-**TEXTO DESPUÉS — publicado (entire resulting §5):**
-
-> ## 5. Namespace rule
->
-> To prevent collision with existing scenario terminology:
->
-> - **DDS Stage A / B / C** means only the three development stages in this index.
-> - **trajectory gate** means a local decision/validation boundary inside a Challenge, including Q0–Q6 or equivalent local gates.
-> - **gate policy** means a profile-specific acceptance/verification policy; it is not a DDS Stage.
-> - **Stage-0 / Stage-1** retain the meaning assigned by the source testbed that owns them.
-> - **C02 / C11 / T03** retain their R01 lifecycle/delivery meaning.
-> - **Cross-corpus examples:** UC-21 `R0/R1/R2` are comparison routes; `T08/S5` identifies the AWS Step Functions/RDS profile for the delayed repair, while `T09/S6` identifies the Panodyssey/TEMS rights profile. AWS `AWS-I0/I1/I2`, Steven Zhao's local `I0/I1/I2`, R01 `M/I/P` and DDS `I/M/P/Ø` retain distinct source-specific meanings. For the full translation discipline, consult [Stage A §10A — namespace safety](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#10a-namespace-safety-for-cross-corpus-review).
-
-**Namespace rule:** UC-21 R0/R1/R2, UC-21 T08/S5 vs T09/S6, AWS-I0/I1/I2, Zhao local I0/I1/I2, R01 M/I/P, and DDS I/M/P/Ø remain different native labels. Stage A §10A owns the detailed crosswalk. No DDS Stage, scientific threshold, result or historic namespace was changed.
-
 ### Post-publication evidence, unresolved work and conservation
 
 - The remote sources were fetched again after each write, and the three edited files passed a single-insertion zero-deletion regression against the pinned predecessor.
@@ -160,178 +114,6 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Authorisation:** programme owner requested Plan 3.0 with traceability → literal before/after → four serial checks → application and preservation. This entry reports publication and the actual GitHub pins; it is a programme editorial record, **not** an independent scientific audit.
 
 **Audit linkage:** G01.a/T01 (traceability), G01.b/T02 (evidence/provenance), G02.a/T03 (reviewer attribution), G02.b/T04 (preservation, objections, successor). **Strategy:** DS-01/DS-02/DS-08/DS-10/DS-11/DS-12, **B-minimal**. No new Stage classifications, full 25–30 claim automation, UC-4 admission or universal scientific result has been inferred.
-
-### PC3.0-01 — New claim/source/consumer register
-
-**Before:** no such path existed in the repository before this stage. No canonical source was deleted to make the register.
-
-**After — complete new file:** [Current register](./DDS_CLAIM_SOURCE_CONSUMER_REGISTER_v0.1.md), Git blob `20fb52f216afedde6eb008bd2a8b70c5d04e3a1a`; first publication [405d1956](https://github.com/dakleyer/structural-awareness-contributions/commit/405d19564770f6ab4bc3e58068865a40d0e747f3), exact whitespace reconciliation [ce8e8d22](https://github.com/dakleyer/structural-awareness-contributions/commit/ce8e8d22fc42a4b7ed263fc4f0fc549afd17c85d).
-
-**TEXTO ANTES — viejo:** No file at this path.
-
-**TEXTO DESPUÉS — published, complete:**
-
-```markdown
-# DDS — Limited Claim Source/Consumer Register v0.1
-
-**Status:** B-minimal editorial source/consumer sidecar · proposed first ten actively maintained statements · **not** a normative specification, a result ledger, an independent audit or a product assurance certificate.  
-**Date:** 10 October 2026 · **Owner:** programme editorial maintainer for the Ecosystem Awareness reader route.  
-**Purpose:** help readers and maintainers find the authoritative source for ten material statements reused in published entry points. The source, rather than this index, governs the statement. Editorial basis: the separately delivered v3.3 strategy; that strategy file is **not hosted at this GitHub path**.  
-**Evidence cut:** source references are pinned to public commits where available. UC-4 is a live external issue, whose exact state may evolve after the dated review.
-
-## Maintained statements and observed reader routes
-
-The Cxx identifiers preserve the v3.3 editorial inventory numbering. Each entry below gives a pinned owning source, an observed consumer link or narrower summary, its evidence ceiling and the inference it does not license. No automatic source→consumer completeness inference is made.
-
-### C01 — DDS three-stage method
-
-- **Claim:** DDS has three substantive stages: specification discovery, architecture verification, and implementation/problem validation.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/structural-awareness-contributions/blob/2fe0b25ee30e1dd44928c29d1fc8e26e6bc78d09/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md).
-- **Evidence/claim ceiling:** Method definition; no empirical success implied.
-- **Observed reader routes:** [EP external entry](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md); [EA method route](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
-- **Invalid inference to prevent:** Do not infer that any specific Stage B or C has passed.
-
-### C02 — Stage identity by object and reference
-
-- **Claim:** DDS assigns a stage using the object tested and its adjudication reference, not the presence of executable code.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/structural-awareness-contributions/blob/2fe0b25ee30e1dd44928c29d1fc8e26e6bc78d09/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md).
-- **Evidence/claim ceiling:** Method classification rule.
-- **Observed reader routes:** [EP three-questions route](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md); [EA method route](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
-- **Invalid inference to prevent:** Do not use Python execution alone as Stage C evidence.
-
-### C10 — Frozen EA requirements
-
-- **Claim:** EA requirements S1–S14, sufficiency conditions T1–T4, hypotheses H1–H6 and KPIs are defined in the frozen source.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md).
-- **Evidence/claim ceiling:** Frozen requirement definition.
-- **Observed reader routes:** [Technical corpus overview](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/README.md); [EP canonical requirements route](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md).
-- **Invalid inference to prevent:** Requirements text is not proof a candidate satisfies them.
-
-### C13 — A23 withdrawn all-six sufficiency
-
-- **Claim:** A23 withdrew its former universal six-principle sufficiency claim; bounded finite implications and countermodels remain documented.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
-- **Evidence/claim ceiling:** Reviewed finite model / open semantic fidelity.
-- **Observed reader routes:** [Technical corpus A23](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/README.md); [EP technical proof route](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md).
-- **Invalid inference to prevent:** Do not revive the withdrawn all-six implication in a summary.
-
-### C14 — UC-21 six scenarios and gates
-
-- **Claim:** UC-21 contributes six failure scenarios with 37 acceptance gates and documentary technology trajectories.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md).
-- **Evidence/claim ceiling:** Scenario and documentary test contract.
-- **Observed reader routes:** [EP UC-21 research route](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md); [EA UC-21/S5 route](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
-- **Invalid inference to prevent:** Nine documentary technology profiles are not nine executed product benchmarks.
-
-### C16 — UC-21 T08/S5 versus T09/S6
-
-- **Claim:** UC-21 T08 is AWS Step Functions/RDS applied to S5; UC-21 T09 is Panodyssey/TEMS applied to S6.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T08.md).
-- **Evidence/claim ceiling:** Two distinct source-owned documentary profiles; also verify [T09](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T09.md).
-- **Observed reader routes:** [DDS namespace guidance](https://github.com/dakleyer/structural-awareness-contributions/blob/2fe0b25ee30e1dd44928c29d1fc8e26e6bc78d09/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md); [EA S5/T08 route](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
-- **Invalid inference to prevent:** Do not transfer S6/T09 facts into S5/T08 or Steven’s T08-S5Q2.
-
-### C17 — A26 positive Success Model Cases
-
-- **Claim:** A26 proposes positive Success Model Case counterparts for the six failure families, with preservation tests.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md).
-- **Evidence/claim ceiling:** Design-level success-model method.
-- **Observed reader routes:** [EP research route](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md); [Technical corpus success-case route](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/README.md).
-- **Invalid inference to prevent:** A positive designed route is not a native product-conformance result.
-
-### C18 — R01 reduced probabilistic model
-
-- **Claim:** R01 is a bounded probabilistic reduction for exploration and validation cost, using native M/I/P reference routes.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/reductions/00G-R01/README.md).
-- **Evidence/claim ceiling:** Reduced model and conditioned mathematical questions.
-- **Observed reader routes:** [EP reduced-model route](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md); [EA R01 route](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
-- **Invalid inference to prevent:** Do not assume universal 00G→R01 isomorphism or a completed DDS stage assignment.
-
-### C26 — 00I-STATEFUL conventional D1 control
-
-- **Claim:** In the bounded 00I-STATEFUL local model, the dynamic-manifest conventional guard passes the D1 source-set change.
-- **Authoritative source:** [Open pinned source](https://github.com/dakleyer/structural-awareness-contributions/blob/c159d68902f9eceef4dad2c03dfec932670a4625/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md).
-- **Evidence/claim ceiling:** Executed local synthetic model; positive conventional comparator.
-- **Observed reader routes:** [EP local S5 study](https://github.com/dakleyer/structural-awareness-contributions/blob/f77668d3dbc871bb0c84f365505492e7a9974108/architectural-contributions/ecosystem-positioning/README.md); [EA local S5 evidence](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
-- **Invalid inference to prevent:** Do not turn a modelled passing comparator into an AWS execution or product-superiority claim.
-
-### C29 — UC-4 schema and admission ownership
-
-- **Claim:** UC-4 provides a separately owned experiment/admission process with scope, versioned schema and source-owner reviews.
-- **Authoritative source:** [Open pinned source](https://github.com/FG-TIDA/use-cases/issues/4).
-- **Evidence/claim ceiling:** External proposal/discussion; as-of 2026-10-10; no immutable admission result.
-- **Observed reader routes:** [EA UC-4 external testbed route](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
-- **Invalid inference to prevent:** An interoperability offer, source-reviewed adapter or mock self-test is not UC-4 admission.
-
-
-**Additional source for C16:** [UC-21 T09 / S6](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T09.md). A two-source statement requires inspection of **both** annexes.
-
-## Minimal editorial maintenance contract
-
-1. **Trigger:** when a source changes a claim, is withdrawn, changes a test status or evidence scope, or an observed consumer is revised, inspect only the affected Cxx row and its listed consumers. Do not reopen every document as routine bureaucracy.
-2. **Accountability:** the EA/DDS programme editor owns this index and records an editorial revision with date, source version and the actual changed consumer locations. An external source owner is responsible only for their own repository. No reply from Steven, Matías or Nelson is inferred as approval.
-3. **Change propagation:** read the source first, revise the positive scope/ceiling here, then check the observed consumers and preserve old commits. If a required source is unavailable, mark the item `TO_CHECK` instead of strengthening a claim.
-4. **Claim-status discipline:** `Design / analysis`, `Executed local model` and `Executed native mechanism` are reader-facing evidence families. DDS stages A/B/C remain an **independent classification**. Independent replication and UC-4 admission are separate provenance/process statuses.
-5. **Maintenance ceiling:** keep only ten observed, high-consequence statements active in this pilot. Before adding claims toward the v3.3 target of 25–30, measure actual editorial effort and reader benefit. A changed link by itself does not prove a new result.
-6. **Review and dissent:** the owning [EA README VNext](./README_VNext.md) records proposed/applied editorial changes, before/after text and objections; [Stage A VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) owns Stage A instrument review. Neither file overwrites a frozen scientific result.
-
-## What this register does not decide
-
-Exact R01 transfer/isomorphism and cross-simulator S5 equivalence remain under T10/T11/T12. Classification by two readers under T21 is pending. DDS Stage A diagnostic T05/T06 improvements are published only as [candidate successor code](./gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py); this register does not promote that successor over the frozen v0.2 audit package. UC-4 schema acceptance and actual run admission remain with UC-4.
-
-**END OF LIMITED SOURCE/CONSUMER REGISTER — VERSION 0.1**
-```
-
-### PC3.0-02 — DDS canonical method index navigation
-
-**Source:** [DDS Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), before blob `236ba24a962e547a5fcf4a958cb5fd373c2390c3`, after blob `4af283947c09bf6d39a7dcd8c1f9e1fbec66a25c`, [commit 49aff279](https://github.com/dakleyer/structural-awareness-contributions/commit/49aff27926428f610a75a9a9693c2d15bdb829d4). The 6 previous navigation entries remain in the same order.
-
-**TEXTO ANTES — viejo (complete affected §9):**
-
-```markdown
-## 9. Canonical navigation
-
-1. [Stage A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)
-2. [Stage B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md)
-3. [Stage C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
-4. [Research basis and neighbouring approaches](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md)
-5. [DDS source register](./DDS_SOURCE_REGISTER_2026-10-06.json)
-6. [DDS bibliography](./DDS_REFERENCES_2026-10-06.bib)
-```
-
-**TEXTO DESPUÉS — published (complete affected §9):**
-
-```markdown
-## 9. Canonical navigation
-
-1. [Stage A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)
-2. [Stage B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md)
-3. [Stage C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
-4. [Research basis and neighbouring approaches](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md)
-5. [DDS source register](./DDS_SOURCE_REGISTER_2026-10-06.json)
-6. [DDS bibliography](./DDS_REFERENCES_2026-10-06.bib)
-7. [Limited claim source/consumer register](./DDS_CLAIM_SOURCE_CONSUMER_REGISTER_v0.1.md) — ten externally reused statements, their owning sources, evidence ceilings and maintenance triggers; an editorial aid, not a new DDS authority.
-8. [Stage A VNext review ledger](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) — proposals, applied successors and remaining audit tests; frozen Stage A remains the source contract.
-```
-
-### PC3.0-03 — EA README reading route
-
-**Source:** [EA README](./README.md), before blob `25d33d0b81b60a1a5130705507306da6f11b060d`, after blob `3ff5c26946b25608cea5cc1c9df8519dc61e1afd`, [commit 1848357a](https://github.com/dakleyer/structural-awareness-contributions/commit/1848357ae9630c6f97067c5071fa309a5d449a50).
-
-**TEXTO ANTES — viejo (complete affected reader-route block):**
-
-```markdown
-- **UC-21 / S5 source-to-evidence route:** start with the [UC-21 case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md), then the [S5 scenario](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md) and [T08 AWS documentary profile](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T08.md); the [00I-STATEFUL report](./baseline/fixtures/00I-STATEFUL/README.md) records separately executed local synthetic effects. [UC-4](https://github.com/FG-TIDA/use-cases/issues/4) owns the external testbed review/admission discussion.
-- **Institutional application:** [**current Theme #13 charter-preparation draft (01G)**](./fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) for the direct working document; use the broader [EA / FG-TIDA package](./fg-tida/README.md) for specifications/interfaces → cases/tests → provenance.
-```
-
-**TEXTO DESPUÉS — published (complete affected reader-route block):**
-
-```markdown
-- **UC-21 / S5 source-to-evidence route:** start with the [UC-21 case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md), then the [S5 scenario](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md) and [T08 AWS documentary profile](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T08.md); the [00I-STATEFUL report](./baseline/fixtures/00I-STATEFUL/README.md) records separately executed local synthetic effects. [UC-4](https://github.com/FG-TIDA/use-cases/issues/4) owns the external testbed review/admission discussion.
-- **Claim custody and review:** [limited claim source/consumer register](./DDS_CLAIM_SOURCE_CONSUMER_REGISTER_v0.1.md) tracks ten reader-facing claims, their source, observed consumers and update triggers; [EA README VNext](./README_VNext.md) retains editorial changes and [Stage A VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) retains diagnostic proposals. Source documents remain authoritative.
-- **Institutional application:** [**current Theme #13 charter-preparation draft (01G)**](./fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) for the direct working document; use the broader [EA / FG-TIDA package](./fg-tida/README.md) for specifications/interfaces → cases/tests → provenance.
-```
 
 ### Serial review and preservation result
 
@@ -403,3 +185,154 @@ La prioridad P1/P2/P3 del backlog organiza investigación; no equivale a Primera
 **Comprobación documental:** veinte IDs de familia y 41 identidades de fuente únicos; veinte estados PROPOSED; 138 enlaces internos y sus fragmentos resueltos. Las noventa rutas externas incluyen fuentes controladas/privadas: resolver un enlace local no verifica permisos, disponibilidad externa o fidelidad del manuscrito. No se releyeron aquí íntegros los 41 originales ni se reprodujeron R01/R16 o los baselines externos. Las afirmaciones de actualidad de §7 conservan la fecha de la propia fuente, sin constituir otro refresco externo en este cotejo.
 
 El merge cambió tres archivos: añadió esta hoja y un snapshot auténtico del Index anterior, y añadió dos líneas de navegación al Index. Retirando únicamente el banner fechado se recuperan exactamente los bytes anteriores del Index. Eso verifica conservación del cuerpo; esta auditoría no ejecutó esa adición canónica ni modifica/revierte su origen. No nuevo README ni nivel de jerarquía. [DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#registro-de-aportaciones-y-frontera-del-método--12-octubre-2026) y [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#ampliación-por-el-nuevo-registro-dds--12-octubre-2026) reciben la consecuencia. No cierre científico global por esta síntesis.
+
+
+## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
+
+**Auditoría realizada por Codex, mismo asistente; revisión documental sobre el corte `07c83653babec79f387bdfd5fc4b93e4ac21b533`.** Iván solicita analizar el borrador autocontenido v0.2 de reorganización, no ejecutar la migración. Se leyó el plan completo y se contrastaron la navegación controlada, el método A/B/C, los contratos HF v0.3 y v0.3.1, sus ocho bindings de paquete, el catálogo de extensiones y los recorridos bot v0.6. El documento recibido permanece fuera del repositorio; aquí se publican las conclusiones de revisión.
+
+La consolidación por campañas puede reducir el esfuerzo de lectura, conservando el Index DDS como autoridad metodológica y EA como propietario semántico actual. La creación de una carpeta raíz no instituye un cuarto corpus ni traslada validación. Falta fijar qué índice técnico será propietario de esa ruta y cómo remitirá a los registros existentes sin mantener estados manuales rivales. La regla de tres niveles de DOCUMENT_CONTROL §14 y la única VNext por unidad se aplican también a esta propuesta.
+
+Una campaña de una sola etapa es una regla prospectiva de identidad; la incorporación de estudios históricos puede asignar una lectura A/B/C por objeto sin inventar un nuevo preregistro o ejecución. Registro, ejecución, adjudicación y aceptación deben ser estados separados. El plan no incluye esa especificación operativa todavía.
+
+Juicio y dependencias en [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md); consecuencia sobre el método en [DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) y paquetes en [baseline VNext](./baseline/README_VNext.md). Primera tanda sugerida: índice HF que sólo enlaza fuentes exactas, impacto Alto/riesgo Bajo/esfuerzo Medio. Sin adopción de ruta, nuevas campañas o modificaciones del README original.
+
+
+## UC-21 y DDS: dos entradas enlazadas — 12 octubre 2026
+
+**Revisión por Codex, mismo asistente.** Iván precisa que UC-21 es el caso con objetivos y campañas, y DDS el método de investigación. Se mantiene esta distinción y se ajusta el orden del diseño de consolidación: primero probar la navegación desde UC-21 usando sus ejercicios existentes; después comprobar su generalidad con HF y otra familia. No se crea una nueva campaña S5 ni se mueve el caso al corpus metodológico.
+
+**Relación propuesta:** entrada UC-21 → explicación del caso y objetivos → escenarios/hipótesis → ejercicios existentes → contrato DDS aplicable → runs/evidencia → conclusión para el objetivo UC-21 → posible selección posterior de especificaciones. Desde DDS se recorre la misma relación por método → campañas de distintos casos → fuente del Challenge → evidencia → resultado. El registro futuro debe apuntar a los expedientes reales y sus propietarios, con varias relaciones por campaña; no duplicarlos bajo ambas entradas.
+
+**Asignación de funciones:** UC-21 mantiene su problema, objetivos, HC/HR/HS/H1–H6 y gates. DDS mantiene método y A/B/C. El expediente del estudio mantiene contrato, versión, comparadores, ejecución y conclusión. EA, RA, MSCA y otros componentes conservan fuentes y decisiones de incorporación. Objetivo, R0/R1/R2, Stage A/B/C, modo de evidencia y estado de ejecución son dimensiones separadas. Un resultado del caso no demuestra automáticamente necesidad de EA ni selección de una especificación.
+
+**Preservación:** enlaces actuales, snapshot enviado, anexos, escenarios, figuras, pruebas, denominadores y autoría conservados. Toda relación estructural se revisa en las VNext de README correspondientes; tres niveles EP→Awareness→índices técnicos, con expedientes de campaña como documentos de trabajo. Mantener una sola VNext lógica aunque un registro enlace varias rutas. La copia física posterior sigue pendiente de matriz de versiones/dependencias; no es necesaria para implementar la lectura propuesta.
+
+**Prioridad:** puente de lectura inicial de alto impacto esperado y riesgo Bajo; esfuerzo Medio por contraste entre repositorios y épocas. La precisión de trazabilidad de campañas en el caso tiene impacto Alto y riesgo Medio: debe concordar con la matriz de objetivos y plantilla RUN_RECORD antes de adoptarse como campo obligatorio. No se activan campañas, adopción canónica, cambios de Issue ni redistribución por publicar esta revisión.
+
+UC-21 conserva su entrada propia y sus contratos; EA enlaza las fuentes técnicas que realmente posee, incluyendo 00J/00J-A01 utilizados por el S6 adapter. La ruta hacia EA no convierte al caso en una demostración de EA. El acceso a arquitectura completa parte del EP existente, que mantiene RA/MSCA separados. Una organización por campañas debe incluir enlace de retorno al objetivo UC-21 y las dependencias externas; mantener copias duplicadas de los escenarios no aporta esa trazabilidad.
+
+[EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md) explica el orden revisado; [UC-21 README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) contiene la inserción propuesta. EA README y fuentes intactos.
+
+
+## Puente UC-21–DDS incorporado — 12 octubre 2026
+
+Iván confirma continuar con UC-21→objetivos→ejercicios existentes→DDS→resultados del caso. Se aplicaron los dos pasajes completos preparados en las VNext del README y USE_CASE: [publicación 56eb0252c63cedc7aa578e7c3a5c897cc9669c5e](https://github.com/dakleyer/use-cases/commit/56eb0252c63cedc7aa578e7c3a5c897cc9669c5e). El README explica caso/método/corpus y enlaza discusiones S5/S4; USE_CASE relaciona objetivo, contrato, Stage, evidencia y conclusión. Se conserva el resto de bytes de ambas fuentes mediante verificación inversa exacta. R0/R1/R2, A/B/C, criterios, hipótesis, anexos, figuras, freezes, código y resultados no cambiaron.
+
+Las dos fichas aplicadas se retiraron de sus VNext activas y quedaron en Git/custodia auténtica; las auditorías y otras propuestas pendientes permanecen. Sólo cuatro archivos cambiaron en la rama: los dos lectores y sus dos VNext;73otrosblobs idénticos,0 nuevos/eliminados. La plantilla RUN_RECORD y la matriz EO anteriores no se aplicaron. SHA256SUMS.txt conserva su época anterior y no certifica los dos lectores nuevos. Main use-cases y el envío congelado permanecen intactos.
+
+La Issue pública mantiene sus enlaces de envío. El [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) deja preparado un único párrafo adicional con antes/después literal, Alto impacto/Bajo riesgo/Bajo esfuerzo, para enlazar seguimiento y DDS manteniendo el snapshot. Es una edición externa pendiente de decisión concreta. No se modificó la Issue, abrió otra campaña S5, creó carpetaDDS ni ejecutó migración o experimento. Este estado supersede las menciones previas a esas dos inserciones como pendientes; no altera los otros gates abiertos.
+
+
+## Relaciones de lectura conservadas
+
+**Reader relation:** UC-21 → S5 → T08 design → distinct 00I-STATEFUL synthetic witness → UC-4 external testbed discussion. The original four Reading routes bullets and all other text were retained. The alternate PC1.0-01D technical-baseline addition was NOT applied (one owner route only).
+
+**Namespace rule:** UC-21 R0/R1/R2, UC-21 T08/S5 vs T09/S6, AWS-I0/I1/I2, Zhao local I0/I1/I2, R01 M/I/P, and DDS I/M/P/Ø remain different native labels. Stage A §10A owns the detailed crosswalk. No DDS Stage, scientific threshold, result or historic namespace was changed.
+
+
+## Propuestas aplicadas retiradas
+
+Por autorización de Iván del12octubre2026 se retiran las fichas de incorporación ya publicadas y sus valoraciones. Las auditorías y límites pendientes de prueba nativa o independiente permanecen. El [historial anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/README_VNext.md) conserva los pares, decisiones y versiones completos. Una copia histórica no se cuenta como otro auditor o campaña.
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="pc10-01b--ea-validation-route"></a>
+<a id="pc10-01c--dds-namespace-locator"></a>
+<a id="pc30-01--new-claimsourceconsumer-register"></a>
+<a id="pc30-02--dds-canonical-method-index-navigation"></a>
+<a id="pc30-03--ea-readme-reading-route"></a>
+
+[Consultar las fichas retiradas](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/README_VNext.md).
+
+</details>
+
+
+## Entrada UC-21 y semántica de lectura — 12 octubre 2026
+
+**Comprobación terminológica previa.** Se leyeron UC-21 Conventions/Extensionality, DDS A §3/§6/§10A, DDS B/C, R01, el protocolo de extensiones, kernel E1–E7, HEW Technical Report, DBC, 00D, Requirements y los índices RA/MSCA pertinentes. La búsqueda pública de usos complementó esas lecturas; no equivale a leer cada documento histórico. Challenge define problema/familia; el escenario delimitado lo instancia. UC-21 mantiene S1–S6 y sus familias 00E–00J. HEW usa escenario como descripción humana con instancia formal. Campaña de investigación, campaña operativa de S4 y unidad de campaña R01 no son intercambiables. Ejercicio se usa como entrada de lectura para estudios/recorridos existentes, no como nuevo tipo normativo. A/B/C DDS, A–D causales, A/B/C/D epistemológicos, R0/R1/R2 UC-21 y R01-R1/R2/R3 siguen con sus fuentes. La adición inicial que identificaba escenario con problema se corrigió antes de publicarse.
+
+La entrada principal pública del caso mantiene su snapshot y añade el seguimiento. EA conserva sus fuentes y función; DDS no absorbe UC-21. [EP VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) contiene las seis tandas, y [DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) el par completo del índice. Los objetivos del caso se resumen en su propia edición; caso aceptación, HR, HC y HS mantienen distintos protocolos y resultados. No se reescribe EA README ni RA/MSCA por esta primera tanda.
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+
+
+
+## Incorporación de la primera tanda de lectura — 12 octubre 2026
+
+Iván autoriza ejecutar la ruta UC-21→objetivos→Challenges→DDS→campañas→resultados. Las adiciones descritas aquí se incorporan conservando todos los bytes previos y vínculos de las fuentes. La terminología de lectura remite a sus propietarios: Challenge, escenario base, escenario de evaluación/perfil tecnológico y campañas/operaciones mantienen sus contextos. No se renombra un archivo, se modifica un contrato o se ejecuta una campaña.
+
+La ficha de esta tanda aplicada se retira de la cola activa; sus textos completos están en la [versión de preparación](https://github.com/dakleyer/structural-awareness-contributions/blob/ccf0d4b897eb56498de8fd64d97bf94af496e614/research/ecosystem-awareness/README_VNext.md). El plan de las tandas 2–6 sigue vigente: inventario de dependencias/versiones, agrupación con unidad explícita, informes de campaña y conciliación. La entrada de Issue se actualiza después de verificar las fuentes publicadas. Sus enlaces de envío se conservan.
+
+
+## Tanda 2 — inventario de rutas, versiones y dependencias · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván confirma que «no cambiar nada» significa conservar la información: autoriza continuar las ayudas de navegación, sin borrar contenido. El UC-21 en PDF y su entrada pública quedan para el final. La ruta de trabajo sigue UC-21 → objetivos → Challenges → DDS → campañas → resultados.
+
+Se obtuvieron los árboles completos y los bytes de los cortes Contributions `af344bd93d8e0ae0e9912dbc08055ded3b25cd25` (2.200 archivos) y rama UC-21 `aafc9a49346a7b2030563d3b8c1bde51de3c6446` (77 archivos). Cada uno de los 2.277 blobs se cotejó contra su identidad Git. Se extrajeron enlaces Markdown de las 967 páginas de Contributions y las 38 de la rama del caso; el análisis distingue documentos actuales, VNext y archivos preservados. Las rutas explícitas y fragmentos examinados en los Markdown actuales resolvieron; no se extiende ese resultado a todos los enlaces web, comandos o formatos de manifiesto.
+
+La lectura humana detecta 19 documentos actuales sin enlace Markdown entrante: dos documentos del diagnóstico, un perfil FG-TIDA, cuatro guías de la segunda serie, tres guías/recapitulaciones compartidas y nueve explicaciones de coste/tipos. Las nueve últimas ya están referidas por los registros JSON; falta acceso directo para el lector. Se añaden tres accesos desde el índice DDS y dieciséis desde el índice de extensiones. La modificación es navegación, no una nueva prueba científica.
+
+Los trece CURRENT_STUDY_RECORD conservan su pregunta y Stage A/Simplified. Se comprobaron 186 referencias de archivo explícitas dentro de esos registros, con cero ausentes. Se verificaron 173 bindings SHA-256 de los mapas `files` de FREEZE/MANIFEST en extensiones, sin divergencias en ese alcance, y los cinco blobs del instrumento diagnóstico v0.2 coinciden con su freeze. El perfil FG-TIDA v0.2 consume expresamente el diagnóstico v0.1: se explica esa relación, sin reemplazar su dependencia por v0.2 o v0.3.
+
+La custodia de 92 copias al pin409bfa9 sigue identificando su origen auténtico. En el receptor actual, 70 permanecen idénticas y 22 evolucionaron: 16 documentos y seis revisiones. Se cotejaron las diferencias documentales: lectura A/B/C, sucesores coste/tipos y aclaraciones de resultados, sin convertir las copias en campañas independientes. Las 16 fuentes correspondientes en feasibility mantienen sus blobs originales. Las seis VNext tienen evolución propia; no se abre otro expediente ni se declara independencia por duplicación.
+
+Se verificaron los árboles de 39 referencias históricas de estos dos repositorios, recuperando cada destino citado por Markdown actual. Incluyen el envío UC-21 aec08fb5, la custodia409bfa9 y el paquete S5 en2c7f545, ausente del main actual. La existencia y ubicación del paquete S5 están comprobadas; su ZIP no se ejecutó aquí. Los enlaces externos de otros propietarios mantienen sus versiones y quedan para la revisión de las relaciones materiales, sin asimilarlos a archivos del head.
+
+**Prioridad Primera; impacto Alto; riesgo Bajo para estas adiciones; esfuerzo Medio.** Beneficio: el lector llega a guías, evidencia y versiones sin depender de claves JSON o de adivinar carpetas. Riesgo concreto: confundir un documento actualizado con el input de un run; se conserva el pin/freeze y se explica la distinción. Coste: lectura de los materiales identificados, cotejo de destinos y mantenimiento de tres pequeñas adiciones. La auditoría de identidad no cierra las pasadas científicas ni las tandas 3–6.
+
+El [plan común](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) sigue fijando el orden. No se reubica, renombra o elimina un archivo; el contenido previo se conserva byte por byte. Los before/after completos se registran en las VNext propietarias antes de incorporar las adiciones. La ficha aplicada se retira de la cola activa y permanece en Git history.
+
+
+## Tanda 2 aplicada — decisión concreta de Iván, 12 octubre 2026
+
+Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
+
+Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/structural-awareness-contributions/blob/b8729701ff0303363d48fe63a629587d4b12a6e2/research/ecosystem-awareness/README_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.
+
+
+## Tanda 3 — objetivos, Challenges y escenarios de evaluación · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza las tres adiciones concretas de la tanda2 y pide preparar y continuar la siguiente. Esas adiciones ya están publicadas en Contributions `2ff085688de77938aeaa5a3c0e7edbb607247d58` y la rama UC-21 `285ca77fc4cc5d69f3ea78aeda820777c647d0da`, con todos los bytes anteriores de las fuentes conservados. El PDF y la entrada pública se reservan para el final. Esta tanda publica revisión y cuatro propuestas; su incorporación requiere el GO de esta tanda.
+
+El itinerario conserva EP→Awareness→índices técnicos. La relación caso↔DDS no subordina el método a UC-21 ni crea un nuevo README. Esta tanda compara familias y versiones, con una ruta inicial incompleta en00H(v0.2 frente a v0.5) y nombres de brazos S5 que deben mantenerse cualificados. Propuestas exactas en los propietarios; el README protegido EA no tiene candidato ni se modifica.
+
+
+Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/README_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/README_VNext.md). Las entradas se atribuyen al mismo asistente; no se inventa consenso ni una revisión independiente.
+
+
+## Tanda 3 aplicada — GO de Iván, 12 octubre 2026
+
+Iván autoriza continuar después de la entrega de las cuatro propuestas de la tanda3. Se incorporan exactamente sus adiciones a baseline README (sucesor00H), README UC-21 (seis Challenges), DDSIndex (elección del ejercicio) y extensions README (preguntas de trece estudios). Todos los bytes previos de esas cuatro fuentes permanecen íntegros, con sus enlaces. No se modifica otro pasaje ni el PDF.
+
+Las cuatro fichas incorporadas salen de la cola activa; su antes/después completo está en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/db248c134318c8786471eec1ef0ead2248b360a6/research/ecosystem-awareness/README_VNext.md). Auditorías y decisiones anteriores se conservan. Cero archivos nuevos, movidos, renombrados o eliminados y ninguna VNext nueva. Los estudios conservan registros, inputs, resultados, código, freezes y manifiestos. Continúa la tanda4: método, instrumentos, comparadores y oráculo/harness, con propuestas nuevas pendientes del GO correspondiente.
+
+
+## DDS strategy and case-entry ownership review (15 October 2026)
+
+The [DDS organizing review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#dds-strategy-and-restoration-decisions-15-october-2026) preserves the route **UC-21 → objectives → Challenges → DDS → campaigns → results**. UC-21 is a case; DDS remains the reusable method. General EA source ownership, FG-TIDA application context and external case records retain distinct responsibilities.
+
+The existing FG-TIDA application router is nominated as one possible long-term case-facing owner. This is an open ownership option in the joint EP/DDS review, not an adopted redistribution, new required hop, README level or permission to duplicate the case inside the general method. The already agreed DDS Section 11 bridge remains the selected route while the substantive protocol destinations are reconciled. No router is edited here and no new VNext is created.
+
+Pending 92 contains five broken case-relative draft links and a malformed objective table. Its first passage has a bounded successor in the same DDS VNext; 91/92 remain subject to the existing content-integration gate. The historical case compilation stays a source dependency until its unique obligations have actual qualified recipients. A menu or family-source link cannot stand in for that content. Read the [joint EP account](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#dds-strategy-before-restoration-15-october-2026) before any concrete owner or navigation proposal.
+
+
+## Unified DDS restoration plan 15 October 2026
+
+The shared reader route remains UC-21, objectives, Challenges, reusable DDS, campaigns and results. The [unified restoration plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026) distinguishes complete case-edition custody from active protocol reception. Existing theory, controls and adverse results keep their owners; a linked historical edition is not a second maintained corpus. Case-specific HR, selection and run fields require explicit bindings before the direct entry is treated as complete. No hierarchy, source file or existing destination is changed by this review.
+
+
+## Literal restoration detail 15 October 2026
+
+The [joint plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) records the complete proposed103case binding and112immutable source package in the existingDDS review. No source or hierarchy changes now. Its historical READMEs do not add a maintained reading level; the active route stays UC21→objectives→Challenges→DDS→campaigns→results. Current baseline/UC03 owners hold their own exact pairs; future92depends on source/card reception.
+
+
+## ACC auxiliary model — navigation reception
+
+The owner asks to house a bounded working model for later ACC use/integration, not redefine ACC or its internal integration into agents. An append-only optional-package paragraph in this README points to the [artefact reader](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md). Existing router text remains byte-preserved; the artefact stays outside the EA core/frozen baseline. No previously pending audit or validation is marked complete by this addition.
+
+
+## ACC auxiliary model implementation reception
+
+Iván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.

@@ -2,7 +2,7 @@
 
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
-Version0.1 · 6 October2026 · current audited study edition.
+Version0.1 · 6 October2026 · original scoped completion edition, with later current-reading additions in the linked reports. The dated coverage and release manifest describe the preserved 6 October package; each report links its current study record and prospective diagnostic successors. The original results are retained and are not regraded.
 
 These four studies now have an explicit current correspondence to the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [Stage A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), including both Stage A extension-review stages, proportional closure, material assumptions, Cost/Risk/Effectiveness, conditional Business Value and delivery boundaries. They are complete **within their declared analytical/local Stage A scope**; none is Stage B architecture verification, complete Stage C native/independent/population validation or commissioned SOW fulfilment.
 
@@ -35,6 +35,6 @@ From this directory, with Python3.12 and cryptography50.0.1 installed:
 python -B run_completion_checks.py --output PATH_TO_NEW_EMPTY_RUN_DIRECTORY
 ~~~
 
-The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins this edition and the untouched source corpus.
+The script validates its own freeze and pinned original source blobs, uses fresh local output copies for SQLite/mutation, and refuses an existing output directory. It executes no external service and exports no signing key or compact credential. [Actual boundary results](./runs/2026-10-06-01/RESULTS.json) retain negative findings. [Release manifest](./RELEASE_MANIFEST.json) pins the preserved 6 October feasibility edition and its untouched source corpus. It does not certify the later documentation additions in the active extensions README, reports or VNext; their current study records identify the relevant successor evidence.
 
 Drive mirror: [current scoped completion document](https://docs.google.com/document/d/12SjtQXH9Ia051PD-jW5mBn6zK8wF3dALu_4wdTI0X50/edit). It is a custody/explanation mirror of these findings, not another technical authority. Programme master remains a carrier of the sole DDS. Publication/reproduction is not independent validation, certification, forum acceptance or deployment approval.

@@ -72,3 +72,11 @@ Foundation §6.3 limita el argumento a información descartada; §§17.1/17.1.1 
 El contraste específico con información utilizable distingue ayuda del procesamiento para un receptor limitado de recuperación de estado perdido. Un resumen estructurado puede facilitar una decisión sin reponer una dependencia omitida. No se pide eliminar F2, exportar todo S_A o cambiar la fuente funcional. La auditoría de origen documenta autor, versión, lectura y derechos; no importación o eficacia nueva.
 
 Para comprobar H3/H4/H6 hace falta preservar cualificadores y medir utilidad/coste con un comparador competente; no basta que la señal parezca más limpia. Quinta ampliada y matrices/realizaciones siguen abiertas, sexta global pendiente. Canon y conversaciones anteriores conservados.
+
+
+## Historical functional-architecture reception — 15 October 2026
+
+Reviewer A read all three current 03 fragments in order (405 + 647 + 209 lines), including split-word continuations, and their historical changes. Both loops retain mission, authority, dependencies, budget and horizon. Epistemic condition remains independent of posture; per-domain results and the prohibition on reusing a display average as composition input survive. F1 keeps mission/capacity and F2 the window. Redirected qualification has its literal receiver in 01H. F4/F5/F9 retain signal versus acquisition path, dependency versus corroboration and historical utility versus a global trust score. Escape/list repairs therefore require no semantic restoration.
+
+This fifth continuation examines 91 own historical units plus three explicitly B-attributed Operation closures; 80 units leave pending. A's cumulative frontier is 652 retained receivers, 229 valid corrections, two historical 02B omissions already linked, and 851 still open. It is not a claim of reading every unchanged/new file. The [interface owner](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#historical-interface-reception--15-october-2026) records the complementary contract judgments.
+

@@ -1,3 +1,5 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 109. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
 # Revisión de UC-EA-03 — cuándo la supervisión humana puede ayudar
 
 **Única VNext del perfil lógico UC-EA-03**, que incluye el documento completo y sus tres copias por partes. Auditoría realizada por Codex el 6 de octubre de 2026, mismo asistente de IA; no auditoría humana independiente. [Fuente congelada v0.4](./UC-EA-03_v0.4_MAINTENANCE_FREEZE.md) · [nota externa](./UC-EA-03_REVIEW_CARD.md) · [plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
@@ -62,42 +64,11 @@ La ficha exterior enlaza esta única VNext para todas las partes. No se abre una
 
 ### Aclarar el dueño de la respuesta
 
-**Localización:** §5, párrafo F7 único. **Tipo:** precisión potencialmente sustantiva; requiere successor del freeze y revisión de funciones/owners.
-
-**Texto antes:**
-
-```text
-F7 decides whether targeted human review is justified, whether another evidence path is preferable, whether escalation must stop because marginal decision value no longer justifies human-capacity consumption, or whether containment/migration is required.
-```
-
-**Texto después:**
-
-```text
-F7 qualifies the need for targeted human review, another evidence path or bounded termination of escalation when additional review no longer justifies its capacity burden. Where containment or migration may be required, it identifies the affected basis and submits the qualified need to the legitimate posture and response owner; selecting and executing that response remain subject to current authority, capacity and downside conditions.
-```
-
-**Razón:** alinear la indicación epistemológica con el reparto actual de responsabilidad, sin transferir el lifecycle de Theme #16 a EA. **Dependencias:** 03/04, MSCA Operation, EP y consumidores del perfil. **Instrucción:** preparar revisión autorizada por Iván. **Decisión:** pendiente. **Incorporación:** no ejecutada.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio22 incorporado en `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### Calificar el fallback de la rama B
 
-**Localización:** §7 Branch B, oración única. **Tipo:** precisión de obligación; no se declara editorial por defecto.
-
-**Texto antes:**
-
-```text
-A formally authorized reviewer exists but is unavailable or cannot respond in time. Expected EA behavior: human capacity becomes binding/insufficient; do not loop indefinitely; select another bounded evidence/containment/requalification path.
-```
-
-**Texto después:**
-
-```text
-A formally authorized reviewer exists but is unavailable or cannot respond in time. Expected EA behavior: human capacity becomes binding/insufficient; do not loop indefinitely; identify another bounded evidence, containment or requalification path for the legitimate owner. Any fallback, including hold or timeout, must retain its authority, affected scope, response window and downside conditions; reviewer unavailability alone does not establish that the fallback is harmless or permitted.
-```
-
-**Razón:** impedir que terminar la cola se convierta en autorización automática de un efecto. **Dependencias:** S4/S5/T3/T4 y fixtures futuros. **Antes:** una coincidencia. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
-
----
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio23 incorporado en `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -202,3 +173,139 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** En successor, contrastar22 y ramasB/C/H: autoridad, plazo, contexto, competencia, capacidad compartida y continuidad. Preservar casos y fallos previos. Revisar junto con 22. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 22 | Mantener al dueño legítimo de la respuesta en UC03 | research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md | Aplicado en sucesor |
+| 23 | Calificar el fallback humano por autoridad y plazo | research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md | Aplicado en sucesor |
+
+El frozen conserva exactamente su blob anterior. La revisión aprobada está incorporada en un sucesor de trabajo enlazado por baseline; los estudios registrados siguen usando su edición congelada. La incorporación textual no afirma resultados nuevos.
+
+
+
+## Damage-control consumer reconciliation — 14 October 2026
+
+The [plan DC-06](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026) adds receiving evidence to CP-01/change93. Current 01K-A01 §§5.2–5.4 already include backlog/service time, response-window state and `sum_i x_ij * ServiceDemand_ij(q) <= AvailableServiceTime_j(W)`, explicitly necessary but not sufficient for all scheduling constraints. The missing compact01K line does not establish a missing component capability. Restore explicit source meaning only after comparing units, concurrent commitments, release/deadline constraints, scheduling proof class, UNKNOWN and receiver qualification.
+
+The complete current component passage is published in DDS VNext; the original before/proposed change93 remains unchanged in01K VNext. Candidate93 stays High impact / Medium risk / Medium effort, not ready or applied. Compare component schema/vectors/verification, UC-EA-03 freeze and working successor, EHD/general-interface and current Flores mapping before choosing a literal restoration, qualified cross-reference or justified no-edit disposition. No schema, scheduling engine, result or frozen source changes by this review.
+
+
+## Second contract review — UC-EA-03 working successor, 14 October 2026
+
+Reviewer `/root/gate_capacity_adversary`. The current working successor has a complete source reading; its inherited v0.4 title is distinguished from the approved working edition, and the frozen predecessor/full adapter review remains pending. [Common audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026); [capacity alternative](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md#second-contract-review--capacity-and-the-change93-alternative-14-october-2026); [component/schema](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#second-contract-review--complete-component-and-schema-14-october-2026).
+
+## 8. UC-EA-03 working successor: consumer judgement
+
+This consumer is relevant because it asks about **effective intervention**, not a nominal human or work-volume ratio. It is an owner-approved v0.5 successor with inherited v0.4 title and status text; a citation must identify the successor blob rather than silently claiming the frozen predecessor changed.
+
+Substantial current clauses:
+
+> R1. The architecture shall represent effective human-oversight capacity separately from the nominal existence of a human role.
+>
+> R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.
+>
+> R3. The system shall not repeatedly escalate to a human when the required capacity is unavailable, the useful window has expired, or additional review has insufficient expected decision value relative to remaining human/time capacity.
+>
+> R11. Human attention/review effort shall be accounted as finite determination capacity of the extended system, not as a cost-free external oracle.
+
+Branch H:
+
+> Several consecutive uncertainty events are routed to the same human capacity pool. Each request is individually reasonable, but queue growth makes later intervention miss the useful response window. Expected EA behavior: treat human attention as capacity-binding, stop generic escalation, prioritize the material domain or choose a bounded non-human containment/requalification path.
+
+Approved Branch B successor:
+
+> Any fallback, including hold or timeout, must retain its authority, affected scope, response window and downside conditions; reviewer unavailability alone does not establish that the fallback is harmless or permitted.
+
+Disposition: a necessary capacity bound is received substantively. The consumer does not define universal A01 proof-class acceptance or a scheduler; it intentionally consumes Theme16 implementation-neutral fields. A01 output cannot replace Theme16 lifecycle authority, and HumanTime omission in 01K cannot be used to infer UC03 requirement failure. **No UC03 source edit proposed.** Its frozen predecessor comparison and all actual adapters remain pending.
+
+| Current consumer section | Disposition |
+|---|---|
+| Owner successor banner/status | Retain edition distinction; approved #22/#23 do not rewrite freeze. |
+| 0 Identification | Retain S4/S13/S14/S5 traceability, non-curative approval, Theme16 owner. |
+| 1 Functional interaction | Retain trigger-path→authority/capacity→evidence/effect question; human not universal safety valve. |
+| 2 Parent facts | Retain T0/T1/T2/H1 records and TBD governing regime; no invented legal/current authority. |
+| 3 Lifecycle interface | Retain implementation-neutral fields; no required HELD/INDETERMINATE vocabulary. |
+| 4 Challenge traceability | Retain formal authority, competence, information/time/means distinctions. |
+| 5 Functional traceability | Retain approved F7 qualified response owner, capacity/downside boundary; EA does not act as controller. |
+| 6 Requirements R1–R12 | Retain all; finite human effort and sensitivity contrast receive HumanTime meaning without defining universal scheduler. |
+| 7 Branches A–I | Retain all; C/H queue depletion, D/E non-curative approval, F currentness, G unresolved execution, I proportionality. |
+| 8 Assessment | Retain raw review minutes/queue/time/evidence/outcome observations, not cognitive value metric. |
+| 9 Peer baseline | Retain conventional HITL/Theme16 credit; composition hypothesis requires matched comparison. |
+| 10 Nonduplication | Retain source-owned Theme6 verdict and Theme16 lifecycle; no state relabel by convenience. |
+| 11 Maturity/IP | Retain hypothetical architecture-validation profile, recommended fixtures, internal/public boundary. |
+| Annex A | Retain extensibility as tests, no unapproved public sector scope expansion. |
+| Annex B | Retain ToR context as citations, not proof of adoption. |
+| Annex C | Retain references; linked external current content not independently refreshed here. |
+
+
+
+## Detailed restoration proposals 15 October 2026
+
+Iván requests complete literal before/after before execution. The [joint source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) owns cross-document order; this existing VNext retains its source-specific pairs. Previous reviews and proposals remain unchanged.
+
+
+### 109 — Carry the qualified capacity/timing contract into the UC03 working successor
+
+**Source:** `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `982a738acedabbd9ea967e63ed3321216a59434f`. **Location:** R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window..
+
+**State:** Applied — owner-authorized 15 October 2026. Source blob `19c98168a39a8f545024e190149e99dee8f4ccee`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
+
+**Benefit:** Makes the caller expose what a usable human-review path must actually supply while preserving the frozen predecessor.
+
+**Risk:** UC03 must consume rather than own Theme16 lifecycle semantics; do not retrofit its frozen v0.4 tests.
+
+**Effort:** Review working successor R2/R3/R4, 01K/A01 and actual selected human-capacity consumer.
+
+**Dependencies and order:** 93; 107; 108; UC03v0.4 frozen predecessor unchanged.
+
+**Text before — complete current passage**
+
+``````text
+R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.
+``````
+
+**Text after — complete proposed passage**
+
+``````text
+R2. A human-review request shall identify the affected domain, decision required, relevant evidence and useful response window.
+
+For a tested configuration that consumes the 01K-A01 capacity component, also bind the reviewer/pool competence and applicable authority, service-demand units, queue/current commitments, model/proof class and required review-completion deadline. Record separately the latest permitted action/effect deadline and any remaining execution budget. The chosen profile identifies the timing bound it accepts; missing material inputs or required proof remain UNKNOWN. A human approval does not by itself supply missing evidence, enlarge mandate or prove timely execution. This is a binding for that selected configuration, not a universal Theme #16 state machine or HID measurement requirement.
+``````
+
+**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
+
+**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 109.** The entire current R2 requirement is retained in the proposed paragraph. Its added capacity binding applies to a selected 01K-A01-consuming configuration and does not impose a universal HID engine. The pending receiving relation is93+107/108. The frozen v0.4 and working v0.5sources remain unchanged.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+### Application 109 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/UC-EA-03_v0.5_WORKING_SUCCESSOR.md`; resulting source blob `19c98168a39a8f545024e190149e99dee8f4ccee`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+**Verified application commits — 04_capacity_contract:** [109](https://github.com/dakleyer/structural-awareness-contributions/commit/97ed9eee5055a996b38e537bcd6a627d35d695dc).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 109. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
+
+
+## Execution reaudit 15 October 2026
+
+Re-read109 against93 and107/108. The working v0.5 receiver states its capacity/timing conditions; frozen v0.4 and its study evidence remain byte-identical. The actual approved pair replay and full source-prefix/suffix comparison pass; every earlier literal block in this owning VNext remains present. The applied state is now also correct in the effective registry and CSV. [Joint execution re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026).

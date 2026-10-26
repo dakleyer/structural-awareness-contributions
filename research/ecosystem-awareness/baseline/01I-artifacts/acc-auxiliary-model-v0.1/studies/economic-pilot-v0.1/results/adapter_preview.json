@@ -1,0 +1,309 @@
+{
+  "adapter_version": "ACC-AUX-DDS-S5-0.1",
+  "status": "DOCUMENTARY_PREPARATION_ONLY",
+  "model_study_id": "ACC-AUX-ECO-01-v0.1",
+  "source": {
+    "repository": "dakleyer/use-cases",
+    "revision_label": "aec08fb5",
+    "scenario": "S5 / 00I",
+    "local_preserved_snapshot": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md",
+    "snapshot_sha256": "ca6924a71a6cd95bb6d66c2be6b5d439bdcf0c2b708f95d3eedb136f4deff717"
+  },
+  "source_case_assessment": "NOT_RUN",
+  "native_executor_connected": false,
+  "source_comparison_routes": {
+    "R0": "NOT_MAPPED",
+    "R1": "NOT_MAPPED",
+    "R2": "NOT_MAPPED"
+  },
+  "R01": "NOT_REQUIRED_FOR_THIS_PILOT",
+  "model_results": [
+    {
+      "case_id": "T02",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "actual_effects": 0,
+      "invalid_attempts": 0
+    },
+    {
+      "case_id": "T02",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "actual_effects": 0,
+      "invalid_attempts": 0
+    },
+    {
+      "case_id": "T02",
+      "policy": "stale_reference",
+      "scenario_outcome": "FAIL",
+      "actual_effects": 0,
+      "invalid_attempts": 1
+    },
+    {
+      "case_id": "T03",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "actual_effects": 0,
+      "invalid_attempts": 0
+    },
+    {
+      "case_id": "T03",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "actual_effects": 0,
+      "invalid_attempts": 0
+    },
+    {
+      "case_id": "T03",
+      "policy": "stale_reference",
+      "scenario_outcome": "FAIL",
+      "actual_effects": 1,
+      "invalid_attempts": 1
+    },
+    {
+      "case_id": "T04",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "actual_effects": 1,
+      "invalid_attempts": 0
+    },
+    {
+      "case_id": "T04",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "actual_effects": 1,
+      "invalid_attempts": 0
+    }
+  ],
+  "staging_events": [
+    {
+      "case_id": "T02",
+      "policy": "conventional_adaptive",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T02",
+      "policy": "conventional_adaptive",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "HOLD_GRANT",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T02",
+      "policy": "qualified_record",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T02",
+      "policy": "qualified_record",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "HOLD_GRANT",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T02",
+      "policy": "stale_reference",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T02",
+      "policy": "stale_reference",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "ATTEMPT_BLOCKED",
+      "attempted": true,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": [
+        "technical_grant"
+      ]
+    },
+    {
+      "case_id": "T03",
+      "policy": "conventional_adaptive",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T03",
+      "policy": "conventional_adaptive",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "HOLD_PURPOSE",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T03",
+      "policy": "qualified_record",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T03",
+      "policy": "qualified_record",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "HOLD_PURPOSE",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T03",
+      "policy": "stale_reference",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T03",
+      "policy": "stale_reference",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "EXECUTE_ADJUSTED",
+      "attempted": true,
+      "effect": true,
+      "effect_legitimate": false,
+      "violations": [
+        "purpose_active",
+        "freeze",
+        "current_basis",
+        "actor_balance"
+      ]
+    },
+    {
+      "case_id": "T04",
+      "policy": "conventional_adaptive",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T04",
+      "policy": "conventional_adaptive",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "HOLD_APPROVAL",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T04",
+      "policy": "conventional_adaptive",
+      "tick": 3,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "EXECUTE_ADJUSTED",
+      "attempted": true,
+      "effect": true,
+      "effect_legitimate": true,
+      "violations": []
+    },
+    {
+      "case_id": "T04",
+      "policy": "qualified_record",
+      "tick": 0,
+      "job": "job-A",
+      "phase": "plan",
+      "action": "PLAN_ADJUSTED",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T04",
+      "policy": "qualified_record",
+      "tick": 2,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "HOLD_APPROVAL",
+      "attempted": false,
+      "effect": false,
+      "effect_legitimate": null,
+      "violations": []
+    },
+    {
+      "case_id": "T04",
+      "policy": "qualified_record",
+      "tick": 3,
+      "job": "job-A",
+      "phase": "attempt",
+      "action": "EXECUTE_ADJUSTED",
+      "attempted": true,
+      "effect": true,
+      "effect_legitimate": true,
+      "violations": []
+    }
+  ],
+  "limits": [
+    "Logical toy time is not the source 14:02/14:42 clock",
+    "Fictitious monetary net is not a database-effect oracle",
+    "Model policy names do not rename source R0/R1/R2 or R01 M/I/P",
+    "Source acceptance and native execution remain unassessed"
+  ]
+}

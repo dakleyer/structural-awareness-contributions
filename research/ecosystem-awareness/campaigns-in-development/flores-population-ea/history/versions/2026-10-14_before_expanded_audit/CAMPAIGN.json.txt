@@ -1,0 +1,310 @@
+{
+  "campaign_handle": "DDS-A-FLORES-POP-EA-01",
+  "alias": [
+    "Flores",
+    "Flores EA",
+    "FG-TIDA Theme 21",
+    "population residual discriminability"
+  ],
+  "created": "2026-10-13",
+  "working_status": "IN_DEVELOPMENT_NOT_PREREGISTERED",
+  "formal_campaign_admission": "NOT_ESTABLISHED",
+  "dds_stage_candidate": "A",
+  "dds_stage_object": "candidate downstream contextual-sufficiency specification; not producer detector",
+  "method_router": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "owner_scope": {
+    "local_research_preparation": "Iván Abril Palma / The Integral Management Society",
+    "external_source_owner": "Justin Philip Flores / Himalogic Software Pvt. Ltd.",
+    "ctgt_reference_author": "Cyril Gorlla / CTGT",
+    "uc4_prospective_testbed_owner": "Nelson Trasatti; no accepted joint run inferred",
+    "independent_adjudicator": "NOT_ASSIGNED"
+  },
+  "source_lineage": [
+    {
+      "ref": "https://github.com/FG-TIDA/themes/issues/21",
+      "kind": "external Theme #21 original"
+    },
+    {
+      "ref": "https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md",
+      "kind": "external frozen pre-run specification",
+      "blob_sha": "6be3c731b5f1ed287039cabf653c57a1efa023ad"
+    },
+    {
+      "ref": "https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/expected.py",
+      "kind": "precomputed prediction code",
+      "blob_sha": "3c147fd833d996a8d5f66861fe8b3a0a40c7c8ed"
+    },
+    {
+      "ref": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "kind": "separate UC-21 receiving decision case"
+    },
+    {
+      "ref": "https://github.com/FG-TIDA/use-cases/issues/4",
+      "kind": "potential UC-4 testbed"
+    },
+    {
+      "ref": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "kind": "EA A/B/C/D scientific semantics"
+    }
+  ],
+  "external_fixture": {
+    "name": "TIDA6-FX-0.2",
+    "author": "Cyril Gorlla / CTGT",
+    "source_declared_sha256": "10d721acc44228edaa769719d1ff6eac90fdab2576317a7621cc05eaced33d13",
+    "binary_reverified_here": false,
+    "license_source_declared": "CC BY 4.0"
+  },
+  "external_producer_experiment": {
+    "version": "planted-judge v1.0 (11 Oct 2026)",
+    "n_judges": 6,
+    "n_scored_cases": 8,
+    "excluded": [
+      "UC17-08 (attested absence)"
+    ],
+    "round_counts": [
+      1,
+      5,
+      25
+    ],
+    "variants": [
+      "subtle",
+      "gross"
+    ],
+    "source_code_observed": [
+      "README.md",
+      "expected.py"
+    ],
+    "generate_detect_unblind_present_at_inspection": false,
+    "native_results_verified": false,
+    "source_declared_limits": [
+      "AC-5 shared systematic error not revealed from verdicts",
+      "AC-6 effective independent failure modes not inferred from counts"
+    ]
+  },
+  "internal_workstreams": [
+    {
+      "id": "legacy-P0-P3",
+      "status": "HISTORICAL_EXPLORATORY_NOT_ACCEPTED",
+      "archive_named": "EA_FLORES_RESIDUAL_DISCRIMINABILITY_v0_2_2026-10-12.zip",
+      "archive_verified_now": false
+    },
+    {
+      "id": "v0.3-frame",
+      "status": "AUTHOR_SIDE_REVIEW_ONLY"
+    },
+    {
+      "id": "v0.4-casebook",
+      "status": "CRITICISED_SUPERSEDED_NO_PASS"
+    },
+    {
+      "id": "v0.5-requirements",
+      "status": "CANDIDATE_UNFROZEN",
+      "documentary_calibration_cases": 10,
+      "documentary_calibration_scored": false,
+      "prospective_single_case_sessions": 7,
+      "instrument_regression_checks_reported": 8,
+      "ea_run": false,
+      "b2_run": false,
+      "b3_run": false
+    },
+    {
+      "id": "UC17-08-native-mapping",
+      "status": "PROPOSED_NOT_EXECUTED",
+      "injection": "downstream attested absence -> permit",
+      "source_judges_changed": false
+    },
+    {
+      "id": "CTGT-1.0-vs-1.1",
+      "status": "PROPOSED_CONTROLLED_RECEIVER_SCOPE",
+      "real_post_stage1_event_demonstrated": false
+    },
+    {
+      "id": "real-R3",
+      "status": "NOT_ADMITTED_MISSING_SOURCE_OWNED_T1"
+    }
+  ],
+  "comparators": {
+    "native_source": "Flores producer mechanism retained unchanged",
+    "strong_conventional": "B2",
+    "ea_candidate": "B3 / EA-qualified",
+    "same_access_and_budget_required": true,
+    "parity_is_valid_negative_result": true,
+    "known_repaired_R2_parity": "EXPECTED_NOT_TERMINATION_OF_R3_RESEARCH",
+    "parity_interpretation": "Expected in demonstrated known repaired R2; not termination of subsequent R3 study; R3 parity recorded against its admitted contract"
+  },
+  "admission": {
+    "stage_a_freeze": false,
+    "external_independent_adjudication": false,
+    "real_r3_exogenous_event": false,
+    "semantic_ea_pass": false,
+    "stage_b": false,
+    "stage_c": false,
+    "uc4_execution": false,
+    "uc21_r2_execution": false
+  },
+  "records": {
+    "read_first": "CAMPAIGN.md",
+    "scientific": "SCIENTIFIC_DESIGN.md",
+    "history": "HISTORY_AND_AUDIT.md",
+    "sources": "SOURCES_AND_CUSTODY.md",
+    "resumption": "CONTINUATION.md",
+    "legacy_transcripts_in": "history/",
+    "current_direction": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+    "runtime_research_report": "runtime-context/INFORME_2026-10-13.md",
+    "versions": "VERSIONS_AND_DECISIONS_2026-10-13.md",
+    "traceability": "TRACEABILITY_2026-10-13.md",
+    "run_card": "RUN_CARD_PREPARATION.md"
+  },
+  "disclosure": {
+    "candidate_private_keys_published": false,
+    "hidden_case_packets_published": false,
+    "original_files_moved_or_deleted": false,
+    "external_people_consented_to_joint_campaign": false
+  },
+  "global_dds_physical_migration_status": "NOT_EXECUTED",
+  "status_note": "Research-side additive custody only; not a formal preregistered, executed or independently adjudicated DDS campaign.",
+  "technical_addenda": [
+    {
+      "component_id": "DDS-A-FLORES-POP-EA-01/RECEIVER-P0-P3",
+      "index": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/TECHNICAL_INDEX.md",
+      "kind": "SOURCE_PRESERVING_RECEIVER_SIDE_SPECIFICATION_AND_PUBLIC_MOCK_ONLY",
+      "status": "AUTHOR_SIDE_IN_DEVELOPMENT_NOT_ADMITTED",
+      "source_archive_hashes": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/HISTORY_AND_REPRODUCTION.md",
+      "adversarial_audit": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/AUDIT_RECONCILIATION.md",
+      "local_checks": 21,
+      "native_flores_results_executed": false,
+      "ea_b2_differential_proved": false
+    }
+  ],
+  "last_documentary_audit": "2026-10-13",
+  "scientific_status": "R2_FREEZE_R3_OWNER_DIRECTION_RECORDED_NOT_ADMITTED_NOT_EXECUTED",
+  "approach_pivot": {
+    "decision_id": "FLORES_RESEARCH_APPROACH_DRIFT_2026-10-12_13",
+    "range": "2026-10-12/2026-10-13",
+    "type": "OWNER_RESEARCH_STRATEGY_CHANGE_NOT_NATIVE_REGIME_EVENT",
+    "state": "DOCUMENTED_NOT_FORMAL_PREREGISTRATION",
+    "previous": "growth of author-side Frame-Watch/casebook and P0-P3 synthetic discriminability checks",
+    "current": "Parity in demonstrated repaired R2; full freeze; material admissible R3 outside effective frozen coverage; general EA requalification fixed ex ante",
+    "record": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+    "primary_trial": "runtime-context/PROTOCOLO_2026-10-13.md",
+    "audit": "AUDIT_REPORT_2026-10-13.md",
+    "run_card": "RUN_CARD_PREPARATION.md",
+    "distinguish": {
+      "owner_design_change": "DOCUMENTED",
+      "receiver_question_Q0_to_Q1": "PROPOSED",
+      "consumer_mapping_UC17_08_mutation": "PROPOSED_NOT_EXECUTED",
+      "true_same_claim_R3_observation_regime_change": "NOT_OBSERVED_NOT_ADMITTED"
+    }
+  },
+  "primary_trial": {
+    "name": "FLORES_SAME_TEMPORAL_CLAIM_R2_FREEZE_R3",
+    "state": "DRAFT_NOT_ADMITTED_NOT_FROZEN_NOT_EXECUTED",
+    "focus": "Minimal material context change outside participant-defended repaired R2 coverage after full freeze; unchanged judge outputs",
+    "known_R2_parity": "EXPECTED_BASELINE",
+    "R2_configuration_choice": "PARTICIPANT_DEFENDED_NO_SELECTIVE_DEFENSE_REMOVAL",
+    "EA_requirements": "GENERAL_EX_ANTE_BEFORE_SCORED_R3_DISCLOSURE",
+    "native_source_unchanged": true,
+    "protocol": "runtime-context/PROTOCOLO_2026-10-13.md"
+  },
+  "source_recovery": {
+    "date": "2026-10-13",
+    "manifest": "history/recovered-text/RECOVERY_MANIFEST.json",
+    "source_count": 6,
+    "original_readable_characters": 105576,
+    "full_source_reader_text_published": true,
+    "original_pdf_zip_binary_integrity": "NOT_VERIFIED",
+    "prior_summaries_preserved": true,
+    "independent_scientific_acceptance": "NOT_ESTABLISHED"
+  },
+  "technical_subprofile": {
+    "component_id": "DDS-A-FLORES-POP-EA-01/RECEIVER-P0-P3",
+    "record": "technical/TECHNICAL_COMPONENT_RECORD.json",
+    "index": "technical/TECHNICAL_INDEX.md",
+    "protocol": "technical/PROTOCOL_P0_P3.md",
+    "audit": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+    "status": "SUPPORTING_EARLIER_CONTRACT_NOT_CURRENT_PRIMARY",
+    "separate_from_primary_UC17_08_candidate": true,
+    "source_receipts": "MOCK_ONLY",
+    "authored_mock_assertions": 21,
+    "mock_indistinguishability_control": "TAUTOLOGICAL_NOT_REAL_TWO_WORLD_TEST",
+    "strong_B2_experiment": "NOT_EXECUTED",
+    "archive_byte_status": "SOURCE_TECHNICAL_SESSION_REHASH_REPORTED_NOT_IN_CURRENT_PUBLIC_GITHUB_AND_NOT_REHASHED_BY_THIS_AUDITOR",
+    "historic_v0_2_zip_sha256_attributed": "8e1d2196736e2a1ef862e37e3e4d4a30361bb5d2121ebe6f22b501715aa520c6",
+    "historic_v0_5_zip_sha256_attributed": "0b2a2b5f91e7b5f040ab550fae2d5c86c32b2a9910c719eafc1b6f0afdf507e0",
+    "previous_status": "ACTIVE_CORRECTED_AUTHOR_SIDE_DRAFT_NOT_FROZEN_NO_NATIVE_FLORES_EXECUTION"
+  },
+  "research_audit": {
+    "initial": "AUDIT_REPORT_2026-10-13.md",
+    "technical_supplement": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+    "scientific_external_independence": "NOT_ESTABLISHED",
+    "admission": "NOT_PREREGISTERED"
+  },
+  "historical_primary_trial_before_R2_freeze_R3": {
+    "name": "FLORES_NATIVE_UC17_08_SINGLE_POINT",
+    "state": "DRAFT_NOT_FROZEN",
+    "focus": "native attested absence -> corrupt permit mapping downstream, source intact",
+    "first_branches": [
+      "FLO-F0",
+      "FLO-F1",
+      "FLO-F2",
+      "FLO-F3",
+      "FLO-F4"
+    ],
+    "optional_separate_branches": [
+      "FLO-F5",
+      "FLO-F6"
+    ],
+    "upstream_judges_and_results_untouched": true,
+    "producer_flags_verified_available": false,
+    "comparator": "competent B2 same source/permission/resource/horizon as EA candidate",
+    "false_success_modes": [
+      "blanket stop",
+      "oracle leakage",
+      "hidden world inference",
+      "source verdict alteration",
+      "unsupported C/D promotion"
+    ],
+    "equivalence_valid_outcome": true
+  },
+  "historical_approach_pivot_before_R2_freeze_R3": {
+    "decision_id": "FLORES_RESEARCH_APPROACH_DRIFT_2026-10-12_13",
+    "range": "2026-10-12/2026-10-13",
+    "type": "OWNER_RESEARCH_STRATEGY_CHANGE_NOT_NATIVE_REGIME_EVENT",
+    "state": "DOCUMENTED_NOT_FORMAL_PREREGISTRATION",
+    "previous": "growth of author-side Frame-Watch/casebook and P0-P3 synthetic discriminability checks",
+    "current": "single downstream original-source-preserving perturbation and restoration under equal B2 vs EA comparison",
+    "record": "APPROACH_DRIFT_2026-10-12_13.md",
+    "primary_trial": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+    "audit": "AUDIT_REPORT_2026-10-13.md",
+    "run_card": "RUN_CARD_PREPARATION.md",
+    "distinguish": {
+      "owner_design_change": "DOCUMENTED",
+      "receiver_question_Q0_to_Q1": "PROPOSED",
+      "consumer_mapping_UC17_08_mutation": "PROPOSED_NOT_EXECUTED",
+      "true_same_claim_R3_observation_regime_change": "NOT_OBSERVED_NOT_ADMITTED"
+    }
+  },
+  "current_research_direction": {
+    "date": "2026-10-13",
+    "authority": "Owner instruction in this task",
+    "object": "Theme #21 Flores same temporal inference; minimal runtime context change",
+    "principle": "Parity in demonstrated repaired R2; full freeze; material admissible R3 outside effective frozen coverage; general EA requalification fixed ex ante",
+    "record": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+    "protocol": "runtime-context/PROTOCOLO_2026-10-13.md",
+    "supersedes": "UC17-08 absence-to-permit as primary priority; static EA superiority framing",
+    "previous_designs_preserved": true,
+    "native_R2_freeze_R3_run": false
+  },
+  "organization": {
+    "version": "2026-10-13.ORGANIZATION.1",
+    "entry": "CAMPAIGN.md",
+    "versions": "VERSIONS_AND_DECISIONS_2026-10-13.md",
+    "traceability": "TRACEABILITY_2026-10-13.md",
+    "control": "audit/CAMPAIGN_CONTROL_2026-10-13.json",
+    "validation": "audit/VALIDATION_2026-10-13.json",
+    "previous_complete_record": "history/versions/2026-10-13_before_organization/CAMPAIGN.json.txt",
+    "previous_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716",
+    "archival_policy": "COMPLETE_ORIGINAL_BYTES_NO_DELETIONS_NO_RECONSTRUCTION",
+    "active_priority": "SAME_TEMPORAL_CLAIM_R2_COMPLETE_FREEZE_UNCOVERED_R3_GENERAL_EA_EX_ANTE"
+  }
+}

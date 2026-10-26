@@ -58,29 +58,6 @@ No participó un lector humano independiente. Esa revisión y la conciliación e
 
 La propuesta de ruta se registra también en la [VNext del README de baseline](./README_VNext.md) y en [EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md), sin redistribuir archivos.
 
-## Propuesta quirúrgica — pendiente
-
-**Localización:** §2, encabezado único. **Fuente:** blob anterior. **Instrucción:** preparación autorizada por la revisión de Iván. **Tipo:** orientación añadida, sin cambio de tabla.
-
-**Texto antes:**
-
-```markdown
-## 2. Compact traceability
-```
-
-**Texto después:**
-
-```markdown
-## 2. Compact traceability
-
-Read each row as a research route: what the operation may contribute, which conditions it needs, and what it cannot establish. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 are local shorthand for the four operations listed above; they are not a new canonical function family. The table does not report conformance.
-```
-
-**Efecto:** facilitar lectura sin cambiar S/T/H ni afirmar ejecución. **Dependencias:** ninguna redistribución; 04 y README reciben el límite de autoridad de esta ayuda. **Antes verificado:** una coincidencia. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-
----
-
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
 **Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
@@ -111,26 +88,6 @@ Los hallazgos concretos se comentarán aquí y en las VNext de los documentos re
 
 El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
-| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
-|---|---|---|---|---|---|
-| 6 · Explicar cómo leer la tabla mecanismo–requisito | Siguiente · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
-
-### Cambio 6 — Explicar cómo leer la tabla mecanismo–requisito
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Separar obligación, condición, hipótesis y abreviatura local de la tabla.
-
-**Qué podría quedar desactualizado o afectado:** Presentar M1–M4 como nueva familia normativa o confundir trazabilidad con conformidad.
-
-**Qué cuesta prepararlo:** Un párrafo de orientación y cotejo de S/T/H; ningún nuevo campo.
-
-**Dependencias conocidas:** [00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md](00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md) · [00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener la tabla y límites; confirmar preservación de la fuente fijada antes de incorporar.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_A01_VNext.md#propuesta-quirúrgica--pendiente); el viejo tiene una coincidencia en [la fuente actual](00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md), blob `8832c255e3775116046273363c131c05878af16d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
 
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
@@ -138,17 +95,6 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
 
-| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
-|---|---|---|---|---|---|
-| 6 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
-
-**Cambio 6 — Documental condicionado.** La matriz ya separa contribución y cumplimiento. DeclararM1–M4 como referencias locales reduce confusión, sin convertirlas en canon.
-
-**Beneficio esperado:** Separar obligación, condición, hipótesis y abreviatura local de la tabla. **Riesgo concreto:** Presentar M1–M4 como nueva familia normativa o confundir trazabilidad con conformidad. **Coste de preparar y mantener:** Un párrafo de orientación y cotejo de S/T/H; ningún nuevo campo.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Comprobar las cuatro filas y sus no-claims. Fuente identificada: mantener original; decisión sobre una edición futura/ficha, sin aplicar sobre el hash publicado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
@@ -157,26 +103,22 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 <a id="ola3-cambio-01"></a>
 
-## Ola 3 — cambio 1: Cómo leer la trazabilidad
 
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente6 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
 
-**Fuente:** [research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md), blob `8832c255e3775116046273363c131c05878af16d`. **Ubicación:** §2, después del encabezado; línea25, viejo localizado una vez fuera de quotes.
+## Propuestas aplicadas retiradas
 
-**Razón:** Relaciona las cuatro operaciones con obligaciones, condiciones e hipótesis sin exigir al lector conocer las siglas.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_A01_VNext.md).
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-## 2. Compact traceability
-~~~~
 
-**Texto después — propuesto completo**
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-~~~~markdown
-## 2. Compact traceability
+<a id="propuesta-quirúrgica--pendiente"></a>
+<a id="cambio-6--explicar-cómo-leer-la-tabla-mecanismorequisito"></a>
+<a id="ola-3--cambio-1-cómo-leer-la-trazabilidad"></a>
+<a id="bloques-aplicados-retirados"></a>
 
-Read each row as a research route from a proposed operation to its requirement, sufficiency condition and hypothesis. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 label the four operations in this note. The table records proposed traceability; conformance is established by the corresponding evidence.
-~~~~
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_A01_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
+</details>

@@ -1,0 +1,1004 @@
+{
+  "study_id": "ACC-AUX-ECO-01-v0.1",
+  "evidence_mode": "deterministic reference-model execution",
+  "evidence_ceiling": "Stage A support only; no formal DDS acceptance, no native ACC or UC21 execution",
+  "formal_dds_acceptance": false,
+  "native_acc_implemented": false,
+  "native_uc21_r01_executed": false,
+  "manual_oracle_matches": true,
+  "frozen_case_count": 18,
+  "primary_runs": 36,
+  "negative_control_runs": 2,
+  "trace_events": 62,
+  "primary_comparison": "behavior and declared full-cost ties on all listed fixtures; no EA efficacy inference",
+  "cost_sensitivity": "If the qualified record costs one extra unit of preparation, its full net is one unit lower per case; no advantage is imposed",
+  "known_limits": [
+    "Both main policies fail E10 with the same misleading observation as E09",
+    "The stale control fails T02/T03 and is not the competent comparator",
+    "No measured human welfare, skill, compute saving or real-organization estimate"
+  ],
+  "input_sha256": {
+    "protocol.json": "2f411835ab816a0c3a6ad7861b2d391e9b43431c55d9f18577746ba0893fbb32",
+    "cases.json": "923b6b671c5f53900e191810c3c68f35a94afdd098578749d68a791c7d51f362",
+    "manual_oracle.json": "1d17e35f5864c010146213b09ee32c80134425adcccfd26501569852a421626b",
+    "MANUAL_TRAVERSAL.md": "9dfdccdaa92034406c9551723cfe882f71f7361d5c17ac476f8b957c0748401a"
+  },
+  "implementation_sha256": {
+    "model.py": "28fec32e5fe32ea1007705031d851c0b15847a3504b8496efd46a8439123d49c",
+    "run.py": "72beff66326d2d6127517abb20988f77d5a5e85bacee5c42ae620ff6012ff4cf"
+  },
+  "runs": [
+    {
+      "case_id": "E01",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.75,
+      "actor_net": [
+        12.75,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E01",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.75,
+      "actor_net": [
+        12.75,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E02",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 98.0,
+      "full_net": 96.75,
+      "actor_net": [
+        52.75,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_IMMEDIATE"
+      ]
+    },
+    {
+      "case_id": "E02",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 98.0,
+      "full_net": 96.75,
+      "actor_net": [
+        52.75,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_IMMEDIATE"
+      ]
+    },
+    {
+      "case_id": "E03",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.75,
+      "actor_net": [
+        46.75,
+        2.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E03",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.75,
+      "actor_net": [
+        46.75,
+        2.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E04",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_NO_AGREEMENT"
+      ]
+    },
+    {
+      "case_id": "E04",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_NO_AGREEMENT"
+      ]
+    },
+    {
+      "case_id": "E05",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_RIGHTS"
+      ]
+    },
+    {
+      "case_id": "E05",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_RIGHTS"
+      ]
+    },
+    {
+      "case_id": "E06",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_SERVICE"
+      ]
+    },
+    {
+      "case_id": "E06",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_SERVICE"
+      ]
+    },
+    {
+      "case_id": "E07",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_PARTICIPATION"
+      ]
+    },
+    {
+      "case_id": "E07",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_PARTICIPATION"
+      ]
+    },
+    {
+      "case_id": "E08",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 1,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_INFORMATION"
+      ]
+    },
+    {
+      "case_id": "E08",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 1,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_INFORMATION"
+      ]
+    },
+    {
+      "case_id": "E09",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.75,
+      "actor_net": [
+        12.75,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E09",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.75,
+      "actor_net": [
+        12.75,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E10",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "FAIL",
+      "operating_surplus": -42.0,
+      "full_net": -43.25,
+      "actor_net": [
+        12.75,
+        36.0,
+        -92.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 0,
+      "invalid_attempts": 1,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E10",
+      "policy": "qualified_record",
+      "scenario_outcome": "FAIL",
+      "operating_surplus": -42.0,
+      "full_net": -43.25,
+      "actor_net": [
+        12.75,
+        36.0,
+        -92.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 1,
+      "legitimate_effects": 0,
+      "invalid_attempts": 1,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "E11",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 1,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_NO_AGREEMENT"
+      ]
+    },
+    {
+      "case_id": "E11",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.25,
+      "actor_net": [
+        -1.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.25,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 1,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "HOLD_NO_AGREEMENT"
+      ]
+    },
+    {
+      "case_id": "E12",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.5,
+      "actor_net": [
+        12.5,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 1,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED",
+        "ALREADY_EXECUTED"
+      ]
+    },
+    {
+      "case_id": "E12",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.5,
+      "actor_net": [
+        12.5,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 1,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED",
+        "ALREADY_EXECUTED"
+      ]
+    },
+    {
+      "case_id": "T01",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.5,
+      "actor_net": [
+        12.5,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "T01",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.5,
+      "actor_net": [
+        12.5,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "T02",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.5,
+      "actor_net": [
+        -1.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_GRANT"
+      ]
+    },
+    {
+      "case_id": "T02",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.5,
+      "actor_net": [
+        -1.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_GRANT"
+      ]
+    },
+    {
+      "case_id": "T02",
+      "policy": "stale_reference",
+      "scenario_outcome": "FAIL",
+      "operating_surplus": 0.0,
+      "full_net": -1.5,
+      "actor_net": [
+        -1.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 1,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "ATTEMPT_BLOCKED"
+      ]
+    },
+    {
+      "case_id": "T03",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.5,
+      "actor_net": [
+        -1.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_PURPOSE"
+      ]
+    },
+    {
+      "case_id": "T03",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.5,
+      "actor_net": [
+        -1.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_PURPOSE"
+      ]
+    },
+    {
+      "case_id": "T03",
+      "policy": "stale_reference",
+      "scenario_outcome": "FAIL",
+      "operating_surplus": -12.0,
+      "full_net": -13.5,
+      "actor_net": [
+        -47.5,
+        -4.0,
+        38.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.5,
+      "actual_effects": 1,
+      "legitimate_effects": 0,
+      "invalid_attempts": 1,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "T04",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.25,
+      "actor_net": [
+        12.25,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.75,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_APPROVAL",
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "T04",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 58.0,
+      "full_net": 56.25,
+      "actor_net": [
+        12.25,
+        36.0,
+        8.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.75,
+      "actual_effects": 1,
+      "legitimate_effects": 1,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_APPROVAL",
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "T05",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 174.0,
+      "full_net": 172.0,
+      "actor_net": [
+        40.0,
+        108.0,
+        24.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 1.0,
+      "actual_effects": 3,
+      "legitimate_effects": 3,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED",
+        "HOLD_APPROVAL",
+        "EXECUTE_ADJUSTED",
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "T05",
+      "policy": "qualified_record",
+      "scenario_outcome": "PASS",
+      "operating_surplus": 174.0,
+      "full_net": 172.0,
+      "actor_net": [
+        40.0,
+        108.0,
+        24.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 1.0,
+      "actual_effects": 3,
+      "legitimate_effects": 3,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 0,
+      "actions": [
+        "EXECUTE_ADJUSTED",
+        "HOLD_APPROVAL",
+        "EXECUTE_ADJUSTED",
+        "EXECUTE_ADJUSTED"
+      ]
+    },
+    {
+      "case_id": "T06",
+      "policy": "conventional_adaptive",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.75,
+      "actor_net": [
+        -1.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.75,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 2,
+      "actions": [
+        "HOLD_INQUIRY",
+        "HOLD_INQUIRY",
+        "HOLD_CAUSE_UNRESOLVED"
+      ]
+    },
+    {
+      "case_id": "T06",
+      "policy": "qualified_record",
+      "scenario_outcome": "HOLD",
+      "operating_surplus": 0.0,
+      "full_net": -1.75,
+      "actor_net": [
+        -1.75,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "preparation_cost": 1.0,
+      "review_cost": 0.75,
+      "actual_effects": 0,
+      "legitimate_effects": 0,
+      "invalid_attempts": 0,
+      "oracle_opportunities_unrealized": 0,
+      "duplicate_effects_prevented": 0,
+      "inquiries": 2,
+      "actions": [
+        "HOLD_INQUIRY",
+        "HOLD_INQUIRY",
+        "HOLD_CAUSE_UNRESOLVED"
+      ]
+    }
+  ],
+  "separate_bounded_controls": {
+    "information_incentive": {
+      "B": 5,
+      "F_visible": 7,
+      "F_hidden_assumed": 0,
+      "W_visible": -2.0,
+      "W_hidden": 5.0,
+      "physical_state_changed": false,
+      "W_only_gate_visible": "REJECT",
+      "W_only_gate_hidden": "ACCEPT",
+      "gate_preserving_agreed_information_access_hidden": "REJECT",
+      "human_measurement": false
+    },
+    "human_capacity": {
+      "GIC_initial": 3,
+      "NEO": 2,
+      "ACW_avoidable": 5,
+      "denominator": 10,
+      "HID_observed": 0.5,
+      "HID_potential_if_full_conversion_available_and_chosen": 0.5,
+      "additional_GIC_recovered": 2.0,
+      "recovered_ratio": 0.2,
+      "unrecovered_releasable_ratio": 0.3,
+      "rest_is_permitted": true,
+      "heterogeneous_unconvertible_scalar": null,
+      "skill_loss_measured": false
+    },
+    "equivalent_service": {
+      "same_complete_output": true,
+      "input_before": 200,
+      "input_after": 180,
+      "transition_cost": 3,
+      "net_resource_saving": 17.0,
+      "lower_quality_is_equivalent": false
+    }
+  }
+}

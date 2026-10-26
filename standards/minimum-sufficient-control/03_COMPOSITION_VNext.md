@@ -12,7 +12,7 @@ Conservar canon y contratos, registrar un contraste en ambos extremos, siempre v
 
 La fuente conserva Cart_i persistente en Composition y el overlay/request en RA. La frase de §14 permite consumir un slice por compartir A/B/C/D, igual que la fila 01C §5.1. Es compatible como vocabulario; no justifica por sí sola la pregunta científica receptora. Soporte de un elemento/dependencia cartográfica y soporte de una dirección RA son objetos distintos.
 
-El [cambio 52 de 01C](../../research/ecosystem-awareness/baseline/01C_VNext.md#cambio-52--calificar-la-cartografía-al-recibirla-en-ra) y el cambio 53 de esta VNext se preparan juntos. No se propone un segundo mapa ni una taxonomía. Falta un perfil de recepción que muestre qué significado/evidencia conserva y qué no.
+El [cambio 52 de 01C](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/01C_VNext.md#cambio-52--calificar-la-cartografía-al-recibirla-en-ra) y el cambio 53 de esta VNext se preparan juntos. No se propone un segundo mapa ni una taxonomía. Falta un perfil de recepción que muestre qué significado/evidencia conserva y qué no.
 
 ## Conversación
 
@@ -25,33 +25,6 @@ Hay una observación editorial fuera de este contraste: el título de §3.4 apar
 Completar lecturas propias y consumidores reales, incluida actualización/overlay. La relación y propuesta quedan parciales; ningún resultado anterior se reinterpreta por esta precisión.
 
 ## Propuesta — viejo/nuevo, impacto y riesgo
-
-### Cambio 53 — Conservar la calificación al enviar Cart_i a RA
-
-**Fuente:** [documento original](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md), blob `0366cbd184149235005dc2236b3da7e4c394ed3e`; una coincidencia literal del viejo en el corte. **Instrucción de Iván:** auditar y publicar propuestas, conservar originales y siempre el texto viejo. **Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera, tanda de coherencia RA–EA–MSCA.**
-
-**Por qué:** Que el productor mantenga visible que compartir roles no transfiere la justificación de un resultado.
-**Riesgo de afectar otro documento:** Una precisión aislada en 01C o 03 deja productor y receptor con lecturas distintas; el texto puede ser leído como nueva obligación universal si no se preserva el scope del perfil.
-**Preparación:** Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.
-**Dependencias:** [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [01C_VNext.md](../../research/ecosystem-awareness/baseline/01C_VNext.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md).
-**Condición:** Tanda conjunta 52/53 y revisión de perfiles/retorno; Composition & Control conserva Cart_i y RA sus contratos científicos. Decisión concreta de Iván e incorporación pendientes.
-
-**Texto antes — viejo, completo:**
-
-```markdown
-RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. Because Cart_i already uses A/B/C/D semantics, that bounded slice can enter RA without inventing a second epistemic translation layer.
-```
-
-**Texto después — propuesto, completo:**
-
-```markdown
-RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. The shared A/B/C/D vocabulary permits reuse without inventing a second role taxonomy. The receiving RA profile must nevertheless qualify the source question, scope, versions, freshness and evidential basis of that slice for its own declared observation/context/detection contract. Support for a cartographic element does not by itself establish that the element preserves the regime distinction or supplies support for A_RA.
-```
-
-La propuesta no introduce una implementación ni un formato obligatorio. El antes permanece en la fuente; no se incorpora el candidato.
-
-
----
 
 ## Pasadas propias de Composition — leer el mapa completo y sus límites
 
@@ -122,13 +95,6 @@ No se estableció diferencial mediante comparación. Reutilizaría procedencia/r
 
 ## Propuesta editorial de esta lectura
 
-### Cambio 56 — Corregir el título duplicado de D_Cart
-
-**Impacto esperado: Bajo. Riesgo: Medio. Esfuerzo: Bajo. Prioridad: Después.** No se cambia significado; puede desactualizarse un fragmento de enlace. Revisar externos relevantes o preservar compatibilidad del ancla en una edición aprobada por Iván.
-
-**Texto antes — viejo completo:**
-
-```markdown
 ### 3.4 D_Cart### 3.4 D_Cart — cartographic residual
 ```
 
@@ -197,12 +163,41 @@ La valoración actual distingue una mejora documental de una modificación conce
 La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
 
 
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 53 | Conservar la calificación al enviar Cart_i a RA | standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md | Aplicado |
+| 56 | Corregir el título duplicado de D_Cart | standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md | Aplicado |
+
+
+
+## Historical reception of cartography — 15 October 2026
+
+Reviewer A compared complete Composition (`e30c89b0cf4157918088374504941826d7c015a9`) and41 retired units. ECM→Cart retains semantic map, material dependencies, support, assessment reserves and residual through current clauses. Similarity does not create dependency; an absent edge does not prove absence of a relationship.
+
+Known but unused resources remain B; a C route must establish its evaluative basis before being treated as reachable. RA still qualifies question, scope, version, freshness and evidence. Shared A/B/C/D vocabulary does not transfer support automatically. The historical D-heading fragment remains for navigation. No cartographic mechanism needs blanket restoration in these examined units.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #53, #56 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #53: `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md` (current blob `e30c89b0cf4157918088374504941826d7c015a9`); #56: `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md` (current blob `e30c89b0cf4157918088374504941826d7c015a9`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.
+
+
+## Recepción de la revisión anterior — 26 octubre 2026
+
+Por autorización de Iván para aplicar las correcciones de la auditoría de PR, se conserva íntegra la VNext actual de main y se recibe a continuación el examen del 12 de octubre en su alcance original. No sustituye las decisiones, incorporaciones o revisiones posteriores registradas arriba. Codex realiza esta conciliación; no se añade una revisión humana independiente ni una validación experimental.
+
 ## Revisión en cuatro puntos — R28 / MSCA Composition & Control — 12 octubre 2026
 
-**Reconciliación completada de la revisión del artículo.** La VNext ya contiene una segunda lectura integral §§1–19, que amplió la primera lectura parcial. El índice de12octubre repetía indebidamente sólo el alcance del primer checkpoint; esta síntesis registra ambos en orden. Fuente actual blob0366cbd184149235005dc2236b3da7e4c394ed3e. Completar los cuatro puntos no acredita los perfiles, consumidores o implementaciones abiertos.
+**Reconciliación completada de la revisión del artículo.** La VNext ya contiene una segunda lectura integral §§1–19, que amplió la primera lectura parcial. El índice de12octubre repetía indebidamente sólo el alcance del primer checkpoint; esta síntesis registra ambos en orden. Fuente examinada en el corte histórico: blob0366cbd184149235005dc2236b3da7e4c394ed3e. Completar los cuatro puntos no acredita los perfiles, consumidores o implementaciones abiertos.
 
 ### 1. Problemas reales del artículo
-El título§3.4 está duplicado; es un defecto editorial localizado cuyo slug requiere cuidado. La preocupación inicial “sin segunda traducción” no demostró falta general de qualifiers: §§3/8/10.1/10.4/13/18 ya mantienen alcance, vigencia, soporte y residual. Compartir taxonomía no equivale a compartir prueba, pero la fuente completa permite la lectura compatible. La propuesta52/53 se conserva como aclaración opcional, con su reevaluación de prioridad. No se infiere defecto ejecutado por una frase abreviada ni falsedad del mapa completo.
+La revisión del 12 de octubre identificó un título §3.4 duplicado. La corrección #56 y la calificación #53 constan ya aplicadas en main; no se reabre su incorporación. El fragmento histórico se conserva para navegación. La preocupación inicial “sin segunda traducción” no demostró falta general de qualifiers: §§3/8/10.1/10.4/13/18 ya mantienen alcance, vigencia, soporte y residual. Compartir taxonomía no equivale a compartir prueba, pero la fuente completa permite la lectura compatible. La evaluación histórica de las propuestas 52/53 se conserva; el estado aplicado de #53 y #56 registrado arriba gobierna la lectura actual. No se infiere defecto ejecutado por una frase abreviada ni falsedad del mapa completo.
 
 ### 2. Desarrollo necesario
 Construir y comprobar adapters para las preguntas distintas de Cart_i y A_RA, con fuentes, versiones, frescura y residual. Probar unknown edge, edge descartado y dependencia confirmada como estados diferentes. Una tabla más detallada no acredita actualización o verdad. Resolver costes/plazos/escala, permisos separados y objetivos incomparables; revisar enlaces al slug antes de una edición de autor. Los perfiles reales, consumidores restantes, código y lectura humana independiente siguen en desarrollo.

@@ -1,0 +1,2827 @@
+{
+  "cases": [
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "VERS-SCOPED",
+        "source_id": "VERS-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "VERS-VALID_GO",
+      "example_id": "EX-VERS-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "VERS",
+      "label": "version and joint-interface compatibility",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "VERS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "VERS-SCOPED",
+        "source_id": "VERS-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "VERS-VALID_BLOCK",
+      "example_id": "EX-VERS-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "VERS",
+      "label": "version and joint-interface compatibility",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "VERS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "VERS-SCOPED",
+        "source_id": "VERS-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "VERS-STALE",
+      "example_id": "EX-VERS-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "VERS",
+      "label": "version and joint-interface compatibility",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "VERS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "VERS-SCOPED",
+        "source_id": "VERS-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "VERS-FALSE_Q",
+      "example_id": "EX-VERS-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "VERS",
+      "label": "version and joint-interface compatibility",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "VERS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "C",
+        "provenance_established": true,
+        "scope_id": "VERS-SCOPED",
+        "source_id": "VERS-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "VERS-OPEN_RESIDUAL",
+      "example_id": "EX-VERS-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "VERS",
+      "label": "version and joint-interface compatibility",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "VERS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "LINEAGE-SCOPED",
+        "source_id": "LINEAGE-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "LINEAGE-VALID_GO",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "LINEAGE",
+      "label": "correlated evidence/mission drift",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "LINEAGE-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "LINEAGE-SCOPED",
+        "source_id": "LINEAGE-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "LINEAGE-VALID_BLOCK",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "LINEAGE",
+      "label": "correlated evidence/mission drift",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "BLOCK",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "LINEAGE-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "LINEAGE-SCOPED",
+        "source_id": "LINEAGE-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "LINEAGE-STALE",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "LINEAGE",
+      "label": "correlated evidence/mission drift",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "LINEAGE-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "LINEAGE-SCOPED",
+        "source_id": "LINEAGE-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "LINEAGE-FALSE_Q",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "LINEAGE",
+      "label": "correlated evidence/mission drift",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "LINEAGE-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "D",
+        "provenance_established": true,
+        "scope_id": "LINEAGE-SCOPED",
+        "source_id": "LINEAGE-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "LINEAGE-OPEN_RESIDUAL",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "LINEAGE",
+      "label": "correlated evidence/mission drift",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-SCHEME",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "LINEAGE-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "AUTH-SCOPED",
+        "source_id": "AUTH-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "AUTH-VALID_GO",
+      "example_id": "EX-MIN-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "AUTH",
+      "label": "scope and authority in composed decisions",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-CORRESPONDENCE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "AUTH-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "AUTH-SCOPED",
+        "source_id": "AUTH-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "AUTH-VALID_BLOCK",
+      "example_id": "EX-MIN-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "AUTH",
+      "label": "scope and authority in composed decisions",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-CORRESPONDENCE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "AUTH-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "AUTH-SCOPED",
+        "source_id": "AUTH-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "AUTH-STALE",
+      "example_id": "EX-MIN-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "AUTH",
+      "label": "scope and authority in composed decisions",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-CORRESPONDENCE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "AUTH-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "AUTH-SCOPED",
+        "source_id": "AUTH-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "AUTH-FALSE_Q",
+      "example_id": "EX-MIN-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "AUTH",
+      "label": "scope and authority in composed decisions",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-CORRESPONDENCE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "AUTH-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "C",
+        "provenance_established": true,
+        "scope_id": "AUTH-SCOPED",
+        "source_id": "AUTH-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "AUTH-OPEN_RESIDUAL",
+      "example_id": "EX-MIN-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "AUTH",
+      "label": "scope and authority in composed decisions",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-CORRESPONDENCE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "AUTH-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CAP-SCOPED",
+        "source_id": "CAP-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CAP-VALID_GO",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "CAP",
+      "label": "provider capacity and shared root",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-SOCIAL-WORK",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CAP-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CAP-SCOPED",
+        "source_id": "CAP-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "CAP-VALID_BLOCK",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CAP",
+      "label": "provider capacity and shared root",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SOCIAL-WORK",
+      "public": {
+        "A": "READY",
+        "baseline_action": "BLOCK",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CAP-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CAP-SCOPED",
+        "source_id": "CAP-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CAP-STALE",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CAP",
+      "label": "provider capacity and shared root",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SOCIAL-WORK",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CAP-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CAP-SCOPED",
+        "source_id": "CAP-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CAP-FALSE_Q",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CAP",
+      "label": "provider capacity and shared root",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-SOCIAL-WORK",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CAP-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "D",
+        "provenance_established": true,
+        "scope_id": "CAP-SCOPED",
+        "source_id": "CAP-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "CAP-OPEN_RESIDUAL",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "CAP",
+      "label": "provider capacity and shared root",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-SOCIAL-WORK",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CAP-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "COORD-SCOPED",
+        "source_id": "COORD-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "COORD-VALID_GO",
+      "example_id": "EX-LINEAR-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "COORD",
+      "label": "joint transitions and indispensable coordination",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "COORD-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "COORD-SCOPED",
+        "source_id": "COORD-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "COORD-VALID_BLOCK",
+      "example_id": "EX-LINEAR-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "COORD",
+      "label": "joint transitions and indispensable coordination",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "COORD-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "COORD-SCOPED",
+        "source_id": "COORD-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "COORD-STALE",
+      "example_id": "EX-LINEAR-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "COORD",
+      "label": "joint transitions and indispensable coordination",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "COORD-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "COORD-SCOPED",
+        "source_id": "COORD-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "COORD-FALSE_Q",
+      "example_id": "EX-LINEAR-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "COORD",
+      "label": "joint transitions and indispensable coordination",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "COORD-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "C",
+        "provenance_established": true,
+        "scope_id": "COORD-SCOPED",
+        "source_id": "COORD-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "COORD-OPEN_RESIDUAL",
+      "example_id": "EX-LINEAR-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "COORD",
+      "label": "joint transitions and indispensable coordination",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "COORD-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CREDIT-SCOPED",
+        "source_id": "CREDIT-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CREDIT-VALID_GO",
+      "example_id": "EX-CREDIT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "CREDIT",
+      "label": "functional status and credit shares",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CREDIT-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CREDIT-SCOPED",
+        "source_id": "CREDIT-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "CREDIT-VALID_BLOCK",
+      "example_id": "EX-CREDIT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CREDIT",
+      "label": "functional status and credit shares",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "BLOCK",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CREDIT-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CREDIT-SCOPED",
+        "source_id": "CREDIT-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CREDIT-STALE",
+      "example_id": "EX-CREDIT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CREDIT",
+      "label": "functional status and credit shares",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CREDIT-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CREDIT-SCOPED",
+        "source_id": "CREDIT-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CREDIT-FALSE_Q",
+      "example_id": "EX-CREDIT-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CREDIT",
+      "label": "functional status and credit shares",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CREDIT-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "D",
+        "provenance_established": true,
+        "scope_id": "CREDIT-SCOPED",
+        "source_id": "CREDIT-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "CREDIT-OPEN_RESIDUAL",
+      "example_id": "EX-CREDIT-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "CREDIT",
+      "label": "functional status and credit shares",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-NOTES",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CREDIT-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "ATTR-SCOPED",
+        "source_id": "ATTR-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "ATTR-VALID_GO",
+      "example_id": "EX-ORANGE-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "ATTR",
+      "label": "dependency versus attribution discrepancy",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "AG-D01",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "ATTR-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "ATTR-SCOPED",
+        "source_id": "ATTR-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "ATTR-VALID_BLOCK",
+      "example_id": "EX-ORANGE-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "ATTR",
+      "label": "dependency versus attribution discrepancy",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "AG-D01",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "ATTR-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "ATTR-SCOPED",
+        "source_id": "ATTR-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "ATTR-STALE",
+      "example_id": "EX-ORANGE-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "ATTR",
+      "label": "dependency versus attribution discrepancy",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "AG-D01",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "ATTR-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "ATTR-SCOPED",
+        "source_id": "ATTR-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "ATTR-FALSE_Q",
+      "example_id": "EX-ORANGE-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "ATTR",
+      "label": "dependency versus attribution discrepancy",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "AG-D01",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "ATTR-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "C",
+        "provenance_established": true,
+        "scope_id": "ATTR-SCOPED",
+        "source_id": "ATTR-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "ATTR-OPEN_RESIDUAL",
+      "example_id": "EX-ORANGE-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "ATTR",
+      "label": "dependency versus attribution discrepancy",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "AG-D01",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "ATTR-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "FRAME-SCOPED",
+        "source_id": "FRAME-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "FRAME-VALID_GO",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "FRAME",
+      "label": "frame validity and coherent decision",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "IF-D10",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "FRAME-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "FRAME-SCOPED",
+        "source_id": "FRAME-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "FRAME-VALID_BLOCK",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "FRAME",
+      "label": "frame validity and coherent decision",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "IF-D10",
+      "public": {
+        "A": "READY",
+        "baseline_action": "BLOCK",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "FRAME-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "FRAME-SCOPED",
+        "source_id": "FRAME-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "FRAME-STALE",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "FRAME",
+      "label": "frame validity and coherent decision",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "IF-D10",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "FRAME-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "FRAME-SCOPED",
+        "source_id": "FRAME-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "FRAME-FALSE_Q",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "FRAME",
+      "label": "frame validity and coherent decision",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "IF-D10",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "FRAME-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "D",
+        "provenance_established": true,
+        "scope_id": "FRAME-SCOPED",
+        "source_id": "FRAME-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "FRAME-OPEN_RESIDUAL",
+      "example_id": "EX-ANT-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "FRAME",
+      "label": "frame validity and coherent decision",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "IF-D10",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "FRAME-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CLARITY-SCOPED",
+        "source_id": "CLARITY-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CLARITY-VALID_GO",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "CLARITY",
+      "label": "cost of partial knowledge and selective review",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CC-D17",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CLARITY-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CLARITY-SCOPED",
+        "source_id": "CLARITY-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "CLARITY-VALID_BLOCK",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CLARITY",
+      "label": "cost of partial knowledge and selective review",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CC-D17",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CLARITY-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CLARITY-SCOPED",
+        "source_id": "CLARITY-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CLARITY-STALE",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CLARITY",
+      "label": "cost of partial knowledge and selective review",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CC-D17",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CLARITY-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "CLARITY-SCOPED",
+        "source_id": "CLARITY-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "CLARITY-FALSE_Q",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": true,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "CLARITY",
+      "label": "cost of partial knowledge and selective review",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CC-D17",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CLARITY-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "C",
+        "provenance_established": true,
+        "scope_id": "CLARITY-SCOPED",
+        "source_id": "CLARITY-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "CLARITY-OPEN_RESIDUAL",
+      "example_id": "EX-SUPER-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "CLARITY",
+      "label": "cost of partial knowledge and selective review",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 0.5,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CC-D17",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "CLARITY-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "EDUC-SCOPED",
+        "source_id": "EDUC-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "EDUC-VALID_GO",
+      "example_id": "EX-HUMAN-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "EDUC",
+      "label": "human capabilities and educational opportunities",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-CAPACITY",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "EDUC-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "EDUC-SCOPED",
+        "source_id": "EDUC-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "EDUC-VALID_BLOCK",
+      "example_id": "EX-HUMAN-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "EDUC",
+      "label": "human capabilities and educational opportunities",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-CAPACITY",
+      "public": {
+        "A": "READY",
+        "baseline_action": "BLOCK",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "EDUC-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "EDUC-SCOPED",
+        "source_id": "EDUC-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "EDUC-STALE",
+      "example_id": "EX-HUMAN-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "EDUC",
+      "label": "human capabilities and educational opportunities",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-CAPACITY",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "EDUC-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "EDUC-SCOPED",
+        "source_id": "EDUC-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "EDUC-FALSE_Q",
+      "example_id": "EX-HUMAN-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "EDUC",
+      "label": "human capabilities and educational opportunities",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-CAPACITY",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "EDUC-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 1.0,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "D",
+        "provenance_established": true,
+        "scope_id": "EDUC-SCOPED",
+        "source_id": "EDUC-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "EDUC-OPEN_RESIDUAL",
+      "example_id": "EX-HUMAN-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "EDUC",
+      "label": "human capabilities and educational opportunities",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-CAPACITY",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "EDUC-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "SOLID-SCOPED",
+        "source_id": "SOLID-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "SOLID-VALID_GO",
+      "example_id": "EX-SOLIDAR-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "SOLID",
+      "label": "voluntary contribution and genuine consent",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-DIALOGUE-V4",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "SOLID-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "SOLID-SCOPED",
+        "source_id": "SOLID-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "SOLID-VALID_BLOCK",
+      "example_id": "EX-SOLIDAR-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "SOLID",
+      "label": "voluntary contribution and genuine consent",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-DIALOGUE-V4",
+      "public": {
+        "A": "READY",
+        "baseline_action": "ALLOW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "SOLID-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "SOLID-SCOPED",
+        "source_id": "SOLID-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "SOLID-STALE",
+      "example_id": "EX-SOLIDAR-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "SOLID",
+      "label": "voluntary contribution and genuine consent",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-DIALOGUE-V4",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "SOLID-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "SOLID-SCOPED",
+        "source_id": "SOLID-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "SOLID-FALSE_Q",
+      "example_id": "EX-SOLIDAR-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "SOLID",
+      "label": "voluntary contribution and genuine consent",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-DIALOGUE-V4",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "SOLID-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "C",
+        "provenance_established": true,
+        "scope_id": "SOLID-SCOPED",
+        "source_id": "SOLID-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "SOLID-OPEN_RESIDUAL",
+      "example_id": "EX-SOLIDAR-01",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "SOLID",
+      "label": "voluntary contribution and genuine consent",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-DIALOGUE-V4",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "SOLID-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "RIGHTS-SCOPED",
+        "source_id": "RIGHTS-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "ALLOW"
+      },
+      "case_id": "RIGHTS-VALID_GO",
+      "example_id": "EX-BAN-03",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "ALLOW"
+      },
+      "family": "RIGHTS",
+      "label": "third-party rights and material residual",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "ALLOW"
+      },
+      "primary_source_id": "CE-MH-NOTE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "RIGHTS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "ALLOW",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_GO"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": true,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "RIGHTS-SCOPED",
+        "source_id": "RIGHTS-SOURCE",
+        "status": "CURRENT_VALID",
+        "verdict": "BLOCK"
+      },
+      "case_id": "RIGHTS-VALID_BLOCK",
+      "example_id": "EX-BAN-03",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "RIGHTS",
+      "label": "third-party rights and material residual",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-MH-NOTE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "BLOCK",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "RIGHTS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "VALID_BLOCK"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "RIGHTS-SCOPED",
+        "source_id": "RIGHTS-SOURCE",
+        "status": "STALE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "RIGHTS-STALE",
+      "example_id": "EX-BAN-03",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "RIGHTS",
+      "label": "third-party rights and material residual",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-MH-NOTE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "RIGHTS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "STALE"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": true,
+        "independent_audit": false,
+        "kind": "B",
+        "provenance_established": true,
+        "scope_id": "RIGHTS-SCOPED",
+        "source_id": "RIGHTS-SOURCE",
+        "status": "CURRENT_BUT_FALSE",
+        "verdict": "ALLOW"
+      },
+      "case_id": "RIGHTS-FALSE_Q",
+      "example_id": "EX-BAN-03",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": "BLOCK"
+      },
+      "family": "RIGHTS",
+      "label": "third-party rights and material residual",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": true,
+        "verdict": "BLOCK"
+      },
+      "primary_source_id": "CE-MH-NOTE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "RIGHTS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "BLOCK",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "FALSE_Q"
+    },
+    {
+      "Q": {
+        "audit_cost": 0.3,
+        "cost": 2.2,
+        "fresh": false,
+        "independent_audit": false,
+        "kind": "D",
+        "provenance_established": true,
+        "scope_id": "RIGHTS-SCOPED",
+        "source_id": "RIGHTS-SOURCE",
+        "status": "UNEVALUABLE",
+        "verdict": null
+      },
+      "case_id": "RIGHTS-OPEN_RESIDUAL",
+      "example_id": "EX-BAN-03",
+      "expanded_A": {
+        "available": false,
+        "cost": 14.0,
+        "verdict": null
+      },
+      "family": "RIGHTS",
+      "label": "third-party rights and material residual",
+      "not_a_real_person_or_product": true,
+      "peer": {
+        "cost": 1.6,
+        "has_direct_evidence": false,
+        "verdict": "NOT_AVAILABLE"
+      },
+      "primary_source_id": "CE-MH-NOTE",
+      "public": {
+        "A": "READY",
+        "baseline_action": "REVIEW",
+        "decision_question": "admissibility_of_declared_transition",
+        "scope_id": "RIGHTS-SCOPED",
+        "version": "toy-v1"
+      },
+      "test_evidence_tier": "SYNTHETIC_FIXTURE",
+      "truth_private_for_scoring": "NOT_ADJUDICABLE",
+      "utility": {
+        "correct_allow": 10.0,
+        "correct_block": 4.0,
+        "false_allow": -12.0,
+        "false_block": -5.0,
+        "review": 0.0
+      },
+      "variant": "OPEN_RESIDUAL"
+    }
+  ],
+  "design": "Twelve illustrative source-mapped mechanisms × five preregistered positive/negative variants; outcomes deliberately synthetic, not a statistically representative sample.",
+  "frozen_case_count": 60,
+  "schema_version": "0.1"
+}

@@ -157,7 +157,9 @@ C_Cart = {
 
 Full exploration cost, feasibility and benefit are not assumed calculable. Establishing a specified evaluation basis may requalify that aspect from C_Cart to B_Cart; performing an evaluation can deliver A for its own process. Neither step establishes complete cartography.
 
-### 3.4 D_Cart### 3.4 D_Cart — cartographic residual
+<a id="34-d_cart-34-d_cart--cartographic-residual"></a>
+
+### 3.4 D_Cart — cartographic residual
 
 **D_Cart** concerns potentially material cartographic effects beyond this process's effective evaluation routes under its present access, authority, method, capability and time. Its aspects may be partially named or monitored; the residual is not exhaustively enumerable. The examples below indicate possible residuals, not an automatic classifier: a missing map entry is not D if a characterized evaluation route makes it B or grounded exploration makes it C. Unknown capability boundaries remain UNKNOWN.
 
@@ -625,7 +627,7 @@ RA may observe:
 - movement of a dependency from represented/current into capability frontier or residual;
 - divergence among related MSCAs.
 
-RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. Because Cart_i already uses A/B/C/D semantics, that bounded slice can enter RA without inventing a second epistemic translation layer.
+RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. The shared A/B/C/D vocabulary permits reuse without inventing a second role taxonomy. The receiving RA profile must nevertheless qualify the source question, scope, versions, freshness and evidential basis of that slice for its own declared observation/context/detection contract. Support for a cartographic element does not by itself establish that the element preserves the regime distinction or supplies support for A_RA.
 
 Its output remains:
 

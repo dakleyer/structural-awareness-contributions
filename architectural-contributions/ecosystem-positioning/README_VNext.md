@@ -1,6 +1,10 @@
+> **Estado de aplicación — 15 octubre 2026.** Aplicadas y verificadas: 97. [Comprobación final](#owner-authorised-application-complete-15-october-2026). Los pares antes/después se conservan como trazabilidad; este lote aprobado ya no está pendiente.
+
+> **Estado vigente — 12 octubre 2026.** Aplicadas y verificadas en main: cuatro adiciones de tanda5 y26cambios anteriores; UC-21 recibe su precisión de snapshot y conciliación de propuestas en su main. Ningún par vigente y ejecutable queda esperando otra autorización. Las nueve líneas43–51 describen investigación/perfiles/campañas sin un cambio literal definido. Sus estados permanecen separados. Las auditorías antiguas que dicen «pendiente» se leen por su fecha; la cola actual está en el registro de prioridades y este cierre.
+
 # Continuación del plan — lectura del README y fundamentos
 
-**6 de octubre de 2026 · revisión acumulativa 1.5.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext.
+**Historical review cut — 6 October 2026, cumulative review1.5.** The hourly continuation recorded at that cut was subsequently cancelled by Iván. Review continues through explicitly requested work in this chat. The objective remains completion of the substantive passes and final corpus reconciliation; publishing progress does not itself close that objective. The statuses below describe actual work, not the mere existence of a VNext.
 
 | Documento | Fondo y lógica | Evidencia y relaciones | Edición/formato | Lectura humana |
 |---|---|---|---|---|
@@ -117,29 +121,6 @@ Esta sección acumulará entradas identificadas y fechadas. Las respuestas citar
 | IVAN-20261006-VNEXT-NAME | 6 de octubre de 2026 | «VNext». | Denominación aplicada. |
 
 ## 5. Propuesta quirúrgica final
-
-### EP-README-DELTA-001 — nota de versión/revisión y enlace
-
-**Tipo:** inserción de navegación al inicio. **Fuente:** ruta, commit y blob indicados en la cabecera. **Localización:** antes de la primera línea exacta `<div align="center">`. **Instrucción:** IVAN-20261006-EP-REVIEW-SETUP y corrección IVAN-20261006-VNEXT-NAME. **Hallazgos relacionados:** F002, F004 y F005.
-
-**TEXTO ANTES**
-
-```markdown
-<div align="center">
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-> [!NOTE]
-> **Review note · 6 October 2026 · navigation addition only.** The existing text below is preserved verbatim. Read the [corpus review procedure](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) before proposing a change. This README has one [VNext audit and before/after workspace](./README_VNext.md), kept separate from the current canonical text. Audits and proposals do not change the canonical corpus; substantive changes require Iván's explicit instruction.
-
-<div align="center">
-```
-
-**Razón:** dar acceso humano al método y al único expediente de este documento. **Efecto semántico técnico:** ninguno; no se modifica ninguna afirmación existente. **Dependencias afectadas:** dos enlaces nuevos, este expediente y el procedimiento; DOCUMENT_CONTROL registra el blob resultante. **Comprobaciones:** igualdad exacta del cuerpo anterior, resolución de rutas nuevas, ninguna eliminación/alteración de líneas anteriores, diff limitado al alcance autorizado y ausencia de VNext duplicada.
-
-**Decisión de Iván:** la adición de conexión está autorizada por la petición de este chat. **Incorporación:** consultar el registro de publicación/verificación de esta entrega en DOCUMENT_CONTROL; si no existe confirmación de commit y readback, no dar la publicación por realizada.
 
 ### Propuestas sustantivas
 
@@ -735,25 +716,10 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 1 · Nota de acceso a revisión de EP | Histórico · Histórico | Medio | Bajo | Bajo | Ya publicado |
 | 2 · Antigua propuesta de convertir EP en Level 4 | Histórico · Histórico | No vigente | Alto | No procede | Descartado |
 | 3 · Explicar la idea central antes de elegir una ruta | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Bajo | Pendiente de decisión |
 | 4 · Separar semántica actual y resultados históricos | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
 | 5 · Distinguir principios P1–P6 y posturas P1–P3 | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Bajo | Pendiente de decisión |
-
-### Cambio 1 — Nota de acceso a revisión de EP
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Histórico.** Hacer visible el expediente de auditoría.
-
-**Qué podría quedar desactualizado o afectado:** Repetir la nota ya publicada duplicaría la entrada del README.
-
-**Qué cuesta prepararlo:** No requiere nueva edición; mantener el vínculo.
-
-**Dependencias conocidas:** [CORPUS_REVIEW_PROCEDURE_2026-10-06.md](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar: el texto después está presente.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#ep-readme-delta-001--nota-de-versiónrevisión-y-enlace); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `ed97dbe9f34758219863511717c4f237b48bedf3`. El bloque añadido está presente; no se repite la ejecución.
 
 ### Cambio 2 — Antigua propuesta de convertir EP en Level 4
 
@@ -834,10 +800,10 @@ Este orden usa impacto, prioridad y desempates de riesgo/esfuerzo. No libera una
 | [Fecha y versión de fuente para promociones 05A](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-002--fecharevisión-de-fuente-en-la-ficha-de-promoción) (32) | Alto | Bajo | Bajo | Candidato para revisión documental concreta |
 | [Tabla W1 presente distinta de todos los gates cerrados](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#bench-r1-delta-001--distinguir-tablaw1-presente-de-gates-restantes) (40) | Alto | Medio | Bajo | Completar comprobaciones específicas antes de decisión |
 | [Separar semántica actual y resultados históricos](README_VNext.md#separar-plausibilidad-actual-de-resultados-bajo-vocabulario-anterior) (4) | Alto | Medio | Medio | Reformular como adición append-only |
-| [Condicionar el tamaño y coste del contexto útil](../../research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+| [Condicionar el tamaño y coste del contexto útil](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
 | [Límite de dominio e independencia del oráculo](../../research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#r01-oracle-delta-004--delimitar-diversidad-de-referencia-dominio-y-validación-externa) (27) | Alto | Medio | Medio | Candidato para revisión documental concreta |
 | [Dos peers como propuesta, no arquitectura FG adoptada](../../research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-002--carácter-propuesto-de-los-peers) (34) | Alto | Medio | Medio | Completar comprobaciones específicas antes de decisión |
-| [Mostrar todo B_Cart en el índice MSCA](../../standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-bcart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+| [Mostrar todo B_Cart en el índice MSCA](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-b_cart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
 | [Explicar la correspondencia P_RA y delta RA](../../research/ecosystem-awareness/baseline/01D_VNext.md#propuesta-antesdespués--declarar-el-puente-de-representación) (17) | Alto | Alto | Medio | Conciliar contrato y consumidores |
 
 ### Primera tanda para revisar contigo
@@ -1038,19 +1004,10 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 1 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
 | 2 | Descartado; Descartado | No vigente | Alto | No procede | Histórico |
 | 3 | Reformular; Reformulado; alternativa conjunta 71 | Medio | Medio | Bajo | Siguiente |
 | 4 | Reformular; Reformulado; alternativa conjunta 71 | Alto | Medio | Medio | Primera |
 | 5 | Reformular; Reformulado; alternativa conjunta 71 | Medio | Medio | Bajo | Siguiente |
-
-**Cambio 1 — Ya publicado.** Hacer visible el expediente de auditoría.
-
-**Beneficio esperado:** Hacer visible el expediente de auditoría. **Riesgo concreto:** Repetir la nota ya publicada duplicaría la entrada del README. **Coste de preparar y mantener:** No requiere nueva edición; mantener el vínculo.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar: el texto después está presente. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 2 — Descartado.** No se evalúa como beneficio actual: contradice los tres niveles canónicos acordados.
 
@@ -1120,15 +1077,8 @@ Un escaneo de texto completo encontraba el después en las citas de las propias 
 
 ### Plan vigente para EP: alternativa aditiva conjunta71
 
-Las propuestas 3/4/5 conservan sus textos anteriores y propuestos históricos, pero se dejan fuera de la cola de incorporación por su ubicación dentro del cuerpo protegido.71 reúne las aclaraciones al final: **impacto esperado Alto, riesgo Medio, esfuerzo Medio, prioridad Primera, tanda 1**. Beneficio: leer responsabilidades, evidencia y las dos listasP sin alterar lo anterior. Riesgo: abreviar de más la arquitectura o aparentar renovación de evidencia; coste: cotejar fuentes y comprensión, además de la redacción.
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio71 incorporado en `architectural-contributions/ecosystem-positioning/README.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
-**Instrucciones de Iván:** sólo añadir al README y estrategia hasta su revisión; después, originales en sólo lectura, una VNext por fuente, siempre viejo completo y decisión concreta para incorporar. Este par es una propuesta futura; no modifica el README.
-
-**Fuente y ubicación:** `architectural-contributions/ecosystem-positioning/README.md`, blob `641693f5a56e610fc1e76ae79ad41b96bd903f00`, commit `06931f0b19b8df777e251091eccf5e3ee4ca9fbb`. El bloque viejo es toda la sección final Development strategy; aparece una vez y llega al fin del archivo. Se conservaría completo y se añadiría el bloque nuevo después. No se sustituye la estrategia ni se crea otro README.
-
-**Texto antes — viejo literal completo del contexto final**
-
-~~~~markdown
 ## Development strategy and next advances
 
 The next phase focuses on clarifying the evidence behind the architecture, developing a small end-to-end profile, defining a demanding comparison and extending only what can be supported. The [development strategy and priorities](./DEVELOPMENT_STRATEGY.md) (Spanish working proposal) explains these directions, where specialist knowledge can help and the external research that informs them.
@@ -1227,15 +1177,9 @@ El registro conserva **73 entradas: 64 con par y 9 líneas por concretar**. Entr
 
 **Source:** [EP README](./README.md) · before blob `a0a7f27842c13c409c4664bd1bda066860a98f83` · after blob `a5a3f6d8c0d142c8926708f405d1e72a7cb45814` · [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/f77668d3dbc871bb0c84f365505492e7a9974108).
 
-### TEXTO ANTES — viejo (complete affected paragraph)
 
-> For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
 
-### TEXTO DESPUÉS — publicado (complete affected local unit)
 
-> For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
->
-> **Research and test route.** The [Deployment Differential Study (DDS)](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) organizes three different questions: which specification addresses a frozen challenge, whether an architecture realizes that specification, and how a particular implementation behaves against the original challenge and observed effects. [UC-21](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md) contributes six failure scenarios, their quality gates and an R0/R1/R2 comparison protocol; [A26](../../research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) develops positive success-case counterparts. [R01](../../research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) investigates a reduced probabilistic model of exploration, validation and cost. In the [local S5 stateful study](../../research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md), a conventional dynamic-manifest guard successfully handles the declared D1 source-set change. Each linked document remains the authority for its own evidence and scope.
 
 **Scope and status:** New reader route to DDS, UC-21, A26, R01 and the bounded S5 synthetic witness. The previous paragraph and following pre-standardization / external review paragraphs were preserved exactly. The remote GitHub content was re-read after the commit and verified against the expected insertion.
 
@@ -1308,38 +1252,6 @@ Se comprueban 138 enlaces internos del registro, veinte IDs y 41 fuentes únicas
 
 ---
 
-## Primera tanda textual de alto impacto y bajo riesgo — 12 octubre 2026
-
-**Instrucción de Iván:** actualizar las VNext existentes tal como están organizadas y dejar al final modificaciones de alto impacto y bajo riesgo muy acotadas en texto. **Codex, mismo asistente; corte `21c3946009af4a14433d7240eddce939e4ff9599`.** Se conservan todos los planes y auditorías anteriores. Se revalidan los textos de31/32 y se acota una alternativa del75; ninguna propuesta se incorpora a su fuente de trabajo por publicar este plan.
-
-### Visión conjunta y decisión
-
-| Intervención | Texto afectado | Impacto esperado | Riesgo | Esfuerzo | Qué resuelve |
-|---|---|---|---|---|---|
-| 31 · Atribuir el reporte Theme21 | Una viñeta de05A VNext §2.10 | Alto | Bajo | Bajo | Consulta de un reporte no se lee como reproducción independiente/correctness |
-| 32 · Identificar edición de fuente | Un punto de la ficha05A VNext §7 | Alto | Bajo | Medio | Saber qué fuente mutable sustentó la relación; texto corto, mantenimiento por fila real |
-| 75 · Variante prospectiva mínima | Una regla de DDS VNext §5 | Alto | Bajo sólo para esta variante | Bajo | No retirar en adelante viejos/discusiones/desacuerdos; historia separada de pendientes |
-
-**Tres intervenciones en dos VNext propietarias, no tres nuevos hallazgos o expedientes.** Los [pares completos31/32 al final de05A](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-de-cambios-al-final--primera-tanda-textual) y la [variante75 al final deDDS](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-de-cambios-al-final--variante-textual-del-75) muestran el viejo literal y el propuesto, ubicación actual, beneficio, riesgo, coste, dependencias, aceptación e instrucciones de Iván. Son texto de las VNext; no requieren cambiar originales canónicos, código, datos o freezes. Cada pasaje antiguo se localiza una vez en su contexto de trabajo, sin contar citas históricas como modificaciones aplicadas.
-
-### Por qué se mantiene el impacto y cómo se limita el riesgo
-
-31 evita una promoción indebida de evidencia;32 vuelve reconstruible su procedencia;75 protege la evidencia de revisión que futuras decisiones necesitarán. Son consecuencias de evidencia/autoridad/preservación, no maquillaje de formato. El impacto es esperado, no un beneficio empírico medido. El riesgo es Bajo porque la intervención no cambia algoritmo, contrato técnico, cifras o resultado y tiene contexto/alcance declarado. Los lectores afectados conservan sus significados: [05 Ideal VNext](../../research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-al-final--relación-con-la-tanda-textual-de-05a) recibe el contraste y mantiene intacta su frontera.
-
-**Orden:** leer31+32 juntas por atribución/procedencia, decidir cada pasaje, y leer por separado75 mínimo. Su variante y la redacción amplia75 comparten viejo: no aplicar ambas. Preparar la regla futura no restaura la historia perdida ni cierraT04; ese trabajo mantiene riesgo/esfuerzo Medio. El74 del checker también mantiene riesgo Medio y su sucesor/pruebas pendientes. No se cambia una etiqueta para forzarlo dentro de una tanda segura.
-
-### Lo que no se convierte en parche por esta selección
-
-Las épocas de los tres bindings SHA/README siguen por aclarar, con hashes intactos. Las siete parejas VNext se conservan como réplicas con propietario, no se borran o cuentan como independencia. HF sigue reteniendo el comparador convencional y resultados adversos; no se reescriben para fabricar ventaja EA. Esos hallazgos necesitan su trabajo propio y no se presentan como “resueltos” por tres frases.76 permanece de impacto Medio/Bajo riesgo, fuera del filtro estricto Alto/Bajo.
-
-**Estado:** tanda textual preparada para tu decisión; originales sin cambios. Registro: mismos76 IDs, mismos52 pares pendientes y9 líneas por concretar; una variante acotada del75, no un nuevo ID. El registro conserva el75 completo con riesgo Medio y muestra esta variante por separado. No se declara cerrado el ciclo científico de cinco/sexta, se abre campaña o se activa temporizador.
-
-
-**Base de publicación revalidada:** main avanzó a `bb3e5c449f3638bfe806a53d4302e547a0923fe8` por una adición de navegación de artículos y su anexo. Los seis destinos de esta tanda conservan exactamente sus blobs previos; los tres viejos y sus contextos siguen iguales. Se preserva esa publicación ajena y se mantiene `21c3946009af4a14433d7240eddce939e4ff9599` como corte de lectura del plan. La incorporación de sus propuestas no se infiere de este rebase.
-
-
----
-
 ## Revisión del otro agente sobre UC-21 — 12 octubre 2026
 
 **Codex, asistente de IA; contraste documental para decisión humana.** Se revisó el informe aportado por Iván y las seis VNext de UC-21 publicadas en `ee680a019a0cbd7270415f44237c894d370d275c`, rama `when-controls-work-system-fails-v0.9.3` de dakleyer/use-cases. Se leyeron las seis auditorías completas y contratos centrales, con pasajes de hipótesis/preregistro, status/admisión de los nueve perfiles y versión S3/S6; no una nueva revisión científica íntegra de todas las APIs/escenarios o ejecución de producto.
@@ -1368,158 +1280,1691 @@ La primera tanda textual31/32/75 y su registro76 IDs mantienen su alcance anteri
 
 ---
 
-## Ola 1 propuesta — alta prioridad, alto impacto y bajo riesgo
 
-**12 octubre 2026 · Codex, asistente de IA, plan para decisión de Iván.** Se revalidó el registro1.11 y los pasajes contra `0cc02548fe0eb8d31e5a2a4dc3e18d26a9f2b979`; UC-21 se consultó en `76ac39bae74d10f4586f5fb787f69deaf7f59add`. Los planes y auditorías anteriores permanecen. Este plan selecciona y ordena cambios existentes, sin crear IDs, VNext, teoría o campaña.
 
-**Filtro estricto:** entre las propuestas completas pendientes del registro,31 y32 son Alto impacto/Bajo riesgo/Primera prioridad. Se añade la variante prospectiva y acotada75, también Alto/Bajo, sin rebajar el75 completo.26 y76 conservan impacto Medio;74 y la recuperación histórica75 conservan riesgo Medio. La cantidad de VNext no obliga a fabricar más candidatos que cumplan el filtro.
+## Propuestas aplicadas retiradas
 
-### Tres pasajes, dos VNext, una tanda pequeña
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/architectural-contributions/ecosystem-positioning/README_VNext.md).
 
-| Orden | Cambio y ubicación | Sustitución concreta | Impacto esperado | Riesgo | Esfuerzo |
-|---|---|---|---|---|---|
-| 1 | **75 limitado · DDS VNext §5, regla8** | En lugar de retirar propuestas incorporadas, retener viejo/nuevo, discusión y desacuerdo como historia fechada con versión/decisión; excluirlos de pendientes | Alto | Bajo, sólo regla futura | Bajo |
-| 2 | **31 · 05A VNext §2.10, una viñeta** | “Current public empirical evidence” pasa a análisis reportado por el contribuyente; la consulta no acredita reproducción independiente; conservar no-ground-truth/honest-judges | Alto | Bajo | Bajo |
-| 3 | **32 · 05A VNext §7, punto1 de ficha** | Anchor público pasa a anchor + fecha/hora de consulta + revisión/hash disponibles + proposición/scope; declarar ausencia de pin cuando corresponda | Alto | Bajo | Medio |
+## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
 
-**Los pares exactos, con viejo completo y propuesto, se conservan en sus propietarios:** [75, variante mínima](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-de-cambios-al-final--variante-textual-del-75) y [31/32, primera tanda textual](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-de-cambios-al-final--primera-tanda-textual). Los tres viejos siguen únicos dentro de sus contextos de trabajo, excluidas las citas de propuesta; los después no están incorporados. No se sustituye aquí el viejo por un resumen ni se duplica el expediente.
+**Auditoría realizada por Codex, mismo asistente; revisión documental sobre el corte `07c83653babec79f387bdfd5fc4b93e4ac21b533`.** Iván solicita analizar el borrador autocontenido v0.2 de reorganización, no ejecutar la migración. Se leyó el plan completo y se contrastaron la navegación controlada, el método A/B/C, los contratos HF v0.3 y v0.3.1, sus ocho bindings de paquete, el catálogo de extensiones y los recorridos bot v0.6. El documento recibido permanece fuera del repositorio; aquí se publican las conclusiones de revisión.
 
-### Ejecución que propongo después de una decisión concreta
+**Juicio:** organizar por campañas es útil y compatible con DDS. Recomiendo primero un índice humano y un registro que enlacen las fuentes originales fijadas; la copia física y la adopción operativa se deciden después de resolver identidad, versiones y dependencias. El nuevo registro organiza expedientes; el Index DDS actual sigue gobernando la clasificación metodológica. El plan propone una organización, no una aceptación científica.
 
-1. **Preservar y fijar la base:** comprobar head y únicos viejos de los dos documentos; conservar sus predecesoras auténticas y las discusiones. Si cambia un pasaje, preparar un par contra la nueva edición; no sobrescribir el viejo anterior.
-2. **Aplicar sólo75 prospectivo:** escoger esta variante o la regla del75 amplio, nunca ambos reemplazos. El cambio protege revisiones futuras; no restaura las conversaciones ya retiradas ni cierraT04. La recuperación histórica sigue fuera de esta ola.
-3. **Aplicar31 y32 como bloque de claridad de evidencia:** son dos pasajes separados de la misma05A VNext. Mantener autor, corte, límites y nivel contributor-reported; no reproducir datos, renovar todo Current, inventar pins o cambiar semánticas del productor. El texto de32 es corto, pero completar/mantener evidencias por fila exige esfuerzo Medio y se registra aparte; la frase no prueba que esa tarea esté hecha.
-4. **Comprobar y cerrar sólo la tanda:** diff limitado a esas tres unidades textuales y sus estados de revisión, sin cambiar fuentes canónicas, payloads, código, datos, resultados o hashes. Releer los dos documentos publicados, comprobar links/literalidad y distinguir propuesta incorporada en la VNext de adopción canónica. Marcar los candidatos con fecha y decisión; mantener la historia completa, sin otra VNext.
+**Qué mejora:** reunir objeto bajo prueba, contrato, evidencia y resultado permite leer una campaña sin reconstruir primero 00G→R01→extensión. Ese linaje sigue explícito. Las campañas A/B/C separadas son una regla operativa prospectiva compatible con los objetos del método; no justifican dividir ni renombrar retrospectivamente runs existentes. No se obliga a crear B/C ni carpetas vacías. Los estudios sin contrato suficiente permanecen como antecedentes o soporte.
 
-**Criterio de aceptación humano:** el lector distingue reporte de reproducción, encuentra la edición de evidencia que fue consultada, y puede leer una propuesta cerrada sin verla como pendiente ni perder su discusión. Beneficios esperados, no eficacia empírica acreditada. Estas modificaciones son del cuerpo de trabajo/control de las VNext; no reescriben el bridge fuente congelado ni el método DDS.
+**Decisiones que faltan para aplicar la copia:**
+1. Elegir una única fuente metodológica activa. Copiar verbatim el Index a `dds/canonical/` cambia el destino de sus enlaces `./baseline/...`; conservar el mismo texto no conserva su resolución. Preferir enlaces fijados al original. Una eventual copia es un snapshot identificado, nunca una segunda edición mantenida.
+2. Fijar commit/ruta/blob de cada versión realmente consumida. Un inventario de un solo árbol actual no contiene por sí solo todos los antiguos inputs de freezes. El directorio `preserved/source-tree/` necesita distinguir las versiones de una misma ruta, o sustituirse inicialmente por referencias inmutables. No sobrescribir una versión con otra.
+3. Definir identidad de campaña frente a versión de contrato y ejecución. Mantener separados registro, ejecución, adjudicación, aceptación y cierre; `cerrada` puede ser fallida. Los cambios materiales de contrato necesitan sucesión explícita; las erratas editoriales no crean campañas artificiales.
+4. Definir quién mantiene qué. Registro de campañas, Index de método, catálogo de estudios, registro de claims y registro de aportaciones tienen funciones distintas. Sus campos compartidos deben remitir a un propietario o derivarse de él; mantener varios resúmenes manuales de estado introduce nueva deriva.
+5. Mantener el método VNext: una sola VNext por unidad lógica, incluso si hay varias rutas archivísticas. Las correcciones nuevas se añaden al expediente existente o al sucesor científico justificado; no crean una auditoría por copia. La propuesta debe quedar también en los README VNext afectados antes de cambiar relaciones.
+6. Preservar tres niveles de lectura: EP→Awareness→índice técnico. `dds/INDEX.md` puede ser una entrada técnica enlazada por el propietario acordado; `CAMPAIGN.md` es un expediente, no otro nivel canónico. La carpeta raíz no transfiere por sí sola propiedad de EA/FG-TIDA/RA/MSCA.
+7. Separar accesos del lector ciego. El paquete HF prohíbe remitir al lector a adjudicaciones, resultados y predicciones del autor. El índice histórico público puede enlazarlos; la distribución de lectura ciega conserva su paquete neutral y referencias fijadas.
+8. Hacer transaccional la publicación: preparar sobre un head exacto, comprobar que no cambió, comparar todo el árbol y publicar sin force. Una copia debe cerrar dependencias de enlaces/imports o declararse sólo archivística. Los scripts existentes pueden escribir resultados junto a sí mismos; cualquier futura comprobación ejecutada necesita un área desechable separada.
 
-### Reserva y ola siguiente
+**Evidencia concreta:** los ocho blobs del manifiesto HF v0.3 coinciden con el corte actual. Sus requisitos congelados también coinciden. El mapa de preparación FG-TIDA congelado es `38d64f61ef81a300a20d9d89cda65e5bb6ba5b22`, mientras el árbol actual contiene `14ce6fd9a476f5943b64b2d54a903ec205c87d81`. Es una diferencia prevista por el contrato, no un fallo nuevo: copiar sólo el archivo actual no preservaría ese input. El addendum v0.3.1 corrige fuentes históricas sin cambiar el contrato de scoring v0.3. Ambos documentos deben leerse juntos. HF cuenta con121 archivos actuales en su subárbol, pero su cierre de dependencias incluye fuentes fuera de él y versiones anteriores. Ese conteo no mide campañas ni cobertura científica.
+
+**Tandas propuestas, todavía sin ejecutar:** primera, lectura/indexación HF con originales fijados y una fila de soporte compartido R01; siguiente, probar que el registro puede describir otro estudio Simplified sin heredarlo de HF; después, copiar sólo paquetes cuyo beneficio esté demostrado y cuya matriz de versiones/dependencias esté aprobada; finalmente, decidir la ubicación operativa de nuevas campañas. No hace falta copiar todo DDS para obtener el beneficio de navegación.
+
+**Prioridad y coste:** el piloto de índice tiene impacto esperado Alto, riesgo Bajo si sólo enlaza y esfuerzo Medio por la lectura de contratos/versiones. La copia completa tiene beneficio adicional por justificar, riesgo Medio–Alto y esfuerzo Alto: incluye versiones antiguas, enlaces, contextos de ejecución y mantenimiento. La adopción operativa tiene impacto potencial Alto, riesgo Medio–Alto y esfuerzo no estimable hasta identificar consumidores/propietario. Estos juicios no aplican una tanda ni modifican criterios de aceptación.
+
+**Fuentes:** [control documental §14](https://github.com/dakleyer/structural-awareness-contributions/blob/07c83653babec79f387bdfd5fc4b93e4ac21b533/DOCUMENT_CONTROL.md#14-6-october-2026--three-corpus-reading-levels-structural-proposals-in-readme-vnext), [Index DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/07c83653babec79f387bdfd5fc4b93e4ac21b533/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), [contrato HF](https://github.com/dakleyer/structural-awareness-contributions/blob/07c83653babec79f387bdfd5fc4b93e4ac21b533/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md), [addendum](https://github.com/dakleyer/structural-awareness-contributions/blob/07c83653babec79f387bdfd5fc4b93e4ac21b533/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_SOURCE_FREEZE_ADDENDUM_v0.3.1.md). Registro cruzado en las VNext de EA, baseline, extensiones, HF y DDS. Ningún texto de fuente, freeze, resultado, código o ruta fue cambiado por esta auditoría.
+
+
+## UC-21 y DDS: dos entradas enlazadas — 12 octubre 2026
+
+**Revisión por Codex, mismo asistente.** Iván precisa que UC-21 es el caso con objetivos y campañas, y DDS el método de investigación. Se mantiene esta distinción y se ajusta el orden del diseño de consolidación: primero probar la navegación desde UC-21 usando sus ejercicios existentes; después comprobar su generalidad con HF y otra familia. No se crea una nueva campaña S5 ni se mueve el caso al corpus metodológico.
+
+La entrada pública [UC-21](https://github.com/FG-TIDA/use-cases/issues/21) remite en su cuerpo al snapshot `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. Su cuerpo no nombra DDS; sus comentarios sí lo explican en [S5](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) y [S4/CDA](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). README y USE_CASE coinciden entre aquel snapshot y la rama de revisión `76ac39bae74d10f4586f5fb787f69deaf7f59add`, pero S6 de la rama es un adapter hacia 00J/00J-A01. Por eso publicar una propuesta en la rama no modifica lo que alcanza el lector del enlace congelado. Una futura actualización de la entrada debe añadir una ruta explícita al seguimiento y mantener el envío anterior. La Issue y sus comentarios no se modifican aquí.
+
+El [autor de S5](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369) propone cerrar en el alcance evidenciado. Se comprobó su README externo v0.1.3, blob`4b0d2a673c8ee945bd6c52248390a3c595b9285a`: declara `I2-complete` completo para las ramas seleccionadas dentro del modelo y separa predicates enforced/assumed upstream. Esto explica el estado de esa discusión; no constituye una nueva aceptación conjunta ni un rerun. La organización conserva el ejercicio y sus pins, sin reiniciarlo para llenar el registro.
+
+**Relación propuesta:** entrada UC-21 → explicación del caso y objetivos → escenarios/hipótesis → ejercicios existentes → contrato DDS aplicable → runs/evidencia → conclusión para el objetivo UC-21 → posible selección posterior de especificaciones. Desde DDS se recorre la misma relación por método → campañas de distintos casos → fuente del Challenge → evidencia → resultado. El registro futuro debe apuntar a los expedientes reales y sus propietarios, con varias relaciones por campaña; no duplicarlos bajo ambas entradas.
+
+**Asignación de funciones:** UC-21 mantiene su problema, objetivos, HC/HR/HS/H1–H6 y gates. DDS mantiene método y A/B/C. El expediente del estudio mantiene contrato, versión, comparadores, ejecución y conclusión. EA, RA, MSCA y otros componentes conservan fuentes y decisiones de incorporación. Objetivo, R0/R1/R2, Stage A/B/C, modo de evidencia y estado de ejecución son dimensiones separadas. Un resultado del caso no demuestra automáticamente necesidad de EA ni selección de una especificación.
+
+**Preservación:** enlaces actuales, snapshot enviado, anexos, escenarios, figuras, pruebas, denominadores y autoría conservados. Toda relación estructural se revisa en las VNext de README correspondientes; tres niveles EP→Awareness→índices técnicos, con expedientes de campaña como documentos de trabajo. Mantener una sola VNext lógica aunque un registro enlace varias rutas. La copia física posterior sigue pendiente de matriz de versiones/dependencias; no es necesaria para implementar la lectura propuesta.
+
+**Prioridad:** puente de lectura inicial de alto impacto esperado y riesgo Bajo; esfuerzo Medio por contraste entre repositorios y épocas. La precisión de trazabilidad de campañas en el caso tiene impacto Alto y riesgo Medio: debe concordar con la matriz de objetivos y plantilla RUN_RECORD antes de adoptarse como campo obligatorio. No se activan campañas, adopción canónica, cambios de Issue ni redistribución por publicar esta revisión.
+
+**Orden revisado:** 1) cerrar diseño de lectura desde la Issue UC-21 y distinguir envío/seguimiento; 2) preparar puente mínimo en README y trazabilidad en USE_CASE, con antes/después en sus VNext; 3) describir el S5 existente y S4/CDA en su estado real, sin campañas artificiales; 4) probar HF y soporte compartido; 5) aprobar matriz y copia sólo donde aporte valor; 6) decidir operación futura. Esta instrucción ajusta la recomendación HF-first anterior; se conserva su texto como historia. DDS sigue siendo útil fuera de UC-21.
+
+Pares concretos en [UC-21 README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) y [USE_CASE VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE_VNext.md). Registro recíproco en [EA VNext](../../research/ecosystem-awareness/README_VNext.md) y [DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). No se modificó la propuesta local v0.2, se creó dds/ ni se aplicaron estos pares.
+
+
+## Puente UC-21–DDS incorporado — 12 octubre 2026
+
+Iván confirma continuar con UC-21→objetivos→ejercicios existentes→DDS→resultados del caso. Se aplicaron los dos pasajes completos preparados en las VNext del README y USE_CASE: [publicación 56eb0252c63cedc7aa578e7c3a5c897cc9669c5e](https://github.com/dakleyer/use-cases/commit/56eb0252c63cedc7aa578e7c3a5c897cc9669c5e). El README explica caso/método/corpus y enlaza discusiones S5/S4; USE_CASE relaciona objetivo, contrato, Stage, evidencia y conclusión. Se conserva el resto de bytes de ambas fuentes mediante verificación inversa exacta. R0/R1/R2, A/B/C, criterios, hipótesis, anexos, figuras, freezes, código y resultados no cambiaron.
+
+Las dos fichas aplicadas se retiraron de sus VNext activas y quedaron en Git/custodia auténtica; las auditorías y otras propuestas pendientes permanecen. Sólo cuatro archivos cambiaron en la rama: los dos lectores y sus dos VNext;73otrosblobs idénticos,0 nuevos/eliminados. La plantilla RUN_RECORD y la matriz EO anteriores no se aplicaron. SHA256SUMS.txt conserva su época anterior y no certifica los dos lectores nuevos. Main use-cases y el envío congelado permanecen intactos.
+
+La Issue pública mantiene sus enlaces de envío. El [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) deja preparado un único párrafo adicional con antes/después literal, Alto impacto/Bajo riesgo/Bajo esfuerzo, para enlazar seguimiento y DDS manteniendo el snapshot. Es una edición externa pendiente de decisión concreta. No se modificó la Issue, abrió otra campaña S5, creó carpetaDDS ni ejecutó migración o experimento. Este estado supersede las menciones previas a esas dos inserciones como pendientes; no altera los otros gates abiertos.
+
+
+## Trabajo complementario todavía pendiente
+
+Las épocas de los tres bindings SHA/README siguen por aclarar, con hashes intactos. Las siete parejas VNext se conservan como réplicas con propietario, no se borran o cuentan como independencia. HF sigue reteniendo el comparador convencional y resultados adversos; no se reescriben para fabricar ventaja EA. Esos hallazgos necesitan su trabajo propio y no se presentan como “resueltos” por tres frases.
+
+
+
+## Reserva pendiente fuera de las olas aplicadas
 
 La precisión del [README UC-21](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/README_VNext.md#variante-acotada--envío-congelado-y-rama-viva), Alto impacto/Bajo riesgo textual/Bajo esfuerzo, es buena candidata de lectura. Su incorporación todavía necesita escoger un lector de revisión/sucesor: el README original continúa protegido. **No entra automáticamente como cuarto reemplazo ni se modifica el envío de FG-TIDA.**
 
 Quedan fuera de Ola1: checker74 y sus pruebas prospectivas; restitución histórica75; recertificación o cambio de manifiestos; sectores de Issue21 sin decisión del propietario; matriz científica y campos del Run record UC-21, con riesgo Medio y dependencias. Tampoco se borra una réplica o se reinterpreta el resultado adverso de HF por aprobar esta ola. Las tareas científicas de cinco/sexta mantienen su estado.
 
-**Decisión propuesta:** aprobar exactamente31,32 y75 variante mínima para trabajo en las dos VNext, con el alcance y verificaciones anteriores. Ahora sólo se publica el plan; no se ejecutan esos reemplazos. La autorización previa de publicar auditorías no se convierte en incorporación por esta nota. Los76 IDs y valoraciones históricas del registro se conservan.
 
 
----
 
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="ep-readme-delta-001--nota-de-versiónrevisión-y-enlace"></a>
+<a id="cambio-1--nota-de-acceso-a-revisión-de-ep"></a>
+<a id="texto-antes--viejo-complete-affected-paragraph"></a>
+<a id="texto-después--publicado-complete-affected-local-unit"></a>
+<a id="primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026"></a>
+<a id="visión-conjunta-y-decisión"></a>
+<a id="por-qué-se-mantiene-el-impacto-y-cómo-se-limita-el-riesgo"></a>
+<a id="lo-que-no-se-convierte-en-parche-por-esta-selección"></a>
+<a id="ola-1-propuesta--alta-prioridad-alto-impacto-y-bajo-riesgo"></a>
+<a id="tres-pasajes-dos-vnext-una-tanda-pequeña"></a>
+<a id="ejecución-que-propongo-después-de-una-decisión-concreta"></a>
+<a id="reserva-y-ola-siguiente"></a>
+<a id="ola-2--diez-cambios-concretos-para-decidir"></a>
+<a id="orden-y-alcance"></a>
+<a id="conciliación-material-de-esta-propuesta"></a>
+<a id="decisión-y-aplicación"></a>
+<a id="ola-2--textos-directos-y-asertivos"></a>
+<a id="olas-aplicadas-y-pendientes-vigentes--12-octubre-2026"></a>
+<a id="ola-3--diez-mejoras-quirúrgicas-de-lectura-y-trazabilidad"></a>
+<a id="ola-4--coherencia-de-interfaces-y-escenarios-fuera-de-dds"></a>
+<a id="olas-3-y-4-aplicadas--12-octubre2026"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-diez-cambios"></a>
-
-## Ola 2 — diez cambios concretos para decidir
-
-**12 octubre 2026 · Codex.** Iván solicita diez cambios concretos, con viejo, propuesto y razón publicados primero en la VNext propietaria. La incorporación espera su go de esta ola. Se revalidaron fuentes y auditorías en `908fdc6c9372b533d1a383d490227333ce4756be`.
-
-La Ola 1 ya se aplicó en [908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be): 31/32 y variante limitada75. Sus notas anteriores de preparación describen aquella época; no vuelven a la cola. Para Ola 2 se reutilizan propuestas existentes y se acotan variantes, sin nuevos IDs ni expedientes.
-
-### Orden y alcance
-
-| Orden | Cambio | Propuesta previa | Impacto | Riesgo | Esfuerzo | Par completo en propietaria |
-|---|---|---|---|---|---|---|
-| 1 | P3 identifica una transición; no concede autoridad | 60 | Medio | Medio | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/04_OPERATION_VNext.md#ola2-cambio-01) |
-| 2 | Contexto útil y coste: quitar la promesa implícita de «pequeño» | 11 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola2-cambio-02) |
-| 3 | Oráculo: declarar qué dominio respalda su acuerdo | 27 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola2-cambio-03) |
-| 4 | Dos mecanismos de Theme 13: atribuir claramente la propuesta | 34 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-04) |
-| 5 | Benchmark: conciliar W1 ya registrado y adopción pendiente | 40 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#ola2-cambio-05) |
-| 6 | DDS: tres etapas y dos fases internas de Stage A | 76 | Medio | Bajo | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#ola2-cambio-06) |
-| 7 | A significa resultado funcional, no sólo aserción o alcance | 72 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01B_VNext.md#ola2-cambio-07) |
-| 8 | B_Cart: soporte y reserva evaluable, además de confianza | 38 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/README_VNext.md#ola2-cambio-08) |
-| 9 | Requirements: seis escenarios y cuatro incorporaciones distintas | 14/15 | Medio | Bajo | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-09) |
-| 10 | Una respuesta única puede seguir sin respaldo | 8 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola2-cambio-10) |
-
-**Diez cambios, catorce pasajes:** el benchmark40 requiere cuatro sustituciones coordinadas; Requirements14/15 dos. Cada otro candidato tiene un par. Los viejos completos se localizaron una vez en su cuerpo fuente, excluidas las citas históricas. Se conservan los planes anteriores, sus discrepancias y sus valoraciones. Esta selección actual define variantes cuando el texto se acota; el registro76IDs conserva su historia.
-
-Los primeros cinco mejoran la atribución de autoridad, el alcance de utilidad/coste, el dominio evaluado y la consistencia del estado documental. Los siguientes alinean DDS y los resúmenes A/B con sus definiciones, corrigen el inventario de escenarios y aclaran la inferencia matemática. Cuatro tienen impacto esperado Alto y seis Medio; dos riesgo Bajo y ocho Medio. Los riesgos concretos y el coste de lectura/validación están en cada propietaria.
-
-### Conciliación material de esta propuesta
-
-- **P3 y autoridad:** Operation ya mantiene ACC y permiso separados;60 retira la ambigüedad «authorizes the need» sin modificar selección o ejecución.
-- **00N y 00M:**11 condiciona tamaño/coste a la pregunta y perfil. El ejemplo8 preserva la premisa de compatibilidad; no demuestra ahorro ni suficiencia operacional.
-- **00M, 01B y MSCA:**72 mantiene A como resultado del proceso;38 resume el B_Cart que Composition§3.2 ya define. Son aclaraciones locales; las propuestas acopladas de RA conservan su propio plan.
-- **Benchmark, Requirements y WORKPLAN:**§9 registra el mapping W1 y WORKPLAN W2/Track D lo trata como revisión concluida.40 armoniza§§4/9/12/13 con ese estado y mantiene pendientes las condiciones de adopción.14/15 ajustan la cuenta E–J y evitan llamar independientes a cuatro familias distintas.
-- **DDS:**76 alinea la primera nota con Index§5 y las fases internas de StageA; no cambia identificadores históricos.
-
-### Decisión y aplicación
-
-Los pares están publicados al final de las diez VNext existentes. Sólo se añadieron planes y esta visión conjunta: ninguna sustitución de fuente se ejecutó. Iván puede decidir la ola completa o un subconjunto identificando sus números;40 se trata como un paquete de cuatro pasajes y14/15 como uno de dos. Los originales y fuentes congeladas mantienen su custodia, con la edición de revisión separada. Antes de la incorporación se vuelve a comprobar fuente/destino y se conserva el predecessor auténtico.
-
-
----
-
 <a id="ola2-redaccion-directa"></a>
-
-## Ola 2 — textos directos y asertivos
-
-**12 octubre 2026.** La instrucción de Iván se aplica a la redacción de las propuestas: afirmar primero qué hace el mecanismo, qué evidencia respalda la afirmación y qué condición guía su uso. Se eliminan las reservas repetidas; se mantienen autoridad, alcance y condiciones que determinan el significado técnico.
-
-Nueve candidatos tienen una redacción más breve y directa, con viejo completo y propuesto al final de su VNext. El9, cuenta y diversidad de escenarios, ya tiene redacción directa y se conserva. Esta revisión editorial mantiene los diez cambios y catorce pasajes de Ola2; los planes anteriores quedan como antecedentes.
-
-| Cambio | Texto propuesto vigente |
-|---|---|
-| 1 — P3 identifica una transición; no concede autoridad | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/04_OPERATION_VNext.md#ola2-redaccion-01) |
-| 2 — Contexto útil y coste: quitar la promesa implícita de «pequeño» | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola2-redaccion-02) |
-| 3 — Oráculo: declarar qué dominio respalda su acuerdo | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola2-redaccion-03) |
-| 4 — Dos mecanismos de Theme 13: atribuir claramente la propuesta | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-redaccion-04) |
-| 5 — Benchmark: conciliar W1 ya registrado y adopción pendiente | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#ola2-redaccion-05) |
-| 6 — DDS: tres etapas y dos fases internas de Stage A | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#ola2-redaccion-06) |
-| 7 — A significa resultado funcional, no sólo aserción o alcance | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01B_VNext.md#ola2-redaccion-07) |
-| 8 — B_Cart: soporte y reserva evaluable, además de confianza | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/README_VNext.md#ola2-redaccion-08) |
-| 9 — Requirements: seis escenarios y cuatro incorporaciones distintas | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-09) |
-| 10 — Una respuesta única puede seguir sin respaldo | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola2-redaccion-10) |
-
-**Decisión:** Ola2 aprobada por Iván y aplicada en `a27679dc451ce2db77432df2b206bb08339b24ef`: diez cambios y catorce sustituciones. Su cola pendiente está cerrada. Las futuras olas requieren su go.
-
-
----
-
-## Olas aplicadas y pendientes vigentes — 12 octubre 2026
-
-**Ola1 aplicada:**31,32 y regla prospectiva75, commit[908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be). **Ola2 aplicada:**60,11,27variante,34variante,40paquete,76,72,38variante,14/15 y8variante, commit[a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Sus fuentes coinciden con los después aprobados; quedan fuera de pendientes. La recuperación histórica75 se prepara aparte; la regla no se reaplica.
-
-Las VNext propietarias muestran «aplicado» con fecha y publicación. Las propuestas anteriores permanecen como antecedentes; el listado operativo y el extractor consultan los estados más recientes. El cierre de una ola incluye siempre verificación y actualización de su VNext.
-
 <a id="ola3-diez-cambios"></a>
-
-## Ola 3 — diez mejoras quirúrgicas de lectura y trazabilidad
-
-Todos los pares completos están al final de las VNext existentes. Esta ola mejora cómo se entra al corpus, se siguen los argumentos y se leen los controles. Los diez candidatos tienen impacto Medio, riesgo Bajo y esfuerzo Bajo; se conserva su valoración documental y su alcance concreto.
-
-| Número | Cambio | Propuesta | Texto completo |
-|---|---|---|---|
-| 1 | Cómo leer la trazabilidad | 6 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_A01_VNext.md#ola3-cambio-01) |
-| 2 | Enlazar la pregunta matemática con la funcional | 7 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola3-cambio-02) |
-| 3 | Acceso directo a la fuente primaria R4 | 9 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola3-cambio-03) |
-| 4 | Separar procedencia histórica y ruta vigente | 10 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md#ola3-cambio-04) |
-| 5 | Entrada por el ejemplo de dos señales ready | 12 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola3-cambio-05) |
-| 6 | Estado de publicación claro | 13 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola3-cambio-06) |
-| 7 | Ruta humana desde el índice a la trazabilidad | 20 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#ola3-cambio-07) |
-| 8 | Leer correctamente los controles del self-test | 26 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-08) |
-| 9 | Propósito del oráculo en una frase operativa | 28 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-09) |
-| 10 | Cinco referencias convertidas en enlaces | 30 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-10) |
-
-**Orden:** trazabilidad y propósito/controles del oráculo primero; después enlaces, rutas y estados de lectura.00M→00N→addendum conserva las versiones históricas y la ruta vigente. Las cinco rutas del oráculo y el ancla§3.6 se comprobaron contra el árbol actual; R4 se comprobó en la fuente primaria del autor.
-
-**Decisión:** Ola3 aplicada y verificada en `09fc270abfcc8efc3efdcee2279b80e145db55d5`: diez cambios en seis documentos. Los estados de las propietarias y la cola se actualizan en esta entrega; sus pares y auditorías permanecen.
-
-
----
-
 <a id="ola4-interfaces-escenarios"></a>
 
-## Ola 4 — coherencia de interfaces y escenarios, fuera de DDS
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/architectural-contributions/ecosystem-positioning/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-Ola3 ya está aplicada en [09fc270abfcc8efc3efdcee2279b80e145db55d5](https://github.com/dakleyer/structural-awareness-contributions/commit/09fc270abfcc8efc3efdcee2279b80e145db55d5). Esta ola adicional prepara seis sustituciones coordinadas en04GeneralVNext,05IdealVNext y05ACurrentVNext, usando los cambios18/33 existentes.
-
-Se reconoce00I existente, se conserva su ruta paralela aUC6→matrices→UC4, se añadenI/J al catálogo interno y se sincronizan los resúmenes. ImpactoMedio/riesgoMedio/esfuerzoMedio; alcance documental acoplado, sin modificar casos, evidencia, contratos o código.
-
-Pares completos en [04](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j), [05Ideal](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j) y [05ACurrent](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j). La orden actual de Iván autoriza preparar y aplicar esta ola adicional; se publica primero el plan y luego su incorporación/estado verificado.
+</details>
 
 
----
+## Plan gradual de navegación UC-21 → objetivos → Challenges → DDS → campañas y resultados
 
-## Olas 3 y 4 aplicadas — 12 octubre2026
+**12 octubre 2026 · instrucción vigente de Iván.** Hacer la navegación realmente accesible y publicada, conservar cada texto y enlace previo, organizar paso a paso sin perder campañas, ejercicios, reducciones, extensiones o archivos. Se reutilizan los índices y VNext actuales. La primera entrega añade orientación y enlaces; ninguna redistribución física queda implícitamente ejecutada.
 
-- **Ola3 hecha:** diez sustituciones en seis documentos, [09fc270abfcc8efc3efdcee2279b80e145db55d5](https://github.com/dakleyer/structural-awareness-contributions/commit/09fc270abfcc8efc3efdcee2279b80e145db55d5). Estados actualizados y cambios fuera de pendientes.
-- **Ola4 hecha:** seis sustituciones coordinadas en04/05Ideal/05A, [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0).18/33 cerrados mediante el paquete publicado; los antes/después quedan como historia.
+**Comprobación terminológica previa.** Se leyeron UC-21 Conventions/Extensionality, DDS A §3/§6/§10A, DDS B/C, R01, el protocolo de extensiones, kernel E1–E7, HEW Technical Report, DBC, 00D, Requirements y los índices RA/MSCA pertinentes. La búsqueda pública de usos complementó esas lecturas; no equivale a leer cada documento histórico. Challenge define problema/familia; el escenario delimitado lo instancia. UC-21 mantiene S1–S6 y sus familias 00E–00J. HEW usa escenario como descripción humana con instancia formal. Campaña de investigación, campaña operativa de S4 y unidad de campaña R01 no son intercambiables. Ejercicio se usa como entrada de lectura para estudios/recorridos existentes, no como nuevo tipo normativo. A/B/C DDS, A–D causales, A/B/C/D epistemológicos, R0/R1/R2 UC-21 y R01-R1/R2/R3 siguen con sus fuentes. La adición inicial que identificaba escenario con problema se corrigió antes de publicarse.
 
-Se verificaron los segmentos exteriores a cada sustitución, predecesoras auténticas, árboles completos y contenidos publicados. La ola adicional aclara00I existente y catálogoI/J manteniendo sus rutas y propietarios. Ningún archivo o expediente nuevo ni eliminación; fuentes de casos, código y resultados conservados. Las siguientes olas vuelven a su decisión de incorporación.
+### Qué debe poder recorrer una persona
+
+Entrada pública UC-21 → objetivos y protocolos → Challenges/familias → DDS y escenario de evaluación tecnológico → campañas/estudios y runs → resultados → conclusión para su objetivo y posible selección posterior de especificaciones. DDS también ofrece acceso desde otros casos. Una reducción, un anexo, un simulador o una nueva versión no crea automáticamente una campaña.
+
+### Tandas y criterio de salida
+
+| Tanda | Trabajo concreto | Salida y comprobación | Impacto / riesgo / esfuerzo |
+|---|---|---|---|
+| 1. Entrada y objetivos | Añadir en la Issue UC-21 una ruta al seguimiento; reunir cinco preguntas ya existentes en README y USE_CASE; enlazar escenarios, protocolos, DDS, instrumentos e informes actuales. | Entrada publicada y lectura de vuelta; viejo de cada fuente recuperable íntegro; conservar el envío aec08fb5. | Alto / Bajo para enlaces, Medio para síntesis de objetivos / Medio |
+| 2. Inventario y relaciones | Inventariar por repo/ref/ruta/blob; extraer enlaces y referencias de método/código/manifests; distinguir originales, fuentes congeladas, versiones, copias, supports y adicionales. | Cada archivo tiene tratamiento y propietario visible; no descartar una dependencia por parecer suelta. Inventario actual no sustituye versiones consumidas por un freeze. | Alto / Medio / Alto |
+| 3. Escenarios y ejercicios | Contrastar UC-21 S1–S6 y sus familias; registrar objetivo, fuente, admisión, reducción/extension, tecnología/configuración, instrumentos y estado de cada estudio. | Antes de agrupar, aclarar unidad y relación. S5 existente se conserva; S4/CDA sigue propuesta; HF v0.3 no se mezcla con exploraciones bot. | Alto / Medio / Alto |
+| 4. Método e instrumentos | Facilitar DDS A/B/C, R01, comparator/fairness, oráculo/harness, C11/T03 y UC-4 desde un propietario técnico. | Fuente metodológica única y herramientas con su función y versión. Un self-test de instrumento no es resultado del candidato. | Alto / Medio / Medio–Alto |
+| 5. Campañas y resultados | Reutilizar informes y registros reales; completar explicación de pregunta, contrato, inputs, runs, resultados, costes, límites, desacuerdos y sucesor. Crear documento de campaña sólo si una campaña registrada realmente carece de informe legible. | Lectura caso↔campaña↔evidencia↔conclusión. Conservar casos positivos, negativos, nulos y no entrega, sin sumar denominadores incompatibles. | Alto / Medio–Alto / según cada expediente |
+| 6. Conciliación | Revisar todas las rutas principales, enlaces de ida/vuelta, versiones/autoridad, unidades de resultado y acceso a materiales históricos/adicionales. | Cero pérdida de archivos/texto/links previos por la tanda, límites y pendientes visibles. Alcance de cierre fijado; no cierre científico por un scan. | Alto / Medio / Alto |
+
+### Primera tanda concreta autorizada
+
+Tres fuentes reciben sólo adiciones: README y USE_CASE de la rama propietaria de UC-21; DDS Canonical Method Index de Contributions main. Pares completos en [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md), [USE_CASE VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE_VNext.md) y [DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Los enlaces de la Issue siguen apuntando al envío original; se les añade seguimiento a la edición publicada. La Issue se vuelve a leer justo antes de escribir para no sustituir un cambio concurrente.
+
+La síntesis reúne: corrección/continuidad; eficacia de defensas existentes; recurrencia HR después de corrección R1; causalidad HC; respuesta suficiente HS. H1–H6 siguen siendo contrastes separados. No se crean EO obligatorios, H7, ruta R3 UC-21, gates nuevos ni resultados.
+
+La navegación de DDS enlaza trece registros de estudios locales existentes, cada uno con informe, preregistro, freeze y evidencia, y mantiene accesos a trabajos simbólicos/fixtures y reducciones desde sus índices previos. La tabla es del catálogo de extensiones, no todas las campañas del corpus. La carpeta dds/ y su registro futuro siguen como diseño hasta reconciliar identidad, versiones y dependencias. No se crean copias, se mueven archivos ni se cambian contratos por esta tanda.
+
+### Conservación y controles de cada entrega
+
+Antes de editar se conserva la predecesora auténtica. Para estas adiciones, quitar únicamente los bloques añadidos debe reconstruir todos los bytes previos de las fuentes. Cada URL/fragmento previo se conserva. Se comparan árboles completos: sólo paths acordados, cero archivos perdidos/renombrados, código/resultados/manifests/fuentes congeladas intactos. La publicación usa head fijado, scope y readback, sin force. Las fichas aplicadas salen de la cola activa y quedan en Git; auditorías y decisiones abiertas permanecen.
+
+Fuentes de partida: Contributions `90a31353528d777d0b617152ed54a67991239612` (2.200 blobs) y la rama UC-21 `f0701670e5beb8d97cfff3bbf3796bdf80e869ec` (77 blobs). Esos conteos son el universo de rutas de este corte; no una declaración de lectura semántica de los 2.277 archivos ni de ausencia previa de huérfanos. La comprobación de la tanda impide perder contenido; la conciliación completa de rutas actuales continúa en las tandas 2–6.
+
+### Propietarios y términos compartidos
+
+Mantener EP→Awareness→índices técnicos como los tres niveles. UC-21 conserva su entrada propia. EA, RA, MSCA, R01, cada estudio y el testbed conservan responsabilidad por sus significados y evidencias. Registrar una relación entre ellos no transfiere propiedad o validación. Antes de renombrar o dividir, plantear aquí y en cada README VNext afectada el antes/después de rutas, qué enlaces cambian, quién mantiene la nueva relación y cómo se conserva el original.
+
+El vocabulario común debe relacionar significados que ya existen, no imponer por nombre equivalencias entre unidades distintas. La siguiente pasada terminológica contrastará especialmente campaña R01 frente a campaña DDS; escenario narrativo/familia frente a instancia congelada; oracle de información frente a instrumento de referencia; y extension de familia UC-21 frente a transferencia/isomorfismo R01. Las adiciones actuales remiten a sus definiciones propietarias, sin reescribirlas.
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+
+
+**Hallazgo de versión:** el paquete de revisión S5 enlazado en la discusión no está en el árbol main90a3135. Su README sí se recupera íntegro en el pin2c7f545 citado originalmente. La nueva ruta conserva ese enlace inmutable y no inventa una copia vigente. La segunda tanda debe registrar también dependencias de commits anteriores, no sólo archivos del head.
+
+
+## Incorporación de la primera tanda de lectura — 12 octubre 2026
+
+Iván autoriza ejecutar la ruta UC-21→objetivos→Challenges→DDS→campañas→resultados. Las adiciones descritas aquí se incorporan conservando todos los bytes previos y vínculos de las fuentes. La terminología de lectura remite a sus propietarios: Challenge, escenario base, escenario de evaluación/perfil tecnológico y campañas/operaciones mantienen sus contextos. No se renombra un archivo, se modifica un contrato o se ejecuta una campaña.
+
+La ficha de esta tanda aplicada se retira de la cola activa; sus textos completos están en la [versión de preparación](https://github.com/dakleyer/structural-awareness-contributions/blob/ccf0d4b897eb56498de8fd64d97bf94af496e614/architectural-contributions/ecosystem-positioning/README_VNext.md). El plan de las tandas 2–6 sigue vigente: inventario de dependencias/versiones, agrupación con unidad explícita, informes de campaña y conciliación. La entrada de Issue se actualiza después de verificar las fuentes publicadas. Sus enlaces de envío se conservan.
+
+
+## Primera tanda publicada; entrada externa pendiente de acceso — 12 octubre 2026
+
+Publicados [objetivos y Challenges de UC-21](https://github.com/dakleyer/use-cases/blob/708faa56d4a664ba1617562c0453d54947528fc2/contributions/when-controls-work-system-fails/README.md) y [lectura DDS, instrumentos y reportes existentes](https://github.com/dakleyer/structural-awareness-contributions/blob/63f39526fb8a51ca81ea61bf2084a4ae789b74ee/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results). Tres fuentes reciben sólo adiciones; ocho VNext registran plan, semántica y aplicación. Se comprobaron bytes inversos y conservación de cada URL previa. Ningún archivo, campaña, resultado o programa se movió, borró o reescribió.
+
+La edición de la Issue21 fue autorizada e intentada, pero la integración devuelve403 Resource not accessible by integration. El navegador tampoco pudo inicializarse. El [README VNext de UC-21](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) ofrece el texto exacto antes/después para incorporar con una cuenta con permiso. El cuerpo de la Issue no cambió. Fuente/documents listos no equivale a entrada FG-TIDA actualizada.
+
+Próximo trabajo del plan: inventario por rutas/commits y enlace de todos los ejercicios, versiones, reducciones/extensiones y registros con unidad y propietario explícitos. El corte incluye2.200blobs enContributions y77enla rama delcaso, además de dependencias históricas como el paquete S5pin2c7f545. La tabla de13estudios es sólo una entrada de catálogo. No se declara conciliación final ni ausencia previa de huérfanos por esta tanda.
+
+
+## Tanda 2 — inventario de rutas, versiones y dependencias · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván confirma que «no cambiar nada» significa conservar la información: autoriza continuar las ayudas de navegación, sin borrar contenido. El UC-21 en PDF y su entrada pública quedan para el final. La ruta de trabajo sigue UC-21 → objetivos → Challenges → DDS → campañas → resultados.
+
+Se obtuvieron los árboles completos y los bytes de los cortes Contributions `af344bd93d8e0ae0e9912dbc08055ded3b25cd25` (2.200 archivos) y rama UC-21 `aafc9a49346a7b2030563d3b8c1bde51de3c6446` (77 archivos). Cada uno de los 2.277 blobs se cotejó contra su identidad Git. Se extrajeron enlaces Markdown de las 967 páginas de Contributions y las 38 de la rama del caso; el análisis distingue documentos actuales, VNext y archivos preservados. Las rutas explícitas y fragmentos examinados en los Markdown actuales resolvieron; no se extiende ese resultado a todos los enlaces web, comandos o formatos de manifiesto.
+
+La lectura humana detecta 19 documentos actuales sin enlace Markdown entrante: dos documentos del diagnóstico, un perfil FG-TIDA, cuatro guías de la segunda serie, tres guías/recapitulaciones compartidas y nueve explicaciones de coste/tipos. Las nueve últimas ya están referidas por los registros JSON; falta acceso directo para el lector. Se añaden tres accesos desde el índice DDS y dieciséis desde el índice de extensiones. La modificación es navegación, no una nueva prueba científica.
+
+Los trece CURRENT_STUDY_RECORD conservan su pregunta y Stage A/Simplified. Se comprobaron 186 referencias de archivo explícitas dentro de esos registros, con cero ausentes. Se verificaron 173 bindings SHA-256 de los mapas `files` de FREEZE/MANIFEST en extensiones, sin divergencias en ese alcance, y los cinco blobs del instrumento diagnóstico v0.2 coinciden con su freeze. El perfil FG-TIDA v0.2 consume expresamente el diagnóstico v0.1: se explica esa relación, sin reemplazar su dependencia por v0.2 o v0.3.
+
+La custodia de 92 copias al pin409bfa9 sigue identificando su origen auténtico. En el receptor actual, 70 permanecen idénticas y 22 evolucionaron: 16 documentos y seis revisiones. Se cotejaron las diferencias documentales: lectura A/B/C, sucesores coste/tipos y aclaraciones de resultados, sin convertir las copias en campañas independientes. Las 16 fuentes correspondientes en feasibility mantienen sus blobs originales. Las seis VNext tienen evolución propia; no se abre otro expediente ni se declara independencia por duplicación.
+
+Se verificaron los árboles de 39 referencias históricas de estos dos repositorios, recuperando cada destino citado por Markdown actual. Incluyen el envío UC-21 aec08fb5, la custodia409bfa9 y el paquete S5 en2c7f545, ausente del main actual. La existencia y ubicación del paquete S5 están comprobadas; su ZIP no se ejecutó aquí. Los enlaces externos de otros propietarios mantienen sus versiones y quedan para la revisión de las relaciones materiales, sin asimilarlos a archivos del head.
+
+**Prioridad Primera; impacto Alto; riesgo Bajo para estas adiciones; esfuerzo Medio.** Beneficio: el lector llega a guías, evidencia y versiones sin depender de claves JSON o de adivinar carpetas. Riesgo concreto: confundir un documento actualizado con el input de un run; se conserva el pin/freeze y se explica la distinción. Coste: lectura de los materiales identificados, cotejo de destinos y mantenimiento de tres pequeñas adiciones. La auditoría de identidad no cierra las pasadas científicas ni las tandas 3–6.
+
+El [plan común](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) sigue fijando el orden. No se reubica, renombra o elimina un archivo; el contenido previo se conserva byte por byte. Los before/after completos se registran en las VNext propietarias antes de incorporar las adiciones. La ficha aplicada se retira de la cola activa y permanece en Git history.
+
+### Inventario completo por ámbito y ruta de lectura
+
+Los grupos siguientes cubren los 2.277 archivos sin exclusiones por extensión. La carpeta permite consultar cada miembro; la función y autoridad del material las conserva su propietario. Los recuentos fijan este corte, no una auditoría de cada resultado.
+
+| Ámbito | Archivos | Lectura y tratamiento |
+|---|---:|---|
+| corpus: [(root)](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/) | 12 | Presentación y controles del repositorio; no otro corpus técnico. |
+| corpus: [.github](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/.github) | 9 | Automatización y plantillas; preservar código/configuración. |
+| corpus: [applied-research](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/applied-research) | 1 | Trabajo aplicado, con su alcance propio. |
+| corpus: [architectural-contributions](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/architectural-contributions) | 36 | EP: explicación, gradiente, documentos de apoyo y VNext. |
+| corpus: [governance](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/governance) | 382 | Procedimientos, revisión e historia auténtica; no nuevas autoridades científicas. |
+| corpus: [presentations](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/presentations) | 8 | Presentaciones/binaries preservados en su versión. |
+| corpus: [research](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research) | 1699 | EA, RA y trabajo transversal, según sus índices propietarios. |
+| corpus: [scripts](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/scripts) | 7 | Herramientas de mantenimiento, no campañas. |
+| corpus: [standards](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/standards) | 19 | MSCA y sus fuentes/revisiones. |
+| corpus: [submissions](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/submissions) | 27 | Paquetes y registros de envío; conservar su época. |
+| case: [(root)](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/) | 2 | Presentación y controles del repositorio; no otro corpus técnico. |
+| case: [.github](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/.github) | 2 | Automatización y plantillas; preservar código/configuración. |
+| case: [contributions](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions) | 54 | Paquete UC-21, original y lector vigente diferenciados. |
+| case: [use-case-register](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/use-case-register) | 19 | Infraestructura de registro, schema/ejemplos; no otro ejercicio UC-21. |
+
+La carpeta research contiene1.690 archivos EA,6 RA y3 de structural-awareness. Dentro de EA, extensiones tiene584 archivos con los21 grupos de ubicación del índice existente. En la rama del caso,54 pertenecen al paquete UC-21 y23 a raíz/automatización/registro. Las hojas adicionales ya acordadas y la historia se conservan; no se crea un nivel canónico nuevo.
+
+
+## Estado publicado de la tanda 2 — adiciones pendientes de incorporación
+
+La auditoría de inventario y los pares literales están publicados el12octubre2026. La comprobación abarca los2.277blobs del corte, rutas Markdown y las dependencias especificadas en esta entrada. Las tres ayudas de navegación están preparadas; todavía no se han añadido a los lectores originales.
+
+La revisión automática rechazó el commit de incorporación porque interpreta la restricción anterior como permiso exclusivo para VNext. Iván aclaró en esta conversación que conservar significa no borrar información; se solicitó confirmar por nombre las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Mientras llega esa decisión, los originales mantienen sus blobs y los pares siguen pendientes, sin marcarse aplicados. El PDF y la entrada externa quedan para el final. La revisión documental y las siguientes lecturas pueden continuar.
+
+
+## Tanda 2 aplicada — decisión concreta de Iván, 12 octubre 2026
+
+Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
+
+Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/structural-awareness-contributions/blob/b8729701ff0303363d48fe63a629587d4b12a6e2/architectural-contributions/ecosystem-positioning/README_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.
+
+
+## Tanda 3 — objetivos, Challenges y escenarios de evaluación · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza las tres adiciones concretas de la tanda2 y pide preparar y continuar la siguiente. Esas adiciones ya están publicadas en Contributions `2ff085688de77938aeaa5a3c0e7edbb607247d58` y la rama UC-21 `285ca77fc4cc5d69f3ea78aeda820777c647d0da`, con todos los bytes anteriores de las fuentes conservados. El PDF y la entrada pública se reservan para el final. Esta tanda publica revisión y cuatro propuestas; su incorporación requiere el GO de esta tanda.
+
+Se cotejaron los cinco objetivos reunidos en README/USE_CASE, las 37 condiciones de los planes del caso, los núcleos/admisión X1–X7 de Annex X, selección de HC/HR/HS/H1–H6, las condiciones de recurrencia y los nueve perfiles T01–T09. Las lecturas de escenarios y perfiles se centraron en problema, plan, variantes, comparadores y fuentes/versiones relevantes al itinerario; no se declara una nueva auditoría completa de cada apéndice histórico. Se contrastaron los trece registros actuales por su propia pregunta/configuración/closure, y el README externo S5 al pin a9eca743df5a5c1fbef5dc6f792ea08f8add29e0, blob4b0d2a673c8ee945bd6c52248390a3c595b9285a. No se ejecutaron productos, simuladores o experimentos.
+
+**Qué se sostiene.** La línea común es la decisión receptora con evidencia, autoridad, tiempo, capacidad y efecto. Las seis familias mantienen mecanismos diferentes: síntesis, composición de recurso compartido, misión/fuentes, hallazgo versus autoridad, validez al actuar y proposición de derechos. Sus 37 gates, nueve perfiles y27posiciones documentales no son37/9/27resultados ejecutados. La nueva lectura «Challenge» organiza las familias y «escenario de evaluación» relaciona tecnología/configuración con condiciones; se conservan S1–S6, escenarios base y los nombres existentes.
+
+**Qué hay que conciliar.** El índice baseline abre00H v0.2, mientras v0.5 y el S4 del paquete desarrollan el núcleo de sobrealcance/pérdida y V19/V20. No es pérdida física de información: ambas versiones existen. Es una ruta inicial incompleta para esa lectura. Se propone un enlace explícito al sucesor y conservación del antecedente, sin reasignar resultados delfreeze. S3 declara su copia obsoleta y remite a00G mantenido; S6 ya es adapter a00J. No se restaura una segunda fuente ni se elimina la historia.
+
+**Comparaciones que no se pueden fusionar.** R0/R1/R2 del caso distingue configuración ordinaria, corrección reforzada y recurrencia con esa misma corrección retenida. El S5 externo declara I0 ordinario, I1 parcialmente defendido que aún falla, e I2 que corrige ramas conocidas del modelo suministrado. Su I2 no es AWS-I2/R2, ni su I1 prueba una corrección previa apta para HR. Los A–D causales, A/B/C/D epistemológicos y Stages DDS son dimensiones separadas. La frontera «blind» del simulador es acceso del candidato a inputs; no acredita un auditor humano independiente.
+
+**Reutilización con sentido.** Los trece registros responden preguntas locales distintas y se declaran Stage A/Simplified completos dentro de esa pregunta. Hay mecanismos útiles para evidencia, identidad, uso temporal, receipts, continuidad y respuesta, pero esos registros no declaran por sí mismos pertenencia a una familia UC-21 ni ejecución de HC/HR/HS para ella. El paso de reutilización especifica mapa de relaciones, failure predicate, control positivo y recursos usando X1–X7 y DDS§4. No se exige volver a ejecutar una batería universal ni se suman denominadores heterogéneos.
+
+**Criterio estratégico.** Cuatro adiciones de lectura, Alto impacto esperado/Bajo riesgo/Medio esfuerzo. El beneficio es elegir la pregunta, versión y evidencia correcta antes de crear un ejercicio. Riesgo: el lector puede confundir una ruta vigente con una edición ejecutada o heredar conclusiones por parecido; las propuestas identifican la versión, pregunta y contrato. El esfuerzo incluye cotejo de fuentes, enlaces y mantenimiento, además de redacción. No cambian requisitos, gates, umbrales, hipótesis, fuentes congeladas o resultados. Prioridad Primera; ejecutar como una tanda coherente sólo tras GO: baseline00H → guía del caso → DDS selección → preguntas de extensiones.
+
+| Familia | Qué se evalúa | Control positivo que debe sobrevivir | Perfil del paquete | Fuente/versionado |
+|---|---|---|---|---|
+| S1 / 00E | Síntesis: preservar qualifiers y cerrar con recursos finitos. | Estrategia sustentada y revisión útil. | [T01](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T01.md), [T02](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T02.md) | [00E source](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) |
+| S2 / 00F | Composición compatible en el mismo corredor/recurso/tiempo. | Movimiento y acceso de emergencia compatibles. | [T03](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T03.md), [T04](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T04.md) | [00F source](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) |
+| S3 / 00G | Linaje de fuente y autoridad para cambiar la misión. | Cambio genuino y autorizado de misión. | [T05](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T05.md) | [00G source](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) |
+| S4 / 00H | Evitar sobrealcance y conservar el hallazgo material. | Acción agregada autorizada; casos realmente independientes. | [T06](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T06.md), [T07](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T07.md) | [00H source](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) |
+| S5 / 00I | Base vigente en el uso y binding check→act. | Reparación que sigue justificada. | [T08](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T08.md) | [00I source](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) |
+| S6 / 00J | Soporte de la demanda final de derechos por sujeto/uso. | Transferencia y demanda legítimas. | [T09](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/annexes/technology/T09.md) | [00J source](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
+
+
+Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/README_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/README_VNext.md). Las entradas se atribuyen al mismo asistente; no se inventa consenso ni una revisión independiente.
+
+
+## Tanda 3 aplicada — GO de Iván, 12 octubre 2026
+
+Iván autoriza continuar después de la entrega de las cuatro propuestas de la tanda3. Se incorporan exactamente sus adiciones a baseline README (sucesor00H), README UC-21 (seis Challenges), DDSIndex (elección del ejercicio) y extensions README (preguntas de trece estudios). Todos los bytes previos de esas cuatro fuentes permanecen íntegros, con sus enlaces. No se modifica otro pasaje ni el PDF.
+
+Las cuatro fichas incorporadas salen de la cola activa; su antes/después completo está en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/db248c134318c8786471eec1ef0ead2248b360a6/architectural-contributions/ecosystem-positioning/README_VNext.md). Auditorías y decisiones anteriores se conservan. Cero archivos nuevos, movidos, renombrados o eliminados y ninguna VNext nueva. Los estudios conservan registros, inputs, resultados, código, freezes y manifiestos. Continúa la tanda4: método, instrumentos, comparadores y oráculo/harness, con propuestas nuevas pendientes del GO correspondiente.
+
+
+## Tanda 4 — método, instrumentos, comparadores y evidencia · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda3 y pide preparar la siguiente. Las cuatro adiciones anteriores ya se incorporaron en Contributions `269d60cc478d2756516c631f587efc074e822eed` y la rama UC-21 `5c2a969bfbfc5eb8065537f3fade718e756dcdad`; se conservan los bytes anteriores y sus fichas aplicadas salen de pendientes. Esta tanda publica lectura de contratos y cuatro propuestas nuevas, aún pendientes del GO de la tanda4. PDF y entrada final UC-21 quedan reservados.
+
+### Lo que sostiene la cadena
+
+Se leyeron README/adapter/policy/isolation/broker/trace/bridge R01, registro y resultado v0.9, el freeze de30artefactos, perfil diagnóstico StageA v0.2, perfiles B/C y campos de registro T03. La lectura estática de real_admission y pasajes de verify.py se usa para precisar qué comprueba la admisión; no se ejecutó el harness, código del corpus ni producto. Las dos referencias DAG se examinaron por su dominio declarado y su papel de contraste; no se declara una nueva demostración de corrección del algoritmo.
+
+Stage A contrasta especificaciones con el Challenge; B contrasta una arquitectura con el paquete de especificación congelado; C contrasta una implementación con el Challenge y efectos observados. Los perfiles B/C preservan resultados por requisito, continuidad, negativos/mutations cuando aplican, comparadores y retroalimentación por sucesor. El instrumento común aporta separación de vistas, operaciones/ledgers/traces/integridad; no cambia la referencia sustantiva de la etapa por sí mismo.
+
+R01 separa adapter, broker, gate policy, trace y evaluator. La policy fija criterios y no determina la verdad del mundo; los métodos de referencia no inventan thresholds. El contrato de trazas distingue seal pre-oracle y result seal; el aislamiento exige frontera real del candidato, no sólo quitar campos de un objeto in-process. Para la comparación se fijan acceso, autoridad, recursos, capacidad y tiempo; un control convencional exitoso cuenta. Self-test0.7/freeze0.9 conserva seis vectores de resultados mezclados: dosPASS,tresFAIL,unoINCONCLUSIVE esperados. SELFTEST_PASS significa cumplir esos controles, no seis tecnologías aceptadas.
+
+### Versiones y evidencia comprobadas
+
+Los30bindings Git del freezev0.9 coinciden con el árbol vivo de esta tanda. Instrument0.7 y freeze0.9 son identidades distintas y ambos constan en el registro. C02 R01 y C3 HF evalúan perfiles/predicados propios; el C3 de instrumento y el brazoC3 de otro protocolo tampoco son equivalentes. El diagnóstico StageA v0.2 sigue como audit candidate de su freeze; el checker v0.3 audit candidate es un sucesor separado, no sustitución de los bytes v0.2 ni aceptación retroactiva.
+
+Se consultaron IssueUC-4 y sus diez comentarios públicos el12octubre. La fuente distingue package1.1.1/schema1.0.0 y schema1.1.0-r1; preserva contratos previos. La conversación más reciente ofrece SF-011 al pinv0.1.3 para una futura revisión de adapter y dice que no admite campaña/run. Esta lectura no identifica aceptación de nuestro puente R01. El perfil consultado mantieneR01-BRIDGE-DRAFT y su esquema/semántica/revisión/capacidades siguen siendo dimensiones distintas. No se enviaron mensajes ni se importó elZIP de esquema.
+
+### Hallazgo de admisión y límite preciso
+
+real_admission.py valida flags/status, números, modos de aislamiento y presencia de referencias. Su `_present` comprueba valor distinto deNone/stringvacío/listavacía; no resuelve un commit/hash ni autentica el archivo o la revisión. verify.py construye hashes ficticios y labels de review en el control sintético admitido. Ese control es coherente con una prueba de instrumento, pero no demuestra la evidencia de una campaña real. La propuesta pide que la guía conecte los campos declarados con los artefactos y reviews verificables. No cambia el validador congelado ni afirma que esta lectura ejecutó un falso PASS.
+
+### Adecuación y prioridad
+
+El diseño general mantiene referencias y ownership coherentes. Dos mejoras de lectura son prioritarias: abrir los contratos en secuencia práctica y conectar el diseño antiguo del bridge con los perfiles DDS publicados. Dos complementos aclaran selección de instrumento y evidencia que respalda la admisión. Cuatro adiciones, Alto impacto esperado/Bajo riesgo/Medio esfuerzo; el beneficio es seleccionar y preparar correctamente el estudio. Riesgo concreto: confundir calibration, declaración, conformance o efecto; los textos identifican su objeto y artefacto. No alteran policy, thresholds, código, resultados o freezes. Orden: guía oracle→selección DDS→bridge→evidencia adapter, como una tanda de enlaces conjunta.
+
+
+La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
+
+
+## Tanda 4 aplicada y publicación en main — decisión de Iván, 12 octubre 2026
+
+Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/architectural-contributions/ecosystem-positioning/README_VNext.md). Se conservan auditorías y otras decisiones abiertas.
+
+Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.
+
+
+## Tanda 5 — campañas, estudios e informes · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda4 y pide que todas las tandas aprobadas estén en main. Contributions `1897ed9424f58b95a10f2839c8e5b9f7bf741935` incorpora la4; use-cases main `d4fad875d12c1542fff8236ec484d68c6e641327` publica los54archivos UC-21 ya existentes en su rama y una entrada raíz añadida conservando los23archivos previos. Se reutilizan las seis VNext del paquete: ningún expediente nuevo. Continúa este trabajo en main de ambos repositorios. La rama anterior queda como historia. Esta tanda publica revisión y cuatro candidatos nuevos; no los aplica. PDF y entradaFG-TIDA siguen al final.
+
+### Relación de pregunta, registro, ejecución y retorno
+
+Se cotejaron los13CURRENT_STUDY_RECORD y su evidence successor con catalogue/reportes; las47fuentes materiales seleccionadas conservan sus blobs en el head. Se leyeron cierres, scope, resultados y pasajes de accounting de los reportes para contrastar unidades/epochs; no se declara otra auditoría completa de todos los anexos/código ni se rerun ningún experimento. En los13 registros coinciden case count y ambas fraccionesType1/Type2 con la evidencia sucesora. El conjunto descriptivo contiene162operaciones/casos:122 del primercohorte y40 del segundo. No es una tasa común ni162observaciones independientes de una misma tecnología.
+
+El linaje distingue resultado original, sucesor coste/tipos de nueve perfiles y repair successor de trece. Se preservan26controles originales y40controles de reparación/positivos, elegidos tras conocer defectos. Un replay no duplica la muestra. Los antiguos párrafos no puntuados pertenecen a su versión; los nuevos diagnósticos tienen su registro, inputs yadmisiónM propios. RawP no se fuerza aType2 yØ no se fuerza aType1: el SQL conserva unP fuera deType2 yHEW tiene9Ø sin convertirlas en9Type1.
+
+### Comparaciones y trabajos separados
+
+Las fuentes HF conservan éxitos convencionales y límites: strong-native8/8 frente a7/8native+EA; cachedlineage EA8/10 frente a9/10revalidación; Casbin-polling mejora con recarga convencional tick15 frente a17EA. Los rapports de access-check para native/model-receiver declaran cero model requests/episodes y bloqueo antes de ejecución. No se hereda ejecución de modelos desde los nombres de directorio. El botv0.6 conserva30casos×10arms=300trazas sintéticas y7efectos known-denied del comparatorstrong-assurance frente a8EA-meta-local; no se convierte en aceptación del paquete StageAv0.3, que registra blind-reader/mutations pendientes.
+
+Los lotes R123(480redes), socialcontinuo(960) ydynamicreview(1056) se leen por sus protocolos propios: redes y receiver/checkpoint records no son muestras deLLM. En esos lotes no se ejecutó un brazoEA; se conservan revalidación convencional y pendientes de admisión/continuidad. El00I-STATEFUL aporta efecto/recovery local por contrato separado;00L combina trazas en papel, evidencia simbólica y correcciones. No se crea una campaña por fichero, repetición o réplica.
+
+### Inconsistencia material encontrada
+
+00K-A04 anuncia379 al principio y conserva en§6 un bloque101+27=128 presentado como expected regression contract. El runner actual fija42+58+49+76+47+74=346core y10+11+12=33supplemental,379total; el router coincide. Se propone una aclaración vigente al final y enlace directo desde DDS a ella. Los números anteriores, código, historial, resultados adversos yfalsifiers permanecen. No se ejecutaron los379tests aquí ni se los usa como score científico.
+
+### Prioridad y siguientes pasos
+
+Cuatro candidatos de impactoAlto/riesgoBajo/esfuerzoMedio: primero00Kconteo, luego linaje de estudios, mapa de informes DDS ycomparaciones HF. El beneficio es reconocer el trabajo ya ejecutado y qué conclusión puede usarse. Riesgos concretos: duplicar cohortes, mezclar unidades/versiones o asociar un pendingaunresult; las adiciones enlazan el registro eidentifican alcance. No cambian thresholds, datos, hipótesis o experimentos. PendingGOtanda5. Después corresponde conciliación de navegación; esta tanda no equivale al cierre de las cinco/sexta pasadas científicas de todo el corpus.
+
+
+Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
+
+
+## Revisión histórica a fondo de 00K: 128 →134 →379 — 12 octubre 2026
+
+**Instrucción de Iván:** «revisa a fondo qué pasó, no tomes decisiones apresuradas». Auditoría realizada por Codex, mismo asistente. Se revisaron las cuatro versiones Git de00K-A04, ocho del runner, historial de router/workflow/manifest, patches ylogs de CI. El informe canónico sigue con blob55259d1863e062e02f40d0bf50e91b50788c7e4a; ningún número, fixture, resultado o umbral se modificó. No se lanzó ni repitió una campaña. La CI reciente consultada ya había sido generada por el workflow existente.
+
+### Qué ocurrió, con versión y evidencia
+
+| Estado / cambio | Evidencia comprobada | Interpretación |
+|---|---|---|
+| 25 septiembre05:40UTC, informe inicial5a3d49f | Intro/tablas/§6 dan101+27=128. [CI36099824950](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36099824950), headf66cf2a,10jobsSUCCESS ylogaggregate128/128. | El128 es un resultado histórico real y coherente con ese contrato, no una cifra arbitraria. |
+| 05:47UTC, runner181fa2d | Cross-scenario pasa6→12:101+33=134. [CI36100046965](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965), head138fab3,10jobsSUCCESS ylog134/134. | Cambia el conjunto registrado; su resultado no reemplaza el128 anterior. |
+| 06:18–07:33UTC | Runner progresa163→208→242→289→322→379 al cambiarP1–P6. Último runner894173d:346core+33supplemental. | Hay más controles y también cambios de diseño/aislamiento;379−128 no representa251experimentos independientes añadidos a una muestra idéntica. |
+| 07:38UTC, informe7b42231 | [Patch exacto](https://github.com/dakleyer/structural-awareness-contributions/commit/7b422314e170c7da910ba3ac995e561239d31466) actualizaintro/coretables/totals a379; deja§6con128 yuna fila cross-scenario aún6. | Aquí se identifica la actualización documental parcial. |
+| 07:42UTC, CI379 | [CI36108965548](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548), head948b493,10jobsSUCCESS. Log:42+58+49+76+47+74=346 y10+11+12=33;379/379. | La ejecución del nuevo conjunto está respaldada porlogs, no sólo por el título del informe. |
+| 07:46 y08:30UTC | 3a42eb1 añadeCI;78089c7 corrige la fila6→12 yA05→A06. Ningúnpatch cambia el bloque§6. | El desfase128 persiste en el documento hasta elheadconsultado. |
+| CI actual delhead eee0a74 | [CI38283402660](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/38283402660):13jobsSUCCESS yaggregate379/379. Hay meta-checks y3replaysP5 separados. | No sumar esos replays/meta-checks a379 ni llamarlos casos científicos nuevos. |
+
+### Qué cambió en las pruebas y qué se preservó
+
+El manifestactual declara corrección deconfoundsP1(source/recordclass), matched-prefixP2, eliminación deHOLDmarkerconfoundP3, refinamientoP4(full lineage no necesaria conpermitPDP/capability válido), exhaustivebasisP5 ydependencia transitivaP6. No es un simple cambio deetiqueta o contador: esos cambios afectan qué pregunta y controles sostienen cada argumento. Una CI verde acredita el código/expectativas delcommit, no necesidad universal ni evaluación deproducto.
+
+Se comprobaron contra sus pins los seis archivos de00K-HISTORICAL A1–A3: todos losblobs coinciden exactamente con las fuentes originales348edcb/8af3969/465c892. El archivo conserva32assertions devariantes diferentes, excluidas del379. Las ejecuciones128 y134 siguen identificadas por sus propios commits/logs. No se encontró aquí evidencia depérdida deesosarchivos/resultados; tampoco se afirma una prueba exhaustiva de toda la teoría por este cotejo.
+
+### Decisión y propuesta vigente
+
+No reemplazar128 por379 sin contexto. La candidata deconteo de tanda5 queda refinada como adición histórica conpins/CI yreferencias defixtures. Conserva la propuesta anterior como historia; esta variante es la referencia activa para la futura decisión. ImpactoAlto/riesgoBajo/esfuerzoMedio, pendingGOdeIván. Elantes sigue siendo literal delmismo blob; el índiceDDS ylos otros tres candidatos continúan compatibles con elanchor previsto. Ningúncambio canónico se incorpora por esta auditoría.
+
+
+La variante literal y el seguimiento de las ejecuciones están en la [única VNext propietaria](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md). Las cuatro propuestas de tanda5 siguen pendientes; esta comprobación no cambia sus fuentes.
+
+
+## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
+
+Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 71 | Aclaración conjunta de arquitectura, evidencia y posturas al final de EP | architectural-contributions/ecosystem-positioning/README.md | Aplicado |
+
+
+### Conciliación de la aplicación
+
+RA y Operation comparten la lectura A/B/C/D: B conserva soporte/reserva evaluable, C una vía fundada aún no caracterizada y D una barrera efectiva.01C/Composition conservan pregunta, scope, versiones y vigencia al reutilizar cartografía; rol contractual y conducta observada permanecen separados. Gradient y Operation usan el mismo perfil escalar/vectorial, conservando alternativas incomparables, empates y ausencia de máximo.01J reconoce UNKNOWN y sólo asigna D cuando existe barrera efectiva; su ejemplo de telemetry ya exigía esa condición. Foundation admite Type1/2 dentro de un scope fijo y mantiene Type0, M, causalidad y resultados positivos convencionales. El checker recibe su corrección en v0.4; los freezes permanecen. No se redistribuye ningún archivo ni se crea otra VNext.
+
+### Líneas sin cambio literal ejecutable
+
+43–45 son tareas para localizar obligaciones/realización, y46–51 perfiles, fidelidad, campañas y evaluación de una realización. Continúan como trabajo de investigación definido por sus fuentes, no como cambios de texto esperando permiso.64/67 están superadas por01K vigente;65/66 resueltas por integración posterior;75 contradice la posterior instrucción de Iván de retirar fichas aplicadas y no tiene viejo vigente: no se restaura la cola retirada. Las propuestas descartadas o históricas no se reejecutan. La revisión científica completa del corpus y sus fuentes no se cierra por esta aplicación.
+
+
+## Cierre de aplicación autorizada — 12 octubre 2026
+
+**31 cambios de fuente incorporados:** tanda5(4) en [main9fb942](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35), anteriores(26) en [main00ea317](https://github.com/dakleyer/structural-awareness-contributions/commit/00ea3174c10a7e7cad84905d5642aa74eba35b18), ysnapshotUC-21(1) en [use-cases maine9efbda](https://github.com/dakleyer/use-cases/commit/e9efbda5e0cc002793a4df82484a6b3f47a79976). Se verificaron los10+36+7archivos de esas publicaciones por lectura completa de vuelta. Los cambios16/22/23 tienen dos sucesores de trabajo;74 tienechecker/testv0.4. Los tres originales permanecen con sus blobs exactos; los resultados/manifest/binaries se preservan. Se verificó la sustitución inversa del párrafoUC-21 y la identidad de los70otrosblobs de use-cases.
+
+No quedan pares actuales incorporables por aplicar.43–51 requieren concretar un perfil, contrato o investigación y no representan texto aprobado abandonado.3/4/5 fueron reformulados en71;64/67 superados;65/66 resueltos;75 superado por la instrucción posterior de retirar fichas aplicadas. Las tablasEO originales de UC-21 quedan históricas porque la guía de cincoobjetivos y el formulario existente ya resolvieron esa navegación; no se agrega una segunda1.1. Las fichas aplicadas y la repetición de59 se retiran de la cola, manteniendo auditorías, atribución, desacuerdos y predecessor Git.
+
+La entradaFG-TIDA conserva el envío congelado. Su propuesta de enlace queda preparada en UC-21 VNext; la integración GitHub devuelve403para modificar esa Issue. PDF y futuros experimentos no se sustituyen por esta publicación. La navegación ya incorporada funciona en main de ambos repositorios y apunta a los expedientes propietarios.
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Qué se mantiene y qué necesita ajuste
+
+La ruta es **UC-21 → objetivos → Challenges → DDS → campañas → resultados**. El caso conserva sus preguntas y afirmaciones; DDS, el método; cada estudio, su contrato y evidencia. Se recorrieron dos entradas. La Issue 21 conserva el envío `aec08fb5`; main contiene las ayudas de lectura añadidas después. El envío mantiene una lectura íntegra de su edición. Los comentarios S5 y S4 enlazan DDS en el commit `2c7f545`; esa referencia histórica no lleva al índice actual. La adición al cuerpo de la Issue sigue preparada por separado, con el permiso de edición pendiente de resolver.
+
+El árbol de ambos repositorios contiene 2.281 archivos Git. Se autentican 2.218 textos UTF-8 contra sus blobs, incluidos 1.007 Markdown. El análisis extrae 15.437 relaciones y no detecta destinos o fragmentos faltantes en el subconjunto activo, excluyendo referencias históricas y VNext. Esto verifica navegación; las URLs externas y la verdad científica de las fuentes tienen otras comprobaciones. Además, se cotejaron 186 referencias de estudio y 173 bindings SHA256 congelados seleccionados: todos conservan destino e identidad. Los trece registros mantienen su pregunta, registro, freeze y evidencia sucesora. No se reejecutó una campaña.
+
+Diez enlaces activos apuntan a la rama anterior de UC-21: siete en DDS, uno en la nota S4 de baseline, uno en extensiones y uno en la fuente histórica 00G. Sus destinos y fragmentos se leyeron en el head real `188f319`: existen. El README de esa rama conserva la redacción anterior a la precisión de snapshot incorporada en main. Se propone actualizar nueve enlaces de orientación, conservando sus URI anteriores. El enlace de 00G mantiene su contexto histórico y no se reescribe el escenario. El inventario de 54 archivos sigue correcto, pero el rótulo “maintained package” identifica el antiguo corte `aafc9a`; debe distinguirse de main.
+
+Los 32 Markdown del paquete UC-21 están conectados por sus índices y guías. Los seis Markdown sin entrada activa encontrados fuera de ese paquete corresponden al root, la plantilla de Issue y el software de registro de use-cases. No son documentos abandonados de UC-21. Los assets conservan sus rutas y acceso por carpeta; el inventario no cuenta como una lectura científica de los binarios.
+
+### Nueva relación material UC-4 ↔ UC-21
+
+El [comentario de Iván del 12 de octubre](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997), último de los 33 consultados, propone recibir una determinación con sus condiciones, examinar su aplicabilidad, formular un hallazgo acotado y devolver un control candidato a otra prueba. El PASS original conserva su ámbito; una aplicabilidad posterior no establecida no borra ese resultado. Un límite de observación también puede ser una conclusión válida. Sus pasos A–F son la secuencia propuesta, no etapas DDS. EA figura como una posible capa complementaria y el control convencional competente conserva su resultado. No aparece una respuesta posterior en el hilo consultado. La revisión de esta relación queda registrada en el caso, DDS y el puente UC4.
+
+### Seis cambios nuevos propuestos
+
+| ID | Cambio | Impacto esperado | Riesgo | Esfuerzo | Orden |
+|---|---|---|---|---|---|
+| 77 | Leer UC-21 desde main en las siete rutas DDS | Alto | Bajo | Medio | Primera |
+| 78 | Distinguir el inventario histórico de la lectura actual | Alto | Bajo | Bajo | Primera |
+| 79 | Llevar la familia S4 vigente a main sin perder su ruta anterior | Alto | Bajo | Bajo | Primera |
+| 80 | Conectar la reutilización de los trece estudios con el caso vigente | Alto | Bajo | Bajo | Primera |
+| 81 | Dar acceso al checker corregido manteniendo la edición congelada | Alto | Bajo | Medio | Tras 77 |
+| 82 | Enlazar el nuevo ciclo bidireccional propuesto UC4–UC21 | Alto | Bajo | Bajo | Tras 78/81 |
+
+Los pares completos están al final de las VNext propietarias: DDS 77/81, UC-21 README 78/82, baseline 79 y extensiones 80. Son seis cambios lógicos, trece pasajes y cuatro fuentes. En copias de análisis se verificaron la sustitución inversa exacta, la conservación de todas las URI HTTP anteriores y diecisiete enlaces actuales nuevos o modificados. **Estado: preparados, pendientes del GO de esta nueva tanda.** La autorización anterior incorporó sus propios pendientes.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
+
+
+## Migración conservadora completada en los repositorios — 12 octubre 2026
+
+Iván autoriza completar la migración y preservar toda la información y sus rutas. Se incorporan los seis cambios77–82 mediante sus trece pasajes exactos, con nueve enlaces de orientación actualizados y sus referencias anteriores conservadas. No se mueve ni renombra ningún archivo. Las fuentes mantienen todo el contenido fuera de esos pasajes; los anexos añadidos son bloques al final.
+
+El cotejo encontró dos archivos históricos del paquete S5 que ya faltaban de main antes de esta tanda: README y ZIP. Ambos vuelven a sus rutas originales con los mismos blobs del commit2c7f545. El ZIP conserva123.884bytes y SHA2569ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8; sus25miembros pasan comprobación CRC, sin ejecutar scripts. La restauración se presenta en la hoja adicional EA, con su edición y finalidad histórica. El paquete v0.1.3 de Steven y sus límites posteriores mantienen su propio registro.
+
+El README UC-21 añade al final acceso a todos los archivos de su paquete, los materiales de envío y los archivos de trabajo del registro. El anexo adicional EA enlaza el soporte compartido, los originales R01 y la historia de revisión. Las tres hojas auxiliares EA/RA/MSCA mantienen su organización; no se crea una colección de índices ni niveles nuevos. El envío aec08fb5, los freezes y los resultados siguen con sus identidades.
+
+La comprobación de cierre compara los inventarios4ebb0c8(1.306archivos),af344bd(2.200) y2c7f545(2.113) con el árbolfinal, incluyendo las dos restauraciones. El criterio es conservar todas las rutas, bytes fuera de las ediciones aprobadas y destinos de enlace, además de acceso por el propietario o su anexo. La navegación de main se completa; no se confunde con terminar el ciclo científico de cinco/sexta pasadas.
+
+La edición de la Issue pública #21 se mantiene separada: la revisión automática rechazó la nueva adición al cuerpo por exigir aprobación literal del texto externo y señalar el bloqueo previo403. La lectura de vuelta comprobó cuerpo, título y estado intactos. El navegador también falló al inicializar sus assets; no se intentó otro medio de escritura. El bloque exacto se publica en la VNext de README UC-21 para una decisión concreta. No hay PDF UC-21 en los árboles actuales de estos dos repositorios; no se fabrica ni sustituye uno como parte de esta migración.
+
+
+### Comprobación efectiva de conservación y accesibilidad
+
+El árbol final contiene2.206archivos en Contributions y77en use-cases:2.283en total. Comparando rutas, no falta ninguno de los1.306archivos de4ebb0c8, los2.200deaf344bd o los2.113de2c7f545 después de restaurar el README yZIP históricos. No se borra, mueve o renombra una ruta. El ZIP restaurado es el mismo blob y su SHA256 coincide con el registro original.
+
+En los cinco documentos de navegación intervenidos se conservan los2.006destinos de enlace anteriores, con su multiplicidad; se añaden31. Los textos fuera de los13pasajes aprobados coinciden exactamente; los dos bloques auxiliares son adiciones al final. Ningún enlace anterior se retira para ocultar una versión. El análisis final extrae15.515relaciones y encuentra cero destinos o fragments faltantes en los enlaces activos; las URLs de terceros conservan su atribución y pins.
+
+La prueba de acceso desde los lectores existentes, incluyendo exploración de las carpetas explícitamente enlazadas, cubre los2.283archivos. Se diferencia ese acceso del enlace individual en la narración: código compartido, schemas, imágenes, fixtures, controles y versiones históricas permanecen en sus carpetas de origen, con enlaces auxiliares al final de los índices. No se convierten en otra arquitectura ni se fuerza su lectura como un resultado científico nuevo.
+
+
+## Informe auditable de la reestructuración UC-21 / DDS — 13 octubre 2026
+
+Iván autoriza publicar el [informe completo de la sesión](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13.html) como trazabilidad de los cambios de navegación y de las incorporaciones aprobadas. Reúne 75 commits consultados, 304 rutas y 76 pares literales antes/después, con razones, autores, versiones, restauraciones y comprobaciones de conservación. El HTML se puede descargar y leer sin recursos externos; su [manifiesto SHA-256](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13_MANIFEST.json) identifica el archivo exacto entregado.
+
+El informe documenta las actuaciones del 6 al 12 de octubre, con cortes `9056ed78e3e79c025f253cfbc823ccc0293064a4` (Contributions) y `0d32667ccce1dd3e568459a64a89e83987d92d4e` (use-cases). La publicación parte de `b5d126cc877c7e4c6bb7fe45bfa7173a128a6023` y conserva las incorporaciones posteriores. Es un registro retrospectivo de la reestructuración; el estado de cada investigación se consulta en su expediente vigente. No constituye otra VNext ni otro nivel de README.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+FG-TIDA: índice de casos → Issue #21 → UC-21 → objetivos → Challenges → DDS → campañas/estudios → resultados → siguientes decisiones.
+
+### Presentación de conjunto
+
+UC-21 aporta el caso y sus preguntas: decisión correcta y continuidad legítima; controles existentes eficaces; recurrencia después de corregir R1; mecanismo causal común; y respuesta común suficiente. HC, HR, HS y los contrastes H1–H6 conservan sus protocolos. Las seis familias son Challenges en la guía; sus S1–S6, fuentes 00E–00J y rutas originales permanecen. El escenario DDS aplica una tecnología/configuración bajo condiciones delimitadas.
+
+DDS aporta el método. Sus etapas A/B/C se distinguen por objeto y referencia; las rutas de comparación UC-21 R0/R1/R2 permanecen independientes de esos nombres. Cada estudio enlaza registro, versión, freeze, ejecución, evidencia y conclusión; un catálogo de archivos no sustituye esos resultados.
+
+Hay trabajo real que ya puede recorrerse: la contribución S5 con alcance de modelo corregido, su auditoría preservada y el compañero sintético 00I-STATEFUL; los estudios e informes reutilizables bajo sus propios contratos; y el código CDA v0.1.3 publicado por su autor, todavía sujeto a la revisión que corresponda al experimento seleccionado. Los trece estudios locales no se agregan como si fueran una campaña UC-21.
+
+El seguimiento UC-4/CDA se prepara como colaboración seleccionada por pregunta. Nelson conserva el ciclo experimental UC-4 descrito en su comentario. En paralelo pueden prepararse el Challenge R2, comparadores, contrapruebas y revisión Stage A; ejecutar R2 requiere R1 demostrada y congelada. Diseño abierto, ejecución/verificación independiente y selección posterior de especificaciones se separan. La vacante de verificación sigue abierta; el texto no nombra un nuevo titular.
+
+Flores / Theme #21 mantiene su expediente DDS propio y su estado de preparación. No es la Issue de caso UC-21 pese a compartir el número 21. La raíz enlaza el registro de desarrollo como lectura relacionada, sin atribuir esa campaña al caso.
+
+| ID | Cambio | Impacto | Riesgo | Esfuerzo | Orden | Estado |
+|---|---|---|---|---|---|---|
+| 83 | Dar a UC-21 una entrada directa y completa desde su raíz | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 84 | Conectar método y arquitectura actuales conservando los cortes anteriores | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 85 | Actualizar las aportaciones S4/CDA y el ciclo opcional UC-4 ↔ UC-21 | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 86 | Explicar el siguiente trabajo y quién decide cada cierre | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 87 | Dar el mismo recorrido al lector que entra directamente en USE_CASE | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 88 | Conciliar en DDS las condiciones del seguimiento UC-4 / CDA | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 89 | Incluir UC-21 en los índices de casos | Alto | Medio | Bajo | Siguiente | Preparado; no aplicado |
+| 90 | Poner la presentación mantenida en la entrada pública de UC-21 | Alto | Medio | Bajo | Siguiente | Preparado; no aplicado |
+### Orden de incorporación y comprobación final
+
+1. Aprobar y aplicar 83–88 al paquete mantenido y al índice DDS; mantener originales fuera de cada par, enlaces anteriores, anexos, assets, fixtures y versiones. Los destinos nuevos se habilitan juntos: cabeceras 83/87 apuntan al apartado añadido por 86.
+2. Incorporar 89 al índice del fork. Para la tabla oficial, entregar el mismo par al mantenedor FG-TIDA o incorporarlo con su acceso autorizado. La fila copia el tema marcado como principal en la presentación; no afirma una asignación nueva.
+3. Incorporar 90 al cuerpo de la Issue por su propietario, con GO literal sobre el bloque. Mantener título, estado, labels, campos, casillas, comentarios y enlaces congelados. La petición actual es preparación; no se envía un comentario externo ni se cierra la Issue.
+4. Leer desde la tabla oficial y el enlace de la Issue hasta los cinco objetivos, seis Challenges, método DDS, protocolos, registro/freeze/informe y retorno. Probar también entrada directa USE_CASE, ida y vuelta desde DDS y acceso por anexos a soporte y archivos históricos.
+5. Comparar árboles y blobs contra el corte previo: ninguna ruta perdida, ningún archivo movido o renombrado; todos los destinos anteriores presentes. Comparar el cuerpo externo completo y revertir en copia cada sustitución para demostrar que fuera de lo acordado no cambia nada. Leer de vuelta todos los archivos aplicados; registrar commit, fecha y estado en las VNext y retirar cada ficha aplicada de pendientes según la instrucción de Iván, preservando auditorías y Git.
+
+El cierre documental se declara al completar ese recorrido y la conservación, incluida la entrada oficial. El cierre de cada investigación lo decide su propio contrato/evidencia: S5 al alcance evidenciado, un seguimiento CDA tras acordar ejecución y R1/R2, y especificaciones tras revisión de resultados. La revisión científica de cinco pasadas y conciliación global no se da por terminada por enlazar la raíz. El PDF UC-21 sigue sin localizarse en los dos árboles; no se incluye un reemplazo ficticio.
+
+Pares y presentación pública completos: [README UC-21 VNext](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md#cierre-de-entrada-uc-21--13-octubre-2026). Los originales se leen contra sus cortes actuales; no se cambia la jerarquía ni se crea una VNext.
+
+
+## Direct UC-21 entry in Contributions — 13 October 2026
+
+Ivan selects one maintained research corpus: **FG-TIDA Issue #21 → Contributions → UC-21 research questions → Challenge sources → DDS → registered studies and results**. The fork is a source archive, not another maintained canonical reader entry. New public preparation is written in English.
+
+The prior fork-based changes 83–90 are superseded as a proposed wave and must not be applied as prepared. Their old/proposed text and audit history remain intact. The official-index row may be re-proposed separately if needed; updating a fork index is no longer part of the current route.
+
+Current tree: Contributions `f960f6f5a627993643512b816430a485227f9118`, 2,249 files. DDS, 00E–00J source families, instruments and reports already exist here. The maintained fork still contains the full UC-21 case, twenty annexes, claim/recurrence protocols, assets and templates. This review has not found a complete second copy of that case package in Contributions. Replacing links alone is not a full source migration; no copied corpus or new repository is created to hide that distinction.
+
+The proposed first step reuses the existing DDS Canonical Method Index. It presents the five questions and six current Challenge sources while retaining original source protocols as pinned historical dependencies. The official Issue would then receive the exact primary-link replacement below. This preserves the submitted edition without routing current research through a moving fork branch. A later decision to integrate the entire case would first classify identical sources, unique content and necessary paths in a manifest; no archive or source is deleted or moved by this preparation.
+
+**Order:** incorporate and verify 92, then incorporate 91 at the official Issue with its owner's access and approval of the exact text. Complete source-package consolidation is a separate unresolved decision, not an accomplished migration. The official Issue remains unchanged during preparation; prior 403/automatic-review history is retained without an attempted bypass.
+
+Exact before/after passages are in the [existing DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#direct-uc-21-entry-in-contributions--13-october-2026). No new VNext or source file is created.
+
+
+## UC-21 annex sources already in Contributions — 13 October 2026
+
+The earlier statement that the twenty annexes were only in the fork was too broad. Their compiled UC-21 files are preserved in that package, but the six failure-family sources and nine technology-profile sources are already in Contributions baseline. Annex H's original causal/refutation and H1–H6 sources are also present in the 29 September document collection and canonical requirements.
+
+All twenty current annex blobs are unchanged since the verified 12 October case main. Eighteen also equal the submitted snapshot; S3 preserves its body below a retirement/source notice, and S6 is an adapter to 00J with its full original text preserved at the submission commit. None is missing from the case inventories. The two public ZIPs do not contain another full annex package.
+
+R, X, N and Evidence still need case-specific reconciliation: existing source material is not an identical complete case compilation. Reuse the existing source owners and carry over only verified unique obligations, rather than creating another twenty-file mirror. The [twenty-item source map](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#uc-21-twenty-annexes--location-and-source-content-reconciliation-13-october-2026) records actual paths, versions and remaining differences. Original sources remain unchanged.
+
+
+Publication custody: the review was rebased onto concurrent commit 49aa7b9eb00acf27de7b1bbd80b23df14a544902. Its Flores runtime-context additions do not change these two VNext or the baseline and hypothesis source counterparts examined above. The content comparison remains explicitly attached to its stated d06956a cut; no new Flores result is inferred from this annex check.
+
+
+## Entire fork preservation — 14 October 2026
+
+The [complete file/history reconciliation](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#entire-use-cases-fork--file-and-history-reconciliation-14-october-2026) accounts for all 77 current fork files, 14 additional branch/historical paths and 162 authenticated historical blob versions. The maintained corpus contains the fifteen direct family/technology sources, but **the compiled UC-21 case protocols, adapted artifacts and complete UC-20 branch package are not fully integrated**. The earlier completion statement concerned navigation, not full content import. The owner now requires complete material preservation inside the one Contributions corpus.
+
+Six family SVGs and one AWS JSON are exact existing copies; five family SVGs and three AWS JSON files are case adaptations with actual semantic/namespace differences. S6 was reduced from 46,256 to 3,633 bytes on 3 October; its complete submitted edition remains in history, and its differences from current 00J must be retained. The case manifest does not certify the current expanded package, and one listed USE_CASE digest has no match in authenticated reachable fork history.
+
+Changes 92/91 are reopened for content recovery and source-owner decisions. Preserve their literal pairs; do not treat an approved link edit as complete case transfer. Required order: full case/protocol preservation, family/profile differences, assets/fixture adapters, separately identified UC-20, then the Contributions entry and official UC-21 route. No physical reorganization, new canonical level or source edit is performed here. The detailed audit includes the upstream register/template files and unresolved historical deletion boundaries, rather than silently excluding them.
+
+
+## Content inside existing files — 14 October 2026
+
+The [literal content review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#content-within-surviving-files--literal-preservation-review-14-october-2026) checks 2,727 Contributions commits, 5,148 authenticated blobs and 3,625 modification/deletion events at `f16b3ba`. It includes internal rewrites in surviving files, not just the earlier deleted-path inventory. All 162 reachable fork editions are compared with current corpus bytes. Its supporting inventory names all 620 paths with retired text.
+
+Material reconciliations: DDS's old eight-column mapping retains its dimensions and eight family/support rows in current Method Index §8; 01K retains the five old formula expressions. An explicit required-HumanTime-fit condition is absent from its rewritten runtime gate: [CP-01/change93](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md#content-preservation-cp-01--restore-the-explicit-human-time-condition) proposes its bounded restoration, with old/current/proposed text and component/oversight dependencies. A deleted 22,330-byte Stage-A G-A01–G-A14 draft differs from the current SA-G00–SA-G14 catalogue; the full former text is now historical audit custody in the existing DDS VNext, not another active specification.
+
+Literal no-match counts are not lost-fact counts and do not prove preservation either. Applied-fiche retirements, corrected status/claims, namespace/URL changes and real omissions are kept distinct. Binary old editions/translation changes retain their source identities. Complete current-tree content preservation remains unconfirmed pending material crosswalks; direct-entry91/92 stay reopened. This publication changes only existing review/priority records.
+
+**EP append-only history:** source changes `6c93994c` and `c2d0d516` replaced the existing Human Intelligence/HID entry/title inside the file on 6 October. They do not meet byte append-only preservation, even where the newer paragraph carries the same idea and adds references. Their old and new passages are retained in the checked Git sources and the literal comparison. Record the source-custody/authorization question rather than retrospectively describing those operations as append-only; no canonical revert is performed.
+
+
+## Damage control and restoration plan — 14 October 2026
+
+The [detailed plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#damage-control-and-restoration-plan--14-october-2026) restores complete case/source custody and applicable current meaning without replaying superseded errors. It covers the162 distinct fork editions, all620 internally edited source paths/8,749 retired units and64 deleted-source events lacking a whole-blob receiver at the earlier cut. These are evidence queues, not proven loss counts or completed semantic reconciliations.
+
+Order: preserve exact editions; reconcile UC-21 objectives/H-R-Evidence/Conventions/run obligations; compare all six family/nine technology editions including full S6; retain figures and explicit fixture adapters; map old/current Stage-A clauses; reconcile HumanTime scheduling consumers; address binary/source-language/history and separate UC-20/support; then reprepare92's maintained route and91's actual official entry. Only the three existing canonical reading levels remain. Historical custody uses the existing boundary as a proposed destination, not a new active repository, README owner or VNext collection. Source adoption requires exact complete old/proposed passages or payloads and a named wave decision. No restoration is applied by this plan publication.
+
+
+## Second damage-review pass — organization and first findings, 14 October 2026
+
+Iván requests another detailed source-first review, document by document. [Three separate reviewer roles and the complete existing-space queue](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#second-damage-review-pass--separate-source-first-reviewers-14-october-2026) are now recorded. The thirteen assigned primary source units have complete source readings and bounded receiver/section judgements; unassigned sources and unclosed consumers remain visible. No new VNext or canonical source modification.
+
+The first findings narrow earlier loss interpretations: HC/HS and common metrics have active original/corpus receivers; S6’s30 gate cells, controls and measure meanings survive in00J; R0’s rights-record meaning must not be merged with the case route ladder. The real open work concerns complete edition custody, case-to-DDS HR/claim/form mapping, old-alias metric disposition and generic contract transfer. A documented incomplete A01 introduction update predates S6’s reduction.
+
+The [S6 review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#second-source-first-review--s6-t09-and-00j-14-october-2026) and [capacity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01K_VNext.md#second-contract-review--capacity-and-the-change93-alternative-14-october-2026) keep source identity, uncertainty and disagreement intact. Changes94/95 prepare two narrow Medium-impact/Low-risk reader corrections; candidate93 receives an alternative with Medium risk and unclosed consumers. None is applied. Remaining cohorts proceed through the existing owners and three reading levels; seven existing paired review paths are one joint logical comparison per pair, without deleting unique history.
+
+
+## Internal Contributions history — EP and Requirements, 14 October 2026
+
+The [second damage-review procedure](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#internal-contributions-history-takes-priority--14-october-2026) now gives priority to internal Contributions editions and commits after the case fork; external/fork comparisons are supporting provenance. Reviewer `/root/case_clause_forensics` read the four current units below, all11 Requirements deltas and all18 EP deltas from the29September reference (four same-day context changes,14 strictly after the recorded submitted-package timestamp). The remaining earlier EP changes are authenticated with full diffs but are not all semantically adjudicated.
+
+| Complete current source | Current blob / bytes | Internal identity coverage |
+|---|---|---|
+| [research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c` / 46217 | 12 distinct payloads; current source and declared internal deltas read |
+| [research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) | `c0226a1ba9a45976ad0c887dd9afb97b103e6c37` / 47111 | 1 distinct payloads; current source and declared internal deltas read |
+| [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md) | `9767ec8efb7d3a2875866ea3cd22ebc94882e930` / 90992 | 86 distinct payloads; current source and declared internal deltas read |
+| [architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md) | `f25aef42574afa9d321b352b3d2b1e1447575556` / 12211 | 1 distinct payloads; current source and declared internal deltas read |
+
+### INT-REQ-01 — Frozen Requirements did not acquire post-fork body edits
+
+**Judgement:** No post-29-September modification in this primary source.
+
+All 12 internal versions were authenticated. Its last body change is96cbc949 on25September, current blob4fe3d69. This stable cut was already the0ca06f hypothesis snapshot. Later working changes were not secretly put into the frozen original.
+
+### INT-REQ-02 — H3 falsification correction must survive any restoration
+
+**Judgement:** Supported correction, not missing old evidence.
+
+6a8fd5f changed the falsifier from material difference to no material difference or disappeared benefit under burden. H3 itself predicts greater hidden residual/false confidence on lossy paths, so the old contrary wording had the wrong direction. All six full hypothesis rows are exact across the12 primary versions. The correction alters falsification logic, not a missing hypothesis.
+
+### INT-REQ-03 — Approved S10 binding lives in a separate working successor
+
+**Judgement:** Versioned addition with documented current approval and preserved freeze.
+
+00ea317 adds successor c0226a1b, with an opening owner-approved #16 note and one S10 addition. Its inherited freeze statements describe the predecessor, as the opening note explains. H1–H6/KPIs and all other rows are unchanged. Current baseline and Document Control route to both. Broad actual adoption by every fixture/interface is not established, and registered studies correctly retain their own freeze.
+
+### INT-EP-01 — Five protected README replacements require their own authorization record
+
+**Judgement:** Actual replacements, with passage-specific contemporaneous GO not established.
+
+After the6October append-only instruction, commits39af310,6c93994,c2d0d516,1aba8cf,64fa9f replace existing protected passages. The record contains their complete old/new blocks and current receivers. Some are sound corrections or reclassification; that does not establish permission. The12October protected SHA and final append approval do not retrospectively authorize these earlier surgeries.
+
+### INT-EP-02 — Insertion is not the same event as replacement
+
+**Judgement:** Exact operation types preserved.
+
+1d24b7b prepends the review note;7150279 appends the strategy route;8a2860a inserts theHCsection;f77668d inserts the research/test paragraph;00ea317 appends the final clarity section. These transactions remove no old lines. Mid-body insertion is not a byte-prefix operation and its placement exception may need documentation, but it is not source deletion. The five replacement commits above are different.
+
+### INT-EP-03 — HIT retirement has an explicit current rejection rationale
+
+**Judgement:** Source correction with historical custody, not blind metric restoration.
+
+The earliest01K38fcb757 defines HIT accounting and HID(W) as queued demand minus available tokens. Internal2816aa1 rewrites that source to importHICT/HICR; protectedREADME39af310 follows. Current01K§16 expressly says Human Intelligence Tokens are not canonical HID units, permits local scheduling points and forbids calling themHID. §§14–15 preserve finite runtime capacity separately. This supports correction of the old metric object; no protected-README GO is inferred. The earlier five-formula preservation claim must retain the specific edition it examined, not encompass every earliest token formula.
+
+### INT-EP-04 — DDS reclassification preserves comparative obligations
+
+**Judgement:** No demonstrated lost matched-resource/negative-result contract in the examined surgery.
+
+1aba8cf renames00D from parallel comparative method to DDS comparator/fairness support. The current complete paragraphs still require matched B0–B3, frozen facts, continuity/failure branches, preregistration, ledger, downstream effects and pending independent comparison.64fa9f corrects Gate to Stage nomenclature; current Method Index distinguishes stage object, evidence mode and source-native testbed stages. These semantic receivers do not establish approval for protected replacements.
+
+### INT-EP-05 — Earlier truncation was real and restoration is not a full historical PASS
+
+**Judgement:** Temporary internal reduction with later substantial body restoration.
+
+bedcfce7 reduces75,561bytes to4,139 on27September.01e45c1 restores74,814 on28September. The full old/restored diff shows deck/route and ranking wording changes, while the technical body returns. Current media manifest preserves the removed Ward/Drive/mirror/PDF routes as explicit historical versions. Binary rendering/equality over all media was not reviewed. Other earlier EP versions remain semantically open, despite complete identity/diff capture.
+
+### INT-EP-06 — A23 and transfer prerequisites were strengthened before the fork
+
+**Judgement:** Preserved negative correction, not source loss.
+
+7d6ec216 and merge59ca3c42 produce the same corrected README15df1f0b. Old all-six conformance closure is withdrawn, P3/P5/P6 countermodels stay open, and transfer formulas gain BaseGuarantee/X3/X4 prerequisites. Current EP and A23 preserve those limits. The merge is a second chronology event, not a second independent result or payload.
+
+### INT-DEV-01 — Development strategy has one unchanged body
+
+**Judgement:** No later internal rewriting in this path.
+
+7150279 adds f25aef42 on6October; current path has the identical12,211-byte blob. Full strategy was read. Its priorities remain proposals: clarify meaning/evidence, end-to-end profile, negative-capable strong comparison, attributable review and bounded transfer. It grants no experiment/contact authority. Links to later-reviewed owners do not make the strategy complete or adopted.
+
+### INT-SCOPE-01 — All internal versions are identified; early semantic coverage remains bounded
+
+**Judgement:** 100 unique primary payloads/102 history events; not100 complete independent audits.
+
+Requirements12payloads/events; successor1; EP86payloads/88events including two duplicate-payload merges; strategy1. All identities and full modification diffs are captured. Current four bodies and all18 EP deltas from29September are read; Requirements all11 deltas are read. Other earlyEPdeltas are captured but not wholly semantically adjudicated. Prior fullDOCX reviews are contextual support, never substitutes for this internal chronology.
+
+### Five protected replacements — exact historical before/after
+
+These are observed applied transactions, **not pending restoration proposals**. Later current SHA protection, commit titles and a12October approval cannot establish earlier contemporaneous permission. Passage-specific authorization remains unaccredited. The full before/immediate-after blocks below distinguish semantic preservation from permission; current source reading and every prior audit remain intact. No revert follows from this finding.
+
+#### [39af310284c0](https://github.com/dakleyer/structural-awareness-contributions/commit/39af310284c0ec84798814ad380473ae1d23f18c) — 2026-10-06T18:11:26+02:00
+
+HID/HIT correction has explicit source rationale and receiver §§14–16. Time/qualified capacity are now represented by the runtime tuple; do not restore queue-deficit HID as the canonical debt definition.
+
+**Historical text before — complete affected block**
+
+~~~~text
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It separates **Human Time** from **Human Intelligence Tokens (HIT)**, defines a bounded working notion of **Human Intelligence Debt**, and connects finite human-review capacity to the existing Signalling/EHD and Repositioning paths.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It imports the existing **Human Intelligence Debt** framework — HICR, HICT and the architectural gap between feasible genuine human contribution and actual contribution — and connects it to a separate runtime Human Escalation capacity check over the existing Signalling/EHD and Repositioning paths.
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. The runtime question is whether a qualified human path is actually usable inside the response window; the architectural question is whether the interface is eliciting genuine human contribution or generating avoidable compensatory work. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [6c93994c0295](https://github.com/dakleyer/structural-awareness-contributions/commit/6c93994c02959c0c0061c08b96983ed5c4afdfbe) — 2026-10-06T18:25:22+02:00
+
+Expanded two-surface HC/HID source imports architecture/measurement distinctions, retains nonprivileged alerts and authority boundaries; no demonstrated deletion of those obligations.
+
+**Historical text before — complete affected block**
+
+~~~~text
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It imports the existing **Human Intelligence Debt** framework — HICR, HICT and the architectural gap between feasible genuine human contribution and actual contribution — and connects it to a separate runtime Human Escalation capacity check over the existing Signalling/EHD and Repositioning paths.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**01K — Human Capacity / Human Intelligence Debt**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is the additive extension for two non-fungible surfaces: **runtime Human Capacity** for a particular intervention window, and **Human Intelligence Debt** as the architecture-level gap between feasible genuine human contribution and the contribution the socio-technical system actually elicits. Its organisational annexes import HICR/HICT/HID, GIC/NEO/ACW, portfolio answerability, capability-multiplicity, recovery/velocity and Net Oversight Impact measures, with explicit evidence gates and cross-series bridges. It is consumed by Signalling/EHD and Repositioning where material; it is not a new EA/EP core mechanism.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [c2d0d5161bc4](https://github.com/dakleyer/structural-awareness-contributions/commit/c2d0d5161bc4ddd98258e071de29f586a8813636) — 2026-10-06T19:23:09+02:00
+
+Renames extension and appends A01 implementation routing. Old title is a retired local label; exact old source remains historical, while new component claim is a documentary contract, not native execution.
+
+**Historical text before — complete affected block**
+
+~~~~text
+### Additive Human Intelligence / Human Escalation extension
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+### Additive Human Capacity / Human Intelligence Debt extension
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+[**01K — Human Capacity / Human Intelligence Debt**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is the additive extension for two non-fungible surfaces: **runtime Human Capacity** for a particular intervention window, and **Human Intelligence Debt** as the architecture-level gap between feasible genuine human contribution and the contribution the socio-technical system actually elicits. Its organisational annexes import HICR/HICT/HID, GIC/NEO/ACW, portfolio answerability, capability-multiplicity, recovery/velocity and Net Oversight Impact measures, with explicit evidence gates and cross-series bridges. It is consumed by Signalling/EHD and Repositioning where material; it is not a new EA/EP core mechanism.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**01K — Human Capacity / Human Intelligence Debt**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is the additive extension for two non-fungible surfaces: **runtime Human Capacity** for a particular intervention window, and **Human Intelligence Debt** as the architecture-level gap between feasible genuine human contribution and the contribution the socio-technical system actually elicits. Its organisational annexes import HICR/HICT/HID, GIC/NEO/ACW, portfolio answerability, capability-multiplicity, recovery/velocity and Net Oversight Impact measures, with explicit evidence gates and cross-series bridges. It is consumed by Signalling/EHD and Repositioning where material; it is not a new EA/EP core mechanism. Its reusable implementation contract is [**01K-A01 — HC-HID Component Specification**](../../research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md), which exposes process-relative HC/HID A/B/C/D outputs through the ordinary EHD/receiver-requalification path, controls same-operation circularity and contributes human runtime/readiness/architecture cost to the existing DDS ledger.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [1aba8cf53868](https://github.com/dakleyer/structural-awareness-contributions/commit/1aba8cf5386806192ca572dff3de0f63814168f5) — 2026-10-07T11:35:23+02:00
+
+Reclassifies 00D as comparator/fairness support under DDS. Matched B0–B3 facts, controls, pre-registration, budget, downstream effects and pending independent comparison remain explicitly in the current paragraphs.
+
+**Historical text before — complete affected block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Follow Requirements → interfaces → fixtures/harness → benchmark → applied validation / evidence maturity. |
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Gate A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Gate-A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Gate-B and Gate-C claims require their own upstream packages and cannot be inferred from these earlier records.
+
+A narrative scenario is not evidence by itself. The corpus therefore separates **scenario**, **fixture**, **oracle**, **harness**, **pre-registration** and **execution**.
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+[**Testbed Method / Canonical Benchmark v0.2 — comparative execution method**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Comparative execution and independent replication remain pending.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+[**00D Canonical Benchmark v0.2 — DDS comparator/fairness support**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Within the current DDS method it is comparator/fairness support rather than a parallel method. Comparative execution and independent replication remain pending.
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+The comparative method freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published sources.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+The 00D support contract freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published supporting sources.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+#### [64fa9f3d777c](https://github.com/dakleyer/structural-awareness-contributions/commit/64fa9f3d777c30860b92ffa7e4440ef4b7193ca8) — 2026-10-07T13:24:21+02:00
+
+Gate to Stage terminology correction preserves object/evidence semantics and stable filenames in the current DDS Method Index; source-native Stage-0 terms retain their own meaning.
+
+**Historical text before — complete affected block**
+
+~~~~text
+
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+# Ecosystem Positioning
+
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+### Agentic Architecture for staying situated as the ecosystem changes
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Gate A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Stage A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
+~~~~
+**Historical text before — complete affected block**
+
+~~~~text
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Gate-A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Gate-B and Gate-C claims require their own upstream packages and cannot be inferred from these earlier records.
+~~~~
+
+**Historical text after — complete immediate receiving block**
+
+~~~~text
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Stage A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Stage B and Stage C claims require their own upstream packages and cannot be inferred from these earlier records.
+~~~~
+
+Current receiver: [current protected README](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md). Its changed passage is read in the current source; full source custody remains in the pinned predecessor and immediate commit. **Authorization:** No contemporaneous passage-specific human GO was located. Commit metadata and the later protected SHA do not supply that approval.
+
+### Restoration decisions and remaining work
+
+Retain H3’s corrected falsifier, current01K§16’s explicit HIT rejection, the separate runtime-capacity ledger, A23’s P3/P5/P6 countermodels and its conditional transfer prerequisites. These are reasoned internal corrections, not omissions to reverse. Review authorization and historical custody separately. Finish earlier EP clause/media dispositions and actual S10 consumer binding. [Requirements counterpart](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) records the same frozen/working consequences.
+
+| Review work | Positive impact | Risk of mistaken restoration | Effort |
+|---|---|---|---|
+| Reconcile five protected replacements with actual prepared passages/GO | High — verifiable custody and authority | High if later approval is treated as retroactive permission or an obsolete error is restored | Medium evidence work; no source revert |
+| Preserve corrected H3/HIT/A23 interpretation | High — correct falsification/debt/transfer object | High for blanket historical rollback | Low classification; source-consumer validation remains separate |
+| Working S10 discovery | Medium — readable current preparation route | Low for the complete bounded append; Medium for broad consumer adoption | Low editorial; Medium per consumer |
+| Earlier EP versions and media | Medium — complete history | High if textual restoration substitutes for all clauses/assets | High remaining source/visual review |
+
+
+### Prepared change 97 — Link the approved S10 working successor at the existing EP closing note
+
+**Status:** Prepared — pending named Ivan GO. **Impact:** Medium. **Risk:** Low. **Effort:** Low. **Priority:** Next.
+
+Source: [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/architectural-contributions/ecosystem-positioning/README.md); exact current blob `9767ec8efb7d3a2875866ea3cd22ebc94882e930`. Complete existing closing paragraph unique, located at EOF; append-only proposed addition.
+
+**Text before — complete current affected context**
+
+~~~~text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+~~~~
+
+**Text after — complete proposed context and addition**
+
+~~~~text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+
+For current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.
+~~~~
+
+**Why:** Makes the actual approved working S10 source discoverable while retaining the registered freeze for earlier studies.
+
+**Risk:** Working-source guidance could be mistaken for retroactive adoption; the complete appended sentence preserves the historic evidence/contract boundary.
+
+**Cost/validation:** One reading paragraph and two source checks; individual new-study consumer adoption is separate.
+
+**Dependencies:** Requirements working successor, baseline approved-successor route, DOCUMENT_CONTROL§26 and existing Requirements application#16.
+
+**Iván’s instruction/decision:** Ivan names this pair/wave; EP is append-only and all prior bytes must remain; validate current EOF and links. No source-body replacement. Pending; not applied. All other source bytes must remain unchanged.
+
+
+### Internal branches requiring their own disposition
+
+These eight tips have commits not wholly reachable from main; this graph statement does not establish that their substantive payloads are absent. Some entered main by a different integration path, some are draft-only work. Full current/branch source comparison remains in the actual owning source queue; do not merge or restore them from this table.
+
+| Contributions branch | Fixed tip | Real source/recipient question |
+|---|---|---|
+| `audit/pptx-canonical-2026-09-28` | [bfc50c4239f1](https://github.com/dakleyer/structural-awareness-contributions/commit/bfc50c4239f1bd5716931ef67014a10dedf1f3e0) | Intermediate PPTX branch versus final deck branch/current full media; binary/text/visual comparison remains separate. |
+| `campaign/flores-addendum-merge-20261013` | [0f7958c7aebc](https://github.com/dakleyer/structural-awareness-contributions/commit/0f7958c7aebcebd1c43b8902506c5587b145d729) | Technical/addendum preparation versus current recovered Flores campaign; exact and changed payload recipients differ. |
+| `campaign/flores-theme21-residual-20261013` | [04ade51c4d28](https://github.com/dakleyer/structural-awareness-contributions/commit/04ade51c4d28bc6e1ffa40364cecb78407d01d82) | Earlier Flores fg-tida/tests edition versus current campaigns-in-development body/history; source/key/method scope must remain distinct. |
+| `codex/abcd-foundation-2026-10-01` | [f5932a8f5f1b](https://github.com/dakleyer/structural-awareness-contributions/commit/f5932a8f5f1b7c75edf18dc66882f0633c01d778) | Old ABCD proposed canonical note versus actual maintained00M and foundational receivers; avoid restoring competing authority. |
+| `dds/china-unicom-privilege-lifecycle-stage-a-v0.1-20261014` | [b1d0aa2c75f8](https://github.com/dakleyer/structural-awareness-contributions/commit/b1d0aa2c75f814acfa5d1dd542f21268e3ac431c) | New China Unicom campaign drafts/28 paths absent at this main cut; branch-only work, no demonstrated main deletion or adoption. |
+| `research/hf-signalling-handshake-multigate-v04-20261012` | [9fa6878e6613](https://github.com/dakleyer/structural-awareness-contributions/commit/9fa6878e6613a296ef111a78a7251964972c26f3) | HF multigate-v0.4 draft/13 missing branch paths versus current counterfactual studies; no automatic run or evidence promotion. |
+| `research/steven-s5-audit-2026-10-11` | [d355f9022b3f](https://github.com/dakleyer/structural-awareness-contributions/commit/d355f9022b3f9f628707cb13542c6c8df7546acf) | S5 review-package versions/comments versus current S5 source and retained audit; comments are not sent by this check. |
+| `review/four-point-completion-registers-2026-10-12` | [1b7f30c53165](https://github.com/dakleyer/structural-awareness-contributions/commit/1b7f30c53165e35053b6c3103f734728fa5d7d6d) | Historical snapshot and review-register variants versus actual active files; no new audit of snapshots. |
+
+The complete global object graph is inventoried; semantic closure is per document. Current PDFs/decks and remaining early EP versions stay on the reading queue.
+
+
+## Substantive value and current DDS fit before any restoration — 14 October 2026
+
+**Iván’s instruction:** these passes must establish what earlier content contributes, whether its information remains valid and significant, and how it relates to the current DDS strategy. Finding an absent sentence is a lead to examine, not a reason to insert it. This instruction governs all pending damage/restoration work and its earlier candidates. No source change is authorized by this clarification.
+
+### The decision before drafting a change
+
+For each material discrepancy, the owning VNext must answer these questions in ordinary language:
+
+1. **What information does it carry?** State the actual definition, reasoning, requirement, control, negative result, evidence, dependency or useful explanation. Describe its original purpose and the precise claim it can support. A title, identifier or older phrase is not enough.
+2. **What is genuinely absent?** Read the complete current context and actual recipients. Distinguish a missing proposition from a renamed concept, transferred table, shorter equivalent explanation, duplicate, archived edition or corrected error. A surviving fragment does not prove the whole obligation survived either.
+3. **Is it still valid and applicable?** Check premises, version, authority, evidence and subsequent corrections. Explain whether a historical requirement still governs a registered study, has a qualified successor, or was deliberately superseded. Keep uncertainty visible when the sources do not settle that question.
+4. **Where does it belong in current DDS?** Name the specific Challenge/object, Stage A/B/C or support function and the actual owner. Explain how it helps specification discovery, architecture verification, implementation/problem validation, a sound comparator, useful infrastructure or the human reading route. Do not revive a parallel method or import a source-specific theorem into every DDS profile.
+5. **What useful difference would the change make?** Identify the reader, decision, obligation or result interpretation affected. Explain the consequence of leaving the text as it is and the benefit expected from the smallest adequate correction. Text volume, historical age and the number of apparent omissions are not impact measures. A missing limiter, refutation or negative result can be material even when it adds no new feature.
+6. **What is the supported disposition?** Record: already received; valid correction/supersession; history/support only; significant applicable omission; or unresolved. Link the evidence and explain the judgement. If no active change is warranted, say why and retain the historical source under its proper status.
+
+Only a supported significant applicable omission or a demonstrated current inconsistency advances to a surgical proposal. The proposal retains the complete literal current before/after, source and location, concrete benefit, impact, risk, effort, affected consumers and the decision Iván must make. A proposed restoration may require a newly qualified explanation rather than reinstating the old wording. It remains in the existing VNext until the specific wave/passages receive GO.
+
+### What the current strategy actually requires
+
+[The current DDS Method Index](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca9e6288b32cc29fcbc17c224d014ea3b016/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) distinguishes the object and reference of the three stages: Stage A compares candidate specifications/mechanisms against the frozen Challenge; Stage B verifies an architecture against the frozen Stage A package; Stage C validates a pinned implementation against the originating Challenge and observed effects. Evidence modes remain separate from those stages. Sections 4, 7 and 8 preserve the role of R01, comparator/oracle/harness infrastructure and earlier results without making them competing corpus-wide methods or retrospectively stronger evidence.
+
+[The development strategy](https://github.com/dakleyer/structural-awareness-contributions/blob/6e2eca9e6288b32cc29fcbc17c224d014ea3b016/architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md) supplies the broader purpose: preserve the meaning and evidence of claims, make a complete useful profile understandable, compare against competent alternatives with the possibility of a negative finding, and transfer only what its premises support. It is an earlier development proposal, read together with current DDS sources; it is not a reason to override later source-specific directions or registered contracts.
+
+**Strategic fit is a test of relevance and justified use, not agreement with a preferred result.** Contrary evidence, counterexamples, competence of conventional controls and applicable restrictions remain material. A changed strategy does not erase earlier results or the contract governing an old run. Historical significance can justify preservation and an explanatory route without reintroducing the passage as current authority.
+
+### Consequences already supported by the internal review
+
+| Earlier material | Current information and DDS role | Decision |
+|---|---|---|
+| Stage A’s former eight-family registry | Its classification and Cost/Risk/Effectiveness/Acceptance/BV/evidence distinctions have an actual recipient in Method Index §8 | Keep the current central registry and the historical source; no duplicate restoration |
+| The claim that one Stage A document is the whole DDS method | The current method has an Index and three substantive stages with distinct objects and references | Retain the updated ownership; review any genuinely missing whole-method version rule on its own evidence |
+| Earlier H3 falsifier, H2 independence iff, and token-queue definition of HID | The internal review records specific corrections and current recipients for their valid remaining content | Preserve the correction and its rationale; do not reinstate the erroneous assertion as a repair |
+| The original completion release manifest versus later active reports | Historical package custody is demonstrated; later documentation has its own edition and diagnostic scope | Preserve both epochs and propose only a useful current-reading clarification; do not regenerate the old manifest to fit later prose |
+| Earlier R01 proof/oracle material not yet adjudicated | A filename or relocation map does not settle the validity or applicability of its claims to current DDS | Read the complete material and consumers first; keep the disposition unresolved until then |
+
+These decisions narrow what may be proposed. They neither insert recovered material nor convert the remaining internal-history queue into a list of changes to apply. The earlier audits and exact pairs remain visible; their age or pending status creates no presumption that they should be adopted.
+
+
+## Third pass — fresh context and deferred audit comparison, 14 October 2026
+
+**Iván requests a fresh, detailed third review of the entire corpus and an independently derived restoration and organization plan.** Reviewer `/root/third_pass_blind_corpus` has been started with an empty conversation context (`fork_turns=none`). No previous findings, candidate list, audit ranking or earlier reviewer reports were supplied. The coordinator retains administrative continuity and keeps it out of the reviewer’s source judgement.
+
+### Phase A: derive and seal the review from primary sources
+
+The reviewer builds its own complete current-file/logical-unit inventory, chooses its own reading sequence from actual source dependencies, and fixes its source cut. All files must be accounted for: principal bodies and their parts/material evidence, code and results, schemas/records, original media/binaries, old versions, branch work and genuinely additional material. Metadata, copies and historical snapshots receive their actual role; counting them does not create extra independent articles or scientific passes.
+
+The central comparison is internal Contributions history: source creation, material intermediate versions and merge parents, current body, displaced information and actual receiving sources. The use-cases fork is secondary provenance. Per-document records identify complete versus partial reading and explain clause/table/formula/field/asset and producer–consumer–return consequences. Hashes, path existence and link scans support those judgements; they do not replace them.
+
+For each coherent cohort, the reviewer saves a timestamped, immutable first judgement, its plan and an exposure/read ledger, with exact source identities and SHA-256 custody. The reviewer may proceed to the next source cohort after sealing. **No earlier VNext audit, review report, priorities or memory is opened until Phase A has been completed and sealed for the whole principal corpus and its material integrations.** Unblinding after one cohort would influence the cohorts that remain, so it is expressly deferred.
+
+Operating controls are read without their appended summaries of earlier audit results. Primary-source assertions and any review commentary encountered in a primary source are logged separately. An accidental exposure is recorded against the affected scope; the independence claim follows that record rather than an assumed label. The agent uses the configured model; the distinction is its fresh context and evidence process, not an invented different model or institution.
+
+### Phase B: compare earlier audits after the independent baseline
+
+Once the whole Phase A baseline is sealed, the reviewer reads the existing audits and distinguishes agreement, disagreement, overlooked evidence and genuinely new findings. The sealed first judgements remain unchanged. Later answers or revisions are dated additions; they cannot be substituted for the original independent record.
+
+The coordinator can publish sealed partial findings before Phase A ends, using the existing owning VNext and preserving its exact predecessor. Those publications are not fed back to the reviewer as evidence or priorities. The fixed source cut prevents new review additions from silently entering the blind source set. Substantive feedback from the coordinator is deferred; custody/coverage checks are kept separate from the reviewer’s reasoning.
+
+### Independently derived restoration and organization plan
+
+Each proposed change must justify the information’s validity, significance, current DDS role and concrete useful effect. The reviewer determines whether it is already received, a sound correction/supersession, history/support only, a significant applicable omission, or unresolved. Negative evidence and applicable historic contracts remain material. No recovered wording is inserted merely because it disappeared.
+
+Where an active change is justified, the existing owner receives complete literal current text before and complete proposed text after, exact location/source, reason/evidence, dependencies and ordering, expected impact, risk, effort and acceptance checks. Organization proposals explain the actual source/destination and preserve content, original files, links and the three canonical README levels. They are plans, not permission to move files, establish competing sources or rebuild the tree.
+
+Original canonical documents, frozen evidence, results, code and binaries remain in reading mode. Restoration/organization requires Iván’s GO for the named passages or wave. This request authorizes the review and its plan, not automatic incorporation. No new public VNext, report collection, experiment, contact or timer is created.
+
+### Actual progress and closure
+
+The new reviewer has been dispatched; its own inventory, first source judgements and plan are being produced. This protocol is not their result and does not certify any file as reviewed. Progress distinguishes unread, complete source read, material history read, receiving relation incomplete, first judgement sealed, earlier audit compared, plan prepared and publication verified. Whole-corpus completion requires those actual records and the final cross-document reconciliation; a first cohort does not close the third pass.
+
+
+## Third-pass isolation correction — memory-free source reviewer, 14 October 2026
+
+The empty-conversation collaboration attempt described above disclosed that its runtime still supplied a general memory summary. That does not meet Iván’s strict requirement of no previous review knowledge. The coordinator stopped that attempt. Its initial inventory and reads remain preserved as setup evidence and are **not counted as the independent third-pass baseline**. No old audit body was deliberately opened, and no source change was applied.
+
+The replacement is one isolated source-review session, `01a13c1e-5ce0-7711-824b-e372b6c3c5b2`, started with memory use and generation disabled for that invocation, without loading user configuration or enabling hooks, apps or subagents. The sandbox and automatic approval review remain active; global settings and credentials are unchanged. [OpenAI Docs — configuration reference](https://learn.chatgpt.com/docs/config-file/config-reference) documents that disabling `memories.use_memories` prevents existing memory injection. The local launch options and initial-context record provide the evidence for this actual run.
+
+Before opening the corpus, the replacement wrote an exposure record stating that no previous memory, conversation or corpus-review findings were visible. It inspected only the neutral operating assignment at that point. The original record was copied under coordinator custody before source reading. Initial exposure SHA-256: `4784db9ad7fb218a50d144a14ac449f45969cb64d4d8d70e10120c0640aa3866`. Operational preflight attempts and interrupted starts are retained separately and do not create extra audit credits or source judgements.
+
+The reviewer receives no previous findings, candidates or earlier ranking. It derives its own inventory, source cut, reading sequence, source/history/receiver judgements and restoration/organization plan. The coordinator supplies administrative custody only. The full Phase A isolation gate remains: prior audits stay unread until all principal source/material-integration first judgements are sealed. Published partial results will not be fed back into the reviewer’s evidence set.
+
+Actual status: the memory-free reviewer is running its initial source work. This correction establishes the operating process; it is not a completed third review, a completed plan or a judgement on all files. Source-reading coverage, sealed results and unresolved work will be recorded from that reviewer’s own artifacts. The unique existing VNext owners remain the publication destination. No restoration, reorganization, experiment or timer is activated.
+
+
+## Third independent review — first scoped source judgement, 14 October 2026
+
+The [00M VNext first source judgement](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026) now contains the isolated reviewer's original assessment, complete old/successor evidence and its own limited plan. The three internal branch versions correct a timing implication: a finite terminating construction does not establish a useful operational deadline. The judgement is **preserve the correction, no current replacement proposed**. The coordinator authenticated the source blobs, unique quoted passages and branch ancestry; it did not supply prior findings to the reviewer.
+
+This is the first scoped result, not a completed document/cohort or global restoration plan. The reviewer continues its own current-source, internal-history and receiver queue on fixed cut `36b6d6e0b485170d68445fcb1bf5540d540355b7`. All-source first judgements must be sealed before it compares previous audit bodies. Original documents, programs, results and binaries remain unchanged.
+
+
+## Third independent review — first execution source account, 14 October 2026
+
+The isolated reviewer has preserved its first partial report and continues the same Phase A source review. It records six current paths with complete textual coverage (five direct, one comparative), seventeen distinct authenticated payload readings/comparisons and one scoped branch judgement. No logical-source cohort or whole restoration/organization plan is complete; 2,340 current paths still had no substantive reading at that boundary. Inventory and material reading remain separate.
+
+The actual source accounts are now within the existing [00M VNext](../../research/ecosystem-awareness/baseline/00M_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026), [00N VNext](../../research/ecosystem-awareness/baseline/00N_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026) and [Requirements VNext](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#third-independent-source-review--first-current-text-reading-14-october-2026). They explain the meanings, conditional mathematical arguments, conventional/comparator and time/authority/burden constraints actually read. These are substantive partials, not a scan or a third-pass completion claim.
+
+### Root entry — isolated reviewer's own first source account
+
+The root README owns programme navigationand separates mathematical work, explanatory field notes, engineering provenance and architecture proposals. It routes the current reader to 00M v0.8 and 00N v0.7 and supplies distinct EA, RA and MSCA technical gates. Its evidence-boundary table refuses to promote engineering provenance to universal validation or submissions to endorsement. Root navigation supports identifying routes; it does not establish content reception in the unread target files. Its 47 path-internal historical payloads remain largely unread.
+
+### Own plan and next source frontier
+
+The first plan retains the justified branch timing correction and proposes no current source edit yet. The reviewer next follows foundations, principles, proof bases, mechanisms, topology, functions and actual input/mapping contracts before deciding source reception or DDS destinations. The complete source/relationship baseline precedes comparison of earlier audit bodies. The organization plan must establish actual owners, destinations and return routes with the three canonical README levels, preserve every file/content/link and avoid competing repositories. It is unfinished.
+
+The first execution report was preserved unchanged before continuation, SHA-256 `639141a6f7f283ec024fc59ce3847184dcb0a78045d776434cb4394e16cf3d4e`. These excerpts publish its source conclusions; private operational records are retained locally. No new VNext, source replacement, move, deletion or experiment is introduced.
+
+
+## Third independent review — localized proof proposal 100, 14 October 2026
+
+[Foundation VNext now holds proposal 100](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#third-independent-review--02a02b-proof-attribution-and-proposal-100-14-october-2026), independently derived from current 02A/02B and their material proof-family history. The localized change aligns 02A's Claim with the actual linked 02B relative-closure theorem, instead of attributing stronger normalizer properties without the corresponding current proof. It preserves both the semantic derivation and authentic older ordered-normalizer contracts. Complete current before/proposed after, source blobs, unique location, receiver theorem, rationale and acceptance checks are published.
+
+Impact Medium, risk Low and paragraph effort Low; priority Next, pending A19/A21/00K and semantic-transfer reconciliation, then Iván's named paragraph/wave GO. This is one new independently prepared documentary proposal, not a restored source or a completed global plan. The isolated reviewer continues its own Phase A queue without receiving previous findings; whole-source completion and later comparison remain pending.
+
+
+## Third independent review — input-contract custody plan, 14 October 2026
+
+The [existing 04 VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#third-independent-review--input-contract-edition-custody-and-proposals-101102-14-october-2026) now contains the isolated reviewer's complete first input-contract custody judgement and two literal pairs, proposals 101–102. It preserves the valid dated B/C amendment and original Word/diagram/manifest, while clarifying that the current living Markdown is no longer an unchanged Word reproduction. No original asset or contract field is altered.
+
+These are small edition-caption proposals, priority After: the source comment has impact Low and the visible paragraph Medium; both risk/effort Low. Existing amendment notices are already present, so this is not an urgent restoration or a reason to reintroduce the old C interpretation. The full source/receiver review and organization plan remain open. The latest saved independent checkpoint records 36 current source bodies and 122 authenticated read payload identities, with one actually viewed visual asset; those counts are not completed document cohorts. No canonical change is authorized by publishing these findings.
+
+
+## Third source review — relative proof preservation, 14 October 2026
+
+The [existing 00K review route](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#third-source-review--00k-relative-proofs-and-preserved-corrections-14-october-2026) now contains the fourth scoped first record, actual old/current formula passages and its own bounded preservation/organization plan. It keeps current A23/A22 corrections, negative evidence, the competent conventional comparator and distinct source contracts; no restoration candidate is warranted in those already qualified passages. Consequences are recorded reciprocally in Foundation and Requirements VNext. No new dossier, source edit or experiment is introduced.
+
+The latest saved checkpoint (21:24 UTC) records 41 current source bodies and 205 read payload identities including one disclosed prior execution-report exposure, not 205 independent audits. Whole source cohorts and the global restoration/organization plan remain incomplete. The reviewer began without previous memory/conversation; encountered source-author review claims and the accidentally opened A23 report are logged. Affected assertions are not described as perfectly blind. Other earlier first seals are preserved without retrofitting. The source queue continues.
+
+
+## DDS strategy before restoration (15 October 2026)
+
+Iván requests an organizing strategist before any recovery: preserve **UC-21 → objectives → Challenges → DDS → campaigns → results**, understand the current DDS controls and improve the reader route without reinstating the earlier disorder. The [source-led strategic review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#dds-strategy-and-restoration-decisions-15-october-2026) now records the method’s purpose, actual document owners, instruments and representative results, followed by its comparison with the pending plans.
+
+DDS remains reusable across cases. UC-21 supplies its objectives, Challenges and case protocols; the selected scenario maps a technology/configuration to that Challenge. A campaign’s owning report connects its finding and evidence back to the selected question. Existing original sources, frozen contracts, strong conventional controls, adverse results and valid later corrections retain their roles.
+
+Before proposing recovery, identify the information’s actual contribution, its current validity and any adequate receiver, then choose restoration, a reading link, historical support or a documented unresolved disposition. An absent sentence does not by itself justify insertion. Keep the three corpus reading levels and current owners; no physical dds/ tree, duplicate method or new README is adopted.
+
+The review found a concrete defect in pending 92: five case-relative links resolve to nonexistent DDS-folder paths and the objective table has an extra cell in each row. A complete literal successor of that existing passage now uses verified source permalinks and a three-column table. Existing 91/92 were already suspended by the 14 October content gate and remain so. Correcting that passage does not complete case-source integration. Draft A merges into 92; no new change ID is created. The optional application-router nomination is a future ownership question, not another required navigation hop. Existing 96 remains a separate bounded reading correction.
+
+Consequences are recorded in the existing EA and baseline README VNext. All additions in this publication are review/control records. No original source, result, code, binary, file path or current reading relationship is changed. The exhaustive history review remains incomplete; its isolated source reviewer was not restarted or supplied this comparison.
+
+A pre-existing priority-reader data-format error is repaired by explicitly declaring that the instruction-only guidance epoch contains no individual assessments. All its previous fields and all 102 original proposal entries remain unchanged; the current suspended view of 91/92 is checked with the existing reader.
+
+
+## Independent strategy re-audit and unified restoration review (15 October 2026)
+
+Iván asks a different reviewer to verify the strategy and all prior agents’ change/restoration plans before producing one detailed unified restoration and reinsertion plan. The [new reviewer’s sealed source-first judgement](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#independent-source-strategy-baseline-15-october-2026) is published in the existing DDS VNext. It finds the declared DDS progression coherent while identifying current-authority and version-reading ambiguities. It preserves **UC-21 → objectives → Challenges → DDS → campaigns → results**, with DDS reusable across cases.
+
+This first account was recorded before the prior strategy and damage plans were opened. Comparative review is now in progress, with attributed source checks of case/EP/requirements and DDS/R01/oracle plans. The unified plan must distinguish useful missing information, valid correction, an existing receiver, historical support and unresolved evidence. It must specify complete old/proposed text, exact sources and destinations, dependencies, impact/risk/effort and verification for each proposed wave. Restoring an older formulation solely because it disappeared is not the method.
+
+This publication adds review text only. The first account is not a completed unified plan, exhaustive corpus audit or source-adoption decision. Originals and existing owners remain unchanged; any incorporation waits for Iván’s named passage/wave GO.
+
+
+## DDS unified restoration plan 15 October 2026
+
+The independent re-audit retains the current presentation strategy and one maintained corpus. Recovery follows the useful information and its actual receiver, rather than a missing-string count. Current HC/HS, common metrics and important S6 meanings already have receivers; the complete case-specific recurrence/selection/run contract and source-edition custody still need binding.
+
+The plan orders narrow reader corrections, contract/proof/capacity reconciliation, full case and asset reception, the maintained research bridge, and finally the official UC-21 entry/PDF. Existing corrections and contrary comparator evidence remain in place. It nominates receivers, records incomplete evidence and gives literal pairs where preparation supports them. It creates no extra README level or VNext owner.
+
+[Read the full unified restoration plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026). Its work-package decisions and complete literal proposals govern the next preparation; source incorporation requires a named decision by Iván. The present EP source and development strategy remain unchanged.
+
+
+### Existing candidate 97
+
+Current EP ends at the exact old paragraph; S10 working successor exists with action-time binding and distinct frozen-predecessor status. Addition must remain at EOF.
+
+**Impact / risk / effort:** Medio / Bajo / Bajo. **State:** Pending named exact Ivan GO; additional gates in plan apply
+
+**Source:** [architectural-contributions/ecosystem-positioning/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/89273f548f6b5ed8f7e0576040f615b5653ffaf6/architectural-contributions/ecosystem-positioning/README.md), blob `9767ec8efb7d3a2875866ea3cd22ebc94882e930`. Dependencies: Requirements working successor, baseline approved-successor route, DOCUMENT_CONTROL§26 and existing Requirements application#16.
+
+**Text before — complete current passage (1).**
+
+``````text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+``````
+
+**Text after — complete proposal.**
+
+``````text
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+
+For current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.
+``````
+
+This is the same pending proposal, with its unified-review assessment, rather than another action under an alias. The complete earlier record remains above. Apply only an explicitly selected pair/wave; preserve every other source byte and its recorded freezes, evidence and results. [Joint plan and acceptance checks](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026).
+
+
+## Literal restoration detail 15 October 2026
+
+The [detailed source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) now supplies11new literal pairs103–113 beside the11existing complete proposals.103contains the complete UC21 HR/selection/run binding;104a prospective instrument packet;105/106the selected00J historical controls/populations;107–109capacity timing and its actual working caller;110/111R01 epoch/successor reading;112the complete48file historical custody scope;113the retired00J reading route.
+
+For112,45UTF-8after payloads are fully visible in DDS VNext and3unchanged PNGs have exact binary cards. All proposed destinations are absent; the publication creates none. The original package's46/47digest replay discrepancy is retained rather than overwritten. The snapshot's READMEs are historical source content, not another maintained corpus level. Existing routes and archived/current authorities remain distinct.
+
+The initial order prepares custody and case binding, then the coupled technical consumers, and only then92and the officialUC21/PDF. Unadjudicated histories, unused binaries or scientific implementation work receive no fabricated old/new pair. Original sources remain unchanged until Iván's named wave/passage decision.
+
+
+## Literal plan check 15 October 2026
+
+Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
+
+**Pairs checked here: 97; joint plan.** The closing source passage matches once. Its proposed addition preserves the entire current EP README as an exact prefix, including its existing terminal newline. The three reading levels and current UC21 → objectives → Challenges → DDS → campaigns → results route stay unchanged. The joint check selects the later92passage 1 and keeps91/92held; this receipt does not create another entry or move content.
+
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
+
+
+### Application 97 — 15 October 2026
+
+**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `architectural-contributions/ecosystem-positioning/README.md`; resulting source blob `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
+
+
+**Verified application commits — 01_clarity:** [97](https://github.com/dakleyer/structural-awareness-contributions/commit/413208033cd6b92c9982adc3cfff0fa5161a3995).
+
+
+## Owner authorised application complete 15 October 2026
+
+**Applied and verified:** 97. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
+
+The source and actual step commits are recorded in the application receipts above. Every approved replacement preserved all other source bytes; the source/output check was repeated against the final composed main tree. [Joint application record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026).
+
+Current protected EP README blob after the approved append-only addition: `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`. This dated owner-authorised application follows the12 October control entry without changing that historical record.
+
+
+## Execution reaudit 15 October 2026
+
+The approved EP addition97 is exact and append-only: source predecessor `9767ec8efb7d3a2875866ea3cd22ebc94882e930`, current `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`, step `413208033cd6b92c9982adc3cfff0fa5161a3995`. All previous EP bytes remain its exact prefix; the new note directs readers to the already approved S10 working successor without rewriting the frozen study authority. The EA entry and Development Strategy are unchanged. [Joint re-audit](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026) verifies all approved source pairs and identifies three corrected review-projection defects; it makes no new canonical application.
+
+### Proposal114 — central control successor
+
+**State:** Applied — 15 October 2026; the later owner-authorised application below completes this control entry. **Impact:** Medium. **Risk:** Low. **Effort:** Low. **Priority:** First control follow-up. The benefit is a correct current-EP certification in the one existing central control. The risk is confusing a dated source certification with scientific approval; the proposed section names the exact source and documentary scope. Cost covers checking the source identities, EOF and links, then inverse/readback verification. Dependency:97 is already applied. No file move, new owner or hierarchy change is proposed.
+
+Source: `DOCUMENT_CONTROL.md`, blob `e3ada85de309e7f654bbf74f4b1785cde51fb245` at `6dd9edc87070b38d3c84021f7389e07596b9d1ad`. Location: EOF, after section33. The complete existing final section below occurs once and is unchanged; the only proposed addition is section34. Instructions from Iván: audit all execution, preserve all information, and keep exact old/new proposals in the owning VNext. A new source change requires his concrete decision.
+
+**Texto antes — complete current EOF context**
+
+````text
+## 33. 14 October 2026 — owner-requested expanded Flores corrective audit
+
+The existing campaign gains an [expanded corrective audit](./research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/EXPANDED_AUDIT_2026-10-14.md), a pinned predecessor baseline, stricter verifier, adversarial probes and an authored proof-checker successor. The owner asks to expand and resolve audits while preserving complete information. Every replaced record and previous verifier is retained as the identical blob in history/versions; original scientific source, fixture/code/calibration data and mock checker stay unchanged. The existing campaign/README ownership and source freezes do not change. Stage A/B/C promotion, native execution and independent acceptance remain prohibited without their own evidence. The dated source freshness cut and prospective blind/readiness contract close preparation issues without fabricating missing external results or private binaries.
+````
+
+**Texto después — complete context plus proposed appendix**
+
+````text
+## 33. 14 October 2026 — owner-requested expanded Flores corrective audit
+
+The existing campaign gains an [expanded corrective audit](./research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/EXPANDED_AUDIT_2026-10-14.md), a pinned predecessor baseline, stricter verifier, adversarial probes and an authored proof-checker successor. The owner asks to expand and resolve audits while preserving complete information. Every replaced record and previous verifier is retained as the identical blob in history/versions; original scientific source, fixture/code/calibration data and mock checker stay unchanged. The existing campaign/README ownership and source freezes do not change. Stage A/B/C promotion, native execution and independent acceptance remain prohibited without their own evidence. The dated source freshness cut and prospective blind/readiness contract close preparation issues without fabricating missing external results or private binaries.
+
+
+## 34. 15 October 2026 — approved UC-21/DDS literal application and protected EP successor
+
+Iván authorised the reviewed literal plan on 15 October. The [application record](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026) identifies 32 local passage replacements in 14 existing documents, the one approved paragraph in the official UC-21 Issue, and the separately approved custody of 48 exact original source-edition files. Their source and step commits are recorded in the existing VNext; no prior file was deleted, moved or renamed and no VNext was created.
+
+**Current protected EP README blob: `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`.** Proposal 97 appended only its approved S10 working-successor reading note in commit `413208033cd6b92c9982adc3cfff0fa5161a3995`; every predecessor byte remains the exact prefix. This dated successor supersedes the current-EP certification in section 26, whose `9767ec8efb7d3a2875866ea3cd22ebc94882e930` blob remains the correct 12 October historical edition. The protected EA entry README and Development Strategy remain unchanged by this application.
+
+The maintained reader route is UC-21 → objectives → Challenges → DDS → campaigns and results. The source-edition package is historical custody, not a second current method or case owner. Programs, earlier binaries, results and frozen manifests remain unchanged. The [execution re-audit](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026) distinguishes completion of this literal application from the still-open historical/material reception work and future per-campaign evidence duties.
+````
+
+Acceptance: retain every current byte as the exact prefix; add only section34 after a named approval, check the two source identities and relative links, and read the final public bytes back. The exact append-only incorporation is recorded in the later authorised application below.
+
+
+## Historical remnants 15 October 2026
+
+114 updates only the dated current-EP certification; the protected EP README and its old append-only application remain byte-identical during this batch. [Joint source and consolidation review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#historical-remnants-15-october-2026).
+
+
+### Change114 — Record the approved 15 October EP successor in the existing central document control
+
+**State:** Applied — 15 October 2026; no further insertion pending for this item. **Impact:** Medio. **Risk:** Bajo. **Effort:** Bajo. **Priority:** Primera.
+
+Source `DOCUMENT_CONTROL.md`, blob `e3ada85de309e7f654bbf74f4b1785cde51fb245` at `94ee2aeb8bc5d13fb7578b7cca17f890d9e3531e`. The complete old context occurs once. The after below adds text without deleting any old byte.
+
+**Why:** The central current-EP certification identifies the actual approved main edition instead of stopping at the 12 October predecessor.
+
+**Risk and validation:** A dated source certification could be mistaken for a new scientific approval. The append identifies the exact documentary application and keeps every historical certification and scope. Read dependencies `["97 already applied in413208033cd6b92c9982adc3cfff0fa5161a3995", "Existing application and execution-re-audit records"]`; verify the complete predecessor, relative links, inverse and final public bytes.
+
+**Texto antes — completo**
+
+~~~~~~~~text
+## 33. 14 October 2026 — owner-requested expanded Flores corrective audit
+
+The existing campaign gains an [expanded corrective audit](./research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/EXPANDED_AUDIT_2026-10-14.md), a pinned predecessor baseline, stricter verifier, adversarial probes and an authored proof-checker successor. The owner asks to expand and resolve audits while preserving complete information. Every replaced record and previous verifier is retained as the identical blob in history/versions; original scientific source, fixture/code/calibration data and mock checker stay unchanged. The existing campaign/README ownership and source freezes do not change. Stage A/B/C promotion, native execution and independent acceptance remain prohibited without their own evidence. The dated source freshness cut and prospective blind/readiness contract close preparation issues without fabricating missing external results or private binaries.
+
+~~~~~~~~
+
+**Texto después — completo**
+
+~~~~~~~~text
+## 33. 14 October 2026 — owner-requested expanded Flores corrective audit
+
+The existing campaign gains an [expanded corrective audit](./research/ecosystem-awareness/campaigns-in-development/flores-population-ea/audit/EXPANDED_AUDIT_2026-10-14.md), a pinned predecessor baseline, stricter verifier, adversarial probes and an authored proof-checker successor. The owner asks to expand and resolve audits while preserving complete information. Every replaced record and previous verifier is retained as the identical blob in history/versions; original scientific source, fixture/code/calibration data and mock checker stay unchanged. The existing campaign/README ownership and source freezes do not change. Stage A/B/C promotion, native execution and independent acceptance remain prohibited without their own evidence. The dated source freshness cut and prospective blind/readiness contract close preparation issues without fabricating missing external results or private binaries.
+
+
+## 34. 15 October 2026 — approved UC-21/DDS literal application and protected EP successor
+
+Iván authorised the reviewed literal plan on 15 October. The [application record](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#owner-authorised-application-complete-15-october-2026) identifies 32 local passage replacements in 14 existing documents, the one approved paragraph in the official UC-21 Issue, and the separately approved custody of 48 exact original source-edition files. Their source and step commits are recorded in the existing VNext; no prior file was deleted, moved or renamed and no VNext was created.
+
+**Current protected EP README blob: `9bd2c1d10a8d440fa947abb7bc834d99ec97ff9b`.** Proposal 97 appended only its approved S10 working-successor reading note in commit `413208033cd6b92c9982adc3cfff0fa5161a3995`; every predecessor byte remains the exact prefix. This dated successor supersedes the current-EP certification in section 26, whose `9767ec8efb7d3a2875866ea3cd22ebc94882e930` blob remains the correct 12 October historical edition. The protected EA entry README and Development Strategy remain unchanged by this application.
+
+The maintained reader route is UC-21 → objectives → Challenges → DDS → campaigns and results. The source-edition package is historical custody, not a second current method or case owner. Programs, earlier binaries, results and frozen manifests remain unchanged. The [execution re-audit](./research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#execution-reaudit-15-october-2026) distinguishes completion of this literal application from the still-open historical/material reception work and future per-campaign evidence duties.
+
+~~~~~~~~
+
+**Iván's instruction:** Ahora debes volver al principio y volver a revisar TBS, todos los documentos, el for, todo lo anterior, a ver si se ha perdido algo, si los cambios, etcétera, etcétera, y hacer esas inserciones con cuidado. Con mucho cuidado ahí ahora aplica todos los pasos anteriores, pero con el remanente que hayas encontrado, asegurándote que finalmente solo insertas exactamente quirúrgicamente si te has dejado algo más.
+
+
+### Historical remnant application114 — 15 October 2026
+
+Applied the complete reviewed addition to `DOCUMENT_CONTROL.md`. Predecessor `e3ada85de309e7f654bbf74f4b1785cde51fb245`; successor `fdffd2ace15ed01ee9b9d9998d1ec27c1ba725d9`; exact inverse restores the complete predecessor. Every byte outside this insertion is unchanged. The dated old/new pair above is application history, not a pending proposal. Public verification follows in the joint completion record.
+
+
+## Historical remnant insertions verified 15 October 2026
+
+Applied and read back exactly on main: 114. The old source text, all original files and modes, prior destinations, scientific records and frozen packages are preserved. No new VNext or physical reorganisation.
+
+- Change114: [exact application](https://github.com/dakleyer/structural-awareness-contributions/commit/2817f22aff28aca84eff2dab389fbf35eb82cb47).
+
+
+## Rest of corpus — historical damage control 15 October 2026
+
+This review helps a human decide what to restore, what already has a receiver and what was correctly changed. The source cut is `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`. The earlier DDS repairs 114–121 are already applied and are not queued again.
+
+The fresh history inventory follows **2,797 commits, every additional merge parent, 2,539 historical path identities and all 2,396 current files**. All **5,502 distinct historical/current Git blobs** were retrieved and authenticated, including review records, code and media. This establishes the versions available for comparison. It does not stand in for reading and reconciling every changed clause.
+
+### Separate reviews and consolidation
+
+Three separate Codex AI reviewers first examined source editions and receivers: A covered conceptual architecture/EA/RA/MSCA, B cases/proofs/benchmarks and Flores, and C R01/HF, technical records and media. Reviewer D then checked the current strategy, their findings and the exact repair plans against the sources. These are separate AI reviews within this task. A disclosed reading 90 lines of an earlier EP review overview while locating controls; C consulted memory pointers. Those limits remain part of their source-first records.
+
+| Area | What the source comparison establishes | Decision |
+|---|---|---|
+| R01 previous work | M03/M04 has a Spanish original and English reading edition. Four historical JSON check receipts also contain translated `before`/`after` strings. The index's blanket byte-exact description is incorrect. D independently checked the four complete receipt pairs: their changes are strings, with no numeric-value changes in those pairs. | Change 122 corrects the index and links the four complete original receipts. Keep the translated derivatives and scientific results. |
+| Earlier 02B / grammar forms | Two deleted 02B texts use distinct ordered-normalizer/operator presentations. They are not identical to current set-valued 02B. Two retired JSON grammar representations also retain axes/rules/witnesses or object signatures/provenance not identical to the current closure manifest. | Change 123 restores explained, pinned historical reading routes. Current proof ownership and corrected claims remain. |
+| A25 / A26 | The old A25 authority/evidence-neutrality condition is explicit in A26's positive-success rules; A25 failure-family admission can be used without those rules. | Change 124 restores the exact sentence under A25 X6, preserving X1–X7 numbering and current proof limits. |
+| 03 / 01H / Gradient / Operation | The examined redirection, systemic-scope and anti-global-score clauses have current receivers. Gradient retains the three posture distinctions and delegates the sole operator to MSCA Operation. | Keep the current owner separation; no source rollback. |
+| 00K / 00L / benchmarks | A05 survives as A06; six old fixture scripts/tests survive as exact historical blobs; benchmark editions have receiving routes. A23's all-six theorem was corrected to partial implications/counterexamples. Paper deductions, symbolic controls, CI and product trials retain separate scopes. | Preserve these corrections, strong-peer ties and adverse evidence. No old theorem or completed-experiment status is reintroduced. |
+| Flores / media | Ten reorganisation predecessors have exact current history/versions receivers. Twenty binary change events have extraction records; two translated PNG figures were also inspected. DOCX/PDF/PPTX visual parity remains unverified. | Preserve current versions and old sources. Do not regenerate results or media as a restoration shortcut. |
+
+### Order of the bounded repair batch
+
+1. **122 — source-custody accuracy:** expected impact high, edit risk low, effort low. Its purpose is reliable historical replay, not a new scientific result.
+2. **123 — historical/additional reading:** impact medium, risk low, effort low. It also links two currently unlinked cross-Theme comment drafts, preserving their different posting-order alternatives and draft status.
+3. **124 — comparison neutrality:** impact medium, risk low, effort low. It forbids silent advantages within an agreed comparison, while allowing declared, legitimately defended peers.
+
+The full old/proposed passages for 122/123 are in the existing [baseline VNext](../../research/ecosystem-awareness/baseline/README_VNext.md#rest-of-corpus--source-custody-and-historical-reading-15-october-2026); 124 is in the existing [00K VNext](../../research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#historical-control-of-a25-admission-15-october-2026). The [foundation review](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md#historical-02b-reading-route-15-october-2026) records the 02B consequence. No extra VNext, canonical README level, source copy or physical reorganisation is created.
+
+### Coverage still open
+
+The first source-first reports explicitly distinguish semantic decisions from retrieval: A still has 1,537 source units unresolved; B has 365 retirement events unresolved; C has 551 events unresolved. These use different and partly overlapping units and must not be summed as a corpus completion score. Further source readings are continuing. Remaining work includes full translated-text reconciliation, unadjudicated architectural/interface/case revisions, code-dependent claims and visual comparison of the large presentation replacements. The 143 historical paths absent from the current tree are a relocation/deletion queue, not 143 established losses.
+
+The current local-target scan covers 15,869 navigation occurrences. Its 30 missing-target occurrences are confined to two retained historical snapshots; active source routes resolve at this cut. Raw links, external availability and fragments have separate checks and are not certified by this target-presence count. Every current nonhistorical Markdown has an explicit local incoming link except the two comment drafts now proposed for the existing additional-work leaf.
+
+All previous corpus audits, unresolved proposals and frozen evidence remain. The full-corpus damage review stays open until its clause-level and media frontier is reconciled; this bounded repair batch can be completed and verified meanwhile.
+
+
+## Continued historical readings and verified first repairs — 15 October 2026
+
+Changes 122–124 are applied in main at `be96b051e0eff116f440e478b97eab0483972fd3`. The exact earlier passages and proposals were first published at `a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0`. Each applied card was replaced by an application receipt in its existing VNext; the complete pairs remain in that published review predecessor.
+
+Verification compared the complete initial/final trees and replayed each source pair and its inverse: **2,396 paths before and after; nine existing paths changed; no new/deleted/moved files; three exact source repairs; 17 public byte readbacks** (nine changed files and eight pinned historical sources). All earlier VNext bytes remain a prefix, the first 121 registry entries are unchanged, and the old CSV is an exact prefix. All source/code/result/binary files outside the three named targets retain their original blobs.
+
+The source review then continued. A read RA/EWS and 01B/01C/01D completely, plus the six MSCA documents and their historical clauses. B added 112 clause/receiver decisions over 46 case/proof paths; C completed bilingual comparisons of M03/M04, protocol, HEW, scenario and Infoblox. These are continuations by the same source reviewers, not newly independent replications.
+
+Three further small repairs are ready: **126**, high impact/low risk, restores the scenario's Spanish two-part negation; **127**, high impact/low risk, restores two such negations in Infoblox; **125**, medium impact/low risk, aligns one Role phrase with its static producer contract. D independently checked their exact sources, receiving context and full-file inverses. Apply 126, 127, then 125. The first three repairs remain applied and are not queued again.
+
+Current semantic frontier after A3/B2: **A 1,200 units unresolved; B 253 events unresolved**. C's original event frontier remains separately tracked while its bilingual reading has progressed; its counts use different units. No sum or scan percentage represents corpus closure. Three MSCA Operation scenario-version receiver questions remain explicit, and the large presentation/visual frontier is still open.
+
+The complete old/proposed passages are in the existing [scenario review —126](../../research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md#complete-bilingual-scenario-reception--15-october-2026), [extension review —127](../../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#complete-bilingual-infoblox-reception--15-october-2026) and [Role review —125](../../standards/minimum-sufficient-control/02_ROLE_VNext.md#bound-function-versus-observed-behaviour--historical-continuation-15-october-2026). Cross-reception is recorded in01C; no extra review owner is created.
+
+
+## Verified second repair batch and the case-history result — 15 October 2026
+
+125–127 are applied in main at `19564b502d2086097703c6304945719b8872f8c3`. Their four complete old/proposed pairs were first public at `5105bb4709382834987bfa0ce77806ed4d56bd21`; each application was serial, source-wide inverse-checked and publicly read back. The earlier122–124 remain applied. There are now **seven exact pairs in six source documents** in this damage-control work, not seven independent scientific audits.
+
+Reviewer B has completed source/receiver adjudication of all468 events in its assigned historical retirement queue. Its last253 decisions preserve corrected proofs, code contracts, old fixture receivers and result histories; no further useful material omission was established there. B is separately checking three MSCA Operation/00G receiving-version questions. A and C continue their remaining historical cohorts; corpus closure is still open.
+
+128 is a final bounded reader clarification for the actively linked A04 Summary. It distinguishes earlier P1/P3 isolation pairs and the29-test A4 layer from the current corrected matrix/fixture surface. Existing text/results stay intact. The [00K owner](../../research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#complete-assigned-case-history-reception-and-a04-reading-layers--15-october-2026) records B's full conclusion, D's correction to the first draft and the complete selected old/proposed passage. The other A04 campaign alias already has its dated historical-count explanation; it receives no duplicate patch.
+
+
+## Cumulative preservation check and continued source reception — 15 October 2026
+
+At `5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f`,122–128 are applied: eight literal pairs across seven source documents. Replaying only those pairs reproduces all seven current files; reversing them recovers their full predecessors. All 2,396 paths/modes remain; 2,367 other blobs are unchanged. Twenty existing VNext retain their complete starting bodies, the original 121 registry entries and CSV prefix are exact, and 44 public readbacks authenticate current sources/reviews, their source predecessors and pinned originals. No new VNext or public file was created.
+
+B's468-event case/history queue and its separate three Operation/00G receiver questions now have decisions. A's fourth continuation resolves269 further source units and leaves931 open at its dated cut; C continues the remaining R01/math/family cohort. Eighteen non-PNG historical media events still need visual review. These remaining tasks prevent a whole-corpus closure claim.
+
+129 is a high-impact, low-risk custody clarification: identify the complete authentic twenty-body snapshot behind a translated planning derivative. It preserves122 and both JSONs. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) contains the finding, full current/proposed paragraph, priorities and reciprocal Operation result. This is a source-byte distinction, not a demonstrated loss of meaning.
+
+The subsequent A5 continuation resolves 80 further units and leaves 851 in its source frontier; full 03/04 body comparisons are now recorded in their existing owners. It preserves open H06 rather than confusing reference reception with resolved validity.
+
+
+
+## Human-capacity and presentation follow-on repairs — 15 October 2026
+
+122–129 are applied in main at `1f1d90ada72b51c83ee23583298016d032e6b8ee`: nine literal pairs across seven source documents, with no files added/deleted/moved and no code, result or binary changed. The complete old/proposed passages were public before each application, and the incorporated cards are removed from pending with receipts. The latest source-wide cumulative replay recovers all full predecessors; all 2,396 paths/modes and 2,360 other blobs remain exact.
+
+A6 has completed full Foundation/Gradient/01K/A01 reception:78 units examined,64 newly resolved,787 of1,734 assigned source units still open. The third useful omission it identifies is a single optional protected-objection/non-retaliation profile example,130. The other two were the distinct02B originals already linked by123. Historical HIT debt, narrower Type failures and competing Γ signatures remain superseded.
+
+B compared all39 slides of the actual current v1.1/v1.2 split decks, ordered OOXML text and used hyperlinks. Architecture's removed divider has no normative content; role/authority owners and generic04/ideal05/current05A distinctions survive. Requirements keeps its12 slides and the A23-partial/DBC-comparison corrections. Of18 relationship URLs absent from the successor,16 were not bound to a clickable old-slide link;01H andMSCA have actual baseline/manifest receivers. The old v1.1 files are not the same blobs as every historical in-place predecessor; both sets were distinguished.
+
+The actual current stable PDF, blob `8489462972887a78122e36f598770f41e81b63e8`, is nine-page v1.0 dated23September2026. The manifest correctly calls it historical. B inspected all29 legacy PDF pages: earlier10-page editions and the current9-page edition have different layouts, with title/map defects retained in the frozen files.131 therefore labels the same PDF historical and changes only six root hrefs to existing repaired v1.2 decks.132 first gives both v1.1 URLs direct historical access in the existing manifest. No presentation file is rewritten or semantically regenerated.
+
+**Order and priority:**130 is a small optional human-profile restoration;132 must precede131 so no previous deck destination leaves navigation.131 improves the main reading route. Their exact passages, impacts, risks, effort and dependencies are below or in the [01K owner](../../research/ecosystem-awareness/baseline/01K_VNext.md#historical-human-capacity-integration-and-the-optional-protection-example--15-october-2026). D reviews these source pairs independently. The root/control/DAOS historical cohort and remaining media are still being read.
+
+C has corrected its semantic denominator:178 of705 content events adjudicated,527 pending at its latest cut, with20 binary events separately tracked. Original-body custody evidence is not counted as contextual reception without a source judgment. The remaining A/C/current-body and media work prevents whole-corpus closure.
+
+### Change 132 — Applied 15 October 2026
+
+All 1 exact reviewed passage(s) are incorporated in `presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md`, blob `853484c33ea9d03db27f6f12b51ee86793a1581c`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/architectural-contributions/ecosystem-positioning/README_VNext.md#change-132--keep-direct-historical-access-to-both-retained-v11-split-decks) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `4c5459f950b18ccb0d99d3d9bd2867b66d2b445a` byte for byte. No presentation, result or code is changed.
+
+### Change 131 — Applied 15 October 2026
+
+All 4 exact reviewed passage(s) are incorporated in `README.md`, blob `baf0696990e241518b48929b6385767ab1455404`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/architectural-contributions/ecosystem-positioning/README_VNext.md#change-131--route-programme-readers-to-the-repaired-split-decks-and-identify-the-historical-pdf) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `6b4a635446754d3b7135a9a52bd77995161305aa` byte for byte. No presentation, result or code is changed.
+
+
+
+## Applied presentation repairs and the next translation finding — 15 October 2026
+
+130,132,131 are applied serially in main at `da2f098ae7d0cb9670d672736dcd897f223eb99d`. The complete six source pairs were public first at `6d49be9c62c0dd889a6757ba0eb050e24b4c1162`.130 adds the optional protection example;132 preserves both previous v1.1 destinations in the existing manifest;131 updates only six root hrefs and the PDF's historical label. Every source-wide inverse and four-file public application readback passed. The five actual public presentation targets were separately read back exactly; no binary was edited. Their applied cards are retired from pending.
+
+The automatic publication check initially rejected132 under the older canonical-read-only instruction. Reconsideration of the same action used Iván's later canonical-application and current extension instructions plus the exact append-only diff. It then approved the same132 publication; no bypass or extra scope was used.
+
+C's sealed semantic frontier is215/705 content events adjudicated and490 pending, separate from20 binary events. Its newest useful loss is a mistranslated self-review instruction in the active R01 continuation. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#continued-r01-history-and-the-self-review-translation--15-october-2026) records133's full current/proposed paragraph and pinned original. It is a high-impact, low-risk one-sentence correction. A's remaining reader/router cohort, D's root/control/DAOS history and the remaining C/media work stay open.
+
+
+C's next sealed cohort adds52 contextual judgments:267 of705 events are now adjudicated and438 remain. Full Differential, Mathematical Feasibility, Continuation, WORKPLAN and Strategic-master histories retain all55 historical acceptance criteria through current theorem/protocol/M16–M17/C02–C11–T03 receivers. Superseded M12/delivery scheduling is not reinstated.133 is the only new useful clause loss identified there.
+
+
+
+## Completed root and media cohorts, with historical-source access — 15 October 2026
+
+D's root/control/DAOS cohort has369 judgments across106 supplied events; five units are duplicate side-branch evidence, leaving105 first-parent events/364 units. Current programme explanation, custody, corrected fixture routes and case/challenge meaning have real receivers. Retired one-off write workflows stay retired. One useful navigation repair remains:134 appends nine described, version-pinned complete DAOS editions to the existing auxiliary catalogue. It neither copies those documents nor creates a new README/VNext.
+
+B's18-event media cohort is complete for historical reception:156 PDF pages and142 slides inspected, full OOXML/text/relationship comparison and every current/historical source pin authenticated. No useful current textual omission was established. The old PDF's real layout defect is recorded, and a false semantic inference from a font-extraction glyph was discarded after visual inspection. Native DOCX/desktop-PowerPoint limits remain specific and visible. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#historical-media-reception-completed--15-october-2026) records the detailed result and affected source owners.
+
+133's one-sentence self-review repair is applied and removed from pending at `62e03c56bac3f5c34f5c97939c52bf9bd37bab1a`. Its complete before/proposed paragraph remains in the public plan predecessor. A continues its remaining reader/router/current-body history; C's latest sealed code cohort has332/705 contextual events adjudicated and373 pending. These remaining readings prevent final corpus closure.
+
+
+
+## Historical coverage crosscheck and applied restoration — 15 October 2026
+
+The 13 repairs 122–134 are applied on main. They contain 17 literal pairs in 11 source documents; their complete public plan predecessors and individual application receipts remain in the owning VNext.134 is now applied at `b6da353172b4cf335cc4974cd1f79851096245c1`, adding described access to the nine older DAOS editions. It is no longer pending.
+
+Full-source replay and reverse replay against `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab` reproduce every source byte, including the two files changed in successive repairs. All 2,396 paths and modes remain. Exactly 43 existing paths changed, including review/priority records; the other 2,353 are byte-identical. No source code, scientific result or binary changed. This conservation check is distinct from the still-open historical reading.
+
+The root crosschecked every source-retirement event by its `(commit, parent, path)` identity against the assigned queues. Their union covered 1,708 of 1,907 events.199 events/647 old-text units across 101 historical paths had no assigned reader; overlaps in earlier queues had concealed that gap. This is an assignment defect, not 199 confirmed information losses. The uncovered events are explicitly retained for source-first examination, including DDS, manifests, older aliases and import containers. No topic is silently excluded because it was reviewed in an earlier session.
+
+A7 completed the EP reader and hypothesis-lineage block:222 unit IDs,208 newly resolved, with 579 of 1,734 assigned source units still unresolved at its sealed cut. Useful P4 limits and adverse P1/P3/P6 findings have concrete current receivers; the old omnibus sufficiency or executed-product wording is not restored. C's fourth continued history cohort reached 404/705 contextual events, with 301 still pending at its sealed cut. All 137 assigned Python/workflow events now have static contextual dispositions; this did not execute them. The [baseline record](../../research/ecosystem-awareness/baseline/README_VNext.md#ep-reader-lineage-and-continued-r 01-history--15-october-2026) explains the material reception.
+
+These figures are dated reading frontiers. They are not summed as independent evidence and do not close the whole corpus. The uncovered cohort, remaining source passages, current bodies without retired passages and final cross-document reconciliation remain visible work.
+
+
+## Separate conservation review and expanded history coverage — 15 October 2026
+
+B completed a separate implementation of the published-conservation check for the fixed cut 9bd445fe → b6da3531. Its 707 checks passed: 13 repairs, 17 pairs in 11 source documents, 20 plan/application commits, and 243 independently fetched exact public responses. Six deliberately damaged checks were rejected. The 48 preserved UC-21 archive originals were also matched to their declared blobs, modes and hashes. All other source bytes, earlier VNext bodies, the original 121 registry entries, code, results and binaries remain intact. The two later append-only continuity notes at 97c398c0 are outside B's stated cut. This review is separate from the coordinator's checker, not external scientific adjudication.
+
+A8 completes EA reader/reading-map and deleted-router reception: 208 additional units resolved, with 371 of A's 1,734 source units still open. There is no new repair candidate. The eight public provenance anchors, full attacker limits, authority boundaries and current licence/source status have concrete receivers. Former complete-mirror and omnibus-sufficiency wording remains corrected rather than restored. C's sixth continued cohort reaches 541 of 705 events, leaving 164 at its sealed cut; code/JSON and fixture/traversal reception have explicit contextual judgments, without execution.
+
+Coverage now also includes every modified/deleted control, review and historical-source path, rather than excluding a name containing “audit”. Of 1,041 such events, 586 retain their complete predecessor literally in the successor. The other 455 remain explicitly assigned for context: 362 review/control events to root and 93 substantive audit/source events to C after its original queue. Exact current copies remain a custody lead until their purpose and receiver are established. D is reading the separate 199-event uncovered source cohort. These assignments prevent silent exclusions; their creation does not close those readings.
+
+
+## Further bilingual repair identified — 15 October 2026
+
+C's full HF translation comparison found one ambiguous English integer rendering. The primary receipt records33408 checks; [135 in the existing HF owner](https://github.com/dakleyer/structural-awareness-contributions/blob/1eca21c93eb507d6fd27ade56f658b29531860ff/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-135--use-the-english-thousands-separator-for-the-recorded-33408-hf-checks) changes only33.408 to33,408 in the complete current paragraph. Impact, risk and effort are all low. D and root separately checked context, source identity and the one-byte inverse. Results, code and evidence maturity remain unchanged.
+
+A10 now adjudicates all1,734 assigned historical source units:1,113 material receivers,618 valid corrections and three source-cut omissions already addressed. That closes A's assigned retirement queue, not the separate control/source cohorts or the old five/six-pass scientific programme. The detailed current-body and instrument reconciliation is being completed before its bounded handoff.
+
+
+## A21 historical access and scoped queue completion — 15 October 2026
+
+135 is applied at `cbd9e4c9d90477d8e0f9f5538a09fbff8057980c`: one punctuation byte in the HF paragraph, with identical source length and complete inverse. Its current owner contains the applied receipt; the full pair remains in its public preparation predecessor. Its primary result and every unrelated byte remain intact.
+
+136 restores reading access to two distinct retired A21 constructions through the existing auxiliary leaf and baseline VNext. It adds descriptions and fixed source links, without reviving an earlier normalizer or changing the current requirement basis. D read all three bodies; root checked the actual descriptive passages, whole-source inverse and public reference bytes.
+
+D's fourth additional cut has87/199 events reviewed; method/index registry, diagnostics and the50-event baseline-manifest reception have concrete judgments. Diagnostic truncations have real current receivers; the346/33/379 counts are coherent and remain unchanged. A's1,734 assigned historical units are now adjudicated, with its final current-body/instrument handoff in progress. C's large remaining sources and additional audit-source cohort, D's aliases/interfaces/container cohort, review-control history and final relation reconciliation remain explicit work.
+
+
+## Applied historical repairs and completed original source queues — 15 October 2026
+
+135 and 136 are applied on main.135 changes exactly one punctuation byte in the HF paragraph;136 adds exactly 960 bytes of historical A21 reading guidance. Iván gave the specific decision “Autorizar 136 en esa hoja” before the latter publication at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`. Both pending cards are replaced by receipts linked to their complete public preparation pairs.
+
+The cumulative source replay now covers 15 repairs,19 literal pairs and 12 source documents. All 2,396 paths and modes remain;45 existing paths changed, including review records, while 2,351 are exact. Full reverse replay recovers every source at `9bd445fe`. Source code, results, frozen payloads and binaries remain unchanged. The audit also checked links to the retired 122–136 card titles: none still targets a vanished current-main proposal heading. This is a targeted link check, separate from whole-repository fragment or external-link certification.
+
+A's source assignment is complete for historical preservation:114 paths,1,734 retired source units and four instrument units. Its 56 current paths without retired units have 58 creations and 30 insertion-only changes; each old line survives. Five intact EP DOCX originals have creation/byte and purpose-context verification, not a newly claimed full argument or native Word review. C's original 705-event text/code assignment is also complete, with no custody-only item counted as a semantic conclusion. The [baseline handoff](../../research/ecosystem-awareness/baseline/README_VNext.md#completed-original-history-assignments-and-preservation-limits--15-october-2026) explains the actual preservation findings and limits.
+
+The 23 public branch/tag references were checked too:15 tips are already reachable from main and eight retain distinct development/superseded histories. Their absence from main is not treated as proof of deletion or permission to merge. Their material source roles and any current use remain separate from formerly published main history. No branch was reset, removed or adopted.
+
+Additional source and control cohorts still prevent whole-corpus closure. D continues its aliases/interfaces/containers, C continues substantive audit sources, and B separately examines historical VNext/control retirements. Their later findings may reopen a specific relationship. This closes the original assigned source queues, not those additional cohorts or the earlier scientific five/six-pass programme.
+
+
+## Historical reception: source coverage and a review-format repair — 15 October 2026
+
+The additional R01/Flores source cohort is complete: C examined all 93 events and their 302 retired units, including the full audit/control changes, old verifier and actual corrective receivers. The documented corrections preserve the earlier records while separating reproduction, dependencies, blind chronology and scientific acceptance. No further restoration was identified in that cohort.
+
+The identity join now compares every source event by commit, parent and path. It prevents the 176 overlapping assignments from inflating coverage. Remaining source/container questions and the separate review/control history are still being resolved; an assignment or an exact copy alone does not count as a substantive reading.
+
+One real navigation defect is in the existing Extensions VNext. An orphaned four-backtick line makes GitHub display later audits and the applied127 receipt as code. [137 in the baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) publishes the two exact passages: remove five delimiter bytes and add the dated receipt. This is a bounded repair of audit readability, with high reading impact and low risk/effort. EP’s apparent fence warning was only a parser limitation; its public headings already render correctly.
+
+
+## Structured controls examined; review rendering restored — 15 October 2026
+
+The coordinator completed the 84 JSON-registry and 25 CSV historical control events. No entry identity or complete original source pair was removed. The substantive reading distinguishes pending→applied status changes, the separate112 payload/reader acts,92’s chosen variant, superseded83–90 direct-route alternatives, and the abandoned HIT/Level4 proposals. Earlier scope counts and risk estimates describe dated reviews. They do not reactivate old work or close the unfinished scientific readings. No useful research clause needs restoration from this structured cohort; the separate prose-control queue continues.
+
+137 is applied at `27ebc14437d3b7c5ed6686a781fe3f77fbce55b1`. C separately downloaded the actual GitHub pages: the Extensions audit again has31 headings and no hidden code block;127 and137 are readable headings, and the baseline137 return anchor resolves. The full-file inverse retains all substantive text; the five delimiter bytes are the one explicit exception to the old VNext prefix. The four existing tables remain unchanged.
+
+D found one further small editorial defect: the Topology §3 title repeats its prefix. [138 in the existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix) removes17 repeated heading bytes, with the complete line before/after. Impact, risk and effort are low. The current semantics and body stay intact. Remaining source-container questions and review prose are still being examined.
+
+
+## Restoration continuity: controls, receivers and remaining uncertainty — 15 October 2026
+
+The source-history reviewers have now examined the complete additional 199-event source assignment. Eight historical presentation-transfer fragments remain unresolved: the available concatenation is corrupt and has not been identified as an intact presentation. Current slide files and complete public editions remain preserved; resemblance of names is not accepted as evidence that these fragments are duplicates. Their earlier versions and source generation are being investigated before deciding whether anything useful can be restored.
+
+The actual receivers explain why many retired passages need no reinsertion. The FG-TIDA map, superseded profile and current draft/successor retain their distinct duties; interface field identities survive the semantic and custody amendments; HF historical routes retain source-specific research paragraphs. The receiving reviews below record the substance. Restoring earlier mandatory interpretations would undo legitimate corrections.
+
+The structured control history is complete, while the residual prose-control history is split into disjoint assignments for B and C. A preliminary suspicion about the priority extractor was withdrawn after reading its complete overlay flow: the nine research lines remain available in the planning view, and superseded or applied items are not reactivated. No code repair is proposed from that partial reading.
+
+**138 is prepared, not applied.** Automatic approval review requires Iván’s specific GO for the exact Topology heading. Its complete pair remains in the [baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix). The source stays unchanged while the remaining historical work continues.
+
+
+## Further quotation-boundary repairs prepared — 15 October 2026
+
+Source/context checks confirmed two more audit-reading defects left by the earlier retirement of applied cards. [139 restores normal HF audit headings](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability), including the135 applied receipt. [140 restores the 00K historical audit](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability), keeping its retained source excerpt as a literal quotation. Every complete old/proposed passage is in the existing baseline review. High impact here means readable audits; research claims and results do not change.
+
+The root reproduced both whole-file inverses and the Markdown structure from C’s exact proposals. D’s separate final verification precedes application. The two later A13/A14 review links are preserved as a separate context question;140 does not claim to fix them. A possible DDS delimiter repair remains under examination, with no claim of a public HTML check where GitHub’s large-file response prevents it.138 still awaits Iván’s specific decision on the canonical Topology title.
+
+
+## HF and 00K audit quotations repaired; DDS pair prepared — 15 October 2026
+
+139 and140 are applied separately at `66417488fd75dba2612aed15767dc5bf465fcd10` and `8a15d6490f2066ea6721948bbac777c7e3816b5a`. Each step had exact source replay, whole-file inverse and four public raw readbacks. The pending cards are replaced by applied receipts. D’s final assessment puts overall impact, risk and effort at low, with next priority; the earlier high label described the local audit-reading benefit. No scientific source changes.
+
+[141 publishes the complete DDS quotation repair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary). One orphaned delimiter and its dated receipt are the exact scope; later legitimate quotations stay intact. Verification uses source identity, the whole-file inverse and local GFM. GitHub’s HTML API declines this2.4MB review, so the [public raw Markdown](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) is the full-source route. D’s final revised-receipt check precedes application.138 remains a separate canonical-title decision for Iván.
+
+
+## DDS quotation repair applied; historical reception frontier — 15 October 2026
+
+141 is now applied at `86be8d6e14ff29cf56d6446a2684d49ca0682bd9`, following its complete published plan and separate D31 check. D32 independently downloaded the exact raw DDS and baseline sources and reproduced the whole-file inverse. The other 167 code quotations remain exact. Raw source plus local GFM is the verification scope; the large public HTML response remains unavailable.
+
+[142 provides the next exact reader-route pair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation): a 403-byte paragraph containing two contextual links outside an unchanged historical A22 quotation. It does not replace the source-relative strings inside that quotation or reopen its stronger proof claim.
+
+The historical source join now has 1,907 events / 6,992 units examined, with 1,903 events / 6,988 units resolved. Four EP transfer-fragment units remain a custody question: parts 000/004/005/007, whose damaged or unidentified regions and package closure lack a matching complete original. Fifty complete CRC members, including eight slide XMLs, support four other resolved fragment units. They do not authenticate an intact presentation. The bounded local search of 170 files / 38 distinct deck contents found no exact original. Existing published presentations are unchanged. 138 remains the separately published canonical-title proposal awaiting Iván's specific decision.
+
+
+## Historical DDS audit reservation located — 15 October 2026
+
+C5 completes its 98 control-history events with one concrete partial reception: the old DDS review recorded that 0.1.2/0.1.3 literal pairs did not exhaust every introductory, coverage and citation change, and that authority/evidence changes do not become low-risk simply by being prose. EP already retains the 0.1.2 caveat, but its reference to 0.1.3 detail in DDS no longer reaches that detail. Current technical method content remains received.
+
+[143 publishes the complete contextual repair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations), with the full old audit 240–266 and one proposed 1,483-byte addition to the existing DDS VNext. It keeps incorporated proposals retired and current method ownership intact. Separate exact-text verification precedes incorporation. This is a historical audit omission, not a reason to restore an obsolete method or its old plans.
+
+
+## Historical damage-control consolidation and remaining boundaries — 15 October 2026
+
+The useful documentary repairs are incorporated in main: changes 122–143 except 138, twenty-one repair IDs containing 30 exact pairs. Nineteen pairs concern 12 source documents; eleven repair quotations, reader reception or historical qualification in four existing VNext. Each incorporated candidate had complete before/after passages published first, source checks and an applied receipt replacing its pending card. [The baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) explains the combined decisions. No public file was added, deleted or moved in this round, and no new VNext was created.
+
+The historical reading covers all 1,907 identified source-retirement events / 6,992 units. 1,903 events / 6,988 units have a resolved reception or justified-correction judgement; four remain a presentation-custody question. All 455 control/snapshot events requiring contextual reading are now adjudicated, separately from 586 records with the complete old bytes preserved. These counts join exact commit/parent/path identities; 176 overlaps are reconciled once, not counted as additional independent audits.
+
+The strategy remains **UC-21 → objectives → Challenges → DDS → campaigns and their results**. Cases own their objectives and correspondence; DDS remains reusable. Campaigns keep their original versions, costs, controls, negative evidence and execution limits. Earlier exclusive grammar classifiers, withdrawn all-six sufficiency claims and completed one-off publisher workflows are historical material, not candidates for blind reinstatement. Source-first reviewers A/B/C and later verifier D supplied distinct internal AI readings; this is not external scientific validation.
+
+The cumulative byte check at `0a5d9dc89bea22981280904da209042579a15ea2` retains the same 2,396 paths and modes: 47 existing paths changed, 2,349 remaining blobs exact. Complete source replay and inverse recover the precise predecessors. Code, results, frozen media and the protected EP README/strategy are unchanged. The four explicit VNext delimiter repairs have their own inverse, and 142 adds only 403 bytes of working reader links outside a retained quotation. Applied items are retired from the active queue. 138 remains ready for decision and unauthorised to apply; its canonical heading is unchanged.
+
+Four historical EP transfer-fragment units remain unresolved: parts 000/004/005/007. The remaining issues are a corrupt layout member, incomplete slide 5, 265 unidentified leading bytes and unverified ZIP closure/original identity. Fifty complete CRC members, including eight slide XMLs, and actual receivers support the four other resolved fragment units. A bounded search of 170 local files / 38 distinct deck contents found no exact complete original. No presentation was reconstructed or overwritten. A related local deck shares 42/50 members but differs in seven slides and the final relationship; similarity does not authorise replacement. The question is now concrete: obtain an authenticated complete original of that staged nine-slide export or the exact damaged/unknown members.
+
+The visible GFM link comparison at the same source-application cut reads 1,040 Markdown files: no new missing repository file/directory targets. The only two removed root-to-file edges are the older v1.1 decks, retained through the presentation manifest before the root update. Inherited quoted/historical contexts are distinguished from live reader routes; external URLs, all fragments and visual click fidelity are not certified by that scan. This bounded historical-control result does not declare the older five/six-pass research programme completed.
+
+### Additional branch material and actual reception
+
+B separately read the purposes and material receivers of the eight non-ancestor public branch tips observed on 15 October, against main cut `3155b9ed`. Fifteen of 23 public tips were already ancestors. The 70 additional paths at the eight other tips never appeared in main history at that cut; this is distinct from payload reception under another name or commit. The links below identify complete additional working editions. They neither create a competing canonical entry nor import those branches.
+
+| Additional working edition | Purpose and actual reception | Reading status |
+|---|---|---|
+| [audit/pptx-canonical-2026-09-28](https://github.com/dakleyer/structural-awareness-contributions/blob/bfc50c4239f1bd5716931ef67014a10dedf1f3e0/presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) | Intermediate compatibility/layout repair of the two v1.2 decks. Main keeps the two routes with later blobs and a dated manifest; these two tip payloads did not enter the checked main history. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md). | Retained intermediate edition. No binary replacement is proposed. |
+| [campaign/flores-addendum-merge-20261013](https://github.com/dakleyer/structural-awareness-contributions/blob/0f7958c7aebcebd1c43b8902506c5587b145d729/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md) | P0–P3 receiver-discriminability supplement. All 25 payloads entered main exactly through c6858fd2. The current campaign receives this earlier contract while keeping repaired R2 → complete freeze → material uncovered R3 as its direction. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/CAMPAIGN.md). | Content received by another commit; no additional campaign or new native result. |
+| [campaign/flores-theme21-residual-20261013](https://github.com/dakleyer/structural-awareness-contributions/blob/04ade51c4d28bc6e1ffa40364cecb78407d01d82/research/ecosystem-awareness/fg-tida/tests/flores-population-theme21/CAMPAIGN.md) | Earlier read-only sidecar about Population inference and receiver discrimination. Its 15 old paths never entered main; 11 payloads have exact current/history copies. The maintained technical history identifies the former contract and corrects its old commands. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/research/ecosystem-awareness/campaigns-in-development/flores-population-ea/technical/HISTORY_AND_REPRODUCTION.md). | Partial reception is explicit; 11 matching payloads do not prove all 15 files equivalent. |
+| [codex/abcd-foundation-2026-10-01](https://github.com/dakleyer/structural-awareness-contributions/blob/f5932a8f5f1b7c75edf18dc66882f0633c01d778/research/ecosystem-awareness/baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) | Proposed producer/process/question-relative ABCD semantics. That path never entered main. Current 00M v0.8 receives the relative distinctions, UNKNOWN and effective evaluation boundary; its VNext links the three proposal editions. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). | Historical proposal; its former canonical label does not override current 00M or settle 04 conformance. |
+| [dds/china-unicom-privilege-lifecycle-stage-a-v0.1-20261014](https://github.com/dakleyer/structural-awareness-contributions/blob/97f182ca6e928ccf66d6a8533d04d4dec690c9c7/research/ecosystem-awareness/campaigns-in-development/china-unicom-privilege-lifecycle-ea/CAMPAIGN.md) | Stage A design for privilege restoration after hibernation and contextual sufficiency: R1 → complete frozen native R2 → material uncovered R3-U. 29 additional paths and no main registry campaign entry at the cut. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/research/ecosystem-awareness/campaigns-in-development/REGISTRY.json). | Design not admitted or executed; D0–D3 pending. This observed pin / 29 paths supersedes the earlier catalogue pin b1d0aa2c/28. No joint-campaign consent is inferred. |
+| [research/hf-signalling-handshake-multigate-v04-20261012](https://github.com/dakleyer/structural-awareness-contributions/blob/9fa6878e6613a296ef111a78a7251964972c26f3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/context-signalling-multigate-v0.4/README.md) | Synthetic first-channel/handshake model. Main first-channel-counterfactual-v0.4 receives 12 exact code/data payloads and all 16,266 README bytes after a 566-byte notice explaining parity by construction and the v0.5 route. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/first-channel-counterfactual-v0.4/README.md). | Material received under another name. 182 traces/63 graphs are earlier synthetic records, not a real HF episode or a new execution. |
+| [research/steven-s5-audit-2026-10-11](https://github.com/dakleyer/structural-awareness-contributions/blob/d355f9022b3f9f628707cb13542c6c8df7546acf/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) | Steven S5 review package and later editorial drafts. README and ZIP entered main identically through 9056ed78; four extra comment/disposition drafts never did. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md). | The package is received; the extra discussion remains draft branch history. No AWS execution, UC-4 admission, coapproval or posted comment follows. |
+| [review/four-point-completion-registers-2026-10-12](https://github.com/dakleyer/structural-awareness-contributions/blob/1b7f30c53165e35053b6c3103f734728fa5d7d6d/research/ecosystem-awareness/DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md) | Four-question research synthesis and proposed 021–026 entries. The six tip editions were not complete main payloads; eight additional snapshots never entered main. Two exact current copies are the earlier states, not the new v0.3 conclusions. [Pinned main context](https://github.com/dakleyer/structural-awareness-contributions/blob/3155b9ed9aaad6b2cb834b9ff0950d9f8ecd7657/research/ecosystem-awareness/DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md). | Additional unadopted work. Earlier-state custody is not reception of the later conclusions; no automatic transfer of its local closure. |
+
+The branch reading found no live canonical dependency that requires importing an absent branch file. It distinguishes actual reception from ancestry and retains the programme owners. Sources, authorship and terms stay with the linked editions. No branch merge, code execution, submission or new evidence claim was made.
+
+### Final historical audit reception and verification cuts
+
+143 is incorporated at `1f65fbfbb17d29499e2b11657f579a2a01ff38de`: one 1,483-byte historical qualification in DDS VNext. C5 found the partial reception; D34 separately checked the full old/current relation and exact pair. D35 then downloaded the public DDS and baseline sources independently and reproduced the whole-source inverse; all 168 code tokens remained exact. EP already preserved the 0.1.2 caveat; DDS now receives the specific 0.1.3 detail and authority-risk reservation through its authentic source. Applied proposals and current method ownership remain unchanged.
+
+E built a separate preservation implementation for application cut `0a5d9dc89bea22981280904da209042579a15ea2`: 137 checks, 29 public raw GETs, 12 source-document inverses, all 20 applications then present and 121 original JSON entry tokens byte-identical. Recovering the original Suite prefix requires reversing 142 and then 140; it is not merely delimiter normalisation. 143 and the later consolidation are outside that E seal and have their own exact predecessor/replay/readback checks.
+
+Two concurrent commits, 3dbdce1c and aaf0de16, added the ideal EA-only matrix in 05 and its conversation-state bridge in 05A. Their complete added sections were read and all old bytes verified in order; both additions remain intact. Their roles and status distinctions are consistent with the existing ownership boundaries. This is a reading of the new declared contracts, not fresh verification of every cited counterpart statement. No pending historical candidate was applied by those external additions or by the consolidation.
+
+
+## Published preservation check — 15 October 2026
+
+The consolidated publication `7d74647594db68112f62430ce4a7694c0243e827` passes the cumulative exact-byte check against base `9bd445fe608ba5a4c04ab482aa7ce35b77e7fbab`: **2,396 identical paths/modes, 48 changed existing paths and 2,348 unchanged blobs; zero added, deleted or moved files.** All 30 literal repair pairs replay and invert exactly. The 12 source documents contain 19 pairs; four existing review files contain 11. Eight later review additions preserve their whole authentic predecessors. The concurrent 05/05A additions preserve all old bytes in order and remain exact. The 121 original JSON entries remain byte-identical and the original CSV prefix is retained. Code, results, frozen binaries and protected EP originals are unchanged.
+
+The final GFM comparison reads 1,040 Markdown files and 15,994 visible repository-target occurrences: **zero newly missing file/directory targets**. The 3,398 inherited occurrences retain their historical/literal-context classification; they are not claimed repaired by a scan. The two removed direct root links to older v1.1 decks are retained through the presentation manifest. The UC03 split URL is complete across its logical parts; 04 source-relative quote URLs remain authentic, and 142 supplies live A13/A14 reader routes outside the Suite quotation. External URLs and all fragments are outside that file-target check.
+
+E's 137-check/29-public-readback seal remains at 0a5d9dc8; D35's separate public-source/inverse check covers 143 at 1f65fbfb. The later consolidation has its own nine exact public readbacks and whole-predecessor checks. Applied items 122–143 except 138 are retired from the pending queue. 138 remains ready for a specific decision, not authorised or applied. The four identified EP container units remain unresolved pending an authentic source; they were not filled by inference. This records the bounded historical-control outcome, with the older five/six-pass research programme still open.
+
+
+## Official UC-21 ready for a bounded reader update — 15 October 2026
+
+The [fresh official-case revalidation](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#official-uc-21-and-canonical-corpus-revalidation--15-october-2026) reads the full form and43 comments and checks its relationship with current Contributions. All 48 submitted files are preserved with identical bytes and fresh public readback, all 37 requirement rows match the submitted form, and its 203 relative links resolve. The official Issue already leads directly to Contributions; PR #22 remains unmerged and is not the current research owner.
+
+Three exact additions are prepared in that same VNext:144 gives the official Issue direct access to the complete Contributions source edition and explains the current route;145 adds UC-21 to the official submissions table;146 identifies the historical versus current PR tree. Expected impact high, risk low, effort low; adoption awaits the named wave GO. The pre-existing seven-sector checkbox difference and old USE_CASE checksum discrepancy remain explicit. No original, result, source binary or official publication is changed by this review. This bounded revalidation does not close the older corpus-wide review or promote a candidate specification.
+
+
+## UC-21 main text: current-source link plan — 18 October 2026
+
+Iván's pasted full form matches the current official body. The [section-by-section review and Change 147](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#complete-uc-21-main-form-source-review--18-october-2026) connect its body to the six current Challenge sources and nine profiles, including integrated 00G/OpenAI, 00H v0.5 and Claude/Stripe v0.4, 00I reader and 00J's separate Panodyssey context. Thirteen original fork destinations survive in the existing source-history fold; none remains a required active route in the candidate. The full proposed form and eight complete before/after passages are in the same existing VNext.
+
+All 37 requirement rows remain literal; sections 1, 3, 5 and 9 and every original URL destination are preserved. The candidate's 55 repository targets and 7 fragments were checked. Change 147 supersedes pending 144, without deleting its history or changing 145/146. Impact high, risk low, effort medium; official application awaits the named wave GO. No canonical source, official Issue, title/sector metadata, result, code, asset or hierarchy changes in this review. The latest three public comments keep the proposed three-case Panodyssey Challenge distinct from S6.
+
+
+## Corpus integrity recheck — 23 October 2026
+
+**Auditor: Codex (AI assistant), same-agent source and context review.** Compared current main `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8` with last reviewed cut `e59430d264c66c3cbd8be67b9ae7b4ca067972d7`: 42 commits, the same 2,396 file paths/modes, 24 changed existing files and 2,372 identical blobs. Read every changed textual unit; checked all 1,040 Markdown documents mechanically for repository targets/fragments. This is a change-integrity review, not a new independent six-pass scientific closure.
+
+**Finding:** no file disappeared, no file was added or moved, and the three new substantive document additions preserve every earlier byte in order. Those are the two DDS method clarifications, the DDS-QA-01 Workplan note and the Theme #13 reception in 05A. The only other source change is the exact 17-byte duplicated Topology heading prefix removed by [138](https://github.com/dakleyer/structural-awareness-contributions/commit/3e94f7f1a98e8faa2cf88eaa7f6d9d94c51d5d95). **138 is applied.** Earlier dated references to it awaiting a decision describe the prior cut. Canonical EP/EA entry READMEs, Development Strategy, research programs/results and frozen binaries are unchanged between these cuts.
+
+The four reported checker errors are reproducible: two `./PUBLICATION_MANIFEST.json` strings in complete input-contract before/after quotations, and two A13/A14 source-relative links inside the A22 quotation in 00K review. Their real receivers exist; the 00K review already supplies working links immediately outside the quotation. Rewriting these source literals would damage the quotation. The [baseline finding]( https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#four-checker-reports-and-their-actual-receivers--23-october-2026 ) identifies the correct files and existing context. The checker does not test fragments, so its four reports are not the complete reader-integrity diagnosis.
+
+Beyond those contexts, **16 live review-link occurrences point to 10 unavailable fragment targets**; 10 occurrences became unavailable after the latest retirements, while six predate this cut. Five reach the still-preserved 14 October DDS plan whose heading is swallowed by a malformed code quotation; eleven need a historical-link correction, including the old MSCA `bcart`/`b_cart` mismatch. Frozen snapshots are counted separately and remain untouched. No previously reachable file became unreachable in the root-to-file graph.
+
+**First:** [148 in DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits) inserts one LF before an existing quotation closer. It retains the complete 22,330-byte historical source and every other byte, exposes the intended plan heading and restores its five incoming links. **Next:**149 below and [150 in HF VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections) pin the other eleven hrefs to the verified edition that still contains their historical sections. These are prepared proposals; no source replacement is applied by this publication.
+
+Retiring applied fiches also left older rating tables saying “pending” for applied IDs24/25/29,35,37/59,42,52/54 and53/56. Their owners receive dated status clarification in this same publication. The JSON register correctly marks these items applied; they must not be reapplied from old table rows. #93's applied HumanTime insertion remains distinct from its unadopted alternative. The [detailed DDS review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#corpus-integrity-recheck--23-october-2026) gives the source and preservation findings. Public audit text and plans are English; communication with Iván remains Spanish.
+
+
+<a id="change-149--pin-historical-review-references-to-the-edition-that-contains-their-sections"></a>
+
+## Applied review repair 149 — 25 October 2026
+
+Iván authorized these small corrections with the second document-control audit. Applied the exact published unit(s); the complete plan remains in the [pre-application edition](https://github.com/dakleyer/structural-awareness-contributions/blob/b9499c34e8690acdc9a1d1b6f274895a94c4c4b9/architectural-contributions/ecosystem-positioning/README_VNext.md#change-149--pin-historical-review-references-to-the-edition-that-contains-their-sections). This item is applied and is no longer a pending proposal. The retained anchor directs existing review links to this application receipt. All unrelated source bytes and scientific records remain unchanged.
+
+
+## Approved document-control clarifications — 25 October 2026
+
+**Iván authorizes the small clarifications and a complete second conformance audit.** Scope: DC-GH-01 wording/reading routes, existing review reception, and previously published review-only repairs148–150. Protected scientific originals, frozen evidence, programs and results remain outside this application. The exact control units follow; each has one literal match at source cut `b9499c34e8690acdc9a1d1b6f274895a94c4c4b9`.
+
+### Control pair 1 — Edition applicability
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Edition:** v1.0 · **Effective:** 25 October 2026 (owner-authorized GitHub publication)
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Edition:** v1.0.1 · **Effective:** 25 October 2026 (owner-authorized clarifications)
+````````````
+
+### Control pair 2 — Current assessment route
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Latest conformity audit:** [25 October 2026 audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md) · [VNext-link baseline inventory](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Latest conformity audit:** [25 October 2026 — second assessment](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026) · [VNext-link inventory with dated assessments](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
+````````````
+
+### Control pair 3 — Readable historical predecessor
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Preserved predecessor:** [DOCUMENT_CONTROL v1.1, complete pre-consolidation text](./governance/preserved-public-snapshots/2026-10-25_DOCUMENT_CONTROL_v1.1_PRE_CONSOLIDATION.md). The [24 October v0.1 conventions](./governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md) are a historical predecessor, not an independently operative second policy.
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Preserved predecessor:** [DOCUMENT_CONTROL v1.1, complete pre-consolidation text](./governance/preserved-public-snapshots/2026-10-25_DOCUMENT_CONTROL_v1.1_PRE_CONSOLIDATION.md). The [24 October v0.1 conventions](./governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md) are a historical predecessor, not an independently operative second policy. For working historical hyperlinks, [read the original at its original pinned location](https://github.com/dakleyer/structural-awareness-contributions/blob/21e200cd4c9a0558e4ae3669c55f7256c03a005a/DOCUMENT_CONTROL.md); the relocated custody snapshot retains its original relative strings.
+````````````
+
+### Control pair 4 — One registry path and rollout sequence
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+The repository shall progressively maintain a machine-readable DOCUMENT_REGISTRY.yml (to be created in Wave 1; not yet present) as the single operational mapping for identities and role-dependent checks. **Its nonexistence or incomplete coverage is an audit finding, not grounds to invent document roles.**
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+The repository shall progressively maintain a machine-readable `governance/DOCUMENT_REGISTRY.yml` as the single operational mapping for identities and role-dependent checks. Wave 1 collects and adjudicates the read-only inventory; Wave 2 creates the registry from those supported mappings. The registry is not yet present. **Its nonexistence or incomplete coverage is an audit finding, not grounds to invent document roles.**
+````````````
+
+### Control pair 5 — Three technical README levels
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+- **Technical architecture:** Ecosystem Positioning routes to Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control, with their own canonical technical indexes, work packages, evidence and applications.
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+- **Technical architecture:** Ecosystem Positioning routes to Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control, with their own canonical technical indexes, work packages, evidence and applications.
+
+The maintained technical corpus has **exactly three canonical README reading levels: Ecosystem Positioning entry → Awareness entry → technical corpus indexes**. The nine controlled owner paths below are not nine reading levels. Package/fixture READMEs and the three existing additional-work catalogues provide subordinate or optional reading; they do not add canonical levels. This carries forward the owner instruction in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#redistribución-de-archivos-y-tres-niveles-de-readme--instrucción-de-iván).
+````````````
+
+### Control pair 6 — Wave 2 target path
+
+Source: `DOCUMENT_CONTROL.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+- **Wave 2 — safeguards:** register relevant logical identities, extend the existing check, and configure enforceable review/branch settings proportionately.
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+- **Wave 2 — safeguards:** create `governance/DOCUMENT_REGISTRY.yml` from the adjudicated logical identities, extend the existing check, and configure enforceable review/branch settings proportionately.
+````````````
+
+### Control pair 7 — Stable CONTRIBUTING label
+
+Source: `CONTRIBUTING.md`.
+
+**Texto antes — complete current unit**
+
+````````````text
+**Current document-control policy:** [DC-GH-01 v1.0](./DOCUMENT_CONTROL.md). Use its role, protected-document and canonical/VNext link rules; specialized review methodology remains in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+````````````
+
+**Texto después — complete approved unit**
+
+````````````text
+**Current document-control policy:** [DC-GH-01](./DOCUMENT_CONTROL.md). Use its role, protected-document and canonical/VNext link rules; specialized review methodology remains in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+````````````
+
+**Reception additions:** link the unchanged [gradient review card](01_GRADIENT_REVIEW_CARD.md) here as optional review history; connect the new02A VNext to the existing14October proof review in01_FOUNDATIONAL_VNext, with reciprocal current-ownership clarification. Retain the old source/audit bytes.
+
+**148–150:** apply the exact already-published units after revalidating their current source context; retire only their own applied proposal cards, preserve their complete plans at the pre-application Git revision, and update their existing registry states. No older scientific candidate is activated.
+
+**Validation:** exact substitutions and global inverse, unchanged file set, GFM paths/fragments, original-source byte equality, raw public readback and a bounded GitHub PR. The second audit covers all thirteen policy sections and retains unresolved roles and actual enforcement gaps as findings.
+
+
+## Repair 149 destination revalidation — 25 October 2026
+
+Final GFM verification found that the previously proposed e59430d edition no longer contains the two old 00N/MSCA proposal headings. The 6 October 5c8024b edition contains both headings and their complete plans. These two approved reader-link units therefore use 5c8024b before incorporation; all other 149 units retain their verified destinations. This corrects a prepared historical pin, without reopening applied scientific proposals. The old candidate remains in its pinned pre-application edition.
+
+### Historical destination unit 1
+
+**Texto antes — complete current source unit**
+
+````````````text
+| [Condicionar el tamaño y coste del contexto útil](../../research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+````````````
+
+**Texto después — complete corrected unit**
+
+````````````text
+| [Condicionar el tamaño y coste del contexto útil](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+````````````
+
+### Historical destination unit 2
+
+**Texto antes — complete current source unit**
+
+````````````text
+| [Mostrar todo B_Cart en el índice MSCA](../../standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-bcart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+````````````
+
+**Texto después — complete corrected unit**
+
+````````````text
+| [Mostrar todo B_Cart en el índice MSCA](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-b_cart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+````````````
+
+**Impact: High; risk: Low; effort: Low.** Benefit: working historical sections with their original context. Verification: both complete targets and GFM heading IDs exist at 5c8024b; current source units each match once. Iván’s authorization for these small corrections applies. No scientific text or original source is altered.
+
+
+## Optional review history — gradient
+
+The [unchanged gradient review card](01_GRADIENT_REVIEW_CARD.md) records the scope and outstanding relations of its 6 October review and leads to the [current gradient source](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) and its existing [review](01_GRADIENT_VNext.md). It is supporting review history, not a new canonical source or navigation level. This restores the explicit reader route removed when the old Document Control index was consolidated.
+
+
+## Document-control second assessment and applied review repairs — 25 October 2026
+
+The [second DC-GH-01 assessment](../../governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026) is complete. The seven approved control units are incorporated in the current policy/CONTRIBUTING; repairs 148–150 are applied, their pending cards retired and their incoming anchors retained. The gradient card and earlier 02A/Foundation review history remain reachable through the reception links above. The complete older cards remain at their pinned pre-application editions.
+
+**Current state: partial conformance.** The three technical README levels and single registry path are explicit. The logical registry, EA protected-successor decision, R01 edition identities and actual merge safeguards remain open. Six foreign-review links from four controlled routers need a later scoped source-route correction; their source/target declarations and receiver requirements are in the assessment. No protected router, scientific source, frozen part, experiment or result is changed here. The five scientific passes and corpus consolidation retain their own actual status.
+
+The [existing inventory](../../governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json) retains its first baseline and adds reproducible GFM counts, occurrence evidence, current role uncertainties and exact historic/split-source exceptions. [PR 26](https://github.com/dakleyer/structural-awareness-contributions/pull/26) records the bounded application and verification. Next comes identity/authority adjudication, supported safeguards and six exact router corrections; no mass cleanup is authorized by that order.

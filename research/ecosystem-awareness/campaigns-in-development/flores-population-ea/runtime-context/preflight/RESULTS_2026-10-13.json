@@ -1,0 +1,5343 @@
+{
+  "schema": "FLORES_RUNTIME_CONTEXT_AUTHOR_PREFLIGHT_0.1",
+  "evidence_mode": "AUTHOR_SYNTHETIC_FINITE_MODEL_AND_RULE_PROXY",
+  "source_native_run": false,
+  "EA_implementation": false,
+  "blind_campaign": false,
+  "independent_adjudication": false,
+  "named_controls": 20,
+  "hidden_truth_pair_controls": 64,
+  "control_result": "PASS_IN_DECLARED_FINITE_MODEL",
+  "reference_vs_strong_B2": "20_OF_20_STATUS_PARITY_NOT_A_SCIENTIFIC_DIFFERENTIAL",
+  "native_proxy_context_assessment": "NOT_ASSESSED",
+  "source_native_accuracy_or_independence": "NOT_ESTABLISHED",
+  "identifier_warning": "K labels identify public calibration fixtures and must not be used as blinded campaign inputs",
+  "unaffected_decision_control": "PASS",
+  "null_pair_truth_distinct": true,
+  "null_pair_complete_visible_packets_identical": true,
+  "core_timeline": {
+    "t0": "SUPPORTED",
+    "t1": "NOT_ESTABLISHED",
+    "t2": "SUPPORTED",
+    "sameVotes": true
+  },
+  "controls": [
+    {
+      "id": "K00",
+      "description": "t0 valid current-context witness",
+      "expected": "SUPPORTED",
+      "B2": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "d3203b8dc79967fec729c45e4de702914a6a96b5e9828704efa92f16dbd29d90",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K01",
+      "description": "benign display change",
+      "expected": "SUPPORTED",
+      "B2": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "35338fc6499f6bfb3dade52943c7f4f479d9af6fe3ca1a4a1ef94f641f8fb4ab",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "changed decoration",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K02",
+      "description": "t1 epoch changes and current witness is absent",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "6e4c5db39fc73ab38820addd6daa3e1d71751cc1fd5ec96207a6f24d28a2bce8",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e1",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K03",
+      "description": "t2 same epoch legitimate current witness supplied",
+      "expected": "SUPPORTED",
+      "B2": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "6a6c9c72ae1cf5bdcc2590b69a4436d64ad6b4e067bba5236a4fd77dc37275b9",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e1",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          },
+          {
+            "epoch": "e1",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "67a0104ce35ba8c71a69fa8c667d0ec84b0b64600bb440c15cdaf4bccac14308"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          },
+          {
+            "at": 10,
+            "epoch": "e1",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K04",
+      "description": "witness withdrawn without any replacement",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "052fdf62f96ca57d1bb65a3c81ae7dc7debf123b1676640313834bddc4f5bfc5",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K05",
+      "description": "alternate legitimate source preserves support",
+      "expected": "SUPPORTED",
+      "B2": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "eb6976aec82a884f4f735a220fb05326c832fcc5326a07d80163e3a50512190e",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-2",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "f63ab0e82198fd0b51d76af6521cd5df8aae6b2ca81f4707ef4e5eee389ca6e6"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K06",
+      "description": "wrong subject cannot establish target",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "4c057ef50a28106d13ac7d06febdbeda0e9ef8380cdd666260d8ae55f43faae6",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionB",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "5c7e684002ae425e4f241370aea330d2eb8f28934a6b31f77dc7ef21b4da4a02"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K07",
+      "description": "untrusted author cannot establish target",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "164c1b6a493941954adb4a8e975904cd9603429eff9bda2b619ccb92c1658113",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "untrusted",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "696c36ac6de2d1272d97507a0e04ac85f622809a922b58a3692241b65f2c0520"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K08",
+      "description": "same source copied does not become another truth",
+      "expected": "SUPPORTED",
+      "B2": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "a6749e9aeaffdb1e08e1e5876817aaaf5a31ecb2734afe8fcb06110894441012",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          },
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K09",
+      "description": "material payload tampering without new digest",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "096d0f2040b7609e976acd5f587dc8aab39950b75cf02e93d45e6ccb27ef30a4",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "block",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K10",
+      "description": "properly bound contrary current source refutes receiving claim",
+      "expected": "REFUTED",
+      "B2": {
+        "status": "REFUTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "REFUTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "6ffc9f84d6accc0e69d32ad2180881c13aba4eb5162c022686aff413e2f5e5a1",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "block",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "8b9eba73f4c2e03f7b09f883ad8f299ecd8c69f68fe3d437f4d13b699449e1f9"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K11",
+      "description": "conflicting legitimate source preserves indeterminacy",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "conflicting eligible source values",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "inconsistent source constraints",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "2314f0fa37b37da0ea2e63eeeed0f9e322d80c9e5eb6a5d9a096e3c0dbf3e4d7",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          },
+          {
+            "epoch": "e0",
+            "value": "block",
+            "subject": "decisionA",
+            "source": "context-source-2",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "0084cb9c5bd03df2569b0128c7b2a07cbdef4f02b48afa946a491f7eadcf5f38"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K12",
+      "description": "expiry boundary cannot retain old support",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "e984f5ad87b6c64cbdf46fff40faa9afede63c0db3b9d0cb0f41d91524cc5c06",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 100,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K13",
+      "description": "future source witness not yet eligible",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "d01197c442e01847cca0b95ec1b206385c408b0ff5dc5b6e02ad3c61c47477b1",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 11,
+            "validUntil": 100,
+            "commitment": "07e1cf5d398d45df62737938ac497868e3b2b0b5750e8487307e17c0daebc4b6"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K14",
+      "description": "wrong reference cannot support target",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "97023da860904a7b5568304e4663a32abefe581adf733997735cd101d5b85eab",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "OTHER",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "6e536be8766efcb80a852bf02eae62f862308fec895ca139aad2d92d76f9c3a0"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K15",
+      "description": "independence decoration cannot establish absent witness",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "81769915cf34419a90ce7113ddabc2ed53ca34fb04b8a4d12b2781d65c231c6d",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e1",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ],
+        "independence": "independent"
+      }
+    },
+    {
+      "id": "K16",
+      "description": "replayed earlier witness stays historical",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "b8cbf04edddb97e10db5798f65ad77f2bca6ca9ac75c9c07831a9075094edcf4",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e1",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          },
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K17",
+      "description": "material loss limited to decisionA leaves decisionB valid",
+      "expected": "NOT_ESTABLISHED",
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "afce878f19c7f3c9c6ced0e9949b95b85e36cea97ac5110d3a4ef41ace6518fe",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e1",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          },
+          {
+            "epoch": "e1",
+            "value": "permit",
+            "subject": "decisionB",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "be59e84fbc5a52f26a04fce27d1d8e1db75b67e34c66957c7ccd8a1415445d83"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K18",
+      "description": "valid baseline at final pre-expiry instant",
+      "expected": "SUPPORTED",
+      "B2": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "38e582cb3c896203f6e072ea5d43d69e9405309b9d1e781e8fc50453b53e7df9",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 99,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K19",
+      "description": "receipt observation order is immaterial",
+      "expected": "SUPPORTED",
+      "B2": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "SUPPORTED",
+        "identifiable": true,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "single compatible current-context value",
+        "sourceResultPreserved": true
+      },
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "visiblePacketSha256": "cc37f0bc6d40db1e711c17ef73d373dd0d2c897d44d1cbf26fbc53c011671083",
+      "voteSha256": "9ef98cc77f4644f50e3ffc0ed9b178906ceec3fe768da4033d5654ec6488b24b",
+      "packet": {
+        "schema": "AUTHOR_SYNTHETIC_CONTEXT_1",
+        "evidence_mode": "AUTHOR_SYNTHETIC_NOT_NATIVE",
+        "target": "decisionA",
+        "claimedValue": "permit",
+        "currentEpoch": "e0",
+        "now": 10,
+        "votes": {
+          "UC17-01": {
+            "J1": "permit",
+            "J2": "permit",
+            "J3": "permit",
+            "J4": "permit",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-02": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "permit",
+            "J6": "permit"
+          },
+          "UC17-03": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-04": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          },
+          "UC17-05": {
+            "J1": "block",
+            "J2": "block",
+            "J3": "block",
+            "J4": "block",
+            "J5": "block",
+            "J6": "permit"
+          },
+          "UC17-06": {
+            "J1": "escalate",
+            "J2": "escalate",
+            "J3": "escalate",
+            "J4": "escalate",
+            "J5": "escalate",
+            "J6": "permit"
+          },
+          "UC17-07": {
+            "J1": "indeterminate",
+            "J2": "indeterminate",
+            "J3": "indeterminate",
+            "J4": "indeterminate",
+            "J5": "indeterminate",
+            "J6": "indeterminate"
+          },
+          "UC17-09": {
+            "J1": "remediate",
+            "J2": "remediate",
+            "J3": "remediate",
+            "J4": "remediate",
+            "J5": "remediate",
+            "J6": "permit"
+          }
+        },
+        "receipts": [
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-1",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "9ecae0cf2939f8ca5c076211ef29e941fc5d1c3071cfb5859b15c5eceda950b8"
+          },
+          {
+            "epoch": "e0",
+            "value": "permit",
+            "subject": "decisionA",
+            "source": "context-source-2",
+            "reference": "SYNTHETIC-CONTEXT-REFERENCE-1",
+            "validFrom": 0,
+            "validUntil": 100,
+            "commitment": "f63ab0e82198fd0b51d76af6521cd5df8aae6b2ca81f4707ef4e5eee389ca6e6"
+          }
+        ],
+        "displayNote": "ordinary",
+        "history": [
+          {
+            "at": 0,
+            "epoch": "e0",
+            "subject": "decisionA"
+          }
+        ]
+      }
+    }
+  ],
+  "null_pairs": [
+    {
+      "pair": 0,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "981bf51bc7b03fffa294fa9ca927e93bd6072eb121db0e9580fcc129f2586227",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 1,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "cdadf8b394e3d3f8c918adac56ccdd52292460e2c3555c539e2d4b18b34a6d43",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 2,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "d4d18bc52fb28f373e3839f7619c26801ba5f8bfe5285c9832ead867cebb89c9",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 3,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "d2133ca4938b8176c55ad2c3ec63ecdb0adc8c83f270a4532859de5b340e80f7",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 4,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "f920f908daa45c4f9d2eac18e902ba08a61d9bb93367183b8d14dd662780a276",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 5,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "65d55ea72516715035fe70b0f7bc813f177be0b0216b6f303941c2070bb82471",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 6,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "4f4bdc8ea35ea5f76c8727aec6719f8789fcd3824e4d9fcfa6b1c36d27586611",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 7,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "5ac7fa22897b14795517b45937750c99101a2966728db75d0de75c9b52d62e16",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 8,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "8ae527b9715f3e7b9b8bb5180c8be3d89b6d624f0521b88c4993baee7afd3dfe",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 9,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "8e05d5e5a0f856e58cdf19853c9d4fad397be5a2df1d06a86638b52e8a7e0fe5",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 10,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "6b7f932603bf854ed3a366e222e0a98c8180d788d0175b5624b33c168bfda098",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 11,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "5906513f797cc1029c45146775ace12895e0bdaccdc35b9e1e5e0e1b6204d579",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 12,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "12c28b8a6c77bce8a748075ccd3440e48a9542122eae9f0b4853676a914b0839",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 13,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "6555541cdc19e3af5ce98d854db8e9d867be46ac9a0ff28f01284079ef25aa57",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 14,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "c1b385120536268bf84e54f21607a0c3e445dbcf681fc67d8ed48787b2282308",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 15,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "554d83d3bf43f22abf6b698d434acb207794c235c836ce6b6982eac49d186d87",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 16,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "4dc9c2bedb94b5cc42ee17aed2ac36891c441c32aefa8d87eca7432e1eb4382d",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 17,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "8d884672f45cad36c36f3290501b3fdbafa46cb7c9ab1f594ecda99a9d4e75aa",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 18,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "e45d1d203d904e41bdcb206a049d5f0a7d5095443079156a0840b93e4c04e78c",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 19,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "41288d54eff8203245957f592b49574a29dcb21894baa62d74a77b987dd94e2a",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 20,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "21ca766285e0b76f8a9d7e6fbbdaade3590ee1fb6f702fdb7f20aa2795fa6121",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 21,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "fd1dc807f27b83f071fcf016ad0f0053586b8a02264765e61f75265ce4f0e248",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 22,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "e6287c5f223e60f3a69040b66d9b3c3826b6433fe60bd2983d528cb508a6e79b",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 23,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "7c1217fd2b88a1b5655610e0d1403fb36e5a7770fa177d225ccfe83fd8122bf0",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 24,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "e93816acc7247ebbb3c14a606974a8dc7be6a49eef300f358606648434795174",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 25,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "d122872bff8a9c088a8c651ac46cd85b9757d6a103f563916ddefea275dd667d",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 26,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "aba06a4585bee982f9c9cfe9104d615d41c1d20d7d416f6037a24b4dee14466c",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 27,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "781d827fe882186069642dbd9f638fa5c8d6861ee92940e2b0a658b5db67039b",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 28,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "ba5f2eb42e2d84062665b137e49a184ba9d8f0fbfaa0f454ff5530018aca5263",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 29,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "04d524dff7cb740d21c5e2c1f652c47479dcfb6a6220663174f0bfcf25acd9a1",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 30,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "48f68a1a0380f5dc7e945a57650678826db86d2460414ee05a2f07045aa65f4e",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 31,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "6c9c921ffffe398cd4ee0f43784a9853624633ac2b612b65f4e34ef040ddc5f8",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 32,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "f0c1ed0466093b25c265d7c4f447d2377cbb13f1141b20f14dc1a7c70a387c07",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 33,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "fe375cad55e58bf0ee8c661554901a2e85e9e7ccfac53780b393013fd1f1a4f7",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 34,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "64efc696a546975a9794e8a1030453a605251a100efecabb3798a5b7fc61f3c7",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 35,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "f2c75362f94b36a912d17f9ad64e7fedc0c5d7539c7b1bb212781bbf3a9c5b5d",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 36,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "46274b215d5e41980e80a112cead0db125acae1e9f565b172a95277c97e771e9",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 37,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "30a7971849f6879d91a49e01ab93e0136e05b6edb3b3e17c1ad0894f6adeda1b",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 38,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "d2022a4a3444ea63b4baf28a18ea48fff2f3177079b19a0b49b7a291e3a0b49e",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 39,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "041fd40171ccdff0369cf9db71463f792f410123143fa717e89447d1323802ce",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 40,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "b1f81f5bc5ce7e43e4e9ebafb442d8ea3853b0343828d41294deffdddb31ca9f",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 41,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "799ddaf2f24c140feca0d607490c338072b1613ebba48a70559b93593f1011df",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 42,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "ff85b4c513c2a77d5913fb61aff7f2cf8c014257c350cc01013320baa700ed3a",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 43,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "d1818c18671043e4cf04369d1de8e9dcc929a699e6e6a9ea1fa4c32ec470e4fa",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 44,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "00fb01bd4ef53fefcfb0e461c99bbe153dc740afc362242e030e52231a7e07fb",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 45,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "460d57263f432f0f2656b105ae8ab8ff6ec7c8be249e936006d0c57042ac431f",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 46,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "12c103547a5ca28dba4c17e716c74b91017e1de8f571a9d84c892564d4410546",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 47,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "dbf8026b7c9e7063aa57c6a7f06e90304ed63f6633eb63e8f5ba5a0931afaee0",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 48,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "acd6c4dbd4ea5d9570be3caafb1fc6973850c726161bd21ff1efc5e6e60357c0",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 49,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "5bfc2f4bbccecf0889134c5f433afafad956b3009d54ef750b4c69df4f2a0389",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 50,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "19bb267c39a6e3210db14ad77095d422b9677851f274042bdf6e9ac3763d8cd3",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 51,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "c7198e04fd0dd478d51e8a13f1a62207852083385b89f51e89bbc14317755f0e",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 52,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "f2a09c205d18e135ec07dd5197b93ed0d40e5e446835ab44560463c7ca89ba43",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 53,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "e672fb648a33a2504b6496e24c229ee64ada1a768deafe9eb005c73bc960a489",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 54,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "0b28c876b0dbc301c92cde047bbf5432b71a1edf226cb0b42fc162e7d3cfe3f8",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 55,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "fb6c7e46073369fa419369b807567a301eca2bb9d070baa4e7ac361ba1493359",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 1,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 56,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "fdacb902e98ba4301ea03d94a3e9280cfb5c006e29a639700ccb6d4328c92a05",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 1,
+          "J4": 1,
+          "J5": 2,
+          "J6": 7
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 57,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "ff8694867e9b645bff832a7b3a6d8dc784a644c30cb2631705d1cd4af68576ac",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 58,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "c74bc52c6e94278756d0d960154e4df53efd5ef50d07a2379a95a75c01f95559",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 59,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "ac10c8f1ce45a11aeb6ba6e0c8d3f0c318e713c33793a362214c7ff9658e39d9",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 1,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 60,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "35c7ebd429b2627efbf25f11c715c28070396b46e661aac12399e343d0b732a9",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 61,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "882f5c7764ade38441b9ae77f683596e89bd90b5de0a371c176a0f9a7de03678",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 1,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 62,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "b0ed9431d367afdef345e8794e6044bbfbf3fd397812f63c08e213ac1047adfa",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 1,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    },
+    {
+      "pair": 63,
+      "truth0": "permit",
+      "truth1": "block",
+      "visibleHash": "87e332f24e42ec4a69a2eeb80a1cfd556c1510c80609a13b20b048ec537443cb",
+      "native": {
+        "evidence_mode": "AUTHOR_SYNTHETIC_RULE_PROXY_NOT_NATIVE_RUN",
+        "rounds": 1,
+        "counts": {
+          "J1": 0,
+          "J2": 0,
+          "J3": 0,
+          "J4": 0,
+          "J5": 1,
+          "J6": 6
+        },
+        "flags": [
+          "J6"
+        ],
+        "context_qualification": "NOT_ASSESSED"
+      },
+      "B2": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "no current eligible source witness",
+        "sourceResultPreserved": true
+      },
+      "reference": {
+        "status": "NOT_ESTABLISHED",
+        "identifiable": false,
+        "affected": [
+          "decisionA"
+        ],
+        "reason": "multiple compatible current-context worlds",
+        "sourceResultPreserved": true
+      }
+    }
+  ]
+}
