@@ -1,0 +1,27 @@
+# Concordancia íntegra: «prompts no procesados.docx» (cinco páginas, 26 octubre 2026)
+
+El documento aportado comprende **seis bloques temáticos** separados por líneas de corte, que abarcan varios prompts originales y dos desarrollos adicionales. Se conserva el orden y las distinciones. No se presume que todo el archivo estuviese procesado antes de esta auditoría.
+
+| Bloque, en el orden del Word | Contenido/ejemplos expresos del autor | Estado previo contrastado | Resolución y destino de esta auditoría |
+|---|---|---|---|
+| **1 — Bloqueo racional** | Funciones independientes y codependientes; saturación sin egoísmo; cambio de foco desde veto/soberanía a recursos; plátanos preservados | Sí: PR #42 `MODEL.md`, núcleo §3.1, estudio `bounded-traps` | **Cubierto** en PR #42. Soberanía como caso especial; no convertir cada necesidad material en una autorización jurídica. |
+| **2 — Deuda creciente con dimensiones** | Más dimensiones y producción, pero mayor distancia al óptimo conjunto, incluso proporcionalmente; no linealidad condicionada | Sí: PR #42, estudio de redes con control estrella/densa, n=5/10/20/40 | **Cubierto bajo supuestos**, no ley; hay que demostrar que la alternativa conjunta superior existe en el mismo presupuesto; G≠HID≠dolor. |
+| **3 — Límites de representación y utilidades no monótonas** | Composición de funciones, valles/picos, manzanas: saturación y nuevo umbral de frutería | Sí: PR #42, funciones no monótonas, estudio `bounded-traps`; PR #43 distingue cierre afín y operadores de acoplamiento | **Cubierto y auditado**: Pareto es comparación de finales, no derivada siempre positiva; LP/MILP no garantizan coste bajo universal. |
+| **4 — ABCD intrínseco y coste de comprender** | Composición de subsistemas con outputs, alternativas X/X−100/X−200, reconstrucción costosa, explotar A frente a explorar C, B evaluable, D sin ruta | Sí: PR #43 + #44, `nested-composition-suffering` e `intrinsic-abcd-economics`, coste de 32 nodos vs B en seis niveles, 61 tests | **Cubierto en perfiles acotados**: no inferir C/D globalmente inexplorable ni asignar ROI/entropía sin marco. |
+| **5 — COROLARIO ANTES NO COMPLETO** | Composición no fungible y abierta puede resolver algún subproblema hasta obtener información determinada; nube de puntos inciertos y cardinalidad desconocida; interpolación condicionada; MSCA/gradiente/Ecosystem Positioning/ciudadanía como posibles arquitecturas; plausibilidad sin solución única | Sólo en 00M §4 como argumento general; ningún corredor experimental específico en PR #42–#44 sobre nube incierta y **cierre local por pregunta** | **Nuevo estudio:** cotas con muestras inciertas, Lipschitz caracterizado, procedencia no fungible, D material, `LOCALLY_SUPPORTED_TRUE/FALSE/UNKNOWN`; no extrapolación sin regularidad, no clausura del exterior, coste y comparador fuerte. |
+| **6 — COROLARIO ANTES NO COMPLETO** | Solidaridad elegida ante riesgo no cuantificable; participación quizá positiva para uno o muchos, sin exigir ROI; metaconciencia calculable sin conocer el mundo, orientación GO/NO-GO con confianza residual intacta; conocimiento puede aumentar sufrimiento | En ACC se hablaba de consentimiento/solidaridad; PR #43 define brecha estructural, pero faltaba una **metapolítica computable** que no falsifique indecidibilidad, y un control del malestar por información | **Nuevo estudio:** `advisory` con autorización/consentimiento/derechos, abstención y revisión bajo riesgo incierto, sin auto-actuación; `structural_exposure` separa brecha objetiva, reconocimiento y dolor vivido no medido. |
+
+## Ejemplos custodiados sin transformación de hechos
+
+Se reutiliza [EXAMPLE_LEDGER.md](../bounded-traps-v0.1/EXAMPLE_LEDGER.md): plátanos y su transporte, caridad/ayuda DANA como preferencia hipotética, Viernes/Robinson 1/999, ministerios y 700 aplicaciones, manzanas-frutería, naranjas y precio, hormigas y sus fronteras, READY/v1/v2, demanda X−200, crédito 7/10, complejidad al crecer dimensiones, estudiante capaz nacido en barrio desfavorecido/liceo/plaza universitaria/empleo subóptimo. No se afirma que los ejemplos franceses denoten hechos individuales reales; la dignidad y la libertad de elección no se reducen a productividad.
+
+Se añade en esta nueva fase el ejemplo **EX-CLOUD-01**: observaciones parciales como nube de puntos con intervalos no probabilizados y extensión/cantidad exterior no caracterizada. Se usa para probar una pregunta concreta bajo una hipótesis de regularidad fundada y para proporcionar un control de imposibilidad cuando esa hipótesis falta. Ejemplo **EX-META-01**: saber que la evidencia basta/NO basta para una acción no equivale a conocer la verdad del objeto. Ejemplo **EX-SOL-01**: consentimiento solidario de un agente, sin ROI global caracterizado, NO es permiso automático ni justifica perjudicar terceros.
+
+## Seguimiento de cambios
+
+- PR #42: la primera formalización mecánica y el inventario de ejemplos.
+- PR #43: composición recursiva, capacidad no desplegada y definición estipulada de sufrimiento estructural.
+- PR #44: A/B/C/D relativo intrínseco y economía de comprensión.
+- **PR nuevo:** corolario de cierre parcial, metacognición y solidaridad, en rama de revisión **apilada sobre #44**, sin modificar los tres PR anteriores ni prometer resultados experimentales externos.
+
+**No se recomienda modificar 00M ni requisitos UC21/DDS por este experimento.** Sólo las exposiciones ACC vivas pueden tener una adición de investigación calificada y enlazada; toda promoción posterior requiere revisión expresa del propietario.
