@@ -39,6 +39,12 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/bounded_traps.py > /tmp/acc_traps_results.json
           python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/REFERENCE_SYNTHETIC_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_traps_results.json').read_text())"
 
+      - name: Check ACC nested-systems structural gap and bounded information loss
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/nested-composition-suffering-v0.1 -p test_nested_model.py -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/nested-composition-suffering-v0.1/nested_model.py > /tmp/acc_nested_model_results.json
+          python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/nested-composition-suffering-v0.1/REFERENCE_SYNTHETIC_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_nested_model_results.json').read_text())"
+
       - name: Check optimum-derived HID and matched ABCD synthetic tests
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_hid_optimum.py -v
 
