@@ -1,0 +1,47 @@
+{
+  "early": {
+    "ce_gain_redesign": -2.0,
+    "excess_risk_premium": 8.0,
+    "excess_variance_redesign": 32.0,
+    "exit_probability_postulated_logit": 0.119203,
+    "mean_gain_redesign": 6.0,
+    "preferred": "STAY",
+    "redesign_ce_after_cost": 7.0,
+    "stay_ce": 9.0
+  },
+  "fixed_gamma": 0.5,
+  "late": {
+    "ce_gain_redesign": -4.0,
+    "excess_risk_premium": 15.0,
+    "excess_variance_redesign": 60.0,
+    "exit_probability_postulated_logit": 0.017986,
+    "mean_gain_redesign": 11.0,
+    "preferred": "STAY",
+    "redesign_ce_after_cost": 9.0,
+    "stay_ce": 13.0
+  },
+  "late_current_net_welfare": 17.0,
+  "late_stay_future_expected_outcome": 14.0,
+  "late_stay_future_forecast_below_current": true,
+  "observed_human_suffering": "NOT_MEASURED",
+  "outside_probabilities": "NOT_IDENTIFIED",
+  "scope": "NORMAL_CARA_FINITE_LOTTERIES_ONLY_NO_ABCD_EXTERIOR_PROBABILITIES",
+  "status": "SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL",
+  "stipulated_welfare_trajectory": [
+    {
+      "gross_benefit_excluding_discomfort": 12.0,
+      "net_welfare": 10.0,
+      "stipulated_discomfort": 2.0
+    },
+    {
+      "gross_benefit_excluding_discomfort": 20.0,
+      "net_welfare": 14.0,
+      "stipulated_discomfort": 6.0
+    },
+    {
+      "gross_benefit_excluding_discomfort": 30.0,
+      "net_welfare": 17.0,
+      "stipulated_discomfort": 13.0
+    }
+  ]
+}
