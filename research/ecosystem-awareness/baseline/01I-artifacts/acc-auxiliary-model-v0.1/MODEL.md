@@ -68,6 +68,16 @@ La comparación en un laboratorio finito muestra un ejemplo de 16 fuentes: A=128
 
 Esto formula **FH-C y FH-E como hipótesis investigables en el sistema social mismo**: ¿la pérdida de cualificaciones pertinentes provoca decisiones colectivas peores aunque el A local sea correcto? ¿Puede conservar o transmitir Q suficiente resultar más económico, con igual seguridad y continuidad, que ampliar íntegramente A? La respuesta requiere comparador convencional fuerte, fuentes auténticas, costes completos, derechos, tareas específicas y evidencia observada. No atribuye a Ecosystem Awareness una función técnicamente superior por definición.
 
+### Suficiencia parcial de una composición abierta y decisión metacognitiva
+
+La pérdida de distinciones en interfaces de subsistemas no exige que una metaarquitectura reconstruya todos sus estados. A veces basta **componer afirmaciones parciales cualificadas** (B, indicios C y testigos D relativos a sus propios procesos) para determinar una **pregunta receptora concreta**. Eso no clausura el conjunto abierto de dependencias ni convierte C y D en listas. Si la pregunta cambia, la información anterior puede dejar de ser suficiente.
+
+El caso de una **nube de puntos inciertos** es útil siempre que exista regularidad justificable y procedencia confiable: los valores/posiciones parcialmente conocidos inducen cotas conservadoras; esas cotas pueden apoyar o descartar un umbral sin interpolar exactamente toda la función. Sin regularidad no hay derecho a inferir valores entre observaciones. Un D material no evaluable conserva la insuficiencia global aunque el subproblema esté matemáticamente resuelto; no se asignan distribuciones artificiales de Shannon a lo que el proceso no puede caracterizar.
+
+Una función de **metacognición** computable examina la suficiencia de evidencia para la pregunta, puede conservar `UNKNOWN` y nunca decide por ello un problema universalmente Turing-indecidible de nivel inferior. Su resultado es A de su propio proceso; ayuda a escoger qué revisar, no sustituye autoridad ni conocimiento del mundo. Ecosystem Awareness es una arquitectura candidata, no la única que podría cumplir esa función: interfaces convencionales equivalentes deben poder igualarla o superarla.
+
+La **solidaridad elegida** es una posibilidad de actuación voluntaria con consentimiento, derechos y titularidad válidos aunque no se disponga de una función numérica de retorno. No autoriza por sí sola arriesgar recursos ajenos ni transforma riesgo D en riesgo cuantificado. Comprender mejor un bloqueo puede aumentar, aliviar o no cambiar el sufrimiento experimentado, independientemente de que la brecha objetiva de desarrollo permanezca igual. El [estudio sintético y controles negativos](studies/scoped-closure-metacognition-v0.1/README.md) separa esas afirmaciones y [audita los seis bloques del Word fuente](studies/scoped-closure-metacognition-v0.1/PROMPT_COVERAGE_MATRIX.md). Son investigación, no resultado humano empírico ni nueva semántica 00M/01K.
+
 ## Propuestas aceptación y reajuste
 
 Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.
