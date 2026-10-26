@@ -53,3 +53,11 @@ La CI aprovecha el único [workflow de integridad documental](https://github.com
 5. No calcular índice D02 con una ecuación inconsistente entre ediciones ni extrapolar frecuencias Shannon/capture–recapture a C/D abiertos.
 
 **Novedad atribuible:** un paquete de pruebas **interoperable y trazable** de composición socioeconómica + cualificación epistémica + derechos y resultados humanos separados, con falsadores y comparadores fuertes. Las ideas de juegos de coordinación, Blackwell, Shannon e interpretación abstracta tienen prior art; esta batería no demuestra una primicia matemática.
+
+## Confirmación de la ejecución integrada en GitHub CI
+
+**Corte verificado tras el commit experimental, sin sustituir las mediciones locales anteriores:** la [ejecución 40350676384](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40350676384) concluyó SUCCESS. Se verificaron **49 pruebas nuevas**, cuatro replays de módulos sintéticos PR #42–#45 frente a sus resultados de referencia y un único adaptador UC21/S4 **SINTÉTICO**, sin prueba nativa de productos. La salida de `verify_campaign.py` declara `passed=true`, `scenario_cases=60`, `arm_decisions=300`, `prior_studies_replayed=4`, `UC21_synthetic_only=true`.
+
+La ejecución publicó el artifact `conscientia-acc-synthetic-results` (ID 12664160091) con JSON y Markdown de resultados regenerados; es un entregable temporal de Actions, no una observación independiente. Los datos fuente/casos/resultados fijados y los programas permanecen en el repositorio para reproducirlos después del vencimiento del artifact.
+
+**Índice en Google Docs (nuevo, sin cambios a las fuentes originales):** https://docs.google.com/document/d/17ud6Jce6b-Dy2mnV3GSXiqfrhsMMe09xAJzLztNknUc/edit

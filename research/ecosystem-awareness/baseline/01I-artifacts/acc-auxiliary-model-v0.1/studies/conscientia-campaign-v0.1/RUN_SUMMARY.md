@@ -38,3 +38,9 @@
 **No:** una inferencia sobre incidencia social de sufrimiento, experimentos en universidades, sanciones o decisiones reales de empresas, costes de tecnologías actuales, superioridad universal EA o estado físico de C/D.
 
 **Próxima fase:** seleccionar una familia, congelar población/oráculo/recursos/consentimiento; obtener trazas reales autorizadas; comparar un peer fuerte con la misma información y medir humanamente cuando proceda; sólo entonces DDS Stage B/C o estudio causal social.
+
+## Postverificación CI — sin reescribir el corte LOCAL anterior
+
+El bloque precedente `LOCAL_ONLY_NO_SIBLING_REPLAY` describe correctamente aquella ejecución **local aislada**. Después, GitHub Actions sí ejecutó los replays completos: [workflow 40350676384](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40350676384), SUCCESS. Se reejecutaron cuatro módulos anteriores frente a sus resultados de referencia, las 49 pruebas nuevas pasaron y el adaptador UC21/S4 se ejecutó únicamente sobre su fixture sintético. El resultado HR sigue sin prueba ni refutación empírica. El artifact `conscientia-acc-synthetic-results` contiene la salida integral regenerada y un resumen legible.
+
+**Concordancia con Google Docs:** https://docs.google.com/document/d/17ud6Jce6b-Dy2mnV3GSXiqfrhsMMe09xAJzLztNknUc/edit
