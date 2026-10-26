@@ -49,11 +49,11 @@ SOURCE_QUOTATION_CONTEXTS = (
 )
 
 
-def documentation_link_records(source: Path, body: str):
+def documentation_link_records(source: Path, body: str, root: Path | None = None):
     """Resolve only unique complete quoted contexts; leave live links ordinary."""
     import hashlib
     visible = navigation_text(body)
-    relative = source.relative_to(ROOT).as_posix()
+    relative = source.relative_to(root or ROOT).as_posix()
     authorized = {}
     lines = body.splitlines()
     for record in SOURCE_QUOTATION_CONTEXTS:
@@ -116,22 +116,56 @@ def navigation_text(body: str) -> str:
     return re.sub(r"(?<!`)(`+)(?!`)([\s\S]*?)(?<!`)\1(?!`)", "", value)
 
 
-def main() -> int:
-    errors: list[str] = []
-    checked_links = 0
-    for source in ROOT.rglob("*.md"):
+def extract_targets(body: str):
+    visible = navigation_text(body)
+    return MARKDOWN_LINK.findall(visible) + HTML_LINK.findall(visible)
+
+
+def check_document_links(root: Path):
+    from historical_source_routes import qualified_routes
+    qualifications, errors = qualified_routes(root, extract_targets)
+    checked_links = historical_links = 0
+    used = {}
+    context_keys = {(record["source"], link["href"])
+                    for record in SOURCE_QUOTATION_CONTEXTS for link in record["links"]}
+    for source in root.rglob("*.md"):
         if ".git" in source.parts or "preserved-public-snapshots" in source.parts:
             continue
+        # Keep exact quote-context bytes, including mixed line endings.
         body = source.read_bytes().decode("utf-8")
-        for raw, quoted_target in documentation_link_records(source, body):
+        for raw, quoted_target in documentation_link_records(source, body, root):
             target = raw.split(" ")[0].strip("<>")
             if not target or target.startswith(EXTERNAL):
                 continue
             route = urllib.parse.unquote(target.split("#", 1)[0].split("?", 1)[0])
             checked_links += 1
-            resolved = (ROOT / quoted_target) if quoted_target else (source.parent / route).resolve()
-            if not resolved.exists():
-                errors.append(f"missing link: {source.relative_to(ROOT)} -> {target}")
+            if (source.parent / route).resolve().exists():
+                continue
+            key = (source.relative_to(root).as_posix(), target)
+            if key in qualifications:
+                if key in context_keys and quoted_target is None:
+                    errors.append(f"historical quote context changed: {key}")
+                    continue
+                if quoted_target is not None and (root / quoted_target).resolve() != qualifications[key]["receiver"]:
+                    errors.append(f"historical quote receiver disagreement: {key}")
+                    continue
+                used[key] = used.get(key, 0) + 1
+                historical_links += 1
+                continue
+            if quoted_target is not None:
+                # Retain the upstream exact-context disposition for other records.
+                if not (root / quoted_target).exists():
+                    errors.append(f"missing quoted receiver: {key} -> {quoted_target}")
+                continue
+            errors.append(f"missing link: {source.relative_to(root)} -> {target}")
+    for key, qualification in qualifications.items():
+        if used.get(key, 0) != qualification["expected_occurrences"]:
+            errors.append(f"qualified citation use changed: {key}")
+    return errors, checked_links, historical_links
+
+
+def main() -> int:
+    errors, checked_links, historical_links = check_document_links(ROOT)
 
     if not ARCHITECTURE.exists():
         errors.append("missing Ecosystem Positioning architecture README")
@@ -182,6 +216,7 @@ def main() -> int:
         print("\n".join(errors))
         return 1
     print(f"DOCUMENT INTEGRITY: PASS ({checked_links} local routes, "
+          f"{historical_links} qualified historical source citations, "
           f"{len(REQUIRED_SECTIONS)} architecture sections, {len(PRESENTATIONS)} canonical decks)")
     print("CHECK COVERAGE: relative inline/HTML local paths; EP section/reference minima; "
           "PPTX package/text minima.")

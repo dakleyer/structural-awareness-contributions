@@ -11,6 +11,7 @@
 **Reusable component specification:** [01K-A01 — Human Capacity / Human Intelligence Debt Reusable Component](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md)  
 **Machine-readable reference profile:** [01K-A01 JSON Schema](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SCHEMA_v0.1.json)  
 **Semantic controls:** [01K-A01 deterministic test vectors](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_TEST_VECTORS_v0.1.json)
+**Research note, separate from the A01 runtime contract:** [01K-A02 — HID second-order economic acceleration and falsification programme](./01K_A02_HID_SECOND_ORDER_ECONOMIC_ACCELERATION_RESEARCH_NOTE_v0.1.md) (*proposed / not run*). Its economic definitions and comparison models are consolidated in [ACC's auxiliary economic research model](./01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md), without modifying normative ACC.
 
 The A01 package is the reusable implementation contract for this annex. It defines the two-engine component boundary, typed inputs/outputs, runtime schedulability semantics, HID measurement semantics, state machines, failure conditions and integration with EHD/Signalling, Cartography, Regime Awareness, MSCA and Repositioning. The parent 01K document remains the research/source/measurement map; A01 is the component-facing contract.
 

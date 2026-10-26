@@ -1,0 +1,232 @@
+{
+  "status": "prospective manual expectations authored separately from the executable; same AI author, not an independent human adjudication",
+  "version": "0.1",
+  "records": [
+    {
+      "case_id": "E01",
+      "primary_policies_expected_actions": [
+        "EXECUTE_ADJUSTED"
+      ],
+      "primary_operating_surplus": 58,
+      "primary_full_net": 56.75,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E02",
+      "primary_policies_expected_actions": [
+        "EXECUTE_IMMEDIATE"
+      ],
+      "primary_operating_surplus": 98,
+      "primary_full_net": 96.75,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E03",
+      "primary_policies_expected_actions": [
+        "EXECUTE_ADJUSTED"
+      ],
+      "primary_operating_surplus": 58,
+      "primary_full_net": 56.75,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E04",
+      "primary_policies_expected_actions": [
+        "HOLD_NO_AGREEMENT"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.25,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E05",
+      "primary_policies_expected_actions": [
+        "HOLD_RIGHTS"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.25,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E06",
+      "primary_policies_expected_actions": [
+        "HOLD_SERVICE"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.25,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E07",
+      "primary_policies_expected_actions": [
+        "HOLD_PARTICIPATION"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.25,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E08",
+      "primary_policies_expected_actions": [
+        "HOLD_INFORMATION"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.25,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E09",
+      "primary_policies_expected_actions": [
+        "EXECUTE_ADJUSTED"
+      ],
+      "primary_operating_surplus": 58,
+      "primary_full_net": 56.75,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E10",
+      "primary_policies_expected_actions": [
+        "EXECUTE_ADJUSTED"
+      ],
+      "primary_operating_surplus": -42,
+      "primary_full_net": -43.25,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": "FAIL_HIDDEN_COST",
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E11",
+      "primary_policies_expected_actions": [
+        "HOLD_NO_AGREEMENT"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.25,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": "MISSED_OPPORTUNITY_WITH_ADMISSIBLE_INFORMATION",
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "E12",
+      "primary_policies_expected_actions": [
+        "EXECUTE_ADJUSTED",
+        "ALREADY_EXECUTED"
+      ],
+      "primary_operating_surplus": 58,
+      "primary_full_net": 56.5,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "T01",
+      "primary_policies_expected_actions": [
+        "PLAN_ADJUSTED",
+        "EXECUTE_ADJUSTED"
+      ],
+      "primary_operating_surplus": 58,
+      "primary_full_net": 56.5,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "T02",
+      "primary_policies_expected_actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_GRANT"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.5,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": {
+        "actions": [
+          "PLAN_ADJUSTED",
+          "ATTEMPT_BLOCKED"
+        ],
+        "operating_surplus": 0,
+        "full_net": -1.5,
+        "invalid_attempts": 1
+      }
+    },
+    {
+      "case_id": "T03",
+      "primary_policies_expected_actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_PURPOSE"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.5,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": {
+        "actions": [
+          "PLAN_ADJUSTED",
+          "EXECUTE_ADJUSTED"
+        ],
+        "operating_surplus": -12,
+        "full_net": -13.5,
+        "invalid_attempts": 1,
+        "scenario_outcome": "FAIL"
+      }
+    },
+    {
+      "case_id": "T04",
+      "primary_policies_expected_actions": [
+        "PLAN_ADJUSTED",
+        "HOLD_APPROVAL",
+        "EXECUTE_ADJUSTED"
+      ],
+      "primary_operating_surplus": 58,
+      "primary_full_net": 56.25,
+      "primary_actual_effects": 1,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "T05",
+      "primary_policies_expected_actions": [
+        "EXECUTE_ADJUSTED",
+        "HOLD_APPROVAL",
+        "EXECUTE_ADJUSTED",
+        "EXECUTE_ADJUSTED"
+      ],
+      "primary_operating_surplus": 174,
+      "primary_full_net": 172,
+      "primary_actual_effects": 3,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    },
+    {
+      "case_id": "T06",
+      "primary_policies_expected_actions": [
+        "HOLD_INQUIRY",
+        "HOLD_INQUIRY",
+        "HOLD_CAUSE_UNRESOLVED"
+      ],
+      "primary_operating_surplus": 0,
+      "primary_full_net": -1.75,
+      "primary_actual_effects": 0,
+      "expected_primary_limit": null,
+      "stale_reference_expected": null
+    }
+  ]
+}

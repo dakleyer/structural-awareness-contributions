@@ -1,0 +1,413 @@
+{
+  "baseline_commit": "863d66760b1aee3232b13434ad5b6ae15444c601",
+  "authorization": "Ivan says adelante to the five-step annotated continuation on 25 October 2026",
+  "preserved_source_sha256": {
+    "model/01_NOTAS_COMPLETAS.md": "dfb595c8b7e3917dc725ba1a9bb7cce418d6f60d5d97a159585b39d5283fca5f",
+    "model/02_ARGUMENTO_AUTONOMO.md": "7bb39db9b7510dfca4f38ba8aa9343d4fac5050ec73cb970411342ab61d55616",
+    "model/03_CAPACIDADES_Y_DIALOGO.md": "cd31074cae51df58d214e082b4f21c104846675973d2e066a8626c85137e377f",
+    "model/04_CORRESPONDENCIA_TECNICA_Y_SOCIAL.md": "526320b2eff8d41ba7e4eadeed3c69f55bd5f30c659df57a28c94eda36f857a5",
+    "coverage/paragraphs.json": "3544a395bf70802ad4e701fc6950839f9dc3e17bbb1e8bd46bcec0b38b5e00cc"
+  },
+  "changes": [
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C01"
+      ],
+      "before": "En una ilustración cardinal declarada, puede estudiarse Δu_i+t_i−c_i≥0 para cada participante con suma t_i=0. La transferencia cambia el reparto; el tiempo y los recursos gastados en investigar, negociar y reconfigurar son costes adicionales. Seguridad, derechos, autoridad y ciertas responsabilidades pueden ser no transferibles. En perfiles ordinales se conservan órdenes y acuerdos sin inventar una utilidad cardinal.",
+      "after": "Con utilidad plenamente transferible, un numerario común, costes en la misma unidad y transferencias practicables sin restricciones adicionales, puede estudiarse Δu_i+t_i−c_i≥0 para cada participante con suma t_i=0. Bajo esos supuestos, existe una distribución si ΣΔu_i≥Σc_i; la mera cardinalidad no basta. La transferencia cambia el reparto; el tiempo y los recursos gastados en investigar, negociar y reconfigurar son costes adicionales. Seguridad, derechos, autoridad y ciertas responsabilidades pueden ser no transferibles. En perfiles ordinales se conservan órdenes y acuerdos sin inventar una utilidad cardinal."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C02",
+        "C05"
+      ],
+      "before": "Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.",
+      "after": "Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.\n\nComprender una mejora no concede mandato para realizarla. Como en el tendero que puede fiar y la cajera que no puede autorizarlo, importa disponer de vías efectivas para comprender, negociar, modificar, impugnar o detener una decisión según las facultades aplicables; ninguna se presume por el mero conocimiento.\n\nUn acuerdo conjunto inmediato presupone información suficiente sobre las dimensiones relevantes, costes de transición incluidos y permiso y mecanismo disponibles. No requiere inventar negociación distributiva adicional, aunque pueda consumir recursos ordinarios de comprobación o implementación."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C03"
+      ],
+      "before": "Se comparan regímenes donde W es informativo y donde una autoridad legítima lo adopta como condición vinculante. No admitir aumento de G y no admitir pérdida de W son reglas distintas. El segundo criterio puede aceptar oportunidades no realizadas si otras ganancias compensan el coste bajo el perfil elegido.",
+      "after": "Se comparan regímenes donde W es informativo y donde una autoridad legítima lo adopta como condición vinculante. No admitir aumento de G y no admitir pérdida de W son reglas distintas. El segundo criterio puede aceptar oportunidades no realizadas si otras ganancias compensan el coste bajo el perfil elegido.\n\nAmbos regímenes son propuestas para ensayo comparativo. La condición ΔW ≥ 0 no sustituye automáticamente consentimiento, dignidad, derechos no compensables ni autoridad legítima. En el régimen B, mayor producción con ΔW < 0 no supera esa puerta; las demás condiciones permanecen."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C06"
+      ],
+      "before": "La continuidad a través de cambios sucesivos interesa además de un acierto puntual. Se contrastan entornos estables, cambios conocidos, novedades y secuencias mixtas, con iguales futuros posibles, información ex ante y reglas de adaptación. La preparación y mantenimiento de ambos métodos cuentan incluso en futuros en que no se utilizan. La analogía del tropiezo no concede previsión del fallo a un brazo.",
+      "after": "La continuidad a través de cambios sucesivos interesa además de un acierto puntual. Se contrastan entornos estables, cambios conocidos, novedades y secuencias mixtas, con iguales futuros posibles, información ex ante y reglas de adaptación. La preparación y mantenimiento de ambos métodos cuentan incluso en futuros en que no se utilizan. La analogía del tropiezo no concede previsión del fallo a un brazo.\n\nPredicción candidata: con calidad comparable y controles especializados y adaptativos competentes, la ventaja neta puede ser nula o negativa en entornos estables y bien catalogados. Se contrastará si cambia con la novedad y la tasa de cambio, contando preparación y mantenimiento completos de ambos métodos."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C08"
+      ],
+      "before": "La motivación permite contrastar prosperidad material distribuida, autonomía/participación y solidaridad libremente elegida. Pueden combinarse o entrar en tensión. El diálogo con Magnifica Humanitas y las referencias a Babel/Nehemías conservan su naturaleza interpretativa; sus correspondencias no validan modelos técnicos ni imponen una finalidad religiosa. Las personas conservan dignidad y derechos con independencia de su productividad.",
+      "after": "La motivación permite contrastar prosperidad material distribuida, autonomía/participación y solidaridad libremente elegida. Pueden combinarse o entrar en tensión. El diálogo con Magnifica Humanitas y las referencias a Babel/Nehemías conservan su naturaleza interpretativa; sus correspondencias no validan modelos técnicos ni imponen una finalidad religiosa. Las personas conservan dignidad y derechos con independencia de su productividad.\n\nLa antivisión es la dependencia obligada y el sacrificio evitable. Ayuda a identificar límites, pero deja abierta la elección positiva entre prosperidad distribuida, autonomía, participación y solidaridad libremente elegida, u otros fines legítimamente declarados."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C09"
+      ],
+      "before": "Las escenas del plátano muestran cómo aparecen nuevas condiciones. Una alternativa puede mejorar eficiencia y reparto pero necesitar coordinación. Resuelta ésta, Cáritas/DANA y Viernes/Robinson muestran que la atribución, el reconocimiento o la distribución relativa del diferencial pueden condicionar aceptación aun cuando ambos mantengan ganancias directas positivas.",
+      "after": "Las escenas del plátano muestran cómo aparecen nuevas condiciones. Una alternativa puede mejorar eficiencia y reparto pero necesitar coordinación. Resuelta ésta, Cáritas/DANA y Viernes/Robinson muestran que la atribución, el reconocimiento o la distribución relativa del diferencial pueden condicionar aceptación aun cuando ambos mantengan ganancias directas positivas.\n\nCáritas/DANA es aquí un ejemplo hipotético sobre preferencias y percepciones del donante. No describe prácticas reales de la entidad ni atribuye egoísmo, error o mala fe. Se mantienen las ganancias directas positivas y se estudia por separado el crédito o reconocimiento relativo."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C10"
+      ],
+      "before": "Una persona con reconocimiento de incapacidad puede encontrar barreras para desplegar capacidades y preferencias. Se estudian apoyos y formas de participación sin deducir obligación de trabajar ni garantizar una adaptación suficiente en todos los casos. La dignidad no se mide por la aportación producida.",
+      "after": "Una persona con reconocimiento de incapacidad puede encontrar barreras para desplegar capacidades y preferencias. Se estudian apoyos y formas de participación sin deducir obligación de trabajar ni garantizar una adaptación suficiente en todos los casos. La dignidad no se mide por la aportación producida.\n\nLas alternativas se evalúan conservando derechos, protección y elección de la persona."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C12"
+      ],
+      "before": "Verdad del dominio y fundamento para actuar son preguntas diferentes. El limpiador de mesas puede carecer de base para cambiar de misión sin resolver la verdad completa de una afirmación histórica. Una insuficiencia no se compensa con muchos datos de otro dominio ni con repeticiones dependientes.",
+      "after": "Verdad del dominio y fundamento para actuar son preguntas diferentes. El limpiador de mesas puede carecer de base para cambiar de misión sin resolver la verdad completa de una afirmación histórica. Una insuficiencia no se compensa con muchos datos de otro dominio ni con repeticiones dependientes.\n\nSi dos estados requieren respuestas distintas pero producen la misma información admitida, una decisión basada sólo en ella no puede distinguirlos siempre. El estudio variará fuentes, observabilidad, latencia y capacidad de revisión. Un control con feedback suficiente puede eliminar el diferencial; el límite queda referido a la observación impuesta."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C21"
+      ],
+      "before": "El conjunto n de dimensiones es finito y provisional. Una alternativa domina sobre las coordenadas declaradas si ninguna empeora y alguna mejora; eso no equivale automáticamente a Pareto sobre las preferencias completas de todas las personas. La apertura n→n+1 invita a investigar condiciones omitidas, datos, derechos, mecanismos, capacidades o costes. No obliga a inventar una dimensión invisible que salve cualquier predicción del modelo.",
+      "after": "El conjunto n de dimensiones es finito y provisional. Una alternativa domina sobre las coordenadas declaradas si ninguna empeora y alguna mejora; eso no equivale automáticamente a Pareto sobre las preferencias completas de todas las personas. La apertura n→n+1 invita a investigar condiciones omitidas, datos, derechos, mecanismos, capacidades o costes. No obliga a inventar una dimensión invisible que salve cualquier predicción del modelo.\n\nEl protocolo fijará presupuesto de investigación, evidencia mínima y criterio de mejora explicativa fuera del caso que motivó el ajuste. Agotado ese presupuesto sin discriminar mecanismos, el resultado será causa no resuelta. Una dimensión incorporada después se registra como exploración para un contraste nuevo."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C22"
+      ],
+      "before": "Los ensayos de unanimidad y redes fijan supuestos como independencia, q constante, topología y generación de propuestas. La saturación del rechazo no demuestra por sí sola aceleración indefinida. Las interacciones también pueden producir sinergias; una red dispersa o una coordinación competente pueden refutar una extrapolación del bloqueo.",
+      "after": "Los ensayos de unanimidad y redes fijan supuestos como independencia, q constante, topología y generación de propuestas. La saturación del rechazo no demuestra por sí sola aceleración indefinida. Las interacciones también pueden producir sinergias; una red dispersa o una coordinación competente pueden refutar una extrapolación del bloqueo.\n\nLa expresión q^v describe el caso de consentimientos independientes. Con q = 0,9 y v = 20 da 0,1216; con respuestas perfectamente coincidentes da 0,9. Una prueba debe variar correlación, delegación, sustitución, negociación y gobierno conjunto."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C07"
+      ],
+      "before": "FH-C formula una prioridad causal comparativa de perder conciencia de límites en clases de deriva; FH-E, una posible economía computacional para la misma tarea de cualificación y calidad no inferior. Son hipótesis diferentes. Menor cómputo no implica menor complejidad arquitectónica o coste total. Awareness puede estudiarse sin Repositioning; alojar este modelo en ACC no cambia esa independencia.",
+      "after": "FH-C formula una prioridad causal comparativa de perder conciencia de límites en clases de deriva; FH-E, una posible economía computacional para la misma tarea de cualificación y calidad no inferior. Son hipótesis diferentes. Menor cómputo no implica menor complejidad arquitectónica o coste total. Awareness puede estudiarse sin Repositioning; alojar este modelo en ACC no cambia esa independencia.\n\nFH-C es una prioridad causal propuesta y falsable para clases declaradas de deriva, con evidencia, autoridad y recursos comparables. La comparación de FH-E define la tarea independientemente y contabiliza también construcción y mantenimiento de la cartografía. Estas condiciones no convierten las hipótesis en resultados demostrados ni alteran su independencia respecto de Repositioning."
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "actions": [
+        "C11"
+      ],
+      "before": "Estas expresiones identifican construcciones de trabajo de las fuentes. Su ejecución requiere fijar parámetros, unidades y supuestos. No constituyen un teorema común.",
+      "after": "Estas expresiones identifican construcciones de trabajo de las fuentes. Su ejecución requiere fijar parámetros, unidades y supuestos. No constituyen un teorema común.\n\nLas letras son locales a cada familia: D distribución, C coordinación y A atribución en un toy no equivalen a las regiones epistémicas A/B/C/D. E como eficiencia tampoco equivale a E(n), número de relaciones. Una ejecución declarará su diccionario de símbolos sin reescribir las fuentes."
+    },
+    {
+      "file": "CASES.md",
+      "actions": [
+        "C09"
+      ],
+      "before": "| Cáritas y DANA | Ganancia directa y crédito/legitimidad relativa | Condiciones de participación y desacuerdo |",
+      "after": "| Cáritas y DANA | Ganancia directa y crédito/legitimidad relativa | Condiciones de participación y desacuerdo; ejemplo hipotético de preferencias, sin afirmación sobre prácticas reales de Cáritas ni atribución de mala fe |"
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "actions": [
+        "C04",
+        "C12",
+        "C19",
+        "C20",
+        "C21"
+      ],
+      "before": "",
+      "after": "## Primer estudio delimitado y controles adicionales\n\nEl [protocolo económico v0.1](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) fija unidad, actores, costes, autoridad, información, comparadores, 18 casos, criterios y expectativas manuales antes de la implementación. [El recorrido manual](studies/economic-pilot-v0.1/MANUAL_TRAVERSAL.md) y el freeze conservan ese contrato. El modelo determinista es una realización de estudio; no una API ni integración de ACC en agentes.\n\nEl estudio incluye el control de información y bienestar propuesto en C04: mismo estado material, diferente visibilidad de una alternativa y registro separado de W, elección y acceso acordado a información. La disminución de F por ocultación puede subir una puntuación sin eliminar la causa material. No se presume que conocer siempre aumente malestar. Los controles auxiliares son construcciones, no mediciones humanas.\n\nDos estados con la misma información visible pueden exigir respuestas distintas: se conserva ese fallo en E09/E10. T06 impone un máximo de dos consultas y permite causa no resuelta. La continuidad se examina con aprobación caducada, reparación que deja obsoleta una orden todavía autenticada y renovación legítima. El procedimiento convencional dispone de las mismas vías de revisión y puede empatar o resultar más barato.",
+      "operation": "append"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B02 | Awareness y limites del conocimiento | S1-P0048 a S1-P0550 |",
+      "after": "| B02 | Awareness y limites del conocimiento | S1-P0048 a S1-P0088; S1-P0549 a S1-P0550 (43 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B03 | Dos ejes e inputs humanos | S1-P0089 a S1-P0537 |",
+      "after": "| B03 | Dos ejes e inputs humanos | S1-P0089 a S1-P0119; S1-P0536 a S1-P0537 (33 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B04 | Antivision dinamica | S1-P0120 a S1-P0522 |",
+      "after": "| B04 | Antivision dinamica | S1-P0120 a S1-P0147; S1-P0521 a S1-P0522 (30 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B17 | Consolidado estado dimensiones e hipotesis | S1-P0517 a S1-P0570 |",
+      "after": "| B17 | Consolidado estado dimensiones e hipotesis | S1-P0517 a S1-P0520; S1-P0523 a S1-P0535; S1-P0538 a S1-P0548; S1-P0551 a S1-P0566; S1-P0569 a S1-P0570 (46 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B22 | Anexo experimental especificacion | S1-P0701 a S1-P0741 |",
+      "after": "| B22 | Anexo experimental especificacion | S1-P0701 a S1-P0706; S1-P0709 a S1-P0741 (39 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B24 | Experimentos causales y custodia | S1-P0707 a S1-P0812 |",
+      "after": "| B24 | Experimentos causales y custodia | S1-P0707 a S1-P0708; S1-P0784 a S1-P0812 (31 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B25 | Matematico v0.2 | S1-P0567 a S1-P0868 |",
+      "after": "| B25 | Matematico v0.2 | S1-P0567 a S1-P0568; S1-P0813 a S1-P0868 (58 párrafos) |"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15"
+      ],
+      "before": "Se conservan divergencias entre textos: alcance y significado histórico de ABCD, numeración de referencias, formulaciones tempranas fuertes y precisiones posteriores. La guía integrada usa significados propietarios y condiciones explícitas, sin corregir silenciosamente el archivo histórico.",
+      "after": "Se conservan divergencias entre textos: alcance y significado histórico de ABCD, numeración de referencias, formulaciones tempranas fuertes y precisiones posteriores. La guía integrada usa significados propietarios y condiciones explícitas, sin corregir silenciosamente el archivo histórico.\n\nAñadir notas localizadas para S3 P0027–P0031 frente a 00M. Para S3 P0007, indicar que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. Conservar transcripción histórica, referencia cotejada y explicación de la diferencia como campos distintos. Véanse las [notas de cotejo](review/SOURCE_NOTES.md), que distinguen abreviatura histórica, definición canónica y localizador externo."
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C16"
+      ],
+      "before": "El corpus no obtiene una auditoría independiente por reunir textos del mismo autor o por esta organización de Codex. Las comprobaciones de párrafos, vínculos y hashes son controles de conservación, no pruebas de superioridad ni cierre DDS.",
+      "after": "El corpus no obtiene una auditoría independiente por reunir textos del mismo autor o por esta organización de Codex. Las comprobaciones de párrafos, vínculos y hashes son controles de conservación, no pruebas de superioridad ni cierre DDS.\n\nEl control de conservación verifica libros frente al inventario y no autentica por sí solo la fuente. La fidelidad frente a las lecturas nativas se documentó en la autoauditoría; no se ha repetido esa descarga por ejecutar el piloto. Un cambio concordante de libro e inventario puede pasar el primer control, por lo que la custodia y los controles conceptuales permanecen separados."
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C18"
+      ],
+      "before": "| Baterías sintéticas declaradas en las notas | Antecedentes reportados por la fuente; no reejecutados ni autenticados por este traslado |",
+      "after": "| Baterías sintéticas declaradas en las notas | Antecedentes reportados; ejecución original no autenticada. Existe una nueva recreación analítica independiente, identificada por separado |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C18"
+      ],
+      "before": "La reutilización de un resultado exige recuperar su protocolo, versión, código/salidas y derechos; una cifra que aparece en una nota no se convierte en observación autenticada del nuevo paquete.",
+      "after": "Autenticar una ejecución histórica exige recuperar su protocolo, versión, código/salidas y derechos. Recrear consecuencias matemáticas puede hacerse a partir de parámetros suficientes con una implementación nueva y procedencia propia; no autentica por ello aquella ejecución. Una cifra que aparece en una nota no se convierte en observación autenticada del nuevo paquete."
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C23"
+      ],
+      "before": "Las ideas y notas de trabajo conservan atribución a Iván Abril Palma / The Integral Management Society. El repositorio mantiene su licencia y las condiciones de fuentes ajenas. Un contexto cultural no autoriza reproducción de conocimientos, archivos o materiales de sus titulares. No se adjuntan los archivos privados enlazados por el dossier.",
+      "after": "Las ideas y notas de trabajo conservan atribución a Iván Abril Palma / The Integral Management Society. El repositorio mantiene su licencia y las condiciones de fuentes ajenas. Un contexto cultural no autoriza reproducción de conocimientos, archivos o materiales de sus titulares. No se adjuntan los archivos privados enlazados por el dossier.\n\nLa publicación de un identificador de Drive no concede acceso: los permisos efectivos se comprueban por separado. No se ha cerrado una revisión de ACL ni de consentimientos para materiales adicionales. Esta corrección no incorpora archivos privados, amplía derechos culturales ni atribuye representación de una comunidad."
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C13",
+        "C14",
+        "C15",
+        "C23",
+        "C24"
+      ],
+      "before": "",
+      "after": "## Recepción tras la auditoría consolidada\n\nLos cuatro libros y el inventario conservan sus bytes de la versión auditada. Los siete grupos discontinuos se muestran con sus intervalos y recuento; no son nuevos párrafos ni bloques continuos. El [mapa de conceptos](review/CONCEPT_MAP.md) explica la recepción material de las perspectivas y añade pasajes concretos de S3. Sus estados distinguen preservación, explicación, especificación y ejecución acotada.\n\nLas [notas de fuentes](review/SOURCE_NOTES.md) localizan abreviaturas y referencias imprecisas sin corregir retrospectivamente los libros. El historial íntegro de todos los prompts y los derechos de materiales adicionales siguen fuera del cierre alcanzado.",
+      "operation": "append"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C04",
+        "C13",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "",
+      "after": "## Evidencia incorporada el 25 de octubre de 2026\n\nSe ejecutó el [primer modelo determinista](studies/economic-pilot-v0.1/results/RESULTS.md) sobre 18 casos congelados y expectativas manuales: 36 recorridos de dos procedimientos competentes, dos controles negativos y 62 eventos. La implementación concuerda con ese recorrido. Los dos procedimientos principales empatan; E10 sigue siendo FAIL para ambos por el límite de información. El control incompleto no se usa como comparador fuerte.\n\nLos [cálculos analíticos recreados](studies/synthetic-recreation-v0.1/results.json) se distinguen de las cifras muestrales históricas. Las ejecuciones originales de 10.000 réplicas permanecen sin autenticar. Un código nuevo puede derivar las mismas expectativas y explorar parámetros; eso no prueba el mecanismo en organizaciones reales.\n\nEl [protocolo](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) es soporte para la especificación de Stage A, sin aceptación formal DDS ni cierre B/C. No se implementa EA, ACC o una tecnología nativa UC21/R01. El [adaptador documental](studies/economic-pilot-v0.1/DDS_ADAPTER_SPEC.md) prepara una correspondencia S5 y conserva NOT_RUN para el resultado de la fuente. Los indicadores humanos siguen siendo ilustraciones con medidas empíricas pendientes.\n\nLa [disposición de las auditorías](review/AUDIT_ACTIONS.md) registra correcciones, refinamientos y límites abiertos, incluido el historial completo de prompts. Dos asistentes de IA no constituyen una validación humana independiente.",
+      "operation": "append"
+    },
+    {
+      "file": "DDS_EVALUATION_PLAN.md",
+      "actions": [
+        "C18",
+        "C19"
+      ],
+      "before": "**Estado:** programa candidato de investigación; no se ha ejecutado por incorporar este artefacto.",
+      "after": "**Estado:** programa candidato de investigación; el primer piloto determinista acotado fue ejecutado el 25 de octubre de 2026. La agenda completa no se ha ejecutado ni obtiene aceptación DDS por este piloto."
+    },
+    {
+      "file": "DDS_EVALUATION_PLAN.md",
+      "actions": [
+        "C12",
+        "C18",
+        "C19"
+      ],
+      "before": "",
+      "after": "## Primer protocolo y correspondencia de fuente\n\nEl [estudio económico v0.1](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) realiza un subconjunto de preguntas de ACC-ECO-01, 04–06, 10–11 y 16–22, con cobertura parcial indicada en su protocolo. No ejecuta las 22 familias. Se publican recorrido manual, entradas congeladas, implementación, trazas y resultados contrarios.\n\nLa primera correspondencia útil es con S5: una orden diferida puede dejar de estar justificada aunque su token siga vigente. [El adaptador v0.1](studies/economic-pilot-v0.1/DDS_ADAPTER_SPEC.md) fija versión de fuente, campos y límites; exporta una vista documental, no una ejecución del caso original. El oráculo social del modelo y el oráculo UC21 permanecen separados. No se conecta todavía un ejecutor de base de datos ni un desafío R01; esas dependencias se incorporarán sólo mediante el protocolo DDS correspondiente.",
+      "operation": "append"
+    },
+    {
+      "file": "README.md",
+      "actions": [
+        "C18",
+        "C19"
+      ],
+      "before": "**Estado:** modelo de trabajo deliberadamente acotado, preparado para desarrollo y evaluación posterior.",
+      "after": "**Estado:** modelo de trabajo deliberadamente acotado con un primer piloto determinista ejecutado; la evaluación científica e integración posteriores permanecen abiertas."
+    },
+    {
+      "file": "README.md",
+      "actions": [
+        "C18",
+        "C19"
+      ],
+      "before": "La existencia de este paquete no equivale a un cierre DDS ni a un sistema ejecutado. Las cifras sintéticas históricas conservan el estado declarado por sus autores y no se presentan como runs reproducidos por esta incorporación.",
+      "after": "Existe ahora un [piloto económico determinista](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md), con [recorrido manual](studies/economic-pilot-v0.1/MANUAL_TRAVERSAL.md), código y [resultados](studies/economic-pilot-v0.1/results/RESULTS.md). Ejecuta una especificación pequeña: los procedimientos principales empatan y los límites conservan sus FAIL. No es una integración operativa de ACC ni un cierre DDS. Las cifras sintéticas históricas conservan su procedencia y siguen sin autenticarse; la [recreación analítica nueva](studies/synthetic-recreation-v0.1/README.md) se identifica por separado."
+    },
+    {
+      "file": "README.md",
+      "actions": [
+        "C13",
+        "C15",
+        "C16",
+        "C18"
+      ],
+      "before": "",
+      "after": "## Qué cambió tras las auditorías\n\nSe restauran premisas de compensación, acuerdo y autoridad; se explicitan las cautelas de bienestar y ejemplos hipotéticos; se corrigen rangos y se prepara una trazabilidad conceptual. [La disposición de las 24 acciones](review/AUDIT_ACTIONS.md) distingue lo aplicado y lo pendiente. El [mapa de conceptos](review/CONCEPT_MAP.md) y las [notas de fuentes](review/SOURCE_NOTES.md) permiten seguir las condiciones y sus diferencias históricas.\n\nPara reproducir el piloto basta Python 3.12 o posterior y su biblioteca estándar. Las instrucciones están en su protocolo. La coincidencia de un ejecutable con tablas manuales no certifica toda la teoría ni mide bienestar humano. El alojamiento y uso posterior en ACC conservan los límites declarados al comienzo de esta página.",
+      "operation": "append"
+    },
+    {
+      "file": "checks/check_preservation.py",
+      "actions": [
+        "C16"
+      ],
+      "before": "\"model_experiments_executed\":False",
+      "after": "\"model_runs_verified_by_this_preservation_check\":False"
+    },
+    {
+      "file": "REVIEW_AND_COVERAGE.md",
+      "actions": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24"
+      ],
+      "before": "",
+      "after": "## Conciliación y correcciones autorizadas el 25 de octubre de 2026\n\nIván responde «adelante» a conciliar ambas auditorías, aplicar correcciones mínimas preservando fuentes, fijar un protocolo económico, recorrerlo a mano, implementar un modelo determinista y examinar continuidad con posterior adaptación DDS. La anotación autoriza esta secuencia y actualiza el PR en borrador; no autoriza fusionarlo ni cambiar todo ACC.\n\n### Primera pasada Fondo y lógica\n\nCodex releyó las objeciones semánticas y formales frente a los pasajes completos citados. Restauró la premisa de utilidad transferible, las condiciones de acuerdo inmediato y la agencia efectiva. Se incorporó el contraejemplo de ocultación como pregunta de diseño, sin concluir que toda medida de bienestar genere ese incentivo. Se mantiene el núcleo económico y la posibilidad de coordinación competente. La falta de un historial completo impide certificar todos los prompts originales.\n\n### Segunda pasada Evidencia y relaciones\n\nLos cuatro libros y el inventario permanecen idénticos a la versión auditada. El [mapa de conceptos](review/CONCEPT_MAP.md) conecta fuentes, condiciones, explicación, pregunta, refutador y evidencia, con recepción explícita de S3. Las notas de cotejo conservan abreviaturas históricas. El piloto no implementa EA o ACC: sus dos procedimientos competentes empatan y el límite E10 conserva FAIL. Se separan recreación analítica nueva y autenticación histórica pendiente. La correspondencia S5 sólo prepara un adaptador documental y mantiene el resultado de fuente sin ejecutar.\n\n### Tercera pasada Edición estructura y formato\n\nSe corrigieron siete rangos discontinuos, las cautelas locales de Cáritas, capacidades y bienestar, y la notación por familias. Las redacciones comparten sus anclajes sin duplicar fuentes. Se actualiza la entrada existente del artefacto y se conservan sus versiones previas auténticas. El [delta exacto](review/applied_delta.json) registra antes y después; no se crea otra VNext ni se cambia el cuerpo normativo de 01I.\n\n### Cuarta pasada Legibilidad y comprensión\n\nCodex recorrió la entrada, el núcleo económico, el caso empresarial, la tabla de variables, las expectativas manuales, los resultados y el límite de la correspondencia DDS. Las notas de sensibilidad y capacidad se colocaron después de la tabla formal completa para conservar su lectura continua; se redujo repetición sin suprimir condiciones. La ruta permite distinguir un acuerdo beneficioso, un permiso insuficiente, un efecto realmente observado y un FAIL conocido. El empate de los procedimientos y el fallo de información no quedan ocultos tras un PASS de comprobación.\n\nEsta es una simulación de lectura por el mismo asistente, no una prueba con una persona nueva ni una revisión humana independiente. La integración conceptual está examinada en los conceptos y pasajes declarados; el historial original completo y la validación empírica siguen abiertos.",
+      "operation": "append"
+    },
+    {
+      "file": "research/ecosystem-awareness/baseline/01I_VNext.md",
+      "actions": [
+        "C13",
+        "C18",
+        "C19"
+      ],
+      "before": "",
+      "after": "## ACC auxiliary model audit corrections and first bounded study\n\nIván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.",
+      "operation": "append to existing owner"
+    },
+    {
+      "file": "research/ecosystem-awareness/README_VNext.md",
+      "actions": [
+        "C13",
+        "C18",
+        "C19"
+      ],
+      "before": "",
+      "after": "## ACC auxiliary model implementation reception\n\nIván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.",
+      "operation": "append to existing owner"
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "actions": [
+        "C19",
+        "C20"
+      ],
+      "before": "## Propuesta y transición",
+      "after": "### Sensibilidad que debe fijar cada estudio\n\nVariar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizonte; incluir coste incremental de interoperabilidad y transición. Mostrar regiones con ganancia, empate y pérdida. En el brazo de crédito, contrastar la regla de veto contra explicaciones por servicio, riesgo y autoridad legítima. La probabilidad q de aceptación independiente de unos filtros y la fracción q de obligaciones protegidas de otro toy son parámetros locales distintos; una realización debe distinguirlos. No se infiere causalidad de una curva incorporada por la topología o por la regla de retiro.\n\n### Medidas de contribución humana\n\nToda medida declarará contrafactual, horizonte, denominador y evidencia de evitabilidad. Separar cuota observada de ACW, capacidad liberable, contribución genuina potencial y recuperación real. Si no hay convertibilidad o referencia comparable, conservar vector, intervalo o no establecido. HICT y HICR conservan su definición propietaria. Una pérdida de habilidades exige observaciones distintas del trabajo ACW eliminado; no se deduce del cociente de horas.\n\n## Propuesta y transición",
+      "reason": "Keep the complete formal-family table continuous; add explanatory notes after it"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "| Integración y ejecución futuras | Trabajo pendiente; alojamiento documental no es implantación |",
+      "after": "| Integración operativa en agentes y tecnologías | Trabajo pendiente; el piloto determinista acotado ya ejecutado no equivale a esa integración |",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "Añadir notas localizadas para S3 P0027–P0031 frente a 00M. Para S3 P0007, indicar que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. Conservar transcripción histórica, referencia cotejada y explicación de la diferencia como campos distintos.",
+      "after": "Las notas localizadas cotejan S3 P0027–P0031 frente a 00M. Para S3 P0007 señalan que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. La transcripción histórica, la referencia cotejada y la explicación de la diferencia se conservan como campos distintos.",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "## Próximo cierre verificable\n\nCongelar una pregunta y un caso mínimo con variables, comparadores y oráculos. Después implementar y ejecutar sólo lo declarado, publicar trazas y resultados positivos/negativos, y revisar qué parte de la hipótesis queda sostenida o refutada. Los costes de información, adaptación y revisión se atribuyen una vez.",
+      "after": "## Primer cierre ejecutado y siguientes pasos\n\nEl protocolo mínimo ya está congelado, recorrido manualmente e implementado, con costes atribuidos, comparadores competentes y resultados publicados más abajo. El siguiente paso científico es una revisión independiente de sus supuestos y expectativas, seguida de una pregunta nueva que justifique otro estudio; el empate no demuestra ventaja diferencial. La futura conexión nativa DDS → UC21 requiere los criterios de fuente, observabilidad, permisos y oráculo definidos en el adaptador. El historial completo de prompts, la autenticación histórica y los derechos de material adicional conservan su propia condición pendiente.",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "mode": "network",
+  "description": "Analytic expected-value arms L/N/E/R; no Monte Carlo and no empirical HID measurement.",
+  "horizon": 20,
+  "production_per_dimension": 10,
+  "production_unit_value": 1,
+  "synergy_per_compatible_link": 0,
+  "human_hours_per_obligation": 3,
+  "acw_shadow_price": 1,
+  "maintenance_cost_per_obligation": 0,
+  "gic_hours_per_dimension": 2,
+  "neo_hours_per_dimension": 1,
+  "unknown_hours_per_dimension": 0,
+  "capacity_hours_per_dimension": 10,
+  "recovery_fraction": 0.7,
+  "same_service_counterfactual": true,
+  "acw_classified_synthetically": true,
+  "actual_arm": "N",
+  "arms": {
+    "N": {
+      "topology": "dense",
+      "p_incompatible": 0.2,
+      "retirement_rate": 0,
+      "interoperability": "flat",
+      "setup_cost": 0,
+      "cost_per_new_link": 0,
+      "technically_available": true,
+      "governance_available": true,
+      "rights_preserved": true,
+      "full_service_preserved": true
+    },
+    "L": {
+      "topology": "sparse",
+      "p_incompatible": 0.2,
+      "retirement_rate": 0,
+      "interoperability": "flat",
+      "setup_cost": 0,
+      "cost_per_new_link": 0,
+      "technically_available": false,
+      "governance_available": false,
+      "rights_preserved": true,
+      "full_service_preserved": true
+    },
+    "E": {
+      "topology": "dense",
+      "p_incompatible": 0.2,
+      "retirement_rate": 0,
+      "interoperability": "inverse_time",
+      "setup_cost": 6,
+      "cost_per_new_link": 0.05,
+      "technically_available": true,
+      "governance_available": false,
+      "rights_preserved": true,
+      "full_service_preserved": true
+    },
+    "R": {
+      "topology": "dense",
+      "p_incompatible": 0.2,
+      "retirement_rate": 0.15,
+      "interoperability": "flat",
+      "setup_cost": 0,
+      "cost_per_new_link": 0.1,
+      "technically_available": true,
+      "governance_available": true,
+      "rights_preserved": true,
+      "full_service_preserved": true
+    }
+  },
+  "forecast_arm": "L"
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "formulas",
+  "description": "M0–M3 algebra; D_bruta is not a jointly feasible welfare gap.",
+  "n_values": [
+    5,
+    10,
+    20,
+    40,
+    80
+  ],
+  "q_accept": 0.9,
+  "p_incompatible": 0.2,
+  "value_per_veto_proposal": 3,
+  "proposals_per_pair": 1,
+  "production_per_dimension": 10,
+  "production_per_accepted_relation": 1,
+  "loss_per_incompatible_relation": 3,
+  "value_per_rejected_proposal": 1,
+  "topology": "complete"
+}

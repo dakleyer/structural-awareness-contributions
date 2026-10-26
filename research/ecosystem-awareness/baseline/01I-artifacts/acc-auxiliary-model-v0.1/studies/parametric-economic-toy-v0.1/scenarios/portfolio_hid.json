@@ -1,0 +1,61 @@
+{
+  "mode": "portfolio",
+  "description": "Two incompatible, equally useful human-information optima with identical service and resources; all contribution inputs explicit.",
+  "actors": ["Systems"],
+  "dimensions": ["E_efficiency", "C_coordination", "A_attribution"],
+  "approvals": {"Steward": true},
+  "parameters": {
+    "acw_shadow_price": 0,
+    "recovery_fraction": 0.7,
+    "resources_limit": 150,
+    "transition_budget": 10,
+    "require_pareto": true,
+    "acw_classified_synthetically": true
+  },
+  "baseline": {
+    "production": 100,
+    "resources": 100,
+    "outputs": {"full_service": 100, "quality": 1},
+    "gic_hours": 20,
+    "human_information_inputs": {"diagnosis": 10, "design": 10},
+    "neo_hours": 5,
+    "acw_hours": 40,
+    "unknown_hours": 0,
+    "human_capacity_hours": 100
+  },
+  "current_projects": [],
+  "projects": [
+    {
+      "id": "UPGRADE_A",
+      "delta_production": 0,
+      "delta_resources": 0,
+      "delta_gic_hours": 13,
+      "delta_human_information_inputs": {"diagnosis": 10, "design": 3},
+      "delta_acw_hours": -10,
+      "output_deltas": {"full_service": 0, "quality": 0},
+      "gross_payoffs": {"Systems": 20},
+      "adjustment_costs_by_actor": {},
+      "transfers": {},
+      "required_approvals": ["Steward"],
+      "rights_preserved": true,
+      "requires": [],
+      "excludes": ["UPGRADE_B"]
+    },
+    {
+      "id": "UPGRADE_B",
+      "delta_production": 0,
+      "delta_resources": 0,
+      "delta_gic_hours": 15,
+      "delta_human_information_inputs": {"diagnosis": 5, "design": 10},
+      "delta_acw_hours": -15,
+      "output_deltas": {"full_service": 0, "quality": 0},
+      "gross_payoffs": {"Systems": 20},
+      "adjustment_costs_by_actor": {},
+      "transfers": {},
+      "required_approvals": ["Steward"],
+      "rights_preserved": true,
+      "requires": [],
+      "excludes": ["UPGRADE_A"]
+    }
+  ]
+}
