@@ -56,6 +56,32 @@ D_n={d_1,…,d_n} es un inventario **provisional** de coordenadas evaluadas. Las
 
 Sobre coordenadas conocidas, S′ domina débilmente a S si Δd_j ≥ 0 para todas las j consideradas, con al menos una mejora estricta. Esa dominancia **no** equivale a Pareto de preferencias humanas completas, ni concede ejecución.
 
+
+### 3.1. Mecanismo primario: codependencia por recursos y saturación funcional
+
+El bloqueo de una transición **no requiere** egoísmo, irracionalidad, un veto jurídico ni una dimensión soberana: puede resultar de un input material, humano, informacional o de coordinación que una función necesita íntegramente para seguir operando. Las familias E (eficiencia/recursos), R (utilidad/distribución), C (coordinación) y V (atribución/crédito) son dimensiones ECONÓMICAS, no A/B/C/D de 00M. El inventario es abierto y relativo a la pregunta del estudio. Cada condición bloqueante exige evidencia de su verdadera necesidad; no convertir preferencias no observadas ni simples señales C/D en requisitos físicos.
+
+Para acciones x, rediseños y y recursos/participación caracterizados, una instancia lineal puede declarar:
+
+~~~text
+Recursos E:         a_j · x − g_j · y ≤ b_j
+Coordinación C:    c_l · x − h_l · y ≤ k_l
+Continuidad R:     u_i(x,y) ≥ u_min,i
+Crédito V:         q_i(x,y) ≥ rho_i · Q(x,y), con Q>0
+~~~
+
+Los márgenes b_j,k_l pueden valer cero. Si a>0 y a·x≤0, toda acción incremental x≥0 que consume ese input queda bloqueada. Si un rediseño y LEGÍTIMAMENTE FACTIBLE libera capacidad, la condición a·x−g·y≤0 puede habilitar crecimiento sin exigir la desaparición de la función inicial. Coordinación también es un recurso escaso. El umbral de crédito puede proteger acceso/continuidad pero debe acreditarse; no imponerlo como diagnóstico del carácter de un agente. Para Q>0 totalmente repartido, q_i≥rho_i Q admite una distribución si y sólo si Σ rho_i≤1, sin otras cotas ni costes. Pedir 7/10 por sí solo es viable; exigir simultáneamente 7/10 y 4/10 es incompatible.
+
+**Trampa racional con restricciones lineales y utilidades individuales monótonas:** sean x_1,x_2∈{0,1}; exíjase x_1≤x_2 y x_2≤x_1, y u_1=4+x_1, u_2=4+x_2. Los dos estados finales factibles son (0,0) y (1,1), y el segundo domina estrictamente a Pareto al primero. Sin embargo, ningún recorrido de cambios BINARIOS UNILATERALES mantiene la factibilidad en todos los pasos. Una transición conjunta/atómica, si existe realmente, supera el atasco. Esta trampa depende de la indivisibilidad y del PROTOCOLO DE TRANSICIÓN, no de que el objetivo o la restricción sean no lineales. Si ambos agentes pueden variar continuamente y coordinados sobre x_1=x_2, hay una ruta factible.
+
+Así se separan tres objetos: F^T (estados finales materialmente factibles), F^G (estados finales además autorizados) y Reach_Π(S) (estados efectivamente alcanzables desde S bajo un protocolo Π de coordinación y cambios). Puede ocurrir Reach_Π(S)⊊F^G⊆F^T. No introducir Reach como un tercer óptimo canónico ni llamar «subóptimo en F^G» al máximo de Reach si no existe ruta; identificar el conjunto de referencia y la razón del atasco. Una falta material genuina sin alternativa factible no crea deuda recuperable por sí misma.
+
+**Pareto no significa monotonía de funciones.** Pareto compara resultados finales sin imponer u_i'(cantidad)≥0 en todo el dominio. Una curva de manzanas puede aumentar, caer al acumular excedentes y volver a aumentar después de un umbral que habilita venta. El modelo admite utilidades no monótonas, funciones compuestas, umbrales y complementariedades. La aproximación lineal/monótona es una familia útil, no un límite ontológico. Una tabla finita de utilidad puede representarse con selectores binarios o una función evaluable; las funciones generales no convexas pueden requerir otros optimizadores y no existe garantía de coste computacional bajo.
+
+Las reglas de soberanía, aprobación, responsabilidad, consentimiento, compensación y solidaridad elegida que siguen son **una formulación adicional** para transiciones donde efectivamente existen tales facultades. Una restricción material no es un titular de veto, y una preferencia no es automáticamente una necesidad intransferible. Véase el [estudio sintético acotado y sus controles negativos](studies/bounded-traps-v0.1/README.md).
+
+### 3.2. Caso adicional: soberanía, autorización y vetos efectivos
+
 Se distinguen:
 
 - J_B: **condiciones bloqueantes efectivas** con regla, titular material/institucional, competencia, plazo y posibilidad de sustitución/delegación; a_j(τ)∈{0,1}.
@@ -166,6 +192,21 @@ D_bruta(n) = v·R(n)                        valor bruto etiquetado
 | 80 | 800 | 6.320 | 1,534 | 6.318,466 | 801,534 |
 
 Son resultados **analíticos del toy**, no frecuencias observadas ni predicción de economía real.
+
+### Contraste complementario: crecimiento relativo condicionado y complejidad representable
+
+Si n capacidades producen b>0 cada una, existe un grafo de interacciones efectivas E(n), y se DEMUESTRA independientemente que una arquitectura conjunta puede realizar g≥0 de beneficio neto adicional por enlace con el mismo horizonte, recursos, calidad, seguridad y derechos, una instancia paramétrica puede definir:
+
+~~~text
+P_actual(n) = b·n + alpha·E(n), con alpha ≥ 0
+P_conjunta*(n) = P_actual(n) + g·E(n)
+G(n) = g·E(n)                          [brecha del toy; NO HID]
+G(n)/P_actual(n) = g·E(n)/(b·n+alpha·E(n))
+~~~
+
+Con E(n)=n(n−1)/2, alpha=0, b=10, g=0,2: la producción actual crece linealmente, G crece cuadráticamente con segunda diferencia g, y G/P_actual pasa por 4 %, 9 %, 19 %, 39 % en n=5,10,20,40. Son identidades del **contrafactual supuesto**, no una ley social ni una medición de un óptimo real. El numerador sólo puede interpretarse como oportunidad recuperable tras demostrar que las ganancias entre pares son conjuntamente compatibles, ejecutar costes completos y preservar derechos/servicio. Si E(n)=n−1 (estrella), la proporción tiende a g/b; con alpha>0 y red densa tiende a g/alpha; con g=0 desaparece la brecha. Mayor número de dimensiones no implica mayor deuda relativa bajo todos los parámetros.
+
+**Límites matemáticos y epistemológicos:** sistemas con objetivos/restricciones afines y variables continuas pueden admitirse como LP; con decisiones indivisibles, como MILP o búsqueda finita; curvas no monótonas y dinámicas pueden ser expresables, pero no necesariamente convexas ni fáciles de optimizar. Incluso mochila binaria, con objetivo lineal creciente y presupuesto lineal, es NP-difícil en general. Las influencias del mundo fuera de la formalización no se convierten en variables cerradas: 00M conserva B/C/D como cualificaciones parciales, C abierto y D no enumerable. Una entropía calculada bajo un modelo probabilístico explícito no mide el exterior no representado. El [estudio ejecutable de bloqueo racional](studies/bounded-traps-v0.1/README.md) distingue los resultados sintéticos de las obligaciones de prueba social.
 
 ## 6. Obligaciones, información, crédito y persistencia
 

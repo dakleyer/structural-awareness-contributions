@@ -33,6 +33,12 @@ jobs:
       - name: Check parametric ACC economic toy (synthetic Stage A)
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_toy.py -v
 
+      - name: Check ACC rational resource traps, nonmonotone utility and relative gaps
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1 -p test_bounded_traps.py -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/bounded_traps.py > /tmp/acc_traps_results.json
+          python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/REFERENCE_SYNTHETIC_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_traps_results.json').read_text())"
+
       - name: Check optimum-derived HID and matched ABCD synthetic tests
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_hid_optimum.py -v
 
