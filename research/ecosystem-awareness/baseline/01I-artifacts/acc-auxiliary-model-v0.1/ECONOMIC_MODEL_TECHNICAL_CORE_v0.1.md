@@ -366,6 +366,27 @@ La prima relativa (γ/2)·Δσ² aumenta si crece la **dispersión adicional del
 
 **Instrumento de prueba acotado:** [estudio RAV-01](studies/risk-aversion-persistence-v0.1/README.md), con ecuaciones, 1 viñeta humana explícitamente no empírica, 1 familia de cortes sintéticos, controles negativos y pruebas deterministas. No altera Pareto, funciones no monótonas, Gᵀ/Gᴳ, HID (01K), A/B/C/D (00M), DDS, UC21 ni las garantías de autorización.
 
+
+### 8.2. Utilidad factible no realizada y defensa activa del contrato (extensión RAV-01)
+
+**Frontera conceptual.** Para el mismo actor, horizonte, escala cardinal de utilidad declarada y conjunto de derechos/recursos, una pérdida económica de oportunidad puede operacionalizarse como **L_i=max(0,u_i(s_i^cf)−u_i(s_i^real))**, siempre que s_i^cf sea una alternativa **conjunta y legítimamente factible**. Si falta esa prueba, L_i=NOT_IDENTIFIED, **no cero**; no valen máximos individuales incompatibles ni aspiraciones inalcanzables. L puede llamarse, en sentido económico limitado, «sufrimiento por utilidad no realizada», pero **no equivale por definición** a F subjetivo, al G social, a HID ni al sufrimiento estructural del PR #43, que exige sus propias condiciones conjuntivas de potencial bloqueado, contribución positiva, codependencia e indeterminación relacional. Investigar la asociación entre L reconocido y F reportado constituye **otra hipótesis falsable**. Las utilidades cardinales necesitan escala/normalización comparables; no se suman entre individuos ni se restan otra vez de B cuando ya estén incluidas.
+
+**Tercera acción:** además de S (permanecer pasivamente) y R (salir/rediseñar), el actor puede elegir D (**defender activamente** la configuración), pagando esfuerzo propio k≥0 y alterando la distribución de los resultados de permanencia: X_D con μ_D y σ²_D declaradas. Bajo el mismo CARA-normal acotado del §8.1, con γ fija y sin contar dos veces costes:
+
+~~~text
+CE_S = μ_S − (γ/2)·σ²_S
+CE_R = μ_R − (γ/2)·σ²_R − C
+CE_D = μ_D − (γ/2)·σ²_D − k
+CE_D > CE_S  ↔  (μ_D−μ_S) + (γ/2)·(σ²_S−σ²_D) > k
+preferir D si CE_D > max(CE_S, CE_R)
+~~~
+
+Una acción D que **no** mejore en nada μ_D/σ²_D respecto a S y tenga k>0 está **dominada**, y su defensa observada queda **fuera de la explicación económica de riesgo**: habría que comparar justificación psicológica del sistema, sesgo de statu quo, inversión hundida, identidad, obligaciones, información imperfecta u otras utilidades legítimas. La «dependencia sufrida y defendida» es, por tanto, una predicción **condicional**, no ley universal ni racionalización de cualquier decisión. La defensa puede afectar a terceros y requerir autorizaciones independientes.
+
+**Mismo testigo sintético posterior:** γ=0,5; S=(μ=14,σ²=4), CE_S=13; R=(25,64), CE_R=9; D=(14,1) con k=0,5, CE_D=13,25. El actor **defiende** aun con F sintético creciente y con media de R más alta; una utilidad individual actual 17 frente a una alternativa factible estipulada 21 da L=4, **sin** acreditar F vivido ni sufrimiento estructural. Con D=(14,4), k=0,5, elige S; con γ=0 y R de media 25, elige R. La versión probabilística con tres alternativas utiliza softmax sobre CE_S/CE_R/CE_D y es solo una **probabilidad de elección postulada**, no de éxito ni del exterior abierto.
+
+**Comparación y refutación:** el [análisis de literatura primaria y diseño de estudio](studies/risk-aversion-persistence-v0.1/COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md) confronta el resultado con sesgo statu quo, teoría prospectiva, opciones reales, justificación del sistema, escalada de compromiso, ingreso relativo y aspiraciones. Lo novedoso **candidato** es la integración explícita L/F/γ/S-R-D y sus controles, **no** los fenómenos ya estudiados. Sin medición de L, F, preferencias y distribuciones creídas, esta sección solo demuestra **compatibilidad lógica** con crecimiento B, F creciente, pesimismo sobre S y esfuerzo D. No modifica derechos, Pareto, Gᵀ/Gᴳ, HID ni DDS/UC21.
+
 ## 9. Efecto primario, segundo orden y tiempo
 
 **Primer orden:** beneficio/coste de la transición en su perímetro declarado y condiciones vigentes. **Segundo orden causal:** una transición modifica conexiones, crédito, obligaciones, capacidad, información o reglas que determinan el coste y la ejecutabilidad de transiciones posteriores. No identificar «segundo orden» con «segunda derivada» como definición.
