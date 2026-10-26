@@ -57,7 +57,10 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/metacognition.py > /tmp/acc_metacognition_result.json
           python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/REFERENCE_SYNTHETIC_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_metacognition_result.json').read_text())"
 
-      - name: Check optimum-derived HID and matched ABCD synthetic tests
+      - name: Check 00M-ACC-UC21 scoped claim ladder (no new UC21 oracle)
+        run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/00m-acc-uc21-bridge-v0.1 -p test_claim_ladder.py -v
+
+      - name: Check optimum-derived HID      - name: Check optimum-derived HID and matched ABCD synthetic tests
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_hid_optimum.py -v
 
       - name: Check Attribution Gap, Informational Friction and obligations bridge

@@ -78,7 +78,13 @@ Una función de **metacognición** computable examina la suficiencia de evidenci
 
 La **solidaridad elegida** es una posibilidad de actuación voluntaria con consentimiento, derechos y titularidad válidos aunque no se disponga de una función numérica de retorno. No autoriza por sí sola arriesgar recursos ajenos ni transforma riesgo D en riesgo cuantificado. Comprender mejor un bloqueo puede aumentar, aliviar o no cambiar el sufrimiento experimentado, independientemente de que la brecha objetiva de desarrollo permanezca igual. El [estudio sintético y controles negativos](studies/scoped-closure-metacognition-v0.1/README.md) separa esas afirmaciones y [audita los seis bloques del Word fuente](studies/scoped-closure-metacognition-v0.1/PROMPT_COVERAGE_MATRIX.md). Son investigación, no resultado humano empírico ni nueva semántica 00M/01K.
 
-## Propuestas aceptación y reajuste
+### Un mismo programa: plausibilidad, inclusión condicionada y falsador tecnológico
+
+El modelo social demuestra bajo sus propios supuestos que **conservar Q B/C/D válido, gratuito y opcional no reduce las políticas disponibles frente a descartar Q**. La nota general [00M](../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) conserva un resultado distinto y anterior: plausibilidad de composiciones parciales relativas a preguntas, sin prometer computación ni ventaja neta. La hipótesis FH-E sobre menor cómputo es un tercer resultado **a medir**, no consecuencia del lema.
+
+Para poner a prueba la aplicabilidad tecnológica, el programa ACC se vincula a [UC21/DDS](studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md): R0 ordinario competente, R1 reforzado y R2 la misma corrección bajo un cambio material registrado. Si una tecnología convencional evita el fallo con los controles de continuidad y autoridad, recibe mérito pleno y puede contradecir un supuesto diferencial estricto EA **para esa pregunta**. El test positivo particular no cierra por sí mismo todos los cambios admitidos en la hipótesis existencial HR de UC21, ni elimina la plausibilidad general de 00M. [Concordancia matemática y falsadores por alcance](studies/00m-acc-uc21-bridge-v0.1/README.md).
+
+## Propuestas aceptación y reajuste## Propuestas aceptación y reajuste
 
 Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.
 

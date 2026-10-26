@@ -69,3 +69,7 @@ Para reproducir el piloto basta Python 3.12 o posterior y su biblioteca estánda
 ### Puente experimental UC21 / DDS y revisión científica (25-10-2026)
 
 La integración ejecutable con los seis escenarios está en el [contrato de falsabilidad](studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md), junto con la [matriz de efectos S1–S6](studies/parametric-economic-toy-v0.1/UC21_SIX_SCENARIO_NEGATIVE_TEST_MATRIX.md), el [adaptador Python y tests](studies/parametric-economic-toy-v0.1/README.md#integración-ejecutable-uc21--dds--acc--01k-25-10-2026) y la [autoevaluación crítica](studies/parametric-economic-toy-v0.1/EXECUTABLE_ENGINE_AUDIT_2026-10-25.md). Esta adición prepara estudios DDS sin modificar el oráculo ni los criterios UC21 congelados. Los resultados actuales siguen siendo sintéticos/documentales, no ejecución de productos reales.
+
+### Vinculación con 00M y la falsación UC21
+
+El [estudio de puente](studies/00m-acc-uc21-bridge-v0.1/README.md) conserva tres afirmaciones separadas: plausibilidad de 00M para declaraciones incompletas, dominancia débil de Q disponible/opcional/gratuito en el **modelo social**, y refutación adversa de predicciones por tecnología convencional o EA en el **protocolo fuente UC21/DDS**. Una defensa en un δ registrado refuta esa predicción; el existencial HR requiere cobertura más fuerte. La bibliografía y su atribución se auditan en el mismo estudio, manteniendo el estatus de investigación y los propietarios del corpus.
