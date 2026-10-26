@@ -84,7 +84,7 @@ El modelo social demuestra bajo sus propios supuestos que **conservar Q B/C/D v�
 
 Para poner a prueba la aplicabilidad tecnológica, el programa ACC se vincula a [UC21/DDS](studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md): R0 ordinario competente, R1 reforzado y R2 la misma corrección bajo un cambio material registrado. Si una tecnología convencional evita el fallo con los controles de continuidad y autoridad, recibe mérito pleno y puede contradecir un supuesto diferencial estricto EA **para esa pregunta**. El test positivo particular no cierra por sí mismo todos los cambios admitidos en la hipótesis existencial HR de UC21, ni elimina la plausibilidad general de 00M. [Concordancia matemática y falsadores por alcance](studies/00m-acc-uc21-bridge-v0.1/README.md).
 
-## Propuestas aceptación y reajuste## Propuestas aceptación y reajuste
+## Propuestas aceptación y reajuste
 
 Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.
 
