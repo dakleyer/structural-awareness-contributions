@@ -522,3 +522,12 @@ The proposed Requirements packet, HumanTime alternative, remaining source-profil
 ## Action-plan 3.0 reception — 25 October 2026
 
 The owner-requested [action-plan3.0](../DOCUMENT_CONTROL.md#17-action-plan-30--simple-improvements-after-audit-20) responds to the post-implementation audit2.0. It prepares eight small first-wave source pairs, their application receipt, and one separately selectable workflow conversion. Every pair includes the complete old and proposed text, source, reason, impact, risk, effort, dependencies and verification. The current policy, programs, workflow, source roles and canonical content are unchanged by this planning publication. Implementation awaits Iván’s named wave GO.
+
+## First-wave action-plan 3.0 application — 25 October 2026
+
+**Applied:** AP3-01–AP3-08. The accepted maintenance edition, latest-audit route, current/historical planning entries, cancelled-continuation status, two-source observation reconciliation, contributor acceptance instruction and verifier coverage line are incorporated. The underlying verification algorithms, source classifications, approved-protection values, canonical research sources, programs, results and presentation binaries retain their earlier meanings and bytes outside those named units.
+
+The implementation PR records the exact accepted wave, whole-tree diff, reverse reconstruction, actual job result and public readback. Applied cards are retired from the pending queue with their original anchors and complete immutable pre-application history. AP3-09 remains a separate unexecuted workflow decision. Registry installation, role/protection adjudication, fragment/reference-style/HTTPS checks and native merge safeguards remain the explicit later tasks in the audit; this first wave closes only its accepted maintenance units.
+
+
+**Closure reception — 26 October 2026.** The eight source pairs were applied on25October through PR34. This reception preserves the intervening repository publications through `ce54b960c7ef3c0d9127e791a467b798d9566de7`: 192 added paths, 17 modified existing paths and 0 removed paths. In particular, the later historical-source-route verifier/manifest and expanded existing CI regressions are retained. The two document-control closure files are checked against this current baseline; the original eight-operation verification remains bound to its25October application, rather than being attributed to later contributors.

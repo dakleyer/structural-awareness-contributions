@@ -3940,20 +3940,20 @@ The complete GFM graph introduces no broken route/fragment or newly unreachable 
 
 **Current decision sheet — 25 October 2026.** This plan turns the [post-implementation document-control audit2.0](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#post-implementation-document-control-audit-20--25-october-2026) into a small, reviewable maintenance wave. Start here for the new decisions. [Section16](#16-action-plan-20-execution--25-october-2026) is the applied2.0 record; sections14–15 retain the earlier complete plans and evidence. This is a continuation of the one corpus-wide plan, not a new policy, register, report or VNext.
 
-**Decision requested at implementation:** Wave1 is AP3-01–08 plus its closing receipt AP3-R1. Wave2 is the separately selectable AP3-09 workflow conversion. **This publication prepares the plan; none of those units is applied.** DC-GH-01 remains v1.0.2 until the named maintenance wave is accepted. Publication preserves every previous byte of this control and the existing audit.
+**First-wave application — 25 October 2026.** Iván accepted AP3-01–08 and the closing receipt AP3-R1. The eight source pairs are incorporated and publicly verified; DC-GH-01 is v1.0.3. [Section18](#18-action-plan-30-first-wave-execution--26-october-2026) records scope, checks and remaining decisions. Completed cards below are anchored receipts with their complete immutable history. **Remaining separate choice:** AP3-09, the workflow conversion; no generation run or later identity/protection decision is included.
 
 ### 17.1 Recommended first wave
 
 | Unit | Concrete improvement | Expected impact | Risk / effort | State |
 |---|---|---|---|---|
-| AP3-01 | Identify the accepted maintenance edition | Low; necessary edition housekeeping | Low / Low | Proposed with the first wave |
-| AP3-02 | Open the actual latest audit from the policy header | Medium | Low / Low | Proposed |
-| AP3-03/04 | One current plan entry; earlier edition/reassessment clearly historical | Medium–High | Low / Low | Proposed |
-| AP3-05 | Clarify the cancelled hourly continuation in EP's existing VNext | Medium | Low / Low | Proposed; no automation action |
-| AP3-06 | Add a dated reconciliation of the two registry observations without changing the old candidate | High for future registry inputs | Low / Low–Medium | Proposed; registry remains uninstalled |
-| AP3-07 | Put accepted-unit, consumer, whole-tree and public-readback checks in the contributor entry | High for the human publication process | Low / Low | Proposed; not native enforcement |
-| AP3-08 | Show the existing verifier's exact coverage in each successful output | Medium | Low / Low | Proposed; checks/exit codes unchanged |
-| AP3-R1 | Close only the accepted first wave, with anchored history | High for traceability | Low / Low | After verified application |
+| AP3-01 | Identify the accepted maintenance edition | Low; necessary edition housekeeping | Low / Low | Applied; anchored receipt below |
+| AP3-02 | Open the actual latest audit from the policy header | Medium | Low / Low | Applied; anchored receipt below |
+| AP3-03/04 | One current plan entry; earlier edition/reassessment clearly historical | Medium–High | Low / Low | Applied; anchored receipt below |
+| AP3-05 | Clarify the cancelled hourly continuation in EP's existing VNext | Medium | Low / Low | Applied; anchored receipt below |
+| AP3-06 | Add a dated reconciliation of the two registry observations without changing the old candidate | High for future registry inputs | Low / Low–Medium | Applied; anchored receipt below |
+| AP3-07 | Put accepted-unit, consumer, whole-tree and public-readback checks in the contributor entry | High for the human publication process | Low / Low | Applied; anchored receipt below |
+| AP3-08 | Show the existing verifier's exact coverage in each successful output | Medium | Low / Low | Applied; anchored receipt below |
+| AP3-R1 | Close only the accepted first wave, with anchored history | High for traceability | Low / Low | Applied; anchored receipt below |
 
 These are eight content pairs across four existing sources, plus one closing receipt in the existing audit. The first wave changes no scientific assertion, research program, result, binary, protected router, source role, active companion mapping, or GitHub setting. Its benefit is a clear current entry, correct observations and a practical publication/verification route. It does not complete the larger preventive guard.
 
@@ -3969,268 +3969,93 @@ Those items remain in the same existing plan/audit. Their importance is High; th
 
 ### 17.4 Complete surgical units
 
-Read the full old passage before each proposed replacement. Apply to the named source/owning section, never to a quoted copy inside this plan. AP3-01–09 were checked against main67c6328c. AP3-R1 binds to the actual audit reception created by this planning publication and must be confirmed by public readback. A changed source or later execution date requires a newly dated complete pair; keep this one as history.
+The accepted AP3-01–08 and AP3-R1 cards below are application receipts, with direct immutable links to their complete old/new texts and review criteria. AP3-09 remains the separate proposed workflow unit and retains its complete literal pair. Historical source bindings identify the planning cut; any later selected proposal must be checked against its actual current owning source before execution.
 
 <details>
 <summary>AP3-01 — Identify the accepted editorial edition</summary>
 
-**Source:** `DOCUMENT_CONTROL.md`. **Location:** Header edition line; operative clauses1–13 remain unchanged.
+<a id="ap3-01"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `fe797b437f50a0fa53f1732490b58818b5202bbe`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-01 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Identify the accepted maintenance edition without changing research, roles or effective evidence.
 
-**Reason / benefit:** Identify the accepted maintenance edition without changing research, roles or effective evidence.
-
-**Expected impact:** Low. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** A wrong edition/effective date could misstate which maintenance was accepted. The new edition is applied only with the named wave and its actual decision date.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-**Edition:** v1.0.2 · **Effective:** 25 October 2026 (owner-authorized clarifications)  
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-**Edition:** v1.0.3 · **Effective:** 25 October 2026 (owner-authorized document-control maintenance)  
-````````````````
-
-**Verification and closure:** Retain all operative clauses1–13 byte-for-byte except the separate latest-audit navigation line outside those clauses. Execute with the named maintenance wave; if the GO date changes, prepare the new effective-date after text before applying, rather than backdating it.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L3965). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
 <details>
 <summary>AP3-02 — Point the policy to the actual post-implementation audit</summary>
 
-**Source:** `DOCUMENT_CONTROL.md`. **Location:** Header Latest conformity audit line.
+<a id="ap3-02"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `fe797b437f50a0fa53f1732490b58818b5202bbe`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-02 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Give the reader the actual current assessment with its eight findings.
 
-**Reason / benefit:** Give the reader the actual current assessment with its eight findings.
-
-**Expected impact:** Medium. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** A wrong fragment could send readers to an older or missing assessment; the complete current target anchor is checked before acceptance.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-**Latest conformity audit:** [25 October 2026 — second assessment](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026) · [VNext-link inventory with dated assessments](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-**Latest conformity audit:** [25 October 2026 — post-implementation audit 2.0](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#post-implementation-document-control-audit-20--25-october-2026) · [VNext-link inventory with dated assessments](./governance/review/DOCUMENT_CONTROL_VNEXT_LINK_INVENTORY_2026-10-25.json).
-````````````````
-
-**Verification and closure:** Resolve the new GFM anchor in the existing audit; retain the inventory link and every earlier assessment. No link is deleted from the historical record.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L3996). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
 <details>
 <summary>AP3-03 — Give the cross-corpus plan one current entry</summary>
 
-**Source:** `DOCUMENT_CONTROL.md`. **Location:** Section14 opening Purpose paragraph; not a quoted copy in a proposal.
+<a id="ap3-03"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `fe797b437f50a0fa53f1732490b58818b5202bbe`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-03 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Connect current work and prior execution while preserving the complete earlier plan.
 
-**Reason / benefit:** Connect current work and prior execution while preserving the complete earlier plan.
-
-**Expected impact:** Medium–High. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** A stale plan link could make already-applied work look pending. The old planning history and section16 execution route remain visible.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes. The [action-plan 2.0 reassessment and decision sheet](#15-action-plan-20--reassessment-and-next-waves) is the current planning entry; sections14.2–14.3 retain the earlier selection history, while14.12 supplies the expanded candidate population. Operative policy sections1–13 change only through accepted source pairs.
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-**Purpose:** put document control into everyday practice and move settled development out of VNext into the maintained corpus. This is the single cross-corpus action plan, connected to the [second control audit](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#second-conformance-audit--25-october-2026). Its scope is all Contributions, including EA, RA, MSCA, DDS, case/campaign interfaces, optional material and the controls that publish changes. The [action-plan 3.0 decision sheet](#17-action-plan-30--simple-improvements-after-audit-20) is the current planning entry. [Section16](#16-action-plan-20-execution--25-october-2026) records the applied2.0 packet; sections14.2–14.3 retain the earlier selection history, while14.12 supplies the expanded candidate population. Operative policy sections1–13 change only through accepted source pairs.
-````````````````
-
-**Verification and closure:** Both section16 and17 anchors exist; retain original scope and sections14.2/14.3/14.12 history. The proposed entry must not imply AP3 execution.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L4027). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
 <details>
 <summary>AP3-04 — Keep the earlier policy state historical</summary>
 
-**Source:** `DOCUMENT_CONTROL.md`. **Location:** Section15 opening paragraph; no old before/after card is selected.
+<a id="ap3-04"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `fe797b437f50a0fa53f1732490b58818b5202bbe`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-04 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Remove the contradiction between a v1.0.2/1.0.3 header and a paragraph calling v1.0.1 current.
 
-**Reason / benefit:** Remove the contradiction between a v1.0.2/1.0.3 header and a paragraph calling v1.0.1 current.
-
-**Expected impact:** Medium–High. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** Rephrasing could erase the historical v1.0.1 context or imply another independent audit. The proposed text retains both facts and points to current state.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-**Decision-ready review of plan 1.0;25 October 2026.** This section is the current planning entry. The operative policy remains DC-GH-01v1.0.1. It preserves the complete earlier plan and audit; the pairs below are proposals for named implementation waves. The same Codex assistant performed this reassessment, not an independent external reviewer.
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-**Historical reassessment of plan 1.0 — 25 October 2026.** This section records the review prepared while DC-GH-01v1.0.1 was operative. [Section16](#16-action-plan-20-execution--25-october-2026) identifies the accepted2.0 packet and its actual application. The header identifies the current policy edition; [section17](#17-action-plan-30--simple-improvements-after-audit-20) is the current planning entry. The complete earlier plan, audit and scoped proposals remain preserved. The same Codex assistant performed this reassessment, not an independent external reviewer.
-````````````````
-
-**Verification and closure:** Keep the historical edition and reviewer attribution explicit. Current edition is read from the header; no old findings or decisions are removed.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L4058). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
 <details>
 <summary>AP3-05 — Remove ambiguity about the cancelled hourly continuation</summary>
 
-**Source:** `architectural-contributions/ecosystem-positioning/README_VNext.md`. **Location:** Opening cumulative-review1.5 paragraph, immediately below the existing application notes.
+<a id="ap3-05"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `1d83037568a0a87f266f7f7bb4470bc8e3e7a572`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-05 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Make the actual continuation state clear without rewriting the dated scientific review.
 
-**Reason / benefit:** Make the actual continuation state clear without rewriting the dated scientific review.
-
-**Expected impact:** Medium. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** Changing the opening could imply cancelled research or renewed scheduling. Only the continuation status changes; objective, prior work and remaining passes are retained.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-**6 de octubre de 2026 · revisión acumulativa 1.5.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext.
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-**Historical review cut — 6 October 2026, cumulative review1.5.** The hourly continuation recorded at that cut was subsequently cancelled by Iván. Review continues through explicitly requested work in this chat. The objective remains completion of the substantive passes and final corpus reconciliation; publishing progress does not itself close that objective. The statuses below describe actual work, not the mere existence of a VNext.
-````````````````
-
-**Verification and closure:** Replace this one complete paragraph only; keep the rest of EP VNext exact, retain all original source/readme bytes and create no automation. The full Spanish predecessor stays in this literal plan and immutable history.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L4089). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
 <details>
 <summary>AP3-06 — Reconcile the two changed registry observations without overwriting the candidate</summary>
 
-**Source:** `DOCUMENT_CONTROL.md`. **Location:** Section14.14 Complete replacement registry candidate — still not installed; insert immediately after its existing introduction, before its details block.
+<a id="ap3-06"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `fe797b437f50a0fa53f1732490b58818b5202bbe`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-06 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Preserve the original72-record proposal while preventing its two old observations from being mistaken for the post-application baseline.
 
-**Reason / benefit:** Preserve the original72-record proposal while preventing its two old observations from being mistaken for the post-application baseline.
-
-**Expected impact:** High for future registry inputs. **Risk:** Low. **Cost / effort:** Low–Medium, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** An observation overlay could be mistaken for role approval or blindly installed after another source change. The old JSON stays exact; installation requires one complete current candidate and separate authority decisions.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-This full candidate supersedes the partial seed in 14.8. It binds all 75 review surfaces through 68 proposed current continuation groups and seven retained reviews, plus the declared remaining routers and strategy:72 records. It preserves the EA approval discrepancy and the Requirements frozen/current distinction. The file uses JSON syntax, which is a YAML1.2 subset; the proposed implementation can parse it with the standard JSON parser and validate the supported schema. Role/identity acceptance remains a named owner decision. No registry file is created by this publication.
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-This full candidate supersedes the partial seed in 14.8. It binds all 75 review surfaces through 68 proposed current continuation groups and seven retained reviews, plus the declared remaining routers and strategy:72 records. It preserves the EA approval discrepancy and the Requirements frozen/current distinction. The file uses JSON syntax, which is a YAML1.2 subset; the proposed implementation can parse it with the standard JSON parser and validate the supported schema. Role/identity acceptance remains a named owner decision. No registry file is created by this publication.
-
-**Observation reconciliation after the accepted PR31 packet — 25 October 2026.** The complete candidate below is the preserved pre-application mapping. For a later installation, reconcile these two observed fields against the actual accepted source; all remaining role, lifecycle, protection and authority decisions stay as recorded.
-
-| Candidate source | Preserved candidate observation | Accepted source observation after PR31 |
-|---|---|---|
-| [04 integrated interfaces](./research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) | `30e492c671efed802f7b881ed67e9f4dcd4bb079` | `02f4c9712d1b4be76a7c18a98452ee133a069661` |
-| [05A current-state bridge](./research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md) | `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5` | `ea94ba9dbc63da8e8708455cab543e58b960f102` |
-
-[PR31](https://github.com/dakleyer/structural-awareness-contributions/pull/31) and its [merged source cut](https://github.com/dakleyer/structural-awareness-contributions/tree/0221c0a9e85a5e456c90e15594be487778baf408) identify the two accepted additive receptions. This dated reconciliation supplements the earlier candidate; it neither installs a registry nor changes a provisional role or special approved-protection SHA. Before installation, materialize and validate one complete candidate against the then-current trusted tree, applying this reconciliation only if these exact source observations still match.
-````````````````
-
-**Verification and closure:** Keep all original JSON candidate bytes exact. Verify the two real blobs and PR31 receipt. Require a complete rebased candidate before installation; no role or approved protection value is changed by this note.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L4120). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
 <details>
 <summary>AP3-07 — Put exact-scope acceptance in the contributor entry</summary>
 
-**Source:** `CONTRIBUTING.md`. **Location:** Contribution route, existing numbered item3; the five-item route and policy authority are retained.
+<a id="ap3-07"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `f7bd6abe8ac011ac277b213dd6e99cdc16f2599f`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-07 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Make source-scope, consumer review, whole-tree verification, public readback and completed-card custody visible before a contributor edits.
 
-**Reason / benefit:** Make source-scope, consumer review, whole-tree verification, public readback and completed-card custody visible before a contributor edits.
-
-**Expected impact:** High for the publication process. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** A reader could mistake a manual checklist for an enforced merge gate or add approval steps to every typo. The paragraph is scoped to substantive incorporation under the existing policy.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-3. Do not delete or silently rewrite frozen, historical or superseded artefacts. Add a successor, annex or explicit correction record when preservation is required.
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-3. Do not delete or silently rewrite frozen, historical or superseded artefacts. Add a successor, annex or explicit correction record when preservation is required. For a substantive incorporation, use DC-GH-01’s wave acceptance: identify the accepted passages and affected readers, apply only those units, compare the complete resulting tree with its starting revision, and read back the published files. Close the applied proposal with an anchored receipt and its complete immutable pre-application card.
-````````````````
-
-**Verification and closure:** A manual contributor check can identify source/accepted unit/affected reader/whole diff/public readback/history from this paragraph and its existing policy link. This is a human process instruction, not deployed merge enforcement.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L4160). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
 <details>
 <summary>AP3-08 — Report the verifier’s actual coverage without changing its checks</summary>
 
-**Source:** `scripts/check_document_integrity.py`. **Location:** main() successful final output block; all earlier checks/functions/constants stay exact.
+<a id="ap3-08"></a>
 
-**Baseline:** 67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2; source blob `146e46754e6090438aa08ff16a3d42457a066747`. **State:** Proposed; not applied.
+**Applied — 25 October 2026; removed from the pending queue.** AP3-08 is received through [verified source application](https://github.com/dakleyer/structural-awareness-contributions/pull/34). Make each successful job self-explanatory; readers can distinguish the existing path/minima/deck tests from the future role/protection guard.
 
-**Reason / benefit:** Make each successful job self-explanatory; readers can distinguish the existing path/minima/deck tests from the future role/protection guard.
-
-**Expected impact:** Medium. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** A downstream consumer comparing complete stdout may need the new line. The existing PASS line and exits stay exact; current workflow callers and candidate checks must be revalidated.
-
-**Dependencies / Iván's decision:** First-wave named GO; revalidate the actual source and owning context.
-
-**Text before — complete literal passage.**
-
-````````````````text
-    print(f"DOCUMENT INTEGRITY: PASS ({checked_links} local routes, "
-          f"{len(REQUIRED_SECTIONS)} architecture sections, {len(PRESENTATIONS)} canonical decks)")
-    return 0
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-    print(f"DOCUMENT INTEGRITY: PASS ({checked_links} local routes, "
-          f"{len(REQUIRED_SECTIONS)} architecture sections, {len(PRESENTATIONS)} canonical decks)")
-    print("CHECK COVERAGE: relative inline/HTML local paths; EP section/reference minima; "
-          "PPTX package/text minima.")
-    return 0
-````````````````
-
-**Verification and closure:** Retain the existing PASS line exactly, add one coverage line, preserve exit codes and actual algorithms. Compile the candidate; unchanged baseline and all seven audit adverse cases must keep their same results. This unit deliberately does not claim to close their six coverage gaps.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L4191). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
@@ -4394,41 +4219,11 @@ jobs:
 <details>
 <summary>AP3-R1 — Receive and close the first wave after successful public verification</summary>
 
-**Source:** `governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md`. **Location:** Append immediately after the action-plan3.0 reception created by this planning publication. Preserve that complete reception as history.
+<a id="ap3-r1"></a>
 
-**Baseline:** the actual planning publication, not its preceding67c6328c tree; source blob `bound by the planning publication and its exact public readback`. **State:** Proposed; not applied.
+**Applied — 26 October 2026; removed from the pending queue.** AP3-R1 is received through the accompanying application reception in the existing audit. Keep completed work out of the live pending queue and link its exact public provenance without losing the original plan.
 
-**Reason / benefit:** Keep completed work out of the live pending queue and link its exact public provenance without losing the original plan.
-
-**Expected impact:** High for traceability. **Risk:** Low. **Cost / effort:** Low, including reading, validation and upkeep.
-
-**Concrete risk / affected readers:** Premature reception would falsely close an unapplied wave. Append it only after the exact selected units, actual check result and public readback are verified.
-
-**Dependencies / Iván's decision:** All eight first-wave units and their verified main readback; retirement receipts with preserved incoming IDs. No AP3-09 execution is inferred.
-
-**Text before — complete literal passage.**
-
-````````````````text
-## Action-plan 3.0 reception — 25 October 2026
-
-The owner-requested [action-plan3.0](../DOCUMENT_CONTROL.md#17-action-plan-30--simple-improvements-after-audit-20) responds to the post-implementation audit2.0. It prepares eight small first-wave source pairs, their application receipt, and one separately selectable workflow conversion. Every pair includes the complete old and proposed text, source, reason, impact, risk, effort, dependencies and verification. The current policy, programs, workflow, source roles and canonical content are unchanged by this planning publication. Implementation awaits Iván’s named wave GO.
-````````````````
-
-**Text after — complete proposal.**
-
-````````````````text
-## Action-plan 3.0 reception — 25 October 2026
-
-The owner-requested [action-plan3.0](../DOCUMENT_CONTROL.md#17-action-plan-30--simple-improvements-after-audit-20) responds to the post-implementation audit2.0. It prepares eight small first-wave source pairs, their application receipt, and one separately selectable workflow conversion. Every pair includes the complete old and proposed text, source, reason, impact, risk, effort, dependencies and verification. The current policy, programs, workflow, source roles and canonical content are unchanged by this planning publication. Implementation awaits Iván’s named wave GO.
-
-## First-wave action-plan 3.0 application — 25 October 2026
-
-**Applied:** AP3-01–AP3-08. The accepted maintenance edition, latest-audit route, current/historical planning entries, cancelled-continuation status, two-source observation reconciliation, contributor acceptance instruction and verifier coverage line are incorporated. The underlying verification algorithms, source classifications, approved-protection values, canonical research sources, programs, results and presentation binaries retain their earlier meanings and bytes outside those named units.
-
-The implementation PR records the exact accepted wave, whole-tree diff, reverse reconstruction, actual job result and public readback. Applied cards are retired from the pending queue with their original anchors and complete immutable pre-application history. AP3-09 remains a separate unexecuted workflow decision. Registry installation, role/protection adjudication, fragment/reference-style/HTTPS checks and native merge safeguards remain the explicit later tasks in the audit; this first wave closes only its accepted maintenance units.
-````````````````
-
-**Verification and closure:** Apply only after AP3-01–08 and their scope/native/readback checks succeed. Actual implementing PR and its base identify the immutable complete plan; no guessed final commit is embedded here. If the execution date changes, reissue this after text before acceptance.
+[Complete original before/after, reasoning, risk and acceptance](https://github.com/dakleyer/structural-awareness-contributions/blob/a490a7967a64a4ff36f160b2bb4e3731371f440e/DOCUMENT_CONTROL.md#L4385). The original card remains at its immutable pre-application revision. No later identity, protection, registry, research or AP3-09 decision is closed by this receipt.
 
 </details>
 
@@ -4443,6 +4238,28 @@ The implementation PR records the exact accepted wave, whole-tree diff, reverse 
 
 ### 17.6 Handoff and owner choices
 
-**Recommended GO:** the eight small first-wave units and their verification/closing receipt. **Separate choice:** AP3-09 after workflow review. **Keep pending:** the identity/protection and native-guard decisions above. Benefit is expected, not a new scientific finding. Every application must remove the accepted item from the actual pending queue while retaining its complete immutable plan and incoming reader route.
+**Completed:** the eight first-wave units and their verified application reception. **Separate pending choice:** AP3-09 after workflow review. **Other pending work:** identity/protection adjudication and the registry/native-guard decisions above. Applied items have left the pending queue; their complete immutable plans and incoming reader routes remain available.
 
-This plan's original pairs, byte-bound validation, prospective graph/checker tests and actual publication are distinguished. The plan is complete for its proposed scope when its source matches, original candidate retention, first-wave preview, parser/coverage tests and public plan readback are verified. It is implemented only after the named GO and corresponding application evidence.
+The planning publication remains complete at its immutable revision. The accepted first-wave source changes and their reception are now applied, with operation-by-operation inverse checks, full-tree scope checks, actual GitHub workflow results and public readback. AP3-09 and the dependent work above remain unexecuted; their status is separate from this completed maintenance wave.
+
+## 18. Action-plan 3.0 first-wave execution — 26 October 2026
+
+**Owner GO:** “Ejecuta ese plan de acción y revisa. Ejecuta ese plan de acción y revisa que no hay problemas.” The first-wave scope is AP3-01–08 plus AP3-R1. AP3-09 retains its separate-wave decision and complete pending pair; the repair workflow and both presentation generators are unchanged and were not run.
+
+**Closure recorded26October2026.** The source wave was applied25October. The current closure baseline retains the later historical-source-route checks, manifest, workflow regressions and research additions.
+
+### 18.1 What is applied
+
+The eight exact source pairs update the maintenance edition to v1.0.3, current audit/planning entries, historical reassessment status, cancelled-continuation wording, two-source observation reconciliation, contributor acceptance procedure and one verifier coverage line. The original72-record candidate remains complete and unchanged; the dated reconciliation supplements its observations. Operative clauses1–13 are unchanged. At the25October source application, the verifier's existing PASS line, functions, constants and exits were preserved; that packet's AST added only the one successful-output print.
+
+The source packet was published and verified through [PR34](https://github.com/dakleyer/structural-awareness-contributions/pull/34) before the application reception and card closure. Its actual merged files were downloaded and compared byte-for-byte with the eight-operation candidate. The current [audit reception](./governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#first-wave-action-plan-30-application--25-october-2026) receives the completed wave. Applied cards leave the pending queue as anchored receipts pointing to their complete original before/after at the pre-application revision; their reasoning and acceptance remain available there.
+
+### 18.2 Verification and exact boundary
+
+The eight source operations were replayed and reversed against authentic predecessors. Full-tree comparison retains all2,405 paths/modes, with only the four named source files changed by the source packet. GFM over1,048 Markdown introduces no broken path/fragment, removed heading or newly unreachable file. The actual GitHub documentation job succeeds. Seven isolated documentary adverse cases were repeated; the missing relative inline file still fails, while the six previously disclosed unimplemented checks retain their actual outcomes. The coverage line does not convert them into implemented guards.
+
+Closing this wave additionally changes only this control and its existing audit: the literal AP3-R1 reception, nine completed-card retirements, current pending-state fields and this execution record. Those closure operations also have complete authentic preimages, exact old/new spans and inverse checks; actual publication/readback is verified through their implementing PR. The two application packets together change DOCUMENT_CONTROL, CONTRIBUTING, the existing EP README_VNext, the existing verifier and the existing audit. Each packet preserves all unrelated paths/modes/blobs at its own accepted baseline. Intervening research and historical-route publications are retained at their current revision and are not attributed to this maintenance wave; no rollback to the25October verifier or research corpus is performed.
+
+### 18.3 Remaining choices
+
+AP3-09, the EA protected successor, provisional roles and edition families, registry installation, the complete exact-wave/role/protection guard, native merge safeguards and the named Requirements/HumanTime/research packets remain separate pending decisions. The first-wave maintenance is applied; these larger tasks are not its unexecuted remnants. The cancelled hourly continuation remains cancelled.
