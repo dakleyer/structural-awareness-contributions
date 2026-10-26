@@ -1,0 +1,556 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Cross-corpus taxonomy observations and research questions; not a canonical glossary or source VNext",
+  "status": "working_review",
+  "coverage": "Initial seed only. Corpus-wide and FG-TIDA audit is not complete.",
+  "authorship": "AI-assisted analysis; no independent review or external adoption implied.",
+  "authority": "Changes to source meanings remain in each owning VNext and require the applicable owner decision.",
+  "allowed_statuses": [
+    "open",
+    "disputed",
+    "deferred",
+    "resolved",
+    "refuted",
+    "superseded"
+  ],
+  "observations": [
+    {
+      "id": "TX-F001",
+      "title": "Taxonomy, terminology, glossary and ontology are different work products",
+      "status": "open",
+      "kind": "strategy_question",
+      "basis": "working_hypothesis_or_candidate",
+      "observation": "A list of terms, a classification and a relational model answer different questions. Whether the initiative needs each is a design question, not a new universal definition.",
+      "next_question_or_test": "Compare a term list, a classification with overlapping members and a relation-bearing model; record what each cannot answer.",
+      "sources": [
+        "https://github.com/FG-TIDA/themes/issues/32"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F002",
+      "title": "Programme, architectural contribution and technical gates are different levels",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Calling Structural Awareness, Ecosystem Positioning, EA, RA and MSCA interchangeable hides which source and function supports a claim.",
+      "next_question_or_test": "Trace one claim from programme narrative to its owning architecture/gate and name the actual supporting source.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/architectural-contributions/ecosystem-positioning/README.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F003",
+      "title": "A/B/C/D should not become four mutually exclusive bins",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A represented item not yet consulted must not automatically become C. The qualification depends on process, subject, decision and time; it is not an exhaustive population partition.",
+      "next_question_or_test": "Test a known, evaluable but unconsulted record; record the subject/process/time rather than reclassifying it as an intrinsically unknown object.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F004",
+      "title": "Type 0 is not another management-failure class",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Structural non-determination, management failures and ensuing trajectories must not be added as if they were classes of the same kind.",
+      "next_question_or_test": "Classify a non-determination, a Type1/2 event and a cascade without treating them as three peer failure labels.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F005",
+      "title": "Representation state is not assessment state",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "An unpopulated representation and an unassessed sufficiency claim are different absences. Schema completeness does not establish support.",
+      "next_question_or_test": "Use a fully populated but unevaluated instance and an empty instance; neither should silently become SUPPORTED.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F006",
+      "title": "S/E/C/P/M are semantic slots, not five software modules",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Treating the kernel slots as deployable components or silently adding a sixth canonical element would change the architecture rather than clarify a label.",
+      "next_question_or_test": "Ask for one implementation mapping of each slot, with an explicit statement that the mapping is not the canonical definition.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F007",
+      "title": "Role, position, capability, mandate and permission are not synonyms",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A capability-bearing participant is not thereby authorized. A functional projection and a qualified epistemic position answer different questions.",
+      "next_question_or_test": "Use a capable but unauthorized participant, and an authorized but unavailable participant.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F008",
+      "title": "RA collides: Regime Awareness versus Remote Attestation",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "The same short token refers to two different concepts in the combined corpus. Text matching alone cannot justify a mapping.",
+      "next_question_or_test": "Require an expanded name and source namespace on first use; reject Regime Awareness = Remote Attestation.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/regime-awareness/README.md",
+        "https://github.com/FG-TIDA/wg1-ra-aai"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F009",
+      "title": "Observed delta, receiver gradient and operational posture are different objects",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A qualified directional change is not an executed containment action or a receiver-specific migration destination.",
+      "next_question_or_test": "Trace producer output to receiver decision and observed action; identify which transition is not licensed by a change signal.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/regime-awareness/README.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F010",
+      "title": "P1/P2/P3 postures collide with P1–P6 principle identifiers",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "working_hypothesis_or_candidate",
+      "observation": "A short P identifier can denote an operational posture or a principle, depending on its source family. This is a candidate occurrence audit, not an approved renaming.",
+      "next_question_or_test": "Inventory occurrences and preserve existing source identifiers; qualify new references by family.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/tree/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F011",
+      "title": "DDS stages and local gates/testbed stages need namespaces",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "DDS A/B/C, local Stage-0/Stage-1 and R-number families are source-specific. A shared number is not a universal translation rule.",
+      "next_question_or_test": "Build a source-specific stage mapping including a deliberately mismatched Stage1 pair that must remain unmapped.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F012",
+      "title": "RL Trajectory/Verifier do not erase other domain meanings",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "The reinforcement-learning meanings proposed in Theme52 do not supersede DDS trajectories or credential/evidence verification.",
+      "next_question_or_test": "Compare one RL trajectory/verifier example with a DDS and a credential-verifier example; preserve non-equivalence.",
+      "sources": [
+        "https://github.com/FG-TIDA/themes/issues/52"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F013",
+      "title": "Policy has multiple authored objects and scopes",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Deployment configuration, an authored evaluation reference and jurisdictional requirements may all be called policy; their authors and change authorities can differ.",
+      "next_question_or_test": "Record originator, jurisdiction/domain, applicable version and authority to change each policy object.",
+      "sources": [
+        "https://github.com/FG-TIDA/themes/issues/32#issuecomment-5926106469"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F014",
+      "title": "A flag taxonomy is not a cross-evaluator failure taxonomy",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A collection of flags measured by one evaluator and a classification of failures between evaluators have different universes and observation units.",
+      "next_question_or_test": "State the classified universe and observation unit before combining any categories.",
+      "sources": [
+        "https://github.com/FG-TIDA/themes/issues/32"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F015",
+      "title": "Trust, trustworthiness, evidence and reliance remain distinct questions",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Contributed definitions in Theme51 and meeting discussions do not establish a single accepted meaning or make reliance a measured property.",
+      "next_question_or_test": "Record rival definitions and one decision that differs between them; do not settle the dispute by frequency of the word.",
+      "sources": [
+        "https://github.com/FG-TIDA/themes/issues/51",
+        "https://github.com/FG-TIDA/meetings/blob/main/2026-10-14-preparation-meeting-4/minutes.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F016",
+      "title": "Identity must not collapse principal, instance and legal binding",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "working_hypothesis_or_candidate",
+      "observation": "Authentication, logical identity, represented principal, runtime instance and legal binding require different evidence. A signature cannot fill all missing links.",
+      "next_question_or_test": "Use a valid signature with unknown principal authorization and legal scope; retain those gaps.",
+      "sources": [
+        "https://github.com/FG-TIDA/use-cases/issues/20"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F017",
+      "title": "Available, presented, noticed and understood evidence are different claims",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Evidence can exist without being shown, and be shown without evidence of comprehension. Do not turn this into an automatic ladder of approval.",
+      "next_question_or_test": "Use a delivered document with no evidence of comprehension; keep shown and understood independent.",
+      "sources": [
+        "https://github.com/FG-TIDA/themes/issues/16#issuecomment-6302053285"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F018",
+      "title": "Finding, sufficiency judgment and authorized decision are different steps",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A finding may support a scoped judgment without giving the recipient permission to act. Support, inference and authorization are different relations.",
+      "next_question_or_test": "Use a scoped experimental PASS with no applicable action authority.",
+      "sources": [
+        "https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6301163175"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F019",
+      "title": "Applicable authority does not establish timely capacity",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A named decision maker may lack information, access, availability or time. External queue overload is not by itself local incompetence.",
+      "next_question_or_test": "Keep authority, capability, information access and useful intervention time separate in a specific escalation example.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F020",
+      "title": "Acknowledgment, attempted action and observed effect are not equivalent",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Receipt or acknowledgement does not establish that the intended effect occurred. Repeating or signing a claim does not make its observation independent.",
+      "next_question_or_test": "Use an ACK with no independent effect evidence; preserve the missing observation and time window.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F021",
+      "title": "Epistemic validity and response opportunity use different clocks",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A still-valid finding can arrive too late for a useful action; spare time cannot make stale findings current. Synthetic timestamps do not establish measured latency.",
+      "next_question_or_test": "Use a valid-but-late result and a stale-but-fast result; neither implies the other clock passed.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F022",
+      "title": "Historical authenticity is not present applicability",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Preserve the original finding while requalifying the present use affected by a changed dependency or context.",
+      "next_question_or_test": "Link a historical authentic result to a present use that is no longer supported, without changing the old result.",
+      "sources": [
+        "https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6375358937"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F023",
+      "title": "Changed conditions and changed relevance boundaries are different problems",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A monitored variable can change, or a previously unrepresented factor can become material without changing the old source bytes. Monitoring does not prove complete coverage.",
+      "next_question_or_test": "Contrast ordinary drift with a relevance-boundary change; specify the discovery limit and unknown residual.",
+      "sources": [
+        "https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6375358937"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F024",
+      "title": "Human Intelligence Debt is not runtime intervention capacity",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "The architectural use of human intelligence and whether a specific intervention route can act now need separate units, estimators and claims.",
+      "next_question_or_test": "Use a runtime queue delay without inferring a universal intelligence-debt score.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F025",
+      "title": "Principle, requirement, hypothesis, condition and KPI need claim types",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Document placement does not turn a hypothesis into proof or make a KPI a requirement. S/T/H families need source-qualified interpretation.",
+      "next_question_or_test": "Trace a hypothesis through its requirement and measurement consumers; retain its actual proof/execution status.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F026",
+      "title": "Current, candidate, test-only and adopted need separate status axes",
+      "status": "open",
+      "kind": "source_distinction_at_risk",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "Source description, candidate interface field, test evidence and institutional adoption are not successive states established merely by publication.",
+      "next_question_or_test": "Try mapping a test-only field to adopted and require rejection unless the actual decision evidence exists.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F027",
+      "title": "Thematic coverage is not evidential coverage",
+      "status": "open",
+      "kind": "strategy_question",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "A theme/coverage map can locate a question without demonstrating its specification, implementation or resolution.",
+      "next_question_or_test": "Keep conceptual, specification, implementation and evidence coverage as four views with explicit gaps.",
+      "sources": [
+        "https://github.com/FG-TIDA/themes/issues/50"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F028",
+      "title": "Cross-WG terminology is an opportunity, not an appointment or accepted slot",
+      "status": "open",
+      "kind": "strategy_question",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "The meeting record describes potential terminology support. It does not appoint a lead, grant a contribution slot or authorize an external submission.",
+      "next_question_or_test": "Recheck current procedural conditions before any external approach; record no appointment or submission from this entry.",
+      "sources": [
+        "https://github.com/FG-TIDA/meetings/blob/main/2026-10-14-preparation-meeting-4/minutes.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F029",
+      "title": "Same-label semantic change needs versioned consumer review",
+      "status": "open",
+      "kind": "strategy_question",
+      "basis": "working_hypothesis_or_candidate",
+      "observation": "A label can remain stable while scope, criterion or decision consequences change. A global word replacement would hide consumer compatibility questions.",
+      "next_question_or_test": "Select one real meaning change and its consumers; propose a versioned mapping before any source correction.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-F030",
+      "title": "Flattened unknown-like statuses can lose decision-relevant reasons",
+      "status": "open",
+      "kind": "meaning_or_namespace_comparison",
+      "basis": "initial_source_reading_not_exhaustive_occurrence_audit",
+      "observation": "INDETERMINATE, no-assertion, HELD, UNKNOWN, not-evaluated and not-applicable can encode different reasons. A single unknown may change an action boundary.",
+      "next_question_or_test": "Construct a mapping with a positive preservation example and a reason-losing negative example before declaring equivalence.",
+      "sources": [
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md"
+      ],
+      "proposed_source_change": null,
+      "owning_review": null,
+      "discussion": []
+    }
+  ],
+  "ideas": [
+    {
+      "id": "TX-I001",
+      "title": "Federated concept architecture",
+      "status": "proposed",
+      "proposal": "Keep a small shared core, source-owned domain vocabularies and explicit crosswalks; do not force a universal hierarchy.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I002",
+      "title": "Separate classification axes",
+      "status": "proposed",
+      "proposal": "Represent object kind, epistemic state, authority, time, evidence and document maturity independently.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I003",
+      "title": "Meaning-preserving crosswalks",
+      "status": "proposed",
+      "proposal": "Represent exact, narrower, broader, related, incompatible and unresolved relationships explicitly; no untested automatic equivalence.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I004",
+      "title": "Decision-oriented minimal pairs",
+      "status": "proposed",
+      "proposal": "Prioritize examples where two readings produce different permissions, sufficiency judgments or consumer decisions.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I005",
+      "title": "Source-qualified identifiers",
+      "status": "proposed",
+      "proposal": "Use stable concept/sense IDs and source namespaces while retaining historical labels and acronyms.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I006",
+      "title": "Version-aware consumer impact",
+      "status": "proposed",
+      "proposal": "Review descendants of a changed meaning without invalidating independent support paths or rewriting historical findings.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I007",
+      "title": "Bilingual and metaphor review",
+      "status": "proposed",
+      "proposal": "Track translation and explanatory wording separately from technical definitions; show what is lost.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I008",
+      "title": "Coverage by collection and surface",
+      "status": "proposed",
+      "proposal": "Include the full own programme and FG-TIDA files, issues, comments, PRs and linked annexes; keep exclusions visible.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I009",
+      "title": "Review tests without semantic overclaim",
+      "status": "proposed",
+      "proposal": "Use positive and negative mapping examples; machine-readable consistency is not conceptual truth or external validation.",
+      "decision": null,
+      "discussion": []
+    },
+    {
+      "id": "TX-I010",
+      "title": "Incremental public PR practice",
+      "status": "proposed",
+      "proposal": "Small linked PRs with evidence, objections and owner decisions; preserve disagreements and reuse each source's existing VNext.",
+      "decision": null,
+      "discussion": []
+    }
+  ]
+}
