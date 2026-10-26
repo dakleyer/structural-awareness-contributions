@@ -122,6 +122,19 @@ Se comparan regímenes donde W es informativo y donde una autoridad legítima lo
 
 Ambos regímenes son propuestas para ensayo comparativo. La condición ΔW ≥ 0 no sustituye automáticamente consentimiento, dignidad, derechos no compensables ni autoridad legítima. En el régimen B, mayor producción con ΔW < 0 no supera esa puerta; las demás condiciones permanecen.
 
+### Aversión al riesgo constante y permanencia con sufrimiento creciente (RAV-01)
+
+La comparación con el óptimo conjunto no describe por sí sola la **elección de emprender la transición**. Es compatible producir más, experimentar más disconfort F (incluso no lineal), quedar más lejos de una alternativa factible y permanecer en la configuración actual. También es compatible pronosticar que el futuro del entorno será peor y, aun así, no salir: el pronóstico de permanencia y la distribución de pérdidas de la salida son dos cosas distintas. Permanencia ≠ satisfacción, y una elección local racional ≠ óptimo social.
+
+Se propone una capa **separada y condicionada** sobre dos trayectorias de un actor y un horizonte comparables. Con aversión absoluta al riesgo γ constante, un modelo CARA-normal explícito permite ΔCE=(μ_R−μ_S)−(γ/2)(σ²_R−σ²_S)−C. Aunque el retorno medio esperado al rediseñar R supere el de seguir S y esa ventaja crezca, puede resultar ΔCE<0 si aumenta la dispersión adicional del cambio. No se presupone un aumento psicológico de γ, ni se hace pasar la brecha Gᵀ/Gᴳ por μ_R. En el [estudio acotado RAV-01](studies/risk-aversion-persistence-v0.1/README.md) hay un ejemplo hipotético de vuelta de España a Colombia y controles sintéticos de estabilidad, reversibilidad, riesgo neutral, pronóstico pesimista y salto beneficioso.
+
+
+**Extensión a defensa activa.** Permanecer no implica solo esperar: un actor puede dedicar esfuerzo o recursos a **defender el contrato que también le genera frustración**, por ejemplo reduciendo la dispersión de su propia continuidad. La tercera acción D se contrasta explícitamente con quedarse sin intervenir S y rediseñar R; su coste k y su distribución de resultados se declaran aparte. En el mismo testigo posterior, CE_S=13, CE_R=9 y CE_D=13,25 (defensa que reduce varianza a 1 con k=0,5): D supera ambas. **Si defender cuesta y no cambia resultados ni riesgo, el propio testigo no predice defender**. Esa observación requiere hipótesis rivales, no una defensa automática de la «racionalidad» del statu quo.
+
+Puede definirse L, para **una persona y referencia conjunta legítimamente factible**, como la diferencia positiva entre utilidad cardinal accesible y realizada: una utilidad perdida económicamente reconocible, distinta de F vivido y del sufrimiento estructural conjuntivo ya descrito en el PR #43. L no identificable queda desconocida; no se sustituye por deseo abstracto. El [§8.2 técnico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) y la [comparación con literatura y programa de falsación](studies/risk-aversion-persistence-v0.1/COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md) explican dónde coincide esta combinación con statu quo, opción de esperar, teoría prospectiva, justificación del sistema y aspiraciones; qué predice y qué **no** puede inferirse.
+
+Esta es una hipótesis de comportamiento sobre **riesgo cuantificable**, no una probabilidad del exterior B/C/D, una nueva regla de consentimiento ni un diagnóstico de sufrimiento humano. Su núcleo técnico y falsadores están en [§8.1 del modelo económico](ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md); los rendimientos, no monotonía, Pareto y bloqueos de #42–#45 no se redefinen aquí.
+
 ## Error irreversibilidad y tiempo
 
 Una condición basada en bienestar previsto no garantiza bienestar realizado. El protocolo registra supuestos, error de ambos signos, falsas aprobaciones, falsas denegaciones y oportunidades de revisión.
