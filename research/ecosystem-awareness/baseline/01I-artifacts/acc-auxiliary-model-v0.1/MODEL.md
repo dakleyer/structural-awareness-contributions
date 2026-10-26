@@ -42,6 +42,14 @@ El conjunto n de dimensiones es finito y provisional. Una alternativa domina sob
 
 El protocolo fijará presupuesto de investigación, evidencia mínima y criterio de mejora explicativa fuera del caso que motivó el ajuste. Agotado ese presupuesto sin discriminar mecanismos, el resultado será causa no resuelta. Una dimensión incorporada después se registra como exploración para un contraste nuevo.
 
+### Mecanismo primario de bloqueo: saturación y codependencia
+
+La formulación más elemental del atasco es mecánica: una dimensión que necesita todo su presupuesto de recursos, capacidad de coordinación, continuidad funcional o acceso a crédito no puede ceder aquello que la mantiene operativa. Otra función podría incrementar la producción conjunta, pero necesita la transferencia o liberación de esos inputs. El bloqueo no implica automáticamente egoísmo ni autoridad soberana. Una dimensión económica E/R/C/V es un criterio de evaluación y puede incorporar una restricción realmente necesaria; no se convierte por ello en un actor independiente ni en una categoría A/B/C/D.
+
+Hay casos donde la alternativa conjunta superior es viable, pero los movimientos por separado no lo son: con dos proyectos binarios x_1≤x_2, x_2≤x_1 y utilidades u_1=4+x_1, u_2=4+x_2, (1,1) domina a (0,0), aunque ningún paso unilateral es factible. La negociación, reingeniería y actuación conjunta pueden cambiar la accesibilidad. **Se separan óptimo final técnico, opciones autorizadas y caminos realmente disponibles.** Soberanía, consentimiento, veto y solidaridad libremente elegida se conservan como mecanismos alternativos pertinentes cuando esos derechos y decisiones existen, no como causas universales de toda restricción.
+
+La comparación PARETIANA sigue siendo válida con funciones no monótonas: los agentes pueden tener utilidad creciente, decreciente, con valle por exceso de bienes y nuevo crecimiento tras un umbral comercial. Pareto ordena estados finales; no exige que la utilidad de cada manzana adicional crezca siempre ni que los pasos intermedios mejoren. Linealidad y monotonía son simplificaciones iniciales, no condiciones de pertenencia al modelo. Véase la [formalización matemática y el ejemplo de las manzanas](studies/bounded-traps-v0.1/README.md).
+
 ## Dos hipótesis distintas y retroalimentación de la aceptación
 
 H1 es una simplificación instrumental de linealidad o aditividad, útil sólo cuando las unidades y la agregación lo permiten. H2 es la hipótesis condicionada de que ciertas trayectorias de complejidad añaden dimensiones, interdependencias o condiciones efectivas que dificultan la transición. El mecanismo no depende de H1: monotonía, linealidad y comparación entre personas no son equivalentes.
@@ -107,6 +115,10 @@ Los ensayos de unanimidad y redes fijan supuestos como independencia, q constant
 La expresión q^v describe el caso de consentimientos independientes. Con q = 0,9 y v = 20 da 0,1216; con respuestas perfectamente coincidentes da 0,9. Una prueba debe variar correlación, delegación, sustitución, negociación y gobierno conjunto.
 
 Se separan trabajo por periodo y pérdida acumulada. Una suma creciente no prueba aceleración del flujo; una segunda diferencia positiva describe curvatura y no identifica por sí sola una causa. Un efecto de segundo orden requiere mostrar cómo una decisión cambia reglas, capacidad, crédito, dependencias o decisiones posteriores.
+
+### Crecimiento relativo de la brecha y excepciones
+
+En un toy donde P_actual=b·n y una arquitectura conjunta **factible bajo los mismos recursos y garantías** permite obtener g de ganancia neta por cada una de n(n−1)/2 interacciones, G=g·n(n−1)/2 y G/P_actual=g(n−1)/(2b): el porcentaje de brecha aumenta con n aun mientras crece la producción. Esta posibilidad no prueba que el óptimo contrafactual exista ni que G equivalga a HID, frustración o deuda financiera. Si el acoplamiento efectivo es disperso, la red actual ya obtiene sinergias o la coordinación es competente, el aumento porcentual puede estabilizarse o desaparecer. El [estudio ejecutable de parámetros y contraejemplos](studies/bounded-traps-v0.1/README.md) mantiene estos regímenes separados de 00M B/C/D y de los estudios de medición humana 01K.
 
 ## Dinero garantías opcionalidad y reconocimiento
 

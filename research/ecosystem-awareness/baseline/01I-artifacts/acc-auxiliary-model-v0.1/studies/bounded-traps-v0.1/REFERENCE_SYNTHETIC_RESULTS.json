@@ -1,0 +1,232 @@
+{
+  "scope": "FINITE_SYNTHETIC_ONLY_OPEN_BCD_NOT_QUANTIFIED",
+  "joint_trap": {
+    "evidence": "SYNTHETIC_FINITE_LINEAR_BINARY",
+    "feasible": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "current": [
+      0,
+      0
+    ],
+    "joint_target": [
+      1,
+      1
+    ],
+    "pareto_dominates": true,
+    "reachable_without_joint_transition": false,
+    "reachable_with_joint_transition": true,
+    "transition_mechanism": "ATOMIC_JOINT_SWITCH_REQUIRED",
+    "utility_current": [
+      4.0,
+      4.0
+    ],
+    "utility_target": [
+      5.0,
+      5.0
+    ]
+  },
+  "saturation_no_reallocation": {
+    "feasible": [
+      [
+        0
+      ]
+    ],
+    "project_feasible": false,
+    "source": "SYNTHETIC_RESOURCE_SATURATION"
+  },
+  "saturation_with_reallocation": {
+    "feasible": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "joint_project_feasible": true,
+    "source": "SYNTHETIC_RELEASE_ASSUMED_ACCESSIBLE"
+  },
+  "nonmonotone_apples": {
+    "quantities": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "values": [
+      0,
+      4,
+      7,
+      8,
+      7,
+      5,
+      5,
+      9,
+      10
+    ],
+    "current": 3,
+    "local_non_loss_reachable": [
+      3
+    ],
+    "best_global_quantity": 8,
+    "direct_jump_assumed_available": false,
+    "source": "SYNTHETIC_NONMONOTONE_DISCRETE_UTILITY"
+  },
+  "growth_dense": [
+    {
+      "n": 5,
+      "topology": "dense",
+      "edges": 10,
+      "production_actual": 50,
+      "gap_to_assumed_joint_optimum": 2.0,
+      "production_joint_optimum": 52.0,
+      "gap_over_actual": 0.04,
+      "gap_over_joint_optimum": 0.038461538461538464,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 10,
+      "topology": "dense",
+      "edges": 45,
+      "production_actual": 100,
+      "gap_to_assumed_joint_optimum": 9.0,
+      "production_joint_optimum": 109.0,
+      "gap_over_actual": 0.09,
+      "gap_over_joint_optimum": 0.08256880733944955,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 20,
+      "topology": "dense",
+      "edges": 190,
+      "production_actual": 200,
+      "gap_to_assumed_joint_optimum": 38.0,
+      "production_joint_optimum": 238.0,
+      "gap_over_actual": 0.19,
+      "gap_over_joint_optimum": 0.15966386554621848,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 40,
+      "topology": "dense",
+      "edges": 780,
+      "production_actual": 400,
+      "gap_to_assumed_joint_optimum": 156.0,
+      "production_joint_optimum": 556.0,
+      "gap_over_actual": 0.39,
+      "gap_over_joint_optimum": 0.2805755395683453,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    }
+  ],
+  "growth_sparse": [
+    {
+      "n": 5,
+      "topology": "star",
+      "edges": 4,
+      "production_actual": 50,
+      "gap_to_assumed_joint_optimum": 0.8,
+      "production_joint_optimum": 50.8,
+      "gap_over_actual": 0.016,
+      "gap_over_joint_optimum": 0.015748031496062995,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 10,
+      "topology": "star",
+      "edges": 9,
+      "production_actual": 100,
+      "gap_to_assumed_joint_optimum": 1.8,
+      "production_joint_optimum": 101.8,
+      "gap_over_actual": 0.018000000000000002,
+      "gap_over_joint_optimum": 0.017681728880157174,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 20,
+      "topology": "star",
+      "edges": 19,
+      "production_actual": 200,
+      "gap_to_assumed_joint_optimum": 3.8000000000000003,
+      "production_joint_optimum": 203.8,
+      "gap_over_actual": 0.019000000000000003,
+      "gap_over_joint_optimum": 0.018645731108930325,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 40,
+      "topology": "star",
+      "edges": 39,
+      "production_actual": 400,
+      "gap_to_assumed_joint_optimum": 7.800000000000001,
+      "production_joint_optimum": 407.8,
+      "gap_over_actual": 0.019500000000000003,
+      "gap_over_joint_optimum": 0.01912702305051496,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    }
+  ],
+  "growth_realized_pair_synergy": [
+    {
+      "n": 5,
+      "topology": "dense",
+      "edges": 10,
+      "production_actual": 55.0,
+      "gap_to_assumed_joint_optimum": 2.0,
+      "production_joint_optimum": 57.0,
+      "gap_over_actual": 0.03636363636363636,
+      "gap_over_joint_optimum": 0.03508771929824561,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 10,
+      "topology": "dense",
+      "edges": 45,
+      "production_actual": 122.5,
+      "gap_to_assumed_joint_optimum": 9.0,
+      "production_joint_optimum": 131.5,
+      "gap_over_actual": 0.07346938775510205,
+      "gap_over_joint_optimum": 0.06844106463878327,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 20,
+      "topology": "dense",
+      "edges": 190,
+      "production_actual": 295.0,
+      "gap_to_assumed_joint_optimum": 38.0,
+      "production_joint_optimum": 333.0,
+      "gap_over_actual": 0.1288135593220339,
+      "gap_over_joint_optimum": 0.11411411411411411,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    },
+    {
+      "n": 40,
+      "topology": "dense",
+      "edges": 780,
+      "production_actual": 790.0,
+      "gap_to_assumed_joint_optimum": 156.0,
+      "production_joint_optimum": 946.0,
+      "gap_over_actual": 0.19746835443037974,
+      "gap_over_joint_optimum": 0.1649048625792812,
+      "status": "MODEL_ASSUMPTION_NOT_VERIFIED_OPTIMUM_OR_HID"
+    }
+  ]
+}
