@@ -67,3 +67,17 @@ La siguiente campaña deberá predefinir y comparar **A-only convencional**, **m
 - [01K-A01 medición humana](../../../01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md)
 
 **Estatus final del corte:** `READY_FOR_STACKED_PR_REVIEW`; `NOT_MAIN_MERGE`; `NOT_EMPIRICALLY_VALIDATED`; `CENTRAL_EA_HID_HYPOTHESIS_NOT_YET_TESTED`.
+
+
+## 8. Addenda de integración comprobada (26-10-2026)
+
+**Esta sección actualiza el estado operativo del corte inicial; las conclusiones y límites científicos anteriores siguen vigentes.**
+
+1. **Integración:** la PR [#40](https://github.com/dakleyer/structural-awareness-contributions/pull/40) fue fusionada exclusivamente en la rama investigadora de la [PR #28](https://github.com/dakleyer/structural-awareness-contributions/pull/28), mediante merge commit `b86e416c9d6d4bf799b2b5a404f1ec09c532f64c`. El adaptador UC21–DDS ya pertenecía a #28 por el commit `7df274b00241cce4754d9c0c15e98f7ef9c1ba25`.
+2. **Hueco de CI detectado:** inicialmente el workflow sólo ejecutaba `test_toy.py` y el puente UC21, por lo que el éxito de CI de #40 no acreditaba la ejecución de sus 18 pruebas HID/ABCD ni sus 19 pruebas causales. Se añadieron ambos pasos al workflow en `388e9fa0348f40e9f4795fdd01eea6b0f5fd0d72`.
+3. **Defecto de integración encontrado y corregido:** las pruebas causales referían los nombres locales `bridge_core` y `bridge_scenario.json`, pero la PR publicaba `bridge.py` y `scenario.json`. El primer CI ampliado [falló de forma efectiva](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40271548033). Se corrigieron los dos nombres en `4b43860907067284c7e1bb9e33e98c1370fdf36e`, sin alterar los motores económicos.
+4. **CI conjunta verificada:** [run 40271624194](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40271624194), estado `success`. Los registros muestran **34/34** del toy original, **18/18** de óptimos HID/ABCD, **19/19** de AG/IF/obligaciones y **70/70** del puente UC21–DDS; también pasan los controles documentales y de preservación histórica.
+5. **Alcance de promoción:** el paquete está listo para incorporación **como instrumento ejecutable y documentación de investigación**. La integración no cambia los protocolos canónicos/fijados de 00M, 01K, UC21 o DDS, ni autoriza atribuir eficacia real a Ecosystem Awareness, medir sufrimiento únicamente por HID o declarar demostrada la superioridad de una respuesta. Es admisible publicar el instrumento con el estatus de evidencia sintética que sus documentos ya declaran.
+6. **Pendientes científicos y editoriales:** revisión independiente de significado y sensibilidad; verificación de equivalencia real de recursos/servicio/derechos; coste completo de cualificación y mejor comparador convencional; observación humana según 01K-A01; campaña HID2; ejecuciones UC21/DDS de producto real con evidencia externa; estudio de bienestar/sufrimiento aparte del HID; y evaluación pre-registrada de si la solidaridad voluntaria supera los requisitos en un caso concreto.
+
+**Decisión actualizada:** `INTEGRATED_IN_PR28 / AUTOMATED_QA_PASS / RESEARCH_INSTRUMENT_READY / NOT_EMPIRICALLY_VALIDATED`. La decisión sobre merge de #28 a `main` se adopta como **promoción del instrumento de investigación**, no de las hipótesis como hecho establecido.
