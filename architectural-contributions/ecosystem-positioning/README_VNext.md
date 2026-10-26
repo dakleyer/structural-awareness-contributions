@@ -3086,3 +3086,58 @@ The source-owned plan is:
 **Decision requested later:** select exact TAX26 pairs for source promotion. They are **PROPOSED, NOT APPLIED**. Before any promotion, bind the current old passage again, preserve its predecessor, check affected consumers and apply only the selected complete new passage. On acceptance, retire its pending card to a concise applied receipt with immutable history. The separate AP3-09 workflow decision and all unresolved scientific/native-conformance work retain their current states. No hourly continuation is created.
 
 **Publication dependency checked.** The existing historical-citation manifest binds the entire 04 VNext text, including these new append-only observations. This publication refreshes only that entry's normalized source-text SHA256 after verifying the old source is an exact prefix, the same two historical PUBLICATION_MANIFEST citations remain, and the receiver hash/path and every other qualification stay unchanged. The checker/helper and all its rules are unchanged. This is custody metadata for the audit addition, not an applied TAX26 candidate or an exception for new links.
+
+
+## Corpus and daily PR audit — 26 October 2026
+
+This review covers the current repository and all 21 PRs created or merged on 26 October (Europe/Madrid), plus older open5/18 updated that day. Baseline main is 3e58fc6997a439b9783fd6b92ccee3f4292772dd; the daily first-parent predecessor is4256d68bd82d67630fc33225ce54d1f7f81f518b. It also includes the direct Panodyssey commit outside the PR list. The exercise checks actual deltas, reading/evidence claims and receiving paths; it does not repeat every historical scientific proof.
+
+**Overall:** document custody and navigation have been preserved, while scientific and numerical questions remain. Main grew from2,427 to 2,620 paths:193 added, none deleted, no mode change,31 existing files changed. No new active VNext was created; the four new filenames containing VNext are authentic old-text snapshots. The ACC profile/01K changes are bounded navigation additions, not normative replacement.
+
+| Finding | Severity | Object | What matters |
+| --- | --- | --- | --- |
+| D26-F01 | High | PR45 / current main | An empty bound can be classified as supported true |
+| D26-F02 | Medium | PR22 / merged | One reproducibility environment did not run |
+| D26-F03 | High interpretive | PR48/49,54,57 | Synthetic results do not establish measured comparator performance |
+| D26-F04 | Medium | PR44 / current main | Two paths use different cost boundaries |
+| D26-F05 | Medium | PR53 / merged | Two versioned heading anchors disappeared |
+| D26-F06 | Medium reporting | PR56 / open | My earlier no-new-broken-routes summary was too broad |
+| D26-F07 | Informational/control | Direct main commit d5f7cd6 | PR-only audit misses a real change |
+
+The [ACC owner review](../../research/ecosystem-awareness/baseline/01I_VNext.md#daily-pr-audit--acc-and-conscientia) holds the reproduced numerical counterexample, source/evidence limits and exact code candidate. The [DDS review](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#daily-pr-audit--dds-reader-compatibility) holds the two complete heading-anchor proposals. The [document-control audit](../../governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#daily-pr-audit--publication-and-check-coverage) records environment coverage, retirement custody and the corrected full-PR link scope.
+
+### PR-by-PR disposition
+
+| PR | Status at cutoff | Audit assessment |
+| --- | --- | --- |
+| [#5](https://github.com/dakleyer/structural-awareness-contributions/pull/5) | Open draft | Historical-lineage proposal remains open/draft; no adoption into current 00M. Review source-native versus current meanings before any promotion. |
+| [#18](https://github.com/dakleyer/structural-awareness-contributions/pull/18) | Open | Open older article/register proposal; not merged. Preserve its candidate register and existing source-owned reviews; merging is not authorized by this audit. |
+| [#21](https://github.com/dakleyer/structural-awareness-contributions/pull/21) | Merged today | Campaign package is a documentary, proposed Theme23 scenario. Registry/index changes and new assets retained; no native product result established. |
+| [#22](https://github.com/dakleyer/structural-awareness-contributions/pull/22) | Merged today | Only 00M VNext expands; current 00M/00N definitions stay unchanged. Hypotheses/type distinctions retained. Python3.9 reproducibility job did not execute. |
+| [#28](https://github.com/dakleyer/structural-awareness-contributions/pull/28) | Merged today | Source books and bounded model installed;01I/01K receive navigation additions, not normative body replacement. Historical-link helper is a real checker change, not a zero-diff source. |
+| [#40](https://github.com/dakleyer/structural-awareness-contributions/pull/40) | Merged today | Stacked into28 before main. Direct-vector HID toy and causal bridges remain separate from human 01K measurement; do not double-count28/40 as independent evidence. |
+| [#42](https://github.com/dakleyer/structural-awareness-contributions/pull/42) | Merged today | Finite feasibility/coordination trap and stipulated utility examples; no empirical frequency or strategic equilibrium demonstrated by those fixtures. |
+| [#43](https://github.com/dakleyer/structural-awareness-contributions/pull/43) | Merged today | Fibres/counting bounds are valid in their finite setting; demand censoring supplies the displayed ambiguity, not nesting by itself. |
+| [#44](https://github.com/dakleyer/structural-awareness-contributions/pull/44) | Merged today | Public planner is separated from private scoring; cost boundary differs between policy and public-planning paths (F04). |
+| [#45](https://github.com/dakleyer/structural-awareness-contributions/pull/45) | Merged today | Scoped Lipschitz inference found a concrete empty-interval false support (F01). Rationale/mathematics do not immunize its numerical implementation. |
+| [#46](https://github.com/dakleyer/structural-awareness-contributions/pull/46) | Merged today | CARA/normal certainty-equivalent formulas are explicitly conditional; no probability over open C/D or observed human distress follows. |
+| [#47](https://github.com/dakleyer/structural-awareness-contributions/pull/47) | Merged today | Claim ladder and UC21 bridge remain synthetic/documentary; source role, permission and Stage A/C distinctions preserved. |
+| [#48](https://github.com/dakleyer/structural-awareness-contributions/pull/48) | Merged today | 60 designed cases/300 decisions. Input verdicts and prices are stipulated; comparison is conditional fixture scoring (F03). |
+| [#49](https://github.com/dakleyer/structural-awareness-contributions/pull/49) | Merged today | Extends 48 within the same campaign with worked microcases and references. Not independent replication; reference JSON extension is visible and reproducible. |
+| [#50](https://github.com/dakleyer/structural-awareness-contributions/pull/50) | Merged today | Dated promotion review of its 11 PR scope, not later54/57 or whole scientific validation. Broader pending work remains open. |
+| [#51](https://github.com/dakleyer/structural-awareness-contributions/pull/51) | Merged today | Source-specific distinctions clarified with authentic old snapshots; no normative 00M/01K redefinition. Concept edits retain authored working-model role. |
+| [#52](https://github.com/dakleyer/structural-awareness-contributions/pull/52) | Merged today | Applied AP3 cards retire to linked complete immutable pre-application cards; operative policy clauses and separate AP3-09 decision remain. No code/workflow rollback. |
+| [#53](https://github.com/dakleyer/structural-awareness-contributions/pull/53) | Merged today | Localized wording clarifies readiness, reading burden and intake; reviewers remain unassigned. Two H1 anchor aliases are missing (F05). |
+| [#54](https://github.com/dakleyer/structural-awareness-contributions/pull/54) | Open | Open synthetic worked-case extension;8 network sweep cells overlap 49. Case arithmetic and regression success are not independent empirical evidence. |
+| [#55](https://github.com/dakleyer/structural-awareness-contributions/pull/55) | Merged today | Published case review and9literal source pairs retained; proposed source corrections, not canonical adoptions. Orthogonality rationale is refined in open56. |
+| [#56](https://github.com/dakleyer/structural-awareness-contributions/pull/56) | Open draft | 32 observation/10 idea board stays open. Whole-PR snapshot link context is clarified by F06 in head 4da68127944a4e0d89c25b6759bd4b1447ec22f7; no source proposal applied. |
+| [#57](https://github.com/dakleyer/structural-awareness-contributions/pull/57) | Open | Open agentic reduction with strong-peer parity/negative cases and new mathematical annex. P1/P2/P4 are conditional/standard arguments; Rxx primary-source/edition reuse is not independently certified by this audit. |
+| [#58](https://github.com/dakleyer/structural-awareness-contributions/pull/58) | Open draft | Useful incremental challenge, with pinned scope and AI attribution. Core/high-level limitations substantially supported; code45 numerical boundary and 22 environment failure were not covered. Its findings do not close all later/older models. |
+
+### Preservation and receiving-route result
+
+The whole-day GFM comparison over1,069→1,164Markdown introduces no new missing file/fragment and no newly unreachable file. Two H1 slugs changed in DDS review packets; their compatibility proposals are in the owning review. The raw historical inventory still has3,455 unresolved source-relative path occurrences and17fragment occurrences, largely in relocated snapshots. Four current-location historical quotations are explicitly qualified by the repository manifest; one bare URL is split at a frozen source-part boundary. These counts are not3,455 current canonical failures and are not hidden by the no-new-regression statement.
+
+Each of the four open new PRs was checked as a merge preview against current main, preserving intervening audit work. PR54/57/58 add no missing local routes/fragments. PR56 adds three unresolved relative strings only in its exact CONTRIBUTING custody copy; its original root-location route remains available and the board/PR summary correction is published at 4da68127944a4e0d89c25b6759bd4b1447ec22f7. No snapshot is rewritten to satisfy a scanner.
+
+All 21 current PRheads have published checks. PR22 has a failed Python3.9 setup job; a green documentary job does not erase it. Main and the other reviewed heads retain their observed checks. No new research campaign, source edit, workflow/configuration change or merge is authorized by this audit. The three source candidates below remain pending selection; full-source science and owner decisions remain distinct from documentary verification.

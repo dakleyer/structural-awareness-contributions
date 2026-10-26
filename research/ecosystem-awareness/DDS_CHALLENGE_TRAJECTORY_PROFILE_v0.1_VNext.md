@@ -19144,3 +19144,50 @@ Describe the evidence basis (documentary, analytical, mathematical, virtual/symb
 ````
 
 **Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+
+## Daily PR audit — DDS reader compatibility
+
+PR21 adds a documentary Theme23candidate/campaign route; it does not establish a native result. PR22 adds proposed00M context/composition work in its existing VNext, not an adopted definition. PR53 clarifies review-readiness, effort, intake and unassigned reviewers; its two versioned H1 titles change previously available fragment IDs. No existing internal edge points at those old H1 slugs, so this is external-bookmark compatibility work, not an observed internal disconnection.
+
+### D26-C02 — Retain the previous packet-title anchor
+
+**State:** proposed, not applied. **Priority:** Next. **Expected impact:** Medium (stable external/bookmarked entry). **Risk:** Low (additive anchor only). **Effort:** Low, including GFM/fragment check. **Source/location:** [research/ecosystem-awareness/review-packets/DDS-MR-01/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/review-packets/DDS-MR-01/README.md), first heading. No wording, version or scientific gate changes. Owner selection is still required.
+
+**Text before — complete existing heading:**
+
+````markdown
+# DDS-MR-01 — Independent DDS Methodology Audit: R1/R2/R3 (v0.3.1)
+````
+
+**Text after — complete proposed replacement:**
+
+````markdown
+<a id="dds-mr-01--independent-dds-methodology-audit-r1r2r3-v03"></a>
+
+# DDS-MR-01 — Independent DDS Methodology Audit: R1/R2/R3 (v0.3.1)
+````
+
+**Acceptance:** match this heading once, retain every other byte and both old/new entry fragments, and verify incoming routes. No packet source is edited by this proposal.
+
+### D26-C03 — Retain the previous packet-title anchor
+
+**State:** proposed, not applied. **Priority:** Next. **Expected impact:** Medium (stable external/bookmarked entry). **Risk:** Low (additive anchor only). **Effort:** Low, including GFM/fragment check. **Source/location:** [research/ecosystem-awareness/review-packets/DDS-S2-EA-01/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/review-packets/DDS-S2-EA-01/README.md), first heading. No wording, version or scientific gate changes. Owner selection is still required.
+
+**Text before — complete existing heading:**
+
+````markdown
+# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.1)
+````
+
+**Text after — complete proposed replacement:**
+
+````markdown
+<a id="dds-s2-ea-01--independent-s2-mobility--ecosystem-awareness-requirements-review-v02"></a>
+
+# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.1)
+````
+
+**Acceptance:** match this heading once, retain every other byte and both old/new entry fragments, and verify incoming routes. No packet source is edited by this proposal.
+
+The direct Panodyssey publication also adds a presentation reading layer while preserving the ten source mirrors and their manifest. It remains a documentary/pending-execution route; presentation views must not replace source citations or imply inherited DDS/UC4 PASS. No campaign or hierarchy is reorganized here.

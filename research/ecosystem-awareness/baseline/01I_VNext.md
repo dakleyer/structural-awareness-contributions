@@ -76,3 +76,48 @@ The [package reader](./01I-artifacts/acc-auxiliary-model-v0.1/README.md) links i
 ## ACC auxiliary model audit corrections and first bounded study
 
 Iván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.
+
+
+## Daily PR audit — ACC and Conscientia
+
+Read the [cross-corpus daily scope](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-and-daily-pr-audit--26-october-2026). This is source- and code-specific AI-assisted review of the bounded ACC artefact and its extensions; it does not change normative ACC,00M,01K, frozen outcomes or code.
+
+### D26-F01 — Empty numerical bounds can produce positive support
+
+**Source:** [research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/metacognition.py](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/metacognition.py), qualify; blob b8b162dfd3112880a4258a2e8a37ea672e075a74. An isolated deterministic contract check used a qualified frame with domain [0,0], Lipschitz constant 0, current matching versions and two source-attested point intervals: [1e-13,1e-13] and [0,0], both at x=0. Threshold=5e-14. The intersection is empty, but the current 1e-12 inconsistency tolerance allows LOCALLY_SUPPORTED_TRUE with returned bounds [1e-13,0]. A wider contradiction [1,0] returns EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT; either consistent single witness retains its ordinary result. All inputs satisfy the published finite/type constructors.
+
+**Consequence:** this is a real bounded implementation defect, not a disproof of Lipschitz inference,00M or the whole model. A supported answer cannot be justified by an empty interval. Existing green regression checks do not cover this boundary.
+
+### D26-C01 — Reject an empty intersection before deciding
+
+**State:** proposed, not applied. **Priority:** First. **Expected impact:** High (correct false positive local support). **Risk:** Medium (numerical tolerance policy may affect near-boundary consumers). **Effort:** Low for the pair and isolated check; regression/frozen-result review is part of acceptance. **Location:** qualify, immediately after lo/hi computation. **Decision needed:** select exact rejection semantics or a justified outward-rounding/uncertainty policy; do not silently treat inconsistent evidence as true.
+
+**Text before — literal complete affected block:**
+
+````python
+    if lo > hi + 1e-12:
+        return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
+````
+
+**Text after — complete proposed block:**
+
+````python
+    if lo > hi:
+        return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
+````
+
+**Verification:** old block matches exactly once in current main; candidate Python parses. Isolated in-memory checks reject both small/large contradictions and preserve the consistent positive/negative results. Require regression cases for the small contradiction, larger contradiction, consistent data and threshold boundaries, then compare existing frozen results without overwriting them. No source code or result is changed by publishing this pair.
+
+### D26-F04 — Clarify cost ledgers before an economic comparison
+
+In intrinsic-abcd-economics-v0.1, the same expired B gives policy(B_QUALIFIED) information cost 1.5/net −1.5, but receiver_decision returns estimated cost 0/net 0. The latter models declining acquisition; the former charges an already supplied qualification even on rejection. Both decisions refuse a stale claim. The question is accounting scope, not a demonstrated false authorization. Preserve paid preparation/issuance/transport/review/maintenance separately from optional future acquisition; specify which ledger each comparison uses before ranking benefit. A code change is premature until that boundary is chosen.
+
+### Scientific reading of PR48/49/54/57/58
+
+Direct JSON tabulation confirms 60 Conscientia cases, 48 adjudicable cases, all 48 conventional-peer verdicts correct by stipulation, 12 false-Q cases and 4 false-Q cases whose independent_audit flag is true. The code copies instrument verdicts from those inputs. This is useful conditional/negative-control specification evidence; it does not measure an independently implemented instrument or audit. The register has 23 source entries; earlier 17/19 counts should be qualified by edition and actual reading, not equated with independent observations.
+
+In PR57, Q_META_PROTOCOL and CONVENTIONAL_EQUIVALENT_Q share the decision branch. At equal information/price/permissions parity is built into that implementation. Its 160 cell sweep compares three arms, excluding the equivalent-Q arm; 107/14/39 describe that selected grid, not market probabilities or six-arm exclusive wins. The new mathematical annex correctly distinguishes finite fibre/decision-capacity results from actual availability, truth, net value and exclusive agentic superiority. Its external Rxx source/version reuse needs its own source inspection; no blanket certification is inferred here.
+
+PR54 contains worked synthetic cases and regression-checked arithmetic, not observations of people/products. Eight network sweep cells overlap 49; retain their lineage rather than delete them or count them as independent evidence. A conditional mathematical/example result is still useful; asking it to estimate a real effect requires a different protocol. PR58 is a useful AI-assisted challenge, not independent human validation or coverage of all core/prior/later work. Its suggested remedies also need evaluation: a new fixture proving its own rule cannot fix empirical identification, and a stipulated h-per-arm difference would still need measurement.
+
+The 42/43 feasibility trap, utility examples and fibre counts support their stated finite constructions. The shown loss is already caused by demand censoring; the nested aggregation does not itself identify a new empirical mechanism. The 46 CARA/normal formulas are conditional on characterized lotteries, not probabilities over unknown C/D. Full subjective suffering, human HID and production deployment remain separate claims. Preserve these examples, negative cases and disagreements while narrowing any expansive presentation.
