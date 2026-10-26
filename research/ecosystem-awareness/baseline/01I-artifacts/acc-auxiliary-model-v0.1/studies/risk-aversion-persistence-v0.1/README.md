@@ -78,7 +78,7 @@ CE_D=μ_D−(γ/2)σ²_D−k
 D > S si (μ_D−μ_S)+(γ/2)(σ²_S−σ²_D)>k
 ~~~
 
-En el **mismo corte posterior**, S=(14,4), CE=13; R=(25,64), CE=9; D=(14,1), k=0,5, CE_D=13,25. En este testigo se **defiende activamente** el contrato, aun reconociendo un resultado medio mayor de R, el F sintético creciente y un mal pronóstico del próximo periodo. **D que no cambie ni media ni varianza y cueste dinero está dominada por S**; la resistencia observada en ese control sería evidencia en favor de otra explicación, no de la nuestra.
+En el **mismo corte posterior**, S=(14,4), CE=13; R=(25,64), CE=9; D=(14,1), k=0,5, CE_D=13,25. En este testigo se **defiende activamente** el contrato, aun reconociendo un resultado medio mayor de R, el F sintético creciente y un mal pronóstico del próximo periodo. **D que no cambie la media ni la varianza de la utilidad total** (no solo el dinero), y cueste k>0, está dominada por S dentro del criterio declarado. Si D se elige pero solo se han medido ingresos, hay que comprobar primero afecto, cuidado, reputación, identidad u otros argumentos de utilidad antes de declarar que el modelo económico ha fallado. **Contracontrol:** con el mismo resultado material S=(14,4), una utilidad intrínseca de cuidado +1 en D y coste k=0,5 da D total=(15,4), CE_D=13,5 > CE_S=13, sin protección adicional ni mecanismo no isomórfico demostrado.
 
 Es distinto constatar un sufrimiento vivido **F** de reconocer que, para **esta persona y un mismo horizonte**, una alternativa **conjunta y legítimamente factible** podría ofrecer mayor utilidad cardinal: **L=max(0,u_factible−u_realizada)**. L es una **pérdida económica contrafactual de utilidad**; llamarla «sufrimiento económico» es una convención operacional que **no valida automáticamente** sufrimiento subjetivo. La asociación de L reconocido con F reportado es hipótesis empírica abierta. Si la factibilidad no está acreditada, L es **NOT_IDENTIFIED**. No equipararla con Gᵀ/Gᴳ, HID ni el sufrimiento estructural conjuntivo del PR #43. En el escenario sintético se estipula utilidad realizada 17, referencia factible 21 y L=4; no se han identificado esas magnitudes para personas reales.
 
@@ -93,7 +93,7 @@ Es distinto constatar un sufrimiento vivido **F** de reconocer que, para **esta 
 | Rediseño reversible/protegido | Medias, γ | Menor Var(R) y/o menor C | Puede volverse preferible R |
 | Retorno esperado mucho mayor | Varianzas, γ y C | Aumentar μ_R | Se invierte preferencia |
 | Pronóstico actual negativo | Horizonte y escala | μ_S futura por debajo del resultado actual | Permanencia sigue siendo posible, no necesaria |
-| Defensa costosa sin protección | Misma μ_D=μ_S y Var(D)=Var(S), k>0 | D dominada por S | Si D se elige aun así, buscar mecanismos fuera del riesgo económico simple |
+| Defensa sin beneficio en **utilidad total** | Misma μ_D=μ_S y Var(D)=Var(S) del resultado total; k>0 y sin otra diferencia factible | D dominada por S | Si se elige, revisar utilidad/creencias/derechos omitidos antes de postular otro mecanismo |
 | Defensa protectora | γ, μ_S, R, costes y unidad | Reducir Var(D) lo suficiente con k observable | Puede elegirse D y no solo S, pero no garantiza eficiencia social |
 | Utilidad perdida factible | Referencia personal y derechos/recursos equiparados | Elevar L reconocida sin cambiar automáticamente F | Medir F aparte; sin contrafactual válido L queda NOT_IDENTIFIED |
 | Ganancias netas y malestar | B y F independientes | F crece con curvatura, B lo supera por intervalos | W puede seguir aumentando; no es identidad universal |
@@ -109,10 +109,10 @@ Para afirmar *causalidad* del tamaño de la cordillera sobre permanencia hacen f
 ## 6. Reproducción y propiedad
 
 - [risk_model.py](risk_model.py): módulo estándar puro (sin paquetes externos) con resultados esperados, equivalentes ciertos, prima de riesgo, utilidad individual factible perdida, tercera defensa D, logit binario y softmax ternario opcionales, y validación de parámetros.
-- [test_risk_model.py](test_risk_model.py): **40 pruebas deterministas** de identidades, permanencia, defensa activa, contrapruebas de defensa inútil, utilidad contrafactual no identificada y controles favorables a salir.
+- [test_risk_model.py](test_risk_model.py): **43 pruebas deterministas** de identidades, permanencia, defensa activa, contrapruebas de defensa inútil, utilidad contrafactual no identificada, controles favorables a salir y tres controles de reducción (afecto como utilidad, bonificación específica por acción y límite de media-varianza sin normalidad).
 - [REFERENCE_SYNTHETIC_RESULTS.json](REFERENCE_SYNTHETIC_RESULTS.json): salida reproducible marcada como `SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL`.
 - [COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md](COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md): comparación crítica con ocho obras primarias, alcance, no predicciones, matriz factorial 2×2×2 y falsadores.
-- [EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md](EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md): programa **propuesto, no ejecutado** de extensiones con correspondencia isomórfica/no isomórfica: validación social, compromiso y vínculos personales, agentes computacionales sensibles al riesgo, campos y falsadores por disciplina. No cambia el testigo ni hereda evidencia automáticamente.
+- [EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md](EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md): programa **propuesto, no ejecutado** y **auditoría de reducción U0–U6**: antes de afirmar no isomorfismo para validación social, afecto, compromiso o agentes computacionales exige modelar utilidad total, comparar distribuciones y probar exactamente qué predicado se pierde. Incluye lemas formales, contraejemplos, mapas condicionados y falsadores por disciplina. No cambia el testigo histórico ni hereda evidencia automáticamente.
 
 Ejecutar desde la raíz del repositorio:
 
