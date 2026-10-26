@@ -60,6 +60,21 @@ jobs:
       - name: Check 00M-ACC-UC21 scoped claim ladder (no new UC21 oracle)
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/00m-acc-uc21-bridge-v0.1 -p test_claim_ladder.py -v
 
+      - name: Check Conscientia campaign (synthetic, source-traced, replay prior PR models)
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p test_campaign.py -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/verify_campaign.py /tmp/conscientia_full_execution.json
+          python -B -m json.tool /tmp/conscientia_full_execution.json >/dev/null
+
+      - name: Publish Conscientia synthetic results (not DDS Stage C)
+        uses: actions/upload-artifact@v4
+        with:
+          name: conscientia-campaign-synthetic-results
+          path: |
+            /tmp/conscientia_full_execution.json
+            /tmp/conscientia_full_execution.md
+          retention-days: 30
+
       - name: Check optimum-derived HID and matched ABCD synthetic tests
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_hid_optimum.py -v
 
