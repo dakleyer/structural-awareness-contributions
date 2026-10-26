@@ -51,6 +51,46 @@ class RiskChoice:
 
 
 @dataclass(frozen=True)
+class DefencePolicy:
+    """D=active defense of S, with its own auditable outcome and real private cost.
+
+    defended_stay and RiskChoice.stay must use the same actor, numeraire and
+    horizon. A separate defense cost must not already be in defended_stay.mean.
+    This represents risk-reducing action, not proof that ideological defense
+    benefits society or respects third-party rights.
+    """
+
+    defended_stay: RiskOutcome
+    effort_cost: float
+
+    def __post_init__(self) -> None:
+        if not isinstance(self.defended_stay, RiskOutcome):
+            raise ValueError("defended_stay must be a RiskOutcome")
+        _finite_number(self.effort_cost, "effort_cost", minimum=0.0)
+
+
+def foregone_utility_gap(
+    actual: float, feasible_reference: float | None, *, justified_reference: bool
+) -> float | None:
+    """Economic counterfactual shortfall for ONE actor on a common utility scale.
+
+    Caller must have independently verified a comparable, jointly feasible,
+    rights-respecting reference. Unknown reference -> None (NOT zero).
+    This is not an observation of distress F or the structural suffering S_struct
+    defined by the other ACC study, and is not a social aggregate.
+    """
+    _finite_number(actual, "actual utility")
+    if not isinstance(justified_reference, bool):
+        raise ValueError("justified_reference must be boolean")
+    if not justified_reference:
+        return None
+    if feasible_reference is None:
+        raise ValueError("identified feasible reference required when justified")
+    _finite_number(feasible_reference, "feasible reference utility")
+    return max(0.0, feasible_reference - actual)
+
+
+@dataclass(frozen=True)
 class WelfareSnapshot:
     """Synthetic independent F input, NOT inferred from a structural gap G."""
 
@@ -118,11 +158,60 @@ def exit_probability(choice: RiskChoice) -> float:
     return ez / (1.0 + ez)
 
 
+def defense_advantage_over_stay(choice: RiskChoice, defense: DefencePolicy) -> float:
+    """CE(D)-CE(S); only with a *real* improvement to the actor's distribution."""
+    return (
+        certainty_equivalent(defense.defended_stay, choice.gamma)
+        - defense.effort_cost
+        - certainty_equivalent(choice.stay, choice.gamma)
+    )
+
+
+def policy_certainty_equivalents(
+    choice: RiskChoice, defense: DefencePolicy
+) -> dict[str, float]:
+    """Comparable CE values for the three mutually exclusive actions."""
+    values = {
+        "STAY": certainty_equivalent(choice.stay, choice.gamma),
+        "REDESIGN": certainty_equivalent(choice.redesign, choice.gamma) - choice.transition_cost,
+        "DEFEND_STAY": certainty_equivalent(defense.defended_stay, choice.gamma) - defense.effort_cost,
+    }
+    if not all(math.isfinite(value) for value in values.values()):
+        raise ValueError("non-finite adjusted certainty equivalent")
+    return values
+
+
+def preferred_with_defense(
+    choice: RiskChoice, defense: DefencePolicy, *, tolerance: float = 1e-10
+) -> str:
+    """Choose one of S, R, D or TIE; no empirical behavioral identification."""
+    _finite_number(tolerance, "tolerance", minimum=0.0)
+    values = policy_certainty_equivalents(choice, defense)
+    best = max(values.values())
+    winners = [name for name, value in values.items() if best - value <= tolerance]
+    return winners[0] if len(winners) == 1 else "TIE"
+
+
+def three_way_choice_probabilities(
+    choice: RiskChoice, defense: DefencePolicy
+) -> dict[str, float]:
+    """Optional EV1 softmax for choice among S, R and D, NOT success odds."""
+    values = policy_certainty_equivalents(choice, defense)
+    scaled = {name: choice.choice_sensitivity * value for name, value in values.items()}
+    if not all(math.isfinite(value) for value in scaled.values()):
+        raise ValueError("non-finite logit score")
+    largest = max(scaled.values())
+    weights = {name: math.exp(value - largest) for name, value in scaled.items()}
+    total = sum(weights.values())
+    return {name: weight / total for name, weight in weights.items()}
+
+
 def declared_examples() -> dict:
     """Exactly one numeric family of cases; no calibrated population statements."""
     gamma = 0.5
     early = RiskChoice(RiskOutcome(10.0, 4.0), RiskOutcome(16.0, 36.0), gamma)
     late = RiskChoice(RiskOutcome(14.0, 4.0), RiskOutcome(25.0, 64.0), gamma)
+    defense = DefencePolicy(RiskOutcome(14.0, 1.0), effort_cost=0.5)
     welfare = [
         WelfareSnapshot(12.0, 2.0),
         WelfareSnapshot(20.0, 6.0),
@@ -147,6 +236,24 @@ def declared_examples() -> dict:
         "fixed_gamma": gamma,
         "early": read(early),
         "late": read(late),
+        "late_with_active_defense": {
+            "stay_ce": certainty_equivalent(late.stay, gamma),
+            "redesign_ce": certainty_equivalent(late.redesign, gamma) - late.transition_cost,
+            "defend_stay_ce_after_effort": certainty_equivalent(defense.defended_stay, gamma) - defense.effort_cost,
+            "defense_net_ce_advantage_over_passive_stay": defense_advantage_over_stay(late, defense),
+            "preferred": preferred_with_defense(late, defense),
+            "three_way_choice_probabilities_postulated_logit": {
+                k: round(v, 6) for k, v in three_way_choice_probabilities(late, defense).items()
+            },
+        },
+        "matched_feasible_reference_example": {
+            "actual_utility": 17.0,
+            "verified_feasible_reference_utility": 21.0,
+            "economic_foregone_utility": foregone_utility_gap(17.0, 21.0, justified_reference=True),
+            "empirical_feasibility": "STIPULATED_FOR_TOY_ONLY",
+            "subjective_distress": "NOT_IDENTIFIED",
+            "structural_suffering": "NOT_IDENTIFIED",
+        },
         "stipulated_welfare_trajectory": [
             {"gross_benefit_excluding_discomfort": w.gross_benefit_excluding_discomfort,
              "stipulated_discomfort": w.stipulated_discomfort, "net_welfare": w.net_welfare}
