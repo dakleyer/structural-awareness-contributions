@@ -23,6 +23,26 @@
   "late_current_net_welfare": 17.0,
   "late_stay_future_expected_outcome": 14.0,
   "late_stay_future_forecast_below_current": true,
+  "late_with_active_defense": {
+    "defend_stay_ce_after_effort": 13.25,
+    "defense_net_ce_advantage_over_passive_stay": 0.25,
+    "preferred": "DEFEND_STAY",
+    "redesign_ce": 9.0,
+    "stay_ce": 13.0,
+    "three_way_choice_probabilities_postulated_logit": {
+      "DEFEND_STAY": 0.557704,
+      "REDESIGN": 0.007955,
+      "STAY": 0.434341
+    }
+  },
+  "matched_feasible_reference_example": {
+    "actual_utility": 17.0,
+    "economic_foregone_utility": 4.0,
+    "empirical_feasibility": "STIPULATED_FOR_TOY_ONLY",
+    "structural_suffering": "NOT_IDENTIFIED",
+    "subjective_distress": "NOT_IDENTIFIED",
+    "verified_feasible_reference_utility": 21.0
+  },
   "observed_human_suffering": "NOT_MEASURED",
   "outside_probabilities": "NOT_IDENTIFIED",
   "scope": "NORMAL_CARA_FINITE_LOTTERIES_ONLY_NO_ABCD_EXTERIOR_PROBABILITIES",
