@@ -56,8 +56,10 @@ class DefencePolicy:
 
     defended_stay and RiskChoice.stay must use the same actor, numeraire and
     horizon. A separate defense cost must not already be in defended_stay.mean.
-    This represents risk-reducing action, not proof that ideological defense
-    benefits society or respects third-party rights.
+    This represents an actor's FULL outcome distribution: risk protection,
+    intrapersonal care/identity utility, or both, when independently identified.
+    Equal material results need not mean equal total results. No computed CE
+    proves a social benefit, licenses external harms or authorizes third-party acts.
     """
 
     defended_stay: RiskOutcome
@@ -159,7 +161,11 @@ def exit_probability(choice: RiskChoice) -> float:
 
 
 def defense_advantage_over_stay(choice: RiskChoice, defense: DefencePolicy) -> float:
-    """CE(D)-CE(S); only with a *real* improvement to the actor's distribution."""
+    """CE(D)-CE(S) for declared TOTAL actor outcomes and external cost.
+
+    Protection of material risk is not required if a separately identified
+    utility argument changes the full outcome; do not double count it.
+    """
     return (
         certainty_equivalent(defense.defended_stay, choice.gamma)
         - defense.effort_cost
