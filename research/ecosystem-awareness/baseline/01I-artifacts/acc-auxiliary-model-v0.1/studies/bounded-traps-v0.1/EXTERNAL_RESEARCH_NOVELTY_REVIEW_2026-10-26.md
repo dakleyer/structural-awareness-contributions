@@ -25,12 +25,12 @@
 
 ## 3. Fuentes examinadas y pertinencia limitada
 
-- **Milgrom, P.; Roberts, J. (1990)**, *Rationalizability, Learning, and Equilibrium in Games with Strategic Complementarities*, *Econometrica* 58(6), 1255–1277. Artículo teórico de juegos con complementariedad; no demuestra nuestras brechas sociales: https://www.gsb.stanford.edu/faculty-research/working-papers/rationalizability-learning-equilibrium-games-strategic
+- **Milgrom, P.; Roberts, J. (1990)**, *Rationalizability, Learning, and Equilibrium in Games with Strategic Complementarities*, *Econometrica* 58(6), 1255–1277. Artículo teórico de juegos con complementariedad; no demuestra nuestras brechas sociales: https://doi.org/10.2307/2938316
 - **Ostrom, E. (1990)**, *Governing the Commons*. Investigación teórica y casos de arreglos institucionales para recursos compartidos; aporta evidencia de que centralización o veto simple no son únicas rutas: https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79
 - **Ostrom, E. (2010)**, *Polycentric systems for coping with collective action and global environmental change*, *Global Environmental Change* 20(4): 550–557. Alcance: acción colectiva y gobernanza policéntrica: https://doi.org/10.1016/j.gloenvcha.2010.07.004
 - **Koutsoupias, E.; Papadimitriou, C. (2009)**, *Worst-case equilibria*, *Computer Science Review* 3(2): 65–69. Referencia al precio de anarquía, **no** medición del toy ACC: https://doi.org/10.1016/j.cosrev.2009.04.003
 - **Bénabou, R.; Tirole, J. (2006)**, *Incentives and Prosocial Behavior*, *American Economic Review* 96(5): 1652–1678. Modelo sobre altruismo, imagen y posibles reducciones de motivación prosocial con incentivos: https://doi.org/10.1257/aer.96.5.1652
-- **Fleurbaey, M.; Maniquet, F. (2011)**, *A Theory of Fairness and Social Welfare*, Cambridge University Press. Las comparaciones sociales requieren criterios explícitos, no sumar sin más preferencias: https://doi.org/10.1017/CBO9780511851971.002
+- **Fleurbaey, M.; Maniquet, F. (2011)**, *A Theory of Fairness and Social Welfare*, Cambridge University Press. Las comparaciones sociales requieren criterios explícitos, no sumar sin más preferencias: https://doi.org/10.1017/CBO9780511851971
 
 ## 4. Recomendación de redacción científica
 
@@ -39,3 +39,5 @@
 **No admisible:** «Se descubrió la existencia de subóptimos racionales»; «la complejidad necesariamente acelera HID»; «los agentes son egoístas porque rechazan una pérdida»; «la literatura sobre juegos acredita nuestro G medido».
 
 **Próximo entregable exigible:** casos económicos independientes con `S*` comprobable, entradas públicas A iguales, protocolos de transición verificables, costes reales, y análisis comparativo de una intervención conjunta competente.
+
+**Precisión bibliográfica comprobada 26-10-2026:** el DOI 10.1017/CBO9780511851971 corresponde al libro completo de Fleurbaey y Maniquet (2011); el sufijo `.002` remite exclusivamente a su introducción. Para Milgrom–Roberts se enlaza directamente la edición publicada en *Econometrica* mediante DOI/JSTOR. Son antecedentes teóricos, no observaciones o réplicas del ACC.
