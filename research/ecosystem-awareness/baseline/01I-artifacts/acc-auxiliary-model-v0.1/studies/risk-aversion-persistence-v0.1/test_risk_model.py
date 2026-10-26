@@ -5,7 +5,10 @@ import unittest
 from risk_model import (
     RiskChoice, RiskOutcome, WelfareSnapshot, certainty_equivalent,
     change_advantage_ce, declared_examples, exit_probability, mean_advantage,
-    preferred_course, relative_risk_premium,
+    preferred_course, relative_risk_premium, DefencePolicy,
+    foregone_utility_gap, defense_advantage_over_stay,
+    policy_certainty_equivalents, preferred_with_defense,
+    three_way_choice_probabilities,
 )
 
 
@@ -153,6 +156,99 @@ class InvalidModelsRejected(unittest.TestCase):
         self.assertEqual(r["late"]["preferred"], "STAY")
         self.assertEqual(r["early"]["mean_gain_redesign"], 6)
         self.assertEqual(r["late"]["mean_gain_redesign"], 11)
+
+
+class EconomicShortfallTests(unittest.TestCase):
+    def test_matched_feasible_foregone_utility(self):
+        self.assertEqual(foregone_utility_gap(17, 21, justified_reference=True), 4)
+
+    def test_better_than_reference_is_not_negative_suffering(self):
+        self.assertEqual(foregone_utility_gap(23, 21, justified_reference=True), 0)
+
+    def test_unverified_reference_is_unknown_not_zero(self):
+        self.assertIsNone(foregone_utility_gap(17, 21, justified_reference=False))
+        self.assertIsNone(foregone_utility_gap(17, None, justified_reference=False))
+
+    def test_missing_reference_cannot_be_silently_imputed(self):
+        with self.assertRaises(ValueError):
+            foregone_utility_gap(17, None, justified_reference=True)
+
+    def test_gaps_require_a_valid_common_utility_scale(self):
+        for actual, reference in ((float("nan"), 21), (17, float("inf"))):
+            with self.subTest(actual=actual, reference=reference):
+                with self.assertRaises(ValueError):
+                    foregone_utility_gap(actual, reference, justified_reference=True)
+        with self.assertRaises(ValueError):
+            foregone_utility_gap(17, 21, justified_reference=1)
+
+    def test_not_a_measure_of_reported_discomfort_or_acc_structural_suffering(self):
+        result = declared_examples()["matched_feasible_reference_example"]
+        self.assertEqual(result["economic_foregone_utility"], 4)
+        self.assertEqual(result["subjective_distress"], "NOT_IDENTIFIED")
+        self.assertEqual(result["structural_suffering"], "NOT_IDENTIFIED")
+        self.assertEqual(result["empirical_feasibility"], "STIPULATED_FOR_TOY_ONLY")
+
+
+class ActiveDefenceTests(unittest.TestCase):
+    def setUp(self):
+        self.choice = RiskChoice(RiskOutcome(14, 4), RiskOutcome(25, 64), gamma=0.5)
+        self.defense = DefencePolicy(RiskOutcome(14, 1), effort_cost=0.5)
+
+    def test_three_actions_are_distinct_and_defense_cost_paid_once(self):
+        ce = policy_certainty_equivalents(self.choice, self.defense)
+        self.assertEqual(ce, {"STAY": 13, "REDESIGN": 9, "DEFEND_STAY": 13.25})
+        self.assertEqual(defense_advantage_over_stay(self.choice, self.defense), 0.25)
+        self.assertEqual(preferred_with_defense(self.choice, self.defense), "DEFEND_STAY")
+
+    def test_active_defense_with_positive_discomfort_and_worse_forecast(self):
+        self.assertEqual(WelfareSnapshot(30, 13).stipulated_discomfort, 13)
+        self.assertLess(self.choice.stay.mean, WelfareSnapshot(30, 13).net_welfare)
+        self.assertEqual(preferred_with_defense(self.choice, self.defense), "DEFEND_STAY")
+        self.assertGreater(self.choice.redesign.mean, self.choice.stay.mean)
+
+    def test_defense_without_benefit_is_strictly_dominated(self):
+        pointless = DefencePolicy(RiskOutcome(14, 4), effort_cost=0.5)
+        self.assertLess(defense_advantage_over_stay(self.choice, pointless), 0)
+        self.assertEqual(preferred_with_defense(self.choice, pointless), "STAY")
+
+    def test_too_costly_defense_is_rejected(self):
+        costly = DefencePolicy(RiskOutcome(14, 1), effort_cost=2)
+        self.assertEqual(preferred_with_defense(self.choice, costly), "STAY")
+
+    def test_risk_neutral_evaluator_does_not_defend(self):
+        neutral = RiskChoice(self.choice.stay, self.choice.redesign, gamma=0)
+        self.assertEqual(preferred_with_defense(neutral, self.defense), "REDESIGN")
+
+    def test_sufficiently_attractive_redesign_beats_defending(self):
+        valuable = RiskChoice(self.choice.stay, RiskOutcome(40, 64), gamma=0.5)
+        self.assertEqual(preferred_with_defense(valuable, self.defense), "REDESIGN")
+
+    def test_equal_three_way_options_can_tie(self):
+        equal = RiskChoice(RiskOutcome(10, 0), RiskOutcome(10, 0), gamma=0.5)
+        zero = DefencePolicy(RiskOutcome(10, 0), effort_cost=0)
+        self.assertEqual(preferred_with_defense(equal, zero), "TIE")
+
+    def test_three_way_logit_is_conditional_choice_not_transition_success(self):
+        probabilities = three_way_choice_probabilities(self.choice, self.defense)
+        self.assertAlmostEqual(sum(probabilities.values()), 1)
+        self.assertGreater(probabilities["DEFEND_STAY"], probabilities["STAY"])
+        self.assertGreater(probabilities["STAY"], probabilities["REDESIGN"])
+        self.assertNotAlmostEqual(probabilities["REDESIGN"], exit_probability(self.choice))
+
+    def test_invalid_defense_cost_and_distribution_rejected(self):
+        with self.assertRaises(ValueError):
+            DefencePolicy(RiskOutcome(1, 1), effort_cost=-0.01)
+        with self.assertRaises(ValueError):
+            DefencePolicy(RiskOutcome(1, 1), effort_cost=float("nan"))
+        with self.assertRaises(ValueError):
+            DefencePolicy(None, effort_cost=0)
+
+    def test_declared_example_demonstrates_active_defense_without_population_claim(self):
+        report = declared_examples()
+        self.assertEqual(report["late_with_active_defense"]["preferred"], "DEFEND_STAY")
+        self.assertEqual(report["late_with_active_defense"]["defend_stay_ce_after_effort"], 13.25)
+        self.assertEqual(report["status"], "SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL")
+
 
 
 if __name__ == "__main__":
