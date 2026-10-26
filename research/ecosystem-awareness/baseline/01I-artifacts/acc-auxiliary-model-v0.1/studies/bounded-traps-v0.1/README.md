@@ -91,3 +91,8 @@ El código usa solamente la librería estándar de Python. Incluye **21 tests** 
 ## Relación de control documental
 
 Este estudio desarrolla el [núcleo técnico económico](../../ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md) y la [exposición principal ACC](../../MODEL.md). No redefine el contrato 01K-HID ni modifica DDS/UC21. El [documento general de trabajo v0.3](https://docs.google.com/document/d/1qpBDFBZa7nGKlTD2D5poYuStCf0oJcAogBtUuzEjD90/edit) conserva la genealogía A/B/C/D, entropía y agencia. Es investigación de caso acotado, no validación social, matemática original universal ni criterio adoptado por instituciones externas.
+## 8. Auditoría de cobertura y conservación de ejemplos
+
+La [auditoría de conversación y delimitación de tesis](CONVERSATION_COVERAGE_AUDIT_2026-10-26.md) identifica qué afirmaciones de la discusión reciente ya están probadas por este toy, cuáles son hipótesis en otro propietario (00M/01K/FH-C/FH-E) y cuáles corresponden al **estudio separado** de sistemas anidados y sufrimiento estructural. Publicar este estudio NO equivale a promover como hecho empírico la conversación completa.
+
+El [registro versionado de ejemplos del autor](EXAMPLE_LEDGER.md) conserva con IDs estables los plátanos, Cáritas/DANA, Viernes/Robinson, ministerios, naranjas, hormigas, READY/v1/v2, crédito 7/10, manzanas-frutería, trampa (0,0)→(1,1), X−200 y la viñeta de desarrollo humano impedido en barrio desfavorecido/liceo. Los casos no medidos se conservan como **hipótesis/analogías**, no como estadísticas ni hechos externos.
