@@ -251,5 +251,36 @@ class ActiveDefenceTests(unittest.TestCase):
 
 
 
+
+class ExtensionReductionControls(unittest.TestCase):
+    """Synthetic controls: utility aggregation is not automatic non-isomorphism."""
+
+    def setUp(self):
+        self.choice = RiskChoice(RiskOutcome(14, 4), RiskOutcome(25, 64), gamma=0.5)
+
+    def test_affection_can_be_total_utility_without_material_protection(self):
+        no_total_benefit = DefencePolicy(RiskOutcome(14, 4), effort_cost=0.5)
+        affection_is_utility = DefencePolicy(RiskOutcome(15, 4), effort_cost=0.5)
+        self.assertEqual(preferred_with_defense(self.choice, no_total_benefit), "STAY")
+        self.assertEqual(policy_certainty_equivalents(self.choice, affection_is_utility)["DEFEND_STAY"], 13.5)
+        self.assertEqual(preferred_with_defense(self.choice, affection_is_utility), "DEFEND_STAY")
+
+    def test_action_specific_utility_preserves_ce_form_but_changes_winner(self):
+        protection = DefencePolicy(RiskOutcome(14, 1), effort_cost=0.5)
+        self.assertEqual(preferred_with_defense(self.choice, protection), "DEFEND_STAY")
+        approval_to_redesign = RiskChoice(RiskOutcome(14, 4), RiskOutcome(30, 64), gamma=0.5)
+        self.assertEqual(policy_certainty_equivalents(approval_to_redesign, protection)["REDESIGN"], 14)
+        self.assertEqual(preferred_with_defense(approval_to_redesign, protection), "REDESIGN")
+
+    def test_same_moments_do_not_fix_exact_cara_under_nonnormality(self):
+        gamma = 1.0
+        normal_ce = certainty_equivalent(RiskOutcome(0, 1), gamma)
+        symmetric_binary_ce = -math.log(math.cosh(gamma)) / gamma
+        self.assertEqual(normal_ce, -0.5)
+        self.assertNotAlmostEqual(normal_ce, symmetric_binary_ce)
+        self.assertAlmostEqual(symmetric_binary_ce, -0.4337808304830271, places=12)
+
+
+
 if __name__ == "__main__":
     unittest.main()
