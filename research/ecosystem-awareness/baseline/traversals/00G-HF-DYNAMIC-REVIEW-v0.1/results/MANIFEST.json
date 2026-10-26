@@ -1,0 +1,48 @@
+{
+  "kind": "NON_CANONICAL_EXPERIMENTAL_EVIDENCE",
+  "freeze_commit": "3ce9d2b54a0794919578704ccd26adafa8ea5151",
+  "execution_checkout": "4d99292e9f8da98c3886c942698e9edfe3bdb2ef",
+  "python": "3.12.14",
+  "campaign_networks": 1056,
+  "C3_records": 50688,
+  "exact_replays": 1056,
+  "new_observations_in_replay": 0,
+  "ea_execution": "NOT_RUN",
+  "model_calls": 0,
+  "freeze_sha256": "355f7aa5d8b6cd10611fd3b33bafa8beb0f8ea4e96a7f3aaf2d07d701b10499b",
+  "files": {
+    "AUDIT.json": {
+      "bytes": 31499,
+      "sha256": "67ea56e2c7205d648670e0ca4433a099bcf827780191808eb14a457622835eda"
+    },
+    "REPLAY.json": {
+      "bytes": 47,
+      "sha256": "9da5d2d45a2212dbaea80990e65139f66b57da8fb922ec04b910b24c421249f1"
+    },
+    "RESULTS.md": {
+      "bytes": 8477,
+      "sha256": "08cb1454452b2f7d3bcb9d0130fa890e6a7dc13cf547ec927c7b889a5b54791d"
+    },
+    "RUN_STATUS.json": {
+      "bytes": 41,
+      "sha256": "ad41d81ea6b31df512c05fffc17f924fe2f98a280bbaddeb3934483e47d9b23a"
+    },
+    "SELECTED_NETWORKS.json.xz": {
+      "bytes": 106580,
+      "sha256": "a7ed0d1efbb69f97d1ecdec330908169265121ced76669f7d6cce505b2eecd85"
+    },
+    "SUMMARY.json": {
+      "bytes": 667181,
+      "sha256": "b3d49d0189d1380728993a7810f38addc4df500ce5963ebe83a1e02c16f44240"
+    },
+    "audit_results.py": {
+      "bytes": 5678,
+      "sha256": "6f75073c35978cf1be3cc167fc19afc31274b3d4be0933ac9168a41210327184"
+    },
+    "episodes.jsonl.xz": {
+      "bytes": 11525848,
+      "sha256": "d32af4e6c6c386bf16d7c13c9ec466357e195229100dab69b0b70e7a4428a907"
+    }
+  },
+  "self_hash": "omitted"
+}

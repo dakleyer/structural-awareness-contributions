@@ -1,5 +1,7 @@
 r many parts of a problem while each worker still emits a locally collapsed closure. Large coverage is not equivalent to ecosystem determination.
 
+> **Reading retained pole labels.** Earlier in-window/out-of-window A–D pole descriptions below identify the source control/failure map; they are not a closed partition or the current definition. Apply [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) to each specified assertion. In particular, assessable extensions remain B even outside the active window; C concerns exploration toward an evaluation basis. The I/O and Type 0/1/2 control map is preserved.
+
 &nbsp;
 
 ## E0-I — received in-window Type 0 qualification

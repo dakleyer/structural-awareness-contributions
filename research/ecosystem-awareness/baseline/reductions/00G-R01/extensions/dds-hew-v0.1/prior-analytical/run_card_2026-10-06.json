@@ -1,0 +1,465 @@
+{
+  "id": "DDS-HEW-ANALYTICAL-FIXTURE-20261006-01",
+  "version": "0.1",
+  "evidence_mode": "author-constructed deterministic analytical fixture",
+  "record_stage": "parameters and expected outcomes saved before checker execution",
+  "known_case_origin": "Existing one-human/two-obligation working example; not blind case selection",
+  "scope": "Exact calendar feasibility and logical separation of identity, attestation, authority, basis, capacity and observed application",
+  "native_technologies_executed": false,
+  "human_calibration": false,
+  "world_law": "Integer time; non-preemptible busy intervals; one three-tick review per eligible reviewer; application and delivery each one tick; no deadline extension, job preemption, extra staff or additional review route",
+  "units": "illustrative ticks and operation counts, not measured minutes or euros",
+  "observation_rule": "Model separates actual calendar from declared current/unknown/stale capacity observation; attestation and identity acceptance are stipulated inputs, not cryptographically verified by this checker",
+  "comparative_claim": "No product superiority, native conformance or official C02 admission claim. Strong static backup is retained as a possible equal performer.",
+  "positive_controls": [
+    "HEW-DDS-01-NOMINAL",
+    "HEW-DDS-03-QUALIFIED-BACKUP"
+  ],
+  "negative_controls": [
+    "HEW-DDS-02-ONE-BUSY",
+    "HEW-DDS-04-UNQUALIFIED-BACKUP",
+    "HEW-DDS-05-UNAUTHORIZED-BACKUP",
+    "HEW-DDS-08-VALID-ID-REVOKED-AUTHORITY",
+    "HEW-DDS-12-CORRECT-DECISION-FAILED-APPLICATION"
+  ],
+  "falsifiers": [
+    "Closed-form and exhaustive calendar results disagree",
+    "UNKNOWN reported AVAILABLE",
+    "No qualified authorized feasible reviewer nevertheless counted as effective intervention",
+    "Successful selection or attestation reported as completed application without observed effect",
+    "Protected filing alone decreases standing"
+  ],
+  "cases": [
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-01-NOMINAL",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": true,
+        "decision_at": 5,
+        "mission_at": 7
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-02-ONE-BUSY",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [
+            [
+              1,
+              10
+            ]
+          ],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": false
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-03-QUALIFIED-BACKUP",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [
+            [
+              1,
+              10
+            ]
+          ],
+          "qualified": true,
+          "review_authority": true
+        },
+        {
+          "id": "H2",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": true,
+        "reviewer": "H2",
+        "decision_at": 5,
+        "mission_at": 7
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-04-UNQUALIFIED-BACKUP",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [
+            [
+              1,
+              10
+            ]
+          ],
+          "qualified": true,
+          "review_authority": true
+        },
+        {
+          "id": "H2",
+          "busy_intervals": [],
+          "qualified": false,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": false
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-05-UNAUTHORIZED-BACKUP",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [
+            [
+              1,
+              10
+            ]
+          ],
+          "qualified": true,
+          "review_authority": true
+        },
+        {
+          "id": "H2",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": false
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": false
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-06-UNKNOWN-CAPACITY",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "unknown",
+      "expected": {
+        "schedule": true,
+        "capacity_claim": "UNKNOWN"
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-07-STALE-BUT-FRESH",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [
+            [
+              1,
+              10
+            ]
+          ],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "stale",
+      "observed_reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "attestation_generated_at": 0,
+      "attestation_appraised_at": 2,
+      "attestation_max_age": 5,
+      "attestation_scope": "software_state_only",
+      "expected": {
+        "schedule": false,
+        "observed_schedule": true,
+        "attestation_fresh": true
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": false,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-08-VALID-ID-REVOKED-AUTHORITY",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": true,
+        "admissible_completion": false
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": false,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-09-VALID-ID-INSUFFICIENT-BASIS",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": true,
+        "admissible_completion": false
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": false,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-10-EXPIRED-PRECONDITION",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": true,
+        "admissible_completion": false
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": false,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-11-PROTECTED-GOODFAITH-OBJECTION",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": true,
+        "admissible_completion": false,
+        "record_preserved": true,
+        "retaliation": false
+      }
+    },
+    {
+      "arrival": 2,
+      "service": 3,
+      "ack_deadline": 3,
+      "decision_deadline": 6,
+      "application_deadline": 7,
+      "mission_deadline": 8,
+      "application_duration": 1,
+      "delivery_duration": 1,
+      "horizon": 20,
+      "identity_accepted": true,
+      "execution_authority": true,
+      "basis_sufficient": true,
+      "attestation_accepted": true,
+      "record_preserved": true,
+      "retaliation": false,
+      "id": "HEW-DDS-12-CORRECT-DECISION-FAILED-APPLICATION",
+      "reviewers": [
+        {
+          "id": "H1",
+          "busy_intervals": [],
+          "qualified": true,
+          "review_authority": true
+        }
+      ],
+      "application_observed": false,
+      "capacity_observation": "current",
+      "expected": {
+        "schedule": true,
+        "admissible_completion": false
+      }
+    }
+  ]
+}

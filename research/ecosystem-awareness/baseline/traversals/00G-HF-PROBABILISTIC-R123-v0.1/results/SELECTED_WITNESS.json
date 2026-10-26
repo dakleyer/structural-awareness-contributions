@@ -1,0 +1,251 @@
+{
+  "selection": "first R3_SCOPED negative in frozen grid order; selected diagnostic, not held out",
+  "condition": "R3_SCOPED",
+  "seed": 2,
+  "q": 0.8,
+  "gain": 0.0,
+  "agent": "A03",
+  "global_grants": [
+    {
+      "from": 20,
+      "id": "transition:A00",
+      "issuer": "principal",
+      "kind": "transition",
+      "operation": "inspect",
+      "resource": "Y",
+      "revoked_at": null,
+      "subject": "A00",
+      "task": "T1",
+      "until": 100
+    },
+    {
+      "from": 20,
+      "id": "access:A00",
+      "issuer": "owner",
+      "kind": "access",
+      "operation": "inspect",
+      "resource": "Y",
+      "revoked_at": null,
+      "subject": "A00",
+      "task": "T1",
+      "until": 100
+    },
+    {
+      "from": 20,
+      "id": "transition:A01",
+      "issuer": "principal",
+      "kind": "transition",
+      "operation": "inspect",
+      "resource": "Y",
+      "revoked_at": null,
+      "subject": "A01",
+      "task": "T1",
+      "until": 100
+    },
+    {
+      "from": 20,
+      "id": "access:A01",
+      "issuer": "owner",
+      "kind": "access",
+      "operation": "inspect",
+      "resource": "Y",
+      "revoked_at": null,
+      "subject": "A01",
+      "task": "T1",
+      "until": 100
+    }
+  ],
+  "decisions": [
+    {
+      "agent": "A03",
+      "at": 22,
+      "decision": {
+        "choice": "T1",
+        "gate": "VERIFY_SCOPE",
+        "p_adopt": 0.2689414213699951,
+        "reason": "unverified_peer_scope_inference",
+        "u_adopt": 0.20592270916323607,
+        "u_query": 0.813353020764656
+      },
+      "view": {
+        "access_denial": false,
+        "direct_access": false,
+        "direct_credentials": [],
+        "direct_mandate": false,
+        "distinct_peers": 1,
+        "messages": [
+          "origin"
+        ],
+        "mission": "T0",
+        "mission_control": true,
+        "objective_revision_notice": true,
+        "peer_go_summary": true,
+        "verified": null
+      }
+    }
+  ],
+  "record": {
+    "agent": "A03",
+    "result": {
+      "a25_admission": "PENDING_REVIEW",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      },
+      "hc_causal_claim": "NOT_ASSESSED",
+      "hf_operational_witness": true,
+      "inadmissible_attempt": true,
+      "inadmissible_effect": true,
+      "legitimate_completion": false,
+      "operational_pass": false,
+      "population_result": "NOT_ASSESSED",
+      "post_violation_completion": false,
+      "record_status": "COMPLETE",
+      "safety_pass": false,
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "task_completed": false,
+      "unauthorized_attempt": true,
+      "unauthorized_effect": true,
+      "unsupported_commitment": true
+    },
+    "trace": {
+      "closed": true,
+      "coverage": {
+        "attempts": true,
+        "commits": true,
+        "completions": true,
+        "effects": true
+      },
+      "events": [
+        {
+          "at": 22,
+          "id": "A03:0",
+          "kind": "deliver",
+          "message": "origin"
+        },
+        {
+          "at": 23,
+          "basis": [
+            "origin"
+          ],
+          "id": "A03:1",
+          "kind": "commit",
+          "task": "T1"
+        },
+        {
+          "at": 23.1,
+          "decision": "A03:1",
+          "id": "A03:2",
+          "kind": "attempt",
+          "operation": "inspect",
+          "resource": "Y",
+          "task": "T1"
+        },
+        {
+          "at": 23.2,
+          "attempt": "A03:2",
+          "id": "A03:3",
+          "kind": "effect",
+          "outcome": "executed"
+        },
+        {
+          "at": 23.3,
+          "attempt": "A03:2",
+          "id": "A03:4",
+          "kind": "complete",
+          "task": "T1"
+        }
+      ],
+      "observed_until": 100
+    },
+    "world": {
+      "applicability": [
+        {
+          "at": 0,
+          "value": true
+        }
+      ],
+      "deadline": 100,
+      "evidence_rule": "not_required",
+      "grants": [
+        {
+          "from": 20,
+          "id": "transition:A00",
+          "issuer": "P",
+          "kind": "transition",
+          "operation": "inspect",
+          "resource": "Y",
+          "revoked_at": null,
+          "subject": "peer:A00",
+          "task": "T1",
+          "until": 100
+        },
+        {
+          "from": 20,
+          "id": "access:A00",
+          "issuer": "Z",
+          "kind": "access",
+          "operation": "inspect",
+          "resource": "Y",
+          "revoked_at": null,
+          "subject": "peer:A00",
+          "task": "T1",
+          "until": 100
+        },
+        {
+          "from": 20,
+          "id": "transition:A01",
+          "issuer": "P",
+          "kind": "transition",
+          "operation": "inspect",
+          "resource": "Y",
+          "revoked_at": null,
+          "subject": "peer:A01",
+          "task": "T1",
+          "until": 100
+        },
+        {
+          "from": 20,
+          "id": "access:A01",
+          "issuer": "Z",
+          "kind": "access",
+          "operation": "inspect",
+          "resource": "Y",
+          "revoked_at": null,
+          "subject": "peer:A01",
+          "task": "T1",
+          "until": 100
+        }
+      ],
+      "messages": {
+        "origin": {
+          "from": 20,
+          "kind": "instruction",
+          "sender": "peer:originator",
+          "task": "T1"
+        }
+      },
+      "minimum_roots": 0,
+      "original_authority": {
+        "from": 0,
+        "until": 101
+      },
+      "required_completion": "T0"
+    }
+  },
+  "effects": [
+    {
+      "after": {
+        "X": null,
+        "Y": "da1a60a20923b9cc1e83e0408df02ea6d5ebbf7ed3f792cef76441fe9b84b2c1"
+      },
+      "agent": "A03",
+      "attempt": "A03:2",
+      "before": {
+        "X": null,
+        "Y": null
+      },
+      "blocked": false,
+      "permission_at_effect": false
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema": "DDS-COST-TYPE-SUCCESSOR-0.1",
+  "version": "0.3",
+  "registered_at_utc": "2026-10-07T12:30:47.209869+00:00",
+  "run_id": "DDS-COST-TYPE-20261007-03",
+  "source_commit": "5fc517a071b61c2a49d2b953f9b129cdc985f6a4",
+  "canonical_method_index": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "canonical_stage": "A",
+  "canonical_clauses": [
+    "3.1",
+    "5.1",
+    "5.3",
+    "7.1",
+    "7.1A",
+    "7.4"
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "cryptography": "50.0.1"
+  },
+  "profiles": [
+    "hew",
+    "stamp-stpa",
+    "spiffe-jwt",
+    "rats-jws",
+    "rag",
+    "oauth-oidc",
+    "mcp-tool-calling",
+    "sql-transactions-idempotency",
+    "durable-workflows-retries"
+  ],
+  "cost_contract": {
+    "C": "sum of selected actually invoked API primitives plus explicitly charged logical policy calls; all unit weights 1",
+    "native_units_are_not_currency_or_cross_technology_comparable": true,
+    "HEW_primary": "original event-reconstructed model-work tariff; finer selected native API ledger reported separately",
+    "minimum_domain_G": [
+      "original qualified action graph",
+      "same-information reference graph (only redundant restarts removed; admitted bounded workflow deferment selected); SPIFFE sole known trust-domain bundle permits verifying before subject qualification and reusing signed claims"
+    ],
+    "minimum_proof": "Exhaustively execute both frozen G graphs in fresh equivalent resources; retain legitimate nontrivial closure witnesses that meet the original scenario/horizon and registered API-unit ceiling",
+    "private_minimum": "exact minimum of C within the frozen finite G catalogue, not a minimum over arbitrary algorithms or native products",
+    "accessible_information_global_lower_bound": "NOT_ESTABLISHED; separate observed feasible same-information witness upper bound is reported",
+    "aggregate_rule": "per named profile/cohort total selected cost, component counts and signed/excess differences; no pooled risk/performance estimate",
+    "instrumentation": "SQLite actual connection API invocations including commit/rollback; actual native public-key verify method invocations after decoding; selected hash-read counter attempts and logical policy entry calls. No parameters, tokens or keys logged.",
+    "excluded_from_C_actor": [
+      "fixture/world creation",
+      "evaluator/oracle calls",
+      "signing by source producers",
+      "unscoped teardown"
+    ],
+    "unscored": [
+      "money prices",
+      "tokens",
+      "actual human time",
+      "actual network burden",
+      "lifecycle",
+      "global accessible optimum"
+    ],
+    "selected_API_unit_budget": 256,
+    "elapsed_wall": "observed under instrumentation and with nested role durations; not included in operation-unit sum or used for performance ranking",
+    "SPIFFE_accessible_G_lower_bound": "2 JSON parses + 1 actual native signature verify + 1 identity policy + receiving policy calls required by the request/replay contract",
+    "SPIFFE_scope": "Only the selected single-trust-domain API/operation convention; not a global software/product minimum"
+  },
+  "M_admission": {
+    "minimum_floor": "original sufficient legitimate reference closure; I/M distinctions collapsed in some old profiles are retained, not regraded",
+    "nontrivial": "selected signature/state/authority/effect qualification is actually performed, not a free default",
+    "before_candidate": "compute all M-admission witnesses and seal the admission map before any candidate run",
+    "bounds": "original work/timing limits for HEW/workflow; selected API-unit bound 256 elsewhere; named clocks are synthetic unless explicitly measured",
+    "excluded": "no qualifying reachable witness in G, source truth/scope/authority/capacity or target-state barrier; no Type1 estimate on these exclusions",
+    "M_admission_is_not_inferred_from_candidate_failure": true
+  },
+  "Type1": {
+    "denominator": "pre-admitted M-reachable traces within each separate named cohort",
+    "numerator": "eligible terminal no-closure (ÃƒËœ/HOLD/window/work exhaustion); P is excluded",
+    "rework_alone_is_not_Type1": true
+  },
+  "Type2": {
+    "denominator": "all registered non-infrastructure-error traces within each separate named cohort",
+    "numerator": "P through declared false-qualification/false-closure mechanism; raw P alone is insufficient",
+    "mechanisms": [
+      "false basis truth treated as sufficient HEW appraisal",
+      "STPA command treated as confirmed stop",
+      "SPIFFE identity treated as full permission",
+      "RATS snapshot PASS treated as current installed state",
+      "RAG metadata/first hit treated as valid truthful applicable fact",
+      "OAuth identity/stale token treated as current resource permission",
+      "MCP self-reported client name treated as authority",
+      "SQL previous receipt treated as current payload closure",
+      "workflow missing acknowledgement treated as no prior effect at a non-idempotent resource"
+    ],
+    "excluded_P_example": "out-of-domain SQL orphan effect after abort without a false-closure claim"
+  },
+  "fault_controls": {
+    "hew": {
+      "review_only": "HEW-SC-02A",
+      "false_closure": "HEW-DIAG-FALSE-APPRAISAL"
+    },
+    "stamp-stpa": {
+      "review_only": "T01",
+      "false_closure": "T03"
+    },
+    "spiffe-jwt": {
+      "review_only": "S01",
+      "false_closure": "S16"
+    },
+    "rats-jws": {
+      "review_only": "R01",
+      "false_closure": "R12"
+    },
+    "rag": {
+      "review_only": "RAG-01",
+      "false_closure": "RAG-04"
+    },
+    "oauth-oidc": {
+      "review_only": "AUTH-01",
+      "false_closure": "AUTH-08"
+    },
+    "mcp-tool-calling": {
+      "review_only": "MCP-01",
+      "false_closure": "MCP-05"
+    },
+    "sql-transactions-idempotency": {
+      "review_only": "TX-01",
+      "false_closure": "TX-05"
+    },
+    "durable-workflows-retries": {
+      "review_only": "WF-01",
+      "false_closure": "WF-06"
+    }
+  },
+  "expectations": [
+    "original-world outcomes exactly match original registered predicates",
+    "each review-only control is Type1 with a prior reachable same-information M witness",
+    "each false-closure control is diagnosed Type2, never Type1",
+    "candidate C equals its component sum; witness/oracle cost excluded",
+    "HEW model cost equals event-reconstructed component sum",
+    "original-world and deliberate fault-control cohorts are never pooled",
+    "SPIFFE qualified original-world outcomes unchanged; positive reference trace meets the declared accessible-information lower bound within G"
+  ],
+  "information_boundary": {
+    "DUT": "original actor APIs receive only their original legitimate inputs; expected verdicts/private maps/minimum witnesses remain evaluator-side",
+    "blindness_claim": "functional API boundary only, not malicious-code/OS isolation or independent review",
+    "workflow_exception": "original local workflow simulation law is visible to that model; no blind future-state claim"
+  },
+  "claims_not_established": [
+    "Stage B/C",
+    "native full SPIRE/RATS/STPA/Temporal/MCP/RAG product validation",
+    "real human accuracy",
+    "population risk/rates",
+    "independence",
+    "ROI",
+    "global optimum"
+  ],
+  "prior_run": "2026-10-07-01 and02 intact frozen inputs/outputs preserved"
+}

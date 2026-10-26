@@ -1,0 +1,91 @@
+{
+  "schema": "R01-C02-SELFTEST-RESULT-0.9",
+  "executed": "2026-10-05",
+  "workflow_run": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37265543867",
+  "head_commit": "4ec2006e76b1e212ba8b99230a3d71bd3564aeb5",
+  "freeze_manifest": "STAGE0_FREEZE_v0.9.json",
+  "frozen_artifacts": 30,
+  "instrument": "R01-C02-neutral-harness-0.7",
+  "result": "SELFTEST_PASS",
+  "claim": "instrumentation self-test only; no real technology executed",
+  "vectors": [
+    {
+      "test_vector_id": "R01-POSITIVE-01",
+      "status": "PASS"
+    },
+    {
+      "test_vector_id": "R01-BOUNDARY-CONNECTOR-01",
+      "status": "FAIL"
+    },
+    {
+      "test_vector_id": "R01-REJECTION-01",
+      "status": "FAIL"
+    },
+    {
+      "test_vector_id": "R01-TIE-01",
+      "status": "PASS"
+    },
+    {
+      "test_vector_id": "R01-INCONCLUSIVE-01",
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "test_vector_id": "R01-COST-LIMIT-01",
+      "status": "FAIL"
+    }
+  ],
+  "controls": {
+    "always_abstain_not_success": "PASS",
+    "batch_missing_measurement_inconclusive": "PASS",
+    "batch_resource_self_report_non_authoritative": "PASS",
+    "candidate_oracle_reserved_namespace_rejected": "PASS",
+    "case_order_reversal": "PASS",
+    "deterministic_replay_candidate_hash": "PASS",
+    "deterministic_replay_post_run_hash": "PASS",
+    "duplicate_message_id_rejected": "PASS",
+    "freeze_manifest_integrity": "PASS:30",
+    "gate_policy_matches_sidecar": "PASS",
+    "gate_policy_mismatch_rejected": "PASS",
+    "graph_reference_fixed_controls": "PASS",
+    "graph_reference_generated_64": "PASS",
+    "hidden_batch_selection_rejected_pre_oracle": "PASS",
+    "identifier_permutation": "PASS",
+    "interactive_adapter_broker_oracle_path": "PASS",
+    "interactive_adapter_replay_hash": "PASS",
+    "interactive_mandate_identity_mismatch_rejected": "PASS",
+    "malformed_candidate_explicit_rejection": "PASS",
+    "malformed_record_isolation": "PASS",
+    "message_lineage_and_relay_preserved": "PASS",
+    "nonnegative_base_rejects_negative_benefit": "PASS",
+    "oracle_blindness_negative_control": "PASS",
+    "private_evidence_commitment_and_deferred_release": "PASS",
+    "real_t03_incomplete_registration_rejected": "PASS",
+    "real_t03_isolated_registration_admitted": "PASS",
+    "real_t03_oracle_visible_isolation_rejected": "PASS",
+    "reference_rejects_ambiguous_types": "PASS",
+    "semantic_admission_contracts": "PASS",
+    "strict_state_machine_blocks_uncommitted_execution": "PASS",
+    "strict_state_machine_consumes_commitment": "PASS",
+    "strict_state_machine_invalidates_stale_review": "PASS",
+    "strict_state_machine_rejects_unrelated_mandate": "PASS",
+    "tool_broker_visibility_accounting": "PASS",
+    "two_reference_methods_agree": "PASS"
+  },
+  "repository_gates": {
+    "version_aware_documentary_gate": "PASS_KNOWN_DRIFT_ONLY",
+    "canonical_navigation": "PASS_238_LINKS_102_ANCHORS",
+    "current_route_preservation": "PASS_35_FILES_1323_PARAGRAPH_PAIRS",
+    "editorial_quality": "PASS_146_TABLES_0_ERRORS_0_WARNINGS",
+    "unrecorded_documentary_drift_negative_probe": "PASS"
+  },
+  "limits": [
+    "complete R01 C-V evaluator not established",
+    "independent external validation of reference methods not established",
+    "no real technology executed",
+    "no human-escalation calibration",
+    "no comparative EA benefit established",
+    "no production scalability claim",
+    "no UC-4 source-contributor acceptance or exact upstream schema validation",
+    "no FG-TIDA approval or adoption claim"
+  ]
+}

@@ -1,4 +1,26 @@
+> [!NOTE]
+> **Revisión para personas · instrucción de Iván del 6 de octubre de 2026.** El [plan de trabajo](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) exige cuatro pasadas diferentes, registradas en esta misma VNext: **fondo y lógica; evidencia y relaciones; edición y formato; legibilidad humana**. Después habrá una conciliación del corpus, con consecuencias en cada VNext afectada. El centro es comprender y cuestionar la idea; códigos y comprobaciones técnicas quedan como apoyo. La exploración mixta publicada antes se conserva, pero no se cuenta como cuatro pasadas terminadas.
+
+### Estado del ciclo de revisión de este documento
+
+| Pasada | Estado al adoptar el plan |
+|---|---|
+| Fondo y lógica | Parcial: hay observaciones exploratorias; falta su examen diferenciado completo. |
+| Evidencia y relaciones entre documentos | Parcial: relaciones seleccionadas; faltan revisiones cruzadas completas. |
+| Edición, estructura y formato | Pendiente como pasada propia. |
+| Legibilidad y comprensión humana | Pendiente como pasada propia. |
+| Conciliación final del corpus | Pendiente. |
+
+**Cómo se continúa:** añadir cada pasada y sus respuestas en la sección de auditoría de esta VNext, explicando hallazgos y consecuencias para un lector. Conservar los registros anteriores y terminar con propuestas antes/después. Esta nota organiza el trabajo; no afirma que esas pasadas se hayan realizado ni altera el texto canónico.
+
+---
+
+> [!NOTE]
+> **VNext · auditoría acumulativa R1 · 6 de octubre de 2026.** Se reutiliza este expediente; su texto anterior queda íntegro debajo. La auditoría, conversación e instrucciones actuales y las propuestas literales están al final. El cierre W1 fechado en el texto histórico no cierra la nueva revisión. No se modifica el Requirements congelado. [Procedimiento](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) · [visión general y secuencia](../../../architectural-contributions/ecosystem-positioning/README_VNext.md).
+
 # Requirements vNext Review & Delta — Ecosystem Positioning
+
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 > **Working review only — not a new Requirements document.**  
 > The current canonical requirements remain [00 — Canonical Requirements: S1–S14 / T1–T4 / H1–H6 / KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md).  
@@ -65,14 +87,14 @@ The following are the main substantive changes reviewed since the 17 September f
 
 ---
 
-## Reference failure-scenario expansion — two scenarios to five
+## Reference failure-scenario expansion — two scenarios to six
 
 At the 17 September freeze, the Requirements document explicitly routed two reference scenarios back into the same canonical requirement system:
 
 1. [**00E — 100 Million Tokens and Compounded Epistemic Collapse**](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), testing compositional overconfidence, capacity/oversight pressure, speculative promotion and structural-residual mismanagement; and
 2. [**00F — Smart-City Mobility Divergence under Residual Uncertainty**](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md), testing incompatible locally justified closures, correlated/stale false convergence, shared-resource conflict and bounded ecosystem qualification.
 
-The post-freeze corpus now adds three independent reference scenarios:
+The post-freeze corpus now adds four distinct reference failure-scenario families:
 
 3. [**00G — Collective False-Context Convergence**](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md), testing whether unsupported external context, correlated repetition, claimed authority and attractive opportunity can displace a legitimate mission when source independence, role, authority and admissibility are not preserved;
 4. [**00H — Batch Opportunity Beyond Authority**](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md), testing whether a valuable and technically reachable opportunity is preserved and routed without being silently discarded **or** converted into execution authority, including aggregate/salami-slicing failure and bounded re-contracting; and
@@ -460,3 +482,303 @@ The [A23 reconstruction audit](./fixtures/00K-FORMAL/requirement-sufficiency/CLA
 **Disposition:** three named review candidates; no S15/T5/H7 adopted. A23 is under semantic revision. A25 uses bounded A3/A4/A6 branch evidence for the affected transfer claims; universal extension guarantees remain conditional on a separately established base theorem.
 
 **Applied follow-up, 26 September 2026:** [A23 semantic bridge review](./fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) provides bounded executable diagnostics for CAND-A23-P3/P5/P6. P3/P6 expose target/scope translation distinctions; P5 receives a candidate operational interlock with mutation controls. Full canonical reachability and sufficiency remain open; no frozen requirement is changed.
+
+
+---
+
+## Auditoría realizada por Codex — REQ-VNEXT-AUD-001
+
+**Fecha:** 6 de octubre de 2026. **Fuente de esta época:** commit `1d24b7bfe88fa366e6c619fa88f6f7904d1380db`; este expediente blob `11953bbc1f6887027777a3ca74514d7db589cc4d`; Requirements congelado blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. **Identidad:** Codex del mismo chat; auto-revisión del programa, sin independencia externa. **Alcance:** lectura completa de este VNext y de Requirements; comparación de CAND-R1–R4 con cláusulas S/T/H y de CAND-A23 con los pasajes de A23 revisados. No se ejecutó el auditor matemático ni se probaron tecnologías reales. La cobertura de todos los escenarios y consumidores continúa pendiente.
+
+### Instrucciones de Iván
+
+IVAN-20261006-START-SEQUENTIAL-AUDITS: aceptar/publicar el método, empezar por visión general en README VNext y revisar VNext existentes «de uno en uno», primero mediante auditoría. Aquí se publica el análisis y las propuestas; no se interpreta como aprobación para cambiar el Requirements congelado.
+
+### Visión del documento y relaciones
+
+Este VNext es el lugar de adjudicación entre una obligación realmente ausente y una representación de arquitectura. Requirements §2–§6 declara un candidato cualquiera, S1–S14, T1–T4 y H1–H6; no exige ACC, Cart_i, gradiente o una topología particular. 04 consume esa base genérica. 05/05A proyectan y filtran aplicación FG-TIDA. Benchmark v0.3 puede comparar mecanismos adicionales, sin convertirse por ello en una segunda fuente universal de requisitos. A23 aporta preguntas de fidelidad del modelo, no un certificado all-six.
+
+| Hallazgo | Evidencia y evaluación | Disposición |
+|---|---|---|
+| REQ-R1-F001 | El título dice «two scenarios to five» y la introducción «adds three», pero enumera 00G–00J y después declara 2→6. Son cuatro familias post-freeze dentro del conjunto descrito. | Corrección propuesta del propio texto de revisión, no cambio de S/T/H. |
+| REQ-R1-F002 | La tabla de cabecera fija revisión hasta 24 de septiembre; el final contiene una auditoría A23 de 26 de septiembre y la nota superior remite a la alineación de 2 de octubre. Una fecha única antigua no describe toda la procedencia. | Esta época fija el nuevo commit/blob y preserva las fechas históricas. No extrapolar «W1 closed» a todo lo publicado después. |
+| REQ-R1-F003 | CAND-R1 encuentra apoyo en S7 (attribution), S10 (material change), S12/S13 (history), S14 (transition); CAND-R2 en S1/S2/S8/S11 y T3; CAND-R3 en S1 scope/composition y S8 non-amplification; CAND-R4 en S10/S14/T2/T4. | Hay correspondencia textual y razón para revisar claridad. Una tabla de correspondencia no demuestra suficiencia operacional ni ausencia universal de S15. |
+| REQ-R1-F004 | A23 conserva P1/P2/P4 como implicaciones de proyecciones finitas; P3/P5/P6 no están certificados. El propio final de este VNext requiere semantic/reachability review antes de declarar canonical gaps. | Preservar la distinción entre defecto del modelo y defecto de Requirements; no forzar S/T para recuperar una fórmula objetivo. |
+| REQ-R1-F005 | «No new requirement» y «W1 determination» son recomendaciones bajo corpus/alcance fechado. Requirements §8 y su continuidad editorial permiten una extensión explícita futura. | No presentar la recomendación actual como exhaustividad permanente. Mantener abierto el falsador de un caso admisible que cumpla realmente todo S/T y falle. |
+| REQ-R1-F006 | Requirements congelado anuncia «two additional 00G/00H», mientras la revisión cubre seis familias. Es una descripción histórica de navegación, no evidencia de que 00I/00J no existan. | Registrar desajuste temporal; original congelado intacto. La expansión se explica en esta VNext. |
+
+**Comprobación de navegación:** 17 enlaces locales hacia 14 rutas distintas, todas presentes en el árbol; anclas examinadas cuando el texto destino estuvo recuperado. No certifica citas externas, lectores binarios o revisión completa de cada destino.
+
+### Conversación de auditoría
+
+**Codex, respuesta a la determinación W1 histórica:** se conserva la preferencia por Option A como recomendación de diseño. Se limita su alcance: no creación automática de S15/T5/H7 en esta pasada; no cierre general de suficiencia. CAND-A23-P5 y CAND-R4 comparten una pregunta de actuation binding, pero no son intercambiables: un interlock del modelo puede ser una realización de obligaciones ya presentes o una adición material. Esa clasificación exige su revisión específica.
+
+No hay auditor externo adicional en esta pasada. Otro auditor debe citar estos IDs y la fuente concreta; podrá objetar tanto la lectura de cobertura como las propuestas sin borrar este registro.
+
+## Propuestas quirúrgicas — REQ-R1, pendientes
+
+### REQ-R1-DELTA-002 — CAND-R4, texto candidato para una futura edición
+
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio16 incorporado en `research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Contrastar obligaciones de evidencia, autoridad, contexto y capacidad con especificaciones y trabajos externos. Distinguir cobertura equivalente, laguna real y regla propia de una solución; no alterar la base para proteger un diferencial.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Recorrer requisito → contrato → caso → prueba → afirmación de suficiencia y señalar dónde se pierde una condición, autoridad, capacidad o evidencia, en ambas VNext de la relación.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 16 · Vincular la ejecución al estado recalificado | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
+
+### Cambio 16 — Vincular la ejecución al estado recalificado
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Alto. Prioridad: Primera.** Cerrar documentalmente el hueco entre recheck y estado realmente usado.
+
+**Qué podría quedar desactualizado o afectado:** Puede añadir una obligación nueva a S10 y cambiar la lectura de pruebas/consumidores existentes; timestamps no prueban binding y un freeze no se reescribe.
+
+**Qué cuesta prepararlo:** Adjudicación normativa, successor y revisión de controles positivos/negativos e interfaces; la edición de una frase es la parte menor.
+
+**Dependencias conocidas:** [00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md](00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Resolver aclaración versus obligación nueva, versión y consumidores; no reivindicar A23 probado ni editar freeze.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-002--cand-r4-texto-candidato-para-una-futura-edición); el viejo tiene una coincidencia en [la fuente actual](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Líneas de trabajo por concretar — no cambios ejecutables
+
+| Trabajo ya recomendado | Impacto esperado | Riesgo | Esfuerzo | Prioridad / preparación |
+|---|---|---|---|---|
+| 43 · Precisar rol efectivo frente a rol vinculado (CAND-R1, §4) | Alto | Alto | Alto | Primera; sin par literal |
+| 44 · Hacer visible oportunidad, admisibilidad, autoridad y ejecución (CAND-R2, §4) | Medio | Medio | Medio | Siguiente; sin par literal |
+| 45 · Aclarar autorización del efecto compuesto (CAND-R3, §4) | Alto | Alto | Alto | Primera; sin par literal |
+
+**Precisar rol efectivo frente a rol vinculado.** Detectar deriva funcional sin convertir conducta o capacidad en autoridad. **Riesgo:** Puede ampliar S7/S10/S12/S13 y reinterpretar trazas previas; la observación no prueba legitimidad. **Coste:** Acordar obligación versus aclaración y fuente/consumidores; redactar antes/después de una edición futura. **Condición:** CAND-R1 no tiene aún par de cambio del Requirements congelado; no crear S15 por reflejo.
+
+**Hacer visible oportunidad, admisibilidad, autoridad y ejecución.** Mostrar una separación ya distribuida en los requisitos. **Riesgo:** Podría introducir una capa universal o confundir la ilustración con un nuevo requisito/permiso. **Coste:** Una ayuda de lectura y cotejo S/T/00H; elegir ficha o futura edición. **Condición:** Preparar un antes/después completo; no nuevo T5 ni adopción automática.
+
+**Aclarar autorización del efecto compuesto.** Evitar que autorizaciones atómicas legitimen una campaña fuera del grant. **Riesgo:** Elegir agregación universal o ledger central puede cambiar autoridad y scopes de otras ramas; el dueño legítimo fija la frontera. **Coste:** Precisar unidad material, conservar S/T y probar correspondencia de casos antes de una edición. **Condición:** CAND-R3 todavía sin par literal; no imponer ventana, ledger ni nueva familia.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 16 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 43 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
+| 44 | Trabajo por concretar; Por concretar; sin par literal | Medio | Medio | Medio | Siguiente |
+| 45 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
+
+**Cambio 16 — Cambio acoplado; no listo.** La requalificación temporal necesita conexión al estado realmente usado. El párrafo solo expresa la obligación; no resuelve el binding técnico.
+
+**Beneficio esperado:** Cerrar documentalmente el hueco entre recheck y estado realmente usado. **Riesgo concreto:** Puede añadir una obligación nueva a S10 y cambiar la lectura de pruebas/consumidores existentes; timestamps no prueban binding y un freeze no se reescribe. **Coste de preparar y mantener:** Adjudicación normativa, successor y revisión de controles positivos/negativos e interfaces; la edición de una frase es la parte menor.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Elegir successor del freeze y verificar un caso vigente, uno stale y otro check-to-use inválido en 16/19/43 y el dueño de ejecución. No ejecutar pruebas por este ranking. Revisar junto con 19, 43. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 43 — Trabajo por concretar.** CAND-R1 debe distinguir evidencia efectiva del rol y obligación vigente. No hay aún pasaje viejo/propuesto completo: no es parche listo.
+
+**Beneficio esperado:** Detectar deriva funcional sin convertir conducta o capacidad en autoridad. **Riesgo concreto:** Puede ampliar S7/S10/S12/S13 y reinterpretar trazas previas; la observación no prueba legitimidad. **Coste de preparar y mantener:** Acordar obligación versus aclaración y fuente/consumidores; redactar antes/después de una edición futura.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Localizar la laguna real frente aS7/S10/S12/S13/S14 y Role/Operation; si ya cubierta, no crear nuevo requisito. Concretar sólo después de adjudicar obligación versus realización. Revisar junto con 16, 19. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 44 — Trabajo por concretar.** La cadena oportunidad→admisibilidad→autoridad→ejecución ayuda a explicar límites. No hay caso/pasaje que pruebe obligación ausente.
+
+**Beneficio esperado:** Mostrar una separación ya distribuida en los requisitos. **Riesgo concreto:** Podría introducir una capa universal o confundir la ilustración con un nuevo requisito/permiso. **Coste de preparar y mantener:** Una ayuda de lectura y cotejo S/T/00H; elegir ficha o futura edición.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** CotejarS1/S2/S8/S11/T3 y 60 antes de ampliar vocabulario. Seleccionar pasaje literal sólo si la exposición actual no basta. Revisar junto con 60. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 45 — Trabajo por concretar.** La autoridad compuesta no se obtiene agregando permisos por parecido. Falta regla/perfil concreto y un par literal.
+
+**Beneficio esperado:** Evitar que autorizaciones atómicas legitimen una campaña fuera del grant. **Riesgo concreto:** Elegir agregación universal o ledger central puede cambiar autoridad y scopes de otras ramas; el dueño legítimo fija la frontera. **Coste de preparar y mantener:** Precisar unidad material, conservar S/T y probar correspondencia de casos antes de una edición.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Caso de permisos incompatibles y dueño legítimo; comprobarS1/S8/ACC sin inventar regla universal de agregación ni consentimientos. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+Nueva relaciónS5/S14/T4 con 03/Foundation: cierre legítimo acotado, residual explícito yventana/capacidad deben conservarse antes de clasificar fallos.03F6/F7ya distingue Type 0 de Type 1/2 ygestión de postura.73requiere cotejar los casos deespera/falsa aprobación en scope fijo; no añadeS15/T5/H7 ni obtiene resultados de una matriz de correspondencia. La fuente completa Foundation/perfiles aún falta;16/43–45 mantienen sus gates.
+
+Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+---
+
+## Foundation completa frente a S5, S14 y T4
+
+**6 octubre 2026, Codex, mismo asistente; `409bfa9eff2b3e24e7350021db9e587861583de8`.** Foundation integrada completa (135.021 caracteres) y pasajes actuales S5/S14/T4 de la fuente congelada, cotejados. [Auditoría en la fuente del argumento](01_FOUNDATIONAL_VNext.md).
+
+S5 conserva hechos incompletos sin promoverlos a permiso y evita UNKNOWN como veto universal. S14 declara evidencia y regla para cada transición; T4 pide una postura aún útil con capacidad/tiempo finitos. Foundation §§3.4–3.5/17.1.1/18 mantiene los casos de espera sin cierre y falsa certeza dentro de un scope fijo. 73 puede aclarar esa exposición, pero no cambia obligaciones S/T ni diagnostica Type 1 por coste aislado.
+
+La lectura completa también exige preservar §17.4: una salida observable no establece por sí sola invalidación de la decisión de misión. Ninguna señal de régimen crea autoridad. Para un ensayo, fijar la proposición, M/escape legítimo y respuesta todavía disponible; para la teoría, mantener el fundamento Type 0 y las respuestas no resueltas correctas.
+
+No se preparan S15/T5 ni otro KPI. 02A/02B, matrices y perfiles siguen por leer; 16/43–45 conservan sus gates. El contraste externo en Foundation delimita preservación frente a utilidad para un receptor limitado, sin demostrar H1–H6. Quinta ampliada y sexta global abiertas; canon intacto.
+
+---
+
+## HF-SPEC-META-20261012-01 — R3 uncertainty about the assessor's own configuration (proposal only)
+
+**12 October 2026 · conceptual research question:** Iván Abril Palma. **Cross-reading, synthetic adversarial test and proposal writer:** OpenAI ChatGPT GPT-6 (AI-assisted internal reviewer, not a second independent scientific auditor). **Four-pass status:** logic and source cross-read partial, proposal/navigation prepared, no independent human readability review, no formal normative adoption. 
+
+**Problem:** a strong configured adaptive detector may fail when its own trigger category, classifier method, event schema, source/pathway mapping or required threshold becomes UNKNOWN after R3. One must distinguish *receiving an unresolved status about the detector* from *successfully classifying the underlying B/C aspect*. A bounded meta-diagnostic about the first is possible without pretending the second was resolved. However, a disabled/unobservable/corrupted diagnostic cannot self-certify detection; a competent conventional integrity/validator-health watchdog with equal source access can supply the same warning.
+
+**Current-source route:** S3/T1 material change; S5/S14 source/scope UNKNOWN and evidence-to-decision; S9/S11 non-substitution; T2 bounded owner-preserving handoff; T3 external actuation/authority; T4 finite useful response; F2/F3/F6/F7/F8/F9 as candidate mechanisms. The current frozen S/T text does **not explicitly mandate** a self-diagnostic independent of the classifier it monitors, nor universal detection/immunity. A new Stage A source freeze is needed before adjudicating that proposed distinction; do not alter HF v0.3 preregistration or disclose this later proposal to its blind readers.
+
+**Executable differential check:** [v0.5 source, 28×9=252 deterministic traversals and raw records](./reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/first-channel-counterfactual-v0.5/README.md), with [v0.4 26×7 predecessor and 63 graph simulations](./reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/first-channel-counterfactual-v0.4/README.md). In selected stipulated worlds, EA meta-local records 7 known-denied effects, **native independent-integrity comparator also 7**, native fail-safe 1 but two authorized actions held. This does not prove a real-world rate or a T4 cost improvement, and no historic HF agent was run. 
+
+**Candidate (not incorporated into canonical S3/S5/S14 or T1/T2/T4):** [exact wording and META-01…META-10 prospective challenges](./reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/first-channel-counterfactual-v0.5/STAGE_A_SELF_QUALIFICATION_CANDIDATE.md). It requires a material, participant/decision-scoped diagnostic of **the validity of the assessment basis**, with provenance, observation trust, current contract, response owner, permitted EHD receiver, expiry/horizon, bounded trigger, explicit unknown and action/non-action fallback; no mandatory external signalling, forced substantive B/C label, authority grant, automatic role repositioning or unbounded self-referential immunity. It must state unavailable/silent meta-monitoring as an admitted limit.
+
+**Before (existing frozen wording):** S3/T1 describe material change of the decision basis; S5/S14 preserve uncertainty and evidence-to-decision assessment; T2/T4 constrain useful response. No explicit object requires checking **the qualifier's own qualifier/triggers**.
+
+**After (prospective proposal, pending owner approval):** make the *material validity of the evaluator's own assessment configuration* an eligible assessment subject within the declared observable boundary. If the current method cannot justify its own output, allow a bounded `QUALIFICATION_NOT_ESTABLISHED` message about **that method** without assigning the underlying B/C value; require a trustworthy observer or disclose its absence, named authorized local recipient, materiality/response horizon, stop condition and audit trail. Permit a strongest conventional implementation to match; count false holds and repeated review under T4.
+
+**Decision:** PROPOSAL_PENDING. No S15/T5, no new canonical gate, no stage acceptance, no institutional claim. Keep challenge construction, independent review and future freeze separate.
+
+---
+
+## HF-R3-META-IND-20261012 — distinct-algorithm correction
+
+**Reviewed on 12 October 2026.** Research question and demand for non-cloned strong peers: Iván Abril Palma. Executed synthetic tests and documentation: OpenAI ChatGPT GPT-6, same-side non-blind AI; no external independent assessor and no real OpenAI/HF agents.
+
+This is a material correction to HF-SPEC-META-20261012-01 above. The v0.5 7-vs-7 tie between EA self-qualification and conventional integrity relied on a shared diagnostic helper, so parity did **not** establish equivalence between independently designed detection methods. **Do not suppress or silently reinterpret v0.5; keep it as a predecessor.** The [v0.6 separate-algorithm and 300-trace report](./reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/first-channel-counterfactual-v0.6/README.md) now compares (a) a native signed-epoch/parser watcher, (b) a stronger conventional evidence-assurance contract, and (c) an EA self-assessment-basis monitor which produces an explicit local qualification-loss envelope with underlying B/C UNRESOLVED.
+
+**The two decisive falsifying worlds are asymmetric:** case 29 has an epistemic assessment-basis gap although the native technical parser returns OK — EA meta catches it, a narrow native integrity watcher misses it, *strong native assurance catches it*. In case 30 the ordinary signed configuration epoch is visibly wrong, but EA's own observer is not running — the conventional watcher catches it and EA misses it. In this selected 30-case model: EA meta-local **8**, native integrity **12**, native strong assurance **7** scorer-known-denied effects; native unknown-schema fail-safe **1** but two truly authorized actions held. These are stipulated counts, not empirical rates, and neither latency nor human response cost is realistically measured.
+
+**Requirements consequence:** the current S3/S5/S14/T1/T2/T4 basis makes a *prospective, scoped self-qualification candidate* plausible, not mandatory universally. A self-observation mechanism still requires a trustable and operational observer, permissioned EHD recipient and bounded response, and it may be absent, blind or corrupt. A strong conventional contract can implement the same obligation without EA terminology. Keep the current frozen S/T text, HF Stage A v0.3 blind packet and mutation contract untouched. Independently freeze and test the proposed META-01…META-10 cases under a successor package before Stage B, with equally competent peers and separate outcome/cost accounting. This review is an additional partial content/evidence pass; it is not a completed four-pass or independent human review.
+
+---
+
+## Fuentes, receptores y cambios del corpus — 12 octubre 2026
+
+**Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Meta-self-qualification HF se mantiene prospectiva. Siete efectos denegados del peer fuerte frente a ocho de EA no demuestran ventaja exclusiva; 27/32 consultas no prueban T4. Los inputs de owner, monitor, humanos y EHD no son fuentes del incidente. No se validan S1–S14/T1–T4 completos ni se crean S15/T5. 74 concierne a la admisión de datos del instrumento, no al arreglo del canon.
+
+Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.
+
+
+---
+
+<a id="ola2-cambio-09"></a>
+
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 16 | Vincular la ejecución al estado recalificado | research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md | Aplicado en sucesor |
+
+El frozen conserva exactamente su blob anterior. La revisión aprobada está incorporada en un sucesor de trabajo enlazado por baseline; los estudios registrados siguen usando su edición congelada. La incorporación textual no afirma resultados nuevos.
+
+
+
+## Internal Contributions history — frozen Requirements and working S10, 14 October 2026
+
+Reviewer `/root/case_clause_forensics`; the [common internal-history procedure](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#internal-contributions-history-takes-priority--14-october-2026) and [EP counterpart](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) hold source/receiver judgements. All12 Requirements payloads and11 deltas were authenticated/read against the complete current source; later approved working S10 is a separate edition. Frozen original [research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is unchanged since25September; successor [research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ca5dd562a9566e69f691a28a7dfbb0b6c69479bb/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds its opening approval note and one execution-basis binding in S10, while H1–H6/KPIs and other rows remain. Registered earlier studies retain their actual freeze. No universal consumer adoption is assumed.
+
+### Historical H3 correction — retain its direction
+
+Correction [6a8fd5fd801b](https://github.com/dakleyer/structural-awareness-contributions/commit/6a8fd5fd801be23a4ac3f9a8febd9a1c80befce3) on 2026-09-17T17:23:09+02:00 leaves the hypothesis unchanged but fixes its falsifier.
+
+**Unchanged complete hypothesis row**
+
+~~~~text
+| **H3 — Compositional residual expansion** | Under comparable evidence and computational resources, systems whose critical downstream decisions depend solely on lossy compressed representations will exhibit greater hidden residual and/or false confidence than systems with better context preservation or independent-source access. |
+~~~~
+
+**Historical metric/falsifier before — complete row**
+
+~~~~text
+| **H3** | **Source diversity and primary-source retrievability:** independent source routes and retrievable primary sources ÷ required material source routes. **Correlated-evidence error rate:** closures treating duplicated/correlated evidence as independent corroboration ÷ designated correlated-source branches. **Compression exposure:** number and criticality of downstream decisions dependent on one compressed source; propagation depth of compressed closures. **Systemic decision error** and **false confidence from recursive closure reuse** are reported against the oracle. | A lossy compressed path and a context-preserving/independent-source path have materially different hidden residual or false closure under comparable evidence and resources, contrary to the claimed preservation; or a candidate treats correlation as corroboration. |
+~~~~
+
+**Current metric/falsifier after — complete row**
+
+~~~~text
+| **H3** | **Source diversity and primary-source retrievability:** independent source routes and retrievable primary sources ÷ required material source routes. **Correlated-evidence error rate:** closures treating duplicated/correlated evidence as independent corroboration ÷ designated correlated-source branches. **Compression exposure:** number and criticality of downstream decisions dependent on one compressed source; propagation depth of compressed closures. **Systemic decision error** and **false confidence from recursive closure reuse** are reported against the oracle. | A lossy compressed path and a context-preserving/independent-source path show no material difference in hidden residual, false closure or coordination distortion under comparable evidence and resources; or the claimed advantage disappears once latency, disclosure and review burden are included. |
+~~~~
+
+The old falsifier said material difference defeats a hypothesis predicting greater harm under loss. The correction instead treats no material difference or vanished advantage under burden as limiting/falsifying evidence. Retain this correction; do not restore the mistaken direction.
+
+All six complete hypothesis rows are exact across the12 editions. Old false-falsifier restoration is rejected; full third-party scientific validation remains a different question. The [EP successor-reading candidate97](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#internal-contributions-history--ep-and-requirements-14-october-2026) appends guidance and retains the frozen/working boundary; it is pending named GO, not applied. Next: actual new-study/interface consumers and remaining internal source histories.
+
+
+## Third independent source review — first current-text reading, 14 October 2026
+
+The following is the isolated reviewer's own source-first account from its first execution boundary, preserved before continuation. Previous audit bodies were not opened. This is a **partial documentary reading**, not completion of this logical document, its historical/receiver integrations or the entire restoration/organization plan. The full first report is held unchanged under custody, SHA-256 `639141a6f7f283ec024fc59ce3847184dcb0a78045d776434cb4394e16cf3d4e`. Continuation uses the same isolated session and its own records; the coordinator supplies no previous findings.
+
+### Source reading reported by the isolated reviewer
+
+The actual controlled requirements sourcepreserves S1–S14, T1–T4, H1–H6 and branch-specific KPI/falsification routes. Its full tables were read, including authority, preferences, oversight capacity, bounded subdelegation, multi-principal conflict, commitment, policy, accountability and evidence-to-decision conditions. T3's strongest PNI condition quantifies over every covered admissible state rather than only expectation. T4 includes total burden, finite review capacity and useful response margin. Correctness elsewhere cannot compensate a missing material decision basis without a represented dependency and fresh requalification. The specific S/T/H routes stated in 00N §3.6 agree with the actual requirement mapping. This documentary agreement establishes neither frozen-source history nor conformance of a runtime.
+
+The specific mapping comparison with 00N is also recorded in [00N VNext](./00N_VNext.md#third-independent-source-review--first-current-text-reading-14-october-2026). Current table agreement is a source relationship; the historical freeze and actual technical consumers remain in the independent review queue.
+
+
+### Restoration and organization at this evidence level
+
+No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
+
+The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.
+
+
+## Third source review — distinct proof obligations and retained correction, 14 October 2026
+
+The [00K source/evidence record](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#third-source-review--00k-relative-proofs-and-preserved-corrections-14-october-2026) preserves the independently inspected old/current formulas and the current A23 correction. A19 requirement traceability, A21 declared grammar coverage, A23 reverse-conformance obligations and A24 projection to assigned labels do not establish the same property. Structural source manifests do not establish semantic fidelity. The source review does not restore old all-six sufficiency, create a requirement family or modify the frozen Requirements.
+
+A22 retains its valid simplified-model counting qualification and the conventional conjunction comparator; full A20 lifting remains a different obligation. The actual source/model code was read without execution. The affected A23 finding followed a disclosed earlier execution-report exposure and is not labelled perfectly blind. The corresponding record is also linked from Foundation VNext. Wider source-semantic, scenario and receiver checks remain open.
+
+
+## Unified restoration review 15 October 2026
+
+The unified plan retains the frozen requirements source and its working S10 successor as distinct editions. Applied proposal16 remains applied; it is not a restoration backlog item. Existing pending proposal97 concerns discovery from the EP closing note and is reproduced in EP VNext. Historical EP replacements require their own passage-specific authorization evidence; their usefulness does not establish that authorization. [Unified decisions, source checks and gates](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#unified-restoration-plan-15-october-2026). No requirement, original binary, source claim or successor is changed here.
+
+
+## Historical requirement reception — 15 October 2026
+
+Reviewer A read all225 current source lines and the changed historical units. The challenges→requirements wording retains S1–S14,T1–T4,H1–H6, declared scope and owner boundaries. Oscillation, saturation, false convergence and timeout controls add test conditions. H3's repaired falsifier correctly asks for no material difference or disappearance of the advantage after full burden, rather than treating the predicted difference itself as a refutation.
+
+The removed two-candidate summary has exact current receivers in this document: CAND-R1 at271–287 retains `Role_bound ↔ Role_effective`; CAND-R2 at289–305 retains `opportunity ≠ admissibility ≠ authority ≠ execution`, source blob `048caccffd4322b34b05017894070e5307036cd8`. Both remain candidate clarifications, not automatically promoted requirements. No old wording needs reinstatement. The complete wider historical frontier is reported in [Foundation VNext](01_FOUNDATIONAL_VNext.md#continued-foundation-and-charter-lineage-reception--15-october-2026).
+

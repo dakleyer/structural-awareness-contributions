@@ -34,7 +34,7 @@ A participant asks, for a declared receiving decision:
 
 1. What objective, mandate, policy or participation conditions appear applicable here?
 2. What ecosystem state is actually represented for that decision?
-3. What situated state is being asserted, with what confidence/intensity, what could still be established with current capability, and what remains structurally residual?
+3. What result is delivered, with what established support and assessable reserve, what grounded exploration remains uncharacterized, and what material effects lie beyond effective evaluation?
 4. Would obtaining or exchanging more information materially improve the decision before cost, privacy, capacity or time remove the option to act?
 5. Does the current control configuration remain supportable?
 6. What bounded state, limitation or requalification request should be handed to another participant or owner?
@@ -48,12 +48,12 @@ For participant i, decision d and time t, use participant indices when locality 
 - U_i(d,t) — bounded represented universe used by participant i;
 - W_i(d,t) — active decision-scoped Semantic Window selected from the represented/observable state available to i;
 - R_{U_i} — open decision-relevant residual relative to U_i;
-- A/B/C/D — the canonical four-component qualified epistemic position: situated scope/assertion (A), confidence/intensity (B), recognized current-capability frontier (C), and structural/residual unknown (D), interpreted relative to the participant's active decision/window;
+- A/B/C/D — the process-relative components defined in [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical): delivered result (A), established basis and characterized reserve (B), exploration frontier (C), and residual beyond effective evaluation (D), interpreted for the participant's declared process, question, scope, capability and time;
 - Q_i(d,t) — participant-local qualified operating-frame assessment for the declared receiving decision and scope.
 
 When this annex refers to F6 **systemic** assessment, systemic means composition across the domains and dependencies material to the declared receiving decision and scope. It does not denote one global ecosystem state, universal knowledge or a global posture.
 
-The base symbols Ω, U, R_U and W(d,t) retain their canonical meanings. The participant index is a locality clarification, not a new ontology. The current A/B/C/D reconciliation is owned by the [Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position); this annex does not create a competing definition.
+The base symbols Ω, U, R_U and W(d,t) retain their canonical meanings. The participant index is a locality clarification, not a new ontology. The current A/B/C/D definition is owned by [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical); this annex does not create a competing definition.
 
 A participant may also hold **local, versioned references or representations** of:
 

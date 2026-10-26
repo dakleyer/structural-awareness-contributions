@@ -1,0 +1,49 @@
+{
+  "version": "0.1",
+  "study_id": "DDS-HEW-RESEARCH-20261006",
+  "commissioned_full_DDS": false,
+  "objects": [
+    {
+      "object": 1,
+      "name": "IRG Sponsor verification hub/seal",
+      "status": "NOT_APPLICABLE_SELF_RESEARCH",
+      "artifact": null,
+      "reason": "No commissioned contributor/sponsor record or recognition authorization"
+    },
+    {
+      "object": 2,
+      "name": "Executive Report",
+      "status": "PREPARED_SCOPED_RESEARCH_VERSION",
+      "artifact": "EXECUTIVE_REPORT.md",
+      "reason": "Scaled model-research summary; not a full commissioned10-15 page PDF"
+    },
+    {
+      "object": 3,
+      "name": "Technical Research Report",
+      "status": "PREPARED_SCOPED_RESEARCH_VERSION",
+      "artifact": "TECHNICAL_REPORT.md",
+      "reason": "Full current scoped research content; not the promised client30-35 page package"
+    },
+    {
+      "object": 4,
+      "name": "Reproducible GitHub technical record",
+      "status": "PREPARED_FOR_CANONICAL_RELEASE",
+      "artifact": "RELEASE_MANIFEST.json",
+      "reason": "Source, freeze, cases, results, previous records and reproduction command"
+    },
+    {
+      "object": 5,
+      "name": "DOI-preserved research object",
+      "status": "NOT_REQUESTED_OR_ISSUED",
+      "artifact": null,
+      "reason": "No archive deposit/DOI claim; later eligible release/disclosure route"
+    },
+    {
+      "object": 6,
+      "name": "International pre-standardisation contribution",
+      "status": "DRAFT_PREPARED_NOT_SUBMITTED",
+      "artifact": "PRESTANDARDISATION_INPUT_DRAFT.md",
+      "reason": "Research candidate text only; forum fit/rules/owner final submission remain separate"
+    }
+  ]
+}

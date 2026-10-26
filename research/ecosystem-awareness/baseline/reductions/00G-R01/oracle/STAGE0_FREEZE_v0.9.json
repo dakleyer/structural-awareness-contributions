@@ -1,0 +1,167 @@
+{
+  "schema": "R01-C02-FREEZE-MANIFEST-0.9",
+  "status": "FROZEN_STAGE0_INSTRUMENTATION_INPUTS",
+  "input_snapshot_commit": "5654d38cb14f052c3daffc6557c7ff104023e56e",
+  "content_identity": "Git blob SHA-1 over exact file bytes; verified before execution",
+  "claim_boundary": "Instrumentation self-test only; no real technology executed",
+  "predecessor_manifests": [
+    "STAGE0_FREEZE_v0.4.json",
+    "STAGE0_FREEZE_v0.5.json",
+    "STAGE0_FREEZE_v0.6.json",
+    "STAGE0_FREEZE_v0.7.json",
+    "STAGE0_FREEZE_v0.8.json"
+  ],
+  "predecessor_policy": "Historical manifests remain immutable. v0.9 succeeds v0.8 only because the freeze verifier itself gained explicit schema-0.9 support and verify.py was advanced to this successor manifest; all other v0.8 frozen inputs retain their current bytes unless separately changed before this snapshot.",
+  "files": [
+    {
+      "path": "adapter_api.py",
+      "role": "adapter-contract",
+      "git_blob_sha1": "bf9158d870228819884abc56aa109e7b865ded83"
+    },
+    {
+      "path": "canonical_trace_v1.py",
+      "role": "trace-canonicalization",
+      "git_blob_sha1": "36ffd9768011270961d6d96aa97483578a3f0097"
+    },
+    {
+      "path": "contracts.py",
+      "role": "semantic-admission",
+      "git_blob_sha1": "5b6454cd1aa890521d325a61f3e37d82301cdc91"
+    },
+    {
+      "path": "harness.py",
+      "role": "batch-harness",
+      "git_blob_sha1": "7f6885c721535c337dfd4b9541ebd1998a88644d"
+    },
+    {
+      "path": "integrity.py",
+      "role": "freeze-verifier",
+      "git_blob_sha1": "b7044e0c6cb6f2d0bc9c9250d3c4ad2ac6483139"
+    },
+    {
+      "path": "interactive_harness.py",
+      "role": "interactive-harness",
+      "git_blob_sha1": "4dd1f4f9b3ceebf8edf0caf53d4bf2051c464b07"
+    },
+    {
+      "path": "reference.py",
+      "role": "primary-reference",
+      "git_blob_sha1": "0da5e9b092e953e100cb6f66103285f43a6c21cc"
+    },
+    {
+      "path": "reference_secondary.py",
+      "role": "secondary-reference",
+      "git_blob_sha1": "b1cb5a2b51699fb7a4a93eeb0dd7375762189d09"
+    },
+    {
+      "path": "reference_graph_exhaustive.py",
+      "role": "graph-reference-exhaustive",
+      "git_blob_sha1": "fefec687b2a6f6639bec40e4fc7e06146621b3e9"
+    },
+    {
+      "path": "reference_graph_dp.py",
+      "role": "graph-reference-dp",
+      "git_blob_sha1": "e831175cea94e6588d0affc7fd26227b976ded98"
+    },
+    {
+      "path": "real_admission.py",
+      "role": "real-t03-admission-validator",
+      "git_blob_sha1": "d2c83bc9d65b5e2e9bed16ce240bffffceed1559"
+    },
+    {
+      "path": "REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json",
+      "role": "real-t03-registration-template",
+      "git_blob_sha1": "e62ec3e2163a5d950b67c533d84ae93001bc0bbf"
+    },
+    {
+      "path": "tool_broker.py",
+      "role": "tool-broker",
+      "git_blob_sha1": "ed36ed594ae2c1470fc8215874947b7a9b4c247a"
+    },
+    {
+      "path": "verify.py",
+      "role": "selftest-runner",
+      "git_blob_sha1": "5ead49907e5f56f997cf2524463612cc8d8157b0"
+    },
+    {
+      "path": "schemas/r01_uc4_sidecar.schema.json",
+      "role": "sidecar-schema",
+      "git_blob_sha1": "5235a752f04c4b1e2b36337d1a0eecd7d11d0dd3"
+    },
+    {
+      "path": "fixtures/stage0/experiment_sidecar.json",
+      "role": "sidecar-fixture",
+      "git_blob_sha1": "a660eae62ff6d7fd685a3c738ad8854dd02cf216"
+    },
+    {
+      "path": "fixtures/stage0/worlds.json",
+      "role": "batch-worlds",
+      "git_blob_sha1": "10ce8d459e11afe557a1c8b9ba53852f21c04965"
+    },
+    {
+      "path": "fixtures/stage0/expected_selftest.json",
+      "role": "expected-outcomes",
+      "git_blob_sha1": "ed8a541201188110fedcc6d4bda6f24131af14dd"
+    },
+    {
+      "path": "fixtures/stage0/gate_policy.json",
+      "role": "gate-policy",
+      "git_blob_sha1": "7848721e4ed57c5ef8965e24293169592134e497"
+    },
+    {
+      "path": "fixtures/stage0/tool_profile.json",
+      "role": "low-level-control-profile",
+      "git_blob_sha1": "2190872577dfff34614eacddcdd89f1d44a73ff0"
+    },
+    {
+      "path": "fixtures/stage0/interactive_tool_profile.json",
+      "role": "strict-interactive-profile",
+      "git_blob_sha1": "2557b894a3156038e30fc5536fb9625889a7da2a"
+    },
+    {
+      "path": "fixtures/stage0/interactive_case.json",
+      "role": "interactive-case",
+      "git_blob_sha1": "fc564bdb43ee28cd1f1aa97228d9293a7f49aa72"
+    },
+    {
+      "path": "fixtures/stage0/graph_reference_controls.json",
+      "role": "graph-reference-controls",
+      "git_blob_sha1": "e28a4ff61b93cb0c555c979dc1fd184d42a47c37"
+    },
+    {
+      "path": "adapters/selftest_adapter.py",
+      "role": "batch-selftest-adapter",
+      "git_blob_sha1": "342dfbd463d671db71f5b5ebcef6f757a6aa9bca"
+    },
+    {
+      "path": "adapters/malformed_selftest_adapter.py",
+      "role": "malformed-negative-control",
+      "git_blob_sha1": "20976d2d6018ce92c8aafd3b12610bb77aa9c204"
+    },
+    {
+      "path": "adapters/abstain_selftest_adapter.py",
+      "role": "abstention-negative-control",
+      "git_blob_sha1": "b242ec24bda8377f79ed064e1ee7c7ea567a3e67"
+    },
+    {
+      "path": "adapters/misreport_cost_selftest_adapter.py",
+      "role": "cost-misreport-negative-control",
+      "git_blob_sha1": "faf8960351d829aaf9520acfd8e0910e8c88deee"
+    },
+    {
+      "path": "adapters/interactive_selftest_adapter.py",
+      "role": "interactive-selftest-adapter",
+      "git_blob_sha1": "69069f791386bcfd65cdaa5ab176220827a168a0"
+    },
+    {
+      "path": "adapters/hidden_selection_selftest_adapter.py",
+      "role": "hidden-selection-negative-control",
+      "git_blob_sha1": "0f2d6d2c3e6d0a31e49c8d95b0e97852d3b0e99c"
+    },
+    {
+      "path": "adapters/reserved_truth_selftest_adapter.py",
+      "role": "reserved-truth-negative-control",
+      "git_blob_sha1": "57a2738e91a1afd6a6ddaca91652e56498949019"
+    }
+  ]
+}

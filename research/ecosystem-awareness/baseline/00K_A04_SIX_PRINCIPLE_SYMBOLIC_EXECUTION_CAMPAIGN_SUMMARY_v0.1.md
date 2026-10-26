@@ -150,3 +150,13 @@ This does **not** establish:
 - independent external replication.
 
 The next evidence level is external/independent reproduction of the symbolic fixtures and then matched-resource execution against concrete implementation profiles.
+
+
+
+## Current regression count — 12 October 2026
+
+The campaign has three separately recorded execution states: **101 core +27 supplemental =128** ([25 September CI](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36099824950)); **101+33=134** ([successor CI](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965)); and **346+33=379** ([hardened-state CI](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548)). Each result belongs to its tested commit.
+
+The [current runner](./fixtures/00K-SUITE/run_all.py), [execution lock](./fixtures/00K-SUITE/principle_manifest.json) and [suite router](./fixtures/00K-SUITE/README.md) use379. The Section6 block still describes the original128 state: the [summary update](https://github.com/dakleyer/structural-awareness-contributions/commit/7b422314e170c7da910ba3ac995e561239d31466) advanced the introduction and tables without updating that block. The later summary corrections preserved it. This dated note identifies its historical scope without deleting it or regrading the earlier runs.
+
+The fixtures also changed in substance: corrected isolation and stronger repairs/refinement accompany the larger count. The [historical A1–A3 archive](./fixtures/00K-HISTORICAL/README.md) retains its32 assertions separately. Additional CI meta-checks and repeated P5 runs are not added to379. Regression reproduction does not establish independent scientific replication or product efficacy.

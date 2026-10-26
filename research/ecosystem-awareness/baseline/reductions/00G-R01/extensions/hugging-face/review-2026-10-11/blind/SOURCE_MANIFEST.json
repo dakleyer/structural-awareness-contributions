@@ -1,0 +1,38 @@
+{
+  "schema": "hf-dds-stage-a-blind-frozen-text-sources-v0.1",
+  "date": "2026-10-11",
+  "compiler": "OpenAI ChatGPT GPT-6; copy/index only, not independent reviewer",
+  "stage_a_acceptance": "PENDING",
+  "blind_review_completed": false,
+  "notes": "The exact frozen Markdown source content is provided as .txt without editing. Original Markdown relative links should be followed only at their pinned source path; no author's results or mutation predictions are in this blind text bundle. Git SHA-1 blob identity verifies contents, not semantic accuracy.",
+  "sources": [
+    {
+      "id": "A",
+      "frozen_copy": "frozen/A_CANONICAL_REQUIREMENTS.txt",
+      "source_path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "commit": "96cbc94921aa5f2f16463faaf4a2f165175383a0",
+      "original_blob_sha1": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c"
+    },
+    {
+      "id": "B",
+      "frozen_copy": "frozen/B_OWNERSHIP_MATURITY.txt",
+      "source_path": "research/ecosystem-awareness/fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md",
+      "commit": "a18bb0f32bed",
+      "original_blob_sha1": "38d64f61ef81a300a20d9d89cda65e5bb6ba5b22"
+    },
+    {
+      "id": "C",
+      "frozen_copy": "frozen/C_NEUTRAL_BR01_BR17.txt",
+      "source_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.2_NEUTRAL.md",
+      "commit": "1a39eca3136182ed2d44e56872aabd8bdde6c5f1",
+      "original_blob_sha1": "950a8f69c17cd91cee27122d02405759a0fcf725"
+    }
+  ],
+  "excluded_before_seal": [
+    "author v0.1 or v0.2 adjudication and result",
+    "mutation-test contract with predictions",
+    "external audit pack and critique/response",
+    "current assessment, evidence matrix and pre-Stage-B architecture notes"
+  ],
+  "claim_ceiling": "Only frozen Stage A requirement semantics, not architecture verification, actual agent behavior or provider certification."
+}

@@ -1,0 +1,18 @@
+{
+  "episodes.json.xz": {
+    "bytes": 1670108,
+    "sha256": "9e21449c4e99d4d8caf7ffed93057a1437bb56237f13e1d98a97ec9d60191f79"
+  },
+  "SELECTED_PAIR.json.xz": {
+    "bytes": 12384,
+    "sha256": "232ef3a8107988d6538a78ee8c4bd51e837eaeea39f29998cb2ec8d0cc6b3798"
+  },
+  "SUMMARY.json": {
+    "bytes": 39527,
+    "sha256": "09ad174b43867e662f5fa325ce0fdc8ace18681364cfedcf5e246eddad0fa597"
+  },
+  "VERIFICATION.json": {
+    "bytes": 517,
+    "sha256": "82cb6fe0d4870d40a48f956b322599145f0c7188886aefb34bf01def35f40ca8"
+  }
+}

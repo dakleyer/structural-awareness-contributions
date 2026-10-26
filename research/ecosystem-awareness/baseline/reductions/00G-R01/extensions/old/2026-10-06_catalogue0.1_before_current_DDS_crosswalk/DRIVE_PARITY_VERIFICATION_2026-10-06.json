@@ -1,0 +1,57 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "profiles": {
+    "rag": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "16XUxQvWlZuBjZVxJfOLZjJ2uSZkwhBVytffn0v_k3rQ",
+      "source_paragraphs": 57,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 77,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false
+    },
+    "oauth-oidc": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "10Wb_hgEdj5IW8lQNQDBIYYDh7rLyfE24et33QSuREhk",
+      "source_paragraphs": 58,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 73,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false
+    },
+    "mcp-tool-calling": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1dHNa75wkPZFPMjZQj_VqryBUlmQl8hXdIXG-PlcsFFE",
+      "source_paragraphs": 54,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 76,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false
+    },
+    "sql-transactions-idempotency": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1f8zPoJ8AcXZHhsS84Mb2KXiOxLmufEna9RhDs43r1AU",
+      "source_paragraphs": 55,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 82,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false
+    },
+    "durable-workflows-retries": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1YdNtmPb2Cth9E7f-7CHmaeViPvs0_7-3ZZdF8asyXls",
+      "source_paragraphs": 58,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 79,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false
+    }
+  },
+  "source_grade_not_upgraded": true
+}

@@ -1,0 +1,129 @@
+{
+  "schema": "FLORES_DOCUMENTARY_VALIDATION_1",
+  "version": "2026-10-13.ORGANIZATION.1",
+  "checkedAtUTC": "2026-10-14T05:51:25.368Z",
+  "result": "PASS_DOCUMENTARY_CHECKS",
+  "scientificStatus": "NOT_PREREGISTERED_NOT_EXECUTED_NOT_ADJUDICATED",
+  "independentScientificAudit": false,
+  "filesInventoried": 116,
+  "originalFiles": 65,
+  "originalPathsPresent": 65,
+  "originalUnchanged": 44,
+  "originalPreservedInCompletePredecessorArchive": 21,
+  "completePredecessors": 28,
+  "checkedLocalLinks": 535,
+  "checkedLocalFragments": 94,
+  "reachableFromCampaign": 116,
+  "unclassifiedFiles": [],
+  "repositoryDependenciesNotInPartialExport": [],
+  "repositoryFragmentsNotInPartialExport": [],
+  "externalURLAvailabilityChecked": false,
+  "privateBinaryIdentityChecked": false,
+  "knownScientificAndCustodyIssues": [
+    {
+      "id": "OPEN-01",
+      "state": "OPEN_NATIVE_ADMISSION"
+    },
+    {
+      "id": "OPEN-02",
+      "state": "OPEN_R2_FREEZE"
+    },
+    {
+      "id": "OPEN-03",
+      "state": "OPEN_R3_EA_CONTRACT"
+    },
+    {
+      "id": "OPEN-04",
+      "state": "OPEN_INDEPENDENT_ADJUDICATION"
+    },
+    {
+      "id": "OPEN-05",
+      "state": "KNOWN_LEGACY_LIMITATION"
+    },
+    {
+      "id": "OPEN-06",
+      "state": "PRIVATE_BINARY_CUSTODY_NOT_VERIFIED_HERE"
+    },
+    {
+      "id": "OPEN-07",
+      "state": "MUTABLE_SOURCE_FRESHNESS"
+    }
+  ],
+  "errors": [],
+  "instrumentReplay": {
+    "runtime": {
+      "result": "PASS_IN_DECLARED_FINITE_MODEL",
+      "namedControls": 20,
+      "nullPairs": 64,
+      "parity": "20_OF_20_STATUS_PARITY_NOT_A_SCIENTIFIC_DIFFERENTIAL",
+      "sourceNativeRun": false,
+      "EAImplementation": false
+    },
+    "runtimeOutputsByteIdentical": [
+      {
+        "path": "runtime-context/preflight/RESULTS_2026-10-13.json",
+        "sha256": "6a193cf997078561c577f5f6c7d216e2d93fc86a3b31a71e9eb783c622a3abbe",
+        "byteIdentical": true
+      },
+      {
+        "path": "runtime-context/preflight/CONTROL_MATRIX_2026-10-13.csv",
+        "sha256": "ac6f488fafd77115203f80154b298b9e11509f6e1d4f64af98e7ce6a05d87d80",
+        "byteIdentical": true
+      }
+    ],
+    "pythonChecker": {
+      "exitCode": 0,
+      "stdout": "PASS 21 authored consistency checks — no EA/Flores-native pass",
+      "knownTautologicalAssertionRetained": true
+    },
+    "nativeFloresExecuted": false,
+    "EAImplementationExecuted": false
+  },
+  "structuralNegativeControls": [
+    {
+      "name": "Tampered unchanged runtime evidence",
+      "expectedFailure": "HASH",
+      "detected": true
+    },
+    {
+      "name": "Modified predecessor even if its current inventory is edited",
+      "expectedFailure": "PREDECESSOR_MISMATCH",
+      "detected": true
+    },
+    {
+      "name": "False primary trial after coordinated inventory hash update",
+      "expectedFailure": "PRIMARY_TRIAL_DRIFT",
+      "detected": true
+    },
+    {
+      "name": "Lost legacy deep link despite updated document hash",
+      "expectedFailure": "LEGACY_ANCHOR_LOST",
+      "detected": true
+    },
+    {
+      "name": "Broken current local link despite updated document hash",
+      "expectedFailure": "LINK_MISSING",
+      "detected": true
+    },
+    {
+      "name": "Unclassified new artifact",
+      "expectedFailure": "UNCLASSIFIED_FILE",
+      "detected": true
+    }
+  ],
+  "earlierReplayAndNegativeChecksObservedUTC": "2026-10-14T05:43:22.248Z",
+  "finalizedLocalDate": "2026-10-14",
+  "localRecovery": {
+    "sourceInstances": 23,
+    "uniqueVersions": 16,
+    "sourceFilesUnmodified": true,
+    "byteIdentityForEveryArchivedVersion": true
+  },
+  "scope": "Full campaign structural custody plus exact recovery of all local narrative versions; no scientific adjudication",
+  "checkedExactPublicationPayload": true,
+  "exactPublicationPayloadValidationObservedUTC": "2026-10-14T05:52:30.581Z",
+  "publicationErratumResolved": "ERRATA-01: dependency array included and full checker executed from exact file payload, with complete repository dependencies",
+  "exactPayloadFiles": 116,
+  "exactPayloadLinks": 535,
+  "exactPayloadFragments": 94
+}

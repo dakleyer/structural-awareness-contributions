@@ -1,0 +1,580 @@
+{
+  "baseline_commit": "863d66760b1aee3232b13434ad5b6ae15444c601",
+  "authorization": "Ivan says adelante to the five-step annotated continuation on 25 October 2026",
+  "preserved_source_sha256": {
+    "model/01_NOTAS_COMPLETAS.md": "dfb595c8b7e3917dc725ba1a9bb7cce418d6f60d5d97a159585b39d5283fca5f",
+    "model/02_ARGUMENTO_AUTONOMO.md": "7bb39db9b7510dfca4f38ba8aa9343d4fac5050ec73cb970411342ab61d55616",
+    "model/03_CAPACIDADES_Y_DIALOGO.md": "cd31074cae51df58d214e082b4f21c104846675973d2e066a8626c85137e377f",
+    "model/04_CORRESPONDENCIA_TECNICA_Y_SOCIAL.md": "526320b2eff8d41ba7e4eadeed3c69f55bd5f30c659df57a28c94eda36f857a5",
+    "coverage/paragraphs.json": "3544a395bf70802ad4e701fc6950839f9dc3e17bbb1e8bd46bcec0b38b5e00cc"
+  },
+  "changes": [
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C01"
+      ],
+      "before": "En una ilustración cardinal declarada, puede estudiarse Δu_i+t_i−c_i≥0 para cada participante con suma t_i=0. La transferencia cambia el reparto; el tiempo y los recursos gastados en investigar, negociar y reconfigurar son costes adicionales. Seguridad, derechos, autoridad y ciertas responsabilidades pueden ser no transferibles. En perfiles ordinales se conservan órdenes y acuerdos sin inventar una utilidad cardinal.",
+      "after": "Con utilidad plenamente transferible, un numerario común, costes en la misma unidad y transferencias practicables sin restricciones adicionales, puede estudiarse Δu_i+t_i−c_i≥0 para cada participante con suma t_i=0. Bajo esos supuestos, existe una distribución si ΣΔu_i≥Σc_i; la mera cardinalidad no basta. La transferencia cambia el reparto; el tiempo y los recursos gastados en investigar, negociar y reconfigurar son costes adicionales. Seguridad, derechos, autoridad y ciertas responsabilidades pueden ser no transferibles. En perfiles ordinales se conservan órdenes y acuerdos sin inventar una utilidad cardinal."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C02",
+        "C05"
+      ],
+      "before": "Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.",
+      "after": "Se separan oportunidad favorable local, acuerdo conjunto inmediato, ejecución tras reajuste y bloqueo persistente. Una dimensión de evaluación no es por sí misma un titular de veto. El poder de detener corresponde a una condición material o institucional de una transición concreta.\n\nComprender una mejora no concede mandato para realizarla. Como en el tendero que puede fiar y la cajera que no puede autorizarlo, importa disponer de vías efectivas para comprender, negociar, modificar, impugnar o detener una decisión según las facultades aplicables; ninguna se presume por el mero conocimiento.\n\nUn acuerdo conjunto inmediato presupone información suficiente sobre las dimensiones relevantes, costes de transición incluidos y permiso y mecanismo disponibles. No requiere inventar negociación distributiva adicional, aunque pueda consumir recursos ordinarios de comprobación o implementación."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C03"
+      ],
+      "before": "Se comparan regímenes donde W es informativo y donde una autoridad legítima lo adopta como condición vinculante. No admitir aumento de G y no admitir pérdida de W son reglas distintas. El segundo criterio puede aceptar oportunidades no realizadas si otras ganancias compensan el coste bajo el perfil elegido.",
+      "after": "Se comparan regímenes donde W es informativo y donde una autoridad legítima lo adopta como condición vinculante. No admitir aumento de G y no admitir pérdida de W son reglas distintas. El segundo criterio puede aceptar oportunidades no realizadas si otras ganancias compensan el coste bajo el perfil elegido.\n\nAmbos regímenes son propuestas para ensayo comparativo. La condición ΔW ≥ 0 no sustituye automáticamente consentimiento, dignidad, derechos no compensables ni autoridad legítima. En el régimen B, mayor producción con ΔW < 0 no supera esa puerta; las demás condiciones permanecen."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C06"
+      ],
+      "before": "La continuidad a través de cambios sucesivos interesa además de un acierto puntual. Se contrastan entornos estables, cambios conocidos, novedades y secuencias mixtas, con iguales futuros posibles, información ex ante y reglas de adaptación. La preparación y mantenimiento de ambos métodos cuentan incluso en futuros en que no se utilizan. La analogía del tropiezo no concede previsión del fallo a un brazo.",
+      "after": "La continuidad a través de cambios sucesivos interesa además de un acierto puntual. Se contrastan entornos estables, cambios conocidos, novedades y secuencias mixtas, con iguales futuros posibles, información ex ante y reglas de adaptación. La preparación y mantenimiento de ambos métodos cuentan incluso en futuros en que no se utilizan. La analogía del tropiezo no concede previsión del fallo a un brazo.\n\nPredicción candidata: con calidad comparable y controles especializados y adaptativos competentes, la ventaja neta puede ser nula o negativa en entornos estables y bien catalogados. Se contrastará si cambia con la novedad y la tasa de cambio, contando preparación y mantenimiento completos de ambos métodos."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C08"
+      ],
+      "before": "La motivación permite contrastar prosperidad material distribuida, autonomía/participación y solidaridad libremente elegida. Pueden combinarse o entrar en tensión. El diálogo con Magnifica Humanitas y las referencias a Babel/Nehemías conservan su naturaleza interpretativa; sus correspondencias no validan modelos técnicos ni imponen una finalidad religiosa. Las personas conservan dignidad y derechos con independencia de su productividad.",
+      "after": "La motivación permite contrastar prosperidad material distribuida, autonomía/participación y solidaridad libremente elegida. Pueden combinarse o entrar en tensión. El diálogo con Magnifica Humanitas y las referencias a Babel/Nehemías conservan su naturaleza interpretativa; sus correspondencias no validan modelos técnicos ni imponen una finalidad religiosa. Las personas conservan dignidad y derechos con independencia de su productividad.\n\nLa antivisión es la dependencia obligada y el sacrificio evitable. Ayuda a identificar límites, pero deja abierta la elección positiva entre prosperidad distribuida, autonomía, participación y solidaridad libremente elegida, u otros fines legítimamente declarados."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C09"
+      ],
+      "before": "Las escenas del plátano muestran cómo aparecen nuevas condiciones. Una alternativa puede mejorar eficiencia y reparto pero necesitar coordinación. Resuelta ésta, Cáritas/DANA y Viernes/Robinson muestran que la atribución, el reconocimiento o la distribución relativa del diferencial pueden condicionar aceptación aun cuando ambos mantengan ganancias directas positivas.",
+      "after": "Las escenas del plátano muestran cómo aparecen nuevas condiciones. Una alternativa puede mejorar eficiencia y reparto pero necesitar coordinación. Resuelta ésta, Cáritas/DANA y Viernes/Robinson muestran que la atribución, el reconocimiento o la distribución relativa del diferencial pueden condicionar aceptación aun cuando ambos mantengan ganancias directas positivas.\n\nCáritas/DANA es aquí un ejemplo hipotético sobre preferencias y percepciones del donante. No describe prácticas reales de la entidad ni atribuye egoísmo, error o mala fe. Se mantienen las ganancias directas positivas y se estudia por separado el crédito o reconocimiento relativo."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C10"
+      ],
+      "before": "Una persona con reconocimiento de incapacidad puede encontrar barreras para desplegar capacidades y preferencias. Se estudian apoyos y formas de participación sin deducir obligación de trabajar ni garantizar una adaptación suficiente en todos los casos. La dignidad no se mide por la aportación producida.",
+      "after": "Una persona con reconocimiento de incapacidad puede encontrar barreras para desplegar capacidades y preferencias. Se estudian apoyos y formas de participación sin deducir obligación de trabajar ni garantizar una adaptación suficiente en todos los casos. La dignidad no se mide por la aportación producida.\n\nLas alternativas se evalúan conservando derechos, protección y elección de la persona."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C12"
+      ],
+      "before": "Verdad del dominio y fundamento para actuar son preguntas diferentes. El limpiador de mesas puede carecer de base para cambiar de misión sin resolver la verdad completa de una afirmación histórica. Una insuficiencia no se compensa con muchos datos de otro dominio ni con repeticiones dependientes.",
+      "after": "Verdad del dominio y fundamento para actuar son preguntas diferentes. El limpiador de mesas puede carecer de base para cambiar de misión sin resolver la verdad completa de una afirmación histórica. Una insuficiencia no se compensa con muchos datos de otro dominio ni con repeticiones dependientes.\n\nSi dos estados requieren respuestas distintas pero producen la misma información admitida, una decisión basada sólo en ella no puede distinguirlos siempre. El estudio variará fuentes, observabilidad, latencia y capacidad de revisión. Un control con feedback suficiente puede eliminar el diferencial; el límite queda referido a la observación impuesta."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C21"
+      ],
+      "before": "El conjunto n de dimensiones es finito y provisional. Una alternativa domina sobre las coordenadas declaradas si ninguna empeora y alguna mejora; eso no equivale automáticamente a Pareto sobre las preferencias completas de todas las personas. La apertura n→n+1 invita a investigar condiciones omitidas, datos, derechos, mecanismos, capacidades o costes. No obliga a inventar una dimensión invisible que salve cualquier predicción del modelo.",
+      "after": "El conjunto n de dimensiones es finito y provisional. Una alternativa domina sobre las coordenadas declaradas si ninguna empeora y alguna mejora; eso no equivale automáticamente a Pareto sobre las preferencias completas de todas las personas. La apertura n→n+1 invita a investigar condiciones omitidas, datos, derechos, mecanismos, capacidades o costes. No obliga a inventar una dimensión invisible que salve cualquier predicción del modelo.\n\nEl protocolo fijará presupuesto de investigación, evidencia mínima y criterio de mejora explicativa fuera del caso que motivó el ajuste. Agotado ese presupuesto sin discriminar mecanismos, el resultado será causa no resuelta. Una dimensión incorporada después se registra como exploración para un contraste nuevo."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C22"
+      ],
+      "before": "Los ensayos de unanimidad y redes fijan supuestos como independencia, q constante, topología y generación de propuestas. La saturación del rechazo no demuestra por sí sola aceleración indefinida. Las interacciones también pueden producir sinergias; una red dispersa o una coordinación competente pueden refutar una extrapolación del bloqueo.",
+      "after": "Los ensayos de unanimidad y redes fijan supuestos como independencia, q constante, topología y generación de propuestas. La saturación del rechazo no demuestra por sí sola aceleración indefinida. Las interacciones también pueden producir sinergias; una red dispersa o una coordinación competente pueden refutar una extrapolación del bloqueo.\n\nLa expresión q^v describe el caso de consentimientos independientes. Con q = 0,9 y v = 20 da 0,1216; con respuestas perfectamente coincidentes da 0,9. Una prueba debe variar correlación, delegación, sustitución, negociación y gobierno conjunto."
+    },
+    {
+      "file": "MODEL.md",
+      "actions": [
+        "C07"
+      ],
+      "before": "FH-C formula una prioridad causal comparativa de perder conciencia de límites en clases de deriva; FH-E, una posible economía computacional para la misma tarea de cualificación y calidad no inferior. Son hipótesis diferentes. Menor cómputo no implica menor complejidad arquitectónica o coste total. Awareness puede estudiarse sin Repositioning; alojar este modelo en ACC no cambia esa independencia.",
+      "after": "FH-C formula una prioridad causal comparativa de perder conciencia de límites en clases de deriva; FH-E, una posible economía computacional para la misma tarea de cualificación y calidad no inferior. Son hipótesis diferentes. Menor cómputo no implica menor complejidad arquitectónica o coste total. Awareness puede estudiarse sin Repositioning; alojar este modelo en ACC no cambia esa independencia.\n\nFH-C es una prioridad causal propuesta y falsable para clases declaradas de deriva, con evidencia, autoridad y recursos comparables. La comparación de FH-E define la tarea independientemente y contabiliza también construcción y mantenimiento de la cartografía. Estas condiciones no convierten las hipótesis en resultados demostrados ni alteran su independencia respecto de Repositioning."
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "actions": [
+        "C11"
+      ],
+      "before": "Estas expresiones identifican construcciones de trabajo de las fuentes. Su ejecución requiere fijar parámetros, unidades y supuestos. No constituyen un teorema común.",
+      "after": "Estas expresiones identifican construcciones de trabajo de las fuentes. Su ejecución requiere fijar parámetros, unidades y supuestos. No constituyen un teorema común.\n\nLas letras son locales a cada familia: D distribución, C coordinación y A atribución en un toy no equivalen a las regiones epistémicas A/B/C/D. E como eficiencia tampoco equivale a E(n), número de relaciones. Una ejecución declarará su diccionario de símbolos sin reescribir las fuentes."
+    },
+    {
+      "file": "CASES.md",
+      "actions": [
+        "C09"
+      ],
+      "before": "| Cáritas y DANA | Ganancia directa y crédito/legitimidad relativa | Condiciones de participación y desacuerdo |",
+      "after": "| Cáritas y DANA | Ganancia directa y crédito/legitimidad relativa | Condiciones de participación y desacuerdo; ejemplo hipotético de preferencias, sin afirmación sobre prácticas reales de Cáritas ni atribución de mala fe |"
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "actions": [
+        "C04",
+        "C12",
+        "C19",
+        "C20",
+        "C21"
+      ],
+      "before": "",
+      "after": "## Primer estudio delimitado y controles adicionales\n\nEl [protocolo económico v0.1](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) fija unidad, actores, costes, autoridad, información, comparadores, 18 casos, criterios y expectativas manuales antes de la implementación. [El recorrido manual](studies/economic-pilot-v0.1/MANUAL_TRAVERSAL.md) y el freeze conservan ese contrato. El modelo determinista es una realización de estudio; no una API ni integración de ACC en agentes.\n\nEl estudio incluye el control de información y bienestar propuesto en C04: mismo estado material, diferente visibilidad de una alternativa y registro separado de W, elección y acceso acordado a información. La disminución de F por ocultación puede subir una puntuación sin eliminar la causa material. No se presume que conocer siempre aumente malestar. Los controles auxiliares son construcciones, no mediciones humanas.\n\nDos estados con la misma información visible pueden exigir respuestas distintas: se conserva ese fallo en E09/E10. T06 impone un máximo de dos consultas y permite causa no resuelta. La continuidad se examina con aprobación caducada, reparación que deja obsoleta una orden todavía autenticada y renovación legítima. El procedimiento convencional dispone de las mismas vías de revisión y puede empatar o resultar más barato.",
+      "operation": "append"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B02 | Awareness y limites del conocimiento | S1-P0048 a S1-P0550 |",
+      "after": "| B02 | Awareness y limites del conocimiento | S1-P0048 a S1-P0088; S1-P0549 a S1-P0550 (43 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B03 | Dos ejes e inputs humanos | S1-P0089 a S1-P0537 |",
+      "after": "| B03 | Dos ejes e inputs humanos | S1-P0089 a S1-P0119; S1-P0536 a S1-P0537 (33 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B04 | Antivision dinamica | S1-P0120 a S1-P0522 |",
+      "after": "| B04 | Antivision dinamica | S1-P0120 a S1-P0147; S1-P0521 a S1-P0522 (30 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B17 | Consolidado estado dimensiones e hipotesis | S1-P0517 a S1-P0570 |",
+      "after": "| B17 | Consolidado estado dimensiones e hipotesis | S1-P0517 a S1-P0520; S1-P0523 a S1-P0535; S1-P0538 a S1-P0548; S1-P0551 a S1-P0566; S1-P0569 a S1-P0570 (46 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B22 | Anexo experimental especificacion | S1-P0701 a S1-P0741 |",
+      "after": "| B22 | Anexo experimental especificacion | S1-P0701 a S1-P0706; S1-P0709 a S1-P0741 (39 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B24 | Experimentos causales y custodia | S1-P0707 a S1-P0812 |",
+      "after": "| B24 | Experimentos causales y custodia | S1-P0707 a S1-P0708; S1-P0784 a S1-P0812 (31 párrafos) |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C14"
+      ],
+      "before": "| B25 | Matematico v0.2 | S1-P0567 a S1-P0868 |",
+      "after": "| B25 | Matematico v0.2 | S1-P0567 a S1-P0568; S1-P0813 a S1-P0868 (58 párrafos) |"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15"
+      ],
+      "before": "Se conservan divergencias entre textos: alcance y significado histórico de ABCD, numeración de referencias, formulaciones tempranas fuertes y precisiones posteriores. La guía integrada usa significados propietarios y condiciones explícitas, sin corregir silenciosamente el archivo histórico.",
+      "after": "Se conservan divergencias entre textos: alcance y significado histórico de ABCD, numeración de referencias, formulaciones tempranas fuertes y precisiones posteriores. La guía integrada usa significados propietarios y condiciones explícitas, sin corregir silenciosamente el archivo histórico.\n\nAñadir notas localizadas para S3 P0027–P0031 frente a 00M. Para S3 P0007, indicar que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. Conservar transcripción histórica, referencia cotejada y explicación de la diferencia como campos distintos. Véanse las [notas de cotejo](review/SOURCE_NOTES.md), que distinguen abreviatura histórica, definición canónica y localizador externo."
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C16"
+      ],
+      "before": "El corpus no obtiene una auditoría independiente por reunir textos del mismo autor o por esta organización de Codex. Las comprobaciones de párrafos, vínculos y hashes son controles de conservación, no pruebas de superioridad ni cierre DDS.",
+      "after": "El corpus no obtiene una auditoría independiente por reunir textos del mismo autor o por esta organización de Codex. Las comprobaciones de párrafos, vínculos y hashes son controles de conservación, no pruebas de superioridad ni cierre DDS.\n\nEl control de conservación verifica libros frente al inventario y no autentica por sí solo la fuente. La fidelidad frente a las lecturas nativas se documentó en la autoauditoría; no se ha repetido esa descarga por ejecutar el piloto. Un cambio concordante de libro e inventario puede pasar el primer control, por lo que la custodia y los controles conceptuales permanecen separados."
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C18"
+      ],
+      "before": "| Baterías sintéticas declaradas en las notas | Antecedentes reportados por la fuente; no reejecutados ni autenticados por este traslado |",
+      "after": "| Baterías sintéticas declaradas en las notas | Antecedentes reportados; ejecución original no autenticada. Existe una nueva recreación analítica independiente, identificada por separado |"
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C18"
+      ],
+      "before": "La reutilización de un resultado exige recuperar su protocolo, versión, código/salidas y derechos; una cifra que aparece en una nota no se convierte en observación autenticada del nuevo paquete.",
+      "after": "Autenticar una ejecución histórica exige recuperar su protocolo, versión, código/salidas y derechos. Recrear consecuencias matemáticas puede hacerse a partir de parámetros suficientes con una implementación nueva y procedencia propia; no autentica por ello aquella ejecución. Una cifra que aparece en una nota no se convierte en observación autenticada del nuevo paquete."
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C23"
+      ],
+      "before": "Las ideas y notas de trabajo conservan atribución a Iván Abril Palma / The Integral Management Society. El repositorio mantiene su licencia y las condiciones de fuentes ajenas. Un contexto cultural no autoriza reproducción de conocimientos, archivos o materiales de sus titulares. No se adjuntan los archivos privados enlazados por el dossier.",
+      "after": "Las ideas y notas de trabajo conservan atribución a Iván Abril Palma / The Integral Management Society. El repositorio mantiene su licencia y las condiciones de fuentes ajenas. Un contexto cultural no autoriza reproducción de conocimientos, archivos o materiales de sus titulares. No se adjuntan los archivos privados enlazados por el dossier.\n\nLa publicación de un identificador de Drive no concede acceso: los permisos efectivos se comprueban por separado. No se ha cerrado una revisión de ACL ni de consentimientos para materiales adicionales. Esta corrección no incorpora archivos privados, amplía derechos culturales ni atribuye representación de una comunidad."
+    },
+    {
+      "file": "SOURCES_AND_COVERAGE.md",
+      "actions": [
+        "C13",
+        "C14",
+        "C15",
+        "C23",
+        "C24"
+      ],
+      "before": "",
+      "after": "## Recepción tras la auditoría consolidada\n\nLos cuatro libros y el inventario conservan sus bytes de la versión auditada. Los siete grupos discontinuos se muestran con sus intervalos y recuento; no son nuevos párrafos ni bloques continuos. El [mapa de conceptos](review/CONCEPT_MAP.md) explica la recepción material de las perspectivas y añade pasajes concretos de S3. Sus estados distinguen preservación, explicación, especificación y ejecución acotada.\n\nLas [notas de fuentes](review/SOURCE_NOTES.md) localizan abreviaturas y referencias imprecisas sin corregir retrospectivamente los libros. El historial íntegro de todos los prompts y los derechos de materiales adicionales siguen fuera del cierre alcanzado.",
+      "operation": "append"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C04",
+        "C13",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "",
+      "after": "## Evidencia incorporada el 25 de octubre de 2026\n\nSe ejecutó el [primer modelo determinista](studies/economic-pilot-v0.1/results/RESULTS.md) sobre 18 casos congelados y expectativas manuales: 36 recorridos de dos procedimientos competentes, dos controles negativos y 62 eventos. La implementación concuerda con ese recorrido. Los dos procedimientos principales empatan; E10 sigue siendo FAIL para ambos por el límite de información. El control incompleto no se usa como comparador fuerte.\n\nLos [cálculos analíticos recreados](studies/synthetic-recreation-v0.1/results.json) se distinguen de las cifras muestrales históricas. Las ejecuciones originales de 10.000 réplicas permanecen sin autenticar. Un código nuevo puede derivar las mismas expectativas y explorar parámetros; eso no prueba el mecanismo en organizaciones reales.\n\nEl [protocolo](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) es soporte para la especificación de Stage A, sin aceptación formal DDS ni cierre B/C. No se implementa EA, ACC o una tecnología nativa UC21/R01. El [adaptador documental](studies/economic-pilot-v0.1/DDS_ADAPTER_SPEC.md) prepara una correspondencia S5 y conserva NOT_RUN para el resultado de la fuente. Los indicadores humanos siguen siendo ilustraciones con medidas empíricas pendientes.\n\nLa [disposición de las auditorías](review/AUDIT_ACTIONS.md) registra correcciones, refinamientos y límites abiertos, incluido el historial completo de prompts. Dos asistentes de IA no constituyen una validación humana independiente.",
+      "operation": "append"
+    },
+    {
+      "file": "DDS_EVALUATION_PLAN.md",
+      "actions": [
+        "C18",
+        "C19"
+      ],
+      "before": "**Estado:** programa candidato de investigación; no se ha ejecutado por incorporar este artefacto.",
+      "after": "**Estado:** programa candidato de investigación; el primer piloto determinista acotado fue ejecutado el 25 de octubre de 2026. La agenda completa no se ha ejecutado ni obtiene aceptación DDS por este piloto."
+    },
+    {
+      "file": "DDS_EVALUATION_PLAN.md",
+      "actions": [
+        "C12",
+        "C18",
+        "C19"
+      ],
+      "before": "",
+      "after": "## Primer protocolo y correspondencia de fuente\n\nEl [estudio económico v0.1](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md) realiza un subconjunto de preguntas de ACC-ECO-01, 04–06, 10–11 y 16–22, con cobertura parcial indicada en su protocolo. No ejecuta las 22 familias. Se publican recorrido manual, entradas congeladas, implementación, trazas y resultados contrarios.\n\nLa primera correspondencia útil es con S5: una orden diferida puede dejar de estar justificada aunque su token siga vigente. [El adaptador v0.1](studies/economic-pilot-v0.1/DDS_ADAPTER_SPEC.md) fija versión de fuente, campos y límites; exporta una vista documental, no una ejecución del caso original. El oráculo social del modelo y el oráculo UC21 permanecen separados. No se conecta todavía un ejecutor de base de datos ni un desafío R01; esas dependencias se incorporarán sólo mediante el protocolo DDS correspondiente.",
+      "operation": "append"
+    },
+    {
+      "file": "README.md",
+      "actions": [
+        "C18",
+        "C19"
+      ],
+      "before": "**Estado:** modelo de trabajo deliberadamente acotado, preparado para desarrollo y evaluación posterior.",
+      "after": "**Estado:** modelo de trabajo deliberadamente acotado con un primer piloto determinista ejecutado; la evaluación científica e integración posteriores permanecen abiertas."
+    },
+    {
+      "file": "README.md",
+      "actions": [
+        "C18",
+        "C19"
+      ],
+      "before": "La existencia de este paquete no equivale a un cierre DDS ni a un sistema ejecutado. Las cifras sintéticas históricas conservan el estado declarado por sus autores y no se presentan como runs reproducidos por esta incorporación.",
+      "after": "Existe ahora un [piloto económico determinista](studies/economic-pilot-v0.1/STUDY_PROTOCOL.md), con [recorrido manual](studies/economic-pilot-v0.1/MANUAL_TRAVERSAL.md), código y [resultados](studies/economic-pilot-v0.1/results/RESULTS.md). Ejecuta una especificación pequeña: los procedimientos principales empatan y los límites conservan sus FAIL. No es una integración operativa de ACC ni un cierre DDS. Las cifras sintéticas históricas conservan su procedencia y siguen sin autenticarse; la [recreación analítica nueva](studies/synthetic-recreation-v0.1/README.md) se identifica por separado."
+    },
+    {
+      "file": "README.md",
+      "actions": [
+        "C13",
+        "C15",
+        "C16",
+        "C18"
+      ],
+      "before": "",
+      "after": "## Qué cambió tras las auditorías\n\nSe restauran premisas de compensación, acuerdo y autoridad; se explicitan las cautelas de bienestar y ejemplos hipotéticos; se corrigen rangos y se prepara una trazabilidad conceptual. [La disposición de las 24 acciones](review/AUDIT_ACTIONS.md) distingue lo aplicado y lo pendiente. El [mapa de conceptos](review/CONCEPT_MAP.md) y las [notas de fuentes](review/SOURCE_NOTES.md) permiten seguir las condiciones y sus diferencias históricas.\n\nPara reproducir el piloto basta Python 3.12 o posterior y su biblioteca estándar. Las instrucciones están en su protocolo. La coincidencia de un ejecutable con tablas manuales no certifica toda la teoría ni mide bienestar humano. El alojamiento y uso posterior en ACC conservan los límites declarados al comienzo de esta página.",
+      "operation": "append"
+    },
+    {
+      "file": "checks/check_preservation.py",
+      "actions": [
+        "C16"
+      ],
+      "before": "\"model_experiments_executed\":False",
+      "after": "\"model_runs_verified_by_this_preservation_check\":False"
+    },
+    {
+      "file": "REVIEW_AND_COVERAGE.md",
+      "actions": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24"
+      ],
+      "before": "",
+      "after": "## Conciliación y correcciones autorizadas el 25 de octubre de 2026\n\nIván responde «adelante» a conciliar ambas auditorías, aplicar correcciones mínimas preservando fuentes, fijar un protocolo económico, recorrerlo a mano, implementar un modelo determinista y examinar continuidad con posterior adaptación DDS. La anotación autoriza esta secuencia y actualiza el PR en borrador; no autoriza fusionarlo ni cambiar todo ACC.\n\n### Primera pasada Fondo y lógica\n\nCodex releyó las objeciones semánticas y formales frente a los pasajes completos citados. Restauró la premisa de utilidad transferible, las condiciones de acuerdo inmediato y la agencia efectiva. Se incorporó el contraejemplo de ocultación como pregunta de diseño, sin concluir que toda medida de bienestar genere ese incentivo. Se mantiene el núcleo económico y la posibilidad de coordinación competente. La falta de un historial completo impide certificar todos los prompts originales.\n\n### Segunda pasada Evidencia y relaciones\n\nLos cuatro libros y el inventario permanecen idénticos a la versión auditada. El [mapa de conceptos](review/CONCEPT_MAP.md) conecta fuentes, condiciones, explicación, pregunta, refutador y evidencia, con recepción explícita de S3. Las notas de cotejo conservan abreviaturas históricas. El piloto no implementa EA o ACC: sus dos procedimientos competentes empatan y el límite E10 conserva FAIL. Se separan recreación analítica nueva y autenticación histórica pendiente. La correspondencia S5 sólo prepara un adaptador documental y mantiene el resultado de fuente sin ejecutar.\n\n### Tercera pasada Edición estructura y formato\n\nSe corrigieron siete rangos discontinuos, las cautelas locales de Cáritas, capacidades y bienestar, y la notación por familias. Las redacciones comparten sus anclajes sin duplicar fuentes. Se actualiza la entrada existente del artefacto y se conservan sus versiones previas auténticas. El [delta exacto](review/applied_delta.json) registra antes y después; no se crea otra VNext ni se cambia el cuerpo normativo de 01I.\n\n### Cuarta pasada Legibilidad y comprensión\n\nCodex recorrió la entrada, el núcleo económico, el caso empresarial, la tabla de variables, las expectativas manuales, los resultados y el límite de la correspondencia DDS. Las notas de sensibilidad y capacidad se colocaron después de la tabla formal completa para conservar su lectura continua; se redujo repetición sin suprimir condiciones. La ruta permite distinguir un acuerdo beneficioso, un permiso insuficiente, un efecto realmente observado y un FAIL conocido. El empate de los procedimientos y el fallo de información no quedan ocultos tras un PASS de comprobación.\n\nEsta es una simulación de lectura por el mismo asistente, no una prueba con una persona nueva ni una revisión humana independiente. La integración conceptual está examinada en los conceptos y pasajes declarados; el historial original completo y la validación empírica siguen abiertos.",
+      "operation": "append"
+    },
+    {
+      "file": "research/ecosystem-awareness/baseline/01I_VNext.md",
+      "actions": [
+        "C13",
+        "C18",
+        "C19"
+      ],
+      "before": "",
+      "after": "## ACC auxiliary model audit corrections and first bounded study\n\nIván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.",
+      "operation": "append to existing owner"
+    },
+    {
+      "file": "research/ecosystem-awareness/README_VNext.md",
+      "actions": [
+        "C13",
+        "C18",
+        "C19"
+      ],
+      "before": "",
+      "after": "## ACC auxiliary model implementation reception\n\nIván authorizes the consolidated audit corrections and the first economic protocol, manual traversal, deterministic reference model and continuity controls on 25 October 2026. The [existing bounded artefact](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md) retains its economic core, complete source books and later-use boundary. Its local study is specification evidence only: no normative ACC integration, native UC21 result, formal DDS acceptance or merge is claimed. Exact changes and the four-pass review remain in the artefact owner record.",
+      "operation": "append to existing owner"
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "actions": [
+        "C19",
+        "C20"
+      ],
+      "before": "## Propuesta y transición",
+      "after": "### Sensibilidad que debe fijar cada estudio\n\nVariar topología, densidad, p, h, beneficio b, conversión λ, retiro y horizonte; incluir coste incremental de interoperabilidad y transición. Mostrar regiones con ganancia, empate y pérdida. En el brazo de crédito, contrastar la regla de veto contra explicaciones por servicio, riesgo y autoridad legítima. La probabilidad q de aceptación independiente de unos filtros y la fracción q de obligaciones protegidas de otro toy son parámetros locales distintos; una realización debe distinguirlos. No se infiere causalidad de una curva incorporada por la topología o por la regla de retiro.\n\n### Medidas de contribución humana\n\nToda medida declarará contrafactual, horizonte, denominador y evidencia de evitabilidad. Separar cuota observada de ACW, capacidad liberable, contribución genuina potencial y recuperación real. Si no hay convertibilidad o referencia comparable, conservar vector, intervalo o no establecido. HICT y HICR conservan su definición propietaria. Una pérdida de habilidades exige observaciones distintas del trabajo ACW eliminado; no se deduce del cociente de horas.\n\n## Propuesta y transición",
+      "reason": "Keep the complete formal-family table continuous; add explanatory notes after it"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "| Integración y ejecución futuras | Trabajo pendiente; alojamiento documental no es implantación |",
+      "after": "| Integración operativa en agentes y tecnologías | Trabajo pendiente; el piloto determinista acotado ya ejecutado no equivale a esa integración |",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "Añadir notas localizadas para S3 P0027–P0031 frente a 00M. Para S3 P0007, indicar que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. Conservar transcripción histórica, referencia cotejada y explicación de la diferencia como campos distintos.",
+      "after": "Las notas localizadas cotejan S3 P0027–P0031 frente a 00M. Para S3 P0007 señalan que la formulación explícita sobre dignidad independiente de capacidades está en Magnifica Humanitas §50, cotejado de nuevo en la edición oficial. La transcripción histórica, la referencia cotejada y la explicación de la diferencia se conservan como campos distintos.",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    },
+    {
+      "file": "RESEARCH_STATUS.md",
+      "actions": [
+        "C15",
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "before": "## Próximo cierre verificable\n\nCongelar una pregunta y un caso mínimo con variables, comparadores y oráculos. Después implementar y ejecutar sólo lo declarado, publicar trazas y resultados positivos/negativos, y revisar qué parte de la hipótesis queda sostenida o refutada. Los costes de información, adaptación y revisión se atribuyen una vez.",
+      "after": "## Primer cierre ejecutado y siguientes pasos\n\nEl protocolo mínimo ya está congelado, recorrido manualmente e implementado, con costes atribuidos, comparadores competentes y resultados publicados más abajo. El siguiente paso científico es una revisión independiente de sus supuestos y expectativas, seguida de una pregunta nueva que justifique otro estudio; el empate no demuestra ventaja diferencial. La futura conexión nativa DDS → UC21 requiere los criterios de fuente, observabilidad, permisos y oráculo definidos en el adaptador. El historial completo de prompts, la autenticación histórica y los derechos de material adicional conservan su propia condición pendiente.",
+      "reason": "Close stale future-tense instructions after the first study; retain actual remaining limits",
+      "baseline_commit": "de0ea771ebc7c7bf4a5a9d1c4c1f91040ccdb3ed"
+    },
+    {
+      "file": "MODEL.md",
+      "user_annotations": [
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "Las escenas del plátano muestran cómo aparecen nuevas condiciones. Una alternativa puede mejorar eficiencia y reparto pero necesitar coordinación. Resuelta ésta, Cáritas/DANA y Viernes/Robinson muestran que la atribución, el reconocimiento o la distribución relativa del diferencial pueden condicionar aceptación aun cuando ambos mantengan ganancias directas positivas.",
+      "after": "La secuencia conserva escenas diferentes. En los ministerios puede mejorar la eficiencia y quedar pendiente el reparto o la autoridad. Llevar un plátano hasta alguien que lo necesita —África en la variante recordada por Iván— puede mejorar la distribución y añadir transporte. Entregarlo cerca de su producción, en el país de origen, puede evitar ese viaje y el desperdicio, bajo los supuestos ilustrativos y costes completos del caso. Si entonces mejoran eficiencia y reparto, todavía puede faltar coordinación. En la recogida Cáritas/DANA se supone ya disponible la ruta logística; la atribución, el reconocimiento o la distribución relativa del diferencial pueden condicionar la aceptación, como también en Viernes/Robinson, aun con ganancias directas positivas. El [recorrido de variantes](CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear) mantiene sus supuestos y fuentes separados.",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "MODEL.md",
+      "user_annotations": [
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "## Dos hipótesis distintas y retroalimentación de la aceptación",
+      "after": "### Dimensiones implícitas y activación en una transición\n\nUna dimensión puede estar implícita en las preferencias, reglas o relaciones de un sistema y no discriminar las opciones de su funcionamiento habitual. Cuando una interacción, reorganización o cambio de régimen abre alternativas, esa misma dimensión puede pasar a afectar el acuerdo. Activarla no equivale a crearla ni a descubrir una coordenada desconocida: también puede cambiar el peso o la restricción de una dimensión ya representada. Registrar estas posibilidades por separado evita identificar todo cambio con n→n+1.\n\nEl reparto del beneficio adicional lo ilustra. En una sociedad sencilla que repite la misma operación, si no hay una mejora adicional disponible dentro del conjunto factible y horizonte declarados, no hay un nuevo diferencial positivo que repartir en esa comparación. La transición que abre otra posibilidad puede hacer efectivo ese reparto: quién recibe la nueva ganancia y su reconocimiento. Su solución puede facilitar el acuerdo, requerir reajuste o dar lugar a un bloqueo con titulares concretos. Las distribuciones y preferencias previas pueden existir aunque ese diferencial no esté disponible. Mayor complejidad también puede resolver una restricción o habilitar una cooperación; no implica necesariamente más vetos.\n\nUn óptimo de Pareto relativo a un conjunto factible no contiene una mejora paretiana dentro de ese mismo conjunto. Una situación ineficiente es otra posibilidad: la mejora puede existir y quedar desconocida, inaccesible bajo las reglas actuales o bloqueada. La persistencia de un régimen no distingue por sí sola esas situaciones. Ampliar el conjunto factible mediante una transición cambia la comparación; reconocer una oportunidad antes omitida cambia nuestro conocimiento de ella. Ninguna de las dos operaciones prueba una pérdida acumulada durante siglos ni un malestar vivido.\n\nPara el siguiente estudio se registrarán régimen, opciones y horizonte, dimensión implícita o ya reconocida, hecho que la hace material, afectados, condición de aceptación, autoridad y costes. Un contraste posible sigue la misma dimensión antes de abrirse una alternativa, al abrirse y después de acordar o bloquear su reparto. Esta es una precisión conceptual recibida de Iván; el primer piloto congelado no la contrasta específicamente.\n\n## Dos hipótesis distintas y retroalimentación de la aceptación",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "MODEL.md",
+      "user_annotations": [
+        1
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "Los tres estados de dos plátanos ilustran que más consumo puede coexistir con un balance peor bajo preferencias declaradas.",
+      "after": "La experiencia humana tampoco se agota en preguntar quién gana y quién soporta los costes. Interesa qué comprende o intenta aportar la persona, qué trabajo intelectual realiza y qué efecto útil llega a tener para el fin declarado. Puede haber inteligencia realmente movilizada en reconocer una mejora, proponerla o producir un resultado que después no se utiliza; también trabajo cuyo resultado se comprueba carente de utilidad para ese fin. Esas situaciones se distinguen de no emplear la capacidad, de mantener una garantía necesaria y de una contribución efectiva. La falta de efecto puede proceder de una arquitectura o de una transición bloqueada y no implica inutilidad de la persona o de su inteligencia.\n\nEsa distancia entre lo comprendido, lo que se hace y lo que puede realizarse ofrece una hipótesis sobre frustración e insatisfacción, además del sacrificio de recursos. Se registran por separado inteligencia movilizada, uso efectivo del resultado, utilidad contrastada y experiencia declarada. No se presume que esfuerzo o frustración midan inteligencia, que todo trabajo descartado fuera evitable, ni que el tiempo liberado deba convertirse en producción. El reparto de costes sigue siendo parte de la evaluación económica; no representa por sí solo esta relación entre capacidad, actuación y experiencia. Se mantienen las definiciones de HID, GIC, NEO y ACW y la prohibición de sumar dos veces el mismo coste.\n\nLos tres estados de dos plátanos ilustran que más consumo puede coexistir con un balance peor bajo preferencias declaradas.",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "CASES.md",
+      "user_annotations": [
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "## Conservación de las catorce acciones",
+      "after": "## Recorrido de variantes y condiciones que pueden bloquear\n\nLas escenas cambian deliberadamente supuestos. No se comprimen en un único ejemplo logístico ni en una lista fija de dimensiones: se pregunta qué mejora, qué condición sigue sin resolverse y qué cambio la haría material. E y R mantienen aquí la notación integrada de eficiencia y reparto; las letras históricas de cada pasaje conservan su interpretación en las notas de fuentes.\n\n| Escena | Mejora considerada y supuesto distintivo | Condición que puede bloquear | Fuente y límite |\n|---|---|---|---|\n| Dos ministerios | Mismo servicio y garantías con menos recursos | Reparto, medios de vida, facultad o transición institucional | [S1-P0104](model/01_NOTAS_COMPLETAS.md#s1-p0104), [S1-P0153](model/01_NOTAS_COMPLETAS.md#s1-p0153); ahorro no equivale a acuerdo de todos |\n| Plátano enviado a quien lo necesita, África en la variante de Iván | Mejor reparto mediante un traslado adicional | Recursos y logística pueden empeorar E; la entrega requiere medios y consentimiento | [S1-P0269](model/01_NOTAS_COMPLETAS.md#s1-p0269) recoge el traslado; África es la precisión directa de Iván, no un dato histórico verificado de una cadena comercial |\n| Plátano aprovechado cerca de su producción, en el país de origen | Alternativa a transportarlo y terminar desechándolo; 14.000 km son ilustrativos | Información, coordinación, contratos, pagos, entrega y efectos sobre terceros | [S1-P0271](model/01_NOTAS_COMPLETAS.md#s1-p0271), [S1-P0272](model/01_NOTAS_COMPLETAS.md#s1-p0272), [S1-P0158](model/01_NOTAS_COMPLETAS.md#s1-p0158); la proximidad simplifica ese supuesto físico, no acredita factibilidad completa |\n| Plátano y recogida Cáritas/DANA ya disponible | Alimento seguro y ruta legítima existente; se reduce la carga marginal de coordinación | Atribución, reconocimiento, confianza o reparto del diferencial pueden seguir importando | [S1-P0214](model/01_NOTAS_COMPLETAS.md#s1-p0214)–[S1-P0216](model/01_NOTAS_COMPLETAS.md#s1-p0216); preferencias hipotéticas del donante |\n| Viernes y Robinson | Ganancia absoluta positiva para ambos, repartida 1/999 en la ilustración | Preferencia sobre el diferencial y reconocimiento; no desaparece la ganancia directa | [S1-P0277](model/01_NOTAS_COMPLETAS.md#s1-p0277); no atribuye la misma preferencia a toda persona |\n| Dos plátanos en tres estados | No producir, producir y desechar, o aprovechar ambos bajo condiciones factibles | El paso al tercer estado requiere identificar la restricción; F y W necesitan su propia medida | [S1-P0639](model/01_NOTAS_COMPLETAS.md#s1-p0639); cifras ilustrativas, no medición psicológica |\n\nLa [activación de dimensiones](MODEL.md#dimensiones-implícitas-y-activación-en-una-transición) permite leer cómo aparece un nuevo diferencial al abrirse una transición, aunque las preferencias de reparto fueran implícitas antes. No presupone que toda escena añada un veto, ni confunde dimensión de evaluación con actor autorizado para detener la acción. [Procedencia de las tres aclaraciones](review/PROMPT_CLARIFICATIONS.md).\n\n## Conservación de las catorce acciones",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "user_annotations": [
+        1
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "## Propuesta y transición",
+      "after": "### Inteligencia movilizada resultado utilizado y experiencia\n\nUn estudio humano distinguirá capacidad disponible, actividad intelectual efectivamente realizada, resultado producido, uso de ese resultado, utilidad para el fin declarado y frustración o insatisfacción declaradas. Contrastar un resultado no utilizado con uno utilizado sin utilidad demostrada, una garantía necesaria y una mejora útil bloqueada. Investigar sus motivos y alternativas antes de clasificar ACW como evitable. El esfuerzo por sí solo no mide inteligencia; la ausencia de resultado útil no implica incapacidad personal. Mantener costes, HID y experiencia separados, con unidades y población propias.\n\n## Propuesta y transición",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "STUDY_SPECIFICATION.md",
+      "user_annotations": [
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "## Episodio de estudio",
+      "after": "### Activación de dimensiones en el siguiente protocolo\n\nRegistrar conjuntamente: régimen y estado inicial; opciones factibles y accesibles y horizonte; dimensión implícita o ya reconocida; evento o transición que la vuelve material; beneficio adicional y reparto propuesto cuando existan; actores y condición que habilita o bloquea; autoridad, información, tiempo y coste. Distinguir activación de una dimensión presente, descubrimiento de una omitida, cambio de su peso y ampliación real de opciones. La ausencia de un nuevo beneficio a repartir no elimina las distribuciones previas. Una sociedad persistente no se clasifica como óptima ni ineficiente sólo por persistir.\n\nContrastes pendientes: régimen repetitivo sin nuevo diferencial; transición que lo abre y activa el reparto; acuerdo o bloqueo con motivos observables; y transición que reduce condiciones o resuelve un cuello común. Comparar también una mejora existente pero desconocida con otra no disponible en el conjunto inicial. Congelar esos casos en un estudio posterior: estas precisiones no alteran entradas, expectativas, resultados ni alcance del piloto económico v0.1.\n\n## Episodio de estudio",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "README.md",
+      "user_annotations": [
+        1,
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "Para reproducir el piloto basta Python 3.12 o posterior y su biblioteca estándar.",
+      "after": "Las [tres aclaraciones de Iván](review/PROMPT_CLARIFICATIONS.md) precisan inteligencia movilizada y experiencia, mantienen las variantes de ministerios y plátanos, y distinguen dimensiones implícitas de su activación en una transición. Su recepción amplía la explicación y las preguntas del siguiente protocolo; el estudio ya congelado conserva sus resultados y alcance.\n\nPara reproducir el piloto basta Python 3.12 o posterior y su biblioteca estándar.",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "review/CONCEPT_MAP.md",
+      "user_annotations": [
+        1,
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "| CONCEPT-02 Una dos y n dimensiones<br>[S1-P0264](../model/01_NOTAS_COMPLETAS.md#s1-p0264), [S1-P0533](../model/01_NOTAS_COMPLETAS.md#s1-p0533), [S1-P0535](../model/01_NOTAS_COMPLETAS.md#s1-p0535) | Órdenes y perímetro declarados; dimensión no equivale a persona [Destino](../MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto) | ACC-ECO-01: Ejes conocidos dominados y preferencia relevante perjudicada | Explicado; escalado con n pendiente |",
+      "after": "| CONCEPT-02 Una dos y n dimensiones<br>[S1-P0264](../model/01_NOTAS_COMPLETAS.md#s1-p0264), [S1-P0533](../model/01_NOTAS_COMPLETAS.md#s1-p0533), [S1-P0535](../model/01_NOTAS_COMPLETAS.md#s1-p0535) | Órdenes y perímetro declarados; dimensión no equivale a persona; distinguir dimensión implícita, activación y descubrimiento [Destino](../MODEL.md#dimensiones-implícitas-y-activación-en-una-transición) | ACC-ECO-01: Régimen estable con reparto ya material, o transición que elimina restricciones; activación no implica n más uno | Precisión conceptual de Iván; contraste específico pendiente |",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "review/CONCEPT_MAP.md",
+      "user_annotations": [
+        1,
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "| CONCEPT-05 Coordinación del plátano<br>[S1-P0254](../model/01_NOTAS_COMPLETAS.md#s1-p0254), [S1-P0275](../model/01_NOTAS_COMPLETAS.md#s1-p0275) | La entrega y su coste deben ser factibles [Destino](../MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto) | ACC-ECO-02: El medio de coordinación existente ya basta | Explicado; prueba propia pendiente |",
+      "after": "| CONCEPT-05 Variantes del plátano y coordinación<br>[S1-P0254](../model/01_NOTAS_COMPLETAS.md#s1-p0254), [S1-P0269](../model/01_NOTAS_COMPLETAS.md#s1-p0269), [S1-P0271](../model/01_NOTAS_COMPLETAS.md#s1-p0271), [S1-P0272](../model/01_NOTAS_COMPLETAS.md#s1-p0272), [S1-P0275](../model/01_NOTAS_COMPLETAS.md#s1-p0275) | Separar traslado adicional, entrega en origen y recogida disponible; costes y factibilidad propios [Destino](../CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear) | ACC-ECO-02: El medio de coordinación existente ya basta | Explicado; prueba propia pendiente |",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "review/CONCEPT_MAP.md",
+      "user_annotations": [
+        1,
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "| CONCEPT-06 Atribución y ganancias positivas<br>[S1-P0215](../model/01_NOTAS_COMPLETAS.md#s1-p0215), [S1-P0216](../model/01_NOTAS_COMPLETAS.md#s1-p0216), [S1-P0275](../model/01_NOTAS_COMPLETAS.md#s1-p0275) | Ejemplo hipotético; conservar utilidad directa positiva de ambos [Destino](../MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto) | ACC-ECO-03: Se acepta el reparto relativo sin bloqueo | Explicado; comportamiento humano no medido |",
+      "after": "| CONCEPT-06 Atribución y ganancias positivas<br>[S1-P0215](../model/01_NOTAS_COMPLETAS.md#s1-p0215), [S1-P0216](../model/01_NOTAS_COMPLETAS.md#s1-p0216), [S1-P0275](../model/01_NOTAS_COMPLETAS.md#s1-p0275) | Ganancias directas positivas; el nuevo diferencial puede activar un reparto antes no material [Destino](../MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto) | ACC-ECO-03: Se acepta el reparto relativo sin bloqueo | Explicado; comportamiento humano no medido |",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "review/CONCEPT_MAP.md",
+      "user_annotations": [
+        1,
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "| CONCEPT-13 Brecha y frustración<br>[S1-P0317](../model/01_NOTAS_COMPLETAS.md#s1-p0317), [S1-P0639](../model/01_NOTAS_COMPLETAS.md#s1-p0639) | Factibilidad y experiencia requieren auditorías distintas [Destino](../MODEL.md#utilidad-bienestar-y-frustración) | ACC-ECO-10: Comprender alivia o agrava F sin cambiar G | Control W ilustrado; no medición humana |",
+      "after": "| CONCEPT-13 Brecha y frustración<br>[S1-P0317](../model/01_NOTAS_COMPLETAS.md#s1-p0317), [S1-P0639](../model/01_NOTAS_COMPLETAS.md#s1-p0639) | Separar brecha, inteligencia movilizada sin efecto útil y experiencia declarada; factibilidad contrastada [Destino](../MODEL.md#utilidad-bienestar-y-frustración) | ACC-ECO-10: Comprender alivia o agrava F sin cambiar G | Control W ilustrado; no medición humana |",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "review/CONCEPT_MAP.md",
+      "user_annotations": [
+        1,
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "| CONCEPT-24 HID y uso elegido<br>[S1-P0597](../model/01_NOTAS_COMPLETAS.md#s1-p0597), [S1-P0601](../model/01_NOTAS_COMPLETAS.md#s1-p0601), [S1-P0602](../model/01_NOTAS_COMPLETAS.md#s1-p0602), [S1-P0603](../model/01_NOTAS_COMPLETAS.md#s1-p0603), [S1-P0606](../model/01_NOTAS_COMPLETAS.md#s1-p0606), [S3-P0023](../model/03_CAPACIDADES_Y_DIALOGO.md#s3-p0023) | Contrafactual, unidades y conversión; ACW observado no es recuperación de GIC [Destino](../MODEL.md#utilidad-bienestar-y-frustración) | ACC-ECO-21: El tiempo liberado se usa legítimamente para descanso | Control auxiliar numérico; habilidades no medidas |",
+      "after": "| CONCEPT-24 HID y uso elegido<br>[S1-P0597](../model/01_NOTAS_COMPLETAS.md#s1-p0597), [S1-P0601](../model/01_NOTAS_COMPLETAS.md#s1-p0601), [S1-P0602](../model/01_NOTAS_COMPLETAS.md#s1-p0602), [S1-P0603](../model/01_NOTAS_COMPLETAS.md#s1-p0603), [S1-P0606](../model/01_NOTAS_COMPLETAS.md#s1-p0606), [S3-P0023](../model/03_CAPACIDADES_Y_DIALOGO.md#s3-p0023) | Contrafactual, unidades y conversión; distinguir esfuerzo realizado, uso, utilidad y recuperación efectiva de GIC [Destino](../MODEL.md#utilidad-bienestar-y-frustración) | ACC-ECO-21: El tiempo liberado se usa legítimamente para descanso | Control auxiliar numérico; habilidades no medidas |",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "review/concepts.json",
+      "user_annotations": [
+        1,
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "{\n  \"scope\": \"material concepts reviewed in this revision; no claim that every idea in all sources or prompts is exhaustively audited\",\n  \"records\": [\n    {\n      \"id\": \"CONCEPT-01\",\n      \"concept\": \"Dos vías económicas\",\n      \"source_units\": [\n        \"S1-P0010\",\n        \"S1-P0093\"\n      ],\n      \"condition\": \"Mismo servicio íntegro para eficiencia; utilidad y reparto no equivalen a ahorro\",\n      \"integrated_destination\": \"MODEL.md#núcleo-económico-del-modelo\",\n      \"candidate_contrast\": \"ACC-ECO-01\",\n      \"counterexample\": \"La ganancia depende de bajar calidad o trasladar daño\",\n      \"evidence_state\": \"Ilustración de servicio equivalente; no validación empírica\"\n    },\n    {\n      \"id\": \"CONCEPT-02\",\n      \"concept\": \"Una dos y n dimensiones\",\n      \"source_units\": [\n        \"S1-P0264\",\n        \"S1-P0533\",\n        \"S1-P0535\"\n      ],\n      \"condition\": \"Órdenes y perímetro declarados; dimensión no equivale a persona\",\n      \"integrated_destination\": \"MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto\",\n      \"candidate_contrast\": \"ACC-ECO-01\",\n      \"counterexample\": \"Ejes conocidos dominados y preferencia relevante perjudicada\",\n      \"evidence_state\": \"Explicado; escalado con n pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-03\",\n      \"concept\": \"H1 y H2\",\n      \"source_units\": [\n        \"S1-P0331\",\n        \"S1-P0565\",\n        \"S1-P0566\"\n      ],\n      \"condition\": \"Aditividad instrumental distinta de complejidad condicionada\",\n      \"integrated_destination\": \"MODEL.md#dos-hipótesis-distintas-y-retroalimentación-de-la-aceptación\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Sinergia o coordinación elimina el bloqueo\",\n      \"evidence_state\": \"Explicado; causalidad no contrastada\"\n    },\n    {\n      \"id\": \"CONCEPT-04\",\n      \"concept\": \"Acuerdo inmediato\",\n      \"source_units\": [\n        \"S1-P0254\",\n        \"S1-P1006\"\n      ],\n      \"condition\": \"Información suficiente, transición incluida, permiso y mecanismo\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-01\",\n      \"counterexample\": \"Un coste omitido convierte la supuesta mejora en perjuicio\",\n      \"evidence_state\": \"E02 ilustrado en modelo determinista\"\n    },\n    {\n      \"id\": \"CONCEPT-05\",\n      \"concept\": \"Coordinación del plátano\",\n      \"source_units\": [\n        \"S1-P0254\",\n        \"S1-P0275\"\n      ],\n      \"condition\": \"La entrega y su coste deben ser factibles\",\n      \"integrated_destination\": \"MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto\",\n      \"candidate_contrast\": \"ACC-ECO-02\",\n      \"counterexample\": \"El medio de coordinación existente ya basta\",\n      \"evidence_state\": \"Explicado; prueba propia pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-06\",\n      \"concept\": \"Atribución y ganancias positivas\",\n      \"source_units\": [\n        \"S1-P0215\",\n        \"S1-P0216\",\n        \"S1-P0275\"\n      ],\n      \"condition\": \"Ejemplo hipotético; conservar utilidad directa positiva de ambos\",\n      \"integrated_destination\": \"MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto\",\n      \"candidate_contrast\": \"ACC-ECO-03\",\n      \"counterexample\": \"Se acepta el reparto relativo sin bloqueo\",\n      \"evidence_state\": \"Explicado; comportamiento humano no medido\"\n    },\n    {\n      \"id\": \"CONCEPT-07\",\n      \"concept\": \"Agencia y mandato\",\n      \"source_units\": [\n        \"S1-P0369\",\n        \"S1-P0375\",\n        \"S1-P0638\",\n        \"S3-P0036\"\n      ],\n      \"condition\": \"Conocer no autoriza; vías efectivas de objeción según facultades\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-04\",\n      \"counterexample\": \"Una delegación competente permite el acuerdo\",\n      \"evidence_state\": \"Cautela y controles de aprobación del piloto\"\n    },\n    {\n      \"id\": \"CONCEPT-08\",\n      \"concept\": \"Transferencias y reajuste\",\n      \"source_units\": [\n        \"S1-P1007\",\n        \"S1-P1013\",\n        \"S1-P1020\"\n      ],\n      \"condition\": \"Utilidad transferible y numerario común sólo en el toy; derechos separados\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-05\",\n      \"counterexample\": \"Suma positiva sin transferencia practicable\",\n      \"evidence_state\": \"E01 E03 E04 E05 ilustrados\"\n    },\n    {\n      \"id\": \"CONCEPT-09\",\n      \"concept\": \"Sustracción y transición\",\n      \"source_units\": [\n        \"S1-P0107\",\n        \"S1-P0113\"\n      ],\n      \"condition\": \"Servicio íntegro, medios de vida, protección y elección\",\n      \"integrated_destination\": \"MODEL.md#rediseño-y-transición-humana\",\n      \"candidate_contrast\": \"ACC-ECO-13\",\n      \"counterexample\": \"Eliminar trámites destruye una garantía necesaria\",\n      \"evidence_state\": \"Explicado; estudio institucional pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-10\",\n      \"concept\": \"Playa e ingreso\",\n      \"source_units\": [\n        \"S1-P0156\"\n      ],\n      \"condition\": \"Cobro es transferencia salvo beneficio adicional demostrado\",\n      \"integrated_destination\": \"MODEL.md#rediseño-y-transición-humana\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"La conservación financiada sí crea servicio útil\",\n      \"evidence_state\": \"Explicado; experiencia no medida\"\n    },\n    {\n      \"id\": \"CONCEPT-11\",\n      \"concept\": \"Capacidades y dignidad\",\n      \"source_units\": [\n        \"S1-P0113\",\n        \"S3-P0007\",\n        \"S3-P0054\"\n      ],\n      \"condition\": \"Participación elegida; dignidad independiente de productividad\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Una medida de ahorro no representa capacidad o dignidad\",\n      \"evidence_state\": \"Explicado; sin instrumento humano\"\n    },\n    {\n      \"id\": \"CONCEPT-12\",\n      \"concept\": \"Antivisión y fines plurales\",\n      \"source_units\": [\n        \"S1-P0007\",\n        \"S3-P0087\"\n      ],\n      \"condition\": \"Dependencia obligada y sacrificio evitable no fijan fin universal\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Preferencias legítimas valoran solidaridad o cuidado sobre producto\",\n      \"evidence_state\": \"Explicado; elección normativa permanece abierta\"\n    },\n    {\n      \"id\": \"CONCEPT-13\",\n      \"concept\": \"Brecha y frustración\",\n      \"source_units\": [\n        \"S1-P0317\",\n        \"S1-P0639\"\n      ],\n      \"condition\": \"Factibilidad y experiencia requieren auditorías distintas\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-10\",\n      \"counterexample\": \"Comprender alivia o agrava F sin cambiar G\",\n      \"evidence_state\": \"Control W ilustrado; no medición humana\"\n    },\n    {\n      \"id\": \"CONCEPT-14\",\n      \"concept\": \"Bienestar informado y vinculante\",\n      \"source_units\": [\n        \"S1-P0623\",\n        \"S1-P0624\",\n        \"S1-P0626\"\n      ],\n      \"condition\": \"Regímenes candidatos; no reemplazan derechos, consentimiento o autoridad\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-10\",\n      \"counterexample\": \"La puerta mal informada rechaza una mejora\",\n      \"evidence_state\": \"Regla ilustrada; política no adoptada\"\n    },\n    {\n      \"id\": \"CONCEPT-15\",\n      \"concept\": \"Incentivo de ocultación\",\n      \"source_units\": [\n        \"S1-P0317\",\n        \"S1-P0413\",\n        \"S1-P0639\"\n      ],\n      \"condition\": \"Objeción nueva derivada condicionalmente de F visible, no hallazgo empírico\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Información reduce F o permite resolver su causa\",\n      \"evidence_state\": \"Control auxiliar ilustra subida de W sin mejora material\"\n    },\n    {\n      \"id\": \"CONCEPT-16\",\n      \"concept\": \"Error y reversión\",\n      \"source_units\": [\n        \"S1-P0486\",\n        \"S1-P0492\",\n        \"S1-P0493\"\n      ],\n      \"condition\": \"Errores de ambos signos; volver atrás es otra transición\",\n      \"integrated_destination\": \"MODEL.md#error-irreversibilidad-y-tiempo\",\n      \"candidate_contrast\": \"ACC-ECO-11\",\n      \"counterexample\": \"Retorno imposible o mucho más costoso\",\n      \"evidence_state\": \"E10 E11 cubren error; juego de rollback pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-17\",\n      \"concept\": \"Vértigo anterior a la aceptación\",\n      \"source_units\": [\n        \"S1-P0386\",\n        \"S1-P0387\",\n        \"S1-P0388\"\n      ],\n      \"condition\": \"No necesariamente irracional ni prueba automática de n más uno\",\n      \"integrated_destination\": \"MODEL.md#dos-hipótesis-distintas-y-retroalimentación-de-la-aceptación\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Mayor confianza no cambia una restricción física\",\n      \"evidence_state\": \"Explicado; experiencia no medida\"\n    },\n    {\n      \"id\": \"CONCEPT-18\",\n      \"concept\": \"Continuidad y comparación ex ante\",\n      \"source_units\": [\n        \"S1-P0085\",\n        \"S3-P0033\",\n        \"S3-P0034\",\n        \"S3-P0050\"\n      ],\n      \"condition\": \"Iguales futuros, reglas de adaptación y costes; comparador fuerte\",\n      \"integrated_destination\": \"MODEL.md#error-irreversibilidad-y-tiempo\",\n      \"candidate_contrast\": \"ACC-ECO-16\",\n      \"counterexample\": \"El proceso convencional empata o gana\",\n      \"evidence_state\": \"T01–T05 ilustrados; sin ventaja EA establecida\"\n    },\n    {\n      \"id\": \"CONCEPT-19\",\n      \"concept\": \"Redes y sinergias\",\n      \"source_units\": [\n        \"S1-P0568\",\n        \"S1-P0576\",\n        \"S1-P0827\"\n      ],\n      \"condition\": \"Topología e incompatibilidad declaradas; no convertir rechazos en deuda por definición\",\n      \"integrated_destination\": \"MODEL.md#redes-y-efectos-de-segundo-orden\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Red dispersa o integración produce más valor que carga\",\n      \"evidence_state\": \"Recreación analítica; observación real pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-20\",\n      \"concept\": \"Cuello común y Ormuz\",\n      \"source_units\": [\n        \"S1-P0820\",\n        \"S1-P0821\"\n      ],\n      \"condition\": \"Experimento mental; no multiplicar una dependencia ni afirmar episodio real\",\n      \"integrated_destination\": \"MODEL.md#redes-y-efectos-de-segundo-orden\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Sustituto o gobierno conjunto elimina condición necesaria\",\n      \"evidence_state\": \"Explicado; no caso geopolítico medido\"\n    },\n    {\n      \"id\": \"CONCEPT-21\",\n      \"concept\": \"Flujo acumulación y causalidad\",\n      \"source_units\": [\n        \"S1-P0567\",\n        \"S1-P0643\",\n        \"S1-P0798\"\n      ],\n      \"condition\": \"Curvatura distinta de mecanismo causal de segundo orden\",\n      \"integrated_destination\": \"MODEL.md#redes-y-efectos-de-segundo-orden\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Flujo constante produce gran acumulación sin acelerarse\",\n      \"evidence_state\": \"Identidades recreadas; causalidad pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-22\",\n      \"concept\": \"Dinero garantías y retiro\",\n      \"source_units\": [\n        \"S4-P0029\",\n        \"S4-P0031\",\n        \"S4-P0158\",\n        \"S1-P0719\"\n      ],\n      \"condition\": \"Identidad de conteo distinta de ley monetaria; coste protector puede justificarse\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-14\",\n      \"counterexample\": \"Retiro proporcional y coordinación compensan obligaciones\",\n      \"evidence_state\": \"Recreación del toy de retiro; no teoría monetaria validada\"\n    },\n    {\n      \"id\": \"CONCEPT-23\",\n      \"concept\": \"Opcionalidad y dependencia\",\n      \"source_units\": [\n        \"S4-P0033\",\n        \"S4-P0034\",\n        \"S4-P0160\"\n      ],\n      \"condition\": \"Poder esperar y salir, con distribución de alternativas\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-14\",\n      \"counterexample\": \"Comprometerse crea una capacidad valiosa\",\n      \"evidence_state\": \"Explicado; hipótesis abierta\"\n    },\n    {\n      \"id\": \"CONCEPT-24\",\n      \"concept\": \"HID y uso elegido\",\n      \"source_units\": [\n        \"S1-P0597\",\n        \"S1-P0601\",\n        \"S1-P0602\",\n        \"S1-P0603\",\n        \"S1-P0606\",\n        \"S3-P0023\"\n      ],\n      \"condition\": \"Contrafactual, unidades y conversión; ACW observado no es recuperación de GIC\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-21\",\n      \"counterexample\": \"El tiempo liberado se usa legítimamente para descanso\",\n      \"evidence_state\": \"Control auxiliar numérico; habilidades no medidas\"\n    },\n    {\n      \"id\": \"CONCEPT-25\",\n      \"concept\": \"Reconocimiento y contribución\",\n      \"source_units\": [\n        \"S4-P0037\",\n        \"S4-P0038\",\n        \"S1-P0782\"\n      ],\n      \"condition\": \"Fuentes del mismo autor no corroboran entre sí; regla de veto supuesta\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-14\",\n      \"counterexample\": \"El crédito no explica retención tras controlar riesgo\",\n      \"evidence_state\": \"Recreación de mezcla; EX-AG1 empírico pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-26\",\n      \"concept\": \"Fricción y coste de claridad\",\n      \"source_units\": [\n        \"S4-P0042\",\n        \"S3-P0042\",\n        \"S1-P0785\",\n        \"S1-P0786\"\n      ],\n      \"condition\": \"Mapa distinto de flujo; feedback y claridad tienen costes\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-15\",\n      \"counterexample\": \"Un mapa actualizado competente elimina la trampa\",\n      \"evidence_state\": \"E09/E10 ilustran límite; back-action causal pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-27\",\n      \"concept\": \"Preservar una práctica viva\",\n      \"source_units\": [\n        \"S4-P0068\",\n        \"S4-P0070\",\n        \"S3-P0044\",\n        \"S3-P0045\",\n        \"S3-P0056\"\n      ],\n      \"condition\": \"Personas herramientas confianza transmisión y consentimiento\",\n      \"integrated_destination\": \"MODEL.md#preservación-métodos-y-contextos\",\n      \"candidate_contrast\": \"ACC-ECO-13\",\n      \"counterexample\": \"Archivo conservado y oficio deja de transmitirse\",\n      \"evidence_state\": \"Contexto conservado; no representación ni ensayo comunitario\"\n    },\n    {\n      \"id\": \"CONCEPT-28\",\n      \"concept\": \"Métodos relacionados y clausura\",\n      \"source_units\": [\n        \"S4-P0059\",\n        \"S4-P0060\",\n        \"S4-P0063\",\n        \"S3-P0043\",\n        \"S3-P0050\"\n      ],\n      \"condition\": \"No fusionar métodos en índice universal; límite de una solución no agota alternativas\",\n      \"integrated_destination\": \"MODEL.md#preservación-métodos-y-contextos\",\n      \"candidate_contrast\": \"ACC-ECO-13\",\n      \"counterexample\": \"Otra arquitectura resuelve el bloqueo con menor carga\",\n      \"evidence_state\": \"Explicado; comparación de métodos pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-29\",\n      \"concept\": \"Verdad y fundamento\",\n      \"source_units\": [\n        \"S2-P0013\",\n        \"S2-P0025\",\n        \"S3-P0079\"\n      ],\n      \"condition\": \"No establecido no equivale a falso imposible o prohibido para siempre\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Una misión nueva queda legítimamente fundada\",\n      \"evidence_state\": \"Explicado; no evaluación nativa Cyber Napoleon\"\n    },\n    {\n      \"id\": \"CONCEPT-30\",\n      \"concept\": \"ABCD situado\",\n      \"source_units\": [\n        \"S3-P0027\",\n        \"S3-P0028\",\n        \"S3-P0029\",\n        \"S3-P0030\",\n        \"S3-P0031\"\n      ],\n      \"condition\": \"Proceso pregunta alcance capacidad y tiempo; no cuatro probabilidades\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"La misma información cambia de papel al cambiar pregunta\",\n      \"evidence_state\": \"Cotejo con 00M; no nuevo canon\"\n    },\n    {\n      \"id\": \"CONCEPT-31\",\n      \"concept\": \"Límite de indistinguibilidad\",\n      \"source_units\": [\n        \"S2-P0033\",\n        \"S3-P0084\"\n      ],\n      \"condition\": \"Misma información admitida no revela la verdad oculta\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Nueva evidencia legítima separa los estados\",\n      \"evidence_state\": \"E09/E10 ejecutados con la misma observación\"\n    },\n    {\n      \"id\": \"CONCEPT-32\",\n      \"concept\": \"FH C\",\n      \"source_units\": [\n        \"S1-P0055\",\n        \"S2-P0016\",\n        \"S3-P0078\",\n        \"S3-P0086\"\n      ],\n      \"condition\": \"Hipótesis causal, clases declaradas y evidencia autoridad recursos comparables\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Más conocimiento explica igual o mejor la deriva\",\n      \"evidence_state\": \"Explicado; no contraste causal ejecutado\"\n    },\n    {\n      \"id\": \"CONCEPT-33\",\n      \"concept\": \"FH E\",\n      \"source_units\": [\n        \"S2-P0020\",\n        \"S3-P0081\"\n      ],\n      \"condition\": \"Tarea independiente, no inferioridad, construcción y mantenimiento incluidos\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-09\",\n      \"counterexample\": \"Cartografía más cara o calidad inferior\",\n      \"evidence_state\": \"Explicado; no ahorro computacional medido\"\n    },\n    {\n      \"id\": \"CONCEPT-34\",\n      \"concept\": \"Awareness y Repositioning\",\n      \"source_units\": [\n        \"S2-P0030\",\n        \"S3-P0083\"\n      ],\n      \"condition\": \"Awareness puede operar sin Repositioning; cualificar no concede mandato\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Cambio legítimo exige decisión autorizada adicional\",\n      \"evidence_state\": \"Explicado; registro cualificado del piloto no implementa EA\"\n    },\n    {\n      \"id\": \"CONCEPT-35\",\n      \"concept\": \"Bien común y subsidiariedad\",\n      \"source_units\": [\n        \"S3-P0017\",\n        \"S3-P0019\",\n        \"S3-P0055\"\n      ],\n      \"condition\": \"Juicio normativo no resuelto por seguridad o trazabilidad técnica\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Todos los controles pasan pero los fines son disputados\",\n      \"evidence_state\": \"Contexto interpretativo conservado; no prueba teológica\"\n    },\n    {\n      \"id\": \"CONCEPT-36\",\n      \"concept\": \"Prioridades incorporadas\",\n      \"source_units\": [\n        \"S3-P0021\",\n        \"S3-P0036\"\n      ],\n      \"condition\": \"Hacer visible un límite no legitima prioridades ni riesgos aceptables\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"El fin declarado sigue siendo impugnable con buena información\",\n      \"evidence_state\": \"Explicado; decisión humana no sustituida\"\n    },\n    {\n      \"id\": \"CONCEPT-37\",\n      \"concept\": \"Estatuto DDS y costes\",\n      \"source_units\": [\n        \"S3-P0038\",\n        \"S3-P0047\",\n        \"S3-P0048\",\n        \"S3-P0049\",\n        \"S3-P0050\"\n      ],\n      \"condition\": \"A B C son etapas de objetos distintos; evidencia de una no promueve otra\",\n      \"integrated_destination\": \"MODEL.md#uso-posterior\",\n      \"candidate_contrast\": \"ACC-ECO-16\",\n      \"counterexample\": \"Toy concordante que no cumple condiciones de campaña\",\n      \"evidence_state\": \"Piloto de especificación; aceptación formal pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-38\",\n      \"concept\": \"Token vigente y orden obsoleta\",\n      \"source_units\": [\n        \"S3-P0033\",\n        \"S1-P0795\"\n      ],\n      \"condition\": \"Caducidad técnica distinta de pérdida material de fundamento\",\n      \"integrated_destination\": \"MODEL.md#error-irreversibilidad-y-tiempo\",\n      \"candidate_contrast\": \"ACC-ECO-18\",\n      \"counterexample\": \"Revalidación convencional descubre reparación y freeze\",\n      \"evidence_state\": \"T02/T03 ilustrados; fuente UC21 NOT_RUN\"\n    },\n    {\n      \"id\": \"CONCEPT-39\",\n      \"concept\": \"Conflicto silencio y representación\",\n      \"source_units\": [\n        \"S1-P0375\",\n        \"S3-P0036\",\n        \"S3-P0056\"\n      ],\n      \"condition\": \"No inventar consentimiento ni precedencia; actor colectivo requiere representante\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-19\",\n      \"counterexample\": \"La ruta legítima de revisión resuelve el conflicto\",\n      \"evidence_state\": \"E07 y T06 ilustrados; integración ACC excluida\"\n    },\n    {\n      \"id\": \"CONCEPT-40\",\n      \"concept\": \"Causa no resuelta\",\n      \"source_units\": [\n        \"S1-P0548\"\n      ],\n      \"condition\": \"Presupuesto previo y falsación; nuevas dimensiones quedan exploratorias\",\n      \"integrated_destination\": \"MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Agotar consulta sin identificar mecanismo\",\n      \"evidence_state\": \"T06 ejecutado con dos consultas\"\n    }\n  ]\n}\n",
+      "after": "{\n  \"scope\": \"material concepts reviewed in this revision; no claim that every idea in all sources or prompts is exhaustively audited\",\n  \"records\": [\n    {\n      \"id\": \"CONCEPT-01\",\n      \"concept\": \"Dos vías económicas\",\n      \"source_units\": [\n        \"S1-P0010\",\n        \"S1-P0093\"\n      ],\n      \"condition\": \"Mismo servicio íntegro para eficiencia; utilidad y reparto no equivalen a ahorro\",\n      \"integrated_destination\": \"MODEL.md#núcleo-económico-del-modelo\",\n      \"candidate_contrast\": \"ACC-ECO-01\",\n      \"counterexample\": \"La ganancia depende de bajar calidad o trasladar daño\",\n      \"evidence_state\": \"Ilustración de servicio equivalente; no validación empírica\"\n    },\n    {\n      \"id\": \"CONCEPT-02\",\n      \"concept\": \"Una dos y n dimensiones\",\n      \"source_units\": [\n        \"S1-P0264\",\n        \"S1-P0533\",\n        \"S1-P0535\"\n      ],\n      \"condition\": \"Órdenes y perímetro declarados; dimensión no equivale a persona; distinguir dimensión implícita, activación y descubrimiento\",\n      \"integrated_destination\": \"MODEL.md#dimensiones-implícitas-y-activación-en-una-transición\",\n      \"candidate_contrast\": \"ACC-ECO-01\",\n      \"counterexample\": \"Régimen estable con reparto ya material, o transición que elimina restricciones; activación no implica n más uno\",\n      \"evidence_state\": \"Precisión conceptual de Iván; contraste específico pendiente\",\n      \"user_clarification\": \"PROMPT_CLARIFICATIONS.md#anotación-3-dimensiones-implícitas-y-activación\"\n    },\n    {\n      \"id\": \"CONCEPT-03\",\n      \"concept\": \"H1 y H2\",\n      \"source_units\": [\n        \"S1-P0331\",\n        \"S1-P0565\",\n        \"S1-P0566\"\n      ],\n      \"condition\": \"Aditividad instrumental distinta de complejidad condicionada\",\n      \"integrated_destination\": \"MODEL.md#dos-hipótesis-distintas-y-retroalimentación-de-la-aceptación\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Sinergia o coordinación elimina el bloqueo\",\n      \"evidence_state\": \"Explicado; causalidad no contrastada\"\n    },\n    {\n      \"id\": \"CONCEPT-04\",\n      \"concept\": \"Acuerdo inmediato\",\n      \"source_units\": [\n        \"S1-P0254\",\n        \"S1-P1006\"\n      ],\n      \"condition\": \"Información suficiente, transición incluida, permiso y mecanismo\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-01\",\n      \"counterexample\": \"Un coste omitido convierte la supuesta mejora en perjuicio\",\n      \"evidence_state\": \"E02 ilustrado en modelo determinista\"\n    },\n    {\n      \"id\": \"CONCEPT-05\",\n      \"concept\": \"Variantes del plátano y coordinación\",\n      \"source_units\": [\n        \"S1-P0254\",\n        \"S1-P0269\",\n        \"S1-P0271\",\n        \"S1-P0272\",\n        \"S1-P0275\"\n      ],\n      \"condition\": \"Separar traslado adicional, entrega en origen y recogida disponible; costes y factibilidad propios\",\n      \"integrated_destination\": \"CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear\",\n      \"candidate_contrast\": \"ACC-ECO-02\",\n      \"counterexample\": \"El medio de coordinación existente ya basta\",\n      \"evidence_state\": \"Explicado; prueba propia pendiente\",\n      \"user_clarification\": \"PROMPT_CLARIFICATIONS.md#anotación-2-variantes-y-bloqueos\"\n    },\n    {\n      \"id\": \"CONCEPT-06\",\n      \"concept\": \"Atribución y ganancias positivas\",\n      \"source_units\": [\n        \"S1-P0215\",\n        \"S1-P0216\",\n        \"S1-P0275\"\n      ],\n      \"condition\": \"Ganancias directas positivas; el nuevo diferencial puede activar un reparto antes no material\",\n      \"integrated_destination\": \"MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto\",\n      \"candidate_contrast\": \"ACC-ECO-03\",\n      \"counterexample\": \"Se acepta el reparto relativo sin bloqueo\",\n      \"evidence_state\": \"Explicado; comportamiento humano no medido\",\n      \"user_clarification\": \"PROMPT_CLARIFICATIONS.md#anotación-3-dimensiones-implícitas-y-activación\"\n    },\n    {\n      \"id\": \"CONCEPT-07\",\n      \"concept\": \"Agencia y mandato\",\n      \"source_units\": [\n        \"S1-P0369\",\n        \"S1-P0375\",\n        \"S1-P0638\",\n        \"S3-P0036\"\n      ],\n      \"condition\": \"Conocer no autoriza; vías efectivas de objeción según facultades\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-04\",\n      \"counterexample\": \"Una delegación competente permite el acuerdo\",\n      \"evidence_state\": \"Cautela y controles de aprobación del piloto\"\n    },\n    {\n      \"id\": \"CONCEPT-08\",\n      \"concept\": \"Transferencias y reajuste\",\n      \"source_units\": [\n        \"S1-P1007\",\n        \"S1-P1013\",\n        \"S1-P1020\"\n      ],\n      \"condition\": \"Utilidad transferible y numerario común sólo en el toy; derechos separados\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-05\",\n      \"counterexample\": \"Suma positiva sin transferencia practicable\",\n      \"evidence_state\": \"E01 E03 E04 E05 ilustrados\"\n    },\n    {\n      \"id\": \"CONCEPT-09\",\n      \"concept\": \"Sustracción y transición\",\n      \"source_units\": [\n        \"S1-P0107\",\n        \"S1-P0113\"\n      ],\n      \"condition\": \"Servicio íntegro, medios de vida, protección y elección\",\n      \"integrated_destination\": \"MODEL.md#rediseño-y-transición-humana\",\n      \"candidate_contrast\": \"ACC-ECO-13\",\n      \"counterexample\": \"Eliminar trámites destruye una garantía necesaria\",\n      \"evidence_state\": \"Explicado; estudio institucional pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-10\",\n      \"concept\": \"Playa e ingreso\",\n      \"source_units\": [\n        \"S1-P0156\"\n      ],\n      \"condition\": \"Cobro es transferencia salvo beneficio adicional demostrado\",\n      \"integrated_destination\": \"MODEL.md#rediseño-y-transición-humana\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"La conservación financiada sí crea servicio útil\",\n      \"evidence_state\": \"Explicado; experiencia no medida\"\n    },\n    {\n      \"id\": \"CONCEPT-11\",\n      \"concept\": \"Capacidades y dignidad\",\n      \"source_units\": [\n        \"S1-P0113\",\n        \"S3-P0007\",\n        \"S3-P0054\"\n      ],\n      \"condition\": \"Participación elegida; dignidad independiente de productividad\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Una medida de ahorro no representa capacidad o dignidad\",\n      \"evidence_state\": \"Explicado; sin instrumento humano\"\n    },\n    {\n      \"id\": \"CONCEPT-12\",\n      \"concept\": \"Antivisión y fines plurales\",\n      \"source_units\": [\n        \"S1-P0007\",\n        \"S3-P0087\"\n      ],\n      \"condition\": \"Dependencia obligada y sacrificio evitable no fijan fin universal\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Preferencias legítimas valoran solidaridad o cuidado sobre producto\",\n      \"evidence_state\": \"Explicado; elección normativa permanece abierta\"\n    },\n    {\n      \"id\": \"CONCEPT-13\",\n      \"concept\": \"Brecha y frustración\",\n      \"source_units\": [\n        \"S1-P0317\",\n        \"S1-P0639\"\n      ],\n      \"condition\": \"Separar brecha, inteligencia movilizada sin efecto útil y experiencia declarada; factibilidad contrastada\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-10\",\n      \"counterexample\": \"Comprender alivia o agrava F sin cambiar G\",\n      \"evidence_state\": \"Control W ilustrado; no medición humana\",\n      \"user_clarification\": \"PROMPT_CLARIFICATIONS.md#anotación-1-inteligencia-actuación-y-experiencia\"\n    },\n    {\n      \"id\": \"CONCEPT-14\",\n      \"concept\": \"Bienestar informado y vinculante\",\n      \"source_units\": [\n        \"S1-P0623\",\n        \"S1-P0624\",\n        \"S1-P0626\"\n      ],\n      \"condition\": \"Regímenes candidatos; no reemplazan derechos, consentimiento o autoridad\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-10\",\n      \"counterexample\": \"La puerta mal informada rechaza una mejora\",\n      \"evidence_state\": \"Regla ilustrada; política no adoptada\"\n    },\n    {\n      \"id\": \"CONCEPT-15\",\n      \"concept\": \"Incentivo de ocultación\",\n      \"source_units\": [\n        \"S1-P0317\",\n        \"S1-P0413\",\n        \"S1-P0639\"\n      ],\n      \"condition\": \"Objeción nueva derivada condicionalmente de F visible, no hallazgo empírico\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Información reduce F o permite resolver su causa\",\n      \"evidence_state\": \"Control auxiliar ilustra subida de W sin mejora material\"\n    },\n    {\n      \"id\": \"CONCEPT-16\",\n      \"concept\": \"Error y reversión\",\n      \"source_units\": [\n        \"S1-P0486\",\n        \"S1-P0492\",\n        \"S1-P0493\"\n      ],\n      \"condition\": \"Errores de ambos signos; volver atrás es otra transición\",\n      \"integrated_destination\": \"MODEL.md#error-irreversibilidad-y-tiempo\",\n      \"candidate_contrast\": \"ACC-ECO-11\",\n      \"counterexample\": \"Retorno imposible o mucho más costoso\",\n      \"evidence_state\": \"E10 E11 cubren error; juego de rollback pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-17\",\n      \"concept\": \"Vértigo anterior a la aceptación\",\n      \"source_units\": [\n        \"S1-P0386\",\n        \"S1-P0387\",\n        \"S1-P0388\"\n      ],\n      \"condition\": \"No necesariamente irracional ni prueba automática de n más uno\",\n      \"integrated_destination\": \"MODEL.md#dos-hipótesis-distintas-y-retroalimentación-de-la-aceptación\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Mayor confianza no cambia una restricción física\",\n      \"evidence_state\": \"Explicado; experiencia no medida\"\n    },\n    {\n      \"id\": \"CONCEPT-18\",\n      \"concept\": \"Continuidad y comparación ex ante\",\n      \"source_units\": [\n        \"S1-P0085\",\n        \"S3-P0033\",\n        \"S3-P0034\",\n        \"S3-P0050\"\n      ],\n      \"condition\": \"Iguales futuros, reglas de adaptación y costes; comparador fuerte\",\n      \"integrated_destination\": \"MODEL.md#error-irreversibilidad-y-tiempo\",\n      \"candidate_contrast\": \"ACC-ECO-16\",\n      \"counterexample\": \"El proceso convencional empata o gana\",\n      \"evidence_state\": \"T01–T05 ilustrados; sin ventaja EA establecida\"\n    },\n    {\n      \"id\": \"CONCEPT-19\",\n      \"concept\": \"Redes y sinergias\",\n      \"source_units\": [\n        \"S1-P0568\",\n        \"S1-P0576\",\n        \"S1-P0827\"\n      ],\n      \"condition\": \"Topología e incompatibilidad declaradas; no convertir rechazos en deuda por definición\",\n      \"integrated_destination\": \"MODEL.md#redes-y-efectos-de-segundo-orden\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Red dispersa o integración produce más valor que carga\",\n      \"evidence_state\": \"Recreación analítica; observación real pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-20\",\n      \"concept\": \"Cuello común y Ormuz\",\n      \"source_units\": [\n        \"S1-P0820\",\n        \"S1-P0821\"\n      ],\n      \"condition\": \"Experimento mental; no multiplicar una dependencia ni afirmar episodio real\",\n      \"integrated_destination\": \"MODEL.md#redes-y-efectos-de-segundo-orden\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Sustituto o gobierno conjunto elimina condición necesaria\",\n      \"evidence_state\": \"Explicado; no caso geopolítico medido\"\n    },\n    {\n      \"id\": \"CONCEPT-21\",\n      \"concept\": \"Flujo acumulación y causalidad\",\n      \"source_units\": [\n        \"S1-P0567\",\n        \"S1-P0643\",\n        \"S1-P0798\"\n      ],\n      \"condition\": \"Curvatura distinta de mecanismo causal de segundo orden\",\n      \"integrated_destination\": \"MODEL.md#redes-y-efectos-de-segundo-orden\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Flujo constante produce gran acumulación sin acelerarse\",\n      \"evidence_state\": \"Identidades recreadas; causalidad pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-22\",\n      \"concept\": \"Dinero garantías y retiro\",\n      \"source_units\": [\n        \"S4-P0029\",\n        \"S4-P0031\",\n        \"S4-P0158\",\n        \"S1-P0719\"\n      ],\n      \"condition\": \"Identidad de conteo distinta de ley monetaria; coste protector puede justificarse\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-14\",\n      \"counterexample\": \"Retiro proporcional y coordinación compensan obligaciones\",\n      \"evidence_state\": \"Recreación del toy de retiro; no teoría monetaria validada\"\n    },\n    {\n      \"id\": \"CONCEPT-23\",\n      \"concept\": \"Opcionalidad y dependencia\",\n      \"source_units\": [\n        \"S4-P0033\",\n        \"S4-P0034\",\n        \"S4-P0160\"\n      ],\n      \"condition\": \"Poder esperar y salir, con distribución de alternativas\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-14\",\n      \"counterexample\": \"Comprometerse crea una capacidad valiosa\",\n      \"evidence_state\": \"Explicado; hipótesis abierta\"\n    },\n    {\n      \"id\": \"CONCEPT-24\",\n      \"concept\": \"HID y uso elegido\",\n      \"source_units\": [\n        \"S1-P0597\",\n        \"S1-P0601\",\n        \"S1-P0602\",\n        \"S1-P0603\",\n        \"S1-P0606\",\n        \"S3-P0023\"\n      ],\n      \"condition\": \"Contrafactual, unidades y conversión; distinguir esfuerzo realizado, uso, utilidad y recuperación efectiva de GIC\",\n      \"integrated_destination\": \"MODEL.md#utilidad-bienestar-y-frustración\",\n      \"candidate_contrast\": \"ACC-ECO-21\",\n      \"counterexample\": \"El tiempo liberado se usa legítimamente para descanso\",\n      \"evidence_state\": \"Control auxiliar numérico; habilidades no medidas\",\n      \"user_clarification\": \"PROMPT_CLARIFICATIONS.md#anotación-1-inteligencia-actuación-y-experiencia\"\n    },\n    {\n      \"id\": \"CONCEPT-25\",\n      \"concept\": \"Reconocimiento y contribución\",\n      \"source_units\": [\n        \"S4-P0037\",\n        \"S4-P0038\",\n        \"S1-P0782\"\n      ],\n      \"condition\": \"Fuentes del mismo autor no corroboran entre sí; regla de veto supuesta\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-14\",\n      \"counterexample\": \"El crédito no explica retención tras controlar riesgo\",\n      \"evidence_state\": \"Recreación de mezcla; EX-AG1 empírico pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-26\",\n      \"concept\": \"Fricción y coste de claridad\",\n      \"source_units\": [\n        \"S4-P0042\",\n        \"S3-P0042\",\n        \"S1-P0785\",\n        \"S1-P0786\"\n      ],\n      \"condition\": \"Mapa distinto de flujo; feedback y claridad tienen costes\",\n      \"integrated_destination\": \"MODEL.md#dinero-garantías-opcionalidad-y-reconocimiento\",\n      \"candidate_contrast\": \"ACC-ECO-15\",\n      \"counterexample\": \"Un mapa actualizado competente elimina la trampa\",\n      \"evidence_state\": \"E09/E10 ilustran límite; back-action causal pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-27\",\n      \"concept\": \"Preservar una práctica viva\",\n      \"source_units\": [\n        \"S4-P0068\",\n        \"S4-P0070\",\n        \"S3-P0044\",\n        \"S3-P0045\",\n        \"S3-P0056\"\n      ],\n      \"condition\": \"Personas herramientas confianza transmisión y consentimiento\",\n      \"integrated_destination\": \"MODEL.md#preservación-métodos-y-contextos\",\n      \"candidate_contrast\": \"ACC-ECO-13\",\n      \"counterexample\": \"Archivo conservado y oficio deja de transmitirse\",\n      \"evidence_state\": \"Contexto conservado; no representación ni ensayo comunitario\"\n    },\n    {\n      \"id\": \"CONCEPT-28\",\n      \"concept\": \"Métodos relacionados y clausura\",\n      \"source_units\": [\n        \"S4-P0059\",\n        \"S4-P0060\",\n        \"S4-P0063\",\n        \"S3-P0043\",\n        \"S3-P0050\"\n      ],\n      \"condition\": \"No fusionar métodos en índice universal; límite de una solución no agota alternativas\",\n      \"integrated_destination\": \"MODEL.md#preservación-métodos-y-contextos\",\n      \"candidate_contrast\": \"ACC-ECO-13\",\n      \"counterexample\": \"Otra arquitectura resuelve el bloqueo con menor carga\",\n      \"evidence_state\": \"Explicado; comparación de métodos pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-29\",\n      \"concept\": \"Verdad y fundamento\",\n      \"source_units\": [\n        \"S2-P0013\",\n        \"S2-P0025\",\n        \"S3-P0079\"\n      ],\n      \"condition\": \"No establecido no equivale a falso imposible o prohibido para siempre\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Una misión nueva queda legítimamente fundada\",\n      \"evidence_state\": \"Explicado; no evaluación nativa Cyber Napoleon\"\n    },\n    {\n      \"id\": \"CONCEPT-30\",\n      \"concept\": \"ABCD situado\",\n      \"source_units\": [\n        \"S3-P0027\",\n        \"S3-P0028\",\n        \"S3-P0029\",\n        \"S3-P0030\",\n        \"S3-P0031\"\n      ],\n      \"condition\": \"Proceso pregunta alcance capacidad y tiempo; no cuatro probabilidades\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"La misma información cambia de papel al cambiar pregunta\",\n      \"evidence_state\": \"Cotejo con 00M; no nuevo canon\"\n    },\n    {\n      \"id\": \"CONCEPT-31\",\n      \"concept\": \"Límite de indistinguibilidad\",\n      \"source_units\": [\n        \"S2-P0033\",\n        \"S3-P0084\"\n      ],\n      \"condition\": \"Misma información admitida no revela la verdad oculta\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Nueva evidencia legítima separa los estados\",\n      \"evidence_state\": \"E09/E10 ejecutados con la misma observación\"\n    },\n    {\n      \"id\": \"CONCEPT-32\",\n      \"concept\": \"FH C\",\n      \"source_units\": [\n        \"S1-P0055\",\n        \"S2-P0016\",\n        \"S3-P0078\",\n        \"S3-P0086\"\n      ],\n      \"condition\": \"Hipótesis causal, clases declaradas y evidencia autoridad recursos comparables\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Más conocimiento explica igual o mejor la deriva\",\n      \"evidence_state\": \"Explicado; no contraste causal ejecutado\"\n    },\n    {\n      \"id\": \"CONCEPT-33\",\n      \"concept\": \"FH E\",\n      \"source_units\": [\n        \"S2-P0020\",\n        \"S3-P0081\"\n      ],\n      \"condition\": \"Tarea independiente, no inferioridad, construcción y mantenimiento incluidos\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-09\",\n      \"counterexample\": \"Cartografía más cara o calidad inferior\",\n      \"evidence_state\": \"Explicado; no ahorro computacional medido\"\n    },\n    {\n      \"id\": \"CONCEPT-34\",\n      \"concept\": \"Awareness y Repositioning\",\n      \"source_units\": [\n        \"S2-P0030\",\n        \"S3-P0083\"\n      ],\n      \"condition\": \"Awareness puede operar sin Repositioning; cualificar no concede mandato\",\n      \"integrated_destination\": \"MODEL.md#fundamento-epistémico-y-estatuto-de-las-hipótesis\",\n      \"candidate_contrast\": \"ACC-ECO-08\",\n      \"counterexample\": \"Cambio legítimo exige decisión autorizada adicional\",\n      \"evidence_state\": \"Explicado; registro cualificado del piloto no implementa EA\"\n    },\n    {\n      \"id\": \"CONCEPT-35\",\n      \"concept\": \"Bien común y subsidiariedad\",\n      \"source_units\": [\n        \"S3-P0017\",\n        \"S3-P0019\",\n        \"S3-P0055\"\n      ],\n      \"condition\": \"Juicio normativo no resuelto por seguridad o trazabilidad técnica\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"Todos los controles pasan pero los fines son disputados\",\n      \"evidence_state\": \"Contexto interpretativo conservado; no prueba teológica\"\n    },\n    {\n      \"id\": \"CONCEPT-36\",\n      \"concept\": \"Prioridades incorporadas\",\n      \"source_units\": [\n        \"S3-P0021\",\n        \"S3-P0036\"\n      ],\n      \"condition\": \"Hacer visible un límite no legitima prioridades ni riesgos aceptables\",\n      \"integrated_destination\": \"MODEL.md#fines-y-capacidades\",\n      \"candidate_contrast\": \"ACC-ECO-22\",\n      \"counterexample\": \"El fin declarado sigue siendo impugnable con buena información\",\n      \"evidence_state\": \"Explicado; decisión humana no sustituida\"\n    },\n    {\n      \"id\": \"CONCEPT-37\",\n      \"concept\": \"Estatuto DDS y costes\",\n      \"source_units\": [\n        \"S3-P0038\",\n        \"S3-P0047\",\n        \"S3-P0048\",\n        \"S3-P0049\",\n        \"S3-P0050\"\n      ],\n      \"condition\": \"A B C son etapas de objetos distintos; evidencia de una no promueve otra\",\n      \"integrated_destination\": \"MODEL.md#uso-posterior\",\n      \"candidate_contrast\": \"ACC-ECO-16\",\n      \"counterexample\": \"Toy concordante que no cumple condiciones de campaña\",\n      \"evidence_state\": \"Piloto de especificación; aceptación formal pendiente\"\n    },\n    {\n      \"id\": \"CONCEPT-38\",\n      \"concept\": \"Token vigente y orden obsoleta\",\n      \"source_units\": [\n        \"S3-P0033\",\n        \"S1-P0795\"\n      ],\n      \"condition\": \"Caducidad técnica distinta de pérdida material de fundamento\",\n      \"integrated_destination\": \"MODEL.md#error-irreversibilidad-y-tiempo\",\n      \"candidate_contrast\": \"ACC-ECO-18\",\n      \"counterexample\": \"Revalidación convencional descubre reparación y freeze\",\n      \"evidence_state\": \"T02/T03 ilustrados; fuente UC21 NOT_RUN\"\n    },\n    {\n      \"id\": \"CONCEPT-39\",\n      \"concept\": \"Conflicto silencio y representación\",\n      \"source_units\": [\n        \"S1-P0375\",\n        \"S3-P0036\",\n        \"S3-P0056\"\n      ],\n      \"condition\": \"No inventar consentimiento ni precedencia; actor colectivo requiere representante\",\n      \"integrated_destination\": \"MODEL.md#propuestas-aceptación-y-reajuste\",\n      \"candidate_contrast\": \"ACC-ECO-19\",\n      \"counterexample\": \"La ruta legítima de revisión resuelve el conflicto\",\n      \"evidence_state\": \"E07 y T06 ilustrados; integración ACC excluida\"\n    },\n    {\n      \"id\": \"CONCEPT-40\",\n      \"concept\": \"Causa no resuelta\",\n      \"source_units\": [\n        \"S1-P0548\"\n      ],\n      \"condition\": \"Presupuesto previo y falsación; nuevas dimensiones quedan exploratorias\",\n      \"integrated_destination\": \"MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto\",\n      \"candidate_contrast\": \"ACC-ECO-12\",\n      \"counterexample\": \"Agotar consulta sin identificar mecanismo\",\n      \"evidence_state\": \"T06 ejecutado con dos consultas\"\n    }\n  ]\n}\n",
+      "reason": "Mantener los mismos 40 conceptos y recibir las cinco precisiones en sus registros propietarios"
+    },
+    {
+      "file": "ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "user_annotations": [
+        2,
+        3
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "**Estados de propuesta:**",
+      "after": "**Dimensiones implícitas y activación:** el inventario de ejes y su relevancia para una transición son cuestiones distintas. Una preferencia de reparto puede estar implícita durante un régimen repetitivo y pasar a decidir el acuerdo cuando se abre un beneficio adicional. Si ese diferencial no está disponible en el conjunto de opciones y horizonte iniciales, no hay un nuevo beneficio positivo que repartir en esa comparación; las distribuciones previas no desaparecen. Distinguir activación de un eje ya presente, cambio de su peso, descubrimiento de uno omitido y ampliación real del conjunto factible. La persistencia no prueba optimalidad: una ineficiencia puede contener una mejora desconocida o bloqueada. Un óptimo de Pareto relativo al conjunto inicial y otro conjunto abierto por una transición no son la misma comparación. Véanse la [explicación integrada](MODEL.md#dimensiones-implícitas-y-activación-en-una-transición) y las [variantes del plátano y ministerios](CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear). El eje no adquiere veto propio por activarse, ni toda transición añade otro eje.\n\n**Estados de propuesta:**",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    },
+    {
+      "file": "ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "user_annotations": [
+        1
+      ],
+      "baseline_commit": "09398e0b2bdfdd15da940cf0d5e7670b7b4a2035",
+      "before": "## 8. Utilidad neta, disconfort, soberanía económica y no duplicación",
+      "after": "**Actividad intelectual, uso y efecto útil:** el esfuerzo realizado, el resultado producido, su utilización, la contribución útil contrastada y la experiencia humana se observan por separado. Puede movilizarse inteligencia para una mejora que no llega a utilizarse, o producirse un resultado cuya falta de utilidad para el fin declarado se demuestra. Esto no equivale a incapacidad de la persona, ni permite clasificar como evitable una garantía necesaria. La frustración e insatisfacción por esa distancia constituyen hipótesis humanas adicionales al reparto de recursos, con instrumento propio. Esta precisión explicativa no cambia la resta directa de inputs comparables por óptimo, las definiciones propietarias de HID ni las condiciones de recuperación; evita inferirlas de esfuerzo o malestar. [Recepción y fuentes](review/PROMPT_CLARIFICATIONS.md#anotación-1-inteligencia-actuación-y-experiencia).\n\n## 8. Utilidad neta, disconfort, soberanía económica y no duplicación",
+      "reason": "Recepción de aclaraciones directas de Iván; no modificación retrospectiva del estudio congelado"
+    }
+  ]
+}

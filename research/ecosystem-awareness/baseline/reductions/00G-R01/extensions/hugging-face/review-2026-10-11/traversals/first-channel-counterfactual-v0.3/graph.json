@@ -1,0 +1,336 @@
+{
+  "LOCAL_ONLY_DENIED": {
+    "mode": "EA_LOCAL",
+    "peer_grant": "NO",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "NO",
+    "messages_sent": 0,
+    "unauthorized_messages": 0,
+    "additional_receivers": 0,
+    "messages": []
+  },
+  "GATED_DENIED": {
+    "mode": "EA_SIGNAL_GATED",
+    "peer_grant": "NO",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "NO",
+    "messages_sent": 0,
+    "unauthorized_messages": 0,
+    "additional_receivers": 0,
+    "messages": []
+  },
+  "UNGATED_DENIED_ALL_EA": {
+    "mode": "EA_SIGNAL_UNGATED",
+    "peer_grant": "NO",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "NO",
+    "messages_sent": 5,
+    "unauthorized_messages": 5,
+    "additional_receivers": 4,
+    "messages": [
+      {
+        "source": 0,
+        "recipient": 1,
+        "depth": 1,
+        "authorized": false
+      },
+      {
+        "source": 0,
+        "recipient": 2,
+        "depth": 1,
+        "authorized": false
+      },
+      {
+        "source": 1,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": false
+      },
+      {
+        "source": 2,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": false
+      },
+      {
+        "source": 2,
+        "recipient": 4,
+        "depth": 2,
+        "authorized": false
+      }
+    ]
+  },
+  "UNGATED_DENIED_ONLY_SEED_EA": {
+    "mode": "EA_SIGNAL_UNGATED",
+    "peer_grant": "NO",
+    "enabled_ea_nodes": [
+      0
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "NO",
+    "messages_sent": 2,
+    "unauthorized_messages": 2,
+    "additional_receivers": 2,
+    "messages": [
+      {
+        "source": 0,
+        "recipient": 1,
+        "depth": 1,
+        "authorized": false
+      },
+      {
+        "source": 0,
+        "recipient": 2,
+        "depth": 1,
+        "authorized": false
+      }
+    ]
+  },
+  "GATED_UNKNOWN": {
+    "mode": "EA_SIGNAL_GATED",
+    "peer_grant": "UNKNOWN",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "UNKNOWN",
+    "messages_sent": 0,
+    "unauthorized_messages": 0,
+    "additional_receivers": 0,
+    "messages": []
+  },
+  "GATED_BROKEN_POLICY": {
+    "mode": "EA_SIGNAL_GATED",
+    "peer_grant": "NO",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": true,
+    "epistemic_disclosure_grant": "NO",
+    "messages_sent": 5,
+    "unauthorized_messages": 5,
+    "additional_receivers": 4,
+    "messages": [
+      {
+        "source": 0,
+        "recipient": 1,
+        "depth": 1,
+        "authorized": false
+      },
+      {
+        "source": 0,
+        "recipient": 2,
+        "depth": 1,
+        "authorized": false
+      },
+      {
+        "source": 1,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": false
+      },
+      {
+        "source": 2,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": false
+      },
+      {
+        "source": 2,
+        "recipient": 4,
+        "depth": 2,
+        "authorized": false
+      }
+    ]
+  },
+  "GATED_AUTHORIZED": {
+    "mode": "EA_SIGNAL_GATED",
+    "peer_grant": "YES",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "YES",
+    "messages_sent": 5,
+    "unauthorized_messages": 0,
+    "additional_receivers": 4,
+    "messages": [
+      {
+        "source": 0,
+        "recipient": 1,
+        "depth": 1,
+        "authorized": true
+      },
+      {
+        "source": 0,
+        "recipient": 2,
+        "depth": 1,
+        "authorized": true
+      },
+      {
+        "source": 1,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": true
+      },
+      {
+        "source": 2,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": true
+      },
+      {
+        "source": 2,
+        "recipient": 4,
+        "depth": 2,
+        "authorized": true
+      }
+    ]
+  },
+  "UNGATED_AUTHORIZED": {
+    "mode": "EA_SIGNAL_UNGATED",
+    "peer_grant": "YES",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "YES",
+    "messages_sent": 5,
+    "unauthorized_messages": 0,
+    "additional_receivers": 4,
+    "messages": [
+      {
+        "source": 0,
+        "recipient": 1,
+        "depth": 1,
+        "authorized": true
+      },
+      {
+        "source": 0,
+        "recipient": 2,
+        "depth": 1,
+        "authorized": true
+      },
+      {
+        "source": 1,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": true
+      },
+      {
+        "source": 2,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": true
+      },
+      {
+        "source": 2,
+        "recipient": 4,
+        "depth": 2,
+        "authorized": true
+      }
+    ]
+  },
+  "GATED_CONTENT_DENIED": {
+    "mode": "EA_SIGNAL_GATED",
+    "peer_grant": "YES",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "NO",
+    "messages_sent": 0,
+    "unauthorized_messages": 0,
+    "additional_receivers": 0,
+    "messages": []
+  },
+  "UNGATED_CONTENT_DENIED": {
+    "mode": "EA_SIGNAL_UNGATED",
+    "peer_grant": "YES",
+    "enabled_ea_nodes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "faulty_policy": false,
+    "epistemic_disclosure_grant": "NO",
+    "messages_sent": 5,
+    "unauthorized_messages": 5,
+    "additional_receivers": 4,
+    "messages": [
+      {
+        "source": 0,
+        "recipient": 1,
+        "depth": 1,
+        "authorized": false
+      },
+      {
+        "source": 0,
+        "recipient": 2,
+        "depth": 1,
+        "authorized": false
+      },
+      {
+        "source": 1,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": false
+      },
+      {
+        "source": 2,
+        "recipient": 3,
+        "depth": 2,
+        "authorized": false
+      },
+      {
+        "source": 2,
+        "recipient": 4,
+        "depth": 2,
+        "authorized": false
+      }
+    ]
+  }
+}

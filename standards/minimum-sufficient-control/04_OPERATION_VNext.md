@@ -1,0 +1,239 @@
+# Revisión de MSCA Operation — qué recibe y qué puede decidir
+
+**Única VNext de este documento lógico.** Auditoría por Codex, 6 de octubre de 2026; mismo asistente de IA. [Fuente](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [ficha externa](./04_OPERATION_REVIEW_CARD.md) · [plan](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
+Fuente: blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`, commit `e80846a0f9cf3b97cf222ed3d1e28b31d145ad3e`. Iván autoriza revisar todo Contributions sin romper integraciones; no aplicar cambios canónicos sin decisión concreta.
+
+## Auditoría de la entrada RA — alcance parcial
+
+Se examinaron §4 y pasajes de entrada/salida que usan Δ_RA, además de 01C §2 y 01D completo. El resto del documento y las cuatro pasadas integrales permanecen pendientes.
+
+La entrada RA está atribuida al productor legítimo. La tabla la resume como direction/intensity/capability/residual. Sin embargo, 01C define B_RA como fundamento establecido y reserva caracterizada, no intensidad física; C_RA como exploración aún no caracterizada, no toda capacidad. El receptor necesita conservar estas distinciones para no perder reservas conocidas, inventar magnitudes o tratar clasificación incierta como D.
+
+Se comparó también el [README RA](../../research/regime-awareness/README_VNext.md). El problema observado concierne a la explicación textual del contrato. No basta para declarar roto todo runtime: hay que leer los perfiles, mappings y decisiones que realmente dependen de esa interpretación.
+
+01D exige misma operación, S/E, scope, versiones y tiempo; separa assessment y permiso y evita vetos por un RA opcional. Conservar el nombre Δ_RA no garantiza esas condiciones. La [VNext del README MSCA](./README_VNext.md) y [EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md) reciben el hallazgo.
+
+## Conversación y pendientes
+
+**Codex, auto-revisión:** aclarar un resumen podría afectar cómo un lector implementa la entrada. La propuesta no añade campos ni cambia dueño; aun así requiere cotejar las realizaciones y los consumidores descendentes de Operation. No se ensayó un adaptador, se ejecutó una transición o se recalificó un resultado.
+
+Sigue abierta la lectura de drift, Type catalogue, gradiente, ACC, posture gate, señales de intention/authority, re-contracting y self-healing, junto con sus fuentes y falsadores.
+
+## Propuesta antes/después — entrada RA, pendiente
+
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio37 incorporado en `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Contrastar operación, autoridad vigente, cambio de rol, señalización y recuperación con arquitecturas externas de runtime y lifecycle. Mantener separados selección, permiso, ejecución y efecto al evaluar una pieza reutilizable.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Verificar que las entradas EA/RA y el retorno a Cartografía conservan significado, scope, vigencia y dueño autorizado, y que las propuestas no confunden selección, permiso, ejecución o efecto.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 37 · Conservar significado RA al entrar en Operation | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
+
+## Continuación de 01C — payloads y separación de propietarios
+
+**Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** 01C distingue ahora explícitamente en su propuesta el input de rol vinculado y la observación de comportamiento. Operation §§2–4 ya mantiene esa diferencia; el cambio 54 corrige una ambigüedad del consumidor, no crea un nuevo owner. Los cambios 52/53 separan vocabulario Cart_i compartido de calificación del resultado RA. La entrada Δ_RA y su propuesta anterior conservan su compatibilidad pendiente.
+
+La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](03_COMPOSITION_VNext.md) y [Role VNext](02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
+
+
+---
+
+## Lectura completa de Role y Composition — reevaluación de la auditoría
+
+**Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** Role§13.1 contiene también la frase usada en01C; por eso la atribución anterior de la ambigüedad solo al consumidor era incompleta. Operation mantiene bound/effective.54 pasa a claridad opcional;52/53 no crean otro esquema ni acreditan fallo runtime.
+
+[Role VNext](02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.
+
+
+---
+
+## Lectura completa de Operation — comparación, deriva y límites
+
+**Auditoría realizada por Codex, 6 de octubre de 2026; mismo asistente de IA. Fuente completa §§1–26, commit `26eb9ee1e5cccb348abe26a71f37d18a947af6bb`, blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`.** Continúa las revisiones parciales anteriores; no se elimina ninguna valoración o propuesta.
+
+### Primera pasada — cerrar sin autoautorizar
+
+Se leyó el ciclo completo. Comienza observando el rol efectivo y cotejando su legitimidad antes de optimizar desde un estado ficticio. Clasificar deriva no canoniza la conducta; un gradiente favorable no concede autoridad. Después de un cambio legítimo debe actualizarse rol/ACC/Cart antes de emitir el siguiente ciclo. Las solicitudes de contención e aislamiento se distinguen de su ejecución.
+
+§21 explica una posibilidad de self-healing y niega prueba de convergencia o seguridad global. §22 permite corrección local sin consenso; no es evidencia de una recuperación garantizada. El ejemplo Bar-to-Napoleon ilustra una falsa transición de misión, no prueba cualquier adversario. Su§16 aclara que confianza alta aislada no diagnostica Type 2: hace falta promoción indebida de incertidumbre material.
+
+§11.3 usa “It authorizes the need...” paraP3 mientras los otros gates niegan que una postura cree permiso. Se propone60 como precisión opcional de lectura, no reparación de una autorización ejecutada demostrada.
+
+### Segunda pasada — comparación fuente/receptor
+
+Se cotejaron íntegramente Architecture, ACC, Role, Composition,01I y Gradient. Role ligado/efectivo (§§2/14) conserva su diferencia; ACC (§§12–14) conserva linaje/sucesor/autoridad; Cart sigue en Composition. Sus consecuencias están en [Architecture](00_ARCHITECTURE_VNext.md), [ACC](01_ACC_VNext.md), [Role](02_ROLE_VNext.md), [Composition](03_COMPOSITION_VNext.md) y [01I](../../research/ecosystem-awareness/baseline/01I_VNext.md) VNext.
+
+El nuevo hallazgo es§9: repite igualdad de reducción de riesgo y aumento de cumplimiento sin la condición binaria normalizada de la fuente. Gradient admite comparación vector/Pareto y su selección queda insuficientemente especificada para ese caso. Dos vectores que mejoran componentes diferentes no tienen ganador único por el símboloG. [Gradient VNext](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md) contiene el contraejemplo y57/58;59 conserva en el receptor la comparación declarada. Tanda conjunta, sin algoritmo/pesos/permisos nuevos.
+
+No se leyeron aún completos todos los perfiles 01D/01H/01J, modelos de riesgo, fuente00G ni sus contratos y resultados. La segunda sigue abierta. No se relanza una ejecución para suplir lectura; la conciliación global tampoco se inicia por este contraste parcial.
+
+### Tercera pasada — estructura y formato
+
+Texto completo examinado: deriva → oportunidades → posturas → gates → resultados → feedback es un orden inteligible. Los distintos catálogos de estado no deben mezclarse; el resultado compuesto no es un permiso. La ambigüedad de autorizaciónP3 y la abreviatura de comparación son propuestas localizadas; no hay razón para reordenar toda la fuente.
+
+### Cuarta pasada — lectura humana
+
+Simulación del mismo asistente: el camarero puede creer que otra misión es atractiva, pero sigue vinculado al bar salvo transición legítima. Si ya cambió de conducta, hay que partir de lo observado y devolver la decisión al dueño adecuado. El cierre de escalada requiere destino, plazo, fallback y presupuesto (§13.2); esperar sin fin no es seguridad.
+
+Una persona necesita ver la comparación de objetivos cuando el movimiento favorece uno y perjudica otro.59 protege esa pregunta; no obliga al lector a interpretar un argmax como consenso.
+
+### Quinta pasada — delegación como frontera externa
+
+**Contraste específico realizado.** [RFC8693, Campbell/editor, Bradley, Jones, Nadalin y Mortimore, enero2020, Proposed Standard](https://www.rfc-editor.org/info/rfc8693/), §§1/1.1/2.1 y derechos consultados. Distingue actor y sujeto; el intercambio depende del servidor/política y no fija un trust model universal. Pieza candidata: referencia actor/sujeto/scope de la autoridad que el ciclo verifica, sin transformar una intención en grant ni demostrar linaje ACC. Texto sujeto aIETF Trust/BCP78; componentes de código requieren el aviso de licencia indicado. Implementación/datos no seleccionados ni importados. No se prueba seguridad, ventaja o runtime compatible por el contraste.
+
+ATHENA y su solicitud pública de cadena/revocación se contrastan en ACC VNext: propuesta pendiente, no experimento ejecutado. La quinta está realizada para esta pregunta acotada; adaptar un protocolo exige versión, autoridad y evidencia propios. La segunda material y sexta global siguen abiertas.
+
+## Propuestas de esta lectura — fuente y consumidor juntos
+
+## Reapertura por nueva capacidad humana — fuente vigente
+
+**Codex, mismo asistente,6 de octubre de 2026.** La fuente cambió a `8757ba614c94f962206912d4896c119a18a924fa`, blob `e11731c36e207d11631ade1a60ee521537840801`: se leyó íntegra la nueva §4.1 y su productor01K completo. Los demás pasajes no cambiaron. Se conservan la lectura y pares anteriores contra 26eb; no se reescribe suviejo.
+
+La nueva entrada preserva cualificación,Cart/RA,ACC/autoridad y no convierte el avisohumano eninterruptprivilegiado. Su consumo deAVAILABLE exige unledger consistente;01K§4 puede contar dosveces lareserva si committed y demand_committed son elmismo volumen, y susclasesordinales no acreditan restas. [01K VNext](../../research/ecosystem-awareness/baseline/01K_VNext.md) y [01J VNext](../../research/ecosystem-awareness/baseline/01J_VNext.md) registran64/67 y otroextremo. No se da porprobada capacidad real ocalibración.
+
+59/60 conservan exactamente viejo y propuesta, presentes una vez en la nueva fuente. Revalidación publicada a continuación; siguen pendientes de Iván, sin cambiar el input de37 ni resultados.
+
+### Revalidación del cambio59 contra la nueva fuente
+
+**Aplicado en main — cambio59.** La variante revalidada coincide con el texto ya incorporado en `00ea3174c10a7e7cad84905d5642aa74eba35b18`. Se retira también esta ficha repetida de la cola. Su par histórico completo permanece en Git `00ea3174c10a7e7cad84905d5642aa74eba35b18`.
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 37 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Medio | Primera |
+| 59 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+
+**Cambio 37 — Cambio acoplado; no listo.** La fila de Operation abrevia la entradaRA. Su contexto conserva scope/autoridad, pero no explica por sí solo todos los papelesB/C/D.
+
+**Beneficio esperado:** Que el consumidor reciba la semántica y condiciones del productor. **Riesgo concreto:** Cambiar entrada puede alterar decisiones esperadas o interpretación histórica; un resumen más largo no prueba equivalencia de ejecución. **Coste de preparar y mantener:** Cotejar 01C, RA, 03, 04, 01D y perfiles; ningún nuevo resultado runtime.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Revisar35/38 conjuntamente y comprobar que el retornoCart/RA conserva qualifiers y vigencia. No afirmar que una implementación ya perdió esa información. Revisar junto con 17, 35, 38. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 59 — Cambio acoplado; no listo.** Operation universaliza equivalencia riesgo/cumplimiento que sólo es directa en lectura binaria normalizada. La propuesta preserva el perfil de comparación.
+
+**Beneficio esperado:** Que el consumidor no universalice lo que la fuente delimita. **Riesgo concreto:** Puede desactualizar perfiles y decisiones esperadas; no cambia permisos/posturas. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** 57/58 antes o junto a 59; mantener evidencia, hard constraints y permiso externos. No prometer algoritmo computable o ganador único. Revisar junto con 57, 58. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Consecuencia entre documentos:** [35](../../research/regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [64](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con posicionamiento local e interfaz EA/MSCA — 6 octubre 2026
+
+**Auditoría cruzada realizada por Codex, mismo asistente.** Fuente de esta ampliación: `fa2c411c810950fb94924caae38938c52dfd5014`;01H § §1–9,01B § §1–8 y 01D § §1–7 completos, ArticleII completo como procedencia; no experimentos o audiencia humana independiente.
+
+01B § §5.1/6.4/7 y 01H § §4.1/5 separan obtener evidencia, evaluar configuración, elegir transición, autorizar, ejecutar ycomprobar efecto. La oportunidad epistemológica precursora no es la selección operativa delgradiente.57/58/59 conservan sus gates deorden/comparación y 12/14/ACC mantienen dueño legítimo. Costes/criterios/ventana siguen definidos porelperfil; no se suman por analogía.
+
+La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+---
+
+## Consistencia con DDS y recalificación local — 12 octubre 2026
+
+**Codex, mismo asistente; corte `eb5d66d7e22dc18f093ee33fcd564e1fac6d2338`.** Se cotejó §4.1 de [Operation](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) con HC-HID §7A, Index/Stages DDS y los dos textos HF del 12 de octubre. La referencia es la relación material señal/coste/autoridad y no una nueva lectura de todos los perfiles o realización de las pasadas pendientes.
+
+**Relación mantenida:** recibir una alerta permite recalificar lo material y preservar trabajo no afectado. No obliga a cambiar rol, ejecutar contención ni fabricar ACC/permiso. El texto HF de primer canal permite una disposición local sin Repositioning; el contraste de arquitectura completa reserva éste para deriva/transición que realmente lo necesita. Los ejemplos son propuestas y no prueban implementación o prevención histórica.
+
+El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el mismo Challenge, calidad, autoridad y ventana. Una M más barata no sustituye el I exigido. AVAILABLE o recepción humana tampoco conceden capacidad medida ni autoridad. DDS Stage A/B/C son etapas de evaluación; A_HC/B_HC/C_HC/D_HC son posiciones epistemológicas del componente, no esas etapas.
+
+[HF VNext](../../research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#consistencia-con-dds-y-msca--12-octubre-2026) y [DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#consistencia-de-dds-y-sus-receptores--12-octubre-2026) registran ambos extremos. No se justifica otro par antes/después de Operation por este cotejo: su frontera actual es compatible. 37/59/60 y las relaciones aún abiertas conservan sus estados, sin incorporación, prueba runtime o cierre de sexta.
+
+
+---
+
+<a id="ola2-cambio-01"></a>
+
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 37 | Conservar significado RA al entrar en Operation | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
+| 59 | Mantener en Operation el perfil de comparación del gradiente | standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md | Aplicado |
+
+
+
+## Historical reception of operation and repositioning — 15 October 2026
+
+Reviewer A read complete Operation (`9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`) and105 retired units. Bound/effective drift, evaluation from observed state and realignment survive. Old RESTORE/CONTAIN/ISOLATE labels now have bounded target/request/approval routes: REALIGN_TARGET, REQUEST_CONTAINMENT, REQUEST_ISOLATION, REBIND_ROLE, RECONTRACT, MIGRATE, ESCALATE and UNRESOLVED.
+
+Containment classification is not execution, P3 does not authorise a destination, and high confidence alone does not establish Type2. Declared scalar/vector/Pareto gradients remain available; RA confidence is not physical change magnitude. Change125 aligns the staticRole source phrase with this existing bound/effective comparison.
+
+The three historical Operation scenario-version receiver obligations (`1263.0`, `1408.0`, `1433.0`) are resolved by the substantive cross-owner check below. The dated A3 report remains preserved; these are valid successor corrections, with no source restoration required.
+
+
+## Completed Operation / 00G historical receiver check — 15 October 2026
+
+Reviewer B checked the three receiving-version questions left by A3/A4; A verified59 exact literals before attributed integration. All three are valid successor corrections with substantive current reception. This is a continuation of those reviewers, not a new blind review. No source repair is proposed.
+
+| Historical substitution | Commit | Current reception and consequence |
+|---|---|---|
+| 00G v0.1 → v0.2 | `0575df8c78ab3f3311bf75e9a0a99a1c23218790` | The illustrative mission/ACC/authority separation is retained; the paired opaque false/genuine F/G contract strengthens symmetric testing. Reverting would weaken that correction. |
+| v0.2 → v0.3 Draft | `ae5e437748db3166fe408386e3d398b0034a6599` | The paired contract remains; current authority applicability, DBC routing and per-rate numerator/denominator/oracle obligations are added. Draft status does not turn a candidate into an executed result. |
+| v0.3 Draft → v0.4 | `9092ee279f74f0f230f8db657b31b0d0d13212de` | v0.4 receives the full contract and the unexecuted OAI-G0/G1/G2 trajectories. The v0.3 blob at retirement includes visual aids and an implementation-draft route added after its introduction; both actual versions were checked. |
+
+Current [00G v0.4 §§6/9](https://github.com/dakleyer/structural-awareness-contributions/blob/5e9f7d1b0ab3c0cb6470c65777e4822de08fc41f/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#9-executable-paired-fixture-and-quality-gate-plan), blob `eeea590e01912d89d1e27d8d5c1822cb361c4df7`, requires preserving the still-valid mission under dependent repetition in F and requalifying/changing or suspending it under independent evidence plus applicable authority in G. Blanket persistence therefore fails the positive branch. `DBC_DENY` concerns the candidate transition, not unrelated valid operations; `DBC_EXECUTE` creates neither authority nor actuation.
+
+00G §§11–13 preserve the strong peer, comparable budget, branch-specific measures, burdens and falsifiers. Equal or better performance at equal or lower burden counts against the proposed differential. §§16–18 retain source dependence, matched implementation trajectories and the limited symbolic A6 authority-confound correction. Provenance is distinct from truth, identities from independence, opportunity from admissibility, and authority from confidence. Old trust-only B / available-capacity C definitions stay historical.
+
+[Operation §§16–18](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#16-worked-falsifier--bar-to-napoleon), blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`, retains `Role_effective ≠ Role_bound`, evaluation from observed behaviour and a legitimate metamorphic transition with objective, ACC/lineage, authority and validity horizon. [01D §§2–3/6](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), blob `8db6ded733dada42ca20f2cbe952b26809ec556e`, is the compatible per-operation/decision composition contract; it is not the narrative's replacement. New evidence does not extend old permission, and material change invalidates only dependent claims. The [baseline owner](../../research/ecosystem-awareness/baseline/README_VNext.md#completed-operation--00g-reception-and-snapshot-custody--15-october-2026) records the receiver side. All three reception questions are resolved; empirical execution and efficacy remain separate questions.
+
+
+
+## Gradient posture-signature reception — 15 October 2026
+
+A6 traced Gradient's retired competing Γ signature to the complete current Operation §11 (lines329–408, blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). The three postures and ACC/authority/capacity/horizon inputs survive with Cart, Type, role and focal MSCA context. Normal may remain appropriate under qualified nonzero change; containment classification and legitimate migration retain their separate execution gates. Threshold/hysteresis remains local. The [Gradient owner](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the source-side judgment. No Operation patch or duplicate signature is needed.
+
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #37, #59 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #37: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`); #59: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

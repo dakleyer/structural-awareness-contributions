@@ -1,0 +1,140 @@
+{
+  "schema": "dds-stage-a-hugging-face-requirement-preregistration-v0.3",
+  "date": "2026-10-08",
+  "status": "PREREGISTERED__ACCEPTANCE_PENDING__NOT_EXECUTED",
+  "dds_stage": "Stage A — Specification Discovery",
+  "evidence_mode": "RETROSPECTIVE_REQUIREMENT_LEVEL_DOCUMENTARY_SYMBOLIC_PLUS_PREREGISTERED_MUTATION_AND_BLIND_REVIEW",
+  "current_claim": "COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING",
+  "preserved_predecessors": {
+    "exact_pre_audit_v0_1": "STAGE_A_FREEZE_AND_VERSION_LINEAGE.md",
+    "audit_corrected_v0_2_route": "DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md",
+    "audit_corrected_v0_2_adjudication": "DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md",
+    "audit_corrected_v0_2_result": "DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json"
+  },
+  "current_preregistered_package": {
+    "route": "DDS_STAGE_A_HISTORICAL_ROUTE_v0.3_PREREGISTERED.md",
+    "scoring_contract": "DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md",
+    "source_freeze_addendum": "DDS_STAGE_A_SOURCE_FREEZE_ADDENDUM_v0.3.1.md",
+    "mutation_contract": "DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json",
+    "neutral_blind_packet": "DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.2_NEUTRAL.md"
+  },
+  "specification_inputs": {
+    "canonical_requirements": {
+      "commit": "96cbc94921aa5f2f16463faaf4a2f165175383a0",
+      "blob_sha": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c"
+    },
+    "ownership_maturity_map": {
+      "commit": "a18bb0f32bed",
+      "blob_sha": "38d64f61ef81a300a20d9d89cda65e5bb6ba5b22",
+      "note": "Pinned pre-Hugging-Face-hardening version; moving main is not a scoring input."
+    }
+  },
+  "historical_source_freeze": {
+    "reconstruction_blob": "56754a0a63a351448fdbd14dfd754816dc42bc43",
+    "cross_source_matrix_blob": "20db58f335227cbf9ff830aab7d33967a15629a3",
+    "trace_packets_blob": "a5c0c4ba7c499d92b89fc8748dec1a1e8c88ec22",
+    "evidence_register_blob": "a7f5f234e091777864f578d54fb4e67e25d9cbde"
+  },
+  "provenance": {
+    "pre_adjudication_negative_family": "HF-N0…HF-N9",
+    "hf_n10": "POST_AUDIT_PREVIOUSLY_UNSCORED__ADMITTED_TO_V0_3_RUN",
+    "requirement_level_gates_v0_1": "EA-SA-Q0…Q8 were introduced inside original adjudication, therefore not prospectively frozen for v0.1",
+    "requirement_level_gates_v0_3": "EA-SA-Q0…Q9 are frozen before the next blind result",
+    "retrospective_independence": "Current requirements are not established as pre-incident independent; visible 00A/00C/canonical requirement path history begins 2026-09-17."
+  },
+  "verdicts": {
+    "PASS": "Frozen specification explicitly covers the material distinction inside claimed scope and determines a reviewable decision-level qualification/disposition consistent with evaluator facts, without inventing external-owner facts.",
+    "FAIL": "Inside claimed scope, candidate produces or claims a contrary/prohibited closure, omits a material distinction while claiming determined closure, or blocks a legitimate continuity case through a blanket rule.",
+    "NOT_ESTABLISHED": "Frozen candidate does not determine the requested property because it is external-owner/outside claimed scope, wording/maturity is insufficient, facts are missing, execution/compliance is external, or the observation boundary is indistinguishable."
+  },
+  "gates": [
+    {
+      "id": "EA-SA-Q0",
+      "name": "decision boundary"
+    },
+    {
+      "id": "EA-SA-Q1",
+      "name": "material-change discrimination"
+    },
+    {
+      "id": "EA-SA-Q2",
+      "name": "evidence/domain non-substitution"
+    },
+    {
+      "id": "EA-SA-Q3",
+      "name": "authority/identity/non-amplification"
+    },
+    {
+      "id": "EA-SA-Q4",
+      "name": "unresolved-state handling"
+    },
+    {
+      "id": "EA-SA-Q5",
+      "name": "history/drift non-legitimation"
+    },
+    {
+      "id": "EA-SA-Q6",
+      "name": "autonomous bounded disposition"
+    },
+    {
+      "id": "EA-SA-Q7",
+      "name": "genuine authorized change/continuity"
+    },
+    {
+      "id": "EA-SA-Q8",
+      "name": "useful-horizon discipline"
+    },
+    {
+      "id": "EA-SA-Q9",
+      "name": "qualified disposition versus conscious noncompliance",
+      "allowed_result": "NOT_ESTABLISHED"
+    }
+  ],
+  "neutral_case_set": [
+    "BR-01",
+    "BR-02",
+    "BR-03",
+    "BR-04",
+    "BR-05",
+    "BR-06",
+    "BR-07",
+    "BR-08",
+    "BR-09",
+    "BR-10",
+    "BR-11",
+    "BR-12",
+    "BR-13",
+    "BR-14",
+    "BR-15",
+    "BR-16",
+    "BR-17"
+  ],
+  "mutation_set": [
+    "M-01",
+    "M-02",
+    "M-03",
+    "M-04",
+    "M-05",
+    "M-06",
+    "M-07",
+    "M-08",
+    "M-09",
+    "M-10"
+  ],
+  "acceptance_preconditions": [
+    "Eligible blind/independent reader seals BR-01…BR-17 before inspecting author predictions/adjudications.",
+    "Mutation contract is executed against base candidate and M-01…M-10.",
+    "All registered mutants are killed at one or more registered kill cases.",
+    "Positive/continuity controls prevent deny-all shortcuts.",
+    "NOT_ESTABLISHED outcomes are preserved where preregistered or independently adjudicated.",
+    "Disagreements follow DISAGREEMENT_UNRESOLVED / third-review or successor-version rule.",
+    "No Stage-B architecture mechanism is credited as Stage-A evidence."
+  ],
+  "current_execution_status": {
+    "blind_reader_completed": false,
+    "mutation_test_completed": false,
+    "stage_a_accepted": false,
+    "stage_b_started": false,
+    "stage_c_started": false
+  }
+}

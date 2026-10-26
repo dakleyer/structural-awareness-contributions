@@ -1,0 +1,26 @@
+{
+  "version": "0.5",
+  "canonical_method_count": 1,
+  "STPA_active_run": "DDS-STAMP-STPA-20261006-02",
+  "old_STPA_run01_result_unchanged": true,
+  "old_complete_source_and_freeze_local": true,
+  "SPIFFE_RATS_old_HEW_frozen_results_changed": false,
+  "no_private_Drive_resource_links_in_public_payload": true,
+  "review_append_publication_holds": [],
+  "hold_reason": "Automatic approval review rejected republication of exact earlier literal working-case references. Exact owning review candidates stay local; existing public review history unchanged. New independent outputs and public technical studies do not contain the rejected private-linked payload.",
+  "RATS_review_hold": "Earlier precaution resolved for exact public-reference history by explicit human approval.",
+  "automatically_rejected_review_appends": [
+    "STAMP/STPA",
+    "SPIFFE"
+  ],
+  "other_same_reference_review_left_unchanged": [
+    "RATS"
+  ],
+  "R01_preservation_guard_publication_hold": "Resolved for this source by explicit human approval; private contents still excluded.",
+  "candidate_R01_guard_passes_locally": true,
+  "public_CI_green_not_claimed_before_actual_runs": true,
+  "guard_and_review_reference_publication_authorized": true,
+  "authorization": "Yes, preserve existing public references; no excluded private contents published.",
+  "public_R01_guard_update_included": true,
+  "historical_hold_entries_remain_recorded": true
+}

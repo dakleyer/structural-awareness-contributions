@@ -1,0 +1,300 @@
+FULL READABLE-TEXT RECOVERY FROM LIBRARY — 13 OCTOBER 2026
+Source: Library/RESIDENCIA/01_AUDIT_RECONCILIATION_EN.pdf
+Origin format: PDF
+Text below is the full accessible text returned by the Files reader, NOT the original binary file, not a byte-identical PDF/TXT copy, not a new independent review, and not a frozen/accepted DDS outcome.
+For PDF: page markers, spacing and extraction order follow the reader and should not be treated as a faithful visual PDF rendering. Preserve the original source separately for binary hashes, figures and exact-page verification.
+For TXT: textual equivalence with the Library reader's rendering is checked for this generated artifact, but raw source-file byte parity is not authenticated.
+This archived text contains author-side review proposals. Do not feed any disclosed review expectation to a future blinded experimental candidate as private truth.
+
+===== BEGIN SOURCE READER TEXT =====
+<PARSED TEXT FOR PAGE: 1 / 4>                                                                      FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+
+Independent Audit Reconciliation — EA / Population
+              Frame Qualification
+Revised scientific decision record v0.3 — checked against native sources, with external findings accepted or
+                                                corrected
+
+                                                        11 October 2026
+
+Audit reconciliation — decisions before dissemination
+Status. This is an author-side response to a third-party textual audit. It is not an independent certification or a completed
+FG-TIDA experiment. The auditor’s purported EA_FRAME_WATCH_v0.2_AUDIT_PATCH.zip was not attached to this
+conversation and could not be opened or incorporated. We inspected the original published v0.1 ZIP, its historical R3
+dossier and primary GitHub sources; we independently recalculated one counterfactual. The original archives are
+included unchanged under 07_archive_superseded/, clearly excluded from current recommendations.
+
+Decision. Accept the central criticism: withdraw Q-bind as a claimed C-regression or primary EA proof. Its failure
+mode, when a known per-round randomized relabeling is specified, is mathematically characterizable using Flores’s
+frozen model. It belongs in a B-characterized method/integrity counterfactual, not automatically in an uncharacterized C
+frontier. The revised proposal is a read-only, downstream EA-side requirements qualification following unchanged
+Flores Stage 1, not an expansion of Theme #21 or an executed R3. Source-native materials give useful scope,
+provenance and evaluation-limit controls; they do not yet show a genuine post-Stage-1 event that moves a previously
+established, identifiable question back to an uncharacterized evaluation frontier.
+
+
+1. Verification ledger
+ Checked item                     Result                                          Evidence and boundary
+                                                                                  Original 31 ZIP entries. Not the third-party v0.2
+ Archived Frame-Watch ZIP         Present; unpacked and inspected
+                                                                                  patch.
+                                                                                  18 ZIP entries; 82 registered source rows, with
+ Earlier R3 dossier               Present; original ZIP preserved
+                                                                                  graded review status.
+                                                                                  Pinned README · expected.py.
+ Flores planted-judge/ state      README and expected.py only, at inspection      generate.py, detect.py, unblind.py not
+                                                                                  published in examined main/tag directory.
+                                                                                  Direct GitHub file reads, returned Git blob SHA
+                                                                                  matched inherited registry. See
+ Pinned source file identities    13 of 13 blob SHA values verified               03_evidence/VERIFIED_BLOBS_13.json. A
+                                                                                  blob match does not independently validate
+                                                                                  scientific assertions.
+                                                                                  Author, created_at, updated_at recorded in
+                                                                                  03_evidence/VERIFIED_PUBLIC_COMMENT
+                                  20 direct GitHub REST comment reads             S_20.json. This resolves the auditor’s access
+ Key public comments
+                                  verified                                        problem for those comments; the attached
+                                                                                  binary ZIPs are still not independently
+                                                                                  downloaded.
+                                                                                  Previous 82 URLs + 42 new-registry rows, of
+                                                                                  which 21 repeat old URLs, 1 repeats another
+ Source counting                  102 distinct URLs                               new row, and 20 are genuinely new URLs.
+                                                                                  COUNT_RECONCILIATION.json and
+                                                                                  canonical CSV contain the arithmetic.
+                                                                                  We confirmed his dated public report; its
+ Nelson executable UC-6
+                                  Not binary-verified here                        attached ZIP cannot be treated as
+ package
+                                                                                  independently executed.
+                                                                                  Published attachment and hash from
+ Cyril TIDA6-FX-0.2 archive       Not binary-verified here
+                                                                                  CTGT/Flores; no local binary reproduction.
+                                                                                  We cannot attest to its claimed fixes, new 32-
+ Auditor v0.2 patch ZIP           Not supplied                                    file checksums, document rendering, or
+                                                                                  derived script without receiving the file.
+
+
+
+
+                                 REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 1<PARSED TEXT FOR PAGE: 2 / 4>                                                                   FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+
+The important comment-ID correction
+
+The auditor suspected that Flores comment 5925445690 (1 Oct 2026) was an incorrectly anchored source. It is
+correctly anchored. The same comment discusses both the diversity gradient and, in its final paragraph, the exact
+downstream boundary: eligibility re-evaluation after complaint, drift or recall belongs to #13/#16; Theme #21 stops at
+what the population supports. The prior register’s short description emphasized another part of that comment; the anchor
+itself was not wrong.
+
+In a distinct Flores comment 5903046577 (30 Sep 2026), he supports EA’s insufficiency + named-gap feedback but
+rejects sending downstream target hypotheses, desired outcomes, receiver reasons or budgets upstream as
+measurement direction. This is a directly verified primary statement, not merely a secondary interpretation in 05A. No
+publication or write action was made to GitHub.
+
+
+2. Original audit findings: disposition
+ Finding                         Assessment                                    Required correction / implemented position
+                                                                               Six scripted judges are re-labeled J1–J6 per
+                                                                               run, in seeded order; roles are sealed. A
+ 1. Q-bind mismatches                                                          stable within-run label is enough for blind
+                                 Accepted — high.
+ Flores’s Stage 1                                                              deviation counts. Per-round label corruption is
+                                                                               not a native Stage-1 context transition. No live
+                                                                               future actor/channel binding is specified.
+                                                                               The changed model remains exactly
+                                                                               calculable. Do not call a known remapping
+                                                                               method an uncharacterized C frontier. C needs
+ 2. Loss of binding is B, not    Accepted for the defined uniform-remapping
+                                                                               independently grounded exploratory direction
+ C                               counterfactual.
+                                                                               and absence of an adequately
+                                                                               characterized method for the particular
+                                                                               assessment.
+                                                                               Retire its externally citable success count and
+                                                                               demo as evidence. The original code uses
+                                                                               grade.startswith('verified'), which incorrectly
+ 3. Self-check 14/14 is
+                                 Accepted — high.                              admits verified_in_synthetic_oracle_only as
+ tautological
+                                                                               real verification; original inputs also pre-label
+                                                                               route. The revised proposal has no synthetic
+                                                                               performance or detection pass score.
+                                                                               An external t1 event must come from its own
+                                                                               producer. EA may recognize and qualify its
+                                                                               consequences given already available
+ 4. Detection versus                                                           metadata; EA cannot claim to have observed a
+                                 Accepted — high.
+ qualification                                                                 world change solely from a supplied oracle
+                                                                               token. The B/C/D mapping is EA-authored,
+                                                                               producer-relative interpretation, not a native
+                                                                               Theme #21 declaration.
+                                                                               No post-t0 exogenous judge-regime change
+                                                                               was published. A synthetic t1 remains a future
+ 5. A fabricated t1 on                                                         Stage A challenge, never a real observation.
+                                 Accepted — medium.
+ scripted judges                                                               Prioritize authentic CTGT reference/coverage
+                                                                               evidence and future receiving-decision
+                                                                               integration.
+                                                                               Provide direct dated anchors for Olena, Flores,
+ 6. Primary comments             Resolved by direct primary reads, not by      Cyril, Anton and Nelson. GitHub comments are
+ inaccessible to auditor         rejecting claim.                              mutable in principle; verification proves current
+                                                                               retrieved content, not immutability.
+                                                                               Add categorical safety invariants and a
+ 7. No prespecified                                                            preregistration gate: event owner, t0 evidence,
+ acceptance thresholds /         Accepted — high for experimental promotion.   source-relevant t1, blind oracle, matched peer
+ owner                                                                         B2, finite budget, qualified endpoint. Without
+                                                                               these: NOT_ADMITTED, no scored R3.
+                                                                               Separate frame status from method
+                                                                               epistemic role, with one vocabulary and a
+ 8. Output vocabulary and                                                      named producer/process/question/time. No
+                                 Accepted — medium.
+ process roles inconsistent                                                    automatic FRAME_LOSS -> C. Old P05 and
+                                                                               T05–T09 are historical, not carried forward as
+                                                                               validated scenarios.
+                                                                               Main reconciliation, full proposal, audit
+ 9. English-language                                                           reviewer reply and source evidence are in
+                                 Accepted.
+ reviewers                                                                     English. A short Spanish decision note is
+                                                                               companion only.
+
+
+
+
+                                REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 2<PARSED TEXT FOR PAGE: 3 / 4>                                                                          FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+ Finding                              Assessment                                          Required correction / implemented position
+                                                                                          No ‘42 new’ claim; one canonical register with
+                                                                                          102 distinct URLs. External hash for this
+                                                                                          revised archive. A self-contained ZIP
+ 10. Source coverage,
+                                                                                          checksum detects accidental changes relative
+ integrity and impossible             Accepted with refinement.
+                                                                                          to its own manifest, not malicious re-
+ claim
+                                                                                          packaging. Identical observable inputs cannot
+                                                                                          uniquely detect different hidden worlds; this is
+                                                                                          an impossibility limit.
+
+
+3. Additional six findings: disposition
+ Additional finding                         Assessment and correction
+                                            Accepted. The add-on is an EA-side downstream read-only qualification. Flores retains
+ A. Misplaced as Theme #21                  all population measurement; #13/#16 own downstream action and any re-evaluation. Cross-
+ extension                                  theme agreements/adapters remain candidates, not approved FG-TIDA interfaces. Primary
+                                            comment 5925445690 verified.
+ B. “Flores accepted insufficiency          Confirmed by primary source, 30 Sep comment 5903046577; secondary 05A is not
+ + named gap”                               the sole support. This acceptance has a clear no-directed-measurement limit.
+                                            Accepted, with independent arithmetic correction. There are 20, not 21, genuinely new
+ C. Duplicate URLs and source-              unique URLs; 21 new-registry rows repeat previously indexed URLs; N11 and N38 duplicate
+ depth overstatement                        each other. Total 102, not 103. Earlier 82 review labels: 41 detailed, 17 focal, 23 coverage-
+                                            only, 1 cited binary/hash without byte check. Do not say 82 were all independently read.
+                                            Accepted as a strategic weakness. Restore REF-FSCOMMS 1.0/1.1 plus UC17-07
+ D. Dropping authentic R3-REF               supersession as the strongest existing source-native reference-interpretation anchor, but
+ anchor                                     recognize the lack of a post-Stage-1 time-of-applicability event. A conventional B2 version
+                                            check may solve it as well.
+                                            Accepted. Withdraw any claim of meeting A25 extension admission. Unless family 00I is
+                                            explicitly selected, a base kernel K, projection/mapping h, preserved failure predicate,
+ E. 00K X1–X7 invoked without
+                                            positive controls and X1–X7 evidence are supplied, no 00K admission result exists. The
+ family mapping
+                                            present task is a standalone bounded Stage A challenge proposal, not a validated 00I-family
+                                            extension.
+                                            Accepted. Call this “EA post-Stage-1 frame qualification review”. This is not Nelson’s
+ F. Stage 0 and mapping
+                                            UC-4 Stage 0, not Flores Stage 1/2, and not a fourth DDS stage. Distinguish ‘source-to-
+ namespace confusion
+                                            qualification interpretation’ from an unapproved executable testbed adapter.
+
+
+4. Counterfactual binding arithmetic: independent replication
+The frozen Flores expected.py specifies eight cases; four honest judges (fixed shared blind spot on UC17-02), one
+justified dissenter, one planted judge; a 10% replacement error on nonfixed cases; leave-one-out majority; and a
+threshold 2.1186 per round. Its published Stage 1 mapping permutes roles to labels once per run, not once per round.
+Therefore the following calculation is a counterfactual extra assumption, not an existing behavior or intended
+Flores test.
+
+Under the counterfactual, assign a uniformly random permutation of the six roles to the six labels independently in each
+round. For any one arbitrary label and the subtle planted-judge variant, enumeration of the same per-case verdict
+distribution gives:
+
+ Quantity                                                                                                            Recalculated value
+ Expected deviations per round of a
+                                                                                                                           1.1707704883
+ randomly re-bound label
+ Mean threshold per round                                                                                                          2.1186
+ Flagging probability for one
+                                                                                                                        0.0024908871 %
+ arbitrarily re-bound label, 25 rounds
+ Flagging probability for arbitrary
+                                                                                                                           20.9514993 %
+ label, 25 rounds, gross variant
+
+These values use independence of new random label permutations across rounds and the frozen per-role model within
+each round. The gross variant matters: the 0.00249% figure must not be presented as a universal property of all
+variants or as the probability of correctly identifying the underlying planted actor. See
+05_reproduction/COUNTERFACTUAL_BINDING_SHUFFLE.py and JSON results. Recreation is independent code
+using published parameters, not an execution of Flores’s published expected.py against the unavailable CTGT
+archive.
+
+Because a fully specified permutation mechanism remains mathematically evaluable, this experiment falsifies the
+previous automatic classification of binding-loss as C. It may still motivate B-level integrity constraints and continuity
+
+
+
+                                  REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 3<PARSED TEXT FOR PAGE: 4 / 4>                                                                   FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+tests, especially if a future receiving application uses labels across rounds; that application is not part of the frozen
+Stage-1 mechanism.
+
+
+5. Claims established, claims not established
+Established by source: Olena’s four-step observation-regime classification; Flores’s fixed model and declared/unknown
+evaluator assumptions; Cyril’s authored versioned records, scoped indeterminate/absence/rejection distinctions; Anton’s
+appraisal axes; Nelson’s reported UC-6 calibration and explicit UNKNOWN versus NONE distinction; direct public comments
+and pinned file blobs.
+
+Not established: real t1 loss after Flores Stage 1; observational proof of independent judge failure modes at t0; a native
+generator output carrying C/D to EA; a validated B→C transition; an executed EA sidecar; a causal EA advantage over
+competent B2; 00K X1–X7 family admission; independent reconstruction of CTGT or Nelson binary ZIPs; auditor v0.2
+patch-byte identity.
+
+Revised decision: circulate the evidence corrections and a small requirements challenge. Do not circulate the old
+14/14 synthetic score, the old Q-bind C-victory assertion or a claim of detected t1. Promotion to an experimental R3
+requires the independent source/adjudicator to establish a change in the necessary precondition, the applicability window
+and a distinguishing observable signal. Until then, the correct scientific outcome is NOT_ADMITTED — NO VERIFIED
+EXOGENOUS T1.
+
+
+6. Audit trail and source map
+These direct anchors replace the auditor’s inaccessible comment workflow:
+
+   •     Olena, 3 September: claim → observation architecture → identifiability → sampling uncertainty.
+   •     Flores, 30 September: EA insufficiency + named gap, no receiver-directed measurement.
+   •     Flores, 1 October: eligibility reassessment after drift sits with #13/#16.
+   •     Flores, 4 October: receiving-decision study after original population slice.
+   •     Flores, 11 October: Stage 1 spec announced for review, not yet run.
+   •     Cyril, 4 October: five-record interpretation and supersession.
+   •     Cyril, 7 October: FX 0.2 channel correction; DC-SEND unchanged.
+   •     Anton Sokolov, 4 September: AVS-0.2 C9/C10/C11 scope.
+   •     Nelson, 6 September: inherited UNKNOWN vs NONE.
+   •     Nelson, 2 October: reported UC-6 Stage 0 results and agent-ID mutation.
+   •     00M semantics, pinned; 00N research, pinned; N07 input contract, pinned.
+
+The full canonical URL register contains 102 distinct URL targets, not 102 independently read studies; review grades
+remain visible. See 03_evidence/SOURCE_REGISTER_CANONICAL.csv. The two original ZIP archives are in
+07_archive_superseded/, unchanged and not recommended for forwarding as current evidence.
+
+
+
+
+                              REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 4
+===== END SOURCE READER TEXT =====

@@ -1,0 +1,261 @@
+{
+  "review_pass": "EP-PASS1-20261006",
+  "source_baseline": "1d24b7bfe88fa366e6c619fa88f6f7904d1380db",
+  "authorization": "Ivan accepted/publication allowed; start overview then existing VNext serial audit",
+  "review_sequence": [
+    {
+      "path": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "commit": "c82941651347dfa1294e27d66c3dda35a975c6b2",
+      "old_blob": "78e8d020762e93a111b408f05a9bc1f1a7ed64ea",
+      "new_blob": "7560c940b8ee2e86f075703a02c681dc86f8bb4b",
+      "snapshot": "governance/preserved-public-snapshots/2026-10-06_PASS1_architectural-contributions__ecosystem-positioning__README_VNext.md",
+      "added_files": [
+        "governance/review/EP_REVIEW_COVERAGE_2026-10-06.tsv",
+        "governance/review/EP_REVIEW_SCOPE_2026-10-06.json"
+      ],
+      "added_links": 7,
+      "changed_paths": [
+        "architectural-contributions/ecosystem-positioning/README_VNext.md",
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_architectural-contributions__ecosystem-positioning__README_VNext.md",
+        "governance/review/EP_REVIEW_COVERAGE_2026-10-06.tsv",
+        "governance/review/EP_REVIEW_SCOPE_2026-10-06.json"
+      ]
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "commit": "400e1cc048e26652b46e6276e7c9b365961c2bad",
+      "old_blob": "11953bbc1f6887027777a3ca74514d7db589cc4d",
+      "new_blob": "b80b8d4b4b6fb0b8176e09b57dd69d0bbd706b72",
+      "snapshot": "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "added_files": [],
+      "added_links": 2,
+      "changed_paths": [
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ]
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "commit": "9e785ab76f7cfacbccbfa8280f3ef0c4ef476c1d",
+      "old_blob": "8c970a1785df5150cf1b128656e498c815a64dac",
+      "new_blob": "83636ba0b5e62d7786003437a4aa22d6fe5cc94f",
+      "snapshot": "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "added_files": [],
+      "added_links": 2,
+      "changed_paths": [
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ]
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "commit": "bf3e0109843471ab7646141d3508fcc1b5e651b9",
+      "old_blob": "3bc1909bb5cfe38a26757547f6074d289b3cf974",
+      "new_blob": "c4d62436abf88a16fa3118a95968c5b9f973727a",
+      "snapshot": "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__fg-tida__interfaces__05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "added_files": [],
+      "added_links": 2,
+      "changed_paths": [
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__fg-tida__interfaces__05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ]
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "commit": "b16bcba8946c75eb608e2458fa5d4fe241fccc60",
+      "old_blob": "751f74e7cd64a92286b936d7aeff704fbafc9be9",
+      "new_blob": "099aa5141238c7da2897a4722a16282427ceb56e",
+      "snapshot": "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__fg-tida__interfaces__05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "added_files": [],
+      "added_links": 2,
+      "changed_paths": [
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__fg-tida__interfaces__05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md"
+      ]
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md",
+      "commit": "8c5d22fb81c0abf0b33f912ce4c40497f798771f",
+      "old_blob": "9f013939234ab783cb3791d67ec3f0b4816a683c",
+      "new_blob": "faee4c9626946a3b6931cf274166c53cb599c88b",
+      "snapshot": "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md",
+      "added_files": [],
+      "added_links": 2,
+      "changed_paths": [
+        "governance/preserved-public-snapshots/2026-10-06_PASS1_research__ecosystem-awareness__baseline__00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md",
+        "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md"
+      ]
+    }
+  ],
+  "other_original_blobs_unchanged": 1095,
+  "canonical_source_corrections_applied": 0,
+  "new_active_vnext_files": 0,
+  "full_corpus_audit_complete": false,
+  "independent_auditor": false,
+  "navigation_check": {
+    "exit_code": 0,
+    "baseline_commit": "1d24b7bfe88fa366e6c619fa88f6f7904d1380db",
+    "readme_links": 212,
+    "direct_local_paths": 102,
+    "direct_markdown_paths": 95,
+    "distinct_external_urls": 8,
+    "local_anchor_occurrences": 16,
+    "missing_direct_paths": [],
+    "suspect_direct_markdown_anchors": [],
+    "first_frontier_edges": 1903,
+    "first_frontier_target_paths": 420,
+    "missing_first_frontier_paths": [],
+    "unretrieved_second_frontier_markdown_at_cut": 229
+  },
+  "external_sources": [
+    {
+      "id": "5571476256",
+      "author": "wardduchamps",
+      "created_at": "2026-09-07T13:38:16Z",
+      "updated_at": "2026-09-07T13:39:10Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476256",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5639226397",
+      "author": "T-n-Nelson",
+      "created_at": "2026-09-11T18:52:45Z",
+      "updated_at": "2026-09-11T18:52:45Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/13#issuecomment-5639226397",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5640186655",
+      "author": "dakleyer",
+      "created_at": "2026-09-11T20:22:03Z",
+      "updated_at": "2026-09-11T20:22:03Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/13#issuecomment-5640186655",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5803023066",
+      "author": "T-n-Nelson",
+      "created_at": "2026-09-23T21:13:15Z",
+      "updated_at": "2026-09-23T21:13:15Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/16#issuecomment-5803023066",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5803653565",
+      "author": "arpitasarker01",
+      "created_at": "2026-09-23T21:59:07Z",
+      "updated_at": "2026-09-23T21:59:07Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/16#issuecomment-5803653565",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5804125734",
+      "author": "amsupavlenko-coder",
+      "created_at": "2026-09-23T22:39:21Z",
+      "updated_at": "2026-09-23T22:39:21Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/16#issuecomment-5804125734",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5809248877",
+      "author": "leigao-research",
+      "created_at": "2026-09-24T06:51:12Z",
+      "updated_at": "2026-09-24T06:51:12Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/16#issuecomment-5809248877",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5903046577",
+      "author": "GospelNerd",
+      "created_at": "2026-09-30T02:44:33Z",
+      "updated_at": "2026-09-30T02:44:33Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5903881738",
+      "author": "GospelNerd",
+      "created_at": "2026-09-30T04:12:03Z",
+      "updated_at": "2026-09-30T04:12:03Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903881738",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5925445690",
+      "author": "GospelNerd",
+      "created_at": "2026-10-01T05:37:49Z",
+      "updated_at": "2026-10-01T05:37:49Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/21#issuecomment-5925445690",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5936600434",
+      "author": "T-n-Nelson",
+      "created_at": "2026-10-01T17:13:52Z",
+      "updated_at": "2026-10-01T17:13:52Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/21#issuecomment-5936600434",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5783505043",
+      "author": "avoschak-ai",
+      "created_at": "2026-09-22T20:19:45Z",
+      "updated_at": "2026-09-22T20:19:45Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/13#issuecomment-5783505043",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5700157082",
+      "author": "leigao-research",
+      "created_at": "2026-09-16T15:35:16Z",
+      "updated_at": "2026-09-16T15:35:16Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5700157082",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    },
+    {
+      "id": "5707764621",
+      "author": "Snoopywy",
+      "created_at": "2026-09-17T02:55:09Z",
+      "updated_at": "2026-09-17T02:55:09Z",
+      "html_url": "https://github.com/FG-TIDA/themes/issues/23#issuecomment-5707764621",
+      "checked_on": "2026-10-06",
+      "content_republished": false,
+      "claim_scope": "public source statement only; no adoption or independent experimental reproduction inferred"
+    }
+  ],
+  "remaining": [
+    "Complete transitive and inbound inventory",
+    "Per-document logical identity and ownership",
+    "176-row input-map revalidation and H06",
+    "Formal semantics/reachability A23",
+    "External rows/attachments/datasets and source revision pins",
+    "Canonical proposal decisions by Ivan",
+    "Independent review and experimental execution"
+  ]
+}

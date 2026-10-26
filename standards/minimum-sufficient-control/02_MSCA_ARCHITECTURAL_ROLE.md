@@ -1,5 +1,7 @@
 # MSCA Architectural Role — Participant Role within an Objective-Bound Architecture
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** canonical public working specification, v0.1, 23 September 2026.
 
 **Architectural role:** this document defines how one participant is located functionally inside one instantiated Minimum Sufficient Control Architecture (MSCA). It defines **role**, not repositioning. Dynamic role drift, role change, migration and re-contracting are owned by [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
@@ -417,7 +419,7 @@ The Architectural Role supplies the focal structural binding used by the cycle:
 - authority/delegation references;
 - validity/capacity constraints.
 
-These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **what this participant actually does** rather than relative to the whole MSCA indiscriminately.
+These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **the function assigned to this participant under the bound Architectural Role** rather than relative to the whole MSCA indiscriminately.
 
 The role object remains static. Supplying it as context does not itself change the role.
 

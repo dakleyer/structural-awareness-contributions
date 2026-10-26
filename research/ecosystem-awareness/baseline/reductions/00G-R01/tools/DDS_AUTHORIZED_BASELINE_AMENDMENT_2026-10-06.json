@@ -1,0 +1,23 @@
+{
+  "version": "0.4",
+  "date": "2026-10-06",
+  "canonical_DDS_path": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "single_logical_canonical_profile": true,
+  "clarification": "0.1.1; method version0.1 unchanged",
+  "baseline_amendment": {
+    "README.md": "f107eb178157fbf58d07418ce648510cf25756ea",
+    "feasibility/WORKPLAN.md": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",
+    "feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",
+    "feasibility/HUMAN_ESCALATION_WHISPERING.md": "6881dfe920a30ef6d00334f15059ab1dd931c8d4"
+  },
+  "new_guard_exemptions": false,
+  "old_baselines_preserved_in_history": true,
+  "original_R01_math_or_existing_frozen_inputs_changed": false,
+  "reason": "Prospective editorial guard baseline follows owner-authorized DDS additions; comparison rules and every other file baseline unchanged.",
+  "git_path_portability": "Git object paths use POSIX separators on Windows/Linux; comparison semantics unchanged",
+  "state": "GUARD_BASELINE_INCORPORATION_AUTHORIZED_FOR_THIS_RELEASE",
+  "publication_hold": "Resolved for these guard/review payloads by explicit human approval; original broader reader-index/control holds are separate.",
+  "local_candidate_validation": "39 documents checked; comparison rules unchanged; candidate passes, existing public baseline remains older",
+  "active_guard_update_included": true,
+  "publication_authorization": "Human explicitly authorized preserving the already-public historical references while updating the guard and owning reviews. Excluded private document contents remain excluded."
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "DDS-EXTENSION-RUN-CARD-0.1",
+  "study": "DDS-RAG-RETRIEVAL-20261006",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_DDS": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "base": {
+    "id": "RAG-CURRENT-POLICY-LOCAL-0.1",
+    "scope": "authored finite document retrieval/qualified-answer Challenge; not an R01 theorem instantiation"
+  },
+  "technology": {
+    "id": "RAG retrieval and evidence admission",
+    "configuration": "SQLite FTS5 + own deterministic structured-fact extractor + tenant/version/expiry/conflict guards",
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "generation_model_executed": false
+  },
+  "question": "When does retrieved evidence support a current authorized sufficient local answer, and which source/scope changes invalidate it?",
+  "stage1": {
+    "status": "performed within scope",
+    "relation": "documentary and bounded local correspondence; no proved R01/native isomorphism",
+    "transfer": "Local trace meaning only; no R01 all-policy/probability bound"
+  },
+  "stage2": {
+    "status": "performed within scope",
+    "mechanisms": [
+      "retrieval",
+      "tenant/expiry filtering",
+      "conflict handling",
+      "version-at-use recheck",
+      "admitted deferment"
+    ],
+    "material_assumptions": [
+      "admitted identity/ACL metadata",
+      "truthful policy source",
+      "same version at use",
+      "useful availability",
+      "generation behavior is unmeasured"
+    ]
+  },
+  "parameters": {
+    "now": 10,
+    "query": "purchasing",
+    "tenant": "tenant-a",
+    "required_fact": "limit",
+    "truth": 1000,
+    "source_epoch": 1
+  },
+  "outcomes": {
+    "I": "current authorized sufficient structured local answer",
+    "M": "explicitly admitted and recorded manual-review deferment; no human review executed",
+    "P": "disclosed foreign-tenant content, false fact or stale-at-use response",
+    "Ø": "no sufficient admitted response"
+  },
+  "cost": {
+    "scored": "actual operational SQL statements and structured parsing counts",
+    "setup": "separate measured fixture SQL; actual corpus maintenance/producer work and generation tariffs unscored",
+    "hard_cost_acceptance": "not estimated; described counters are not money or original R01 C"
+  },
+  "acceptance": "Frozen per-case result and disclosure assertions; instrument success is not deployment acceptance",
+  "oracle": "private evaluator truth/current epoch + actual response contents/disclosed row count; truth is not supplied to extractor",
+  "sampling": "8 authored boundary cases; no population or independence",
+  "cases": [
+    {
+      "id": "RAG-01",
+      "narrative": "A procurement analyst asks for the current purchasing limit of tenant-a. One admitted current policy supplies the required fact.",
+      "kind": "nominal",
+      "fallback": false,
+      "expected": "I",
+      "expected_disclosed": 1
+    },
+    {
+      "id": "RAG-02",
+      "narrative": "The policy is absent from the searchable corpus. The owner explicitly admits a recorded manual-review deferment.",
+      "kind": "missing",
+      "fallback": true,
+      "expected": "M",
+      "expected_disclosed": 0
+    },
+    {
+      "id": "RAG-03",
+      "narrative": "The only matching policy expired before this request. The owner has not admitted a fallback.",
+      "kind": "expired",
+      "fallback": false,
+      "expected": "Ø",
+      "expected_disclosed": 0
+    },
+    {
+      "id": "RAG-04",
+      "narrative": "Only another tenant's matching policy exists. A correct lookup must not disclose that row to tenant-a.",
+      "kind": "other-tenant",
+      "fallback": false,
+      "expected": "Ø",
+      "expected_disclosed": 0
+    },
+    {
+      "id": "RAG-05",
+      "narrative": "Two admitted current policies disagree. A recorded deferment is legitimate; selecting the first conflicting fact is not sufficient.",
+      "kind": "conflict",
+      "fallback": true,
+      "expected": "M",
+      "expected_disclosed": 0
+    },
+    {
+      "id": "RAG-06",
+      "narrative": "A trusted current producer publishes a false policy value. Metadata authenticity/currentness do not establish the fact's truth.",
+      "kind": "false-source",
+      "fallback": false,
+      "expected": "P",
+      "expected_disclosed": 1,
+      "diagnostic": "outside stipulated source-truth condition"
+    },
+    {
+      "id": "RAG-07",
+      "narrative": "The policy changes after retrieval and before use. The receiver rechecks the admitted version and records a permitted deferment.",
+      "kind": "change-before-use",
+      "fallback": true,
+      "expected": "M",
+      "expected_disclosed": 0
+    },
+    {
+      "id": "RAG-08",
+      "narrative": "A document includes hostile instruction-like text plus the correct structured fact. This extractor treats it as data; no generative model is tested.",
+      "kind": "instruction-text",
+      "fallback": false,
+      "expected": "I",
+      "expected_disclosed": 1
+    }
+  ],
+  "sources": [
+    {
+      "id": "RAG01",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "title": "Lewis et al.,2020: original dense-retriever/generator RAG",
+      "access": "abstract, own proposed fixture not original model",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "RAG02",
+      "url": "https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview",
+      "title": "Azure AI Search RAG overview",
+      "access": "official selected overview; no Azure execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "RAG03",
+      "url": "https://learn.microsoft.com/en-us/azure/search/search-security-trimming-for-azure-search",
+      "title": "Azure Search security filtering",
+      "access": "official filter design; no Azure execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "DB04",
+      "url": "https://www.sqlite.org/fts5.html",
+      "title": "SQLite FTS5",
+      "access": "official selected full-text search semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    }
+  ],
+  "evidence_ceiling": "Actual embedded SQLite full-text retrieval; authored qualification/extraction model; no vector-embedding/native RAG provider, generated answer, human campaign or comparative superiority.",
+  "source_corpus_unchanged": true
+}
+

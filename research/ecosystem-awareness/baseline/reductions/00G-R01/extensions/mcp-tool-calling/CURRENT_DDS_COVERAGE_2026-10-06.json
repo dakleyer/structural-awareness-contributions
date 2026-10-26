@@ -1,0 +1,40 @@
+{
+  "schema": "DDS-CURRENT-SURFACE-CROSSWALK-0.1",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "execution_profile_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "current_profile_review_commit": "09b8fe09082f15612114ebe0fd3be8418be7a061",
+  "canonical_profile": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "crosswalk_prepared_after_execution": true,
+  "not_a_new_canonical_method": true,
+  "original_run_source_thresholds_scores_unchanged": true,
+  "blind_private_route_map": {
+    "status": "not used as blind trajectory or efficiency experiment",
+    "basis": "authored selected local controllers and environment laws; expected labels withheld from receiver APIs where declared, no blind/native/OS isolation claim"
+  },
+  "minimum_work_rework": {
+    "status": "not scored",
+    "evaluator_private_lower_bound": null,
+    "accessible_information_lower_bound": null,
+    "optimal_excess_cost": null
+  },
+  "type1": {
+    "status": "not scored as estimate",
+    "eligible_population": null,
+    "eligible_denominator": null,
+    "estimate": null,
+    "M_admission": "not established for a new Type1 estimator; full physical resource/useful-time/capability-information admission has not been calibrated or proved",
+    "local_workflow_witness": "WF04's same-model bounded M trace is a descriptive failure-to-close contrast under its execution profile. It is not complete current-profile eligibility or a population estimator."
+  },
+  "type2": {
+    "status": "not scored as estimate",
+    "eligible_denominator": null,
+    "causal_rule_preregistered_as_T2": false,
+    "estimate": null,
+    "P_rule": "selected material violations remain their recorded P; no universal Type2/P equivalence"
+  },
+  "type0_unresolved": "outside diagnostic populations; no rate or universal classification assigned",
+  "information_and_cost_rule": "Unscored dimensions are not zero. These are partial scoped technical records, not blind search-efficiency or Type1/2 rate studies.",
+  "study": "MCP selected tool-call admission",
+  "local_scope": "actual serialized request parser/local SQLite effect; official SDK/transport/full conformance absent"
+}

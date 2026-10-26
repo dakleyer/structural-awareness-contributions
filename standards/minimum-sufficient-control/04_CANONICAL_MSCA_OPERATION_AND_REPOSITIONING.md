@@ -1,5 +1,7 @@
 # Canonical MSCA Operation & Repositioning — Gradient, Re-contracting and Metamorphic Role Control
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** canonical public working operation/repositioning specification, v0.1, 23 September 2026.
 
 **Architectural role:** this document closes the current MSCA/Ecosystem Positioning cycle. It defines how a participant checks whether it has already drifted from its bound Architectural Role, derives bounded repositioning opportunities from Regime Awareness and Ecosystem Cartography, filters them through Objective Envelope / ACC / authority / capability constraints, and either preserves its current role, selects a bounded realignment/re-contracting target, or escalates the case to the appropriate control/authority owner. Repositioning itself does not execute containment, rollback, isolation or physical/digital corrective actuation. It does not create authority, legal contractual capacity, a global optimizer or a mandatory implementation protocol.
@@ -125,13 +127,33 @@ The list is extensible.
 | X_focal,i | focal MSCA | Current Objective Envelope and control architecture. |
 | Cart_i | Ecosystem Cartography | Candidate role/MSCA neighbourhood, confidence, expansion capability and residual. |
 | Δ_Cart,i | Composition & Control | Material changes in the represented ecosystem map. |
-| Δ_RA | Regime Awareness | Qualified direction/intensity/capability/residual of ecosystem/regime change. |
+| Δ_RA | Regime Awareness | Qualified regime-change position: A_RA direction; B_RA established support, validity limits and characterized assessment reserve; C_RA grounded exploration avenues not yet characterized; D_RA effects beyond effective evaluation. Confidence qualifies support and is not physical change magnitude; uncertain role classification remains UNKNOWN. Retain the source's scope, context, versions and freshness. |
 | RegimeOverlay_i | Regime Awareness | Which cartographic/MSCA assumptions are weakening, departed or unresolved. |
 | ACC_Role / lineage | role-bound ACC + ACC Lineage | Admissibility, mutation envelope, lineage continuity, approval route and validity. |
 | authority | external legitimate authority/delegation mechanisms | What may actually be approved/executed. |
 | action/effect history | execution + effect observation | Detect role drift and failed assumptions. |
 
 No single input is sufficient by itself.
+
+
+### 4.1 Mid-cycle signalling, Human / Systemic Alerts and finite human capacity
+
+Repositioning may receive new qualified information while a repositioning cycle is already open. This includes ordinary `ReceivedSignals_i`, a human-originated objection, a system-originated alert, a selectively signalled material Regime Awareness output, or a bounded **Human / Systemic Alert** profile as described by [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md).
+
+Such a signal is not a privileged interrupt and does not bypass the sequence of qualification, Cartography, RA, ACC/lineage or authority gates.
+
+Where the new signal changes a material represented dependency or frame, the participant updates/requalifies `Cart_i` and the relevant RA/local state before continuing the affected repositioning decision. Where it is immaterial to the current decision, it may be preserved without reopening unrelated state.
+
+A human may be one legitimate receiver of signalling, including `RepositionIntent`, where the applicable ACC/policy/signalling profile routes the request to that human or role. Human receipt does not establish capacity or authority by itself.
+
+For transitions that materially depend on human review, Repositioning MAY consume the additive [01K Human Capacity / Human Intelligence Debt profile](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) through the reusable [01K-A01 component contract](../../research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md). The normal runtime input is a qualified process-relative position `[A_HC,B_HC,C_HC,D_HC]`, where A_HC carries the delivered capacity result (AVAILABLE / DEGRADED / UNAVAILABLE / UNKNOWN and any declared timing/cost result), while B_HC/C_HC/D_HC preserve its basis, characterized reserve, exploration frontier and residual. Repositioning consumes that position like any other qualified input; it does not special-case it as an interrupt.
+
+Separately, where an architectural or organisational review is in scope, 01K may expose `[A_HID,B_HID,C_HID,D_HID]` with HICR/HICT/HID, GIC/NEO/ACW, NOI or other qualified organisational indicators. Repositioning does not calculate HID and no HID value creates authority or a posture by itself.
+
+Where a human or alternative evidence route is being selected, Repositioning MAY also consume the HC-HID DDS-compatible cost projection. Comparison is valid only against routes preserving the same frozen Challenge/quality/authority conditions; a cheaper lower-quality route does not automatically dominate a human route, and a conventional peer reaching the same I route at equal or lower burden receives full credit.
+
+If a candidate transition requires a new or successor ACC, approval or authority response, Repositioning may remain `HOLD` / `UNRESOLVED` while the request is pending. A human/systemic alert cannot manufacture the missing ACC or authority, and silence cannot be interpreted as approval unless an externally legitimate rule explicitly defines that consequence.
+
 
 ## 5. Repositioning qualification gate — A/B/C/D → Type 0/1/2
 
@@ -161,7 +183,7 @@ Type 0 is **not** an error-free or omniscient state. It is the condition in whic
 
 ### 5.1 Received A/B/C/D example — detecting Type 2 overconfidence
 
-Suppose another actor sends a qualified position with a broad A assertion, near-absolute B confidence, little declared C verification path and large material D residual/omitted dependencies.
+Suppose another actor sends a qualified position with a broad A assertion, near-absolute B confidence, little declared B assessment reserve or C exploration route and large material D residual/omitted dependencies.
 
 Repositioning does not average high B against large D. It catalogues the inconsistency:
 
@@ -256,24 +278,22 @@ Candidates may include:
 - request for richer Cart_i / C_Cart exploration;
 - escalation to a legitimate owner/human control function.
 
-Candidate generation is bounded by A_Cart and recognized reachability through C_Cart.
+Candidate generation uses A_Cart and the characterized reserve in B_Cart; C_Cart may identify exploratory avenues but does not by itself establish reachability.
 
 D_Cart does not become an executable candidate space merely because it may contain opportunity.
 
 ## 9. Agentic gradient as repositioning opportunity function
 
-For each candidate transition τ:
+For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
 
 ~~~text
 G_i(τ | Δ_RA, Cart_i, X_i)
-=
-expected reduction in objective-conditioned risk
-=
-expected increase in Objective-Envelope fulfilment
+= profile-qualified comparison of current and candidate objective-conditioned risk
 ~~~
 
-as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
+For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
 
+The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
 The gradient asks:
 
 > **If I could legitimately occupy this candidate position, how much better would it be for my current objective binding under the qualified change?**
@@ -353,7 +373,7 @@ Typical triggers include:
 
 - material Type 1 behaviour consuming the response window;
 - detected Type 2 overconfidence in a dependency;
-- falling B_Cart / B_RA on a critical dependency;
+- falling support recorded within B_Cart / B_RA on a critical dependency;
 - out-of-bound effective-role drift for which a bounded containment/realignment response appears available;
 - authority/ACC uncertainty requiring bounded hold/reduction;
 - action/effect mismatch requiring reduced autonomy or isolation.
@@ -373,7 +393,7 @@ Typical conditions include:
 - a new ACC lineage / membership is required;
 - invariant controls can be preserved but the operating frame must be replaced.
 
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
+P3 identifies the need to qualify a legitimate transition path. ACC and the applicable authority mechanisms govern approval of the destination and execution.
 
 ### 11.4 Hard decision, soft epistemics
 
@@ -396,9 +416,9 @@ It produces:
 where:
 
 - **A_RP — selected repositioning assertion:** current/target Role, focal MSCA/Objective Envelope, intended action/transition and source-attributed basis;
-- **B_RP — confidence/intensity:** confidence/bounds supporting the selected posture and transition, including disagreement/weakness where material;
-- **C_RP — verification/authorization frontier:** evidence, authority, ACC approval, capability or cartographic refinement still obtainable with current resources before the deadline;
-- **D_RP — residual repositioning risk:** unresolved/unobservable state, unverified dependencies, unknown future effects or structural residual that survives the decision.
+- **B_RP — established basis and characterized reserve:** support, bounds, validity limits and known assessable verification/authorization steps associated with the selected posture; disagreement and weakness remain explicit;
+- **C_RP — exploration frontier:** grounded avenues toward evidence, capability or control alternatives whose evaluation basis remains uncharacterized; a known authorization or verification procedure left unperformed remains in B_RP;
+- **D_RP — residual beyond effective evaluation:** potentially material effects beyond this process's effective evaluation routes that survive the selected position. Quantified residual risk belongs to A or B according to its function; mere lack of action authority does not make a characterized effect D.
 
 This is the qualified **Repositioning Position**. The same A/B/C/D semantics survive the hard operational closure.
 
@@ -692,7 +712,7 @@ Architecturally:
 ~~~text
 peer behaviour changes
 → dependency confidence falls
-→ Cart_i B_Cart decreases / C_Cart verification opens / D_Cart residual grows
+→ Cart_i support within B_Cart decreases / a B_Cart evaluation or C_Cart exploration route opens / D_Cart residual is requalified
 → Δ_RA / local risk increases
 → request withdrawal/containment/verification as appropriate / signal bounded anomaly
 ~~~

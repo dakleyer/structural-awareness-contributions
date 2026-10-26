@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-13",
+  "parentCommit": "d06956aa937d4e837da4dffa4e28a7647d1b3fb6",
+  "component": "DDS-A-FLORES-POP-EA-01/RUNTIME-CONTEXT-R2-FREEZE-R3",
+  "nativeRun": false,
+  "EAImplementation": false,
+  "checks": "20 authored calibration controls; 64 hidden-truth pairs; not blind scored cases",
+  "localHousekeepingOrPrivateOraclesPublished": false,
+  "files": [
+    {
+      "path": "PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+      "bytes": 7348,
+      "sha256": "78ea20365830bfb45ea73d617f56c386e483291fa03f92318a91f6d8f5f42bc7"
+    },
+    {
+      "path": "INFORME_2026-10-13.md",
+      "bytes": 29544,
+      "sha256": "69eebd6fc6a1888b78e50246990e526c238ed0367b55f4cce2f47e3d633ac19c"
+    },
+    {
+      "path": "PROTOCOLO_2026-10-13.md",
+      "bytes": 15542,
+      "sha256": "d33fc071858b743cf934accfbe0b1b6b62a45823928b49890e0373c3faebbc85"
+    },
+    {
+      "path": "FORMALIZACION_2026-10-13.md",
+      "bytes": 8685,
+      "sha256": "a158fd4df92d82017aa96f6841fd9bb72f1aae5335cfb2b0f6bb774f9a115c85"
+    },
+    {
+      "path": "REFERENCIAS_2026-10-13.md",
+      "bytes": 11658,
+      "sha256": "ed8a93c5a2d676a927a914046e032455a4013642743298065a0f2f7db6ead1a3"
+    },
+    {
+      "path": "REVISION_ADVERSARIAL_2026-10-13.md",
+      "bytes": 5666,
+      "sha256": "afc1164c9a0f51f9d2defb8aa0c23c8a3e0e15d9afaf4f305dfb4623041c0a78"
+    },
+    {
+      "path": "BRIEF_EN_2026-10-13.md",
+      "bytes": 5347,
+      "sha256": "0d32e4c7b25464f08a9a2336ab7313b24c5d5018ab2fd3996b004ac27233aad9"
+    },
+    {
+      "path": "Informe_Flores_Runtime_Context_2026-10-13.html",
+      "bytes": 102483,
+      "sha256": "3934279638009d9d3fc8d780ee15dbd00ea466578653f51daf071c1df0338a40"
+    },
+    {
+      "path": "reference-register.json",
+      "bytes": 11552,
+      "sha256": "660e19d2e77829e2cbccd2d45cde86a26a6830fc7f1ef9627394779553f0a3bc"
+    },
+    {
+      "path": "source-copy-index.json",
+      "bytes": 8531,
+      "sha256": "f79a7da3cfbde9a103135db989d8eb3399e042e176f182efc61c38e0c81502be"
+    },
+    {
+      "path": "code/preflight.mjs",
+      "bytes": 11275,
+      "sha256": "6203690c8fa3bfe8f9b4d701c320d603515dfbf965d89a48d317df9560baadf8"
+    },
+    {
+      "path": "preflight/RESULTS_2026-10-13.json",
+      "bytes": 143076,
+      "sha256": "6a193cf997078561c577f5f6c7d216e2d93fc86a3b31a71e9eb783c622a3abbe"
+    },
+    {
+      "path": "preflight/CONTROL_MATRIX_2026-10-13.csv",
+      "bytes": 3818,
+      "sha256": "ac6f488fafd77115203f80154b298b9e11509f6e1d4f64af98e7ce6a05d87d80"
+    },
+    {
+      "path": "source-snapshots/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "bytes": 65171,
+      "sha256": "eb180859505a667b470372ba84495004a169c4bfbe91b95cb386c49da6e10e5f"
+    },
+    {
+      "path": "source-snapshots/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "bytes": 43434,
+      "sha256": "f1ac48ada2a0f523355f650b1cfe4ce2f80b97a418724df4be5ae31f65d823f0"
+    },
+    {
+      "path": "source-snapshots/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "bytes": 48620,
+      "sha256": "1efee817405d9d4772a244c3ed3234a6f590849775a40846c412e2e40c8f4df7"
+    },
+    {
+      "path": "source-snapshots/AUDIT_REPORT_2026-10-13.md",
+      "bytes": 19824,
+      "sha256": "e48a9e3df911da3270ea72c670202d7fce8abdcd1cce3cea04ec183b0397d5d2"
+    },
+    {
+      "path": "source-snapshots/CAMPAIGN.md",
+      "bytes": 26022,
+      "sha256": "bc510b5c1811e142f174784bb58f3904eec5bed0f7f063e4298f8cd2fd5040d9"
+    },
+    {
+      "path": "source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "bytes": 64472,
+      "sha256": "1d7c4bb7bacc152930ea75f58e0462e39adc57bef7fb60f459c93f932ae48a00"
+    },
+    {
+      "path": "source-snapshots/flores_expected_v1.0.py.txt",
+      "bytes": 10533,
+      "sha256": "0da69151aa9a742e569352726ff628e87ab2ecfbf201bc503a7be9ff9a770dcc"
+    },
+    {
+      "path": "source-snapshots/flores_specification_v1.0.md",
+      "bytes": 16377,
+      "sha256": "a0fa588642cd7a589a9f70f42efff4cad6d89f99154bca4a20a0471cf1602a88"
+    },
+    {
+      "path": "source-snapshots/Himalogic_LICENSE.txt",
+      "bytes": 1086,
+      "sha256": "e286c8b3b1a95f269139e73e4b0dec297da5ef9766a6ad31b66bd2606465e82d"
+    },
+    {
+      "path": "source-snapshots/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "bytes": 20349,
+      "sha256": "c3c15d8b24bad22d6a5e5ad8c4e96980d8290a55feecbb772e471df7ada3e106"
+    },
+    {
+      "path": "source-snapshots/technical__AUDIT_RECONCILIATION.md",
+      "bytes": 9829,
+      "sha256": "29b5d5b51a2d15aa3427b78b421371b9655fecdff29bbe6de45ccb4a5f13147f"
+    },
+    {
+      "path": "source-snapshots/technical__PROTOCOL_P0_P3.md",
+      "bytes": 10708,
+      "sha256": "a8232d7659b2177e7fa204ae189a156299a2b94daedb9b1a4c61d596fa3e28ec"
+    }
+  ],
+  "sourcePreparationReadAt": "f960f6f5a627993643512b816430a485227f9118",
+  "navigationDerivativeCorrection": "Relative links in source copies resolved against original source location; unrewritten copies retained at dc1dad2b7c6ec3aa3f0ee3520d86739c396e88d3"
+}

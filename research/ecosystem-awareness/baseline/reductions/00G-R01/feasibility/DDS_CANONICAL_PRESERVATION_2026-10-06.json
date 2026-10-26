@@ -1,0 +1,82 @@
+{
+  "version": "0.6",
+  "date": "2026-10-06",
+  "input_commit": "7124d256713c19e9be8ea353c66354f75426ca5c",
+  "owner_authorization": "Current user explicitly requested canonical mechanism/DDS incorporation and first tests",
+  "files": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md",
+      "kind": "header+preface+append; original mathematical/virtual body exact",
+      "before_sha256": "5c9cf50d359d74df6da1d77e63bdfd69983b78426b2f952eb33edda5e25c9227",
+      "after_sha256": "a299b4b235858237991f5e4433f15f47f2dfc0e48166460154962fb7003838db",
+      "source_commit": "f107eb178157fbf58d07418ce648510cf25756ea"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+      "kind": "header+DDS stage note+supporting subjects; old body exact",
+      "before_sha256": "b46781a76b5e50221f3b455de906e26ed5d34c5b2fd4a216b184988490add542",
+      "after_sha256": "e56530c555fe81f795632bc0adcaebedf2520d5b419e663321ab10f5e4041d22",
+      "source_commit": "f107eb178157fbf58d07418ce648510cf25756ea"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
+      "kind": "same queue/IDs/states; dated DDS supporting evidence",
+      "before_sha256": "5a30dad79c6e28e5f6b9a42135130ec2feb30904402d6b0a8378250a7214ef95",
+      "after_sha256": "2611b780915f25fba89a43bc649557e1f3116d02d8b78a0c0c0984bc64ee6520"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json",
+      "kind": "documentary successor; scientific/native statuses preserved",
+      "before_sha256": "c7587feccad9d9450599c214f01066f459c5b5962334022a3b3fcd80c6501d91",
+      "after_sha256": "53e8347563b59f04836c484ff5f47590ae211bfa425b0c2e838eee81c74a0443"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "kind": "sole owning public technical review; private earlier exchange preserved locally and excluded from publication",
+      "before_sha256": null,
+      "after_sha256": "a1d1b6468986dcc9085b53291c814476c5f6b068649631fa4e0845771fff7a6d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "kind": "one scoped owning review; source/consumer limits explicit",
+      "before_sha256": null,
+      "after_sha256": "33587f2d06a0b428cb746ec3a379e7b4ea34965295ca89cf93f0fdd3cebe8872"
+    }
+  ],
+  "original_theorem_or_oracle_files_changed": false,
+  "old_native_00G_HF_evidence_included": false,
+  "task_ids_and_states_preserved": true,
+  "old_mathematical_virtual_body_retained": true,
+  "sponsor_DOI_forum_issued": false,
+  "publication_parent": "f107eb178157fbf58d07418ce648510cf25756ea",
+  "governing_procedure_consulted": "f107eb178157fbf58d07418ce648510cf25756ea / plan1.2 and additions through1.11",
+  "canonical_index_byte_prefixes_preserved": "Public existing indexes unchanged; append-only candidates retained locally",
+  "literal_before_after_plans": "Owning VNext of each source, procedure1.9/1.11; current proposal priority and authorized disposition",
+  "publication_safety_scope": {
+    "version": "0.4",
+    "reason": "Automatic approval review rejected internal continuation instructions and one historical case containing a private Drive-resource link. Both exact payloads are excluded; A3 creates a separate public-safe catalogue before a new frozen run.",
+    "excluded_paths": [
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/COMMON_HEW_CASE_v0.1_2026-10-06.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/README_VNext.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README_VNext.md",
+      "DOCUMENT_CONTROL.md"
+    ],
+    "public_review_scope": "Technical existing public source and current research outputs only; complete earlier internal exchange preserved locally",
+    "indirect_republication_of_rejected_payload": false,
+    "public_ref_changed_so_far": false,
+    "excluded_prefixes": [
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-01/frozen/",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-02/frozen/"
+    ],
+    "historical_result_policy": "Original result JSON remains unmodified. Original frozen inputs remain complete locally; earlier private-linked catalogues are not published. A3 supplies the self-contained public reproduction.",
+    "reader_index_hold": "Automatic approval review rejected republication of existing navigable continuation links even after current public-source verification. Both index proposals and their owning review proposals remain prepared locally; existing public index blobs are unchanged.",
+    "document_control_hold": "Automatic approval review also rejected the control-document upload as indirect continuity disclosure. Exact candidate stays local; public control unchanged. Specific publication authorization question remains pending."
+  },
+  "concurrent_section_16_retained": true,
+  "reader_index_candidates_published": false,
+  "concurrent_DDS_profile_additions_retained": true,
+  "public_document_control_candidate_published": false
+}

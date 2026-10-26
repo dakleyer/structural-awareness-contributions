@@ -1,0 +1,12 @@
+{
+  "registered_at_utc": "2026-10-07T15:24:33.667345+00:00",
+  "before_execution": true,
+  "files": {
+    "current_study.py": "f5e2d5867cc32b3f4c151b06c883dc9339dd7b4346327d43519ea3f1b6e3d7c2",
+    "CURRENT_RUN_CARD.json": "27ba23134c74ffbe70097f477ed8ff1d353776ba0a5cde352653fe699524c573",
+    "CANDIDATE_SPECIFICATION_PACKAGE.json": "aed86b4b19c84544b479fe0d060f46ba4c38753b61dc5499d6219feb485488a1",
+    "../_series2_support/complete_runner.py": "0fc49a3713974bef8c35a910eba13adfc5217e9e51e953cbc15cde1c508ac8f9",
+    "study.py": "f5bff4f32c8160ff4cc0768fc22fa01ef4f02aa60bde006d8c4fd1e6a2f606da",
+    "../_series2_support/runner_support.py": "700acbac548e6d4e1f3f9678b22b866d1ccef7e9817d8c5c951ad6ac3f67af71"
+  }
+}

@@ -73,11 +73,7 @@ These commands reproduce bounded model checks. Their recorded results include ad
 
 ## 6. Application to the current 00G-HF test programme
 
-Use the [reduced 00G-HF scenario](../../../../research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), its [causal protocol](../../../../research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md) and the [first oracle candidate C1](../../../../research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.2/CANDIDATE.md).
-
-The oracle adjudicates operational outcomes for negative and positive traversals. It does not adjudicate HC or full family admission by itself. E1 establishes the native observed trajectory; the causal contrasts in E2 address the relevant hypothesis links. Later EA/composition comparisons address response and differential value. This reading route keeps those test obligations attached to the substantive hypothesis documents.
-
-**Later preparation and hypothesis screening — 1 October 2026:** [C3 / v0.4](../../../../research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/CANDIDATE.md) is the bounded first-round preparation route beyond C1. [Historical review §9](../../../../research/ecosystem-awareness/baseline/traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad) relates six source units to H2–H5, preserving rivals, unknowns and the distinction between recognized and applied qualification. It supplies no causal verdict, matched historical controls or new agent executions.
+Use the [current case and reading route](../../../../research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) and [causal protocol](../../../../research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md). The reduction and causal-plausibility argument remain bounded; operational outcomes, causal explanation and EA differential are separate questions. The [development history](../../../../research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) retains the documentary screening, oracle lineage and previous trials with their original commits.
 
 ## 7. Preserved versions and citation
 

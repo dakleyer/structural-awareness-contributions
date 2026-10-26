@@ -1,5 +1,7 @@
 # Auditoría de conservación — README de Minimum Sufficient Control / MSCA
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 **Fecha:** 25 de septiembre de 2026. **Objeto:** el README vigente de `standards/minimum-sufficient-control/` y sus **18 archivos locales distintos** enlazados directamente. Sus historiales por ruta sumaban **292 revisiones antes de esta restauración**; la corrección del README DAOS suma una revisión adicional al publicarse. Esta auditoría distingue pérdida del texto vigente, traslado a otra fuente, corrección de sentido y mero cambio de enlace.
 
 ## README y reconstrucción

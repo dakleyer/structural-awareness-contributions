@@ -2,6 +2,8 @@
 
 This repository is an inspectable public working corpus. Contributions are welcome when they preserve its evidence, attribution and maturity boundaries.
 
+**Current document-control policy:** [DC-GH-01](./DOCUMENT_CONTROL.md). Use its role, protected-document and canonical/VNext link rules; specialized review methodology remains in the [Corpus Review Procedure](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
 ## Useful contribution types
 
 - corrections supported by a primary or authoritative source;
@@ -15,7 +17,7 @@ This repository is an inspectable public working corpus. Contributions are welco
 
 1. Open an issue describing the proposed change, the affected document and the evidence supporting it, or submit a focused pull request when the change is already bounded.
 2. Keep general architecture, programme-specific application material and historical/provenance records distinct.
-3. Do not delete or silently rewrite frozen, historical or superseded artefacts. Add a successor, annex or explicit correction record when preservation is required.
+3. Do not delete or silently rewrite frozen, historical or superseded artefacts. Add a successor, annex or explicit correction record when preservation is required. For a substantive incorporation, use DC-GH-01’s wave acceptance: identify the accepted passages and affected readers, apply only those units, compare the complete resulting tree with its starting revision, and read back the published files. Close the applied proposal with an anchored receipt and its complete immutable pre-application card.
 4. State whether the contribution is conceptual, implemented, executed, independently reviewed or externally adopted. Do not collapse these statuses.
 5. Preserve source attribution, licence notices, commit references and any declared residual uncertainty.
 

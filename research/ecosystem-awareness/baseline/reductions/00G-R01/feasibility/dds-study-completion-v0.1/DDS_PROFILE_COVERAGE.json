@@ -1,0 +1,164 @@
+{
+  "schema": "DDS-STUDY-COMPLETION-COVERAGE-0.1",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_profile": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "reviewed_canonical_commit": "f7d8ed0846b301617197ade855d5237cbd2280f9",
+  "reviewed_canonical_git_blob": "8d47d61b29bea85abad3f0458a6fcfc82b83b1ce",
+  "boundary_execution_source_commit": "23d3a720e5fea1d99c74e75db6a063e3ae25ceed",
+  "one_canonical_method": true,
+  "retrospective_mapping_not_original_preregistration": true,
+  "original_results_rescored": false,
+  "coverage_surfaces": {
+    "challenge": "used: pinned selected scenarios; new prospective boundary card separate",
+    "technology_mapping": "partial selected local implementation plus documentary sources",
+    "preserved_correspondence": "documentary/local relation; no native isomorphism or inherited R01 all-policy proof",
+    "stage1": "performed within scope; each report has base, surface map, transfer basis and open obligations",
+    "stage2": "performed within scope; each report has mechanisms/composition, source validity/burden and useful/failure cases",
+    "additional_mechanisms": "enumerated in reports and linked frozen implementation/card",
+    "route_model": "reduced, explicit local I/P/Ø; STPA additionally M; other M unscored",
+    "segment_gate_model": "deterministic local; HEW original analytical law separate",
+    "trace_oracle": "executed scoped outputs; external effect not established in identity/attestation fixtures",
+    "cost": "descriptive/finite scored operation/work counters; actual tariffs/lifecycle cost unscored",
+    "risk": "descriptive selected violations; population rates and severity-weighted loss unscored",
+    "effectiveness": "descriptive selected sufficient returns/delivery; population probabilities unscored",
+    "acceptance": "binary instrument expectation checks; deployment acceptance unestablished",
+    "business_value": "defined conditional process benefit; commissioning/financial projection not calibrated",
+    "evidence_mode": "documentary + exact analytical HEW reconstruction + same-author local deterministic execution; actual selected crypto/hash for SPIFFE/RATS",
+    "reproducibility": "pinned original sources/freezes, fresh raw outputs, source card and boundary freeze; same-author only"
+  },
+  "studies": [
+    {
+      "id": "hew",
+      "question": "Can the bounded objection/review/authority/effect composition deliver under its declared capacity, time and work contract?",
+      "current_report": "HEW_COMPLETION_REPORT.md",
+      "coverage_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_SCOPE",
+      "configuration_deployment_accepted": false,
+      "stage1_status": "performed within scope",
+      "stage2_status": "performed within scope",
+      "closure_rule": "Close scoped question with evidence-bounded finding, including insufficient native/differential evidence; no expansion of SOW.",
+      "material_assumptions": [
+        "stipulated analytical q/law",
+        "source truth",
+        "gate latency and useful window",
+        "charged source work",
+        "current authority and capacity"
+      ],
+      "boundary_evidence": "runs/2026-10-06-01/RESULTS.json",
+      "retained_exclusions": [
+        "native product conformance",
+        "representative population estimates",
+        "independent validation",
+        "financial/deployment BV calibration"
+      ],
+      "optional_diagnostics_unscored": [
+        "hidden minimum-sufficient work witness and excess-work estimate",
+        "EA failure-type population rates"
+      ],
+      "risk_note": "An instrument PASS is not absence of model failures or universal configuration acceptance."
+    },
+    {
+      "id": "stamp-stpa",
+      "question": "Can the derived finite controller complete admitted maintenance/deferment without the selected realized hazards?",
+      "current_report": "STPA_COMPLETION_REPORT.md",
+      "coverage_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_SCOPE",
+      "configuration_deployment_accepted": false,
+      "stage1_status": "performed within scope",
+      "stage2_status": "performed within scope",
+      "closure_rule": "Close scoped question with evidence-bounded finding, including insufficient native/differential evidence; no expansion of SOW.",
+      "material_assumptions": [
+        "truthful process-model state",
+        "valid mandate/backup",
+        "actual plant feedback"
+      ],
+      "boundary_evidence": "runs/2026-10-06-01/RESULTS.json",
+      "retained_exclusions": [
+        "native product conformance",
+        "representative population estimates",
+        "independent validation",
+        "financial/deployment BV calibration"
+      ],
+      "optional_diagnostics_unscored": [
+        "hidden minimum-sufficient work witness and excess-work estimate",
+        "EA failure-type population rates"
+      ],
+      "risk_note": "An instrument PASS is not absence of model failures or universal configuration acceptance."
+    },
+    {
+      "id": "spiffe-jwt",
+      "question": "Can selected workload identity validation plus application policy admit legitimate operations; what temporal contract remains missing?",
+      "current_report": "SPIFFE_COMPLETION_REPORT.md",
+      "coverage_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_SCOPE",
+      "configuration_deployment_accepted": false,
+      "stage1_status": "performed within scope",
+      "stage2_status": "performed within scope",
+      "closure_rule": "Close scoped question with evidence-bounded finding, including insufficient native/differential evidence; no expansion of SOW.",
+      "material_assumptions": [
+        "admitted issuer/key meaning",
+        "validation clock",
+        "separate authorization/capacity",
+        "declared session/use-time policy"
+      ],
+      "boundary_evidence": "runs/2026-10-06-01/RESULTS.json",
+      "retained_exclusions": [
+        "native product conformance",
+        "representative population estimates",
+        "independent validation",
+        "financial/deployment BV calibration"
+      ],
+      "optional_diagnostics_unscored": [
+        "hidden minimum-sufficient work witness and excess-work estimate",
+        "EA failure-type population rates"
+      ],
+      "risk_note": "An instrument PASS is not absence of model failures or universal configuration acceptance."
+    },
+    {
+      "id": "rats-jws",
+      "question": "Can scoped evidence/current-source appraisal support reliance; does it bind software at use or confirm real application?",
+      "current_report": "RATS_COMPLETION_REPORT.md",
+      "coverage_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_SCOPE",
+      "configuration_deployment_accepted": false,
+      "stage1_status": "performed within scope",
+      "stage2_status": "performed within scope",
+      "closure_rule": "Close scoped question with evidence-bounded finding, including insufficient native/differential evidence; no expansion of SOW.",
+      "material_assumptions": [
+        "admitted measurement/source/root",
+        "current policy/nonce/time",
+        "read/use binding",
+        "fixture confirmation versus observed actuation"
+      ],
+      "boundary_evidence": "runs/2026-10-06-01/RESULTS.json",
+      "retained_exclusions": [
+        "native product conformance",
+        "representative population estimates",
+        "independent validation",
+        "financial/deployment BV calibration"
+      ],
+      "optional_diagnostics_unscored": [
+        "hidden minimum-sufficient work witness and excess-work estimate",
+        "EA failure-type population rates"
+      ],
+      "risk_note": "An instrument PASS is not absence of model failures or universal configuration acceptance."
+    }
+  ],
+  "supporting_records": [
+    {
+      "id": "fencing-confused-deputy",
+      "status": "supporting analytical/local HEW mechanisms, not separate native DDS",
+      "basis": "../dds-hew-v0.1/prior-analytical/fencing_deputy_results_v0.1_2026-10-06.json",
+      "current_report": "HEW_COMPLETION_REPORT.md"
+    },
+    {
+      "id": "01K-A01-HC-HID",
+      "status": "sole canonical component specification + semantic controls; not a separately executed DDS study",
+      "basis": "../../../../01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md",
+      "complete_HEW_implementation": false
+    },
+    {
+      "id": "UC21 simplified traversals",
+      "status": "frozen pre-existing partial profiles; no retrospective re-scoring or full battery demanded",
+      "basis": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md"
+    }
+  ],
+  "method_changes": "none; additive current study edition/navigation only"
+}

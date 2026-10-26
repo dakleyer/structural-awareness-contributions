@@ -1,5 +1,7 @@
 # 00G visual assets
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 These assets support the canonical [00G v0.4 — Collective False-Context Convergence / "Bar-to-Napoleon"](../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md).
 
 ## Canonical v0.4 figures

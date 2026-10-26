@@ -1,0 +1,28 @@
+{
+  "schema": "R01-C02-GATE-POLICY-0.1",
+  "status": "STAGE0_INSTRUMENTATION_ONLY",
+  "acceptance": {
+    "epsilon": 0,
+    "economic_cost_target_b": 10,
+    "physical_budget_R": 10,
+    "deadline_T": 10
+  },
+  "outcome_states": [
+    "PASS",
+    "FAIL",
+    "INCONCLUSIVE",
+    "INFRASTRUCTURE_ERROR"
+  ],
+  "rules": {
+    "completion_required_for_pass": true,
+    "quality_within_epsilon_required": true,
+    "economic_cost_target_required": true,
+    "physical_budget_required": true,
+    "deadline_required": true,
+    "executed_violation_forbids_pass_when_execution_verified": true,
+    "missing_reference_is_inconclusive": true,
+    "reference_method_disagreement_is_inconclusive": true,
+    "missing_authoritative_batch_measurement_is_inconclusive": true,
+    "candidate_contract_rejection_is_fail": true
+  }
+}

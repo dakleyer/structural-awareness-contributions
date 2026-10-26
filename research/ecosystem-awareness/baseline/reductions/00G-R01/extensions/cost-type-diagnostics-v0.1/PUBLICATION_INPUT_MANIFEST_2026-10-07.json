@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-07",
+  "source_head": "5fc517a071b61c2a49d2b953f9b129cdc985f6a4",
+  "current_run": "DDS-COST-TYPE-20261007-03",
+  "files": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/adapters.py",
+      "bytes": 25004,
+      "sha256": "3f18cfb969f9f3c64aa65316b26d532a563f33ec81d39c99abdb819282809371"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/FREEZE.json",
+      "bytes": 3629,
+      "sha256": "7cf14de2684b38d04ed83999ddd470fc392057021f305e88f1a0e095401884cc"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/INSPECTABLE_EXAMPLES_2026-10-07.json",
+      "bytes": 6368,
+      "sha256": "36b087fe56f6c40e75bd3045f1eaecad3c994e26ebaf38d23ccbf54a25efb237"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/ledger.py",
+      "bytes": 4189,
+      "sha256": "a3ae19e39c6da73eff45ab8607878966fc60a42a2cdc20636f2e5328e5ba395b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/METER_HISTORY_2026-10-07.json",
+      "bytes": 987,
+      "sha256": "1135a837b9698beec2748e051f06f2030f1c61a2e012c718a197239c7ea1846a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/README.md",
+      "bytes": 8824,
+      "sha256": "ec0909d1c474680fa58c63ad10878035c0ec805f42b3fec36428c5c0ef219c76"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/RESULTS_SUMMARY_2026-10-07.json",
+      "bytes": 19336,
+      "sha256": "651f7155efdd28d18547cee922e38f4cc251b4a21b5a418fc73bcd54131e93f3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/RUN_CARD.json",
+      "bytes": 7348,
+      "sha256": "6009d50411650167416118fe0ecfc209701e6d21bbceb2a4d5c2c1871724c58e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/run_metrics.py",
+      "bytes": 11937,
+      "sha256": "7ea1278cbb54abed8cdb13b3043dc6f37a4c35c9d94daf47d04fb016a825d5fc"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/durable-workflows-retries.json",
+      "bytes": 87583,
+      "sha256": "87d68f759a50c306d242658efcb737dcd77021ba346ac1723b6681e1047c18eb"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/hew.json",
+      "bytes": 451784,
+      "sha256": "f04a8adaced99035c051bd11d55aa3952d608e508d1de6a137b4bd5cf50c05ab"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/M_ADMISSION_BEFORE_CANDIDATES.json",
+      "bytes": 90767,
+      "sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/mcp-tool-calling.json",
+      "bytes": 67846,
+      "sha256": "0fa75a154827ca4175ec7a0855d7a9507a1d27ba05842b0038195e7803acab1f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/oauth-oidc.json",
+      "bytes": 74983,
+      "sha256": "1f9c864814b1ab8a21a08c2175ea7660687b0b16b1fed171bfb3390e67ba5673"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/rag.json",
+      "bytes": 53299,
+      "sha256": "6e7ee023dbe1fa0b6dda6f5a789a2915c07b9ae766eaeb7c545c4e30ed6bf78b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/rats-jws.json",
+      "bytes": 127435,
+      "sha256": "7a4861ba60b7c804da43c70b913643fc68eb1c11824738cf632506f0870fb6ee"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/spiffe-jwt.json",
+      "bytes": 126079,
+      "sha256": "d7304965b620d46a0e900c88f56c2e1c7ad0d3b903b2d1cc61b78a27be4b37f2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/sql-transactions-idempotency.json",
+      "bytes": 92982,
+      "sha256": "8778a5ebbb54c1e732b07f26ff34e5adf26785c7875fcb7dc1e44da80bf6408b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/runs/2026-10-07-03/stamp-stpa.json",
+      "bytes": 50546,
+      "sha256": "7cdba4fe55c066cd7caee77703c0422ab7bf9cbbc24317dc77bf0b9386d79f37"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/dds-hew-v0.1/hew_oracle.py",
+      "bytes": 4386,
+      "sha256": "79388fb9fc31f396712f427faff5a29db51c4397e6e23f91c0945774fc20aa2c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/dds-hew-v0.1/hew_runtime.py",
+      "bytes": 21464,
+      "sha256": "d485a1b6e231123b1f1f6e3bb1c1ce5c6d1ac10c36cc2b0b33f2b51cb6c4a233"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/dds-hew-v0.1/RUN_CARD.json",
+      "bytes": 94704,
+      "sha256": "aa29c3dfb0bdbf157a68f71ee560761bdcbd3703fc8d7de93d7ee5c7f026882b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/durable-workflows-retries/RUN_CARD.json",
+      "bytes": 6412,
+      "sha256": "70d94e994bd2de9c1e291328b2126affd27eabbc52e929e7bd71dbaffb1993f9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/durable-workflows-retries/study.py",
+      "bytes": 6195,
+      "sha256": "16d62b6cf4720400e50230e3868dca08f3db6600b34f0b8e10e2624aaea3339d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/crypto_fixture.py",
+      "bytes": 3417,
+      "sha256": "b29c79864d0c3b711d1327f9c556e6fc823ba68c3612a59eac78798c8321708f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/exercise_common.py",
+      "bytes": 1835,
+      "sha256": "2dfd0dcdd2227dbc6861a53f9583c93947d7ab97f02ae459ce7664db5bcec194"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/rats-jws/fixture_changed.py",
+      "bytes": 43,
+      "sha256": "bb4128c64f2f647c6ca6b22e77d7c7f352424790af9e82b507f75758165a7491"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/rats-jws/fixture_good.py",
+      "bytes": 42,
+      "sha256": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/rats-jws/run.py",
+      "bytes": 7026,
+      "sha256": "f2190236adbf44e8acf5518ccb42c834cbb6a9b55e3d5b7c96af4b8d77c00d80"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/rats-jws/RUN_CARD.json",
+      "bytes": 7007,
+      "sha256": "00ee78b2064d8faa8abaaa8a169a268681ddb641c2e8ddf3fded4a00d4763508"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/spiffe-jwt/run.py",
+      "bytes": 5249,
+      "sha256": "b2e1f6acaf33d0825cbf382bfe029f720d543c509b81321addd6010508a07147"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/spiffe-jwt/RUN_CARD.json",
+      "bytes": 8905,
+      "sha256": "8cc0ea51200bc6812dc0bc7f9a826ec096ada3076acc87bdd316563b73092e65"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/stamp-stpa/run.py",
+      "bytes": 6679,
+      "sha256": "6ca29a5c76e253533eb32d9f4f213ced93d5738a73df17494039c1856edf2449"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/independent-dds-exercises-v0.1/stamp-stpa/RUN_CARD.json",
+      "bytes": 7076,
+      "sha256": "37370ce2faf74dd8747f6f1fe60cf068787579830d46566a42acae359bff17c7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/mcp-tool-calling/RUN_CARD.json",
+      "bytes": 5975,
+      "sha256": "384d69162b41bcb39d81e6e0b8612a6af6ec59bdf91d07c6225a950a98788423"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/mcp-tool-calling/study.py",
+      "bytes": 6245,
+      "sha256": "2ef9b8b383eed99ea988ec13bdef01feb9825743999fe61ed4219b846d5334dc"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/oauth-oidc/RUN_CARD.json",
+      "bytes": 6671,
+      "sha256": "903f7e03defb7487889768ab97dbfac2641e10a71271a939335fa0707ed379b4"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/oauth-oidc/study.py",
+      "bytes": 7200,
+      "sha256": "950c8a9a00dd8eecf4b4becd8bc26989ce230d43d31df408e0444b038cee6cea"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/rag/RUN_CARD.json",
+      "bytes": 7082,
+      "sha256": "d6b2972ae1ea2e7e4e9940eefd0ec3fe71c907f5891745af00cbc99bd282877a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/rag/study.py",
+      "bytes": 6403,
+      "sha256": "83f5a38bd22f777cae4f322032589986a2c11a35b24d7914421479d360f268d9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/sql-transactions-idempotency/RUN_CARD.json",
+      "bytes": 6583,
+      "sha256": "8de8e6075b6debb42c7922b5cdfe728c168bc5f0b3cb2ddf8832e0718cee80cd"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source/sql-transactions-idempotency/study.py",
+      "bytes": 5870,
+      "sha256": "b283451a9fab6397af7861e8b73d487a61942dc929039eace6b20c6426efcfb2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1/source_snapshot/DDS_STAGE_A_2026-10-07.md.txt",
+      "bytes": 58184,
+      "sha256": "c5b221b81953139574c98041bb20a2c6e1113398e1d3981bea07ba03baec943d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2112,
+      "sha256": "c1304f3055c8732d21ba40f2986f6ceaf58f8300fe37472b9ba391e2fd66f54f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2078,
+      "sha256": "0f81ae003e67189ef757b63b50be70adc88d1573ded32320858c22707436021e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
+      "bytes": 11129,
+      "sha256": "6b00c3bd3a4ab8d19ab59e06ba1c6a5f5defb408e360807e0a7a538cb969145e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2133,
+      "sha256": "a38c961a543cd092b6a9b6ba72dfec83db1da99d5d184a826f11c1c40b5e25ec"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2129,
+      "sha256": "18a24254f90ef24ff2b391690b442dbb9a94237d448ee4d05fe1c55af96d2971"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/DDS_STUDY.md",
+      "bytes": 9801,
+      "sha256": "f00ebfffa48ce0b674ff1f857dbf1fb97770a311f3d079dc445b20013226476b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2121,
+      "sha256": "d7ab2bb3034f6a7003b3d37cf76493dfe174583c6510d52811e7872c664fcc5d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2068,
+      "sha256": "65b0cee38e9a55bc9d34d2d4849cf6d3bd97c96dcf8307fc8e0680416579881a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/EXERCISE_REPORT.md",
+      "bytes": 5717,
+      "sha256": "e8f41d09b6fef746c7b449b718cb57dbfe3b1f99dc789aa611c8abc197bc77d4"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2469,
+      "sha256": "e86fa90db650f925fe629525557c4420393639fd4ae3cde746a8bc7a20d3b9e9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2072,
+      "sha256": "d30e24d07e6a9f2581080210878d5eebb98948bb7c69a9f905d752960e3c39ba"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md",
+      "bytes": 5667,
+      "sha256": "ab055a0ce322074af70e0dcff74404e3d5175bdf74b75bd197a77275c75ebfe2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2112,
+      "sha256": "5bb04843cae4ceded8a4bc1cdbc86d1bb62f4ad6950ed06da8a65f4672524099"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2085,
+      "sha256": "123fa609289f3bc70c6addb2c70e5950a363d52eb547c46a6562bfab2bd301c5"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md",
+      "bytes": 7834,
+      "sha256": "980023cc9daa7438f7c708f8e1745f20a68266b24aa0814de7c8094f6610b341"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2109,
+      "sha256": "801e731c60e1e300a671e58440a1f6c28835177ca2dac1f124b564c590eddb34"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2079,
+      "sha256": "744b35513f78c2d84c2347b296f14107a94ad65024307c2851528ef2f764d47e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/DDS_STUDY.md",
+      "bytes": 9052,
+      "sha256": "4dc80ccf328a04caa5d8067f76666df9347ebb9ded68c087d9355959cb9f9037"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2097,
+      "sha256": "c06417fd29d18fcc51ad78f72c4f690b275429c47ef55932420c913b8de734b7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2083,
+      "sha256": "bac7475bf0a7be4143ce4ac60daeecad8b615e1bbd21aa3681af9a2ba9d85be2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/DDS_STUDY.md",
+      "bytes": 9481,
+      "sha256": "c53dab7aa483ddd65d50fab4a5cbd4e263c3ce6ef46016dfdd86e88640b60698"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2091,
+      "sha256": "28779e217dbc9dce505fc4a56770bcb45e20fab3373738313ea98b1f652bea6e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2083,
+      "sha256": "30aae60eb58b9add8d22f23b765f159bba9068242469f9a8fef9209359ddac66"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/DDS_STUDY.md",
+      "bytes": 10515,
+      "sha256": "1e22e4cc73f879c4caba849160811e4678e9a53788edf403f05e44da90513c85"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md",
+      "bytes": 10459,
+      "sha256": "4cb3abf3acd7544e00a3dd5f0c9e1440b60be55bedd411706ef277afb8034e5e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+      "bytes": 2136,
+      "sha256": "2c0eef3e0b492bf75e3f11463e834ededf66ae3826a958fa42c6661a1ce715dd"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/CURRENT_COST_TYPE_COVERAGE_2026-10-07.json",
+      "bytes": 2117,
+      "sha256": "995449778e4a5485acf3f398f37b610a2dadec2b2454ad8a8e518e6fd49a1529"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/DDS_STUDY.md",
+      "bytes": 9111,
+      "sha256": "fdfad55a6fe77f622afca39f16bd766db03b937c904ee758805a5d7caf258a97"
+    }
+  ],
+  "public_entries": 81,
+  "all_original_source_bytes_verified": true,
+  "canonical_method_identity": "one DDS method; this is a Stage-A scoped diagnostics successor",
+  "prior_successful_metering_runs": "full local/Drive archive; current public traces are run03",
+  "native_SQLite_files": "full local/Drive archive; source and UTF-8 per-profile trace records published on GitHub"
+}

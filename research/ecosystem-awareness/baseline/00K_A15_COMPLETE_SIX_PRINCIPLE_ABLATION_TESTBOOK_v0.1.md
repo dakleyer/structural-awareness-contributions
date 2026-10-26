@@ -335,6 +335,8 @@ Hash/vector/event/epoch peers pass only when they represent every declared mater
 
 **Current core:** **47/47**
 
+**Reading note — 6 October 2026.** This is a count of 47 regression checks matching expected outcomes, not 47 successful defences. “Exhaustive” in A11 means exhaustive over the `2^4` inclusion/omission subsets of the four declared material-basis fields; it does not cover all values, temporal orderings or repair algorithms. See the [A5 audit clarification](./fixtures/00K-A5-P5-00I/README.md#audit-clarification--6-october-2026).
+
 ### Falsifier
 
 A repair that executes continuity, requalifies every declared material change, handles unavailable current state, ignores irrelevant changes and does all of that without representing/binding/invalidation from the current material decision basis or equivalent would be a TRUE SUBSTITUTE.

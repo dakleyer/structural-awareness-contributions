@@ -1,0 +1,5 @@
+# Corpus Document Control Conventions v0.1 — superseded predecessor
+
+> **Historical notice — 25 October 2026.** This 24 October v0.1 convention has been incorporated into the current [DC-GH-01 v1.0 repository policy](../DOCUMENT_CONTROL.md). It is **not a second operative control document**. The original text is preserved byte-for-byte as the [historical v0.1 snapshot](./preserved-public-snapshots/2026-10-24_CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md), also recoverable at the pinned [21e200c baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/21e200cd4c9a0558e4ae3669c55f7256c03a005a/governance/CORPUS_DOCUMENT_CONTROL_CONVENTIONS_v0.1.md).
+
+For the effective canonical/VNext rules, document identities, protection status and implementation audit, use [DOCUMENT_CONTROL.md](../DOCUMENT_CONTROL.md) and its [25 October conformance report](./DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md). The previous v0.1 edition contained illustrative relative Markdown links, not real navigation targets; they remain preserved in the snapshot rather than active links on this supersession page.

@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "registered_before_execution": true,
+  "frozen_at_utc": "2026-10-06T20:21:26.732082+00:00",
+  "files": {
+    "RUN_CARD.json": "903f7e03defb7487889768ab97dbfac2641e10a71271a939335fa0707ed379b4",
+    "study.py": "950c8a9a00dd8eecf4b4becd8bc26989ce230d43d31df408e0444b038cee6cea"
+  },
+  "claim_ceiling": "Actual RSA2048 signing/verification and local SQLite digital effect. Own selected validation/application profile, not browser flow, native issuer/SDK, Authorization Code/PKCE, full OIDC/OAuth conformance, real identity or independent validation."
+}

@@ -1,0 +1,86 @@
+{
+  "scientific_status": "FINITE_SYNTHETIC_ONLY_UNQUANTIFIED_OPEN_RESIDUAL",
+  "n_leaves": 16,
+  "total_modules": 32,
+  "nested_depth_on_target": 6,
+  "current_A": 128,
+  "same_current_A_with_root_bottleneck": 128,
+  "baseline_world_private_selected_gain": 2,
+  "root_bottleneck_world_private_selected_gain": 0,
+  "policies": [
+    {
+      "mode": "A_ONLY",
+      "observed_current_A": 128,
+      "question": "future total incremental output for source-3 when extra=2",
+      "promised_increment": 0,
+      "physical_increment_PRIVATE_ORACLE": 2,
+      "false_promise_PRIVATE_ORACLE": false,
+      "gross_realized_value_SYNTHETIC": 0.0,
+      "information_cost_declared": 0.0,
+      "net_realized_value_SYNTHETIC": 0.0,
+      "status": "CONSERVATIVE_A",
+      "indeterminacy_of_outside": "NOT_INVENTORIED_NOT_MEASURED",
+      "human_development_gap": "NOT_MEASURED"
+    },
+    {
+      "mode": "B_QUALIFIED",
+      "observed_current_A": 128,
+      "question": "future total incremental output for source-3 when extra=2",
+      "promised_increment": 2,
+      "physical_increment_PRIVATE_ORACLE": 2,
+      "false_promise_PRIVATE_ORACLE": false,
+      "gross_realized_value_SYNTHETIC": 10.0,
+      "information_cost_declared": 2.25,
+      "net_realized_value_SYNTHETIC": 7.75,
+      "status": "DECLARED_B_VALID_SCOPE_NOT_AUTHENTICATED",
+      "indeterminacy_of_outside": "NOT_INVENTORIED_NOT_MEASURED",
+      "human_development_gap": "NOT_MEASURED"
+    },
+    {
+      "mode": "TARGETED_EXPLORATION_OF_A",
+      "observed_current_A": 128,
+      "question": "future total incremental output for source-3 when extra=2",
+      "promised_increment": 2,
+      "physical_increment_PRIVATE_ORACLE": 2,
+      "false_promise_PRIVATE_ORACLE": false,
+      "gross_realized_value_SYNTHETIC": 10.0,
+      "information_cost_declared": 3.0,
+      "net_realized_value_SYNTHETIC": 7.0,
+      "status": "TARGETED_SOURCE_ASSESSMENT_ACQUIRED",
+      "indeterminacy_of_outside": "NOT_INVENTORIED_NOT_MEASURED",
+      "human_development_gap": "NOT_MEASURED"
+    },
+    {
+      "mode": "FULL_EXPAND_A",
+      "observed_current_A": 128,
+      "question": "future total incremental output for source-3 when extra=2",
+      "promised_increment": 2,
+      "physical_increment_PRIVATE_ORACLE": 2,
+      "false_promise_PRIVATE_ORACLE": false,
+      "gross_realized_value_SYNTHETIC": 10.0,
+      "information_cost_declared": 32.0,
+      "net_realized_value_SYNTHETIC": -22.0,
+      "status": "FULL_FINITE_MODEL_ACQUIRED",
+      "indeterminacy_of_outside": "NOT_INVENTORIED_NOT_MEASURED",
+      "human_development_gap": "NOT_MEASURED"
+    }
+  ],
+  "root_bottleneck_B_private_qualified_increment": 0,
+  "communication_query_relative": {
+    "n": 16,
+    "full_vector_profiles": 65536,
+    "one_selected_binary_query_bits_min": 1,
+    "all_n_binary_queries_bits_min": 16,
+    "aggregate_count_profiles": 17,
+    "aggregate_count_bits_min": 5,
+    "scope": "EXACT_FIXED_MESSAGE_WORST_CASE_INDEPENDENT_BITS"
+  },
+  "no_roi_gate": {
+    "full_acquisition_cost": 32.0,
+    "maximum_one_query_gross_gain": 10.0,
+    "full_expansion_cannot_beat_conservative_A": true,
+    "bound_scope": "ONE_QUERY_FIXED_VALUE_FINITE_ACQUISITION_COST_MODEL"
+  },
+  "C_status": "C_GROUNDED_AVENUE_UNCHARACTERIZED_ROI",
+  "D_status": "D_MATERIAL_EFFECT_NOT_ASSESSABLE"
+}

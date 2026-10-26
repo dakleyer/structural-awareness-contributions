@@ -54,6 +54,17 @@ Additional:
 
 The family retains positive controls for legitimate transfer and independent creation; universal blocking is not a valid pass.
 
+### Selected successor controls and source-policy fields
+
+For a prospective 00J-family instantiation, declare whether the following historically explicit controls apply; freeze their actual facts and expected outcomes before testing. They supplement the selected profile rather than silently amend the old v0.1 fixture or its numbered controls.
+
+- **Source-policy record:** bind the original author/principal, work identifier, source/issuer, policy, effective time/validity, permitted/prohibited machine uses, obligations and expiry/revalidation rule. In the earlier rights instantiation, bounded RAG was conditionally permitted while training/permanent incorporation was denied, with attribution and bounded retention. Those are fixture facts, not a general legal conclusion for other sources.
+- **Non-curative human approval:** a reviewer approves a downstream claim while source lineage remains unresolved. Preserve that approval as a bounded intervention; it supplies neither the missing lineage nor broader rights authority. A different outcome needs actual new evidence/current authority, not the approval label alone. This recovers historical J-C5 without renaming the current C5 stale-record control.
+- **Repair with history:** a challenged erroneous downstream claim is corrected for future decisions while the original source record, generation claim and downstream claim remain reconstructable. Verify legitimate continuity and the owner's applicable intervention; do not replace prior evidence with the repaired result.
+
+Retain legitimate transfer, independent work, correlated-copy, unresolved downstream-use, stale-record and re-entry controls. A strong conventional mechanism receives the same credit and resources as any EA proposal.
+
+
 ## 3. Upward / vertical extensibility
 
 **Strong extensions:**
@@ -117,3 +128,16 @@ The [A25 §6 evidence boundary](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_C
 ## Success-case route
 
 The failure-family profile above is paired with the positive [**Proposition-Scoped Provenance**](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
+
+## Prospective measurement profiles: retain the denominator
+
+When selected for a future 00J instantiation, report these historical measures as separate profiles from the current case's per-final-decision and per-run measures:
+
+| Profile | Numerator | Denominator / required declaration |
+|---|---|---|
+| Material-handoff evidence-scope promotion | Claims consumed for a stronger proposition than their producer record supports | Declared material handoffs; record how each claim is assigned to its handoff and how multiple claims are counted. |
+| Reconstructable repair | Challenged erroneous downstream claims corrected for future decisions with the source/generation/downstream history reconstructable | Declared repair branches; preserve the earlier wrong decision, intervention and later qualified decision separately. |
+| Main-branch unsupported licence demand | Runs demanding that the original author pay/license the downstream claimant without a valid authority/evidence chain | Declared main inversion branches; retain separately the existing case's applicable-final-decisions denominator. |
+
+Freeze the counted population, unit, inclusion/exclusion rule, pairing and uncertainty before the run; report zero denominator as not evaluable with its reason. Do not pool these populations or retrospectively recompute published rates. No score improves by universal blocking: legitimate transfer, independent creation, valid continuity, finite time and burden remain acceptance conditions. The conditional A25/A26 transfer premises remain unchanged.
+

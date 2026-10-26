@@ -1,0 +1,3040 @@
+{
+  "original_world_replay": {
+    "cases": 9,
+    "outcomes": {
+      "I": 3,
+      "M": 1,
+      "Ø": 4,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 1,
+      "denominator": 5,
+      "fraction": "1/5",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 9,
+      "fraction": "1/9",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 4,
+    "total_selected_api_units": 79,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "fault_controls": {
+    "cases": 2,
+    "outcomes": {
+      "Ø": 1,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 1,
+      "denominator": 1,
+      "fraction": "1",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 2,
+      "fraction": "1/2",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 1,
+    "total_selected_api_units": 27,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "rows": [
+    {
+      "id": "WF-01",
+      "narrative": "The local worker is ready and one admitted effect is durably recorded as completed.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "DONE",
+        "effects": {
+          "outcome": "I",
+          "actual_effects": 1,
+          "persisted_state": [
+            "DONE",
+            1,
+            1
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 2,
+            "sqlite.commit": 3,
+            "sqlite.SELECT": 1,
+            "sqlite.INSERT": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 52486000,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "2cefb76798c88dcf3b80e4c889b8203b05bed677526552a48171e8afbc3dc451",
+          "role_inclusive_wall_ns": {
+            "fixture": 19776900,
+            "candidate": 25658200,
+            "evaluator": 2483600
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 1,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-01",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 8,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 8,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 8,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DONE",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 2,
+          "sqlite.commit": 3,
+          "sqlite.SELECT": 1,
+          "sqlite.INSERT": 1
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.INSERT": 0,
+          "sqlite.SELECT": 0,
+          "sqlite.UPDATE": 0,
+          "sqlite.commit": 0,
+          "workflow.policy": 0
+        }
+      }
+    },
+    {
+      "id": "WF-02",
+      "narrative": "Two observable transient failures precede a successful third attempt within the selected useful window.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "DONE",
+        "effects": {
+          "outcome": "I",
+          "actual_effects": 1,
+          "persisted_state": [
+            "DONE",
+            3,
+            3
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 12,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 4,
+            "sqlite.commit": 5,
+            "sqlite.SELECT": 1,
+            "sqlite.INSERT": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 67368800,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "fb6cbc08b44e54a61df9f870310aaf5f7d7d65667fa8410869c3efffd7b8dd2a",
+          "role_inclusive_wall_ns": {
+            "fixture": 18152500,
+            "candidate": 43063900,
+            "evaluator": 1982900
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 3,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-02",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-02",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 12,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 12,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 12,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 12,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DONE",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 4,
+          "sqlite.commit": 5,
+          "sqlite.SELECT": 1,
+          "sqlite.INSERT": 1
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.INSERT": 0,
+          "sqlite.SELECT": 0,
+          "sqlite.UPDATE": 0,
+          "sqlite.commit": 0,
+          "workflow.policy": 0
+        }
+      }
+    },
+    {
+      "id": "WF-03",
+      "narrative": "The service remains unavailable. After two attempts the owner admits a recorded deferment that closes the minimum route in time.",
+      "candidate": {
+        "outcome": "M",
+        "cause": "DEFERRED",
+        "effects": {
+          "outcome": "M",
+          "actual_effects": 0,
+          "persisted_state": [
+            "DEFERRED",
+            3,
+            2
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 7,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 3,
+            "sqlite.commit": 3
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 78198400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "f73d5dbd27848b49b3c958fd31711677fbab7ff2b73309da04e67612de620cf7",
+          "role_inclusive_wall_ns": {
+            "fixture": 17239300,
+            "candidate": 53984800,
+            "evaluator": 2085100
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 3,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-03",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-03",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 7,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 7,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 7,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 7,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DEFERRED",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 3,
+          "sqlite.commit": 3
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.UPDATE": 0,
+          "sqlite.commit": 0,
+          "workflow.policy": 0
+        }
+      }
+    },
+    {
+      "id": "WF-04",
+      "narrative": "Under the same permanent outage/admitted deferment, the selected retry-to-horizon policy consumes the useful window and never closes M.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "RUNNING",
+        "effects": {
+          "outcome": "Ø",
+          "actual_effects": 0,
+          "persisted_state": [
+            "RUNNING",
+            5,
+            5
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 11,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 5,
+            "sqlite.commit": 5
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 94441400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "4d07e69aa18a89fa5e5025fa1901ec782b5fbe0b4b1c71304490fd996bfe0959",
+          "role_inclusive_wall_ns": {
+            "fixture": 44898600,
+            "candidate": 42469800,
+            "evaluator": 2837600
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 5,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-04",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-04",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 11,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 7,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "reference",
+        "witness_api_cost": 7,
+        "private_excess_signed": 4,
+        "private_excess_nonnegative": 4,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 7,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": true,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RUNNING",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 5,
+          "sqlite.commit": 5
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.UPDATE": 2,
+          "sqlite.commit": 2,
+          "workflow.policy": 0
+        }
+      }
+    },
+    {
+      "id": "WF-05",
+      "narrative": "The resource effect commits but the worker loses its acknowledgement. Restart/retry uses the same resource key and produces one effect.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "DONE",
+        "effects": {
+          "outcome": "I",
+          "actual_effects": 1,
+          "persisted_state": [
+            "DONE",
+            2,
+            2
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 15,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 3,
+            "sqlite.commit": 5,
+            "sqlite.SELECT": 2,
+            "sqlite.INSERT": 2,
+            "sqlite.close": 1,
+            "sqlite.connect": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 65401000,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 28,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 29,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 30,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "1f628d3145906981dc052b5757ec18d9f82ccc8babe98059a14373d8f48aa3de",
+          "role_inclusive_wall_ns": {
+            "fixture": 18533200,
+            "candidate": 40324200,
+            "evaluator": 2787300
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 2,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-05",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-05",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 15,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 15,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 15,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 15,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DONE",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 3,
+          "sqlite.commit": 5,
+          "sqlite.SELECT": 2,
+          "sqlite.INSERT": 2,
+          "sqlite.close": 1,
+          "sqlite.connect": 1
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.INSERT": 0,
+          "sqlite.SELECT": 0,
+          "sqlite.UPDATE": 0,
+          "sqlite.close": 0,
+          "sqlite.commit": 0,
+          "sqlite.connect": 0,
+          "workflow.policy": 0
+        }
+      }
+    },
+    {
+      "id": "WF-06",
+      "narrative": "The same lost acknowledgement occurs against a non-idempotent resource. Retrying creates two actual local effects.",
+      "candidate": {
+        "outcome": "P",
+        "cause": "DONE",
+        "effects": {
+          "outcome": "P",
+          "actual_effects": 2,
+          "persisted_state": [
+            "DONE",
+            2,
+            2
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 15,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 3,
+            "sqlite.commit": 5,
+            "sqlite.SELECT": 2,
+            "sqlite.INSERT": 2,
+            "sqlite.close": 1,
+            "sqlite.connect": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 68160300,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 28,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 29,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 30,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "1f628d3145906981dc052b5757ec18d9f82ccc8babe98059a14373d8f48aa3de",
+          "role_inclusive_wall_ns": {
+            "fixture": 16842300,
+            "candidate": 45414800,
+            "evaluator": 2252900
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 2,
+        "T2_mechanism": true,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-06",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-06",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 15,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": true,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DONE",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 3,
+          "sqlite.commit": 5,
+          "sqlite.SELECT": 2,
+          "sqlite.INSERT": 2,
+          "sqlite.close": 1,
+          "sqlite.connect": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "WF-07",
+      "narrative": "A stale worker's generation1 meets resource generation2 after cancellation/replacement.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "RUNNING",
+        "effects": {
+          "outcome": "Ø",
+          "actual_effects": 0,
+          "persisted_state": [
+            "RUNNING",
+            1,
+            1
+          ],
+          "current_resource_grant": [
+            1,
+            2
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 1,
+            "sqlite.commit": 1,
+            "sqlite.SELECT": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 31423400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "69d48196016021c9c8831b534570a0129b50e83589dce08e4590f755e38da068",
+          "role_inclusive_wall_ns": {
+            "fixture": 16704500,
+            "candidate": 8309900,
+            "evaluator": 2740500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 1,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-07",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-07",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RUNNING",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 1,
+          "sqlite.commit": 1,
+          "sqlite.SELECT": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "WF-08",
+      "narrative": "Declared service latency10 exceeds the useful logical deadline5 and no fallback is admitted.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "RUNNING",
+        "effects": {
+          "outcome": "Ø",
+          "actual_effects": 0,
+          "persisted_state": [
+            "RUNNING",
+            0,
+            0
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 1,
+          "candidate_components": {
+            "workflow.policy": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 23287600,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "0e9aa92abde5c470fa40356fa55aa98cda018b23ffa2d7f4ce2b2aa00619d3e0",
+          "role_inclusive_wall_ns": {
+            "fixture": 18522200,
+            "candidate": 12600,
+            "evaluator": 1496600
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 0,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-08",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-08",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 1,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RUNNING",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "workflow.policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "WF-09",
+      "narrative": "An initially admitted grant is revoked before resource effect. The current resource check must refuse execution.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "RUNNING",
+        "effects": {
+          "outcome": "Ø",
+          "actual_effects": 0,
+          "persisted_state": [
+            "RUNNING",
+            1,
+            1
+          ],
+          "current_resource_grant": [
+            0,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 6,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 2,
+            "sqlite.commit": 2,
+            "sqlite.SELECT": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 40958000,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "dc48acb2876834abf3456eb62e0c72aa83744dc7290f67e601367c5050085506",
+          "role_inclusive_wall_ns": {
+            "fixture": 17741000,
+            "candidate": 16887900,
+            "evaluator": 1901400
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 1,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-09",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-09",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 6,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RUNNING",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 2,
+          "sqlite.commit": 2,
+          "sqlite.SELECT": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "WF-01-review_only",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "RUNNING",
+        "effects": {
+          "outcome": "Ø",
+          "actual_effects": 0,
+          "persisted_state": [
+            "RUNNING",
+            0,
+            0
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 12,
+          "candidate_components": {
+            "sqlite.SELECT": 12
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 29063400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "3012fb77fc374ec73b8ab6d23f3f09c854ff76e822c944bee71091d897a34192",
+          "role_inclusive_wall_ns": {
+            "fixture": 20143000,
+            "candidate": 2153100,
+            "evaluator": 2670500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 5,
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-01",
+        "policy": "review_only"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 12,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 8,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 8,
+        "private_excess_signed": 4,
+        "private_excess_nonnegative": 4,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 8,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": true,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RUNNING",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 12
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.INSERT": -1,
+          "sqlite.SELECT": 11,
+          "sqlite.UPDATE": -2,
+          "sqlite.commit": -3,
+          "workflow.policy": -1
+        }
+      }
+    },
+    {
+      "id": "WF-06-false_closure",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "P",
+        "cause": "DONE",
+        "effects": {
+          "outcome": "P",
+          "actual_effects": 2,
+          "persisted_state": [
+            "DONE",
+            2,
+            2
+          ],
+          "current_resource_grant": [
+            1,
+            1
+          ],
+          "effect_operation_binding_checked": true
+        },
+        "cost": {
+          "C_selected_api_units": 15,
+          "candidate_components": {
+            "workflow.policy": 1,
+            "sqlite.UPDATE": 3,
+            "sqlite.commit": 5,
+            "sqlite.SELECT": 2,
+            "sqlite.INSERT": 2,
+            "sqlite.close": 1,
+            "sqlite.connect": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 3,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 2,
+              "sqlite.SELECT": 4,
+              "sqlite.close": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 68734500,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "workflow.policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 28,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 29,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 30,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "1f628d3145906981dc052b5757ec18d9f82ccc8babe98059a14373d8f48aa3de",
+          "role_inclusive_wall_ns": {
+            "fixture": 17185700,
+            "candidate": 44040800,
+            "evaluator": 2725500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "logical_elapsed_ticks": 2,
+        "T2_mechanism": true,
+        "actor_inputs": [
+          "registered source simulation law",
+          "current SQLite grant",
+          "deadline",
+          "policy"
+        ],
+        "source_simulation_law_is_visible_to_original_model": true,
+        "source_case_id": "WF-06",
+        "policy": "false_closure"
+      },
+      "diagnostics": {
+        "source_case_id": "WF-06",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 15,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": true,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DONE",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "workflow.policy": 1,
+          "sqlite.UPDATE": 3,
+          "sqlite.commit": 5,
+          "sqlite.SELECT": 2,
+          "sqlite.INSERT": 2,
+          "sqlite.close": 1,
+          "sqlite.connect": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    }
+  ],
+  "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+}

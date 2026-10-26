@@ -1,0 +1,7694 @@
+{
+  "scope": "M02 exact fixture construction/route/control checks; self-review; no universal policy proof",
+  "fixture_version": "M02-conjunction-v0.1",
+  "checks": {
+    "DAG_paths_equal_all_27_compositions": "PASS",
+    "zero_benefit_connectors_included": "PASS",
+    "normal_M_mean_and_L": "PASS",
+    "optima_independent_DP": "PASS",
+    "only_common_admissible_route_M_quality_3": "PASS",
+    "exact_admissible_counts_and_unique_optima": "PASS",
+    "no_common_sufficient_route_at_epsilon_0": "PASS",
+    "cv_ce_positive_order": "PASS",
+    "public_initial_and_noninformative_probe_receipts_equal": "PASS",
+    "charged_factual_probes_distinguish_worlds": "PASS",
+    "no_incomplete_own_review_commitment": "PASS",
+    "known_denial_rejected": "PASS",
+    "effect_receipt_may_reveal_but_violation_persists": "PASS",
+    "full_information_physically_viable_at_R11": "PASS",
+    "easy_query_and_certificate_viable_at_R12": "PASS",
+    "hard_query_and_certificate_cannot_finish_registered_delivery": "PASS",
+    "safe_route_is_legitimate_but_quality_insufficient": "PASS",
+    "epsilon3_countercontrol_makes_safe_route_sufficient": "PASS",
+    "route_trace_0_mmm": "PASS",
+    "route_trace_0_mmx": "PASS",
+    "route_trace_0_mmy": "PASS",
+    "route_trace_0_mxm": "PASS",
+    "route_trace_0_mxx": "PASS",
+    "route_trace_0_mxy": "PASS",
+    "route_trace_0_mym": "PASS",
+    "route_trace_0_myx": "PASS",
+    "route_trace_0_myy": "PASS",
+    "route_trace_0_xmm": "PASS",
+    "route_trace_0_xmx": "PASS",
+    "route_trace_0_xmy": "PASS",
+    "route_trace_0_xxm": "PASS",
+    "route_trace_0_xxx": "PASS",
+    "route_trace_0_xxy": "PASS",
+    "route_trace_0_xym": "PASS",
+    "route_trace_0_xyx": "PASS",
+    "route_trace_0_xyy": "PASS",
+    "route_trace_0_ymm": "PASS",
+    "route_trace_0_ymx": "PASS",
+    "route_trace_0_ymy": "PASS",
+    "route_trace_0_yxm": "PASS",
+    "route_trace_0_yxx": "PASS",
+    "route_trace_0_yxy": "PASS",
+    "route_trace_0_yym": "PASS",
+    "route_trace_0_yyx": "PASS",
+    "route_trace_0_yyy": "PASS",
+    "route_trace_1_mmm": "PASS",
+    "route_trace_1_mmx": "PASS",
+    "route_trace_1_mmy": "PASS",
+    "route_trace_1_mxm": "PASS",
+    "route_trace_1_mxx": "PASS",
+    "route_trace_1_mxy": "PASS",
+    "route_trace_1_mym": "PASS",
+    "route_trace_1_myx": "PASS",
+    "route_trace_1_myy": "PASS",
+    "route_trace_1_xmm": "PASS",
+    "route_trace_1_xmx": "PASS",
+    "route_trace_1_xmy": "PASS",
+    "route_trace_1_xxm": "PASS",
+    "route_trace_1_xxx": "PASS",
+    "route_trace_1_xxy": "PASS",
+    "route_trace_1_xym": "PASS",
+    "route_trace_1_xyx": "PASS",
+    "route_trace_1_xyy": "PASS",
+    "route_trace_1_ymm": "PASS",
+    "route_trace_1_ymx": "PASS",
+    "route_trace_1_ymy": "PASS",
+    "route_trace_1_yxm": "PASS",
+    "route_trace_1_yxx": "PASS",
+    "route_trace_1_yxy": "PASS",
+    "route_trace_1_yym": "PASS",
+    "route_trace_1_yyx": "PASS",
+    "route_trace_1_yyy": "PASS",
+    "fair_ex_ante_mixture_world_0": "PASS",
+    "fair_ex_ante_mixture_world_1": "PASS",
+    "thresholds_fixed_and_fair_guess_insufficient": "PASS",
+    "ledger_control_arithmetic": "PASS"
+  },
+  "routes": [
+    {
+      "route": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "J": "3",
+      "admissible_worlds": [
+        0,
+        1
+      ]
+    },
+    {
+      "route": [
+        "m1",
+        "m2",
+        "x3"
+      ],
+      "J": "4",
+      "admissible_worlds": [
+        0
+      ]
+    },
+    {
+      "route": [
+        "m1",
+        "m2",
+        "y3"
+      ],
+      "J": "4",
+      "admissible_worlds": [
+        1
+      ]
+    },
+    {
+      "route": [
+        "m1",
+        "x2",
+        "m3"
+      ],
+      "J": "4",
+      "admissible_worlds": [
+        0
+      ]
+    },
+    {
+      "route": [
+        "m1",
+        "x2",
+        "x3"
+      ],
+      "J": "5",
+      "admissible_worlds": [
+        0
+      ]
+    },
+    {
+      "route": [
+        "m1",
+        "x2",
+        "y3"
+      ],
+      "J": "5",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "m1",
+        "y2",
+        "m3"
+      ],
+      "J": "4",
+      "admissible_worlds": [
+        1
+      ]
+    },
+    {
+      "route": [
+        "m1",
+        "y2",
+        "x3"
+      ],
+      "J": "5",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "m1",
+        "y2",
+        "y3"
+      ],
+      "J": "5",
+      "admissible_worlds": [
+        1
+      ]
+    },
+    {
+      "route": [
+        "x1",
+        "m2",
+        "m3"
+      ],
+      "J": "4",
+      "admissible_worlds": [
+        0
+      ]
+    },
+    {
+      "route": [
+        "x1",
+        "m2",
+        "x3"
+      ],
+      "J": "5",
+      "admissible_worlds": [
+        0
+      ]
+    },
+    {
+      "route": [
+        "x1",
+        "m2",
+        "y3"
+      ],
+      "J": "5",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "x1",
+        "x2",
+        "m3"
+      ],
+      "J": "5",
+      "admissible_worlds": [
+        0
+      ]
+    },
+    {
+      "route": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "J": "6",
+      "admissible_worlds": [
+        0
+      ]
+    },
+    {
+      "route": [
+        "x1",
+        "x2",
+        "y3"
+      ],
+      "J": "6",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "x1",
+        "y2",
+        "m3"
+      ],
+      "J": "5",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "x1",
+        "y2",
+        "x3"
+      ],
+      "J": "6",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "x1",
+        "y2",
+        "y3"
+      ],
+      "J": "6",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "y1",
+        "m2",
+        "m3"
+      ],
+      "J": "4",
+      "admissible_worlds": [
+        1
+      ]
+    },
+    {
+      "route": [
+        "y1",
+        "m2",
+        "x3"
+      ],
+      "J": "5",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "y1",
+        "m2",
+        "y3"
+      ],
+      "J": "5",
+      "admissible_worlds": [
+        1
+      ]
+    },
+    {
+      "route": [
+        "y1",
+        "x2",
+        "m3"
+      ],
+      "J": "5",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "y1",
+        "x2",
+        "x3"
+      ],
+      "J": "6",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "y1",
+        "x2",
+        "y3"
+      ],
+      "J": "6",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "y1",
+        "y2",
+        "m3"
+      ],
+      "J": "5",
+      "admissible_worlds": [
+        1
+      ]
+    },
+    {
+      "route": [
+        "y1",
+        "y2",
+        "x3"
+      ],
+      "J": "6",
+      "admissible_worlds": []
+    },
+    {
+      "route": [
+        "y1",
+        "y2",
+        "y3"
+      ],
+      "J": "6",
+      "admissible_worlds": [
+        1
+      ]
+    }
+  ],
+  "optima": {
+    "0": "6",
+    "1": "6"
+  },
+  "policy_cases": [
+    {
+      "policy": "safe",
+      "profile": "hard",
+      "worlds": [
+        {
+          "a": 1,
+          "q": "3",
+          "v": 0,
+          "success": 0,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "m1",
+            "m2",
+            "m3"
+          ]
+        },
+        {
+          "a": 1,
+          "q": "3",
+          "v": 0,
+          "success": 0,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "m1",
+            "m2",
+            "m3"
+          ]
+        }
+      ],
+      "AVG_success": "0",
+      "AVG_violation": "0",
+      "WC_success": "0",
+      "WC_violation": "0",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "m1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "m1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m1",
+                "m2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m2",
+                "m3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "m1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "m1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m1",
+                "m2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m2",
+                "m3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "blind_x",
+      "profile": "hard",
+      "worlds": [
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "x1",
+            "x2",
+            "x3"
+          ]
+        },
+        {
+          "a": 0,
+          "q": "0",
+          "v": 1,
+          "success": 0,
+          "C": "7",
+          "t": "6",
+          "events": 7,
+          "route": [
+            "x1"
+          ]
+        }
+      ],
+      "AVG_success": "1/2",
+      "AVG_violation": "1/2",
+      "WC_success": "0",
+      "WC_violation": "1",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "x1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "x1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x1",
+                "x2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x2",
+                "x3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "x1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "x1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": false
+            }
+          },
+          {
+            "op": "review",
+            "node": "x2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x1",
+                "x2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "known_denial_refusal"
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "blind_y",
+      "profile": "hard",
+      "worlds": [
+        {
+          "a": 0,
+          "q": "0",
+          "v": 1,
+          "success": 0,
+          "C": "7",
+          "t": "6",
+          "events": 7,
+          "route": [
+            "y1"
+          ]
+        },
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "y1",
+            "y2",
+            "y3"
+          ]
+        }
+      ],
+      "AVG_success": "1/2",
+      "AVG_violation": "1/2",
+      "WC_success": "0",
+      "WC_violation": "1",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "y1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "y1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": false
+            }
+          },
+          {
+            "op": "review",
+            "node": "y2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y1",
+                "y2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "known_denial_refusal"
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "y1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "y1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y1",
+                "y2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y2",
+                "y3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "query",
+      "profile": "hard",
+      "worlds": [
+        {
+          "a": 0,
+          "q": "0",
+          "v": 0,
+          "success": 0,
+          "C": "11",
+          "t": "10",
+          "events": 12,
+          "route": [
+            "x1",
+            "x2"
+          ]
+        },
+        {
+          "a": 0,
+          "q": "0",
+          "v": 0,
+          "success": 0,
+          "C": "11",
+          "t": "10",
+          "events": 12,
+          "route": [
+            "y1",
+            "y2"
+          ]
+        }
+      ],
+      "AVG_success": "0",
+      "AVG_violation": "0",
+      "WC_success": "0",
+      "WC_violation": "0",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "query_state",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 0,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "x1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "x1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x1",
+                "x2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x2",
+                "x3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "resource_refusal"
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "query_state",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 1,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "y1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "y1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y1",
+                "y2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y2",
+                "y3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "resource_refusal"
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "certificate",
+      "profile": "hard",
+      "worlds": [
+        {
+          "a": 0,
+          "q": "0",
+          "v": 0,
+          "success": 0,
+          "C": "11",
+          "t": "10",
+          "events": 12,
+          "route": [
+            "x1",
+            "x2"
+          ]
+        },
+        {
+          "a": 0,
+          "q": "0",
+          "v": 0,
+          "success": 0,
+          "C": "11",
+          "t": "10",
+          "events": 12,
+          "route": [
+            "y1",
+            "y2"
+          ]
+        }
+      ],
+      "AVG_success": "0",
+      "AVG_violation": "0",
+      "WC_success": "0",
+      "WC_violation": "0",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "check_certificate",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 0,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "x1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "x1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x1",
+                "x2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x2",
+                "x3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "resource_refusal"
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "check_certificate",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 1,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "y1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "y1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y1",
+                "y2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y2",
+                "y3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "resource_refusal"
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "query",
+      "profile": "easy_budget",
+      "worlds": [
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "12",
+          "t": "11",
+          "events": 12,
+          "route": [
+            "x1",
+            "x2",
+            "x3"
+          ]
+        },
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "12",
+          "t": "11",
+          "events": 12,
+          "route": [
+            "y1",
+            "y2",
+            "y3"
+          ]
+        }
+      ],
+      "AVG_success": "1",
+      "AVG_violation": "0",
+      "WC_success": "1",
+      "WC_violation": "0",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "query_state",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 0,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "x1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "x1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x1",
+                "x2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x2",
+                "x3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x3",
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "query_state",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 1,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "y1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "y1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y1",
+                "y2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y2",
+                "y3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y3",
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "certificate",
+      "profile": "easy_budget",
+      "worlds": [
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "12",
+          "t": "11",
+          "events": 12,
+          "route": [
+            "x1",
+            "x2",
+            "x3"
+          ]
+        },
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "12",
+          "t": "11",
+          "events": 12,
+          "route": [
+            "y1",
+            "y2",
+            "y3"
+          ]
+        }
+      ],
+      "AVG_success": "1",
+      "AVG_violation": "0",
+      "WC_success": "1",
+      "WC_violation": "0",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "check_certificate",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 0,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "x1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "x1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x1",
+                "x2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x2",
+                "x3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x3",
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "check_certificate",
+            "node": null,
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "ok",
+              "chi": 1,
+              "version": "v1",
+              "source": "binding-register"
+            }
+          },
+          {
+            "op": "review",
+            "node": "y1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "y1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y1",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y1",
+                "y2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y2",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y2",
+                "y3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y3",
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "12",
+            "time": "11",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "full_info",
+      "profile": "full_information",
+      "worlds": [
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "x1",
+            "x2",
+            "x3"
+          ]
+        },
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "y1",
+            "y2",
+            "y3"
+          ]
+        }
+      ],
+      "AVG_success": "1",
+      "AVG_violation": "0",
+      "WC_success": "1",
+      "WC_violation": "0",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "x1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "x1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x1",
+                "x2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "x3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "x2",
+                "x3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "x3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "x3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "y1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "y1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y1",
+                "y2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "y3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "y2",
+                "y3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "y3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "y3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "policy": "safe",
+      "profile": "wide_tolerance",
+      "worlds": [
+        {
+          "a": 1,
+          "q": "3",
+          "v": 0,
+          "success": 1,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "m1",
+            "m2",
+            "m3"
+          ]
+        },
+        {
+          "a": 1,
+          "q": "3",
+          "v": 0,
+          "success": 1,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "m1",
+            "m2",
+            "m3"
+          ]
+        }
+      ],
+      "AVG_success": "1",
+      "AVG_violation": "0",
+      "WC_success": "1",
+      "WC_violation": "0",
+      "traces": [
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "m1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "m1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m1",
+                "m2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m2",
+                "m3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ],
+        [
+          {
+            "op": "setup",
+            "node": null,
+            "cost": "2",
+            "time": "1",
+            "receipt": {
+              "status": "ok",
+              "manifest": {
+                "nodes": [
+                  {
+                    "id": "m1",
+                    "layer": 1,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x1",
+                    "layer": 1,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y1",
+                    "layer": 1,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m2",
+                    "layer": 2,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x2",
+                    "layer": 2,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y2",
+                    "layer": 2,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  },
+                  {
+                    "id": "m3",
+                    "layer": 3,
+                    "kind": "m",
+                    "benefit": 1,
+                    "resource": "m"
+                  },
+                  {
+                    "id": "x3",
+                    "layer": 3,
+                    "kind": "x",
+                    "benefit": 2,
+                    "resource": "x"
+                  },
+                  {
+                    "id": "y3",
+                    "layer": 3,
+                    "kind": "y",
+                    "benefit": 2,
+                    "resource": "y"
+                  }
+                ],
+                "edges": [
+                  {
+                    "source": "s",
+                    "target": "m1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "x1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "s",
+                    "target": "y1",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "m2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "x2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y1",
+                    "target": "y2",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "m3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "x3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y2",
+                    "target": "y3",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "m3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "x3",
+                    "target": "t",
+                    "benefit": 0
+                  },
+                  {
+                    "source": "y3",
+                    "target": "t",
+                    "benefit": 0
+                  }
+                ],
+                "rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+                "version": "v1",
+                "known_M": "mmm"
+              }
+            }
+          },
+          {
+            "op": "review",
+            "node": "m1",
+            "cost": "3",
+            "time": "2",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "s",
+                "m1",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m1",
+            "cost": "4",
+            "time": "3",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m1",
+            "cost": "5",
+            "time": "4",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m2",
+            "cost": "6",
+            "time": "5",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m1",
+                "m2",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m2",
+            "cost": "7",
+            "time": "6",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m2",
+            "cost": "8",
+            "time": "7",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "review",
+            "node": "m3",
+            "cost": "9",
+            "time": "8",
+            "receipt": {
+              "status": "PASS-local",
+              "scope": [
+                "m2",
+                "m3",
+                "v1"
+              ],
+              "residual": [
+                "global binding"
+              ],
+              "geometry": true
+            }
+          },
+          {
+            "op": "decide",
+            "node": "m3",
+            "cost": "10",
+            "time": "9",
+            "receipt": {
+              "status": "ok"
+            }
+          },
+          {
+            "op": "execute",
+            "node": "m3",
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok",
+              "binding_active_after_effect": true
+            }
+          },
+          {
+            "op": "stop",
+            "node": null,
+            "cost": "11",
+            "time": "10",
+            "receipt": {
+              "status": "ok"
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "fair_ex_ante_mixture": {
+    "AVG_success": "1/2",
+    "AVG_violation": "1/2",
+    "WC_success": "1/2",
+    "WC_violation": "1/2"
+  },
+  "all_fixed_route_traces": [
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "3",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "m2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "m2",
+        "x3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "4",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "m2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "m2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "m2",
+          "y3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "x2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "4",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "x2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "x2",
+        "x3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "5",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "x2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "x2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "m1",
+          "x2"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "y2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "y2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "y2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "y2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "m1",
+        "y2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "m1",
+          "y2"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "m2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "4",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "m2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "m2",
+        "x3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "5",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "m2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "m2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "x1",
+          "m2"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "x2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "5",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "x2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "6",
+        "v": 0,
+        "success": 1,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "x2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "x1",
+          "x2"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "y2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "x1"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "y2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "x1"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "x1",
+        "y2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "x1"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "m2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "m2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "m2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "m2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "m2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "y1",
+          "m2"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "x2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "x2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "x2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "x2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "x2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "y1",
+          "x2"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "y2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "y1"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "y2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "y1"
+        ]
+      }
+    },
+    {
+      "world": 0,
+      "planned_route": [
+        "y1",
+        "y2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "y1"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "3",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "m2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "m2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "m2",
+          "x3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "m2",
+        "y3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "4",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "m2",
+          "y3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "x2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "x2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "x2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "m1",
+          "x2"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "x2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "x2",
+          "y3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "y2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "4",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "y2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "y2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "m1",
+          "y2"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "m1",
+        "y2",
+        "y3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "5",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "m1",
+          "y2",
+          "y3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "m2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "m2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "m2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "x1",
+          "m2"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "m2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "m2",
+          "y3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "x2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "x1"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "x2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "x1"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "x2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "x1"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "y2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "y2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "y2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "x1",
+          "y2"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "x1",
+        "y2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 1,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "x1",
+          "y2",
+          "y3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "m2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "4",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "m2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "m2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "y1",
+          "m2"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "m2",
+        "y3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "5",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "m2",
+          "y3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "x2",
+        "m3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "y1"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "x2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "y1"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "x2",
+        "y3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "7",
+        "t": "6",
+        "events": 7,
+        "route": [
+          "y1"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "y2",
+        "m3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "5",
+        "v": 0,
+        "success": 0,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "y2",
+          "m3"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "y2",
+        "x3"
+      ],
+      "result": {
+        "a": 0,
+        "q": "0",
+        "v": 0,
+        "success": 0,
+        "C": "10",
+        "t": "9",
+        "events": 10,
+        "route": [
+          "y1",
+          "y2"
+        ]
+      }
+    },
+    {
+      "world": 1,
+      "planned_route": [
+        "y1",
+        "y2",
+        "y3"
+      ],
+      "result": {
+        "a": 1,
+        "q": "6",
+        "v": 0,
+        "success": 1,
+        "C": "11",
+        "t": "10",
+        "events": 11,
+        "route": [
+          "y1",
+          "y2",
+          "y3"
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "No enumeration of every history-dependent policy",
+    "No M03/M04 universal lower bound or parameter region",
+    "No independent C05 evaluator",
+    "No random-witness/parity/N>1/campaign/technology claim"
+  ]
+}

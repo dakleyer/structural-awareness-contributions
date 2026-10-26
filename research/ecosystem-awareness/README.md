@@ -1,4 +1,18 @@
+> **Nota de revisión — 6 de octubre de 2026.** Cuerpo existente conservado. [Única VNext de Ecosystem Awareness](./README_VNext.md); auditoría e integraciones abiertas. [Plan del corpus completo](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
 # Ecosystem Awareness — entry-point router
+
+<!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+**00G-R01 reduction study:** [Probabilistic exploration and validation cost](./baseline/reductions/00G-R01/README.md) links parent Napoleon/00G to the reduced 00G-R01 specification and, from there, its supporting reduction argument, with its Word/PDF exports. 00G remains the parent case; 00N remains the functional-plausibility note.
+
+## Mathematical and functional plausibility — current reading route
+
+Read [**00M v0.8 — A/B/C/D semantics and mathematical plausibility**](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) first, then [**00N v0.7 — Can Ecosystem Awareness Work?**](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The first note defines the canonical A/B/C/D semantics for this corpus and examines four mathematical tasks; the second connects the mechanism to the existing requirements through conditional scientific plausibility. These are research notes for review, not proofs of engineering feasibility, prevention, compliance or a TRL award. Publication does not silently amend a frozen requirement or replace an older controlled source.
+
+[**Three visual reading aids and downloads**](./baseline/visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
+
+These files were developed locally; any retained “local draft” status records that origin, not a restriction on reading this public snapshot. All pre-existing material in this README is preserved. [Publication and preservation record](./baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md).
 
 **Hypothesis and traceability:** [common causal hypothesis, current bridge 0.4.1, six failure families, principles and forward/reverse evidence](../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md). This reading index identifies the substantive documents, executed audits, preserved counterexamples and remaining proof obligations.
 
@@ -10,8 +24,6 @@
 > **Working router.** This page introduces the architecture, presents the benchmark route and sends readers to three preserved destination indexes. It does not replace or reorganize those corpora.
 
 **Canonical source:** the versioned technical corpus in this GitHub repository governs architecture, requirements and evidence. Articles, annexes and outreach presentations communicate that corpus; they do not supersede it.
-
-**Current A/B/C/D reading:** [00M — Canonical Semantics and Scoped Requalification Feasibility](./baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) fixes the working semantic foundation across producer processes and records the remaining 04 input-contract reconciliation. It is a mathematical feasibility argument, not an implemented interface or measured benefit.
 
 ## What problem this addresses
 
@@ -69,7 +81,7 @@ The drafting rule is: **05 defines the target architecture; 05A determines what 
 2. [**Minimum Sufficient Control / MSCA**](../../standards/minimum-sufficient-control/README.md) — the control-sufficiency and authorized-response line, including its proposed interfaces with EA.
 3. [**Regime Awareness**](../regime-awareness/README.md) — the operating-validity line, including Minimalistic Regime-Aware Early Warning Systems and the Regime Change Detection review route.
 
-The canonical corpus index also hosts three additive, non-frozen **Ecosystem Positioning-related extensions for lineage and routing**: [**01H Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity**](./baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md), which makes the distributed/no-supercontroller reading explicit and feeds the later canonical agentic-gradient law; [**01I Agentic Citizenship Contract**](./baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md), a separate human-governed participation/constraint neighbour outside the EA core; and [**01J Ecosystem Signalling**](./baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), the current signalling route for selective disclosure, compatibility mapping, ACC/authority qualification and qualified inputs to downstream agentic repositioning without assuming common governance or a global state. The earlier Distributed Opportunity file remains preserved as provenance in the canonical corpus.
+The canonical corpus index also hosts four additive, non-frozen **Ecosystem Positioning-related extensions for lineage and routing**: [**01H Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity**](./baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md), which makes the distributed/no-supercontroller reading explicit and feeds the later canonical agentic-gradient law; [**01I Agentic Citizenship Contract**](./baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md), a separate human-governed participation/constraint neighbour outside the EA core; [**01J Ecosystem Signalling**](./baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), the current signalling route for selective disclosure, compatibility mapping, ACC/authority qualification and qualified inputs to downstream agentic repositioning without assuming common governance or a global state; and [**01K Human Capacity / Human Intelligence Debt**](./baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), an additive Human Capacity / Human Intelligence Debt extension that separates runtime human-review capacity from the architecture-level HICR/HICT/HID question, carries the organisational measurement/bridge profile, and uses the existing EHD/Signalling and Repositioning routes without becoming an EA/EP core function. Its reusable component contract is [**01K-A01 HC-HID Component**](./baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md); the schema, semantic controls and verification record remain subordinate to that contract. The earlier Distributed Opportunity file remains preserved as provenance in the canonical corpus.
 
 The [**01E EA / DAOS Model Case interface annex**](./baseline/01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md) remains the direct source-grounded map from the independent DAOS case to EA functions, interfaces and validation profiles; it is a candidate interface annex, not a submitted use case or an implemented API.
 
@@ -221,9 +233,23 @@ The compact status statement appears above the scenario walkthroughs. The dashbo
 
 The benchmark is therefore presentable as an inspectable test programme and market/architecture gap analysis. It is not yet evidence of comparative superiority.
 
-## Applied validation route — Decision Boundary Challenge
+## Deployment Differential Study (DDS) — canonical three-stage method
 
-The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.2**](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) is a separate applied-evidence route for reviewing what happens when an agent reaches the boundary between capability, sufficient evidence, admissibility, authority, opportunity and actuation.
+**Single entry point:** [**DDS Canonical Method Index v0.1**](./DDS_CANONICAL_METHOD_INDEX_v0.1.md).
+
+DDS is the programme-wide testing/evaluation method for this corpus. It is now explicitly separated into:
+
+1. [**Stage A — Specification Discovery**](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) — Challenge → candidate specifications/mechanisms/configuration trajectories → bounded differential finding / candidate specification package;
+2. [**Stage B — Architecture Verification**](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) — frozen Stage A specification → architecture/reference realization → verified/partial/nonconformant architecture finding;
+3. [**Stage C — Implementation / Problem Validation**](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) — pinned implementation/configuration → observed execution/effect against the originating Challenge → bounded empirical validation finding.
+
+A profile may use a **Simplified DDS Stage A/B/C** route when only a declared subset of that Stage is needed. “Simplified” describes coverage, not evidence weakness. Documentary, analytical, symbolic, deterministic-fixture, harness and native execution are evidence modes; they do not by themselves determine the Stage.
+
+**Historical evidence incorporation.** The corpus predates this three-stage organization. Earlier Stage-0 fixtures, 00L symbolic runs, 00D-A01/A03 oracle/harness designs, R01 C02 oracle/harness work and related testbed records remain valid for their original scope and are now incorporated into DDS as Stage-specific partial evidence or support/infrastructure, as mapped in the [canonical DDS index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#7-historical-and-pre-dds-evidence-incorporation). Their local version numbers and freezes are not DDS versions, and incorporation does not retroactively upgrade their claims.
+
+## DDS support module — Decision Boundary Challenge
+
+The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.2**](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) supplies reusable decision-boundary Challenge/adjudication material inside DDS. It is not a second corpus testing method. Its cases may support Stage A specification discovery, Stage B architecture controls or Stage C implementation adjudication according to the registered object under test and evidence scope.
 
 It is designed to be **cross-platform and sector-agnostic**: the initial unit under review is an agent stack, framework, control plane or research platform rather than a logistics, energy or other vertical application. The protocol begins with a standard challenge pack and offline trace audit; sandbox/sidecar execution is admitted only after a material signal exists and the comparison is preregistered.
 
@@ -243,13 +269,15 @@ The protocol:
 
 **FG-TIDA projection:** the programme-independent protocol is projected into the [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) and is bidirectionally mapped into [Specification Preparation v0.3](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md). The current public test route starts with UC-6 semantic mapping and may then enter Nelson's bounded UC-4 executable profile after contributor review and scope agreement.
 
-**Boundary:** this is not part of the frozen/canonical EA baseline, does not supersede the 00D benchmark, and currently contains no executed comparative result or vendor ranking. It runs in parallel with W2 and may later contribute admitted fixtures/evidence through the normal W3 or external-owner process. [v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) remains preserved as the predecessor.
+**Boundary:** DBC is not part of the frozen/canonical EA baseline, does not supersede 00D comparator/fairness support and currently contains no executed comparative result or vendor ranking. Within the current DDS method it is a support module, not a parallel method; concrete DBC-derived evidence is classified under Stage A, B or C by the object actually tested. [v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) remains preserved as the predecessor.
 
 ## Reading routes
 
 - **Five minutes:** this page → [100 Million Tokens](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) → [Mobility Chaos — The City That Stopped Safely](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) → [00I Freeze Edition — The Patch That Undid the Fix](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) → [benchmark status](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).
 - **Architecture:** [canonical EA corpus](./baseline/README.md) → topology → documents 01–04 → 01H/01I/01J → interface annexes.
 - **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → [published Stage-0 traces](./baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) and [00L records](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) → independent comparison and replication.
+- **UC-21 / S5 source-to-evidence route:** start with the [UC-21 case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md), then the [S5 scenario](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md) and [T08 AWS documentary profile](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T08.md); the [00I-STATEFUL report](./baseline/fixtures/00I-STATEFUL/README.md) records separately executed local synthetic effects. [UC-4](https://github.com/FG-TIDA/use-cases/issues/4) owns the external testbed review/admission discussion.
+- **Claim custody and review:** [limited claim source/consumer register](./DDS_CLAIM_SOURCE_CONSUMER_REGISTER_v0.1.md) tracks ten reader-facing claims, their source, observed consumers and update triggers; [EA README VNext](./README_VNext.md) retains editorial changes and [Stage A VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) retains diagnostic proposals. Source documents remain authoritative.
 - **Institutional application:** [**current Theme #13 charter-preparation draft (01G)**](./fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) for the direct working document; use the broader [EA / FG-TIDA package](./fg-tida/README.md) for specifications/interfaces → cases/tests → provenance.
 
 ## Routing rule
@@ -257,3 +285,8 @@ The protocol:
 This page should remain a router while the programme structure is still being consolidated. New substantive documents, cases, interface annexes, validation material and historical records should be indexed in the appropriate destination README rather than duplicated or removed here. The canonical corpus is preserved as-is; this page only exposes stable entry routes.
 
 **Status:** public working research and test proposals; not adopted standards, completed pilots or certified comparative results.
+
+
+## Optional bounded ACC research artefact
+
+The [ACC auxiliary model](./baseline/01I-artifacts/acc-auxiliary-model-v0.1/README.md) is hosted under the ACC line as a deliberately bounded model of systems, society, economic transition and human capabilities, for later use and integration. Its full working texts, examples and candidate studies remain research material. It neither defines all ACC nor specifies its embedding in agents. Its evaluation route goes through DDS; source-preserving UC21/R01 adapters are a later study decision. This is a subordinate package reader, outside the EA core and frozen baseline.

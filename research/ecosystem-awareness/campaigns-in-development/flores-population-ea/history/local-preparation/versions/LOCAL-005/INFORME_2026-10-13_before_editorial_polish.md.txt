@@ -1,0 +1,241 @@
+# Flores y pérdida de fundamento durante la ejecución
+
+Informe de investigación y preparación experimental. Versión 0.1, 13 octubre 2026. Destinatario: Iván Abril Palma. Estado: propuesta local revisable y preflight sintético; las dos campañas sustantivas siguen sin preregistro ni ejecución.
+
+## 1 Decisión recomendada
+
+Preparar una extensión temporal pequeña del experimento de Justin Flores en Theme #21 que mantenga una misma pregunta, un mismo sujeto y un mismo contrato de observación, y retire en tiempo de ejecución una sola condición necesaria para utilizar la inferencia. Conservar exactamente los votos y el cálculo del detector en un brazo apareado. Examinar primero lo que puede y no puede advertir el mecanismo original. Después comparar una especificación EA con una alternativa convencional competente, bajo idéntico acceso a las fuentes y presupuesto.
+
+La intervención recomendada es perder el vínculo vigente entre una evidencia de contexto y el sujeto o periodo al que se aplica, manteniendo la evidencia histórica y sus bytes. Este es el punto mínimo implementable sin rehacer los seis jueces, los ocho casos, el umbral, los seeds ni la clave. El perfil temporal añade una afirmación de validez contextual definida **antes de t0**, no una nueva pregunta inventada después del resultado. Para llamarlo pérdida de identificabilidad, y no solo retirada de confianza, debe exhibir dos mundos compatibles con la observación actual y respuestas distintas a esa afirmación.
+
+El cambio puede ser visible en un canal de contexto aunque los votos no cambien. Si también todos los inputs de ese canal permanecen idénticos, ninguna capa podrá identificar el hecho oculto. Ambas ramas son necesarias: la primera permite comparar requisitos; la segunda fija el límite de información.
+
+La propuesta no presupone una ventaja exclusiva de EA. El preflight incluido obtiene equivalencia entre un B2 explícito y un modelo finito de requisitos. Por tanto, la siguiente investigación debe justificar valor incremental en selectividad, continuidad, recuperación o coste, o aceptar una especificación convencional como solución suficiente.
+
+## 2 Qué se quiere determinar
+
+La pregunta de investigación se formula así:
+
+**Cuando una condición material que justificaba una inferencia deja de estar establecida durante la ejecución, ¿el sistema conserva indebidamente la determinación anterior porque los jueces siguen devolviendo los mismos valores? ¿Qué información y requisitos mínimos permiten retirar únicamente la inferencia afectada y recuperarla cuando vuelve un fundamento legítimo?**
+
+La misma pregunta se aplica en t0, t1 y t2. Su sujeto, política, finalidad y regla de aceptación permanecen fijos. La variable temporal ya está incluida: se pregunta por la suficiencia de la base **para la misma decisión pendiente dentro del periodo especificado**, no por reescribir la verdad de una fotografía histórica.
+
+Una proposición histórica inmutable que se sabía verdadera no se vuelve falsa porque se pierda un archivo. El objeto temporal es la justificación de una inferencia que depende de condiciones vigentes. Si se pretende demostrar algo más fuerte sobre verdad o corrección actual, el experimento debe observar o construir legítimamente ese objeto, no limitarse a borrar un campo.
+
+Hay tres resultados posibles ante el cambio: contradicción demostrada, fundamento no establecido o continuidad aún justificada por una vía alternativa. Estos estados requieren tratamientos distintos.
+
+## 3 Base exacta de Flores que se conserva
+
+La especificación v1.0 de planted-judge es una demostración de mecanismo con jueces guionizados, no un estudio de desempeño de modelos. En el estado consultado publica README.md y expected.py; anuncia generate.py, detect.py y unblind.py para después de la revisión. La carpeta fuente sigue en el commit 07ac94fb100975bfff2e8ab0c644bd02ec87e537.
+
+Seis jueces: H1–H4, D y P. Los cuatro H tienen un error compartido fijo en UC17-02; D disiente correctamente allí; P tiene variantes subtle y gross. Se puntúan ocho casos de contenido bajo REF-FSCOMMS 1.0. UC17-08 es ausencia atestiguada, no un noveno veredicto. UC17-09 se puntúa en contenido aunque el registro falle appraisal por referencia stale. El sucesor R-UC17-07-2 bajo 1.1 no entra en ese scoring.
+
+La detección ciega considera la mayoría de los otros cinco y suma desviaciones. El umbral publicado es 2.1186 por ronda; hay 1, 5 y 25 rondas por variante. Las etiquetas J1–J6 se permutan una vez por run. El unblind solo ocurre después de registrar flags y verificar el sello. Las expectativas calculadas son predicciones de un modelo fijo, no resultados ejecutados.
+
+La v1.0 ya reconoce que el acuerdo no establece corrección, que la independencia de draws es una condición del generador y que el detector no demuestra independencia de modos de fallo. Estos son límites científicos legítimos que la extensión debe mantener visibles. [Especificación de Flores](https://github.com/Himalogic/FG-TIDA-analysis/blob/07ac94fb100975bfff2e8ab0c644bd02ec87e537/planted-judge/README.md).
+
+## 4 Por qué t0 necesita una justificación propia
+
+No se puede declarar que los votos establecen inicialmente la independencia real o la corrección objetiva de la clave: el protocolo dice que no las establece. Si Q consiste en alguna de esas propiedades y el único input son votos, se empieza sin identificación. Un t1 posterior no prueba pérdida de una propiedad que nunca se conoció.
+
+Para el primer ensayo, t0 debe contener una evidencia admisible que caracteriza la relación exacta entre resultado, referencia, sujeto, configuración y periodo. Puede ser una condición certificada dentro del mundo controlado, o una evidencia externa de alcance definido. Su autor y verificador deben estar separados del candidato. Su verdad no se deduce de que el JSON esté bien formado.
+
+En la demostración finita de este paquete se estipula una fuente de contexto válida y un vínculo vigente. Ello permite ensayar el contrato y mostrar los mundos que quedan abiertos al retirarlo. La estipulación no demuestra que esa fuente exista o sea suficiente en el caso nativo. El primer punto de revisión con Flores es precisamente qué relación material puede ocupar ese papel sin producir metadatos nuevos innecesarios.
+
+## 5 Relación precisa con Olena
+
+Olena ordena la inferencia: afirmación, arquitectura de observación/evaluación, identificabilidad bajo esa arquitectura y, si corresponde, incertidumbre muestral. Una conclusión estadística no puede reparar una condición de identificación que ha dejado de valer. Su observación exige explicitar las hipótesis de la familia evaluadora, no inferirlas del tamaño de la población. [Comentario primario](https://github.com/FG-TIDA/themes/issues/21#issuecomment-5532364422).
+
+El ensayo propuesto cambia una condición del segundo paso y obliga a reexaminar el tercero. El cuarto puede seguir ejecutando aritmética correctamente mientras su extrapolación deja de estar justificada. No se cambia Q0 a una pregunta receptora Q1 después de ejecutar; el perfil temporal define desde el inicio qué determinación depende de esa condición.
+
+Este orden tampoco implica automáticamente un movimiento B→C. Una limitación conocida y caracterizable puede seguir en B; la pérdida de una relación puede producir NOT_ESTABLISHED; C requiere una vía exploratoria fundada. El resultado primario es una decisión sobre soporte, observabilidad y alcance, no una etiqueta ontológica premiada por el evaluador.
+
+## 6 La distinción entre votos iguales e inputs iguales
+
+**Votos iguales:** el detector recibe la misma matriz de veredictos, pero un monitor de contexto puede recibir un cambio de versión, una pérdida de relación, una caducidad o un aviso admisible. Se puede medir detección de pérdida de fundamento desde ese canal.
+
+**Inputs completos iguales:** todos los campos, respuestas de consultas, tiempos visibles, caches y metadatos que el candidato recibe son idénticos. Si los mundos ocultos tienen verdades diferentes, el candidato no puede distinguirlos con garantía. Un modelo aleatorio conserva la misma distribución de respuestas bajo los dos mundos, aunque las muestras particulares difieran.
+
+**Distribuciones marginales iguales:** medias o tasas iguales no bastan para afirmar que los inputs son idénticos. Puede cambiar la dependencia entre jueces, el orden temporal o el conjunto de items. Es una familia de pruebas diferente y requiere analizar la observación conjunta.
+
+**Registros iguales con nueva verdad aplicable:** puede haber un cambio de contexto que afecte a la interpretación sin alterar un registro histórico. Debe fijarse el evento material y el periodo en que se aplica; no se puede fabricar una fecha efectiva a partir de una fecha de publicación.
+
+Estas cuatro situaciones tienen controles diferentes. El paquete las separa para que un detector no gane por leer una pista que otro brazo nunca recibió.
+
+## 7 Diseño mínimo recomendado
+
+Añadir un registro externo de contexto, vinculado por identidad, scope, periodo, referencia y digest a la evidencia que sustenta la afirmación temporal. El registro es una entrada propia del perfil de extensión; no modifica el fixture CTGT ni incorpora roles sellados en la detección ciega.
+
+En t0 la relación está completa y es admisible. En t1 se pierde una sola asociación necesaria con el periodo o sujeto vigente. El cuerpo histórico de la evidencia sigue intacto, las salidas de los jueces siguen iguales y el detector vuelve a producir los mismos counts/flags. En t2 una fuente legítima restituye la asociación, o una alternativa igualmente válida establece el soporte.
+
+La pérdida se introduce mediante el estado bruto de la fuente o de la relación, no mediante un campo con la respuesta “base perdida”, “C” o “resultado inválido”. Cada candidato debe identificar cuál de sus obligaciones ya no tiene evidencia. La retirada de una decoración irrelevante no puede causar el mismo efecto.
+
+La modificación es mínima en **unidad causal**: una relación o condición. Eso no equivale a una promesa de una línea de código. Validar la fuente, registrar el tiempo, aislar el oráculo y medir el coste son trabajos separados que hacen el ensayo evaluable.
+
+## 8 Selección de la afirmación antes de ejecutar
+
+| Candidata | Ventaja | Problema | Disposición |
+|---|---|---|---|
+| Corrección objetiva de mayoría inferida solo de votos | Parece cercana al propósito intuitivo | No establecida ya en t0; comparte blind spot | No usar como pérdida demostrada |
+| Independencia real inferida por cantidad de jueces | Vincula el tema de Flores | Declarada/unknown desde el detector | Requiere fuente independiente nueva |
+| Aplicabilidad vigente del resultado a mismo sujeto y periodo | Conserva productor y permite una relación material | Puede resolverse por controles convencionales | Primera opción revisable |
+| Atribución de una serie a un actor real tras cambio de binding | Identificabilidad clara si mapping inicialmente válido | No confundir con relabeling por ronda ya caracterizable | Alternativa solo con contrato de identidad |
+| Cambio en dependencia de fallos con marginales conservadas | Más cercano a la diversidad evaluadora | Cambia modelo/generador y requiere análisis conjunto | Sucesor de mayor alcance |
+| Nuevo criterio authored de referencia | Permite contraste concreto | Puede ser simple mismatch o cambio de pregunta | Control auxiliar, no sustituto del objetivo |
+
+La selección final deberá usar un predicado suficientemente pequeño y científicamente material. “El contexto está bien” es demasiado amplio. “La evidencia E mantiene un vínculo admisible con el sujeto D en la ventana W para la inferencia Q” es auditable.
+
+## 9 Campaña primera
+
+Su objetivo es establecer la relación entre cambio contextual y observabilidad del mecanismo base. El detector original conserva sus propios outputs. La extensión le plantea una pregunta adicional de investigación sin imputarle una obligación de producto que v1.0 no reclama.
+
+Preparar un baseline correcto, una intervención apareada, restauración, cambio benigno y rama sin información. La adjudicación separa: cálculo de desviaciones correcto, reconocimiento de pérdida de fundamento y continuidad indebida por una capa de reutilización. “NOT_ASSESSED” por el detector puede ser el resultado correcto dentro de su scope, y a la vez mostrar qué información falta en el sistema completo.
+
+No debe atribuirse a Flores que ha afirmado permiso, validez de todos los registros o verdad objetiva. La prueba tiene que producir una pregunta que le resulte útil: qué qualifier o boundary debe acompañar la lectura poblacional para impedir que un consumidor siga reutilizándola bajo una condición perdida.
+
+Solo los resultados del runner oficial y sus artefactos podrán denominarse ejecución nativa. Un replay apareado de una grabación oficial será replay de esa grabación, no una nueva ejecución de los jueces. La matriz sintética de este paquete es una referencia ilustrativa distinta.
+
+## 10 Campaña segunda
+
+Después de fijar la primera observación, comparar requisitos de una especificación EA y una especificación convencional B2. Las dos reciben la misma fuente de contexto, permisos, tiempos, presupuesto, posibilidad de consulta y contrato de continuidad. El brazo nativo de votos sirve de referencia informativa, pero no es el competidor equivalente para medir valor adicional de EA.
+
+B2 incluye checksums, scope, versiones, periodos, dependencias, fuente autorizada, UNKNOWN, alternativas de recuperación y revisión selectiva. Debe defenderse antes de conocer los casos puntuados. Las capacidades convencionales reciben todo el crédito, aunque no se llamen EA.
+
+La hipótesis EA se estrecha: una composición de qualifiers de fuentes parciales puede reducir falsas continuaciones o falsas detenciones, conservar mejor lo no afectado o lograr la misma calificación con menor carga. No basta con repetir una flag supplied por otro evaluador. La primera familia simple probablemente empate; ese empate sirve para seleccionar la especificación mínima.
+
+Las dos campañas pueden pertenecer al mismo programa de investigación, pero tendrán Run Cards, outputs y decisiones separados. La segunda no recibe secretos del oráculo de la primera y no suma sus checks como observaciones empíricas.
+
+## 11 Comparación y condiciones de mérito
+
+Antes de puntuar, cada arm declara qué output afirma, a quién sirve y qué evidencia utiliza. El evaluador elimina primero resultados materialmente incorrectos: soporte falso, contradicción inventada, pérdida de fuente, alarma sin observabilidad o bloqueo total que impide los positivos.
+
+Entre brazos que cumplen el contrato se comparan precisión del alcance, tiempo de recalificación, recuperación, workload de revisión y coste total. Los pesos, márgenes de equivalencia y utilidades se fijan antes de observar resultados. No se selecciona una métrica favorable después de ver un empate.
+
+La autoría del perfil, extracción de fuentes, revisiones, parsing, token/CPU, comunicaciones, checks, atención humana y esperas integran la carga. El tiempo de descubrimiento del diseño es distinto del tiempo por caso; ambos se reportan. Un resultado tardío cuando ya pasó la oportunidad de respuesta no vale como detección útil.
+
+El criterio “mejor” puede ser una dominancia parcial sobre un vector, no un score único. Si EA mejora scope pero añade retraso que hace perder el plazo, el tradeoff se presenta sin maquillarlo.
+
+## 12 Resultados negativos que deben aceptarse
+
+Un B2 que satisface todos los requisitos con igual o menor carga refuta una ventaja EA en ese scope. Ambos brazos que fallan no establecen EA por ser menos malo. Una pérdida visible detectada por comparación de versiones confirma una necesidad de vigencia, pero no demuestra reconocimiento de un fenómeno desconocido.
+
+Una rama con inputs completos idénticos debe concluir límite de observación. Aumentar n puede estrechar incertidumbre condicionada sin cambiar ese límite. Los votos originales y sus counts pueden seguir siendo correctos incluso cuando el consumidor ya no dispone de fundamento para otra inferencia previamente declarada.
+
+Si existe una vía alternativa válida, no corresponde retirar soporte. Si el cambio no es material, no corresponde reabrir la determinación. Si una evidencia contradice Q, corresponde REFUTED; si solo falta, NOT_ESTABLISHED. Una inconsistencia entre dos fuentes admisibles requiere conservar el conflicto, no elegir la que coincide con la expectativa del autor.
+
+## 13 Matriz de requisitos seleccionados
+
+| Requisito canónico | Obligación concreta en este estudio | Control | Techo de evidencia |
+|---|---|---|---|
+| S3 y S10 | Detectar cambio material dentro de frontera declarada; explicar qué queda vigente | Cambio de epoch, pérdida de vínculo, positivo benigno | Selección de especificación |
+| S5 | Separar insuficiencia, conflicto y contradicción sin convertir duda en permiso | Evidencia ausente y fuentes contradictorias | Postura informativa |
+| S9 y S11 | Conservar source, scope y dependencia; no contar copias como corroboración | Sujeto incorrecto, referencia distinta, duplicados | Integridad de composición |
+| S14 | Justificar qué evidencia respalda qué determinación en cada instante | Cadena t0/t1/t2 y oráculo aislado | Suficiencia relativa a Q |
+| T1 | Nombrar cambios distinguibles y límite de observación | Twins completos idénticos | Sin detección universal |
+| T2 | Devolver estado, alcance afectado, fuente y dueño | Unaffected control y recuperación alternativa | No actuation |
+| T3 | Definir autoridad y respuesta nula; no asumir envío/bloqueo | Ninguna acción en el preflight | Contrato, no efecto operacional |
+| T4 | Medir latencia, margen, trabajo y coste de reentrada | Recertificación y agotamiento prospectivo | Viabilidad por registrar |
+
+[S1–S14 y T1–T4 canónicos](https://github.com/dakleyer/structural-awareness-contributions/blob/fc90cdc78e8c593ddb848f988962e27b00f00c93/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). No se crea una taxonomía alternativa. El perfil selecciona obligaciones de la existente y declara sus exclusiones.
+
+## 14 Qué añade la revisión frente al material anterior
+
+| Material anterior | Hallazgo preservado | Tratamiento actual |
+|---|---|---|
+| Frame-Watch y Q-bind | Un shuffle conocido por ronda es calculable; no C automático | No reciclar como drift desconocido |
+| v0.4 casebook | Oracle débil, pistas, repetición de preguntas | Mantener histórico; casos nuevos aislados |
+| v0.5 corregido | Perfil de input, siete sesiones prospectivas, ocho regresiones de tooling | Salvaguardas de método, no resultados |
+| UC17-08 ausencia→permit | Control semántico legítimo pero pregunta distinta al objetivo temporal | Control auxiliar fuera del cambio principal |
+| P0–P3 corregido | Pérdida/restauración de asociación receptora aún pertinente | Base próxima, exigir vínculo material y mundos distintos |
+| Check técnico de indistinguibilidad | Reasignaba un campo al valor que ya tenía | Sustituir en preflight nuevo por verdades ocultas diferentes |
+| ZIP de otra sesión | Hashes atribuibles, originales no abiertos aquí | Ledger de custodia, no reproducción binaria |
+| Orientación del primer turno | Priorizaba mapeo UC17-08 | La aclaración directa del usuario fija el objetivo vigente |
+
+El nuevo paquete preserva toda esa historia. Sus fuentes se copian bajo source-snapshots con pins, y no sustituye el protocolo existente en GitHub. La prioridad now es un cambio de contexto sobre la misma inferencia temporal, según la aclaración del usuario.
+
+## 15 Referencias y posición frente al estado del arte
+
+La revisión encuentra precedentes fuertes de mantenimiento de hipótesis, monitoring bajo información parcial y assurance en runtime. Por ello, el trabajo debe comparar composición y costes, no presentar la retirada de soporte como una capacidad inédita.
+
+Los detectores de shift estadístico ayudan cuando cambia una distribución que observan, pero no garantizan identificar un cambio en una propiedad no representada. Los trabajos sobre adversarios de drift muestran límites de métricas y ventanas concretas; no prueban una imposibilidad para todos los canales. BBSE obtiene resultados bajo supuestos específicos, que no deben importarse al caso de jueces correlacionados sin verificar.
+
+Los monitores simbólicos con incertidumbre y supuestos, ATMS y Assurance 2.0 constituyen competidores metodológicos especialmente relevantes. PROV ofrece relaciones de derivación, identidad e invalidación; RATS trata vigencia de evidence/result y la carrera entre evaluación y cambio. Su existencia impide alegar que solo EA puede conservar contexto.
+
+[Referencias anotadas y nivel de consulta](REFERENCIAS_2026-10-13.md). Las conexiones científicas de este informe son inferencias de diseño, no endorsement de esos autores ni reproducciones de sus sistemas.
+
+## 16 Resultado del preflight local
+
+Se ejecutó code/preflight.mjs con Node.js 24.19.0. Contiene una reproducción ilustrativa de la regla leave-one-out sobre una matriz authored, un B2 de joins convencionales y un modelo finito de requisitos por filtrado de mundos compatibles. Ninguno es el runner oficial o una implementación EA.
+
+Resultados:
+
+- 20 controles nombrados y su estado esperado comprobados.
+- B2 y modelo de requisitos coinciden en estado e identificabilidad en los 20.
+- Counts/flags del proxy nativo son idénticos entre los controles que conservan votos.
+- Secuencia t0 SUPPORTED, t1 NOT_ESTABLISHED, t2 SUPPORTED con votos iguales.
+- 64 pares de mundos con verdades ocultas distintas tienen el mismo packet completo visible.
+- Ambos qualificadores mantienen NOT_ESTABLISHED en los pares sin fuente suficiente.
+- El control de una decisión no afectada continúa SUPPORTED.
+
+Los controles son construcción finita de instrumento, no 84 participantes ni 128 observaciones nativas. Su función es detectar errores de contrato antes de diseñar un ensayo ciego. El empate confirma que el ejemplo básico no justifica diferencial EA.
+
+[Resultados completos](preflight/RESULTS_2026-10-13.json) y [matriz CSV](preflight/CONTROL_MATRIX_2026-10-13.csv). La matriz incluye hashes de inputs/votos para comprobar igualdad exacta, no solo coincidencia de porcentajes.
+
+## 17 Autocrítica del preflight
+
+El trust de las fuentes, epochs y significado de los witnesses es estipulado por el fixture. Se comprueba integridad de bytes con SHA-256, no firmas, factualidad ni autorización real. El modelo de requisitos conoce un universo finito diseñado por el autor; no descubre variables ocultas en texto libre.
+
+B2 y referencia se escribieron en la misma sesión y usan el mismo contrato público. Su discrepancia habría detectado un bug; su acuerdo no es adjudicación independiente. El valor es una evidencia negativa explícita contra un triunfo EA fácil.
+
+El control de epoch es conocido por adelantado y convencionalmente resoluble. No demuestra una transición a C. El retiro de witness tiene sentido científico solo si se prueba que era material y que no existe otra evidencia legítima suficiente. La implementación de ejemplo deja conservar soporte por otra fuente válida.
+
+Las verdades escondidas de los 64 twins son variables del mundo evaluator-only. No se introducen en los candidate packets. Este diseño arregla el defecto lógico de la igualdad antigua, pero sigue sin ser un test humano/modelo ciego ni un fenómeno observado en el runtime externo de Flores.
+
+## 18 Métricas para las dos campañas
+
+Registrar por evento: pregunta y sujeto, actual reference, tiempo efectivo, tiempo de observación, cambio bruto de fuente, inputs disponibles, estado de conocimiento, output nativo, postura del candidato, dependencias afectadas, continuidad no afectada, recuperación y toda la carga.
+
+Medir false continuation cuando se sostiene una inferencia que el oráculo admitido deja no establecida; false hold cuando una continuidad legítima o alternativa suficiente se detiene. Medir alcance: no afecta lo mismo una relación retirada que todas las comunicaciones o todo un ecosistema.
+
+El delay tiene tres instantes: evento real, llegada observable y cambio de postura. La demora de la fuente no se atribuye al algoritmo como si lo hubiera visto. Durante esa demora el estado puede ser no establecido según una política de frescura previamente admitida; se reporta qué se podía saber en cada instante.
+
+Los rates tendrán denominadores separados por tipo de mundo y unidad. No se mezclan paquetes replay, contraejemplos matemáticos, regresiones de instrumento, eventos de fuentes ni decisiones de participantes. Para intervalos y potencia de una campaña con participantes, el reviewer debe declarar unidades dependientes y modelo antes de elegir tamaño.
+
+## 19 Protocolo de ceguera y custodia
+
+El investigador del mundo fija intervención, verdad, tiempos y versiones sin proporcionar labels de éxito al candidato. El runner entrega solo facts elegibles; conserva la misma interfaz y budget para B2 y EA. El adjudicador valida el contrato y los positivos antes de puntuar outputs.
+
+El actual paquete público de calibración revela expectativas; no puede utilizarse luego como lote ciego. Un lote nuevo requerirá casos reservados y sujetos nuevos, con commitments anteriores al run. Los nombres K00–K19 deben desaparecer de los candidate packets.
+
+Conservar cuatro superficies: evidencia source-native, candidate inputs/queries, outputs de cada arm y oracle/criterios. Los digests permiten identidad de contenido; no prueban ciencia ni eliminación de toda manipulación. Los originales históricos privados conservan su clasificación y no se publican para resolver un hueco de custodia.
+
+## 20 Presupuesto y viabilidad
+
+El ensayo mínimo no necesita nuevos modelos ni cientos de participantes. La preparación pendiente consiste en acordar una relación material nativa, una fuente de contexto y un reviewer, fijar B2/EA y ejecutar una secuencia corta con positivos y negativos.
+
+No se fijan como hechos horas/costes que nadie ha medido. Como estimación de planificación propia, reservar 24–48 horas de trabajo técnico/editorial para adaptar el wrapper y revisar el contrato, más 8–16 horas de adjudicación/peer review y 4–8 horas de ejecución/custodia del piloto. Son rangos propuestos, no acuerdos ni facturación, y pueden cambiar al conocer el testbed.
+
+La primera ejecución puede usar un único evento de pérdida, una restauración y controles pareados. Si el tipo de evento es de poca relevancia científica o convencionalmente resuelto sin diferencial, la rama se cierra y se documenta. No se amplía el benchmark para producir una victoria.
+
+## 21 Qué falta para una aceptación científica
+
+Elegir una instancia nativa y fuente verificable para la condición material; resolver permiso de uso y lugar de la extensión; especificar el objetivo temporal exacto y su baseline identificado; adjudicar contraejemplos y continuidad; fijar modelo fuerte B2 y candidato EA; congelar input, oráculo, recursos y stopping rule; ejecutar y preservar resultados.
+
+El preflight aporta una base consistente y falsadores, pero no cubre ninguna de esas decisiones externas por sí solo. Tampoco otorga independencia a un reviewer por usar otro script. La condición determinante es separación de intereses, fuentes, criterios y acceso.
+
+[Run Card y protocolo detallado](PROTOCOLO_2026-10-13.md) identifica esos campos y la secuencia concreta. Los estados pendientes son parte del contrato que permitirá revisar el diseño, no razones para seguir produciendo documentación sin llegar a una decisión.
+
+## 22 Entrega de valor a Flores
+
+El trabajo puede aportar una extensión temporal sobre un qualifier necesario para reutilizar el resultado: qué evidencia de vigencia debe acompañarlo, qué no observa el detector y qué feedback de insuficiencia puede devolverse sin dirigir su medición.
+
+Flores conserva población, taxonomy, rates, seeds, criterios y authorship. El receptor conserva responsabilidad por su pregunta y acción. La extensión no pide jueces introspectivos nuevos ni manda propósito/resultado deseado/budget hacia el productor. Un resultado de equivalencia con B2 reduce carga y puede ser más útil que un nuevo layer EA.
+
+[Brief técnico inglés](BRIEF_EN_2026-10-13.md) está preparado para revisión interna. No se ha enviado ni publicado y no representa una invitación acordada ni una coautoría.
+
+## 23 Conclusión de investigación preparada
+
+Existe una ruta concreta para estudiar el objetivo expresado: caracterizar t0, retirar una relación material en t1, conservar los votos, verificar si la interpretación se recalifica y contrastar recuperación. La prueba rigurosa debe decir cuándo demuestra identificabilidad, cuándo solo demuestra retirada de una justificación y cuándo no hay canal para conocer el cambio.
+
+El paso inmediato recomendado es seleccionar con el dueño del experimento esa relación y congelar las dos campañas pequeñas. La ciencia puede terminar con un límite informativo o una solución convencional suficiente; ambos resultados mejoran el trabajo. El paquete está listo para revisar esa elección con su aparato formal, fuentes, ejemplos, costes y controles.
+

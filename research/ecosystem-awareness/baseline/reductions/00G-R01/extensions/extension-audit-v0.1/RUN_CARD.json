@@ -1,0 +1,33 @@
+{
+  "schema": "DDS-EXTENSION-AUDIT-SUCCESSOR-0.1",
+  "version": "0.3",
+  "registered_at_utc": "2026-10-07T15:30:53.010079+00:00",
+  "source_head": "f0edbbb840585b1991874c54aa8c8118c7210f5c",
+  "canonical_method_index": "../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "stage": "A",
+  "coverage": "Simplified",
+  "runtime": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "pydantic": "2.13.5",
+    "cryptography": "50.0.1"
+  },
+  "cohorts": {
+    "first_nine": {
+      "named_operations": 122,
+      "separate_original_fault_controls": 18
+    },
+    "second_four": {
+      "named_cases": 40,
+      "separate_original_fault_controls": 8
+    },
+    "repair_controls": "REPAIR_CONTROLS.json; never pooled with technology performance"
+  },
+  "acceptance": "All original registered named-case outcomes and Type diagnostic counts preserved under the repaired successor; all preregistered known-defect repair controls and positives pass. Candidate/source/evaluator roles stay separate. Original frozen source/results remain unchanged.",
+  "cost_convention": "Original selected primitive/API/policy-entry units; HEW primary model-work tariff retained. G minima remain finite and same-information only. Shape predicates within existing policy entries; no money/global optimum or native product claims.",
+  "source_seal_limits": "Original nine hash their selected cost ledger, not all participant outputs. Four repaired profiles additionally hash the response and the committed local SQLite file before grading; no concurrent/WAL/hostile-code isolation is claimed.",
+  "independent_native_population_validation": false,
+  "commercial_scope_changed": false,
+  "preparation_amendment": "Attempt01 stopped before nine-study metering because a pinned documentary source_snapshot dependency had not been copied. Original four profiles passed; source/expected outcomes unchanged. Missing exact-byte dependency restored; fresh composite replay follows.",
+  "final_amendment": "Known additional oracle omissions RAG empty evidence and SQL denied grant get separate controls before final replay;02 results preserved; original cohorts/units unchanged."
+}

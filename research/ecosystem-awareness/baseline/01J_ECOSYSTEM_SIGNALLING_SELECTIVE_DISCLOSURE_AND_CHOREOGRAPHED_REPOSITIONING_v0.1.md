@@ -60,12 +60,12 @@ The following can travel together in one bounded handoff, but they are not one o
 
 ### 3.1 Epistemic projection
 
-A decision-scoped projection may include any material part of the [canonical four-component qualified position](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position):
+A decision-scoped projection may include any material part of the [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical):
 
-- **A — situated scope / qualified assertion:** what is being asserted or represented, from which location/frame, for which subject/decision and under which provenance/calibration/freshness qualifiers;
-- **B — confidence / intensity:** how strongly the disclosed A assertion or direction is supported under the stated qualifiers;
-- **C — recognized capability frontier:** what additional state could be determined with current capability but has not yet been established;
-- **D — structural / residual unknown:** what remains outside that represented/recognized-obtainable capability boundary, including receiver-side compatibility residual where applicable;
+- **A — functional result:** what the declared producer process actually delivers, with location/frame, subject, time and provenance;
+- **B — established basis and characterized reserve:** support, validity limits and the known assessable remainder; this can include defensible confidence and cost estimates when they qualify a different A;
+- **C — exploration frontier:** grounded avenues whose evaluation basis is not yet characterized; known assessable options left unused remain B;
+- **D — residual beyond effective evaluation:** potentially material effects beyond the process's effective routes in its declared frame; receiver-side translation residual is D only when that boundary is established;
 - current EA operating posture where material;
 - revalidation conditions.
 
@@ -73,7 +73,7 @@ This is one qualified position, not four independent content buckets.
 
 A participant MAY disclose any subset of A/B/C/D, including only A. An omitted component remains **UNKNOWN / NOT DECLARED** to the receiver. Omission MUST NOT be interpreted as zero uncertainty, zero residual, complete confidence or epistemic completeness.
 
-This allows low-capability, legacy or specialised devices to participate without implementing the complete EA representation. For example, a telemetry device may emit only a situated reading A. A verified compatibility profile may allow the receiver to add a qualified B and/or C based on known device semantics/capability; D remains where the capability boundary or translation leaves residual unknown.
+This allows low-capability, legacy or specialised devices to participate without implementing the complete EA representation. For example, a telemetry device may emit only a situated reading A. A verified compatibility profile may allow the receiver to add qualified B for known device semantics and assessable reserve, or C only for a grounded uncharacterized exploratory avenue; D remains where the capability boundary or translation leaves residual unknown.
 
 The receiver may therefore maintain a richer local epistemic position for the contact than the sender explicitly transmits. Receiver-added qualification remains receiver-local and MUST NOT be rewritten as a sender claim.
 
@@ -248,6 +248,30 @@ Transport success alone never triggers a semantic update.
 
 Qualified `ReceivedSignals_i` may be included in the input bundle to [Regime Awareness 01C](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md). Regime Awareness remains free to consume additional qualified sources and may return a material `Δ_RA`; such an RA result can itself later be selectively disclosed as another bounded ecosystem signal.
 
+
+### 5.2 Human / systemic alert profile and mid-cycle escalation
+
+A **Human / Systemic Alert** may be carried as a bounded signalling profile when a material condition is raised by a human, an automated system, a qualified Regime Awareness output, or a condition discovered while Repositioning is already active.
+
+This is **not a fifth primitive signal class**. It is a routing/profile use of the existing epistemic, MSCA, ACC and authority projections plus the [EHD general handoff](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).
+
+The sender-side trigger may originate from:
+
+- a human objection or anomaly report;
+- an agent/system alert;
+- a material `Δ_RA` / regime-change warning or requalification request;
+- effective-role drift, unresolved ACC/authority transition or another material Repositioning condition;
+- an optional [Human Capacity / Human Intelligence Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) result. The reusable [01K-A01 component](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md) may expose a normal process-relative qualified position such as `[A_HC,B_HC,C_HC,D_HC]` for runtime capacity or `[A_HID,B_HID,C_HID,D_HID]` for architecture/debt, plus an optional DDS-compatible cost projection.
+
+The receiving side still performs normal qualification. A_HC/A_HID are producer results, not receiver truth. Their B/C/D qualifiers preserve support, characterized reserve, exploration frontier and residual under the declared HC-HID process. Where material, the receiver may update `Cart_i`, trigger Regime Awareness or local requalification, and then alter the downstream Repositioning surface. Transport success, human authorship, an AVAILABLE state or the word "alert" does not make the payload true or authoritative.
+
+A human may be a receiver where an applicable ACC, policy or signalling profile routes that class of signal to a human/role. A deployment may implement that relationship as subscription, notification, queue membership or another delivery mechanism. Such routing does not make the human a central interrupt for Ecosystem Awareness or Repositioning, and receipt does not establish that the human has sufficient review capacity.
+
+Signalling is also available **during** Repositioning. A mid-cycle alert can be consumed, qualified and reflected into Cartography/RA before the participant continues. Conversely, Repositioning may emit `RepositionIntent`, an escalation request or another bounded signal and then remain HOLD / UNRESOLVED while a legitimate ACC successor, authority decision or required evidence is pending.
+
+The [01K Human Intelligence extension](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) may be consulted before a specifically human-directed trigger so that a system does not equate "named human" with "usable human intelligence capacity". That calculation remains extension-owned; 01J owns only the bounded signalling semantics.
+
+
 ## 6. Signalling and the downstream agentic gradient
 
 The purpose of signalling is not only incident defence. It can alter the receiver's epistemic state, Ecosystem Cartography and downstream opportunity surface.
@@ -352,7 +376,7 @@ Compatibility may operate downward toward legacy or lower-capability devices and
 
 Bounded compatibility is not semantic equivalence.
 
-When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, the receiver MUST preserve the uncertainty introduced by that mapping. For the receiver's local epistemic position of the contact, this creates a **compatibility residual in D**: a structural UNKNOWN associated with what may have been lost, collapsed, omitted or differently encoded by the compatibility mapping.
+When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, it MUST preserve any uncertainty or semantic loss introduced by that mapping. Its A/B/C/D role is established relative to the receiving process, question, scope, capability and response horizon. A characterized verification reserve remains B, a grounded but uncharacterized exploration avenue may be C, and a potentially material effect belongs to D only when an effective evaluation barrier is established. If the scope or capability boundary is not yet established, retain UNKNOWN / NOT ESTABLISHED rather than assigning D by default.
 
 This compatibility residual is receiver-local. It is not a claim that the sender declared D, and it does not modify the sender's original message. It records that the receiver is relying on an interpretation mediated by its own compatibility mode.
 
@@ -362,7 +386,8 @@ sender signal
 -> handshake / frame coupling
 -> bounded compatibility mapping
 -> receiver-qualified signal
-   + D_compatibility = UNKNOWN
+   + explicit mapping limits / uncertainty
+   + D_compatibility only where an effective evaluation barrier is established
 -> receiver-local contact position
 
 D_compatibility MUST NOT be interpreted as zero merely because communication succeeds. Successful exchange establishes usable coupling for the bounded interaction; it does not establish full semantic equivalence.
@@ -426,9 +451,9 @@ A received payload may therefore be normalized by the receiver as follows:
 | Receiver-local element | Example interpretation |
 |---|---|
 | **A — situated assertion / represented state** | `T = 21.4 °C @ 10:15:05` at this identified device/location, under this profile/calibration and timestamp, is the bounded assertion represented by the receiver. A states **what/where/from which frame** is being represented; it is not an unscoped claim about the whole room or environment. |
-| **B — confidence / intensity** | If identity, checksum and profile binding are valid, **protocol/mapping confidence may be 1.0** because the decoding rule is deterministic. Physical measurement confidence remains separately bounded by sensor tolerance, calibration state and representativeness. A known calibration concern or stale profile lowers B without changing what A says. |
-| **C — recognized current-capability frontier** | The profile can identify information obtainable with current device/system capability but not currently acquired, for example the diagnostic/status register, raw sensor channel, or a supported higher-frequency sample mode. C is therefore known from capability metadata even though the current telemetry message does not contain it. If the verified profile establishes that no additional state is obtainable under the current capability boundary, C may be explicitly represented as empty **within that bounded profile**, without implying that D is empty. |
-| **D — structural residual** | Conditions outside the device/profile capability boundary remain residual: humidity, occupancy, other rooms, unmodelled environmental effects, hidden dependencies and any decision-relevant state not covered by the verified sensing model. A separate `D_compatibility` is added if the receiver's mapping from this device/protocol remains approximate or incomplete. |
+| **B — established basis and characterized reserve** | Deterministic decoding under verified identity, checksum and profile binding is an established property of that mapping, not certainty about physical measurement. Sensor tolerance, calibration, freshness and representativeness qualify the reading. A known diagnostic register, raw channel or sampling mode with an established evaluation basis belongs to B even when unqueried; retain defensible effort estimates where available. |
+| **C — exploration frontier** | A grounded avenue to investigate an unfamiliar environmental relation can be C when its evaluation basis is not yet characterized. The existence of an unused register does not establish C. If no such avenue is declared, record that absence of declaration; do not infer that the open exploration frontier or D is empty. |
+| **D — residual beyond effective evaluation** | A potentially material external effect remains D for the device/process where no effective evaluation route exists. Humidity, occupancy, other rooms or hidden dependencies are not intrinsically D: their role depends on available evaluation and exploration routes. Receiver-side `D_compatibility` requires an established evaluation barrier; missing mapping information alone remains UNKNOWN. |
 
 The important distinction is:
 
@@ -491,7 +516,7 @@ The receiver SHOULD record at least:
 - structural residual;
 - expiry/revalidation trigger.
 
-A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, the mapping residual remains in D and the signal may be restricted to observation, corroboration or requalification rather than direct control use.
+A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, preserve the unresolved mapping condition and restrict use to what the receiving decision can justify. Assign a compatibility residual to D only when the effective evaluation barrier is established; otherwise retain its qualified process-relative role or UNKNOWN. Observation, corroboration or requalification may remain appropriate without assuming that an unverified mapping is intrinsically D.
 
 Compatibility discovery is therefore itself an epistemic process: the system may search for a way to understand a signal, but it must preserve uncertainty about the correctness and completeness of that understanding.
 

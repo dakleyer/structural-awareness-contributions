@@ -1,0 +1,1079 @@
+[
+  {
+    "id": "E01",
+    "name": "Agreement after feasible compensation",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "name": "Immediate joint agreement",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "benefits": [
+            60,
+            40,
+            10,
+            0
+          ]
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "name": "Another payer allocation",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "debit_limits": [
+            10,
+            40,
+            40,
+            0
+          ]
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E04",
+    "name": "Negative total surplus",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "benefits": [
+            60,
+            40,
+            -130,
+            0
+          ]
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E05",
+    "name": "Positive sum does not override rights",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "rights": false
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E06",
+    "name": "Unchanged output is a hard condition",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "complete_service": false
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E07",
+    "name": "Silent participant is not consent",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "participation": [
+            "yes",
+            "yes",
+            "silent",
+            "yes"
+          ]
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E08",
+    "name": "Uncharacterized estimate",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {
+          "benefits": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "E09",
+    "name": "Indistinguishable safe world",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "E10",
+    "name": "Indistinguishable costly world",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "benefits": [
+            60,
+            40,
+            -130,
+            0
+          ]
+        },
+        "visible_override": {
+          "benefits": [
+            60,
+            40,
+            -30,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "E11",
+    "name": "Pessimistic estimate misses a real opportunity",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {
+          "benefits": [
+            60,
+            40,
+            -130,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "E12",
+    "name": "Duplicate instruction cannot create a second gain",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      },
+      {
+        "tick": 1,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "T01",
+    "name": "Unchanged basis across a queue delay",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "plan",
+        "actual_change": {},
+        "visible_override": {}
+      },
+      {
+        "tick": 2,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "name": "Expiry between agreement and effect",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "plan",
+        "actual_change": {
+          "grant": {
+            "expires_at": 1
+          }
+        },
+        "visible_override": {}
+      },
+      {
+        "tick": 2,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "name": "Superseding repair with a still valid token",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "plan",
+        "actual_change": {},
+        "visible_override": {}
+      },
+      {
+        "tick": 2,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "version": "v2",
+          "purpose_active": false,
+          "freeze": true,
+          "benefits": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "name": "Legitimate renewal after scope change",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "plan",
+        "actual_change": {},
+        "visible_override": {}
+      },
+      {
+        "tick": 2,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "version": "v2"
+        },
+        "visible_override": {}
+      },
+      {
+        "tick": 3,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "approved_version": "v2"
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "name": "Continuity through stable changed and novel jobs",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      },
+      {
+        "tick": 1,
+        "job": "B",
+        "phase": "attempt",
+        "actual_change": {
+          "version": "v2"
+        },
+        "visible_override": {}
+      },
+      {
+        "tick": 2,
+        "job": "B",
+        "phase": "attempt",
+        "actual_change": {
+          "approved_version": "v2"
+        },
+        "visible_override": {}
+      },
+      {
+        "tick": 3,
+        "job": "C",
+        "phase": "attempt",
+        "actual_change": {
+          "version": "v3",
+          "approved_version": "v3"
+        },
+        "visible_override": {}
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "name": "Finite inquiry without manufactured explanation",
+    "initial_state": {
+      "version": "v1",
+      "approved_version": "v1",
+      "benefits": [
+        60,
+        40,
+        -30,
+        0
+      ],
+      "transition_costs": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "debit_limits": [
+        40,
+        40,
+        40,
+        0
+      ],
+      "participation": [
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "purpose_active": true,
+      "freeze": false,
+      "rights": true,
+      "complete_service": true,
+      "unexplained_block": false,
+      "grant": {
+        "active": true,
+        "expires_at": 99,
+        "scope": "company-improvement"
+      }
+    },
+    "steps": [
+      {
+        "tick": 0,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {
+          "unexplained_block": true
+        },
+        "visible_override": {}
+      },
+      {
+        "tick": 1,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      },
+      {
+        "tick": 2,
+        "job": "job-A",
+        "phase": "attempt",
+        "actual_change": {},
+        "visible_override": {}
+      }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "schema": "r01-hf-extensionality-audit-v0.1",
+  "date": "2026-10-02",
+  "source_commit": "114ac132bc2be4e7008001fe505bf5bd4c36c515",
+  "base_document_blob_sha": "3261a625975e303e12c484bc9c273d7f8819b099",
+  "baseline_configuration_groups": 15,
+  "additional_result_groups": 3,
+  "rows": [
+    {
+      "group": "Task: L, obligation, principal, result, T · §2.1",
+      "bounded_coverage": "Lengths 2, 3 and 4; fixed task and complete routes in the graph.",
+      "remaining_obligation": "Individual mandate record; functional unit for L; verifiable deadline and delivery. Do not assume a legitimate solution in every historical task.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Population: N, unit and allocation · §§2.5, 2.12",
+      "bounded_coverage": "N=1,2,4 in a separate query-allocation module; cost and rounds distinguished.",
+      "remaining_obligation": "Decision-making population, unequal capability, network, arrivals and departures, schedule and resources per receiver. This module does not execute agents.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Input profiles and world selection · §§2.3, 2.13",
+      "bounded_coverage": "Four fixed mean profiles; deterministic grid, without world rejection.",
+      "remaining_obligation": "Probabilistic generative family, normalization and comparable selection; not calibrated with HF data.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Realized attractiveness of I and P · §2.1",
+      "bounded_coverage": "Verdicts and J of all routes; exact optimum including mixtures.",
+      "remaining_obligation": "Distinguish agent expectation, evaluator score and legitimate quality. Do not attribute synthetic values 1–4 to the incident.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Heterogeneity, σ and correlations · §2.3",
+      "bounded_coverage": "Preserved mean, centered deviations and half-range σ; σ=0 or 1/4.",
+      "remaining_obligation": "Random distribution, more general correlations and causal effect on choice. SC-Ha and monotonicity are not proved.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Geometry, D, τ, sides and connections · §2.4",
+      "bounded_coverage": "Synthetic coordinates; τ=0 or 1/2, positive/negative alignment with benefits; explicit connectors.",
+      "remaining_obligation": "Historical functional geometry, both sides and displacement of current position. D is fixed per chain, not swept as an independent parameter.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Creativity: R_e, effort and sampling · §2.4",
+      "bounded_coverage": "The radius filter from a fixed origin is preserved for each route.",
+      "remaining_obligation": "Costly search policy, sequential discovery, memory and radius from changing positions. The auditor's complete map is not attributed to the agent.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Composition, witnesses and positives · §2.9",
+      "bounded_coverage": "Conjunction and algebraic parity control, separately; connector conditions; valid routes.",
+      "remaining_obligation": "Identifiable historical predicate. Parity is not real permission semantics. The query block uses one uniform witness and is not confused with the entire graph grid.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Review: k_a, k_d, order, exit and reuse · §2.8",
+      "bounded_coverage": "Clipped windows with unique coverage; exact early-exit cost under a uniform witness; adaptive queries in the submodel.",
+      "remaining_obligation": "Complete historical review policy and its relation to selection, waiting, rejection and budget. Windows are not integrated into a social campaign.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Costs: c_e, c_v, ρ and other charges · §2.11",
+      "bounded_coverage": "Cost identities of explicit strategies; allocation module with c_e=2, c_v=1 and accounted communication.",
+      "remaining_obligation": "Unit calibration; complete exploration, discard, execution and maintenance ledger. Formulas are not universal bounds.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Resources: R, T, v, beta and transfers · §2.12",
+      "bounded_coverage": "Residual query budget; global budget versus per-agent budget; query rounds.",
+      "remaining_obligation": "v/beta allocation, execution reserve, full latency, expiry and transfer policy. The complete scheduler is not simulated.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Network: topology, s, latency, w_s and dependency · §2.10",
+      "bounded_coverage": "Copies of the same root add no coverage.",
+      "remaining_obligation": "Emission and reception dynamics, causal influence, comparable degree, congestion and individual sequence. Counting copies does not model w_s.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Policy: selection, tie-breaking, waiting and recovery · §2.15",
+      "bounded_coverage": "All adaptive policies of the small query contract through dynamic programming.",
+      "remaining_obligation": "Complete CV-C1/CV-A1/CV-A2/CV-EA; abstention, return connectors and post-effect recovery. The submodel is not the entire R01 family.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Volume: Q, coverage, deduplication · §2.11",
+      "bounded_coverage": "Unique coverage and relays; charges of enumerated strategies.",
+      "remaining_obligation": "Emergent Q from search and selection, reviewed-proposal rate r_inv and their coupling. Q is not equated with N.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Variation: seeds, static and changes · §§2.13–2.14",
+      "bounded_coverage": "Deterministic static grid; two identifier permutations; rejection of inapplicable version.",
+      "remaining_obligation": "Held-out worlds, agent random streams and temporal campaign. Checking an incorrect version measures neither expiry nor SC-He.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "Metrics: q,C,t,a,f,K,e,ε and reliability · §1.4",
+      "bounded_coverage": "Exact Adm/J and exact submodel probabilities; bounded-module costs.",
+      "remaining_obligation": "Complete per-campaign vector, censoring, uncertainty, Pareto and statistical comparison. No empirical effectiveness map exists.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "SC-H and SC-Ha–SC-He · §§1.2, 2.18",
+      "bounded_coverage": "Their premises are audited and controls that may resolve the case are preserved.",
+      "remaining_obligation": "Their own execution and inference. They are not theorems established by the base scenario.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    },
+    {
+      "group": "EA example: S,H₀,h_a,h_m · §4.4",
+      "bounded_coverage": "Only its accounting role is reviewed; EA is not executed.",
+      "remaining_obligation": "Costs of preparing, applying and maintaining evidence; comparison with conventional certificates and cache. No observed saving is attributed to EA here.",
+      "full_historical_preservation": "NOT_ESTABLISHED"
+    }
+  ],
+  "global_verdict": "PARTIAL_SYNTHETIC_TRANSPORT_ONLY",
+  "historical_hf_admission": "NOT_ESTABLISHED",
+  "EA_differential": "NOT_TESTED",
+  "historical_agent_runs": 0,
+  "LLM_calls": 0,
+  "new_historical_C3_verdicts": 0,
+  "independent_review": false,
+  "scope_note": "This is a manually grounded audit register, not a machine certification of the historical incident."
+}

@@ -1,0 +1,30 @@
+{
+  "agents": 12,
+  "rounds": 14,
+  "start": 20,
+  "step": 5,
+  "deadline": 100,
+  "original_work_units": 6,
+  "neighbors": [1, 2, 4],
+  "seeds": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23],
+  "profiles": [
+    {"id": "low_cost_low_influence", "review_cost": 1, "social_gain": 0.8},
+    {"id": "high_cost_low_influence", "review_cost": 3, "social_gain": 0.8},
+    {"id": "low_cost_high_influence", "review_cost": 1, "social_gain": 1.6},
+    {"id": "high_cost_high_influence", "review_cost": 3, "social_gain": 1.6}
+  ],
+  "conditions": [
+    {"id": "R1", "control": false, "revision": false, "scope": "none"},
+    {"id": "R2", "control": true, "revision": false, "scope": "none"},
+    {"id": "R2_LEGITIMATE", "control": true, "revision": false, "scope": "all"},
+    {"id": "R3", "control": true, "revision": true, "scope": "two"},
+    {"id": "R3_NO_RELAY", "control": true, "revision": true, "scope": "two", "relay": false},
+    {"id": "R3_NO_SOCIAL_WEIGHT", "control": true, "revision": true, "scope": "two", "gain_override": 0},
+    {"id": "R3_CHEAP_REVIEW", "control": true, "revision": true, "scope": "two", "cost_override": 0},
+    {"id": "R3_FRESH", "control": true, "revision": true, "scope": "two", "fresh": true},
+    {"id": "R3_HARD", "control": true, "revision": true, "scope": "two", "hard": true},
+    {"id": "R3_LEGITIMATE", "control": true, "revision": true, "scope": "all"}
+  ],
+  "budget": {"queries_per_agent": 1, "preparation_steps_per_agent": 3, "messages_per_agent": 4, "transmissions_per_network": 147},
+  "selection": "First R3 episode in profile/seed order with >=3 witnesses, >=3 excess witnesses over its NO_RELAY pair, >=2 witnesses relying on endogenous messages, and a witnessed basis with >=2 distinct endogenous senders on a parent chain. Otherwise report no cascade witness."
+}

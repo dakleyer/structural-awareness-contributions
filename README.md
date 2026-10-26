@@ -1,5 +1,13 @@
 # Structural Awareness Programme
 
+## Mathematical and functional plausibility — current reading route
+
+Read [**00M v0.8 — A/B/C/D semantics and mathematical plausibility**](./research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) first, then [**00N v0.7 — Can Ecosystem Awareness Work?**](./research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The first note defines the canonical A/B/C/D semantics for this corpus and examines four mathematical tasks; the second connects the mechanism to the existing requirements through conditional scientific plausibility. These are research notes for review, not proofs of engineering feasibility, prevention, compliance or a TRL award. Publication does not silently amend a frozen requirement or replace an older controlled source.
+
+[**Three visual reading aids and downloads**](./research/ecosystem-awareness/baseline/visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
+
+These files were developed locally; any retained “local draft” status records that origin, not a restriction on reading this public snapshot. All pre-existing material in this README is preserved. [Publication and preservation record](./research/ecosystem-awareness/baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md).
+
 > **Evidence correction — 26 September 2026:** [A14](./research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) records corrected handoff checks, failure traces, metrics, authority/time boundaries and input validation: 379 existing regressions and 77 separate correction checks pass locally. Shared-logic peers remain instrumentation controls; the A22 semantic bridge and A23 fidelity obligations remain open. [Cumulative article/README record A12](./research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 
 [![Licence: CC BY-SA 4.0](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-lightgrey)](./LICENSE.md)
@@ -16,8 +24,8 @@
 **The main architectural entry point for the Structural Awareness Programme.**
 
 [![Enter Ecosystem Positioning](https://img.shields.io/badge/ENTER-ECOSYSTEM%20POSITIONING-1B4D8E?style=for-the-badge)](./architectural-contributions/ecosystem-positioning/README.md)
-[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx)
-[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)
+[![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx)
+[![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)
 
 **Architecture:** [Ecosystem Positioning](./architectural-contributions/ecosystem-positioning/README.md)  
 **Technical gates:** [Ecosystem Awareness](./research/ecosystem-awareness/README.md) · [Regime Awareness](./research/regime-awareness/README.md) · [MSCA](./standards/minimum-sufficient-control/README.md)
@@ -213,9 +221,9 @@ Ecosystem Positioning is the participant-local situational core. It is supported
 The presentation is the **visual router** for Ecosystem Positioning and the fastest way to enter this architectural contribution.
 
 ### ⬇️ Canonical PowerPoints
-[Requirements & Evidence (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) · [Architecture & Implementation (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)
+[Requirements & Evidence (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) · [Architecture & Implementation (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)
 
-### 📄 [Open the canonical PDF](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
+### 📄 [Open the historical PDF — v1.0](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
 
 [Presentation manifest](./presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) · [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md)
 
@@ -267,7 +275,7 @@ If you arrived here with a particular question:
 | the mathematical/formal work | [ResearchGate](https://www.researchgate.net/profile/Ivan-Abril-Palma-2) |
 | the explanatory theories and Field Notes | [Tegrity.AI Field Notes](https://tegrity.ai/articles/) |
 | the Field Practice / Engineering cases | Phylons, [xSeil](https://jubap.net/xseil-vrp/) and [Mobility Operating System](https://jubap.eu/car-pooling-orchestration/) above |
-| the current architectural contribution | [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md) · [Requirements & Evidence](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) · [Architecture & Implementation](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) |
+| the current architectural contribution | [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md) · [Requirements & Evidence](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) · [Architecture & Implementation](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx) |
 | the Ecosystem Awareness corpus | [Ecosystem Awareness README](./research/ecosystem-awareness/README.md) |
 | the six-principle proof spine | [Foundation→Principles semantics](./research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) · [Foundation syntax closure](./research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) · [Principles↔Requirements traceability](./research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) · [Requirement normal-form closure](./research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) · [P↔S information gain / non-equivalence](./research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) · [Failure→Success case extensibility](./research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) · [Failure case-study extensibility](./research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [Complete 00K Testbook](./research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) · [Corpus-grounded independence](./research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) · [Shared-substrate mathematical independence](./research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) · [Boolean diagnostic minimality](./research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) · [Documentation Map](./research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md) |
 | failure→success case extensibility | [A25 failure-family admission & conformance transfer](./research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [A26 Success Model Cases & three-axis extensibility](./research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) · [EA extensibility index](./research/ecosystem-awareness/README.md#failure--success-case-study-extensibility) · [machine-readable CASE-EXTENSION registry](./research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION/README.md) |
@@ -314,3 +322,9 @@ Repository sitemap, migration rules, controlled README count and editor/bot proc
 
 **Ivan Abril**  
 Research architecture and programme coordination.
+
+---
+
+## Annex — essentials of the article reviews
+
+[**Article Review Essentials**](./research/structural-awareness/ARTICLE_REVIEW_ESSENTIALS_v0.1.md) gives a brief account of the mathematical and other article reviews, with a direct link to each full review. It separates localized findings from further development and points to possible DDS contributions and international research intersections. Full reviews retain their existing access permissions; inclusion here does not promote their evidence or alter the programme's canonical definitions.

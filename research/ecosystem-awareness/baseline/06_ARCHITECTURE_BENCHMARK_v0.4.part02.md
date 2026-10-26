@@ -1,5 +1,7 @@
 &nbsp;
 
+> **A/B/C/D reading reference.** Current definitions are in [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). Earlier four-pole labels in this source/profile are preserved for traceability; they do not define the current B/C boundary. The original requirements, fixtures and recorded results remain unchanged.
+
 APQ benchmark consequence. Acquisition-pathway qualification does not earn differentiation merely by selecting a secure, fast, reputable or low-cost source. The test is whether decision-relative acquisition, under the current scope/open-residual/non-fungibility state, changes the supported decision or preserves a viable response better than a strong conventional selector.
 
 &nbsp;

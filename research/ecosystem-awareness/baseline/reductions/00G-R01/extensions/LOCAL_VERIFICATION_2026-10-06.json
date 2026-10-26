@@ -1,0 +1,61 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "status": "PASS_FIVE_SCOPED_SOURCE_FREEZE_AND_RESULT_CHECKS",
+  "profiles": [
+    {
+      "id": "rag",
+      "cases": 8,
+      "assertions": 16,
+      "outcomes": {
+        "I": 2,
+        "M": 3,
+        "Ø": 2,
+        "P": 1
+      }
+    },
+    {
+      "id": "oauth-oidc",
+      "cases": 11,
+      "assertions": 22,
+      "outcomes": {
+        "I": 2,
+        "Ø": 8,
+        "M": 1
+      }
+    },
+    {
+      "id": "mcp-tool-calling",
+      "cases": 9,
+      "assertions": 18,
+      "outcomes": {
+        "I": 3,
+        "Ø": 6
+      }
+    },
+    {
+      "id": "sql-transactions-idempotency",
+      "cases": 9,
+      "assertions": 18,
+      "outcomes": {
+        "I": 4,
+        "Ø": 4,
+        "P": 1
+      }
+    },
+    {
+      "id": "durable-workflows-retries",
+      "cases": 9,
+      "assertions": 20,
+      "outcomes": {
+        "I": 3,
+        "M": 1,
+        "Ø": 4,
+        "P": 1
+      }
+    }
+  ],
+  "independent_validation": false,
+  "native_product_acceptance": false,
+  "tests_not_rerun_after_success": true
+}

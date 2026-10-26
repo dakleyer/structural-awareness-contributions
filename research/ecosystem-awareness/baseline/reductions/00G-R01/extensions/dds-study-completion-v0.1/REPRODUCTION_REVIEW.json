@@ -1,0 +1,115 @@
+{
+  "schema": "DDS-COMPLETION-REPRODUCTION-0.1",
+  "source_commit": "23d3a720e5fea1d99c74e75db6a063e3ae25ceed",
+  "status": "PASS_FOUR_REGISTERED_SEMANTIC_REPRODUCTIONS",
+  "operator": "same author",
+  "population_or_native_claim": false,
+  "comparison_rule": "Registered outcomes, assertion counts and declared operation/work projection; excludes fresh ephemeral credential digests, elapsed time, environment metadata and scheduler-winner identity. No threshold or source repaired.",
+  "records": [
+    {
+      "id": "hew",
+      "status": "PASS_MODEL_INSTRUMENT_ASSERTIONS",
+      "fresh_output": "runs/reproductions/hew/RESULTS.json",
+      "fresh_sha256": "cbb74df149dfae5928d9358c659fce2b248745afda3d161a0cadd714cfad8000",
+      "original_result_path": "../dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-04/RESULTS.json",
+      "original_result_sha256": "2a63415c388b77b30e2fd884d2d5f48f2bc38237954850f289bd37ce1c56d929",
+      "registered_semantic_projection_identical": true,
+      "projection_basis": [
+        "status",
+        "assertions",
+        "calendar_checks",
+        "operations",
+        "analytical",
+        "cases"
+      ],
+      "source_freeze_verified_by_original_driver": true,
+      "independent_replication": false,
+      "instrument_assertions": 48,
+      "calendar_reference_checks": 42,
+      "operations": 21,
+      "outcomes": {
+        "DELIVERED": 11,
+        "UNRESOLVED_OR_NOT_DELIVERED": 9,
+        "FAIL_VIOLATION": 1
+      }
+    },
+    {
+      "id": "stamp-stpa",
+      "status": "PASS_REGISTERED_FIXTURE_ASSERTIONS",
+      "fresh_output": "runs/reproductions/stamp-stpa/RESULTS.json",
+      "fresh_sha256": "4b715f0be8e28c9615abb53c453ea0627e7a74beb5902e27a37791ff0c31d758",
+      "original_result_path": "../independent-dds-exercises-v0.1/stamp-stpa/runs/2026-10-06-02/RESULTS.json",
+      "original_result_sha256": "20b829f45f85852ea117d80179b36d1af14291be8013146b18ce40afe5c23af5",
+      "registered_semantic_projection_identical": true,
+      "projection_basis": [
+        "status",
+        "assertions",
+        "outcome_counts",
+        "diagnostic_wrong_effects",
+        "cases"
+      ],
+      "source_freeze_verified_by_original_driver": true,
+      "independent_replication": false,
+      "instrument_assertions": 306,
+      "outcomes": {
+        "I": 4,
+        "M": 2,
+        "P": 0,
+        "incomplete": 4
+      },
+      "diagnostic_wrong_effects": 5
+    },
+    {
+      "id": "spiffe-jwt",
+      "status": "PASS_REGISTERED_FIXTURE_ASSERTIONS",
+      "fresh_output": "runs/reproductions/spiffe-jwt/RESULTS.json",
+      "fresh_sha256": "b8853fc29f79d5d770954649f35dce483291024f3a42d36e68dfc785072bb8aa",
+      "original_result_path": "../independent-dds-exercises-v0.1/spiffe-jwt/runs/2026-10-06-01/RESULTS.json",
+      "original_result_sha256": "7727c75ad13e9a4d07edcd46165a0459d9f55cb8af5a9ee0db28a2fac7d044c5",
+      "registered_semantic_projection_identical": true,
+      "projection_basis": [
+        "status",
+        "assertions",
+        "outcome_counts",
+        "diagnostic_wrong_effects",
+        "cases"
+      ],
+      "source_freeze_verified_by_original_driver": true,
+      "independent_replication": false,
+      "instrument_assertions": 75,
+      "outcomes": {
+        "I": 4,
+        "M": 0,
+        "P": 0,
+        "incomplete": 21
+      },
+      "diagnostic_wrong_effects": 5
+    },
+    {
+      "id": "rats-jws",
+      "status": "PASS_REGISTERED_FIXTURE_ASSERTIONS",
+      "fresh_output": "runs/reproductions/rats-jws/RESULTS.json",
+      "fresh_sha256": "c55f9407eeb167a59c280d65fe4c232a3e35177412128f148a4659ba9aa83121",
+      "original_result_path": "../independent-dds-exercises-v0.1/rats-jws/runs/2026-10-06-01/RESULTS.json",
+      "original_result_sha256": "275690ec2332c1d73152452ee3e660ba38ee5716fc310e39cda45f1458547bda",
+      "registered_semantic_projection_identical": true,
+      "projection_basis": [
+        "status",
+        "assertions",
+        "outcome_counts",
+        "diagnostic_wrong_effects",
+        "cases"
+      ],
+      "source_freeze_verified_by_original_driver": true,
+      "independent_replication": false,
+      "instrument_assertions": 60,
+      "outcomes": {
+        "I": 2,
+        "M": 0,
+        "P": 0,
+        "incomplete": 18
+      },
+      "diagnostic_wrong_effects": 2
+    }
+  ]
+}

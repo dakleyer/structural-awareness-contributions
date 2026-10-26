@@ -1,5 +1,7 @@
 > **Preserved predecessor — superseded for current reading by [01J Ecosystem Signalling / Choreographed Repositioning](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md).** Kept for provenance. Do not cite for current signalling or agentic-gradient semantics.
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 # Annex 01J — Ecosystem Signalling: Selective Disclosure, Distributed Opportunity and Choreographed Repositioning
 
 **Status:** additive public working annex, v0.1, 23 September 2026. This document is outside the controlled/frozen v0.4 release baseline and outside the EA core. It does not define a mandatory wire protocol, common ecosystem contract, common MSCA, common trust root, common objective, central gradient service, consensus mechanism, adopted FG-TIDA architecture or ITU-T deliverable.

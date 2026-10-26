@@ -1,5 +1,7 @@
 # Corpus Information Conservation Audit — 23 September 2026
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 > **Purpose:** independently check whether earlier public corpus information was deleted, disconnected, silently compressed or made available only through Git history during the September restructuring and semantic-reconciliation work. This audit is about **information conservation**, not about declaring every earlier formulation current.
 
 ## 1. Audit checkpoints

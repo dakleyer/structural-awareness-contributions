@@ -1,5 +1,7 @@
 > **Preserved predecessor — superseded for current reading by [01C v0.2](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md).** Kept for lineage. Do not cite for current interface semantics.
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 # Annex 01C — Ecosystem Awareness / Regime Awareness architectural relation
 
 **Status:** public working architectural interface annex, v0.1, 15 September 2026. Additive companion to the Ecosystem Awareness (EA) corpus, outside the six controlled/frozen v0.4 release-baseline documents. It is a candidate composition, not an implemented common API, an empirically validated detector, an adopted ITU-T architecture or an institutional endorsement.

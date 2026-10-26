@@ -1,0 +1,18 @@
+{
+  "schema": "dds-stage-a-gate-checker-regression-v0.2",
+  "date": "2026-10-09",
+  "purpose": "Prove that a conditional named-claim dependency cannot silently PASS.",
+  "input_profile_fact": {
+    "identity_representation_frozen_as_evaluator_fact": false
+  },
+  "setup": {
+    "SA_G03": "NOT_ESTABLISHED @ L1",
+    "SA_G04": "PASS @ L3",
+    "required_named_claim": "CLAIM-AUTHORITY-RESOLVED"
+  },
+  "expected": {
+    "gate_SA_G04_effective_status": "PASS",
+    "claim_AUTHORITY_RESOLVED": "CONDITIONAL_ON(SA-G03)",
+    "forbidden": "CLAIM-AUTHORITY-RESOLVED=PASS"
+  }
+}

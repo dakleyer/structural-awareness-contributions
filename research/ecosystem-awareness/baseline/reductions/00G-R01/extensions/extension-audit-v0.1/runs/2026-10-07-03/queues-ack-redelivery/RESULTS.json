@@ -1,0 +1,2567 @@
+{
+  "status": "PASS_REGISTERED_SCOPED_STAGE_A_EXPECTATIONS",
+  "study": "DDS-SERIES2-QUEUES-ACK-REDELIVERY-20261007",
+  "canonical_stage": "A",
+  "cases": 11,
+  "controls": 2,
+  "rows": [
+    {
+      "id": "Q01",
+      "outcome": "I",
+      "response": {
+        "closed": true,
+        "claim": true
+      },
+      "actual": {
+        "effects": 1,
+        "application_receipts": 1,
+        "broker_acked": 1,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 10,
+        "components": {
+          "sqlite.SELECT": 2,
+          "queue.message_qualification": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 2,
+          "queue.channel_ack": 1,
+          "sqlite.UPDATE": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.BEGIN",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "candidate",
+            "primitive": "queue.channel_ack",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "candidate",
+            "primitive": "sqlite.UPDATE",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 23,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 24,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 25,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 26,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 27,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 28,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "c6fc62f4c45ae9099ecca996148690c5de92f58ada386a4a806c2bb64d3432cd",
+      "candidate_trace_sha256_before_adjudication": "c6fc62f4c45ae9099ecca996148690c5de92f58ada386a4a806c2bb64d3432cd",
+      "candidate_response_sha256_before_adjudication": "08d9fd64baad8299c6c8acc4c1b6536c7f5f3ca5d1986ac9b0eac2d0c8f5c8e6",
+      "committed_SQLite_file_sha256_before_adjudication": "4cd4a022548f948cb51392095d5dacf32e649fb65022cb09fc448ccc25eb2f43",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 34747800,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": true,
+        "witness_policies": 2,
+        "minimum_in_frozen_G": 10,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": false,
+      "cost_min_G": 10,
+      "excess": 0
+    },
+    {
+      "id": "Q02",
+      "outcome": "Ø",
+      "response": {
+        "closed": false,
+        "claim": false,
+        "publisher_confirm": true
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 0,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 2,
+        "components": {
+          "sqlite.SELECT": 1,
+          "queue.message_qualification": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "f06ee1f25862a3897cd47ca2150dd3965717f51a2a823e7525d8298a4e5c4e2e",
+      "candidate_trace_sha256_before_adjudication": "f06ee1f25862a3897cd47ca2150dd3965717f51a2a823e7525d8298a4e5c4e2e",
+      "candidate_response_sha256_before_adjudication": "903ffdeab01cbfa3b739a4e9e019f78da23dad3fa84a89bc3eeb3d95c5cfdf64",
+      "committed_SQLite_file_sha256_before_adjudication": "3ec75acff2482862a2aa32ef33cc4918ec2ae1ef5ad50ed1bec948d182cffc91",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 6332900,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": true,
+        "witness_policies": 1,
+        "minimum_in_frozen_G": 11,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": true,
+      "Type2": false,
+      "cost_min_G": 11,
+      "excess": -9
+    },
+    {
+      "id": "Q03",
+      "outcome": "I",
+      "response": {
+        "closed": true,
+        "claim": true
+      },
+      "actual": {
+        "effects": 1,
+        "application_receipts": 1,
+        "broker_acked": 1,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 15,
+        "components": {
+          "sqlite.SELECT": 3,
+          "queue.message_qualification": 1,
+          "sqlite.BEGIN": 2,
+          "sqlite.INSERT": 4,
+          "sqlite.commit": 3,
+          "queue.channel_ack": 1,
+          "sqlite.UPDATE": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.BEGIN",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "candidate",
+            "primitive": "sqlite.BEGIN",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "candidate",
+            "primitive": "queue.channel_ack",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "candidate",
+            "primitive": "sqlite.UPDATE",
+            "units": 1
+          },
+          {
+            "n": 23,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 24,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 25,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 26,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 27,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 28,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 29,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 30,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 31,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 32,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 33,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "e5e67ac55c51f440332c6cb07b791e6ed1bc064b53a449af91c5852cbcab8d65",
+      "candidate_trace_sha256_before_adjudication": "e5e67ac55c51f440332c6cb07b791e6ed1bc064b53a449af91c5852cbcab8d65",
+      "candidate_response_sha256_before_adjudication": "08d9fd64baad8299c6c8acc4c1b6536c7f5f3ca5d1986ac9b0eac2d0c8f5c8e6",
+      "committed_SQLite_file_sha256_before_adjudication": "4cd4a022548f948cb51392095d5dacf32e649fb65022cb09fc448ccc25eb2f43",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 37413100,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": true,
+        "witness_policies": 2,
+        "minimum_in_frozen_G": 15,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": false,
+      "cost_min_G": 15,
+      "excess": 0
+    },
+    {
+      "id": "Q04",
+      "outcome": "P",
+      "response": {
+        "closed": true,
+        "claim": true
+      },
+      "actual": {
+        "effects": 2,
+        "application_receipts": 1,
+        "broker_acked": 1,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 15,
+        "components": {
+          "sqlite.SELECT": 3,
+          "queue.message_qualification": 1,
+          "sqlite.BEGIN": 2,
+          "sqlite.INSERT": 4,
+          "sqlite.commit": 3,
+          "queue.channel_ack": 1,
+          "sqlite.UPDATE": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.BEGIN",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "candidate",
+            "primitive": "sqlite.BEGIN",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "candidate",
+            "primitive": "queue.channel_ack",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "candidate",
+            "primitive": "sqlite.UPDATE",
+            "units": 1
+          },
+          {
+            "n": 23,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 24,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 25,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 26,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 27,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 28,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 29,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 30,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 31,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 32,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 33,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "e5e67ac55c51f440332c6cb07b791e6ed1bc064b53a449af91c5852cbcab8d65",
+      "candidate_trace_sha256_before_adjudication": "e5e67ac55c51f440332c6cb07b791e6ed1bc064b53a449af91c5852cbcab8d65",
+      "candidate_response_sha256_before_adjudication": "08d9fd64baad8299c6c8acc4c1b6536c7f5f3ca5d1986ac9b0eac2d0c8f5c8e6",
+      "committed_SQLite_file_sha256_before_adjudication": "d4a582802a2ee9b83cb6375971d6c526bbe6ae53c775c507d249e0486518be56",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 49166000,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": true,
+        "witness_policies": 1,
+        "minimum_in_frozen_G": 16,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": true,
+      "cost_min_G": 16,
+      "excess": -1
+    },
+    {
+      "id": "Q05",
+      "outcome": "Ø",
+      "response": {
+        "closed": false,
+        "claim": false
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 1,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 4,
+        "components": {
+          "sqlite.SELECT": 1,
+          "queue.message_qualification": 1,
+          "sqlite.UPDATE": 1,
+          "sqlite.commit": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.UPDATE",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "b5af7c88c760b2aa6cb5e831980b7c6e217b8fc62f949b0504323d056e518c84",
+      "candidate_trace_sha256_before_adjudication": "b5af7c88c760b2aa6cb5e831980b7c6e217b8fc62f949b0504323d056e518c84",
+      "candidate_response_sha256_before_adjudication": "975f6e9f62a7b283fb563232195d968f2992386031bc30b4935c184c5cb56d70",
+      "committed_SQLite_file_sha256_before_adjudication": "99a97331a9738df281b289b3f05a93d67193dc698606727d6c4106b5fa7d7e43",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 55042900,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": false,
+        "witness_policies": 0,
+        "minimum_in_frozen_G": null,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": false,
+      "cost_min_G": null,
+      "excess": null
+    },
+    {
+      "id": "Q06",
+      "outcome": "Ø",
+      "response": {
+        "closed": false,
+        "claim": false,
+        "channel_rejected": true
+      },
+      "actual": {
+        "effects": 1,
+        "application_receipts": 1,
+        "broker_acked": 0,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 8,
+        "components": {
+          "sqlite.SELECT": 2,
+          "queue.message_qualification": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 1,
+          "queue.channel_ack": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.BEGIN",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "candidate",
+            "primitive": "queue.channel_ack",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 23,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 24,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 25,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 26,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "8efe7913e00426b0d1bbef0a0d7258f90e237c5e886267b4f0cfdee6bc07c4b3",
+      "candidate_trace_sha256_before_adjudication": "8efe7913e00426b0d1bbef0a0d7258f90e237c5e886267b4f0cfdee6bc07c4b3",
+      "candidate_response_sha256_before_adjudication": "9fb4abdd5b4ac52fbe1c7ff6d87633453928f84d593d6dbef62d39052237d60a",
+      "committed_SQLite_file_sha256_before_adjudication": "1821ce673ed46efd86762675c8dffa01193f2810c94d55495a22caec01276a75",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 15706700,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": true,
+        "witness_policies": 1,
+        "minimum_in_frozen_G": 11,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": true,
+      "Type2": false,
+      "cost_min_G": 11,
+      "excess": -3
+    },
+    {
+      "id": "Q07",
+      "outcome": "M",
+      "response": {
+        "closed": false,
+        "claim": false,
+        "defer": true
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 0,
+        "disposition": 1
+      },
+      "ledger": {
+        "C_selected_units": 4,
+        "components": {
+          "sqlite.SELECT": 1,
+          "queue.message_qualification": 1,
+          "sqlite.INSERT": 1,
+          "sqlite.commit": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "82e60aaa63acc4d66b42e06c22fc1c188913ab85c48b26e12faa17b6aa8894ea",
+      "candidate_trace_sha256_before_adjudication": "82e60aaa63acc4d66b42e06c22fc1c188913ab85c48b26e12faa17b6aa8894ea",
+      "candidate_response_sha256_before_adjudication": "1427d0f7ac7dd8a68777f774a373a8aadf19c7ae7d06bd39aa4be50b25e58842",
+      "committed_SQLite_file_sha256_before_adjudication": "1fbea554d94e8de1e14c9ba70e8c93ebb378271dd01d70868e9e427b47ad8e68",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 14852900,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": true,
+        "witness_policies": 2,
+        "minimum_in_frozen_G": 4,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": false,
+      "cost_min_G": 4,
+      "excess": 0
+    },
+    {
+      "id": "Q08",
+      "outcome": "Ø",
+      "response": {
+        "closed": false,
+        "claim": false
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 0,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 5,
+        "components": {
+          "sqlite.SELECT": 2,
+          "queue.message_qualification": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.rollback": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.BEGIN",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "candidate",
+            "primitive": "sqlite.rollback",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 23,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "f7c3d244c849bc8fc14cbbe05b28ef7ade8d0a64a91aae387c72bde6491579ae",
+      "candidate_trace_sha256_before_adjudication": "f7c3d244c849bc8fc14cbbe05b28ef7ade8d0a64a91aae387c72bde6491579ae",
+      "candidate_response_sha256_before_adjudication": "975f6e9f62a7b283fb563232195d968f2992386031bc30b4935c184c5cb56d70",
+      "committed_SQLite_file_sha256_before_adjudication": "bae9c0b77a56a9c8556a44298a99d1c3216ece02783c2e9dd96bf2dc5a7eb4a7",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 7041400,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": false,
+        "witness_policies": 0,
+        "minimum_in_frozen_G": null,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": false,
+      "cost_min_G": null,
+      "excess": null
+    },
+    {
+      "id": "Q09",
+      "outcome": "Ø",
+      "response": {
+        "closed": false,
+        "claim": false
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 0,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 2,
+        "components": {
+          "sqlite.SELECT": 1,
+          "queue.message_qualification": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "f06ee1f25862a3897cd47ca2150dd3965717f51a2a823e7525d8298a4e5c4e2e",
+      "candidate_trace_sha256_before_adjudication": "f06ee1f25862a3897cd47ca2150dd3965717f51a2a823e7525d8298a4e5c4e2e",
+      "candidate_response_sha256_before_adjudication": "975f6e9f62a7b283fb563232195d968f2992386031bc30b4935c184c5cb56d70",
+      "committed_SQLite_file_sha256_before_adjudication": "3086b9db9ec3b6db414700864bfbfcaa9f89547cfa9764f8b7fe7c1f2d8ab37f",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 5680800,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": false,
+        "witness_policies": 0,
+        "minimum_in_frozen_G": null,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": false,
+      "cost_min_G": null,
+      "excess": null
+    },
+    {
+      "id": "Q10",
+      "outcome": "Ø",
+      "response": {
+        "closed": false,
+        "claim": false
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 0,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 2,
+        "components": {
+          "sqlite.SELECT": 1,
+          "queue.message_qualification": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "f06ee1f25862a3897cd47ca2150dd3965717f51a2a823e7525d8298a4e5c4e2e",
+      "candidate_trace_sha256_before_adjudication": "f06ee1f25862a3897cd47ca2150dd3965717f51a2a823e7525d8298a4e5c4e2e",
+      "candidate_response_sha256_before_adjudication": "975f6e9f62a7b283fb563232195d968f2992386031bc30b4935c184c5cb56d70",
+      "committed_SQLite_file_sha256_before_adjudication": "b4cf7976c4321447647b5c5e408b60d581490d13400d97f3130cf601ba408f87",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 7124500,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": false,
+        "witness_policies": 0,
+        "minimum_in_frozen_G": null,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": false,
+      "cost_min_G": null,
+      "excess": null
+    },
+    {
+      "id": "Q11",
+      "outcome": "P",
+      "response": {
+        "closed": false,
+        "claim": true
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 1,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 4,
+        "components": {
+          "sqlite.SELECT": 1,
+          "queue.message_qualification": 1,
+          "sqlite.UPDATE": 1,
+          "sqlite.commit": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.UPDATE",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "b5af7c88c760b2aa6cb5e831980b7c6e217b8fc62f949b0504323d056e518c84",
+      "candidate_trace_sha256_before_adjudication": "b5af7c88c760b2aa6cb5e831980b7c6e217b8fc62f949b0504323d056e518c84",
+      "candidate_response_sha256_before_adjudication": "cda9214b2a3a9be63cc597c05190b3bc920d7479fcaba5b2d8e1a04651fafcf3",
+      "committed_SQLite_file_sha256_before_adjudication": "99a97331a9738df281b289b3f05a93d67193dc698606727d6c4106b5fa7d7e43",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 14847700,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "admission": {
+        "M_admitted_in_G": false,
+        "witness_policies": 0,
+        "minimum_in_frozen_G": null,
+        "global_accessible_information_lower_bound": null,
+        "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+        "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+      },
+      "Type1": false,
+      "Type2": true,
+      "cost_min_G": null,
+      "excess": null
+    }
+  ],
+  "fault_controls": [
+    {
+      "id": "Q01",
+      "outcome": "Ø",
+      "response": {
+        "closed": false,
+        "claim": false
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 0,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 13,
+        "components": {
+          "sqlite.SELECT": 13
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 23,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 24,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 25,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 26,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 27,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 28,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 29,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 30,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 31,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "0cd538d37356807745b32d09ff1024b959d6683055354afcd27af04e022a5e1c",
+      "candidate_trace_sha256_before_adjudication": "0cd538d37356807745b32d09ff1024b959d6683055354afcd27af04e022a5e1c",
+      "candidate_response_sha256_before_adjudication": "975f6e9f62a7b283fb563232195d968f2992386031bc30b4935c184c5cb56d70",
+      "committed_SQLite_file_sha256_before_adjudication": "3ec75acff2482862a2aa32ef33cc4918ec2ae1ef5ad50ed1bec948d182cffc91",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 9120000,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "Type1": true,
+      "Type2": false
+    },
+    {
+      "id": "Q11",
+      "outcome": "P",
+      "response": {
+        "closed": false,
+        "claim": true
+      },
+      "actual": {
+        "effects": 0,
+        "application_receipts": 0,
+        "broker_acked": 1,
+        "disposition": 0
+      },
+      "ledger": {
+        "C_selected_units": 4,
+        "components": {
+          "sqlite.SELECT": 1,
+          "queue.message_qualification": 1,
+          "sqlite.UPDATE": 1,
+          "sqlite.commit": 1
+        },
+        "events": [
+          {
+            "n": 1,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 2,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 3,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 4,
+            "role": "fixture",
+            "primitive": "sqlite.INSERT",
+            "units": 1
+          },
+          {
+            "n": 5,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 6,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 7,
+            "role": "fixture",
+            "primitive": "sqlite.CREATE",
+            "units": 1
+          },
+          {
+            "n": 8,
+            "role": "fixture",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 9,
+            "role": "candidate",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 10,
+            "role": "candidate",
+            "primitive": "queue.message_qualification",
+            "units": 1
+          },
+          {
+            "n": 11,
+            "role": "candidate",
+            "primitive": "sqlite.UPDATE",
+            "units": 1
+          },
+          {
+            "n": 12,
+            "role": "candidate",
+            "primitive": "sqlite.commit",
+            "units": 1
+          },
+          {
+            "n": 13,
+            "role": "evaluator",
+            "primitive": "sqlite.connect",
+            "units": 1
+          },
+          {
+            "n": 14,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 15,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 16,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 17,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 18,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 19,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 20,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 21,
+            "role": "evaluator",
+            "primitive": "sqlite.SELECT",
+            "units": 1
+          },
+          {
+            "n": 22,
+            "role": "evaluator",
+            "primitive": "sqlite.close",
+            "units": 1
+          }
+        ],
+        "prices_human_network_tokens_lifecycle": null,
+        "unit": "frozen selected API/policy units, weights1"
+      },
+      "candidate_cost_trace_sha256_before_adjudication": "b5af7c88c760b2aa6cb5e831980b7c6e217b8fc62f949b0504323d056e518c84",
+      "candidate_trace_sha256_before_adjudication": "b5af7c88c760b2aa6cb5e831980b7c6e217b8fc62f949b0504323d056e518c84",
+      "candidate_response_sha256_before_adjudication": "cda9214b2a3a9be63cc597c05190b3bc920d7479fcaba5b2d8e1a04651fafcf3",
+      "committed_SQLite_file_sha256_before_adjudication": "99a97331a9738df281b289b3f05a93d67193dc698606727d6c4106b5fa7d7e43",
+      "resource_seal_scope": "local committed SQLite file, no concurrent/WAL writer in this fixture",
+      "elapsed_instrumented_wall_ns": 16814800,
+      "expected_labels_sent_to_actor": false,
+      "OS_malicious_code_isolation": false,
+      "native_named_product_execution": false,
+      "Type1": false,
+      "Type2": true
+    }
+  ],
+  "Type1": {
+    "n": 2,
+    "d": 6
+  },
+  "Type2": {
+    "n": 2,
+    "d": 11
+  },
+  "C_selected_units_total": 71,
+  "source_commit": "f0edbbb840585b1991874c54aa8c8118c7210f5c",
+  "card_sha256": "4eca6577abb139561d02309777e28888260a800b2da7927cecf4c2489e8f53b0",
+  "freeze_sha256": "5aba82abd626cde60a524d9421149cf8aa758efc3a4f61dfbd44b231ce62fa1f",
+  "case_fractions_not_population_estimates": true,
+  "money_human_network_lifecycle_unscored": true,
+  "Stage_B_C_not_established": true
+}

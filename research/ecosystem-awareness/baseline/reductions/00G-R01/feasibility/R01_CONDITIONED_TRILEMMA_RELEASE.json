@@ -1,0 +1,54 @@
+{
+  "version": "0.1",
+  "input_commit": "2d299250a1e9d8103757f3841c73fdb01db82598",
+  "source_document": "Escenario-creatividad-validacion.md",
+  "source_blob": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6",
+  "input_files": {
+    "Escenario-creatividad-validacion.md": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6",
+    "README.md": "44aea48f2a60da092476c0db296bfd66aa8a3e34",
+    "feasibility/README.md": "2d4efd2710b46dd60ce3b9564f42ba5b9a915420",
+    "feasibility/CONDITIONED_TRILEMMA.md": "191872008337cfccd05282830966cdbd2bcdf44f",
+    "feasibility/CONDITIONED_TRILEMMA_DEEP_AUDIT.md": "fc6a6b6917fcf0df42477f5aa53433680adb5031",
+    "feasibility/R01_TO_CONDITIONED_TRILEMMA_MAPPING.md": "f68613d25525be0269998cc8e1eb046717656767",
+    "feasibility/WORKPLAN.md": "a5f8f416f2a326540f7f77515235f5147b26a711",
+    "feasibility/WORKPLAN_STATUS.json": "193b967e4a01634524c8a7eaeafc9fac4676635f",
+    "feasibility/CONTINUATION_PROMPT.md": "7b609a71989ea1bc0449d63585ad0aa9a16130ee"
+  },
+  "changed_files_before_release": {
+    "feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md": "8a7b13e2dbf45623162329728af249467a11fdce",
+    "feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md": "251e92d3705f9e6f435c02e08cdf3092f89cc654",
+    "README.md": "cd649c1907eb4284e29f952b9ecafbb34259762b",
+    "feasibility/README.md": "82a8795182b1a20aeb528c49cd2265778d277e89",
+    "feasibility/CONDITIONED_TRILEMMA.md": "5fe325b3adde93e64b92c2fcc07258f68b285b0d",
+    "feasibility/CONDITIONED_TRILEMMA_DEEP_AUDIT.md": "47c07c81247470214e263d39b253db8ac663d998",
+    "feasibility/R01_TO_CONDITIONED_TRILEMMA_MAPPING.md": "34ace90b9f899afdea530eceaedea0207ca2fd89",
+    "feasibility/WORKPLAN.md": "28e2c98463c493a34ad12764d3d9a91ed596a95a",
+    "feasibility/CONTINUATION_PROMPT.md": "2507c0d658a23fce1db2e79f0cb744bd3ec3f8cd",
+    "feasibility/WORKPLAN_STATUS.json": "7548bbe87b900203124c30f52ca8e8b55003c5a5"
+  },
+  "readme_preservation": "old bodies remain byte-for-byte prefixes; only final tracking rows appended",
+  "scientific_executions": 0,
+  "independent_review": "pending",
+  "task_counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 7,
+    "OPEN": 44,
+    "BLOCKED": 0
+  },
+  "claims": [
+    "general R01 certificate",
+    "full-history information cut",
+    "growing K-data parity family",
+    "all-policy bounds",
+    "same-parameter pair controls",
+    "feasible regions",
+    "AVG/WC distinction"
+  ],
+  "not_claimed": [
+    "numerical classification of every R01 manifest",
+    "historical causality",
+    "independent validation",
+    "six-dimensional Pareto frontier",
+    "universal quadratic cost or latency"
+  ]
+}

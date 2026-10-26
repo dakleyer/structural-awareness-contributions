@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1505" viewBox="0 0 1200 1505" role="img" aria-labelledby="title desc">
+<title id="title">From the mechanism to the requirements</title><desc id="desc">A selective overview of conditional contributions to T1–T4, timing, selected requirement families and H1–H6. It makes no conformance or measurement claim.</desc>
+<rect width="1200" height="1505" fill="#f7f9fc"/>
+<text x="42" y="70.0" font-family="DejaVu Sans" font-size="32" font-weight="700" fill="#172d40">From the mechanism to the requirements</text>
+<text x="42" y="108.0" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#425669">Plausible contributions, with their remaining obligations.</text>
+<text x="42" y="134.6" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#425669">The strongest direct support concerns bounded parts of T1 and T2.</text>
+<rect x="42" y="161" width="546" height="274" rx="12" fill="white" stroke="#214f6b" stroke-width="1.4"/>
+<text x="64" y="194.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#214f6b">T1 · MATERIAL AWARENESS</text>
+<text x="64" y="226.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#214f6b">Within a declared boundary</text>
+<text x="64" y="268.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Scope-aligned metadata may expose an expired</text>
+<text x="64" y="294.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">assumption, incompatible basis or lost assessment</text>
+<text x="64" y="319.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">capability concealed by operative outputs.</text>
+<text x="64" y="357.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Still needed: a material target, detectable change</text>
+<text x="64" y="382.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">family, justified interpretation and explicit blind spots.</text>
+<rect x="612" y="161" width="546" height="274" rx="12" fill="white" stroke="#08777b" stroke-width="1.4"/>
+<text x="634" y="194.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#08777b">T2 · QUALIFIED DETERMINATION</text>
+<text x="634" y="226.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#08777b">Owner-preserving handoff</text>
+<text x="634" y="268.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Preserve grounds and unresolved alternatives; support</text>
+<text x="634" y="294.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">a posture to continue, requalify, contain/hold, escalate</text>
+<text x="634" y="319.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">or preserve UNKNOWN.</text>
+<text x="634" y="357.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Still needed: current owner, dependencies,</text>
+<text x="634" y="382.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">authority/capacity limits, expiry, re-entry and valid</text>
+<text x="634" y="407.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">sources for the handoff.</text>
+<rect x="42" y="459" width="546" height="300" rx="12" fill="white" stroke="#915415" stroke-width="1.4"/>
+<text x="64" y="492.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#915415">T3 · BOUNDED AND AUTHORIZED</text>
+<text x="64" y="524.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#915415">Response remains a coupled obligation</text>
+<text x="64" y="566.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">The mechanism can identify a limit, preserve</text>
+<text x="64" y="592.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">authorization needs and support a bounded candidate</text>
+<text x="64" y="617.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">position.</text>
+<text x="64" y="655.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Still needed: legitimate owner, permitted actions,</text>
+<text x="64" y="680.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">reversibility and downside conditions—including the</text>
+<text x="64" y="705.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">per-state no-worse-than-null-action guarantee.</text>
+<text x="64" y="731.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Metadata alone cannot establish these.</text>
+<rect x="612" y="459" width="546" height="300" rx="12" fill="white" stroke="#915415" stroke-width="1.4"/>
+<text x="634" y="492.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#915415">T4 · TIMELY AND VIABLE</text>
+<text x="634" y="524.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#915415">Minimum-sufficient requalification</text>
+<text x="634" y="566.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Targeted summaries make bounded effort conceivable</text>
+<text x="634" y="592.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">without reconstructing every source state.</text>
+<text x="634" y="630.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Still needed: total costs, response margins, useful</text>
+<text x="634" y="655.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">stopping rules and resilience to saturation and</text>
+<text x="634" y="680.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">oscillation. Communication savings alone do not</text>
+<text x="634" y="705.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">establish viability.</text>
+<rect x="42" y="783" width="1116" height="142" rx="12" fill="#eaf0f7" stroke="#cad5df" stroke-width="1.4"/>
+<text x="64" y="821.0" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#172d40">An illustrative sufficient timing condition — serial case</text>
+<text x="64" y="861.8" font-family="DejaVu Sans" font-size="22" font-weight="400" fill="#172d40">t_available + τ_qualification + τ_response &lt; t_last useful response</text>
+<text x="64" y="898.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Concurrent paths need their actual elapsed-time bound. Qualification must remain applicable when the response acts.</text>
+<rect x="42" y="949" width="1116" height="216" rx="12" fill="white" stroke="#cad5df" stroke-width="1.4"/>
+<text x="64" y="987.0" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#172d40">Selected routes into the requirements</text>
+<text x="64" y="1025.8" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">S3 / S10: review changed applicability and commitments; cancellation or new authority is not supplied by the</text>
+<text x="64" y="1052.4" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">indication.</text>
+<text x="64" y="1079.0" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">S5 / S14: preserve indeterminacy; UNKNOWN is not automatic global containment.</text>
+<text x="64" y="1105.6" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">S9 / S11: preserve qualified scopes and dependencies; different reports need not be independent.</text>
+<text x="64" y="1138.2" font-family="DejaVu Sans" font-size="17" font-weight="400" fill="#425669">These are selected routes. The remaining requirement families and full boundaries are in 00N §3.4.</text>
+<rect x="42" y="1189" width="1116" height="238" rx="12" fill="#eaf0f7" stroke="#cad5df" stroke-width="1.4"/>
+<text x="64" y="1227.0" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#172d40">The existing six hypotheses remain distinct</text>
+<text x="64" y="1266.8" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">H1 preserves insufficient determination within window U. H2 separates confidence conditional on U from the</text>
+<text x="64" y="1293.4" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">open residual beyond it.</text>
+<text x="64" y="1320.0" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">H3 concerns hidden qualifications and false confidence under composition. H4 asks whether enough context</text>
+<text x="64" y="1346.6" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">can be preserved without full-state disclosure.</text>
+<text x="64" y="1373.2" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">H5 concerns freshness and dependency churn. H6 concerns the risk/resource trade-off of window selection.</text>
+<text x="64" y="1407.8" font-family="DejaVu Sans" font-size="18" font-weight="700" fill="#172d40">No additional hypothesis family. No measurements or requirement fulfillment are claimed.</text>
+<text x="42" y="1472.0" font-family="DejaVu Sans" font-size="16" font-weight="400" fill="#425669">Selective overview · 00N v0.7, §§3.2–3.5 · Full S/T/H routes, authority conditions and KPIs remain in the note.</text>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "phase": "preflight",
+  "cases_executed": 0,
+  "error": "Frozen input mismatch: RUN_CARD.json",
+  "outputs_created": false,
+  "repair": "bind actual unchanged input bytes before first execution"
+}

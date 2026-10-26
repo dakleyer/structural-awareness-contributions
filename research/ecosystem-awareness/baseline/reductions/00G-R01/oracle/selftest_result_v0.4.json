@@ -1,0 +1,64 @@
+{
+  "schema": "R01-C02-SELFTEST-RESULT-0.4",
+  "executed": "2026-10-05",
+  "workflow_run": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37260588073",
+  "head_commit": "28805702e1ffb42ea381752d5483e0073b2334a5",
+  "instrument": "R01-C02-neutral-harness-0.4",
+  "result": "SELFTEST_PASS",
+  "claim": "instrumentation self-test only; no real technology executed",
+  "vectors": [
+    {
+      "test_vector_id": "R01-POSITIVE-01",
+      "status": "PASS"
+    },
+    {
+      "test_vector_id": "R01-BOUNDARY-CONNECTOR-01",
+      "status": "FAIL"
+    },
+    {
+      "test_vector_id": "R01-REJECTION-01",
+      "status": "FAIL"
+    },
+    {
+      "test_vector_id": "R01-TIE-01",
+      "status": "PASS"
+    },
+    {
+      "test_vector_id": "R01-INCONCLUSIVE-01",
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "test_vector_id": "R01-COST-LIMIT-01",
+      "status": "FAIL"
+    }
+  ],
+  "controls": {
+    "freeze_manifest_integrity": "PASS:22",
+    "two_reference_methods_agree": "PASS",
+    "deterministic_replay_hash": "PASS",
+    "case_order_reversal": "PASS",
+    "identifier_permutation": "PASS",
+    "oracle_blindness_negative_control": "PASS",
+    "malformed_candidate_explicit_rejection": "PASS",
+    "malformed_record_isolation": "PASS",
+    "always_abstain_not_success": "PASS",
+    "batch_resource_self_report_non_authoritative": "PASS",
+    "batch_missing_measurement_inconclusive": "PASS",
+    "semantic_admission_contracts": "PASS",
+    "reference_rejects_ambiguous_types": "PASS",
+    "nonnegative_base_rejects_negative_benefit": "PASS",
+    "strict_state_machine_blocks_uncommitted_execution": "PASS",
+    "tool_broker_visibility_accounting": "PASS",
+    "interactive_adapter_broker_oracle_path": "PASS",
+    "interactive_adapter_replay_hash": "PASS"
+  },
+  "limits": [
+    "complete R01 C-V evaluator not established",
+    "no independent validation of the two reference methods",
+    "no real technology executed",
+    "no human-escalation calibration",
+    "no EA superiority claim",
+    "no production scalability claim",
+    "no FG-TIDA approval or adoption claim"
+  ]
+}

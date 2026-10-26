@@ -1,5 +1,9 @@
 # Canonical Architecture Benchmark and Reference-Scenario Evidence — Ecosystem Awareness
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+> **DDS incorporation note — 7 October 2026.** 00D v0.2 remains the canonical benchmark/comparator source for its own EA-H1–EA-H4 scope and retains its original version, evidence grades, B0–B3 fairness contract and claim boundary. Under the current [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), 00D is **DDS comparator/fairness support**, primarily reusable by Stage A specification comparisons and Stage C matched implementation comparisons, and as control material where Stage B requires it. It is not a second corpus testing method. This classification does not convert pending comparative execution into completed evidence or change the separate v0.3 adoption status.
+
 | | |
 |---|---|
 | **ID** | 00D |
@@ -81,6 +85,30 @@ A capability implemented in B1/B2 counts fully even if its vendor does not call 
 
 These profiles are design analyses, not measured B0–B3 results. A future execution must map their exact configurations to the arms above and may find that a top native implementation closes some or all of the proposed gap.
 
+### 4.2 Ex-ante knowledge, preparation and adaptation accounting — prospective clarification
+
+**23 October 2026; applies to successor campaigns.** The §4 B0–B3 resource match is necessary but insufficient unless the *timing of information and preparation* is also matched. The evaluator may privately know the eventual failure to score a trace. It must not furnish B1/B2 with that specific future failure, a scenario-targeted gate and free engineering effort before the scored run, while requiring B3/EA to recognize the changed decision basis without equivalent foreknowledge. A post-disclosure corrected B2 is a legitimate **hindsight repair or upper-bound control**, but its resulting parity does **not** establish ex-ante parity or an absence of EA differential.
+
+For each scored material-change study, record **before the change**: the declared family and independent selector; each arm's trained/configured policy and permitted generic adaptation; source interfaces and observations it can legitimately obtain; domain expertise; available authority, human and computational capacity; detection/inquiry budget; response deadline; and the full cost of installing and maintaining each control. Both peers are entitled to excellent advance engineering and generic dynamic controls, including authorization revalidation and scoped anomaly/dependency monitoring. If B2 can recognize the loss of a valid decision basis and respond as well as or better than B3 under the same ex-ante information and all-in burden, it defeats that proposed EA increment in the tested family.
+
+Use the same *future realization* and observable change sequence for the paired arms; conceal the evaluator-private case answer until the relevant commitment. Pre-register both legitimate-continuity and material-change controls. If a first R3 exposure is used for tuning, give **both** sides development access and score a **different held-out R3** after refreeze. Disclose stress scenarios intentionally chosen outside a defended baseline's envelope instead of passing them off as an unbiased estimate of general change performance.
+
+Record together: timely detection of lost sufficiency (false negatives and false positives), successful *authorized* correction or justified continuation, unwarranted disruption, effects/violations, delivery and latency, plus upfront specialist work, signal acquisition, configuration/reconfiguration, operating review, intervention and opportunity costs under a fixed horizon/amortization rule. Do not assume the uncharacterized residual **D** is a known probability space; distinguish bounded test families and genuinely unresolved exposure. Report sensitivity to predictability, change frequency, novelty and usable signals. A conventional implementation may win in stable domains, while EA can fail under rapid change without informative evidence. No such regime response is claimed as measured here.
+
+
+**R2 and R3 operational cost ledger (prospective studies only).** The three comparison traversals and the B0–B3 technology arms are distinct axes. A passing R1 does not trigger an invented R2. A legitimate R2 repair may learn the demonstrated R1 failure, but every iteration and durable capability it installs is charged; no comparator is presumed to arrive at an optimal configuration for free. Keep the following entries separately measurable for each actual arm and preserve actual effort even when the arm does not pass:
+
+| Ledger moment | Charge and evidence | Claim safeguard |
+|---|---|---|
+| Initial/R1 | Prior reusable capabilities, deployment or per-study installation, initial source/instrument access and competent calibration. | State the decision horizon and distinguish sunk/reusable investment from incremental campaign cost. |
+| Known-case R2 | Diagnosis; failed and successful designs; engineering/configuration; specialists; tests/validation; new evidence/IAM/monitoring integration; training and rollout. | R2 knows R1 failure, not the selected future R3. Functional PASS may still exceed cost/admissibility bounds. |
+| Freeze and sustained readiness | Standing generic adaptive policy, source acquisition, continuous sensing, subscriptions, personnel capacity, monitoring and upkeep. | Hash/version and account once; do not double-charge a purchase later as runtime use. |
+| Material R3 and controls | Detection, inquiry, human review, runtime policy response, correction/re-entry, false positives, unnecessary holds, rework, business effect, latency and legitimate continuation. | Both arms face the same selected change and permitted observations; report false alarms and no-change controls. |
+
+For every cost field record unit, amount or `NOT_MEASURED`, evidence source, one-off/recurring status, allocation/amortization rule, timing, actor and budget impact. Do not substitute total evaluator/research expense for deployment cost without an explicit question. An R2 omitted by protocol is `NOT_RUN`, not an observed free repair. A selection intentionally restricted to changes outside the conventional peer's envelope is a *conditional diagnostic stress result*, distinct from a blind random/held-out family comparison; retain both successes and failures, and register the distinction before execution.
+
+**Required inference distinction:** `known-case repair parity` ≠ `blind ex-ante differential absent`; `blind peer parity at equal/lower all-in burden` = a genuine negative result *for the tested conditions*. A failed or inconclusive campaign cannot be promoted to general refutation or product superiority. The [DDS Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md#ex-ante-comparison-discipline-for-differential-findings-23-october-2026) owns the shared rule and [Stage A §15.1](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#151-prospective-differential-do-not-lend-the-comparator-tomorrows-answer-23-october-2026) its specification interpretation. Frozen §4 arms and past evidence grades are preserved, not retroactively regraded.
+
 ## 5. What the industry already provides
 
 The benchmark is a complement test, not an assertion that existing systems have no controls.
@@ -127,7 +155,7 @@ Those are explicit, useful workflow boundaries. A competent implementation can a
 | **EA: targeted requalification** | Revisit affected reliance when evidence, authority applicability, dependencies, capacity or context change, while a useful response remains possible. | S3/S4/S10/S14; T1/T2/T4; EA-H2/EA-H4; C1/C2/C5/C7. Bind the assessment to the receiving decision; authorized execution remains separate. |
 | **Incident / Signal Lifecycle: peer function in the Theme #13 proposal** | Corroborate/amend signals, refine affected scope, coordinate locally authorized response and record resolution; exchange the resulting qualifications with EA. | Lifecycle semantics remain with their owner; benchmark the bounded interface through S6/S9/S10/S14 and EA-H4 where applicable. Incident resolution alone does not requalify every dependent decision. |
 
-The four operational distinctions above are not a redefinition of A/B/C/D. The [canonical topology §2](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position) defines A as situated assertion/scope, B as confidence/support, C as recognized obtainable state and D as structural residual. EA also preserves unresolved qualifications within the represented scope. These are non-exclusive components, not four quadrants or mandatory transmission fields. Lifecycle is an independently testable peer, not an additional EA function or an already benchmarked implementation.
+The four operational distinctions above are not a redefinition of A/B/C/D. The [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) defines A as the functional result, B as established basis and assessable reserve, C as exploration frontier and D as residual beyond effective evaluation. EA also preserves unresolved qualifications within the represented scope. These are non-exclusive components, not four quadrants or mandatory transmission fields. Lifecycle is an independently testable peer, not an additional EA function or an already benchmarked implementation.
 
 The expected practical value is fewer unsupported commitments, less unnecessary review and a defensible return to operation. These remain outcomes to measure under §12, not achieved benefits.
 

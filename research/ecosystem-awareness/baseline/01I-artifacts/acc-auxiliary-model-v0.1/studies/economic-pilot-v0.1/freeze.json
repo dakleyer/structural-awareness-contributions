@@ -1,0 +1,12 @@
+{
+  "id": "ACC-AUX-ECO-01-v0.1",
+  "frozen_before_first_implementation": true,
+  "created_utc": "2026-10-25T15:27:53.354960+00:00",
+  "method": "prospective local specification freeze by the same AI author; not DDS campaign registration",
+  "files": {
+    "protocol.json": "2f411835ab816a0c3a6ad7861b2d391e9b43431c55d9f18577746ba0893fbb32",
+    "cases.json": "923b6b671c5f53900e191810c3c68f35a94afdd098578749d68a791c7d51f362",
+    "manual_oracle.json": "1d17e35f5864c010146213b09ee32c80134425adcccfd26501569852a421626b",
+    "MANUAL_TRAVERSAL.md": "9dfdccdaa92034406c9551723cfe882f71f7361d5c17ac476f8b957c0748401a"
+  }
+}

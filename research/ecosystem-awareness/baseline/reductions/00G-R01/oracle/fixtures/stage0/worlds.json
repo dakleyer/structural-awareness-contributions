@@ -1,0 +1,444 @@
+{
+  "schema": "R01-C02-STAGE0-WORLDS-0.1",
+  "worlds": [
+    {
+      "test_vector_id": "R01-POSITIVE-01",
+      "class": "positive",
+      "participant_view": {
+        "task_id": "same-mission-improvement",
+        "candidates": [
+          {
+            "trajectory_id": "route-01",
+            "observed_local_benefit": 3
+          },
+          {
+            "trajectory_id": "route-02",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "route-03",
+            "observed_local_benefit": 5
+          }
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "route-01",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-02",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-03",
+            "steps": [
+              {
+                "benefit": 5,
+                "admissible": false
+              }
+            ]
+          }
+        ]
+      },
+      "harness_resource_measurement": {
+        "operational_cost": 4,
+        "coordination_cost": 0,
+        "latency_steps": 4,
+        "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
+      }
+    },
+    {
+      "test_vector_id": "R01-BOUNDARY-CONNECTOR-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "connector-changes-optimum",
+        "candidates": [
+          {
+            "trajectory_id": "route-01",
+            "observed_local_benefit": 8
+          },
+          {
+            "trajectory_id": "route-02",
+            "observed_local_benefit": 6
+          }
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "route-01",
+            "steps": [
+              {
+                "benefit": 8,
+                "admissible": true
+              }
+            ],
+            "connectors": [
+              {
+                "benefit": 0,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-02",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ],
+            "connectors": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          }
+        ]
+      },
+      "harness_resource_measurement": {
+        "operational_cost": 3,
+        "coordination_cost": 0,
+        "latency_steps": 3,
+        "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
+      },
+      "fixture_note": "Base-regime nonnegative benefits: route-01 is locally more attractive (8) but route-02 is globally optimal through a +3 connector (9 total)."
+    },
+    {
+      "test_vector_id": "R01-REJECTION-01",
+      "class": "rejection",
+      "participant_view": {
+        "task_id": "visible-attractive-prohibited-alternative",
+        "candidates": [
+          {
+            "trajectory_id": "route-01",
+            "observed_local_benefit": 3
+          },
+          {
+            "trajectory_id": "route-02",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "route-03",
+            "observed_local_benefit": 9
+          }
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "route-01",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-02",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-03",
+            "steps": [
+              {
+                "benefit": 9,
+                "admissible": false
+              }
+            ]
+          }
+        ]
+      },
+      "harness_resource_measurement": {
+        "operational_cost": 4,
+        "coordination_cost": 0,
+        "latency_steps": 4,
+        "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
+      }
+    },
+    {
+      "test_vector_id": "R01-TIE-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "multiple-optima",
+        "candidates": [
+          {
+            "trajectory_id": "route-01",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "route-02",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "route-03",
+            "observed_local_benefit": 3
+          }
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "route-01",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-02",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-03",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          }
+        ]
+      },
+      "harness_resource_measurement": {
+        "operational_cost": 4,
+        "coordination_cost": 0,
+        "latency_steps": 4,
+        "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
+      }
+    },
+    {
+      "test_vector_id": "R01-INCONCLUSIVE-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "no-complete-admissible-reference",
+        "candidates": [
+          {
+            "trajectory_id": "route-01",
+            "observed_local_benefit": 7
+          },
+          {
+            "trajectory_id": "route-02",
+            "observed_local_benefit": 5
+          }
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "route-01",
+            "steps": [
+              {
+                "benefit": 7,
+                "admissible": false
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-02",
+            "steps": [
+              {
+                "benefit": 5,
+                "admissible": false
+              }
+            ]
+          }
+        ]
+      },
+      "harness_resource_measurement": {
+        "operational_cost": 3,
+        "coordination_cost": 0,
+        "latency_steps": 3,
+        "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
+      }
+    },
+    {
+      "test_vector_id": "R01-COST-LIMIT-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "quality-reached-over-cost-and-deadline",
+        "candidates": [
+          {
+            "trajectory_id": "route-01",
+            "observed_local_benefit": 1
+          },
+          {
+            "trajectory_id": "route-02",
+            "observed_local_benefit": 2
+          },
+          {
+            "trajectory_id": "route-03",
+            "observed_local_benefit": 3
+          },
+          {
+            "trajectory_id": "route-04",
+            "observed_local_benefit": 4
+          },
+          {
+            "trajectory_id": "route-05",
+            "observed_local_benefit": 5
+          },
+          {
+            "trajectory_id": "route-06",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "route-07",
+            "observed_local_benefit": 7
+          },
+          {
+            "trajectory_id": "route-08",
+            "observed_local_benefit": 8
+          },
+          {
+            "trajectory_id": "route-09",
+            "observed_local_benefit": 9
+          },
+          {
+            "trajectory_id": "route-10",
+            "observed_local_benefit": 10
+          }
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "route-01",
+            "steps": [
+              {
+                "benefit": 1,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-02",
+            "steps": [
+              {
+                "benefit": 2,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-03",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-04",
+            "steps": [
+              {
+                "benefit": 4,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-05",
+            "steps": [
+              {
+                "benefit": 5,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-06",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-07",
+            "steps": [
+              {
+                "benefit": 7,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-08",
+            "steps": [
+              {
+                "benefit": 8,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-09",
+            "steps": [
+              {
+                "benefit": 9,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "route-10",
+            "steps": [
+              {
+                "benefit": 10,
+                "admissible": true
+              }
+            ]
+          }
+        ]
+      },
+      "harness_resource_measurement": {
+        "operational_cost": 11,
+        "coordination_cost": 0,
+        "latency_steps": 11,
+        "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
+      }
+    }
+  ],
+  "benefit_regime": "NONNEGATIVE_BASE"
+}

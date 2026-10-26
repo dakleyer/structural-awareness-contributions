@@ -1,0 +1,386 @@
+{
+  "schema": "R01-ORACLE-TASKS12-REVIEW-1.0",
+  "date": "2026-10-06",
+  "reviewer": "Codex /root; same assistant, not independent",
+  "chat": "01a11096-57f0-72b2-bd57-7d8816673410",
+  "instruction": "realiza las tareas 1 y 2",
+  "source_cut": "715027943eefb372fdb4541a23d288bffdedbdb2",
+  "oracle_source_blob": "282d97ed967898a086303927872fbdfcaf37dd70",
+  "pass1_publication": "55505144748fedbbffd29512ca396fd71cad316f",
+  "scope": "Four distinct README passes plus bounded compatibility contract; neighboring documents receive only scoped cross-review entries",
+  "sources": [
+    {
+      "path": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "sha": "da72d7c1818b27e7fedfa16f04bd51c3730a6a36"
+    },
+    {
+      "path": "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+      "sha": "b71a1e4d689675dec16c4122186c6fd2e66627ff"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md",
+      "sha": "3d080df5b8d12b1c697115f02cbadffa63427c95"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md",
+      "sha": "ea578c9c1e8689b30b40644137c0e8b70bd5d3d7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md",
+      "sha": "6f6e0fdb38902470ad6c452f8252d67c07c26458"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md",
+      "sha": "65252e9c7d1d67db0f2228f354057edf0fd9965e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md",
+      "sha": "2a4b64214bcc3d8e573094c3f674d53ae273b20a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-NATIVE-v0.1/README.md",
+      "sha": "7448530a45b018aca60a48aefd2fe04ec006ed7d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md",
+      "sha": "2379cf813a4edb6e79c9d3862704e302207b3861"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md",
+      "sha": "84a823e020f0e509a027e7e7cd8c481bf2ad06d5"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/core.py",
+      "sha": "ae5ccdee48997e46140fbe0bd507cf0a875ca3aa"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/oracle.py",
+      "sha": "a01c8e281620a3c9ae8159c13f6b43db5696ec77"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md",
+      "sha": "f40c92452a649b8bf59d4c378a935422a9c7dbdc"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/fixtures.json",
+      "sha": "173a5df1f4af5c5a2eb55dea7264a80454a45121"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/model.py",
+      "sha": "d030d353ad7ba55048269650ee0f0f03cf378073"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/reproduce.py",
+      "sha": "f104ec9c776eb9d17cdab66ada19b6d44ddb93e1"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/results/results.json",
+      "sha": "b0ab5fc1ba4cff90a6634d428c6ba7caa866f43b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README.md",
+      "sha": "76f449fa2b3974ac0c3ca7524ae406363e2f6757"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/run_all.py",
+      "sha": "1b6343e71a6c67cc4e1c832eb026579f215efc2f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md",
+      "sha": "64cd4ab6a381f4d756458ada57bf358ee7b87ffa"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/canonical_trace_v1.py",
+      "sha": "ab3926be4d22058b2712eec1502e28734b413900"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/frozen_observations_v05.json",
+      "sha": "2cef202499f4360c1eabcfa2c58a600c3effb41d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/oracle_reference_v05.json",
+      "sha": "2f87e2268b9b263fb4e258c72d0726d769370aa4"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/stage0_runner.py",
+      "sha": "a9ab9d44457566104a6f73dcb638d48d4b445e50"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "sha": "ec481658bd06cae2370ed5b5bbad5fcf1e401ebc"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "sha": "c534b16998b9d1ab817cf5c6d55e11bfde38ccda"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README.md",
+      "sha": "0398ff65b3d757203ca6fe455ec8408124eb270b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/GATE_POLICY_CONTRACT.md",
+      "sha": "3bdb9ee3c58fae0a7e359339cff9107ebeb2066c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/ISOLATION_CONTRACT.md",
+      "sha": "1f0dd21894adfed98e8ea3a6ed21c3d472822818"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/NELSON_BASELINE_IMPORT.md",
+      "sha": "182bcea5c52b234c951cf7457f662fcfcf75cfcf"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/NELSON_REVIEW_REQUEST.md",
+      "sha": "5f487d70143132272f8e1048334c40d9d641b6d4"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+      "sha": "282d97ed967898a086303927872fbdfcaf37dd70"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+      "sha": "6a38498d476f44869d54c4486d3236d7eff3c9c0"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/SELFTEST_RECORD_v0.9.md",
+      "sha": "1000edc4f7e41b0cd0e41b64b2342509db8ce18a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/STAGE0_FREEZE_v0.9.json",
+      "sha": "c6df2b96ec0da4e6119651953733f7a66ac2a72d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TECHNOLOGY_ADAPTER_GUIDE.md",
+      "sha": "ab28cd93a92746fdcd181eb5b9944773d047f5c6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TOOL_BROKER_CONTRACT.md",
+      "sha": "3d252391279ce194707f30ff24f98948fdc83dcf"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TRACE_CONTRACT.md",
+      "sha": "b2a4a846a5035dc6111893f38d8b7f6c6a88fc7c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE.md",
+      "sha": "cc3ed878212bdc02eb4aff7149bb80b3db018d1e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/adapter_api.py",
+      "sha": "bf9158d870228819884abc56aa109e7b865ded83"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/canonical_trace_v1.py",
+      "sha": "36ffd9768011270961d6d96aa97483578a3f0097"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/contracts.py",
+      "sha": "5b6454cd1aa890521d325a61f3e37d82301cdc91"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/fixtures/stage0/experiment_sidecar.json",
+      "sha": "a660eae62ff6d7fd685a3c738ad8854dd02cf216"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/harness.py",
+      "sha": "7f6885c721535c337dfd4b9541ebd1998a88644d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/interactive_harness.py",
+      "sha": "4dd1f4f9b3ceebf8edf0caf53d4bf2051c464b07"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/real_admission.py",
+      "sha": "d2c83bc9d65b5e2e9bed16ce240bffffceed1559"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/reference.py",
+      "sha": "0da5e9b092e953e100cb6f66103285f43a6c21cc"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/reference_graph_dp.py",
+      "sha": "e831175cea94e6588d0affc7fd26227b976ded98"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/reference_graph_exhaustive.py",
+      "sha": "fefec687b2a6f6639bec40e4fc7e06146621b3e9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/reference_secondary.py",
+      "sha": "b1cb5a2b51699fb7a4a93eeb0dd7375762189d09"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/selftest_result_v0.9.json",
+      "sha": "844db506eafc2ddc3564981107c4ba2da2adee03"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/tool_broker.py",
+      "sha": "ed36ed594ae2c1470fc8215874947b7a9b4c247a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/verify.py",
+      "sha": "5ead49907e5f56f997cf2524463612cc8d8157b0"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/PROTOCOL.md",
+      "sha": "3924ab8eb1d2501503ab85597170853a346a8028"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README.md",
+      "sha": "b65830bfec6e3ac017efbbe8d3be8d4a8396882b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/results/RESULTS.md",
+      "sha": "92e0016f80de9aa23c95af169d7309076a7aa28b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/run.py",
+      "sha": "475c597e482ba7f8bbdd5850e3e0689130a069d9"
+    }
+  ],
+  "cross_relations": [
+    {
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_REVIEW.md",
+      "id": "R01-X01",
+      "blob": "c534b16998b9d1ab817cf5c6d55e11bfde38ccda"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_REVIEW.md",
+      "id": "R01-X02",
+      "blob": "ec481658bd06cae2370ed5b5bbad5fcf1e401ebc"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md",
+      "vnext": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_REVIEW.md",
+      "id": "R01-X03",
+      "blob": "3d080df5b8d12b1c697115f02cbadffa63427c95"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md",
+      "vnext": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_REVIEW.md",
+      "id": "R01-X04",
+      "blob": "ea578c9c1e8689b30b40644137c0e8b70bd5d3d7"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_REVIEW.md",
+      "id": "R01-X05",
+      "blob": "64cd4ab6a381f4d756458ada57bf358ee7b87ffa"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_REVIEW.md",
+      "id": "R01-X06",
+      "blob": "84a823e020f0e509a027e7e7cd8c481bf2ad06d5"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_REVIEW.md",
+      "id": "R01-X07",
+      "blob": "76f449fa2b3974ac0c3ca7524ae406363e2f6757"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_REVIEW.md",
+      "id": "R01-X08",
+      "blob": "65252e9c7d1d67db0f2228f354057edf0fd9965e"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_REVIEW.md",
+      "id": "R01-X09",
+      "blob": "f40c92452a649b8bf59d4c378a935422a9c7dbdc"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_REVIEW.md",
+      "id": "R01-X10",
+      "blob": "0398ff65b3d757203ca6fe455ec8408124eb270b"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README.md",
+      "vnext": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_REVIEW.md",
+      "id": "R01-X11",
+      "blob": "b65830bfec6e3ac017efbbe8d3be8d4a8396882b"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE.md",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+      "card": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_REVIEW.md",
+      "id": "R01-X12",
+      "blob": "cc3ed878212bdc02eb4aff7149bb80b3db018d1e"
+    }
+  ],
+  "static_freeze_identity_check": {
+    "files": 30,
+    "mismatch": [],
+    "mode": "Git tree identities only, no execution"
+  },
+  "prior_run_readback": {
+    "url": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37265543867",
+    "status": "completed",
+    "conclusion": "success",
+    "head": "4ec2006e76b1e212ba8b99230a3d71bd3564aeb5",
+    "new_run": false
+  },
+  "upstream_schema": {
+    "version": "1.1.0",
+    "package": "1.1.0-r1",
+    "sha256": "2fc6b7f923ae3c8ff3e6fdadde82c47194e7758d390728cf9406dd688dc48bda",
+    "validator_executed": false
+  },
+  "ctv1_review": {
+    "profile": "R01-CTv1-IMPORT-REVIEW-1",
+    "valid_examples": 10,
+    "invalid_examples": 14,
+    "behaviour_properties": 4,
+    "total": 28,
+    "prototype": "governance/review/r01-oracle-tasks12-2026-10-06/ctv1_import_contract_review.py",
+    "results": "governance/review/r01-oracle-tasks12-2026-10-06/CTv1_IMPORT_REVIEW_RESULT.json",
+    "installed": false,
+    "frozen_helpers_changed": false,
+    "universal_conformance": false
+  },
+  "scientific_harness_runs": 0,
+  "technology_calls": 0,
+  "source_contributor_messages": 0,
+  "source_deltas_applied": [],
+  "new_findings": [
+    "batch metrics are not delivery metrics",
+    "trace seal is not runtime isolation",
+    "reference agreement covers status/optimum/ties, not all rows",
+    "freeze pointers describe different preserved epochs",
+    "dynamic review campaign has later results despite preparatory README"
+  ],
+  "limits": [
+    "No global corpus completion",
+    "Neighboring sources not fully audited",
+    "No UC4 acceptance or validator-pass",
+    "No complete C02/M16/M17 closure",
+    "No real or EA campaign"
+  ],
+  "external_primary_reads": [
+    {
+      "url": "https://github.com/FG-TIDA/use-cases/issues/4",
+      "updated": "2026-09-29T21:55:29Z",
+      "scope": "Requirements 22-24, imported profiles and maturity"
+    },
+    {
+      "url": "https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911",
+      "scope": "Schema 1.1.0/package 1.1.0-r1 and separation of technical validation/semantic review"
+    }
+  ]
+}

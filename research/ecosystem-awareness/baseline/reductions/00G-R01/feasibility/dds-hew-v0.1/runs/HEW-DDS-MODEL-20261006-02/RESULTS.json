@@ -1,0 +1,4942 @@
+{
+  "run_id": "HEW-DDS-MODEL-20261006-02",
+  "status": "PASS_MODEL_INSTRUMENT_ASSERTIONS",
+  "native_technology_execution": false,
+  "real_human_execution": false,
+  "environment": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "platform": "Windows"
+  },
+  "run_card_sha256": "371cd0cab64e65cdad76b6c4145a1f4d41cf08c4c42edf5ce48857096d8090bd",
+  "freeze_sha256": "d392e5dd69cbb0c6ce567d42897e988f925e8d3c6fa9514d3af13491d28f2ca9",
+  "elapsed_wall_seconds": 2.421113699907437,
+  "analytical_reconstructions": [
+    {
+      "scenario_id": "HEW-SC-01A",
+      "modality": "EXACT_ANALYTICAL_RECONSTRUCTION",
+      "traversal": "R01-R2",
+      "q": "9/10",
+      "s": "19/20",
+      "r": "941/990000",
+      "cost": 40,
+      "accepted": true,
+      "human_accuracy_measured": false,
+      "original_world_law": true,
+      "new_theorem": false
+    },
+    {
+      "scenario_id": "HEW-SC-01B",
+      "modality": "EXACT_ANALYTICAL_RECONSTRUCTION",
+      "traversal": "R01-R3-A",
+      "q": "4/5",
+      "s": "949/1000",
+      "r": "941/495000",
+      "cost": 40,
+      "accepted": false,
+      "human_accuracy_measured": false,
+      "original_world_law": true,
+      "new_theorem": false
+    }
+  ],
+  "registered_scenario_count": 20,
+  "sqlite_scenario_count": 18,
+  "additional_source_counterexample": 1,
+  "sqlite_operations_evaluated": 21,
+  "reference_schedule_checks": 42,
+  "scenario_results": [
+    {
+      "scenario_id": "HEW-SC-02A",
+      "family_id": "HEW-SF-02",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "H1 atiende una obligación crítica que no puede interrumpir. Una objeción nueva necesita tres unidades de revisión; H2 está cualificado y autorizado y puede reservar ese trabajo a tiempo.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-02A",
+          "controller_result": {
+            "operation_id": "HEW-SC-02A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "5d8a4bfd298f98bec4acee3f71877c1f5eba16e0542fa57db9e01bd8048e3ce9",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-02A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "a15344bf88a67084b30524b956ee2f5f045ec1cff5558c4fedf985a20f41d9ea"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-02A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "a15344bf88a67084b30524b956ee2f5f045ec1cff5558c4fedf985a20f41d9ea",
+          "hash": "dfeedc2e5b2df2adce5084df992514b4d4ff5b0256a7009ed353ebb2cf129fb2"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-02A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-02A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-02A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "dfeedc2e5b2df2adce5084df992514b4d4ff5b0256a7009ed353ebb2cf129fb2",
+          "hash": "e19a3dc59def6ac7c7a317b49aa98b4bed80e1525a089f18f7921ec56c7aee62"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-02A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-02A"
+          },
+          "previous_hash": "e19a3dc59def6ac7c7a317b49aa98b4bed80e1525a089f18f7921ec56c7aee62",
+          "hash": "7fde867f4afe07691f46f0f031433a5b871ca4599153f6a777dfd4e7d2c36fcd"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-02A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-02A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-02A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "7fde867f4afe07691f46f0f031433a5b871ca4599153f6a777dfd4e7d2c36fcd",
+          "hash": "332672963667636687eb49504cc3559669305f6da0fbbe7f3df283ce8819731d"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-02A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-02A"
+          },
+          "previous_hash": "332672963667636687eb49504cc3559669305f6da0fbbe7f3df283ce8819731d",
+          "hash": "1464b9fab3ac2171b9106e2d4b1c074c345b491d0d0d5a5d0ba73dc53962b122"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-02A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "1464b9fab3ac2171b9106e2d4b1c074c345b491d0d0d5a5d0ba73dc53962b122",
+          "hash": "36b4a55e252f69c2f490efc1679e4aa395dad2e2267566950dec1ae5b9bea400"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-02A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "36b4a55e252f69c2f490efc1679e4aa395dad2e2267566950dec1ae5b9bea400",
+          "hash": "bc55aa66df510992d9e3b2f5fa0de4f98d9cfc6caff24ef1e416c53de7cbce28"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-02A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "bc55aa66df510992d9e3b2f5fa0de4f98d9cfc6caff24ef1e416c53de7cbce28",
+          "hash": "4d45dfe9b723eaaf423d2c145c818e68531edec4ada9417f08e73515456afab6"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-02A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "4d45dfe9b723eaaf423d2c145c818e68531edec4ada9417f08e73515456afab6",
+          "hash": "23f09691afb8369b6ea8c7e841f84583585033d187908cb38a9301f2d127df56"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-02A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "23f09691afb8369b6ea8c7e841f84583585033d187908cb38a9301f2d127df56",
+          "hash": "9b0ecce73794d293d50df3b2af4dacf7bb440f62c828e803408da5ab00d01a04"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-02A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "9b0ecce73794d293d50df3b2af4dacf7bb440f62c828e803408da5ab00d01a04",
+          "hash": "3d2f15270f3b84f6e5af3a4d46d890cbad7ce500155e01f2e9022029bdcc29dd"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-02A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "3d2f15270f3b84f6e5af3a4d46d890cbad7ce500155e01f2e9022029bdcc29dd",
+          "hash": "5d8a4bfd298f98bec4acee3f71877c1f5eba16e0542fa57db9e01bd8048e3ce9"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-02B",
+      "family_id": "HEW-SF-02",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "La misma objeción llega mientras H1 sigue ocupado, pero no hay otro revisor cualificado y autorizado. El canal puede registrar el caso y acusarlo sin poder resolverlo dentro de la ventana.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-02B",
+          "controller_result": {
+            "operation_id": "HEW-SC-02B",
+            "ack": null,
+            "review": null,
+            "work": 6,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "reasons": [
+              "REVIEW_UNAVAILABLE"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": false,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 6,
+            "controller_work_claim": 6,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NO_SLOT",
+              "OWNER_NON_RESPONSE",
+              "NO_SLOT",
+              "REVIEW_UNAVAILABLE"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "9658611c3dc412bc271eb9b6e8475fa3c106b108059ccd4838a7cbd1bd287baa",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-02B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "d0367d23ef0ca669b8bae55a00fee749d75011ea77f1afdaf4d49121b9d0860c"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-02B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "d0367d23ef0ca669b8bae55a00fee749d75011ea77f1afdaf4d49121b9d0860c",
+          "hash": "42006e733b503179b87eabbb67919560134376b3be72ff23d5b27224322c0423"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-02B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-02B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-02B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "42006e733b503179b87eabbb67919560134376b3be72ff23d5b27224322c0423",
+          "hash": "51174214d0cc592a3da16d9e6fae4544c3a237eae5539c462e81b4699911740d"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-02B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-02B"
+          },
+          "previous_hash": "51174214d0cc592a3da16d9e6fae4544c3a237eae5539c462e81b4699911740d",
+          "hash": "f38c51fd40945ddf74285ad2b097a83cc2cc150d60717d8d257b512a574a009a"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-02B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-02B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-02B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "f38c51fd40945ddf74285ad2b097a83cc2cc150d60717d8d257b512a574a009a",
+          "hash": "94be055944cf3e8ea26e22d85a2117a39dea10fd204f5051ba0c2f8f0d1576c2"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-02B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-02B"
+          },
+          "previous_hash": "94be055944cf3e8ea26e22d85a2117a39dea10fd204f5051ba0c2f8f0d1576c2",
+          "hash": "971e4822eeef606b84ca05f25281b1783da302afb722754d414d983c3d747b54"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-02B",
+          "tick": 2,
+          "kind": "NO_SLOT",
+          "detail": {
+            "kind": "ack"
+          },
+          "previous_hash": "971e4822eeef606b84ca05f25281b1783da302afb722754d414d983c3d747b54",
+          "hash": "e419a277c115bd71019705ca1714072ed8fce7c06d73ed83722b0647c18ea992"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-02B",
+          "tick": 4,
+          "kind": "OWNER_NON_RESPONSE",
+          "detail": {
+            "failure_of": "owner"
+          },
+          "previous_hash": "e419a277c115bd71019705ca1714072ed8fce7c06d73ed83722b0647c18ea992",
+          "hash": "916fe19d850b4eb9facc49d2fad3c6a917f35f4059767e5640231bcc14d0edca"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-02B",
+          "tick": 4,
+          "kind": "NO_SLOT",
+          "detail": {
+            "kind": "review"
+          },
+          "previous_hash": "916fe19d850b4eb9facc49d2fad3c6a917f35f4059767e5640231bcc14d0edca",
+          "hash": "60a1cb42f8b585e28b3e0607452fdf16c8795149f7a712a5fbda17f9a5ac1936"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-02B",
+          "tick": 4,
+          "kind": "REVIEW_UNAVAILABLE",
+          "detail": {},
+          "previous_hash": "60a1cb42f8b585e28b3e0607452fdf16c8795149f7a712a5fbda17f9a5ac1936",
+          "hash": "9658611c3dc412bc271eb9b6e8475fa3c106b108059ccd4838a7cbd1bd287baa"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-03A",
+      "family_id": "HEW-SF-03",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Una persona autorizada recibe dos objeciones con ventanas suficientemente separadas. Puede revisar ambas sin desplazar la obligación anterior.",
+      "selection_note": "Concrete full-work profile includes1 tick acknowledgement. Second positive arrival6/decision10 replaces the earlier draft illustrative arrival5/decision9; earlier draft remains retained.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-03A-1",
+          "controller_result": {
+            "operation_id": "HEW-SC-03A-1",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        },
+        {
+          "operation_id": "HEW-SC-03A-2",
+          "controller_result": {
+            "operation_id": "HEW-SC-03A-2",
+            "ack": {
+              "subject": "H2",
+              "start": 6,
+              "finish": 7
+            },
+            "review": {
+              "subject": "H2",
+              "start": 7,
+              "finish": 10
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 11,
+            "delivery_at": 12,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "47bef7391b8a05a5699ea628f0afaa918503c86ecc915c1e4ecd9923835401a7",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "5a3e87e9fb465a81c455e93740f1b9cf919d11ab12108c688d5823da1e0cf295"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "5a3e87e9fb465a81c455e93740f1b9cf919d11ab12108c688d5823da1e0cf295",
+          "hash": "accf887312bc2b4f4fef9a31876e8fa29d476a0f62b778409aa68ae4073d5692"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03A-1",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03A-1"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "accf887312bc2b4f4fef9a31876e8fa29d476a0f62b778409aa68ae4073d5692",
+          "hash": "46559b6fbfbe229898a7d15af67f561d281dc6dbbd899bc28ce904d4a2624734"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-03A-1"
+          },
+          "previous_hash": "46559b6fbfbe229898a7d15af67f561d281dc6dbbd899bc28ce904d4a2624734",
+          "hash": "2b2ffdff94a9e517583002a439fcb415e2a11053ab0ffbf5b8eba3ffb65e1ff7"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03A-1",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03A-1"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "2b2ffdff94a9e517583002a439fcb415e2a11053ab0ffbf5b8eba3ffb65e1ff7",
+          "hash": "775bad0f0d0c37f6bee3e80fd3aa121847366660e3d40aa9967d41d9c870f128"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-03A-1"
+          },
+          "previous_hash": "775bad0f0d0c37f6bee3e80fd3aa121847366660e3d40aa9967d41d9c870f128",
+          "hash": "e888c0dc4affac4eb8ace8ca0e8ef8f2fd71bd7c6d1be3ef2428c51d0ae87821"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "e888c0dc4affac4eb8ace8ca0e8ef8f2fd71bd7c6d1be3ef2428c51d0ae87821",
+          "hash": "1442982ae2c695661545283b0464cca6c0e1a7de61d384a3f139d0b53194e5e7"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "1442982ae2c695661545283b0464cca6c0e1a7de61d384a3f139d0b53194e5e7",
+          "hash": "12652629521715d4d741d540971f9f3b106b64bef2ef42b171e8e18c871a3521"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "12652629521715d4d741d540971f9f3b106b64bef2ef42b171e8e18c871a3521",
+          "hash": "463b47b51a09d5829f59172a12fca3b4577e52bdf726a2d5687cfbc434c0ffd0"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "463b47b51a09d5829f59172a12fca3b4577e52bdf726a2d5687cfbc434c0ffd0",
+          "hash": "bef83fdd6c28bd01052e4d3390ad53b24335a467e6dc888e23568f0421b214b4"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "bef83fdd6c28bd01052e4d3390ad53b24335a467e6dc888e23568f0421b214b4",
+          "hash": "6befefd8a001cfa45664706c1765f6f407aafbb5fabf1c5b2fe16162f630b900"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "6befefd8a001cfa45664706c1765f6f407aafbb5fabf1c5b2fe16162f630b900",
+          "hash": "06e2fb1827752f0b14a36a44f6a079d8ddaa30cfa99f556d0b848800bd8c9982"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-03A-1",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "06e2fb1827752f0b14a36a44f6a079d8ddaa30cfa99f556d0b848800bd8c9982",
+          "hash": "e8a586cfa334f4b6ebbcedf6a8e5948ebdb06585292b89748cc0c68db22f0a6a"
+        },
+        {
+          "seq": 14,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 6,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "e8a586cfa334f4b6ebbcedf6a8e5948ebdb06585292b89748cc0c68db22f0a6a",
+          "hash": "0a1ab5e99b91bd2b61a8a943126c98e7e6ecb145f4d8b16e3d61fdc1736813b9"
+        },
+        {
+          "seq": 15,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 6,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "0a1ab5e99b91bd2b61a8a943126c98e7e6ecb145f4d8b16e3d61fdc1736813b9",
+          "hash": "fe463ec477825c80f4cc835e8a0b674850629e50b7a6e597f7e7874e4e77d982"
+        },
+        {
+          "seq": 16,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 6,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03A-2",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03A-2"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "fe463ec477825c80f4cc835e8a0b674850629e50b7a6e597f7e7874e4e77d982",
+          "hash": "65799d236660d46ef46950fcf88911795a98ad0da19a7e9d1ca8fc32e66b419f"
+        },
+        {
+          "seq": 17,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 6,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-03A-2"
+          },
+          "previous_hash": "65799d236660d46ef46950fcf88911795a98ad0da19a7e9d1ca8fc32e66b419f",
+          "hash": "a6cb0f6bbf52fc183586c2785e89782a99672db6184b7d7f6e64e615c5b00059"
+        },
+        {
+          "seq": 18,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 6,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03A-2",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03A-2"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "a6cb0f6bbf52fc183586c2785e89782a99672db6184b7d7f6e64e615c5b00059",
+          "hash": "c6882be3f22d3210837690654805a4ce48ffbaa9bbd04d7829c225fc5e895076"
+        },
+        {
+          "seq": 19,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 6,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-03A-2"
+          },
+          "previous_hash": "c6882be3f22d3210837690654805a4ce48ffbaa9bbd04d7829c225fc5e895076",
+          "hash": "0c77f597dd3e893e8200685a71b3f14747f6600cf308fa32cc3023958b0a030c"
+        },
+        {
+          "seq": 20,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 6,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 7,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "0c77f597dd3e893e8200685a71b3f14747f6600cf308fa32cc3023958b0a030c",
+          "hash": "4f6ed9ceb0d8a6214fbaa9a616019c4b13c33db2d7b19d886bb798ac027a610a"
+        },
+        {
+          "seq": 21,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 7,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "4f6ed9ceb0d8a6214fbaa9a616019c4b13c33db2d7b19d886bb798ac027a610a",
+          "hash": "7a7f1632a3c5728693cc592c9764d4aaff762a39fc54c15fb428b85b443c345f"
+        },
+        {
+          "seq": 22,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 7,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 10,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "7a7f1632a3c5728693cc592c9764d4aaff762a39fc54c15fb428b85b443c345f",
+          "hash": "6fab646a923a574e01f23258f66b15c5b1943018617193d0c9f51be1a968b326"
+        },
+        {
+          "seq": 23,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 10,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "6fab646a923a574e01f23258f66b15c5b1943018617193d0c9f51be1a968b326",
+          "hash": "4dcaa2b106bd948d848ea882f99ce46eac17b2cb4f9bc486a980d344d9541a3c"
+        },
+        {
+          "seq": 24,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 11,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "4dcaa2b106bd948d848ea882f99ce46eac17b2cb4f9bc486a980d344d9541a3c",
+          "hash": "fcb7ee8f4850c802a989134811eabd313afe83f01693c34e46d7ff4189030970"
+        },
+        {
+          "seq": 25,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 11,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "fcb7ee8f4850c802a989134811eabd313afe83f01693c34e46d7ff4189030970",
+          "hash": "ad4434dcb685024425ee3c9140c2e846c34e08cd286f1044a183c59858b159ca"
+        },
+        {
+          "seq": 26,
+          "operation_id": "HEW-SC-03A-2",
+          "tick": 12,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "ad4434dcb685024425ee3c9140c2e846c34e08cd286f1044a183c59858b159ca",
+          "hash": "47bef7391b8a05a5699ea628f0afaa918503c86ecc915c1e4ecd9923835401a7"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-03B",
+      "family_id": "HEW-SF-03",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Dos objeciones llegan a la vez y ambas prometen la misma franja del único revisor. Cada una parece viable aislada, pero las dos no caben antes de sus plazos.",
+      "selection_note": "Concrete full-work profile includes1 tick acknowledgement. Second positive arrival6/decision10 replaces the earlier draft illustrative arrival5/decision9; earlier draft remains retained.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-03B-1",
+          "controller_result": {
+            "operation_id": "HEW-SC-03B-1",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        },
+        {
+          "operation_id": "HEW-SC-03B-2",
+          "controller_result": {
+            "operation_id": "HEW-SC-03B-2",
+            "ack": null,
+            "review": null,
+            "work": 6,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "reasons": [
+              "REVIEW_UNAVAILABLE"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": false,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 6,
+            "controller_work_claim": 6,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NO_SLOT",
+              "OWNER_NON_RESPONSE",
+              "NO_SLOT",
+              "REVIEW_UNAVAILABLE"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "d6c16cba7734af6be498e3fb3af2804c00e10c18bc365392616a44825a0ab04f",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "f5190d066adad9068aabc1eeade65dd9422734488264cec40f4d07a082de2a4b"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "f5190d066adad9068aabc1eeade65dd9422734488264cec40f4d07a082de2a4b",
+          "hash": "012863904cb25074f482c36e74b6524821025ffb38d2f651e8b1a53bf69883b0"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03B-1",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03B-1"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "012863904cb25074f482c36e74b6524821025ffb38d2f651e8b1a53bf69883b0",
+          "hash": "b9432bb8d947deeb5734acd59d2f275e6c3e0c709aa7609c0783499a0ef50d31"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-03B-1"
+          },
+          "previous_hash": "b9432bb8d947deeb5734acd59d2f275e6c3e0c709aa7609c0783499a0ef50d31",
+          "hash": "5208f041eb53bac188ce5dafe08d3fd9b2a06a71317e6160791a9d7d44612590"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03B-1",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03B-1"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "5208f041eb53bac188ce5dafe08d3fd9b2a06a71317e6160791a9d7d44612590",
+          "hash": "d882e23dfa2c179ecddd762466240f69b7f48b9c16af6d74768de4b75fe057a9"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-03B-1"
+          },
+          "previous_hash": "d882e23dfa2c179ecddd762466240f69b7f48b9c16af6d74768de4b75fe057a9",
+          "hash": "c30f7a3fbc08a665347095f6385fd467d57c4a5cd220f8339599a7bc1ba0bc42"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "c30f7a3fbc08a665347095f6385fd467d57c4a5cd220f8339599a7bc1ba0bc42",
+          "hash": "2bbdd00057cb86376c24a779ad4a04ccb2ef749b5a5edc7f84f92fb7c2d65c0d"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "2bbdd00057cb86376c24a779ad4a04ccb2ef749b5a5edc7f84f92fb7c2d65c0d",
+          "hash": "1711fa84f7fbc9752eb684e1c2a45b1a476d19b8a4cba7d5ba383c374d246276"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "1711fa84f7fbc9752eb684e1c2a45b1a476d19b8a4cba7d5ba383c374d246276",
+          "hash": "3c2c1f752eb1d36beb6657797d4bbc4ce4ccbd544a62fea33937598b9b7089df"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "3c2c1f752eb1d36beb6657797d4bbc4ce4ccbd544a62fea33937598b9b7089df",
+          "hash": "d5b684436133520b2ab3cf5711d22973206259c082aeb02e402b7c4a31096b66"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "d5b684436133520b2ab3cf5711d22973206259c082aeb02e402b7c4a31096b66",
+          "hash": "710264e719affd889e883eeea3d0076487d0afee6e00ec1bf4e7f6140f7cf65c"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "710264e719affd889e883eeea3d0076487d0afee6e00ec1bf4e7f6140f7cf65c",
+          "hash": "c6b03403c959541c23c48ce12ea483e44cd3a86911eada33b93e63050e2e5ac6"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-03B-1",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "c6b03403c959541c23c48ce12ea483e44cd3a86911eada33b93e63050e2e5ac6",
+          "hash": "64b8289e9309a3bfbe1eac2de61b205d6b3232d72f6a39d0bea01c21d03a166e"
+        },
+        {
+          "seq": 14,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "64b8289e9309a3bfbe1eac2de61b205d6b3232d72f6a39d0bea01c21d03a166e",
+          "hash": "2f5ad8f4afc39756793515d12a8f3c1fa73f5d417dc8d53a12bb476677e54b45"
+        },
+        {
+          "seq": 15,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "2f5ad8f4afc39756793515d12a8f3c1fa73f5d417dc8d53a12bb476677e54b45",
+          "hash": "7e363063476f25fb498012b43dcc8ed9559a63cc018e699b949823f3cda77d43"
+        },
+        {
+          "seq": 16,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03B-2",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03B-2"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "7e363063476f25fb498012b43dcc8ed9559a63cc018e699b949823f3cda77d43",
+          "hash": "ca05b2897432677fd4eff152b83fbc784e516b57d59aa348b038a5b8292d0f69"
+        },
+        {
+          "seq": 17,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-03B-2"
+          },
+          "previous_hash": "ca05b2897432677fd4eff152b83fbc784e516b57d59aa348b038a5b8292d0f69",
+          "hash": "3ecc394a780848afd3ea855463259dd4ed74a952bf573e413b43ef39028c08fa"
+        },
+        {
+          "seq": 18,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-03B-2",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-03B-2"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "3ecc394a780848afd3ea855463259dd4ed74a952bf573e413b43ef39028c08fa",
+          "hash": "60613f3b5a30108febf7b5e1433c0e76b2e50ec16bd448c556d18062c060a144"
+        },
+        {
+          "seq": 19,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-03B-2"
+          },
+          "previous_hash": "60613f3b5a30108febf7b5e1433c0e76b2e50ec16bd448c556d18062c060a144",
+          "hash": "477e3ac7825664df47ed3814f57cc8d37a32193d8e213d9c9f2c1760c147717f"
+        },
+        {
+          "seq": 20,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 2,
+          "kind": "NO_SLOT",
+          "detail": {
+            "kind": "ack"
+          },
+          "previous_hash": "477e3ac7825664df47ed3814f57cc8d37a32193d8e213d9c9f2c1760c147717f",
+          "hash": "c2b08086d853ece2c715238934f3a7322b7e93dd77acd41db2268f1a3a15a689"
+        },
+        {
+          "seq": 21,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 4,
+          "kind": "OWNER_NON_RESPONSE",
+          "detail": {
+            "failure_of": "owner"
+          },
+          "previous_hash": "c2b08086d853ece2c715238934f3a7322b7e93dd77acd41db2268f1a3a15a689",
+          "hash": "92de504c5cfd8217a8ac24ae97de7c933bb301f8729dd80402e4cb20b3f0c0c7"
+        },
+        {
+          "seq": 22,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 4,
+          "kind": "NO_SLOT",
+          "detail": {
+            "kind": "review"
+          },
+          "previous_hash": "92de504c5cfd8217a8ac24ae97de7c933bb301f8729dd80402e4cb20b3f0c0c7",
+          "hash": "0ac4a883e56b17b73f14c2897b17b4c2aa7bbf1fb10f2fc390e12079f301d56c"
+        },
+        {
+          "seq": 23,
+          "operation_id": "HEW-SC-03B-2",
+          "tick": 4,
+          "kind": "REVIEW_UNAVAILABLE",
+          "detail": {},
+          "previous_hash": "0ac4a883e56b17b73f14c2897b17b4c2aa7bbf1fb10f2fc390e12079f301d56c",
+          "hash": "d6c16cba7734af6be498e3fb3af2804c00e10c18bc365392616a44825a0ab04f"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-04A",
+      "family_id": "HEW-SF-04",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "El humano recibe una evidencia actual que cubre la condición material de esta operación. Los destinatarios reciben la misma procedencia y conocen exactamente qué sostiene.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-04A",
+          "controller_result": {
+            "operation_id": "HEW-SC-04A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "a7ddf763545967d7adf4a2b5f2ff72a8b90e2b4649f5f415e6d52c73af0adccb",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-04A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "b77fa1c62b86c40a2dbfab4243219b681b69efb78709c5438903819207938e15"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-04A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "b77fa1c62b86c40a2dbfab4243219b681b69efb78709c5438903819207938e15",
+          "hash": "a34fd727b36d59cd0651d7403072238183248aa67a173f11a469e5c32155c1e9"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-04A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-04A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-04A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "a34fd727b36d59cd0651d7403072238183248aa67a173f11a469e5c32155c1e9",
+          "hash": "827beee0a2cd77fe376e555aff8a5722079601d5bc8c94dd760ce935792a4c87"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-04A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-04A"
+          },
+          "previous_hash": "827beee0a2cd77fe376e555aff8a5722079601d5bc8c94dd760ce935792a4c87",
+          "hash": "7a1fcb76146fdc9a4eab485e9d5f8046addffcb19319d868dd2c559f9d21b609"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-04A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-04A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-04A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "7a1fcb76146fdc9a4eab485e9d5f8046addffcb19319d868dd2c559f9d21b609",
+          "hash": "1af055cc791a70f7e46fc269ed79d782db1c0c016fea7935a45f8746e7bd5967"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-04A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-04A"
+          },
+          "previous_hash": "1af055cc791a70f7e46fc269ed79d782db1c0c016fea7935a45f8746e7bd5967",
+          "hash": "4fd20bf29ee6edd468429d5776ec8356227dfda8745d7809ff672e63385b3374"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-04A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "4fd20bf29ee6edd468429d5776ec8356227dfda8745d7809ff672e63385b3374",
+          "hash": "db52679546a8b8ea40db1adce1e10790f132db44e75be31ae6b28184d062d0ce"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-04A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "db52679546a8b8ea40db1adce1e10790f132db44e75be31ae6b28184d062d0ce",
+          "hash": "76933aca9934a488120cc6dfd0a502fd569d94f02851b122d718718c8bde8edc"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-04A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "76933aca9934a488120cc6dfd0a502fd569d94f02851b122d718718c8bde8edc",
+          "hash": "cfe12fe5d5e9e354996d045aae42ed6038872fd90d65efbf0bbb5bae0bd2506b"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-04A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "cfe12fe5d5e9e354996d045aae42ed6038872fd90d65efbf0bbb5bae0bd2506b",
+          "hash": "d4f2e23aa2a7069f5833b1a4fc7b7ea605f6f518a5deab0e0ce889eebb39aa93"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-04A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "d4f2e23aa2a7069f5833b1a4fc7b7ea605f6f518a5deab0e0ce889eebb39aa93",
+          "hash": "889f1bda88f63eb9b3bc7c13e702fb3bd7a9bc8a7cb0d9172400e9f7c289addb"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-04A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "889f1bda88f63eb9b3bc7c13e702fb3bd7a9bc8a7cb0d9172400e9f7c289addb",
+          "hash": "5388e1016fc58f9a1545fb0c855ab6b14b1dbfa11c88a779c2de5e09017bbc42"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-04A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "5388e1016fc58f9a1545fb0c855ab6b14b1dbfa11c88a779c2de5e09017bbc42",
+          "hash": "a7ddf763545967d7adf4a2b5f2ff72a8b90e2b4649f5f415e6d52c73af0adccb"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-04B",
+      "family_id": "HEW-SF-04",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Varios agentes repiten un aviso procedente de la misma fuente. El aviso solo cubre parte de la operación, o se refiere a otra versión; la cantidad de mensajes puede aparentar una confirmación más amplia.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-04B",
+          "controller_result": {
+            "operation_id": "HEW-SC-04B",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 15,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "applied_at": null,
+            "delivery_at": null,
+            "reasons": [
+              "BASIS_NOT_CURRENT_OR_APPLICABLE"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 15,
+            "controller_work_claim": 15,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "ACTION_DENIED"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "f40b765ce931aa7f357dc4c53c58bbe01c6759e21250a1567543f3617cd127d6",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-04B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "86433224cacc1f8e758227bc854ff1f6c846923f90c7c4a748e1551004753ee6"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-04B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "86433224cacc1f8e758227bc854ff1f6c846923f90c7c4a748e1551004753ee6",
+          "hash": "503a7fa328584a95b3084640737253c097e866ba9a900e3ec85df5b592cb7a1a"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-04B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-04B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-04B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "503a7fa328584a95b3084640737253c097e866ba9a900e3ec85df5b592cb7a1a",
+          "hash": "588cebb316aa33250d855cc4ab959f2c42a261a6d98cc9c4c8beb37dafc42182"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-04B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-04B"
+          },
+          "previous_hash": "588cebb316aa33250d855cc4ab959f2c42a261a6d98cc9c4c8beb37dafc42182",
+          "hash": "53d30e1e3b385848e186daaab92bf4a25fbce28f4f86fc54422989a5af3c1eec"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-04B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-04B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-04B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "53d30e1e3b385848e186daaab92bf4a25fbce28f4f86fc54422989a5af3c1eec",
+          "hash": "d9f0db5c8ec3cbf1fb3bfee39d93a2cc09d776b5482393f1a6fdf76b3315e4ac"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-04B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-04B"
+          },
+          "previous_hash": "d9f0db5c8ec3cbf1fb3bfee39d93a2cc09d776b5482393f1a6fdf76b3315e4ac",
+          "hash": "eaf8176d43ea454a234be9eec37c1e8443f7c2f4af41374fe76fe645356723fb"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-04B",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "eaf8176d43ea454a234be9eec37c1e8443f7c2f4af41374fe76fe645356723fb",
+          "hash": "ca34ad4238572febd2bbf6c84222668a2198ee9c309691b2fcc6666b634aacd5"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-04B",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "ca34ad4238572febd2bbf6c84222668a2198ee9c309691b2fcc6666b634aacd5",
+          "hash": "c2bafee86c8b85e531ce24026168723ebeec95879c36cc285d3a62cdbf536823"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-04B",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "c2bafee86c8b85e531ce24026168723ebeec95879c36cc285d3a62cdbf536823",
+          "hash": "b2721ea4b79129ea94f9627c2417e52cc5990ed8791a6e684dcc5a480ef91f4e"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-04B",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "b2721ea4b79129ea94f9627c2417e52cc5990ed8791a6e684dcc5a480ef91f4e",
+          "hash": "49f522fe485b67abf0e836d1e958f76858544bf4703aa0d702414db4caf79edd"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-04B",
+          "tick": 7,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "BASIS_NOT_CURRENT_OR_APPLICABLE"
+            ]
+          },
+          "previous_hash": "49f522fe485b67abf0e836d1e958f76858544bf4703aa0d702414db4caf79edd",
+          "hash": "f40b765ce931aa7f357dc4c53c58bbe01c6759e21250a1567543f3617cd127d6"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-05A",
+      "family_id": "HEW-SF-05",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Una persona con competencia para este tipo de incidente interpreta el certificado aplicable y selecciona la alternativa permitida. El sistema registra qué evidencia y alcance usó.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-05A",
+          "controller_result": {
+            "operation_id": "HEW-SC-05A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "04c04e7f3a63435b16680e6e77f6c7e18f1134d96e8a304034c6a7bcc6ee4f56",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-05A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "440c876503ff7dc340ab3df26477b2c6a287f6d07d05461fb8560a6ede2a151e"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-05A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "440c876503ff7dc340ab3df26477b2c6a287f6d07d05461fb8560a6ede2a151e",
+          "hash": "fdb85b168d1449cefe57b822284068b082e70c9227382205f459e6d9f5ae6a02"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-05A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-05A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-05A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "fdb85b168d1449cefe57b822284068b082e70c9227382205f459e6d9f5ae6a02",
+          "hash": "d4a4de9a9b5137f3b6bd4cb9848a60c6ad73a880d796f6c346950778ecb920e1"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-05A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-05A"
+          },
+          "previous_hash": "d4a4de9a9b5137f3b6bd4cb9848a60c6ad73a880d796f6c346950778ecb920e1",
+          "hash": "a55785e0d6c587319ae961e1832abc411fd4c5eabf086b55879378d04a36c0ab"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-05A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-05A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-05A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "a55785e0d6c587319ae961e1832abc411fd4c5eabf086b55879378d04a36c0ab",
+          "hash": "7be5c2af4a6dc204c1fb351020db91a2f10acbe15fdc807e5b7dd88ae0f29b41"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-05A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-05A"
+          },
+          "previous_hash": "7be5c2af4a6dc204c1fb351020db91a2f10acbe15fdc807e5b7dd88ae0f29b41",
+          "hash": "8970cdde927ed7754a23ec79e5b2e09183fe6b02b9ab61ff8dd80b5383774a35"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-05A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "8970cdde927ed7754a23ec79e5b2e09183fe6b02b9ab61ff8dd80b5383774a35",
+          "hash": "1b1413f5f3f0adc18053c132d3c8c5ebed3bb5af57fe8bbf52e33070c88fe0e1"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-05A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "1b1413f5f3f0adc18053c132d3c8c5ebed3bb5af57fe8bbf52e33070c88fe0e1",
+          "hash": "bc93e70429339e1ca1e410cc29a95e8c4816d533377fd7dcebb892cc543cbc05"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-05A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "bc93e70429339e1ca1e410cc29a95e8c4816d533377fd7dcebb892cc543cbc05",
+          "hash": "8ee0c1030799989054c940bc81c99a1e0ed8c7223e5fb4004039ff95617513bf"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-05A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "8ee0c1030799989054c940bc81c99a1e0ed8c7223e5fb4004039ff95617513bf",
+          "hash": "b2481068856a6a1f0b2ef234fb42f7544d520b5cf9eaa7f612a23c1f1a3657ce"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-05A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "b2481068856a6a1f0b2ef234fb42f7544d520b5cf9eaa7f612a23c1f1a3657ce",
+          "hash": "abfcba672c3a52b5093cabc8ffd951a3da984884f1eadf0e7de64f64450681b1"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-05A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "abfcba672c3a52b5093cabc8ffd951a3da984884f1eadf0e7de64f64450681b1",
+          "hash": "ed9b73aa50ad83be3e48715302e550bb255b01cc25bdfd5b5208d7c3a0958635"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-05A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "ed9b73aa50ad83be3e48715302e550bb255b01cc25bdfd5b5208d7c3a0958635",
+          "hash": "04c04e7f3a63435b16680e6e77f6c7e18f1134d96e8a304034c6a7bcc6ee4f56"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-05B",
+      "family_id": "HEW-SF-05",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "El certificado llega correctamente y a tiempo, pero la persona interpreta mal su alcance o selecciona una acción equivocada. La presencia del humano no corrige automáticamente esa decisión.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-05B",
+          "controller_result": {
+            "operation_id": "HEW-SC-05B",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 15,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "applied_at": null,
+            "delivery_at": null,
+            "reasons": [
+              "DECISION_DISAGREES_WITH_ADMITTED_BASIS"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 15,
+            "controller_work_claim": 15,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "ACTION_DENIED"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "66d5788d62f8accc47efcc6f1d2039154e7b78c114b7a90b80988b75f2380975",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-05B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "88d61a55cfa97c975899c8723761debd5a7e0a1ac3f3eaff5407d65f3107447d"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-05B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "88d61a55cfa97c975899c8723761debd5a7e0a1ac3f3eaff5407d65f3107447d",
+          "hash": "e745e607a386855d47df2700d2a6a430c293a1c81af9b25d745c9e4f3002b8f7"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-05B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-05B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-05B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "e745e607a386855d47df2700d2a6a430c293a1c81af9b25d745c9e4f3002b8f7",
+          "hash": "180d0f38517a7320e7c825eba86c54225cc80f11045f102f10d1dd733038c644"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-05B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-05B"
+          },
+          "previous_hash": "180d0f38517a7320e7c825eba86c54225cc80f11045f102f10d1dd733038c644",
+          "hash": "252ab04a4d6621191b242b9e11b791cdb2df8b75d3cf6d8840e15f66b6b98651"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-05B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-05B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-05B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "252ab04a4d6621191b242b9e11b791cdb2df8b75d3cf6d8840e15f66b6b98651",
+          "hash": "58faa2ee08a0f20e7d4dbae59ddb8ca48c6e37d9f82e0aa26c84249b5684ffaa"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-05B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-05B"
+          },
+          "previous_hash": "58faa2ee08a0f20e7d4dbae59ddb8ca48c6e37d9f82e0aa26c84249b5684ffaa",
+          "hash": "d6f4bde0be8f9282adca3a6524006d88248dcb5f9cad6e471aa01c3d16f507e9"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-05B",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "d6f4bde0be8f9282adca3a6524006d88248dcb5f9cad6e471aa01c3d16f507e9",
+          "hash": "3e4764bea5f7754be7d1de99126b48a4170efa052f8b50838942408c09321590"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-05B",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "3e4764bea5f7754be7d1de99126b48a4170efa052f8b50838942408c09321590",
+          "hash": "2164aa3e69b65894a4c85cd12a41146b17f6b2e12a64d9384bb04f3fe7eff55b"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-05B",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "2164aa3e69b65894a4c85cd12a41146b17f6b2e12a64d9384bb04f3fe7eff55b",
+          "hash": "f09cf347b39c3b30f12b5821754ee8a8e4a72c8e58a2c258ea2b1b6a00761580"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-05B",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "X",
+            "reviewer": "H2"
+          },
+          "previous_hash": "f09cf347b39c3b30f12b5821754ee8a8e4a72c8e58a2c258ea2b1b6a00761580",
+          "hash": "6e3b636e0e09a6dc4ada77e09ead167ffed5985005d3eb15b40d11c295c38678"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-05B",
+          "tick": 7,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "DECISION_DISAGREES_WITH_ADMITTED_BASIS"
+            ]
+          },
+          "previous_hash": "6e3b636e0e09a6dc4ada77e09ead167ffed5985005d3eb15b40d11c295c38678",
+          "hash": "66d5788d62f8accc47efcc6f1d2039154e7b78c114b7a90b80988b75f2380975"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-06A",
+      "family_id": "HEW-SF-06",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "El humano autoriza una corrección específica del casoA sobre recursoA, y el servicio actúa bajo esa delegación vigente. La decisión y el efecto conservan la misma referencia.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-06A",
+          "controller_result": {
+            "operation_id": "HEW-SC-06A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "68c1242cda6864c3501a9061f24c5bb11dc8b2074b2522c92fa1ebb356faefe3",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-06A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "f6033663a3c67a62d10e20304dfb99879f08663a224bebcb9bfce23564675b2c"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-06A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "f6033663a3c67a62d10e20304dfb99879f08663a224bebcb9bfce23564675b2c",
+          "hash": "d399daaaa8e426d7ffdebaa4d0230fa45d4c9ec9e9faf21b60518aaf62f12600"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-06A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-06A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-06A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "d399daaaa8e426d7ffdebaa4d0230fa45d4c9ec9e9faf21b60518aaf62f12600",
+          "hash": "1e7fcfc3e99d28915376bc106d08e63b659b0a4b025f6e0cf5384b6861550b3a"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-06A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-06A"
+          },
+          "previous_hash": "1e7fcfc3e99d28915376bc106d08e63b659b0a4b025f6e0cf5384b6861550b3a",
+          "hash": "e57ff877c1b96f0c63403c7afe6fa540646c6bc978d9e6c25cb56494d88d460e"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-06A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-06A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-06A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "e57ff877c1b96f0c63403c7afe6fa540646c6bc978d9e6c25cb56494d88d460e",
+          "hash": "4656613ace90919bc092d8e86ebb1493b5e49ecd722fa9e8e468f0bfefb29634"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-06A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-06A"
+          },
+          "previous_hash": "4656613ace90919bc092d8e86ebb1493b5e49ecd722fa9e8e468f0bfefb29634",
+          "hash": "ac252b57500ad1c9f7f90c55bbd2ea4be51d36aa359314332816fa57854298d0"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-06A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "ac252b57500ad1c9f7f90c55bbd2ea4be51d36aa359314332816fa57854298d0",
+          "hash": "81c370c0ede4fcd1f054528656855427b6d565cf128021d973d46d099a7e8828"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-06A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "81c370c0ede4fcd1f054528656855427b6d565cf128021d973d46d099a7e8828",
+          "hash": "89d44008c56c29dff5503696d7d7014fb0d690e23cd7f396bb3590ce48e8cb3d"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-06A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "89d44008c56c29dff5503696d7d7014fb0d690e23cd7f396bb3590ce48e8cb3d",
+          "hash": "28c66498b30284f35bf64f58609702f9b8c9044a35414aa8cc2379a90da40c20"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-06A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "28c66498b30284f35bf64f58609702f9b8c9044a35414aa8cc2379a90da40c20",
+          "hash": "c1bb1c7d8bcfa9f73b6280b54400553bbdeb86e448a65f823639cb2f3e5fb383"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-06A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "c1bb1c7d8bcfa9f73b6280b54400553bbdeb86e448a65f823639cb2f3e5fb383",
+          "hash": "b8e3a1d98d896f3f406cf13738c443368b50397cd4a0e9f4f4835af1a97973fe"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-06A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "b8e3a1d98d896f3f406cf13738c443368b50397cd4a0e9f4f4835af1a97973fe",
+          "hash": "381accb87d9962e7230e1f7e6cd1ca3a876946ddefda7afc5674833c996d1dcd"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-06A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "381accb87d9962e7230e1f7e6cd1ca3a876946ddefda7afc5674833c996d1dcd",
+          "hash": "68c1242cda6864c3501a9061f24c5bb11dc8b2074b2522c92fa1ebb356faefe3"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-06B",
+      "family_id": "HEW-SF-06",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "El servicio tiene privilegios amplios y recibe una petición para otro recurso, o el permiso caduca antes de aplicar la corrección. Usar el privilegio propio del servicio produciría una intervención no justificada por esa decisión.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-06B",
+          "controller_result": {
+            "operation_id": "HEW-SC-06B",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 15,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "applied_at": null,
+            "delivery_at": null,
+            "reasons": [
+              "DELEGATION_NOT_APPLICABLE"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 15,
+            "controller_work_claim": 15,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "ACTION_DENIED"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "3b91b38e63473187c258663240b2009cad1b23e1875a1f5008f19c4960498430",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-06B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "5b7f5aeec44f308831be4176adfdff6fa6bf7701404f05246640b3a3e39fd5b5"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-06B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "5b7f5aeec44f308831be4176adfdff6fa6bf7701404f05246640b3a3e39fd5b5",
+          "hash": "0b2c664fbaac9413ce4f7ea7c63cf61fc40a16c3b73eb3e9965bd7c29ecfbdd8"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-06B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-06B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-06B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "0b2c664fbaac9413ce4f7ea7c63cf61fc40a16c3b73eb3e9965bd7c29ecfbdd8",
+          "hash": "4f5cb4fa30c18ece19b5c5fa48fda161e0d061688eba590075cc36aff2b26a1b"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-06B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-06B"
+          },
+          "previous_hash": "4f5cb4fa30c18ece19b5c5fa48fda161e0d061688eba590075cc36aff2b26a1b",
+          "hash": "3b3a84e488ef5d0f6a3563472bf1993c8f4b82482534f2074208cfb5224014cc"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-06B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-06B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-06B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "3b3a84e488ef5d0f6a3563472bf1993c8f4b82482534f2074208cfb5224014cc",
+          "hash": "11ce234d9467b0c5bd3d9466b22365fa4dd1b72483a06195992c7acd5c3b32ab"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-06B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-06B"
+          },
+          "previous_hash": "11ce234d9467b0c5bd3d9466b22365fa4dd1b72483a06195992c7acd5c3b32ab",
+          "hash": "4af20609de9c7a7a7f0d8cccdeda00215b99b89b1cb6cd3a6620887fbeaf11d2"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-06B",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "4af20609de9c7a7a7f0d8cccdeda00215b99b89b1cb6cd3a6620887fbeaf11d2",
+          "hash": "a00410eb47963e754830005121b6eec4c7d2b660c6b19d37383dc5dff40a85ca"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-06B",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "a00410eb47963e754830005121b6eec4c7d2b660c6b19d37383dc5dff40a85ca",
+          "hash": "f87e20a2377be7874e30781415f42ccb008d343de5039058797b1f7fdaf03dae"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-06B",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "f87e20a2377be7874e30781415f42ccb008d343de5039058797b1f7fdaf03dae",
+          "hash": "062e3b355e2b5b5e1f35f7573cc9a98e90a8a952614f53e2d02284e9084697ec"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-06B",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "062e3b355e2b5b5e1f35f7573cc9a98e90a8a952614f53e2d02284e9084697ec",
+          "hash": "75bef7026e497f66823c37fd37ee43f2d91998f0c341f84827c9fe25eefb7930"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-06B",
+          "tick": 7,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "DELEGATION_NOT_APPLICABLE"
+            ]
+          },
+          "previous_hash": "75bef7026e497f66823c37fd37ee43f2d91998f0c341f84827c9fe25eefb7930",
+          "hash": "3b91b38e63473187c258663240b2009cad1b23e1875a1f5008f19c4960498430"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-07A",
+      "family_id": "HEW-SF-07",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "El servicio que necesita revisión permite un traspaso breve a un respaldo. El humano puede mantener la continuidad mientras se evalúa y aplica la corrección.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-07A",
+          "controller_result": {
+            "operation_id": "HEW-SC-07A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "dca69ff2d061741bb9f2640226a5c3dbc037ea922388b45102852c42a72a3182",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-07A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "b1a878a4505fb0a9efa5c9d03d32ee94ca36d690f35dc77f4fec0da9939537ca"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-07A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "b1a878a4505fb0a9efa5c9d03d32ee94ca36d690f35dc77f4fec0da9939537ca",
+          "hash": "f165851e08ad46f08d3614d0ceeb81a3705777ea9e6950aa082f7782c3f1b91a"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-07A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-07A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-07A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "f165851e08ad46f08d3614d0ceeb81a3705777ea9e6950aa082f7782c3f1b91a",
+          "hash": "378ced3cb950eb433801720482210b93080fa4d7fede027681db85a360cb1f99"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-07A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-07A"
+          },
+          "previous_hash": "378ced3cb950eb433801720482210b93080fa4d7fede027681db85a360cb1f99",
+          "hash": "43cd4557183445ef44153111d9753a9efd48a6b9366b8e0ebf03a61a53dc0a36"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-07A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-07A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-07A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "43cd4557183445ef44153111d9753a9efd48a6b9366b8e0ebf03a61a53dc0a36",
+          "hash": "f45631af4ee49a76d3fe743c61cc3e948d0a68ef17888b83bbc8871b3723b9e6"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-07A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-07A"
+          },
+          "previous_hash": "f45631af4ee49a76d3fe743c61cc3e948d0a68ef17888b83bbc8871b3723b9e6",
+          "hash": "d4e27771c0c364daff11e1a9afbd064e0b54392e9aee6c0642352aa95a08ef93"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-07A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "d4e27771c0c364daff11e1a9afbd064e0b54392e9aee6c0642352aa95a08ef93",
+          "hash": "36ea2f66cfcc0b033b347f5d750bb60250108cef84a6049de645e83da50b6968"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-07A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "36ea2f66cfcc0b033b347f5d750bb60250108cef84a6049de645e83da50b6968",
+          "hash": "5d0653f48d144bb2737a185fee0ba40708a2a85bb10bad92235b3fd755196ba7"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-07A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "5d0653f48d144bb2737a185fee0ba40708a2a85bb10bad92235b3fd755196ba7",
+          "hash": "79fd1099c1b270f3608c5012ca6294abbcc418520d9c95ef4a03d38619ef6914"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-07A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "79fd1099c1b270f3608c5012ca6294abbcc418520d9c95ef4a03d38619ef6914",
+          "hash": "f6e0b6d8a71a4fa8119616bfd2e4fe14dab1ef0058c0245318a472856b5d3cfb"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-07A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "f6e0b6d8a71a4fa8119616bfd2e4fe14dab1ef0058c0245318a472856b5d3cfb",
+          "hash": "b8e3d9a396e96c695aa9932431fbb5ff500c93d089208784fa8e4055faa91d97"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-07A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "b8e3d9a396e96c695aa9932431fbb5ff500c93d089208784fa8e4055faa91d97",
+          "hash": "022b5add163302d1e8854bbdd5fceb9de84f9ac0df88794f659d78aaf802ac26"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-07A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "022b5add163302d1e8854bbdd5fceb9de84f9ac0df88794f659d78aaf802ac26",
+          "hash": "dca69ff2d061741bb9f2640226a5c3dbc037ea922388b45102852c42a72a3182"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-07B",
+      "family_id": "HEW-SF-07",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Parar el servicio incumpliría una obligación crítica y no se ha establecido una alternativa autorizada que quepa en la ventana. El aviso debe conservarse aunque todavía no exista reparación útil.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-07B",
+          "controller_result": {
+            "operation_id": "HEW-SC-07B",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 15,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "applied_at": null,
+            "delivery_at": null,
+            "reasons": [
+              "CONTINUITY_TRANSITION_NOT_ESTABLISHED"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 15,
+            "controller_work_claim": 15,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "ACTION_DENIED"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "775b1152d8f30853b5bc21fee624ac96bb63d0761fc5ab715315d2691d7bd34e",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-07B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "ce4c833aee6922e0b91a3c1a6b2c8becbb2d32a67569b62f85888d23ef0fb3b6"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-07B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "ce4c833aee6922e0b91a3c1a6b2c8becbb2d32a67569b62f85888d23ef0fb3b6",
+          "hash": "68eba3a5da8a7a9b142a5337b470ae1d4c8229709e48e8989e215c7a411e480c"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-07B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-07B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-07B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "68eba3a5da8a7a9b142a5337b470ae1d4c8229709e48e8989e215c7a411e480c",
+          "hash": "6bff20f620400f48829d4bf87aad98c096a4c5d44c1ef422354eab24898083f1"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-07B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-07B"
+          },
+          "previous_hash": "6bff20f620400f48829d4bf87aad98c096a4c5d44c1ef422354eab24898083f1",
+          "hash": "a0416271b88e93cfb9a667b6e8e9b98d2a88f8545fa5443e1aac3ebf1b96614a"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-07B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-07B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-07B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "a0416271b88e93cfb9a667b6e8e9b98d2a88f8545fa5443e1aac3ebf1b96614a",
+          "hash": "214b49adeb123fba6275efefd39286e6e76cf0552c2a6b1c184d7d8e467069dd"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-07B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-07B"
+          },
+          "previous_hash": "214b49adeb123fba6275efefd39286e6e76cf0552c2a6b1c184d7d8e467069dd",
+          "hash": "5609a5db393ff83c270e3ecfcc0ec1fab8a48043431ffbf22b2e6c368995a93d"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-07B",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "5609a5db393ff83c270e3ecfcc0ec1fab8a48043431ffbf22b2e6c368995a93d",
+          "hash": "2bd631722bb6d1e3d12a3349ebad449b647484b00ce474279f826c775882f5f8"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-07B",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "2bd631722bb6d1e3d12a3349ebad449b647484b00ce474279f826c775882f5f8",
+          "hash": "f09a86f3adb0cb4607f3b31074f2fced187eceab095153b6d5163413cbf88dbe"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-07B",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "f09a86f3adb0cb4607f3b31074f2fced187eceab095153b6d5163413cbf88dbe",
+          "hash": "cb49296243f5a81bb6a2077443150090d9f6f57d20ea249652d9a3778b1953d7"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-07B",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "cb49296243f5a81bb6a2077443150090d9f6f57d20ea249652d9a3778b1953d7",
+          "hash": "4d739928301be29b892d1bad5bfb1fc2ffcacc5141aeef720b9fb4fe6a6447e7"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-07B",
+          "tick": 7,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "CONTINUITY_TRANSITION_NOT_ESTABLISHED"
+            ]
+          },
+          "previous_hash": "4d739928301be29b892d1bad5bfb1fc2ffcacc5141aeef720b9fb4fe6a6447e7",
+          "hash": "775b1152d8f30853b5bc21fee624ac96bb63d0761fc5ab715315d2691d7bd34e"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-08A",
+      "family_id": "HEW-SF-08",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "La corrección se aplica después de instalar el nuevo traspaso y comprobar la autorización. Una consulta o medición del efecto confirma lo ocurrido; el caso puede avanzar hacia reentrada.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-08A",
+          "controller_result": {
+            "operation_id": "HEW-SC-08A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "10982b12689d7b17c8cd8878c1edfed2080aef8bcb9826afba502194950745d6",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-08A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "826462a6ebfc35359ff9159c6be6cdee34634f9e9a0d4f1168f07b9341bce940"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-08A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "826462a6ebfc35359ff9159c6be6cdee34634f9e9a0d4f1168f07b9341bce940",
+          "hash": "2d824dc62396ffae21efa6a98678d1b20a6e4d3c21c4034729bd6c7405c4d760"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-08A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-08A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-08A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "2d824dc62396ffae21efa6a98678d1b20a6e4d3c21c4034729bd6c7405c4d760",
+          "hash": "0dd69061d053d05b01d10384b2188f6c7095a71370cf5b09875dc9d209c19300"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-08A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-08A"
+          },
+          "previous_hash": "0dd69061d053d05b01d10384b2188f6c7095a71370cf5b09875dc9d209c19300",
+          "hash": "be42e09ea70957944439ddeb6c201ceaf5a4ed5fbe8d419efd667c13f81bb9c3"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-08A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-08A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-08A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "be42e09ea70957944439ddeb6c201ceaf5a4ed5fbe8d419efd667c13f81bb9c3",
+          "hash": "582a49999b36d71317f792ac569526ba2d91b918e3c6b81f2357e7da0c029822"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-08A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-08A"
+          },
+          "previous_hash": "582a49999b36d71317f792ac569526ba2d91b918e3c6b81f2357e7da0c029822",
+          "hash": "5f6a5ca7ed1d8e5e2dd92fe17bbcb2bf26cfc790dddbf64c689814dd52b7074c"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-08A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "5f6a5ca7ed1d8e5e2dd92fe17bbcb2bf26cfc790dddbf64c689814dd52b7074c",
+          "hash": "0b8cb321d6f519ca46f6d53385bbb62d25daf47f5df987349b1e71a4bb1ad63b"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-08A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "0b8cb321d6f519ca46f6d53385bbb62d25daf47f5df987349b1e71a4bb1ad63b",
+          "hash": "b85d89fb63916cb045b63ab8db7d3a7339f97d0204b7ad4b943e610946ce9bb5"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-08A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "b85d89fb63916cb045b63ab8db7d3a7339f97d0204b7ad4b943e610946ce9bb5",
+          "hash": "30ff9d1a50e91d37335e0b14c72fa41a7ccbed7886258e4ac5677364dffad070"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-08A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "30ff9d1a50e91d37335e0b14c72fa41a7ccbed7886258e4ac5677364dffad070",
+          "hash": "c7c2bad843142f6e21187d6db68fa9822e1dc6bf3ddd764b06279c5749dacc47"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-08A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "c7c2bad843142f6e21187d6db68fa9822e1dc6bf3ddd764b06279c5749dacc47",
+          "hash": "fb538c3a2089e59ac21f1f90377df675ee9c98385c1d7a6f297b8a233b3327eb"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-08A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "fb538c3a2089e59ac21f1f90377df675ee9c98385c1d7a6f297b8a233b3327eb",
+          "hash": "9c8416db8336686c0dfd044d204f7501752c34871f87c5f6f40d4c70b2eb7999"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-08A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "9c8416db8336686c0dfd044d204f7501752c34871f87c5f6f40d4c70b2eb7999",
+          "hash": "10982b12689d7b17c8cd8878c1edfed2080aef8bcb9826afba502194950745d6"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-08B",
+      "family_id": "HEW-SF-08",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Una orden antigua llega durante el traspaso, o la corrección se ejecuta pero se pierde la respuesta. El humano ve una aprobación o timeout sin saber todavía qué ocurrió.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-08B",
+          "controller_result": {
+            "operation_id": "HEW-SC-08B",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 15,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "applied_at": null,
+            "delivery_at": null,
+            "reasons": [
+              "OLD_GENERATION"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 15,
+            "controller_work_claim": 15,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "ACTION_DENIED"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "ac84043ee68e172280721d8609ef74b006e7b1c187c0e1b19b1db7da8eea5e36",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-08B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "1f5bc7fe8984494a80e69140a1ab53f4a069b8401fe063077414072692859044"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-08B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "1f5bc7fe8984494a80e69140a1ab53f4a069b8401fe063077414072692859044",
+          "hash": "d3821be8e1620a7e18ba3a6eef5b0ac161f64b9655a410da06a5015ea3f72c06"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-08B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-08B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-08B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "d3821be8e1620a7e18ba3a6eef5b0ac161f64b9655a410da06a5015ea3f72c06",
+          "hash": "44ba14df327b0bdb5a6a6d26a64f8e2a332889641093893f460c0e97967f7c3c"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-08B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-08B"
+          },
+          "previous_hash": "44ba14df327b0bdb5a6a6d26a64f8e2a332889641093893f460c0e97967f7c3c",
+          "hash": "23e260cc8ce95d05b612afc40ce3723336877a2fde698203edb8a1057630e6c9"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-08B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-08B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-08B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "23e260cc8ce95d05b612afc40ce3723336877a2fde698203edb8a1057630e6c9",
+          "hash": "da89356ae957d707d6b8385a2f59663fcf78f7ed9f9a9b988fa5230d9ada0df2"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-08B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-08B"
+          },
+          "previous_hash": "da89356ae957d707d6b8385a2f59663fcf78f7ed9f9a9b988fa5230d9ada0df2",
+          "hash": "abfbabc50c2a0f5afab57b89567a4817ba1b34c2c3acfec69bc32c79cd8069f8"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-08B",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "abfbabc50c2a0f5afab57b89567a4817ba1b34c2c3acfec69bc32c79cd8069f8",
+          "hash": "c1fcbdcc61a46166fafc232fef6cea8b493af6e09904e321265d95fb30a7647e"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-08B",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "c1fcbdcc61a46166fafc232fef6cea8b493af6e09904e321265d95fb30a7647e",
+          "hash": "7a0958b2458b14a973d7ce5783c11e0c890b56a8df152497402442e05d8f004f"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-08B",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "7a0958b2458b14a973d7ce5783c11e0c890b56a8df152497402442e05d8f004f",
+          "hash": "773f70af782c62cc590d47546926ff4c8cb041c22e495a22b67229cea2c5f43d"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-08B",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "773f70af782c62cc590d47546926ff4c8cb041c22e495a22b67229cea2c5f43d",
+          "hash": "b9c93ba970aeb61d6b7f3f27608420702c0532d137528247bfa4b70862546949"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-08B",
+          "tick": 7,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "OLD_GENERATION"
+            ]
+          },
+          "previous_hash": "b9c93ba970aeb61d6b7f3f27608420702c0532d137528247bfa4b70862546949",
+          "hash": "ac84043ee68e172280721d8609ef74b006e7b1c187c0e1b19b1db7da8eea5e36"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-09A",
+      "family_id": "HEW-SF-09",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Tras la objeción llega evidencia nueva y suficiente dentro del plazo. El humano y el controlador corrigen la base, invalidan el compromiso anterior y reanudan la alternativa autorizada.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative. A1 sets both restart-pair work budgets24 before execution to separate no-new-basis failure from added-message budget exhaustion; clocks/history are retained.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-09A",
+          "controller_result": {
+            "operation_id": "HEW-SC-09A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 19,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 19,
+            "controller_work_claim": 19,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESTART_RECORDED",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "681a63e923a7a9cc513fd2782d42dcf4f8b4f4ccf6a4118a65bae71a64fdcfaa",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-09A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "39cf309bda43f6dee62fef1eb66cbebb2cd48088e027fda590e976fe68fc295e"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-09A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "39cf309bda43f6dee62fef1eb66cbebb2cd48088e027fda590e976fe68fc295e",
+          "hash": "9eadc11cf98fcf4b0b7f5e8ebf4a6a596ecf02da062baeb25a84d2fe594ece9e"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-09A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-09A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-09A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "9eadc11cf98fcf4b0b7f5e8ebf4a6a596ecf02da062baeb25a84d2fe594ece9e",
+          "hash": "1f765c8cf1d9164f2178eeddb988410b2fed82e5d47c745254dbbac909d733aa"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-09A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-09A"
+          },
+          "previous_hash": "1f765c8cf1d9164f2178eeddb988410b2fed82e5d47c745254dbbac909d733aa",
+          "hash": "d52f6a5a87d9742cb0d19298fc3399bd05d7eb9af4e862038319ec42bc103dfe"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-09A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-09A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-09A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "d52f6a5a87d9742cb0d19298fc3399bd05d7eb9af4e862038319ec42bc103dfe",
+          "hash": "12f10999fd28493038b50cd79c54abe3fbe917a42bf007d35ad0a62ceef2347f"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-09A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-09A"
+          },
+          "previous_hash": "12f10999fd28493038b50cd79c54abe3fbe917a42bf007d35ad0a62ceef2347f",
+          "hash": "31f2e07527700b491c0cab5389ed240227723eb0e107c8a03367bdf7eaf46e5b"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-09A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "31f2e07527700b491c0cab5389ed240227723eb0e107c8a03367bdf7eaf46e5b",
+          "hash": "285c2ed1789afc77e8f78875e4c245ef32bc65ccc501716d280786c2564c2fb2"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-09A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "285c2ed1789afc77e8f78875e4c245ef32bc65ccc501716d280786c2564c2fb2",
+          "hash": "1ad0ac59fa8a5356cd4fadbf182858c3e747134dd3e23515d061cbea082577b1"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-09A",
+          "tick": 3,
+          "kind": "RESTART_RECORDED",
+          "detail": {
+            "attempt": 1,
+            "new_evidence": true
+          },
+          "previous_hash": "1ad0ac59fa8a5356cd4fadbf182858c3e747134dd3e23515d061cbea082577b1",
+          "hash": "bd0dfa9f7d758ddeb3b9f4160a26b5d565b43eec0069c90b70026de335f1cbfc"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-09A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "bd0dfa9f7d758ddeb3b9f4160a26b5d565b43eec0069c90b70026de335f1cbfc",
+          "hash": "d764e4f2de8ff096a5f030f5af14f680771b356a18a1804225d53ab662f6b52e"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-09A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "d764e4f2de8ff096a5f030f5af14f680771b356a18a1804225d53ab662f6b52e",
+          "hash": "5b7ef1554713d9ab394f04b9ff996a732bd0e1459909c4dd1f4c8aaad932f21a"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-09A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "5b7ef1554713d9ab394f04b9ff996a732bd0e1459909c4dd1f4c8aaad932f21a",
+          "hash": "e5d04acc376cfc06649d3c2e0382a45472501b4c9724aea68d97dfbcfa6a80f9"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-09A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "e5d04acc376cfc06649d3c2e0382a45472501b4c9724aea68d97dfbcfa6a80f9",
+          "hash": "1623b27d24ab7ce9023b0ffeb0c9449a95dc19c599bc9d547dc9d1d6b2c57d13"
+        },
+        {
+          "seq": 14,
+          "operation_id": "HEW-SC-09A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "1623b27d24ab7ce9023b0ffeb0c9449a95dc19c599bc9d547dc9d1d6b2c57d13",
+          "hash": "681a63e923a7a9cc513fd2782d42dcf4f8b4f4ccf6a4118a65bae71a64fdcfaa"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-09B",
+      "family_id": "HEW-SF-09",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "El equipo reinicia tres veces con la misma fuente y el mismo punto ciego. No aparece evidencia nueva; las notificaciones repetidas no hacen independiente cada intento.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative. A1 sets both restart-pair work budgets24 before execution to separate no-new-basis failure from added-message budget exhaustion; clocks/history are retained.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-09B",
+          "controller_result": {
+            "operation_id": "HEW-SC-09B",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "applied_at": null,
+            "delivery_at": null,
+            "reasons": [
+              "BASIS_NOT_CURRENT_OR_APPLICABLE"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESTART_RECORDED",
+              "RESTART_RECORDED",
+              "RESTART_RECORDED",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "ACTION_DENIED"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "cb416bd95a9fe35afeb61add5689e0b237a3f48198f2041fc14a6d3c528d796d",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-09B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "6280626f149430b7e1bce615b4f833fe98bcc5b9bfd5e0a50e5440afe279ac1f"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-09B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "6280626f149430b7e1bce615b4f833fe98bcc5b9bfd5e0a50e5440afe279ac1f",
+          "hash": "d918caef30e5746cefbc11c492445a1f6d9cd5c478c93ffa99bf21cfdd997bfd"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-09B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-09B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-09B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "d918caef30e5746cefbc11c492445a1f6d9cd5c478c93ffa99bf21cfdd997bfd",
+          "hash": "f749157b19eb3d33d80fd02c9d33573d5796113e7688c8e6ad5bec56d79f2ab0"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-09B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-09B"
+          },
+          "previous_hash": "f749157b19eb3d33d80fd02c9d33573d5796113e7688c8e6ad5bec56d79f2ab0",
+          "hash": "5e6dbe48d9317e7ac98ea58d91d8456fffb1bb6c63dda8ff7bb1817a398f2604"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-09B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-09B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-09B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "5e6dbe48d9317e7ac98ea58d91d8456fffb1bb6c63dda8ff7bb1817a398f2604",
+          "hash": "07c9aadf1b1c6d5f3212bef87083e3e9f0d82639a5795466c5c6fd70449a2c5b"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-09B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-09B"
+          },
+          "previous_hash": "07c9aadf1b1c6d5f3212bef87083e3e9f0d82639a5795466c5c6fd70449a2c5b",
+          "hash": "c580c9f01bd37907d1661779beb9d75d6f610a8296f51f8a9732e41b49cc6d77"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-09B",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "c580c9f01bd37907d1661779beb9d75d6f610a8296f51f8a9732e41b49cc6d77",
+          "hash": "50a229bacc6f8e302e79e7a03b7043bda00c3c18293c6fee8741280d62c827bb"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-09B",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "50a229bacc6f8e302e79e7a03b7043bda00c3c18293c6fee8741280d62c827bb",
+          "hash": "50a48c69110aa633a442aeee4c3717b852b9cc16eb2d9ae1885055e34eb6fc91"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-09B",
+          "tick": 3,
+          "kind": "RESTART_RECORDED",
+          "detail": {
+            "attempt": 1,
+            "new_evidence": false
+          },
+          "previous_hash": "50a48c69110aa633a442aeee4c3717b852b9cc16eb2d9ae1885055e34eb6fc91",
+          "hash": "1eb24ede12a89a0d2d6285a4e0f57b8080e8a0ab1b011ebac5ea118e0b33cf09"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-09B",
+          "tick": 3,
+          "kind": "RESTART_RECORDED",
+          "detail": {
+            "attempt": 2,
+            "new_evidence": false
+          },
+          "previous_hash": "1eb24ede12a89a0d2d6285a4e0f57b8080e8a0ab1b011ebac5ea118e0b33cf09",
+          "hash": "fd04f2e730d652f1aaec1780085af09bc0ce95406d66e490c2374c39fa3fedee"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-09B",
+          "tick": 3,
+          "kind": "RESTART_RECORDED",
+          "detail": {
+            "attempt": 3,
+            "new_evidence": false
+          },
+          "previous_hash": "fd04f2e730d652f1aaec1780085af09bc0ce95406d66e490c2374c39fa3fedee",
+          "hash": "150280c336d2550662489d98f80067d106e2caea31c097192d83f67ab8d996a9"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-09B",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "150280c336d2550662489d98f80067d106e2caea31c097192d83f67ab8d996a9",
+          "hash": "385bf3d20cd529cb192f91204f097b5022f6f74a74c54257a39fe4d92b80b957"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-09B",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "385bf3d20cd529cb192f91204f097b5022f6f74a74c54257a39fe4d92b80b957",
+          "hash": "fe6ce4f79e9ef68ee08aa3b4480f0a4b6c4a695c8de03f1afa04b220c0e265be"
+        },
+        {
+          "seq": 14,
+          "operation_id": "HEW-SC-09B",
+          "tick": 7,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "BASIS_NOT_CURRENT_OR_APPLICABLE"
+            ]
+          },
+          "previous_hash": "fe6ce4f79e9ef68ee08aa3b4480f0a4b6c4a695c8de03f1afa04b220c0e265be",
+          "hash": "cb416bd95a9fe35afeb61add5689e0b237a3f48198f2041fc14a6d3c528d796d"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-10A",
+      "family_id": "HEW-SF-10",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Dos equipos reciben un caso común mediante una correspondencia documentada de decisión, recurso y vigencia. Cada uno conserva su autoridad y devuelve una respuesta con el alcance acordado.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-10A",
+          "controller_result": {
+            "operation_id": "HEW-SC-10A",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": false,
+            "sufficient_delivery": true,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "DELIVERED",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "a1867008bb045467d449e71a701bd7db90bdbb202f87508f131172404b8d9d3c",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-10A",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "4ba7cdf637dcee71ea07c7d89386b6a5c47f1794ffdeb90fa56995a0b4e6eefb"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-10A",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "4ba7cdf637dcee71ea07c7d89386b6a5c47f1794ffdeb90fa56995a0b4e6eefb",
+          "hash": "44f71168f03b56f22ab3dcb8cdd7125eb8f001445651d2d3d5323766ae84eaca"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-10A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-10A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-10A"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "44f71168f03b56f22ab3dcb8cdd7125eb8f001445651d2d3d5323766ae84eaca",
+          "hash": "a1c102d9d242c718d5805d07f37caadaf0956ea888e5716fe4ebaf9a3ee49286"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-10A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-10A"
+          },
+          "previous_hash": "a1c102d9d242c718d5805d07f37caadaf0956ea888e5716fe4ebaf9a3ee49286",
+          "hash": "3c0803dd7d2dda9828c4c5974f03264133d644c2938300a782fa131544d86583"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-10A",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-10A",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-10A"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "3c0803dd7d2dda9828c4c5974f03264133d644c2938300a782fa131544d86583",
+          "hash": "2e7dd8119f5dec21789391a4bb2cab4f896e53f31c41992802bc3a12b9da5019"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-10A",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-10A"
+          },
+          "previous_hash": "2e7dd8119f5dec21789391a4bb2cab4f896e53f31c41992802bc3a12b9da5019",
+          "hash": "12f3de2ad8893352c3b5987832c3fa75dcc7d4232475107bced6be87715e328b"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-10A",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "12f3de2ad8893352c3b5987832c3fa75dcc7d4232475107bced6be87715e328b",
+          "hash": "ff7425dc5a62d3015c60057f2ce02dabebaab540ad640f5cfd6ad0f228976ed6"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-10A",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "ff7425dc5a62d3015c60057f2ce02dabebaab540ad640f5cfd6ad0f228976ed6",
+          "hash": "9642611e0a7b94855604bcfcc2efb48e516d1849dadfd0db0fcc3544f210a327"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-10A",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "9642611e0a7b94855604bcfcc2efb48e516d1849dadfd0db0fcc3544f210a327",
+          "hash": "ad0684c7b571cd374fbe10663c942fa364a29b7010cbb14ff0340460049b4afe"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-10A",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "ad0684c7b571cd374fbe10663c942fa364a29b7010cbb14ff0340460049b4afe",
+          "hash": "3911e03826589de55c927ee05339e88fdb2a1cf2690cd576368938e453b32dda"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-10A",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "3911e03826589de55c927ee05339e88fdb2a1cf2690cd576368938e453b32dda",
+          "hash": "e0559f32cb4e581089757faf79412596e5ad28b3d49707b473cce6c15ea986a9"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-SC-10A",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "e0559f32cb4e581089757faf79412596e5ad28b3d49707b473cce6c15ea986a9",
+          "hash": "7106aef7e70ef916a6ecb08723bfcd51fba7a4c4558eb0a98e7f825bbe8cefbd"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-SC-10A",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "7106aef7e70ef916a6ecb08723bfcd51fba7a4c4558eb0a98e7f825bbe8cefbd",
+          "hash": "a1867008bb045467d449e71a701bd7db90bdbb202f87508f131172404b8d9d3c"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-SC-10B",
+      "family_id": "HEW-SF-10",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "human_narrative": "Un equipo interpreta 'aprobado' como autorización de actuar y el otro solo como revisión terminada. O usa otra ventana/versionado, mientras los mensajes parecen idénticos.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "operations": [
+        {
+          "operation_id": "HEW-SC-10B",
+          "controller_result": {
+            "operation_id": "HEW-SC-10B",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 15,
+            "applied": false,
+            "confirmed": false,
+            "delivered": false,
+            "applied_at": null,
+            "delivery_at": null,
+            "reasons": [
+              "SEMANTIC_BINDING_UNRESOLVED"
+            ]
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 0,
+            "violation_observed": false,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "NOT_APPLIED",
+            "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+            "work_units": 15,
+            "controller_work_claim": 15,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "ACTION_DENIED"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "b7847449cf37f2708cf514db461184c8feb311fd00cde394495faf45314a9ea7",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-SC-10B",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "b5c5e1c251f8c408b33a615054b822f0fe31166ec88af1f104287354f0695a23"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-SC-10B",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "b5c5e1c251f8c408b33a615054b822f0fe31166ec88af1f104287354f0695a23",
+          "hash": "b0b3cb92eebbc8233cc0fd9b718fc3115db662ba49ff4a4976f28f985f8875fb"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-SC-10B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-10B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-10B"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "b0b3cb92eebbc8233cc0fd9b718fc3115db662ba49ff4a4976f28f985f8875fb",
+          "hash": "2dba802b224d105768f2fcffd92faf5125896553d1a876ee967cd795921a98f5"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-SC-10B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-SC-10B"
+          },
+          "previous_hash": "2dba802b224d105768f2fcffd92faf5125896553d1a876ee967cd795921a98f5",
+          "hash": "36cc964e81b1ce2bb6a6bf083f7c67f1741001e49a431b89ca4f127dd1f40ab5"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-SC-10B",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-SC-10B",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-SC-10B"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "36cc964e81b1ce2bb6a6bf083f7c67f1741001e49a431b89ca4f127dd1f40ab5",
+          "hash": "fdce02666f1602dee976f0bc75255e71f76cc38b170769a35832e3e6f9fb25b5"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-SC-10B",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-SC-10B"
+          },
+          "previous_hash": "fdce02666f1602dee976f0bc75255e71f76cc38b170769a35832e3e6f9fb25b5",
+          "hash": "7c7c937e602a7ce93de62d36f47c5e92a6201517313480ef8d3692f9e2234078"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-SC-10B",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "7c7c937e602a7ce93de62d36f47c5e92a6201517313480ef8d3692f9e2234078",
+          "hash": "02d8a1115cf926667a2abf124332b3eeeb15c02ac66e20b71bc38fe2c84d47d4"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-SC-10B",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "02d8a1115cf926667a2abf124332b3eeeb15c02ac66e20b71bc38fe2c84d47d4",
+          "hash": "31694d482821ee4abfcd0584e22fa7d625fe8b854e44e4e7d87299b035c7d0fc"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-SC-10B",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "31694d482821ee4abfcd0584e22fa7d625fe8b854e44e4e7d87299b035c7d0fc",
+          "hash": "e03af60ae7af28a97d65503ba7bb053acb28647fba9473d5c12fddfde37dc12d"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-SC-10B",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "e03af60ae7af28a97d65503ba7bb053acb28647fba9473d5c12fddfde37dc12d",
+          "hash": "00a770e10897b4bfb3956926447eaf5259479c3ad905ded7d722d67d02d16c8e"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-SC-10B",
+          "tick": 7,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "SEMANTIC_BINDING_UNRESOLVED"
+            ]
+          },
+          "previous_hash": "00a770e10897b4bfb3956926447eaf5259479c3ad905ded7d722d67d02d16c8e",
+          "hash": "b7847449cf37f2708cf514db461184c8feb311fd00cde394495faf45314a9ea7"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    },
+    {
+      "scenario_id": "HEW-DIAG-FALSE-APPRAISAL",
+      "family_id": "HEW-SF-04",
+      "modality": "OUTSIDE_SOURCE_CONTRACT_DIAGNOSTIC",
+      "human_narrative": "La fuente afirma que su certificado fue appraised y es suficiente, pero el hecho que sostiene es falso. La integración no tiene una fuente legítima adicional para descubrirlo.",
+      "selection_note": "Deliberately outside the admitted truthful-source hypothesis. Retain the counterexample; never label it a successful protected decision.",
+      "operations": [
+        {
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "controller_result": {
+            "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+            "ack": {
+              "subject": "H2",
+              "start": 2,
+              "finish": 3
+            },
+            "review": {
+              "subject": "H2",
+              "start": 3,
+              "finish": 6
+            },
+            "work": 18,
+            "applied": true,
+            "confirmed": true,
+            "delivered": true,
+            "applied_at": 7,
+            "delivery_at": 8,
+            "reasons": []
+          },
+          "oracle_verdict": {
+            "actual_effect_count": 1,
+            "violation_observed": true,
+            "sufficient_delivery": false,
+            "continuity_preserved": true,
+            "owner_ack_timely": true,
+            "case_preserved": true,
+            "effect_knowledge": "CONFIRMED",
+            "outcome": "FAIL_VIOLATION",
+            "work_units": 18,
+            "controller_work_claim": 18,
+            "population_risk_rate": null,
+            "human_accuracy_rate": null,
+            "events": [
+              "FILED",
+              "SOURCE_PREPARATION_CHARGED",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "NOTIFICATION_SENT",
+              "PEER_RECEIPT",
+              "RESERVED",
+              "OWNER_ACK",
+              "RESERVED",
+              "REVIEW_COMPLETED",
+              "EFFECT_APPLIED",
+              "EFFECT_CONFIRMED",
+              "QUALIFIED_REENTRY_AND_DELIVERY"
+            ]
+          },
+          "private_world_sent_to_controller": false
+        }
+      ],
+      "event_chain_head": "63bba7bc3e1548811230f56e769157f5d04dcab59576164aca0fc538597c8928",
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "2a7631d6be5d4adbc785ffc01ab31b3b01240cf7efce0c4df6fc5925e26f66a5"
+        },
+        {
+          "seq": 2,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "2a7631d6be5d4adbc785ffc01ab31b3b01240cf7efce0c4df6fc5925e26f66a5",
+          "hash": "bc0c1b2271149d954ef3d80bbf691aaed4bf08f221cddc37bca0107ac567caea"
+        },
+        {
+          "seq": 3,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-DIAG-FALSE-APPRAISAL"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "bc0c1b2271149d954ef3d80bbf691aaed4bf08f221cddc37bca0107ac567caea",
+          "hash": "a44b02e748953287b146b1c739d0b7fcc49cca0d45648f782c250f1bb6a5564b"
+        },
+        {
+          "seq": 4,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-HEW-DIAG-FALSE-APPRAISAL"
+          },
+          "previous_hash": "a44b02e748953287b146b1c739d0b7fcc49cca0d45648f782c250f1bb6a5564b",
+          "hash": "d7f2a8c2301ed56f5f871cbbebb732c7acd633b2b4694d706313ad507853f876"
+        },
+        {
+          "seq": 5,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+              "resource": "actuator-A",
+              "source_root": "evidence-HEW-DIAG-FALSE-APPRAISAL"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "d7f2a8c2301ed56f5f871cbbebb732c7acd633b2b4694d706313ad507853f876",
+          "hash": "467f34e783a2254ce013848c7d3aa2c7b360d9b5c644a085a4d610f65e042137"
+        },
+        {
+          "seq": 6,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-HEW-DIAG-FALSE-APPRAISAL"
+          },
+          "previous_hash": "467f34e783a2254ce013848c7d3aa2c7b360d9b5c644a085a4d610f65e042137",
+          "hash": "200a0911f363cddd366a9676aeb13f4cdc5bcae8be9eae4758dd5d694f3d347e"
+        },
+        {
+          "seq": 7,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "200a0911f363cddd366a9676aeb13f4cdc5bcae8be9eae4758dd5d694f3d347e",
+          "hash": "3da7d60e19d15796d6fa7f7c1496cc571f63c45025b49aff8c8c372162df87e3"
+        },
+        {
+          "seq": 8,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "3da7d60e19d15796d6fa7f7c1496cc571f63c45025b49aff8c8c372162df87e3",
+          "hash": "70fdf4d40cdfddf865d1c39146a90cd21fc8a63f62b5c1b53faa4f4c912e30b3"
+        },
+        {
+          "seq": 9,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "70fdf4d40cdfddf865d1c39146a90cd21fc8a63f62b5c1b53faa4f4c912e30b3",
+          "hash": "83df47a54d15f5dd57035f77f5d2ec43c9d6d61f2f47f68e87692c2f1dc0d019"
+        },
+        {
+          "seq": 10,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "83df47a54d15f5dd57035f77f5d2ec43c9d6d61f2f47f68e87692c2f1dc0d019",
+          "hash": "6960510f18efbf73b2aa11035231f8ffa764b7865646b997548b9f96cb8f768c"
+        },
+        {
+          "seq": 11,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "6960510f18efbf73b2aa11035231f8ffa764b7865646b997548b9f96cb8f768c",
+          "hash": "65151e60511dbb3ef6c324b88a17495f395019a25b7e08f73a737cf602fceb48"
+        },
+        {
+          "seq": 12,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "65151e60511dbb3ef6c324b88a17495f395019a25b7e08f73a737cf602fceb48",
+          "hash": "eb610b9678907a81bd67e4685db06996ab0a344c12a1161a3594f0b075dfd12d"
+        },
+        {
+          "seq": 13,
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "eb610b9678907a81bd67e4685db06996ab0a344c12a1161a3594f0b075dfd12d",
+          "hash": "63bba7bc3e1548811230f56e769157f5d04dcab59576164aca0fc538597c8928"
+        }
+      ],
+      "fixture_expectations_matched": true,
+      "native_or_human_execution": false
+    }
+  ],
+  "functional_controls": [
+    {
+      "control": "nominal_full_model_path",
+      "assertion": "PASS",
+      "scope": "ACK+review+current delegation+local digital effect+confirmed delivery"
+    },
+    {
+      "control": "whispering_same_source_lineage",
+      "assertion": "PASS",
+      "scope": "Two bounded recipient records preserve one source origin; not independent evidence"
+    },
+    {
+      "control": "whispering_minimum_payload",
+      "assertion": "PASS",
+      "scope": "No reviewer calendar, grant, private world or case-body disclosure in notifications"
+    },
+    {
+      "control": "oracle_uses_recorded_effect_delivery_and_work",
+      "assertion": "PASS",
+      "scope": "Adjudicator reconstructs outcome/cost from persisted records, not controller summary claims"
+    },
+    {
+      "control": "private_input_key_rejected",
+      "assertion": "PASS",
+      "scope": "Declared public API keys only; not OS/malicious-code isolation"
+    },
+    {
+      "control": "cross_tenant_case_view_rejected",
+      "assertion": "PASS",
+      "scope": "Model API access policy, not encrypted storage"
+    },
+    {
+      "control": "authorized_case_view",
+      "assertion": "PASS",
+      "scope": "Authorized principal access retained"
+    },
+    {
+      "control": "filing_does_not_enable_adverse_action",
+      "assertion": "PASS",
+      "scope": "No adverse effect from filing in this model API; institution/reputation behavior not tested"
+    },
+    {
+      "control": "no_adverse_effect_written",
+      "assertion": "PASS",
+      "scope": "Digital effect count retained"
+    },
+    {
+      "control": "append_only_update_rejected",
+      "assertion": "PASS",
+      "scope": "SQLite event-table trigger; privileged admin can bypass it"
+    },
+    {
+      "control": "append_only_delete_rejected",
+      "assertion": "PASS",
+      "scope": "SQLite event-table trigger; privileged admin can bypass it"
+    },
+    {
+      "control": "event_hash_chain",
+      "assertion": "PASS",
+      "scope": "Tamper-evident chain only while predecessor anchor is trusted"
+    },
+    {
+      "control": "altered_record_detected",
+      "assertion": "PASS",
+      "scope": "An unchanged chain anchor detects this specific alteration; no hardware trust root"
+    },
+    {
+      "control": "duplicate_command_no_new_effect",
+      "assertion": "PASS",
+      "scope": "One local digital effect per command identity under the selected fingerprint"
+    },
+    {
+      "control": "conflicting_command_id_rejected",
+      "assertion": "PASS",
+      "scope": "Fingerprint includes generation in this selected profile"
+    },
+    {
+      "control": "caller_grant_cannot_override_current_source",
+      "assertion": "PASS",
+      "scope": "Environment-supplied current authority overrides stale caller description; issuer authentication stipulated"
+    },
+    {
+      "control": "generation_floor_retained_after_reopen",
+      "assertion": "PASS",
+      "scope": "SQLite close/reopen; not hardware power-loss or distributed consensus test"
+    },
+    {
+      "control": "old_generation_denied_after_reopen",
+      "assertion": "PASS",
+      "scope": "Guard at local transaction after floor44 installed"
+    },
+    {
+      "control": "case_and_pending_notifications_atomic",
+      "assertion": "PASS",
+      "scope": "Local transaction retains filing and two pending notifications before relay"
+    },
+    {
+      "control": "outbox_relay_after_reopen_idempotent",
+      "assertion": "PASS",
+      "scope": "Two local relays produce only one recipient record per operation/recipient; network effects not tested"
+    },
+    {
+      "control": "outbox_recovery_chain",
+      "assertion": "PASS",
+      "scope": "Event chain remains coherent after relay replay"
+    },
+    {
+      "control": "atomic_shared_capacity_reservation",
+      "assertion": "PASS",
+      "scope": "Two real SQLite connections; one exclusive reviewer slot"
+    },
+    {
+      "control": "no_overlapping_reservations",
+      "assertion": "PASS",
+      "scope": "Post-run independent interval audit"
+    },
+    {
+      "control": "revocation_between_review_and_effect",
+      "assertion": "PASS",
+      "scope": "Actual model authority-store update after review; no effect under the stale caller description"
+    },
+    {
+      "control": "missing_affected_peer_receipt_keeps_gate",
+      "assertion": "PASS",
+      "scope": "All declared affected receipts required by this profile; filing itself requires no majority"
+    },
+    {
+      "control": "unauthorized_recipient_not_given_payload",
+      "assertion": "PASS",
+      "scope": "One denied cross-domain notification; real federation/privacy not tested"
+    },
+    {
+      "control": "current_case_binding_tenant",
+      "assertion": "PASS",
+      "scope": "Caller cannot move a filed operation to another principal/resource/actor binding"
+    },
+    {
+      "control": "current_case_binding_resource",
+      "assertion": "PASS",
+      "scope": "Caller cannot move a filed operation to another principal/resource/actor binding"
+    },
+    {
+      "control": "current_case_binding_deputy",
+      "assertion": "PASS",
+      "scope": "Caller cannot move a filed operation to another principal/resource/actor binding"
+    },
+    {
+      "control": "oracle_rejects_controller_success_without_effect",
+      "assertion": "PASS",
+      "scope": "No high-quality delivery is inferred from forged controller booleans"
+    },
+    {
+      "control": "gate_latency_guard",
+      "assertion": "PASS",
+      "scope": "Registered model condition; no native credential/source validation"
+    },
+    {
+      "control": "gate_latency_case_preserved",
+      "assertion": "PASS",
+      "scope": "Denial retains filing"
+    },
+    {
+      "control": "unknown_capacity_guard",
+      "assertion": "PASS",
+      "scope": "Registered model condition; no native credential/source validation"
+    },
+    {
+      "control": "unknown_capacity_case_preserved",
+      "assertion": "PASS",
+      "scope": "Denial retains filing"
+    },
+    {
+      "control": "stale_state_guard",
+      "assertion": "PASS",
+      "scope": "Registered model condition; no native credential/source validation"
+    },
+    {
+      "control": "stale_state_case_preserved",
+      "assertion": "PASS",
+      "scope": "Denial retains filing"
+    },
+    {
+      "control": "expired_grant_guard",
+      "assertion": "PASS",
+      "scope": "Registered model condition; no native credential/source validation"
+    },
+    {
+      "control": "expired_grant_case_preserved",
+      "assertion": "PASS",
+      "scope": "Denial retains filing"
+    },
+    {
+      "control": "forged_generation_guard",
+      "assertion": "PASS",
+      "scope": "Registered model condition; no native credential/source validation"
+    },
+    {
+      "control": "forged_generation_case_preserved",
+      "assertion": "PASS",
+      "scope": "Denial retains filing"
+    },
+    {
+      "control": "reply_lost_False_knowledge_state",
+      "assertion": "PASS",
+      "scope": "Effect versus knowledge separated; unavailable query leaves unknown"
+    },
+    {
+      "control": "reply_lost_False_effect_count",
+      "assertion": "PASS",
+      "scope": "Reconciliation never reapplies the digital effect"
+    },
+    {
+      "control": "reply_lost_True_knowledge_state",
+      "assertion": "PASS",
+      "scope": "Effect versus knowledge separated; unavailable query leaves unknown"
+    },
+    {
+      "control": "reply_lost_True_effect_count",
+      "assertion": "PASS",
+      "scope": "Reconciliation never reapplies the digital effect"
+    }
+  ],
+  "functional_control_assertions": 44,
+  "outside_contract_counterexample_retained_as_failure": true,
+  "full_protected_channel_or_DDS_acceptance": false,
+  "independent_review": false,
+  "field_warning": "Instrument assertion PASS includes expected rejection/unresolved outcomes and a retained source-truth counterexample; it is not20 successful human scenarios or native DDS conformance.",
+  "population_rate": null,
+  "comparative_superiority": null,
+  "pending": [
+    "native validators/crypto/STS",
+    "actual human source/performance calibration",
+    "all effect-path coverage",
+    "physical/distributed atomicity",
+    "protected OS storage and independent roots",
+    "independent/source-owner review",
+    "full C02/C11/T03 admission",
+    "commissioned DDS recognition/DOI/forum route"
+  ]
+}

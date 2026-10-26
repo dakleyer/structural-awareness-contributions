@@ -1,0 +1,1412 @@
+{
+  "schema": "FLORES_IMMUTABLE_PRE_HARDENING_BASELINE_1",
+  "commit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+  "gitTree": "acd2f018efd51003c5d9d92e361fff5c402bf84b",
+  "campaignPath": "research/ecosystem-awareness/campaigns-in-development/flores-population-ea/",
+  "sourceInventory": [
+    {
+      "path": "APPROACH_DRIFT_2026-10-12_13.md",
+      "git_blob": "547710508dd381fd64dfbe56f99ae53a9540b1f4",
+      "sha256": "a107078cbeee22beb15efcfc476abf1eb563177ea6a65207a848a30aab206a34",
+      "bytes": 14438,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "AUDIT_REPORT_2026-10-13.md",
+      "git_blob": "ee208e3cfa9ecf4fb669967d4d1d4f8abf813b46",
+      "sha256": "9074026a1d15a8d61124030be6dfe58fd3c3f9793f731d4fde59b53462edcd84",
+      "bytes": 15940,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "CAMPAIGN.json",
+      "git_blob": "51492b64215d8e773c2608d21ef7e165d5f2e0c8",
+      "sha256": "4a490cd07d88ca985ba503da33175676dabb8c816c0fbe75638b8e4bf4a97451",
+      "bytes": 12117,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "CAMPAIGN.md",
+      "git_blob": "539f7bdb493aa882ad0e8febc85f20e4d8a36a29",
+      "sha256": "24b2051baa2d0a13aadd1fc56d7adef04828e960a04b59a6bd5e3991d7b46122",
+      "bytes": 22322,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "CONTINUATION.md",
+      "git_blob": "38462926d0216888fc5a59839a0bdf17f7d3da62",
+      "sha256": "a0d584d823baba9e53e60c0c268aad8ce5359d8039e70176f2df9b6dba0e1911",
+      "bytes": 16687,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "HISTORY_AND_AUDIT.md",
+      "git_blob": "6c8bc4d7aa3ff94ba176a7564d37159263a40e3b",
+      "sha256": "b559be9eb5c35fa1727dff85e92a77efaa71757b068518f02176d72ceb290bd7",
+      "bytes": 16311,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+      "git_blob": "294f0ea5e73b2c1b3f75f5b74cac44c4c4be7f9f",
+      "sha256": "d1bd771b0a24cffec4c47ea979eb136a994dc3205b92a4a0180670a51a156725",
+      "bytes": 16420,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "RUN_CARD_PREPARATION.md",
+      "git_blob": "a4d31cf39b1073addcce7451d829da21cc33083e",
+      "sha256": "3cc9f27fe37cedd58950fba189df3efd4118cb0f7dce619a9fd1fb3dd8b9e900",
+      "bytes": 7883,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "SCIENTIFIC_DESIGN.md",
+      "git_blob": "d1228aba6b42e259f12d7673b9d186369121ac8f",
+      "sha256": "64bc45fbba872a84ca3a03ea4673e6966f0a9e9e5459744281e5350b871f66e0",
+      "bytes": 19912,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "SOURCES_AND_CUSTODY.md",
+      "git_blob": "e5da7a6c69b8fbecbb21263caa1a9adc0b1c80a9",
+      "sha256": "2d20a64f64f25c4499756aacab62479b441731cc2bba403e04bc61c487f1c0fb",
+      "bytes": 18984,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "git_blob": "771b442756fe601dcb75b4ae5b37a0aee559fc32",
+      "sha256": "66f3c75458844e07153ce55467d9a834cbb40ffe946d814a2c72613ca574f32b",
+      "bytes": 14588,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/01_AUDIT_RECONCILIATION_EN_2026-10-11.txt",
+      "git_blob": "caaf32cc071a9e830f517712964df729ce67ca52",
+      "sha256": "6a56e28c15a5e6f6f6a49b87271e1080d277f89797e742af13ada58ec40fb3d3",
+      "bytes": 2544,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12.txt",
+      "git_blob": "77a74baff1f496ac55d7f9ec03786692519e885f",
+      "sha256": "2dc39b5d4c13605866eb693c8ab612cbda1a4bb89316d199580d5491820e92f4",
+      "bytes": 3733,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12.txt",
+      "git_blob": "9091174ada2333f61bf6ed957b8df664fd59106a",
+      "sha256": "30685108f0c8752556e50bb8a1ccd32ca9270a5414b27ed132d4eb499aab89bb",
+      "bytes": 3379,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11.txt",
+      "git_blob": "2dda744fe9b5d73b481b15b35a07272c65d17edf",
+      "sha256": "c0d233f1d461996a57c93583d57b94d31104d850b63086bda1e8fb0469aaf696",
+      "bytes": 2651,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/EA_FLORES_ADDON_MINIMO_2026-10-12.txt",
+      "git_blob": "1440a08f4af2facc5c812da0cf4130082f06397f",
+      "sha256": "a6e6ad2864ec6ab5c1ee91841b6dedd19fa1f4c43900b943b5a4a9f50adfa5bf",
+      "bytes": 2462,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12.txt",
+      "git_blob": "215487445d3e3e6cf83d23441239a45ebddf276f",
+      "sha256": "3278b9f7c0c81ecf67b01463d280c52a21b4dc0651d64ef4c1af8a02ba18231b",
+      "bytes": 5113,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/recovered-text/01_AUDIT_RECONCILIATION_EN_2026-10-11_PDF_TEXT.txt",
+      "git_blob": "99e219d2220d7dfd715dd70f5e14cd7548ceb6bb",
+      "sha256": "f3db1921c2113fd0802da1692f05affd36d6be076d758aedf19865c9864ab199",
+      "bytes": 24951,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/recovered-text/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12_PDF_TEXT.txt",
+      "git_blob": "d4700f55ddba59547742c60cb0cec86d27307b7a",
+      "sha256": "734d4c8877963f36a9df237b20cddd83eb40384a4ab1a34a91507b3a7409a6a2",
+      "bytes": 16518,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/recovered-text/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12_PDF_TEXT.txt",
+      "git_blob": "8cc1c98f7daf6d9a2704fd3cf17f1d03ca39d670",
+      "sha256": "c022698fa0614175775c564117381cd843cb2a5c2d2818a9c4965679f511c6e2",
+      "bytes": 16856,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/recovered-text/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11_PDF_TEXT.txt",
+      "git_blob": "b1aabf74face7b11e1186bd2579d0578218e0a0a",
+      "sha256": "554ab8ca46b8f4d26a268e623308d0deea26e94ef5f40dc22c4959845e9e94ee",
+      "bytes": 25305,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/recovered-text/EA_FLORES_ADDON_MINIMO_2026-10-12_SOURCE_TEXT.txt",
+      "git_blob": "d300917c93f0b5ceccb13642592587f5b8cbd548",
+      "sha256": "c2a4de007e6d3dd11d051775e34f981094ce0b17a95e19a05d0a74dba90882fd",
+      "bytes": 4366,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/recovered-text/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12_SOURCE_TEXT.txt",
+      "git_blob": "04dc81ba8fdc760e9596653f0ee130aa1d740cb1",
+      "sha256": "344336b11e6d7b5b71d23c1cc5d0745ef486a9dfb83191fb370e35f92db747f3",
+      "bytes": 24122,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "history/recovered-text/RECOVERY_MANIFEST.json",
+      "git_blob": "a29b6303f30fa394165c80316706282963e99434",
+      "sha256": "e58fcfe6290e9500de41c543d72bb9d2203ce07150fb74b1ddaef89543c29d47",
+      "bytes": 4532,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/BRIEF_EN_2026-10-13.md",
+      "git_blob": "b881fdb660dc86d94b539a6b0e6ca016a8d19244",
+      "sha256": "0d32e4c7b25464f08a9a2336ab7313b24c5d5018ab2fd3996b004ac27233aad9",
+      "bytes": 5347,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/FORMALIZACION_2026-10-13.md",
+      "git_blob": "963232aa54f1fa6d2c7f8c60e284a666fa61b8db",
+      "sha256": "a158fd4df92d82017aa96f6841fd9bb72f1aae5335cfb2b0f6bb774f9a115c85",
+      "bytes": 8685,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/INFORME_2026-10-13.md",
+      "git_blob": "2af57e9fea47367189b21196919b2ff8a6248d9b",
+      "sha256": "69eebd6fc6a1888b78e50246990e526c238ed0367b55f4cce2f47e3d633ac19c",
+      "bytes": 29544,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/Informe_Flores_Runtime_Context_2026-10-13.html",
+      "git_blob": "e82a892b8480b1d6a1c6f26a67ae6c10fc4c7943",
+      "sha256": "3934279638009d9d3fc8d780ee15dbd00ea466578653f51daf071c1df0338a40",
+      "bytes": 102483,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+      "git_blob": "8d75851856e33b2fcde400c2539a33db84906d2d",
+      "sha256": "78ea20365830bfb45ea73d617f56c386e483291fa03f92318a91f6d8f5f42bc7",
+      "bytes": 7348,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/PROTOCOLO_2026-10-13.md",
+      "git_blob": "aadd49a40873f7f39c565e188ddb26fc2a13dcd7",
+      "sha256": "d33fc071858b743cf934accfbe0b1b6b62a45823928b49890e0373c3faebbc85",
+      "bytes": 15542,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/PUBLICATION_MANIFEST_2026-10-13.json",
+      "git_blob": "4fa72a9268a3312c085e30d2a8735e45d68c1c3f",
+      "sha256": "f48bc9cab202c839f7bd8696c3fc07109af4ab232eddbd02f9927334472ec0d1",
+      "bytes": 5062,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/REFERENCIAS_2026-10-13.md",
+      "git_blob": "b627610753b603106114c0e21f9b26c7e41b6949",
+      "sha256": "ed8a93c5a2d676a927a914046e032455a4013642743298065a0f2f7db6ead1a3",
+      "bytes": 11658,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/REVISION_ADVERSARIAL_2026-10-13.md",
+      "git_blob": "bd696495e36c9366dfdcae1269474a4d6eaee37a",
+      "sha256": "afc1164c9a0f51f9d2defb8aa0c23c8a3e0e15d9afaf4f305dfb4623041c0a78",
+      "bytes": 5666,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/code/preflight.mjs",
+      "git_blob": "a49a1772dab7321aaeda97933bf86872abd087c9",
+      "sha256": "6203690c8fa3bfe8f9b4d701c320d603515dfbf965d89a48d317df9560baadf8",
+      "bytes": 11275,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/preflight/CONTROL_MATRIX_2026-10-13.csv",
+      "git_blob": "5cb6d6f9e617ad8f240e8ae7e3adabb30787e8dc",
+      "sha256": "ac6f488fafd77115203f80154b298b9e11509f6e1d4f64af98e7ce6a05d87d80",
+      "bytes": 3818,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/preflight/RESULTS_2026-10-13.json",
+      "git_blob": "d3af4ff19b20ef90dfa621022f777026008405ad",
+      "sha256": "6a193cf997078561c577f5f6c7d216e2d93fc86a3b31a71e9eb783c622a3abbe",
+      "bytes": 143076,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/reference-register.json",
+      "git_blob": "fc5dea07a485b9f2fa7401b78b479c24704da142",
+      "sha256": "660e19d2e77829e2cbccd2d45cde86a26a6830fc7f1ef9627394779553f0a3bc",
+      "bytes": 11552,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-copy-index.json",
+      "git_blob": "ad6a9adc672f1d2c401860d88612106218d5baa2",
+      "sha256": "f79a7da3cfbde9a103135db989d8eb3399e042e176f182efc61c38e0c81502be",
+      "bytes": 8531,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "git_blob": "7f489d1285113647054f4d751901b45010e4a03d",
+      "sha256": "eb180859505a667b470372ba84495004a169c4bfbe91b95cb386c49da6e10e5f",
+      "bytes": 65171,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "git_blob": "1cf47ca6d62d0955ad8ded2f1442362638161e15",
+      "sha256": "f1ac48ada2a0f523355f650b1cfe4ce2f80b97a418724df4be5ae31f65d823f0",
+      "bytes": 43434,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "git_blob": "e8b8d6c77461b54e0c55e5a9f6f3549bf218c845",
+      "sha256": "1efee817405d9d4772a244c3ed3234a6f590849775a40846c412e2e40c8f4df7",
+      "bytes": 48620,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/AUDIT_REPORT_2026-10-13.md",
+      "git_blob": "a8687ff0b3a9bc7ef7e542cefb22708293e76020",
+      "sha256": "e48a9e3df911da3270ea72c670202d7fce8abdcd1cce3cea04ec183b0397d5d2",
+      "bytes": 19824,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/CAMPAIGN.md",
+      "git_blob": "993144fbe79701d6530aeaa6a6bd3410c2811f71",
+      "sha256": "bc510b5c1811e142f174784bb58f3904eec5bed0f7f063e4298f8cd2fd5040d9",
+      "bytes": 26022,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "git_blob": "9686d0539f138a757ae973f8e497a38fa95cdae4",
+      "sha256": "1d7c4bb7bacc152930ea75f58e0462e39adc57bef7fb60f459c93f932ae48a00",
+      "bytes": 64472,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/Himalogic_LICENSE.txt",
+      "git_blob": "35e77b4d652eade49e143436ec8fecc64c161bb1",
+      "sha256": "e286c8b3b1a95f269139e73e4b0dec297da5ef9766a6ad31b66bd2606465e82d",
+      "bytes": 1086,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "git_blob": "7ebe7cd25b1d66a6a4ccac08f43ddf60291f3db3",
+      "sha256": "c3c15d8b24bad22d6a5e5ad8c4e96980d8290a55feecbb772e471df7ada3e106",
+      "bytes": 20349,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/flores_expected_v1.0.py.txt",
+      "git_blob": "e8f77f1620cfe10cd5b9ea227fb64769ddcf381b",
+      "sha256": "0da69151aa9a742e569352726ff628e87ab2ecfbf201bc503a7be9ff9a770dcc",
+      "bytes": 10533,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/flores_specification_v1.0.md",
+      "git_blob": "af97e0875cb5d9fb2b549e8f0283b4745b7410b3",
+      "sha256": "a0fa588642cd7a589a9f70f42efff4cad6d89f99154bca4a20a0471cf1602a88",
+      "bytes": 16377,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/technical__AUDIT_RECONCILIATION.md",
+      "git_blob": "08c615153da13339d281a33697114635f6e34515",
+      "sha256": "29b5d5b51a2d15aa3427b78b421371b9655fecdff29bbe6de45ccb4a5f13147f",
+      "bytes": 9829,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "runtime-context/source-snapshots/technical__PROTOCOL_P0_P3.md",
+      "git_blob": "9a69cb5a39d7f1dd22e960b96d6d07a30ee7869a",
+      "sha256": "a8232d7659b2177e7fa204ae189a156299a2b94daedb9b1a4c61d596fa3e28ec",
+      "bytes": 10708,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/ACCEPTANCE_AND_B2.md",
+      "git_blob": "e5ae12cd9235b547d5356d41dc4dbc19ca708762",
+      "sha256": "d165e55712170a9bfe85bc3ebbf75f94180afa84e6779874cac2a8c187559a0b",
+      "bytes": 8163,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/AUDIT_RECONCILIATION.md",
+      "git_blob": "e9f8baf729cfee0f97548405cf755646ba2d5834",
+      "sha256": "1bfde6b6208e46ebaf6a6567f1e7d11f09e9d66bb4a17c2af321282d316f9797",
+      "bytes": 8475,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/COMMENT_BODY_HASHES_20_2026-10-12.csv",
+      "git_blob": "166c15e6de2da57b1b060382da5d3caffbfa085e",
+      "sha256": "ce92575d19a600a18d3c6d9f1a329ba13559096fd88abc450b9f9f0fd6dc6b44",
+      "bytes": 4129,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/EHD_04_05A_MAPPING.md",
+      "git_blob": "556ad590da079be94a8be760ca023e04d52a9327",
+      "sha256": "590418fb5977ab60289747bddae0351ee665506322bc3cad3940e083425ed7aa",
+      "bytes": 7270,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/HISTORY_AND_REPRODUCTION.md",
+      "git_blob": "c3f25318d2c2c6eb6d5478870a99a028efe6ed23",
+      "sha256": "b5937ab4eecb17383c337fbff425a76034b9c8c482205b0b5da05d3e3434f95e",
+      "bytes": 7651,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/PROTOCOL_P0_P3.md",
+      "git_blob": "91a42b78968ef42d99cf2fb8a05939bf0b7b89d7",
+      "sha256": "761cf7d59ab99e407a65db4ec91203c8c0908dde95bd5d73cddc1ca63b88fa71",
+      "bytes": 9750,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/RESIDUAL_LEDGER.md",
+      "git_blob": "104730cda8c302e441c7ca0932d2652171267894",
+      "sha256": "60333efc4d54b5a636a8579f6210f4bb83f680358c6fbee10934b01041a77018",
+      "bytes": 6139,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/SOURCES_AND_PINS.md",
+      "git_blob": "9dfe3eb9a9e3371fdaeab24e77ae43afc80f8ca6",
+      "sha256": "0e7429574b2db03563f7b6300aa1d82826e807a3b9c33b4c0580eb4329f04a43",
+      "bytes": 9435,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/STAGE_A_GATE_TRACE.csv",
+      "git_blob": "e541b1e4d467437a7b9a4ca2804a3d4302eeaca1",
+      "sha256": "a1c01c190af8bc6596a7aa4055c502c2a43bda3eb5f001fb22e8313403219204",
+      "bytes": 1438,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/SUBMISSION_BRIEF_EN.md",
+      "git_blob": "65b7f90f2bd0e396d1965864cd85ff1858941ee4",
+      "sha256": "bad7de340ce5984e037d70aff0d79fa571e3e28def2cdf2432670560e2ceac64",
+      "bytes": 3218,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/TECHNICAL_COMPONENT_RECORD.json",
+      "git_blob": "b6343567b89748adf038ae3c62a1aad152ff72ee",
+      "sha256": "bdbf3f4418e702b1dd06e2b0acbb00f54fdbb492cd30012db795235d15de01eb",
+      "bytes": 2856,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/TECHNICAL_INDEX.md",
+      "git_blob": "599843f90b3e1ebc69e9d15d5b7bf5ad6462b4ab",
+      "sha256": "7ed0acb40854ec750f115bf584099420d8f7a6f1938a376e7a96a21859cf4c83",
+      "bytes": 5148,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/code/mock_receipts.json",
+      "git_blob": "ea0a247b2c0aa11ef7077055d53de2c6d1fad1e5",
+      "sha256": "e5c8d331079b6e557a63b149ec8983ea27688fb95bc935988130b0dc33687ce7",
+      "bytes": 4229,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/code/qualifier.py",
+      "git_blob": "c776e1225d953d7f967150dbd3a65c48401c26f0",
+      "sha256": "ff42738b94f1865b0f01e8a87f1980e72e1ba5d1dc927eea50b4a07edfddfa4c",
+      "bytes": 2787,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    },
+    {
+      "path": "technical/code/test_qualifier.py",
+      "git_blob": "e5f07d4c54d2e2ce49a6ed78d4b3e7b76310750f",
+      "sha256": "327694a23e28140661433accaba13061fd5c0e3cee44628e668dba10e18840fa",
+      "bytes": 2374,
+      "source_commit": "a44273b433113b3ba6aba6f02bed8e71fcaaa716"
+    }
+  ],
+  "legacyAnchorAliases": [
+    {
+      "path": "CAMPAIGN.md",
+      "original_slugs": [
+        "orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3",
+        "dds-campaign-in-development--flores--population--ecosystem-awareness",
+        "read-this-dossier-in-order",
+        "0-research-approach-pivot-versus-externalscientific-drift",
+        "1-why-this-is-one-initiative-and-a-prospective-dds-stage-a-campaign",
+        "2-original-experiment-facts-preserved-no-appropriation",
+        "3-scientific-contribution-we-are-preparing",
+        "4-core-native-handoff-exercise",
+        "5-what-the-revisions-accomplished-and-what-they-did-not",
+        "6-how-this-belongs-in-dds-and-fg-tida",
+        "7-current-result--evidence-ceiling",
+        "8-technical-p0p3-addendum-provenance-complete-13-october-2026",
+        "9-13-october-renewed-audit-and-resumption"
+      ]
+    },
+    {
+      "path": "CONTINUATION.md",
+      "original_slugs": [
+        "orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3",
+        "continue-flores--verified-starting-point-decisions-and-next-steps",
+        "read-first--1213-october-change-of-research-approach",
+        "1-starting-status-13-october-2026",
+        "2-resume-path--do-not-restart-research-blindly",
+        "3-distinguish-the-related-strands",
+        "4-hard-requirements--exclusions",
+        "5-definition-of-completed-traceability-versus-scientific-completion",
+        "6-external-collaboration-and-commercial-boundary",
+        "7-new-read-first-technical-addendum-13-october-2026",
+        "8-final-13-october-technical-reconciliation-and-corrected-custody-status"
+      ]
+    },
+    {
+      "path": "SCIENTIFIC_DESIGN.md",
+      "original_slugs": [
+        "orientación-vigente--13-octubre-2026-r2-reparada--freeze--r3",
+        "flores--ea--scientific-design-comparators-and-proposed-execution-contract",
+        "current-owner-directed-experimental-priority-1213-october-2026",
+        "a-distinct-objects-and-questions",
+        "b-native-inputs-and-observation-permissions",
+        "c-primary-native-source-experiment-q0--q1--uc-4-mapper",
+        "d-what-happened-to-historical-p0p3-and-q-bind-proposals",
+        "e-current-v05-requirements-first-stage-a-proposal",
+        "f-matched-comparator-matrix-and-fairness",
+        "g-concrete-stage-a-functional-obligations-e1e8",
+        "h-admission-execution-and-exit-criteria",
+        "i-receiving-side-lossrecovery-technical-subprofile-p0p3--incorporated-13-october-2026",
+        "i-explicit-scientific-status-of-three-different-drifts",
+        "j-same-campaign-corrected-p0p3-technical-complement-13-october"
+      ]
+    },
+    {
+      "path": "RUN_CARD_PREPARATION.md",
+      "original_slugs": [
+        "dds-flores--run-card-preparation-unregistered-draft",
+        "1-identity-and-candidate",
+        "2-need-to-freeze-input-and-comparison-contract",
+        "3-minimal-preregistered-branch-slate-when-admitted",
+        "4-measurements--evidence-fields-to-populate-in-a-real-run",
+        "5-hard-stop-conditions",
+        "6-additional-corrected-p0p3-proposal--not-automatically-part-of-first-scored-slate"
+      ]
+    },
+    {
+      "path": "SOURCES_AND_CUSTODY.md",
+      "original_slugs": [
+        "flores--ea--sources-custody-precise-claims-and-recovery",
+        "1-authoritative-public-producer-and-discussion-sources",
+        "producer-integrity-and-ip",
+        "2-our-corpus-method-requirements-and-external-contribution-ownership",
+        "3-google-drive-cross-source-index-not-campaign-owner",
+        "4-1112-october-research-documents-traced-by-source-custody-summaries-under-history",
+        "5-conservation-gaps-and-reconstruction-policy",
+        "6-later-local-binary-verification--13-october-2026-adds-to-earlier-session-no-retroactive-rewrite",
+        "6-new-full-readable-text-source-archive-and-owner-research-pivot--13-october-audit",
+        "7-technical-p0p3-component-and-archive-custody--corrective-addendum-13-october"
+      ]
+    },
+    {
+      "path": "APPROACH_DRIFT_2026-10-12_13.md",
+      "original_slugs": [
+        "flores--cambio-de-aproximación-científica-1213-octubre-2026",
+        "1-qué-cambió-realmente",
+        "2-cuatro-planos-que-no-deben-mezclarse",
+        "3-antesdespués-científico-y-las-razones-del-giro",
+        "4-las-instrucciones-del-titular-de-la-investigación-por-secuencia",
+        "5-dónde-entra-realmente-el-experimento-de-flores",
+        "6-el-mayor-límite-que-el-experimento-debe-intentar-falsar",
+        "7-decisión-y-estado-adecuados-para-el-registro-dds",
+        "8-suplemento-corregido-p0p3-recibido-durante-la-auditoría-del-13-octubre"
+      ]
+    },
+    {
+      "path": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+      "original_slugs": [
+        "dds-flores--primary-minimal-stage-a-experimental-protocol-draft-v01",
+        "0-the-one-testable-problem",
+        "candidate-specifications-compare-rather-than-assume-one-solution",
+        "1-source-fixture-ownership-and-invariants",
+        "2-two-different-questions-two-different-phenomena",
+        "3-small-controlled-sourcerecipient-exercise-experimental-branches",
+        "timeline-required-to-claim-loss-and-recovery",
+        "4-requirements-to-test-traceability-and-falsification",
+        "evidence-and-financialresource-measurements-to-preregister",
+        "5-comparator-design-and-anti-circularity-controls",
+        "6-campaign-admission--handoff",
+        "7-scientific-complement-and-independently-attributable-source-history"
+      ]
+    },
+    {
+      "path": "AUDIT_REPORT_2026-10-13.md",
+      "original_slugs": [
+        "auditoría-integral-de-trazabilidad-y-cambio-metodológico--flores-13-octubre-2026",
+        "i-hallazgo-crítico-el-drift-de-aproximación-no-tenía-expediente-propio",
+        "ii-hallazgos-de-integridad-ciencia-y-proceso",
+        "iii-custodia-de-fuentes-de-1112-octubre-recuperada",
+        "iv-verificaciones-de-fuente-externa-realizadas",
+        "v-criterios-de-paridad-del-repositorio-tras-publicar-la-auditoría",
+        "vi-dictamen",
+        "vii-supplemental-findings-after-publication--concurrent-p0p3-technical-package"
+      ]
+    },
+    {
+      "path": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "original_slugs": [
+        "flores--integración-auditada-del-suplemento-técnico-p0p3-13-octubre-2026",
+        "1-qué-apareció-realmente-en-el-mismo-expediente",
+        "2-reconciliación-de-dos-variantes-prospectivas-no-de-dos-resultados",
+        "3-los-hallazgos-científicos-del-componente-que-no-se-pueden-perder",
+        "4-auditoría-del-código-de-ejemplo-límites-y-defecto-adicional",
+        "5-estado-real-de-custodia-zip-dos-observaciones-distintas",
+        "6-reglas-finales-de-coherencia",
+        "7-consolidation-decision--chronology-of-this-audit"
+      ]
+    },
+    {
+      "path": "HISTORY_AND_AUDIT.md",
+      "original_slugs": [
+        "flores-initiative--chronology-author-attribution-and-adversarial-audit-history",
+        "310-september-2026-methodological-and-interface-origins",
+        "29-september--4-october-ea-integration-and-joint-test-opening",
+        "11-october-flores-posted-v10-our-original-frame-watch-review",
+        "12-october-owner-directed-methodological-pivot-separate-from-any-native-r3-event",
+        "12-october-v02--v05-and-later-native-scope-recovery",
+        "13-october-native-scope-and-formal-dds-traceability",
+        "historical-scientific-corrections--never-silently-lose-these",
+        "attribution-rule",
+        "supplemental-source-recovered-and-technical-defect-logged--13-october-2026",
+        "13-october-renewed-audit-and-readable-text-recovery",
+        "13-october-owner-correction-persisted-in-the-existing-github-campaign"
+      ]
+    },
+    {
+      "path": "technical/PROTOCOL_P0_P3.md",
+      "original_slugs": [
+        "source-native-protocol-and-receiving-side-p0p3-trajectory",
+        "1-frozen-producer-experiment-exact-original-object",
+        "2-receiving-claims-not-source-verdicts",
+        "3-four-windows-two-source-native-and-two-receiving-side-controlled",
+        "minimal-input-contract-proposed-not-fg-tida-adopted",
+        "4-olena-a-condition-on-inference-not-an-automatic-regression",
+        "5-secondary-documentary-controls-not-a-new-flores-run",
+        "6-disqualifying-interpretations"
+      ]
+    },
+    {
+      "path": "technical/ACCEPTANCE_AND_B2.md",
+      "original_slugs": [
+        "dds-stage-a-acceptance-plan-adversarial-controls-and-fair-b2-comparison",
+        "1-obligations-and-falsification",
+        "2-one-campaign-with-staged-source-native-and-synthetic-observations",
+        "3-machine-readable-response-contract-proposed",
+        "4-comparing-b2-fairly",
+        "5-readiness-checkpoints",
+        "6-decision-and-stopping-conditions"
+      ]
+    },
+    {
+      "path": "technical/EHD_04_05A_MAPPING.md",
+      "original_slugs": [
+        "ea-0405aehd-correspondence--process-relative-source-preserving",
+        "1-producer-and-process-are-compulsory",
+        "2-interface-obligations",
+        "3-proposed-read-only-receiving-profile",
+        "4-temporal-and-ownership-discipline",
+        "5-cross-theme-status-from-05a",
+        "6-minimal-output-completeness-test"
+      ]
+    },
+    {
+      "path": "technical/RESIDUAL_LEDGER.md",
+      "original_slugs": [
+        "residual-ledger-r0r1-and-how-it-feeds-the-receiving-side-challenge",
+        "1-frozen-r0-exact-source-coverage-and-limitations",
+        "2-exact-scripted-sampling-ledger--keep-floress-method-ownership",
+        "3-original-r1-probe-suggestion--hypothetical-only",
+        "4-why-this-is-useful-despite-b2-parity",
+        "5-testimonial-and-documentary-boundaries"
+      ]
+    },
+    {
+      "path": "technical/AUDIT_RECONCILIATION.md",
+      "original_slugs": [
+        "adversarial-audits-and-decision-record--flores-population--ea",
+        "a-first-frame-watch-and-audit-v01v03",
+        "b-v04v05-detailed-audit",
+        "c-two-later-audit-arguments-ledger-and-self-uncertainty",
+        "d-v02-runnable-prototype-known-defect-and-corrected-successor",
+        "e-audit-ownerstate-and-controlled-non-claims"
+      ]
+    },
+    {
+      "path": "technical/HISTORY_AND_REPRODUCTION.md",
+      "original_slugs": [
+        "historical-archive-registry-preservation-and-reproduction",
+        "how-this-successor-differs",
+        "reproduce-the-new-public-local-instrument-source-mock-no-flores-run",
+        "data-never-to-merge",
+        "13-october-2026--corrective-reproduction-and-audit-erratum-git-history-retained"
+      ]
+    },
+    {
+      "path": "technical/SOURCES_AND_PINS.md",
+      "original_slugs": [
+        "primary-source-register-owner-custody-and-mutable-evidence",
+        "1-pinned-producer-files",
+        "2-mutable-direct-owner-comments--live-links",
+        "3-ctgt--nelson-external-binaries-separate-status",
+        "4-corpus-and-version-policies",
+        "5-source-discussion-refresh-13-october-2026-additional-still-mutable"
+      ]
+    },
+    {
+      "path": "technical/SUBMISSION_BRIEF_EN.md",
+      "original_slugs": [
+        "optional-dds-stage-a-sidecar-at-the-frozen-flores-theme-21-population-handoff"
+      ]
+    },
+    {
+      "path": "technical/TECHNICAL_INDEX.md",
+      "original_slugs": [
+        "flores--population--ea--technical-addendum-to-the-one-dds-campaign",
+        "complete-technical-reading-route",
+        "critical-technical-boundary",
+        "new-custody-check-13-october-2026"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "APPROACH_DRIFT_2026-10-12_13.md",
+      "git_blob": "9153824c3c92b67df5aa85967d8cbaa70dc1aae7",
+      "sha256": "b4a147f184ca89afc60a4256270ddf1a09d24c4bdee1df68ab6c59112afc69d9",
+      "bytes": 14887
+    },
+    {
+      "path": "AUDIT_REPORT_2026-10-13.md",
+      "git_blob": "b8ca39e9c2259b336a3d74e129309c9c0269a80b",
+      "sha256": "c6596ec86d9ddb7957a7e61a45dd8fb0456ed3e51306cfcb3cac5707d9ef6b8f",
+      "bytes": 16389
+    },
+    {
+      "path": "CAMPAIGN.json",
+      "git_blob": "1f79074004f1f1812a7c899b3553879d6678ff67",
+      "sha256": "a096c2e8cfe461be458edcdc64d467ff1adf4119543f4cba8dc79796344e4ce0",
+      "bytes": 13164
+    },
+    {
+      "path": "CAMPAIGN.md",
+      "git_blob": "fe78862f18c05ef53f765c74858e02126e52f51e",
+      "sha256": "49a12e8ed2faf5acc62f8832ea63253bcde9a8581bfad16bf661c06aeafe041a",
+      "bytes": 10767
+    },
+    {
+      "path": "CONTINUATION.md",
+      "git_blob": "25f01de676fbd50956fad5621f8d62983eb6a52f",
+      "sha256": "871607af0a292122b82db1711f4e6ed11080fbcdbd389cda790e89d482c0de60",
+      "bytes": 8137
+    },
+    {
+      "path": "HISTORY_AND_AUDIT.md",
+      "git_blob": "c644cca4aa01bc60524bfab34a9cef4bf07e8c2a",
+      "sha256": "1daa62129dd493b400037c6e2e23ad4e41cee3c1dbe7923124dd72032335180d",
+      "bytes": 16760
+    },
+    {
+      "path": "PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md",
+      "git_blob": "52fe3d3c024ff581f0acf9f447af7b52b8fd79ba",
+      "sha256": "7e302b5b46a46e4f8efc27a56340685cc90874bc20bab62f20d6a45ef49c3f26",
+      "bytes": 16869
+    },
+    {
+      "path": "RUN_CARD_PREPARATION.md",
+      "git_blob": "3197bfbae4315c90c2b8c77464b4f23bab51bb5d",
+      "sha256": "4ebe31aa440416b68206736f5f961b5975033aaddb2cfee9bc9a6cd2bc64e677",
+      "bytes": 6461
+    },
+    {
+      "path": "SCIENTIFIC_DESIGN.md",
+      "git_blob": "44aa8a5adc3c4992a8666ba970865ba19cba7265",
+      "sha256": "2e3b399670b94b236ed57abac78c6f3b855ff9187c21919130eda874a2695c31",
+      "bytes": 11441
+    },
+    {
+      "path": "SOURCES_AND_CUSTODY.md",
+      "git_blob": "7865fa6da46e48ba8b28d0aa39e376dca24d47fd",
+      "sha256": "063bfbea19deb1645ae5a489c13467e4179fb9b1f2be53dad3728be5ab24b804",
+      "bytes": 10647
+    },
+    {
+      "path": "TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "git_blob": "9522cd0924a6c82e89abcb92050a30724ca85fa2",
+      "sha256": "cf2aa5826e9becbb9d6b61370aa89e4377768144519b024930aec6c7cbd552d1",
+      "bytes": 15037
+    },
+    {
+      "path": "TRACEABILITY_2026-10-13.md",
+      "git_blob": "46e7b2acc508c77260bd531efcae0c366f5b3ae5",
+      "sha256": "d86eda2f78dd2d7aae20377f0df230fbb67be348ed1e07caf24726038144b92a",
+      "bytes": 11478
+    },
+    {
+      "path": "VERSIONS_AND_DECISIONS_2026-10-13.md",
+      "git_blob": "94e2d6113eb6a8963b5c460b44822e42f77979e0",
+      "sha256": "7d44ae63d7fb68c37b14dd2154c2c84062e8f24772660987f15c8e477e03f347",
+      "bytes": 40664
+    },
+    {
+      "path": "audit/CAMPAIGN_CONTROL_2026-10-13.json",
+      "git_blob": "afeac7094933511e8d37a9e2b0f278b40a6c4838",
+      "sha256": "f8942892e7626f32ae54fafd9bc561681acb9f3f3b2a3215efa9a041f8f4d14d",
+      "bytes": 210967
+    },
+    {
+      "path": "audit/VALIDATION_2026-10-13.json",
+      "git_blob": "8ad85a81b4a7ad8770eabefe0e37a9ee6987a891",
+      "sha256": "6d0b68ea51c8821903f32bc4ccf742fd669d1ef96c6d2fdc60d8cf479e292766",
+      "bytes": 4065
+    },
+    {
+      "path": "audit/verify_campaign.mjs",
+      "git_blob": "385f52c28a5fe746bf1d72da0219c37d3d32a45c",
+      "sha256": "05ae48fc59acf25f670bff26945ffbce3fcb9d2234d744f5548656842693ff4b",
+      "bytes": 8297
+    },
+    {
+      "path": "history/01_AUDIT_RECONCILIATION_EN_2026-10-11.txt",
+      "git_blob": "caaf32cc071a9e830f517712964df729ce67ca52",
+      "sha256": "6a56e28c15a5e6f6f6a49b87271e1080d277f89797e742af13ada58ec40fb3d3",
+      "bytes": 2544
+    },
+    {
+      "path": "history/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12.txt",
+      "git_blob": "77a74baff1f496ac55d7f9ec03786692519e885f",
+      "sha256": "2dc39b5d4c13605866eb693c8ab612cbda1a4bb89316d199580d5491820e92f4",
+      "bytes": 3733
+    },
+    {
+      "path": "history/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12.txt",
+      "git_blob": "9091174ada2333f61bf6ed957b8df664fd59106a",
+      "sha256": "30685108f0c8752556e50bb8a1ccd32ca9270a5414b27ed132d4eb499aab89bb",
+      "bytes": 3379
+    },
+    {
+      "path": "history/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11.txt",
+      "git_blob": "2dda744fe9b5d73b481b15b35a07272c65d17edf",
+      "sha256": "c0d233f1d461996a57c93583d57b94d31104d850b63086bda1e8fb0469aaf696",
+      "bytes": 2651
+    },
+    {
+      "path": "history/EA_FLORES_ADDON_MINIMO_2026-10-12.txt",
+      "git_blob": "1440a08f4af2facc5c812da0cf4130082f06397f",
+      "sha256": "a6e6ad2864ec6ab5c1ee91841b6dedd19fa1f4c43900b943b5a4a9f50adfa5bf",
+      "bytes": 2462
+    },
+    {
+      "path": "history/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12.txt",
+      "git_blob": "215487445d3e3e6cf83d23441239a45ebddf276f",
+      "sha256": "3278b9f7c0c81ecf67b01463d280c52a21b4dc0651d64ef4c1af8a02ba18231b",
+      "bytes": 5113
+    },
+    {
+      "path": "history/local-preparation/LOCAL_PREPARATION_INDEX_2026-10-14.md",
+      "git_blob": "0ac82558741f845642e925d6209acf18542aefe5",
+      "sha256": "bfd80d53b2212544702e22df9c73ad453d365bf5e969c08cd9734a387d4657ae",
+      "bytes": 7426
+    },
+    {
+      "path": "history/local-preparation/RECOVERY_2026-10-14.json",
+      "git_blob": "f29856ca8d20414d2b4dba8c60f76315489e0c09",
+      "sha256": "46a02e7673820c96bee76b3ea4886efa2c1bf5a4f719fe312fa9ee32485bc1e2",
+      "bytes": 13980
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-001/BRIEF_EN_2026-10-13.md.txt",
+      "git_blob": "880b62b5cea6523962deeff5c1f87e43c62e9f19",
+      "sha256": "df2166df2f11bdbedf2e1f8ab6dd63307dfa6b0fda63a3d3d90d86ff4a3355f3",
+      "bytes": 4331
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-002/FORMALIZACION_2026-10-13.md.txt",
+      "git_blob": "f258d98bfb1e0d986d6a514bf3f9a5686a2eb2f5",
+      "sha256": "b687c202b0e2970b70a68fee6aacf91189b026656ad35ba91c02d2ab310fcf25",
+      "bytes": 7770
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-003/INFORME_2026-10-13.md.txt",
+      "git_blob": "955aaca036926b405319039903e497f02f080a7d",
+      "sha256": "57159edc2e96a9fbed50d86b7d368f238fa891b5a8f1ccece7dd386c2bdbc4c8",
+      "bytes": 29669
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-004/Informe_Flores_Runtime_Context_2026-10-13.html.txt",
+      "git_blob": "47b154cd3642b6e1511ff384a1a59488b96c91f0",
+      "sha256": "92ed5b6a20920a6a8c9fc6f7f968ca7dfcbf6a265884d81842b41b0da920f7dd",
+      "bytes": 93819
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-005/INFORME_2026-10-13_before_editorial_polish.md.txt",
+      "git_blob": "edc6b1aa5cdf7796c8c409e4b8f233b5dd83c556",
+      "sha256": "1138be9cba31ff87aaf094b9b93d6f485930f214f7d9b51e0d3dd35cf8c11baf",
+      "bytes": 29667
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-006/PROTOCOLO_2026-10-13.md.txt",
+      "git_blob": "d028a7002f8be05cb6df1889c5fe8c5f3f80efd7",
+      "sha256": "8d1ba72823a708d87bb82427729b821e05e2e88fe7423138918073f9e6f566f2",
+      "bytes": 15396
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-007/README_2026-10-13.md.txt",
+      "git_blob": "cc4896b6381cc1ac6711537ef0eecba47418191a",
+      "sha256": "613caebba5d2c1f0f83967901d4495b6cbbbea5c0c41b8720ea945288115fac3",
+      "bytes": 1250
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-008/REFERENCIAS_2026-10-13.md.txt",
+      "git_blob": "c15049a72b3729368a139ab9e4d1d5e5a5175774",
+      "sha256": "00c354eb8e86ed6c9357456240fd3fb5b90e37626f83733965a818732b895725",
+      "bytes": 11296
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-009/REVISION_ADVERSARIAL_2026-10-13.md.txt",
+      "git_blob": "8e4dde7d75d14165eefb78b7cbb2498c81fb7f2d",
+      "sha256": "7b4ac9360842121526a8668918a9ee25b8b9bec312928b64134cdaebf0447fe5",
+      "bytes": 5304
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-010/BRIEF_EN_2026-10-13.md.txt",
+      "git_blob": "bd06e6af80d57fd67fed9b9085dc8b6d529c79f2",
+      "sha256": "fac4e7c715e825157ae82c681f3ec2ac42673681d5b6810b49a78d49fae7f7c3",
+      "bytes": 4985
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-011/FORMALIZACION_2026-10-13.md.txt",
+      "git_blob": "298859a566624c2c2ea1dff162baf6bf7588391f",
+      "sha256": "2726069ddfc9f50818281a0b55ca07ef8fbbec5e29848dd6193ab01d17dc1c84",
+      "bytes": 8323
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-012/INFORME_2026-10-13.md.txt",
+      "git_blob": "0f65270fff7484b9be5b4d67caa345178352d564",
+      "sha256": "15a4a4b0d26f8331c42296a1eac026477449ba474122d0568c86eee38bee7625",
+      "bytes": 29182
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-013/Informe_Flores_Runtime_Context_2026-10-13.html.txt",
+      "git_blob": "1a13df376520601696e962c168462b3837c01418",
+      "sha256": "92dca3e2afd803f25422d85b1388c6c725e95cd891db7bc543a2a2834be56c49",
+      "bytes": 102469
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-014/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md.txt",
+      "git_blob": "f5c4d813638a35b6aa5752748bbf22374beca170",
+      "sha256": "5deee1bc9f600f8ae8e0a33e467d2eeff384626a9280e0ffcc2a059967f523d8",
+      "bytes": 6986
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-015/PROTOCOLO_2026-10-13.md.txt",
+      "git_blob": "6b6cfbdad3efc7baa8f6462c0332c2efb476c26b",
+      "sha256": "6387eb681e3077baada508f5013574a49f0652a423b210d2836cdf2d2633c46c",
+      "bytes": 15180
+    },
+    {
+      "path": "history/local-preparation/versions/LOCAL-016/README_2026-10-13.md.txt",
+      "git_blob": "cff0ccf405c31b32f5879913cf53bef61fc70ee2",
+      "sha256": "16e3cbb2ec9369882bac533f5ad7301f0a7d332ee5c5b808cae43323448e3b56",
+      "bytes": 1329
+    },
+    {
+      "path": "history/recovered-text/01_AUDIT_RECONCILIATION_EN_2026-10-11_PDF_TEXT.txt",
+      "git_blob": "99e219d2220d7dfd715dd70f5e14cd7548ceb6bb",
+      "sha256": "f3db1921c2113fd0802da1692f05affd36d6be076d758aedf19865c9864ab199",
+      "bytes": 24951
+    },
+    {
+      "path": "history/recovered-text/01_EA_STAGE_A_REVISED_SCIENTIFIC_CHALLENGE_EN_2026-10-12_PDF_TEXT.txt",
+      "git_blob": "d4700f55ddba59547742c60cb0cec86d27307b7a",
+      "sha256": "734d4c8877963f36a9df237b20cddd83eb40384a4ab1a34a91507b3a7409a6a2",
+      "bytes": 16518
+    },
+    {
+      "path": "history/recovered-text/02_EXTERNAL_AUDIT_RECONCILIATION_EN_2026-10-12_PDF_TEXT.txt",
+      "git_blob": "8cc1c98f7daf6d9a2704fd3cf17f1d03ca39d670",
+      "sha256": "c022698fa0614175775c564117381cd843cb2a5c2d2818a9c4965679f511c6e2",
+      "bytes": 16856
+    },
+    {
+      "path": "history/recovered-text/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN_2026-10-11_PDF_TEXT.txt",
+      "git_blob": "b1aabf74face7b11e1186bd2579d0578218e0a0a",
+      "sha256": "554ab8ca46b8f4d26a268e623308d0deea26e94ef5f40dc22c4959845e9e94ee",
+      "bytes": 25305
+    },
+    {
+      "path": "history/recovered-text/EA_FLORES_ADDON_MINIMO_2026-10-12_SOURCE_TEXT.txt",
+      "git_blob": "d300917c93f0b5ceccb13642592587f5b8cbd548",
+      "sha256": "c2a4de007e6d3dd11d051775e34f981094ce0b17a95e19a05d0a74dba90882fd",
+      "bytes": 4366
+    },
+    {
+      "path": "history/recovered-text/EA_FLORES_RECUPERACION_Y_VERIFICACION_2026-10-12_SOURCE_TEXT.txt",
+      "git_blob": "04dc81ba8fdc760e9596653f0ee130aa1d740cb1",
+      "sha256": "344336b11e6d7b5b71d23c1cc5d0745ef486a9dfb83191fb370e35f92db747f3",
+      "bytes": 24122
+    },
+    {
+      "path": "history/recovered-text/RECOVERY_MANIFEST.json",
+      "git_blob": "a29b6303f30fa394165c80316706282963e99434",
+      "sha256": "e58fcfe6290e9500de41c543d72bb9d2203ce07150fb74b1ddaef89543c29d47",
+      "bytes": 4532
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/APPROACH_DRIFT_2026-10-12_13.md.txt",
+      "git_blob": "547710508dd381fd64dfbe56f99ae53a9540b1f4",
+      "sha256": "a107078cbeee22beb15efcfc476abf1eb563177ea6a65207a848a30aab206a34",
+      "bytes": 14438
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/AUDIT_REPORT_2026-10-13.md.txt",
+      "git_blob": "ee208e3cfa9ecf4fb669967d4d1d4f8abf813b46",
+      "sha256": "9074026a1d15a8d61124030be6dfe58fd3c3f9793f731d4fde59b53462edcd84",
+      "bytes": 15940
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/CAMPAIGN.json.txt",
+      "git_blob": "51492b64215d8e773c2608d21ef7e165d5f2e0c8",
+      "sha256": "4a490cd07d88ca985ba503da33175676dabb8c816c0fbe75638b8e4bf4a97451",
+      "bytes": 12117
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/CAMPAIGN.md.txt",
+      "git_blob": "539f7bdb493aa882ad0e8febc85f20e4d8a36a29",
+      "sha256": "24b2051baa2d0a13aadd1fc56d7adef04828e960a04b59a6bd5e3991d7b46122",
+      "bytes": 22322
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/CONTINUATION.md.txt",
+      "git_blob": "38462926d0216888fc5a59839a0bdf17f7d3da62",
+      "sha256": "a0d584d823baba9e53e60c0c268aad8ce5359d8039e70176f2df9b6dba0e1911",
+      "bytes": 16687
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/HISTORY_AND_AUDIT.md.txt",
+      "git_blob": "6c8bc4d7aa3ff94ba176a7564d37159263a40e3b",
+      "sha256": "b559be9eb5c35fa1727dff85e92a77efaa71757b068518f02176d72ceb290bd7",
+      "bytes": 16311
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/PRIMARY_TRIAL_PROTOCOL_DRAFT_v0.1.md.txt",
+      "git_blob": "294f0ea5e73b2c1b3f75f5b74cac44c4c4be7f9f",
+      "sha256": "d1bd771b0a24cffec4c47ea979eb136a994dc3205b92a4a0180670a51a156725",
+      "bytes": 16420
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/RUN_CARD_PREPARATION.md.txt",
+      "git_blob": "a4d31cf39b1073addcce7451d829da21cc33083e",
+      "sha256": "3cc9f27fe37cedd58950fba189df3efd4118cb0f7dce619a9fd1fb3dd8b9e900",
+      "bytes": 7883
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/SCIENTIFIC_DESIGN.md.txt",
+      "git_blob": "d1228aba6b42e259f12d7673b9d186369121ac8f",
+      "sha256": "64bc45fbba872a84ca3a03ea4673e6966f0a9e9e5459744281e5350b871f66e0",
+      "bytes": 19912
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/SOURCES_AND_CUSTODY.md.txt",
+      "git_blob": "e5da7a6c69b8fbecbb21263caa1a9adc0b1c80a9",
+      "sha256": "2d20a64f64f25c4499756aacab62479b441731cc2bba403e04bc61c487f1c0fb",
+      "bytes": 18984
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md.txt",
+      "git_blob": "771b442756fe601dcb75b4ae5b37a0aee559fc32",
+      "sha256": "66f3c75458844e07153ce55467d9a834cbb40ffe946d814a2c72613ca574f32b",
+      "bytes": 14588
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/DOCUMENT_CONTROL.md.txt",
+      "git_blob": "2afeb8c8b26b715c32bcbe671398645c309ee714",
+      "sha256": "b912c9e2cfb1f5cf35ffe1fe6ea0589ab2db27f174824ff03658e199ed1e5dc0",
+      "bytes": 50452
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md.txt",
+      "git_blob": "b48d3c35a942973752a19f7b1a3c22f79ab5bfd2",
+      "sha256": "c946c976d053b3e2cfdb21f9ef1f5c12c6d5c19e4b28220ee3ea5e19d381588c",
+      "bytes": 136697
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__campaigns-in-development__INDEX.md.txt",
+      "git_blob": "9f2248edf2ebb60de19b9fd6e2ae94c070c6c0a0",
+      "sha256": "cb0fd2f0df7917a2cce2c53bd04b323e069883f7b8af55ac44b2a1ddd1675a81",
+      "bytes": 5709
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/parent-routes/research__ecosystem-awareness__campaigns-in-development__REGISTRY.json.txt",
+      "git_blob": "13c4d0dd139faf120614f0237de3c7008c73a1d4",
+      "sha256": "7faf70e2290de00e1c6c53fff04ad40ed0d27228e198a51c55f9ae061be081a3",
+      "bytes": 3987
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/ACCEPTANCE_AND_B2.md.txt",
+      "git_blob": "e5ae12cd9235b547d5356d41dc4dbc19ca708762",
+      "sha256": "d165e55712170a9bfe85bc3ebbf75f94180afa84e6779874cac2a8c187559a0b",
+      "bytes": 8163
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/AUDIT_RECONCILIATION.md.txt",
+      "git_blob": "e9f8baf729cfee0f97548405cf755646ba2d5834",
+      "sha256": "1bfde6b6208e46ebaf6a6567f1e7d11f09e9d66bb4a17c2af321282d316f9797",
+      "bytes": 8475
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/EHD_04_05A_MAPPING.md.txt",
+      "git_blob": "556ad590da079be94a8be760ca023e04d52a9327",
+      "sha256": "590418fb5977ab60289747bddae0351ee665506322bc3cad3940e083425ed7aa",
+      "bytes": 7270
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/HISTORY_AND_REPRODUCTION.md.txt",
+      "git_blob": "c3f25318d2c2c6eb6d5478870a99a028efe6ed23",
+      "sha256": "b5937ab4eecb17383c337fbff425a76034b9c8c482205b0b5da05d3e3434f95e",
+      "bytes": 7651
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/PROTOCOL_P0_P3.md.txt",
+      "git_blob": "91a42b78968ef42d99cf2fb8a05939bf0b7b89d7",
+      "sha256": "761cf7d59ab99e407a65db4ec91203c8c0908dde95bd5d73cddc1ca63b88fa71",
+      "bytes": 9750
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/RESIDUAL_LEDGER.md.txt",
+      "git_blob": "104730cda8c302e441c7ca0932d2652171267894",
+      "sha256": "60333efc4d54b5a636a8579f6210f4bb83f680358c6fbee10934b01041a77018",
+      "bytes": 6139
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/SOURCES_AND_PINS.md.txt",
+      "git_blob": "9dfe3eb9a9e3371fdaeab24e77ae43afc80f8ca6",
+      "sha256": "0e7429574b2db03563f7b6300aa1d82826e807a3b9c33b4c0580eb4329f04a43",
+      "bytes": 9435
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/SUBMISSION_BRIEF_EN.md.txt",
+      "git_blob": "65b7f90f2bd0e396d1965864cd85ff1858941ee4",
+      "sha256": "bad7de340ce5984e037d70aff0d79fa571e3e28def2cdf2432670560e2ceac64",
+      "bytes": 3218
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_COMPONENT_RECORD.json.txt",
+      "git_blob": "b6343567b89748adf038ae3c62a1aad152ff72ee",
+      "sha256": "bdbf3f4418e702b1dd06e2b0acbb00f54fdbb492cd30012db795235d15de01eb",
+      "bytes": 2856
+    },
+    {
+      "path": "history/versions/2026-10-13_before_organization/technical/TECHNICAL_INDEX.md.txt",
+      "git_blob": "599843f90b3e1ebc69e9d15d5b7bf5ad6462b4ab",
+      "sha256": "7ed0acb40854ec750f115bf584099420d8f7a6f1938a376e7a96a21859cf4c83",
+      "bytes": 5148
+    },
+    {
+      "path": "history/versions/2026-10-14_before_local_recovery/VERSIONS_AND_DECISIONS_2026-10-13.md.txt",
+      "git_blob": "be3fca137f3cd7ad36ba185ad98cae85565b280d",
+      "sha256": "8f616fe91fa4d75dddd745e90e78344099d74b7d1ff2d6494177d6d9fc76d78d",
+      "bytes": 40070
+    },
+    {
+      "path": "history/versions/2026-10-14_before_local_recovery/audit/CAMPAIGN_CONTROL_2026-10-13.json.txt",
+      "git_blob": "942e393b33c213c97b76364e647bdb5c903e1663",
+      "sha256": "07254036fed472c8c3a6def92ed869b9c83d385fda45127d541ab80a2818f59d",
+      "bytes": 192822
+    },
+    {
+      "path": "history/versions/2026-10-14_before_local_recovery/audit/VALIDATION_2026-10-13.json.txt",
+      "git_blob": "4af59068e8fe6ef2b556cb41e419097c0367d905",
+      "sha256": "eb84f0d8a3d6a1c7ee175f23860ce237c35b35a4e91d9e352c049512c12cd000",
+      "bytes": 3757
+    },
+    {
+      "path": "runtime-context/BRIEF_EN_2026-10-13.md",
+      "git_blob": "b881fdb660dc86d94b539a6b0e6ca016a8d19244",
+      "sha256": "0d32e4c7b25464f08a9a2336ab7313b24c5d5018ab2fd3996b004ac27233aad9",
+      "bytes": 5347
+    },
+    {
+      "path": "runtime-context/FORMALIZACION_2026-10-13.md",
+      "git_blob": "963232aa54f1fa6d2c7f8c60e284a666fa61b8db",
+      "sha256": "a158fd4df92d82017aa96f6841fd9bb72f1aae5335cfb2b0f6bb774f9a115c85",
+      "bytes": 8685
+    },
+    {
+      "path": "runtime-context/INFORME_2026-10-13.md",
+      "git_blob": "2af57e9fea47367189b21196919b2ff8a6248d9b",
+      "sha256": "69eebd6fc6a1888b78e50246990e526c238ed0367b55f4cce2f47e3d633ac19c",
+      "bytes": 29544
+    },
+    {
+      "path": "runtime-context/Informe_Flores_Runtime_Context_2026-10-13.html",
+      "git_blob": "e82a892b8480b1d6a1c6f26a67ae6c10fc4c7943",
+      "sha256": "3934279638009d9d3fc8d780ee15dbd00ea466578653f51daf071c1df0338a40",
+      "bytes": 102483
+    },
+    {
+      "path": "runtime-context/PRINCIPIO_R2_FREEZE_R3_2026-10-13.md",
+      "git_blob": "8d75851856e33b2fcde400c2539a33db84906d2d",
+      "sha256": "78ea20365830bfb45ea73d617f56c386e483291fa03f92318a91f6d8f5f42bc7",
+      "bytes": 7348
+    },
+    {
+      "path": "runtime-context/PROTOCOLO_2026-10-13.md",
+      "git_blob": "aadd49a40873f7f39c565e188ddb26fc2a13dcd7",
+      "sha256": "d33fc071858b743cf934accfbe0b1b6b62a45823928b49890e0373c3faebbc85",
+      "bytes": 15542
+    },
+    {
+      "path": "runtime-context/PUBLICATION_MANIFEST_2026-10-13.json",
+      "git_blob": "4fa72a9268a3312c085e30d2a8735e45d68c1c3f",
+      "sha256": "f48bc9cab202c839f7bd8696c3fc07109af4ab232eddbd02f9927334472ec0d1",
+      "bytes": 5062
+    },
+    {
+      "path": "runtime-context/REFERENCIAS_2026-10-13.md",
+      "git_blob": "b627610753b603106114c0e21f9b26c7e41b6949",
+      "sha256": "ed8a93c5a2d676a927a914046e032455a4013642743298065a0f2f7db6ead1a3",
+      "bytes": 11658
+    },
+    {
+      "path": "runtime-context/REVISION_ADVERSARIAL_2026-10-13.md",
+      "git_blob": "bd696495e36c9366dfdcae1269474a4d6eaee37a",
+      "sha256": "afc1164c9a0f51f9d2defb8aa0c23c8a3e0e15d9afaf4f305dfb4623041c0a78",
+      "bytes": 5666
+    },
+    {
+      "path": "runtime-context/code/preflight.mjs",
+      "git_blob": "a49a1772dab7321aaeda97933bf86872abd087c9",
+      "sha256": "6203690c8fa3bfe8f9b4d701c320d603515dfbf965d89a48d317df9560baadf8",
+      "bytes": 11275
+    },
+    {
+      "path": "runtime-context/preflight/CONTROL_MATRIX_2026-10-13.csv",
+      "git_blob": "5cb6d6f9e617ad8f240e8ae7e3adabb30787e8dc",
+      "sha256": "ac6f488fafd77115203f80154b298b9e11509f6e1d4f64af98e7ce6a05d87d80",
+      "bytes": 3818
+    },
+    {
+      "path": "runtime-context/preflight/RESULTS_2026-10-13.json",
+      "git_blob": "d3af4ff19b20ef90dfa621022f777026008405ad",
+      "sha256": "6a193cf997078561c577f5f6c7d216e2d93fc86a3b31a71e9eb783c622a3abbe",
+      "bytes": 143076
+    },
+    {
+      "path": "runtime-context/reference-register.json",
+      "git_blob": "fc5dea07a485b9f2fa7401b78b479c24704da142",
+      "sha256": "660e19d2e77829e2cbccd2d45cde86a26a6830fc7f1ef9627394779553f0a3bc",
+      "bytes": 11552
+    },
+    {
+      "path": "runtime-context/source-copy-index.json",
+      "git_blob": "ad6a9adc672f1d2c401860d88612106218d5baa2",
+      "sha256": "f79a7da3cfbde9a103135db989d8eb3399e042e176f182efc61c38e0c81502be",
+      "bytes": 8531
+    },
+    {
+      "path": "runtime-context/source-snapshots/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "git_blob": "7f489d1285113647054f4d751901b45010e4a03d",
+      "sha256": "eb180859505a667b470372ba84495004a169c4bfbe91b95cb386c49da6e10e5f",
+      "bytes": 65171
+    },
+    {
+      "path": "runtime-context/source-snapshots/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "git_blob": "1cf47ca6d62d0955ad8ded2f1442362638161e15",
+      "sha256": "f1ac48ada2a0f523355f650b1cfe4ce2f80b97a418724df4be5ae31f65d823f0",
+      "bytes": 43434
+    },
+    {
+      "path": "runtime-context/source-snapshots/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "git_blob": "e8b8d6c77461b54e0c55e5a9f6f3549bf218c845",
+      "sha256": "1efee817405d9d4772a244c3ed3234a6f590849775a40846c412e2e40c8f4df7",
+      "bytes": 48620
+    },
+    {
+      "path": "runtime-context/source-snapshots/AUDIT_REPORT_2026-10-13.md",
+      "git_blob": "a8687ff0b3a9bc7ef7e542cefb22708293e76020",
+      "sha256": "e48a9e3df911da3270ea72c670202d7fce8abdcd1cce3cea04ec183b0397d5d2",
+      "bytes": 19824
+    },
+    {
+      "path": "runtime-context/source-snapshots/CAMPAIGN.md",
+      "git_blob": "993144fbe79701d6530aeaa6a6bd3410c2811f71",
+      "sha256": "bc510b5c1811e142f174784bb58f3904eec5bed0f7f063e4298f8cd2fd5040d9",
+      "bytes": 26022
+    },
+    {
+      "path": "runtime-context/source-snapshots/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "git_blob": "9686d0539f138a757ae973f8e497a38fa95cdae4",
+      "sha256": "1d7c4bb7bacc152930ea75f58e0462e39adc57bef7fb60f459c93f932ae48a00",
+      "bytes": 64472
+    },
+    {
+      "path": "runtime-context/source-snapshots/Himalogic_LICENSE.txt",
+      "git_blob": "35e77b4d652eade49e143436ec8fecc64c161bb1",
+      "sha256": "e286c8b3b1a95f269139e73e4b0dec297da5ef9766a6ad31b66bd2606465e82d",
+      "bytes": 1086
+    },
+    {
+      "path": "runtime-context/source-snapshots/TECHNICAL_INTEGRATION_AUDIT_2026-10-13.md",
+      "git_blob": "7ebe7cd25b1d66a6a4ccac08f43ddf60291f3db3",
+      "sha256": "c3c15d8b24bad22d6a5e5ad8c4e96980d8290a55feecbb772e471df7ada3e106",
+      "bytes": 20349
+    },
+    {
+      "path": "runtime-context/source-snapshots/flores_expected_v1.0.py.txt",
+      "git_blob": "e8f77f1620cfe10cd5b9ea227fb64769ddcf381b",
+      "sha256": "0da69151aa9a742e569352726ff628e87ab2ecfbf201bc503a7be9ff9a770dcc",
+      "bytes": 10533
+    },
+    {
+      "path": "runtime-context/source-snapshots/flores_specification_v1.0.md",
+      "git_blob": "af97e0875cb5d9fb2b549e8f0283b4745b7410b3",
+      "sha256": "a0fa588642cd7a589a9f70f42efff4cad6d89f99154bca4a20a0471cf1602a88",
+      "bytes": 16377
+    },
+    {
+      "path": "runtime-context/source-snapshots/technical__AUDIT_RECONCILIATION.md",
+      "git_blob": "08c615153da13339d281a33697114635f6e34515",
+      "sha256": "29b5d5b51a2d15aa3427b78b421371b9655fecdff29bbe6de45ccb4a5f13147f",
+      "bytes": 9829
+    },
+    {
+      "path": "runtime-context/source-snapshots/technical__PROTOCOL_P0_P3.md",
+      "git_blob": "9a69cb5a39d7f1dd22e960b96d6d07a30ee7869a",
+      "sha256": "a8232d7659b2177e7fa204ae189a156299a2b94daedb9b1a4c61d596fa3e28ec",
+      "bytes": 10708
+    },
+    {
+      "path": "technical/ACCEPTANCE_AND_B2.md",
+      "git_blob": "aa9bf847d96332f0e1be7d1fa28c9e7d4bd1e430",
+      "sha256": "a6484ea528cbd1dc9b828dd0c568502a6b80766f2e5393c98fc6935d3f791581",
+      "bytes": 8616
+    },
+    {
+      "path": "technical/AUDIT_RECONCILIATION.md",
+      "git_blob": "76431a0eb787c237426c0d410a0b26297bb4e20a",
+      "sha256": "d39ddb6ac9768f94c14ab86d5c3b79e912eb0657251901030d04b1de3d941f7a",
+      "bytes": 8928
+    },
+    {
+      "path": "technical/COMMENT_BODY_HASHES_20_2026-10-12.csv",
+      "git_blob": "166c15e6de2da57b1b060382da5d3caffbfa085e",
+      "sha256": "ce92575d19a600a18d3c6d9f1a329ba13559096fd88abc450b9f9f0fd6dc6b44",
+      "bytes": 4129
+    },
+    {
+      "path": "technical/EHD_04_05A_MAPPING.md",
+      "git_blob": "f1796320ba9dd838d08edda841842f441eaebcf6",
+      "sha256": "8640e3bccad77459b69519ed1d2aeea4312641b3fa3c7391a06d9a0edea49c82",
+      "bytes": 7723
+    },
+    {
+      "path": "technical/HISTORY_AND_REPRODUCTION.md",
+      "git_blob": "87f9068084847e1a687c693e99d238d0fb40a14c",
+      "sha256": "de68d6d272b6311f83bdb1350d45beba5315c5ac0e48a4bc8a52f1b7c3d3a2a0",
+      "bytes": 8104
+    },
+    {
+      "path": "technical/PROTOCOL_P0_P3.md",
+      "git_blob": "a9393c32766e1657cc27da39f7d2ecc94ba87b72",
+      "sha256": "042684e55510aa4e8fe0f9622b9c4660c4245bbef40fb47b44f612e92021bd2f",
+      "bytes": 10203
+    },
+    {
+      "path": "technical/RESIDUAL_LEDGER.md",
+      "git_blob": "cb29636e362ad46b17f5a90ee2dbdd8fa0257415",
+      "sha256": "8172b6a8e1ae8f349415657f65dbe10c3fd4bcd6cd0b020063783cd1ed0ddd45",
+      "bytes": 6592
+    },
+    {
+      "path": "technical/SOURCES_AND_PINS.md",
+      "git_blob": "281410318ff1b311eb68c0e67ec4a448d318df32",
+      "sha256": "c2e608bcc33661643f432887ae8ef13447f1f5ce0df082d8aa51d41568f2f5ea",
+      "bytes": 9888
+    },
+    {
+      "path": "technical/STAGE_A_GATE_TRACE.csv",
+      "git_blob": "e541b1e4d467437a7b9a4ca2804a3d4302eeaca1",
+      "sha256": "a1c01c190af8bc6596a7aa4055c502c2a43bda3eb5f001fb22e8313403219204",
+      "bytes": 1438
+    },
+    {
+      "path": "technical/SUBMISSION_BRIEF_EN.md",
+      "git_blob": "ba7d4ea4dd48d5abc8c6f8e2fc9efa6987c9e68b",
+      "sha256": "782de9719a3413e0f7ddd49da692b0a2d4f8119983c2ad1da561700403bb2e2c",
+      "bytes": 3671
+    },
+    {
+      "path": "technical/TECHNICAL_COMPONENT_RECORD.json",
+      "git_blob": "5f2e584d55c10ae288b00d0c0bb7e69213a797a0",
+      "sha256": "d04b73d0fd3fedaef441e29e4a6593282484e28942ef3287532a17f31a20a902",
+      "bytes": 3368
+    },
+    {
+      "path": "technical/TECHNICAL_INDEX.md",
+      "git_blob": "1efe29f3c950d219073fa52d66b3f76d7ae3b3b7",
+      "sha256": "3171b34df5b2f2cc2b960bba199abb38f1aa29d9e0fca45faa657f9aaf831ca3",
+      "bytes": 3224
+    },
+    {
+      "path": "technical/code/mock_receipts.json",
+      "git_blob": "ea0a247b2c0aa11ef7077055d53de2c6d1fad1e5",
+      "sha256": "e5c8d331079b6e557a63b149ec8983ea27688fb95bc935988130b0dc33687ce7",
+      "bytes": 4229
+    },
+    {
+      "path": "technical/code/qualifier.py",
+      "git_blob": "c776e1225d953d7f967150dbd3a65c48401c26f0",
+      "sha256": "ff42738b94f1865b0f01e8a87f1980e72e1ba5d1dc927eea50b4a07edfddfa4c",
+      "bytes": 2787
+    },
+    {
+      "path": "technical/code/test_qualifier.py",
+      "git_blob": "e5f07d4c54d2e2ce49a6ed78d4b3e7b76310750f",
+      "sha256": "327694a23e28140661433accaba13061fd5c0e3cee44628e668dba10e18840fa",
+      "bytes": 2374
+    }
+  ]
+}

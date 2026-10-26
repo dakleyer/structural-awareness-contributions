@@ -1,0 +1,4151 @@
+{
+  "FH_C_competing_ablations": [
+    {
+      "invalid_mission_pivots": 2,
+      "profile": "BOUNDARY_SIGNAL_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": false,
+      "with_extra_domain_facts": false
+    },
+    {
+      "invalid_mission_pivots": 1,
+      "profile": "BOUNDARY_SIGNAL_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": false,
+      "with_extra_domain_facts": true
+    },
+    {
+      "invalid_mission_pivots": 0,
+      "profile": "BOUNDARY_SIGNAL_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": true,
+      "with_extra_domain_facts": false
+    },
+    {
+      "invalid_mission_pivots": 0,
+      "profile": "BOUNDARY_SIGNAL_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": true,
+      "with_extra_domain_facts": true
+    },
+    {
+      "invalid_mission_pivots": 2,
+      "profile": "DOMAIN_FACTS_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": false,
+      "with_extra_domain_facts": false
+    },
+    {
+      "invalid_mission_pivots": 0,
+      "profile": "DOMAIN_FACTS_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": false,
+      "with_extra_domain_facts": true
+    },
+    {
+      "invalid_mission_pivots": 1,
+      "profile": "DOMAIN_FACTS_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": true,
+      "with_extra_domain_facts": false
+    },
+    {
+      "invalid_mission_pivots": 0,
+      "profile": "DOMAIN_FACTS_STRONGER",
+      "status": "SOURCE_INSPIRED_SYNTHETIC_ABLATION_ONLY",
+      "valid_changes_preserved": 2,
+      "with_boundary_Q": true,
+      "with_extra_domain_facts": true
+    }
+  ],
+  "date_cutoff": "2026-10-26",
+  "decision_experiments": {
+    "arm_count": 5,
+    "arm_decisions": 300,
+    "case_count": 60,
+    "population_warning": "Deliberately constructed 12x5 test matrix. These totals are NOT prevalence, measured welfare, randomization or evidence of EA advantage.",
+    "results": [
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 10.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.0
+          }
+        },
+        "case_id": "VERS-VALID_GO",
+        "example_id": "EX-VERS-01",
+        "family": "VERS",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -12.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.0
+          }
+        },
+        "case_id": "VERS-VALID_BLOCK",
+        "example_id": "EX-VERS-01",
+        "family": "VERS",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.0
+          }
+        },
+        "case_id": "VERS-STALE",
+        "example_id": "EX-VERS-01",
+        "family": "VERS",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.0
+          }
+        },
+        "case_id": "VERS-FALSE_Q",
+        "example_id": "EX-VERS-01",
+        "family": "VERS",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "VERS-OPEN_RESIDUAL",
+        "example_id": "EX-VERS-01",
+        "family": "VERS",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.0
+          }
+        },
+        "case_id": "LINEAGE-VALID_GO",
+        "example_id": "EX-ANT-01",
+        "family": "LINEAGE",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.0
+          }
+        },
+        "case_id": "LINEAGE-VALID_BLOCK",
+        "example_id": "EX-ANT-01",
+        "family": "LINEAGE",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.0
+          }
+        },
+        "case_id": "LINEAGE-STALE",
+        "example_id": "EX-ANT-01",
+        "family": "LINEAGE",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.0
+          }
+        },
+        "case_id": "LINEAGE-FALSE_Q",
+        "example_id": "EX-ANT-01",
+        "family": "LINEAGE",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "LINEAGE-OPEN_RESIDUAL",
+        "example_id": "EX-ANT-01",
+        "family": "LINEAGE",
+        "source_id": "CE-SCHEME",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 10.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.8
+          }
+        },
+        "case_id": "AUTH-VALID_GO",
+        "example_id": "EX-MIN-01",
+        "family": "AUTH",
+        "source_id": "CE-CORRESPONDENCE",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -12.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.8
+          }
+        },
+        "case_id": "AUTH-VALID_BLOCK",
+        "example_id": "EX-MIN-01",
+        "family": "AUTH",
+        "source_id": "CE-CORRESPONDENCE",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.2
+          }
+        },
+        "case_id": "AUTH-STALE",
+        "example_id": "EX-MIN-01",
+        "family": "AUTH",
+        "source_id": "CE-CORRESPONDENCE",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.2
+          }
+        },
+        "case_id": "AUTH-FALSE_Q",
+        "example_id": "EX-MIN-01",
+        "family": "AUTH",
+        "source_id": "CE-CORRESPONDENCE",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "AUTH-OPEN_RESIDUAL",
+        "example_id": "EX-MIN-01",
+        "family": "AUTH",
+        "source_id": "CE-CORRESPONDENCE",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.8
+          }
+        },
+        "case_id": "CAP-VALID_GO",
+        "example_id": "EX-SUPER-01",
+        "family": "CAP",
+        "source_id": "CE-SOCIAL-WORK",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.8
+          }
+        },
+        "case_id": "CAP-VALID_BLOCK",
+        "example_id": "EX-SUPER-01",
+        "family": "CAP",
+        "source_id": "CE-SOCIAL-WORK",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.2
+          }
+        },
+        "case_id": "CAP-STALE",
+        "example_id": "EX-SUPER-01",
+        "family": "CAP",
+        "source_id": "CE-SOCIAL-WORK",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.2
+          }
+        },
+        "case_id": "CAP-FALSE_Q",
+        "example_id": "EX-SUPER-01",
+        "family": "CAP",
+        "source_id": "CE-SOCIAL-WORK",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "CAP-OPEN_RESIDUAL",
+        "example_id": "EX-SUPER-01",
+        "family": "CAP",
+        "source_id": "CE-SOCIAL-WORK",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 10.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.0
+          }
+        },
+        "case_id": "COORD-VALID_GO",
+        "example_id": "EX-LINEAR-01",
+        "family": "COORD",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -12.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.0
+          }
+        },
+        "case_id": "COORD-VALID_BLOCK",
+        "example_id": "EX-LINEAR-01",
+        "family": "COORD",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.0
+          }
+        },
+        "case_id": "COORD-STALE",
+        "example_id": "EX-LINEAR-01",
+        "family": "COORD",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.0
+          }
+        },
+        "case_id": "COORD-FALSE_Q",
+        "example_id": "EX-LINEAR-01",
+        "family": "COORD",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "COORD-OPEN_RESIDUAL",
+        "example_id": "EX-LINEAR-01",
+        "family": "COORD",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.0
+          }
+        },
+        "case_id": "CREDIT-VALID_GO",
+        "example_id": "EX-CREDIT-01",
+        "family": "CREDIT",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.0
+          }
+        },
+        "case_id": "CREDIT-VALID_BLOCK",
+        "example_id": "EX-CREDIT-01",
+        "family": "CREDIT",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.0
+          }
+        },
+        "case_id": "CREDIT-STALE",
+        "example_id": "EX-CREDIT-01",
+        "family": "CREDIT",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.0
+          }
+        },
+        "case_id": "CREDIT-FALSE_Q",
+        "example_id": "EX-CREDIT-01",
+        "family": "CREDIT",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "CREDIT-OPEN_RESIDUAL",
+        "example_id": "EX-CREDIT-01",
+        "family": "CREDIT",
+        "source_id": "CE-NOTES",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 10.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.8
+          }
+        },
+        "case_id": "ATTR-VALID_GO",
+        "example_id": "EX-ORANGE-01",
+        "family": "ATTR",
+        "source_id": "AG-D01",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -12.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.8
+          }
+        },
+        "case_id": "ATTR-VALID_BLOCK",
+        "example_id": "EX-ORANGE-01",
+        "family": "ATTR",
+        "source_id": "AG-D01",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.2
+          }
+        },
+        "case_id": "ATTR-STALE",
+        "example_id": "EX-ORANGE-01",
+        "family": "ATTR",
+        "source_id": "AG-D01",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.2
+          }
+        },
+        "case_id": "ATTR-FALSE_Q",
+        "example_id": "EX-ORANGE-01",
+        "family": "ATTR",
+        "source_id": "AG-D01",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "ATTR-OPEN_RESIDUAL",
+        "example_id": "EX-ORANGE-01",
+        "family": "ATTR",
+        "source_id": "AG-D01",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.8
+          }
+        },
+        "case_id": "FRAME-VALID_GO",
+        "example_id": "EX-ANT-01",
+        "family": "FRAME",
+        "source_id": "IF-D10",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.8
+          }
+        },
+        "case_id": "FRAME-VALID_BLOCK",
+        "example_id": "EX-ANT-01",
+        "family": "FRAME",
+        "source_id": "IF-D10",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.2
+          }
+        },
+        "case_id": "FRAME-STALE",
+        "example_id": "EX-ANT-01",
+        "family": "FRAME",
+        "source_id": "IF-D10",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.2
+          }
+        },
+        "case_id": "FRAME-FALSE_Q",
+        "example_id": "EX-ANT-01",
+        "family": "FRAME",
+        "source_id": "IF-D10",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "FRAME-OPEN_RESIDUAL",
+        "example_id": "EX-ANT-01",
+        "family": "FRAME",
+        "source_id": "IF-D10",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 10.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.0
+          }
+        },
+        "case_id": "CLARITY-VALID_GO",
+        "example_id": "EX-SUPER-01",
+        "family": "CLARITY",
+        "source_id": "CC-D17",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -12.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.0
+          }
+        },
+        "case_id": "CLARITY-VALID_BLOCK",
+        "example_id": "EX-SUPER-01",
+        "family": "CLARITY",
+        "source_id": "CC-D17",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.0
+          }
+        },
+        "case_id": "CLARITY-STALE",
+        "example_id": "EX-SUPER-01",
+        "family": "CLARITY",
+        "source_id": "CC-D17",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.5
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 14.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_INFORMATION_INSTRUMENT_SYNTHETIC",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.0
+          }
+        },
+        "case_id": "CLARITY-FALSE_Q",
+        "example_id": "EX-SUPER-01",
+        "family": "CLARITY",
+        "source_id": "CC-D17",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "CLARITY-OPEN_RESIDUAL",
+        "example_id": "EX-SUPER-01",
+        "family": "CLARITY",
+        "source_id": "CC-D17",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 9.0
+          }
+        },
+        "case_id": "EDUC-VALID_GO",
+        "example_id": "EX-HUMAN-01",
+        "family": "EDUC",
+        "source_id": "CE-CAPACITY",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.7
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 3.0
+          }
+        },
+        "case_id": "EDUC-VALID_BLOCK",
+        "example_id": "EX-HUMAN-01",
+        "family": "EDUC",
+        "source_id": "CE-CAPACITY",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -1.0
+          }
+        },
+        "case_id": "EDUC-STALE",
+        "example_id": "EX-HUMAN-01",
+        "family": "EDUC",
+        "source_id": "CE-CAPACITY",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.3
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -13.0
+          }
+        },
+        "case_id": "EDUC-FALSE_Q",
+        "example_id": "EX-HUMAN-01",
+        "family": "EDUC",
+        "source_id": "CE-CAPACITY",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 1.3,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 1.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "EDUC-OPEN_RESIDUAL",
+        "example_id": "EX-HUMAN-01",
+        "family": "EDUC",
+        "source_id": "CE-CAPACITY",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 10.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 10.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.8
+          }
+        },
+        "case_id": "SOLID-VALID_GO",
+        "example_id": "EX-SOLIDAR-01",
+        "family": "SOLID",
+        "source_id": "CE-DIALOGUE-V4",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -12.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -12.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.8
+          }
+        },
+        "case_id": "SOLID-VALID_BLOCK",
+        "example_id": "EX-SOLIDAR-01",
+        "family": "SOLID",
+        "source_id": "CE-DIALOGUE-V4",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.2
+          }
+        },
+        "case_id": "SOLID-STALE",
+        "example_id": "EX-SOLIDAR-01",
+        "family": "SOLID",
+        "source_id": "CE-DIALOGUE-V4",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.2
+          }
+        },
+        "case_id": "SOLID-FALSE_Q",
+        "example_id": "EX-SOLIDAR-01",
+        "family": "SOLID",
+        "source_id": "CE-DIALOGUE-V4",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "SOLID-OPEN_RESIDUAL",
+        "example_id": "EX-SOLIDAR-01",
+        "family": "SOLID",
+        "source_id": "CE-DIALOGUE-V4",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 8.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 10.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 7.8
+          }
+        },
+        "case_id": "RIGHTS-VALID_GO",
+        "example_id": "EX-BAN-03",
+        "family": "RIGHTS",
+        "source_id": "CE-MH-NOTE",
+        "truth_PRIVATE": "ALLOW",
+        "variant": "VALID_GO"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 4.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "INDEPENDENTLY_AUDITED_B_TOY",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 1.8
+          }
+        },
+        "case_id": "RIGHTS-VALID_BLOCK",
+        "example_id": "EX-BAN-03",
+        "family": "RIGHTS",
+        "source_id": "CE-MH-NOTE",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "VALID_BLOCK"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "REJECTED_STALE_OR_INVALID_B",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.2
+          }
+        },
+        "case_id": "RIGHTS-STALE",
+        "example_id": "EX-BAN-03",
+        "family": "RIGHTS",
+        "source_id": "CE-MH-NOTE",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "STALE"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 1.6,
+            "action": "BLOCK",
+            "correctness": "CORRECT",
+            "decision_value_synthetic": 4.0,
+            "evidence_mode": "TARGETED_CONVENTIONAL_EVIDENCE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 2.4
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": 0.0
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "UNRESOLVED",
+            "decision_value_synthetic": 0.0,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": 0,
+            "false_block": 0,
+            "net_value_synthetic": -2.5
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "ALLOW",
+            "correctness": "WRONG",
+            "decision_value_synthetic": -12.0,
+            "evidence_mode": "ACCEPTED_B_QUALIFICATION",
+            "false_allow": 1,
+            "false_block": 0,
+            "net_value_synthetic": -14.2
+          }
+        },
+        "case_id": "RIGHTS-FALSE_Q",
+        "example_id": "EX-BAN-03",
+        "family": "RIGHTS",
+        "source_id": "CE-MH-NOTE",
+        "truth_PRIVATE": "BLOCK",
+        "variant": "FALSE_Q"
+      },
+      {
+        "arms": {
+          "A_ONLY": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "A_BASELINE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "CONVENTIONAL_TARGETED": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_TARGETED_EVIDENCE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "EXPANDED_A": {
+            "acquisition_cost_synthetic": 0.0,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "FULL_RECONSTRUCTION_UNAVAILABLE",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "PARTIAL_Q_AUDIT_GATED": {
+            "acquisition_cost_synthetic": 2.5,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "NO_AUDITED_B_FOR_THIS_QUESTION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          },
+          "QUALIFIED_Q": {
+            "acquisition_cost_synthetic": 2.2,
+            "action": "REVIEW",
+            "correctness": "NOT_ADJUDICABLE",
+            "decision_value_synthetic": null,
+            "evidence_mode": "OPEN_FRONTIER_NO_DECISION",
+            "false_allow": null,
+            "false_block": null,
+            "net_value_synthetic": null
+          }
+        },
+        "case_id": "RIGHTS-OPEN_RESIDUAL",
+        "example_id": "EX-BAN-03",
+        "family": "RIGHTS",
+        "source_id": "CE-MH-NOTE",
+        "truth_PRIVATE": "NOT_ADJUDICABLE",
+        "variant": "OPEN_RESIDUAL"
+      }
+    ],
+    "totals": {
+      "A_ONLY": {
+        "adjudicable": 48,
+        "cases": 60,
+        "correct": 12,
+        "false_allow": 6,
+        "false_block": 0,
+        "instrument_cost_all_cases": 0.0,
+        "net_utility_adjudicable_synthetic": 12.0,
+        "unknown": 12,
+        "unresolved": 30,
+        "wrong": 6
+      },
+      "CONVENTIONAL_TARGETED": {
+        "adjudicable": 48,
+        "cases": 60,
+        "correct": 48,
+        "false_allow": 0,
+        "false_block": 0,
+        "instrument_cost_all_cases": 63.6,
+        "net_utility_adjudicable_synthetic": 200.4,
+        "unknown": 12,
+        "unresolved": 0,
+        "wrong": 0
+      },
+      "EXPANDED_A": {
+        "adjudicable": 48,
+        "cases": 60,
+        "correct": 36,
+        "false_allow": 1,
+        "false_block": 0,
+        "instrument_cost_all_cases": 448.0,
+        "net_utility_adjudicable_synthetic": -262.0,
+        "unknown": 12,
+        "unresolved": 11,
+        "wrong": 1
+      },
+      "PARTIAL_Q_AUDIT_GATED": {
+        "adjudicable": 48,
+        "cases": 60,
+        "correct": 24,
+        "false_allow": 4,
+        "false_block": 0,
+        "instrument_cost_all_cases": 114.0,
+        "net_utility_adjudicable_synthetic": 28.8,
+        "unknown": 12,
+        "unresolved": 20,
+        "wrong": 4
+      },
+      "QUALIFIED_Q": {
+        "adjudicable": 48,
+        "cases": 60,
+        "correct": 24,
+        "false_allow": 12,
+        "false_block": 0,
+        "instrument_cost_all_cases": 96.0,
+        "net_utility_adjudicable_synthetic": -52.8,
+        "unknown": 12,
+        "unresolved": 12,
+        "wrong": 12
+      }
+    }
+  },
+  "evidence_status": "SYNTHETIC_MODELS_ONLY; SOURCE_DOCUMENT_REVIEW; NO_HUMAN_OR_NATIVE_VENDOR_TEST",
+  "existing_synthetic_replays": {
+    "status": "LOCAL_ONLY_NO_SIBLING_REPLAY"
+  },
+  "factorial_joint_mechanism": [
+    {
+      "additional_joint_output_synthetic": 0,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": false,
+      "proof_required": false,
+      "valid_Q_available": false
+    },
+    {
+      "additional_joint_output_synthetic": 2,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": true,
+      "proof_required": false,
+      "valid_Q_available": false
+    },
+    {
+      "additional_joint_output_synthetic": 0,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": false,
+      "proof_required": false,
+      "valid_Q_available": true
+    },
+    {
+      "additional_joint_output_synthetic": 2,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": true,
+      "proof_required": false,
+      "valid_Q_available": true
+    },
+    {
+      "additional_joint_output_synthetic": 0,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": false,
+      "proof_required": true,
+      "valid_Q_available": false
+    },
+    {
+      "additional_joint_output_synthetic": 0,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": true,
+      "proof_required": true,
+      "valid_Q_available": false
+    },
+    {
+      "additional_joint_output_synthetic": 0,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": false,
+      "proof_required": true,
+      "valid_Q_available": true
+    },
+    {
+      "additional_joint_output_synthetic": 2,
+      "interpretation": "Q cannot create a physical joint transition when none exists.",
+      "joint_mechanism_available": true,
+      "proof_required": true,
+      "valid_Q_available": true
+    }
+  ],
+  "finite_entropic_experiment": {
+    "KL_P_to_Q_bits": "INFINITE_SUPPORT_MISMATCH",
+    "KL_Q_to_P_bits": 1.0,
+    "conditional_mutual_information_bits": 1.0,
+    "finite_log_coverage_bits": 1.0,
+    "finite_worlds": [
+      {
+        "a": "READY",
+        "b": 0,
+        "r": 0
+      },
+      {
+        "a": "READY",
+        "b": 1,
+        "r": 1
+      }
+    ],
+    "h_response_given_A_and_B_bits": -0.0,
+    "h_response_given_A_bits": 1.0,
+    "preimage_constructible_n": 2,
+    "preimage_theoretical_m": 4,
+    "scope": "FINITE_UNIFORM_TOY_ONLY. No entropy or probability assigned to open C/D."
+  },
+  "human_and_measurement_blockers": {
+    "HID_task_time_synthetic": {
+      "ACW": 30,
+      "ACW_hours_difference_IF_FEASIBLE": 20,
+      "GIC": 40,
+      "NEO": 20,
+      "UNKNOWN": 10,
+      "matched_counterfactual_ACW": 10,
+      "measurement_status": "NOT_OBSERVED; NOT_01K_CLAIM"
+    },
+    "attribution_gap_D02_formula": "BLOCKED_FOR_COMPUTATION__SOURCE_EDITION_CONFLICT",
+    "better_awareness_changes_physical_gap": false,
+    "cost_clarity_capture_recapture": "NOT_IDENTIFIED__NO_SAMPLING_OR_INDEPENDENCE",
+    "human_dignity": "NOT_A_PRODUCTIVITY_METRIC",
+    "human_suffering_experienced": "NOT_MEASURED",
+    "informational_friction_suppression": "NOT_OBSERVED__REQUIRES_COMPARABLE_FIELD_STUDY",
+    "role_development_proxy_synthetic": 3.0,
+    "self_determination_scale": "NOT_MEASURED",
+    "solidarity": {
+      "declared_voluntary": true,
+      "real_consent_evidence": "NOT_OBSERVED",
+      "risk_D_unquantified": true,
+      "software_authorization": "NOT_GRANTED"
+    }
+  },
+  "interpretation_guard": "No experiment here shows observed social harm, historical outcomes, UC21 Stage C, actual HID, papal endorsement or universal performance superiority of EA. Arbitrary monetary coefficients do not validate FH-E.",
+  "network_counterfactuals": [
+    {
+      "best_feasible_value_ASSUMED": 52.0,
+      "current_output_synthetic": 50.0,
+      "dimensions": 5,
+      "gap_ASSUMED": 2.0,
+      "gap_over_output_pct_ASSUMED": 4.0,
+      "modeled_links": 10,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "dense"
+    },
+    {
+      "best_feasible_value_ASSUMED": 109.0,
+      "current_output_synthetic": 100.0,
+      "dimensions": 10,
+      "gap_ASSUMED": 9.0,
+      "gap_over_output_pct_ASSUMED": 9.0,
+      "modeled_links": 45,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "dense"
+    },
+    {
+      "best_feasible_value_ASSUMED": 238.0,
+      "current_output_synthetic": 200.0,
+      "dimensions": 20,
+      "gap_ASSUMED": 38.0,
+      "gap_over_output_pct_ASSUMED": 19.0,
+      "modeled_links": 190,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "dense"
+    },
+    {
+      "best_feasible_value_ASSUMED": 556.0,
+      "current_output_synthetic": 400.0,
+      "dimensions": 40,
+      "gap_ASSUMED": 156.0,
+      "gap_over_output_pct_ASSUMED": 39.0,
+      "modeled_links": 780,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "dense"
+    },
+    {
+      "best_feasible_value_ASSUMED": 50.8,
+      "current_output_synthetic": 50.0,
+      "dimensions": 5,
+      "gap_ASSUMED": 0.8,
+      "gap_over_output_pct_ASSUMED": 1.6,
+      "modeled_links": 4,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "star"
+    },
+    {
+      "best_feasible_value_ASSUMED": 101.8,
+      "current_output_synthetic": 100.0,
+      "dimensions": 10,
+      "gap_ASSUMED": 1.8,
+      "gap_over_output_pct_ASSUMED": 1.8,
+      "modeled_links": 9,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "star"
+    },
+    {
+      "best_feasible_value_ASSUMED": 203.8,
+      "current_output_synthetic": 200.0,
+      "dimensions": 20,
+      "gap_ASSUMED": 3.8,
+      "gap_over_output_pct_ASSUMED": 1.9,
+      "modeled_links": 19,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "star"
+    },
+    {
+      "best_feasible_value_ASSUMED": 407.8,
+      "current_output_synthetic": 400.0,
+      "dimensions": 40,
+      "gap_ASSUMED": 7.8,
+      "gap_over_output_pct_ASSUMED": 1.95,
+      "modeled_links": 39,
+      "note": "The joint feasible counterfactual is ASSUMED, not independently proved for a social economy.",
+      "topology": "star"
+    }
+  ],
+  "schema_version": "CE-CAMPAIGN-0.1",
+  "source_anchored_microexperiments": {
+    "BANANA_DONATION_AND_CARITAS": {
+      "actual_authorized_donation_without_donor_consent": false,
+      "actual_third_party_behaviour": "NOT_OBSERVED",
+      "capacity_if_already_collected": 1,
+      "charity_public_credit_assumed_misappropriated": false,
+      "delivery_possible_if_route_safe": true
+    },
+    "BANANA_THREE_STATES": {
+      "conditional_recovery_of_wasted_one": 1,
+      "legality_and_safety": "ASSUMED_NOT_TESTED",
+      "states": {
+        "S0": {
+          "bananas_produced": 0,
+          "consumed_by_holder": 0,
+          "received_by_child": 0,
+          "wasted": 0
+        },
+        "S1": {
+          "bananas_produced": 2,
+          "consumed_by_holder": 1,
+          "received_by_child": 0,
+          "wasted": 1
+        },
+        "S2": {
+          "bananas_produced": 2,
+          "consumed_by_holder": 1,
+          "received_by_child": 1,
+          "wasted": 0
+        }
+      }
+    },
+    "CRAFT_TRANSMISSION": {
+      "ability_to_reproduce_craft": "NOT_ESTABLISHED",
+      "artifacts_still_exist": true,
+      "historical_labour_outcome": "NOT_OBSERVED",
+      "master_apprentice_capacity": "NOT_OBSERVED"
+    },
+    "CREDIT_RELATIVE_FLOORS": {
+      "necessity_of_share": "SOURCE_SPECIFIC_VALIDATION_PENDING",
+      "seven_plus_four": {
+        "feasible": false,
+        "required": [
+          7,
+          4
+        ]
+      },
+      "seven_plus_three": {
+        "feasible": true,
+        "required": [
+          7,
+          3
+        ]
+      },
+      "total": 10
+    },
+    "EDUCATION_ARCHITECTURE_GATE": {
+      "accessibility": "UNKNOWN",
+      "candidate_passes_algebra": true,
+      "child_protection": "UNKNOWN",
+      "full_architecture_adoption": "NOT_ESTABLISHED",
+      "transfer_of_learning": "UNKNOWN"
+    },
+    "FINITE_XOR_SYNERGY": {
+      "I_R_Q1Q2_bits": 1,
+      "I_R_Q1_bits": 0,
+      "I_R_Q2_bits": 0,
+      "joint_states": 4,
+      "no_open_D_probability": true,
+      "target_outputs": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "HUMAN_SCENARIO_LYCEE": {
+      "experienced_distress": "NOT_MEASURED",
+      "observed_french_student": "NOT_OBSERVED",
+      "person_worth_metric": "NONE",
+      "structural_hypothesis": "POSSIBLE_IF_JOINTLY_FEASIBLE_AND_PERSON_ENDORSES_GOAL"
+    },
+    "IQ03_EFFICIENCY_GAP": {
+      "alt_feasible": "ASSUMED_WITHIN_EACH_PERIOD",
+      "gap_increased": true,
+      "output_increased": true,
+      "resource_gap_t0": 20,
+      "resource_gap_t1": 45,
+      "service_t0": 100,
+      "service_t1": 140
+    },
+    "NONFUNGIBLE_PROVENANCE": {
+      "distinct_origins": 2,
+      "fully_independent_observations": "NOT_ESTABLISHED",
+      "three_messages": 3
+    },
+    "NONMONOTONE_APPLES": {
+      "best_global_quantity": 8,
+      "jump_legally_executable": "NOT_ESTABLISHED",
+      "local_peak_quantity": 3,
+      "local_step_decreases_utility": true,
+      "utilities": [
+        0,
+        4,
+        7,
+        8,
+        7,
+        5,
+        5,
+        9,
+        10
+      ]
+    },
+    "ORANGE_RESEARCH_GATE": {
+      "actor_experienced_suffering": "NOT_MEASURED",
+      "authorized_harvest_quantity": "UNKNOWN",
+      "discarded_fruit_reported": true,
+      "price_collusion": "NOT_ESTABLISHED",
+      "recoverable_output": "NOT_ESTABLISHED"
+    },
+    "TWO_MINISTRIES_700_APPLICATIONS": {
+      "certified_recoverable_savings": "NOT_ESTABLISHED",
+      "illustrative_candidate_applications": 2,
+      "illustrative_start_applications": 700,
+      "same_service_and_rights_evidence": "NOT_ESTABLISHED"
+    },
+    "evidence_tier": "DECLARED_FINITE_SOURCE_ILLUSTRATIONS_NOT_OBSERVATIONS"
+  },
+  "source_documents_screened": 23,
+  "uc21_case_templates_not_executed": [
+    {
+      "falsification": "requires predeclared change, authentic native trace and external effect observer",
+      "gate_count": 6,
+      "name": "Enterprise synthesis",
+      "native_routes": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "no_native_product_claim": true,
+      "product_execution": "NOT_RUN",
+      "scenario": "S1",
+      "test_stage": "DDS_STAGE_A_FIXTURE_PLANNED"
+    },
+    {
+      "falsification": "requires predeclared change, authentic native trace and external effect observer",
+      "gate_count": 6,
+      "name": "Shared mobility",
+      "native_routes": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "no_native_product_claim": true,
+      "product_execution": "NOT_RUN",
+      "scenario": "S2",
+      "test_stage": "DDS_STAGE_A_FIXTURE_PLANNED"
+    },
+    {
+      "falsification": "requires predeclared change, authentic native trace and external effect observer",
+      "gate_count": 6,
+      "name": "False mission",
+      "native_routes": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "no_native_product_claim": true,
+      "product_execution": "NOT_RUN",
+      "scenario": "S3",
+      "test_stage": "DDS_STAGE_A_FIXTURE_PLANNED"
+    },
+    {
+      "falsification": "requires predeclared change, authentic native trace and external effect observer",
+      "gate_count": 6,
+      "name": "Refund case",
+      "native_routes": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "no_native_product_claim": true,
+      "product_execution": "NOT_RUN",
+      "scenario": "S4",
+      "test_stage": "DDS_STAGE_A_FIXTURE_PLANNED"
+    },
+    {
+      "falsification": "requires predeclared change, authentic native trace and external effect observer",
+      "gate_count": 7,
+      "name": "Stale repair",
+      "native_routes": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "no_native_product_claim": true,
+      "product_execution": "NOT_RUN",
+      "scenario": "S5",
+      "test_stage": "DDS_STAGE_A_FIXTURE_PLANNED"
+    },
+    {
+      "falsification": "requires predeclared change, authentic native trace and external effect observer",
+      "gate_count": 6,
+      "name": "Rights provenance",
+      "native_routes": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "no_native_product_claim": true,
+      "product_execution": "NOT_RUN",
+      "scenario": "S6",
+      "test_stage": "DDS_STAGE_A_FIXTURE_PLANNED"
+    }
+  ],
+  "uc21_synthetic_adapter": {
+    "status": "LOCAL_ONLY_NO_SIBLING_REPLAY"
+  }
+}

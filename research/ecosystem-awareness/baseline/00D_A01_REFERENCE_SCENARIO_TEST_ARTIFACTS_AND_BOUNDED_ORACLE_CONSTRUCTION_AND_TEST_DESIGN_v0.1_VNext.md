@@ -1,0 +1,91 @@
+# Revisión cruzada con el oráculo R01 — 00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
+
+**6 de octubre de 2026 · revisión acumulativa 1.0 · Codex /root, mismo asistente.**
+Fuente: [documento original](00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md), corte `715027943eefb372fdb4541a23d288bffdedbdb2`, blob `3d080df5b8d12b1c697115f02cbadffa63427c95`.
+Esta es la única VNext de ese documento lógico. El original permanece intacto. [Método](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
+## Instrucción y alcance
+
+Iván: «realiza las tareas 1 y 2», referido al plan de la [VNext del oráculo R01](reductions/00G-R01/oracle/README_VNext.md). Este expediente registra la relación material examinada; no una auditoría completa de esta fuente.
+
+| Pasada de esta fuente | Estado |
+|---|---|
+| Fondo y lógica | Pendiente como examen completo propio. |
+| Evidencia y relaciones | Parcial: relación R01-X03 con el README del oráculo R01 examinada. |
+| Edición, estructura y formato | Pendiente como examen propio. |
+| Comprensión humana | Pendiente como examen propio. |
+
+## Evidencia y relaciones — R01-X03
+
+**Afirmación de origen y condición.** O_ref decide dentro de un universo representado, conserva residual y no actúa como autoridad del runtime.
+
+**Uso y consecuencia en R01.** R01 conserva ese límite cuando usa una referencia privada y responde INCONCLUSIVE sin referencia suficiente. A01 es diseño, no ejecución del nuevo oracle ni prueba de verdad del ecosistema abierto. Si el residual se convierte en PASS, la transferencia sería incorrecta.
+
+**Si falla la relación.** Se limita la afirmación de compatibilidad del perfil receptor; el resultado original conserva su pregunta, versión y dominio. Una normalización no aporta hechos ausentes ni cambia la autoridad de la fuente.
+
+El relato completo, los pasajes de código y la matriz están en la [misma revisión R01](reductions/00G-R01/oracle/README_VNext.md). No se ejecutó aquí el harness científico ni se atribuye independencia externa a este asistente.
+
+## Conversación y decisión
+
+Registro inicial de revisión cruzada. No hay respuesta de un source owner ni aprobación de cambios al cuerpo original. El hallazgo se mantiene visible en ambos lados de la relación.
+
+## Propuestas de modificación — al final
+
+No se propone aplicar cambios al cuerpo de esta fuente desde esta entrega. Sus discrepancias o mejoras futuras necesitan antes/después exactos y la decisión correspondiente; la matriz de R01 conserva las condiciones de transferencia.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Contrastar diseño de fixtures, frozen facts y oráculos con métodos externos de evaluación y controles. Identificar prácticas aprovechables y qué parte de sus modelos/datasets no se transfiere al escenario.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Conciliar hechos congelados, fixtures y oráculo con los requisitos y conclusiones que los utilizan; identificar qué parte es diseño, instrumento, caso observado o resultado.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+**No hay un cambio quirúrgico listo que valorar en este expediente.** La auditoría existente mantiene su alcance real y preguntas abiertas. No se crea un antes/después para llenar una tabla. Las relaciones materiales examinadas pueden requerir preparación en otros expedientes; este registro no modifica la fuente ni inicia una auditoría del material adicional.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md), blob `3d080df5b8d12b1c697115f02cbadffa63427c95`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+**Juicio del plan: Sin candidato; revisión propia pendiente.** R01-X03 protege oráculo relativo, residual y ausencia de autoridad runtime. No parchear A01 para hacer completo aR01.
+
+**Trabajo necesario para un plan adecuado:** Completar lectura propia; residual insuficiente sigue INCONCLUSIVE. Preparar46–48 en el receptor, conservando diseño original.
+
+No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/después para llenar una tabla. La ausencia de candidato sólo se justifica en el alcance leído; no significa auditoría integral concluida. Si aparece una laguna material, su par literal, alcance, beneficio, riesgo, coste y decisión quedarán en esta misma VNext.
+
+**Consecuencia entre documentos:** [25](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [46](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [48](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Historical construction and oracle reception — 15 October 2026
+
+Reviewer B compared the complete former proof-sketch body with the current construction/test-design source and its historical clauses. The source graph, oracle residual, runtime/evaluator separation, ICR boundary, scarce resources, defender, preregistration, controls and full matrix survive. Changed title/status/01C/S# references and stronger observation duties do not remove that body. Current branching adds Q1c R/NR and Q1e/Q2/Q4; the former stipulated no-cascade falsifier is replaced by an observable null/control boundary. No old proof/execution implication is restored.

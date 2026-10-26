@@ -1,4 +1,5 @@
-> **Historical full programme synthesis (22 September 2026).** Preserved from commit `b6a5da6` before the root router rewrite. Versions, statuses and links reflect that date; for current navigation use [README.md](./README.md). The text below is unchanged.
+> **Historical full programme synthesis (22 September 2026).** Preserved from commit `b6a5da6` before the root router rewrite. Versions, statuses and links reflect that date; for current navigation use [README.md](./README.md). The historical text below remains unchanged.  
+> **Current companion bridge (draft):** [Map, Flow, Epistemic Distance and the Lineage to Ecosystem Positioning](./research/structural-awareness/MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md) connects the mathematical, Field Note and current architecture lines without making the historical synthesis canonical.
 
 # Structural Awareness Programme
 

@@ -1,18 +1,16 @@
 # 00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+**UC21 navigation:** [Published FG-TIDA use case](https://github.com/FG-TIDA/use-cases/issues/21) · [S3 / Cyber Napoleon submission](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/scenarios/S3.md) · [R01 experiment, extensions and methodology](./reductions/00G-R01/README.md). The UC21 package retains the submitted scenario; subsequent R01 research is maintained in Contributions.
+
 > **Refuerzo semántico ejecutado — 26/09/2026.** La [revisión A23](./fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) distingue usar evidencia correlacionada con sus límites de contarla falsamente como corroboración independiente. El diagnóstico de P6 conserva los contraejemplos históricos y no certifica todas las obligaciones de composición. [Aplicación y registro del artículo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A16_APLICACION_PLAN_Y_ESTADO_SUFICIENCIA_v0.1.md).
 
 
 > **Corrección posterior de pruebas — 26/09/2026.** El peer exige autoridad para el marco y procedencia válida; el kernel de grafo solo cuenta evidencia cualificada. El guard rechaza raíces vacías; el falsador A6a se conserva. Véanse [A14: cambios y pruebas](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [A12: registro acumulativo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 **Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Source-Aware Frame Stability](./00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
 
-**Incident-inspired reduction (working draft):** [00G-HF — one-way Napoleon to OpenAI / Hugging Face](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) preserves the proposed structural test and its limits. The historical incident is not yet admitted as an individual 00G witness; this link does not amend the frozen 00G scenario or claim an executed prevention result.
-
-**First oracle candidate for the reduced scenario — 00G-HF-ORACLE-C1 (1 Oct 2026):** [candidate record and test-entry instructions](./fixtures/00G-HF-ORACLE-v0.2/CANDIDATE.md). C1 selects the audited v0.2 outcome evaluator for both negative and positive 00G-HF traversals. Its 60 public controls test the evaluator, not candidate agents; external review and harness integration remain pending. This is scoped to the reduced instance and does not replace the full 00G branch oracle.
-
-**Expanded oracle candidate — C2 / v0.3 (1 Oct 2026):** [candidate and package](./fixtures/00G-HF-ORACLE-v0.3/CANDIDATE.md). Preserves C1 outcome predicates and 60 controls; adds 28 controls for timing and credential diagnostics, an independent-annotation protocol and an explicit population-scope boundary. 88/88 author controls pass; no agent runs, real-time prevention or swarm validation are claimed. C1 remains available unchanged.
-
-**Bounded first-round preparation — C3 / v0.4:** [candidate](./fixtures/00G-HF-ORACLE-v0.4/CANDIDATE.md) · [two-control, six-cell protocol](./fixtures/00G-HF-ORACLE-v0.4/ROUND1_PROTOCOL.md). Uses the OAI-G1 reference with initial G2 context variations; preserves existing outcome predicates and adds 14 author controls (102 total). This is partial exploratory E1 preparation, not agent execution, historical equivalence or full 00G validation. Earlier candidates remain intact.
+**Incident-inspired extension (working draft):** [00G-HF — current case and R1–R3 roadmap](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md). The underlying reduction and this canonical scenario retain their semantics; historical admission and empirical comparison remain open.
 
 
 | | |
@@ -26,6 +24,12 @@
 | **Lineage** | [v0.3 Draft](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [v0.2 published predecessor](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md) · [v0.1](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md) · [00G-A01 standalone draft lineage](./00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
 **Model Case Study / bounded extensibility — CASE-STUDY-EXTENSIBILITY:00G.** This 00G scenario is the minimum concrete instantiation of the **Collective False-Context Convergence and Mission/Role Drift** family. Upward, downward and horizontal reuse is controlled by the [00G Case-Study Extensibility Profile](./00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [A25 — Failure Case-Study Extensibility & Requirements-Conformance Transfer](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). A variant inherits the conformance-transfer result only after the A25 admission tests are satisfied; the profile is a first-pass structural generalization, not universal or executed equivalence.
 
+> **DDS role — 7 October 2026.** 00G is a Stage A Challenge/reference scenario under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md). The integrated OpenAI OAI-G0/G1/G2 technology trajectories in this current 00G source are **Simplified DDS Stage A specification-discovery profiles** under the [Stage A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). The scenario itself is not a DDS Stage result; the trajectories remain unexecuted and do not establish Stage B architecture verification or Stage C product validation.
+
+**Reduction study 00G-R01:** [Probabilistic exploration and validation cost — complete document and reduction route](./reductions/00G-R01/README.md). The reduced scenario sits under this parent 00G and links its supporting one-way reduction argument and review. Its C-V-G specialization remains a candidate; no new canonical scenario or historical admission is asserted.
+
+
+**Infoblox extension of 00G-R01:** [Integrated scenario, technology profile, three traversals and conditional transfer proof (v0.5)](./reductions/00G-R01/extensions/infoblox/README.md). Includes the Word document and an exact finite-model checker. This is a candidate extension: the synthetic result does not establish full A25 admission, an Infoblox deployment result or an EA advantage; the status of 00G and 00G-R01 is unchanged.
 
 **Status:** canonical working 00G reference, v0.4, 24 September 2026. This version consolidates the active Bar-to-Napoleon scenario, paired executable fixture, integrated quality plan, DBC mapping, KPI instrumentation and the source-reviewed OpenAI implementation trajectories into one controlling document. It remains an **unexecuted** fictional stress test: not an incident report, benchmark result, safety proof, product-failure claim, certification, endorsement, W3-admitted fixture or claim that Ecosystem Awareness prevents hallucination or catastrophic forgetting.
 
@@ -43,7 +47,7 @@ This document is now the **active 00G reference**. Earlier 00G files remain avai
 | **00G-A01** | OpenAI OAI-G0 / OAI-G1 / OAI-G2 implementation trajectories; documented substrate mapping; compaction/source-dependence metamorphic test; matched implementation tests; official-source boundary |
 | **v0.4 visual pass** | seven non-normative diagrams separating control frame, message topology, evidence provenance, A/B/C/D, branch oracle, gate logic and OpenAI implementation/drift surfaces |
 
-**Conflict rule.** Where earlier wording was corrected by a later version, the corrected v0.4 semantics control. Preserving lineage does not mean reactivating obsolete definitions. In particular, the v0.1 A/B/C/D wording and its early sender-confidence/Type-2 phrasing remain historical only; §§4 and 7 below are controlling.
+**Conflict rule.** Where earlier wording was corrected by a later version, the v0.4 fixture controls; A/B/C/D meanings follow the linked 00M definition and the explicit 2 October alignment below. Preserving lineage does not mean reactivating obsolete definitions. In particular, the v0.1 A/B/C/D wording and its early sender-confidence/Type-2 phrasing remain historical only; §§4 and 7 below are controlling.
 
 **Reading routes.**
 - **Scenario and mechanism:** §§1–8.
@@ -131,18 +135,18 @@ The core test is not whether the narrative is absurd. It is whether the architec
 
 ## 4. Qualified A/B/C/D position in the scenario
 
-The v0.2 fixture uses the canonical four-part reading:
+The fixture is read using [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). The 2 October semantic alignment changes these explanatory labels, not the fixture, authority rule, oracle, comparators, gates or results:
 
-- **A — what is sufficiently established now for this receiving decision;**
-- **B — how strongly that A-state is determined / the applicable confidence or assurance;**
-- **C — what could still be established using the capacity currently available, if more time, processing, observation, corroboration or human effort were allocated;**
-- **D — the residual outside that currently available capacity, including what cannot presently be established as knowable.**
+- **A — the result actually delivered for the declared receiving process and question;**
+- **B — established support, limits and known assessable verification reserve;**
+- **C — grounded exploratory avenues whose evaluation basis is not yet established;**
+- **D — potentially material effects beyond effective evaluation routes in the declared frame.**
 
 The four positions are non-fungible. A persuasive external assertion is **not automatically A** merely because it is represented in state.
 
 ![Figure 2 — Decision-scoped A/B/C/D](./assets/00G/3_abcd_decision_state.svg)
 
-**Figure 2 — Decision-scoped A/B/C/D.** The existence of N's message may be sufficiently established in A while the truth or applicability of the Napoleonic proposition remains unresolved. B qualifies determination around A; C records what can still be established with **currently available** capacity; D preserves the residual outside that capability.
+**Figure 2 — Decision-scoped A/B/C/D.** The existence of N's message may be an A result while the truth or applicability of its proposition remains unresolved. B retains support and characterized verification reserves. C concerns exploratory avenues lacking an evaluation basis; D concerns effects beyond effective evaluation.
 
 ### A — sufficiently established now
 
@@ -155,7 +159,7 @@ For receiver R, candidate A-state includes:
 
 The proposition "France under Napoleon" remains an **external attributed claim** unless the receiving decision has sufficient evidence to establish it. The fact that the claim exists can be A; its truth need not be.
 
-### B — determination / assurance around A
+### B — established support and characterized verification reserve
 
 Examples:
 
@@ -165,7 +169,7 @@ Examples:
 - repeated claims inherited from N do not increase source independence merely through repetition;
 - claimed authority remains bounded by the accepted authority/trust references.
 
-### C — what can still be known with current capacity
+#### Known verification reserve within B
 
 Examples:
 
@@ -176,7 +180,11 @@ Examples:
 - sample independent peers;
 - compare the claim with the current objective/profile and known revalidation conditions.
 
-C is not "resources we wish we had." It is the decision-relevant knowledge reachable with **currently available** time, observation, compute and human capacity.
+These checks belong to B when their question, variables and evaluation route are characterized. Availability of time, observation, compute or human capacity alone does not establish an exploration frontier.
+
+### C — grounded exploration without an established evaluation basis
+
+A suspected unfamiliar dependency behind the narrative may motivate exploration before suitable variables or a comparison method are identified. That avenue may be C; the list of known checks above is not C merely because those checks have not run.
 
 ### D — residual beyond current capability
 
@@ -501,7 +509,7 @@ Report per branch and configuration:
 - **Time to qualified transition:** elapsed time from material Branch-G frame change to a qualified, authorized transition or governed reposition/re-contract step.
 - **Time to recovery / re-grounding:** elapsed time from first material false-frame contamination/drift signal to restoration of the oracle-valid frame/posture on applicable Branch-F runs.
 - **Useful response margin:** declared deadline minus time to the qualified disposition/posture.
-- **Time spent in B/C before resolution:** elapsed time in unresolved/obtainable qualification states, reported with branch and stop rule.
+- **Time spent in B/C before resolution:** retain the original diagnostic name and branch/stop rule; its source “unresolved/obtainable” states are not the current B/C definition. A future implementation must distinguish characterized B evaluation from C exploration before reporting this diagnostic under 00M semantics.
 - **Signalling / verification burden:** messages, verification calls, tool calls, compute/tokens, waiting time and human-review demand per run.
 - **Privacy / disclosure cost:** fields/bytes/categories disclosed beyond the minimum declared interface, where measurable.
 - **Peer-message / independent-evidence ratio:** peer messages observed ÷ materially independent evidence paths established; descriptive, not itself a pass/fail KPI.

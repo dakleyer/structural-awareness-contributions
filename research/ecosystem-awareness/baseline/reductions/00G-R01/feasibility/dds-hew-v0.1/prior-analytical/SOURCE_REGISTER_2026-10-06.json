@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-06",
+  "scope": "Four analytical extension studies; original calendar and added actuation/delegation models; no native technology campaign or publication",
+  "corpus_commit": "620f6a7a47eb2580fb41f7d1f91f4a6c572d3ebb",
+  "spiffe_spec_commit": "f97c46dfd0ff0d4e412cce5c73846a9ca32a99a2",
+  "spire_reference": {
+    "version": "v1.15.3",
+    "url": "https://github.com/spiffe/spire/releases/tag/v1.15.3",
+    "published_at": "2026-08-21T14:26:18Z",
+    "installed": false
+  },
+  "source_specs": [
+    {
+      "path": "standards/JWT-SVID.md",
+      "blob": "8f0f39c1007ce786b5a7214ac02e21c453081270"
+    },
+    {
+      "path": "standards/SPIFFE-ID.md",
+      "blob": "caa1bef4671a9f825cffc342d5802f430c7e1258"
+    },
+    {
+      "path": "standards/SPIFFE.md",
+      "blob": "90b77a5e5cf933d8c0b107a07cee7c589744dee2"
+    },
+    {
+      "path": "standards/SPIFFE_Workload_API.md",
+      "blob": "f56a8761f9f906bc54e3541636253afc700f7696"
+    },
+    {
+      "path": "standards/STABILITY.md",
+      "blob": "8d6427320a4ebc0b4867c4601af623963a667d65"
+    },
+    {
+      "path": "standards/X509-SVID.md",
+      "blob": "cec8b73004a5ea4c90c18478999dfddb1ef841bc"
+    }
+  ],
+  "stpa": {
+    "title": "STPA Handbook (MIT-STAMP-001)",
+    "authors": [
+      "Nancy Leveson",
+      "John Thomas"
+    ],
+    "edition": "March 2018",
+    "source_url": "https://psas.scripts.mit.edu/home/get_file.php?name=STPA_handbook.pdf",
+    "bytes": 5585018,
+    "pages": 188,
+    "sha256": "63091747b6746766d3b20c6181125bb8168b4f4030300bd61ee76c52daf7d336",
+    "coverage": "Basic STPA chapter2 pages14-53 read, foundation pages11-13 and organizational opening pages86-87; figures24/36 rendered and inspected. Not a full-book review.",
+    "source_not_modified": true,
+    "rendered_source_figures": [
+      24,
+      36
+    ]
+  },
+  "rats": {
+    "reference": "RFC 9334",
+    "status": "Informational",
+    "url": "https://datatracker.ietf.org/doc/html/rfc9334",
+    "profile": "Proposed conceptual software-state appraisal/consumption profile; no standardized wire format or trusted-device implementation admitted"
+  },
+  "canonical_edits": false,
+  "source_owner_acceptance": false,
+  "independent_review": false,
+  "latest_quote_note": "Nell's STAMP/STPA duplication-check fragment supplied by Ivan; original URL not established; public objection requirements separately verifiable.",
+  "version": "0.3",
+  "current_analytical_run": "DDS-HEW-ANALYTICAL-FIXTURE-20261006-03",
+  "native_technologies_executed": false,
+  "SPIRE_unix_source": "https://github.com/spiffe/spire/blob/v1.15.3/doc/plugin_agent_workloadattestor_unix.md",
+  "results": "analytical_fixture_results_v0.3_2026-10-06.json",
+  "latest_review_procedure_cut": "65517160658e6485f2dd63415a7365674e9bd6ea",
+  "historical_corpus_cut_note": "corpus_commit retains the first three studies source cut; the fourth study and newest fifth-pass rule use latest_review_procedure_cut",
+  "fencing_deputy_sources": [
+    {
+      "title": "Hazelcast FencedLock",
+      "version": "documentation branch5.6",
+      "url": "https://docs.hazelcast.com/hazelcast/5.6/data-structures/fencedlock",
+      "coverage": "official page read; no installation"
+    },
+    {
+      "title": "The Chubby lock service for loosely-coupled distributed systems",
+      "author": "Mike Burrows",
+      "year": 2006,
+      "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf",
+      "coverage": "selected sections2.1 and2.3-2.6; not all16 pages"
+    },
+    {
+      "title": "The Confused Deputy",
+      "author": "Norm Hardy",
+      "year": 1988,
+      "url": "https://people.csail.mit.edu/alinush/6.858-fall-2014/papers/confused-deputy.pdf",
+      "coverage": "complete3-page mirror read"
+    },
+    {
+      "title": "AWS IAM confused-deputy prevention",
+      "version": "living official documentation consulted2026-10-06",
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html",
+      "coverage": "official page read; no AWS policy/role/runtime"
+    },
+    {
+      "title": "OAuth2 Token Exchange",
+      "version": "RFC8693 January2020 Standards Track",
+      "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
+      "coverage": "targeted2.1/2.1.1 and delegation claims/examples, not a full implementation review"
+    }
+  ],
+  "added_actuation_analytical_run": {
+    "run_id": "DDS-HEW-FENCING-DEPUTY-ANALYTICAL-20261006-01",
+    "card": "fencing_deputy_run_card_v0.1_2026-10-06.json",
+    "checker": "check_fencing_deputy_fixture_v0.1_2026-10-06.py",
+    "results": "fencing_deputy_results_v0.1_2026-10-06.json",
+    "cases": 20,
+    "event_sequences": 1296,
+    "modeled_events": 5184,
+    "legal_race_interleavings": 6,
+    "unchecked_commit_regressions": 2,
+    "atomic_recheck_regressions": 0,
+    "native_executed": false,
+    "case_expectation_author": "same assistant",
+    "independent_adjudication": false
+  },
+  "external_research_fifth_pass": {
+    "new_study": "scoped primary-source comparison and explicit reuse judgement in section11",
+    "first_three_studies": "new fifth-pass obligation not completed by this addition",
+    "FG_TIDA_specific_fourth_subject": "focused coverage and original Nell quote attribution pending",
+    "copied_third_party_code_or_data": false,
+    "demonstrated_differential": false
+  }
+}

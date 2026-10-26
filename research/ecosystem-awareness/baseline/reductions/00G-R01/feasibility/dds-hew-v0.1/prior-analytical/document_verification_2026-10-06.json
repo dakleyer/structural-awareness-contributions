@@ -1,0 +1,8 @@
+{
+  "result": "DOCUMENT_CUSTODY_AND_LINK_CHECK_PASS",
+  "documents": 5,
+  "native_execution": false,
+  "source_PDF_unchanged": true,
+  "analytical_run_id": "DDS-HEW-ANALYTICAL-FIXTURE-20261006-03",
+  "notes": "Link/custody checks only; scientific findings retain their declared scope."
+}

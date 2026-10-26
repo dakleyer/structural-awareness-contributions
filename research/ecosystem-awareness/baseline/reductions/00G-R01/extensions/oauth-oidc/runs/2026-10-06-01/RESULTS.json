@@ -1,0 +1,203 @@
+{
+  "schema": "DDS-EXTENSION-RESULT-0.1",
+  "study": "DDS-OAUTH-OIDC-20261006",
+  "status": "PASS_REGISTERED_LOCAL_EXPECTATIONS",
+  "case_count": 11,
+  "assertions": 22,
+  "outcome_counts": {
+    "I": 2,
+    "Ø": 8,
+    "M": 1
+  },
+  "results": [
+    {
+      "id": "AUTH-01",
+      "narrative": "A tenant-a application submits a valid signed access token for the resource and admitted write grant.",
+      "outcome": "I",
+      "actual_local_effects": 1,
+      "identity_return": false,
+      "validator_reason": "valid",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1,
+        "operational_sql_statements": 1
+      },
+      "token_sha256": "57b06523cd5e06d4493f056e6a0139042c052fbaa33b21128a8225fbf40cebf7",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-02",
+      "narrative": "The same signed token names another resource audience.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "resource-audience",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "ccd4c64586830972cbd04dd2bf234918c90f3e578d1edb713ac0bb86c44decaf",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-03",
+      "narrative": "The request arrives at the exact access-token expiration boundary.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "expired",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "212065d7038e406ca71967b5116b75fec78cc538606d3e79ace62ecba266a09a",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-04",
+      "narrative": "The claims are signed by a key outside the admitted local issuer bundle.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "signature-or-parse",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "1b938d7aa9527d738cb989d724929351de6cde845a85825c3b955a06cdebdfdf",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-05",
+      "narrative": "The caller asks only for an admitted authenticated local identity result from an ID Token; no resource operation is requested.",
+      "outcome": "M",
+      "actual_local_effects": 0,
+      "identity_return": true,
+      "validator_reason": "valid",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "4de05c2fd1b64c5e71c1e79ce13b2cc0a765ac93bcffbefee1b13bf9e208df88",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-06",
+      "narrative": "A valid client ID Token is offered as permission to perform a resource write.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "token-purpose",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "4870c155e583ddcf32b3e17f04300c5f09894185e73b27df9566e0b3f95da4d8",
+      "misuse_would_act_without_required_authorization": true,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-07",
+      "narrative": "The access token is authentic but lacks the selected write scope.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "scope",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "fdd74683f6766abeb61a0c66c45b41f103486baac08f19b95c57cd956ecf5ec9",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-08",
+      "narrative": "The resource's current operation grant has been revoked despite the token remaining valid.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "valid",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "7948daf47a2ab39f542fc300a985b79ee11ffaccf88d9eaf2aeb66052fe0cbbb",
+      "misuse_would_act_without_required_authorization": true,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-09",
+      "narrative": "An access token validated at tick1000 is consumed at tick1011 after its expiration1010.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "valid",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "481f9e9c2e0f3e5c8cea3c663e03457d036242511a93eaab257e01f8a61fac5d",
+      "misuse_would_act_without_required_authorization": true,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-10",
+      "narrative": "The same admitted operation is requested twice. A local resource-side idempotency key must preserve one effect.",
+      "outcome": "I",
+      "actual_local_effects": 1,
+      "identity_return": false,
+      "validator_reason": "valid",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 2,
+        "operational_sql_statements": 2
+      },
+      "token_sha256": "15ce22a74cab6695237e1dc41df73c9e8662dbd61432767bbc132f0dcc73e888",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "AUTH-11",
+      "narrative": "An ID Token's nonce does not match the admitted relying-party request.",
+      "outcome": "Ø",
+      "actual_local_effects": 0,
+      "identity_return": false,
+      "validator_reason": "login-binding",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0,
+        "operational_sql_statements": 0
+      },
+      "token_sha256": "5990b6e4d9f0a330710744b5243cda853b993cfe768cecf913cb11a24e254545",
+      "misuse_would_act_without_required_authorization": false,
+      "keys_or_compact_tokens_exported": false
+    }
+  ],
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "cryptography": "50.0.1",
+  "setup": {
+    "ephemeral_RSA_key_pairs": 2,
+    "synthetic_tokens": 11,
+    "setup_not_priced_or_individually_timed": true
+  },
+  "card_sha256": "903f7e03defb7487889768ab97dbfac2641e10a71271a939335fa0707ed379b4",
+  "freeze_sha256": "020eb74fa78e62740e68f7b2f7fc9db601a976ff95ed806518bf5fe722ff91eb",
+  "native_authorization_service_or_browser_flow": false,
+  "population_estimate": false,
+  "independent_validation": false
+}

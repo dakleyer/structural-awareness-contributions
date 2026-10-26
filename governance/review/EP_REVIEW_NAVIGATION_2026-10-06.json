@@ -1,0 +1,754 @@
+{
+  "commit": "2db5a8c17f58008f9268c23c681ba6e14c8dfbdc",
+  "summary": {
+    "internal": 4265,
+    "missing": 1,
+    "anchorCandidates": 0,
+    "external": 1601,
+    "reachableMarkdown": 464,
+    "historical": 98
+  },
+  "method": "Static textual links outside code; paths and Markdown anchors; semantic audit not inferred",
+  "incompleteURL": [
+    {
+      "from": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part02.md",
+      "raw": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/submissions/it",
+      "to": "submissions/it",
+      "anchor": "",
+      "status": "missing",
+      "type": null
+    }
+  ],
+  "historicalFileValidation": [
+    {
+      "ref": "d77e5d5d1290b75fe7b498c32904c46cac7ea019",
+      "path": "research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md",
+      "from": [
+        "governance/ECOSYSTEM_AWARENESS_LINKED_DOCUMENT_AUDIT_2026-09-25.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "36dbf7e",
+      "path": "standards/minimum-sufficient-control/README.md",
+      "from": [
+        "governance/MSCA_LINKED_DOCUMENT_AUDIT_2026-09-25.md",
+        "governance/REGIME_AWARENESS_LINKED_DOCUMENT_AUDIT_2026-09-25.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "873622aa4832faf156fd35d0712df3d986e5cc07",
+      "path": "presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx",
+      "from": [
+        "presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "873622aa4832faf156fd35d0712df3d986e5cc07",
+      "path": "presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf",
+      "from": [
+        "presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ec75c41b804752608e1bfbfb8a85c6f67ba19c31",
+      "path": "presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx",
+      "from": [
+        "presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "cb6f77511152a4cde52d99b40ba2e9fa4397822d",
+      "path": "research/ecosystem-awareness/README.md",
+      "from": [
+        "research/ecosystem-awareness/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "bbd3ed275309e4087cbe06b654472e31c3cd186f",
+      "path": "research/ecosystem-awareness/README.md",
+      "from": [
+        "research/ecosystem-awareness/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "fb639f81138278f8bca011f77c27567d4514e997",
+      "path": "research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "aff0c3787d0b8ee5915a2fcde8ea0be5cecbbd9e",
+      "path": "research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "bf99a53cb34257ea8c3a80983eb5778d82f2bcb0",
+      "path": "research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "96b46436dc45e1bee1879bd05242c16ff4801061",
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md",
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "96b46436dc45e1bee1879bd05242c16ff4801061",
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "96b46436dc45e1bee1879bd05242c16ff4801061",
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md",
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "96b46436dc45e1bee1879bd05242c16ff4801061",
+      "path": "research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "96b46436dc45e1bee1879bd05242c16ff4801061",
+      "path": "research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "96b46436dc45e1bee1879bd05242c16ff4801061",
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/CLAUSE_AUDIT.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "5b0ac924b8646215348e58076230c42f499e8823",
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A16_APLICACION_PLAN_Y_ESTADO_SUFICIENCIA_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "348edcbcfb2ffac81088599bf7bfc7f706642f3b",
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J",
+      "from": [
+        "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "8af3969b45bfd95d2cb7ac84af30333669a4b421",
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E",
+      "from": [
+        "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "465c89271464c0c90f70681fab0f5018f5130907",
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F",
+      "from": [
+        "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "135d8ff8b2d953270426f5cda0e77402ed0f81e7",
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "135d8ff8b2d953270426f5cda0e77402ed0f81e7",
+      "path": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "9f22a4455e8a2806a35efcdb20770b5c81afca23",
+      "path": "research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6f8239a705ec887cebf9eb89ca97cd90441fab16",
+      "path": "research/ecosystem-awareness/baseline/annexes/00G-HF-EA-REQUIREMENTS-PAIRED-DESIGN-v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "135d8ff8b2d953270426f5cda0e77402ed0f81e7",
+      "path": "architectural-contributions/ecosystem-positioning/README.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "49089cab1d19b10eececffc275cb15ea707a1265",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/ORGANIZATION_TRACE.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/TRANSLATION_TRACE.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "114ac132bc2be4e7008001fe505bf5bd4c36c515",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/CRITERIA_AND_AUDIT.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/family/README.md",
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "114ac132bc2be4e7008001fe505bf5bd4c36c515",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "114ac132bc2be4e7008001fe505bf5bd4c36c515",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/proof/check.py",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "114ac132bc2be4e7008001fe505bf5bd4c36c515",
+      "path": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "d44a09de77d7a2133f50d1b5a9a4db77e58f2772",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "d44a09de77d7a2133f50d1b5a9a4db77e58f2772",
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "d44a09de77d7a2133f50d1b5a9a4db77e58f2772",
+      "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "d44a09de77d7a2133f50d1b5a9a4db77e58f2772",
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "d44a09de77d7a2133f50d1b5a9a4db77e58f2772",
+      "path": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "d44a09de77d7a2133f50d1b5a9a4db77e58f2772",
+      "path": "architectural-contributions/ecosystem-positioning/README.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "d44a09de77d7a2133f50d1b5a9a4db77e58f2772",
+      "path": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "f33e2887ab7add81f38ada94533ff83096b77e70",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M01_SCOPE_AND_QUANTIFIERS.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "f33e2887ab7add81f38ada94533ff83096b77e70",
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M01_SCOPE_AND_QUANTIFIERS.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "f33e2887ab7add81f38ada94533ff83096b77e70",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/verify_audit.py",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M01_SCOPE_AND_QUANTIFIERS.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "f33e2887ab7add81f38ada94533ff83096b77e70",
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M01_SCOPE_AND_QUANTIFIERS.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "3384ba5d9db722808572d30ccee098fe92598410",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M02_WORLDS_AND_CONTROLS.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "3384ba5d9db722808572d30ccee098fe92598410",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M02_WORLDS_AND_CONTROLS.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "3384ba5d9db722808572d30ccee098fe92598410",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M02_WORLDS_AND_CONTROLS.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_MATH_WORKPLAN_2026-10-04.json",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_REORGANIZATION_CHECKS.json",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RECEIVED_SKETCH.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/README.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "419b8e93b4b13a3a96ca1534b0d134be4a764c78",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/TRILEMMA_RECEIVED_SKETCH.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "419b8e93b4b13a3a96ca1534b0d134be4a764c78",
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "from": [
+        "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/TRILEMMA_RECEIVED_SKETCH.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "6ad0be7378bcc22d5977549d8d7a6adfb998495b",
+      "path": "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "architectural-contributions/ecosystem-positioning",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.2.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.2.md",
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.2.md",
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "2db60a1fa4faa5ec08c6754cc676b8f70431c32a",
+      "path": "architectural-contributions/ecosystem-positioning",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.2.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "2db60a1fa4faa5ec08c6754cc676b8f70431c32a",
+      "path": "architectural-contributions/ecosystem-positioning/README.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "2db60a1fa4faa5ec08c6754cc676b8f70431c32a",
+      "path": "research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "2db60a1fa4faa5ec08c6754cc676b8f70431c32a",
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "f6fab89f370712f10e284d8c37d13a581d2e8dc5",
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "f6fab89f370712f10e284d8c37d13a581d2e8dc5",
+      "path": "research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "architectural-contributions/ecosystem-positioning/README.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "90cb592272f082aaa88b7798ef1c543f7e6c3343",
+      "path": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
+      "from": [
+        "research/ecosystem-awareness/fg-tida/charter/WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md"
+      ],
+      "exists": true
+    },
+    {
+      "ref": "c33c1d57820a0880d714a36f36bec7bd3f540869",
+      "path": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md",
+      "from": [
+        "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md"
+      ],
+      "exists": true
+    }
+  ],
+  "unreachableMarkdown": [
+    "CONTRIBUTING.md",
+    "LICENSE.md",
+    "NIST_AI_200_2_PUBLIC_COMMENT_v0.10.md",
+    "NIST_AI_200_2_PUBLIC_COMMENT_v0.11.md",
+    "NIST_AI_200_2_PUBLIC_COMMENT_v0.12.md",
+    "NIST_AI_200_2_PUBLIC_COMMENT_v0.13.md",
+    "NIST_AI_200_2_PUBLIC_COMMENT_v0.14.md",
+    "governance/CLAIM_BOUNDARIES.md",
+    "governance/DEEP_CORPUS_AUDIT_2026-09-23.md",
+    "governance/NEXT_REVIEW_BACKLOG_2026-09-23.md",
+    "governance/RELEASE_CANDIDATE_SA_WORKING_2026-09.md",
+    "governance/REPOSITORY_CONSERVATION_AUDIT_2026-09-25.md",
+    "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_REVIEW.md",
+    "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_REVIEW.md",
+    "research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.2_DRAFT.md",
+    "research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md",
+    "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A00_COORDINATION_AND_REFERENCE_DIFF_v0.1.md",
+    "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_REVIEW.md",
+    "research/ecosystem-awareness/baseline/01F_EA_FG_TIDA_SPECIFICATION_PREPARATION_ANNEX_v0.1_DRAFT.md",
+    "research/ecosystem-awareness/baseline/01F_EA_FG_TIDA_SPECIFICATION_PREPARATION_ANNEX_v0.2_DRAFT.md",
+    "research/ecosystem-awareness/baseline/01G_FG_TIDA_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md",
+    "research/ecosystem-awareness/baseline/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md",
+    "research/ecosystem-awareness/baseline/FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md",
+    "research/ecosystem-awareness/baseline/UC-EA-01_v0.3_FROZEN.part03.md",
+    "research/ecosystem-awareness/baseline/UC-EA-02_v0.6_MAINTENANCE_FREEZE.part01.md",
+    "research/ecosystem-awareness/baseline/UC-EA-02_v0.6_MAINTENANCE_FREEZE.part03.md",
+    "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part01.md",
+    "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part02.md",
+    "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part03.md",
+    "research/ecosystem-awareness/baseline/UC-EA-04_v0.5_MAINTENANCE_FREEZE.part01.md",
+    "research/ecosystem-awareness/baseline/UC-EA-04_v0.5_MAINTENANCE_FREEZE.part02.md",
+    "research/ecosystem-awareness/baseline/UC-EA-04_v0.5_MAINTENANCE_FREEZE.part03.md",
+    "research/ecosystem-awareness/baseline/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.part01.md",
+    "research/ecosystem-awareness/baseline/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.part02.md",
+    "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_REVIEW.md",
+    "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_REVIEW.md",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H-v0.2/INDEPENDENT_VERIFICATION.md",
+    "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_REVIEW.md",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/EXECUTION_RECORD.md",
+    "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_REVIEW.md",
+    "research/ecosystem-awareness/baseline/non-canonical/EA_INTERFACE_AND_FG_TIDA_CONTRACT_AUDIT_2026-09-18.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_REVIEW.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_REVIEW.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/INFORMATION_PRESERVATION_AUDIT_2026-10-04.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_REVIEW.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/GATE_POLICY_CONTRACT.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/ISOLATION_CONTRACT.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/SELFTEST_RECORD_v0.4.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/SELFTEST_RECORD_v0.7.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TRACE_CONTRACT.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_REVIEW.md",
+    "research/ecosystem-awareness/baseline/traversals/00G-HF-CACHED-LINEAGE-v0.1/PROTOCOL.md",
+    "research/ecosystem-awareness/baseline/traversals/00G-HF-CACHED-LINEAGE-v0.1/README.md",
+    "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_REVIEW.md",
+    "research/ecosystem-awareness/baseline/traversals/00G-HF-PROBABILISTIC-R123-v0.1/README.md",
+    "research/ecosystem-awareness/baseline/traversals/00G-HF-SCRIPTED-PAIRED-v0.1/OPERATOR_RECORD.md",
+    "research/ecosystem-awareness/baseline/traversals/00G-HF-SCRIPTED-PAIRED-v0.1/README.md",
+    "submissions/nist-ai-200-2/2026-10-05_PUBLIC_COMMENT_v0.10.md",
+    "submissions/nist-ai-200-2/2026-10-05_PUBLIC_COMMENT_v0.11.md",
+    "submissions/nist-ai-200-2/2026-10-05_PUBLIC_COMMENT_v0.12.md",
+    "submissions/nist-ai-200-2/2026-10-05_PUBLIC_COMMENT_v0.13.md",
+    "submissions/nist-ai-200-2/2026-10-05_PUBLIC_COMMENT_v0.14.md",
+    "submissions/nist-ai-200-2/2026-public-comment/README.md",
+    "submissions/un-cstd-data-governance/2026-outside-sampling-frame/README.md",
+    "submissions/unece-wp5/2026-riviera-maya-msc/README.md"
+  ],
+  "externalValidation": "Incomplete; see document VNext for primary-source coverage"
+}

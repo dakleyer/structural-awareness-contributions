@@ -1,0 +1,178 @@
+{
+  "schema": "DDS-STUDY-COMPLETION-BOUNDARIES-0.1",
+  "source_commit": "23d3a720e5fea1d99c74e75db6a063e3ae25ceed",
+  "canonical_profile": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_git_blob": "71056c9aa593e7677df5a170a671469095b141cf",
+  "scope": "Fresh local analytical/model boundary checks for completion review. Original freezes/results unchanged; no native product, actual human, external peer or population rate.",
+  "registered_before_boundary_execution": true,
+  "source_files": [
+    {
+      "path": "dds-hew-v0.1/FREEZE.json",
+      "git_blob": "9b913259eaf631bf3e366984f19827c06b70ba3c"
+    },
+    {
+      "path": "dds-hew-v0.1/RUN_CARD.json",
+      "git_blob": "f65bf868f4d212da2421cfa742006523c9a80c6a"
+    },
+    {
+      "path": "dds-hew-v0.1/hew_oracle.py",
+      "git_blob": "a32cb98477394c877edd7b0d3c108bf0a4c3ec66"
+    },
+    {
+      "path": "dds-hew-v0.1/hew_runtime.py",
+      "git_blob": "3695a58f8acd208e3491a7643f8c6a0e8b8aee13"
+    },
+    {
+      "path": "dds-hew-v0.1/run_study.py",
+      "git_blob": "719acff3dc8ae8d461809d215b7a8d06e49a97ec"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/crypto_fixture.py",
+      "git_blob": "51b6878e6b519c0faf5ea744dd535e474c795621"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/exercise_common.py",
+      "git_blob": "3ab960b3df493198156496080e2afc4409b41b0b"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/rats-jws/FREEZE.json",
+      "git_blob": "d0ebe4960748a570c1dbeb3eb3e5429b28c2811f"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/rats-jws/RUN_CARD.json",
+      "git_blob": "510972a8bce95774f5e28b44dd40f2eb0ee7a610"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/rats-jws/fixture_changed.py",
+      "git_blob": "f699ee5331e05e31731afd67372b459d55bda317"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/rats-jws/fixture_good.py",
+      "git_blob": "5488101d406730db8b5d42b942639139f8c8cdad"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/rats-jws/run.py",
+      "git_blob": "b024f1ca7aa523494750b7b96da7b63db91e396f"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/spiffe-jwt/FREEZE.json",
+      "git_blob": "a8c8bf00e9a4b8b17fcc6d8a12ff03635f5d1ed1"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/spiffe-jwt/RUN_CARD.json",
+      "git_blob": "9e1d8f5405de40d93ff3dbd1806ab2c6ca7341f8"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/spiffe-jwt/run.py",
+      "git_blob": "fb6ab3445626a3cdb8d16277eb694bd8ab556b2a"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/stamp-stpa/FREEZE.json",
+      "git_blob": "6bc0ae430a1147ec54ecd2689ee1590f601cb175"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/stamp-stpa/RUN_CARD.json",
+      "git_blob": "10ccb25f10e57f9cf364497688cc47ca0e3ad5a0"
+    },
+    {
+      "path": "independent-dds-exercises-v0.1/stamp-stpa/run.py",
+      "git_blob": "d0634a4398df71929e8ecf33514f916b26fb831c"
+    }
+  ],
+  "required_cryptography_version": "50.0.1",
+  "analytical": {
+    "a": "99/100",
+    "beta": "941/990",
+    "cost": 40,
+    "b": 50,
+    "delta": "1/1000",
+    "p": "19/20",
+    "q_values": [
+      "89/100",
+      "179/200",
+      "9/10",
+      "91/100"
+    ],
+    "expected_acceptance": [
+      false,
+      false,
+      true,
+      true
+    ],
+    "transfer": "Same declared H1 frozen-policy law only; no new all-policy theorem or transfer to SQLite."
+  },
+  "hew_cases": [
+    {
+      "id": "H-NOMINAL",
+      "gate_latency": 0,
+      "source_preparation_work": 1,
+      "expected_delivery": true
+    },
+    {
+      "id": "H-LATENCY-PLUS1",
+      "gate_latency": 1,
+      "source_preparation_work": 1,
+      "expected_delivery": false
+    },
+    {
+      "id": "H-SOURCE-WORK3",
+      "gate_latency": 0,
+      "source_preparation_work": 3,
+      "expected_delivery": true
+    },
+    {
+      "id": "H-SOURCE-WORK4",
+      "gate_latency": 0,
+      "source_preparation_work": 4,
+      "expected_delivery": false
+    }
+  ],
+  "stpa_cases": [
+    {
+      "id": "T-TRUTHFUL-MODEL",
+      "false_running_observation": false,
+      "expected_outcome": "I"
+    },
+    {
+      "id": "T-FALSE-CURRENT-OBSERVATION",
+      "false_running_observation": true,
+      "expected_outcome": "P",
+      "diagnostic": "Outside the original truthful process-model assumption; not a STPA method/vendor failure"
+    }
+  ],
+  "spiffe_cases": [
+    {
+      "id": "S-BEFORE-EXP",
+      "validation_time_offset": 119,
+      "expected_identity_accept": true
+    },
+    {
+      "id": "S-AT-EXP",
+      "validation_time_offset": 120,
+      "expected_identity_accept": false
+    },
+    {
+      "id": "S-CLAIM-REUSE-LATER",
+      "validation_time_offset": 0,
+      "application_time_offset": 121,
+      "expected_receiver_effect": true,
+      "diagnostic": "Original receiver has no use-time/session freshness predicate. At-effect temporal admissibility is not established; no rescore of fixed-validation-clock results."
+    }
+  ],
+  "rats_cases": [
+    {
+      "id": "R-STABLE-SOURCE",
+      "mutate_after_read": false,
+      "expected_return": true,
+      "expected_file_matches_return": true
+    },
+    {
+      "id": "R-READ-USE-RACE",
+      "mutate_after_read": true,
+      "expected_return": true,
+      "expected_file_matches_return": false,
+      "diagnostic": "Controlled local file mutation after a truthful read. Returned tuple and fixture applied flag are not measured external actuation/atomicity."
+    }
+  ],
+  "evaluation_boundary": "Expected results remain private to the test driver/adjudicator; credentials/signing keys/compact tokens never exported; hypotheses may be falsified but original thresholds not repaired."
+}

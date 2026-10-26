@@ -1,0 +1,107 @@
+{
+  "input_commit": "a1ec3e24970e2d925745e4fc7a5cd8e6c11c11d5",
+  "actual_utc": "2026-10-04T08:47:49.725020+00:00",
+  "kind": "own symbolic mathematical and transfer audit; not independent",
+  "complete_input_documents": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "sha": "32f761788b17444364e10b72f3027ad26d45390f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "sha": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONDITIONED_TRILEMMA.md",
+      "sha": "481cf21b49423f77a8b266e42823697b462c0cab"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONDITIONED_TRILEMMA_SELF_REVIEW.md",
+      "sha": "be0086fc8a8c67cc2e16538e2b9669579da1a284"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md",
+      "sha": "bb55f74118e57293725052acdf2ee4aa9899be10"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
+      "sha": "27bbdd96a8996fea8384fdfdc50115b59add3720"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json",
+      "sha": "db553c2b563c4dad6e02f89a2ab94ca622334718"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+      "sha": "d4433df0a3ef2b1838dad21cd15cc9c098870d3d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "sha": "6911d464d1ebfe50514b28de2969799f0ba5f355"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M03_M04_TRILEMMA_THEOREMS.md",
+      "sha": "838c2e09148de15195c799dc63716d2a294d35f6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M02_CONJUNCTION_FIXTURE.json",
+      "sha": "e774d27d0a5cd9052f0027d49177608c179a603b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M10_RECONCILED_CONTRACT.json",
+      "sha": "88e6dc339b547a613bea06767e67a5292c7753d6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/verify_m02_worlds.py",
+      "sha": "afb552ed9093235379de84c5ec039e30ee70e225"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M02_WORLDS_AND_CONTROLS.md",
+      "sha": "81db05698a09c27b4376459a8e78b1a752203e6b"
+    }
+  ],
+  "new_scientific_executions": 0,
+  "independent_review_received": false,
+  "formal_proof_assistant_verification": false,
+  "scientific_tasks_closed": [],
+  "previous_task_counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 6,
+    "OPEN": 45,
+    "BLOCKED": 0
+  },
+  "current_task_counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 7,
+    "OPEN": 44,
+    "BLOCKED": 0
+  },
+  "task_ids_preserved": 55,
+  "findings": [
+    "B physical capacity vs R cost objective",
+    "risk-frontier cuts vs full Pareto",
+    "sigma vs branch-budget sigma_R and C_max vs ledger",
+    "correct direction of transfer and equivalent negated quantifiers",
+    "shared-binding counterexample to blanket F transfer",
+    "all-policy local M02 theorem",
+    "explicit arbitrary-size R01 G family with paid technical prior",
+    "historical checker is not a neutral enforced-observation harness"
+  ],
+  "preservation": {
+    "original_manuscript_headings_retained": 17,
+    "original_equations_1_to_7_unchanged": true,
+    "all_previous_readme_bytes_retained_as_prefix": true,
+    "canonical_scenario_and_extensions_and_fixtures_reports_scripts_untouched": true
+  },
+  "output_blobs": {
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONDITIONED_TRILEMMA.md": "191872008337cfccd05282830966cdbd2bcdf44f",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONDITIONED_TRILEMMA_DEEP_AUDIT.md": "fc6a6b6917fcf0df42477f5aa53433680adb5031",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_TO_CONDITIONED_TRILEMMA_MAPPING.md": "f68613d25525be0269998cc8e1eb046717656767",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md": "44aea48f2a60da092476c0db296bfd66aa8a3e34",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md": "2d4efd2710b46dd60ce3b9564f42ba5b9a915420",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONDITIONED_TRILEMMA_SELF_REVIEW.md": "2324f054cef1dc15164d56efe2125fb51b98dbb3",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md": "a5f8f416f2a326540f7f77515235f5147b26a711",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md": "7b609a71989ea1bc0449d63585ad0aa9a16130ee",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json": "193b967e4a01634524c8a7eaeafc9fac4676635f"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "version": "0.2",
+  "date": "2026-10-06",
+  "release_commit": "e2573f6e277e3d011776621703b6fa61bdde1c7f",
+  "status": "PASS_EXTENSION_HOME_SOURCE_CUSTODY_AND_SCOPE_CHECKS",
+  "canonical_DDS_count": 1,
+  "current_original_source_files_preserved": true,
+  "original_files_changed": [
+    ".gitattributes"
+  ],
+  "exact_source_replicas_verified": 92,
+  "old_extension_home_files_preserved": 25,
+  "new_text_payload_files": 83,
+  "new_doc_version": "0.2",
+  "new_run_versions_preserved": true,
+  "case_counts": [
+    {
+      "id": "rag",
+      "cases": 8,
+      "checks": 16,
+      "outcomes": {
+        "I": 2,
+        "M": 3,
+        "Ø": 2,
+        "P": 1
+      }
+    },
+    {
+      "id": "oauth-oidc",
+      "cases": 11,
+      "checks": 22,
+      "outcomes": {
+        "I": 2,
+        "M": 1,
+        "Ø": 8,
+        "P": 0
+      }
+    },
+    {
+      "id": "mcp-tool-calling",
+      "cases": 9,
+      "checks": 18,
+      "outcomes": {
+        "I": 3,
+        "M": 0,
+        "Ø": 6,
+        "P": 0
+      }
+    },
+    {
+      "id": "sql-transactions-idempotency",
+      "cases": 9,
+      "checks": 18,
+      "outcomes": {
+        "I": 4,
+        "M": 0,
+        "Ø": 4,
+        "P": 1
+      }
+    },
+    {
+      "id": "durable-workflows-retries",
+      "cases": 9,
+      "checks": 20,
+      "outcomes": {
+        "I": 3,
+        "M": 1,
+        "Ø": 4,
+        "P": 1
+      }
+    }
+  ],
+  "new_current_profile_surfaces": "explicitly unscored/not established as estimates, no retrospective score upgrade",
+  "candidate_checks": {
+    "status": "PASS",
+    "new_text_files": 83,
+    "source_replicas": 92,
+    "current_rendered_local_links_verified": 305,
+    "literal_old_markdown_archives": 17,
+    "source_payload_hashes_verified": 81,
+    "source_grade_upgraded": false,
+    "all_profiles_in_extensions": true
+  },
+  "drive_native_QA": {
+    "rag": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "16XUxQvWlZuBjZVxJfOLZjJ2uSZkwhBVytffn0v_k3rQ",
+      "source_paragraphs": 65,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 77,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "oauth-oidc": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "10Wb_hgEdj5IW8lQNQDBIYYDh7rLyfE24et33QSuREhk",
+      "source_paragraphs": 66,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 73,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "mcp-tool-calling": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1dHNa75wkPZFPMjZQj_VqryBUlmQl8hXdIXG-PlcsFFE",
+      "source_paragraphs": 62,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 76,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "sql-transactions-idempotency": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1f8zPoJ8AcXZHhsS84Mb2KXiOxLmufEna9RhDs43r1AU",
+      "source_paragraphs": 63,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 82,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "durable-workflows-retries": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1YdNtmPb2Cth9E7f-7CHmaeViPvs0_7-3ZZdF8asyXls",
+      "source_paragraphs": 66,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 79,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "catalogue": {
+      "status": "PASS",
+      "documentation_version": "0.2",
+      "native_tables": 2,
+      "native_cells": 51,
+      "all_cells_match": true,
+      "date_chip": 1,
+      "rich_links": 7,
+      "native_header_and_resource_structure_preserved": true
+    }
+  },
+  "drive_bundle_parents": {
+    "rag": {
+      "id": "1duC_pURV6mU59qZARfk1_4pneuifikFV",
+      "bytes": 51690,
+      "extension_folder_confirmed": true
+    },
+    "oauth-oidc": {
+      "id": "1DoTUqHtXvO1PlFFWNOdUG5QccOth_8-j",
+      "bytes": 28804,
+      "extension_folder_confirmed": true
+    },
+    "mcp-tool-calling": {
+      "id": "15IL9-PVrRdbbl6ypeINpHdblmQDoYZyy",
+      "bytes": 27245,
+      "extension_folder_confirmed": true
+    },
+    "sql-transactions-idempotency": {
+      "id": "12UuiaEJNsToWu5hTIGrfwPhm6PGOlUIY",
+      "bytes": 29417,
+      "extension_folder_confirmed": true
+    },
+    "durable-workflows-retries": {
+      "id": "1aDk-Fu9QDh9YaIfln7RDhHU_IWq_sLnx",
+      "bytes": 29240,
+      "extension_folder_confirmed": true
+    }
+  },
+  "drive_home": "https://drive.google.com/drive/folders/1WKUyHAPmqAKydY4SunPOMGr-SOGjpTPs",
+  "CI": [
+    {
+      "name": "Documentation integrity",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37532330484",
+      "id": 37532330484
+    },
+    {
+      "name": "R01 version-aware audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37532330412",
+      "id": 37532330412
+    }
+  ],
+  "scope": "completed partial local/analytical research documentation; native/full product, independent, population and commissioned full SOW acceptance unestablished"
+}

@@ -1,0 +1,303 @@
+# Oráculo / harness R01 C02 — VNext de auditoría
+
+El oráculo de R01 debe permitir comparar cómo distintas tecnologías encuentran una buena solución permitida, cuánto esfuerzo necesitan y si actúan dentro de su autoridad y plazo. Para hacerlo, separa lo que sabe el evaluador de lo que puede observar el candidato. Un bloqueo no es éxito si también impide la actividad legítima; una etiqueta correcta tampoco demuestra que el efecto sobre el destino haya sido correcto.
+
+La revisión encuentra una base propia considerable: los harness anteriores ya aportan trazas, replay, controles semánticos, ejecución con estado y recuperación. El nuevo R01 puede componer esas piezas mediante adaptadores. La dificultad es conservar el significado de cada escenario y sus costes, sin convertir los resultados anteriores en validación automática de R01 o de EA. Nelson aporta el contrato y el ciclo experimental UC4; ese trabajo complementa los harness propios.
+
+**Método vigente:** procedimiento EP 1.2, leído en commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`. Esta entrega incorpora los comentarios ya investigados, no certifica cuatro pasadas completadas.
+
+| Pasada | Estado de esta VNext |
+|---|---|
+| Fondo y lógica | Parcial: argumento central y límites del evaluador examinados. |
+| Evidencia y relaciones entre documentos | Parcial: principales antecedentes y contratos contrastados; frontera transitiva y revisión cruzada completa pendientes. |
+| Edición, estructura y formato | Pendiente como pasada separada; las observaciones y propuestas existentes son insumos. |
+| Legibilidad y comprensión humana | Pendiente como pasada separada; no ha participado un lector humano independiente. |
+
+Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
+
+**ID del documento lógico:** `R01-ORACLE-C02-README`  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.0 · **Fecha:** 6 de octubre de 2026  
+**Estado:** auditoría documental y de relaciones parcial; propuestas pendientes de decisión por ID.  
+**Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
+
+## 1. Identidad, fuente y límites
+
+Fuente auditada: [README del oráculo](./README.md), ruta `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`, commit `40cb19682fd1211d2c07e81ecd0242b56d425918`, blob `282d97ed967898a086303927872fbdfcaf37dd70`. Se leyó su cuerpo completo. El encabezado declara estado del 5 de octubre de 2026; instrumento `R01-C02-neutral-harness-0.7` y freeze `STAGE0_FREEZE_v0.9.json`. No hay versión editorial separada declarada para este README.
+
+Esta VNext es un expediente de comentarios y propuestas, **no una nueva edición del oráculo**. No concede UC4-SOURCE-REVIEWED, UC4-SCHEMA-VALIDATED, STAGE0-ADMITTED ni cierre C02. Su identidad comprende el documento lógico anterior; los contratos, registros y código enlazados conservan su propiedad y no se corrigen indirectamente desde aquí.
+
+La fuente está incluida en el [guard de preservación](../tools/check_current_route_preservation.py). La nota de revisión se coloca en una ficha externa: el README, los archivos congelados, resultados y manifests se conservan intactos. La [copia de preservación del README](../../../../../../governance/preserved-public-snapshots/2026-10-06_R01_ORACLE_README_before_VNext_40cb1968.md) tiene el mismo blob de la fuente auditada.
+
+Cobertura: cuerpo del README y relaciones materiales identificadas con R01, C3, Q1a, 00K, 00L, 00I/S5 y UC4/UC6. El análisis de código, CI, paquetes y pruebas puntuales procede de las dos revisiones previas de este mismo chat, fijadas a los commits registrados en la [evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json). No se ejecutan aquí nuevas pruebas científicas, no se afirma revisión exhaustiva del código ni cobertura completa de todos los enlaces entrantes.
+
+## 2. Instrucciones de Iván
+
+**IVAN-R01-ORACLE-20261006-01 · instrucción auténtica de este chat, 6 de octubre de 2026:**
+
+> «Tienes que documentar. Tenemos un sistema de auditoría que está dentro de Readme de Custom Positioning. Revisa ese documento y trabaja en base a este formato. Es decir, quiero tus comentarios en el VNext dentro del documento de Oráculo.»
+
+Interpretación operativa identificada, no cita: la referencia apunta al procedimiento enlazado desde Ecosystem Positioning; el documento propietario de este expediente es el README del oráculo R01 C02. Se trasladan los comentarios de estado, compatibilidad y reaprovechamiento al espacio VNext del documento. Se conserva una sola VNext y se utiliza la ficha externa para respetar la fuente protegida.
+
+Esta instrucción autoriza documentar la auditoría y preparar sus propuestas. **No autoriza aplicar las correcciones técnicas propuestas**, cambiar freezes, ejecutar campañas, asumir aceptación de Nelson ni escribir a otros contribuyentes.
+
+## 3. Auditoría del documento y sus relaciones — R01-ORACLE-AUD-001
+
+**Auditoría realizada por Codex, agente `/root`, chat `01a11096-57f0-72b2-bd57-7d8816673410`, 6 de octubre de 2026.** Identidad del modelo/backend y acreditación como auditor externo: no verificadas. Es el mismo agente de las revisiones previas; no es auditoría independiente.
+
+**Fuente fijada:** commit/blob de §1.  
+**Método:** lectura completa del README, comparación documental y de contratos, fuentes primarias y evidencia previa; comprobaciones estáticas de citas, relaciones y propuestas. La comprobación CTv1 y consultas de CI ya ocurrieron en el turno anterior; aquí se incorporan como evidencia previa, sin repetirlas.  
+**Conflictos/dependencias:** el expediente comenta trabajo que el mismo agente examinó antes; no prueba independencia. UC4/UC6 y determinaciones de otros Themes mantienen sus source owners. Cambios a documentos relacionados necesitan revisión en su VNext propia.
+
+### Fondo y lógica — parcial
+
+**Auditoría realizada por Codex, mismo agente, 6 de octubre de 2026.** Pregunta de lectura: ¿qué promete evaluar R01 y qué parte de esa promesa sostiene el instrumento actual?
+
+La idea central es coherente: se congela un mundo pequeño, se limita la información del candidato, se registra lo que hace y se evalúa después frente a una referencia. Esto evita usar la propia seguridad o relato del candidato como verdad. Pero el self-test comprueba el instrumento con casos construidos; no demuestra que una tecnología real encuentre siempre la mejor ruta permitida.
+
+La reutilización tampoco exige un oráculo universal. S5 pregunta si una reparación obsoleta cambió el destino; Q1a pregunta si se conservó la dependencia de las fuentes; R01 añade óptimo admisible, calidad y coste. Un formato común puede conectarlos, pero sus criterios de verdad deben permanecer explícitos. Si esa diferencia se pierde, un resultado correcto de un componente puede convertirse en una conclusión injustificada sobre el conjunto.
+
+Queda por cerrar la fidelidad del evaluador a todos los perfiles R01, especialmente las relaciones, dinámica colectiva y contabilidad completa. Los dos caminos de referencia del mismo autor son un contraste de implementación, no un auditor externo. Estos comentarios proceden de la revisión previa; la pasada lógica completa del conjunto de dependencias permanece abierta.
+
+### Evidencia y relaciones entre documentos — parcial
+
+**Auditoría realizada por Codex, mismo agente, 6 de octubre de 2026.** Pregunta de lectura: ¿qué evidencia entra desde los harness anteriores y conserva su alcance cuando el README de R01 la reutiliza?
+
+El caso de Canonical Trace es reutilización efectiva: en la comprobación puntual anterior, las diez entradas válidas comparadas produjeron los mismos bytes. También se conservaron dos diferencias sobre rechazo de entradas inválidas. Esa evidencia respalda esos ejemplos y alerta sobre el contrato de errores; no acredita intercambiabilidad completa.
+
+00K aporta controles de invariantes, 00L aporta comparación emparejada y 00I/S5 aporta una ejecución con estado y efectos observables. El receptor R01 puede aprovecharlos como infraestructura o como perfiles de escenario. Debe conservar sus límites: 00K es simbólico, algunos peers 00L comparten lógica y S5 no es una ejecución AWS. Los controles antiguos no se convierten en nuevas observaciones R01 por enlazarlos.
+
+Nelson/UC6 aporta una calibración de preservación de significado. El schema público sí fue accesible y sus hashes se comprobaron en la revisión previa, pero R01 todavía necesita una envolvente UC4 completa y su mapping. Los dos documentos no son formatos intercambiables por compartir la palabra «adapter».
+
+La consecuencia si falla una de estas relaciones es concreta: se pierde la afirmación de compatibilidad o la interpretación heredada, aunque el instrumento pueda seguir siendo útil en su propio dominio. El registro posterior conserva los pasajes y fuentes. No se ha completado la revisión cruzada formal en todas las VNext vecinas; sus consecuencias se señalan aquí como dependencias pendientes, sin modificar aquellas fuentes.
+
+### Edición, estructura y formato — pendiente como pasada separada
+
+La revisión mixta encontró insumos editoriales: diferenciar versión del schema y del ZIP, explicar el resultado mixto del self-test y hacer visible la infraestructura propia. Las cuatro propuestas exactas del final conservan esos comentarios. No se declara cerrada la edición completa del documento ni se modifica su cuerpo para corregirlos.
+
+### Legibilidad y comprensión humana — pendiente como pasada separada
+
+Un lector que llega sin los chats necesita entender qué significa evaluar una ruta permitida y por qué reaprovechar un harness no transfiere sus conclusiones. El README comienza con C02, Stage 0 y UC4; la VNext añade arriba una explicación para situar esa pregunta. Esto es una observación y simulación de lectura por el mismo asistente, no una prueba con otra persona ni una pasada completa de comprensión humana.
+
+### Apoyo técnico de la revisión
+
+### Registro de hallazgos
+
+| ID | Pasaje exacto / relación | Consecuencia y disposición | Evidencia y cobertura pendiente |
+|---|---|---|---|
+| R01-ORACLE-F001 | «Status: limited implementation + successful Stage-0 instrumentation self-test» y «What is executable now». | La frontera limitada es correcta; el resultado global verde debe distinguirse de los seis estados de los candidatos. Clarificación propuesta, sin ampliar afirmación. | Registro v0.9: positivo/empate PASS; conector/inadmisibilidad/coste FAIL; sin referencia INCONCLUSIVE. No campaña real. |
+| R01-ORACLE-F002 | «Corpus reuse:» enumera C3, A01, A03 y Canonical Trace; no desarrolla 00K, 00L, 00I-STATEFUL ni los diagnósticos del primer R01. | Infraestructura propia sustancial queda poco visible. Proponer una matriz de reutilización observada frente a integración pendiente. | [00K](../../../fixtures/00K-SUITE/README.md), [00L](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md), [00I/S5](../../../fixtures/00I-STATEFUL/README.md), [diagnósticos anteriores](../feasibility/partial-experiments/README.md). No plugins admitidos de C02 por esta cita. |
+| R01-ORACLE-F003 | «Canonical Trace v1 source implementation» frente al helper adaptado de R01. | Hay reutilización real con compatibilidad puntual en el dominio válido, pero no identidad total de contrato. Root inválido y tipo de error difieren. Hallazgo de soporte técnico, sin cambiar código congelado. | Dieciséis comparaciones previas: 10/10 ejemplos válidos con bytes idénticos; Q1a rechaza root lista de pares y R01 lo convierte; set-like sin clave produce CanonicalTraceError/KeyError respectivamente. No demuestra bypass actual. Suite completa y revisión de llamadores pendientes. |
+| R01-ORACLE-F004 | «UC #4 public experiment schema 1.1.0-r1» y relación con «Current gap» de NELSON_BASELINE_IMPORT. | Separar schema 1.1.0 de package 1.1.0-r1. La limitación específica del conector sigue describiendo ese conector, pero el adjunto público fue accesible mediante otra ruta en la revisión previa. Disponibilidad no equivale a incorporación ni validación. | Companion público descargado; hashes del schema/README verificados y schema idéntico en ambos ZIPs de resultados. Registro en evidencia. No se modifica el documento relacionado desde esta VNext. |
+| R01-ORACLE-F005 | «semantic alignment, not byte-level/schema-validator compatibility». | Límite correcto. El sidecar no es un experiment.json UC4 completo: hace falta la envolvente, mapping y validación. No promover nivel por existir JSON Schema o test propio. | UC4 schema exige metadata, attribution, objective, topology, execution, adapters, cases, reproducibility, data_policy y foundation; revisión de fuente y admisión R01 siguen pendientes. |
+| R01-ORACLE-F006 | «recompute the same reference through a separate implementation path» y controles DAG. | Distinguir segunda ruta de código, contraste algorítmico e independencia externa. El soporte finito no cubre toda R01 ni todos sus predicados. Clarificación propuesta. | reference/secondary mantenidos por mismo autor; DAG exhaustivo/DP cubren dominio declarado conjuntivo no negativo. M16/M17 y revisión externa pendientes. |
+| R01-ORACLE-F007 | «Existing partial C3 oracle» como reutilización. | C3 es reutilizable para predicados en su dominio inspect T0/X–T1/Y. No calcula el óptimo o ledger completo R01; una reparación no debe disfrazarse de inspect. | [Estado de proyección](../../../fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md). Falta correspondencia tipada de identidad, autoridad, tiempo, acción y efecto. |
+| R01-ORACLE-F008 | «expose the §2.6 operation surface through a bounded tool broker» frente a 00I/S5. | El harness anterior tiene Sources/Guard/Permit/Executor y backend de cambios/efectos reaprovechables. Portar mediante adaptador; no sustituir su oráculo específico por el óptimo de rutas sin justificar la correspondencia. | 00I registra 52 filas (44 aceptación/8 fallos retenidos) y 49 regresiones, incluidos testigos SQLite. No es adaptador UC4 validado ni AWS ejecutado. |
+| R01-ORACLE-F009 | «reuses several control patterns already demonstrated in Nelson's Stage-0 calibration». | Conservar atribución y separación de dominios. Las 64 aserciones por interfaz de UC6 y las 379 regresiones 00K no se suman como pruebas R01. Los fallos convencionales y éxitos convencionales reciben su crédito original. | UC6 preserva determinaciones suministradas; 00K prueba invariantes en fixtures; 00L contiene peers de lógica compartida. Comparación independiente real no establecida. |
+| R01-ORACLE-F010 | «retain operational cost separately from oracle/evaluator work» y el paso a harness antiguos. | Read-count, tiempo lógico, cargos de perfil y mediciones reales tienen unidades distintas. Falta ledger de descarte, coordinación, reuso, mantenimiento y runtime real para ampliar R01. La segunda referencia no debe cargarse como coste del candidato. | [Coste y oráculo](../COMPUTABILITY_AND_ORACLE_PLAN.md), [broker](./TOOL_BROKER_CONTRACT.md), [guía de adaptadores](./TECHNOLOGY_ADAPTER_GUIDE.md). Cobertura por perfil pendiente. |
+
+### Correspondencias de reutilización — observadas y propuestas
+
+| Fuente | Qué existe | Uso en R01 | Estado |
+|---|---|---|---|
+| Q1a / CTv1 | Helper, trazas, replay y separación post-run. | Helper adaptado y patrones de harness. | **Reutilización observada; conformidad total no cerrada.** |
+| 00K | Suites P1–P6, ablaciones y falsadores; 379 regresiones registradas. | Regresión semántica y diseño de controles para perfiles nuevos. | **Disponible; importación concreta no establecida.** |
+| 00L | F/O/K/E, ramas emparejadas, mutaciones y S/T/Q. | Contrato experimental y controles de observación/fairness. | **Método reutilizable; API/ledger a adaptar.** |
+| 00I-STATEFUL / S5 | Cola, Sources, Guard, Permit, Executor, World, recuperación y DurableExecutor. | Backend stateful y evaluación separada de decisión/intento/efecto. | **Mapping propuesto; adaptador R01/UC4 pendiente.** |
+| 00G-HF runners | Recorder, mensajes/redes, semillas, episodios y calendarios. | Futuro backend poblacional y de cambios sucesivos. | **Requiere proyección; resultados no heredados.** |
+| Primer R01 M01/M02/M10/F-W | Diagnósticos, mundos pequeños, costes y enumeraciones. | Contrapruebas del nuevo evaluador y correspondencia por cláusula. | **Soporte histórico; contratos a revalidar.** |
+| EP traceability audit v0.4 | Evaluadores separados, mutantes, historia y cambios ocultos. | Auditoría de circularidad/semántica y límites observables. | **Soporte componente; no composición completa.** |
+| Nelson UC4/UC6 | Envolvente experimental, adaptadores, expectativas revisadas y calibraciones. | Entrada de experimento común + sidecar privado R01. | **Alineamiento semántico; revisión específica/schema/admisión pendientes.** |
+
+### Relaciones y consumidores
+
+Upstream: [escenario R01](../Escenario-creatividad-validacion.md), [plan de computabilidad/oráculo](../COMPUTABILITY_AND_ORACLE_PLAN.md), [C3](../../../fixtures/00G-HF-ORACLE-v0.4/README.md), [Q1a](../../../fixtures/RS-00E-Q1a/README.md), UC4 y contributors de determinaciones. El README es un router del instrumento, no propietario de todas estas semánticas.
+
+Consumidores identificados: [README R01](../README.md), [WORKPLAN](../feasibility/WORKPLAN.md), [estado de adaptación C3](../../../fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md), [perfil UC4](./UC4_INTEROPERABILITY_PROFILE.md) y [guía de tecnologías](./TECHNOLOGY_ADAPTER_GUIDE.md). La búsqueda de todos los inbound links del repositorio queda parcial; no se declara auditoría transitiva completa.
+
+[Requirements VNext](../../../00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) y [EP README VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md) son expedientes relacionados. Esta auditoría no corrige sus fuentes ni cierra sus hallazgos. Los contratos/oráculos vecinos aún sin VNext necesitarán su expediente propietario antes de propuestas sobre sus cuerpos.
+
+## 4. Conversación acumulativa y auto-revisión — R01-ORACLE-AUD-002
+
+**Auditoría realizada por Codex `/root`, auto-revisión del mismo agente, 6 de octubre de 2026.** Fuente: §1 y las dos revisiones previas del chat. No es segunda revisión independiente.
+
+- **F002/F008 — rectificación de énfasis:** el primer informe había desarrollado Nelson/UC4 más que los harness propios. La revisión posterior localizó 00K/00L/00I y concreta su reutilización. Se conservan ambas fronteras: hay activos sustanciales; no hay equivalencia inmediata de runners/oráculos.
+- **F003 — contraejemplo a intercambiabilidad total:** la igualdad CTv1 en diez inputs válidos no cubre root/errores inválidos. La comparación previa produjo dos diferencias concretas. Se retira cualquier interpretación de «mismos bytes en ejemplos válidos» como «helpers totalmente idénticos».
+- **F004/F005 — evidencia adicional:** se resolvió el acceso al ZIP público en el turno previo, pero no se importó al instrumento ni se obtuvo validator-pass/aceptación. No convertir el éxito de descarga en compatibilidad admitida.
+- **F006 — límite:** dos implementaciones del mismo mantenedor y controles finitos aumentan la comprobación; no simulan auditor externo ni cierran cobertura universal.
+- **F007/F010 — pregunta abierta:** ¿qué predicados, unidades y decisiones se preservan por perfil? Debe contestarse con mapping y controles previos a una campaña, no con cambio de nombres.
+- **F009 — resultado adverso protegido:** los éxitos de controles convencionales y los límites de fixtures anteriores no se reclasifican para favorecer EA.
+
+**Comentarios de Nelson leídos en la revisión previa:** [UC4 ciclo experimental](https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5846988611), [UC6/Theme13 resultado](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841), [UC6/Theme16 resultado](https://github.com/FG-TIDA/themes/issues/16#issuecomment-5949168764), [S5 preparación y licencia](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6012160598). Son fuentes atribuidas, no firmas de esta auditoría ni aprobación específica de R01.
+
+Su correo del 6 de octubre sobre trabajo científico/Lifecycle fue leído como contexto privado en el turno previo. No se publica su cuerpo ni se convierte en aceptación del sidecar. La revisión específica descrita en [NELSON_REVIEW_REQUEST](./NELSON_REVIEW_REQUEST.md) permanece pendiente.
+
+## 5. Decisiones e instrucciones posteriores de Iván
+
+| ID | Instrucción / decisión auténtica | Alcance | Estado |
+|---|---|---|---|
+| IVAN-R01-ORACLE-20261006-01 | Documentar los comentarios en la VNext del oráculo según el procedimiento EP. | Crear/reutilizar el expediente, registrar auditoría, conversación y propuestas. | Ejecutada por esta entrega documental; no adopción de deltas técnicos. |
+| R01-ORACLE-DELTA-001–004 | No hay decisión de incorporación por ID en este chat. | Corrección del README o successor protegido. | **Pendiente de Iván.** |
+| Campañas C11/T03 y comunicaciones | No autorizadas por esta instrucción documental. | Experimentos nuevos, integración/aceptación de contribuyentes y mensajes. | No ejecutados. |
+
+La cola activa sigue en [WORKPLAN.md](../feasibility/WORKPLAN.md). Las recomendaciones de esta auditoría no crean una cola paralela ni convierten tareas históricas en activas. No hay autorizaciones inferidas de silencio, resultado verde o nombre de archivo.
+
+## 6. Propuestas quirúrgicas — al final, incorporación pendiente
+
+Todas las propuestas siguientes pertenecen exclusivamente a `R01-ORACLE-C02-README`; fuente auditada: ruta de §1, commit `40cb19682fd1211d2c07e81ecd0242b56d425918`, blob `282d97ed967898a086303927872fbdfcaf37dd70`, estado editorial del 5 de octubre de 2026. Instrucción de preparación: **IVAN-R01-ORACLE-20261006-01**. Cada TEXTO ANTES aparece una sola vez en la fuente fijada. **Ninguna propuesta se ha aplicado.**
+
+### R01-ORACLE-DELTA-001 — Separar versión del esquema y del paquete UC4
+
+**ID y estado:** R01-ORACLE-DELTA-001 · propuesta, incorporación pendiente.  
+**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
+**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
+**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F004, R01-ORACLE-F005.  
+**Localización:** Upstream sources and attribution · única entrada de public experiment schema.  
+**Tipo:** sustitución editorial propuesta.
+
+**TEXTO ANTES**
+
+```markdown
+- UC #4 public experiment schema 1.1.0-r1, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
+  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
+```
+
+**TEXTO DESPUÉS**
+
+```markdown
+- UC #4 experiment schema **1.1.0**, published in package **1.1.0-r1**, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
+  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
+```
+
+**Razón y efecto semántico:** Evita confundir el contrato JSON con la revisión del ZIP. No cambia la versión ni el contenido de un sidecar congelado.
+
+**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
+
+**Dependencias y otras VNext:** UC4_INTEROPERABILITY_PROFILE.md, NELSON_BASELINE_IMPORT.md y registro de integración; cualquier corrección de esas fuentes requiere su propio expediente.
+
+**Comprobaciones necesarias y límites:** Contrastar schema_version y package_version del manifest del companion público; verificar cita y coincidencia única. No inferir validator-pass ni aceptación de Nelson.
+
+**Decisión de Iván:** pendiente sobre este ID concreto.  
+**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
+
+### R01-ORACLE-DELTA-002 — Hacer visible la reutilización de los harness propios
+
+**ID y estado:** R01-ORACLE-DELTA-002 · propuesta, incorporación pendiente.  
+**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
+**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
+**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F002, R01-ORACLE-F003, R01-ORACLE-F007, R01-ORACLE-F008, R01-ORACLE-F009, R01-ORACLE-F010.  
+**Localización:** Antes de Interoperability rule; se conserva y repite el ancla literal.  
+**Tipo:** inserción propuesta.
+
+**TEXTO ANTES**
+
+```markdown
+## Interoperability rule
+
+R01 does **not** fork Nelson's experiment contract. The intended composition is:
+```
+
+**TEXTO DESPUÉS**
+
+```markdown
+## Reuse of the existing corpus harnesses
+
+R01 builds on an existing test corpus. Reuse must distinguish code or infrastructure already adapted, controls available for a new profile, and a mapping that has actually been tested and admitted. Prior results retain their original scenario, version and evidence scope.
+
+| Existing source | Reusable part | Current R01 integration boundary |
+|---|---|---|
+| [RS-00E-Q1a](../../../fixtures/RS-00E-Q1a/README.md) | Canonical Trace v1, post-run evaluation, replay and instrumentation controls. | The serialization utility is adapted here; Q1a truth, scoring and shared-logic comparator results do not evaluate R01 routes. |
+| [00K symbolic suite](../../../fixtures/00K-SUITE/README.md) | P1–P6 regressions, matched controls, ablations, strong-repair tests and retained falsifiers. | Keep the registered suite as a regression source; importing a control does not create an R01 outcome or a real-technology result. |
+| [00L paired traversals](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) | Frozen facts, visible observations, prior rules, separate oracle, paired comparisons and requirement/gate traceability. | Normalize observations, dispositions and resource units through a reviewed profile; paper and symbolic results retain their scope. |
+| [00I / S5 stateful harness](../../../fixtures/00I-STATEFUL/README.md) | Queue, source reads, guard, permit, executor, target-state observations and bounded recovery. | Candidate backend for a versioned R01/UC-4 adapter; no such admitted adapter or AWS execution is established by this reference. S5 effect expectations remain a specific evaluator. |
+| [00G-HF development history](../../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) | Recorder, authority controls, episode/seed handling, social messages and dynamic schedules. | Preserve each runner's own oracle, policy and result scope; projection to R01 routes and collective measures requires a declared correspondence. |
+| [Earlier R01 diagnostics](../feasibility/partial-experiments/README.md) | Small-world enumeration, budget/measurement countercontrols and historical counterexamples. | Revalidate against the current scenario and conditioned theorem; these are not the complete neutral R01 evaluator. |
+
+The integration direction is a common experiment/trace boundary with versioned scenario backends and specific evaluators. It does not require rewriting the retained harnesses or merging their ground truths. Conventional controls that succeed retain that result.
+
+## Interoperability rule
+
+R01 does **not** fork Nelson's experiment contract. The intended composition is:
+```
+
+**Razón y efecto semántico:** Hace revisable qué se reutiliza de Q1a/00K/00L/00I/00G-HF/primer R01 y qué sigue siendo un mapping. La tabla es propuesta de documentación, no incorporación de código, admisión ni nuevo plan activo.
+
+**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
+
+**Dependencias y otras VNext:** Routers de las familias enlazadas; WORKPLAN.md sigue siendo dueño de la cola C02/C11/T03. Los scripts/oráculos originales y sus resultados conservan identidad.
+
+**Comprobaciones necesarias y límites:** Comprobar todas las rutas, semántica por propietario y que las familias no se sumen como una campaña R01. Para una integración futura se necesitan perfil/versiones, visibilidad, costes y prueba de correspondencia; no se ejecutan en esta auditoría.
+
+**Decisión de Iván:** pendiente sobre este ID concreto.  
+**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
+
+### R01-ORACLE-DELTA-003 — Distinguir self-test del instrumento y aceptación del candidato
+
+**ID y estado:** R01-ORACLE-DELTA-003 · propuesta, incorporación pendiente.  
+**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
+**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
+**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F001, R01-ORACLE-F009.  
+**Localización:** What is executable now · párrafo de apertura.  
+**Tipo:** inserción propuesta.
+
+**TEXTO ANTES**
+
+```markdown
+The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
+```
+
+**TEXTO DESPUÉS**
+
+```markdown
+The recorded self-test is successful because each control produces its frozen expected outcome. In the v0.9 record, the positive and tied-optimum vectors return PASS; the connector-boundary, inadmissible-route and cost/deadline vectors return FAIL; the no-reference vector remains INCONCLUSIVE. These are intentional instrumentation outcomes, not six successful technology trials. See [SELFTEST_RECORD_v0.9](./SELFTEST_RECORD_v0.9.md).
+
+The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
+```
+
+**Razón y efecto semántico:** Impide leer el resultado global verde como éxito de toda tecnología o de todos los escenarios. Conserva la lista de funciones existente.
+
+**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
+
+**Dependencias y otras VNext:** SELFTEST_RECORD_v0.9.md y selftest_result_v0.9.json como evidencia intacta; ninguno se modifica ni recalcula.
+
+**Comprobaciones necesarias y límites:** Leer las seis entradas del registro fijado; separar expected control result, candidate status y scientific conclusion. No añadir números a una tasa poblacional.
+
+**Decisión de Iván:** pendiente sobre este ID concreto.  
+**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
+
+### R01-ORACLE-DELTA-004 — Delimitar diversidad de referencia, dominio y validación externa
+
+**ID y estado:** R01-ORACLE-DELTA-004 · propuesta, incorporación pendiente.  
+**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
+**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
+**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F006, R01-ORACLE-F010.  
+**Localización:** Claim boundary · párrafo único final.  
+**Tipo:** inserción propuesta.
+
+**TEXTO ANTES**
+
+```markdown
+A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
+```
+
+**TEXTO DESPUÉS**
+
+```markdown
+A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
+
+The two exact trajectory reference paths are separately coded by the same maintainer; their agreement is an implementation cross-check, not independent external validation. The additional exhaustive-versus-dynamic-programming DAG controls cover their declared finite, nonnegative conjunctive domain. They do not establish all R01 relational/parity profiles, collective dynamics, stochastic performance or real operational resource measurements. Those require separately scoped correspondence and review before campaign admission.
+```
+
+**Razón y efecto semántico:** Aclara la relación entre dos implementaciones, un contraste algorítmico y la cobertura completa de R01. No retira el soporte acotado ni presupone errores fuera del dominio.
+
+**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
+
+**Dependencias y otras VNext:** reference.py, reference_secondary.py, reference_graph_exhaustive.py, reference_graph_dp.py, oracle/README y COMPUTABILITY_AND_ORACLE_PLAN; código y freeze permanecen intactos.
+
+**Comprobaciones necesarias y límites:** Revisar admisibilidad y codificación del dominio de cada método y manifest de controles; cotejar M16/M17 y C02 antes de cualquier afirmación más amplia. Sin nueva ejecución durante la preparación.
+
+**Decisión de Iván:** pendiente sobre este ID concreto.  
+**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
+
+### Consolidación final
+
+Se recomienda preparar DELTA-001–004 como cambios documentales compatibles entre sí, únicamente después de decisión de Iván y revalidación sobre la fuente entonces vigente. No se propone aplicar deltas de código, modificar los 30 archivos del freeze, alterar resultados o cerrar C02. F003/F005/F007/F008/F010 mantienen verificaciones e integración pendientes; no se resuelven mediante estas mejoras del README.

@@ -1,0 +1,44 @@
+# Proposed runtime context study alongside Flores Theme 21
+
+Internal review draft. 13 October 2026. Not sent or agreed with an external participant.
+
+## Scientific question
+
+Could a minimal controlled change to a condition supporting a population inference make that inference no longer justified while the judges continue to emit exactly the same verdicts? The first study would characterize what the original mechanism can observe. A second study would compare the receiving qualification requirements against a strong conventional peer with equal evidence access and resources.
+
+The claim and target are fixed before the baseline. Temporal applicability is part of that claim from the outset. This is not a post-hoc change from one population question to an unrelated receiving question, nor a claim that a historical result becomes false.
+
+## Minimal intervention for review
+
+Preserve your v1.0 fixture, six scripted judges, eight scored cases, seeds, threshold, sealed roles and acceptance rules. Add a separately versioned experimental wrapper and a narrowly scoped context relation supporting one pending inference. Establish it at t0, withdraw exactly one material current association at t1, and restore it legitimately at t2. Keep the producer verdict artefact unchanged in the paired replay.
+
+A critical admission condition is to show what was genuinely identifiable at t0. Your detector already states that verdicts do not establish actual failure-mode independence or objective answer-key truth. We must not pretend either was established initially and then claim to have demonstrated its loss.
+
+A proof-association withdrawal may establish only loss of warranted reliance. A stronger identifiability claim requires two worlds with different relevant truths and identical permitted observations. If a context channel distinguishes them, that channel must be explicitly recorded.
+
+## Two studies
+
+Study 1 would preserve the native output and measure whether the overall declared inference remains warranted through the change. “Context not assessed” may be entirely correct within the detector’s native scope; the result identifies the required boundary qualifier, rather than attributing a defect outside its contract.
+
+Study 2 would assess candidate EA requirements and a defended B2 with the same source, scope, timings, tools, human capacity and cost ledger. A conventional provenance/version/dependency monitor can be fully successful. Equivalent or better B2 performance would be reported as no EA-specific differential.
+
+Neither study sends a desired answer, decision purpose or receiver-imposed measurement budget upstream. Any operational action remains with its legitimate owner.
+
+## Small initial control slate
+
+Valid baseline; benign change; one material context loss with unchanged votes; legitimate restoration; identical complete-observation worlds with different hidden truths; and a valid alternative-support continuity control.
+
+No “basis lost” answer label is supplied to either candidate. A blind study uses fresh reserved cases, not the public calibration fixtures.
+
+## Preparation evidence
+
+An authored finite-model preflight has passed 20 named calibration controls and 64 distinct-hidden-truth observation-equivalent pairs. Its conventional B2 and requirement reference model agree in all 20 named controls. This is a contract check, not native execution, an EA implementation, independent adjudication or a performance claim.
+
+The dossier provides exact source snapshots, formal arguments, candidate requirements, costs and adversarial controls. It still needs one jointly selected native contextual condition, its source/rights, an independent adjudicator, a defended B2 and a frozen run contract.
+
+## Concrete discussion points before a run
+
+Which narrow context relation is actually material to a useful inference in your planned demonstration or its bounded continuation? What legitimate source characterizes it at t0? Where should its runtime loss be placed without rewriting your frozen study? What evidence could an authorized observer see at t1? Which result would you consider useful if B2 and EA are equivalent?
+
+This draft offers a source-preserving research extension for discussion, not a commitment by Justin Flores, Cyril Gorlla, Nelson Trasatti or any standards body.
+

@@ -1,5 +1,7 @@
 # 00J-A01 — Panodyssey Notice / TEMS Rights-Portability Implementation Trajectory
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 | | |
 |---|---|
 | **ID** | 00J-A01 |
@@ -11,6 +13,8 @@
 | **Primary implementation reference** | [Panodyssey AI Transparency Notice](https://panodyssey.com/en/article/technology/press-release-panodyssey-launches-the-ai-transparency-notice-tpbhc7snppcb) + [FG-TIDA Theme #17](https://github.com/FG-TIDA/themes/issues/17) publisher-side rights stack |
 | **Interoperability reference** | [TEMS Trial 7 — How Rights Travel Across Systems](https://tems-dataspace.eu/tems-trial-7-how-rights-travel-across-systems/) |
 | **Public FG-TIDA reference** | [Theme #17 — Digital Rights Infrastructure for Text](https://github.com/FG-TIDA/themes/issues/17), proposer: Alexandre Leforestier (Panodyssey) |
+
+> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Stage A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Stage A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Stage B architecture verification or Stage C native product validation.
 
 > **Unexecuted implementation-path analysis.** This profile asks how a standard competent Panodyssey-side implementation, a defended top implementation extended through the agent/interoperability boundary, and that exact frozen top implementation under a latent downstream rights-resolution regime change interact with 00J Q0–Q5. It does **not** report that Panodyssey, TEMS, ODRL or any named AI/right-management system fails 00J.
 
@@ -41,7 +45,7 @@ That combination makes Panodyssey/TEMS stronger for 00J than a generic rights da
 - the source-side rights state is real and comparatively rich;
 - the cross-system boundary is real;
 - the missing/variable agent-side and downstream semantics are explicit;
-- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **external resolver, identifier or lineage contract changes while the same final enforcement proposition is held constant**.
 
 The profile therefore does **not** treat Panodyssey as the weak baseline. It starts from a competent production-oriented source-side system.
 
@@ -593,3 +597,10 @@ A successful H1/H2 result therefore counts against the proposed differential. A 
 **The implementation question is ultimately the same as the scenario question: when a record remains technically valid, can the system still establish that it remains sufficient for the proposition now being enforced?**
 
 **Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
+
+
+## 16. Later public source update — 15 October 2026
+
+**P9 — source-owner confirmation, supplementing P1–P8 and the 24 September evidence freeze.** In his [public UC-21 reply](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6192128304), Alexandre Leforestier confirms that this profile's description of Panodyssey's production rights stack and the agent-side identity gap matches current production reality, with no corrections at this stage. He also reports preparation of a separate Panodyssey use case grounded in Theme #17, linked to UC-21/S6 where they overlap.
+
+This is a dated source-owner confirmation of the capability description. H1/H2 remain constructed, unexecuted trajectories; the reply adds no campaign result or product-failure finding.

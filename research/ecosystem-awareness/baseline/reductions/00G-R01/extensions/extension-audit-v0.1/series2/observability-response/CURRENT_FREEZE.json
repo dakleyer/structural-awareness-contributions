@@ -1,0 +1,10 @@
+{
+  "registered_at_utc": "2026-10-07T15:24:33.667345+00:00",
+  "before_execution": true,
+  "files": {
+    "current_study.py": "f5e2d5867cc32b3f4c151b06c883dc9339dd7b4346327d43519ea3f1b6e3d7c2",
+    "CURRENT_RUN_CARD.json": "1a773925ed6b5ca16b8611462ed5a181b449a2b5355fc3d0a689f21fd3013f6c",
+    "CANDIDATE_SPECIFICATION_PACKAGE.json": "0cc49fc3daeecedf83b94ef88f5c36985fe21ff631a335a0510a3262c572fa7c",
+    "../_series2_support/complete_runner.py": "0fc49a3713974bef8c35a910eba13adfc5217e9e51e953cbc15cde1c508ac8f9"
+  }
+}

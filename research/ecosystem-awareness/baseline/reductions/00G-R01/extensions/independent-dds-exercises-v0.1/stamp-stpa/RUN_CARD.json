@@ -1,0 +1,194 @@
+{
+  "version": "0.3",
+  "date": "2026-10-06",
+  "canonical_DDS_profile": {
+    "path": "../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+    "logical_identity": "single canonical DDS technical profile",
+    "method_version": "0.1"
+  },
+  "acceptance": "Each registered assertion must pass; failures/denials and deliberate unsafe diagnostic effects remain outcomes. This is instrument acceptance, not deployment or population C/R/E acceptance.",
+  "cost": "Count actual local signature checks/hash reads/policy operations; record local elapsed time separately. No tariffs, salaries or production SLA inferred.",
+  "coverage": {
+    "challenge": "technology-specific bounded synthetic task",
+    "correspondence": "declared local realization, no operational isomorphism proved",
+    "I": "sufficient legitimate task delivery",
+    "M": "explicitly allowed lower-value outcome only when chosen/completed",
+    "P": "materially wrong/unauthorized effect",
+    "incomplete": "no sufficient route within the registered horizon",
+    "probability_law": "designed finite cases; no population probability fitted",
+    "effectiveness_and_risk_rates": "unscored",
+    "business_value": "illustrative process objective; owner calibration pending"
+  },
+  "private_state": "Expected flags and actual-world facts belong only to the evaluator; participant functions receive observations/claims and admitted current policy sources.",
+  "credential_policy": "Ephemeral fixture signing keys and compact tokens remain in memory; no credential or private key in output.",
+  "implementation_profile": "STPA four-step synthetic maintenance/supply control analysis and finite context exercise",
+  "run_id": "DDS-STAMP-STPA-20261006-02",
+  "cases": [
+    {
+      "id": "T01",
+      "narrative": "Maintenance is admitted with confirmed stop and an available critical-supply backup.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": true,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": true,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "I"
+    },
+    {
+      "id": "T02",
+      "narrative": "Critical supply has no backup, so maintenance is explicitly deferred while supply continues.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": false,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": true,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "M"
+    },
+    {
+      "id": "T03",
+      "narrative": "A stop command has no observed application; entry must remain blocked.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": true,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": false,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "M"
+    },
+    {
+      "id": "T04",
+      "narrative": "Telemetry is unavailable; the controller cannot claim the required equipment state.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": true,
+        "authority": true,
+        "sensor_current": false,
+        "stop_applied": true,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "incomplete"
+    },
+    {
+      "id": "T05",
+      "narrative": "The controller has no mandate for actuation or maintenance entry.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": true,
+        "authority": false,
+        "sensor_current": true,
+        "stop_applied": true,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "incomplete"
+    },
+    {
+      "id": "T06",
+      "narrative": "A legally allowed maintenance stop needs no critical-supply backup.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": false,
+        "backup": false,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": true,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "I"
+    },
+    {
+      "id": "T07",
+      "narrative": "The equipment is already confirmed stopped and critical supply has a backup.",
+      "world": {
+        "pump_running": false,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": true,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": true,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "I"
+    },
+    {
+      "id": "T08",
+      "narrative": "Backup is missing and deferral is not an admitted route.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": false,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": true,
+        "allow_defer": false
+      },
+      "expected_qualified_outcome": "incomplete"
+    },
+    {
+      "id": "T09",
+      "narrative": "A supply-only task must keep the functioning pump available.",
+      "world": {
+        "pump_running": true,
+        "maintenance": false,
+        "critical_supply": true,
+        "backup": false,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": true,
+        "allow_defer": true
+      },
+      "expected_qualified_outcome": "I"
+    },
+    {
+      "id": "T10",
+      "narrative": "A stop fails and the mission forbids returning a deferment as sufficient delivery.",
+      "world": {
+        "pump_running": true,
+        "maintenance": true,
+        "critical_supply": true,
+        "backup": true,
+        "authority": true,
+        "sensor_current": true,
+        "stop_applied": false,
+        "allow_defer": false
+      },
+      "expected_qualified_outcome": "incomplete"
+    }
+  ],
+  "uca_enumeration": "Enumerate64 contexts: pump_running,critical_supply,backup,authority,stop_applied,entry_command; maintenance requested. Classify unsafe entry and continuity-breaking stop in actual context.",
+  "method_is_not_product_execution": true,
+  "probabilistic_claims": false,
+  "prior_amendment": {
+    "id": "A1",
+    "reason": "Separate potentially unsafe control contexts from realized material effects. Unexecuted initial source/freeze preserved; scenarios/acceptance unchanged.",
+    "initial_freeze_sha256": "128b42569d0c45f38d4916c0916e154259ff6732a4c702717aacd381e8b7d692",
+    "prior_execution": false
+  },
+  "amendment": {
+    "id": "A2",
+    "parent_run": "DDS-STAMP-STPA-20261006-01",
+    "reason": "Controller receives current observation keys only. Actuator failure truth stays with the plant and is observed after a commanded stop; add separation/state-transition assertions.",
+    "old_results_or_thresholds_relabelled": false,
+    "problem_law_or_narratives_changed": false
+  }
+}

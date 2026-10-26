@@ -1,10 +1,17 @@
+> [!NOTE]
+> **Review note · 6 October 2026 · navigation addition only.** The existing text below is preserved verbatim. Read the [corpus review procedure](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) before proposing a change. This README has one [VNext audit and before/after workspace](./README_VNext.md), kept separate from the current canonical text. Audits and proposals do not change the canonical corpus; substantive changes require Iván's explicit instruction.
+
 <div align="center">
 
 # Ecosystem Positioning
+
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 ### Agentic Architecture for staying situated as the ecosystem changes
 
 [![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx)
 [![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)
+
+**A/B/C/D reading update:** this presentation is a dated export predating the 2 October semantic alignment. Use [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) for current definitions; its earlier B/C labels are not the current taxonomy. The export remains intact for traceability.
 [![Read the Architecture](https://img.shields.io/badge/READ-THE%20ARCHITECTURE-1B4D8E?style=for-the-badge)](#awareness--positioning--agent-defense)
 
 **[Structural Awareness Programme](../../README.md) → Ecosystem Positioning**
@@ -15,6 +22,11 @@
 
 **Canonical source:** the versioned technical corpus in this GitHub repository governs architecture, requirements and evidence. Articles, annexes and outreach presentations communicate that corpus; they do not supersede it.
 
+
+### Mathematical and functional plausibility
+
+Read [00M v0.8 — A/B/C/D semantics and mathematical plausibility](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7 — Can Ecosystem Awareness Work?](../../research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The [three visual reading aids](../../research/ecosystem-awareness/baseline/visuals/README.md) summarize the distinctions, mechanisms and requirements bridge; the [research-neighbours addendum](../../research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) supplies further precedents. These research notes provide conditional plausibility arguments, not evidence of engineering feasibility, product prevention or requirements fulfilment; publication does not silently promote a new canonical baseline. The [preservation record](../../research/ecosystem-awareness/baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md) identifies the publication scope.
+
 ### Hypothesis and traceability — start here
 
 **[Common causal hypothesis, failure modes and forward/reverse proof route](./documents/2026-09-29/README.md)** — start with the [causal hypothesis and refutation protocol 0.3](./documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx), then the [current traceability bridge 0.4.1](./documents/2026-09-29/Hypothesis_Thesis_and_Principle_Traceability_v0.4.1.docx). The index connects HC/H1–H6, 00E–00J, P1–P6, S/T, the executed audits and A19/A23/A24, with the supported directions, retained counterexamples and open claims distinguished.
@@ -22,6 +34,8 @@
 ### External review / pre-standardization entry
 
 For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
+
+**Research and test route.** The [Deployment Differential Study (DDS)](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) organizes three different questions: which specification addresses a frozen challenge, whether an architecture realizes that specification, and how a particular implementation behaves against the original challenge and observed effects. [UC-21](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md) contributes six failure scenarios, their quality gates and an R0/R1/R2 comparison protocol; [A26](../../research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) develops positive success-case counterparts. [R01](../../research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) investigates a reduced probabilistic model of exploration, validation and cost. In the [local S5 stateful study](../../research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md), a conventional dynamic-manifest guard successfully handles the declared D1 source-set change. Each linked document remains the authority for its own evidence and scope.
 
 **Pre-standardization context:** [ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)](https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx) · [Theme #13 working discussion / contribution route](https://github.com/FG-TIDA/themes/issues/13) · [bounded FG-TIDA application package](../../research/ecosystem-awareness/fg-tida/README.md).
 
@@ -48,6 +62,8 @@ Some vehicles continue normally, others execute completely different critical or
 
 Robots are cleaning a bar and preparing the tables when one incorrectly configured robot starts behaving as if it were Napoleon.  
 It gradually convinces the others; some time later the robots leave in formation, carrying forks as rifles, believing they are Napoleon's army marching from Spain toward Russia.
+
+**Reduction 00G-R01:** [Probabilistic exploration and validation cost](../../research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) — open the reduced scenario under 00G, then its supporting reduction argument and the bounded Hugging Face correspondence. Full text, Word and PDF; no experimental result or complete historical admission is claimed.
 
 ### Scenario 4 — [The Quiet Four Thousand](../../research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md)
 
@@ -98,7 +114,7 @@ Control sufficiency, Ecosystem Cartography and bounded repositioning under legit
 
 | **5 minutes** | **20 minutes** | **Technical review** |
 |---|---|---|
-| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Follow Requirements → interfaces → fixtures/harness → benchmark → applied validation / evidence maturity. |
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Stage A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
 
 ```mermaid
 flowchart LR
@@ -276,7 +292,7 @@ The corpus is deliberately layered. The layers are connected, but they are **not
 The [Integrated Foundational Theory](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and the [Epistemic Safety Principles & Control Matrix](../../research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) define the underlying problem:
 
 - every participant acts from a bounded and revisable representation;
-- the four epistemic positions **A/B/C/D** keep established, unresolved, potentially knowable and structural-residual state distinguishable;
+- the four process-relative components **A/B/C/D** distinguish delivered results, established basis and characterized reserve, exploration frontier, and residual beyond effective evaluation;
 - **Type 0** represents legitimate structural non-determination;
 - **Type 1** captures unresolved determination that becomes unbounded or non-viable;
 - **Type 2** captures uncertainty, scope or residual being promoted into unjustified certainty or permission;
@@ -493,16 +509,16 @@ The four-part participant-local epistemic position is a practical way to **under
 
 A central structural pattern is the four-part participant-local epistemic position.
 
-[**Canonical Architecture Topology**](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) provides the shared reading key across the corpus.
+[00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) defines the shared meanings. [Canonical Architecture Topology](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) applies them across the architecture.
 
 In compact form:
 
 | Position | Meaning |
 |---|---|
-| **A** | What is sufficiently established now for the declared decision and scope. |
-| **B** | The determination / confidence / qualification around that represented state. |
-| **C** | What could still be established with the capability, time, evidence access and effort currently available. |
-| **D** | Residual that is not presently established as knowable within that capability boundary. |
+| **A** | Functional result actually established and delivered by the declared process. |
+| **B** | Established basis and limits of that result, together with a characterized, assessable reserve. |
+| **C** | Grounded exploration frontier whose evaluation basis has not yet been established; not a known assessable option left unused. |
+| **D** | Potentially material effects beyond effective evaluation routes under the declared access, authority, method, capability and time. |
 
 These positions are deliberately **non-fungible**. More confidence in A cannot compensate for an unexamined residual in D; more compute cannot automatically substitute for missing authority; more messages do not automatically create independent evidence.
 
@@ -537,11 +553,21 @@ The complete architecture is composed from separately owned mechanisms. The link
 | **MSCA Operation & Repositioning** | Checks bound versus effective role, Type 0/1/2 state, P1/P2/P3 posture, then filters candidate transitions through ACC, lineage, authority, capacity and response horizon. | [MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) |
 | **Human / institutional authority** | Owns legitimate objectives, permissions, policy and final decision rights. The architecture can qualify or request; it does not create authority. | External legitimate owner; consumed through ACC / authority references and signalling |
 
+
+### Additive Human Capacity / Human Intelligence Debt extension
+
+[**01K — Human Capacity / Human Intelligence Debt**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is the additive extension for two non-fungible surfaces: **runtime Human Capacity** for a particular intervention window, and **Human Intelligence Debt** as the architecture-level gap between feasible genuine human contribution and the contribution the socio-technical system actually elicits. Its organisational annexes import HICR/HICT/HID, GIC/NEO/ACW, portfolio answerability, capability-multiplicity, recovery/velocity and Net Oversight Impact measures, with explicit evidence gates and cross-series bridges. It is consumed by Signalling/EHD and Repositioning where material; it is not a new EA/EP core mechanism. Its reusable implementation contract is [**01K-A01 — HC-HID Component Specification**](../../research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md), which exposes process-relative HC/HID A/B/C/D outputs through the ordinary EHD/receiver-requalification path, controls same-operation circularity and contributes human runtime/readiness/architecture cost to the existing DDS ledger.
+
+The extension deliberately gives the human **no privileged architectural interrupt**. Human- or system-originated alerts, material Regime Awareness warnings and repositioning-time conditions may use the same bounded **Human / Systemic Alert** signalling profile. The receiver requalifies the signal, updates `Cart_i` where material and may re-enter RA/Repositioning. A human can be a subscribed/routed consumer under an applicable ACC, policy or signalling profile, but receipt does not establish authority or cognitive capacity.
+
+Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. The runtime question is whether a qualified human path is actually usable inside the response window; the architectural question is whether the interface is eliciting genuine human contribution or generating avoidable compensatory work. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
+
+
 ## How the pieces divide responsibility
 
 | Component | Responsibility |
 |---|---|
-| **Regime Awareness** | Emit a qualified ecosystem/regime delta — direction + confidence/intensity + capability frontier + residual — without deciding the participant's final posture. |
+| **Regime Awareness** | Emit a qualified ecosystem/regime delta — direction + established support and reserve + exploration frontier + residual beyond evaluation — without deciding the participant's final posture. |
 | **Ecosystem Awareness** | Qualify what can be relied on, what remains unresolved and what needs requalification. |
 | **Ecosystem Positioning** | Maintain the participant-local situated view, derive the objective-conditioned agentic gradient, and hand candidate transitions to MSCA Operation/Repositioning for drift control and legitimate re-contracting. |
 | **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
@@ -655,7 +681,7 @@ Owns the decision-scoped epistemic qualification:
 Owns continued validity of the operating frame:
 
 - whether current observations remain compatible with the regime under which assumptions were qualified;
-- the qualified **direction of regime change (`A_RA`)** and its **confidence/intensity (`B_RA`)**, with `C_RA/D_RA` preserving capability frontier and residual;
+- the qualified **direction of regime change (`A_RA`)** and its **established support and characterized reserve (`B_RA`)**, with `C_RA/D_RA` preserving exploration frontier and residual beyond effective evaluation;
 - whether the resulting delta should trigger downstream frame requalification. **RA does not decide the participant's Normal / Containment / Migration posture.**
 
 **Enter the corpus:** [Regime Awareness — corpus index](../../research/regime-awareness/README.md)
@@ -744,6 +770,8 @@ The [DAOS / Delegated Authority OS masterclass](../../research/ecosystem-awarene
 
 # From scenarios to executable fixtures
 
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Stage A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Stage B and Stage C claims require their own upstream packages and cannot be inferred from these earlier records.
+
 A narrative scenario is not evidence by itself. The corpus therefore separates **scenario**, **fixture**, **oracle**, **harness**, **pre-registration** and **execution**.
 
 [**00D-A01 — Reference-Scenario Test Artifacts and Bounded Oracle Construction & Test Design**](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) defines how a scenario becomes a bounded reproducible fixture: frozen facts, authority, hidden dependencies, positive/negative controls, deterministic oracle, residual and regime-change limits, and Stage 0–2 progression.
@@ -752,9 +780,9 @@ A narrative scenario is not evidence by itself. The corpus therefore separates *
 
 [**RS-00E-Q1a fixture and pre-registration**](../../research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md) pins the operative fixture family, branches, requirements, oracle, KPI definitions, harness version and execution conditions **before** a result is produced.
 
-[**Testbed Method / Canonical Benchmark v0.2 — comparative execution method**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Comparative execution and independent replication remain pending.
+[**00D Canonical Benchmark v0.2 — DDS comparator/fairness support**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Within the current DDS method it is comparator/fairness support rather than a parallel method. Comparative execution and independent replication remain pending.
 
-The comparative method freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published sources.
+The 00D support contract freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published supporting sources.
 
 ### Execution records
 
@@ -848,3 +876,23 @@ The symbolic fixture/proof campaign has been executed and reproduced. It does **
 That distinction is deliberate: the corpus is designed so that a strong conventional peer can win.
 
 The purpose is not to prove Ecosystem Positioning by definition. It is to make the proposition precise enough that it can fail.
+
+
+---
+
+## Development strategy and next advances
+
+The next phase focuses on clarifying the evidence behind the architecture, developing a small end-to-end profile, defining a demanding comparison and extending only what can be supported. The [development strategy and priorities](./DEVELOPMENT_STRATEGY.md) (Spanish working proposal) explains these directions, where specialist knowledge can help and the external research that informs them.
+
+This is a separate strategy document. It complements the architecture and its review programme; it does not replace the explanations above or turn planned work into a validation result.
+
+
+## Reading the architecture and its evidence
+
+A participant can receive an apparently correct output while the conditions that made it relevant have changed. Ecosystem Awareness qualifies what a process can support for a declared question and scope; Regime Awareness examines qualified changes in the applicable basis or regime; MSCA assesses sufficient configurations and possible repositioning. Qualification, permission, execution and confirmed effect remain separate responsibilities.
+
+Use the current semantic notes to understand the architecture, and keep each frozen proof, scenario and result attached to its own assumptions, version and evidence limits. A current reading does not retrospectively validate an older proof or turn symbolic execution into a completed comparative experiment. The requirements express obligations to examine; traceability to them does not itself demonstrate fulfilment.
+
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+
+For current preparation, the [owner-approved Requirements working successor](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) adds the S10 obligation to bind execution to the requalified decision basis. The frozen Requirements remain the contract for studies that registered that edition; this working successor does not retrospectively change their inputs, findings or evidence grade.

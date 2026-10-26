@@ -1,4 +1,26 @@
+> [!NOTE]
+> **Revisión para personas · instrucción de Iván del 6 de octubre de 2026.** El [plan de trabajo](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) exige cuatro pasadas diferentes, registradas en esta misma VNext: **fondo y lógica; evidencia y relaciones; edición y formato; legibilidad humana**. Después habrá una conciliación del corpus, con consecuencias en cada VNext afectada. El centro es comprender y cuestionar la idea; códigos y comprobaciones técnicas quedan como apoyo. La exploración mixta publicada antes se conserva, pero no se cuenta como cuatro pasadas terminadas.
+
+### Estado del ciclo de revisión de este documento
+
+| Pasada | Estado al adoptar el plan |
+|---|---|
+| Fondo y lógica | Parcial: hay observaciones exploratorias; falta su examen diferenciado completo. |
+| Evidencia y relaciones entre documentos | Parcial: relaciones seleccionadas; faltan revisiones cruzadas completas. |
+| Edición, estructura y formato | Pendiente como pasada propia. |
+| Legibilidad y comprensión humana | Pendiente como pasada propia. |
+| Conciliación final del corpus | Pendiente. |
+
+**Cómo se continúa:** añadir cada pasada y sus respuestas en la sección de auditoría de esta VNext, explicando hallazgos y consecuencias para un lector. Conservar los registros anteriores y terminar con propuestas antes/después. Esta nota organiza el trabajo; no afirma que esas pasadas se hayan realizado ni altera el texto canónico.
+
+---
+
+> [!NOTE]
+> **Benchmark VNext · auditoría acumulativa R1 · 6 de octubre de 2026.** Este borrador ya es el VNext del benchmark; no se crea otro. Se preserva todo el diseño anterior y se añade su auditoría/propuestas al final. 00D v0.2 sigue canónico y no se ejecuta ninguna comparación. [Procedimiento](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) · [visión general](../../../architectural-contributions/ecosystem-positioning/README_VNext.md).
+
 # Canonical Architecture Benchmark v0.3 Draft — Ecosystem Positioning
+
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 > **Benchmark vNext — bounded working draft.** This document complements, but does **not yet supersede**, [00D v0.2](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md). v0.2 remains the current canonical benchmark for the EA differential `EA-H1–EA-H4` under B0–B3.  
 > **Reason for this draft:** the public architecture has expanded from EA alone to the broader **Ecosystem Positioning** composition (EA + Regime Awareness + MSCA + signalling + ACC/authority + repositioning). v0.2 cannot test most of those later claims.  
@@ -84,7 +106,7 @@ Before an EP arm can support a comparative claim, verify that it actually instan
 - signalling treated as qualified input, not command;
 - no hidden global-state or super-controller assumption unless the arm is explicitly the OR reference.
 
-A non-conforming EP implementation produces **Insufficient evidence**, not an EP win/loss.
+A configuration that fails preregistered Q0 admission before comparative execution produces **Insufficient evidence** for the claimed EP comparison. Admission criteria, exclusion rules and the adjudication owner must be fixed before outcomes are inspected. A failure or conformance deviation observed after an admitted run begins remains reported with its trace and cause; it must not be discarded or retrospectively relabelled merely to remove an adverse result. Its implication for the hypothesis is adjudicated under the frozen protocol.
 
 ### Q1 — requirement coverage
 
@@ -127,7 +149,7 @@ Human/institutional governance and physical/digital actuation are **not EP compo
 
 To avoid collision with the canonical requirements hypotheses H1–H6, v0.3 uses the namespace **EP-BH# = Ecosystem Positioning Benchmark Hypothesis**.
 
-These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
+The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional while the source, comparator, protocol and fixture-admission gates in §13 are completed.
 
 | ID | Provisional benchmark hypothesis | Primary modules | Decisive falsifier |
 |---|---|---|---|
@@ -287,7 +309,7 @@ Do not declare “simpler” using an arbitrary two-of-four rule. Compare arms o
 
 ## 9. Requirements traceability gate
 
-Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
+The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
 
 | Benchmark hypothesis | Current S/T/H/KPI route | W1 finding | Requirements disposition |
 |---|---|---|---|
@@ -369,7 +391,7 @@ Not supported now:
 - that choreography converges;
 - that EP improves safety;
 - that 00G, C9–C15 or the v0.3 comparator families have executed;
-- that this draft has passed the Requirements-vNext or bibliographic gate.
+- completion of bibliographic review, fixture admission or benchmark adoption on the basis of the W1 mapping alone.
 
 ---
 
@@ -377,7 +399,7 @@ Not supported now:
 
 v0.3 becomes the canonical benchmark only after all of the following are complete:
 
-1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
+1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
 2. **Prior-art source audit:** PA-1…PA-5/OR bibliography and claimed mechanism boundaries are verified against primary sources.
 3. **Industry comparator audit:** B2 capabilities are pinned to dated primary vendor/standard documentation.
 4. **Ablation protocol:** build-up, leave-one-module-out and selected interaction tests are frozen.
@@ -406,3 +428,167 @@ This bounded draft deliberately retains the **architectural and experimental str
 - adoption gates.
 
 The larger draft remains useful as working material, but publication-sensitive bibliography and component distinctness assessments should not be promoted into the canonical route without the explicit audits above.
+
+
+---
+
+## Auditoría realizada por Codex — BENCH-VNEXT-AUD-001
+
+**Fecha:** 6 de octubre de 2026. **Fuente:** commit `1d24b7bfe88fa366e6c619fa88f6f7904d1380db`, este borrador blob `9f013939234ab783cb3791d67ec3f0b4816a683c`; predecessor v0.2 blob `1e3c5dd34d431049eb555386e8430dfb6c575278`. **Lectura:** borrador completo y relaciones con Requirements VNext, README, 04/05/05A; pasajes de ownership/fairness/evidence del predecessor, no nueva verificación bibliográfica de todos los peers. **Identidad:** mismo Codex; no independencia externa. Sin benchmark/harness/episode/product execution.
+
+### Instrucciones y objeto de revisión
+
+IVAN-20261006-START-SEQUENTIAL-AUDITS autoriza publicación de auditorías, primero una visión general y después VNext por VNext. Se reutiliza el documento con ID00D-vNext y versiónv0.3; su palabra «Canonical» en el nombre no cambia su status WorkingDraft. La comparaciónEP no se aprueba ni se activa por publicar esta auditoría.
+
+### Visión del diseño y relaciones
+
+El diseño separa Q0 conformance, Q1 requirement coverage, Q2 module contribution y Q3 comparative composition. Ocho módulosM1–M8 tienen propietarios distintos. Build-up, leave-one-out e interactions sirven a atribución y no son tres nombres para la misma prueba. Los fuertes B2/PA5 y OR evitan comparar contra un peer deliberadamente débil. S/T/H y semantic owners siguen siendo los contratos; EP-BH1–7 son hipótesis de benchmark y no H7 nuevos.
+
+| Hallazgo | Evaluación / evidencia | Estado |
+|---|---|---|
+| BENCH-R1-F001 | §9 ya contiene la tabla EP-BH→S/T/H y un W1review result; §4 conserva provisional «until W1 maps», y §12 aún niega que se haya pasado Requirements-vNext. | El estado del gate está ambiguo/atrasado. Mapping presente no demuestra conformance ni todos los gates de promoción. |
+| BENCH-R1-F002 | Q0 usa «non-conforming ... Insufficient evidence, not win/loss». Si se adjudica después de observar fallos, podría excluir del score justo los fallos que debía detectar. | Separar admisiónpre-run de desviaciónruntime. No atribuir necesariamente circularidad al texto; falta protocolo temporal y criterios de exclusión. |
+| BENCH-R1-F003 | §5 reconoce que build-up solo no atribuye causalidad y pide leave-one-out/interaction. | Diseño positivo; aún faltan reemplazos por strong-repair peers, efectos de adaptación y mantener acceso/recursos comparables en ablations. No se certifica causalidad por la tabla. |
+| BENCH-R1-F004 | §6 y gates13 difieren bibliografíaPA y B2; muchos módulos compuestos pueden reproducirse con prior-art. | Gates documentales pendientes. Esta auditoría no verifica capacidadvendedor, novedad ni superioridad. |
+| BENCH-R1-F005 | C15legacy/partial compatibility existe en§7, pero el plan§10 no le asigna etapa explícita (4 enumera C9–C12/C14;5 C13). | Cobertura del plan incompleta o exclusión sin razón. Añadir decisión de admisión porrama antes de ejecución. |
+| BENCH-R1-F006 | Complexity exige Pareto/equivalence y tolerancias, reconstructionerror además de reviewer time; no define aún márgenes, tamaño de muestra ni regla para censura/timeouts. | No se puede adjudicar «simpler» sin preregistro operativo; no reemplazar el ledger por count de módulos. |
+| BENCH-R1-F007 | El corpus tiene A23 parcial, no base guarantee universal. Q1 y móduloM1 no pueden tomar la coberturaS/T como cierre all-six. | Distinguir source-traceability de conformanceadmitted y de differential. Respaldar cada outcome con oracle/positivecontrols. |
+| BENCH-R1-F008 | Stage0 y resultados simbólicos previos no comparan todos los brazosv0.3. Una continuación automática de 00G-HF por referencias sería fuera del alcance de este trabajo. | No se ejecuta ni se publica un nuevo resultado experimental. Conservación intacta de preregistros y resultados. |
+
+**Navegación:** 5 enlaces locales, 4 destinos, presentes en el árbol. El aspecto bibliográfico/técnico externo queda explícitamente sin certificar.
+
+### Conversación de auditoría
+
+**Codex, respuesta a Q0:** un error de configuración detectado antes de admitir un run puede justificar insufficient evidence. Un fallo observado en una configuración que superó la admisión también es evidencia y debe permanecer en resultados con causa/limitación; reetiquetarlo tras ver el outcome podría proteger la hipótesis de su falsador. La regla propuesta no afirma que cualquier fallo refuteEP: exige adjudicación previa y conservación de ambos objetos.
+
+**Codex, respuesta al gateW1:** la tabla existe y es compatible documentalmente con Requirements VNext. Eso cierra la entrega de una tabla, no la verdad de las hipótesis ni la promociónv0.3. Bibliografía, comparator configuration, resource matching, ablationfreeze, complexity margins y admissionfixtures siguen abiertos.
+
+## Propuestas quirúrgicas — BENCH-R1, pendientes
+
+### BENCH-R1-DELTA-002 — Q0 antes del resultado y conservación de fallos
+
+**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio41 incorporado en `research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
+
+### Cobertura restante
+
+Primera auditoría del diseño; ningún gate de promoción ejecutado ni informe comparativov0.3 creado. CatálogoPA y fuentesB2, C15, márgenes/n/estadística, custoledger, ablationprofiles y replicaciónindependiente permanecen pendientes.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Comparar el contrato de benchmark y sus módulos con métodos, protocolos y evaluaciones externos. Evaluar qué ya cubre un peer competente, qué instrumento conviene reutilizar y qué diferencial requeriría evidencia comparable.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Conciliar módulos, métricas, comparadores y resultados citados con las funciones y contratos de origen; distinguir candidato, evidencia acotada y ventaja comparable establecida.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 41 · Fijar admisión antes de ver resultados y conservar fallos | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
+
+### Cambio 41 — Fijar admisión antes de ver resultados y conservar fallos
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Alto. Prioridad: Primera.** Evitar descartar retrospectivamente resultados adversos bajo non-conforming.
+
+**Qué podría quedar desactualizado o afectado:** Afecta protocolo, denominadores, estados y dueño de adjudicación; no cambia resultados congelados ni limpia pérdidas del candidato.
+
+**Qué cuesta prepararlo:** Adjudicación del protocolo y revisión de varios tipos de fallo antes de freeze; no ejecutar experimentos ahora.
+
+**Dependencias conocidas:** [00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) · [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [WORKPLAN.md](../WORKPLAN.md) · [pre_registration_v0.5.md](fixtures/RS-00E-Q1a/pre_registration_v0.5.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Protocolo preregistrado, owners y tratamiento de run admitido fallido, timeout/datos ausentes y fallo del comparador.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#bench-r1-delta-002--q0-antes-del-resultado-y-conservación-de-fallos); el viejo tiene una coincidencia en [la fuente actual](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `34720bc29438b51b733dcb233102869c52abf695`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md), blob `1e3c5dd34d431049eb555386e8430dfb6c575278`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 41 | Cambio de protocolo; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+
+**Cambio 41 — Cambio de protocolo; no listo.** Excluir retrospectivamente fallos de una configuración admitida protegería la hipótesis del falsador. El protocolo debe distinguir admisión y fallo observado.
+
+**Beneficio esperado:** Evitar descartar retrospectivamente resultados adversos bajo non-conforming. **Riesgo concreto:** Afecta protocolo, denominadores, estados y dueño de adjudicación; no cambia resultados congelados ni limpia pérdidas del candidato. **Coste de preparar y mantener:** Adjudicación del protocolo y revisión de varios tipos de fallo antes de freeze; no ejecutar experimentos ahora.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Preregistrar criterio de exclusión y dueño de adjudicación antes de outcomes, conservar fallos/timeouts/missing y comparadores competentes. Perfil/freeze futuro, ninguna campaña activada. Revisar junto con 40, 46, 47, 48. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+<a id="ola2-cambio-05"></a>
+
+
+
+## Propuestas aplicadas retiradas
+
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md).
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="bench-r1-delta-001--distinguir-tablaw1-presente-de-gates-restantes"></a>
+<a id="cambio-40--tabla-w1-presente-distinta-de-todos-los-gates-cerrados"></a>
+<a id="ola-2--cambio-5-benchmark-conciliar-w1-ya-registrado-y-adopción-pendiente"></a>
+<a id="pasaje-1--4"></a>
+<a id="pasaje-2--9"></a>
+<a id="pasaje-3--12"></a>
+<a id="pasaje-4--13"></a>
+<a id="ola-2--redacción-directa-del-cambio-5"></a>
+<a id="4"></a>
+<a id="9"></a>
+<a id="12"></a>
+<a id="13"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="bloques-aplicados-retirados"></a>
+<a id="ola2-redaccion-05"></a>
+
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md). Los enlaces anteriores siguen llevando a este historial.
+
+</details>
+
+
+## Aplicación completa autorizada — 12 octubre 2026
+
+Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
+
+| Cambio | Finalidad | Fuente aplicada | Estado |
+|---|---|---|---|
+| 41 | Fijar admisión antes de ver resultados y conservar fallos | research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md | Aplicado |
+

@@ -1,0 +1,972 @@
+{
+  "run_id": "DDS-COMPLETION-BOUNDARIES-20261006-01",
+  "evidence_mode": "same-author analytical/local model boundary checks",
+  "population_rates_established": false,
+  "native_or_human_execution": false,
+  "original_results_rescored": false,
+  "source_commit": "23d3a720e5fea1d99c74e75db6a063e3ae25ceed",
+  "card_sha256": "0ef03db7f98813174c4aa8eeecb033cc9386a40186139864caf3f5b4d1f59766",
+  "freeze_sha256": "4d1f5e6f87f79e8bb2d74b9adfaf11833fa7bf83661a4f807edb90417bae6906",
+  "python": "3.12.14",
+  "cryptography": "50.0.1",
+  "analytical": {
+    "cases": [
+      {
+        "q": "89/100",
+        "s": "9499/10000",
+        "r": "941/900000",
+        "cost": 40,
+        "cost_inside": true,
+        "effectiveness_inside": false,
+        "risk_inside": false,
+        "accepted": false
+      },
+      {
+        "q": "179/200",
+        "s": "18999/20000",
+        "r": "6587/6600000",
+        "cost": 40,
+        "cost_inside": true,
+        "effectiveness_inside": false,
+        "risk_inside": true,
+        "accepted": false
+      },
+      {
+        "q": "9/10",
+        "s": "19/20",
+        "r": "941/990000",
+        "cost": 40,
+        "cost_inside": true,
+        "effectiveness_inside": true,
+        "risk_inside": true,
+        "accepted": true
+      },
+      {
+        "q": "91/100",
+        "s": "9501/10000",
+        "r": "941/1100000",
+        "cost": 40,
+        "cost_inside": true,
+        "effectiveness_inside": true,
+        "risk_inside": true,
+        "accepted": true
+      }
+    ],
+    "q_effectiveness_boundary": "9/10",
+    "q_risk_boundary": "842/941",
+    "scope": "Same declared H1 frozen-policy law only; no new all-policy theorem or transfer to SQLite."
+  },
+  "hew": [
+    {
+      "id": "H-NOMINAL",
+      "input_gate_latency": 0,
+      "source_preparation_work": 1,
+      "sufficient_delivery": true,
+      "work": 18,
+      "controller_reasons": [],
+      "applied_at": 7,
+      "delivery_at": 8,
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "bc3d8794f34e37d5440b7420e79299b71c72fded32a77d3340fc6697e41d8473"
+        },
+        {
+          "seq": 2,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "bc3d8794f34e37d5440b7420e79299b71c72fded32a77d3340fc6697e41d8473",
+          "hash": "57c2ad95e5a71e110e0a7ea2e38d596dacf6c5700b822079af064ac1c40e62d8"
+        },
+        {
+          "seq": 3,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-NOMINAL",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-NOMINAL"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "57c2ad95e5a71e110e0a7ea2e38d596dacf6c5700b822079af064ac1c40e62d8",
+          "hash": "f3597bb1d85e4856360728f06d9d9a6ad265f71abed3e53fb58fb86f85b2f494"
+        },
+        {
+          "seq": 4,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-COMPLETION-H-NOMINAL"
+          },
+          "previous_hash": "f3597bb1d85e4856360728f06d9d9a6ad265f71abed3e53fb58fb86f85b2f494",
+          "hash": "2de0c7d05753f02551cc94488cb30e8d5a9b54eaaa40637f6cce914770dd15dd"
+        },
+        {
+          "seq": 5,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-NOMINAL",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-NOMINAL"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "2de0c7d05753f02551cc94488cb30e8d5a9b54eaaa40637f6cce914770dd15dd",
+          "hash": "da9026338dedfb1e4c6c7860fe35edaa34f3dfaf4f69e8ade146952125587913"
+        },
+        {
+          "seq": 6,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-COMPLETION-H-NOMINAL"
+          },
+          "previous_hash": "da9026338dedfb1e4c6c7860fe35edaa34f3dfaf4f69e8ade146952125587913",
+          "hash": "16995ff282084f9ff6450bb84c26655fcc7cebcece08741c30cc1acc885a0d66"
+        },
+        {
+          "seq": 7,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "16995ff282084f9ff6450bb84c26655fcc7cebcece08741c30cc1acc885a0d66",
+          "hash": "5fea74293615b630bc6d37e73b4d136bb7edd12da5c17a628f8cc9c6f31fde04"
+        },
+        {
+          "seq": 8,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "5fea74293615b630bc6d37e73b4d136bb7edd12da5c17a628f8cc9c6f31fde04",
+          "hash": "e3adff84a43945e86f6c62443e8d6cd7bf03f971479b96a35c4ec943c50ddc79"
+        },
+        {
+          "seq": 9,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "e3adff84a43945e86f6c62443e8d6cd7bf03f971479b96a35c4ec943c50ddc79",
+          "hash": "d634a6d56dc8169e045ec246910ae796d3f1ca9f9076f292e62d25105d6e3453"
+        },
+        {
+          "seq": 10,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "d634a6d56dc8169e045ec246910ae796d3f1ca9f9076f292e62d25105d6e3453",
+          "hash": "2e04a74203f3b08ea2c63f000867d8a7a5757de6054fc5b12fff087f1baf9054"
+        },
+        {
+          "seq": 11,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "2e04a74203f3b08ea2c63f000867d8a7a5757de6054fc5b12fff087f1baf9054",
+          "hash": "6fe70dde8ea2cd3981c7294c904bf9d0ce5589998b2f5b45e4b2cf6cbee3ca37"
+        },
+        {
+          "seq": 12,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "6fe70dde8ea2cd3981c7294c904bf9d0ce5589998b2f5b45e4b2cf6cbee3ca37",
+          "hash": "3f3fc67d108f5dbf676f4b99bb10680d9419f0de0e5eb7b6dca267d8efa0e3e5"
+        },
+        {
+          "seq": 13,
+          "operation_id": "COMPLETION-H-NOMINAL",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "3f3fc67d108f5dbf676f4b99bb10680d9419f0de0e5eb7b6dca267d8efa0e3e5",
+          "hash": "dfe9e53c3b48b4bb097a27708ac06950f12d0719f6aba03a1dcc5dd0a5751e62"
+        }
+      ],
+      "oracle_verdict": {
+        "actual_effect_count": 1,
+        "violation_observed": false,
+        "sufficient_delivery": true,
+        "continuity_preserved": true,
+        "owner_ack_timely": true,
+        "case_preserved": true,
+        "effect_knowledge": "CONFIRMED",
+        "outcome": "DELIVERED",
+        "work_units": 18,
+        "controller_work_claim": 18,
+        "population_risk_rate": null,
+        "human_accuracy_rate": null,
+        "events": [
+          "FILED",
+          "SOURCE_PREPARATION_CHARGED",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "RESERVED",
+          "OWNER_ACK",
+          "RESERVED",
+          "REVIEW_COMPLETED",
+          "EFFECT_APPLIED",
+          "EFFECT_CONFIRMED",
+          "QUALIFIED_REENTRY_AND_DELIVERY"
+        ]
+      }
+    },
+    {
+      "id": "H-LATENCY-PLUS1",
+      "input_gate_latency": 1,
+      "source_preparation_work": 1,
+      "sufficient_delivery": false,
+      "work": 15,
+      "controller_reasons": [
+        "APPLICATION_TOO_LATE_OR_OVER_BUDGET"
+      ],
+      "applied_at": null,
+      "delivery_at": null,
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "1cf0c9a18bfd6b0ad783f4c15adfe23a15eb681bcca9e1fe1dedc35e65839fb8"
+        },
+        {
+          "seq": 2,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 1
+          },
+          "previous_hash": "1cf0c9a18bfd6b0ad783f4c15adfe23a15eb681bcca9e1fe1dedc35e65839fb8",
+          "hash": "c7009acc60f7dc68a4c05ae8f0aaffbc803bfdeeb4b5322d057a90c1bb005b8e"
+        },
+        {
+          "seq": 3,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-LATENCY-PLUS1"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "c7009acc60f7dc68a4c05ae8f0aaffbc803bfdeeb4b5322d057a90c1bb005b8e",
+          "hash": "2abe91975ea5f0f1e383ce577292ff3f45223424a52d4ee3e04883006bee05ce"
+        },
+        {
+          "seq": 4,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-COMPLETION-H-LATENCY-PLUS1"
+          },
+          "previous_hash": "2abe91975ea5f0f1e383ce577292ff3f45223424a52d4ee3e04883006bee05ce",
+          "hash": "0ade7dd8ee67a10561f09d0679b0955b6074cc07524c066738b5bfd8c2b4e6cd"
+        },
+        {
+          "seq": 5,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-LATENCY-PLUS1"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "0ade7dd8ee67a10561f09d0679b0955b6074cc07524c066738b5bfd8c2b4e6cd",
+          "hash": "95fe91842358d78dfe2cd33d628a026957e325d1b6305425417b85576aaddeb0"
+        },
+        {
+          "seq": 6,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-COMPLETION-H-LATENCY-PLUS1"
+          },
+          "previous_hash": "95fe91842358d78dfe2cd33d628a026957e325d1b6305425417b85576aaddeb0",
+          "hash": "919b1ba10f7e5a5a7ea8052563fb6aab839c93a7914754add3dc9dc8ca10a9de"
+        },
+        {
+          "seq": 7,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "919b1ba10f7e5a5a7ea8052563fb6aab839c93a7914754add3dc9dc8ca10a9de",
+          "hash": "a61c0d099b723469bf1682e771f65f59cec53135b41abb0989d0cb790c3ba082"
+        },
+        {
+          "seq": 8,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "a61c0d099b723469bf1682e771f65f59cec53135b41abb0989d0cb790c3ba082",
+          "hash": "3f72b515a4524d362954b502d1083fe860f796d1e7218ae5817e9b792e7da0a0"
+        },
+        {
+          "seq": 9,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "3f72b515a4524d362954b502d1083fe860f796d1e7218ae5817e9b792e7da0a0",
+          "hash": "a0bac7931cee8c753fafce90d06ee3a9e9dcd69a3d0fb64b696fce53dec3fe2b"
+        },
+        {
+          "seq": 10,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "a0bac7931cee8c753fafce90d06ee3a9e9dcd69a3d0fb64b696fce53dec3fe2b",
+          "hash": "4d710fca1eac63a33f1891152a6199abb138b474e1a266e61c84e92d9f1b0d14"
+        },
+        {
+          "seq": 11,
+          "operation_id": "COMPLETION-H-LATENCY-PLUS1",
+          "tick": 6,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "APPLICATION_TOO_LATE_OR_OVER_BUDGET"
+            ]
+          },
+          "previous_hash": "4d710fca1eac63a33f1891152a6199abb138b474e1a266e61c84e92d9f1b0d14",
+          "hash": "6970418a5c5594ceb2b9fd8e6928eb562b9dc0544f68eaafb2b438a9f2e81a31"
+        }
+      ],
+      "oracle_verdict": {
+        "actual_effect_count": 0,
+        "violation_observed": false,
+        "sufficient_delivery": false,
+        "continuity_preserved": true,
+        "owner_ack_timely": true,
+        "case_preserved": true,
+        "effect_knowledge": "NOT_APPLIED",
+        "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+        "work_units": 15,
+        "controller_work_claim": 15,
+        "population_risk_rate": null,
+        "human_accuracy_rate": null,
+        "events": [
+          "FILED",
+          "SOURCE_PREPARATION_CHARGED",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "RESERVED",
+          "OWNER_ACK",
+          "RESERVED",
+          "REVIEW_COMPLETED",
+          "ACTION_DENIED"
+        ]
+      }
+    },
+    {
+      "id": "H-SOURCE-WORK3",
+      "input_gate_latency": 0,
+      "source_preparation_work": 3,
+      "sufficient_delivery": true,
+      "work": 20,
+      "controller_reasons": [],
+      "applied_at": 7,
+      "delivery_at": 8,
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "705f56a3805c76681a10ba65016e58b54704cd6718b3797b00e3945de949ab93"
+        },
+        {
+          "seq": 2,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 3
+          },
+          "previous_hash": "705f56a3805c76681a10ba65016e58b54704cd6718b3797b00e3945de949ab93",
+          "hash": "19e26ed6b816e7358b292f9adbadfc40f40bfbf27eef8a3f5e09e4780c8882b2"
+        },
+        {
+          "seq": 3,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-SOURCE-WORK3",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-SOURCE-WORK3"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "19e26ed6b816e7358b292f9adbadfc40f40bfbf27eef8a3f5e09e4780c8882b2",
+          "hash": "fd1c5316aef52c55b29abc958524793ae1f2cc5296a5ca3ba24b3324d2d9a7d0"
+        },
+        {
+          "seq": 4,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-COMPLETION-H-SOURCE-WORK3"
+          },
+          "previous_hash": "fd1c5316aef52c55b29abc958524793ae1f2cc5296a5ca3ba24b3324d2d9a7d0",
+          "hash": "fd86229ac02f0e2eac0ce872bf5e6f0cf8cf0a37e079371fc61968838d95953d"
+        },
+        {
+          "seq": 5,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-SOURCE-WORK3",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-SOURCE-WORK3"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "fd86229ac02f0e2eac0ce872bf5e6f0cf8cf0a37e079371fc61968838d95953d",
+          "hash": "475ef948aec1db64a404c77e4e70d296c8f0a2bdd01158b209cbcda1c674b273"
+        },
+        {
+          "seq": 6,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-COMPLETION-H-SOURCE-WORK3"
+          },
+          "previous_hash": "475ef948aec1db64a404c77e4e70d296c8f0a2bdd01158b209cbcda1c674b273",
+          "hash": "0e80e4cd24dbcaf445deeb3f922fa21c2fae5c18a458f1bab3fff8080629ced4"
+        },
+        {
+          "seq": 7,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "0e80e4cd24dbcaf445deeb3f922fa21c2fae5c18a458f1bab3fff8080629ced4",
+          "hash": "5140ee0c925e7cd5a9714f682e6b8816edf2fae02ffd29cb599bef4be17759ec"
+        },
+        {
+          "seq": 8,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "5140ee0c925e7cd5a9714f682e6b8816edf2fae02ffd29cb599bef4be17759ec",
+          "hash": "40f31c1aa602eda3a8694482aa9c0a1c4f0e09ba1503e073d972c5860dc44c19"
+        },
+        {
+          "seq": 9,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "40f31c1aa602eda3a8694482aa9c0a1c4f0e09ba1503e073d972c5860dc44c19",
+          "hash": "c7e6062a3af5518abffb1f50ce1ac9223b10626200c022513a6a8962438f06e4"
+        },
+        {
+          "seq": 10,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "c7e6062a3af5518abffb1f50ce1ac9223b10626200c022513a6a8962438f06e4",
+          "hash": "7ac8bbaef48b8586bf721793542fc239491129867a66b706bcab396163e1be04"
+        },
+        {
+          "seq": 11,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 7,
+          "kind": "EFFECT_APPLIED",
+          "detail": {
+            "action": "Y",
+            "epoch": 43,
+            "resource": "actuator-A"
+          },
+          "previous_hash": "7ac8bbaef48b8586bf721793542fc239491129867a66b706bcab396163e1be04",
+          "hash": "7b5833a11d068812eef587b77d061a5136642f653aaca57f77c3bb0990550e60"
+        },
+        {
+          "seq": 12,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 7,
+          "kind": "EFFECT_CONFIRMED",
+          "detail": {
+            "method": "local digital effect receipt"
+          },
+          "previous_hash": "7b5833a11d068812eef587b77d061a5136642f653aaca57f77c3bb0990550e60",
+          "hash": "b4628350e17a8c555e1cbd5f41e528f4dea524e471a4f5d4f9e8e34a1439fa14"
+        },
+        {
+          "seq": 13,
+          "operation_id": "COMPLETION-H-SOURCE-WORK3",
+          "tick": 8,
+          "kind": "QUALIFIED_REENTRY_AND_DELIVERY",
+          "detail": {},
+          "previous_hash": "b4628350e17a8c555e1cbd5f41e528f4dea524e471a4f5d4f9e8e34a1439fa14",
+          "hash": "5ea6653749e50d2a230ebc109f0d4d9ef4beaf770c479cc822bb60eeb9e83c82"
+        }
+      ],
+      "oracle_verdict": {
+        "actual_effect_count": 1,
+        "violation_observed": false,
+        "sufficient_delivery": true,
+        "continuity_preserved": true,
+        "owner_ack_timely": true,
+        "case_preserved": true,
+        "effect_knowledge": "CONFIRMED",
+        "outcome": "DELIVERED",
+        "work_units": 20,
+        "controller_work_claim": 20,
+        "population_risk_rate": null,
+        "human_accuracy_rate": null,
+        "events": [
+          "FILED",
+          "SOURCE_PREPARATION_CHARGED",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "RESERVED",
+          "OWNER_ACK",
+          "RESERVED",
+          "REVIEW_COMPLETED",
+          "EFFECT_APPLIED",
+          "EFFECT_CONFIRMED",
+          "QUALIFIED_REENTRY_AND_DELIVERY"
+        ]
+      }
+    },
+    {
+      "id": "H-SOURCE-WORK4",
+      "input_gate_latency": 0,
+      "source_preparation_work": 4,
+      "sufficient_delivery": false,
+      "work": 18,
+      "controller_reasons": [
+        "APPLICATION_TOO_LATE_OR_OVER_BUDGET"
+      ],
+      "applied_at": null,
+      "delivery_at": null,
+      "events": [
+        {
+          "seq": 1,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 2,
+          "kind": "FILED",
+          "detail": {
+            "filer": "principal-A",
+            "standing_changed": false
+          },
+          "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "a2dfbaa8df57157fdf1007f875a597f8f433d7e97c8680ec6235211258c3f64b"
+        },
+        {
+          "seq": 2,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 2,
+          "kind": "SOURCE_PREPARATION_CHARGED",
+          "detail": {
+            "work_charge": 4
+          },
+          "previous_hash": "a2dfbaa8df57157fdf1007f875a597f8f433d7e97c8680ec6235211258c3f64b",
+          "hash": "078bd183787757406084d2579ad447bae6c88a16cca3260872f2846b85bff909"
+        },
+        {
+          "seq": 3,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-SOURCE-WORK4",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-SOURCE-WORK4"
+            },
+            "recipient": "agent-B",
+            "work_charge": 2
+          },
+          "previous_hash": "078bd183787757406084d2579ad447bae6c88a16cca3260872f2846b85bff909",
+          "hash": "ff6e4e0baed594c600e106ecb17e341f97d9ecf6aedd02021b297a555543e065"
+        },
+        {
+          "seq": 4,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-B",
+            "source_root": "evidence-COMPLETION-H-SOURCE-WORK4"
+          },
+          "previous_hash": "ff6e4e0baed594c600e106ecb17e341f97d9ecf6aedd02021b297a555543e065",
+          "hash": "99c607332430a4b881984d99a9658760836de423f58bd5d521fc9ce02b8b73e8"
+        },
+        {
+          "seq": 5,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 2,
+          "kind": "NOTIFICATION_SENT",
+          "detail": {
+            "message": {
+              "evidence_version": 1,
+              "operation_id": "COMPLETION-H-SOURCE-WORK4",
+              "resource": "actuator-A",
+              "source_root": "evidence-COMPLETION-H-SOURCE-WORK4"
+            },
+            "recipient": "agent-C",
+            "work_charge": 2
+          },
+          "previous_hash": "99c607332430a4b881984d99a9658760836de423f58bd5d521fc9ce02b8b73e8",
+          "hash": "bf0b7437ef21d1845a2b206a42afb8f8599f13a38ba60d7af83979893aaa8f36"
+        },
+        {
+          "seq": 6,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 2,
+          "kind": "PEER_RECEIPT",
+          "detail": {
+            "recipient": "agent-C",
+            "source_root": "evidence-COMPLETION-H-SOURCE-WORK4"
+          },
+          "previous_hash": "bf0b7437ef21d1845a2b206a42afb8f8599f13a38ba60d7af83979893aaa8f36",
+          "hash": "991e15d0daecad3b9e717ac78b1dcd1e29bf08237e67e2030fc362b277f73925"
+        },
+        {
+          "seq": 7,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 2,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 3,
+            "kind": "ack",
+            "subject": "H2"
+          },
+          "previous_hash": "991e15d0daecad3b9e717ac78b1dcd1e29bf08237e67e2030fc362b277f73925",
+          "hash": "c17a0ab14d86e4dabb45728b29bad3ceb0cc248c1013587e0b63421b9639840b"
+        },
+        {
+          "seq": 8,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 3,
+          "kind": "OWNER_ACK",
+          "detail": {
+            "owner": "H2"
+          },
+          "previous_hash": "c17a0ab14d86e4dabb45728b29bad3ceb0cc248c1013587e0b63421b9639840b",
+          "hash": "2ec953a4fc43e193cc18029f92549a7fd634a712e765418de0d70db376c875a0"
+        },
+        {
+          "seq": 9,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 3,
+          "kind": "RESERVED",
+          "detail": {
+            "finish": 6,
+            "kind": "review",
+            "subject": "H2"
+          },
+          "previous_hash": "2ec953a4fc43e193cc18029f92549a7fd634a712e765418de0d70db376c875a0",
+          "hash": "05df58ca6acc8a717e419c76f445ae703201aa2fccb1acbe5cefa2652e22251d"
+        },
+        {
+          "seq": 10,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 6,
+          "kind": "REVIEW_COMPLETED",
+          "detail": {
+            "choice": "Y",
+            "reviewer": "H2"
+          },
+          "previous_hash": "05df58ca6acc8a717e419c76f445ae703201aa2fccb1acbe5cefa2652e22251d",
+          "hash": "5e0f60b89323ad55748cab7ed4cbdf0b991959d40a94016447bea351b78abe9f"
+        },
+        {
+          "seq": 11,
+          "operation_id": "COMPLETION-H-SOURCE-WORK4",
+          "tick": 6,
+          "kind": "ACTION_DENIED",
+          "detail": {
+            "reasons": [
+              "APPLICATION_TOO_LATE_OR_OVER_BUDGET"
+            ]
+          },
+          "previous_hash": "5e0f60b89323ad55748cab7ed4cbdf0b991959d40a94016447bea351b78abe9f",
+          "hash": "834a7cef91267168a679650c723feefe56e60d1ceece5481640c2b8c7ca6de1c"
+        }
+      ],
+      "oracle_verdict": {
+        "actual_effect_count": 0,
+        "violation_observed": false,
+        "sufficient_delivery": false,
+        "continuity_preserved": true,
+        "owner_ack_timely": true,
+        "case_preserved": true,
+        "effect_knowledge": "NOT_APPLIED",
+        "outcome": "UNRESOLVED_OR_NOT_DELIVERED",
+        "work_units": 18,
+        "controller_work_claim": 18,
+        "population_risk_rate": null,
+        "human_accuracy_rate": null,
+        "events": [
+          "FILED",
+          "SOURCE_PREPARATION_CHARGED",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "NOTIFICATION_SENT",
+          "PEER_RECEIPT",
+          "RESERVED",
+          "OWNER_ACK",
+          "RESERVED",
+          "REVIEW_COMPLETED",
+          "ACTION_DENIED"
+        ]
+      }
+    }
+  ],
+  "stamp_stpa": [
+    {
+      "id": "T-TRUTHFUL-MODEL",
+      "outcome": "I",
+      "hazards": [],
+      "commands": {
+        "stop": true,
+        "entry": true,
+        "defer": false,
+        "trace": [
+          "stop-requested",
+          "stop-confirmed"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 1,
+          "feedback_checks": 1
+        }
+      },
+      "actual_plant_callback_calls": 1,
+      "diagnostic": null
+    },
+    {
+      "id": "T-FALSE-CURRENT-OBSERVATION",
+      "outcome": "P",
+      "hazards": [
+        "H1-energized-maintenance"
+      ],
+      "commands": {
+        "stop": false,
+        "entry": true,
+        "defer": false,
+        "trace": [
+          "already-stopped",
+          "stop-confirmed"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 0,
+          "feedback_checks": 1
+        }
+      },
+      "actual_plant_callback_calls": 0,
+      "diagnostic": "Outside the original truthful process-model assumption; not a STPA method/vendor failure"
+    }
+  ],
+  "spiffe_jwt": [
+    {
+      "id": "S-BEFORE-EXP",
+      "identity_accepted": true,
+      "validation_time": 1791298919,
+      "application_time": 1791298919,
+      "expiration": 1791298920,
+      "in_memory_effect_returned": true,
+      "reason": "delivery-confirmed",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_digest": "89b83cef03d7747d76d07b45377199b2c035d5918e012c98eac7eb879e0033e7",
+      "diagnostic": null
+    },
+    {
+      "id": "S-AT-EXP",
+      "identity_accepted": false,
+      "validation_time": 1791298920,
+      "application_time": 1791298920,
+      "expiration": 1791298920,
+      "in_memory_effect_returned": false,
+      "reason": "expired",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_digest": "89b83cef03d7747d76d07b45377199b2c035d5918e012c98eac7eb879e0033e7",
+      "diagnostic": null
+    },
+    {
+      "id": "S-CLAIM-REUSE-LATER",
+      "identity_accepted": true,
+      "validation_time": 1791298800,
+      "application_time": 1791298921,
+      "expiration": 1791298920,
+      "in_memory_effect_returned": true,
+      "reason": "delivery-confirmed",
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_digest": "89b83cef03d7747d76d07b45377199b2c035d5918e012c98eac7eb879e0033e7",
+      "diagnostic": "Original receiver has no use-time/session freshness predicate. At-effect temporal admissibility is not established; no rescore of fixed-validation-clock results."
+    }
+  ],
+  "rats_jws": [
+    {
+      "id": "R-STABLE-SOURCE",
+      "qualified_return": true,
+      "source_digest_at_read": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+      "actual_source_digest_after_return": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+      "file_matches_return": true,
+      "work": {
+        "file_hash_reads": 2,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "application_confirmation": "fixture Boolean; no external actuation executed",
+      "instrumentation": "unchanged read callback",
+      "diagnostic": null
+    },
+    {
+      "id": "R-READ-USE-RACE",
+      "qualified_return": true,
+      "source_digest_at_read": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+      "actual_source_digest_after_return": "bb4128c64f2f647c6ca6b22e77d7c7f352424790af9e82b507f75758165a7491",
+      "file_matches_return": false,
+      "work": {
+        "file_hash_reads": 2,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "application_confirmation": "fixture Boolean; no external actuation executed",
+      "instrumentation": "read-then-mutate callback",
+      "diagnostic": "Controlled local file mutation after a truthful read. Returned tuple and fixture applied flag are not measured external actuation/atomicity."
+    }
+  ],
+  "status": "PASS_PREREGISTERED_BOUNDARY_EXPECTATIONS",
+  "boundary_case_count": 15
+}

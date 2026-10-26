@@ -1,0 +1,60 @@
+{
+  "schema": "DDS-CURRENT-STUDY-RECORD-0.1",
+  "documentation_revision": "0.4",
+  "date": "2026-10-07",
+  "canonical_method_index": "../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "stage": "A",
+  "coverage": "Simplified",
+  "state": "COMPLETE_WITHIN_DECLARED_LOCAL_QUESTION",
+  "question": "Can the bounded objection/review/authority/effect composition deliver under its declared capacity, time and work contract?",
+  "technology_configuration_and_evidence_ceiling": "finite SQLite/analytical human-escalation companion; no actual human/native campaign",
+  "human_scenarios_and_parameters": "RUN_CARD.json; original context and parameter mapping in the current report",
+  "step1": {
+    "state": "PERFORMED_WITHIN_SCOPE",
+    "transfer": "Declared bounded local/analytical correspondence; native isomorphism/all-policy transfer not established",
+    "reference": "../dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md"
+  },
+  "step2": {
+    "state": "PERFORMED_WITHIN_SCOPE",
+    "mechanisms_producers_burden_interactions_falsifiers": "../dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md"
+  },
+  "extension": "../HUMAN_ESCALATION_WHISPERING.md",
+  "report": "../dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
+  "original_registration": "RUN_CARD.json",
+  "original_freeze": "FREEZE.json",
+  "current_diagnostics": "../cost-type-diagnostics-v0.1/runs/2026-10-07-03/hew.json",
+  "prior_M_admission": "../cost-type-diagnostics-v0.1/runs/2026-10-07-03/M_ADMISSION_BEFORE_CANDIDATES.json",
+  "cost_type_explanation": "COST_TYPE_DIAGNOSTICS_2026-10-07.md",
+  "selected_operations": 21,
+  "separate_controls": 2,
+  "Type1": {
+    "numerator": 0,
+    "denominator": 11,
+    "fraction": "0",
+    "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+    "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+  },
+  "Type2": {
+    "numerator": 1,
+    "denominator": 21,
+    "fraction": "1/21",
+    "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+    "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+  },
+  "P_without_Type2": 0,
+  "cost": {
+    "unit": "selected actual actor API units, profile-specific; HEW primary retains model-work tariff",
+    "minimum_domain": "frozen qualifying/reference G only",
+    "global_accessible_optimum": "NOT_ESTABLISHED",
+    "money_lifecycle_human": "UNSCORED",
+    "cross_technology_ranking": false
+  },
+  "baseline": "Same-information conventional qualified/reference procedures fully credited; no superiority claim",
+  "risk_effectiveness_business_value_acceptance_limits": "../dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
+  "delivery": "Scoped research question/documentation complete; commissioned six-output SOW fulfilment not asserted",
+  "Stage_B_C": "NOT_ESTABLISHED",
+  "population_estimate": false,
+  "independent_validation": false,
+  "historical_crosswalks": "Dated 6 October coverage and original cards describe their original evidence; this record supplies current navigation/diagnostics without rewriting them",
+  "sole_human_component": "01K-A01 HC-HID; HEW is its containing study, not a second component specification"
+}

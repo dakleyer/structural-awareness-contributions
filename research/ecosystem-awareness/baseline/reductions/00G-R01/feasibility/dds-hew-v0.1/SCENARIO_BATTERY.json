@@ -1,0 +1,721 @@
+{
+  "version": "0.2",
+  "date": "2026-10-06",
+  "status": "INTERNAL PROSPECTIVE SCENARIO CATALOGUE — NOT FROZEN, NOT EXECUTED",
+  "purpose": "Human-readable problem descriptions linked to formal scenario inputs; broaden coverage without transferring the original H1 result to different laws.",
+  "namespace": "HEW-local scenario families and instances; not new UC21 top-level families, R01 traversal labels, DBC arms or run IDs",
+  "source_cut": "65517160658e6485f2dd63415a7365674e9bd6ea",
+  "sources": [
+    {
+      "title": "R01 Human Escalation and Whispering, math0.1 / virtual0.3",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/65517160658e6485f2dd63415a7365674e9bd6ea/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md"
+    },
+    {
+      "title": "R01 Technology Extension Protocol0.3",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/65517160658e6485f2dd63415a7365674e9bd6ea/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md"
+    }
+  ],
+  "terminology": {
+    "problem": "Task/mandate, worlds and law, sufficient quality, horizon, actual violation and accounting rule (x in R01).",
+    "scenario_family": "A declared type of problem/conditions grouped by material mechanism; a working selection taxonomy, not a coverage proof.",
+    "scenario": "Human description together with an explicit formal problem/environment/acceptance instance; narrative alone is not an executable contract.",
+    "problem_and_environment_parameters": "Facts, information/world law, eligible pool/workload, permitted mission constraints and useful windows; changes define another declared instance or an admitted environmental variation.",
+    "acceptance_thresholds": "Budget b, maximum risk delta and sufficient-delivery target p; frozen separately and held across a matched comparison.",
+    "technology_configuration": "Implementation/version and admitted controls, sources, permissions, resources, internal settings; complete theta(x,t) includes problem and technology, not technology settings alone.",
+    "strategy_or_controller": "Decision procedure actually used within the admitted configuration; record internal choices such as beta.",
+    "comparison_arm": "A compared configuration with/without an admitted mechanism; not the traversal label.",
+    "virtual_traversal": "R01 R1 competent reference, R2 declared mechanism plus quality plan, R3 changed conditions with R2 controller frozen.",
+    "run": "One identified frozen walkthrough/traversal/execution and its evidence record; virtual and executed modes remain distinct.",
+    "episode": "One modeled occurrence/history under a declared law; a probability over episodes is not a measured human rate."
+  },
+  "numerical_provenance": {
+    "a_0_99": "Historical virtual world law P(chi=0)=0.99, not measured deployment prevalence.",
+    "q_0_90": "Historical useful-source certificate probability conditional on chi=1 before the effect, with no false positives; not human resolution accuracy.",
+    "p_0_95": "Historical minimum sufficient legitimate-delivery target; R1 selected control and R2 construction each have s=0.95, with different risk/cost.",
+    "human_correct_on_applicable_witness": "Hypothesis in original virtual H1 profile, not empirical calibration.",
+    "h_20": "Historical abstract complete phase tariff, not20 minutes or EUR20.",
+    "calendar_ticks": "Shared separate case uses illustrative integer time; not original R01 cost units or calibrated minutes.",
+    "prospective_values": "Every new example/range below is synthetic selection material; an applied study needs source/calibration and a new freeze."
+  },
+  "design_rules": [
+    "Do not count a numerical sweep as multiple different human problem types.",
+    "Give every scenario actors, human decision, useful objective, governing constraint, source/access, timing, alternative and observable effect.",
+    "Keep problem/environment, acceptance thresholds, technology configuration and observations distinct, even when a parameter depends on several producers.",
+    "For q or latency, state whether it is a source-law assumption, environmental effective value, implementation setting or measured output.",
+    "Strong peers receive the same declared facts, pool, authority and resources except admitted mechanism differences; new evidence/personnel are charged and attributed.",
+    "Freeze R2 before R3; redesigning the controller after a failure creates another declared configuration/run.",
+    "Do not transfer H1/parity results to false-positive, fallible-review, multi-job or other laws without a new correspondence/proof.",
+    "Publish results by scenario, configuration, traversal and run; no pooled percentage without a preregistered weighting/population rule.",
+    "An admissible perfect affordable source can solve a bounded profile; no required universal residual.",
+    "This catalogue is a research battery proposal and does not expand a commissioned DDS SOW or close existing admission gates."
+  ],
+  "families": [
+    {
+      "id": "HEW-SF-01",
+      "title": "Global rule and useful alert",
+      "problem_question": "Can a useful sufficient alert make a high-quality legitimate route affordable under the original information law?",
+      "structural_difference": "Historical H1/parity family; interpretation of a global property requires the declared full law. A single local fact is not assumed sufficient.",
+      "parameter_meaning": {
+        "a": "world prevalence law",
+        "K": "number of charged normative data needed by this predicate",
+        "q": "useful certificate coverage conditional on chi=1",
+        "h": "complete phase cost",
+        "b_delta_p": "acceptance thresholds"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-01A",
+          "human_narrative": "Un equipo de agentes debe elegir una de dos rutas de calidad suficiente según una regla global. Antes de aplicar la ruta, una fuente autorizada puede aportar un certificado completo; el humano lo revisa y ordena la alternativa cuando corresponde.",
+          "illustrative_inputs": {
+            "law": "published H1 contract",
+            "L": 2,
+            "N": 3,
+            "K": 100,
+            "a": 0.99,
+            "q": 0.9,
+            "h": 20,
+            "b": 50,
+            "delta": 0.001,
+            "p": 0.95,
+            "B": 140,
+            "T": 180
+          },
+          "contrast_to_pair": "Published favorable virtual profile; no claim of a real workplace calibration.",
+          "questions_and_checks": [
+            "Preserve no-false-positive and timely/correct-human hypotheses",
+            "Charge source/preparation and complete effect path",
+            "Retain competent informed reference and legitimate lower-quality alternative"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-01B",
+          "human_narrative": "El mismo equipo y procedimiento afrontan menor disponibilidad útil de la fuente. Algunas situaciones que requieren la alternativa terminan sin certificado, aunque el humano y el canal sigan presentes.",
+          "illustrative_inputs": {
+            "law": "published R3-A condition",
+            "q": 0.8,
+            "frozen_R2_beta": "941/990",
+            "other_inputs": "same as01A"
+          },
+          "contrast_to_pair": "Only the environmental useful-source coverage changes in this historical traversal.",
+          "questions_and_checks": [
+            "Retain the frozen controller",
+            "Report insufficient efficacy and risk separately",
+            "Do not call a source miss a measured human error"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Published R01 R1/R2/R3-A and parameterized H1 region, not a new campaign.",
+      "required_next_evidence": [
+        "Human-domain correspondence and actual source tariff/coverage",
+        "Useful-source calibration before deployment claims",
+        "New parameter instances must satisfy physical/time hypotheses"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-02",
+      "title": "Competing critical duty and eligible backup",
+      "problem_question": "Is enough qualified authorized review time really available before the useful deadline?",
+      "structural_difference": "Scheduling/capacity law rather than only useful-alert probability.",
+      "parameter_meaning": {
+        "arrival": "case arrival",
+        "review_service": "uninterrupted eligible reviewer work",
+        "busy_intervals": "protected existing obligations",
+        "reviewer_pool": "actual eligibility and review authority",
+        "deadlines": "ack/decision/application/delivery separately"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-02A",
+          "human_narrative": "H1 atiende una obligación crítica que no puede interrumpir. Una objeción nueva necesita tres unidades de revisión; H2 está cualificado y autorizado y puede reservar ese trabajo a tiempo.",
+          "illustrative_inputs": {
+            "arrival": 2,
+            "review_service": 3,
+            "H1_busy": [
+              [
+                1,
+                10
+              ]
+            ],
+            "H2": "qualified,authorized,free",
+            "decision_deadline": 6,
+            "application_deadline": 7,
+            "delivery_deadline": 8,
+            "units": "illustrative ticks"
+          },
+          "contrast_to_pair": "Same pool must be available to the static-backup and capacity-aware comparison arms.",
+          "questions_and_checks": [
+            "Reserve only actual eligible time",
+            "Include acknowledgement and added control latency",
+            "Retain static reserved backup as a potentially equal or cheaper peer"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-02B",
+          "human_narrative": "La misma objeción llega mientras H1 sigue ocupado, pero no hay otro revisor cualificado y autorizado. El canal puede registrar el caso y acusarlo sin poder resolverlo dentro de la ventana.",
+          "illustrative_inputs": {
+            "arrival": 2,
+            "review_service": 3,
+            "H1_busy": [
+              [
+                1,
+                10
+              ]
+            ],
+            "H2": "absent or ineligible",
+            "decision_deadline": 6,
+            "units": "illustrative ticks"
+          },
+          "contrast_to_pair": "Pool/eligibility changes across scenario instances, not hidden across comparison arms.",
+          "questions_and_checks": [
+            "Separate acknowledgement from substantive review",
+            "Preserve case and insufficiency",
+            "Do not interrupt H1 or invent staffing"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Shared14-case calendar fixture; not native human evidence.",
+      "required_next_evidence": [
+        "Actual calendars/workload and qualification",
+        "Reservation/admission concurrency",
+        "Measured review-demand variation"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-03",
+      "title": "Burst load and shared reviewer reservation",
+      "problem_question": "Can several individually plausible escalations all receive timely review without double counting capacity?",
+      "structural_difference": "Multiple-job queue/reservation contract; single-job feasibility does not establish joint feasibility.",
+      "parameter_meaning": {
+        "jobs": "arrival/service/deadline per case",
+        "pool": "eligible shared reviewers",
+        "reservation_policy": "technology strategy",
+        "priority": "owner-declared rule",
+        "preemption": "explicit permission"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-03A",
+          "human_narrative": "Una persona autorizada recibe dos objeciones con ventanas suficientemente separadas. Puede revisar ambas sin desplazar la obligación anterior.",
+          "illustrative_inputs": {
+            "reviewer_count": 1,
+            "jobs": [
+              {
+                "arrival": 2,
+                "service": 3,
+                "decision_deadline": 6
+              },
+              {
+                "arrival": 5,
+                "service": 3,
+                "decision_deadline": 9
+              }
+            ],
+            "preemption": false,
+            "units": "illustrative ticks"
+          },
+          "contrast_to_pair": "Sequential positive instance.",
+          "questions_and_checks": [
+            "Check both timelines jointly",
+            "Attribute shared reviewer work once",
+            "Preserve each case's authority and result"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-03B",
+          "human_narrative": "Dos objeciones llegan a la vez y ambas prometen la misma franja del único revisor. Cada una parece viable aislada, pero las dos no caben antes de sus plazos.",
+          "illustrative_inputs": {
+            "reviewer_count": 1,
+            "jobs": [
+              {
+                "arrival": 2,
+                "service": 3,
+                "decision_deadline": 6
+              },
+              {
+                "arrival": 2,
+                "service": 3,
+                "decision_deadline": 6
+              }
+            ],
+            "preemption": false,
+            "units": "illustrative ticks"
+          },
+          "contrast_to_pair": "Arrival overlap changes; counting isolated passes is invalid.",
+          "questions_and_checks": [
+            "No double reservation",
+            "Owner priority/fallback rather than dropped filing",
+            "Compare strong admission/reservation peer"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Multi-job construction proposed; existing6048 calendar checks do not execute a multi-job scheduler.",
+      "required_next_evidence": [
+        "Declared queue/oracle",
+        "Reserve/cancel/reassign state law",
+        "Burst/service-time distributions if probabilistic claims are planned"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-04",
+      "title": "Partial, erroneous or correlated evidence",
+      "problem_question": "Does the alert actually justify the decision and does sharing add information?",
+      "structural_difference": "False-positive/partial-scope/correlation laws can violate H1 hypotheses and require separate analysis.",
+      "parameter_meaning": {
+        "coverage": "material propositions/resources actually covered",
+        "false_alert_law": "requires explicit distribution if rates are used",
+        "lineage": "shared versus independent origin",
+        "validity": "case/rule/version/time",
+        "predicate": "what makes a witness sufficient"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-04A",
+          "human_narrative": "El humano recibe una evidencia actual que cubre la condición material de esta operación. Los destinatarios reciben la misma procedencia y conocen exactamente qué sostiene.",
+          "illustrative_inputs": {
+            "receipt_scope": "complete for declared operation",
+            "current_version": true,
+            "lineage": "one identified source; copies not independent"
+          },
+          "contrast_to_pair": "Positive scope/lineage construction.",
+          "questions_and_checks": [
+            "Sufficient witness must be justified for this predicate",
+            "Preserve source and interpretation",
+            "Full charging of acquisition"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-04B",
+          "human_narrative": "Varios agentes repiten un aviso procedente de la misma fuente. El aviso solo cubre parte de la operación, o se refiere a otra versión; la cantidad de mensajes puede aparentar una confirmación más amplia.",
+          "illustrative_inputs": {
+            "receipt_scope": "partial or different version",
+            "current_version": false,
+            "lineage": "same root source",
+            "false_positive_rate": "NOT ASSIGNED; needs separate source law"
+          },
+          "contrast_to_pair": "Changed coverage/validity/lineage, not an arbitrary lower human success rate.",
+          "questions_and_checks": [
+            "Do not aggregate copies as independent evidence",
+            "Preserve uncertainty and case",
+            "Allow corrected sufficient evidence if useful"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "R3-B/C and shared source-scope/UNKNOWN witnesses; no calibrated erroneous-source campaign.",
+      "required_next_evidence": [
+        "Exact predicate and source interpretation",
+        "False-positive/correlation law or recorded cases",
+        "Strong competent evidence-validation comparator"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-05",
+      "title": "Human interpretation and decision error",
+      "problem_question": "How reliable is the human's use of sufficient evidence, separately from source coverage?",
+      "structural_difference": "Original H1 assumes correct selection on an applicable witness; fallible human decisions need a new admitted law/empirical profile.",
+      "parameter_meaning": {
+        "source_coverage": "separate from human review",
+        "review_demand": "work required to understand case",
+        "competence": "supported case class",
+        "selected_action": "actual decision",
+        "human_correctness": "unmeasured; not inferred from q",
+        "decision_validity": "current case/version"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-05A",
+          "human_narrative": "Una persona con competencia para este tipo de incidente interpreta el certificado aplicable y selecciona la alternativa permitida. El sistema registra qué evidencia y alcance usó.",
+          "illustrative_inputs": {
+            "source_coverage": "declared separately",
+            "human_decision": "correct for supplied sufficient evidence",
+            "correct_review_probability": "NOT CALIBRATED"
+          },
+          "contrast_to_pair": "Conditional positive, not a measured perfect-human claim.",
+          "questions_and_checks": [
+            "Record response and basis",
+            "Preserve independent action authority",
+            "Observe effect"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-05B",
+          "human_narrative": "El certificado llega correctamente y a tiempo, pero la persona interpreta mal su alcance o selecciona una acción equivocada. La presencia del humano no corrige automáticamente esa decisión.",
+          "illustrative_inputs": {
+            "source_coverage": "same as05A",
+            "human_decision": "misinterpretation or wrong selection",
+            "correct_review_probability": "NOT ASSIGNED; prospective study required"
+          },
+          "contrast_to_pair": "Human interpretation changes while the source remains the same.",
+          "questions_and_checks": [
+            "Separate source miss, review error and application error",
+            "Evaluate additional-check burden and timing",
+            "No q-times-human-rate formula without a declared dependence law"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "New fallible-review profile; not covered by treating q as human accuracy.",
+      "required_next_evidence": [
+        "Case-specific competence and truth/oracle",
+        "Ethically and operationally admitted review observations",
+        "Own source and error-dependence calibration"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-06",
+      "title": "Scoped delegation and current authority",
+      "problem_question": "Does the decision authorize this principal/deputy/resource/action at effect time?",
+      "structural_difference": "Authority integrity and propagation contract; valid identity/alert does not supply a grant.",
+      "parameter_meaning": {
+        "principal": "party whose authority is relied on",
+        "deputy": "acting service",
+        "decision_resource_action": "scope binding",
+        "policy_version": "current governing rule",
+        "revocation": "observation and enforcement law"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-06A",
+          "human_narrative": "El humano autoriza una corrección específica del casoA sobre recursoA, y el servicio actúa bajo esa delegación vigente. La decisión y el efecto conservan la misma referencia.",
+          "illustrative_inputs": {
+            "principal": "A",
+            "case": "A",
+            "resource": "A",
+            "action": "approved correction",
+            "grant_active": true
+          },
+          "contrast_to_pair": "Positive current scoped delegation.",
+          "questions_and_checks": [
+            "Verify authority separately from identity",
+            "Retain receiving/resource checks",
+            "Permit legitimate continuation"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-06B",
+          "human_narrative": "El servicio tiene privilegios amplios y recibe una petición para otro recurso, o el permiso caduca antes de aplicar la corrección. Usar el privilegio propio del servicio produciría una intervención no justificada por esa decisión.",
+          "illustrative_inputs": {
+            "principal": "A",
+            "resource": "B or oldA grant",
+            "grant_active": false,
+            "service_identity": "still accepted"
+          },
+          "contrast_to_pair": "Resource/scope or current-grant mismatch.",
+          "questions_and_checks": [
+            "Strong scoped-delegation policy credited",
+            "Preserve authorized filing despite denied action",
+            "Declare revocation visibility and effect boundary"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Fencing/deputy20-case model and original authority/validity branches; no live grants.",
+      "required_next_evidence": [
+        "Real legitimate policy/issuer and receiving adapter",
+        "Current revocation contract",
+        "All material action paths"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-07",
+      "title": "Continuity and permissible pause",
+      "problem_question": "Can the escalation obtain useful time without violating another service obligation?",
+      "structural_difference": "Admissible action set and continuity/handover feasibility; safe shutdown is not assumed by label.",
+      "parameter_meaning": {
+        "critical_obligation": "must continue within declared limits",
+        "actions": "owner-authorized pause/handover/alternative",
+        "handover_latency": "required useful time",
+        "resources": "means for the alternative",
+        "window": "fixed decision horizon"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-07A",
+          "human_narrative": "El servicio que necesita revisión permite un traspaso breve a un respaldo. El humano puede mantener la continuidad mientras se evalúa y aplica la corrección.",
+          "illustrative_inputs": {
+            "pause": "permitted only after handover",
+            "backup": "admitted",
+            "handover_latency": "to measure",
+            "continuity_required": true
+          },
+          "contrast_to_pair": "Qualified permitted transition.",
+          "questions_and_checks": [
+            "Charge backup/handover",
+            "Confirm actual takeover",
+            "Observe continuity and return"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-07B",
+          "human_narrative": "Parar el servicio incumpliría una obligación crítica y no se ha establecido una alternativa autorizada que quepa en la ventana. El aviso debe conservarse aunque todavía no exista reparación útil.",
+          "illustrative_inputs": {
+            "pause": "not permissible under current obligation",
+            "backup": "not established",
+            "continuity_required": true
+          },
+          "contrast_to_pair": "No established feasible transition; not proof that every possible alternative is impossible.",
+          "questions_and_checks": [
+            "Separate supported absence from unknown alternatives",
+            "No blanket shutdown victory",
+            "Study authorized fallback and lost useful outcome"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Published R3-F and two-obligation case; not a universal impossibility.",
+      "required_next_evidence": [
+        "Actual objective/continuity contract and owner",
+        "Action library/alternative coverage",
+        "Resource and latency evidence"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-08",
+      "title": "Late effect, handover race and missing confirmation",
+      "problem_question": "Was the approved correction applied by the right executor, once as intended and in time?",
+      "structural_difference": "Effect-ordering/receipt/durability law; the outcome may remain unknown despite approval.",
+      "parameter_meaning": {
+        "generation": "ownership order for a particular resource",
+        "resource_floor": "last installed/accepted generation",
+        "atomic_boundary": "where validation and effect are joined",
+        "command_id": "retries/idempotency",
+        "effect_evidence": "separate from dispatch receipt"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-08A",
+          "human_narrative": "La corrección se aplica después de instalar el nuevo traspaso y comprobar la autorización. Una consulta o medición del efecto confirma lo ocurrido; el caso puede avanzar hacia reentrada.",
+          "illustrative_inputs": {
+            "new_generation": 43,
+            "resource_floor": 43,
+            "current_delegation": true,
+            "effect": "independently established"
+          },
+          "contrast_to_pair": "Positive applied and qualified result.",
+          "questions_and_checks": [
+            "Reject older generation42 after boundary",
+            "Preserve command identity",
+            "Charge confirmation latency"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-08B",
+          "human_narrative": "Una orden antigua llega durante el traspaso, o la corrección se ejecuta pero se pierde la respuesta. El humano ve una aprobación o timeout sin saber todavía qué ocurrió.",
+          "illustrative_inputs": {
+            "old_generation": 42,
+            "resource_floor": "42 before barrier,43 after",
+            "reply": "lost or delayed",
+            "effect": "UNKNOWN until reconciliation"
+          },
+          "contrast_to_pair": "Visibility/race or lost-response variation.",
+          "questions_and_checks": [
+            "Do not infer immediate revocation from issuer handover",
+            "Avoid blind irreversible retries",
+            "No success from acknowledgement alone"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Six model race interleavings and constructed restart/idempotency/path witnesses; no native transaction/durability test.",
+      "required_next_evidence": [
+        "Actual actuator/datastore and consistency boundary",
+        "Effect-reconciliation interface",
+        "Fault injection and timing under a registered native run"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-09",
+      "title": "Restart with persistent blind spot",
+      "problem_question": "Does restarting actually correct the basis, or only repeat the same unresolved risk?",
+      "structural_difference": "Campaign history/correlation and new-information contract; old clocks, cost and violations persist.",
+      "parameter_meaning": {
+        "attempt_count": "entire campaign attempts",
+        "information_delta": "what genuinely new permitted evidence arrives",
+        "correlation": "persistent/shared versus independent",
+        "case_history": "retained reporting and commitments",
+        "budget_clock": "not reset per attempt"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-09A",
+          "human_narrative": "Tras la objeción llega evidencia nueva y suficiente dentro del plazo. El humano y el controlador corrigen la base, invalidan el compromiso anterior y reanudan la alternativa autorizada.",
+          "illustrative_inputs": {
+            "information_delta": "sufficient and current",
+            "case_retained": true,
+            "clock_budget": "entire campaign"
+          },
+          "contrast_to_pair": "Legitimate corrected reentry.",
+          "questions_and_checks": [
+            "Name the actual new source",
+            "Preserve earlier effects and charges",
+            "Require current decision/authority"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-09B",
+          "human_narrative": "El equipo reinicia tres veces con la misma fuente y el mismo punto ciego. No aparece evidencia nueva; las notificaciones repetidas no hacen independiente cada intento.",
+          "illustrative_inputs": {
+            "attempt_count": 3,
+            "information_delta": "none",
+            "correlation": "persistent blind spot",
+            "case_retained": true
+          },
+          "contrast_to_pair": "Restart count changes; no improved detection law assumed.",
+          "questions_and_checks": [
+            "No(1-q)^m without conditional independence",
+            "Preserve all-policy bound only within its contract",
+            "Retain safe/unresolved continuation and full history"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Published H5/R3-G; not a restart product campaign.",
+      "required_next_evidence": [
+        "Defined dependence/history law",
+        "Real information added by each restart",
+        "Full campaign recording and permitted alternatives"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    },
+    {
+      "id": "HEW-SF-10",
+      "title": "Cross-domain interpretation and federation",
+      "problem_question": "Do the linked human/services mean the same operation, authority and validity when a case crosses organizations?",
+      "structural_difference": "Semantic integration contract; matching field names or identities is insufficient.",
+      "parameter_meaning": {
+        "domain_owners": "separate legitimate authority boundaries",
+        "scope_mapping": "case/decision/resource interpretation",
+        "units_and_time": "compatible timestamps/windows",
+        "version_mapping": "current native contracts",
+        "access_policy": "who may receive protected detail"
+      },
+      "scenarios": [
+        {
+          "id": "HEW-SC-10A",
+          "human_narrative": "Dos equipos reciben un caso común mediante una correspondencia documentada de decisión, recurso y vigencia. Cada uno conserva su autoridad y devuelve una respuesta con el alcance acordado.",
+          "illustrative_inputs": {
+            "scope_mapping": "documented for this operation",
+            "time_mapping": "declared",
+            "authority": "separate owners",
+            "protected_data": "minimum authorized disclosure"
+          },
+          "contrast_to_pair": "Compatible scoped exchange.",
+          "questions_and_checks": [
+            "Preserve original objects and provenance",
+            "Observe consumer interpretation and return",
+            "Attribute shared human work once"
+          ],
+          "status": "selection draft; not frozen or run"
+        },
+        {
+          "id": "HEW-SC-10B",
+          "human_narrative": "Un equipo interpreta 'aprobado' como autorización de actuar y el otro solo como revisión terminada. O usa otra ventana/versionado, mientras los mensajes parecen idénticos.",
+          "illustrative_inputs": {
+            "scope_mapping": "unestablished or conflicting",
+            "field_name": "approved",
+            "native_meanings": [
+              "review complete",
+              "action permission"
+            ],
+            "time_mapping": "unestablished"
+          },
+          "contrast_to_pair": "Semantic mismatch with authentic messages.",
+          "questions_and_checks": [
+            "No permission by field-name matching",
+            "Target compatibility requalification",
+            "Keep protected case and unaffected authorized operations"
+          ],
+          "status": "selection draft; not frozen or run"
+        }
+      ],
+      "existing_correspondence": "Existing01D/current architecture integration questions; documentary crosswalk, no federated HEW execution.",
+      "required_next_evidence": [
+        "Native producer/consumer contracts and qualified adapters",
+        "Actual cross-domain authority/privacy",
+        "Round-trip compatibility and drift cases"
+      ],
+      "review_status": "Draft scenario crosswalk only",
+      "new_results_executed": false
+    }
+  ],
+  "selection_plan": {
+    "initial_priority": [
+      "HEW-SF-01",
+      "HEW-SF-02",
+      "HEW-SF-03",
+      "HEW-SF-05",
+      "HEW-SF-06",
+      "HEW-SF-08"
+    ],
+    "parameter_sensitivity_candidates": {
+      "a": [
+        0.5,
+        0.8,
+        0.95,
+        0.99
+      ],
+      "q": [
+        0,
+        0.5,
+        0.8,
+        0.9,
+        1
+      ],
+      "K": [
+        10,
+        100,
+        1000
+      ],
+      "h": [
+        10,
+        20,
+        40
+      ]
+    },
+    "candidate_grid_warning": "Not a frozen Cartesian campaign. Check each point's world law, source production tariff, physical/time admission and comparable arms; cheap complete verification may make the strong reference sufficient.",
+    "structural_law_selection": "Keep H1 only where its hypotheses apply; register other predicates, false-positive, review-error, multi-job and authority/effect laws separately.",
+    "per_result_record": [
+      "scenario_id",
+      "source/problem law version",
+      "problem/environment parameters",
+      "acceptance thresholds",
+      "technology/configuration version",
+      "strategy/controller",
+      "virtual traversal namespace",
+      "run_id/evidence mode",
+      "cost/risk/effectiveness or separate deployment value",
+      "bounds and missing calibration"
+    ],
+    "population_rule": "No overall human percentage unless the target scenario mix, dependence, sampling/calibration and weighting are declared before analysis."
+  },
+  "public_provenance": "Public distribution omits private process-resource links. Earlier catalogue and exact frozen runs remain in local custody. Scenario laws, narrative descriptions and acceptance thresholds are unchanged."
+}

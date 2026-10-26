@@ -1,0 +1,106 @@
+{
+  "status": "PASS_PUBLISHED_BYTES_AND_CUSTODY",
+  "commit": "dcfebcefb7d84cdd0442633a755d130180305673",
+  "published_files": 21,
+  "preserved_original_files": 60,
+  "local_checks": {
+    "status": "PASS",
+    "candidate_files": 21,
+    "edition_files": 18,
+    "preserved_originals": 60,
+    "local_markdown_targets_checked": 65,
+    "release_payload_hashes_verified": 17,
+    "owning_history_preserved": true,
+    "old_results_rescored": false
+  },
+  "drive_completion": {
+    "status": "PASS_NATIVE_CONTENT_AND_STRUCTURE",
+    "document_id": "12SjtQXH9Ia051PD-jW5mBn6zK8wF3dALu_4wdTI0X50",
+    "matching_source_paragraphs": 121,
+    "native_tables": 9,
+    "native_cells": 119,
+    "dates": 1,
+    "rich_links": 1,
+    "source_report_files": [
+      "HEW_COMPLETION_REPORT.md",
+      "STPA_COMPLETION_REPORT.md",
+      "SPIFFE_COMPLETION_REPORT.md",
+      "RATS_COMPLETION_REPORT.md"
+    ],
+    "rendered_visual_inspection": false,
+    "notes": "Exact paragraph/cell/source findings and native heading/table/link structure checked. No PDF visual QA performed."
+  },
+  "drive_master": {
+    "status": "PASS",
+    "version": "0.8",
+    "prior_native_elements_preserved": true,
+    "new_completion_rich_link": true,
+    "authentic_backup_url": "https://docs.google.com/document/d/1AbOjjG8J1DLWDcG9NCk4p-9Q8DXCUy7LWkaPjDu4m1A/edit"
+  },
+  "exact_newline_attribute_checked": true,
+  "independent_validation": false,
+  "native_human_deployment_acceptance": false,
+  "ci_at_check": [
+    {
+      "name": "Documentation integrity",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37522760226",
+      "id": 37522760226
+    },
+    {
+      "name": "R01 version-aware audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37522760087",
+      "id": 37522760087
+    }
+  ],
+  "schema": "DDS-STUDY-COMPLETION-PUBLICATION-VERIFICATION-0.1",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "evidence_kind": "post-publication custody/delivery verification; not a preregistered run or regrading",
+  "scoped_research_delivery": "COMPLETED",
+  "full_commissioned_SOW_fulfilled": false,
+  "delivery_states": [
+    {
+      "object": 1,
+      "status": "NOT_APPLICABLE_SELF_RESEARCH",
+      "evidence": null
+    },
+    {
+      "object": 2,
+      "status": "SCOPED_RESEARCH_SUMMARY_PUBLISHED_AND_MIRRORED",
+      "evidence": "README.md",
+      "full_commissioned_10_15_page_report": false
+    },
+    {
+      "object": 3,
+      "status": "FOUR_SCOPED_TECHNICAL_RECORDS_PUBLISHED_AND_MIRRORED",
+      "evidence": [
+        "HEW_COMPLETION_REPORT.md",
+        "STPA_COMPLETION_REPORT.md",
+        "SPIFFE_COMPLETION_REPORT.md",
+        "RATS_COMPLETION_REPORT.md"
+      ],
+      "full_commissioned_30_35_page_package": false
+    },
+    {
+      "object": 4,
+      "status": "PUBLISHED_SCOPED_REPRODUCIBLE_RECORD_VERIFIED",
+      "evidence": "https://github.com/dakleyer/structural-awareness-contributions/commit/dcfebcefb7d84cdd0442633a755d130180305673"
+    },
+    {
+      "object": 5,
+      "status": "DOI_NOT_REQUESTED_OR_ISSUED",
+      "evidence": null
+    },
+    {
+      "object": 6,
+      "status": "RESEARCH_DRAFT_ONLY_NOT_SUBMITTED",
+      "evidence": "../dds-hew-v0.1/PRESTANDARDISATION_INPUT_DRAFT.md"
+    }
+  ],
+  "history_rule": "Preparatory states in the frozen DELIVERY_MAP.json remain authentic. This later record supplies observed publication/delivery evidence without changing those bytes, thresholds or original results.",
+  "owning_review": "README_VNext.md"
+}

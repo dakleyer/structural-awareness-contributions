@@ -1,0 +1,27 @@
+{
+  "input_commit": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+  "actual_utc": "2026-10-04T07:29:33.481026+00:00",
+  "kind": "documentary relocation and preservation, not scientific tests",
+  "new_scientific_executions": 0,
+  "moved_file_count": 40,
+  "byte_exact_moves": 34,
+  "moved_markdown_content_preserved_except_navigation": true,
+  "root_readme_all_prior_content_preserved_except_relocated_link_targets": true,
+  "root_readme_added_tracking_table_at_end": true,
+  "modified_unmoved_files": [
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md"
+  ],
+  "canonical_scenario_and_reductions_extensions_exports_figures_unchanged": true,
+  "historical_task_ids_preserved": 55,
+  "current_task_status_counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 6,
+    "OPEN": 45,
+    "BLOCKED": 0
+  },
+  "scientific_tasks_closed": [],
+  "relative_markdown_file_links_verified": 491
+}

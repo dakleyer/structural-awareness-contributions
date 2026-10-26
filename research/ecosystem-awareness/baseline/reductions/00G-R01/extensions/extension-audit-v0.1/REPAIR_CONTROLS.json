@@ -1,0 +1,130 @@
+{
+  "purpose": "Known-defect repair verification, with legitimate positive controls; selected after exploratory discovery, frozen before repaired replay",
+  "not_blind_independent_or_population": true,
+  "controls": [
+    {
+      "family": "structured-output",
+      "input_shapes": [
+        "array",
+        "null",
+        "number",
+        "string",
+        "NaN",
+        "overflowing numeric field"
+      ],
+      "expected": "controlled no-effect rejection"
+    },
+    {
+      "family": "MCP",
+      "inputs": [
+        "array",
+        "null",
+        "params array",
+        "meta array",
+        "boolean id"
+      ],
+      "expected": "structured rejection/no effect"
+    },
+    {
+      "family": "OAuth/OIDC",
+      "inputs": [
+        "header array",
+        "claims array",
+        "scope array",
+        "typ array",
+        "invalid signature base64url"
+      ],
+      "expected": "controlled rejection",
+      "positive": "valid selected token accepted"
+    },
+    {
+      "family": "SPIFFE/RATS shared JWS",
+      "inputs": [
+        "NaN expiry",
+        "positive infinite expiry",
+        "negative infinite expiry",
+        "kid array"
+      ],
+      "expected": "controlled rejection",
+      "positive": "finite valid selected JWS accepted"
+    },
+    {
+      "family": "SPIFFE",
+      "inputs": [
+        "wrong token type",
+        "malformed URI"
+      ],
+      "expected": "controlled rejection"
+    },
+    {
+      "family": "RATS",
+      "inputs": [
+        "missing signed-result measurement"
+      ],
+      "expected": "controlled rejection"
+    },
+    {
+      "family": "queues",
+      "mutants": [
+        "revoked",
+        "expired",
+        "other tenant",
+        "wrong effect/receipt operation"
+      ],
+      "expected": "P"
+    },
+    {
+      "family": "typed output",
+      "mutants": [
+        "claim without effect"
+      ],
+      "expected": "P"
+    },
+    {
+      "family": "cache",
+      "mutants": [
+        "answer without source binding"
+      ],
+      "expected": "P"
+    },
+    {
+      "family": "observability",
+      "mutants": [
+        "unauthorized actuation",
+        "reset condition",
+        "future sample",
+        "gap in interval"
+      ],
+      "expected": "P for unauthorized actuation; no recovery in timing controls"
+    },
+    {
+      "family": "workflow",
+      "mutants": [
+        "effect for wrong operation"
+      ],
+      "expected": "P"
+    },
+    {
+      "family": "HEW",
+      "mutants": [
+        "wrong effect resource",
+        "wrong effect epoch"
+      ],
+      "expected": "observed violation"
+    },
+    {
+      "family": "RAG",
+      "mutants": [
+        "answer without evidence binding"
+      ],
+      "expected": "P"
+    },
+    {
+      "family": "SQL",
+      "mutants": [
+        "effect despite denied grant in the fixed pre-use source law"
+      ],
+      "expected": "P"
+    }
+  ]
+}

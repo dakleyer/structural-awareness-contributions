@@ -1,0 +1,1391 @@
+{
+  "input_commit": "dbae916553166a29f9e756f8c7a6efdfa4c93c21",
+  "actual_utc": "2026-10-04T02:56:26.695243+00:00",
+  "kind": "same-agent documentary and dependency audit; no new scientific result",
+  "checks": {
+    "original_49_IDs_retained": true,
+    "original_master_acceptance_text_retained": true,
+    "specialized_math_acceptance_retained": true,
+    "unique_55_IDs": true,
+    "statuses_consistent": true,
+    "dependency_graph_acyclic": true,
+    "all_dependencies_exist": true,
+    "all_local_link_targets_exist": true,
+    "discovery_markers_preserved": true,
+    "proof_body_unchanged_except_additive_status_notice": true,
+    "historical_contract_unchanged": true,
+    "new_scientific_tasks_closed": false
+  },
+  "status_counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 5,
+    "OPEN": 46,
+    "BLOCKED": 0
+  },
+  "topological_order_for_closure": [
+    "M01",
+    "M02",
+    "M10",
+    "P03",
+    "M12",
+    "M03",
+    "M04",
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "M05",
+    "M06",
+    "M17",
+    "M07",
+    "M08",
+    "M11",
+    "M16",
+    "M09",
+    "M13",
+    "M14",
+    "M15",
+    "C11",
+    "C13",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "P04",
+    "C12",
+    "P11",
+    "C14",
+    "P01",
+    "P02",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P12",
+    "T01",
+    "T02",
+    "T11",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T12"
+  ],
+  "link_target_checks": 181,
+  "links": [
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "anchor": "bot-start-here"
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_MATH_WORKPLAN_2026-10-04.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_REORGANIZATION_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m01_scope.py",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RECONCILED_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m10_measurements.py",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_MEASUREMENT_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RECEIVED_SKETCH.md",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_trilemma.py",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "anchor": "bot-start-here"
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "anchor": ""
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_trilemma.py",
+      "anchor": ""
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RECEIVED_SKETCH.md",
+      "anchor": ""
+    },
+    {
+      "from": "M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": "mathematical-strengthening"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/ORGANIZATION_TRACE.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": "mathematical-strengthening"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_MATH_WORKPLAN_2026-10-04.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_REORGANIZATION_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "anchor": "robot-review-plan"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m01_scope.py",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RECONCILED_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m10_measurements.py",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_MEASUREMENT_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_trilemma.py",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "17-cómo-detectar-el-área-y-qué-aporta-la-supervisión-humana"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "bounded-pilots-for-architecture-selection"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "12-dos-áreas-y-un-trilema"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "21-tarea-y-trayectorias-de-referencia-etiquetadas"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "23-beneficios-heterogéneos-con-promedio-fijado"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "24-proximidad-y-radio-creativo"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "27-secuencia-de-decisión"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "28-validación-convencional-hacia-atrás-y-hacia-delante"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "210-señalización-y-validación-social"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "211-coste-de-exploración-y-coste-de-revisión"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "212-presupuesto-y-plazo"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "216-qué-debe-registrar-una-trayectoria-auditable"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": "217-estados-y-requisitos-verificables-antes-de-ejecutar"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "anchor": "retained-oracle-and-trial-history"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/reductions/00G-to-R01/README.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/CRITERIA_AND_AUDIT.md",
+      "anchor": "historical-and-constructed-scope"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/INCIDENT_SCOPE_TRACE.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/family/README.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/CRITERIA_AND_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/CRITERIA_AND_AUDIT.md",
+      "anchor": "retained-extension-review-table"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/CRITERIA_AND_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/METHODOLOGICAL_FOUNDATIONS.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "anchor": "historial-de-ensayos-y-trabajo-pendiente"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/EDITORIAL_REVIEW.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/verify_audit.py",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/audit_results.json",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/EDITORIAL_REVIEW.md",
+      "anchor": ""
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/reductions/00G-to-R01/README.md",
+      "anchor": "lugar-de-la-reducción-dentro-de-00g"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/reductions/00G-to-R01/README.md",
+      "anchor": "fundamento-y-prueba-de-la-reducción"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/reductions/00G-to-R01/README.md",
+      "anchor": "cómo-se-hace-la-reducción"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/reductions/00G-to-R01/README.md",
+      "anchor": "identificación-y-estado"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "anchor": "control-del-test-y-alcance-del-oráculo-c3"
+    },
+    {
+      "from": "README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
+      "anchor": "historial-de-ensayos-y-trabajo-pendiente"
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "anchor": "incident-scope"
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "anchor": "bot-start-here"
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RECONCILED_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_MEASUREMENT_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m10_measurements.py",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": "mathematical-strengthening"
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "anchor": "bot-start-here"
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": "mathematical-strengthening"
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_MATH_WORKPLAN_2026-10-04.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md",
+      "anchor": "5-proposición-de-conservación-y-prueba"
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/family/proof/README.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m01_scope.py",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RECONCILED_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m10_measurements.py",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_MEASUREMENT_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CONTRACT.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RECEIVED_SKETCH.md",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_trilemma.py",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "MATHEMATICAL_FEASIBILITY.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json",
+      "anchor": ""
+    },
+    {
+      "from": "COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "anchor": "bot-start-here"
+    },
+    {
+      "from": "COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "anchor": ""
+    },
+    {
+      "from": "COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
+      "anchor": ""
+    },
+    {
+      "from": "COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "to": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md",
+      "anchor": ""
+    },
+    {
+      "from": "COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "to": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md",
+      "anchor": ""
+    },
+    {
+      "from": "COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": ""
+    },
+    {
+      "from": "COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "anchor": "mathematical-strengthening"
+    }
+  ],
+  "new_tasks": [
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17"
+  ],
+  "reopened_tasks": [
+    "M03",
+    "M04"
+  ],
+  "reason": "expanded final objective; historical derivations retained",
+  "changed_or_new_files": [
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+    "M03_M04_TRILEMMA_THEOREMS.md",
+    "README.md",
+    "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+    "R01_MATH_WORKPLAN_2026-10-04.json",
+    "MATHEMATICAL_FEASIBILITY.md",
+    "COMPUTABILITY_AND_ORACLE_PLAN.md",
+    "extensions/hugging-face/REMAINING_TASKS.txt",
+    "R01_REORGANIZATION_CHECKS.json"
+  ],
+  "deletions": [],
+  "preservation": {
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": {
+      "input_sha256": "a179bd20854396003bd4f97c5b8a390d5788406e0eaf3d560da5aa8cbe51360b",
+      "output_sha256": "caa2a41d424d73462c67e1e96f81d4ef65107de459c268af9bfec59c6f12302f",
+      "input_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "replace",
+          "after_line_index": 2,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "a4cab1606491822540982b59e6617fd1e1c88bc2f03307764483e540d891e1c4",
+          "after_sha256": "4bafb0fe2b728ee24b8a813fe62d2d7bc977ce0708c32482c69641a1eb22eda2"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 6,
+          "before_lines": 1,
+          "after_lines": 79,
+          "before_sha256": "a379a10dcb467885ebf22d398f099542b9c934e3bb541268b78378cfd90cfaea",
+          "after_sha256": "d8b80cf933e35da60ca08a8758a3b174366ba47bfbb1557aa1b7636a3793f8a2"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 88,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "2d1ab6299cf307b07462c0fe5846b1cef1dc11917452869d01454fdb16d4467f",
+          "after_sha256": "00f89578c562617df9782621b3ac4162c3cab4091846c9c2d84999699bf08a75"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 105,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "ccfee4d7b45ada30d6e88fa0f116eba32efc96cd14e062f4e7a2911a1df674c6",
+          "after_sha256": "3966050d81f90cacb13d6220e695c73f53f4916fa7240630917501a4ae5bce87"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 126,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "3e7c380a5de190e0337714dcbcc832f16285f45fd04f1e39132dbccd0860c19b",
+          "after_sha256": "017f7e606d3090c279482d32a78417f5aa3c0019d62072bff609f3dbc3c50b55"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 132,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "fd15aa5607549aa10bf46ef47a716892dd30f6341c9f2586a182c56c0d930391",
+          "after_sha256": "97dba301d5bc46925027168da2aa0a6f8fd3cd44d6b43e3bae5fb4dc2b43b50f"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 140,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "deaeb65db33c3586a4b8f132107ad39237e253c925bb70ad52bb81aa9932645c",
+          "after_sha256": "a70be24872d621db2c04f275b95f29180279d20c8e7c06b2b4eaf965440d8ee6"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 142,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "388d47664bf60665a29002238070f5242a585790d8bc7082dc4c7a7b83905bdb",
+          "after_sha256": "8c22e72f5fd0815e8d6029f8f2483073b54b0e7b07f6bb742f6a2cbe213a17c5"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 144,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "64e1ca5ac88a34d33e2ee53bcf639a48942aa4f6a13635dde89fc4f710315680",
+          "after_sha256": "47d85ca0b73194eb7ae1efc8759be767ab407fe942f4ea78a57813394cc45c09"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 146,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "2f07aed597e55b307ddcacb2e216949d562787656f70d088ad742cbb0d1841c7",
+          "after_sha256": "be79b8eeacdddee94c2dfd3d042e121ac0752c05aa21506268207f42a0f9386c"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 148,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "3c6e8710c71868270c177ab97669053f013475f77f2ecebcdc2e15ee922d5bb4",
+          "after_sha256": "85d89d9f0eec3aad7adec5598220dfe75f6c32dd85a707d7cc4c4b85dd4d38f2"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 150,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "aa4a5cb3fb2701c2e3393d741d17c36634190c78618d7f64134ab1889789322f",
+          "after_sha256": "650eb1f59637bc327c5f1eb9d7ca0158399fbb640645a30f409c5cd9b6fe2c0b"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 152,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "31734ccbce76c8df28875a74394b746807f048575f4e020790e7e093d49dca88",
+          "after_sha256": "f2b1312aa6e25bc03012688d1fccafd714aaf5acae72f89035e44eefc6f20379"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 154,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "cf2097e800549344dca8e75e42fe2e15ecebeeaad00b0aca9e43cc62b9b563cf",
+          "after_sha256": "4e02803734541d404f2db43be2bf8207480672f5b4814edd3b7aede00e896303"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 156,
+          "before_lines": 1,
+          "after_lines": 3,
+          "before_sha256": "af0693ce7c8282db6077c51845919313fa4d09262b0411c657f16f2fc5f8864f",
+          "after_sha256": "8a9b897051b4831227c694e2c54267cf078dec2e982c269880e73ab9f2b687e3"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 164,
+          "before_lines": 2,
+          "after_lines": 2,
+          "before_sha256": "97ebdfabd5040f92b2384b21f814a3700b4ad16fd0fd22a8d15645a50e728bf2",
+          "after_sha256": "acc226eb4e6f825ddae8bf8b08dfddabf8a3c3b14de04fd12ddf9eafe48a5bea"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 168,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "b2a092167de81a7b5ab0cf1b8f435dae064592f68a2b03935960e55269aca687",
+          "after_sha256": "53a92f05e8cb278e68809bb2f3053131739722849999e592ec6964d7f6f887d5"
+        },
+        {
+          "kind": "insert",
+          "after_line_index": 173,
+          "before_lines": 0,
+          "after_lines": 7,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "aabc47cf983ae2c11695acd71dab6c2b8b61325dc4bbe1fdd0bf5f70b2a5fb98"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 196,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "91205e293f823ef57eb0af751c0dc25a0472360171bad11601b6ecd0cdd0e404",
+          "after_sha256": "39f9b8249c8a9d641b52aecd87a64c9f1508d720b3ec2d56c09ef8e1367f423c"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 223,
+          "before_lines": 4,
+          "after_lines": 4,
+          "before_sha256": "f960b432a8e1c5a83562eb743621c59d9a3d850447f4cceff9f17c5e33b1c30a",
+          "after_sha256": "0cbb54a0f38a6bb791729186f3ce5134f37c8854baf5351b8ce584d304022c00"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 248,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "4bfab4a86a50e5bc5bd3d7b9e1a7054bf4b1a1529acb39f2b4bec7d9f6aa4066",
+          "after_sha256": "af024a5211716507bbeb18e114548b781fbedafa1ca69a5f18b67a20a6ad6a5c"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 288,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "6297c0d66faf4bfa7b59365b94fb0c4f974fdd250fd09ea99109e71c9efb5f8c",
+          "after_sha256": "b5159610dd6582eb119e617e3c1d0a8a8d1eedee12d0dd5c97dc7488eda9708e"
+        }
+      ]
+    },
+    "TRILEMMA_CONTRACT.json": {
+      "input_sha256": "4f5bbbc2b130f059f7c27a9d05d2ad194cc6af7d34a3ffe8bfa0a0e1f539510c",
+      "output_sha256": "4f5bbbc2b130f059f7c27a9d05d2ad194cc6af7d34a3ffe8bfa0a0e1f539510c",
+      "input_exactly_recoverable": true,
+      "changes": []
+    },
+    "M03_M04_TRILEMMA_THEOREMS.md": {
+      "input_sha256": "1c1e6b0c446ddd7103cd1e7cbcb3c4bf5c10ad30c582751d8a27f3a05629d151",
+      "output_sha256": "4b22faddf490d65584fb6162fdd224fd3b8a7cead7bdd6ada9f83d3cd28d0905",
+      "input_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "insert",
+          "after_line_index": 7,
+          "before_lines": 0,
+          "after_lines": 2,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "5b0b62bdf2c856b1d331845f3b5d6a452cde7278a6b8e653ea0d7d44ac20e254"
+        }
+      ]
+    },
+    "README.md": {
+      "input_sha256": "16f894442c51af15de720a4adab5c78193049183994e42de1817d48ef77906a5",
+      "output_sha256": "ecc85030a523c814de9513288d7a0596fdecc349798242ea536c76c8a59014cc",
+      "input_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "insert",
+          "after_line_index": 9,
+          "before_lines": 0,
+          "after_lines": 2,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "71dd2c82ec2b60f04126c8de017a8ee59410794b19f62e3912b3c8cacfba3da6"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 18,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "ea42d2f8ee51850e5a5f1e1c8ade6ff92799bd1173cbacf50e0ab5a8762cf797",
+          "after_sha256": "4eb630f31760b37dcc939a526e81a5ff1ade2239b771f196918da14595d263ae"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 25,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "5cd3eb767143c3ce559979d06923ba612b37588c4548419e0634fef2ffc715cf",
+          "after_sha256": "d8a263c1f9ff1357758396b13108941895574745a8f93128038278d38e9875c6"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 36,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "5a4d6ef884c259e44596d3b62c99fd68262842518ca3763b8693331f3bdb77d3",
+          "after_sha256": "f2910a4c75fbc53db657dd56f2d2c5fc55c0b7fd8fd968895e575952b644d3dd"
+        }
+      ]
+    },
+    "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md": {
+      "input_sha256": "ded8325c04737f3c8e90752628fc3f4d91b81e9b2deeff4671625961f077ecc3",
+      "output_sha256": "0236e8b05110df9c997217a6f0599905690cb4e33268a89518ede05734437de6",
+      "input_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "replace",
+          "after_line_index": 131,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "b500315bdedf46258450363c938b9155e01669cd7869082f8d85eaaad3594ef9",
+          "after_sha256": "e8159968b7622aea07b7a5ca1e7b88b73532acb8ffca0f75260b3f2b67e21281"
+        },
+        {
+          "kind": "insert",
+          "after_line_index": 191,
+          "before_lines": 0,
+          "after_lines": 9,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "c320f16527a02f7897d8d17052afd81f162f6612e77c82fdbe2ebab75dd41e26"
+        }
+      ]
+    },
+    "MATHEMATICAL_FEASIBILITY.md": {
+      "input_sha256": "6a618601f2755d83f75c641ec0d8b141aef6f5071849bd30834109d9d358c621",
+      "output_sha256": "2c37f1c88b6a2ea141c9a1ce382c47784773ec4adbe961893b2a7bd28f937fe5",
+      "input_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "insert",
+          "after_line_index": 5,
+          "before_lines": 0,
+          "after_lines": 11,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "eb799a0ac780d39b35ffc970a997a79a2a206748140be97d0679b3904b1d5358"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 57,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "daa42da4327e1d1b0a8818c660e8e0bd9bd76a033b2cfb870d43a232e55f092f",
+          "after_sha256": "01a74bec8d292437c2b329baf4f5207b18c1ab6755c40bbec92ab0cf7d49bbd9"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 60,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "bbd6fb1c834e0b77f1a1c9bb8002143b6ad2b9f38934a12af5eaed9aef2ee7b1",
+          "after_sha256": "cb4d1e0d0e6f7dd256fdad71ed46b561b90e114cf060b1d93ae6a5ec20b0d983"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 66,
+          "before_lines": 2,
+          "after_lines": 2,
+          "before_sha256": "49de779a97214bc3b64a3abdd8d1ae98cb72bf1b8beea528af299542d6bee89c",
+          "after_sha256": "72d4e8174b2fe381fbd2608216f79b75212be544ad6df34c42b4726e74677187"
+        },
+        {
+          "kind": "replace",
+          "after_line_index": 74,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "d64e242aff8319613335c1936299dc15c52f54b07c3f4045f93427fbd3b2b883",
+          "after_sha256": "d49700c96cb72fceb3b9aa1e907e0c618d8595d2008cf4c035fdaf230f255d2c"
+        },
+        {
+          "kind": "insert",
+          "after_line_index": 136,
+          "before_lines": 0,
+          "after_lines": 16,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "7f77be4d20acd004cfa0c72ed4e65d25cd5f3dab9c5c170dad7726495ed0bfe6"
+        }
+      ]
+    },
+    "COMPUTABILITY_AND_ORACLE_PLAN.md": {
+      "input_sha256": "99c9aa9c3787f66e802a450e7cd80a26637e5683a86e6492edcc58769a799074",
+      "output_sha256": "34beb1fb74787df74d627caf9a8b346cb7bb45e0cb87b9d6e359b9c6c4c22396",
+      "input_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "replace",
+          "after_line_index": 40,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "29a2a7923602b783e77f3dfd35e74f1e17158ee85c5cfed7d2d21b8b21a99327",
+          "after_sha256": "4be5c50e01dff1bef841674255336ae784adecfde88e647cd04e1acc6ba9896d"
+        },
+        {
+          "kind": "insert",
+          "after_line_index": 80,
+          "before_lines": 0,
+          "after_lines": 9,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "8aebe00a546d8706de4f156ba667c78d49d82f6e8425cfff7637b8cc04c6ea15"
+        }
+      ]
+    },
+    "extensions/hugging-face/REMAINING_TASKS.txt": {
+      "input_sha256": "4a31430cc03c079b39f0587d34695dcba2b78cd9c896130b9cc01d50f6a512b4",
+      "output_sha256": "cf195815434402b78b6b4f51d1bc390860c5fbd29e8b9e0559c5504e028b315a",
+      "input_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "replace",
+          "after_line_index": 102,
+          "before_lines": 1,
+          "after_lines": 1,
+          "before_sha256": "bab83f84acce5c22652fc7f5452ff6d856ea48b22ccd0bdf2039c3d477c94b0c",
+          "after_sha256": "9d9b0950e2e6f1fd70ee49bd5be329ceee65015de806caa7350b6ca2e9c211ec"
+        },
+        {
+          "kind": "insert",
+          "after_line_index": 234,
+          "before_lines": 0,
+          "after_lines": 20,
+          "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after_sha256": "1df947120a8d4dbf5c9b84df554418d93dcb808b55d82975e9c25f4d77e4d990"
+        }
+      ]
+    }
+  },
+  "untouched_scope": "source scenario, received sketch, fixtures, Python checkers, scientific reports and old release records; inherited P08 audit issues retained",
+  "limits": [
+    "No independent review performed",
+    "No new symbolic result or campaign executed",
+    "Planning dependency checks do not validate theorem correctness",
+    "Existing scores are historical, not new scientific validation"
+  ]
+}

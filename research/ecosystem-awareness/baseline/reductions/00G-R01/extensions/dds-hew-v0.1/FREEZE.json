@@ -1,0 +1,39 @@
+{
+  "version": "0.4",
+  "run_id": "HEW-DDS-MODEL-20261006-04",
+  "amendment": "A3",
+  "parent_frozen_set": {
+    "run_id": "HEW-DDS-MODEL-20261006-03",
+    "sha256": "eb434b8ab2c127b6ffc1d0e348d771fd7977e0e7b19cff517314da4317585ef1",
+    "availability": "exact original in local custody; original result retained"
+  },
+  "frozen_at_utc": "2026-10-06T14:38:37.692836+00:00",
+  "scope": "Model integration self-test only; no native/human/product comparison",
+  "files": [
+    {
+      "path": "hew_runtime.py",
+      "bytes": 21464,
+      "sha256": "d485a1b6e231123b1f1f6e3bb1c1ce5c6d1ac10c36cc2b0b33f2b51cb6c4a233"
+    },
+    {
+      "path": "hew_oracle.py",
+      "bytes": 4386,
+      "sha256": "79388fb9fc31f396712f427faff5a29db51c4397e6e23f91c0945774fc20aa2c"
+    },
+    {
+      "path": "run_study.py",
+      "bytes": 18720,
+      "sha256": "3ef36f043a7cc314cfa2d205433efd64ea05ae82504ed4633915e120d2513a06"
+    },
+    {
+      "path": "RUN_CARD.json",
+      "bytes": 94704,
+      "sha256": "aa29c3dfb0bdbf157a68f71ee560761bdcbd3703fc8d7de93d7ee5c7f026882b"
+    },
+    {
+      "path": "SCENARIO_BATTERY.json",
+      "bytes": 36161,
+      "sha256": "c0a1137e871470b6df105148d2cac49913b7308864370cace0133ac9ba0a8c5c"
+    }
+  ]
+}

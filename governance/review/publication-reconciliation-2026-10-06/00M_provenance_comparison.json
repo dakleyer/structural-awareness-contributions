@@ -1,0 +1,33 @@
+{
+  "document": "00M v0.8",
+  "scope": "Source comparison already performed; public versions remain separately citable; this record does not change either source or its historical preservation hash.",
+  "publication_source": {
+    "bytes": 41424,
+    "sha256": "37ac24628214a711caf083d7dc7bf0714ced8e7109259f00c5bd5e0bdd772377",
+    "git_blob": "9ce15d9b57bde18a6326db29c3e1087b078947db"
+  },
+  "later_source": {
+    "bytes": 41714,
+    "sha256": "7af7ffb02afab0bd9049a942cb8924ed4e61290600c3950381e3655277c39dbd",
+    "git_blob": "c97353991117f63983feba24bf8344cf52e9f1e7"
+  },
+  "exact_equal": false,
+  "changed_lines": [
+    "--- publication-source",
+    "+++ later-reading-source",
+    "+**Semantic adoption — 2 October 2026.** Section 1 is the canonical A/B/C/D vocabulary for this EA/EP corpus. This adoption fixes terminology; the mathematical argument remains a research proposal and does not validate the architecture or change frozen requirements.",
+    "+",
+    "-**How to read this note:** sections 1–2 define A/B/C/D and illustrate their differences. Sections 3–6 examine the four mechanisms and their mathematical limits; section 7 assesses the strength of the argument. The definitions are proposed as a common semantic basis for EA/EP; they are not presented as an established mathematical taxonomy. No prior knowledge of the project documentation is required.",
+    "-",
+    "-## 1. Proposed canonical definitions: four different relations to one process",
+    "+**How to read this note:** sections 1–2 define A/B/C/D and illustrate their differences. Sections 3–6 examine the four mechanisms and their mathematical limits; section 7 assesses the strength of the argument. The definitions are the common semantic basis adopted for this EA/EP corpus; they are not presented as an established mathematical taxonomy. No prior knowledge of the project documentation is required.",
+    "+",
+    "+<a id=\"abcd-canonical\"></a>",
+    "+",
+    "+## 1. Canonical definitions: four different relations to one process",
+    "-The proposed canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.",
+    "+The canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note."
+  ],
+  "independent_audit": false,
+  "mechanical_projection_recomputed": true
+}

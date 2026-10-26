@@ -1,0 +1,152 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "sources": [
+    {
+      "id": "RAG01",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "title": "Lewis et al.,2020: original dense-retriever/generator RAG",
+      "access": "abstract, own proposed fixture not original model",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "RAG02",
+      "url": "https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview",
+      "title": "Azure AI Search RAG overview",
+      "access": "official selected overview; no Azure execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "RAG03",
+      "url": "https://learn.microsoft.com/en-us/azure/search/search-security-trimming-for-azure-search",
+      "title": "Azure Search security filtering",
+      "access": "official filter design; no Azure execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "DB01",
+      "url": "https://www.sqlite.org/isolation.html",
+      "title": "SQLite isolation",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "DB02",
+      "url": "https://www.sqlite.org/lang_transaction.html",
+      "title": "SQLite transaction control",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "DB03",
+      "url": "https://www.sqlite.org/lang_conflict.html",
+      "title": "SQLite conflict resolution",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "DB04",
+      "url": "https://www.sqlite.org/fts5.html",
+      "title": "SQLite FTS5",
+      "access": "official selected full-text search semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "WF01",
+      "url": "https://docs.temporal.io/activity-execution",
+      "title": "Temporal activity execution",
+      "access": "official current documentary mechanism; no Temporal execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "WF02",
+      "url": "https://docs.temporal.io/encyclopedia/retry-policies",
+      "title": "Temporal retry policies",
+      "access": "official retry limits; no Temporal execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "WF03",
+      "url": "https://docs.temporal.io/activity-definition",
+      "title": "Temporal activity definition/idempotency",
+      "access": "official mechanism; no Temporal execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "AUTH01",
+      "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+      "title": "RFC9700 OAuth security BCP",
+      "access": "selected security guidance",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "AUTH02",
+      "url": "https://openid.net/specs/openid-connect-core-1_0.html",
+      "title": "OpenID Connect Core1.0 errata set2",
+      "access": "selected identity validation semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "AUTH03",
+      "url": "https://www.rfc-editor.org/rfc/rfc9068.html",
+      "title": "JWT access-token profile for OAuth2.0",
+      "access": "selected token type/audience validation",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "MCP01",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+      "title": "MCP2026-07-28 tools",
+      "access": "selected tools/schema/input obligations",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "MCP02",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic",
+      "title": "MCP2026-07-28 basic protocol",
+      "access": "selected JSON-RPC/_meta fields; no full conformance",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "MCP03",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization",
+      "title": "MCP2026-07-28 authorization",
+      "access": "documentary authorization/purpose boundary",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    }
+  ],
+  "role": "Primary documentary references; no bibliography is native/performance validation."
+}
+

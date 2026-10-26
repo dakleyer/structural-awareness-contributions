@@ -63,6 +63,8 @@ This is important: **S1–S14 are instrumentation and traceability, not the caus
 
 ## 3. Principle-specific discriminants
 
+**Fixture generations.** The earlier P1 issuer/source pair and P3 HOLD-marked pair were subsequently rejected as necessity isolations. The P4 paragraph records an earlier 29-test layer. The current 76-test A4 surface retains minimal authority qualification without requiring full lineage. Use the corrected matrix in [§1](#1-execution-matrix) and current fixture packages in [§5](#5-executable-package-routes) for the current tested surfaces and counts.
+
 ### P1 / 00J — what does the evidence actually establish?
 
 A signed, fresh generation-provenance record can be perfectly valid while failing to establish the stronger proposition `RIGHT_TO_ENFORCE_AGAINST_AUTHOR`.

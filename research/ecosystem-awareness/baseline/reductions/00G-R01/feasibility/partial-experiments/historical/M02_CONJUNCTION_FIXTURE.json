@@ -1,0 +1,304 @@
+{
+  "fixture_version": "M02-conjunction-v0.1",
+  "input_commit": "3384ba5d9db722808572d30ccee098fe92598410",
+  "N": 1,
+  "L": 3,
+  "worlds": [
+    {
+      "id": "omega0",
+      "chi": 0,
+      "weight": "1/2"
+    },
+    {
+      "id": "omega1",
+      "chi": 1,
+      "weight": "1/2"
+    }
+  ],
+  "normative_rule": "Every executed material node must have an active resource binding: active(m)=1, active(x)=1-chi, active(y)=chi. Conjunction over all executed nodes. No hard barrier; violation persists.",
+  "graph": {
+    "start": "s",
+    "finish": "t",
+    "nodes": [
+      {
+        "id": "m1",
+        "layer": 1,
+        "kind": "m",
+        "benefit": 1,
+        "resource": "m"
+      },
+      {
+        "id": "x1",
+        "layer": 1,
+        "kind": "x",
+        "benefit": 2,
+        "resource": "x"
+      },
+      {
+        "id": "y1",
+        "layer": 1,
+        "kind": "y",
+        "benefit": 2,
+        "resource": "y"
+      },
+      {
+        "id": "m2",
+        "layer": 2,
+        "kind": "m",
+        "benefit": 1,
+        "resource": "m"
+      },
+      {
+        "id": "x2",
+        "layer": 2,
+        "kind": "x",
+        "benefit": 2,
+        "resource": "x"
+      },
+      {
+        "id": "y2",
+        "layer": 2,
+        "kind": "y",
+        "benefit": 2,
+        "resource": "y"
+      },
+      {
+        "id": "m3",
+        "layer": 3,
+        "kind": "m",
+        "benefit": 1,
+        "resource": "m"
+      },
+      {
+        "id": "x3",
+        "layer": 3,
+        "kind": "x",
+        "benefit": 2,
+        "resource": "x"
+      },
+      {
+        "id": "y3",
+        "layer": 3,
+        "kind": "y",
+        "benefit": 2,
+        "resource": "y"
+      }
+    ],
+    "edges": [
+      {
+        "source": "s",
+        "target": "m1",
+        "benefit": 0
+      },
+      {
+        "source": "s",
+        "target": "x1",
+        "benefit": 0
+      },
+      {
+        "source": "s",
+        "target": "y1",
+        "benefit": 0
+      },
+      {
+        "source": "m1",
+        "target": "m2",
+        "benefit": 0
+      },
+      {
+        "source": "m1",
+        "target": "x2",
+        "benefit": 0
+      },
+      {
+        "source": "m1",
+        "target": "y2",
+        "benefit": 0
+      },
+      {
+        "source": "x1",
+        "target": "m2",
+        "benefit": 0
+      },
+      {
+        "source": "x1",
+        "target": "x2",
+        "benefit": 0
+      },
+      {
+        "source": "x1",
+        "target": "y2",
+        "benefit": 0
+      },
+      {
+        "source": "y1",
+        "target": "m2",
+        "benefit": 0
+      },
+      {
+        "source": "y1",
+        "target": "x2",
+        "benefit": 0
+      },
+      {
+        "source": "y1",
+        "target": "y2",
+        "benefit": 0
+      },
+      {
+        "source": "m2",
+        "target": "m3",
+        "benefit": 0
+      },
+      {
+        "source": "m2",
+        "target": "x3",
+        "benefit": 0
+      },
+      {
+        "source": "m2",
+        "target": "y3",
+        "benefit": 0
+      },
+      {
+        "source": "x2",
+        "target": "m3",
+        "benefit": 0
+      },
+      {
+        "source": "x2",
+        "target": "x3",
+        "benefit": 0
+      },
+      {
+        "source": "x2",
+        "target": "y3",
+        "benefit": 0
+      },
+      {
+        "source": "y2",
+        "target": "m3",
+        "benefit": 0
+      },
+      {
+        "source": "y2",
+        "target": "x3",
+        "benefit": 0
+      },
+      {
+        "source": "y2",
+        "target": "y3",
+        "benefit": 0
+      },
+      {
+        "source": "m3",
+        "target": "t",
+        "benefit": 0
+      },
+      {
+        "source": "x3",
+        "target": "t",
+        "benefit": 0
+      },
+      {
+        "source": "y3",
+        "target": "t",
+        "benefit": 0
+      }
+    ],
+    "terminal_edge_included_in_last_execute": true
+  },
+  "thresholds": {
+    "epsilon": "0",
+    "p_min": "3/4",
+    "delta": "1/4"
+  },
+  "profiles": {
+    "hard": {
+      "R": "11",
+      "T": "32",
+      "H": 32
+    },
+    "easy_budget": {
+      "R": "12",
+      "T": "32",
+      "H": 32
+    },
+    "full_information": {
+      "R": "11",
+      "T": "32",
+      "H": 32
+    },
+    "wide_tolerance": {
+      "R": "11",
+      "T": "32",
+      "H": 32,
+      "epsilon": "3"
+    }
+  },
+  "operations": {
+    "setup": {
+      "cost": "2",
+      "duration": "1",
+      "observation": "Paid technical discovery: entire technical graph, benefits, fixed mandate rule, M certificate; no current chi. Identical in both worlds."
+    },
+    "review": {
+      "cost": "1",
+      "duration": "1",
+      "observation": "Receiver inspects proposed node, incoming connector and forward references at fixed version; geometry/compatibility true; global binding not inspected. Scope and residual explicit; produces reusable PASS-local only for this exact commitment."
+    },
+    "decide": {
+      "cost": "1",
+      "duration": "1",
+      "observation": "Commitment after completed applicable own review; reject known inactive binding. No hidden enablement predicate returned."
+    },
+    "execute": {
+      "cost": "1",
+      "duration": "1",
+      "observation": "Material node and incoming connector (and terminal connector at layer 3) take effect. Receipt reveals its binding activity after effect. Inactive action sets irreversible v=1; no reset."
+    },
+    "query_state": {
+      "cost": "1",
+      "duration": "1",
+      "observation": "chi with version and source; sufficient factual state information, no I/Adm label."
+    },
+    "check_certificate": {
+      "cost": "1",
+      "duration": "1",
+      "observation": "Authenticated current binding certificate: same information as query_state. Does not waive receiver geometry review."
+    },
+    "query_mandate": {
+      "cost": "1",
+      "duration": "1",
+      "observation": "Fixed normative rule, principal and version; identical in both worlds."
+    },
+    "explore": {
+      "cost": "2",
+      "duration": "1",
+      "observation": "Same technical manifest; all alternatives already in paid setup. No hidden binding."
+    },
+    "reuse": {
+      "cost": "0",
+      "duration": "0",
+      "observation": "Read a previously obtained matching local certificate or state fact; no new evidence."
+    },
+    "wait": {
+      "cost": "0",
+      "duration": "1",
+      "observation": "Time only; static world."
+    },
+    "stop": {
+      "cost": "0",
+      "duration": "0",
+      "observation": "Ends episode; incomplete path is not delivery."
+    }
+  },
+  "initial_sampler_charge": "0",
+  "policy_compilation_charge": "0",
+  "payload_bounds": "Only listed operation types, graph node/edge IDs, finite current versions v1 and fixed bounded receipt records. Stop and gate/resource refusals consume an event. No other evidence source, message, reset, authorization or oracle request.",
+  "reuse_rule": "Cache applies only to inspected node/incoming connector at current position/version. Graph layers never repeat, so it cannot replace a first review of another position. State facts remain valid and can guide every later choice.",
+  "gate_rule": "review -> decide -> execute for each material position. Planned own-review scope is exactly the declared local scope; an interrupted review never gives PASS-local. Global residue may be unresolved. Known denials are rejected. No global state fact replaces the distinct local receiver check.",
+  "resource_rule": "Before an event, reject if its charged cost or duration would exceed R/T; refusals cost zero, add no material progress, and expose no hidden state. H counts every request including refusals. Hidden binding is not a pre-execution barrier.",
+  "discovery_profile": "This fixture begins after one charged technical exploration; it is an explicit favorable-prior submodel, not a full current-search campaign or a typical-world claim.",
+  "conjunction_profile": "Fixed resource applicability, not parity and not the uniform single-invalid-witness generator of the larger campaign."
+}

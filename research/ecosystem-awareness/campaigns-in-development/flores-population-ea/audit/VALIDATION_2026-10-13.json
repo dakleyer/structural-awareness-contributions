@@ -1,0 +1,68 @@
+{
+  "schema": "FLORES_DOCUMENTARY_VALIDATION_2",
+  "version": "2026-10-13.ORGANIZATION.1",
+  "verifierVersion": "0.2",
+  "baselineSourceCommit": "f16b3ba1ef36bb3ff62b02eb89748838c66e8073",
+  "baselineFilesPreserved": 116,
+  "checkedAtUTC": "2026-10-14T07:11:13.801Z",
+  "result": "PASS_DOCUMENTARY_CHECKS",
+  "scientificStatus": "NOT_PREREGISTERED_NOT_EXECUTED_NOT_ADJUDICATED",
+  "independentScientificAudit": false,
+  "filesInventoried": 136,
+  "originalFiles": 65,
+  "originalPathsPresent": 65,
+  "originalUnchanged": 44,
+  "originalPreservedInCompletePredecessorArchive": 21,
+  "completePredecessors": 38,
+  "checkedLocalLinks": 588,
+  "checkedLocalFragments": 94,
+  "reachableFromCampaign": 136,
+  "unclassifiedFiles": [],
+  "repositoryDependenciesNotInPartialExport": [],
+  "repositoryFragmentsNotInPartialExport": [],
+  "externalURLAvailabilityChecked": false,
+  "privateBinaryIdentityChecked": false,
+  "knownScientificAndCustodyIssues": [
+    {
+      "id": "OPEN-01",
+      "state": "OPEN_NATIVE_ADMISSION"
+    },
+    {
+      "id": "OPEN-02",
+      "state": "OPEN_R2_FREEZE"
+    },
+    {
+      "id": "OPEN-03",
+      "state": "OPEN_R3_EA_CONTRACT"
+    },
+    {
+      "id": "OPEN-04",
+      "state": "OPEN_INDEPENDENT_ADJUDICATION"
+    },
+    {
+      "id": "OPEN-05",
+      "state": "RESOLVED_IN_AUTHORED_SUCCESSOR_LEGACY_LIMIT_RETAINED"
+    },
+    {
+      "id": "OPEN-06",
+      "state": "PRIVATE_BINARY_CUSTODY_NOT_VERIFIED_HERE"
+    },
+    {
+      "id": "OPEN-07",
+      "state": "REFRESHED_CURRENT_CUT_ONGOING_FUTURE_MUTABILITY"
+    }
+  ],
+  "errors": [],
+  "correctiveAuditPhase": "FINAL",
+  "authorSideAdversarialCases": 25,
+  "qualifierSuccessor": {
+    "namedControls": 18,
+    "boundedCases": 27,
+    "result": "PASS_AUTHORED_CONTRACT_CHECKS"
+  },
+  "sourceCommentCut": {
+    "comments": 22,
+    "previousHashesUnchanged": 20
+  },
+  "publicationGate": "Final readback and exact published-byte execution required"
+}

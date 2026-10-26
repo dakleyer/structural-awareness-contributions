@@ -1,5 +1,7 @@
 # Historical EA parent reading index — preserved source
 
+> **A/B/C/D reading reference.** Current definitions are in [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). Earlier four-pole labels in this source/profile are preserved for traceability; they do not define the current B/C boundary. The original requirements, fixtures and recorded results remain unchanged.
+
 This is the earlier public gateway content retained for conservation. The current corpus index is [README.md](./README.md). Links below were mechanically rebased during the single-folder consolidation; the research claims were not rewritten.
 
 # Ecosystem Awareness — Canonical Public Corpus

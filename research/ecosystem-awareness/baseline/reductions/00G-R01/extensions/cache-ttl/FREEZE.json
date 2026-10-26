@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "registered_before_execution": true,
+  "frozen_at_utc": "2026-10-07T11:04:22.046511+00:00",
+  "files": {
+    "RUN_CARD.json": "008f2862e9010dfa3328c165865160f1f85fc66a273a2023564dd47b425d99d8",
+    "study.py": "f5bff4f32c8160ff4cc0768fc22fa01ef4f02aa60bde006d8c4fd1e6a2f606da",
+    "../_series2_support/runner_support.py": "700acbac548e6d4e1f3f9678b22b866d1ccef7e9817d8c5c951ad6ac3f67af71"
+  }
+}

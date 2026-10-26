@@ -1,0 +1,545 @@
+{
+  "schema": "DDS-COMPLETION-PUBLICATION-0.1",
+  "date": "2026-10-07",
+  "source_head": "3ab9c56a6c2b3240341e32c6466da3f2cc09335d",
+  "one_method": "DDS Canonical Method Index + A/B/C contracts",
+  "frozen_new_inputs_verified": [
+    {
+      "study": "cache-ttl",
+      "freeze_files_verified": 6,
+      "cases": 9,
+      "controls": 2,
+      "Type1": {
+        "n": 0,
+        "d": 6
+      },
+      "Type2": {
+        "n": 1,
+        "d": 9
+      }
+    },
+    {
+      "study": "queues-ack-redelivery",
+      "freeze_files_verified": 4,
+      "cases": 11,
+      "controls": 2,
+      "Type1": {
+        "n": 2,
+        "d": 6
+      },
+      "Type2": {
+        "n": 2,
+        "d": 11
+      }
+    },
+    {
+      "study": "structured-output",
+      "freeze_files_verified": 4,
+      "cases": 10,
+      "controls": 2,
+      "Type1": {
+        "n": 0,
+        "d": 3
+      },
+      "Type2": {
+        "n": 1,
+        "d": 10
+      }
+    },
+    {
+      "study": "observability-response",
+      "freeze_files_verified": 4,
+      "cases": 10,
+      "controls": 2,
+      "Type1": {
+        "n": 1,
+        "d": 4
+      },
+      "Type2": {
+        "n": 1,
+        "d": 10
+      }
+    }
+  ],
+  "prior_nine_results_changed": false,
+  "new_world_cases": 40,
+  "separate_new_controls": 8,
+  "files": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/_series2_support/complete_runner.py",
+      "bytes": 17186,
+      "sha256": "159720a67a61fd541869132c104ccbaf800312098474460c0a282b12f2ac50b6",
+      "git_blob": "7669e873b2354d65211d04c64a12309b05d23ea2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/_series2_support/runner_support.py",
+      "bytes": 2362,
+      "sha256": "700acbac548e6d4e1f3f9678b22b866d1ccef7e9817d8c5c951ad6ac3f67af71",
+      "git_blob": "c93195187ad952847d78a2cc1682f1d778466ebb"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/CANDIDATE_SPECIFICATION_PACKAGE.json",
+      "bytes": 2108,
+      "sha256": "4db381ea9cd5ceba32f56d42d2aa19b1f18e116eecd95fccaa2e9bea6016d6f1",
+      "git_blob": "743b580c9c991e4070e9e0a872d52a10e283ed06"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/COST_INTERPRETATION.json",
+      "bytes": 3001,
+      "sha256": "33662bb42ae3e47eb3415fb57d7f423b58b642d737a5a5ff758793f1065f7c47",
+      "git_blob": "f4489182549d20e0338e6c318e6cd6b57bc3a3a3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/CURRENT_FREEZE.json",
+      "bytes": 999,
+      "sha256": "f6dfa8168feb3d3ea8500050277f4ac3a62d77572bbb82ccacc05a9b0c048d81",
+      "git_blob": "996031729b2de71c6c7c009b05b54658c939d2e4"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/CURRENT_RUN_CARD.json",
+      "bytes": 6248,
+      "sha256": "515ba0fc5002a7e0495200d8708f0731609c3c2142f16aa2a7d02e36ec15b832",
+      "git_blob": "4bc88eeccaf01ddffb1fcbeb2df5c65049e4a08a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/current_study.py",
+      "bytes": 197,
+      "sha256": "32ae56ac1bfa1df9b3557a171e7de168a87c77b467639963c728fa34c64fec0f",
+      "git_blob": "c5cd5a1a9cd2363991e39506236b3972b24e8ed7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/CURRENT_STUDY_RECORD.json",
+      "bytes": 2653,
+      "sha256": "68a16a286ad545312b3e0c66f6150f352a659b26b413bb3a5f1e9c9deb14d641",
+      "git_blob": "f53d481f8ec6b8f83217120c52373c4ee6fa9cad"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/DDS_STUDY.md",
+      "bytes": 6692,
+      "sha256": "2ed358dbb9f9361085a1dff1737de074712c6ec1db1fb9049ec1f249e052a920",
+      "git_blob": "aea325f2c323587b090ee7a0dcdf83320a468abc"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/DRIVE_MIRROR.json",
+      "bytes": 373,
+      "sha256": "7d3d96298b28aed61d641e84fc562bd8b8913fa9735b0a8fe3634fc6d95933a9",
+      "git_blob": "d6a44a6c4c57362fb44aacde5f83d02ff26f0c69"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/EXTENSION.md",
+      "bytes": 3943,
+      "sha256": "cdfff342bac1e91c08d3a738d87b976298326a8c66b29ec937dc0151aed1b4d6",
+      "git_blob": "6fc2a64a8553f0d5ec2cc8380d21e62277be8d16"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/FREEZE.json",
+      "bytes": 420,
+      "sha256": "b9bd325df0887d4e1f80e4c3c52edcec7c3b7a4563f1e348d3de0f18cac84322",
+      "git_blob": "13e4417f564df74bb117f5a7cc8e7dfa527ad431"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README.md",
+      "bytes": 663,
+      "sha256": "66f29e000a4c540d7a2ea05048154d8c4e535b97b91a65a11fdd1dd08b63d060",
+      "git_blob": "8c97875cabad64bd0f87ae4ca87e1e941da7888b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/README_VNext.md",
+      "bytes": 637,
+      "sha256": "c4ea00cd14648e94cd7458054024fabf0ffb313a96c93caaaf75ee6ac52bc173",
+      "git_blob": "b3511a69b9468202090db955423ac392a5cfb07a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/RUN_CARD.json",
+      "bytes": 6268,
+      "sha256": "008f2862e9010dfa3328c165865160f1f85fc66a273a2023564dd47b425d99d8",
+      "git_blob": "1cc0015949b71fded8238483e473a00519149a28"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/runs/2026-10-07-03/M_ADMISSION_BEFORE_CANDIDATES.json",
+      "bytes": 3950,
+      "sha256": "21edbe43882da947b6cfc655e3496135eae179e85827bb730bcbd676dda7fc05",
+      "git_blob": "6538c346ccef9509a5f5622f44a1c298360beebd"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/runs/2026-10-07-03/RESULTS.json",
+      "bytes": 39431,
+      "sha256": "11853169b4aa6726bd07c27c6426ecbf9b8b0a9a2943e964780ffe54b27be632",
+      "git_blob": "91b034962e75024e6012d110e4e864f2ccd562c4"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl/study.py",
+      "bytes": 3835,
+      "sha256": "f5bff4f32c8160ff4cc0768fc22fa01ef4f02aa60bde006d8c4fd1e6a2f606da",
+      "git_blob": "0872f156be95a2e9804991dbfcc72ce686d83d17"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/COMPLETENESS_REVIEW_2026-10-07.md",
+      "bytes": 8512,
+      "sha256": "0a38974e32a177499c62204a0c8e205d0100bc2972f7268ed46ee176e5c51cd7",
+      "git_blob": "c8019551fb86743a24770c6b78061bc40cabe343"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/CURRENT_STUDY_CATALOGUE.json",
+      "bytes": 7060,
+      "sha256": "abfa9392c8faf3134405950a0e13be04cc121462a724a25139651df58f37c9f7",
+      "git_blob": "7398c5d3d9c3e6614e0ec247b7780eb5cb90c44c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/CURRENT_STUDY_RECORD.json",
+      "bytes": 3292,
+      "sha256": "3205969f21b9ed99b2b0428ad129f5d3845b14881180c233fb12820bcb264398",
+      "git_blob": "7b80bac925ee172bb625219165b2235412e8f53d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
+      "bytes": 11606,
+      "sha256": "7655e28d254706f9f1bc83241a8808544d188cfe0c451c538258df7823c173c2",
+      "git_blob": "ebe56fda101698ac00d80df61e2979a6a74748a4"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md",
+      "bytes": 9095,
+      "sha256": "20ecd7ab31d4f5c57f60a3ee61e0f0b6291f68e62d76e5108947cc0797dc3893",
+      "git_blob": "403c1fc7b5797784567a238dd21c513951d49756"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md",
+      "bytes": 9167,
+      "sha256": "ccd252c03af03b8466b7bbaafbde87501d759957087a0b13c5d37ddf70f3565e",
+      "git_blob": "0b2ca07338ddbcea5d0cc6cd8ec3c29cf8f24e27"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md",
+      "bytes": 9047,
+      "sha256": "0500c9c5e995b5b3bf87c2b36d6e2f48ec15211a25fa687606440910bf714fb9",
+      "git_blob": "e129b038ff416137445bed0d21e1f5744c0380a2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/CURRENT_STUDY_RECORD.json",
+      "bytes": 3055,
+      "sha256": "bd6a6ffa025768040a22fbcc652362a88ed72897dc293e6a1c78f24e7e6aad00",
+      "git_blob": "f2fd9e0eaf8cd7c06d37b8582b2d7d23cfb6d589"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries/DDS_STUDY.md",
+      "bytes": 10282,
+      "sha256": "342507a60f69f95b662672278124718fe162627a87d9544a4ad84b6974db1ed8",
+      "git_blob": "0e2c111f405296db101abcef1e239d7e16ec39e3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/CURRENT_STUDY_RECORD.json",
+      "bytes": 3234,
+      "sha256": "ebda07209dcd5610921d9df3b612413f94ac997fe89d6e9912a4b5ba1952f7f0",
+      "git_blob": "a4c32caad63c1f441e7ccfd1c426730a2493ea2b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/CURRENT_STUDY_RECORD.json",
+      "bytes": 3248,
+      "sha256": "515ad36b38cf2698b2005c87da0131f7b85a29ced5fabbdb1e8c6cd824011e6c",
+      "git_blob": "1107924dd5fe24d9a22cc81c8d0ba91462b7b2ec"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/CURRENT_STUDY_RECORD.json",
+      "bytes": 3231,
+      "sha256": "ad8d35550ec47d23cd78efcf1e773e5211f9f214c934edc232b8e7f8f5026567",
+      "git_blob": "4de0d4e21ce143164f51d39cfaaed4cb26c19426"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/CURRENT_STUDY_RECORD.json",
+      "bytes": 3027,
+      "sha256": "99c7f487b4ddb71daaadae9121d39864c1a1e191a7093012787a2be33865ff95",
+      "git_blob": "4965cec7cf4458189095c59de38f4b686ce24772"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling/DDS_STUDY.md",
+      "bytes": 9526,
+      "sha256": "7571d7043558dcde5f908912785bf7a4324eec61fa881fabac5b8cfb31cc1b80",
+      "git_blob": "553435e9d6ad8213f7c22a2345462f7d3ac1ac5e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/CURRENT_STUDY_RECORD.json",
+      "bytes": 3050,
+      "sha256": "893fd25e369bf2f96879585798fc0c16ca07ab385e21bd5f32ed604d1f236cf9",
+      "git_blob": "e21bec1601ecaf8194a1ee3d5962571e3fcd712c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc/DDS_STUDY.md",
+      "bytes": 9956,
+      "sha256": "03f41e568270a29315434a6e40d31428597c94050b95388d6cc3a23119581a85",
+      "git_blob": "8cdcfac793cc73957a2ff533558dcc482f14a6c6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/CANDIDATE_SPECIFICATION_PACKAGE.json",
+      "bytes": 2113,
+      "sha256": "3e5f67abae3566c213851f56ac57ff17336462082f364a58f660f59c75aa5a1e",
+      "git_blob": "e946163f25279877193275d67390a3c7996bf645"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/COST_INTERPRETATION.json",
+      "bytes": 3453,
+      "sha256": "d8cd29c9533587c6f119dd86f0780c5df604da448d31809e6a00c9e1a83300c7",
+      "git_blob": "1ece116c10106a2ddb05c228f39c89892fb69741"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/CURRENT_FREEZE.json",
+      "bytes": 802,
+      "sha256": "ee7c1f9ca6d58366a0fa6fbf3f584466f28ecedcd89e487cb796402bbac1e1b9",
+      "git_blob": "25aca2f2d9ef3b7ffc88d5796714c97aeff48d52"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/CURRENT_RUN_CARD.json",
+      "bytes": 6001,
+      "sha256": "5648f0a7972c49df63a99a1cff6750767ff9034fdf0aa1e91b55a745543fdac2",
+      "git_blob": "a3502ff532e5fafeea654f3f2013d718818cae92"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/current_study.py",
+      "bytes": 197,
+      "sha256": "32ae56ac1bfa1df9b3557a171e7de168a87c77b467639963c728fa34c64fec0f",
+      "git_blob": "c5cd5a1a9cd2363991e39506236b3972b24e8ed7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/CURRENT_STUDY_RECORD.json",
+      "bytes": 2860,
+      "sha256": "b8ce7dea208e2e4efa853ba56ef61722187a04ff91e94545ac65298509bc1b7f",
+      "git_blob": "fdf05d4d522ce51638fc48ebebc9493b97290cde"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/DDS_STUDY.md",
+      "bytes": 6977,
+      "sha256": "a03fdf9e522ebc19f06c502bd30d14668599e11ff5edad602364d80d7a78e0b4",
+      "git_blob": "7e9971f72ce521dde511f735d783b8ba3da139f7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/DRIVE_MIRROR.json",
+      "bytes": 373,
+      "sha256": "cd03de782004be81b5566aa9643388c7bbffd18c9d3e88b1642f6f7e78e954cb",
+      "git_blob": "42e8dde3f52e4dc9eedea0292d3352893ed87244"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/EXTENSION.md",
+      "bytes": 4178,
+      "sha256": "d030aea5499da4b2a989b6436d2b01a104c8b45cd76bba5155f060cd95c8ae0e",
+      "git_blob": "4d9849de74e87ef77ecb0db0a0a20143e7f9221d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README.md",
+      "bytes": 689,
+      "sha256": "677269b456f74b73cd76f4c48ef563b5f99e6e7acf6327a52ef30bcc06d35fee",
+      "git_blob": "b33b601b8095108c4edb81f9ec860b69a3c7554b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/README_VNext.md",
+      "bytes": 650,
+      "sha256": "ec35012c3091d7e7041d49db7f4f14cf19469e71de39135f7768469a47c7ad89",
+      "git_blob": "206f49ccf4283437dc2e0fa97000865f4538f092"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/runs/2026-10-07-03/M_ADMISSION_BEFORE_CANDIDATES.json",
+      "bytes": 4349,
+      "sha256": "14f8dfb4d781c7f55b8e04667038d68bc3c2e16984d833de3f95b4a36fe709fa",
+      "git_blob": "36701bb0639739b3b5d9d3c85d2113db09634aa3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response/runs/2026-10-07-03/RESULTS.json",
+      "bytes": 45149,
+      "sha256": "4d4586fcf39847860589189858a3e6d7d778fff9a39af28925ef3b2c3eaa9927",
+      "git_blob": "6bf45bd3404c42d65dd5cbabb995f00d24492b6e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/CANDIDATE_SPECIFICATION_PACKAGE.json",
+      "bytes": 2113,
+      "sha256": "099e128ac583dd57234f44c6bf5e05a616864ecbe725c1c7bc10235f5d8facbd",
+      "git_blob": "0f4e678209c5dc70a63584fcade09f0c00a6c136"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/COST_INTERPRETATION.json",
+      "bytes": 3796,
+      "sha256": "ecc80dbf6a19da13f92f25791762eba5e524cab681a6db0e3886f21c0c7bde66",
+      "git_blob": "826afed71a12d79ecfe3eb8ccca7dc6ec320eb7e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/CURRENT_FREEZE.json",
+      "bytes": 802,
+      "sha256": "e661ff18e39dd574ca638d021a7f98d1a5159b22b1444be36dc601a4e37014d5",
+      "git_blob": "c0734ba978f314870e83ce2a84418eeac6321fd6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/CURRENT_RUN_CARD.json",
+      "bytes": 6467,
+      "sha256": "9284a7e1fdb5ac5c5b2e876df79326ee3b39f9554d530c530e034db0939d053c",
+      "git_blob": "db0af428867248cbb3c97b86a82561d8175fe2b9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/current_study.py",
+      "bytes": 197,
+      "sha256": "32ae56ac1bfa1df9b3557a171e7de168a87c77b467639963c728fa34c64fec0f",
+      "git_blob": "c5cd5a1a9cd2363991e39506236b3972b24e8ed7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/CURRENT_STUDY_RECORD.json",
+      "bytes": 2805,
+      "sha256": "91fea893a3ff0c62b18ef8a3cc11a04d83a4719c93ebe84f1c28ebf42c324224",
+      "git_blob": "dfa36d72be59f5bd9aee5287557db0f2d51e3c4b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/DDS_STUDY.md",
+      "bytes": 7262,
+      "sha256": "12af328714d7a496ad8fc9802ae7a7520b203f809c30b9438c09e94f50a45189",
+      "git_blob": "d6e6ea9fcc5239f5403353b51860df10a99d994b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/DRIVE_MIRROR.json",
+      "bytes": 373,
+      "sha256": "21b7f231ec5fdb52fc5b4a43449997b1d396bfafe6c4c5a65289d4a4d19e83b3",
+      "git_blob": "b9b15b38cd1cd819fc3bfa127af74fdf2055aab9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/EXTENSION.md",
+      "bytes": 4102,
+      "sha256": "7e7d1355c6800e75c9d42a9d802f642ce19a36dbb347926af5bf2814fbf57c1c",
+      "git_blob": "eac609568b7c058bde7530f6b95cd6e2b699b72a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README.md",
+      "bytes": 689,
+      "sha256": "0e0e8d6dc8792f5129443d71d2c49f25c96bc4544b1e04f82f706d599d1f050e",
+      "git_blob": "d1ceaf858f4ad821c6803b8c9da6fa70801d0e93"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/README_VNext.md",
+      "bytes": 649,
+      "sha256": "3b0330f3f713d7f1537ef620074e643da88e51fdc0e60fa9cac661a170fc2f7c",
+      "git_blob": "02b152ae03adff758d55c42b7c83248216547bed"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/runs/2026-10-07-03/M_ADMISSION_BEFORE_CANDIDATES.json",
+      "bytes": 4782,
+      "sha256": "39da34d2784655f946afbd5148cb4422e4b4ad410b5695a0c2e83cc520afbb81",
+      "git_blob": "0bacf0b4df29c4c1f50ee3c0bc4843e0eeff66ef"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery/runs/2026-10-07-03/RESULTS.json",
+      "bytes": 48527,
+      "sha256": "264c3f847a6c59bc8d49815f778d41f9de208a79ebc814711c87aa6d56445a53",
+      "git_blob": "a55ee3eb17f2ec1fe122ef1b0e1b2053d0b5f4e7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/CURRENT_STUDY_RECORD.json",
+      "bytes": 3021,
+      "sha256": "3dcd27fe94091aa62d4555f84e71a87086cd4cf38f628ed8348b071ff63e1b33",
+      "git_blob": "77803a35d7dd3f9f94bde1393c52238eacc69ae3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag/DDS_STUDY.md",
+      "bytes": 10996,
+      "sha256": "10d4c09ee432000ff9b3a1c1067d7780e29ed66b7a3c65f85fc8c7ce57ae35b9",
+      "git_blob": "6d0207faa6bdd6e087d0d2306a66f9b87e333718"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md",
+      "bytes": 11850,
+      "sha256": "627f4d30e1798576988c810827948a19c105ce57500a96d7d5aa3ec0b1e61263",
+      "git_blob": "f05a16168825373e30feaa42253a103b1e50a807"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/CURRENT_STUDY_RECORD.json",
+      "bytes": 3066,
+      "sha256": "a9ad10e1f83060f20a2da2e330b4724ece8bc72e0c0c9e3614871139751987e9",
+      "git_blob": "13234d326e3373c09fcca04c3e4a01a6c3be2486"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency/DDS_STUDY.md",
+      "bytes": 9587,
+      "sha256": "c81c500095547ddf91a0fe4800561528cdfff4d1e8177ad56918728d61f78695",
+      "git_blob": "ec2fa961ceac245f320c3bcdd5662594ddb00477"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/CANDIDATE_SPECIFICATION_PACKAGE.json",
+      "bytes": 2144,
+      "sha256": "6def645a28863715e8b892bbcbdea132349c589dc55162cf4077f39a4beb4056",
+      "git_blob": "4b31e5ff03fee53b9fc9813605239445985b3c4e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/COST_INTERPRETATION.json",
+      "bytes": 3458,
+      "sha256": "e57eb5e1f33b790a4fc731418a9b5fdf13819931e958b90a438d9c3f97a2dced",
+      "git_blob": "8284d5afce6fc56931d085438686466df9885428"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/CURRENT_FREEZE.json",
+      "bytes": 802,
+      "sha256": "a30f2b9149c4abe6cfce254e3d04c1a07e5b2781682875ef438549d998916bd7",
+      "git_blob": "5183ba07b0ca039d20714aad90519356e2f7dde1"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/CURRENT_RUN_CARD.json",
+      "bytes": 7427,
+      "sha256": "c16dd9d3464f959894bfa5f08e432f6451fff1d10a8d7411490e13f7e9be2f02",
+      "git_blob": "b1f91426c025db8eff948fa9e1742a8fb3beb5ea"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/current_study.py",
+      "bytes": 197,
+      "sha256": "32ae56ac1bfa1df9b3557a171e7de168a87c77b467639963c728fa34c64fec0f",
+      "git_blob": "c5cd5a1a9cd2363991e39506236b3972b24e8ed7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/CURRENT_STUDY_RECORD.json",
+      "bytes": 2859,
+      "sha256": "e86223c4a36d9fc1854cb901db713758373601cfd0ad8e8e0e1945517fd6abed",
+      "git_blob": "8eb99d9e9644e6952820452c1c9a5577c9744a4c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/DDS_STUDY.md",
+      "bytes": 6913,
+      "sha256": "28b2c803542c833e209f2f78b3a4d3adb799db187a70978e4daf1548361514e7",
+      "git_blob": "46ac69286384ed52a0d0da4c2a1fdffd27f25bda"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/DRIVE_MIRROR.json",
+      "bytes": 373,
+      "sha256": "1c9f20fe938fa14ea4c38dc836bbe1d180b6b7f897d62b6ec63cbbca0851ca2e",
+      "git_blob": "e22b17338267436c722aad67a4323066660d6576"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/EXTENSION.md",
+      "bytes": 4295,
+      "sha256": "df574f3bbe8e5c86affd54b18c69f80b7621e1d784145667ec62fd025b82b35b",
+      "git_blob": "e1697e321e57a91553709b6d98168eb607983c61"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README.md",
+      "bytes": 694,
+      "sha256": "32e83be1e899c79b04f9ad10f833807d518d28338285c41afb1de5ca6f9a323f",
+      "git_blob": "b7085e30afdc68b904cb9565bedd81999e19a745"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/README_VNext.md",
+      "bytes": 645,
+      "sha256": "ae8e47efe13b8a80767382705915db65771805e57c0f22701a630da3fe9e26d8",
+      "git_blob": "1864ed37b35f869e5780b8eeda8b1bd9d8264e9c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/runs/2026-10-07-03/M_ADMISSION_BEFORE_CANDIDATES.json",
+      "bytes": 4353,
+      "sha256": "e8e968400ddbdbf6e1b82484a3bb1c19f6b93d0524c010c0ad361e2f395560dd",
+      "git_blob": "129b379ea29dd6c2ffb29605dcbaa5a827c8a8c3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output/runs/2026-10-07-03/RESULTS.json",
+      "bytes": 33880,
+      "sha256": "0b9e2fbb3bf0297e1b4890077072ae82f3d2ded281a3d1ac00d877eb0cad43b8",
+      "git_blob": "8f990d0a8e98830c8bdd8d2db33caba8f7677661"
+    },
+    {
+      "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "bytes": 19717,
+      "sha256": "c791301a3a952577a7f4b35ea60fa48b43255d3bbe69e7036f3ba05dbf1dc0f4",
+      "git_blob": "a9510abb9da9249acf08f5f64c75ebb16f21588e"
+    }
+  ],
+  "public_entries_before_manifest": 90,
+  "SQLite_binary_evidence": "full local/Drive archive; UTF-8 source/pins/results/M maps published on GitHub"
+}

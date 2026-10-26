@@ -1,5 +1,7 @@
 # Ecosystem Positioning — Canonical Presentation
 
+> **A/B/C/D semantic update — 2 October 2026.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) is the current definition. The PPTX/PDF versions listed here predate that alignment and remain dated exports; their confidence-only B / available-capability C wording must not be used as the current taxonomy. See the [corpus alignment record](../../governance/ABCD_CANONICAL_ALIGNMENT_2026-10-02.md) for affected exports. Binary layout and historical content are preserved; those exports have not been semantically regenerated.
+
 **Status:** Working architecture / pre-standardization contribution  
 **Current canonical revision:** **v1.11 — 2026-09-24**  
 **Canonical editable artefact (owner access; not public):** [Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit)\
@@ -54,3 +56,12 @@ The upward route is the Structural Awareness Programme. The presentation must no
 ## Version-control rule
 
 The stable canonical filenames remain unchanged. Git history records revisions. Milestone versions may later be tagged or released instead of accumulating numbered copies in this folder.
+
+## Earlier split-deck editions — direct historical access
+
+The two v1.1 files below preserve the earlier public split-deck presentations. Use the v1.2 entries above for the repaired public reading route; these complete earlier editions remain available for comparison and provenance.
+
+| Earlier edition | Complete retained file |
+|---|---|
+| Requirements & Evidence v1.1 | [Download the earlier v1.1 deck](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) |
+| Architecture & Implementation v1.1 | [Download the earlier v1.1 deck](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) |

@@ -1,0 +1,54 @@
+{
+  "schema": "DDS-STAGE-A-CANDIDATE-PACKAGE-0.1",
+  "profile": "cache-ttl",
+  "version": "0.2",
+  "question": "When can a scoped cache response remain sufficient at use, and where do TTL/metadata/source-truth assumptions fail?",
+  "canonical_method_index": "../../../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "canonical_stage": "A",
+  "coverage": "Simplified",
+  "requirements": [
+    {
+      "id": "LOCAL-SCOPE",
+      "required": "Tenant/resource/task/source binding remains applicable at the receiving boundary"
+    },
+    {
+      "id": "LOCAL-CLOSURE",
+      "required": "I requires the declared response/effect/receipt; M requires an explicit meaningful admitted fallback or continuity outcome"
+    },
+    {
+      "id": "LOCAL-CURRENT",
+      "required": "Current authority/evidence/epoch and useful horizon are checked at use where material"
+    },
+    {
+      "id": "LOCAL-NO-PROMOTION",
+      "required": "Typing, identity, TTL, acknowledgement or notification alone does not establish business completion or current truth"
+    },
+    {
+      "id": "LOCAL-EVIDENCE",
+      "required": "Candidate trace is sealed before private grading; actual state/effect is inspected separately"
+    },
+    {
+      "id": "LOCAL-COST-TYPES",
+      "required": "Selected costs are trace-accounted; M admission precedes Type1; Type2 causal rules and exclusions are explicit"
+    },
+    {
+      "id": "LOCAL-AUDIT-BOUNDARY",
+      "required": "An ANSWER must retain a qualified source/tenant/generation binding; an empty returned binding cannot establish I"
+    }
+  ],
+  "evidence_and_falsifier_contract": "CURRENT_RUN_CARD.json and ../../REPAIR_CONTROLS.json",
+  "assumptions": [
+    "fixed synthetic clock/source law",
+    "trusted current source/authority assertions except declared source-fault diagnostics",
+    "local deterministic receiver/digital state only"
+  ],
+  "not_established": [
+    "R01 isomorphism",
+    "native named product",
+    "real human availability/performance",
+    "population/superiority/ROI",
+    "global accessible-information optimum"
+  ],
+  "Stage_B_entry": "Candidate package is explicit and frozen; a B successor still needs a declared architecture, requirement-to-realization matrix, selected verification vectors/mutations and a new pre-execution contract",
+  "Stage_C": "NOT_ESTABLISHED"
+}

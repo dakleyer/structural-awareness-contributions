@@ -1,0 +1,12 @@
+{
+  "registered_at_utc": "2026-10-07T14:04:56.512165+00:00",
+  "files": {
+    "current_study.py": "32ae56ac1bfa1df9b3557a171e7de168a87c77b467639963c728fa34c64fec0f",
+    "CURRENT_RUN_CARD.json": "c16dd9d3464f959894bfa5f08e432f6451fff1d10a8d7411490e13f7e9be2f02",
+    "CANDIDATE_SPECIFICATION_PACKAGE.json": "6def645a28863715e8b892bbcbdea132349c589dc55162cf4077f39a4beb4056",
+    "../_series2_support/complete_runner.py": "159720a67a61fd541869132c104ccbaf800312098474460c0a282b12f2ac50b6"
+  },
+  "actual_file_bytes": true,
+  "before_execution": true,
+  "amendment": "Before remaining studies execute: withhold expected/world/T2 cause fields from all receiver APIs; compute observability for interval from timestamps; conventional queue reference recovers its local receipt before redelivery effects."
+}

@@ -1,0 +1,197 @@
+{
+  "version": "0.1",
+  "date": "2026-10-04",
+  "input_commit": "a19c3d81e904b74b28dd48f4bdf68fac91759524",
+  "repository": "dakleyer/structural-awareness-contributions",
+  "scope": "Own extension consistency review, two clarifications of the existing canonical theorem, mechanism-first technology protocol and conditional human-escalation mathematics",
+  "documents": [
+    "EXTENSION_CONSISTENCY_REVIEW.md",
+    "TECHNOLOGY_EXTENSION_PROTOCOL.md",
+    "HUMAN_ESCALATION_WHISPERING.md"
+  ],
+  "inputs": [
+    {
+      "path": "Escenario-creatividad-validacion.md",
+      "git_blob_sha": "6c99ee4622d8ad90a6344f0217c84a2cf0046f31"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "d80eba4b83d7e7d2902d054ce35c67d637387af4"
+    },
+    {
+      "path": "extensions/CRITERIA_AND_AUDIT.md",
+      "git_blob_sha": "eb349e139339ce9f4ff3ed1fec3441b044de4e22"
+    },
+    {
+      "path": "extensions/EDITORIAL_REVIEW.md",
+      "git_blob_sha": "6dd31483b6c52bd61086d71d30f7523766ce381f"
+    },
+    {
+      "path": "extensions/METHODOLOGICAL_FOUNDATIONS.md",
+      "git_blob_sha": "a174ecf5253cbdc6d17f917d2dfff26d6bdc5533"
+    },
+    {
+      "path": "extensions/audit_results.json",
+      "git_blob_sha": "0f6a4c94a02c8803ff6d57d9c452123db25b10b4"
+    },
+    {
+      "path": "extensions/family/KERNEL_AND_PROOF.md",
+      "git_blob_sha": "8828209b9764a9118d3be1e615fb50582fe6ab3c"
+    },
+    {
+      "path": "extensions/family/README.md",
+      "git_blob_sha": "91d8ae97f6044df948c6dfad90f193f4a2455b14"
+    },
+    {
+      "path": "extensions/family/SHA256.json",
+      "git_blob_sha": "69d7180cbd938a02961557e85fad067fd807008d"
+    },
+    {
+      "path": "extensions/family/proof/README.md",
+      "git_blob_sha": "dbac111c698af93b40bc766c7a447cdaadf1dcc0"
+    },
+    {
+      "path": "extensions/family/proof/check.py",
+      "git_blob_sha": "888a0577f140a8038f9cfc4a645923d7b590b568"
+    },
+    {
+      "path": "extensions/family/proof/results.json",
+      "git_blob_sha": "c97f67f780b7647175e336858bdfb15138baaaa7"
+    },
+    {
+      "path": "extensions/hugging-face/README.md",
+      "git_blob_sha": "87933feefb07b34329a57f4e9b944f205c61626c"
+    },
+    {
+      "path": "extensions/hugging-face/SHA256.json",
+      "git_blob_sha": "a7298f86d448199bbb1150f7abab020dccbb57c2"
+    },
+    {
+      "path": "extensions/hugging-face/check.py",
+      "git_blob_sha": "1804322372d550f2098bf8f0d5ce11c6cd824879"
+    },
+    {
+      "path": "extensions/hugging-face/coverage.json",
+      "git_blob_sha": "b209212ab3e75dc3754a5a8e8c8c6f3b46742f1b"
+    },
+    {
+      "path": "extensions/hugging-face/proof/README.md",
+      "git_blob_sha": "6e411cf2d1550f11205609ee93b4f504867e1f46"
+    },
+    {
+      "path": "extensions/hugging-face/results.json",
+      "git_blob_sha": "5c4913d2fa08ef8a2d2213a6308ad29f664f864b"
+    },
+    {
+      "path": "extensions/infoblox/README.md",
+      "git_blob_sha": "002316bcf0da90dd0b9262f42974d9cfce27e688"
+    },
+    {
+      "path": "extensions/infoblox/SHA256.json",
+      "git_blob_sha": "4ab65501b17433c90384c28d6c8202317d790e36"
+    },
+    {
+      "path": "extensions/infoblox/proof/README.md",
+      "git_blob_sha": "34f8f0ae9c23ffb5e46859d63cee9c6c40b686da"
+    },
+    {
+      "path": "extensions/infoblox/proof/check.py",
+      "git_blob_sha": "8d94fddaf73e5d0b29481642bf2b4a8dacc861ca"
+    },
+    {
+      "path": "extensions/infoblox/proof/results.json",
+      "git_blob_sha": "f4c93ce082c6439ba5cc7e76250b7d45e81d2cd0"
+    },
+    {
+      "path": "extensions/verify_audit.py",
+      "git_blob_sha": "7bf3c2c39c8c3ea30e724e458272410478ce4ad3"
+    },
+    {
+      "path": "feasibility/CONTINUATION_PROMPT.md",
+      "git_blob_sha": "0ca51f0e9aeb9440d0e41b53f8cbb4a8ee5fb1e5"
+    },
+    {
+      "path": "feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+      "git_blob_sha": "5c33787d1cee82fa83b56887ef0635600782078b"
+    },
+    {
+      "path": "feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "git_blob_sha": "f3a6bcd5ff7b75aa4a069d4b22a470ff9d7f25a5"
+    },
+    {
+      "path": "feasibility/README.md",
+      "git_blob_sha": "25bd907ed31bffd9a2c6f06e5e311ac2128d828a"
+    },
+    {
+      "path": "feasibility/WORKPLAN.md",
+      "git_blob_sha": "4e3157495733bb8140ff504774a41c06f85a61a2"
+    },
+    {
+      "path": "feasibility/WORKPLAN_STATUS.json",
+      "git_blob_sha": "de1e79732419dc91f0775e6777bbada27a91fc7a"
+    },
+    {
+      "path": "feasibility/partial-experiments/received/2026-10-04/ANNEX_T_TEXT_EXTRACT.txt",
+      "git_blob_sha": "16b2645f203d1f69a8693e9483a5c0e1fbe5852f"
+    },
+    {
+      "path": "feasibility/partial-experiments/received/2026-10-04/sources/testD_human_and_sharing.py",
+      "git_blob_sha": "5c9684c7d28acfd8a60d65d2d432b91844c13b06"
+    },
+    {
+      "path": "figures/escenario-aceptacion.svg",
+      "git_blob_sha": "7600ca2893d5d7e1091d7126d672519fe23319fb"
+    }
+  ],
+  "canonical_theorem_math_version": "0.2",
+  "canonical_theorem_clarifications": [
+    "Critical cut determined by pre-effect observable history; explicit conditional-expectation reconstruction",
+    "B=C_0(L,N)+K is a global budget including N-dependent preparation, not a fixed-total-budget population comparison"
+  ],
+  "original_frontier_formulas_changed": false,
+  "new_results": "H0 information-preserving simulation; H1 exact frontier for a declared reliable pre-effect alert contract; residual nonempty three-pair region when q<1 and a resolving case q=1",
+  "prepublication_checks": {
+    "historical_readme_and_tracking_bodies_preserved_as_exact_prefixes": true,
+    "all_55_task_ids_and_criteria_preserved": true,
+    "status_changed_only_M13_to_in_progress": true,
+    "counts": {
+      "DONE": 4,
+      "IN_PROGRESS": 8,
+      "OPEN": 43
+    },
+    "new_document_file_links_resolve": true,
+    "equation_delimiters_balanced": true
+  },
+  "historical_integrity_review": {
+    "checker_result_and_proof_guide_text_hashes_match_existing_manifests": true,
+    "extension_readme_hashes_match_historical_manifests": false,
+    "root_readme_matches_historical_common_audit": false,
+    "binary_docx_not_read": true,
+    "old_manifests_and_results_not_rewritten": true,
+    "remaining": "P08 version-aware documentary verification of the current edition"
+  },
+  "independent_validation_completed": false,
+  "commercial_integration_executed": false,
+  "human_calibration": false,
+  "new_scientific_executions": 0,
+  "archived_scripts_rerun": false,
+  "protected_paths_not_modified": [
+    "Escenario-creatividad-validacion.md",
+    "extensions/",
+    "feasibility/partial-experiments/",
+    "figures/",
+    "exports and fixtures"
+  ],
+  "changed_paths": [
+    "feasibility/EXTENSION_CONSISTENCY_REVIEW.md",
+    "feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+    "feasibility/HUMAN_ESCALATION_WHISPERING.md",
+    "feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md",
+    "README.md",
+    "feasibility/README.md",
+    "feasibility/WORKPLAN.md",
+    "feasibility/CONTINUATION_PROMPT.md",
+    "feasibility/WORKPLAN_STATUS.json",
+    "feasibility/TECHNOLOGY_EXTENSION_REVIEW_RELEASE.json"
+  ]
+}

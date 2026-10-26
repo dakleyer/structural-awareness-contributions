@@ -1,0 +1,68 @@
+# R2 reparada y congelada seguida de R3 no cubierto
+
+Orientación vigente del usuario, 13 octubre 2026. Versión 0.2. Esta formulación gobierna la lectura del paquete y corrige el encuadre de la versión 0.1.
+
+## 1 Criterio de diseño fijado por Iván
+
+La igualdad dentro del contexto conocido/reparado es la base. El propietario de la solución convencional puede configurarla, repararla y reforzarla hasta el nivel que defienda. No se busca que EA gane frente a una configuración concreta en ese mismo contexto.
+
+Una vez que la reparación funciona se hace freeze de R2. El recorrido R3 introduce un cambio material posterior que esa reparación congelada no cubre. Se estudia si el sistema sigue utilizando como válido un fundamento que ya no sostiene su determinación, aun manteniendo los mismos outputs de los jueces.
+
+EA se evalúa por su capacidad general de reconocer pérdida de fundamento, delimitar el alcance y abrir una recalificación fundada, sin necesitar una reparación específica de ese R3 previamente introducida. Estar preparado no significa conocer la verdad oculta ni llevar el answer key; significa poseer el mecanismo general de revisión contextual que se compara.
+
+Este principio sustituye la pregunta editorial reiterada “¿EA gana en el caso conocido?”. La preparación de Flores debe concretar una instancia mínima del recorrido después del freeze, conservando la misma pregunta temporal.
+
+## 2 Secuencia experimental correcta
+
+1. El participante fija tecnología, configuración, mecanismos y alcance.
+2. Demuestra la reparación R2 en el contexto base y los positivos correspondientes. EA puede empatar.
+3. Se congela R2 completa: código, reglas, parámetros, defensas, fuentes, adaptación declarada, permisos, recursos y horizonte.
+4. Un evaluador prepara/admite R3: un cambio externo material no cubierto por esa reparación, sin retirar sus defensas.
+5. Se recorre R3 con R2 congelada y con la especificación EA también fijada previamente.
+6. Se registra continuidad indebida, pérdida de fundamento, capacidad de reconocerla, recuperación y continuidad legítima.
+7. Una reparación creada después de ver R3 pertenece a un nuevo R2 y requiere otro freeze; no corrige retrospectivamente el resultado anterior.
+
+No se le impone al participante una tecnología, una reparación deliberadamente pobre ni un límite arbitrario a su configuración. La frontera que conserva el estudio es la configuración que **efectivamente defendió y congeló**, con toda su adaptación incluida.
+
+## 3 Alcance del cuantificador
+
+La dirección de investigación del usuario es “para cada reparación congelada puede haber un cambio posterior fuera de lo que esa reparación incluye”. Su instancia experimental selecciona R2 y construye un R3 con admisión, fuentes, materialidad y controles.
+
+Formalmente, la pregunta de recurrencia se expresa mediante una familia declarada de reparaciones y cambios: para cada R2 del dominio, existe un R3 admisible fuera de su cobertura efectiva. No basta con seleccionar un controlador pobre ni con observar un solo fallo para establecer cobertura universal del dominio. La capacidad general EA es otra obligación: sobrevivir ese R3 dentro de su propia frontera de evidencia y recursos.
+
+Las demostraciones y recorridos existentes se conservan con sus cuantificadores. No se vuelve a pedir a Iván que justifique el principio como condición para preparar Flores. El trabajo nuevo es construir su instancia source-preserving y registrar lo que efectivamente prueba.
+
+## 4 Relación con el corpus existente
+
+El perfil R01 de human escalation/whispering define explícitamente “R3 — change with R2 frozen”, preservando controller, gates, rules, sources e internal parameters. Sus recorridos distinguen contraejemplo a un controlador de bounds para toda una familia. Esa es la disciplina aplicable aquí, sin transferir automáticamente a Flores un resultado de otro contrato.
+
+Fuente: https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md
+
+El caso UC-21 usa R0/R1/R2 con otro namespace. Es referencia de metodología de recurrence, no destino del nuevo experimento. Theme #21 y la prueba de Flores siguen siendo el objeto.
+
+Fuente: https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md
+
+## 5 Qué debe corregirse en la interpretación anterior
+
+- El empate B2/reference de los 20 controles calibra comportamiento en casos conocidos. No contradice el objeto post-freeze ni lo resuelve.
+- Buscar una ventaja de coste en una configuración conocida no sustituye el contraste principal R2→freeze→R3.
+- Epoch/witness será un candidato de cambio, solo si la configuración realmente congelada no lo cubre. Si ya incorpora esa defensa, buscar otro cambio admisible; no deshabilitarla.
+- NOT_ESTABLISHED específico, pérdida de fundamento y reentrada son salidas a medir; una alarma general o parar todo no constituye la capacidad deseada.
+- Ambos brazos preservan su capacidad de adaptación declarada. Freeze no significa inmovilizar selectivamente al convencional mientras EA recibe un patch posterior.
+- Con inputs completos indistinguibles nadie infiere hechos ocultos. Este límite se mantiene y no se utiliza para abandonar el objetivo.
+- Una configuración que ya contiene la función general de recalificación recibe crédito por ella, cualquiera que sea su nombre tecnológico.
+
+## 6 Aplicación concreta a Flores
+
+Primera campaña: caracterizar el baseline, permitir reparar/adaptar la solución defendida, demostrar su alcance y congelarla; después introducir el cambio mínimo de contexto que deja sin fundamento la misma inferencia y observar el comportamiento fuente/consumidor.
+
+Segunda campaña: ante ese R3, estudiar qué requisitos generales EA permiten reconocer la pérdida con información legítima y recalificar de forma selectiva; EA se fija antes de revelar el caso puntuado. No convertir la segunda campaña en “añadir una regla específica para arreglar el mismo R3 que ya vimos”.
+
+La independencia real o corrección objetiva de la clave no pueden fingirse identificadas en t0 si el mecanismo fuente no las establece. El predicado/condición se elige con la fuente. Esto es una obligación de la instancia Flores, no una solicitud de volver a defender el principio del programa.
+
+## 7 Estado de la evidencia del paquete
+
+Los 20 controles y los 64 twins siguen siendo calibración authored y control de límite de información. No constituyen todavía la nueva instancia R3 después de una reparación convencional nativa demostrada y congelada.
+
+El siguiente resultado requerido es el registro concreto de R2 reparada, freeze, R3 admitido y requisitos EA generales ex ante. No se ha ejecutado aquí esa campaña, no se reetiquetan los checks anteriores y no se modifica el estudio externo.
+

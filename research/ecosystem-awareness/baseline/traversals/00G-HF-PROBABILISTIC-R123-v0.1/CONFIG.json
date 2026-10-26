@@ -1,0 +1,22 @@
+{
+  "status": "AUTHOR_EXPLORATORY_PARAMETERS_NOT_CALIBRATED_TO_A_PRODUCT",
+  "agents": 12,
+  "round_times": [22, 32, 42, 52],
+  "deadline": 100,
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7],
+  "q_query": [0.8, 0.95, 0.99],
+  "social_gain": [0.0, 0.75],
+  "budget": {"authority_queries_per_agent": 1, "transmissions_per_network": 144},
+  "conditions": [
+    {"id": "R1_NEGATIVE", "controls": false, "changed": false, "scope": "none"},
+    {"id": "R1_NO_PEERS", "controls": false, "changed": false, "scope": "none", "peers": false},
+    {"id": "R2_NEGATIVE", "controls": true, "changed": false, "scope": "none"},
+    {"id": "R2_LEGITIMATE", "controls": true, "changed": false, "scope": "all"},
+    {"id": "R3_SCOPED", "controls": true, "changed": true, "scope": "two"},
+    {"id": "R3_LEGITIMATE", "controls": true, "changed": true, "scope": "all"},
+    {"id": "R3_NO_ACCESS", "controls": true, "changed": true, "scope": "all", "access": false},
+    {"id": "R3_EXPIRED", "controls": true, "changed": true, "scope": "all", "expired": true},
+    {"id": "R3_SCOPED_FRESH", "controls": true, "changed": true, "scope": "two", "reinforced": true},
+    {"id": "R3_SCOPED_HARD", "controls": true, "changed": true, "scope": "two", "hard_gate": true}
+  ]
+}

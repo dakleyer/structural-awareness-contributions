@@ -1,5 +1,7 @@
 > **Preserved predecessor — superseded for current benchmark reading by [00D Canonical Architecture Benchmark & Evidence v0.2](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).** Kept for provenance. Do not cite as the current benchmark.
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 # Ecosystem Awareness — Reviewed Architecture Benchmark
 
 **Benchmark review:** v0.5 working successor, 15 September 2026  

@@ -1,0 +1,165 @@
+{
+  "kind": "same-agent finite supplementary diagnostics; not independent full proof",
+  "testA_general_threshold_counterexample": {
+    "reported_formula_budget": 10.0,
+    "received_LP_feasible_at_9": true,
+    "exact_witness": {
+      "hard_budget": 9,
+      "eta": "1/2",
+      "rho": "1/4",
+      "sigma": "1/4",
+      "attempt_probability": "1/2",
+      "queries_on_attempt": 1,
+      "guessed_bits": 1
+    },
+    "finding": "formula ignores efficacy h; received 60-point grid does not expose this case"
+  },
+  "sparse_route_vs_world_recovery": {
+    "rows": [
+      {
+        "L": 2,
+        "K": 1,
+        "world_count": 4,
+        "all_X_compatible_worlds": 2,
+        "zero_query_legitimate_success": "1/2",
+        "exact_recovery_counting_candidate": "1/4",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 2,
+        "K": 2,
+        "world_count": 4,
+        "all_X_compatible_worlds": 1,
+        "zero_query_legitimate_success": "1/4",
+        "exact_recovery_counting_candidate": "1/4",
+        "counterexample_to_automatic_exact_recovery_transfer": false
+      },
+      {
+        "L": 3,
+        "K": 1,
+        "world_count": 6,
+        "all_X_compatible_worlds": 3,
+        "zero_query_legitimate_success": "1/2",
+        "exact_recovery_counting_candidate": "1/6",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 3,
+        "K": 2,
+        "world_count": 12,
+        "all_X_compatible_worlds": 3,
+        "zero_query_legitimate_success": "1/4",
+        "exact_recovery_counting_candidate": "1/12",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 3,
+        "K": 3,
+        "world_count": 8,
+        "all_X_compatible_worlds": 1,
+        "zero_query_legitimate_success": "1/8",
+        "exact_recovery_counting_candidate": "1/8",
+        "counterexample_to_automatic_exact_recovery_transfer": false
+      },
+      {
+        "L": 4,
+        "K": 1,
+        "world_count": 8,
+        "all_X_compatible_worlds": 4,
+        "zero_query_legitimate_success": "1/2",
+        "exact_recovery_counting_candidate": "1/8",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 4,
+        "K": 2,
+        "world_count": 24,
+        "all_X_compatible_worlds": 6,
+        "zero_query_legitimate_success": "1/4",
+        "exact_recovery_counting_candidate": "1/24",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 4,
+        "K": 3,
+        "world_count": 32,
+        "all_X_compatible_worlds": 4,
+        "zero_query_legitimate_success": "1/8",
+        "exact_recovery_counting_candidate": "1/32",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 5,
+        "K": 1,
+        "world_count": 10,
+        "all_X_compatible_worlds": 5,
+        "zero_query_legitimate_success": "1/2",
+        "exact_recovery_counting_candidate": "1/10",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 5,
+        "K": 2,
+        "world_count": 40,
+        "all_X_compatible_worlds": 10,
+        "zero_query_legitimate_success": "1/4",
+        "exact_recovery_counting_candidate": "1/40",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 5,
+        "K": 3,
+        "world_count": 80,
+        "all_X_compatible_worlds": 10,
+        "zero_query_legitimate_success": "1/8",
+        "exact_recovery_counting_candidate": "1/80",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 6,
+        "K": 1,
+        "world_count": 12,
+        "all_X_compatible_worlds": 6,
+        "zero_query_legitimate_success": "1/2",
+        "exact_recovery_counting_candidate": "1/12",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 6,
+        "K": 2,
+        "world_count": 60,
+        "all_X_compatible_worlds": 15,
+        "zero_query_legitimate_success": "1/4",
+        "exact_recovery_counting_candidate": "1/60",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      },
+      {
+        "L": 6,
+        "K": 3,
+        "world_count": 160,
+        "all_X_compatible_worlds": 20,
+        "zero_query_legitimate_success": "1/8",
+        "exact_recovery_counting_candidate": "1/160",
+        "counterexample_to_automatic_exact_recovery_transfer": true
+      }
+    ],
+    "K1_pre_effect_route_oracle_control": "one query of all-X then choose all-X/all-Y gives eta=1,rho=0 for every world and every L in the declared K1 family",
+    "scope": "changed interface; sparse proposal as written does not inherit log choose(L,K) exact-recovery cost"
+  },
+  "noise_finite_block": {
+    "q": "99/100",
+    "L": 3,
+    "three_query_success": "970299/1000000",
+    "capacity_estimate": 3.2636832003250653,
+    "finding": "3/capacity is a heuristic/asymptotic comparison, not a universal finite-sample lower bound; source search optimizes fixed repetition allocations only"
+  },
+  "staleness_zero_window_control": {
+    "p": "1/100",
+    "L": 10,
+    "block_size": 1,
+    "exact_expected_stale_effects": "0",
+    "received_first_order": "1/20",
+    "finding": "refresh timing and drift/effect kernel must be declared; expectation yields sufficient probability control under conditions, not a necessary risk frontier"
+  },
+  "claims_unchanged": "No refutation of existing F/W theorems is asserted; these attacks concern the received additions and unjustified transfers."
+}

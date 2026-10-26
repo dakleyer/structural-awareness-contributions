@@ -1,0 +1,3762 @@
+{
+  "original_world_replay": {
+    "cases": 20,
+    "outcomes": {
+      "I": 2,
+      "Ø": 18
+    },
+    "Type1": {
+      "numerator": 0,
+      "denominator": 2,
+      "fraction": "0",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 0,
+      "denominator": 20,
+      "fraction": "0",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 18,
+    "total_selected_api_units": 135,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "fault_controls": {
+    "cases": 2,
+    "outcomes": {
+      "Ø": 1,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 1,
+      "denominator": 1,
+      "fraction": "1",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 2,
+      "fraction": "1/2",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 1,
+    "total_selected_api_units": 56,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "rows": [
+    {
+      "id": "R01",
+      "narrative": "Current software evidence meets the selected reference and the receiving policy.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "local-confirmation",
+        "effects": {
+          "applied_software_sha256": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+          "subject": "case-service",
+          "policy": "software-policy-v1"
+        },
+        "cost": {
+          "C_selected_api_units": 9,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1,
+            "file.hash_read": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6896200,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "file.hash_read",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "c44ea029ed89938c0c0bda841dd76f72ee45e36d6478bf23ad97cd8846586c38",
+          "role_inclusive_wall_ns": {
+            "source_production": 5216200,
+            "candidate": 1183800,
+            "evaluator": 263100
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R01",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 9,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 9,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 9,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 9,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "local-confirmation",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1,
+          "file.hash_read": 1
+        },
+        "excess_by_component_against_witness": {
+          "attestation.appraisal": 0,
+          "attestation.receiving_policy": 0,
+          "crypto.verify": 0,
+          "file.hash_read": 0,
+          "json.parse": 0
+        }
+      }
+    },
+    {
+      "id": "R02",
+      "narrative": "The measured file differs from the reference.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "measurement-reference",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 2,
+            "crypto.verify": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 3986700,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "6f086f2741d813394d1dff3bf8c6beb1a29115eb95be0d24bc3f4673917ab8b8",
+          "role_inclusive_wall_ns": {
+            "source_production": 3159100,
+            "candidate": 372400,
+            "evaluator": 324300
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R02",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R02",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "measurement-reference",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 2,
+          "crypto.verify": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R03",
+      "narrative": "An unauthorized attester signs matching-looking claims.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "invalid-signature",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 3,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 1,
+            "crypto.verify": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 2385300,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "f2e0078bd39868ac86721e8b495da108f7f83c93a191ddff41f80c88fa1c7391",
+          "role_inclusive_wall_ns": {
+            "source_production": 1881100,
+            "candidate": 206700,
+            "evaluator": 204700
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R03",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R03",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 3,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "invalid-signature",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 1,
+          "crypto.verify": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R04",
+      "narrative": "Evidence is for another software subject.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "evidence-subject",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 2,
+            "crypto.verify": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 2672200,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "6f086f2741d813394d1dff3bf8c6beb1a29115eb95be0d24bc3f4673917ab8b8",
+          "role_inclusive_wall_ns": {
+            "source_production": 2039300,
+            "candidate": 278500,
+            "evaluator": 230700
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R04",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R04",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "evidence-subject",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 2,
+          "crypto.verify": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R05",
+      "narrative": "The challenge nonce is for another request.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "evidence-nonce",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 2,
+            "crypto.verify": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 3381600,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "6f086f2741d813394d1dff3bf8c6beb1a29115eb95be0d24bc3f4673917ab8b8",
+          "role_inclusive_wall_ns": {
+            "source_production": 2499900,
+            "candidate": 404000,
+            "evaluator": 335800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R05",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R05",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "evidence-nonce",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 2,
+          "crypto.verify": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R06",
+      "narrative": "Evidence has expired before appraisal.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "expired",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 2,
+            "crypto.verify": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 3519700,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "6f086f2741d813394d1dff3bf8c6beb1a29115eb95be0d24bc3f4673917ab8b8",
+          "role_inclusive_wall_ns": {
+            "source_production": 2658800,
+            "candidate": 370200,
+            "evaluator": 344000
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R06",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R06",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "expired",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 2,
+          "crypto.verify": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R07",
+      "narrative": "The appraised reference policy is not the selected policy.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "evidence-policy",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 2,
+            "crypto.verify": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 3259700,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "6f086f2741d813394d1dff3bf8c6beb1a29115eb95be0d24bc3f4673917ab8b8",
+          "role_inclusive_wall_ns": {
+            "source_production": 2399400,
+            "candidate": 399900,
+            "evaluator": 308900
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R07",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R07",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "evidence-policy",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 2,
+          "crypto.verify": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R08",
+      "narrative": "Signed measurements omit the admitted software digest.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "measurement-reference",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 2,
+            "crypto.verify": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 2872700,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "6f086f2741d813394d1dff3bf8c6beb1a29115eb95be0d24bc3f4673917ab8b8",
+          "role_inclusive_wall_ns": {
+            "source_production": 2232400,
+            "candidate": 280000,
+            "evaluator": 245600
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R08",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R08",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "measurement-reference",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 2,
+          "crypto.verify": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R09",
+      "narrative": "The result is signed by an untrusted verifier.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "invalid-signature",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 7,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 3,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 5621400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "dd080753b1e5080f53ae2a26365030a7e38c32bf5f749c3ae71d4f56f1032c9b",
+          "role_inclusive_wall_ns": {
+            "source_production": 4396700,
+            "candidate": 668000,
+            "evaluator": 342700
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R09",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R09",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 7,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "invalid-signature",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 3,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R10",
+      "narrative": "The result is addressed to a different relying party.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "audience-required-or-mismatch",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 5703900,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 4246900,
+            "candidate": 740900,
+            "evaluator": 462000
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R10",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R10",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "audience-required-or-mismatch",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R11",
+      "narrative": "A result is outside its selected receiving window.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "expired",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6054000,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 4671400,
+            "candidate": 850900,
+            "evaluator": 325500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R11",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R11",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "expired",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R12",
+      "narrative": "Software changes after correct appraisal while the result is still recent.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "current-state-does-not-match-result",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 9,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1,
+            "file.hash_read": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6927300,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "file.hash_read",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "c44ea029ed89938c0c0bda841dd76f72ee45e36d6478bf23ad97cd8846586c38",
+          "role_inclusive_wall_ns": {
+            "source_production": 4748400,
+            "candidate": 1694400,
+            "evaluator": 273000
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R12",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R12",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 9,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "current-state-does-not-match-result",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1,
+          "file.hash_read": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R13",
+      "narrative": "A trusted fixture attester lies about a bad file.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "current-state-does-not-match-result",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 9,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1,
+            "file.hash_read": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6789400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "file.hash_read",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "c44ea029ed89938c0c0bda841dd76f72ee45e36d6478bf23ad97cd8846586c38",
+          "role_inclusive_wall_ns": {
+            "source_production": 4724600,
+            "candidate": 1539500,
+            "evaluator": 301800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R13",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R13",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 9,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "current-state-does-not-match-result",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1,
+          "file.hash_read": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R14",
+      "narrative": "The receiving policy changes after appraisal.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "current-policy",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 5384300,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 4312200,
+            "candidate": 642300,
+            "evaluator": 247100
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R14",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R14",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "current-policy",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R15",
+      "narrative": "An acceptable software result does not create a revoked mission grant.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "grant-revoked",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 5879400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 4546500,
+            "candidate": 768500,
+            "evaluator": 354800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R15",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R15",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "grant-revoked",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R16",
+      "narrative": "The correct result cannot be queried for current state.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "current-state-unknown",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6130100,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 4825800,
+            "candidate": 760600,
+            "evaluator": 283800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R16",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R16",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "current-state-unknown",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R17",
+      "narrative": "Current state and policy are restored through a separately qualified new measurement.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "local-confirmation",
+        "effects": {
+          "applied_software_sha256": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+          "subject": "case-service",
+          "policy": "software-policy-v1"
+        },
+        "cost": {
+          "C_selected_api_units": 9,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1,
+            "file.hash_read": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6055500,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "file.hash_read",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "c44ea029ed89938c0c0bda841dd76f72ee45e36d6478bf23ad97cd8846586c38",
+          "role_inclusive_wall_ns": {
+            "source_production": 4311300,
+            "candidate": 1068700,
+            "evaluator": 396800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R17",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R17",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 9,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 9,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 9,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 9,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "local-confirmation",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1,
+          "file.hash_read": 1
+        },
+        "excess_by_component_against_witness": {
+          "attestation.appraisal": 0,
+          "attestation.receiving_policy": 0,
+          "crypto.verify": 0,
+          "file.hash_read": 0,
+          "json.parse": 0
+        }
+      }
+    },
+    {
+      "id": "R18",
+      "narrative": "A result records UNKNOWN instead of a good-state decision.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "result-not-pass",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 5219500,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 4292000,
+            "candidate": 566100,
+            "evaluator": 221400
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R18",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R18",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "result-not-pass",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R19",
+      "narrative": "A software result supplies no currently available human review.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "useful-human-review-not-established",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6803600,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 5292700,
+            "candidate": 931000,
+            "evaluator": 328400
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R19",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R19",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "useful-human-review-not-established",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "R20",
+      "narrative": "A correct sending decision has no confirmed actuation.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "no-confirmed-application",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 9,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1,
+            "file.hash_read": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 5873500,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "file.hash_read",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "c44ea029ed89938c0c0bda841dd76f72ee45e36d6478bf23ad97cd8846586c38",
+          "role_inclusive_wall_ns": {
+            "source_production": 4492200,
+            "candidate": 959700,
+            "evaluator": 237500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R20",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "R20",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 9,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "no-confirmed-application",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1,
+          "file.hash_read": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "R01-review_only",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "unresolved",
+        "effects": null,
+        "cost": {
+          "C_selected_api_units": 48,
+          "candidate_components": {
+            "attestation.appraisal": 12,
+            "json.parse": 24,
+            "crypto.verify": 12
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6116200,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 28,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 29,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 30,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 31,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 32,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 33,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 34,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 35,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 36,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 37,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 38,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 39,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 40,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 41,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 42,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 43,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 44,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 45,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 46,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 47,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 48,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 49,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 50,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "a182377336f79c0e9e3fb2d8ce789a70f6a8af574774e0519d2e912696dd8947",
+          "role_inclusive_wall_ns": {
+            "source_production": 2478400,
+            "candidate": 2943500,
+            "evaluator": 354800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R01",
+        "policy": "review_only"
+      },
+      "diagnostics": {
+        "source_case_id": "R01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 48,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 9,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 9,
+        "private_excess_signed": 39,
+        "private_excess_nonnegative": 39,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 9,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": true,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "unresolved",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "attestation.appraisal": 12,
+          "json.parse": 24,
+          "crypto.verify": 12
+        },
+        "excess_by_component_against_witness": {
+          "attestation.appraisal": 11,
+          "attestation.receiving_policy": -1,
+          "crypto.verify": 10,
+          "file.hash_read": -1,
+          "json.parse": 20
+        }
+      }
+    },
+    {
+      "id": "R12-false_closure",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "P",
+        "cause": "snapshot-pass-is-promoted-to-current-state",
+        "effects": {
+          "applied_software_sha256": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+          "subject": "case-service",
+          "policy": "software-policy-v1"
+        },
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "attestation.appraisal": 1,
+            "json.parse": 4,
+            "crypto.verify": 2,
+            "attestation.receiving_policy": 1
+          },
+          "other_roles": {
+            "source_production": {
+              "file.hash_read": 1,
+              "crypto.sign": 2
+            }
+          },
+          "elapsed_instrumented_wall_ns": 6832100,
+          "events": [
+            {
+              "seq": 1,
+              "role": "source_production",
+              "operation": "file.hash_read",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "candidate",
+              "operation": "attestation.appraisal",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "source_production",
+              "operation": "crypto.sign",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "attestation.receiving_policy",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "crypto.verify",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "json.parse",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "866af028e8de1848932644d5aa49f3141c1d420eefc696ffc04ba64c4316b5a9",
+          "role_inclusive_wall_ns": {
+            "source_production": 4910100,
+            "candidate": 848900,
+            "evaluator": 760200
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": true,
+        "actor_inputs": [
+          "evidence/result JWS",
+          "public keys",
+          "policy",
+          "nonce",
+          "current file source"
+        ],
+        "application_confirmation_remains_modelled": true,
+        "native_keys_or_tokens_exported": false,
+        "source_case_id": "R12",
+        "policy": "false_closure"
+      },
+      "diagnostics": {
+        "source_case_id": "R12",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": true,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "snapshot-pass-is-promoted-to-current-state",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "attestation.appraisal": 1,
+          "json.parse": 4,
+          "crypto.verify": 2,
+          "attestation.receiving_policy": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    }
+  ],
+  "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+}

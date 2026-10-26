@@ -1,0 +1,56 @@
+name: R01 version-aware audit
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/**"
+      - "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md"
+      - ".github/workflows/r01-audit-v2.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/**"
+      - "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md"
+      - ".github/workflows/r01-audit-v2.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reproduce R01 substantive checks and enforce documentary drift baseline
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/verify_audit_v2.py --verify
+
+      - name: Check current R01 canonical navigation and anchors
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_canonical_navigation.py
+
+      - name: Run R01 C02 neutral oracle Stage-0 self-test
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/verify.py
+
+      - name: Check current-route editorial presentation quality
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_current_editorial_quality.py
+
+      - name: Prove unrecorded documentary drift fails the gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          target="research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/EDITORIAL_REVIEW.md"
+          backup="$RUNNER_TEMP/EDITORIAL_REVIEW.md"
+          cp "$target" "$backup"
+          printf '\n<!-- deliberate CI-only unrecorded-drift probe -->\n' >> "$target"
+          set +e
+          output="$(python research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/verify_audit_v2.py --verify 2>&1)"
+          code=$?
+          set -e
+          printf '%s\n' "$output"
+          cp "$backup" "$target"
+          test "$code" -ne 0
+          grep -q '"combined_status": "UNRECORDED_DOCUMENTARY_DRIFT"' <<<"$output"

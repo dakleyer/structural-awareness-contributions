@@ -1,4 +1,8 @@
+> **Nota de revisión — 6 de octubre de 2026.** Cuerpo existente conservado. [Única VNext de MSCA](./README_VNext.md); auditoría e integraciones abiertas. [Plan del corpus completo](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
 # Minimum Sufficient Control / MSCA — canonical corpus entry
+
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 > **Status:** controlled MSCA corpus router and canonical entry point. This README defines the reading order and status of the MSCA line. It is not itself the complete MSCA architecture specification.
 
@@ -43,7 +47,7 @@ The static MSCA corpus is consolidated around three canonical documents:
    Authoritative generic architecture for the S/E/C/P/M kernel, one-MSCA/one-Objective-Envelope coherence rule, representation versus sufficiency assessment, process/topology extensibility, authority/evidence boundaries, multi-optima and burden, shared A/B/C/D qualified-position semantics, and ACC/role boundaries.
 
 2. [**MSCA Ecosystem Composition & Control**](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) — **CURRENT, v0.1 (23 September 2026).**  
-   Defines the participant-local **Ecosystem Cartography** of multiple objective-bound MSCAs. `A_Cart` is the represented semantic/dependency/process map, `B_Cart` is confidence/intensity per mapped element or relation, `C_Cart` is the current capability/effort frontier for expanding or refining the cartography, and `D_Cart` is residual. Resolution may range from semantic anchors to deterministic local process models. Composition & Control owns persistent `Cart_i` and cartographic change-set `Δ_Cart,i`; RA consumes a bounded qualified slice and returns `Δ_RA`, regime overlay and requalification requests.
+   Defines the participant-local **Ecosystem Cartography** of multiple objective-bound MSCAs. `A_Cart` is the represented semantic/dependency/process map, `B_Cart` carries established support and characterized assessment reserves, `C_Cart` carries grounded but uncharacterized exploration avenues, and `D_Cart` preserves effects beyond effective evaluation. Resolution may range from semantic anchors to deterministic local process models. Composition & Control owns persistent `Cart_i` and cartographic change-set `Δ_Cart,i`; RA consumes a bounded qualified slice and returns `Δ_RA`, regime overlay and requalification requests.
 
 3. [**MSCA Architectural Role**](./02_MSCA_ARCHITECTURAL_ROLE.md) — **CURRENT, v0.1 (23 September 2026).**  
    Defines the participant's static functional/contractual place inside one instantiated MSCA and one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC/lineage and authority references. It is deliberately **not** repositioning.
@@ -64,7 +68,7 @@ The Architecture document is now the canonical semantic reference. Source papers
 Read the corpus in this order:
 
 1. [Canonical MSCA Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md): current generic kernel, Objective-Envelope coherence rule, process/topology boundary, invariants and extension contract. **Status: canonical public working architecture.**
-2. [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): current multi-MSCA **Ecosystem Cartography**: variable-resolution semantic/dependency representation with A_Cart map, B_Cart confidence, C_Cart expansion capability and D_Cart residual. **Status: canonical public working specification.**
+2. [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): current multi-MSCA **Ecosystem Cartography**: variable-resolution semantic/dependency representation with A_Cart map, B_Cart support and characterized reserve, C_Cart exploration frontier and D_Cart residual beyond effective evaluation. **Status: canonical public working specification.**
 3. [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md): current participant-role model within one focal MSCA/Objective Envelope, including role-bound ACC and lineage. **Status: canonical public working specification.**
 4. [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md): current runtime drift-control, gradient, ACC/authority gate, re-contracting and defensive-repositioning specification. **Status: canonical public working specification.**
 5. [Architectural and standards working context](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md): original working note for the Objective Envelope, coordination/mechanism/means/response dimensions, research questions and programme boundaries. **Status: working context / lineage; not the final canonical architecture.**
@@ -131,7 +135,7 @@ No layer substitutes for another.
 | Objective-conditioned agentic gradient | **DEFINED in Ecosystem Positioning canonical working law; consumed by Canonical MSCA Operation & Repositioning** |
 | MSCA Ecosystem Composition & Control | **CURRENT — [v0.1](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md)** |
 | Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` | **DEFINED in Composition & Control v0.1** |
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
+| Semantic/dependency/process structures inside `A_Cart`, qualified element-wise by `B_Cart` support, validity limits and characterized assessment reserve; confidence is one qualifier | **DEFINED in Composition & Control v0.1** |
 | Composition update inputs/triggers/outputs (`Π_EA,i`, `ReceivedSignals_i`, `Cart_i/Δ_Cart,i`, RA feedback) | **DEFINED in Composition & Control v0.1** |
 | Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation & Repositioning specification | **CURRENT — [v0.1](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md)** |
@@ -156,3 +160,24 @@ This README is the controlled entry point for the MSCA corpus. Whenever an MSCA 
 Historical submissions and provenance records should remain stable. New architecture should be added through the canonical MSCA documents and explicit profiles/interfaces rather than by retroactively rewriting the meaning of earlier public submissions.
 
 **Claim status:** standards-oriented research and a posted focus-group input; no adopted ITU position, universal minimum, completed comparative validation or production certification.
+
+
+---
+
+## Additional work and complementary reading
+
+The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
+
+
+---
+
+## Review workspaces for Role and Composition
+
+The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
+
+
+---
+
+## Review workspaces for Architecture and ACC lineage
+
+The [Architecture review note](./00_ARCHITECTURE_REVIEW_CARD.md) and [ACC lineage review note](./01_ACC_REVIEW_CARD.md) lead to the separate audit workspaces for the current kernel and its canonical extension profile. Their original texts remain preserved; audit findings and proposed changes do not establish implementation validation or adoption.

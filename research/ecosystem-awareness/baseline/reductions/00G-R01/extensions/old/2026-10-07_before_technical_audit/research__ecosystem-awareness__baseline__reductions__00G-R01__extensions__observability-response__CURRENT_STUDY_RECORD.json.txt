@@ -1,0 +1,63 @@
+{
+  "schema": "DDS-CURRENT-STUDY-RECORD-0.1",
+  "documentation_revision": "0.2",
+  "date": "2026-10-07",
+  "canonical_method_index": "../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "stage": "A",
+  "coverage": "Simplified",
+  "state": "COMPLETE_WITHIN_DECLARED_LOCAL_QUESTION",
+  "question": "When does telemetry/alert delivery support a legitimate observed remediation or minimum continuity closure?",
+  "base": "OBSERVABILITY-RESPONSE-BOUNDED-RECEIVER-0.1",
+  "technology_configuration": "actual SQLite sample/notification/target/disposition state with selected threshold/for/receipt rules; no OpenTelemetry/Prometheus/exporter/live service or real on-call human executed",
+  "human_scenarios_and_parameters": "CURRENT_RUN_CARD.json#cases",
+  "step1": {
+    "state": "PERFORMED_WITHIN_SCOPE",
+    "isomorphism": "NOT_ESTABLISHED",
+    "transfer_limits": "EXTENSION.md"
+  },
+  "step2": {
+    "state": "PERFORMED_WITHIN_SCOPE",
+    "mechanisms": [
+      "tenant/freshness/minimum coverage qualification",
+      "timestamp-based pending/firing interval",
+      "notification receipt separated from remediation",
+      "action-boundary authority recheck",
+      "private target-state and false-source checks"
+    ],
+    "producers_costs_interactions_falsifiers": "EXTENSION.md"
+  },
+  "baseline": "same-information qualified/reference procedures with conventional native mechanisms credited",
+  "evidence": {
+    "registration": "CURRENT_RUN_CARD.json",
+    "freeze": "CURRENT_FREEZE.json",
+    "run": "runs/2026-10-07-03/RESULTS.json",
+    "cases": 10,
+    "separate_controls": 2,
+    "native_named_product_or_human": false,
+    "independence": false
+  },
+  "cost": {
+    "selected_unit_sum": 45,
+    "private_minimum": "frozen G only",
+    "global_accessible_lower_bound": "NOT_ESTABLISHED",
+    "money_human_network_lifecycle": "UNSCORED",
+    "ledger": "runs/2026-10-07-03/RESULTS.json",
+    "interpretation": "COST_INTERPRETATION.json"
+  },
+  "risk_effectiveness": "registered per-case I/M/P/Ø predicates; no population probability",
+  "Type1": {
+    "n": 1,
+    "d": 4
+  },
+  "Type2": {
+    "n": 1,
+    "d": 10
+  },
+  "business_value": "An operator can separate observed health, qualified pending state, alert delivery and actual local recovery; missing telemetry remains visible.",
+  "residual_limits": "A firing alert or delivered notification does not itself repair a service. Authenticated-looking telemetry may still be false. Real SLOs, paging latency and human response are uncalibrated.",
+  "candidate_specification": "CANDIDATE_SPECIFICATION_PACKAGE.json",
+  "Stage_B_C": "NOT_ESTABLISHED",
+  "delivery": "scoped research report/dossier complete; commissioned six-output delivery not implied",
+  "source_bibliography": "EXTENSION.md",
+  "historical_records_rewritten": false
+}

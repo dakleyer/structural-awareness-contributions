@@ -1,0 +1,39 @@
+{
+  "version": "0.1",
+  "frozen_at_utc": "2026-10-06T15:36:35.749054+00:00",
+  "registered_before_execution": true,
+  "cryptography_version": "50.0.1",
+  "canonical_DDS_profile": "single method0.1; scoped implementation instance",
+  "files": [
+    {
+      "path": "run.py",
+      "bytes": 7026,
+      "sha256": "f2190236adbf44e8acf5518ccb42c834cbb6a9b55e3d5b7c96af4b8d77c00d80"
+    },
+    {
+      "path": "RUN_CARD.json",
+      "bytes": 7007,
+      "sha256": "00ee78b2064d8faa8abaaa8a169a268681ddb641c2e8ddf3fded4a00d4763508"
+    },
+    {
+      "path": "../crypto_fixture.py",
+      "bytes": 3417,
+      "sha256": "b29c79864d0c3b711d1327f9c556e6fc823ba68c3612a59eac78798c8321708f"
+    },
+    {
+      "path": "../exercise_common.py",
+      "bytes": 1835,
+      "sha256": "2dfd0dcdd2227dbc6861a53f9583c93947d7ab97f02ae459ce7664db5bcec194"
+    },
+    {
+      "path": "fixture_good.py",
+      "bytes": 42,
+      "sha256": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d"
+    },
+    {
+      "path": "fixture_changed.py",
+      "bytes": 43,
+      "sha256": "bb4128c64f2f647c6ca6b22e77d7c7f352424790af9e82b507f75758165a7491"
+    }
+  ]
+}

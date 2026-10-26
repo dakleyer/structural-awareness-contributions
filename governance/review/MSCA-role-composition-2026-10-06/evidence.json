@@ -1,0 +1,157 @@
+{
+  "source_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
+  "internal_sources": [
+    {
+      "path": "standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md",
+      "sha": "9f6aef99c9f65888f10ce4b27f2e081388f3403c",
+      "scope": "Texto completo"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
+      "sha": "0366cbd184149235005dc2236b3da7e4c394ed3e",
+      "scope": "Texto completo"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md",
+      "sha": "ab03b11a6b91a156eaa22f76f4959d5ac530f52b",
+      "scope": "Pasajes declarados de contratos/relaciones"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md",
+      "sha": "6059423eb0e2eca5a1281225e117f9f5017e3286",
+      "scope": "Pasajes declarados de contratos/relaciones"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
+      "sha": "88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c",
+      "scope": "Pasajes declarados de contratos/relaciones"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
+      "sha": "95adebcd98c443f16d96feda1e2a7962853e7e93",
+      "scope": "Pasajes declarados de contratos/relaciones"
+    }
+  ],
+  "external_sources": [
+    {
+      "title": "Role-Based Access Controls",
+      "authors": [
+        "David F. Ferraiolo",
+        "D. Richard Kuhn"
+      ],
+      "year": 1992,
+      "url": "https://csrc.nist.gov/files/pubs/conference/1992/10/13/rolebased-access-controls/final/docs/ferraiolo-kuhn-92.pdf",
+      "scope": "Formal Description/three rules, PDF pp5–7; not whole paper or implementation"
+    },
+    {
+      "title": "PROV-DM",
+      "version": "W3C Recommendation2013-04-30",
+      "url": "https://www.w3.org/TR/prov-dm/",
+      "scope": "Selected §§5.2.1/5.3/5.7.2.3; not full spec or adapter"
+    },
+    {
+      "title": "[Theme] ATHENA: Telco-Grade Identity and Delegation Architecture for Agentic AI",
+      "url": "https://github.com/FG-TIDA/themes/issues/34",
+      "author": "flyingeng",
+      "state": "open",
+      "created": "2026-10-01T08:19:05Z",
+      "updated": "2026-10-01T17:31:59Z",
+      "scope": "Proposal body; XSTR.ATHENA and implementation not read"
+    }
+  ],
+  "rating_reassessment": [
+    {
+      "id": 52,
+      "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
+      "date": "2026-10-06",
+      "impact": "Medio",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Siguiente",
+      "wave": "2 — Coherencia entre RA, EA y MSCA",
+      "preparation": "Aclaración opcional; comprobar necesidad con lectura completa",
+      "decision_ready": false,
+      "benefit": "Hacer explícita en la frase de frontera una calificación ya prevista por el contexto de la fuente.",
+      "riskReason": "Una nota repetida puede agregar carga o leerse como contrato nuevo aunque Composition ya conserva scope/evidencia/vigencia; mantenerlo como claridad de lectura.",
+      "costReason": "Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.",
+      "gate": "No hay contradicción operativa demostrada. Decidir necesidad editorial y correspondencia en contexto; conservar los pares anteriores y las reservas de perfil.",
+      "rationale": "Composition §§3/8/10.1/10.4/13/18 exige soporte, scope, freshness y residual. Sin segunda traducción puede significar taxonomía compartida, sin negar calificación. El riesgo inicial era de lectura abreviada, no una omisión universal."
+    },
+    {
+      "id": 53,
+      "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
+      "date": "2026-10-06",
+      "impact": "Medio",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Siguiente",
+      "wave": "2 — Coherencia entre RA, EA y MSCA",
+      "preparation": "Aclaración opcional; comprobar necesidad con lectura completa",
+      "decision_ready": false,
+      "benefit": "Hacer explícita en la frase de frontera una calificación ya prevista por el contexto de la fuente.",
+      "riskReason": "Una nota repetida puede agregar carga o leerse como contrato nuevo aunque Composition ya conserva scope/evidencia/vigencia; mantenerlo como claridad de lectura.",
+      "costReason": "Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.",
+      "gate": "No hay contradicción operativa demostrada. Decidir necesidad editorial y correspondencia en contexto; conservar los pares anteriores y las reservas de perfil.",
+      "rationale": "Composition §§3/8/10.1/10.4/13/18 exige soporte, scope, freshness y residual. Sin segunda traducción puede significar taxonomía compartida, sin negar calificación. El riesgo inicial era de lectura abreviada, no una omisión universal."
+    },
+    {
+      "id": 54,
+      "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
+      "date": "2026-10-06",
+      "impact": "Medio",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Siguiente",
+      "wave": "2 — Coherencia entre RA, EA y MSCA",
+      "preparation": "Aclaración opcional; comprobar necesidad con lectura completa",
+      "decision_ready": false,
+      "benefit": "Aclarar para un lector la distinción ya establecida de rol contractual y conducta efectiva.",
+      "riskReason": "Modificar aisladamente la frase puede parecer corrección de un significado que el propio Role/Operation ya distingue; evitar nueva semántica obligatoria.",
+      "costReason": "Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.",
+      "gate": "No hay contradicción operativa demostrada. Decidir necesidad editorial y correspondencia en contexto; conservar los pares anteriores y las reservas de perfil.",
+      "rationale": "Role §13.1 usa exactamente el mismo what actually does y §14 mantiene objeto estático; la descripción 01C hereda una expresión de su fuente. Se matiza la urgencia inicial sin borrar la observación."
+    }
+  ],
+  "new_proposal": {
+    "id": 56,
+    "title": "Corregir el título duplicado de D_Cart",
+    "vnext": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+    "source": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
+    "source_sha": "0366cbd184149235005dc2236b3da7e4c394ed3e",
+    "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
+    "before": "### 3.4 D_Cart### 3.4 D_Cart — cartographic residual",
+    "after": "### 3.4 D_Cart — cartographic residual",
+    "before_matches": 1,
+    "after_matches": 0,
+    "state": "Pendiente de decisión",
+    "impact": "Bajo",
+    "risk": "Medio",
+    "effort": "Bajo",
+    "priority": "Después",
+    "wave": "4 — Lectura humana y rutas",
+    "benefit": "Que el encabezado de §3.4 sea legible sin duplicar el nombre del componente.",
+    "riskReason": "Cambiar el título cambia el slug del ancla; no se encontraron enlaces locales a ese fragmento en el grafo del corte, pero pueden existir referencias externas o históricas.",
+    "costReason": "Un encabezado, control de referencias/anclas y preservación de la versión previa; no cambios de significado.",
+    "dependencies": [
+      "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
+      "standards/minimum-sufficient-control/README.md"
+    ],
+    "gate": "Verificar referencias externas relevantes o conservar un ancla de compatibilidad en la edición aprobada; decisión de Iván antes de tocar la fuente.",
+    "preparation": "Corrección editorial pendiente; revisar ancla",
+    "source_guard": "Canon preservado hasta decisión",
+    "decision_ready": false,
+    "authorized_to_apply": false,
+    "positive_impact_proven": false,
+    "assessment_basis": "Lectura textual completa de Composition y revisión de enlaces del corte, sin inspección de todas las referencias externas."
+  },
+  "states": {
+    "logic_text_performed": true,
+    "editing_text_performed": true,
+    "human_read_simulated": true,
+    "evidence_partial": true,
+    "fifth_partial": true,
+    "sixth_global_pending": true
+  },
+  "canonical_changes_applied": false,
+  "corpus_programs_executed": false
+}

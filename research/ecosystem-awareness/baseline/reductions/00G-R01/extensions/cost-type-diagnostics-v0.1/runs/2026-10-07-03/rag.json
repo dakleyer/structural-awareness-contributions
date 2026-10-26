@@ -1,0 +1,1581 @@
+{
+  "original_world_replay": {
+    "cases": 8,
+    "outcomes": {
+      "I": 2,
+      "M": 3,
+      "Ø": 2,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 0,
+      "denominator": 5,
+      "fraction": "0",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 8,
+      "fraction": "1/8",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 3,
+    "total_selected_api_units": 20,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "fault_controls": {
+    "cases": 2,
+    "outcomes": {
+      "Ø": 1,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 1,
+      "denominator": 1,
+      "fraction": "1",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 2,
+      "fraction": "1/2",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 1,
+    "total_selected_api_units": 15,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "rows": [
+    {
+      "id": "RAG-01",
+      "narrative": "A procurement analyst asks for the current purchasing limit of tenant-a. One admitted current policy supplies the required fact.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "ANSWER",
+        "effects": {
+          "kind": "ANSWER",
+          "disclosed": [
+            {
+              "tenant": "tenant-a",
+              "revision": 1,
+              "expires": 20
+            }
+          ],
+          "value": 1000
+        },
+        "cost": {
+          "C_selected_api_units": 3,
+          "candidate_components": {
+            "sqlite.SELECT": 2,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 26105200,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "60a4fd3b2d115ff34037e628c5927d49f43ad7f1378f389ffc7b15782ad047d8",
+          "role_inclusive_wall_ns": {
+            "fixture": 20873200,
+            "candidate": 903500,
+            "evaluator": 13500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-01",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 3,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 3,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 3,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 3,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "ANSWER",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 2,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": {
+          "retrieval.qualification": 0,
+          "sqlite.SELECT": 0
+        }
+      }
+    },
+    {
+      "id": "RAG-02",
+      "narrative": "The policy is absent from the searchable corpus. The owner explicitly admits a recorded manual-review deferment.",
+      "candidate": {
+        "outcome": "M",
+        "cause": "DEFER",
+        "effects": {
+          "kind": "DEFER",
+          "disclosed": [],
+          "value": null
+        },
+        "cost": {
+          "C_selected_api_units": 2,
+          "candidate_components": {
+            "sqlite.SELECT": 1,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 15603400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "aef1d4d471d45d81f4454d865e41c9b30a450327a37901b310c929205881a42d",
+          "role_inclusive_wall_ns": {
+            "fixture": 10234300,
+            "candidate": 334600,
+            "evaluator": 6200
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-02",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-02",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 2,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 2,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 2,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 2,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DEFER",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 1,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": {
+          "retrieval.qualification": 0,
+          "sqlite.SELECT": 0
+        }
+      }
+    },
+    {
+      "id": "RAG-03",
+      "narrative": "The only matching policy expired before this request. The owner has not admitted a fallback.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "UNRESOLVED",
+        "effects": {
+          "kind": "UNRESOLVED",
+          "disclosed": [],
+          "value": null
+        },
+        "cost": {
+          "C_selected_api_units": 2,
+          "candidate_components": {
+            "sqlite.SELECT": 1,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 24907700,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "e66f7065774906732bb6418ef910e6eaf5ad92c939f5eedf195ce737d644d8ff",
+          "role_inclusive_wall_ns": {
+            "fixture": 19445500,
+            "candidate": 563300,
+            "evaluator": 8000
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-03",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-03",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 2,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "UNRESOLVED",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 1,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "RAG-04",
+      "narrative": "Only another tenant's matching policy exists. A correct lookup must not disclose that row to tenant-a.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "UNRESOLVED",
+        "effects": {
+          "kind": "UNRESOLVED",
+          "disclosed": [],
+          "value": null
+        },
+        "cost": {
+          "C_selected_api_units": 2,
+          "candidate_components": {
+            "sqlite.SELECT": 1,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 24682900,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "e66f7065774906732bb6418ef910e6eaf5ad92c939f5eedf195ce737d644d8ff",
+          "role_inclusive_wall_ns": {
+            "fixture": 20803900,
+            "candidate": 577900,
+            "evaluator": 8700
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-04",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-04",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 2,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "UNRESOLVED",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 1,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "RAG-05",
+      "narrative": "Two admitted current policies disagree. A recorded deferment is legitimate; selecting the first conflicting fact is not sufficient.",
+      "candidate": {
+        "outcome": "M",
+        "cause": "DEFER",
+        "effects": {
+          "kind": "DEFER",
+          "disclosed": [],
+          "value": null
+        },
+        "cost": {
+          "C_selected_api_units": 2,
+          "candidate_components": {
+            "sqlite.SELECT": 1,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 2,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 25330900,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "de20f86d1fb32e3a02ac876071356b0e7e400af435bd92bb5d0af1e97dc7a35e",
+          "role_inclusive_wall_ns": {
+            "fixture": 19912400,
+            "candidate": 620900,
+            "evaluator": 5500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-05",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-05",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 2,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 2,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 2,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 2,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DEFER",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 1,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": {
+          "retrieval.qualification": 0,
+          "sqlite.SELECT": 0
+        }
+      }
+    },
+    {
+      "id": "RAG-06",
+      "narrative": "A trusted current producer publishes a false policy value. Metadata authenticity/currentness do not establish the fact's truth.",
+      "candidate": {
+        "outcome": "P",
+        "cause": "ANSWER",
+        "effects": {
+          "kind": "ANSWER",
+          "disclosed": [
+            {
+              "tenant": "tenant-a",
+              "revision": 1,
+              "expires": 20
+            }
+          ],
+          "value": 2000
+        },
+        "cost": {
+          "C_selected_api_units": 3,
+          "candidate_components": {
+            "sqlite.SELECT": 2,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 22910700,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "60a4fd3b2d115ff34037e628c5927d49f43ad7f1378f389ffc7b15782ad047d8",
+          "role_inclusive_wall_ns": {
+            "fixture": 18389000,
+            "candidate": 877100,
+            "evaluator": 6100
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": true,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": true,
+        "source_case_id": "RAG-06",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-06",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 3,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": true,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "ANSWER",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 2,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "RAG-07",
+      "narrative": "The policy changes after retrieval and before use. The receiver rechecks the admitted version and records a permitted deferment.",
+      "candidate": {
+        "outcome": "M",
+        "cause": "DEFER",
+        "effects": {
+          "kind": "DEFER",
+          "disclosed": [],
+          "value": null
+        },
+        "cost": {
+          "C_selected_api_units": 3,
+          "candidate_components": {
+            "sqlite.SELECT": 2,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 2,
+              "sqlite.UPDATE": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 35708100,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "9d04352cd411a0fd00fe23f3d233ffa73343ace1bfd5729e02e426f530cdb0ef",
+          "role_inclusive_wall_ns": {
+            "fixture": 30263600,
+            "candidate": 11756900,
+            "evaluator": 9900
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-07",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-07",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 3,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 3,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 3,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 3,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "DEFER",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 2,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": {
+          "retrieval.qualification": 0,
+          "sqlite.SELECT": 0
+        }
+      }
+    },
+    {
+      "id": "RAG-08",
+      "narrative": "A document includes hostile instruction-like text plus the correct structured fact. This extractor treats it as data; no generative model is tested.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "ANSWER",
+        "effects": {
+          "kind": "ANSWER",
+          "disclosed": [
+            {
+              "tenant": "tenant-a",
+              "revision": 1,
+              "expires": 20
+            }
+          ],
+          "value": 1000
+        },
+        "cost": {
+          "C_selected_api_units": 3,
+          "candidate_components": {
+            "sqlite.SELECT": 2,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 25840900,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "60a4fd3b2d115ff34037e628c5927d49f43ad7f1378f389ffc7b15782ad047d8",
+          "role_inclusive_wall_ns": {
+            "fixture": 20456100,
+            "candidate": 782600,
+            "evaluator": 9700
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-08",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-08",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 3,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 3,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 3,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 3,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "ANSWER",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 2,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": {
+          "retrieval.qualification": 0,
+          "sqlite.SELECT": 0
+        }
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "RAG-01-review_only",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "UNRESOLVED",
+        "effects": {
+          "kind": "UNRESOLVED",
+          "disclosed": [],
+          "value": null
+        },
+        "cost": {
+          "C_selected_api_units": 13,
+          "candidate_components": {
+            "sqlite.SELECT": 12,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 28519400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "33347ea31baa7a0dd78f15e27a950b6ea0b0645dfb363c6e602217b61e3f4971",
+          "role_inclusive_wall_ns": {
+            "fixture": 21484400,
+            "candidate": 3435200,
+            "evaluator": 11300
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-01",
+        "policy": "review_only"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 13,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 3,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 3,
+        "private_excess_signed": 10,
+        "private_excess_nonnegative": 10,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 3,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": true,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "UNRESOLVED",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 12,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": {
+          "retrieval.qualification": 0,
+          "sqlite.SELECT": 10
+        }
+      }
+    },
+    {
+      "id": "RAG-04-false_closure",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "P",
+        "cause": "ANSWER",
+        "effects": {
+          "kind": "ANSWER",
+          "value": 1000,
+          "disclosed": [
+            {
+              "tenant": "tenant-b",
+              "revision": 1,
+              "expires": 20
+            }
+          ]
+        },
+        "cost": {
+          "C_selected_api_units": 2,
+          "candidate_components": {
+            "sqlite.SELECT": 1,
+            "retrieval.qualification": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.CREATE": 1,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 23979600,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "candidate",
+              "operation": "retrieval.qualification",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "e66f7065774906732bb6418ef910e6eaf5ad92c939f5eedf195ce737d644d8ff",
+          "role_inclusive_wall_ns": {
+            "fixture": 18842900,
+            "candidate": 509200,
+            "evaluator": 17400
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": true,
+        "actor_inputs": [
+          "query",
+          "tenant",
+          "now",
+          "retrieved rows",
+          "admitted fallback"
+        ],
+        "source_truth_limit": false,
+        "source_case_id": "RAG-04",
+        "policy": "false_closure"
+      },
+      "diagnostics": {
+        "source_case_id": "RAG-04",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 2,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": true,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "ANSWER",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 1,
+          "retrieval.qualification": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    }
+  ],
+  "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+}

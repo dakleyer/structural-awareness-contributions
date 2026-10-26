@@ -1,0 +1,63 @@
+{
+  "documentation_version": "0.3",
+  "canonical_stage": "A",
+  "profile": "hew",
+  "successor_packet": "cost-type-diagnostics-v0.1",
+  "run_id": "DDS-COST-TYPE-20261007-03",
+  "original_world": {
+    "cases": 21,
+    "outcomes": {
+      "I": 11,
+      "Ø": 9,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 0,
+      "denominator": 11,
+      "fraction": "0",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 21,
+      "fraction": "1/21",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 10,
+    "total_selected_api_units": 1366,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "fault_controls": {
+    "cases": 2,
+    "outcomes": {
+      "Ø": 1,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 1,
+      "denominator": 1,
+      "fraction": "1",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 2,
+      "fraction": "1/2",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 1,
+    "total_selected_api_units": 209,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "cost_minimum_domain": "frozen finite G",
+  "global_accessible_information_lower_bound": "NOT_ESTABLISHED",
+  "original_results_changed": false,
+  "full_trace_ref": "cost-type-diagnostics-v0.1/runs/2026-10-07-03/hew.json",
+  "independence_or_native_product_acceptance": false
+}

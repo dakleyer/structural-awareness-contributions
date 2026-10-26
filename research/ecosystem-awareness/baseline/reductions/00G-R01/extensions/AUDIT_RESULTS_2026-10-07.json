@@ -1,0 +1,66 @@
+{
+  "source_head": "f0edbbb840585b1991874c54aa8c8118c7210f5c",
+  "current_run": "extension-audit-v0.1/runs/2026-10-07-03",
+  "profiles": [
+    {
+      "profile": "hew",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "stamp-stpa",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "spiffe-jwt",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "rats-jws",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "rag",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "oauth-oidc",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "mcp-tool-calling",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "sql-transactions-idempotency",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "durable-workflows-retries",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "cache-ttl",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "queues-ack-redelivery",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "structured-output",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    },
+    {
+      "profile": "observability-response",
+      "all_outcomes_costs_G_minima_Type1_Type2_preserved": true
+    }
+  ],
+  "named_operations": 162,
+  "original_controls_separate": 26,
+  "repair_controls_separate": 40,
+  "outcomes_selected_costs_G_minima_Type_counts_preserved": true,
+  "current_assertion_pass_not_universal_task_success": true,
+  "same_author_local_audit": true,
+  "unresolved_historical_excluded_references": 5,
+  "public_relocated_links_repaired": 14
+}

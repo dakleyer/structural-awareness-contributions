@@ -1,0 +1,28 @@
+{
+  "version": "00G-HF-DYNAMIC-REVIEW-v0.1",
+  "date": "2026-10-02",
+  "parent_commit": "63bf804f5e5df932b53103f888df6baca0936d81",
+  "stochastic_campaign_networks_before_freeze": 0,
+  "pre_freeze_verification": {
+    "checks": 38,
+    "scripted_integration_fixtures": 3,
+    "not_campaign_evidence": true
+  },
+  "campaign_networks_planned": 1056,
+  "ea_execution": "NOT_RUN",
+  "model_calls": 0,
+  "files_sha256": {
+    "CONFIG.json": "bfe903ad4f9aef8701ec696b6f934bf5825082b8a9e00cc3a742290b19e78bc4",
+    "run.py": "81f49a985c5274d448fd98b8dbde86396f0b8c47d62ef55d885ff17ec2a71a18",
+    "verify.py": "ffa8ae979faa1be30335db519fa01d2302e4c27da9f5aa03fab3c38dc38dae07",
+    "PROTOCOL.md": "a840f2ec8640039ebfd74f47d531ed74e2f57862a07480923eb627c6f842011a",
+    "README.md": "827b9af36c8b0dcd546bdcef9559acbae39b565d18394916dde65280d2d0c101",
+    "VERIFICATION.json": "973623fae2b06d2fd5057232ebd482bf20b9162cdefde703e4a6721c5dd5c645"
+  },
+  "oracle_sha256": {
+    "core.py": "0b0f489ad4647be6cc3b964b7d13b3a563984f9a85417ae15ddaf4e5bcefd65c",
+    "oracle.py": "e87f5b50683904bb972b383fda2043e91da28bc3de271515e5dd2c3feca942e3",
+    "assessments.py": "c032d2bca3c1bbb7313cc81a2c48b6488da1be16162560a6190d6704034d1b86"
+  },
+  "publication_rule": "Commit this freeze before running the stochastic campaign. Record that commit with subsequent results. No future changes to this package after campaign execution; publish a successor."
+}

@@ -1,0 +1,21 @@
+A. Route-membership oracle (a human approves or rejects a whole route), exact optimum over adaptive trees
+ L=2 eps=0 b*=2
+  optimum    [0.25, 0.5, 1.0, 1.0]
+  2^(t-b*)   [0.25, 0.5, 1.0, 1.0]
+  Lemma 1 holds: True  tight at every t: True
+ L=3 eps=0 b*=3
+  optimum    [0.125, 0.25, 0.5, 1.0, 1.0]
+  2^(t-b*)   [0.125, 0.25, 0.5, 1.0, 1.0]
+  Lemma 1 holds: True  tight at every t: True
+ L=3 eps=1 b*=2
+  optimum    [0.25, 0.5, 1.0, 1.0, 1.0]
+  2^(t-b*)   [0.25, 0.5, 1.0, 1.0, 1.0]
+  Lemma 1 holds: True  tight at every t: True
+
+B. Noisy judge on each bit, accuracy q, L=3 bits, queries t needed for success >= 3/4
+ q=0.5   capacity per query=0.000 bits   queries needed (exact)=None   crude capacity estimate 3/capacity=inf
+ q=0.6   capacity per query=0.029 bits   queries needed (exact)=None   crude capacity estimate 3/capacity=103.3
+ q=0.75  capacity per query=0.189 bits   queries needed (exact)=19   crude capacity estimate 3/capacity=15.9
+ q=0.9   capacity per query=0.531 bits   queries needed (exact)=5   crude capacity estimate 3/capacity=5.6
+ q=0.99  capacity per query=0.919 bits   queries needed (exact)=3   crude capacity estimate 3/capacity=3.3
+ q=1.0   capacity per query=1.000 bits   queries needed (exact)=3   crude capacity estimate 3/capacity=3.0

@@ -1,0 +1,351 @@
+{
+  "baseline_commit": "1e940125a18f468268eff8f029a35c32a5f4ff08",
+  "source_blobs_checked": 39,
+  "source_blobs_exact": true,
+  "bounded_checkers": {
+    "hugging-face": {
+      "exit_code": 0,
+      "report_identical": true,
+      "output": "{\n  \"status\": \"ALL_FINITE_ASSERTIONS_PASSED\",\n  \"scope\": \"Synthetic encoding and explicit counterexamples only; no historical replay, LLM, network or product execution\",\n  \"counts\": {\n    \"complete_view_pairs\": 25,\n    \"early_exit_cost_identities\": 72,\n    \"exact_optima\": 576,\n    \"exact_query_policy_values\": 36,\n    \"full_and_repeated_cost_identities\": 72,\n    \"joint_configurations\": 288,\n    \"joint_radius_path_checks\": 100224,\n    \"path_outcome_and_connector_checks\": 33408,\n    \"path_set_bijections\": 576,\n    \"population_resource_configurations\": 24,\n    \"realized_chain_profiles\": 2304,\n    \"relay_deduplication_checks\": 24,\n    \"scope_and_authority_rejections\": 5,\n    \"window_unique_coverage_checks\": 918\n  },\n  \"full_R01_extensionality\": \"NOT_ESTABLISHED\"\n}\n",
+      "error": ""
+    },
+    "infoblox": {
+      "exit_code": 0,
+      "report_identical": true,
+      "output": "{\n  \"status\": \"all_assertions_passed\",\n  \"counts\": {\n    \"route_preservation\": 272,\n    \"complete_view_pairs\": 1092,\n    \"metadata_invariance\": 68,\n    \"gateway_checks\": 272,\n    \"population_cost_checks\": 204,\n    \"dp_values\": 51,\n    \"benefit_and_distance_profiles\": 272,\n    \"relay_coverage_checks\": 204\n  }\n}\n",
+      "error": ""
+    },
+    "family": {
+      "exit_code": 0,
+      "report_identical": true,
+      "output": "{\n  \"status\": \"PASS\",\n  \"scope\": \"exact finite constructed fragment only\",\n  \"base_commit\": \"114ac132bc2be4e7008001fe505bf5bd4c36c515\",\n  \"counts\": {\n    \"reachable_state_event_pairs\": 274572,\n    \"domain_structures\": 288,\n    \"state_roundtrips\": 16104,\n    \"diagnostic_state_event_pairs\": 172224,\n    \"view_pairs_and_full_review_controls\": 768\n  },\n  \"state_event_pairs_by_case\": {\n    \"H\": 91524,\n    \"L\": 91524,\n    \"W\": 91524\n  },\n  \"rejected_mutations\": [\n    \"non_bijective_map\",\n    \"swapped_roles\",\n    \"missing_edge\",\n    \"false_permission\",\n    \"changed_benefit\",\n    \"redistributed_benefits\",\n    \"scope_change\",\n    \"hidden_shortcut\",\n    \"free_review\",\n    \"launder_source\",\n    \"ignore_denial\",\n    \"probability\",\n    \"hidden_influence\",\n    \"oracle_leak\"\n  ],\n  \"parameter_change_counterexamples\": [\n    \"radius_changes_discovery\",\n    \"lower_cost_changes_affordability\"\n  ],\n  \"historical_reproduction\": false,\n  \"full_R01_simulator\": false,\n  \"EA_evaluation\": false,\n  \"checker_sha256\": \"f0bd2d52091d0a2b0138e5a9887d43a1ec3a6bb129d10847672a18eebbe9eedb\"\n}\n",
+      "error": ""
+    }
+  },
+  "manifest_mismatches": [
+    "hugging-face/README.md",
+    "infoblox/README.md",
+    "family/README.md"
+  ],
+  "common_audit": "FAIL at current scenario digest; inherited before proposed edits",
+  "scope": "internal reproduction and documentary plan review; no new R01 campaign or proof",
+  "plan_revision": "v0.2 scheduling addenda; original task text retained; added M10–M11, C11–C14, P10–P12, T11–T12",
+  "scientific_tasks_closed": [],
+  "planning_validation": {
+    "scope": "documentary plan and scheduling review only",
+    "task_count": 49,
+    "original_task_count": 38,
+    "added_task_count": 11,
+    "original_tasks_closed": 0,
+    "shared_marker_blocks": 5,
+    "local_markdown_targets_checked": 76,
+    "local_markdown_targets_exist": true,
+    "precedence_graph_acyclic": true,
+    "precedence_graph": {
+      "C01": [],
+      "C02": [
+        "C01",
+        "M01",
+        "M02",
+        "P03"
+      ],
+      "C03": [
+        "C02"
+      ],
+      "C04": [
+        "C03"
+      ],
+      "C05": [
+        "C04"
+      ],
+      "C06": [
+        "C05",
+        "C11",
+        "C13"
+      ],
+      "C07": [
+        "C06"
+      ],
+      "C08": [
+        "C07"
+      ],
+      "C09": [
+        "C08"
+      ],
+      "C10": [
+        "C09"
+      ],
+      "C11": [
+        "C02",
+        "P03",
+        "P10"
+      ],
+      "C12": [
+        "C07",
+        "C11",
+        "C13",
+        "P04"
+      ],
+      "C13": [
+        "C05"
+      ],
+      "C14": [
+        "C12",
+        "P11"
+      ],
+      "M01": [],
+      "M02": [
+        "M01"
+      ],
+      "M03": [
+        "M02",
+        "M10"
+      ],
+      "M04": [
+        "M03",
+        "M11"
+      ],
+      "M05": [
+        "C05",
+        "M04"
+      ],
+      "M06": [
+        "M05"
+      ],
+      "M07": [
+        "M06"
+      ],
+      "M08": [
+        "M07"
+      ],
+      "M09": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M10",
+        "M11"
+      ],
+      "M10": [
+        "M01",
+        "P03",
+        "P10"
+      ],
+      "M11": [
+        "M03"
+      ],
+      "P01": [],
+      "P02": [],
+      "P03": [],
+      "P04": [
+        "C05"
+      ],
+      "P05": [
+        "M01"
+      ],
+      "P06": [],
+      "P07": [],
+      "P08": [],
+      "P09": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P10"
+      ],
+      "P10": [],
+      "P11": [
+        "C12",
+        "P03",
+        "P10"
+      ],
+      "P12": [
+        "C14",
+        "P05",
+        "P11"
+      ],
+      "T01": [
+        "C02",
+        "M01"
+      ],
+      "T02": [
+        "T01"
+      ],
+      "T03": [
+        "C02",
+        "T02",
+        "T11"
+      ],
+      "T04": [
+        "C05",
+        "T03"
+      ],
+      "T05": [
+        "C06",
+        "C11",
+        "C13",
+        "T04"
+      ],
+      "T06": [
+        "T05"
+      ],
+      "T07": [
+        "T06"
+      ],
+      "T08": [
+        "T07"
+      ],
+      "T09": [
+        "T08"
+      ],
+      "T10": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09",
+        "T11"
+      ],
+      "T11": [
+        "T02"
+      ],
+      "T12": [
+        "C11",
+        "P11",
+        "T07"
+      ]
+    },
+    "unchanged_source_files": [
+      "Escenario-creatividad-validacion.md",
+      "PILOT_OBJECTIVE_TRACE.md",
+      "INCIDENT_SCOPE_TRACE.json",
+      "ORGANIZATION_TRACE.json",
+      "TRANSLATION_TRACE.json",
+      "INCIDENT_SCOPE_TRACE.md",
+      "build_document.py",
+      "build_figures.py",
+      "TRANSLATION_TRACE.md",
+      "ORGANIZATION_TRACE.md",
+      "PILOT_OBJECTIVE_TRACE.json",
+      "extensions/audit_results.json",
+      "extensions/EDITORIAL_REVIEW.md",
+      "extensions/METHODOLOGICAL_FOUNDATIONS.md",
+      "extensions/CRITERIA_AND_AUDIT.md",
+      "extensions/verify_audit.py",
+      "reductions/00G-to-R01/README.md",
+      "extensions/infoblox/SHA256.json",
+      "extensions/infoblox/README.md",
+      "extensions/hugging-face/coverage.json",
+      "extensions/hugging-face/SHA256.json",
+      "extensions/hugging-face/check.py",
+      "extensions/hugging-face/results.json",
+      "extensions/hugging-face/README.md",
+      "extensions/family/SHA256.json",
+      "extensions/family/README.md",
+      "extensions/family/KERNEL_AND_PROOF.md",
+      "extensions/infoblox/proof/check.py",
+      "extensions/infoblox/proof/results.json",
+      "extensions/infoblox/proof/README.md",
+      "extensions/hugging-face/proof/README.md",
+      "extensions/family/proof/check.py",
+      "extensions/family/proof/results.json",
+      "extensions/family/proof/README.md"
+    ],
+    "original_text_preservation": {
+      "README.md": {
+        "before_sha256": "8f7e7aa202cac29ec54da7ffddd6f2084c7c4dac80937532fc4afb6c19a4ac60",
+        "after_sha256": "7f2ad01e3ae129c5c96a7e5c8dcce9bb24194b8cf4c7da5eeac8d83075bca8a9",
+        "original_text_exactly_recoverable": true,
+        "removed_original_characters": 0,
+        "insertions": [
+          {
+            "index": 2244,
+            "text": "\n\n**Strategic review and complete execution prompt:** [Priorities, scores, 49 tasks and release gates](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md). Start with baseline/integrity triage (P08/C01), scope and measurement (M01/P03/P10), and targeted prior-art/counterexample review (P01/P02/M06). Then freeze C02/C11/C13 and build the tiny independent oracle. The table's document order is navigation, not a requirement to finish every mathematical task before implementation. The full campaign and later pilot-based selector have separate gates; qualify all three technologies, then stage their implementation through T11. All scientific/implementation tasks remain open.\n\nThe planning self-review reproduced all three extension finite reports, while the unchanged common audit still fails at the current scenario hash and all three extension README manifests mismatch. The [review evidence](./WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json) distinguishes those scopes. Historical hashes are retained; repair remains P08.\n"
+          }
+        ]
+      },
+      "MATHEMATICAL_FEASIBILITY.md": {
+        "before_sha256": "ba6c2d41d1c31ca14862e3e2ea118b6e8e46b5f28b956a8297169cc362111307",
+        "after_sha256": "ea306d182162677c4501a39047572f852aad29870e4353c5062d51a634f48ef8",
+        "original_text_exactly_recoverable": true,
+        "removed_original_characters": 0,
+        "insertions": [
+          {
+            "index": 8736,
+            "text": "\n\n### Strategic revision and execution gates — 3 October 2026\n\nPlanning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. This is a documentary self-review, not a mathematical validation or independent review. Read the [master execution prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) for priorities, the complete task register and release gates. Existing IDs and acceptance criteria remain in force. New tasks are OPEN. A documentary revision does not close an implementation, proof or empirical task.\n\n**Scheduling clarification:** reviews are recurring passes, not a reason to defer source checks, counterexamples or preservation until the end. Start P08/C01 baseline triage, M01/P03/P10 scope and measurement, and the minimum relevant P01/P02/M06 source-and-counterexample review together. Later passes complete their original criteria. Keep mathematical region proof, neutral evaluator implementation, base campaign, technology admission and prospective architecture selection as separate outputs. A rejected mathematical candidate does not block a neutral evaluator or a clearly scoped experiment.\n\n**Shared closure record:** task ID/status, owner, actual UTC date, input commit, exact scope, assumptions, evidence paths, commands and outcomes, review disposition, residual limits and next action. No assigned owner is invented: use UNASSIGNED until responsibility is accepted. Different tasks may reference one evidence artifact, but retain their own acceptance decisions. Reopen affected tasks when a material contract changes. Independent review is desirable evidence, not a prerequisite for starting authorized internal work; self-review must retain its label.\n\n**Mathematical ordering:** begin the source/counterexample intake of M06 before substantial M03 proof work; its final adversarial pass remains after the candidate and witnesses. M10 freezes the success/observation contract before M03. M11 challenges the candidate while M03/M04 are developed, before M04 is closed. M05 uses C05's independently checked finite reference. M09 closes a mathematical release only after M10/M11 and M01–M08 have evidence.\n\n| Added ID / status | Dependency and activity | Evidence needed to close |\n|---|---|---|\n| M10 — OPEN | After M01 with P03/P10, reconcile quantifiers, observation and risk semantics before M03. | One contract for existential feasible vs universal infeasible claims; world/policy/randomness quantifier order; e/a/f, p_min, delta and epsilon consistency; sigma/available-history definition including legitimate prior knowledge; whether finite event/query caps narrow the claim. Distinguish epistemic unresolved from a third logical region. A finite campaign failure never establishes universal infeasibility. |\n| M11 — OPEN | After M02, challenge M03/M04 candidate bounds and frontier robustness. | Boundary/equality and degenerate cases; dominant safe routes; sufficient certificates, pooled/cache information, early stopping and asymmetric priors; matching lower and constructive upper bounds where available; sensitivity to costs, benefit tolerances and observation rules. Record dependence on the generator/distribution and retain failed or empty-region outcomes. A symbolic counterexample narrows the claim instead of being excluded to manufacture a frontier. |\n\n**Scope-changing counterexample rule:** preserve the old statement and version, identify the broken assumption, revise M01/M10, and rerun affected executable witnesses. A failed proof is a recorded outcome, not permission to claim an empirical bound as a universal theorem.\n\n"
+          }
+        ]
+      },
+      "COMPUTABILITY_AND_ORACLE_PLAN.md": {
+        "before_sha256": "7855122e1822ceddeff09c133f32dbffa72689ff06d0c4965eb47b6663cdb2e7",
+        "after_sha256": "99c9aa9c3787f66e802a450e7cd80a26637e5683a86e6492edcc58769a799074",
+        "original_text_exactly_recoverable": true,
+        "removed_original_characters": 0,
+        "insertions": [
+          {
+            "index": 8281,
+            "text": "\n\n### Strategic revision and execution gates — 3 October 2026\n\nPlanning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. This is a documentary self-review, not a mathematical validation or independent review. Read the [master execution prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) for priorities, the complete task register and release gates. Existing IDs and acceptance criteria remain in force. New tasks are OPEN. A documentary revision does not close an implementation, proof or empirical task.\n\n**Scheduling clarification:** reviews are recurring passes, not a reason to defer source checks, counterexamples or preservation until the end. Start P08/C01 baseline triage, M01/P03/P10 scope and measurement, and the minimum relevant P01/P02/M06 source-and-counterexample review together. Later passes complete their original criteria. Keep mathematical region proof, neutral evaluator implementation, base campaign, technology admission and prospective architecture selection as separate outputs. A rejected mathematical candidate does not block a neutral evaluator or a clearly scoped experiment.\n\n**Shared closure record:** task ID/status, owner, actual UTC date, input commit, exact scope, assumptions, evidence paths, commands and outcomes, review disposition, residual limits and next action. No assigned owner is invented: use UNASSIGNED until responsibility is accepted. Different tasks may reference one evidence artifact, but retain their own acceptance decisions. Reopen affected tasks when a material contract changes. Independent review is desirable evidence, not a prerequisite for starting authorized internal work; self-review must retain its label.\n\n**Implementation ordering:** resource ceilings and observation/schema requirements are fixed in C02/C11 before expensive implementation or benchmarking. C13 begins with C02 and has a checked disposition before campaign execution. C06 is an instrument/reproduction gate, not the statistical campaign itself. C12 adds the missing campaign execution and analysis; C14 is a later, separate selector study. A bounded instrument release may close a scoped C10 pass while C12/C14 remain OPEN; it must not claim completion of this whole plan. A campaign release requires C11–C13; a selector release also requires C14 and P11/P12.\n\n| Added ID / status | Dependency and activity | Evidence needed to close |\n|---|---|---|\n| C11 — OPEN | Draft with M01/P03/P10; agree with C02 and freeze the campaign protocol before C06/T05. | Early runtime/memory/API-spend ceilings and stop rules; development/calibration vs held-out sets; primary contrasts and independent analysis unit; margins/thresholds, sample/precision justification, grouping, paired randomness, multiplicity and censoring; missing, timeout, retry and infrastructure-error handling. Zero violations has an upper uncertainty bound; insufficient precision gives an unresolved verdict. Scope/resource contract precedes C03; statistical freeze may use development calibration only. |\n| C12 — OPEN | After C05–C07, C11 and C13, execute and analyze the bounded base campaign. | Registered finite grid and competent frozen policies; full paired world/campaign traces, costs including no-delivery runs, q/e/a/f/C/t/K and uncertainty; held-out results, mechanism ablations, Pareto/tradeoff report and an adequate/inadequate/unresolved map for evaluated policies. Publish deviations, exclusions and negative results. Distinguish policy failure from a theorem about all policies. Technology campaigns additionally need T04/T05 evidence. |\n| C13 — OPEN | Begin at C02; complete after C05 and policy qualification, before C06/C12. | Audit accidental hints and generator conditioning; training/memory/tuning isolation; compatible information and resources; randomness stream coupling; comparator competence on positive controls; replay interventions vs total effects. Check environment receipts against SDK traces and inspect policies for accidental oracle access. Declare intentional predictive factors; absence of detected leakage is not proof of its absence. |\n| C14 — OPEN | Later stage after C12 and a separately frozen P11/C11 selector protocol. | Implement recommend/advise-against/indeterminate using only eligible small-pilot observations; isolate selector development and held-out evaluation, including held-out families when claimed. Compare simpler selection rules and competent alternatives; score false recommendations, missed opportunities, abstention/coverage, diagnostic/oversight costs and budget. Retain independently judged outcomes; an architecture cannot certify its own recommendation by assertion. No claim of scale transfer without P12 evidence. |\n\n**Cost containment:** exact tiny-world correctness comes before optimization and broad runtime integration. A solver timeout is an evaluator failure/unknown reference, not automatically an agent failure. Freeze handling of absent complete admissible routes, ties, encoding precision, exhausted budgets and horizon truncation. Exclude only under registered rules and retain rejection rates. A scope change requires a new registration and affected reviews, not silent post-result tuning.\n\n"
+          }
+        ]
+      },
+      "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md": {
+        "before_sha256": "9841151d9c3f87683d4bd6349fcf5318c4f80d573c39b9b3fa62c19d106121a8",
+        "after_sha256": "fd5e46850dd6efefdae3e47b2a7b3179aa7b5f9503b8ba15029544321489e802",
+        "original_text_exactly_recoverable": true,
+        "removed_original_characters": 0,
+        "insertions": [
+          {
+            "index": 25291,
+            "text": "\n\n### Strategic revision and execution gates — 3 October 2026\n\nPlanning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. This is a documentary self-review, not a mathematical validation or independent review. Read the [master execution prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) for priorities, the complete task register and release gates. Existing IDs and acceptance criteria remain in force. New tasks are OPEN. A documentary revision does not close an implementation, proof or empirical task.\n\n**Scheduling clarification:** reviews are recurring passes, not a reason to defer source checks, counterexamples or preservation until the end. Start P08/C01 baseline triage, M01/P03/P10 scope and measurement, and the minimum relevant P01/P02/M06 source-and-counterexample review together. Later passes complete their original criteria. Keep mathematical region proof, neutral evaluator implementation, base campaign, technology admission and prospective architecture selection as separate outputs. A rejected mathematical candidate does not block a neutral evaluator or a clearly scoped experiment.\n\n**Shared closure record:** task ID/status, owner, actual UTC date, input commit, exact scope, assumptions, evidence paths, commands and outcomes, review disposition, residual limits and next action. No assigned owner is invented: use UNASSIGNED until responsibility is accepted. Different tasks may reference one evidence artifact, but retain their own acceptance decisions. Reopen affected tasks when a material contract changes. Independent review is desirable evidence, not a prerequisite for starting authorized internal work; self-review must retain its label.\n\n**Research ordering:** P10 and a targeted P01/P02 pass precede broad campaign investment. P03 specifies measurement before C02/C11 are frozen; P04 reviews the C-workstream's artifacts rather than commissioning a duplicate oracle. P08 has an immediate triage pass and a later preservation/release pass. P11 specifies and audits later pilot-based selection; P12 checks its decision and transfer evidence. P09 closes only the declared release scope, with later-stage tasks explicitly retained OPEN when not included.\n\n| Added ID / status | Dependency and activity | Evidence needed to close |\n|---|---|---|\n| P10 — OPEN | Start with M01/P03; revisit after targeted P01/P02. Define the decision and research continuation gates. | Identify the architecture choice the study informs, alternatives, falsifiable incremental value, minimum useful evidence and expenditure ceiling. Freeze continue/narrow/reframe/stop dispositions. Equivalent prior work or a simpler adequate method may change the contribution without invalidating the instrument. Separate useful engineering evidence, novelty and EA advantage. No full survey is required before tiny neutral instrument work, but the closest relevant prior art must be checked before broad claims. |\n| P11 — OPEN | After the initial P03/P10 contract, design the later selection protocol before C14; review C11 and C12 as input. | Target decision, eligible small-pilot inputs, ground-truth outcome reference, comparator/selector training split, held-out distribution, rare-event precision and predeclared asymmetric error costs. Assess whether information available before selection can support the decision; register indeterminate output and out-of-distribution handling. The first campaign remains outcome measurement, not prior diagnosis. |\n| P12 — OPEN | After C14 for a selector claim; with P05/P11 and relevant T06/T12 for transfer. | Test whether bounded pilots improve architecture-choice accuracy or evaluation effort over simpler methods. Report coverage, wrong approvals/rejections, diagnostic cost and uncertainty; vary relevant length, population, dependency, change and information-volume factors or justify a bound. Record what transfer/scale claims survive, fail or remain unresolved. No one-world success or correct oracle implies deployment suitability. |\n\n**Verified inherited audit disposition:** at this review's fixed commit, all 39 downloaded R01 text/code blobs match Git blob identities. The HF, Infoblox and family finite checkers exit successfully and reproduce their recorded reports in isolation. The unchanged common verifier fails at the current scenario digest. SHA256 manifests mismatch all three extension READMEs (HF included), not only Infoblox/family. This updates the known scope of P08; it does not close it. Preserve historical manifests, reconstruct intervening edits and issue an explicit successor record/verifier rather than overwriting old expectations. This planning revision leaves the scenario, scripts, reports and old freezes unchanged.\n\n"
+          }
+        ]
+      },
+      "extensions/hugging-face/REMAINING_TASKS.txt": {
+        "before_sha256": "bbef87434641d0d09cc30794e72c8482b79bc91fb3f3ab35af811c1fb7d5141f",
+        "after_sha256": "4a31430cc03c079b39f0587d34695dcba2b78cd9c896130b9cc01d50f6a512b4",
+        "original_text_exactly_recoverable": true,
+        "removed_original_characters": 0,
+        "insertions": [
+          {
+            "index": 10077,
+            "text": "\n\nSTRATEGIC REVISION AND EXECUTION GATES — 3 October 2026\nPlanning revision v0.2; review input: 1e940125a18f468268eff8f029a35c32a5f4ff08.\nMaster prompt: ../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md\nExisting T01–T10 and their acceptance criteria remain. Added tasks are OPEN.\nThis documentary self-review establishes no new runtime compatibility.\n\nOrdering clarification: qualify all three candidates at T01/T02, then use\nT11 to choose the first implementation on observed accessibility, mapping\ngaps, controllability and estimated total cost. Keep all three candidates\nand their evidence; sequencing does not remove their original deliverables.\nT03/T04 may be staggered. No model-driven T05 before C05/C06/C11/C13 gates.\nT06 waits for the relevant mathematical result only when claiming theorem\ntransfer; ordinary scoped behavioral results may be reported while the\nuniversal proof remains unresolved. Negative mapping evidence is retained.\nT10 is a release-specific pass, repeated for later technologies and claims.\nT12 is required for broader suitability/transfer claims, not to label an\ninitial adapter-plumbing release as such.\n\nT11 — OPEN — Rank admission gaps and choose the first bounded integration.\nDepends: T01/T02 and C02; before model-driven integration investment.\nDeliver: one assessment per candidate with pinned access/versions, required\neffect receipts, information isolation, model/policy comparability, cost\nestimates and confidence/unknowns. Choose the least uncertain viable first\nintegration and register why. Inaccessible or outside-scope candidates\nretain BLOCKED/rejected dispositions and next actions, not invented access.\nNative tool/state structure can permit simpler tracing, but no framework\nis presumed cheaper, safer or theorem-compatible without this assessment.\n\nT12 — OPEN — Replicate and assess concrete transfer boundaries.\nDepends: T06/T07, C11 and the relevant P11/P12 protocol.\nDeliver: separate held-out runs and sensitivity to relevant versions,\nmodels/policies, geometry, scale, caching, concurrency and tool latency.\nDistinguish adapter errors, model behavior, runtime overhead and reference\nuncertainty. Do not infer common stochastic laws from equal field names\nor pooled results across frameworks. Define the claimed generalization;\nretain runtime-specific boundaries and narrower admission when necessary.\n\nRecurring review and closure record: owner (UNASSIGNED until accepted),\nactual UTC date, input commit, scope/configuration, evidence/commands,\noutcomes, review disposition, limits and next action. Reopen affected tasks\nwhen an interface, cost, authority or observation contract materially changes.\nUse the existing OPEN/IN_PROGRESS/BLOCKED/DONE vocabulary and the SAME shared\ndiscovery label. Fixture, campaign, theorem-transfer and historical-cause\nclaims remain distinct. This update does not close T01–T12.\n\n"
+          }
+        ]
+      }
+    },
+    "new_master_sha256": "171de5b1d6b0693f4e12190b91805956be2751322ca4ac2b2765bbb9ad295593",
+    "evidence_record_self_hash": "excluded to avoid a recursive hash; Git blob identifies published record",
+    "quality_rubric_weights": {
+      "scope": 0.15,
+      "dependencies": 0.25,
+      "evidence": 0.25,
+      "review": 0.15,
+      "strategy": 0.2
+    },
+    "quality_before": {
+      "M": 7.6,
+      "C": 7.6,
+      "P": 7.1,
+      "T": 7.6
+    },
+    "quality_after": {
+      "M": 8.5,
+      "C": 8.5,
+      "P": 8.0,
+      "T": 8.0
+    },
+    "score_kind": "subjective internal documentary planning assessment, not scientific validation"
+  }
+}

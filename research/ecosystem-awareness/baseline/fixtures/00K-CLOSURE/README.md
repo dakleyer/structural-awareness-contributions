@@ -1,5 +1,7 @@
 # 00K-CLOSURE — canonical syntactic closure integrity package
 
+> **Semantic scope of this proof record — 2 October 2026.** Current corpus meanings are defined in [00M §1 — canonical A/B/C/D definitions](../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). The grammar, fixtures and recorded results below retain their declared source vocabulary. Linking the current definition does not prove that a result transfers to the revised B/C boundary: that correspondence requires a separate semantic check. No formula, executed result or coverage count is changed here.
+
 > **Audit corrections — 26 September 2026:** [A14](./../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) describes current behavior and regression evidence. Prior execution records below remain historical; current implementations and replay outputs are versioned separately.
 
 This package is the single machine-readable companion for:

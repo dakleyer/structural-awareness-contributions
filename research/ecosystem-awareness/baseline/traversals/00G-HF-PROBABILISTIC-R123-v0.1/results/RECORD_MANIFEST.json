@@ -1,0 +1,17 @@
+{
+  "freeze_commit": "9d1307f502dec49e8b50ec7deb9184ad730ee6f5",
+  "raw_json_bytes": 28546969,
+  "raw_json_sha256": "2997abd923ca8739ed1d3272c079dfd38b748e5f74227c5554f99339b77acff4",
+  "published_xz_bytes": 48336,
+  "published_xz_sha256": "cd4eb4958814c53592ba990b65444cfdea41f5c3759b91efb6313d77344c4577",
+  "original_gzip_bytes": 1235322,
+  "original_gzip_sha256": "d850b88e13c6b2ac10305606e542ec91998fbf7d6210bdaff3f781a0627ba7d6",
+  "lossless": true,
+  "gzip_reconstruction_byte_exact": true,
+  "result_files_sha256": {
+    "RESULTS.md": "9605cecf0f2ffd7756ce6d4cffaed90bbd1dc6a00edd51c77fc5c744ed02f924",
+    "results/SUMMARY.json": "e87539404d8d06274f7f4c1c1b5cb83bcb5ae9f5792de44068cd74f23d2c5a33",
+    "results/VERIFICATION.json": "8f392e9e530463fdcdc64d59ea52b64659050c61e052234e712790be3e94b5b9",
+    "results/SELECTED_WITNESS.json": "75ff38c09ae95fb25a51d6350303630c2208c5c5bbc31256d0054a298cf2c0d9"
+  }
+}

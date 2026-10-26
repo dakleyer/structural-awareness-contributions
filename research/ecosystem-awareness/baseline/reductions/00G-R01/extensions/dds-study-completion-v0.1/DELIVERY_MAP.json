@@ -1,0 +1,65 @@
+{
+  "schema": "DDS-STUDY-COMPLETION-DELIVERY-0.1",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "commissioned_full_DDS": false,
+  "delivery_owner": "IMSV / Tegrity.AI, Ivan owner-authorized research route; same-author Codex preparation",
+  "technical_scope": "4 completed partial research DDS records, one shared completion packet; no extra canonical method or commercial output",
+  "objects": [
+    {
+      "object": 1,
+      "name": "IRG Sponsor verification hub/seal",
+      "status": "NOT_APPLICABLE_SELF_RESEARCH",
+      "completion_evidence": null,
+      "dependencies": "commissioning/sponsor recognition route absent"
+    },
+    {
+      "object": 2,
+      "name": "Executive Report",
+      "status": "SCOPED_RESEARCH_SUMMARY_PREPARED",
+      "completion_evidence": "README.md",
+      "dependencies": "GitHub publication + Drive checked mirror; no full commissioned10-15 page PDF claim"
+    },
+    {
+      "object": 3,
+      "name": "Technical Research Report",
+      "status": "FOUR_SCOPED_RESEARCH_RECORDS_PREPARED",
+      "completion_evidence": [
+        "HEW_COMPLETION_REPORT.md",
+        "STPA_COMPLETION_REPORT.md",
+        "SPIFFE_COMPLETION_REPORT.md",
+        "RATS_COMPLETION_REPORT.md"
+      ],
+      "dependencies": "original pinned studies + actual fresh checks; no commissioned30-35 page package claim"
+    },
+    {
+      "object": 4,
+      "name": "Reproducible GitHub technical record",
+      "status": "RELEASE_CANDIDATE_VERIFIED_FOR_AUTHORIZED_PUBLICATION",
+      "completion_evidence": [
+        "RELEASE_MANIFEST.json",
+        "REPRODUCTION_REVIEW.json",
+        "BOUNDARY_RUN_CARD.json",
+        "FREEZE.json",
+        "runs/2026-10-06-01/RESULTS.json"
+      ],
+      "dependencies": "non-force expected-head publication and post-publication verification; published predecessor already exists"
+    },
+    {
+      "object": 5,
+      "name": "DOI-preserved research object",
+      "status": "NOT_REQUESTED_OR_ISSUED",
+      "completion_evidence": null,
+      "dependencies": "eligible archive/disclosure action not performed"
+    },
+    {
+      "object": 6,
+      "name": "International pre-standardisation contribution",
+      "status": "DRAFT_ONLY_NOT_SUBMITTED",
+      "completion_evidence": "../dds-hew-v0.1/PRESTANDARDISATION_INPUT_DRAFT.md",
+      "dependencies": "forum rules/fit/owner authorized submission; no presentation/adoption claim"
+    }
+  ],
+  "supersedes_interpretation_only": "Old delivery-map object4 PREPARED_FOR_CANONICAL_RELEASE is historical; original package is public at e08e4f12ffd3f1dff64bc08df6af62c943992831. This edition records current preparation and release evidence separately.",
+  "post_publication_state_rule": "Verified public GitHub commit + checked Drive mirror establish delivery of this scoped research packet, not contract, Sponsor/seal, DOI or external acceptance."
+}

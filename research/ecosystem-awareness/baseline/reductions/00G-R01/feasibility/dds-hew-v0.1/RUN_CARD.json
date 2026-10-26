@@ -1,0 +1,2995 @@
+{
+  "schema": "HEW-DDS-MODEL-RUN-CARD-0.1",
+  "version": "0.4",
+  "run_id": "HEW-DDS-MODEL-20261006-04",
+  "registered_at_utc": "2026-10-06T13:17:14.104291+00:00",
+  "evidence_mode": "model integration self-test plus exact analytical reconstruction",
+  "technology": "Human escalation/whispering case-consumption model; SQLite local digital effect/recorder",
+  "native_technology_execution": false,
+  "real_human_execution": false,
+  "C02_admission": "candidate supporting slice, not full admission",
+  "C11_T03": "not a real-technology campaign; existing gates remain",
+  "scenario_count": 20,
+  "sqlite_narrative_scenarios": 18,
+  "additional_counterexamples": 1,
+  "units": {
+    "time": "synthetic integer ticks",
+    "cost": "declared work units/operation counts; no measured money",
+    "old_R01": "original abstract cost/probability law reported separately"
+  },
+  "model_law": {
+    "review_service": 3,
+    "ack_service": 1,
+    "application_service": 1,
+    "delivery_service": 1,
+    "nonpreemptible_busy_intervals": true,
+    "shared_person_ack_review_capacity": true,
+    "check_latency": "0 reference ticks, with nonzero-latency boundary control",
+    "checks_work_charge": 5,
+    "source_identity_state_truth": "explicitly stipulated unless an outside-contract diagnostic says otherwise",
+    "authority_enforcement": "current environment-supplied grant retained in SQLite and read at commit",
+    "effect": "SQLite effect row only, not an external physical actuation",
+    "source_truth_failure": "not repaired by a successful field check",
+    "whispering": "Two declared same-tenant affected recipients; zero-delay fixture receipts unless a negative control withholds one; one source lineage; required affected receipts checked at effect.",
+    "communication_work": "2 declared work units per recipient for send/receive processing; not measured network cost",
+    "source_preparation_work": "1 illustrative unit per case; actual evidence acquisition/preparation calibration open",
+    "outbox": "Case filing and pending notification records share local SQLite transaction; idempotent local relay; no external exactly-once guarantee",
+    "oracle_cost": "Derived from actual recorded milestones and fixed preregistered tariff; controller summary not trusted"
+  },
+  "oracle_boundary": "Controller receives only PUBLIC_KEYS; no private world/expected outcome. This is API projection in the declared controller, not malicious-code/OS isolation.",
+  "privacy_boundary": "Tenant/subject view restrictions on model API; SQLite admin access not isolated",
+  "nonretaliation_boundary": "No adverse-action route admitted from filing; no institution/human behavior evaluated",
+  "reference_methods": "First-slot scheduling versus integer-start enumeration; post-run private-world effect query. Same author, not independent external review.",
+  "fail_rule": "Any unexpected scenario verdict, trace/hash/freeze violation, authority/effect mismatch against private declared world, or negative-control assertion mismatch stops this self-test. Expected outside-contract counterexample stays FAIL_VIOLATION.",
+  "strong_baseline": "Competent existing grant/resource/queue controls credited; no vendor/native comparative arm executed and no incremental advantage presumed",
+  "business_value_rule": "Per-case useful sufficient authorized delivery, timely owner response, continuity and preserved filing; no scalar ROI/population weights",
+  "analytical_profiles": [
+    {
+      "scenario_id": "HEW-SC-01A",
+      "traversal": "R01-R2",
+      "a": "99/100",
+      "q": "9/10",
+      "beta": "941/990",
+      "b": 50,
+      "delta": "1/1000",
+      "p": "19/20",
+      "phase_cost": 20
+    },
+    {
+      "scenario_id": "HEW-SC-01B",
+      "traversal": "R01-R3-A",
+      "a": "99/100",
+      "q": "4/5",
+      "beta": "941/990",
+      "b": 50,
+      "delta": "1/1000",
+      "p": "19/20",
+      "phase_cost": 20
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "HEW-SC-02A",
+      "family_id": "HEW-SF-02",
+      "human_narrative": "H1 atiende una obligación crítica que no puede interrumpir. Una objeción nueva necesita tres unidades de revisión; H2 está cualificado y autorizado y puede reservar ese trabajo a tiempo.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-02A",
+          "scenario_id": "HEW-SC-02A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H1",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": [
+                [
+                  1,
+                  10
+                ]
+              ]
+            },
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-02A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-02A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-02A",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-02A",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-02A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-02B",
+      "family_id": "HEW-SF-02",
+      "human_narrative": "La misma objeción llega mientras H1 sigue ocupado, pero no hay otro revisor cualificado y autorizado. El canal puede registrar el caso y acusarlo sin poder resolverlo dentro de la ventana.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-02B",
+          "scenario_id": "HEW-SC-02B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H1",
+          "reviewers": [
+            {
+              "id": "H1",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": [
+                [
+                  1,
+                  10
+                ]
+              ]
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-02B",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-02B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-02B",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-02B",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-02B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-03A",
+      "family_id": "HEW-SF-03",
+      "human_narrative": "Una persona autorizada recibe dos objeciones con ventanas suficientemente separadas. Puede revisar ambas sin desplazar la obligación anterior.",
+      "selection_note": "Concrete full-work profile includes1 tick acknowledgement. Second positive arrival6/decision10 replaces the earlier draft illustrative arrival5/decision9; earlier draft remains retained.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-03A-1",
+          "scenario_id": "HEW-SC-03A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-03A-1",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-03A-1",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-03A-1",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-03A-1",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        },
+        {
+          "operation_id": "HEW-SC-03A-2",
+          "scenario_id": "HEW-SC-03A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 6,
+          "ack_deadline": 7,
+          "decision_deadline": 10,
+          "application_deadline": 11,
+          "delivery_deadline": 12,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-03A-2",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 6,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 6,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 6,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-03A-2",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-03A-2",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-03A-2",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-03A-1",
+          "purpose": "HEW-remediation"
+        },
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 6,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-03A-2",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        },
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true,
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-03B",
+      "family_id": "HEW-SF-03",
+      "human_narrative": "Dos objeciones llegan a la vez y ambas prometen la misma franja del único revisor. Cada una parece viable aislada, pero las dos no caben antes de sus plazos.",
+      "selection_note": "Concrete full-work profile includes1 tick acknowledgement. Second positive arrival6/decision10 replaces the earlier draft illustrative arrival5/decision9; earlier draft remains retained.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-03B-1",
+          "scenario_id": "HEW-SC-03B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-03B-1",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-03B-1",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-03B-1",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-03B-1",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        },
+        {
+          "operation_id": "HEW-SC-03B-2",
+          "scenario_id": "HEW-SC-03B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-03B-2",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-03B-2",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-03B-2",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-03B-2",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-03B-1",
+          "purpose": "HEW-remediation"
+        },
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-03B-2",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        },
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true,
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-04A",
+      "family_id": "HEW-SF-04",
+      "human_narrative": "El humano recibe una evidencia actual que cubre la condición material de esta operación. Los destinatarios reciben la misma procedencia y conocen exactamente qué sostiene.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-04A",
+          "scenario_id": "HEW-SC-04A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-04A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-04A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-04A",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-04A",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-04A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-04B",
+      "family_id": "HEW-SF-04",
+      "human_narrative": "Varios agentes repiten un aviso procedente de la misma fuente. El aviso solo cubre parte de la operación, o se refiere a otra versión; la cantidad de mensajes puede aparentar una confirmación más amplia.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-04B",
+          "scenario_id": "HEW-SC-04B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-04B",
+            "resource": "actuator-A",
+            "complete": false,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-04B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-04B",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-04B",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-04B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-05A",
+      "family_id": "HEW-SF-05",
+      "human_narrative": "Una persona con competencia para este tipo de incidente interpreta el certificado aplicable y selecciona la alternativa permitida. El sistema registra qué evidencia y alcance usó.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-05A",
+          "scenario_id": "HEW-SC-05A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-05A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-05A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-05A",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-05A",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-05A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-05B",
+      "family_id": "HEW-SF-05",
+      "human_narrative": "El certificado llega correctamente y a tiempo, pero la persona interpreta mal su alcance o selecciona una acción equivocada. La presencia del humano no corrige automáticamente esa decisión.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-05B",
+          "scenario_id": "HEW-SC-05B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "X",
+          "human_choice": "X",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-05B",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "X",
+            "case": "HEW-SC-05B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-05B",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-05B",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "X",
+          "case": "HEW-SC-05B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-06A",
+      "family_id": "HEW-SF-06",
+      "human_narrative": "El humano autoriza una corrección específica del casoA sobre recursoA, y el servicio actúa bajo esa delegación vigente. La decisión y el efecto conservan la misma referencia.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-06A",
+          "scenario_id": "HEW-SC-06A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-06A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-06A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-06A",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-06A",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-06A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-06B",
+      "family_id": "HEW-SF-06",
+      "human_narrative": "El servicio tiene privilegios amplios y recibe una petición para otro recurso, o el permiso caduca antes de aplicar la corrección. Usar el privilegio propio del servicio produciría una intervención no justificada por esa decisión.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-06B",
+          "scenario_id": "HEW-SC-06B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-06B",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 7,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-06B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-06B",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-06B",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 7,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-06B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": false,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-07A",
+      "family_id": "HEW-SF-07",
+      "human_narrative": "El servicio que necesita revisión permite un traspaso breve a un respaldo. El humano puede mantener la continuidad mientras se evalúa y aplica la corrección.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-07A",
+          "scenario_id": "HEW-SC-07A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-07A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-07A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-07A",
+          "continuity": {
+            "pause_permitted": false,
+            "handover_established": true
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-07A",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-07A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-07B",
+      "family_id": "HEW-SF-07",
+      "human_narrative": "Parar el servicio incumpliría una obligación crítica y no se ha establecido una alternativa autorizada que quepa en la ventana. El aviso debe conservarse aunque todavía no exista reparación útil.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-07B",
+          "scenario_id": "HEW-SC-07B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-07B",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-07B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-07B",
+          "continuity": {
+            "pause_permitted": false,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-07B",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-07B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": false
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-08A",
+      "family_id": "HEW-SF-08",
+      "human_narrative": "La corrección se aplica después de instalar el nuevo traspaso y comprobar la autorización. Una consulta o medición del efecto confirma lo ocurrido; el caso puede avanzar hacia reentrada.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-08A",
+          "scenario_id": "HEW-SC-08A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-08A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-08A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-08A",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-08A",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-08A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-08B",
+      "family_id": "HEW-SF-08",
+      "human_narrative": "Una orden antigua llega durante el traspaso, o la corrección se ejecuta pero se pierde la respuesta. El humano ve una aprobación o timeout sin saber todavía qué ocurrió.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-08B",
+          "scenario_id": "HEW-SC-08B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-08B",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-08B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 42,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-08B",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-08B",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-08B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-09A",
+      "family_id": "HEW-SF-09",
+      "human_narrative": "Tras la objeción llega evidencia nueva y suficiente dentro del plazo. El humano y el controlador corrigen la base, invalidan el compromiso anterior y reanudan la alternativa autorizada.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative. A1 sets both restart-pair work budgets24 before execution to separate no-new-basis failure from added-message budget exhaustion; clocks/history are retained.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-09A",
+          "scenario_id": "HEW-SC-09A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-09A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-09A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-09A",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-09A",
+            "version": 1
+          },
+          "restart_count": 1,
+          "new_evidence": true,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 24,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-09A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-09B",
+      "family_id": "HEW-SF-09",
+      "human_narrative": "El equipo reinicia tres veces con la misma fuente y el mismo punto ciego. No aparece evidencia nueva; las notificaciones repetidas no hacen independiente cada intento.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative. A1 sets both restart-pair work budgets24 before execution to separate no-new-basis failure from added-message budget exhaustion; clocks/history are retained.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-09B",
+          "scenario_id": "HEW-SC-09B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-09B",
+            "resource": "actuator-A",
+            "complete": false,
+            "appraised": false,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-09B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-09B",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-09B",
+            "version": 1
+          },
+          "restart_count": 3,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 24,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-09B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-10A",
+      "family_id": "HEW-SF-10",
+      "human_narrative": "Dos equipos reciben un caso común mediante una correspondencia documentada de decisión, recurso y vigencia. Cada uno conserva su autoridad y devuelve una respuesta con el alcance acordado.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-10A",
+          "scenario_id": "HEW-SC-10A",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-10A",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-10A",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-10A",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-SC-10A",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-10A",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        true
+      ]
+    },
+    {
+      "scenario_id": "HEW-SC-10B",
+      "family_id": "HEW-SF-10",
+      "human_narrative": "Un equipo interpreta 'aprobado' como autorización de actuar y el otro solo como revisión terminada. O usa otra ventana/versionado, mientras los mensajes parecen idénticos.",
+      "selection_note": "One concrete selected branch of the earlier illustrative narrative.",
+      "modality": "SQLITE_DETERMINISTIC_MODEL",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-SC-10B",
+          "scenario_id": "HEW-SC-10B",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-SC-10B",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-SC-10B",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-SC-10B",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "review_completed",
+            "operation_id": "HEW-SC-10B",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-SC-10B",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "Y",
+          "basis_truth": true,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ]
+    },
+    {
+      "scenario_id": "HEW-DIAG-FALSE-APPRAISAL",
+      "family_id": "HEW-SF-04",
+      "human_narrative": "La fuente afirma que su certificado fue appraised y es suficiente, pero el hecho que sostiene es falso. La integración no tiene una fuente legítima adicional para descubrirlo.",
+      "selection_note": "Deliberately outside the admitted truthful-source hypothesis. Retain the counterexample; never label it a successful protected decision.",
+      "modality": "OUTSIDE_SOURCE_CONTRACT_DIAGNOSTIC",
+      "controller_configuration": "HEW-DDS-SQLITE-MODEL-0.2",
+      "public_cases": [
+        {
+          "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "scenario_id": "HEW-DIAG-FALSE-APPRAISAL",
+          "tenant": "A",
+          "principal": "principal-A",
+          "deputy": "case-service",
+          "resource": "actuator-A",
+          "action": "Y",
+          "human_choice": "Y",
+          "arrival": 2,
+          "ack_deadline": 3,
+          "decision_deadline": 6,
+          "application_deadline": 7,
+          "delivery_deadline": 8,
+          "horizon": 20,
+          "review_service": 3,
+          "application_duration": 1,
+          "delivery_duration": 1,
+          "gate_latency": 0,
+          "owner": "H2",
+          "reviewers": [
+            {
+              "id": "H2",
+              "qualified": true,
+              "may_review": true,
+              "may_ack": true,
+              "busy": []
+            }
+          ],
+          "evidence": {
+            "case": "HEW-DIAG-FALSE-APPRAISAL",
+            "resource": "actuator-A",
+            "complete": true,
+            "appraised": true,
+            "version": 1,
+            "as_of": 2,
+            "expires": 20,
+            "recommended_action": "Y"
+          },
+          "identity_accepted": true,
+          "state_appraisal": {
+            "accepted": true,
+            "resource": "actuator-A",
+            "policy_version": 1,
+            "as_of": 2,
+            "expires": 20
+          },
+          "capacity_observation": "current",
+          "grant": {
+            "verified": true,
+            "active": true,
+            "policy_version": 1,
+            "not_before": 2,
+            "expires": 20,
+            "principal": "principal-A",
+            "actor": "case-service",
+            "tenant": "A",
+            "resource": "actuator-A",
+            "action": "Y",
+            "case": "HEW-DIAG-FALSE-APPRAISAL",
+            "purpose": "HEW-remediation"
+          },
+          "request_epoch": 43,
+          "installed_floor": 43,
+          "token_verified": true,
+          "token_resource": "actuator-A",
+          "token_actor": "case-service",
+          "command_id": "command-HEW-DIAG-FALSE-APPRAISAL",
+          "continuity": {
+            "pause_permitted": true,
+            "handover_established": false
+          },
+          "semantic_binding": true,
+          "semantic_contract": {
+            "approval_kind": "action_authorization",
+            "operation_id": "HEW-DIAG-FALSE-APPRAISAL",
+            "version": 1
+          },
+          "restart_count": 0,
+          "new_evidence": false,
+          "reply_lost": false,
+          "effect_query_available": true,
+          "work_budget": 20,
+          "native_execution": false,
+          "source_preparation_work": 1,
+          "affected_recipients": [
+            {
+              "id": "agent-B",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            },
+            {
+              "id": "agent-C",
+              "tenant": "A",
+              "authorized": true,
+              "receipt_delay": 0
+            }
+          ]
+        }
+      ],
+      "environment_authority_inputs": [
+        {
+          "verified": true,
+          "active": true,
+          "policy_version": 1,
+          "not_before": 2,
+          "expires": 20,
+          "principal": "principal-A",
+          "actor": "case-service",
+          "tenant": "A",
+          "resource": "actuator-A",
+          "action": "Y",
+          "case": "HEW-DIAG-FALSE-APPRAISAL",
+          "purpose": "HEW-remediation"
+        }
+      ],
+      "private_worlds": [
+        {
+          "correct_action": "X",
+          "basis_truth": false,
+          "effect_authorized": true,
+          "continuity_supported": true
+        }
+      ],
+      "expected_sufficient_delivery": [
+        false
+      ],
+      "expected_violation": true
+    }
+  ],
+  "extra_controls": [
+    "private-key rejection",
+    "negative case view",
+    "filing not grounds",
+    "append-only event UPDATE/DELETE rejection",
+    "hash-chain tamper detection",
+    "atomic double-reservation",
+    "effect idempotency/conflicting ID",
+    "authority-source versus caller description",
+    "revocation between review and effect",
+    "resource floor retained after restart",
+    "unknown effect after lost reply",
+    "reconciliation without reapplying effect",
+    "added check latency",
+    "unknown capacity",
+    "stale state result",
+    "bounded whispering lineage/minimal payload",
+    "missing affected receipt",
+    "recipient scope denial",
+    "local outbox after reopen/replay",
+    "event-derived outcome/cost against forged summaries",
+    "changed case tenant/resource/actor",
+    "grant existence versus purpose applicability",
+    "charged-work budget prevents effect when exhausted"
+  ],
+  "claims_pending": [
+    "native validators/crypto/STS",
+    "actual human source/performance calibration",
+    "all effect-path coverage",
+    "physical/distributed atomicity",
+    "protected OS storage and independent roots",
+    "independent/source-owner review",
+    "full C02/C11/T03 admission",
+    "commissioned DDS recognition/DOI/forum route"
+  ],
+  "amendment": {
+    "id": "A3",
+    "parent_run": "HEW-DDS-MODEL-20261006-03",
+    "reason": "Public-distribution metadata boundary: remove private process-resource links from the narrative catalogue. Same executable sources, concrete instances, laws and thresholds. Register and freeze before a fresh run; do not relabel original results.",
+    "parent_freeze_sha256": "eb434b8ab2c127b6ffc1d0e348d771fd7977e0e7b19cff517314da4317585ef1",
+    "runtime_or_oracle_changed": false,
+    "scenario_laws_changed": false,
+    "prior_results_relabelled": false
+  },
+  "prior_amendments": [
+    {
+      "id": "A1",
+      "parent_run": "HEW-DDS-MODEL-20261006-01",
+      "reason": "Add bounded whispering, durable local outbox/relay, serialized event append and source-preparation charges; derive outcomes/cost from persisted events; expand scope-binding and oracle-forgery controls. Prior freeze/source/result retained unchanged.",
+      "original_H1_results_changed": false,
+      "first_selftest_relabelled": false
+    },
+    {
+      "id": "A2",
+      "parent_run": "HEW-DDS-MODEL-20261006-02",
+      "reason": "Add existing-but-purpose-inapplicable grant and charged-work budget boundary controls, identified from the source cross-review. Same model/controller laws; no threshold repair after failure.",
+      "original_H1_results_changed": false,
+      "prior_results_relabelled": false
+    }
+  ]
+}

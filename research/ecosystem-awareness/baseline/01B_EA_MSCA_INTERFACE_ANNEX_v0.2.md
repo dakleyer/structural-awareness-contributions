@@ -1,5 +1,7 @@
 # Annex 01B — Ecosystem Awareness / Minimum Sufficient Control Architecture interface
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** public working interface annex, v0.2, 23 September 2026. Additive companion to the Ecosystem Awareness (EA) corpus; not one of the six controlled/frozen v0.4 release-baseline documents. This is a proposed cross-programme integration surface, not a deployed interface, completed joint validation, ITU-T deliverable, FG-AI4SSC/FG-TIDA adoption, production certification or substitute for the [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md).
 
 **Supersedes for current reading:** [v0.1](./01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), which remains preserved for provenance.
@@ -44,7 +46,7 @@ The public FG-AI4SSC input [FGAI4SSC-I-097](../../../submissions/itu-fg-ai4ssc/F
 
 The sufficiency problem is **conditional and multi-objective**. For a candidate configuration x=(C,P,M), MSCA assesses x against the applicable S and E and distinguishes SUPPORTED, FAILED and UNRESOLVED. Selection or preference among supported alternatives may consider burden, reach, latency, human capacity, infrastructure, privacy, intervention intensity, switching cost and other owner-authorized trade-offs. A finite tested set cannot prove a global minimum, and one scalar burden score must not silently erase non-compensable constraints.
 
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
+The symbol **x** denotes a candidate control configuration. **A** denotes the functional result delivered by the declared producer and process for a specified question, scope, capability and time. A claim or scope declaration may be part of that result.
 
 ## 3. Source-profile mapping from the published urban/smart-city working paper
 
@@ -75,7 +77,7 @@ EA does not originate S(t), participation legitimacy, identity or control mandat
 |---|---|---|
 | F1 mission/context qualification | Decision/mission identifier; material domains; criticality; tolerated residual; response capability; human/compute capacity; useful-response deadline | Bind a sufficiency claim to the affected objective, consequence, capacity and decision horizon. S still comes from the legitimate owner. |
 | F2 Semantic Window / acquisition-pathway qualification | W(d,t), freshness/coverage, provenance, missing/costly pathways, expected acquisition value | Test whether current M observation/signalling means are adequate without treating more data as automatically better. |
-| F3/F4 local/external evidence qualification + F5 composition | Scope-indexed claims and the canonical qualified A/B/C/D position where material — situated assertion/scope, directional confidence, current-capability frontier and structural residual — plus inherited uncertainty, source dependence, coupling and compatibility residual | Prevent an MSCA assessment from relying on duplicated evidence, foreign scope, unqualified translation or false systemic closure. |
+| F3/F4 local/external evidence qualification + F5 composition | Scope-indexed claims and the canonical qualified A/B/C/D position where material — functional result, established basis and assessable reserve, exploration frontier and residual beyond effective evaluation — plus inherited uncertainty, source dependence, coupling and compatibility residual | Prevent an MSCA assessment from relying on duplicated evidence, foreign scope, unqualified translation or false systemic closure. |
 | F6 operating-frame assessment | Qualified current frame plus legacy EA Normal / Containment / Migration-Regime Transition posture evidence, with recorded residual | Ask whether current E and the assumptions supporting the control configuration still hold. The preserved F6 posture semantics remain EA source lineage; current operational P1/P2/P3 closure belongs to [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), and neither posture nor MSCA assessment is an actuation permit. |
 | F7 targeted requalification + F8 bounded statement | Affected domain/dependency, what changed, capacity gap, residual, requested requalification, receiver-specific bounded statement | Reassess only materially affected S/E/C/P/M assumptions; avoid a universal “add control” response. |
 | F9 feedback/revalidation | Outcome-to-assumption discrepancy, pathway learning and reason for reopening the frame | Re-enter MSCA assessment after material change instead of carrying forward an expired sufficiency claim. |

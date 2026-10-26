@@ -1,0 +1,658 @@
+{
+  "version": "0.3",
+  "input_commit": "dbae916553166a29f9e756f8c7a6efdfa4c93c21",
+  "actual_utc": "2026-10-04T02:55:51.200031+00:00",
+  "plan_editor": "Codex, on user instruction",
+  "scientific_tasks_closed_by_this_revision": [],
+  "current_order": "G0 theorem target -> G1 all-policy proofs and audits -> G2 technology classes -> G3 bridge/extensions -> G4 campaigns -> G5 selector -> G6 scoped release",
+  "task_count": 55,
+  "counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 5,
+    "OPEN": 46,
+    "BLOCKED": 0
+  },
+  "original_task_IDs_preserved": 49,
+  "new_task_IDs": [
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17"
+  ],
+  "tasks": {
+    "M01": {
+      "status": "DONE",
+      "priority": "P0",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Fix domain, policies, quantifiers, distribution or worst case, thresholds and F/U regions; allow empty regions. **DONE — scope formulation**, [result](./M01_SCOPE_AND_QUANTIFIERS.md).",
+      "historical_evidence_retained": true
+    },
+    "M02": {
+      "status": "DONE",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Construct difficult worlds and viable control with ground truth, observations, optimum and mixtures; rule out a sufficient common shortcut. **DONE — construction and controls**, [result](./M02_WORLDS_AND_CONTROLS.md).",
+      "historical_evidence_retained": true
+    },
+    "M03": {
+      "status": "IN_PROGRESS",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Derive necessary information and resources, covering adaptation, randomness, memory, certificates and collaboration of the asserted class. **IN_PROGRESS — existing F/W derivation; closure of the expanded objective pending**, [Universal proofs, frontiers and technologies](./M03_M04_TRILEMMA_THEOREMS.md).",
+      "historical_evidence_retained": true,
+      "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M04": {
+      "status": "IN_PROGRESS",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M03",
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Prove or reject a region through inequalities, frontiers and a nonemptiness witness; retain the failed attempt. **IN_PROGRESS — existing F/W derivation; closure of the expanded objective pending**, [Universal proofs, frontiers and technologies](./M03_M04_TRILEMMA_THEOREMS.md).",
+      "historical_evidence_retained": true,
+      "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M05": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M04",
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Check witnesses against C02–C05 and map assumptions; finite enumeration covers its declared domain.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M06": {
+      "status": "IN_PROGRESS",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Verify sources and attack the proof with counterexamples; start targeted search early and complete the argument audit. **IN_PROGRESS — source intake**, [record](./M06_PRIMARY_SOURCE_INTAKE.md).",
+      "historical_evidence_retained": true,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M07": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "M17",
+        "M06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Review correspondence with R01, 00M/00N, E1–E7 and extensions; separate scenario, technology and historical incident.",
+      "historical_evidence_retained": false
+    },
+    "M08": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Review clarity and visuals; distinguish proved, measured and unresolved regions, with axes and units.",
+      "historical_evidence_retained": false
+    },
+    "M09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M05",
+        "M07",
+        "M08",
+        "M16"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Preserve content, links and frozen versions; close the mathematical deliverable with evidence and limits.",
+      "historical_evidence_retained": false
+    },
+    "M10": {
+      "status": "DONE",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Unify success/risk, observation and quantifiers before M03; do not confuse empirical failure with universal impossibility. **DONE — contract reconciliation**, [result](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true
+    },
+    "M11": {
+      "status": "IN_PROGRESS",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "M02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Attack frontiers, degenerate cases, priors, certificates and controls; check sensitivity and constructive upper bounds when they exist. **IN_PROGRESS — cost and prior controls**, [record](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M12": {
+      "status": "OPEN",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M01",
+        "M02",
+        "M10",
+        "P03"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Target-theorem contract and obligation mapping. **OPEN**; full criteria and dependencies in the current plan above.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Versioned contract of independent parameters theta=(L,n,N,geometry,interface,prior,costs,prior data,thresholds), policies and results C/eta/rho/sigma. Separate AVG/WC, per-trace/expected budget and work/latency. Fix technology→family→size→policy quantifiers and the three pairwise controls, viable and infeasible families. Inventory of claims with hypotheses, lemma, construction and required review; separate minimum thesis from expansions. Do not infer hardness from L, N or distance alone.",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M13": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M03",
+        "M04",
+        "M12",
+        "M06",
+        "M11"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Theorems on technology classes and complete cost. **OPEN**; full criteria and dependencies in the current plan above.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Classify coordinate interfaces, global predicates/certificates and executors/barriers; define observable simulation and charges justifying inheritance of a bound. For each class: hypotheses, producer/use cost, lower bound, upper control or open limit, kernel change and absolute/relative elimination or elimination of risk only. Compare f(n(L))/C0(L); retain worsening cases. A commercial name, positive cost or output size establishes neither membership nor persistence.",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M14": {
+      "status": "OPEN",
+      "priority": "P2",
+      "dependencies_for_final_closure": [
+        "M12",
+        "M11",
+        "M03",
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Robustness with partial information, noise and amortization. **OPEN**; full criteria and dependencies in the current plan above.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Fix separate profiles for partial/noisy/stale certificates, initial information, cache and preparation costs allocated across episodes. Retain error laws, freshness, correlation and total charge. Derive bounds and controls where generalization is claimed; in other profiles record OUT_OF_SCOPE or UNRESOLVED. Distinguish new data from reuse and per-execution budget from expected budget; W5 is not announced as an exact frontier.",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M15": {
+      "status": "OPEN",
+      "priority": "P2",
+      "dependencies_for_final_closure": [
+        "M12",
+        "M03",
+        "M13"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Distributed and geometric extension: work and latency. **OPEN**; full criteria and dependencies in the current plan above.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Define network of N agents, fact locations, distances/topology, message capacity and price, queues and deadline. Retain centralized envelope for aggregate work. For any new temporal claim, derive a communication/critical-path bound and a realizable control, charging duplication and maintenance. Identify regions where parallelism/proximity resolve the deadline and where they do not. Do not extrapolate work bounds to time or geometry.",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M16": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M03",
+        "M04",
+        "M06",
+        "M11",
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Independent symbolic review of the proof. **OPEN**; full criteria and dependencies in the current plan above.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Reviewer distinct from the author and not fictitiously assigned: reconstruct F1–F4, W1–W5, G1, T1/T2 and quantifiers, covering omitted policies, normalization, budget in failed branches, abstention, equality and known controls. Verdict per claim: VALIDATED_IN_SCOPE, COUNTEREXAMPLE or GAP; M13–M15 reviewed separately if included. Executing the author's script does not suffice. Consider formalizing critical lemmas if it adds coverage; an incomplete attempt is not formal proof. Self-review may continue without closing this task.",
+      "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "M17": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M12",
+        "M03",
+        "M04",
+        "M06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Mathematical bridge between the families and R01. **OPEN**; full criteria and dependencies in the current plan above.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Choose an explicit objective: supplemental family or R01 subfamily. To assert the latter, construct embedding/reduction of worlds, actions, observations, effects and costs; map ALL relevant R01 policies into the covered class, including connectors, geometry, authority, queries and barriers. Check reduction direction: exhibiting a policy or preserving selected traces does not suffice to transfer impossibility. Limit the result to a submodel or mark GAP if R01 supplies additional information or actions. E1–E7 and M07 consistency do not replace the reduction.",
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "C01": {
+      "status": "OPEN",
+      "priority": "P0",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Inventory and reproduce existing code; identify reuse, constraints and fingerprints without renaming controls as R01 campaigns.",
+      "historical_evidence_retained": false
+    },
+    "C02": {
+      "status": "OPEN",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "C01",
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Fix schemas, encoding, operations, costs, observations and horizon/termination; declare any narrower submodel.",
+      "historical_evidence_retained": false
+    },
+    "C03": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implement an independent generator and exact reference; check M/I/P, ties, connectors, mixtures and world rejections.",
+      "historical_evidence_retained": false
+    },
+    "C04": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C03"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implement execution, recorder, costs and evaluation of effects, quality, success, violations, incompleteness and times.",
+      "historical_evidence_retained": false
+    },
+    "C05": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Check small worlds and invalid traces; attack stale evidence, duplication, permissions and oracle leakage.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "C06": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C05",
+        "C11",
+        "C13"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Deliver a reproducible traversal with command, environment, policies, seeds and traces; improvement, rejection and incompleteness without forced failures.",
+      "historical_evidence_retained": false
+    },
+    "C07": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Measure time/memory under registered limits; retain timeouts and distinguish evaluator cost from operational cost.",
+      "historical_evidence_retained": false
+    },
+    "C08": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Audit numerical precision, randomness, competence and termination; resolve or record corpus discrepancies.",
+      "historical_evidence_retained": false
+    },
+    "C09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "C06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Verify another bot understands installation, execution, outputs and failures; review visuals when they clarify limits.",
+      "historical_evidence_retained": false
+    },
+    "C10": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "C08",
+        "C09"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Freeze successor and review diff, links, fingerprints and preservation for each deliverable's scope.",
+      "historical_evidence_retained": false
+    },
+    "C11": {
+      "status": "OPEN",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "C02",
+        "P03"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Register resources, precision, samples, contrasts, units, grouping, multiplicity, censoring, errors and stopping rules before execution.",
+      "historical_evidence_retained": false
+    },
+    "C12": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "C05",
+        "C07",
+        "C11",
+        "C13",
+        "P04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Execute base campaign and paired analysis: q/e/a/f/C/t/K, uncertainty, ablations and regions for evaluated policies.",
+      "historical_evidence_retained": false
+    },
+    "C13": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Audit accidental clues, tuning/memory, comparators and randomness streams; complete control before the campaign.",
+      "historical_evidence_retained": false
+    },
+    "C14": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "C12",
+        "P11"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implement and evaluate architecture selector with pilots and separate sets; compare simple rules and retain indeterminacy.",
+      "historical_evidence_retained": false
+    },
+    "P01": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Deepen primary sources and freeze locators; claim–source matrix and search limits.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "P02": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Try to obtain the same value with existing methods and simple alternatives; falsify each surviving contribution.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "P03": {
+      "status": "DONE",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Audit measures and boundary cases; retain costs without delivery, indeterminacy and constraints without reward compensation. **DONE — measurement audit**, [result](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true
+    },
+    "P04": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Review C oracle contract and evidence; do not create duplicate work under another name.",
+      "historical_evidence_retained": false
+    },
+    "P05": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "M07"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Verify requirements, terminology, authority, versions and transfer limits against the current corpus.",
+      "historical_evidence_retained": false
+    },
+    "P06": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Check readability for research and architecture decisions without losing technical distinctions.",
+      "historical_evidence_retained": false
+    },
+    "P07": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Evaluate visual aids; every conceptual figure is identified and no invented frontier is presented as measured.",
+      "historical_evidence_retained": false
+    },
+    "P08": {
+      "status": "OPEN",
+      "priority": "P0/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Diagnose integrity initially and repair with an explicit successor; retain history and verify navigation/content.",
+      "historical_evidence_retained": false
+    },
+    "P09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M16"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Audit deliverable value and strongest claim; record limits and distinguish self-review from independent review.",
+      "historical_evidence_retained": false
+    },
+    "P10": {
+      "status": "IN_PROGRESS",
+      "priority": "P0",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Define decision, alternatives, falsifiable incremental value and investment ceiling; gates for continuing, narrowing, reformulating or stopping. **IN_PROGRESS — initial decision to continue/narrow**, [record](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true
+    },
+    "P11": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "C12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Design selection study before C14: eligible information, independent reference, error, cost and partitions.",
+      "historical_evidence_retained": false
+    },
+    "P12": {
+      "status": "OPEN",
+      "priority": "P3/R",
+      "dependencies_for_final_closure": [
+        "C14"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Check improvement in decisions or effort and scale limits; a correct oracle does not prove prospective pilot utility.",
+      "historical_evidence_retained": false
+    },
+    "T01": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M12",
+        "C02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Fix three configurations of smolagents, LangGraph and OpenAI Agents SDK, versions, models, controls and real access.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "T02": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "T01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Map E1–E7, parameters, traces and uncovered operations; admit, restrict or reject correspondences with evidence.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "T03": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T02",
+        "C02",
+        "T11"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implement adapters and recorder per technology; check replay, duplication, order and unexpected effects.",
+      "historical_evidence_retained": false
+    },
+    "T04": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T03",
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Check permitted, forbidden, blocked, incomplete, late and exhausted fixtures; separate fixture from behavior.",
+      "historical_evidence_retained": false
+    },
+    "T05": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T04",
+        "C06",
+        "C11",
+        "C13"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Execute registered traversals with model/policy, real traces and independent evaluation; retain errors and abstentions.",
+      "historical_evidence_retained": false
+    },
+    "T06": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Issue verdict per technology and measure costs/latencies; justify exact, approximate, rejected or open transfer.",
+      "historical_evidence_retained": false
+    },
+    "T07": {
+      "status": "OPEN",
+      "priority": "P2/R",
+      "dependencies_for_final_closure": [
+        "T06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Attack admission with native controls, certificates, memory, hidden information and omitted costs; verify fixed APIs.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "T08": {
+      "status": "OPEN",
+      "priority": "P2/R",
+      "dependencies_for_final_closure": [
+        "T07"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Review consistency and scientific eligibility; infer neither historical causality nor EA advantage.",
+      "historical_evidence_retained": false
+    },
+    "T09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "T08"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Review readability and visuals of adapter–recorder–oracle traversal and its limits.",
+      "historical_evidence_retained": false
+    },
+    "T10": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "T09"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Preserve all three dispositions, files, results and links; audit each technology deliverable.",
+      "historical_evidence_retained": false
+    },
+    "T11": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "T02",
+        "C02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Qualify all three and prioritize first implementation by observed feasibility and uncertainty; do not presume access or cost.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "supplemental/2026-10-04/README.md"
+    },
+    "T12": {
+      "status": "OPEN",
+      "priority": "P3/R",
+      "dependencies_for_final_closure": [
+        "T06",
+        "T07",
+        "C11",
+        "P11",
+        "P12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Replicate on separate sets and check sensitivity/versions/scale; do not transport rates between different policies.",
+      "historical_evidence_retained": false
+    }
+  },
+  "dependency_semantics": "final-closure dependencies; preparation and early source/attack work may begin before them. T06 behavioral closure is separate from universal transfer, which additionally requires M13/M17/M16. C11 starts with resource contract, freezes statistics before campaign. M16 audits included M13–M15 claims separately without a cyclic dependency.",
+  "source_artifacts": "M01/M02/M10/TRILEMMA historical evidence and base scenario unchanged; theorem doc receives status notice only",
+  "next_delivery": [
+    "M12 versioned target contract and obligation matrix",
+    "M06/M11 first directed attacks"
+  ],
+  "independent_review": false,
+  "mathematical_results_changed": false,
+  "additional_material_intake": {
+    "actual_utc": "2026-10-04T03:08:56.888758+00:00",
+    "input_commit": "85f1692cd1e823b990dec2cbe8e0c983de669ab3",
+    "dossier": "supplemental/2026-10-04/README.md",
+    "material_count": 6,
+    "scripts_executed": 4,
+    "new_tasks": [],
+    "tasks_closed": [],
+    "priority": "mathematical validity first; technology qualification second",
+    "next_delivery_unchanged": [
+      "M12 obligation matrix",
+      "M06/M11 directed attacks"
+    ]
+  }
+}

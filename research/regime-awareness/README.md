@@ -1,4 +1,8 @@
+> **Nota de revisión — 6 de octubre de 2026.** Cuerpo existente conservado. [Única VNext de Regime Awareness](./README_VNext.md); auditoría e integraciones abiertas. [Plan del corpus completo](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
+
 # Regime Awareness — corpus index
+
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 Regime Awareness asks whether the evidence and historical context behind a current inference or control posture still belong to the operating regime for which they were qualified. It does not require complete hidden-state reconstruction or exact future prediction. Regime Change Detection is the narrower quantitative question of observable departure; actionable warning additionally needs representational sufficiency, a useful response horizon, legitimate authority and bounded action downside.
 
@@ -14,7 +18,7 @@ The short router below sits inside the broader [Structural Awareness programme](
 
 - [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/) — the direct theoretical/field series for continued operating validity;
 - [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/) — the upstream question of what was sufficiently established before commitment;
-- [Human Intelligence Debt](https://tegrity.ai/series/human-intelligence-gap/) — the finite human-capacity problem behind escalation and review;
+- [Human Intelligence Debt](https://tegrity.ai/series/human-intelligence-gap/) — the architecture-level allocation/debt problem of human cognition; runtime escalation capacity is a separate operational surface in the 01K Human Capacity / Human Intelligence Debt extension;
 - [Informational Friction](https://tegrity.ai/series/informational_friction/) — the map/flow mismatch that makes stale-but-locally-correct operation possible.
 
 [PROGRAMME_CONTEXT.md](./PROGRAMME_CONTEXT.md) retains the fuller explanation, including Attribution Gap, xSeil and Phylons. These are conceptual and engineering lineage, not validation of the detector or broader RA architecture.
@@ -30,8 +34,8 @@ The short router below sits inside the broader [Structural Awareness programme](
 The corpus distinguishes the **public minimal detector** from the broader current Regime Awareness integration.
 
 - The minimal detector remains representation-relative and bounded: it qualifies observable continuation/departure under declared Ψ/context/baseline/threshold/delay and does not claim full hidden-state reconstruction.
-- The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: direction (A_RA), confidence/intensity attached to that direction (B_RA), recognized current-capability frontier (C_RA), and structural/residual unknown (D_RA). Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
-- `Δ_RA` is a **qualified directional change input**, not a gradient. Its structural context may include the participant-local [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) Ecosystem Cartography: represented elements/dependencies (`A_Cart`), element-wise confidence (`B_Cart`), expansion capability (`C_Cart`) and residual (`D_Cart`). The participant-local agentic gradient is computed only after projection through the receiver's own objectives/dependencies/focal MSCA.
+- The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: qualified direction (A_RA), established support, validity limits and characterized assessment reserve (B_RA), grounded exploration avenues not yet characterized (C_RA), and potentially material effects beyond effective evaluation under the declared frame (D_RA). Confidence qualifies evidential support; it is not the physical magnitude of change or all of B_RA. Uncertain role classification remains UNKNOWN. Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
+- `Δ_RA` is a **qualified directional change input**, not a gradient. Its structural context may include the participant-local [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) Ecosystem Cartography: represented elements/dependencies (`A_Cart`), established support and characterized reserve (`B_Cart`), exploration frontier (`C_Cart`) and residual beyond effective evaluation (`D_Cart`). The participant-local agentic gradient is computed only after projection through the receiver's own objectives/dependencies/focal MSCA.
 - Regime Awareness does **not** issue the participant's final Normal / Containment / Migration-Regime Transition posture. EA supplies the qualified mission/frame inputs; Canonical MSCA Operation/Repositioning operationally instantiates P1/P2/P3 from the delta plus MSCA risk, ACC, authority/capacity and local thresholds/hysteresis. P2 is a posture classification, not an executed containment command.
 
 ## Circuit inputs, triggers and outputs

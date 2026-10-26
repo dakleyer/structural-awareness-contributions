@@ -1,0 +1,171 @@
+{
+  "schema": "DDS-EXTENSION-RUN-CARD-0.1",
+  "study": "DDS-DURABLE-WORKFLOW-RETRY-20261006",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_DDS": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "base": {
+    "id": "DURABLE-LOCAL-CLOSURE-0.1",
+    "scope": "own persisted local workflow/resource model, not native Temporal or R01 law"
+  },
+  "technology": {
+    "id": "Durable workflow and bounded retries",
+    "configuration": "own SQLite journal/worker restart/resource-key model + bounded retry/deferment + local grant/epoch check",
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "parameters": {
+    "deadline_ticks": 5,
+    "bounded_attempts": 2,
+    "operation": "operation-a",
+    "worker_epoch": 1
+  },
+  "stage1": {
+    "status": "performed within scope",
+    "relation": "documentary durable-execution semantics and bounded executable local correspondence; no native/R01 isomorphism",
+    "transfer": "local trace/resource contract only"
+  },
+  "stage2": {
+    "status": "performed within scope",
+    "mechanisms": [
+      "persistent status/recovery",
+      "bounded retry policy",
+      "resource-side idempotency",
+      "explicit minimum closure/deferment",
+      "current generation/grant and useful-time checks"
+    ],
+    "material_assumptions": [
+      "stable operation identity",
+      "idempotent complete effect path",
+      "correct source/grant/generation",
+      "useful service-time bound",
+      "M explicitly admissible and reachable"
+    ]
+  },
+  "outcomes": {
+    "I": "one permitted local effect plus completed persisted workflow within useful window",
+    "M": "explicitly admitted persisted local deferment, not human service performed",
+    "P": "duplicate/wrong/unauthorized local effect",
+    "Ø": "no sufficient I/M closure"
+  },
+  "acceptance": "actual outcome/effect assertions; WF04 additionally executes a bounded conventional M witness under same outage/deadline/fallback; no vendor/population acceptance",
+  "cost": "actual instrumented explicit SQL calls and logical attempt/tick counts; setup/commit primitives/service/network/producer/human/lifecycle tariffs unscored",
+  "oracle": "post-run connection inspects effects and workflow status/tick; expected case outcomes not passed into worker; same-process instrumentation only",
+  "sources": [
+    {
+      "id": "DB02",
+      "url": "https://www.sqlite.org/lang_transaction.html",
+      "title": "SQLite transaction control",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "WF01",
+      "url": "https://docs.temporal.io/activity-execution",
+      "title": "Temporal activity execution",
+      "access": "official current documentary mechanism; no Temporal execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "WF02",
+      "url": "https://docs.temporal.io/encyclopedia/retry-policies",
+      "title": "Temporal retry policies",
+      "access": "official retry limits; no Temporal execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "WF03",
+      "url": "https://docs.temporal.io/activity-definition",
+      "title": "Temporal activity definition/idempotency",
+      "access": "official mechanism; no Temporal execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "WF-01",
+      "narrative": "The local worker is ready and one admitted effect is durably recorded as completed.",
+      "kind": "nominal",
+      "fallback": false,
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "WF-02",
+      "narrative": "Two observable transient failures precede a successful third attempt within the selected useful window.",
+      "kind": "transient",
+      "fallback": false,
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "WF-03",
+      "narrative": "The service remains unavailable. After two attempts the owner admits a recorded deferment that closes the minimum route in time.",
+      "kind": "bounded-defer",
+      "fallback": true,
+      "expected": "M",
+      "effects": 0
+    },
+    {
+      "id": "WF-04",
+      "narrative": "Under the same permanent outage/admitted deferment, the selected retry-to-horizon policy consumes the useful window and never closes M.",
+      "kind": "retry-to-horizon",
+      "fallback": true,
+      "expected": "Ø",
+      "effects": 0,
+      "reference_expected": "M"
+    },
+    {
+      "id": "WF-05",
+      "narrative": "The resource effect commits but the worker loses its acknowledgement. Restart/retry uses the same resource key and produces one effect.",
+      "kind": "lost-ack",
+      "fallback": false,
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "WF-06",
+      "narrative": "The same lost acknowledgement occurs against a non-idempotent resource. Retrying creates two actual local effects.",
+      "kind": "non-idempotent",
+      "fallback": false,
+      "expected": "P",
+      "effects": 2,
+      "diagnostic": "outside the resource-idempotency condition; not a Temporal platform defect"
+    },
+    {
+      "id": "WF-07",
+      "narrative": "A stale worker's generation1 meets resource generation2 after cancellation/replacement.",
+      "kind": "stale-worker",
+      "fallback": false,
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "WF-08",
+      "narrative": "Declared service latency10 exceeds the useful logical deadline5 and no fallback is admitted.",
+      "kind": "too-late",
+      "fallback": false,
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "WF-09",
+      "narrative": "An initially admitted grant is revoked before resource effect. The current resource check must refuse execution.",
+      "kind": "grant-revoked",
+      "fallback": false,
+      "expected": "Ø",
+      "effects": 0
+    }
+  ],
+  "evidence_ceiling": "Actual local SQLite persistence/close-reopen/resource writes, authored worker/retry/latency/grant model. No Temporal SDK/service, distributed failure campaign, actual human availability, physical deadline calibration, population rate or independent validation."
+}
+

@@ -1,5 +1,9 @@
 # Annex 00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Construction & Test Design — Ecosystem Awareness
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+> **DDS incorporation note — 7 October 2026.** This bounded-oracle/test-construction document predates the canonical three-stage DDS organization and retains its original version and claim boundary. Under the current [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), it is **DDS support/test-design infrastructure** that may be reused by Stage A, Stage B or Stage C when the registered object under test requires it. It is not a separate testing method and does not itself establish a DDS Stage result. Later Stage-0 fixtures, harnesses and Oracle implementations that cite this design retain their own versions and evidence ceilings.
+
 | | |
 |---|---|
 | **ID** | 00D-A01 |

@@ -1,0 +1,1184 @@
+{
+  "status": "PASS_REGISTERED_FIXTURE_ASSERTIONS",
+  "cases": [
+    {
+      "id": "T01",
+      "narrative": "Maintenance is admitted with confirmed stop and an available critical-supply backup.",
+      "qualified_commands": {
+        "stop": true,
+        "entry": true,
+        "defer": false,
+        "trace": [
+          "stop-requested",
+          "stop-confirmed"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 1,
+          "feedback_checks": 1
+        }
+      },
+      "qualified_outcome": "I",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "I",
+      "open_loop_diagnostic_hazards": []
+    },
+    {
+      "id": "T02",
+      "narrative": "Critical supply has no backup, so maintenance is explicitly deferred while supply continues.",
+      "qualified_commands": {
+        "stop": false,
+        "entry": false,
+        "defer": true,
+        "trace": [
+          "protect-critical-supply"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 0,
+          "feedback_checks": 0
+        }
+      },
+      "qualified_outcome": "M",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "P",
+      "open_loop_diagnostic_hazards": [
+        "H2-critical-supply-interruption"
+      ]
+    },
+    {
+      "id": "T03",
+      "narrative": "A stop command has no observed application; entry must remain blocked.",
+      "qualified_commands": {
+        "stop": true,
+        "entry": false,
+        "defer": true,
+        "trace": [
+          "stop-requested",
+          "stop-not-confirmed"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 1,
+          "feedback_checks": 1
+        }
+      },
+      "qualified_outcome": "M",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "P",
+      "open_loop_diagnostic_hazards": [
+        "H1-energized-maintenance"
+      ]
+    },
+    {
+      "id": "T04",
+      "narrative": "Telemetry is unavailable; the controller cannot claim the required equipment state.",
+      "qualified_commands": {
+        "stop": false,
+        "entry": false,
+        "defer": false,
+        "trace": [
+          "unqualified-state-or-mandate"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 0,
+          "feedback_checks": 0
+        }
+      },
+      "qualified_outcome": "incomplete",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "I",
+      "open_loop_diagnostic_hazards": []
+    },
+    {
+      "id": "T05",
+      "narrative": "The controller has no mandate for actuation or maintenance entry.",
+      "qualified_commands": {
+        "stop": false,
+        "entry": false,
+        "defer": false,
+        "trace": [
+          "unqualified-state-or-mandate"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 0,
+          "feedback_checks": 0
+        }
+      },
+      "qualified_outcome": "incomplete",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "P",
+      "open_loop_diagnostic_hazards": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "id": "T06",
+      "narrative": "A legally allowed maintenance stop needs no critical-supply backup.",
+      "qualified_commands": {
+        "stop": true,
+        "entry": true,
+        "defer": false,
+        "trace": [
+          "stop-requested",
+          "stop-confirmed"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 1,
+          "feedback_checks": 1
+        }
+      },
+      "qualified_outcome": "I",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "I",
+      "open_loop_diagnostic_hazards": []
+    },
+    {
+      "id": "T07",
+      "narrative": "The equipment is already confirmed stopped and critical supply has a backup.",
+      "qualified_commands": {
+        "stop": false,
+        "entry": true,
+        "defer": false,
+        "trace": [
+          "already-stopped",
+          "stop-confirmed"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 0,
+          "feedback_checks": 1
+        }
+      },
+      "qualified_outcome": "I",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "I",
+      "open_loop_diagnostic_hazards": []
+    },
+    {
+      "id": "T08",
+      "narrative": "Backup is missing and deferral is not an admitted route.",
+      "qualified_commands": {
+        "stop": false,
+        "entry": false,
+        "defer": false,
+        "trace": [
+          "protect-critical-supply"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 0,
+          "feedback_checks": 0
+        }
+      },
+      "qualified_outcome": "incomplete",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "P",
+      "open_loop_diagnostic_hazards": [
+        "H2-critical-supply-interruption"
+      ]
+    },
+    {
+      "id": "T09",
+      "narrative": "A supply-only task must keep the functioning pump available.",
+      "qualified_commands": {
+        "stop": false,
+        "entry": false,
+        "defer": false,
+        "trace": [
+          "supply-only"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 0,
+          "feedback_checks": 0
+        }
+      },
+      "qualified_outcome": "I",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "I",
+      "open_loop_diagnostic_hazards": []
+    },
+    {
+      "id": "T10",
+      "narrative": "A stop fails and the mission forbids returning a deferment as sufficient delivery.",
+      "qualified_commands": {
+        "stop": true,
+        "entry": false,
+        "defer": false,
+        "trace": [
+          "stop-requested",
+          "stop-not-confirmed"
+        ],
+        "work": {
+          "state_queries": 1,
+          "commands": 1,
+          "feedback_checks": 1
+        }
+      },
+      "qualified_outcome": "incomplete",
+      "hazards": [],
+      "open_loop_diagnostic_outcome": "P",
+      "open_loop_diagnostic_hazards": [
+        "H1-energized-maintenance"
+      ]
+    }
+  ],
+  "assertions": 306,
+  "qualified_outcome_counts": {
+    "I": 4,
+    "M": 2,
+    "P": 0,
+    "incomplete": 4
+  },
+  "diagnostic_wrong_effects": 5,
+  "enumerated_actual_contexts": [
+    {
+      "context": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance"
+      ]
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H2-critical-supply-interruption",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H2-critical-supply-interruption",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H2-critical-supply-interruption",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H2-critical-supply-interruption",
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H2-critical-supply-interruption",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H2-critical-supply-interruption",
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H2-critical-supply-interruption"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H2-critical-supply-interruption"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H2-critical-supply-interruption"
+      ],
+      "realized_violations": [
+        "H2-critical-supply-interruption"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H2-critical-supply-interruption"
+      ],
+      "realized_violations": [
+        "H2-critical-supply-interruption"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance",
+        "H3-unauthorized-control"
+      ],
+      "realized_violations": [
+        "H3-unauthorized-control"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance"
+      ],
+      "realized_violations": [
+        "H1-energized-maintenance"
+      ]
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "unsafe_control_contexts": [],
+      "realized_violations": []
+    },
+    {
+      "context": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "unsafe_control_contexts": [
+        "H1-energized-maintenance"
+      ],
+      "realized_violations": []
+    }
+  ],
+  "elapsed_local_seconds": 0.000291300006210804,
+  "scope": "four-step STPA analyst model with finite actual-context exercise; no deployed plant or expert validation",
+  "UCA_timing_duration_coverage": "Analysis report includes loss scenarios for lateness/maintained commands; this enumerator covers discrete stop/entry context only",
+  "method_adequacy_or_safety_certification": "not established",
+  "external_matched_differential": "not established",
+  "run_id": "DDS-STAMP-STPA-20261006-02",
+  "canonical_DDS_profile": {
+    "path": "../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+    "logical_identity": "single canonical DDS technical profile",
+    "method_version": "0.1"
+  },
+  "implementation_profile": "STPA four-step synthetic maintenance/supply control analysis and finite context exercise",
+  "software_version": "DDS-INDEPENDENT-EXERCISES-0.1",
+  "python": "3.12.14",
+  "cryptography_version": "50.0.1",
+  "run_card_sha256": "37370ce2faf74dd8747f6f1fe60cf068787579830d46566a42acae359bff17c7",
+  "freeze_sha256": "0ea83c45a505e91553fcf3f6d619cc687135d7602e064da04ff00ac5e006bac9",
+  "evidence": "same-author bounded executed fixture; no production or independent validation",
+  "population_rates_established": false,
+  "native_SPIRE_TPM_or_verifier_product_executed": false
+}

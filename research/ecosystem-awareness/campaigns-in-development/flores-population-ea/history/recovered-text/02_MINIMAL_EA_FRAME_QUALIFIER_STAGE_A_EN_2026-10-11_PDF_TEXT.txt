@@ -1,0 +1,333 @@
+FULL READABLE-TEXT RECOVERY FROM LIBRARY — 13 OCTOBER 2026
+Source: Library/RESIDENCIA/02_MINIMAL_EA_FRAME_QUALIFIER_STAGE_A_EN.pdf
+Origin format: PDF
+Text below is the full accessible text returned by the Files reader, NOT the original binary file, not a byte-identical PDF/TXT copy, not a new independent review, and not a frozen/accepted DDS outcome.
+For PDF: page markers, spacing and extraction order follow the reader and should not be treated as a faithful visual PDF rendering. Preserve the original source separately for binary hashes, figures and exact-page verification.
+For TXT: textual equivalence with the Library reader's rendering is checked for this generated artifact, but raw source-file byte parity is not authenticated.
+This archived text contains author-side review proposals. Do not feed any disclosed review expectation to a future blinded experimental candidate as private truth.
+
+===== BEGIN SOURCE READER TEXT =====
+<PARSED TEXT FOR PAGE: 1 / 4>                                                                          FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+
+   EA Frame Qualification for Theme #21 — Minimal
+                   Stage A Proposal
+           Read-only, downstream of unchanged Flores Stage 1; source-native inputs; no invented R3
+
+                                                             11 October 2026
+
+Minimal EA-side frame-qualification proposal
+Proposed identity: EA-POP-FRAME-QUAL-0.3 (author-side working name, NOT a FG-TIDA interface or a UC-4 stage).
+Review class: DDS Stage A — Specification Discovery, initially a simplified bounded specification route. Insertion
+point: after the unchanged Flores planted-judge Stage 1 and before, or as a separate consideration alongside, a future
+receiving-decision study such as UC-21. Owner boundary: Theme #21 owns what population observations support; EA
+qualifies whether those statements retain sufficient foundation for a different receiving decision; any intervention,
+eligibility re-evaluation or execution sits with applicable Theme #13/#16 and native owners.
+
+
+1. What is and is not being proposed
+Proposed: re-use a few already-published declarations about population scope, reference/taxonomy, evaluator
+dependence, source provenance and identifiable limits; relate them to an independently specified receiving question and,
+only if actually present, an eligible independently sourced change signal. Output a bounded qualification saying what
+remains justified and what is unestablished. Keep the original population computation immutable.
+
+Not proposed: altering one of the six scripted judges, re-running generate.py/detect.py/unblind.py, introducing a
+seventh judge, using the authored answer key, asking evaluators to supply introspective doubts, assigning all missing
+information to C, changing reference 1.0 ground truth, manufacturing a t1 event, expanding Theme #21’s terms of
+reference, or treating a self-authored demonstration as empirical evidence. The current README announces the first
+test and its limits but does not report it as an executed Stage 1 result.
+
+Research question: For a declared receiving question Q, can already available qualifications from distinct source
+processes allow EA to distinguish (i) a still applicable evaluation frame, (ii) a proven material mismatch, (iii) a frame
+whose applicability is not established, and (iv) a producer-relative exploratory frontier C, without directing or reproducing
+population measurement? An external t1 event, when relevant, is supplied and adjudicated outside EA; the experiment
+must test whether the composition of the pre-existing qualifiers yields an additional, decision-relevant distinction
+relative to a strong conventional peer holding the same evidence.
+
+
+2. Olena’s four-step chain and the two different regressions
+Olena Pavlenko, 3 September 2026, proposed:
+
+   1.     Claim / target Q. What does the population result purport to establish?
+   2.     Observation/evaluator architecture O. What sources, record eligibility, taxonomy, lineage, evaluator-family
+          assumptions and observation windows can actually be observed?
+   3.     Identifiability I(Q,O). Can the asserted property be distinguished under that architecture? Which alternatives
+          remain observationally indistinguishable?
+   4.     Sampling/estimation uncertainty. Only if identifiable, what can finite measurements establish?
+
+We study the re-entrance from step 4 to step 3, and where justified to step 2, for a specified claim under a
+materially changed observation regime. Importantly, this does not itself establish an ABCD B→C transition. The
+former is a changed applicability/identifiability question. The latter requires that a formerly characterized assessment
+route is no longer characterized for a specified aspect and there is a grounded but not sufficiently characterized
+route of exploration. If a known recovery method exists, the remainder stays in B. If the process has no effective route,
+it may be D. With insufficient grounds, assign no component role instead of guessing.
+
+ Example                  Olena level                         EA process-relative role            Is there a proven native R3?
+ Flores blind deviation
+                          Step 4 for deviations under this    Population result A; method/basis
+ flags under its pinned                                                                           No.
+                          model                               B
+ model
+
+
+
+                                REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 1<PARSED TEXT FOR PAGE: 2 / 4>                                                                          FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+ Example                   Olena level                      EA process-relative role               Is there a proven native R3?
+ Effective independence                                     D for the blind detector’s effective
+ of scripted judges        Step 3 not established           assessment limit; possible C of a      No regression: never observationally
+ inferred from verdicts    already at t0                    different method-development           established at t0.
+ alone                                                      process
+ Known per-round
+                           Method can be characterized                                             No; hypothetical altered generator, not
+ random re-labeling of                                      B, not C
+                           numerically                                                             real t1.
+ six roles
+ CTGT REF-FSCOMMS                                                                                  Real authored history, but no source-
+                           Reference provenance and         B of source record/reference
+ 1.0 and 1.1 with                                                                                  established post-Stage-1 effective-date
+                           case-scoped currentness          processes
+ authored supersession                                                                             event.
+ Source legitimately
+ states a new reference                                     B-supported mismatch if                Would become true R3 only if this event
+                           Change to receiving question’s
+ is now applicable to an                                    standing/scope/effective time are      actually occurred after t0 and is
+                           applicable basis
+ unchanged pending                                          established; otherwise unresolved      independently evidenced.
+ downstream act
+
+
+3. Native corpus: smallest permissible input set
+Do not ask for new computations. Consume the following source-native statements through a candidate EA mapping,
+with the source process, scope, time and permission declared. The ABCD labels in this table are EA’s interpretation;
+producers do not automatically emit this ontology.
+
+ Source and public anchor         Already-produced native statement                        Eligible use / limit
+                                  Eight scored cases, REF-FSCOMMS 1.0, verdict             B: what the blind population detector is
+ Flores Stage 1 README
+                                  vocabulary, six scripted judges, seeded per-run          designed to observe. Do not infer t1 changes
+ §§3–4, 9                         relabeling, assumption states                            or read sealed roles.
+                                  Fixed SCORED, JUDGES, ROLES, PLANTED,                    B: characterized baseline and analytical
+ Flores expected.py
+                                  ERROR_RATE, MAJORITY_MIN and seeds                       counterfactuals, not live context monitoring.
+                                  Distinguishes identifiability from sample                B/limit: requirements and methodological
+ Flores #21 charter and
+                                  uncertainty and publishes observation regime             frontier. Do not infer a universal source-owned
+ Olena exchange                   assumptions                                              C output.
+                                  UC17-07 versioned supersession; UC17-08
+ CTGT five-record                                                                          Version/coverage/appraisal anchors; are not
+                                  attested absence; UC17-09 rejection; UC17-03
+ interpretation                                                                            additional Flores judge observations.
+                                  remediation
+                                                                                           A real historical producer correction before
+                                  UC17-08 channel corrected to email, DC-SEND
+ CTGT v0.2 correction             preserved
+                                                                                           Stage 1 was published. Useful for
+                                                                                           provenance/history; not t1 R3.
+                                  Issuer relationship declaration is checked for           Prevents declaring observationally verified
+ AVS-0.2 C11                      presence/form, not factual independence                  diversity from a label.
+                                  Inherited UNKNOWN is different from established          Source-supported distinction; not a native
+ Nelson’s Theme #13 note          NONE                                                     Population binding signal.
+                                                                                           Real reported other-testbed perturbation.
+ Nelson’s reported UC-6           Removing an agent-ID mapping exposed four                Supports established
+ Stage 0                          missing outputs; harness completed                       data-integrity/reconstructability work, not a
+                                                                                           Flores C regression.
+
+A future flags.json is source A, not an existing available file. Its stable identifier may later serve as A_ref, but the
+actual result remains with Flores. Under the N07 input contract EA must not require the producer to calculate missing
+reasons or new C/D descriptors. If the receiving use needs A’s value, the later 04 recognition proposal offers a
+conditional full-result profile. That alternative is not an adopted contract and cannot be used by merely renaming A as
+B.
+
+
+4. First concrete exercise: native-scope qualification, with no false R3
+Name: EA-POP-FRAME-NATIVE-01. The minimal first exercise requires no externally manufactured t1 event and no
+judge changes. It is useful precisely because it can reveal what EA cannot claim. Its oracle is the native attributed
+material, not the sealed scripted answer key.
+
+ Mini-case /
+ independently fixed       Native source(s)                 Correct Stage A qualification          What must NOT follow
+ claim
+ N1 — Can the original                                      Original population computation
+ eight content-scored      Flores §4; Cyril UC17-08,        remains defined; full DC-SEND          Treat attested absence as permit or add
+ cases count as all        decision class DC-SEND           coverage is not supported by           UC17-08 to scored cases
+ client sends?                                              the eight-case scoring subset
+
+
+
+
+                                 REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 2<PARSED TEXT FOR PAGE: 3 / 4>                                                                          FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+ Mini-case /
+ independently fixed      Native source(s)                  Correct Stage A qualification         What must NOT follow
+ claim
+ N2 — Can a correctly
+ authored content                                           No: content-scoring and evidence
+                                                                                                  Treat appraisal rejection as a sixth verdict
+ verdict for UC17-09 be   Flores §4; Cyril C10              acceptance are different
+                                                                                                  or override the source rejection
+ used as a valid                                            questions
+ appraised record?
+ N3 — Is effective
+                                                            No: declared
+ evaluator                                                                                        Claim EA discovered hidden planted roles
+                                                            independence/relationship is not
+ independence             Flores AC-5/6; AVS C11                                                  or can classify disagreement as
+                                                            verification; this is pre-existing,
+ established from                                                                                 correctness
+                                                            not a new regression
+ verdict agreement?
+ N4 — Can a locally                                         Yes, if scoped/attributed/coherent
+ indeterminate                                              under applicable rules;               Automatically halt or permit unrelated
+                          Cyril UC17-07; Anton MA-03
+ conformance verdict                                        acceptance of evidence is not         actions
+ pass appraisal?                                            permission to act
+ N5 — Does the
+                                                            No. Preserve both versions and
+ existence of authored
+                          CTGT UC17-07 supersession;        historical result; current
+ version 1.1 prove it                                                                             Manufacture a temporal R3
+                          Flores fixed 1.0                  applicability needs separate
+ became applicable
+                                                            authority/time evidence
+ after Stage 1?
+ N6 — Was a judge
+                                                            No native loss established;
+ identity                 Flores README §9; Nelson                                                Use Nelson’s unrelated ID corruption as
+                                                            known per-round relabeling is
+ correspondence in        different UC-6 testbed                                                  Flores data or assign C automatically
+                                                            mathematically characterizable B
+ Flores actually lost?
+
+What this establishes if an independent reviewer accepts these interpretations: bounded eligibility of existing
+information as specification input and a set of negative/positive requirement obligations. It does not demonstrate
+dynamic EA detection, real-world B→C, superior performance relative to B2, or a validated architecture.
+
+
+5. Second exercise: contingent R3 with a legitimate external event
+Name: EA-POP-FRAME-R3-CONDITIONAL-01. This remains NOT ADMITTED until an independent source owner can
+evidence a legitimate post-t0 material change for a specified pending receiving decision. A realistic and already
+source-grounded family is the reference/qualification history around UC17-07 under REF-FSCOMMS 1.0 / 1.1.
+
+Pre-registration obligations (no implicit assumptions):
+
+   1.     t0: the exact population output, observation regime and applicability to a specified decision are frozen, and
+          relevant external conditions are actually established, not merely declared; the claim under test must be
+          identified independently of the result EA is expected to return.
+   2.     t1: the authoritative reference/standing owner, not EA, supplies a verifiable event with effective time, subject,
+          decision class and validity scope after t0, and an independent evaluator privately adjudicates it. Merely
+          including 1.0 and 1.1 in a static fixture is insufficient.
+   3.     Observable distinction: the unchanged world and changed world must differ in at least one legitimately
+          available producer-authored metadata/evidence input. If not, the possibility of reliable detection is falsified;
+          this is not a software bug.
+   4.     No extra work for Flores: published Stage 1 source declarations, any released result reference and ordinary
+          native source records only. No new population evaluation, no new judge self-report, no query directed to
+          measurement from EA with desired answers/budgets.
+   5.     Admissible result states: CONTINUITY_SUPPORTED, FRAME_MISMATCH_SUPPORTED,
+          FRAME_NOT_ESTABLISHED, NO_OBSERVABLE_CHANGE, UNVERIFIED_EVENT or OUT_OF_SCOPE. Keep epistemic
+          classification on a separate axis, B_CHARACTERIZED, C_GROUNDED_UNCHARACTERIZED,
+          D_NO_EFFECTIVE_ROUTE, ROLE_UNCLASSIFIED.
+   6.     Fair peer: a competent B2 receives the same native published declarations, owners, timestamp/source events,
+          reference history, time budget and candidate actions as B3+EA. The B2 may already perform version, lineage
+          and scope qualification correctly.
+
+Acceptance and falsifiers — Stage A only
+ Requirement under test           Pass/fail gate                                           Falsifier
+                                  100% of cited material claims preserve native
+                                                                                           A/source verdict silently rewritten into an EA
+ Source fidelity                  source/process/attribution and declared
+                                                                                           B/C/D field
+                                  limitations
+                                  0 claims of verified context change where only
+                                                                                           Existence of REF 1.1 treated as a later
+ No false t1                      pre-existing versions, absent signals or synthetic
+                                                                                           effective event
+                                  event markers exist
+
+
+                                REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 3<PARSED TEXT FOR PAGE: 4 / 4>                                                                     FG-TIDA #21 | EA FRAME QUALIFICATION | REVIEW COPY
+
+
+
+ Requirement under test        Pass/fail gate                                     Falsifier
+                               0 C promotions where the eligible method and       Known remapping modeled exactly by
+ No false C
+                               variables are already characterized                expected.py called C
+                               All preregistered legitimate continuity branches   Full-system HOLD on mere local indeterminate
+ No automatic halt
+                               retain the appropriate scope of admissibility      or coverage absence
+                               DECLARED and UNKNOWN never become
+ Unresolved-state                                                                 C11 independent treated as proved
+                               ESTABLISHED, and UNKNOWN never becomes
+ preservation                                                                     independence
+                               NONE absent evidence
+                               A purported R3 must identify a material t0
+                               precondition, external post-t0 event and           Both worlds have identical eligible inputs yet a
+ Identifiability
+                               distinguishing observed qualifier for the same     detector claims to distinguish them
+                               question
+                               If competent B2 reaches the same output with
+                                                                                  B2 made artificially unaware of native versions
+ Comparative honesty           equal or lower burden, report parity or negative
+                                                                                  or C11 boundaries
+                               EA result
+                               Independent owner and oracle plus bounded
+ Adjudicator/budget                                                               Unowned event, hidden oracle contamination
+                               sources, finite reviewer capacity and deadline
+ admission                                                                        or unlimited review budget
+                               registered before a scored test
+
+These are categorical specification invariants, not a demonstration of measured sensitivity/specificity. No one has
+registered a scored R3 dataset, an external event owner or quantitative performance threshold for a real trial yet.
+The appropriate outcome until then is NOT_ADMITTED — NO VERIFIED EXOGENOUS T1.
+
+
+6. One stable, testable vocabulary
+To avoid circularity, the suggested envelope 04_review_matrices/FRAME_ENVELOPE_SCHEMA_CONCEPT.json carries
+observations/evidence status separately from EA’s assessed outcome. The event is not labeled C by its publisher.
+SYNTHETIC_FIXTURE is never accepted as VERIFIED_PRIMARY. UNKNOWN is not a favourable default. Every B/C/D
+assignment identifies producer, process, question, scope and time. No grade.startswith('verified') or route
+field can supply the answer by itself.
+
+Frame qualification axis: CONTINUITY_SUPPORTED, FRAME_MISMATCH_SUPPORTED, FRAME_NOT_ESTABLISHED,
+NO_OBSERVABLE_CHANGE, UNVERIFIED_EVENT, OUT_OF_SCOPE.
+
+Epistemic role axis (when enough grounds exist): B_CHARACTERIZED, C_GROUNDED_UNCHARACTERIZED,
+D_NO_EFFECTIVE_ROUTE, ROLE_UNCLASSIFIED.
+
+Evidence provenance axis: PRIMARY_VERIFIED_AT_SOURCE, SOURCE_DECLARED_ONLY,
+PUBLIC_REPORT_NOT_BINARY_REPRODUCED, UNVERIFIED, SYNTHETIC_FIXTURE, NOT_GENERATED, RESTRICTED. A
+source’s own A/record fields continue to live at that source; the role assignment is an independent EA hypothesis.
+
+
+7. Place in the research corpus and the external audit route
+   •      DDS Stage A (canonical challenge–trajectory profile): candidate requirement specification, independent
+          adjudication and explicit boundary/falsifiers. It does not establish architecture or implementation validity.
+   •      EA 00M/00N (00M; 00N): meanings of B/C/D and limits of composition; no magical recovery of erased
+          distinctions.
+   •      00D comparator (B2/B3, §§4 and 12): peer fairness; conventional equivalence is a valid negative differential.
+   •      00I (semantic TOCTOU synthetic scenario) provides an analogue, not executed proof about Flores or an
+          automatic family admission.
+   •      00K/A25 (X1–X7 extension requirements): not claimed satisfied. Family, preserved kernel and mapping/proof
+          have not been selected. An auditor may request a separate extension-admission exercise later.
+   •      Native owner comments: Flores permits EA feedback identifying the missing qualification 30 Sep 2026, but
+          reiterates downstream re-evaluation belongs outside #21 1 Oct 2026. He recognizes UC-21 as a later receiving-
+          decision study 4 Oct 2026.
+
+Proposed decision to external reviewers: accept the bounded read-only native-source qualification as a worthwhile
+Stage A specification question. Reject any statement that a genuine Flores R3 or a B→C regression has already been
+observed. Request independent owner recognition of a future t1 event only if there is a practical reason to run the
+second exercise. Neither a research bonus nor an expectation of EA superiority is a valid reason to alter Flores’s first
+study.
+
+
+
+
+                             REVIEW DRAFT - NOT ADOPTED OR EXECUTED | 11 OCT 2026 | PAGE 4
+===== END SOURCE READER TEXT =====

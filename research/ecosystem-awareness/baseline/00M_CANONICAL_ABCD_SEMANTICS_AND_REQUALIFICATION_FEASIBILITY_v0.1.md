@@ -1,3 +1,5 @@
+> **Historical proposal — superseded semantic route.** This is the complete 1 October 2026 proposal retained as research lineage. Its references to “current” and “canonical” below describe that proposal, not present authority. The maintained semantic source is [00M v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md); the ongoing review is its [single VNext](./00M_VNext.md). The retained §7 register does not reopen already-applied changes or certify unresolved producer mappings. This disposition follows Iván’s authorization of the PR audit corrections on 26 October 2026.
+
 # 00M — A/B/C/D: Canonical Semantics and Feasibility of Scoped Requalification
 
 **Status:** canonical working semantic foundation, v0.1, 1 October 2026. This is the current proposed reading rule for new EA/EP work, not a revision of the controlled v0.4 sources, a production interface, an adopted standard or evidence of operational benefit. The reconciliation register in §7 identifies existing text that must be updated before a successor 04 input contract can claim conformance to this rule.
