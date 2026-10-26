@@ -335,6 +335,37 @@ Un ensayo puede contrastar un régimen donde W es **indicador** y otro donde una
 
 Diferencia: la regla ΔG≤0 y la regla ΔW≥0 no equivalen. Por ejemplo, B:100→130, F:10→50 implica W:90→80, aun con mayor beneficio bruto. El disconfort exige instrumento humano propio; **no** se deduce de la brecha visible de un simulador.
 
+### 8.1. Permanencia voluntaria bajo riesgo: sufrimiento creciente y ganancia esperada de salir
+
+**Hipótesis acotada RAV-01 (nueva capa de comportamiento, no otro óptimo ni otra ley de rendimientos).** Para un actor i, horizonte H y dos políticas concretas S (permanecer) y R (rediseñar/salir), existe una familia de condiciones en que (a) B y la utilidad neta observada pueden mejorar entre periodos; (b) F, medido aparte, puede aumentar e incluso acelerarse; (c) el pronóstico personal de S para el próximo periodo puede ser negativo respecto al estado actual; y (d) el actor escoge S, pese a estimar mayor resultado medio de R. «Preferir permanecer» no significa valorar positivamente el sufrimiento, creer en un futuro bueno ni renunciar voluntariamente a derechos. **Es una preferencia local entre loterías de transición bajo restricciones y preferencias declaradas.**
+
+**Variables no fungibles:** B_t beneficio no contabilizado ya por F_t, W_t=B_t−F_t sólo bajo la definición del §8; Gᵀ/Gᴳ son brechas a contrafactuales conjunta y legítimamente factibles (no expectativas de la salida). Sea X_i,S(H) y X_i,R(H) un resultado neto escalar en la **misma unidad y horizonte** —por ejemplo excedente económico neto de cada curso, o utilidad cardinal validada, sin compensación interpersonal automática—, definido con distribuciones explícitas y admisibles. Sus medias y varianzas son μ_S, μ_R, σ²_S y σ²_R; C≥0 es coste determinista de transicionar, contado una sola vez y *fuera* de X_R. Si X ya incluye C, fijar C=0. No deducir ninguna de esas probabilidades de A/B/C/D abiertos: este submodelo sólo opera sobre riesgos caracterizados y deja lo demás como UNKNOWN/no identificado.
+
+**Testigo exacto bajo hipótesis explícitas:** con utilidad CARA u(x)=−exp(−γx), γ>0 constante entre periodos, y X_a normal con momentos finitos, el equivalente cierto es CE_a=μ_a−(γ/2)σ²_a. Para la política R, CE_R,net=CE_R−C, y la ventaja de cambiar es:
+
+~~~text
+Δμ = μ_R − μ_S
+Δσ² = σ²_R − σ²_S
+ΔCE = Δμ − (γ/2)·Δσ² − C
+permanecer si ΔCE < 0, aun con Δμ > 0
+umbral suficiente y necesario (γ>0): Δσ² > 2·(Δμ−C)/γ
+~~~
+
+La prima relativa (γ/2)·Δσ² aumenta si crece la **dispersión adicional del cambio**, aunque γ no cambie. Esto no afirma que el tamaño del sistema haga necesariamente crecer σ², ni que todos los emigrantes o generaciones respondan igual. Con γ=0 (neutralidad al riesgo) desaparece esta prima en el testigo; un cambio reversible o la reducción de σ²_R puede invertir la preferencia. Una gran mejora de μ_R también puede invertirla. Normalidad/CARA pueden fallar ante colas pesadas, pérdidas catastróficas, restricciones de subsistencia, riqueza variable o preferencias dependientes de referencia: entonces hace falta un comparador apropiado, no extrapolar la fórmula.
+
+**Dos cortes de un mismo escenario sintético (γ=0,5; C=0; κ=1 cuando se prueba elección probabilística):**
+- Corte inicial: S=(μ=10,σ²=4), CE_S=9; R=(μ=16,σ²=36), CE_R=7. Δμ=+6 y ΔCE=−2.
+- Corte posterior: S=(μ=14,σ²=4), CE_S=13; R=(μ=25,σ²=64), CE_R=9. Δμ=+11 y ΔCE=−4. **Aumenta la ventaja media de R y, sin cambiar γ, se refuerza la preferencia por S.** Es un testigo algebraico, no una encuesta ni estimación de España/Colombia.
+- Independientemente, B=(12,20,30) y F=(2,6,13) dan W=(10,14,17): más bienes netos, mayor sufrimiento sintético estipulado y una segunda diferencia positiva de F. Si la persona parte de W_actual=17 y estima para S en H una media futura μ_S=14, su pronóstico neto es pesimista; aun así CE_S=13 supera CE_R,net=9. Esta comparación sólo es válida si X y W comparten realmente la unidad/criterio declarados, y no demuestra sufrimiento vivido.
+
+**Probabilidad de decisión, sólo como especificación candidata:** si a las valoraciones CE se añaden errores individuales de elección tipo I EV independientes, con sensibilidad κ>0, entonces Pr(R)=1/[1+exp(−κ·ΔCE)]. No identificar esta probabilidad de **elegir** con la probabilidad de éxito de R ni con la distribución del mundo exterior. κ y γ pueden mantenerse fijos; P(R) disminuye cuando ΔCE disminuye. Sin identificación estadística de preferencias y creencias, el resultado es una curva de respuesta postulada, no un hecho conductual.
+
+**Viñeta contextual única:** una persona procedente de Colombia puede sufrir con un contrato laboral y una hipoteca larga en España, contemplar regresar para montar un negocio con mayor ganancia media esperada y rechazar el salto por temor a pérdidas mayores. Puede simultáneamente pronosticar un empeoramiento de España y conservar su rol. La decisión puede obedecer a aversión racional ante mayor dispersión, a seguridad material legítima, a vínculos, a derechos, a sesgos o a imposibilidad real de transición. No asignar probabilidades, salarios, seguridad comparada ni patrones poblacionales a países por esta viñeta.
+
+**Falsadores y diseño mínimo:** comparación factorial de Δμ, Δσ², C y reversibilidad, con γ y κ fijados como controles; brazo neutral γ=0; brazo σ²_R=σ²_S; brazo donde mejora suficiente de μ_R hace preferible salir; y escenario de pronóstico pesimista sobre S. Medir por separado F subjetivo y bienestar, distribución de riesgos objetivos, distribución creída, restricciones de ejecución y elección observada. Si la dispersión relativa no crece, si la salida domina también en equivalente cierto, si es reversible o si no existen preferencias aversas al riesgo, no se infiere permanencia. Una trayectoria socialmente subóptima y la elección localmente racional pueden coexistir; esto **no** prueba que el sufrimiento sea deseado, ni justifica imponer el contrato a terceros.
+
+**Instrumento de prueba acotado:** [estudio RAV-01](studies/risk-aversion-persistence-v0.1/README.md), con ecuaciones, 1 viñeta humana explícitamente no empírica, 1 familia de cortes sintéticos, controles negativos y pruebas deterministas. No altera Pareto, funciones no monótonas, Gᵀ/Gᴳ, HID (01K), A/B/C/D (00M), DDS, UC21 ni las garantías de autorización.
+
 ## 9. Efecto primario, segundo orden y tiempo
 
 **Primer orden:** beneficio/coste de la transición en su perímetro declarado y condiciones vigentes. **Segundo orden causal:** una transición modifica conexiones, crédito, obligaciones, capacidad, información o reglas que determinan el coste y la ejecutabilidad de transiciones posteriores. No identificar «segundo orden» con «segunda derivada» como definición.
