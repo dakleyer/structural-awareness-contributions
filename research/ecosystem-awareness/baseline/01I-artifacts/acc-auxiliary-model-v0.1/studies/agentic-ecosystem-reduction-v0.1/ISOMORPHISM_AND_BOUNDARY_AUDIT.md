@@ -2,6 +2,8 @@
 
 **Ámbito:** auditoría científica del PR de investigación, no modificación del canon ACC, de 00M/00N, de 01K-HID ni del protocolo UC21. **Criterio:** la analogía no se declara una nueva capacidad matemática sin señalar un operador nuevo, sus precondiciones y un comparador que pueda refutarla.
 
+**Alcance exacto de esta reducción:** el fixture computacional **no reproduce todo el modelo social ACC**. Estudia dos proveedores, un recurso físico fungible, una producción marginal sencilla y una decisión acotada de transferencia. Quedan fuera de esta v0.1, sin refutarse: crecimiento intertemporal, rendimientos decrecientes o sufrimiento no lineal, deuda social acumulada, preferencias humanas y aversión al riesgo, validación social, heterogeneidad multi-recurso y cierre voluntario total de un proveedor. Una cesión total/apagado de un agente sólo podría añadirse si el rol y la autoridad ya constan en A y se preservan sus derechos y deberes. Los modelos sociales previos conservan la propiedad de esas preguntas; AG-R1–R3 constituyen **una instancia acotada**, no un reemplazo.
+
 ## 1. Qué preserva la reducción
 
 La reducción conserva la pregunta económica de ACC: **con los mismos recursos físicos disponibles pueden coexistir un estado operativo A, una mejora técnica posible, una trayectoria no autorizada o no coordinada y costes que hacen preferible mantener A**. No promete acceso al óptimo ni confunde más producción con más bienestar humano.
