@@ -97,7 +97,9 @@ jobs:
 
   p5-reproducibility:
     name: P5 reproducibility / Python ${{ matrix.python }} / hash ${{ matrix.hashseed }}
-    runs-on: ubuntu-latest
+    # setup-python has no Python 3.9 build for Ubuntu 26.04.
+    # Keep the full matrix and its unchanged fixture on a supported image.
+    runs-on: ${{ matrix.python == '3.9' && 'ubuntu-24.04' || 'ubuntu-latest' }}
     strategy:
       fail-fast: false
       matrix:
