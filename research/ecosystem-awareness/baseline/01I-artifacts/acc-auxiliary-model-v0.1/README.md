@@ -63,6 +63,8 @@ Los ejemplos humanos, institucionales, empresariales y de infraestructuras forma
 
 Se restauran premisas de compensación, acuerdo y autoridad; se explicitan las cautelas de bienestar y ejemplos hipotéticos; se corrigen rangos y se prepara una trazabilidad conceptual. [La disposición de las 24 acciones](review/AUDIT_ACTIONS.md) distingue lo aplicado y lo pendiente. El [mapa de conceptos](review/CONCEPT_MAP.md) y las [notas de fuentes](review/SOURCE_NOTES.md) permiten seguir las condiciones y sus diferencias históricas.
 
+Las [tres aclaraciones de Iván](review/PROMPT_CLARIFICATIONS.md) precisan inteligencia movilizada y experiencia, mantienen las variantes de ministerios y plátanos, y distinguen dimensiones implícitas de su activación en una transición. Su recepción amplía la explicación y las preguntas del siguiente protocolo; el estudio ya congelado conserva sus resultados y alcance.
+
 Para reproducir el piloto basta Python 3.12 o posterior y su biblioteca estándar. Las instrucciones están en su protocolo. La coincidencia de un ejecutable con tablas manuales no certifica toda la teoría ni mide bienestar humano. El alojamiento y uso posterior en ACC conservan los límites declarados al comienzo de esta página.
 
 

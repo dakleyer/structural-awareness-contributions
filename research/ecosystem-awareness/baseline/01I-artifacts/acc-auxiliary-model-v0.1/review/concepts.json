@@ -22,11 +22,12 @@
         "S1-P0533",
         "S1-P0535"
       ],
-      "condition": "Órdenes y perímetro declarados; dimensión no equivale a persona",
-      "integrated_destination": "MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto",
+      "condition": "Órdenes y perímetro declarados; dimensión no equivale a persona; distinguir dimensión implícita, activación y descubrimiento",
+      "integrated_destination": "MODEL.md#dimensiones-implícitas-y-activación-en-una-transición",
       "candidate_contrast": "ACC-ECO-01",
-      "counterexample": "Ejes conocidos dominados y preferencia relevante perjudicada",
-      "evidence_state": "Explicado; escalado con n pendiente"
+      "counterexample": "Régimen estable con reparto ya material, o transición que elimina restricciones; activación no implica n más uno",
+      "evidence_state": "Precisión conceptual de Iván; contraste específico pendiente",
+      "user_clarification": "PROMPT_CLARIFICATIONS.md#anotación-3-dimensiones-implícitas-y-activación"
     },
     {
       "id": "CONCEPT-03",
@@ -57,16 +58,20 @@
     },
     {
       "id": "CONCEPT-05",
-      "concept": "Coordinación del plátano",
+      "concept": "Variantes del plátano y coordinación",
       "source_units": [
         "S1-P0254",
+        "S1-P0269",
+        "S1-P0271",
+        "S1-P0272",
         "S1-P0275"
       ],
-      "condition": "La entrega y su coste deben ser factibles",
-      "integrated_destination": "MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto",
+      "condition": "Separar traslado adicional, entrega en origen y recogida disponible; costes y factibilidad propios",
+      "integrated_destination": "CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear",
       "candidate_contrast": "ACC-ECO-02",
       "counterexample": "El medio de coordinación existente ya basta",
-      "evidence_state": "Explicado; prueba propia pendiente"
+      "evidence_state": "Explicado; prueba propia pendiente",
+      "user_clarification": "PROMPT_CLARIFICATIONS.md#anotación-2-variantes-y-bloqueos"
     },
     {
       "id": "CONCEPT-06",
@@ -76,11 +81,12 @@
         "S1-P0216",
         "S1-P0275"
       ],
-      "condition": "Ejemplo hipotético; conservar utilidad directa positiva de ambos",
+      "condition": "Ganancias directas positivas; el nuevo diferencial puede activar un reparto antes no material",
       "integrated_destination": "MODEL.md#del-caso-de-una-dimensión-al-modelo-abierto",
       "candidate_contrast": "ACC-ECO-03",
       "counterexample": "Se acepta el reparto relativo sin bloqueo",
-      "evidence_state": "Explicado; comportamiento humano no medido"
+      "evidence_state": "Explicado; comportamiento humano no medido",
+      "user_clarification": "PROMPT_CLARIFICATIONS.md#anotación-3-dimensiones-implícitas-y-activación"
     },
     {
       "id": "CONCEPT-07",
@@ -170,11 +176,12 @@
         "S1-P0317",
         "S1-P0639"
       ],
-      "condition": "Factibilidad y experiencia requieren auditorías distintas",
+      "condition": "Separar brecha, inteligencia movilizada sin efecto útil y experiencia declarada; factibilidad contrastada",
       "integrated_destination": "MODEL.md#utilidad-bienestar-y-frustración",
       "candidate_contrast": "ACC-ECO-10",
       "counterexample": "Comprender alivia o agrava F sin cambiar G",
-      "evidence_state": "Control W ilustrado; no medición humana"
+      "evidence_state": "Control W ilustrado; no medición humana",
+      "user_clarification": "PROMPT_CLARIFICATIONS.md#anotación-1-inteligencia-actuación-y-experiencia"
     },
     {
       "id": "CONCEPT-14",
@@ -328,11 +335,12 @@
         "S1-P0606",
         "S3-P0023"
       ],
-      "condition": "Contrafactual, unidades y conversión; ACW observado no es recuperación de GIC",
+      "condition": "Contrafactual, unidades y conversión; distinguir esfuerzo realizado, uso, utilidad y recuperación efectiva de GIC",
       "integrated_destination": "MODEL.md#utilidad-bienestar-y-frustración",
       "candidate_contrast": "ACC-ECO-21",
       "counterexample": "El tiempo liberado se usa legítimamente para descanso",
-      "evidence_state": "Control auxiliar numérico; habilidades no medidas"
+      "evidence_state": "Control auxiliar numérico; habilidades no medidas",
+      "user_clarification": "PROMPT_CLARIFICATIONS.md#anotación-1-inteligencia-actuación-y-experiencia"
     },
     {
       "id": "CONCEPT-25",
