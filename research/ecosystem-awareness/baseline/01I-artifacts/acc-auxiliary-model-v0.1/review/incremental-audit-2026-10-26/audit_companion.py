@@ -181,6 +181,34 @@ def censoring_vs_nesting(n: int = 4) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# I-01 — empty Lipschitz intersection accepted as support (PR #45, qualify)
+# Re-implements metacognition.py l. 171-187 at 3e58fc6 (point x-intervals
+# collapsed to x_i), then the proposed strict rejection.
+# ---------------------------------------------------------------------------
+def lipschitz_decision(points, x, L, threshold, abs_tol=1e-12, strict=False):
+    lows = [y_lo - L * abs(x - xi) for xi, y_lo, _ in points]
+    highs = [y_hi + L * abs(x - xi) for xi, _, y_hi in points]
+    lo, hi = max(lows), min(highs)
+    inconsistent = lo > hi if strict else lo > hi + abs_tol
+    if inconsistent:
+        status = "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT"
+    elif lo >= threshold:
+        status = "LOCALLY_SUPPORTED_TRUE"
+    elif hi < threshold:
+        status = "LOCALLY_SUPPORTED_FALSE"
+    else:
+        status = "UNDETERMINED_FROM_AVAILABLE_EVIDENCE"
+    return {"lo": lo, "hi": hi, "interval_empty": lo > hi, "status": status}
+
+
+def empty_intersection_case() -> dict:
+    pts = [(0.0, 1e-13, 1e-13), (0.0, 0.0, 0.0)]
+    return {"points_(x,y_min,y_max)": pts, "x": 0.0, "L": 0.0, "threshold": 5e-14,
+            "current_rule_abs_tol_1e-12": lipschitz_decision(pts, 0.0, 0.0, 5e-14),
+            "proposed_strict_rejection": lipschitz_decision(pts, 0.0, 0.0, 5e-14, strict=True)}
+
+
+# ---------------------------------------------------------------------------
 # Figures (plain SVG, no dependencies). Palette: validated reference instance.
 # ---------------------------------------------------------------------------
 STYLE = """<style>
@@ -285,6 +313,7 @@ def build() -> dict:
             "H01_stag_hunt_reference": stag_hunt(),
             "H02_gap_threshold": gap_threshold(),
             "H03_censoring_vs_nesting": censoring_vs_nesting(4),
+            "I01_empty_intersection_PR45": empty_intersection_case(),
             "evidence": "AUDIT ARITHMETIC ON SYNTHETIC FIXTURES; NO EMPIRICAL CLAIM"}
 
 

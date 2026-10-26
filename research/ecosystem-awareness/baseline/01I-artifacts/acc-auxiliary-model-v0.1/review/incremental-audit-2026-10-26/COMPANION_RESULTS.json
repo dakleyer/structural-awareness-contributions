@@ -138,6 +138,35 @@
       "hidden_states": 16
     }
   },
+  "I01_empty_intersection_PR45": {
+    "L": 0.0,
+    "current_rule_abs_tol_1e-12": {
+      "hi": 0.0,
+      "interval_empty": true,
+      "lo": 1e-13,
+      "status": "LOCALLY_SUPPORTED_TRUE"
+    },
+    "points_(x,y_min,y_max)": [
+      [
+        0.0,
+        1e-13,
+        1e-13
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "proposed_strict_rejection": {
+      "hi": 0.0,
+      "interval_empty": true,
+      "lo": 1e-13,
+      "status": "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT"
+    },
+    "threshold": 5e-14,
+    "x": 0.0
+  },
   "evidence": "AUDIT ARITHMETIC ON SYNTHETIC FIXTURES; NO EMPIRICAL CLAIM",
   "schema": "ACC-INCREMENTAL-AUDIT-COMPANION-v0.1"
 }

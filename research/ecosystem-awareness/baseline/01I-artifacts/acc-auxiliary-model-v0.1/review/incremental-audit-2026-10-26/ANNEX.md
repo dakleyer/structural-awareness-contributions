@@ -46,6 +46,7 @@ flowchart LR
   P57 --> F01["F-01 Alta: metaprotocolo = convencional en código"]
   P57 --> F02["F-02 Alta: H5 es la única vía y no compara arquitecturas"]
   P57 --> F03["F-03 Media: recuentos del barrido = rejilla"]
+  P45["#45 Cierre local"] --> I01["I-01 Alta: intervalo vacío aceptado como apoyo"]
   NOTE --> N06["N-06 Alta: encuadre de #54 y #57"]
 
   H02["H-02 Alta: brecha g·E supuesta"]
@@ -232,6 +233,7 @@ Añadir a `test_nested_model.py` una aserción del tipo de la tabla H-03: con pe
 |---|---|---|---|---|
 | #42 | Forma normal 2×2 con equilibrios marcados | `is_nash` y dominancia en riesgo (H-01) | «trampa de factibilidad» o «equilibrio Pareto-inferior», según el caso | Cooper y John 1988; Skyrms 2004; Arthur 1989 |
 | #43 | Diagrama censura frente a anidamiento | Separación de la sección 3, H-03 | «no identificabilidad bajo observación censurada»; «brecha de desarrollo estructural» | Nahmias 1994; Hayek 1945; Simon 1962; Kushilevitz y Nisan 1997 |
+| #45 | — | Contraejemplo de intersección vacía como prueba de regresión (I-01) | Rechazo estricto de `lo > hi`; tolerancia relativa si se mantiene | Shubert 1972 |
 | #48/#49 | Tabla G-01 junto a la matriz 60×5 | Comparadores con calidad de señal barrida | «comprobación de la función de puntuación» | Howard 1966; Sargent 2013; Grimm et al. 2020 |
 | #54 | Tabla de convención de nombres | — | «46 casos trabajados»; supuesto de uniformidad en `kl` | Cover y Thomas 2006; Shubert 1972 (cotas de Lipschitz en `closure`) |
 | #57 | Figura F-03 y tabla F-04 | Brazo equivalente en el barrido; `h` por brazo | «prueba de reducción en v0.1» | Smith 1980; Bernstein et al. 2002; Howard 1966 |
