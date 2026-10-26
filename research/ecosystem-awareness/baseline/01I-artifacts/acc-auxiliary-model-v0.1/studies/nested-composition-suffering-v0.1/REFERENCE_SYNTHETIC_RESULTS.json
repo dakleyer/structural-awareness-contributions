@@ -1,0 +1,104 @@
+{
+  "cnf_local_checks_global_search": {
+    "satisfiable": true,
+    "unsatisfiable": false
+  },
+  "current_handoff": [
+    8,
+    8
+  ],
+  "empirical_welfare": "NOT_MEASURED",
+  "joint_capacity_answers_under_same_A": [
+    8,
+    10
+  ],
+  "nested_capacity_cases": [
+    {
+      "branch_count": 1,
+      "distinct_future_query_response_vectors": 2,
+      "distinct_hidden_states": 2,
+      "min_exact_message_bits_for_all_branch_queries": 1,
+      "not_uncomputability": true,
+      "same_current_A": 8
+    },
+    {
+      "branch_count": 2,
+      "distinct_future_query_response_vectors": 4,
+      "distinct_hidden_states": 4,
+      "min_exact_message_bits_for_all_branch_queries": 2,
+      "not_uncomputability": true,
+      "same_current_A": 16
+    },
+    {
+      "branch_count": 3,
+      "distinct_future_query_response_vectors": 8,
+      "distinct_hidden_states": 8,
+      "min_exact_message_bits_for_all_branch_queries": 3,
+      "not_uncomputability": true,
+      "same_current_A": 24
+    },
+    {
+      "branch_count": 4,
+      "distinct_future_query_response_vectors": 16,
+      "distinct_hidden_states": 16,
+      "min_exact_message_bits_for_all_branch_queries": 4,
+      "not_uncomputability": true,
+      "same_current_A": 32
+    },
+    {
+      "branch_count": 6,
+      "distinct_future_query_response_vectors": 64,
+      "distinct_hidden_states": 64,
+      "min_exact_message_bits_for_all_branch_queries": 6,
+      "not_uncomputability": true,
+      "same_current_A": 48
+    }
+  ],
+  "rational_joint_trap": {
+    "atomic_joint_edge_if_authorized": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "initial": [
+      0,
+      0
+    ],
+    "initial_utilities": [
+      4,
+      4
+    ],
+    "joint_pareto_superior": [
+      1,
+      1
+    ],
+    "states": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "strictly_better_for_both": [
+      5,
+      5
+    ],
+    "unilateral_successors": []
+  },
+  "status": "FINITE_SYNTHETIC_RESEARCH_ONLY",
+  "structural_human_analogue": {
+    "status": "STIPULATED_STRUCTURAL_CASE",
+    "structural_development_gap": 2.0,
+    "structural_suffering_proxy": 2.0,
+    "subjective_suffering": "NOT_MEASURED"
+  },
+  "undetermined_open_exterior": "NOT_ENUMERATED_OR_QUANTIFIED"
+}
