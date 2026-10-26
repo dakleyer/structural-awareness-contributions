@@ -1,5 +1,23 @@
 # Panodyssey corpus-migration QA — source fidelity and open gates
 
+<!-- EDITORIAL_READING_AID_BEGIN: presentation only; not historical source content -->
+
+> [!NOTE]
+> **How to read this report:** its numerical checks document the **25 October 2026 migration and source-fidelity audit**. They do not certify a theory, a product, legal compliance or a later experiment. Exact historical counts and verifications remain in the report below.
+>
+> **Presentation editions:** The [readable companion views](./presentation/README.md) are deliberately separate from the ten byte-fingerprinted source mirrors. They must not be substituted for the mirrors in this QA or [manifest](./SOURCE_MANIFEST.json).
+
+| QA dimension | What was checked | What must not be inferred |
+|---|---|---|
+| **Source conservation** | Original Google Docs revisions, normalized text, native tables/cells and hyperlinks | Independent approval or revised source-owner signoff |
+| **Navigation** | Repository paths and relative Markdown references at the audited revision | Semantic correctness of every claim |
+| **Evidence and assessment** | Presence of method controls and declared open findings | Completed A25/A26 admission, DDS/UC4 test, or PanO-v6 PASS |
+| **Release and custody** | Owner-authorized *research-corpus* publication and recorded exclusions | Permission to disclose private third-party material or file externally |
+
+---
+
+<!-- EDITORIAL_READING_AID_END -->
+
 **Source-fidelity audit date:** 25 October 2026. **Initial GitHub main:** `733749040565cab79ce7af291a7f58cb28024fa2`. **Promotion route:** owner-authorized [PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39); its live merge/commit state is authoritative. **Source provenance:** reverified Google Docs revision IDs in [SOURCE_MANIFEST.json](./SOURCE_MANIFEST.json).
 
 ## 1. Content conservation — checked
@@ -17,7 +35,9 @@
 | Original prior versions | **Not silently replaced** | Historical `/old` Drive folder and its v0.3/v0.4 snapshots preserved externally; current Docs cited by ID/revision |
 | Original GitHub 00J/00J-A01/A25/A26/R01 files | **No source rewrite** | Extension is additive; parent remains separately routed |
 
-Content conservation is a **mechanical equivalence check of the visible text**, not a claim of identical Google Docs typography, paginated layout, or scientific correctness. Source-native tables became Markdown tables with the same row/column structure and all text. Each mirrored file contains the original source title, Doc URL, observed revision and an updated SHA-256 in the manifest. The only 25 October promotion change inside the ten source mirrors is the **generated, non-source HTML custody header**; the original document body is unchanged, including internal-status wording. Source URLs remain as historical provenance; all ten documents are also reachable locally from the extension's README.
+Content conservation is a **mechanical equivalence check of the visible text**, not a claim of identical Google Docs typography, paginated layout, or scientific correctness. Source-native tables became Markdown tables with the same row/column structure and all text. Each mirrored file contains the original source title, Doc URL, observed revision and an updated SHA-256 in the manifest.
+
+The only 25 October promotion change inside the ten source mirrors is the **generated, non-source HTML custody header**; the original document body is unchanged, including internal-status wording. Source URLs remain as historical provenance; all ten documents are also reachable locally from the extension's README.
 
 ## 2. Method and interface review
 

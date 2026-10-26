@@ -1,5 +1,32 @@
 # Extension admission and evidence-transfer ledger — 00J-EXT-PANO-01
 
+<!-- EDITORIAL_READING_AID_BEGIN: presentation only; not historical source content -->
+
+> [!WARNING]
+> **Reader orientation: a ledger of possible evidence transfer, not an evidence result.** The ledger is **empty of admitted PASS claims**. Each future entry must bind one exact proposition, observation and admissible reuse scope; the [full method](./PANO-08_PARTIAL_ISOMORPHISM_EVIDENCE_TRANSFER.md) remains authoritative.
+
+### Transfer is claim-specific
+
+| Question | A sufficient entry would identify |
+|---|---|
+| **What was actually proved?** | Original evidence/run ID, provenance, hash, evaluator, result and observation boundary |
+| **What is claimed here?** | Narrow source proposition, target proposition and precise state/trace correspondence |
+| **What changed?** | New actor, right, purpose, time/version, dependency, observer or comparator constraint |
+| **What follows?** | Exact allowed reuse, new targeted tests, limits, reviewer dissent and requalification triggers |
+
+```mermaid
+flowchart TB
+    P["Previously executed<br/>source result?"] --> A["A25/A26<br/>claim-level check"]
+    A --> Y["Preserved exact property<br/>bounded reference only"]
+    A --> N["Missing/changed assumption<br/>new evidence required"]
+```
+
+*The diagram is a decision-question map. No branch is currently recorded here as an admitted reuse result.*
+
+---
+
+<!-- EDITORIAL_READING_AID_END -->
+
 **Status:** proposed empty proof/decision register; no transferred PASS, no completed A25/A26 admission. The full normative/proposed methodological text is preserved in [PANO-08](./PANO-08_PARTIAL_ISOMORPHISM_EVIDENCE_TRANSFER.md), especially native Tables A/B/C and §10 TI-01–TI-07. Parent controls: [A25](../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md), [A26](../../00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), [R01 kernel](../../reductions/00G-R01/extensions/family/KERNEL_AND_PROOF.md).
 
 ## A. Identity and evidence carrier

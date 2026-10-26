@@ -1,5 +1,32 @@
 # DDS/UC4 experimental integration — execution-readiness, not execution
 
+<!-- EDITORIAL_READING_AID_BEGIN: presentation only; not historical source content -->
+
+> [!WARNING]
+> **Quick assessment: all execution stages remain on HOLD.** This is an implementation-oriented checklist, **not** a report of an admitted or completed DDS/UC4 run. The detailed preconditions, matrices and evidence fields continue below without changed criteria.
+
+### Stage / evidence readiness
+
+| Track | What a reviewer would need | State reported in this record |
+|---|---|---|
+| **Source and permissions** | Versioned rights statement, parties, lawful access/usage and source provenance | OPEN |
+| **DDS Stage A** | Frozen Challenge, fixtures, fair comparator, independent rubric and disclosure limits | HOLD — not jointly frozen/scored |
+| **DDS Stage B / C** | Architecture, observation and implementation conditions in addition to Stage A | HOLD — separate admission |
+| **Optional UC4** | Independent owner agreement, synthetic/permitted fixtures, measurement and controlled observers | NOT ADMITTED / NOT EXECUTED |
+
+```mermaid
+flowchart TB
+    S["Source qualification<br/>OPEN"] --> A["DDS Stage A<br/>HOLD"]
+    A --> B["DDS Stage B/C<br/>HOLD"]
+    A -. "Only by a separate agreement" .-> U["UC4 optional experiment<br/>NOT EXECUTED"]
+```
+
+*This diagram records dependencies and unresolved gates only.*
+
+---
+
+<!-- EDITORIAL_READING_AID_END -->
+
 > **READINESS REVIEW / ALL STAGES HOLD.** The [full existing DDS/UC4 work](./PANO-06_DDS_UC4_UC21_REUSE_ROADMAP.md), [Stage A evaluation contract](./PANO-04_DDS_STAGE_A_EVALUATION_EVIDENCE_CONTRACT.md), [T-UC3 evidence contract](./PANO-03_TUC3_EVIDENCE_EXECUTION_Q3_INTERFACE.md) and [completeness audit](./PANO-07_COMPLETENESS_AUDIT_OPEN_FINDINGS.md) are retained in full. This is an additive implementer route, not new source-native gates or identifiers.
 
 ## 1. Test environment and interfaces

@@ -1,5 +1,35 @@
 # 00J-EXT-PANO-01 — Panodyssey composite S6/00J extension
 
+<!-- EDITORIAL_READING_AID_BEGIN: presentation only; not historical source content -->
+
+> [!TIP]
+> **For a first-time reader or an industry reviewer:** start with the [presentation reading kit](./presentation/README.md), then use the source-fidelity files in this directory for exact citations. The kit includes a draft FG-TIDA case description and readable views of the ten preserved Google Docs mirrors; it **does not** change their provenance, grant external filing permission or assert completed tests.
+
+### Find the right evidence in one step
+
+| Reader needs to... | Start with | Then verify |
+|---|---|---|
+| Understand the proposed **one Challenge / three trajectories** | [FG-TIDA use-case presentation v0.4](./presentation/FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.4.md) | [Expanded Challenge](./PANO-01_EXPANDED_CHALLENGE_THREE_TRAJECTORIES.md) and [source map](./SOURCE-00_ORIGINAL_CHALLENGE_AND_TOR_MAP.md) |
+| Check publisher-side rights facts or **legal/technical applicability** | [Conditional register](./PANO-02_CONDITIONAL_LEGAL_TECHNICAL_TRACEABILITY.md) | [Alexandre's version/channel question](./PANO-05_ALEXANDRE_NOTICE_RAG_DISCREPANCY.md) |
+| Assess the evidence expected of an **AI provider or agent** | [T-UC3 E1–E5](./PANO-03_TUC3_EVIDENCE_EXECUTION_Q3_INTERFACE.md) | [DDS Stage A contract](./PANO-04_DDS_STAGE_A_EVALUATION_EVIDENCE_CONTRACT.md) |
+| Decide whether prior **UC21/S6 evidence** could be reused | [Partial-isomorphism method](./PANO-08_PARTIAL_ISOMORPHISM_EVIDENCE_TRANSFER.md) | [Transfer ledger](./TRANSFER_LEDGER.md); no inherited PASS is currently established |
+| See **what is ready versus on hold** | [Execution-readiness register](./DDS_UC4_READINESS.md) | [Open findings](./PANO-07_COMPLETENESS_AUDIT_OPEN_FINDINGS.md) and [promotion review](./PROMOTION_REVIEW.md) |
+
+**Conceptual hierarchy — separate documentary levels**
+
+```mermaid
+flowchart TB
+    S["Source-owner described facts<br/>and 14-dimension map"] --> C["One Challenge<br/>three documentary trajectories"]
+    C --> E["Evidence and assessment contract<br/>E1–E5 / DDS Stage A"]
+    E --> R["Conditional reuse / future trials<br/>A25–A26 / DDS B–C / UC4"]
+```
+
+*No arrow implies that the next level has passed or has been admitted for execution.*
+
+---
+
+<!-- EDITORIAL_READING_AID_END -->
+
 > **CANONICAL RESEARCH RECORD OF A PROPOSED EXTENSION · OWNER-ACCEPTED FOR CORPUS PUBLICATION · 25 October 2026.** This reader is the *single current canonical entry point for this logical extension*. Individual `PANO-xx` and `SOURCE-00` files preserve their source-document roles. None reports a completed A25/A26 admission, DDS score, UC4 run, Panodyssey failure or EU-law compliance decision.
 >
 > **Publication and custody:** The original Google Docs retain their historical **INTERNAL / NOT FOR EXTERNAL CIRCULATION** labels. Iván Abril Palma, the corpus owner, explicitly directed public GitHub publication and promotion of these ten working-document mirrors through [PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39) on 25 October 2026. That scoped corpus decision does **not** grant permission to publish underlying third-party private correspondence, commercial records or unpublished source material, nor authorize external filing, rights claims or institutional approval. Source-owner and evidentiary permissions remain separate for those purposes. See [the disposition record](./PROMOTION_REVIEW.md#5-owner-promotion-decision-and-residual-gates).

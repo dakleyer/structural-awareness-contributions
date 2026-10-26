@@ -1,5 +1,23 @@
 # Promotion and independent corpus-integrity review — 00J-EXT-PANO-01
 
+<!-- EDITORIAL_READING_AID_BEGIN: presentation only; not historical source content -->
+
+> [!NOTE]
+> **Two different decisions must be kept apart.** The owner approved a **public canonical documentary research record** through PR #39. That did **not** admit A25/A26 evidence transfer, certify a Panodyssey product, authorize UC4/DDS execution or submit a use case to FG-TIDA.
+>
+> The exact audit facts, thresholds and original review decision remain below.
+
+| Dimension | Documented decision | Independent next gate |
+|---|---|---|
+| **Corpus custody** | Canonical research documentation, source mirrors and traceability accepted for the defined scope | Preserve exact source/provenance and documented exclusions |
+| **Scientific/methodological reuse** | Proposed 00J/S6 partial mapping recorded | A25/A26 proof-by-claim, separate new-mechanism and coupling assessment |
+| **Execution evidence** | No eligible PanO-v6 result transfer or new DDS/UC4 run verified | Candidate/peer, observer, fixture and criteria freeze; controlled experiment if later agreed |
+| **External communication** | Public working repository visible | Source-owner wording/attribution and permission for any formal FG-TIDA submission |
+
+---
+
+<!-- EDITORIAL_READING_AID_END -->
+
 **Audit target:** the extension packet in [PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39), now **owner-accepted as the canonical documentary child** of [00J](../../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md). This acceptance is confined to accurate corpus documentation of a *proposed* extension. **It is not methodological admission, a tested result, compliance assurance or institutional acceptance.** Historical source labels remain intact.
 
 ## 1. Frozen material to compare
