@@ -25,6 +25,14 @@ El caso del [PR #42](https://github.com/dakleyer/structural-awareness-contributi
 
 Para el consumidor downstream de una función compuesta, imaginar que su salida **debe** seguir creciendo con el input es incorrecto aun si la función es matemáticamente monótona: `f(u)=min(u,k)` es no decreciente y tiene una meseta en k. La información **que falta** es `k` y posiblemente los mecanismos por los que puede variarse legítimamente; no es preciso suponer un comportamiento local irracional.
 
+## 1.1. Qué puede y qué no puede surgir por composición pura
+
+**Teorema de cierre algebraico:** si cada productor es una función afín `f_i(x)=A_i x+b_i`, su composición ordinaria también es afín: `f_j(f_i(x))=(A_j A_i)x + (A_j b_i+b_j)`. Si todas las funciones locales son monótonas para los órdenes compatibles y sólo se componen funciones, la composición sigue siendo monótona. **La composición pura de mapas afines no crea mágicamente no linealidad o complejidad combinatoria.** Es una restricción formal fuerte y exige no esconder mecanismos adicionales.
+
+La nueva estructura aparece cuando la arquitectura real añade, a partir de dependencias y recursos verdaderos, **restricciones de compatibilidad entre estados**, presupuesto compartido, saturaciones, discretización de transiciones, enrutamiento condicional, contratos de autorización o realimentación. Estos mecanismos son operaciones matemáticas definidas, no incertidumbres gratuitas. Por ejemplo, `y=min(u,k)` es monótona no decreciente en `u`, pero NO es afín al cruzar el valor de capacidad `k`: antes del tope su pendiente es uno y después es cero. La configuración superior puede seguir produciendo menos de lo anticipado por un extrapolador lineal aunque ningún agente «deje de querer» crecer.
+
+Igualmente, juntar verificadores de cláusulas booleanas individualmente baratos mediante una condición global de conjunción puede llevar a la familia de problemas SAT, con búsqueda combinatoria difícil. Las composiciones de restricciones y las compresiones de interfaces son mecanismos distintos: la primera modifica factibilidad y alcanzabilidad; la segunda modifica qué distinciones quedan disponibles para decidir. **No atribuir una a la otra sin intervención causal independiente.**
+
 ## 2. Modelo jerárquico: simplificar subsistemas no conserva todas las consultas
 
 Un productor compuesto tiene estado interno `s∈S`, recursos `r`, acciones `a`, transición parcial `T(s,a)`, outputs `y(s,u)` y condiciones de gobierno. Un receptor recibe una abstracción o interfaz válida en cierto alcance:

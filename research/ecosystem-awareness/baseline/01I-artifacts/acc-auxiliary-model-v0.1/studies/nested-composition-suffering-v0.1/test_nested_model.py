@@ -83,6 +83,19 @@ class StipulatedSuffering(unittest.TestCase):
         with self.assertRaises(ValueError):
             structural_suffering_proxy(self.p(actual_genuine_contribution=-1))
 
+class CompositionClosureControls(unittest.TestCase):
+    def test_affine_composition_remains_affine(self):
+        # f(x)=2x+1, g(y)=3y+4 -> g(f(x))=6x+7.
+        f=lambda x:2*x+1
+        g=lambda y:3*y+4
+        self.assertEqual([g(f(x)) for x in range(5)], [6*x+7 for x in range(5)])
+
+    def test_saturation_is_monotone_but_not_affine(self):
+        y=[min(x,9) for x in (8,9,10)]
+        self.assertTrue(y[0]<=y[1]<=y[2])
+        self.assertNotEqual(y[1]-y[0],y[2]-y[1])
+
+
 class NestedInterface(unittest.TestCase):
     def test_all_current_A_equal_for_all_profiles(self):
         for n in range(1,7):
