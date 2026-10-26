@@ -113,14 +113,17 @@ Para afirmar *causalidad* del tamaño de la cordillera sobre permanencia hacen f
 - [REFERENCE_SYNTHETIC_RESULTS.json](REFERENCE_SYNTHETIC_RESULTS.json): salida reproducible marcada como `SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL`.
 - [COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md](COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md): comparación crítica con ocho obras primarias, alcance, no predicciones, matriz factorial 2×2×2 y falsadores.
 - [EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md](EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md): programa **propuesto, no ejecutado** y **auditoría de reducción U0–U6**: antes de afirmar no isomorfismo para validación social, afecto, compromiso o agentes computacionales exige modelar utilidad total, comparar distribuciones y probar exactamente qué predicado se pierde. Incluye lemas formales, contraejemplos, mapas condicionados y falsadores por disciplina. No cambia el testigo histórico ni hereda evidencia automáticamente.
+- [**Campaña EX/01: 20 casos de las rotondas**](experiments-from-escritos-v0.1/README.md): 20 configuraciones sintéticas, 39 puntos de sensibilidad, 39 nuevas pruebas; teletrabajo, jardín, plataformas, ciudad/clima, rotondas, parque con deuda intergeneracional, migración/riesgo, sierra y vivienda. Incluye controles donde la opción criticada **sí** genera valor, parámetros versionados y JSON de referencia. No convierte el escrito personal en evidencia estadística ni altera F/G/HID.
 
 Ejecutar desde la raíz del repositorio:
 
 ```bash
 python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1 -p test_risk_model.py -v
 python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1/risk_model.py
+python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1/experiments-from-escritos-v0.1 -p test_scenario_campaign.py -v
+python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1/experiments-from-escritos-v0.1/scenario_campaign.py
 ```
 
-La prueba de integridad documental de la PR compara salida JSON y ejecuta los tests. **Fuentes de investigación previas**: [PR #42](https://github.com/dakleyer/structural-awareness-contributions/pull/42) → [#43](https://github.com/dakleyer/structural-awareness-contributions/pull/43) → [#44](https://github.com/dakleyer/structural-awareness-contributions/pull/44) → [#45](https://github.com/dakleyer/structural-awareness-contributions/pull/45). Referencia narrativa privada: «La generación de las rotondas» v0.6 en Escritos. La referencia no transfiere el ensayo privado al repositorio público.
+La prueba de integridad documental del PR compara **ambas** salidas JSON y ejecuta los **43 tests originales más 39 de la campaña**. La campaña es un instrumento sintético condicionado, no una estimación de preferencias reales. **Fuentes de investigación previas**: [PR #42](https://github.com/dakleyer/structural-awareness-contributions/pull/42) → [#43](https://github.com/dakleyer/structural-awareness-contributions/pull/43) → [#44](https://github.com/dakleyer/structural-awareness-contributions/pull/44) → [#45](https://github.com/dakleyer/structural-awareness-contributions/pull/45). Referencia narrativa privada: «La generación de las rotondas» v0.6 en Escritos. La referencia no transfiere el ensayo privado al repositorio público.
 
 **Puerta de promoción:** revisión del propietario de la interpretación de «sufrimiento» y de los límites de la distribución, CI real y revisión de genealogía apilada. No fusión automática.
