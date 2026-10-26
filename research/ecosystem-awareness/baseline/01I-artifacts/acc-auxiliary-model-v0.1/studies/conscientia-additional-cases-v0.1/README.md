@@ -2,7 +2,7 @@
 
 **26 octubre 2026 · Estado: 46 CASOS SINTÉTICOS EJECUTADOS + 88 BARRIDOS DE SENSIBILIDAD; 65 CONTROLES UNITARIOS LOCALES.**
 
-Se deriva de **12 Google Docs concretos**, con sus URL y asignación a cada caso en [EXPERIMENT_CATALOG.md](EXPERIMENT_CATALOG.md) y el manifiesto inmutable por hash [CASES.json](CASES.json). Los resultados de referencia están en [REFERENCE_RESULTS.json](REFERENCE_RESULTS.json) y [REFERENCE_SWEEPS.json](REFERENCE_SWEEPS.json). Cada afirmación tiene su nivel de evidencia; no hay campañas reales con participantes, proveedores o productos.
+El registro incluye **12 Google Docs concretos**. Los **46 casos** se vinculan directamente a **9** de ellos (CE1, CE2, CE3, CE4, CE6, CE7, CE8, CE10 y CE11); CE5, CE9 y CE12 se conservan como contexto documental, sin atribuirles un caso ejecutado propio. Cada caso declara su fuente en [EXPERIMENT_CATALOG.md](EXPERIMENT_CATALOG.md) y en el manifiesto fijado por hash [CASES.json](CASES.json). Los resultados de referencia están en [REFERENCE_RESULTS.json](REFERENCE_RESULTS.json) y [REFERENCE_SWEEPS.json](REFERENCE_SWEEPS.json). Cada afirmación tiene su nivel de evidencia; no hay campañas reales con participantes, proveedores o productos.
 
 El paquete anterior [RAV-EX/01 — 20 casos «La generación de las rotondas»](../risk-aversion-persistence-v0.1/experiments-from-escritos-v0.1/README.md) **ya existe en main** y permanece intacto. Este paquete añade casos nuevos centrados en la contribución Conscientia (algunas preguntas comparten temática, pero no se presentan como réplicas independientes). Entre ambos hay 66 **filas registradas de ensayo**, no 66 resultados empíricos independientes.
 
