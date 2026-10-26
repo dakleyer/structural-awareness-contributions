@@ -163,3 +163,23 @@ The maximum defensible FG-TIDA profile today is therefore:
 - **Appendix A ICR evidence** as the test-side condition for calling a route sufficient.
 
 This is less than the ideal 05 contract, but it is the most complete profile currently supportable without claiming FG-TIDA adoption, inventing absent fields or converting a testbed into a control plane. It preserves a clear path from public discussion to reviewed adapters, fixtures and conformance evidence while keeping later extension reversible.
+
+## Source-state reception — 21 October 2026
+
+This later reception preserves the 19 September bridge as its dated source snapshot. It adds three qualified reading points from the public source record reviewed on 21 October, without changing the ideal 05 contracts.
+
+**UC-6 Stage-0 reference.** [Nelson's UC6_Stage0_Theme13_v0.4.1-r1 report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841) describes reference assertions, deliberately corrupted applicability controls and offline replay. Its demonstrated claim remains that bounded reference/mapping work; authority calculation, measured response-window performance and executed cross-organizational intervention are separate investigations.
+
+**H1 prospective handoff.** The [H1 protocol proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6188764689) specifies four prospective cases: an unchanged applicable finding; material amendment before action; an irrelevant change that preserves legitimate work; and acknowledgement without independent effect readback. These are proposed observations for a future mapped investigation. Preserve source meaning, local authority, decision, acknowledgement, attempted action, effect and recovery as separate records.
+
+**Identity and current applicability.** The [proposed receiver-visible record fields](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6271168964) and [author's executable-diagnostic report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6279011475) are candidate record/test material. Matching dispatch and receiver-used digests can support identity at those declared observation points. Latest decision-applicable state at action time additionally needs a source-state/freshness witness covering relevant changes, or a bounded NOT_ESTABLISHED qualification. The contributor-reported field/token checks do not establish that stronger proposition.
+
+### EA-only interface offer — reception of the 15 October design
+
+**Select the semantic output for the receiving question.** A receiver may need EA.F2 pathway/window qualification, EA.F3 local-state qualification, EA.F4 external-evidence qualification or a composed EA.F5/F6/F8 conclusion. The selected route identifies which result was actually produced and preserves source-native findings and material unknowns.
+
+**Use the existing exchange surface where useful.** T13.F1 in the proposed signalling configuration can carry source findings and qualified EA publications. It is distinct from EA.F1–F9; direct handoffs and passive acquisition remain valid routes. An EHD describes semantic handoff, IF-S11 supplies signalling capability and publish/subscribe is an implementation choice.
+
+**Keep EA qualification and response ownership visible.** EA can identify a changed reliance basis, insufficiency, a narrowly affected decision or a contextual opportunity to reconsider. A population measurement, source-native verdict, qualified RA regime movement and an authorized MSCA/ACC repositioning retain their respective owners. The proposed T13.F3 response-coordination output is not specified by this EA-only offer.
+
+**Reuse one assessment through qualified recipient projections.** Preserve provenance, source lineage, scope, temporal/state versions, dependencies, coverage, unknowns and recipient disclosure limits. Forwarded copies of one source are not independent corroboration. The cross-Theme catalogue is an offered design; its dated conversation record and each accepted bilateral profile determine what is actually available.

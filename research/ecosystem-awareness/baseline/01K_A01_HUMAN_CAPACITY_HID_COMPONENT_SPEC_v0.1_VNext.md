@@ -335,196 +335,13 @@ Candidate93 in the existing [01K review](./01K_VNext.md) is a qualified successo
 Iván requests complete literal before/after before execution. The [joint source/receiver plan](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026) owns cross-document order; this existing VNext retains its source-specific pairs. Previous reviews and proposals remain unchanged.
 
 
-### 107 — Use a joint queue/service timing bound and separate review from effect
-
-**Source:** `research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `20b7c8e0bea79edc237e695924a2a657713d412c`. **Location:** ## 5.2 Predicted completion and response margin.
-
-**State:** Applied — owner-authorized 15 October 2026. Source blob `c4371ab49c78dadaebca493171df12c7e5c720ce`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Alto / Alto.
-
-**Benefit:** Prevents marginal percentile arithmetic being read as a guaranteed combined deadline and identifies the later effect deadline.
-
-**Risk:** Timing consumers and accepted proof classes can change availability interpretation; no measured runtime failure is asserted.
-
-**Effort:** Review probabilistic conditioning, units, queue/calendar commitments, proof class and consuming deadlines.
-
-**Dependencies and order:** 93 qualified gate variant; 108 proof policy; 109 UC03 working receiver; No schema/runtime or frozen-result change.
-
-**Text before — complete current passage**
-
-``````text
-## 5.2 Predicted completion and response margin
-
-Where a timing model exists, for declared prediction quantile q:
-
-~~~text
-T_hat_ij(q)
-=
-max(t_now, next_available_j)
-+
-BacklogDelay_j(q)
-+
-ServiceTime_ij(q)
-~~~
-
-and:
-
-~~~text
-ResponseMargin_ij(q)
-=
-deadline_i - T_hat_ij(q)
-~~~
-
-q is deployment-declared. There is no universal mandatory 90th, 95th or 99th percentile.
-
-If only a deterministic upper bound is known, that bound may replace the quantile estimate and the proof class becomes CONSERVATIVE_BOUND.
-
-If the implementation has only a heuristic point estimate, the result MUST say HEURISTIC.
-``````
-
-**Text after — complete proposed passage**
-
-``````text
-## 5.2 Predicted completion and response margin
-
-Where a timing model exists, for declared prediction quantile q:
-
-~~~text
-T_hat_ij(q)
-=
-max(t_now, next_available_j)
-+
-JointQueueAndServiceDelay_ij(q)
-~~~
-
-JointQueueAndServiceDelay_ij(q) is a declared q-quantile or sufficient q-bound for the combined backlog delay and service time under the same model, conditioning and units. Adding two marginal q-quantiles does not generally yield a q-bound for their sum.
-
-A model with separate component bounds may use them if it establishes the combined coverage. For example, bounds at q_queue and q_service give at least q_queue + q_service - 1 joint coverage by the union bound, without independence; to claim q, declare choices whose sum minus one is at least q. A dependence-aware joint model or deterministic upper bounds may supply a different justified construction. State the assumptions and evidence.
-
-~~~text
-ResponseMargin_ij(q)
-=
-deadline_i - T_hat_ij(q)
-~~~
-
-q is deployment-declared. There is no universal mandatory 90th, 95th or 99th percentile.
-
-If only a deterministic upper bound is known, that bound may replace the quantile estimate and the proof class becomes CONSERVATIVE_BOUND.
-
-If the implementation has only a heuristic point estimate, the result MUST say HEURISTIC. When the consuming policy requires a bound that the available timing model cannot establish, retain UNKNOWN for that assurance question.
-
-This estimate concerns completion of the qualified human review. The consuming operation separately states any deadline for approval delivery, permitted action and observed effect; a positive review margin alone establishes none of those later events.
-``````
-
-**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
-
-**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
-
-
-### 108 — Bind AVAILABLE to the consuming proof policy without adding a state
-
-**Source:** `research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md`, commit `a479f8c691f7de557c29b1a1d96d4fcf6710577d`, blob `20b7c8e0bea79edc237e695924a2a657713d412c`. **Location:** ## 5.3 Runtime state rule.
-
-**State:** Applied — owner-authorized 15 October 2026. Source blob `a60ea6991692dd0666203bb99e89b25564628745`. No longer pending. **Priority:** Siguiente. **Impact / risk / effort:** Alto / Medio / Alto.
-
-**Benefit:** Connects existing states to explicit model/proof requirements and preserves legitimate heuristic deployments.
-
-**Risk:** An unconditional proof requirement would wrongly reject scoped heuristic uses; state and policy meanings must remain separate.
-
-**Effort:** Check A01 state/model/schema profiles and selected consuming assurance claims.
-
-**Dependencies and order:** 93; 107; 109; Existing four states and conditional proof-class design.
-
-**Text before — complete current passage**
-
-``````text
-## 5.3 Runtime state rule
-
-A minimal state rule is:
-
-~~~text
-AVAILABLE
-  if at least one eligible route is established
-  and predicted completion is inside the response window
-  and no material unknown defeats that conclusion.
-
-DEGRADED
-  if a feasible route exists but only through fallback,
-  low declared response margin,
-  reduced redundancy,
-  or another deployment-declared degraded condition.
-
-UNAVAILABLE
-  if all relevant candidate routes are sufficiently known
-  and none can complete the required intervention inside the window.
-
-UNKNOWN
-  if the component cannot establish either a usable route
-  or proven unavailability because material competence, authority,
-  information, queue, timing or freshness state is unresolved.
-~~~
-
-The component does not create a fifth state for every failure cause; causes remain structured reasons.
-``````
-
-**Text after — complete proposed passage**
-
-``````text
-## 5.3 Runtime state rule
-
-A minimal state rule is:
-
-~~~text
-AVAILABLE
-  if at least one eligible route is established
-  and predicted completion is inside the response window
-  and no material unknown defeats that conclusion.
-
-DEGRADED
-  if a feasible route exists but only through fallback,
-  low declared response margin,
-  reduced redundancy,
-  or another deployment-declared degraded condition.
-
-UNAVAILABLE
-  if all relevant candidate routes are sufficiently known
-  and none can complete the required intervention inside the window.
-
-UNKNOWN
-  if the component cannot establish either a usable route
-  or proven unavailability because material competence, authority,
-  information, queue, timing or freshness state is unresolved.
-~~~
-
-The component does not create a fifth state for every failure cause; causes remain structured reasons.
-
-The consuming profile declares which scheduling/timing proof classes it accepts for each decision. EXACT and CONSERVATIVE_BOUND claims identify their model, assignment or bound and assumptions; HEURISTIC is reported as a heuristic. An availability indication must not silently become a stronger deadline guarantee than its witness supports. If a material proof/input required by the consuming policy is missing, use UNKNOWN for that decision. A deployment need not implement a universal exact scheduler or the optional HID measurement engine.
-``````
-
-**Acceptance:** One exact old occurrence; complete replacement; all unrelated source bytes and existing paths/links retained; named dependencies checked; exact application inverse and public readback if later approved.
-
-**Iván instruction:** detail the plan with literal before/after in the existing VNext before execution. Decision on incorporation remains pending.
-
-
 ## Literal plan check 15 October 2026
 
 Review by Codex AI assistant, 15 October 2026, against published main `0aa9718afb40ba917ce21a45f20b4dfd7e73d925`. This is a new reading by the same assistant, not an additional independent auditor.
 
 **Pairs checked here: 107,108.** Both complete old/new sections are present and match the current source.107 replaces the sum of marginal quantiles with a declared joint model or sufficient bound; the union-bound example states its coverage condition.108 keeps the four states and binds assurance to the consuming proof policy. Review completion remains distinct from later action/effect.107 stays high risk and requires93/109 and consumer reconciliation; no schema, scheduler or vector was changed.
 
-Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
-
-
-### Application 107 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md`; resulting source blob `c4371ab49c78dadaebca493171df12c7e5c720ce`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-### Application 108 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md`; resulting source blob `a60ea6991692dd0666203bb99e89b25564628745`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-**Verified application commits — 04_capacity_contract:** [107](https://github.com/dakleyer/structural-awareness-contributions/commit/47d1f2d545c3c353a8901fdb1a54038c203c96c3), [108](https://github.com/dakleyer/structural-awareness-contributions/commit/163cd7360f4036a53f0f31db174f63dba10eb698).
+The applied old/proposed blocks are preserved in the preceding Git revision; they are no longer duplicated in this VNext. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
 
 
 ## Owner authorised application complete 15 October 2026
@@ -545,3 +362,8 @@ Reviewer A's complete A01/01K historical reading retains the independent source-
 
 No A01 patch is justified by this block. The optional protected-objection example belongs to the general [01K owner and change130](01K_VNext.md#historical-human-capacity-integration-and-the-optional-protection-example--15-october-2026), not a new runtime hard gate or metric. Foundation and Gradient historical corrections remain in force.
 
+
+
+## Applied capacity-contract scope — 23 October 2026
+
+**Auditor: Codex, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** #107 and#108 are applied in the unchanged current component source: joint queue/service bound and review-versus-effect deadline separation; consuming proof-class/UNKNOWN qualification. The generic retained sentence “source incorporation remains pending its named decision” is historical plan language, not the current state of these two changes. Their applied commits are [107](https://github.com/dakleyer/structural-awareness-contributions/commit/47d1f2d545c3c353a8901fdb1a54038c203c96c3) and [108](https://github.com/dakleyer/structural-awareness-contributions/commit/163cd7360f4036a53f0f31db174f63dba10eb698). #93's separate unadopted alternative remains a distinct question in01K VNext. The malformed DDS quotation also prevents this review's link to the14October plan from reaching a heading; [148](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits) fixes that reception with one separator, without restoring applied cards.

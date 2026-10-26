@@ -1,0 +1,109 @@
+{
+  "id": "ACC-AUX-ECO-01-v0.1",
+  "object": "bounded economic specification and deterministic reference model",
+  "question": "Which declared improvements become agreements and executed changes, with what distribution, complete incurred cost and continuity under material change?",
+  "evidence_ceiling": "Stage A support only; no formal DDS acceptance, no native ACC or UC21 execution",
+  "actors": [
+    "Marketing",
+    "Operations",
+    "Systems",
+    "Finance"
+  ],
+  "units": {
+    "benefits_costs_transfers": "one fictitious common monetary numeraire; transferable quasilinear utility in this toy only",
+    "time": "integer logical ticks, not measured latency"
+  },
+  "constraints": [
+    "rights",
+    "complete_service",
+    "purpose_active",
+    "no_freeze",
+    "current_approval",
+    "technical_grant",
+    "explicit_participation"
+  ],
+  "costs": {
+    "preparation": 1,
+    "review_per_step": 0.25,
+    "payer": "Marketing",
+    "transition_costs": [
+      6,
+      4,
+      2,
+      0
+    ],
+    "rule": "preparation once, review every step including failed or blocked steps, transition cost only on effect; all entries unique and additive in this toy"
+  },
+  "transfer_options": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -40,
+      0,
+      40,
+      0
+    ],
+    [
+      -6,
+      -34,
+      40,
+      0
+    ]
+  ],
+  "transfer_rule": "zero sum; per-actor debit limits; each transition includes its review fee in Marketing acceptance; preparation is explicitly commissioned and recorded separately, never an unnoticed external cost",
+  "policies": [
+    "conventional_adaptive",
+    "qualified_record"
+  ],
+  "negative_control": "stale_reference; deliberately incomplete, excluded from primary superiority comparisons",
+  "fairness": "same current admissible observations, grant, proposals, transfer options, review cost, preparation and general adaptation rules; no future information or retrospective policy patches",
+  "qualified_record_scope": "toy record of a qualified decision; not an implementation of canonical EA, ACC, ABCD or MSCA",
+  "observation_rule": "the simulator prepares the visible snapshot; policies receive only that snapshot and logical time, never the hidden actual state or manual oracle",
+  "effect_rule": "technical executor checks current grant, expiry and scope; it does not automatically discover semantic obsolescence. Actual effects are adjudicated independently for current purpose, freeze, rights, service, version and actor balances",
+  "endogenous_dynamics": false,
+  "unresolved_cause_rule": {
+    "maximum_inquiries": 2,
+    "after_budget": "CAUSE_UNRESOLVED; do not invent a new dimension or alter the frozen model"
+  },
+  "primary_results": [
+    "realized operating surplus",
+    "incurred complete monetary cost",
+    "net actor profile",
+    "actual effects with currently legitimate basis",
+    "legitimate continuity over the sequence"
+  ],
+  "secondary_results": [
+    "immediate_or_adjusted_agreement",
+    "holds",
+    "invalid_attempts",
+    "missed_oracle_opportunities",
+    "duplicate_effects_prevented"
+  ],
+  "outcome_rule": "record actual scenario PASS/FAIL/HOLD separately from whether the implementation matches the manual expected trace. A reproduced known failure remains scenario FAIL",
+  "source_units": [
+    "S1-P1006",
+    "S1-P1020",
+    "S1-P0548",
+    "S1-P0623",
+    "S1-P0639",
+    "S1-P0785",
+    "S1-P0786",
+    "S3-P0033",
+    "S3-P0034",
+    "S3-P0050",
+    "S3-P0084"
+  ],
+  "exclusions": [
+    "general n scaling",
+    "strategic bargaining equilibrium",
+    "measured human welfare or skill loss",
+    "FH-C causal effect",
+    "FH-E measured compute advantage",
+    "all-ACC integration",
+    "source UC21/R01 oracle closure"
+  ]
+}

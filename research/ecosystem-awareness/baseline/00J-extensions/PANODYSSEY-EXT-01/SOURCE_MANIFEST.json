@@ -1,0 +1,310 @@
+{
+  "logical_id": "00J-EXT-PANO-01",
+  "package_role": "canonical_documentary_extension_record_proposed_not_admitted",
+  "canonical_parent": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
+  "initial_main_commit": "733749040565cab79ce7af291a7f58cb28024fa2",
+  "promotion_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/39",
+  "head_branch": "work/panodyssey-s6-00j-extension-review-20261025",
+  "source_folder": "https://drive.google.com/drive/folders/1_smNfS4Ii5XjBY7dZUEkPd21NAwKPOGO",
+  "source_core_docs_count": 9,
+  "external_source_map_count": 1,
+  "cutoff_date": "2026-10-25",
+  "disclosure_status": "CORPUS_OWNER_AUTHORIZED_PUBLIC_RESEARCH_COPY_2026-10-25; ORIGINAL_SOURCE_LABELS_RETAINED; THIRD_PARTY_UNDERLYING_EVIDENCE_NOT_LICENSED",
+  "promotion_decision": {
+    "decision_date": "2026-10-25",
+    "decision_owner": "Ivan Abril Palma",
+    "authorized_scope": "Public canonical research-corpus documentation of the Panodyssey S6/00J proposed extension and its ten full source-text mirrors, through PR #39",
+    "excluded_scope": "Third-party private correspondence or commercial source packs; external FG-TIDA submission; institutional/legal endorsement; A25/A26 evidence admission; DDS/UC4/PanO v6 test results"
+  },
+  "source_fidelity_audit": {
+    "date": "2026-10-25",
+    "source_docs_revision_ids_reverified": 10,
+    "normalized_text_matches": 10,
+    "native_tables_checked": 11,
+    "native_rows_checked": 121,
+    "native_cells_checked": 566,
+    "native_link_runs_total": 281,
+    "paragraph_link_runs": 185,
+    "table_cell_link_runs": 96,
+    "unique_link_urls_summed_per_document": 190,
+    "all_native_link_targets_preserved_in_mirrors": true,
+    "scope": "Source fidelity, not format identity, scientific approval, permission for third-party underlying evidence, or executed proof"
+  },
+  "asserted_00J_family_admission": false,
+  "asserted_DDS_UC4_execution": false,
+  "source_documents": [
+    {
+      "order": 0,
+      "logical_record": "parent",
+      "source_title": "Panodyssey — Industry Challenge Map & FG-TIDA ToR Traceability — v0.1",
+      "source_url": "https://docs.google.com/document/d/1qA8XG_L7ZJbwBOlOb37r4Qm7J6nG_AcSCddnzEAAPi8/edit",
+      "source_document_id": "1qA8XG_L7ZJbwBOlOb37r4Qm7J6nG_AcSCddnzEAAPi8",
+      "source_revision_id": "AHj4eMTvxsu8vkYtuDc_NpAb7dCQl_a3Wl4EeChKdPUDQKDm3G4ngLt2j5ZMtH1U-2aXKM3TpOClpVGS5IB3kJ6MYwKwFQanIcdyzxvjCcs",
+      "target_filename": "SOURCE-00_ORIGINAL_CHALLENGE_AND_TOR_MAP.md",
+      "document_role": "external_source_working_map",
+      "source_paragraphs": 109,
+      "native_table_shapes": [
+        {
+          "rows": 15,
+          "columns": 5
+        }
+      ],
+      "source_hyperlink_targets": 70,
+      "source_paragraph_link_runs": 8,
+      "source_table_cell_link_runs": 62,
+      "source_distinct_link_urls": 21,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 22499,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "bd8db8b6d20384d41fb63622293742f4343558ea8caeca0b9f521f6191170322",
+      "mirror_bytes": 22953
+    },
+    {
+      "order": 1,
+      "logical_record": "doc00",
+      "source_title": "00 — INDEX & Decision Record",
+      "source_url": "https://docs.google.com/document/d/1lwMj3JcMRSgOBM4CNjVws_MJFAQxp9SsEWFnhz97w-M/edit",
+      "source_document_id": "1lwMj3JcMRSgOBM4CNjVws_MJFAQxp9SsEWFnhz97w-M",
+      "source_revision_id": "AHj4eMQ9T4E43eBllevbE9kIyUC_fsZWrnpbUZgSHBlUDn1pJIUjVQmmYDDcAc39RJrRDd4b8bmmhhsamNAqdmtt5fZoK0vln-Fs6vY3oE4",
+      "target_filename": "PANO-00_INDEX_AND_DECISIONS.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 67,
+      "native_table_shapes": [],
+      "source_hyperlink_targets": 25,
+      "source_paragraph_link_runs": 25,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 22,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 13951,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "b943f795b4dc41c62536cdfd9fb876061771d9804cd9c698574bf02d849a38db",
+      "mirror_bytes": 14314
+    },
+    {
+      "order": 2,
+      "logical_record": "doc01",
+      "source_title": "01 — Expanded UC / Three Specific UCs / Challenge Architecture",
+      "source_url": "https://docs.google.com/document/d/1lU4zfSA1I5RMPxjoPrRMtp4ZXMIKvebCPko47ZgUMIk/edit",
+      "source_document_id": "1lU4zfSA1I5RMPxjoPrRMtp4ZXMIKvebCPko47ZgUMIk",
+      "source_revision_id": "AHj4eMRmIo4COZpsjbS5xsbg32Ztd3v7Win_uZw4vQmFUo6GcI47n39U3h9huxcaym-yNgz_-cJhQdfHuCGKx0OyT2OoaRZbcP6uqrdmQiM",
+      "target_filename": "PANO-01_EXPANDED_CHALLENGE_THREE_TRAJECTORIES.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 55,
+      "native_table_shapes": [
+        {
+          "rows": 21,
+          "columns": 4
+        }
+      ],
+      "source_hyperlink_targets": 11,
+      "source_paragraph_link_runs": 11,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 10,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 17589,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "d4d5918d276f35e4c434a4a778158629700a75e275ffa155e5feae3284e931b8",
+      "mirror_bytes": 18051
+    },
+    {
+      "order": 3,
+      "logical_record": "doc02",
+      "source_title": "02 — S1–S14 Traceability Addendum (EU Legislation / Technical and International References)",
+      "source_url": "https://docs.google.com/document/d/1mLp2Sb1q2dD67FKBqQMiZ9hR__t2snyitFIwcwpi78Y/edit",
+      "source_document_id": "1mLp2Sb1q2dD67FKBqQMiZ9hR__t2snyitFIwcwpi78Y",
+      "source_revision_id": "AHj4eMQrZpZZO1N0z6UHSlm9Rm3Oqv7mEE0-2R9d7MSl1SfpkLIlUFjsw4Zmx6zKoUU97LueL-w7yo6L3qv24Ci5FV2a_Mv16SbOqPMqWI0",
+      "target_filename": "PANO-02_CONDITIONAL_LEGAL_TECHNICAL_TRACEABILITY.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 103,
+      "native_table_shapes": [
+        {
+          "rows": 8,
+          "columns": 5
+        }
+      ],
+      "source_hyperlink_targets": 28,
+      "source_paragraph_link_runs": 28,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 24,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 23483,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "9e9a470d1c4db5b4fa5598dac0f609d6c72feceee9810ff70319d4996f05e6bd",
+      "mirror_bytes": 23886
+    },
+    {
+      "order": 4,
+      "logical_record": "doc03",
+      "source_title": "03 — T-UC3 Trajectory and UC21 Q3 Interface",
+      "source_url": "https://docs.google.com/document/d/12ekNFP1pfe1eC6uxqN2t5lbbaPzVazL064Ytrz9DWEw/edit",
+      "source_document_id": "12ekNFP1pfe1eC6uxqN2t5lbbaPzVazL064Ytrz9DWEw",
+      "source_revision_id": "AHj4eMQGxP5xVXxDqjr7dumVADdK-HFjJAQ56oMVbYb0kTGTcymrh7YmnvU-HbMGsZjNL5VYCzv3vvHc187-1n7IFhl5U9H-cmMMY-B_0-w",
+      "target_filename": "PANO-03_TUC3_EVIDENCE_EXECUTION_Q3_INTERFACE.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 68,
+      "native_table_shapes": [
+        {
+          "rows": 8,
+          "columns": 5
+        }
+      ],
+      "source_hyperlink_targets": 52,
+      "source_paragraph_link_runs": 18,
+      "source_table_cell_link_runs": 34,
+      "source_distinct_link_urls": 27,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 19099,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "5935855c6ba1cb13eb16cb345d209577ab24069774dd35d60b59ce256f34dbc3",
+      "mirror_bytes": 19462
+    },
+    {
+      "order": 5,
+      "logical_record": "doc04",
+      "source_title": "04 — DDS Stage A Outcomes and Evidence Contract",
+      "source_url": "https://docs.google.com/document/d/1QgCwAZORVivQXyH8kmrudbRVbzldV7qogy9OWvWxRPg/edit",
+      "source_document_id": "1QgCwAZORVivQXyH8kmrudbRVbzldV7qogy9OWvWxRPg",
+      "source_revision_id": "AHj4eMT0elDRcVmSfIxmftC1gt57Yg1vrHQehRBri68x-7iuHns2IPnoB_aMtFM_J6pJRAIy7GtaFGhsSkvxt18ldiV9MDvuWq-pL9knL6w",
+      "target_filename": "PANO-04_DDS_STAGE_A_EVALUATION_EVIDENCE_CONTRACT.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 78,
+      "native_table_shapes": [
+        {
+          "rows": 18,
+          "columns": 4
+        }
+      ],
+      "source_hyperlink_targets": 7,
+      "source_paragraph_link_runs": 7,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 6,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 26373,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "614e40838a90461457a06d12c595a58e95e17e2c34c2173daaf58a34ae828d95",
+      "mirror_bytes": 26739
+    },
+    {
+      "order": 6,
+      "logical_record": "doc05",
+      "source_title": "05 — Alexandre — AI Notice / RAG Discrepancy Decision",
+      "source_url": "https://docs.google.com/document/d/11GzD425qTaxXiUW0cx0xrvA5Z2QY5yKZVfoSjpFOC3Y/edit",
+      "source_document_id": "11GzD425qTaxXiUW0cx0xrvA5Z2QY5yKZVfoSjpFOC3Y",
+      "source_revision_id": "AHj4eMRvDJme9xUjhqNLP74oRKFacr6wg2Ew-sBSB4Zy9SCD9UJVobEwcFErqoUkHanRjH7Oh2Be6grOvDfTslZZjy3BuGl-zNJtejhqFtY",
+      "target_filename": "PANO-05_ALEXANDRE_NOTICE_RAG_DISCREPANCY.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 27,
+      "native_table_shapes": [],
+      "source_hyperlink_targets": 6,
+      "source_paragraph_link_runs": 6,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 5,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 6860,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "65bd362fda80de5e5aa75b66e52ec877fa4a9b9ee83964e273810f964783632e",
+      "mirror_bytes": 7148
+    },
+    {
+      "order": 7,
+      "logical_record": "doc06",
+      "source_title": "06 — UC20 / UC21 / UC4 / DDS Reuse and Roadmap",
+      "source_url": "https://docs.google.com/document/d/1RG6NjkPl5d8y3NjB6wA_iFHePsyTTQereQhGumeCcnw/edit",
+      "source_document_id": "1RG6NjkPl5d8y3NjB6wA_iFHePsyTTQereQhGumeCcnw",
+      "source_revision_id": "AHj4eMTGtOZgmrVrgYdW-iFWcUag-V1Nkke1enfaZbvMkS2YeMxhYtRBUPG1flTJYXrLie59EKkPbt-s5hqPdlGfwprDC34oFpDPlQC2e7M",
+      "target_filename": "PANO-06_DDS_UC4_UC21_REUSE_ROADMAP.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 102,
+      "native_table_shapes": [
+        {
+          "rows": 7,
+          "columns": 5
+        },
+        {
+          "rows": 9,
+          "columns": 5
+        }
+      ],
+      "source_hyperlink_targets": 29,
+      "source_paragraph_link_runs": 29,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 26,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 35475,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "a3af2f8baf89d9192040bf917bba5c232d233213d6b4cefff9d91666a37167f6",
+      "mirror_bytes": 35909
+    },
+    {
+      "order": 8,
+      "logical_record": "doc07",
+      "source_title": "07 — Completeness Audit and Open Findings",
+      "source_url": "https://docs.google.com/document/d/1YMWi8c4b6k49Om-4vNhNZqEAJRynoKlYYRPk8sQ5Ae4/edit",
+      "source_document_id": "1YMWi8c4b6k49Om-4vNhNZqEAJRynoKlYYRPk8sQ5Ae4",
+      "source_revision_id": "AHj4eMTDbNPRF007v7Cin4VVm55JrlQO8k2R-eB6pyEne8WLVhdATW5xoCP_1KBNAAvqH6625OC0ObSrGXYwoIoeAIqODZmt1kI6Jl_ztyI",
+      "target_filename": "PANO-07_COMPLETENESS_AUDIT_OPEN_FINDINGS.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 126,
+      "native_table_shapes": [
+        {
+          "rows": 13,
+          "columns": 5
+        }
+      ],
+      "source_hyperlink_targets": 31,
+      "source_paragraph_link_runs": 31,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 27,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 35241,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "f209b9c4d141344fdb7b16f21749920c97231196eae480e1e21fea2d0fcc1468",
+      "mirror_bytes": 35768
+    },
+    {
+      "order": 9,
+      "logical_record": "doc08",
+      "source_title": "08 — Panodyssey / S6-00J — Partially Isomorphic Extension & Evidence Transfer v0.2",
+      "source_url": "https://docs.google.com/document/d/1Oo-HsO6gfj7cY4M1Qe0YgyVjP86kCcJ9_163ZQEXTks/edit",
+      "source_document_id": "1Oo-HsO6gfj7cY4M1Qe0YgyVjP86kCcJ9_163ZQEXTks",
+      "source_revision_id": "AHj4eMQX0s77eSxuzAfJ3k0Y6fshTcMkOcHvKw4Oc-AyvCaZV_p2qdZHubmee8AUr0ZhKFyDh4MXUTbqwd2xiqgJIdA16alWJX9ald2lMIg",
+      "target_filename": "PANO-08_PARTIAL_ISOMORPHISM_EVIDENCE_TRANSFER.md",
+      "document_role": "source_fidelity_working_mirror",
+      "source_paragraphs": 139,
+      "native_table_shapes": [
+        {
+          "rows": 5,
+          "columns": 5
+        },
+        {
+          "rows": 8,
+          "columns": 5
+        },
+        {
+          "rows": 9,
+          "columns": 5
+        }
+      ],
+      "source_hyperlink_targets": 22,
+      "source_paragraph_link_runs": 22,
+      "source_table_cell_link_runs": 0,
+      "source_distinct_link_urls": 22,
+      "unresolved_link_target_count": 0,
+      "export_utf16_chars": 42316,
+      "disclosure": "Original Google Doc labelled INTERNAL / NOT FOR EXTERNAL CIRCULATION; owner-authorized GitHub research-corpus mirror 2026-10-25; third-party underlying records and external reuse separately restricted",
+      "evidence_status": "SOURCE / WORKING; NOT A NEW EXPERIMENTAL RESULT",
+      "mirror_sha256": "8ef69a9439acf1eb037396798317e53b3f603dc6b2a836d1000a0bbe647e999b",
+      "mirror_bytes": 42752
+    }
+  ],
+  "preserved_historical_google_docs": "Subfolder /old contains v0.3/v0.4 prior editions; they remain separately in Google Drive and are not silently replaced or republished here."
+}

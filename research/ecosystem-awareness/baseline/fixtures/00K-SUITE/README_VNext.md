@@ -310,12 +310,6 @@ Change 124 returns only that exact sentence under X6. The comparison fixes the d
 
 Related history: A05's authority-confound note survives as A06 with only the heading changed; the six historical A1–A3 code/test files retain their exact blobs and their separate 32 assertions. The current 379 campaign count is not increased. Two earlier JSON grammar representations receive historical reading links under change 123 in the [baseline owner review](../../README_VNext.md#rest-of-corpus--source-custody-and-historical-reading-15-october-2026), alongside the distinct 02B antecedents. Keep their historical proof scope, not the old all-six sufficiency assertion.
 
-### Change 124 — Applied 15 October 2026
-
-The exact reviewed passage is incorporated in `research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md`, source blob `2a46b95e350cd1885dbf8d69cffc58d259267074`. The [complete old/proposed pair](https://github.com/dakleyer/structural-awareness-contributions/blob/a6d92bba0688d02adcfd6fcb2e888be0e77e9bd0/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#change-124--make-authorityevidence-neutrality-explicit-in-failure-family-admission) remains in its published review predecessor. This item is removed from the pending queue. Whole-file inverse verification recovered predecessor `40da30f981f2cdd51b7cbc0ab4f00b55114b429e` exactly.
-
-
-
 ## Complete assigned case-history reception and A04 reading layers — 15 October 2026
 
 Reviewer B completed the assigned historical source-retirement queue: **468 events with source/receiver judgments; zero unadjudicated in that queue**. The last253 events contain833 changed units over80 logical paths and86 complete receiving bodies. This closes that fixed-cut reception queue, not all unchanged/new repository sources or scientific validity. The source cut remains9bd445fe; subsequent authorised text repairs are tracked separately.
@@ -328,12 +322,6 @@ The current closure manifest receives the former normal-form body plus proof pat
 
 One reader ambiguity remains in the actively linked A04 SYMBOLIC_EXECUTION_SUMMARY: its corrected §1 has76 A4 tests while §3 calls an earlier29-test layer “current”. A07/A09 reject the old issuer/source and HOLD-marked pairs as necessity isolations; their underlying principle discriminants are not thereby rejected. A10 permits minimal authority qualification without full lineage. D compared both completeA04 aliases, the manifest,A07/A09/A10 and current fixture contracts. It required a precision avoiding the false implication that the valid P1 explanation itself was obsolete. The selected note below makes only those specific distinctions and retains every old heading, paragraph, count and link.
 
-### Change 128 — Applied 15 October 2026
-
-The single reviewed reader paragraph is inserted in `research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_SUMMARY_v0.1.md`, blob `7320c1ab1b562dc6ac912bcc3c30c4127ab3200a`. The [complete old/proposed context](https://github.com/dakleyer/structural-awareness-contributions/blob/23dc1176267ce7d24b60258e7b93b1806b058199/research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md#change-128--identify-the-fixture-generations-in-the-retained-a04-explanations) remains in its published predecessor. This item is removed from the pending queue. The exact inverse recovers source `f7173d3c47d5b5ace7e2d9d4537a7a7cef0b2bc3`; every previous paragraph, heading, anchor, count and result remains.
-
-
-
 ## Root workflow and fixture history reception — 15 October 2026
 
 D's full root/control/workflow history review traced old CI count and normal-form checking duties to current versioned fixtures and the sole00K-CLOSURE route. Current346 core+33 supplemental=379 keeps the confounds and strong-substitute context. Historical grammars/formalisms remain directly accessible through123.00L/Stage0 retains its earlier run/A11 records and later A14 correction status; readback or instrumentation correction is not retrospective preregistration or independent acceptance. No old checker/publisher or scientific result is restored. The [baseline root-history record](../../README_VNext.md#root-control-and-daos-history-adjudicated--15-october-2026) supplies the control-side consequence.
@@ -342,4 +330,4 @@ D's full root/control/workflow history review traced old CI count and normal-for
 
 ## Historical audit readability repair — 15 October 2026
 
-Change 140 repairs the quotation boundaries left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). One stray delimiter before the historical audit is removed; the opening delimiter of the retained applied-source excerpt is restored, with its existing closer. The historical review again has normal headings, its evidence table and links. The source excerpt, including its source-relative link strings, stays quoted and literal. The earlier pending cards remain retired and every prior prose/count byte is retained. The [existing baseline review](../../README_VNext.md#change-140--restore-00k-historical-audit-readability) owns the complete exact pairs and their global inverse.
+Change 140 repairs the quotation boundaries left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). One stray delimiter before the historical audit is removed; the opening delimiter of the retained applied-source excerpt is restored, with its existing closer. The historical review again has normal headings, its evidence table and links. The source excerpt, including its source-relative link strings, stays quoted and literal. The earlier pending cards remain retired and every prior prose/count byte is retained. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability) owns the complete exact pairs and their global inverse.

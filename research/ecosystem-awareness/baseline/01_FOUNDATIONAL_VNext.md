@@ -257,14 +257,6 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
 
 
-### Application 100 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md`; resulting source blob `7cf6b6e268ff2522841ce6290b6d11ba46e4b175`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-**Verified application commits — 06_attribution_and_editions:** [100](https://github.com/dakleyer/structural-awareness-contributions/commit/7e04793c4b82bfc807d3affffa43e913053fdce5).
-
-
 ## Owner authorised application complete 15 October 2026
 
 **Applied and verified:** 100. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
@@ -306,3 +298,24 @@ Reviewer A read the full 2,110-line Foundation and its old/current clause series
 
 A may be probabilistic or interval-valued. Properly qualified uncertainty is not automatically a management fault; extra work becomes more than inefficiency when it consumes a viable response. Challenge outcomes remain conditional diagnostic signatures rather than universal Type identities. The 00M alignment retains handoff scope, freshness and provenance; characterised assessable reserve B remains distinct from uncharacterised exploration C. The neighbour expansion narrows novelty, and the coordination-distortion trajectory remains a hypothesis. No source repair is needed here. [Gradient VNext](../../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the coupled posture-owner reception.
 
+
+
+## New foundational comparative hypothesis bridge — 24 October 2026 (proposed, not adopted)
+
+**Reviewer: Codex (AI). Instruction: Iván, 24 October 2026.** The new [01A-A01 research note](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) states two distinct falsifiable hypotheses: **FH-C**, that *unawareness of epistemic boundaries* is the comparatively stronger cause of unjustified mission pivots than the lack of additional domain knowledge in delimited cases; **FH-E**, that qualified bounded metadata may meet the same mission-protection objective with **less computation**, though not necessarily less architecture complexity or total engineering cost. See [01A origin source](01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [02A principle source](02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md).
+
+**Before (current 01 §§8/11):** H1–H6 cover bounded closure, residual, composition, preservation, dynamic pressure and risk/capacity selection, but do not explicitly rank causal drivers or claim lower computational cost.  
+**After (proposal only, no source change):** add a short reader pointer to FH-C/FH-E as *comparative extensions requiring registered evidence*, not H7 or corollaries of H1–H6.  
+**Expected value:** explain why awareness of what is *not established* could protect the mission before costly object-domain inference. **Risk:** causal overgeneralization and false cost claims. **Evidence still needed:** matched ablations, positive mission transitions, metadata-production costs and strong-peer comparison. Links forward: [00M plausibility source](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) and [00N functional source](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). All existing statements and review history preserved; incorporation pending explicit GO.
+
+
+### Editorial adoption and owner reception — 24 October 2026
+
+**Iván's current instruction:** promote FH-C and FH-E as canonical statements of **research hypotheses** and keep each VNext reachable through its own source only. The incorporation is now recorded in the [current integrated Foundation](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), the [01A-A01 hypothesis source](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md), the [corpus README](README.md), the [corpus manifest](CANONICAL_CORPUS_MANIFEST.md) and relevant original source-level reading pointers. Earlier “proposed/not applied” paragraphs above are historical proposal receipts; their editorial promotion is now applied.
+
+**Scientific status unchanged:** FH-C is not validated causal dominance; FH-E is not validated compute saving. No frozen requirements, H1–H6, controlled historical texts or old tests are reinterpreted as proof. Cross-document navigation added in this work points to **source texts** rather than another source's VNext.
+
+
+## Current 02A review route — 25 October 2026
+
+The 24 October source-owned [02A VNext](02A_VNext.md#review-ownership-and-earlier-proof-audit--25-october-2026) is the current companion for 02A. The 14 October proof-attribution audit retained here remains intact as prior 02A/02B history and as the Foundation unit’s material dependency review. The earlier statement that this file was the shared 02A destination describes that prior allocation; it does not appoint a competing current 02A shadow. Proposal 100 is applied, not reopened by this reception link.

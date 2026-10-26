@@ -87,7 +87,7 @@ The earlier “determined / unresolved / obtainable / residual” vocabulary is 
 
 The relation depends on producer, process, question, scope, capability and time. A specified aspect can have different roles for different actors. Neither C nor D makes `R_U` a closed complement or Ω a closed universe. Role changes require new grounds or a changed frame; they do not follow from exchanging labels.
 
-## 3. Agent-local## 3. Agent-local qualification and ecosystem composition
+## 3. Agent-local qualification and ecosystem composition
 
 EA is **not an epistemic super-controller**, does not reconstruct every participant’s internal reasoning and does not require one mandatory shared ecosystem state. Ω retains its open ecosystem meaning. Where participant locality is material, U, W(d,t), R_U and A–D are interpreted for the declared receiving participant/decision; use U_i(d,t), W_i(d,t) and R_{U_i} when the participant index would otherwise be ambiguous.
 

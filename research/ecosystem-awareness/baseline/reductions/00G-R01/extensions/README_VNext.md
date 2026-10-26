@@ -239,12 +239,6 @@ El cambio80 lleva una referencia de admisión X1–X7 a main de UC-21 y conserva
 
 [Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
 
-### Cambio 80 — Conectar la reutilización de los trece estudios con el caso vigente
-
-**Aplicado en main — autorización de Iván, 12 octubre 2026.** Cambio 80 incorporado y fuera de pendientes. El par completo y su ficha anterior se conservan en el predecessor Git de esta aplicación.
-
-
-
 ## Migración conservadora completada en los repositorios — 12 octubre 2026
 
 Iván autoriza completar la migración y preservar toda la información y sus rutas. Se incorporan los seis cambios77–82 mediante sus trece pasajes exactos, con nueve enlaces de orientación actualizados y sus referencias anteriores conservadas. No se mueve ni renombra ningún archivo. Las fuentes mantienen todo el contenido fuera de esos pasajes; los anexos añadidos son bloques al final.
@@ -267,12 +261,6 @@ Reviewer C compared all268 Spanish/firstEnglish units and their current receivin
 
 Change127 corrects only those two complete paragraphs. The original source is Spanish blob `97b5df5c2e5d2be8adcbff17595720cc68bf9514` at `c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340`; firstEnglish is `aba2f04aa5deaee59bbf043d89a15495dc295a28` at `8efc19c9659dacfae1e18bce7250dfc60a05ef7e`. The current receiving blob is `b44b9c158cd47f8e59e2d92add1d74c4a3f11cae`. This catalogue remains the existing review owner; no Infoblox VNext is created.
 
-### Change 127 — Applied 15 October 2026
-
-All 2 exact reviewed passage(s) are incorporated in `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md`, blob `e82f707f7c66a80d716708713b0853c1033d9fc0`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/5105bb4709382834987bfa0ce77806ed4d56bd21/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#change-127--restore-both-negations-in-the-infoblox-translation) remain in the published review predecessor. This item is removed from the pending queue. Reversing only those substitutions recovers source predecessor `b44b9c158cd47f8e59e2d92add1d74c4a3f11cae` byte for byte.
-
-
-
 ## Historical Infoblox document reception — 15 October 2026
 
 B read all732 nonempty bilingual DOCX paragraphs,23 tables/183rows/500cells and all external relationship targets. Conditional transfer direction, sufficient conditions, countercertificate, complete costs, strong conventional controls and negative/current-status limits remain. No drawings or embedded math objects were lost. The attribution-only successor retains the full paragraph sequence, relationships and other package members apart from the author/document metadata.
@@ -283,4 +271,4 @@ No further useful omission was found.127's two negative-coordination repairs rem
 
 ## Readability repair — 15 October 2026
 
-Change 137 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its former paired quotation remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#plan-pendiente--linaje-originalcostetiposreparación). GitHub rendered the later audits and applied receipts as code at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`; removing that line restores their headings and links. All substantive text remains. The [existing baseline review](../../../README_VNext.md#change-137--restore-extensions-audit-readability) owns the complete reviewed pair and conservation check.
+Change 137 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its former paired quotation remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md#plan-pendiente--linaje-originalcostetiposreparación). GitHub rendered the later audits and applied receipts as code at `4f4fb93a742d03e45a3b1b5f5a008c0bd00e8826`; removing that line restores their headings and links. All substantive text remains. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) owns the complete reviewed pair and conservation check.

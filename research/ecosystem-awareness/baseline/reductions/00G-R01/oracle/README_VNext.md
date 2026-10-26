@@ -799,48 +799,6 @@ El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.m
 | 25 · Explicar reutilización por familia sin trasladar resultados | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
 | 29 · Distinguir modo, efectos y métricas antes de reproducir | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
 
-### Cambio 24 — Separar versión de schema y paquete UC4
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** No mezclar schema 1.1.0 con release 1.1.0-r1.
-
-**Qué podría quedar desactualizado o afectado:** Companion mutable, sidecar y validador pueden usar versiones distintas; corregir solo el README deja el perfil o import note desfasados.
-
-**Qué cuesta prepararlo:** Cotejo del manifest pin y dos documentos receptores; no cambiar sidecars congelados.
-
-**Dependencias conocidas:** [UC4_INTEROPERABILITY_PROFILE.md](UC4_INTEROPERABILITY_PROFILE.md) · [NELSON_BASELINE_IMPORT.md](NELSON_BASELINE_IMPORT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Verificar vigencia del pin antes de incorporar; source-review no equivale a validator-pass.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-001--separar-versión-del-esquema-y-del-paquete-uc4); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 25 — Explicar reutilización por familia sin trasladar resultados
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Hacer visible qué puede usarse de Q1a/00K/00L/00I/C3 y qué sigue sin mapping.
-
-**Qué podría quedar desactualizado o afectado:** La tabla puede quedar vieja o sumar campañas distintas como evidencia R01; desarrollar un adapter es otra acción.
-
-**Qué cuesta prepararlo:** Siete familias con owners/versiones y comparación de límites; no importación ni ejecución.
-
-**Dependencias conocidas:** [README.md](../../../fixtures/RS-00E-Q1a/README.md) · [README.md](../../../fixtures/00K-SUITE/README.md) · [README.md](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) · [README.md](../../../fixtures/00I-STATEFUL/README.md) · [README.md](../../../fixtures/00G-HF-ORACLE-v0.4/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Alinear con matriz existente, tareas 1/2 y workplan; tabla propuesta, no admisión.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-002--hacer-visible-la-reutilización-de-los-harness-propios); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 29 — Distinguir modo, efectos y métricas antes de reproducir
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Que una instrucción de reproducción no confunda intento, efecto y aceptación.
-
-**Qué podría quedar desactualizado o afectado:** El texto puede prometer métricas o aislamiento que el runner no produce; datos instrumentales no son costes reales.
-
-**Qué cuesta prepararlo:** Leer contrato/mode y etiquetas de salida del instrumento; ninguna ejecución de programa.
-
-**Dependencias conocidas:** [README.md](README.md) · [TRACE_CONTRACT.md](TRACE_CONTRACT.md) · [ISOLATION_CONTRACT.md](ISOLATION_CONTRACT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Confirmar correspondencia documental con los modos; evitar nueva autorización de ejecución implícita.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-006--separar-modo-efectos-y-métricas-antes-de-reproducir); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
 ### Líneas de trabajo por concretar — no cambios ejecutables
 
 | Trabajo ya recomendado | Impacto esperado | Riesgo | Esfuerzo | Prioridad / preparación |
@@ -1201,14 +1159,6 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
 
 
-### Application 111 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; resulting source blob `f511c309fca30942deff376d9b52fb301c3c64b2`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-**Verified application commits — 07_uc21_contract_and_reader:** [111](https://github.com/dakleyer/structural-awareness-contributions/commit/b3c01574754454d37ad1f4107ecbd0ac47c50429).
-
-
 ## Owner authorised application complete 15 October 2026
 
 **Applied and verified:** 111. Iván authorised the reviewed plan on15 October2026. The current proposal queue for these items is empty; the older audits and complete old/new pairs remain their dated application history.
@@ -1228,3 +1178,10 @@ C5 read all 19 oracle-control events in its allocation against the complete curr
 Applied waves and their literal variants have authentic predecessors and source receipts. They do not re-enter the active queue when an old header says pending. The current descriptions preserve same-maintainer, finite/DAG/reference-domain limits, actual-effect versus selected-batch distinctions and q/deadline obligations. Reading schema fields, source hashes or a self-test record does not establish semantic admission or native isolation. No source, reference world, result or script was changed by this reception review.
 
 The common [restoration decisions](../../../README_VNext.md#historical-reception-and-restoration-decisions--15-october-2026) and [EP branch map](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#historical-damage-control-consolidation-and-remaining-boundaries--15-october-2026) retain the cross-document consequences. This is the completed historical-control allocation, not another independent scientific execution or completion of all neighbouring-source reviews.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #24, #25, #29 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #24: `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md` (current blob `65c03bae4004f4e6d7ecf4f9a825177f4c85faa3`); #25: `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md` (current blob `65c03bae4004f4e6d7ecf4f9a825177f4c85faa3`); #29: `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md` (current blob `65c03bae4004f4e6d7ecf4f9a825177f4c85faa3`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

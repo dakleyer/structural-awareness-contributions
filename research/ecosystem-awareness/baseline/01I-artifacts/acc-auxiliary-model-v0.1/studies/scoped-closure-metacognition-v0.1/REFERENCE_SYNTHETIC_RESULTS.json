@@ -1,0 +1,50 @@
+{
+  "advisory": {
+    "advisory_status": "QUALIFIED_POSITIVE_FOR_OWNER",
+    "automatic_action": false,
+    "human_suffering_changed_by_advisory": "NOT_ESTABLISHED",
+    "subjective_harm_measured": false,
+    "truth_of_unknown_effect_computed": false
+  },
+  "base": {
+    "conditional_answer_bounds": [
+      8,
+      11
+    ],
+    "distinct_declared_origins": [
+      "archive-A",
+      "archive-B"
+    ],
+    "local_answer_status": "LOCALLY_SUPPORTED_TRUE",
+    "material_D_witnesses": [],
+    "rejected_claim_ids": [],
+    "residual_exterior": "OPEN_NOT_ENUMERATED_OR_PROBABILIZED",
+    "retained_claim_ids": [
+      "source-1",
+      "source-2"
+    ],
+    "source_authenticity_not_cryptographically_verified": true,
+    "status_not_world_oracle": true,
+    "subjective_suffering": "NOT_MEASURED"
+  },
+  "costs": {
+    "A_only_conservative_net": 0.0,
+    "conditional_not_real_world_roi": true,
+    "costs_include_maintenance_and_source_preparation": "ASSUMED_BY_DECLARED_INPUTS",
+    "net_if_correct": {
+      "B": 7.75,
+      "full_reconstruction": -22.0,
+      "targeted_conventional": 7.0
+    }
+  },
+  "irrelevant_D": "LOCALLY_SUPPORTED_TRUE",
+  "material_D": "MATERIAL_D_NOT_EVALUABLE",
+  "structural_exposure": {
+    "dignity_not_derived_from_productivity": true,
+    "new_gap_recognized": true,
+    "proxy": 2.0,
+    "status": "SYNTHETIC_AUTHOR_DEFINED_GAP",
+    "subjective_suffering": "NOT_MEASURED"
+  },
+  "study": "FINITE_LOCAL_SUFFICIENCY_NOT_OPEN_WORLD_CLOSURE"
+}

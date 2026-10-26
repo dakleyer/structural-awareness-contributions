@@ -6,8 +6,45 @@
 
 **Owning source:** [DDS Stage A — Specification Discovery / Challenge–Trajectory Profile v0.1](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
 **DDS method router:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)  
-**Current review date:** 8 October 2026.  
+**Current review date:** 23 October 2026 (new scoped comparison review; earlier reviews retained below).
+
 **Status:** current Stage A review ledger only. Historical incorporated proposals have been removed from this VNext because Git history already preserves them.
+
+## Scoped cross-corpus correction — 23 October 2026: ex-ante differential and the hindsight-oracle error
+
+> **Application receipt — 25 October 2026 (DC-GH-01): APPLIED; no longer pending.** Iván's authorized methodological clarification was merged through [PR #24](https://github.com/dakleyer/structural-awareness-contributions/pull/24) at [merge commit `d5ac4648`](https://github.com/dakleyer/structural-awareness-contributions/commit/d5ac4648e3620823c61ebc5c6a2bde21566a4595), into [DDS Index §5](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#ex-ante-comparison-discipline-for-differential-findings-23-october-2026), [Stage A §15.1](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#151-prospective-differential-do-not-lend-the-comparator-tomorrows-answer-23-october-2026) and [00D §4.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#42-ex-ante-knowledge-preparation-and-adaptation-accounting--prospective-clarification). The complete **pre-application review card** is preserved at [commit `7a168926`](https://github.com/dakleyer/structural-awareness-contributions/blob/7a16892664634a93e2b4c5d9b8a8e256bdbbc9bf/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). The proposal/application wording below is historical context, not an outstanding source-promotion task. No historical experiment, case-local namespace, freeze, result or independent-assurance status changed; external DDS method/instrument review remains pending.
+
+**Reviewer:** Codex AI assistant (same continuing assistant; not an independent human scientific review). **Owner instruction:** Iván Abril Palma, 23 October 2026: correct the recurring R1/R2/R3 differential-comparison error in DDS and put the result in the existing VNext. **Scope read:** current DDS Index §5, Stage A §§3, 7, 15–17, 00D §§2, 4, 6, 8, R01 extension protocol §§1–7 and HEW R1/R2/R3; public A/B/C/D 00M v0.8; selected controlled corpus navigation. This is a **scoped new review and additive methodological clarification**; no complete independent four-pass audit of the entire corpus is claimed. The earlier record below is retained.
+
+### 1. Fondo y lógica — qué se estaba comparando incorrectamente
+
+The recurring statement “a competent conventional controller could simply have installed a gate for that failure, therefore EA has no differential” quietly grants the conventional arm **hindsight about the exact future event** and often treats the time, specialists and instrumentation required for the tailored gate as free. It compares a policy designed with tomorrow's answer against another policy expected to react without that answer. The resulting known-case solvability can be true **without deciding** the prospective adaptation question.
+
+The candidate differential is not perfect prediction: **recognizing that prior knowledge/authority/dependency conditions no longer justify the intended decision, requalifying only the affected scope and responding within legitimate time and resource bounds**. A capable conventional system may do exactly that with already deployed generic monitoring/revalidation; success at equal or lower total cost is a valid negative EA result. R3 is the post-freeze changed-context **challenge**, not a synonymous name for EA or a guarantee that a peer must fail.
+
+### 2. Evidencia y relaciones — qué puede concluirse y qué todavía no
+
+- [DDS Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) owns stage identity, conditional local R1/R2/R3 admission and cross-stage comparison interpretation. Original UC-20 R0/R1/R2 and UC-21 R0/R1/R2 remain source-native; R01 has a mathematically distinct R1/R2/R3. No old result is relabelled.
+- [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) owns the **specification-level differential finding**, its trace Cost–Risk–Effectiveness scope and evidence ceiling; Stage B/C do not inherit new results from this prose.
+- [00D](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) owns strong B0–B3 fairness. Its resource-match rule and credit for B1/B2 were correct but left the **chronology, domain-specific preparation and amortized burden** implicit. This correction complements, not weakens, strong conventional peers.
+- [R01 extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) already separates evaluator-private solving information, mapped observations and charged mechanisms. [00M v0.8](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) defines D as residual beyond effective evaluation; a fictitious probability distribution over all D must not be used to assert an expected improvement.
+- [Flores/Theme #21 prospective campaign](./campaigns-in-development/flores-population-ea/CAMPAIGN.md) already considers repaired parity, freeze and uncovered R3, with blind holdout obligations. Its actual scientific status and independent selection must be checked at campaign time; this entry does **not** assert R3 executed or valid EA superiority.
+
+**Evidence remaining open:** no newly run blind prospective comparator, no real-cost calibrated specialist/adaptation ledger, no general regime-versus-benefit curve, and no proof that EA will recognize all changes. Known-failure repairs, selectively out-of-envelope stress tests, synthetic controls and real runtime evidence remain separately typed.
+
+### 3. Edición, estructura y formato — antes/después de los receptores
+
+| Owner / original wording | Additive receiving change | Status of inference |
+|---|---|---|
+| **Stage A §15**: “A strong conventional or market-reference solution receives full credit.” | Retain that sentence. Add **§15.1**: all-in ex-ante policy comparison, chronology/knowledge freeze, cost of development and reconfiguration, blind R3 holdout, false alarms/legitimate continuity, no known D distribution and separate conclusions `hindsight-only parity` / `blind differential not established` / `peer parity`. | Prospective method; no old empirical result regraded. |
+| **00D §4**: “All arms receive the same frozen facts, task, action library, source access, authority, compute/token ceiling, communication budget, human capacity and deadline.” | Retain that sentence and B0–B3 arms. Add **§4.2**: knowledge timing and full preparation/adaptation budget also matter; peer fully credited for generic defenses frozen before the specific change. | Comparator-fairness clarification; 00D v0.2 historic findings unchanged. |
+| **DDS Index §5**: strong R1, conditional R2, post-PASS changed R3, separate UC-20/UC-21/R01 namespaces. | Retain all three entry/exit rules. Add **“Ex-ante comparison discipline for Differential Findings”** below them; R3 remains test stimulus, not architecture arm. | Cross-stage rule; no new DDS method/Stage. |
+
+### 4. Legibilidad y comprensión humana — prueba de lectura simulada
+
+Useful analogy: a person can easily avoid an obstacle **after being shown its exact position**; that does not measure whether a prepared but non-omniscient process recognizes and safely reacts to an obstacle whose exact position was not known beforehand. The experiment must compare the **whole preparation-plus-operation policy**, not the single lucky retrospective path. A fair comparator is permitted to install an excellent generic detection/avoidance capability in advance, and its cost, false positives and missed obstacles count in both directions. This is a same-assistant simulated reader check, not an independently observed user study.
+
+**Owner-directed application boundary:** current work proposes/reconciles the three additive target changes above, preserving this sole Stage A VNext, the old text, hashes, freezes, reported results and associated ownership. Adoption/publishing these methodological statements does not demonstrate an EA differential, validate a product or change the 00D/UC-21/R01 frozen campaigns. If new evidence appears, reopen this specific comparison finding rather than erasing it.
 
 ## 1. Current Stage A state
 
@@ -60,7 +97,7 @@ The following items are incorporated in the live Stage A source and are intentio
 
 Their detailed historical text remains available in Git history. They are not active work items.
 
-**Historical review qualification — 15 October 2026 ([Change 143](./baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations)).** The [6 October review preserved before the ledger pruning](https://github.com/dakleyer/structural-awareness-contributions/blob/27938fa70a82c2fa07f79c60eed34ab4c2d9f267/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#L240-L266) records that the 0.1.2 literal pair covered §10B while its introductory addition was described outside that pair. It also records that the four 0.1.3 pairs covered the chain, §13.1, the HEW row and §14.1, while introduction, coverage and citation-field changes were also described outside those pairs. Those literal plans were therefore partial accounts of the respective deltas. The [retained EP review](../../architectural-contributions/ecosystem-positioning/README_VNext.md#imagen-conjunta-qué-planes-son-adecuados-y-cuáles-todavía-no) already keeps the 0.1.2 caveat and points to the 0.1.3 detail in this DDS review; the complete original linked here supplies that historical detail. The original review also warns that authority and evidence additions are not low-risk merely because they are prose, and that publication or text presence does not establish original authorization, replication or native results. This qualification retains the historical audit without reactivating incorporated proposals or restoring the former single-document method authority.
+**Historical review qualification — 15 October 2026 ([Change 143](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations)).** The [6 October review preserved before the ledger pruning](https://github.com/dakleyer/structural-awareness-contributions/blob/27938fa70a82c2fa07f79c60eed34ab4c2d9f267/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#L240-L266) records that the 0.1.2 literal pair covered §10B while its introductory addition was described outside that pair. It also records that the four 0.1.3 pairs covered the chain, §13.1, the HEW row and §14.1, while introduction, coverage and citation-field changes were also described outside those pairs. Those literal plans were therefore partial accounts of the respective deltas. The [retained EP review](../../architectural-contributions/ecosystem-positioning/README_VNext.md#imagen-conjunta-qué-planes-son-adecuados-y-cuáles-todavía-no) already keeps the 0.1.2 caveat and points to the 0.1.3 detail in this DDS review; the complete original linked here supplies that historical detail. The original review also warns that authority and evidence additions are not low-risk merely because they are prose, and that publication or text presence does not establish original authorization, replication or native results. This qualification retains the historical audit without reactivating incorporated proposals or restoring the former single-document method authority.
 
 ## 3. Pending Stage A changes
 
@@ -1844,7 +1881,8 @@ Before it can become the controlling DDS Stage A gate profile:
 3. run specification mutants;
 4. obtain independent review of gate independence and verdict semantics;
 5. compare with the current DDS Stage A method and reconcile any contradiction;
-6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.````
+6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.
+````
 
 </details>
 
@@ -18139,7 +18177,7 @@ The additional Stage B/C history likewise changes stage terminology without turn
 
 ## DDS review quotation repair — 15 October 2026
 
-Change 141 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its complete original pair remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-pendiente--mapa-de-informes-por-unidad-de-investigación). Local GFM parsing now reads the following audits as prose and pairs the later, legitimate quotation delimiters correctly. All prior prose, tables, link strings and scientific records remain unchanged. Verification combines the exact whole-source inverse and local GFM structure. GitHub’s HTML API returned `403 too_large` for this 2.4 MB review; the raw Markdown remains public. The 12 October passage above retains its dated case-package link. For current research navigation, follow the [DDS method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) in Contributions. The [existing baseline review](./baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary) owns the exact pairs and conservation check.
+Change 141 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). Its complete original pair remains in the [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-pendiente--mapa-de-informes-por-unidad-de-investigación). Local GFM parsing now reads the following audits as prose and pairs the later, legitimate quotation delimiters correctly. All prior prose, tables, link strings and scientific records remain unchanged. Verification combines the exact whole-source inverse and local GFM structure. GitHub’s HTML API returned `403 too_large` for this 2.4 MB review; the raw Markdown remains public. The 12 October passage above retains its dated case-package link. For current research navigation, follow the [DDS method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) in Contributions. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary) owns the exact pairs and conservation check.
 
 
 ## Historical review reception consolidated — 15 October 2026
@@ -18467,3 +18505,577 @@ All 48 original files, including the complete submitted S6, are preserved byte f
 
 **Iván's instruction and decision:** preserve all information, use this existing VNext and exact old/new passages, and receive GO for each adoption wave. This review publishes the complete candidates. GO for these three official-resource changes is pending; no inference of FG-TIDA acceptance, source-owner participation or new experiment follows.
 
+
+
+## Complete UC-21 main-form source review — 18 October 2026
+
+**Current candidate: Change 147, prepared and not applied.** This replaces the pending, narrower Change 144 reader insertion; it does not create another VNext or apply either proposal. Changes 145/146 retain their separate official-index and PR-provenance scope. This is Codex's continued source review in the same conversation, not a new independent opinion or closure of the corpus-wide scientific audit.
+
+### What was actually compared
+
+Iván supplied the complete UC-21 form, beginning with its existing banner and four Contributions links. After transport line endings and the attachment's final newline are normalized, it is exactly the live [official UC-21 Issue](https://github.com/FG-TIDA/use-cases/issues/21) body read on 18 October: 20,318 characters, body SHA-256 `9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98`. The original attachment bytes are retained privately without reconstruction. The live record has 46 comments; the three added since the previous 43-comment review are read below.
+
+The current Contributions main remains `26e5ac1bc056fd03db738794a9885af47dc62a19`. Its original 48-file UC-21 snapshot retains every blob authenticated in the 15 October public readback. This 18 October check revalidates those 48 identities, not a new download of every binary. Current DDS/index, baseline profile matrix, the integrated 00G route, the 00H successors, 00I reader, 00J-A01 and the Panodyssey crosswalk were compared with the form's source/claim roles. The current Document Control/procedure and relevant local/Drive controls were read. No source programme was executed.
+
+### Main finding
+
+**The scientific form can remain intact while its body is linked properly.** The four opening links already reach current Contributions. The original text then depends on 13 different fork URLs for the case, protocols, annexes and assets. Those URLs identify a valid historical source edition, but should not carry the whole current reading route.
+
+The candidate gives the form direct access to all six current Challenge sources and nine current technology profiles. It moves the active original-case/protocol/asset destinations to the identical source edition already preserved in Contributions. All 13 older destinations remain in the existing folded source-history block. There is no move, new case owner, package merge or copying of source files.
+
+### Comments on every form section
+
+| Form section | Source comparison and concrete judgment |
+|---|---|
+| Opening / source history | Keep the four current links. Add the explicit objectives→Challenges→DDS→campaigns→results route and direct Contributions case/annex/package access. Preserve the banner and old source fold; retain the ten additional old individual destinations there. |
+| 1 — Identification | Keep the title, contributor and contact. The new Section 2 reading key explains that three walkthroughs are comparison positions, whereas there are nine technology profiles. The seven-sector flag difference from the submitted source remains a separate owner decision; this candidate neither removes boxes nor treats hypothetical applicability as demonstrated coverage. |
+| 2 — Situation | The six constructed receiving-decision problems still match the current 00E–00J sources. Add one compact six-row Challenge/profile table after the existing residual-gap paragraph. Preserve the original plain-language description, actors, action, decision, problem, mitigation and residual-gap text. |
+| 3 — Actors and context | Retain the synthetic grants, bounded authority, source obligations, organizational-boundary fields and action/risk classifications. A live authority state and an independently observed effect remain experiment duties. This reader change does not rewrite a legal regime or confer authority. |
+| 4 — Theme relevance | Retain the current mapping and no-agreed-allocation statement. Redirect the historical related-case annex to Contributions. Add links to the current Panodyssey crosswalk and the public 18 October design direction, keeping the broader three-case Challenge separate from S6. |
+| 5 — Requirements | Keep all 37 rows literally unchanged. The original local Must status and justified N/A rule remain. In particular, the UC-21 local Q6 proposal does not by itself adopt CAND-R4 as a global requirements amendment. Current gate-register reception remains documented in the 15 October review above. |
+| 6 — Assessment | Keep legitimate continuity, demonstrated corrected R1 before retained-R2 recurrence, HC/HR/HS versus individual H1–H6, S4's two outcomes, fixed metrics and original run record. Link the current DDS application/recurrence contract and result-return route. R0/R1/R2 are not DDS A/B/C. |
+| 7 — Duplication | Retain existing-mechanism credit and the bounded gap test. Redirect the original evidence-protocol reference with an explicit source-edition label. This is not a fresh exhaustive standards or vendor-capability review. |
+| 8 — Maturity | Keep the original hypothetical/native-product status and documentary-profile/skeleton statement. Add the current report route and separate 00I-STATEFUL companion so the reader can inspect later executed local work. The frozen documentary package and subsequent studies have different scopes. |
+| 9 — IP and confidentiality | Keep every byte of this section. No code/data/text licence, participant consent or public/private boundary is changed. |
+| 10 — Assets | All named figures, JSON designs, full hypothesis/evidence protocols, twenty annexes and complete case remain linked. Use Contributions for active access, label the fixed hypothesis edition submitted, and keep every old destination in source history. The original checksum discrepancy remains documented rather than regenerated. |
+
+### Current source choices that matter
+
+The table is derived from the actual current owning routes, not simply the highest version number found in the tree:
+
+| UC-21 slot | Current receiving source and technology route |
+|---|---|
+| S1 / 00E | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md); [Agent365 v0.2](./baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [LangGraph v0.2](./baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md). |
+| S2 / 00F | [00F v0.2 working](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md); [FIWARE v0.2](./baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [TwinMaker/Core v0.2](./baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md). |
+| S3 / 00G | [00G v0.4](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md), including [OpenAI §17](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories). The earlier standalone A01 is version lineage, not the active profile owner. |
+| S4 / 00H | [00H v0.5](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md); [Claude v0.4](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) and [Stripe/merchant v0.4](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md). Retain both finding preservation and aggregate/root authority. |
+| S5 / 00I | [00I reader](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) and [AWS/RDS v0.2](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md). Original study freezes and source aliases remain intact. |
+| S6 / 00J | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) and [00J-A01](./baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), with the [broader Panodyssey crosswalk](./fg-tida/cases/PANODYSSEY_THEME17_00J_UC21_TRACEABILITY_WORKING.md). The full submitted S6 remains available in the 48-file source snapshot. |
+
+The [DDS index §§11–15](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) supplies objectives, claim selection, corrected-baseline recurrence, method/instrument selection and owning results. Historical H/R/X/evidence protocols are not relabelled as newly adopted current contracts. Each study continues to identify its actual source edition.
+
+### Three new public comments received
+
+- [Olena, 15 October](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6202826500): preserve the production source, provenance and authorship; experimental UC21/UC4 mapping has its own scope; do not force non-overlapping Challenge-Pack parts into S6.
+- [Alexandre, 16 October](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6217498268): confirmation and availability in that public exchange. The statement supplies no frozen test contract, observed run or product-failure finding of its own.
+- [Iván, 18 October](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6253197588): prepare one dedicated Challenge with three cases, technology-neutral scope and ToR mapping, UC4/DDS methodological reuse and contributor review. It is a design direction, not three already completed experiments or a default dependency for other UC4 work.
+
+Separate review-process and operational-progress drafts remain their own preparation. This candidate concerns the complete main form's sources and navigation; it posts neither a review-plan comment nor an operational status table. Source-owner confirmation, documentary study scope, instrument review and independent reproduction retain their individual evidence records.
+
+### Verification and adoption boundary
+
+Eight disjoint literal pairs reconstruct the entire proposed form and reverse exactly to the complete official body. Sections 1, 3, 5 and 9 are byte-identical, all 37 requirement rows are literal, and the banner, original protocol statements and every prior URL destination survive. The proposed form has 55 repository-target link/image occurrences, all present, and all 7 fragment-bearing form links were checked against the actual target bodies. The broader selected-source scan checks 690 occurrences without a missing target or checked-fragment failure. This does not certify unrelated external links or vendor execution.
+
+The full selected review-ledger scan separately retains one inherited EP VNext→DDS VNext fragment, `#damage-control-and-restoration-plan--14-october-2026`, that no longer has a matching heading. It is present before and after this candidate and is not a link in the official form. No new broken review link is introduced. Its historical-receipt navigation remains a separate follow-up; it is not silently counted as repaired by this form review.
+
+No official body or canonical source is edited by this review. The candidate needs a named GO for the eight exact passages, then a fresh official-body comparison, preservation, surgical application, full inverse and readback. No issue-title metadata, sector checkbox, existing result, original file, PR package or hierarchy is part of this change.
+
+### Change 147 — complete literal plan
+
+**Priority:** Primera. **Expected impact:** Alto. **Risk:** Bajo. **Effort:** Medio. **State:** prepared, not applied. It replaces only pending Change 144 as the main-form candidate; 145/146 are separate and unchanged. Iván asks for the complete pasted form to be commented against current canonical sources, with all information preserved, one VNext and exact old/new passages before adoption.
+
+**Benefit:** one readable main form reaches its actual current Challenge/profile owners, the method, reports and complete original source. **Concrete risk:** a source-edition link could be mistaken for a current working source, or a later study could be mistaken for the old product profile; explicit labels and the matched owner table address that risk. **Effort:** source/lineage reading, three new comments, eight literal pairs, anchor and full inverse checks, final owner review and readback. Positive impact is expected, not experimentally measured.
+
+#### Passage 1 — Opening reader route and retained source history
+
+**Text before — complete old passage**
+
+~~~~markdown
+UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.
+
+<details>
+<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>
+
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+
+</details>
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.
+
+**Reader update — 18 October 2026.** The route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. The form below retains the submitted case and its 37 acceptance conditions; the current Challenge sources and technology profiles are linked in Section 2.
+
+**Submitted source edition in Contributions:** [complete case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md) · [twenty technical annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) · [all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The current research guide above leads to later studies and their results; the source edition retains the original protocols, figures and fixtures.
+
+<details>
+<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>
+
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+
+
+
+Original individual links retained with that submitted edition:
+
+- [Evidence and measurement protocol](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md)
+- [Hypothesis protocols](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md)
+- [Related-case boundaries](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md)
+- [Five-stage cascade SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)
+- [Many-to-one funnel SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)
+- [D1 source-set drift fixture](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)
+- [Ordinary ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)
+- [Reinforced ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)
+- [Trace contract](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)
+- [Run-record form](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md)
+
+</details>
+~~~~
+
+**Reason:** Make both live research and the complete submitted edition accessible through Contributions; retain all thirteen original fork destinations inside the existing historical fold.
+
+#### Passage 2 — Form introduction and source-edition meaning
+
+**Text before — complete old passage**
+
+~~~~markdown
+This form maps the contribution to the FG-TIDA use-case proposal fields. The complete technical entry point is [When the controls work but the system fails](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md): its main body is self-contained for selecting and scoring one experiment; [the annex index](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md) links all 20 technical annexes. This form adds no fourth route or new implementation claim.
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+This form maps the contribution to the FG-TIDA use-case proposal fields. The complete submitted case is [When the controls work but the system fails](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md): its main body is self-contained for selecting and scoring one experiment; [its source-edition annex index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) links all 20 technical annexes. This form adds no fourth route or new implementation claim.
+~~~~
+
+**Reason:** The current research router and the complete historical technical case serve different purposes; label the source edition and remove the fork as an active dependency.
+
+#### Passage 3 — Six current Challenge sources and nine technology profiles
+
+**Text before — complete old passage**
+
+~~~~markdown
+**Residual gap:** Whether those facilities, in the declared configuration, jointly preserve the applicable decision conditions through composition, change and actual use. A configuration that does so receives full credit.
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+**Residual gap:** Whether those facilities, in the declared configuration, jointly preserve the applicable decision conditions through composition, change and actual use. A configuration that does so receives full credit.
+
+### Challenge sources and current technology profiles
+
+The retained S1–S6 slots identify six failure-family Challenges in this reading route. A DDS evaluation scenario maps a chosen technology/configuration to a Challenge under declared conditions. The three implementation walkthroughs are the ordinary, reinforced and same-reinforced-under-change comparison positions; the submitted package contains nine technology profiles.
+
+| Retained case slot | Current Challenge source | Current technology profile(s) |
+|---|---|---|
+| S1 / 00E | [Enterprise synthesis](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) | [Microsoft Agent 365](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [LangGraph / LangSmith](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| S2 / 00F | [Shared mobility](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) | [FIWARE NGSI-LD](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [AWS IoT TwinMaker / IoT Core](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| S3 / 00G | [Propagated false mission](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | [OpenAI agent stack — integrated §17](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories) |
+| S4 / 00H | [Finding beyond authority](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | [Claude Agent SDK](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [Stripe Radar + merchant authorization](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |
+| S5 / 00I | [Delayed repair](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) | [AWS Step Functions / RDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| S6 / 00J | [Rights-provenance inversion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | [Panodyssey / TEMS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
+
+These are the maintained working sources. A recorded study keeps the source editions, comparison labels and acceptance contract under which it was registered; the complete submitted S1–S6 and T01–T09 annexes remain in the source edition linked above.
+~~~~
+
+**Reason:** Give the main form a direct, human-readable bridge to all six current sources and nine profiles. Use integrated 00G §17, 00H v0.5, Claude/Stripe v0.4 and the 00I reader rather than stale aliases or the largest filename by assumption.
+
+#### Passage 4 — Related cases and current Panodyssey discussion
+
+**Text before — complete old passage**
+
+~~~~markdown
+**Related theme proposals:** No theme allocation is asserted as agreed. Related *use cases*, which are distinct from theme proposals, are linked with their boundaries in [Annex N](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md).
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+**Related theme proposals:** No theme allocation is asserted as agreed. Related *use cases*, which are distinct from theme proposals, are linked with their boundaries in [Annex N](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md).
+
+**Related Panodyssey work:** the [current working crosswalk](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/cases/PANODYSSEY_THEME17_00J_UC21_TRACEABILITY_WORKING.md) distinguishes the broader publishing case from the synthetic S6/00J test. The [18 October design direction](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6253197588) prepares one separate Challenge containing three cases, with the S6 link retained where they overlap.
+~~~~
+
+**Reason:** Preserve the related-case source; receive the three new public comments without folding the broader three-case Panodyssey proposal into S6 or treating source confirmation as experiment evidence.
+
+#### Passage 5 — Scientific claim selection, DDS and result return
+
+**Text before — complete old passage**
+
+~~~~markdown
+**Claim and experiment selection:** Record case-acceptance assessment, HC, HR, HS or a selected H1–H6 contrast separately from R0/R1/R2. The main document’s Section 5 governs this selection. Keep implementation/gate results and hypothesis conclusions separate; a diagnostic intervention that removes a safeguard is not an HR trial with that safeguard retained. For S4, declare whether the claim concerns unauthorized action, silent loss or both. Use the [run-record template](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md).
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+**Claim and experiment selection:** Record case-acceptance assessment, HC, HR, HS or a selected H1–H6 contrast separately from R0/R1/R2. The main document’s Section 5 governs this selection. Keep implementation/gate results and hypothesis conclusions separate; a diagnostic intervention that removes a safeguard is not an HR trial with that safeguard retained. For S4, declare whether the claim concerns unauthorized action, silent loss or both. Use the [run-record template](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md).
+
+**Research method:** use the [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [UC-21 application and recurrence contract](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-application-contract-select-the-claim-before-the-run). Case R0/R1/R2 identify comparison routes; DDS Stages A/B/C identify the research object and adjudication reference. Follow each campaign from its declared question and frozen inputs to the observations, report and returned case conclusion.
+~~~~
+
+**Reason:** Keep the complete original claim-selection conditions and run form while linking the current DDS application/recurrence binding. Do not equate case routes, method stages or feedback steps.
+
+#### Passage 6 — Evidence reference in the duplication check
+
+**Text before — complete old passage**
+
+~~~~markdown
+**Existing standards or SDOs:** SPIFFE; IETF RATS (RFC 9334) and Token Exchange (RFC 8693); OASIS STIX 2.1; A2A and MCP; NIST AI RMF; scenario-specific W3C ODRL/C2PA and product mechanisms. Full primary references are in the scenario/technology files and [Annex Evidence](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md).
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+**Existing standards or SDOs:** SPIFFE; IETF RATS (RFC 9334) and Token Exchange (RFC 8693); OASIS STIX 2.1; A2A and MCP; NIST AI RMF; scenario-specific W3C ODRL/C2PA and product mechanisms. Full primary references are in the scenario/technology files and [source-edition Annex Evidence](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md).
+~~~~
+
+**Reason:** Keep existing-technology credit and the complete original evidence protocol; change only its destination and edition label, without making a new standards or product-capability assertion.
+
+#### Passage 7 — Submitted maturity versus subsequent research
+
+**Text before — complete old passage**
+
+~~~~markdown
+**Reference implementation:** None submitted as executed. Nine documentary technology profiles and four non-deployed AWS design skeletons are included. Placeholder functions and fixture integration still require implementation for a product run.
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+**Reference implementation:** None submitted as executed. Nine documentary technology profiles and four non-deployed AWS design skeletons are included. Placeholder functions and fixture integration still require implementation for a product run.
+
+**Subsequent research:** the [recorded studies and owning reports](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports) include executed local synthetic work, including the [separate S5 state/effect companion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md). Each report identifies its tested question, evidence and conclusion. Those records complement the original documentary package described here.
+~~~~
+
+**Reason:** Preserve the submitted hypothetical status and nine documentary profiles while allowing the reader to find actual later scoped executions; do not convert them into a native product or whole-case validation claim.
+
+#### Passage 8 — All original assets and protocols reached through Contributions
+
+**Text before — complete old passage**
+
+~~~~markdown
+**Link to assets:** [Main case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md), [all 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md), [current hypotheses](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), supplied figures under `assets/`, and four JSON design artifacts under `fixtures/S5-AWS/` (also printed in full in Annex T08).
+
+Direct file links for complete package navigation:
+
+- [Five-stage cascade SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)
+- [Many-to-one funnel SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)
+- [D1 source-set drift fixture](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)
+- [Ordinary ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)
+- [Reinforced ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)
+- [Trace contract JSON](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)
+
+~~~~
+
+**Text after — complete proposed passage**
+
+~~~~markdown
+**Link to assets:** [Main case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md), [all 20 annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md), [submitted hypothesis protocols](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), supplied figures under `assets/`, and four JSON design artifacts under `fixtures/S5-AWS/` (also printed in full in Annex T08).
+
+Direct file links for complete package navigation:
+
+- [Five-stage cascade SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)
+- [Many-to-one funnel SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)
+- [D1 source-set drift fixture](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)
+- [Ordinary ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)
+- [Reinforced ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)
+- [Trace contract JSON](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)
+
+The complete [submitted package index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) retains its twenty annexes, all original figures, reading aids, JSON designs and run-record template. Use the current research guide for later additions and their own records.
+
+~~~~
+
+**Reason:** Redirect every active original-asset destination to its byte-identical Contributions source path. Retain each original fork destination in the opening source-history fold; do not call a fixed original hypothesis edition current.
+
+**Dependencies:** Body must still equal this recorded source or be revalidated paragraph by paragraph; Current 00G OpenAI profile remains integrated in §17; current00H and profile versions are taken from their owners; Original48-file source custody and original manifest remain unchanged; Specific Iván GO for these eight main-form passages before changing the official Issue; no title/sector/PR merge is included.
+
+**Decision of Iván:** GO pending for these eight source-body passages. This record publishes a reviewable candidate; it does not apply it.
+
+<details>
+<summary>Complete proposed UC-21 main body — not applied</summary>
+
+~~~~~markdown
+<img width="1600" height="440" alt="Image" src="https://github.com/user-attachments/assets/6b841b6c-8701-4206-bad0-f89ed7ba093f" />
+
+**[Current UC-21 research guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results)** · **[Objectives](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-research-questions)** · **[Challenges](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-challenge-sources)** · **[Recorded studies and results](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports)**
+
+UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.
+
+**Reader update — 18 October 2026.** The route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. The form below retains the submitted case and its 37 acceptance conditions; the current Challenge sources and technology profiles are linked in Section 2.
+
+**Submitted source edition in Contributions:** [complete case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md) · [twenty technical annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) · [all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The current research guide above leads to later studies and their results; the source edition retains the original protocols, figures and fixtures.
+
+<details>
+<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>
+
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+
+
+
+Original individual links retained with that submitted edition:
+
+- [Evidence and measurement protocol](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md)
+- [Hypothesis protocols](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md)
+- [Related-case boundaries](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md)
+- [Five-stage cascade SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)
+- [Many-to-one funnel SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)
+- [D1 source-set drift fixture](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)
+- [Ordinary ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)
+- [Reinforced ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)
+- [Trace contract](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)
+- [Run-record form](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md)
+
+</details>
+
+---
+
+
+
+**Contributor draft v0.9.3 · 29 September 2026 · open to revision**
+
+This form maps the contribution to the FG-TIDA use-case proposal fields. The complete submitted case is [When the controls work but the system fails](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md): its main body is self-contained for selecting and scoring one experiment; [its source-edition annex index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) links all 20 technical annexes. This form adds no fourth route or new implementation claim.
+
+## 1. Identification
+
+**Title:** When the controls work but the system fails — six failure scenarios and three implementation walkthroughs  
+**Submitting organization:** The Integral Management Society / Tegrity.AI  
+**Contact name:** Iván Abril Palma  
+**Contact email:** ivan.abril@tegrity.ai
+
+**Sector:**
+- [x] Education
+- [x] Displaced persons / humanitarian
+- [x] Health
+- [x] Financial services
+- [x] Telecom
+- [x] Media and publishing
+- [x] Logistics
+- [x] Energy
+- [x] Critical infrastructure
+- [x] Smart home / IoT
+- [x] Other: enterprise operations and smart-city mobility
+
+## 2. The situation
+
+**Plain language description:** Agentic workflows can pass local technical checks while producing a decision that their combined evidence no longer supports. Six constructed scenarios examine an ordinary implementation, a strongly defended implementation and that same defended implementation after a material context change. The experiment asks which conditions must remain demonstrably true before the receiving party acts.
+
+**Actor:** The principal, agent/subsystem, relying decision owner, deployer, source/service provider and human reviewer, with scenario-specific actors described in the main document. S1: enterprise specialists, managers and strategy owner; S2: city/fleet/corridor controllers and reviewers; S3: bar operator, robots and coordinator; S4: merchant, dispatcher, case workers, payment services, Finance Operations Owner and CFO/delegate; S5: incident owner, remediation agent, engineer, scheduler/broker and database service; S6: author/rightsholder, accessing party, generator, claimant, registries and relying rights service.
+
+**Action:** Compose findings into a strategy; coordinate shared movement; accept or reject a mission transition; preserve/escalate a refund finding and authorize any aggregate refunds; execute or stop a queued repair; or decide a particular licensing/payment/blocking demand.
+
+**Decision required:** May this participant rely on the combined results for this particular commitment, within its current scope, authority and response deadline?
+
+**Problem encountered:** Locally valid evidence or permissions can be stale, correlated, narrower than the final claim, insufficient for a composed action or unusable within the response horizon. This is a proposed failure mechanism, not an assertion that every current implementation fails.
+
+**Current mitigation:** Identity and permission checks, provenance, policy evaluation, structured state, monitoring, human review, version checks and domain safeguards.
+
+**Residual gap:** Whether those facilities, in the declared configuration, jointly preserve the applicable decision conditions through composition, change and actual use. A configuration that does so receives full credit.
+
+### Challenge sources and current technology profiles
+
+The retained S1–S6 slots identify six failure-family Challenges in this reading route. A DDS evaluation scenario maps a chosen technology/configuration to a Challenge under declared conditions. The three implementation walkthroughs are the ordinary, reinforced and same-reinforced-under-change comparison positions; the submitted package contains nine technology profiles.
+
+| Retained case slot | Current Challenge source | Current technology profile(s) |
+|---|---|---|
+| S1 / 00E | [Enterprise synthesis](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) | [Microsoft Agent 365](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [LangGraph / LangSmith](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| S2 / 00F | [Shared mobility](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) | [FIWARE NGSI-LD](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [AWS IoT TwinMaker / IoT Core](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| S3 / 00G | [Propagated false mission](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | [OpenAI agent stack — integrated §17](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories) |
+| S4 / 00H | [Finding beyond authority](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | [Claude Agent SDK](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [Stripe Radar + merchant authorization](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |
+| S5 / 00I | [Delayed repair](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) | [AWS Step Functions / RDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| S6 / 00J | [Rights-provenance inversion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | [Panodyssey / TEMS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
+
+These are the maintained working sources. A recorded study keeps the source editions, comparison labels and acceptance contract under which it was registered; the complete submitted S1–S6 and T01–T09 annexes remain in the source edition linked above.
+
+## 3. Actors and context
+
+**Taxonomy roles involved:**
+- [x] Principal
+- [x] Relying party
+- [x] Builder
+- [x] Deployer / Owner
+- [x] Agent instance
+- [x] User
+- [x] Infra provider
+- [x] Attestor — where identity/provenance/rights records are used
+- [x] Other: source owner and authorized operational/human reviewer
+
+**Mandates:** All base fixtures are hypothetical. Their governing authority is the explicitly stipulated organizational role, delegation and permission rules below; no national statutory power or cross-border legal enforceability is asserted. Before a real deployment experiment, the run card must name the applicable jurisdiction/legal regime and demonstrate that each purported grant can actually be conferred. Missing authority makes an authority-dependent gate NOT EVALUABLE, not PASS.
+
+| Grantor | Grantee | What is conferred | Governing regime of the hypothetical fixture |
+|---|---|---|---|
+| Enterprise | Specialists/managers | Analysis and declared approval rights | Enterprise role/approval rules fixed before S1 |
+| City and fleet owners | Corridor/fleet controllers | Specified resource operations and interventions | Declared municipal/fleet authority, safety and precedence rules in S2 |
+| Bar operator | Robots/coordinator | Cleaning and table preparation | Bounded operational mission and transition-authority rules in S3 |
+| Merchant | Case worker | One assigned refund; no implied campaign authority | Merchant case/campaign delegation and escalation rules in S4 |
+| Incident owner | Remediation agent | Time-bounded repair while its conditions hold | Incident grant, freeze policy and change-broker rules in S5 |
+| Rights holder | Accessing party | Declared purpose and use only | Stipulated source rights and bounded permission in S6; legal validity is not inferred from a credential |
+
+**Cross-border?**
+- [ ] Yes
+- [x] No — no cross-border grant is assumed in the base fixture. S1’s possible foreign-market strategy is a subject of analysis, not an exercised cross-border mandate. Cross-border extensions need separate admission.
+
+**Embodied?**
+- [x] Yes — S2 corridor/vehicle actuation; S3 robot movement
+- [ ] No
+
+**Agent action type:**
+- [x] Read-only — evidence acquisition and analysis
+- [x] Consequential (reversible) — selected operational/configuration actions
+- [x] Irreversible — branches whose physical, financial or downstream effects cannot be fully undone; the most consequential declared branch governs
+
+**Crosses organisational boundary?**
+- [x] Yes — independent fleets, service/evidence providers, payment/merchant boundaries or rights participants in the applicable scenarios
+- [ ] No
+
+**Risk level:**
+- [ ] Low
+- [ ] Medium
+- [x] High — consequential failure branches; exact run classification remains explicit
+
+## 4. Theme relevance
+
+| Theme | Yes | Primary | Justification |
+|---|---|---|---|
+| Dynamic Identity | [x] | [ ] | Identity and principal linkage supply inputs; reassignment or delegation can change their applicability. |
+| Continuous Trust and Attestation | [x] | [ ] | Source state, freshness, provenance and current applicability must survive through use. |
+| Delegation | [x] | [ ] | Leaf authority must not manufacture absent campaign/root authority or a new mission mandate. |
+| Discovery and Cross-Border Trust | [ ] | [ ] | Not independently exercised as a trust function in the base fixtures; extensions require admission. |
+| Runtime Enforcement (Control Plane) | [x] | [x] | The tested decision boundary must govern the actual consequential action, including check-to-act change. |
+| Embodied AI Identity and Trust | [x] | [ ] | S2 and S3 include physical actors and bounded operational authority. |
+
+**Related theme proposals:** No theme allocation is asserted as agreed. Related *use cases*, which are distinct from theme proposals, are linked with their boundaries in [Annex N](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md).
+
+**Related Panodyssey work:** the [current working crosswalk](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/cases/PANODYSSEY_THEME17_00J_UC21_TRACEABILITY_WORKING.md) distinguishes the broader publishing case from the synthetic S6/00J test. The [18 October design direction](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6253197588) prepares one separate Challenge containing three cases, with the S6 link retained where they overlap.
+
+## 5. Requirements
+
+These are proposed case acceptance criteria, not an adopted implementation specification. Gate IDs are scenario-local. All rows below are Technical / Must for the applicable selected branch; NOT APPLICABLE requires a recorded reason.
+
+| # | Type | Requirement description | Criticality |
+|---|---|---|---|
+| S1-Q0 | Technical | Named decisions, scopes, budgets, dependencies, deadlines and stopping rules before work begins. | Must |
+| S1-Q1 | Technical | Each result retains source, scope, uncertainty and dependence through aggregation; important assumptions remain recoverable. | Must |
+| S1-Q2 | Technical | Reviewers receive reconstructable evidence and can respond within capacity; approval never counts as new factual evidence. | Must |
+| S1-Q3 | Technical | Generated options meet their own evidence threshold and hard limits before becoming supported strategic alternatives. | Must |
+| S1-Q4 | Technical | Investigation closes within the horizon; distinguish obtainable knowledge from irreducible uncertainty and assess authorized bounded learning. | Must |
+| S1-Q5 | Technical | Composition respects material dependencies, scoped vetoes and expiry; timeout or averaging cannot manufacture a supported strategy. | Must |
+| S2-Q0 | Technical | Shared corridor, owners, authority, capacity, response window and fallback are explicit. | Must |
+| S2-Q1 | Technical | Material change, stale sources and unresolved conditions are exposed with their affected scope. | Must |
+| S2-Q2 | Technical | Local movement, stopping and emergency plans are checked for conflict over the same resource and time. | Must |
+| S2-Q3 | Technical | The responsible owner selects a bounded authorized response; review demand fits available capacity. | Must |
+| S2-Q4 | Technical | Additional observation targets the missing dependencies before the response window expires. | Must |
+| S2-Q5 | Technical | Shared operation resumes, remains segmented or ends explicitly under declared precedence; local confidence cannot imply city-wide closure. | Must |
+| S3-Q0 | Technical | Current mission, owner, version, authority and validity horizon remain explicit. | Must |
+| S3-Q1 | Technical | Each incoming claim retains attribution, scope, freshness and evidentiary limits. | Must |
+| S3-Q2 | Technical | Repeated or derived messages are not counted as independent corroboration. | Must |
+| S3-Q3 | Technical | A mission change requires applicable transition authority; sender identity or tool approval is insufficient. | Must |
+| S3-Q4 | Technical | Inquiry has useful evidence channels, available capacity, a deadline and a stopping rule. | Must |
+| S3-Q5 | Technical | Unsupported mission replacement is rejected without abandoning valid work; genuinely supported authorized change remains distinguishable. | Must |
+| S4-Q0 | Technical | Current worker, represented principal, case grant and originating campaign authority are reconstructable. | Must |
+| S4-Q1 | Technical | The finding is evidenced and material; common campaigns and independent cases are distinguished by evidence. | Must |
+| S4-Q2 | Technical | Individual grants and delegation collectively cover the actual aggregate effect; delegation cannot create absent authority. | Must |
+| S4-Q3 | Technical | A material unauthorized finding is preserved and assigned to a legitimate owner without executing the campaign. | Must |
+| S4-Q4 | Technical | Missing authority or lineage is pursued within the fixed five-business-day plus two-day escalation horizons. | Must |
+| S4-Q5 | Technical | Immediately before action, current authority covers the actual case set; expiry or rejection leaves accountable closure, not silent loss. | Must |
+| S5-Q0 | Technical | Grant, subject, scope and validity are current. | Must |
+| S5-Q1 | Technical | Incident, diagnosis, target configuration, intervening changes and freeze conditions are reconstructable. | Must |
+| S5-Q2 | Technical | Material preconditions are reassessed at use, not inherited from queue time. | Must |
+| S5-Q3 | Technical | Reassessment uses authoritative sources within declared freshness bounds. | Must |
+| S5-Q4 | Technical | Later repairs and configuration generations invalidate superseded intentions where material. | Must |
+| S5-Q5 | Technical | The affected action receives a timely scoped decision; unrelated valid work is not indefinitely stopped. | Must |
+| S5-Q6 | Technical | The checked state remains valid at execution; material change between check and act invalidates that acceptance. | Must |
+| S6-Q0 | Technical | Original author, work, rights claim, source, version and limits remain attributable. | Must |
+| S6-Q1 | Technical | Access authority retains purpose, scope and expiry through handoff. | Must |
+| S6-Q2 | Technical | A generation record remains distinct from independent origin; source dependency is retained or explicitly unresolved. | Must |
+| S6-Q3 | Technical | Downstream rights claims have evidence and authority for the proposition actually asserted. | Must |
+| S6-Q4 | Technical | Replication does not create independent corroboration; freshness and material amendments remain visible. | Must |
+| S6-Q5 | Technical | Payment, licensing or blocking requires current support for that subject and use; uncertainty cannot become an unsupported enforcement conclusion. | Must |
+
+## 6. Assessment criteria
+
+**Success criteria:** All applicable gates pass with evidenced inputs, the actual response is permitted, the deadline is met, and the matched legitimate-activity control is not unnecessarily blocked. R2 recurrence requires demonstrated correction in the frozen R1 baseline first. An unexplored branch or missing prerequisite cannot pass.
+
+**Claim and experiment selection:** Record case-acceptance assessment, HC, HR, HS or a selected H1–H6 contrast separately from R0/R1/R2. The main document’s Section 5 governs this selection. Keep implementation/gate results and hypothesis conclusions separate; a diagnostic intervention that removes a safeguard is not an HR trial with that safeguard retained. For S4, declare whether the claim concerns unauthorized action, silent loss or both. Use the [run-record template](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md).
+
+**Research method:** use the [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [UC-21 application and recurrence contract](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-application-contract-select-the-claim-before-the-run). Case R0/R1/R2 identify comparison routes; DDS Stages A/B/C identify the research object and adjudication reference. Follow each campaign from its declared question and frozen inputs to the observations, report and returned case conclusion.
+
+**Measurable metric:** False continuation, false containment, gate/decision correctness, current authority, handoff integrity, source independence, stale-action execution, response time/margin, actual downstream effect and total burden, as applicable. Numerators, denominators, thresholds, repetitions and windows are fixed before execution. Annex Evidence supplies definitions; scenario annexes supply detailed branch measures.
+
+## 7. Duplication check
+
+**Existing standards or SDOs:** SPIFFE; IETF RATS (RFC 9334) and Token Exchange (RFC 8693); OASIS STIX 2.1; A2A and MCP; NIST AI RMF; scenario-specific W3C ODRL/C2PA and product mechanisms. Full primary references are in the scenario/technology files and [source-edition Annex Evidence](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md).
+
+**Overlap notes:** Existing identity, authorization, attestation, provenance, policy, source-dependence and change-handling mechanisms receive credit. The case tests their joint satisfaction of concrete acceptance criteria in a declared receiving decision and configuration; it does not claim those functions are absent elsewhere. Related FG-TIDA contributions also receive credit for overlapping coverage. This is a bounded duplication assessment, not proof that no other work can meet these gates. A successful existing implementation narrows or defeats the proposed gap for that configuration.
+
+## 8. Maturity
+
+**Pilot status:**
+- [x] Hypothetical
+- [ ] Pilot in progress
+- [ ] Deployed in production
+
+**Reference implementation:** None submitted as executed. Nine documentary technology profiles and four non-deployed AWS design skeletons are included. Placeholder functions and fixture integration still require implementation for a product run.
+
+**Subsequent research:** the [recorded studies and owning reports](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports) include executed local synthetic work, including the [separate S5 state/effect companion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md). Each report identifies its tested question, evidence and conclusion. Those records complement the original documentary package described here.
+
+## 9. IP and confidentiality
+
+**Confidentiality:**
+- [x] Public
+- [ ] FG-internal only
+- [ ] Redact before publication
+
+**IP notes:** Original authorship and applicable source terms remain in force. Publicly documented capabilities and synthetic extensions are distinguished. No new licence, organizational adoption or customer deployment is represented.
+
+## 10. Assets
+
+**Link to assets:** [Main case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md), [all 20 annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md), [submitted hypothesis protocols](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), supplied figures under `assets/`, and four JSON design artifacts under `fixtures/S5-AWS/` (also printed in full in Annex T08).
+
+Direct file links for complete package navigation:
+
+- [Five-stage cascade SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)
+- [Many-to-one funnel SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)
+- [D1 source-set drift fixture](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)
+- [Ordinary ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)
+- [Reinforced ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)
+- [Trace contract JSON](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)
+
+The complete [submitted package index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) retains its twenty annexes, all original figures, reading aids, JSON designs and run-record template. Use the current research guide for later additions and their own records.
+
+- [x] Dataset — synthetic fixture facts and one machine-readable D1 fixture; no measured production dataset
+- [x] Code — inspectable state-machine/trace design skeletons; no deployed implementation
+- [x] Protocol — preparation, three routes, gates, measurement and refutation/admission procedures
+- [x] Other: eleven scenario SVG figures, three reading aids in SVG and PNG, and full extensionality/hypothesis annexes
+
+**IP notes:** As in Section 9. Historical archives and editorial verification records are not submission assets and are not included in this publication directory.
+
+~~~~~
+
+</details>
+
+
+## Corpus integrity recheck — 23 October 2026
+
+**Auditor: Codex (AI assistant), same-agent source and context review.** Compared current main `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8` with last reviewed cut `e59430d264c66c3cbd8be67b9ae7b4ca067972d7`: 42 commits, the same 2,396 file paths/modes, 24 changed existing files and 2,372 identical blobs. Read every changed textual unit; checked all 1,040 Markdown documents mechanically for repository targets/fragments. This is a change-integrity review, not a new independent six-pass scientific closure.
+
+### New source content and cross-document consistency
+
+The complete changed units in DDS index, EA Workplan and 05A were read against their surroundings and eight public source comments. DDS index adds 4,579 bytes in two insertions; Workplan adds3,797 bytes; 05A VNext adds5,508 bytes. Each inverse consists only of deleting its exact added units and recovers the complete old source. No preceding section or link is removed by those additions.
+
+- **UC-20 comparison mapping:** the [20 October proposal](https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6296588097) explicitly maps local DDS R1/R2/R3 to source UC-20 R0/R1/R2. The new index retains those namespaces, PASS-gated change and the explicit successor needed for a direct successful R0 → changed-context arm. It does not rename UC-21 routes or DDS Stages A/B/C. No inconsistency requiring a source amendment was found in that reception.
+- **UC-21 evidence:** [Nelson's three closure conditions](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6263257536) and [Steven's four-way reading](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6271173349) match the new separation of instrument qualification, preserved findings, native execution and independently observed effects. The Workplan separates the dated document-review freeze from campaign execution. Its five frozen v0.2 manifest members still match the current Git blob IDs; author/reviewer attribution and source freezes remain distinct. The private Drive operating sheets/export were not independently re-audited in this public-corpus check.
+- **Theme #13:** the [UC6 report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841), [four prospective H1 cases](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6188764689), [field proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6271168964), [Nelson clarification](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6263435099) and [offline demonstration report](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6279011475) support the attributed distinctions recorded in 05A. Static reading of the [README](https://github.com/zhaoxinghua09-cell/agent-evidence-kit/blob/71dcadec03e8b278a8d674c759c1f3ef72ac7898/examples/themes13-receiver-oracle/README.md) and `claim_supported`/`validate` code at that same pin confirms the stated field/domain coverage limit. Equality of dispatch/receiver digests establishes a content-identity comparison, not latest decision-applicable state at action time. The source's “REAL” case4 label refers to the proposed comparison; its demonstration uses placeholder records and adds no observed native H1 event. No external program was executed or imported.
+
+### Audit reception and apparently missing sections
+
+The four file-target reports are the source-relative quotation contexts explained in the [baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#four-checker-reports-and-their-actual-receivers--23-october-2026). The frozen UC03 part02 URL ending `submissions/it` is split at its file boundary; concatenating the actual ordered parts reconstructs the complete URL. It is not evidence that the target was deleted. Frozen and historical bodies remain authentic.
+
+The pre-existing DDS formatting defect is concrete: the four-backtick quotation opens on line1313 at this cut, but its intended closer is attached to the final sentence of the preserved Stage-A source on line1847. CommonMark therefore consumes1,696lines through line3008 as one code token. It includes the 14 October restoration-plan heading, binary custody table and subsequent audit discussion. Their bytes exist; their normal heading/table/link reception is broken.148 below separates the delimiter with one LF. Candidate-only parsing restores the five incoming plan-fragment links and exposes no additional missing live target. The historical source blob `4a786e778bf16a286c1abe7dccf502804c90c20b` occurs exactly once and remains22,330identical bytes after the proposed separator.
+
+The 20–21 October VNext retirements remove applied cards/receipts and earlier redirect stubs, rather than current scientific bodies. Every complete removed textual unit was read. The working JSON record retains all147 proposal records; its only changed proposal is138, now correctly applied. The unresolved four EP presentation-fragment custody units and pending scientific alternatives remain outside this review's closure. Current DDS research ownership stays with the method index.
+
+### Verification scope and result
+
+The repository's unchanged checker expressions reproduce exactly four local-route reports over10,086local href occurrences. GFM additionally scans16,462current repository-target occurrences and detects the16active fragment failures. All8protected EP architecture sections meet the existing presence/length conditions and all4required source routes remain. The two unchanged PPTX archives have no corrupt member:7/12slides and12,569/15,496text characters respectively. These are package/text checks; no claim of new visual or scientific validation follows.
+
+Candidate148 plus149/150 removes all16active fragment failures in the tested view. The four literal-context checker reports remain by design, and frozen snapshot links are preserved. Historical fixed-commit URLs are validated where selected for149/150; the worldwide external URL set is not certified. No new public file, VNext, canonical edit or experiment is included in this audit publication.
+
+
+<a id="change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits"></a>
+
+## Applied review repair 148 — 25 October 2026
+
+Iván authorized these small corrections with the second document-control audit. Applied the exact published unit(s); the complete plan remains in the [pre-application edition](https://github.com/dakleyer/structural-awareness-contributions/blob/b9499c34e8690acdc9a1d1b6f274895a94c4c4b9/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#change-148--separate-the-historical-stage-a-source-from-the-following-dds-audits). This item is applied and is no longer a pending proposal. The retained anchor directs existing review links to this application receipt. All unrelated source bytes and scientific records remain unchanged.

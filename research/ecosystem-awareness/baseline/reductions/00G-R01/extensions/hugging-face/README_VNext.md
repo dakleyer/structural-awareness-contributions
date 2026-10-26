@@ -196,7 +196,7 @@ C’s separate full translation comparison and135’s one-byte English integer c
 
 ## HF review readability repair — 15 October 2026
 
-Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
+Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.
 
 
 ## Earlier HF branch reception — 15 October 2026
@@ -204,3 +204,15 @@ Change 139 removes the orphaned four-backtick line left by the [applied tranche-
 B separately read the v0.4 signalling/handshake branch and its main receiver. The 13 former context-signalling-multigate-v0.4 paths never entered main under that name. Their actual receiver is [first-channel-counterfactual-v0.4](./review-2026-10-11/traversals/first-channel-counterfactual-v0.4/README.md): 12 code/data blobs are exact, and all 16,266 README bytes survive after a 566-byte notice explaining parity by construction and the later v0.5 route. The recorded 182 traces and 63 graphs are earlier synthetic records, not another observed HF episode or new independent result.
 
 This resolves ancestry versus content reception without copying a second study or reactivating its code. The main negative evidence, strong-peer comparisons and campaign contracts retain their original status. 139 is already incorporated as a quotation-format repair, with its pending card retired. The [EP table](../../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#additional-branch-material-and-actual-reception) links the complete branch source and pinned receiver, alongside the other development material. No source or result changes in this follow-on note.
+
+
+## Corpus integrity recheck — 23 October 2026
+
+**Auditor: Codex.** This review's remaining live link to baseline's retired139 heading became unavailable during the latest card cleanup. The target's complete applied receipt survives at the verified18October edition.150 below pins this single href; no HF evidence, negative finding, study count or source changes. The [joint review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) separates this real audit-route defect from the four source-quotation checker reports.
+
+
+<a id="change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections"></a>
+
+## Applied review repair 150 — 25 October 2026
+
+Iván authorized these small corrections with the second document-control audit. Applied the exact published unit(s); the complete plan remains in the [pre-application edition](https://github.com/dakleyer/structural-awareness-contributions/blob/b9499c34e8690acdc9a1d1b6f274895a94c4c4b9/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#change-150--pin-historical-review-references-to-the-edition-that-contains-their-sections). This item is applied and is no longer a pending proposal. The retained anchor directs existing review links to this application receipt. All unrelated source bytes and scientific records remain unchanged.

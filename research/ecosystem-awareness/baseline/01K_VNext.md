@@ -391,7 +391,7 @@ For A01 itself, this pass deliberately proposes **no exact active replacement** 
 
 ### Complete candidate93 alternative — literal current source delimiters retained
 
-The reviewer body above supplies the rationale. The exact pair below retains the source’s tilded delimiters and includes the whole proposed following paragraph; one original match verified. The original93 pair remains visible and pending until a concrete choice.
+The reviewer body above supplies the rationale. The exact pair below retains the source’s tilded delimiters and includes the whole proposed following paragraph; one original match verified. The original #93 HumanTime insertion was applied on 15 October 2026; the alternative detailed here was not adopted and remains subject to its own decision.
 
 **Text before — complete current block:**
 
@@ -478,7 +478,7 @@ This is the same pending proposal, with its unified-review assessment, rather th
 
 ## Coupled literal capacity preparation 15 October 2026
 
-Existing93 remains pending and complete above. New107/108 in the [A01 VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) supply the full joint timing/proof-policy text;109 in [UC03 VNext](./UC-EA-03_VNext.md) binds the working caller. These form one scoped consumer wave. Its original frozen profiles, schema and results remain unchanged. [Joint acceptance/order](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026).
+The original #93 insertion is applied; the alternative capacity/proof-class proposal above remains pending its own approval. New107/108 in the [A01 VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md) supply the full joint timing/proof-policy text;109 in [UC03 VNext](./UC-EA-03_VNext.md) binds the working caller. These form one scoped consumer wave. Its original frozen profiles, schema and results remain unchanged. [Joint acceptance/order](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-restoration-plan-15-october-2026).
 
 
 ## Literal plan check 15 October 2026
@@ -487,15 +487,7 @@ Review by Codex AI assistant, 15 October 2026, against published main `0aa9718af
 
 **Pairs checked here: 93.** The complete current formula and proposed HumanTime conjunction are present. The literal match is not a standalone runtime acceptance result:93 remains coupled with 107–109, qualified demand, assignment and the actual HumanTime consumers. This review leaves the source formula and results unchanged.
 
-Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. Published review is complete; source incorporation remains pending its named decision.
-
-
-### Application 93 — 15 October 2026
-
-**Applied; removed from the pending queue.** Iván authorised incorporation of the reviewed literal plan. Applied 1 complete literal replacement to `research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md`; resulting source blob `3c6e9526062335c8eedd6c23dc3f7fded80211bd`. Each step has an exact inverse: every byte outside its approved old/new unit is identical. The complete earlier before/after and audit remain application history, not pending work. No campaign, run, result or code was changed.
-
-
-**Verified application commits — 04_capacity_contract:** [93](https://github.com/dakleyer/structural-awareness-contributions/commit/cad6836a62d70e29632a8c0d81ca23cc9f500a4d).
+Complete old and proposed blocks remain above; they were not replaced by this receipt. The [joint plan check](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#literal-plan-check-15-october-2026) records the selected92variant,33pairs across ten existing VNext, the48-file custody scope and the actual conditions still open. The historical review is complete; incorporation of the alternative text described above remains pending a separate named decision. The original #93 correction has already been applied.
 
 
 ## Owner authorised application complete 15 October 2026
@@ -517,12 +509,6 @@ Reviewer A read complete 01K (1,086 lines, blob `3c6e9526062335c8eedd6c23dc3f7fd
 A01 §§7A.6–7A.9 receives the old falsifier: a conventional admissible route meeting the same frozen quality/authority objective at equal or lower burden receives full credit. Two marginal delay q-quantiles do not prove a q-bound for their sum; current A01 lines666–725 requires a joint delay or justified combined coverage and retains heuristic/UNKNOWN status. Human review completion remains distinct from approval delivery, action and effect. The [A01 owner](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md#human-capacity-timing-and-source-series-reception--15-october-2026) records that receiver side.
 
 One useful optional example was lost from old §11 at commit `9f397df86fb66217937fbf08b3c99e0f46bc60a6`, parent `1a39dfe0ed70e1aa8040ddfbd68c20d713713dff`, blob `45e5dec20b09d19be6c574ab3d3e0af410e3d5c7`: non-retaliation / protected-objection conditions for an applicable ACC/signalling profile. The other old list functions have current receivers; R01's bounded objection studies do not replace the general optional example.130 restores only that example in §19 and leaves its legitimate ACC/policy owner explicit. D independently checked the full old clause, current context and ACC lineage. It creates no universal rule or claim that any deployment enforces such protection.
-
-### Change 130 — Applied 15 October 2026
-
-All 1 exact reviewed passage(s) are incorporated in `research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md`, blob `042fd311692586eeaa7c184315c13596c0ffa6b5`. The [complete old/proposed passages](https://github.com/dakleyer/structural-awareness-contributions/blob/6d49be9c62c0dd889a6757ba0eb050e24b4c1162/research/ecosystem-awareness/baseline/01K_VNext.md#change-130--restore-the-optional-protected-objection-example-for-a-human-escalation-profile) remain in the published review predecessor. This item is removed from the pending queue. Reversing only the reviewed substitutions recovers source predecessor `3c6e9526062335c8eedd6c23dc3f7fded80211bd` byte for byte. No presentation, result or code is changed.
-
-
 
 ## Review-card history received at its dated source cut — 15 October 2026
 

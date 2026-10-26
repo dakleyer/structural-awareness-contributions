@@ -1,0 +1,36 @@
+{
+  "purpose": "Only these exact preserved source-relative citations; not a wildcard or a general exclusion",
+  "normalization": "UTF-8 text with CRLF normalized to LF only; no whitespace or content normalization",
+  "entries": [
+    {
+      "source": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "raw_target": "./PUBLICATION_MANIFEST.json",
+      "expected_occurrences": 2,
+      "source_text_sha256_lf": "ba282781e5ad7ecf1da528cba533864b6a8dd9fe49d017baf96ef1b516df1311",
+      "source_relative_base": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT",
+      "receiver_text_sha256_lf": "340264dd70df9ec49a13d45167b80189e6ac5c8ce2eb97d395edc98b4057ed54",
+      "qualification": "Preserved 101/102 before/after source-relative citation; upstream added two incorporated-reading paragraphs outside the quoted contexts",
+      "reviewed_at_commit": "67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "raw_target": "./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md",
+      "expected_occurrences": 1,
+      "source_text_sha256_lf": "bcaee8d5808efa94ed37f28d652fa081564b989002036789668c2664b2947527",
+      "source_relative_base": "research/ecosystem-awareness/baseline",
+      "receiver_text_sha256_lf": "01da46eccf5cf7fa00bb49768077faf479ff682b70197bc4fff548153ff7b738",
+      "qualification": "Preserved A22 qualification at line 231; operative relative receivers already supplied at line 233",
+      "reviewed_at_commit": "863d66760b1aee3232b13434ad5b6ae15444c601"
+    },
+    {
+      "source": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "raw_target": "./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md",
+      "expected_occurrences": 1,
+      "source_text_sha256_lf": "bcaee8d5808efa94ed37f28d652fa081564b989002036789668c2664b2947527",
+      "source_relative_base": "research/ecosystem-awareness/baseline",
+      "receiver_text_sha256_lf": "4ec8cf764d15cce20416f9ee7a426241c50a81618d12bcbbc144769994f76de4",
+      "qualification": "Preserved A22 qualification at line 231; operative relative receivers already supplied at line 233",
+      "reviewed_at_commit": "863d66760b1aee3232b13434ad5b6ae15444c601"
+    }
+  ]
+}

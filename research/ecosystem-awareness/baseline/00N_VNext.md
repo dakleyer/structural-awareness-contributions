@@ -203,23 +203,6 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 |---|---|---|---|---|---|
 | 42 · Justificar medida de información antes de usar sinergia | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Medio | Pendiente de decisión |
 
-### Cambio 42 — Justificar medida de información antes de usar sinergia
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Dar antecedente primario para por qué sinergia no tiene una medida universal transferible.
-
-**Qué podría quedar desactualizado o afectado:** Añadir una referencia no selecciona automáticamente una medida correcta; perfiles/métricas pueden interpretar sinergia de modos distintos.
-
-**Qué cuesta prepararlo:** Verificar referencia y coherencia con §2.3/00M/métricas que la consuman; sin cálculo nuevo.
-
-**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) · [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Conservar edición fijada y separar elección de medida de evidencia operacional.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#documentar-la-elección-de-medida-en-23); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
-
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
 **Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Los registros anteriores y sus viejos completos permanecen íntegros.
@@ -270,38 +253,6 @@ Esta evidencia no adopta 73, no demuestra sinergia universal ni cierra campañas
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00N_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada"></a>
-<a id="una-ruta-corta-para-el-lector-humano"></a>
-<a id="estado-público-de-la-nota"></a>
-<a id="cambio-11--condicionar-el-tamaño-y-coste-del-contexto-útil"></a>
-<a id="cambio-12--ruta-corta-de-lectura-en-00n"></a>
-<a id="cambio-13--publicación-de-00n-distinta-de-madurez"></a>
-<a id="ola-2--cambio-2-contexto-útil-y-coste-quitar-la-promesa-implícita-de-pequeño"></a>
-<a id="apertura-segunda-oración-del-primer-párrafo"></a>
-<a id="ola-2--redacción-directa-del-cambio-2"></a>
-<a id="apertura-segunda-oración-del-primer-párrafo-1"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="ola-3--cambio-5-entrada-por-el-ejemplo-de-dos-señales-ready"></a>
-<a id="ola-3--cambio-6-estado-de-publicación-claro"></a>
-<a id="bloques-aplicados-retirados"></a>
-<a id="ola2-redaccion-02"></a>
-<a id="ola3-cambio-05"></a>
-<a id="ola3-cambio-06"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00N_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Aplicación completa autorizada — 12 octubre 2026
 
 Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
@@ -332,3 +283,27 @@ The requirements mapping referred to here was read in its actual current source;
 No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
 
 The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #42 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #42: `research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md` (current blob `8c5bff223c66ba750771fc9e2650480337619fb4`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.
+
+
+## 01A-A01: awareness-only path from plausible sufficiency to testable economy — 24 October 2026 (proposal only)
+
+**Reviewer: Codex (AI); instruction: Iván, 24 October 2026.** Upstream [01A-A01](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) distinguishes **FH-C**, a comparative cause of unjustified mission drift due to unrecognized epistemic boundary loss, from **FH-E**, possible lower computation for the *same justified-pivot decision* using bounded qualification. Both remain testable research hypotheses.
+
+**Before:** 00N §§1–3 explains conditional preservation of decision-relevant bounds and scopes; T1/T2 have credible partial routes, T4 economy is open, and external authority/response for T3 remains necessary.  
+**After (proposed, not applied):** add one research reading link: awareness alone could distinguish unsupported pivot from valid authorized change via F1–F9 qualifications—without an Ecosystem Repositioning contract or generic human escalation. Then compare resource burden with subject-domain expansion on matched positive/negative branches, including source-lineage, stale metadata, metadata-update cost, human attention and strong peers.
+
+**Benefits:** separates epistemic mechanism from Repositioning/actuation and explains why [UC21 S3](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md) is a useful falsification case. **Risk:** presenting the symbolic traversal as runtime proof or the cost differential as established. **Evidence outstanding:** registered causal ablations and non-inferior accuracy with full compute ledger. [00M source](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) → [this bridge](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) → [02A source](02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md). 00N source unchanged; incorporation pending passage-specific GO.
+
+
+### Editorial adoption and owner reception — 24 October 2026
+
+**Iván's current instruction:** promote FH-C and FH-E as canonical statements of **research hypotheses** and keep each VNext reachable through its own source only. The incorporation is now recorded in the [current integrated Foundation](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), the [01A-A01 hypothesis source](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md), the [corpus README](README.md), the [corpus manifest](CANONICAL_CORPUS_MANIFEST.md) and relevant original source-level reading pointers. Earlier “proposed/not applied” paragraphs above are historical proposal receipts; their editorial promotion is now applied.
+
+**Scientific status unchanged:** FH-C is not validated causal dominance; FH-E is not validated compute saving. No frozen requirements, H1–H6, controlled historical texts or old tests are reinterpreted as proof. Cross-document navigation added in this work points to **source texts** rather than another source's VNext.

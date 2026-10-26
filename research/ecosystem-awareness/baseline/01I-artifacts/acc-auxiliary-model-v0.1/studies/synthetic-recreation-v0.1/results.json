@@ -1,0 +1,143 @@
+{
+  "status": "NEW_ANALYTICAL_RECREATION_ONLY",
+  "original_runs_authenticated": false,
+  "parameters": {
+    "p": 0.2,
+    "h": 3.0,
+    "benefit": 10.0,
+    "retirement_hazard": 0.15,
+    "horizon": 20
+  },
+  "rows": [
+    {
+      "t": 5,
+      "N": 9.000000000000002,
+      "L_and_E": 3.0000000000000004,
+      "R": 7.39065375,
+      "credit_q05": 8.195326875000001,
+      "credit_q08": 8.678130750000001,
+      "V_N_lambda1": 41.0
+    },
+    {
+      "t": 10,
+      "N": 33.00000000000001,
+      "L_and_E": 6.000000000000001,
+      "R": 21.795819831723048,
+      "credit_q05": 27.397909915861526,
+      "credit_q08": 30.759163966344616,
+      "V_N_lambda1": 67.0
+    },
+    {
+      "t": 15,
+      "N": 72.00000000000001,
+      "L_and_E": 9.000000000000002,
+      "R": 39.31336229962837,
+      "credit_q05": 55.65668114981419,
+      "credit_q08": 65.46267245992568,
+      "V_N_lambda1": 77.99999999999999
+    },
+    {
+      "t": 20,
+      "N": 126.00000000000001,
+      "L_and_E": 12.000000000000002,
+      "R": 58.21188270458233,
+      "credit_q05": 92.10594135229117,
+      "credit_q08": 112.44237654091648,
+      "V_N_lambda1": 73.99999999999999
+    }
+  ],
+  "cumulative_N": 924.0000000000001,
+  "cumulative_map": 126.00000000000001,
+  "negative_marginal20_probability": 0.5885511380434322,
+  "marginal_zero_index": 16.666666666666664,
+  "continuous_V_maximum": 16.166666666666664,
+  "sensitivity": [
+    {
+      "benefit": 5,
+      "lambda": 0.5,
+      "marginal20": -1.0000000000000009,
+      "V20_minus_V16": -2.200000000000003
+    },
+    {
+      "benefit": 5,
+      "lambda": 1,
+      "marginal20": -7.000000000000002,
+      "V20_minus_V16": -24.400000000000006
+    },
+    {
+      "benefit": 5,
+      "lambda": 2,
+      "marginal20": -19.000000000000004,
+      "V20_minus_V16": -68.80000000000001
+    },
+    {
+      "benefit": 10,
+      "lambda": 0.5,
+      "marginal20": 3.999999999999999,
+      "V20_minus_V16": 17.799999999999997
+    },
+    {
+      "benefit": 10,
+      "lambda": 1,
+      "marginal20": -2.0000000000000018,
+      "V20_minus_V16": -4.400000000000006
+    },
+    {
+      "benefit": 10,
+      "lambda": 2,
+      "marginal20": -14.000000000000004,
+      "V20_minus_V16": -48.80000000000001
+    },
+    {
+      "benefit": 20,
+      "lambda": 0.5,
+      "marginal20": 14.0,
+      "V20_minus_V16": 57.8
+    },
+    {
+      "benefit": 20,
+      "lambda": 1,
+      "marginal20": 7.999999999999998,
+      "V20_minus_V16": 35.599999999999994
+    },
+    {
+      "benefit": 20,
+      "lambda": 2,
+      "marginal20": -4.0000000000000036,
+      "V20_minus_V16": -8.800000000000011
+    }
+  ],
+  "E_incremental_cost_at20": [
+    {
+      "K": 0,
+      "saving": 114
+    },
+    {
+      "K": 50,
+      "saving": 64
+    },
+    {
+      "K": 114,
+      "saving": 0
+    },
+    {
+      "K": 150,
+      "saving": -36
+    }
+  ],
+  "unanimity_q09_v20": {
+    "independent": 0.12157665459056935,
+    "perfectly_coincident": 0.9,
+    "marginals_only_bounds": [
+      0,
+      0.9
+    ]
+  },
+  "limits": [
+    "Dense topology incompatibility and persistence are assumptions",
+    "Credit protection is a stipulated rule, not estimated behavior",
+    "Lambda converts units only within this declared toy",
+    "No representative organization or measured human welfare"
+  ],
+  "implementation_sha256": "eaca6b7e2f95afe04278609dbfd965fb2f4f1e982d60893fb6501e1989410db5"
+}

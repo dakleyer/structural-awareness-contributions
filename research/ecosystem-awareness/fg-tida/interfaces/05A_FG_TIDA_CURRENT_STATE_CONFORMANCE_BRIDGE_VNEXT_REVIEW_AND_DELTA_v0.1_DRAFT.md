@@ -385,6 +385,33 @@ Source anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476
 **Boundary:** This current-state ledger remains focused on **EA inputs and native EA outputs**. It intentionally does not map possible incremental F3 actions; the external email's executive comparison can discuss them separately. 05 Ideal vNext §7.5 continues to include prospectively valuable interfaces independent of what was already discussed with owners.
 
 
+### 2.15 Theme #13 — UC-6 Stage-0 and H1 receiver evidence (21 October 2026)
+
+**Incorporated reading.** The maintained [05A source](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md#source-state-reception--21-october-2026) receives the three dated evidence distinctions selected below, followed by the scoped EA-only interface offer. This review preserves the complete attributed records and the remaining 2.1–2.14 claims/profile questions. The 21 October four-case proposal retains its date; subsequent protocols retain their own source/version.
+
+**Additive source-state reception; not a change to the 19 September 05A snapshot, the 2 October delta table, the 15 October conversation ledger, frozen EA interfaces or any source-owned experimental package.** The records below distinguish reported experimental/reference findings, proposed protocols and runnable author-supplied checks. They do not assert FG-TIDA endorsement or independent replication.
+
+**Current source state — UC-6 → Theme #13 Stage-0 bounded reference.** Nelson published the [UC6_Stage0_Theme13_v0.4.1-r1 results](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841), reporting 64/64 reference assertions, two deliberately corrupted applicability controls detected, a malformed-record control, repeatable result hash and six offline runs. The report supports the stated mapping, semantic preservation, reference traceability and bounded sensitivity checks. It does **not** establish independently calculated authority applicability, measured response-window latency, native cross-organizational intervention, third-party replay or observed production effects. The unchanged UC-6 source meanings and synthetic-time limitations remain with their respective owners.
+
+**Candidate / Test-only — H1 prospective cross-organizational handoff.** Nelson's [H1 protocol review](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6188764689) proposes four cases, not recorded results: (1) unchanged applicable finding; (2) material amendment before queued action; (3) irrelevant change without unwarranted blocking of legitimate work; and (4) acknowledgement observed without independent effect readback. The source, local authority, decision, acknowledgement, attempted action, effect and recovery boundaries remain separate. No completed H1 campaign or frozen executable H1 mapping is inferred.
+
+**Candidate record-profile extension — receiver-visible provenance and observations.** Steven's [proposed fields](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6271168964) include `source_state_at_dispatch`, `receiver_state_used` (including `established_by`), `applicability`, `acknowledgement` and `effect_readback`, each with identified producer/observation boundaries. `not-observed` and `not-evaluated` remain distinct with observer, coverage and window; case 4 retains acknowledgement present and independent effect readback absent. Nelson requested the field-level review without changing the four prospective cases ([clarification](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6263435099)).
+
+**Author-supplied executable diagnostic — limited claim.** Steven subsequently [published an offline receiver-oracle example](https://github.com/FG-TIDA/themes/issues/13#issuecomment-6279011475) and [README with explicit coverage limits](https://github.com/zhaoxinghua09-cell/agent-evidence-kit/blob/main/examples/themes13-receiver-oracle/README.md). He reports 9/9 checks, four draft-mutation controls and three demonstrator records, two explicitly synthetic. The code checks selected field names, value-domain tokens and record-level judgement distinctions; it does not check the full prose, producer/observation-point columns, source freshness over the entire action interval or independently observed effects in a native operational system. These are contributor-reported checks, not an independently qualified or executed UC-4 H1 experiment.
+
+**Open claim-boundary question — content identity is not necessarily current applicability.** Agreement between the source digest recorded **at dispatch** and the digest of the receiver-used content can support content identity for those specified observation points and within the declared trust assumptions. **It cannot alone establish that the receiver used the latest decision-applicable source state at action time**, because relevant later amendments, applicability changes and observation coverage are different propositions. An additional applicable source-state/freshness witness or an appropriately bounded `NOT_ESTABLISHED` qualification is required before making that stronger claim. This is an evidence-sufficiency reading for future review, **not** a claim of failure in the published fixture, a requirement to add a field or fifth H1 case, or a change to the existing H1 decision logic.
+
+**05A disposition as of 21 October 2026:**
+
+- **Current source state:** published, attributed UC-6 Stage-0 reference findings and existing Theme #13 H1 discussion.
+- **Candidate / Test-only:** the H1 four-case protocol, proposed receiving-side evidence fields and author-supplied offline checker.
+- **Not established:** completed/frozen H1 native experimental campaign, independent effects, proof of latest applicable state at action time from digest equality alone, common adopted cross-Theme schema or institutional FG-TIDA adoption.
+- **No promotion:** neither the Stage-0 reference nor the offline checker upgrades an EA conformance claim, validates an EA component, changes the source-owned UC-6/UC-4/UC-21 contracts, or modifies DDS-QA-01 or the frozen Stage A instrument.
+
+**Interface consequence:** retain source semantic ownership and producer/consumer evidence boundaries; where the receiving decision actually needs freshness or ecosystem-wide sufficiency, the qualified observation coverage and material dependencies must remain explicit. No mandatory EA route or new architecture is inferred.
+
+---
+
 ## 3. Ideal-to-current delta table
 
 | 05 Ideal item | Current 05A position as of 2 Oct 2026 | Reason |

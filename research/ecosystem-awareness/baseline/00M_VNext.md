@@ -239,38 +239,6 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="orientar-la-lectura-y-señalar-el-siguiente-paso"></a>
-<a id="un-ejemplo-que-evita-una-falsa-certeza"></a>
-<a id="facilitar-el-acceso-a-r4"></a>
-<a id="cambio-7--dar-un-siguiente-paso-de-00m-a-00n"></a>
-<a id="cambio-8--ejemplo-de-evidencia-incompatible-y-falsa-certeza"></a>
-<a id="cambio-9--acceso-alternativo-a-la-referencia-r4"></a>
-<a id="ola-2--cambio-10-una-respuesta-única-puede-seguir-sin-respaldo"></a>
-<a id="00m-42-oración-inicial-del-párrafo-de-inconsistencia"></a>
-<a id="ola-2--redacción-directa-del-cambio-10"></a>
-<a id="00m-42-oración-inicial-del-párrafo-de-inconsistencia-1"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="ola-3--cambio-2-enlazar-la-pregunta-matemática-con-la-funcional"></a>
-<a id="ola-3--cambio-3-acceso-directo-a-la-fuente-primaria-r4"></a>
-<a id="bloques-aplicados-retirados"></a>
-<a id="ola2-redaccion-10"></a>
-<a id="ola3-cambio-02"></a>
-<a id="ola3-cambio-03"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Third independent source review — 00M branch correction, 14 October 2026
 
 The isolated source reviewer has sealed the first bounded judgement below before opening previous audit bodies. It finds a justified correction in an internal 00M branch: finite termination does not establish delivery within an operational deadline. It recommends preserving that correction, with no current replacement candidate. This is a partial source judgement, not completion of 00M, its downstream integrations, the restoration/organization plan or the whole corpus.
@@ -334,6 +302,37 @@ For the source-to-functional-conditions relationship, the paired first account i
 No current replacement is proposed from this partial reading. Full source-history reception and actual contracts, proofs, implementations and downstream readers must still be checked before deciding an omission or destination. The independently sealed 00M branch timing correction is recorded in [00M VNext](./00M_VNext.md#third-independent-source-review--00m-branch-correction-14-october-2026): preserve the justified correction, with no rollback of the older timing implication. The current absence of another justified candidate is unfinished review work, not a claim that no useful restoration exists.
 
 The current note does not apply changes. A warranted incorporation must supply complete current before/proposed after, useful benefit, impact/risk/effort, dependencies and Iván's named wave/passages GO. Current sources, their earlier bodies and negative/comparator evidence remain preserved.
+
+
+## 01A-A01: causal priority before the 00M plausibility argument — 24 October 2026 (proposal only)
+
+**Reviewer: Codex (AI); instruction from Iván on 24 October 2026.** The upstream [01A-A01 two-hypothesis research note](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) proposes **FH-C** (comparatively more unjustified mission drift from *unawareness of material knowledge limits* than from lacking additional object-domain facts) and **FH-E** (a possibly lower-computation means of equivalent mission-pivot qualification using bounded epistemic metadata, despite potentially greater engineering complexity).
+
+**Before:** [00M §4.1](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) proves a *conditional factorization of independently stated review answers through a summary*, and §4.3 and §7 explicitly withhold computation and net economy conclusions.  
+**After (proposed, not written into 00M):** add an upstream reading pointer distinguishing **(i)** substantive truth about a new world-domain mission from **(ii)** the review answer “the available legitimate basis does not establish this mission change.” A small, sound summary may suffice for (ii) without solving (i). FH-E is an **additional empirical cost conjecture**, never a consequence of factorization alone.
+
+**Benefits:** makes the new causal premise, decision-relative math and optional compute economy traceable. **Risks:** circular summary definition, pretending D is enumerable, neglecting costs of metadata creation/freshness or confounding A with raw retrieved facts. **Open evidence:** specify non-circular review function, soundness limits, full compute/resource ledger and matched comparator. [01A source](01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) ← [this bridge](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) → [00N source](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). Source 00M unchanged; proposal awaits a passage-specific GO.
+
+
+### Editorial adoption and owner reception — 24 October 2026
+
+**Iván's current instruction:** promote FH-C and FH-E as canonical statements of **research hypotheses** and keep each VNext reachable through its own source only. The incorporation is now recorded in the [current integrated Foundation](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), the [01A-A01 hypothesis source](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md), the [corpus README](README.md), the [corpus manifest](CANONICAL_CORPUS_MANIFEST.md) and relevant original source-level reading pointers. Earlier “proposed/not applied” paragraphs above are historical proposal receipts; their editorial promotion is now applied.
+
+**Scientific status unchanged:** FH-C is not validated causal dominance; FH-E is not validated compute saving. No frozen requirements, H1–H6, controlled historical texts or old tests are reinterpreted as proof. Cross-document navigation added in this work points to **source texts** rather than another source's VNext.
+
+## 00M / ACC optional information / UC21 falsification — proposed reception, 26 October 2026
+
+**Source and status:** owner-requested research bridge, NOT a correction to the canonical mathematical note and NOT a claim that 00M §7 now proves general lower cost. The original mathematical plausibility, the finite ACC model and UC21's technological refutation discipline are **three compatible statements of different strengths/scopes**. This cumulative proposal belongs in the sole active 00M VNext; do not create a second 00M shadow.
+
+**Before:** [00M §4](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) states exact task-sufficiency by factorization and retains open residual, and §7 stops at plausibility, without resource or engineering advantage. [FH-E](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) adds a conditional cost hypothesis.
+
+**After (proposal for future owner-approved incorporation, NOT applied to 00M):** add one scoped research reading pointer to the [ACC / 00M / UC21 bridge](./01I-artifacts/acc-auxiliary-model-v0.1/studies/00m-acc-uc21-bridge-v0.1/README.md). Its *separate* social-model result says that, under **zero incremental cost, optional access, constant rights/response and same objective**, preserving valid qualified Q about B/C/D retains every A-only policy, so the best attainable result **weakly** dominates discarding Q. This is not a proof that a real Q channel costs zero, improves social welfare for all agents, or has a unique EA implementation advantage.
+
+**Third and orthogonal validation object:** the existing [UC21 R0/R1/R2 and DDS test contract](./01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/UC21_DDS_FALSIFIABILITY_CONTRACT.md) and preserved [UC21 Annex R](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL.md) allow technology-favorable results. A valid PASS for **one preregistered δ** refutes the predicted failure for that δ; it does **not** eliminate the existential search for some other δ unless a complete declared domain is established. An equivalent conventional solution can defeat **a branded or strict comparative** EA claim without refuting the open-world plausibility in 00M.
+
+**Benefit:** explicit, non-circular transitions between mathematical sufficiency, resource-constrained policy inclusion and credible technological falsifiers. **Risks:** quietly replacing general plausibility with a toy, confusing a mathematical inclusion with lower lifecycle cost, confusing R0/R1/R2 with DDS stages, post-hoc changing source gates, or claiming that one defender pass refutes every possible recurrence.
+
+**Owner decision proposed:** review and approve a *single bounded crossreading pointer* in 00M or retain this VNext record only. No 00M semantic paragraphs, H1–H6, UC21 source bytes or frozen DDS evidence are altered by this draft.
 
 
 ---

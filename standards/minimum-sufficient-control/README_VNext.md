@@ -138,36 +138,13 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/README_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="propuesta-antesdespués--expresar-todo-b_cart"></a>
-<a id="adición-de-navegación--texto-viejo-y-después-completo"></a>
-<a id="cambio-38--mostrar-todo-b_cart-en-el-índice-msca"></a>
-<a id="cambio-39--acceso-a-trabajo-adicional-desde-msca"></a>
-<a id="cambio-55--adición-de-acceso-a-revisión-de-role-y-composition"></a>
-<a id="adición-de-navegación-62--enlazar-fichas-de-revisión-de-architecture-y-acc"></a>
-<a id="ola-2--cambio-8-b_cart-soporte-y-reserva-evaluable-además-de-confianza"></a>
-<a id="tabla-de-estado-del-readme-msca-fila-semanticdependencyprocess-structures"></a>
-<a id="ola-2--redacción-directa-del-cambio-8"></a>
-<a id="tabla-de-estado-del-readme-msca-fila-semanticdependencyprocess-structures-1"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="bloques-aplicados-retirados"></a>
-<a id="ola2-redaccion-08"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Historical reception of the six MSCA sources — 15 October 2026
 
 Reviewer A read all six current MSCA source documents and 278 retired historical units;256 previously unresolved units now have source/receiver decisions. The earlier README body survives as ARCHITECTURE_AND_STANDARDS_CONTEXT, exact blob `d9b2d4baf3c76e93f69727277e3302f5eff0c3c7`. The current README retains its route and separates documentary state from comparative validation.
 
 Architecture retains ObjectiveEnvelope and partial/sufficient support; ACC separates identity, binding, mutation and execution; Role is static; Composition owns Cart_i; Operation owns bound/effective comparison and requests. These receivers preserve the useful earlier responsibilities without recreating automatic control authority. Proposal125 only clarifies the staticRole producer phrase. Three Operation scenario-version receiver questions remain open; this reading is not a closure of all MSCA integrations.
+
+
+## Historical review-link reception — 23 October 2026
+
+**Auditor: Codex, cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** EP's old `propuesta-antesdespués--expresar-todo-bcart` fragment never matches this owner's literal `b_cart` historical anchor, whose redirect stub has now also been retired.149 in the [EP review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#change-149--pin-historical-review-references-to-the-edition-that-contains-their-sections) fixes that one incoming href by using the exact `b_cart` spelling and the verified18October historical edition. It does not restore an incorporated proposal to the queue or change the current MSCA source.

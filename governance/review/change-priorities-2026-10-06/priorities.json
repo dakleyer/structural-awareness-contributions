@@ -2231,7 +2231,7 @@
       "source_sha": "a8ebfc8abe61fb569a658c722bcb714371f1693d",
       "before": null,
       "after": null,
-      "state": "Investigación por concretar; no cambio literal pendiente de permiso",
+      "state": "Prepared in the unified Requirements content/identity packet; not applied",
       "impact": "Alto",
       "risk": "Alto",
       "effort": "Alto",
@@ -2249,7 +2249,7 @@
         "research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md",
         "research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md"
       ],
-      "gate": "Localizar la laguna real frente aS7/S10/S12/S13/S14 yRole/Operation; si ya cubierta, no crear nuevo requisito. Concretar sólo después de adjudicar obligación versus realización. Decisión concreta de Iván; fuente original actualmente de sólo lectura.",
+      "gate": "Global action units 8,11–17,27–28; explicit maintained-edition decision and all receiver/protection checks. No standalone new requirement.",
       "original_reference": "CAND-R1, §4",
       "preparation": "Trabajo por concretar",
       "source_guard": "Conservación, alcance y autorización específica",
@@ -2273,7 +2273,19 @@
         "after_matches": null,
         "scope": "Sólo pasajes fuera de bloques de cita de propuestas",
         "note": ""
-      }
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Investigación por concretar; no cambio literal pendiente de permiso",
+          "prior_decision_ready": false,
+          "prior_application_status": null,
+          "prior_gate": "Localizar la laguna real frente aS7/S10/S12/S13/S14 yRole/Operation; si ya cubierta, no crear nuevo requisito. Concretar sólo después de adjudicar obligación versus realización. Decisión concreta de Iván; fuente original actualmente de sólo lectura.",
+          "prior_pairs": null
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
     },
     {
       "id": 44,
@@ -2283,7 +2295,7 @@
       "source_sha": "a8ebfc8abe61fb569a658c722bcb714371f1693d",
       "before": null,
       "after": null,
-      "state": "Investigación por concretar; no cambio literal pendiente de permiso",
+      "state": "Prepared in the unified Requirements content/identity packet; not applied",
       "impact": "Medio",
       "risk": "Medio",
       "effort": "Medio",
@@ -2296,7 +2308,7 @@
         "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
         "research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md"
       ],
-      "gate": "CotejarS1/S2/S8/S11/T3 y 60 antes de ampliar vocabulario. Seleccionar pasaje literal sólo si la exposición actual no basta. Decisión concreta de Iván; fuente original actualmente de sólo lectura.",
+      "gate": "Global action units 8,11–17,27–28; explicit maintained-edition decision and all receiver/protection checks. No standalone new requirement.",
       "original_reference": "CAND-R2, §4",
       "preparation": "Trabajo por concretar",
       "source_guard": "Conservación, alcance y autorización específica",
@@ -2319,7 +2331,19 @@
         "after_matches": null,
         "scope": "Sólo pasajes fuera de bloques de cita de propuestas",
         "note": ""
-      }
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Investigación por concretar; no cambio literal pendiente de permiso",
+          "prior_decision_ready": false,
+          "prior_application_status": null,
+          "prior_gate": "CotejarS1/S2/S8/S11/T3 y 60 antes de ampliar vocabulario. Seleccionar pasaje literal sólo si la exposición actual no basta. Decisión concreta de Iván; fuente original actualmente de sólo lectura.",
+          "prior_pairs": null
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
     },
     {
       "id": 45,
@@ -2329,7 +2353,7 @@
       "source_sha": "a8ebfc8abe61fb569a658c722bcb714371f1693d",
       "before": null,
       "after": null,
-      "state": "Investigación por concretar; no cambio literal pendiente de permiso",
+      "state": "Prepared in the unified Requirements content/identity packet; not applied",
       "impact": "Alto",
       "risk": "Alto",
       "effort": "Alto",
@@ -2342,7 +2366,7 @@
         "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
         "research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md"
       ],
-      "gate": "Caso de permisos incompatibles y dueño legítimo; comprobarS1/S8/ACC sin inventar regla universal de agregación ni consentimientos. Decisión concreta de Iván; fuente original actualmente de sólo lectura.",
+      "gate": "Global action units 8,11–17,27–28; explicit maintained-edition decision and all receiver/protection checks. No standalone new requirement.",
       "original_reference": "CAND-R3, §4",
       "preparation": "Trabajo por concretar",
       "source_guard": "Conservación, alcance y autorización específica",
@@ -2363,7 +2387,19 @@
         "after_matches": null,
         "scope": "Sólo pasajes fuera de bloques de cita de propuestas",
         "note": ""
-      }
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Investigación por concretar; no cambio literal pendiente de permiso",
+          "prior_decision_ready": false,
+          "prior_application_status": null,
+          "prior_gate": "Caso de permisos incompatibles y dueño legítimo; comprobarS1/S8/ACC sin inventar regla universal de agregación ni consentimientos. Decisión concreta de Iván; fuente original actualmente de sólo lectura.",
+          "prior_pairs": null
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
     },
     {
       "id": 46,
@@ -4105,7 +4141,7 @@
       "id": 83,
       "date": "2026-10-13",
       "title": "Dar a UC-21 una entrada directa y completa desde su raíz",
-      "state": "Pendiente de decisión",
+      "state": "Superseded route; not an executable pending fork publication",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Bajo",
@@ -4148,10 +4184,10 @@
         }
       ],
       "authorized_to_apply": false,
-      "decision_ready": true,
+      "decision_ready": false,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "gate": "Use the maintained Contributions/official route. Preserve these original pairs as history; official index work is E145R, not a fork republication.",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4164,13 +4200,57 @@
       "heading": "Cierre de entrada UC-21 — 13 octubre 2026",
       "assessment_basis": "Relectura de la raíz, caso, formulario, convenciones, DDS y receptor UC-4; Issue #21 y 36 comentarios, con tres novedades relevantes; pares actuales y retorno literal completo.",
       "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
-      "joint_changes": []
+      "joint_changes": [],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+          "prior_pairs": [
+            {
+              "key": "case_readme",
+              "repository_full_name": "dakleyer/use-cases",
+              "source": "contributions/when-controls-work-system-fails/README.md",
+              "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+              "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Cabecera de versión, dentro del bloque inicial existente",
+              "before": "**FG-TIDA contributor use-case draft v0.9.3 · 29 September 2026 · open to revision**",
+              "after": "**FG-TIDA contributor use case · submitted draft v0.9.3, 29 September 2026 · maintained reader edition**",
+              "before_matches": 1,
+              "after_matches": 0
+            },
+            {
+              "key": "case_readme",
+              "repository_full_name": "dakleyer/use-cases",
+              "source": "contributions/when-controls-work-system-fails/README.md",
+              "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+              "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Después de los tres enlaces iniciales; se conservan íntegros",
+              "before": "**[Read the case](USE_CASE.md) · [Explore the annexes](annexes/README.md) · [Prepare a run](templates/RUN_RECORD.md)**",
+              "after": "**[Read the case](USE_CASE.md) · [Explore the annexes](annexes/README.md) · [Prepare a run](templates/RUN_RECORD.md)**\n\n**Reader route:** [Objectives](#research-objectives) → [Challenges](#choose-a-challenge-and-its-evaluation-scenario) → [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) → [Recorded studies and results](#challenges-evaluation-scenarios-and-recorded-work) · [Next investigations](#next-investigations-and-evidence-decisions)",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "superseded_not_pending"
     },
     {
       "id": 84,
       "date": "2026-10-13",
       "title": "Conectar método y arquitectura actuales conservando los cortes anteriores",
-      "state": "Pendiente de decisión",
+      "state": "Superseded route; not an executable pending fork publication",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Bajo",
@@ -4200,10 +4280,10 @@
         }
       ],
       "authorized_to_apply": false,
-      "decision_ready": true,
+      "decision_ready": false,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "gate": "Use the maintained Contributions/official route. Preserve these original pairs as history; official index work is E145R, not a fork republication.",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4218,13 +4298,42 @@
       "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
       "joint_changes": [
         83
-      ]
+      ],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+          "prior_pairs": [
+            {
+              "key": "case_readme",
+              "repository_full_name": "dakleyer/use-cases",
+              "source": "contributions/when-controls-work-system-fails/README.md",
+              "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+              "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Dos últimas filas de The case, the research method and the wider system",
+              "before": "| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |\n| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md) |",
+              "after": "| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |\n| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README.md) |\n\nEarlier integration sources remain available: [DDS method at de677309](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and [Ecosystem Positioning at de677309](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md). A registered study keeps the versions cited by its own evidence.",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "superseded_not_pending"
     },
     {
       "id": 85,
       "date": "2026-10-13",
       "title": "Actualizar las aportaciones S4/CDA y el ciclo opcional UC-4 ↔ UC-21",
-      "state": "Pendiente de decisión",
+      "state": "Superseded route; not an executable pending fork publication",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Medio",
@@ -4254,10 +4363,10 @@
         }
       ],
       "authorized_to_apply": false,
-      "decision_ready": true,
+      "decision_ready": false,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "gate": "Use the maintained Contributions/official route. Preserve these original pairs as history; official index work is E145R, not a fork republication.",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4272,13 +4381,42 @@
       "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
       "joint_changes": [
         84
-      ]
+      ],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+          "prior_pairs": [
+            {
+              "key": "case_readme",
+              "repository_full_name": "dakleyer/use-cases",
+              "source": "contributions/when-controls-work-system-fails/README.md",
+              "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+              "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Dos filas de Challenges, evaluation scenarios and recorded work; se añade la referencia CDA",
+              "before": "| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |\n| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997). A source determination and its conditions inform the receiving-decision question; a bounded finding may return as a candidate control for a separately registered test. Its Steps A–F describe the proposed feedback sequence, independently of DDS Stages A/B/C. Existing control success and unresolved observation limits remain valid findings. |",
+              "after": "| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) and [UC-4 scope clarification](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771). A separately scoped follow-up after review of its R0/R1 evidence, with authority inputs, observed effects, a competent conventional comparator and agreed resources. |\n| CDA candidate for S4/S5 | [CDA v0.1.3, commit 7b6b24d](https://github.com/matiascloudarch/cognitive-decision-architecture/tree/7b6b24d416bf78a7e2599ccda932745ebe839fff) and [author's 13 October report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870). Published implementation and author-reported controls available for contract and evidence review. UC-21 records the reviewed claim and tested scope separately. |\n| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997), [Nelson's experimental scope](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771) and [13 October sequence and independent-review roles](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176). CDA candidate → agreed UC-4 contract → reviewed R0/R1 evidence → validated R1 freeze → UC-21 R2 → DDS Stage A synthesis → candidate specifications. R2 preparation and Stage A review can proceed in parallel; R2 execution follows demonstrated R1 correction. Each collaboration selects its own question and scope. Existing control success and observation limits remain valid findings. |",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "superseded_not_pending"
     },
     {
       "id": 86,
       "date": "2026-10-13",
       "title": "Explicar el siguiente trabajo y quién decide cada cierre",
-      "state": "Pendiente de decisión",
+      "state": "Superseded route; not an executable pending fork publication",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Medio",
@@ -4308,10 +4446,10 @@
         }
       ],
       "authorized_to_apply": false,
-      "decision_ready": true,
+      "decision_ready": false,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "gate": "Use the maintained Contributions/official route. Preserve these original pairs as history; official index work is E145R, not a fork republication.",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4326,13 +4464,42 @@
       "source_guard": "Sólo se publica preparación dentro de las VNext existentes y registro; fuentes y cuerpo externo intactos.",
       "joint_changes": [
         85
-      ]
+      ],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+          "prior_pairs": [
+            {
+              "key": "case_readme",
+              "repository_full_name": "dakleyer/use-cases",
+              "source": "contributions/when-controls-work-system-fails/README.md",
+              "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+              "source_sha": "ec0a95f8166340bf009beadf6afc9e4632e34e09",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Al final, después de Additional working files and preserved material",
+              "before": "For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.",
+              "after": "For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.\n\n## Next investigations and evidence decisions\n\nThe [13 October UC-21 discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) identifies the next research work. Each investigation selects a question, a source edition and the evidence required to answer it.\n\n| Workstream | Next action | Evidence and closing decision |\n|---|---|---|\n| S5 supplied-model contribution | Record the supported branches, corrected v0.1.3 scope and upstream assumptions in its [source report](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), following the [author's scoped-closure recommendation](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). | Preserve the positive, negative and limited findings; use a separate selection review for specification implications. An independently executed or wider Q0–Q6 claim requires its own evidence. |\n| CDA / optional UC-4–UC-21 investigation | Review the [pinned candidate](https://github.com/matiascloudarch/cognitive-decision-architecture/tree/7b6b24d416bf78a7e2599ccda932745ebe839fff); agree the selected S4/S5 question, implementation-neutral contract, controls and resources with the relevant contributors. | UC-4 retains its [experimental coordination and scope](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771). Demonstrate and freeze the R1 correction before executing the selected R2. |\n| UC-21 R2 preparation and DDS Stage A synthesis | Prepare the contextual intervention, admissible observations, strong comparator, positive control and falsifiers; use the [run record](templates/RUN_RECORD.md) and [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). | Keep evaluation evidence, action verdict, attempted action, target acknowledgement and independently observed target state distinct. Report decision quality, legitimate continuity, timing and burden under the registered contract. |\n| Candidate specification review | Collect the reviewed findings, alternatives, successful existing controls and remaining observation limits. | Separate open test design, independent execution/verification and evidence-based specification selection. The [independent-testing role](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) is open; record an appointment and completed work when they exist. |\n\nThe [DDS development register](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/campaigns-in-development/INDEX.md) links other research preparation under the same method. Its Flores / Theme #21 dossier is a distinct research contribution, not UC-21's case identifier or an executed UC-21 campaign. Each route keeps its source owner and evidence.\n\nFor the navigation changes and their exact history, consult the [restructuring audit report](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13.html) and the [case review](README_VNext.md).",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "superseded_not_pending"
     },
     {
       "id": 87,
       "date": "2026-10-13",
       "title": "Dar el mismo recorrido al lector que entra directamente en USE_CASE",
-      "state": "Pendiente de decisión",
+      "state": "Superseded route; not an executable pending fork publication",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Bajo",
@@ -4363,10 +4530,10 @@
         }
       ],
       "authorized_to_apply": false,
-      "decision_ready": true,
+      "decision_ready": false,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "gate": "Use the maintained Contributions/official route. Preserve these original pairs as history; official index work is E145R, not a fork republication.",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4382,13 +4549,42 @@
       "joint_changes": [
         83,
         86
-      ]
+      ],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+          "prior_pairs": [
+            {
+              "key": "case_use",
+              "repository_full_name": "dakleyer/use-cases",
+              "source": "contributions/when-controls-work-system-fails/USE_CASE.md",
+              "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+              "source_sha": "a59575314c714b2ffb024b9d33aa2bbf3b9d241f",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/USE_CASE_VNext.md",
+              "location": "Reading route anterior al primer apartado; se conserva la línea completa",
+              "before": "**Reading route:** [Scenarios](#2-the-situation-and-six-scenarios) · [Prepare an experiment](#5-select-prepare-and-run-one-experiment) · [Acceptance gates](#6-six-quality-plans-visible-acceptance-criteria) · [Technologies](#7-results-existing-coverage-and-remaining-gap) · [Extensionality](#8-extensibility-and-extensionality)",
+              "after": "**Research route:** [Objectives](#11-research-objectives-and-evidence) → [Challenges](README.md#choose-a-challenge-and-its-evaluation-scenario) → [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) → [Recorded studies and results](README.md#challenges-evaluation-scenarios-and-recorded-work) · [Next investigations](README.md#next-investigations-and-evidence-decisions)\n\n**Reading route:** [Scenarios](#2-the-situation-and-six-scenarios) · [Prepare an experiment](#5-select-prepare-and-run-one-experiment) · [Acceptance gates](#6-six-quality-plans-visible-acceptance-criteria) · [Technologies](#7-results-existing-coverage-and-remaining-gap) · [Extensionality](#8-extensibility-and-extensionality)",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "superseded_not_pending"
     },
     {
       "id": 88,
       "date": "2026-10-13",
       "title": "Conciliar en DDS las condiciones del seguimiento UC-4 / CDA",
-      "state": "Pendiente de decisión",
+      "state": "Prepared revised candidate in global action unit 30; not applied",
       "impact": "Alto",
       "risk": "Bajo",
       "effort": "Medio",
@@ -4406,14 +4602,14 @@
           "key": "dds_index",
           "repository_full_name": "dakleyer/structural-awareness-contributions",
           "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
-          "source_commit": "fc90cdc78e8c593ddb848f988962e27b00f00c93",
-          "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "source_sha": "d40c5cce3d78dea9b283322ec107d3d7d47b1e58",
           "source_updated_at": null,
           "source_body_sha256": null,
           "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
           "location": "§11, párrafo de comparación específico UC-21; contextos posteriores Flores intactos",
           "before": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.",
-          "after": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.\n\nThe [12–13 October UC-4 scope clarification](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771), [CDA v0.1.3 report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870) and [UC-21 research sequence and independent-review roles](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) define the current proposed follow-up. UC-4 retains its experimental coordination and source semantics. A selected UC-21 R2 follows a demonstrated and frozen R1 correction; R2 preparation and DDS Stage A review may proceed in parallel. Findings return to a separately reviewed candidate specification, preserving successful controls and unresolved observation limits. Read the [case's next investigations](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#next-investigations-and-evidence-decisions) for the work and decisions still required.",
+          "after": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.\n\nThe 12–13 October source discussion records a proposed, separately scoped CDA/UC-4 follow-up. It preserves UC-4's experimental coordination and source semantics; a selected UC-21 R2 execution follows demonstrated and frozen R1 correction, while R2 preparation and DDS Stage A review may proceed in parallel. For the maintained case binding use the [UC-21 application and recurrence contract](#uc-21-application-contract-select-the-claim-before-the-run); the [official UC-21 status record](https://github.com/FG-TIDA/use-cases/issues/21#11-campaign-status-and-review-activity) carries later dated campaign updates. Each returned finding identifies its scope, successful existing controls, uncertainty and proposed specification consequence. These documentary routes do not combine the studies into one campaign.",
           "before_matches": 1,
           "after_matches": 0
         }
@@ -4422,7 +4618,7 @@
       "decision_ready": true,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+      "gate": "Compare with current index §§11/15 and official UC21 dated status; preserve 92/103; external publication is a separate packet",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4438,13 +4634,42 @@
       "joint_changes": [
         85,
         86
-      ]
+      ],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.",
+          "prior_pairs": [
+            {
+              "key": "dds_index",
+              "repository_full_name": "dakleyer/structural-awareness-contributions",
+              "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+              "source_commit": "fc90cdc78e8c593ddb848f988962e27b00f00c93",
+              "source_sha": "88b78f386047a76e0e2da905bd951ada06e5602b",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+              "location": "§11, párrafo de comparación específico UC-21; contextos posteriores Flores intactos",
+              "before": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.",
+              "after": "For a UC-21-specific comparison, consult the [existing external S5 exercise](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), [research-side audit packet](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md) and [separate 00I-STATEFUL companion](./baseline/fixtures/00I-STATEFUL/README.md). The [S4/CDA follow-up](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) retains its proposed state. These links do not combine their outcomes into one campaign.\n\nThe [12–13 October UC-4 scope clarification](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771), [CDA v0.1.3 report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870) and [UC-21 research sequence and independent-review roles](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) define the current proposed follow-up. UC-4 retains its experimental coordination and source semantics. A selected UC-21 R2 follows a demonstrated and frozen R1 correction; R2 preparation and DDS Stage A review may proceed in parallel. Findings return to a separately reviewed candidate specification, preserving successful controls and unresolved observation limits. Read the [case's next investigations](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#next-investigations-and-evidence-decisions) for the work and decisions still required.",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "pending_specific_GO"
     },
     {
       "id": 89,
       "date": "2026-10-13",
       "title": "Incluir UC-21 en los índices de casos",
-      "state": "Pendiente de decisión",
+      "state": "Superseded route; not an executable pending fork publication",
       "impact": "Alto",
       "risk": "Medio",
       "effort": "Bajo",
@@ -4493,10 +4718,10 @@
         }
       ],
       "authorized_to_apply": false,
-      "decision_ready": true,
+      "decision_ready": false,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "GO de Iván para ambos pares. La tabla oficial requiere además la incorporación del mantenedor o permiso de escritura; preparar el parche no lo envía.",
+      "gate": "Use the maintained Contributions/official route. Preserve these original pairs as history; official index work is E145R, not a fork republication.",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4515,13 +4740,57 @@
         86,
         87,
         88
-      ]
+      ],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "GO de Iván para ambos pares. La tabla oficial requiere además la incorporación del mantenedor o permiso de escritura; preparar el parche no lo envía.",
+          "prior_pairs": [
+            {
+              "key": "case_root",
+              "repository_full_name": "dakleyer/use-cases",
+              "source": "README.md",
+              "source_commit": "0d32667ccce1dd3e568459a64a89e83987d92d4e",
+              "source_sha": "5b5bee6ef408389ea997ebc7c91021372bb8e170",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Última fila de Submissions, antes de Contributing",
+              "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
+              "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |",
+              "before_matches": 1,
+              "after_matches": 0
+            },
+            {
+              "key": "fg_root",
+              "repository_full_name": "FG-TIDA/use-cases",
+              "source": "README.md",
+              "source_commit": "5ae72ac3094a2712d8b9b75d11bbb928b6859fe6",
+              "source_sha": "af5f597bdbdf4c7632b6dc0df64a31eb30081262",
+              "source_updated_at": null,
+              "source_body_sha256": null,
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Última fila de Submissions, antes de Contributing",
+              "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
+              "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "superseded_not_pending"
     },
     {
       "id": 90,
       "date": "2026-10-13",
       "title": "Poner la presentación mantenida en la entrada pública de UC-21",
-      "state": "Pendiente de decisión",
+      "state": "Superseded route; not an executable pending fork publication",
       "impact": "Alto",
       "risk": "Medio",
       "effort": "Bajo",
@@ -4557,10 +4826,10 @@
         }
       ],
       "authorized_to_apply": false,
-      "decision_ready": true,
+      "decision_ready": false,
       "positive_impact_proven": false,
       "instructions": "Iván pide preparar el cierre de UC-21, conservar el contenido y usar las VNext existentes. Incorporar fuentes sólo después de su GO concreto; publicar esta preparación no incorpora los candidatos.",
-      "gate": "Iván aprueba literalmente el bloque 90 y su destino Issue #21; revalidar y conservar el resto del cuerpo, y disponer de acceso del propietario. No publicar comentario ni cerrar la Issue por esta preparación.",
+      "gate": "Use the maintained Contributions/official route. Preserve these original pairs as history; official index work is E145R, not a fork republication.",
       "preparation": "Completa; pares literales preparados",
       "quality": "Par actual localizado; conservación exterior y enlaces cotejados en copia de análisis",
       "acceptance": "Sólo los pares aprobados; enlaces anteriores conservados; cambios fuera de alcance cero.",
@@ -4581,7 +4850,36 @@
         87,
         88,
         89
-      ]
+      ],
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": null,
+          "prior_gate": "Iván aprueba literalmente el bloque 90 y su destino Issue #21; revalidar y conservar el resto del cuerpo, y disponer de acceso del propietario. No publicar comentario ni cerrar la Issue por esta preparación.",
+          "prior_pairs": [
+            {
+              "key": "issue",
+              "repository_full_name": "FG-TIDA/use-cases",
+              "source": "https://github.com/FG-TIDA/use-cases/issues/21",
+              "source_commit": null,
+              "source_sha": null,
+              "source_updated_at": "2026-10-13T10:36:49Z",
+              "source_body_sha256": "42a01df4e67c73a56c39544d6ce8a44dbbcb6d592f840b2ca5588ebf74122428",
+              "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+              "location": "Después de los tres enlaces de aec08fb5 y antes del formulario original",
+              "before": "**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**",
+              "after": "**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**\n\n## UC-21: current research and reading route\n\nUC-21 investigates when locally valid controls remain sufficient for the receiving decision after aggregation, intermediation or material change. The case supplies its objectives and six failure families, called **Challenges** in the maintained reader guide. A DDS evaluation scenario pairs a Challenge with a specified technology/configuration and bounded conditions.\n\n**[Current UC-21 package](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md)** → **[Research objectives](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives)** → **[Challenges](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)** → **[DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md)** → **[Recorded studies and results](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#challenges-evaluation-scenarios-and-recorded-work)**.\n\nThe [next investigations and evidence decisions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#next-investigations-and-evidence-decisions) connect the scoped S5 contribution, the CDA candidate and the optional UC-4 / UC-21 collaboration. Test design, independent execution/verification and specification selection have distinct responsibilities, as proposed in the [13 October discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176).\n\nThe three links above retain the submitted v0.9.3 snapshot; the maintained guide records subsequent research and navigation. Each result remains attached to its source question, edition, freeze and evidence.",
+              "before_matches": 1,
+              "after_matches": 0
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026",
+      "application_status": "superseded_not_pending"
     },
     {
       "id": 91,
@@ -8263,21 +8561,23 @@
       "date": "2026-10-15",
       "repository_full_name": "dakleyer/structural-awareness-contributions",
       "wave": "Bounded heading readability repair",
-      "state": "Prepared; exact canonical heading awaits Iván’s specific GO",
-      "application_status": "planned",
-      "decision_ready": true,
-      "authorized_to_apply": false,
+      "state": "Applied; removed from the pending queue",
+      "application_status": "applied",
+      "applied_commit": "3e94f7f1a98e8faa2cf88eaa7f6d9d94c51d5d95",
+      "applied_source_blob": "696872b39522d4cd4e9c166071497aa5e1bf92da",
+      "decision_ready": false,
+      "authorized_to_apply": true,
       "positive_impact_proven": false,
       "benefit": "Read the section title once and give it the intended clean anchor.",
       "riskReason": "Delete only the repeated 17-byte prefix in one heading. No definition, example, topology relation or other source byte changes. Neither the malformed nor intended heading has an explicit Markdown inlink in the pinned corpus.",
       "costReason": "Compare the originating changed passage and complete current section context, check incoming anchors and the whole-file inverse; publish and read back exact bytes.",
       "dependencies": [
         "D traced event699/unit5",
-        "Current source must remain bloba5adff56ede0effa4d3fb9d04fe1e41f3a76a17a",
+        "Historical predecessor blob a5adff56ede0effa4d3fb9d04fe1e41f3a76a17a; current canonical blob 696872b39522d4cd4e9c166071497aa5e1bf92da",
         "C separate literal/anchor review before application"
       ],
-      "preparation": "D and C separate source/context/anchor checks and root whole-source inverse complete. Literal plan published; no source application.",
-      "gate": "Automatic approval review requires Iván’s explicit decision on this exact17-byte Topology heading repair; all other work continues.",
+      "preparation": "Applied on main 20 October 2026: one 17-character duplicated heading prefix removed; exact inverse and Git source readback verified. Historical review remains in Git.",
+      "gate": "Applied 3 e 94 f 7 f 1; do not execute again. This update only clears the stale decision_ready flag.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Current instruction extends historical damage control to the rest of the corpus, independent reviews, consolidation, exact VNext pairs and justified surgical repairs, followed by preservation checks. No experiments, scientific-result edits, obsolete proof revival, external comments or physical reorganization.",
@@ -8300,7 +8600,19 @@
         "explicit_markdown_anchor_inlinks": [],
         "whole_file_inverse": true,
         "C_separate_review": "Current27eb source/origin, whole line, -17bytes/after696872b39522d4cd4e9c166071497aa5e1bf92da, full inverse and real GitHub duplicated h2 verified. Both old/new explicit fragment inlinks absent in the fixed text corpus."
-      }
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Applied; removed from the pending queue",
+          "prior_decision_ready": true,
+          "prior_application_status": "applied",
+          "prior_gate": "Closed: exact heading-only change applied after Iván’s instruction to promote and retire verified VNext corrections; unrelated canonical bytes preserved.",
+          "prior_pairs": null
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
     },
     {
       "id": 139,
@@ -8690,8 +9002,8 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Primera",
-      "state": "Prepared; not applied; awaiting specific wave GO",
-      "decision_ready": true,
+      "state": "Superseded by the newer official UC21 body; do not replay this pair set",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
       "wave": "UC-21 official-entry completion",
@@ -8706,15 +9018,32 @@
           "after": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n**Current reading — 15 October 2026.** Follow **UC-21 → objectives → Challenges → DDS → campaigns → results** through the research guide above. The retained S1–S6 families supply the Challenges; a DDS evaluation scenario maps a selected technology/configuration to a Challenge under declared conditions. The submitted form and its local gate labels remain the case reference.\n\nThe complete submitted edition is also available directly in Contributions: **[case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[twenty annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md)** · **[all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails)**. This source snapshot preserves the submitted text, figures, fixtures and original manifest. The Maturity and Assets fields below describe that submitted edition. The current research guide identifies later source editions, bounded executed studies and work in development; each report supplies its own scope and result."
         }
       ],
-      "application_status": "pending_specific_GO",
+      "application_status": "superseded_source_not_exact_application",
       "preparation": "Full official form/discussion review; exact source pin and unique insertion; all predecessor bytes and old links preserved.",
-      "gate": "Iván decides this official-publication wave; no source change applied in this review.",
+      "gate": "Official body read 25 October updated 07:58:19UTC. Record actual partial reception and current campaign context; no wholesale replay or applied-by-this-agent claim.",
       "costReason": "Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Revalidate official UC-21 against canonical Contributions and preserve every source; prepare exact VNext pairs before a wave is applied.",
         "per_wave_GO_required": true
-      }
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Prepared; not applied; awaiting specific wave GO",
+          "prior_decision_ready": true,
+          "prior_application_status": "pending_specific_GO",
+          "prior_gate": "Iván decides this official-publication wave; no source change applied in this review.",
+          "prior_pairs": [
+            {
+              "before": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.",
+              "after": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n**Current reading — 15 October 2026.** Follow **UC-21 → objectives → Challenges → DDS → campaigns → results** through the research guide above. The retained S1–S6 families supply the Challenges; a DDS evaluation scenario maps a selected technology/configuration to a Challenge under declared conditions. The submitted form and its local gate labels remain the case reference.\n\nThe complete submitted edition is also available directly in Contributions: **[case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[twenty annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md)** · **[all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails)**. This source snapshot preserves the submitted text, figures, fixtures and original manifest. The Maturity and Assets fields below describe that submitted edition. The current research guide identifies later source editions, bounded executed studies and work in development; each report supplies its own scope and result."
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
     },
     {
       "id": 145,
@@ -8736,7 +9065,7 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Primera",
-      "state": "Prepared; not applied; awaiting specific wave GO",
+      "state": "Prepared current external candidate E145R; not applied",
       "decision_ready": true,
       "authorized_to_apply": false,
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
@@ -8748,18 +9077,39 @@
       "pairs": [
         {
           "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
-          "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |"
+          "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three comparison positions | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |",
+          "before_matches": 1,
+          "after_matches": 0,
+          "source_body_sha256": "dcb1d8abe38252b7dc5d0c992a75af9cb2f7fe0c58b923cc47414145156feaed",
+          "source_updated_at": "2026-10-25 live read"
         }
       ],
       "application_status": "pending_specific_GO",
       "preparation": "Full official form/discussion review; exact source pin and unique insertion; all predecessor bytes and old links preserved.",
-      "gate": "Iván decides this official-publication wave; no source change applied in this review.",
+      "gate": "Official repository owner/maintainer incorporation; not applied",
       "costReason": "Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Revalidate official UC-21 against canonical Contributions and preserve every source; prepare exact VNext pairs before a wave is applied.",
         "per_wave_GO_required": true
-      }
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Prepared; not applied; awaiting specific wave GO",
+          "prior_decision_ready": true,
+          "prior_application_status": "pending_specific_GO",
+          "prior_gate": "Iván decides this official-publication wave; no source change applied in this review.",
+          "prior_pairs": [
+            {
+              "before": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |",
+              "after": "| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |\n| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |"
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
     },
     {
       "id": 146,
@@ -8780,7 +9130,7 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Primera",
-      "state": "Prepared; not applied; awaiting specific wave GO",
+      "state": "Prepared current external candidate E146R; not applied",
       "decision_ready": true,
       "authorized_to_apply": false,
       "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
@@ -8793,18 +9143,339 @@
       "pairs": [
         {
           "before": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.",
-          "after": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.\n\n### Current provenance — 15 October 2026\n\nThe 48-file inventory and checks above describe the original submission at `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. The current PR head, `188f31921202d0beb06cfd15eea5008829f60e29`, contains 54 case-folder files: the original 48 paths plus six review records. Of the original 48, 44 retain their submitted bytes; README.md and USE_CASE.md add reader guidance, S3.md adds a maintained-source pointer, and S6.md is a shorter adapter to canonical 00J.\n\nAll 48 original files, including the complete submitted S6, are preserved byte for byte in the [Contributions source snapshot](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The [official UC-21 issue](https://github.com/FG-TIDA/use-cases/issues/21) is the case entry; the [Contributions guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) maintains objectives, Challenges, DDS and recorded research. This PR remains an unmerged historical submission; its complete package is not required to update that direct reader route."
+          "after": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.\n\n### Current provenance — verified 25 October 2026\n\nThe 48-file inventory and checks above describe the original submission at `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. The current PR head, `188f31921202d0beb06cfd15eea5008829f60e29`, contains 54 case-folder files: the original 48 paths plus six review records. Of the original 48, 44 retain their submitted bytes; README.md and USE_CASE.md add reader guidance, S3.md adds a maintained-source pointer, and S6.md is a shorter adapter to canonical 00J.\n\nAll 48 original files, including the complete submitted S6, are preserved byte for byte in the [Contributions source snapshot](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The [official UC-21 issue](https://github.com/FG-TIDA/use-cases/issues/21) is the case entry; the [Contributions guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) maintains objectives, Challenges, DDS and recorded research. This PR remains an unmerged historical submission; its complete package is not required to update that direct reader route.",
+          "before_matches": 1,
+          "after_matches": 0,
+          "source_body_sha256": "39f3380fddb2222f1b9913d6339aaaede3e4313ef8f358f548de6564d4683888",
+          "source_updated_at": "2026-10-25 live read"
         }
       ],
       "application_status": "pending_specific_GO",
       "preparation": "Full official form/discussion review; exact source pin and unique insertion; all predecessor bytes and old links preserved.",
-      "gate": "Iván decides this official-publication wave; no source change applied in this review.",
+      "gate": "Specific external PR-description GO and current-head check; not applied",
       "costReason": "Read exact official predecessor, compare current research/source editions, verify literal insertion and links, then read back after the approved publication.",
       "instructions": {
         "date": "2026-10-15",
         "scope": "Revalidate official UC-21 against canonical Contributions and preserve every source; prepare exact VNext pairs before a wave is applied.",
         "per_wave_GO_required": true
-      }
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Prepared; not applied; awaiting specific wave GO",
+          "prior_decision_ready": true,
+          "prior_application_status": "pending_specific_GO",
+          "prior_gate": "Iván decides this official-publication wave; no source change applied in this review.",
+          "prior_pairs": [
+            {
+              "before": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.",
+              "after": "This pull request proposes the materials and index entry for FG-TIDA review. It does not claim acceptance, adoption, validation or merge.\n\n### Current provenance — 15 October 2026\n\nThe 48-file inventory and checks above describe the original submission at `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. The current PR head, `188f31921202d0beb06cfd15eea5008829f60e29`, contains 54 case-folder files: the original 48 paths plus six review records. Of the original 48, 44 retain their submitted bytes; README.md and USE_CASE.md add reader guidance, S3.md adds a maintained-source pointer, and S6.md is a shorter adapter to canonical 00J.\n\nAll 48 original files, including the complete submitted S6, are preserved byte for byte in the [Contributions source snapshot](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The [official UC-21 issue](https://github.com/FG-TIDA/use-cases/issues/21) is the case entry; the [Contributions guide](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) maintains objectives, Challenges, DDS and recorded research. This PR remains an unmerged historical submission; its complete package is not required to update that direct reader route."
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
+    },
+    {
+      "id": 147,
+      "date": "2026-10-18",
+      "title": "Connect the complete official UC-21 main form to current Contributions and its preserved source edition",
+      "source": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "repository_full_name": "FG-TIDA/use-cases",
+      "source_version": "body read 2026-10-18; updated_at=2026-10-18T17:55:52Z",
+      "source_sha256": "9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98",
+      "review_source_commit": "26e5ac1bc056fd03db738794a9885af47dc62a19",
+      "source_commit": null,
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "pairs": [
+        {
+          "label": "Opening reader route and retained source history",
+          "before": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n<details>\n<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>\n\n**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**\n\n</details>",
+          "after": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n**Reader update — 18 October 2026.** The route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. The form below retains the submitted case and its 37 acceptance conditions; the current Challenge sources and technology profiles are linked in Section 2.\n\n**Submitted source edition in Contributions:** [complete case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md) · [twenty technical annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) · [all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The current research guide above leads to later studies and their results; the source edition retains the original protocols, figures and fixtures.\n\n<details>\n<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>\n\n**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**\n\n\n\nOriginal individual links retained with that submitted edition:\n\n- [Evidence and measurement protocol](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md)\n- [Hypothesis protocols](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md)\n- [Related-case boundaries](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md)\n- [Five-stage cascade SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)\n- [Many-to-one funnel SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)\n- [D1 source-set drift fixture](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)\n- [Ordinary ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)\n- [Reinforced ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)\n- [Trace contract](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)\n- [Run-record form](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md)\n\n</details>",
+          "reason": "Make both live research and the complete submitted edition accessible through Contributions; retain all thirteen original fork destinations inside the existing historical fold."
+        },
+        {
+          "label": "Form introduction and source-edition meaning",
+          "before": "This form maps the contribution to the FG-TIDA use-case proposal fields. The complete technical entry point is [When the controls work but the system fails](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md): its main body is self-contained for selecting and scoring one experiment; [the annex index](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md) links all 20 technical annexes. This form adds no fourth route or new implementation claim.",
+          "after": "This form maps the contribution to the FG-TIDA use-case proposal fields. The complete submitted case is [When the controls work but the system fails](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md): its main body is self-contained for selecting and scoring one experiment; [its source-edition annex index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) links all 20 technical annexes. This form adds no fourth route or new implementation claim.",
+          "reason": "The current research router and the complete historical technical case serve different purposes; label the source edition and remove the fork as an active dependency."
+        },
+        {
+          "label": "Six current Challenge sources and nine technology profiles",
+          "before": "**Residual gap:** Whether those facilities, in the declared configuration, jointly preserve the applicable decision conditions through composition, change and actual use. A configuration that does so receives full credit.",
+          "after": "**Residual gap:** Whether those facilities, in the declared configuration, jointly preserve the applicable decision conditions through composition, change and actual use. A configuration that does so receives full credit.\n\n### Challenge sources and current technology profiles\n\nThe retained S1–S6 slots identify six failure-family Challenges in this reading route. A DDS evaluation scenario maps a chosen technology/configuration to a Challenge under declared conditions. The three implementation walkthroughs are the ordinary, reinforced and same-reinforced-under-change comparison positions; the submitted package contains nine technology profiles.\n\n| Retained case slot | Current Challenge source | Current technology profile(s) |\n|---|---|---|\n| S1 / 00E | [Enterprise synthesis](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) | [Microsoft Agent 365](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [LangGraph / LangSmith](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |\n| S2 / 00F | [Shared mobility](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) | [FIWARE NGSI-LD](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [AWS IoT TwinMaker / IoT Core](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |\n| S3 / 00G | [Propagated false mission](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | [OpenAI agent stack — integrated §17](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories) |\n| S4 / 00H | [Finding beyond authority](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | [Claude Agent SDK](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [Stripe Radar + merchant authorization](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |\n| S5 / 00I | [Delayed repair](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) | [AWS Step Functions / RDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |\n| S6 / 00J | [Rights-provenance inversion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | [Panodyssey / TEMS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |\n\nThese are the maintained working sources. A recorded study keeps the source editions, comparison labels and acceptance contract under which it was registered; the complete submitted S1–S6 and T01–T09 annexes remain in the source edition linked above.",
+          "reason": "Give the main form a direct, human-readable bridge to all six current sources and nine profiles. Use integrated 00G §17, 00H v0.5, Claude/Stripe v0.4 and the 00I reader rather than stale aliases or the largest filename by assumption."
+        },
+        {
+          "label": "Related cases and current Panodyssey discussion",
+          "before": "**Related theme proposals:** No theme allocation is asserted as agreed. Related *use cases*, which are distinct from theme proposals, are linked with their boundaries in [Annex N](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md).",
+          "after": "**Related theme proposals:** No theme allocation is asserted as agreed. Related *use cases*, which are distinct from theme proposals, are linked with their boundaries in [Annex N](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md).\n\n**Related Panodyssey work:** the [current working crosswalk](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/cases/PANODYSSEY_THEME17_00J_UC21_TRACEABILITY_WORKING.md) distinguishes the broader publishing case from the synthetic S6/00J test. The [18 October design direction](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6253197588) prepares one separate Challenge containing three cases, with the S6 link retained where they overlap.",
+          "reason": "Preserve the related-case source; receive the three new public comments without folding the broader three-case Panodyssey proposal into S6 or treating source confirmation as experiment evidence."
+        },
+        {
+          "label": "Scientific claim selection, DDS and result return",
+          "before": "**Claim and experiment selection:** Record case-acceptance assessment, HC, HR, HS or a selected H1–H6 contrast separately from R0/R1/R2. The main document’s Section 5 governs this selection. Keep implementation/gate results and hypothesis conclusions separate; a diagnostic intervention that removes a safeguard is not an HR trial with that safeguard retained. For S4, declare whether the claim concerns unauthorized action, silent loss or both. Use the [run-record template](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md).",
+          "after": "**Claim and experiment selection:** Record case-acceptance assessment, HC, HR, HS or a selected H1–H6 contrast separately from R0/R1/R2. The main document’s Section 5 governs this selection. Keep implementation/gate results and hypothesis conclusions separate; a diagnostic intervention that removes a safeguard is not an HR trial with that safeguard retained. For S4, declare whether the claim concerns unauthorized action, silent loss or both. Use the [run-record template](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md).\n\n**Research method:** use the [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [UC-21 application and recurrence contract](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-application-contract-select-the-claim-before-the-run). Case R0/R1/R2 identify comparison routes; DDS Stages A/B/C identify the research object and adjudication reference. Follow each campaign from its declared question and frozen inputs to the observations, report and returned case conclusion.",
+          "reason": "Keep the complete original claim-selection conditions and run form while linking the current DDS application/recurrence binding. Do not equate case routes, method stages or feedback steps."
+        },
+        {
+          "label": "Evidence reference in the duplication check",
+          "before": "**Existing standards or SDOs:** SPIFFE; IETF RATS (RFC 9334) and Token Exchange (RFC 8693); OASIS STIX 2.1; A2A and MCP; NIST AI RMF; scenario-specific W3C ODRL/C2PA and product mechanisms. Full primary references are in the scenario/technology files and [Annex Evidence](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md).",
+          "after": "**Existing standards or SDOs:** SPIFFE; IETF RATS (RFC 9334) and Token Exchange (RFC 8693); OASIS STIX 2.1; A2A and MCP; NIST AI RMF; scenario-specific W3C ODRL/C2PA and product mechanisms. Full primary references are in the scenario/technology files and [source-edition Annex Evidence](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md).",
+          "reason": "Keep existing-technology credit and the complete original evidence protocol; change only its destination and edition label, without making a new standards or product-capability assertion."
+        },
+        {
+          "label": "Submitted maturity versus subsequent research",
+          "before": "**Reference implementation:** None submitted as executed. Nine documentary technology profiles and four non-deployed AWS design skeletons are included. Placeholder functions and fixture integration still require implementation for a product run.",
+          "after": "**Reference implementation:** None submitted as executed. Nine documentary technology profiles and four non-deployed AWS design skeletons are included. Placeholder functions and fixture integration still require implementation for a product run.\n\n**Subsequent research:** the [recorded studies and owning reports](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports) include executed local synthetic work, including the [separate S5 state/effect companion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md). Each report identifies its tested question, evidence and conclusion. Those records complement the original documentary package described here.",
+          "reason": "Preserve the submitted hypothetical status and nine documentary profiles while allowing the reader to find actual later scoped executions; do not convert them into a native product or whole-case validation claim."
+        },
+        {
+          "label": "All original assets and protocols reached through Contributions",
+          "before": "**Link to assets:** [Main case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md), [all 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md), [current hypotheses](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), supplied figures under `assets/`, and four JSON design artifacts under `fixtures/S5-AWS/` (also printed in full in Annex T08).\n\nDirect file links for complete package navigation:\n\n- [Five-stage cascade SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)\n- [Many-to-one funnel SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)\n- [D1 source-set drift fixture](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)\n- [Ordinary ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)\n- [Reinforced ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)\n- [Trace contract JSON](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)\n",
+          "after": "**Link to assets:** [Main case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md), [all 20 annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md), [submitted hypothesis protocols](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), supplied figures under `assets/`, and four JSON design artifacts under `fixtures/S5-AWS/` (also printed in full in Annex T08).\n\nDirect file links for complete package navigation:\n\n- [Five-stage cascade SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)\n- [Many-to-one funnel SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)\n- [D1 source-set drift fixture](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)\n- [Ordinary ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)\n- [Reinforced ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)\n- [Trace contract JSON](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)\n\nThe complete [submitted package index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) retains its twenty annexes, all original figures, reading aids, JSON designs and run-record template. Use the current research guide for later additions and their own records.\n",
+          "reason": "Redirect every active original-asset destination to its byte-identical Contributions source path. Retain each original fork destination in the opening source-history fold; do not call a fixed original hypothesis edition current."
+        }
+      ],
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "UC-21 complete main-form navigation",
+      "state": "Superseded by the newer official UC21 body; do not replay this pair set",
+      "application_status": "superseded_source_not_exact_application",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "benefit": "The main form reaches all six current Challenge sources, all nine maintained profiles, the method, results and complete original protocols/assets within Contributions; the fork remains reading history only.",
+      "riskReason": "The scientific conditions and all37 rows remain literal. Edition labels and direct sources must not transfer a historical result or treat Panodyssey production facts as the synthetic00J fixture. No reorganization or new case owner.",
+      "costReason": "Read all ten form sections, current owner routes/profile lineages and three new comments; preserve eight complete literal pairs, check the source inverse, all targets/anchors and original URL destinations, and revalidate the official body before use.",
+      "dependencies": [
+        "Body must still equal this recorded source or be revalidated paragraph by paragraph",
+        "Current 00G OpenAI profile remains integrated in §17; current00H and profile versions are taken from their owners",
+        "Original48-file source custody and original manifest remain unchanged",
+        "Specific Iván GO for these eight main-form passages before changing the official Issue; no title/sector/PR merge is included"
+      ],
+      "preparation": "Eight disjoint complete old/new passages, full form candidate and exact inverse; 37 requirement rows unchanged; earlier13 fork destinations retained only in the historical fold.",
+      "gate": "Official body read 25 October updated 07:58:19UTC. Record actual partial reception and current campaign context; no wholesale replay or applied-by-this-agent claim.",
+      "supersedes_pending": [
+        144
+      ],
+      "instructions": {
+        "scope": "Read and comment the complete pasted UC-21 against current canonical sources, using one existing VNext and exact surgical old/new text; preserve all information and links."
+      },
+      "plan_history": [
+        {
+          "date": "2026-10-25",
+          "source_commit": "e79cae15cbf0f015021718f1b1a95b561643d8da",
+          "prior_state": "Pendiente de decisión",
+          "prior_decision_ready": true,
+          "prior_application_status": "pending_specific_GO",
+          "prior_gate": "Publication of the audit and plan is authorized; official main-form adoption requires the named wave GO.",
+          "prior_pairs": [
+            {
+              "label": "Opening reader route and retained source history",
+              "before": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n<details>\n<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>\n\n**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**\n\n</details>",
+              "after": "UC-21 is recorded here in FG-TIDA; the current research route is maintained in Contributions. Follow the objectives and Challenge sources into DDS, registered studies, evidence and results.\n\n**Reader update — 18 October 2026.** The route is **UC-21 → objectives → Challenges → DDS → campaigns → results**. The form below retains the submitted case and its 37 acceptance conditions; the current Challenge sources and technology profiles are linked in Section 2.\n\n**Submitted source edition in Contributions:** [complete case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md) · [twenty technical annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) · [all 48 original files](https://github.com/dakleyer/structural-awareness-contributions/tree/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails). The current research guide above leads to later studies and their results; the source edition retains the original protocols, figures and fixtures.\n\n<details>\n<summary>Original submitted case, package and twenty annexes — preserved source snapshot</summary>\n\n**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**\n\n\n\nOriginal individual links retained with that submitted edition:\n\n- [Evidence and measurement protocol](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md)\n- [Hypothesis protocols](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md)\n- [Related-case boundaries](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md)\n- [Five-stage cascade SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)\n- [Many-to-one funnel SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)\n- [D1 source-set drift fixture](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)\n- [Ordinary ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)\n- [Reinforced ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)\n- [Trace contract](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)\n- [Run-record form](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md)\n\n</details>",
+              "reason": "Make both live research and the complete submitted edition accessible through Contributions; retain all thirteen original fork destinations inside the existing historical fold."
+            },
+            {
+              "label": "Form introduction and source-edition meaning",
+              "before": "This form maps the contribution to the FG-TIDA use-case proposal fields. The complete technical entry point is [When the controls work but the system fails](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md): its main body is self-contained for selecting and scoring one experiment; [the annex index](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md) links all 20 technical annexes. This form adds no fourth route or new implementation claim.",
+              "after": "This form maps the contribution to the FG-TIDA use-case proposal fields. The complete submitted case is [When the controls work but the system fails](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md): its main body is self-contained for selecting and scoring one experiment; [its source-edition annex index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md) links all 20 technical annexes. This form adds no fourth route or new implementation claim.",
+              "reason": "The current research router and the complete historical technical case serve different purposes; label the source edition and remove the fork as an active dependency."
+            },
+            {
+              "label": "Six current Challenge sources and nine technology profiles",
+              "before": "**Residual gap:** Whether those facilities, in the declared configuration, jointly preserve the applicable decision conditions through composition, change and actual use. A configuration that does so receives full credit.",
+              "after": "**Residual gap:** Whether those facilities, in the declared configuration, jointly preserve the applicable decision conditions through composition, change and actual use. A configuration that does so receives full credit.\n\n### Challenge sources and current technology profiles\n\nThe retained S1–S6 slots identify six failure-family Challenges in this reading route. A DDS evaluation scenario maps a chosen technology/configuration to a Challenge under declared conditions. The three implementation walkthroughs are the ordinary, reinforced and same-reinforced-under-change comparison positions; the submitted package contains nine technology profiles.\n\n| Retained case slot | Current Challenge source | Current technology profile(s) |\n|---|---|---|\n| S1 / 00E | [Enterprise synthesis](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) | [Microsoft Agent 365](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [LangGraph / LangSmith](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |\n| S2 / 00F | [Shared mobility](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) | [FIWARE NGSI-LD](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [AWS IoT TwinMaker / IoT Core](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |\n| S3 / 00G | [Propagated false mission](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | [OpenAI agent stack — integrated §17](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories) |\n| S4 / 00H | [Finding beyond authority](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | [Claude Agent SDK](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [Stripe Radar + merchant authorization](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |\n| S5 / 00I | [Delayed repair](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) | [AWS Step Functions / RDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |\n| S6 / 00J | [Rights-provenance inversion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | [Panodyssey / TEMS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |\n\nThese are the maintained working sources. A recorded study keeps the source editions, comparison labels and acceptance contract under which it was registered; the complete submitted S1–S6 and T01–T09 annexes remain in the source edition linked above.",
+              "reason": "Give the main form a direct, human-readable bridge to all six current sources and nine profiles. Use integrated 00G §17, 00H v0.5, Claude/Stripe v0.4 and the 00I reader rather than stale aliases or the largest filename by assumption."
+            },
+            {
+              "label": "Related cases and current Panodyssey discussion",
+              "before": "**Related theme proposals:** No theme allocation is asserted as agreed. Related *use cases*, which are distinct from theme proposals, are linked with their boundaries in [Annex N](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md).",
+              "after": "**Related theme proposals:** No theme allocation is asserted as agreed. Related *use cases*, which are distinct from theme proposals, are linked with their boundaries in [Annex N](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/RELATED_CASES.md).\n\n**Related Panodyssey work:** the [current working crosswalk](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/cases/PANODYSSEY_THEME17_00J_UC21_TRACEABILITY_WORKING.md) distinguishes the broader publishing case from the synthetic S6/00J test. The [18 October design direction](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6253197588) prepares one separate Challenge containing three cases, with the S6 link retained where they overlap.",
+              "reason": "Preserve the related-case source; receive the three new public comments without folding the broader three-case Panodyssey proposal into S6 or treating source confirmation as experiment evidence."
+            },
+            {
+              "label": "Scientific claim selection, DDS and result return",
+              "before": "**Claim and experiment selection:** Record case-acceptance assessment, HC, HR, HS or a selected H1–H6 contrast separately from R0/R1/R2. The main document’s Section 5 governs this selection. Keep implementation/gate results and hypothesis conclusions separate; a diagnostic intervention that removes a safeguard is not an HR trial with that safeguard retained. For S4, declare whether the claim concerns unauthorized action, silent loss or both. Use the [run-record template](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md).",
+              "after": "**Claim and experiment selection:** Record case-acceptance assessment, HC, HR, HS or a selected H1–H6 contrast separately from R0/R1/R2. The main document’s Section 5 governs this selection. Keep implementation/gate results and hypothesis conclusions separate; a diagnostic intervention that removes a safeguard is not an HR trial with that safeguard retained. For S4, declare whether the claim concerns unauthorized action, silent loss or both. Use the [run-record template](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/templates/RUN_RECORD.md).\n\n**Research method:** use the [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [UC-21 application and recurrence contract](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#uc-21-application-contract-select-the-claim-before-the-run). Case R0/R1/R2 identify comparison routes; DDS Stages A/B/C identify the research object and adjudication reference. Follow each campaign from its declared question and frozen inputs to the observations, report and returned case conclusion.",
+              "reason": "Keep the complete original claim-selection conditions and run form while linking the current DDS application/recurrence binding. Do not equate case routes, method stages or feedback steps."
+            },
+            {
+              "label": "Evidence reference in the duplication check",
+              "before": "**Existing standards or SDOs:** SPIFFE; IETF RATS (RFC 9334) and Token Exchange (RFC 8693); OASIS STIX 2.1; A2A and MCP; NIST AI RMF; scenario-specific W3C ODRL/C2PA and product mechanisms. Full primary references are in the scenario/technology files and [Annex Evidence](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md).",
+              "after": "**Existing standards or SDOs:** SPIFFE; IETF RATS (RFC 9334) and Token Exchange (RFC 8693); OASIS STIX 2.1; A2A and MCP; NIST AI RMF; scenario-specific W3C ODRL/C2PA and product mechanisms. Full primary references are in the scenario/technology files and [source-edition Annex Evidence](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/EVIDENCE_AND_PROTOCOL.md).",
+              "reason": "Keep existing-technology credit and the complete original evidence protocol; change only its destination and edition label, without making a new standards or product-capability assertion."
+            },
+            {
+              "label": "Submitted maturity versus subsequent research",
+              "before": "**Reference implementation:** None submitted as executed. Nine documentary technology profiles and four non-deployed AWS design skeletons are included. Placeholder functions and fixture integration still require implementation for a product run.",
+              "after": "**Reference implementation:** None submitted as executed. Nine documentary technology profiles and four non-deployed AWS design skeletons are included. Placeholder functions and fixture integration still require implementation for a product run.\n\n**Subsequent research:** the [recorded studies and owning reports](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports) include executed local synthetic work, including the [separate S5 state/effect companion](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md). Each report identifies its tested question, evidence and conclusion. Those records complement the original documentary package described here.",
+              "reason": "Preserve the submitted hypothetical status and nine documentary profiles while allowing the reader to find actual later scoped executions; do not convert them into a native product or whole-case validation claim."
+            },
+            {
+              "label": "All original assets and protocols reached through Contributions",
+              "before": "**Link to assets:** [Main case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md), [all 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md), [current hypotheses](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), supplied figures under `assets/`, and four JSON design artifacts under `fixtures/S5-AWS/` (also printed in full in Annex T08).\n\nDirect file links for complete package navigation:\n\n- [Five-stage cascade SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)\n- [Many-to-one funnel SVG](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)\n- [D1 source-set drift fixture](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)\n- [Ordinary ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)\n- [Reinforced ASL design](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)\n- [Trace contract JSON](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)\n",
+              "after": "**Link to assets:** [Main case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md), [all 20 annexes](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/README.md), [submitted hypothesis protocols](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md), supplied figures under `assets/`, and four JSON design artifacts under `fixtures/S5-AWS/` (also printed in full in Annex T08).\n\nDirect file links for complete package navigation:\n\n- [Five-stage cascade SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_01_five_stage_cascade.svg)\n- [Many-to-one funnel SVG](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/00E/figure_00E_03_many_to_one_funnel.svg)\n- [D1 source-set drift fixture](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/fixture_d1_source_set_drift.json)\n- [Ordinary ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i0_ordinary.asl.json)\n- [Reinforced ASL design](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/i1_top_notch.asl.json)\n- [Trace contract JSON](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/fixtures/S5-AWS/trace_contract.json)\n\nThe complete [submitted package index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) retains its twenty annexes, all original figures, reading aids, JSON designs and run-record template. Use the current research guide for later additions and their own records.\n",
+              "reason": "Redirect every active original-asset destination to its byte-identical Contributions source path. Retain each original fork destination in the opening source-history fold; do not call a fixed original hypothesis edition current."
+            }
+          ]
+        }
+      ],
+      "consolidated_plan": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/DOCUMENT_CONTROL.md#1411-completed-review-unit-adjudication--25-october-2026"
+    },
+    {
+      "id": 148,
+      "date": "2026-10-23",
+      "title": "Separate the historical Stage-A source from the following DDS audits",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "source_commit": "f44d9f2ed04232124c56fb94e6dc0d9cf14616d8",
+      "source_blob": "6be23365db8cc6ed7eae1001b707156c3b4d7f0a",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "pairs": [
+        {
+          "before": "6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.````",
+          "after": "6. promote by explicit versioned commit rather than silently editing the canonical Stage A method.\n````"
+        }
+      ],
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Audit readability and historical review reception",
+      "state": "Applied — owner-authorized DC-GH-01 second assessment, 25 October 2026",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "One four-backtick closer is attached to the final source sentence. GFM therefore treats lines 1313–3008 as one code block and hides the 14 October restoration-plan heading and later audit navigation. Insert one separator LF before the existing delimiter. All 22,330 historical-source bytes and every other original byte remain exact. The five incoming plan-fragment references can then reach the intended heading. This is high impact for audit reading, not a new scientific result.",
+      "riskReason": "Bounded review-format or historical href edit; preserve quoted source bytes and distinguish historical proposed/applied states. No canonical theory, experiment or result changes.",
+      "costReason": "Literal source/inverse check, GFM boundaries, historical target validation and public readback.",
+      "dependencies": [
+        "Existing unique owner VNext",
+        "Canonical source bodies stay unchanged",
+        "Iván named wave GO"
+      ],
+      "preparation": "Complete literal units and candidate-only verification published in owner VNext.",
+      "gate": "Applied in PR26 following Iván’s named instruction for the small clarifications and second audit; no remaining incorporation gate for this exact repair.",
+      "application_source_commit": "b9499c34e8690acdc9a1d1b6f274895a94c4c4b9",
+      "application_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/26",
+      "application_scope": "Exact published units only; applied card retired with its original anchor and immutable pre-application history retained."
+    },
+    {
+      "id": 149,
+      "date": "2026-10-23",
+      "title": "Pin historical review references to the edition that contains their sections",
+      "source": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "source_commit": "f44d9f2ed04232124c56fb94e6dc0d9cf14616d8",
+      "source_blob": "c6f4de2c28dc27c0b956d783fec27eecb37ec052",
+      "vnext": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "pairs": [
+        {
+          "before": "| [Condicionar el tamaño y coste del contexto útil](../../research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |",
+          "after": "| [Condicionar el tamaño y coste del contexto útil](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |"
+        },
+        {
+          "before": "| [Mostrar todo B_Cart en el índice MSCA](../../standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-bcart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |",
+          "after": "| [Mostrar todo B_Cart en el índice MSCA](https://github.com/dakleyer/structural-awareness-contributions/blob/5c8024b8e86f01151d204ecc6b568173ffebd8e4/standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-b_cart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |"
+        },
+        {
+          "before": "One real navigation defect is in the existing Extensions VNext. An orphaned four-backtick line makes GitHub display later audits and the applied127 receipt as code. [137 in the baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) publishes the two exact passages: remove five delimiter bytes and add the dated receipt. This is a bounded repair of audit readability, with high reading impact and low risk/effort. EP’s apparent fence warning was only a parser limitation; its public headings already render correctly.",
+          "after": "One real navigation defect is in the existing Extensions VNext. An orphaned four-backtick line makes GitHub display later audits and the applied127 receipt as code. [137 in the baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-137--restore-extensions-audit-readability) publishes the two exact passages: remove five delimiter bytes and add the dated receipt. This is a bounded repair of audit readability, with high reading impact and low risk/effort. EP’s apparent fence warning was only a parser limitation; its public headings already render correctly."
+        },
+        {
+          "before": "D found one further small editorial defect: the Topology §3 title repeats its prefix. [138 in the existing baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix) removes17 repeated heading bytes, with the complete line before/after. Impact, risk and effort are low. The current semantics and body stay intact. Remaining source-container questions and review prose are still being examined.",
+          "after": "D found one further small editorial defect: the Topology §3 title repeats its prefix. [138 in the existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix) removes17 repeated heading bytes, with the complete line before/after. Impact, risk and effort are low. The current semantics and body stay intact. Remaining source-container questions and review prose are still being examined."
+        },
+        {
+          "before": "**138 is prepared, not applied.** Automatic approval review requires Iván’s specific GO for the exact Topology heading. Its complete pair remains in the [baseline review](../../research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix). The source stays unchanged while the remaining historical work continues.",
+          "after": "**138 is prepared, not applied.** Automatic approval review requires Iván’s specific GO for the exact Topology heading. Its complete pair remains in the [baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-138--remove-the-accidentally-duplicated-topology-section-heading-prefix). The source stays unchanged while the remaining historical work continues."
+        },
+        {
+          "before": "Source/context checks confirmed two more audit-reading defects left by the earlier retirement of applied cards. [139 restores normal HF audit headings](../../research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability), including the135 applied receipt. [140 restores the 00K historical audit](../../research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability), keeping its retained source excerpt as a literal quotation. Every complete old/proposed passage is in the existing baseline review. High impact here means readable audits; research claims and results do not change.",
+          "after": "Source/context checks confirmed two more audit-reading defects left by the earlier retirement of applied cards. [139 restores normal HF audit headings](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability), including the135 applied receipt. [140 restores the 00K historical audit](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-140--restore-00k-historical-audit-readability), keeping its retained source excerpt as a literal quotation. Every complete old/proposed passage is in the existing baseline review. High impact here means readable audits; research claims and results do not change."
+        },
+        {
+          "before": "[141 publishes the complete DDS quotation repair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary). One orphaned delimiter and its dated receipt are the exact scope; later legitimate quotations stay intact. Verification uses source identity, the whole-file inverse and local GFM. GitHub’s HTML API declines this2.4MB review, so the [public raw Markdown](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) is the full-source route. D’s final revised-receipt check precedes application.138 remains a separate canonical-title decision for Iván.",
+          "after": "[141 publishes the complete DDS quotation repair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-141--restore-dds-review-quotation-boundary). One orphaned delimiter and its dated receipt are the exact scope; later legitimate quotations stay intact. Verification uses source identity, the whole-file inverse and local GFM. GitHub’s HTML API declines this2.4MB review, so the [public raw Markdown](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) is the full-source route. D’s final revised-receipt check precedes application.138 remains a separate canonical-title decision for Iván."
+        },
+        {
+          "before": "[142 provides the next exact reader-route pair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation): a 403-byte paragraph containing two contextual links outside an unchanged historical A22 quotation. It does not replace the source-relative strings inside that quotation or reopen its stronger proof claim.",
+          "after": "[142 provides the next exact reader-route pair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-142--provide-working-reader-links-outside-the-retained-a22-quotation): a 403-byte paragraph containing two contextual links outside an unchanged historical A22 quotation. It does not replace the source-relative strings inside that quotation or reopen its stronger proof claim."
+        },
+        {
+          "before": "[143 publishes the complete contextual repair](../../research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations), with the full old audit 240–266 and one proposed 1,483-byte addition to the existing DDS VNext. It keeps incorporated proposals retired and current method ownership intact. Separate exact-text verification precedes incorporation. This is a historical audit omission, not a reason to restore an obsolete method or its old plans.",
+          "after": "[143 publishes the complete contextual repair](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-143--retain-the-dds-012013-review-reservations), with the full old audit 240–266 and one proposed 1,483-byte addition to the existing DDS VNext. It keeps incorporated proposals retired and current method ownership intact. Separate exact-text verification precedes incorporation. This is a historical audit omission, not a reason to restore an obsolete method or its old plans."
+        }
+      ],
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "wave": "Audit readability and historical review reception",
+      "state": "Applied — owner-authorized DC-GH-01 second assessment, 25 October 2026",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "Retirement of already-applied cards must not erase their incoming audit route. Replace only the affected hrefs with a fixed, verified pre-retirement edition; retain original prose and applied states. The MSCA historical fragment also needs its literal b_cart spelling. No card is reinstated as pending.",
+      "riskReason": "Bounded review-format or historical href edit; preserve quoted source bytes and distinguish historical proposed/applied states. No canonical theory, experiment or result changes.",
+      "costReason": "Literal source/inverse check, GFM boundaries, historical target validation and public readback.",
+      "dependencies": [
+        "Existing unique owner VNext",
+        "Canonical source bodies stay unchanged",
+        "Iván named wave GO"
+      ],
+      "preparation": "Complete literal units and candidate-only verification published in owner VNext.",
+      "gate": "Applied in PR26 following Iván’s named instruction for the small clarifications and second audit; no remaining incorporation gate for this exact repair.",
+      "application_source_commit": "b9499c34e8690acdc9a1d1b6f274895a94c4c4b9",
+      "application_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/26",
+      "application_scope": "Exact published units only; applied card retired with its original anchor and immutable pre-application history retained.",
+      "destination_revalidation": "Two old00N/MSCA headings are absent at the previously prepared e59430d pin. Corrected exact pairs were published in PR26 commit2ff1367 before incorporation;5c8024b contains both complete historical sections."
+    },
+    {
+      "id": 150,
+      "date": "2026-10-23",
+      "title": "Pin historical review references to the edition that contains their sections",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "source_commit": "f44d9f2ed04232124c56fb94e6dc0d9cf14616d8",
+      "source_blob": "411266d82e4a14f1c23562f0a7868f275fee9644",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
+      "pairs": [
+        {
+          "before": "Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](../../../../README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check.",
+          "after": "Change 139 removes the orphaned four-backtick line left by the [applied tranche-5 card retirement](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35). The original quotation remains in its [review predecessor](https://github.com/dakleyer/structural-awareness-contributions/blob/77fc61447d3f278072d13f566bbedd7ccfe245d3/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#plan-pendiente--selección-directa-de-comparaciones-hf-y-resultados-adversos). GitHub displayed the later audits and applied135 receipt as code at `bcc05db79b337cb957b9fa1b93d273f57cf7976b`. Removing that delimiter restores their headings and links while retaining all prior prose and numerical evidence. The [existing baseline review](https://github.com/dakleyer/structural-awareness-contributions/blob/e59430d264c66c3cbd8be67b9ae7b4ca067972d7/research/ecosystem-awareness/baseline/README_VNext.md#change-139--restore-hf-review-readability) owns the complete exact pair and conservation check."
+        }
+      ],
+      "impact": "Medio",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Siguiente",
+      "wave": "Audit readability and historical review reception",
+      "state": "Applied — owner-authorized DC-GH-01 second assessment, 25 October 2026",
+      "application_status": "applied",
+      "decision_ready": false,
+      "authorized_to_apply": true,
+      "positive_impact_proven": false,
+      "benefit": "Retirement of already-applied cards must not erase their incoming audit route. Replace only the affected hrefs with a fixed, verified pre-retirement edition; retain original prose and applied states. The MSCA historical fragment also needs its literal b_cart spelling. No card is reinstated as pending.",
+      "riskReason": "Bounded review-format or historical href edit; preserve quoted source bytes and distinguish historical proposed/applied states. No canonical theory, experiment or result changes.",
+      "costReason": "Literal source/inverse check, GFM boundaries, historical target validation and public readback.",
+      "dependencies": [
+        "Existing unique owner VNext",
+        "Canonical source bodies stay unchanged",
+        "Iván named wave GO"
+      ],
+      "preparation": "Complete literal units and candidate-only verification published in owner VNext.",
+      "gate": "Applied in PR26 following Iván’s named instruction for the small clarifications and second audit; no remaining incorporation gate for this exact repair.",
+      "application_source_commit": "b9499c34e8690acdc9a1d1b6f274895a94c4c4b9",
+      "application_pr": "https://github.com/dakleyer/structural-awareness-contributions/pull/26",
+      "application_scope": "Exact published units only; applied card retired with its original anchor and immutable pre-application history retained."
     }
   ],
   "audit_coverage": [
@@ -17341,6 +18012,20 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-18",
+      "source_commit": "26e5ac1bc056fd03db738794a9885af47dc62a19",
+      "scope": "Updated main-form source navigation; earlier exact source proposal remains historical and unapplied",
+      "proposal_assessments": [
+        {
+          "id": 144,
+          "state": "Superada por 147; no aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "rationale": "Change147 includes the complete main form and its eight exact body passages; do not apply both candidates."
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -23638,4 +24323,56 @@
       "audit": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#official-uc-21-and-canonical-corpus-revalidation--15-october-2026"
     }
   ]
+,
+  "uc21_main_text_review_epochs": [
+    {
+      "date": "2026-10-18",
+      "base": "26e5ac1bc056fd03db738794a9885af47dc62a19",
+      "id": 147,
+      "supersedes_pending": [
+        144
+      ],
+      "source": "https://github.com/FG-TIDA/use-cases/issues/21",
+      "official_body_sha256": "9b34324af4b36ea6f9d901c8c0ae1d404127695dff8bb0bccc8f19f090ba5e98",
+      "comments_total": 46,
+      "new_comment_ids_read": [
+        6202826500,
+        6217498268,
+        6253197588
+      ],
+      "pairs": 8,
+      "requirement_rows_unchanged": 37,
+      "all_old_URL_destinations_retained": true,
+      "current_Challenge_sources": 6,
+      "technology_profiles": 9,
+      "active_fork_routes_remaining_in_candidate": 0,
+      "form_repository_targets_checked": 55,
+      "form_fragments_checked": 7,
+      "original48source_blobs_unchanged": true,
+      "official_changes_applied": false,
+      "audit": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#complete-uc-21-main-form-source-review--18-october-2026"
+    }
+  ],
+  "corpus_integrity_recheck_epochs": [
+  {
+    "date": "2026-10-23",
+    "base": "e59430d264c66c3cbd8be67b9ae7b4ca067972d7",
+    "head": "f44d9f2ed04232124c56fb94e6dc0d9cf14616d8",
+    "path_count": 2396,
+    "changed_existing": 24,
+    "new_files": 0,
+    "deleted_files": 0,
+    "markdown_count": 1040,
+    "checker_reports": 4,
+    "live_fragment_occurrences": 16,
+    "unique_fragment_targets": 10,
+    "candidate_ids": [
+      148,
+      149,
+      150
+    ],
+    "canonical_edits_in_this_review": 0,
+    "passage_scope": "All changed textual units plus full-tree links/sections/packages; not independent scientific closure."
+  }
+]
 }

@@ -158,14 +158,6 @@ La evidencia de fuente primaria, todos los campos/consumidores de 01H/01J, repre
 
 ## Propuestas de esta lectura — viejos completos y prioridad
 
-### Cambio 52 — Calificar la cartografía al recibirla en RA
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio52 incorporado en `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
-
-### Cambio 54 — Separar rol vinculado y conducta observada al entrar en RA
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio54 incorporado en `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
-
 ## Lectura completa de Role y Composition — reevaluación de la auditoría
 
 **Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** La lectura íntegra de Role/Composition matiza52/53/54: Role§13.1 ya usa what actually does dentro del objeto estático; Composition§10.1 y conformance conserva qualifiers. Son aclaraciones de lectura aislada, no contradicciones operativas demostradas. Valoración vigente: impacto Medio/riesgo Medio/esfuerzo Medio/prioridad Siguiente, conservando viejo/nuevo y rating anterior.
@@ -241,3 +233,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 Reviewer A compared full01C and its history with Role, Composition and Operation. The current Cart_i row permits shared vocabulary but requires source question, scope, versions, freshness and evidential qualification for RA. This corrects the intermediate claim that common labels transferred support automatically. Historical redirection and scope clauses also retain current receivers; no blanket rollback is warranted.
 
 The ArchitecturalRole_i row at line133 correctly consumes the declared/static role; observed behaviour and action/effect history are separate evidence, and Operation classifies drift. The source Role line422 still said “what this participant actually does”. Change125 in the existing Role VNext selects only the phrase “the function assigned to this participant under the bound Architectural Role”. The source/consumer meaning aligns without adding a dynamic field or granting authority.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #52, #54 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #52: `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md` (current blob `ac23f699b019c874684d8dde2dd5b6679cf05c9b`); #54: `research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md` (current blob `ac23f699b019c874684d8dde2dd5b6679cf05c9b`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

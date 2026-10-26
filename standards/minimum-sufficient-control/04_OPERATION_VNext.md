@@ -58,23 +58,6 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 |---|---|---|---|---|---|
 | 37 · Conservar significado RA al entrar en Operation | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
 
-### Cambio 37 — Conservar significado RA al entrar en Operation
-
-**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera.** Que el consumidor reciba la semántica y condiciones del productor.
-
-**Qué podría quedar desactualizado o afectado:** Cambiar entrada puede alterar decisiones esperadas o interpretación histórica; un resumen más largo no prueba equivalencia de ejecución.
-
-**Qué cuesta prepararlo:** Cotejar 01C, RA, 03, 04, 01D y perfiles; ningún nuevo resultado runtime.
-
-**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [README.md](../../research/regime-awareness/README.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Tanda conjunta con 35/38, mantener scopes/versión/freshness y revisar consumidores.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](04_OPERATION_VNext.md#propuesta-antesdespués--entrada-ra-pendiente); el viejo tiene una coincidencia en [la fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
-
 ## Continuación de 01C — payloads y separación de propietarios
 
 **Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** 01C distingue ahora explícitamente en su propuesta el input de rol vinculado y la observación de comportamiento. Operation §§2–4 ya mantiene esa diferencia; el cambio 54 corrige una ambigüedad del consumidor, no crea un nuevo owner. Los cambios 52/53 separan vocabulario Cart_i compartido de calificación del resultado RA. La entrada Δ_RA y su propuesta anterior conservan su compatibilidad pendiente.
@@ -130,10 +113,6 @@ Una persona necesita ver la comparación de objetivos cuando el movimiento favor
 ATHENA y su solicitud pública de cadena/revocación se contrastan en ACC VNext: propuesta pendiente, no experimento ejecutado. La quinta está realizada para esta pregunta acotada; adaptar un protocolo exige versión, autoridad y evidencia propios. La segunda material y sexta global siguen abiertas.
 
 ## Propuestas de esta lectura — fuente y consumidor juntos
-
-### Cambio 59 — Mantener en Operation el perfil de comparación del gradiente
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio59 incorporado en `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Reapertura por nueva capacidad humana — fuente vigente
 
@@ -209,30 +188,6 @@ El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el
 
 
 
-## Propuestas aplicadas retiradas
-
-Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/04_OPERATION_VNext.md).
-
-
-
-<details>
-<summary>Historial de las propuestas incorporadas</summary>
-
-<a id="cambio-60--decir-que-p3-identifica-una-necesidad-sin-verbo-de-autorización"></a>
-<a id="revalidación-del-cambio60-contra-la-nueva-fuente"></a>
-<a id="ola-2--cambio-1-p3-identifica-una-transición-no-concede-autoridad"></a>
-<a id="113-última-oración"></a>
-<a id="ola-2--redacción-directa-del-cambio-1"></a>
-<a id="113-última-oración-1"></a>
-<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
-<a id="bloques-aplicados-retirados"></a>
-<a id="ola2-redaccion-01"></a>
-
-Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/04_OPERATION_VNext.md). Los enlaces anteriores siguen llevando a este historial.
-
-</details>
-
-
 ## Aplicación completa autorizada — 12 octubre 2026
 
 Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotejan los viejos con main y se aplica exclusivamente cada par vigente; las auditorías permanecen. Las fichas incorporadas salen de pendientes, con su predecessor Git identificable.
@@ -275,3 +230,10 @@ Current [00G v0.4 §§6/9](https://github.com/dakleyer/structural-awareness-cont
 
 A6 traced Gradient's retired competing Γ signature to the complete current Operation §11 (lines329–408, blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). The three postures and ACC/authority/capacity/horizon inputs survive with Cart, Type, role and focal MSCA context. Normal may remain appropriate under qualified nonzero change; containment classification and legitimate migration retain their separate execution gates. Threshold/hysteresis remains local. The [Gradient owner](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#bounded-gradient-history-and-posture-owner--15-october-2026) records the source-side judgment. No Operation patch or duplicate signature is needed.
 
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #37, #59 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #37: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`); #59: `standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md` (current blob `9cfd465bf74c968eea92e0ce5f95b91dbd90d1bb`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.

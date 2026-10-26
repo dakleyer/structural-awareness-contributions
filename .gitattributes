@@ -61,3 +61,6 @@ research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-c
 
 # DDS extension-home source/run replicas and prospectively frozen study bytes.
 research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/** -text
+
+# Preserve exact bytes of the bounded ACC artifact, frozen inputs and custody copies.
+/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/** -text

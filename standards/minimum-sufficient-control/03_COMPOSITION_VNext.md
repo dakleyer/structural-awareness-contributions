@@ -12,7 +12,7 @@ Conservar canon y contratos, registrar un contraste en ambos extremos, siempre v
 
 La fuente conserva Cart_i persistente en Composition y el overlay/request en RA. La frase de §14 permite consumir un slice por compartir A/B/C/D, igual que la fila 01C §5.1. Es compatible como vocabulario; no justifica por sí sola la pregunta científica receptora. Soporte de un elemento/dependencia cartográfica y soporte de una dirección RA son objetos distintos.
 
-El [cambio 52 de 01C](../../research/ecosystem-awareness/baseline/01C_VNext.md#cambio-52--calificar-la-cartografía-al-recibirla-en-ra) y el cambio 53 de esta VNext se preparan juntos. No se propone un segundo mapa ni una taxonomía. Falta un perfil de recepción que muestre qué significado/evidencia conserva y qué no.
+El [cambio 52 de 01C](https://github.com/dakleyer/structural-awareness-contributions/blob/e88120c29a17143e6ffca3ffb91ac3440cb05727/research/ecosystem-awareness/baseline/01C_VNext.md#cambio-52--calificar-la-cartografía-al-recibirla-en-ra) y el cambio 53 de esta VNext se preparan juntos. No se propone un segundo mapa ni una taxonomía. Falta un perfil de recepción que muestre qué significado/evidencia conserva y qué no.
 
 ## Conversación
 
@@ -25,10 +25,6 @@ Hay una observación editorial fuera de este contraste: el título de §3.4 apar
 Completar lecturas propias y consumidores reales, incluida actualización/overlay. La relación y propuesta quedan parciales; ningún resultado anterior se reinterpreta por esta precisión.
 
 ## Propuesta — viejo/nuevo, impacto y riesgo
-
-### Cambio 53 — Conservar la calificación al enviar Cart_i a RA
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio53 incorporado en `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ## Pasadas propias de Composition — leer el mapa completo y sus límites
 
@@ -98,10 +94,6 @@ No se estableció diferencial mediante comparación. Reutilizaría procedencia/r
 [Soporte](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). Completar fuentes/profiles/consumidores materiales. No se adopta53; reevaluación conserva la entrada previa. Sexta pendiente.
 
 ## Propuesta editorial de esta lectura
-
-### Cambio 56 — Corregir el título duplicado de D_Cart
-
-**Aplicado — autorización de Iván, 12 octubre 2026.** Cambio56 incorporado en `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md`. Fuera de pendientes. El par y su ficha anteriores se conservan en Git, predecessor `9fb9421711521decde6843b04914a143a1f04c35`.
 
 ### 3.4 D_Cart### 3.4 D_Cart — cartographic residual
 ```
@@ -187,3 +179,10 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 Reviewer A compared complete Composition (`e30c89b0cf4157918088374504941826d7c015a9`) and41 retired units. ECM→Cart retains semantic map, material dependencies, support, assessment reserves and residual through current clauses. Similarity does not create dependency; an absent edge does not prove absence of a relationship.
 
 Known but unused resources remain B; a C route must establish its evaluative basis before being treated as reachable. RA still qualifies question, scope, version, freshness and evidence. Shared A/B/C/D vocabulary does not transfer support automatically. The historical D-heading fragment remains for navigation. No cartographic mechanism needs blanket restoration in these examined units.
+
+
+## Applied-status reconciliation — 23 October 2026
+
+**Auditor: Codex. Current cut `f44d9f2ed04232124c56fb94e6dc0d9cf14616d8`.** The register marks #53, #56 **applied**. The latest retirement removed their obsolete cards, but earlier rating-table rows still call them pending. Those dated rows are historical assessments and do not authorize or require reapplication. The current status is applied; a genuinely different technical alternative keeps its own scope and decision.
+
+Source identity checked: #53: `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md` (current blob `e30c89b0cf4157918088374504941826d7c015a9`); #56: `standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md` (current blob `e30c89b0cf4157918088374504941826d7c015a9`). These source blobs are unchanged from the18October reviewed cut. This clarification preserves the historical assessment and the remaining audit; it does not change the source. The [joint integrity review](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-integrity-recheck--23-october-2026) explains the retired-card link and queue consequences.
