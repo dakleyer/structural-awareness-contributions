@@ -1179,6 +1179,20 @@
         "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md#n02-mantener-a-fuera-de-la-entrada",
         "https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#L99"
       ]
+    },
+    "navigation_reaudit": {
+      "date": "2026-10-26",
+      "baseline_head": "22f7fb9c6a257b54f1f8cb50c8d1d6163457ab4c",
+      "scope": "Full PR versus current main, distinct from the later board extension",
+      "unresolved_historical_snapshot_strings": [
+        "./DOCUMENT_CONTROL.md",
+        "./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+        "./LICENSE.md"
+      ],
+      "original_root_reading_route": "https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/CONTRIBUTING.md",
+      "snapshot_bytes_changed": false,
+      "new_live_source_route_regressions": 0,
+      "correction": "The previous zero-new-broken-routes phrase was too broad for the complete PR."
     }
   }
 }

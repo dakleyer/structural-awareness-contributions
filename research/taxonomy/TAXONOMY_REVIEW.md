@@ -724,3 +724,10 @@ These are actual exchanged positions from Corpus Github and Taxonomía, with pro
 **Still open:** the broader programme and FG-TIDA occurrence/consumer audit; H06 design; nine source adoptions; the complete authorial glossary not yet received. Initial discovery covered1,164 Markdown bodies/2,620 paths; the case audit section-read22material sources. The counts describe different kinds of work. Document CI and route scans check documentary integrity, not conceptual truth.
 
 Continue in this same PR, board and initiative. No new VNext, initiative or parallel taxonomy queue is created.
+
+
+### Historical snapshot navigation — full-PR re-audit
+
+The preceding “zero new broken routes” statement applies to the board extension against its immediate predecessor, not to every string introduced by the complete PR. The authentic preserved CONTRIBUTING copy has three relative links whose original root context is absent at the snapshot location: DOCUMENT_CONTROL, Corpus Review Procedure and LICENSE. Read the [original in its original root location](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/CONTRIBUTING.md), where all three relative links retain that context.
+
+The custody copy stays byte-exact. These three unresolved snapshot strings are disclosed, not repaired or excluded from the raw scan. The current canonical files remain present; the full-PR merge preview introduces no new unresolved live-source routes or detached files. No canonical source or snapshot is rewritten by this correction.
