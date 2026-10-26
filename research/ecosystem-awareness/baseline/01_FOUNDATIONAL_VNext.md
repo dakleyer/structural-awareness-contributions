@@ -319,3 +319,95 @@ A may be probabilistic or interval-valued. Properly qualified uncertainty is not
 ## Current 02A review route — 25 October 2026
 
 The 24 October source-owned [02A VNext](02A_VNext.md#review-ownership-and-earlier-proof-audit--25-october-2026) is the current companion for 02A. The 14 October proof-attribution audit retained here remains intact as prior 02A/02B history and as the Foundation unit’s material dependency review. The earlier statement that this file was the shared 02A destination describes that prior allocation; it does not appoint a competing current 02A shadow. Proposal 100 is applied, not reopened by this reception link.
+
+
+## Taxonomy audit and literal candidates — 26 October 2026
+
+**Audit by Codex AI assistant, for human review; baseline `1b5a07f916d3f65cf467628e2bec5b13b769a029`.** This is the existing cumulative owner VNext. The [cross-corpus taxonomy assessment](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026) explains the common axes, public sources, counter-readings, priorities and remaining H06 integration question. The private terminology email guided the question; unpublished glossary entries are not available and are not reconstructed or published.
+
+**What holds:** producer meaning, evidence, judgment, authority, capacity, timing and actual effects retain different owners and states. The following prose candidates make existing distinctions legible; they do not create another glossary, event schema or audit VNext. Related receptors are Foundation, IF-S5/S6, 01K/component, 05A and the DDS reader route as linked in the common assessment. Changes remain proposals; no source text or old audit is removed.
+
+### TAX26-01 — A hold request is not a confirmed stop
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** First. **Expected positive impact:** High. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md#L2004) · Reader's dictionary B, Theme #16 HELD. Source blob `ff5f9fc489b209aa2f9e0ca64c63421efe24a239`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The current sentence describes a stopped operation but does not state the evidence needed to infer that state. Preserve its meaning and exclude the request-to-effect shortcut.
+
+**Evidence:** https://github.com/FG-TIDA/themes/issues/16#issuecomment-6302053285
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+- **Theme #16 `HELD` (human-oversight lifecycle):** Operation is not currently proceeding while an applicable intervention, authority, evidence or reconciliation condition is handled. The state alone does not say whether the epistemic question is solved.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+- **Theme #16 `HELD` (human-oversight lifecycle):** Operation is not currently proceeding while an applicable intervention, authority, evidence or reconciliation condition is handled. The state alone does not say whether the epistemic question is solved. A hold request or its acknowledgement does not by itself establish this state, an enforced stop or the intended protective effect; those outcomes require their own observations.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+### TAX26-02 — Give readers one operational evidence-to-decision distinction
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** First. **Expected positive impact:** High. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md#L1995) · Reader's dictionary A, immediately after epistemic/operational closure. Source blob `ff5f9fc489b209aa2f9e0ca64c63421efe24a239`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The dictionary has detailed producer verdicts but no equally accessible explanation of presentation, comprehension and decision-specific sufficiency. This is a reader entry, not a new universal event schema.
+
+**Evidence:** https://github.com/FG-TIDA/themes/issues/16#issuecomment-6302053285 ; https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6301163175
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+- **Epistemic versus operational closure:** A system may legitimately restrict, defer, contain or hand off an operation while acknowledging unresolved knowledge; an operational outcome is not proof of epistemic certainty.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+- **Epistemic versus operational closure:** A system may legitimately restrict, defer, contain or hand off an operation while acknowledging unresolved knowledge; an operational outcome is not proof of epistemic certainty.
+- **Evidence-to-decision observations:** Evidence availability, presentation, human notice, comprehension, evaluator sufficiency judgment, authorized decision, execution and observed effect are distinct. Record only the distinctions supported by the applicable profile and observations; sufficiency is relative to a named claim, decision, criteria and current context. Preserve reviewer disagreement and adjudication separately.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+### TAX26-03 — Explain the two reasons for targeted reassessment
+
+**Status:** PROPOSED, NOT APPLIED. **Priority:** First. **Expected positive impact:** High. **Risk:** Low. **Effort:** Low.
+
+**Current source/location:** [research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md#L1991) · Reader's dictionary A, Requalification. Source blob `ff5f9fc489b209aa2f9e0ca64c63421efe24a239`. The complete old passage below matches once in this baseline; no source change is made by this card.
+
+**Finding and benefit:** The existing definition names dependencies and window but does not distinguish changed evidence from an enlarged decision-relevance boundary. This clarification retains the original historical finding.
+
+**Evidence:** https://github.com/FG-TIDA/use-cases/issues/20#issuecomment-6375358937
+
+**Risk and cost:** The receiving reader must retain the source's case/profile/time/authority limits. The edit is prose only; an implementer must not turn its distinctions into a new mandatory schema or silently regrade historical evidence. Effort includes checking current source, related dictionary/interface/reader passages and all incoming links. No repeated campaign or runtime migration is needed for this exact pair.
+
+**Dependencies / order:** No source-schema, oracle or frozen-result change. Apply only after Iván selects this literal pair.
+
+**Texto antes — complete current passage**
+
+````markdown
+- **Requalification:** Renewed assessment of the evidence, dependencies, window, capacity and response mapping needed to justify a decision or renewed operation. Incident resolution or another actor's approval does not by itself complete it.
+````
+
+**Texto después — complete proposed passage**
+
+````markdown
+- **Requalification:** Renewed assessment of the evidence, dependencies, window, capacity and response mapping needed to justify a decision or renewed operation. Incident resolution or another actor's approval does not by itself complete it. A change in an already represented condition and a previously unrepresented condition becoming decision-relevant are different reasons to reopen assessment. Monitoring covers its declared observable boundary; unchanged source evidence does not establish unchanged decision applicability.
+````
+
+**Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
