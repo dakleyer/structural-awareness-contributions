@@ -307,3 +307,26 @@ Source identity checked: #42: `research/ecosystem-awareness/baseline/00N_FROM_ME
 **Iván's current instruction:** promote FH-C and FH-E as canonical statements of **research hypotheses** and keep each VNext reachable through its own source only. The incorporation is now recorded in the [current integrated Foundation](01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), the [01A-A01 hypothesis source](./01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md), the [corpus README](README.md), the [corpus manifest](CANONICAL_CORPUS_MANIFEST.md) and relevant original source-level reading pointers. Earlier “proposed/not applied” paragraphs above are historical proposal receipts; their editorial promotion is now applied.
 
 **Scientific status unchanged:** FH-C is not validated causal dominance; FH-E is not validated compute saving. No frozen requirements, H1–H6, controlled historical texts or old tests are reinterpreted as proof. Cross-document navigation added in this work points to **source texts** rather than another source's VNext.
+
+
+## Recepción de la revisión anterior — 26 octubre 2026
+
+Por autorización de Iván para aplicar las correcciones de la auditoría de PR, se conserva íntegra la VNext actual de main y se recibe a continuación el examen del 12 de octubre en su alcance original. No sustituye las decisiones, incorporaciones o revisiones posteriores registradas arriba. Codex realiza esta conciliación; no se añade una revisión humana independiente ni una validación experimental.
+
+## Revisión en cuatro puntos — R26 / 00N — 12 octubre 2026
+
+**Revisión completada para esta nota; investigación y verificación de implementación abiertas.** Se conserva toda la VNext previa y se reutiliza la lectura integral registrada. Fuente examinada en el corte histórico: blob490a41655d5e38b526f282cccbcb13e65606f1ff, v0.7, fijada en09fc270abfcc8efc3efdcee2279b80e145db55d5. Este cierre se refiere a los cuatro puntos solicitados; no cierra automáticamente las pasadas bibliográficas, visuales o de conciliación global de otros planes.
+
+### 1. Problemas reales del artículo
+No se encontró una contradicción en el puente condicionado. La regla de compatibilidad está suministrada en el caso “ready”; una versión distinta sin esa regla no sería refutación. La fuente separa ganancia informativa, mejora de decisión, plazo y autoridad, y reconoce que las fuentes compartidas no son independientes. Las precisiones de “small”, ruta de lectura y “local draft” constan corregidas por las ediciones autorizadas ya presentes enmain. Se conserva el relato previo como historia, sin volver a presentarlas como problemas actuales. No aportan por sí mismas una nueva validación matemática o experimental.
+
+### 2. Desarrollo necesario
+Caracterizar materialidad, semántica receptora, coste de todo el ciclo y factibilidad dentro de un plazo independiente; conservar check-to-use. Las fuentes R10/R11 anteriormente accesibles sólo en vista previa siguen con cobertura bibliográfica limitada, y los consumidores extensos no quedan certificados por esta revisión. Para una comparación estadística, fijar distribución, dependencias entre fuentes y medida de información; diversidad nominal no basta.
+
+**Reformulación mínima.** Si un dato D modifica una disposición legítima a*(x), y un resumen E conserva a*, la representación puede ser suficiente para esa tarea. Su beneficio neto requiere que utilidad de la nueva disposición menos coste de adquisición/verificación/respuesta exceda la alternativa competente. Ejemplo: localizar una reserva de evaluación con coste2 y beneficio esperado1 no produce ganancia neta; localizarla tampoco concede permiso. Es un cálculo del perfil, no un defecto del antecedente information bottleneck.
+
+### 3. Aportación posible a DDS
+Stage A: separar T1/T2 informativos de T3 respuesta legítima y T4 recursos/plazo. Probar caso con ganancia informativa pero disposición igual y caso con respuesta distinta pero permiso ausente. Stage B: implementar grounds, correspondencia y vigencia al uso. Stage C: medir efectos y costes reales con el baseline usando idéntica información. No se incorporan requisitos nuevos por esta anotación ni se revalidan fixtures históricos con otro vocabulario.
+
+### 4. Sinergias internacionales actuales
+El grupo FORGE 2026 (https://arxiv.org/abs/2602.16708v3) puede aportar enforcement/observation contracts; nosotros un perfil donde descubrimiento oportuno y disponibilidad de respuesta se distinguen. Primer contraste: aviso cierto pero expirado antes del efecto frente a aviso vigente. Nulo: su contrato ya cubre ambos. Dahal y coautores, Thinking Before Thinking (https://arxiv.org/abs/2609.38147v1, 29 septiembre2026), investigan control de cómputo y compactación de memoria con comparadores igualados. Podemos aportar pérdida de qualifiers materiales y coste de revalidarlos; ellos aportan harness y presupuestos explícitos. Primer estudio: mismo worker/presupuesto, memoria compacta con/sin qualifiers de alcance, coste de controlador incluido. Nulo: mayor carga sin mejores disposiciones o seguridad. Fuente reciente verificada; implementación no reproducida ni contacto realizado.

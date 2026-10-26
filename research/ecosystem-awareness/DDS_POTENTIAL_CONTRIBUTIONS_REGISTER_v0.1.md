@@ -1,10 +1,10 @@
 # DDS Potential Contributions Register
 
-**Version:** 0.2 · **First published:** 12 October 2026.  
+**Version:** 0.4 · **First published:** 12 October 2026.  
 **Status:** living research-candidate register; source-backed proposals, not adopted DDS requirements or established differential results.  
 **Prepared by:** Codex AI assistant, at Iván Abril Palma's request to investigate and accumulate possible contributions and their sources. This is not an independent human review.  
 **Owning method:** [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). The Stage A/B/C contracts retain authority.  
-**Source cut:** public technical corpus at `eb5d66d7e22dc18f093ee33fcd564e1fac6d2338`; available R01–R21 and D01–D20 individual review records at the dated 12 October 2026 custody audit. Source completeness remains claim-specific.
+**Initial source cut (historical):** public technical corpus at `eb5d66d7e22dc18f093ee33fcd564e1fac6d2338`; available R01–R21 and D01–D20 individual review records at the dated 12 October 2026 custody audit. Source completeness remains claim-specific.
 
 ## 1. What this register contributes
 
@@ -12,7 +12,7 @@ DDS can benefit from the two article-review initiatives in several concrete ways
 
 The historical mathematical initiative contributes definitions, conditional lemmas, countermodels and proposed constructions. The other article initiative contributes organizational research questions, measurement proposals, field reconstructions and conjectures. Their scientific objects remain different. A mathematical theorem is not measured human behavior; a simulation is not a company outcome; a common case does not make their evidence independent.
 
-The register currently contains **20 candidate contribution families** with a crosswalk to the **41 available review identities**. It is a first deep synthesis of those reviewed sources and current DDS interfaces, not a claim that every original article has been completely proved or that no other contribution remains to be found. R22–R29 and unexamined parts of compound sources remain future source work. New candidates are added here under stable identifiers rather than by making a second competing contribution register.
+The register currently contains **26 candidate contribution families**, including DDS-PC-021–026 from the nineteen external works reviewed in the completion packet. The original 41-identity crosswalk is a historical starting cut, not the current coverage total. R22–R29 have their dated review routes below; unexamined source sections and the full primary texts of T06B and T08 remain open. This is a synthesis of scoped reviews and proposed transfers, not a proof of every original article or closure of DDS stages. New candidates retain stable identifiers in this same register.
 
 ### What counts as a contribution
 
@@ -71,6 +71,13 @@ A comparison must predeclare required correctness/risk limits and resource/laten
 | [DDS-PC-018](#dds-pc-018) | Back-action and independently observed feedback | R13 R21 D09 D10 D14 D20 | P2 |
 | [DDS-PC-019](#dds-pc-019) | Prospective transfer and comparable evidence across time | R10 R13 R19 D12 D13 D18 D19 | P3 |
 | [DDS-PC-020](#dds-pc-020) | Retention and recovery of human capability | D03 D04 D07 D12 D20 | P3 |
+
+| [DDS-PC-021](#dds-pc-021) | Typed awareness and unknown coverage | T01A T01B T01C T02 | PROPOSED; priority not assigned |
+| [DDS-PC-022](#dds-pc-022) | Knowledge, provenance and authorized partial composition | T03 T04A T04B T05 | PROPOSED; priority not assigned |
+| [DDS-PC-023](#dds-pc-023) | Decision-specific information and acquisition cost | T06A T06B T07 | PROPOSED; priority not assigned |
+| [DDS-PC-024](#dds-pc-024) | Distributed awareness with human response and authority | T08 T10B T10C | PROPOSED; priority not assigned |
+| [DDS-PC-025](#dds-pc-025) | Explicit observation, inference and intervention kernels | T09A T09B T10A | PROPOSED; priority not assigned |
+| [DDS-PC-026](#dds-pc-026) | Agent reflection with actual safety and utility controls | T11A T11B | PROPOSED; priority not assigned |
 
 ## 5. Detailed candidate contributions
 
@@ -698,3 +705,115 @@ This continuation strengthens existing candidate families; it does not create ni
 3. **Time and shared dependencies:** validity can return after a regime departure; one rule can cover many states; a shared historical anchor does not establish a correlation coefficient; a transient load burst is not infinite backlog. Record actual contracts, rule semantics, dependence evidence and time window before accepting those deductions.
 
 Stage A can use these specifications and negative controls. Stage B/C require actual architecture/implementation evidence under the same competent comparator, with ties, harms and unavailable routes retained. Current contacts are potential research routes only. Source originals, existing candidate cards and DDS canonical stage definitions are unchanged.
+
+
+## 12 October completion — additional contributions from nineteen distinct external works
+
+This adds source-backed **candidates**, retaining the canonical DDS Stage A/B/C contracts and all earlier cards. Review status does not establish adoption or differential benefit. Sources and coverage are linked individually in the [article review annex](../structural-awareness/ARTICLE_REVIEW_ESSENTIALS_v0.1.md); full records are in [private review PR4](https://github.com/dakleyer/structural-awareness-workbench/pull/4). Seventeen source reviews have completed within their declared scope; T06B and T08 still need full primary text. The expanded R02/R22/D28 and existing R25–R28 reviews retain one primary record each.
+
+<a id="dds-pc-021"></a>
+
+### DDS-PC-021 — Typed awareness and unknown coverage
+
+**Sources:** [T01A primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T01A_2026-10-12_v0.1.md), [T01B primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T01B_2026-10-12_v0.1.md), [T01C primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T01C_2026-10-12_v0.1.md), [T02 primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T02_2026-10-12_v0.1.md). **Existing families:** DDS-PC-006/009.
+
+**Potential transfer:** Represent the agent's language, awareness carrier and admissible state-space separately from its belief and permission. Awareness growth changes which propositions can be expressed; UNKNOWN is not false.
+
+**Stage A obligation, comparator and first contrast:** Freeze a two-agent finite task and append a previously unavailable predicate. Compare an HMS/Fagin–Halpern competent typed model and a provenance-aware monitor against the proposed contract. Check no inference or authorization is introduced by mere carrier enlargement.
+
+**Acceptance limit, null and further work:** Reject any universal conservativity claim that fails at the awareness-language boundary. Null: the baseline supplies the same safety and cost, or richer awareness increases acquisition burden without useful action.
+
+<a id="dds-pc-022"></a>
+
+### DDS-PC-022 — Knowledge, provenance and authorized partial composition
+
+**Sources:** [T03 primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T03_2026-10-12_v0.1.md), [T04A primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T04A_2026-10-12_v0.1.md), [T04B primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T04B_2026-10-12_v0.1.md), [T05 primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T05_2026-10-12_v0.1.md). **Existing families:** DDS-PC-002/003/008.
+
+**Potential transfer:** Combine communication assumptions, sound abstraction, counterexample refinement and the domain restriction of a partial evidence map. Define when transported evidence remains admissible, with provenance retained.
+
+**Stage A obligation, comparator and first contrast:** A three-state contract should compare a competent CEGAR/policy implementation and a restriction-category specification under identical permissions. Preserve explicit failure witnesses, not just successful images.
+
+**Acceptance limit, null and further work:** Finite restriction/associativity checks support only the chosen carrier. Null: no improvement beyond the mature baseline, counterexample repair has prohibitive cost, or evidence valid at one hop fails requalification at the next.
+
+<a id="dds-pc-023"></a>
+
+### DDS-PC-023 — Decision-specific information and acquisition cost
+
+**Sources:** [T06A primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T06A_2026-10-12_v0.1.md), [T06B primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T06B_2026-10-12_v0.1.md), [T07 primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T07_2026-10-12_v0.1.md). **Existing families:** DDS-PC-001/010/013.
+
+**Potential transfer:** Use an explicitly normalized information bottleneck for declared relevance, compare experiments by their decision problems, and charge metareasoning/acquisition overhead. Correct IB localized equations before implementation; Blackwell's full source review remains open.
+
+**Stage A obligation, comparator and first contrast:** Freeze a task family, loss, channel and budget; compare lossless task-sufficient evidence, IB and a budget-aware metacontroller. Separate expected utility, mutual information, computation cost and physical energy.
+
+**Acceptance limit, null and further work:** Null: relevance gains do not survive distribution shift, or overhead cancels value. Blackwell-order transfer remains a candidate until full primary text and hypotheses are checked; no equivalence theorem is promoted from an abstract.
+
+<a id="dds-pc-024"></a>
+
+### DDS-PC-024 — Distributed awareness with human response and authority
+
+**Sources:** [T08 primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T08_2026-10-12_v0.1.md), [T10B primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T10B_2026-10-12_v0.1.md), [T10C primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T10C_2026-10-12_v0.1.md). **Existing families:** DDS-PC-011/012/020.
+
+**Potential transfer:** Record which actor can observe, interpret and act before the window closes. Separate released hours, expert capability, willingness and actual authority; laboratory acceptance training does not prove institutional capacity.
+
+**Stage A obligation, comparator and first contrast:** Compare the same simulated escalation task under a mature DSA/resilience model, skills-and-rights baseline and the DDS candidate. Measure response latency, correct action, workload and avoidable harm, not awareness scores alone.
+
+**Acceptance limit, null and further work:** Null: trained observation does not improve authorized action, or human cost rises. T08 is provisional until full primary source is recovered. No workplace, clinical or participant study has been initiated.
+
+<a id="dds-pc-025"></a>
+
+### DDS-PC-025 — Explicit observation, inference and intervention kernels
+
+**Sources:** [T09A primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T09A_2026-10-12_v0.1.md), [T09B primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T09B_2026-10-12_v0.1.md), [T10A primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T10A_2026-10-12_v0.1.md). **Existing families:** DDS-PC-018/019.
+
+**Potential transfer:** Keep observed experience, latent-state belief, attention allocation and physical intervention in separate typed maps. An inverse-model cartoon is not an exact matrix inverse or evidence that the biological kernel is identified.
+
+**Stage A obligation, comparator and first contrast:** Use a reproducible finite Bayes kernel and an intervention/observation protocol, comparing a competent active-inference baseline. Separate information-theoretic free energy from joules and preserve source edition boundaries.
+
+**Acceptance limit, null and further work:** Null: proposed distinctions are already provided by the baseline or do not change predictions. Caption correction does not refute the surviving model. No neural fit, meditation mechanism or Stage B/C result is claimed.
+
+<a id="dds-pc-026"></a>
+
+### DDS-PC-026 — Agent reflection with actual safety and utility controls
+
+**Sources:** [T11A primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T11A_2026-10-12_v0.1.md), [T11B primary review](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T11B_2026-10-12_v0.1.md). **Existing families:** DDS-PC-004/017/018/020.
+
+**Potential transfer:** Study explicit reflection and contextual understanding as controlled agent components, while recording which actor benefits and what constraint forbids an action. Pilot scores and joint reward are not architectural alignment or individual non-harm.
+
+**Stage A obligation, comparator and first contrast:** Use ablations with the same model/tools/budget, competent FORGE/ControlArena policy controls, reflection component toggled, and adversarial context changes. Report individual harm, retained utility, refusals, latency and overhead. MindfulAgents' two-arm design does not isolate the Reflection component.
+
+**Acceptance limit, null and further work:** Null: benefits disappear under matched baselines, or total reward rises while one actor is harmed. Existing contemplative-AI pilots are acknowledged, not replicated; OSF appendices and final-edition concordance remain explicit limits.
+
+**Evidence custody:** [Finite tests](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/review-tests/FINITE_THEOREM_TRANSFER_CHECKS_2026-10-12.mjs) and [results v0.3](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/review-tests/FINITE_THEOREM_TRANSFER_RESULTS_v0.3_2026-10-12.json): 12,482 reviewer assertions, plus all 262,144 separately counted associativity triples on the 64 partial maps of a three-element carrier. These do not establish an unrestricted theorem, comparative field utility or DDS deployment. Source originals, independent approval, contacts and published pilot experiments remain distinct.
+
+**Current reciprocal work:** awareness/AGM revision by Schipper (February2026), budgeted metareasoning by Dahal/Goyal and colleagues (September2026), active-inference/advanced-meditation modelling by Tal/Prest and colleagues (2026), and MindfulAgents at CHI2026. Each detailed Drive synergy fiche specifies reciprocal contribution, matched first study, null, source and public research route. No outreach or agreement is claimed.
+
+
+## Finding-to-DDS acceptance crosswalk (12 October 2026)
+
+**Current synthesis v0.3 — concrete findings retained as acceptance constraints.** The [localized findings register](../structural-awareness/ARTICLE_REVIEW_ESSENTIALS_v0.1.md#localized-findings-register-12-october-2026) states each actual error, surviving result and development obligation. The links below lead directly to the same full reviews. This crosswalk adds the exact DDS consequence of those findings to the existing candidate cards; it does not create a second audit or modify a frozen DDS requirement.
+
+| Finding / primary review | Existing candidate family | Required condition or negative control | Strong comparator and outstanding obligation |
+|---|---|---|---|
+| [F01](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R07_PRACTICAL_INCOMPLETENESS_v0.1.md) | DDS-PC-005 | Specify the quantified program family and proof certificate separately from elapsed search time. Negative control: a partial program with a decidable domain. | A competent static analyzer or proof/certificate checker with explicit UNKNOWN; require a reduction for an undecidability claim. |
+| [F02](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R19_DUAL_ARROWS_TIME_COMPUTATIONAL_THERMODYNAMICS_v0.1.md) | DDS-PC-018, DDS-PC-019 | Check the declared equilibrium, eigenvalue signs, units and observation window before admitting a dynamical guarantee. A sign repair is a changed model. | A correctly signed ordinary dynamical model under the same rates and horizon; physical bounds require an independent task-specific derivation. |
+| [F03](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R16_COMPUTATIONAL_EXERGY_v0.1.md) | DDS-PC-010, DDS-PC-013 | Freeze expression, weights, units, codec and budget; record which conclusions depend on the convention. Keep information measures separate from joules. | A competent coding/reuse cost model with the same evidence and budget; check whether the correction changes ordering, magnitude or decisions. |
+| [F04](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R21_LOGIC_FIELDS_CRITICISM_RESPONSE_v0.1.md) | DDS-PC-008 | Attach version, formula/theorem locator and supporting implication to each proof dependency. Revalidate all descendants of a repaired dependency. | A mature provenance/dependency tracker and an actual proof replay; a corrected reference by itself does not close a proof. |
+| [F05](https://docs.google.com/document/d/1wgFHAKE9sZFWrgvCIe4HUcK5cO3tuSidC2q24BVEFKU/edit) | DDS-PC-001, DDS-PC-010 | Freeze the scoring edition, scale and classification rule. Retain a case where the two versions reverse ordering as a negative control. | The same cases scored with each declared version, plus a competent validated scoring instrument; instrument reliability remains development. |
+| [F06](https://docs.google.com/document/d/1Z9nTWLguNv2ep2pPIxAYD-0hHpRWMdCqw5sXSRlSVKE/edit) | DDS-PC-016 | Declare predicted signs and refutation thresholds before the contrast. Separate observation, mechanism and counterfactual causal necessity. | A competent causal design with the same permissible action set; require a necessity contrast rather than a selection association alone. |
+| [F07](https://docs.google.com/document/d/12GPkA8fYZvqIrhsC1SF2mg9-JStmbJPeYy4wcBJU7jc/edit) | DDS-PC-006, DDS-PC-009 | Declare population, sampling frame and capture conditions; retain structurally invisible systems and report bounds or non-identification when needed. | A qualified capture-recapture model with heterogeneous/zero detection sensitivity; compare under identical data and population assumptions. |
+| [F08](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R02_TRIADA_FUNDAMENTAL_v0.1.md) | DDS-PC-003, DDS-PC-004, DDS-PC-005 | Specify the consequence relation, nonempty witness conditions, map domain and balance law separately. Do not infer physical conservation or authority from reference stability. | Competent nonexplosive logic, typed partial-map and policy models; a computable many-to-one map is a negative control for the overbroad implication. |
+| [F09](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R22_ACCEPTANCE_OF_PARADOX_v0.1.md) | DDS-PC-005, DDS-PC-006, DDS-PC-010 | Declare the probability space, entropy notion, consequence relation, algorithm and permitted channel. Distinguish unknown outcome from noncomputable distribution. | Normalized finite probabilistic kernels and competent coding/quantum models; Bernoulli(.1), a pure state and a reset channel expose the overly broad identifications. |
+| [F10](https://docs.google.com/document/d/17Q72rYRLNpuHcm8o05s-c3MpKKBZ01a4fr_PxSNh4Gw/edit) | DDS-PC-001, DDS-PC-013, DDS-PC-019 | Fix null action, competitor, state scope, stakeholder utility and horizon. Require consistent boundary/tie rules and witnesses for both partition classes. | A competent detector under the same context and costs. Preserve safe=(0,1), null=(0,0), competitor=(-1,100) as a counterexample to comparative dominance, not to non-inferiority. |
+| [F11](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T06A_2026-10-12_v0.1.md) | DDS-PC-023 | Type every conditional and summation index before implementation. Verify the constant-Z, fair-X control: H(X given Z)=1 and H(Z given X)=0. | A correctly implemented ordinary information bottleneck under the same relevance target and budget; no automatic uniqueness or physical-energy claim. |
+| [F12](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T09A_2026-10-12_v0.1.md) | DDS-PC-025 | Keep observation, latent-state inference and intervention maps typed separately. Check rectangular dimensions and posterior normalization. | A competent finite Bayesian/active-inference model; include an example whose posterior does not reconstruct the observed one-hot vector by likelihood multiplication. |
+| [F13](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T11A_2026-10-12_v0.1.md) | DDS-PC-026 | Bind each estimate/p-value to its endpoint, population and contrast. Distinguish package effect, component effect and clinical/agent safety. | Matched model/tools/budget and component ablations against the same competent agent; retain cases with equal within-group gains and zero between-group difference. |
+| [F14](https://github.com/dakleyer/structural-awareness-workbench/blob/4b617eacb4079704197bc63d423685b7b637d380/02-workstreams/ecosystem-awareness/07-field-notes/third-party-reviews/REVIEW_T11B_2026-10-12_v0.1.md) | DDS-PC-026 | Declare actor-specific utilities and constraints. Retain the Always-Defect counterexample where total payoff rises while the focal actor's payoff falls. | A competent constitution/policy baseline with matched resources; per-actor harm, permission and retained utility are separate outcomes. External OSF appendices remain a reading limit. |
+| [F15](https://docs.google.com/document/d/11PTvtGWFmOAgDm8y8cQvRm6Zi3JYV2fDoxbNK6KjX6w/edit) | DDS-PC-014 | Build fixtures from the actual source's allowed provisional actions and distinguish discovery from an irreversible declaration/commitment. | A competent reversible-exploration and decision-rights baseline; no claim of experimental superiority until the prospective authority/capacity contrast is run. |
+
+**How to use these findings:** Stage A can propose explicit scopes, symbols, witness requirements, failure cases and acceptance tests. A universal impossibility, physical guarantee, causal necessity, comparative utility or agent safety claim requires its own proof or measurement under the declared assumptions. Stage B needs actual verification of the specified architecture; Stage C needs actual implementation/field evidence against the same competent comparator. Passing a finite reviewer fixture closes only that fixture. No stage is closed by this crosswalk.
+
+**Research and reciprocity:** the full reviews retain the fourth required point and the detailed [DDS Drive synergy document](https://docs.google.com/document/d/1vihLCCANJWzvzlONzIUMVzNa1JbRLPq7pMvnUmFCdMA/edit) specifies current two-way work, first contrast, null and public route. Findings offer useful negative controls to strong peers; they do not establish contact, endorsement or an accepted collaboration.
+
+**Source gaps and corrected objections:** T06B/Blackwell1953 andT08/Salmon–Plant2022 remain provisional pending full primary text; no general theorem is admitted from an abstract. F15 records withdrawal of a review objection, so its forbidden-action fixture must not be imposed on a source that explicitly allows reversible exploration. Preserve the distinction between localized negative findings, open development and corrected reviewer readings.
+
+**Ongoing storage:** every future essential finding goes in the same public review annex and its corresponding DDS condition goes here, with primary review/source route, existing candidate ID, comparator, null and evidence scope. Definitions, proofs or tests that are still needed stay open development obligations. Source originals, exact predecessor snapshots, private-source access and the final README annex remain preserved.
