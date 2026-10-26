@@ -7,6 +7,8 @@
 
 ¿Puede un agente **seguir teniendo más bienes y servicios**, **sufrir más que antes**, pensar que el futuro del régimen actual será peor y, sin embargo, **elegir racionalmente no abandonarlo** aun cuando el rediseño ofrezca **mayor retorno esperado**?
 
+**Segunda pregunta (ampliación):** ¿puede, además, **gastar esfuerzos o recursos en defender activamente el modelo que le hace sufrir**, sin que esto implique satisfacción, optimismo ni mejora del óptimo social? La elección entre S, R y D requiere una hipótesis adicional y verificable sobre el efecto de la defensa.
+
 **Sí, como posibilidad matemática condicionada.** No requiere que el agente desee sufrir ni que aumente su aversión al riesgo; basta una distribución de resultados de salida suficientemente más dispersa que la de permanencia, bajo un criterio declarado de preferencia ante riesgos.
 
 Esto NO prueba que ocurra así en un país, una generación o toda sociedad. Tampoco demuestra que **más producción cause** más varianza: la relación entre escala, interdependencia, brecha y riesgos es hipótesis separada que habría que identificar.
@@ -18,6 +20,7 @@ Esto NO prueba que ocurra así en un país, una generación o toda sociedad. Tam
 - B y W=B−F requieren que B no contenga ya F; no sumar dos veces C, HID, trabajo compensatorio, incomodidad ni costes financieros.
 - Una trayectoria futura R pertenece al análisis decisional sólo cuando su factibilidad material y derechos están declarados. Un cálculo CE favorable no autoriza acciones o redistribuciones. La probabilidad de elección no es la probabilidad de éxito.
 - Los PR #42–#45 ya contienen rendimientos, utilidad no monótona, acoplamientos, observabilidad y sufrimiento estructural. **RAV-01 no los redefine ni introduce otro esquema Pareto.**
+- El PR #43 identifica un **sufrimiento estructural** solo con requisitos conjuntivos (potencial bloqueado, contribución positiva, codependencia externa e indeterminación); su resultado no se deduce de F, una brecha genérica o del nuevo L individual.
 
 ## 2. Testigo formal que se puede refutar
 
@@ -63,6 +66,24 @@ La hipótesis distingue **riesgo del salto** de seguridad real, apego a las pers
 
 La sierra, las rotondas y el contrato social son metáforas motivadoras, **no variables observadas**. No se necesitan más casos anecdóticos para demostrar esta posibilidad algebraica.
 
+
+### 4.1. Tercera decisión: defender el contrato y reconocer utilidad no realizada
+
+La explicación de la permanencia no debe confundirse con la defensa activa. Introducimos una tercera política **D**, distinta de no actuar **S** y rediseñar/salir **R**. D supone un coste propio k declarado fuera de su resultado, y una lotería X_D que modifica **de verdad** o, en un ensayo de creencias, **según creencia declarada**, la continuidad para el mismo actor. El testigo compara tres equivalentes ciertos:
+
+~~~text
+CE_S=μ_S−(γ/2)σ²_S
+CE_R=μ_R−(γ/2)σ²_R−C
+CE_D=μ_D−(γ/2)σ²_D−k
+D > S si (μ_D−μ_S)+(γ/2)(σ²_S−σ²_D)>k
+~~~
+
+En el **mismo corte posterior**, S=(14,4), CE=13; R=(25,64), CE=9; D=(14,1), k=0,5, CE_D=13,25. En este testigo se **defiende activamente** el contrato, aun reconociendo un resultado medio mayor de R, el F sintético creciente y un mal pronóstico del próximo periodo. **D que no cambie ni media ni varianza y cueste dinero está dominada por S**; la resistencia observada en ese control sería evidencia en favor de otra explicación, no de la nuestra.
+
+Es distinto constatar un sufrimiento vivido **F** de reconocer que, para **esta persona y un mismo horizonte**, una alternativa **conjunta y legítimamente factible** podría ofrecer mayor utilidad cardinal: **L=max(0,u_factible−u_realizada)**. L es una **pérdida económica contrafactual de utilidad**; llamarla «sufrimiento económico» es una convención operacional que **no valida automáticamente** sufrimiento subjetivo. La asociación de L reconocido con F reportado es hipótesis empírica abierta. Si la factibilidad no está acreditada, L es **NOT_IDENTIFIED**. No equipararla con Gᵀ/Gᴳ, HID ni el sufrimiento estructural conjuntivo del PR #43. En el escenario sintético se estipula utilidad realizada 17, referencia factible 21 y L=4; no se han identificado esas magnitudes para personas reales.
+
+**Literatura y delimitación:** [Investigación comparativa y diseño de falsación](COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md) contiene la tabla con ocho trabajos primarios, lo que compartimos, lo que explicamos de otro modo y lo que el PR **no** predice. Los antecedentes ya estudian sesgo de statu quo, opciones de esperar, justificación del sistema, compromiso creciente, ingresos relativos y aspiraciones. El aporte candidato es **formular conjuntamente y someter a contrapruebas** L, F, distribución de riesgo, elección S/R y acción D, sin reivindicar el fenómeno como original.
+
 ## 5. Qué podría refutar la explicación
 
 | Control | Mantener constantes | Variación / expectativa | Consecuencia |
@@ -72,21 +93,25 @@ La sierra, las rotondas y el contrato social son metáforas motivadoras, **no va
 | Rediseño reversible/protegido | Medias, γ | Menor Var(R) y/o menor C | Puede volverse preferible R |
 | Retorno esperado mucho mayor | Varianzas, γ y C | Aumentar μ_R | Se invierte preferencia |
 | Pronóstico actual negativo | Horizonte y escala | μ_S futura por debajo del resultado actual | Permanencia sigue siendo posible, no necesaria |
+| Defensa costosa sin protección | Misma μ_D=μ_S y Var(D)=Var(S), k>0 | D dominada por S | Si D se elige aun así, buscar mecanismos fuera del riesgo económico simple |
+| Defensa protectora | γ, μ_S, R, costes y unidad | Reducir Var(D) lo suficiente con k observable | Puede elegirse D y no solo S, pero no garantiza eficiencia social |
+| Utilidad perdida factible | Referencia personal y derechos/recursos equiparados | Elevar L reconocida sin cambiar automáticamente F | Medir F aparte; sin contrafactual válido L queda NOT_IDENTIFIED |
 | Ganancias netas y malestar | B y F independientes | F crece con curvatura, B lo supera por intervalos | W puede seguir aumentando; no es identidad universal |
 | Incertidumbre abierta | B/C/D cualificaciones | No existe distribución calibrada | NO asignar γ·σ² inventado ni tasas de salida |
 | Derechos y factibilidad | Conjuntos Fᵀ/Fᴳ | Ruta R no autorizable o no alcanzable | No inferir elección libre entre dos opciones equivalentes |
 
 ### Identificación empírica pendiente
 
-Registrar antes del experimento horizonte, persona/población, bienestar y recursos, distribución objetiva y distribución **creída**, incertidumbre no probabilizable, transición real, su reversibilidad, costes, derechos y decisión observada; medir F con instrumento humano independiente. Distinguir utilidad relativa y absoluta, aversión al riesgo γ, sensibilidad κ y vínculos/identidad. Comparar con modelos de utilidad alternativa (p. ej. CRRA), colas pesadas, pérdidas de subsistencia, aversión a pérdidas y valor de esperar; todos pueden cambiar o derrotar el testigo.
+Registrar antes del experimento horizonte, persona/población, bienestar y recursos, distribución objetiva y distribución **creída**, incertidumbre no probabilizable, transición real, su reversibilidad, costes, derechos y **las tres decisiones S/R/D**; medir F con instrumento humano independiente. Para D, registrar gasto, protección real o percibida, identidad/vínculos y posibles costes impuestos a terceros. Contrastar L solo bajo utilidad cardinal comparable, alternativa factible y derechos preservados. Distinguir utilidad relativa y absoluta, aversión al riesgo γ, sensibilidad κ y vínculos/identidad. Comparar con modelos de utilidad alternativa (p. ej. CRRA), colas pesadas, pérdidas de subsistencia, aversión a pérdidas y valor de esperar; todos pueden cambiar o derrotar el testigo.
 
 Para afirmar *causalidad* del tamaño de la cordillera sobre permanencia hacen falta evidencias adicionales: crecimiento de la dispersión **diferencial** del cambio respecto a seguir, sin confundirlo con mera volatilidad temporal o aumento de G. El resultado social puede ser subóptimo pese a una elección individual localmente racional. No inferir bienestar humano, aprobación institucional ni aplicación operativa desde este toy.
 
 ## 6. Reproducción y propiedad
 
-- [risk_model.py](risk_model.py): módulo estándar puro (sin paquetes externos) con resultados esperados, equivalentes ciertos, prima de riesgo y logit opcional, validación de parámetros.
-- [test_risk_model.py](test_risk_model.py): **24 controles deterministas** de identidades, casos adversos, mala predicción compatible y contrapruebas que favorecen salir.
+- [risk_model.py](risk_model.py): módulo estándar puro (sin paquetes externos) con resultados esperados, equivalentes ciertos, prima de riesgo, utilidad individual factible perdida, tercera defensa D, logit binario y softmax ternario opcionales, y validación de parámetros.
+- [test_risk_model.py](test_risk_model.py): **40 pruebas deterministas** de identidades, permanencia, defensa activa, contrapruebas de defensa inútil, utilidad contrafactual no identificada y controles favorables a salir.
 - [REFERENCE_SYNTHETIC_RESULTS.json](REFERENCE_SYNTHETIC_RESULTS.json): salida reproducible marcada como `SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL`.
+- [COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md](COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md): comparación crítica con ocho obras primarias, alcance, no predicciones, matriz factorial 2×2×2 y falsadores.
 
 Ejecutar desde la raíz del repositorio:
 
