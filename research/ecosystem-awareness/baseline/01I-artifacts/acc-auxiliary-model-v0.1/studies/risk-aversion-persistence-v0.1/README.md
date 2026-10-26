@@ -112,6 +112,7 @@ Para afirmar *causalidad* del tamaño de la cordillera sobre permanencia hacen f
 - [test_risk_model.py](test_risk_model.py): **40 pruebas deterministas** de identidades, permanencia, defensa activa, contrapruebas de defensa inútil, utilidad contrafactual no identificada y controles favorables a salir.
 - [REFERENCE_SYNTHETIC_RESULTS.json](REFERENCE_SYNTHETIC_RESULTS.json): salida reproducible marcada como `SYNTHETIC_CONDITIONAL_NOT_EMPIRICAL`.
 - [COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md](COMPARATIVE_RESEARCH_AND_TEST_DESIGN.md): comparación crítica con ocho obras primarias, alcance, no predicciones, matriz factorial 2×2×2 y falsadores.
+- [EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md](EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md): programa **propuesto, no ejecutado** de extensiones con correspondencia isomórfica/no isomórfica: validación social, compromiso y vínculos personales, agentes computacionales sensibles al riesgo, campos y falsadores por disciplina. No cambia el testigo ni hereda evidencia automáticamente.
 
 Ejecutar desde la raíz del repositorio:
 
