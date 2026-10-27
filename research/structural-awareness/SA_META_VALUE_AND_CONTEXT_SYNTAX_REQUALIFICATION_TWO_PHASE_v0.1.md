@@ -1,6 +1,6 @@
 # Structural Awareness — The Value of an Unresolved Frontier and Two-Phase Contextual Requalification
 
-**SA-MATH-VALUE-01 · Original-source-grounded mathematical working note v0.2 · 27 October 2026**
+**SA-MATH-VALUE-01 · Original-source-grounded mathematical working note v0.3 · 27 October 2026**
 
 **Scientific status:** candidate mathematical bridge with standard results, explicitly derived theorems, constructive infinite families, non-advantage conditions and proof obligations. This is **not** an empirical demonstration of reduced computation in deployed agents, a modification of canonical EA architecture, a successful PR #60 merge or a universal superiority result. No new simulation is part of this note. **Mathematical extension (v0.2):** the open semantic residual is no longer described as a homogeneous class of intrinsically indeterminable objects. [SA-MATH-METAEX-01](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md) develops a typed modal/evaluability distinction, positive existence-guided exploration and negative certificate-driven context pruning, with exact assumptions and countermodels. These additions preserve SA-V1–SA-V7 and the prior Shannon/R11/R12/R14/R16/Semantic Window dependencies.
 
@@ -359,7 +359,20 @@ The result does not require enumerating individually all excluded elements. It s
 
 Detailed formal proofs and limitations: [SA-E1–SA-E6](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md). No sociotechnical experiment, agent-population composition or EA requirements mapping is added to the present mathematical work.
 
-## 11. Exact results and separate research status
+## 11. New operational branch: rule-state revision without binary redesign
+
+The earlier Phase-II proof [SA-V6](#6-phase-ii--from-a-qualified-metaproposition-to-a-different-executable-object-syntax) gives one **sufficient** way to produce a changed object-level decoder when effective qualified Q and h exist. It is **not** a necessity to recompile a binary whenever the context changes. The [SA-MATH-OP-01 paper](./SA_OPERATIONAL_RESIDUAL_AND_ONLINE_CONTEXT_PLASTICITY_v0.1.md) separates an alternative, **already programmed online plasticity** route:
+
+- A typed **pre-admission record** of an observed but not substantively classifiable event can be retained before a lossy closure stage, when finite capture and source access are genuinely available.
+- A resident metalevel rule interpreter can accept an authorized new certificate and revise the **parameterized context, guard or interpretation** of that existing record during execution.
+- A **negative implication certificate** \(G(x)\Rightarrow D_{10}(x)=\mathrm{REJECT}\) can yield the *same* existing decision without running all ten ordinary checks on G-positive cases; its actual cost improvement requires the priced inequality from SA-O4.
+- Under L1 OW-9, an encountered finite UNKNOWN is guaranteed only for an effective **exhaustive H-EXP traversal and a sound total three-valued evaluator** with record retention. There is no universal finite run bound or default physical exterior-object identification.
+
+This is **Phase-II reconfiguration of an already effective controller**, not a new oracle nor proof that every system can invent arbitrary new semantic types. It should not be conflated with Phase-I proof of the existence of a meaningful frontier. Closed-world syntactic rule engines can implement exactly the same certified prefilter when given the same source proof and runtime capability; the **open-world distinction** is the refusal to declare a permanently discarded event irrelevant solely because its current admission schema could not substantively classify it.
+
+**Research status:** this branch proves the mathematical possibility of live reinterpretation and a conditional savings criterion, not general automatic meta-rule discovery or superiority of all metasyntactic controllers. It preserves every previous SA-V1–SA-V7 proof and the unmerged PR #60/PR #59 source boundary.
+
+## 12. Exact results and separate research status
 
 The theoretical programme now has **two precise phases and distinct theorems**; §10 adds typed existence/exclusion mechanisms without changing SA-V1–SA-V7:
 
