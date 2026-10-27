@@ -24,6 +24,8 @@ The results in this note are best understood as **architectural principles for o
 
 ---
 
+**Decisive scope condition (v0.8):** the proposed A′ is **not** the computable complement (U\setminus A) inside the initializer's previously admitted syntactic world U. That complement remains trapped inside U. The new metasyntactic constructor refers to the **q-relevant semantic exterior of U itself**; it can assert actual existence there only under a qualified H-OUT/H-GROWTH premise and can diagnose initialization-contract failure only when a separate H-DETECT guarantee applies. This supports a *real meta-operation beyond the syntax of U*, not an automatic physical-world oracle. See §§6.33–6.39 and the executable fixture.
+
 ## Architectural comparison at a glance
 
 **The same algorithms; different external semantic contracts.** In the comparison formalized below, a conventional **closure-first** architecture executes K to establish an operational frame A and then D to produce \(A_1\subseteq A\), reporting only claims expressible inside A. The **open-ecosystem** architecture may run precisely the same composite \(\mathcal P=D\circ K\), with identical run results, but **does not identify K's finite scope with the complete relevant world**. It reports qualified findings from the *entire* composite and an **open A′ frontier** for the original meaning that those findings have not exhausted.
@@ -1091,7 +1093,7 @@ If a purportedly "syntactic-only" conventional program itself knows how to inspe
 
 ### 6.33. The pivotal condition: A′ is not the complement inside the initialized syntax U
 
-The semantic extension would be trivial if a purported metasyn​​tax merely computed the complement of a result **inside a domain that the initializer has already admitted**. To make the comparison precise, keep three objects separate:
+The semantic extension would be trivial if a purported metasyntax merely computed the complement of a result **inside a domain that the initializer has already admitted**. To make the comparison precise, keep three objects separate:
 
 - \(\Omega_q\): the **mathematically modeled, q-relevant source ecosystem**, which the agent need not be able to enumerate or fully encode. Its claimed properties require their **own semantic premises**.
 - \(U_r\): the **typed syntactic scope admitted by initializer K** for run r, containing the descriptions which K can admit at that point.
@@ -1157,9 +1159,9 @@ This is **strictly stronger than saying the external population is unbounded**. 
 
 These distinctions allow a model to be **mathematically open**, an agent to **know a qualified exterior-existence proposition**, and a specific exploration still to be **operationally empty**, without a logical contradiction.
 
-### 6.36. TR-21 — the metasyn​​tactic agent can state true existence beyond its own U
+### 6.36. TR-21 — the metasyntactic agent can state true existence beyond its own U
 
-**Theorem TR-21 (conditional external-existence witness without identification).** Let K and D produce a finite \(U_r\) and \(A_r\) in a source ecosystem. If a justified H-OUT certificate/axiom for that exact \((q,U_r,\Omega_q)\) has been supplied, then a metasyn​​tactic finite programme can correctly construct a statement of the form
+**Theorem TR-21 (conditional external-existence witness without identification).** Let K and D produce a finite \(U_r\) and \(A_r\) in a source ecosystem. If a justified H-OUT certificate/axiom for that exact \((q,U_r,\Omega_q)\) has been supplied, then a metasyntactic finite programme can correctly construct a statement of the form
 
 \[
 \operatorname{CERTIFIED\_EXTERIOR}
@@ -1194,7 +1196,7 @@ There are three importantly different diagnosis levels:
 
 **No epistemic oracle:** the diagnostics establish *what the admitted premises and reported measurements imply*, not the identity, location, eventual behaviour or reachability of an unseen peer. H-REACH's "eventually discoverable" guarantee alone is compatible with zero discoveries at the present run, because its quantified finite discovery time may be later and has no supplied bound.
 
-### 6.38. Operational metasyn​​tax beyond U without literal complement enumeration
+### 6.38. Operational metasyntax beyond U without literal complement enumeration
 
 The derived report constructor can take the form:
 
