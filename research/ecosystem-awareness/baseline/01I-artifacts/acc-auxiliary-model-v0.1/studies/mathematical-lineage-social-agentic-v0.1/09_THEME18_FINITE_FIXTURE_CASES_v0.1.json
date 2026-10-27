@@ -12,32 +12,70 @@
     "PINNED_REFERENCE": "syntactic reference-version check, not attestation",
     "CONDORCET_PAIR_CYCLE": "classical voting calculation",
     "ALIASED_EXPLANATIONS": "finite identification counterexample",
-    "REFERENCE_ONLY": "not executable in independent runner; external synthetic source"
+    "REFERENCE_ONLY": "not executable in independent runner; external synthetic source",
+    "MULTIOBJECTIVE_FRAME": "fixed safety-veto+cardinal-score toy with exogenous RA threshold and INDEPENDENT qualified safety evidence; no automatic actuation"
   },
   "limits": [
     "No deployment; no cross-theme integration tests run",
     "No authenticated source Q, real RA invariant, regulator-approved reference or authorized control-plane transition",
     "PR #57 AG cases listed as separately executed synthetic source, not re-executed",
-    "All expected_interface statuses are design hypotheses; finite expected_math may be mechanically checked"
+    "All expected_interface statuses are design hypotheses; finite expected_math may be mechanically checked",
+    "T18-RA-01 safety-status evidence is supplied as an independently qualified toy input; RA signal never derives it"
   ],
   "cases": [
     {
       "id": "T18-RA-01",
-      "kind": "QUALIFIED_RA_SIGNAL",
+      "kind": "MULTIOBJECTIVE_FRAME",
       "input": {
+        "reference_id": "choice-v1",
+        "operator": "lexicographic-safety-veto-then-service-minus-cost",
+        "voter_set_id": "safety-service-cost-v1",
         "baseline": 10,
         "current": 7,
         "threshold": 2,
-        "context_qualified": true
+        "context_qualified": true,
+        "old_candidates": [
+          {
+            "id": "failover",
+            "safety_ok": true,
+            "service": 5,
+            "cost": 1
+          },
+          {
+            "id": "stop",
+            "safety_ok": true,
+            "service": 0,
+            "cost": 0
+          }
+        ],
+        "post_candidates_after_independent_safety_evidence": [
+          {
+            "id": "failover",
+            "safety_ok": false,
+            "service": 5,
+            "cost": 1
+          },
+          {
+            "id": "stop",
+            "safety_ok": true,
+            "service": 0,
+            "cost": 0
+          }
+        ],
+        "post_safety_evidence_qualified": true
       },
       "expected_math": {
-        "signal": -1
+        "ra_signal": -1,
+        "before_choice": "failover",
+        "after_choice_given_qualified_evidence": "stop",
+        "operator_unchanged": true
       },
       "expected_interface": {
         "ea": "REQUALIFICATION_REVIEW_CANDIDATE",
+        "decision": "MATERIAL_EVIDENCE_CHANGES_ADMISSIBLE_CANDIDATES_NOT_OPERATOR",
         "authority": "NOT_EVALUATED"
       },
-      "notes": "Exogenous degradation; signal does not select degrade vs stop."
+      "notes": "Same authored operator and voter set. Qualified RA threshold signal flags context departure; separate qualified post-safety evidence changes admissible alternatives. RA signal itself never supplies that safety fact or authorizes stop."
     },
     {
       "id": "T18-RA-02",
