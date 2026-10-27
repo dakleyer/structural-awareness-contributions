@@ -1,13 +1,14 @@
 # From A to A′: Open Meaning and Semantic Transfer Between Agent Ecosystems
 
-**Structural Awareness Programme · Mathematical Contributions · Working research companion v0.1 · 27 October 2026**  
+**Structural Awareness Programme · Mathematical Contributions · Working research companion v0.2 · 27 October 2026**  
+**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.2**, recorded by the GitHub revision.  
 **Logical subject:** SA-MATH-TR-01 · **Relationship:** mathematical continuation of [OW-1–OW-11, effective non-closure and repeated runs](./OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md).  
 **Status:** conditional mathematical construction, intended for mathematical review. AI-assisted authoring at the research owner's request; not independently formalized in a proof assistant and not an adopted protocol or A/B/C/D definition.  
 **Scientific lineage:** Iván Abril Palma, *Practical Incompleteness* (L1); *The Projection Mechanism* (2025 and distinct 2026 fourth revision); *The Projected Infinite Paradox*; [00M mathematical plausibility and canonical A/B/C/D](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical).
 
 ## Abstract
 
-A finite agent execution can deliver exact local results without settling the semantic task to which its procedure refers in an open world. When a source ecosystem sends only execution traces to a receiving ecosystem, the receiver may acquire extensive data without enough information to reconstruct the **general question** that those executions were intended to address. When it instead sends a run-local result as a **globally closed set**, it exports an unsupported exhaustiveness claim. The proposed semantic carrier separates **A, the procedure and its declared task**, from **A′, its open non-determination frontier**. A/A′ is not a sum of extensional sets and does not require enumeration of unknown agents. We prove a trace-only nonfactorization result, a false-closure transfer result, and a conditional soundness statement for semantic transfer through a qualified correspondence between the source and receiver's questions. The receiver can thereby preserve **meaning and honest incompleteness** without being given a purported universal semantic oracle or a completed list of every unknown case.
+A finite agent execution can deliver exact local results without settling the semantic task to which its procedure refers in an open world. When a source ecosystem sends only execution traces to a receiving ecosystem, the receiver may acquire extensive data without enough information to reconstruct the **general question** that those executions were intended to address. When it instead sends a run-local result as a **globally closed set**, it exports an unsupported exhaustiveness claim. The proposed semantic carrier separates **A, the procedure and its declared task**, from **A′, its open non-determination frontier**. A/A′ is not a sum of extensional sets and does not require enumeration of unknown agents. We prove a trace-only nonfactorization result, a false-closure transfer result, and a conditional soundness statement for semantic transfer through a qualified correspondence between the source and receiver's questions. A further result identifies the **weak information dominance** of a signal preserving witnessed boundary information over a reduced signal that discards it, without giving either machine the power to compute A′. The B/C/D distinctions are treated as **partial, process-relative abstractions of the open frontier**, each retaining its own primed non-closure rather than forming a mandatory exhaustive partition. The receiver can thereby preserve **meaning and honest incompleteness** without being given a purported universal semantic oracle or a completed list of every unknown case.
 
 ## 1. Names and mathematical objects
 
@@ -217,6 +218,154 @@ and a positive, but **conditional**, counterpart:
 
 The first follows from TR-1 when (4) holds; the second is TR-3. Neither implies that semantic content is *physically created by unknown objects*, that an actual city contains infinitely many unobserved peers, or that any transfer architecture outperforms an existing competent method. The distinction between **description of meaning** and **successful determination of all instances** is an essential part of the mathematics, not a retreat from L1.
 
+### 6.1. A machine cannot compute the complete A′, but can witness its boundary during A
+
+Fix the procedure/semantic task \(A_{\mathrm{proc}}=(\Pi,q,\rho,\sigma)\) defined in §1. Running it yields **finite outputs and a finite execution/evidence record**. It can produce a verified match, a justified refusal, a timeout, a contradictory report, a damaged input, or an explicit INDETERMINATE. These are **run-level products of A**. A machine that executes A does not thereby enumerate, decide or reach the whole unclosed \(A'_S\).
+
+Nevertheless, an execution may encounter a **finite witnessed manifestation of its open boundary**. The machine can recognize, for example, that a particular received authorization record cannot justify a definitive answer, or that the comparison with unseen eligible neighbors remains open. Calling this observation a **qualified indicator of A′** does not mean the machine has evaluated all of A′.
+
+Define \(Z_{S,r}\) as a **finite qualified boundary record** for run r. It can include *observed unresolved questions, explicit limits of evidence, known B/C/D-related claims, undecided role assignments, and open-coverage or non-closure qualifiers*. In particular:
+
+\[
+Z_{S,r}\text{ is finite and observable},\qquad
+Z_{S,r}\ne A'_S.
+\tag{14}
+\]
+
+Even \(Z_{S,r}=\varnothing\) does not imply \(A'_S=\varnothing\). This distinction is essential: **A′ supplies the open semantic scope; \(Z_{S,r}\) supplies only the boundary evidence actually available in a run.**
+
+The machine's ability to state an indetermination is not an ability to determine the hidden substantive truth. An unanswered request can be *recognized as unanswered*, while its eventual success remains indeterminate.
+
+### 6.2. Two ways to transmit one execution: loss by erasure
+
+Compare two **deliberately defined signalling policies** over identical source runs and the same source question:
+
+\[
+X(w)=
+\bigl(A_{\mathrm{proc}},M_{S,r}(w)\bigr)
+\tag{15}
+\]
+
+and
+
+\[
+Y(w)=
+\bigl(A_{\mathrm{proc}},M_{S,r}(w),
+        Z_{S,r}(w),\mathrm{OPEN}(A'_S)\bigr).
+\tag{16}
+\]
+
+Here X is the **reduced A-only representation**: it keeps the procedure and established results but **drops the observed residual qualifiers**. Y is the **A/A′-aware representation**: it keeps X and additionally preserves the observed boundary record and the open semantic obligation. The symbol \(\mathrm{OPEN}(A'_S)\) is a **finite truthful non-closure declaration**, **not an encoding of every indeterminate element**.
+
+There is a simple, computable **forgetting map**
+
+\[
+g:Y\longrightarrow X,\qquad
+g(A,M,Z,\mathrm{OPEN})=(A,M).
+\tag{17}
+\]
+
+Consequently \(X=g\circ Y\). This is the exact limited sense in which a source can perform an **information-losing projection** by exporting X after discarding source-qualified indeterminate signals. This use of *projection* means a forgetting/representation map; it does not assert every theorem in the separate 2025/2026 *Projection Mechanism* papers.
+
+Not every system described colloquially as “A-only” will actually erase the boundary. The theorem compares the **specified erasing policy X** with the **retaining policy Y**. If an existing sender already preserves Z, its signal is not this X baseline, whatever its product branding.
+
+### 6.3. Theorem TR-4 — weak informational dominance of A/A′-aware transfer
+
+Let \(W\) be any fixed class of source-world/run situations, and let \(X:W\to\mathcal X\), \(Y:W\to\mathcal Y\) be the reduced and extended messages (15)–(16). Fix any legitimate **receiving decision task** \(t:W\to\mathcal T\), a common available action set \(\mathcal A\), and any task-specific loss \(\ell(a,t(w))\). Compare the **best attainable receiver decisions** under the **same feasible actions and decision-processing assumptions**, before charging any additional acquisition, communication or deployment cost for Y.
+
+**Theorem TR-4 (weak informational dominance).** If \(X=g\circ Y\), then for any receiver policy \(d_X:\mathcal X\to\mathcal A\) there exists a richer-message policy \(d_Y:\mathcal Y\to\mathcal A\) yielding exactly the same actions and losses in every admissible world. Thus the optimal attainable expected or worst-case loss with Y cannot exceed that with X:
+
+\[
+\boxed{
+\inf_{d_Y}\mathbb E[\ell(d_Y(Y(W)),t(W))]
+\ \le\
+\inf_{d_X}\mathbb E[\ell(d_X(X(W)),t(W))]
+}
+\tag{18}
+\]
+
+and, likewise, for the corresponding infimum worst-case risk whenever those quantities are defined.
+
+**Proof.** For any \(d_X\), set \(d_Y=d_X\circ g\). By (17), \(d_Y(Y(w))=d_X(X(w))\) **for every w**. Hence every policy achievable using X is also achievable using Y, by ignoring its extra fields. The optimal loss under Y is weakly no larger. \(\square\)
+
+This is a simple **deterministic garbling / information-refinement** instance of the established Blackwell comparison of experiments: a richer observation can reproduce the poorer one by deletion. The elementary proof above is sufficient for this case; no claim of discovering a new statistical theorem is made. See David Blackwell, *Equivalent Comparisons of Experiments*, *Annals of Mathematical Statistics* 24(2), 1953, 265–272, DOI [10.1214/aoms/1177729032](https://doi.org/10.1214/aoms/1177729032).
+
+**Meaning of weak.** Equality is allowed. If the supplementary boundary signal is irrelevant to the receiving task, or the receiver already knows it, the receiver may gain **nothing**. The theorem establishes **greater or equal attainable decision information**, not that every actual enhanced algorithm automatically makes better choices, spends fewer bytes, reduces latency or enjoys lower net operating cost. These latter claims require a matched resource/communication model and measurements.
+
+**Strict informational gain requires a witness.** If two admissible situations have \(X(w_0)=X(w_1)\) but different qualified additional signals \(Y(w_0)\ne Y(w_1)\), Y preserves a distinction lost by X. Strict *decision* improvement occurs only for a task that **depends on that distinction** and for which Y supports a better receiver action.
+
+### 6.4. Proposition TR-5 — a finite strict-gain witness without deciding A′
+
+Consider two source worlds with the **same procedure A** and the **same two confirmed positive receipts**. In \(w_0\), the finite encountered peer population consists exactly of those two witnessed cases. In \(w_1\), the source encountered an **additional third peer with an unresolved authorization question**, but the X channel discards the third peer's unresolved status. Both source ecosystems still have **globally OPEN population/semantic coverage**.
+
+The reduced payload is identical:
+
+\[
+X(w_0)=X(w_1)=(A,\{\mathrm{receipt}_1,\mathrm{receipt}_2\}).
+\tag{19}
+\]
+
+The extended payload preserves the distinction:
+
+\[
+Y(w_0)=(X,\mathrm{observed\ unresolved}=0,\mathrm{OPEN}),\quad
+Y(w_1)=(X,\mathrm{observed\ unresolved}=1,\mathrm{OPEN}).
+\tag{20}
+\]
+
+Define the **independently specified, run-scoped receiving task** \(t(w)\): *did the source finish this particular run with no substantively unresolved encountered peer?* Its answer is YES in \(w_0\) and NO in \(w_1\). For a uniform two-world prior, 0–1 loss and binary receiver actions, any X-only decision must give the **same answer** in both worlds, with a minimum expected error of \(1/2\). Y permits **zero error for this run-scoped meta-question**, because the source provided the trustworthy qualified indicator.
+
+\[
+\boxed{
+R_X^*(t)=1/2,\qquad R_Y^*(t)=0 .
+}
+\tag{21}
+\]
+
+This is an **illustrative finite construction**, not a field measurement. Y does **not** determine whether the third peer's authorization was truly valid, whether it will eventually complete, or what all unseen peers will do. It improves the ability to **recognize that a currently known decision remains unresolved** and therefore prevents certain false local closures. This is the precise **strict differential witness** compatible with weak informational dominance.
+
+The extra reported information may be tiny (a verified unresolved-count/indicator, subject identity and scope), while the raw execution archive could be large. The construction does not assert a universal compression ratio; it shows **task-relevant information preservation**, not merely higher byte volume.
+
+### 6.5. B/C/D as partial abstractions of A′; B′/C′/D′ as non-closed role frontiers
+
+The open A′ is **not exhaustively divisible into three fully decided subsets**. The current Structural Awareness [00M §1](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) supplies a **useful process-relative qualification vocabulary**, with no claim to exhaustively partition a universe.
+
+For any positioning profile \(p=(\mathrm{actor},\mathrm{question},\mathrm{scope},\mathrm{capability},\mathrm{time})\), qualifying an **observed, suitably defined aspect x** may support one or more declarations concerning:
+
+- **B:** characterized evaluation basis and a defensibly assessable reserve beyond the currently delivered functional result;
+- **C:** grounded exploration opportunity for which that evaluation basis is not characterized;
+- **D:** potentially material condition beyond this process's effective route to evaluation for its particular relevant effect;
+- **UNKNOWN / UNQUALIFIED:** even the scope, evidential basis or role assignment is not sufficiently established.
+
+These roles apply **to aspects and functional claims**, not by magically sorting every physical agent into one and only one category. A program may correctly observe and report **one B reserve**, another C lead, or a witnessed D-type evaluation barrier **within a finite run**, yet that says nothing about having listed every possible B, C or D aspect of the open ecosystem.
+
+For each role \(j\in\{B,C,D\}\), write \(\kappa_{j,p}\) for the **partial, evidence-qualified role-assertion function**, defined only on the aspects for which the predicate, scope and proof basis are established. The local **primed notation**
+
+\[
+B'_p,\qquad C'_p,\qquad D'_p
+\tag{22}
+\]
+
+denotes the **unclosed applicability and exhaustion obligation of those partial role characterizations**, respectively. The primes are **meta-level boundary qualifiers**, not newly defined canonical epistemic categories, literal complements \(\Omega\setminus B\), or collections that can be enumerated by the executing agent. They do **not** assert that a particular unseen B-, C- or D-item has been found or that every named role's extensional class is necessarily nonempty.
+
+**Lemma TR-6 (no total role inventory from an open prefix).** Fix any role \(j\in\{B,C,D\}\). If admissible source worlds allow the **same finite role-evidence history** with and without an additional unseen relevant aspect qualifying for j, then no function of that history alone can correctly certify an exhaustive global inventory of j in both worlds.
+
+**Proof.** Both histories are identical, but the proposition “the known j-role claims exhaust all relevant j-role aspects” has different truth values. This is OW-7's indistinguishability proof applied to j-qualified claims. \(\square\)
+
+This is **not** a theorem saying that every B/C boundary is intrinsically undecidable: specific B/C/D assignments may be clear and correctly justified. Rather, **making the role map total and exhaustive over an open domain is an extra global decision/coverage demand**. Under a sufficiently expressive role-decision problem that encodes OW-1's target, a claimed sound total boundary oracle would contradict OW-1; that expressivity connection must be stated for the role-decision task. A program should never be forced to place **all** unqualified open material into B, C or D, or to treat an insufficiently established role as D by default.
+
+**Operational interpretation.** B is a witnessed **reserve of exploitation that can be characterized**, not a certificate of the largest reserve that will ever exist. B′ is the unclosed boundary of **what further reserves could become characterized**. C′ and D′ play the corresponding role for their respective evaluability frontiers. The useful current B/C/D assertions can be transferred as **finite, qualified representatives of A′-related epistemic structure**, while B′/C′/D′ preserve their non-exhaustiveness.
+
+A/B/C/D remains the **owner-adopted vocabulary of 00M**; this source's A/A′/B′/C′/D′ notation is a **candidate mathematical lens**, not an amendment of that normative semantic definition.
+
+### 6.6. What the weak dominance result does—and does not—establish
+
+**Established mathematical consequence:** given equal access to the same source execution and a Y signal that recoverably includes X, the receiver's **set of possible informed policies is no smaller under Y**. Y can preserve qualifying evidence of encountered indeterminates that X deliberately erases; an independent downstream task may strictly benefit, as TR-5 demonstrates.
+
+**Not established by the weak theorem:** a total program for A′; an effective enumeration of all B′/C′/D′; an exact role partition; automatic semantic compatibility between two unrelated ecosystems; a universal lower bitrate; smaller latency; inevitable improvement of every recipient action; or net cost superiority. Transmission costs, access restrictions, interpretation rights and finite processing budgets may change the engineering comparison.
+
+**Core proposition:** an A/A′-aware agent may perform no more computation on the unknown world than an A-only agent, but it can communicate **more of what was legitimately learned—including the limits of what was learned—without compressing an open decision into an unjustified closed result**. This is the **weak informational superiority** that precedes any empirical claim of superior performance.
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
@@ -225,7 +374,7 @@ The source's open frontier and the receiving ecosystem's open frontier need not 
 
 ## 8. Position before the Projection Mechanism
 
-TR-1–TR-3 build the **pre-projection** result: why transferring only executions is semantically insufficient, why closed-result export can convey a false generalization, and how A/A′ plus a legitimate interpretation can transmit the **intended task and its open reach** without claiming to decide everything.
+TR-1–TR-3 establish the **pre-projection transfer limit and conditional soundness**; TR-4–TR-6 add the **weak informational dominance**, a finite strict-gain witness, and non-total B/C/D role-boundary structure. Together they build the **pre-projection** result: why transferring only executions is semantically insufficient, why closed-result export can convey a false generalization, and how A/A′ plus a legitimate interpretation can transmit the **intended task and its open reach** without claiming to decide everything.
 
 The separate [2025 *Projection Mechanism*](https://www.researchgate.net/publication/393802750_The_Projection_Mechanism_How_Practical_Incompleteness_Infiltrates_Formal_Systems) and [2026 fourth revision](https://drive.google.com/file/d/1OrJ2LWz2qBv2sP8_-VNldWpctxZdwcfI/view) ask what happens when an unqualified representation is imported and operated upon as if it carried sufficient meaning. The *Projected Infinite Paradox* provides a historical motivation for distinguishing named finite constructions and population-level or limiting questions, but its broader ontological claims are not assumed as theorems here.
 
@@ -239,4 +388,4 @@ The next, distinct research question is **projection under an unqualified import
 - [01J current signalling annex](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) for the architecture's existing qualification of source-to-recipient meaning.
 - [Original *Projected Infinite Paradox* published route](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) — historical interpretation, not imported universal proof.
 
-**Documentary disposition:** working mathematical companion, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. In particular, **a mathematical A/A′ notation alone does not guarantee automatic semantic compatibility across unrelated ecosystems**.
+**Documentary disposition:** working mathematical companion, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. No total A′ evaluator, exhaustively partitioning B/C/D oracle, automatic ecosystem compatibility or empirical net superiority is claimed.
