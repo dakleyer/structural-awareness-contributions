@@ -208,3 +208,46 @@ The following is pseudocode, not a deployed service:
 ````markdown
 | **M-UC21** | UC21 retains native R0/R1/R2; separate prospective DDS R1/R2/R3 use initial configuration, admitted repair and material stress of an actual passing frozen predecessor | UC21 separate frozen study, not primary math source | [05 §D](./05_INDEPENDENT_VALIDATION_PROTOCOL.md) | **Independent companion**; no general mathematical proof |
 ````
+
+
+## D26-C01 regression companion and promotion review — 27 October 2026
+
+This extends the existing interval-repair unit; it is not another defect ID or a new experiment. [PR58 I-01](https://github.com/dakleyer/structural-awareness-contributions/pull/58) receives the result. Original-source main 3e58fc6 is unchanged. The literal predicate pair above and this test companion must be selected together.
+
+**Before/after validation:** unchanged baseline passes 60 existing unit tests; a private copy with only the proposed predicate and this additional method passes 61 tests. The new method covers 18 combinations of disjoint-evidence gap and threshold, including gaps smaller/larger than the old absolute tolerance. Its property is that contradictory evidence cannot support a threshold. Original and candidate generated synthetic_report dictionaries are equal, serialized report SHA256 bec53a28708606bfff50863efbe8f47943d1a02c84b0a700d98b5fbed5dfb515. No published result was regenerated or replaced.
+
+**State:** proposed, not applied. **Expected impact:** High; stops unsupported local support. **Risk:** Medium; numerical semantics and downstream expectations must be selected explicitly. **Effort:** Low–Medium including the existing suite, new boundary guard and output comparison. **Source/location:** the existing LocalSufficiency class in
+[research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/test_metacognition.py](https://github.com/dakleyer/structural-awareness-contributions/blob/891af45a75b245082859147c0f7233cf85dd9035/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/test_metacognition.py), immediately after the complete method shown below. Old passage matches once; the candidate reverses byte-exactly.
+
+**Text before — complete literal method:**
+
+````python
+    def test_empty_observations_not_zero(self):
+        self.assertEqual(qualify(frame(),q(),())["local_answer_status"],"NO_RELEVANT_EVIDENCE")
+````
+
+**Text after — complete proposed method plus regression guard:**
+
+````python
+    def test_empty_observations_not_zero(self):
+        self.assertEqual(qualify(frame(),q(),())["local_answer_status"],"NO_RELEVANT_EVIDENCE")
+
+    def test_disjoint_evidence_never_supports_a_threshold(self):
+        f = frame(domain_min=0, domain_max=0, lipschitz=0)
+        for gap in (1e-15, 1e-13, 5e-13, 1e-12, 1e-9, 1.0):
+            points = (
+                sample(claim_id="left", origin_id="s-left", x_min=0,
+                       x_max=0, y_min=gap, y_max=gap),
+                sample(claim_id="right", origin_id="s-right", x_min=0,
+                       x_max=0, y_min=0, y_max=0),
+            )
+            for threshold in (-gap, gap / 2, 2 * gap):
+                with self.subTest(gap=gap, threshold=threshold):
+                    result = qualify(f, q(x=0, threshold=threshold), points)
+                    self.assertEqual(
+                        result["local_answer_status"],
+                        "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
+                    )
+````
+
+**Acceptance:** select D26-C01 as a two-file unit: the original predicate pair plus this test addition. Revalidate both source blobs, preserve every other span and run the full suite; retain the original published report and compare the candidate separately. Software regression is not Stage C deployment or human validation. I-01 stays open until actual source adoption/readback is verified.

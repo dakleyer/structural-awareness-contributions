@@ -411,3 +411,10 @@ The 24 October source-owned [02A VNext](02A_VNext.md#review-ownership-and-earlie
 ````
 
 **Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+
+## TAX26-02 promotion-readiness receipt — 27 October 2026
+
+The existing complete TAX26-02 pair above is selected for the suggested first documentary wave, together with TAX26-04 in the interface owner. On main 3e58fc6 its old passage is unique and its proposed addition is absent; the private exact preview reverses to the untouched source and preserves all unrelated bytes and routes. Expected impact High, risk Low, effort Low. It adds one readable distinction; it does not install an event schema or infer comprehension from presentation. Status remains proposed, pending Iván's named source wave.
+
+Discussion is shared through [PR58](https://github.com/dakleyer/structural-awareness-contributions/pull/58); this existing pair remains the source of truth for its literal edit. Original reasoning, alternatives and the other TAX26 pairs remain intact.

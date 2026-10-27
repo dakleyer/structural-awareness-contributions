@@ -833,3 +833,10 @@ Appraises evidence, records or claims against the declared appraisal policy and 
 ````
 
 **Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+
+## TAX26-04 promotion-readiness receipt — 27 October 2026
+
+The existing complete TAX26-04 pair above is selected with TAX26-02 for the suggested first documentary wave. On main 3e58fc6 its old IF-S6 boundary paragraph is unique and the proposed addition is absent; the private preview reverses to its untouched source and preserves every other span and route. Expected impact High, risk Low, effort Low. It clarifies what human-review observations establish while retaining the current interface payload and the human decision owner. Status remains proposed, pending Iván's named source wave.
+
+Use [PR58](https://github.com/dakleyer/structural-awareness-contributions/pull/58) for common review; retain the one full literal pair here. No producer contract, runtime program, authority grant, oracle or frozen result is changed by this readiness receipt.
