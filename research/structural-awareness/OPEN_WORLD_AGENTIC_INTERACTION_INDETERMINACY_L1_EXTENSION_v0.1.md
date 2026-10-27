@@ -174,6 +174,37 @@ In this setting, adding a verifier changes the **composite handshake plus subseq
 
 **Two meanings of “oracle.”** A software checker, specialist peer, policy service or audit node is an **effective verifier** and is covered by OW-5. A genuine **noncomputable halting oracle** is not: it can decide ordinary halting questions beyond ordinary algorithms, so the theorem's premise would change. Oracle-relative computations have further undecidability results about their **own higher-level** problems, but they are not proof that an ordinary software verification chain accesses supernatural computation.
 
+
+**Supplementary theorem OW-5b — a perfect general semantic meta-filter is not computable.** Filtering for a narrowly certified protocol is possible; **uniformly classifying arbitrary programmable peers by whether their complete request-response domain is itself decidable** is a different and generally undecidable meta-question. An explicit construction, corresponding to the existing R07-P2 research development, establishes the distinction.
+
+Let \(K_0=\{y:U_y(y)\downarrow\}\). From any program index e, effectively construct a peer \(G_e\), with the same simple successful HELLO exchange in every case, and define its response behaviour to requests:
+
+\[
+G_e(x)=
+\begin{cases}
+\text{send completion}, & x\in 00\Sigma^*,\\
+\text{never complete}, & x\in 01\Sigma^*,\\
+\text{simulate }U_e(e)\text{, then }U_y(y)
+   \text{ and complete iff both halt}, & x=1y.
+\end{cases}
+\tag{6}
+\]
+
+The **request language of successful completion** of this peer is
+
+\[
+D_{G_e}=
+\begin{cases}
+00\Sigma^*, & U_e(e)\uparrow,\\
+00\Sigma^*\cup 1K_0, & U_e(e)\downarrow .
+\end{cases}
+\tag{7}
+\]
+
+In the first case \(D_{G_e}\) is decidable; in the second it is undecidable by the many-one reduction \(y\mapsto1y\) from \(K_0\). Any total computable meta-filter that, for every e, correctly announces whether the **whole** request-response domain of \(G_e\) is decidable would thereby decide whether \(U_e(e)\) halts. Contradiction. \(\square\)
+
+This is a **uniform index-level statement** about the property of a program's *complete response language*, not a claim that the outcome for **each fixed request of each peer** is intrinsically unanswerable. Its mathematical antecedent is the R07-P2 index-family construction, ultimately within standard Rice/halting theory. It does not forbid practical admission checks for verified restricted classes; it refutes their unjustified promotion to a perfectly general semantic separator.
+
 ## 4D. Operational encounters and testable interpretation
 
 | Encounter after discovery | Legitimate bounded outcome | Incorrect inference to avoid |
@@ -198,7 +229,8 @@ The proof does **not** prohibit a sensible interaction discipline. It distinguis
 | HELLO → YES | Handshake accepted under a declared envelope | Eventual fulfilment, global compatibility or safety |
 | HELLO → NO | Contact declined under that envelope | Mathematical impossibility of every other interaction |
 | Valid signed completion receipt | The specified observed completion occurred, subject to verification | Reliability in all future contexts |
-| Timeout at h | No qualifying receipt was observed by h | That a later receipt is impossible |
+| Timeout at h | No qualifying receipt was observed by h | That a later receipt is impossible (OW-3) |
+| Corrupted input / BAD_FRAME | The parser or integrity check rejected the presented record | The underlying semantic target was false or intrinsically undecidable (OW-4) |
 | UNKNOWN / deferred / insufficient evidence | Current procedure does not justify a substantive binary answer | That the peer is malicious, incoherent or intrinsically undecidable |
 | Local admission DENY | The receiver will not proceed under its current rules | That the peer lacks the ability to fulfil r |
 
@@ -228,7 +260,7 @@ If an exploration policy is **fair and exhaustive with respect to the described 
 
 Conversely, a truly closed, finite, correctly inventoried peer set with certified bounded protocols may support total local decisions. This does not invalidate OW-1: that set does not satisfy H-EXP. An arbitrary numerical threshold such as “more than N agents” does **not** suffice. The mathematically relevant meaning of an open smart world is **unbounded admission of sufficiently expressive possible peer behaviours**, without a trustworthy global closure certificate.
 
-The result is therefore useful **without asserting that every possible universe extension creates an undecidable residual**. The obstruction arises in the specified open class and the demanded universal decision task.
+The result is therefore useful **without asserting that every possible universe extension creates an undecidable residual**. The obstruction arises in the specified open class and the demanded universal decision task. The **finite-resource** results OW-3/OW-4 additionally show situated indeterminacy in admissible indistinguishable cases even without that unrestricted Turing expressivity; those are distinct premises and a distinct conclusion.
 
 ## 7. Relation to L1 and to the current Structural Awareness corpus
 
@@ -247,19 +279,30 @@ OW-1 justifies why **the overall decisive YES/NO function cannot be assumed univ
 
 The [current signalling annex 01J](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) independently distinguishes discovery/handshake, bounded semantic coupling, receiver qualification and subsequent interaction. This mini-paper establishes a mathematical **limit**, not a mandatory handshake format, shared trust root, agent-citizenship protocol, security policy, MSCA change or new architecture component.
 
+
+### 7.1 Relation to the projection articles: separate, stronger question
+
+The original 2025 [*Projection Mechanism*](https://www.researchgate.net/publication/393802750_The_Projection_Mechanism_How_Practical_Incompleteness_Infiltrates_Formal_Systems) combined a practical incompleteness/validator-chain claim (§2) and a meta-discriminator hierarchy (§3) with a further **projection** proposal, defined via ZFC Separation (§5), and an identity/bijection between already defined residual collections (§6). The source's strong claims that every gateway computationally dominates downstream components or that an arbitrary countable chain shares one individually unresolved input do **not** follow without stronger assumptions; the specific source-level conditions and counterexamples are recorded in the separate [R08 research dossier](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R08_PROJECTION_MECHANISM_2025_v0.1.md). OW-5 establishes the **weaker and valid composite-procedure result** instead; it does not borrow those stronger claims.
+
+The author's [fourth revision of *The Projection Mechanism*](https://drive.google.com/file/d/1OrJ2LWz2qBv2sP8_-VNldWpctxZdwcfI/view), particularly §§5–6, distinguishes an **in-frame incompleteness item** missed by a filter from a **projected item** whose semantic placement was not justified when forming the receiving working universe. It also explicitly withdraws blanket claims about all open-world inputs being Turing-complete, and treats any net growth of projected residue as conditional on defined arrival/removal rates (§9). The distinct [*Projected Infinite Paradox*](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) examines changing constructive stages/populations and claimed semantic consequences of projection; it is **not** a statement about one late handshake or damaged file. Its editions require separate proof/quantifier control.
+
+**Formal boundary in this paper:** OW-1/OW-3/OW-5 show that one agent's complete interaction procedure need not settle a substantive question; **that alone does not establish projection**. OW-4 identifies an independently checkable **source-to-receiver information-sufficiency obstruction** that may help develop projection claims, but only after the upstream and receiving semantic questions, data mappings, admissible witnesses and authority conditions are specified. Repeating more filters on the **same insufficient representation** cannot recover a distinction erased from every accessible input; an independent qualified source or a repaired representation may.
+
+We therefore record projection as **a distinct next research stage**, not a corollary of a timeout, a corrupt frame, or OW-5. This mini-paper does not establish inevitable misclassification, unconditional accumulation, physical entropy, universal semantic corruption or superiority of a particular architectural response.
+
 ## 8. What would count against the applied claim?
 
 The mathematical proof is conditional and can be checked by inspecting the effective compilation e↦P_e and the equivalence (1). Its application to a real smart-city profile must separately establish that the actual admissible agent class can express this construction **and** that the declared substantive decision has the required semantics.
 
-A bounded profile that (i) admits only certified finite-state peers, (ii) imposes a verified maximum completion time as part of its substantive contract, or (iii) restricts the target to finite observable traces, can be legitimately decidable. That is not a paradox or a counterexample to OW-1; it is a **different hypothesis or decision task**. If the target's claimed semantic strength or H-EXP does not hold, the theorem may not be applied.
+A bounded profile that (i) admits only certified finite-state peers, (ii) imposes a verified maximum completion time as part of its substantive contract, or (iii) restricts the target to finite observable traces, can be legitimately decidable. Authorized independent certificates may also distinguish OW-3's alternatives or repair OW-4's lost decisive fields. That is not a paradox or a counterexample to OW-1; it is a **different hypothesis or decision task**. If the target's claimed semantic strength or H-EXP does not hold, the theorem may not be applied.
 
-Empirical research can then examine rates of clean completion, justified NO, bounded UNKNOWN, false certainty, indefinite waiting and useful requalification. Such measurements test **operational handling**, not the diagonal theorem. No superiority of Structural/Ecosystem Awareness over conventional tools follows from OW-1.
+Empirical research can then examine rates of clean completion, justified NO, bounded UNKNOWN, damaged-source recovery, false certainty, indefinite waiting, added verifier-chain cost and useful requalification. Such measurements test **operational handling**, not the diagonal theorem. No superiority of Structural/Ecosystem Awareness over conventional tools follows from OW-1.
 
 ## 9. Conclusion
 
-A universally terminating handshake does not imply a universally terminating **correct semantic decision** about every possible peer. In a computationally expressive open agent class, a single effective procedure cannot always return an infallible substantive YES/NO after discovery, handshake and any computable sequence of subsequent subroutines. A sound procedure must leave some questions unresolved; a forced binary procedure must sometimes be wrong.
+A universally terminating handshake does not imply a universally terminating **correct semantic decision** about every possible peer. In a computationally expressive open agent class, a single effective procedure cannot always return an infallible substantive YES/NO after discovery, handshake and any computable sequence of subsequent subroutines. **Every finite effectively composed chain of software verifiers remains one such procedure.** Under weaker finite-resource premises, delayed responses and irrecoverable evidence loss can additionally make specific questions indeterminate relative to the agent's actual observations, despite decidable local protocol outcomes. A sound total procedure must leave some substantive questions unresolved in the expressive case; a forced total binary procedure must sometimes be wrong.
 
-This is the precise existential contribution: **an agentic world need not be assumed exhaustively given for there to be a mathematically unavoidable frontier relative to the agent's uniform decision task**. It establishes the frontier before discussing how it should be represented, classified, projected or managed.
+This is the precise existential contribution: **an agentic world need not be assumed exhaustively given for there to be a mathematically unavoidable frontier relative to the agent's uniform decision task**. It establishes the frontier before discussing how it should be represented, classified, projected or managed. An intentionally closed, certified interface or finite-deadline contract is useful and can legitimately decide its **declared limited task**, but cannot by that fact decide arbitrary future peer behaviour.
 
 ---
 
@@ -270,5 +313,11 @@ This is the precise existential contribution: **an agentic world need not be ass
 3. Structural Awareness, *Ecosystem Awareness — Integrated Foundational Theory v0.5*. https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md
 4. Structural Awareness, *00M v0.8 — A/B/C/D Semantics and Mathematical Plausibility*. https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md
 5. Structural Awareness, *01J — Ecosystem Signalling: Selective Disclosure and Choreographed Repositioning*. https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md
+6. Iván Abril Palma, *The Projection Mechanism: How Practical Incompleteness Infiltrates Formal Systems*, original 2025 edition. https://www.researchgate.net/publication/393802750_The_Projection_Mechanism_How_Practical_Incompleteness_Infiltrates_Formal_Systems
+7. Iván Abril Palma, *The Projection Mechanism*, distinct fourth revision, 2026. https://drive.google.com/file/d/1OrJ2LWz2qBv2sP8_-VNldWpctxZdwcfI/view
+8. Iván Abril Palma, *The Projected Infinite Paradox: Unifying Constructivism and Platonism*, distinct original/later editions, 2025. https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism
+9. R08 source-specific review and conditions. https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R08_PROJECTION_MECHANISM_2025_v0.1.md
+10. R09 fourth-revision source-specific review. https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R09_PROJECTION_MECHANISM_V4_v0.1.md
+11. R10 edition-controlled source-specific review. https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R10_PROJECTED_INFINITE_PARADOX_v0.1.md
 
-**Change scope:** this is a new additive mathematical contribution. It does not edit, supersede or promote L1, R07, 00M, Foundational Theory, 01J or frozen architecture artifacts.
+**Change scope:** this is the additive **v0.2 revision of the existing mathematical mini-paper**, preserving its logical identity and public path. It does not edit, supersede or promote the historical sources L1, R07–R10, 00M, Foundational Theory, 01J or frozen architecture artifacts. OW-3/OW-4 are conditional finite-evidence propositions; OW-5/OW-5b apply established computability arguments. Formal machine verification and empirical deployment are not claimed.
