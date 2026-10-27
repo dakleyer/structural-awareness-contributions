@@ -1,15 +1,15 @@
 # Open-World Agent Encounters: A Uniform Decision Frontier
 
-**Mathematical mini-paper · Structural Awareness Programme · v0.3 · 27 October 2026 (effective non-closure and open-world sanity)**  
+**Mathematical mini-paper · Structural Awareness Programme · v0.4 · 27 October 2026 (non-closure under repeated execution; set-query sanity checks)**  
 **Logical subject:** SA-MATH-OW-01 · **Role:** standalone working mathematical contribution, for author and external mathematical review  
-**Stable-path notice:** the filename retains its original v0.1 suffix to preserve inbound references; the current **document edition is v0.3**, recorded in Git history. No second active edition or independent VNext is implied.  
+**Stable-path notice:** the filename retains its original v0.1 suffix to preserve inbound references; the current **document edition is v0.4**, recorded in Git history. No second active edition or independent VNext is implied.  
 **Lineage:** Iván Abril Palma, *Practical Incompleteness* (L1 / R07), *Given Universe*, and the present Ecosystem Awareness foundational work. This exposition was prepared with AI assistance at the author's request.  
 **Maturity:** conditional formal results using standard computability and observation-equivalence arguments; **not** a new proof of the halting theorem, an empirical finding about all smart cities, or an accepted architecture/standard.  
 **Reading boundary:** the strong theorem concerns **uniform substantive determination**; the new results concern finite resource/evidence envelopes and computable verifier chains. None denies the ability to send a message, decline a connection, impose a deadline, return UNKNOWN or certify a restricted class. A timeout or malformed packet is **not by itself** a Turing-undecidable input. The [canonical A/B/C/D semantics](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) are unchanged.
 
 ## Abstract
 
-A robot or software agent in an open smart city can discover peers, perform a terminating yes/no handshake and then execute further decision procedures. Does this make every possible peer interaction decidable? No, provided the admissible world is computationally expressive enough and the question concerns nontrivial **future semantic behaviour**, not merely receipt of a handshake acknowledgement. We construct a fixed, effectively describable family of peer agents, all of which pass the same handshake, such that a sound and complete, terminating procedure deciding whether each peer will eventually fulfil a particular request would decide the diagonal halting problem. No such uniform procedure exists. A second, observation-relative lemma explains why a finite interaction prefix cannot certify eventual non-response without further valid bounds or evidence. The result recovers the operational frontier sought by *Practical Incompleteness* without treating finite strings as a proper class, without asserting that every fixed peer is individually undecidable, and without presuming an exhaustive “Given Universe.” A weaker finite-resource argument shows how deadlines and irrecoverable loss of evidence can cause **situated indeterminacy**, without absolute undecidability. Any finite or effectively orchestrated chain of computable handshake filters is itself a computable composite procedure: it can increase justified coverage without becoming a universal semantic decider. An additional non-closure result distinguishes the classical mathematical existence of a semantic set from an effective exact membership test or a justified certificate of global exhaustiveness. The separate *Projection Mechanism* raises a further question about the semantic constitution of the receiving universe; that stronger question does not follow merely from timeout, non-closure or filter incompleteness.
+A robot or software agent in an open smart city can discover peers, perform a terminating yes/no handshake and then execute further decision procedures. Does this make every possible peer interaction decidable? No, provided the admissible world is computationally expressive enough and the question concerns nontrivial **future semantic behaviour**, not merely receipt of a handshake acknowledgement. We construct a fixed, effectively describable family of peer agents, all of which pass the same handshake, such that a sound and complete, terminating procedure deciding whether each peer will eventually fulfil a particular request would decide the diagonal halting problem. No such uniform procedure exists. A second, observation-relative lemma explains why a finite interaction prefix cannot certify eventual non-response without further valid bounds or evidence. The result recovers the operational frontier sought by *Practical Incompleteness* without treating finite strings as a proper class, without asserting that every fixed peer is individually undecidable, and without presuming an exhaustive “Given Universe.” A weaker finite-resource argument shows how deadlines and irrecoverable loss of evidence can cause **situated indeterminacy**, without absolute undecidability. Any finite or effectively orchestrated chain of computable handshake filters is itself a computable composite procedure: it can increase justified coverage without becoming a universal semantic decider. An additional non-closure result distinguishes the classical mathematical existence of a semantic set from an effective exact membership test or a justified certificate of global exhaustiveness. A further extension distinguishes **a finite closed run result** from **a globally complete reusable procedure**, proves an eventual unresolved encounter under exhaustive repeated evaluation, and gives specific guards for some/all, fixed-time and nearest-neighbor queries. The separate *Projection Mechanism* raises a further question about the semantic constitution of the receiving universe; that stronger question does not follow merely from timeout, non-closure or filter incompleteness.
 
 ## 1. The problem: a protocol is not an omniscient decision procedure
 
@@ -24,7 +24,7 @@ Consider a mobile agent encountering other agents in a city or connected world. 
 
 The entire sequence, not only the handshake, is the relevant procedure. A handshake can be universally terminating while the subsequently queried property remains undetermined. “The peer answered YES to HELLO” and “the peer will eventually fulfil request r” are different propositions. Likewise, “I decline this interaction” is a local **admission decision**, not a proof that the peer could not fulfil it.
 
-The older *Given Universe* difficulty appears when an internally declared decision universe is treated as if it covered every relevant future encounter. **Mathematically specifying a set of all desired peers does not supply an executable membership test or a certificate that discovery is complete.** An open ecosystem does not provide a general trusted **last peer** or a universally exhaustive catalogue of future participant behaviour. Nevertheless, one can formulate precise theorems about its admissible agent class without claiming that any actual city contains literally infinitely many simultaneous agents.
+The older *Given Universe* difficulty appears when an internally declared decision universe is treated as if it covered every relevant future encounter. **Mathematically specifying a set of all desired peers does not supply an executable membership test or a certificate that discovery is complete.** Nor does success on one finite execution imply a universally complete future-query procedure. An open ecosystem does not provide a general trusted **last peer** or a universally exhaustive catalogue of future participant behaviour. Nevertheless, one can formulate precise theorems about its admissible agent class without claiming that any actual city contains literally infinitely many simultaneous agents.
 
 ## 2. Formal objects and the meaning of “sufficiently large”
 
@@ -338,9 +338,134 @@ A roaming robot successfully handshakes with twenty service agents and verifies 
 
 The results concern **effective epistemic and operational non-closure**, not topology or an impossibility of defining mathematical sets. H-EXP is an expressivity premise and H-OPEN an observational possible-world premise; neither follows from merely counting physical devices. Neither theorem guarantees that a robot follows a route that actually encounters the witness. These results are **prior to** and independent of the stronger proposed *Projection Mechanism*, and do not silently modify current A/B/C/D semantics.
 
+### 6.7. Closed finite run results versus an open reusable procedure
+
+Three objects must remain distinct: a finite **run record** \(L_r\) of actual peer encounters; a finite **confirmed-result set** \(M_r\) supported by evidence obtained in that run; and the **general procedure** \(\mathcal Q\) intended to return correct answers across future possible encounters.
+
+For the finite processed and observed candidate population \(E_r\), an appropriately bounded three-way classifier can record
+
+\[
+E_r=M_r\;\dot\cup\;F_r\;\dot\cup\;I_r,
+\tag{11}
+\]
+
+where \(M_r\) contains witnessed matching cases, \(F_r\) witnessed nonmatching cases, and \(I_r\) **observed but substantively indeterminate** cases. A timeout or corrupted message is a separately recorded diagnostic, **not a proof** of nonmembership. This is only a partition of the **observed processed log**, not a global partition of the ecosystem.
+
+The finite set \(M_r\) may be perfectly determined, contain **no** indeterminate elements, and be legitimate as an exact set of witnessed positive results from that run. Nevertheless, a result contract must separately say whether there are unresolved *observed* candidates and whether the broader *population coverage* remains OPEN. A clean finite collection is not an assertion that there are no outside or undecided cases.
+
+Therefore the literal claim **“every set contains indeterminate elements” is false**: a certified finite list, a trivial total predicate and the empty set are counterexamples. The correct programming statement is that a **reusable, universally sound and complete** semantic set-query over the expressive H-EXP class cannot silently produce globally definitive results for **every possible input**. The result **type and procedure contract** must accommodate an indeterminate or open-coverage outcome, even if a given run contains none.
+
+### 6.8. Theorem OW-9 — eventual INDETERMINATE under exhaustive repeated execution
+
+The stronger claim “after sufficiently many executions, an indeterminate necessarily appears” needs an **encounter completeness** hypothesis; OW-1 alone does not give that recurrence.
+
+Let \(C\) be a **total computable and sound** evaluator of the fixed semantic target \(T(P_e,r)\) over H-EXP peers, returning YES, NO, or INDETERMINATE. Let \(e_0,e_1,\ldots\) be an **effectively generated exhaustive traversal** of the indices of that family, meaning each natural index appears at some finite position. Every evaluation terminates.
+
+**Theorem OW-9 (existential finite encounter position).** Under those conditions,
+
+\[
+\exists k<\infty:\quad C(P_{e_k},r)=\mathrm{INDETERMINATE}.
+\tag{12}
+\]
+
+**Proof.** OW-1a implies at least one index \(e^\star\) where the total sound evaluator cannot return a justified definitive YES/NO. By exhaustive traversal, \(e^\star=e_k\) for some finite \(k\). Therefore the \(k\)-th execution returns INDETERMINATE. \(\square\)
+
+The correct quantifier pattern is **for each evaluator and each exhaustive traversal, there exists some finite encounter index**. There is **no uniform finite number of runs** that follows for every evaluator and every possible encounter schedule. Repeating one easy interaction, following an unrepresentative route or staying inside a certified finite whitelist need never reach the constructed witness. Without totality, a sound binary procedure may hang instead of returning INDETERMINATE; a forced-total binary semantic procedure may be wrong instead of admitting uncertainty.
+
+This is a conditional consequence of standard diagonalization, **not** a theorem that every fixed peer or every actual street encounter contains an indeterminate element.
+
+### 6.9. OW-9b — optional probability statement, never a substitute for proof
+
+If a stochastic encounter process **independently justifies** a lower bound \(p>0\) on the conditional probability that the next evaluation is indeterminate **given that none has occurred so far**, then
+
+\[
+\Pr(\text{no INDETERMINATE in }n\text{ runs})
+\le (1-p)^n,
+\quad
+\Pr(\exists j\le n:I_j)\ge 1-(1-p)^n.
+\tag{13}
+\]
+
+The multiplication rule proves this without independence, provided the conditional lower bound genuinely holds for every relevant history. The likelihood approaches one as \(n\to\infty\), but **no fixed finite n is guaranteed** when \(p<1\). Neither L1 nor the number of devices in a smart city provides such a \(p\); it must come from a declared population, encounter policy and measured or justified assumptions.
+
+### 6.10. Theorem OW-10 — 17 seconds bounds a run, not its semantic universe
+
+“Find all P-matching agents **in 17 seconds**” combines two distinct possible completeness claims: **coverage** of the relevant population and **determination** of predicate \(P\) for each relevant candidate. A 17-second deadline alone proves neither.
+
+For the finite log \(E_{17}\), the witnessed set \(M_{17}\), witnessed negatives \(F_{17}\) and observed unresolved cases \(I_{17}\) may be reported precisely, subject to the evidence/measurement contract. But
+
+\[
+M_{17}=\{x\in\Omega_{\mathrm{relevant}}:P(x)\}
+\tag{14}
+\]
+
+is an **additional global assertion** requiring a qualifying coverage/exclusion witness and enough sound semantic information. Even with all observed candidates classified, an unseen possible match invalidates the equality. Even with a certified complete finite population, an observed indeterminate predicate may invalidate it.
+
+**Proposition OW-10 (two-axis set non-closure).** If two admissible worlds yield identical available run evidence but differ either (i) by a relevant undiscovered matching agent or (ii) by the truth of \(P\) for a relevant observed indeterminate agent, then no function of that run evidence can certify an **exact global matching set** correctly in both worlds.
+
+**Proof.** The observation is the same, forcing the same reported set, while the true target set differs. \(\square\)
+
+A certified finite and fully covered candidate population together with a justified membership decision for every relevant candidate is a **sufficient** closure condition; another valid certificate may establish that all unobserved candidates are nonmatches. The sufficient form is not claimed to be the **only** possible legitimate certificate. If the query is explicitly changed to “verified matching receipts **contained in this authenticated 17-second log**”, that narrower finite-log task may be decidable and locally closed, with **world coverage still OPEN**.
+
+“Find **some** matching peer” is safer only when the returned witness is legitimate. No witness found before timeout is **not** proof that none exists.
+
+### 6.11. Lemma OW-11 — nearest observed is not necessarily globally nearest
+
+Suppose the observed record \(h\) contains an eligible peer at qualified distance \(d>0\). Assume two possible worlds are compatible with the same \(h\): in one no closer eligible peer exists, while in the other an **unseen** eligible peer at distance \(d'<d\) exists. The agent has no trusted closer-exclusion certificate or complete-radius scan.
+
+**Lemma OW-11 (nearest-neighbor non-closure).** No procedure using only \(h\) can conclusively certify that the nearest **observed** qualified peer is **globally nearest** in both worlds.
+
+**Proof.** Identical observations lead to identical output, but the globally nearest peer differs between the worlds. \(\square\)
+
+A robot **can** compute the nearest **among observed and qualified peers**. It can also determine a true **global** nearest peer when a trusted scoped registry, complete spatial scan or bound reliably excludes closer eligible candidates. With no observed matches, “no qualified neighbor **observed**” is not “no qualified neighbor **exists**.” Merely replacing ALL by ONE, SOME, FIRST or NEAREST does **not** settle coverage or missing semantic evidence.
+
+### 6.12. NC-2 — programming-level sanity checks for collection-producing instructions
+
+**NC-2 is a proposed programming/research constraint, not an adopted runtime standard.** Any agentic query returning a collection or selected peer should carry a result contract which distinguishes (a) run-local witnessed elements, (b) substantive indeterminate observed cases, (c) population completeness, (d) semantic completeness and (e) execution/diagnostic status. Default **global result-set completeness is OPEN** until justified by qualified evidence.
+
+| Instruction | Correctly qualified result | Invalid silent assumption |
+| --- | --- | --- |
+| Find **all** peers satisfying P | Witnessed matches with explicit scope, unresolved cases and coverage; claim ALL only under an effective completeness witness | A sample is the whole ecosystem |
+| Find **some** peers satisfying P | One or more **witnessed** matches or no witness found within budget | Empty result proves no match exists |
+| Search for **17 seconds** | Log-scoped matches, negatives, indeterminates and TIMEOUT/BUDGET state | Ending a loop certifies all relevant predicates and peers |
+| Find the **nearest** eligible peer | Nearest observed qualified candidate; global nearest only when closer alternatives are excluded | No unseen closer peer exists |
+| Add a handshake/metafilter | Better local qualification, refusal or honest UNKNOWN | Computable meta-checks decide all future semantics |
+| Construct the set “all inputs on which this procedure decides” | Mathematical description or scoped executed output | Definition yields a universal decision or completeness oracle |
+
+At minimum, an executable API should preserve the **target question, declared scope and snapshot, computation/time/evidence budget, provenance, witnessed matches/nonmatches, indeterminate observed cases, population coverage, semantic completeness, global-result qualification and separate diagnostics**. A finite set of confirmed positives need **not contain** a literal INDETERMINATE element: uncertainty belongs in the **typed result envelope**, not necessarily inside its verified match set.
+
+**Example — legitimate open-world set query response:**
+
+~~~json
+{
+  "target_predicate": "will_eventually_complete",
+  "scope": "city-zone-A",
+  "budget_seconds": 17,
+  "witnessed_matches": ["agent-01"],
+  "witnessed_nonmatches": [],
+  "unresolved_observed": ["agent-02"],
+  "diagnostics": {"agent-02": ["TIMEOUT", "BAD_FRAME"]},
+  "population_coverage": "OPEN",
+  "semantic_completeness": "INCOMPLETE_ON_OBSERVED",
+  "global_result_set": "OPEN"
+}
+~~~
+
+The witnessed matching member is assumed to have a qualified independent completion receipt; HELLO=YES alone is not proof of eventual successful fulfilment. The unresolved list counts **observed** cases only; it neither enumerates nor estimates all unknown outside peers.
+
+**Executable research sanity checks:** [OW non-closure set-query and nearest-neighbor contract fixture](./fixtures/OW_NONCLOSURE_CONTRACT_CHECKS_v0.1.mjs) (15 bounded internal assertions). The fixture exercises valid local subsets, certified finite inventory closure, timeouts, damaged records, missing/incompatible population certificates, unknown semantics despite complete inventory, and global-nearest versus observed-nearest distinctions. Run from repository root with the command below:
+
+~~~sh
+node research/structural-awareness/fixtures/OW_NONCLOSURE_CONTRACT_CHECKS_v0.1.mjs
+~~~
+
+The fixture's trusted-inventory input is assumed to come from an **externally authenticated/qualified certifier**. The script does **not** verify that authority, invent a global oracle or machine-check any infinite theorem; it validates only declared *contract invariants* in finite constructed inputs.
+
+**Failure-mode boundary:** if forced into a total correct binary global semantic contract under H-EXP, a computable program must err somewhere. A partial program may hang; a sound total three-outcome program must preserve an INDETERMINATE case. A timeout or exception can be **an operational event**, but is not mathematically forced in every run. Silent promotion of UNKNOWN to YES/NO creates false closure. Endless waiting for an unprovable universal enumeration can squander resources. Neither a specific Type-1 nor Type-2 EA diagnosis follows without the Foundation's separate operational/causal conditions.
+
 ## 7. Relation to L1 and to the current Structural Awareness corpus
 
-**L1 (*Practical Incompleteness*).** The historical source asks where a concrete procedure's effective resolution domain ends. The **OW-6–OW-8** continuation distinguishes a mathematically well-defined semantic partition from a computable exact closure procedure, and adds the finite-prefix limitation on an allegedly exhaustive agent inventory. The present theorem preserves the **procedure-relative frontier** and the existential logic, now for a querying agent, its handshake and all subsequent decision subroutines. Its proof deliberately uses a valid diagonal reduction: it does **not** reuse the historical assertion that finite binary strings form a proper class, nor infer an undecidable fixed halting domain merely from a machine being partial. The existing [R07 mathematical review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R07_PRACTICAL_INCOMPLETENESS_v0.1.md) already develops the uniform/nonuniform distinction. OW-1 applies that sound distinction to an explicit peer-interaction semantics; neither claim is presented as a novel computability impossibility.
+**L1 (*Practical Incompleteness*).** The historical source asks where a concrete procedure's effective resolution domain ends. The **OW-6–OW-11** continuation distinguishes mathematically defined semantic membership from effective global closure, a **closed finite execution record** from a **universally exhaustive reusable query**, and the conditional appearance of an indeterminate under effective exhaustive traversal. NC-2 adds explicit set-valued API checks. The present theorem preserves the **procedure-relative frontier** and the existential logic, now for a querying agent, its handshake and all subsequent decision subroutines. Its proof deliberately uses a valid diagonal reduction: it does **not** reuse the historical assertion that finite binary strings form a proper class, nor infer an undecidable fixed halting domain merely from a machine being partial. The existing [R07 mathematical review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R07_PRACTICAL_INCOMPLETENESS_v0.1.md) already develops the uniform/nonuniform distinction. OW-1 applies that sound distinction to an explicit peer-interaction semantics; neither claim is presented as a novel computability impossibility.
 
 **Given Universe and Ecosystem Awareness.** The current [Foundational Theory v0.5](../ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) distinguishes an open class of potentially relevant states Ω, a bounded represented operational universe U, and an open residual R_U **that is not an exhaustively enumerable set complement**. OW-1 is narrower: it constructs an effective peer family K and a precise undecidable **uniform target property** T. It does not replace Ω, U, R_U or prove an all-purpose theorem about physical reality.
 
@@ -362,7 +487,7 @@ The original 2025 [*Projection Mechanism*](https://www.researchgate.net/publicat
 
 The author's [fourth revision of *The Projection Mechanism*](https://drive.google.com/file/d/1OrJ2LWz2qBv2sP8_-VNldWpctxZdwcfI/view), particularly §§5–6, distinguishes an **in-frame incompleteness item** missed by a filter from a **projected item** whose semantic placement was not justified when forming the receiving working universe. It also explicitly withdraws blanket claims about all open-world inputs being Turing-complete, and treats any net growth of projected residue as conditional on defined arrival/removal rates (§9). The distinct [*Projected Infinite Paradox*](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) examines changing constructive stages/populations and claimed semantic consequences of projection; it is **not** a statement about one late handshake or damaged file. Its editions require separate proof/quantifier control.
 
-**Formal boundary in this paper:** OW-1/OW-3/OW-5 and OW-6–OW-8 establish limits on effective determination or global closure for an agent's interaction procedure; **none of that alone establishes projection**. OW-4 identifies an independently checkable **source-to-receiver information-sufficiency obstruction** that may help develop projection claims, but only after the upstream and receiving semantic questions, data mappings, admissible witnesses and authority conditions are specified. Repeating more filters on the **same insufficient representation** cannot recover a distinction erased from every accessible input; an independent qualified source or a repaired representation may.
+**Formal boundary in this paper:** OW-1/OW-3/OW-5 and OW-6–OW-11 establish limits on effective determination, repeated execution, and global closure for an agent's interaction procedure; **none of that alone establishes projection**. OW-4 identifies an independently checkable **source-to-receiver information-sufficiency obstruction** that may help develop projection claims, but only after the upstream and receiving semantic questions, data mappings, admissible witnesses and authority conditions are specified. Repeating more filters on the **same insufficient representation** cannot recover a distinction erased from every accessible input; an independent qualified source or a repaired representation may.
 
 We therefore record projection as **a distinct next research stage**, not a corollary of a timeout, a corrupt frame, or OW-5. This mini-paper does not establish inevitable misclassification, unconditional accumulation, physical entropy, universal semantic corruption or superiority of a particular architectural response.
 
@@ -378,7 +503,7 @@ Empirical research can then examine rates of clean completion, justified NO, bou
 
 A universally terminating handshake does not imply a universally terminating **correct semantic decision** about every possible peer. In a computationally expressive open agent class, a single effective procedure cannot always return an infallible substantive YES/NO after discovery, handshake and any computable sequence of subsequent subroutines. **Every finite effectively composed chain of software verifiers remains one such procedure.** Under weaker finite-resource premises, delayed responses and irrecoverable evidence loss can additionally make specific questions indeterminate relative to the agent's actual observations, despite decidable local protocol outcomes. A sound total procedure must leave some substantive questions unresolved in the expressive case; a forced total binary procedure must sometimes be wrong.
 
-This is the precise existential contribution: **an agentic world need not be assumed exhaustively given for there to be a mathematically unavoidable frontier relative to the agent's uniform decision task**. It establishes the frontier and the limits of **effective global closure** before discussing how it should be represented, classified, projected or managed. **The operative constraint is to work open-by-default and close only where a defined question, finite domain, legitimate evidence and completeness witness justify doing so.** An intentionally closed, certified interface or finite-deadline contract is useful and can legitimately decide its **declared limited task**, but cannot by that fact decide arbitrary future peer behaviour.
+This is the precise existential contribution: **an agentic world need not be assumed exhaustively given for there to be a mathematically unavoidable frontier relative to the agent's uniform decision task**. It establishes the frontier and the limits of **effective global closure** before discussing how they should be represented, classified, projected or managed. A succession of successful closed finite runs does not turn the reusable query into an exhaustive global classifier; under **effective exhaustive exploration** a sound total three-outcome evaluator eventually encounters an indeterminate, with no uniform finite bound on the number of runs. **The operative constraint is to work open-by-default and close only where a defined question, finite domain, legitimate evidence and completeness witness justify doing so.** An intentionally closed, certified interface or finite-deadline contract is useful and can legitimately decide its **declared limited task**, but cannot by that fact decide arbitrary future peer behaviour.
 
 ---
 
@@ -396,4 +521,4 @@ This is the precise existential contribution: **an agentic world need not be ass
 10. R09 fourth-revision source-specific review. https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R09_PROJECTION_MECHANISM_V4_v0.1.md
 11. R10 edition-controlled source-specific review. https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R10_PROJECTED_INFINITE_PARADOX_v0.1.md
 
-**Change scope:** this is the additive **v0.3 revision of the existing mathematical mini-paper**, preserving its logical identity and public path. It does not edit, supersede or promote the historical sources L1, R07–R10, 00M, Foundational Theory, 01J or frozen architecture artifacts. OW-3/OW-4 are conditional finite-evidence propositions; OW-5/OW-5b and OW-6 are standard-computability-based consequences; OW-7 is a conditional observational non-closure lemma; OW-8 is a composite-procedure corollary; NC-1 is a proposed operational discipline, **not** an adopted requirement. These additions make no topological closure claim and no declaration of a complete operational ABCD classifier. Formal machine verification and empirical deployment are not claimed.
+**Change scope:** this is the additive **v0.4 revision of the existing mathematical mini-paper**, preserving its logical identity and public path. It does not edit, supersede or promote the historical sources L1, R07–R10, 00M, Foundational Theory, 01J or frozen architecture artifacts. OW-3/OW-4 and OW-7/OW-10/OW-11 are conditional finite-evidence and coverage propositions; OW-5/OW-5b/OW-6/OW-8 use standard computability/composition; OW-9 requires a genuinely exhaustive computable traversal; OW-9b requires an independently supported encounter-probability lower bound. NC-1 and NC-2 are **proposed operational disciplines, not adopted requirements**. The executable fixture checks bounded contract invariants only. These additions make no topological closure claim and no declaration of a complete operational ABCD classifier. Formal machine verification and empirical deployment are not claimed.
