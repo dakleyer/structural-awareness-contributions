@@ -5,7 +5,7 @@
 
 **Scientific status:** mathematical class-level construction with conditional theorems, general proof obligations and executable finite checks; **not** empirical validation, an adopted agentic protocol, or proof of universal efficiency. Intellectual lineage: Iván Abril Palma's original mathematical programme; source-specific R-reviews; [the open, unmerged PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60). Research integration prepared with AI assistance at the owner's request.
 
-**Dependency:** [Part I — Metasyntactic Architecture for Open Ecosystems](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), consolidated v1.0. The first part proves typed expressive extension and limited integrity/resilience results, but not universal operational superiority. **This paper starts only where the representational theorem ends.**
+**Dependency:** [Part I — Metasyntactic Architecture for Open Ecosystems](../A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), consolidated v1.0. The first part proves typed expressive extension and limited integrity/resilience results, but not universal operational superiority. **This paper starts only where the representational theorem ends.**
 
 ## Abstract
 
@@ -63,7 +63,7 @@ If two admissible worlds w,w′ with equal o but different r can be exhibited an
 
 **Proof.** If \(r=h\circ o\), equal o-values force equal r-values. Conversely, homogeneous fibers permit \(h(y)=r(w)\) for any representative w in the nonempty fiber \(o^{-1}(y)\); this is well-defined. For the negative case, a verified pair with equal o but different r immediately contradicts factorization, so a finite checker can validate a certificate on a **finite decidable test model**. This does not produce the actual hidden answer. \(\square\)
 
-**Historical provenance.** The factorization condition is ordinary mathematics, present in the author's *Given Universe* §4 and [00M v0.8 §4](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), and as F1 in [PR #60's mathematical core](https://github.com/dakleyer/structural-awareness-contributions/blob/research/mathematical-lineage-agentic-reduction-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/02_FORMAL_CORE_AND_PROOFS.md). The certificate *construction* is metalevel; its logical content is a standard consequence, not a newly discovered Gödel theorem.
+**Historical provenance.** The factorization condition is ordinary mathematics, present in the author's *Given Universe* §4 and [00M v0.8 §4](../../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), and as F1 in [PR #60's mathematical core](https://github.com/dakleyer/structural-awareness-contributions/blob/research/mathematical-lineage-agentic-reduction-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/02_FORMAL_CORE_AND_PROOFS.md). The certificate *construction* is metalevel; its logical content is a standard consequence, not a newly discovered Gödel theorem.
 
 **A broad problem class already appears:** a representation sufficient for an old r can become insufficient for a **new question, allowed transition, receiving party or validity condition**. The old output need not have become false. Its qualification is now inadequate for the new use.
 
@@ -194,7 +194,7 @@ Let \(c=(\text{task},\text{scope},\text{version},\text{authority},t)\) be a decl
 \tag{13}
 \]
 
-The window is **defined relative to evidence e, question r and contextual validity**; it is not an assumption of time-invariant semantic equivalence. The historical [Semantic Window and Good Enough Early Warning](../ecosystem-awareness/baseline/ARTICLE_03_SEMANTIC_WINDOW_AND_GOOD_ENOUGH_EARLY_WARNING.md) and [Regime Awareness programme](../regime-awareness/PROGRAMME_CONTEXT.md) develop **independent, more application-oriented semantic-window and early-warning research hypotheses**. They are antecedents to this mathematical question, not proven by (13).
+The window is **defined relative to evidence e, question r and contextual validity**; it is not an assumption of time-invariant semantic equivalence. The historical [Semantic Window and Good Enough Early Warning](../../ecosystem-awareness/baseline/ARTICLE_03_SEMANTIC_WINDOW_AND_GOOD_ENOUGH_EARLY_WARNING.md) and [Regime Awareness programme](../../regime-awareness/PROGRAMME_CONTEXT.md) develop **independent, more application-oriented semantic-window and early-warning research hypotheses**. They are antecedents to this mathematical question, not proven by (13).
 
 **Theorem MU-5 (context-dependent sufficiency).** Suppose two contexts \(c_0,c_1\) yield the same raw observation o but different legitimate receiver outputs \(r(c_0)\ne r(c_1)\) due to scope, source version, interpretation or authority changes. Then **no raw-o-only decoder** is sufficient across both contexts (MU-1). If a legitimate meta qualification \(v\) distinguishes them, \(r\) may become a function of \((o,v)\); if it does, the paired representation is sufficient **for that declared context class**.
 
@@ -292,7 +292,7 @@ A valid research campaign must be independently specified **before** testing a c
 | Robust partial constraints | Anonymous qualified m excludes decision-relevant possibilities | False certificate removes actual world; wrong safe action |
 | Cost/design accounting | Matched full evidence and rights, including search, verification, design and rollback | Copied identical design ties; meta overhead loses |
 
-The companion [finite executable research harness](./fixtures/METASYNTACTIC_UTILITY_CLASSES_v0.1.mjs) checks deterministic factorization over an exhaustive family of small Boolean observation maps, pair separation with prior o, strict task-value examples, anonymous robust constraints, changing validity, invariant quotient examples and negative baselines. It is **bounded symbolic evidence**, not a real multi-agent deployment or a proof of historical article originalities.
+The companion [finite executable research harness](../fixtures/METASYNTACTIC_UTILITY_CLASSES_v0.1.mjs) checks deterministic factorization over an exhaustive family of small Boolean observation maps, pair separation with prior o, strict task-value examples, anonymous robust constraints, changing validity, invariant quotient examples and negative baselines. It is **bounded symbolic evidence**, not a real multi-agent deployment or a proof of historical article originalities.
 
 The still-open [PR #60 study](https://github.com/dakleyer/structural-awareness-contributions/pull/60) and its [PR #59 correction](https://github.com/dakleyer/structural-awareness-contributions/pull/59) are specifically relevant prior internal work. We reuse F1 and D1–D7 only in their mathematics; we do **not** copy the ACC/social reduction, its agent product configuration, or a mandatory B/C/D role partition.
 
