@@ -1,11 +1,11 @@
 # Structural Awareness — Mathematical Utility of Metasyntactic Operations
 
-**Part II · Source-grounded mathematical synthesis v0.2 · 27 October 2026**  
+**Part II · Source-grounded mathematical synthesis v0.3 · 27 October 2026**  
 **Research object:** structural utility of metasyntactic operations, not a particular agent implementation or architecture vocabulary.  
 **Disposition:** scholarly working mathematical reconstruction for independent review; **no new empirical campaign, simulator, benchmark or formal theorem-prover certification**.  
 **Intellectual lineage:** Iván Abril Palma, original mathematical and information-theoretic corpus. Reconstruction connects the *actual original text*, the R-source mathematical audits, and the open [mathematical PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60). New integrative propositions are explicitly distinguished from standard mathematics.
 
-**Continuity and custody:** this stable v0.1 filename is retained for existing references, but this is active **v0.2**. The previous full v0.1 development is preserved in the [historical research snapshot](./archive/2026-10-27_METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1_WORKING.md), and its original bytes remain available in Git history. [Part I](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md) establishes the *relative expressive and typed-resilience architecture*; the present paper asks what the existing mathematical lineage actually permits us to derive about **utility**. A [source-to-claim ledger](./METASYNTACTIC_UTILITY_SOURCE_PROVENANCE_v0.1.md) gives the detailed reading route and forbidden extrapolations.
+**Continuity and custody:** this stable v0.1 filename is retained for existing references, but this is active **v0.3**. The previous full v0.1 development is preserved in the [historical research snapshot](./archive/2026-10-27_METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1_WORKING.md), and its original bytes remain available in Git history. [Part I](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md) establishes the *relative expressive and typed-resilience architecture*; the present paper asks what the existing mathematical lineage actually permits us to derive about **utility**. A [source-to-claim ledger](./METASYNTACTIC_UTILITY_SOURCE_PROVENANCE_v0.1.md) gives the detailed reading route and forbidden extrapolations. **The two-phase mathematical continuation** — [Value of an Unresolved Frontier and Contextual Syntax Requalification](./SA_META_VALUE_AND_CONTEXT_SYNTAX_REQUALIFICATION_TWO_PHASE_v0.1.md) — now records the main hypothesis that a *qualified property of the remaining unknown may outrank and be cheaper than additional established object data*, and separately specifies what is required to transform that diagnosis into different executable syntax. This continuation does **not** replace the source-by-source results developed in §§2–14.
 
 ## Abstract
 
@@ -480,12 +480,48 @@ The already authored [Part II v0.1 finite fixtures](./archive/2026-10-27_METASYN
 | SA-U6 typed missing facts | *About Cats, Boxes and Enterprise Management Decisions* (public source) | Historical three-way distinction; derived read-only/authorized-transition lemma; no reliable divergence oracle |
 | SA-U7/SA-U8 window class | *Semantic Window* two source papers; *Map–Flow Bridge* | Source A1/A2/A3 conditional claims; new explicitly scoped bias–variance and information-refinement consequences |
 | SA-U9/SA-U10 synthesis | Source strands above and Part I | Nonempty **mathematical positive subclasses** with exact assumptions; strong same-info comparator equivalence |
+| SA-V1–SA-V7, two-phase continuation | **FH-C/FH-E** as existing *foundational hypotheses*; R03/R11/R12/R14/R16; contextual Semantic Window; PR #60 D1/D3/D7 + PR #59 correction | Parametric source-qualified **relative relevance and conditional computational-price existence**, independently from effective syntax-requalification conditions; **no promoted field causal result** |
 
 **External known mathematics rather than new priority:** Shannon (1948), Kullback–Leibler (1951), Blackwell (1953), Kleene/Post c.e. characterizations, Kolmogorov complexity, group invariants, weighted set cover, simple minimax/decision theory, elementary mean MSE. Scientific novelty, if any, would concern the **qualified composition across semantically different processes, types, sources and questions**, not rediscovery of those general mathematical theorems.
 
 **Open scientific obligations:** independent verification of the original papers' edition-specific statements; proof checking of claims promoted from R-reviews; validity of supplied source qualifications M; choice of a legitimate probability model or a nonprobabilistic alternative; exact semantic-window conditions on changing contexts; operational feasibility of qualified proof reuse; and exclusion of hidden changes in source rights or receiving questions.
 
-## 15. Conclusion — the mathematical meaning of utility
+## 15. Two-phase mathematical continuation — relative value of an unresolved property and contextual requalification
+
+**Upstream scientific status.** The [Integrated Foundation v0.5, §1.0](../ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and [01A-A01 research hypotheses FH-C/FH-E](../ecosystem-awareness/baseline/01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) already recorded, on 24 October, a comparative idea: in a qualified class of mission changes, **recognizing what the current representation fails to establish may matter more than gaining domain facts**, and a sufficiently qualified representation of that limit **may consume less computation** than broader subject-domain determination for the **same receiving question**. Those are **application-specific hypotheses recorded in main**, not mathematical proofs of their empirical causal/cost ordering. The [PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60) remains unmerged; it supplies formal congruence, changed-question and partial-proof machinery, subject to the [PR #59 correction](https://github.com/dakleyer/structural-awareness-contributions/pull/59) for incremental query coverage.
+
+The independent [SA-MATH-VALUE-01, SA-V1–SA-V7](./SA_META_VALUE_AND_CONTEXT_SYNTAX_REQUALIFICATION_TWO_PHASE_v0.1.md) extracts the **mathematical two-phase problem** without using the social model or the A/B/C/D role taxonomy:
+
+**Phase I — comparative relevance and epistemic economy.** Fix an independently stated question \(R_c\), already obtained results O, potential additional determinate internal data Z, and a **legitimately obtained metasyntactic property** M about the boundaries, sources, context or unresolved distinctions of O. Under discrete conditional Shannon modelling and log loss:
+
+\[
+\boxed{
+R_{\log}^*(O,Z)-R_{\log}^*(O,M)
+=
+I(R_c;M\mid O)-I(R_c;Z\mid O).
+}
+\tag{25}
+\]
+
+M is strictly **more relevant for this target** than Z if the right side is positive. It is also **cheaper** only under a separate, equally scoped **source-generation/verification/communication cost** inequality. A constant, already-known OPEN claim can be correct but yield zero conditional information gain. SA-V3 provides an **arbitrarily large parametric finite family** in which a formerly task-critical determined feature becomes irrelevant after the question changes, more internal facts contribute zero new target information, and **one externally source-qualified property** gives one bit of conditional target information while another hidden constituent remains unrecognized. This is a constructed existence proof under an admitted source and declared costs, not a general assertion about actual unknown populations.
+
+Separate from information gains, SA-V4/SA-V5 preserve **R11 and R12's proof-verification asymmetry**: a finite counterexample certificate can be easy to verify while finding it may be expensive; a previously obtained proof can be cheaper to reuse than to reconstruct, given exact scope, cost and qualification conditions. Hence the “information from non-determination is computationally cheaper” hypothesis has **multiple mathematical senses** and cannot be reduced to a short tag or Shannon entropy.
+
+**Phase II — change the executable syntax only with a qualified constructive route.** If the metaprocess proves an old representation insufficient for the changed \(R_c\), it can identify **which target-relevant distinctions remain unresolved**. This is a proof about the old programme, **not** the true hidden answer. A new effective object-level programme exists for the declared scope **if an obtainable finite set of admissible new observations Q and an effective decoder h** make the target factor through the enriched observation:
+
+\[
+r_c=h\circ(O,Q),\qquad
+\mathcal P_c'=h\circ(O,Q).
+\tag{26}
+\]
+
+Queries Q are selected against \(\mathcal U_{r_c\mid O}\), the **target-conflicting pairs not already distinguished by O** (PR #59), not against every differing-state pair. If no permissible Q or effective h exists, the diagnosed insufficiency remains useful for qualification, but an exact new syntactic programme has **not** been obtained.
+
+The two stages have different outputs and scientific burdens: **(I) a metasyntactic relevance/insufficiency/value statement; (II) a syntactic construction or reconfiguration conditional on new qualified evidence**. That is the correct mathematically constrained reading of “use what is known about the unknown to revise the syntax”. It neither identifies every element of A′ nor grants new Turing computability. An equally informed conventional programme can implement the same functions and tie when source access, design and full resource costs genuinely match.
+
+The detailed [SA-V1–SA-V7 proofs, cost conditions, counterexamples and original-source mapping](./SA_META_VALUE_AND_CONTEXT_SYNTAX_REQUALIFICATION_TWO_PHASE_v0.1.md) are kept separately so that the present Part II's Shannon, entropy, preimage, proof-reuse and semantic-window developments remain intact.
+
+## 16. Conclusion — the mathematical meaning of utility
 
 **Metasyntax becomes mathematically useful not by enumerating A′, but by making some operation on a bounded representation or its source qualifications possible which the narrower representation cannot justify.**
 
@@ -507,3 +543,5 @@ The strongest defensible result is conditional but substantive:
 \]
 
 All three can occur **without identifying the whole world or every individual in the remaining uncertainty**. The first is about source-qualified **information**, the second about **verification work**, and the third about the **meaning of a context**. No single one substitutes for the others. The forthcoming scientific stages may test whether and when these mathematical subclasses occur in operational ecosystems, but that is *not a premise or claimed conclusion* of the present paper.
+
+**Two-phase refinement:** the central hypothesis now has a precise mathematical form: a task- and source-qualified property of a still-open residual can outrank new internal determinations in conditional decision information and under specific total-cost assumptions, **then** a distinct constructive step may translate that diagnosis into a new executable syntactic representation. It does so only if suitable admissible Q and an effective decoder are available. See [SA-MATH-VALUE-01](./SA_META_VALUE_AND_CONTEXT_SYNTAX_REQUALIFICATION_TWO_PHASE_v0.1.md); FH-C's field-level causal dominance and FH-E's measured computational-economy claims remain **hypotheses**, not consequences automatically settled by this existence construction.
