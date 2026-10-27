@@ -1247,6 +1247,12 @@ There are now **two independent axes** in the comparison:
 
 **Research status:** TR-20 is a relative-definability result, TR-21 a conditional qualified-inference construction, TR-22 a conditional audit proposition. H-OUT/H-GROWTH/H-REACH/H-DETECT must **not** be inferred universally from OW-1 or from the original R03 combinatorial label-count theorem. The distinct practical question is whether the initialization agent can obtain reliable external scope premises and exploit them economically; those are **not automatically available by running more in-U syntax**.
 
+**Finite executable check:** [TR-20–TR-22 — external-U metasyntactic and initialization-contract fixture](./fixtures/EXTERNAL_U_METASYNTACTIC_DIAGNOSTICS_v0.1.mjs). Its **28 finite assertions were executed in the JavaScript authoring runtime**: U-minus-A is empty even when a synthetic hidden peer exists; the closed and open programmes retain the same ordinary execution data; a properly *assumed prequalified* H-OUT/H-GROWTH certificate enables a true exterior-existence meta-report without naming its members; absent H-OUT the outside question remains UNDETERMINED; H-REACH without a finite detection promise does **not** mark a zero discovery as a code fault; and only an applicable H-DETECT guarantee can support an INIT_CONTRACT_VIOLATION. The fixture does **not** independently authenticate H-OUT, verify a physical environment or machine-check an infinite theorem. To reproduce from repository root:
+
+~~~sh
+node research/structural-awareness/fixtures/EXTERNAL_U_METASYNTACTIC_DIAGNOSTICS_v0.1.mjs
+~~~
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
