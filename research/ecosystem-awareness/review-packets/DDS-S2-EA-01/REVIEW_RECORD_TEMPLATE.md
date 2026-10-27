@@ -1,7 +1,7 @@
 # DDS-S2-EA-01 — Independent S2/00F Requirements Review Record (template)
 
 **Status:** BLANK TEMPLATE — no external audit has been performed.  
-**Read first:** [DDS-S2-EA-01 v0.2.1 — work order](./README.md). Make **one reviewer-owned findings record**, keep detailed conflicts private, and submit through the agreed PRIVATE_INTAKE or consented PUBLIC_PR procedure in §6. Never overwrite this template or frozen technical sources.
+**Read first:** [DDS-S2-EA-01 v0.2.2 — work order](./README.md). Make **one reviewer-owned findings record**, keep detailed conflicts private, and submit through the agreed PRIVATE_INTAKE or consented PUBLIC_PR procedure in §6. Never overwrite this template or frozen technical sources.
 
 ## A. Reviewer identity, evidence freeze and independence
 
@@ -16,6 +16,7 @@
 - Original UC21/S2 case cut, `dakleyer/use-cases`: `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`
 - Evidence class actually inspected: `DOCUMENTARY`; optional `PREVIOUS_SYMBOLIC` / `CURRENT_REPRODUCTION` (only if really performed)
 - Scope exclusions / sources I could not access: `PENDING`
+- If the already approved working S10 delta addresses an issue noted in the frozen text, one brief cross-reference/disposition is enough; preserve edition labels and do not duplicate the full review: `PENDING / NOT_NEEDED`.
 
 ## B. Review question and nomenclature
 
@@ -55,7 +56,8 @@ Allowed **adequacy** status: `SPECIFIED` / `CONDITIONAL_OR_UNDER_SPECIFIED` / `G
 - Any real source-native 00F `R1 PASS` (not assumed from the “Freeze Edition” title): `PENDING / NOT_VERIFIED`.
 - Variant family, preregistration, independent selection/custody SHA and chronology for **scored** R3: `PENDING / NOT_SUPPLIED`.
 - Are published V8 and 00L available only as historical/documentary examples, not blinded R3? `PENDING`.
-- Does a strong peer tie/better performance count as a negative EA differential? `PENDING`.
+- Separate known-case solvability or post-disclosure repair parity from blind prospective comparison: what was known, by whom and when, and what preparation/adaptation cost is evidenced? `PENDING`.
+- Does a peer match/better result arise in an admissible blind prospective comparison at equal/lower all-in burden, or only in the published specified pair? Limit any negative differential to the actually tested conditions: `PENDING`.
 
 ## E. R2 preparation and comparison-burden check
 
@@ -70,7 +72,7 @@ Allowed **adequacy** status: `SPECIFIED` / `CONDITIONAL_OR_UNDER_SPECIFIED` / `G
 | R3 observation, requalification, delay, false alerts and human load | `NOT_MEASURED` | `NOT_MEASURED` | `PENDING` |
 | Shared costs, amortization, time horizon, excluded items | `NOT_MEASURED` | `NOT_MEASURED` | `PENDING` |
 
-- Is technical adequacy kept separate from actual cost-risk-effectiveness? `PENDING`
+- Is technical adequacy kept separate from actual cost-risk-effectiveness, including diagnosis, failed repair attempts, expertise, integration and sustained readiness before a future change? `PENDING`
 - Any unfair knowledge, data, authority, oracle, compute or human capacity advantage? `PENDING`
 
 ## F. Mandatory adversarial probes and existing 00L result
@@ -79,7 +81,7 @@ Allowed **adequacy** status: `SPECIFIED` / `CONDITIONAL_OR_UNDER_SPECIFIED` / `G
 |---|---|
 | **N1:** blanket indefinite HOLD on V0 incorrectly called S2 safe success | `DETECTED / NOT_DETECTED / UNCLEAR — PENDING` |
 | **N2:** public V8 called blind R3 and R2 configuration/prior knowledge treated as free | `DETECTED / NOT_DETECTED / UNCLEAR — PENDING` |
-| **A14/00F factual replay:** `fire_slot=10` route & strong peer = `REQUALIFY`; `fire_slot=11` both `EXECUTE_ALL` | Reviewer independently checked corrected v2 JSONL at commit and section: `PENDING`. Does this limited peer tie negate a claim of measured EA advantage? `PENDING` |
+| **A14/00F factual replay:** `fire_slot=10` route & strong peer = `REQUALIFY`; `fire_slot=11` both `EXECUTE_ALL` | Reviewer independently checked corrected v2 JSONL at commit and section: `PENDING`. Does the record establish only agreement on the known symbolic case, while blind prospective parity and total preparation/burden remain unestablished? `PENDING` |
 | **A23 limit:** P3/P5/P6 implication not closed, so global conformance⇒P1–P6 cannot be claimed | Scope and effect on S2 sufficiency argument: `PENDING` |
 | Your **one bounded counterexample** (or explicit reason none found) | Source assumptions, local state, expected requirement response, proposed falsifying behaviour and missing evidence: `PENDING` |
 
