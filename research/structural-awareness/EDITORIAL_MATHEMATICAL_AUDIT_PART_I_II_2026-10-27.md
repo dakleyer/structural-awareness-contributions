@@ -163,6 +163,8 @@ The active Part II was **rewritten as a mathematical, original-source-grounded s
 | **SA-MATH-CROSS-01** | Alternate normalized additive 4D sample 2→3.82 and certified lower 3.78 | Different objective/scaling; 27-check authored finite fixture, not a rerun of the ACC physical experiment |
 | **SA-MATH-CR-01** | Alternate sign-side residual **two-world separation**, same four original DROP outputs for high/low; additive 4D base 2.40 and high sample 3.47 gross / 3.37 after stipulated transition cost | 33 authored finite assertions, no external source cryptographic verification or live multiagent measurement |
 
+**PR57 physical-bridge audit (SA-CR3):** the original AG01 response for k=2 and coordination overhead h=.25 is \(Y(2)-10=(2-.25)m_B-2\). A legitimate source guarantee \(m_B\ge1.6\) gives a **0.8 lower-bound gain**, and referee synthetic truth m_B=2 gives the old **1.5 realized gain** (10→11.5). The new qualified four-observer meta-cartography does **not derive** its original productivity source Q from De Morgan or the four-dimensional toy objective: the current PR57 overlay stipulates **a separate class-to-Q source-qualification link**. [SA-CR3](./SA_COLLECTIVE_RESIDUAL_INTERSECTION_AND_EVENT_PROMOTION_v0.1.md#7-sa-cr3--the-explicit-remaining-bridge-to-pr-57s-actual-physical-score) records the precise needed implication. Do not treat source AG01 as empirically validated by a geometric label.
+
 **Mathematical review gates.**
 
 1. **Typed De Morgan, not probabilistic agreement.** For one qualified interpreted domain Ω, \(\Omega\setminus\bigcup_i S_i=\bigcap_i(\Omega\setminus S_i)\). But **UNKNOWN/timeout is not semantic \(\neg S_i\)**, and the common intersection may be empty.
