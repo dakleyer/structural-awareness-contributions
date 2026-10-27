@@ -194,9 +194,8 @@ Define \(Q_1,\ldots,Q_m\) as a **separately specified** finite menu of eligible 
 **Theorem SA-V6 (conditional metasyntax-to-syntax requalification).** Fix a declared class W and changed target \(r_{c_1}\). If there exists an admissible, effectively evaluable finite subfamily \(J\subseteq\{1,\ldots,m\}\) such that
 
 \[
-o(w)=o(w')
-\ \land\
-\bigwedge_{j\in J}Q_j(w)=Q_j(w')
+\bigl[o(w)=o(w')\ \land\
+(\forall j\in J:\, Q_j(w)=Q_j(w'))\bigr]
 \quad\Longrightarrow\quad
 r_{c_1}(w)=r_{c_1}(w')
 \tag{12}
