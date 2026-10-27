@@ -20,7 +20,25 @@ The results in this note are best understood as **architectural principles for o
 
 **Implementation-neutral equivalence principle.** An independently designed system that transfers the same source evidence, open-frontier semantics and receiver qualifications may be information-isomorphic, whatever its technology or names. **It is not the strict closure-only comparator of §6.12**, because it already represents outside-A semantic obligations. A/A′ describes the **reference semantic obligations**, not an exclusive software product.
 
-**Separate four claims:** (1) the open-world computability frontier of L1/OW-1; (2) **strict semantic claim expressivity** over the expressly defined closure-only comparator (TR-10); (3) the finite-message **weak decision-information order** of TR-4; and (4) **strict or net operational value** on a specified task. (1) and (2) have proofs under their stated premises; (3) requires an independently defined receiving task, admissible additional evidence, capable comparators and a cost/authority contract. The [open mathematical-lineage PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60) develops such a bounded study as **Stage A**, not as an established universal performance theorem.
+**Separate four claims:** (1) the open-world computability frontier of L1/OW-1; (2) **strict semantic claim expressivity** over the expressly defined closure-only comparator (TR-10); (3) the finite-message **weak decision-information order** of TR-4; and (4) **strict or net operational value** on a specified task. (1)–(3) have proofs under their respective hypotheses, with (3) fixing the same receiving task, permissible actions and optional extra information; a positive net result in (4) needs additional cost, rights and independent performance evidence. The [open mathematical-lineage PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60) develops such a bounded study as **Stage A**, not as an established universal performance theorem.
+
+---
+
+## Architectural comparison at a glance
+
+**The same algorithms; different external semantic contracts.** In the comparison formalized below, a conventional **closure-first** architecture executes K to establish an operational frame A and then D to produce \(A_1\subseteq A\), reporting only claims expressible inside A. The **open-ecosystem** architecture may run precisely the same composite \(\mathcal P=D\circ K\), with identical run results, but **does not identify K's finite scope with the complete relevant world**. It reports qualified findings from the *entire* composite and an **open A′ frontier** for the original meaning that those findings have not exhausted.
+
+| Closure-first K → A → D → A₁ | Open ecosystem \(\mathcal P\) → \(A_r\) and A′ |
+| --- | --- |
+| K is treated as supplying the **full represented universe** for all exported claims. | K is one **bounded subroutine** whose results and limitations are assessed like D's. |
+| D may correctly handle in-A statuses, including **observed** indeterminate cases. | All those same statuses can be retained; **nothing** has been gained by solving a new halting problem. |
+| The **export language** is deliberately restricted to A. | The export language also expresses the **non-enumerated, non-closed semantic frontier** A′. |
+| Demanding a total, infallible semantic/metadecidability split over an H-EXP/H-REQ class would require the **forbidden oracle**. | No exhaustive split is demanded: the result is **finite certified output plus an explicitly open residual**. |
+| A correctly bounded local answer is allowed, but **does not close the outside world**. | The representation is **complete about its epistemic coverage**, not about the truth of every external case. |
+
+This produces **two distinct mathematical comparisons**: *weak decision-information dominance inside the same observed A* (possibly equality if a closed system already preserves all observed unknowns), and *strict expressivity of claims about the open A′ frontier* against an interface that expressly forbids such claims. The latter does **not require naming any element of A′**. A system which represents an equivalent A′ frontier, by whatever technology, is by definition **not** the strict closure-only comparator.
+
+**Notation.** The comparative working frame A and run output \(A_r\) are distinct from **§1's \(A_{\mathrm{proc}}\)** (executable procedure plus intended task) and from the adopted **00M A** (delivered functional result). The full procedure is denoted \(\mathcal P\); no proof relies on silently equating these objects. Sections 6.16–6.21 and TR-12–TR-14 give the precise arguments.
 
 ---
 
@@ -669,7 +687,7 @@ which is a decider of the diagonal halting set and is impossible.
 
 **(iii) Uniformly correct meta-classification of which arbitrary programs have an entirely decidable response domain.** This different question is **also** undecidable on the explicitly multi-request expressive family H-REQ of OW-5b/R07-P2. An exact total checker for that program-index property would decide ordinary halting. The H-REQ premise is necessary: H-EXP alone addresses the fixed request in (ii), not decidability of every request domain.
 
-**Theorem TR-12 (no universal semantic closure gate).** Under H-EXP, no effective closure stage K, isolated or effectively composed with D and any finite/adaptive computable verifier chain, can provide the complete error-free **semantic YES/NO separator** of (ii) over all admitted peer descriptions. Under H-REQ, neither can it provide the total correct **decidable-domain meta-separator** of (iii).
+**Theorem TR-12 (no universal semantic closure gate).** Under H-EXP, no effective closure stage K, isolated or effectively composed with D and any finite/adaptive computable verifier chain, can provide the complete error-free **semantic YES/NO separator** of (ii) over **the entire H-EXP family of admissible peer descriptions**. Under H-REQ, neither can it provide the total correct **decidable-domain meta-separator** of (iii) over **the entire stated H-REQ family**.
 
 **Proof.** For (ii), compose any alleged K/D/verifier separator into a single effective procedure and apply (35), contradicting the halting theorem. For (iii), apply OW-5b's H-REQ program-index reduction: the ability to correctly classify whole-domain decidability from a code would again decide halting. \(\square\)
 
