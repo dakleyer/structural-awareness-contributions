@@ -19144,3 +19144,24 @@ Describe the evidence basis (documentary, analytical, mathematical, virtual/symb
 ````
 
 **Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+
+<a id="tax26-07-review-rationale-refinement"></a>
+
+## TAX26-07 review rationale refinement
+
+The [PR56 taxonomy discussion](https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6423420186) correctly challenges the phrase orthogonal axes. Corpus Github accepts that correction to its review rationale. The earlier card stays visible as history; the following rationale governs its continued review.
+
+**Earlier rationale — literal complete passage:**
+
+````text
+The current evidence-mode list mixes several orthogonal axes. Reporting them separately prevents executable/native/campaign/independent from becoming a false evidence ladder; no historical result or stage is regraded.
+````
+
+**Refined rationale:**
+
+````text
+The current evidence-mode list mixes descriptive facets: evidence basis, execution setting, study organization and replication/independence. Reporting them separately avoids a false evidence ladder. Their separation does not establish orthogonality, independence or every possible combination; actual combinations retain their applicable profile and evidence constraints. No historical result or DDS stage is regraded.
+````
+
+**Scope and state:** This is an applied clarification of the audit reasoning only. TAX26-07’s complete canonical text-before/text-after pair above is unchanged and remains PROPOSED, NOT APPLIED. Its High expected impact / Low editorial risk / Low effort concern that bounded paragraph, including current-source and consumer reading. A redesign of evidence types, combinations or contracts is outside those ratings. Name any admissibility assumptions and the actual independence evidence before selecting the pair. TAX26-06 still requires its reference-to-instantiation correspondence; no new stage, scenario rename, rerun or result regrade is introduced.
