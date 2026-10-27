@@ -126,7 +126,32 @@ The separately committed [four-agent Stage-1/2/3 fixture](./fixtures/COLLECTIVE_
 
 A later explicit N-agent extension to the bounded portfolio/network models should freeze matched budget, authorized actions, source-origin integrity, arrival stream, decoder, certified score/feasibility condition, logging cost, independent referee and strong conventional peer. **This document does not edit the PR branches or assert completion of that further experiment.**
 
-## 7. Falsifiers and conclusion
+## 7. SA-CR3 — the explicit remaining bridge to PR #57's actual physical score
+
+The original [PR #57 AG01 model](https://github.com/dakleyer/structural-awareness-contributions/blob/research/acc-agentic-ecosystem-reduction-v0.1-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/README.md#2-sistema-físico-mínimo-recursos-interfaces-y-rol) has two **resource-holding providers** with 6+4=10 units, donor productivity 1, recipient unknown private marginal rate \(m_B\) and coordination overhead \(h=0.25\). Under its already declared action and rights, the change produced by transferring k=2 resource units is:
+
+\[
+Y(2)-Y(0)=(2-0.25)m_B-2.
+\tag{8}
+\]
+
+The source's Q claim gives a **qualified lower rate** \(m_B\ge1.6\) over that admitted transfer range; then the conditional **guaranteed** gain is:
+
+\[
+\boxed{m_B\ge1.6\Longrightarrow Y(2)-10\ge
+1.75(1.6)-2=0.8.}
+\tag{9}
+\]
+
+For the **separate independent referee's synthetic truth** \(m_B=2\), the realized gain is 1.5, giving **Y=11.5** versus the technical but not fully available **13.5**. These are **the actual source units**, not the 2.4/3.37 objective of §4.
+
+**SA-CR3 (conditional physical-bridge statement).** A cartographically qualified residual event can correctly trigger PR #57's existing k=2 action with the bounded guarantee (9) **only if an independently legitimate mapping proves that its meta-properties entail the source Q assertion \(m_B\ge1.6\) for this task and time**, that a matching event is actually received, and that the *original* capability, consent, authority and coordination gates apply. The algebraic benefit then follows from (8)–(9). **Proof:** apply the independently certified implication, then substitute its lower bound into the physically fixed source response. \(\square\)
+
+**Crucial remaining mathematical/evidential obligation:** the [new PR57 arrival overlay](https://github.com/dakleyer/structural-awareness-contributions/blob/research/acc-agentic-ecosystem-reduction-v0.1-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/META_CARTOGRAPHY_EXTENSION_v0.1.md) currently treats that **class-to-Q link as a newly assumed synthetically qualified source**; De Morgan and the four-dimensional objective **do not derive** the recipient's real marginal-rate certificate. A sound source/physical correspondence remains to be established in a later experiment. The software overlay is valid as an **assumption-explicit simulation**; it does not close this evidential gap by constructing metadata alone.
+
+This distinction prevents two opposite false claims: (i) that the original PR #57 automatically had an event-arrival gate, and (ii) that source AG01's 10→11.5 is a measured consequence of the purely geometric meta-label. The geometric witness establishes **logical separation and a score bound in its own declared model**; the ACC score follows only from a **source-qualified physical bridge**.
+
+## 8. Falsifiers and conclusion
 
 The strong claim **fails or becomes conditional** if (i) the common exterior is empty; (ii) negative membership was inferred from mere UNKNOWN; (iii) claims from different events are joined; (iv) a qualified property gives no lower bound for the target; (v) the actual stream never hits the region; (vi) action authority or execution capability is absent; (vii) a source claim is false or stale; (viii) a competing program already retains the same data/proofs; or (ix) costs eliminate the gain. The originally deployed syntactic filter cannot process a residual event which it **irreversibly discarded**; a better equipped ordinary system can implement the same metalevel retention and is thereby outside the strict closure-only comparator.
 
