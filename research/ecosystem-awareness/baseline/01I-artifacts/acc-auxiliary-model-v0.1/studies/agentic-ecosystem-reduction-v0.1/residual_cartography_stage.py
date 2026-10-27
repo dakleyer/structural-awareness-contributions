@@ -30,6 +30,7 @@ class Observation:
     source_scope: str
     features: tuple[float, ...]
     captured_before_admission: bool = True
+    first_capture_observer_id: str | None = None
 
 
 def fixture_case(case_id: str = REFERENCE_AG01) -> dict:
@@ -69,7 +70,8 @@ def common_cartographic_label(claims: list[dict], *, source_scope: str) -> dict:
     event_ids = {c["event_id"] for c in claims}
     origins = {c["observer_id"] for c in claims}
     scopes = {c["source_scope"] for c in claims}
-    if len(event_ids) != 1 or len(origins) != N_OBSERVERS or scopes != {source_scope}:
+    required_origins = {"observer-" + str(i) for i in range(N_OBSERVERS)}
+    if len(event_ids) != 1 or origins != required_origins or scopes != {source_scope}:
         return {"joint_region": False, "reason": "SOURCE_OR_EVENT_MISMATCH"}
     if all(c["finding"] == "CERTIFIED_OUTSIDE_LOCAL_A" for c in claims):
         return {"joint_region": True, "reason": "DEMORGAN_QUALIFIED_CONJUNCTION",
@@ -79,6 +81,10 @@ def common_cartographic_label(claims: list[dict], *, source_scope: str) -> dict:
 
 
 def qualified_event(event: Observation, *, required_scope: str) -> dict:
+    if (event.first_capture_observer_id is not None
+            and event.first_capture_observer_id not in
+            {"observer-" + str(i) for i in range(N_OBSERVERS)}):
+        return {"joint_region": False, "reason": "INVALID_FIRST_CAPTURE_SOURCE"}
     claims = [local_claim(event, i) for i in range(N_OBSERVERS)]
     return common_cartographic_label(claims, source_scope=required_scope)
 
@@ -161,6 +167,7 @@ def three_stages(*, case_id: str = REFERENCE_AG01,
         schema_notice = {
             "schema": "SA-META-CARTOGRAPHY-QUALIFICATION-v0.1",
             "event_id": candidate.event_id,
+            "first_capture_observer_id": candidate.first_capture_observer_id,
             "source_scope": source_scope,
             "rule_version": 1,
             "meta_label": "COMMON_RESIDUAL_CANDIDATE",
@@ -192,6 +199,8 @@ def three_stages(*, case_id: str = REFERENCE_AG01,
         "stage_3": final,
         "matched_conventional_with_same_q": matched,
         "candidate_event_id": candidate.event_id if candidate else None,
+        "first_capture_observer_id":
+            candidate.first_capture_observer_id if candidate else None,
         "meta_label": meta,
         "candidate_quality_scored_by_separate_geometry_only":
             (geometric_referee_value(candidate.features) if candidate else None),
@@ -207,7 +216,8 @@ def example_events() -> tuple[Observation, ...]:
         Observation("routine-4", 4, CROSS_SOURCE_SCOPE,
                     (0.20, 0.40, 0.30, 0.50)),
         Observation("previously-unclassifiable-7", 7, CROSS_SOURCE_SCOPE,
-                    (0.90, 0.85, 0.80, 0.95)),
+                    (0.90, 0.85, 0.80, 0.95),
+                    first_capture_observer_id="observer-2"),
     )
 
 
@@ -228,6 +238,8 @@ def main() -> dict:
         "stage_2_claimed_near_gain":
             x["stage_2"]["second_order_claimed_but_blocked_lower_bound"],
         "stage_3_captured": x["candidate_event_id"],
+        "stage_3_first_capture_observer":
+            x["first_capture_observer_id"],
         "stage_3_label": x["meta_label"]["meta_label"],
         "stage_2_cartography": x["stage_2_source_cartography"],
         "stage_3_rule_message": x["stage_3_meta_syntax_message"],
