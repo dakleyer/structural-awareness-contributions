@@ -1,14 +1,28 @@
 # From A to A′: Open Meaning and Semantic Transfer Between Agent Ecosystems
 
-**Structural Awareness Programme · Mathematical Contributions · Working research companion v0.2 · 27 October 2026**  
-**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.2**, recorded by the GitHub revision.  
+**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.3 · 27 October 2026**  
+**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.3**, recorded by the GitHub revision.  
 **Logical subject:** SA-MATH-TR-01 · **Relationship:** mathematical continuation of [OW-1–OW-11, effective non-closure and repeated runs](./OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md).  
-**Status:** conditional mathematical construction, intended for mathematical review. AI-assisted authoring at the research owner's request; not independently formalized in a proof assistant and not an adopted protocol or A/B/C/D definition.  
+**Status:** architecture-level mathematical principles with bounded formal proofs and explicit operational conditions, intended for independent review. AI-assisted authoring at the research owner's request; not an implementation prescription, a new ResearchGate theorem, a formally verified program, or a modification of the canonical A/B/C/D vocabulary.  
 **Scientific lineage:** Iván Abril Palma, *Practical Incompleteness* (L1); *The Projection Mechanism* (2025 and distinct 2026 fourth revision); *The Projected Infinite Paradox*; [00M mathematical plausibility and canonical A/B/C/D](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical).
 
 ## Abstract
 
-A finite agent execution can deliver exact local results without settling the semantic task to which its procedure refers in an open world. When a source ecosystem sends only execution traces to a receiving ecosystem, the receiver may acquire extensive data without enough information to reconstruct the **general question** that those executions were intended to address. When it instead sends a run-local result as a **globally closed set**, it exports an unsupported exhaustiveness claim. The proposed semantic carrier separates **A, the procedure and its declared task**, from **A′, its open non-determination frontier**. A/A′ is not a sum of extensional sets and does not require enumeration of unknown agents. We prove a trace-only nonfactorization result, a false-closure transfer result, and a conditional soundness statement for semantic transfer through a qualified correspondence between the source and receiver's questions. A further result identifies the **weak information dominance** of a signal preserving witnessed boundary information over a reduced signal that discards it, without giving either machine the power to compute A′. The B/C/D distinctions are treated as **partial, process-relative abstractions of the open frontier**, each retaining its own primed non-closure rather than forming a mandatory exhaustive partition. The receiver can thereby preserve **meaning and honest incompleteness** without being given a purported universal semantic oracle or a completed list of every unknown case.
+A finite agent execution can deliver exact local results without settling the semantic task to which its procedure refers in an open world. When a source ecosystem sends only execution traces to a receiving ecosystem, the receiver may acquire extensive data without enough information to reconstruct the **general question** that those executions were intended to address. When it instead sends a run-local result as a **globally closed set**, it exports an unsupported exhaustiveness claim. The proposed semantic carrier separates **A, the procedure and its declared task**, from **A′, its open non-determination frontier**. A/A′ is not a sum of extensional sets and does not require enumeration of unknown agents. We prove a trace-only nonfactorization result, a false-closure transfer result, and a conditional soundness statement for semantic transfer through a qualified correspondence between the source and receiver's questions. A further result identifies the **weak information dominance** of a signal preserving witnessed boundary information over a reduced signal that discards it, without giving either machine the power to compute A′. The B/C/D distinctions are treated as **partial, process-relative abstractions of the open frontier**, each retaining its own primed non-closure rather than forming a mandatory exhaustive partition. The receiver can thereby preserve **meaning and honest incompleteness** without being given a purported universal semantic oracle or a completed list of every unknown case. This contribution is presented as **implementation-neutral architectural principles**—resilience to indeterminate encounters, preservation of justified source information and weak informational dominance relative to a specifically lossy representation—not as an exclusive technology architecture. The correct equivalence relation is informational: any independently implemented system conveying the same task-relevant distinctions is equivalent. Global maximality of all possible information does not follow from Gödel/Turing; the defensible target is faithful preservation of **currently qualified** information without fabricated closure.
+
+## Architectural reading — mathematical principles, not a branded implementation
+
+The results in this note are best understood as **architectural principles for open agentic ecosystems**, obtained by transporting and clarifying ideas from the author's broader mathematical programme, not as the design specification for one proprietary metaprotocol. The author's prior ResearchGate papers include [*Practical Incompleteness*](https://www.researchgate.net/publication/393799525_Practical_Incompleteness_A_Set-Theoretic_Framework_for_Concrete_Decision_Procedures), [*The Projection Mechanism* (2025)](https://www.researchgate.net/publication/393802750_The_Projection_Mechanism_How_Practical_Incompleteness_Infiltrates_Formal_Systems), and [*The Projected Infinite Paradox*](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism); the distinct [2026 fourth revision of *The Projection Mechanism*](https://drive.google.com/file/d/1OrJ2LWz2qBv2sP8_-VNldWpctxZdwcfI/view) also develops the “Given Universe” boundary. This note **does not assume the strongest historical claims have thereby been proved**. Its formal assertions are TR-1–TR-6 and the limited consequences developed below.
+
+**Resilience principle.** An agent's operational contract should be able to preserve a correct result, record an encountered INDETERMINATE, and carry forward a non-closed meaning without pretending that an observed finite history constitutes the whole world. A correctly implemented system can thereby avoid *specified forms* of false closure and related propagation errors, while managing resource bounds, timeouts and recovery. This is a **resilience affordance**, not a guarantee that every failure is prevented.
+
+**Information-preservation principle.** Source-to-receiver transfer should preserve all **qualified distinctions actually available and relevant to the declared transfer task**, rather than silently projecting them onto an artificially closed list of results. The receiver may use the extra information or ignore it. The existing TR-4 weak-dominance result is precisely this *optional information refinement*.
+
+**Implementation-neutral equivalence principle.** A conventional distributed system, proof-carrying protocol, versioned policy engine or an independently designed agent network that transmits the same source evidence, open scope and receiving semantics is **not inferior by definition**. It may be informationally equivalent, and it may be more efficient. **A/A′ is a reference vocabulary for the semantic obligations, not the name of a unique implementation.**
+
+**Separate the three claims:** (1) the open-world computability frontier of L1/OW-1, (2) the finite-message information order of TR-4, and (3) any proposed **strict or net operational advantage** for a specified task. (1) and (2) have proofs under their stated premises; (3) requires an independently defined receiving task, admissible additional evidence, capable comparators and a cost/authority contract. The [open mathematical-lineage PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60) develops such a bounded study as **Stage A**, not as an established universal performance theorem.
+
+---
 
 ## 1. Names and mathematical objects
 
@@ -368,6 +382,115 @@ A/B/C/D remains the **owner-adopted vocabulary of 00M**; this source's A/A′/B�
 
 **Finite reproducibility check:** [A/A′ weak informational dominance and B′/C′/D′ boundary fixture](./fixtures/A_APRIME_WEAK_INFORMATION_DOMINANCE_v0.1.mjs). The 19 finite assertions were executed in the JavaScript research environment when the fixture was authored. The test recovers X from Y by forgetting, confirms optimal two-world meta-decision errors of **1/2 (X)** versus **0 (Y)**, verifies that Y **does not** decide an unobserved underlying truth, preserves individually qualified B assertions alongside unqualified cases, and keeps B′/C′/D′ frontier status OPEN even when one observed run has no unknowns. A separate overhead counterexample prevents interpreting informational dominance as cost dominance. The script is runnable independently with **node research/structural-awareness/fixtures/A_APRIME_WEAK_INFORMATION_DOMINANCE_v0.1.mjs** from the repository root. These finite constructed checks are **not** a machine verification of the unbounded L1 or TR-4 proof and do not authenticate a real source's certificates.
 
+### 6.7. Architectural principles AP-1–AP-6 and their exact mathematical support
+
+The architectural contribution can be stated without mandating a specific communication wire format, a central service, a particular A/B/C/D implementation, or an agent-specific deployment technology.
+
+| Principle | Architectural meaning | Mathematical route |
+| --- | --- | --- |
+| **AP-1 — Open-world determination frontier** | Do not assume every valid peer encounter or target statement has a computable universally definitive verdict. | L1/OW-1 and OW-6 under expressivity hypotheses. |
+| **AP-2 — Situated resilience** | Distinguish a successful run, an indeterminate semantic claim and the possibility of future open encounters. A finite result never silently asserts universal closure. | OW-3/OW-4, OW-7, OW-9; TR-1/TR-2. |
+| **AP-3 — Preserve qualified meaning across ecosystems** | Export the declared procedure/semantic target A, its open qualification A′, relevant witnessed evidence and a source-to-receiver correspondence. | TR-3 conditional soundness, plus receiving qualification in 00M/01J. |
+| **AP-4 — Non-erasure of witnessed limits** | Do not drop actually known, material source limitations or encountered unresolved cases when producing a supposedly equivalent reduced representation. | TR-4 deterministic information refinement; TR-5 strict finite witness. |
+| **AP-5 — Partial B/C/D abstraction** | Exploitation reserve, exploration and beyond-evaluation limits can be represented by task-relative, evidence-qualified roles while B′/C′/D′ remain non-exhaustive. | TR-6 and adopted 00M v0.8 semantics. |
+| **AP-6 — Representation independence** | Equivalently informative implementations are equivalent for decisions with the same admissible evidence/action model. Different labels, transport formats and architectures do not create an intrinsic advantage. | Information equivalence below; ordinary decision/refinement theory. |
+
+For resilience, **recognizing and retaining uncertainty is not the same as eliminating it**. A system may still reach a correct local decision despite an open global frontier; false-positive suppression, finite termination and suitable retry behaviour require their own engineering contracts. These principles are a mathematical representation of more general source ideas, **not** an automatic certification of operational robustness.
+
+### 6.8. Theorem TR-7 — informational equivalence and implementation-neutral isomorphism
+
+Fix an admissible world/task class \(W\) and two source-to-receiver information interfaces \(Y:W\to\mathcal Y\) and \(Z:W\to\mathcal Z\). Introduce the deterministic informativeness preorder
+
+\[
+Z\preceq Y
+\ \Longleftrightarrow\
+\exists g:\ \forall w\in W,\ Z(w)=g(Y(w)).
+\tag{23}
+\]
+
+Thus \(Z\preceq Y\) means Y can **reproduce** Z without accessing further world information; it does **not** say Y has better latency or costs.
+
+Define **informational equivalence** on W by
+
+\[
+Y\simeq_{\rm info} Z
+\quad\Longleftrightarrow\quad
+Z\preceq Y\ \land\ Y\preceq Z.
+\tag{24}
+\]
+
+**Theorem TR-7 (equivalence of distinctions).** For deterministic interfaces on a common domain W, the following are equivalent:
+
+(a) \(Y\simeq_{\rm info} Z\);
+
+(b) Y and Z induce exactly the same equivalence relation on world states,
+
+\[
+Y(w_1)=Y(w_2)
+\quad\Longleftrightarrow\quad
+Z(w_1)=Z(w_2)
+\quad(w_1,w_2\in W).
+\tag{25}
+\]
+
+**Proof.** If each signal is a function of the other, equal values of either imply equal values of the other, so the fibers agree. Conversely if the fibers agree, define \(g(Y(w))=Z(w)\) on the image of Y; equality of Y outputs ensures a well-defined Z output. Similarly define the reverse decoding function on the image of Z. \(\square\)
+
+This is an **isomorphism of information carried on the fixed admissible world class**, not an assertion of computational equivalence or equal acquisition/decoding cost unless the decoders are also effective under the declared resource envelope. For randomized channels, the corresponding concept uses stochastic Blackwell garbling and requires different hypotheses.
+
+**Consequence.** If a *conventional* receiver already exports the full procedure, relevant run evidence, recognized unresolved cases and the open-frontier meaning in a recoverable representation, then it may satisfy (24) with the A/A′-aware source. **No informational superiority can be claimed over that equivalent representation.** A system that simply uses different names for B/C/D, or represents those duties through proofs and policy contracts instead, may be exactly as strong for the declared receiving task.
+
+TR-4 still gives weak dominance over a specified **erasure baseline** \(X=g(Y)\). TR-7 prevents the weaker baseline from being rhetorically extended to **all** conventional systems.
+
+### 6.9. Maximality, the A′ tag and what incompleteness actually establishes
+
+A true theorem about the **global impossibility of an infallible semantic classifier** is **not** automatically a theorem that a particular information representation is maximal. The distinction can be proved rather than just asserted.
+
+**A′ as a constant structural fact.** If H-EXP and the unchanged global target are common knowledge, the simple flag “this task's open-universe semantic frontier exists” may have the **same value in every admissible world**. Appending a perfectly recoverable constant to an already qualified message cannot discriminate any additional pair of those worlds. In the terminology of (23)–(25), the bare constant OPEN flag may be informationally equivalent to the prior message **about the world variable W**, although it communicates an essential statement of the **task's interpretation/validity conditions** to recipients that had not been given that mathematical premise. A free decoder that can already derive the flag from the transmitted procedure and shared theory defeats any claim that the flag alone gives *strict* informational gain.
+
+**Observed boundary evidence is different.** A finite \(Z_{S,r}\) that records whether a previously unreported actual interaction became indeterminate can distinguish worlds that were identical under the reduced message X. This is exactly why TR-5 exhibits strict value for its **independent run-scoped receiver question**. The general A′ obligation and particular *observed* manifestations of that obligation should not be confused.
+
+**Proposition TR-8 (no globally maximal effective sound semantic resolver).** Under H-EXP, let \(C:\mathbb N\to\{0,1,\bot\}\) be any **total computable, sound** classifier for \(K_0\), where \(\bot\) means INDETERMINATE. In classical mathematics, there exists another total computable sound classifier \(C^+\) that agrees with every definitive verdict of C and makes a **strictly greater number of individually indexed cases definitive** (at least one extra).
+
+**Proof.** By OW-1, C outputs \(\bot\) at some fixed index \(e_\star\). The target truth value \(b=1_{K_0}(e_\star)\) is either 0 or 1. Define
+
+\[
+C^+(e)=
+\begin{cases}
+b,&e=e_\star,\\
+C(e),&e\ne e_\star.
+\end{cases}
+\tag{26}
+\]
+
+A program can compare e with this fixed index and hard-code the fixed b, so \(C^+\) is computable, total and sound; it strictly refines C's definitive outputs at \(e_\star\). The proof is **existential**: it does not give a uniform effective procedure for finding \(e_\star\) and b from arbitrary C. \(\square\)
+
+This proposition formalizes a point consistent with L1: **no particular total sound ordinary classifier closes the global question, yet more individual questions can sometimes be determined consistently.** Thus Gödel/Turing do **not** show that “if one adds any further valid distinction, inconsistency necessarily occurs.” Their relevant contribution is the **impossibility of a universally correct total decider over the expressive class**. Broad claims of an inconsistent universe or maximality of all information need an independent, well-typed theorem.
+
+The useful architectural substitute for unbounded maximality is **non-erasure relative to the actually qualified source information and the declared transfer task**: represent and communicate what the sender knows **and the limits on what those reports justify**. This may be a task-sufficient/faithful reference, but does not imply that no further legitimate source information could ever be added.
+
+### 6.10. From weak to strict decision improvement — and onward to the PR #60 Stage-A problem
+
+**Weak, already proved.** For a given reduced message X and an enriched message Y satisfying \(X=g(Y)\), every X-measurable decision can be reproduced using Y. Under the same feasible receiver actions and with uncharged information overhead, the best attainable expected loss with Y is no greater than with X (TR-4).
+
+**Strict for an independently fixed receiving task, already witnessed.** TR-5 constructs worlds with **identical X**, but distinct Y due to an actual unresolved encounter that X discards. Under equal prior and 0–1 loss for the recipient's question “did the run encounter an unresolved case?”, the optimum risks are \(1/2\) for X and 0 for Y. This proves **strict informational decision value for that specified task**, not global or universal superiority over every implementation.
+
+**A different stronger claim remains to establish.** For a *new mission or action*, one wants eligible supplemental observations that distinguish states previously conflated by the existing A-information, and that alter the recipient's **legitimate optimal decision**. The open [PR #60 formal core](https://github.com/dakleyer/structural-awareness-contributions/pull/60) studies: F1 (fiber sufficiency), D1 (operational congruence under a changed operation), D2 (finite refinement), D3 (mission-relevant additional queries), and D7 (costless optional information weakly reduces attainable loss). It explicitly classifies **strict practical advantage after costs** as **a hypothesis**, not an already established result.
+
+For a correct *incremental* question-selection problem, existing A cannot be discarded. Write \(o:W\to O\) for the receiver's **already available qualified observation**, \(Q_j\) for eligible supplementary questions and \(r:W\to R\) for the independently defined target. On a finite declared evaluation class \(\widehat W\), only **conflicting pairs left indistinguishable by the existing A** require new supplementary separation:
+
+\[
+U_{r\mid o}
+=\bigl\{\{w,w'\}\subseteq\widehat W:
+o(w)=o(w'),\ r(w)\ne r(w')\bigr\}.
+\tag{27}
+\]
+
+A sufficient selected query family H for an exact target r must separate those pairs; **including already available A** is essential. This is a bounded instance of the same factorization criterion, not a mechanism for enumerating A′ or a universal oracle.
+
+The [open re-audit PR #59](https://github.com/dakleyer/structural-awareness-contributions/pull/59) identifies precisely this defect in PR #60's application of D3: its finite **Q-alone** pair-cover theorem is valid, but using that construction directly to choose *supplementary* observations may ignore pairs already separated by existing A, falsely declaring the task unattainable or overestimating needed Q. The D3 algebra in its original scope and the corrected integrated A+Q selection must be **distinguished**; this note does not silently alter the still-open PR.
+
+For an **operationally strong comparative** claim, beyond strict Bayes-risk improvement versus a deliberately erasing X, the evaluation must freeze the same receiver task, resource envelope, access rights, possible actions, source authenticity and actual costs. It must compare a competent conventional architecture with equal evidence and capabilities, not an intentionally weakened A-only comparator. If that conventional implementation is informationally isomorphic (TR-7) and can execute equivalent policies at equal cost, **the result is a tie**, not a special superiority of A/A′ notation. The true prospective differential is **what a constrained practical implementation preserves, acquires, spends and can legitimately do**, not the existence of a mathematical brand.
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
@@ -376,7 +499,7 @@ The source's open frontier and the receiving ecosystem's open frontier need not 
 
 ## 8. Position before the Projection Mechanism
 
-TR-1–TR-3 establish the **pre-projection transfer limit and conditional soundness**; TR-4–TR-6 add the **weak informational dominance**, a finite strict-gain witness, and non-total B/C/D role-boundary structure. Together they build the **pre-projection** result: why transferring only executions is semantically insufficient, why closed-result export can convey a false generalization, and how A/A′ plus a legitimate interpretation can transmit the **intended task and its open reach** without claiming to decide everything.
+TR-1–TR-3 establish the **pre-projection transfer limit and conditional soundness**; TR-4–TR-8 add **weak informational dominance**, a finite strict-gain witness, non-total B/C/D role boundaries, representation-independent equivalence and a formally bounded interpretation of maximality. Together they build the **pre-projection architectural-principles** result: why transferring only executions is semantically insufficient, why closed-result export can convey a false generalization, and how A/A′ plus a legitimate interpretation can transmit the **intended task and its open reach** without claiming to decide everything.
 
 The separate [2025 *Projection Mechanism*](https://www.researchgate.net/publication/393802750_The_Projection_Mechanism_How_Practical_Incompleteness_Infiltrates_Formal_Systems) and [2026 fourth revision](https://drive.google.com/file/d/1OrJ2LWz2qBv2sP8_-VNldWpctxZdwcfI/view) ask what happens when an unqualified representation is imported and operated upon as if it carried sufficient meaning. The *Projected Infinite Paradox* provides a historical motivation for distinguishing named finite constructions and population-level or limiting questions, but its broader ontological claims are not assumed as theorems here.
 
@@ -390,4 +513,4 @@ The next, distinct research question is **projection under an unqualified import
 - [01J current signalling annex](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) for the architecture's existing qualification of source-to-recipient meaning.
 - [Original *Projected Infinite Paradox* published route](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) — historical interpretation, not imported universal proof.
 
-**Documentary disposition:** working mathematical companion, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. No total A′ evaluator, exhaustively partitioning B/C/D oracle, automatic ecosystem compatibility or empirical net superiority is claimed.
+**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of deterministic interfaces; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP in the explicitly defined refinement order. The bounded PR #60 follow-on and its PR #59 audit are research status, not findings promoted to this note. No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
