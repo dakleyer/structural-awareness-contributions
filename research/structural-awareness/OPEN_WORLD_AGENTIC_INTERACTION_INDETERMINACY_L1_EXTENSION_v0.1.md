@@ -1,14 +1,14 @@
 # Open-World Agent Encounters: A Uniform Decision Frontier
 
-**Mathematical mini-paper · Structural Awareness Programme · v0.1 · 27 October 2026**  
+**Mathematical mini-paper · Structural Awareness Programme · v0.2 · 27 October 2026 (finite resources and verifier chains)**  
 **Logical subject:** SA-MATH-OW-01 · **Role:** standalone working mathematical contribution, for author and external mathematical review  
 **Lineage:** Iván Abril Palma, *Practical Incompleteness* (L1 / R07), *Given Universe*, and the present Ecosystem Awareness foundational work. This exposition was prepared with AI assistance at the author's request.  
-**Maturity:** conditional formal results using standard computability arguments; **not** a new proof of the halting theorem, an empirical finding about all smart cities, or an accepted architecture/standard.  
-**Reading boundary:** the theorem below concerns **uniform substantive determination**, not the ability to send a message, reject a connection, impose a deadline, or record UNKNOWN. The [canonical A/B/C/D semantics](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) are unchanged.
+**Maturity:** conditional formal results using standard computability and observation-equivalence arguments; **not** a new proof of the halting theorem, an empirical finding about all smart cities, or an accepted architecture/standard.  
+**Reading boundary:** the strong theorem concerns **uniform substantive determination**; the new results concern finite resource/evidence envelopes and computable verifier chains. None denies the ability to send a message, decline a connection, impose a deadline, return UNKNOWN or certify a restricted class. A timeout or malformed packet is **not by itself** a Turing-undecidable input. The [canonical A/B/C/D semantics](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) are unchanged.
 
 ## Abstract
 
-A robot or software agent in an open smart city can discover peers, perform a terminating yes/no handshake and then execute further decision procedures. Does this make every possible peer interaction decidable? No, provided the admissible world is computationally expressive enough and the question concerns nontrivial **future semantic behaviour**, not merely receipt of a handshake acknowledgement. We construct a fixed, effectively describable family of peer agents, all of which pass the same handshake, such that a sound and complete, terminating procedure deciding whether each peer will eventually fulfil a particular request would decide the diagonal halting problem. No such uniform procedure exists. A second, observation-relative lemma explains why a finite interaction prefix cannot certify eventual non-response without further valid bounds or evidence. The result recovers the operational frontier sought by *Practical Incompleteness* without treating finite strings as a proper class, without asserting that every fixed peer is individually undecidable, and without presuming an exhaustive “Given Universe.” It motivates, but does not validate, the separate agentic handling of situated indeterminacy.
+A robot or software agent in an open smart city can discover peers, perform a terminating yes/no handshake and then execute further decision procedures. Does this make every possible peer interaction decidable? No, provided the admissible world is computationally expressive enough and the question concerns nontrivial **future semantic behaviour**, not merely receipt of a handshake acknowledgement. We construct a fixed, effectively describable family of peer agents, all of which pass the same handshake, such that a sound and complete, terminating procedure deciding whether each peer will eventually fulfil a particular request would decide the diagonal halting problem. No such uniform procedure exists. A second, observation-relative lemma explains why a finite interaction prefix cannot certify eventual non-response without further valid bounds or evidence. The result recovers the operational frontier sought by *Practical Incompleteness* without treating finite strings as a proper class, without asserting that every fixed peer is individually undecidable, and without presuming an exhaustive “Given Universe.” A weaker finite-resource argument shows how deadlines and irrecoverable loss of evidence can cause **situated indeterminacy**, without absolute undecidability. Any finite or effectively orchestrated chain of computable handshake filters is itself a computable composite procedure: it can increase justified coverage without becoming a universal semantic decider. The separate *Projection Mechanism* raises a further question about the semantic constitution of the receiving universe; that stronger question is not inferred merely from timeout or filter incompleteness.
 
 ## 1. The problem: a protocol is not an omniscient decision procedure
 
@@ -50,7 +50,7 @@ We distinguish three properties of a procedure **Π**:
 - **Soundness:** every definitive YES or NO is correct for the declared proposition T.
 - **Completeness:** Π returns a definitive YES or NO for every admissible peer, rather than an unresolved result.
 
-The operational result alphabet may include **YES, NO, UNKNOWN**. UNKNOWN is a legitimate reported result, not a third truth value of T.
+The operational result alphabet may include **YES, NO, UNKNOWN**. UNKNOWN is a legitimate reported result, not a third truth value of T. Classical computability here permits execution with **no uniform prior upper time bound**, although every halting run still uses finite time and computation; it does **not** postulate a physically infinite computer. The practical results below impose explicit finite budgets.
 
 ## 3. Theorem OW-1 — no uniform infallible interaction decider
 
@@ -73,7 +73,7 @@ contradicting the standard diagonal halting theorem. Therefore Π cannot possess
 
 **Scope of the theorem.** The reduction is **uniform across effectively described peers**. It does not claim that a particular fixed P_e has a nonrecursive completion predicate, nor that each encountered agent exhibits undecidability as an intrinsic property. The obstruction concerns a single universal procedure expected to produce the correct substantive binary answer across an expressive open class.
 
-**Corollary OW-1a (unavoidable unresolved cases under soundness).** Any **total, sound** effective procedure with output alphabet {YES, NO, UNKNOWN} must return UNKNOWN for at least one P_e. A sound effective procedure permitted to run without a bound must instead leave some cases without a terminating definitive answer. A total procedure compelled to answer only YES/NO must make an error on at least one P_e.
+**Corollary OW-1a (unavoidable unresolved cases under soundness).** Any **total, sound** effective procedure with output alphabet {YES, NO, UNKNOWN} must return UNKNOWN for at least one P_e. If a sound procedure is restricted to definitive YES/NO outputs and is allowed not to halt, it must fail to terminate on at least one P_e. A total procedure compelled to answer only YES/NO must make an error on at least one P_e. The alternatives depend on the stated output and termination contract.
 
 This is an existence result within the already-declared admissible agent class. It does **not** require repeatedly extending the universe until the argument works.
 
@@ -86,6 +86,108 @@ A different, more elementary observation concerns a particular agent with only a
 **Proof.** Let P^+_h send the completion receipt after h+1 observation steps, and let P^-_h never send it. Arrange both to produce the identical handshake and the identical absence of substantive replies during steps 1,...,h. Then their observed prefixes agree, while T(P^+_h,r)=1 and T(P^-_h,r)=0. No determinate function of that prefix alone can output the correct value of T in both cases. \(\square\)
 
 This lemma is **observation-relative**: access to additional verified code facts, a correct termination proof, a binding timeout specification that changes the question, or a trusted completeness certificate may justify a local result. It is not a separate theorem of Turing undecidability.
+
+## 4A. Resource-bounded determination: the weaker operational frontier (OW-3)
+
+The preceding diagonal result concerns a **uniform effective algorithm**, without any fixed upper bound on the time a successful calculation may take. A physical agent works within a narrower envelope. Let
+
+\[
+\rho=(\tau,c,m,b,v,a)
+\]
+
+stand for a declared finite **wall-clock deadline**, computation, usable memory, communication, accessible verification evidence and legitimately available escalation/assistance. These are task-relative parameters, not universal physical constants. A field study must specify their concrete units and what the agent can actually see.
+
+Write \(O_A^\rho(w,r)\) for the entire evidence legitimately accessible to the querying agent A, including handshake and subsequent subroutines, while it encounters request r in possible world w under resource envelope \(\rho\). Write \(q(w,r)\in\{0,1\}\) for the **substantive** answer: e.g., whether the peer will ever produce the required completion. A universally correct, definitive decision **from this evidence alone** would require a function \(d_\rho\) satisfying
+
+\[
+q(w,r)=d_\rho(O_A^\rho(w,r))
+\quad\text{for every admissible }w.
+\tag{3}
+\]
+
+An agent's justified decisive region is question-, time-, information-, access- and resource-relative. Its operationally unresolved residual need not be recursively undecidable, permanently nonterminating or equivalent to the present corpus's D category.
+
+**Proposition OW-3 (bounded-resource witness).** For any finite \(\rho\), assume the admissible world permits both (i) a peer whose valid positive handshake is followed by completion **after** the last observation permitted by \(\rho\), and (ii) a peer that sends the **same evidence within \(\rho\)** but never completes. Assume further that no accessible trustworthy independent proof or response bound distinguishes those cases. Then no procedure using only \(O_A^\rho\) can be sound and definitive for **eventual completion** on both cases.
+
+**Proof.** Select the admissible worlds \(w_+\) and \(w_-\) in the premise. By construction,
+
+\[
+O_A^\rho(w_+,r)=O_A^\rho(w_-,r),\qquad
+q(w_+,r)=1,\quad q(w_-,r)=0.
+\]
+
+A function of equal observations gives equal answers, which cannot equal both substantive outcomes. The procedure must return an unresolved result on at least one case, acquire new qualified evidence outside the specified envelope, or make an error. \(\square\)
+
+This is OW-2's observation argument **lifted to the complete bounded resource/evidence envelope**, not a new diagonal theorem. It needs neither a universal machine nor an actually infinite set of deployed agents: even **finite-state delayed-response systems** can satisfy its premises. Thus it is a weaker, directly operational **existence claim**, subject to a genuinely unresolved pair of accessible states.
+
+**Timeout is a fact about a clock, not about eternity.** A timeout proves no valid completion was observed **by \(\tau\)**. It does not prove that the peer can never complete. Likewise, a computation quota, exhausted battery or unavailable human can block justified determination if the task depends on it. One may legitimately respond TIMEOUT, DENY or UNKNOWN and terminate. This is **bounded local handling**, not a definitive answer to the unchanged eventual-outcome question.
+
+If the contract instead asks “did the peer complete by \(\tau\)?” and observation and timing are reliable, that **new bounded proposition** is decidable by the clock and validated receipts. Restricted solvability is a useful achievement; it is not a proof of universal semantic coverage of future encounters.
+
+## 4B. Damaged files, malformed frames and lost distinctions (OW-4)
+
+Open-world interaction includes irrecoverable or temporarily inaccessible evidence: truncated files, undecodable formats, missing authority fields, inconsistent source statements and broken communication channels. These events do **not** all mean the same thing:
+
+- A total parser may conclusively reject malformed syntax or a failed checksum. Local protocol validity is **decided**, not mathematically undecidable.
+- The underlying **semantic question** may remain indeterminate when the damaged frame lost its decisive information and no qualified recovery path is currently available.
+- Conflicting reports require source and authority qualification; their coexistence alone is not permission to invent a single true answer.
+
+**Proposition OW-4 (lossy evidence cannot decide a changed target).** Let \(s\) range over admissible upstream semantic states, \(g_\rho(s)\) be the representation accessible to the receiver **after every available repair/check under \(\rho\)**, and \(q(s)\) the substantive target. Suppose:
+
+\[
+\exists s_0,s_1:\quad
+g_\rho(s_0)=g_\rho(s_1)
+\quad\land\quad
+q(s_0)\ne q(s_1).
+\tag{4}
+\]
+
+Then no sound definitive receiver function depending **only on \(g_\rho\)** can determine q on both cases.
+
+**Proof.** If \(q=d\circ g_\rho\), equal representations would imply equal values of q, contradicting (4). \(\square\)
+
+**Example.** Two genuinely different permissions are encoded in records that differ only in a decisive authorization field. Both incoming records are truncated **before** that field, and the receiver has no independent authenticated copy within \(\rho\). It can decide BAD_FRAME and reject the damaged message; it **cannot** decide whether the underlying permission existed using the damaged bytes alone. An authenticated retransmission, redundancy, independent authority source or verified reconstruction can settle the question. OW-4 applies only while those options do **not** remove the ambiguity.
+
+A corrupt file is therefore **not automatically an undecidable object**. It can be a perfectly decidable corrupt frame containing **insufficient evidence for another decision**.
+
+## 4C. Oracle chains are still one handshake-and-decision procedure (OW-5)
+
+Suppose A is given a preflight verifier \(F_1\) to filter its peer encounters. Add \(F_2\) to verify \(F_1\), then \(F_3\), identity checks, signed protocol tests, policy engines, static analyzers, remote specialist agents and any later subroutines. The resulting interaction process is
+
+\[
+\Pi_n=\operatorname{Compose}(A,F_1,\ldots,F_n),
+\qquad n<\infty,
+\tag{5}
+\]
+
+where \(\operatorname{Compose}\) means the **whole operational scheduler**, including messages and handoffs, not an assertion that each component is total or that validation is a simple mathematical function composition.
+
+**Proposition OW-5 (computable-composition frontier).** Assume \(n\) is finite, the scheduler and every \(F_j\) are effective, peer interactions admit effective simulation from their descriptions, and no component receives a genuine noncomputable oracle. Then \(\Pi_n\) is itself an effective, possibly partial procedure. Under H-EXP, it cannot be simultaneously **total, sound and complete** for T over all admissible peers K.
+
+**Proof.** An ordinary universal program can simulate the scheduler, each effective verifier, the querying agent and the described peer exchanges. This simulation reproduces the composite's externally relevant verdict behaviour. If \(\Pi_n\) always terminated with an infallible definitive YES/NO on K, its simulator would be the forbidden OW-1 decider. \(\square\)
+
+The same argument covers a **uniform adaptive** chain whose next step is selected effectively and whose final claimed answer is reached after finitely many effective steps on each input. An infinite serial stack has no completed verdict merely by being called “infinite”; it needs a separately defined finite-time aggregation rule. The claim concerns **any chosen finite length**, not the stronger and generally false assertion that one common input necessarily defeats **each component separately**.
+
+**Corollary OW-5a — filtering does not imply complete semantic separation.** A computable filter can admit a **restricted certified peer class**, return NO to a **local admission-policy** question, or conservatively refuse/return UNKNOWN. Such policies can prevent some failures and sharply enlarge justified coverage. But refusing a peer or timing out does **not** decide its eventual behaviour; filtering everything out yields a terminating refusal policy, **not** a universal T-decider.
+
+In this setting, adding a verifier changes the **composite handshake plus subsequent decision procedure**. It may be valuable; it cannot be promoted to an infallible semantic solver for the same unrestricted expressive task. Extra checks also consume portions of \(\rho\); whether that cost helps or harms a particular deployment is a **measured** question, not a monotonic mathematical law.
+
+**Two meanings of “oracle.”** A software checker, specialist peer, policy service or audit node is an **effective verifier** and is covered by OW-5. A genuine **noncomputable halting oracle** is not: it can decide ordinary halting questions beyond ordinary algorithms, so the theorem's premise would change. Oracle-relative computations have further undecidability results about their **own higher-level** problems, but they are not proof that an ordinary software verification chain accesses supernatural computation.
+
+## 4D. Operational encounters and testable interpretation
+
+| Encounter after discovery | Legitimate bounded outcome | Incorrect inference to avoid |
+| --- | --- | --- |
+| HELLO accepted, requested result arrives with valid evidence | Qualified local result under the declared target | All future peer behaviour is settled |
+| HELLO accepted, no qualifying answer by \(\tau\) | TIMEOUT; substantive eventual outcome may remain UNKNOWN | It can never answer |
+| File corrupted beyond admissible recovery | BAD_FRAME; source meaning remains unresolved if (4) holds | The sender's underlying permission is necessarily false |
+| Protocol version incompatible | Incompatible for the negotiated interface | No other interface or relationship is possible |
+| Peer verified but receiving task needs independent authority | Await/deny/requalify under the receiving contract | A handshake or a sender's success automatically creates permission |
+| Several computable preflight checkers pass | The declared preflight predicates are supported | The full semantic target is universally decided |
+
+A finite fixture may test both delayed-vs-never traces at fixed observation budget, damage a decisive field, restore it through an authorized source, and compare a plain handshake with a longer checker chain under the **same** \(\rho\). The observable quantities are justified definitive answers, safe UNKNOWN, incorrect false closure, response latency, verification/communication cost and legitimacy of continuation—not a physically observed diagonal theorem.
+
+**Limits of existence versus frequency.** OW-3/OW-4 supply **conditional witnesses**, not a measured frequency of timeouts or damaged files in a particular city. A claim that a wandering robot **will actually encounter** one requires additional coverage, availability, reachability or probability assumptions about real interactions. Mere geographical movement and number of peers prove no encounter probability. This distinction preserves the engineering motivation without substituting anecdote for a quantified theorem.
 
 ## 5. The agent's actual procedure: what has, and has not, been decided
 
