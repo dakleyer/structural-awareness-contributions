@@ -1,7 +1,7 @@
 # From A to A′: Open Meaning and Semantic Transfer Between Agent Ecosystems
 
-**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.6 · 27 October 2026**  
-**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.6**, recorded by the GitHub revision.  
+**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.7 · 27 October 2026**  
+**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.7**, recorded by the GitHub revision.  
 **Logical subject:** SA-MATH-TR-01 · **Relationship:** mathematical continuation of [OW-1–OW-11, effective non-closure and repeated runs](./OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md).  
 **Status:** architecture-level mathematical principles with bounded formal proofs and explicit operational conditions, intended for independent review. AI-assisted authoring at the research owner's request; not an implementation prescription, a new ResearchGate theorem, a formally verified program, or a modification of the canonical A/B/C/D vocabulary.  
 **Scientific lineage:** Iván Abril Palma, *Practical Incompleteness* (L1); *The Projection Mechanism* (2025 and distinct 2026 fourth revision); *The Projected Infinite Paradox*; [00M mathematical plausibility and canonical A/B/C/D](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical).
@@ -978,6 +978,116 @@ The architectural transition is therefore
 \]
 
 **Synthesis:** TR-15 proves strict **relative metasyntactic expressivity**; TR-16 supplies a **real executable reporting programme**; TR-17 proves why total exact semantic auto-labeling is impossible for a sufficiently expressive family. The prior L1 frontier is not overcome or hidden. This is a practical programme difference, not merely a philosophical reinterpretation.
+
+### 6.29. Russell and Gödel: a metaproof can expose an object-level limit without inheriting it
+
+The required distinction is **object calculus versus metatheoretical statement about that calculus versus physical machine carrying the statements**. A meta-operation may report an object-level contradiction or impossibility without itself accepting the offending object-level axiom.
+
+**Russell.** Let \(T_{\rm naive}\) assert unrestricted set comprehension. For \(R=\{x:x\notin x\}\) it yields
+
+\[
+R\in R\iff R\notin R.
+\tag{49}
+\]
+
+This is an inconsistency **of the stipulated classical object theory**, not evidence that a separate finite proof checker, a sheet of paper, or a processor has suffered an analogous inconsistency. In classical logic, inconsistent premises can entail arbitrary sentences *inside that calculus* (explosion); the program detecting that condition need not import those premises into **its own** inference environment.
+
+**TR-18 — finite meta-certificate and typed non-propagation.** Fix an object calculus T with an effective finite proof-checking relation \(\operatorname{Check}_T(\pi,\varphi)\). Suppose the meta-process obtains proof objects \(\pi_+,\pi_-\) such that
+
+\[
+\operatorname{Check}_T(\pi_+,\varphi)=1,\qquad
+\operatorname{Check}_T(\pi_-,\neg\varphi)=1.
+\tag{50}
+\]
+
+It can emit the **single meta-level certificate**
+
+\[
+\operatorname{INCONSISTENT\_OBJECT\_THEORY}
+(T,\varphi,\pi_+,\pi_-).
+\tag{51}
+\]
+
+**Proof.** The checked proof objects establish \(T\vdash\varphi\) and \(T\vdash\neg\varphi\), hence the defined T is syntactically inconsistent. The checker publishes the **attributed fact that T proves both sentences**, rather than asserting the contradictory pair as free-standing truths of the receiving calculus. Under the explicit typed rule that proof-from-T does **not** become proof-in-the-host, explosion is not transmitted into the host by the certificate alone. \(\square\)
+
+This is a conditional **typing and verification** result, not a global proof that all metalanguages, monitors or processors are themselves consistent. The historical [*Formalización del Meta Sistema*](https://docs.google.com/document/d/1cKahUwPzTnMLJSZ6dO1syFl7PocXpSH2LC158tUYsCk/edit) includes the author's programme of non-explosion and positioning; the separate [R05 audit, §§4 and 14.3](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R05_FORMALIZACION_META_SISTEMA_v0.1.md) distinguishes a meta-checker's established result from the original producer's unresolved truth, without importing the historical manuscript's stronger unverified global claims.
+
+**Gödel.** Effective coding of formulas and finite proof verification permit a metalanguage to establish an incompleteness theorem for an effectively axiomatized, consistent, sufficiently arithmetically expressive theory. Gödel's proof is a valid *metatheoretical argument about provability*, not evidence that its metalanguage is absolutely complete or can decide arbitrary arithmetic truths. See [Stanford Encyclopedia: Gödel's Incompleteness Theorems](https://plato.stanford.edu/entries/goedel-incompleteness/) and [Russell's Paradox](https://plato.stanford.edu/entries/russell-paradox/).
+
+**Operational principle:** an effective agent can safely publish a *qualified diagnosis of a theory's limits* while preserving the distinct UNKNOWN status of the object question. The diagnosis is **A of the checking task** and need not be an answer to the original task.
+
+### 6.30. Resource-unrestricted formal model versus bounded realizations
+
+The abstract multi-level model can be typed as
+
+\[
+\mathfrak M=(L_o,L_m,\iota,
+\operatorname{Quote},\operatorname{CheckProof},
+\operatorname{OpenFrontier},\operatorname{Interpret}),
+\tag{52}
+\]
+
+where \(L_o\) is the object language, \(L_m\) a declared meta-language and \(\iota\) their relevant interpretation relation. This mathematical model may quantify over arbitrarily large formal domains *in defining a question*; it has **no physical wall-clock or budget imposed by its syntax**. It does **not** thereby possess a global semantic truth function, a consistency proof for itself or a way to evaluate every external existential claim.
+
+An embodied agent is a different object:
+
+\[
+\mathfrak I=(\mathrm{Encoder},\mathrm{Kernel},
+\mathrm{Reflector},\mathrm{Verifier},
+\mathrm{Channel},\rho,\kappa),
+\tag{53}
+\]
+
+where \(\rho\) fixes time, memory, compute, communication and evidence budgets and \(\kappa\) fixes source validity, scope and authority. Its metalanguage operators are implemented by **ordinary finite computable subroutines** with possible resource exhaustion.
+
+An idealized mathematician may reason about a domain not exhausted by a finite page. The real person still has finite cognitive and physical resources. Neither fact licenses the claim that the abstract model answers every question about its domains.
+
+**Completeness of representation** here means the schema can carry a finite qualified object-result *and* its unclosed semantic obligation without claiming a complete enumeration. It is not **Gödelian deductive completeness**, a complete truth predicate or a method for computing all unknown members.
+
+### 6.31. TR-19 — compilation into an ordinary syntactic machine
+
+Let P be an effectively described object-level program and M an effectively described reporting/metasyntactic program that consumes P's finite output and run trace. A universal machine can simulate both, with their handoff:
+
+\[
+\boxed{
+\operatorname{Run}(C(\langle P\rangle,\langle M\rangle),x)
+\simeq
+\operatorname{Run}(M\circ P,x)
+}
+\tag{54}
+\]
+
+on inputs for which the specified computations terminate, where \(\simeq\) means equal observable outputs under the same reporting contract.
+
+**TR-19 (compiler existence).** A computable compiler C producing the composite ordinary-machine program exists for any finite encodings of effective P and M.
+
+**Proof.** Emit P's instructions followed by M's instructions and effective message/trace handoff, or a universal interpreter for both descriptions. The resulting ordinary machine simulates the same effective steps and emits the same output. \(\square\)
+
+This is **an exact computational equivalence claim**, not a denial that P and M occupy *different syntactic and metasyntactic roles within the programme*. TR-15 still establishes an outside-A expression is not definable **using only the original closed language \(L_A\)**. The compiled C program implementing \(L_{A+}\) has **expanded the output language**, even though its processor runs conventional code.
+
+A fully copied compiled artifact can reproduce the same outputs; if the **same executable and environment** are held fixed, the run resources can also match. It does not follow that the copying process generated the **design rationale, applicable semantics, proof obligations or choice of design for a new context**. Those are separate stages, not distinguished by an execution-only benchmark.
+
+### 6.32. Design, selection, checking, compiling and running are different operations
+
+Fix a declared context c and intended question \(q_c\). The complete workflow is
+
+\[
+\operatorname{Design}(c,q_c,\kappa_c)\leadsto
+(s_c,\mathrm{obligations}_c),
+\quad
+\operatorname{Check}(s_c,\kappa_c)\leadsto\mathrm{status},
+\]
+
+\[
+\operatorname{Compile}(s_c)\leadsto p_c,
+\qquad
+\operatorname{Execute}(p_c,x)\leadsto y.
+\tag{55}
+\]
+
+Design **constructs or selects what should be done**, with the intended meaning and evidence obligations. Compilation translates a chosen design into executable instructions; execution applies the chosen instructions to a case. Copying a known valid \(p_c\) can have no discovery burden for that context if the design and its applicability are already supplied. **Choosing the appropriate \(p_c\)** from an ambiguous library, or creating one for a newly changed question, is another problem.
+
+If a purportedly "syntactic-only" conventional program itself knows how to inspect a new context, generate the required metasyntactic specification and validate it, it **implements the metalevel task functionally**, whatever its source language and naming. It cannot be used as a strict closure-only comparator while simultaneously being credited with the open-aware expressive operation it was defined to prohibit.
 
 ## 7. Relationship to the established A/B/C/D vocabulary
 
