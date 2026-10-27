@@ -97,7 +97,9 @@ jobs:
 
   p5-reproducibility:
     name: P5 reproducibility / Python ${{ matrix.python }} / hash ${{ matrix.hashseed }}
-    runs-on: ubuntu-latest
+    # Python 3.9 is no longer available on the Ubuntu 26.04 image behind ubuntu-latest.
+    # Pin this reproducibility matrix to 24.04 so the declared 3.9/3.12/3.13 surface remains intact.
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
