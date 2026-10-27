@@ -435,7 +435,7 @@ Z(w_1)=Z(w_2)
 
 **Proof.** If each signal is a function of the other, equal values of either imply equal values of the other, so the fibers agree. Conversely if the fibers agree, define \(g(Y(w))=Z(w)\) on the image of Y; equality of Y outputs ensures a well-defined Z output. Similarly define the reverse decoding function on the image of Z. \(\square\)
 
-This is an **isomorphism of information carried on the fixed admissible world class**, not an assertion of computational equivalence or equal acquisition/decoding cost unless the decoders are also effective under the declared resource envelope. For randomized channels, the corresponding concept uses stochastic Blackwell garbling and requires different hypotheses.
+This is an **isomorphism of information carried on the fixed admissible world class**, not an assertion of computational equivalence or equal acquisition/decoding cost unless the decoders are also effective under the declared resource envelope. We can call two carriers **effectively information-isomorphic for a profile \(\rho\)** only when both decoders are computable, legitimately accessible and resource-feasible under that same profile, while preserving the receiving semantic target. This operational strengthening makes implementation equivalence testable. For randomized channels, the corresponding concept uses stochastic Blackwell garbling and requires different hypotheses.
 
 **Consequence.** If a *conventional* receiver already exports the full procedure, relevant run evidence, recognized unresolved cases and the open-frontier meaning in a recoverable representation, then it may satisfy (24) with the A/A′-aware source. **No informational superiority can be claimed over that equivalent representation.** A system that simply uses different names for B/C/D, or represents those duties through proofs and policy contracts instead, may be exactly as strong for the declared receiving task.
 
@@ -449,7 +449,7 @@ A true theorem about the **global impossibility of an infallible semantic classi
 
 **Observed boundary evidence is different.** A finite \(Z_{S,r}\) that records whether a previously unreported actual interaction became indeterminate can distinguish worlds that were identical under the reduced message X. This is exactly why TR-5 exhibits strict value for its **independent run-scoped receiver question**. The general A′ obligation and particular *observed* manifestations of that obligation should not be confused.
 
-**Proposition TR-8 (no globally maximal effective sound semantic resolver).** Under H-EXP, let \(C:\mathbb N\to\{0,1,\bot\}\) be any **total computable, sound** classifier for \(K_0\), where \(\bot\) means INDETERMINATE. In classical mathematics, there exists another total computable sound classifier \(C^+\) that agrees with every definitive verdict of C and makes a **strictly greater number of individually indexed cases definitive** (at least one extra).
+**Proposition TR-8 (no globally maximal effective sound semantic resolver).** Under H-EXP, let \(C:\mathbb N\to\{0,1,\bot\}\) be any **total computable, sound** classifier for \(K_0\), where \(\bot\) means INDETERMINATE. In classical mathematics, there exists another total computable sound classifier \(C^+\) that agrees with every definitive verdict of C and has a **strict superset of definitive indices**, adding at least one correctly answered case without retracting any earlier definitive answer.
 
 **Proof.** By OW-1, C outputs \(\bot\) at some fixed index \(e_\star\). The target truth value \(b=1_{K_0}(e_\star)\) is either 0 or 1. Define
 
@@ -467,6 +467,24 @@ A program can compare e with this fixed index and hard-code the fixed b, so \(C^
 This proposition formalizes a point consistent with L1: **no particular total sound ordinary classifier closes the global question, yet more individual questions can sometimes be determined consistently.** Thus Gödel/Turing do **not** show that “if one adds any further valid distinction, inconsistency necessarily occurs.” Their relevant contribution is the **impossibility of a universally correct total decider over the expressive class**. Broad claims of an inconsistent universe or maximality of all information need an independent, well-typed theorem.
 
 The useful architectural substitute for unbounded maximality is **non-erasure relative to the actually qualified source information and the declared transfer task**: represent and communicate what the sender knows **and the limits on what those reports justify**. This may be a task-sufficient/faithful reference, but does not imply that no further legitimate source information could ever be added.
+
+**Proposition TR-9 (relative maximality given the same qualified source information).** Fix an independently defined **source-qualified information bundle** \(E:W\to\mathcal E\): the full procedure/target, all finite evidence and **recognized** unresolved qualifiers relevant to the declared transfer profile, with source scope and validity. Consider the class of messages **derivable only from that bundle**, \(Z_h=h\circ E\), with qualified decoding and no extra external observations.
+
+If an A/A′-aware carrier \(Y\) is **faithful for this E**—there exists a legitimate recoverability map \(d\) with \(E=d\circ Y\)—then
+
+\[
+\forall Z_h=h\circ E:
+\quad Z_h=(h\circ d)\circ Y,
+\qquad\text{hence}\qquad
+Z_h\preceq Y .
+\tag{27}
+\]
+
+**Proof.** Substitute \(E=d\circ Y\) into \(Z_h=h\circ E\). \(\square\)
+
+Thus such a Y is **maximal relative to messages obtainable from the same declared, qualified source information E**, under the **information-refinement preorder** and ignoring any extra processing/communication cost. A conventional carrier \(Z\) that also preserves the entire E with an effective decoder can tie; it is effectively equivalent when Y and Z are both functions of E and each reconstructs E. This is an implementation-neutral **faithfulness criterion for reference architectures**, not an assertion that the current A/A′ syntax is automatically a lossless encoder of every possible future fact.
+
+**The qualification is essential.** If Y actually transmits only the procedure A and a constant OPEN tag while the source possesses additional relevant observed boundary evidence, Y does **not** satisfy the recoverability premise for E and cannot claim this relative maximality. The finite-source evidence must genuinely be carried (or be reconstructible under valid source access) for the theorem to apply. An independent new sensor, future peer, richer authorized source or previously inaccessible relevant condition is **outside** the fixed E and may properly provide more information without inconsistency. Therefore relative maximality of a faithful carrier and **non-maximality of a global semantic decider** (TR-8) are entirely compatible.
 
 ### 6.10. From weak to strict decision improvement — and onward to the PR #60 Stage-A problem
 
@@ -513,4 +531,4 @@ The next, distinct research question is **projection under an unqualified import
 - [01J current signalling annex](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) for the architecture's existing qualification of source-to-recipient meaning.
 - [Original *Projected Infinite Paradox* published route](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) — historical interpretation, not imported universal proof.
 
-**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of deterministic interfaces; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP in the explicitly defined refinement order. The bounded PR #60 follow-on and its PR #59 audit are research status, not findings promoted to this note. No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
+**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes implementation-independent information equivalence; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP in the explicitly defined refinement order; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit are research status, not findings promoted to this note. No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
