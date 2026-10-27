@@ -3,6 +3,7 @@
 
 **Edition:** v0.1 — 27 October 2026  
 **Status:** working research integration / proposed relationship; **not canonical**, not a replacement for any owning source and not a claim of complete proof or conformity.  
+**Owner disposition (27 October 2026):** the three non-axiomatic SA characterization families, the conditional SA→EA relation, and the eight-module EP architecture as the present Stage B candidate have been approved for this working bridge. The agentic experimental model is accepted as **partial**. These approvals are **conceptual scope decisions**, not new mathematical proof, per-module production certification or permission to merge to Canonical.  
 **Scope:** the mathematical Structural Awareness research, the six Ecosystem Awareness operational principles, S1–S14/T1–T4, the integrated Ecosystem Positioning architecture, and the transversal DDS/UC21 validation route.  
 **Change boundary:** additive interpretation and traceability only. Existing owners, requirements, hypotheses, proof statuses, architecture modules and GitHub document-control rules are unchanged.  
 **Read with:** [Structural Awareness mathematical route](./README.md), [EA 02A](../ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md), [A19](../ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md), [A23](../ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md), [A24](../ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md), [DDS method index](../ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), [EP architecture](../../architectural-contributions/ecosystem-positioning/README.md).
@@ -13,7 +14,7 @@
 2. **Ecosystem Awareness (EA)** operationally specializes that problem into six testable principles **P1–P6**, and separately typed requirements **S1–S14** with **T1–T4** conditions. This refinement is richer than a relabelling; its proof obligations and open reverse implications remain visible.
 3. **DDS** is a **transversal development and verification method**. In the present research route its **Stage A begins from EA's S/T specification and originating challenge**. **UC21 is an externalisable challenge/falsification instrument connected at this EA entry**, not a child or product of EP. DDS and UC21 may be reused for other domains.
 4. **Ecosystem Positioning (EP)** is **our concrete, integrated candidate architecture** combining EA with signalling, cartography, regime awareness, MSCA, objective-conditioned gradient, ACC/lineage and legitimate authority interfaces. Within this DDS exercise EP is a **Stage B architecture candidate tested against the selected/frozen Stage A specification**. EP is not equivalent to all of EA and does not currently have an owner-adopted independent set of EP principles.
-5. The current **A/B/C/D agentic model** is a bounded **synthetic toy / partial architectural instantiation** for experimentation. It is not the full EP architecture, nor automatic DDS Stage C evidence.
+5. The current **A/B/C/D agentic model** is a **bounded synthetic experimental model / partial architectural instantiation**. Its experimental status does **not** imply that every EP constituent is experimental: the modules have different maturity histories. It is not the full EP integration, nor automatic DDS Stage C evidence.
 
 These are different kinds of objects. A diagram showing SA → EA → EP describes **conceptual specialization**, whereas the independent DDS route begins at **EA**, tests an architecture at Stage B and requires a pinned implementation plus observed effects at Stage C. No arrow licenses authority, completeness, uniqueness or universal superiority.
 
@@ -27,7 +28,7 @@ These are different kinds of objects. A diagram showing SA → EA → EP describ
 | **EP** | Candidate **composite architecture** realizing selected EA obligations and additional interfaces | Choreography and positioning across eight architecture modules; local objective-conditioned repositioning | Canonical replacement of other module owners or a proved global optimizer |
 | **DDS A/B/C** | Transversal staged assessment method | A: discovery/challenge; B: architecture verification; C: pinned implementation/problem validation | Ownership of EA's requirements or EP's module semantics |
 | **UC21** | Reusable adversarial use case / falsification route | Counterexamples and comparisons against explicit challenge and evidence boundaries | Automatic certification of EA, EP, a platform or a stage |
-| **Agentic A/B/C/D toy** | Small illustrative experimental artefact | Partial tests of classified residual, feasible coordination, resource pivoting, bounded comparators | Full EP module coverage, live deployments or Stage C success without corresponding evidence |
+| **Agentic A/B/C/D experimental model** | Partial synthetic reference realisation | Partial tests of classified residual, feasible coordination, resource pivoting, bounded comparators | Full EP module coverage, live deployments or Stage C success without corresponding evidence |
 
 The words **A/B/C/D** in a process-relative research classification must not be confused with **DDS Stages A/B/C**. The **MSCA P1/P2/P3 postures** (Normal/Containment/Migration) are also different from **EA Principles P1–P6**.
 
@@ -176,7 +177,20 @@ The [EP README](../../architectural-contributions/ecosystem-positioning/README.m
 | **M7 — Objective-conditioned Agentic Gradient** | [EP Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) | Participant-local candidate transition ranking with non-fungible dimensions | S2, S9, S10, S11 |
 | **M8 — ACC, lineage and authority-transition gate** | [ACC profile](../ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md), MSCA 04, external authority | Membership, participant roles, reciprocal duties, overlaps, admissibility and lawful execution boundary | S1, S4, S7, S8, S9, S12, S13 |
 
-M1–M8 are an **architectural attribution** from the draft benchmark, not proof that EP satisfies every requirement. EP depends on human/institutional governance and physical/digital actuation **outside** EP's ownership. ACC can represent roles/rights-like permissions/duties, effective participation, revocation and re-contracting; it does not confer legal personhood or create legitimate grants. Regime Awareness does not become MSCA, and Signalling does not manufacture truth.
+M1–M8 are an **architectural attribution** from the draft benchmark, not proof that EP satisfies every requirement. EP depends on human/institutional governance and physical/digital actuation **outside** EP's ownership.
+
+### 5.1 Module maturity is heterogeneous; integration maturity is a different claim
+
+**Owner clarification — 27 October 2026:** constituent capabilities represented among the eight EP modules have **different stages of maturity**. Some have been used operationally in production for years; others are experimental or research-stage. **Which specific module, version and capability supports each production statement remains to be reconciled against source evidence.** The current bounded A/B/C/D model is experimental/partial; the whole EP integrated architecture must not inherit a production label from any mature constituent, nor must mature constituents be downgraded to experimental simply because EP integration is not finished.
+
+| Distinct object of assessment | Present admissible statement | Evidence required for a stronger claim |
+| --- | --- | --- |
+| **A constituent capability of M1–M8** | Owner reports a mix of historical production and experimental capabilities; individual allocations are **not yet registered** in this bridge. | Named source implementation, version, responsible organization or confidential evidence reference, actual service interval/environment, achieved function, limitations and legitimate rights to describe it. |
+| **Mathematical / symbolic module evidence** | May support a stated proposition or countermodel under its tested envelope; not itself deployment evidence. | Exact theorem/harness, input boundaries, comparator, reproducible result and claim ceiling. |
+| **A/B/C/D agentic experimental model** | Synthetic, experimental and **partial**; ordinary coordination and possible pivoting are included as explicitly constrained paths. | Pinned model revision, cases, fair alternatives, invariant/oracle coverage and measured results. |
+| **Composite eight-module EP architecture** | **Stage B candidate**; production maturity of an integrated EP deployment is **not established here**. | Interface coverage of M1–M8, rights/authority dependencies, one end-to-end version/configuration, architectural conformance and separate DDS Stage C effects if claimed. |
+
+**Reconciliation task for M1–M8:** register for each module its **specific constituent/version**, maturity category (*production precedent / production currently operated / experimental implementation / symbolic test only / architecture defined / unknown*), evidence date, owner and permission for disclosure. These categories are **not mutually exclusive across versions or subcomponents**; the record must state which claim is supported. Do not allocate the owner's general production statement to an individual M without that trace. The [EP owner README](../../architectural-contributions/ecosystem-positioning/README.md), [eight-module benchmark](../ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) and each module's own sources remain the entry points. ACC can represent roles/rights-like permissions/duties, effective participation, revocation and re-contracting; it does not confer legal personhood or create legitimate grants. Regime Awareness does not become MSCA, and Signalling does not manufacture truth.
 
 For a participant \(i\) and scoped objectives \(\mathcal O_i\), a repositioning gradient can rank or compare **locally reachable candidate transitions** under risk/capacity/compatibility constraints; it need not yield a scalar, universal, comparable or unique optimum across groups. In particular:
 
@@ -213,7 +227,7 @@ The canonical [DDS index](../ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1
 - **No route is** EP → DDS/UC21, or toy → EP conformance, or DDS pass → universal mathematical proof.
 - Existing UC21 source: [preserved repository snapshot](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) and [source hypothesis snapshot](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md).
 
-## 7. Bounded model: where the A/B/C/D agentic toy actually sits
+## 7. Bounded model: where the partial experimental A/B/C/D agentic model sits
 
 The agentic experimental model uses **process-relative classified information** plus ordinary operations such as coordination, feasible optimization and, where assumptions permit, repositioning resources at a bottleneck. Its important question is not whether classical optimization is invalid. It is:
 
@@ -262,6 +276,8 @@ A third-party review should independently answer **both forward and reverse** di
 **Unresolved work, not concealed by this note:** formal cross-theory conservativity theorem SA→EA (beyond the scoped interpretation here), all-six reverse S/T conformance closure, fully stated EP-specific architectural invariants/principles, complete EP M1–M8 implementation, general multi-group comparative evaluation and DDS Stage C field validation.
 
 ## 10. Disposition and corpus integration boundary
+
+**Licence status at this review:** the repository currently advertises [CC BY-SA 4.0](../../LICENSE.md) for its covered material. The owner has separately requested a future **attribution + non-commercial / direct commercial authorization** policy; that requested change is **not effected by this research bridge** and needs a distinct rights/scope migration decision. No previously granted licence is represented as withdrawn, and no third-party or co-contributor rights are reassigned here.
 
 This document is an **additive, reviewable navigation and argument bridge**. It does not edit any canonical Part I/II mathematics, EA 02A/A19/A20/A23/A24, S/T requirements, EP architectural source, DDS stage definition or UC21 source. Any adopted future clarification must be made **in its actual owner document** through the [corpus document-control procedure](../../DOCUMENT_CONTROL.md), preserving a precise before/after and owner approval.
 
