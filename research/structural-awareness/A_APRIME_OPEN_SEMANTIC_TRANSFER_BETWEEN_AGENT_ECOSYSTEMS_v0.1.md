@@ -1,7 +1,7 @@
 # From A to A′: Open Meaning and Semantic Transfer Between Agent Ecosystems
 
-**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.7 · 27 October 2026**  
-**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.7**, recorded by the GitHub revision.  
+**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.8 · 27 October 2026**  
+**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.8**, recorded by the GitHub revision.  
 **Logical subject:** SA-MATH-TR-01 · **Relationship:** mathematical continuation of [OW-1–OW-11, effective non-closure and repeated runs](./OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md).  
 **Status:** architecture-level mathematical principles with bounded formal proofs and explicit operational conditions, intended for independent review. AI-assisted authoring at the research owner's request; not an implementation prescription, a new ResearchGate theorem, a formally verified program, or a modification of the canonical A/B/C/D vocabulary.  
 **Scientific lineage:** Iván Abril Palma, *Practical Incompleteness* (L1); *The Projection Mechanism* (2025 and distinct 2026 fourth revision); *The Projected Infinite Paradox*; [00M mathematical plausibility and canonical A/B/C/D](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical).
@@ -1089,6 +1089,164 @@ Design **constructs or selects what should be done**, with the intended meaning 
 
 If a purportedly "syntactic-only" conventional program itself knows how to inspect a new context, generate the required metasyntactic specification and validate it, it **implements the metalevel task functionally**, whatever its source language and naming. It cannot be used as a strict closure-only comparator while simultaneously being credited with the open-aware expressive operation it was defined to prohibit.
 
+### 6.33. The pivotal condition: A′ is not the complement inside the initialized syntax U
+
+The semantic extension would be trivial if a purported metasyn​​tax merely computed the complement of a result **inside a domain that the initializer has already admitted**. To make the comparison precise, keep three objects separate:
+
+- \(\Omega_q\): the **mathematically modeled, q-relevant source ecosystem**, which the agent need not be able to enumerate or fully encode. Its claimed properties require their **own semantic premises**.
+- \(U_r\): the **typed syntactic scope admitted by initializer K** for run r, containing the descriptions which K can admit at that point.
+- \(A_r\subseteq U_r\): the **qualified result/recognized descriptions actually produced by the composed procedure** during that run. This is the comparison's run-product sense of A, not §1's \(A_{\rm proc}\).
+
+Let \(\operatorname{den}_r:U_r\rightharpoonup\Omega_q\) be a **possibly partial interpretation** of admitted descriptions as q-relevant actual-world constituents. Neither \(U_r\) nor \(\operatorname{den}_r\) is assumed globally complete or effectively reversible.
+
+The **internal complement** of the run product is
+
+\[
+R_r^{\mathrm{in}}=U_r\setminus A_r .
+\tag{56}
+\]
+
+This may be decidable when \(U_r\) and \(A_r\) are given explicit finite lists, but it can only concern **referents admitted into U**. It does not even have the correct type to assert an external-world statement.
+
+The **external semantic obligation**, by contrast, is about the region **not represented by the initializer**:
+
+\[
+\Phi_r^{\mathrm{out}}(q):\quad
+\exists x\in\Omega_q\
+\bigl[x\notin\operatorname{den}_r(U_r)
+\ \land\operatorname{Relevant}_q(x)\bigr].
+\tag{57}
+\]
+
+This is a **well-typed metalanguage formula**. It is neither an algorithm for computing \(\Omega_q\setminus\operatorname{den}_r(U_r)\) nor a discovery of a particular x. In the open A′ representation, \(\Phi_r^{\rm out}\) may be transmitted as an **UNDETERMINED external question** even when its truth has not been established, or as a **PROVED external fact** when an independent premise justifies it.
+
+**Necessary comparison boundary:** both the ordinary syntactic and the augmented metasyntactic programme still run on finite processors and finite codes. Strict superiority is **relative to the report grammar confined to U**, not to the class of all Turing-computable programmes. If a so-called conventional programme already has the same well-typed external relation and source assumptions, it has implemented the open-aware representation under another name.
+
+### 6.34. TR-20 — the U-complement trap cannot recover an exterior statement
+
+**Theorem TR-20 (internal complements do not express external scope).** Let \(L_U\) be the strictly U-relativized language of §6.23, extended by any finite number of operators \(h_j\) whose semantic interpretations and quantifiers depend **only on the admitted U-reduct**. This includes arbitrarily nested Boolean/set operations, in-U complements, inside-U indeterminate tags and their computable compositions. If two admissible worlds have isomorphic admitted U-reducts but different truth values for \(\Phi^{\rm out}_r(q)\), no \(L_U\) sentence or term composition is equivalent to \(\Phi^{\rm out}_r(q)\) on both worlds.
+
+**Proof.** By induction on the syntax, all atomic in-U claims have the same interpretation in both worlds; composition and quantification over the common U preserve indistinguishability. Any inside-U complement \(U\setminus A_r\) is also the same, because U and A are the same. The external formula has different truth values by hypothesis and cannot be represented by any of those expressions. \(\square\)
+
+**Concrete witness.** Take \(U_r=A_r=\{u_1\}\). In \(w_0\), the only relevant constituent is \(\operatorname{den}(u_1)\). In \(w_1\), the same \(u_1\) is present **plus another relevant x with no representation in U**. Both give the internal complement \(\varnothing\) and exactly the same K/D outcomes. Yet (57) is false in \(w_0\) and true in \(w_1\). **Even an apparently complete internal A leaves the outside question open.**
+
+This proves the precise failure of the syntactic shortcut \(A'=U\setminus A\). It does **not** prove that some higher-level syntactic programme using independent source information could never construct a reference to an exterior: doing so would use **a richer interpreted grammar or an added semantic premise**, which is exactly the proposed metasyntactic change.
+
+### 6.35. Three distinct kinds of open-world premises
+
+To move from the *ability to ask* about the exterior to the justified assertion **that something outside U actually exists**, we must state the evidence source. The original R03 *Primalidad y Lógica* §4–5 **postulates** an ND/IND exterior property, but its finite subset-label counting does **not** by itself prove a new physical agent outside the initialization of any real robot. Similarly, OW-1 proves a **nonempty uniform semantic non-decision frontier**, which need not be a physically **unrepresented** peer outside U: undecidable semantic questions may be **encoded within U**.
+
+Use three non-interchangeable premises:
+
+**H-OUT — independently justified exterior:** for the *actual declared task and run scope*, an admissible semantic model/certificate establishes \(\Phi_r^{\rm out}(q)\). Then the agent may correctly send a nonempty-outside-U **existence meta-claim** without knowing the witness identity.
+
+**H-GROWTH — unbounded diversity with bounded syntactic admission:** \(\Omega_q\) contains more distinct relevant constituents than any finite \(U_r\) can denote. If \(\operatorname{den}_r(U_r)\) is finite, this premise **implies H-OUT for that run** by cardinality. It does not imply the agent can physically reach or communicate with all those constituents.
+
+**H-REACH — effective exploration coverage:** for each finite n there exists an admissible finite exploration stage t at which the exploration process has discovered **at least n** distinct q-relevant constituents:
+
+\[
+\forall n\in\mathbb N\
+\exists t<\infty:\quad
+|\operatorname{Discovered}_{\le t}|\ge n .
+\tag{58}
+\]
+
+This is **strictly stronger than saying the external population is unbounded**. It describes the particular explorer's eventual reachability under a qualified exploration policy. No uniform bound on t in terms of n follows without an additional rate or detection assumption.
+
+**A fourth, contract-specific condition H-DETECT** is needed to diagnose a failed initialization from an empty result: a valid, testable source/coverage contract guarantees K **must detect at least one relevant agent by an identified deadline \(t_0\)** under the satisfied premises of this run. Merely assuming H-GROWTH or H-REACH does **not** establish H-DETECT at an arbitrary short deadline.
+
+These distinctions allow a model to be **mathematically open**, an agent to **know a qualified exterior-existence proposition**, and a specific exploration still to be **operationally empty**, without a logical contradiction.
+
+### 6.36. TR-21 — the metasyn​​tactic agent can state true existence beyond its own U
+
+**Theorem TR-21 (conditional external-existence witness without identification).** Let K and D produce a finite \(U_r\) and \(A_r\) in a source ecosystem. If a justified H-OUT certificate/axiom for that exact \((q,U_r,\Omega_q)\) has been supplied, then a metasyn​​tactic finite programme can correctly construct a statement of the form
+
+\[
+\operatorname{CERTIFIED\_EXTERIOR}
+\bigl(q,\langle U_r\rangle,\mathrm{source}(H_{\rm OUT})\bigr),
+\tag{59}
+\]
+
+and assert \(\Phi_r^{\rm out}(q)\) even when **no member of \(\Omega_q\setminus\operatorname{den}(U_r)\) has been individually observed, identified or admitted**.
+
+**Proof.** The qualified premise entails the existential statement (57) for the stated interpretation. A finite programme can copy the target/scope/source reference and construct the certificate-bearing meta-expression, without evaluating the existential statement by scanning \(\Omega_q\). Source justification comes from the stated external premise, **not** from the report constructor's computational power. \(\square\)
+
+This is a real **scope-crossing semantic operation** relative to the strictly U-only report language. It is not a new extensional-world observation produced from the same U trace, nor proof that a general robot possesses H-OUT merely because an operator named OPEN exists. Without the qualification, the programme can still emit the **well-typed external question with status UNDETERMINED**, but cannot assert its affirmative truth.
+
+### 6.37. TR-22 — the robot that sees nobody: source-of-error localization
+
+Suppose K's initialization observes no eligible agent:
+
+\[
+U_r=\varnothing,\qquad A_r=\varnothing .
+\tag{60}
+\]
+
+There are three importantly different diagnosis levels:
+
+1. **Only an open-world design declaration:** report NO_AGENT_OBSERVED and WORLD_COVERAGE_NOT_CERTIFIED. This is not proof that a physically eligible peer is present.
+2. **An independent H-OUT or qualified actual-existence premise:** report EXISTS_RELEVANT_OUTSIDE_INITIALIZED_U and K_NOT_EXHAUSTIVE_FOR_q. K's empty result is **not a truthful full census**. It can still be correct as a **run-local observation**.
+3. **An additional H-DETECT finite-time detection guarantee whose preconditions are met:** now K's empty output **violates its own coverage/detection contract**. The metaprocess may emit INIT_CONTRACT_VIOLATION, backed by the specific evidence and guarantee. It still does not identify whether the fault is a sensor failure, filter mistake, authorization problem, communications outage, bad configuration or invalid environmental assumption without more evidence.
+
+**Theorem TR-22 (sound diagnosis of missing scope versus actual initializer failure).** An agent possessing a valid H-OUT certificate can soundly reject the inference "the relevant ecosystem contains no agents" from (60). An agent additionally possessing an applicable H-DETECT contract can soundly reject "K met its detection contract" if K returned no qualifying agent by that contract's deadline.
+
+**Proof.** H-OUT contradicts the claimed **exhaustive absence**, not the finite observation report. H-DETECT implies a nonempty qualifying output by its deadline when its preconditions hold; (60) negates that consequent. A bounded checker can verify the declared contract application and missing output, then emit a contract-violation meta-result. \(\square\)
+
+**No epistemic oracle:** the diagnostics establish *what the admitted premises and reported measurements imply*, not the identity, location, eventual behaviour or reachability of an unseen peer. H-REACH's "eventually discoverable" guarantee alone is compatible with zero discoveries at the present run, because its quantified finite discovery time may be later and has no supplied bound.
+
+### 6.38. Operational metasyn​​tax beyond U without literal complement enumeration
+
+The derived report constructor can take the form:
+
+~~~text
+REFLECT_BEYOND_INITIALIZED_U(
+    object_kernel_trace, U_scope,
+    question, qualified_environment_axioms,
+    finite_deadline_contracts
+):
+    retain ALL already qualified in-U observations
+    keep in-U unknowns and damaged/timeout evidence distinct
+    create OUTSIDE_U_QUESTION(question, U_scope), truth = UNDETERMINED
+    if verified H-OUT applies to THIS U and question:
+        append CERTIFIED_EXTERIOR with source/proof reference
+        assert NOT_GLOBALLY_EXHAUSTIVE(U_scope, question)
+    if verified H-DETECT applies and its deadline elapsed:
+        if required qualified detections are absent:
+            append INIT_CONTRACT_VIOLATION
+    preserve OPEN_FRONTIER for the general task
+    do NOT enumerate U-complement as A-prime
+    do NOT manufacture outside identities or nonlocal truth values
+    return typed_meta_report
+~~~
+
+**This changes the executable programme.** It adds actual typed AST constructors, premise qualification and scope/audit checks. It does **not** merely calculate \(U_r\setminus A_r\), nor does it use a semantic external truth oracle. It can evaluate its own input's qualified provenance and output a **meta-statement** about the initializer's representation.
+
+**Implementation warning, not a reduction of the abstract theory:** an ordinary Turing machine can compile the above operation into ordinary syntax (TR-19). The strictly closed comparator lacks the required **interpreted output types or external semantic premises**, not a mythical hardware capability. Correctly implementing the same meta-types in another conventional codebase moves it outside the strictly U-closed comparison class.
+
+### 6.39. What "strictly stronger" now asserts — and what remains an experiment
+
+The robust theorem combination is:
+
+\[
+\boxed{
+\begin{array}{c}
+U_r\setminus A_r\ \text{does not recover the outside-U relation (TR-20)}\\
+\text{H-OUT supports a true meta-existence claim without identity (TR-21)}\\
+\text{H-DETECT plus failed detection supports a bounded initializer fault claim (TR-22)}
+\end{array}
+}
+\tag{61}
+\]
+
+There are now **two independent axes** in the comparison:
+
+- **Expressive/representational power:** when the H-OUT statement is justified, an open-aware, H-OUT-bearing programme can assert a **true fact about a semantic exterior that a strictly U-bound language cannot even express**. The gain is not limited to U's internal complement or to the names of observed indeterminates.
+- **Operational detection/correction:** the programme can **sometimes** turn this external meta-fact into a concrete coverage contradiction or a verified detection-contract violation. Whether that leads to better discovery, correction, safety, throughput or cost requires a task-specific implementable follow-up operation and evidence. It does **not** follow from expressivity alone that K can be repaired or a missing peer found.
+
+**Falsifiers.** A counterexample to a proposed actual-world gain may show no valid H-OUT evidence; a supposed "outside" candidate already expressible in U; a source whose actual ecosystem is finite and wholly inside U; a sensor correct for its declared limited scope; H-DETECT not applicable at the stated time; an existing baseline already carrying an equivalent external claim; or resource costs of the meta-operation exceeding its task benefit. Those are **applied model/implementation scope failures**, not refutations of TR-20's two-model language theorem.
+
+**Research status:** TR-20 is a relative-definability result, TR-21 a conditional qualified-inference construction, TR-22 a conditional audit proposition. H-OUT/H-GROWTH/H-REACH/H-DETECT must **not** be inferred universally from OW-1 or from the original R03 combinatorial label-count theorem. The distinct practical question is whether the initialization agent can obtain reliable external scope premises and exploit them economically; those are **not automatically available by running more in-U syntax**.
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
@@ -1111,4 +1269,4 @@ The next, distinct research question is **projection under an unqualified import
 - [01J current signalling annex](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) for the architecture's existing qualification of source-to-recipient meaning.
 - [Original *Projected Infinite Paradox* published route](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) — historical interpretation, not imported universal proof.
 
-**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. TR-12 states the uniform semantic/meta-separation oracle barrier; TR-13 gives evidence-relative coverage completeness; TR-14 proves weak in-A preservation plus strict outside-A claim scope. **TR-15 proves external-question nondefinability in an inside-A-only language; TR-16 gives an effective metasyntactic report constructor; TR-17 proves why perfect semantic novelty classification is uncomputable even for a specially constructed family of total computable response functions.** These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
+**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. TR-12 states the uniform semantic/meta-separation oracle barrier; TR-13 gives evidence-relative coverage completeness; TR-14 proves weak in-A preservation plus strict outside-A claim scope. TR-15 proves external-question nondefinability in an inside-A-only language; TR-16 gives an effective metasyntactic report constructor; TR-17 proves why perfect semantic novelty classification is uncomputable for a constructed total computable family. **TR-20 refutes identification of A′ with U-minus-A, TR-21 gives qualified existential reference beyond U without individuation, and TR-22 separates an invalid global initializer-coverage claim from an actual finite-time detection-contract breach.** These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
