@@ -1,8 +1,8 @@
-# EXPERIMENT_CATALOG — 46 escenarios ejecutados en el laboratorio finito
+# EXPERIMENT_CATALOG — catálogo histórico de 46 ejemplos sintéticos ejecutables
 
-**Estatus: SINTÉTICO.** Ninguna cifra pertenece a una empresa, familia, ciudad, persona o agente productivo real.
+**Estatus: EJEMPLOS / FIXTURES SINTÉTICOS, NO EXPERIMENTOS EMPÍRICOS.** Se conserva el nombre histórico del archivo para no romper enlaces. Ninguna cifra pertenece a una empresa, familia, ciudad, persona o agente productivo real. La familia KL supone distribuciones uniformes sobre soportes finitos; consultar las condiciones de evidencia en [README.md](README.md).
 
-| ID | Fuente | Pregunta del caso (nombre del ensayo) | Resultado reproducido |
+| ID | Fuente | Pregunta del caso (etiqueta ilustrativa) | Resultado reproducido |
 |---|---|---|---|
 | `BAN-01-LOCAL-VS-WASTE` | CE1 | Ban 01 Local Vs Waste | `WEAK_PARETO_RESOURCE_SERVICE_GAIN` |
 | `BAN-02-TRANSPORT-NO-FREE-LUNCH` | CE1 | Ban 02 Transport No Free Lunch | `TRADEOFF_NOT_PARETO_CERTIFIED` |
