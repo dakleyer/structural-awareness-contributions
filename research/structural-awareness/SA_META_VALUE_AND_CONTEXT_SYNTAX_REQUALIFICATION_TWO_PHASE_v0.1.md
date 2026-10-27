@@ -1,10 +1,10 @@
 # Structural Awareness — The Value of an Unresolved Frontier and Two-Phase Contextual Requalification
 
-**SA-MATH-VALUE-01 · Original-source-grounded mathematical working note v0.1 · 27 October 2026**
+**SA-MATH-VALUE-01 · Original-source-grounded mathematical working note v0.2 · 27 October 2026**
 
-**Scientific status:** candidate mathematical bridge with standard results, explicitly derived theorems, constructive infinite families, non-advantage conditions and proof obligations. This is **not** an empirical demonstration of reduced computation in deployed agents, a modification of canonical EA architecture, a successful PR #60 merge or a universal superiority result. No new simulation is part of this note.
+**Scientific status:** candidate mathematical bridge with standard results, explicitly derived theorems, constructive infinite families, non-advantage conditions and proof obligations. This is **not** an empirical demonstration of reduced computation in deployed agents, a modification of canonical EA architecture, a successful PR #60 merge or a universal superiority result. No new simulation is part of this note. **Mathematical extension (v0.2):** the open semantic residual is no longer described as a homogeneous class of intrinsically indeterminable objects. [SA-MATH-METAEX-01](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md) develops a typed modal/evaluability distinction, positive existence-guided exploration and negative certificate-driven context pruning, with exact assumptions and countermodels. These additions preserve SA-V1–SA-V7 and the prior Shannon/R11/R12/R14/R16/Semantic Window dependencies.
 
-**Continuity and priority:** the mathematical sources are [Part I, v1.0](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), [Part II, source-grounded v0.2](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md) and its [original-to-review source ledger](./METASYNTACTIC_UTILITY_SOURCE_PROVENANCE_v0.1.md). Specific upstream hypotheses **FH-C and FH-E** were canonically recorded **as hypotheses** in [01 — Integrated Foundation §1.0](../ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and [01A-A01](../ecosystem-awareness/baseline/01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) on 24 October 2026. This note extracts an **application-neutral mathematical class** from their insight; it does **not** claim to establish FH-C's real-world causal-priority prediction or FH-E's measured computational-economy prediction. The exact antecedent is the [unmerged mathematical PR #60, F1/D1/D2/D3/D5–D7](https://github.com/dakleyer/structural-awareness-contributions/pull/60), read with the [PR #59 supplementary-query correction](https://github.com/dakleyer/structural-awareness-contributions/pull/59). Earlier EA-specific hypotheses and A/B/C/D remain unchanged.
+**Continuity and priority:** the mathematical sources are [Part I, v1.0](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), [Part II, source-grounded v0.3](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md) and its [original-to-review source ledger](./METASYNTACTIC_UTILITY_SOURCE_PROVENANCE_v0.1.md). Specific upstream hypotheses **FH-C and FH-E** were canonically recorded **as hypotheses** in [01 — Integrated Foundation §1.0](../ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and [01A-A01](../ecosystem-awareness/baseline/01A_A01_MISSION_DRIFT_CAUSAL_PRIORITY_AND_EPISTEMIC_ECONOMY_HYPOTHESES_v0.1_RESEARCH_NOTE.md) on 24 October 2026. This note extracts an **application-neutral mathematical class** from their insight; it does **not** claim to establish FH-C's real-world causal-priority prediction or FH-E's measured computational-economy prediction. The exact antecedent is the [unmerged mathematical PR #60, F1/D1/D2/D3/D5–D7](https://github.com/dakleyer/structural-awareness-contributions/pull/60), read with the [PR #59 supplementary-query correction](https://github.com/dakleyer/structural-awareness-contributions/pull/59). Earlier EA-specific hypotheses and A/B/C/D remain unchanged.
 
 ## Abstract
 
@@ -323,9 +323,45 @@ Neither a finite count of unknown objects nor a compression ratio determines the
 
 **Counterexample C8 — unbounded effective quotient.** Set-theoretic factorization does not entail a computable decoder on an arbitrary open W, and an added external context bit may not be accessible to the particular receiver. Phase I does not automatically grant Phase II success.
 
-## 10. Exact results and separate research status
+## 10. Correcting the residual terminology: existence is not the same as undecidability
 
-The theoretical programme now has **two precise phases and distinct theorems**:
+The earlier term *indeterminate/open A′* referred to **what the current process has not exhausted**. It must not be reinterpreted as a universal assertion that every member of the residual is intrinsically undecidable or cannot be evaluated by another procedure. This is the exact conceptual repair sought by the [mathematical taxonomic review](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md), recorded as a [candidate observation in the open taxonomy PR #56](https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6441844401).
+
+The adopted [00M §1 vocabulary](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) already distinguishes characterized **assessable reserve B**, grounded uncharacterized exploration **C**, and effects beyond the current process's effective evaluation route **D**. These are **partial, context-relative relations**, not exhaustive sets of undecidable objects. We do not amend 00M in this Structural Awareness note.
+
+The research extension distinguishes two generic, **not adopted**, mathematical-use hypotheses, separate from canonical **FH-C/FH-E**:
+
+**SA-H∃ (existence-guided exploration).** Knowing through valid mathematics/source evidence that **a target-specific property** \(\exists x P_c(x)\) holds can justify exploration without naming the witness. Under a declared prior p, probability \(\alpha\) of a successful reachable discovery given existence, benefit V and exploration cost C,
+
+\[
+p\alpha V<C<\alpha V
+\tag{19a}
+\]
+
+gives a strict change from NO-SEARCH without a certificate to SEARCH after a valid proof of target-specific existence. **Generic openness alone does not imply target-specific existence.** Source/certificate acquisition costs and search reachability are additional conditions.
+
+**SA-H¬ (exclusion-guided context reduction).** A valid theorem \(\forall x\in S\setminus T:\neg P_c(x)\) permits a *task-preserving restriction* of a search:
+
+\[
+\exists x\in S:P_c(x)
+\iff
+\exists x\in T:P_c(x).
+\tag{19b}
+\]
+
+The result does not require enumerating individually all excluded elements. It supports the **existence of computational savings** if verification/reuse of that theorem is cheaper than evaluating the excluded region, *not* the universal cheapness of discovering it.
+
+**Constraint reversal under a fixed model \(\Omega\).** For two constraints \(\Gamma_2\Rightarrow\Gamma_1\), the admissible mathematical regions satisfy \(S_{\Gamma_2}\subseteq S_{\Gamma_1}\) and \(\Omega\setminus S_{\Gamma_1}\subseteq\Omega\setminus S_{\Gamma_2}\). A stronger restriction shrinks the mathematical admitted region and grows its exterior. But this extensional complement is **not identical to all epistemic questions of A′**, cannot be presumed enumerable, and cannot be substituted for canonical A as a delivered result.
+
+**Modal boundary.** \(\exists xP_c(x)\) (proved in the actual declared model), \(\neg\exists x\in S P_c(x)\) (proved absent in a specified S), possible in **some** admissible world, impossible in **every** admissible world and unproved/unresolved status must not be collapsed. A *negative* certificate can be exceptionally helpful for changing context even when the exterior still contains many uncharacterized entities. No numerical confidence or Shannon measure follows from those labels alone.
+
+**Phase alignment:** in Phase I, the metalevel may certify a target-specific property of an unresolved region, rather than characterize the entire region. In Phase II, under independently available sources, constraints and an effective decoder, that certificate may justify **expanding**, **contracting** or **recompiling** the object's search/decision syntax. Otherwise the meta-result remains a qualified statement without an executable new answer. The earlier SA-V1–SA-V7 conditional Shannon, proof reuse and effective-decoder premises remain intact.
+
+Detailed formal proofs and limitations: [SA-E1–SA-E6](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md). No sociotechnical experiment, agent-population composition or EA requirements mapping is added to the present mathematical work.
+
+## 11. Exact results and separate research status
+
+The theoretical programme now has **two precise phases and distinct theorems**; §10 adds typed existence/exclusion mechanisms without changing SA-V1–SA-V7:
 
 | Phase | Proven in this mathematical note | Requires additional information/conditions |
 | --- | --- | --- |
