@@ -92,6 +92,49 @@ class LocalSufficiency(unittest.TestCase):
         new=qualify(frame(),q(),(sample(),p2))["conditional_answer_bounds"]
         self.assertTrue(new[0]>=old[0] and new[1]<=old[1])
         self.assertEqual(new,[9,9])
+    def test_tiny_empty_intersection_cannot_certify_truth(self):
+        points=(sample(y_min=1e-13,y_max=1e-13),
+                sample(claim_id="p2",origin_id="s2",y_min=0,y_max=0))
+        result=qualify(frame(lipschitz=0),q(x=0,threshold=5e-14),points)
+        self.assertEqual(result["local_answer_status"],"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+
+    def test_local_overlap_does_not_hide_global_source_conflict(self):
+        points=(sample(y_min=0,y_max=0),
+                sample(claim_id="p2",origin_id="s2",y_min=2,y_max=2))
+        # Both projections at x=1 contain 1. No single f can obey both
+        # values at x=0, even though their query-local intervals intersect.
+        result=qualify(frame(),q(x=1,threshold=1),points)
+        self.assertEqual(result["local_answer_status"],"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+        self.assertIsNone(result["conditional_answer_bounds"])
+
+    def test_joint_exact_intervals_feasible(self):
+        points=(sample(y_min=0,y_max=1),
+                sample(claim_id="p2",origin_id="s2",x_min=1,x_max=1,y_min=1,y_max=2))
+        result=qualify(frame(),q(x=0.5,threshold=0.5),points)
+        self.assertEqual(result["local_answer_status"],"LOCALLY_SUPPORTED_TRUE")
+
+    def test_uncertain_source_positions_do_not_fake_joint_certification(self):
+        points=(sample(y_min=0,y_max=0),
+                sample(claim_id="p2",origin_id="s2",x_min=0,x_max=2,y_min=1,y_max=1))
+        result=qualify(frame(),q(x=1,threshold=0.5),points)
+        self.assertEqual(result["local_answer_status"],"JOINT_CONSISTENCY_NOT_ESTABLISHED")
+        review=advisory(result["local_answer_status"],owner_authorized=True,
+            actor_consent="GRANTED",solidarity_elected=False,
+            nonwaivable_rights_preserved=True)
+        self.assertEqual(review["advisory_status"],"RETAIN_SCOPED_UNDETERMINED")
+
+    def test_uncertain_source_positions_proven_inconsistent(self):
+        points=(sample(x_min=0,x_max=0.1,y_min=0,y_max=0),
+                sample(claim_id="p2",origin_id="s2",x_min=0.2,x_max=0.3,y_min=1,y_max=1))
+        result=qualify(frame(),q(),points)
+        self.assertEqual(result["local_answer_status"],"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+
+    def test_uncertain_source_positions_robustly_compatible(self):
+        points=(sample(y_min=0,y_max=2),
+                sample(claim_id="p2",origin_id="s2",x_min=0,x_max=2,y_min=1,y_max=1))
+        result=qualify(frame(),q(x=1,threshold=0),points)
+        self.assertNotEqual(result["local_answer_status"],"JOINT_CONSISTENCY_NOT_ESTABLISHED")
+
     def test_C_does_not_automatically_veto(self):
         r=qualify(frame(),q(),(sample(),),(witness("C"),))
         self.assertEqual(r["local_answer_status"],"LOCALLY_SUPPORTED_TRUE")
