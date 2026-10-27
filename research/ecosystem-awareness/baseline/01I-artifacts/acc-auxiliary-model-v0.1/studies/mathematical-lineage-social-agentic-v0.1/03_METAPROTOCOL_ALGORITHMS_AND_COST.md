@@ -34,7 +34,7 @@ Outputs always include an **evidence scope** and **expiry condition**. A certifi
 | P0 | Source/permission/version validation | R04 §14.5; R18 §1.3; 00M/00N | Reject invalid inference, not just invalid syntax; *policy is externally specified* |
 | P1 | Equivalence & congruence check | R01/S01 review §6 P1–P2; standard quotient algebra | Test if old A retains operational sufficiency after changed task |
 | P2 | Greatest stable refinement (D2) | R01/S01 §6 P4; standard partition refinement | Construct the needed state distinctions *within finite scope* |
-| P3 | Mission-conflicting-pair cover (D3) | R03 review §14.2; reviewer-created question semantics; standard weighted set cover | Buy minimum eligible observations for **this** mission; no C/D sampling |
+| P3 | Conditional mission-conflicting-pair cover (D3-A given current A; D3 for Q-only) | R03 review §14.2; ordinary conditional pair separation; [02 §4.1](./02_FORMAL_CORE_AND_PROOFS.md) | Select minimum eligible **supplementary** sources for conflicts left unresolved by the already qualified receiver observation; no C/D sampling |
 | P4 | Saturated safe domain & typed commuting map | R04 review §14.3–14.5 | Prevent “meaning transfer” and “rights transfer” from being conflated |
 | P5 | Finite second-order certificate | R05 review §14.3–14.5 | Report entailed/refuted/underdetermined/inconsistent *in frame*; UNKNOWN otherwise |
 | P6 | Conflicting report joint atoms | R18 review §1.2–1.4; existing partition mathematics | Preserve both signed sources and no false world contradiction |
@@ -78,11 +78,15 @@ META_REQUALIFY(signed_inputs, changed_mission, budget):
 
   04. COMPUTE_REQUIRED_REFINEMENT
       Refine old partition under declared new operations;
-      form receiving-conflicting pair universe U_r or finite-horizon U_r,h.
+      form the conditional pair universe U_(r|o) still ambiguous under
+      current qualified A=o, or U_(r_h|o) for an authorised finite horizon.
+      U_r applies ONLY if the receiving question has no reusable A observation.
       This gives the proof obligation, NOT access to missing answers.
 
   05. FIND_ELIGIBLE_EVIDENCE
       For every characterized Q_j, verify rights, source, meaning, cost and scope.
+      Cover ONLY the receiver's unresolved U_(r|o) pairs with eligible Q;
+      use joint (o,Q), not Q alone, for the resulting sufficiency test.
       Solve minimum-cost query cover where additive / independent;
       otherwise solve an explicitly typed joint-cost optimization.
       If impossible, cost-over-budget or unsafe:
@@ -112,6 +116,8 @@ META_REQUALIFY(signed_inputs, changed_mission, budget):
       expiry/requalification triggers, independent referee comparison.
       Actuation: NEVER; requires separately authenticated owner/governance approval.
 ~~~
+
+**27 October correction reception:** The prior P3/Q-only adaptation mistakenly charged Q with distinguishing pairs that the current A observation already separates. [02 §4.1](./02_FORMAL_CORE_AND_PROOFS.md) preserves D3 and proves the conditional receiver version D3-A, including the four-state false-unattainability counterexample. P3 and stages 04–05 above now use the **conditional** problem. This is an arithmetic/interface repair in Stage A research, not evidence that a real-world source Q exists or is cheaply verifiable. Cost of existing A remains part of the full comparison ledger.
 
 **Why not “a magic oracle”?** At every step, knowledge is bounded by observations, a finite declared model and existing actor rights. The output is a *proposal or certificate relative to input conditions*. The protocol can reveal that a better known state arrangement is feasible **in its model**, but cannot conjure unobserved resources, forge information or bypass source controls.
 
