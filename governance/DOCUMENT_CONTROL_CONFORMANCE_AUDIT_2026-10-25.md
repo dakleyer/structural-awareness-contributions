@@ -561,3 +561,10 @@ The [document-control job for audit head db75b9c](https://github.com/dakleyer/st
 The 21-PR cut now includes PR60's seven added documents; all current-main paths/modes/blobs remain. Updated 58 at 406c4637 adds arithmetic and accepts evidence limitations. At 8008240c, after our comment, attribution identifies Codex AI-assisted review rather than a personal owner statement. D26-F10 is resolved; no already corrected attribution card remains in the source queue.
 
 Actual document checks succeed for PR60 aa4a2250 (run 40409231123/job 121875046445) and PR58 at 8008240c (run 40410442516/job 121879493551). They do not validate query conditioning (F08), namespace/admission (F09), original-source editions or real architecture advantage. Late GFM adds zero missing local routes/fragments. All source pairs remain unapplied.
+
+
+### PR59 qualification binding after additive review — 27 October 2026
+
+The documentary job for head38fa9c8 rejected the changed04owner VNext because its exact historical-source qualification still named the previous normalized text hash. This was a missing metadata refresh in my review continuation; the guard correctly stopped it. The complete original review body is an exact prefix, its two qualified source-relative citation occurrences and receiving file are unchanged. The native helper reproduces the failure with the old record and accepts the refreshed record: three records/four qualified occurrences, no broader exclusion.
+
+This successor changes only the record: normalized source hash, reviewed-source commit and appended qualification explanation, plus this receipt. Destination, occurrence count, receiver hash, other records, checker and workflow are unchanged. Original raw formatting and every unrelated JSON byte are preserved by three exact replacements. The earlier failed run remains public; no canonical research, frozen source, result or active schema was altered to make the check pass.

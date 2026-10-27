@@ -127,6 +127,7 @@ function runChecks(){
 }
 
 const result=runChecks();
+verify(result.checks===33,"source regression expected exactly 33 finite checks");
 
 console.log("Collective residual stage-3 assertions:",JSON.stringify(result));
 

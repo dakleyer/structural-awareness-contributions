@@ -6,6 +6,12 @@
 
 **Source line:** [Part I v1.1](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md); [Part II v0.5](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md); [SA-O1–SA-O5](./SA_OPERATIONAL_RESIDUAL_AND_ONLINE_CONTEXT_PLASTICITY_v0.1.md); [*The Given Universe*](https://drive.google.com/file/d/1ePHBGgco-qiQ4S0BmsCNTTFdd2C1JgCd/view); [PR #45's bounded cloud and local closure proof](../ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/README.md); [PR #57's original agentic reduction](https://github.com/dakleyer/structural-awareness-contributions/pull/57); [PR #58's independent research audit](https://github.com/dakleyer/structural-awareness-contributions/pull/58). A future N-agent experiment is a separate scientific stage; no original PR #57 or 00M code/definition is changed here.
 
+## Relation to parallel source-grounded constructions
+
+The existing [SA-MATH-CART-01 — Common Blind-Spot Cartography](./SA_MULTIAGENT_COMMON_RESIDUAL_AND_ARRIVAL_v0.1.md) derives a curved four-dimensional utility bound and links to a [new actual PR #57 physical-engine overlay](https://github.com/dakleyer/structural-awareness-contributions/blob/research/acc-agentic-ecosystem-reduction-v0.1-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/META_CARTOGRAPHY_EXTENSION_v0.1.md), which **preserves the original physical resource model** and newly gates the source AG01 policy to yield **10→10→11.5**, against referee optimum **13.5**. Another independent [SA-MATH-CROSS-01](./SA_CROSS_AGENT_RESIDUAL_INTERSECTION_AND_EVOLUTIONARY_OPPORTUNITY_v0.1.md) has a normalized source-qualified interval example (**2→2→3.82**), which is likewise not the original PR #57 objective.
+
+**This note provides a narrower, complementary witness:** both a high-value and a low-value event yield **identical all-DROP conventional outputs**, but their **qualified ABOVE/BELOW residual-side records** permit discrimination. Its theorem IDs **SA-CR1/SA-CR2** intentionally do not reuse earlier SA-C1/SA-C2 identifiers. These distinct finite examples are **not independent real-world validation**, and their different objectives/units **must not be combined or averaged**. When discussing the original fixed-10-resource model, cite the PR #57 overlay rather than this 4D illustrative objective.
+
 ## Abstract and theorem scope
 
 An event unclassifiable to each of N object-level agents may be **actually observed** at their admission boundaries. Although each agent discards it as a substantive object, its **pre-admission source** may record a qualified property explaining the rejection. Multiple agents' compatible, co-referential metaproperties can then establish a **joint task-relevant statement** about the same event, without recovering its full identity, objective score or the unenumerated exterior. A meta-interpreter already resident in an agent can promote the newly encountered event into a **task-specific usable syntactic state**, while the original object-level classifiers remain unchanged.
@@ -36,7 +42,7 @@ H_t=\{e\in E_t:\operatorname{CompatibleSources}(e)\land
 
 H is not **the entire** A′; it is a possibly empty, source-qualified **observed subset** of what the object-level system could not use. Its predicates require no exhaustive enumeration of all possible unknowns.
 
-## 2. SA-C1 — nonfungible residual predicates yield a sufficient task property
+## 2. SA-CR1 — nonfungible residual predicates yield a sufficient task property
 
 Let \(F\) be an independently fixed task score, \(F_0\) the existing admissible result, \(C(e)\) the authorized transition cost and \(\underline F(e)\) a conservative lower score bound derived from qualified source and metaproperties. Suppose a valid proof \(\pi\) applies under the current question, time and authority:
 
@@ -46,13 +52,13 @@ F(e)\ge\underline F(e)>F_0+C(e).}
 \tag{3}
 \]
 
-**Theorem SA-C1.** If a real event e arrives in H, the programme can verify the claims, and an **already existing legal and executable adoption mechanism** is available, then admitting e strictly improves the specified net task score. The programme need not compute its exact F, determine every other property of e or identify the global optimum.
+**Theorem SA-CR1.** If a real event e arrives in H, the programme can verify the claims, and an **already existing legal and executable adoption mechanism** is available, then admitting e strictly improves the specified net task score. The programme need not compute its exact F, determine every other property of e or identify the global optimum.
 
 **Proof.** Equation (3) implies \(F(e)-C(e)>F_0\). An authorized action realizing e has the stipulated result. No step requires a general semantic decider or oracle. \(\square\)
 
 **Why nonfungibility matters:** a missing property or source right cannot be compensated by many unrelated accurate properties. The conjunction supports (3) only when all necessary premises cover the **same event and question**. A collection of N residual labels alone may convey no lower bound at all. PR #45's bounded source cloud and conditional Lipschitz envelope provide an existing **local** method for computing conservative intervals when regularity, origin, validity and consistency are justified. Without those conditions, no interpolation, objective bound or arbitrary success probability follows.
 
-## 3. SA-C2 — a strict theorem against the information-discarding comparator
+## 3. SA-CR2 — a strict theorem against the information-discarding comparator
 
 Let \(Z_C(w)\) denote the full report received from a **specified closure-only stage** that irreversibly drops unclassifiable incoming events and all distinctions about their rejection reasons, and lacks replay. Let \(Z_M(w)\) carry the same normal results **plus qualified meta-records preserved at or before admission**. Suppose two admissible worlds require different choices for a fixed task r:
 
@@ -62,7 +68,7 @@ r(w_+)\ne r(w_-),\qquad Z_M(w_+)\ne Z_M(w_-).
 \tag{4}
 \]
 
-**Theorem SA-C2 (restricted strict information separation).** No procedure whose complete input is \(Z_C\) can answer r correctly on **both** worlds. If r also factors through the enriched \(Z_M\) under an effective source-qualified decoder and permitted actions, the metasyntactic procedure can distinguish them.
+**Theorem SA-CR2 (restricted strict information separation).** No procedure whose complete input is \(Z_C\) can answer r correctly on **both** worlds. If r also factors through the enriched \(Z_M\) under an effective source-qualified decoder and permitted actions, the metasyntactic procedure can distinguish them.
 
 **Proof.** Equal \(Z_C\) forces an identical closed-report decision on both worlds, conflicting with different required r. The positive claim follows from the specified factorization and effective decoder. \(\square\)
 
@@ -120,7 +126,32 @@ The separately committed [four-agent Stage-1/2/3 fixture](./fixtures/COLLECTIVE_
 
 A later explicit N-agent extension to the bounded portfolio/network models should freeze matched budget, authorized actions, source-origin integrity, arrival stream, decoder, certified score/feasibility condition, logging cost, independent referee and strong conventional peer. **This document does not edit the PR branches or assert completion of that further experiment.**
 
-## 7. Falsifiers and conclusion
+## 7. SA-CR3 — the explicit remaining bridge to PR #57's actual physical score
+
+The original [PR #57 AG01 model](https://github.com/dakleyer/structural-awareness-contributions/blob/research/acc-agentic-ecosystem-reduction-v0.1-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/README.md#2-sistema-físico-mínimo-recursos-interfaces-y-rol) has two **resource-holding providers** with 6+4=10 units, donor productivity 1, recipient unknown private marginal rate \(m_B\) and coordination overhead \(h=0.25\). Under its already declared action and rights, the change produced by transferring k=2 resource units is:
+
+\[
+Y(2)-Y(0)=(2-0.25)m_B-2.
+\tag{8}
+\]
+
+The source's Q claim gives a **qualified lower rate** \(m_B\ge1.6\) over that admitted transfer range; then the conditional **guaranteed** gain is:
+
+\[
+\boxed{m_B\ge1.6\Longrightarrow Y(2)-10\ge
+1.75(1.6)-2=0.8.}
+\tag{9}
+\]
+
+For the **separate independent referee's synthetic truth** \(m_B=2\), the realized gain is 1.5, giving **Y=11.5** versus the technical but not fully available **13.5**. These are **the actual source units**, not the 2.4/3.37 objective of §4.
+
+**SA-CR3 (conditional physical-bridge statement).** A cartographically qualified residual event can correctly trigger PR #57's existing k=2 action with the bounded guarantee (9) **only if an independently legitimate mapping proves that its meta-properties entail the source Q assertion \(m_B\ge1.6\) for this task and time**, that a matching event is actually received, and that the *original* capability, consent, authority and coordination gates apply. The algebraic benefit then follows from (8)–(9). **Proof:** apply the independently certified implication, then substitute its lower bound into the physically fixed source response. \(\square\)
+
+**Crucial remaining mathematical/evidential obligation:** the [new PR57 arrival overlay](https://github.com/dakleyer/structural-awareness-contributions/blob/research/acc-agentic-ecosystem-reduction-v0.1-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/META_CARTOGRAPHY_EXTENSION_v0.1.md) currently treats that **class-to-Q link as a newly assumed synthetically qualified source**; De Morgan and the four-dimensional objective **do not derive** the recipient's real marginal-rate certificate. A sound source/physical correspondence remains to be established in a later experiment. The software overlay is valid as an **assumption-explicit simulation**; it does not close this evidential gap by constructing metadata alone.
+
+This distinction prevents two opposite false claims: (i) that the original PR #57 automatically had an event-arrival gate, and (ii) that source AG01's 10→11.5 is a measured consequence of the purely geometric meta-label. The geometric witness establishes **logical separation and a score bound in its own declared model**; the ACC score follows only from a **source-qualified physical bridge**.
+
+## 8. Falsifiers and conclusion
 
 The strong claim **fails or becomes conditional** if (i) the common exterior is empty; (ii) negative membership was inferred from mere UNKNOWN; (iii) claims from different events are joined; (iv) a qualified property gives no lower bound for the target; (v) the actual stream never hits the region; (vi) action authority or execution capability is absent; (vii) a source claim is false or stale; (viii) a competing program already retains the same data/proofs; or (ix) costs eliminate the gain. The originally deployed syntactic filter cannot process a residual event which it **irreversibly discarded**; a better equipped ordinary system can implement the same metalevel retention and is thereby outside the strict closure-only comparator.
 
