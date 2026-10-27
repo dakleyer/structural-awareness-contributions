@@ -556,6 +556,69 @@ node research/structural-awareness/fixtures/A_APRIME_STRICT_VALUE_FOUR_STATE_v0.
 
 **What remains to be called strong superiority?** TR-5 and this example exhibit *strict usefulness for a declared receiving question versus a specified lossy information state*. They do **not** establish a universal advantage of one named architecture. A **strong operational improvement claim** requires a positive mission-specific net gain against the **best competent equally authorized comparator**, at matched resources and independently assessed decision consequences. That last step is the **unproven Stage-A empirical/differential agenda** of PR #60/#57, not a theorem supplied by L1, Gödel or TR-4.
 
+### 6.12. Two-stage closure-only comparator
+
+Define the specific conventional comparator as two effective stages: a closure stage K constructs an operational frame A; a subsequent operator D executes only within A and produces A₁.
+
+\[
+K(\mathcal E)=A,\qquad D(A)=A_1\subseteq A,
+\qquad P=D\circ K.
+\tag{30}
+\]
+
+Composing K and D into one program does not remove its computability limits (OW-5). The open-aware construction uses **the same K, D, A and A₁**. Its advantage is not a hidden improvement in executing D.
+
+**Strict comparator definition:** the closure-only exported interface is typed solely over A. It has no language for stating anything **about a semantic frontier outside A**. It may correctly preserve all in-A error and INDETERMINATE records. It is nonetheless prohibited, by its own interface contract, from representing the open semantic residual A′.
+
+The open-aware interface preserves exactly the same A and A₁ plus a **true meta-semantic statement about A′**. Here A is the closing stage's represented frame; it should not be confused with §1's \(A_{\rm proc}\), the entire declared procedure and task, or canonical 00M A, a delivered functional result. A′ is an **open semantic obligation**, not an enumerable inventory of unidentified physical entities.
+
+\[
+M_{\rm closed}=(A,A_1,\mathrm{qualified\ in\!-\!A\ records}),
+\]
+
+\[
+M_{\rm open}=(M_{\rm closed},
+\mathrm{OPEN}(A'),\mathrm{unclosed\ meaning}).
+\tag{31}
+\]
+
+An implementation that already carries equivalent open-frontier statements, regardless of its branding, is **not in this strictly closure-only architectural class**. The classification is by contract, not by software age or vendor.
+
+### 6.13. Theorem TR-10 — strict claim expressivity
+
+Let \(\mathcal L_C\) be the closed interface language, where semantic assertions and quantifiers are restricted to A and no meta-level frontier sort exists. Let \(\mathcal L_O\) extend this interface by a correctly interpreted external-frontier declaration. Fix the expressive uniform semantic question from OW-1, under H-EXP, and a sound total evaluator with an INDETERMINATE outcome. OW-1 implies **a nonempty unresolved semantic frontier** for that evaluator. This does not mean that every real city has a further unknown physical neighbor.
+
+**TR-10.** Under those definitions,
+
+\[
+\boxed{\operatorname{Claims}(\mathcal L_C)
+\subsetneq \operatorname{Claims}(\mathcal L_O).}
+\tag{32}
+\]
+
+**Proof.** Every in-A statement expressible by the closed interface remains expressible by its extension. OW-1 guarantees that the declaration “there exists an unresolved semantic frontier relative to this uniform procedure” is true in the given problem. The open language can state it; the closed language, by its stipulated typing rules, cannot express a proposition about an outside-A semantic referent. Hence strict inclusion. \(\square\)
+
+The proof combines **nonemptiness supplied by OW-1** with the **representational restriction defining the comparator**. It is a theorem of **strict semantic expressivity for this architectural comparison**; it is not a universal claim about any implementation called conventional.
+
+### 6.14. TR-11 — existence without identifying unknown elements
+
+Two admissible situations may have the same A, the same A₁ and the same truthful frontier statement while differing in the identities or substantive answers of their unrepresented constituents. Therefore that frontier statement cannot recover the individual identities or truth values. It can **refer to the open exterior without identifying its members**. That is its intended purpose, and it does not turn the machine into an oracle.
+
+### 6.15. Relationship to the weak and strong information claims
+
+Forgetting the additional frontier fields recovers the closure-only message:
+
+\[
+M_{\rm closed}=\operatorname{Forget}_{A'}(M_{\rm open}).
+\tag{33}
+\]
+
+Thus TR-4 still gives **weak decision-information dominance**. TR-10 adds **strict representational/semantic scope**: a class of true claim is expressible by the open interface and inexpressible by the definitionally closed interface.
+
+These are not identical orders of information. If the assertion that A′ exists is constant throughout a comparison class and the receiver already knows the same theorem, appending that bare flag does **not necessarily distinguish more possible worlds** in the Blackwell/Shannon sense. Yet it enables the closed sender to make a true *meta-semantic* claim its own interface previously prohibited. Strict receiver-decision gain follows when the enhanced message also retains **world-varying, qualified observations** erased by the closed one (TR-5).
+
+A different architecture that can express A′ may be information-isomorphic to the open reference (TR-7), but **it is no longer the strictly closed comparator**. No claim of identified unknown entities, free implementation benefit or globally complete A′ enumeration is required.
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
