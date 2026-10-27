@@ -1,0 +1,703 @@
+{
+  "cases": [
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 0,
+        "resources": 9,
+        "service": 1
+      },
+      "alternative": {
+        "authorized": true,
+        "coordination": 1,
+        "resources": 6,
+        "service": 2
+      },
+      "group": "food",
+      "id": "BAN-01-LOCAL-VS-WASTE",
+      "kind": "compare",
+      "max_coordination": 2,
+      "source": "CE1"
+    },
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 0,
+        "resources": 4,
+        "service": 1
+      },
+      "alternative": {
+        "authorized": true,
+        "coordination": 2,
+        "resources": 7,
+        "service": 2
+      },
+      "group": "food",
+      "id": "BAN-02-TRANSPORT-NO-FREE-LUNCH",
+      "kind": "compare",
+      "max_coordination": 3,
+      "source": "CE1"
+    },
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 0,
+        "resources": 5,
+        "service": 1
+      },
+      "alternative": {
+        "authorized": true,
+        "coordination": 1,
+        "resources": 5,
+        "service": 2
+      },
+      "group": "food",
+      "id": "BAN-03-LEGITIMATE-DONATION",
+      "kind": "compare",
+      "max_coordination": 2,
+      "source": "CE1"
+    },
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 0,
+        "resources": 5,
+        "service": 1
+      },
+      "alternative": {
+        "authorized": false,
+        "coordination": 1,
+        "resources": 5,
+        "service": 2
+      },
+      "group": "food",
+      "id": "BAN-04-WITHHELD-CONSENT",
+      "kind": "compare",
+      "max_coordination": 2,
+      "source": "CE1"
+    },
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 0,
+        "resources": 5,
+        "service": 1
+      },
+      "alternative": {
+        "authorized": true,
+        "coordination": 3,
+        "resources": 4,
+        "service": 2
+      },
+      "group": "food",
+      "id": "BAN-05-NO-COORDINATION-CAPACITY",
+      "kind": "compare",
+      "max_coordination": 2,
+      "source": "CE1"
+    },
+    {
+      "credit_minimums": [
+        0,
+        0
+      ],
+      "credit_total": 1000,
+      "delta_utils": [
+        1,
+        999
+      ],
+      "group": "credit",
+      "id": "ROBIN-01-SMALL-GAIN-LARGE-SHARE",
+      "kind": "distribution",
+      "source": "CE1"
+    },
+    {
+      "credit_minimums": [
+        7,
+        4
+      ],
+      "credit_total": 10,
+      "delta_utils": [
+        1,
+        999
+      ],
+      "group": "credit",
+      "id": "ROBIN-02-RELATIVE-CREDIT-HARD-CONSTRAINT",
+      "kind": "distribution",
+      "source": "CE1"
+    },
+    {
+      "credit_minimums": [
+        7,
+        3
+      ],
+      "credit_total": 10,
+      "delta_utils": [
+        1,
+        999
+      ],
+      "group": "credit",
+      "id": "ROBIN-03-CREDIT-FEASIBLE",
+      "kind": "distribution",
+      "source": "CE1"
+    },
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 3,
+        "resources": 80,
+        "service": 100
+      },
+      "alternative": {
+        "authorized": true,
+        "coordination": 7,
+        "resources": 56,
+        "service": 100
+      },
+      "group": "institutions",
+      "id": "MIN-01-COORDINATION-REORG",
+      "kind": "compare",
+      "max_coordination": 9,
+      "source": "CE1"
+    },
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 3,
+        "resources": 80,
+        "service": 100
+      },
+      "alternative": {
+        "authorized": true,
+        "coordination": 7,
+        "resources": 56,
+        "service": 100
+      },
+      "group": "institutions",
+      "id": "MIN-02-SAME-REORG-OVER-CAPACITY",
+      "kind": "compare",
+      "max_coordination": 5,
+      "source": "CE1"
+    },
+    {
+      "actual": {
+        "authorized": true,
+        "coordination": 3,
+        "resources": 80,
+        "service": 100
+      },
+      "alternative": {
+        "authorized": false,
+        "coordination": 7,
+        "resources": 56,
+        "service": 100
+      },
+      "group": "institutions",
+      "id": "MIN-03-RIGHTS-BLOCK-REORG",
+      "kind": "compare",
+      "max_coordination": 9,
+      "source": "CE4"
+    },
+    {
+      "group": "utility",
+      "id": "UTIL-01-APPLES-MARKET-THRESHOLD",
+      "kind": "nonmonotone",
+      "source": "CE11",
+      "start": 3,
+      "table": [
+        0,
+        4,
+        7,
+        8,
+        7,
+        5,
+        5,
+        9,
+        10
+      ]
+    },
+    {
+      "group": "efficiency",
+      "id": "EFF-01-TWO-HORIZONS-OPTIMUM",
+      "kind": "eff_gap",
+      "periods": [
+        {
+          "actual_cost": 100,
+          "actual_output": 100,
+          "feasible": true,
+          "ideal_same_output_cost": 80,
+          "time": 0
+        },
+        {
+          "actual_cost": 110,
+          "actual_output": 140,
+          "feasible": true,
+          "ideal_same_output_cost": 65,
+          "time": 1
+        }
+      ],
+      "source": "CE1"
+    },
+    {
+      "group": "efficiency",
+      "id": "EFF-02-UNATTAINABLE-IDEAL",
+      "kind": "eff_gap",
+      "periods": [
+        {
+          "actual_cost": 110,
+          "actual_output": 140,
+          "feasible": false,
+          "ideal_same_output_cost": 65,
+          "time": 0
+        }
+      ],
+      "source": "CE4"
+    },
+    {
+      "benefit": 5,
+      "group": "human",
+      "id": "WELFARE-01-DOUBLE-BANANA",
+      "kind": "net_discomfort",
+      "source": "CE1",
+      "stipulated_discomfort": 7,
+      "subjective_measured": false
+    },
+    {
+      "benefit": 5,
+      "group": "human",
+      "id": "WELFARE-02-LESS-DISCOMFORT",
+      "kind": "net_discomfort",
+      "source": "CE1",
+      "stipulated_discomfort": 3,
+      "subjective_measured": false
+    },
+    {
+      "benefit": 5,
+      "group": "human",
+      "id": "WELFARE-03-DONT-EQUATE-TO-SUFFERING",
+      "kind": "net_discomfort",
+      "source": "CE2",
+      "stipulated_discomfort": null,
+      "subjective_measured": false
+    },
+    {
+      "actual": {
+        "ACW": 40,
+        "GIC": 25,
+        "NEO": 30,
+        "UNKNOWN": 5
+      },
+      "group": "human",
+      "id": "HID-01-HUMAN-ROLE-TRANSITION",
+      "kind": "human_time",
+      "reference": {
+        "ACW": 20,
+        "GIC": 42,
+        "NEO": 32,
+        "UNKNOWN": 6
+      },
+      "same_service": true,
+      "source": "CE10"
+    },
+    {
+      "actual": {
+        "ACW": 40,
+        "GIC": 25,
+        "NEO": 30,
+        "UNKNOWN": 5
+      },
+      "group": "human",
+      "id": "HID-02-NO-SAME-SERVICE",
+      "kind": "human_time",
+      "reference": {
+        "ACW": 20,
+        "GIC": 42,
+        "NEO": 32,
+        "UNKNOWN": 6
+      },
+      "same_service": false,
+      "source": "CE10"
+    },
+    {
+      "actual": {
+        "ACW": 10,
+        "GIC": 30,
+        "NEO": 50,
+        "UNKNOWN": 10
+      },
+      "group": "human",
+      "id": "HID-03-NEO-NOT-DEBT",
+      "kind": "human_time",
+      "reference": {
+        "ACW": 10,
+        "GIC": 30,
+        "NEO": 50,
+        "UNKNOWN": 10
+      },
+      "same_service": true,
+      "source": "CE10"
+    },
+    {
+      "group": "information",
+      "id": "ENTROPY-01-MULTI-PREIMAGE",
+      "kind": "entropy",
+      "prior": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "projection": [
+        "READY",
+        "READY",
+        "READY",
+        "READY"
+      ],
+      "source": "CE6",
+      "target": [
+        "YES",
+        "NO",
+        "YES",
+        "NO"
+      ]
+    },
+    {
+      "group": "information",
+      "id": "ENTROPY-02-QUESTION-SUFFICES",
+      "kind": "entropy",
+      "prior": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "projection": [
+        "READY",
+        "READY",
+        "READY",
+        "READY"
+      ],
+      "source": "CE11",
+      "target": [
+        "YES",
+        "YES",
+        "YES",
+        "YES"
+      ]
+    },
+    {
+      "group": "information",
+      "id": "ENTROPY-03-SKEWED-PRIOR",
+      "kind": "entropy",
+      "prior": [
+        0.97,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "projection": [
+        "READY",
+        "READY",
+        "READY",
+        "READY"
+      ],
+      "source": "CE6",
+      "target": [
+        "YES",
+        "NO",
+        "NO",
+        "NO"
+      ]
+    },
+    {
+      "group": "information",
+      "id": "ENTROPY-04-OPEN-D-NO-PRIOR",
+      "kind": "entropy",
+      "prior": null,
+      "projection": [
+        "READY",
+        "READY"
+      ],
+      "source": "CE7",
+      "target": [
+        "YES",
+        "NO"
+      ]
+    },
+    {
+      "group": "information",
+      "id": "KL-01-CORRECT-REVERSE",
+      "kind": "kl",
+      "m": 4,
+      "n": 2,
+      "source": "CE7"
+    },
+    {
+      "group": "information",
+      "id": "KL-02-NO-SUPPORT-MISMATCH",
+      "kind": "kl",
+      "m": 4,
+      "n": 4,
+      "source": "CE7"
+    },
+    {
+      "assigned_credit": true,
+      "group": "attribution",
+      "id": "ATTR-01-LISTED-BUT-NO-DEPENDENCY",
+      "kind": "attribution",
+      "reported_dependency": true,
+      "source": "CE8",
+      "verified_dependency": false
+    },
+    {
+      "assigned_credit": false,
+      "group": "attribution",
+      "id": "ATTR-02-UNLISTED-REAL-DEPENDENCY",
+      "kind": "attribution",
+      "reported_dependency": false,
+      "source": "CE8",
+      "verified_dependency": true
+    },
+    {
+      "assigned_credit": true,
+      "group": "attribution",
+      "id": "ATTR-03-METRIC-ERRATUM-BLOCKED",
+      "kind": "attribution",
+      "reported_dependency": true,
+      "requested_metric": "E_UNRESOLVED",
+      "source": "CE8",
+      "verified_dependency": true
+    },
+    {
+      "A": "READY",
+      "actual_independent": 1,
+      "authorized_change": false,
+      "group": "mission",
+      "id": "MISSION-01-ONE-SOURCE-REPLICATED",
+      "kind": "mission",
+      "reported_independent": 5,
+      "source": "CE3",
+      "source_basis_valid": false
+    },
+    {
+      "A": "READY",
+      "actual_independent": 3,
+      "authorized_change": true,
+      "group": "mission",
+      "id": "MISSION-02-AUTHORIZED-NEW-MISSION",
+      "kind": "mission",
+      "reported_independent": 3,
+      "source": "CE3",
+      "source_basis_valid": true
+    },
+    {
+      "A": "READY",
+      "actual_independent": null,
+      "authorized_change": null,
+      "group": "mission",
+      "id": "MISSION-03-UNQUALIFIED-UNKNOWN",
+      "kind": "mission",
+      "reported_independent": 2,
+      "source": "CE3",
+      "source_basis_valid": null
+    },
+    {
+      "decision_value": 10,
+      "full_cost": 32,
+      "group": "qualification",
+      "id": "QUAL-01-B-SOURCE-BEATS-FULL",
+      "kind": "q_cost",
+      "qualified_cost": 2.25,
+      "source": "CE11",
+      "targeted_cost": 3,
+      "valid_Q": true
+    },
+    {
+      "decision_value": 10,
+      "full_cost": 32,
+      "group": "qualification",
+      "id": "QUAL-02-CONVENTIONAL-BEATS-B",
+      "kind": "q_cost",
+      "qualified_cost": 8,
+      "source": "CE11",
+      "targeted_cost": 1,
+      "valid_Q": true
+    },
+    {
+      "decision_value": 10,
+      "full_cost": 32,
+      "group": "qualification",
+      "id": "QUAL-03-Q-NOT-VALID",
+      "kind": "q_cost",
+      "qualified_cost": 2.25,
+      "source": "CE11",
+      "targeted_cost": 3,
+      "valid_Q": false
+    },
+    {
+      "decision_value": 0,
+      "full_cost": 32,
+      "group": "qualification",
+      "id": "QUAL-04-NO-GAIN-NEEDED",
+      "kind": "q_cost",
+      "qualified_cost": 2.25,
+      "source": "CE11",
+      "targeted_cost": 3,
+      "valid_Q": true
+    },
+    {
+      "L": 1,
+      "group": "qualification",
+      "id": "CLOSURE-01-LOWER-BOUND-SUFFICES",
+      "kind": "closure",
+      "samples": [
+        [
+          0,
+          9,
+          10
+        ],
+        [
+          2,
+          9,
+          10
+        ]
+      ],
+      "source": "CE11",
+      "threshold": 7,
+      "x": 1
+    },
+    {
+      "L": 1,
+      "group": "qualification",
+      "id": "CLOSURE-02-CROSSES-THRESHOLD",
+      "kind": "closure",
+      "samples": [
+        [
+          0,
+          9,
+          10
+        ],
+        [
+          2,
+          9,
+          10
+        ]
+      ],
+      "source": "CE11",
+      "threshold": 9,
+      "x": 1
+    },
+    {
+      "L": null,
+      "group": "qualification",
+      "id": "CLOSURE-03-NO-REGULARITY",
+      "kind": "closure",
+      "samples": [
+        [
+          0,
+          9,
+          10
+        ],
+        [
+          2,
+          9,
+          10
+        ]
+      ],
+      "source": "CE11",
+      "threshold": 7,
+      "x": 1
+    },
+    {
+      "assertion": "collusion",
+      "group": "unawareness",
+      "id": "CAPACITY-01-ORANGE-COLLUSION-NOT-INFERRED",
+      "independent_evidence": false,
+      "kind": "knowledge",
+      "observation": "discarded_fruit_and_price_mismatch",
+      "source": "CE1"
+    },
+    {
+      "assertion": "observed_subjective_distress",
+      "group": "unawareness",
+      "id": "CAPACITY-02-EDU-STRUCTURAL-OPPORTUNITY",
+      "independent_evidence": false,
+      "kind": "knowledge",
+      "observation": "student_education_limit",
+      "source": "CE4"
+    },
+    {
+      "assertion": "universal_loss",
+      "group": "unawareness",
+      "id": "CAPACITY-03-CAPABILITY-RETAINED",
+      "independent_evidence": false,
+      "kind": "knowledge",
+      "observation": "master_apprentice_interruption",
+      "source": "CE4"
+    },
+    {
+      "alpha": 0,
+      "b": 10,
+      "g": 0.2,
+      "group": "network",
+      "id": "ACC-01-DENSE-GAP-40",
+      "kind": "network",
+      "n": 40,
+      "source": "CE1",
+      "topology": "dense"
+    },
+    {
+      "alpha": 0,
+      "b": 10,
+      "g": 0.2,
+      "group": "network",
+      "id": "ACC-02-SPARSE-GAP-40",
+      "kind": "network",
+      "n": 40,
+      "source": "CE1",
+      "topology": "star"
+    },
+    {
+      "alpha": 0,
+      "b": 10,
+      "g": 0,
+      "group": "network",
+      "id": "ACC-03-NO-GAP",
+      "kind": "network",
+      "n": 40,
+      "source": "CE1",
+      "topology": "dense"
+    },
+    {
+      "alpha": 0.1,
+      "b": 10,
+      "g": 0.2,
+      "group": "network",
+      "id": "ACC-04-RECOVERED-SYNERGY",
+      "kind": "network",
+      "n": 40,
+      "source": "CE1",
+      "topology": "dense"
+    }
+  ],
+  "evidence_status": "SYNTHETIC_NOT_EMPIRICAL",
+  "notes": [
+    "All numeric values not directly stated as illustrative in sources are declared toy assumptions; do not treat them as observations.",
+    "Some source notes use E/R/C/V and historical A notation as economic axes. These are NOT the epistemic A/B/C/D of 00M.",
+    "A mixed proof and empirical claim is classified at the weaker evidence ceiling; selected formula results do not validate social causation."
+  ],
+  "schema": "CONSCIENTIA-DOC-EXPERIMENTS-v0.1",
+  "sources": {
+    "CE1": "https://docs.google.com/document/d/1QUzDHPp-yjrgCsjpXq7HLVMldNUO4iOFZ-4W2t4mHuI/edit",
+    "CE10": "https://docs.google.com/document/d/1vwTSpSK_f4ePjg3ayRwI3fDkB9fqzYpWA4BiYL8n7qk/edit",
+    "CE11": "https://docs.google.com/document/d/1qpBDFBZa7nGKlTD2D5poYuStCf0oJcAogBtUuzEjD90/edit",
+    "CE12": "https://docs.google.com/document/d/1rJTg__x4xKYRQbo63hFH3V-BNtkxsgnCUwgQ-oUCPck/edit",
+    "CE2": "https://docs.google.com/document/d/1aKYkPlmuaiNv51QtW51q30fiNDdXrZ-1LQOJ2EGKhrg/edit",
+    "CE3": "https://docs.google.com/document/d/1YRehP7BuSOR9qBhFs3OOrYrPjH3TDvoL4hPJ9eFV-TY/edit",
+    "CE4": "https://docs.google.com/document/d/1QHzTPaEGY0OCgUr-ObswadFGgrh7JP8XIxX-t36tj1M/edit",
+    "CE5": "https://docs.google.com/document/d/1ZBCAoni5TUVxGkbFGeTY0uRSBaS14vWYK3hhHDXlmww/edit",
+    "CE6": "https://docs.google.com/document/d/19VwS524d9Kx3RVXbZjSdUn5yi9gRYAF-H66Mut540EU/edit",
+    "CE7": "https://docs.google.com/document/d/1lBdXV47NjRY9pIbQlfYsdCcwGjSz_3k85P7m47Zw9J8/edit",
+    "CE8": "https://docs.google.com/document/d/1wgFHAKE9sZFWrgvCIe4HUcK5cO3tuSidC2q24BVEFKU/edit",
+    "CE9": "https://docs.google.com/document/d/1sMuoAcfAqq8uQeeR98NBkr8-NChS2mZBQ1DmKSdAMuA/edit"
+  }
+}
