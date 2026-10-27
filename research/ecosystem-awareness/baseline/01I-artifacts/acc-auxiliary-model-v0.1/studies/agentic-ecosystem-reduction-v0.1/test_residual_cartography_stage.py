@@ -181,5 +181,68 @@ class CartographicStageTest(unittest.TestCase):
         self.assertEqual(self.events[-1].time, 7)
 
 
+    def test_stage_two_cartography_is_an_observed_prefix_claim(self):
+        r = three_stages(events=self.events)
+        msg = r["stage_2_source_cartography"]
+        self.assertTrue(msg["no_matched_event_as_of_meta_exchange"])
+        self.assertEqual(msg["prior_qualified_hit_ids"], [])
+        self.assertTrue(msg["unknown_future_encounter_time_and_agent"])
+        self.assertAlmostEqual(
+            msg["independently_sourced_AG01_near_gain_lower_bound"], .8)
+
+    def test_early_qualifying_event_is_not_falsely_declared_absent(self):
+        early = Observation("early-qualified", META_EXCHANGE_TIME-1,
+                            CROSS_SOURCE_SCOPE, (.9, .85, .8, .95))
+        r = three_stages(events=(early,))
+        self.assertFalse(
+            r["stage_2_source_cartography"]["no_matched_event_as_of_meta_exchange"])
+        self.assertEqual(
+            r["stage_2_source_cartography"]["prior_qualified_hit_ids"],
+            ["early-qualified"])
+        self.assertTrue(
+            r["stage_2_source_cartography"]
+            ["earlier_retained_hits_are_not_replayed_by_this_new_gate"])
+        self.assertEqual(r["stage_3"]["plan"]["transfer"], 0)
+
+    def test_new_meta_syntax_message_has_version_and_provenance(self):
+        r = three_stages(events=self.events)
+        rule = r["stage_3_meta_syntax_message"]
+        self.assertEqual(rule["rule_version"], 1)
+        self.assertEqual(rule["event_id"], "previously-unclassifiable-7")
+        self.assertEqual(rule["source_scope"], CROSS_SOURCE_SCOPE)
+        self.assertEqual(rule["meta_label"], "COMMON_RESIDUAL_CANDIDATE")
+        self.assertEqual(len(rule["source_observers"]), 4)
+        self.assertEqual(rule["accepted_ordinary_action"],
+                         "EXISTING_AUTHORIZED_TRANSFER")
+        self.assertEqual(rule["transfer_amount_if_authorized"], 2)
+        self.assertFalse(rule["broadcast_performed"])
+        self.assertFalse(rule["full_external_population_identified"])
+        self.assertIn("consent_and_authority", rule["receiver_must_revalidate"])
+        self.assertIn("source_version_and_truth", rule["receiver_must_revalidate"])
+
+    def test_absent_candidate_cannot_emit_revised_rule(self):
+        r = three_stages(events=self.events[:2])
+        self.assertIsNone(r["stage_3_meta_syntax_message"])
+        self.assertFalse(r["meta_label"]["joint_region"])
+
+    def test_unqualified_source_can_emit_unadopted_rule_but_not_act(self):
+        r = three_stages(events=self.events,
+                         assumed_class_to_q_source_valid=False)
+        rule = r["stage_3_meta_syntax_message"]
+        self.assertIsNotNone(rule)
+        self.assertFalse(rule["class_to_Q_source_is_synthetically_qualified"])
+        self.assertEqual(rule["accepted_ordinary_action"], "NO_ACTION_ALLOWED")
+        self.assertEqual(rule["transfer_amount_if_authorized"], 0)
+        self.assertFalse(rule["broadcast_performed"])
+
+    def test_refused_consent_keeps_candidate_meta_label_but_no_transfer(self):
+        r = three_stages(case_id="AG07-DONOR-REFUSES", events=self.events)
+        rule = r["stage_3_meta_syntax_message"]
+        self.assertEqual(rule["meta_label"], "COMMON_RESIDUAL_CANDIDATE")
+        self.assertEqual(rule["accepted_ordinary_action"], "NO_ACTION_ALLOWED")
+        self.assertEqual(rule["transfer_amount_if_authorized"], 0)
+
+
+
 if __name__ == "__main__":
     unittest.main()
