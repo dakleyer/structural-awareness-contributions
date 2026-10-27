@@ -53,37 +53,44 @@ Source: [Part I, §§3–5](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOS
 
 ### SA-F2 — Scoped existence and scoped exclusion are different valid metapropositions
 
-For a task predicate \(q_\kappa\) and a declared quantification region \(Q_\kappa\):
+For a task-specific predicate \(P_\chi\) and a **declared** quantification region \(Q_\chi\), indexed by the composite context \(\chi\) defined below:
 
 \[
-\exists x\in Q_\kappa:q_\kappa(x)
+\exists x\in Q_\chi:P_\chi(x)
 \qquad\text{versus}\qquad
-\forall x\in Q_\kappa:\neg q_\kappa(x).
+\forall x\in Q_\chi:\neg P_\chi(x).
 \tag{SA-F2}
 \]
 
-A sound existential certificate can establish **that** a target exists without individuating it, giving its coordinates, or making it reachable. A sound exclusion certificate can eliminate a specified search region; it cannot establish global nonexistence without a domain-wide proof. Absence of a witness, inability to evaluate, disproved permission and proved nonexistence are **four different statements**.
+A sound existential certificate can establish **that** a target exists without individuating it, giving its coordinates, or making it reachable. A sound exclusion certificate can eliminate a specified search region; it cannot establish global nonexistence without a domain-wide proof. Absence of a witness, inability to evaluate, disproved permission and proved nonexistence are **four different statements**, and a certificate must retain its quantified scope.
 
 The mathematical decision gain is **conditional** on the task, proof soundness, search cost, reachability, available alternatives and loss model. In particular, the [Meta-Existence/Exclusion Calculus](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md) gives explicit qualified examples; it does not assert that every open frontier is useful.
 
 ### SA-F3 — Determination, exclusion and indeterminacy are *positioned*, not intrinsic universal labels
 
-Declare a processor- and question-relative qualification tuple:
+Use a **proposed composite indexing context** without redefining the source mathematical symbols:
 
 \[
-\kappa=(p,\ q,\ F,\ t,\ E,\ R,\ G),
+\chi=(p,\ q,\ F,\ t,\ E,\ \rho,\ \sigma,\ \kappa).
+\tag{SA-F3a}
 \]
 
-where \(p\) is the processor, \(q\) the proposition/question, \(F\) the operative frame, \(t\) the time, \(E\) admissible evidence, \(R\) resource/reachability conditions, and \(G\) the applicable authority/governance boundary. The proposed notation
+Here \(p\) is the processor, \(q\) the proposition/question, \(F\) the admitted/operative frame, \(t\) the assessment time and \(E\) the evidence material. As in [SA Part I §2](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), **\(\rho\)** remains the resource profile, **\(\sigma\)** the scope/time interpretation and **\(\kappa\)** the evidence, permissions and authority qualification. **\(\chi\)** is a *new bridge-only composite index*, not a change to any of those source-owned variables.
+
+A relative qualification should be understood as a **typed record**, not an exhaustive three-valued truth function. One possible, non-normative illustration is:
 
 \[
-\operatorname{qual}_{\kappa}(q)\in
-\{\text{supported},\ \text{refuted within scope},\ \text{unresolved}\}
+\operatorname{Qual}_{\chi}(q)
+=(\mathrm{polarity},\mathrm{evidence\ basis},\mathrm{proof\ scope},
+\mathrm{evaluability},\mathrm{freshness},\mathrm{permissions},\mathrm{residual}).
+\tag{SA-F3b}
 \]
 
-is an **indexing convenience**, not a new exhaustive ontology. The same external fact may be established for one processor/question yet unresolved or out-of-frame for another. **Relative non-determination is not ontic nonexistence**; if \(p\) determines a local \(A\), it need not determine \(A'\), even if elements of \(A'\) actually exist.
+The status vocabulary remains **open and typed**: qualified positive/negative, unresolved semantic question, TIMEOUT, BAD_FRAME, authorization refusal, incompatible scope and partial output must not be conflated. Other source-native qualifications remain valid. This illustrative record is **not** a new protocol, event schema, global partition or exhaustive classifier; the underlying full source/evidence objects stay addressable.
 
-A/B/C/D may then be **characterizations of operational positions or residual uses under \(\kappa\)**, and are optional architecture-relative interpretations, not the three SA foundation families or independent metamathematical axioms. See [Part I §9](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), [SA context/evaluability calculus](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md), and [Part II metasyntactic utility](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md).
+The same underlying proposition may be established for one processor and unresolved or out of scope for another; its **truth in a fixed interpretation does not change merely because a processor moves**. What changes is the processor's qualified assessment, available action or represented frame. If a process determines its local delivered \(A_r\), it has not thereby exhausted the semantic obligation \(A'_r\). The latter is **not a set of identifiable exterior elements**: actual constituents may lie beyond a frame, while \(A'_r\) records a relative open-frontier obligation rather than an extensional complement.
+
+A/B/C/D may then be **characterizations of operational positions or residual uses under \(\chi\)**. They are optional process-relative interpretations, not the three SA foundation families or independent metamathematical axioms. See [Part I §9](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), [SA context/evaluability calculus](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md), and [Part II metasyntactic utility](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md).
 
 ### Minimal negative controls at this level
 
@@ -194,7 +201,7 @@ The canonical [DDS index](../ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1
 | **Stage B — architecture verification** | **Evaluate EP as one candidate integrated architecture** against the selected frozen Stage A specification; record module coverage, owner interfaces, omitted surfaces, alternate realizations, negative controls, evidence. | Reuse UC21 adversarial cases to attack architectural claims, not to confer architecture ownership. | That architectural conformance implies problem effects or EP is the only valid architecture. |
 | **Stage C — implementation / problem validation** | Test a **pinned implementation and configuration** against the original problem in a declared authority/information/resource/time/cost envelope, with observed effects and comparators. | UC21 scenarios/recurrence criteria can be an observable test route if the actual implementation and trace meet Stage C conditions. | That passing Stage A/B or a toy automatically means Stage C completion. |
 
-**Strong comparators (when used in this route):** R1 = actual contemporary controls and constraints; R2 = the strongest fairly configured feasible conventional/current architecture for the declared case; R3 = **conditional** changed-context/technology possibility, not an inevitable future. The precise control/availability/cost envelopes must be pinned before asserting differential gain; the protocol may legitimately refute the proposed SA→EA→EP hypothesis.
+**Strong comparators (when used in this route):** the present discussion distinguishes (a) contemporary controls under their real constraints, (b) the strongest fairly configured feasible current architecture for the case, and (c) a **conditional** changed-context/technology possibility, not an inevitable future. These were colloquially called “R1/R2/R3” in the discussion, but **those words are not UC21's source-native IDs**: the [DDS Stage A profile](../ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) explicitly warns that UC21 **R0/R1/R2 name implementation routes**. For this bridge, use provisional descriptive comparator names **CMP-current / CMP-strong / CMP-conditional** until the individual UC21 trajectory and ID crosswalk is checked. Do not alias a comparator to a case route by name alone. Pin the control/availability/cost/authority envelopes before asserting differential gain; the protocol may refute the proposed SA→EA→EP hypothesis.
 
 **Evidence mode is independent of stage.** Mathematical proof, symbolic executable model, deterministic reference model and native implementation can each be relevant to different questions, but an executable file is not automatically Stage C. See [Stage A source](../ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B source](../ecosystem-awareness/DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md), and [Stage C source](../ecosystem-awareness/DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
 
@@ -244,13 +251,13 @@ The cases show how to **carry questions and evidence forward without collapsing 
 
 A third-party review should independently answer **both forward and reverse** directions:
 
-1. **SA premise check.** Are \(\Omega,F,q,\kappa\), finite denotation, existence/exclusion certificate range and source soundness explicit? Try an empty-agent interpretation and a closed finite countermodel.
+1. **SA premise check.** Are \(\Omega,F,q,\chi\) and the source-owned \(\rho,\sigma,\kappa\), finite denotation, existence/exclusion certificate range and source soundness explicit? Try an empty-agent interpretation and a closed finite countermodel.
 2. **EA source check.** For each P1–P6, distinguish the SA interpretation from F-A–F-H and external governance premises. Do not promote a diagram arrow into an entailment.
 3. **Information conservation check.** Recover each S1–S14's original owner, full clause, T obligation, supporting P, evidence/falsifier and negative result. Confirm that a P-only label cannot masquerade as S conformance.
 4. **Reverse implication check.** Report bounded P1/P2/P4 separately from open P3/P5/P6, and probe the latter using A23 countermodels.
 5. **EP composition check.** Test all M1–M8 against the selected S/T and independent source owners, including signal spoofing, shared dependencies, authority conflicts, real-time capacity, change/revocation and multi-objective gradient.
 6. **DDS placement check.** Confirm Stage A's EA + UC21 entry exists *without EP*. Verify that Stage B uses frozen specification and Stage C has pinned implementation plus observed effects; never infer one stage from a lower-quality evidence artifact.
-7. **Strong-baseline falsification check.** Give R1/R2 fair classical control/optimization/pivoting opportunities, handle R3 as conditional scenario, preserve full costs and publish failures as well as successes.
+7. **Strong-baseline falsification check.** Give **CMP-current/CMP-strong** fair classical control/optimization/pivoting opportunities, treat **CMP-conditional** as a contextual scenario, preserve full costs, verify UC21's separate route IDs, and publish failures as well as successes.
 
 **Unresolved work, not concealed by this note:** formal cross-theory conservativity theorem SA→EA (beyond the scoped interpretation here), all-six reverse S/T conformance closure, fully stated EP-specific architectural invariants/principles, complete EP M1–M8 implementation, general multi-group comparative evaluation and DDS Stage C field validation.
 
