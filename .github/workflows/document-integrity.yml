@@ -90,7 +90,7 @@ jobs:
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/causal-bridges-v0.1 -p test_bridge.py -v
 
       - name: Check Theme 18 regime-adequacy finite fixtures (Stage A only)
-        run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1 -p test_theme18_finite_fixtures.py -v
+        run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1 -p 'test_theme18_*.py' -v
 
       - name: Check UC21/DDS falsifiability bridge and favourable defence control
         run: |
