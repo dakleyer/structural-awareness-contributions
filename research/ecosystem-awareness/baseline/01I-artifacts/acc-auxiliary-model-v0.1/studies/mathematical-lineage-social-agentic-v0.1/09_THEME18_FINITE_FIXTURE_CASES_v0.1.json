@@ -1,0 +1,359 @@
+{
+  "schema": "T18-RA-mini-fixtures-v0.1",
+  "date": "2026-10-27",
+  "status": "STAGE_A_PREDICTIONS_NOT_OBSERVED_RESULTS",
+  "source": "PR #60 Theme 18 integration",
+  "semantic_scope": "FINITE_DECLARED_TOY_CHECKS_ONLY",
+  "reference_document": "./08_THEME18_TEST_MODEL_AND_FIXTURES_v0.1.md",
+  "fixture_classes": {
+    "QUALIFIED_RA_SIGNAL": "qualified contextual threshold toy, not scientific Regime Awareness detector",
+    "EXACT_QUOTIENT": "complete finite proof-checking skeleton",
+    "SUPPLEMENTARY_Q": "finite conditional-pair test",
+    "PINNED_REFERENCE": "syntactic reference-version check, not attestation",
+    "CONDORCET_PAIR_CYCLE": "classical voting calculation",
+    "ALIASED_EXPLANATIONS": "finite identification counterexample",
+    "REFERENCE_ONLY": "not executable in independent runner; external synthetic source"
+  },
+  "limits": [
+    "No deployment; no cross-theme integration tests run",
+    "No authenticated source Q, real RA invariant, regulator-approved reference or authorized control-plane transition",
+    "PR #57 AG cases listed as separately executed synthetic source, not re-executed",
+    "All expected_interface statuses are design hypotheses; finite expected_math may be mechanically checked"
+  ],
+  "cases": [
+    {
+      "id": "T18-RA-01",
+      "kind": "QUALIFIED_RA_SIGNAL",
+      "input": {
+        "baseline": 10,
+        "current": 7,
+        "threshold": 2,
+        "context_qualified": true
+      },
+      "expected_math": {
+        "signal": -1
+      },
+      "expected_interface": {
+        "ea": "REQUALIFICATION_REVIEW_CANDIDATE",
+        "authority": "NOT_EVALUATED"
+      },
+      "notes": "Exogenous degradation; signal does not select degrade vs stop."
+    },
+    {
+      "id": "T18-RA-02",
+      "kind": "EXACT_QUOTIENT",
+      "input": {
+        "states": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "observation": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "question": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "old_operations": [
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "new_operations": [
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            3
+          ]
+        ]
+      },
+      "expected_math": {
+        "old_adequate": true,
+        "new_adequate": false,
+        "first_new_operation_witness": [
+          0,
+          2
+        ]
+      },
+      "expected_interface": {
+        "finding": "EXACT_OPERATIONAL_QUOTIENT_INADEQUATE",
+        "ra_direction": "NOT_INFERABLE_FROM_THIS_TEST"
+      },
+      "notes": "Deterministic 4-state witness; set-valued fallback must still be considered."
+    },
+    {
+      "id": "T18-RA-03",
+      "kind": "SUPPLEMENTARY_Q",
+      "input": {
+        "states": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "observation": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "question": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "queries": [
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "query_costs": [
+          1
+        ]
+      },
+      "expected_math": {
+        "required_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "q_only_adequate": false,
+        "observation_plus_q_adequate": true,
+        "incremental_cost": 1
+      },
+      "expected_interface": {
+        "finding": "SUPPLEMENTARY_Q_SUFFICIENT_IN_DECLARED_FINITE_FRAME_IF_SOURCE_ELIGIBLE"
+      },
+      "notes": "Audit PR59 correction: condition new evidence on observation already available."
+    },
+    {
+      "id": "T18-RA-04",
+      "kind": "REFERENCE_ONLY",
+      "input": {
+        "source_pr": 57,
+        "case_refs": [
+          "AG01",
+          "AG11"
+        ],
+        "functional_output_before": 10,
+        "ag01_scored_after": 11.5,
+        "ag11_scored_after": 8.875
+      },
+      "expected_math": null,
+      "expected_interface": {
+        "assessment": "EXTERNAL_SOURCE_AUTHENTICATION_AND_COST_REQUIRED"
+      },
+      "notes": "Values are from separate PR57 synthetic outputs; no RA sensor/measurement ran here."
+    },
+    {
+      "id": "T18-RA-05",
+      "kind": "PINNED_REFERENCE",
+      "input": {
+        "operator": "fixed-cardinal-aggregator",
+        "pinned_voter_set_version": "v1",
+        "effective_voter_set_version": "v2"
+      },
+      "expected_math": {
+        "version_mismatch": true
+      },
+      "expected_interface": {
+        "finding": "STALE_REFERENCE",
+        "owner": "THEME_6_AND_REFERENCE_OWNER"
+      },
+      "notes": "Voter change without code change; no physical regime signal implied."
+    },
+    {
+      "id": "T18-RA-06",
+      "kind": "CONDORCET_PAIR_CYCLE",
+      "input": {
+        "candidates": [
+          "a",
+          "b",
+          "c"
+        ],
+        "rankings": [
+          [
+            "a",
+            "b",
+            "c"
+          ],
+          [
+            "b",
+            "c",
+            "a"
+          ],
+          [
+            "c",
+            "a",
+            "b"
+          ]
+        ]
+      },
+      "expected_math": {
+        "condorcet_winners": [],
+        "majority_edges": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "b",
+            "c"
+          ],
+          [
+            "c",
+            "a"
+          ]
+        ]
+      },
+      "expected_interface": {
+        "finding": "CYCLE_NO_UNIQUE_WINNER",
+        "ra_direction": "NOT_INFERABLE"
+      },
+      "notes": "Classical ordinal cycle; oversight routing depends on declared policy."
+    },
+    {
+      "id": "T18-RA-07",
+      "kind": "QUALIFIED_RA_SIGNAL",
+      "input": {
+        "baseline": 10,
+        "current": 10,
+        "threshold": 2,
+        "context_qualified": false
+      },
+      "expected_math": {
+        "signal": null
+      },
+      "expected_interface": {
+        "finding": "RA_UNKNOWN_UNSUPPORTED_CONTEXT"
+      },
+      "notes": "Unqualified neutral is prohibited; optional unrelated actions are not automatically vetoed."
+    },
+    {
+      "id": "T18-RA-08",
+      "kind": "ALIASED_EXPLANATIONS",
+      "input": {
+        "observed_trace": [
+          "a",
+          "b"
+        ],
+        "hypotheses": [
+          {
+            "id": "mode-transition",
+            "matching_trace": [
+              "a",
+              "b"
+            ],
+            "held_out": "a"
+          },
+          {
+            "id": "operator-drift",
+            "matching_trace": [
+              "a",
+              "b"
+            ],
+            "held_out": "c"
+          }
+        ]
+      },
+      "expected_math": {
+        "compatible_hypotheses": 2,
+        "unique_identification": false
+      },
+      "expected_interface": {
+        "finding": "CAUSE_UNDERDETERMINED"
+      },
+      "notes": "No valid independent probe/source is provided."
+    },
+    {
+      "id": "T18-RA-09",
+      "kind": "REFERENCE_ONLY",
+      "input": {
+        "source": "FG-TIDA Theme #21 and PR60 R10",
+        "changed_population": true,
+        "single_action_verdicts": "ALL_LOCALLY_CONFORMANT"
+      },
+      "expected_math": null,
+      "expected_interface": {
+        "assessment": "SCOPED_POPULATION_ANALYSIS_REQUIRED"
+      },
+      "notes": "No inference of global assurance or governance intervention from local passes."
+    },
+    {
+      "id": "T18-RA-10",
+      "kind": "EXACT_QUOTIENT",
+      "input": {
+        "states": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "observation": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "question": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "old_operations": [
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "new_operations": [
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ]
+      },
+      "expected_math": {
+        "old_adequate": true,
+        "new_adequate": true,
+        "first_new_operation_witness": null
+      },
+      "expected_interface": {
+        "finding": "EXACT_INTERFACE_STILL_ADEQUATE_IN_SCOPE",
+        "extra_query_mandatory": false
+      },
+      "notes": "Negative control: nontrivial hidden multiplicity does not force further evidence."
+    }
+  ]
+}
