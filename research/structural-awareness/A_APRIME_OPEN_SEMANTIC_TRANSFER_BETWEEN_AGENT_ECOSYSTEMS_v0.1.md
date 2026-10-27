@@ -1,11 +1,11 @@
 # Metasyntactic Architecture for Open Ecosystems
 
 **Part I — Open meaning, non-oracular representation, resilience, and transfer**  
-**Structural Awareness Programme · SA-MATH-TR-01 · Consolidated mathematical article v1.0 · 27 October 2026**
+**Structural Awareness Programme · SA-MATH-TR-01 · Consolidated mathematical article v1.1 · 27 October 2026**
 
 **Disposition:** working mathematical research for independent review; not an adopted runtime or engineering standard, not a claimed physical-world universal and not an amendment to the canonical A/B/C/D definitions. Authorship/intellectual lineage: Iván Abril Palma and the historical mathematical research programme; editorial and mathematical reconstruction prepared with AI assistance at the research owner's request.
 
-**Version integrity:** this stable document path retains its historical v0.1 filename for existing inbound links. The complete previous **v0.8 working derivations (TR-1–TR-22, 39 section-6 subsections)** are preserved [unabridged in a non-active historical research snapshot](./archive/2026-10-27_A_APRIME_FULL_WORKING_DERIVATIONS_v0.8.md); only relative link paths were rebased after moving the source one directory deeper. The original pre-consolidation text is also recoverable [at its historical Git revision](https://github.com/dakleyer/structural-awareness-contributions/blob/b4fe76bfad902f4662871ece97a15ba47de40e23/research/structural-awareness/A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md). The owner's locally supplied [uncommitted v0.9 addendum](#appendix-a--universal-openness-and-typed-no-explosion-revision) has been reconciled in this article rather than represented as a previously merged commit. **This v1.0 is the active, consolidated reader edition.** Its independent Part II on utility is linked in §11.
+**Version integrity:** this stable document path retains its historical v0.1 filename for existing inbound links. The complete previous **v0.8 working derivations (TR-1–TR-22, 39 section-6 subsections)** are preserved [unabridged in a non-active historical research snapshot](./archive/2026-10-27_A_APRIME_FULL_WORKING_DERIVATIONS_v0.8.md); only relative link paths were rebased after moving the source one directory deeper. The original pre-consolidation text is also recoverable [at its historical Git revision](https://github.com/dakleyer/structural-awareness-contributions/blob/b4fe76bfad902f4662871ece97a15ba47de40e23/research/structural-awareness/A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md). The owner's locally supplied [uncommitted v0.9 addendum](#appendix-a--universal-openness-and-typed-no-explosion-revision) has been reconciled in this article rather than represented as a previously merged commit. **This v1.1 is the active, consolidated reader edition.** Its independent Part II on utility is linked in §11.
 
 ## Abstract
 
@@ -67,6 +67,8 @@ A'_r \ne U_r\setminus A_r
 \]
 
 The pair \((A_r,A'_r)\) denotes **finite justified results plus an open semantic obligation**, not a partition into two sets whose every member has been classified.
+
+**Taxonomic correction (v1.1).** The open A′ residual is **relative to what the specified programme has delivered or justified**, not an assertion that everything outside that delivery is intrinsically undecidable. A source may already have a warranted **existential proof, exclusion certificate, evaluable reserve or relational characterization** without having named every member of an open population. Distinguish representation status, effective evaluability, logical/modal status (exists/absent/possible/impossible/unresolved) and cost/reachability. These facets are independently *defined*, not assumed statistically independent. The detailed [SA-MATH-METAEX-01](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md) is a noncanonical mathematical working proposal discussed under [PR #56 taxonomy](https://github.com/dakleyer/structural-awareness-contributions/pull/56#issuecomment-6441844401). A mathematical extensional complement such as \(\Omega\setminus S_\Gamma\) must not be conflated with the **non-enumerated epistemic obligations** of A′.
 
 ## 3. Foundation I: computability, effective non-closure and repeated runs
 
@@ -260,6 +262,8 @@ An open meta-report may preserve **particular qualified relational claims** abou
 
 A precise **negative requirement** is that no agent must decide every B/C, C/D or "UNKNOWN-of-UNKNOWN" semantic boundary merely to report that its generalization obligation remains open. A finite new syntactic label is not a universal semantic type classifier; Theorem 5.3 supplies the corresponding computability counterexample.
 
+**Positive and negative propositions about an open residual are allowed.** A task-scoped \(\exists x\,P_c(x)\) certificate may support exploration; a scoped \(\forall x\in S\setminus T:\neg P_c(x)\) proof may preserve an existential question while restricting its search to T. These are **not** a globally exhaustive enumeration or a universal cheap meta-algorithm. Conditions and counterexamples are in [SA-E1–SA-E6](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md).
+
 ## 10. Research integrity, proof map and executable evidence
 
 The article's claims are deliberately no stronger than their sources and proofs. The historical ResearchGate/Google Drive mathematical originals motivate the framework; [R03](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R03_PRIMALIDAD_Y_LOGICA_v0.1.md) proves the specified subset-label count \(2^m-1\), not physical inhabitants of an exterior; [R05](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R05_FORMALIZACION_META_SISTEMA_v0.1.md) gives particular finite underdetermination certificates, not a universal truth oracle. The [PR #60 mathematical source programme](https://github.com/dakleyer/structural-awareness-contributions/pull/60) remains **open and unmerged**, with its D3 supplementary-observation selection criticized by the [PR #59 re-audit](https://github.com/dakleyer/structural-awareness-contributions/pull/59): existing information must be included before declaring supplementary evidence minimal.
@@ -293,6 +297,7 @@ The architecture's **established mathematical content** is:
 2. A typed meta-checker can preserve a contradiction or insufficiency as **a claim about the analysed system** without silently importing a false object-level conclusion. This supplies specified resilience/integrity protections, not universal fault prevention.
 3. In an explicitly infinite open model, the **universal finite-frame ND principle** correctly entails that each finite representation has a non-specified exterior. It does **not** entail other peers, communications or an initializer fault.
 4. A recoverably enriched report is **weakly at least as decision-informative** as its erasure; a constant OPEN tag may yield no strict world-discrimination, and equivalent conventional representations can tie.
+5. **The open semantic frontier is not a class of intrinsically indeterminable objects.** It can contain partially characterized existential, negative, modal or cost/evaluability propositions that the present process did not exhaust. Their potential utility is a separately scoped mathematical question.
 
 The article **does not claim** absolute semantic truth, a global noncomputable oracle, unbounded cost-free meta-execution, complete physical agent discovery or superiority over every ordinary software system. Nor does it claim the historical *Primalidad y Lógica* prime/composite cycle thesis is a proved completeness theorem for arbitrary logics.
 
@@ -302,7 +307,7 @@ The next scientific task is therefore **utility**, not repetition of an already 
 
 ## Appendix A — Universal openness and typed no-explosion revision
 
-The owner-supplied local **v0.9 draft**, written after the public v0.8 working edition, corrects the example of an agent that detects no peers. This v1.0 incorporates its three substantive results: (i) H-ND-UNIVERSAL quantified over every finite frame rather than the predicate Agent(x); (ii) **non-entailment of existence/detectability/communicability of particular peers** from that premise alone; and (iii) **typed isolation of object-calculus contradiction** in the meta-calculus. The original local draft was **not previously committed** and is not described as such. Full working predecessor formulas remain accessible through the archived v0.8 source.
+The owner-supplied local **v0.9 draft**, written after the public v0.8 working edition, corrects the example of an agent that detects no peers. The v1.0 consolidation, retained here as v1.1, incorporates its three substantive results: (i) H-ND-UNIVERSAL quantified over every finite frame rather than the predicate Agent(x); (ii) **non-entailment of existence/detectability/communicability of particular peers** from that premise alone; and (iii) **typed isolation of object-calculus contradiction** in the meta-calculus. The original local draft was **not previously committed** and is not described as such. Full working predecessor formulas remain accessible through the archived v0.8 source.
 
 The logically complete bounded output for an empty-peer run is therefore:
 
