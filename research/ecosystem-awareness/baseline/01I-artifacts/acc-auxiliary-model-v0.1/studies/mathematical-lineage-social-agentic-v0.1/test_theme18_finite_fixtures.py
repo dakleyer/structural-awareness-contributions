@@ -44,6 +44,29 @@ def quotient_adequate(observation, question, operations):
 def calculate(case):
     kind, p = case["kind"], case["input"]
 
+    if kind == "MULTIOBJECTIVE_FRAME":
+        # No agent/regulator implementation: a fixed mathematical choice rule.
+        # An independently qualified safety input, NOT the RA direction alone,
+        # establishes the post-change admissible candidate set.
+        assert p["operator"] == "lexicographic-safety-veto-then-service-minus-cost"
+        def choose(options):
+            allowed = [x for x in options if x["safety_ok"]]
+            if not allowed:
+                return None
+            return max(allowed, key=lambda x: (x["service"] - x["cost"], x["id"]))["id"]
+        signal = None if not p["context_qualified"] else (
+            0 if abs(p["current"]-p["baseline"]) < p["threshold"]
+            else (1 if p["current"] > p["baseline"] else -1)
+        )
+        return {
+            "ra_signal": signal,
+            "before_choice": choose(p["old_candidates"]),
+            "after_choice_given_qualified_evidence":
+                choose(p["post_candidates_after_independent_safety_evidence"])
+                if p["post_safety_evidence_qualified"] else None,
+            "operator_unchanged": True,
+        }
+
     if kind == "QUALIFIED_RA_SIGNAL":
         # Illustrative threshold calculation only. NOT a contextual sufficiency
         # validator, true RA structural invariant, or causal detector.
@@ -159,6 +182,16 @@ class Theme18StageAFixtureChecks(unittest.TestCase):
     def test_ra_unknown_is_not_compatible(self):
         stale = next(x for x in self.manifest["cases"] if x["id"] == "T18-RA-07")
         self.assertIsNone(calculate(stale)["signal"])
+
+    def test_ra_alert_does_not_invent_safety_fact(self):
+        example = next(x for x in self.manifest["cases"] if x["id"] == "T18-RA-01")
+        self.assertEqual(calculate(example)["before_choice"], "failover")
+        self.assertEqual(calculate(example)["after_choice_given_qualified_evidence"], "stop")
+        unqualified = json.loads(json.dumps(example))
+        unqualified["input"]["post_safety_evidence_qualified"] = False
+        result = calculate(unqualified)
+        self.assertEqual(result["ra_signal"], -1)
+        self.assertIsNone(result["after_choice_given_qualified_evidence"])
 
     def test_conditional_query_does_not_rebuy_a(self):
         example = next(x for x in self.manifest["cases"] if x["id"] == "T18-RA-03")
