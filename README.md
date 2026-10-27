@@ -68,6 +68,8 @@ The public publication route is:
 
 **[Iván Abril Palma — ResearchGate publications](https://www.researchgate.net/profile/Ivan-Abril-Palma-2)**
 
+**New mathematical working contribution (27 October 2026):** [Open-World Agent Encounters: A Uniform Decision Frontier — L1 extension v0.1](./research/structural-awareness/OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md). This compact paper gives a conditional, computability-based existence theorem for unresolved substantive agent-to-agent interaction decisions in expressive open worlds. It distinguishes a terminating handshake, a correct semantic decision, and bounded UNKNOWN; it is **not** a proof that every actual peer is undecidable or that an architecture has been validated.
+
 That is the place to start if the question is:
 
 - What is the formal theory behind the programme?
