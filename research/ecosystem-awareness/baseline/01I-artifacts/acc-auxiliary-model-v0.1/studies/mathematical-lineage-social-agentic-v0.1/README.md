@@ -41,6 +41,10 @@ Local independent rerun from this directory: `python3 -B -m unittest discover -s
 
 The independent social/agentic syntheses and simulation source in [PR #57](https://github.com/dakleyer/structural-awareness-contributions/pull/57) are **not merged by this edit**; the original AG01/AG11 results remain distinct and no old fixture/research proof is regraded. **External #18 discussion remains unchanged; no comment or attachment has been posted there by this PR.**
 
+## New bridge: characterized classical saturation → C exploration → regime requalification (27 October 2026; Stage A)
+
+[10 — Saturación clásica, frontera C y recualificación de régimen](./10_CLASSICAL_SATURATION_C_FRONTIER_AND_REGIME_AWARENESS_v0.1.md) documents the owner's banana/communal exchange, telework and two-ministries examples. It separates classical optimization and authorized inter-agent resource pivots from a **witnessed but not yet evaluable** C frontier; shows when B held by another actor can qualify a receiver's C; and distinguishes change of operational syntax, observable RA regime and EA decision-specific sufficiency. The annex adds **no implementation, positive experimental result, automatic C→B promotion, detector, or alteration of PR #57 / UC21 / DDS**. A competent conventional peer with the same evidence remains a required negative control. **Owner/external review pending; do not merge or promote to canon on this basis.**
+
 ## Upstream, untouched
 
 - Canonical [00M v0.8 — A/B/C/D semantics](../../../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md): receiver-relative roles A, B, C, D, **not four enumerated state sets**.
