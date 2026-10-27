@@ -886,7 +886,7 @@ For finitely encoded \(\mathcal P,q,\rho,\sigma,h_r\), define the report transfo
 \tag{43}
 \]
 
-**Theorem TR-16 (effective metasyn​​tactic constructor).** Given well-typed finite inputs and a fixed finite grammar, Reflect is a **total computable function that outputs syntax**. A correct implementation marks the outside question UNDETERMINED until some qualified evidence or domain-specific theorem settles it. It need not enumerate any member of A′ or classify all possible input types.
+**Theorem TR-16 (effective metasyntactic constructor).** Given well-typed finite inputs and a fixed finite grammar, Reflect is a **total computable function that outputs syntax**. A correct implementation marks the outside question UNDETERMINED until some qualified evidence or domain-specific theorem settles it. It need not enumerate any member of A′ or classify all possible input types.
 
 **Proof.** A finite procedure copies the task and run references, creates the three finite typed nodes, and serializes the result. No branch calls a universal semantic truth procedure. \(\square\)
 
@@ -924,7 +924,7 @@ A program can nevertheless mint fresh **syntactic** labels NEW-1, NEW-2, ... or 
 
 ### 6.27. No need to close the residual or to invent an infinite ladder of statuses
 
-The open-aware report can always retain **whatever finite status/evidence assertions the run legitimately supports** and append a metasyn​​tactic declaration of its **still-open semantic reach**:
+The open-aware report can always retain **whatever finite status/evidence assertions the run legitimately supports** and append a metasyntactic declaration of its **still-open semantic reach**:
 
 \[
 \mathcal R_r=
@@ -940,9 +940,15 @@ Role labels B/C/D are **qualified and nonfungible** according to adopted 00M: an
 
 This is **representational coverage completeness for the declared epistemic obligation**, not total semantic identification and not Gödelian deductive completeness. The top-level OpenFrontier does not require the program to name all the new unknown types or decide whether one unknown is of type UNKNOWN rather than UNKNOWN-OF-UNKNOWN.
 
+**Reproducible programming witness:** [TR-15/TR-16 open-frontier metasyntactic emitter](./fixtures/METASYNTACTIC_OPEN_FRONTIER_PROGRAM_v0.1.mjs). This source contains **two distinct executable reporting programs** that call the **same K/D/V object-level kernel**; it checks the closed type checker rejects the OutsideQuestion AST while the extended one accepts it. It uses two synthetic worlds with the **same in-A run record** but different referee-only outside predicates, and verifies the emitter does **not** discover or decide the hidden constituent. It also preserves legitimate in-A UNKNOWN records for *both* architectures and retains B′ as open without inventing additional B members. The fixture's **24 finite assertions** were executed in the JavaScript authoring runtime; they are not a proof of the infinite-family semantic novelty result TR-17, which is proved separately above. Node command:
+
+~~~sh
+node research/structural-awareness/fixtures/METASYNTACTIC_OPEN_FRONTIER_PROGRAM_v0.1.mjs
+~~~
+
 ### 6.28. Nearest neighbor and the Myrmidons: operational reading and result
 
-A finite source programme can correctly emit NEAREST_OBSERVED(peer-17). Its metasyn​​tactic companion can construct, without evaluating:
+A finite source programme can correctly emit NEAREST_OBSERVED(peer-17). Its metasyntactic companion can construct, without evaluating:
 
 \[
 \operatorname{OutsideQuestion}\Bigl(
@@ -971,7 +977,7 @@ The architectural transition is therefore
 \tag{48}
 \]
 
-**Synthesis:** TR-15 proves strict **relative metasyn​​tactic expressivity**; TR-16 supplies a **real executable reporting programme**; TR-17 proves why total exact semantic auto-labeling is impossible for a sufficiently expressive family. The prior L1 frontier is not overcome or hidden. This is a practical programme difference, not merely a philosophical reinterpretation.
+**Synthesis:** TR-15 proves strict **relative metasyntactic expressivity**; TR-16 supplies a **real executable reporting programme**; TR-17 proves why total exact semantic auto-labeling is impossible for a sufficiently expressive family. The prior L1 frontier is not overcome or hidden. This is a practical programme difference, not merely a philosophical reinterpretation.
 
 ## 7. Relationship to the established A/B/C/D vocabulary
 
@@ -995,4 +1001,4 @@ The next, distinct research question is **projection under an unqualified import
 - [01J current signalling annex](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) for the architecture's existing qualification of source-to-recipient meaning.
 - [Original *Projected Infinite Paradox* published route](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) — historical interpretation, not imported universal proof.
 
-**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. TR-12 states the uniform semantic/meta-separation oracle barrier; TR-13 gives evidence-relative coverage completeness; TR-14 proves weak in-A preservation plus strict outside-A claim scope. **TR-15 proves external-question nondefinability in an inside-A-only language; TR-16 gives an effective metasyn​​tactic report constructor; TR-17 proves why perfect semantic novelty classification is uncomputable even for a specially constructed family of total computable response functions.** These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
+**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. TR-12 states the uniform semantic/meta-separation oracle barrier; TR-13 gives evidence-relative coverage completeness; TR-14 proves weak in-A preservation plus strict outside-A claim scope. **TR-15 proves external-question nondefinability in an inside-A-only language; TR-16 gives an effective metasyntactic report constructor; TR-17 proves why perfect semantic novelty classification is uncomputable even for a specially constructed family of total computable response functions.** These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
