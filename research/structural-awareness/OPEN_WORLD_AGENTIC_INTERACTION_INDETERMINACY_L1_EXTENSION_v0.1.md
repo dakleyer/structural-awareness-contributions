@@ -175,7 +175,7 @@ In this setting, adding a verifier changes the **composite handshake plus subseq
 **Two meanings of “oracle.”** A software checker, specialist peer, policy service or audit node is an **effective verifier** and is covered by OW-5. A genuine **noncomputable halting oracle** is not: it can decide ordinary halting questions beyond ordinary algorithms, so the theorem's premise would change. Oracle-relative computations have further undecidability results about their **own higher-level** problems, but they are not proof that an ordinary software verification chain accesses supernatural computation.
 
 
-**Supplementary theorem OW-5b — a perfect general semantic meta-filter is not computable.** Filtering for a narrowly certified protocol is possible; **uniformly classifying arbitrary programmable peers by whether their complete request-response domain is itself decidable** is a different and generally undecidable meta-question. An explicit construction, corresponding to the existing R07-P2 research development, establishes the distinction.
+**Supplementary theorem OW-5b — a perfect general semantic meta-filter is not computable.** Filtering for a narrowly certified protocol is possible; **uniformly classifying arbitrary programmable peers by whether their complete request-response domain is itself decidable** is a different and generally undecidable meta-question. This result requires a **multi-request expressivity hypothesis (H-REQ)**: the admissible peer class contains the effectively compiled family of peers (G_e) defined below. H-EXP alone, which addresses **one fixed request**, does not automatically imply H-REQ. An explicit construction, corresponding to the existing R07-P2 research development, establishes the distinction.
 
 Let \(K_0=\{y:U_y(y)\downarrow\}\). From any program index e, effectively construct a peer \(G_e\), with the same simple successful HELLO exchange in every case, and define its response behaviour to requests:
 
@@ -203,7 +203,7 @@ D_{G_e}=
 
 In the first case \(D_{G_e}\) is decidable; in the second it is undecidable by the many-one reduction \(y\mapsto1y\) from \(K_0\). Any total computable meta-filter that, for every e, correctly announces whether the **whole** request-response domain of \(G_e\) is decidable would thereby decide whether \(U_e(e)\) halts. Contradiction. \(\square\)
 
-This is a **uniform index-level statement** about the property of a program's *complete response language*, not a claim that the outcome for **each fixed request of each peer** is intrinsically unanswerable. Its mathematical antecedent is the R07-P2 index-family construction, ultimately within standard Rice/halting theory. It does not forbid practical admission checks for verified restricted classes; it refutes their unjustified promotion to a perfectly general semantic separator.
+This is a **uniform index-level statement under H-REQ** about the property of a program's *complete response language*, not a claim that the outcome for **each fixed request of each peer** is intrinsically unanswerable. Its mathematical antecedent is the R07-P2 index-family construction, ultimately within standard Rice/halting theory. It does not forbid practical admission checks for verified restricted classes; it refutes their unjustified promotion to a perfectly general semantic separator.
 
 ## 4D. Operational encounters and testable interpretation
 
