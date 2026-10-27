@@ -509,6 +509,53 @@ The [open re-audit PR #59](https://github.com/dakleyer/structural-awareness-cont
 
 For an **operationally strong comparative** claim, beyond strict Bayes-risk improvement versus a deliberately erasing X, the evaluation must freeze the same receiver task, resource envelope, access rights, possible actions, source authenticity and actual costs. It must compare a competent conventional architecture with equal evidence and capabilities, not an intentionally weakened A-only comparator. If that conventional implementation is informationally isomorphic (TR-7) and can execute equivalent policies at equal cost, **the result is a tie**, not a special superiority of A/A′ notation. The true prospective differential is **what a constrained practical implementation preserves, acquires, spends and can legitimately do**, not the existence of a mathematical brand.
 
+### 6.11. Exact four-state bridge to PR #60 and a strict-gain condition
+
+We can pin down the stronger **strict, task-dependent** result directly from the four-state countermodel in the [PR #60 formal core, D1](https://github.com/dakleyer/structural-awareness-contributions/pull/60), instead of leaving the phrase “strong superiority” undefined.
+
+Define \(W=\{0,1,2,3\}\), the original observation \(o(x)=x\bmod2\), and an old eligible transition \(s(x)=x+1\bmod4\). The old observation remains adequate for s: \(o(s(x))=1-o(x)\). Now add the permitted operation f:
+
+| x | o(x) | f(x) | New target \(r(x)=o(f(x))\) |
+|---:|---:|---:|---:|
+| 0 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 |
+| 2 | 0 | 0 | 0 |
+| 3 | 1 | 3 | 1 |
+
+The original A-like observable cannot distinguish 0 from 2, yet the independently specified **new operation's answer** differs:
+
+\[
+o(0)=o(2)=0,\qquad r(0)=1\ne0=r(2).
+\tag{28}
+\]
+
+Thus r does not factor through o; the original interface is insufficient for the **new** task, although it was correct for the old one. Let one permitted supplemental observation be \(Q(x)=\mathbf1_{\{x=2\}}\), so the enriched carrier \(Y(x)=(o(x),Q(x))\) distinguishes that conflicting pair.
+
+For the explicitly selected **two-world receiving decision problem** \(W^\star=\{0,2\}\), a uniform prior, binary prediction actions and zero-one error loss:
+
+\[
+\boxed{
+R^*_{o}=1/2,\qquad R^*_{(o,Q)}=0.
+}
+\tag{29}
+\]
+
+**Proof.** Both states produce the same o-observation, forcing any deterministic o-only prediction to be identical: it errs on one of two equiprobable worlds, so minimum risk is \(1/2\). Q separates the worlds, permitting the correct r-prediction in each, hence zero error. \(\square\)
+
+This is strict **gross** decision value for the specified task and observation menu. It does **not** follow from the bare A′ tag. The signal \(Y_0(x)=(o(x),\mathrm{OPEN})\) retains the **same fiber** as o when OPEN is constant on \(W^\star\), so \(R^*_{Y_0}=R^*_{o}=1/2\) for this world-prediction task. A′ tells the receiver **not to promote an insufficient o-output to a globally adequate new-task answer**, whereas Q supplies the **additional witnessed distinction needed to predict**. These are different forms of value.
+
+A possible extra observation/qualification cost \(c\) changes the net comparison. In this synthetic 0–1-loss accounting, \(Q\) wins if \(c<1/2\), ties if \(c=1/2\), and loses if \(c>1/2\); other permissions, action feasibility and costs have been fixed away only for this example. If a **competent conventional receiver already has Q**, then its \(R^*=0\) ties the enriched A/A′-aware carrier, regardless of branding.
+
+**Incremental correction from PR #59.** We should only purchase Q to distinguish *different-r* pairs that **o has not already separated**, as defined by \(U_{r\mid o}\) in §6.10. Testing Q alone against all conflicting pairs can declare a needed observation unavailable or increase its calculated cost even when the original o already separates them. The bounded PR's D3 theorem for Q-alone remains valid **in its own statement**; its supplementary-query application needs this integrated correction.
+
+**Executable bounded witness:** [four-state strict-value and strong-comparator fixture](./fixtures/A_APRIME_STRICT_VALUE_FOUR_STATE_v0.1.mjs) (16 finite assertions) checks the original/expanded signatures, o-only and (o,Q) exact risks, the inability of a constant A′ flag to substitute for Q, cost win/tie/loss, and a competent conventional Q-aware tie. These are symbolic finite test cases, not evidence of deployment or a universal theorem about richer ecosystems. To rerun from the repository root:
+
+~~~sh
+node research/structural-awareness/fixtures/A_APRIME_STRICT_VALUE_FOUR_STATE_v0.1.mjs
+~~~
+
+**What remains to be called strong superiority?** TR-5 and this example exhibit *strict usefulness for a declared receiving question versus a specified lossy information state*. They do **not** establish a universal advantage of one named architecture. A **strong operational improvement claim** requires a positive mission-specific net gain against the **best competent equally authorized comparator**, at matched resources and independently assessed decision consequences. That last step is the **unproven Stage-A empirical/differential agenda** of PR #60/#57, not a theorem supplied by L1, Gödel or TR-4.
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
