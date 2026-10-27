@@ -2,6 +2,7 @@
 
 **Mathematical mini-paper · Structural Awareness Programme · v0.2 · 27 October 2026 (finite resources and verifier chains)**  
 **Logical subject:** SA-MATH-OW-01 · **Role:** standalone working mathematical contribution, for author and external mathematical review  
+**Stable-path notice:** the filename retains its original v0.1 suffix to preserve inbound references; the current **document edition is v0.2**, recorded in Git history. No second active edition or independent VNext is implied.  
 **Lineage:** Iván Abril Palma, *Practical Incompleteness* (L1 / R07), *Given Universe*, and the present Ecosystem Awareness foundational work. This exposition was prepared with AI assistance at the author's request.  
 **Maturity:** conditional formal results using standard computability and observation-equivalence arguments; **not** a new proof of the halting theorem, an empirical finding about all smart cities, or an accepted architecture/standard.  
 **Reading boundary:** the strong theorem concerns **uniform substantive determination**; the new results concern finite resource/evidence envelopes and computable verifier chains. None denies the ability to send a message, decline a connection, impose a deadline, return UNKNOWN or certify a restricted class. A timeout or malformed packet is **not by itself** a Turing-undecidable input. The [canonical A/B/C/D semantics](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) are unchanged.
