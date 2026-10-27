@@ -104,14 +104,14 @@ W_n=\{(a_1,\ldots,a_n,b,t):a_i,b,t\in\{0,1\}\},
 \tag{5}
 \]
 
-with independent uniform coordinates. The original internal report is \(O=(a_1,a_2)\), further internal determinations are \(Z=(a_3,\ldots,a_n)\), and the initial context question is \(r_0=a_1\). A new contextual question is:
+with independent uniform coordinates. The initializer's original object vocabulary U admits the \(a_i\) coordinates but **does not contain b or t**; these remain outside its initial interpreted scope. The original internal report is \(O=(a_1,a_2)\), further internal determinations are \(Z=(a_3,\ldots,a_n)\), and the initial context question is \(r_0=a_1\). A new contextual question is:
 
 \[
 r_1=a_2\oplus b.
 \tag{6}
 \]
 
-The coordinate b is **outside the original report's typing/coverage**, but a separately authorized source may provide a **qualified one-bit property record** \(M=b\) without disclosing the unrelated residual constituent t. Under this precisely declared law,
+The coordinate b is **outside U's original typing/coverage**, but a separately authorized source may provide a **qualified one-bit property record** \(M=b\) without disclosing the unrelated residual constituent t. The *existence* and *correctness* of this source are explicit premises, not a consequence of universe openness: if admitted, the reporting system has now learned this **property** but has **not identified the whole exterior**. Under this precisely declared law,
 
 \[
 \boxed{
