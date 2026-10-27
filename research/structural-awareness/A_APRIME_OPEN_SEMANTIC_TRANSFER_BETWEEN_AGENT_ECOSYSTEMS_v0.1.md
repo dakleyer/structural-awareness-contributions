@@ -99,9 +99,9 @@ x\notin\operatorname{im}(\operatorname{den}_F).
 \tag{2}
 \]
 
-The leading quantifier is **universal in the choice of finite frame**; each instance concludes that something is beyond that frame. No particular kind of x has been assumed.
+The leading quantifier is **universal in the choice of finite frame**; each instance concludes that something is beyond that frame. No particular kind of x has been assumed. The admitted-frame family must therefore be typed in the scientific model; writing one finite expression for an infinite domain is **not** by itself a member with finite denotation.
 
-**Theorem 4.1 — genuine model-theoretic openness.** If \(\Omega\) has infinitely many distinct constituents and every admissible F denotes only finitely many, (2) follows by elementary cardinality. Alternatively, (2) may be an explicit axiom of an open model. It is not a theorem of classical logic for every physically finite environment; a completely represented finite domain is a counterexample.
+**Theorem 4.1 — genuine model-theoretic openness.** If \(\Omega\) has infinitely many distinct constituents and every admissible F denotes only finitely many, (2) follows by elementary cardinality. Alternatively, (2) may be an explicit axiom of an open model. **Finite code length alone is not sufficient:** the short formula \(x=x\) or a finite recognizer could denote all of an infinite \(\Omega\). Our theorem concerns finite **denotation/coverage** frames, not every finite sentence or programme encoding an infinite set. It is not a theorem of classical logic for every physically finite environment; a completely represented finite domain is a counterexample.
 
 **Proof.** For any F, the finite denotation image cannot exhaust an infinite \(\Omega\). Choose any constituent outside the image. No uniform effective choice procedure is inferred. \(\square\)
 
