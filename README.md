@@ -68,7 +68,7 @@ The public publication route is:
 
 **[Iván Abril Palma — ResearchGate publications](https://www.researchgate.net/profile/Ivan-Abril-Palma-2)**
 
-**New mathematical working contribution (27 October 2026):** [Open-World Agent Encounters: A Uniform Decision Frontier — L1 extension v0.1](./research/structural-awareness/OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md). This compact paper gives a conditional, computability-based existence theorem for unresolved substantive agent-to-agent interaction decisions in expressive open worlds. It distinguishes a terminating handshake, a correct semantic decision, and bounded UNKNOWN; it is **not** a proof that every actual peer is undecidable or that an architecture has been validated.
+**New mathematical working contribution (27 October 2026):** [Open-World Agent Encounters: A Uniform Decision Frontier — L1 extension v0.2](./research/structural-awareness/OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md). This article distinguishes (i) a conditional uniform computability limit, (ii) practical indeterminacy under finite time, evidence and communication resources, including damaged inputs, and (iii) the limits of computably composed verifier/handshake chains. It separates these findings from the stronger, distinct Projection Mechanism; it does **not** claim every encountered peer is intrinsically undecidable or validate a particular architecture.
 
 That is the place to start if the question is:
 
