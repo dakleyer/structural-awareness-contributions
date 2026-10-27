@@ -114,6 +114,29 @@ class DecisionQuestion:
             raise ContractError("only explicit at_least predicate supported")
 
 
+def _joint_evidence_status(points: list[Point], lipschitz: float) -> str:
+    """Screen joint feasibility before treating the local envelope as evidence.
+
+    For exact coordinates, all pairwise interval inequalities are necessary
+    and sufficient for a shared Lipschitz function on the observed points.
+    For uncertain coordinates, minimum separation certifies compatibility for
+    every allowed coordinate assignment; maximum separation can prove that no
+    assignment works. Other cases remain explicitly unestablished.
+    """
+    robust = True
+    for i, a in enumerate(points):
+        for b in points[i + 1:]:
+            dmin = max(0.0, a.x_min - b.x_max, b.x_min - a.x_max)
+            dmax = max(abs(a.x_min - b.x_max), abs(a.x_max - b.x_min))
+            gap_ab = a.y_min - b.y_max
+            gap_ba = b.y_min - a.y_max
+            if gap_ab > lipschitz * dmax or gap_ba > lipschitz * dmax:
+                return "INCONSISTENT"
+            if gap_ab > lipschitz * dmin or gap_ba > lipschitz * dmin:
+                robust = False
+    return "CONSISTENT" if robust else "NOT_ESTABLISHED"
+
+
 def qualify(frame: Frame, query: DecisionQuestion, points: tuple[Point, ...],
             frontiers: tuple[FrontierWitness, ...] = ()) -> dict:
     """Compute a *conservative, conditional* answer bound.
@@ -175,10 +198,16 @@ def qualify(frame: Frame, query: DecisionQuestion, points: tuple[Point, ...],
         lows.append(p.y_min-L*d)
         highs.append(p.y_max+L*d)
     lo, hi = max(lows), min(highs)
-    if lo > hi + 1e-12:
+    # Even a tiny empty intersection is not a valid positive certificate.
+    if lo > hi:
         return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
+    joint_status = _joint_evidence_status(found, L)
+    if joint_status == "INCONSISTENT":
+        return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", None, None, retained, rejected_ids, origin_ids, tuple(relevant_d))
     if relevant_d:
         return _report("MATERIAL_D_NOT_EVALUABLE", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
+    if joint_status == "NOT_ESTABLISHED":
+        return _report("JOINT_CONSISTENCY_NOT_ESTABLISHED", lo, hi, retained, rejected_ids, origin_ids, ())
     if lo >= query.threshold:
         status="LOCALLY_SUPPORTED_TRUE"
     elif hi < query.threshold:
@@ -212,7 +241,7 @@ def advisory(status: str, *, owner_authorized: bool, actor_consent: str,
         raise ContractError("invalid meta-advisory parameters")
     valid_status = {"SOURCE_CONFLICT", "OUTSIDE_DECLARED_DOMAIN", "NO_JUSTIFIED_REGULARITY",
                     "NO_RELEVANT_EVIDENCE", "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
-                    "MATERIAL_D_NOT_EVALUABLE", "LOCALLY_SUPPORTED_TRUE",
+                    "JOINT_CONSISTENCY_NOT_ESTABLISHED", "MATERIAL_D_NOT_EVALUABLE", "LOCALLY_SUPPORTED_TRUE",
                     "LOCALLY_SUPPORTED_FALSE", "UNDETERMINED_FROM_AVAILABLE_EVIDENCE"}
     if status not in valid_status:
         raise ContractError("unknown evidence status")
