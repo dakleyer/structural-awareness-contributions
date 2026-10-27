@@ -354,3 +354,144 @@ For a named source wave: bind the actual source head and complete old passage, p
 This continuation appends to the existing audit and annex. Current main additions and prior review content are preserved; no study, fixture, result or workflow is changed or executed by these review edits.
 
 Publication revalidation: current main 2d9e4509447910a8541827edfc82c592d42e3520 retains the nine TAX26 target blobs and the interval-study source/test blobs unchanged. Its concurrent research additions/edits are inherited without modification; this continuation does not certify their scientific content.
+
+
+## 8. Mathematical review and development opportunities
+
+**Recepción de la ronda 8 · Codex, asistencia de IA a petición de Iván.** El registro de hallazgos y estados de recepción está en la [ronda 8 de la auditoría](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-8). Esta sección desarrolla la evidencia nueva y las oportunidades; conserva literalmente todo el anexo previo. Las formulaciones siguientes son propuestas de investigación y de corrección, no cambios ya adoptados.
+
+### 8.1 Correcciones a la lectura de auditoría
+
+**M27-09 — generalización del control de implementación.** En PR57, Q_META_PROTOCOL y CONVENTIONAL_EQUIVALENT_Q entran por la misma rama de plan_public, líneas144–148; se cambia el precio declarado del instrumento. El test AG01 verifica salida y valor neto iguales con el mismo precio. Es una comprobación de la reproducción de ese mecanismo ya proporcionado. No mide cómo se descubre Q, cómo se selecciona una adaptación ni el coste completo de obtenerla.
+
+La Parte I §8, en el corte 891af45a75b245082859147c0f7233cf85dd9035, distingue descubrir, seleccionar, compilar y ejecutar. También establece que quien efectúa el mismo metarazonamiento implementa funcionalmente esa arquitectura cualquiera que sea su nombre. Esta distinción forma parte del argumento y debe conservarse al interpretar F-01. No se exige que la aportación sea imposible de programar en software ordinario.
+
+Mi frase del chat que presentó una conclusión general se retira como extrapolación del revisor. La última frase de SA-O2 §3 merece una precisión editorial local. **Fuente objetivo sin modificar:** [SA-O2](https://github.com/dakleyer/structural-awareness-contributions/blob/891af45a75b245082859147c0f7233cf85dd9035/research/structural-awareness/SA_OPERATIONAL_RESIDUAL_AND_ONLINE_CONTEXT_PLASTICITY_v0.1.md#L40).
+
+**Antes, oración completa:**
+
+> An ordinary controller retaining identical information ties.
+
+**Después, oración de sustitución propuesta, no aplicada:**
+
+> Retaining the same qualified distinctions permits the same target discrimination when a suitable decoder is effectively available. Reproducing the same decision procedure can reproduce its decisions; equal net utility additionally requires the relevant costs and conditions to match. This does not evaluate discovery, selection or adaptation effort, whose distinction from execution is stated in Part I §8.
+
+**Efecto, riesgo y recepción:** precisión del alcance informativo, sin cambiar la prueba por fibras; impacto lector alto, esfuerzo bajo. La edición de la fuente necesita su propietario y ruta de revisión, no se aplica desde este anexo. No se borran F-01 ni sus estados históricos: se corrige la inferencia general que yo había añadido.
+
+**M27-06 — navegación.** La política actual DC-GH-01 v1.0.3 admite materiales subordinados/opcionales y conciliación progresiva de roles. La mera ausencia de una fila individual no demuestra incumplimiento. Se conserva como tarea de identidad/navegación; mi anterior alegación genérica se retira. No se altera el registro ni se inventa el rol de los documentos.
+
+### 8.2 Consistencia conjunta, intervalo vacío y selección suplementaria
+
+**M27-01, contraejemplo nuevo.** Frame de ámbito scope, revisión v1, evidencia vigente, regularidad cualificada L=1. Dos registros de origen distinto declaran f(0)=0 y f(0)=2. En q=1 sus envolventes son [−1,1] y [1,3], así que la intersección local es [1,1]. La implementación devuelve LOCALLY_SUPPORTED_TRUE para f(1)≥1. Pero el conjunto de funciones que satisfacen ambas observaciones es vacío.
+
+Esto muestra una obligación distinta de I-01: rechazar estrictamente lo>hi en el punto consultado conserva [1,1] y no detecta la incompatibilidad en x=0. El control positivo f(0)=0,f(1)=1 mantiene una función 1-Lipschitz y debe conservar su respuesta.
+
+Para un **submodelo de coordenadas exactas**, intervalos [l_i,u_i] y una métrica d, existe una función L-Lipschitz compatible si y solo si todos los intervalos son propios y l_i≤u_j+L d(x_i,x_j) para todo i,j. Necesidad: aplicar la condición Lipschitz a cada par. Suficiencia: f(x)=max_i(l_i−L d(x_i,x)) es L-Lipschitz, f(x_j)≥l_j y las desigualdades garantizan f(x_j)≤u_j. Este es un candidato de contrato comprobable para ese submodelo.
+
+**Límite del remedio:** el código también admite x_i inciertos. La prueba anterior no resuelve automáticamente su semántica, correlaciones ni factibilidad conjunta; hay que fijar esos cuantificadores antes de ofrecer un reemplazo general. Alternativamente, el informe puede declarar explícitamente que solo ha calculado una envolvente local, sin certificar existencia conjunta. Las fuentes siguen sin autenticación criptográfica. No se parchea la función en esta ronda.
+
+**M27-02:** el acompañante reproduce la segunda entrada [1e-13,0] y el estado positivo, manteniendo su identidad I-01/D26-F01. El candidato de intervalo estricto sigue en 01I VNext; la nueva prueba conjunta debe añadirse a su alcance antes de afirmar que resuelve ambas cuestiones.
+
+**M27-03, cuatro mundos.** X={0,1,2,3}; o(x)=⌊x/2⌋, r(x)=x y Q(x)=x mod2. Q sola deja sin separar (0,2) y (1,3). Tras observar o, solo quedan (0,1) y (2,3), ambos separados por Q. Para selección **suplementaria**, usar:
+
+```text
+U_(r|o) = {{x,y}: o(x)=o(y), r(x) != r(y)}
+C_j^(o) = {{x,y} in U_(r|o): Q_j(x) != Q_j(y)}
+```
+
+D3 es correcto para la selección basada en Q sola; no se retira. El problema es su aplicación como complemento de una observación ya disponible. Los candidatos D26-C04/05 y sus propietarios siguen siendo la única propuesta de integración.
+
+**M27-07:** un evento con cuatro valores (.9,.85,.8,.95), capturado antes de admisión pero sin first_capture_observer_id, puede cualificarse y producir salida11,5 con regla emitida. El hallazgo concierne la obligación de procedencia. Si esa identidad es opcional, hay que presentarla como desconocida; no inferirla ni borrar el evento para aparentar completitud.
+
+**M27-08:** para D(n)=n(1−q^(n−1)), la fórmula q^(n−2)(1−q)((1+q)−n(1−q)) corresponde a D(n+1)−2D(n)+D(n−1). Si un consumidor define segunda diferencia como D(n)−2D(n−1)+D(n−2), debe desplazar el índice. En n=19,q=.9 la diferencia numérica es visible. Es una propuesta de coherencia de notación, no un nuevo mecanismo económico.
+
+### 8.3 Ecuaciones y alcance de las fuentes releídas
+
+**M27-05, R12.** Original: [TeX de 10 agosto2025](https://drive.google.com/file/d/1pAylPfeN4KkZiOzp-7UYX8peNvnlFtV2/view), 10.822 bytes, SHA256 cd17979d580d92076ff49a9e39ef7a84b4782e11810b54ffe58f3b7889615bbb. El expediente individual ya distingue el TeX anónimo, su render temporal de cinco páginas, R11 firmado y adaptación posterior a certificados. No se registra como error del expediente una distinción que ya conserva.
+
+El ejemplo fuente 7+5(1−.4)=10 se refiere a divisiones homogéneas. Para reutilizar verificaciones reales hacen falta pesos de coste, prueba de elegibilidad y costes de renovación/coordinación. La fórmula de von Neumann en la línea133 iguala la entropía espectral a una suma de solapamientos de autovectores con Ω. Para una base ortonormal fija, esa suma con Ω fija no cambia al variar el espectro, mientras la entropía sí. Una identidad general necesitaría construir y justificar pesos/asignaciones dependientes del estado. Este contraste no refuta una asignación libre distinta para cada estado, ni la línea más estrecha de reutilización de verificación.
+
+**M27-10, R19.** [Original](https://drive.google.com/file/d/1kjoTgijyzpQsWXUSkZesOLFr4qaPs4L2/view), §4.1, ecuación(4), página4, cotejada visualmente: Ṡ=rS−q(H−S). Para r,q,H>0, el equilibrio es S*=qH/(r+q), pero S(t)−S*=e^((r+q)t)(S(0)−S*). Es inestable; en 0 el campo es −qH y en H es rH, así que el intervalo no es invariante. Ṡ=q(H−S)−rS invierte la realimentación: entonces V=(S−S*)² tiene V̇=−2(r+q)V y el intervalo queda invariante. Ese cambio constituye un modelo propuesto distinto, cuya interpretación física debe justificarse otra vez.
+
+**M27-11/12, ventanas.** Fuentes: [Minimal Proof](https://drive.google.com/file/d/1PpwYraPHiFoOaat_ZeP2Pw5dk-d5y1Fg/view) y [Ordered Multiscale Decoupling](https://drive.google.com/file/d/1wev5ifF7qTS8OJfna47igLwXYE0oSNfT/view), lectura focal de supuestos y proposiciones.
+
+1. Una representación enriquecida permite reproducir las políticas anteriores y puede mejorar el **óptimo alcanzable**. Eso no demuestra que todo estimador fijo mejore al cambiar su entrada/contexto. Con muestras independientes de varianza1, diez actuales y noventa anteriores de media distinta Δ, la media actual tiene MSE=.1 y la conjunta .01+(.9Δ)². Para Δ=.1 la conjunta es mejor; para Δ=1 es peor. El sesgo no determina por sí solo el riesgo total. La Parte II actual ya usa formulaciones de políticas y condiciones de sesgo–varianza.
+2. A2 permite acumular instancias anteriores **del mismo tipo**. Sea θ∈{0,1} con prior1/2. Una observación actual X y otra antigua del mismo tipo Z son independientes dado θ y cada una acierta θ con probabilidad.75. P(θ=1|X=1)=.75; P(θ=1|X=Z=1)=.9. Pueden estar separadas por un régimen de otro tipo. La ventana contigua actual no es entonces suficiente respecto de toda la historia. Para concluirlo hay que conservar la historia pertinente del mismo tipo o exigir su irrelevancia condicional.
+3. La igualdad de posterior es suficiencia exacta; alcanzar riesgo por debajo de una tolerancia es adecuación práctica para una pérdida y tarea. No son definiciones intercambiables.
+4. A3 ya supone estimabilidad por debajo de tolerancia. Una búsqueda finita permite elegir un mínimo si la familia factible no está vacía; no prueba por sí misma que el régimen actual ya contenga suficientes muestras ni que el anclaje encontrado sea verdadero.
+
+**M27-14, D28.** [Fuente](https://tegrity.ai/1379-2/), Prop.3. Estados equiprobables, inacción=(0,0), acción segura=(0,1), otra acción=(−1,100). La segura satisface no-inferioridad frente a inacción. No domina a la otra en el segundo estado y su esperanza.5 es menor que49.5. Se conserva el contrato estricto de seguridad; para afirmar dominancia entre arquitecturas hace falta otro argumento sobre sus políticas, acciones y criterio.
+
+**M27-15/16, D34.** [Fuente](https://tegrity.ai/structural-limits-of-current-ai-integrity-under-regime-change/). Una trayectoria de distribuciones puede salir de la región certificada y volver. Tampoco una tasa de llegada superior a servicio durante un intervalo implica crecimiento ilimitado. La revisión requiere validez indexada en tiempo y condiciones sobre duración, acumulado, servicio y plazos.
+
+**M27-17/18/19, D37.** [Fuente](https://tegrity.ai/evolution-of-regime-awareness-capability/). El texto leído ya explicita P(A)P(P|A), su relación con la intersección y la severidad; esa aclaración no se trata como defecto vigente. Las configuraciones por poda/amplificación requieren una dinámica para llamarse atractores estables. Las ecuaciones afines/cuadráticas de precio requieren unidades, dominio y regla de elección de raíz. En el caso afín (b+d)x=c−a; si b+d=0 y c≠a no hay raíz, mientras que si también c=a todas las x satisfacen la igualdad.
+
+Las fuentes web y Drive son instantáneas de lectura del27octubre; una edición posterior debe revalidar el hallazgo correspondiente. No se publican aquí sus originales completos ni se cambian sus permisos.
+
+### 8.4 Desarrollos matemáticos propuestos
+
+**M27-O1 — suficiencia dinámica.** En un modo fijo m, X abierto, h:X→h(X) submersión C² y F_m C¹, inputs u(t) comunes y soluciones únicas dentro del dominio: existe g_m C¹ con ẏ=g_m(y,u), y=h(x), que representa toda la dinámica observada si y solo si:
+
+```text
+h(x)=h(x')  =>  Dh(x)F_m(x,u)=Dh(x')F_m(x',u), para todo u.
+```
+
+Necesidad por regla de la cadena. Suficiencia definiendo g con cualquier representante; la condición lo hace independiente del representante y las secciones locales de la submersión aportan regularidad. Unicidad identifica las trayectorias. Este es un resultado clásico de proyección/lumping; una pregunta particular puede necesitar menos que la reducción completa.
+
+Ejemplo: ẋ1=−a x1+κx2+u, ẋ2=−b x2, a,b>0, h=x1. Los autovalores siguen siendo −a,−b. Para κ=0 el resumen es cerrado; para κ≠0 dos estados con igual x1 y distinto x2 dan distinta derivada. Con a=b=κ=1, u=0, estados(0,±1), y±(t)=±te^(−t). A t=1, la pregunta y>.2 tiene respuestas opuestas con igual observación inicial. La historia ideal con modelo conocido puede recuperar x2=(ẏ+a y−u)/κ: el ejemplo no demuestra invisibilidad permanente.
+
+Antecedente primario: [Li y Rabitz, exact lumping](https://doi.org/10.1016/0009-2509(89)85014-6). La posible aportación es el contrato temporal con fuentes, perspectivas, dominio y preguntas, no apropiarse del teorema clásico.
+
+**M27-O2 — error y vigencia.** Si ẏ=g(y,u)+d(t), ||d(t)||≤ε(t), g es L-Lipschitz con L≥0 y la reducción ŷ comienza en el mismo estado, entonces:
+
+```text
+||y(t)-yhat(t)|| <= integral_0^t exp(L(t-s))*epsilon(s) ds.
+```
+
+La ecuación integral y Grönwall dan la cota; con error inicial se añade exp(Lt)||e(0)||. En el ejemplo triangular, |x2(0)|≤M da la cota exacta E(t)=|κ|M |(e^(−bt)−e^(−at))/(a−b)|, o |κ|M t e^(−at) cuando a=b. Para la pregunta y(t)≤c, ŷ(t)+E(t)≤c certifica el sí. No satisfacer esa desigualdad deja la respuesta sin certificar por este criterio.
+
+El margen puntual puede perderse y volver. La pregunta de seguridad durante todo [0,T] exige el supremo sobre el intervalo; recuperar un margen actual no borra un cruce anterior. El modelo, la cota de perturbación, acceso y permiso para nueva evidencia son premisas independientes.
+
+**M27-O3 — mejora individual y población cambiante.** Edad a, entradas b0 exp(γt), pérdida técnica ℓ(a)=exp(−βa), b0,γ,β>0, sin salidas ni interacciones. Las tasas γ,β tienen unidades de tiempo inverso:
+
+```text
+partial_t n + partial_a n = 0
+n(t,0) = b0*exp(gamma*t); n(0,a)=0 para a>0
+n(t,a) = b0*exp(gamma*(t-a)) para 0<a<t; cero para a>t
+```
+
+Por características, con solución débil en el frente a=t. Integrar la densidad y su producto con ℓ da:
+
+```text
+N(t)=b0*(exp(gamma*t)-1)/gamma
+mean_loss(t)=[gamma/(gamma+beta)]*
+            [1-exp(-(gamma+beta)*t)]/[1-exp(-gamma*t)]
+limit_mean=gamma/(gamma+beta)>0
+```
+
+Cada identidad que entra en s tiene pérdida exp(−β(t−s))→0. La fracción de población con pérdida>θ, 0<θ<1, tiende a1−θ^(γ/β). Si γ=β, la distribución límite es uniforme: media1/2 y fracción por encima de1/4 igual a3/4. Recupera la distinción transversal de R10 del30julio, no sus pasos finitos ni las otras ediciones.
+
+Con llegada constante, la media es (1−exp(−βt))/(βt)→0. La persistencia depende de la renovación, no se deduce de una mejora individual. El antecedente de transporte por edades está en [McKendrick, ejemplo9](https://doi.org/10.1017/S0013091500034428). No se atribuyen estos límites al artículo histórico ni a datos reales de agentes, personas o sufrimiento.
+
+**M27-O4 — cola y balance.** Llegadas brutas λ≥0 y servicio μ≥0 en las mismas unidades de esfuerzo por tiempo, carga inicial w0≥0:
+
+```text
+Y(t)=w0+integral_0^t (lambda(s)-mu(s)) ds
+w(t)=Y(t)-min(0,inf_{0<=s<=t}Y(s))
+```
+
+El regulador solo crece cuando la cola está vacía. El ejemplo λ=4,μ=2 hasta t=3 y λ=0 después llega a6 y se vacía en t=6; si la llegada4 persiste, w=2t. Una cola que se recupera puede haber incumplido un plazo. La espera w/μ requiere FIFO, capacidad constante y trabajo homogéneo, más el propio servicio de la nueva tarea.
+
+Para un recurso conservado en una red, ẋ=Bv+s−d y 1ᵀB=0 implican d(1ᵀx)/dt=1ᵀ(s−d). Sumar tránsito por todas las aristas puede contar la misma unidad varias veces; no equivale al flujo neto que cruza el límite del origen. Tiempo, dinero, información y energía requieren balances separados.
+
+**M27-O5 — ventana y estabilidad.** Para un menú finito de ventanas T, definir la familia factible mediante un testigo cualificado de validez del modelo, una cota E_t(T)≤ε_pregunta, coste≤presupuesto y demora≤plazo restante. Si no está vacía, un criterio de selección con desempate produce una opción; si está vacía, registra insuficiencia y las vías permitidas de adquisición de evidencia. La regla no demuestra que los testigos sean verdaderos ni un origen natural único.
+
+Lema: s(t) absolutamente continuo, |ṡ|≤v, 0<v<∞, umbrales θon>θoff, sin saltos que eludan su cruce. Entre cambios opuestos, Δθ≤∫|ṡ|dt≤vΔt, así que Δt≥Δθ/v. No hay acumulación infinita de cambios en un horizonte finito. Acotar una señal primaria necesita constantes de composición para acotar s; los reinicios deben respetar el contrato. En discreto, con salto máximo c, la cota es ceil(Δθ/c) pasos y puede ser uno. La estabilidad de conmutación no identifica por sí misma el régimen verdadero.
+
+### 8.5 Ejecución, reproducibilidad y transferencia
+
+El [acompañante](math_audit_companion_2026-10-27.py) usa biblioteca estándar. Obtiene cuatro fuentes públicas en revisiones inmutables o admite una copia local con `--source-archive`; verifica el hash Git antes de ejecutar los módulos de estudio. Solo realiza cálculos finitos; no modifica los estudios. La ejecución local de esta ronda produce [32 comprobaciones satisfactorias](MATH_AUDIT_RESULTS_2026-10-27.json), incluidos contraejemplos, controles positivos, posterior .75/.9, integración diferencial y cuadratura de población. Un futuro cambio de blob requiere otra ejecución y recepción; no se asume que el resultado siga vigente.
+
+Los desarrollos pueden aportar reglas/escenarios candidatos a DDS-PC-001/002/003/008, renovación a009/019, capacidad a011/012 y ventanas a010/013. No se declara completada Stage A (Specification Discovery), Stage B (Architecture Verification) ni Stage C (pinned Implementation/Problem Validation). Una demostración interna, una simulación finita y un efecto observado son evidencias distintas.
+
+**Cobertura pendiente:** crítica matemática independiente, delimitación de originalidad, semántica de coordenadas inciertas en M27-01, incorporación de cambios en sus fuentes propietarias y evidencia aplicada de las oportunidades. Los resultados negativos o de corrección del propio revisor permanecen en el registro. Esta lista no se sustituye por recuentos de tests ni por una calificación global del corpus.
