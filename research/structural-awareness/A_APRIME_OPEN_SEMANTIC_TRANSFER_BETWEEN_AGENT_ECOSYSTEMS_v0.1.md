@@ -790,6 +790,12 @@ OPEN_ECOSYSTEM_EXECUTE(
 
 The final pair is **not two exhaustive classes** (determinate vs indeterminate), nor a promise of exactly two *possible execution outcomes*. An arbitrary run can have any permitted number of witnessed positive/negative/estimated statuses, observed UNKNOWNs and exceptional diagnostics. **The open-frontier qualifier is at the semantic/representational level**, even when no particular indeterminate was encountered.
 
+**Finite executable research fixture:** [open ecosystem K/D composite and residual reporting checks](./fixtures/OPEN_ECOSYSTEM_COMPOSITION_AND_RESIDUAL_v0.1.mjs). Its **18 finite assertions** were exercised in the JavaScript research runtime and test two source worlds with the **same observed K/D result**, one with an extra *unseen* relevant peer. They verify that an honest OPEN report retains all in-A data, does not invent the unseen peer's identity, preserves in-A UNKNOWN reports when they are actually observed, and does not falsely equate a clean finite run with a complete census. The fixture uses synthetic qualified source observations and proves **neither** the halting theorem nor a global A′ inventory. Run it with the repository-root command below:
+
+~~~sh
+node research/structural-awareness/fixtures/OPEN_ECOSYSTEM_COMPOSITION_AND_RESIDUAL_v0.1.mjs
+~~~
+
 This construction directly captures the requested two models: **(a) prior universe closure followed by bounded internal operation, with the closure treated as global**, versus **(b) composition of the very same effective algorithms operating in an open ecosystem and communicating both justified finite results and their unclosed semantic remainder**. The latter is an architecture of *epistemic coverage*, not of omniscience. No particular B/C/D coding, extra oracle, physical universe-wide census or increase in execution power is required.
 
 ## 7. Relationship to the established A/B/C/D vocabulary
