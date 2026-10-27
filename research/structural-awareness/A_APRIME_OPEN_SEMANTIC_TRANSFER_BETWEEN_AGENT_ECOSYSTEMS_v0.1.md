@@ -5,7 +5,7 @@
 
 **Disposition:** working mathematical research for independent review; not an adopted runtime or engineering standard, not a claimed physical-world universal and not an amendment to the canonical A/B/C/D definitions. Authorship/intellectual lineage: Iván Abril Palma and the historical mathematical research programme; editorial and mathematical reconstruction prepared with AI assistance at the research owner's request.
 
-**Version integrity:** this stable document path retains its historical v0.1 filename for existing inbound links. The complete, unabridged previous **v0.8 working derivations (TR-1–TR-22, 39 section-6 subsections)** are preserved [verbatim as a historical, non-active research snapshot](./archive/2026-10-27_A_APRIME_FULL_WORKING_DERIVATIONS_v0.8.md). The owner's locally supplied [uncommitted v0.9 addendum](#appendix-a--universal-openness-and-typed-no-explosion-revision) has been reconciled in this article rather than represented as a previously merged commit. **This v1.0 is the active, consolidated reader edition.** Its independent Part II on utility is linked in §11.
+**Version integrity:** this stable document path retains its historical v0.1 filename for existing inbound links. The complete previous **v0.8 working derivations (TR-1–TR-22, 39 section-6 subsections)** are preserved [unabridged in a non-active historical research snapshot](./archive/2026-10-27_A_APRIME_FULL_WORKING_DERIVATIONS_v0.8.md); only relative link paths were rebased after moving the source one directory deeper. The original pre-consolidation text is also recoverable [at its historical Git revision](https://github.com/dakleyer/structural-awareness-contributions/blob/b4fe76bfad902f4662871ece97a15ba47de40e23/research/structural-awareness/A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md). The owner's locally supplied [uncommitted v0.9 addendum](#appendix-a--universal-openness-and-typed-no-explosion-revision) has been reconciled in this article rather than represented as a previously merged commit. **This v1.0 is the active, consolidated reader edition.** Its independent Part II on utility is linked in §11.
 
 ## Abstract
 
@@ -281,8 +281,9 @@ The article's claims are deliberately no stronger than their sources and proofs.
 - [composed K/D execution with open residual](./fixtures/OPEN_ECOSYSTEM_COMPOSITION_AND_RESIDUAL_v0.1.mjs);
 - [metasyntactic AST emitter and restricted type checker](./fixtures/METASYNTACTIC_OPEN_FRONTIER_PROGRAM_v0.1.mjs);
 - [external-U and deadline-contract tests](./fixtures/EXTERNAL_U_METASYNTACTIC_DIAGNOSTICS_v0.1.mjs).
+- [universal finite-frame principle and typed object/meta contradiction isolation](./fixtures/UNIVERSAL_FRAME_OPENNESS_AND_TYPED_META_REPORT_v0.1.mjs): 128 finite frames checked inside the stipulated infinite-natural-number model, with 522 finite assertions.
 
-The last fixture remains **a historical study of a qualified H-OUT/H-DETECT specialization**, not a test of the **universal, type-neutral ND** distinction introduced in this consolidated article. The local author-supplied v0.9 script tests the latter separately; its results must not be silently attributed to an already-published GitHub test or CI run.
+The historical external-U fixture remains a qualified H-OUT/H-DETECT specialization. The newly published universal-frame fixture tests the **type-neutral ND separation** on 128 explicitly chosen finite frames, with object-level contradictions isolated from host-level reports. Its 522 assertions are **finite constructed checks**, not an independent machine proof of ND for every possible frame, a physical-world measurement, or a GitHub CI result. The separate owner-supplied v0.9 draft and its earlier local executable companion remain distinct historical source material; no claim is made that those exact files were previously committed.
 
 ## 11. Conclusion — end of Part I and exact handoff to utility
 
