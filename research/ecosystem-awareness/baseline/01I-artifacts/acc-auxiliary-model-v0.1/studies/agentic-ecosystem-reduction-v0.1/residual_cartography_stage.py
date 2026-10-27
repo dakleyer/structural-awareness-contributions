@@ -134,14 +134,24 @@ def three_stages(*, case_id: str = REFERENCE_AG01,
         final = q_review
         matched = a_only
     source_scope = scenario["public"]["scope"]
+    # We examine the actually supplied prefix independently of the new
+    # post-exchange opportunity gate. A prior hit would falsify any report
+    # that NO qualifying observation had been received before exchange.
+    prior_qualified_hits = [
+        e.event_id for e in events
+        if e.time <= META_EXCHANGE_TIME
+        and qualified_event(e, required_scope=source_scope)["joint_region"]
+    ]
     stage_two_map = {
+        "prior_qualified_hit_ids": prior_qualified_hits,
+        "earlier_retained_hits_are_not_replayed_by_this_new_gate": True,
         "formal_region": "AND(observer-i CERTIFIED_OUTSIDE_LOCAL_A, i=0..3)",
         "feature_domain": "[0,1]^4",
         "typed_threshold": THRESHOLD,
         "source_scope": source_scope,
         "independently_sourced_AG01_near_gain_lower_bound":
             q_review["second_order_claimed_but_blocked_lower_bound"],
-        "no_matched_event_as_of_meta_exchange": True,
+        "no_matched_event_as_of_meta_exchange": len(prior_qualified_hits) == 0,
         "unknown_future_encounter_time_and_agent": True,
     }
     # This is a serialized rule proposal, not real network publication or
