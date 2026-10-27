@@ -244,5 +244,29 @@ class CartographicStageTest(unittest.TestCase):
 
 
 
+    def test_all_four_exact_observer_ids_required_not_merely_unique(self):
+        event = self.events[-1]
+        claims = [local_claim(event, i) for i in range(N_OBSERVERS)]
+        claims[-1] = dict(claims[-1], observer_id="observer-99")
+        r = common_cartographic_label(claims, source_scope=CROSS_SOURCE_SCOPE)
+        self.assertFalse(r["joint_region"])
+        self.assertEqual(r["reason"], "SOURCE_OR_EVENT_MISMATCH")
+
+    def test_invalid_first_capture_observer_is_not_accepted(self):
+        e = Observation("candidate", 7, CROSS_SOURCE_SCOPE, (.9, .85, .8, .95),
+                        first_capture_observer_id="unknown-external-source")
+        r = qualified_event(e, required_scope=CROSS_SOURCE_SCOPE)
+        self.assertFalse(r["joint_region"])
+        self.assertEqual(r["reason"], "INVALID_FIRST_CAPTURE_SOURCE")
+
+    def test_first_observer_unknown_before_arrival_identified_after(self):
+        result = three_stages(events=self.events)
+        self.assertTrue(result["stage_2_source_cartography"]
+                        ["unknown_future_encounter_time_and_agent"])
+        self.assertEqual(result["first_capture_observer_id"], "observer-2")
+        self.assertEqual(result["stage_3_meta_syntax_message"]
+                         ["first_capture_observer_id"], "observer-2")
+
+
 if __name__ == "__main__":
     unittest.main()
