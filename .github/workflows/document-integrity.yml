@@ -89,6 +89,9 @@ jobs:
       - name: Check Attribution Gap, Informational Friction and obligations bridge
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/causal-bridges-v0.1 -p test_bridge.py -v
 
+      - name: Check Theme 18 regime-adequacy finite fixtures (Stage A only)
+        run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1 -p test_theme18_finite_fixtures.py -v
+
       - name: Check UC21/DDS falsifiability bridge and favourable defence control
         run: |
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/tests -p test_uc21_dds_bridge.py -v
