@@ -21,6 +21,17 @@ The original Theme #18 discussion, [X.dmst bridge](https://github.com/FG-TIDA/th
 
 These source revisions are **separate evidence tiers**: a mathematical statement, a cross-architecture design, a script-level synthetic trace, a hypothetical #18 contract, and an independent real-world finding are **not interchangeable**.
 
+### Critical addition from [SA-O1–SA-O5: operational residual and online context plasticity](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/structural-awareness/SA_OPERATIONAL_RESIDUAL_AND_ONLINE_CONTEXT_PLASTICITY_v0.1.md)
+
+This **new main-corpus mathematical note (27 October)** turns the #18 question into an important, specifically **runtime** distinction. It defines **three nonidentical residuals**: (i) actually **captured, unresolved pre-admission event records** with provenance; (ii) the open semantic obligation A′ relative to a procedure; and (iii) a possibly unobserved extensional exterior of its current frame. Neither a finite UNKNOWN nor a synthetic common complement identifies a hidden physical agent or proves a superior alternative.
+
+- **SA-O2, irreversible discard:** if an event is dropped before any authorized pre-admission capture or replay, a later RA/EA message cannot recreate its distinctions from an already lossy output. A valid #18 receiving design should retain only **permitted, material, provenance-qualified unresolved traces** where needed, not demand that every agent reveal its internals.
+- **SA-O3, admission closure:** for an actually **fixed candidate pool** and successive filters, admitted subsets shrink. A streaming population can grow, and lawful replay or rule revision can reopen admission; no global claim that ABCD's A monotonically shrinks.
+- **SA-O4, certificate work utility:** within a fixed scope, a proved low-cost guard can replace multiple object-level checks **without changing their substantive verdict**, only if side effects, compulsory checks and the full proof discovery/maintenance overhead are accounted for. This can help #18 runtime conformance evaluation even with **zero additional Shannon information** about the state; the same proved guard used by a conventional evaluator **ties**, not loses by architecture.
+- **SA-O5, online requalification:** an existing meta-interpreter can accept an authorized, validated new context certificate and reinterpret retained events **without rebuilding the operator binary**. This is a change of **runtime qualified rule state**, not necessarily a change of #18's operator, a physical RA event or a new grant.
+
+**Two additional Stage A controls** follow, beyond the ten cases in §4: **T18-R2-11** must distinguish retained pre-admission evidence from irrevocably dropped events, including stale or ineligible context certificates; **T18-R2-12** must compare a proved short-circuit guard with an independent full verdict under a fixed finite domain and count **all** guard/proof costs, including a same-equipment conventional peer. The tiny [online-context checker](./test_theme18_online_context.py) models these mathematical distinctions only; it is **not** a deployed #18 runtime or a proven RA monitor.
+
 ## 2. What we should offer #18 now: a *Decision- and Candidate-Domain Adequacy Profile* (DCDAP-18)
 
 Proposed **informative** semantic record with **no new default execution authority**. It is *not* a newly ratified #18 message schema. Its purpose is to make choice compliance and the conditions **under which choice is meaningful** independently inspectable.
