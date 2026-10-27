@@ -459,7 +459,7 @@ The witnessed matching member is assumed to have a qualified independent complet
 node research/structural-awareness/fixtures/OW_NONCLOSURE_CONTRACT_CHECKS_v0.1.mjs
 ~~~
 
-The fixture's trusted-inventory input is assumed to come from an **externally authenticated/qualified certifier**. The script does **not** verify that authority, invent a global oracle or machine-check any infinite theorem; it validates only declared *contract invariants* in finite constructed inputs.
+The fixture's trusted-inventory input is assumed to come from an **externally authenticated/qualified certifier**. Its affirmative/negative semantic judgments are also **mocked as already qualified**; the fixture does **not** independently verify their receipts or provenance. The script does **not** verify that authority, invent a global oracle or machine-check any infinite theorem; it validates only declared *contract invariants* in finite constructed inputs.
 
 **Failure-mode boundary:** if forced into a total correct binary global semantic contract under H-EXP, a computable program must err somewhere. A partial program may hang; a sound total three-outcome program must preserve an INDETERMINATE case. A timeout or exception can be **an operational event**, but is not mathematically forced in every run. Silent promotion of UNKNOWN to YES/NO creates false closure. Endless waiting for an unprovable universal enumeration can squander resources. Neither a specific Type-1 nor Type-2 EA diagnosis follows without the Foundation's separate operational/causal conditions.
 
