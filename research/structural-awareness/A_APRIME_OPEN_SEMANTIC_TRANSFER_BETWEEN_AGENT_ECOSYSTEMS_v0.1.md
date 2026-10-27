@@ -1,7 +1,7 @@
 # From A to A′: Open Meaning and Semantic Transfer Between Agent Ecosystems
 
-**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.5 · 27 October 2026**  
-**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.5**, recorded by the GitHub revision.  
+**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.6 · 27 October 2026**  
+**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.6**, recorded by the GitHub revision.  
 **Logical subject:** SA-MATH-TR-01 · **Relationship:** mathematical continuation of [OW-1–OW-11, effective non-closure and repeated runs](./OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md).  
 **Status:** architecture-level mathematical principles with bounded formal proofs and explicit operational conditions, intended for independent review. AI-assisted authoring at the research owner's request; not an implementation prescription, a new ResearchGate theorem, a formally verified program, or a modification of the canonical A/B/C/D vocabulary.  
 **Scientific lineage:** Iván Abril Palma, *Practical Incompleteness* (L1); *The Projection Mechanism* (2025 and distinct 2026 fourth revision); *The Projected Infinite Paradox*; [00M mathematical plausibility and canonical A/B/C/D](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical).
@@ -798,6 +798,181 @@ node research/structural-awareness/fixtures/OPEN_ECOSYSTEM_COMPOSITION_AND_RESID
 
 This construction directly captures the requested two models: **(a) prior universe closure followed by bounded internal operation, with the closure treated as global**, versus **(b) composition of the very same effective algorithms operating in an open ecosystem and communicating both justified finite results and their unclosed semantic remainder**. The latter is an architecture of *epistemic coverage*, not of omniscience. No particular B/C/D coding, extra oracle, physical universe-wide census or increase in execution power is required.
 
+### 6.22. The actual lineage of metasyntax in *Primalidad y Lógica*
+
+The transition from semantic to **syntactic/metasyntactic expressivity** must be established **in the executable reporting program**, not through a human observer's after-the-fact interpretation. Both architectures may run the **same** effective object-level K, D and validator functions and get the same finite results. The new program differs because it also **constructs well-typed meta-level expressions** about what those runs do not exhaust.
+
+**Original source versus new derivation.** [*Primalidad y Lógica*, §2](https://docs.google.com/document/d/19oVzuvEbNBq0-Mj59_3QwIeuft-lkdfd8GEyewZgIHU/edit) defines a purely syntactic bunch operator \(\oplus\), a primitive difference mark \(-B\) and stacked difference labels. It produces one descriptor for each nonempty predecessor-index subset:
+
+\[
+M_{m+1}
+=\bigwedge_{\varnothing\ne S\subseteq[m]}
+-\left(\bigoplus_{i\in S}A_i\right),
+\qquad |M_{m+1}|=2^m-1.
+\tag{40}
+\]
+
+The [R03 source-specific review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R03_PRIMALIDAD_Y_LOGICA_v0.1.md), §§2–4 and 14.1, establishes the **combinatorial label count**, while separating original syntax from claims that the labels constitute independent external objects. In the author's original §4.3–4.4, a theoretical object language restricts its quantifiers to an internal domain and regards the exterior as a distinct horizon. This gives a direct **research antecedent** for our next operation. It is not a published proof that every metasemantic constructor is computationally noncomposable.
+
+The operation defined next is **a new mathematical/engineering derivation from that lineage**, not an attempt to identify the original source \(\oplus\) with Boolean OR, exclusive OR, literal set union, or the AST constructor developed here.
+
+### 6.23. Two programs, two output grammars, one object-level execution
+
+Let \(\mathcal P=\operatorname{Compose}(K,D,V_1,\ldots,V_j)\) be the **identical** ordinary execution kernel. Its finite qualified run record is \(h_r\), producing justified in-A results \(a_r\). Define two external report grammars.
+
+**Closed grammar \(L_A\).** Its interpreted types and quantifiers range **only over the K-admitted working frame A**. It can create finite value, status and operation-result expressions, including recorded local UNKNOWN/ERROR cases:
+
+~~~text
+Inside ::= Result(value)
+         | ObservedStatus(status, evidence)
+         | InsideApply(operator, Inside)
+         | InsideCombine(Inside, Inside)
+~~~
+
+By the definition of this closed interface class, no Inside constructor can **refer to a semantic object or obligation outside A**.
+
+**Extended grammar \(L_{A+}\).** It contains all Inside terms plus new interpreted constructors:
+
+~~~text
+Meta ::= Embed(Inside)
+       | OpenFrontier(program_ref, question_ref, scope, proof_status)
+       | OutsideQuestion(scope_ref, predicate_ref, quantifier)
+       | ObservedBoundary(case_ref, evidence)
+       | RoleClaim(B_or_C_or_D, case_ref, evidence)
+       | UnqualifiedRole(case_ref, reason)
+       | RoleFrontier(B_prime_or_C_prime_or_D_prime, scope_ref)
+~~~
+
+A **typed, executable reporting transformation** is now possible:
+
+\[
+P_C(r)=\operatorname{Serialize}_{L_A}(a_r),\qquad
+P_M(r)=\operatorname{Serialize}_{L_{A+}}
+\left(\operatorname{Reflect}(\langle\mathcal P\rangle,q,h_r)\right).
+\tag{41}
+\]
+
+The **object-level instructions and run outputs are the same**, but the reporting programs differ in actual code, instruction trace, accepted output types and messages. The open-aware program is not just a philosophical commentary about \(P_C\). This claim does **not** depend on a new physical instruction set or noncomputable hardware.
+
+The constructor OutsideQuestion builds a **question/formula**, not its truth value. A status NOT_CERTIFIED_CLOSED is a statement about unavailable global certification; a stronger PROVED_UNIFORM_FRONTIER requires the independent matched H-EXP/OW-1 theorem. Neither label identifies individual unknown elements.
+
+### 6.24. Theorem TR-15 — an external question is not definable in the restricted closed language
+
+Let \(w_0,w_1\) be two admissible full-world structures with **the same A-reduct**: identical objects in A, identical values of all interpreted \(L_A\) symbols, and identical observed K/D records. Their outside-A portions differ in a predicate \(\chi\). Both exteriors may be nonempty. In \(w_1\) there is an outside-A object satisfying \(\chi\); in \(w_0\) no outside-A object satisfies it. The extended language expresses:
+
+\[
+\psi_\chi=
+\exists x\bigl(\operatorname{Outside}_A(x)\land\chi(x)\bigr).
+\tag{42}
+\]
+
+**Theorem TR-15 (relative metasyntactic non-definability).** No \(L_A\) sentence or finite combination of its **inside-A interpreted operators** can express \(\psi_\chi\) correctly in both full worlds. The open metalanguage \(L_{A+}\) can construct \(\psi_\chi\) as a well-typed **unresolved question**.
+
+**Proof.** By induction on the grammar, any \(L_A\) term/sentence has equal interpretation/truth in the two structures because their A-reducts agree. The formula \(\psi_\chi\) is false in \(w_0\) and true in \(w_1\). It therefore cannot be equivalent to an \(L_A\) sentence in that model pair. The OutsideQuestion constructor belongs to \(L_{A+}\), so it builds the expression, **without deciding which situation is actual**. \(\square\)
+
+**Scope of noncomposability:** this is a **language-relative** theorem. It says finite object-language composition under the stipulated inside-A type system cannot produce a **semantically interpreted outside-A term**. An unrestricted Turing machine can of course execute code that prints the symbols of the larger language. Once a former closure-only interface is extended with interpreted OutsideQuestion, it **is no longer the same closed-language comparator**.
+
+### 6.25. Theorem TR-16 — an actual computable metasyntactic constructor exists
+
+For finitely encoded \(\mathcal P,q,\rho,\sigma,h_r\), define the report transformer:
+
+\[
+\operatorname{Reflect}(\mathcal P,q,h_r)=
+\left[
+\operatorname{Embed}(a_r),\
+\operatorname{OpenFrontier}(\mathcal P,q,\rho,\sigma),\
+\operatorname{OutsideQuestion}(A,q,\exists)
+\right].
+\tag{43}
+\]
+
+**Theorem TR-16 (effective metasyn​​tactic constructor).** Given well-typed finite inputs and a fixed finite grammar, Reflect is a **total computable function that outputs syntax**. A correct implementation marks the outside question UNDETERMINED until some qualified evidence or domain-specific theorem settles it. It need not enumerate any member of A′ or classify all possible input types.
+
+**Proof.** A finite procedure copies the task and run references, creates the three finite typed nodes, and serializes the result. No branch calls a universal semantic truth procedure. \(\square\)
+
+This formalizes **existence of the different program**. Its generated statement about A′ is an *interpreted instruction/message*, not a claim that the actual hidden constituents have been identified. Two implementations may emit different numbers of code bytes, but no theorem of **minimum program-length growth** follows: ordinary universal machines can encode both programs.
+
+### 6.26. Theorem TR-17 — a perfect semantic label-of-newness is another undecidable task
+
+Suppose we demand that the program generate a new semantic category **exactly if** an arbitrarily encountered response behaviour is genuinely different from every existing behaviour category. This is **semantic program equivalence**, not the easy task of comparing two finite output strings.
+
+A fixed family of **total computable functions** already defeats universal exact labeling. Let \(U_e(e)\) be an arbitrary diagonal computation and define
+
+\[
+F_e(n)=
+\begin{cases}
+1,& U_e(e)\text{ halts within }n\text{ simulation steps},\\
+0,&\text{otherwise}.
+\end{cases}
+\qquad Z(n)=0.
+\tag{44}
+\]
+
+Each \(F_e\) is computable and **total**, since it runs only n simulation steps. However,
+
+\[
+\forall n\,F_e(n)=Z(n)
+\iff U_e(e)\uparrow.
+\tag{45}
+\]
+
+**Theorem TR-17 (impossibility of uniform perfect semantic novelty classification).** There is no computable **total** classifier which, from arbitrary e in the above family, correctly decides whether \(F_e\) and the previously known category Z are **semantically identical functions**, or whether a genuinely new semantic behaviour has appeared.
+
+**Proof.** The alleged classifier would decide the complement of the diagonal halting set by (45), hence would decide halting by complementing its Boolean result. Contradiction. \(\square\)
+
+A program can nevertheless mint fresh **syntactic** labels NEW-1, NEW-2, ... or a catch-all UNCLASSIFIED. That is straightforward and does **not** mean it correctly determined semantic novelty. In particular, requiring a perfect semantic distinction between IND-1 and IND-2 at every nesting level reproduces an undecidable classification obligation. TR-17 is **new work derived here** from standard halting theory, not an original theorem from *Primalidad y Lógica*.
+
+### 6.27. No need to close the residual or to invent an infinite ladder of statuses
+
+The open-aware report can always retain **whatever finite status/evidence assertions the run legitimately supports** and append a metasyn​​tactic declaration of its **still-open semantic reach**:
+
+\[
+\mathcal R_r=
+\bigl(
+\operatorname{Observed}(h_r),\
+\operatorname{PartialRoles}(B,C,D),\
+\operatorname{OpenFrontier}(\mathcal P,q)
+\bigr).
+\tag{46}
+\]
+
+Role labels B/C/D are **qualified and nonfungible** according to adopted 00M: an assessable reserve, a grounded exploration frontier, and effects beyond effective evaluation are different relations to a given process. They are not exhaustive semantic classes of every possible real object. Partial role assignments can have their own unclosed B′/C′/D′ fronts, and an encounter whose role cannot be justified can remain UNQUALIFIED_ROLE without forcing another oracle.
+
+This is **representational coverage completeness for the declared epistemic obligation**, not total semantic identification and not Gödelian deductive completeness. The top-level OpenFrontier does not require the program to name all the new unknown types or decide whether one unknown is of type UNKNOWN rather than UNKNOWN-OF-UNKNOWN.
+
+### 6.28. Nearest neighbor and the Myrmidons: operational reading and result
+
+A finite source programme can correctly emit NEAREST_OBSERVED(peer-17). Its metasyn​​tactic companion can construct, without evaluating:
+
+\[
+\operatorname{OutsideQuestion}\Bigl(
+\exists x\bigl[
+\operatorname{OutsideObserved}_r(x)\land
+\operatorname{Eligible}(x)\land
+d(a,x)<d(a,\mathrm{peer17})
+\bigr]\Bigr),
+\quad \operatorname{status}=\mathrm{UNDETERMINED}.
+\tag{47}
+\]
+
+This represents an **existing possible receiving question**, not a newly discovered closer neighbor. A future admissible encounter may provide a witness; until then the new programme has a valid typed expression that the stipulated closure-only interface cannot produce or interpret.
+
+The historical *Projected Infinite Paradox* motivates the distinction between finite constructed Myrmidon positions and the **population-level** questions that those finite positions do not settle. [R10 review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R10_PROJECTED_INFINITE_PARADOX_v0.1.md) gives exact examples where every fixed-index trajectory has one limit but the current-stage population distribution differs. That is a meaningful analogy for the missing quantifier, **not** an inference that a new finite syntax identifies the unconstructed population.
+
+The architectural transition is therefore
+
+\[
+\underbrace{\mathcal P(r)}_{\text{same object-level computation}}
+\longrightarrow
+\begin{cases}
+\operatorname{Serialize}_{L_A}(a_r), & \text{closure-only},\\
+\operatorname{Serialize}_{L_{A+}}(a_r,\operatorname{Reflect}(\mathcal P,q,h_r)), & \text{open-aware}.
+\end{cases}
+\tag{48}
+\]
+
+**Synthesis:** TR-15 proves strict **relative metasyn​​tactic expressivity**; TR-16 supplies a **real executable reporting programme**; TR-17 proves why total exact semantic auto-labeling is impossible for a sufficiently expressive family. The prior L1 frontier is not overcome or hidden. This is a practical programme difference, not merely a philosophical reinterpretation.
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
@@ -820,4 +995,4 @@ The next, distinct research question is **projection under an unqualified import
 - [01J current signalling annex](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) for the architecture's existing qualification of source-to-recipient meaning.
 - [Original *Projected Infinite Paradox* published route](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) — historical interpretation, not imported universal proof.
 
-**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. TR-12 states the universal semantic/meta-separation oracle barrier, TR-13 proves **evidence-relative epistemic coverage completeness** of an open-intentional representation, and TR-14 formalizes **weak information preservation inside A** together with **strict claim expressivity about the outside-A semantic frontier**. These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
+**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. TR-12 states the uniform semantic/meta-separation oracle barrier; TR-13 gives evidence-relative coverage completeness; TR-14 proves weak in-A preservation plus strict outside-A claim scope. **TR-15 proves external-question nondefinability in an inside-A-only language; TR-16 gives an effective metasyn​​tactic report constructor; TR-17 proves why perfect semantic novelty classification is uncomputable even for a specially constructed family of total computable response functions.** These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
