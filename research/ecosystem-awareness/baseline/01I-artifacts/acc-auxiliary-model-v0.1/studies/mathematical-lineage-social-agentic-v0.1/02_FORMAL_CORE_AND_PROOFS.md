@@ -120,6 +120,22 @@ Under *additive independent costs* \(c_j\ge0\), choose \(H\subseteq J_\kappa\) m
 
 **Boundary:** D3 does not prove that each Q is available, true, safe, private, legally disclosable or sufficient outside \(\widehat X\). A source query may be a costed observation of a particular B-profile *only after 00M qualification*; none can be invented from C or D. If \(\bigcup_{j\in J_\kappa}C_j\ne U_r\), the exact target is **unachievable by this query menu**, not “solved by oracle.” Cost additivity fails with batch discounts, shared proof work and correlated permissions: use general \(C(H,\kappa)\) and re-check.
 
+### 4.1 Correct receiving problem: supplementary queries GIVEN already qualified A (27 October audit correction)
+
+**Scope of amendment:** retain D3 exactly as the *Q-only* mathematical equivalence. A receiving participant usually already observes \`o\`. Dropping that existing source from the coverage problem can yield a **false unattainability verdict** (PR #59 D26-F08). For such a receiver, define
+
+\[
+\widetilde g_H(x)=\big(o(x),(Q_j(x))_{j\in H}\big),\qquad
+U_{r\mid o}=\big\{\{x,y\}\subseteq\widehat X:\ o(x)=o(y),\ r(x)\ne r(y)\big\}.
+\]
+
+**D3-A (standard conditional pair-separation lemma).** The exact receiver target factors through \(\widetilde g_H\) on \(\widehat X\) **iff** every pair in \(U_{r\mid o}\) is distinguished by some eligible chosen \(Q_j\). Proof: for pairs already separated by \(o\), the joint observation distinguishes them irrespective of Q; for pairs not separated by \(o\), D3's necessity/sufficiency applies to Q. \(\square\)
+
+Under a declared independent additive cost model, select the minimum-cost \(H\) covering **only** \(U_{r\mid o}\), not all \(U_r\). Maintain existing A acquisition/maintenance burden in the *full* cost ledger, but do not bill it a second time as newly purchased Q. Source permissions, dependence, freshness, purpose and feasibility remain additional gates. When the required target is a *common lawful disposition* rather than one exact \(r(x)\), this exact-identification requirement can be unnecessarily strong; use a separately defined action-admissibility criterion.
+
+**Auditor's four-state counterexample:** \(X=\{0,1,2,3\}\), \(o(x)=\lfloor x/2\rfloor\), \(r(x)=x\), and the only unit-cost Q has \(Q(x)=x\bmod 2\). The Q-only condition does not hold: pairs \((0,2)\) and \((1,3)\) remain indistinguishable under Q. But \(U_{r\mid o}=\{\{0,1\},\{2,3\}\}\) and Q separates both; \((o,Q)\) identifies all four states with **one incremental query**. A receiving protocol which uses the Q-only infeasibility verdict would incorrectly reject an attainable decision. A counterpart finite fixture exists in [Theme #18 tests](./09_THEME18_FINITE_FIXTURE_CASES_v0.1.json). This is a **correction to the use of D3**, not a novel theorem, a recovered hidden-world state or independent empirical validation.
+
+
 ## 5. R04: safe domain and transfer of qualified source claims (S + R)
 
 Given source observation \(o\), receiving target \(r\), define its maximal *observation-saturated* target-adequate subdomain:
