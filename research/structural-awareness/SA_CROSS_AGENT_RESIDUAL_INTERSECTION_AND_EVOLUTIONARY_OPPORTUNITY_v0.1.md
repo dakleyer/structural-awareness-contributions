@@ -45,7 +45,7 @@ x\in R_{\rm joint}.
 \tag{3}
 \]
 
-The conjunction legitimately retains the distinct affirmed predicates, even if no original object agent admits x. It is not a complete enumeration of the epistemic A′. A candidate identifier, common version/context, source validity and proof scope are essential. Logical conjunction does not require independence of source probabilities, but duplicated sources cannot fake missing dimension evidence.
+The conjunction legitimately retains the distinct affirmed predicates, even if no original object agent admits x. It is not a complete enumeration of the epistemic A′. **CROSS-1 (qualified residual conjunction):** if each H_i(x) is valid and entails x∈R_i for one source-matched candidate, then their conjunction entails x∈R_joint. **Proof:** H implies every H_i and each H_i implies R_i membership; conjoin the consequences. No global residual inventory is required. A candidate identifier, common version/context, source validity and proof scope are essential. Logical conjunction does not require independence of source probabilities, but duplicated sources cannot fake missing dimension evidence.
 
 ## 2. From a joint residual property to a near-optimality proof
 
@@ -61,7 +61,7 @@ u^*-u(x)\le n-L(x).
 \tag{4}
 \]
 
-**CROSS-1 (qualified joint certificate).** If each \(\ell_i\ge\tau_i\), and every \(H_i(x)\equiv(\ell_i\ge\tau_i)\) is valid within one declared task/version, the candidate is certified in \(\bigcap_iH_i\). If \(L(x)>u_{\rm current}+c_{\rm adoption}\), the candidate offers a **provable positive net improvement** under this objective, **provided action is feasible and authorized**. If \(n-L(x)\le\varepsilon\), it is also **certifiably epsilon-near the technical optimum**.
+**CROSS-2 (qualified improvement certificate).** If each \(\ell_i\ge\tau_i\), and every \(H_i(x)\equiv(\ell_i\ge\tau_i)\) is valid within one declared task/version, the candidate is certified in \(\bigcap_iH_i\). If \(L(x)>u_{\rm current}+c_{\rm adoption}\), the candidate offers a **provable positive net improvement** under this objective, **provided action is feasible and authorized**. If \(n-L(x)\le\varepsilon\), it is also **certifiably epsilon-near the technical optimum**.
 
 **Proof:** combine the n coordinate inequalities and the given utility upper bound. The improvement and regret inequalities follow by subtraction. \(\square\)
 
