@@ -495,3 +495,22 @@ El [acompañante](math_audit_companion_2026-10-27.py) usa biblioteca estándar. 
 Los desarrollos pueden aportar reglas/escenarios candidatos a DDS-PC-001/002/003/008, renovación a009/019, capacidad a011/012 y ventanas a010/013. No se declara completada Stage A (Specification Discovery), Stage B (Architecture Verification) ni Stage C (pinned Implementation/Problem Validation). Una demostración interna, una simulación finita y un efecto observado son evidencias distintas.
 
 **Cobertura pendiente:** crítica matemática independiente, delimitación de originalidad, semántica de coordenadas inciertas en M27-01, incorporación de cambios en sus fuentes propietarias y evidencia aplicada de las oportunidades. Los resultados negativos o de corrección del propio revisor permanecen en el registro. Esta lista no se sustituye por recuentos de tests ni por una calificación global del corpus.
+
+
+## 9. Corpus-wide interpretation repair
+
+La [ronda 9](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-9) amplía M27-09 desde una corrección del revisor hacia una reparación de lectura para cualquier autor, lector o resumidor.
+
+La [guía transversal completa](INTERPRETATION_AND_COMPARISON_REPAIR_2026-10-27.md) contiene:
+- siete dimensiones distintas de comparación y la separación entre etapas de descubrimiento, evidencia, selección, adaptación, ejecución y renovación;
+- formulaciones positivas y precisas de lo demostrado, con controles contra la extrapolación y contra una defensa propagandística;
+- 36 fichas antes/después sobre 24 fuentes/ediciones, verificadas contra sus unidades exactas;
+- reglas de traslado a resúmenes, tablas, figuras, código/datos, matrices, índices, auditorías, VNext y ediciones protegidas;
+- papeles separados para reproducción, información, ablación, incumbente independiente y referencia del evaluador;
+- rutas propietarias, una primera ola sugerida y una prueba futura de comprensión para personas nuevas.
+
+El contenido válido de F-01 permanece: el brazo con Q equivalente comparte la lógica especificada y el precio puede cambiar el neto. Se precisa qué se puede concluir de ese control y cómo se debe nombrar. El programa matemático conserva sus resultados de representación, expresividad y utilidad condicionada. La posibilidad de un resultado adverso de un incumbente competente permanece explícita y no se elimina mediante una reclasificación de nombres.
+
+Esta propuesta sustituye como candidata editorial desarrollada la formulación breve de §8.1, que se conserva como historia. No crea una segunda VNext ni aplica las sustituciones a las fuentes. La pauta vigente de esta ronda y sus fichas son el receptor para continuar la discusión.
+
+[Datos de fichas](INTERPRETATION_REPAIR_CANDIDATES_2026-10-27.json) · [Cobertura](INTERPRETATION_COVERAGE_2026-10-27.json) · [Índice completo](INTERPRETATION_COVERAGE_INDEX_2026-10-27.csv.gz) · [Verificador](verify_interpretation_repair_2026-10-27.py) · [Resultado interno](INTERPRETATION_REPAIR_VERIFICATION_2026-10-27.json).
