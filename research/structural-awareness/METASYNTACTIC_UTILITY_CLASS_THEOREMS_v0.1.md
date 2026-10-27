@@ -1,315 +1,509 @@
-# Mathematical Utility Classes of Metasyntactic Information
+# Structural Awareness — Mathematical Utility of Metasyntactic Operations
 
-**Part II — From representation to decision value in open and changing ecosystems**  
-**Structural Awareness Programme · SA-MATH-UTILITY-01 · Research note v0.1 · 27 October 2026**
+**Part II · Source-grounded mathematical synthesis v0.2 · 27 October 2026**  
+**Research object:** structural utility of metasyntactic operations, not a particular agent implementation or architecture vocabulary.  
+**Disposition:** scholarly working mathematical reconstruction for independent review; **no new empirical campaign, simulator, benchmark or formal theorem-prover certification**.  
+**Intellectual lineage:** Iván Abril Palma, original mathematical and information-theoretic corpus. Reconstruction connects the *actual original text*, the R-source mathematical audits, and the open [mathematical PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60). New integrative propositions are explicitly distinguished from standard mathematics.
 
-**Scientific status:** mathematical class-level construction with conditional theorems, general proof obligations and executable finite checks; **not** empirical validation, an adopted agentic protocol, or proof of universal efficiency. Intellectual lineage: Iván Abril Palma's original mathematical programme; source-specific R-reviews; [the open, unmerged PR #60](https://github.com/dakleyer/structural-awareness-contributions/pull/60). Research integration prepared with AI assistance at the owner's request.
-
-**Dependency:** [Part I — Metasyntactic Architecture for Open Ecosystems](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), consolidated v1.0. The first part proves typed expressive extension and limited integrity/resilience results, but not universal operational superiority. **This paper starts only where the representational theorem ends.**
+**Continuity and custody:** this stable v0.1 filename is retained for existing references, but this is active **v0.2**. The previous full v0.1 development is preserved in the [historical research snapshot](./archive/2026-10-27_METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1_WORKING.md), and its original bytes remain available in Git history. [Part I](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md) establishes the *relative expressive and typed-resilience architecture*; the present paper asks what the existing mathematical lineage actually permits us to derive about **utility**. A [source-to-claim ledger](./METASYNTACTIC_UTILITY_SOURCE_PROVENANCE_v0.1.md) gives the detailed reading route and forbidden extrapolations.
 
 ## Abstract
 
-The ability to formulate an open-domain semantic question is distinct from the ability to improve a decision. A constant metasyntactic tag stating that the universe is open may be essential to interpret the scope of a report, yet may add **no discriminating information** about which possible world is actual. This paper identifies a broader, nontrivial family of decision and verification problems in which a **qualified meta-observation, proof certificate, partial relation, validity-window statement or additional authorized observation** changes the receiver's informational partition or compatible-world set. It proves exact criteria for (1) detecting representation insufficiency without solving the hidden question; (2) restoring decision sufficiency with selected, eligible additional distinctions; (3) strictly decreasing attainable decision loss for some tasks; (4) improving robust decisions using qualified restrictions on possible states **without identifying the actual state**; and (5) accounting for information, verification and design costs.
+Metasyntactic representation does not improve a decision merely because an agent can print OPEN or refer to an unenumerated exterior. The original mathematical corpus supports a more substantial programme. *Primalidad y Lógica* develops distinctions between atoms and their permitted composites; *The Given Universe* and *Principios de Buena Definición* reveal when an observation ceases to be sufficient for a changed question or operation; *Primitiva Entrópica* separates a bounded witness from an unbounded nonmembership claim; *Distorsión Entrópica* investigates the gap between a theoretical preimage and a constructible subset; *Computational Exergy* separates description capacity from minimal or realized description cost; a distinct compiled *Primitiva Entrópica* studies verified reuse of earlier external distinctions; and the *Semantic Window* line studies when the context that made a previous reading meaningful ceases to be appropriate.
 
-The mathematical class is **not** defined by A/B/C/D, a social or economic model, a particular agent brand, or a hard-coded list of modules. Its members are independently specified questions, observations, admissible sources, context transformations, actions and losses. It includes changed-operation interfaces, finite proof/metaproof certificates, version-sensitive transfer, anonymous relational information, selective acquisition and qualified resource-limited decisions. Positive examples and mandatory strong-baseline counterexamples are specified separately. Only a **task-relative, source-qualified and priced** claim can establish strict practical utility.
+These sources lead to a **general mathematical utility class**: tasks in which the receiver can benefit from a *qualified proposition about the sufficiency, provenance, coverage, validity, relational structure, proof status or reuse cost of an existing representation*, although it cannot identify the complete outside world. We prove two independent forms of advantage: **information-discriminating utility**, with a strict expected log-loss reduction equal to \(I(R;M\mid O)\) in a declared discrete stochastic model, and **certificate/work utility**, in which a typed, reusable qualification can satisfy an inquiry or deadline that would otherwise require more verified work, even with **zero new Shannon information about the target**. A third mechanism, **contextual-scope utility**, is demonstrated by the exact bias–variance tradeoff of mixing data from different regimes and by changes of question or operation signature. The article derives necessary/sufficient conditions, non-identifying positive results, and conditions under which no advantage exists.
 
-## 1. Scope: one abstract class, several independent scientific mechanisms
+These are mathematical and metasyntactic **possibilities**, not a declaration that a special implementation universally beats all conventional computers. No social model, A/B/C/D category partition, synthetic campaign or Ecosystem Awareness requirement is used in any proof here.
 
-Take a nonempty state class \(W\), which may be very large or open and need not be globally enumerable. An agent or other process has:
+## 1. The problem is *what the metalevel can establish*, not how many tags it produces
+
+The formal question is:
+
+> Given an object-level observation which leaves a receiving task unresolved, **which true, properly typed metalevel propositions about its origin, limitations, relations and domain of validity can reduce the remaining task burden without recovering the whole hidden state?**
+
+A metaprocess can perform operations on *descriptions and proofs* rather than on the domain objects themselves:
 
 \[
-o:W\longrightarrow O,\qquad
-r:W\longrightarrow R,
+\operatorname{Quote}(\mathcal P),\quad
+\operatorname{Check}(T,\pi),\quad
+\operatorname{Relate}(o_1,o_2),\quad
+\operatorname{Refine}(o,r),\quad
+\operatorname{RestrictContext}(e,r),\quad
+\operatorname{QualifyReuse}(c,\kappa).
 \tag{1}
 \]
 
-where o is the **available object-level observation** and r the independently declared **receiving question**. The object-level observation could be an execution receipt, a syntactic proof result, a measurement, a source statement or a partial interface. A **metasyntactic source record** is denoted
+These are names for **mathematical types of operations**, not a mandatory software API. A real metaprocess has to prove or validate the premises of each claim; a formula about the exterior is not an oracle for its truth.
+
+Let \(W\) be a specified class of admissible source situations, potentially unbounded and not entirely identifiable by an individual agent. An object-level representation is \(O=o(W)\) and the **independently fixed** receiving question is \(R=r(W)\). Let \(M=m(W)\) be additional metasyntactic information, drawn from one or more **identified legitimate sources**, with evidence, typing, time and scope profile \(\kappa\). Depending on the theorem, \(O,R,M\) denote either **deterministic functions on W** or **random variables under an explicitly declared probability law**. We do not quietly import a global probability distribution over every unobserved element of an open cosmos.
+
+Three kinds of M must remain distinct:
+
+1. **Structural / theorem-level qualification:** for instance a valid statement that a family cannot be exhaustively decided uniformly, or that a finite frame has a model-relative exterior. When common to every admissible state, it need **not** distinguish possible worlds at all.
+2. **State-varying qualified evidence:** a valid partial relation, version, source certificate, admissible subset or witnessed output whose value may differ between states sharing O. It **can** improve world-sensitive decisions.
+3. **Computationally useful certificate / compiled insight:** a proposition that the receiver could in principle derive from shared data, but which arrives with a legitimate, cheaper-to-check proof or interpretable synopsis. It may improve **bounded work or deadline feasibility** without adding Shannon information.
+
+The theory of utility must accommodate all three; there is no single universal scalar of "semantic superiority" that subsumes them.
+
+## 2. From *Primalidad y Lógica* to a task-relative algebra of distinctions
+
+The historical [*Primalidad y Lógica*](https://docs.google.com/document/d/19oVzuvEbNBq0-Mj59_3QwIeuft-lkdfd8GEyewZgIHU/edit), in its §2 grammar, builds an atom-relative difference descriptor against every **nonempty syntactic bunch** of preceding atoms, with \(\oplus\) as a *bunch constructor*, not necessarily Boolean disjunction:
 
 \[
-m:W\longrightarrow M,
+\mathcal B_m=\{S\subseteq[m]:S\ne\varnothing\},
+\qquad |\mathcal B_m|=2^m-1 .
 \tag{2}
 \]
 
-where m may describe *qualified scope, provenance, validity, interpretability, an abstract relation, a certified constraint or a demonstrable limitation of the observation*. Its value must be **actually obtainable through a specified source and admissibility contract**; merely postulating an informative m would be a disguised oracle.
+The independently reviewed [R03 §4 / §14.1](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R03_PRIMALIDAD_Y_LOGICA_v0.1.md) establishes this **exact finite syntactic count**; it does **not** establish \(2^m-1\) independently existing world distinctions or a universally minimal number of transmitted bits. The mathematical importance is that an object-level label can lose differences that matter when the recipient is allowed to ask about **composites**; mere pairwise atom inequality is insufficient in some interpreted algebras.
 
-Other elements include an admissible action set \(\mathcal A\), loss \(\ell:\mathcal A\times R\to[0,\infty)\) (or a declared partial order of acceptable outcomes), time/resource budget \(\rho\), source rights/authority \(\alpha\), and a current question/context profile \(\kappa\).
+The operationally relevant later result is not to enumerate all \(2^m-1\) labels by default. For a given receiver target r, it is to determine **which differences r requires**.
 
-**The meta-information utility class \(\mathcal C_{\rm MU}\)** consists of all tuples
+**Theorem SA-U1 — task-relative sufficiency (known factorization criterion).** For deterministic observation \(o:W\to O\) and target \(r:W\to R\), an answer function h with \(r=h\circ o\) exists on the image of o **if and only if**
 
 \[
-\mathcal C_{\rm MU}=
-\{(W,o,r,\mathcal M,\alpha,\rho,\mathcal A,\ell):
-\text{a qualified metalevel question or source can be evaluated}\},
+\forall w,w'\in W:
+\quad o(w)=o(w')\Longrightarrow r(w)=r(w').
 \tag{3}
 \]
 
-with the following *research gates*: a meaningful task r exists independently of proposed signals; the admissibility/interpretation of every m is specified; a source-only baseline does not quietly receive the same m; and an independent referee can evaluate model truth on its finite tests. Merely satisfying (3) **does not guarantee positive gain**. Instead, theorems below characterize **positive subfamilies** of \(\mathcal C_{\rm MU}\).
+**Proof.** A factorization implies equal outputs have equal target answers. Conversely r-constancy on every nonempty observation fiber permits the well-defined assignment \(h(o(w))=r(w)\). \(\square\)
 
-A metalevel process can legitimately report "o cannot support r" **without learning the true r(w)**. This *certificate utility* is distinct from a *world-discriminating* m that helps determine the actual r. Keeping these two types separate is central.
+This criterion is standard mathematics, already used in the author's [*Given Universe*](https://drive.google.com/file/d/1ePHBGgco-qiQ4S0BmsCNTTFdd2C1JgCd/view), the R01 source-specific review and PR #60 F1. Its value in this investigation is **metasyntactic**: a source-qualified pair of models with equal o and different r certifies a *limitation of a representation* without the receiving process knowing which of the worlds is actual.
 
-## 2. The general mathematical frontier: task-relative sufficiency
-
-**Theorem MU-1 (fiber sufficiency and metacertifiable insufficiency).** A deterministic r-answer exists as a function \(h:O\to R\) of observation o alone **if and only if** every observation fiber is r-homogeneous:
+**Changed-operation corollary (PR #60 D1).** For a family of permitted transformations \(\Sigma\), an o-quotient remains valid under each f only when:
 
 \[
-\boxed{
-o(w)=o(w')
-\Longrightarrow r(w)=r(w').
-}
+o(w)=o(w')\Longrightarrow o(f(w))=o(f(w'))\quad(f\in\Sigma).
 \tag{4}
 \]
 
-If two admissible worlds w,w′ with equal o but different r can be exhibited and their r-values are independently justified **for the declared model**, a metaprocess can construct a finite **insufficiency certificate** carrying that pair. It need not identify the actual world.
+Expanding \(\Sigma\) can invalidate a formerly exact description **without making its prior object-level outputs false**. A metaprocess can establish the changed congruence obligation and, on a finite *qualified* model, produce a counterexample pair. This is a class of mathematical *requalification* problems, not a claim that the extra signal has magically become observable.
 
-**Proof.** If \(r=h\circ o\), equal o-values force equal r-values. Conversely, homogeneous fibers permit \(h(y)=r(w)\) for any representative w in the nonempty fiber \(o^{-1}(y)\); this is well-defined. For the negative case, a verified pair with equal o but different r immediately contradicts factorization, so a finite checker can validate a certificate on a **finite decidable test model**. This does not produce the actual hidden answer. \(\square\)
-
-**Historical provenance.** The factorization condition is ordinary mathematics, present in the author's *Given Universe* §4 and [00M v0.8 §4](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), and as F1 in [PR #60's mathematical core](https://github.com/dakleyer/structural-awareness-contributions/blob/research/mathematical-lineage-agentic-reduction-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/02_FORMAL_CORE_AND_PROOFS.md). The certificate *construction* is metalevel; its logical content is a standard consequence, not a newly discovered Gödel theorem.
-
-**A broad problem class already appears:** a representation sufficient for an old r can become insufficient for a **new question, allowed transition, receiving party or validity condition**. The old output need not have become false. Its qualification is now inadequate for the new use.
-
-## 3. The positive class: meta-evidence that separates the still-relevant ambiguity
-
-Suppose a qualified m is available and relevant to the same task. The enriched observation is \(y=(o,m)\). Define the **unresolved, task-conflicting observation pairs**
+For declared candidate supplementary questions \(Q_j\), the [R03 §14.2 mathematical development](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R03_PRIMALIDAD_Y_LOGICA_v0.1.md) and PR #60 D3 give a finite pair-cover construction. To seek **additional** evidence, however, the correct obligation is only the set of pairs which *remain indistinguishable given existing o*:
 
 \[
-U_{r\mid o}
-=
-\bigl\{\{w,w'\}:
-o(w)=o(w'),\
-r(w)\ne r(w')
-\bigr\}.
+\mathcal U_{r\mid o}=
+\bigl\{\{w,w'\}:o(w)=o(w'),\
+r(w)\ne r(w')\bigr\}.
 \tag{5}
 \]
 
-This definition has meaning whether W is finite or infinite; a **finite test** uses a declared \(\widehat W\subseteq W\) without pretending to enumerate the whole open universe.
+A qualified query family H is sufficient on the declared finite model iff each pair in (5) is separated by at least one legitimate \(Q_j\), \(j\in H\). With additive costs the least-cost selection is weighted set cover; with dependent qualifications the cost is **not necessarily additive**.
 
-**Theorem MU-2 (necessary and sufficient meta-refinement).** The enriched observation \(y=(o,m)\) is sufficient to compute r on the declared model **if and only if**
+**Important documentary correction:** [PR #59](https://github.com/dakleyer/structural-awareness-contributions/pull/59) identified that PR #60's valid Q-alone formulation was overextended into an incremental A-plus-Q problem without retaining o. Equation (5) explicitly corrects that **later interpretation**. It does not retroactively rewrite the source's original R03 syntax.
+
+### 2.1. Relative relations without individuated members
+
+R03 §14.4 additionally establishes an instructive **quotient without a named class**. In the cyclic structure \((\mathbb Z_6,\sigma)\), with \(\sigma(i)=i+1\bmod6\), the binary statement that two points are in the same \(\sigma^2\)-orbit is definable in the constant-free language containing equality and \(\sigma\); no nontrivial individual orbit is parameter-free definable as a unary set because rotations act transitively.
+
+**Result:** a representation can identify a **relation** without determining a distinguished **individual representative**. For any group G acting on W, a target r factors through orbit classes iff
 
 \[
-\forall\{w,w'\}\in U_{r\mid o}:
-\quad m(w)\ne m(w').
+r(gw)=r(w)\quad(\forall g\in G,w\in W).
 \tag{6}
 \]
 
-**Proof.** If one conflicting o-pair remains equal under m, both observations y are equal but r differs, so factorization fails. If every conflicting o-pair is separated, then equality of y implies equality of r, so the fiber theorem MU-1 yields an exact decoder. \(\square\)
+This is established orbit-invariance mathematics; it expresses a broad class of useful **anonymous or relational tasks** that do not require total member identification. The source's primality/cyclicity extrapolations to universal logical incompleteness are a separate, still unproved historical ambition.
 
-**This is not a universal acquisition algorithm.** MU-2 identifies what a *known qualified signal* would need to distinguish. A source may have no rights, no instrumentation, no adequate proof, or no feasible cost to supply that signal. Theorem MU-2 makes no assertion of availability or truth from mere syntax.
+## 3. *Primitiva Entrópica*: the value of a qualified witness without a total decision procedure
 
-**Corollary MU-2a (source-qualified minimum additional distinctions).** On a finite declared model \(\widehat W\), given separately qualified supplementary candidates \(Q_j\) and additive costs \(c_j\), a set \(H\) suffices for target r in combination with **already available o** if and only if each pair in \(U_{r\mid o}\) is separated by some \(Q_j\) with \(j\in H\). The min-cost feasible H is exactly a weighted **set-cover** instance on the conflicting pairs, when the stated additive/independence and eligibility hypotheses hold:
+The author's original [R11 *Primitiva Entrópica*, August 2025](https://drive.google.com/file/d/1Lh0WLVLloAy3wKGmP59xRlW4_HqzZnCF/view) studies the frontier between constructed and not-yet-constructed objects, inverse search and existential witnesses. The [R11 source-specific mathematical review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R11_PRIMITIVA_ENTROPICA_v0.1.md) establishes an important qualification.
+
+For any computably enumerable language \(L\), there exists a **total decidable bounded-time witness relation** \(T_L(x,t)\) such that
 
 \[
-\min_{H\subseteq J_{\rm eligible}}\sum_{j\in H}c_j
-\quad\text{subject to}\quad
-U_{r\mid o}=
-\bigcup_{j\in H}\{\{w,w'\}\in U_{r\mid o}:Q_j(w)\ne Q_j(w')\}.
+\boxed{x\in L\iff\exists t\in\mathbb N:T_L(x,t)=1.}
 \tag{7}
 \]
 
-**Proof.** Directly apply (6) to the vector \(m_H=(Q_j)_{j\in H}\). \(\square\)
+This is **Kleene/Post classical computability**, not a new theorem belonging to the historical paper. A concrete finite t establishing \(T_L(x,t)=1\) supports a **correct positive witness**; failing to find one before a deadline does **not** certify \(\neg(x\in L)\). An effective universal bound B(x) adequate for every true case would make the membership task decidable, and generally does not exist for a halting-complete c.e. language.
 
-This draws on the [R03 review §14.2](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R03_PRIMALIDAD_Y_LOGICA_v0.1.md), which proves the bounded pair-separation version **as a reviewer development**, not a theorem of the original historical bunch operator. The [PR #59 re-audit](https://github.com/dakleyer/structural-awareness-contributions/pull/59) correctly warns that the **PR #60 D3 Q-alone problem** cannot be used as an *incremental* selection algorithm without first subtracting what **o already distinguishes**. Equation (7) incorporates that correction explicitly.
+**Metasyntactic utility:** the meta-object is the **typed proposition and qualified bounded proof witness**, not the complete extensional complement of L. The programme can return an established existence/acceptance fact when it possesses a valid witness while honestly withholding a universal negative when no witness has been found. Different recipient questions may reuse the same proof if the logical implication and source qualification remain valid.
 
-## 4. Strict utility for an entire class, not one preferred product
+R11 also shows why **"more unknown preimages" does not necessarily mean a harder inverse**. The function \(f(n)=n\bmod3\) has infinite preimages yet an immediate selector \(s(y)=y\). Inverse-search difficulty depends on the precise target, range promise, allowed computation and evidence, not merely on a fiber count. This negative result is structurally important for the remaining utility theory.
 
-**Theorem MU-3 (two-world strict gain for a discriminating qualified signal).** Suppose two admissible worlds \(w_0,w_1\) have the same o, different binary r, and a qualified obtainable m distinguishes them. Give those two worlds probability \(1/2\) each, and choose a binary receiving decision with 0–1 misclassification loss. Then
+## 4. Information is not preimage count: the Shannon bridge in R11
+
+Let \(X\) be a finite-valued source-state random variable with an **explicit probability law** and let \(O=f(X)\) be its deterministic observation. For each positive-probability o, let
+
+\[
+F_o=f^{-1}(\{o\}),\qquad N(o)=|F_o|.
+\]
+
+Then Shannon's maximum entropy inequality gives
 
 \[
 \boxed{
-R^*_o=\frac12,\qquad
-R^*_{(o,m)}=0.
+H(X\mid O)
+\le \mathbb E[\log_2 N(O)].
 }
 \tag{8}
 \]
 
-**Proof.** An o-only decision must produce the same label in both worlds and errs on one equiprobable world. Using m, the two worlds are distinguished and their known independently defined correct r-labels can be assigned, giving zero errors. \(\square\)
+**Proof.** On each nonempty fiber, the entropy of a distribution supported by at most N(o) atoms is at most \(\log_2 N(o)\); average over O. Equality holds **exactly when the conditional distribution on every positive-probability fiber is uniform**. \(\square\)
 
-**Scope of the class-level statement:** it holds for **every** admitted pair of worlds with these three properties, rather than merely for a robot or for A/B/C/D. A large/open real ecosystem can contain many such pairs without the agent exhaustively locating them. It is a mathematical **existence of a utility-positive class**, not a prevalence, population-frequency or net-profit theorem for all real systems.
+R11's original §15 proposed a stronger unconditional equality between preimage-size logarithm and conditional Shannon entropy; its review identifies the missing **conditional equiprobability hypothesis**. We preserve both the *historical aspiration* and the *valid restricted theorem*, without silently making the source claim more general than it is.
 
-The extra m must be **source-qualified and feasible**; setting \(m=r\) by fiat without an independent measurement/inference basis would hide an oracle inside the assumptions. Natural sources include a verified current version, a signed change of scope, an authenticated proof-status/countermodel, a source-owner release bit, or an interpretable relation already known by a qualified source but lost in the baseline's message.
+This has a direct metasyntactic implication: an agent may represent the fact that its current output corresponds to multiple compatible source states without knowing which is actual. But it must not call the **count** of those states the number of missing Shannon bits unless the distribution is qualified. Nor does either number quantify actual lookup time, coding cost, energy or physical erasure.
 
-**Negative control MU-N1.** If \(m=g\circ o\) on W—or it is just a **constant OPEN** flag already entailed by common model assumptions—then the enriched signal has the **same fibers** as o. It cannot yield the strict improvement (8) for an otherwise fixed task with the same prior, actions and costs.
+The next section gives the precise condition under which additional **qualified metainformation** really reduces information-theoretic uncertainty about the receiving task.
 
-**Negative control MU-N2.** If an existing conventional controller already has a recoverable copy of m and the same task/action/evidence contract, it can tie. The theorem establishes an **information requirement**, not a brand monopoly or intrinsically superior processor.
+## 5. Theorem SA-U2 — strong decision-relevant information gain in the Shannon sense
 
-## 5. Utility without identifying the actual state: robust qualified constraints
-
-A more general and operationally important phenomenon is that *m need not identify a world or a hidden individual*. It may **rule out some states** in the current receiver decision without making the remaining alternatives distinguishable.
-
-Let
+Let \(R\) be a finite-valued receiving question, \(O\) its available observation and \(M\) a **source-qualified, legitimately obtainable** metasyntactic variable, all under one explicitly declared joint probability law. Choose **logarithmic prediction loss**, measured in bits:
 
 \[
-C_o=\{w\in W:o(w)=o\},\qquad
-C_{o,m}=\{w\in W:o(w)=o,\ m(w)=m\}\subseteq C_o.
-\tag{9}
+\ell(q,r)=-\log_2 q(r)
 \]
 
-For a common action set \(\mathcal A\) and loss \(\ell(a,w)\), define the *worst-case attainable loss*
+for a probabilistic prediction q on R. Define the optimal expected log loss given an information variable Z by \(\mathcal L_{\log}^*(Z)\).
 
-\[
-V(C)=\inf_{a\in\mathcal A}\sup_{w\in C}\ell(a,w).
-\tag{10}
-\]
-
-**Theorem MU-4 (qualified partial information weakly improves robust attainable loss).** For any nonempty \(C_{o,m}\subseteq C_o\),
-
-\[
-\boxed{V(C_{o,m})\le V(C_o).}
-\tag{11}
-\]
-
-**Proof.** For each action a, a supremum of loss over the smaller set cannot exceed the supremum over the larger. Taking the infimum over the *same admissible actions* preserves the inequality. \(\square\)
-
-This theorem is a **logical decision-information statement**, not an algorithm for discovering the actual w, not a claim that an arbitrary false certificate may safely restrict \(C_o\), and not a theorem that an implementation automatically minimizes V. **Qualified source evidence** must justify the exclusion of every removed possibility under the declared model.
-
-**Strict witness that does not identify the hidden state.** Let \(W=\{w_0,w_1,w_2\}\), with the same object observation o in all three. Let actions be EXECUTE and HOLD; losses are
-
-| State | EXECUTE loss | HOLD loss |
-| --- | ---: | ---: |
-| \(w_0\) | 0 | 2 |
-| \(w_1\) | 0 | 2 |
-| \(w_2\) | 10 | 2 |
-
-Without additional evidence, \(C_o=W\), hence \(V(C_o)=2\) (HOLD beats the worst-case EXECUTE loss 10). A correctly verified **anonymous exclusion certificate** may rule out \(w_2\), leaving \(C_{o,m}=\{w_0,w_1\}\). Then \(V(C_{o,m})=0\), because EXECUTE is safe for *both* remaining states. Thus
-
-\[
-\boxed{V(C_o)-V(C_{o,m})=2>0}
-\tag{12}
-\]
-
-although the receiving process **still cannot identify whether the actual state is \(w_0\) or \(w_1\)**.
-
-This is a general proof pattern: **a source-qualified, task-relevant partial constraint can change an optimal action even when full identification remains impossible**. It is applicable to any domain satisfying the risk/action/certificate premises. A false or expired certificate can reverse the conclusion; this must be checked separately.
-
-**Novelty boundary:** (11) is a standard monotonicity property of minimax decision making. The research contribution sought here is the **qualified meta-to-receiver architecture** that carries the constraint, its scope and its limits, not a new theorem of minimax theory.
-
-## 6. A general class of changing semantic windows
-
-A receiving task may use a past observation only while its **interpretation and source evidence remain valid for the target context**. In a changing system, the distinction is not merely a fixed number of seconds.
-
-Let \(c=(\text{task},\text{scope},\text{version},\text{authority},t)\) be a declared receiving context. Let \(o_c\) be the currently received raw observation and \(v_c\) an **independently verifiable source qualification**, e.g. a version-bound validity certificate. A semantic window is a subset of contexts
-
-\[
-\mathcal W(e,r)=
-\{c:\text{source evidence e legitimately supports target r in c}\}.
-\tag{13}
-\]
-
-The window is **defined relative to evidence e, question r and contextual validity**; it is not an assumption of time-invariant semantic equivalence. The historical [Semantic Window and Good Enough Early Warning](../ecosystem-awareness/baseline/ARTICLE_03_SEMANTIC_WINDOW_AND_GOOD_ENOUGH_EARLY_WARNING.md) and [Regime Awareness programme](../regime-awareness/PROGRAMME_CONTEXT.md) develop **independent, more application-oriented semantic-window and early-warning research hypotheses**. They are antecedents to this mathematical question, not proven by (13).
-
-**Theorem MU-5 (context-dependent sufficiency).** Suppose two contexts \(c_0,c_1\) yield the same raw observation o but different legitimate receiver outputs \(r(c_0)\ne r(c_1)\) due to scope, source version, interpretation or authority changes. Then **no raw-o-only decoder** is sufficient across both contexts (MU-1). If a legitimate meta qualification \(v\) distinguishes them, \(r\) may become a function of \((o,v)\); if it does, the paired representation is sufficient **for that declared context class**.
-
-**Proof.** The first part is MU-1's equal-observation/different-target counterexample. The positive part is MU-2's fiber condition applied to v; it is conditional because some changes require additional measurements beyond a context label. \(\square\)
-
-**Negative controls.** If r is invariant across the changed version/scope, no new useful distinction follows. A stale validity flag from an unauthenticated replica does not qualify as v. A version-bound receipt does not itself grant a source-owner permission. An implementation may already monitor these conditions with conventional timestamp/version/policy constructs and tie the metasyntactic alternative.
-
-This mathematical family is broad: any producer/receiver context shift, policy version change, task operation expansion, semantic drift or time-of-check/time-of-use mismatch can instantiate its hypotheses **when** the change is material to an independently stated decision.
-
-## 7. General anonymous relationships: useful structure without names
-
-R03's independently developed [§14.4 quotient-without-a-named-class example](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R03_PRIMALIDAD_Y_LOGICA_v0.1.md) gives a useful abstraction principle. One can represent a relationship/equivalence class without selecting a privileged individual representative or naming every member.
-
-Let a group \(G\) act on a state space W with quotient \(\pi:W\to W/G\). For a target r:
-
-**Theorem MU-6 (anonymous relational sufficiency).** There exists \(\bar r\) such that \(r=\bar r\circ\pi\) **if and only if** \(r(gw)=r(w)\) for every \(g\in G,w\in W\).
-
-**Proof.** Factorization implies the function is constant on orbits. Conversely, G-invariance makes the map \(\bar r([w])=r(w)\) well-defined. \(\square\)
-
-**Interpretation.** A process can make a **quotient-invariant** decision from relational structure **without naming an individual in an otherwise symmetric class**, when the relation itself is source-qualified and the receiving target is invariant. It does **not** follow that every anonymous relational description is sufficient, that a non-invariant task has an answer, or that the observer may identify a representative without an additional marker.
-
-The [R04 §14.3–14.5 perspective review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R04_ALGEBRA_POSICIONAMIENTOS_v0.1.md) proves the same orbit-invariance criterion and a **typed partial transfer** relation with an independent authorization/domain condition. These results support a **class of anonymous, relational and source-sensitive receiving questions**, not the ontological claim that a particular unobserved agent exists.
-
-## 8. Resource price, copying and design selection
-
-A receiver supplied with additional m can always ignore it **in the mathematical free-information model**. But acquiring, verifying, computing, transmitting and selecting the appropriate supplementary evidence has cost.
-
-Let \(R_o^*\) and \(R_{o,m}^*\) be the optimal task-specific expected losses, or use V for the robust analogue. In common declared units, define
+**Theorem SA-U2 (exact conditional-information advantage).**
 
 \[
 \boxed{
-\Delta_{\rm net}
+\mathcal L_{\log}^*(O)
+-\mathcal L_{\log}^*(O,M)
 =
-R_o^*-R_{o,m}^*
--
-C_{\rm acquire}
--
-C_{\rm verify}
--
-C_{\rm transmit}
--
-C_{\rm compute}
--
-C_{\rm design}.
+H(R\mid O)-H(R\mid O,M)
+=
+I(R;M\mid O)\ge0 .
 }
+\tag{9}
+\]
+
+The advantage is **strict if and only if** \(I(R;M\mid O)>0\), equivalently if R and M are not conditionally independent given O on a set of positive probability.
+
+**Proof.** The optimal predictor for each information realization is the true conditional distribution of R; its expected logarithmic loss is the corresponding conditional entropy (a standard strict-proper-scoring/log-loss result). Apply the definition of conditional mutual information and the nonnegativity of conditional KL divergence. \(\square\)
+
+This is the **sharp mathematical strong-information test** for a large, properly modelled task class. It is not merely the existence of different label types. It says *when* the additional content matters to the independently defined question, and by **exactly how much in expected log-loss bits**.
+
+**Crucial negative cases:**
+
+- If M is merely the constant, previously known declaration *the open model has an exterior*, then \(I(R;M\mid O)=0\): no strict world-discrimination follows.
+- If \(M=g(O)\) is wholly reconstructible from the already received O under the common information model, \(I(R;M\mid O)=0\). The report can still be **computationally cheaper to verify than reconstruct**, a different utility treated in §8.
+- If a qualified M is statistically related to hidden X but not to the **receiving question R given O**, then it may add Shannon information about X but **none** about R.
+- The theorem does not authorize arbitrary probability assignments to physically unseen open-domain entities. A probability law is an **additional model input**, not produced by the syntax of A′.
+
+The theorem builds on **standard Shannon information and Blackwell information-refinement theory**, not an original claim that all undecidable or unobserved phenomena have measurable entropy. The integrative scientific question is what metaprocess supplies M, with which proof of applicability and for which receiver's R.
+
+### 5.1. Task-sufficient compression rather than exhaustive contextual accumulation
+
+The [Information Bottleneck](https://arxiv.org/abs/physics/0004057) and rate–distortion traditions, which the R03/R14 reviews explicitly identify as prior art, motivate studying an **efficient, task-relative meta-description**, not all possible labels.
+
+Given a legitimate source description S and additional metadata M constructed from it, an information-theoretic design *problem* is, for instance,
+
+\[
+\min_M I(S;M\mid O)
+\quad\text{subject to}\quad
+H(R\mid O,M)\le\varepsilon ,
+\tag{10}
+\]
+
+with M restricted to **source-valid** channels, interpretations and admissible evidence. The optimization is a mathematical family; it does **not** imply the optimum can always be effectively computed over an unbounded open world, or that semantic validity/authority can be purchased by assigning a probability.
+
+**Consequence:** a short, correctly qualified metatheorem, partial relation or proof certificate can be more decision-informative than a large source log **for a particular question**, although neither message universally dominates the other in raw information or byte count. That is the more precise content behind "more data, little usable information."
+
+## 6. *Distorsión Entrópica*: coverage, KL direction and decision relevance
+
+The historical [*Distorsión Entrópica*](https://docs.google.com/document/d/19VwS524d9Kx3RVXbZjSdUn5yi9gRYAF-H66Mut540EU/edit) asks about the difference between a theoretical preimage F and a smaller constructible/observed class C. The source-proposed finite count statistic is
+
+\[
+D_{\rm cov}=\log_2\frac{N}{n},
+\qquad N=|F|,\quad n=|C|,\quad 1\le n\le N<\infty.
+\tag{11}
+\]
+
+The source's wording/equation and forward-KL direction are not mutually consistent as printed; [R14's reviewed repair](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R14_DISTORSION_ENTROPICA_v0.1.md) distinguishes the valid count from unsupported entropy and physics claims.
+
+**Theorem SA-U3 — exact conditioning divergence.** Let P be a distribution with \(P(C)>0\) and define the conditioned distribution \(Q=P(\cdot\mid C)\). Then
+
+\[
+\boxed{
+D_{\rm KL}(Q\parallel P)=-\log_2P(C).
+}
+\tag{12}
+\]
+
+**Proof.** For x in C with positive mass, \(Q(x)=P(x)/P(C)\); the log density ratio \(Q(x)/P(x)=1/P(C)\) is constant on Q's support, so its Q-expectation is \(-\log_2P(C)\). \(\square\)
+
+Under **uniform P on certified finite F**, \(P(C)=n/N\), so (12) equals (11). But for a proper C with P-positive complement, the **reverse direction** \(D_{\rm KL}(P\parallel Q)=+\infty\), since Q assigns zero mass where P does not. This is precisely the mathematical boundary R14 establishes, not an optional notational preference.
+
+**No global residual counting.** If N is uncertified or infinite, (11) need not be a valid finite number at all; n=0 makes the ratio undefined. This statistic therefore cannot be sold as "the number of bits of A′" or "the information outside U".
+
+**Decision-relevance separation.** Two certified C classes of equal cardinality can have the same \(D_{\rm cov}\) but different conditional uncertainty about an independently fixed R. R14 constructs exactly such equal-coverage classes. In other words:
+
+\[
+D_{\rm cov}(C_1)=D_{\rm cov}(C_2)
+\quad\centernot\Longrightarrow\quad
+H(R\mid X\in C_1)=H(R\mid X\in C_2).
+\tag{13}
+\]
+
+This is why **our core notion of useful additional information must be task-relative**: a coverage measure can locate a representation's limitation without telling us how much it affects a decision. It is not valid to infer decision improvement solely from more apparent entropy, a larger coverage gap or a stronger-sounding label.
+
+## 7. *Computational Exergy*: coding potential and semantic value are different quantities
+
+The original [*Computational Exergy: A Unified Framework of Kolmogorov Complexity and Shannon Entropy*](https://drive.google.com/file/d/1T9jRQ0Krd1UMuNVXUI4fn5qfTVU0sq2h/view) (20 July 2025, six-page source; the ResearchGate metadata are not identical to the PDF cover) proposes
+
+\[
+E_K(x)=C-K_{\mathcal U}(x),
+\qquad E_H=C-H(P),
 \tag{14}
 \]
 
-**Theorem MU-7 (strict net value under an explicit resource envelope).** A metasyntactic route has strict **positive net task value** relative to the declared baseline **if and only if** its gross task improvement exceeds the **additional** qualified costs of that route under the agreed accounting convention. If the sum is zero it ties; if it is negative, the extra processing is not justified on that metric.
+with C a declared total representational capacity, K the Kolmogorov description complexity of the individual x, and H an ensemble-level entropy. The [R16 mathematical review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R16_COMPUTATIONAL_EXERGY_v0.1.md) identifies legitimate restricted coding interpretations and a source-internal **reversal of \(\lambda\) weights** between the abstract and §3. Neither this article nor the original has thereby proved a physical heat/work law.
 
-**Proof.** Rearrangement of (14) by the specified definition of net loss; no empirical cost magnitude is implied. \(\square\)
+The important positive mathematical reading is an **operational difference in descriptive/coding cost**, conditional on an actual encoder, decoder, reference machine and resource bounds. In general \(K_{\mathcal U}(x)\) is not computable. For a fixed legitimate lossless encoder z, finite code length \(\ell_z(x)\) provides a concrete upper bound
 
-This is an **accounting criterion**, not a general algorithmic or economic theorem. R12's [proof-sharing cost review, as mapped in PR #60](https://github.com/dakleyer/structural-awareness-contributions/blob/research/mathematical-lineage-agentic-reduction-20261026/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/01_ORIGINAL_SOURCE_LINEAGE.md) offers a related *conditional arithmetic* for reusable verification. It is not a demonstrated physical energy saving or proof of universal communication compression.
+\[
+K_{\mathcal U}(x)\le \ell_z(x)+c_{\mathcal U,z},
+\tag{15}
+\]
 
-**Selection/designer versus copied execution.** A conventional universal programme can compile a successful metasyntactic controller and reproduce **the same eventual execution**. That does not answer how its particular design was selected, sourced, verified or adapted after the receiving question changed. Any differential comparison must either provide the **same completed design to both parties** (then a tie may be inevitable) or include **legitimate design discovery and adaptation cost on both sides**. A conventional system that successfully performs the same meta-selection is **functionally a metasyntactic solver for this task**, regardless of coding notation.
+so \(C-\ell_z(x)-c_{\mathcal U,z}\) is a **one-sided lower bound** on the formal gap \(C-K_{\mathcal U}(x)\), where C is independently meaningful and units are matched.
 
-**Strong incumbent comparison.** Do not compare with an incompetent controller that throws away already available o, omits source validity, or lacks safe abstention. The correct competitor may use modern abstract interpretation, symbolic model checking, policy engines, proof certificates, versioning or active information acquisition. If it represents equivalent m under the same rights and budget, it may equal or beat the present implementation. **The mathematical utility class does not belong exclusively to one software brand or architecture diagram.**
+But **a short description is not necessarily an adequate semantic description for R**. Different source states can have the same compressed length/exergy statistic while requiring different answers. R16 provides a finite countermodel with equally compressible all-zero and all-one strings yet opposite receiver-required final-bit answers.
 
-## 9. A unified problem-family theorem, and its limits
+**Theorem SA-U4 — coding reserve does not imply task sufficiency.** If there exist \(w,w'\) with equal communicated coding statistic z but \(r(w)\ne r(w')\), then r cannot factor through z.
 
-Define a **positive metasyntactic-utility problem** to be any tuple from (3) satisfying at least one of the following independently checkable routes:
+**Proof.** This is SA-U1 applied to the scalar coding statistic z. \(\square\)
 
-- **Route A — certification of inadequacy:** a finite proof/model witness exhibits an o-fiber in which r varies, giving an accurate **meta-certificate of insufficiency**; the downstream use of that certificate must be judged separately.
-- **Route B — qualified discrimination:** a legitimately available m distinguishes r-conflicting o-fiber states so that the receiver can perform an otherwise unavailable correct task-specific decision (MU-2/MU-3).
-- **Route C — anonymous constraint refinement:** a valid source constraint shrinks the receiving compatible-world set in a decision-relevant way, possibly improving robust action **without identifying the true state** (MU-4).
-- **Route D — changing context:** a task, operation, version, meaning or source permission changes such that old o no longer suffices, but qualified context/evidence can restore a needed distinction (MU-5).
-- **Route E — relational invariant:** the target depends only on a qualified invariant/quotient, not on individual named members (MU-6).
+Thus the useful research combination is **task-sufficient compact representation**, not merely minimal description length, maximum compression, a high \(C-K\) or a physical-energy analogy.
 
-These are **structural conditions on classes of problems**, not a list of product use cases or A/B/C/D statuses. They can overlap, but each requires its own explicit observation, target and qualification proof.
+The related historical *Structural Conservation* extension proposes \(E_{\rm total}=C-K_s-K_b\), naming **boundary maintenance complexity** \(K_b\). The [Structural Awareness Map–Flow bridge](./MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md#11-structural-conservation-the-cost-of-maintaining-a-boundary) correctly treats "the boundary itself has a cost" as a research direction, not as an established universal conservation law. The present mathematical paper therefore keeps **description length, decision uncertainty, proof work, processing time and physical energy** as different typed quantities.
 
-**Theorem MU-8 (nonempty broad positive class).** Routes B and C each contain a nonempty family of problems with **strict gross decision improvement** for some declared task, prior or robust loss, **without requiring global identification** of the open ecosystem.
+## 8. *Primitiva Entrópica* R12: metasyntactic utility without new Shannon information
 
-**Proof.** MU-3 supplies, for *any qualified separating two-world instance*, a strict \(1/2\to0\) expected-loss improvement. MU-4's three-world example supplies a strict \(2\to0\) minimax improvement while \(w_0,w_1\) remain indistinguishable under the meta-certificate. Adding arbitrary irrelevant states/objects outside the receiving decision's qualified domain, without altering the established task and source-validity premises, embeds these examples into arbitrarily large model ecosystems. Therefore the class is not defined by a particular finite toy system or by a specific label vocabulary. \(\square\)
+This is the second independent source-derived advantage, and a necessary correction to an overly Shannon-centric reading.
 
-**Important size qualification:** embedding a finite witness in a large domain does **not** show that the witnessing decision remains correct after **new relevant admissible states** are introduced. If new states change the task or invalidate source premises, the old decision must be requalified. The claim is structural nonemptiness for arbitrarily large **appropriately scoped** models, not universal benefit in every open world.
+The original *Primitiva Entrópica* [compiled TeX source](https://drive.google.com/file/d/1pAylPfeN4KkZiOzp-7UYX8peNvnlFtV2/view) is **not the same document as the author's R11 original**. Its [single authoritative R12 review](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R12_PRIMITIVA_ENTROPICA_COMPILED_TEX_v0.1.md) reconstructs the source's composition/reuse idea:
 
-**Theorem MU-9 (no-free-information converse).** If every eligible metasyntactic message is already recoverable from the source o together with the same public task/model knowledge, and the receiver's permitted actions and inference capabilities are identical, no strict extra Bayes/minimax decision power is obtained **solely by re-encoding that information**. If re-encoding costs extra, its net benefit on the frozen task can be negative.
+\[
+\Omega_{\rm total}
+=\Omega(A)+\Omega(B)(1-p),
+\tag{16}
+\]
 
-**Proof.** The enriched and original signals induce identical information fibers/compatible state sets. Both decision spaces can simulate each other's policies, giving identical optimum task loss with no extra cost. Add positive overhead and net loss increases. \(\square\)
+where p is the **fraction of B's external checks already completed in A**, under the source's equal-unit and reusability conventions. The original worked example gives \(7+5(1-0.4)=10\) units. Here \(\Omega\) is a **declared work/accounting unit**, not the actual open semantic universe of Part I and not automatically Shannon entropy or thermodynamic work.
 
-This is why **Part I's structural/open-boundary claim** must be distinguished from **Part II's demonstrated class of decision-positive qualified meta-information**. The mere correctness of an OPEN message does not make every meta-operation worth executing.
+The repaired **heterogeneous and qualified** version is more general. Let I be the independent verification obligations for the recipient; \(c_i\ge0\) their *fresh* costs, \(S\subseteq I\) the legitimately reusable proofs, \(v_i\ge0\) their revalidation cost and \(h\ge0\) shared integration overhead. All quantities are in **one commensurable cost unit**. Then
 
-## 10. Experimental and independent-review programme
+\[
+C_{\rm fresh}=C_0+\sum_{i\in I}c_i,
+\qquad
+C_{\rm reuse}=C_0+
+\sum_{i\in I\setminus S}c_i+
+\sum_{i\in S}v_i+h
+\tag{17}
+\]
 
-A valid research campaign must be independently specified **before** testing a candidate meta-programme. It should be capable of both confirming and falsifying the proposed differential.
+and hence
 
-| Family | Frozen problem and proof target | Critical negative control |
+\[
+\boxed{
+C_{\rm fresh}-C_{\rm reuse}
+=
+\sum_{i\in S}(c_i-v_i)-h.
+}
+\tag{18}
+\]
+
+**Theorem SA-U5 — qualified proof-reuse advantage.** Reuse requires strictly less total work **if and only if** the right side of (18) is positive. If the work units are time costs under a serial, matched machine model and a resource budget B satisfies
+
+\[
+C_{\rm reuse}\le B<C_{\rm fresh},
+\tag{19}
+\]
+
+then the legitimate reused-proof route **is feasible within B**, while the specified full fresh-check route is not.
+
+**Proof.** Equation (18) is arithmetic subtraction of (17). Under the stated **same unit and execution model**, (19) is the direct feasibility condition. \(\square\)
+
+This is a whole **class of mathematical verification/coordination problems** with possible strong feasibility value, **even if the proposition was already logically entailed by publicly accessible raw descriptions** and \(I(R;M\mid O)=0\) when computational budgets are ignored.
+
+**Proof admissibility matters.** The original source proof and receiver target must match, or have a separately verified implication. Origin/source versions, proof signatures, dependency roots, expiry, scope and owner permissions must be rechecked. A shared name or verbatim text is not a reusable certified fact; neither does reuse automatically confer authority to act. These checks can defeat the hoped-for saving. An ordinary competent memoizing verifier that does the same qualified reuse **ties on this mechanism**; the distinction is not proprietary.
+
+**Mathematical consequence:** metasyntactic information can be useful in **at least two nonidentical senses**:
+
+\[
+\boxed{
+\text{new source distinctions improve an optimal answer}
+\quad\text{or}\quad
+\text{certified prior work makes a required derivation cheaper}.
+}
+\tag{20}
+\]
+
+The second is not captured by counting newly transmitted Shannon bits.
+
+## 9. *About Cats, Boxes...*: a missing datum and a missing fact are different types
+
+The original public essay [*About Cats, Boxes and Enterprise Management Decisions — Three Ways a Fact Can Go Missing*](https://tegrity.ai/about-cats-boxes-and-enterprise-management-decisions/) (The Cost of Clarity) distinguishes:
+
+- **Retrievable factual information:** a true, already constituted fact can in principle be recovered through search of available records.
+- **Tacit-but-existing knowledge:** a determinate relevant fact/practice exists but is not directly materialized in the present records; elicitation may be required.
+- **Institutionally undeclared fact:** the target statement has **not yet been constituted** by an authorized declaration. Retrieval cannot produce an authoritative fact that does not yet exist as such.
+
+These are **different types of missingness**, not three proven exhaustive physical classes of every unknown. The article's suggestion that independent witnesses' convergence/divergence diagnoses the last type is a proposed heuristic, **not a sound universal classifier**: witnesses can agree on falsehoods or disagree about a determinate fact. The source's D29 review preserves that evidential limitation.
+
+**Theorem SA-U6 — retrieval is not constitution (typed transition lemma).** Let S be institutional states, and p a typed institutional fact whose status is NOT_CONSTITUTED in state s. Suppose every permitted read-only retrieval operator preserves the institutional state, while a particular authorized \(\delta\) may *change* that state to one where p is constituted. Then no finite composition of read-only retrieval operators can turn NOT_CONSTITUTED into CONSTITUTED.
+
+**Proof.** Each retrieval operator is state-preserving by hypothesis; by induction their composition preserves s and hence p's non-constituted status. \(\square\)
+
+This is **ordinary state-transition reasoning formalizing the source's core distinction**, not a theorem that a machine can always recognize whether a case is tacit or declarative. A qualified *metatype* of the missing question may be valuable because it prevents an ill-typed search request and distinguishes a required authorized state change from evidence acquisition. Without a legitimate determination of that metatype, the system retains the type as UNKNOWN.
+
+This is a very broad **question-constitution class** extending beyond retrieval databases into any formal task where the sought answer depends on a prior permissible act of definition, ownership or rule adoption. This statement describes a mathematical type of problem, **not an empirical assertion about organizations or humans**.
+
+## 10. Semantic Windows: a context is part of the meaning, not just a fixed amount of history
+
+The *Semantic Window* lineage predates the present Part II. Relevant originals include [*The Semantic Window: A Minimal Proof of Existence and Construction*](https://drive.google.com/file/d/1PpwYraPHiFoOaat_ZeP2Pw5dk-d5y1Fg/view), [*The Semantic Window: Contextual Boundary Resolution through Ordered Multiscale Decoupling*](https://drive.google.com/file/d/1wev5ifF7qTS8OJfna47igLwXYE0oSNfT/view), and the related [Structural Awareness programme bridge](./MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md#8-semantic-window-as-a-variable-cut-through-epistemic-distance).
+
+The first original formulates **A1 nested regimes**, **A2 separation/sufficiency of correctly labelled regime histories** and **A3 qualified identifiability above a finite information threshold**. Its claims of a privileged regime-pure window and constructible candidate require these assumptions. The original explicitly distinguishes existence/characterization from the **empirical hinge of discovering the true regime origin**. Its "every estimator weakly improves" sentence is valid as a statement about **the best policy attainable with richer labelled evidence, when the old data remain reproducible**; it is **not** a theorem that an arbitrarily poorly chosen fixed estimator automatically improves merely because labels are supplied.
+
+**SA-U7 — more informative labelled history (Blackwell refinement).** Suppose the new representation is \((H,G)\), where H contains all raw history previously available and G is a qualified, relevant regime/context label. Any receiver policy using H can be reproduced from \((H,G)\) by forgetting G. Therefore the **optimal** attainable task loss with \((H,G)\) is weakly no greater under matched admissible actions and cost-free optional use.
+
+This is standard information-refinement mathematics. If G is a deterministic function of the already shared complete H, it may provide computational simplification, but adds **zero conditional Shannon information** \(I(R;G\mid H)\). If an independent qualified source supplies previously unavailable G which is relevant to R, §5 may instead provide strict Shannon gain.
+
+**SA-U8 — regime-mixing bias and a strict-value condition.** For a current regime mean \(\mu_c\) and a preceding regime mean \(\mu_p\), use \(n_c\) current observations and \(n_p\) prior observations, with \(n=n_c+n_p\). Then the unlabelled pooled mean has bias
+
+\[
+\operatorname{Bias}(\overline X_{\rm mix})
+=\frac{n_p}{n}(\mu_p-\mu_c).
+\tag{21}
+\]
+
+This is exactly the contamination term used in the original semantic-window source. To show **actual improvement in mean squared error**, not merely reduced bias, add the transparent assumption that all observations are independent with common within-regime variance \(\sigma^2\). The pure-current and mixed estimators then satisfy
+
+\[
+\begin{aligned}
+\operatorname{MSE}(\overline X_c)&=\frac{\sigma^2}{n_c},\\
+\operatorname{MSE}(\overline X_{\rm mix})
+&=\frac{\sigma^2}{n}
++\left(\frac{n_p}{n}\right)^2(\mu_p-\mu_c)^2.
+\end{aligned}
+\tag{22}
+\]
+
+Hence **the pure correctly labelled window is strictly preferable for this estimation target** exactly when
+
+\[
+\boxed{
+\left(\frac{n_p}{n}\right)^2(\mu_p-\mu_c)^2
+>
+\sigma^2\left(\frac1{n_c}-\frac1n\right).
+}
+\tag{23}
+\]
+
+**Proof.** Under independence and equal variance, sample-mean variance is \(\sigma^2/\text{sample size}\). Subtract the two MSE expressions. \(\square\)
+
+This derives a **genuine nontrivial class of context/scope problems** in which qualified regime information has strict utility, while preserving the proper negative cases: if the regime gap is zero or the additional old samples reduce variance more than the mixing bias hurts, the raw mixed mean may have lower MSE. A label whose regime truth is wrong may worsen decisions. *The same original mathematical source* therefore supports a rigorous **conditional** statement rather than a universal "ignore prior regimes" rule.
+
+**General contextual sufficiency.** For any receiving task R, if two admissible contexts produce equal displayed O but require different r because the source meaning, time, version, permissible action or regime changed, O alone is no longer task-sufficient (SA-U1). A qualified context label can restore the needed distinction if its combined fibers become R-homogeneous. Thus "semantic window" is a **scope of relevant and interpretable evidence for a question**, not a universal fixed length nor another closure of the whole world.
+
+The source's more specific ordered-multiscale/varying-regime fixed-point construction remains a **separate candidate mathematical detector** with calibration and contraction prerequisites. We do not import its unverified general real-world identification performance into this utility theorem.
+
+## 11. The *Map–Flow / Epistemic Distance* bridge: boundary conditions are useful without full causal reconstruction
+
+The programme's [*Map, Flow, Epistemic Distance* bridge](./MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md) identifies a core separation:
+
+- the **flow** contains actual material dependencies and effects;
+- the **map** is the representation through which a participant describes and controls those effects.
+
+The bridge explicitly states that its proposed **epistemic topology** and **flow topology** are **working research notation**, not yet a theorem that a particular mathematical topology exists or that their discrepancy is measurable as one scalar.
+
+The precise reusable math here is **relative congruence and decision sufficiency**. If an observation map o identifies states that differ under a newly relevant operation f or receiving target r, it fails to preserve a required material distinction. The metalevel can *certify that failure* via a legitimate witness (SA-U1 and PR #60 D1) without identifying all hidden causal influences.
+
+For a safe abstract model, the metalevel may additionally preserve **bounds, dependencies, validity windows and unresolved status** that would be lost by a compressed object output. That is not the same as detecting every hidden cause. The report can honestly ask for **requalification or selective evidence**, not reconstruct a complete flow from a local output.
+
+This is the appropriate general interpretation of the bridge's *boundary observability*: **recognize where a current inference or operation stops being warranted**, not enumerate the total external world.
+
+## 12. A general mathematical positive-utility class
+
+We can now state the class without borrowing A/B/C/D, a particular agent implementation or a social-model simulation.
+
+**Definition (Structural Awareness utility problem).** A problem belongs to \(\mathfrak C_{\rm SA}\) when it has:
+
+1. a receiving question or formal task R specified **independently** of proposed metadata;
+2. an available object-level observation O;
+3. an identified, typed **metasyntactic operation** that can construct or validate a proposition about the observation's sufficiency, structural relation, source validity, compatible-state restriction, proof status, contextual scope or reuse cost;
+4. explicit premises for the truth/meaning and availability of that proposition, without supposing it enumerates all of an open world;
+5. a nontrivial mathematical receiving consequence to study: **information**, **decisional sufficiency**, **verification feasibility**, **safe action range** or **context validity**.
+
+This is a **class of mathematically typed problems**, not a class that automatically has positive benefit.
+
+**Theorem SA-U9 — existence of several distinct positive subclasses.** Within \(\mathfrak C_{\rm SA}\) there are nonempty families exhibiting:
+
+**(A) Strict information advantage:** whenever \(I(R;M\mid O)>0\) under a valid finite/discrete source law, the optimal expected log-loss of predicting R decreases strictly by that conditional mutual information (SA-U2).
+
+**(B) Strict verified-work advantage:** whenever reusable qualified proofs satisfy \(\sum_{i\in S}(c_i-v_i)>h\), the specified joint verification problem requires strictly less work than wholly fresh checking, and can meet a finite budget impossible for the specified fresh route if (19) holds (SA-U5).
+
+**(C) Strict contextual-estimation advantage:** whenever valid context/regime qualification yields the premise of (23), correctly separated samples achieve smaller mean-squared error for the **current-regime mean** than an unlabelled pooled estimate, without identifying every possible prior-state cause (SA-U8).
+
+**(D) Legitimate task-type distinction without hidden-object identification:** an independently established "not yet constituted" status cannot be resolved by read-only retrieval, whereas an authorized state-transition operation is of the required type (SA-U6). The meta-operation can correctly diagnose a *mismatch of question and permitted operation* without finding a nonexistent answer.
+
+**(E) Anonymously decidable relational targets:** a group-invariant R factors through an orbit quotient even where the language cannot name an individual class representative (equation (6), R03/R04).
+
+**Proof.** (A) follows directly from SA-U2 and any source-qualified positive conditional-information case. (B) is arithmetic plus the legitimate proof-reuse premise. (C) follows from variance–bias decomposition with the displayed strict inequality. (D) follows from state-preservation of retrieval. (E) follows from the quotient-invariance criterion. These constructions remain valid on arbitrarily large **properly scoped** surrounding mathematical domains when the same target/source premises are preserved; adding new *relevant* states may require full requalification. \(\square\)
+
+The theorem does **not** assert that any random agent in an open city possesses those proof objects or signal sources, nor that every open ecosystem contains a large fraction of positive cases. It establishes something logically different and sufficient for this theoretical stage: **a structural family of distinct mathematical situations where metasyntactic operations have actual consequences beyond decorative labelling**, including benefits **without individual identification**.
+
+### 12.1. The no-advantage theorem is equally important
+
+**SA-U10 — equivalence under no extra usable evidence or work.** Suppose all metasyntactic outputs M are freely and feasibly reproducible from the receiver's existing O, task, common proofs and allowed operations, and both architectures have equal authority/actions and exactly matched full resource costs. Then any action/report attainable with the metalevel can be simulated by the other programme. There is **no strict informational or computational superiority** from a change in nomenclature alone.
+
+**Proof.** The alleged extra report is a function of the already available inputs under the stipulated feasible computation; the receiver can reproduce it and then execute the same decision rule with the same admissible resources. \(\square\)
+
+This respects the compilation theorem of Part I and is not a reason to discard the mathematical utility classes above. It establishes the **correct locus of advantage**: source access, formally verified distinctions, relevant abstraction, proof reuse, or a different actually implemented metareasoning operation relative to a more restricted comparator.
+
+## 13. What this theoretical part explicitly does not do
+
+This article **does not** run a new simulation, redesign a robot, estimate field prevalence, instantiate a social agent network, derive governance/standards requirements, determine a commercial configuration or introduce a mandatory B/C/D partition. Those are different scientific stages and cannot add evidence to the current mathematical demonstrations retrospectively.
+
+Nor does it claim universal conservation of entropy/exergy, physical joule savings from abstract distinctions, a total oracle for inaccessible sources, a known population size for A′, a Shannon prior on all open-world possibilities, universal improvement from the OPEN tag, or that every named semantic window is objectively the correct historical one.
+
+The already authored [Part II v0.1 finite fixtures](./archive/2026-10-27_METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1_WORKING.md) are preserved as previous exploratory evidence, **not repeated or used here as proof of the new theoretical synthesis**. The [open PR #60 formal work](https://github.com/dakleyer/structural-awareness-contributions/pull/60) remains source material; its status does not turn existing mathematical claims into an accepted live system.
+
+## 14. Provenance, theorem ledger and independently reviewable claims
+
+| Result | Historical source | What is actually demonstrated |
 | --- | --- | --- |
-| Changed operation / task | Same initial observation, new allowed transformation; check fiber congruence and required probes | Old observation still sufficient; extra query irrelevant |
-| Source→receiver qualification | Independently typed transfer, version, purpose, source rights and target | Strong qualified policy/ABAC incumbent ties |
-| Meta proof and contradiction | Object-level evidence versus host-level proof/under-determination certificate | Invalid/stale proofs or host adopts object contradiction |
-| Context/semantic window | Evidence changes validity under version, clock or regime; target frozen | Window change does not change r; cache/authority unverified |
-| Anonymous relational target | Equivalence invariant under declared group/permutation, no canonical member identity | Non-invariant target needs a distinguished member |
-| Active information acquisition | Choose cheapest eligible sources to separate unresolved r-pairs **after including o** | Q-alone set cover falsely declares insufficiency or overspends |
-| Robust partial constraints | Anonymous qualified m excludes decision-relevant possibilities | False certificate removes actual world; wrong safe action |
-| Cost/design accounting | Matched full evidence and rights, including search, verification, design and rollback | Copied identical design ties; meta overhead loses |
+| SA-U1, congruence and query pair coverage | *Given Universe*; R01/S01; original *Primalidad y Lógica* plus **R03 §14.2 reviewer development**; PR #60 F1/D1/D3 and PR #59 correction | Standard fiber/quotient theorems; task-conditional need for new distinctions |
+| R03 label count and anonymous class | *Primalidad y Lógica* original §2; **R03 §§4, 14.4** | Finite label count; independently developed invariant relation without named representative |
+| Witness distinction (7) | *Primitiva Entrópica* R11 original §9; **R11 reviewed repair** | Classical c.e. existential witness characterization, with finite-time test and no uniform negative certificate |
+| SA-U2 / conditional Shannon equality | *Primitiva Entrópica* R11 §15; **R11 entropy correction**; standard Shannon theory | Conditional entropy and mutual-information identity with properly declared distribution |
+| SA-U3 KL conditioning | *Distorsión Entrópica* original; **R14 mathematical repair** | Reverse KL and count ratio under correct support; forward KL can diverge |
+| SA-U4 descriptive gap | *Computational Exergy* R16 original; **R16 review and actual-source λ conflict** | Explicit coding potential subject to machine/model; no unconditional decision/energy equality |
+| SA-U5 reuse/work class | Distinct compiled *Primitiva Entrópica* R12 source §composition; **authoritative R12 review**; PR #60 P9 | Source formula's legitimate homogeneous special case; heterogeneous proof-reuse cost identity and budget feasibility |
+| SA-U6 typed missing facts | *About Cats, Boxes and Enterprise Management Decisions* (public source) | Historical three-way distinction; derived read-only/authorized-transition lemma; no reliable divergence oracle |
+| SA-U7/SA-U8 window class | *Semantic Window* two source papers; *Map–Flow Bridge* | Source A1/A2/A3 conditional claims; new explicitly scoped bias–variance and information-refinement consequences |
+| SA-U9/SA-U10 synthesis | Source strands above and Part I | Nonempty **mathematical positive subclasses** with exact assumptions; strong same-info comparator equivalence |
 
-The companion [finite executable research harness](./fixtures/METASYNTACTIC_UTILITY_CLASSES_v0.1.mjs) checks deterministic factorization over an exhaustive family of small Boolean observation maps, pair separation with prior o, strict task-value examples, anonymous robust constraints, changing validity, invariant quotient examples and negative baselines. It is **bounded symbolic evidence**, not a real multi-agent deployment or a proof of historical article originalities.
+**External known mathematics rather than new priority:** Shannon (1948), Kullback–Leibler (1951), Blackwell (1953), Kleene/Post c.e. characterizations, Kolmogorov complexity, group invariants, weighted set cover, simple minimax/decision theory, elementary mean MSE. Scientific novelty, if any, would concern the **qualified composition across semantically different processes, types, sources and questions**, not rediscovery of those general mathematical theorems.
 
-The still-open [PR #60 study](https://github.com/dakleyer/structural-awareness-contributions/pull/60) and its [PR #59 correction](https://github.com/dakleyer/structural-awareness-contributions/pull/59) are specifically relevant prior internal work. We reuse F1 and D1–D7 only in their mathematics; we do **not** copy the ACC/social reduction, its agent product configuration, or a mandatory B/C/D role partition.
+**Open scientific obligations:** independent verification of the original papers' edition-specific statements; proof checking of claims promoted from R-reviews; validity of supplied source qualifications M; choice of a legitimate probability model or a nonprobabilistic alternative; exact semantic-window conditions on changing contexts; operational feasibility of qualified proof reuse; and exclusion of hidden changes in source rights or receiving questions.
 
-## 11. Conclusion and separate evidential burden
+## 15. Conclusion — the mathematical meaning of utility
 
-Part I establishes that an effective programme can communicate correct typed claims about limitations and an open semantic frontier in a language which a strictly closed representation does not possess. That is a **representational and integrity** contribution.
+**Metasyntax becomes mathematically useful not by enumerating A′, but by making some operation on a bounded representation or its source qualifications possible which the narrower representation cannot justify.**
 
-Part II establishes a stronger **mathematical applicability result**, still conditional: there is a structurally defined, broad class of decision problems in which qualified meta-information **either reveals that the original observation is insufficient, restores missing task-relevant distinctions, restricts compatible worlds without identifying them, or preserves validity across context changes**. Within nonempty subfamilies, strict **gross** decision improvements follow from general fiber/refinement and robust minimax theorems—not from a particular implementation or privileged model name.
+The original corpus supports five reusable mathematical routes: **task-relevant distinction; existential witness; conditional information/coverage; reusable proof and verification; contextual and relational qualification**. They are neither mutually exclusive nor all reducible to a scalar notion of uncertainty.
 
-Positive **net** utility after compute, communication, verification, authority and design costs is not implied. Neither is superiority over a capable implementation that already solves the same meta-question. Those outcomes require an independently frozen receiver task and a fair experiment. This is the appropriate mathematical starting point for the next applied study, rather than declaring that all metasyntactic architectures must outperform all syntactic architectures in every open ecosystem.
+The strongest defensible result is conditional but substantive:
 
-## Sources, derivation and priority
+\[
+\boxed{
+\begin{aligned}
+& I(R;M\mid O)>0
+&&\Rightarrow\text{strict optimal log-loss information gain},\\
+& \sum_{i\in S}(c_i-v_i)>h
+&&\Rightarrow\text{strict qualified proof-work saving},\\
+& \text{regime-mixing bias}^2>\text{pure-window variance penalty}
+&&\Rightarrow\text{strict current-regime MSE improvement}.
+\end{aligned}}
+\tag{24}
+\]
 
-**Original author's ideas:** *Given Universe*, *Primalidad y Lógica* (syntactic distinction and positioning), *Formalización del Meta Sistema* (meta-level and object-level separation), *Practical Incompleteness* (uniform determination frontier), *Projection Mechanism* (source/recipient representation), *Projected Infinite Paradox* (local/global question change). The original historical manuscript's ontological or prime-number completeness claims are **not imported as established theorems**.
-
-**Later source-specific mathematical reviews:** [R03](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R03_PRIMALIDAD_Y_LOGICA_v0.1.md) for finite labels and decision pair-cover; [R04](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R04_ALGEBRA_POSICIONAMIENTOS_v0.1.md) for partial interpretation and invariant quotient; [R05](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R05_FORMALIZACION_META_SISTEMA_v0.1.md) for bounded meta-certificates; [R07](https://github.com/dakleyer/structural-awareness-workbench/blob/main/02-workstreams/ecosystem-awareness/07-field-notes/REVIEW_R07_PRACTICAL_INCOMPLETENESS_v0.1.md) for uniform rather than fixed-program undecidability.
-
-**Still-unmerged bridge:** [PR #60 mathematical lineage](https://github.com/dakleyer/structural-awareness-contributions/pull/60); [PR #59 re-audit](https://github.com/dakleyer/structural-awareness-contributions/pull/59) for its supplementary-Q caution. Source terms **S (standard), R (reviewer reconstruction), D (conditional derived result), H (experimental hypothesis)** should be maintained when promoting any downstream claim. The present MU theorems are principally **standard mathematical theorems specialized to a qualified metasyntactic decision problem**; their integration and applied utility are a research proposal.
-
-**Open proof/applicability obligations:** independent source-by-source proof review; formal check of every claimed metadata source; correctness of changing-context/rights interpretation; measured implementation costs; matched strong baselines; systematic failure tests when the meta-certificate is wrong or unavailable; and the genuine prevalence of MU-positive cases in observed open ecosystems.
+All three can occur **without identifying the whole world or every individual in the remaining uncertainty**. The first is about source-qualified **information**, the second about **verification work**, and the third about the **meaning of a context**. No single one substitutes for the others. The forthcoming scientific stages may test whether and when these mathematical subclasses occur in operational ecosystems, but that is *not a premise or claimed conclusion* of the present paper.
