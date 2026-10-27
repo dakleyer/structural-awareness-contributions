@@ -422,3 +422,45 @@ Las fichas son propuestas para sus fuentes y propietarios. Esta publicación amp
 Antes de etiquetar una «ausencia conceptual» se deben contrastar **(a)** la función efectivamente implementada, **(b)** el alcance del caso, **(c)** los documentos integradores y ejemplos de la misma familia, y **(d)** los estudios arquitectónicos/matemáticos conexos. Reportar explícitamente «falta en esta prueba» frente a «falta en el corpus». Las medidas de un mecanismo no generan dimensiones operativas arbitrarias. Una crítica a un toy no debe promoverse como refutación del programa general sin una prueba que conecte ambos alcances.
 
 **Estados y promoción:** H-01/H-03 permanecen `ABIERTO` en su alcance ejecutable. R10-H01/R10-H03 documentan la respuesta del autor y la delimitación; PR #63 contiene propuestas en tres documentos vivos y permanece separado de esta auditoría. No hay cierre, aprobación de evidencia independiente, ejecución de los nuevos controles ni merge automático.
+
+
+---
+
+## Ronda 11 — resolución técnica de I-01, delimitación de comparadores y clasificación de casos (27-10-2026)
+
+**Recepción del propietario.** Iván Abril Palma autoriza la corrección técnica del cuarto hallazgo; solicita aclarar la premisa del quinto sin oponer artificialmente ABCD a los procedimientos convencionales; acepta reclasificar los 46 casos del sexto como ejemplos sintéticos, de manera sobria. Esta respuesta está documentada por Codex, asistente de IA; **no sustituye** validación científica independiente. Se mantienen los hallazgos y estados anteriores para conservar la secuencia.
+
+### R11-I01/M27-01/M27-02 — Corrección de fuente propuesta en PR #64
+
+**Nueva propuesta de implementación:** [PR #64](https://github.com/dakleyer/structural-awareness-contributions/pull/64) (draft) modifica sólo `metacognition.py`, sus pruebas y el README propietario de `scoped-closure-metacognition-v0.1`. El control estricto de `lo > hi` impide que la tolerancia absoluta `1e-12` produzca un falso `LOCALLY_SUPPORTED_TRUE` sobre un intervalo vacío (I-01/M27-02). Además, la intersección local **no es prueba de consistencia global**: para L=1, fuentes f(0)=0 y f(0)=2 generan una intersección aparente [1,1] al preguntar por x=1, pero no admiten una función conjunta. La nueva guarda contrasta desigualdades entre todos los pares elegibles antes de declarar apoyo TRUE/FALSE.
+
+- Coordenadas exactas e intervalos de valores: la condición por pares es suficiente y necesaria para una selección finita Lipschitz-compatible, extensible al dominio bajo el supuesto de regularidad declarado.
+- Coordenadas inciertas: separación mínima certifica compatibilidad robusta; separación máxima puede probar inconsistencia. Si el análisis no certifica ninguno de ambos extremos, la salida es `JOINT_CONSISTENCY_NOT_ESTABLISHED`, sin apoyo positivo/negativo ni permiso de actuar.
+- **Evidencia de revisión:** 66/66 tests del módulo superados en ejecución local contra el candidato (base 60; seis nuevos), incluidos dos contraejemplos negativos y controles positivos; [Documentation integrity del head 19072ab](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40557800724) concluyó `success`.
+- **Relación con PR #59:** su D26-C01 original proponía únicamente el arreglo de tolerancia; el PR #64 es su candidato **de fuente** ampliado para la consistencia conjunta. No aplicar ambos parches como propuestas separadas ni interpretar PR #59 como incorporación al código.
+- **Límites:** compatibilidad formal de testimonios elegibles en el marco finito, no autenticidad empírica de declaraciones, licitud de recursos, validez externa de L ni cierre de B/C/D.
+
+**Estado editorial:** I-01/M27-01/M27-02 quedan `RESPONDIDO — CORRECCIÓN PROPUESTA EN FUENTE`, **no `CERRADO`** hasta revisión del propietario, comprobación CI y promoción explícita del PR #64. No se altera el estado original de las tablas por sobrescritura.
+
+### R11-G01/F01 — El quinto hallazgo no exige un falso adversario «convencional sin ABCD»
+
+**Rectificación de interpretación:** ACC/ABCD puede ejecutar el método convencional íntegro mientras las restricciones y la información del A operativo lo permitan. Puede además caracterizar las fronteras B/C/D relativas a la pregunta, coordinar, transferir recursos entre dimensiones **operativas realmente justificadas**, pivotar o emitir NO GO. La dimensión no se crea por conveniencia del comparador.
+
+**El defecto auditado es local al diseño de los fixtures, no a esta capacidad arquitectónica:**
+
+1. En `conscientia-campaign-v0.1`, 48 veredictos adjudicables del brazo `CONVENTIONAL_TARGETED` ya son correctos por estipulación del registro; `EXPANDED_A` recibe también verdad correcta en su alcance y Q concentra la inyección de ciertos errores. Los rangos calculados verifican la función de coste/pérdida para **esas entradas**; no estiman por sí mismos cuál procedimiento descubriría el veredicto, con qué información y coste total.
+2. En `agentic-ecosystem-reduction-v0.1`, `Q_META_PROTOCOL` y `CONVENTIONAL_EQUIVALENT_Q` usan la misma rama decisoria salvo sus precios. Su empate o divergencia monetaria es legítimo como **control de ejecución equivalente**, pero no demuestra ni refuta un diferencial de adquisición, descubrimiento, selección, adaptación o mantenimiento.
+3. Propuesta para una comparación nueva, **sin imponer resultados**: distinguir pruebas unitarias de reglas frente a contrastes entre procesos completos; fijar misma tarea, régimen, derechos, presupuesto, información inicial y acceso permitido a fuentes; dejar que cada brazo use libremente optimización/reorganización/convencionalidad donde pueda; medir qué información adicional logra adquirir legítimamente, tiempo, coordinación y costes de obtención, calidad de salida, abstenciones y fallos. Una alternativa convencional robusta que obtenga la misma Q cuenta de forma honesta como empate o ventaja convencional; no se excluye por ser convencional. Separar escenario R1 actual, R2 configurado de forma óptima y R3 contrafáctico condicionado por cambio de régimen cuando se aplique UC21/DDS, sin cambiar unilateralmente los recursos.
+4. Las campañas actuales se conservan como **tests/ilustraciones bajo parámetros declarados**; no se reetiquetan como estimaciones empíricas ni se exige al programa matemático demostrar una superioridad arquitectónica universal.
+
+**Estado:** G-01 y F-01 conservan `RESPONDIDO` en cuanto a diagnóstico del fixture y `NO CERRADO` en cuanto a capacidad comparativa integral. Cualquier estudio pareado nuevo requiere su propio diseño; aquí no se inventan resultados.
+
+### R11-F06 — 46 casos ilustrativos con resultados reproducibles, no 46 experimentos externos
+
+**Recepción limitada en [PR #54](https://github.com/dakleyer/structural-awareness-contributions/pull/54):** encabezados y README propietario reclasifican los 46 como **ejemplos trabajados/fixtures sintéticos ejecutables** y los 88 barridos como sensibilidad estipulada. Las 65 pruebas son de regresión. El apartado KL declara distribuciones uniformes en soporte finito para `log2(m/n)`; `closure` se mantiene como inferencia condicional Lipschitz, no validación física de su supuesto. Se conservan los 46 resultados, sus 88 barridos, fuentes, código, test y JSON sin cambios; se evita una reconstrucción innecesaria del estudio.
+
+**Estado:** F-06 `RESPONDIDO — PRECISIÓN DOCUMENTAL EN PR #54`, no certificado como experimento externo y no cerrado hasta revisar/promover el PR. Las distinciones entre programa matemático, principios arquitectónicos y ejemplos ejecutables se señalan **sólo donde cambian el alcance de una conclusión**; no se introduce una taxonomía repetitiva o una jerarquía rígida en cada caso.
+
+### Gate de promoción de esta ronda
+
+Los PR #64 y #54 permanecen separados del PR #58 (registro crítico). Mantener PR #59 como seguimiento de auditoría documental y de D26-C01; al promover #64, verificar que cualquier VNext que represente D26-C01 apunte al arreglo conjunto vigente y no deje un parche competidor. No hay merge ni promoción a Canonical o main en esta ronda.
