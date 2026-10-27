@@ -12,23 +12,23 @@
 
  */
 
-(c,m)=>{if(!c)throw Error(m)}
+const assert = (c,m)=>{if(!c)throw Error(m)};
 
 const X=[0,1,2,3];
 
-x=>x%2
+const o = x=>x%2;
 
-x=>(x+1)%4
+const s = x=>(x+1)%4;
 
-x=>[1,1,0,3][x]
+const f = x=>[1,1,0,3][x];
 
-x=>Number(x===2)
+const q = x=>Number(x===2);
 
-x=>o(f(x))
+const t = x=>o(f(x));
 
 const states=[0,2];
 
-(obs,states,target)=>{
+const best01loss = (obs,states,target)=>{
   const labels=states.map(x=>JSON.stringify(obs(x)));
   const unique=[...new Set(labels)];
   let best=Infinity;
@@ -37,7 +37,7 @@ const states=[0,2];
     best=Math.min(best,risk);
   }
   return best;
-}
+};
 
 let checks=0;
 
