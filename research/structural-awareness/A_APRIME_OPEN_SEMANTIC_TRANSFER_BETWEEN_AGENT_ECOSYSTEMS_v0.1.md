@@ -1,14 +1,14 @@
 # From A to A′: Open Meaning and Semantic Transfer Between Agent Ecosystems
 
-**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.4 · 27 October 2026**  
-**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.4**, recorded by the GitHub revision.  
+**Structural Awareness Programme · Mathematical Contributions · Architectural mathematical principles · Working research companion v0.5 · 27 October 2026**  
+**Stable-path notice:** retained v0.1 filename for existing inbound links; **the current document edition is v0.5**, recorded by the GitHub revision.  
 **Logical subject:** SA-MATH-TR-01 · **Relationship:** mathematical continuation of [OW-1–OW-11, effective non-closure and repeated runs](./OPEN_WORLD_AGENTIC_INTERACTION_INDETERMINACY_L1_EXTENSION_v0.1.md).  
 **Status:** architecture-level mathematical principles with bounded formal proofs and explicit operational conditions, intended for independent review. AI-assisted authoring at the research owner's request; not an implementation prescription, a new ResearchGate theorem, a formally verified program, or a modification of the canonical A/B/C/D vocabulary.  
 **Scientific lineage:** Iván Abril Palma, *Practical Incompleteness* (L1); *The Projection Mechanism* (2025 and distinct 2026 fourth revision); *The Projected Infinite Paradox*; [00M mathematical plausibility and canonical A/B/C/D](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical).
 
 ## Abstract
 
-A finite agent execution can deliver exact local results without settling the semantic task to which its procedure refers in an open world. When a source ecosystem sends only execution traces to a receiving ecosystem, the receiver may acquire extensive data without enough information to reconstruct the **general question** that those executions were intended to address. When it instead sends a run-local result as a **globally closed set**, it exports an unsupported exhaustiveness claim. The proposed semantic carrier separates **A, the procedure and its declared task**, from **A′, its open non-determination frontier**. A/A′ is not a sum of extensional sets and does not require enumeration of unknown agents. We prove a trace-only nonfactorization result, a false-closure transfer result, and a conditional soundness statement for semantic transfer through a qualified correspondence between the source and receiver's questions. A further result identifies the **weak information dominance** of a signal preserving witnessed boundary information over a reduced signal that discards it, without giving either machine the power to compute A′. The B/C/D distinctions are treated as **partial, process-relative abstractions of the open frontier**, each retaining its own primed non-closure rather than forming a mandatory exhaustive partition. The receiver can thereby preserve **meaning and honest incompleteness** without being given a purported universal semantic oracle or a completed list of every unknown case. This contribution is presented as **implementation-neutral architectural principles**—resilience to indeterminate encounters, preservation of justified source information and weak informational dominance relative to a specifically lossy representation—not as an exclusive technology architecture. The exact comparator is now a **two-stage, strictly closure-only architecture** whose exported semantic language is restricted to A. Open A/A′ has **strictly greater claim expressivity** for the established nonempty open frontier. Implementations independently representing that frontier can remain informationally equivalent, but are no longer closure-only under the comparator definition. Global maximality of all possible information does not follow from Gödel/Turing; the defensible target is faithful preservation of **currently qualified** information without fabricated closure.
+A finite agent execution can deliver exact local results without settling the semantic task to which its procedure refers in an open world. When a source ecosystem sends only execution traces to a receiving ecosystem, the receiver may acquire extensive data without enough information to reconstruct the **general question** that those executions were intended to address. When it instead sends a run-local result as a **globally closed set**, it exports an unsupported exhaustiveness claim. The proposed semantic carrier separates **A, the procedure and its declared task**, from **A′, its open non-determination frontier**. A/A′ is not a sum of extensional sets and does not require enumeration of unknown agents. We prove a trace-only nonfactorization result, a false-closure transfer result, and a conditional soundness statement for semantic transfer through a qualified correspondence between the source and receiver's questions. A further result identifies the **weak information dominance** of a signal preserving witnessed boundary information over a reduced signal that discards it, without giving either machine the power to compute A′. The B/C/D distinctions are treated as **partial, process-relative abstractions of the open frontier**, each retaining its own primed non-closure rather than forming a mandatory exhaustive partition. The receiver can thereby preserve **meaning and honest incompleteness** without being given a purported universal semantic oracle or a completed list of every unknown case. This contribution is presented as **implementation-neutral architectural principles**—resilience to indeterminate encounters, preservation of justified source information and weak informational dominance relative to a specifically lossy representation—not as an exclusive technology architecture. The exact comparator is a **two-stage, strictly closure-only architecture** whose exported semantics is confined to A. The new formal continuation distinguishes **in-A outcome-status recognition from the generally impossible semantic meta-classifier**, treats the composition of any K/D/checker chain as one effective procedure, and defines **epistemically coverage-complete** open reports with a single finite witnessed product plus an unenumerated open frontier. Open A/A′ has strictly greater claim expressivity for the non-closed domain in the defined comparator. Implementations independently representing that frontier can remain informationally equivalent, but are no longer closure-only under the comparator definition. Global maximality of all possible information does not follow from Gödel/Turing; the defensible target is faithful preservation of **currently qualified** information without fabricated closure.
 
 ## Architectural reading — mathematical principles, not a branded implementation
 
@@ -619,6 +619,161 @@ These are not identical orders of information. If the assertion that A′ exists
 
 A different architecture that can express A′ may be information-isomorphic to the open reference (TR-7), but **it is no longer the strictly closed comparator**. No claim of identified unknown entities, free implementation benefit or globally complete A′ enumeration is required.
 
+### 6.16. One composed computation, two architectures of representation
+
+The contrast has **no privileged execution engine**. Let \(\mathcal E\) be the declared open source ecosystem, let K be any effective admission/scope-forming routine, D an effective downstream task routine, and \(\mathcal P=\operatorname{Compose}(K,D,V_1,\ldots,V_m)\) their **entire computable orchestration**, with optional computable verifiers \(V_j\). It makes no difference to computability whether the implementation draws two boxes, a chain, or one consolidated program.
+
+For a chosen run r, write \(h_r=\operatorname{Trace}(\mathcal P,\mathcal E,r)\) and \(A_r=\operatorname{QualifiedObserved}(h_r)\) for **the finite, correctly qualified observations and findings from the complete composed procedure**. The scope K has admitted may be denoted \(A_{\mathrm{scope}}\); the operative result selected within that scope remains \(A_1\subseteq A_{\mathrm{scope}}\) in the selector case of §6.12. The symbols should not be silently interchanged:
+
+| Object | Meaning |
+| --- | --- |
+| \(\mathcal P\) | The entire effective **procedure** (K, D and any additional algorithms) |
+| \(A_{\mathrm{scope}}\) | The **working universe admitted** by K for a specific operation; not a certificate of global coverage |
+| \(A_1\) | A particular D output within that working scope (when D is a selecting operator) |
+| \(A_r\) | The **complete finite record of qualified findings** from all stages of a concrete run r |
+| \(I_r\) | The observed cases **within the run/scope** for which the substantive question remains unqualified; not necessarily all intrinsically undecidable inputs |
+| \(A'_r\) | **The residual open semantic reach** of \(\mathcal P\) and its declared task beyond what \(A_r\) has established; not an identified/enumerated outside population |
+
+The **conventional closure-first architecture** uses K to form a working scope and D to act in it, then treats that scope as **its entire representable semantic frame**. It may recognize all errors and unknowns observed within that frame; no claim of deliberately defective error handling is needed.
+
+The **open-ecosystem architecture** subjects **the entire \(\mathcal P\)**, including K itself, to the *same* open-world epistemic status. It exports the finite qualified result and a separate open residual obligation; it does **not** use successful completion of K as a certificate that the world's boundary has been settled. K may still serve as a useful bounded subroutine, but **not as a global truth-making prerequisite**.
+
+Write the open report as a **product plus a qualification**, rather than a fictitious binary partition of the universe:
+
+\[
+\boxed{
+\mathcal R_r^{\mathrm{open}}
+=
+\bigl(\mathcal P,\ A_r,\
+\operatorname{OpenFrontier}(q,\mathcal P,h_r,\sigma,\rho)\bigr).
+}
+\tag{34}
+\]
+
+The third component is a **semantic obligation/qualification**, **not a second closed result set**, and it is not required to enumerate the members of \(A'_r\). The finite first product may contain arbitrarily many recognized output kinds, diagnostics, and encountered unresolved cases. The open boundary is represented whether or not that run happened to observe a specific indeterminate.
+
+### 6.17. TR-12 — the closure stage's meta-oracle trap
+
+There are **three different notions of separation**, and only conflating them makes the apparent paradox:
+
+**(i) Reported outcome of a total bounded run.** If a particular total computable wrapper emits SUCCESS/FAILURE/UNKNOWN and terminates, a machine can run it and determine **which outcome it reported**. Classifying its own *recorded output tag* is not an oracle and does not establish the hidden semantic truth.
+
+**(ii) Uniformly correct determination of arbitrary peer semantics.** Under H-EXP (OW-1), effectively compile a peer \(P_e\) that acknowledges the handshake and sends a completion receipt exactly if \(U_e(e)\) halts. A closure classifier \(G(e)\in\{\mathrm{YES},\mathrm{NO}\}\) that always terminates and returns the **true eventual-completion verdict** for **every** peer would compute
+
+\[
+G(e)=\mathrm{YES}\ \Longleftrightarrow\ U_e(e)\downarrow,
+\tag{35}
+\]
+
+which is a decider of the diagonal halting set and is impossible.
+
+**(iii) Uniformly correct meta-classification of which arbitrary programs have an entirely decidable response domain.** This different question is **also** undecidable on the explicitly multi-request expressive family H-REQ of OW-5b/R07-P2. An exact total checker for that program-index property would decide ordinary halting. The H-REQ premise is necessary: H-EXP alone addresses the fixed request in (ii), not decidability of every request domain.
+
+**Theorem TR-12 (no universal semantic closure gate).** Under H-EXP, no effective closure stage K, isolated or effectively composed with D and any finite/adaptive computable verifier chain, can provide the complete error-free **semantic YES/NO separator** of (ii) over all admitted peer descriptions. Under H-REQ, neither can it provide the total correct **decidable-domain meta-separator** of (iii).
+
+**Proof.** For (ii), compose any alleged K/D/verifier separator into a single effective procedure and apply (35), contradicting the halting theorem. For (iii), apply OW-5b's H-REQ program-index reduction: the ability to correctly classify whole-domain decidability from a code would again decide halting. \(\square\)
+
+Consequently, a closure-first architecture has a **dilemma**, not an automatic crash: if K attempts *genuine global semantic closure* for this expressive task, it faces TR-12; if K produces only a bounded/qualified inventory, it has **not globally closed the open world**. D can still make many locally correct decisions inside that inventory. A bounded scanner can also correctly report the run outcome UNKNOWN without violating any theorem.
+
+An important negative control is that “is this particular **total** wrapper's output tag UNKNOWN?” remains decidable by executing it. TR-12 concerns **true semantic determination or program-level meta-decidability**, never a prohibition on recognising a concrete previously emitted UNKNOWN label.
+
+### 6.18. TR-13 — coverage-complete representation without a universe oracle
+
+We can now give **information-representational completeness** an exact meaning that requires no supernatural classifier.
+
+Let \(W\) be the admissible source-world class for the declared question q, and let \(H_r:W\to\mathcal H_r\) be the **finite observation made by the entire composed \(\mathcal P\)** in run r. A given witnessed history h defines, *intensionally*, the worlds compatible with those qualified observations:
+
+\[
+\operatorname{Compat}_{\mathcal P}(h)
+=
+\{w\in W:H_r(w)=h
+\ \text{and all independently qualified evidence constraints hold}\}.
+\tag{36}
+\]
+
+This mathematical definition is **not** an algorithm for enumerating, counting or identifying that class. Define the **open epistemic meaning** of the representation \(\mathcal R_r^{\mathrm{open}}\) to preserve those compatible alternatives rather than silently declaring their outside-of-A populations nonexistent.
+
+**Proposition TR-13 (evidence-relative coverage completeness).** If the reported finite findings are truthful and appropriately qualified, the open report (34), interpreted by (36), does **not exclude an admissible world merely because its further q-relevant agents or semantic distinctions were unobserved**. Its representation can therefore carry all justified finite output **and** the ongoing absence of a global coverage claim, without deciding which compatible world is actual.
+
+**Proof.** The open report asserts the certified observations h and **no** exhaustive inventory fact absent from h. Every w compatible with h and the qualified evidence satisfies those assertions, including any w with undiscovered relevant constituents. No test for membership in the complete \(W\), or list of unknown constituents, is required to publish this *intensional* representation. \(\square\)
+
+An artificially closed export would instead add, without witness, a proposition C claiming “there are no further relevant alternatives beyond the admitted A.” Under H-OPEN/OW-7 there can be two worlds with the same h, one with additional unseen relevant constituents. This C claim excludes the second possible world despite identical evidence. The open representation **preserves** it as a possibility.
+
+**This is completeness of the representation's epistemic coverage of what was and was not established**, **not** completeness of a proof system in Gödel's sense, completeness of substantive answers, or a decision of the real world. A representation may be *correctly complete about its limits* while its substantive uncertainty remains arbitrarily large. Because the entire \(\mathcal P\) is covered, the representation also acknowledges the uncertainty that entered through K itself, not only through D's observed inputs.
+
+### 6.19. TR-14 — weak information dominance inside A and strict claim scope outside A
+
+Define the closure-only payload \(X_r\) as **all qualified in-A information** actually available from the same composed run, including any supported observed UNKNOWN status. Define
+
+\[
+Y_r=(X_r,\ \operatorname{OpenFrontier}(q,\mathcal P,h_r)).
+\tag{37}
+\]
+
+Then the computable forgetting map \(\pi(Y_r)=X_r\) proves
+
+\[
+X\preceq Y
+\quad\Longrightarrow\quad
+\inf_{d_Y}R(d_Y,Y)\le\inf_{d_X}R(d_X,X)
+\tag{38}
+\]
+
+for a common declared receiving task, admissible actions and resource-independent optimization assumptions (TR-4).
+
+**Inside A:** the open-aware representation is **weakly at least as informative** because it can retain every true in-A record the closure-only representation has. If the closure-only system **already preserves all observed in-A determinate and indeterminate records**, the informational comparison **inside A alone can be equality**. No strict interior advantage is claimed merely because the conventional K stage lacks a universal semantic oracle; our composed \(\mathcal P\) lacks that oracle too. When a concrete closed interface discards a *known* source uncertainty that the open interface retains, TR-5 shows how a task-specific strict gain may arise.
+
+**Outside A:** by the **strictly closure-only external claim-language definition** of §6.12, the conventional contract cannot even refer to the open semantic frontier. The open-aware contract can express a true non-closure claim under H-EXP, yielding the already proved **strict semantic claim expressivity** of TR-10. This is **not the same** as claiming to identify an outside-A object or gaining a new independent observation of the world.
+
+Thus the exact result of comparing these two architectures is:
+
+\[
+\boxed{
+\underbrace{Y|_A\succeq X|_A}_{\text{weak in-A information preservation}}
+\quad;\quad
+\underbrace{\mathcal L_{\mathrm{closed}}
+\subsetneq\mathcal L_{\mathrm{open}}}_{\text{strict outside-A claim expressivity}} .
+}
+\tag{39}
+\]
+
+The statement requires **no superiority of execution**, and it does not claim a **strict Shannon/Blackwell advantage** merely from appending the same globally known OPEN tag. The apparent “error about an error” occurs only if the closure stage additionally claims a total correct semantics/metaclassifier of the impossible TR-12 kind or if a downstream actor promotes an unsupported closure. **Recognizing a bounded exception is allowed and valuable in either architecture.**
+
+### 6.20. Open, non-fungible B/C/D refinements and residuals of those refinements
+
+The primary open carrier in (34) can expose **finite qualified aspects** of its residual. The adopted 00M process-relative vocabulary distinguishes a **characterized assessable reserve B**, an **uncharacterized but grounded exploration C**, and a **potentially material effect beyond current effective evaluation D**. They are not exhaustive disjoint sets and cannot be used as a globally complete machine classifier of all residual objects.
+
+Hence each finite observed role declaration can have its own **primed open frontier** B′, C′ or D′ concerning *unexhausted applicability*—as established in TR-6. In addition, the border question “is this aspect B rather than C?” may itself remain unqualified. No program must solve that border for every possible aspect in order to publish **particular** B/C/D claims with correct evidence and a generic open A′ frontier.
+
+This is a **categorization of source-qualified aspects of an open residual**, not the construction of three closed sub-universes. The entire composed program can make repeated A-deliveries while preserving those category limits; it never upgrades a witnessed B item into “all B”, a C lead into a complete exploration catalogue, or a D indicator into a fully evaluable inventory of unknown effects.
+
+### 6.21. The operative architecture in one contract
+
+The following describes a **proposed mathematical interface discipline**, not an already deployed universal program. Its purpose is to show the absence of any requirement to enumerate A′ or completely pre-classify all future output types:
+
+~~~text
+OPEN_ECOSYSTEM_EXECUTE(
+    composed_effective_procedure P,
+    independently_stated_semantic_target q,
+    declared_resource_envelope rho,
+    scope_and_source_rules sigma
+):
+    execute P against admitted encounters as far as rho permits
+    retain finite source-qualified findings from EVERY component of P
+    retain witnessed unresolved cases WHEN OBSERVED (not as full A-prime)
+    retain separate diagnostics (timeout, bad frame, unavailable evidence)
+    report finite delivered product A_run with its provenance and scope
+    report A-prime = OPEN SEMANTIC FRONTIER for the unexhausted
+                     generalization obligation of the same P and q
+    do NOT claim all exterior cases have been identified or classified
+    do NOT turn absence of observed problems into global closure
+    return [A_run, OPEN_FRONTIER_QUALIFIER]
+~~~
+
+The final pair is **not two exhaustive classes** (determinate vs indeterminate), nor a promise of exactly two *possible execution outcomes*. An arbitrary run can have any permitted number of witnessed positive/negative/estimated statuses, observed UNKNOWNs and exceptional diagnostics. **The open-frontier qualifier is at the semantic/representational level**, even when no particular indeterminate was encountered.
+
+This construction directly captures the requested two models: **(a) prior universe closure followed by bounded internal operation, with the closure treated as global**, versus **(b) composition of the very same effective algorithms operating in an open ecosystem and communicating both justified finite results and their unclosed semantic remainder**. The latter is an architecture of *epistemic coverage*, not of omniscience. No particular B/C/D coding, extra oracle, physical universe-wide census or increase in execution power is required.
+
 ## 7. Relationship to the established A/B/C/D vocabulary
 
 This note deliberately reserves \(A_{\mathrm{proc}}\) for **the procedure**, to avoid conflating it with the adopted **00M A**, which means **the result actually delivered by a functional process**. A source execution's finite results may be canonical **A** for that execution; its known evaluation basis and reserve may be **B**; a grounded route to explore uncharacterized questions may be **C**; and effects beyond effective evaluation may be **D**, subject to the canonical source's process/question/time conditions. **A′ is a pre-taxonomic description of the unclosed semantic obligation, not a declaration that all A′ is D**. UNKNOWN remains appropriate when even the role assignment lacks justification.
@@ -627,7 +782,7 @@ The source's open frontier and the receiving ecosystem's open frontier need not 
 
 ## 8. Position before the Projection Mechanism
 
-TR-1–TR-3 establish the **pre-projection transfer limit and conditional soundness**; TR-4–TR-9 add **weak information dominance**, a strict finite-gain witness, non-total B/C/D boundaries, information equivalence and relative maximality. TR-10–TR-11 compare the **same two-stage composite** under closed versus open claim languages: **strict semantic expressivity**, with no promise of identifying the members of A′. Together they build the **pre-projection architectural-principles** result: why transferring only executions is semantically insufficient, why closed-result export can convey a false generalization, and how A/A′ plus a legitimate interpretation can transmit the **intended task and its open reach** without claiming to decide everything.
+TR-1–TR-3 establish the **pre-projection transfer limit and conditional soundness**; TR-4–TR-9 add **weak information dominance**, a strict finite-gain witness, non-total B/C/D boundaries, information equivalence and relative maximality. TR-10–TR-14 compare the **same effective K/D composite** under closed versus open semantic contracts, establish the meta-oracle barrier, and formalize an **epistemically complete reporting envelope** that can represent unexhausted meaning without pretending to identify its instances. Together they build the **pre-projection architectural-principles** result: why transferring only executions is semantically insufficient, why closed-result export can convey a false generalization, and how A/A′ plus a legitimate interpretation can transmit the **intended task and its open reach** without claiming to decide everything.
 
 The separate [2025 *Projection Mechanism*](https://www.researchgate.net/publication/393802750_The_Projection_Mechanism_How_Practical_Incompleteness_Infiltrates_Formal_Systems) and [2026 fourth revision](https://drive.google.com/file/d/1OrJ2LWz2qBv2sP8_-VNldWpctxZdwcfI/view) ask what happens when an unqualified representation is imported and operated upon as if it carried sufficient meaning. The *Projected Infinite Paradox* provides a historical motivation for distinguishing named finite constructions and population-level or limiting questions, but its broader ontological claims are not assumed as theorems here.
 
@@ -641,4 +796,4 @@ The next, distinct research question is **projection under an unqualified import
 - [01J current signalling annex](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) for the architecture's existing qualification of source-to-recipient meaning.
 - [Original *Projected Infinite Paradox* published route](https://www.researchgate.net/publication/393884759_The_Projected_Infinite_Paradox_Unifying_Constructivism_and_Platonism) — historical interpretation, not imported universal proof.
 
-**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
+**Documentary disposition:** implementation-neutral architectural mathematical principles, not a replacement for L1, 00M, 01J, any frozen original, or an implementation mandate. TR-1/TR-2 are elementary nonfactorization/indistinguishability consequences; TR-3 is a conditional soundness preservation proof. TR-4 is an instance of standard information refinement/Blackwell garbling; TR-5 is a finite strict-gain witness only for its independently declared receiving task; TR-6 is an open-prefix role-inventory lemma. TR-7 formalizes information equivalence of representations that preserve the same semantic distinctions; TR-8 proves the absence of a globally maximal total sound computable semantic classifier under H-EXP; TR-9 gives **relative maximality for a faithful carrier of the same fixed source-qualified information bundle**. TR-10 proves **strict semantic claim expressivity against the explicitly closure-only interface**; TR-11 establishes that reference to A′ does not identify its elements. TR-12 states the universal semantic/meta-separation oracle barrier, TR-13 proves **evidence-relative epistemic coverage completeness** of an open-intentional representation, and TR-14 formalizes **weak information preservation inside A** together with **strict claim expressivity about the outside-A semantic frontier**. These claims are different and must not be conflated. The bounded PR #60 follow-on and its PR #59 audit remain research, not findings promoted to this note. **Strict representational expressivity, weak Blackwell-type information refinement and strict downstream decision gain are distinct claims with distinct proofs.** No total A′ evaluator, exhaustive B/C/D oracle, universal maximality of all information, automatic ecosystem compatibility or empirical net superiority is claimed.
