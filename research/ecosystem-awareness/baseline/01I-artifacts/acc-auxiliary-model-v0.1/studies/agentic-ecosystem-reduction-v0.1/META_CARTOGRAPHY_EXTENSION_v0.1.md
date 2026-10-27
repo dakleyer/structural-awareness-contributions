@@ -44,17 +44,17 @@ At stage II the **existing PR57 claimed second-order near gain is 0.8**, not a n
 
 The added research code [residual_cartography_stage.py](residual_cartography_stage.py) exposes a **stage-II cartography record** and a **stage-III source-qualified rule proposal**. The latter has:
 
-- source scope, event ID and rule version;
-- COMMON_RESIDUAL_CANDIDATE label with four distinct local observer IDs;
+- source scope, event ID, **first observing agent ID** and rule version;
+- COMMON_RESIDUAL_CANDIDATE label with **the exact four expected source observer IDs**, not merely four arbitrary labels;
 - synthetic source-link qualification and the old authorized transfer action only if AG01's actual permission gates allow it;
 - compulsory receiving checks of version/source truth, target, capacity, consent, authority and cost;
 - explicit **broadcast_performed = false** and **full_external_population_identified = false** fields.
 
-Thus **emitting a new qualified syntax is implemented** but **network diffusion, external adoption or independent source authentication is not**. Meta-information does not grant another agent extra authority. The stage-II report is prefix-grounded: an earlier qualified observation is *recorded as earlier*, not falsely declared absent. The stage-III gate does not retroactively act on earlier events; genuine replay would require an additional explicitly qualified rule.
+Thus **emitting a new qualified syntax is implemented** but **network diffusion, external adoption or independent source authentication is not**. Meta-information does not grant another agent extra authority. The stage-II report is prefix-grounded: an earlier qualified observation is *recorded as earlier*, not falsely declared absent. The later first-observer/time is unknown at Stage II; the constructed Stage III event at **t=7 is first received by observer-2**, and that source ID is retained in the qualified meta-rule. The stage-III gate does not retroactively act on earlier events; genuine replay would require an additional explicitly qualified rule.
 
 ## Tests, negative controls and reproducibility
 
-[The new unittest module](test_residual_cartography_stage.py) adds **27 synthetic tests** (21 original additions plus 6 scope/rule-emission checks). It verifies all 16 local threshold combinations, exact same-source De Morgan conditions, source/event mismatches, malformed inputs, nonreceived candidates, absence of arrival, prefix honesty, stage1/2/3 values, actual output and held second-order .8, AG07 lack of consent, AG11 false-Q downside **Y=8.875 when misleading information is trusted**, and the strong conventional controller with **the same Q and event** also getting **Y=11.5**. It also verifies that a newly generated schema/rule is **not actually broadcast** and that a rejected action is not silently authorized.
+[The new unittest module](test_residual_cartography_stage.py) adds **30 synthetic tests** (21 original additions, 6 rule-emission checks and 3 capture/source-identity checks). It verifies all 16 local threshold combinations, exact same-source De Morgan conditions, source/event mismatches, malformed inputs, nonreceived candidates, absence of arrival, prefix honesty, stage1/2/3 values, actual output and held second-order .8, AG07 lack of consent, AG11 false-Q downside **Y=8.875 when misleading information is trusted**, and the strong conventional controller with **the same Q and event** also getting **Y=11.5**. It also verifies that a newly generated schema/rule is **not actually broadcast** and that a rejected action is not silently authorized.
 
 Run from repository root using Python standard library:
 
@@ -63,6 +63,6 @@ python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-arti
 python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/residual_cartography_stage.py
 ~~~
 
-**Source results preserved:** original AG01–AG30 cases, source Q fields, score functions, resource conservation, original 6 policies and reference sweep remain unchanged. This extension is on the **open PR57 research branch**, not automatically merged to main or canon. CI status must be evaluated on the **latest branch commit**; a prior successful run verified the first 21 extension tests, but it cannot substitute for verification of the six subsequent tests and later stage-II honesty fix.
+**Source results preserved:** original AG01–AG30 cases, source Q fields, score functions, resource conservation, original 6 policies and reference sweep remain unchanged. This extension is on the **open PR57 research branch**, not automatically merged to main or canon. CI must be checked on the latest branch commit: the earlier run validated 27 new tests, but not the final 3 capture/identity tests. The current expected total is **85 tests: 55 original PR57 + 30 extension**, subject to successful full-run log verification.
 
 **Failure conditions:** common blind region empty; no proof of objective value; invalid negative predicates; no event captured at ingress; no source-class-to-Q correspondence; permissions/consent blocked; infinite unknown waiting time without encounter fairness; unsafe/source-invalid Q; zero or negative gain; equally qualified conventional comparator ties. None is hidden or averaged away.
