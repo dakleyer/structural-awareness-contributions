@@ -26,6 +26,21 @@
 | [05 — External validation / falsifiers](./05_INDEPENDENT_VALIDATION_PROTOCOL.md) | Independent test design, weak/strong comparators and what would refute each claim |
 | [06 — Claim-to-evidence matrix](./06_CLAIM_AND_EVIDENCE_MATRIX.md) | Audit matrix and current epistemic status; specific external-review instructions |
 
+## New Theme #18 application annex (27 October 2026; Stage A)
+
+[Theme #18: trustworthiness of multi-objective agentic AI](https://github.com/FG-TIDA/themes/issues/18) is a **relevant research consumer**, not the author or approver of our architecture. The new application reads the actual choice-operator, voter-set, regime/mode/transition and external-evaluation discussion alongside current Regime Awareness and EA–RA/MSCA interface contracts:
+
+| New artifact | Use, evidence status and owner boundary |
+|---|---|
+| [07 — Theme #18 source-to-interface annex](./07_THEME18_COLLECTIVE_CHOICE_REGIME_ADEQUACY_INTERFACE_v0.1.md) | Source-grounded #18 landscape and candidate C18-REF → RA-OBS → EA-QUAL → external control/oversight handoff; **proposal**, not adopted ITU standard |
+| [08 — Testing model and ten scenarios](./08_THEME18_TEST_MODEL_AND_FIXTURES_v0.1.md) | Environmental change, expanded operation signature, conditional Q, AG01/AG11, voter-set change, Condorcet cycle, invalid context, aliased traces, population and no-extra-evidence controls; **prospective** |
+| [09 — Machine-readable finite fixtures](./09_THEME18_FINITE_FIXTURE_CASES_v0.1.json) | Ten expected cases; eight support finite mathematical/syntactic checks, two are **external-source references only**; predictions, not observed outcomes |
+| [Finite fixture checker](./test_theme18_finite_fixtures.py) | Python standard-library toy test skeleton: checks scoped mathematical predictions; **does not** implement Regime Awareness, a validated #18 operator assessor, or the RA–EA–#6 runtime interface |
+
+Local independent rerun from this directory: `python3 -B -m unittest discover -s . -p 'test_theme18_finite_fixtures.py' -v`. Passing these checks would verify **only the finite fixture arithmetic**, not the actual scientific/operational hypothesis. The analytical issue [PR #59 D26-F08](https://github.com/dakleyer/structural-awareness-contributions/pull/59) identifies a **Q-only vs A+Q** supplementary-evidence defect in §02/§03; the new annexes use the corrected conditional formulation without silently rewriting those sources. Separate owner review and synchronized source correction remain required.
+
+The independent social/agentic syntheses and simulation source in [PR #57](https://github.com/dakleyer/structural-awareness-contributions/pull/57) are **not merged by this edit**; the original AG01/AG11 results remain distinct and no old fixture/research proof is regraded. **External #18 discussion remains unchanged; no comment or attachment has been posted there by this PR.**
+
 ## Upstream, untouched
 
 - Canonical [00M v0.8 — A/B/C/D semantics](../../../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md): receiver-relative roles A, B, C, D, **not four enumerated state sets**.
