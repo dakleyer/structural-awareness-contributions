@@ -133,8 +133,45 @@ def three_stages(*, case_id: str = REFERENCE_AG01,
     else:
         final = q_review
         matched = a_only
+    source_scope = scenario["public"]["scope"]
+    stage_two_map = {
+        "formal_region": "AND(observer-i CERTIFIED_OUTSIDE_LOCAL_A, i=0..3)",
+        "feature_domain": "[0,1]^4",
+        "typed_threshold": THRESHOLD,
+        "source_scope": source_scope,
+        "independently_sourced_AG01_near_gain_lower_bound":
+            q_review["second_order_claimed_but_blocked_lower_bound"],
+        "no_matched_event_as_of_meta_exchange": True,
+        "unknown_future_encounter_time_and_agent": True,
+    }
+    # This is a serialized rule proposal, not real network publication or
+    # authorization for other actors to use a candidate.
+    schema_notice = None
+    if candidate is not None:
+        schema_notice = {
+            "schema": "SA-META-CARTOGRAPHY-QUALIFICATION-v0.1",
+            "event_id": candidate.event_id,
+            "source_scope": source_scope,
+            "rule_version": 1,
+            "meta_label": "COMMON_RESIDUAL_CANDIDATE",
+            "source_observers": meta["source_observers"],
+            "class_to_Q_source_is_synthetically_qualified":
+                assumed_class_to_q_source_valid,
+            "accepted_ordinary_action":
+                ("EXISTING_AUTHORIZED_TRANSFER" if final["plan"]["transfer"] > 0
+                 else "NO_ACTION_ALLOWED"),
+            "transfer_amount_if_authorized": final["plan"]["transfer"],
+            "receiver_must_revalidate": [
+                "scope", "source_version_and_truth", "target_question",
+                "operational_capability", "consent_and_authority", "cost"
+            ],
+            "broadcast_performed": False,
+            "full_external_population_identified": False,
+        }
     return {
         "case_id": case_id,
+        "stage_2_source_cartography": stage_two_map,
+        "stage_3_meta_syntax_message": schema_notice,
         "same_original_two_physical_providers": True,
         "new_cartographic_observers": N_OBSERVERS,
         "new_event_availability_gate": True,
@@ -182,6 +219,8 @@ def main() -> dict:
             x["stage_2"]["second_order_claimed_but_blocked_lower_bound"],
         "stage_3_captured": x["candidate_event_id"],
         "stage_3_label": x["meta_label"]["meta_label"],
+        "stage_2_cartography": x["stage_2_source_cartography"],
+        "stage_3_rule_message": x["stage_3_meta_syntax_message"],
         "finite_geometric_objective": x["candidate_quality_scored_by_separate_geometry_only"],
         "same_info_conventional_output":
             x["matched_conventional_with_same_q"]["observed_by_referee_only"]["output"],
