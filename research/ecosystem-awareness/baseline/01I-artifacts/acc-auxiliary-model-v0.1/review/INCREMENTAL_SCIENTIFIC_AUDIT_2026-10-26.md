@@ -1,5 +1,7 @@
 # Auditoría científica incremental — ACC, Conscientia y reducción agéntica
 
+> **Actualización de lectura — ronda16:** el [suplemento actual](#ronda-16) reconfirma los cierres numéricos en main, recibe la corrección de dominio en la rama60 y examina la nueva§15 del puente62. La guía conserva su estado tras la ronda15; esta actualización añade sus consecuencias y seis propuestas concretas sin reabrir los defectos corregidos.
+
 > **Lectura vigente — 28 octubre 2026, tras la ronda 14:** para orientarse, empiece por la [guía de lectura](incremental-audit-2026-10-26/GUIA_DE_LECTURA.md): estado vigente de los 71 registros, ideas clave en lenguaje llano, mapa de rondas y glosario. I-01 está **cerrado** (corregido en `main` por PR #64 y reconfirmado en la [ronda 13](#ronda-13)). Los encabezados de cada hallazgo conservan el estado que tenían al escribirse; el estado vigente está en la guía y en [`STATUS_LEDGER_2026-10-28.json`](incremental-audit-2026-10-26/STATUS_LEDGER_2026-10-28.json).
 >
 > *Lectura anterior, previa a la ronda 13 (se conserva):* **Lectura vigente — 28 octubre 2026:** la [ronda12](#ronda-12--relectura-del-corpus-y-estado-real-de-la-auditoría-28-octubre-2026) actualiza mejoras, observaciones y pendientes. PR60 recibió D3-A y nombres UC21/DDS; PR64 repara los ejemplos originales pero conserva un problema numérico nuevo; P5/Python3.9 ya tiene sucesor correcto en main. Los encabezados históricos se leen con las delimitaciones9–11: no expresan una valoración general del programa matemático. Las propuestas IP siguen pendientes de incorporación.
@@ -43,6 +45,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 13 | 2026-10-28 | [Reconfirmación de I-01 en `main`](#ronda-13--reconfirmación-de-i-01--m27-01--m28-01-en-main-28-10-2026) tras fusionar PR #64 | I-01 `CERRADO`; M27-01/M28-01 reconfirmados |
 | 14 | 2026-10-28 | [Revisión formal del expediente y guía de lectura](#ronda-14) | J-01 a J-08; [guía](incremental-audit-2026-10-26/GUIA_DE_LECTURA.md), registro de estados y 74 anclas estables |
 | 15 | 2026-10-28 | [Reconfirmación de M28-02 en la rama de #60](#ronda-15) | M28-02 `RESPONDIDO` (implementado en rama, pendiente de `main`) |
+| 16 | 2026-10-28 | [Relectura de cambios y cinco mecanismos](#ronda-16); [propuestas](incremental-audit-2026-10-26/ANNEX.md#11-ronda-16--recepción-y-propuestas-acotadas) | Cierres numéricos recibidos, dominio60 reconfirmado, próximos controles matemáticos y recepción59 |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -735,3 +738,66 @@ Reproducción: [`reconfirm_I01_2026-10-28.py`](incremental-audit-2026-10-26/reco
 
 **Disposición:** M28-02 pasa a `RESPONDIDO`: implementado en la rama de #60 y reconfirmado, pendiente de incorporarse a `main`. Se cerrará cuando #60 entre en `main` con este cambio. La corrección aplica el principio de que un certificado vale para su alcance y no más allá; no dice nada sobre la eficacia de un monitor desplegado. M28-03 y M28-04 mantienen su estado. Guía y registro de estados actualizados.
 
+
+
+<a id="ronda-16"></a>
+
+## Ronda 16 — cambios nuevos, cierres reconfirmados y desarrollo de cinco mecanismos (28-10-2026)
+
+**Auditoría realizada por Codex, asistencia de IA, por nueva instrucción de Iván.** Relectura incremental después de la ronda12, recibiendo también las rondas13–15 publicadas durante este trabajo. Se continúa el mismo PR58 y se conserva la guía de lectura creada por Claude. Es un examen focal de cambios y sus consumidores, no una auditoría integral nueva ni revisión humana independiente.
+
+### Qué ha avanzado realmente
+
+**Reconozco como corregidos mis hallazgos I01/M27-01/M27-02/M28-01 en el alcance numérico del runner de main51fc686.** El arreglo usa racionales exactos para factibilidad, envolvente y umbral, y redondeo exterior para presentar las cotas. He reejecutado72/72 pruebas y el comprobador de la ronda13:20.000 casos, cero certificados incorrectos,6.523 casos decidibles sin abstenciones adicionales. Los cuatro adversarios publicados y el testigo decimal de59 ya no producen el certificado falso. El positivo f(0)=1,f(1)=2,L=1 sigue apoyando f(0,5)≥1,25 con[1,5;1,5]; el informe sintético permanece igual. Se mantiene el cierre limitado que ya registró Claude; no conservar esos casos en mi cola de reparaciones pendientes.
+
+**M28-02 también está corregido y reconfirmado en la rama60, todavía fuera de main.** El commitcb72bb65 comprueba dominio entero antes de la guarda y de la evaluación completa; rechaza también alias booleanos/flotantes. He ejecutado33/33 pruebas del paquete, incluidas15 del fichero afectado, y repetido el adversario x=12 y controles de dominio. Mantener RESPONDIDO hasta incorporación, de acuerdo con la ronda15. M28-03(NaN/infinito) y el contrato temporal M28-04 siguen pendientes en su propio alcance.
+
+PR59 ya recibió las unidades técnicas de la ronda12 en la única01I VNext, con impacto/riesgo/esfuerzo, y retiró C01 de la cola de implementación al incorporarse64. D26-C04–07 figuran aplicados en la rama60. La recepción final de59(a3326843) ya retira también M28-02 de implementación: quedan siete unidades técnicas sin aplicar. Su propuesta D28-C03 distingue correctamente los alias de hallazgos relacionados: la tabla ayuda a navegar y el cierre no se transporta automáticamente entre registros distintos. No duplicar esta propuesta. Esa recepción era un pendiente de mi ronda12 y ahora está hecha. No volver a ofrecer el parche parcial de tolerancia como una alternativa al arreglo integrado.
+
+PR62 añadió§15: **cinco funciones intercambiables** para búsqueda de cambios de arquitectura: preselección estructural; mapa local de indeterminación con denominador; composición no fungible de posiciones; verificación acotada y gradiente/ACC; y RA independiente. Se distingue su objetivo de cambiar interfaces/roles/dependencias frente a ajustar parámetros de una arquitectura fija. Esta separación hace más claras las preguntas y pruebas de cada contribución, sin reemplazar los ocho propietarios de módulos EP.
+
+### Corte y lectura realizada
+
+| Fuente | Corte leído | Alcance efectivo |
+|---|---|---|
+| main / PR64 fusionado |51fc686f45b6ef10c53b69f4c26d0e381b007ff8| Tres archivos numéricos modificados; código, tests, lectura de README y referencia intacta |
+| PR58 |a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872| Rondas13–15, guía, registro, herramientas y comentarios; se distingue main heredado de la nueva revisión |
+| PR59 |a3326843aa9822b1d7a4c774531fc51818300125| Cuatro archivos de revisión con deltas nuevos: EP,01I,DDS y auditoría documental; siete propietarios en su diff contra main, tres sin cambio nuevo respecto del corte anterior |
+| PR62 |4421ff535f9b6c3d70f34882e505af35924f234c| Dos notas; nueva§15 y recepción en el puente |
+| PR60 |cb72bb65ab148de1c7396d9cb8f9c1b7af6edc25| Reparación de dominio; restantes fixtures y preguntas separadas |
+
+No atribuir los cambios de main recibidos como segundo padre de un PR de revisión a su autoría ni a una nueva aplicación de aquella revisión. Las fuentes históricas y rondas anteriores conservan su alcance. El registro y los hashes del acompañante fijan qué código se comprobó.
+
+### Dictamen sobre la matemática nueva y próximos entregables
+
+La inclusión de conjuntos al retirar una condición y la determinación relativa a una nueva regla conservan su demostración condicionada. La ventaja de trabajo frente a la rejilla completa de§13 también conserva sus hipótesis y procedimiento de referencia. §15 es, además, una **hipótesis arquitectónica y un protocolo de evaluación**: su aportación actual consiste en separar funciones, contratos y resultados a medir. No hace falta que cada primitiva sea nueva para investigar su integración; sí hace falta identificar el incremento comprobado y su receptor.
+
+1. **Coste del selector / M28-O1:** concretar la cautela ya escrita en FA-4. Coste medio condicionado al éxito compara subconjuntos distintos, incluso con la misma tasa de éxito. En100 tareas, A tiene50 éxitos de coste1 y50 fallos de coste100; B tiene50 éxitos de coste10 y50 fallos de coste1. El coste sobre éxitos favorece A(1<10), pero el coste completo favorece B(50,5>5,5). Propuesta: medir éxito, coste de todos los intentos y tiempo truncado hasta certificado en tareas pareadas; no declarar esto una refutación de CA-4. La fuente ya exige incluir fallos: la ficha hace esa exigencia explícita en la fórmula.
+2. **Composición no fungible / H06 y§15.3:** un control clásico XOR concreta la diferencia entre duplicar una fuente y complementarla. Cada fuente deja1bit sobre la pregunta; dos copias conservan1bit, pero la pareja complementaria deja0. Las tasas locales de UNKNOWN son iguales. Añadir alcance/versiones/permisos como controles separados. Es una ilustración matemática útil para probar el módulo, no una implementación de MSCA privado ni un teorema nuevo de información.
+3. **Comparación de mecanismos / F01-G01:** fijar quién proporciona etiquetas de consultas, ejemplos negativos, hipótesis, condición inicial segura y mutaciones permitidas, contando su coste. La bibliografía reúne métodos con contratos diferentes; un adaptador no disponible se declara como límite de aplicabilidad y no como fracaso de aquel método.
+4. **Suficiencia temporal / M28-O2:** sigue abierta la propuesta del modelo híbrido del anexo10. Añadir§15 y RA no demuestra por sí solo estabilidad, vigencia al uso ni aprendizaje. El siguiente artefacto debe definir flujo, cambio de versión, dato que cruza el cambio y cota/error relevante para la pregunta.
+
+Estas son concreciones de líneas y controles ya abiertos, no cuatro defectos científicos nuevos. Los ejemplos finitos se reproducen en el [acompañante16](incremental-audit-2026-10-26/recheck_corpus_round16_2026-10-28.py) y sus [resultados](incremental-audit-2026-10-26/ROUND16_RECHECK_2026-10-28.json):23 comprobaciones, cuatro blobs fijados. La copia local y la descarga pública dan el mismo contenido. Los diagnósticos aún abiertos pasan precisamente al reproducir el comportamiento pendiente; el PASS del acompañante no los repara.
+
+### Revisión de las propuestas y de la lectura
+
+La guía nueva mejora la consulta: estados, alias y anclas estables hacen visible el cierre. J01–J06 ya tienen esa respuesta documental; no se vuelven a denunciar como carencias sin atenderla. Mantengo la misma estructura y sus estados. La cronología dibujada sigue siendo el corte de15 rondas; esta ronda se enlaza como suplemento.
+
+La recepción59 también identifica trabajo restante de mis fichas:33 rutas siguen genéricas y el registro original no tiene valoración individual de impacto/riesgo/esfuerzo. Eso limita su preparación para incorporar, no el valor de la explicación. Hay que completar la identidad/receptor de cada operación en su propietario existente; no abrir otra VNext. Las fichas IP y la aceptación de sus autores no se convierten en aplicación por esta recepción.
+
+Se proponen **seis unidades exactas**, en el [anexo11](incremental-audit-2026-10-26/ANNEX.md#11-ronda-16--recepción-y-propuestas-acotadas), con receptor e impacto/riesgo/esfuerzo: señal de fallo del comprobador13; estimando FA-4; control XOR; contrato de consultas; puntero vigente en01I; e IP43 para que el nuevo resumen de lectura afirme primero los resultados concretos conservados. La mejora del comprobador es de uso futuro y no bloquea el cierre numérico reconfirmado: el resultado observado fue realmente cero errores.
+
+### Pendientes vigentes tras recibir las correcciones
+
+| Unidad | Estado y siguiente acción |
+|---|---|
+| I01 / M27-01/02 / M28-01 / familia D28-F01 | Corregido en main y reconfirmado; cierre numérico acotado recibido. Autenticidad de fuentes y validez empírica de L son premisas distintas, no reapertura de este fallo |
+| M28-02 | Implementado y reconfirmado en rama60; falta incorporación y recepción final |
+| M28-03/04 | Validación de cota finita y vigencia al uso pendientes; fuente60 conserva el casoNaN y carece de reloj de decisión |
+| M28-07 y herramienta13 | Higiene de salida/caché ya propuesta; señal de discrepancia mediante código de salida ahora precisada; no aplicar ambas cosas como un cambio científico |
+| M28-06 / recepción59 | Recepción realizada; punteros iniciales «Current» necesitan transportar el estado más reciente, preservando cortes66/68 como historia |
+| IP01–42 y nuevo resumen IP43 | Incorporación editorial pendiente. La guía y las respuestas mejoran comprensión, pero no sustituyen los reemplazos de las fuentes. Mantener crítica local y contribución positiva con su dimensión |
+| TAX26 y D28 documentales | Selección de unidades fuente pendiente. C01 ya no pertenece a esa selección; C04–07 no deben aplicarse dos veces en60 |
+| N/F/G/H, originales y líneas temporales/poblacionales | Conservan los estados de la guía y los límites de revisión efectiva. El cierre de un runner o el nuevo mapa§15 no completa las lecturas pendientes de#44–46/#28/#40/#51/#21/#22/#5/#18 |
+
+La recepción y los seis candidatos viven en este mismo PR. Esta ronda no incorpora cambios en fuentes científicas ni en otros PR; la guía y su registro conservan sus estados71. Se actualiza la lectura actual del expediente y se mantiene abierta la siguiente unidad concreta de trabajo.

@@ -997,3 +997,164 @@ Codex, AI-assisted review requested by Iván. This receives the concurrent round
 **Additional plan review — M28-04-TIME:** the proposed function needs a finite/typed decision-time contract and complete caller units before execution. With capture 1, expiry 3 and an otherwise matching certificate, passing decision_time=NaN makes both comparisons false and currently yields ADMISSIBLE_FOR_NEW_REVIEW in that proposed function. This is a counterexample to the **candidate patch's input contract**, not a new allegation about deployed runtime. Select historical validity versus validity at use, provide the missing caller before/after units and expiry-boundary tests, and complete the existing proposal. Do not apply only its signature change or create a second competing plan.
 
 The main comparison retains all prior paths/modes and frozen-reference bytes. The two working PR62 papers have valid local outgoing routes but only mutual incoming routes in the preview; a selected optional-research index entry remains their navigation dependency. Main's earlier known-case/prospective clarification and P5's successful three-cell reproduction remain incorporated. Full-process comparative evidence, depth/access experiments, remaining original-source adjudications and mathematical developments retain rounds 12/13's actual pending scopes.
+
+
+## 11. Ronda 16 — recepción y propuestas acotadas
+
+Revisión de Codex, asistida por IA. La [ronda16](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-16) recibe los cierres numéricos y el arreglo de dominio. Los siguientes son candidatos de desarrollo, edición y herramienta, no una nueva lista de defectos del runner reparado.
+
+### Fuentes primarias consultadas para§15
+
+| Antecedente | Lectura efectiva en esta ronda y consecuencia |
+|---|---|
+| [Zhang–Ji2005, AAAI](https://cdn.aaai.org/AAAI/2005/AAAI05-195.pdf) | Lectura focal de resumen, introducción y modelo/criterio: selección de sensores con coste y sinergia en una red probabilística. Es un antecedente pertinente; no aporta directamente el contrato de transición de roles de este corpus. |
+| [Williams–Beer2010, PID](https://arxiv.org/abs/1004.2515) | Resumen y ficha de autores: información redundante y sinérgica. Sirve para precisar el control XOR; no acredita eficacia de la integración§15. |
+| [Bessiere et al.2013, IJCAI](https://www.ijcai.org/Abstract/13/078) | Resumen: el usuario clasifica asignaciones parciales. El proveedor de respuestas es un recurso que la comparación debe identificar y contabilizar. |
+| [Lenguajes de restricciones desconocidos2023, IJCAI](https://www.ijcai.org/proceedings/2023/208) | Resumen y pasajes introductorios: aprendizaje desde soluciones/no soluciones y lenguaje inferido. No describirlo como si necesitara enumerar de antemano todos los candidatos ni como un servicio de consultas equivalente al de2013. |
+| [SafeOpt2015, PMLR](https://proceedings.mlr.press/v37/sui15.html) | Resumen y ficha primaria: exploración con condiciones de regularidad y seguridad. Para adaptarlo a transiciones de arquitectura se necesita una correspondencia declarada de entradas/acciones/efectos. |
+| [Rainbow ICAC2004, IEEE](https://ieeexplore.ieee.org/abstract/document/1301377) y [Computer2004, autores](https://www.cs.cmu.edu/~able/publications/computer04/) | Resúmenes y atribución confirmados; son dos ediciones relacionadas y el DOI ICAC citado es correcto. Antecedente de monitorización/adaptación con modelos de arquitectura. No se registra un supuesto error de referencia que esta consulta descarta. |
+
+La página2024 citada en§15 no se pudo recuperar en esta ronda; tampoco se ha completado una lectura sistemática de toda la bibliografía ni de sus demostraciones. Estas lecturas focales apoyan las correspondencias de contratos y la selección de comparadores, no una conclusión de originalidad o equivalencia global. El contenido interno propietario de MSCA no se solicita ni se publica.
+
+### Unidades antes/después
+
+Son propuestas para sus receptores existentes. Las preimágenes son únicas, fijadas y reversibles; no se aplican al publicar esta sección. Se conservan los identificadores FA-4 y las rutas de lectura.
+
+#### R16-P01
+
+**Propuesta; no aplicada.** [Unidad fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/reconfirm_I01_2026-10-28.py#L55). Receptor: Herramienta de reconfirmación del propio PR58; complemento de J08, no reabrir I01. Impacto Medium / riesgo Low / esfuerzo Low.
+
+El script imprime discrepancias pero termina con éxito incluso si bad/lost son positivos. Hacer útil su código de salida si se incorpora a verificación automática. No afecta la corrección del runner ni invalida los cero errores realmente observados.
+
+**ANTES — unidad completa**
+
+~~~text
+print("exactly decidable cases:",dec,"| code abstained or differed:",lost)
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+print("exactly decidable cases:",dec,"| code abstained or differed:",lost)
+if bad or lost:
+    raise SystemExit(1)
+~~~
+
+#### R16-P02
+
+**Propuesta; no aplicada.** [Unidad fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/4421ff535f9b6c3d70f34882e505af35924f234c/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#L795). Receptor: Nota de investigación62 §15.4; propietario actual; mantener FA-4 y métricas no fungibles. Impacto High / riesgo Medium / esfuerzo Medium.
+
+Formalizar la cautela que §15.4 ya expresa: condicionar cada brazo a su propio éxito selecciona muestras distintas. La ilustración de la ronda conserva el mismo50% de éxito y aun así invierte el orden de costes. Es una concreción de M28-O1, no un fallo nuevo de CA-4.
+
+**ANTES — unidad completa**
+
+~~~text
+The expected advantage is **conditional**:
+
+\[
+\mathbb{E}[C_{\rm five}\mid \text{validated, authorized gain}\geq g]
+<
+\mathbb{E}[C_{\rm comparator}\mid \text{same evidence, gain}\geq g],
+\tag{FA-4}
+\]
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+For each policy j on the same paired tasks and a predeclared horizon tau, let S_j indicate a certified authorized gain at least g, T_j the time to its first such certificate (infinity if absent), and C_j the actual cost of every attempt, including failures. Report
+
+\[
+p_j=\Pr(S_j=1),\qquad
+\overline C_j=\mathbb E[C_j],\qquad
+\overline T_j=\mathbb E[\min(T_j,\tau)].
+\tag{FA-4}
+\]
+
+Cost conditional on S_j=1 is a secondary description of successful runs. At matched valid-witness recall, compare complete costs on all tasks; any time/cost trade-off needs its declared decision profile. A lower success-conditioned mean alone does not establish lower total cost. The existing requirement below to report misses and unconditional work remains operative.
+~~~
+
+#### R16-P03
+
+**Propuesta; no aplicada.** [Unidad fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/4421ff535f9b6c3d70f34882e505af35924f234c/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#L764). Receptor: Nota62 §15.3; desarrollo finito de H06/contraste PID; sin divulgar MSCA privado. Impacto High / riesgo Low / esfuerzo Medium.
+
+Dar un control positivo y negativo ejecutable a la composición no fungible: la tasa UNKNOWN no identifica por sí sola la información conjunta. Se preservan procedencia, alcance y autorización.
+
+**ANTES — unidad completa**
+
+~~~text
+A source may withhold, aggregate or mark a field UNKNOWN under its confidentiality/ACC rules; the receiver must not infer missing detail. These are **functional requirements on interoperability**, not the proprietary by-leaves composition algorithm or a new canonical MSCA schema. The receiving EA/EHD/Cartography route preserves reference identity and anti-correlation checks. Independent sources can improve spatial/architectural localization, like complementary sensors with different blind spots; a composed residual hotspot is an **exploration hint**, not a truth oracle. There remains an unobserved remainder at every level.
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+A source may withhold, aggregate or mark a field UNKNOWN under its confidentiality/ACC rules; the receiver must not infer missing detail. These are **functional requirements on interoperability**, not the proprietary by-leaves composition algorithm or a new canonical MSCA schema. The receiving EA/EHD/Cartography route preserves reference identity and anti-correlation checks. Independent sources can improve spatial/architectural localization, like complementary sensors with different blind spots; a composed residual hotspot is an **exploration hint**, not a truth oracle. There remains an unobserved remainder at every level.
+
+**Classical finite composition control.** Let X0 and X1 be independent fair bits and Y=X0 XOR X1. Each single source leaves H(Y|Xi)=1 bit and is unresolved about Y on every exposure. Repeating X0 still leaves one bit; receiving the complementary X1 gives H(Y|X0,X1)=0. The local UNKNOWN rates are identical, yet duplicate and complementary composition have different target discrimination. Use this as a bounded control for mechanism3, with the same object/question/version and legitimate disclosure; add separate incompatible-scope, correlated-clone and permission-denied cases. This is a standard four-world example, not a new Shannon/PID theorem, an implementation of proprietary MSCA internals or a measured ecosystem benefit.
+~~~
+
+#### R16-P04
+
+**Propuesta; no aplicada.** [Unidad fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/4421ff535f9b6c3d70f34882e505af35924f234c/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#L830). Receptor: Nota62 §15.6; complemento del protocolo G01/F01; revisión sólo funcional, sin cambiar dueños. Impacto High / riesgo Low / esfuerzo Medium.
+
+Convertir los antecedentes en comparadores implementables. QuAcq2013 pide etiquetas de asignaciones parciales; el trabajo de lenguaje desconocido2023 parte de ejemplos; SafeOpt supone regularidad. Los recursos de esos contratos deben ser explícitos y pagados.
+
+**ANTES — unidad completa**
+
+~~~text
+- **Primary endpoints:** proportion of **independently certified, ACC-authorized ecosystem architectural gains** at fixed evaluation budget; full time/resources to **first** certified transition meeting declared shortfall improvement \(g\); ability to identify a valid gate and correctly reject hard constraints; missed high-value opportunities against an auditable bounded ground-truth fixture.
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+- **Information and query contract for each comparator:** fix the supplied examples, allowed queries and answer provider, label/oracle cost, initial feasible seed and regularity/model assumptions, permitted architecture mutations, disclosure rights and human approval time. Distinguish passive labelled-example acquisition from active partial-query learning and safe sequential optimization. Missing a legitimate oracle or adapter is a declared applicability limit; it is not a scored failure of that technology.
+- **Primary endpoints:** proportion of **independently certified, ACC-authorized ecosystem architectural gains** at fixed evaluation budget; full time/resources to **first** certified transition meeting declared shortfall improvement \(g\); ability to identify a valid gate and correctly reject hard constraints; missed high-value opportunities against an auditable bounded ground-truth fixture.
+~~~
+
+#### R16-P05
+
+**Propuesta; no aplicada.** [Unidad fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/a3326843aa9822b1d7a4c774531fc51818300125/research/ecosystem-awareness/baseline/01I_VNext.md#L243). Receptor: Única01I VNext de PR59; concreción de M28-06, no nueva cola. Impacto High / riesgo Low / esfuerzo Low.
+
+La recepción final ya cierra C01 y retira M28-02 de implementación, pero las tablas «Current» del comienzo conservan el estado candidato anterior. Un puntero vigente evita volver a aplicar o auditar como pendiente la reparación recibida.
+
+**ANTES — unidad completa**
+
+~~~text
+## Current-source reconciliation and promotion queue — 28 October 2026
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+## Current-source reconciliation and promotion queue — 28 October 2026
+
+**Current reading after incorporation51fc686:** D26-C01/I01/M27-01/02/M28-01 are repaired in main and technically reconfirmed. The66/68-test statements and candidate-only status below describe earlier cuts preserved as history; use the applied receipt above for the current disposition. D26-C04–07 remain implemented in branch60; M28-02 subsequently advanced there atcb72bb65, pending incorporation. Other source selections retain their own status.
+~~~
+
+#### IP-43
+
+**Propuesta; no aplicada.** [Unidad fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/GUIA_DE_LECTURA.md#L30). Receptor: Guía de lectura de PR58; misma política interpretativa, sin cambiar estados ni autoría. Impacto High / riesgo Low / esfuerzo Low.
+
+Transportar la pauta afirmativa de IP01–42 al nuevo resumen para lectores: decir primero qué se ha demostrado y después qué pregunta compara cada control. Preservar críticas locales y estados, evitando una conclusión global abreviada.
+
+**ANTES — unidad completa**
+
+~~~text
+- **Qué ha encontrado, en grande.**
+  - Las matemáticas finitas que se han comprobado son correctas bajo sus supuestos.
+  - Varias comparaciones y «experimentos» dan el resultado que ya estaba escrito en sus datos o en su código. Sirven como comprobaciones, pero no prueban una ventaja.
+  - Hubo un fallo real de cálculo (I-01), que ya está corregido en la rama principal y reconfirmado.
+
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+- **Qué ha encontrado, en grande.**
+  - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
+  - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
+  - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama60; su incorporación sigue pendiente.
+
+~~~
