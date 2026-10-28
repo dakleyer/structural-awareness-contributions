@@ -98,6 +98,27 @@ class LocalSufficiency(unittest.TestCase):
         result=qualify(frame(lipschitz=0),q(x=0,threshold=5e-14),points)
         self.assertEqual(result["local_answer_status"],"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
 
+    def test_tiny_empty_intersection_cannot_certify_false(self):
+        points=(sample(y_min=1e-13,y_max=1e-13),
+                sample(claim_id="p2",origin_id="s2",y_min=0,y_max=0))
+        result=qualify(frame(lipschitz=0),q(x=0,threshold=2e-13),points)
+        self.assertEqual(result["local_answer_status"],"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+
+    def test_joint_consistency_preserves_a_real_local_positive_control(self):
+        # The strict consistency guards must not erase a qualified opportunity.
+        # This is a source-conditional finite certificate, not global closure.
+        points=(sample(y_min=1,y_max=1),
+                sample(claim_id="p2",origin_id="s2",x_min=1,x_max=1,y_min=2,y_max=2))
+        result=qualify(frame(lipschitz=1),q(x=0.5,threshold=1.25),points)
+        self.assertEqual(result["local_answer_status"],"LOCALLY_SUPPORTED_TRUE")
+        self.assertEqual(result["conditional_answer_bounds"],[1.5,1.5])
+        self.assertEqual(result["residual_exterior"],"OPEN_NOT_ENUMERATED_OR_PROBABILIZED")
+        review=advisory(result["local_answer_status"],owner_authorized=True,
+            actor_consent="GRANTED",solidarity_elected=False,
+            nonwaivable_rights_preserved=True)
+        self.assertEqual(review["advisory_status"],"QUALIFIED_POSITIVE_FOR_OWNER")
+        self.assertFalse(review["automatic_action"])
+
     def test_local_overlap_does_not_hide_global_source_conflict(self):
         points=(sample(y_min=0,y_max=0),
                 sample(claim_id="p2",origin_id="s2",y_min=2,y_max=2))
