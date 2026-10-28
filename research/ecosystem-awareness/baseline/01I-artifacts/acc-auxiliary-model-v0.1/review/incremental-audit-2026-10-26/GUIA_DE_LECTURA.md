@@ -2,7 +2,7 @@
 
 **Para quién:** cualquier persona que quiera entender qué dice la [auditoría](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md) sin ser especialista en matemáticas ni en programación.
 **Tiempo de lectura:** 10 minutos para las secciones 1 a 5. El resto es para consultar.
-**Fecha del estado que se describe:** 28 de octubre de 2026, después de la ronda 15.
+**Fecha del estado que se describe:** 28 de octubre de 2026, después de la ronda 17.
 **Autoría:** guía preparada por Claude (asistente de IA) a petición de Iván Abril Palma. Resume lo que dice la auditoría; no añade juicios científicos nuevos ni sustituye una revisión humana independiente.
 
 ## Índice
@@ -17,7 +17,7 @@
 8. [Qué falta para cerrar lo que está cerca](#8-qué-falta-para-cerrar-lo-que-está-cerca)
 9. [Por dónde empezar según quién seas](#9-por-dónde-empezar-según-quién-seas)
 10. [Mapa del expediente: dónde está cada ronda](#10-mapa-del-expediente-dónde-está-cada-ronda)
-11. [Los 71 registros, uno por uno](#11-los-71-registros-uno-por-uno)
+11. [Los 79 registros, uno por uno](#11-los-79-registros-uno-por-uno)
 12. [Glosario en lenguaje llano](#12-glosario-en-lenguaje-llano)
 13. [Cómo se ha hecho esta guía](#13-cómo-se-ha-hecho-esta-guía)
 
@@ -31,24 +31,24 @@
   - Las matemáticas finitas que se han comprobado son correctas bajo sus supuestos.
   - Varias comparaciones y «experimentos» dan el resultado que ya estaba escrito en sus datos o en su código. Sirven como comprobaciones, pero no prueban una ventaja.
   - Hubo un fallo real de cálculo (I-01), que ya está corregido en la rama principal y reconfirmado.
-- **Dónde estamos.** La auditoría tiene 63 registros sobre el contenido y 8 sobre la forma del propio expediente: 71 en total. De ellos, 36 siguen abiertos, 14 tienen respuesta pendiente de incorporarse o de confirmar, 6 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 71 registros sobre el contenido y 8 sobre la forma del propio expediente: 79 en total. De ellos, 40 siguen abiertos, 14 tienen respuesta pendiente de incorporarse o de confirmar, 9 están cerrados o verificados y 16 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
 
-![Línea de tiempo de las 15 rondas de auditoría y su autor](figures/ROUNDS_timeline.svg)
+![Línea de tiempo de las 17 rondas de auditoría y su autor](figures/ROUNDS_timeline.svg)
 
 | Rondas | Autor | Qué aportan |
 |---|---|---|
-| 1–6, 13–15 | Claude, asistente de IA | Hallazgos sobre la nota al revisor, el código de #57 y #54, la campaña de 60 casos y el modelo social; figuras, referencias, reconfirmación de I-01 y M28-02, revisión formal y esta guía |
-| 7–9 y 12 | Codex, asistente de IA, a petición de Iván | Conexión con otros PR, revisión del corpus matemático, guía de lectura de comparaciones, relectura del 28 de octubre |
+| 1–6, 13–15 y 17 | Claude, asistente de IA | Hallazgos sobre la nota al revisor, el código de #57 y #54, la campaña de 60 casos y el modelo social; figuras, referencias, reconfirmación de I-01 y M28-02, revisión formal, esta guía y el resto del modelo social (#44–#46) |
+| 7–9, 12 y 16 | Codex, asistente de IA, a petición de Iván | Conexión con otros PR, revisión del corpus matemático, guía de lectura de comparaciones, relecturas del 28 de octubre y desarrollo de cinco mecanismos |
 | 10–11 | Codex, recogiendo decisiones y correcciones de alcance de Iván | Precisan hasta dónde llegan H-01, H-03, F-01, G-01 y F-06, y reciben el arreglo de #64 |
 
 Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», pero sigue sin ser una validación humana.
 
 ## 3. Cómo está todo ahora
 
-![Estado de los 71 registros de la auditoría por familia](figures/STATUS_by_family.svg)
+![Estado de los 79 registros de la auditoría por familia](figures/STATUS_by_family.svg)
 
 **Vista en tabla** (los mismos datos que la figura):
 
@@ -63,7 +63,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M28 · Relectura | 2 | 1 | 1 | 2 | 1 | 7 |
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
-| **Total** | **36** | **14** | **6** | **10** | **5** | **71** |
+| K · Modelo social #44–#46 | 4 | 0 | 3 | 1 | 0 | 8 |
+| **Total** | **40** | **14** | **9** | **11** | **5** | **79** |
 
 **Qué significa cada estado:**
 
@@ -121,6 +122,19 @@ La «trampa» de #42 muestra un estado mejor al que no se puede llegar paso a pa
 **I-01 · Un redondeo que convierte «casi» en «sí».**
 La función `qualify` decide si la evidencia basta para afirmar algo. Con datos que se contradecían por una diferencia minúscula, el redondeo de la calculadora borraba esa diferencia y la función respondía «verdadero». Es como una báscula que redondea 49,999 kg a 50 kg y deja pasar una maleta que no cumple el límite de 50 kg. Ya está corregido: la función usa ahora fracciones exactas. La sección siguiente cuenta el proceso completo.
 
+### Añadido en la ronda 17
+
+**K-02 · Dos plazas libres que son la misma plaza.**
+En #44, una fuente puede emitir un certificado B: «si me pides 2 unidades más, te puedo dar 1». Si dos fuentes distintas dependen del mismo cuello de botella, cada una calcula su certificado por separado y las dos dicen «1 más». Es como si dos personas te dijeran «queda una plaza libre en el coche» refiriéndose al mismo coche: cada frase es verdad, pero juntas no caben dos. Cada certificado vale para su pregunta, no para varias preguntas a la vez.
+
+**K-01 · Lo barato en pequeño no siempre lo es en grande.**
+En el ejemplo de #44, con 16 hojas, el certificado B sale más barato que una inspección dirigida. Pero el coste de B crece con la profundidad del árbol y el de la inspección está fijado. Con los costes del propio estudio, a partir de 128 hojas la inspección dirigida empata o gana. El resultado depende del tamaño, no sólo del método.
+
+![Valor neto de B y de la inspección dirigida frente al número de hojas](figures/K01_B_vs_targeted_by_size.svg)
+
+**K-08 · La pieza que faltaba ya estaba en el corpus.**
+H-01 echaba en falta una elección racional para hablar de «subóptimo racional». El estudio #46 ya calcula cuándo un actor prudente prefiere quedarse aunque cambiar rinda más de media: cuando el cambio es mucho más incierto. Juntar esa regla con la restricción conjunta de #42 da el juego de coordinación que pedía H-01, sin inventar dimensiones nuevas.
+
 ## 6. El viaje completo de un hallazgo: I-01
 
 Este es el único hallazgo que ha recorrido todo el ciclo. Sirve de modelo de cómo debería funcionar la auditoría.
@@ -160,6 +174,7 @@ Distintas revisiones han dado nombres diferentes al mismo problema. Esta tabla e
 |---|---|
 | N, F, G, H, I | Hallazgos de Claude en este PR (rondas 1–6) |
 | J | Revisión formal del expediente de Claude (ronda 14) |
+| K | Hallazgos de Claude sobre #44, #45 y #46 (ronda 17) |
 | M27, M28 | Hallazgos de Codex del 27 y 28 de octubre (rondas 8 y 12) |
 | M27-O, M28-O | Líneas de desarrollo propuestas, no errores |
 | D26-F, D26-C | Revisión diaria de Codex en el PR #59: F es un fallo, C una corrección propuesta |
@@ -216,8 +231,10 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 13 | 28 oct | Claude | I-01 reconfirmado y cerrado | [ronda 13](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-13) |
 | 14 | 28 oct | Claude | Revisión formal del expediente y esta guía | [ronda 14](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-14) |
 | 15 | 28 oct | Claude | M28-02 reconfirmado en la rama de #60 | [ronda 15](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-15) |
+| 16 | 28 oct | Codex | Cierres reconfirmados, recepción de #59/#60/#62 y cinco mecanismos de §15 | [ronda 16](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-16) · [anexo §11](ANNEX.md#11-ronda-16--recepción-y-propuestas-acotadas) |
+| 17 | 28 oct | Claude | Modelo social #44–#46 (K-01 a K-08) | [ronda 17](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-17) |
 
-## 11. Los 71 registros, uno por uno
+## 11. Los 79 registros, uno por uno
 
 Haz clic en cada familia para desplegarla. Cada identificador enlaza con su texto completo en la auditoría. Esta sección la genera [`reader_guide_build.py`](reader_guide_build.py) a partir de [`STATUS_LEDGER_2026-10-28.json`](STATUS_LEDGER_2026-10-28.json), para que no se desajuste con el expediente.
 
@@ -364,6 +381,21 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
+<details><summary><b>K · Modelo social #44–#46 (ronda 17)</b> — 8 registros, 4 abiertos</summary>
+
+| ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
+|---|---|---|---|---|
+| [K-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-01) | 🔵 Abierto | Media | #44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas. | 17 |
+| [K-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-02) | 🔵 Abierto | Media | #44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido. | 17 |
+| [K-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-03) | 🔵 Abierto | Baja | #44: el informe escribe a mano dos ganancias (2 y 0); son correctas, pero no se calculan. | 17 |
+| [K-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-04) | 🟢 Verificado | Informativo | #44: el mismo A con respuestas futuras distintas, el certificado por trayecto y las cotas de bits son correctos. | 17 |
+| [K-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-05) | 🟢 Verificado | Informativo | #45: el orden derechos > autorización > consentimiento > evidencia es correcto y nunca actúa solo. | 17 |
+| [K-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-06) | 🟢 Verificado | Informativo | #46: equivalentes ciertos, ejemplos y umbral de varianza recalculados: correctos. | 17 |
+| [K-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-07) | 🔵 Abierto | Media | #46: compara una media de lotería (14) con un bienestar neto estipulado (17) sin escala común declarada. | 17 |
+| [K-08](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-08) | 🟡 Propuesta | — | #46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación. | 17 |
+
+</details>
+
 <!-- LEDGER:END -->
 
 ## 12. Glosario en lenguaje llano
@@ -390,6 +422,6 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 ## 13. Cómo se ha hecho esta guía
 
 - Los estados vigentes se han tomado de la última ronda que los decidió, citada en la columna «Ronda que fijó el estado». Están en [`STATUS_LEDGER_2026-10-28.json`](STATUS_LEDGER_2026-10-28.json).
-- [`reader_guide_build.py`](reader_guide_build.py) regenera las dos figuras nuevas, la tabla de la sección 11 y el registro de estados. También comprueba que los 71 identificadores existen en la auditoría, que todos los hallazgos de la auditoría están en el registro y que todos los enlaces internos llevan a su destino.
+- [`reader_guide_build.py`](reader_guide_build.py) regenera las dos figuras nuevas, la tabla de la sección 11 y el registro de estados. También comprueba que los 79 identificadores existen en la auditoría, que la fila de totales de la sección 3 coincide con el registro, que todos los hallazgos de la auditoría están en el registro y que todos los enlaces internos llevan a su destino.
 - Las comparaciones cotidianas de la sección 5 simplifican a propósito. Cuando haya duda, manda el texto completo del hallazgo enlazado.
 - Colores: paleta categórica validada para visión de color atípica y para modo oscuro. Como algunos colores tienen poco contraste con el fondo claro, cada tramo lleva su número escrito y hay una vista en tabla.

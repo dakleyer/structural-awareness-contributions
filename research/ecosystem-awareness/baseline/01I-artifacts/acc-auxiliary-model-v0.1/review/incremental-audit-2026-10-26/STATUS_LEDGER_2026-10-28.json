@@ -12,11 +12,11 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 36,
+    "ABIERTO": 40,
     "RESPONDIDO": 14,
     "CERRADO": 4,
-    "VERIFICADO": 2,
-    "PROPUESTA": 10,
+    "VERIFICADO": 5,
+    "PROPUESTA": 11,
     "RETIRADO": 2,
     "INFORMATIVO": 3
   },
@@ -97,6 +97,13 @@
         6,
         1,
         0,
+        0
+      ],
+      "K": [
+        4,
+        0,
+        3,
+        1,
         0
       ]
     }
@@ -669,6 +676,70 @@
       "state": "VERIFICADO",
       "set_in_round": 14,
       "summary": "Enlaces internos y versiones fijadas: ninguno roto."
+    },
+    {
+      "id": "K-01",
+      "family": "K",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 17,
+      "summary": "#44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas."
+    },
+    {
+      "id": "K-02",
+      "family": "K",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 17,
+      "summary": "#44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido."
+    },
+    {
+      "id": "K-03",
+      "family": "K",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 17,
+      "summary": "#44: el informe escribe a mano dos ganancias (2 y 0); son correctas, pero no se calculan."
+    },
+    {
+      "id": "K-04",
+      "family": "K",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 17,
+      "summary": "#44: el mismo A con respuestas futuras distintas, el certificado por trayecto y las cotas de bits son correctos."
+    },
+    {
+      "id": "K-05",
+      "family": "K",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 17,
+      "summary": "#45: el orden derechos > autorización > consentimiento > evidencia es correcto y nunca actúa solo."
+    },
+    {
+      "id": "K-06",
+      "family": "K",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 17,
+      "summary": "#46: equivalentes ciertos, ejemplos y umbral de varianza recalculados: correctos."
+    },
+    {
+      "id": "K-07",
+      "family": "K",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 17,
+      "summary": "#46: compara una media de lotería (14) con un bienestar neto estipulado (17) sin escala común declarada."
+    },
+    {
+      "id": "K-08",
+      "family": "K",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 17,
+      "summary": "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."
     }
   ],
   "aliases": [
@@ -721,11 +792,30 @@
     }
   ],
   "checks": {
-    "ledger_ids": 71,
+    "ledger_ids": 79,
     "duplicate_ids": 0,
     "ledger_ids_absent_from_audit": [],
     "audit_ids_absent_from_ledger": [],
     "ledger_ids_without_stable_anchor": [],
+    "guide_totals_row": {
+      "guide": [
+        40,
+        14,
+        9,
+        11,
+        5,
+        79
+      ],
+      "ledger": [
+        40,
+        14,
+        9,
+        11,
+        5,
+        79
+      ],
+      "ok": true
+    },
     "broken_local_anchors": {
       "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md": [],
       "ANNEX.md": [],

@@ -112,6 +112,14 @@ LEDGER = [
     ("J-06", "J", "Baja", "RESPONDIDO", 14, "Se usaban más estados de los que la cabecera declaraba."),
     ("J-07", "J", "Baja", "ABIERTO", 14, "El expediente mezcla español e inglés; falta decidir un idioma."),
     ("J-08", "J", "Informativo", "VERIFICADO", 14, "Enlaces internos y versiones fijadas: ninguno roto."),
+    ("K-01", "K", "Media", "ABIERTO", 17, "#44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas."),
+    ("K-02", "K", "Media", "ABIERTO", 17, "#44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido."),
+    ("K-03", "K", "Baja", "ABIERTO", 17, "#44: el informe escribe a mano dos ganancias (2 y 0); son correctas, pero no se calculan."),
+    ("K-04", "K", "Informativo", "VERIFICADO", 17, "#44: el mismo A con respuestas futuras distintas, el certificado por trayecto y las cotas de bits son correctos."),
+    ("K-05", "K", "Informativo", "VERIFICADO", 17, "#45: el orden derechos > autorización > consentimiento > evidencia es correcto y nunca actúa solo."),
+    ("K-06", "K", "Informativo", "VERIFICADO", 17, "#46: equivalentes ciertos, ejemplos y umbral de varianza recalculados: correctos."),
+    ("K-07", "K", "Media", "ABIERTO", 17, "#46: compara una media de lotería (14) con un bienestar neto estipulado (17) sin escala común declarada."),
+    ("K-08", "K", "—", "PROPUESTA", 17, "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."),
 ]
 
 FAMILIES = (
@@ -125,6 +133,7 @@ FAMILIES = (
     ("M27-O", "Líneas de desarrollo (27 oct)"),
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
+    ("K", "Modelo social #44–#46 (ronda 17)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -181,10 +190,19 @@ def checks() -> dict:
     unlisted = sorted(declared - set(ids))
     explicit = set(re.findall(r'<a id="([^"]+)"></a>', audit))
     without_stable_anchor = [i for i in ids if i != "M27-20" and i.lower() not in explicit]
+    # Guard against drift between the guide's hand-written totals row and the ledger.
+    guide_totals_match = None
+    if GUIDE.exists():
+        m = re.search(r"^\| \*\*Total\*\* \|(.*)$", GUIDE.read_text(encoding="utf-8"), re.M)
+        if m:
+            nums = [int(x) for x in re.findall(r"\*\*(\d+)\*\*", m.group(1))]
+            want = [sum(sum(r[3] in g for r in LEDGER) for _ in [0]) for _, g in DISPLAY] + [len(LEDGER)]
+            guide_totals_match = {"guide": nums, "ledger": want, "ok": nums == want}
     docs = [AUDIT, ANNEX] + ([GUIDE] if GUIDE.exists() else [])
     return {"ledger_ids": len(ids), "duplicate_ids": len(ids) - len(set(ids)),
             "ledger_ids_absent_from_audit": missing, "audit_ids_absent_from_ledger": unlisted,
             "ledger_ids_without_stable_anchor": without_stable_anchor,
+            "guide_totals_row": guide_totals_match,
             "broken_local_anchors": {p.name: broken_local_anchors(p) for p in docs}}
 
 
@@ -216,7 +234,7 @@ def fig_status() -> str:
     w = left + 20 * unit + 40
     h = top + len(FAMILIES) * (bar_h + gap) + 96
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
-         f'aria-label="Estado de los 71 registros de la auditoría por familia">{STYLE}',
+         f'aria-label="Estado de los 79 registros de la auditoría por familia">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
          '<text class="ink" x="16" y="28" font-size="16" font-weight="600">¿Cómo está cada familia de hallazgos? (28 oct 2026)</text>',
          '<text class="ink2" x="16" y="50" font-size="12">Cada barra es una familia de hallazgos. El número de cada tramo dice cuántos registros están en ese estado.</text>',
@@ -250,7 +268,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"),
 ]
 
 
@@ -259,7 +277,7 @@ def fig_rounds() -> str:
     step = (w - left - right) / (len(ROUNDS) - 1)
     h = 300
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
-         f'aria-label="Línea de tiempo de las 15 rondas de auditoría y su autor">{STYLE}',
+         f'aria-label="Línea de tiempo de las 17 rondas de auditoría y su autor">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
          '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las rondas de la auditoría, en orden (26–28 oct 2026)</text>',
          '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y desde la 7 en orden directo. Aquí van en orden real.</text>',
@@ -316,6 +334,42 @@ def write_guide_table() -> bool:
     return True
 
 
+def fig_k01() -> str:
+    """Net synthetic value of B and targeted inspection versus number of leaves (#44 constants)."""
+    w, h, l, r, t, b = 700, 380, 64, 170, 84, 56
+    ns = [4, 8, 16, 32, 64, 128, 256, 512, 1024]
+    import math as _m
+    X = lambda n: l + (_m.log2(n) - 2) / 8 * (w - l - r)
+    ymin, ymax = 5.5, 8.5
+    Y = lambda v: t + (ymax - v) / (ymax - ymin) * (h - t - b)
+    depth = lambda n: int(_m.log2(n)) + 2
+    vB = lambda n: 10 - (0.25 * depth(n) + 0.75)
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
+         f'aria-label="Valor neto de B y de la inspección dirigida frente al número de hojas">{STYLE}',
+         f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
+         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">K-01 · ¿Hasta qué tamaño gana la cualificación B?</text>',
+         '<text class="ink2" x="16" y="50" font-size="12">Valor neto para una pregunta (#44, costes por defecto). B paga 0,25 por nodo del trayecto + 0,75;</text>',
+         '<text class="ink2" x="16" y="66" font-size="12">la inspección dirigida paga 3 fijo. La ampliación completa (−22 con 16 hojas) queda fuera del gráfico.</text>']
+    for v in (6, 6.5, 7, 7.5, 8, 8.5):
+        s.append(f'<line class="grid" x1="{l}" x2="{w - r}" y1="{Y(v):.1f}" y2="{Y(v):.1f}" stroke-width="1"/>')
+        s.append(f'<text class="ink2" x="{l - 8}" y="{Y(v) + 4:.1f}" font-size="11" text-anchor="end">{str(v).replace(".", ",")}</text>')
+    for n in ns:
+        s.append(f'<text class="ink2" x="{X(n):.1f}" y="{h - b + 18}" font-size="11" text-anchor="middle">{n}</text>')
+    s.append(f'<text class="ink2" x="{(l + w - r) / 2}" y="{h - 14}" font-size="12" text-anchor="middle">número de hojas (escala logarítmica)</text>')
+    s.append(f'<line class="a1s" x1="{X(4):.1f}" x2="{X(1024):.1f}" y1="{Y(7):.1f}" y2="{Y(7):.1f}" stroke-width="2"/>')
+    pts = " ".join(f"{X(n):.1f},{Y(vB(n)):.1f}" for n in ns)
+    s.append(f'<polyline class="a0s" fill="none" stroke-width="2" points="{pts}"/>')
+    for n in ns:
+        s.append(f'<circle class="a0" cx="{X(n):.1f}" cy="{Y(vB(n)):.1f}" r="4"><title>{n} hojas: B {vB(n):.2f} · dirigida 7,00</title></circle>')
+    s.append(f'<text class="ink" x="{w - r + 8}" y="{Y(vB(1024)) + 4:.1f}" font-size="12">B situado</text>')
+    s.append(f'<text class="ink" x="{w - r + 8}" y="{Y(7) - 6:.1f}" font-size="12">Inspección dirigida</text>')
+    s.append(f'<line class="grid" x1="{X(128):.1f}" x2="{X(128):.1f}" y1="{t}" y2="{h - b}" stroke-width="1" stroke-dasharray="4 4"/>')
+    s.append(f'<text class="ink" x="{X(128) + 6:.1f}" y="{t + 14}" font-size="11">empate en 128 hojas</text>')
+    s.append(f'<text class="ink2" x="{X(16) + 6:.1f}" y="{Y(vB(16)) - 10:.1f}" font-size="11">caso del README (16)</text>')
+    s.append("</svg>")
+    return "\n".join(s)
+
+
 def build() -> dict:
     totals = collections.Counter(r[3] for r in LEDGER)
     return {"schema": "ACC-AUDIT-STATUS-LEDGER-v0.1", "as_of": "2026-10-28",
@@ -342,6 +396,7 @@ def main(argv=None) -> int:
         (HERE / "figures").mkdir(exist_ok=True)
         (HERE / "figures" / "STATUS_by_family.svg").write_text(fig_status(), encoding="utf-8")
         (HERE / "figures" / "ROUNDS_timeline.svg").write_text(fig_rounds(), encoding="utf-8")
+        (HERE / "figures" / "K01_B_vs_targeted_by_size.svg").write_text(fig_k01(), encoding="utf-8")
     print(json.dumps({"totals": result["totals"], "checks": result["checks"]}, ensure_ascii=False, indent=2))
     return 0
 
