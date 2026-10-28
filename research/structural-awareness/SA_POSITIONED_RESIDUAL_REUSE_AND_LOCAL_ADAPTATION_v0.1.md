@@ -2,6 +2,8 @@
 
 **Status:** Structural Awareness working mathematical research, Stage A; proposed annex to PR #62, owner review pending. **Not** an adopted axiom, new oracle, closed-world census, claim of universal speedup, empirical demonstration, DDS Stage C result, or replacement of the canonical A/B/C/D definitions.
 
+**Contratos de evidencia y no proliferación de pruebas.** Este anexo contiene derivaciones, contraejemplos, variables de comparación y dos ilustraciones de Stage A; **sus listados de §§10, 12.8, 13.6–13.7, 14.8 y 15.6 no son seis programas nuevos, ni pruebas de refutación canónicas**. Los escenarios, comparadores, permisos y métodos se reciben de [DDS](../ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), [UC21](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md) y [00D v0.2/v0.3](../ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md). El [mapa de reutilización y despromoción §9.5–§9.7](./SA_EA_EP_ECOSYSTEM_EVOLUTION_FOUNDATIONS_REQUIREMENTS_DDS_v0.1.md#95-atribución-dentro-de-00ddds--no-crear-seis-brazos-nuevos) indica qué es solo diagnóstico, qué reutiliza ramas existentes y qué diferencial conjunto continúa abierto; los códigos locales de este anexo no crean identificadores oficiales.
+
 **Research question.** Can an agentic or other operating process reuse a *small, deliberately selected* portion of the unresolved evidence encountered by its current exploitation procedures, because metastructural positioning identifies which process boundary is worth examining, **without** first enumerating the exterior, constructing a global exploration generator, or knowing which epistemic regime describes the wider world?
 
 ## 1. The contribution, stated narrowly
@@ -206,7 +208,7 @@ All terms count the *full* relevant work and authorization costs; the right side
 
 The descriptive/semantic opportunity is distinct: knowing the source's **boundary and relevance** can be more useful for a receiving local task than receiving a larger unqualified bag of object outputs, even if no additional object was identified. That result is task- and evidence-relative, not a claim of universally greater expressive computability.
 
-## 10. Tests, countermodels, empirical programme and claim ledger
+## 10. Research claims and countermodels — no separate DDS campaign
 
 **Already source-supported distinctions, not new claims of external proof**
 
@@ -223,7 +225,7 @@ The descriptive/semantic opportunity is distinct: knowing the source's **boundar
 - H-COST: for a matched implementation and workload, focused structural qualification + selected reuse is cheaper than a specified global generator/reclassifier.
 - H-GLOBAL: a locally verified intervention can satisfy a separately demonstrated larger ecosystem-level requirement without determining the global exterior.
 
-**Mandatory countermodels and adversarial controls**
+**Countermodels y casos adversarios ilustrativos (no registro de pruebas adicionales)**
 
 1. **No residual despite B exhaustion:** all new received requests are sound hard NO; \(p_?\!=0\). No "crowding" follows merely from few positives.
 2. **High residual but no value:** the selected source has many timeouts caused by irrelevant overload, invalid data or missing authority.
@@ -236,7 +238,7 @@ The descriptive/semantic opportunity is distinct: knowing the source's **boundar
 9. **Evidence-world mismatch:** an open or possible residual does not establish actual target-specific existence; a sound existence certificate does not guarantee cheap discovery.
 10. **Low positives without B exhaustion:** distribution shift or deliberate rejection makes \(p_+\) small although there remains characterized exploitable reserve.
 
-**Suggested staged tests (not executed by this annex):** small finite toy graph with two blind-spot sites and zero UNKNOWN-count priors; sensor monitor with controlled pre-admission loss; hard-reject/UNKNOWN adversarial distributions; telework peak-schedule constraint checker; fully-informed conventional monitor comparator; stress test with context shift and stale evidence; cost accounting under multiple throughput regimes; independent reviewer attempts to break H-LOC/H-BRIDGE/H-COST.
+**Posibles variaciones para una rama ya admitida de DDS/00D (no ejecutadas ni obligatorias):** small finite toy graph with two blind-spot sites and zero UNKNOWN-count priors; sensor monitor with controlled pre-admission loss; hard-reject/UNKNOWN adversarial distributions; telework peak-schedule constraint checker; fully-informed conventional monitor comparator; stress test with context shift and stale evidence; cost accounting under multiple throughput regimes; independent reviewer attempts to break H-LOC/H-BRIDGE/H-COST.
 
 **Claim-status discipline.** Sections 5 and 6 contain straightforward conditional mathematical implications, **not** a proof that the real environment satisfies their premises. The probability, local gain, source availability and relative implementation costs are not measured here. Telework and sensor are explanatory **constructed fixtures**. No independent scientific referee has yet validated these new hypotheses, no external standard is changed, and no PR merge/owner promotion is requested.
 
@@ -398,7 +400,7 @@ The key timing is: **gradient/candidate communicated → legitimate accept/modif
 
 **Sensor:** The normal sensor's own finite-budget observed outcomes, and/or a watchdog at its interface, can expose *qualified* unresolved boundary observations without a second universal classifier. The metastructural map chooses **which sensor and which admission/test gate** deserve attention (for instance an unnecessarily strict decision threshold, an outdated frame assumption, or a time/coverage budget **if legitimately adjustable**). A local relaxation can render a particular downstream *decision* determinate under a revised rule if all retained safety/objective conditions are true. Extending timeout does **not** automatically decide an uncomputable property or guarantee an eventual result; an unreceived signal remains unreachable. A sensor that returns only hard NOs is a countermodel to inferred unknown concentration. The original exploitation process may continue normally while the allowed gate/contract is changed through authorized control.
 
-### 12.8 Research propositions, countermodels and tests for PR review
+### 12.8 Research propositions and countermodels — checks within existing Stage A
 
 - **CR-1 set inclusion:** proved under conjunctive restrictions and unchanged hard/objective definitions. Strict improvement requires an admissible better solution and no missing inter-agent hard condition.
 - **CR-2 relative requalification:** proved for a *recognized/evaluable* referent under the declared \(T/F/?\) conjunctive decision; the discarded property remains unknown. Extend separately to schema/admission changes with explicit source and observation assumptions.
@@ -407,8 +409,8 @@ The key timing is: **gradient/candidate communicated → legitimate accept/modif
 - **H-RELAX-GRAD (OPEN):** the source-owned local gradient can be qualified **before** acceptance and can forecast useful risk/shortfall reduction for selected relaxations, with explicit accuracy/confidence/cost limits.
 - **H-RELAX-GOV (OPEN):** the complete authorized ACC/MSCA role transition can preserve all declared global hard constraints while enabling a previously blocked local result and a subsequent, independently verified larger objective effect.
 - **Frontier-concentration hypothesis (OPEN):** exploitation of its B reserve may correlate with increasing relevant qualified unresolved observations **only** with separately stated task-distribution, hard-rejection, coverage, logging and retention premises. Do not infer positive \(p_?\), C reachability, a “bingo” or a high gradient solely from dwindling positive results.
-- **Required countercases:** all nonpositives are sound hard NO; the selected rule is active but irrevocable; the rule is nonredundant yet slack at the objective optimum; the physical candidate never exists/arrives; an old input grammar cannot see it; multiple coupled constraints still block gain; timeouts reflect noise; a local ACC gain damages another owner's hard objective; signer/lineage denies permission; stale gradient is invalid after regime shift; an equally informed conventional adaptive Turing system ties or outperforms.
-- **Proposed measured study, NOT performed here:** fix objective/constraints and comparable workloads; record the architecture/evidence **before** knowing any held-out “telework-like” solution; compare (i) baseline exploitation, (ii) add-classifier/filter exploration, (iii) indiscriminate UNKNOWN replay, (iv) structurally targeted rule relaxation with contract-gated requalification, (v) equally informed strong adaptive comparator. Measure gate-selection precision, new determinacies *by contract version*, verified local and whole-ecosystem outcomes, safety/authority violations, false escalations, full cost and context drift. A reviewer should attempt leakage checks: no solution identity, answer class or secret population may enter \(\Phi_{\rm relax}\).
+- **Contraejemplos de alcance condicionado, no nuevas puertas obligatorias:** all nonpositives are sound hard NO; the selected rule is active but irrevocable; the rule is nonredundant yet slack at the objective optimum; the physical candidate never exists/arrives; an old input grammar cannot see it; multiple coupled constraints still block gain; timeouts reflect noise; a local ACC gain damages another owner's hard objective; signer/lineage denies permission; stale gradient is invalid after regime shift; an equally informed conventional adaptive Turing system ties or outperforms.
+- **Diseño ilustrativo a remitir a 00D/DDS si existe una brecha no cubierta; NO ejecutado aquí:** fix objective/constraints and comparable workloads; record the architecture/evidence **before** knowing any held-out “telework-like” solution; compare (i) baseline exploitation, (ii) add-classifier/filter exploration, (iii) indiscriminate UNKNOWN replay, (iv) structurally targeted rule relaxation with contract-gated requalification, (v) equally informed strong adaptive comparator. Measure gate-selection precision, new determinacies *by contract version*, verified local and whole-ecosystem outcomes, safety/authority violations, false escalations, full cost and context drift. A reviewer should attempt leakage checks: no solution identity, answer class or secret population may enter \(\Phi_{\rm relax}\).
 
 **Source and ownership boundaries:** [EA A/B/C/D mathematical research note (00M)](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md); [ACC governance profile 01I](../ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md); [Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md); [Canonical MSCA Operation/Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md); [Ecosystem Signalling 01J](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). This section is a **research interpretation bridging owners**, not a mutation to their definitions, ACC authority, runtime protocol or acceptance status.
 
@@ -534,7 +536,7 @@ The stronger *testable* mechanism is:
 
 No pure diagonalization, non-closure principle or low A frequency proves conditions 2–5. Nearness to C is **epistemic/architectural**, not a proven geometric distance unless a separate metric is specified.
 
-### 13.6 Minimal constructed tests across the two examples and three epistemic regimes
+### 13.6 Two constructed illustrations and three epistemic regimes — not admitted fixtures
 
 **2018–2019 telework fixture.** A firm's *office improvement* process may exclude an alternative **before it is typed as a proposal**. The existing architecture reveals a dependency of capacity, travel, budget and work-output requirements on a “physical office / attendance” gate. The selector chooses that gate, **without the answer word “telework” appearing as its input**. A permitted relaxation to “adequate working conditions within true hard commitments” makes a wider question evaluable. Only *later* lawful incoming evidence or a bounded independently generated test can provide a witness of valid work without the old gate. If verified, and if at least 20 of 120 workers are off-site on **every relevant peak day**, the 100-seat constraint can be respected; merely averaging 20 is insufficient. A new agentic role/ACC/employee/employer/IT authority binding may be required. No societal ontology of telework or global labor-market reclassification is a prerequisite.
 
@@ -542,7 +544,7 @@ No pure diagonalization, non-closure principle or low A frequency proves conditi
 
 **Regime preservation.** The method is conditional on the actual regime: (E) sourced target-specific existence/exclusion certificates; (I) *witnessed* residual indetermination; or (P) only the **possibility** of residual indetermination. With (P) alone there may be no observed \(Q_j\), and neither CA-1 nor any advantage claim fires. No agent must know a global universe label E/I/P to run the bounded procedure, but epistemic provenance must preserve which kind of support is actually present.
 
-### 13.7 Comparators, failure cases, and the executable falsification programme
+### 13.7 Comparator families for 00D/DDS — no separate falsification programme
 
 | Route | Fair capability | What must be measured |
 | --- | --- | --- |
@@ -552,7 +554,7 @@ No pure diagonalization, non-closure principle or low A frequency proves conditi
 | SEL-metastructural | \(\Phi_{\rm relax}\) plus tiny \(J,Q_j\) checks, current source evaluators, existing ACC/MSCA gradient/authority/role cycle | Gate-hit rate, \(?\to T\) certificates, relative full cost and governed outcome |
 | Random/negative control | Random gates/traces or all hard negatives | Proof that success is caused by meaningful structural selection, not planted answers |
 
-**Mandatory independent tests:**
+**Condiciones de calidad dentro del DDS/00D aplicable (no ocho pruebas nuevas obligatorias):**
 
 1. **Freeze information before revealing the answer.** Pin \(G_t,d,H,R\), source capabilities, admission rules, ACC and signal logs, as well as a hidden test set of later cases. No post hoc “telework” label, winning gate or hidden solution may leak into \(\Phi\).
 2. **Measure *both* selection stages.** Gate selection precision/recall, observed \(Q_j\) relevance, capture loss, false UNKNOWN and hard-NO confusion; report runs where no justified gate or no observed candidate exists.
@@ -693,7 +695,7 @@ The method may operate under the three previously distinguished **task-qualified
 
 **Diagonalization is a metamathematical demonstration that a fixed representation/enumeration need not exhaust a larger specified class; it is not, by itself, an executable procedure that grants noncomputable answers.** In a sufficiently open/metamorphic ecosystem, an *additional external source* may supply a previously unavailable witness or effective option. Relative to a **closed, information-limited** inferior process this can create a practical expressive/search/value advantage under clearly stated existence, reachability, validity and cost assumptions. It is **not a claim that the combined system computes non-Turing functions**; such a claim would require a separately specified and demonstrated stronger oracle/physical resource, not merely “something outside exists.” No new machinery or miraculous architecture is asserted by this analogy.
 
-### 14.8 Research acceptance sequence and new tests
+### 14.8 Research inputs to existing DDS/00D evaluation — no new tests
 
 To move from this working architecture to a tested learning/search claim, preserve the following order and owner boundaries:
 
@@ -821,9 +823,9 @@ Primary links (read **as prior art / fair comparators**, not demonstrations of t
 
 **Novelty claim ceiling:** the research candidate is the **source-preserving integration for cross-agent architecture reconfiguration** of (1) structurally selected, conditionally high-upside *constraint gates*; (2) exposure-qualified **partial residual maps**; (3) **non-fungible, by-leaves composition** across distinct positions and legal/epistemic scopes; (4) **targeted existing-evaluator requalification and source-owned gradient/ACC**; and (5) **independent RA early-warning/context revalidation**. None of the five generic primitives is asserted new in isolation. No systematic prior-art review, independent replication or executed end-to-end performance result is implied by the present comparison.
 
-### 15.6 Minimum falsifiable architecture-search benchmark
+### 15.6 Five-function observation guide for 00D v0.3 Q2/Q3 — not a new benchmark
 
-Evaluate a **five-factor ablation** with every module on/off where logically meaningful, plus paired combinations (especially 1×2×3 and 3×5). Each stand-alone mechanism should be evaluated **for its own proper output**, not assigned the end-to-end completion target of a disabled downstream module. Preserve separate plug-in contracts and compare at equal evidence/privacy/compute/role/authority budgets.
+**Despromoción expresa:** la matriz de cinco funciones que sigue **no crea otro benchmark, una suite factorial obligatoria ni cinco nuevas hipótesis canónicas**. Su único uso es sugerir observables y sustituciones *si la pregunta Q2/Q3 del [00D v0.3](../ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) ya admite la rama pertinente*, tras Q0 y con DDS como método. Las ablaciones reales pertenecen a **M1–M8** y a los controles preinscritos; no deshabilitar seguridad/autoridad en ejecución real. La contribución aislada de cada función se mide con su salida propia, y el conjunto se compara con B2/PA-5/OR al mismo presupuesto.
 
 - **Workloads:** (a) telework-like cross-dimensional constraints in a pre-2020 *illustrative*, versioned organization, measuring genuine change from “office arrangement” to a permitted “work arrangement”; (b) a chosen sensor's timeout/UNKNOWN channel, with known exogenous missingness and replayability; (c) multi-agent complementary blind spots under correlated and independent traces; (d) regime drift before/after an observable structural change; and (e) a **negative world** with no useful exterior solution. For ecosystem realism, adapt DeltaIoT/mRUBiS/SWIM, but do not label a synthetic adaptation case field production.
 - **Baselines:** existing exploitation machine; random/uncertainty/density residual probes; greedy structural-gate search; active sensor-synergy/PID proxy; QuAcq2 / unknown-bias constraint acquisition; safe/constrained BO or graph active learning; architecture-based self-adaptive controller with the **same** observations/possible role transitions; regime-aware and regime-agnostic versions. Declare infeasible comparisons explicitly rather than misstate parity.
