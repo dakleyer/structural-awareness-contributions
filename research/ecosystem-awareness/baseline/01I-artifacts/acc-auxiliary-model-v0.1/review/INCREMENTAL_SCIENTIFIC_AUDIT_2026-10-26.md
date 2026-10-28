@@ -38,6 +38,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 10 | 2026-10-27 | [Alcance H01/H03 y respuesta del autor](#ronda-10--alcance-de-h-01-y-h-03-y-prevención-de-extrapolaciones-27-10-2026); candidato63 | Preserva críticas locales; diferencia ausencia en test y ausencia en corpus |
 | 11 | 2026-10-27 | [Recepción64/comparadores/casos54](#ronda-11--resolución-técnica-de-i-01-delimitación-de-comparadores-y-clasificación-de-casos-27-10-2026) | Respuesta a I01/M27-01/02, G01/F01 y F06; sin cierre por publicación |
 | 12 | 2026-10-28 | [Relectura y cola vigente](#ronda-12--relectura-del-corpus-y-estado-real-de-la-auditoría-28-octubre-2026); [anexo10](incremental-audit-2026-10-26/ANNEX.md#10-corpus-refresh-and-open-audit-work--28-october-2026) | M28-01…07; oportunidadesO1/O2; revalidación IP01–36 y propuestas IP37–42 |
+| 13 | 2026-10-28 | [Reconfirmación de I-01 en `main`](#ronda-13--reconfirmación-de-i-01--m27-01--m28-01-en-main-28-10-2026) tras fusionar PR #64 | I-01 `CERRADO`; M27-01/M28-01 reconfirmados |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -65,7 +66,7 @@ Ningún hallazgo pasa a `CERRADO`: la confirmación del diagnóstico no es todav
 - **Frontera de #57.** El anexo matemático nuevo y la reutilización externa de versiones Rxx no quedan cubiertos por haber revisado el código en `fb79df2` (ver revalidación arriba).
 - **PR #22.** La revisión diaria señala una celda de reproducibilidad en Python 3.9 no ejecutada por configuración del runner. No se ha verificado aquí; es una cuestión de reproducibilidad, independiente de la validez matemática.
 
-### I-01 · Alta · `ABIERTO` — `qualify` puede declarar «verdadero» con un intervalo vacío
+### I-01 · Alta · `CERRADO` (ronda 13, 28-10-2026) — `qualify` puede declarar «verdadero» con un intervalo vacío
 
 **Identificado en:** revisión de Codex en PR #59 (D26-F01, propuesta D26-C01). **Recomprobado aquí** por Claude leyendo el código y reproduciendo la aritmética en [`audit_companion.py`](incremental-audit-2026-10-26/audit_companion.py) (`I01_empty_intersection_PR45`).
 
@@ -581,3 +582,29 @@ La revalidación de IP01–36 es **literal y contextual acotada**, no una prueba
 5. **Completar la auditoría de fondo pendiente:** leer las familias de la tabla anterior por unidad lógica y registrar las cuatro pasadas efectivamente realizadas, sin simular independencia ni cerrar por volumen de tests.
 
 Esta ronda publica revisión y propuestas en el **mismo PR58**. No incorpora código en64/60, no aplica las fichas a las fuentes científicas, no fusiona ramas ni modifica main. Las nuevas regresiones se presentan como criterios de reparación; no como una implementación que ya haya pasado sus pruebas.
+
+
+## Ronda 13 — reconfirmación de I-01 / M27-01 / M28-01 en `main` (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA, a petición de Iván. Es una reconfirmación técnica por un segundo revisor de IA, **no** una validación humana independiente.
+
+**Objeto:** `main` en [`51fc686`](https://github.com/dakleyer/structural-awareness-contributions/commit/51fc686f45b6ef10c53b69f4c26d0e381b007ff8), fusión de [PR #64](https://github.com/dakleyer/structural-awareness-contributions/pull/64) (`Fraction` exacto en factibilidad conjunta, envolvente y umbral; abstención ante rango irrepresentable).
+
+**Comprobado en ese commit:**
+
+| Comprobación | Resultado |
+|---|---|
+| Suite `test_metacognition.py` | 72/72 |
+| Salida de `metacognition.py` frente a `REFERENCE_SYNTHETIC_RESULTS.json` | Idéntica |
+| I-01: [1e-13] y [0], L = 0, umbral 5e-14 | `EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT` (antes `TRUE`) |
+| M27-01: f(0)=0 y f(0)=2, L = 1, f(1) ≥ 1 | `EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT` (antes `TRUE`) |
+| M28-01 caso 1: (0, 1) y (1, −2⁻⁵⁴), L = 1, x = 0, umbral 1 | `EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT` (antes `TRUE`) |
+| M28-01 caso 2: f(0)=1, L = 2⁻⁵⁴, x = 1, umbral 1 | `UNDETERMINED_FROM_AVAILABLE_EVIDENCE` (antes `TRUE`) |
+| Control positivo: f(0)=1, f(1)=2, L = 1, x = 0,5, umbral 1,25 | `LOCALLY_SUPPORTED_TRUE` (se conserva) |
+| Fuzz de 20 000 casos con coordenadas exactas frente a un oráculo racional exacto (factibilidad por pares, necesaria y suficiente; envolvente ajustada), incluyendo L y diferencias de 2⁻⁵⁴ | 0 certificados `TRUE`/`FALSE` incorrectos; 0 inconsistencias no detectadas |
+| De esos casos, los 6 523 exactamente decidibles | 0 abstenciones o respuestas distintas: la corrección no se vuelve más conservadora de lo necesario |
+
+Reproducción: [`reconfirm_I01_2026-10-28.py`](incremental-audit-2026-10-26/reconfirm_I01_2026-10-28.py) `<ruta al estudio en 51fc686>`. No escribe archivos.
+
+**Disposición:** I-01 pasa a `CERRADO`. M27-01 y M28-01 (registros de Codex) quedan reconfirmados como corregidos en `main` con las mismas pruebas. El fuzz cubre coordenadas exactas; para coordenadas inciertas se mantiene la abstención `JOINT_CONSISTENCY_NOT_ESTABLISHED` verificada en la ronda 11, que es conservadora y no se ha medido aquí su completitud. El cierre se limita a la solidez numérica de este runner sintético: no autentica fuentes, no valida el exterior B/C/D ni convierte el certificado local en decisión. M28-02 a M28-04 (#60), F/G/H e IP37–42 siguen en sus estados.
+
