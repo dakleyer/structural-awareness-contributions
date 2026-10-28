@@ -63,7 +63,11 @@ def agentic_arm_gains(
         lower = baseline.lower + exact_number(conditional_near)
         # Referee corroboration is post-hoc within the synthetic model, not
         # independent authentication or a decision-time source entitlement.
-        lab_truth = target.get("source_B_claim_supported_by_lab_truth")
+        # PR57 referee field checks the *original Q*, not a separate
+        # directed/full-A instrument. Do not transfer Q validation across sources.
+        lab_truth = (target.get("source_B_claim_supported_by_lab_truth")
+                     if arm in ("Q_REVIEW_ONLY", "Q_META_PROTOCOL",
+                                "CONVENTIONAL_EQUIVALENT_Q") else None)
         verification = ("SUPPORTED" if lab_truth is True else
                         "REFUTED" if lab_truth is False else "UNVERIFIED")
         candidate = ValueInterval(metric, unit, scope, "PROPOSED_BOUND",
