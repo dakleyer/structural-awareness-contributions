@@ -20,7 +20,7 @@ from economic_envelope_adapters import (
     agentic_cost_override, agentic_observations, intrinsic_cost_override,
     intrinsic_observations,
 )
-from economic_envelope_runner import execute
+from economic_envelope_runner import execute, _bits_for_pattern
 
 
 def source(name, path):
@@ -366,6 +366,45 @@ class ManifestAndRunCoverage(unittest.TestCase):
         with self.assertRaises(ValueError):
             execute(malformed, corpus_root, model="social")
 
+
+    def test_capacity_patterns_do_not_create_new_source_physics(self):
+        self.assertEqual(_bits_for_pattern(8, 2, {"mode": "selected"}), (0, 0, 1, 0, 0, 0, 0, 0))
+        self.assertEqual(_bits_for_pattern(8, 2, {"mode": "all"}), (1,) * 8)
+        self.assertEqual(_bits_for_pattern(8, 2, {"mode": "none"}), (0,) * 8)
+        self.assertEqual(_bits_for_pattern(8, 2, {"mode": "indices", "indices": [1, 7]}),
+                         (0, 1, 0, 0, 0, 0, 0, 1))
+        for bad in ({"mode": "indices", "indices": [1, 1]},
+                    {"mode": "indices", "indices": [8]},
+                    {"mode": "new-theory"}):
+            with self.assertRaises(ValueError):
+                _bits_for_pattern(8, 2, bad)
+
+    def test_custom_matrix_exercises_material_capacity_and_budget(self):
+        corpus_root = next(p for p in HERE.parents if (p / ".github/workflows/document-integrity.yml").exists())
+        manifest = json.loads((HERE / "ECONOMIC_SWEEP_MANIFEST.json").read_text("utf-8"))
+        manifest["social"]["sizes"] = [16]
+        manifest["social"]["roots"] = [{"id": "free", "slack": None}]
+        manifest["social"]["accesses"] = ["full"]
+        manifest["social"]["capacity_patterns"] = [
+            {"id": "none", "mode": "none"},
+            {"id": "all", "mode": "all"},
+        ]
+        manifest["social"]["prices"] = [
+            {"id": "low-budget", "costs": {}, "planner_budget": "0"},
+        ]
+        results = execute(manifest, corpus_root, model="social", details=True)
+        self.assertEqual(results["summary"]["groups"]["ACC_SOCIAL_INTRINSIC_44"]["cases"], 2)
+        rows = {r["frame"]["case_id"]: r for r in results["cases"]}
+        none, all_cap = next(r for k, r in rows.items() if "/none/" in k), next(
+            r for k, r in rows.items() if "/all/" in k)
+        none_b = next(a for a in none["arms"] if a["arm"] == "B_QUALIFIED")
+        all_b = next(a for a in all_cap["arms"] if a["arm"] == "B_QUALIFIED")
+        self.assertEqual(none_b["gross"], "0")
+        self.assertEqual(all_b["gross"], "10")
+        self.assertEqual(none["frame"]["baseline_a"], all_cap["frame"]["baseline_a"])
+        self.assertEqual(next(a["status"] for a in all_cap["arms"]
+                              if a["arm"] == "SOURCE_PUBLIC_RECEIVER"),
+                         "B_INFO_BEYOND_BUDGET")
 
 if __name__ == "__main__":
     unittest.main()
