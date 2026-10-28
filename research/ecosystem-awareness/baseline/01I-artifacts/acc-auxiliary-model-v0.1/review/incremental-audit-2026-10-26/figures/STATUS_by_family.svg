@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 548" width="850" height="548" role="img" aria-label="Estado de los 71 registros de la auditoría por familia"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.grid{stroke:#e4e3df}
+  .s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}.s4{fill:#e87ba4}
+  .a0{fill:#2a78d6}.a1{fill:#eb6834}.a0s{stroke:#2a78d6}.a1s{stroke:#eb6834}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.grid{stroke:#383835}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}.s4{fill:#d55181}
+    .a0{fill:#3987e5}.a1{fill:#d95926}.a0s{stroke:#3987e5}.a1s{stroke:#d95926}
+  }
+</style>
+<rect class="bg" width="850" height="548" rx="8"/>
+<text class="ink" x="16" y="28" font-size="16" font-weight="600">¿Cómo está cada familia de hallazgos? (28 oct 2026)</text>
+<text class="ink2" x="16" y="50" font-size="12">Cada barra es una familia de hallazgos. El número de cada tramo dice cuántos registros están en ese estado.</text>
+<text class="ink2" x="16" y="68" font-size="12">Estado vigente según la última ronda que lo decidió, no según el encabezado histórico.</text>
+<text class="ink" x="280" y="109" font-size="12" text-anchor="end">N · Nota al revisor externo</text>
+<rect class="s0" x="290" y="92" width="232" height="26" rx="4"><title>N: 9 abierto</title></rect>
+<text x="406.0" y="109" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">9</text>
+<text class="ink2" x="530" y="109" font-size="11">9</text>
+<text class="ink" x="280" y="145" font-size="12" text-anchor="end">F · Código de #57 y #54</text>
+<rect class="s0" x="290" y="128" width="102" height="26" rx="4"><title>F: 4 abierto</title></rect>
+<text x="341.0" y="145" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">4</text>
+<rect class="s1" x="394" y="128" width="76" height="26" rx="4"><title>F: 3 respondido</title></rect>
+<text x="432.0" y="145" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">3</text>
+<text class="ink2" x="478" y="145" font-size="11">7</text>
+<text class="ink" x="280" y="181" font-size="12" text-anchor="end">G · Campaña de 60 casos (#48/#49)</text>
+<rect class="s0" x="290" y="164" width="102" height="26" rx="4"><title>G: 4 abierto</title></rect>
+<text x="341.0" y="181" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">4</text>
+<rect class="s1" x="394" y="164" width="50" height="26" rx="4"><title>G: 2 respondido</title></rect>
+<text x="419.0" y="181" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">2</text>
+<text class="ink2" x="452" y="181" font-size="11">6</text>
+<text class="ink" x="280" y="217" font-size="12" text-anchor="end">H · Modelo social (#42/#43)</text>
+<rect class="s0" x="290" y="200" width="128" height="26" rx="4"><title>H: 5 abierto</title></rect>
+<text x="354.0" y="217" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">5</text>
+<rect class="s2" x="420" y="200" width="24" height="26" rx="4"><title>H: 1 cerrado o verificado</title></rect>
+<text x="432.0" y="217" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
+<text class="ink2" x="452" y="217" font-size="11">6</text>
+<text class="ink" x="280" y="253" font-size="12" text-anchor="end">I · Defecto de qualify (#45)</text>
+<rect class="s2" x="290" y="236" width="24" height="26" rx="4"><title>I: 1 cerrado o verificado</title></rect>
+<text x="302.0" y="253" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
+<text class="ink2" x="322" y="253" font-size="11">1</text>
+<text class="ink" x="280" y="289" font-size="12" text-anchor="end">M27 · Corpus matemático (27 oct)</text>
+<rect class="s0" x="290" y="272" width="284" height="26" rx="4"><title>M27: 11 abierto</title></rect>
+<text x="432.0" y="289" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">11</text>
+<rect class="s1" x="576" y="272" width="50" height="26" rx="4"><title>M27: 2 respondido</title></rect>
+<text x="601.0" y="289" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">2</text>
+<rect class="s2" x="628" y="272" width="50" height="26" rx="4"><title>M27: 2 cerrado o verificado</title></rect>
+<text x="653.0" y="289" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">2</text>
+<rect class="s3" x="680" y="272" width="24" height="26" rx="4"><title>M27: 1 propuesta de mejora</title></rect>
+<text x="692.0" y="289" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
+<rect class="s4" x="706" y="272" width="102" height="26" rx="4"><title>M27: 4 retirado o informativo</title></rect>
+<text x="757.0" y="289" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">4</text>
+<text class="ink2" x="816" y="289" font-size="11">20</text>
+<text class="ink" x="280" y="325" font-size="12" text-anchor="end">M28 · Relectura (28 oct)</text>
+<rect class="s0" x="290" y="308" width="76" height="26" rx="4"><title>M28: 3 abierto</title></rect>
+<text x="328.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">3</text>
+<rect class="s2" x="368" y="308" width="24" height="26" rx="4"><title>M28: 1 cerrado o verificado</title></rect>
+<text x="380.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
+<rect class="s3" x="394" y="308" width="50" height="26" rx="4"><title>M28: 2 propuesta de mejora</title></rect>
+<text x="419.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">2</text>
+<rect class="s4" x="446" y="308" width="24" height="26" rx="4"><title>M28: 1 retirado o informativo</title></rect>
+<text x="458.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
+<text class="ink2" x="478" y="325" font-size="11">7</text>
+<text class="ink" x="280" y="361" font-size="12" text-anchor="end">M27-O · Líneas de desarrollo (27 oct)</text>
+<rect class="s3" x="290" y="344" width="128" height="26" rx="4"><title>M27-O: 5 propuesta de mejora</title></rect>
+<text x="354.0" y="361" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">5</text>
+<text class="ink2" x="426" y="361" font-size="11">5</text>
+<text class="ink" x="280" y="397" font-size="12" text-anchor="end">M28-O · Líneas de desarrollo (28 oct)</text>
+<rect class="s3" x="290" y="380" width="50" height="26" rx="4"><title>M28-O: 2 propuesta de mejora</title></rect>
+<text x="315.0" y="397" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">2</text>
+<text class="ink2" x="348" y="397" font-size="11">2</text>
+<text class="ink" x="280" y="433" font-size="12" text-anchor="end">J · Forma del expediente (ronda 14)</text>
+<rect class="s0" x="290" y="416" width="24" height="26" rx="4"><title>J: 1 abierto</title></rect>
+<text x="302.0" y="433" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
+<rect class="s1" x="316" y="416" width="154" height="26" rx="4"><title>J: 6 respondido</title></rect>
+<text x="393.0" y="433" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">6</text>
+<rect class="s2" x="472" y="416" width="24" height="26" rx="4"><title>J: 1 cerrado o verificado</title></rect>
+<text x="484.0" y="433" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
+<text class="ink2" x="504" y="433" font-size="11">8</text>
+<rect class="s0" x="16" y="490" width="14" height="14" rx="3"/>
+<text class="ink" x="36" y="502" font-size="12">Abierto</text>
+<rect class="s1" x="266" y="490" width="14" height="14" rx="3"/>
+<text class="ink" x="286" y="502" font-size="12">Respondido</text>
+<rect class="s2" x="516" y="490" width="14" height="14" rx="3"/>
+<text class="ink" x="536" y="502" font-size="12">Cerrado o verificado</text>
+<rect class="s3" x="16" y="512" width="14" height="14" rx="3"/>
+<text class="ink" x="36" y="524" font-size="12">Propuesta de mejora</text>
+<rect class="s4" x="266" y="512" width="14" height="14" rx="3"/>
+<text class="ink" x="286" y="524" font-size="12">Retirado o informativo</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 300" width="1060" height="300" role="img" aria-label="Línea de tiempo de las 14 rondas de auditoría y su autor"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.grid{stroke:#e4e3df}
+  .s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}.s4{fill:#e87ba4}
+  .a0{fill:#2a78d6}.a1{fill:#eb6834}.a0s{stroke:#2a78d6}.a1s{stroke:#eb6834}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.grid{stroke:#383835}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}.s4{fill:#d55181}
+    .a0{fill:#3987e5}.a1{fill:#d95926}.a0s{stroke:#3987e5}.a1s{stroke:#d95926}
+  }
+</style>
+<rect class="bg" width="1060" height="300" rx="8"/>
+<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las rondas de la auditoría, en orden (26–28 oct 2026)</text>
+<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y las 7–14 en orden directo. Aquí van en orden real.</text>
+<line class="grid" x1="80" x2="980" y1="150" y2="150" stroke-width="2"/>
+<line class="a0s" x1="80.0" x2="80.0" y1="150" y2="128" stroke-width="2"/>
+<circle class="a0" cx="80.0" cy="150" r="11"><title>Ronda 1: Nota al revisor</title></circle>
+<text x="80.0" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">1</text>
+<text class="ink" x="80.0" y="116" font-size="11" text-anchor="middle">Nota al revisor</text>
+<line class="a0s" x1="149.2" x2="149.2" y1="150" y2="172" stroke-width="2"/>
+<circle class="a0" cx="149.2" cy="150" r="11"><title>Ronda 2: Código #57/#54</title></circle>
+<text x="149.2" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">2</text>
+<text class="ink" x="149.2" y="196" font-size="11" text-anchor="middle">Código #57/#54</text>
+<line class="a0s" x1="218.5" x2="218.5" y1="150" y2="128" stroke-width="2"/>
+<circle class="a0" cx="218.5" cy="150" r="11"><title>Ronda 3: Campaña #48/#49</title></circle>
+<text x="218.5" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">3</text>
+<text class="ink" x="218.5" y="116" font-size="11" text-anchor="middle">Campaña #48/#49</text>
+<line class="a0s" x1="287.7" x2="287.7" y1="150" y2="172" stroke-width="2"/>
+<circle class="a0" cx="287.7" cy="150" r="11"><title>Ronda 4: Modelo social</title></circle>
+<text x="287.7" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">4</text>
+<text class="ink" x="287.7" y="196" font-size="11" text-anchor="middle">Modelo social</text>
+<line class="a0s" x1="356.9" x2="356.9" y1="150" y2="128" stroke-width="2"/>
+<circle class="a0" cx="356.9" cy="150" r="11"><title>Ronda 5: Figuras y referencias</title></circle>
+<text x="356.9" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">5</text>
+<text class="ink" x="356.9" y="116" font-size="11" text-anchor="middle">Figuras y referencias</text>
+<line class="a0s" x1="426.2" x2="426.2" y1="150" y2="172" stroke-width="2"/>
+<circle class="a0" cx="426.2" cy="150" r="11"><title>Ronda 6: Contraste #59; I-01</title></circle>
+<text x="426.2" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">6</text>
+<text class="ink" x="426.2" y="196" font-size="11" text-anchor="middle">Contraste #59; I-01</text>
+<line class="a1s" x1="495.4" x2="495.4" y1="150" y2="128" stroke-width="2"/>
+<circle class="a1" cx="495.4" cy="150" r="11"><title>Ronda 7: Promoción TAX26</title></circle>
+<text x="495.4" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">7</text>
+<text class="ink" x="495.4" y="116" font-size="11" text-anchor="middle">Promoción TAX26</text>
+<line class="a1s" x1="564.6" x2="564.6" y1="150" y2="172" stroke-width="2"/>
+<circle class="a1" cx="564.6" cy="150" r="11"><title>Ronda 8: Corpus matemático</title></circle>
+<text x="564.6" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">8</text>
+<text class="ink" x="564.6" y="196" font-size="11" text-anchor="middle">Corpus matemático</text>
+<line class="a1s" x1="633.8" x2="633.8" y1="150" y2="128" stroke-width="2"/>
+<circle class="a1" cx="633.8" cy="150" r="11"><title>Ronda 9: Lectura de comparaciones</title></circle>
+<text x="633.8" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">9</text>
+<text class="ink" x="633.8" y="116" font-size="11" text-anchor="middle">Lectura de comparaciones</text>
+<line class="a1s" x1="703.1" x2="703.1" y1="150" y2="172" stroke-width="2"/>
+<circle class="a1" cx="703.1" cy="150" r="11"><title>Ronda 10: Alcance H-01/H-03</title></circle>
+<text x="703.1" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">10</text>
+<text class="ink" x="703.1" y="196" font-size="11" text-anchor="middle">Alcance H-01/H-03</text>
+<line class="a1s" x1="772.3" x2="772.3" y1="150" y2="128" stroke-width="2"/>
+<circle class="a1" cx="772.3" cy="150" r="11"><title>Ronda 11: Arreglo #64, F-06</title></circle>
+<text x="772.3" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">11</text>
+<text class="ink" x="772.3" y="116" font-size="11" text-anchor="middle">Arreglo #64, F-06</text>
+<line class="a1s" x1="841.5" x2="841.5" y1="150" y2="172" stroke-width="2"/>
+<circle class="a1" cx="841.5" cy="150" r="11"><title>Ronda 12: Relectura y cola</title></circle>
+<text x="841.5" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">12</text>
+<text class="ink" x="841.5" y="196" font-size="11" text-anchor="middle">Relectura y cola</text>
+<line class="a0s" x1="910.8" x2="910.8" y1="150" y2="128" stroke-width="2"/>
+<circle class="a0" cx="910.8" cy="150" r="11"><title>Ronda 13: I-01 cerrado</title></circle>
+<text x="910.8" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">13</text>
+<text class="ink" x="910.8" y="116" font-size="11" text-anchor="middle">I-01 cerrado</text>
+<line class="a0s" x1="980.0" x2="980.0" y1="150" y2="172" stroke-width="2"/>
+<circle class="a0" cx="980.0" cy="150" r="11"><title>Ronda 14: Revisión formal y guía</title></circle>
+<text x="980.0" y="154" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">14</text>
+<text class="ink" x="980.0" y="196" font-size="11" text-anchor="middle">Revisión formal y guía</text>
+<circle class="a0" cx="23" cy="270" r="7"/>
+<text class="ink" x="36" y="274" font-size="12">Claude (auditor de IA)</text>
+<circle class="a1" cx="283" cy="270" r="7"/>
+<text class="ink" x="296" y="274" font-size="12">Codex con observaciones de Iván (IA)</text>
+<text class="ink2" x="1044" y="274" font-size="11" text-anchor="end">Ninguna ronda es una revisión humana independiente.</text>
+</svg>

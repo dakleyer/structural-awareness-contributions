@@ -1,0 +1,350 @@
+"""Build the reader's status ledger and figures for GUIA_DE_LECTURA.md.
+
+Standard library only. Reads the audit text, never the audited studies.
+
+    python -B reader_guide_build.py            # print ledger summary and checks
+    python -B reader_guide_build.py --write    # also write STATUS_LEDGER_2026-10-28.json and figures/
+
+The current state of each record is NOT parsed from its historical heading
+(headings keep the state they had when written). It is the latest disposition
+in the audit, stated explicitly below with the round that set it, so a
+reader can trace every state back to its source. Checks performed:
+  1. every ledger ID appears in the audit (or, for M27-20, in its PR comment);
+  2. every ID with a bold heading or table row in the audit is in the ledger;
+  3. every local '#anchor' link in the audit, annex and guide resolves
+     (GitHub-style heading slugs).
+"""
+from __future__ import annotations
+
+import argparse
+import collections
+import json
+import os
+import re
+import unicodedata
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+AUDIT = HERE.parent / "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md"
+ANNEX = HERE / "ANNEX.md"
+GUIDE = HERE / "GUIA_DE_LECTURA.md"
+
+# Normalized state vocabulary used by the guide (see GUIA §3).
+STATES = ("ABIERTO", "RESPONDIDO", "CERRADO", "VERIFICADO", "PROPUESTA", "RETIRADO", "INFORMATIVO")
+DISPLAY = (  # five display groups for the chart, fixed order
+    ("Abierto", ("ABIERTO",)),
+    ("Respondido", ("RESPONDIDO",)),
+    ("Cerrado o verificado", ("CERRADO", "VERIFICADO")),
+    ("Propuesta de mejora", ("PROPUESTA",)),
+    ("Retirado o informativo", ("RETIRADO", "INFORMATIVO")),
+)
+
+# id, family, severity, state, round that set the state, plain-language summary
+LEDGER = [
+    ("N-01", "N", "Alta", "ABIERTO", 1, "La nota para el revisor externo no lista todos los PR relevantes."),
+    ("N-02", "N", "Media", "ABIERTO", 1, "La nota da a entender que la auditoría #50 cubre PR posteriores que no cubre."),
+    ("N-03", "N", "Alta", "ABIERTO", 1, "La nota calla limitaciones que los propios PR ya reconocen."),
+    ("N-04", "N", "Alta", "ABIERTO", 1, "La nota no separa lo que hizo una IA de lo que hizo el autor."),
+    ("N-05", "N", "Alta", "ABIERTO", 1, "La nota no enumera las afirmaciones concretas que se piden revisar."),
+    ("N-06", "N", "Alta", "ABIERTO", 1, "La nota presenta #54 y #57 con más fuerza de la que tienen."),
+    ("N-07", "N", "Media", "ABIERTO", 1, "La nota no fija versiones y el material cambia cada día."),
+    ("N-08", "N", "Media", "ABIERTO", 1, "La nota usa siglas sin definirlas."),
+    ("N-09", "N", "Baja", "ABIERTO", 1, "Faltan datos prácticos: plazo, honorario, confidencialidad, cómo ejecutar."),
+    ("F-01", "F", "Alta", "RESPONDIDO", 11, "En #57 el metaprotocolo y el comparador convencional ejecutan el mismo código: empatar no prueba ventaja."),
+    ("F-02", "F", "Alta", "ABIERTO", 10, "En el modelo de #57, la única palanca de ventaja agéntica es un coste supuesto e igual para todos."),
+    ("F-03", "F", "Media", "RESPONDIDO", 6, "Los recuentos 107/14/39 del barrido dependen de cómo se eligió la rejilla."),
+    ("F-04", "F", "Media", "ABIERTO", 2, "En el caso estrella de #57, el comparador convencional obtiene más."),
+    ("F-05", "F", "Media", "ABIERTO", 2, "El modelo de #57 es lineal y resta costes sin una tasa de conversión declarada."),
+    ("F-06", "F", "Alta", "RESPONDIDO", 11, "Los 46 «experimentos» de #54 son ejemplos calculados a partir de datos fijados."),
+    ("F-07", "F", "Baja", "ABIERTO", 2, "Una variable calculada y no usada en el código de #54."),
+    ("G-01", "G", "Alta", "RESPONDIDO", 11, "En la campaña de 60 casos, el comparador convencional tiene la respuesta correcta escrita en los datos."),
+    ("G-02", "G", "Media", "ABIERTO", 3, "La «auditoría independiente» de Q es un sí/no escrito en los datos."),
+    ("G-03", "G", "Media", "ABIERTO", 3, "Varios «microexperimentos» son números escritos a mano, no calculados."),
+    ("G-04", "G", "Media", "ABIERTO", 3, "Dos análisis de la campaña repiten la regla que pretenden probar."),
+    ("G-05", "G", "Baja", "RESPONDIDO", 6, "#54 repite 8 celdas de red que ya estaban en #49."),
+    ("G-06", "G", "Baja", "ABIERTO", 3, "Hay tres cifras distintas de documentos «cribados» (17, 19 y 23)."),
+    ("H-01", "H", "Alta", "ABIERTO", 10, "La «trampa» de #42 prohíbe los pasos intermedios; no muestra agentes que elijan quedarse."),
+    ("H-02", "H", "Alta", "ABIERTO", 4, "La brecha que crece con n es un supuesto: la misma ecuación en #42, #49 y #54."),
+    ("H-03", "H", "Alta", "ABIERTO", 10, "En #43 la información se pierde por cómo se pregunta (censura), no por el anidamiento."),
+    ("H-04", "H", "Media", "ABIERTO", 4, "«Sufrimiento estructural» mide una brecha de contribución, no bienestar."),
+    ("H-05", "H", "Media", "ABIERTO", 4, "La curva de utilidad de las manzanas está escrita a mano, no derivada."),
+    ("H-06", "H", "Informativo", "VERIFICADO", 4, "Las cotas de bits de #43 son correctas."),
+    ("I-01", "I", "Alta", "CERRADO", 13, "qualify podía decir «verdadero» con evidencia vacía; corregido en main y reconfirmado."),
+    ("M27-01", "M27", "Alta", "CERRADO", 13, "Dos fuentes incompatibles podían dar «verdadero»; corregido en main y reconfirmado."),
+    ("M27-02", "M27", "Alta", "CERRADO", 13, "El mismo defecto de tolerancia que I-01; corregido y reconfirmado."),
+    ("M27-03", "M27", "Alta", "RESPONDIDO", 12, "#60: la consulta suplementaria debe contar con la observación A ya disponible. Aplicado en la rama de #60."),
+    ("M27-04", "M27", "Alta", "RESPONDIDO", 12, "#60 mezclaba numeraciones UC21 y DDS. Aplicado en la rama de #60."),
+    ("M27-05", "M27", "—", "INFORMATIVO", 8, "Aclaración de procedencia de R12: TeX original frente a PDF posterior."),
+    ("M27-06", "M27", "—", "RETIRADO", 8, "El revisor retiró una alegación de incumplimiento de navegación."),
+    ("M27-07", "M27", "Baja", "ABIERTO", 12, "#57: el primer observador puede quedar sin identificar."),
+    ("M27-08", "M27", "Baja", "ABIERTO", 12, "El núcleo económico usa convenciones distintas de segunda diferencia."),
+    ("M27-09", "M27", "—", "RETIRADO", 8, "El revisor retiró una conclusión demasiado amplia sobre F-01."),
+    ("M27-10", "M27", "Alta", "ABIERTO", 8, "R19: la ecuación (4) no mantiene S dentro de [0, H]."),
+    ("M27-11", "M27", "Media", "ABIERTO", 8, "La ventana semántica no mejora «todo» estimador, sólo una clase definida."),
+    ("M27-12", "M27", "Media", "ABIERTO", 8, "La ventana actual no es automáticamente suficiente frente a toda la historia."),
+    ("M27-13", "M27", "Media", "ABIERTO", 8, "Una cota de la señal no acota automáticamente el indicador."),
+    ("M27-14", "M27", "Media", "ABIERTO", 8, "D28: ser seguro frente a no hacer nada no implica ser mejor que otra acción."),
+    ("M27-15", "M27", "Media", "ABIERTO", 8, "D34: salir una vez de una tolerancia no implica quedarse fuera."),
+    ("M27-16", "M27", "Media", "ABIERTO", 8, "Una sobrecarga temporal no implica una cola infinita."),
+    ("M27-17", "M27", "—", "INFORMATIVO", 8, "La versión web de D37 ya contiene la aclaración."),
+    ("M27-18", "M27", "Media", "ABIERTO", 8, "D37: podar nodos no demuestra atractores estables."),
+    ("M27-19", "M27", "—", "PROPUESTA", 8, "D37: especificar dominio y raíz para obtener un precio interpretable."),
+    ("M27-20", "M27", "—", "ABIERTO", 8, "Cantor no implica que toda representación fiel sea imposible."),
+    ("M27-O1", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: suficiencia de una representación durante una dinámica."),
+    ("M27-O2", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: cotas de error ligadas a pregunta y horizonte."),
+    ("M27-O3", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: renovación de poblaciones (cohortes)."),
+    ("M27-O4", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: colas, plazos y contabilidad sin doble conteo."),
+    ("M27-O5", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: ventanas con error, coste y plazo."),
+    ("M28-01", "M28", "Alta", "CERRADO", 13, "El redondeo de coma flotante podía certificar «verdadero»; corregido y reconfirmado."),
+    ("M28-02", "M28", "Media", "ABIERTO", 12, "#60: la guarda no comprueba que el punto pertenezca al dominio."),
+    ("M28-03", "M28", "Media", "ABIERTO", 12, "#60: se aceptan NaN o infinito como cota de utilidad."),
+    ("M28-04", "M28", "Media", "PROPUESTA", 12, "#60: decidir si la caducidad se mide en la fecha del evento o en la de uso."),
+    ("M28-05", "M28", "—", "ABIERTO", 12, "Nombres de pruebas que sugieren una comparación que no existe."),
+    ("M28-06", "M28", "—", "INFORMATIVO", 12, "Panel y navegación de la auditoría actualizados."),
+    ("M28-07", "M28", "Baja", "PROPUESTA", 12, "Un script de la ronda 8 sobrescribe su JSON si se ejecuta sin --output."),
+    ("M28-O1", "M28-O", "—", "PROPUESTA", 12, "Línea de desarrollo: coste esperado de un selector frente a búsqueda exhaustiva."),
+    ("M28-O2", "M28-O", "—", "PROPUESTA", 12, "Línea de desarrollo: modelo temporal con versiones de contexto."),
+    ("J-01", "J", "Media", "RESPONDIDO", 14, "La cabecera «lectura vigente» estaba desfasada tras la ronda 13."),
+    ("J-02", "J", "Media", "RESPONDIDO", 14, "Los encabezados guardan el estado histórico; el vigente no se veía en ningún sitio."),
+    ("J-03", "J", "Media", "RESPONDIDO", 14, "Los enlaces a hallazgos se rompían cada vez que cambiaba su estado."),
+    ("J-04", "J", "Baja", "RESPONDIDO", 14, "Las rondas no están en orden y la 7 no tiene título propio."),
+    ("J-05", "J", "Baja", "RESPONDIDO", 14, "Un mismo defecto tiene hasta cinco nombres: riesgo de contarlo varias veces."),
+    ("J-06", "J", "Baja", "RESPONDIDO", 14, "Se usaban más estados de los que la cabecera declaraba."),
+    ("J-07", "J", "Baja", "ABIERTO", 14, "El expediente mezcla español e inglés; falta decidir un idioma."),
+    ("J-08", "J", "Informativo", "VERIFICADO", 14, "Enlaces internos y versiones fijadas: ninguno roto."),
+]
+
+FAMILIES = (
+    ("N", "Nota al revisor externo"),
+    ("F", "Código de #57 y #54"),
+    ("G", "Campaña de 60 casos (#48/#49)"),
+    ("H", "Modelo social (#42/#43)"),
+    ("I", "Defecto de qualify (#45)"),
+    ("M27", "Corpus matemático (27 oct)"),
+    ("M28", "Relectura (28 oct)"),
+    ("M27-O", "Líneas de desarrollo (27 oct)"),
+    ("M28-O", "Líneas de desarrollo (28 oct)"),
+    ("J", "Forma del expediente (ronda 14)"),
+)
+
+# Same defect under several names (aliases across audits)
+ALIASES = [
+    ("Defecto de qualify (#45)", ["I-01", "D26-F01", "M27-02", "M27-01", "M28-01"], "CERRADO"),
+    ("Mismo código en dos brazos (#57)", ["F-01", "F-03", "D26-F03"], "RESPONDIDO"),
+    ("Consulta suplementaria (#60)", ["M27-03", "D26-F08", "D26-C04/05"], "RESPONDIDO"),
+    ("Numeración UC21/DDS (#60)", ["M27-04", "D26-F09", "D26-C06/07"], "RESPONDIDO"),
+    ("Brecha supuesta g·E", ["H-02", "G-05", "F-06 (familia network)"], "ABIERTO"),
+]
+
+
+# ---------------------------------------------------------------- checks
+def slug(heading: str) -> str:
+    h = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", heading).replace("`", "").strip().lower()
+    keep = "".join(c for c in h if c in "-_ " or unicodedata.category(c)[0] in "LMN" or unicodedata.category(c) == "Pc")
+    return keep.replace(" ", "-")
+
+
+def anchors(path: Path) -> set[str]:
+    seen, out, fence = collections.Counter(), set(), False
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.lstrip().startswith(("```", "~~~")):
+            fence = not fence
+        if fence:
+            continue
+        out.update(re.findall(r'<a id="([^"]+)"></a>', line))
+        m = re.match(r"^(#{1,6})\s+(.*?)\s*#*\s*$", line)
+        if m:
+            s = slug(m.group(2))
+            out.add(s if seen[s] == 0 else f"{s}-{seen[s]}")
+            seen[s] += 1
+    return out
+
+
+def broken_local_anchors(path: Path) -> list[str]:
+    text = re.sub(r"```.*?```", "", path.read_text(encoding="utf-8"), flags=re.S)
+    bad = []
+    for href in re.findall(r"\]\(([^)\s]*#[^)\s]+)\)", text):
+        if href.startswith("http"):
+            continue
+        file_part, frag = href.split("#", 1)
+        target = (path.parent / file_part).resolve() if file_part else path
+        if target.suffix == ".md" and target.exists() and frag not in anchors(target):
+            bad.append(href)
+    return bad
+
+
+def checks() -> dict:
+    audit = AUDIT.read_text(encoding="utf-8")
+    ids = [row[0] for row in LEDGER]
+    missing = [i for i in ids if i != "M27-20" and not re.search(rf"\b{re.escape(i)}\b", audit)]
+    declared = set(re.findall(r"^### ([A-Z]-\d\d) ·", audit, re.M)) | set(re.findall(r"^\| (?:<a id=\"[^\"]+\"></a>)?\*\*((?:M2[78]-O?|J-)\d+)\*\* \|", audit, re.M))
+    unlisted = sorted(declared - set(ids))
+    explicit = set(re.findall(r'<a id="([^"]+)"></a>', audit))
+    without_stable_anchor = [i for i in ids if i != "M27-20" and i.lower() not in explicit]
+    docs = [AUDIT, ANNEX] + ([GUIDE] if GUIDE.exists() else [])
+    return {"ledger_ids": len(ids), "duplicate_ids": len(ids) - len(set(ids)),
+            "ledger_ids_absent_from_audit": missing, "audit_ids_absent_from_ledger": unlisted,
+            "ledger_ids_without_stable_anchor": without_stable_anchor,
+            "broken_local_anchors": {p.name: broken_local_anchors(p) for p in docs}}
+
+
+# ---------------------------------------------------------------- figures
+STYLE = """<style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.grid{stroke:#e4e3df}
+  .s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}.s4{fill:#e87ba4}
+  .a0{fill:#2a78d6}.a1{fill:#eb6834}.a0s{stroke:#2a78d6}.a1s{stroke:#eb6834}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.grid{stroke:#383835}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}.s4{fill:#d55181}
+    .a0{fill:#3987e5}.a1{fill:#d95926}.a0s{stroke:#3987e5}.a1s{stroke:#d95926}
+  }
+</style>"""
+
+
+def counts_by_family() -> dict:
+    out = {}
+    for fam, _ in FAMILIES:
+        rows = [r for r in LEDGER if r[1] == fam]
+        out[fam] = [sum(r[3] in group for r in rows) for _, group in DISPLAY]
+    return out
+
+
+def fig_status() -> str:
+    data = counts_by_family()
+    left, top, bar_h, gap, unit = 290, 92, 26, 10, 26
+    w = left + 20 * unit + 40
+    h = top + len(FAMILIES) * (bar_h + gap) + 96
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
+         f'aria-label="Estado de los 71 registros de la auditoría por familia">{STYLE}',
+         f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
+         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">¿Cómo está cada familia de hallazgos? (28 oct 2026)</text>',
+         '<text class="ink2" x="16" y="50" font-size="12">Cada barra es una familia de hallazgos. El número de cada tramo dice cuántos registros están en ese estado.</text>',
+         '<text class="ink2" x="16" y="68" font-size="12">Estado vigente según la última ronda que lo decidió, no según el encabezado histórico.</text>']
+    for i, (fam, name) in enumerate(FAMILIES):
+        y = top + i * (bar_h + gap)
+        total = sum(data[fam])
+        s.append(f'<text class="ink" x="{left - 10}" y="{y + 17}" font-size="12" text-anchor="end">{fam} · {name}</text>')
+        x = left
+        for k, n in enumerate(data[fam]):
+            if not n:
+                continue
+            wseg = n * unit - 2
+            s.append(f'<rect class="s{k}" x="{x}" y="{y}" width="{wseg}" height="{bar_h}" rx="4">'
+                     f'<title>{fam}: {n} {DISPLAY[k][0].lower()}</title></rect>')
+            s.append(f'<text x="{x + wseg / 2}" y="{y + 17}" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">{n}</text>')
+            x += n * unit
+        s.append(f'<text class="ink2" x="{x + 6}" y="{y + 17}" font-size="11">{total}</text>')
+    yl = h - 58
+    for k, (label, _) in enumerate(DISPLAY):
+        xl = 16 + (k % 3) * 250
+        yy = yl + (k // 3) * 22
+        s.append(f'<rect class="s{k}" x="{xl}" y="{yy}" width="14" height="14" rx="3"/>')
+        s.append(f'<text class="ink" x="{xl + 20}" y="{yy + 12}" font-size="12">{label}</text>')
+    s.append("</svg>")
+    return "\n".join(s)
+
+
+ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
+    (1, 0, "Nota al revisor"), (2, 0, "Código #57/#54"), (3, 0, "Campaña #48/#49"),
+    (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
+    (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
+    (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"),
+]
+
+
+def fig_rounds() -> str:
+    w, left, right, y0 = 1060, 80, 80, 150
+    step = (w - left - right) / (len(ROUNDS) - 1)
+    h = 300
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
+         f'aria-label="Línea de tiempo de las 14 rondas de auditoría y su autor">{STYLE}',
+         f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
+         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las rondas de la auditoría, en orden (26–28 oct 2026)</text>',
+         '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y las 7–14 en orden directo. Aquí van en orden real.</text>',
+         f'<line class="grid" x1="{left}" x2="{w - right}" y1="{y0}" y2="{y0}" stroke-width="2"/>']
+    for i, (r, a, label) in enumerate(ROUNDS):
+        x = left + i * step
+        up = i % 2 == 0
+        ty = y0 - 34 if up else y0 + 46
+        s.append(f'<line class="a{a}s" x1="{x:.1f}" x2="{x:.1f}" y1="{y0}" y2="{y0 - 22 if up else y0 + 22}" stroke-width="2"/>')
+        s.append(f'<circle class="a{a}" cx="{x:.1f}" cy="{y0}" r="11"><title>Ronda {r}: {label}</title></circle>')
+        s.append(f'<text x="{x:.1f}" y="{y0 + 4}" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">{r}</text>')
+        s.append(f'<text class="ink" x="{x:.1f}" y="{ty}" font-size="11" text-anchor="middle">{label}</text>')
+    for k, (label) in enumerate(("Claude (auditor de IA)", "Codex con observaciones de Iván (IA)")):
+        xl = 16 + k * 260
+        s.append(f'<circle class="a{k}" cx="{xl + 7}" cy="{h - 30}" r="7"/>')
+        s.append(f'<text class="ink" x="{xl + 20}" y="{h - 26}" font-size="12">{label}</text>')
+    s.append(f'<text class="ink2" x="{w - 16}" y="{h - 26}" font-size="11" text-anchor="end">Ninguna ronda es una revisión humana independiente.</text>')
+    s.append("</svg>")
+    return "\n".join(s)
+
+
+M27_20_URL = "https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6446350643"
+STATE_LABEL = {"ABIERTO": "🔵 Abierto", "RESPONDIDO": "🟠 Respondido", "CERRADO": "🟢 Cerrado",
+               "VERIFICADO": "🟢 Verificado", "PROPUESTA": "🟡 Propuesta", "RETIRADO": "⚪ Retirado",
+               "INFORMATIVO": "⚪ Informativo"}
+
+
+def ledger_markdown() -> str:
+    """Per-family tables, generated so the guide never drifts from the ledger."""
+    parts = []
+    for fam, name in FAMILIES:
+        rows = [r for r in LEDGER if r[1] == fam]
+        open_n = sum(r[3] == "ABIERTO" for r in rows)
+        parts.append(f"<details><summary><b>{fam} · {name}</b> — {len(rows)} registros, {open_n} abiertos</summary>\n")
+        parts.append("| ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |")
+        parts.append("|---|---|---|---|---|")
+        for i, f, sev, st, rd, txt in rows:
+            link = M27_20_URL if i == "M27-20" else f"../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#{i.lower()}"
+            parts.append(f"| [{i}]({link}) | {STATE_LABEL[st]} | {sev} | {txt} | {rd} |")
+        parts.append("\n</details>\n")
+    return "\n".join(parts)
+
+
+def write_guide_table() -> bool:
+    if not GUIDE.exists():
+        return False
+    text = GUIDE.read_text(encoding="utf-8")
+    begin, end = "<!-- LEDGER:BEGIN (generado por reader_guide_build.py) -->", "<!-- LEDGER:END -->"
+    if begin not in text or end not in text:
+        return False
+    head, rest = text.split(begin, 1)
+    _, tail = rest.split(end, 1)
+    GUIDE.write_text(head + begin + "\n\n" + ledger_markdown() + "\n" + end + tail, encoding="utf-8")
+    return True
+
+
+def build() -> dict:
+    totals = collections.Counter(r[3] for r in LEDGER)
+    return {"schema": "ACC-AUDIT-STATUS-LEDGER-v0.1", "as_of": "2026-10-28",
+            "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-13",
+            "state_vocabulary": list(STATES), "totals": {s: totals.get(s, 0) for s in STATES},
+            "by_family_display_groups": {"groups": [g for g, _ in DISPLAY], "counts": counts_by_family()},
+            "records": [dict(id=i, family=f, severity=sev, state=st, set_in_round=rd, summary=txt)
+                        for i, f, sev, st, rd, txt in LEDGER],
+            "aliases": [dict(defect=d, ids=ids, state=st) for d, ids, st in ALIASES],
+            "checks": checks(),
+            "note": "AI-assisted reading aid. States summarize the audit's own dispositions; they are not independent human validation."}
+
+
+def main(argv=None) -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--write", action="store_true")
+    a = ap.parse_args(argv)
+    if a.write:
+        write_guide_table()
+    result = build()
+    if a.write:
+        (HERE / "STATUS_LEDGER_2026-10-28.json").write_text(
+            json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        (HERE / "figures").mkdir(exist_ok=True)
+        (HERE / "figures" / "STATUS_by_family.svg").write_text(fig_status(), encoding="utf-8")
+        (HERE / "figures" / "ROUNDS_timeline.svg").write_text(fig_rounds(), encoding="utf-8")
+    print(json.dumps({"totals": result["totals"], "checks": result["checks"]}, ensure_ascii=False, indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,5 +1,7 @@
 # Anexo de la auditoría incremental — ayudas visuales, propuestas y referencias
 
+> **¿Primera vez aquí?** Empiece por la [guía de lectura](GUIA_DE_LECTURA.md): estado vigente de todos los registros, ideas clave en lenguaje llano, mapa de rondas y glosario (ronda 14).
+
 **Documento principal:** [Auditoría científica incremental](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md).
 **Propósito:** que cada hallazgo deje algo utilizable en el PR auditado: una figura, una referencia que citar, una prueba que añadir o una formulación más precisa. Nada de este anexo cambia código, resultados ni canon.
 **Reproducción:** todas las cifras de este anexo salen de [`audit_companion.py`](audit_companion.py) (biblioteca estándar, sin importar los estudios auditados). `python -B audit_companion.py --write` regenera [`COMPANION_RESULTS.json`](COMPANION_RESULTS.json) y las figuras de [`figures/`](figures/).
