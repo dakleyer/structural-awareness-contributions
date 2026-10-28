@@ -1,10 +1,64 @@
-# Qualified Gain v0.1 — a reusable social/agentic comparison interface
+# Structural adequacy + qualified gain v0.1 — two reusable, independent components
 
-**Research implementation (28 October 2026).** Core code: [qualified_gain.py](./qualified_gain.py); adapters: [qualified_gain_adapters.py](./qualified_gain_adapters.py); cross-model tests: [test_theme18_qualified_gain.py](./test_theme18_qualified_gain.py).
+**Research implementation (28 October 2026).** Finite structural diagnostic: [structural_adequacy.py](./structural_adequacy.py); value-sign helper: [qualified_gain.py](./qualified_gain.py); social/agentic/geometry adapters: [qualified_gain_adapters.py](./qualified_gain_adapters.py); [structural tests](./test_theme18_structural_adequacy.py) and [numeric tests](./test_theme18_qualified_gain.py).
 
-## Core contract, independent of any ACC example
+## Explicit derivation from the existing corpus
 
-The shared primitive is **a comparison between partial value intervals with the same metric, unit and decision scope**, not a universal utility score or a proxy for consciousness.
+This design implements **two separate, pre-existing mathematical tasks** instead of claiming a new unified intelligence engine.
+
+1. **Structural adequacy of the receiving representation.** Canonical [00M §4.1](../../../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) defines F1: two possible source states with the same qualified projection A cannot have different answers to the **independently specified** receiving question if A is exactly sufficient. [PR60 §02 D1](./02_FORMAL_CORE_AND_PROOFS.md) adds the familiar operation-congruence condition: a newly eligible operation can invalidate an earlier adequate quotient without making the original A wrong. The new structural_adequacy.py evaluates precisely those two predicates for a finite external/referee frame, returning **witness pairs and UNKNOWN**, not hidden-state predictions or an MSCA implementation.
+2. **Direction of an already established comparable metric.** Canonical [00M §6.2](../../../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) already specifies the interval difference [c-b, d-a]. qualified_gain.py merely implements that arithmetic with exact rational bounds, evidence status and type identity. **This is standard, downstream arithmetic, not the discovery mechanism or an original theorem.**
+
+The architecture claim is the **typed relationship** between these independent functions and the larger corpus. [00N §§1–3](../../../../00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) places between them source-preserving A/B/C/D interpretation, relevant scope, complementary qualified B and bounded requalification. [PR60 §02 D3-A](./02_FORMAL_CORE_AND_PROOFS.md) requires extra queries Q to be selected **given already qualified A**. Neither module reconstructs open C/D, proves source eligibility, mints action authority or assumes a numeric gain whenever a structural witness exists.
+
+The [new five-mechanism architecture-search decomposition in PR62 §15](https://github.com/dakleyer/structural-awareness-contributions/blob/research/sa-ea-ep-dds-foundational-bridge-20261027/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md) makes this positioning even clearer:
+
+| Source-owned mechanism | How the present code relates |
+|---|---|
+| 1. Metasyntactic pre-gradient / proprietary MSCA position | A distinct, upstream architectural selection capability; **not implemented by a scalar interval** |
+| 2. Qualified residual status / observable UNKNOWN traces | A distinct source qualification. structural_adequacy returns only a *finite receiving-question witness*, not a density map or unseen exterior |
+| 3. Non-fungible by-leaf composition across actors | Distinct lineage/dependence and scope service; not replaced by summing values |
+| 4. Bounded verification, objective-conditioned agentic gradient and consent/ACC | qualified_gain is a **small scalar sign subroutine**, not the proprietary MSCA or the source-owned Agentic Gradient Law; actual model adapters retain authority and peer comparators |
+| 5. Independent Regime Awareness | Context/history validity stays source-owned; no RA regime signal is inferred from a gain or witness |
+
+This preserves **SA mathematical origin → EA source qualification → EP architectural realization**, with DDS/UC21 as a separate test route. The social model's feasible opportunity and human welfare remain distinct; an agentic mission-output gap is not human suffering or HID.
+
+## A real dynamic witness in both existing models
+
+| Model, same visible A | Old question | Independently frozen new question/operation | Diagnostic |
+|---|---|---|---|
+| Social nested_model: ProducerWorld(True/False) both expose handoff (8,8) | Current output = 8 in both: A sufficient | Joint feasible capacity = 10 versus 8; or operation joint_reallocation produces distinct post-A values | F1 residual and D1 operation noncongruence; **+2 is feasible**, not executed |
+| Agentic PR57 AG01/AG02: identical full declared_public A and initial output 10 | Current output = 10 in both: A sufficient | Same fixed allowed transfer of two units gives 11.5 versus 8.875 under the independently modeled hidden recipient rates | D1 operation noncongruence; the Q source rates 1.6 and 0.4 can distinguish the cases **only after eligible source qualification** |
+
+The agentic witness was independently replayed through PR57's actual declared_public and physical_response at commit a98940490e8a84051ad314f2392c15338dbf1de9. CI in PR60 pins the finite public-A and post-action observations because PR57 remains another branch; the social check imports nested_model directly.
+
+A structural residual does **not** establish benefit: an agent may recognize an opportunity yet execute nothing. Conversely, two states can have different, perfectly visible A values and a positive quantitative gain without any hidden decision-relevant distinction. Both negative controls are executable tests.
+
+**Reusable entry point:** callers supply a frame ID/version, receiving scope, independently specified question, qualified A observations, qualified reference answers and optional post-operation A values as FiniteDecisionCase objects:
+
+~~~python
+from structural_adequacy import FiniteDecisionCase, assess_finite_adequacy
+
+rows = [
+    FiniteDecisionCase("s1", "service-v1", "compatible_versions",
+                       ("READY", "READY"), True, "independent-version-ref"),
+    FiniteDecisionCase("s2", "service-v1", "compatible_versions",
+                       ("READY", "READY"), False, "independent-version-ref"),
+]
+diagnosis = assess_finite_adequacy(
+    rows, frame_id="versioned-contract-1", scope="service-v1",
+    question="compatible_versions")
+assert diagnosis.decision_status == "WITNESSED_RESIDUAL"
+assert diagnosis.decision_witnesses == (("s1", "s2"),)
+~~~
+
+Adding version metadata to a legitimate A+Q projection can resolve that bounded question; the *source's rights, freshness, method and role at the receiver* must be qualified separately under 00M/00N before constructing that richer projection. The structural checker consumes no private population survey, executes no transition, and does not assign roles A/B/C/D to object sets. It reports a finite pair witness or a stated finite-frame adequacy result, never a universal closed-world proof.
+
+
+
+## Numeric subroutine: qualified gain, independent of any ACC example
+
+The separate numeric subroutine compares **partial value intervals with the same metric, unit and decision scope**. Its original mathematical source is 00M §6.2. It is not a universal utility score, a proxy for consciousness, or a substitute for the structural diagnosis above.
 
 For baseline B in [bL,bU] and candidate C in [cL,cU]:
 
@@ -90,4 +144,4 @@ From repository root:
 python3 -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1 -p 'test_theme18_*.py' -v
 ~~~
 
-This covers exact interval signs, partial endpoints, invalid input, metric/unit/scope mismatch, unverified/refuted evidence, direct social model, AG01/AG11 adapter shapes, and the Theme18 numeric geometry gate. The API is on research PR60, with no rewrite of 00M/00N, no cost-only superiority claim and no merge to main in this change.
+This covers F1/D1 old-versus-new sufficiency, social and agentic structural witnesses, a canonical four-state operation signature, UNKNOWN/invalid frames, exact interval signs, partial endpoints, metric/unit/scope mismatch, unverified/refuted evidence, direct social model, AG01/AG11 gain shapes and the Theme18 numeric geometry gate. These reusable *standard finite diagnostics* are on research PR60; no rewrite of 00M/00N or the five source-owned mechanisms, no cost-only superiority claim and no merge to main in this change.
