@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import unittest
 
+from qualified_certificates import DecisionUse, evaluate_certificate as requalify
+
 DOMAIN = tuple(range(10))
 
 
@@ -23,20 +25,9 @@ def capture_pre_admission(event, *, permitted, capture_enabled):
             "scope": "route-v1", "time": 1, "source": "observer-A"}
 
 
-def requalify(retained, certificate):
-    """Only a qualified scope-compatible *rule* may reinterpret a retained event."""
-    if retained is None:
-        return "NO_REPLAY_SOURCE"
-    if certificate is None:
-        return "UNRESOLVED"
-    if (not certificate.get("verified", False)
-        or certificate.get("source_scope") != retained["scope"]
-        or certificate.get("expires_before") < retained["time"]):
-        return "CERTIFICATE_UNSUPPORTED"
-    if certificate.get("target_event") != retained["event"]:
-        return "NOT_APPLICABLE_TO_EVENT"
-    return "ADMISSIBLE_FOR_NEW_REVIEW"
-
+# The earlier dict/verified=True requalify shortcut has been replaced by the
+# independently signed, scoped, dual-time evaluator qualified_certificates.
+# A raw retained trace is not a certificate or an action authorization.
 
 def full_verdict(x):
     """A fixed substantive decision over the declared integer states."""
@@ -80,51 +71,45 @@ def ledger(n, positive_guards, *,
 
 
 class OnlineContextTests(unittest.TestCase):
-    def setUp(self):
-        self.certificate = {"verified": True, "source_scope": "route-v1",
-                            "expires_before": 3, "target_event": "new-route"}
-
-    def test_retained_unresolved_requalifies_with_actual_new_certificate(self):
+    def test_retained_unresolved_is_preserved_but_not_auto_qualified(self):
         record = capture_pre_admission("new-route", permitted=True,
                                        capture_enabled=True)
         self.assertEqual(record["admission"], "UNRESOLVED")
-        self.assertEqual(requalify(record, self.certificate),
-                         "ADMISSIBLE_FOR_NEW_REVIEW")
+        self.assertEqual(record["source"], "observer-A")
 
-    def test_irreversible_loss_has_no_later_recovery(self):
+    def test_irreversible_loss_has_no_later_replay_source(self):
         lost = capture_pre_admission("new-route", permitted=True,
                                      capture_enabled=False)
-        self.assertEqual(requalify(lost, self.certificate), "NO_REPLAY_SOURCE")
+        self.assertIsNone(lost)
 
     def test_no_capture_when_rights_absent(self):
         lost = capture_pre_admission("new-route", permitted=False,
                                      capture_enabled=True)
-        self.assertEqual(requalify(lost, self.certificate), "NO_REPLAY_SOURCE")
+        self.assertIsNone(lost)
 
-    def test_unverified_certificate_cannot_promote(self):
-        r = capture_pre_admission("new-route", permitted=True,
-                                  capture_enabled=True)
-        bad = dict(self.certificate, verified=False)
-        self.assertEqual(requalify(r, bad), "CERTIFICATE_UNSUPPORTED")
-
-    def test_wrong_scope_or_expired_certificate_cannot_promote(self):
-        r = capture_pre_admission("new-route", permitted=True,
-                                  capture_enabled=True)
-        for bad in (dict(self.certificate, source_scope="other"),
-                    dict(self.certificate, expires_before=0)):
-            with self.subTest(bad=bad):
-                self.assertEqual(requalify(r, bad), "CERTIFICATE_UNSUPPORTED")
-
-    def test_wrong_event_does_not_reinterpret_event(self):
-        r = capture_pre_admission("new-route", permitted=True,
-                                  capture_enabled=True)
-        bad = dict(self.certificate, target_event="another-route")
-        self.assertEqual(requalify(r, bad), "NOT_APPLICABLE_TO_EVENT")
-
-    def test_absent_new_certificate_keeps_unknown(self):
-        r = capture_pre_admission("new-route", permitted=True,
-                                  capture_enabled=True)
-        self.assertEqual(requalify(r, None), "UNRESOLVED")
+    def test_raw_unsigned_dict_cannot_be_used_as_signed_event(self):
+        raw = capture_pre_admission("new-route", permitted=True,
+                                    capture_enabled=True)
+        decision = DecisionUse(
+            decision_id="d1", scope="route-v1", context_version="v1",
+            receiver="receiver", purpose="review", question="new-route",
+            rule_version="v1", time_basis="FIXTURE_TICKS_V1", at_time=2,
+        )
+        with self.assertRaises(TypeError):
+            requalify(
+                raw, None, decision,
+                verify_attestation=lambda record: True,
+                source_qualified=lambda cert, event: True,
+                capture_right=lambda event: True,
+                request_authenticated=lambda request: True,
+                retention_right=lambda event, request: True,
+                payload_available=lambda event: True,
+                evidence_use_right=lambda cert, request: True,
+                revocation=None,
+                trusted_clock=lambda basis: 2,
+                max_revocation_age=60,
+                revocation_current=lambda rev, cert, now: True,
+            )
 
     def test_shortcut_requires_real_finite_proof(self):
         self.assertTrue(prove_guard_sound(DOMAIN, guard))
