@@ -8,7 +8,12 @@ collective-choice system or provide action authority.
 from __future__ import annotations
 
 import itertools
+from decimal import Decimal
+from fractions import Fraction
 import unittest
+
+from qualified_gain import ValueInterval, compare_gain
+from qualified_gain_adapters import geometry_score_bounds
 
 SOURCES = tuple("observer-" + str(i) for i in range(4))
 THRESHOLD = 0.6
@@ -17,9 +22,21 @@ CURRENT_GEOMETRY_VALUE = 0.75
 
 
 def score_geometry(features):
-    if len(features) != 4 or any(not 0.0 <= x <= 1.0 for x in features):
-        raise ValueError("invalid geometry")
-    return 1.0 - sum((1.0 - x) ** 2 for x in features) / 4.0
+    lower, upper = geometry_score_bounds([(x, x) for x in features])
+    assert lower == upper
+    return float(lower)
+
+
+def geometry_gain_status(lower_bound):
+    """Exact comparison of qualified numeric value, independent of source labels."""
+    baseline = ValueInterval("geometry", "score", "theme18-v1",
+                             "OBSERVED", "current-geometry",
+                             CURRENT_GEOMETRY_VALUE, CURRENT_GEOMETRY_VALUE,
+                             verification="SUPPORTED")
+    candidate = ValueInterval("geometry", "score", "theme18-v1",
+                              "PROPOSED_BOUND", "qualified-source-to-value-link",
+                              lower=lower_bound, verification="SUPPORTED")
+    return compare_gain(baseline, candidate).status
 
 
 def reports(event="e7", scope="vendor-ecosystem-v1",
@@ -66,14 +83,20 @@ def assess_candidate(rows, *,
         result["candidate_status"] = "CANDIDATE_NOT_RECEIVED"
     elif not source_to_value_link_qualified or source_value_lower_bound is None:
         result["candidate_status"] = "UTILITY_NOT_ESTABLISHED"
-    elif source_value_lower_bound <= CURRENT_GEOMETRY_VALUE:
-        result["candidate_status"] = "NO_CERTIFIED_STRICT_VALUE_GAIN"
-    elif not action_authorized:
-        result["candidate_status"] = "ACTION_RIGHT_NOT_ESTABLISHED"
-    elif not decision_budget_ok:
-        result["candidate_status"] = "TRANSITION_BUDGET_NOT_ESTABLISHED"
     else:
-        result["candidate_status"] = "SCOPED_PROPOSAL_FOR_EXTERNAL_ACTION_CHECK"
+        try:
+            gain_status = geometry_gain_status(source_value_lower_bound)
+        except ValueError:
+            result["candidate_status"] = "UTILITY_NOT_ESTABLISHED"
+        else:
+            if gain_status != "CERTIFIED_STRICT_GAIN":
+                result["candidate_status"] = "NO_CERTIFIED_STRICT_VALUE_GAIN"
+            elif not action_authorized:
+                result["candidate_status"] = "ACTION_RIGHT_NOT_ESTABLISHED"
+            elif not decision_budget_ok:
+                result["candidate_status"] = "TRANSITION_BUDGET_NOT_ESTABLISHED"
+            else:
+                result["candidate_status"] = "SCOPED_PROPOSAL_FOR_EXTERNAL_ACTION_CHECK"
     return result
 
 
@@ -136,6 +159,39 @@ class CandidateAdmissionResearchChecks(unittest.TestCase):
             decision_budget_ok=True)
         self.assertEqual(result["candidate_status"],
                          "NO_CERTIFIED_STRICT_VALUE_GAIN")
+
+    def test_nonfinite_boolean_and_non_numeric_lower_bound_do_not_mint_value(self):
+        for invalid in (float("nan"), float("inf"), -float("inf"),
+                        Decimal("NaN"), Decimal("Infinity"), True, False,
+                        "0.84", object()):
+            with self.subTest(bound=repr(invalid)):
+                result = assess_candidate(
+                    reports(), received_after_exchange=True,
+                    source_to_value_link_qualified=True,
+                    source_value_lower_bound=invalid,
+                    action_authorized=True, decision_budget_ok=True)
+                self.assertEqual(result["candidate_status"],
+                                 "UTILITY_NOT_ESTABLISHED")
+
+    def test_exact_rational_positive_and_equal_bounds(self):
+        kwargs = dict(received_after_exchange=True,
+                      source_to_value_link_qualified=True,
+                      action_authorized=True, decision_budget_ok=True)
+        positive = assess_candidate(reports(),
+                                    source_value_lower_bound=Fraction(21, 25),
+                                    **kwargs)
+        self.assertEqual(positive["candidate_status"],
+                         "SCOPED_PROPOSAL_FOR_EXTERNAL_ACTION_CHECK")
+        equal = assess_candidate(reports(),
+                                 source_value_lower_bound=Decimal("0.75"),
+                                 **kwargs)
+        self.assertEqual(equal["candidate_status"],
+                         "NO_CERTIFIED_STRICT_VALUE_GAIN")
+
+    def test_geometry_feature_inputs_are_validated_by_shared_adapter(self):
+        for invalid in (float("nan"), True, float("inf")):
+            with self.subTest(value=repr(invalid)), self.assertRaises(ValueError):
+                score_geometry((invalid, .9, .8, .95))
 
     def test_source_qualification_cannot_mint_authority(self):
         result = assess_candidate(
