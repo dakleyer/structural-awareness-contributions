@@ -355,7 +355,7 @@ The [shared annex §10.7](https://github.com/dakleyer/structural-awareness-contr
 | Units | Expected impact / risk / effort | Selection and dependency |
 |---|---|---|
 | M28-01-REG | Resolved / not a pending wave | Covered by the merged source and its four new regressions. Do not add the old failing-test proposal as a second repair; retain its complete historical pair in the shared annex. |
-| M28-02-FIX | Medium / Low / Low | First small fixture repair; enforce the existing domain contract before skipping evaluation. Verify allowed-domain controls and rejected outside-domain input together. |
+| M28-02-FIX | Medium / Low / Low | Implemented in PR60 `cb72bb65`; 15/15 file tests verified. Await source review/merge; no repeated implementation. |
 | M28-03-IMPORT + M28-03-FIX | High / Low / Low | First small fixture repair, atomic pair; reject invalid/non-finite utility input while preserving valid candidate proposals and execution=NEVER. |
 | M28-04-TIME | High / Medium / Medium | **Not execution-ready.** Decide historical validity versus time-of-use first, define finite/typed decision time, and supply all caller old/new units plus expiry-boundary tests. |
 | M28-07 IMPORT/ARGS/OUTPUT/ENTRY | Medium / Low / Low | Next I/O-maintenance selection; all four together, temporary cache, stdout or exclusive explicit output. Verify one JSON payload and refusal to overwrite; preserve all 32 checks. |
@@ -367,33 +367,9 @@ Iván's named-wave decision is required for implementation. The priorities above
 
 #### M28-02-FIX — source-owned receipt
 
-Source: [test_theme18_online_context.py](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py). Same identity and dependencies as the table above.
+**Implemented in the PR60 source branch; pending merge into main. Removed from the implementation queue.** Commit `cb72bb65ab148de1c7396d9cb8f9c1b7af6edc25` introduces a typed finite-domain predicate in both full and guarded verdicts and three regression methods. It rejects out-of-domain values and Python bool/float equality aliases. Codex independently ran all 15 tests in this source file successfully. This stronger implementation supersedes the earlier membership-only candidate; do not reapply it.
 
-**Texto antes — viejo**
-
-````python
-def guarded_verdict(x, *, guard_validated, proof_scope):
-    """Never skip substantive decision without matching qualified proof."""
-    if not guard_validated or proof_scope != DOMAIN:
-        return full_verdict(x), False
-    if guard(x):
-        return "REJECT", True
-    return full_verdict(x), False
-````
-
-**Texto después — propuesto**
-
-````python
-def guarded_verdict(x, *, guard_validated, proof_scope):
-    """Never skip substantive decision without matching qualified proof."""
-    if x not in DOMAIN:
-        raise ValueError("outside qualified domain")
-    if not guard_validated or proof_scope != DOMAIN:
-        return full_verdict(x), False
-    if guard(x):
-        return "REJECT", True
-    return full_verdict(x), False
-````
+[Complete original before/proposed card](https://github.com/dakleyer/structural-awareness-contributions/blob/c7ba35c0c578fe65a856a8ea45eef2ea132fa187/research/ecosystem-awareness/baseline/01I_VNext.md#m28-02-fix--source-owned-receipt). Branch implementation and main incorporation remain distinct. M28-03 and M28-04 are separate contracts and remain pending.
 
 #### M28-03-IMPORT — source-owned receipt
 
@@ -561,4 +537,29 @@ if __name__=="__main__":main()
 if __name__=="__main__":
     with tempfile.TemporaryDirectory(prefix="imsv-math-audit28-") as audit_tmp:
         main(Path(audit_tmp))
+````
+
+
+## Final source reconciliation at the current cut — 28 October 2026
+
+The shared audit PR58 now includes rounds 14/15 and a reader guide/status ledger. They improve navigation of the accumulated review. Their 71 records are not 71 independent defects. Round 15 receives the M28-02 source repair in PR60; the exact source is verified above. The queue now contains **seven unimplemented technical units** from round 12: the two M28-03 admission units, the held M28-04 time-contract unit, and the four M28-07 I/O units. The domain unit and the merged numerical unit are no longer pending implementation. All seven current before-units remain unique against the appropriate current PR60/PR58 sources. None of these queue receipts implements a source fix.
+
+M28-04 remains held: the proposed decision_time parameter admits NaN, and the complete caller units/finite-time contract and historical-versus-use-time semantics must be specified together. M28-03 retains candidate/execution separation. M28-07 requires its four I/O units as one package. D26-C04–07 and M28-02 await PR60 incorporation; PR64 is already incorporated in main.
+
+### D28-C03 — Distinguish aliases from related scientific findings
+
+**State:** proposed review clarification, not applied. **Priority:** First small documentation wave. **Expected impact:** Medium. **Risk:** Low. **Effort:** Low. Benefit: the reader can track each scientific objection and its closure criterion. Preserve all table identities and individual statuses; the proposal changes one paragraph. F-01's shared procedure and F-03's grid proportions are related, but resolving one does not establish the other's scope. Likewise reused cells, an assumed gap equation and presentation of a case family have different evidential consequences.
+
+**Location/source:** [current reader guide, section 7](https://github.com/dakleyer/structural-awareness-contributions/blob/a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/GUIA_DE_LECTURA.md#7-un-mismo-problema-varios-nombres), PR58 `a02f2d31`. The old paragraph is unique. No heading, anchor, data record, finding or link is removed. Decision: select the paragraph after review; no source-code patch is implied.
+
+**Texto antes — viejo literal completo:**
+
+````text
+Distintas revisiones han dado nombres diferentes al mismo problema. Esta tabla evita contarlos dos veces.
+````
+
+**Texto después — propuesto completo:**
+
+````text
+Esta tabla relaciona alias de un mismo defecto y también hallazgos distintos de una misma familia. F-01 trata de la rama de código compartida; F-03, de los recuentos y límites de la rejilla. G-05 trata de celdas reutilizadas, H-02 de una ecuación supuesta y F-06 de cómo se presenta el conjunto de casos. Conservar el alcance y el estado individual de cada registro: resolver uno no cierra automáticamente los relacionados. El mapa ayuda a navegar; no convierte todas las filas en equivalencias estrictas.
 ````

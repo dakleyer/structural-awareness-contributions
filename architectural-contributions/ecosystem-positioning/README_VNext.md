@@ -3208,3 +3208,8 @@ The numeric source advanced to 0229bf9: fresh 68/68 tests and the unchanged refe
 The current main cut and the nine TAX26 units remain as in the preceding entry. The six new IP-37–42 units and remaining mathematical/source reviews retain round12's actual work status; this receipt verifies and routes the technical units, not all those proofs or editorial choices. Pending-state reception for PR59 is now done; source implementation, owner selection and merge are separate remaining actions.
 
 **Later incorporation checked in this same review:** main advanced to 51fc686f through PR64. The numerical defects now have an actual source fix, 72 passing tests and unchanged frozen-reference bytes. I-01/M27-01/02/M28-01 are closed in their scoped runtime meaning; the eight still-pending M28 technical units above exclude that already-covered regression proposal. PR60 and the remaining documentary units retain their explicit states.
+
+
+## Current shared-review receipt — 28 October 2026
+
+PR58 rounds 14/15 and their reader guide/status ledger are received. PR60 `cb72bb65` now implements M28-02; Codex reverified 15/15 file tests. The source-owned 01I VNext retires that superseded pair from implementation and keeps its exact historical card linked. PR60 incorporation remains pending. Seven other round 12 technical units remain unimplemented, with the time-contract unit held for its NaN/caller issues. A one-paragraph guide clarification (D28-C03) separates aliases from related findings without deleting records or changing their states. The main numeric repair remains verified 72/72. No canonical source or code is changed by these receipts.
