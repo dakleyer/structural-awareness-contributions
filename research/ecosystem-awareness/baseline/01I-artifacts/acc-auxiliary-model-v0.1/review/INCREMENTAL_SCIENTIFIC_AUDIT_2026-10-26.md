@@ -48,6 +48,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 16 | 2026-10-28 | [Relectura de cambios y cinco mecanismos](#ronda-16); [propuestas](incremental-audit-2026-10-26/ANNEX.md#11-ronda-16--recepción-y-propuestas-acotadas) | Cierres numéricos recibidos, dominio60 reconfirmado, próximos controles matemáticos y recepción59 |
 | 17 | 2026-10-28 | [Modelo social #44, #45 (resto) y #46](#ronda-17) | K-01 a K-08 |
 | 18 | 2026-10-28 | [Precisión de alias en la guía (D28-C03)](#ronda-18) | Sin hallazgos nuevos; precisión añadida a la guía |
+| 19 | 2026-10-28 | [Oportunidades de mejora y recepción de R16-P01/P06/P07 e IP-43](#ronda-19) | OP-01 a OP-13; evidencia nueva para K-02 y K-04 |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -838,4 +839,53 @@ La recepción y los seis candidatos viven en este mismo PR. Esta ronda no incorp
 **Auditor:** Claude, asistencia de IA. **Origen:** la propuesta D28-C03 de Codex en el [PR #59](https://github.com/dakleyer/structural-awareness-contributions/blob/a3326843aa9822b1d7a4c774531fc51818300125/research/ecosystem-awareness/baseline/01I_VNext.md) y su comentario en este PR. Codex señala que la tabla de alias de la guía (§7) agrupaba alias exactos con hallazgos distintos de una misma familia. Tiene razón: F-01 y F-03 no son el mismo hallazgo, ni tampoco G-05, H-02 y F-06. Además, la fila «Brecha supuesta» mostraba 🔵 Abierto para todo el grupo aunque G-05 y F-06 están respondidos.
 
 **Aplicado como añadido, sin retirar texto:** se conserva la tabla y su frase de introducción. Debajo se añaden el párrafo propuesto en D28-C03, una nota que aclara que la columna «Estado» resume el grupo y una tabla nueva, [registro por registro](incremental-audit-2026-10-26/GUIA_DE_LECTURA.md#7-un-mismo-problema-varios-nombres), con el tipo de relación (mismo defecto, lo amplía, relacionado) y el estado propio de cada registro. Ningún estado cambia en esta ronda.
+
+
+<a id="ronda-19"></a>
+
+## Ronda 19 — oportunidades de mejora y recepción de propuestas sobre las herramientas (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA, a petición de Iván («propone también oportunidades de mejora»). Ronda solo de añadidos.
+
+### Evidencia nueva para K-02 y K-04 (#44)
+
+Prueba aleatoria con el código de `main` `51fc686`: árboles de 2 a 16 hojas, cuello en la raíz variable, incrementos de 1 a 3, comparada con la ganancia real calculada por `deliver`.
+
+| Comprobación | Casos | Resultado |
+|---|---:|---|
+| Un certificado B para una sola pregunta promete más que la ganancia real | 3 000 | **0** |
+| La suma de dos B válidos para preguntas distintas supera la ganancia conjunta | 2 299 | **214** (9 %) |
+
+Confirma las dos caras: B es sólido para su pregunta (refuerza K-04) y no es componible (refuerza K-02). Los estados no cambian.
+
+### Recepción de propuestas de Codex sobre herramientas y guía de este PR
+
+| Propuesta | Receptor | Aplicación |
+|---|---|---|
+| R16-P01 | `reconfirm_I01_2026-10-28.py` | Aplicada como añadido: sale con código 1 si hay certificados incorrectos o abstenciones de más. |
+| R16-P06 | `reader_guide_build.py`, campo `source` | Aplicada: el rango de rondas se deriva de la cronología del propio script. |
+| R16-P07 | `reader_guide_build.py`, `main()` | Aplicada como añadido: sale con código 1 ante identificadores duplicados, ausentes o sin ancla, anclas rotas o totales de la guía desalineados; el `return 0` original se conserva para el caso correcto. |
+| IP-43 | Guía §1 | Añadida como formulación complementaria debajo de la original, que se conserva. |
+
+### Oportunidades de mejora
+
+Ordenadas por impacto y esfuerzo estimados por el auditor (no medidos). Explicación en lenguaje llano y matriz visual en la [guía §14](incremental-audit-2026-10-26/GUIA_DE_LECTURA.md#14-oportunidades-de-mejora).
+
+| ID | Oportunidad | Impacto / esfuerzo | Hallazgos que atiende | Primer paso |
+|---|---|---|---|---|
+| <a id="op-01"></a>OP-01 | Reescribir la nota al revisor externo | Alto / Bajo | N-01 a N-09 | Redactarla desde la guía; añadir 5–8 afirmaciones y commits fijados |
+| <a id="op-02"></a>OP-02 | Juego de coordinación con piezas existentes | Alto / Bajo | H-01, K-08 | Dos actores con `certainty_equivalent` (#46) y la restricción de #42 |
+| <a id="op-03"></a>OP-03 | Pruebas con oráculo exacto para cada certificado | Alto / Bajo | I-01, M28-01, K-02 | Generalizar el método de la ronda 13; ya aplicado aquí a B de #44 |
+| <a id="op-04"></a>OP-04 | Certificado B conjunto o reserva de holgura | Medio / Medio | K-02 | Descontar la holgura comprometida en el cuello compartido |
+| <a id="op-05"></a>OP-05 | Informar regiones del espacio de parámetros | Medio / Bajo | F-03, K-01 | Curvas de equilibrio en lugar de un único n o una única rejilla |
+| <a id="op-06"></a>OP-06 | Escala común declarada | Medio / Bajo | F-05, K-07 | Declararla en cada README o no comparar |
+| <a id="op-07"></a>OP-07 | Todo número publicado sale de una función | Medio / Bajo | G-03, K-03 | Prueba que compare literales con su cálculo |
+| <a id="op-08"></a>OP-08 | Comparadores que deciden sólo con lo que observan | Alto / Alto | G-01, F-01 | Generador, comparador y árbitro separados; contrato R16-P04 |
+| <a id="op-09"></a>OP-09 | Brecha derivada de un mecanismo medible | Alto / Medio | H-02 | Ganancia y coste por enlace con casos de cierre |
+| <a id="op-10"></a>OP-10 | Prueba de profundidad y acceso | Alto / Medio | H-03 | Protocolo de la ronda 10 |
+| <a id="op-11"></a>OP-11 | Herramientas de auditoría en la CI | Medio / Bajo | J-08 | Añadir al workflow los scripts con código de salida |
+| <a id="op-12"></a>OP-12 | Decidir el idioma del expediente | Medio / Bajo | J-07 | Decisión de Iván |
+| <a id="op-13"></a>OP-13 | Paquete para revisión humana independiente | Alto / Medio | Todas | Tras OP-01: versiones, afirmaciones, guía y scripts |
+
+Las oportunidades no son hallazgos y no se cuentan en el registro de estados. No se ha aplicado ninguna a las fuentes científicas.
 

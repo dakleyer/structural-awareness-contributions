@@ -20,6 +20,7 @@
 11. [Los 79 registros, uno por uno](#11-los-79-registros-uno-por-uno)
 12. [Glosario en lenguaje llano](#12-glosario-en-lenguaje-llano)
 13. [Cómo se ha hecho esta guía](#13-cómo-se-ha-hecho-esta-guía)
+14. [Oportunidades de mejora](#14-oportunidades-de-mejora)
 
 ---
 
@@ -31,6 +32,11 @@
   - Las matemáticas finitas que se han comprobado son correctas bajo sus supuestos.
   - Varias comparaciones y «experimentos» dan el resultado que ya estaba escrito en sus datos o en su código. Sirven como comprobaciones, pero no prueban una ventaja.
   - Hubo un fallo real de cálculo (I-01), que ya está corregido en la rama principal y reconfirmado.
+
+  > **Otra forma de decirlo, empezando por lo demostrado** (propuesta IP-43 de Codex, añadida en la ronda 19):
+  > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
+  > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
+  > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
 - **Dónde estamos.** La auditoría tiene 71 registros sobre el contenido y 8 sobre la forma del propio expediente: 79 en total. De ellos, 40 siguen abiertos, 14 tienen respuesta pendiente de incorporarse o de confirmar, 9 están cerrados o verificados y 16 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
@@ -257,6 +263,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 16 | 28 oct | Codex | Cierres reconfirmados, recepción de #59/#60/#62 y cinco mecanismos de §15 | [ronda 16](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-16) · [anexo §11](ANNEX.md#11-ronda-16--recepción-y-propuestas-acotadas) |
 | 17 | 28 oct | Claude | Modelo social #44–#46 (K-01 a K-08) | [ronda 17](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-17) |
 | 18 | 28 oct | Claude | Precisión de alias en §7 (propuesta D28-C03 de Codex) | [ronda 18](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-18) |
+| 19 | 28 oct | Claude | Oportunidades de mejora; herramientas con código de salida; resumen IP-43 | [ronda 19](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-19) · [§14](#14-oportunidades-de-mejora) |
 
 ## 11. Los 79 registros, uno por uno
 
@@ -449,3 +456,38 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 - [`reader_guide_build.py`](reader_guide_build.py) regenera las dos figuras nuevas, la tabla de la sección 11 y el registro de estados. También comprueba que los 79 identificadores existen en la auditoría, que la fila de totales de la sección 3 coincide con el registro, que todos los hallazgos de la auditoría están en el registro y que todos los enlaces internos llevan a su destino.
 - Las comparaciones cotidianas de la sección 5 simplifican a propósito. Cuando haya duda, manda el texto completo del hallazgo enlazado.
 - Colores: paleta categórica validada para visión de color atípica y para modo oscuro. Como algunos colores tienen poco contraste con el fondo claro, cada tramo lleva su número escrito y hay una vista en tabla.
+
+## 14. Oportunidades de mejora
+
+Los hallazgos dicen qué falla. Esta sección dice **qué se puede hacer para que el trabajo mejore**, ordenado por lo que más ayuda con menos esfuerzo. Impacto y esfuerzo son estimaciones del auditor para priorizar, no mediciones. Añadida en la [ronda 19](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-19).
+
+![Matriz de impacto y esfuerzo de las 13 oportunidades de mejora](figures/OPPORTUNITIES_impact_effort.svg)
+
+### Empezar aquí: mucho impacto, poco esfuerzo
+
+**OP-01 · Reescribir la nota al revisor externo.** Cierra los nueve hallazgos N de golpe. La guía ya tiene casi todo lo necesario: el resumen (§1), el estado (§3), los alias (§7) y el glosario (§12). Falta la lista de 5 a 8 afirmaciones concretas que se piden revisar (N-05) y fijar las versiones (N-07). *Primer paso:* redactar la nota a partir de esta guía.
+
+**OP-02 · Construir el juego de coordinación con piezas que ya existen.** H-01 pedía mostrar agentes que *eligen* quedarse. #46 ya calcula cuándo un actor prudente prefiere no cambiar, y #42 ya tiene la restricción de «o los dos o ninguno». Juntas dan el ejemplo que faltaba, sin dimensiones nuevas (K-08). *Primer paso:* dos actores, la función `certainty_equivalent` de #46 y la restricción de #42; comprobar si quedarse es dominante en riesgo.
+
+**OP-03 · Probar cada certificado contra un cálculo exacto.** Es lo que cerró I-01: miles de casos aleatorios comparados con un oráculo de fracciones exactas. En esta ronda se ha aplicado ya al certificado B de #44: en 3 000 preguntas sueltas, B nunca promete de más; en 2 299 parejas de preguntas, la suma de dos B válidos promete de más en 214 casos (9 %), lo que confirma K-02. *Primer paso:* hacer lo mismo con cada función que emita «verdadero», «falso» o una cota.
+
+### Mejoras rápidas: impacto medio, poco esfuerzo
+
+| Oportunidad | Qué resuelve | Primer paso |
+|---|---|---|
+| **OP-05 · Informar regiones, no un solo caso** | F-03, K-01: un resultado con un único tamaño o una única rejilla puede invertirse en otro punto | Publicar curvas de equilibrio como la de K-01, en lugar de una tabla con un solo valor |
+| **OP-06 · Escala común declarada** | F-05, K-07: se restan o comparan cantidades de tipos distintos (utilidad, producción, bienestar) | Una línea en cada README que diga la escala común o que no se comparan |
+| **OP-07 · Todo número publicado sale de una función** | G-03, K-03: valores escritos a mano, aunque sean correctos | Una prueba que compare cada literal del informe con su cálculo |
+| **OP-11 · Herramientas de auditoría en la CI** | J-08: hoy las comprobaciones se ejecutan a mano | Ya tienen código de salida (ronda 19); falta añadirlas al workflow |
+| **OP-12 · Decidir el idioma del expediente** | J-07 | Una decisión de Iván: un idioma, o resúmenes en el otro |
+
+### Para planificar: mucho impacto, esfuerzo medio o alto
+
+| Oportunidad | Qué resuelve | Primer paso |
+|---|---|---|
+| **OP-09 · Brecha derivada de un mecanismo medible** | H-02: la brecha que crece con n es hoy un supuesto | Ganancia y coste por enlace con casos en que la brecha se cierra (anexo §3) |
+| **OP-10 · Prueba de profundidad y acceso** | H-03: la tesis de que la pérdida está a varios saltos del receptor | El protocolo de la ronda 10: mismos registros hasta profundidad k, respuestas distintas, control plano |
+| **OP-13 · Paquete para revisión humana independiente** | Todas las familias: ninguna ronda es todavía una revisión humana | Después de OP-01: versiones fijadas, afirmaciones elegidas, esta guía y los scripts de reproducción |
+| **OP-04 · Certificado B conjunto o reserva de holgura** | K-02: varios B válidos pueden prometer juntos de más | Que el emisor descuente la holgura ya comprometida en el cuello compartido |
+| **OP-08 · Comparadores que deciden sólo con lo que observan** | G-01, F-01: hoy el comparador recibe la respuesta o el mismo código | Separar generador de señal, comparador y árbitro, con el contrato de información de R16-P04 |
+

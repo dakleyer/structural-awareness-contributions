@@ -53,3 +53,5 @@ for _ in range(20000):
         s=st(qualify(Fm(L),DecisionQuestion(x=x,threshold=thr),tuple(P(f"p{i}",a,a,l,u) for i,(a,l,u) in enumerate(pts))))
         if s!=want: lost+=1
 print("exactly decidable cases:",dec,"| code abstained or differed:",lost)
+if bad or lost:  # R16-P01 (Codex, ronda 16): non-zero exit for automatic checks
+    raise SystemExit(1)

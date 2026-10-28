@@ -268,7 +268,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"),
 ]
 
 
@@ -277,7 +277,7 @@ def fig_rounds() -> str:
     step = (w - left - right) / (len(ROUNDS) - 1)
     h = 300
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
-         f'aria-label="Línea de tiempo de las 17 rondas de auditoría y su autor">{STYLE}',
+         f'aria-label="Línea de tiempo de las 19 rondas de auditoría y su autor">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
          '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las rondas de la auditoría, en orden (26–28 oct 2026)</text>',
          '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y desde la 7 en orden directo. Aquí van en orden real.</text>',
@@ -370,10 +370,69 @@ def fig_k01() -> str:
     return "\n".join(s)
 
 
+# Improvement opportunities (ronda 19): id, short name, impact, effort, related records
+OPPORTUNITIES = [
+    ("OP-01", "Reescribir la nota al revisor", "Alto", "Bajo", "N-01…N-09"),
+    ("OP-02", "Juego de coordinación con piezas existentes", "Alto", "Bajo", "H-01, K-08"),
+    ("OP-03", "Pruebas con oráculo exacto para cada certificado", "Alto", "Bajo", "I-01, M28-01, K-02"),
+    ("OP-04", "Certificado B conjunto o reserva de holgura", "Medio", "Medio", "K-02"),
+    ("OP-05", "Informar regiones, no un solo caso", "Medio", "Bajo", "F-03, K-01"),
+    ("OP-06", "Escala común declarada", "Medio", "Bajo", "F-05, K-07"),
+    ("OP-07", "Todo número publicado sale de una función", "Medio", "Bajo", "G-03, K-03"),
+    ("OP-08", "Comparadores que deciden con lo que observan", "Alto", "Alto", "G-01, F-01, R16-P04"),
+    ("OP-09", "Brecha derivada de un mecanismo medible", "Alto", "Medio", "H-02"),
+    ("OP-10", "Prueba de profundidad y acceso", "Alto", "Medio", "H-03"),
+    ("OP-11", "Herramientas de auditoría en la CI", "Medio", "Bajo", "J-08, R16-P01, R16-P07"),
+    ("OP-12", "Decidir el idioma del expediente", "Medio", "Bajo", "J-07"),
+    ("OP-13", "Paquete para revisión humana independiente", "Alto", "Medio", "N-*, OP-01"),
+]
+
+
+def fig_opportunities() -> str:
+    efforts, impacts = ("Bajo", "Medio", "Alto"), ("Alto", "Medio")
+    l, t, cw, ch = 110, 96, 300, 230
+    w, h = l + 3 * cw + 24, t + 2 * ch + 70
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
+         f'aria-label="Matriz de impacto y esfuerzo de las 13 oportunidades de mejora">{STYLE}',
+         f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
+         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Oportunidades de mejora: impacto frente a esfuerzo</text>',
+         '<text class="ink2" x="16" y="50" font-size="12">Arriba a la izquierda, lo que más ayuda con menos trabajo. Cada etiqueta es una oportunidad de la sección 14 de la guía.</text>']
+    for j, e in enumerate(efforts):
+        s.append(f'<text class="ink" x="{l + j * cw + cw / 2}" y="{t - 12}" font-size="13" font-weight="600" text-anchor="middle">Esfuerzo {e.lower()}</text>')
+    for i, imp in enumerate(impacts):
+        y0 = t + i * ch
+        s.append(f'<text class="ink" x="{l - 14}" y="{y0 + ch / 2}" font-size="13" font-weight="600" text-anchor="end">Impacto</text>')
+        s.append(f'<text class="ink" x="{l - 14}" y="{y0 + ch / 2 + 17}" font-size="13" font-weight="600" text-anchor="end">{imp.lower()}</text>')
+        for j, e in enumerate(efforts):
+            x0 = l + j * cw
+            cls = "a0" if (imp, e) == ("Alto", "Bajo") else "grid"
+            fill = ' fill-opacity="0.12"' if cls == "a0" else ' fill="none"'
+            s.append(f'<rect class="{cls}" x="{x0 + 4}" y="{y0 + 4}" width="{cw - 8}" height="{ch - 8}" rx="8"{fill} stroke="#c3c2b7" stroke-width="1"/>')
+            if (imp, e) == ("Alto", "Bajo"):
+                s.append(f'<text class="ink" x="{x0 + 16}" y="{y0 + 26}" font-size="12" font-weight="700">Empezar aquí</text>')
+            items = [o for o in OPPORTUNITIES if o[2] == imp and o[3] == e]
+            for k, (oid, name, *_rest) in enumerate(items):
+                yy = y0 + 52 + k * 36
+                s.append(f'<rect class="a0" x="{x0 + 14}" y="{yy - 15}" width="54" height="22" rx="11"/>')
+                s.append(f'<text x="{x0 + 41}" y="{yy}" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">{oid}</text>')
+                words, lines_, cur = name.split(), [], ""
+                for wd in words:  # wrap at ~30 characters, never truncate
+                    if cur and len(cur) + 1 + len(wd) > 30:
+                        lines_.append(cur); cur = wd
+                    else:
+                        cur = f"{cur} {wd}".strip()
+                lines_.append(cur)
+                for li, txt in enumerate(lines_):
+                    s.append(f'<text class="ink" x="{x0 + 76}" y="{yy + li * 14 - (7 if len(lines_) > 1 else 0)}" font-size="11">{txt}</text>')
+    s.append(f'<text class="ink2" x="16" y="{h - 16}" font-size="11">Impacto y esfuerzo son estimaciones del auditor (IA) para ordenar el trabajo; no son mediciones.</text>')
+    s.append("</svg>")
+    return "\n".join(s)
+
+
 def build() -> dict:
     totals = collections.Counter(r[3] for r in LEDGER)
     return {"schema": "ACC-AUDIT-STATUS-LEDGER-v0.1", "as_of": "2026-10-28",
-            "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-13",
+            "source": f"INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-{max(r[0] for r in ROUNDS)}",
             "state_vocabulary": list(STATES), "totals": {s: totals.get(s, 0) for s in STATES},
             "by_family_display_groups": {"groups": [g for g, _ in DISPLAY], "counts": counts_by_family()},
             "records": [dict(id=i, family=f, severity=sev, state=st, set_in_round=rd, summary=txt)
@@ -397,7 +456,13 @@ def main(argv=None) -> int:
         (HERE / "figures" / "STATUS_by_family.svg").write_text(fig_status(), encoding="utf-8")
         (HERE / "figures" / "ROUNDS_timeline.svg").write_text(fig_rounds(), encoding="utf-8")
         (HERE / "figures" / "K01_B_vs_targeted_by_size.svg").write_text(fig_k01(), encoding="utf-8")
+        (HERE / "figures" / "OPPORTUNITIES_impact_effort.svg").write_text(fig_opportunities(), encoding="utf-8")
     print(json.dumps({"totals": result["totals"], "checks": result["checks"]}, ensure_ascii=False, indent=2))
+    c = result["checks"]  # R16-P07 (Codex, ronda 16): fail on any structural inconsistency
+    if (c["duplicate_ids"] or c["ledger_ids_absent_from_audit"] or c["audit_ids_absent_from_ledger"]
+            or c["ledger_ids_without_stable_anchor"] or any(c["broken_local_anchors"].values())
+            or (c.get("guide_totals_row") and not c["guide_totals_row"]["ok"])):
+        return 1
     return 0
 
 
