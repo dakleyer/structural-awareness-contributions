@@ -335,6 +335,19 @@ Este es un **mapa de lectura para revisión**, no una clasificación automática
 
 **Decisión editorial:** conservar contramodelos ilustrativos y variables de estudio como material explicativo; **despromover** cualquier lectura de las antiguas FV0–FV5 o de las listas §10/§12.8/§13.7/§14.8/§15.6 del anexo como ensayos obligatorios o candidatos canónicos. La pregunta global distintiva permanece dentro de **00D v0.3 Q3**, bajo **DDS B/C** y los límites de UC21. Para cualquier futura prueba real, registrar primero el **hueco exacto no cubierto** y obtener admisión del dueño de método/benchmark; no reclamar por el título «falsador» una necesidad de ejecución.
 
+### 11.2 Mapa de entrada entre propietarios — lectores y agentes
+
+Las fichas opcionales de revisión existentes ahora contienen **una sola nota de dirección contextual** cada una; sus fuentes canónicas, VNext únicos y resultados permanecen intactos. Esta tabla ayuda al lector que llega por un subsistema distinto, sin instituir un cuarto nivel de README.
+
+| Punto de entrada | Ficha de orientación disponible | Interpretación que se conserva |
+| --- | --- | --- |
+| **Matemática y plausibilidad** | [00M](../ecosystem-awareness/baseline/00M_REVIEW_CARD.md) · [00N](../ecosystem-awareness/baseline/00N_REVIEW_CARD.md) | Ámbito y pregunta fijados, mapas parciales, suficiencia y límites de inferencia; C→B no significa testigo global. |
+| **Arquitectura y composición** | [MSCA composición](../../standards/minimum-sufficient-control/03_COMPOSITION_REVIEW_CARD.md) · [Regime Awareness 01C](../ecosystem-awareness/baseline/01C_REVIEW_CARD.md) · [Señalización 01J](../ecosystem-awareness/baseline/01J_REVIEW_CARD.md) | Hojas no fungibles, fuentes y permisos; observabilidad no es omnisciencia, RA no crea existencia ni autoridad. |
+| **Decisión y ejecución legítima** | [Ley de Gradiente](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_REVIEW_CARD.md) · [ACC 01I](../ecosystem-awareness/baseline/01I_REVIEW_CARD.md) | Oportunidad ≠ admisibilidad ≠ consentimiento ≠ cambio de rol efectivo ≠ beneficio observado. |
+| **Pruebas y comparadores** | [DDS — VNext de bibliografía/benchmark](../ecosystem-awareness/DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md) · [00D EP borrador](../ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) | Stage A/B/C con UC21 y 00D propietarios; las cinco funciones son una lectura, no otro benchmark. |
+
+**La navegación es reversible**, no la autoridad: esta investigación remite a los propietarios y las fichas remiten a la investigación, mientras las adopciones seguirán el procedimiento de cada fuente y [DOCUMENT_CONTROL](../../DOCUMENT_CONTROL.md). Un enlace nuevo no altera una conclusión científica ni completa ninguna etapa DDS.
+
 **Revisión editorial pendiente dentro de DDS/00D, no siete tests adicionales:** (1) consistencia SA-F1/F2/F3 y tres E/I/P con fuentes; (2) compatibilidad semántica 00M y 00N, incluidas definiciones B/C; (3) trazabilidad exacta P1–P6/S1–S14/T1–T4 y dueño; (4) coste de cinco funciones sin costes ocultos; (5) verificación arquitectónica M1–M8, permisos, privacy, drift y cambio; (6) comparadores competentes e independencia de fuentes; (7) aceptación DDS por etapa e incorporación del material adverso. **No se da por pasada ninguna comprobación científica no ejecutada.**
 
 ---
