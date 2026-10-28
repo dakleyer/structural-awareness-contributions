@@ -47,6 +47,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 15 | 2026-10-28 | [Reconfirmación de M28-02 en la rama de #60](#ronda-15) | M28-02 `RESPONDIDO` (implementado en rama, pendiente de `main`) |
 | 16 | 2026-10-28 | [Relectura de cambios y cinco mecanismos](#ronda-16); [propuestas](incremental-audit-2026-10-26/ANNEX.md#11-ronda-16--recepción-y-propuestas-acotadas) | Cierres numéricos recibidos, dominio60 reconfirmado, próximos controles matemáticos y recepción59 |
 | 17 | 2026-10-28 | [Modelo social #44, #45 (resto) y #46](#ronda-17) | K-01 a K-08 |
+| 18 | 2026-10-28 | [Precisión de alias en la guía (D28-C03)](#ronda-18) | Sin hallazgos nuevos; precisión añadida a la guía |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -828,3 +829,13 @@ La recepción y los seis candidatos viven en este mismo PR. Esta ronda no incorp
 **Ayudas añadidas:** [figura de K-01](incremental-audit-2026-10-26/figures/K01_B_vs_targeted_by_size.svg), tres ideas nuevas en lenguaje llano en la [guía](incremental-audit-2026-10-26/GUIA_DE_LECTURA.md#añadido-en-la-ronda-17), registros K en el registro de estados y una comprobación nueva que avisa si la fila de totales de la guía deja de coincidir con el registro.
 
 **Límites:** no se revisan `EXTERNAL_RESEARCH_NOVELTY_REVIEW`, `CROSS_PR_RESEARCH_NOVELTY_SYNTHESIS` ni los documentos de investigación comparativa de #46. Ningún texto anterior se modifica: la ronda sólo añade.
+
+
+<a id="ronda-18"></a>
+
+## Ronda 18 — recepción de D28-C03: alias frente a hallazgos relacionados (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** la propuesta D28-C03 de Codex en el [PR #59](https://github.com/dakleyer/structural-awareness-contributions/blob/a3326843aa9822b1d7a4c774531fc51818300125/research/ecosystem-awareness/baseline/01I_VNext.md) y su comentario en este PR. Codex señala que la tabla de alias de la guía (§7) agrupaba alias exactos con hallazgos distintos de una misma familia. Tiene razón: F-01 y F-03 no son el mismo hallazgo, ni tampoco G-05, H-02 y F-06. Además, la fila «Brecha supuesta» mostraba 🔵 Abierto para todo el grupo aunque G-05 y F-06 están respondidos.
+
+**Aplicado como añadido, sin retirar texto:** se conserva la tabla y su frase de introducción. Debajo se añaden el párrafo propuesto en D28-C03, una nota que aclara que la columna «Estado» resume el grupo y una tabla nueva, [registro por registro](incremental-audit-2026-10-26/GUIA_DE_LECTURA.md#7-un-mismo-problema-varios-nombres), con el tipo de relación (mismo defecto, lo amplía, relacionado) y el estado propio de cada registro. Ningún estado cambia en esta ronda.
+

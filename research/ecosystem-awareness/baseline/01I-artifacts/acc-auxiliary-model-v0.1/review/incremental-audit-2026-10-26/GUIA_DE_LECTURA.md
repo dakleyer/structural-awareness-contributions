@@ -168,6 +168,29 @@ Distintas revisiones han dado nombres diferentes al mismo problema. Esta tabla e
 | Numeración UC21/DDS (#60) | M27-04, D26-F09, D26-C06/07 | 🟠 Respondido |
 | Brecha supuesta g·E | H-02, G-05 y la familia «network» de F-06 | 🔵 Abierto |
 
+> **Precisión añadida (ronda 18, a partir de la propuesta D28-C03 de Codex en el PR #59).** Esta tabla relaciona alias de un mismo defecto y también hallazgos distintos de una misma familia. F-01 trata de la rama de código compartida; F-03, de los recuentos y límites de la rejilla. G-05 trata de celdas reutilizadas, H-02 de una ecuación supuesta y F-06 de cómo se presenta el conjunto de casos. Conservar el alcance y el estado individual de cada registro: resolver uno no cierra automáticamente los relacionados. El mapa ayuda a navegar; no convierte todas las filas en equivalencias estrictas. En la tabla anterior, la columna «Estado» resume el grupo; el estado de cada registro es el de la tabla siguiente.
+
+**Relación exacta, registro por registro** (añadida en la ronda 18):
+
+| Grupo | Registro | Relación con el grupo | Qué trata exactamente | Estado propio |
+|---|---|---|---|---|
+| Defecto de `qualify` | [I-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#i-01) | Registro base | Intervalo vacío aceptado por la tolerancia | 🟢 Cerrado |
+| | D26-F01 (PR #59) | Mismo defecto con otro nombre | Igual que I-01 | Retirado de la cola de #59 al fusionarse #64 |
+| | [M27-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m27-02) | Mismo defecto con otro nombre | Igual que I-01 | 🟢 Cerrado |
+| | [M27-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m27-01) | Lo amplía | Fuentes incompatibles con intervalo no vacío | 🟢 Cerrado |
+| | [M28-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-01) | Lo amplía | Redondeo de coma flotante | 🟢 Cerrado |
+| | D28-F01 (PR #59) | Mismo defecto que M28-01 | Igual que M28-01 | Según #59 |
+| Mismo código en dos brazos | [F-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-01) | Registro base | Rama de decisión compartida | 🟠 Respondido |
+| | [F-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-03) | Relacionado, no alias | Recuentos 107/14/39 y diseño de la rejilla | 🟠 Respondido |
+| | D26-F03 (PR #59) | Correspondencia en #59 | Comparador equivalente y rangos de la rejilla | Según #59 |
+| Consulta suplementaria (#60) | [M27-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m27-03) | Registro base | Contar con la observación A ya disponible | 🟠 Respondido |
+| | D26-F08 · D26-C04/05 (PR #59) | Mismo defecto · su corrección | Igual que M27-03 · aplicada en la rama de #60 | Según #59 |
+| Numeración UC21/DDS (#60) | [M27-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m27-04) | Registro base | Mezcla de numeraciones | 🟠 Respondido |
+| | D26-F09 · D26-C06/07 (PR #59) | Mismo defecto · su corrección | Igual que M27-04 · aplicada en la rama de #60 | Según #59 |
+| Familia «red» | [H-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#h-02) | Registro base | Ecuación de brecha supuesta g·E | 🔵 Abierto |
+| | [G-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-05) | Relacionado, no alias | 8 celdas reutilizadas de #49 en #54 | 🟠 Respondido |
+| | [F-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-06) | Relacionado, no alias | Presentación de los 46 casos como experimentos | 🟠 Respondido |
+
 **Prefijos de los identificadores:**
 
 | Prefijo | Origen |
@@ -233,6 +256,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 15 | 28 oct | Claude | M28-02 reconfirmado en la rama de #60 | [ronda 15](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-15) |
 | 16 | 28 oct | Codex | Cierres reconfirmados, recepción de #59/#60/#62 y cinco mecanismos de §15 | [ronda 16](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-16) · [anexo §11](ANNEX.md#11-ronda-16--recepción-y-propuestas-acotadas) |
 | 17 | 28 oct | Claude | Modelo social #44–#46 (K-01 a K-08) | [ronda 17](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-17) |
+| 18 | 28 oct | Claude | Precisión de alias en §7 (propuesta D28-C03 de Codex) | [ronda 18](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-18) |
 
 ## 11. Los 79 registros, uno por uno
 
