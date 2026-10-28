@@ -266,6 +266,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 19 | 28 oct | Claude | Oportunidades de mejora; herramientas con código de salida; resumen IP-43 | [ronda 19](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-19) · [§14](#14-oportunidades-de-mejora) |
 | 20 | 28 oct | Claude | Kit de edición premium, entrega 01: README del modelo auxiliar | [ronda 20](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-20) · [kit](premium/INDEX.md) |
 | 21 | 28 oct | Claude | Kit de edición premium, entrega 02: `MODEL.md` | [ronda 21](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-21) · [entrega](premium/02_MODEL.md) |
+| 22 | 28 oct | Claude | Scripts de verificación al expediente, con cifras reconfirmadas | [ronda 22](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-22) · [scripts](verification/README.md) |
 
 ## 11. Los 79 registros, uno por uno
 

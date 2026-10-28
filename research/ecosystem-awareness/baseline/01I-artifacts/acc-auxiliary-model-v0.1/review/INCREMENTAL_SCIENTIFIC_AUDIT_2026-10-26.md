@@ -51,6 +51,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 19 | 2026-10-28 | [Oportunidades de mejora y recepción de R16-P01/P06/P07 e IP-43](#ronda-19) | OP-01 a OP-13; evidencia nueva para K-02 y K-04 |
 | 20 | 2026-10-28 | [Kit de edición premium: 01 README del modelo auxiliar](#ronda-20) | 9 propuestas de visuales, edición, diseño y conexión |
 | 21 | 2026-10-28 | [Kit de edición premium: 02 `MODEL.md`](#ronda-21) | 12 propuestas; cifra de pruebas del toy desfasada en `MODEL.md` |
+| 22 | 2026-10-28 | [Scripts de verificación al expediente](#ronda-22) | Sin hallazgos nuevos; 7 scripts reproducibles y cifras reconfirmadas |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -945,3 +946,28 @@ Las oportunidades no son hallazgos y no se cuentan en el registro de estados. No
 **Precisión sobre la ronda 20:** el total de 441 pruebas de estudio cuenta 52 para el toy. Con las 70 regresiones UC21–DDS de la misma carpeta, las suites de los estudios suman 511 pruebas, todas en verde.
 
 **Comprobado:** las cifras de RAV-01 proceden de ejecutar `risk_model.py` (#46); 0,9²⁰ = 0,1216; el ejemplo de A = 128 es el de `MODEL.md` y #44. Los enlaces entrantes se contaron en `main`: 81 apuntan a secciones de `MODEL.md` y 35 a los títulos de P-M02; la regla de anclas de GitHub elimina las comas, así que ninguno se rompe. El diagrama de P-M04 se validó con `mmdc`. Las cuatro figuras se generaron con `build_premium_figures.py` y se revisaron renderizadas. No se modifica `MODEL.md` ni ningún documento fuente.
+
+
+<a id="ronda-22"></a>
+
+## Ronda 22 — scripts de verificación al expediente (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA, a petición de Iván: comprobar que todo el trabajo está en el PR y no solo en la conversación.
+
+**Qué faltaba:** varias cifras de las rondas 13 a 21 se obtuvieron con scripts que solo estaban en el espacio de trabajo del auditor. El de I-01 ya estaba en el PR; los demás, no. Sin ellos, las cifras de M28-01, M28-02, K-01, K-02 y la entrega 02 no podían reproducirse desde el PR.
+
+**Qué se añade:** la carpeta [`verification/`](incremental-audit-2026-10-26/verification/README.md), con siete scripts de solo lectura y una tabla que dice qué hallazgo respalda cada uno, contra qué rama se ejecuta y qué debe salir:
+
+| Script | Respalda |
+|---|---|
+| `m28_01_float_boundary.py` | M28-01 (ronda 13) |
+| `joint_status_vs_bellman_ford.py` | Cierre de I-01 y M27-01 (ronda 13) |
+| `m28_02_guard_sweep.py` | M28-02, 162 combinaciones (ronda 15) |
+| `k01_k02_witness.py` | Testigo de K-02 y tabla de costes de K-01 (ronda 17) |
+| `k02_b_composability_fuzz.py` | 214 de 2 299 en K-02 (ronda 19) |
+| `check_model_md_round21.py` | Cifras de la entrega 02 del kit (ronda 21); termina con 1 si algo falla |
+| `anchor_check.py` | Anclas locales; ahora reconoce también `<a id>` y termina con 1 si hay enlaces rotos |
+
+**Reejecución:** todo se volvió a ejecutar el 28-10-2026 contra `main` `51fc686`, PR #60 en `8cd78d58` y PR #64 en `059e0af1`, y todas las cifras publicadas se reproducen. M28-02 se había verificado sobre `cb72bb65`; la rama de PR #60 avanzó después y el barrido sigue dando 0 violaciones. El comprobador de anclas no encuentra ningún enlace roto en la auditoría, la guía, el anexo ni el kit premium. También se comprobó que todas las rutas y anclas citadas dentro de los bloques listos para pegar de las entregas 01 y 02 existen en `main`.
+
+No se modifica ningún documento fuente ni ningún estudio.
