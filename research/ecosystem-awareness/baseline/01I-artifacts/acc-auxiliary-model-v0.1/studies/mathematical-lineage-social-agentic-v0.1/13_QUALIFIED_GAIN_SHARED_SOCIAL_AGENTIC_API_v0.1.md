@@ -42,6 +42,8 @@ The verification status is supplied by a source/evidence adapter, never invented
 
 We actually executed the **30 independent PR57 case definitions** through the unchanged PR57 agentic code (commit a98940490e8a84051ad314f2392c15338dbf1de9), then fed every returned run_case dictionary to the new adapter. The CI test in PR60 uses a pinned, source-labelled AG01/AG11 output **shape** because PR57 is a different open branch; it does not claim to import that branch. Social integration runs directly against the existing nested_model.py on the PR60 base.
 
+The adapter also refuses to reuse PR57's original-Q truth flag to validate a separately directed or full-A measurement: that instrument needs its own verification.
+
 The agentic adapter deliberately does not collapse physical output and acquisition cost into one score. Existing PR57 mission_net_value_after_information_cost remains an independent metric; to compare net outputs, create a separate set of ValueInterval objects with metric=mission_net_after_information_cost and the same cost-accounting definition on both sides.
 
 ## Theme18 geometry: derived rather than asserted
