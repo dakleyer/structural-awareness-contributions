@@ -70,7 +70,7 @@ El proceso económico tiene ahora cuatro estrategias competidoras (A-only; B sit
 
 ## 7. Método y límites de validación
 
-Ejecución reproducible en Python estándar: `python -B -m unittest discover -s . -p test_intrinsic_abcd.py -v`; `python -B intrinsic_abcd.py > REFERENCE_SYNTHETIC_RESULTS.json`. El CI del PR comprobará que la salida generada coincide con el JSON publicado, además de ejecutar las pruebas negativas. Todas las métricas del laboratorio están en valores hipotéticos declarados y separan fuente, adquisición, decisión y efecto observado.
+Ejecución reproducible en Python estándar: `python -B -m unittest discover -s . -p 'test_*.py' -v`; `python -B intrinsic_abcd.py > REFERENCE_SYNTHETIC_RESULTS.json`. El CI del PR comprobará que la salida generada coincide con el JSON publicado, además de ejecutar las pruebas negativas. Todas las métricas del laboratorio están en valores hipotéticos declarados y separan fuente, adquisición, decisión y efecto observado.
 
 **Condiciones para revisión y promoción:** (1) preservar semántica 00M/00N B≠C≠D, procesos relativos y no exhaustivos; (2) demostrar que `A_current` es exactamente igual entre brazos; (3) contabilizar costes de fuente, adquisición/almacenamiento y transferencia; (4) documentar capacidad de reevaluación, vencimientos y revisiones; (5) negar la equivalencia 'más complejidad ≡ más D/entropía'; (6) admitir victorias del comparador convencional y fallos de B; (7) nunca valorar el sufrimiento humano o HID con bits o unidades de valor sintético; (8) auditar verdad/identidad de Q en estudio posterior; (9) preservar casos históricos con su contexto en [registro de ejemplos del PR #42](../bounded-traps-v0.1/EXAMPLE_LEDGER.md).
 
