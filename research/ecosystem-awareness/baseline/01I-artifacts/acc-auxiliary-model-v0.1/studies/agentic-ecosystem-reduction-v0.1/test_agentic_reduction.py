@@ -148,6 +148,23 @@ class CostsAndStrongPeers(unittest.TestCase):
         self.assertEqual(x['Q_META_PROTOCOL']['plan']['transfer'],0)
         self.assertLess(x['Q_META_PROTOCOL']['mission_net_value_after_information_cost'],
                         x['A_ONLY']['mission_net_value_after_information_cost'])
+    def test_matched_q_and_price_tie_across_all_30_cases(self):
+        # Same A, Q, permissions, source and instrument cost: no distinct
+        # algorithmic superiority is present in the equivalent-Q arm.
+        for s in CASES:
+            matched=copy.deepcopy(s)
+            matched["directed"]["equivalent_Q_cost"]=(matched.get("Q") or {}).get("cost",0.0)
+            with self.subTest(case=matched["id"]):
+                arms=m.run_case(matched)["arms"]
+                q_arm=arms["Q_META_PROTOCOL"]
+                peer=arms["CONVENTIONAL_EQUIVALENT_Q"]
+                for field in ("transfer","status","instrument_cost",
+                              "conditional_near_gain","qualified_proposal","evidence"):
+                    self.assertEqual(q_arm["plan"][field],peer["plan"][field])
+                self.assertEqual(q_arm["observed_by_referee_only"],peer["observed_by_referee_only"])
+                self.assertEqual(q_arm["mission_net_value_after_information_cost"],
+                                 peer["mission_net_value_after_information_cost"])
+
     def test_conv_equivalent_Q_can_tie(self):
         x=row('AG01-QUALIFIED-NEAR-OPTIMUM')['arms']
         self.assertEqual(x['Q_META_PROTOCOL']['observed_by_referee_only']['output'],
