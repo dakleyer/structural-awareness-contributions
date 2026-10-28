@@ -54,6 +54,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 22 | 2026-10-28 | [Scripts de verificación al expediente](#ronda-22) | Sin hallazgos nuevos; 7 scripts reproducibles y cifras reconfirmadas |
 | 23 | 2026-10-28 | [Recepción de la nota de Codex sobre PR #60: M28-03, M28-04 y F1/D1](#ronda-23) | M28-03 reparado en la rama; L-01 y L-02 nuevos; testigos F1/D1 verificados (L-03) |
 | 24 | 2026-10-28 | [Recepción de M28-04 (#60), K-02 (#65), K-01 (#66), DG1–DG4 y oportunidades de EP](#ronda-24) | M28-04, L-02, K-01 y K-02 respondidos; L-04 nuevo; L-05 y L-06 verificados |
+| 25 | 2026-10-28 | [Recepción de K-03 (PR #67)](#ronda-25) | K-03 respondido; refactorización equivalente en 11 600 comparaciones |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1078,3 +1079,27 @@ PR #66 añade un comparador que llama a los motores originales de #44 y #57 sin 
 Se recibe la lista de seis direcciones con literatura externa. Se comprobó que existen las dos referencias menos conocidas: *Agentic Context Engineering*, en ICLR 2026, y la arquitectura Simplex por componentes (arXiv 1704.04759, ACSD 2017). Las demás son trabajos establecidos: DBSP (PVLDB 2023), *Approximate Information State* (JMLR 2022), SATzilla 2009, Hay et al. (UAI 2012), ADOPT (AI 2005), inferencia válida en cualquier momento (*Statistical Science* 2023) y CEGAR (CAV 2000). Son propuestas de desarrollo, no hallazgos, y no se cuentan en el registro. La auditoría no evalúa todavía si cada referencia sostiene la conexión concreta que se le atribuye; queda como tarea para cuando alguna dirección se implemente.
 
 **Totales tras la ronda:** 85 registros. 39 abiertos, 19 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos. No se cierra ningún registro, porque los cuatro arreglos están en PR abiertos.
+
+
+<a id="ronda-25"></a>
+
+## Ronda 25 — recepción de K-03 en PR #67 (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6481214540), escrito por Codex, asistencia de IA, desde la cuenta del propietario.
+
+**Qué cambia PR #67 (`078bf7fc`).** Añade `private_selected_response(world, target, minimum, extra)`, que calcula A actual y la salida futura con `deliver`; la ganancia se deriva de esas dos respuestas. `policy`, `score_public_plan` y `sample_report` usan ahora ese único oráculo, y los dos literales que señaló K-03 (2 y 0) pasan a calcularse.
+
+**Comprobado de forma independiente** (`k03_equivalence.py`, contra `main` `51fc686`):
+
+| Comprobación | Resultado |
+|---|---|
+| `sample_report()` antes y después | Idéntico; las ganancias siguen siendo 2 y 0, ahora calculadas |
+| `policy()` y `score_public_plan()` en mundos aleatorios: n de 2 a 32, raíz libre a saturada, extra de 1 a 3, cada objetivo y cada modo | 11 600 comparaciones, **0 diferencias** |
+| Funciones que no deben ver la verdad privada: `upstream_B`, `public_outline`, `receiver_B_valid`, `plan_from_public`, `receiver_decision` | Ninguna llama a `deliver` ni al oráculo nuevo (análisis del código) |
+| Pruebas | 67 de 67 en verde: 61 existentes y 6 nuevas. CI en verde |
+
+**Estado:** K-03 pasa a `RESPONDIDO` y se cerrará cuando #67 esté en `main`. G-03 es otro registro y sigue abierto.
+
+**Nota de coordinación, sin registro.** #65, #66 y #67 modifican el mismo directorio de estudio, y #66 y #67 también el mismo paso de `document-integrity.yml`. #67 amplía el patrón de pruebas a `test_*.py`, así que, si se fusionan los dos, `test_economic_envelope.py` se ejecutaría dos veces: una por ese patrón y otra por su propio paso de #66. Esa prueba necesita además el código de #57. Conviene fusionar en orden #57 → #66 y revisar el flujo de trabajo al combinarlos.
+
+**Totales:** 85 registros. 38 abiertos, 20 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.

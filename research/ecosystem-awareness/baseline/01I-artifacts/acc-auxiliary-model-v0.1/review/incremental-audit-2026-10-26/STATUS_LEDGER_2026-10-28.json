@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-24",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-25",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -12,8 +12,8 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 39,
-    "RESPONDIDO": 19,
+    "ABIERTO": 38,
+    "RESPONDIDO": 20,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 10,
@@ -100,8 +100,8 @@
         0
       ],
       "K": [
-        2,
-        2,
+        1,
+        3,
         3,
         1,
         0
@@ -704,9 +704,9 @@
       "id": "K-03",
       "family": "K",
       "severity": "Baja",
-      "state": "ABIERTO",
-      "set_in_round": 17,
-      "summary": "#44: el informe escribe a mano dos ganancias (2 y 0); son correctas, pero no se calculan."
+      "state": "RESPONDIDO",
+      "set_in_round": 25,
+      "summary": "#44: el informe escribía a mano dos ganancias (2 y 0). #67 las calcula con un único oráculo, sin cambiar ningún resultado; falta incorporarlo a main."
     },
     {
       "id": "K-04",
@@ -854,16 +854,16 @@
     "ledger_ids_without_stable_anchor": [],
     "guide_totals_row": {
       "guide": [
-        39,
-        19,
+        38,
+        20,
         12,
         10,
         5,
         85
       ],
       "ledger": [
-        39,
-        19,
+        38,
+        20,
         12,
         10,
         5,

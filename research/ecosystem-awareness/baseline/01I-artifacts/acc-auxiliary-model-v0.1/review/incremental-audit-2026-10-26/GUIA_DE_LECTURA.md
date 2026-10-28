@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 77 registros sobre el contenido y 8 sobre la forma del propio expediente: 85 en total. De ellos, 39 siguen abiertos, 19 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 77 registros sobre el contenido y 8 sobre la forma del propio expediente: 85 en total. De ellos, 38 siguen abiertos, 20 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -69,9 +69,9 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M28 · Relectura | 1 | 3 | 1 | 1 | 1 | 7 |
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
-| K · Modelo social #44–#46 | 2 | 2 | 3 | 1 | 0 | 8 |
+| K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
 | L · Recepciones (rondas 23–24) | 2 | 1 | 3 | 0 | 0 | 6 |
-| **Total** | **39** | **19** | **12** | **10** | **5** | **85** |
+| **Total** | **38** | **20** | **12** | **10** | **5** | **85** |
 
 **Qué significa cada estado:**
 
@@ -270,6 +270,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 22 | 28 oct | Claude | Scripts de verificación al expediente, con cifras reconfirmadas | [ronda 22](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-22) · [scripts](verification/README.md) |
 | 23 | 28 oct | Claude | Recepción de la nota sobre PR #60: M28-03 reparado en la rama, L-01 y L-02 nuevos, testigos F1/D1 verificados | [ronda 23](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-23) |
 | 24 | 28 oct | Claude | Recepción de M28-04 (#60), K-02 (#65), K-01 (#66) y DG1–DG4: cuatro registros respondidos, L-04 nuevo, L-05 y L-06 verificados | [ronda 24](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-24) |
+| 25 | 28 oct | Claude | Recepción de K-03 (#67): refactorización equivalente, K-03 respondido | [ronda 25](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-25) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -421,13 +422,13 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>K · Modelo social #44–#46 (ronda 17)</b> — 8 registros, 2 abiertos</summary>
+<details><summary><b>K · Modelo social #44–#46 (ronda 17)</b> — 8 registros, 1 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
 | [K-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-01) | 🟠 Respondido | Media | #44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas. | 24 |
 | [K-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-02) | 🟠 Respondido | Media | #44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido. | 24 |
-| [K-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-03) | 🔵 Abierto | Baja | #44: el informe escribe a mano dos ganancias (2 y 0); son correctas, pero no se calculan. | 17 |
+| [K-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-03) | 🟠 Respondido | Baja | #44: el informe escribía a mano dos ganancias (2 y 0). #67 las calcula con un único oráculo, sin cambiar ningún resultado; falta incorporarlo a main. | 25 |
 | [K-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-04) | 🟢 Verificado | Informativo | #44: el mismo A con respuestas futuras distintas, el certificado por trayecto y las cotas de bits son correctos. | 17 |
 | [K-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-05) | 🟢 Verificado | Informativo | #45: el orden derechos > autorización > consentimiento > evidencia es correcto y nunca actúa solo. | 17 |
 | [K-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-06) | 🟢 Verificado | Informativo | #46: equivalentes ciertos, ejemplos y umbral de varianza recalculados: correctos. | 17 |
