@@ -5,6 +5,8 @@
 **Status:** working research integration / proposed relationship; **not canonical**, not a replacement for any owning source and not a claim of complete proof or conformity.  
 **Owner disposition (27 October 2026):** the three non-axiomatic SA characterization families, the conditional SA→EA relation, and the eight-module EP architecture as the present Stage B candidate have been approved for this working bridge. The agentic experimental model is accepted as **partial**. These approvals are **conceptual scope decisions**, not new mathematical proof, per-module production certification or permission to merge to Canonical.  
 **Scope:** the mathematical Structural Awareness research, the six Ecosystem Awareness operational principles, S1–S14/T1–T4, the integrated Ecosystem Positioning architecture, and the transversal DDS/UC21 validation route.  
+**Ruta de pruebas ya existente:** los siete ítems del protocolo de revisión §9 son comprobaciones editoriales de correspondencia, no nuevas pruebas de refutación que haya que canonizar. [DDS](../ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) y [UC21](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/USE_CASE.md) conservan el método y puertas de aceptación; el [mapa de no duplicación](./SA_EA_EP_ECOSYSTEM_EVOLUTION_FOUNDATIONS_REQUIREMENTS_DDS_v0.1.md) asigna los diferenciales aún abiertos a 00D v0.3 Q2/Q3, sin catálogo nuevo. 
+
 **Change boundary:** additive interpretation and traceability only. Existing owners, requirements, hypotheses, proof statuses, architecture modules and GitHub document-control rules are unchanged.  
 **Read with:** [Structural Awareness mathematical route](./README.md), [EA 02A](../ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md), [A19](../ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md), [A23](../ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md), [A24](../ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md), [DDS method index](../ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), [EP architecture](../../architectural-contributions/ecosystem-positioning/README.md).
 
@@ -95,7 +97,7 @@ The same underlying proposition may be established for one processor and unresol
 
 A/B/C/D may then be **characterizations of operational positions or residual uses under \(\chi\)**. They are optional process-relative interpretations, not the three SA foundation families or independent metamathematical axioms. See [Part I §9](./A_APRIME_OPEN_SEMANTIC_TRANSFER_BETWEEN_AGENT_ECOSYSTEMS_v0.1.md), [SA context/evaluability calculus](./SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md), and [Part II metasyntactic utility](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md).
 
-### Minimal negative controls at this level
+### Stage A counterexamples at this level — not additional test suites
 
 - **Not valid:** open universe \(\Rightarrow\) reachable new agent; **valid only if** the source separately establishes task relevance and reachability.
 - **Not valid:** not yet evaluated \(\Rightarrow\) does not exist; **valid:** decision status is unresolved within a registered qualification boundary.
@@ -271,9 +273,9 @@ The cases show how to **carry questions and evidence forward without collapsing 
 | UC21/DDS tests EA requirements prior to selecting architecture | **Current declared research/test relationship**; DDS remains transversal | [DDS index](../ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), [UC21 preserved case](../../governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/README.md) |
 | Agentic toy \(\Rightarrow\) full EP or DDS Stage C success | **Not established** | Requires EP module/owner coverage, pinned architecture/implementation and observed problem effects. |
 
-## 9. Review/gate protocol for the proposed foundational bridge
+## 9. Editorial review checklist for this bridge — not seven new DDS gates
 
-A third-party review should independently answer **both forward and reverse** directions:
+A third-party review should independently answer **both forward and reverse** directions **within the already owned DDS Stage A/B/C and 00D comparators**, without creating an autonomous seven-test campaign:
 
 1. **SA premise check.** Are \(\Omega,F,q,\chi\) and the source-owned \(\rho,\sigma,\kappa\), finite denotation, existence/exclusion certificate range and source soundness explicit? Try an empty-agent interpretation and a closed finite countermodel.
 2. **EA source check.** For each P1–P6, distinguish the SA interpretation from F-A–F-H and external governance premises. Do not promote a diagram arrow into an entailment.
@@ -293,4 +295,4 @@ This document is an **additive, reviewable navigation and argument bridge**. It 
 
 **Puente operacional y de evidencia de la función evolutiva (documento aditivo en este PR):** [SA → EA → EP — función de evolución ecosistémica, fundamentos, requisitos y DDS](./SA_EA_EP_ECOSYSTEM_EVOLUTION_FOUNDATIONS_REQUIREMENTS_DDS_v0.1.md). Este texto hace explícitos los cinco mecanismos como una sola actividad de búsqueda arquitectónica y aclara que SA/EA/00M/00N son antecedentes y contratos de **DDS Stage A** para esta investigación, que EP es candidato arquitectónico de **Stage B**, que **Stage C** exige resultados de implementación y que DDS sigue siendo transversal. Su matriz de P1–P6/S1–S14/T1–T4 es trazabilidad propuesta, no nueva prueba ni actualización de las fuentes canónicas. Las tres partes de esta investigación —puente fundacional, anexo técnico §§1–15 y el nuevo puente de integración— se conservan como fuentes coordinadas, sin reemplazo de contenido.
 
-**Proposed next review event:** verify the claimed cross-source edges against the source texts, run the seven negative/reverse gates above, adjudicate any semantic disagreement with the actual owners, and only then consider a narrowly scoped canonical link or incorporation. Until then, this is a **draft PR research working note**, not promoted canonical material.
+**Proposed next review event:** verify the claimed cross-source edges against the source texts, route the seven editorial checks through existing source-owned DDS/UC21/00D obligations, adjudicate any semantic disagreement with the actual owners, and only then consider a narrowly scoped canonical link or incorporation. Until then, this is a **draft PR research working note**, not promoted canonical material.
