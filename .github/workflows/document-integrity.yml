@@ -99,3 +99,16 @@ jobs:
         run: |
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1 -p 'test_*.py' -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/verify.py
+
+      - name: Check source-native reusable social and agentic K-01 economic comparison
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1 -p test_economic_envelope.py -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/economic_envelope_runner.py --corpus-root . --model both > /tmp/acc_crossmodel_economic_envelope.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_crossmodel_economic_envelope.json')); assert d['summary']['groups']['ACC_SOCIAL_INTRINSIC_44']['cases']==168; assert d['summary']['groups']['ACC_AGENTIC_REDUCTION_57']['cases']>=90; assert d['cross_question_composition']=='NOT_PERFORMED'"
+
+      - name: Publish cross-model economic comparison report
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-social-agentic-economic-envelope
+          path: /tmp/acc_crossmodel_economic_envelope.json
+          if-no-files-found: error
