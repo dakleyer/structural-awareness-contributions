@@ -59,3 +59,10 @@ El resultado demuestra **posibilidad paramétrica** tanto de mejoras con Q+meta 
 - La coordinación consume recursos del mismo presupuesto fijo; si el coste supera el beneficio, mantener A es racional.
 - Un peer con la misma Q puede empatar/ganar; A completa puede ganar cuando hay instrumentos reales baratos.
 - Para probar ventajas de un ecosistema agéntico real: versiones congeladas, traza nativa, permisos, coste total medido, misma misión y tecnología convencional fuerte bajo las mismas condiciones.
+
+
+## Adenda de control del comparador — 28 octubre 2026
+
+La tabla 107/14/39 anterior es **una sensibilidad paramétrica de tres brazos**, no una prueba de ventaja intrínseca de Q+metaprotocolo: no incluye `CONVENTIONAL_EQUIVALENT_Q`. En el modelo ejecutable, ese brazo y `Q_META_PROTOCOL` comparten la rama de planificación Q. El nuevo test emparejado sobre los **30 casos** y el control sobre las **160 celdas** fijan `equivalent_Q_cost = Q.cost` y exigen igualdad de decisiones, output y valor neto. El beneficio físico 10→11.5 de AG01 frente a A-only sigue siendo un resultado sintético positivo condicionado por Q y autorización, reproducible también por un peer igualmente informado.
+
+Una diferencia inducida por precios `Q.cost`, `equivalent_Q_cost` o `directed.cost` pertenece al **supuesto económico del fixture**, no a una medición de coste real ni a una atribución causal de arquitectura. La variación de `h` en AG23/AG24 tampoco constituye una comparación pareada entre tecnologías. Para H5 se necesita un experimento prospectivo de procesos diferenciados, igual acceso a información y derechos, y costes totales medidos. No se editan los JSON históricos ni se reetiquetan como evidencia empírica.
