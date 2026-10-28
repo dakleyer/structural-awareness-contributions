@@ -24,6 +24,19 @@ Una fuente con acceso **legítimo** y una base ya caracterizada puede emitir `B_
 
 Si `B_q` aporta una distinción real sobre una pregunta q, la información admitida pasa de `E(w)` a `(E(w),B_q(w))`, separando algunas fibras; **no** determina el contenido completo del interior ni del exterior. Dos copias del mismo testimonio, B de fuentes dependientes o una similitud semántica vectorial no son dos pruebas independientes ni cubren un D residual.
 
+### K-02 — Alcance formal del certificado situado y peticiones simultáneas (28 octubre 2026)
+
+El contrato de `B_q` **ya define una respuesta relativa a una sola pregunta receptora**, no una reserva de capacidad comprometida para cualquier combinación posterior. En la §2 anterior, los otros hijos permanecen a demanda fija cuando se calcula `B_q`; una operación que cambie también su demanda **es una pregunta distinta**. La cualificación del receptor vincula `target`, `question_input`, trayectoria/versiones y vigencia. Por eso `receiver_B_valid` devuelve `WRONG_QUESTION` cuando se intenta presentar `B_q` como respuesta a una consulta conjunta diferente.
+
+Formalmente, para demanda base `d0`, objetivo `i` y cambio individual `e_i`, el certificado acota `Δ_i = y(d0+e_i)-y(d0)` dentro de su pregunta. **No incluye** la afirmación `Δ_{i,j} = Δ_i + Δ_j` para `Δ_{i,j}=y(d0+e_i+e_j)-y(d0)`: una restricción compartida puede volverla falsa. Tampoco es correcto afirmar que toda suma sea falsa; cuando la capacidad compartida no es limitante, puede coincidir exactamente.
+
+**Pruebas de regresión incorporadas en `test_intrinsic_abcd.py`:**
+
+- Con A=128 y límite de raíz 129, `B_source-3=+1` y `B_source-8=+1` se admiten **individualmente**; la petición conjunta solo incrementa +1. Ambos B son rechazados como certificados de la pregunta conjunta (`WRONG_QUESTION`). Ni `upstream_B` ni `receiver_B_valid` pretenden calcular o validar una suma.
+- Con el mismo conjunto de hojas sin el límite compartido, cada B individual indica +2 y la ganancia conjunta es +4. Este control prueba que el resultado depende de la estructura operativa y de la pregunta, no de una regla universal contra la suma.
+
+**Calificación del hallazgo K-02 de [la auditoría incremental #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58):** contraejemplo **a una extrapolación de uso fuera de ámbito**; no defecto del algoritmo B individual ni de Ecosystem Awareness. La prueba no añade una función de composición, una reserva nueva, derechos de actuación ni requisitos al canon. Si un receptor necesita resolver `q={i,j}`, debe obtener una cualificación adecuada **para esa propia pregunta** mediante los mecanismos de evaluación y coordinación ya existentes.
+
 ## 3. A/B/C/D aparecen por las capacidades de evaluación del proceso, no por clasificar un universo completo
 
 El modelo no divide todos los subsistemas en cuatro conjuntos enumerables. Estas son POSICIONES sobre **declaraciones de procesos**, relativas a actor, función, pregunta, acceso, método y horizonte:
