@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1262 372" width="1262" height="372" role="img" aria-label="Columna vertebral de MODEL.md: cinco pasos y sus secciones"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.card{fill:#f4f3f0;stroke:#d7d6d0}
+  .line{stroke:#c3c2b7}.s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}
+  .s0s{stroke:#2a78d6}.s1s{stroke:#eb6834}.s2s{stroke:#1baf7a}.s3s{stroke:#eda100}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.card{fill:#262624;stroke:#3d3d3a}.line{stroke:#5a5a55}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}
+    .s0s{stroke:#3987e5}.s1s{stroke:#d95926}.s2s{stroke:#199e70}.s3s{stroke:#c98500}
+  }
+</style>
+<rect class="bg" width="1262" height="372" rx="10"/>
+<text class="ink" x="24" y="34" font-size="18" font-weight="650">La columna vertebral de MODEL.md</text>
+<text class="ink2" x="24" y="58" font-size="13">La «secuencia de lectura» que declara el propio documento, con las secciones que desarrollan cada paso.</text>
+<text class="ink2" x="24" y="78" font-size="13">Las perspectivas epistemológica, institucional, humana y ética ayudan a formular y probar la secuencia; no la sustituyen.</text>
+<rect class="card" x="24" y="104" width="230" height="228" rx="10" stroke-width="1"/>
+<rect class="s0" x="24" y="104" width="230" height="6" rx="3"/>
+<text class="ink2" x="38" y="132" font-size="12" font-weight="600">PASO 1</text>
+<text class="ink" x="38" y="154" font-size="14" font-weight="650">Mejora posible</text>
+<circle class="s0" cx="42" cy="204" r="3.5"/>
+<text class="ink" x="52" y="208" font-size="11.5">Pregunta y alcance</text>
+<circle class="s0" cx="42" cy="227" r="3.5"/>
+<text class="ink" x="52" y="231" font-size="11.5">Núcleo económico del modelo</text>
+<circle class="s0" cx="42" cy="250" r="3.5"/>
+<text class="ink" x="52" y="254" font-size="11.5">Fines y capacidades</text>
+<path class="line" d="M256 164 l10 0 m-5 -5 l5 5 l-5 5" fill="none" stroke-width="2"/>
+<rect class="card" x="270" y="104" width="230" height="228" rx="10" stroke-width="1"/>
+<rect class="s0" x="270" y="104" width="230" height="6" rx="3"/>
+<text class="ink2" x="284" y="132" font-size="12" font-weight="600">PASO 2</text>
+<text class="ink" x="284" y="154" font-size="14" font-weight="650">Dimensiones y acuerdo</text>
+<circle class="s0" cx="288" cy="204" r="3.5"/>
+<text class="ink" x="298" y="208" font-size="11.5">Del caso de una dimensión al</text>
+<text class="ink" x="298" y="223" font-size="11.5">modelo abierto</text>
+<circle class="s0" cx="288" cy="242" r="3.5"/>
+<text class="ink" x="298" y="246" font-size="11.5">Dos hipótesis distintas (H1,</text>
+<text class="ink" x="298" y="261" font-size="11.5">H2)</text>
+<circle class="s0" cx="288" cy="280" r="3.5"/>
+<text class="ink" x="298" y="284" font-size="11.5">A/B/C/D como frontera</text>
+<text class="ink" x="298" y="299" font-size="11.5">intrínseca</text>
+<path class="line" d="M502 164 l10 0 m-5 -5 l5 5 l-5 5" fill="none" stroke-width="2"/>
+<rect class="card" x="516" y="104" width="230" height="228" rx="10" stroke-width="1"/>
+<rect class="s3" x="516" y="104" width="230" height="6" rx="3"/>
+<text class="ink2" x="530" y="132" font-size="12" font-weight="600">PASO 3</text>
+<text class="ink" x="530" y="154" font-size="14" font-weight="650">Reajuste o bloqueo</text>
+<circle class="s3" cx="534" cy="204" r="3.5"/>
+<text class="ink" x="544" y="208" font-size="11.5">Propuestas, aceptación y</text>
+<text class="ink" x="544" y="223" font-size="11.5">reajuste</text>
+<circle class="s3" cx="534" cy="242" r="3.5"/>
+<text class="ink" x="544" y="246" font-size="11.5">Rediseño y transición humana</text>
+<path class="line" d="M748 164 l10 0 m-5 -5 l5 5 l-5 5" fill="none" stroke-width="2"/>
+<rect class="card" x="762" y="104" width="230" height="228" rx="10" stroke-width="1"/>
+<rect class="s1" x="762" y="104" width="230" height="6" rx="3"/>
+<text class="ink2" x="776" y="132" font-size="12" font-weight="600">PASO 4</text>
+<text class="ink" x="776" y="154" font-size="14" font-weight="650">Efectos sobre utilidad,</text>
+<text class="ink" x="776" y="172" font-size="14" font-weight="650">bienestar y capacidades</text>
+<circle class="s1" cx="780" cy="204" r="3.5"/>
+<text class="ink" x="790" y="208" font-size="11.5">Utilidad, bienestar y</text>
+<text class="ink" x="790" y="223" font-size="11.5">frustración</text>
+<circle class="s1" cx="780" cy="242" r="3.5"/>
+<text class="ink" x="790" y="246" font-size="11.5">Aversión al riesgo (RAV-01)</text>
+<circle class="s1" cx="780" cy="265" r="3.5"/>
+<text class="ink" x="790" y="269" font-size="11.5">Dinero, garantías y</text>
+<text class="ink" x="790" y="284" font-size="11.5">opcionalidad</text>
+<path class="line" d="M994 164 l10 0 m-5 -5 l5 5 l-5 5" fill="none" stroke-width="2"/>
+<rect class="card" x="1008" y="104" width="230" height="228" rx="10" stroke-width="1"/>
+<rect class="s2" x="1008" y="104" width="230" height="6" rx="3"/>
+<text class="ink2" x="1022" y="132" font-size="12" font-weight="600">PASO 5</text>
+<text class="ink" x="1022" y="154" font-size="14" font-weight="650">Contraste temporal</text>
+<circle class="s2" cx="1026" cy="204" r="3.5"/>
+<text class="ink" x="1036" y="208" font-size="11.5">Error, irreversibilidad y</text>
+<text class="ink" x="1036" y="223" font-size="11.5">tiempo</text>
+<circle class="s2" cx="1026" cy="242" r="3.5"/>
+<text class="ink" x="1036" y="246" font-size="11.5">Redes y efectos de segundo</text>
+<text class="ink" x="1036" y="261" font-size="11.5">orden</text>
+<circle class="s2" cx="1026" cy="280" r="3.5"/>
+<text class="ink" x="1036" y="284" font-size="11.5">Fundamento epistémico</text>
+<text class="ink2" x="24" y="358" font-size="11">Fuente: MODEL.md, «Núcleo económico del modelo» (secuencia de lectura) y sus encabezados en main 51fc686.</text>
+</svg>

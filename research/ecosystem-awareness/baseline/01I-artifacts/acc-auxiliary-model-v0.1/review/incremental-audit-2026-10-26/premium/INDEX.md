@@ -9,8 +9,8 @@
 | # | Documento | Estado | Propuestas | Ayudas visuales |
 |---:|---|---|---|---|
 | 01 | [README del modelo auxiliar](01_README_ACC.md) | ✅ Entregado (ronda 20) | 9 (P-R01 a P-R09) | Mapa del paquete, ruta con estado, 2 esquemas Mermaid, catálogo de estudios |
-| 02 | `MODEL.md` — modelo integrado (218 líneas, 23 títulos) | Siguiente | — | — |
-| 03 | `ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md` (453 líneas, 27 títulos) | Previsto | — | — |
+| 02 | [`MODEL.md` — modelo integrado](02_MODEL.md) (218 líneas, 23 títulos) | ✅ Entregado (ronda 21) | 12 (P-M01 a P-M12) | Columna vertebral, mismo A en dos mundos, RAV-01, q^v, tabla de magnitudes, índice de ejemplos, Mermaid de estados |
+| 03 | `ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md` (453 líneas, 27 títulos) | Siguiente | — | — |
 | 04 | `CASES.md` (77 líneas) | Previsto | — | — |
 | 05 | `STUDY_SPECIFICATION.md` y `DDS_EVALUATION_PLAN.md` | Previsto | — | — |
 | 06 | `RESEARCH_STATUS.md`, `REVIEW_AND_COVERAGE.md` | Previsto | — | — |

@@ -268,25 +268,28 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"),
 ]
 
 
 def fig_rounds() -> str:
-    w, left, right, y0 = 1060, 80, 80, 150
+    # Four label lanes (far/near above, near/far below) so labels on the same lane are 4 steps apart.
+    w, left, right, y0 = 1200, 80, 80, 178
     step = (w - left - right) / (len(ROUNDS) - 1)
-    h = 300
+    h = 340
+    lanes = ((-1, 70), (1, 46), (-1, 34), (1, 82))  # (direction, label offset)
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
-         f'aria-label="Línea de tiempo de las 19 rondas de auditoría y su autor">{STYLE}',
+         f'aria-label="Línea de tiempo de las {len(ROUNDS)} rondas de auditoría y su autor">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
          '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las rondas de la auditoría, en orden (26–28 oct 2026)</text>',
          '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y desde la 7 en orden directo. Aquí van en orden real.</text>',
          f'<line class="grid" x1="{left}" x2="{w - right}" y1="{y0}" y2="{y0}" stroke-width="2"/>']
     for i, (r, a, label) in enumerate(ROUNDS):
         x = left + i * step
-        up = i % 2 == 0
-        ty = y0 - 34 if up else y0 + 46
-        s.append(f'<line class="a{a}s" x1="{x:.1f}" x2="{x:.1f}" y1="{y0}" y2="{y0 - 22 if up else y0 + 22}" stroke-width="2"/>')
+        d, off = lanes[i % 4]
+        ty = y0 - off if d < 0 else y0 + off
+        tick = (off - 12) if d < 0 else (off - 24)
+        s.append(f'<line class="a{a}s" x1="{x:.1f}" x2="{x:.1f}" y1="{y0}" y2="{y0 + d * tick}" stroke-width="2"/>')
         s.append(f'<circle class="a{a}" cx="{x:.1f}" cy="{y0}" r="11"><title>Ronda {r}: {label}</title></circle>')
         s.append(f'<text x="{x:.1f}" y="{y0 + 4}" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">{r}</text>')
         s.append(f'<text class="ink" x="{x:.1f}" y="{ty}" font-size="11" text-anchor="middle">{label}</text>')

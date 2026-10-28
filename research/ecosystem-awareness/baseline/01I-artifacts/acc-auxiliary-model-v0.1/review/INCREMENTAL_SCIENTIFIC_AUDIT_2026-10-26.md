@@ -50,6 +50,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 18 | 2026-10-28 | [Precisión de alias en la guía (D28-C03)](#ronda-18) | Sin hallazgos nuevos; precisión añadida a la guía |
 | 19 | 2026-10-28 | [Oportunidades de mejora y recepción de R16-P01/P06/P07 e IP-43](#ronda-19) | OP-01 a OP-13; evidencia nueva para K-02 y K-04 |
 | 20 | 2026-10-28 | [Kit de edición premium: 01 README del modelo auxiliar](#ronda-20) | 9 propuestas de visuales, edición, diseño y conexión |
+| 21 | 2026-10-28 | [Kit de edición premium: 02 `MODEL.md`](#ronda-21) | 12 propuestas; cifra de pruebas del toy desfasada en `MODEL.md` |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -915,3 +916,32 @@ Las oportunidades no son hallazgos y no se cuentan en el registro de estados. No
 
 **Comprobado:** las 11 suites de estudio ejecutadas en `main` `51fc686`, todas en verde (10 con pruebas, 441 pruebas en total). El PR de origen de cada estudio se obtuvo de la API de GitHub. Los dos esquemas Mermaid se validaron con `mmdc`. No se modifica el README ni ningún documento fuente: todo son añadidos propuestos para su propietario.
 
+
+<a id="ronda-21"></a>
+
+## Ronda 21 — kit de edición premium, entrega 02: `MODEL.md` (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA, a petición de Iván (misma instrucción que la ronda 20).
+
+**Qué se añade:** la [entrega 02 del kit](incremental-audit-2026-10-26/premium/02_MODEL.md), sobre el modelo integrado. Se leyó `MODEL.md` completo (218 líneas, 23 títulos) y se diagnosticó sección por sección. Doce propuestas:
+
+| ID | Propuesta | Tipo |
+|---|---|---|
+| P-M01 | [Columna vertebral visible](incremental-audit-2026-10-26/premium/figures/MODEL_spine.svg): los cinco pasos de la «secuencia de lectura» con sus secciones | Ayuda visual |
+| P-M02 | Comas en seis títulos; las anclas no cambian (opcional, única no aditiva) | Edición |
+| P-M03 | Tabla de magnitudes y choques de notación (C y D con dos significados) | Ayuda visual + edición |
+| P-M04 | Los cuatro estados de una oportunidad (Mermaid) | Ayuda visual |
+| P-M05 | [Mismo A hoy, distinto mañana](incremental-audit-2026-10-26/premium/figures/MODEL_same_A_two_worlds.svg) | Ayuda visual |
+| P-M06 | [RAV-01 en una figura](incremental-audit-2026-10-26/premium/figures/MODEL_rav01_certainty_equivalents.svg): CE de quedarse, rediseñar y defender | Ayuda visual |
+| P-M07 | [q^v en una curva](incremental-audit-2026-10-26/premium/figures/MODEL_consent_q_power_v.svg) | Ayuda visual |
+| P-M08 | Enlace de la brecha relativa a H-02 | Conexión |
+| P-M09 | Índice de los 16 ejemplos: qué ilustra cada uno y dónde se desarrolla | Diseño + conexión |
+| P-M10 | De cada sección a su estudio ejecutable y a lo que dice la auditoría | Conexión |
+| P-M11 | Cifra de pruebas con fecha | Edición |
+| P-M12 | Recuadros de límite para separar argumento y cautela | Diseño |
+
+**Hallazgo de forma:** «Uso posterior» dice «Las 34 comprobaciones son sintéticas». En `main` `51fc686`, la carpeta del toy ejecuta 52 pruebas por descubrimiento (34 en `test_toy.py` y 18 en `test_hid_optimum.py`) y otras 70 en `tests/test_uc21_dds_bridge.py`, que la CI lanza en un paso aparte. El README del paquete cita 52 y no menciona las 70. Se recoge como propuesta (P-M11), no como registro nuevo.
+
+**Precisión sobre la ronda 20:** el total de 441 pruebas de estudio cuenta 52 para el toy. Con las 70 regresiones UC21–DDS de la misma carpeta, las suites de los estudios suman 511 pruebas, todas en verde.
+
+**Comprobado:** las cifras de RAV-01 proceden de ejecutar `risk_model.py` (#46); 0,9²⁰ = 0,1216; el ejemplo de A = 128 es el de `MODEL.md` y #44. Los enlaces entrantes se contaron en `main`: 81 apuntan a secciones de `MODEL.md` y 35 a los títulos de P-M02; la regla de anclas de GitHub elimina las comas, así que ninguno se rompe. El diagrama de P-M04 se validó con `mmdc`. Las cuatro figuras se generaron con `build_premium_figures.py` y se revisaron renderizadas. No se modifica `MODEL.md` ni ningún documento fuente.

@@ -265,6 +265,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 18 | 28 oct | Claude | Precisión de alias en §7 (propuesta D28-C03 de Codex) | [ronda 18](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-18) |
 | 19 | 28 oct | Claude | Oportunidades de mejora; herramientas con código de salida; resumen IP-43 | [ronda 19](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-19) · [§14](#14-oportunidades-de-mejora) |
 | 20 | 28 oct | Claude | Kit de edición premium, entrega 01: README del modelo auxiliar | [ronda 20](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-20) · [kit](premium/INDEX.md) |
+| 21 | 28 oct | Claude | Kit de edición premium, entrega 02: `MODEL.md` | [ronda 21](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-21) · [entrega](premium/02_MODEL.md) |
 
 ## 11. Los 79 registros, uno por uno
 
@@ -495,4 +496,6 @@ Los hallazgos dicen qué falla. Esta sección dice **qué se puede hacer para qu
 ### Kit de edición premium (añadido en la ronda 20)
 
 Además de corregir, el corpus puede **leerse mejor**. El [kit de edición premium](premium/INDEX.md) propone, documento a documento, portadas más claras, esquemas, mapas y tablas que conectan cada pieza con las demás. La primera entrega es el [README del modelo auxiliar](premium/01_README_ACC.md): una portada en cuatro líneas, un mapa del paquete por objetivo del lector, la ruta de desarrollo con el estado de cada etapa y un catálogo único de los 11 estudios.
+
+La segunda entrega, añadida en la ronda 21, es [`MODEL.md`](premium/02_MODEL.md), el texto que mejor explica el proyecto: hace visible su columna vertebral, reúne en una tabla las más de veinte magnitudes con símbolo, pone en figuras el ejemplo de «mismo A, distinta respuesta mañana», la comparación de RAV-01 y la caída de q^v, y enlaza cada sección con el estudio que la pone a prueba.
 
