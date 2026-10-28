@@ -1158,3 +1158,110 @@ Transportar la pauta afirmativa de IP01–42 al nuevo resumen para lectores: dec
   - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama60; su incorporación sigue pendiente.
 
 ~~~
+
+
+<a id="desarrollo-generativo-integracion"></a>
+
+## 12. Desarrollo generativo — cuatro unidades de integración
+
+La [nota completa](GENERATIVE_DEVELOPMENT_2026-10-28.md) entrega cuatro mecanismos matemáticos y sus módulos. Se desarrollan las oportunidades existentes de memoria, temporalidad, composición y coordinación. Cada unidad siguiente es una adición en su receptor; se conserva íntegra la preimagen.
+
+### DG1 — integración aditiva
+
+[Fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/00M_VNext.md#L111). Propietario: Existing00M VNext; cross-reception with PR62 context loop.
+
+Adds a constructive memory-refinement operator and observable questions.
+
+**ANTES — unidad completa**
+
+~~~text
+## Propuestas antes/después — aún no incorporadas
+~~~
+
+**DESPUÉS — añadido y unidad conservada**
+
+~~~text
+## Desarrollo propuesto — memoria suficiente para intervenir a varios horizontes
+
+El desarrollo generativo DG1 añade una operación a la suficiencia de00M§4: construir la memoria mínima que conserva las salidas de una pregunta a lo largo de las acciones del modelo. Se parte de las fibras de la salida h y se refina cada bloque cuando dos estados evolucionan hacia clases distintas bajo una acción. La partición estable conserva las trazas futuras por inducción. El algoritmo devuelve también la palabra de acciones que obliga a enriquecer la memoria, para orientar una nueva consulta situada.
+
+Con x,z binarios, salida actual x y transición x'=x XOR(u*z), observar x distingue el presente; avanzar bajo u=1 exige conocer z. El acompañante implementa la construcción y explica la transición de dos a cuatro clases. El bucle de aprendizaje de62 puede reutilizar la memoria y sus testigos como contexto de búsqueda. Prueba, interfaz y ejemplo completo: [desarrollo generativo DG1 del PR58](https://github.com/dakleyer/structural-awareness-contributions/pull/58).
+
+## Propuestas antes/después — aún no incorporadas
+~~~
+
+### DG2 — integración aditiva
+
+[Fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/4421ff535f9b6c3d70f34882e505af35924f234c/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#L696). Propietario: Existing note62 §14; hybrid temporal development M28-O2.
+
+Adds an ODE-driven forecasting interval and self-triggered observation scheduler.
+
+**ANTES — unidad completa**
+
+~~~text
+### 14.8 Research acceptance sequence and new tests
+~~~
+
+**DESPUÉS — añadido y unidad conservada**
+
+~~~text
+### 14.7a Proposed constructive extension — dynamics-based context renewal
+
+Treat the context window as a decision object with a calculable observation horizon. For x1'=x2, x2'=w and |w|<=a, two observations y0,yDelta with individual error <=eps give, at T>=Delta>0, a secant prediction and radius
+
+\[
+r(T)=\varepsilon(2T/\Delta-1)+(a/2)T(T-\Delta).
+\]
+
+The first term transports observation error; the second transports unobserved curvature. A question can reuse the interval until its precision budget or decision boundary calls for a new observation. The radius is monotone after Delta, so exact rational bisection brackets the next renewal point. This supplies an executable temporal component for the existing semantic window and Regime Awareness role. The reference functions forecast and measurement_window, derivation and observation example are in [DG2 of the generative development in PR58](https://github.com/dakleyer/structural-awareness-contributions/pull/58).
+
+### 14.8 Research acceptance sequence and new tests
+~~~
+
+### DG3 — integración aditiva
+
+[Fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/README.md#L71). Propietario: Study44 and same01I VNext reception; OP04/K02 development.
+
+Turns local B into jointly feasible resource-backed plans and capacity questions.
+
+**ANTES — unidad completa**
+
+~~~text
+## 7. Método y límites de validación
+~~~
+
+**DESPUÉS — añadido y unidad conservada**
+
+~~~text
+### Desarrollo propuesto — ofertas B componibles y siguiente mejora de capacidad
+
+El productor puede acompañar una oferta de incremento con un vector de consumo sobre la holgura identificada de cada límite del trayecto. Un plan selecciona ofertas cuya suma cabe en todos los recursos. En el árbol de flujo, la inducción desde hojas a raíz conserva entonces el incremento conjunto. El receptor planifica con ofertas y presupuestos; la preparación de la oferta usa el registro nativo actual del productor.
+
+Dos incrementos de1 sobre una raíz con holgura1 permiten un plan de1. Una ampliación de la holgura a2 permite el plan de2; con coste0,2 produce0,8 de ganancia adicional neta. La saturación resultante orienta la siguiente pregunta de arquitectura. El adaptador producer_offer, el planificador best_joint_plan y ReservationBook proporcionan este contrato, incluida reserva atómica y versión en un proceso. Construcción, prueba y conexión al módulo actual: [DG3 del desarrollo generativo de PR58](https://github.com/dakleyer/structural-awareness-contributions/pull/58).
+
+## 7. Método y límites de validación
+~~~
+
+### DG4 — integración aditiva
+
+[Fuente](https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1/EXTENSION_ISOMORPHIC_NONISOMORPHIC_RESEARCH_v0.1.md#L287). Propietario: Existing46 extension; same01I VNext; OP02/K08 and existing factorial.
+
+Adds a computed interaction mechanism, signal update and precision/risk threshold.
+
+**ANTES — unidad completa**
+
+~~~text
+## 7. Programa común que pueden ejecutar investigadores distintos
+~~~
+
+**DESPUÉS — añadido y unidad conservada**
+
+~~~text
+### 6.1 Desarrollo propuesto — información y oferta conjunta como complemento
+
+Se añade una construcción ejecutable al factorial Q×coordinación ya propuesto en la síntesis42–45. Dos actores comparan quedarse con4, rediseñar unilateralmente con media3 y rediseñar juntos con media5. Con CARA-normal, gamma1 y varianza4, la oferta conjunta todavía se rechaza. Tres señales normales de valor5, con prior N(5,4) y ruido de varianza4, llevan la varianza posterior a1. La información sola no mueve la trayectoria unilateral desde quedarse/quedarse; una oferta que solo se activa con aceptación conjunta permite elegir el rediseño.
+
+Con coste informativo0,1 pagado también si después se queda, los valores son4;3,9;4;4,4 para ninguna operación, información, coordinación y combinación. La mejora neta es0,4 y la interacción0,5. El umbral de mejora neta para la combinación es varianza posterior menor que1,8. El cálculo conserva el criterio propio de cada actor y admite cambios de parámetros mediante normal_posterior y coordination_regimes. Ecuaciones, matriz de decisiones e integración con recursos: [DG4 del desarrollo generativo del PR58](https://github.com/dakleyer/structural-awareness-contributions/pull/58).
+
+## 7. Programa común que pueden ejecutar investigadores distintos
+~~~

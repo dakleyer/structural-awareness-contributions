@@ -1,0 +1,119 @@
+{
+  "memory": {
+    "initial_blocks": 2,
+    "stable_blocks": [
+      [
+        "00"
+      ],
+      [
+        "01"
+      ],
+      [
+        "10"
+      ],
+      [
+        "11"
+      ]
+    ],
+    "witnesses": [
+      {
+        "left": "00",
+        "right": "01",
+        "action": 1,
+        "witness_word": [
+          1
+        ],
+        "reason": "next memory classes differ",
+        "iteration": 0
+      },
+      {
+        "left": "10",
+        "right": "11",
+        "action": 1,
+        "witness_word": [
+          1
+        ],
+        "reason": "next memory classes differ",
+        "iteration": 0
+      }
+    ]
+  },
+  "forecast": {
+    "before": {
+      "center": "3",
+      "noise_radius": "1/4",
+      "curvature_radius": "3/5",
+      "lower": "43/20",
+      "upper": "77/20"
+    },
+    "after": {
+      "center": "3",
+      "noise_radius": "3/20",
+      "curvature_radius": "1/5",
+      "lower": "53/20",
+      "upper": "67/20"
+    },
+    "capacity": "3.5",
+    "half_unit_error_budget_window": [
+      "322322916689/137438953472",
+      "2578583333515/1099511627776"
+    ],
+    "old_decision": "measure_again",
+    "new_decision": "within_capacity"
+  },
+  "composition": {
+    "individual_gains": [
+      "1",
+      "1"
+    ],
+    "joint_conflict": {
+      "root": {
+        "requested": "2",
+        "remaining": "1"
+      }
+    },
+    "plan": [
+      "left"
+    ],
+    "upgrade_plan": [
+      "left",
+      "right"
+    ],
+    "upgrade_net_gain": "4/5"
+  },
+  "coordination": {
+    "posterior_mean": "5",
+    "posterior_variance": "1",
+    "regimes": {
+      "neither": {
+        "redesign_ce": "1",
+        "stay_ce": "4",
+        "information_cost_paid": "0",
+        "choice": "stay",
+        "value": "4"
+      },
+      "information_only": {
+        "redesign_ce": "12/5",
+        "stay_ce": "39/10",
+        "information_cost_paid": "1/10",
+        "choice": "stay",
+        "value": "39/10"
+      },
+      "coordination_only": {
+        "redesign_ce": "3",
+        "stay_ce": "4",
+        "information_cost_paid": "0",
+        "choice": "stay",
+        "value": "4"
+      },
+      "information_and_coordination": {
+        "redesign_ce": "22/5",
+        "stay_ce": "39/10",
+        "information_cost_paid": "1/10",
+        "choice": "redesign",
+        "value": "22/5"
+      }
+    },
+    "interaction": "1/2"
+  }
+}

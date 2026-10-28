@@ -1011,3 +1011,25 @@ No se modifica ningún documento fuente ni ningún estudio.
 **Evidencia adicional para M28-04.** `requalify(retained, certificate)` no recibe ningún tiempo de decisión, así que solo puede comparar con el tiempo del evento retenido (t = 1). Además, con `expires_before = 1` y t = 1 el certificado se admite. Si «expires_before» significa «válido estrictamente antes de», en t = 1 ya estaría caducado. Es exactamente la convención de extremo que la nota pide declarar. M28-04 sigue en `PROPUESTA`.
 
 **Estados:** M28-03 pasa a `RESPONDIDO`: está reparado y reconfirmado en la rama de PR #60, pero aún no está en `main`. Se añaden L-01 y L-02 (abiertos) y L-03 (verificado). No se cierra ningún registro, porque el código sigue en un PR abierto.
+
+
+<a id="desarrollo-generativo-2026-10-28"></a>
+
+## Desarrollo generativo — memoria, dinámica, composición material y decisión colectiva (28 octubre 2026)
+
+**Codex, asistencia de IA; por nueva instrucción de Iván: desarrollar mejoras que incrementen explicación, integración y reutilización.** Se recibe la ronda19: R16-P01/P06/P07 e IP43 ya están aplicadas en sus herramientas/guía; no se vuelven a proponer como pendientes.
+
+La entrega es un [paquete matemático ejecutable](incremental-audit-2026-10-26/GENERATIVE_DEVELOPMENT_2026-10-28.md) con cuatro mecanismos:
+
+| Desarrollo | Capacidad añadida | Conexión existente |
+|---|---|---|
+| DG1 | Construir una memoria predictiva y devolver la secuencia de acciones que requiere una nueva distinción | Fibras00M y aprendizaje62§14 |
+| DG2 | Calcular un intervalo futuro y el instante de renovación de observaciones desde una ecuación diferencial | Cotas45, ventana semántica, RA y M28-O2 |
+| DG3 | Componer ofertas B, reservar recursos compartidos y localizar la ampliación que libera beneficio | Productor44, K02, OP04 y búsqueda arquitectónica62 |
+| DG4 | Actualizar creencias y construir una oferta conjunta preferida, con costes informativos pagados también al quedarse | Riesgo46, restricciones42, K08/OP02 y factorial Q×coordinación |
+
+Cada desarrollo incluye ecuaciones, argumento de conservación, ejemplo calculado e interfaz importable. En el ejemplo dinámico, una observación nueva estrecha[2,15;3,85] a[2,65;3,35] y permite resolver una pregunta de capacidad3,5. En el colectivo, información y coordinación combinadas pasan de4 a4,4 neto por actor; las dos operaciones se explican por separado y se calcula su interacción.
+
+El adaptador utiliza realmente los módulos44/46 de main51fc686. Comprueba240 árboles y904 conjuntos factibles con ganancia conjunta exacta frente a deliver, además de480 validaciones de alcance y48 equivalentes ciertos. Quince pruebas ejercitan los nuevos mecanismos, incluidas729 dinámicas finitas y la reserva simultánea. Los resultados completos y las fuentes primarias consultadas están en el paquete.
+
+Las cuatro unidades de integración son añadidos exactos, con receptor y preimagen fijada, en el anexo siguiente y el JSON de propuestas. Los acompañantes se pueden ejecutar ahora; la selección editorial conecta estos contenidos con sus propietarios existentes. No se abre otra VNext ni se modifica el cuerpo científico anterior. El valor de esta entrega es la nueva operación y su explicación, no un cambio de etiquetas en los hallazgos.

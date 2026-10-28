@@ -514,3 +514,17 @@ Además de corregir, el corpus puede **leerse mejor**. El [kit de edición premi
 
 La segunda entrega, añadida en la ronda 21, es [`MODEL.md`](premium/02_MODEL.md), el texto que mejor explica el proyecto: hace visible su columna vertebral, reúne en una tabla las más de veinte magnitudes con símbolo, pone en figuras el ejemplo de «mismo A, distinta respuesta mañana», la comparación de RAV-01 y la caída de q^v, y enlaza cada sección con el estudio que la pone a prueba.
 
+
+
+## Del corpus a componentes matemáticos reutilizables
+
+El [desarrollo generativo de28octubre](GENERATIVE_DEVELOPMENT_2026-10-28.md) entrega cuatro operaciones con ecuaciones, ejemplos y código:
+
+| Operación | Para qué sirve | Ejemplo que se puede ejecutar |
+|---|---|---|
+| Memoria que se enriquece por testigos | Encontrar qué distinción necesita una decisión futura | Dos estados con el mismo resultado actual exigen preguntar por una variable distinta al intervenir |
+| Pronóstico y renovación de observaciones | Calcular hasta cuándo una medición sostiene la precisión necesaria | Una nueva observación estrecha el intervalo futuro y permite decidir sobre una capacidad |
+| Composición y reserva de recursos | Construir planes conjuntos a partir de ofertas locales | Elegir un plan que cabe y localizar la capacidad cuya ampliación libera más servicio |
+| Información y coordinación | Entender cuándo dos mejoras se necesitan mutuamente | Una oferta conjunta con evidencia nueva pasa a ser preferida por los dos participantes |
+
+Se pueden importar las funciones y ejecutar sus ejemplos desde los acompañantes del mismo expediente. Un adaptador enlaza realmente con el estudio44 y se comprueba también el criterio de riesgo46. Las cuatro unidades DG1–4 proponen integrarlos en sus propietarios existentes. Este apartado añade herramientas de desarrollo; el registro de hallazgos conserva sus estados.
