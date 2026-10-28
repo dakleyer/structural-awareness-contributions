@@ -156,6 +156,18 @@ class RealModelAdapterChecks(unittest.TestCase):
         self.assertEqual(results["proposed"].gain_lower, Fraction(4, 5))
         self.assertEqual(results["proposed"].status, "REFUTED_EVIDENCE")
 
+    def test_independent_directed_instrument_cannot_inherit_original_q_validation(self):
+        from copy import deepcopy
+        run = deepcopy(AG01_RUN_SHAPE)
+        run["arms"]["CONVENTIONAL_DIRECTED"] = {
+            "plan": {"conditional_near_gain": 0.8},
+            "observed_by_referee_only": {"output": 11.5},
+            "source_B_claim_supported_by_lab_truth": True,
+        }
+        gains = agentic_arm_gains(run, arm="CONVENTIONAL_DIRECTED", peer_arm=None)
+        self.assertEqual(gains["executed"].gain_lower, Fraction(3, 2))
+        self.assertEqual(gains["proposed"].status, "UNVERIFIED_EVIDENCE")
+
     def test_agentic_review_only_knows_gain_but_does_not_execute_it(self):
         result = agentic_arm_gains(AG01_RUN_SHAPE, arm="Q_REVIEW_ONLY", peer_arm=None)
         self.assertEqual(result["executed"].gain_upper, 0)
