@@ -90,6 +90,54 @@ class QualificationControls(unittest.TestCase):
         self.assertEqual(o["status"], "WRONG_QUESTION")
         self.assertEqual(o["promised_increment"], 0)
 
+    def test_K02_individual_B_cannot_certify_joint_request_with_shared_headroom(self):
+        # Two independently valid B_q records use the same baseline and
+        # shared root capacity. The joint request is a DIFFERENT question.
+        bits = tuple(1 if i in (3, 8, 12) else 0 for i in range(16))
+        constrained = balanced_tree(bits, cap_root=129)
+        original = deliver(constrained, base_demand(constrained))
+        self.assertEqual(original, 128)
+        outline = public_outline(constrained)
+        b3 = upstream_B(constrained, "source-3", now=5, ttl=10)
+        b8 = upstream_B(constrained, "source-8", now=5, ttl=10)
+        self.assertIsNotNone(b3)
+        self.assertIsNotNone(b8)
+        self.assertTrue(receiver_B_valid(outline, b3, "source-3", now=6)[0])
+        self.assertTrue(receiver_B_valid(outline, b8, "source-8", now=6)[0])
+        self.assertEqual((b3.delivered_if_requested, b8.delivered_if_requested), (1, 1))
+
+        joint_question = ("source-3", "source-8")
+        for record in (b3, b8):
+            ok, reason = receiver_B_valid(outline, record, joint_question, now=6)
+            self.assertFalse(ok)
+            self.assertEqual(reason, "WRONG_QUESTION")
+
+        simultaneous = base_demand(constrained)
+        for name in joint_question:
+            simultaneous[name] += 2
+        joint_gain = deliver(constrained, simultaneous) - original
+        self.assertEqual(joint_gain, 1)
+        self.assertGreater(b3.delivered_if_requested + b8.delivered_if_requested,
+                           joint_gain)
+
+    def test_K02_B_additivity_can_hold_when_shared_resource_is_not_binding(self):
+        # Negative control: a shared tree does NOT itself prove nonadditivity.
+        bits = tuple(1 if i in (3, 8, 12) else 0 for i in range(16))
+        unconstrained = balanced_tree(bits, cap_root=None)
+        original = deliver(unconstrained, base_demand(unconstrained))
+        b3 = upstream_B(unconstrained, "source-3", now=5, ttl=10)
+        b8 = upstream_B(unconstrained, "source-8", now=5, ttl=10)
+        outline = public_outline(unconstrained)
+        self.assertTrue(receiver_B_valid(outline, b3, "source-3", now=6)[0])
+        self.assertTrue(receiver_B_valid(outline, b8, "source-8", now=6)[0])
+        simultaneous = base_demand(unconstrained)
+        simultaneous["source-3"] += 2
+        simultaneous["source-8"] += 2
+        joint_gain = deliver(unconstrained, simultaneous) - original
+        self.assertEqual(joint_gain, 4)
+        self.assertEqual(b3.delivered_if_requested + b8.delivered_if_requested,
+                         joint_gain)
+
     def test_wrong_version_rejected(self):
         c = replace(self.cert, path_versions=("v2",)+self.cert.path_versions[1:])
         self.assertFalse(receiver_B_valid(public_outline(self.world),c,self.target,now=3)[0])
