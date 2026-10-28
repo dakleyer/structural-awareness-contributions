@@ -76,14 +76,8 @@ def intrinsic_observations(
             "qualified_maintenance": costs.b_maintenance,
         })
 
-    all_accessible = all(n.source_can_assess for n in producer._nodes_all(world)) if hasattr(producer, "_nodes_all") else None
-    if all_accessible is None:
-        # Same recursive predicate as the original FULL_EXPAND_A mode.
-        def accessible(n):
-            return n.source_can_assess and (
-                isinstance(n, producer.Leaf) or all(accessible(c) for c in n.children))
-        all_accessible = accessible(world)
-    targeted_accessible = all(n.source_can_assess for n in path)
+    # The policy's OWN status controls whether an access cost was incurred.
+    # Never infer authority/availability a second time inside this adapter.
     arms: list[ArmObservation] = []
     for mode in ("A_ONLY", "B_QUALIFIED", "TARGETED_EXPLORATION_OF_A", "FULL_EXPAND_A"):
         result = producer.policy(world, target, mode, costs, now=now, b=b,
@@ -92,9 +86,9 @@ def intrinsic_observations(
             raise ValueError("original source has changed physical A between policies")
         if mode == "B_QUALIFIED" and b is not None:
             ledger = b_ledger()
-        elif mode == "TARGETED_EXPLORATION_OF_A" and targeted_accessible:
+        elif mode == "TARGETED_EXPLORATION_OF_A" and result["status"] == "TARGETED_SOURCE_ASSESSMENT_ACQUIRED":
             ledger = CostLedger.of({"targeted_source_observation": costs.target_observation})
-        elif mode == "FULL_EXPAND_A" and all_accessible:
+        elif mode == "FULL_EXPAND_A" and result["status"] == "FULL_FINITE_MODEL_ACQUIRED":
             ledger = CostLedger.of({"full_source_nodes": producer.node_count(world) * costs.full_node})
         else:
             ledger = CostLedger()
