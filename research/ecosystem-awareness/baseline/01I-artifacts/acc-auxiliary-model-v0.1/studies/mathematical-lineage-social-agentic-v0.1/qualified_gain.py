@@ -1,5 +1,7 @@
-"""Reusable, exact, evidence-typed interval comparison for ACC and third parties.
+"""Exact source-typed interval-sign helper from canonical 00M section 6.2.
 
+This downstream arithmetic is not the F1/D1 structural sufficiency mechanism,
+the source-owned agentic gradient or the five-module architectural search.
 The evaluator knows nothing about human suffering, agency, geometry, costs,
 consent or authentication. Domain adapters establish those meanings before
 presenting comparable value intervals; the result preserves both evidence kinds.
