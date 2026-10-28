@@ -49,6 +49,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 17 | 2026-10-28 | [Modelo social #44, #45 (resto) y #46](#ronda-17) | K-01 a K-08 |
 | 18 | 2026-10-28 | [Precisión de alias en la guía (D28-C03)](#ronda-18) | Sin hallazgos nuevos; precisión añadida a la guía |
 | 19 | 2026-10-28 | [Oportunidades de mejora y recepción de R16-P01/P06/P07 e IP-43](#ronda-19) | OP-01 a OP-13; evidencia nueva para K-02 y K-04 |
+| 20 | 2026-10-28 | [Kit de edición premium: 01 README del modelo auxiliar](#ronda-20) | 9 propuestas de visuales, edición, diseño y conexión |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -888,4 +889,29 @@ Ordenadas por impacto y esfuerzo estimados por el auditor (no medidos). Explicac
 | <a id="op-13"></a>OP-13 | Paquete para revisión humana independiente | Alto / Medio | Todas | Tras OP-01: versiones, afirmaciones, guía y scripts |
 
 Las oportunidades no son hallazgos y no se cuentan en el registro de estados. No se ha aplicado ninguna a las fuentes científicas.
+
+
+<a id="ronda-20"></a>
+
+## Ronda 20 — kit de edición premium, entrega 01: README del modelo auxiliar (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA, a petición de Iván: «lee al fondo, propone ayudas visuales, mejoras de edición y de diseño, sección por sección, para darle un toque premium a cada parte del corpus».
+
+**Qué se añade:** un [kit de edición premium](incremental-audit-2026-10-26/premium/INDEX.md) que irá cubriendo el corpus documento a documento, con un sistema visual común. La primera entrega es el [README del modelo auxiliar](incremental-audit-2026-10-26/premium/01_README_ACC.md), con 9 propuestas:
+
+| ID | Propuesta | Tipo |
+|---|---|---|
+| P-R01 | Portada en cuatro líneas: qué es, para quién, por dónde empezar, estado | Edición + diseño |
+| P-R02 | Esquema de la pregunta principal (Mermaid) | Ayuda visual |
+| P-R03 | [Mapa del paquete](incremental-audit-2026-10-26/premium/figures/README_package_map.svg) por objetivo del lector, con tabla equivalente | Ayuda visual + diseño |
+| P-R04 | [Ruta de desarrollo con estado](incremental-audit-2026-10-26/premium/figures/README_route_status.svg) de cada etapa | Ayuda visual |
+| P-R05 | Catálogo único de los 11 estudios: PR, pregunta, pruebas, evidencia y hallazgos de la auditoría | Conexión + diseño |
+| P-R06 | Esquema «quién hace qué» con los consumidores del modelo | Ayuda visual |
+| P-R07 | Enlace a la auditoría incremental y su guía | Conexión |
+| P-R08 | Encabezado que separa lo vigente del historial de novedades | Diseño |
+| P-R09 | Pauta de estilo para el texto nuevo del paquete | Edición |
+
+**Hallazgo de forma detectado al preparar el catálogo:** el README no menciona seis estudios que ya están en `main` (#42 a #47), y las cifras de pruebas que cita no llevan fecha. Se recoge como propuesta (P-R05, P-R09), no como registro nuevo.
+
+**Comprobado:** las 11 suites de estudio ejecutadas en `main` `51fc686`, todas en verde (10 con pruebas, 441 pruebas en total). El PR de origen de cada estudio se obtuvo de la API de GitHub. Los dos esquemas Mermaid se validaron con `mmdc`. No se modifica el README ni ningún documento fuente: todo son añadidos propuestos para su propietario.
 

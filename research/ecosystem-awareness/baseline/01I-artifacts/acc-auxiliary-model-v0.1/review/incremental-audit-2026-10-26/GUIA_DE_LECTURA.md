@@ -264,6 +264,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 17 | 28 oct | Claude | Modelo social #44–#46 (K-01 a K-08) | [ronda 17](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-17) |
 | 18 | 28 oct | Claude | Precisión de alias en §7 (propuesta D28-C03 de Codex) | [ronda 18](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-18) |
 | 19 | 28 oct | Claude | Oportunidades de mejora; herramientas con código de salida; resumen IP-43 | [ronda 19](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-19) · [§14](#14-oportunidades-de-mejora) |
+| 20 | 28 oct | Claude | Kit de edición premium, entrega 01: README del modelo auxiliar | [ronda 20](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-20) · [kit](premium/INDEX.md) |
 
 ## 11. Los 79 registros, uno por uno
 
@@ -490,4 +491,8 @@ Los hallazgos dicen qué falla. Esta sección dice **qué se puede hacer para qu
 | **OP-13 · Paquete para revisión humana independiente** | Todas las familias: ninguna ronda es todavía una revisión humana | Después de OP-01: versiones fijadas, afirmaciones elegidas, esta guía y los scripts de reproducción |
 | **OP-04 · Certificado B conjunto o reserva de holgura** | K-02: varios B válidos pueden prometer juntos de más | Que el emisor descuente la holgura ya comprometida en el cuello compartido |
 | **OP-08 · Comparadores que deciden sólo con lo que observan** | G-01, F-01: hoy el comparador recibe la respuesta o el mismo código | Separar generador de señal, comparador y árbitro, con el contrato de información de R16-P04 |
+
+### Kit de edición premium (añadido en la ronda 20)
+
+Además de corregir, el corpus puede **leerse mejor**. El [kit de edición premium](premium/INDEX.md) propone, documento a documento, portadas más claras, esquemas, mapas y tablas que conectan cada pieza con las demás. La primera entrega es el [README del modelo auxiliar](premium/01_README_ACC.md): una portada en cuatro líneas, un mapa del paquete por objetivo del lector, la ruta de desarrollo con el estado de cada etapa y un catálogo único de los 11 estudios.
 
