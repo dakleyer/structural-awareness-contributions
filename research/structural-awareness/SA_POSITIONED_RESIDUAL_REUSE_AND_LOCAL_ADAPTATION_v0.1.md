@@ -411,3 +411,158 @@ The key timing is: **gradient/candidate communicated → legitimate accept/modif
 - **Proposed measured study, NOT performed here:** fix objective/constraints and comparable workloads; record the architecture/evidence **before** knowing any held-out “telework-like” solution; compare (i) baseline exploitation, (ii) add-classifier/filter exploration, (iii) indiscriminate UNKNOWN replay, (iv) structurally targeted rule relaxation with contract-gated requalification, (v) equally informed strong adaptive comparator. Measure gate-selection precision, new determinacies *by contract version*, verified local and whole-ecosystem outcomes, safety/authority violations, false escalations, full cost and context drift. A reviewer should attempt leakage checks: no solution identity, answer class or secret population may enter \(\Phi_{\rm relax}\).
 
 **Source and ownership boundaries:** [EA A/B/C/D mathematical research note (00M)](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md); [ACC governance profile 01I](../ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md); [Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md); [Canonical MSCA Operation/Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md); [Ecosystem Signalling 01J](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). This section is a **research interpretation bridging owners**, not a mutation to their definitions, ACC authority, runtime protocol or acceptance status.
+
+## 13. Working computational-advantage claim (28 October 2026) — metastructurally selected residual requalification
+
+**Owner direction and status.** Formalize the **conditional computational-work advantage** articulated in the research session: instead of computing the outcome of every possible constraint relaxation against a complete reference population, inspect the *inferior machine's own selected unresolved boundary observations*, test a small number of structurally selected rule relaxations, obtain **task-relative determinations**, and use those certificates to inform the *already owned* agentic opportunity gradient and authorized repositioning. This is Stage-A research, not a new computability class, canonical law, proved universal speedup or measured Stage-C deployment. Its mathematical target is **one sufficient, authorized improvement/certificate for a declared objective**, **not** an optimum over the entire unenumerated exterior.
+
+### 13.1 Decision problem and information contract
+
+Fix a participant \(i\), a declared objective \(d\), its current source-owned Objective Envelope \(S_i\), global non-negotiable conditions \(H\), current role/ACC/lineage/authority \(\kappa\), and a sourced bounded architectural graph \(G_t\). Let \(R=(r_1,\ldots,r_n)\) be *represented* local admission/usage restrictions; some may be hard and some legitimately renegotiable. A constraint may be nonredundant but irrelevant to the current optimum; its status must not be inferred from nonredundancy alone.
+
+Let \(E_t\) denote **only the signals/traces actually available or lawfully replayable at the relevant interfaces** during a declared horizon. It is **not** a census of the external possibility universe \(U\), not the set of all ideas, not all indeterminates in the ecosystem, and not an assertion that unreceived objects can be recovered. For a currently evaluable \(x\in E_t\), distinguish the source-qualified original outcome in \(\{T,F,?\}\), the reasons/provenance for UNKNOWN, and contract version.
+
+A *candidate relaxation* \(\tau_k\) concerns a particular represented gate \(r_k\), prospective interface/question and prospective role/ACC position. Such a candidate can be constructed from \(G_t\) without knowing a future winning exterior element. The local evaluable test is
+
+\[
+\operatorname{Test}_k(x)=
+\operatorname{Admit}_{H,R\setminus\{r_k\}}(x)
+\quad\text{plus any independently required authority, effect and validity checks}.
+\tag{CA-1}
+\]
+
+Under §12's precise conditions, \(H(x)=T\), \(r_j(x)=T\) for all retained \(j\ne k\) and \(r_k(x)=?\) imply old decision \(?\) but prospective new decision \(T\). This is **new determination relative to new conditions**; the old predicate remains indeterminate and the new admission is not *operationally legitimate* until applicable ACC/authority gates authorize the transition.
+
+A signal not even recognized by the old admission grammar remains unobserved unless there is an existing evidence route, a permitted future arrival or a bounded constructive test. Relaxing a *question* can allow new admissions **without enumerating their category**, but cannot manufacture a witness or evidence ex nihilo.
+
+### 13.2 Complete selective procedure: two selections, one existing exploitation machine
+
+**Phase I — structural selection before a residual histogram.**
+
+1. Preserve the ordinary source process, its qualified A/B/C/D status, role binding, current output/error/timeout and observed admission interfaces. Use the existing participant-local EA → Cartography → Regime Awareness inputs and the source-owning MSCA Type/posture/drift ordering.
+2. Map declared constraint provenance, cross-dimensional interactions, Objective-Envelope shortfall, hard resource limits, and remaining **characterized B reserve**. Identify *where a gate might be limiting*; do not equate scarce positive outputs with certified exhaustion of B.
+3. Apply the proposed bounded \(\Phi_{\rm relax}(G_t,d,\kappa)\) of §12.4 to select **a small set of gates \(J\subseteq\{1,\ldots,n\}\)** and their observation interfaces, accompanied by reason, evidence, confidence, estimated cost, validity window and a hard/negotiable/unknown designation. If no justified target exists, retain UNRESOLVED and stop/escalate rather than invent a gate.
+
+**Phase II — selective boundary observation and local recalification.**
+
+4. Let each *selected inferior source process* continue producing normal qualified outputs. Use its own observable \(-/?\) boundary or a permitted bounded watchdog/provenance interface, not a new generator of the entire exterior population. Existing raw events and partial pre-admission evidence may be used where lawfully available; an input absent before irreversible capture cannot be reconstructed.
+5. For each \(k\in J\), select **only \(Q_k\subseteq E_t\)**, a small task-relevant set of actually witnessed unresolved references (or subsequently received signals under a revised admission question). Do **not** screen all ecosystem dimensions, all global \(A'\), all indeterminates of that selected process, or all unseen objects.
+6. Re-evaluate \(Q_k\) with the **same conventional evaluators already available**, but with the *proposed* one-gate relaxation and the retained hard requirements. Record \(?\to T\), \(?\to F\), \(?\to ?\), and prior hard \(F\) separately. Record *two contract/question versions*. A former hard NO does not become UNKNOWN by relabeling. The test may expose inconsistency, additional residuals, safety failure or need for a different constraint; in those cases there is no certified gain.
+7. For any prospective new determination \(T\), verify its **objective contribution, causal relevance, resource cost, security, human/organizational dependencies and authority path**, using bounded local evidence. One valid improvement can satisfy the local decision task. It does **not** establish that all unknowns have been resolved or that a global optimum has been calculated.
+
+**Phase III — existing gradient, authorization and actual repositioning.**
+
+8. Convert the *verified local results and remaining uncertainty* into a qualified candidate transition \(\tau_k\). The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) already owns \(G_i(\tau_k\mid\Delta_{\rm RA})\): comparison of source-qualified objective-risk/shortfall before versus after a proposed position. Do not introduce a second universal gradient. The shortfall/frustration/distance interpretation is valid only under the participant's *declared* scalar/profile mapping, not because UNKNOWN was arbitrarily scored zero.
+9. Apply the source-owned MSCA Type/posture gate, Objective Envelope, ACC/lineage and actual authority check. Retain **opportunity ≠ admissibility ≠ permission ≠ execution**. If required, emit a source-qualified **RepositionIntent** conveying the gate, old/new status, objective-risk evidence, proposed role/contract change, response deadline and requested consent to the legitimate human/ACC/authority owner.
+10. Process an actual **APPROVE / MODIFY / REJECT / REQUEST_EVIDENCE / ESCALATE / expiry** response. The candidate position communicated before approval is **not** an effective role change. No response is not consent. If approval requires a successor ACC or new lineage, use the existing legitimate re-contracting route; if denied, retain the evidence and HOLD/refrain from unauthorized actuation.
+11. Only with a valid binding: update effective/bound role, ACC/authority, dependencies, admitted question and permitted operation. Observe the outcome, verify the promised local and any larger objective effect, retain old/new provenance and outstanding residual, and emit the bounded post-transition signal to the next ecosystem cycle. A proven local gain may inform others; it does **not** force global consensus or propagate authority to another agent.
+
+The two principal reductions are **which gate(s)** to examine and **which observable residual(s)** to requalify. Neither reduction is guaranteed merely by saying “open universe”; each has an explicit source, algorithmic cost and independent falsifier.
+
+### 13.3 A precise cost account and constructive separation from a declared exhaustive comparator
+
+Let \(n\) be the number of represented candidate restrictions; \(N=|E_t|\) the number of qualified available references in a *finite declared test horizon* (not the cardinality of \(U\)); \(J\) the metasyntactically selected restrictions, \(k=|J|\); \(q_j=|Q_j|\); and \(q=\max_{j\in J}q_j\). Do not assume every unknown is identifiable or that all \(N\) are unresolved.
+
+A **declared exhaustive pair-evaluation comparator** \(\mathrm{EXH}\) that tests every \((r_j,x)\in R\times E_t\) incurs
+
+\[
+C_{\rm EXH}
+=\sum_{j=1}^{n}\sum_{x\in E_t}
+c_{\rm test}(j,x)
++C_{\rm EXH,setup}.
+\tag{CA-2}
+\]
+
+For uniform unit-cost probes, the probe count is \(nN\). This is **one specific baseline**, not the complexity lower bound for all Turing-computable optimizers or dual sensitivity methods; an early-stopping or structure-aware comparator may examine far fewer pairs.
+
+The proposed **selective** route \(\mathrm{SEL}\) incurs, **including previously omitted overhead**,
+
+\[
+\begin{aligned}
+C_{\rm SEL}={}&C_{\rm map}+C_\Phi+C_{\rm observe/retain}\\
+&+\sum_{j\in J}\sum_{x\in Q_j}c_{\rm requal}(j,x)
++C_{\rm evidence}\\
+&+C_{\rm gradient}+C_{\rm ACC/authority}
++C_{\rm re-contract/transition}+C_{\rm effects/revalidation}.
+\end{aligned}
+\tag{CA-3}
+\]
+
+All shared costs are allocated consistently; where EXH requires the same governance, verification and instrumentation for an equivalent authorized outcome, those costs belong to **both** sides. External human review and observation have latency/cost even when no additional software is deployed.
+
+**Proposition CA-1 — conditional computational-work advantage.** Suppose (a) a specified objective asks for *at least one* authorized, verified improvement rather than the global maximizer; (b) \(\Phi_{\rm relax}\) selects \(J\) **from evidence available before the winning solution is revealed**; (c) at least one \(Q_j\) contains a witness actually requalified and correctly certified as beneficial under all retained hard conditions and legitimate authorization; and (d) \(C_{\rm SEL}<C_{\rm EXH}\) under a matched accounting/quality convention. Then SEL achieves the **same binary task success** as EXH with strictly lower **realized total work** for that instance, without enumerating the exterior or adding a universal exploration generator.
+
+*Proof sketch.* (a–c) yield one source- and contract-qualified beneficial result through bounded ordinary operations; task success does not require checking unselected pairs. (d) compares the actual total work. Neither step requires an oracle, full complement-membership decision or full optimization of the new feasible set. \(\square\)
+
+For a family of such tasks, if the per-probe cost is uniformly bounded above and below, \(kq=o(nN)\), and **all** overhead outside selected probes is \(o(nN)\), while the declared EXH evaluates the complete grid, then
+
+\[
+\boxed{C_{\rm SEL}/C_{\rm EXH}\to0}.
+\tag{CA-4}
+\]
+
+This is an **asymptotic separation against that specified exhaustive procedure**, with an *informative, paid-for selection operation*, not a universal separation between Turing machines. If \(C_\Phi\) approaches the cost of exhaustive search, \(kq\) is large, or the selected set contains no useful certificate, the claimed advantage is absent.
+
+**One independent black-box control.** If a task contains one otherwise unmarked winning gate–trace pair among \(nN\) possible pairs, an object-only query algorithm with no structural side information may require \(nN\) queries in the worst case; uniform hidden-witness placement gives expected \((nN+1)/2\) queries for an uninformative order. A valid \(\Phi\) that narrows the candidate set uses **additional objective-conditioned structural information**. The research question is whether that information is independently available, honest and cheap enough to create real savings. A classical algorithm granted the *same* map, costs and adaptation rules can implement SEL and tie it. This is **value of representation and work allocation**, not non-Turing computability.
+
+**Illustrative arithmetic, not experimental evidence:** with \(n=100\) candidate gates and \(N=10{,}000\) available references, exhaustive all-pairs testing would use \(1{,}000{,}000\) probes. If a separately justified structural selector returns \(k=2\) gates and \(q=20\) traces per gate, selected requalification uses at most \(40\) probes, **plus** mapping, retention, verification, governance and effect costs. The comparison establishes nothing until the selection actually captures a useful witness, the input evidence was not leaked, and full costs/quality are matched.
+
+### 13.4 Why a local certificate can inform the gradient without computing the global optimum
+
+The logical implication of gate relaxation (§12, CR-1) is only \(\mathcal F(H,R)\subseteq\mathcal F(H,R\setminus\{r_k\})\), so the **best achievable** value weakly increases for the *same objective*. It does **not** supply its numerical optimum. An actually validated \(x\) may show \(V_d(x)>V_d(\text{currently delivered})\) without establishing \(V_d(x)>V^*_{H,R}\); keep those claims separate.
+
+A verified small set \(Q_j\) can provide:
+
+- a **witness-level certificate** that an old UNKNOWN admission is TRUE for the new condition set;
+- an **observed local effect** (e.g. one confirmed decrease in a declared objective shortfall);
+- a **bounded or conditional estimate** of the candidate transition's risk/fulfilment impact;
+- a **legitimate reason to request** the new position.
+
+It cannot, from selection alone, supply the population-wide \(R_i(\mathrm{after}\,\tau)\), a valid probability for the whole C/D frontier, a universal success rate, a global optimum, or transferable authorization. A sample chosen precisely because it looks promising is **selection-biased** for unselected alternatives. The source-owned gradient therefore may return an **interval, robust partial order, candidate preference or UNRESOLVED**, and must not pretend a population expectation was measured. A numerical gradient requires a declared sampling/causal/aggregation model; a single certified local improvement may nevertheless be sufficient for a *bounded local repositioning* whose objective gate explicitly admits that criterion.
+
+### 13.5 Boundary concentration is a research premise, not a diagonalization theorem
+
+For the existing total qualified three-way evaluator, §5 establishes \(p_++p_-+p_?=1\). If positive outcomes become rare then \(p_-+p_?\) approaches one; it does **not** follow that unresolved cases accumulate. The optional bound \(p_-\le h<1\) gives \(p_?\ge1-h-p_+\), but only for the same observed qualified input distribution. A stream of all hard negatives and no unknowns refutes the unqualified “frontier crowding” inference.
+
+The stronger *testable* mechanism is:
+
+1. Architectural positioning and a justified B-side exhaustion claim isolate a materially limiting boundary;
+2. an actual source/traffic distribution provides unresolved observations at that boundary with bounded capture losses;
+3. a selected gate is responsible for some of those unresolved admissions;
+4. removing or renegotiating that gate preserves the remaining required conditions;
+5. a **nonzero, empirically estimable share** of those observations becomes certified beneficial under the new question/contract.
+
+No pure diagonalization, non-closure principle or low A frequency proves conditions 2–5. Nearness to C is **epistemic/architectural**, not a proven geometric distance unless a separate metric is specified.
+
+### 13.6 Minimal constructed tests across the two examples and three epistemic regimes
+
+**2018–2019 telework fixture.** A firm's *office improvement* process may exclude an alternative **before it is typed as a proposal**. The existing architecture reveals a dependency of capacity, travel, budget and work-output requirements on a “physical office / attendance” gate. The selector chooses that gate, **without the answer word “telework” appearing as its input**. A permitted relaxation to “adequate working conditions within true hard commitments” makes a wider question evaluable. Only *later* lawful incoming evidence or a bounded independently generated test can provide a witness of valid work without the old gate. If verified, and if at least 20 of 120 workers are off-site on **every relevant peak day**, the 100-seat constraint can be respected; merely averaging 20 is insufficient. A new agentic role/ACC/employee/employer/IT authority binding may be required. No societal ontology of telework or global labor-market reclassification is a prerequisite.
+
+**Selected sensor fixture.** The metastructural map chooses the materially limiting *sensor and gate* using its known architecture, not a prior global heatmap of UNKNOWNs. The original sensor/watchdog observes actual timeout/error/partial-decision behavior. Requalification tests only permitted selected witnessed references after a plausible **decision-rule** relaxation. Some become determined under new conditions; others stay UNKNOWN or are hard NO. Increasing a finite timeout budget cannot solve the general halting problem or guarantee classification; failing to capture pre-admission inputs defeats retrospective recovery. No mandatory second universal exploration sensor is needed for witnessed local checks.
+
+**Regime preservation.** The method is conditional on the actual regime: (E) sourced target-specific existence/exclusion certificates; (I) *witnessed* residual indetermination; or (P) only the **possibility** of residual indetermination. With (P) alone there may be no observed \(Q_j\), and neither CA-1 nor any advantage claim fires. No agent must know a global universe label E/I/P to run the bounded procedure, but epistemic provenance must preserve which kind of support is actually present.
+
+### 13.7 Comparators, failure cases, and the executable falsification programme
+
+| Route | Fair capability | What must be measured |
+| --- | --- | --- |
+| EXH-all-pairs | Exhaustively re-evaluate every permitted restriction/reference pair | Total probes, certification success, authorized objective effect and all costs |
+| CONV-dual/sensitivity | Ordinary constrained optimization using existing solutions, dual information, binding constraints or local sensitivity **without full search where possible** | Marginal/finite cost, limits under discrete or schema-changing gates, actual objective improvement |
+| CONV-active | Classical active selection, online monitoring, selective replay, adaptive search, assumption revision and identical architectural side information | Same full evidence/permissions/compute budget, success probability and time to certificate |
+| SEL-metastructural | \(\Phi_{\rm relax}\) plus tiny \(J,Q_j\) checks, current source evaluators, existing ACC/MSCA gradient/authority/role cycle | Gate-hit rate, \(?\to T\) certificates, relative full cost and governed outcome |
+| Random/negative control | Random gates/traces or all hard negatives | Proof that success is caused by meaningful structural selection, not planted answers |
+
+**Mandatory independent tests:**
+
+1. **Freeze information before revealing the answer.** Pin \(G_t,d,H,R\), source capabilities, admission rules, ACC and signal logs, as well as a hidden test set of later cases. No post hoc “telework” label, winning gate or hidden solution may leak into \(\Phi\).
+2. **Measure *both* selection stages.** Gate selection precision/recall, observed \(Q_j\) relevance, capture loss, false UNKNOWN and hard-NO confusion; report runs where no justified gate or no observed candidate exists.
+3. **Measure requalification by version.** Preserve \(R\)-UNKNOWN alongside new \(R\setminus\{r_k\}\)-TRUE/FALSE/UNKNOWN and any unresolved retained conditions; count certificate strength, not only reclassification frequency.
+4. **Match decision target and quality.** All routes must satisfy the same frozen objective, hard safety/delegation, accuracy, acceptable risk and delivery conditions. “Find one good local improvement” must not be compared with “prove the global best,” or vice versa.
+5. **Count all work.** Architecture discovery and update, qualification, source instrumentation, monitoring, sample selection, probing, human approval time, ACC/lineage changes, action/effect validation, stale-data re-runs and rollback. Compute **cost per certified legitimate improvement**, with zero-success runs explicitly reported.
+6. **Test regime and adversarial shifts.** All-hard-NO, no UNKNOWN even as \(p_+\to0\); many irrelevant timeouts; incorrect positioning; unobserved external answer; underpowered sensor; safety/authority failure; second coupled restriction remains binding; external agent harm; distribution shift and stale \(\Phi\); no or modified ACC consent.
+7. **Require a strong Turing-computable competitor.** A conventional adaptive design with exactly the same \(G_t\), E/I/P-qualified evidence, signals, contract authority and available computations can implement this mechanism. A strict advantage over that matched design cannot be assumed. If parity occurs, report it; the scientific result may be about representational information and architecture, not a new algorithmic class.
+8. **Pre-register thresholds and confidence.** Report selected probes \(k,\sum q_j\), total cost ratio, true selection hit rate, risk-reduction/calibration and local/global effect intervals across repeated seeded instances; do not describe one successful illustrative case as a general theorem.
+
+**Related primary mathematical work (for separation, not novelty attribution):** Boyd–Vandenberghe *Convex Optimization*, duality and sensitivity (https://web.stanford.edu/~boyd/cvxbook/); Niyogi, *Sequential Optimal Recovery: A Paradigm for Active Learning* (MIT, 1995; https://dspace.mit.edu/entities/publication/0f285c7a-aac0-42d5-a6a4-c3f03733bc4e); AGM theory contraction (Alchourrón–Gärdenfors–Makinson, 1985; author bibliography: https://sites.google.com/site/davidcmakinson/home). These show that efficient selective computation, uncertainty sampling and rule contraction have established precedents. This annex's **specific candidate contribution** is their scoped combination with SA boundary semantics and the already owned EA/EP/MSCA/ACC choreography, under the above falsifiable conditions.
+
+**Owner-boundary conclusion.** The defensible claim is **conditional superiority in total computational *work* for a specified decision and comparator, via paid-for structural selection of a small constraint/residual subset and locally certified requalification**, not superiority over universal Turing computability, all conventional active methods, the whole unenumerated exterior, or the global optimum. Section 13 adds research proof obligations and measurements only; it changes no canonical owner, source algorithm, gradient formula, runtime permission, licence or PR promotion state.
