@@ -90,23 +90,9 @@ Read the [cross-corpus daily scope](../../../architectural-contributions/ecosyst
 
 ### D26-C01 — Reject an empty intersection before deciding
 
-**State:** proposed, not applied. **Priority:** First. **Expected impact:** High (correct false positive local support). **Risk:** Medium (numerical tolerance policy may affect near-boundary consumers). **Effort:** Low for the pair and isolated check; regression/frozen-result review is part of acceptance. **Location:** qualify, immediately after lo/hi computation. **Decision needed:** select exact rejection semantics or a justified outward-rounding/uncertainty policy; do not silently treat inconsistent evidence as true.
+**Applied through the expanded PR64 repair; removed from the pending implementation queue.** Source main `51fc686f45b6ef10c53b69f4c26d0e381b007ff8` rejects empty intersections, checks joint compatibility and decides bounds/thresholds with exact rationals. Codex reverified72tests, the former failing witnesses and the legitimate positive control; the stored reference blob is unchanged. The one-line tolerance plan must not be applied separately.
 
-**Text before — literal complete affected block:**
-
-````python
-    if lo > hi + 1e-12:
-        return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
-````
-
-**Text after — complete proposed block:**
-
-````python
-    if lo > hi:
-        return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
-````
-
-**Verification:** old block matches exactly once in current main; candidate Python parses. Isolated in-memory checks reject both small/large contradictions and preserve the consistent positive/negative results. Require regression cases for the small contradiction, larger contradiction, consistent data and threshold boundaries, then compare existing frozen results without overwriting them. No source code or result is changed by publishing this pair.
+[Complete original card and old/proposed blocks](https://github.com/dakleyer/structural-awareness-contributions/blob/63bdc6831448c65c7f54a2a23e6d208209d7a094/research/ecosystem-awareness/baseline/01I_VNext.md#d26-c01--reject-an-empty-intersection-before-deciding). Its audit argument remains above. The later18-subcase companion is preserved as historical test design, not another runtime patch. This receipt closes the specific incorporated defect, not every empirical or model assumption.
 
 ### D26-F04 — Clarify cost ledgers before an economic comparison
 
@@ -351,3 +337,228 @@ Reuse the existing IP-31 identity from round 9, not a second alternative. Source
 All 36 round 9 before-units remain unique in their respective current sources; two are retained-reference cards, not changes. No proposed replacement is already present. Five source-file blobs have advanced (IP-27/29/30/31/32), while these old units still match. Read them in their updated A+Q and rounds 10/11 context before selection. The JSON registry's33 generic owner-route instructions and absence of per-card impact/risk/effort fields are preparation work still to complete; the guide's first-wave suggestion is useful but does not make all 31replacement candidates execution-ready. IP-30/32 agreement and round 11's related clarification are retained: select any further wording only where it still improves that specific reading, avoiding repeated caveats.
 
 The source-native studies, adverse conventional outcomes and positive conditional mathematics are preserved. G-01/F-01 still need a full-process acquisition/adaptation comparison for claims about that dimension. H-03's depth/access intervention, PR62's new positioning/constraint-relaxation/learning-loop hypotheses, M27's dynamic developments and incomplete historical-source adjudications remain actual research/review tasks, not tests already performed by this delta check. The current math-audit companion still defaults its result/cache into its audit folder; use explicit private output/cache paths during any rerun until that I/O proposal is separately prepared. No new experiment or campaign is launched here.
+
+
+<a id="round12-source-reception"></a>
+## Receipt of the concurrent round12 and current source units — 28 October 2026
+
+The shared PR58 advanced to `bda9ae29` while the prior entry was being published. Reuse that existing round12 and its M28/IP identities; no duplicate scientific round or new review file is needed. The owner-state reception requested by M28-06 is now implemented in this VNext and the existing DDS receiver. D26-C04–07 are already implemented in PR60's source branch, and the incomplete predicate-only C01 is superseded as an implementation plan by PR64. PR60 review/merge remains; the scoped numerical defect is now resolved in main as recorded below.
+
+**Current numeric source — verified incorporation:** PR64 was merged into main at `51fc686f45b6ef10c53b69f4c26d0e381b007ff8` during this re-audit. It now uses exact rational arithmetic on the supplied finite numbers and outward-rounded presentation bounds. Fresh baseline and assertion-only private candidate both pass **72/72 tests**; the stored reference blob is unchanged and synthetic_report equals it by value. The decimal-product witness D28-F01 is rejected, the sub-ULP threshold remains undetermined and the qualified positive control still passes with bounds [1.5,1.5]. I-01, M27-01/02 and M28-01 are resolved for these scoped software defects; empirical source validity, L and wider model claims retain their own status. Earlier 66/68 counts and counterexamples remain historical evidence, not active failures of this incorporated source. D28-F01 is the same M28-01 issue, not an extra defect. The D28-C01 assertion remains unapplied and still matches the current 72-test source edition.
+
+**Scope consistency:** D28-C02 and IP-31 above still match the live audit units at the round12 source cut. Their existing source IDs and complete before/after texts remain the one proposed action per unit. A later review agreement or a new explanatory panel is not evidence those exact units have been applied.
+
+### Exact M28 units received here from the common audit
+
+The [shared annex §10.7](https://github.com/dakleyer/structural-awareness-contributions/blob/bda9ae29baf46fa55d9bd8ac096d688c306d2605/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/ANNEX.md#107-unidades-exactas-antesdespués--incorporación-pendiente) remains the scientific proposal history. The following complete units are received in the existing 01I owner under **the same IDs** so that a selected source wave has an actionable receiver. Each old unit was checked literally, and each prospective substitution reverses exactly in the source's identified text; no source substitution was executed. Eight pending units are received below; the covered M28-01-REG pair stays only in the shared annex as historical proposal evidence. They are not eight independent findings.
+
+| Units | Expected impact / risk / effort | Selection and dependency |
+|---|---|---|
+| M28-01-REG | Resolved / not a pending wave | Covered by the merged source and its four new regressions. Do not add the old failing-test proposal as a second repair; retain its complete historical pair in the shared annex. |
+| M28-02-FIX | Medium / Low / Low | First small fixture repair; enforce the existing domain contract before skipping evaluation. Verify allowed-domain controls and rejected outside-domain input together. |
+| M28-03-IMPORT + M28-03-FIX | High / Low / Low | First small fixture repair, atomic pair; reject invalid/non-finite utility input while preserving valid candidate proposals and execution=NEVER. |
+| M28-04-TIME | High / Medium / Medium | **Not execution-ready.** Decide historical validity versus time-of-use first, define finite/typed decision time, and supply all caller old/new units plus expiry-boundary tests. |
+| M28-07 IMPORT/ARGS/OUTPUT/ENTRY | Medium / Low / Low | Next I/O-maintenance selection; all four together, temporary cache, stdout or exclusive explicit output. Verify one JSON payload and refusal to overwrite; preserve all 32 checks. |
+
+The M28-04 proposed function, considered on its own, admits `decision_time=float("nan")`: with capture 1, expiry 3 and an otherwise matching certificate, both comparisons with NaN are false and it returns ADMISSIBLE_FOR_NEW_REVIEW. This is a **review of the proposed unit**, not an allegation about deployed software or the current function (which has no decision_time argument). The necessary finite-time contract and synchronized caller pairs are not yet supplied. Do not create a second alternative plan or apply the signature alone.
+
+Iván's named-wave decision is required for implementation. The priorities above express expected scientific/documentary benefit and change risk; they do not establish deployed effectiveness or permission to actuate. Existing source data, historical findings and the earlier pairs remain intact.
+
+
+#### M28-02-FIX — source-owned receipt
+
+Source: [test_theme18_online_context.py](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+def guarded_verdict(x, *, guard_validated, proof_scope):
+    """Never skip substantive decision without matching qualified proof."""
+    if not guard_validated or proof_scope != DOMAIN:
+        return full_verdict(x), False
+    if guard(x):
+        return "REJECT", True
+    return full_verdict(x), False
+````
+
+**Texto después — propuesto**
+
+````python
+def guarded_verdict(x, *, guard_validated, proof_scope):
+    """Never skip substantive decision without matching qualified proof."""
+    if x not in DOMAIN:
+        raise ValueError("outside qualified domain")
+    if not guard_validated or proof_scope != DOMAIN:
+        return full_verdict(x), False
+    if guard(x):
+        return "REJECT", True
+    return full_verdict(x), False
+````
+
+#### M28-03-IMPORT — source-owned receipt
+
+Source: [test_theme18_candidate_admission.py](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+import itertools
+import unittest
+````
+
+**Texto después — propuesto**
+
+````python
+import itertools
+import math
+import unittest
+````
+
+#### M28-03-FIX — source-owned receipt
+
+Source: [test_theme18_candidate_admission.py](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+    elif not source_to_value_link_qualified or source_value_lower_bound is None:
+        result["candidate_status"] = "UTILITY_NOT_ESTABLISHED"
+    elif source_value_lower_bound <= CURRENT_GEOMETRY_VALUE:
+````
+
+**Texto después — propuesto**
+
+````python
+    elif (not source_to_value_link_qualified
+          or isinstance(source_value_lower_bound, bool)
+          or not isinstance(source_value_lower_bound, (int, float))
+          or not math.isfinite(source_value_lower_bound)):
+        result["candidate_status"] = "UTILITY_NOT_ESTABLISHED"
+    elif source_value_lower_bound <= CURRENT_GEOMETRY_VALUE:
+````
+
+#### M28-04-TIME — source-owned receipt
+
+Source: [test_theme18_online_context.py](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+def requalify(retained, certificate):
+    """Only a qualified scope-compatible *rule* may reinterpret a retained event."""
+    if retained is None:
+        return "NO_REPLAY_SOURCE"
+    if certificate is None:
+        return "UNRESOLVED"
+    if (not certificate.get("verified", False)
+        or certificate.get("source_scope") != retained["scope"]
+        or certificate.get("expires_before") < retained["time"]):
+        return "CERTIFICATE_UNSUPPORTED"
+    if certificate.get("target_event") != retained["event"]:
+        return "NOT_APPLICABLE_TO_EVENT"
+    return "ADMISSIBLE_FOR_NEW_REVIEW"
+````
+
+**Texto después — propuesto**
+
+````python
+def requalify(retained, certificate, *, decision_time):
+    """Only a qualified scope-compatible *rule* may reinterpret a retained event."""
+    if retained is None:
+        return "NO_REPLAY_SOURCE"
+    if decision_time < retained["time"]:
+        return "CERTIFICATE_UNSUPPORTED"
+    if certificate is None:
+        return "UNRESOLVED"
+    if (not certificate.get("verified", False)
+        or certificate.get("source_scope") != retained["scope"]
+        or certificate.get("expires_before") < decision_time):
+        return "CERTIFICATE_UNSUPPORTED"
+    if certificate.get("target_event") != retained["event"]:
+        return "NOT_APPLICABLE_TO_EVENT"
+    return "ADMISSIBLE_FOR_NEW_REVIEW"
+````
+
+#### M28-07-IMPORT — source-owned receipt
+
+Source: [math_audit_companion_2026-10-27.py](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+import argparse, hashlib, importlib.util, itertools, json, math, sys, urllib.request
+````
+
+**Texto después — propuesto**
+
+````python
+import argparse, hashlib, importlib.util, itertools, json, math, sys, urllib.request
+import tempfile
+````
+
+#### M28-07-ARGS — source-owned receipt
+
+Source: [math_audit_companion_2026-10-27.py](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--source-archive",type=Path)
+    parser.add_argument("--output",type=Path,default=HERE/"MATH_AUDIT_RESULTS_2026-10-27.json")
+    args=parser.parse_args()
+    root=args.source_archive or HERE/".pinned-math-audit-sources"
+````
+
+**Texto después — propuesto**
+
+````python
+def main(cache_root):
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--source-archive",type=Path)
+    parser.add_argument("--output",type=Path)
+    args=parser.parse_args()
+    root=args.source_archive or cache_root
+````
+
+#### M28-07-OUTPUT — source-owned receipt
+
+Source: [math_audit_companion_2026-10-27.py](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+    args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print(json.dumps({"passed":result["passed"],"total":result["total"],"verified_source_blobs":len(verified)},ensure_ascii=False))
+````
+
+**Texto después — propuesto**
+
+````python
+    payload=json.dumps(result,ensure_ascii=False,indent=2)+"\n"
+    if args.output:
+        with args.output.open("x",encoding="utf-8",newline="\n") as stream:
+            stream.write(payload)
+        print(json.dumps({"passed":result["passed"],"total":result["total"],"verified_source_blobs":len(verified)},ensure_ascii=False))
+    else:
+        print(payload,end="")
+````
+
+#### M28-07-ENTRY — source-owned receipt
+
+Source: [math_audit_companion_2026-10-27.py](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py). Same identity and dependencies as the table above.
+
+**Texto antes — viejo**
+
+````python
+if __name__=="__main__":main()
+````
+
+**Texto después — propuesto**
+
+````python
+if __name__=="__main__":
+    with tempfile.TemporaryDirectory(prefix="imsv-math-audit28-") as audit_tmp:
+        main(Path(audit_tmp))
+````
