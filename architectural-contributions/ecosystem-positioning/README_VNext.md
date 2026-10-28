@@ -3213,3 +3213,113 @@ The current main cut and the nine TAX26 units remain as in the preceding entry. 
 ## Current shared-review receipt — 28 October 2026
 
 PR58 rounds 14/15 and their reader guide/status ledger are received. PR60 `cb72bb65` now implements M28-02; Codex reverified 15/15 file tests. The source-owned 01I VNext retires that superseded pair from implementation and keeps its exact historical card linked. PR60 incorporation remains pending. Seven other round 12 technical units remain unimplemented, with the time-contract unit held for its NaN/caller issues. A one-paragraph guide clarification (D28-C03) separates aliases from related findings without deleting records or changing their states. The main numeric repair remains verified 72/72. No canonical source or code is changed by these receipts.
+
+## Development opportunities: integrating the mechanisms and explaining their value — 28 October 2026
+
+**Purpose:** develop the positive research programme requested by Iván: combine existing elements, explain what they enable, use external results constructively and replace repeated defensive prose with precise affirmative statements. This is an extension of the existing review and strategy, with source changes proposed below.
+
+### What the other reviews already contribute
+
+[PR58 round 19](https://github.com/dakleyer/structural-awareness-contributions/blob/461f8f8dba0389a3e9615de101457b7b823e82bf/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-19) supplies OP-01–13: a better reviewer entry, a coordination game from existing pieces, exact certificate checks, shared-capacity certificates, parameter regions and actual observation-based comparators. Claude's [rounds 20/21 reader kit](https://github.com/dakleyer/structural-awareness-contributions/blob/1e36ed0645e1ee6511da171911968d9e90911532/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/premium/INDEX.md) provides the front page, reading spine, symbol/notation map, study catalogue and visual routes. Reuse these proposals and their identities rather than create another parallel editorial kit.
+
+The [PR62 architecture-search annex, sections 14/15](https://github.com/dakleyer/structural-awareness-contributions/blob/4caf7d69144cbd4983e840705cc60745e27233a1/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#15-five-independent-mechanisms-for-ecosystem-architecture-opportunity-search--public-research-interface-and-comparison-map-28-october-2026) already articulates five swappable functions and a learning loop. Its neighbours table already covers sensor fusion, partial-information decomposition, constraint acquisition, SafeOpt, diagnosis, Rainbow and change detection. The opportunity is to turn that foundation into a clear central explanation, reusable algorithms and a programme of cumulative evidence.
+
+### 1. One explanatory spine, demonstrated by one complete case
+
+Lead with the work the system performs:
+
+> Select a consequential architectural boundary; combine the participants' complementary observations; check a small set of accessible options; establish a feasible, authorized change; observe its effects and update the next decision.
+
+Explain the five functions through this cycle while keeping EP's eight owned modules and the independent DDS stages in their existing places. Use the existing telework example across the whole route: 120 staff, 100 seats, and a proposed arrangement that must guarantee at least 20 staff off-site on every relevant day. Show the observation that changes the decision, the joined constraints and the result to check. Then link the same case to its Challenge, Stage A specification, Stage B candidate and later campaign evidence. One illustration and its source table can do more explanatory work than repeated alphabetic labels.
+
+Extend OP-01/05/13 and the current premium proposals with this common case. [CheckList, Ribeiro et al., ACL 2020](https://aclanthology.org/2020.acl-main.442/) supplies a published method for organizing capabilities and minimum-functionality, invariance and directional tests; its user study found actionable failures in an extensively tested commercial sentiment model. Reuse its testing grammar to organize explanatory case variations. The corpus-specific case remains ours to specify.
+
+**First deliverable:** one compact reading spine and a source-linked walkthrough, followed by the full proof/evidence route. Put status and applicability in one short evidence table; state the mechanism affirmatively in the narrative.
+
+### 2. A context that learns without losing its evidence
+
+Connect F9 effect learning, the Semantic Window, retained pre-admission traces and the versioned context loop. Maintain an immutable source record and a current working view that can incorporate local, attributable lessons from successful and failed selections.
+
+**External support:** [Agentic Context Engineering, Zhang et al., ICLR 2026, arXiv v3 of 29 March 2026](https://arxiv.org/abs/2510.04618v3), reports context-adaptation improvements on agent and finance benchmarks. Its reusable design is generation, reflection and curation through localized updates; the paper directly studies context collapse caused by repeated rewriting. This supplies an implementable neighbour for the F9/context-engineering interface. The project repository reports Apache-2.0 licensing; the article is CC BY 4.0.
+
+For the computational side, [DBSP, Budiu, Chajed, McSherry, Ryzhyk and Tannen, PVLDB 2023](https://www.vldb.org/pvldb/vol16/p1601-budiu.pdf), gives a compositional incremental-query construction with Lean-checked results. Use that model for changed evidence feeding changed derived views, so an update need not trigger a fresh computation of every derived result. Query or contract changes require their own dependency/revalidation path.
+
+**First deliverable:** a public functional contract for a local context update: source event, previous interpretation, proposed lesson, changed working view and a held-out decision on which it is useful. Preserve originals and distinguish the current view from its history.
+
+### 3. Turn contextual sufficiency into a temporal quality guarantee
+
+Combine PR60's exact interface/transition adequacy with M27-O1/O2/O5 and M28-O2. Specify the information retained for a decision, the transitions it must support, its error budget and when a changed context calls for a successor.
+
+**External support:** [Subramanian, Sinha, Seraj and Mahajan, JMLR 2022](https://jmlr.org/papers/v23/20-1165.html), defines approximate information states and derives value and policy-loss bounds from reward and transition approximation errors (Theorem 9). This is a strong mathematical bridge between a compact context and decisions of controlled quality. It gives the research a constructive way to explain why an adequate context can be smaller than the full history.
+
+**First deliverable:** one bounded temporal model that translates its state representation to the current owner-defined interfaces, proves a decision-relevant error bound between context changes and demonstrates when refinement recovers the required quality. Keep the article's conditions distinct from EA's P1–P6 naming.
+
+### 4. A selector that learns which work is worth doing
+
+Join the architectural preselection and residual selection with actual F9 feedback. The key output is a useful selection policy, trained or specified from available features and tested against later cases, rather than an assumed good ordering.
+
+**External support:** [SATzilla2009, Xu, Hutter, Hoos and Leyton-Brown](https://www.cs.ubc.ca/~kevinlb/papers/2009-satzilla09.pdf), describes learned per-instance performance prediction, feature-cost prediction, presolvers and backup solvers. [Hay, Russell, Tolpin and Shimony, UAI 2012](https://proceedings.mlr.press/r10/hay12a.html), develops the value-of-computation basis for selecting further work. Their reusable pieces are the performance/cost model and the decision to compute, ask, inspect or stop.
+
+**First deliverable:** a public selector interface over available architectural/gate features, with a fixed fallback and a ledger of all attempts, acquisition, preparation and maintenance. Produce regions where selection helps and where the fallback is preferable. Reuse M28-O1 and OP-05/08; count costs over all paired tasks, including failures. Keep the proprietary MSCA implementation separate from the public functional comparison.
+
+### 5. Joint certificates and coordinated action across shared resources
+
+Develop OP-02/04 together. The current K-02 evidence makes the construction target clear: individually sound certificates can refer to the same remaining capacity. A bundle certificate must evaluate the joint allocation and its interactions.
+
+**External support:** [Phan et al., Component-Based Simplex Architecture, ACSD 2017](https://www3.cs.stonybrook.edu/~stoller/papers/acsd2017.pdf), derives component and system guarantees through assume-guarantee contracts and coordinated switching. Its rover example proves model-specific energy/collision properties. [Modi, Shen, Tambe and Yokoo, ADOPT, Artificial Intelligence 2005](https://robots.isi.edu/prl/b2hd-modi2005adopt-asynchronous-distributed-constraint.html), supplies distributed optimization with quality guarantees. These provide constructive tools for composing assumptions and finding joint feasible choices.
+
+**First deliverable:** a proposed bundle-certification interface using the existing shared-bottleneck model and joint delivered-value calculation. Return the shared-resource reservation, joint gain bound and certificate dependencies. Then connect the existing risk-aware choice function and two-actor feasibility constraint to a coordination game. Preserve individual certificates; test the composed result against the exact joint computation. This gives EA/EHD, cartography, ACC and the gradient a concrete integration task.
+
+### 6. Regime feedback that identifies what needs revisiting
+
+Link independent RA monitoring to the context update and selection loop: monitored evidence identifies an affected assumption; that assumption identifies the contracts or derived views to revisit; a checked successor supports continuation.
+
+**External support:** [Ramdas, Grünwald, Vovk and Shafer, Statistical Science 2023](https://doi.org/10.1214/23-STS894), develops anytime-valid evidence and confidence sequences for continuous monitoring. This supports a statistical warning channel with a specified false-alarm contract. [Clarke, Grumberg, Jha, Lu and Veith, CAV 2000](https://web.stanford.edu/class/cs357/cegar.pdf), provides counterexample-guided abstraction refinement, including an implemented hardware-verification study. It supplies a constructive repair pattern once a representation is shown insufficient.
+
+**First deliverable:** an adapter linking one monitored statistical hypothesis to an owner-defined RA signal and one affected context component. Distinguish a genuine system violation from a spurious abstraction counterexample before choosing repair. Evaluate alert delay, unnecessary review and the quality recovered by the successor. Statistical evidence, architectural validity and authorized action retain their separate contracts.
+
+### Priority and the role of external evidence
+
+| Work | Expected impact | Integration risk | Effort | Order and acceptance product |
+| --- | --- | --- | --- | --- |
+| Explanatory spine and concentrated status/conditions | High | Low | Low | First: exact source paragraphs below, reuse the premium figures/catalogue and one existing case |
+| Evolving context and evidence-preserving updates | High | Medium | Medium | Next: update contract plus held-out reuse design |
+| Joint certificate and coordinated choice | High | Medium | Medium | Next: one shared-resource interface and exact joint oracle |
+| Learned cost-aware selector | High | Medium | Medium–High | Next: observe/choose/fallback contract and full-cost comparison |
+| Temporal sufficiency guarantee | High | Medium | High | Development: mapped assumptions and a bounded quality theorem |
+| RA feedback and representation repair | High | Medium | High | Development: typed monitor-to-contract adapter and successor evidence |
+
+These are expected benefits and preparation priorities. Published external theorems, algorithm implementations and benchmark results provide **positive support for identifiable mechanisms**; the proposed integration connects them to this corpus. The core research task is to show what that connection enables.
+
+External reading cut: 28 October 2026. ACE v3 and its methods/benchmark sections, AIS definitions and Theorem 9, CBSA composition/coordinated switching, SATzilla2009's cost/fallback procedure, Hay's stated results, DBSP's incremental construction/formalization, SAVI's monitoring framework, CEGAR's abstraction/refinement mechanism and CheckList's method were consulted. Bibliography metadata is retained at each primary link. ACE's code license was checked through native repository metadata; no external code or datasets were imported or executed. Other references here are methodological reuse by citation, not a redistribution of their code, figures or datasets.
+
+### Two exact opening-text candidates
+
+Target: [PR62 positioned-residual annex](https://github.com/dakleyer/structural-awareness-contributions/blob/4caf7d69144cbd4983e840705cc60745e27233a1/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md), pinned source blob `cebf1f8c437c9580a40df52b086a5f12d2de725d`. Existing status, public/private implementation boundary, formal premises, tests and source ownership remain in their detailed sections. These are pending editorial candidates; no source text is changed by this entry. Expected impact High, risk Low, effort Low; select the two together after checking the latest source.
+
+**Opening status — text before, literal complete paragraph:**
+
+````text
+**Status:** Structural Awareness working mathematical research, Stage A; proposed annex to PR #62, owner review pending. **Not** an adopted axiom, new oracle, closed-world census, claim of universal speedup, empirical demonstration, DDS Stage C result, or replacement of the canonical A/B/C/D definitions.
+````
+
+**Opening status — text after, complete proposed paragraph:**
+
+````text
+**Status:** Working Structural Awareness research for DDS Stage A, proposed as an annex to PR #62 and awaiting owner review. This is a computable architecture-search proposal, with mathematical results, constructed examples and experimental hypotheses identified in their own sections. Canonical A/B/C/D definitions remain in their source documents.
+````
+
+**Research question — text before, literal complete paragraph:**
+
+````text
+**Research question.** Can an agentic or other operating process reuse a *small, deliberately selected* portion of the unresolved evidence encountered by its current exploitation procedures, because metastructural positioning identifies which process boundary is worth examining, **without** first enumerating the exterior, constructing a global exploration generator, or knowing which epistemic regime describes the wider world?
+````
+
+**Research question — text after, complete proposed paragraph:**
+
+````text
+**Research question.** How can an operating process discover and verify useful architectural changes by selecting where to look, combining complementary observations and requalifying a small set of accessible cases? The proposed cycle uses bounded architectural maps and existing evaluators, with Regime Awareness tracking the assumptions of use and effect feedback improving later selection. Its target is greater verified improvement for the full effort spent on discovery, validation and transition.
+````
+
+**Reason and compatibility:** the opening states the proposal and its research target first. Model premises and evidence status stay with the results they qualify, including the original tests and comparison contracts. The two replacements neither change an equation nor declare a demonstrated integration benefit. They preserve Stage A, owner review, ordinary computability and canonical taxonomy; no external algorithm is adopted. Apply only after Iván selects this source edit, with literal revalidation and inverse verification. EP README and DEVELOPMENT_STRATEGY stay read-only in this review.
+

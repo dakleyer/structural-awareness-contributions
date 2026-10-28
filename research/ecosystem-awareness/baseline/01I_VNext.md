@@ -548,18 +548,12 @@ M28-04 remains held: the proposed decision_time parameter admits NaN, and the co
 
 ### D28-C03 — Distinguish aliases from related scientific findings
 
-**State:** proposed review clarification, not applied. **Priority:** First small documentation wave. **Expected impact:** Medium. **Risk:** Low. **Effort:** Low. Benefit: the reader can track each scientific objection and its closure criterion. Preserve all table identities and individual statuses; the proposal changes one paragraph. F-01's shared procedure and F-03's grid proportions are related, but resolving one does not establish the other's scope. Likewise reused cells, an assumed gap equation and presentation of a case family have different evidential consequences.
+**Covered by Claude's round 18 through an additive integration; removed from the pending replacement queue.** PR58 preserves the original guide sentence/table and appends the proposed clarification, group-versus-record state explanation and a per-record relation table. The source at `1e36ed06` contains the complete proposed clarification once. Do not apply the old replacement as well.
 
-**Location/source:** [current reader guide, section 7](https://github.com/dakleyer/structural-awareness-contributions/blob/a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/GUIA_DE_LECTURA.md#7-un-mismo-problema-varios-nombres), PR58 `a02f2d31`. The old paragraph is unique. No heading, anchor, data record, finding or link is removed. Decision: select the paragraph after review; no source-code patch is implied.
+[Complete original old/proposed card](https://github.com/dakleyer/structural-awareness-contributions/blob/a3326843aa9822b1d7a4c774531fc51818300125/research/ecosystem-awareness/baseline/01I_VNext.md#d28-c03--distinguish-aliases-from-related-scientific-findings). [Receiving audit round 18](https://github.com/dakleyer/structural-awareness-contributions/blob/1e36ed0645e1ee6511da171911968d9e90911532/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-18).
 
-**Texto antes — viejo literal completo:**
+## Development opportunities received — 28 October 2026
 
-````text
-Distintas revisiones han dado nombres diferentes al mismo problema. Esta tabla evita contarlos dos veces.
-````
+The existing [EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#development-opportunities-integrating-the-mechanisms-and-explaining-their-value--28-october-2026) now connects the round 19 OP opportunities, Claude's reader-kit deliveries in rounds 20/21, the five-function PR62 interface and primary external work. The six development directions are one common explanation; evidence-preserving context learning; temporal sufficiency; a learned cost-aware selector; joint certificates and coordination; and RA-driven context review. Reuse OP-01/02/04/05/08/13 and M27-O1/O2/O5/M28-O1/O2 rather than create competing queues.
 
-**Texto después — propuesto completo:**
-
-````text
-Esta tabla relaciona alias de un mismo defecto y también hallazgos distintos de una misma familia. F-01 trata de la rama de código compartida; F-03, de los recuentos y límites de la rejilla. G-05 trata de celdas reutilizadas, H-02 de una ecuación supuesta y F-06 de cómo se presenta el conjunto de casos. Conservar el alcance y el estado individual de cada registro: resolver uno no cierra automáticamente los relacionados. El mapa ayuda a navegar; no convierte todas las filas en equivalencias estrictas.
-````
+The constructive external neighbours include ACE (ICLR 2026), approximate information states (JMLR 2022), SATzilla/metareasoning, component-based Simplex/ADOPT, DBSP and anytime-valid inference/CEGAR. Each is tied to a concrete reusable mechanism and a first deliverable. Two complete old/new opening-paragraph candidates for the existing PR62 annex are proposed there. This publishes research opportunities and editorial candidates; no source implementation or experiment is executed.
