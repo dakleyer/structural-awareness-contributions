@@ -120,3 +120,12 @@ La [revisión de antecedentes y de casos adversos](EXTERNAL_RESEARCH_NOVELTY_REV
 ## 12. Síntesis interdisciplinar de los cuatro PR y programa de validación
 
 La [síntesis transversal de investigación y novedad](CROSS_PR_RESEARCH_NOVELTY_SYNTHESIS_2026-10-26.md) vincula los antecedentes de economía, teoría de juegos, unawareness, capacidades humanas, psicología y medición de bienestar con un programa de pruebas preregistrables de los PR #42–#45. Destaca la precaución sobre valor social de información pública (Morris–Shin), separa brecha de capacidad de dolor informado (OCDE 2025/SDT), exige comparación con soluciones convencionales y conserva todos los ejemplos originales como casos hipotéticos identificados. **No asigna originalidad científica a resultados matemáticos conocidos ni convierte literatura externa en evaluación empírica propia.**
+
+
+## Revisión adicional de la reparación I-01/M27 — 28 octubre 2026
+
+La inconsistencia local se rechaza con `lo > hi` **sin tolerancia que convierta una intersección vacía en certificado TRUE o FALSE**. Además, la intersección local no es suficiente si los testimonios no admiten una misma función Lipschitz con la regularidad declarada: los pares exactos incompatibles se rechazan y los intervalos de coordenadas cuyo acoplamiento no está acreditado permanecen `JOINT_CONSISTENCY_NOT_ESTABLISHED`.
+
+**Control positivo conservado:** con testimonios calificados `f(0)=1`, `f(1)=2`, `L=1` y pregunta `f(0.5) >= 1.25`, la envolvente conjunta es `[1.5,1.5]`, por lo que procede `LOCALLY_SUPPORTED_TRUE` *bajo esas premisas*. Esto demuestra que la reparación evita el falso cierre sin impedir detectar una oportunidad local real cuando la evidencia es consistente. La respuesta sigue siendo asesoría: no inventa autorización, no clausura B/C/D y no acredita el origen ni el efecto en un sistema desplegado.
+
+**Controles de regresión añadidos:** falso `FALSE` por intervalo diminuto vacío y positivo consistente gobernado; se preservan los casos adversos previos, el código reparado y los resultados sintéticos históricos. La revisión del propietario y la auditoría científica siguen siendo necesarias antes de incorporar el PR.
