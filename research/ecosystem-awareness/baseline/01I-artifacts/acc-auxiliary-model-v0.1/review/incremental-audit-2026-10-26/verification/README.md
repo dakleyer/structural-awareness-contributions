@@ -17,6 +17,8 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`m28_03_bound_sweep.py`](m28_03_bound_sweep.py) | [M28-03](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-03), [L-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-01) | [23](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-23) | `studies/mathematical-lineage-social-agentic-v0.1` de la rama de PR #60 | 32 valores; ningún valor no finito o no numérico da el estado positivo; las cotas mayores que 1 sí lo dan (L-01). Termina con 1 si algún valor inválido da el estado positivo |
 | [`m28_04_requalify_probe.py`](m28_04_requalify_probe.py) | [M28-04](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-04), [L-02](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-02) | [23](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-23) | Ídem | Sin parámetro de tiempo de decisión; `expires_before = 1` admitido en t = 1; NaN admitido; ausente, `None` o texto → `TypeError` |
 | [`f1_d1_witness_recompute.py`](f1_d1_witness_recompute.py) | [L-03](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-03) | [23](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-23) | Raíces de PR #60 y de PR57 en `a9894049` | Mismo A (8, 8) con capacidad conjunta 10 frente a 8; mismo A declarado en AG01/AG02 con 11,5 frente a 8,875. Termina con 1 si algo no coincide |
+| [`m28_04_dual_time_probe.py`](m28_04_dual_time_probe.py) | [M28-04](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-04), [L-02](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-02) | [24](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-24) | `studies/mathematical-lineage-social-agentic-v0.1` de PR #60 en `7fc88e2e` o posterior | Testigo t₁/t₂/t₃/t₁₀ correcto; ventana [2, 6) válida solo en 2–5; ticks no enteros rechazados; ninguna reutilización entre casos. Termina con 1 si algo falla |
+| [`k01_envelope_recount.py`](k01_envelope_recount.py) | [K-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-01), [L-04](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-04), [L-05](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-05) | [24](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-24) | Raíz de PR #66 | 286 casos; cruce en L = 9; B gana 0 veces con el brazo del receptor y 10 sin él; la inspección dirigida lidera sola 14 de los 30 casos agénticos y el metaprotocolo ninguno |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -36,6 +38,8 @@ python3 -B $V/check_model_md_round21.py       $MAIN
 python3 -B $V/m28_03_bound_sweep.py           $PR60/$S/mathematical-lineage-social-agentic-v0.1
 python3 -B $V/m28_04_requalify_probe.py       $PR60/$S/mathematical-lineage-social-agentic-v0.1
 python3 -B $V/f1_d1_witness_recompute.py      $PR60 $PR57
+python3 -B $V/m28_04_dual_time_probe.py       $PR60/$S/mathematical-lineage-social-agentic-v0.1
+python3 -B $V/k01_envelope_recount.py         $PR66
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -57,9 +61,14 @@ m28_03_bound_sweep.py           cases: 32 | invalid values reaching the positive
 m28_04_requalify_probe.py       parámetros (retained, certificate); expires_before=1 -> ADMISSIBLE; NaN -> ADMISSIBLE;
                                 ausente / None / '3' -> RAISES TypeError (L-02)
 f1_d1_witness_recompute.py      social ((8, 8), 10) vs ((8, 8), 8); AG01/AG02 mismo A, 11.5 vs 8.875; RESULT: PASS
+m28_04_dual_time_probe.py       RESULT: PASS (PR #60, 7fc88e2e; ronda 24)
+k01_envelope_recount.py         cases: 286 | crossing path nodes: 9 | social original, sin receptor: B 10, dirigida 2, A 7, empates 23
+                                agentic source-original: CONVENTIONAL_DIRECTED 14, FULL_A 1, empates 15
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
 
 M28-02 se verificó en la ronda 15 sobre `cb72bb65`. La rama de PR #60 avanzó después hasta `8cd78d58`, y el barrido sigue dando 0 violaciones.
 
 Son comprobaciones sintéticas y finitas del código: no aportan evidencia empírica ni sustituyen la revisión humana.
+
+**Nota sobre `m28_04_requalify_probe.py`:** describe la función antigua de la ronda 23 (`8cd78d58`). Desde `7fc88e2e`, `requalify` es un alias del nuevo `evaluate_certificate`, que tiene otra firma, y el script ya no aplica; se conserva como registro de lo comprobado. Para la cabeza actual se usa `m28_04_dual_time_probe.py`.

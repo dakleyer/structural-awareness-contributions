@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-23",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-24",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -12,11 +12,11 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 41,
-    "RESPONDIDO": 15,
+    "ABIERTO": 39,
+    "RESPONDIDO": 19,
     "CERRADO": 4,
-    "VERIFICADO": 6,
-    "PROPUESTA": 11,
+    "VERIFICADO": 8,
+    "PROPUESTA": 10,
     "RETIRADO": 2,
     "INFORMATIVO": 3
   },
@@ -73,9 +73,9 @@
       ],
       "M28": [
         1,
-        2,
+        3,
         1,
-        2,
+        1,
         1
       ],
       "M27-O": [
@@ -100,16 +100,16 @@
         0
       ],
       "K": [
-        4,
-        0,
+        2,
+        2,
         3,
         1,
         0
       ],
       "L": [
         2,
-        0,
         1,
+        3,
         0,
         0
       ]
@@ -576,9 +576,9 @@
       "id": "M28-04",
       "family": "M28",
       "severity": "Media",
-      "state": "PROPUESTA",
-      "set_in_round": 12,
-      "summary": "#60: decidir si la caducidad se mide en la fecha del evento o en la de uso."
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
+      "summary": "#60: la caducidad se medía en la fecha del evento. Sustituida por un contrato con dos tiempos y ventana [inicio, fin), reconfirmado; falta incorporarlo a main."
     },
     {
       "id": "M28-05",
@@ -688,16 +688,16 @@
       "id": "K-01",
       "family": "K",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 17,
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
       "summary": "#44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas."
     },
     {
       "id": "K-02",
       "family": "K",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 17,
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
       "summary": "#44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido."
     },
     {
@@ -760,9 +760,33 @@
       "id": "L-02",
       "family": "L",
       "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
+      "summary": "#60: la caducidad de requalify admitía NaN y fallaba si faltaba el campo. El nuevo contrato rechaza esos valores; falta incorporarlo a main."
+    },
+    {
+      "id": "L-04",
+      "family": "L",
+      "severity": "Baja",
       "state": "ABIERTO",
-      "set_in_round": 23,
-      "summary": "#60: la caducidad de requalify admite NaN y falla con TypeError si falta el campo."
+      "set_in_round": 24,
+      "summary": "#66: el resumen cuenta 0 victorias de B porque el brazo del receptor copia la opción elegida; sin ese brazo, B gana 10 de 42."
+    },
+    {
+      "id": "L-05",
+      "family": "L",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 24,
+      "summary": "#66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno."
+    },
+    {
+      "id": "L-06",
+      "family": "L",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 24,
+      "summary": "El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48."
     },
     {
       "id": "L-03",
@@ -823,27 +847,27 @@
     }
   ],
   "checks": {
-    "ledger_ids": 82,
+    "ledger_ids": 85,
     "duplicate_ids": 0,
     "ledger_ids_absent_from_audit": [],
     "audit_ids_absent_from_ledger": [],
     "ledger_ids_without_stable_anchor": [],
     "guide_totals_row": {
       "guide": [
-        41,
-        15,
+        39,
+        19,
+        12,
         10,
-        11,
         5,
-        82
+        85
       ],
       "ledger": [
-        41,
-        15,
+        39,
+        19,
+        12,
         10,
-        11,
         5,
-        82
+        85
       ],
       "ok": true
     },

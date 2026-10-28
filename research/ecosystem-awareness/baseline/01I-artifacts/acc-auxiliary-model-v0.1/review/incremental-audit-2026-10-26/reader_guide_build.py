@@ -98,7 +98,7 @@ LEDGER = [
     ("M28-01", "M28", "Alta", "CERRADO", 13, "El redondeo de coma flotante podía certificar «verdadero»; corregido y reconfirmado."),
     ("M28-02", "M28", "Media", "RESPONDIDO", 15, "#60: la guarda no comprobaba que el punto pertenezca al dominio. Corregido en la rama de #60 y reconfirmado; falta incorporarlo a main."),
     ("M28-03", "M28", "Media", "RESPONDIDO", 23, "#60: se aceptaban NaN o infinito como cota de utilidad. Corregido en la rama de #60 y reconfirmado con 32 valores; falta incorporarlo a main."),
-    ("M28-04", "M28", "Media", "PROPUESTA", 12, "#60: decidir si la caducidad se mide en la fecha del evento o en la de uso."),
+    ("M28-04", "M28", "Media", "RESPONDIDO", 24, "#60: la caducidad se medía en la fecha del evento. Sustituida por un contrato con dos tiempos y ventana [inicio, fin), reconfirmado; falta incorporarlo a main."),
     ("M28-05", "M28", "—", "ABIERTO", 12, "Nombres de pruebas que sugieren una comparación que no existe."),
     ("M28-06", "M28", "—", "INFORMATIVO", 12, "Panel y navegación de la auditoría actualizados."),
     ("M28-07", "M28", "Baja", "PROPUESTA", 12, "Un script de la ronda 8 sobrescribe su JSON si se ejecuta sin --output."),
@@ -112,8 +112,8 @@ LEDGER = [
     ("J-06", "J", "Baja", "RESPONDIDO", 14, "Se usaban más estados de los que la cabecera declaraba."),
     ("J-07", "J", "Baja", "ABIERTO", 14, "El expediente mezcla español e inglés; falta decidir un idioma."),
     ("J-08", "J", "Informativo", "VERIFICADO", 14, "Enlaces internos y versiones fijadas: ninguno roto."),
-    ("K-01", "K", "Media", "ABIERTO", 17, "#44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas."),
-    ("K-02", "K", "Media", "ABIERTO", 17, "#44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido."),
+    ("K-01", "K", "Media", "RESPONDIDO", 24, "#44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas."),
+    ("K-02", "K", "Media", "RESPONDIDO", 24, "#44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido."),
     ("K-03", "K", "Baja", "ABIERTO", 17, "#44: el informe escribe a mano dos ganancias (2 y 0); son correctas, pero no se calculan."),
     ("K-04", "K", "Informativo", "VERIFICADO", 17, "#44: el mismo A con respuestas futuras distintas, el certificado por trayecto y las cotas de bits son correctos."),
     ("K-05", "K", "Informativo", "VERIFICADO", 17, "#45: el orden derechos > autorización > consentimiento > evidencia es correcto y nunca actúa solo."),
@@ -121,7 +121,10 @@ LEDGER = [
     ("K-07", "K", "Media", "ABIERTO", 17, "#46: compara una media de lotería (14) con un bienestar neto estipulado (17) sin escala común declarada."),
     ("K-08", "K", "—", "PROPUESTA", 17, "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."),
     ("L-01", "L", "Baja", "ABIERTO", 23, "#60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]."),
-    ("L-02", "L", "Media", "ABIERTO", 23, "#60: la caducidad de requalify admite NaN y falla con TypeError si falta el campo."),
+    ("L-02", "L", "Media", "RESPONDIDO", 24, "#60: la caducidad de requalify admitía NaN y fallaba si faltaba el campo. El nuevo contrato rechaza esos valores; falta incorporarlo a main."),
+    ("L-04", "L", "Baja", "ABIERTO", 24, "#66: el resumen cuenta 0 victorias de B porque el brazo del receptor copia la opción elegida; sin ese brazo, B gana 10 de 42."),
+    ("L-05", "L", "Informativo", "VERIFICADO", 24, "#66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno."),
+    ("L-06", "L", "Informativo", "VERIFICADO", 24, "El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48."),
     ("L-03", "L", "Informativo", "VERIFICADO", 23, "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."),
 ]
 
@@ -137,7 +140,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
-    ("L", "PR #60, recepción (ronda 23)"),
+    ("L", "Recepciones (rondas 23–24)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -272,7 +275,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"),
 ]
 
 

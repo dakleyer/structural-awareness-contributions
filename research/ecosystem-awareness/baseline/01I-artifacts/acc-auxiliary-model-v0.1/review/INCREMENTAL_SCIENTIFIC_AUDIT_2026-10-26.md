@@ -53,6 +53,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 21 | 2026-10-28 | [Kit de edición premium: 02 `MODEL.md`](#ronda-21) | 12 propuestas; cifra de pruebas del toy desfasada en `MODEL.md` |
 | 22 | 2026-10-28 | [Scripts de verificación al expediente](#ronda-22) | Sin hallazgos nuevos; 7 scripts reproducibles y cifras reconfirmadas |
 | 23 | 2026-10-28 | [Recepción de la nota de Codex sobre PR #60: M28-03, M28-04 y F1/D1](#ronda-23) | M28-03 reparado en la rama; L-01 y L-02 nuevos; testigos F1/D1 verificados (L-03) |
+| 24 | 2026-10-28 | [Recepción de M28-04 (#60), K-02 (#65), K-01 (#66), DG1–DG4 y oportunidades de EP](#ronda-24) | M28-04, L-02, K-01 y K-02 respondidos; L-04 nuevo; L-05 y L-06 verificados |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1033,3 +1034,47 @@ Cada desarrollo incluye ecuaciones, argumento de conservación, ejemplo calculad
 El adaptador utiliza realmente los módulos44/46 de main51fc686. Comprueba240 árboles y904 conjuntos factibles con ganancia conjunta exacta frente a deliver, además de480 validaciones de alcance y48 equivalentes ciertos. Quince pruebas ejercitan los nuevos mecanismos, incluidas729 dinámicas finitas y la reserva simultánea. Los resultados completos y las fuentes primarias consultadas están en el paquete.
 
 Las cuatro unidades de integración son añadidos exactos, con receptor y preimagen fijada, en el anexo siguiente y el JSON de propuestas. Los acompañantes se pueden ejecutar ahora; la selección editorial conecta estos contenidos con sus propietarios existentes. No se abre otra VNext ni se modifica el cuerpo científico anterior. El valor de esta entrega es la nueva operación y su explicación, no un cambio de etiquetas en los hallazgos.
+
+
+<a id="ronda-24"></a>
+
+## Ronda 24 — recepción de M28-04 (#60), K-02 (#65), K-01 (#66), DG1–DG4 y oportunidades de EP (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** cuatro comentarios en PR #58 y un commit en esta rama (`491c2c58`, desarrollo generativo DG1–DG4). Todos los escribió Codex, asistencia de IA, desde la cuenta del propietario; ninguno es una declaración del propietario ni una revisión humana. Las comprobaciones son independientes: el auditor construye sus propios fixtures y recuentos con los scripts de [`verification/`](incremental-audit-2026-10-26/verification/README.md), en lugar de releer las pruebas del autor.
+
+### M28-04 y L-02 — contrato de certificados con dos tiempos (PR #60, `7fc88e2e`)
+
+La rama sustituye `requalify(retained, certificate)` por `evaluate_certificate`. La nueva función devuelve dos resultados separados, la lectura histórica y el uso actual, con eventos, certificados y recibos de revocación firmados. Comprobado con un fixture propio (`m28_04_dual_time_probe.py`):
+
+| Comprobación | Resultado |
+|---|---|
+| Testigo t₁ = 1, t₂ = 2, t₃ = 3, t₁₀ = 10 | t₁: `UNRESOLVED` / `CERTIFICATE_NOT_YET_ISSUED`. t₂: `HISTORICALLY_APPLICABLE` / `VALID_FOR_CURRENT_REVIEW`. t₃ y t₁₀: `HISTORICALLY_APPLICABLE` / `EXPIRED_AT_USE`. En t₁₀, declarar t₂ da `DECISION_TIME_NOT_CURRENT`. **Coincide con lo anunciado** |
+| Ventana de uso semiabierta | Con ventana [2, 6), recorriendo los ticks 0 a 21, solo 2, 3, 4 y 5 dan uso válido. Se declara y se cumple la convención [inicio, fin) |
+| Patrón de L-02 | NaN, flotantes, booleanos, `None`, texto y negativos se rechazan como ticks al construir certificado y decisión. El campo temporal ya no puede convertirse en certificado positivo |
+| No reutilización entre casos | Un certificado de otro evento da `EVENT_BINDING_MISMATCH`. Un CLEAR antiguo aplicado a un certificado reemitido con el mismo ID y otro contenido da `REVOCATION_BINDING_MISMATCH`. Un recibo anterior a la emisión, `REVOCATION_PREDATES_CERTIFICATE`. Sin recibo, `REVOCATION_UNKNOWN` |
+| Revocación | Prospectiva: conserva la lectura histórica y da `REVOKED_AT_USE`. Retroactiva: `HISTORICAL_BASIS_REVOKED` |
+| Pruebas | 38 de certificados y 12 de contexto, como se anuncia. Todo el directorio suma 101 pruebas con `discover`, todas en verde, y la CI también lo está |
+
+**Límite de diseño, no defecto.** Que un CLEAR antiguo no se reutilice frente a una revocación posterior depende de la función `revocation_current`, que aporta el integrador; el módulo controla la vinculación y la frescura, pero no puede conocer el estado más reciente por sí solo. El contrato lo declara como interfaz obligatoria. Además, la lectura histórica exige un recibo de revocación vigente en el momento de la consulta; es una elección explícita del contrato (§3, tabla), no una omisión.
+
+**Estados:** M28-04 y L-02 pasan a `RESPONDIDO`: reparados y reconfirmados en la rama de PR #60, todavía no en `main`. **L-01 sigue `ABIERTO`:** en `7fc88e2e`, una cota de utilidad de 1,5, 10²¹ o 1e308 todavía alcanza el estado positivo (barrido de 32 valores repetido). M28-02 y M28-03 se reconfirman en esta cabeza (162/0 y 32/0), y los testigos F1/D1 también (`f1_d1_witness_recompute.py`, PASS).
+
+### K-02 — documentado y probado en PR #65 (`0575ead7`)
+
+PR #65 añade al README de #44 que `B_q` responde a una sola pregunta, con la no aditividad formal: Δᵢ,ⱼ no tiene por qué ser Δᵢ + Δⱼ. También añade dos pruebas. La adversaria (raíz 129, A = 128, B₃ = B₈ = +1, conjunta +1) es el testigo de la ronda 17. El control positivo (sin cuello, +2 y +2, conjunta +4) coincide con el barrido de la ronda 19: en 2 085 de 2 299 pares la suma no promete de más. 63 de 63 pruebas pasan y la CI está en verde. No se modifica `intrinsic_abcd.py`. La calificación del autor («límite documentado del contrato, no fallo del algoritmo») coincide con la de la ronda 17. **K-02 pasa a `RESPONDIDO`**, que es la etiqueta existente equivalente a la `SCOPE_GUARDED` propuesta; se cerrará cuando #65 esté en `main`. La reserva conjunta (OP-04) sigue siendo trabajo aparte; DG3 la aborda (ver L-06).
+
+### K-01 — envolvente económica en PR #66 (`edb35e45`, sobre #57)
+
+PR #66 añade un comparador que llama a los motores originales de #44 y #57 sin modificarlos. Las huellas SHA-256 de `intrinsic_abcd.py`, `agentic_reduction.py` y `CASES.json` coinciden con `main` y con `a9894049`. Comprobado: 31 pruebas en verde, 168 + 118 = 286 casos y cruce de costes en L = 9 (C_B = 0,25·L + 0,75 frente a 3), el mismo empate con 128 hojas de la ronda 17. Responde también a OP-05 («informar regiones, no un solo caso»). **K-01 pasa a `RESPONDIDO`**; el código está en un PR abierto que depende de #57.
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-04"></a>**L-04** | Baja · `ABIERTO` | **El recuento de victorias de PR #66 oculta las de B.** El brazo `SOURCE_PUBLIC_RECEIVER` copia el libro de costes de la política que elige el receptor (168 de 168 casos sociales). Cuando B es la mejor opción, empata siempre consigo misma a través del receptor. Por eso el resumen informa de 0 victorias estrictas de B en el modelo social. Si se excluye ese brazo, B gana estrictamente 10 de los 42 casos con los precios originales, la inspección dirigida 2, A sola 7, y hay 23 empates. El protocolo dice que «retiene casos en que B gana», pero su propio resumen no lo muestra. | Tratar al receptor como una capa que dice qué brazo elegiría, no como un brazo competidor, o contar las victorias estrictas solo entre políticas. Informar de ambos recuentos. |
+| <a id="l-05"></a>**L-05** | Informativo · `VERIFICADO` | **PR #66 generaliza F-04.** Con los precios originales de #57, en los 30 casos agénticos la inspección convencional dirigida es la única líder en 14, y `Q_META_PROTOCOL` no es líder única en ninguno; su único liderazgo es un empate con `CONVENTIONAL_EQUIVALENT_Q`, que confirma F-01. En el caso estrella AG01, el neto es 12,3 de la inspección dirigida frente a 11,2 del metaprotocolo, la cifra de F-04. Con otros precios el patrón se mantiene: 16, 13 y 13 victorias de la inspección dirigida. | F-04 sigue `ABIERTO`: PR #66 lo confirma en los 30 casos, no lo resuelve. Conviene que el README de #57 lo diga con estas cifras. |
+| <a id="l-06"></a>**L-06** | Informativo · `VERIFICADO` | **El desarrollo generativo DG1–DG4 (`491c2c58`) se reproduce.** 15 de 15 pruebas, y `exercise_corpus_integration.py` contra `main` `51fc686` da exactamente lo publicado: 240 árboles, 480 validaciones de alcance, 904 conjuntos factibles con ganancia exacta, 56 sobrecompromisos de la suma antigua y 48 equivalentes ciertos. Los 56 de 240 son el fenómeno de K-02 en otra muestra. DG3 (reserva de recursos compartidos) es la respuesta constructiva a OP-04. | — |
+
+### Oportunidades de desarrollo en EP README VNext
+
+Se recibe la lista de seis direcciones con literatura externa. Se comprobó que existen las dos referencias menos conocidas: *Agentic Context Engineering*, en ICLR 2026, y la arquitectura Simplex por componentes (arXiv 1704.04759, ACSD 2017). Las demás son trabajos establecidos: DBSP (PVLDB 2023), *Approximate Information State* (JMLR 2022), SATzilla 2009, Hay et al. (UAI 2012), ADOPT (AI 2005), inferencia válida en cualquier momento (*Statistical Science* 2023) y CEGAR (CAV 2000). Son propuestas de desarrollo, no hallazgos, y no se cuentan en el registro. La auditoría no evalúa todavía si cada referencia sostiene la conexión concreta que se le atribuye; queda como tarea para cuando alguna dirección se implemente.
+
+**Totales tras la ronda:** 85 registros. 39 abiertos, 19 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos. No se cierra ningún registro, porque los cuatro arreglos están en PR abiertos.
