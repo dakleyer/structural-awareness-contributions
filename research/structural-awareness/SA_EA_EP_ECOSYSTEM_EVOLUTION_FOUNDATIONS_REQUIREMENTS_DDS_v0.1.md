@@ -7,6 +7,18 @@
 
 > **Idea central.** La contribución investigada es una *función de búsqueda y evolución de arquitectura ecosistémica*, compuesta por cinco funciones sustituibles pero conectadas: metasintáctica estructural; residual cualificado; composición no fungible; prueba selectiva y gradiente; Regime Awareness. No es un quinto sistema epistemológico ni cinco Foundations. La hipótesis diferencial es encontrar *transiciones arquitectónicas de alto valor con bajo coste total de exploración*, preservando los límites de evidencia, el control humano y la autoridad de los participantes. Las cinco funciones son una vista funcional sobre la arquitectura EP más amplia de ocho módulos; no los renumeran.
 
+### Resumen ejecutivo para revisión externa
+
+| Cuestión de revisión | Respuesta y fuente propietaria |
+| --- | --- |
+| **¿Por qué podría funcionar?** | SA da una lógica condicionada de límites/existencia/posición; EA Foundation y P1–P6 gobiernan cómo actuar sin falsificar conocimiento ni autoridad. |
+| **¿Qué parte es matemáticamente plausible?** | **00M** permite examinar correspondencia de ámbitos, mapas parciales y suficiencia de un resumen *para una pregunta concreta*; **00N** añade las condiciones de utilidad oportuna y responsable. |
+| **¿Qué se propone construir?** | Una función de **cinco mecanismos** integrada en **EP M1–M8**, que localiza puertas, consulta residuos parciales, compone hojas no fungibles y prueba cambios **de arquitectura ecosistémica**, bajo gradiente, ACC y RA. |
+| **¿Frente a qué habría que ganar?** | Contra un **B2/PA-5 competente** que ya incorpore control, búsqueda activa, modelos arquitectónicos, señales de cambio y roles institucionales cuando sean apropiados; anclado en **00D v0.2 (canónico)** y **00D v0.3 (borrador EP)**. |
+| **¿Qué no está demostrado?** | Que los cinco mecanismos juntos reduzcan coste total, mejoren resultados interorganizacionales o produzcan autosanación integral en ejecuciones reales; requiere **DDS B/C** y comparaciones emparejadas. |
+
+**Criterio de originalidad defendible:** no es «usar indeterminación», «fusión de sensores» ni «tener contratos de agentes» aisladamente, sino **combinar esas técnicas en un circuito trazable de descubrimiento y renegociación de *arquitectura abierta*, con residuos situados, calificación inter-agente, gobierno de roles y evidencia del beneficio**. Es un diferencial candidato, sometido a prior art y comparación, no una proclamación de unicidad.
+
 ## 1. Tres ejes que no deben confundirse: origen lógico, realización técnica y prueba
 
 | Eje | Responsable | ¿Qué aporta? | Lo que NO significa |
@@ -149,26 +161,136 @@ La prueba no termina al obtener un buen mapa o un valor alto de gradiente. El mi
 
 **Propiedad intelectual:** la realización de selección y composición **MSCA puede permanecer propietaria**. Este texto formula requisitos, semántica observable, falsadores y comparadores públicos. No representa el repositorio como transferencia de derechos sobre el método privado; las licencias de material efectivamente publicado siguen su propio régimen documental.
 
-## 9. Hipótesis científica, coste y comparadores a probar
+## 9. Diferencial tecnológico, plausibilidad y benchmark integrado
 
-**Hipótesis de trabajo, no resultado publicado:** cuando la localización metasyntáctica discrimina verdaderos puntos de oportunidad, existen trazas residuales accesibles en esos puntos, las fuentes aportan información no redundante y la prueba selectiva no pierde demasiadas soluciones buenas, la *función compuesta* puede obtener una mejora arquitectónica certificada con menor coste total que un comparador fuerte con la misma evidencia y facultades.
+### 9.1 Tesis sometida a contraste: de información parcial a una oportunidad arquitectónica
 
-Una contabilidad explícita es:
+**Problema independiente del método:** dado un ecosistema de agentes con contratos, roles, dependencias, objetivos y capacidades parcialmente accesibles, elegir **qué cambio de arquitectura** merece una prueba acotada y gobernada, antes de contar con un inventario completo de alternativas exteriores. La mejora buscada es una transición verificable del **ecosistema**, no simplemente un nuevo valor de un parámetro, una alarma, una reducción del número de UNKNOWN o la reetiquetación de una idea.
+
+**Proposición diferencial en investigación:** una combinación de *localización metasintáctica de puertas arquitectónicas*, *trazas residuales cualificadas*, *composición no fungible de hojas* y *verificación selectiva*, bajo *Regime Awareness, gradiente y autoridad*, puede identificar y certificar mejores transiciones arquitectónicas **por unidad de coste total** que los mejores rivales equipados con la misma evidencia y facultad de adaptación. El adjetivo «ecosistémico» requiere una dependencia o resultado **entre participantes**, no la mera agregación de ganancias locales.
+
+Son cuatro cargas probatorias independientes, aunque el proceso las conecte: **DIF-1** localizar una puerta material antes de conocer el candidato; **DIF-2** mostrar que sus residuos añaden señal más allá del selector y de lo que ya sabe la máquina; **DIF-3** mostrar que las hojas de varios agentes aportan *información única, no redundante*, suficientemente compatible para una decisión; **DIF-4** producir una transición comprobada, legítima y de ganancia neta con menor carga o mayor rendimiento que los comparadores. El éxito de DIF-1, DIF-2 o DIF-3 no implica automáticamente DIF-4. Se requiere efecto observado y economía.
+
+El valor añadido se separa del valor intrínseco de los componentes: los métodos de búsqueda activa y optimización adaptativa **ya pueden** operar sin enumerar completamente un universo superior; la detección de cambios **ya existe**; los agentes con roles y normas **ya existen**. La hipótesis de contribución se sitúa en **la composición específica y sus contratos de arquitectura abierta, interdependencia, admisibilidad y reposicionamiento**, no en reclamar esas piezas como novedades aisladas.
+
+### 9.2 Anclaje preciso en 00M y 00N: qué está fundamentado y qué falta
+
+[00M §3–§6](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) es el antecedente matemático directo de las funciones 2–3. Formula la correspondencia parcial de ámbitos, las abstracciones y la suficiencia **para una pregunta fijada independientemente**. Si \(\pi(X)\) es la metainformación compuesta y \(r_q(X)\) la respuesta material a la pregunta \(q\), una condición suficiente de recuperación exacta es:
+
+\[
+\pi(X)=\pi(X')\ \Longrightarrow\ r_q(X)=r_q(X')
+\quad\text{para todos los estados admisibles del perfil declarado.}
+\]
+
+Esto significa que estados que el resumen no puede distinguir **no** pueden exigir respuestas diferentes para esa pregunta. La condición **no** presupone que MSCA siempre la satisface, que todos los ámbitos se pueden mapear, que el resumen es más barato o que puede decidirse toda semántica abierta. En el test del nuevo mecanismo hay tres salidas admisibles: **certificado suficiente para la pregunta**, **rango/hipótesis conservadora** o **no establecido**. El ejemplo acotado de las veinte puertas en 00M §5 sirve para probar composición informacional, **no** para certificar una arquitectura ecosistémica ni un gradiente global.
+
+[00M §6](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) permite observar movimientos contextuales **C→B**, **D→C/B/A** o una pérdida de base **B→C/D**, sin convertirlos en una secuencia obligatoria ni en movimientos de elementos entre cuatro conjuntos exhaustivos. **C→B** significa que un aspecto se volvió evaluable; no que haya ganado valor, autorización o existencia global. El signo y magnitud del cambio necesitan medidas y ámbitos comparables. El argumento de indistinguibilidad de 00M §6.3 impide inventar un hecho oculto si dos estados siguen siendo indistinguibles en la metainformación disponible.
+
+[00N §3.2–§3.4](../ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) exige tres puentes adicionales: **(i)** la distinción observable es relevante para una pregunta externa al resumen; **(ii)** la composición conserva fundamento, correlación, ámbito y cualificadores; **(iii)** un dueño legítimo puede utilizar el resultado antes de que pierda vigencia. Estas condiciones verifican la **plausibilidad funcional** y conectan con T1/T2/T4; la respuesta gobernada sigue necesitando T3. El [anexo de vecinos de 00N](../ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) añade una advertencia empírica esencial: mejores mapas de conocimiento han mejorado el uso de información compartida **sin demostrar siempre mejor rendimiento de la tarea**. Por ello se mide la *decisión y el efecto*, no únicamente la riqueza del mapa.
+
+**Puente a la hipótesis de economía:** FH-E (EA Foundation/01A-A01) propone economía epistemológica para un mismo trabajo de cualificación. Nuestra contribución afina el *objeto*: búsqueda selectiva de **evoluciones arquitectónicas**. FH-E, 00M y 00N justifican investigar, pero **ninguno** es un resultado experimental del diferencial de las cinco funciones.
+
+### 9.3 Vecinos metodológicos: crédito efectivo y diferencial a demostrar
+
+La comparación debe reconocer al competidor por su **mejor capacidad relevante**, incluso si utiliza otro vocabulario. La columna de diferencial es una *pregunta pendiente*, no una declaración de prioridad histórica.
+
+| Familia y fuente primaria | Qué puede hacer ya — crédito al estado del arte | Diferencial específico **a probar** y comparación justa |
+| --- | --- | --- |
+| **Adquisición activa de restricciones**: [Bessière et al., IJCAI 2023, lenguajes de restricciones desconocidos](https://www.ijcai.org/proceedings/2023/208); [Mechqrane, Bessière y Elabbassi, IJCAI 2024, ACQNOGOODS/LLMACQ](https://www.ijcai.org/proceedings/2024/212) | Aprende restricciones con preguntas parciales; las versiones recientes pueden evitar una lista cerrada del lenguaje o sesgo de restricciones. Esto **refuta** que toda máquina ordinaria deba definir antes exhaustivamente el universo superior. | No solo *aprender qué regla existe*, sino seleccionar **qué regla arquitectónica heredada conviene flexibilizar**, con objetivo, cambio de rol y efectos entre participantes. Comparar número/coste de preguntas y descubrimiento de puertas bajo igual vocabulario, información y permisos. |
+| **Optimización secuencial y segura**: [Sui et al., SafeOpt, ICML 2015](https://proceedings.mlr.press/v37/sui15.html); [Berkenkamp, Krause y Schoellig, safety constraints](https://arxiv.org/abs/1602.04450) | Explora selectivamente funciones desconocidas, aprovecha información previa y respeta restricciones bajo premisas del modelo. No necesita recalcular todo el dominio en cada ensayo. | ¿Las hojas arquitectónicas y residuos no fungibles permiten proponer **transiciones de arquitectura/contrato** que mejoren la frontera coste–ganancia frente a un optimizador seguro con las mismas acciones permitidas? No atribuir ventaja por restringirle artificialmente sus alternativas. |
+| **Información única/sinérgica y compresión distribuida**: [Williams y Beer, PID 2010](https://arxiv.org/abs/1004.2515); [Estella Aguerri y Zaidi, Distributed Information Bottleneck](https://arxiv.org/abs/1709.09082) | Distingue redundancia, información única/sinergia o resúmenes conjuntamente relevantes para un objetivo. | **No fungibilidad ≠ sinergia automática:** demostrar aporte incremental por *hoja, ámbito, dependencia, rol, tiempo y autoridad*, más allá de fusión y PID al mismo presupuesto. Si PID/IB con buenas características iguala la respuesta, no hay diferencial en ese perfil. |
+| **Conocimiento distribuido y directorios de capacidades**: [Ågotnes y Wáng, Resolving Distributed Knowledge](https://arxiv.org/abs/1606.07515); [Stasser et al., expertise roles, 1995](https://doi.org/10.1006/jesp.1995.1012); [Engelmann y Hesse, knowledge maps, 2011](https://doi.org/10.1016/j.chb.2011.06.002) | La localización de «quién sabe qué» y de conocimientos no compartidos puede mejorar coordinación, pero mejores mapas no garantizan mejor resolución. | Comparar (i) reutilización de respuesta ya conocida; (ii) activación de *capacidad B aún no ejecutada*; (iii) cartografía de *residuo C/D aún no evaluable*. Medir conocimiento localizado, prueba efectiva y ganancia final por separado. |
+| **Autoadaptación arquitectónica**: [Rainbow, Cheng et al., CMU/ICAC 2004](https://www.cs.cmu.edu/afs/cs/project/able/ftp/icac/autonomic-web.pdf); líneas DeltaIoT/mRUBiS/SWIM identificadas en el anexo §15 | Usa modelos de arquitectura en ejecución para monitorizar, seleccionar adaptación y responder a fallos o cambios; parte del problema de autosanación está cubierto. | Comparar contra un **MAPE-K/Rainbow fuerte** con búsqueda activa, modelo de dependencias y mismas posibilidades de adaptar roles; medir si añade algo la combinación SA + mapa residual no fungible + negociación **entre organizaciones**, sin esconder costes del controlador. |
+| **Organizaciones abiertas y normas multiagente**: [Esteva et al., especificación formal de Electronic Institutions, CSIC](https://www.iiia.csic.es/media/filer_public/2b/3e/2b3e434e-b7d5-4a3f-bdd7-acad526b46eb/iiia-2001-286.pdf) | Agentes heterogéneos, roles, normas e interacción en instituciones electrónicas **ya** son objetos formales; no es nuevo exigir un marco institucional a agentes externos. | ¿Existe un diferencial en **descubrir oportunidad arquitectónica mediante residuos posicionados** y renegociar rol/ACC a partir de esa evidencia, frente a instituciones y protocolos normativos competentes? Reglas de ciudadanía y consentimiento no equivalen por sí solas a una prueba de novedad. |
+| **Detección de régimen y monitorización de supuestos**: [Adams y MacKay, online changepoint detection, 2007](https://arxiv.org/abs/0710.3742); fuentes de [00N §2.4–§2.5](../ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) | Detecta cambios estadísticos o pérdida de validez de condiciones monitorizadas. Puede producir alertas tempranas bajo hipótesis observacionales. | RA debe identificar **qué certificado de decisión/rol/arquitectura perdió aplicabilidad**, cuándo reabrir una ventana y cómo detener propuestas obsoletas. Una densidad elevada de UNKNOWN por sí sola no es precursor universal ni prueba de bifurcación física. |
+
+**Lectura de novedad:** el conjunto puede ser una **síntesis arquitectónica original e interesante** si los cinco contratos y la autosanación gobernada entre agentes heterogéneos producen un comportamiento distinguible; las referencias demuestran proximidad de mecanismos aislados, **no** unicidad, ausencia de antecedentes integrados ni superioridad histórica. Esta distinción evita tanto trivializar la contribución como declararla probada por exclusión bibliográfica.
+
+### 9.4 Integración con los dos benchmarks ya existentes — sin crear un tercero canónico
+
+**Autoridad del método comparativo:** [00D v0.2 — benchmark EA canónico](../ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) sigue siendo el propietario de **E1–E4** (grados de evidencia), los cuatro brazos **B0–B3**, **EA-H1–EA-H4**, **C1–C8**, la igualdad de recursos y el vector común de resultados. B0 es implementación ordinaria capaz; B1 añade excelentes controles habituales; B2 es el mejor par interoperable/gobernado; B3 añade explícitamente la semántica EA con **la misma** tecnología y presupuesto. Una solución convencional que alcance el mismo resultado a menor coste **gana** esa comparación.
+
+**Extensión de arquitectura en revisión:** [00D v0.3 — benchmark EP draft](../ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) **no ha sustituido** a v0.2; introduce **Q0** (conformidad antes de comparar), **Q1** (cobertura de requisitos), **Q2** (atribución de componentes) y **Q3** (diferencial de composición); módulos **M1–M8**, escalera B3.1–B3.8, leave-one-module-out, interacciones y ramas propuestas **C9–C15**, además de rivales PA-1…PA-5 y orquestador de referencia OR. La función de cinco mecanismos es un **perfil de ensayo interno de EP**, no otro documento de benchmark competidor ni un reemplazo del baseline.
+
+| Pregunta/estructura existente | Aplicación precisa a la función evolutiva | Condición de resultado |
+| --- | --- | --- |
+| **v0.2 B0/B1/B2/B3 + EA-H1–EA-H4** | Asegurar conservación de incertidumbre, no fungibilidad, ventana, handoff y respuesta a cambios bajo iguales recursos antes de evaluar una mejora «evolutiva». | Ningún resultado positivo se debe a comparar contra controles deficientes o a dar más acceso a un brazo. |
+| **v0.3 Q0 — conformance** | Identidad/versión de MSCA y hoja; no falsa independencia de fuentes; RA no autoriza; gradiente no autoriza; ACC conserva rol y permiso; objetivo, admisibilidad y ejecución separados. | Un brazo que incumple Q0 es **no conforme para la afirmación EP**, no una victoria por puntuación bruta. |
+| **v0.3 Q1 — requirements** | Trazar los cinco mecanismos a S1–S14/T1–T4 de §7, incluidos los propietarios externos de identidad, privacidad, autoridad y acción. | Evidencia por requisito y contexto, sin inferir toda conformidad por cumplir T4 o por un «bingo». |
+| **v0.3 Q2 — component attribution** | Comparar los cinco mecanismos dentro de una configuración EP admisible; además usar las ablaciones de **M1–M8** ya definidas en v0.3 y las interacciones M2×M3, M6×M7, M7×M8. | Incrementos medidos; cero efecto en un orden no demuestra redundancia general. |
+| **v0.3 Q3 — composition differential** | Enfrentar la versión completa con **PA-5** (mejor composición de prior art) y, cuando sea apropiado, **OR** (orquestación con estado compartido y latencia realista). | Ganancia verificada o empate con menor carga responsable; un buen caso local no se promociona a superioridad ecosistémica. |
+| **v0.2 C1–C8 / v0.3 C9–C15** | Enlazar prueba de continuidad, cambio material, UNKNOWN, capacidad, handoff, drift, fuente común, rol efectivo, autoridad revocada, señales adversarias, oportunidad inadmisible, partición, respuesta humana lenta y partner legado. | Cada condición conserva su versión canónica/propuesta y trazas adversas; esta investigación no fabrica resultados ejecutados de esas ramas. |
+
+Las **EP-BH1–EP-BH7** de v0.3 siguen siendo hipótesis de benchmark *provisionales*: por ejemplo BH2 distingue oportunidad/admisibilidad/ejecución; BH4 contrasta requalificación condicionada por objetivo frente a incertidumbre/schedule; BH5 examina coreografía local bajo pérdida de coordinador; BH7 examina cartografía multirresolución. Nuestro ensayo aporta **variables, casos y comparadores para esas hipótesis**, no una familia nueva H7 de EA ni una redefinición silenciosa de EP-BH.
+
+### 9.5 Diseño diferencial reproducible: una tabla de brazos, dos tipos de ablación
+
+El **foco de la comparación** será «primera mejora de arquitectura ecosistémica independientemente certificada y legítimamente aprobada, por coste total», con una definición del objetivo y de los afectados **previa al ensayo**. Para aislar la contribución de cada mecanismo, proponer las siguientes *configuraciones de investigación* (identificadores **FV0–FV5** locales a este documento, no brazos canónicos B0–B3, ni la escalera EP B3.1–B3.8):
+
+| Brazo funcional de investigación | Disponibilidad de funciones | Pregunta causal |
+| --- | --- | --- |
+| **FV0 — peer fuerte** | B2/PA-5, o mejor competidor activo equivalente con igual evidencia, objetivos y facultades. | ¿Cuál es el rendimiento alcanzable sin imponer nuestro método? |
+| **FV1 — selector estructural** | FV0 con selección metasintáctica/MSCA **si es agregable sin cambiar el resto**; si no, comparación emparejada con el selector alternativo. | ¿La localización arquitectónica mejora el rendimiento frente a active structural search? |
+| **FV2 — residual posicionado** | FV1 + mapas de +/−/? con exposición, censura y verificaciones parciales. | ¿La señal residual aporta *información incremental* más allá del mapa y de la información ya presente en FV0? |
+| **FV3 — composición por hojas** | FV2 + confluencia entre agentes y control de dependencia/correlación. | ¿La combinación no fungible descubre oportunidades que ningún actor ni fusión competente aislados encontró a igual coste? |
+| **FV4 — gradiente y cambio gobernado** | FV3 + prueba acotada, gradiente vigente y contratos/autoridad existentes. | ¿Aparece ganancia **real** frente a búsqueda de «hotspots» sin evaluación/rol? |
+| **FV5 — RA acoplado** | FV4 + RA continuo y reconfirmación de vigencia. | ¿La función mantiene ganancias y evita pérdidas tras cambios materiales, sin oscilación ni falsos bloqueos? |
+
+**Precaución de atribución:** FV0 y FV1 no implican que MSCA sea un simple «plugin» implementable sin rediseño; si cambia información, capacidades, presupuesto o arquitectura, el brazo debe reequilibrarse y el diferencial calificarse. FV4 no autoriza saltarse los controles de los brazos anteriores: todo brazo con posibilidad de actuar mantiene una **capa equivalente de legitimidad y seguridad**. Una ablación de RA o ACC es un ensayo diagnóstico, no una configuración EP completa conforme a Q0 ni permiso para ejecutar actos no autorizados. El valor de cinco funciones no es igual a la suma de sus ganancias individuales.
+
+Hacer además: **leave-one-function-out** sobre FV5; sustitución individual por el mejor rival de su fila de §9.3; interacciones preregistradas función 1×2 (estructura/residuo), 2×3 (residuo/composición), 3×4 (composición/gradiente) y 1×5 (selección/contexto). La atribución de **módulos EP M1–M8** permanece en v0.3; no confundir esta escala de cinco *funciones* con los ocho *módulos*.
+
+### 9.6 Un resultado medible y sus costes, sin puntuación global ficticia
+
+Contabilizar el coste completo, en unidades y dimensiones justificadas, antes de calcular rendimientos:
 
 \[
 C_{\mathrm{total}}=
-C_{\mathrm{MSCA}}+C_{\mathrm{residual}}+C_{\mathrm{composición}}+
-C_{\mathrm{prueba}}+C_{\mathrm{gradiente}}+C_{\mathrm{RA}}+
-C_{\mathrm{autoridad}}+C_{\mathrm{cambio}}+C_{\mathrm{efecto}}.
+C_{\mathrm{configuración/MSCA}}+C_{\mathrm{captura}}+
+C_{\mathrm{composición}}+C_{\mathrm{pruebas}}+
+C_{\mathrm{gradiente}}+C_{\mathrm{RA}}+
+C_{\mathrm{privacidad/comunicación}}+
+C_{\mathrm{autoridad/humano}}+
+C_{\mathrm{transición}}+C_{\mathrm{efecto/reparación}}.
 \]
 
-Comparar **coste a primera mejora genuina y autorizada** condicionada al mismo umbral de calidad, tasa de oportunidades perdidas, precisión/recall sobre un fixture finito y tasa de no-solución, además de coste incondicional y errores de seguridad. Un selector adaptativo *Turing-computable* con iguales observaciones puede empatar o superar el método; ninguna «máquina convencional» está obligada a clausurar un universo superior ni a explorar exhaustivamente. La posible economía nace de la heurística informacional y arquitectónica **para clases concretas de carga**, no de nuevos límites de computabilidad.
+Distinguir coste de **preparación y mantenimiento**, coste marginal por ciclo y amortización en el horizonte preregistrado. Comparar en las mismas condiciones *ex ante*: información disponible antes de conocerse el fallo, tiempo de configuración, autoridad, capacidad humana, experimentos, acciones y fecha límite. No conceder al rival su futura «reparación perfecta» gratis, pero tampoco prohibirle monitorización dinámica ni aprendizaje activo. El conocimiento privado del evaluador sobre la solución no puede filtrarse hacia ningún brazo. Entrenar y puntuar en casos distintos, con políticas congeladas antes de cada lote.
 
-**Comparadores de referencia:** explotación actual; exploración aleatoria, densidad UNKNOWN o incertidumbre; selección estructural y active learning; adquisición parcial de restricciones (también sin vocabulario de hipótesis completamente preclausurado); constrained/safe Bayesian optimization; fusión de sensores con sinergias y PID; model-based diagnosis; arquitectura MAPE-K/Rainbow/DeltaIoT/mRUBiS/SWIM; RA estadístico y cambio de régimen. Permitirles *la misma información, oportunidades de reposicionamiento, permisos y tiempo*; no comparar el sistema completo solo contra una búsqueda ingenua de universo entero.
+**Resultados primarios** (no reducirlos sin justificación a un score escalar):
 
-**Ablaciones necesarias:** M1; M1+M2; M1+M2+M3; +M4; cinco completos; además retirar uno por vez, intercambiar un módulo por alternativa fuerte y RA-on/RA-off; contar coste adicional y comprobar interacciones negativas. El mapa de densidades no prueba causalidad ni un estado físico de transición. Los cinco módulos pueden aportar valor separadamente, pero no se presupone ganancia marginal siempre positiva ni sinergia universal.
+1. **Tiempo y coste total hasta la primera transición** que supera una mejora mínima \(g\), con evidencia de impacto ecosistémico, legitimidad ACC y estado de autorización; declarar también los casos sin transición útil.
+2. **Calidad y cobertura de la oportunidad:** ganancia verificada por objetivo/participante y externalidades negativas, porcentaje de mejoras válidas perdidas respecto a una *fixture* finita y auditable, intervalos y costo de falsa prueba.
+3. **Seguridad y calidad de decisión:** violación de autoridad/contrato, falsa clausura, falsa contención, aplicación de marco obsoleto, drift detectado tarde, saturación/timeout y coste humano.
+4. **Complejidad responsable**, según v0.3: obligaciones semánticas, puertas de decisión, carga normalizada de configuración, esfuerzo/error de reconstrucción de auditoría, divulgación y latencia.
 
-**Falsadores prioritarios:** frontera con solo − y ningún ?; muchos UNKNOWN irrelevantes; falsa apertura por mala telemetría; limitación presupuestaria física/dura; candidatos válidos fuera de sensor seleccionado; clones correlacionados; fallos de mapeo semántico; ausencia de testigos; restricciones no negociables; revelación privada; negativa legítima del titular; alto coste humano; falsa alarma de RA; ganancia local con externalidad global negativa; rival adaptativo igual de eficiente. Registrar estas derrotas con igual rigor que un caso positivo.
+**Resultados diagnósticos:** *precision/recall* de hoja oportunidad; calibración del pre-gradiente; tasa UNKNOWN normalizada por exposición; información única después de controlar clones; tasa de nuevos certificados suficientes; ganancia específica RA-on/off; estabilidad del gradiente tras cambio de régimen. El éxito de una métrica de diagnóstico **no es un éxito de sistema**.
+
+**Regla de superioridad condicionada (esquema, no resultado):** en una familia y presupuesto fijados, lograr mayor tasa de transiciones **válidas, autorizadas y beneficiosas** con coste no mayor, o calidad equivalente con coste total menor, **y** sin empeorar los límites de seguridad/tiempo definidos. Un rival que iguala o supera el conjunto desmonta la ventaja en esa familia; no se salva el reclamo cambiando después el significado de «éxito» o excluyendo ejecuciones fallidas.
+
+### 9.7 Escenarios discriminantes y controles negativos que no pueden omitirse
+
+| Caso de ensayo | Cuál es el diferencial legítimo | Qué resultado derrotaría la hipótesis |
+| --- | --- | --- |
+| **Teletrabajo 2018–2019, ilustrativo** | Elegir «oficina física obligatoria» como puerta y ensayar admisión/efecto de trabajo no presencial bajo nueva versión de reglas, con coste de transición, seguros, derechos y terceros. | Una solución equivalente surge más barato de active constraint acquisition/BO/Rainbow, o la ventaja local desaparece al incluir obligaciones reales. |
+| **Timeout de sensor en puerta seleccionada** | Reusar trazas del evaluador original y separar timeout de negativa dura, ruido, falta de exposición o falta de registro. | El sensor no ve candidatos, registra solo fallos duros o construir el detector paralelo es más barato/fiable. |
+| **Complementariedad efectiva entre actores** | Dos hojas compatibles cubren checks distintos; una prueba conjunta mejora una decisión sin cambiar contratos. | PID/sensor fusion/compartir información completa consigue igual certificación a menos coste; fuentes no son realmente independientes. |
+| **No fungibilidad contra clones** | Identificar una dependencia común detrás de múltiples señales «distintas». | El mecanismo cuenta clones como corroboración, inventa evidencia o pierde información crítica al resumir. |
+| **Frontera sin existencia útil** | Conservar salida no-solución: muchas negativas o UNKNOWN sin testigo no deben inducir «bingo» inevitable. | Pre-gradiente genera alto volumen de falsas oportunidades, búsquedas interminables o gradientes ficticios. |
+| **Oportunidad real pero inadmisible** | Mantener el valor informativo y bloquear ejecución hasta aprobación legítima; caso C12 del benchmark EP. | Se ejecuta sin ACC, se interpreta silencio como autorización o se omite costo/negativa del dueño. |
+| **Régimen cambiante con señal espuria** | RA distingue cambio de mundo de cambio en política de reportes y revalida la versión del contrato. | Alarmas constantes, falsos pivotes, oscilación o retraso peor que detector convencional de drift. |
+| **Partición interorganizacional / humano lento** | Preservar alcance local válido, plazo y ruta de escalado sin coordinador; C13/C14 en v0.3. | Un orquestador redundante o par distribuido competente conserva mejor decisión/latencia; EP entra en HOLD o se autopermite actuar. |
+
+Conservar las ramas **C1–C8** canónicas de v0.2 y **C9–C15** todavía propuestas de v0.3 como autoridad de prueba; esta tabla **solo define perfiles específicos de un estudio**, no nuevas condiciones normativas.
+
+### 9.8 Escalera de pruebas y fuentes verificadas
+
+- **DDS Stage A:** congelar problema, criterios, semántica 00M y pregunta independiente \(r_q\); demostrar inclusiones/contraejemplos SA, casos de suficiencia parcial, pruebas adversariales de falsos positivos, presupuesto y pares FV/PA. Un algoritmo simulado puede seguir siendo evidencia **Stage A**, según su objeto.
+- **DDS Stage B:** verificar interfaces y semánticas de las cinco funciones dentro de los ocho módulos EP; Q0 y Q1 primero; ensayar Q2 y Q3 con sustituciones, incompatibilidades, modos degradados, autoridad y versiones. La arquitectura puede fallar antes de medir su utilidad.
+- **DDS Stage C:** fijar implementación y contexto, efectuar pruebas autorizadas, medir resultados **independientemente observables**, coste total y comparación con pares defendidos; no confundir un «gradiente alto» calculado con una mejora ejecutada.
+
+**Referencias externas primarias seleccionadas y rol:** [QUACQ/learning unknown language, IJCAI 2023](https://www.ijcai.org/proceedings/2023/208) y [ACQNOGOODS, IJCAI 2024](https://www.ijcai.org/proceedings/2024/212), restricción del universo de hipótesis; [SafeOpt, ICML 2015](https://proceedings.mlr.press/v37/sui15.html), exploración selectiva segura; [Williams–Beer PID](https://arxiv.org/abs/1004.2515) y [Distributed IB](https://arxiv.org/abs/1709.09082), información única y compresión distribuida; [Rainbow, CMU/ICAC 2004](https://www.cs.cmu.edu/afs/cs/project/able/ftp/icac/autonomic-web.pdf), adaptación arquitectónica; [Electronic Institutions, CSIC](https://www.iiia.csic.es/media/filer_public/2b/3e/2b3e434e-b7d5-4a3f-bdd7-acad526b46eb/iiia-2001-286.pdf), roles heterogéneos y normas de interacción; [online changepoint, 2007](https://arxiv.org/abs/0710.3742), detección de cambios; [Engelmann–Hesse, 2011](https://doi.org/10.1016/j.chb.2011.06.002), límites empíricos de mapas de conocimiento. El [anexo técnico §15.5](./SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md) y [00N, referencias científicas](../ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) conservan la bibliografía ampliada y sus transferencias condicionadas.
+
+**Estado del argumento:** matemáticas parciales existentes y literatura próxima; **protocolo de diferencial especificado, no ejecutado**. No se atribuye a esos trabajos una prueba de EP ni a la composición una capacidad computacional que exceda Turing. La novedad específica y el beneficio neto se someten al benchmark, con posibilidad real de empate o derrota.
 
 ## 10. Estado de evidencia y progresión de la prueba
 
