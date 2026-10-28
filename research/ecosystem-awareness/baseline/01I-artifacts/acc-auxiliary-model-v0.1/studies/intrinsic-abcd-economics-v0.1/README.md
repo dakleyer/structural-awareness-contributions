@@ -91,3 +91,42 @@ Ejecución reproducible en Python estándar: `python -B -m unittest discover -s 
 
 La [revisión comparada](EXTERNAL_RESEARCH_NOVELTY_REVIEW_2026-10-26.md) identifica investigación existente de Heifetz–Meier–Schipper (desconocimiento interactivo), Cousot–Cousot (interpretación abstracta), Blackwell (valor de información) y W3C PROV-O (procedencia). La novedad **no** es clasificar lo desconocido ni añadir metadatos conocidos: la contribución candidata a probar es el coste y la corrección de la **cualificación situada producida por la fuente** al integrarse en una decisión social/económica específica. Mantener comparación fuerte con inspección convencional dirigida, costes de ciclo de vida, fuentes falsas y verdaderos no resultados.
 
+
+
+## 11. Salida física nativa reproducible (K-03; 28 de octubre de 2026)
+
+La función fuente `private_selected_response(world, target, minimum=8, extra=2)`
+evalúa la **misma pregunta individual q** en dos estados de demanda y devuelve un
+`PrivateSelectedResponse` inmutable con `current_A`, `selected_output` y
+`gain = selected_output - current_A`. Reutiliza `base_demand`,
+`selected_demand` y la entrega material recursiva `deliver`; **no cambia
+el mecanismo** ni interpreta la ganancia física como bienestar humano.
+
+El contrato queda integrado en tres consumidores originales:
+
+- `policy`: compara políticas usando la salida física del simulador, manteniendo
+  por separado los costes y las promesas de cada brazo.
+- `score_public_plan`: puntúa *después* la planificación hecha con `plan_from_public`,
+  sin entregar el oráculo al receptor.
+- `sample_report`: obtiene las ganancias +2/0 a partir de las respuestas
+  ejecutadas, sin números escritos a mano.
+
+**Frontera conservada:** `upstream_B` sigue emitiendo una cualificación para
+una sola pregunta a partir de logs operacionales de la fuente y holguras del
+trayecto; no llama al oráculo de futuro. `plan_from_public` sigue recibiendo
+únicamente la vista pública y los certificados válidos. Esta función privada
+no fusiona B de preguntas diferentes ni concede al receptor nuevos datos.
+
+El nuevo `test_native_selected_response.py` verifica la ecuación de
+conservación en **6720 preguntas materiales distintas**, la concordancia con
+todos los brazos, la separación entre emisión pública y evaluación privada,
+la inmutabilidad y que el informe consume resultados computados. No cambia
+`REFERENCE_SYNTHETIC_RESULTS.json`, pues los dos mundos originales siguen
+dando exactamente 128→130 y 128→128.
+
+**Reutilización transversal:** el [comparador económico social/agéntico del
+PR #66](https://github.com/dakleyer/structural-awareness-contributions/pull/66)
+consume la respuesta pública de cada política y su puntuación nativa, no
+reimplementa `deliver` ni adopta este oráculo como criterio de decisión.
+Cada nuevo adaptador conserva la función de respuesta y la pregunta de su
+propio sistema.
