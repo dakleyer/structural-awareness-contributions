@@ -10,6 +10,11 @@ import unittest
 DOMAIN = tuple(range(10))
 
 
+def _in_qualified_domain(x):
+    """The finite proof covers only the declared integer states, not aliases."""
+    return type(x) is int and x in DOMAIN
+
+
 def capture_pre_admission(event, *, permitted, capture_enabled):
     """Current narrow filter does not know 'new-route'; retain if authorized."""
     if not permitted or not capture_enabled:
@@ -34,8 +39,8 @@ def requalify(retained, certificate):
 
 
 def full_verdict(x):
-    """A fixed substantive decision: rejection on even numbers."""
-    if x not in DOMAIN:
+    """A fixed substantive decision over the declared integer states."""
+    if not _in_qualified_domain(x):
         raise ValueError("outside qualified domain")
     return "REJECT" if x % 2 == 0 else "ACCEPT"
 
@@ -51,7 +56,10 @@ def prove_guard_sound(domain, predicate):
 
 
 def guarded_verdict(x, *, guard_validated, proof_scope):
-    """Never skip substantive decision without matching qualified proof."""
+    """Never skip evaluation outside the proof's typed finite domain."""
+    # Scope membership is a separate premise from proof validity (M28-02).
+    if not _in_qualified_domain(x):
+        raise ValueError("outside qualified domain")
     if not guard_validated or proof_scope != DOMAIN:
         return full_verdict(x), False
     if guard(x):
@@ -129,6 +137,34 @@ class OnlineContextTests(unittest.TestCase):
                     x, guard_validated=True, proof_scope=DOMAIN)
                 self.assertEqual(actual, full_verdict(x))
                 self.assertEqual(used, x % 2 == 0)
+
+    def test_outside_declared_domain_never_uses_validated_guard(self):
+        # A proof for 0..9 says nothing about x=12, even when guard(12).
+        for x in (-2, 10, 11, 12):
+            with self.subTest(x=x):
+                with self.assertRaisesRegex(ValueError, "outside qualified domain"):
+                    full_verdict(x)
+                with self.assertRaisesRegex(ValueError, "outside qualified domain"):
+                    guarded_verdict(x, guard_validated=True, proof_scope=DOMAIN)
+
+    def test_invalid_case_never_gains_scope_from_fallback_or_weak_proof(self):
+        # Reject out-of-domain states with or without the proof shortcut.
+        for valid, scope in ((False, DOMAIN),
+                             (True, tuple(range(6))),
+                             (True, tuple(range(13)))):
+            with self.subTest(valid=valid, scope=scope):
+                with self.assertRaisesRegex(ValueError, "outside qualified domain"):
+                    guarded_verdict(12, guard_validated=valid, proof_scope=scope)
+
+    def test_bool_and_float_equality_do_not_extend_integer_proof(self):
+        # Python equality makes True == 1 and 2.0 == 2; neither is an
+        # enumerated integer input of this typed finite fixture.
+        for x in (False, True, 2.0, 3.0):
+            with self.subTest(x=repr(x)):
+                with self.assertRaisesRegex(ValueError, "outside qualified domain"):
+                    full_verdict(x)
+                with self.assertRaisesRegex(ValueError, "outside qualified domain"):
+                    guarded_verdict(x, guard_validated=True, proof_scope=DOMAIN)
 
     def test_proof_outside_validity_scope_cannot_skip(self):
         x = 2
