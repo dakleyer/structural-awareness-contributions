@@ -263,3 +263,151 @@ The descriptive/semantic opportunity is distinct: knowing the source's **boundar
 6. Audit whether the telework fixture can solve the organizational peak-capacity problem without declaring social-wide adoption, and whether the sensor fixture can identify its own observed timeout events without inventing exterior members.
 
 **Disposition:** reviewable PR research annex only. No edits to canonical Part I/II, the EA/EP owner documents, P1–P6, S/T, DDS, UC21, protected routers or historical snapshots.
+
+## 12. Working extension (28 October 2026) — constraint subtraction, relative determination and governed agentic repositioning
+
+**Status and scope.** Owner-requested continuation of the same Stage-A research annex, *not* a new adopted SA principle, an EP/MSCA/ACC amendment, an oracle, a universal discovery theorem or a production claim. This section adds an **alternative to the already-encountered-case route** of §§6–8: investigate the *rules that close admission* before any exterior item has been recognized as a member of a new class. The two routes may coexist, but neither is mandatory for every environment. The gradient, ACC, signalling and operational repositioning definitions below are **reused from their existing owners**, not redefined here.
+
+### 12.1 Mathematical result: admissible-set expansion and task-relative determination
+
+Let \(\mathcal U\) be a semantic domain for a particular interpretation; it need **not** be extensionally enumerated or computably decidable. Let \(H\) contain non-negotiable requirements for the current objective and \(R=\{r_1,\ldots,r_n\}\) its additional conjunctive admission gates. With unchanged objective and hard conditions,
+
+\[
+\mathcal F(H,R)=\{x\in\mathcal U:H(x)\land\bigwedge_{j=1}^{n}r_j(x)\}.
+\]
+
+For a legitimate relaxation consisting solely of removing gate \(r_k\),
+
+\[
+\boxed{\mathcal F(H,R)\subseteq \mathcal F(H,R\setminus\{r_k\})}.
+\tag{CR-1}
+\]
+
+This is an elementary theorem of conjunctive admissibility. It is **not** a theorem that a useful real-world witness exists, that the optimizer will find it, that global inter-agent viability is maintained after other conditions change, or that the relaxation is authorized.
+
+For an *already evaluable* referent \(x\), use the explicitly declared three-valued admission rule with \(T,F,?\), where conjunction is \(F\) if any required gate is \(F\), \(T\) if every gate is \(T\), and \(?\) otherwise:
+
+\[
+\left[\ \forall j\ne k,\ r_j(x)=T\quad\land\quad r_k(x)=?\ \right]
+\Rightarrow
+\left[
+\operatorname{Admit}_{H,R}(x)=?
+\quad\land\quad
+\operatorname{Admit}_{H,R\setminus\{r_k\}}(x)=T
+\right]
+\tag{CR-2}
+\]
+
+provided \(H(x)=T\). The old \(r_k(x)=?\) **stays unknown**. The *decision* has become determined **under the changed set of conditions**; nothing has determined the old property or retrospectively converted the old model's UNKNOWN into YES. The same rule with \(r_k(x)=F\) changes a former rejection to admission only when removing that requirement is independently legitimate. If another retained condition is \(?\) or \(F\), the new conjunction is not automatically \(T\).
+
+This gives a precise **relative-determination theorem**: uncertainty can cease to be *decision-relevant* by subtracting an unnecessary gate, rather than by discovering information that settles that gate. The objective/contract/version must accompany both statuses; silently replacing the old label destroys provenance and creates a false proof.
+
+### 12.2 No smuggled population of “cases”: relax the admission rule before finding a witness
+
+A harder case is **pre-admission non-recognition**. An exterior phenomenon may fail the old *grammar, type or question* of a proposal; the system cannot honestly call it a previously logged UNKNOWN item. If its evidence was never received, retained or reconstructible, CR-2 does not identify or recover it.
+
+The metasyntactic inquiry can nevertheless operate on the *existing inferior machine's description*:
+
+1. Identify the declared business objective, interfaces, local role, admission gates and dependency/authority architecture.
+2. Determine which gate is a genuinely required invariant and which is a narrower **frame assumption** whose necessity is not established by the other hard requirements. Lack of derivation is **not** proof that the assumption is false.
+3. Specify a **local rule-contraction proposal**: weaken/remove one justified gate, or broaden the admitted *question* (e.g. from “improve the physical office” to “improve working conditions”) without enumerating all possible solutions, ideas, objects or exterior participants.
+4. Ask whether the existing process and its boundaries can now **admit and assess** some future, observed or legitimately generated signal under the revised objective conditions. A logical enlargement is not already an observed candidate, a guarantee of reachability or a grant of authority.
+
+At theory level, for a consistent ordinary logical theory \(T=H\cup\{\alpha\}\), removal of \(\alpha\) yields the conditional inclusion
+
+\[
+\operatorname{Mod}(T)\subseteq\operatorname{Mod}(H).
+\tag{CR-3}
+\]
+
+This enlarges the class of *possible interpretations* without a census of an exterior \(\mathcal U^+\). It neither entails a particular real-world object nor evades the need for an interpretable vocabulary, evidence and computable evaluation. If \(H\models\alpha\), removing its written occurrence does not actually change the model class. This is theory contraction / constraint relaxation on an ordinary effective representation, **not** a non-Turing oracle.
+
+An explicit “indeterminate” label, timeout watchdog, diagnostic rule or additional predicate is *not inherently a new restricting axiom*: it may merely preserve a qualified status. Adding an admission gate can narrow \(\mathcal F\); reporting UNKNOWN does not necessarily do so. A new gate may also be helpful. The proposed contrast is between (i) solving every non-recognition by adding classifiers/filters and (ii) asking which **existing** gate makes that recognition necessary for the decision.
+
+### 12.3 What the original exploitation machine contributes near its frontier
+
+Keep §5's exact trivalent result, for a specified admitted traffic distribution: \(p_++p_-+p_?=1\); \(p_+\to0\) **only** implies \(p_-+p_?\to1\). It does **not** imply \(p_?\) rises, B is exhausted, C is reached or worthwhile witnesses accumulate. With a separate \(p_-\le h<1\), the bounded lower estimate \(p_?\ge1-h-p_+\) follows. Even then, useful relaxation candidates need an additional relevance/validity premise.
+
+Under those conditions, the **existing exploitation processor** is an appropriate witness of its own observed determination boundary: as established positives become scarce, its remaining observed judgments distinguish qualified negatives from qualified unresolved outcomes. No universal exterior classifier is needed to *observe the qualified residuals it actually emits*. Its watchdog/interface may need to preserve pre-loss event references. Nor does “near C” imply a spatial metric: the relation is **architectural and objective-conditioned** until a metric and supporting result are established.
+
+Crucially, **a qualified NO is not UNKNOWN**; a real budget/safety/legal impossibility remains a hard NO for that operation. The target for reconsideration is a gate found potentially nonessential *for the new positioned objective*, not an arbitrary rejection whose constraint is inconvenient.
+
+### 12.4 Metasyntactic selection: identify the constraint and interface, not the hidden item
+
+The earlier site selector \(\Phi(G_t,d,\kappa)\) (§4) can be refined as a **research proposal** to return a bounded *gate-position* rather than an imagined exterior population:
+
+\[
+\Phi_{\rm relax}(G_t,d,\kappa)
+\longrightarrow
+(\text{process/interface},\ r_k,\ \text{objective dependency},\
+\text{hard/negotiable/unknown status},\
+\text{reason for materiality},\
+\text{evidence and authority path},\
+\text{confidence}).
+\tag{CR-4}
+\]
+
+The evidence inputs may include: a sourced architectural dependency graph, objective shortfall, verified saturation of B-side changes, the origin of admission rules, shared resource/use restrictions, observed \(+/-/?\) outcomes **where available**, and preserved boundary discrepancies. This operator does **not** receive an oracle list of all residual cases or a graph of unseen indeterminates.
+
+A bottleneck or shared cross-dimensional gate can be worth testing because changing **one** obligation may affect several objective dependencies. But a merely nonredundant gate can be **inactive at the current optimum**; its removal enlarges the feasible set yet may not improve value. Some gates are jointly limiting, so no single relaxation is sufficient. The selector must preserve NO TARGET / INCOMPARABLE / UNRESOLVED when support is missing, and count the cost of architectural mapping and diagnostic inference.
+
+### 12.5 Translate constraint relaxation into the **existing** agentic opportunity gradient
+
+For participant \(i\), let \(\tau_k\) be a **candidate transition** to a role/contract position in which \(r_k\) is legitimately relaxed or made inapplicable under the same declared Objective Envelope. Do not introduce a new universal gradient symbol. The [source-owned Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) defines, for a justified scalar conditional model,
+
+\[
+G_i(\tau_k,t\mid\Delta_{\rm RA})
+=
+R_i(\text{current}\mid\delta_i)
+-
+\mathbb E[R_i(\text{after }\tau_k\mid\delta_i)].
+\tag{CR-5}
+\]
+
+For declared normalized fulfilment \(V_i=1-R_i\), this is an expected fulfilment increase. It may express a reduction in objective shortfall, “frustration” or distance **only if those notions are explicitly defined in that profile and mapped to its risk functional**. For multidimensional or incommensurable outcomes, preserve the source's vector/Pareto/robust and tie-break semantics; do not invent a single number.
+
+The **logical** best feasible value weakly improves after an authorized pure relaxation under CR-1 and identical hard conditions, but a **strict** better outcome requires a genuinely better admissible witness and evidence. The **estimated** gradient can be positive, zero, negative, bounded or UNRESOLVED once validation costs, inter-agent dependencies, risk and regime change are counted. For differentiable convex problems, binding-constraint dual sensitivity can assist estimation; it does not replace the existing regime/objective-conditioned gradient or prove a strict benefit in general.
+
+The gradient is **opportunity, not permission**. Canonical [MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) retains its established distinction:
+
+\[
+T_{\rm exec,i}\subseteq T_{\rm ACC,i}\subseteq T_{\rm reachable,i}.
+\tag{CR-6}
+\]
+
+A restriction may be “hard” for the current **role-bound ACC** and still be *negotiable by its legitimate issuer*; a protected Objective Envelope, safety, legal, lineage or delegated-authority invariant is not waived by a favorable gradient. This research annex cannot grant that power to itself.
+
+### 12.6 Full agentic sequence: qualified opportunity → signalling → consent → effective repositioning
+
+This is a **specific candidate source of a transition** inside the already owned [canonical repositioning cycle](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#24-end-to-end-cycle), **not** a replacement protocol:
+
+1. **Normal operation / qualified evidence.** Source agents continue exploitation; preserve bounded outcome, residual/provenance and actual event references when authorized. EA, Cartography and Regime Awareness maintain participant-local and regime-qualified A/B/C/D roles, not a universal external census.
+2. **Structural positioning.** Map the material objective and constraints, distinguish hard NO from UNKNOWN, find where B-side exploitation is demonstrably inadequate, and select a possibly limiting rule/interface with \(\Phi_{\rm relax}\). Low positive rates alone are insufficient.
+3. **Counterfactual relaxation and role target.** Form \(\tau_k\): a *proposed* less restrictive gate, qualified new admission question and corresponding candidate role/ACC position. For already evaluable referents, calculate a **hypothetical** \(?\to T\) requalification under the proposed contract version; pre-admission non-members remain unobserved until supported. Calculate the **existing** objective-risk gradient of \(\tau_k\) with confidence and unresolved effects.
+4. **Governance gate before action.** MSCA's Type/posture/drift and Objective Envelope checks still precede candidate selection as specified. Apply ACC, lineage, current delegation and authority gates. Within-role/within-ACC changes can follow their delegated path; outside-authority candidates remain **opportunities or requests**. No autonomous bypass, silent objective pivot or global governance assumption.
+5. **Communicate the qualified gradient and intention.** Where agreement/authority is needed, emit the canonical **RepositionIntent** carrying source evidence, candidate \(\tau_k\), relative \(?\to T\) claim, objective-risk basis, requested gate/role/ACC change, expiry, addressees, lineage/authority and confidence. This is a *proposed position*, not an already-effective repositioning.
+6. **Receive legitimate response.** The existing [ACC/authority and signalling model](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) permits APPROVE, REJECT, MODIFY, REQUEST_EVIDENCE, ESCALATE or expiry/no valid response. Approval is not inferred from silence. HOLD/UNRESOLVED preserves the status; rejection of authority is **not** evidence that the opportunity hypothesis was false.
+7. **Re-contract and make the position effective.** Only after valid approval/issuer/version/lineage binding as required: produce a within-role adjustment, permitted same-lineage ACC successor, approved new binding, or legitimately issued new lineage/MSCA relation. Update bound/effective role, granted authority, dependencies and interface criteria. A valid new contract can make a formerly UNKNOWN **admission decision** determinate relative to that new contract, without falsifying its old status.
+8. **Verify, emit and iterate.** Test delivered value, safety, objective adherence, conflicts with other participants and resource effects under bounded observation. Preserve failure/rollback authority, old/new provenance and unresolved parts. Emit the bounded post-transition signal; other agents independently update Cartography/RA and may reposition in subsequent cycles. Local beneficial admission is not automatically a global optimum, a collective agreement or a completed DDS Stage C proof.
+
+The key timing is: **gradient/candidate communicated → legitimate accept/modify/reject → authorized re-contracting → effective repositioning → evidence and next-cycle signalling**. If the transition is already within currently delegated permission, its applicable local authorization gate still applies; an external acceptance message is not universally mandatory.
+
+### 12.7 Telework and sensor revisited — the earlier-than-candidate path
+
+**Telework:** The 2019 firm's original question “improve *our office*” may encode an *office-only* admission rule. The employer's genuine objective is adequate working conditions and capacity under budget/security/service/legal commitments. Architectural analysis of simultaneous desk-capacity, cost and travel constraints may select **mandatory physical presence / employer-owned workplace** as an important rule to investigate. At this stage the processor need not have named, enumerated or even accepted “telework” as a possible *office-improvement proposal*. Relaxing the **question's admission rule** broadens the class of possible interpretations. A later observed or justified practice of producing a legitimate work result without the old office requirement can then be locally qualified and, only after applicable employer/worker/IT/security/insurance authority, admitted under a revised contract. This **does not conjure telework from nothing** and requires no society-wide classification. The previous §7 path using already received requests is **one possible evidence route, not the necessary origin of this mechanism**. If work-from-outside is never observed, proposed or testably generated, opening the rule alone supplies no specific physical witness.
+
+**Sensor:** The normal sensor's own finite-budget observed outcomes, and/or a watchdog at its interface, can expose *qualified* unresolved boundary observations without a second universal classifier. The metastructural map chooses **which sensor and which admission/test gate** deserve attention (for instance an unnecessarily strict decision threshold, an outdated frame assumption, or a time/coverage budget **if legitimately adjustable**). A local relaxation can render a particular downstream *decision* determinate under a revised rule if all retained safety/objective conditions are true. Extending timeout does **not** automatically decide an uncomputable property or guarantee an eventual result; an unreceived signal remains unreachable. A sensor that returns only hard NOs is a countermodel to inferred unknown concentration. The original exploitation process may continue normally while the allowed gate/contract is changed through authorized control.
+
+### 12.8 Research propositions, countermodels and tests for PR review
+
+- **CR-1 set inclusion:** proved under conjunctive restrictions and unchanged hard/objective definitions. Strict improvement requires an admissible better solution and no missing inter-agent hard condition.
+- **CR-2 relative requalification:** proved for a *recognized/evaluable* referent under the declared \(T/F/?\) conjunctive decision; the discarded property remains unknown. Extend separately to schema/admission changes with explicit source and observation assumptions.
+- **CR-3 theory-level opening:** removing a non-entailed axiom admits more interpretations without naming every exterior item; mathematical-model existence does **not** prove a physical or useful witness.
+- **H-RELAX-LOC (OPEN):** sourced cross-dimensional architecture and B-reserve evidence can select a more useful *gate to relax* than indiscriminate residual capture or random relaxation, without the solution's identity or a global UNKNOWN histogram.
+- **H-RELAX-GRAD (OPEN):** the source-owned local gradient can be qualified **before** acceptance and can forecast useful risk/shortfall reduction for selected relaxations, with explicit accuracy/confidence/cost limits.
+- **H-RELAX-GOV (OPEN):** the complete authorized ACC/MSCA role transition can preserve all declared global hard constraints while enabling a previously blocked local result and a subsequent, independently verified larger objective effect.
+- **Frontier-concentration hypothesis (OPEN):** exploitation of its B reserve may correlate with increasing relevant qualified unresolved observations **only** with separately stated task-distribution, hard-rejection, coverage, logging and retention premises. Do not infer positive \(p_?\), C reachability, a “bingo” or a high gradient solely from dwindling positive results.
+- **Required countercases:** all nonpositives are sound hard NO; the selected rule is active but irrevocable; the rule is nonredundant yet slack at the objective optimum; the physical candidate never exists/arrives; an old input grammar cannot see it; multiple coupled constraints still block gain; timeouts reflect noise; a local ACC gain damages another owner's hard objective; signer/lineage denies permission; stale gradient is invalid after regime shift; an equally informed conventional adaptive Turing system ties or outperforms.
+- **Proposed measured study, NOT performed here:** fix objective/constraints and comparable workloads; record the architecture/evidence **before** knowing any held-out “telework-like” solution; compare (i) baseline exploitation, (ii) add-classifier/filter exploration, (iii) indiscriminate UNKNOWN replay, (iv) structurally targeted rule relaxation with contract-gated requalification, (v) equally informed strong adaptive comparator. Measure gate-selection precision, new determinacies *by contract version*, verified local and whole-ecosystem outcomes, safety/authority violations, false escalations, full cost and context drift. A reviewer should attempt leakage checks: no solution identity, answer class or secret population may enter \(\Phi_{\rm relax}\).
+
+**Source and ownership boundaries:** [EA A/B/C/D mathematical research note (00M)](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md); [ACC governance profile 01I](../ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md); [Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md); [Canonical MSCA Operation/Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md); [Ecosystem Signalling 01J](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). This section is a **research interpretation bridging owners**, not a mutation to their definitions, ACC authority, runtime protocol or acceptance status.
